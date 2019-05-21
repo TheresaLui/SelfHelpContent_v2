@@ -10,7 +10,7 @@
 	supportTopicIds="32626098"
 	resourceTags=""
 	productPesIds="15725"
-	articleId-"npm-loganalytics-troubleshoot-and-case-submission-opin"
+	articleId="npm-loganalytics-troubleshoot-and-case-submission-opin"
 	cloudEnvironments="public,fairfax"
 />
 
