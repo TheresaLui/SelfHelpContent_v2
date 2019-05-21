@@ -20,8 +20,8 @@
         {
             "id": "Troubleshooting_VNet_connectivity_issues",
             "title": "Troubleshooting VNet connectivity issues",
-            "description": "connectivity/VNET service endpoints",
-            "category": "",
+            "description": "I am experiencing issues connecting to my Virtual Network endpoints.",
+            "category": "Connectivity",
             "searchTags": "",
             "supportTopicId": "32628413",
             "commonSolutionArticleId": "d46364d3-7f26-4004-a67b-30c47cd73662"
