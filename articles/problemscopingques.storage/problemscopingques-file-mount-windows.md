@@ -131,7 +131,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
+                    "text": "Don't know or not listed above"
                 }
             ],
             "required": false,
