@@ -21,9 +21,9 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> has detected run failures that may be caused by an unexpected character in the name of a parameterized dataset. An example dataset name is <!--$Dataset-->[Dataset]<!--/$Dataset-->. An example correlationId is <!--$correlationId-->[correlationId]<!--/$correlationId-->. An example error message is <!--$ErrorMessage-->[ErrorMessage]<!--/$ErrorMessage-->."
+Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> has detected run failures that may be caused by an unexpected character in the name of a parameterized dataset. An example dataset name is <!--$Dataset-->[Dataset]<!--/$Dataset-->. An example correlationId is <!--$correlationId-->[correlationId]<!--/$correlationId-->. An example error message is <!--$ErrorMessage-->[ErrorMessage]<!--/$ErrorMessage-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Rename your datasets with invalid characters to start with an alphabetic character and only contain alphanumeric characters and underscores.
+* Rename your datasets with invalid characters to start with an alphabetic character and only contain alphanumeric characters and underscores
