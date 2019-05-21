@@ -45,7 +45,7 @@ Kt = Throughput Scale coefficient = 60
 Ks = Storage Scale coefficient = 40 RU/GB. For collections created prior to Feb 2019, this value is 10 RU/GB.
 Kc = Collection(s) Scale coefficient for shared throughput database = 100 RU/collection
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Request units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
 * [Request unit calculator](https://www.documentdb.com/capacityplanner)
