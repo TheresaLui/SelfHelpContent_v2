@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Azure Virtual Machine backup failure diagnostics",
+            "description": "These diagnostics will check for errors.",
+            "insightNotAvailableText": "We didn't find any problems"
+	   	    },
     "formElements": [
         {
             "id": "vm_facing_issue",
@@ -24,7 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": false
+            "required": false,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -118,7 +124,8 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

@@ -19,10 +19,11 @@
 
 <!--issueDescription-->  
 We were able to detect a login failure in the following Hub Database(s):<br>
-**<!--$LoginFailedHubList--> LoginFailedHubList <!--/$LoginFailedHubList-->**
-<!--/issueDescription-->
 
-Please update the credentials for the hub(s).<br>
+**<!--$LoginFailedHubList--> LoginFailedHubList <!--/$LoginFailedHubList-->**<br>
+
+Please update the credentials for the hub(s).
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
