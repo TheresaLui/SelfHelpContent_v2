@@ -16,7 +16,7 @@
     cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 
-# We ran diagnostics on your resource and found high degree of MAXDOP
+# We ran diagnostics on your resource and found high request limit
 
 <!--issueDescription-->
 Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** has reached the maximum request limit. Once the limit is reached, incoming requests are rejected until an ongoing request finishes.
