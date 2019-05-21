@@ -16,13 +16,14 @@
 	cloudEnvironments="public"
 />
 
-# Error CBPOperationAborte
+# Error CBP Operation Aborted
 
 <!--issueDescription-->
-We have identified that you recent backup operation has failed since it was cancelled or aborted by the user
+We have identified that you recent backup operation has failed as it was cancelled or aborted by the user. To resolve this issue, ensure you are using the latest version of the Azure Backup Agent. To see the version currently in use, on the Actions pane of the MARS console, select **About Microsoft Azure Recovery Services Agent**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 - Ensure if you are on the latest version of the Azure Backup Agent. To find out the version, on the Actions pane of the MARS console, select **About Microsoft Azure Recovery Services Agent**. You can download the latest version from [here](https://aka.ms/azurebackup_agent).
-- Ensure CBEngine process is running and in services.msc the Microsoft Azure Recovery Services agent service is up and running.
-- If the server was restarted or the job was cancelled, then retry the operation.
+- Ensure CBEngine process is running and in services.msc the Microsoft Azure Recovery Services agent service is up and running
+- If the server was restarted or the job was cancelled, then retry the operation
