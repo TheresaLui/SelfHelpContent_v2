@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder="2"
+    displayOrder="26"
 	selfHelpType="resource"
     articleId="application-gateway-ssl-termination"
     diagnosticScenario="ApplicationGatewaySSLTermiationIssues"
