@@ -140,7 +140,7 @@
         {
             "id": "error_other",
             "order": 4,
-            "visibility": "mount_error == dont_know_answer",    
+            "visibility": "mount_error == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",
