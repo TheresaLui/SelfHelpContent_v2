@@ -67,6 +67,7 @@
   },
   "displayLabel": "Delete or reconfigure idle virtual network gateways",
   "additionalColumns": [],
-  "tip": "You can delete or repurpose idle virtual network gateways to reduce your Azure spend."
+  "tip": "You can delete or repurpose idle virtual network gateways to reduce your Azure spend.",
+  "costSavingInfo": "*You can save up to the stated amount if you choose to delete the virtual network gateway. Your actual savings may vary."
 }
 ---

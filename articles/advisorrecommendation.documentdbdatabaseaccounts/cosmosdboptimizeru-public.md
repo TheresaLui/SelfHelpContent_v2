@@ -79,6 +79,7 @@
       "name": "RecommendedThroughput",
       "title": "Recommended Throughput"
     }
-  ]
+  ],
+  "costSavingInfo": "*You can save up to the stated amount if you adjust the provisioned Request Units to the recommended amount for each collection."
 }
 ---

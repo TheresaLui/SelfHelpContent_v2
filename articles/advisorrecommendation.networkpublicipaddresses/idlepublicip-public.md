@@ -67,6 +67,7 @@
   },
   "displayLabel": "Delete unassociated Public IPs",
   "additionalColumns": [],
-  "tip": "You can delete your unassociated public IP address to reduce your monthly Azure spend."
+  "tip": "You can delete your unassociated public IP address to reduce your monthly Azure spend.",
+  "costSavingInfo": "*You can save up to the stated amount if you choose to delete the public IP address. Your actual savings may vary."
 }
 ---
