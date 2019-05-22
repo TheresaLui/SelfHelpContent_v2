@@ -16,7 +16,7 @@
 
 # I can’t find any data in the Azure Active Directory activity logs I have downloaded
 
-## **Recommended steps**
+## **Recommended Steps**
 
 When you download activity logs in the Azure portal, we limit the scale to 250K records, sorted by most recent. In order to download all the records, you can try the following approaches:
 
@@ -24,6 +24,6 @@ When you download activity logs in the Azure portal, we limit the scale to 250K 
 
 - You can use the [Azure AD Reporting APIs](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-getting-started) to fetch up to a million records at any given point. Our recommended approach is to run a script on a scheduled basis that calls the reporting APIs to fetch records in an incremental fashion over a period of time (for example, daily or weekly).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
