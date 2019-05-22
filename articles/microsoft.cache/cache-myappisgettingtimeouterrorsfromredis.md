@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="2368d7e8-0574-49ae-9215-f70a3e07923e"
 />
 
 # My app is getting timeout errors from Redis

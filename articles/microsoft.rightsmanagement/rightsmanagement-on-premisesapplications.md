@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="db18a033-ca80-4750-aed0-b84b498701d7"
 />
 
 # on-premises applications

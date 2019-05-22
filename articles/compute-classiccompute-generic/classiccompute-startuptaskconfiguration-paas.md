@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="d2669b58-e563-4349-893d-2ce70e89e54a"
 />
 
 # worker role (paas)/configuration and management/startup task configuration

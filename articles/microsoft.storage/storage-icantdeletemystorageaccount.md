@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="3fdb8d6c-ac1a-4100-bf86-9a38dd9e67bd"
 />
 
 # I can't delete my storage account

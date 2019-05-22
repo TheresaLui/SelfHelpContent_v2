@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="ee2740e9-e40c-4c32-ab2c-0ec8414b28c3"
 />
 
 # Advisory for Key Vault related tasks

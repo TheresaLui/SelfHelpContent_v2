@@ -4,39 +4,54 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="trinadhk"
+	ms.author="trinadhk"
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32553299"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="6fff7f67-d153-43f0-89c9-598eba2fe465"
 />
 
 # Azure Windows VM Restore Limitations
 
 ## **Recommended Steps**
-**Limitations**<br>
-- **Replacing an existing virtual machine during restore is not supported**. Please create a new virtual machine from backup or restore disks from backup and use disks and configuration to create a new VM. Using [Portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), Using [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm), from [restored disk](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks) <br>
-- If you are facing issues restoring a virtual machine, please try *Restore Disk* functionality: <br>
-  - **Step 1** - [*Restore Disks*](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#choose-a-vm-restore-configuration) functionality.<br>
-  - **Step 2** - Use the disk that was restored to [*create a virtual machine*](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks).<br>
-- **Cross region and cross-subscription restore is not supported** i.e. if your VM which got backed up is in West Europe, you can only restore to West Europe in same subscription.<br>
-* [File/Folder restore limitation with special configuration - **Dynamic Disks, Storage Spaces**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#special-configurations) <br>
-* If you are **unable to restore**, verify that you don’t have any group policy restriction in place from portal.<br>
-* If you are **unable to see backup items** from the portal then ensure you have [required permission](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) to access backup vault. <br>
-* [Ensure you have appropriate Role Based Access controls in place.](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) <br>
 
-**Frequently Asked Questions:**<br>
-- [*How can I restore specific files or folders from IaaS VM?*](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)<br>
-- *How to restore IaaS VM to latest/specific recovery point?* Using [Portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), Using [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm), from [restored disk](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks), when Key (Key Encryption Key) and Secret (BitLocker Encryption Key) [does not exist in the key vault.](https://docs.microsoft.com/azure/backup/backup-azure-restore-key-secret)<br>
-- [*How to configure static IP address to restored VM?*](https://docs.microsoft.com/azure/virtual-network/virtual-networks-reserved-private-ip#how-to-add-a-static-internal-ip-to-an-existing-vm)<br>
-- [*How to restore an Encrypted VM?*](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
-- [*How to restore a Domain Controller VM?*](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-domain-controller-vms) For Domain Controller VMs, we recommend using Restore Disks and creating a new VM from restored disks.<br>
-- [*How much will it take to restore VM?* Understand factors contributing to restore time.](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-restore-time)<br>
-- *How can I attach existing NIC to the restored VM?* Follow [steps](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#vm-remove-nic) to remove from original VM and [steps](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#vm-add-nic) to attach to restored VM.<br>
-- [*How to restore VM with special network configurations?*](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-vms-with-special-network-configurations)<br>
+**Known Limitations**
 
-## **Recommended documents**
-- [Azure virtual machine restore troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#backup-or-restore-taking-time)<br>
-- [How to restore virtual machine using portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)<br>
-- [How to restore virtual machine using PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm)<br>
+- Restoring backed-up VMs across Zone/Region/subscription or V-Net is not supported. For more information, see [supported scenarios](https://aka.ms/VMBackup-Support-VMManagement) for VM management.
+- Files/Folders restore limitation on having special configuration [**Dynamic Disks or LVM/RAID Arrays**](https://aka.ms/AB-AA4ecqw)
+- Restore disks will restore all disks (OS and data disks attached to the VM). Individual disk restore is not available using this option.
+- Replacing an existing virtual machine during restore is not supported. You can use one of the following restore options:
+
+	- [Replace disks of existing backed-up VM](https://aka.ms/VMRestore-ReplaceExisting-disks)<br>
+	- [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://aka.ms/AB-AA4e56j)
+	- [Restore as a new VM](https://aka.ms/AzureBackup-Restore-NewVM)
+	
+**Frequently Asked Questions**
+
+- [Restore specific files or folders from Azure Virtual Machine backup](https://aka.ms/AB-AA4e56a)<br>
+- Restore to latest or specific recovery point using [Portal](https://aka.ms/AB-AA4ecqx) or [PowerShell](https://aka.ms/AB-AA4e56o)
+- [Configure static IP address to restored VM](https://aka.ms/AB-AA4e56r)<br>
+- [Restore an Encrypted VM](https://aka.ms/AB-AA4e56t)<br>
+- [Restore when KEK (Key Encryption Key) and BEK (BitLocker Encryption Key) does not exist in the key vault](https://aka.ms/AB-AA4ecqr)<br>
+- [Restore a Domain Controller VM](https://aka.ms/AB-AA4e56v)<br>
+- [Restore VM with special configurations](https://aka.ms/AB-AA4e56v)<br>
+- Attach an existing NIC to the restored VM:
+	
+	- Step 1: [Remove from original VM](https://aka.ms/AB-AA4ecr0)<br>
+	- Step 2: [Attach to restored VM](https://aka.ms/AB-AA4e56s)<br>
+
+- If you are unable to restore, verify that you don’t have any group policy restriction from portal
+- If you are unable to see **Backup Items** from the portal, ensure you have [required permission](https://aka.ms/AB-AA4ecqc) to access backup vault
+- If you are facing issues restoring a VM, try [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://aka.ms/AB-AA4e56j)<br>
+- To perform a restore ensure you have appropriate [Role Based Access Controls in place](https://aka.ms/AB-AA4ecqc) <br>
+- To restore a VM into a specific availability set, [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a VM in availability sets using PowerShell cmdlets <br>
+- In case of Azure datacenter disaster, Azure Backup [restores VM in paired datacenter](https://aka.ms/AB-AA4e56v)<br>
+
+## **Recommended Documents**
+
+- [Azure Virtual Machine restore troubleshooting guide](https://aka.ms/AB-AA4ecqi)<br>
+- [Restore Azure Virtual Machine using portal](https://aka.ms/AB-AA4e565)<br>
+- [Restore Azure Virtual Machine using PowerShell](https://aka.ms/AB-AA4e56z)<br>

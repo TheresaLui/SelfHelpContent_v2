@@ -6,6 +6,7 @@
    supportTopicIds="32584874,32584876,32584878,32584880,32584881,32584882"
    productPesIds="15526"
    cloudEnvironments="public, MoonCake"
+	articleId="16638e7b-b199-4ffa-8e34-608e66b5b0b1"
 />
 # VPN Gateway Issues under Virtual Network ticket path
 *  Issue description

@@ -8,9 +8,10 @@
     selfHelpType="generic"
     supportTopicIds="32045781"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="14785,16579"
     cloudEnvironments="public"
-    />
+    	articleId="9e179732-603f-4735-8288-09b704b3ad15"
+/>
 
 # I'm having problems resetting a user's password
 

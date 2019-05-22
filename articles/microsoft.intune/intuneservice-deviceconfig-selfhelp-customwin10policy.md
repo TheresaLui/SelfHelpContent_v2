@@ -10,6 +10,7 @@
 	resourceTags="deviceconfiguration_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="0263873e-f96b-47d6-84ef-e101cf169b2f"
 />
 
 # I'm creating and applying custom Windows 10 policies, but they're not working.
@@ -22,4 +23,4 @@ Windows 10 OMA-URI settings need to be entered exactly as the Windows CSP expect
 * Data type is entered
 * Setting value is entered as expected by the OS
 
-Intune does not support every OMA-URI available. For more information about Custom OMA-URI settings, see the (Intune documentation)[https://docs.microsoft.com/intune/custom-settings-windows-10]. 
+Intune does not support every OMA-URI available. For more information about Custom OMA-URI settings, see the [Intune documentation](https://docs.microsoft.com/intune/custom-settings-windows-10). 

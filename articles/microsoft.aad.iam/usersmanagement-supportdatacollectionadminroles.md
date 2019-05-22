@@ -6,11 +6,12 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="ed99f3d0-8696-4706-94d9-7085e144dc50"
 /> 
 # Other problem with Azure AD admin role 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other problem with Azure AD admin role",
   "fileAttachmentHint": "Screenshot that shows the problem",
   "formElements": [
@@ -596,7 +597,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "supportDataCollectionAdminRolesadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 29,
       "controlType": "multilinetextbox",

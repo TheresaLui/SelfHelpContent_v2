@@ -10,6 +10,7 @@
 	productPesIds=""
 	supportToicIds =""
 	cloudEnvironments="public"
+	articleId="b2f48461-dec4-4d14-acbd-9bb6eb9a334a"
 />
 
 # I am getting 'Invalid registration' error

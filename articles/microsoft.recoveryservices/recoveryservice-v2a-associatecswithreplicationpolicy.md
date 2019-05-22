@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="060dc550-73cf-4cc8-8417-af9e3bf63e0b"
 />
 # Associate Configuration Server to replication policy
 
@@ -23,7 +24,6 @@
 
 ## **Recommended documents**
 
-- [How to exclude disk from replication?](https://docs.microsoft.com/azure/site-recovery/site-recovery-exclude-disk#how-to-exclude-disks-from-replication)<br>
-- [More about excluding disk from replication](https://docs.microsoft.com/azure/site-recovery/site-recovery-exclude-disk)<br>
-- [SLA information for Site Recovery](https://azure.microsoft.com/support/legal/sla/site-recovery/v1_1/)<br>
-- You can reduce Recovery time objectives (RTO) further by integrating with [Azure Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview). Click [here](https://azure.microsoft.com/blog/reduce-rto-by-using-azure-traffic-manager-with-azure-site-recovery/) to know more.
+- [How to exclude a disk from replication?](https://docs.microsoft.com/azure/site-recovery/site-recovery-exclude-disk#how-to-exclude-disks-from-replication)<br>
+- [SLA information for Site Recovery](https://azure.microsoft.com/support/legal/sla/site-recovery/v1_2/)<br>
+- Reduce Recovery time objective (RTO) by [using Azure Traffic Manager with Site Recovery](https://docs.microsoft.com/azure/site-recovery/concepts-traffic-manager-with-site-recovery#recovery-time-objective-rto-considerations)

@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="b048470e-fec4-4c1b-8a9d-f02bdbe9ff28"
 />
 
 # high availability/issue or error when using alwayson
@@ -17,9 +18,9 @@
 ## **Recommended steps**
 Try the steps in the following blog post to diagnose and mitigate Availability Group connectivity issues
 
-1. Troubleshoot Availability Group connectivity<br>
-[Troubleshooting Availability Group Listener in Azure](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)
+* [Troubleshooting Availability Group Listener in Azure](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)
 
 ## **Recommended documents**
-[Troubleshoot Availability Group Listener in Azure VM](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)<br>
-[Configure an ILB listener for AlwaysOn Availability Groups in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-classic-portal-sql-alwayson-availability-groups/)
+* [Troubleshoot Availability Group Listener in Azure VM](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)<br>
+* [Configure an ILB listener for AlwaysOn Availability Groups in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-classic-portal-sql-alwayson-availability-groups/)<br>
+* [High availability and disaster recovery for SQL VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-high-availability-dr/)

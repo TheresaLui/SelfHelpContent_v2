@@ -3,14 +3,15 @@
     description="Azure Active Directory case submission self help"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="elkuzmen"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32565595"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="f5ccbe77-fa7c-408e-85be-3a4f7cde57eb"
+/>
 
 # Problem deleting an Azure AD tenant 
 

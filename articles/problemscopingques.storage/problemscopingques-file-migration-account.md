@@ -2,53 +2,60 @@
 	pageTitle="Storage File migration between Storage Accounts"
 	description="Storage File migration between Storage Accounts scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602760"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="388afd66-12f1-4dd4-b42f-9529fa6f9e22"
 />
 # Storage File migration between Storage Accounts
 ---
 {
-	"resourceRequired": false,
-	"title": "Storage File migration between Storage Accounts scoping question",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "storage_account_from",
-			"order": 1,
-			"controlType": "textbox",
-			"displayLabel": "Source Storage Account",
-			"watermarkText": "From StorageAccountName",
-			"required": true
-		}, {
-			"id": "storage_account_to",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Destination Storage Account",
-			"watermarkText": "To StorageAccountName",
-			"required": true
-		}, {
-			"id": "file_share_or_path",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Destination File Share or File path",
-			"watermarkText": "'FileShare' or 'FileShare/FileName'",
-			"required": false
-		}, {
-			"id": "problem_start_date",
-			"order": 4,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate start time of the most recent occurrence",
-			"required": false
-		}, {
-			"id": "additional_details",
-			"order": 5,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Provide any additional details",
-			"required": false,
-			"useAsAdditionalDetails": true
-		}
-	]
+    "resourceRequired": false,
+    "title": "Storage File migration between Storage Accounts scoping question",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "storage_account_from",
+            "order": 1,
+            "controlType": "textbox",
+            "displayLabel": "Source Storage Account",
+            "watermarkText": "From StorageAccountName",
+            "required": false
+        },
+        {
+            "id": "storage_account_to",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Destination Storage Account",
+            "watermarkText": "To StorageAccountName",
+            "required": false
+        },
+        {
+            "id": "file_share_or_path",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Destination File Name",
+            "watermarkText": "'FileName' of 'FileShare/FileName'",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate start time of the most recent occurrence",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide any additional details",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+    ]
 }
 ---

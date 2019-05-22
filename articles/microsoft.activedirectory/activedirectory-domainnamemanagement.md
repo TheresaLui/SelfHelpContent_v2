@@ -3,14 +3,15 @@
     description="Azure Active Directory case submission self help"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="elkuzmen"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32045771"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="0cbe770c-04f0-4abb-bd6d-7633767b45f8"
+/>
 
 # Domain name management
 

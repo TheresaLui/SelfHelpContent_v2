@@ -10,6 +10,7 @@
 	resourceTags="devicecompliance_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="267c503f-ebee-4b9c-8713-e1b1a183e0b9"
 />
 
 # The Android Enterprise devices in my organization are compliant with all of our policies, but they are still showing as not compliant.
@@ -21,4 +22,4 @@ If your devices use Microsoft Intune Exchange On-premises or Exchange Online Ded
   1.	Deploy an email profile for the Gmail or Nine Work for Android Enterprise app.
   2.	Deploy those apps as a required installation.
 
-For more information about configuring policies for devices that use these environments, see the Intune documentation.
+For more information about configuring policies for devices that use these environments, see the [Intune documentation](https://docs.microsoft.com/en-us/intune/device-profile-create).

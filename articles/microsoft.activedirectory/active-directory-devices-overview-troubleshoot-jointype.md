@@ -11,6 +11,7 @@
 	resourceTags="devices_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="d05f9921-97b5-4a0b-a444-dd9d52916cff"
 />
 
 # What is the difference between Join Type and Trust Type?
