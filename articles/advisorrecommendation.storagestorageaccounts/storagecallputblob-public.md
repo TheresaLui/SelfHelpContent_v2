@@ -45,7 +45,7 @@
   "actions": [
     {
       "actionId": "e547abea-8f78-4e67-957b-a40bc8d454a4",
-      "description": "Use \"Put Blob\" for Small Block Blobs",
+      "description": "Use 'Put Blob' for Small Block Blobs",
       "actionType": "Document",
       "documentLink": "https://aka.ms/putblob"
     }
