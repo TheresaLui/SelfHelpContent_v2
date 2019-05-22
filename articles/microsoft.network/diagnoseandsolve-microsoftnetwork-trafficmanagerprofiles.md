@@ -21,7 +21,7 @@
             "id": "Traffic_Manager_is_directing_requests_to_a_disabled_endpoint",
             "title": "Traffic Manager is directing requests to a disabled endpoint",
             "description": "Traffic Manager is directing requests to disabled endpoint",
-            "category": "",
+            "category": "Configuration",
             "searchTags": "",
             "supportTopicId": "",
             "commonSolutionArticleId": "2171b93f-6cc9-41cf-b88c-f40a0510c0b6"
@@ -30,7 +30,7 @@
             "id": "Traffic_Manager_is_directing_requests_to_disabled_endpoint",
             "title": "Traffic Manager is directing requests to disabled endpoint",
             "description": "Traffic Manager is directing requests to disabled endpoint",
-            "category": "",
+            "category": "Configuration",
             "searchTags": "",
             "supportTopicId": "",
             "commonSolutionArticleId": "1fc2c04c-8526-4433-bea4-2b5e8b11adfc"
@@ -39,7 +39,7 @@
             "id": "The_response_on_endpoints_is_slow_or_varies_a_lot",
             "title": "The response on endpoints is slow or varies a lot",
             "description": "The response on endpoints is slow or varies a lot",
-            "category": "",
+            "category": "Performance",
             "searchTags": "",
             "supportTopicId": "",
             "commonSolutionArticleId": "f5f90671-ebc6-4ede-b399-736c64382616"

@@ -21,7 +21,7 @@
             "id": "Node_shows_supported_protocol_as_ICMP_only_in_the_Nodes_page",
             "title": "Node shows supported protocol as ICMP only in the Nodes page",
             "description": "My node shows supported protocol as ICMP only",
-            "category": "",
+            "category": Configuration"",
             "searchTags": "",
             "supportTopicId": "32606425",
             "commonSolutionArticleId": "npm-agenticmponly-troubleshoot-and-case-submission"
@@ -29,8 +29,8 @@
         {
             "id": "No_monitoring_data_in_NPM",
             "title": "No monitoring data in NPM",
-            "description": "I installed NPM and setup rules  but I do not see any data",
-            "category": "",
+            "description": "I installed NPM and setup rules, but I do not see any data",
+            "category": "Missing Data",
             "searchTags": "",
             "supportTopicId": "32606425",
             "commonSolutionArticleId": "npm-nodataafterrules-troubleshoot-and-case-submission-nw"
