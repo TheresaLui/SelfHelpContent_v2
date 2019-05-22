@@ -23,5 +23,5 @@ We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vm
 
 You attempted to resize a VM to a size that is not available in its current availability set. You can choose a size that is currently available, or resize the VM but to do so you must stop all VMs in the availability set, resize the VM, and then restart the VMs.<br>
 
-You must stop all the VMs so that Azure can configure the availability set to support all the specified VM sizes. To procede, follow the steps described in [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set).
+You must stop all the VMs so that Azure can configure the availability set to support all the specified VM sizes. To proceed, follow the steps described in [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set).
 
