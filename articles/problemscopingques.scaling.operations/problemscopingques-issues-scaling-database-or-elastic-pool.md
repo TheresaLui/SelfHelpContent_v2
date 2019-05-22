@@ -11,7 +11,7 @@
 	articleId="problemscopingques-scalingissues"
 />
 
-# Issues Scaling a Database or Elastic Pool
+# Issues Scaling a Database or Elastic Pool 
 ---
 {
 	"resourceRequired": true,
