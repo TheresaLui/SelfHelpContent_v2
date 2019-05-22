@@ -1,13 +1,13 @@
 <properties
-    pageTitle="Use "Put Blob" for blobs smaller than 256 MB"
-    description="Use "Put Blob" for blobs smaller than 256 MB"
+    pageTitle="Use Put Blob for blobs smaller than 256 MB"
+    description="Use Put Blob for blobs smaller than 256 MB"
     authors="aadevteam"
     ms.author="aadevteam"
     articleId="b353f187-4cb4-4b2b-b502-472f45f32fd6_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# Use "Put Blob" for blobs smaller than 256 MB
+# Use Put Blob for blobs smaller than 256 MB
 ---
 {
   "recommendationOfferingId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
@@ -39,13 +39,13 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "http://aka.ms/understandblockblobs",
-  "description": "Use 'Put Blob' for blobs smaller than 256 MB",
-  "longDescription": "When writing a block blob that is 256 MB or less (64 MB for requests using REST versions before 2016-05-31), you can upload it in its entirety with a single write operation using 'Put Blob'. Based on your aggregated metrics, we believe your storage account's write operations can be optimized.",
+  "description": "Use \"Put Blob\" for blobs smaller than 256 MB",
+  "longDescription": "When writing a block blob that is 256 MB or less (64 MB for requests using REST versions before 2016-05-31), you can upload it in its entirety with a single write operation using \"Put Blob\". Based on your aggregated metrics, we believe your storage account's write operations can be optimized.",
   "potentialBenefits": "Increase performance and reduce operation costs.",
   "actions": [
     {
       "actionId": "e547abea-8f78-4e67-957b-a40bc8d454a4",
-      "description": "Use 'Put Blob' for Small Block Blobs",
+      "description": "Use \"Put Blob\" for Small Block Blobs",
       "actionType": "Document",
       "documentLink": "https://aka.ms/putblob"
     }
