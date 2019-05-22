@@ -34,6 +34,11 @@
             			"valueProperty": "id",
             			"textPropertyRegex": null
         		},
+			"dropdownOptions": [
+                	{
+                    		"value": "none_of_these",
+                    		"text": "None of the above"
+                	}],
 			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": true
