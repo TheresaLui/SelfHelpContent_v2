@@ -30,7 +30,7 @@
 			"dynamicDropdownOptions": {
             			"uri": "{resourceId}/operations?api-version=2017-10-01-preview",
             			"jTokenPath": "value",
-            			"textProperty": "id",
+            			"textProperty": "properties.description",
             			"valueProperty": "id",
             			"textPropertyRegex": null
         		},
