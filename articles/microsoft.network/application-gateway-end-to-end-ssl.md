@@ -29,5 +29,5 @@ If you are observing issues with End-to-end SSL encryption with Application Gate
 
 ## **Recommended Documents**
 
-- [End-to-end SSL overview](https://docs.microsoft.com/azure/application-gateway/ssl-overview#end-to-end-ssl-encryption).
-- [Configure end-to-end SSL with Application Gateway](https://docs.microsoft.com/azure/application-gateway/end-to-end-ssl-portal).
+- [End-to-end SSL overview](https://docs.microsoft.com/azure/application-gateway/ssl-overview#end-to-end-ssl-encryption)
+- [Configure end-to-end SSL with Application Gateway](https://docs.microsoft.com/azure/application-gateway/end-to-end-ssl-portal)
