@@ -73,6 +73,36 @@ virtualMachines  westus  Standard_F4                ...             None
 
 See the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
 
+A response is returned as shown in the following JSON:
+
+```json
+{
+  "value": [
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_A0",
+      "tier": "Standard",
+      "size": "A0",
+      "locations": [
+        "eastus"
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_A1",
+      "tier": "Standard",
+      "size": "A1",
+      "locations": [
+        "eastus"
+      ],
+      "restrictions": []
+    },
+    ...
+  ]
+}
+```
+
 
 
 
