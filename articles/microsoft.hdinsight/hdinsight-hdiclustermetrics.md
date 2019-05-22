@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Issue with Diagnostics or Metrics on Azure Portal"
+    pageTitle="Issue with Diagnostics or Metrics on Azure Portal "
     description="TSG / How-to for know scenario"
     service="microsoft.hdinsight"
     resource="clusters"
