@@ -31,7 +31,7 @@
       "controlType": "textbox",
       "displayLabel": "Name of the service",
       "watermarkText": "Provide the name of the service:",
-      "required": true
+      "required": false
     },
     {
       "id": "reason_description",
@@ -39,7 +39,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Reason for cancellation/switching/re-enabling",
       "watermarkText": "Provide the reason for cancellation/switching/re-enabling",
-      "required": true
+      "required": false
     },
     {
       "id": "browser_details1",

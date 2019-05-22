@@ -14,7 +14,7 @@
 # Billing API
 ---
 {
-  "resourceRequired": false,
+  "resourceRequired": true,
   "subscriptionRequired": true,
   "title": "Billing API",
   "fileAttachmentHint": "",
@@ -61,7 +61,7 @@
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "Provide your Subscription id",
-            "required": true
+            "required": false
         },
 {
       "id": "emailid_details",

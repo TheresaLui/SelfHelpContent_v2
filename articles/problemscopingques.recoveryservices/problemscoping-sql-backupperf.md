@@ -24,14 +24,14 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": true
+            "required": false
         },{
             "id": "database_Name",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the databases whose backup is slow?",
             "watermarkText": "Enter database name(s) comma separated",
-            "required": true
+            "required": false
         },
         {
             "id": "backup_Type",

@@ -18,45 +18,43 @@
 	"title": "7000-8000 Migration",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "software version",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Select the source appliance software version",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Version 2.1.1.518",
-					"text": "Version 2.1.1.518"
-				},{
-					"value": "Version 2.1.1.548",
-					"text": "Version 2.1.1.548"
-				}, {
-					"value": "Other",
-					"text": "Other"
-				},
-			],
-			"required": false
+		"id": "software version",
+		"order": 1,
+		"controlType": "dropdown",
+		"displayLabel": "Select the source appliance software version",
+		"watermarkText": "Choose an option",
+		"dropdownOptions": [{
+			"value": "Version 2.1.1.518",
+			"text": "Version 2.1.1.518"
 		}, {
-			"id": "serial number",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Serial number of source appliance",
-			"watermarkText": "Serial number of 5000-7000 series source appliance",
-			"required": false
-		},{
-			"id": "problem_start_time",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		},  {
-			"id": "problem_description",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true
-		},
-		]
+			"value": "Version 2.1.1.548",
+			"text": "Version 2.1.1.548"
+		}, {
+			"value": "Other",
+			"text": "Other"
+		}],
+		"required": false
+	}, {
+		"id": "serial number",
+		"order": 2,
+		"controlType": "textbox",
+		"displayLabel": "Serial number of source appliance",
+		"watermarkText": "Serial number of 5000-7000 series source appliance",
+		"required": false
+	}, {
+		"id": "problem_start_time",
+		"order": 3,
+		"controlType": "datetimepicker",
+		"displayLabel": "When did the problem begin?",
+		"required": true
+	}, {
+		"id": "problem_description",
+		"order": 4,
+		"controlType": "multilinetextbox",
+		"displayLabel": "Details",
+		"watermarkText": "Provide additional information about your issue",
+		"required": true,
+		"useAsAdditionalDetails": true
+	}]
 }
 ---

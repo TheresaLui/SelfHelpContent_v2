@@ -10,6 +10,7 @@
     articleId="application-gateway-end-to-end-ssl-insight"
     diagnosticScenario="ApplicationGatewayEndToEndSSLIssues"
     supportTopicIds="32582825"
+	productPesIds="15922"
     cloudEnvironments="public"
  />
 
@@ -19,13 +20,13 @@ We ran several diagnostic checks on your resource **<!--$ImpactedResource-->[Imp
 
 ## **Diagnostic checks executed**
 
-* Check for <!--$NoHTTPSSettingFoundDisplayNamee-->[NoHTTPSSettingFoundDisplayName]<!--/$NoHTTPSSettingFoundDisplayNamee--> - <!--$NoHTTPSSettingFoundCheckStatusName-->[NoHTTPSSettingFoundCheckStatusName]<!--/$NoHTTPSSettingFoundCheckStatusName-->
-* Check for <!--$NoAuthenticationCertificateFoundDisplayName-->[NoAuthenticationCertificateFoundDisplayName]<!--/$NoAuthenticationCertificateFoundDisplayName--> - <!--$NoAuthenticationCertificateFoundCheckStatusName-->[NoAuthenticationCertificateFoundCheckStatusName]<!--/$NoAuthenticationCertificateFoundCheckStatusName-->
-* Check for  <!--$AuthenticationCertificateExpiredDisplayName-->[AuthenticationCertificateExpiredDisplayName]<!--/$AuthenticationCertificateExpiredDisplayName--> - <!--$AuthenticationCertificateExpiredCheckStatusName-->[AuthenticationCertificateExpiredCheckStatusName]<!--/$AuthenticationCertificateExpiredCheckStatusName-->
-* Check for  <!--$AuthenticationCertificateNotYetValidDisplayName-->[AuthenticationCertificateNotYetValidDisplayName]<!--/$AuthenticationCertificateNotYetValidDisplayName--> - <!--$AuthenticationCertificateNotYetValidCheckStatusName-->[AuthenticationCertificateNotYetValidCheckStatusName]<!--/$AuthenticationCertificateNotYetValidCheckStatusName-->
-* Check for  <!--$NoTrustedRootCertificateFoundDisplayName-->[NoTrustedRootCertificateFoundDisplayName]<!--/$NoTrustedRootCertificateFoundDisplayName--> - <!--$NoTrustedRootCertificateFoundCheckStatusName-->[NoTrustedRootCertificateFoundCheckStatusName]<!--/$NoTrustedRootCertificateFoundCheckStatusName-->
-* Check for  <!--$TrustedRootCertificateExpiredDisplayName-->[TrustedRootCertificateExpiredDisplayName]<!--/$TrustedRootCertificateExpiredDisplayName--> - <!--$TrustedRootCertificateExpiredCheckStatusName-->[TrustedRootCertificateExpiredCheckStatusName]<!--/$TrustedRootCertificateExpiredCheckStatusName-->
-* Check for  <!--$TrustedRootCertificateNotYetValidDisplayName-->[TrustedRootCertificateNotYetValidDisplayName]<!--/$TrustedRootCertificateNotYetValidDisplayName--> - <!--$TrustedRootCertificateNotYetValidCheckStatusName-->[TrustedRootCertificateNotYetValidCheckStatusName]<!--/$TrustedRootCertificateNotYetValidCheckStatusName-->
+* Check for <!--$NoHTTPSSettingFoundDisplayName-->[NoHTTPSSettingFoundDisplayName]<!--/$NoHTTPSSettingFoundDisplayName--> - <!--$NoHTTPSSettingFoundCheckStatus-->[NoHTTPSSettingFoundCheckStatus]<!--/$NoHTTPSSettingFoundCheckStatus-->
+* Check for <!--$NoAuthenticationCertificateFoundDisplayName-->[NoAuthenticationCertificateFoundDisplayName]<!--/$NoAuthenticationCertificateFoundDisplayName--> - <!--$NoAuthenticationCertificateFoundCheckStatus-->[NoAuthenticationCertificateFoundCheckStatus]<!--/$NoAuthenticationCertificateFoundCheckStatus-->
+* Check for  <!--$AuthenticationCertificateExpiredDisplayName-->[AuthenticationCertificateExpiredDisplayName]<!--/$AuthenticationCertificateExpiredDisplayName--> - <!--$AuthenticationCertificateExpiredCheckStatus-->[AuthenticationCertificateExpiredCheckStatus]<!--/$AuthenticationCertificateExpiredCheckStatus-->
+* Check for  <!--$AuthenticationCertificateNotYetValidDisplayName-->[AuthenticationCertificateNotYetValidDisplayName]<!--/$AuthenticationCertificateNotYetValidDisplayName--> - <!--$AuthenticationCertificateNotYetValidCheckStatus-->[AuthenticationCertificateNotYetValidCheckStatus]<!--/$AuthenticationCertificateNotYetValidCheckStatus-->
+* Check for  <!--$NoTrustedRootCertificateFoundDisplayName-->[NoTrustedRootCertificateFoundDisplayName]<!--/$NoTrustedRootCertificateFoundDisplayName--> - <!--$NoTrustedRootCertificateFoundCheckStatus-->[NoTrustedRootCertificateFoundCheckStatus]<!--/$NoTrustedRootCertificateFoundCheckStatus-->
+* Check for  <!--$TrustedRootCertificateExpiredDisplayName-->[TrustedRootCertificateExpiredDisplayName]<!--/$TrustedRootCertificateExpiredDisplayName--> - <!--$TrustedRootCertificateExpiredCheckStatus-->[TrustedRootCertificateExpiredCheckStatus]<!--/$TrustedRootCertificateExpiredCheckStatus-->
+* Check for  <!--$TrustedRootCertificateNotYetValidDisplayName-->[TrustedRootCertificateNotYetValidDisplayName]<!--/$TrustedRootCertificateNotYetValidDisplayName--> - <!--$TrustedRootCertificateNotYetValidCheckStatus-->[TrustedRootCertificateNotYetValidCheckStatus]<!--/$TrustedRootCertificateNotYetValidCheckStatus-->
 
 ## **Recommended Steps**
 

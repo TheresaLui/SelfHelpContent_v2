@@ -18,34 +18,33 @@
 	"title": "Cannot connect to storage account",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "storage account",
-			"order": 1,
-			"controlType": "textbox",
-			"displayLabel": "Name the storage account that is not reachable",
-			"watermarkText": "Storage account name",
-			"required": false
-		}, 	{
-			"id": "serial number",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Storage account location",
-			"watermarkText": "Eg. EastUS, WestUS, etc.",
-			"required": false
-		}, {
-			"id": "problem_start_time",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true
-		},
-	]
+		"id": "storage account",
+		"order": 1,
+		"controlType": "textbox",
+		"displayLabel": "Name the storage account that is not reachable",
+		"watermarkText": "Storage account name",
+		"required": false
+	}, {
+		"id": "serial number",
+		"order": 2,
+		"controlType": "textbox",
+		"displayLabel": "Storage account location",
+		"watermarkText": "Eg. EastUS, WestUS, etc.",
+		"required": false
+	}, {
+		"id": "problem_start_time",
+		"order": 3,
+		"controlType": "datetimepicker",
+		"displayLabel": "When did the problem begin?",
+		"required": true
+	}, {
+		"id": "problem_description",
+		"order": 4,
+		"controlType": "multilinetextbox",
+		"displayLabel": "Details",
+		"watermarkText": "Provide additional information about your issue",
+		"required": true,
+		"useAsAdditionalDetails": true
+	}]
 }
 ---
