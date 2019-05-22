@@ -18,96 +18,18 @@
 # We cannot deploy the selected size of your resource
 
 <!--issueDescription-->
-We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the VM size is not available in the region where you are trying to deploy it..<br>
+We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the VM size is not available in the region where you are trying to deploy it.<br>
 <!--/issueDescription-->
 
 The VM size selected for this VM cannot be created in the specified region. This limitation is due to business and technical constraints, some of which include capacity limitations. We apologize for any inconvenience this may have caused you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.<br>
 
-Please try to redeploy your VM and refer to one of the available sizes in the region. 
+Please try to redeploy your VM and refer to one of the available sizes in the region. You can determine available sizes as described in the following table.
 
-## Determining sizes for a region
+| To determine sizes by ... | Do the following |
+| --- | --- |
+| Azure portal | Select the VM in the Azure portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options. |
+| PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("<<insert-region>>")}` |
+ Azure CLI | Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name:<br>`az vm list-skus --location <<insert-region>> --size <<insert-size>> --output table`|
+| REST API| Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|
 
-You can determine sizes programmatically or from the Azure portal. You can also peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.<br>
-
-### Azure portal
-
-Select the VM in the Azure portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes with filtering options.<br>
-
-### PowerShell
-
-Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region:<br>
-
-```powershell
-
-Get-AzComputeResourceSku | `where {$_.Locations.Contains("<<insert-region>>")}
-```
-For example, the following results show the sizes for the WestUS region:
-
-```console
-
-ResourceType          Name        Locations   Restriction                      Capability           Value
-------------          ----        ---------   -----------                      ----------           -----
-virtualMachines       Standard_A0 westus   NotAvailableForSubscription      MaxResourceVolumeMB   20480
-virtualMachines       Standard_A1 westus   NotAvailableForSubscription      MaxResourceVolumeMB   71680
-virtualMachines       Standard_A2 westus   NotAvailableForSubscription      MaxResourceVolumeMB  138240
-```
-
-### Azure CLI
-
-Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name.<br>
-
-```azurecli
-
-az vm list-skus --location <<insert-region>> --size <<insert-size>> --output table
-```
-
-For example, the following results show the sizes for the WestUS region whose size names start with "Standard_F":
-
-```console
-
-ResourceType     Locations       Name              Zones    Capabilities    Restrictions
----------------  --------------  ----------------  -------  --------------  --------------
-virtualMachines  westus  Standard_F1                ...             None
-virtualMachines  westus  Standard_F2                ...             None
-virtualMachines  westus  Standard_F4                ...             None
-...
-```
-
-### REST API
-
-See the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
-
-A response is returned as shown in the following JSON:
-
-```json
-
-{
-  "value": [
-    {
-      "resourceType": "virtualMachines",
-      "name": "Standard_A0",
-      "tier": "Standard",
-      "size": "A0",
-      "locations": [
-        "westus"
-      ],
-      "restrictions": []
-    },
-    {
-      "resourceType": "virtualMachines",
-      "name": "Standard_A1",
-      "tier": "Standard",
-      "size": "A1",
-      "locations": [
-        "westus"
-      ],
-      "restrictions": []
-    },
-  ]
-}
-```
-
-
-
-
-
+You can also peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.
