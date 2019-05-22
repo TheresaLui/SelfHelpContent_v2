@@ -26,9 +26,9 @@ If it is verified that the backend is healthy, then perform the steps in links b
 
 The bad gateway error (502) can happen due to one or more of the following issues:
 
-- [NSG, UDR or Custom DNS is blocking access to backend pool members](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#network-security-group-user-defined-route-or-custom-dns-issue). 
-- [Back-end VMs or instances of virtual machine scale set are not responding to the default health probe.](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#problems-with-default-health-probe)
-- [Invalid or improper configuration of custom health probes.](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#problems-with-custom-health-probe)
-- [Request time-out or connectivity issues with user requests.](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#request-time-out)
-- [Empty backend pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#empty-backendaddresspool).
-- [Unhealthy instances in the backend pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#unhealthy-instances-in-backendaddresspool).
+- [NSG, UDR or Custom DNS is blocking access to backend pool members](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#network-security-group-user-defined-route-or-custom-dns-issue)
+- [Back-end VMs or instances of virtual machine scale set are not responding to the default health probe](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#problems-with-default-health-probe)
+- [Invalid or improper configuration of custom health probes](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#problems-with-custom-health-probe)
+- [Request time-out or connectivity issues with user requests](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#request-time-out)
+- [Empty backend pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#empty-backendaddresspool)
+- [Unhealthy instances in the backend pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#unhealthy-instances-in-backendaddresspool)
