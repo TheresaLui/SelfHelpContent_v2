@@ -38,11 +38,13 @@ Select the VM in the Azure portal. Under **Settings**, choose **Size**. On the *
 Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region:<br>
 
 ```powershell
+
 Get-AzComputeResourceSku | `where {$_.Locations.Contains("<<insert-region>>")}
 ```
 For example, the following results show the sizes for the WestUS region:
 
 ```console
+
 ResourceType          Name        Locations   Restriction                      Capability           Value
 ------------          ----        ---------   -----------                      ----------           -----
 virtualMachines       Standard_A0 westus   NotAvailableForSubscription      MaxResourceVolumeMB   20480
@@ -55,12 +57,14 @@ virtualMachines       Standard_A2 westus   NotAvailableForSubscription      MaxR
 Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name.<br>
 
 ```azurecli
+
 az vm list-skus --location <<insert-region>> --size <<insert-size>> --output table
 ```
 
 For example, the following results show the sizes for the WestUS region whose size names start with "Standard_F":
 
 ```console
+
 ResourceType     Locations       Name              Zones    Capabilities    Restrictions
 ---------------  --------------  ----------------  -------  --------------  --------------
 virtualMachines  westus  Standard_F1                ...             None
@@ -76,6 +80,7 @@ See the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resou
 A response is returned as shown in the following JSON:
 
 ```json
+
 {
   "value": [
     {
