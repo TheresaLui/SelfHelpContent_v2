@@ -23,16 +23,57 @@ We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vm
 
 The VM size selected for this VM cannot be created in the specified region. This limitation is due to business and technical constraints, some of which include capacity limitations. We apologize for any inconvenience this may have caused you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.<br>
 
-Please try to redeploy your VM and refer to one of the available sizes in the region. You can determine available sizes as described in the following table.
+Please try to redeploy your VM and refer to one of the available sizes in the region. 
 
-| To determine sizes by ... | Do the following |
-| --- | --- |
-| Azure portal | Select the VM in the Azure portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options. |
-| PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region, such as *westus*:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("westus")}` |
- Azure CLI | Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name, such as *westus* and *Standard_F*:<br>`az vm list-skus --location westus --size Standard_F --output table`|
-| REST API| Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|
+## Determining sizes for a region
 
-You can also peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.
+You can determine sizes programmatically or from the Azure portal. You can also peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.<br>
+
+### Azure portal
+
+Select the VM in the Azure portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes with filtering options.<br>
+
+### PowerShell
+
+Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region:<br>
+
+```powershell
+Get-AzComputeResourceSku | `where {$_.Locations.Contains("<<insert-region>>")}
+```
+For example, the following results show the sizes for the WestUS region:
+
+```console
+ResourceType          Name        Locations   Restriction                      Capability           Value
+------------          ----        ---------   -----------                      ----------           -----
+virtualMachines       Standard_A0 westus   NotAvailableForSubscription      MaxResourceVolumeMB   20480
+virtualMachines       Standard_A1 westus   NotAvailableForSubscription      MaxResourceVolumeMB   71680
+virtualMachines       Standard_A2 westus   NotAvailableForSubscription      MaxResourceVolumeMB  138240
+```
+
+### Azure CLI
+
+Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name.<br>
+
+```azurecli
+az vm list-skus --location <<insert-region>> --size <<insert-size>> --output table
+```
+
+For example, the following results show the sizes for the WestUS region whose size names start with "Standard_F":
+
+```console
+ResourceType     Locations       Name              Zones    Capabilities    Restrictions
+---------------  --------------  ----------------  -------  --------------  --------------
+virtualMachines  westus  Standard_F1                ...             None
+virtualMachines  westus  Standard_F2                ...             None
+virtualMachines  westus  Standard_F4                ...             None
+...
+```
+
+### REST API
+
+See the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
+
+
 
 
 
