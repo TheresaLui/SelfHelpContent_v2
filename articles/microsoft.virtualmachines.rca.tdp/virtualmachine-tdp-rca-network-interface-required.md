@@ -18,9 +18,10 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The operation on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the  Azure virtual machine must have at least one network interface.
+The operation on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the  Azure virtual machine must have at least one network interface. An attempt was made to detach a network interface from a VM when it is the only attached network interface. A virtual machine must have at least one network interface attached to it at all times.
 <!--/issueDescription-->
-An attempt was made to detach a network interface from a VM when it is the only attached network interface. A virtual machine must have at least one network interface attached to it at all times.
+
+## **Recommended Steps**
 
 You can detach a network interface from a VM provided it has at least one other network interface attached to it. You can delete a network interface from a VM's networking provided that it not attached to the VM.
 
