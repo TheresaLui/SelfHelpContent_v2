@@ -39,8 +39,8 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "http://aka.ms/understandblockblobs",
-  "description": "Use \"Put Blob\" for blobs smaller than 256 MB",
-  "longDescription": "When writing a block blob that is 256 MB or less (64 MB for requests using REST versions before 2016-05-31), you can upload it in its entirety with a single write operation using \"Put Blob\". Based on your aggregated metrics, we believe your storage account's write operations can be optimized.",
+  "description": "Use 'Put Blob' for blobs smaller than 256 MB",
+  "longDescription": "When writing a block blob that is 256 MB or less (64 MB for requests using REST versions before 2016-05-31), you can upload it in its entirety with a single write operation using 'Put Blob'. Based on your aggregated metrics, we believe your storage account's write operations can be optimized.",
   "potentialBenefits": "Increase performance and reduce operation costs.",
   "actions": [
     {

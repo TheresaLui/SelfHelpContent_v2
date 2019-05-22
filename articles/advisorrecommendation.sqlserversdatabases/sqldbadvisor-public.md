@@ -13,6 +13,9 @@
   "recommendationOfferingId": "1c017867-b3d9-4798-979e-9693c49579f8",
   "recommendationOfferingName": "Azure SQL Database",
   "$schema": "AdvisorRecommendation",
+  "dataSourceMetadata": {
+    "dataSource": "SAS",
+  },
   "recommendationTypeId": "a1f91337-c953-4791-9517-f170de60bf35",
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
