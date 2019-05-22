@@ -1,7 +1,6 @@
 <properties 
     pageTitle="I'm encountering too many redirects"
     description="Too many redirects"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot too many redirects error issues with Application Gateway."	
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
@@ -9,7 +8,8 @@
     displayOrder="27"
 	selfHelpType="resource"
     articleId="application-gateway-too-many-redirects-error"
-    diagnosticScenario="ApplicationGatewayTooManyRedirectsError"
+	resourceTags=""
+	productPesIds="15922"
     supportTopicIds="32639115"
     cloudEnvironments="public"
  />

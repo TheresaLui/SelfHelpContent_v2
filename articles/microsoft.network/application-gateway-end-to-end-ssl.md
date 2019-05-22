@@ -1,7 +1,6 @@
 <properties 
     pageTitle="End-to-end SSL issues"
-    description="End-to-end SSL is not working properly"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot end-to-end-ssl issues with Application Gateway."	
+    description="End-to-end SSL is not working properly"	
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
@@ -9,7 +8,8 @@
     displayOrder="24"
 	selfHelpType="resource"
     articleId="application-gateway-end-to-end-ssl"
-    diagnosticScenario="ApplicationGatewayEndToEndSSLIssues"
+	resourceTags=""
+	productPesIds="15922"
     supportTopicIds="32582825"
     cloudEnvironments="public"
  />

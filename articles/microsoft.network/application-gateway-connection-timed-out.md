@@ -1,7 +1,6 @@
 <properties 
     pageTitle="Connection timed out"
     description="Connectivity Connection Timed out"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot connection timed-out errors with Application Gateway."
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
@@ -9,8 +8,9 @@
     displayOrder="23"
 	selfHelpType="resource"
     articleId="application-gateway-connection-timed-out-error"
-    diagnosticScenario="ApplicationGatewayConnectionTimedOutError"
-    supportTopicIds="32639114"
+    resourceTags=""
+	productPesIds="15922"
+	supportTopicIds="32639114"
     cloudEnvironments="public"
  />
 

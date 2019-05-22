@@ -1,7 +1,6 @@
 <properties
     pageTitle="I'm encountering 4xx client error"
     description="400 Bad Request, 403 Forbidden, 404 Not Found"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot 4xx errors with Application Gateway."
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
@@ -9,8 +8,9 @@
     displayOrder="22"
 	selfHelpType="resource"
     articleId="application-gateway-4xx-error"
-    diagnosticScenario="ApplicationGateway4xxClientError"
-    supportTopicIds=""
+ 	resourceTags=""
+	productPesIds="15922"
+    supportTopicIds="32639113"
     cloudEnvironments="public"
  />
 

@@ -1,7 +1,6 @@
 <properties 
     pageTitle="Session affinity issues"
     description="Session affinity issues with Azure Application Gateway"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot session affinity issues with Application Gateway."	
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
@@ -9,8 +8,9 @@
     displayOrder="25"
 	selfHelpType="resource"
     articleId="application-gateway-session-affinity"
-    diagnosticScenario="ApplicationGatewaySessionAffinity"
-    supportTopicIds=""
+	resourceTags=""
+	productPesIds="15922"
+    supportTopicIds="32640605"
     cloudEnvironments="public"
  />
 
