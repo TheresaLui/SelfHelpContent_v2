@@ -84,7 +84,7 @@ A response is returned as shown in the following JSON:
       "tier": "Standard",
       "size": "A0",
       "locations": [
-        "eastus"
+        "westus"
       ],
       "restrictions": []
     },
@@ -94,11 +94,10 @@ A response is returned as shown in the following JSON:
       "tier": "Standard",
       "size": "A1",
       "locations": [
-        "eastus"
+        "westus"
       ],
       "restrictions": []
     },
-    ...
   ]
 }
 ```
