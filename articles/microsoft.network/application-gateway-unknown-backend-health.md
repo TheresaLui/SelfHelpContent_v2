@@ -6,7 +6,7 @@
     authors="abshamsft"
     ms.author="absha"
     displayOrder="21"
-	selfHelpType="resource"
+    selfHelpType="resource"
     articleId="application-gateway-unknown-backend-health"
 	resourceTags=""
 	productPesIds="15922"

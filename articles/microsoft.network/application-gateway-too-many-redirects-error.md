@@ -6,7 +6,7 @@
     authors="abshamsft"
     ms.author="absha"
     displayOrder="27"
-	selfHelpType="resource"
+    selfHelpType="resource"
     articleId="application-gateway-too-many-redirects-error"
 	resourceTags=""
 	productPesIds="15922"

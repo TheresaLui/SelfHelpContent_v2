@@ -6,7 +6,7 @@
     authors="abshamsft"
     ms.author="absha"
     displayOrder="24"
-	selfHelpType="resource"
+    selfHelpType="resource"
     articleId="application-gateway-end-to-end-ssl"
 	resourceTags=""
 	productPesIds="15922"

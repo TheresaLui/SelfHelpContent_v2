@@ -6,7 +6,7 @@
     authors="abshamsft"
     ms.author="absha"
     displayOrder="26"
-	selfHelpType="resource"
+    selfHelpType="resource"
     articleId="application-gateway-ssl-termination"
 	resourceTags=""
 	productPesIds="15922"
