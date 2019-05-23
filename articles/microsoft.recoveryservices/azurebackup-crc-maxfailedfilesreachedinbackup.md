@@ -19,7 +19,7 @@
 # Error MaxFailedFilesReachedInBackup
 
 <!--issueDescription-->
-We have identified that your backup operation failed, because the number of data transfer failures was more than failure count.
+We have identified that your backup operation failed because the number of data transfer failures was more than failure count.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
