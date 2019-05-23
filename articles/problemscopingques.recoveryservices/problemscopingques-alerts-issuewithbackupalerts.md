@@ -90,9 +90,7 @@
 			"visibility": "issue_type == Unable to see backup alerts in Azure portal",
 			"order": 4,
 			"controlType": "multiselectdropdown",
-			"infoBalloonText": "",
-"value": "I changed email address, but still do not receive alerts",
-					"text": "I changed email address, but still do not receive alerts"			"displayLabel": "Which type of alerts you are not seeing?",
+			"displayLabel": "Which type of alerts you are not seeing?",
 			"dropdownOptions": [{
 						"value": "Critical",
 						"text": "Critical"
@@ -107,7 +105,7 @@
 						"text": "Other, don't know or not applicable"
 				}
 			 ],
-				"required": true
+				"required": false
 		},{
 			"id": "basic_troubleshooting_multiselect",
 			"visibility": "issue_type == Not receiving notification for backup alerts",
