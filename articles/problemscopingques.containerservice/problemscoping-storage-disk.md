@@ -16,7 +16,7 @@
                 "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Disk/File Issues",
-                "fileAttachmentHint": "Attach the output of **kubectl describe pvc <pvcname>** and **kubectl get pv <pvcname>**",
+                "fileAttachmentHint": "Attach the output of **kubectl describe pvc 'pvcnamehere'** and **kubectl get pv 'pvcnamehere'**",
                 "formElements": [
                  {
                     "id": "problem_start_time",
