@@ -19,7 +19,7 @@
 # Error UserErrorVmProvisioningStateFailed
 
 <!--issueDescription-->
-## We identified that your backup operation failed due to the VM in failed provisioning state.
+We identified that your backup operation failed due to the VM in failed provisioning state.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
