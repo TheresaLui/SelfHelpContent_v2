@@ -19,13 +19,14 @@
 # Error UserErrorSQLPODoesNotSupportBackupType
 
 <!--issueDescription-->
-## We have identified that your backup operation failed because the database recovery model doesn't allow the requested backup type.
+We have identified that your backup operation failed because the database recovery model doesn't allow the requested backup type.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 To resolve UserErrorSQLPODoesNotSupportBackupType issue change the database recovery model.  
 
 This error can happen in the following situations: <br/>
+
 * A database using a simple recovery model does not allow log backup.<br/>
 * Differential and log backups are not allowed for a Master database. 
 
