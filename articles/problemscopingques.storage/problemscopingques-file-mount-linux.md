@@ -140,8 +140,56 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "problem_description",
+            "id": "mount_error",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Linux mount error",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "error2",
+                    "text": "Mount error(2): No such file or directory"
+                },
+                {
+                    "value": "error11",
+                    "text": "Mount error(11): Resource temporarily unavailable"
+                },
+                {
+                    "value": "error13",
+                    "text": "Mount error(13): Permission denied"
+                },
+                {
+                    "value": "error22",
+                    "text": "Mount error(22): Invalid argument"
+                },
+                {
+                    "value": "error112",
+                    "text": "Mount error(112): Host is down"
+                },
+                {
+                    "value": "error115",
+                    "text": "Mount error(115): Operation now in progress"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "error_other",
+            "order": 5,
+            "visibility": "mount_error == dont_know_answer",
+            "controlType": "textbox",
+            "displayLabel": "Error message",
+            "watermarkText": "Error message received",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -149,7 +197,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

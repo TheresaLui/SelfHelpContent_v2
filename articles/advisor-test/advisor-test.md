@@ -13,6 +13,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "c6ac1f03-bd58-4421-9522-23cffb64d8e1",
   "dataSourceMetadata": {
+    "schemaVersion": 1.0,
     "streamNamespace": "AzureAdvisor.ServiceHealthAlert_Large",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
@@ -41,6 +42,7 @@
   "potentialBenefits": "Get notified when Azure service issues affect you",
   "actions": [
     {
+      "actionId": "f8db3c62-8ed7-48ea-b313-83c7224a5c47",
       "description": "Create an Azure service health alert",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Monitoring",
@@ -62,6 +64,7 @@
   ],
   "resourceMetadata": {
     "action": {
+      "actionId": "da0fc147-5d91-4469-800a-3b621d41a8b2",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -71,7 +74,7 @@
     }
   },
   "displayLabel": "Create an Azure service health alert",
-  "testData": "658c8950-e79d-4704-a903-1df66ba90258,/subscriptions/658c8950-e79d-4704-a903-1df66ba90258",
-  "additionalColumns": []
+  "additionalColumns": [],
+  "tip": "You can create a service health alert to get notified when an Azure service issue affects you."
 }
 ---

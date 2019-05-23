@@ -19,4 +19,6 @@
 ## **Recommended Documents**
 
 - [Azure Monitoring Alerts Overview](https://aka.ms/Azure-MonitorAlerts-Overview)<br>
-- [Create alerts and configure email notification using Azure Monitor Alerts](https://aka.ms/Azure-MonitorAlerts-tutorial)
+- [Log alert not received](https://aka.ms/AB-Alert-Tshooting) (or [was disabled](https://aka.ms/AB-Alerts-Disabled))<br>
+- [Log alerts received with delays](https://aka.ms/AB-Alerts-Delay)<br>
+- [How to Create, view, and manage log alerts](https://aka.ms/AB-Alerts-Howto)

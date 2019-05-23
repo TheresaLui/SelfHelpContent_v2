@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "MARS Installation or registration failure",
     "fileAttachmentHint": "",
     "formElements": [
@@ -63,15 +64,9 @@
             ],
             "required": true
         },
-        {
-            "id": "infoblock_reregistration",
-            "order": 5,
-            "visiblity": "registration_type == re-registering",
-            "controlType": "infoblock",
-            "content": "Note: To re-register machine to the same vault, use the same passphrase that was used during initial registration."
-        },{
+     	{
             "id": "basic_troubleshooting_multiselect",
-            "order": 6,
+            "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
@@ -102,13 +97,17 @@
                 {
                     "value": "Ensure c:/windows/temp folder has less than 60,000 files",
                     "text": "Ensure c:/windows/temp folder has less than 60,000 files"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -118,7 +117,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
