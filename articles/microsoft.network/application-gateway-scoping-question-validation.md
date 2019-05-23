@@ -1,12 +1,15 @@
 <properties 
-    pageTitle="Scoping question validation message"
-    description="Validation message for scoping question in Application Gateway"
+    pageTitle="Application Gateway scoping question validation message"
+    description="Validation message to show when the URL entered in the scoping question is not in the correct format"
+    infoBubbleText="The entered URL is invalid. Please provide a valid URL in the correct syntax"
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    selfHelpType="generic"
+    selfHelpType="diagnostics"
     articleId="application-gateway-invalid-application-gateway-access-url"
+    diagnosticScenario="ApplicationGatewayScopingQuestionValidationMessage"
+    supportTopicIds=""
     cloudEnvironments="public"
  />
 
