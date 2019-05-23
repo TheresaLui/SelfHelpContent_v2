@@ -14,5 +14,7 @@
  />
 
 # Invalid URL
- 
- The entered URL is invalid. Please provide a valid URL in the syntax protocol://domainOrIPAddress. Example: http://contoso.com, https://contoso.com, http://contoso or https://contoso
+
+<!--issueDescription-->
+The entered URL is invalid. Please provide a valid URL in the syntax protocol://domainOrIPAddress, for example: http://contoso.com, https://contoso.com, http://contoso, or https://contoso.
+<!--/issueDescription-->
