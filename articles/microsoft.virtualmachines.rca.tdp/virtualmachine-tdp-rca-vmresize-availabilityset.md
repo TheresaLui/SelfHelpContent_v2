@@ -18,10 +18,48 @@
 # We need some actions from you to deploy your resource
 
 <!--issueDescription-->
-We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the availability set **<!--$avsetname-->myAvailabilitySet<!--/$avsetname-->** must be reconfigured to include the VM size specified for the VM that you are resizing.<br>
+We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the availability set **<!--$avsetname-->myAvailabilitySet<!--/$avsetname-->** must be reconfigured to include the VM size that you specified.<br>
 <!--/issueDescription-->
 
-You attempted to resize a VM to a size that is not available in its current availability set. You can choose a size that is currently available, or resize the VM but to do so you must stop all VMs in the availability set, resize the VM, and then restart the VMs.<br>
+You attempted to resize a VM to a size that is not available in its current availability set. You have a couple of options:
+- Choose a size that is included in your availability set.
+- Resize the VM, but first you must stop the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size. 
 
-You must stop all the VMs so that Azure can configure the availability set to support all the specified VM sizes. To proceed, follow the steps described in [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set).
+## To resize a VM in an availability set
 
+Perform the following PowerShell commands, with the following variables defined:
+
+- Your resource group: `$myResourceGroup`
+- Your virtual machine: `$myvM`
+- New VM size: `$newSize`
+
+List the VM sizes that are available on the hardware cluster where the VM is hosted.
+```powershell
+Get-AzVMSize -ResourceGroupName $resourceGroup -VMName $vmName
+```
+Stop all VMs in the availability set.
+
+```powershell
+$as = Get-AzAvailabilitySet -ResourceGroupName $resourceGroup
+$vmIds = $as.VirtualMachinesReferences
+foreach ($vmId in $vmIDs){
+    $string = $vmID.Id.Split("/")
+    $vmName = $string[8]
+    Stop-AzVM -ResourceGroupName $resourceGroup -Name $vmName -Force
+  }
+```
+
+Resize and restart the VMs in the availability set.
+
+```powershell
+$as = Get-AzAvailabilitySet -ResourceGroupName $resourceGroup
+$vmIds = $as.VirtualMachinesReferences
+  foreach ($vmId in $vmIDs){
+    $string = $vmID.Id.Split("/")
+    $vmName = $string[8]
+    $vm = Get-AzVM -ResourceGroupName $resourceGroup -Name $vmName
+    $vm.HardwareProfile.VmSize = $newSize
+    Update-AzVM -ResourceGroupName $resourceGroup -VM $vm
+    Start-AzVM -ResourceGroupName $resourceGroup -Name $vmName
+  }
+```
