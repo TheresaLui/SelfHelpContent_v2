@@ -18,13 +18,22 @@
 
 ## **Recommended Documents**
 
-* [Preview-Secure traffic between pods using network policies in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/use-network-policies)<br>
-* [Preview-Secure your cluster using pod security policies in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/use-pod-security-policies)<br>
-* [SSH into Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/aks-ssh)<br>
-* [Access the Kubernetes dashboard with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
+**Troubleshooting Articles**
+* [How to troubleshoot Ingress Controller](https://github.com/kubernetes/ingress-nginx/blob/master/docs/troubleshooting.md)<br>
+* [How to troubleshoot Service related issues](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-service/)<br>
+* [Troubleshoot common issues with the Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
+
+**Known Issues**
 * [New AKS cluster unreachable via network (including dashboard)](https://stackoverflow.com/questions/49560394/new-aks-cluster-unreachable-via-network-including-dashboard)<br>
 * [Kubernetes: AKS unable to view the site](https://stackoverflow.com/questions/51531561/kubernetes-aks-unable-to-view-the-site)<br>
-* [Troubleshoot common issues with the Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
-* [kube-advisor: Best Practices for Azure Kubernetes clusters](https://docs.microsoft.com/azure/aks/kube-advisor-tool)<br>
+
+**Best Practices**
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
+* [kube-advisor: Best Practices for Azure Kubernetes clusters](https://docs.microsoft.com/azure/aks/kube-advisor-tool)<br>
+
+**Reference documentation**
+* [Secure traffic between pods using network policies in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/use-network-policies)<br>
+* [Secure your cluster using pod security policies in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/use-pod-security-policies)<br>
+* [SSH into Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/aks-ssh)<br>
+* [Access the Kubernetes dashboard with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
 * [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
