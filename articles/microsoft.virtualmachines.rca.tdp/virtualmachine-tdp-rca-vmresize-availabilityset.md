@@ -23,15 +23,32 @@ We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vm
 
 You attempted to resize a VM to a size that is not available in its current availability set. You have a couple of options:
 - Choose a size that is included in your availability set.
-- Resize the VM, but first you must stop the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size. 
+- Resize the VM, but first you must stop the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size.<br> 
 
-## To resize a VM in an availability set
+### Resolutions
 
-Perform the following PowerShell commands, with the following variables defined:
+The PowerShell examples in this section use these variables:
 
 - Your resource group: `$myResourceGroup`
 - Your virtual machine: `$myvM`
 - New VM size: `$newSize`
+
+## To list available sizes in an availabity set
+
+List the VM sizes that are available on the hardware cluster where the VM is hosted.
+
+```powershell
+Get-AzVMSize -ResourceGroupName $myResourceGroup -VMName $myVM
+``` 
+If the desired size is listed, resize the VM. 
+
+```powershell
+$vm = Get-AzVM -ResourceGroupName $myResourceGroup -VMName $myVM 
+$vm.HardwareProfile.VmSize = $newSize
+Update-AzVM -VM $vm -ResourceGroupName $myResourceGroup
+```
+
+## To resize a VM in an availability set
 
 List the VM sizes that are available on the hardware cluster where the VM is hosted.
 ```powershell
