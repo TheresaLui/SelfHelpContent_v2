@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "MARS backup failure",
     "fileAttachmentHint": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
     "formElements": [
@@ -59,14 +60,15 @@
             "id": "error_message",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Copy and paste error message text from failed job details dialog in Microsoft Azure Backup agent",
+            "displayLabel": "Provide the error message that you are seeing:",
+            "watermarkText": "Copy and paste error message text from console",
             "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
+	    "infoBalloonText": "Check Microsoft Azure Recovery Services Agent <a href='https://aka.ms/AB-MARS-troubleshoot'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {
@@ -141,11 +143,7 @@
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "hints": [
-                {
-                    "text": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://aka.ms/AB-AA4dp51'>whitelist URLs on firewall</a>, <a href='https://aka.ms/AB-AA4dwtk'>antivirus prerequisites</a>, <a href='https://aka.ms/AB-mars-Unsupportedfiles'>unsupported drives</a>, and <a href='https://aka.ms/AB-mars-Unsupportedfiles'>unsupported files.</a>"
-                }
-            ]
+            "hints": []
         }
     ]
 }
