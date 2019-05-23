@@ -1,6 +1,6 @@
   <properties
-	pageTitle="Accessing Embedded Content"
-	description="Accessing Embedded Content"
+	pageTitle="accessing embedded content"
+	description="accessing embedded content"
 	service="microsoft.PowerBIDedicated"
 	resource="capacities"
 	authors="pjfreitas"
