@@ -31,7 +31,7 @@
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
 * [kube-advisor: Best Practices for Azure Kubernetes clusters](https://docs.microsoft.com/azure/aks/kube-advisor-tool)<br>
 
-**Reference documentation**<br>
+**Reference Documentation**<br>
 * [Secure traffic between pods using network policies in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/use-network-policies)<br>
 * [Secure your cluster using pod security policies in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/use-pod-security-policies)<br>
 * [SSH into Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/aks-ssh)<br>
