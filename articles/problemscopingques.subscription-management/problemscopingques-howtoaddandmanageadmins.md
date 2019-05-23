@@ -39,7 +39,7 @@
       "controlType": "textbox",
       "displayLabel": "Your current role assigned to the subscription",
       "watermarkText": "Provide your current role assigned to the subscription",
-      "required": true
+      "required": false
     },
     {
       "id": "role_details",
@@ -47,7 +47,7 @@
       "controlType": "textbox",
       "displayLabel": "Role requested",
       "watermarkText": "Provide the role you are requesting",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

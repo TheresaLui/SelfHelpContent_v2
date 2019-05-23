@@ -10,7 +10,7 @@
     articleId="HiIOUsageIssue_3EE4845D-971B-4A4B-9D1E-64D8C0B54ABB"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32630450,32630459"
+    supportTopicIds="32630434,32630450,32630454,32630459"
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
@@ -18,9 +18,13 @@
 
 # We ran diagnostics on your resource and found high IO usage
 
+<!--issueDescription-->
+Our internal service telemetry detected high IO usage greater than 90% for more than 5 consecutive minutes on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**.
+<!--/issueDescription-->
+
 ## **Recommended Steps**
 
-Our internal service telemetry detected high IO usage greater than 90% for more than 5 consecutive minutes on {DatabaseName} during the period of {StartDateTime} UTC and {EndDateTime} UTC. This indicates possible application slowness, timeouts due to lack of IO resources to execute the requested workload during that specific period.
+This indicates possible application slowness, timeouts due to lack of IO resources to execute the requested workload during that specific period. Please see the recommended articles for more details.
 
 ## **Recommended Documents**
 

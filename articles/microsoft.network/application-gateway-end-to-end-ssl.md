@@ -1,14 +1,15 @@
 <properties 
     pageTitle="End-to-end SSL issues"
-    description="End-to-end SSL is not working properly"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot end-to-end-ssl issues with Application Gateway."	
+    description="End-to-end SSL is not working properly"	
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    selfHelpType="diagnostics"
+    displayOrder="24"
+    selfHelpType="resource"
     articleId="application-gateway-end-to-end-ssl"
-    diagnosticScenario="ApplicationGatewayEndToEndSSLIssues"
+	resourceTags=""
+	productPesIds="15922"
     supportTopicIds="32582825"
     cloudEnvironments="public"
  />
@@ -28,5 +29,5 @@ If you are observing issues with End-to-end SSL encryption with Application Gate
 
 ## **Recommended Documents**
 
-- [End-to-end SSL overview](https://docs.microsoft.com/azure/application-gateway/ssl-overview#end-to-end-ssl-encryption).
-- [Configure end-to-end SSL with Application Gateway](https://docs.microsoft.com/azure/application-gateway/end-to-end-ssl-portal).
+- [End-to-end SSL overview](https://docs.microsoft.com/azure/application-gateway/ssl-overview#end-to-end-ssl-encryption)
+- [Configure end-to-end SSL with Application Gateway](https://docs.microsoft.com/azure/application-gateway/end-to-end-ssl-portal)

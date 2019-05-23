@@ -14,6 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Troubleshoot my ARM template error",
     "fileAttachmentHint": "",
     "formElements": [
@@ -130,8 +131,8 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "No (Please upload your template below)",
+                    "text": "No (Please upload your template below)"
                 }
             ],
             "required": false
