@@ -19,9 +19,9 @@
 # Error UserErrorInvalidManagedDiskOperation
 
 <!--issueDescription-->
-We have identified that your backup operation, because snapshot on the Write Accelerator enabled disk is not supported.
+We have identified that your backup operation failed because snapshot is not supported on the Write Accelerator enabled disk.
 <!--/issueDescription-->
 
 ## **Recommended Document**
 
-To resolve UserErrorInvalidManagedDiskOperation issue refer to [this](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support) supported storage type list.
+* To resolve this issue, refer to the [supported storage types](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support) list
