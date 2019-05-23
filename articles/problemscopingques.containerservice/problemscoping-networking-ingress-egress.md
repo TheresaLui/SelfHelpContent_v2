@@ -15,7 +15,7 @@
 {
                 "subscriptionRequired": true,
                 "resourceRequired": true,
-                "title": "Cluster failed state",
+                "title": "Ingress Egress related issue",
                 "fileAttachmentHint": "",
                 "formElements": [
                  {
