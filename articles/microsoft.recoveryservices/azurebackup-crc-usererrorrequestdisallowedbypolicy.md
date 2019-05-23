@@ -19,12 +19,14 @@
 # Error UserErrorRequestDisallowedByPolicy
 
 <!--issueDescription-->
-## We have identified an Azure Resource Manager policy configured on the resource group is preventing backup service to initiate the backup/restore operation.
+We have identified an Azure Resource Manager policy configured on the resource group is preventing backup service to initiate the backup/restore operation.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve UserErrorRequestDisallowedByPolicy ensure configured ARM policy is not blocking the backup/restore operation. Your subscription administrators might assign policies that limit how resources are deployed. This error can happen if an ARM policy is configured on the resource group preventing the backup service to initiate the backup/restore operation.
+To resolve UserErrorRequestDisallowedByPolicy ensure configured ARM policy is not blocking the backup/restore operation. Your subscription administrators might assign policies that limit how resources are deployed. This error can happen if an ARM policy is configured on the resource group preventing the backup service to initiate the backup/restore operation.<br/>
+
 To resolve the issue follow these steps:<br/>
+
 * From the Azure portal navigate to the resource group in which the recovery service vault exist.  
-*	From Settings, click Policies and check if any policy is created which could leads to backup/restoration failure.  
-*	If any ARM Policy is exist, then ensure policy doesn’t block the backup/restore and retry the operation.
+* From **Settings**, click **Policies** and check if any policy is created which could leads to backup/restoration failure.  
+* If any **ARM Policy** exist, then ensure policy doesn’t block the backup/restore and retry the operation.
