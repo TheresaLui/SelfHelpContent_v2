@@ -5,6 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
+	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorunsupporteddistribution"
 	diagnosticScenario="azurebackup-crc-usererrorunsupporteddistribution"
