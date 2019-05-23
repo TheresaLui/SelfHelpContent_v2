@@ -19,15 +19,14 @@
 # Error UserErrorSQLPODoesNotSupportBackupType
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the database recovery model doesn't allow the requested backup type.
+We have identified that your backup operation failed because the database recovery model does not allow the requested backup type. To resolve this issue, change the database recovery model.  
+
+This error can happen in the following situations:
+
+* A database using a simple recovery model does not allow log backup
+* Differential and log backups are not allowed for a Master database 
 <!--/issueDescription-->
 
-## **Recommended Steps**
-To resolve UserErrorSQLPODoesNotSupportBackupType issue change the database recovery model.  
+## **Recommended Documents**
 
-This error can happen in the following situations: <br/>
-
-* A database using a simple recovery model does not allow log backup.<br/>
-* Differential and log backups are not allowed for a Master database. 
-
-To resolve this issue following [this](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqlpodoesnotsupportbackuptype) troubleshooting steps.
+* [Troubleshoot SQL Server Backup Issues](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)
