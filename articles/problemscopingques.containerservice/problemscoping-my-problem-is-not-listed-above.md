@@ -4,7 +4,7 @@
                 authors="ChiragPavecha"
                 ms.author="chiragpa"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32637201"
+                supportTopicIds="32637201,32637203,32637202,32637204,32637205,32637206,32637200"
                 productPesIds="16450"
                 cloudEnvironments="Public"
                 schemaVersion="1"
