@@ -22,7 +22,7 @@
 			"order": 1,
 			"controlType": "dropdown",
 			"infoBalloonText": "For more information see. Log alerts - <a href='https://aka.ms/AB-Alert-Tshooting'>'not received'</a>, <a href='https://aka.ms/AB-Alerts-fireunexpectedly'>'triggered unexpected'</a>, <a href='https://aka.ms/AB-Alerts-Delay'>'delays'</a>, <a href='https://aka.ms/AB-Alerts-Howto'>'How-to'</a>",
-			"displayLabel": "Which type of issue your are facing?",
+			"displayLabel": "Which type of issue you are facing?",
 			"dropdownOptions": [{
 						"value": "Log alert not received (or was disabled)",
 						"text": "Log alert not received (or was disabled)"
