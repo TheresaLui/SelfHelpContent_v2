@@ -20,13 +20,13 @@
 
 **Troubleshooting Articles**
 * [How to troubleshoot DNS resolution](https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/)<br>
-
+<br>
 **Known Issues**
 * [Known issue with DNS resolution](https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/#known-issues)<br>
-
+<br>
 **Best Practices**
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
-
+<br>
 **Reference documentation**
 * [Customize CoreDNS with Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/coredns-custom)<br>
 * [How to use custom proxy server with AKS](https://docs.microsoft.com/azure/aks/coredns-custom#custom-proxy-server)<br>
