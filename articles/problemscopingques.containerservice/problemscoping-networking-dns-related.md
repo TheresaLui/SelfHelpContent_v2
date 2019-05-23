@@ -48,7 +48,7 @@
                         },
                         {
                           "value": "dont_know_answer",
-                          "text": "Other"
+                          "text": "I am not sure"
                         }
                         ],
                         "required": false
