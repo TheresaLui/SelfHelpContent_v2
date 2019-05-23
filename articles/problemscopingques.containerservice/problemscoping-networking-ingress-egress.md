@@ -38,7 +38,7 @@
                         },{
                           "value": "Egress",
                           "text": "Egress"
-                        },
+                        }
                         ],
                         "required": false
                   },
