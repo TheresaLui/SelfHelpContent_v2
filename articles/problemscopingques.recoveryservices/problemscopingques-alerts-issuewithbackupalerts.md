@@ -22,7 +22,7 @@
 			"visibility": "null",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Which type of issue your are facing?",
+			"displayLabel": "Which type of issue you are facing?",
 			"dropdownOptions": [{
 						"value": "Unable to see backup alerts in Azure portal",
 						"text": "Unable to see backup alerts in Azure portal"
@@ -87,11 +87,12 @@
 				"required": true
 		},{
 			"id": "alert_type",
-			"visibility": "issue_type == Not receiving notification for backup alerts",
+			"visibility": "issue_type == Unable to see backup alerts in Azure portal",
 			"order": 4,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "",
-			"displayLabel": "Which type of alerts you are not seeing?",
+"value": "I changed email address, but still do not receive alerts",
+					"text": "I changed email address, but still do not receive alerts"			"displayLabel": "Which type of alerts you are not seeing?",
 			"dropdownOptions": [{
 						"value": "Critical",
 						"text": "Critical"
@@ -115,26 +116,23 @@
 			"infoBalloonText": "Check <a href='https://aka.ms/Monitor-JobsAlert-RSV'>Backup Alerts</a> article",
 			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
-					"value": "Ensured the email address is correct from the Configure notifications tab",
-					"text": "Ensured the email address is correct from the Configure notifications tab"
+					"value": "Ensured the email address is correct in the Configure notification tab",
+					"text": "Ensured the email address is correct in the Configure notification tab"
 			},{
-					"value": "Getting notification if i change frequency from Per Alert to Hourly Digest",
-					"text": "Getting notification if i change frequency from Per Alert to Hourly Digest"
+					"value": "I receive alerts for Per Alert, but not for Hourly digest",
+					"text": "I receive alerts for Per Alert, but not for Hourly digest"
 			},{
-					"value": "Not getting notification even if i change frequency from Per Alert to Hourly Digest",
-					"text": "Not getting notification even if i change frequency from Per Alert to Hourly Digest"
+					"value": "I receive alerts for Hourly digest, but not for Per Alert",
+					"text": "I receive alerts for Hourly digest, but not for Per Alert"
 			},{
-					"value": "Getting notification if i change frequency from Hourly Digest to Per Alert",
-					"text": "Getting notification if i change frequency from Hourly Digest to Per Alert"
+					"value": "I do not receive alerts either for Per Alert or Hourly digest",
+					"text": "I do not receive alerts either for Per Alert or Hourly digest"
 			},{
-					"value": "Not getting notification even if i change frequency from Hourly Digest to Per Alert",
-					"text": "Not getting notification even if i change frequency from Hourly Digest to Per Alert"
+					"value": "I changed email address, but still do not receive alerts",
+					"text": "I changed email address, but still do not receive alerts"
 			},{
-					"value": "Getting notification on different email address",
-					"text": "Getting notification on different email address"
-			},{
-					"value": "Not getting notification even on different email address as well",
-					"text": "Not getting notification even on different email address as well"
+					"value": "I changed email address, started receiving alerts",
+					"text": "I changed email address, started receiving alerts"
 			},{
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
