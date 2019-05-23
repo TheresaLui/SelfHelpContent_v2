@@ -20,7 +20,7 @@ We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedR
 
 ## **Issues identified**
 
- <!--$failedCheckList-->
+ <!--$failedCheckList-->[failedChecklist]<!--/$failedCheckList-->
 
 ## **Recommended Steps**
 
