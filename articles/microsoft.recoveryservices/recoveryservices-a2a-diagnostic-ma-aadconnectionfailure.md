@@ -1,6 +1,6 @@
 <properties
-	pageTitle=""Mobility service Configuration failed due to AAD connectivity issue"
-	description=""Mobility service Configuration failed due to AAD connectivity issue"
+	pageTitle="Mobility service Configuration failed due to AAD connectivity issue"
+	description="Mobility service Configuration failed due to AAD connectivity issue"
 	infoBubbleText="Some suggestions have been found to help solve your issue. Please see details to the right."
 	service="microsoft.recoveryservices"
 	resource="vaults"
@@ -28,3 +28,7 @@ To resolve this issue, follow these steps:
 1. Make sure that the proxy settings from Internet Explorer on Windows or **/etc/environment** on Linux are correct.
 2. If the error still occurs, set proxy only for the Site Recovery Mobility Service. To do this,  you can provide the proxy details in ProxyInfo.conf that is located at: **/usr/local/InMage/config/** for Linux VM, or **C:\ProgramData\Microsoft Azure Site Recovery\Config** for Windows VM.
 3. The ProxyInfo.conf should have the proxy settings in the following INI format. The Mobility Service supports only un-authenticated proxies.
+
+        [proxy]
+        Address=http://1.2.3.4
+        Port=567
