@@ -36,7 +36,7 @@
                       "id": "getCommandStatus",
                       "order": 3,
                       "controlType": "dropdown",
-                      "displayLabel": "Are you able to run **kubectl logs**/**kubectl exec** commands?",
+                      "displayLabel": "Are you able to run "kubectl logs"/"kubectl exec" commands?",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                         {
