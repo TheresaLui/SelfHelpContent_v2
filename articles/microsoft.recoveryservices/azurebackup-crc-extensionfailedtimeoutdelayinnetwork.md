@@ -17,18 +17,15 @@
 # Error ExtensionFailedTimeoutDelayInNetwork
 
 <!--issueDescription-->
-We have identified that your backup operation failed due to the proxy-server that has introduced the network delay.
+We have identified that your backup operation failed due to the proxy server introducing a network delay.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve ExtensionFailedTimeoutDelayInNetwork ensure there are no network delays or delays due to proxy-server.<br/>
-Follow these steps to resolve the issue:<br/> 
 
-* Ensure there is no network delay that might lead to communication latencies. <br/>
-* Use bitsadmin Util to set No-Proxy to be used for LocalSystem account using the below command:<br/>
-	`
-  bitsadmin /Util /SetIEProxy LOCALSYSTEM NO_PROXY
-  `
+* Ensure there are no network delays or delays due to proxy server
+* Ensure there is no network delay that might lead to communication latencies
+* Use bitsadmin Util to set No-Proxy to be used for LocalSystem account: `bitsadmin /Util /SetIEProxy LOCALSYSTEM NO_PROXY`
 
-## **Recommended Document**
-For more information on bitsadmin util, refer this [document](https://docs.microsoft.com/windows-server/administration/windows-commands/bitsadmin-util-and-setieproxy)
+## **Recommended Documents**
+
+* [Bitsadmin Utility](https://docs.microsoft.com/windows-server/administration/windows-commands/bitsadmin-util-and-setieproxy)
