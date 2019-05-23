@@ -37,7 +37,7 @@
                     "order": 3,
                     "controlType": "multilinetextbox",
                     "displayLabel": "Which network policy provider you are using?",
-                    "infoBalloonText": "Read here <a href='https://docs.microsoft.com/azure/aks/use-network-policies#differences-between-azure-and-calico-policies-and-their-capabilities '></a> for AKS supported policy providers.",
+                    "infoBalloonText": "Read <a href='https://docs.microsoft.com/azure/aks/use-network-policies#differences-between-azure-and-calico-policies-and-their-capabilities '>here</a> for AKS supported policy providers.",
                     "required": false
                   },
                   {
