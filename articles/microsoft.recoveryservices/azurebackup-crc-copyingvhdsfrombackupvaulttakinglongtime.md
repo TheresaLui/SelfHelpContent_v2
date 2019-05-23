@@ -1,7 +1,6 @@
 <properties
 	pageTitle="CopyingVHDsFromBackUpVaultTakingLongTime"
 	description="CopyingVHDsFromBackUpVaultTakingLongTime"
-	service="microsoft.recoveryservices"
 	infoBubbleText="Backup failed because of system file errors.This could be due to one or more actions pending on this server"
 	service="microsoft.recoveryservices"
 	resource="backup"
