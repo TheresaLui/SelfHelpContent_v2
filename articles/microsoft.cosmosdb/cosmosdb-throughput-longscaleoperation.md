@@ -28,7 +28,7 @@ Azure Cosmos DB currently only supports scale up operation. It is typically a lo
 | 400                   | 50 < Scale factor < 100 | 12 hours            |
 | 400                   | 100 < Scale factor < 200| 18 hours            |
 | >400                  | <100                    | <1 minute           |
-| >400                  | 100 < Sacle factor < 200| 6 hours             |
+| >400                  | 100 < Scale factor < 200| 6 hours             |
 
 ## **Recommended Documents**
 
