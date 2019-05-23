@@ -19,10 +19,10 @@
 # Error UserErrorUnSupportedDistribution
 
 <!--issueDescription-->
-We have identified that your backup operation failed due to unsupported operating system that was configured for backup.
-
+We have identified that your backup operation failed due to an unsupported operating system that was configured for backup.
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Documents**
 
-* To resolve this issue refer to the list of supported operating systems for [Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-support-matrix-mabs-dpm#supported-mabs-and-dpm-operating-systems)/[DPM-to-Azure and Azure Backup Agent](https://docs.microsoft.com/azure/backup/backup-support-matrix-mars-agent#support-for-direct-backups). 
+* [Supported operating systems for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-support-matrix-mabs-dpm#supported-mabs-and-dpm-operating-systems)
+* [DPM-to-Azure and Azure Backup Agent](https://docs.microsoft.com/azure/backup/backup-support-matrix-mars-agent#support-for-direct-backups)
