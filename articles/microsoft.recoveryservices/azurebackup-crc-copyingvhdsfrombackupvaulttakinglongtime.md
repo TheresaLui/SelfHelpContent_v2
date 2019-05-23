@@ -24,6 +24,7 @@ We have identified that your backup operation is taking longer than expected.
 
 ## **Recommended Steps**
 To resolve this issue, try the following: 
+
 * Consider staggering backup times of involved VMs by about an hour or so to see if issue resolves. Stagger more if required.
 * Consider limiting on the number of disks per storage account relative to how heavily the disks are being accessed. 
 * If protected disks that are undergoing incremental backup have a daily churn of more than 200 GB, backup can take a long time (more than eight hours) to complete.
