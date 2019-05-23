@@ -18,7 +18,7 @@ cloudEnvironments="public"
 
 # Runbook was stopped or failed because it exceeded the fair share time limit
 
-<!--/issueDescription-->
+<!--issueDescription-->
 We have investigated and identified that your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was stopped or failed <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation. It exceeded the <!--$TimeLimit-->[TimeLimit]<!--/$TimeLimit--> minute fair share time limit.
 <!--/issueDescription-->
 
