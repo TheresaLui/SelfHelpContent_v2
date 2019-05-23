@@ -22,6 +22,7 @@ We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vm
 <!--/issueDescription-->
 
 You attempted to resize a VM to a size that is not available in its current availability set. You have a couple of options:
+
 - Choose a size that is included in your availability set.
 - Resize the VM, but first you must stop the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size.<br> 
 
@@ -36,11 +37,13 @@ The following sections have PowerShell examples use these variables:
 List the VM sizes that are available on the hardware cluster where the VM is hosted.
 
 ```powershell
+
 Get-AzVMSize -ResourceGroupName $myResourceGroup -VMName $myVM
 ``` 
 If the desired size is listed, resize the VM. 
 
 ```powershell
+
 $vm = Get-AzVM -ResourceGroupName $myResourceGroup -VMName $myVM 
 $vm.HardwareProfile.VmSize = $newSize
 Update-AzVM -VM $vm -ResourceGroupName $myResourceGroup
@@ -50,11 +53,13 @@ Update-AzVM -VM $vm -ResourceGroupName $myResourceGroup
 
 List the VM sizes that are available on the hardware cluster where the VM is hosted.
 ```powershell
+
 Get-AzVMSize -ResourceGroupName $resourceGroup -VMName $vmName
 ```
 Stop all VMs in the availability set.
 
 ```powershell
+
 $as = Get-AzAvailabilitySet -ResourceGroupName $resourceGroup
 $vmIds = $as.VirtualMachinesReferences
 foreach ($vmId in $vmIDs){
@@ -67,6 +72,7 @@ foreach ($vmId in $vmIDs){
 Resize and restart the VMs in the availability set.
 
 ```powershell
+
 $as = Get-AzAvailabilitySet -ResourceGroupName $resourceGroup
 $vmIds = $as.VirtualMachinesReferences
   foreach ($vmId in $vmIDs){
