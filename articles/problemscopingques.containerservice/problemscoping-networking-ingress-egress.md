@@ -66,7 +66,7 @@
                         {
                           "value": "Both",
                           "text": "Both"
-                        }
+                        },
                         {
                           "value": "dont_know_answer",
                           "text": "I don't know"
