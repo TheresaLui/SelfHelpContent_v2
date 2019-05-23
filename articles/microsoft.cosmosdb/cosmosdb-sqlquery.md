@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="6f8e4570-de45-428f-9ea9-d45135b5ebf6"
+	articleId="cosmosdb-sqlquery"
 />
 
 # SQL queries for Azure Cosmos DB
