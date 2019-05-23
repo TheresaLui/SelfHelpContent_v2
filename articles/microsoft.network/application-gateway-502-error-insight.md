@@ -24,12 +24,10 @@ We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedR
 
 ## **Recommended Steps**
 
-Use the instructions below to troubleshoot the issues identified by the diagnostics. 
+Use the instructions below to troubleshoot the issues identified by the diagnostics:
 
 - [Unhealthy instances in backend address pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#unhealthy-instances-in-backendaddresspool) 
-
 - [Empty backend address pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#empty-backendaddresspool)
-
 - [Incorrect order of processing listeners](https://docs.microsoft.com/azure/application-gateway/configuration-overview#order-of-processing-listeners)
 
 The following are other issues which cannot be identified by the diagnostics but can result in Bad Gateway Error (502):
