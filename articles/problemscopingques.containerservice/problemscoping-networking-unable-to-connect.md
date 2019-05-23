@@ -44,7 +44,7 @@
                           "text": "Yes"
                         },{
                           "value": "timeout",
-                          "text": "No, it timesout"
+                          "text": "No, it timeouts"
                         },
                         {
                           "value": "dont_know_answer",
