@@ -76,7 +76,7 @@
                   },
                   {
                   "id": "problem_description",
-                  "order": 4,
+                  "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
