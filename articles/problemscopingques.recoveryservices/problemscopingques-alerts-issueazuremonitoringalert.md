@@ -20,71 +20,36 @@
 	  "formElements": [{
 			"id": "issue_type",
 			"order": 1,
-			"visibility": "null",
 			"controlType": "dropdown",
+			"infoBalloonText": "For more information see. Log alerts - <a href='https://aka.ms/AB-Alert-Tshooting'>'not received'</a>, <a href='https://aka.ms/AB-Alerts-fireunexpectedly'>'triggered unexpected'</a>, <a href='https://aka.ms/AB-Alerts-Delay'>'delays'</a>, <a href='https://aka.ms/AB-Alerts-Howto'>'How-to'</a>",
 			"displayLabel": "Which type of issue your are facing?",
 			"dropdownOptions": [{
-						"value": "Unable to see backup alerts in Azure portal",
-						"text": "Unable to see backup alerts in Azure portal"
+						"value": "Log alert not received (or was disabled)",
+						"text": "Log alert not received (or was disabled)"
 					},{
-						"value": "Not receiving email notification for alerts",
-						"text": "Not receiving email notification for alerts"
+						"value": "Log alerts triggered unexpectedly",
+						"text": "Log alerts triggered unexpectedly"
+					},{
+						"value": "Log alerts received with delays",
+						"text": "Log alerts received with delays"
+					},{
+						"value": "How to Create, view, and manage log alerts",
+						"text": "How to Create, view, and manage log alerts"
 					},{
 						"value": "dont_know_answer",
 						"text": "Other, don't know or not applicable"
 					}
 					],
 					"required": true
-	},{
-			"id": "email_address_confirmation",
-			"order": 2,
-			"visibility": "issue_type == Not receiving email notification for alerts",
-			"controlType": "dropdown",
-			"displayLabel": "Have you reverified the email address configured for alert?",
-			"watermarkText": "Select",
-			"dropdownOptions": [{
-						"value": "Yes, it's correct",
-						"text": "Yes, it's correct"
-				},{
-						"value": "No, i haven't reverified",
-						"text": "No, i haven't reverified"
-				},{
-						"value": "dont_know_answer",
-						"text": "Other, don't know or not applicable"
-				}
-			 ],
-			 "required": true
-	},{
-			"id": "different_email_confirmation",
-			"order": 3,
-			"visibility": "issue_type == Not receiving email notification for alerts",
-			"controlType": "dropdown",
-			"displayLabel": "Have you tried getting notification on different email address?",
-			"watermarkText": "Select",
-			"dropdownOptions": [{
-						"value": "Yes, it's working",
-						"text": "Yes, it's working"
-				},{
-						"value": "Yes, it's not working",
-						"text": "Yes, it's not working"
-				},{
-						"value": "No, i haven't tried",
-						"text": "No, i haven't tried"
-				},{
-						"value": "dont_know_answer",
-						"text": "Other, don't know or not applicable"
-				}
-			 ],
-				"required": true
-	},{
+		},{
 			  "id": "problem_start_time",
-			  "order": 4,
+			  "order": 2,
 			  "controlType": "datetimepicker",
 			  "displayLabel": "When did the problem begin?",
 			  "required": true
-	},{
+		},{
 			  "id": "problem_description",
-			  "order": 5,
+			  "order": 3,
 			  "controlType": "multilinetextbox",
 			  "useAsAdditionalDetails": true,
 			  "displayLabel": "Additional details",
