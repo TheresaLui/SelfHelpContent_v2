@@ -10,4 +10,6 @@
     cloudEnvironments="public"
  />
 
-The enetred URL is invalid. Please provide a valid URL in the syntax protocol://domainOrIPAddress. Example: http://contoso.com, https://contoso.com, http://contoso or https://contoso
+# Invalid URL
+ 
+ The entered URL is invalid. Please provide a valid URL in the syntax protocol://domainOrIPAddress. Example: http://contoso.com, https://contoso.com, http://contoso or https://contoso
