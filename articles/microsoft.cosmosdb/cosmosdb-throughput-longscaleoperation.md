@@ -30,7 +30,7 @@ Azure Cosmos DB currently only supports scale up operation. It is typically a lo
 | >400                  | <100                    | <1 minute           |
 | >400                  | 100 < Sacle factor < 200| 6 hours             |
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Request units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
 * [Request unit calculator](https://www.documentdb.com/capacityplanner)
