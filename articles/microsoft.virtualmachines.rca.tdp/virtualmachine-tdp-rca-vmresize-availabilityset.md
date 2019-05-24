@@ -87,7 +87,7 @@ $vmIds = $as.VirtualMachinesReferences
 
 ## Resources
 
-In addition to availability sets, consider Azure Availability Zones. Availability zones provide provide high availability by having VMs grouped in one or more physical locations within an Azure Region.<br>
+In addition to availability sets, consider Azure Availability Zones. Availability zones provide high availability by having VMs grouped in one or more physical locations within an Azure Region.<br>
 
 | To learn about ... | See these articles |
 | --- | --- |
