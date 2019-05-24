@@ -19,8 +19,9 @@
 # Error UserErrorCannotFindServerCertificateWithThumbprint
 
 <!--issueDescription-->
-We have identified that your restore job failed because Azure backup cannot find the server certificate with the thumbprint on the target. This is mostly like due to Master database on the destination instance doesn't have a valid encryption thumbprint.
+We have identified that your restore job failed because Azure Backup cannot find the server certificate with the thumbprint on the target. This is mostly like due to the Master database on the destination instance not having a valid encryption thumbprint.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue follow this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotfindservercertificatewiththumbp).
+## **Recommended Steps**
+
+* To resolve this issue follow this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotfindservercertificatewiththumbp)
