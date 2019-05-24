@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* **[Technical Benefits - Usage of Product Support Incidents, Signature Cloud Support and Advisory Hours](https://support.microsoft.com/en-us/help/2987884/microsoft-partner-network-technical-benefits-summary)**
+* [Technical Benefits - Usage of Product Support Incidents, Signature Cloud Support and Advisory Hours](https://support.microsoft.com/en-us/help/2987884/microsoft-partner-network-technical-benefits-summary)
