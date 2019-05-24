@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Technical Benefits request"
+	pageTitle="How to use technical benefits"
 	description="How to use technical benefits"
 	infoBubbleText=""
 	service="partnercenter"
