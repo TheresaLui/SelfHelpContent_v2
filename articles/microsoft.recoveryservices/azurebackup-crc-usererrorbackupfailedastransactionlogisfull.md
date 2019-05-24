@@ -19,8 +19,9 @@
 # Error UserErrorBackupFailedAsTransactionLogIsFull
 
 <!--issueDescription-->
-We have identified that your backup operation failed as transaction log for the data source is full.
+We have identified that your backup operation failed, as transaction log for the data source is full.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorbackupfailedastransactionlogisfull).
+## **Recommended Steps**
+
+* To resolve this issue, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorbackupfailedastransactionlogisfull)
