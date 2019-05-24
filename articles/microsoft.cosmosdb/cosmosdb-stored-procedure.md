@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="cosmosdb-stored-procedures"
+	articleId="cosmosdb-stored-procedure"
 />
 
 # Introduction to server-side programming in Azure Cosmos DB
