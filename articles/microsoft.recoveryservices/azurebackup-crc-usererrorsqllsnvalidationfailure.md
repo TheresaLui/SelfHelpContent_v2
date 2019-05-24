@@ -19,11 +19,12 @@
 # Error UserErrorSQLLSNValidationFailure
 
 <!--issueDescription-->
-We have identified that your backup operation failed due to conflict with another backup application.
+We have identified that your backup operation failed due to a conflict with another backup application.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 To resolve this issue follow steps listed below:
 
-* Check the steps described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqllsnvalidationfailure) for conflicting backup solutions or log chain issues. 
-* If you have configured both Azure IaaS VM and SQL Server backup, then VM backup creates a VSS full backup causing snapshot task delays. Set the `USEVSSCOPYBACKUP` registry key as described in this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#troubleshoot-vm-snapshot-issues).
+* Check the steps described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqllsnvalidationfailure) for conflicting backup solutions or log chain issues
+* If you have configured both Azure IaaS VM and SQL Server backup, the VM backup creates a VSS full backup causing snapshot task delays. Set the `USEVSSCOPYBACKUP` registry key as described in this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#troubleshoot-vm-snapshot-issues).
