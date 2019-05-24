@@ -24,7 +24,7 @@ We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vm
 You attempted to resize a VM to a size that is not available in its current availability set, as supported by the hardware cluster that supports the availability set. You have a couple of options:
 
 - Choose a size that is included in your availability set.
-- Choose a size that is not included in your availability set. However, you must first you must stop the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size.<br> 
+- Choose a size that is not included in your availability set. However, you must first deallocate all the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size.<br> 
 
 The following sections have PowerShell examples use these variables:
 
