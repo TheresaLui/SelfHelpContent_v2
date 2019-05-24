@@ -21,7 +21,7 @@
 We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the availability set **<!--$avsetname--><!--/$avsetname-->** must be reconfigured to include the VM size that you specified.<br>
 <!--/issueDescription-->
 
-You attempted to resize a VM to a size that is not available in its current availability set, as supported by the hardware cluster that supports the availability set. You have a couple of options:
+You attempted to resize a VM to a size that is not available in its current availability set. You have a couple of options:
 
 - Choose a size that is included in your availability set.
 - Choose a size that is not included in your availability set. However, you must first deallocate all the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size.<br> 
@@ -63,10 +63,10 @@ Stop all VMs in the availability set.
 $as = Get-AzAvailabilitySet -ResourceGroupName $resourceGroup
 $vmIds = $as.VirtualMachinesReferences
 foreach ($vmId in $vmIDs){
-    $string = $vmID.Id.Split("/")
-    $vmName = $string[8]
-    Stop-AzVM -ResourceGroupName $resourceGroup -Name $vmName -Force
-  }
+  $string = $vmID.Id.Split("/")
+  $vmName = $string[8]
+  Stop-AzVM -ResourceGroupName $resourceGroup -Name $vmName -Force
+}
 ```
 
 Resize and restart the VMs in the availability set.
