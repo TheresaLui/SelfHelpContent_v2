@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
-	ms.author:"srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorsqllsnvalidationfailure"
 	diagnosticScenario="azurebackup-crc-usererrorsqllsnvalidationfailure"
