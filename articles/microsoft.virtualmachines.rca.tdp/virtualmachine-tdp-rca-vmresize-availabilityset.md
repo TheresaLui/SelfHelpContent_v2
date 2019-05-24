@@ -18,7 +18,7 @@
 # We need some actions from you to deploy your resource
 
 <!--issueDescription-->
-We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the availability set **<!--$avsetname-->myAvailabilitySet<!--/$avsetname-->** must be reconfigured to include the VM size that you specified.<br>
+We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the availability set **<!--$avsetname--><!--/$avsetname-->** must be reconfigured to include the VM size that you specified.<br>
 <!--/issueDescription-->
 
 You attempted to resize a VM to a size that is not available in its current availability set, as supported by the hardware cluster that supports the availability set. You have a couple of options:
