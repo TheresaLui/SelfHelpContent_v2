@@ -19,8 +19,9 @@
 # Error UserErrorCannotRestoreExistingDBWithoutForceOverwrite
 
 <!--issueDescription-->
-We have identified another database with same name already exists at the target location.
+We have identified that another database with the same name already exists at the target location.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue follow this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotrestoreexistingdbwithoutforceoverwrite).
+## **Recommended Steps**
+
+* To resolve this issue, follow this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotrestoreexistingdbwithoutforceoverwrite)
