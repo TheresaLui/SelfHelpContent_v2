@@ -1,4 +1,19 @@
-<properties pageTitle="Partner Center MPN benefits IUR Requests" description="Partner Center MPN benefits IUR Requests" authors="dimanjar" ms.author="dimanjar" selfHelpType="problemScopingQuestions" supportTopicIds="32635648,32635678,32635700" productPesIds="15960" cloudEnvironments="public" schemaVersion="1" articleId="scopingquestion_partnercenter_MPN_benefits_IUR_requests" clientIds="partnercenter" /> #Partner Center MPN benefits IUR requests --- {
+<properties
+	pageTitle="Partner Center MPN benefits IUR Requests"
+	description="Partner Center MPN benefits IUR Requests"
+	authors="dimanjar" 
+  ms.author="dimanjar"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32635648,32635678,32635700"
+	productPesIds="15960"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId="scopingquestion_partnercenter_MPN_benefits_IUR_requests"
+	clientIds="partnercenter"
+/>
+#Partner Center MPN benefits IUR requests
+---
+{
   "resourceRequired": true,
   "subscriptionRequired": true,
   "title": "MPN benefits IUR issue",
@@ -81,4 +96,5 @@
       "required": true
     }
   ]
-} ---
+}
+---
