@@ -25,12 +25,14 @@ An Azure Availability Set is created on a specific hardware cluster based upon t
 
 We apologize for any inconvenience in not being able to use your desired VM size, but have a couple of options depending on your flexibility with SKU options for the availability set:
 
-- Choose a size that is included in your availability set.
+- Choose a size that is included in your availability set
 - Choose a size that is not included in your availability set. However, you must first deallocate all the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size.<br> 
 
 ## Resources
 
 In addition to availability sets, consider Azure Availability Zones. Availability zones provide high availability by having VMs grouped in one or more physical locations within an Azure Region.<br>
+
+## **Recommended Documents**
 
 | To learn about ... | See these articles |
 | --- | --- |
