@@ -19,8 +19,9 @@
 # Error UserErrorOpeningSQLConnection
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the Azure Backup service is not able to connect to the SQL instance
+We have identified that your backup operation failed because the Azure Backup service is not able to connect to the SQL instance.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue check the steps described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererroropeningsqlconnection).
+## **Recommended Steps**
+
+* To resolve this issue, check the steps described in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererroropeningsqlconnection)
