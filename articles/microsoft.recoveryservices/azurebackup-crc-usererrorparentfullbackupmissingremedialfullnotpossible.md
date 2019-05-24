@@ -19,11 +19,12 @@
 # Error UserErrorParentFullBackupMissingRemedialFullNotPossible
 
 <!--issueDescription-->
-We have identified that your Log backup is failing because there is no first ever Full backup to start the recovery chain. This error code occurs only on the Secondary Server of Always On Configuration. 
+We have identified that your Log backup is failing because there is no first ever full backup to start the recovery chain. This error code occurs only on the Secondary Server of Always On Configuration. 
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
+
 To resolve this issue follow steps listed below:
 
-* Ensure the Primary Replica is up, running and protected.
-* If you want to resolve this issue immediately trigger a Full Backup for this data source through portal. Else, the next scheduled log/diff backup will be auto healed to trigger a Full Backup.
+* Ensure the Primary Replica is up, running, and protected
+* Immediately trigger a Full Backup for this data source through portal. The next scheduled log/diff backup will be auto healed to trigger a Full Backup.
