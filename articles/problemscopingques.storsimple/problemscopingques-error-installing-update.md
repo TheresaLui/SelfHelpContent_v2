@@ -15,7 +15,7 @@
 {
 	"resourceRequired": true,
 	"subscriptionRequired": true,
-	"title": "Slow virtual machine",
+	"title": "Error installing update",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "update_type",
