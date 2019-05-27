@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Mobility service Configuration failed due to AAD connectivity issue"
 	description="Mobility service Configuration failed due to AAD connectivity issue"
-	infoBubbleText="Some suggestions have been found to help solve your issue. Please see details to the right."
+	infoBubbleText="Some suggestions have been found to help to solve your issue. Please see details to the right."
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="genlin"
