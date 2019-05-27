@@ -5,7 +5,7 @@
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="5"
+	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds="32637327"
 	resourceTags=""
