@@ -22,6 +22,6 @@
 We have identified that your restore job failed because Azure Backup cannot find the server certificate with the thumbprint on the target. This is mostly like due to the Master database on the destination instance not having a valid encryption thumbprint.
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Recommended Document**
 
 * To resolve this issue follow this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotfindservercertificatewiththumbprint)
