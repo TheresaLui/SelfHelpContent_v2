@@ -21,7 +21,3 @@ We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedR
 ## **Issues identified**
 
  <!--$failedCheckList-->[failedChecklist]<!--/$failedCheckList-->
-
-## **Recommended Steps**
-
-if the diagnostics above cannot identify any issues, then you need to check if the backend has a redirection loop. You can verify this by bypassing the Application Gateway to directly access the backend. If you still observe the same error, then the issue is with the backend and not with the Application Gateway.
