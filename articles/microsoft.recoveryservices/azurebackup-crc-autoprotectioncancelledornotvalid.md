@@ -19,8 +19,11 @@
 # Error AutoProtectionCancelledOrNotValid
 
 <!--issueDescription-->
-We have identified that backup operation failed due Auto-protection Intent was either removed or it is no more valid.
+We have identified that your backup operation failed, due to auto-protection being either removed or invalid. When you enable auto-protection on a SQL instance, Configure Backup jobs run for all the databases in that instance. If you disable auto-protection while the jobs are running, then any in-progress jobs are canceled with this error code.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#autoprotectioncancelledornotvalid).
+## **Recommended Steps**
+
+* Review this list of [symptoms](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#symptoms) and their corresponding causes and try to resolve the issue
+* Re-enable auto-protection to protect databases
+
