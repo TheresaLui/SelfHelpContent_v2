@@ -19,8 +19,9 @@
 # Error CBPBackupOrRestoreInProgress
 
 <!--issueDescription-->
-We have identified operation attempted cannot be performed at this time because another backup or restore operation is currently in progress.
+We have identified that the requested operation attempted cannot be performed at this time, because another backup or restore operation is currently in progress.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Wait until the current operation finishes and then retry then operation.
+
+* Wait until the current operation finishes, then retry the operation
