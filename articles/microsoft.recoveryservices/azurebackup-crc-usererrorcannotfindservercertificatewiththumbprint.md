@@ -24,4 +24,4 @@ We have identified that your restore job failed because Azure Backup cannot find
 
 ## **Recommended Steps**
 
-* To resolve this issue follow this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotfindservercertificatewiththumbp)
+* To resolve this issue follow this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorcannotfindservercertificatewiththumbprint)
