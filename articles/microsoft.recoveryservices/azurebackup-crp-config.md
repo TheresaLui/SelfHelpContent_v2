@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Azure IAAS VM Backup Configure Protection"
 	description="Azure IAAS VM Backup Configure Protection failures"
-	service="microsoft.recoveryservices"
-	resource="vaults"
+	service="microsoft.compute"
+	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="2"
