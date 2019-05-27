@@ -19,7 +19,7 @@
 # Error FabricSvcBackupPreferenceCheckFailedUserError
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the nodes required to perform backups are not registered or are unreachable.
+We have identified that your registration operation failed because the nodes required to perform backups are not registered or are unreachable.
 <!--/issueDescription-->
 
 ## **Recommended Document**
