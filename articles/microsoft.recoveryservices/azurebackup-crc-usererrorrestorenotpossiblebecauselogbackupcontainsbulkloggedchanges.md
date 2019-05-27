@@ -22,5 +22,5 @@
 We have identified that your restore job failed because a database is in bulk logged recovery mode. When data is between a bulk logged transaction and next log transaction, it cannot be recovered.
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Recommended Document**
 To resolve this issue follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorrestorenotpossiblebecauselogbackupcontainsbulkloggedchanges)
