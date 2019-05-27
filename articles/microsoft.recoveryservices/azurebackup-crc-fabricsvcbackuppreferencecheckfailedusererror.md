@@ -23,4 +23,5 @@ We have identified that your registration operation failed because the nodes req
 <!--/issueDescription-->
 
 ## **Recommended Document**
-To resolve this issue follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#fabricsvcbackuppreferencecheckfailedusererror).
+
+* To resolve this issue follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#fabricsvcbackuppreferencecheckfailedusererror)
