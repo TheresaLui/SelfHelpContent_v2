@@ -19,8 +19,9 @@
 # Error UserErrorSQLPODoesNotExist
 
 <!--issueDescription-->
-We have identified that your backup operation failed because SQL database does not exist.
+We have identified that your backup operation failed because the SQL database does not exist.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue follow the steps listed in this [article](https://aka.ms/AB-usererrorsqlpodoesnotexist).
+
+* To resolve this issue, follow the steps listed in this [article](https://aka.ms/AB-usererrorsqlpodoesnotexist)
