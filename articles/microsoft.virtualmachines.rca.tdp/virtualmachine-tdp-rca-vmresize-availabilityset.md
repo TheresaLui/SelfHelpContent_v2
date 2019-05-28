@@ -28,7 +28,7 @@ We apologize for any inconvenience in not being able to use your desired VM size
 - Choose a size that is included in your availability set
 - Choose a size that is not included in your availability set. However, you must first deallocate all the VMs in the availability set. This is because Azure must have all the VMs deallocated in the set to reconfigure them to support the new size.<br>
 
-See [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) for considerations on working with VM sizes, availabilty sets, regions, and hardware. 
+See [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) for considerations on working with VM sizes, availability sets, regions, and hardware. 
 
 
 
