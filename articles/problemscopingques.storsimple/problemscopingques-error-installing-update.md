@@ -1,6 +1,6 @@
 <properties
 	articleId="10ed438a-9624-4f7e-8ea8-7e62906af8dc"
-	pageTitle="Scoping error installing update""
+	pageTitle="Scoping error installing update"
 	description="Error installing update"
 	authors="Archana-MSFT"
 	ms.author="armukk"
