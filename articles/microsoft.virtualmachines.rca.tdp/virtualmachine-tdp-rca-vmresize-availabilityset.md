@@ -38,7 +38,7 @@ See [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-ma
 - [Tutorial: Create and deploy highly available virtual machines with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
 - [Manage the availability of Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)
 - [Manage the availability of Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/linux/manage-availability)
-- [Azure Availability Zones](https://azure.microsoft.com/global-infrastructure/availability-zones/) |
+- [Azure Availability Zones](https://azure.microsoft.com/global-infrastructure/availability-zones/)
 
 
 
