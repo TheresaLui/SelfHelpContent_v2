@@ -23,7 +23,7 @@ We detected that the update operation for virtual machine **<!--$vmname-->myVM<!
 
 An Azure Availability Set is created on a specific hardware cluster based upon the first VM using it. Each subsequent VM added must be compatible with the VM sizes supported in that hardware cluster. By having this constraint, high availability is maintained. In this case, the resize attempt used a size that is not available in its current availability set/hardware cluster.<br>
 
-## Recommended steps
+## **Recommended Steps**
 
 We apologize for any inconvenience in not being able to use your desired VM size, but have a couple of options depending on your flexibility with SKU options for the availability set:
 
@@ -32,7 +32,7 @@ We apologize for any inconvenience in not being able to use your desired VM size
 
 See [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) for considerations on working with VM sizes, availability sets, regions, and hardware.<br> 
 
-## Recommended documents
+## **Recommended Documents**
 
 - [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) 
 - [Tutorial: Create and deploy highly available virtual machines with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
