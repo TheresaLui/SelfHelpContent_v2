@@ -16,8 +16,8 @@
 
 # Bad Gateway Error (502)
 
-We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->** and have found the below issues because of which you are encountering Bad Gateway Error (502).
+We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->** and have found the below issues that could be the cause of your Bad Gateway Error (502).
 
-## **Issues identified**
+## **Issues Identified**
 
  <!--$failedCheckList-->[failedChecklist]<!--/$failedCheckList-->
