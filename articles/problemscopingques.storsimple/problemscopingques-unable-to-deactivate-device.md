@@ -34,7 +34,7 @@
 			"required": false
 		}, {
 			"id": "retry",
-			"order": 1,
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Have you tried deactivation process again after a few hours?",
 			"watermarkText": "Choose an option",
