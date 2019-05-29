@@ -13,6 +13,7 @@
 # Recover deleted Storage Account
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Storage Account recovery scoping question",
     "fileAttachmentHint": "",

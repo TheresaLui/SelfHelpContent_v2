@@ -13,6 +13,7 @@
 # Recover deleted Resource Group
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Resource group recovery scoping question",
     "fileAttachmentHint": "",
