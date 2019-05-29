@@ -4,13 +4,13 @@
     infoBubbleText=""
     authors="jaserano, v-miegge"
     ms.author="jaserano"
-    articleId="f21a313f-68b1-44fb-8f2f-888cdf6b771c"
     diagnosticScenario=""
     selfHelpType="generic"
     supportTopicIds="32641052"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public"
+    articleId="f21a313f-68b1-44fb-8f2f-888cdf6b771c"
 />
 
 # Azure Data Factory V2
