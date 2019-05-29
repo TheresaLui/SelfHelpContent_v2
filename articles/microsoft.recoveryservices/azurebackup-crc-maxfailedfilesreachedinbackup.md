@@ -19,8 +19,14 @@
 # Error MaxFailedFilesReachedInBackup
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the number of data transfer has reached the full volume.
+We have identified that your backup operation failed because the number of failed data transfers has reached the maximum number allowed.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve MaxFailedFilesReachedInBackup check if the volume where scratch space is configured is not full and retry the operation and ensure backup agent installed is latest.
+
+To resolve this issue:
+
+* Ensure that your volume has sufficient scratch space and the volume is not full
+* Check that your backup agent is the [latest version available](https://azure.microsoft.com/resources/videos/download-install-and-register-the-azure-backup-agent/)
+* If necessary, create additional space on the volume
+* Retry the operation
