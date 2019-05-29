@@ -2,6 +2,7 @@
 	pageTitle="Recover deleted Storage Account"
 	description="Recover deleted Storage Account scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602701"
 	productPesIds="15629"
@@ -27,7 +28,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Name of the deleted Storage Account",
-            "watermarkText": "StorageAccountName",
+            "watermarkText": "accountname1;accountname2;accountname3",
             "required": true
         },
         {
@@ -61,14 +62,14 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Date and time that the account was deleted",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
@@ -77,6 +78,7 @@
             "controlType": "infoblock",
             "content": "You can follow our <a href='https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data'>best practices for protecting your data</a> to ensure that your deleted data will be recoverable in the future."
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -10,43 +10,49 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# DDOS Protection\Configure DDoS protection standard
+# DDOS Protection\\Configure DDoS protection standard
 ---
 {
-	"resourceRequired": false,
-	"subscriptionRequired": false,
-	"title": "Configure DDoS protection standard",
-	"fileAttachmentHint": "",
-	"formElements": [
- {
-			"id": "is_it_first_time_deployed",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Are you activating DDoS Standard for the first time?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "dont_know_answer",
-					"text": "No"
-				}
-			],
-			"required": true
-		}, {
-			"id": "problem_start_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem start?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Description",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true}
-	]
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Configure DDoS protection standard",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "is_it_first_time_deployed",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Are you activating DDoS Standard for the first time?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "No"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

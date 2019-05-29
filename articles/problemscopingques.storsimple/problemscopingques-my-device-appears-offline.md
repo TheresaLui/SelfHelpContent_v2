@@ -13,46 +13,54 @@
 # My Device appears offline on the portal
 ---
 {
-	"subscriptionrequired": false,
-	"resourceRequired": false,
-	"title": "My device appears offline",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "changes_updates",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Were there any changes/updates made on the network?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}
-			],
-			"required": false
-		}, {
-			"id": "problem_start_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Include output."
-				}, {
-					"text": "Run `invoke-hcsdiagnostics -scope network` and provide output below to assist in troubleshooting the issue."
-				}
-			]
-		}
-	]
+    "subscriptionrequired": false,
+    "resourceRequired": false,
+    "title": "My device appears offline",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "changes_updates",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Were there any changes/updates made on the network?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Include output."
+                },
+                {
+                    "text": "Run `invoke-hcsdiagnostics -scope network` and provide output below to assist in troubleshooting the issue."
+                }
+            ]
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

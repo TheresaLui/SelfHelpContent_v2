@@ -13,7 +13,7 @@
 # Questions on Deleting the vault  
 ---
 {
-     "subscriptionRequired": true,
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Recovery services vault deletion failure",
     "fileAttachmentHint": "",
@@ -44,11 +44,10 @@
                     "value": "Tried force deleting the vault using powershell",
                     "text": "Tried to force delete the vault by using PowerShell"
                 },
-
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": false
         },
@@ -69,6 +68,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

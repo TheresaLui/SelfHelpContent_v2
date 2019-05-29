@@ -17,8 +17,7 @@
     "subscriptionRequired": true,
     "title": "Job and task details",
     "fileAttachmentHint": "",
-    "formElements":
-    [
+    "formElements": [
         {
             "id": "job_id_selection",
             "order": 1,
@@ -33,7 +32,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the task IDs which have the problem",
             "watermarkText": "The task IDs which have the problem",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
@@ -50,13 +49,13 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints":
-            [
+            "hints": [
                 {
                     "text": "Provide additional information about your issue."
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

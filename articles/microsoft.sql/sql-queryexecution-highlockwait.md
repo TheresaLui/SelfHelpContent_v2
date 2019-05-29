@@ -10,7 +10,7 @@
     articleId="LockWait_E35B0A66-E692-4508-899C-C1C0E5BBB131"
     diagnosticScenario="SqlPerfTsg"
     selfHelpType="diagnostics"
-    supportTopicIds="32630450,32630459"
+    supportTopicIds="32630434,32630450,32630454,32630459"
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
@@ -18,9 +18,13 @@
 
 # We ran diagnostics on your resource and found high locking waits
 
+<!--issueDescription-->
+Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** is an instance with high locking waits.
+<!--/issueDescription-->
+
 ## **Recommended Steps**
 
-Our internal service telemetry detected that {DatabaseName} is an instance of Azure SQL with high locking waits. This wait event is potentially contributing to performance issues.
+This high locking wait event is potentially contributing to performance issues. Please see the recommended article for more details.
 
 ## **Recommended Documents**
 
