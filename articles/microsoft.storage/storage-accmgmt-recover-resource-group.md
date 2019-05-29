@@ -17,13 +17,15 @@
 
 # Recover deleted resource group
 
-## **Recommended steps**
+## **Recommended Steps**
+
 We can only attempt to recover deleted storage accounts within the resource group. All other resources will need to be manually rebuild. It is only possible to recover deleted storage accounts if both the following conditions are true:
 
-1. Resource group was deleted in the last 14 days<br> 
-2. A new storage account with the same name has not been created since<br> 
+1. Resource group was deleted in the last 14 days
+2. A new storage account with the same name has not been created since
 
 **Note:** Garbage collection could occur on our system at any time, so we cannot guarantee successful recovery.
 
-## **Recommended documents**
-[Best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data)
+## **Recommended Documents**
+
+* [Best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data)
