@@ -14,6 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Troubleshoot Marketplace image deployment failures",
     "fileAttachmentHint": "",
     "formElements": [

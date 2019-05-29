@@ -14,6 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "I need guidance deploying with managed disks",
     "fileAttachmentHint": "",
     "formElements": [

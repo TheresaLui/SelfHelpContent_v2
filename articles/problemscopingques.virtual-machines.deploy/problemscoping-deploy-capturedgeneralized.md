@@ -14,6 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "I am unable to deploy a captured or generalized image",
     "fileAttachmentHint": "",
     "formElements": [

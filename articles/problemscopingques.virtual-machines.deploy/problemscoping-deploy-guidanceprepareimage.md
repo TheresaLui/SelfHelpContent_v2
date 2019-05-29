@@ -14,6 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "I need guidance preparing an image",
     "fileAttachmentHint": "",
     "formElements": [
