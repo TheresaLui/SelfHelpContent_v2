@@ -14,7 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "My desired region or VM size is unavailable",
     "fileAttachmentHint": "",
     "formElements": [

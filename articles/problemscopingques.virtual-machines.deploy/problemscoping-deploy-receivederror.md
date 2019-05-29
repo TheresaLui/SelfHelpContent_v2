@@ -14,7 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "I received a provisioning or deployment timeout error",
     "fileAttachmentHint": "",
     "formElements": [

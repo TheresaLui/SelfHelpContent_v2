@@ -14,7 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "I received an allocation failure",
     "fileAttachmentHint": "",
     "formElements": [

@@ -14,7 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Troubleshoot my ARM template error",
     "fileAttachmentHint": "",
     "formElements": [
