@@ -33,15 +33,6 @@
             "category": "Performance",
             "searchTags": "",
             "supportTopicId": "",
-            "commonSolutionArticleId": "6e565303-3332-4605-b296-275d5143c2d8"
-        },
-        {
-            "id": "My_job_consumes_too_many_streaming_units",
-            "title": "My job consumes too many streaming units",
-            "description": "My job consumes too many streaming units.",
-            "category": "Performance",
-            "searchTags": "",
-            "supportTopicId": "",
             "commonSolutionArticleId": "6223d52c-85e8-47c4-b110-1f2064cb5be8"
         },
         {
