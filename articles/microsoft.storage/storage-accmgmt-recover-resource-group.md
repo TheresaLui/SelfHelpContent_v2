@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="Recover deleted Storage Account"
-	description="Recover deleted Storage Account Troubleshooting"
+	pageTitle="Recover deleted resource group"
+	description="Recover deleted resource group troubleshooting"
 	infoBubbleText="See details on the right"
 	service="microsoft.storage"
 	resource="storage"
@@ -8,20 +8,20 @@
 	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602701,32642178"
-	resourceTags="recovery"
-	productPesIds="15629,16459"
+	supportTopicIds="32642177"
+	resourceTags=""
+	productPesIds="15629"
 	cloudEnvironments="public,MoonCake"
-	articleId="e6c363fc-ee76-4afb-8278-bbb74b17051e"
+	articleId="AA6F6A06-9039-4863-96EC-C20108131730"
 />
 
-# Recover deleted storage account
+# Recover deleted resource group
 
 ## **Recommended Steps**
 
-Storage account recovery is only possible if both the following conditions are true:
+We can only attempt to recover deleted storage accounts within the resource group. All other resources will need to be manually rebuild. It is only possible to recover deleted storage accounts if both the following conditions are true:
 
-1. Storage account was deleted in the last 14 days
+1. Resource group was deleted in the last 14 days
 2. A new storage account with the same name has not been created since
 
 **Note:** Garbage collection could occur on our system at any time, so we cannot guarantee successful recovery.

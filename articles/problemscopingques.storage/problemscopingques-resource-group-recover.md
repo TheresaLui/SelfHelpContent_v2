@@ -1,68 +1,64 @@
 <properties
-	pageTitle="Recover deleted Storage Account"
-	description="Recover deleted Storage Account scoping question"
+	pageTitle="Recover deleted resource group"
+	description="Recover deleted resource group scoping question"
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602701,32642178"
-	productPesIds="15629,16459"
+	supportTopicIds="32642177"
+	productPesIds="15629"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="2165ec52-93b8-4bad-bf52-2b24b8f186cf"
+	articleId="E7F354E1-8263-43BD-9D01-2AAAF1C6316F"
 />
-# Recover deleted Storage Account
+# Recover deleted Resource Group
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Storage Account recovery scoping question",
+    "title": "Resource group recovery scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "warning_same_name",
             "order": 1,
             "controlType": "infoblock",
-            "content": "WARNING: Do not recreate Storage Account with the same name while we attempt to recover it."
+            "content": "WARNING: We will attempt to recover deleted storage accounts in this resource group. Do not recreate storage accounts with the same name while we attempt to recover them."
         },
         {
-            "id": "storage_account_name",
+            "id": "resource_group_name",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Name of the deleted Storage Account",
-            "watermarkText": "accountname1;accountname2;accountname3",
+            "displayLabel": "Name of the deleted resource group",
+            "watermarkText": "ResourceGroupName",
             "required": true
         },
         {
-            "id": "storage_account_type",
+            "id": "recover_all_accounts",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Deployment model",
+            "displayLabel": "Do you want to recover all storage accounts in this resource group?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "ARM",
-                    "text": "Resource Manager (ARM)"
+                    "value": "yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "Classic",
-                    "text": "Classic"
+                    "value": "no",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
-        },
-        {
-            "id": "storage_account_region",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Region of Storage Account",
-            "watermarkText": "Region",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
-            "displayLabel": "Date and time that the account was deleted",
+            "displayLabel": "Date and time that the resource group was deleted",
             "required": true
         },
         {
@@ -79,7 +75,6 @@
             "controlType": "infoblock",
             "content": "You can follow our <a href='https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data'>best practices for protecting your data</a> to ensure that your deleted data will be recoverable in the future."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
