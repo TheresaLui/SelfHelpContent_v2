@@ -34,8 +34,19 @@
         {
             "id": "recover_all_accounts",
             "order": 3,
-            "controlType": "checkbox",
+            "controlType": "dropdown",
             "displayLabel": "Do you want to recover all storage accounts in this resource group?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "no",
+                    "text": "No"
+                }
+            ],
             "required": true
         },
         {
