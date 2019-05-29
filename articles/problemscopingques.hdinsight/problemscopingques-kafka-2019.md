@@ -104,6 +104,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/kafka/kafka-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -114,6 +114,7 @@
             "watermarkText": "Provide additional details (if any)",
             "required": false
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -56,28 +56,29 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-	{
-	    "id": "Backup_Completeness",
-	    "order": 4,
-	    "controlType": "dropdown",
-	    "displayLabel": "Is the backup ever completed before?",
-	    "watermarkText": "Select",
-	    "dropdownoptions": [{
-				"Value":"Yes",
-				"Text": "Yes"
-		  	 },
-		 	 {
-				"Value":"No",
-				"Text": "No"
-			  },
-			  {
-			      "value": "dont_know_answer",
-			      "text": "Other, don't know or not applicable"
-			  }
-		 ],
-		  "required": false
-		},
-	{
+        {
+            "id": "Backup_Completeness",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Is the backup ever completed before?",
+            "watermarkText": "Select",
+            "dropdownoptions": [
+                {
+                    "Value": "Yes",
+                    "Text": "Yes"
+                },
+                {
+                    "Value": "No",
+                    "Text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "job_Running_Time",
             "order": 5,
             "controlType": "textbox",
@@ -102,6 +103,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

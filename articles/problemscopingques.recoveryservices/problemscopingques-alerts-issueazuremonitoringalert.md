@@ -13,50 +13,59 @@
 # Questions for Issue with Azure Monitoring alerts (rule based)
 ---
 {
-         "resourceRequired": true,
-	 "subscriptionRequired": true,
-         "title": "Issue with Azure Monitoring alerts (rule based)",
-         "fileAttachmentHint": "Please attach the screenshot of Alert screen filtered with timespan",
-	  "formElements": [{
-			"id": "issue_type",
-			"order": 1,
-			"controlType": "dropdown",
-			"infoBalloonText": "For more information see. Log alerts - <a href='https://aka.ms/AB-Alert-Tshooting'>'not received'</a>, <a href='https://aka.ms/AB-Alerts-fireunexpectedly'>'triggered unexpected'</a>, <a href='https://aka.ms/AB-Alerts-Delay'>'delays'</a>, <a href='https://aka.ms/AB-Alerts-Howto'>'How-to'</a>",
-			"displayLabel": "Which type of issue you are facing?",
-			"dropdownOptions": [{
-						"value": "Log alert not received (or was disabled)",
-						"text": "Log alert not received (or was disabled)"
-					},{
-						"value": "Log alerts triggered unexpectedly",
-						"text": "Log alerts triggered unexpectedly"
-					},{
-						"value": "Log alerts received with delays",
-						"text": "Log alerts received with delays"
-					},{
-						"value": "How to Create, view, and manage log alerts",
-						"text": "How to Create, view, and manage log alerts"
-					},{
-						"value": "dont_know_answer",
-						"text": "Other, don't know or not applicable"
-					}
-					],
-					"required": true
-		},{
-			  "id": "problem_start_time",
-			  "order": 2,
-			  "controlType": "datetimepicker",
-			  "displayLabel": "When did the problem begin?",
-			  "required": true
-		},{
-			  "id": "problem_description",
-			  "order": 3,
-			  "controlType": "multilinetextbox",
-			  "useAsAdditionalDetails": true,
-			  "displayLabel": "Additional details",
-			  "watermarkText": "Provide additional information about your issue",
-			  "required": true,
-			  "hints": []
-		      }
-	  ]
+    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "title": "Issue with Azure Monitoring alerts (rule based)",
+    "fileAttachmentHint": "Please attach the screenshot of Alert screen filtered with timespan",
+    "formElements": [
+        {
+            "id": "issue_type",
+            "order": 1,
+            "controlType": "dropdown",
+            "infoBalloonText": "For more information see. Log alerts - <a href='https://aka.ms/AB-Alert-Tshooting'>'not received'</a>, <a href='https://aka.ms/AB-Alerts-fireunexpectedly'>'triggered unexpected'</a>, <a href='https://aka.ms/AB-Alerts-Delay'>'delays'</a>, <a href='https://aka.ms/AB-Alerts-Howto'>'How-to'</a>",
+            "displayLabel": "Which type of issue you are facing?",
+            "dropdownOptions": [
+                {
+                    "value": "Log alert not received (or was disabled)",
+                    "text": "Log alert not received (or was disabled)"
+                },
+                {
+                    "value": "Log alerts triggered unexpectedly",
+                    "text": "Log alerts triggered unexpectedly"
+                },
+                {
+                    "value": "Log alerts received with delays",
+                    "text": "Log alerts received with delays"
+                },
+                {
+                    "value": "How to Create, view, and manage log alerts",
+                    "text": "How to Create, view, and manage log alerts"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Additional details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "hints": []
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
