@@ -13,64 +13,71 @@
 # Availability
 ---
 {
-                "subscriptionRequired": true,
-                "resourceRequired": true,
-                "title": "Service was or is unavailable",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "subscriptionRequired": true,
+    "resourceRequired": true,
+    "title": "Service was or is unavailable",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "connect_url",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Can you connect to {cloudserviceName}.cloudapp.net URL?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                      "id": "connect_url",
-                      "order": 1,
-                      "controlType": "dropdown",
-                      "displayLabel": "Can you connect to {cloudserviceName}.cloudapp.net URL?",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [
-                        {
-                          "value": "Yes",
-                          "text": "Yes"
-                        },{
-                          "value": "No",
-                          "text": "No"
-                        }
-                        ],
-                        "required": false
-                  },{
-                    "id": "unavailable_symptoms",
-                    "order": 2,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What were the exact symptoms during the time the service was unavailable?",
-                    "required": false,
-                    "useAsAdditionalDetails": false
-                },{
-                    "id": "if_collectdata",
-                    "order": 3,
-                    "controlType": "dropdown",
-                    "displayLabel": "Have you collected any data during the time of the issue? If yes, please share.",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                      {
-                        "value": "Yes",
-                        "text": "Yes"
-                      },{
-                        "value": "No",
-                        "text": "No"
-                      }
-                      ],
-                      "required": false
-                },{
-                  "id": "problem_description",
-                  "order": 4,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  },{
-                    "id": "problem_start_time",
-                    "order": 5,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "unavailable_symptoms",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What were the exact symptoms during the time the service was unavailable?",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "if_collectdata",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Have you collected any data during the time of the issue? If yes, please share.",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

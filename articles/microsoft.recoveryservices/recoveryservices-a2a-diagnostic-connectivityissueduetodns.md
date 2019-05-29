@@ -16,7 +16,7 @@
 	cloudEnvironments="Public"
 />
 
-# Your virtual machine is not able to access "login.microsoftonline.com" due to dns resolution failure
+# Your virtual machine is not able to access "login.microsoftonline.com" due to DNS resolution failure
 <!--issueDescription-->
 Installation of mobility agent has failed, as a connection cannot be established to site recovery endpoints due to DNS resolution failure. This is more frequently seen during re-protection when you have failed over the virtual machine but the DNS server is not reachable from the DR region.
 <!--/issueDescription-->

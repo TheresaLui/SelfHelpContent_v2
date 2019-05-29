@@ -1,14 +1,15 @@
 <properties 
     pageTitle="SSL termination issues"
     description="SSL termination is not working properly"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot SSL termination issues with Application Gateway."	
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    selfHelpType="diagnostics"
+    displayOrder="26"
+    selfHelpType="resource"
     articleId="application-gateway-ssl-termination"
-    diagnosticScenario="ApplicationGatewaySSLTermiationIssues"
+	resourceTags=""
+	productPesIds="15922"
     supportTopicIds="32582828"
     cloudEnvironments="public"
  />

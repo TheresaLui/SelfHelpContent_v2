@@ -72,7 +72,7 @@
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
                 },
-		{
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -105,7 +105,7 @@
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
                 },
-		{
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -129,6 +129,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

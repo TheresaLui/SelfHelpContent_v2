@@ -13,64 +13,76 @@
 # Accidental deletion and data recovery
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-	"title": "Accidental deletion and recovery",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "deleted_component",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Which component has been deleted?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Volume Container",
-					"text": "Volume Container"
-				}, {
-					"value": "Volume",
-					"text": "Volume"
-				}, {
-					"value": "Storage Account",
-					"text": "Storage Account"
-				},{
-					"value": "Other",
-					"text": "Other"
-				}
-			],
-			"required": false
-		}, {
-			"id": "recovery",
-			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Have you tried to clone or restore from backups?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}, {
-					"value": "Not Applicable",
-					"text": "Not Applicable"
-				}
-			],
-			"required": false
-		}, {
-			"id": "problem_start_time",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true
-		},
-	]
+    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "title": "Accidental deletion and recovery",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "deleted_component",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Which component has been deleted?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Volume Container",
+                    "text": "Volume Container"
+                },
+                {
+                    "value": "Volume",
+                    "text": "Volume"
+                },
+                {
+                    "value": "Storage Account",
+                    "text": "Storage Account"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "recovery",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Have you tried to clone or restore from backups?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "Not Applicable",
+                    "text": "Not Applicable"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -33,15 +33,15 @@
             "displayLabel": "Select Source (FROM) Subscription ID",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions?api-version=2014-04-01",
-             "jTokenPath": "value",
-             "textProperty": "displayName,subscriptionId",
-             "textTemplate": "{displayName} ({subscriptionId})",
-             "valueProperty": "id",
-             "textPropertyRegex": "[^/]+$",
-             "defaultDropdownOptions": {
-             "value": "dont_know_answer",
-             "text": "Other, don't know or not applicable"
+                "uri": "/subscriptions?api-version=2014-04-01",
+                "jTokenPath": "value",
+                "textProperty": "displayName,subscriptionId",
+                "textTemplate": "{displayName} ({subscriptionId})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "dropdownOptions": [
@@ -61,22 +61,22 @@
             "displayLabel": "Provide the Source (FROM) Subscription ID",
             "required": false
         },
-	{
+        {
             "id": "destinationsubscriptionid_details",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select Destination (TO) Subscription ID",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions?api-version=2014-04-01",
-             "jTokenPath": "value",
-             "textProperty": "displayName,subscriptionId",
-             "textTemplate": "{displayName} ({subscriptionId})",
-             "valueProperty": "id",
-             "textPropertyRegex": "[^/]+$",
-             "defaultDropdownOptions": {
-             "value": "dont_know_answer",
-             "text": "Other, don't know or not applicable"
+                "uri": "/subscriptions?api-version=2014-04-01",
+                "jTokenPath": "value",
+                "textProperty": "displayName,subscriptionId",
+                "textTemplate": "{displayName} ({subscriptionId})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "dropdownOptions": [
@@ -157,6 +157,7 @@
             "watermarkText": "Provide any error message or additional information about your issue",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
