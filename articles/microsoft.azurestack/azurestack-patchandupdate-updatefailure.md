@@ -3,7 +3,7 @@
     description="Assist customers during patch and update runs, or after a failure"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors="alexsmithMSFT"
+    authors="alexsmithMSFT, v-miegge"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
@@ -11,20 +11,26 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="azurestack-patchandupdate-updatefailure"
+    articleId="529e296c-96f1-4f54-a551-5d897bf03eaf"
 />
 
 # Azure Stack Patch and Update Failures
 
 ## **Recommended Steps**
 
-1. Check the status of the update using the steps to [monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#get-high-level-status-of-the-current-update-run)
-2. If the update fails, check for known issues in [Release Notes for the update your are applying](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
-3. Check [Test-AzureStack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) and resolve any identified issues before resuming the failed update using steps to [resume Azure Stack update using PowerShell](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#resume-a-failed-update-operation)
-4. If retrying the update still does not work, continue to open a support case
+### Azure Stack update activity checklist
+
+1. [Prepare for Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#prepare-for-azure-stack-update).
+1. [During Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#during-azure-stack-update).
+1. [After Azure Stack Update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#after-azure-stack-update).
+
+Check [Test-AzureStack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) and resolve any identified issues before resuming the failed update using steps to [resume Azure Stack update using PowerShell](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#resume-a-failed-update-operation).
+
+If resuming the update still does not work, continue to open a support case.
+
+For detailed information on recent releases, release notes on updates and cadence, please review: [Update package release cadence](https://docs.microsoft.com/azure-stack/operator/azure-stack-servicing-policy#update-package-release-cadence).
 
 ## **Recommended Documents**
 
-* [Azure Stack Recent Updates and Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
-* [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates)
+* [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates)<br>
 * [Monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update)
