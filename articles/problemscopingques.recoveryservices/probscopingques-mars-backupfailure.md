@@ -68,7 +68,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
-	    "infoBalloonText": "Check Microsoft Azure Recovery Services Agent <a href='https://aka.ms/AB-MARS-troubleshoot'>Troubleshooting</a> article",
+            "infoBalloonText": "Check Microsoft Azure Recovery Services Agent <a href='https://aka.ms/AB-MARS-troubleshoot'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {
@@ -115,7 +115,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-	    "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -124,7 +124,7 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Please provide the ResourceId:",
-	    "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },
@@ -145,6 +145,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

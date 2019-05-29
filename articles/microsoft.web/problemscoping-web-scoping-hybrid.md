@@ -31,7 +31,7 @@
                     "text": "What is the Hybrid Connection URL? (You can find this in the Hybrid Connection Manager details for the HC or in the connection string shown in the portal.)"
                 },
                 {
-                    "text": "What is the status of the HC? (\"Not connected\", \"Connected\", \"Status unknown\", etc.)"
+                    "text": "What is the status of the HC? (\\"Not connected\\", \\"Connected\\", \\"Status unknown\\", etc.)"
                 },
                 {
                     "text": "What is the HC endpoint? (The endpoint that is visible in the Azure portal.)"
@@ -45,6 +45,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

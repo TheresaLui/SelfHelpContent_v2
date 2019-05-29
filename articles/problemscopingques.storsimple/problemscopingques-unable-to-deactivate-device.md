@@ -13,55 +13,64 @@
 # Unable to deactivate or delete the device
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-	"title": "Unable to deactivate or delete the device",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "task",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Which device-level task is failing",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Deletion of device",
-					"text": "Deletion of device"
-				}, {
-					"value": "Deactivation of device",
-					"text": "Deactivation of device"
-				}
-			],
-			"required": false
-		}, {
-			"id": "retry",
-			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Have you tried deactivation process again after a few hours?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}
-			],
-			"required": false
-		}, {
-			"id": "problem_start_time",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true
-			}
-	]
+    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "title": "Unable to deactivate or delete the device",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "task",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Which device-level task is failing",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Deletion of device",
+                    "text": "Deletion of device"
+                },
+                {
+                    "value": "Deactivation of device",
+                    "text": "Deactivation of device"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "retry",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Have you tried deactivation process again after a few hours?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -25,7 +25,8 @@
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine running SQL",
             "required": false
-        },{
+        },
+        {
             "id": "database_Name",
             "order": 2,
             "controlType": "textbox",
@@ -67,7 +68,7 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-		{
+        {
             "id": "job_Running_Time",
             "order": 5,
             "controlType": "textbox",
@@ -92,6 +93,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

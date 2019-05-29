@@ -17,9 +17,9 @@ supportTopicIds="32436964,32582828,32582829,32582830,32582825,32582826,32582827,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-	"title": "Application Gateway Access URL",
-    	"description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
+        "title": "Application Gateway Access URL",
+        "description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
     },
     "formElements": [
         {
@@ -29,7 +29,7 @@ supportTopicIds="32436964,32582828,32582829,32582830,32582825,32582826,32582827,
             "displayLabel": "Please provide the URL you are using to access the Application Gateway.",
             "watermarkText": "Example: http://www.contoso.com",
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
@@ -53,6 +53,7 @@ supportTopicIds="32436964,32582828,32582829,32582830,32582825,32582826,32582827,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

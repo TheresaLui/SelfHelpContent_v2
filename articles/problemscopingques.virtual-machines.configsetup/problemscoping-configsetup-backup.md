@@ -13,30 +13,33 @@
 # Config and Setup
 ---
 {
-                "resourceRequired": true,
-                "title": "Backup",
-                "fileAttachmentHint": "",
-                "formElements": [
-                {
-                  "id": "problem_backup_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "What was the time of the attempted backup?",
-                  "required": true
-                },{
-                  "id": "problem_description",
-                  "order": 2,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 3,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
-                }
-                ]
+    "resourceRequired": true,
+    "title": "Backup",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_backup_date",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "What was the time of the attempted backup?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

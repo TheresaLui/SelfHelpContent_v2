@@ -24,46 +24,56 @@
             "displayLabel": "What is the error you received?",
             "required": false,
             "useAsAdditionalDetails": false
-        },{
+        },
+        {
             "id": "startstop_operation",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What operation are you trying to do?",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-              "value": "Start",
-              "text": "Start"
-              },{
-              "value": "Stop",
-              "text": "Stop"
-              },{
-              "value": "Delete",
-              "text": "Delete"
-              },{
-              "value": "Restart",
-              "text": "Restart"
-              }
-              ],
-              "required": false
-          },{
-              "id": "startstop_previous",
-              "order": 3,
-              "controlType": "dropdown",
-              "displayLabel": "Has this operation worked previously for this VMSS?",
-              "watermarkText": "Choose an option",
-              "dropdownOptions": [{
-                "value": "Yes",
-                "text": "Yes"
-                },{
-                "value": "No",
-                "text": "No"
-                },{
-                "value": "I do not know",
-                "text": "I do not know"
+            "dropdownOptions": [
+                {
+                    "value": "Start",
+                    "text": "Start"
+                },
+                {
+                    "value": "Stop",
+                    "text": "Stop"
+                },
+                {
+                    "value": "Delete",
+                    "text": "Delete"
+                },
+                {
+                    "value": "Restart",
+                    "text": "Restart"
                 }
-                ],
-                "required": false
-        },{
+            ],
+            "required": false
+        },
+        {
+            "id": "startstop_previous",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Has this operation worked previously for this VMSS?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "startstop_config",
             "order": 4,
             "controlType": "dropdown",
@@ -183,6 +193,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -13,91 +13,92 @@
 # Issue with Azure purchase
 ---
 {
-  "resourceRequired": false,
-  "title": "Purchase Issues - Azure Subscriptions",
-  "fileAttachmentHint": "",
-  "formElements": [
-    {
-      "id": "problem_start_time",
-      "order": 1,
-      "controlType": "datetimepicker",
-      "displayLabel": "Problem Start Date",
-      "required": true
-    },
-    {
-      "id": "phonenumber_details",
-      "order": 2,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Phone number used during sign-up",
-      "watermarkText": "Provide the Phone number used during sign-up",
-      "required": true
-    },
-    {
-      "id": "emailid_details",
-      "order": 3,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Email address used during sign-up",
-      "watermarkText": "Provide the Email address used during sign-up",
-      "required": false
-    },
-    {
-      "id": "browser_details1",
-      "order": 4,
-      "controlType": "dropdown",
-      "displayLabel": "Browser Information",
-      "watermarkText": "Choose the browser",
-      "dropdownOptions": [
+    "resourceRequired": false,
+    "title": "Purchase Issues - Azure Subscriptions",
+    "fileAttachmentHint": "",
+    "formElements": [
         {
-          "value": "Apple Safari",
-          "text": "Apple Safari"
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date",
+            "required": true
         },
         {
-          "value": "Google Chrome",
-          "text": "Google Chrome"
+            "id": "phonenumber_details",
+            "order": 2,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Phone number used during sign-up",
+            "watermarkText": "Provide the Phone number used during sign-up",
+            "required": true
         },
         {
-          "value": "Internet Explorer",
-          "text": "Internet Explorer"
+            "id": "emailid_details",
+            "order": 3,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Email address used during sign-up",
+            "watermarkText": "Provide the Email address used during sign-up",
+            "required": false
         },
         {
-          "value": "Microsoft Edge",
-          "text": "Microsoft Edge"
+            "id": "browser_details1",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Browser Information",
+            "watermarkText": "Choose the browser",
+            "dropdownOptions": [
+                {
+                    "value": "Apple Safari",
+                    "text": "Apple Safari"
+                },
+                {
+                    "value": "Google Chrome",
+                    "text": "Google Chrome"
+                },
+                {
+                    "value": "Internet Explorer",
+                    "text": "Internet Explorer"
+                },
+                {
+                    "value": "Microsoft Edge",
+                    "text": "Microsoft Edge"
+                },
+                {
+                    "value": "Mozilla Firefox",
+                    "text": "Mozilla Firefox"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            ],
+            "required": true
         },
         {
-          "value": "Mozilla Firefox",
-          "text": "Mozilla Firefox"
+            "id": "browser_details2",
+            "order": 5,
+            "visibility": "browser_details1 == Other",
+            "controlType": "textbox",
+            "displayLabel": "Please provide the Browser Information",
+            "required": false
         },
         {
-          "value": "dont_know_answer",
-          "text": "Other"
+            "id": "problem_description",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Browser network trace or any other error message (if applicable)",
+            "watermarkText": "Provide the browser network trace or any error message or additional information about your issue",
+            "required": true,
+            "hints": [
+                {
+                    "text": "Learn more - <a href='https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/'>how to capture a browser network trace</a>"
+                }
+            ]
         }
-      ],
-      "required": true
-    },
-    {
-      "id": "browser_details2",
-      "order": 5,
-      "visibility": "browser_details1 == Other",
-      "controlType": "textbox",
-      "displayLabel": "Please provide the Browser Information",
-      "required": false
-    },
-    {
-      "id": "problem_description",
-      "order": 6,
-      "controlType": "multilinetextbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Browser network trace or any other error message (if applicable)",
-      "watermarkText": "Provide the browser network trace or any error message or additional information about your issue",
-      "required": true,
-      "hints": [
-        {
-          "text": "Learn more - <a href='https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/'>how to capture a browser network trace</a>"
-        }
-      ]
-    }
-  ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
