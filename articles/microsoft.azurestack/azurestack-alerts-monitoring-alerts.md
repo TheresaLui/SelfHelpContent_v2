@@ -20,10 +20,10 @@ Azure Stack includes infrastructure monitoring capabilities that enable you to v
 
 ## **Recommended Steps**
 
-1. To view the health state in the portal, click the region that you want to view in the Region management tile.
-1. View the health state of infrastructure roles and of resource providers by following steps to [view and manage component health state](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-and-manage-component-health-state).
-1. [View active alerts](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-alerts) for each Azure Stack region is available directly from the Region management blade.
-1. You can also integrate an [external monitoring solutions with Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor).
+1. To view the health state in the portal, click the region that you want to view in the Region management tile
+1. View the health state of infrastructure roles and of resource providers by following steps to [view and manage component health state](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-and-manage-component-health-state)
+1. [View active alerts](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-alerts) for each Azure Stack region available directly from the Region management blade
+1. You can also integrate an [external monitoring solutions with Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor)
 
 ## **Recommended Documents**
 
