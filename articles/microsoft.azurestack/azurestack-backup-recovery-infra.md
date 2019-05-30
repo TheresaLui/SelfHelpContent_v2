@@ -20,11 +20,11 @@
 
 You can backup and restore Azure Stack configuration and infrastructure data using the [Infrastructure Backup Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-reference). Backups created by the service can be used for the redeployment of the Azure Stack Cloud, including to restore identity, security, and Azure Resource Manager (ARM) data.
 
-1. Make sure you have [met all prerequisites](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-infrastructure-backup#verify-requirements-for-the-infrastructure-backup-service) for Azure Stack infrastructure backup.
-1. [Enable backup for Azure Stack from the administration portal](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-enable-backup-console).
-1. [Back up Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-back-up-azure-stack) infrastructure components.
-1. [Confirm backup has completed successfully](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-back-up-azure-stack#confirm-backup-has-completed).
-1. If necessary, [recover from catastrophic data loss](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-recover-data).
+1. Make sure you have [met all prerequisites](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-infrastructure-backup#verify-requirements-for-the-infrastructure-backup-service) for Azure Stack infrastructure backup
+1. [Enable backup for Azure Stack from the administration portal](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-enable-backup-console)
+1. [Back up Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-back-up-azure-stack) infrastructure components
+1. [Confirm backup has completed successfully](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-back-up-azure-stack#confirm-backup-has-completed)
+1. If necessary, [recover from catastrophic data loss](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-recover-data)
 
 ## **Recommended Documents**
 
