@@ -20,10 +20,10 @@ Azure Stack storage provides Azure-consistent Blob, Table, Queue, and Account Ma
 
 ## **Recommended Steps**
 
-1. Review key [differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences) for Azure Stack Storage Services for the User Environment.
-1. Follow usage documentation for Azure Stack [Blobs](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview#blob-storage), [Tables](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview#table-storage), or [Queues](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview#queue-storage).
-1. Bring user data into Azure Stack using a supported [data transfer tools for Azure Stack storage](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-transfer).
-1. Integrate your applications [with Azure Stack storage development tools](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-dev).
+1. Review key [differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences) for Azure Stack Storage Services for the User Environment
+1. Follow usage documentation for Azure Stack [Blobs](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview#blob-storage), [Tables](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview#table-storage), or [Queues](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview#queue-storage)
+1. Bring user data into Azure Stack using a supported [data transfer tools for Azure Stack storage](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-transfer)
+1. Integrate your applications [with Azure Stack storage development tools](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-dev)
 
 ## **Recommended Documents**
 
