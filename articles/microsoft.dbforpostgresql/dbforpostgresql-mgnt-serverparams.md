@@ -30,7 +30,7 @@ Azure Database for PostgreSQL allows you to configure engine parameters using th
    az postgres server configuration set --resource-group myresourcegroup --server mydemoserver --name shared_preload_libraries --value timescaledb
    ```
 
-   Remember to restart the server after the change, since shared_preload_libraries requires a restart.
+   Remember to restart the server afterwards since shared_preload_libraries requires a restart to apply changes.
 
    We apologize for the inconvenience and are working to resolve the portal issue.
 
