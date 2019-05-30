@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="a2bb14d2-9d78-4886-9d4d-3cd745869388"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15526"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.network, networksecuritygroups
