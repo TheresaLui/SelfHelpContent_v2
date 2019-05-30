@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-If you are running into issues while creating, editing or deleting log alert rules - the following steps may help resolve the issue:
+If you are running into issues while creating, editing, or deleting log alert rules, the following steps may help resolve the issue:
 
 1. Review the query to ensure you are using analytics commands compatible with log alert:
 
