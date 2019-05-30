@@ -1,20 +1,20 @@
   <properties
-	pageTitle="cognitive services"
-	description="cognitive services"
+	pageTitle="closing your power bi account"
+	description="closing your power bi account"
 	service="microsoft.PowerBIDedicated"
 	resource="capacities"
 	authors="pjfreitas"
 	ms.author="pfreitas"	
-	displayOrder="190"
+	displayOrder="1190"
 	selfHelpType="generic"
-	supportTopicIds="32633788"
+	supportTopicIds="32628074"
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
-	articleId="4969bae5-c43a-7e4c-6f4e-4a0e0868c695"
+	articleId="a3abfa9a-5343-aa93-3f41-d5e6ec97d08c"
 />
 
-# Cognitive Services in Power BI (Preview)
+# Close your Power BI account
 
 ## **Recommended documents**
 
-[Cognitive Services in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-cognitive-services).<br>
+[Close your Power BI account](https://docs.microsoft.com/power-bi/service-admin-closing-your-account).<br>
