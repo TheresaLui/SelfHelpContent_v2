@@ -15,6 +15,6 @@
 
 # Get an Azure AD access token for your Power BI application
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Get an Azure AD access token for your Power BI application](https://docs.microsoft.com/power-bi/developer/get-azuread-access-token).<br>
+* [Get an Azure AD access token for your Power BI application](https://docs.microsoft.com/power-bi/developer/get-azuread-access-token)
