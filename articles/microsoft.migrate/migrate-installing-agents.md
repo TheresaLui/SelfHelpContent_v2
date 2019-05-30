@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
-	articleId="3b52d80e-a991-4984-8f86-ddcd06a9a271"
+	articleId="1v52d80e-a991-4984-8f86-ddcd06a9a271"
 />
 
 # Dependency visualization in Azure Migrate - Installing agents
