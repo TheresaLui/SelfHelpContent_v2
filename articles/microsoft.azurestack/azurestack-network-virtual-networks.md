@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="f36c24f1-70b4-4722-b971-05a84bc95cfd"
+    articleId="azurestack-network-virtual-networks"
 />
 
 # Azure Stack Virtual Networks
