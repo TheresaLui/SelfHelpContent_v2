@@ -20,10 +20,10 @@ Role-Based Access Control (RBAC) in Azure Stack is consistent with the implement
 
 ## **Recommended Steps**
 
-1. [Get started with Role-Based Access Control](https://docs.microsoft.com/azure/role-based-access-control/overview) in the Azure portal.
-1. [Use Role-Based Access Control to manage access](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) to your Azure subscription resources.
-1. [Create custom roles](https://docs.microsoft.com/azure/role-based-access-control/custom-roles) for Azure Role-Based Access Control.
-1. [Manage Role-Based Access Control](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-permissions) in Azure Stack.
+1. [Get started with Role-Based Access Control](https://docs.microsoft.com/azure/role-based-access-control/overview) in the Azure portal
+1. [Use Role-Based Access Control to manage access](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) to your Azure subscription resources
+1. [Create custom roles](https://docs.microsoft.com/azure/role-based-access-control/custom-roles) for Azure Role-Based Access Control
+1. [Manage Role-Based Access Control](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-permissions) in Azure Stack
 
 ## **Recommended Documents**
 
