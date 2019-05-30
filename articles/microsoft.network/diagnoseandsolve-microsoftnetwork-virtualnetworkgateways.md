@@ -24,15 +24,6 @@
             "category": "Connectivity",
             "searchTags": "",
             "supportTopicId": "",
-            "commonSolutionArticleId": "a4e1775e-4615-4c9d-b63a-e0d8102d75d6"
-        },
-        {
-            "id": "Issues_with_on-premise_connectivity",
-            "title": "Issues with on-premise connectivity",
-            "description": "Issues with on-premise connectivity",
-            "category": "Connectivity",
-            "searchTags": "",
-            "supportTopicId": "",
             "commonSolutionArticleId": "13a85c0c-2328-4655-9cb5-109f1dffe9d9"
         },
         {

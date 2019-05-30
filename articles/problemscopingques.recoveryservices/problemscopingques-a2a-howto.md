@@ -13,7 +13,7 @@
 # Questions Azure VM protection failure 
 ---
 {
-   "subscriptionRequired": true,
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure VM configuration failure",
     "fileAttachmentHint": "",
@@ -49,10 +49,10 @@
                     "value": "deleting Azure Site recovery artifacts",
                     "text": "Cleaning up stale Site Recovery resources"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": true
         },
@@ -74,10 +74,10 @@
                     "value": "have gone through Azure to Azure supported region lists",
                     "text": "Support matrix for replicating Azure VMs from one region to another"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": false
         },
@@ -98,6 +98,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

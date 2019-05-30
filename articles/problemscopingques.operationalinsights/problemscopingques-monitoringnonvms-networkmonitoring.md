@@ -130,6 +130,7 @@ schemaVersion="1"
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

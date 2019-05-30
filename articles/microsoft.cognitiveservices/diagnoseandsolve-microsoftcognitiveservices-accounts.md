@@ -42,25 +42,7 @@
             "category": "API Requests",
             "searchTags": "",
             "supportTopicId": "",
-            "commonSolutionArticleId": "4074b1f1-f5cb-4472-8f70-0f4f7735c7ce"
-        },
-        {
-            "id": "I_am_getting_401_errors_for_my_API_requests",
-            "title": "I am getting 401 errors for my API requests",
-            "description": "My API requests are returning 401 errors.",
-            "category": "API Requests",
-            "searchTags": "",
-            "supportTopicId": "",
             "commonSolutionArticleId": "df609b4e-bb37-4e41-9846-6ff5eec87a2e"
-        },
-        {
-            "id": "I_am_getting_403/429_errors_when_I_make_API_requests",
-            "title": "I am getting 403/429 errors when I make API requests",
-            "description": "I am seeing 403/429 errors when I make API requests.",
-            "category": "API Requests",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "972789cc-f457-4f24-ae90-572556d4bf22"
         },
         {
             "id": "I_am_getting_403/429_errors_when_I_make_API_requests",
