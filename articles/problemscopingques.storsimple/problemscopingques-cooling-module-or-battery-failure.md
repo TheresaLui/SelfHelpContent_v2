@@ -13,55 +13,64 @@
 # Cooling module or battery failure
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-	"title": "pcm",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "pcm_slot",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Select the failed or degraded PCM",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "PCM 0",
-					"text": "PCM 0"
-				}, {
-					"value": "PCM 1",
-					"text": "PCM 1"
-				}
-			],
-			"required": false
-		}, {
-			"id": "battery_slot",
-			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Select the PCM in which the battery is failed or degraded",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "PCM 0",
-					"text": "PCM 0"
-				}, {
-					"value": "PCM 1",
-					"text": "PCM 1"
-				}
-			],
-			"required": false
-		},{
-			"id": "problem_start_time",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true
-		}
-	]
+    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "title": "pcm",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "pcm_slot",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Select the failed or degraded PCM",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "PCM 0",
+                    "text": "PCM 0"
+                },
+                {
+                    "value": "PCM 1",
+                    "text": "PCM 1"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "battery_slot",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Select the PCM in which the battery is failed or degraded",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "PCM 0",
+                    "text": "PCM 0"
+                },
+                {
+                    "value": "PCM 1",
+                    "text": "PCM 1"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

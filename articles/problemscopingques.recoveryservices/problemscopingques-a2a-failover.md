@@ -13,8 +13,8 @@
 # Questions Azure VM Fail-over Failures 
 ---
 {
-     "subscriptionRequired": true,
-     "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Azure VM Failover failures",
     "fileAttachmentHint": "",
     "formElements": [
@@ -66,18 +66,18 @@
                     "value": "ILB,NSG or Public IP were not replicated",
                     "text": "Internal load balancing, Network Security Groups or Public IP were not replicated"
                 },
-                 {
+                {
                     "value": "disks were missing post failover/failback",
                     "text": "disks were missing post failover or failback"
                 },
-		        {
-		            "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		        }
+                }
             ],
             "required": true
         },
-       {
+        {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
@@ -94,6 +94,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
