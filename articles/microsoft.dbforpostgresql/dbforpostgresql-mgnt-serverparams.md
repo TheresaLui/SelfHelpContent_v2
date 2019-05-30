@@ -30,7 +30,7 @@ Azure Database for PostgreSQL allows you to configure engine parameters using th
 
    You can access the Azure CLI from the Azure portal using Cloud Shell. See the icon toolbar in the top right corner of your screen.
 
-   We apologize for the incovenience and are working to resolve the portal issue.
+   We apologize for the inconvenience and are working to resolve the portal issue.
 
 ## **Recommended Documents**
 
