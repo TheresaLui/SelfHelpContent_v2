@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="8521b653-08af-4097-8665-6bdede1c3d25"
+    articleId="azurestack-security-rbac"
 />
 
 # Azure Stack role-based access control
