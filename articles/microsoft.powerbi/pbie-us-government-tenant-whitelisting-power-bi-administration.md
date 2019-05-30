@@ -1,6 +1,6 @@
   <properties
-	pageTitle="u.s. government tenant whitelisting"
-	description="u.s. government tenant whitelisting"
+	pageTitle="us government tenant whitelisting"
+	description="us government tenant whitelisting"
 	service="microsoft.PowerBIDedicated"
 	resource="capacities"
 	authors="pjfreitas"

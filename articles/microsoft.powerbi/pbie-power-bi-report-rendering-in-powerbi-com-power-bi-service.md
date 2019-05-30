@@ -1,6 +1,6 @@
   <properties
-	pageTitle="power bi report rendering in powerbi.com"
-	description="power bi report rendering in powerbi.com"
+	pageTitle="power bi report rendering in powerbi com"
+	description="power bi report rendering in powerbi com"
 	service="microsoft.PowerBIDedicated"
 	resource="capacities"
 	authors="pjfreitas"
