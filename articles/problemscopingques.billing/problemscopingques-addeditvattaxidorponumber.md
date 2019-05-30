@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632927"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 #  Add Edit VAT TAX ID or PO Number
@@ -29,7 +29,6 @@
       "id": "taxid_details",
       "order": 2,
       "controlType": "textbox",
-      "useAsAdditionalDetails": true,
       "displayLabel": "VAT, TAX ID or PO Number",
       "watermarkText": "Provide your VAT, TAX ID or PO Number",
       "required": true
@@ -38,9 +37,9 @@
       "id": "problem_description",
       "order": 3,
       "controlType": "multilinetextbox",
+      "useAsAdditionalDetails": true,
       "displayLabel": "Please provide details about your issue",
       "required": true,
-      "useAsAdditionalDetails": true,
       "hints": [
         {
           "text": "Describe your problem, providing as much detail as possible."

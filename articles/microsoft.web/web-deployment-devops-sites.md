@@ -1,10 +1,10 @@
 <properties
-	pageTitle="Deployment\Azure DevOps"
-	description="Deployment\Azure DevOps"
+	pageTitle="Azure Deployment and DevOps Support Requests"
+	description="Azure Deployment and DevOps Support Requests"
 	service="microsoft.web"
 	resource="sites"
 	authors="cts-shrahman, cts-shrahman"
-    ms.author="shrahman,benperk"
+  ms.author="shrahman,benperk"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32629421"
@@ -14,14 +14,13 @@
 	articleId="592b1994-7ca8-4033-9bd4-1b94c0b9b625"
 />
 
-# Deployment\Azure DevOps
+# Azure Deployment and DevOps Support Requests
 
 ## **Recommended Steps**
 
 * [Get Azure DevOps support](https://azure.microsoft.com/support/devops/)
 
 ## **Recommended Documents**
-
 
 * [Azure DevOps Documentation](https://docs.microsoft.com/azure/devops/?view=azure-devops)
 * [Deploy continuously from Azure Repos (DevOps Services)](https://docs.microsoft.com/azure/app-service/deploy-continuous-deployment#deploy-continuously-from-azure-repos-devops-services)
@@ -32,4 +31,3 @@
 * [DevOps (VSTS) vs. KUDU deployment](https://github.com/projectkudu/kudu/wiki/VSTS-vs-Kudu-deployments)
 * [Deployment FAQs](https://docs.microsoft.com/azure/app-service/faq-deployment)
 * [Deployment vs runtime issues](https://github.com/projectkudu/kudu/wiki/Deployment-vs-runtime-issues)
-

@@ -1,19 +1,20 @@
 <properties
-	pageTitle="performance and query execution/query performance and timeouts"
-	description="performance and query execution/query performance and timeouts"
+	pageTitle="Resolve poor performance and timeout issues in Azure SQL Database"
+	description="Resolve poor performance and timeout issues in Azure SQL Database"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    ms.author="emlisa"
-	displayOrder=""
-	selfHelpType="generic"
+  ms.author="emlisa"
+	displayOrder="2"
+	selfHelpType="resource"
 	supportTopicIds="32630450"
 	productPesIds="13491"
 	cloudEnvironments="public"
+    resourceTags="servers, databases"
 	articleId="e7df013f-4ee6-41d4-9e8f-f2f99692a25b"
 />
 
-# performance and query execution/query performance and timeouts
+# Resolve poor performance and timeout issues in Azure SQL Database
 
 ## **Recommended Steps**
 

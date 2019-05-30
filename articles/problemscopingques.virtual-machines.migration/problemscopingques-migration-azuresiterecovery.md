@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32570112,32570113"
+                supportTopicIds="32570111,32570112,32570113"
                 productPesIds="14749,15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="container registry"
-	description="container registry common solutions"
+	pageTitle="Resolve issues with Azure Container Registry"
+	description="Resolve issues with Azure Container Registry"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
@@ -14,7 +14,7 @@
 	articleId="2993a30b-2f16-478a-a633-8ac227df8b40"
 />
 
-# Container Registry
+# Resolve issues with Azure Container Registry
 
 ## **Recommended Documents**
 

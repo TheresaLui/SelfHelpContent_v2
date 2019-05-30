@@ -1,9 +1,10 @@
 <properties
-	pageTitle="planned maintenance/general questions or issues"
-	description="planned maintenance/general questions or issues"
+	pageTitle="Resolve issues with Azure planned maintenance"
+	description="Resolve issues with Azure planned maintenance"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32591320,32589415"
@@ -13,13 +14,13 @@
 	articleId="34c058c7-41ad-4a51-90da-d31ce8fe0ecf"
 />
 
-# Planned Maintenance/general questions or issues
+# Resolve issues with Azure planned maintenance
 
-**I don't see any indication of planned maintenance in the portal, Powershell, or CLI.**<br>
+### I don't see any indication of planned maintenance in the portal, Powershell, or CLI<br>
 
 Information related to planned maintenance is available during a planned maintenance wave only for the VMs which are going to be impacted by it. In other words, if you see no data, it could be that the maintenance wave has already completed (or not started) or that your virtual machine is already hosted in an updated server.<br>
 
-**What are the different possible values for my virtual machine during planned maintenance?**<br>
+### What are the different possible values for my virtual machine during planned maintenance?
 
 **Value**	| **Description**
 --- | ---
@@ -28,7 +29,7 @@ Information related to planned maintenance is available during a planned mainten
 ***Empty or Completed*** |  Your VM does not require any maintenance and no maintenance reboot will occur.
 ***Skipped***	| You have selected to initiate maintenance with no success. You will not be able to utilize the Customer Initiated Maintenance option. Your VM will be rebooted by Azure during the scheduled maintenance phase.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [In-depth FAQ for planned maintenance](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#faq)<br>
 * [Understanding planned maintenance for Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-and-updates)<br>

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="connectivity/cannotconnecttoandfrominternet"
-	description="connectivity/cannotconnecttoandfrominternet"
+	pageTitle="Diagnose and troubleshoot Azure connectivity issues to and from the internet"
+	description="Diagnose and troubleshoot Azure connectivity issues to and from the internet"
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="radwiv"
@@ -14,7 +14,7 @@
 	articleId="1e7ff5db-a7c2-4165-93e7-1ec44b4f9583"
 />
 
-# connectivity/cannotconnecttoandfrominternet
+# Diagnose and troubleshoot Azure connectivity issues to and from the internet
 
 ## **Recommended Steps**
 

@@ -30,6 +30,7 @@
 
 ## **Recommended Documents**
 
+* [Configuring usage rights for Azure Rights Management](https://docs.microsoft.com/azure/information-protection/configure-usage-rights)<br>
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>

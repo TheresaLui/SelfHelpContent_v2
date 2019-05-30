@@ -34,8 +34,8 @@
       "required": true,
       "hints": [
         {
-            "text": "If you would like to increase your compute cores subscription limit quota, please select the problem type <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest'>Compute/VM (cores/vCPUs) subscription limit increases</a> instead. This will allow our support team to more efficiently process your request."
-	    }
+          "text": "If you would like to increase your compute cores subscription limit quota, please select the problem type <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest'>Compute/VM (cores/vCPUs) subscription limit increases</a> instead. This will allow our support team to more efficiently process your request."
+        }
       ]
     },
     {

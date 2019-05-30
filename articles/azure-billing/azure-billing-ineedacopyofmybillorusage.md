@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I need a copy of my bill or usage"
-	description="I need a copy of my bill or usage"
+	pageTitle="How do I retrieve a copy of my Azure Subscription bill or review usage?"
+	description="How do I retrieve a copy of my Azure Subscription bill or review usage?"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -14,16 +14,15 @@
 	articleId="60104acd-2ba8-4bc1-9380-d48c3eeab3ba"
 />
 
-# I need a copy of my bill or usage
-
+# How do I retrieve a copy of my Azure Subscription bill or review usage?
 
 ## **Recommended Steps**
 
-You can download your invoice or have it sent via email.
+You can download your invoice, or have it sent via email.
 
 ### Download your invoice
 
-1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
+1. [Find your Account Administrator](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
 2. The Account Admin can [download or view the PDF invoice and CSV usage](https://docs.microsoft.com/azure/billing-download-azure-invoice-daily-usage-date)
 
 ### Download your usage from the Account Center(.csv)
@@ -34,10 +33,9 @@ You can download your invoice or have it sent via email.
 4. Select **View Current Statement** to see an estimate of your charges at the time the estimate was generated
 5. Select **Download Usage** to download the daily usage data as a CSV file. If you see two versions available, download version 2.
 
-For more information about your daily usage, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/billing/billing-understand-your-bill). For help managing costs, see [Prevent unexpected costs with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
+For more information about your daily usage, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/billing/billing-understand-your-bill). For help managing costs, see [Prevent unexpected costs with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started).
 
 Instead of [downloading your invoice](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) every month, you can now opt-in to receive your invoice statement attached to your monthly billing email.
-
 
 ## **Recommended Documents**
 

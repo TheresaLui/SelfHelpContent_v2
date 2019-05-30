@@ -13,51 +13,23 @@
 # Config and Management
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Scaling",
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "scaling_error",
+                    "id": "scaling_symptom",
                     "order": 1,
                     "controlType": "multilinetextbox",
-                    "displayLabel": "What is the error you received?",
+                    "displayLabel": "What is the symptom related to your scaling issue?",
                     "required": false,
                     "useAsAdditionalDetails": false
                 },{
-                    "id": "scale_setting",
-                    "order": 2,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What is your current scale setting?",
-                    "required": false,
-                    "useAsAdditionalDetails": false
-                },{
-                    "id": "scale_resource",
-                    "order": 3,
-                    "controlType": "textbox",
-                    "displayLabel": "What resource are you trying to scale?",
-                    "required": false
-                },{
-                    "id": "scale_other_resource",
-                    "order": 4,
-                    "controlType": "dropdown",
-                    "displayLabel": "Are you having the same issues on other resources?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                      {
-                        "value": "Yes",
-                        "text": "Yes"
-                      },{
-                        "value": "No",
-                        "text": "No"
-                      }
-                      ],
-                      "required": false
-                  },{
-                      "id": "autoscaling",
-                      "order": 5,
+                      "id": "autoscale",
+                      "order": 2,
                       "controlType": "dropdown",
-                      "displayLabel": "What kind of customer autoscaling you are using?",
+                      "displayLabel": "How did you enable AutoScale?",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                         {
@@ -70,15 +42,22 @@
                         ],
                         "required": false
                   },{
+                    "id": "autoscale_notification",
+                    "order": 3,
+                    "controlType": "multilinetextbox",
+                    "displayLabel": "If you have received a notification for AutoScale from Azure, please share.",
+                    "required": false,
+                    "useAsAdditionalDetails": false
+                },{
                   "id": "problem_description",
-                  "order": 6,
+                  "order": 4,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 7,
+                  "order": 5,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true

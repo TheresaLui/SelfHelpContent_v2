@@ -5,9 +5,9 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454920,32632952"
+	supportTopicIds="32632952"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 
@@ -39,19 +39,19 @@
       "controlType": "textbox",
       "displayLabel": "Your current role assigned to the subscription",
       "watermarkText": "Provide your current role assigned to the subscription",
-      "required": true
+      "required": false
     },
     {
       "id": "role_details",
       "order": 4,
       "controlType": "textbox",
-      "displayLabel": "Your current role that is assigned to the subscription",
-      "watermarkText": "Provide your current role that is assigned to the subscription",
-      "required": true
+      "displayLabel": "Role requested",
+      "watermarkText": "Provide the role you are requesting",
+      "required": false
     },
     {
       "id": "problem_description",
-      "order": 8,
+      "order": 5,
       "controlType": "multilinetextbox",
       "useAsAdditionalDetails": true,
       "displayLabel": "Error Message (if applicable) and any other additional details",

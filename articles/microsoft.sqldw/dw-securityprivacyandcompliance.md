@@ -7,9 +7,9 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635183, 32635184, 32635185, 32635187, 32635191, 32635199, 32635213, 32635221, 32635222, 32635233"
 	productPesIds="15818"
-	displayOrder="108"
+	displayOrder="80"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-securityprivacyandcompliance.md"
 	cloudEnvironments="public"
 />
@@ -39,3 +39,4 @@ The following details explain how to set up and update common access and permiss
 * [Threat detection overview](https://docs.microsoft.com/azure/sql-database/sql-database-threat-detection?WT.mc_id=pid:13491:sid:32630457/)<br>
 * [Vulnerability assessment](https://docs.microsoft.com/azure/sql-database/sql-vulnerability-assessment?WT.mc_id=pid:13491:sid:32630461/)<br>
 * [Advanced Threat Protection](https://docs.microsoft.com/azure/sql-database/sql-advanced-threat-protection?WT.mc_id=pid:13491:sid:32630461/)
+* [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)

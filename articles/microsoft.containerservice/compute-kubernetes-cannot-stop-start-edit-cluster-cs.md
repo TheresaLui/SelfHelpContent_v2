@@ -1,6 +1,6 @@
 <properties
-	pageTitle="kubernetes service cannot start/stop/edit"
-	description="kubernetes service  cannot start/stop/edit common solutions"
+	pageTitle="Diagnose and resolve Kubernetes service issues"
+	description="Diagnose and resolve Kubernetes service issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
@@ -14,7 +14,7 @@
 	articleId="0a1e0dbb-64e6-45e0-a97d-a9e9ff46eb08"
 />
 
-# Kubernetes Service
+# Diagnose and resolve Kubernetes service issues
 
 ## **Recommended Documents**
 

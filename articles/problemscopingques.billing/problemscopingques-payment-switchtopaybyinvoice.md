@@ -14,7 +14,7 @@
 ---
 {
   "resourceRequired": false,
-  "title": "Switch to Pay by Invoice",
+  "title": "Pay by Invoice",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -25,40 +25,151 @@
       "required": true
     },
     {
-      "id": "company_details",
+      "id": "customer_details1",
       "order": 2,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Company Name",
-      "watermarkText": "Provide the Company Name",
-      "required": true
+      "controlType": "dropdown",
+      "displayLabel": "New or Existing customer?",
+      "watermarkText": "",
+      "dropdownOptions": [
+        {
+          "value": "New Customer",
+          "text": "New Customer"
+        },
+        {
+          "value": "Existing Customer",
+          "text": "Existing Customer"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Other, don't know or not applicable"
+        }
+      ],
+      "required": false
     },
     {
-      "id": "billingaddress_details",
+      "id": "customer_details2",
       "order": 3,
+      "visibility": "customer_details1 == Existing Customer",
       "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Billing Address",
-      "watermarkText": "Provide the Billing address",
-      "required": true
+      "displayLabel": "Current Payment Method",
+      "watermarkText": "",
+      "required": false
     },
     {
-      "id": "accountadminemail_details",
+      "id": "orderid_details",
       "order": 4,
       "controlType": "textbox",
-     "displayLabel": "Account Administrator's Email Address",
-      "watermarkText": "Provide the account admin's email address",
-       "required": true,
-      "infoBalloonText": "Learn more: <a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator'> Account Admin's email address</a>."
-     },
+      "displayLabel": "Order ID (requesting for invoice option)",
+      "watermarkText": "",
+      "required": false
+    },
+    {
+      "id": "accountadminid_details",
+      "order": 5,
+      "controlType": "textbox",
+      "displayLabel": "Account Admins Live ID(or Org ID) (should be company domain)",
+      "watermarkText": "",
+      "infoBalloonText": "Learn more: <a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator'> Account Admin's email address</a>.",
+      "required": true
+    },
+    {
+      "id": "commerceaccountid_details",
+      "order": 6,
+      "controlType": "textbox",
+      "displayLabel": "Commerce Account ID",
+      "watermarkText": "",
+      "required": false
+    },
+    {
+      "id": "country_details",
+      "order": 7,
+      "controlType": "textbox",
+      "displayLabel": "Country",
+      "watermarkText": "",
+      "required": false
+    },
+    {
+      "id": "taxvatid_details",
+      "order": 8,
+      "controlType": "textbox",
+      "displayLabel": "TAX ID\/ VAT ID",
+      "watermarkText": "",
+      "required": false
+    },
+    {
+      "id": "microsoftassociation_details1",
+      "order": 9,
+      "controlType": "dropdown",
+      "displayLabel": "Any prior business with Microsoft?",
+      "watermarkText": "",
+      "dropdownOptions": [
+        {
+          "value": "Yes",
+          "text": "Yes"
+        },
+        {
+          "value": "No",
+          "text": "No"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Other, don't know or not applicable"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "contactname_details",
+      "order": 10,
+      "controlType": "textbox",
+      "displayLabel": "Contact Name",
+      "watermarkText": "",
+      "required": false
+    },
+    {
+      "id": "contactphone_details",
+      "order": 11,
+      "controlType": "textbox",
+      "displayLabel": "Contact Phone",
+      "watermarkText": "",
+      "required": false
+    },
+    {
+      "id": "contactemail_details",
+      "order": 12,
+      "controlType": "textbox",
+      "displayLabel": "Contact Email",
+      "watermarkText": "",
+      "required": false
+    },
     {
       "id": "problem_description",
-      "order": 5,
+      "order": 13,
       "controlType": "multilinetextbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Provide any additional information",
-      "watermarkText": "Provide any additional information",
-      "required": true
+      "displayLabel": "Company details",
+      "watermarkText": "Provide the company details",
+      "required": true,
+      "hints": [
+        {
+          "text": "Company Name (as registered under VAT or Government Website)"
+        },
+        {
+          "text": "Company Address (as registered under VAT or Government Website)"
+        },
+        {
+          "text": "Company Website"
+        },
+        {
+          "text": "Company Established on (Year) (for invoice onboarding only)"
+        }
+      ]
+    },
+    {
+      "id": "justification_details",
+      "order": 14,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Provide justification on why you prefer Invoice option over credit card",
+      "required": false
     }
   ]
 }

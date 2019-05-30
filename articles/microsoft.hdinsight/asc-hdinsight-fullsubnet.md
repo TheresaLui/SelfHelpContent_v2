@@ -10,7 +10,7 @@
     articleId="Hdi_fullsubnet"
     diagnosticScenario="HDInsightSubnetFullInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629125"
+    supportTopicIds="32628987, 32629125, 32636492"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

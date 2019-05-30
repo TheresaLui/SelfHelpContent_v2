@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Change ownership of my subscription",
     "fileAttachmentHint": "If you are **not** the Account Admin, provide written (email) permission from the current  Account Admin as an attachment to the case",
     "formElements": [
@@ -24,13 +25,41 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
+         {
+            "id": "SubscriptionId",
+            "order": 13,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Subscription ID",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+             "uri": "/subscriptions?api-version=2014-04-01",
+             "jTokenPath": "value",
+             "textProperty": "displayName,subscriptionId",
+             "textTemplate": "{displayName} ({subscriptionId})",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions": {
+             "value": "dont_know_answer",
+             "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not in the list"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
         {
             "id": "subscriptionid_details",
-            "order": 2,
+            "order": 14,
+            "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
-            "displayLabel": "Subscription ID that needs to be moved",
-            "watermarkText": "Provide the Subscription ID that needs to be moved",
-            "required": true
+            "displayLabel": "Subscription ID",
+            "watermarkText": "Provide your Subscription id",
+            "required": false
         },
         {
             "id": "accountadmin_details1",
@@ -61,7 +90,7 @@
             "controlType": "textbox",
             "displayLabel": " Email address of the current Account Admin for this subscription",
             "watermarkText": " Email address of the current Account Admin for this subscription",
-            "required": true
+            "required": false
         },
         {
             "id": "destinationemail_details",
@@ -70,7 +99,7 @@
             "displayLabel": " Email address of new Account Admin",
             "watermarkText": "Provide the destination email address of the Account Admin for the account you want to transfer it to",
             "infoBalloonText": "This is the person to whom you want to transfer the subscription to",
-            "required": true
+            "required": false
         },
         {
             "id": "selfserve_details1",
@@ -94,7 +123,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "error_details1",
@@ -102,7 +131,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details of error for the failure",
-            "required": true,
+            "required": false,
             "watermarkText": "Provide details on the error for the failure "
         },
         {
@@ -126,21 +155,16 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
-            "id": "problem_description",
+            "id": "problem_description_1",
             "visibility": "accountadmin_details1 == No && emailproof_details1 == Yes",
             "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide permission and any other details",
             "watermarkText": "Provide any additional details about the issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
-                }
-            ]
+            "required": false
         },
         {
             "id": "problem_description_2",
@@ -153,13 +177,18 @@
             "infoBalloonText": "Please provide all relevant details of this request including why the current Account Admin cannot provide permission and/or cannot perform themselves"
         },
         {
-            "id": "problem_description_1",
+            "id": "problem_description",
             "order": 12,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional Details (if any)",
             "watermarkText": "Provide any additional details about the issue",
-            "required": true
+            "required": true,
+	    "hints": [
+                {
+                    "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
+                }
+            ]
         }
     ]
 }

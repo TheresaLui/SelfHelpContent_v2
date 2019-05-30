@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32611254"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 # Guidance for Security Advisories or Vulnerabilities
@@ -30,7 +30,7 @@
       "controlType": "textbox",
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide the Subscription ID",
-      "required": true
+      "required": false
     },
     {
       "id": "azureservice_details",

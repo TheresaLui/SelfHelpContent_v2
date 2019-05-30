@@ -13,6 +13,7 @@
 # Deploy a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Troubleshoot my ARM template error",
     "fileAttachmentHint": "",
@@ -45,12 +46,12 @@
         {
             "id": "correlationId",
             "order": 2,
-            "visibility": "resourceGroup != null",
+            "visibility": "resourceGroup != null && resourceGroup != dont_know_answer",
             "controlType": "dropdown",
             "displayLabel": "Select failed deployment",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceGroup",
-                "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroup}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups/{replaceWithParentValue}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
                 "jTokenPath": "value",
                 "textProperty": "properties.timestamp,properties.parameters.location.value,name",
                 "textTemplate": "Time:{properties.timestamp} Region:{properties.parameters.location.value} Name:{name}",
@@ -130,8 +131,8 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "No (Please upload your template below)",
+                    "text": "No (Please upload your template below)"
                 }
             ],
             "required": false

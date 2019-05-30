@@ -43,6 +43,9 @@
 				},{
 					"value": "Other",
 					"text": "Other"
+				},{
+					"value":"dont_know_answer",
+					"text":"Do not know"
 				}],
 			"required": true
 		}, {
@@ -52,7 +55,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please describe how the application is deployed:",
 			"watermarkText": "Kubernetes, Cloud Provider XYZ",
-			"required": true
+			"required": false
 		}, {
 			"id": "os_type",
 			"order": 3,
@@ -69,7 +72,7 @@
 					"value": "Other",
 					"text": "Other"
 				}],
-			"required": true
+			"required": false
 		}, {
 			"id": "os_type_other",
 			"order": 4,
@@ -77,7 +80,7 @@
 			"controlType": "textbox",
 			"displayLabel": "OS name and version:",
 			"watermarkText": "MacOS 13.2",
-			"required": true
+			"required": false
 		}, {
 			"id": "os_type_linux",
 			"order": 5,
@@ -85,7 +88,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Linux distribution and version:",
 			"watermarkText": "Ubuntu 16.4",
-			"required": true
+			"required": false
 		}, {
 			"id": "os_type_windows",
 			"order": 6,
@@ -93,7 +96,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Windows version:",
 			"watermarkText": "Windows Server 2016",
-			"required": true
+			"required": false
 		}, {
 			"id": "app_type",
 			"order": 7,
@@ -127,6 +130,9 @@
 				},{
 					"value": "Other",
 					"text": "Other"
+				},{
+					"value":"dont_know_answer",
+					"text":"Do not know"
 				}],
 			"required": true
 		}, {
@@ -136,7 +142,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please describe the application technology stack:",
 			"watermarkText": "OWIN",
-			"required": true
+			"required": false
 		}, {
 			"id": "framework_type",
 			"order": 9,
@@ -168,7 +174,7 @@
 					"value": "Other",
 					"text": "Other"
 				}],
-			"required": true
+			"required": false
 		}, {
 			"id": "framework_type_other",
 			"order": 10,
@@ -176,7 +182,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please describe the target framework",
 			"watermarkText": "Mono, .NET Core 3.0 Preview",
-			"required": true
+			"required": false
 		}, {
 			"id": "lightup_type",
 			"order": 11,
@@ -201,6 +207,9 @@
 				},{
 					"value": "Other",
 					"text": "Other"
+				},{
+					"value":"dont_know_answer",
+					"text":"Do not know"
 				}],
 			"required": true
 		}, {
@@ -210,7 +219,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please describe the steps to instrument the app:",
 			"watermarkText": "PowerShell Scripts",
-			"required": true
+			"required": false
 		}, {
 			"id": "lightup_type_ext_version",
 			"order": 13,

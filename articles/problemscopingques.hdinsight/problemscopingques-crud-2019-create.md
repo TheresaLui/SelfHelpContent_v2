@@ -13,7 +13,8 @@
 # HDI Cluster Create Issue
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "HDInsight CRUD Issue",
     "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
     "formElements": [
@@ -32,8 +33,15 @@
             "required": false
         },
         {
+            "id": "cluster_name",
+            "order": 10,
+            "controlType": "textbox",
+            "displayLabel": "Cluster name if available",
+            "required": false
+        },
+        {
             "id": "is_new_problem",
-            "order": 3,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -55,7 +63,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "previous_solution",
@@ -64,7 +72,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
             "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
-            "required": true
+            "required": false
         },
         {
             "id": "change_made",
@@ -73,7 +81,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
-            "required": true
+            "required": false
         },
         {
             "id": "is_vnet_involved",
@@ -118,7 +126,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "is_aad_involved",
@@ -188,12 +196,6 @@
             "watermarkText": "Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 600,
-            "controlType": "infoblock",
-            "content": "<a href='https://hdinsight.github.io/ClusterCRUD/clustercrud-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
     ]
 }

@@ -10,7 +10,7 @@
     articleId="Hdi_Health_Checkpoint"
     diagnosticScenario="HDInsightHdfsCheckpointInsight"
     selfHelpType="rca"
-    supportTopicIds="32628986, 32629101"
+    supportTopicIds="32628986, 32629101, 32636418, 32636425"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
@@ -31,7 +31,7 @@ Note: If the following list is empty, this step can be skipped:
 
 * Once both Namenodes are running, please run the following commands to reset the checkpoint:
 
-  * `hdfs dfsadmin -safemode enter`
-  * `hdfs dfsadmin -saveNamespace`
-  * `hdfs dfsadmin -safemode leave`
+  * `hdfs dfsadmin -D 'fs.default.name=hdfs://mycluster/' -safemode enter`
+  * `hdfs dfsadmin -D 'fs.default.name=hdfs://mycluster/' -saveNamespace`
+  * `hdfs dfsadmin -D 'fs.default.name=hdfs://mycluster/' -safemode leave`
   

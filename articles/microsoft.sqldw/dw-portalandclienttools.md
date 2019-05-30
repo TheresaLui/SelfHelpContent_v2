@@ -7,13 +7,13 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635181, 32635188, 32635189, 32635205, 32635211, 32635220"
 	productPesIds="15818"
-	displayOrder="6"
+	displayOrder="60"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-portalandclienttools.md"
 	cloudEnvironments="public"
 />
-# Portal and Client Tools
+# Using portal and client tools
 
 ## **Recommended Steps**
 * Monitoring resource utilization and query activity [from Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity)<br>

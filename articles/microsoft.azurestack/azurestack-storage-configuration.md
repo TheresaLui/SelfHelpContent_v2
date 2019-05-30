@@ -29,3 +29,5 @@ Azure Stack storage provides Azure-consistent Blob, Table, Queue, and Account Ma
 
 * [Azure Stack User Storage Overview](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview)
 * [Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences)
+* [Overview of identity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-identity-overview)
+* [Allow or block invitations to B2B users from specific organizations](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)

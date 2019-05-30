@@ -13,42 +13,56 @@
 # Deployment
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "deploy_error",
+                    "id": "failure_frequency",
                     "order": 1,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What is the error you received?",
-                    "required": false,
-                    "useAsAdditionalDetails": false
-                },{
-                    "id": "correlation_id",
-                    "order": 2,
-                    "controlType": "textbox",
-                    "displayLabel": "What is the Correlation ID or Operation ID corresponding to the failure?",
-                    "required": false
-                },{
-                    "id": "deploy_from",
-                    "order": 3,
                     "controlType": "dropdown",
-                    "displayLabel": "From where you deployed your cloud service?",
+                    "displayLabel": "What is the frequency of deployment failure?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                       {
-                        "value": "Visual Studio",
-                        "text": "Visual Studio"
+                        "value": "Every deployment",
+                        "text": "Every deployment"
                       },{
-                        "value": "PowerShell",
-                        "text": "PowerShell"
+                        "value": "Fails on multiple retries",
+                        "text": "Fails on multiple retries"
                       },{
-                        "value": "Portal",
-                        "text": "Portal"
+                        "value": "Intermittent",
+                        "text": "Intermittent"
                       }
                       ],
                       "required": false
                   },{
+                      "id": "if_fromportal",
+                      "order": 2,
+                      "controlType": "dropdown",
+                      "displayLabel": "Does this issue occur when deploying from the portal?",
+                      "watermarkText": "Choose an option",
+                      "dropdownOptions": [
+                        {
+                          "value": "Yes",
+                          "text": "Yes"
+                        },{
+                          "value": "Have not tried it",
+                          "text": "Have not tried it"
+                        },{
+                          "value": "Happens only from client tools (VS, PS)",
+                          "text": "Happens only from client tools (VS, PS)"
+                        }
+                        ],
+                        "required": false
+                },{
+                    "id": "deploy_error",
+                    "order": 3,
+                    "controlType": "multilinetextbox",
+                    "displayLabel": "Please provide the exact error message (include Operation ID etc).",
+                    "required": false,
+                    "useAsAdditionalDetails": false
+                },{
                   "id": "problem_description",
                   "order": 4,
                   "controlType": "multilinetextbox",

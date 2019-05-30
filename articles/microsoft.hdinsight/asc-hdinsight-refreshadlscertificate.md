@@ -10,7 +10,7 @@
     articleId="Hdi_CertExpired"
     diagnosticScenario="HDInsightRefreshCertificateInsight"
     selfHelpType="rca"
-    supportTopicIds="32629004"
+    supportTopicIds="32629004, 32636420"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

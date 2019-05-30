@@ -7,7 +7,7 @@
 	ms.author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32627990, 32627989, 32627992, 32627991, 32627993"
+	supportTopicIds="32627989, 32627992, 32627991, 32627993"
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"

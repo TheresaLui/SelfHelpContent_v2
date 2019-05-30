@@ -5,8 +5,8 @@
 	ms.author="raprasad"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_blob_security"
-	supportTopicIds="32602716,32602717"
-	productPesIds="16459"
+	supportTopicIds="32602716,32602717,32612592"
+	productPesIds="16459,16598"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />

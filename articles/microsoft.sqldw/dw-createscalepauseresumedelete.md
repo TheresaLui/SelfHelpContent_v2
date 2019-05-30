@@ -5,15 +5,15 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635178, 32635190, 32635192, 32635196, 32635197, 32635208, 32635217"
+	supportTopicIds="32635178, 32635208"
 	productPesIds="15818"
-	displayOrder="102"
+	displayOrder="20"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-createscalepauseresumedelete.md"
 	cloudEnvironments="public"
 />
-# Create/Scale/Pause/Resume/Delete
+# How to troubleshoot Create/Scale/Pause/Resume/Delete issues
 
 ## **Recommended Steps**
 * [Manage compute](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-compute-overview) in Azure SQL Data Warehouse<br>

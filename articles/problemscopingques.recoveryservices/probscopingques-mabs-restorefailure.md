@@ -2,17 +2,19 @@
          pageTitle="Scoping questions for Azure backup server Restore Failure"
          description="Scoping questions for Azure backup server Restore Failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553295"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="92647b9e-7319-47d5-a6c4-1453dfa3e33f"
+	 articleId="92647b9e-7319-47d5-a6c4-1453dfa3e33f"
 />
 # Questions Azure backup server - Restore Failure
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure backup server restore failure",
     "fileAttachmentHint": "",
     "formElements": [
@@ -45,7 +47,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -53,7 +55,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the impacted machine",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",
@@ -61,7 +63,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text from the console instead of screenshot",
-            "required": true
+            "required": false
         },
         {
             "id": "get_machineid",
@@ -69,7 +71,8 @@
             "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+	    "watermarkText": "Paste MachineId here",
             "required": false
         },
         {
@@ -78,7 +81,8 @@
             "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+	    "watermarkText": "Paste ResourceId here",
             "required": false
         },
         {
@@ -96,9 +100,13 @@
                 {
                     "value": "Recover data to the original location",
                     "text": "Recover data to the original location"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "data_source_type",
@@ -135,6 +143,10 @@
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -157,6 +169,10 @@
                 {
                     "value": "Tried restoring different recovery points",
                     "text": "Tried restoring different recovery points"
+                },
+		 {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
@@ -167,18 +183,11 @@
             "visibility": "issue_Type == Restore from cloud || issue_Type == Restore from disk",
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
-        },
-        {
-            "id": "learn_more_text1",
-            "order": 11,
-            "visibility": "issue_Type == Restore from cloud",
-            "controlType": "infoblock",
-            "content": "Please upload CBEngine log files located at %ProgramFiles%\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the contents to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+            "required": true
         },
         {
             "id": "problem_description",
-            "order": 12,
+            "order": 11,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

@@ -5,6 +5,7 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
+	ms.author="jlynn"
 	displayOrder=""
 	articleId="ios_enrollment_restriction"
 	diagnosticScenario="IntuneCheckAPNSCert"
@@ -17,11 +18,12 @@
 
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
 
-## Recommended steps
+## **Recommended Steps**
 
 <!--issueDescription-->
-An iOS enrollment restriction has been configured preventing some iOS devices from enrolling.<!--/issueDescription-->
+An iOS enrollment restriction has been configured, preventing some iOS devices from enrolling.
+<!--/issueDescription-->
 
 As an Intune administrator, you can create and manage enrollment restrictions that define the number and types of devices that can enroll into management with Intune. You can create multiple restrictions and apply them to different user groups. You can set the priority order for your different restrictions.
 
-Visit https://docs.microsoft.com/intune/enrollment-restrictions-set to review how to configure enrollment restrictions.
+Visit the [Intune Documentation](https://docs.microsoft.com/intune/enrollment-restrictions-set) to review how to configure enrollment restrictions.
