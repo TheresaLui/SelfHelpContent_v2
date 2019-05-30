@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder=""
+	displayOrder="1"
 	articleId="signalrservice-latency"
 	diagnosticScenario=""
 	selfHelpType="resource"
