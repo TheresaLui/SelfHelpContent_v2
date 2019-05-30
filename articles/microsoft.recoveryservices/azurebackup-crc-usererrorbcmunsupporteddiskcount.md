@@ -19,9 +19,11 @@
 # Error UserErrorBCMUnsupportedDiskCount
 
 <!--issueDescription-->
-We have identified that the number of data disks attached to the Virtual Machine exceeded the supported limit.
+We have identified that the number of data disks attached to the Virtual Machine has exceeded the supported limit.
 <!--/issueDescription-->
 
-## **Recommended Step**
+## **Recommended Steps**
 
-To resolve this issue check the limit on number of [data disks attached to the Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#are-there-size-limits-for-data-backup) detach some data disks from this virtual machine and retry the operation.
+* To resolve this issue, review the limitations of [data disks attached to a Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#are-there-size-limits-for-data-backup)
+* Detach some data disks from this virtual machine
+* Retry the operation
