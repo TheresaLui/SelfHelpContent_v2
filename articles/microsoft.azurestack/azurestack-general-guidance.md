@@ -20,10 +20,10 @@ The recommended steps below may help solve or isolate the issue. If the steps be
 
 ## **Recommended Steps**
 
-1. Review [troubleshooting known issues](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting) and [release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence).
-1. Perform [validation for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) using the Test-AzureStack cmdlet.
-1. Review the available updates:  [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates) and [Update package release cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence).
-1. Use [log collection tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics) to collect traces and log files.
+1. Review [troubleshooting known issues](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting) and [release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
+1. Perform [validation for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) using the Test-AzureStack cmdlet
+1. Review the available updates:  [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates) and [Update package release cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
+1. Use [log collection tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics) to collect traces and log files
 
 ## **Recommended Documents**
 
