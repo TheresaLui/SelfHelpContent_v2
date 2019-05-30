@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="3b077165-0e07-4bf5-abc3-bdf94dc7eb98"
+    articleId="azurestack-storage-userconfig"
 />
 
 # Azure Stack User Storage configuration
