@@ -1,39 +1,31 @@
 <properties
-    pageTitle="Problem creating a user"
-    description="problemcreatinguser"
-    authors="anupnadigm"
+    pageTitle="User Management scoping questions"
+    description="Problem scoping for User Management problems"
+    authors="Jeffsta-MSFT"
+    ms.author="Jeffsta-MSFT"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32045780"
-    productPesIds="14785,16578,16575"
+    supportTopicIds="32615378","32045780","32615470","32615469","32586793","32615430"
+    productPesIds="16578"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="9622567f-5c02-46c3-81f0-d3275b513214"
-    />
-
-# Problem creating a user
-
+    articleId="94b91e4f-caac-4673-9481-3034272e0fa7"
+/>
+# User Management questions
 ---
 {
+    "subscriptionRequired": false,
     "resourceRequired": false,
-    "title": "Problem creating a user",
-    "fileAttachmentHint": "Screenshot of problem",
+    "title": "User management problems",
+    "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "notB2b",
-            "visibility": null,
+            "id": "problem_description",
             "order": 1,
-            "controlType": "infoblock",
-            "displayLabel": null,
-            "content": "If the problem has to do with inviting guest users to collaborate with your organization, please go to the previous step and select the category 'Adding a guest user(B2B)'.'",
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe the task you need to accomplish",
+            "watermarkText": "If the task pertains to managing an existing user, include the user name ('alice@contoso.com') or object ID of that user.",
+            "required": true,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "whereProblem",
@@ -50,16 +42,16 @@
                     "value": "azurePortal"
                 },
                 {
-                    "text": "classic Azure portal (manage.windowsazure.com)",
-                    "value": "classicPortal"
-                },
+                    "text": "Another web page",
+                    "value": "otherPage"
+                },               
                 {
                     "text": "PowerShell",
                     "value": "powerShell"
                 },
                 {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
+                    "text": "Other, don't know, or not applicable",
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -69,154 +61,68 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
-        {
-            "id": "whatProblem",
-            "visibility": null,
+		{
+            "id": "problem_detail_AzurePortal",
+            "visibility": "whatProblem==azurePortal",
             "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "What is the problem?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "I can't find where to add a new user to Azure AD",
-                    "value": "cantFind"
-                },
-                {
-                    "text": "The 'new' button isn't enabled",
-                    "value": "notEnabled"
-                },
-                {
-                    "text": "Error during creation of a user",
-                    "value": "serverError"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "controlType": "multilinetextbox",
+            "displayLabel": "Problem description",
+            "watermarkText": "Describe the problem that prevents you from completing the task. Include the URL of the page where the problem occurs, and any error messages you observed.",
+            "required": false,
+            "useAsAdditionalDetails": false
         },
         {
-            "id": "otherSymptoms",
-            "visibility": "whatProblem==other",
+            "id": "problem_detail_otherPage",
+            "visibility": "whatProblem==otherPage",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "What are the symptoms of the problem?",
-            "content": null,
-            "watermarkText": "Provide any pertinent details about the problem",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": [],
+            "displayLabel": "Problem description",
+            "watermarkText": "Describe the problem that prevents you from completing the task. Include the URL of the page where the problem occurs, and any error messages you observed.",
             "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 3
+            "useAsAdditionalDetails": false
         },
         {
-            "id": "errorDetails",
-            "visibility": "whatProblem==serverError",
+            "id": "problem_detail_powerShell",
+            "visibility": "whatProblem==powerShell",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Error details",
-            "content": null,
-            "watermarkText": "Provide any data you can about the error, such as the text of the error message, or a correlation ID",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": [],
+            "displayLabel": "Problem description",
+            "watermarkText": "Describe the problem that prevents you from completing the task. Include the text of your PowerShell request and the response, if available.",
             "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 3
+            "useAsAdditionalDetails": false
         },
         {
-            "id": "whichUser",
-            "visibility": null,
+            "id": "problem_detail_otherTool",
+            "visibility": "whatProblem==don't_know_answer",
             "order": 6,
-            "controlType": "dropdown",
-            "displayLabel": "Which administrator is experiencing the problem?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Me",
-                    "value": "self"
-                },
-                {
-                    "text": "Another administrator",
-                    "value": "otherUser"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "whichOtherUser",
-            "visibility": "whichUser==otherUser",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Which administrator is having a problem creating a user?",
-            "content": null,
-            "watermarkText": "Enter user name (such as alice@contoso.com) of the administrator",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": [],
+            "controlType": "multilinetextbox",
+            "displayLabel": "Problem description",
+            "watermarkText": "Describe the problem that prevents you from completing the task, including any error messages you observed.",
             "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_start_time",
-            "visibility": null,
-            "order": 8,
+            "order": 7,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem occur (or begin)?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "displayLabel": "When did you first notice the problem?",
+            "required": true
         },
         {
-            "id": "problem_description",
-            "visibility": null,
+            "id": "problem_steps_taken",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "If you have taken any steps to troubleshoot this problem, please provide details here",
+            "watermarkText": "If you have taken any steps to troubleshoot this problem, please provide details here",
+            "required": false
+        },
+        {
+            "id": "audit_logs",
             "order": 9,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": true,
-            "numberOfLines": 0
+            "displayLabel": "Audit logs",
+            "watermarkText": "If there are any audit logs for activity related to the problem, enter the correlation ID(s) of the audit log(s) here. E.g., '94b91e4f-caac-4673-9481-3034272e0fa6'",
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
