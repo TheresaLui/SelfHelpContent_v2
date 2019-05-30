@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="28296e6d-932e-4577-9cb8-246e3f4a8b95"
+    articleId="azurestack-general-guidance"
 />
 
 # Azure Stack General Guidance
