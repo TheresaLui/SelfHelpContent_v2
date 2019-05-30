@@ -20,10 +20,10 @@ Thank you for your interest in Azure Stack. As outlined in [Microsoft Azure Stac
 
 ## **Recommended Steps**
 
-* If you are experiencing an issue that is not already documented, check the [Azure Stack MSDN Forum](https://social.msdn.microsoft.com/Forums/home?forum=azurestack) for further assistance and information.
+* If you are experiencing an issue that is not already documented, check the [Azure Stack MSDN Forum](https://social.msdn.microsoft.com/Forums/home?forum=azurestack) for further assistance and information
 
 ## **Recommended Documents**
 
-* [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting) provides common troubleshooting information and Known Issues for Azure Stack Dev Kit.<br>
-* [ASDK Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-asdk-release-notes) includes known issues for current released build.<br>
-* [Azure Stack White Paper](https://azure.microsoft.com/resources/azure-stack-an-extension-of-azure/) is the official Azure Stack documentation, outlining roadmap and supportability statements.
+* [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting) provides common troubleshooting information and Known Issues for Azure Stack Dev Kit
+* [ASDK Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-asdk-release-notes) includes known issues for current released build
+* [Azure Stack White Paper](https://azure.microsoft.com/resources/azure-stack-an-extension-of-azure/) is the official Azure Stack documentation, outlining roadmap and supportability statements
