@@ -23,12 +23,14 @@ Azure Database for PostgreSQL allows you to configure engine parameters using th
    There is a known issue in the portal where updating shared_preload_libraries causes an error. For example, "The value **'TIMESCALEDB'** for configuration 'shared_preload_libraries' is not valid."
 
    Use the Azure CLI instead to update shared_preload_libraries. 
+   
+   You can access the Azure CLI from the Azure portal using Cloud Shell. See the icon toolbar in the top right corner of your screen.
 
    ```
    az postgres server configuration set --resource-group myresourcegroup --server mydemoserver --name shared_preload_libraries --value timescaledb
    ```
 
-   You can access the Azure CLI from the Azure portal using Cloud Shell. See the icon toolbar in the top right corner of your screen.
+   Remember to restart the server after the change, since shared_preload_libraries requires a restart.
 
    We apologize for the inconvenience and are working to resolve the portal issue.
 
