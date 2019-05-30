@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="33266f7f-4e91-4d6d-9e87-0038516b8317"
+    articleId="azurestack-tools-apis"
 />
 
 # Azure Stack APIs
