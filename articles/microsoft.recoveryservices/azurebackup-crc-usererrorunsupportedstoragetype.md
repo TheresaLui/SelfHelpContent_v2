@@ -19,9 +19,9 @@
 # Error UserErrorUnsupportedStorageType
 
 <!--issueDescription-->
-We have identified that your backup operation failed due to unsupported storage type.
-
+We have identified that your backup operation has failed, due to an unsupported storage type.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To know the list of supported storage type refer this [article](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
+## **Recommended Documents**
+
+* [Supported storage types](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support)
