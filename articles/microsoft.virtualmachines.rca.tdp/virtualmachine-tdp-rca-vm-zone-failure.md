@@ -29,8 +29,8 @@ Availability Zones are physically separate locations within an Azure region that
 
 You have multiple options to proceed:
 
-- Create a new VM using a size supported by a particular availability zone. See [Create a Windows virtual machine in an availability zone with PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/create-powershell-availability-zone).
-- Choose a size available in an Azure Availability Set. See [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm).<br>
+- Choose a size supported by an availability zone. For this scenario, you will need to create a new VM. See [Create a Windows virtual machine in an availability zone with PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/create-powershell-availability-zone).
+- Choose a size supported in an Azure Availability Set.<br>
 - Choose a size supported in your region or in another region.<br>
 
 To determine available sizes, select the VM in the Azure portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.
@@ -41,7 +41,7 @@ To determine available sizes, select the VM in the Azure portal. Under **Setting
 
 - See [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) for considerations on working with VM sizes, availability sets, availability zones, and regions.
 - Peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.
-- See [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) for to resizse a VM for an availability set using PowerShell.
+- See [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) for to resize a VM for an availability set using PowerShell.
 
 ### Size and SKU commands
 
