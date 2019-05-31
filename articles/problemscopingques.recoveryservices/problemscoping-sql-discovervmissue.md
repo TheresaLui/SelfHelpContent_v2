@@ -21,7 +21,7 @@
         {
             "id": "machine_name",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Select the virtual machine running SQL",
             "watermarkText": "Enter the name of the virtual machine running SQL",
 	    "dynamicDropdownOptions": {
