@@ -1,8 +1,7 @@
 <properties
     pageTitle="User Management scoping questions"
     description="Problem scoping for User Management problems"
-    authors="Jeffsta-MSFT"
-    ms.author="Jeffsta-MSFT"
+    authors="jeffsta"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615378","32045780","32615470","32615469","32586793","32615430","32565604"
     productPesIds="16578"
