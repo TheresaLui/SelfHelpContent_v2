@@ -10,14 +10,16 @@
          schemaVersion="1"
          articleId="2b342a85-2019-4l4f-b7d0-43639892e013"
 />
+
 # Questions How-To and General Issues
+
 ---
 {
      "subscriptionRequired": true,
      "resourceRequired": true,
-    "title": "How-To and General Issues",
-    "fileAttachmentHint": "",
-    "formElements": [
+     "title": "How-To and General Issues",
+     "fileAttachmentHint": "",
+     "formElements": [
         {
             "id": "Select_Question",
             "order": 1,
