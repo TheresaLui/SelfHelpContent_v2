@@ -4,7 +4,7 @@
     authors="jeffsta"
     ms.author="Jeffsta-MSFT"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615378","32045780,32615470,32615469,32586793,32615430,32565604"
+    supportTopicIds="32615378,32045780,32615470,32615469,32586793,32615430,32565604"
     productPesIds="16578"
     cloudEnvironments="public"
     schemaVersion="1"
