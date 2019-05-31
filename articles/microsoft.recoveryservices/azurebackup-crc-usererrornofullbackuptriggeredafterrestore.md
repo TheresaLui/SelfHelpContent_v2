@@ -19,9 +19,9 @@
 # Error UserErrorNoFullBackupTriggeredAfterRestore
 
 <!--issueDescription-->
-We have identified that the backup operation has failed because after restore a full backup operation was never triggered.
+We have identified that the backup operation has failed. After the last restore, a full backup operation was not triggered.
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
 
-To resolve the Log and Differential backup issue trigger a full backup on the database.
+* Manually trigger a full backup on the database
