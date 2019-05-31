@@ -30,7 +30,7 @@
                 {
                     "text": "Examples of advisory services include, but are not limited to:"
                 },
-		{
+                {
                     "text": "Plan for deployments and migrations"
                 },
                 {
@@ -45,9 +45,9 @@
                 {
                     "text": "Enhance security"
                 },
-		{
-		    "text": "You should not select Advisory when you have an immediate issue that requires troubleshooting support. Please select a different problem type from the drop down list above for faster assistance resolving a problem."
-		}
+                {
+                    "text": "You should not select Advisory when you have an immediate issue that requires troubleshooting support. Please select a different problem type from the drop down list above for faster assistance resolving a problem."
+                }
             ]
         },
         {
@@ -57,6 +57,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

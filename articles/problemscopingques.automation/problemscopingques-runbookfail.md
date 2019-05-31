@@ -102,6 +102,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com//azure/automation/troubleshoot/runbooks'>Learn more</a> about troubleshooting runbooks"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

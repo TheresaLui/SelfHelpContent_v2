@@ -18,15 +18,6 @@
     "$schema": "SelfHelpContent",
     "commonProblems": [
         {
-            "id": "Unable_to_create_a_collection_with_unique_key_from_Azure_CLI",
-            "title": "Unable to create a collection with unique key from Azure CLI",
-            "description": "I want to deploy Azure Cosmos DB from Azure CLI and/or PowerShell.",
-            "category": "Cosmos DB",
-            "searchTags": "",
-            "supportTopicId": "32597494",
-            "commonSolutionArticleId": "1e033ba3-fbf7-485b-9d07-97d19630591f"
-        },
-        {
             "id": "Requesting_backups_to_test_disaster_recovery",
             "title": "Requesting backups to test disaster recovery",
             "description": "How do I use Cosmos DB Backup and Restore to test disaster recovery?",
@@ -126,15 +117,6 @@
             "commonSolutionArticleId": "d6766c56-ec95-4202-af53-3479618125c1"
         },
         {
-            "id": "How_to_develop_applications_with_Azure_Cosmos_DB_Cassandra_API",
-            "title": "How to develop applications with Azure Cosmos DB Cassandra API",
-            "description": "How do I get started with Azure Cosmos DB Cassandra?",
-            "category": "Cosmos DB",
-            "searchTags": "",
-            "supportTopicId": "32615110",
-            "commonSolutionArticleId": "d4efebf6-70c3-486a-8081-99e77c289b12"
-        },
-        {
             "id": "Azure_Cosmos_DB_Cassandra_API_drivers",
             "title": "Azure Cosmos DB Cassandra API drivers",
             "description": "Where do I get Azure Cosmos DB Cassandra API drivers?",
@@ -160,15 +142,6 @@
             "searchTags": "",
             "supportTopicId": "32615108",
             "commonSolutionArticleId": "70993247-d5f1-4677-9238-2e390ad3b548"
-        },
-        {
-            "id": "Azure_Cosmos_DB_Cassandra_API_integration_with_Spark",
-            "title": "Azure Cosmos DB Cassandra API integration with Spark",
-            "description": "How do I integrate Azure Cosmos DB Cassandra with Spark?",
-            "category": "Integration",
-            "searchTags": "",
-            "supportTopicId": "32615115",
-            "commonSolutionArticleId": "1315234c-7f91-4ac7-9003-53fc0a63471a"
         },
         {
             "id": "Azure_Cosmos_DB_Cassandra_API_tools",
@@ -342,60 +315,6 @@
             "commonSolutionArticleId": "34d109bd-28f4-4d4e-b160-6cecd738b6c9"
         },
         {
-            "id": "My_database_is_slow",
-            "title": "My database is slow",
-            "description": "My database is slow",
-            "category": "Connectivity",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "61352f97-502d-4ca1-b0d2-a0af6aa0294a"
-        },
-        {
-            "id": "My_database_is_slow",
-            "title": "My database is slow",
-            "description": "My database is slow",
-            "category": "Connectivity",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "3a02c964-f104-48e6-a87d-678ec7d49524"
-        },
-        {
-            "id": "My_queries_are_slow",
-            "title": "My queries are slow",
-            "description": "My queries are slow",
-            "category": "Performance",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "cf0742c0-7bea-4e6b-a6ad-509cce71e3ac"
-        },
-        {
-            "id": "My_queries_are_slow",
-            "title": "My queries are slow",
-            "description": "My queries are slow",
-            "category": "Performance",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "19bd8286-e3b2-495e-9753-9e95362aac7e"
-        },
-        {
-            "id": "I_need_more_storage/throughput",
-            "title": "I need more storage/throughput",
-            "description": "I need more storage and/or throughput",
-            "category": "Storage",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "409a3eca-3b3d-4fbf-9869-c63e31f7cd08"
-        },
-        {
-            "id": "I_need_more_storage/throughput",
-            "title": "I need more storage/throughput",
-            "description": "I need more storage and/or throughput",
-            "category": "Storage",
-            "searchTags": "",
-            "supportTopicId": "32597546",
-            "commonSolutionArticleId": "0eb8faaf-b8da-43ff-886d-302e375f4d41"
-        },
-        {
             "id": "Azure_Cosmos_DB_ODBC_Connector",
             "title": "Azure Cosmos DB ODBC Connector",
             "description": "Cosmos DB ODBC Connector",
@@ -457,24 +376,6 @@
             "searchTags": "",
             "supportTopicId": "32597532",
             "commonSolutionArticleId": "896da318-42bb-42df-8ebe-b49be495d335"
-        },
-        {
-            "id": "My_request_unit_(RU)_charging_is_unclear",
-            "title": "My request unit (RU) charging is unclear",
-            "description": "My request unit (RU) charging is unclear",
-            "category": "Performance",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "d33f2637-58fb-4528-89c9-e2cdf3c8e424"
-        },
-        {
-            "id": "My_request_unit_(RU)_charging_is_unclear",
-            "title": "My request unit (RU) charging is unclear",
-            "description": "My request unit (RU) charging is unclear",
-            "category": "Performance",
-            "searchTags": "",
-            "supportTopicId": "32597527",
-            "commonSolutionArticleId": "03a93b15-9264-4901-94ee-942f92308410"
         },
         {
             "id": "Cosmos_DB_Java_SDK_Issues",
@@ -619,15 +520,6 @@
             "searchTags": "",
             "supportTopicId": "32597528",
             "commonSolutionArticleId": "50aa33d1-b6e6-4d1a-9268-2b781944f3e5"
-        },
-        {
-            "id": "How_to_develop_applications_with_Azure_Cosmos_DB_Table_API",
-            "title": "How to develop applications with Azure Cosmos DB Table API",
-            "description": "How do I use Azure Cosmos DB Tables?",
-            "category": "Development",
-            "searchTags": "",
-            "supportTopicId": "32597513",
-            "commonSolutionArticleId": "f07ae40c-ed6b-43af-a24a-60eed7639e78"
         },
         {
             "id": "Rate_limiting_in_Azure_Cosmos_DB",

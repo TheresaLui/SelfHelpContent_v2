@@ -20,8 +20,7 @@
     "subscriptionRequired": true,
     "title": "Error message",
     "fileAttachmentHint": "",
-    "formElements":
-    [
+    "formElements": [
         {
             "id": "problem_start_time",
             "order": 10,
@@ -44,11 +43,13 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [{
+            "hints": [
+                {
                     "text": "Issue description."
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

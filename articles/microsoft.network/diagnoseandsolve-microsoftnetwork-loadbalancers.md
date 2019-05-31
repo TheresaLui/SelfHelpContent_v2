@@ -33,25 +33,7 @@
             "category": "Load Balancer",
             "searchTags": "",
             "supportTopicId": "",
-            "commonSolutionArticleId": "c5e2b189-6be5-4f65-b75b-5597627d5e92"
-        },
-        {
-            "id": "VMs_behind_Load_Balancer_(LB)_not_responding_to_requests",
-            "title": "VMs behind Load Balancer (LB) not responding to requests",
-            "description": "VMs behind Load Balancer (LB) not responding to requests",
-            "category": "Load Balancer",
-            "searchTags": "",
-            "supportTopicId": "",
             "commonSolutionArticleId": "14939f9b-b399-4dd8-a78d-55b79bdd20e8"
-        },
-        {
-            "id": "My_Load_Balanced_VMs_are_not_receiving_traffic",
-            "title": "My Load Balanced VMs are not receiving traffic",
-            "description": "My Load Balanced VMs are not receiving traffic",
-            "category": "Connectivity",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "2cad50d4-b6fc-4e78-af55-f6630bce7036"
         },
         {
             "id": "My_Load_Balanced_VMs_are_not_receiving_traffic",
