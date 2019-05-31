@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Troubleshoot my VM firewall",
     "fileAttachmentHint": "",
@@ -115,8 +116,38 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "isadmin",
             "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Is this the built-in administrator account?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "name_useraccount",
+            "order": 7,
+            "visibility": "isadmin == No || isadmin == I do not know",
+            "controlType": "textbox",
+            "displayLabel": "What is the name of the user account trying to login?",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -124,11 +155,12 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

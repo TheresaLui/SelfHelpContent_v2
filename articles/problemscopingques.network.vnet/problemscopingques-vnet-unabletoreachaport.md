@@ -33,7 +33,7 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
             },
-                        "dropdownOptions": [
+            "dropdownOptions": [
                 {
                     "value": "Unable to get the list of Virtual Machines",
                     "text": "Unable to get the list of Virtual Machines"
@@ -41,7 +41,7 @@
             ],
             "required": false
         },
-                    {
+        {
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
@@ -56,7 +56,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         },
-            {
+        {
             "id": "port number",
             "order": 2,
             "controlType": "textbox",
@@ -64,6 +64,7 @@
             "watermarkText": "Enter the port",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

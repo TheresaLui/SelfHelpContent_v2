@@ -31,7 +31,7 @@ Note: If the following list is empty, this step can be skipped:
 
 * Once both Namenodes are running, please run the following commands to reset the checkpoint:
 
-  * `hdfs dfsadmin -safemode enter`
-  * `hdfs dfsadmin -saveNamespace`
-  * `hdfs dfsadmin -safemode leave`
+  * `hdfs dfsadmin -D 'fs.default.name=hdfs://mycluster/' -safemode enter`
+  * `hdfs dfsadmin -D 'fs.default.name=hdfs://mycluster/' -saveNamespace`
+  * `hdfs dfsadmin -D 'fs.default.name=hdfs://mycluster/' -safemode leave`
   

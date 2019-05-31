@@ -4,6 +4,7 @@ description="My Application Gateway health probe path has a wildcard."
 infoBubbleText="Issues with your Application Gateway were detected. See details on the right."
 service="microsoft.network"
 resource="ApplicationGateway"
+ms.author="chadmat"
 authors="chadmath"
 displayOrder="10"
 articleId="AppGwHealthProbeHasWildCard"
@@ -14,14 +15,17 @@ resourceTags="windows"
 productPesIds="15922"
 cloudEnvironments="Public"
 />
+
 # Microsoft Azure has identified that your Application Gateway has a health probe path with a wildcard
+
 <!--issueDescription-->
 We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has a health probe **<!--$ProbeName-->[ProbeName]<!--/$ProbeName-->** that has a wildcard in the path **<!--$Path-->[Path]<!--/$Path-->**. Probe path should be a specific path on the backend server.
-<!--/issueDescription--> 
-## **Steps to resolve**
+<!--/issueDescription-->
+
+## **Recommended Steps**
 
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
 3. Select the 'Health Probes' blade
-4. Select the health probe **<!--$ProbeName-->[ProbeName]<!--/$ProbeName-->** 
+4. Select the health probe **<!--$ProbeName-->[ProbeName]<!--/$ProbeName-->**
 5. Include a specific path value

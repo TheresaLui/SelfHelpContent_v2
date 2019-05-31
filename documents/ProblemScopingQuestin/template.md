@@ -13,6 +13,7 @@
 # Useful Title
 ---
 {
+  "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
 	"title": "Slow virtual machine",
@@ -21,6 +22,7 @@
 			"id": "slow_vm_determination",
 			"order": 1,
 			"controlType": "dropdown",
+			"infoBalloonText": "string",
 			"displayLabel": "Is this a yes or no question?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{

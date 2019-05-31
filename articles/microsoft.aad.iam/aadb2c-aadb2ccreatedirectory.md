@@ -1,9 +1,10 @@
 <properties pageTitle="Problem with AAD B2C create directory" 
 	 description="aadb2ccreatedirectory" 
-	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32444951" 
-	 productPesIds="14785,16580" 
+	 supportTopicIds="32633313,32633314,32633323,32633326" 
+	 productPesIds="16580"
+     authors="parakhj"
+	 ms.author="parja"
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
    articleId="fa43dca5-4fec-4ee1-903a-9c56604f0798"
@@ -26,7 +27,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -60,7 +60,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -77,7 +76,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -94,8 +92,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -117,6 +114,7 @@
             "useAsAdditionalDetails": true,
             "numberOfLines": 0
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -19,20 +19,16 @@ cloudEnvironments="Public"
 <!--issueDescription-->
 DDoS Attack wasn't detected and mitigated for Public IP resource
 
-<br>
-
-### **Impacted Resources**
 Public IP resources that were mitigated are : <!--$List of Public IPs-->[AffectedIps]<!--/$List of Public IPs-->
 <!--/issueDescription-->
 
-<br>
+## **Recommended Steps**
 
-### **Recommended Action**
 Check the status of the resource in the [dashboard](DashboardLink) in Resource Explorer for this resource. If this IP is getting mitigated correctly, inform the customer. Otherwise create a Sev 2 Incident (CRI) with Owning Service = Cloudnet ; Owning Team = DDoS with the details of the attack , Public IP resource, **Subscription ID:** [SubscriptionID], **Region:** [Regions] and **Case ID**: [CaseID].
 
-<br>
 
-### **Customer Ready Content** 
+### **Customer Ready Content**
+
 Investigation ongoing for the below Public IP resources under mitigation: <!--$List of Public IPs-->[AffectedIps]<!--/$List of Public IPs-->
 
 Please review metrics in Azure Portal / Azure Monitor.

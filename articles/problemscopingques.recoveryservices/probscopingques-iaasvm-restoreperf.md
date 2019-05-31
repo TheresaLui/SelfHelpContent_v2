@@ -42,7 +42,7 @@
                     "text": "Slow restore during restore disk operation"
                 },
                 {
-		    "value": "Slow restore during restore existing disks operation",
+                    "value": "Slow restore during restore existing disks operation",
                     "text": "Slow restore during restore existing disks operation"
                 },
                 {
@@ -85,6 +85,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
