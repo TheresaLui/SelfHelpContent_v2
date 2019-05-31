@@ -9,7 +9,7 @@
 	displayOrder="5"
 	articleId="insights-missingnotifications"
 	selfHelpType="generic"
-	supportTopicIds="32629650,32629653,32629654,32629655,32629656,32629658,32630731,32633011,32629671"
+	supportTopicIds="32629650,32629653,32629654,32629655,32629656,32630731,32633011,32629671"
 	productPesIds="15454,15725"
 	cloudEnvironments="public,fairfax,mooncake"
 />
@@ -20,7 +20,7 @@ Most alerts in Azure Monitor use [Action Groups](https://docs.microsoft.com/azur
 
 ## **Recommended Steps**
 
-### Pre-requisite: check if an alert instance was created.
+### Prerequisite: check if an alert instance was created.
 
 [Action rules](https://aka.ms/action-rules-doc) allow you to suppress notifications for your alerts. It is possible that your alert notifications were suppressed through an action rule. You can verify this by doing the following steps:
 
