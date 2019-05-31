@@ -105,13 +105,13 @@
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 				  "value": "How do I decide between Restore Disks vs. Full VM restore?",
-				  "text": "How do I decide between Restore Disks vs. Full VM restore?	"
+				  "text": "How do I decide between Restore Disks vs. Full VM restore?"
 			},{
 				"value": "How do I restore managed disk VM?",
 				"text": "How do I restore managed disk VM?"
 			},{
-				"value": "How do I restore VM to availability sets? ",
-				"text": "How do I restore VM to availability sets? "
+				"value": "How do I restore VM to availability sets?",
+				"text": "How do I restore VM to availability sets?"
 			},{
 				"value": "How do I restore a VM to a restore point before the VM was migrated to managed disks?",
 				"text": "How do I restore a VM to a restore point before the VM was migrated to managed disks?"
@@ -166,7 +166,7 @@
 		"order": 6,
 		"visibility": "operation_type == Limitations/Pre-requisites/(Not) Supported scenarios",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AA4evhu'>pre-requisites</a>, <a href='https://aka.ms/AB-AA4ecqa'>Support Matrix</a> for Azure VM backup",
+		"infoBalloonText": "Check <a href='https://aka.ms/AA4evhu'>Pre-requisites</a>, <a href='https://aka.ms/AB-AA4ecqa'>Support Matrix</a> for Azure VM backup",
 		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
