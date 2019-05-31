@@ -13,7 +13,7 @@
 	articleId="6375b31f-2dd9-3f57-771f-d98282de49db"
 />
 
-# Code snippets for migrating content from Power BI Workspace Collection
+# Code snippets for migrating content from Power BI Workspace Collection  
 
 ## **Recommended Documents**
 
