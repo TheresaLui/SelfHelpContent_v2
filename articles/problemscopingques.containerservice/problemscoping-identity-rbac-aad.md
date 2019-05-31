@@ -57,7 +57,7 @@
                     "id": "getAdminFlagWork",
                      "order": 4,
                       "controlType": "dropdown",
-                      "displayLabel": "Does using **az aks get-credentials** with the **--admin** flag work as expected",
+                      "displayLabel": "Does 'az aks get-credentials' with the '--admin' flag work as expected?",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                         {

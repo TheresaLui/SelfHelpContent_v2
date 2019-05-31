@@ -33,50 +33,8 @@
                     "required": false
                   },
                   {
-                    "id": "getGlobalAdmin",
-                     "order": 3,
-                      "controlType": "dropdown",
-                      "displayLabel": "Is the user that created the server and client applications a Global Admin for the AD tenant?",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [
-                        {
-                          "value": "Yes",
-                          "text": "Yes"
-                        },{
-                          "value": "No",
-                          "text": "No"
-                        },
-                        {
-                          "value": "dont_know_answer",
-                          "text": "I don't know"
-                        }
-                        ],
-                        "required": false
-                  },
-                  {
-                    "id": "getAdminFlagWork",
-                     "order": 4,
-                      "controlType": "dropdown",
-                      "displayLabel": "Does using **az aks get-credentials** with the **--admin** flag work as expected",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [
-                        {
-                          "value": "Yes",
-                          "text": "Yes"
-                        },{
-                          "value": "No",
-                          "text": "No"
-                        },
-                        {
-                          "value": "dont_know_answer",
-                          "text": "I don't try"
-                        }
-                        ],
-                        "required": false
-                  },
-                  {
                   "id": "problem_description",
-                  "order": 5,
+                  "order": 3,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
