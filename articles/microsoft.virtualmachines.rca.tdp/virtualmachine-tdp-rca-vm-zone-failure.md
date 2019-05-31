@@ -18,18 +18,17 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We detected that the start operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the availability zone **<!--$zonenumber--> <!--/$zonenumber-->** does not have capacity to support its current size.<br>
+We detected that the start operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the availability zone **<!--$zonenumber--> <!--/$zonenumber-->** does not have the capacity to support its allocation.<br>
 <!--/issueDescription-->
 
-The availability zone that this virtual machine was associated with does not support the VM's current size. The VM must be resized for the start operation to succeed.
-
-Availability Zones are physically separate locations within an Azure region that provide high-availability to protect your applications and data from datacenter failures. 
+The availability zone has insufficient capacity to allocate the VM. Availability Zones are physically separate locations within an Azure region that provide high availability to protect your applications and data from datacenter failures.  
 
 ## **Recommended Steps**
 
-You have multiple options to proceed:
+Try the deployment again as the issue may have been temporary and there are now sufficient resources for the allocation. If that doesn't work, you have the following options:
 
-- Choose a size supported by an availability zone. For this scenario, you will need to create a new VM. See [Create a Windows virtual machine in an availability zone with PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/create-powershell-availability-zone).
+- You can resize the VM. If you are using an older VM product, consider a newer versions. to another size and at any time you can contact us over a service request with a high severity and we will contact you to help you as soon as possible.
+- Create a new VM for the availability zone. See [Create a Windows virtual machine in an availability zone with PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/create-powershell-availability-zone).
 - Choose a size supported in an Azure Availability Set.<br>
 - Choose a size supported in your region or in another region.<br>
 
