@@ -19,8 +19,9 @@
 # Error UserErrorUnsupportedDiskConfiguration
 
 <!--issueDescription-->
-We have identified that your backup operation failed due to unsupported disk configuration.
+We have identified that your backup operation failed due to an unsupported disk configuration.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To know more about the supported disk configuration refer this [article](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
+## **Recommended Documents**
+
+* [Supported disk configurations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support)
