@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="partnercenter"
 	resource="mpn"
-	authors="Divya Manjari"
+	authors="DivyaManjari"
 	ms.author="dimanjar"
 	displayOrder=""
 	articleId="partnercenter_mpn_update_tax_ID"
@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [How to update tax ID/VAT ID](https://support.microsoft.com/en-us/help/4501523)
+* [How to update tax ID/VAT ID](https://support.microsoft.com/help/4501523)
