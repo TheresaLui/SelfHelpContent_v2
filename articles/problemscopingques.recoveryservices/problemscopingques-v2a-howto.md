@@ -1,14 +1,14 @@
 <properties
-         pageTitle="Scoping questions for how to and general issues"
-         description="Scoping questions for how to and general issues"
-         authors="TobyTu"
-         ms.author="aaronmax"
-         selfHelpType="problemScopingQuestions"
-         supportTopicIds="32630515"
-         productPesIds="16370"
-         cloudEnvironments="public"
-         schemaVersion="1"
-         articleId="2b342a85-2019-4l4f-b7d0-43639892e013"
+    pageTitle="Scoping questions for how to and general issues"
+    description="Scoping questions for how to and general issues"
+    authors="TobyTu"
+    ms.author="aaronmax"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32630515"
+    productPesIds="16370"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="2b342a85-2019-4l4f-b7d0-43639892e013"
 />
 
 # Questions How-To and General Issues
