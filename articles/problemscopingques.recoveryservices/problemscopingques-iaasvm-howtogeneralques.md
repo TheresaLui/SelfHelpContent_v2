@@ -40,8 +40,8 @@
 							"value": "Limitations/Pre-requisites/(Not) Supported scenarios",
 							"text": "Limitations/Pre-requisites/(Not) Supported scenarios"
 						},{
-							"value": "Backup/Restore performance",
-							"text": "Backup/Restore performance"
+							"value": "Backup or Restore performance",
+							"text": "Backup or Restore performance"
 						},{
 							"value": "Best Practices",
 							"text": "Best Practices"
@@ -193,7 +193,7 @@
 	 },{
 		"id": "Backup/Restore_performance",
 		"order": 7,
-		"visibility": "operation_type == Backup/Restore performance",
+		"visibility": "operation_type == Backup or Restore performance",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>, <a href='https://aka.ms/AB-BackupRestoreConsid'>Backup and Restore consideration</a>, <a href='https://aka.ms/AB-AA4ecqb'>Backup performance</a>",
 		"displayLabel": "Choose an option that best describes your situation:",
