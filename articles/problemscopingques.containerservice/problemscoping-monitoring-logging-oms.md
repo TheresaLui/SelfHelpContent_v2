@@ -17,7 +17,7 @@
                 "resourceRequired": true,
                 "title": "OMS Agent",
                 "fileAttachmentHint": "If OMS pod is in crashloop, please attach the output of **kubectl describe pods 'OMSpodname
-                '>**",
+                '**",
                 "formElements": [
                  {
                     "id": "problem_start_time",
