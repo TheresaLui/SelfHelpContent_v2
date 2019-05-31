@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="partnercenter"
 	resource="mpn"
-	authors="Divya Manjari"
+	authors="DivyaManjari"
 	ms.author="dimanjar"
 	displayOrder=""
 	articleId="partnercenter_mpn_change_billing_information"
