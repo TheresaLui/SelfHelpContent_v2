@@ -13,6 +13,7 @@
 # Monitoring and Logging
 ---
 {
+                "$schema": "SelfHelpContent",
                 "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "OMS Agent",
