@@ -51,7 +51,7 @@
                      "order": 3,
                       "visibility": "getEnablingAccessing == Enabling",
                       "controlType": "dropdown",
-                      "displayLabel": Did you try to enable the logging through Azure CLI?",
+                      "displayLabel": "Did you try to enable the logging through Azure CLI?",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                         {
