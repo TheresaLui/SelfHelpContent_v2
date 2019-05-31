@@ -10,14 +10,14 @@ displayOrder=""
 articleId="socket-limit-48a86414-6e14-4785-8beb-33269666cc3f"
 diagnosticScenario="AARunbookFailedInsights"
 selfHelpType="diagnostics"
-supportTopicIds="32599859,32599860,32599853"
+supportTopicIds="32635012,32599853,32599860,32599908,32615224"
 resourceTags="windows"
 productPesIds="15607"
 cloudEnvironments="public"
 />
 
 # Runbook failed because it exceeded the open socket limit
-<!--/issueDescription-->
+<!--issueDescription-->
 Your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, failed <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation. It exceeded the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit.
 <!--/issueDescription-->
 

@@ -16,26 +16,21 @@
 
 # Bad Gateway Error (502)
 
-We ran several diagnostic checks on your resource **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**. The status of the each diagnostic check is mentioned below. Please troubleshoot the issues which have been flagged as 'failed'.
+We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->** and have found the below issues because of which you are encountering Bad Gateway Error (502).
 
-## **Diagnostic checks executed**
+## **Issues identified**
 
-* Check for <!--$BackendAddressPoolEmptyDisplayName-->[BackendAddressPoolEmptyDisplayName]<!--/$BackendAddressPoolEmptyDisplayName--> - <!--$BackendAddressPoolEmptyCheckStatus-->[BackendAddressPoolEmptyCheckStatus]<!--/$BackendAddressPoolEmptyCheckStatus-->
-
-    * [Troubleshoot](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#empty-backendaddresspool) <br>
-
-* Check for <!--$DegradedBackendServerHealthDisplayName-->[DegradedBackendServerHealthDisplayName]<!--/$DegradedBackendServerHealthDisplayName--> - <!--$DegradedBackendServerHealthCheckStatus-->[DegradedBackendServerHealthCheckStatus]<!--/$DegradedBackendServerHealthCheckStatus-->
-
-    * [Troubleshoot](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#unhealthy-instances-in-backendaddresspool) <br>
-
-* Check for  <!--$BasicListenerHasHigherPriorityRuleThanMultiSiteDisplayName-->[BasicListenerHasHigherPriorityRuleThanMultiSiteDisplayName]<!--/$BasicListenerHasHigherPriorityRuleThanMultiSiteDisplayName--> - <!--$BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus-->[BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus]<!--/$BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus-->
-
-    * [Troubleshoot](https://docs.microsoft.com/azure/application-gateway/configuration-overview#order-of-processing-listeners)
+ <!--$failedCheckList-->[failedChecklist]<!--/$failedCheckList-->
 
 ## **Recommended Steps**
 
-If none of diagnostic checks above resolve your issue, the following are other issues which can result in Bad
-Gateway Error (502):
+Use the instructions below to troubleshoot the issues identified by the diagnostics:
+
+- [Unhealthy instances in backend address pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#unhealthy-instances-in-backendaddresspool) 
+- [Empty backend address pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#empty-backendaddresspool)
+- [Incorrect order of processing listeners](https://docs.microsoft.com/azure/application-gateway/configuration-overview#order-of-processing-listeners)
+
+The following are other issues which cannot be identified by the diagnostics but can result in Bad Gateway Error (502):
 
 - [NSG, UDR or Custom DNS is blocking access to backend pool members](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#network-security-group-user-defined-route-or-custom-dns-issue)
 - [Back-end VMs or instances of virtual machine scale set are not responding to the default health probe](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#problems-with-default-health-probe)
