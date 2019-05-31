@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Webhook format is different from what I expected"
 	description="General trouble-shooting guide for alert webhook content"
-	infoBubbleText="Some suggestions have been found to help solve your alert notification issue more quickly."
+	infoBubbleText="Some suggestions have been found to help solve your alert notification issue quickly."
 	service="microsoft.insights"
 	resource="metricalerts"
 	authors="dkamstra, snehithm"
@@ -20,7 +20,7 @@ There are various kinds of alerts in Azure Monitor, and each has a different web
 
 ## **Recommended Steps**
 
-* If there was a sudden change in the webhook format, please check if the [common alert schema](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-common-schema#how-do-i-enable-the-common-alert-schema) was recently enabled (or disabled).
+* If there was a sudden change in the webhook format, please check if the [common alert schema](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-common-schema#how-do-i-enable-the-common-alert-schema) was recently enabled (or disabled)
 * If you are using webhooks to [integrate with Teams or Slack](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups-logic-app), the endpoint expects the payload in a certain format which is different from what alerts provide
 * If you are using custom webhook payloads functionality of log alerts, webhook payload will be in the format you specified for the alert rule
 
