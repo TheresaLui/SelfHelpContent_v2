@@ -17,7 +17,6 @@ cloudEnvironments="public"
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine**
 We have investigated and identified that your VM is currently in an inaccessible state due to windows failing to boot and the OS is waiting for user inputs on the screen. This issue occurs due to an incorrect or unsuccessful attempt to generalize the VM via Sysprep.
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.

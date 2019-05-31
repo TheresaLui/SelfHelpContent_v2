@@ -16,9 +16,8 @@
     cloudEnvironments="public"
 />
 
-# VM Boot Error: Virtual machine failed to process Windows Updates during installation
+# VM Boot Error
 
-## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
 <!--issueDescription-->
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operation system.
 
