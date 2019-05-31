@@ -44,7 +44,7 @@ For guidance on resizing, see the following:
 
 - [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) for to resize a VM for an availability set using PowerShell.<br>
 
-For determining sizes, use the following commmands:
+For determining sizes, use the following commands:
 
 - For PowerShell, Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("<<insert-region>>")}`
 
