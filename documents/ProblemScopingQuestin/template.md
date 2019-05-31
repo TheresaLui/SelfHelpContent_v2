@@ -13,6 +13,7 @@
 # Useful Title
 ---
 {
+  "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
 	"title": "Slow virtual machine",

@@ -4,8 +4,8 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602701"
-	productPesIds="15629"
+	supportTopicIds="32602701,32642178"
+	productPesIds="15629,16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="2165ec52-93b8-4bad-bf52-2b24b8f186cf"
@@ -13,6 +13,7 @@
 # Recover deleted Storage Account
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Storage Account recovery scoping question",
     "fileAttachmentHint": "",
@@ -78,6 +79,7 @@
             "controlType": "infoblock",
             "content": "You can follow our <a href='https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data'>best practices for protecting your data</a> to ensure that your deleted data will be recoverable in the future."
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

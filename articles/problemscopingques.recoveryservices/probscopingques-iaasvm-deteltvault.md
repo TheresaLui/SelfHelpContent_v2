@@ -44,10 +44,10 @@
                     "value": "Tried force deleting the vault by using PowerShell",
                     "text": "Tried force deleting the vault by using PowerShell"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": false
         },
@@ -68,6 +68,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

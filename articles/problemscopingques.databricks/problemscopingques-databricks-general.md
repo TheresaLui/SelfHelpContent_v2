@@ -187,6 +187,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/azure-databricks/'>Learn more</a> about Azure Databricks"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
