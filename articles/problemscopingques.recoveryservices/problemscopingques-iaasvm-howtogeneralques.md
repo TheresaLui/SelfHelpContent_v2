@@ -63,7 +63,7 @@
               "visibility": "operation_type == Backup",
               "controlType": "dropdown",
                "infoBalloonText": "Check <a href='https://aka.ms/AB-AA4ecq2'>Configure backup</a>, <a href='https://aka.ms/AB-AzureVM-OnDemandBackup'>On-demand backup</a>, <a href='https://aka.ms/AB-AA4e56t'>Backup of encrypted VM</a>, <a href='https://aka.ms/AB-AA4ecql'>Manage Azure VM backup</a>, <a href='https://aka.ms/AB-AA4e56n'> Azure VM backup FAQs</a>",
-              "displayLabel": "Select one of the related question",
+              "displayLabel": "Select one of the related question:",
               "watermarkText": "Select",
               "dropdownOptions": [{
                           "value": "How do I configure a scheduled backup?",
@@ -101,7 +101,7 @@
 		"visibility": "operation_type == Restore",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>",
-		"displayLabel": "Select one of the related question",
+		"displayLabel": "Select one of the related question:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 				  "value": "How do I decide whether to restore disks only or a full VM?",
@@ -127,7 +127,7 @@
 		"visibility": "operation_type == Policy",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Manage VM backups FAQ</a>",
-		"displayLabel": "Select one of the related question",
+		"displayLabel": "Select one of the related question:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "I have questions related to policy limit",
@@ -147,7 +147,7 @@
 		"visibility": "operation_type == Snapshots/Recovery Points",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Instant Restore FAQ</a>",
-		"displayLabel": "Select one of the related question",
+		"displayLabel": "Select one of the related question:",
 		"watermarkText": "Select",
 "dropdownOptions": [{
 			"value": "I have questions related to Snapshot",
@@ -167,7 +167,7 @@
 		"visibility": "operation_type == Limitations/Pre-requisites/(Not) Supported scenarios",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AA4evhu'>Prerequisites</a>, <a href='https://aka.ms/AB-AA4ecqa'>Support Matrix</a> for Azure VM backup",
-		"displayLabel": "Select one of the related question",
+		"displayLabel": "Select one of the related question:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 			"value": "What Azure VMs can I back up using Azure Backup?",
@@ -196,7 +196,7 @@
 		"visibility": "operation_type == Backup/Restore performance",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>, <a href='https://aka.ms/AB-BackupRestoreConsid'>Backup and Restore consideration</a>, <a href='https://aka.ms/AB-AA4ecqb'>Backup performance</a>",
-		"displayLabel": "Select one of the related question",
+		"displayLabel": "Select one of the related question:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "I have questions about restore performance",
@@ -216,7 +216,7 @@
 		"visibility": "operation_type == Best Practices",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56d'>Best Practices</a> for Azure VM backup",
-		"displayLabel": "Select one of the related question",
+		"displayLabel": "Select one of the related question:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "I have questions about VM backup best practices",
@@ -233,7 +233,7 @@
 		"visibility": "operation_type == Pricing",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-Costs'>Azure backup costs</a> article",
-		"displayLabel": "Select one of the related question",
+		"displayLabel": "Select one of the related question:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "I have questions about backup cost",
@@ -250,7 +250,7 @@
 		"visibility": "operation_type == Security",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56n'>Backup FAQs</a>, <a href='https://aka.ms/AB-Restore-Permissions'>Restore permissions</a> article",
-		"displayLabel": "Select one of the related question",
+		"displayLabel": "Select one of the related question:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "Which permissions are required to enable backup for a VM?",
@@ -266,14 +266,14 @@
 			  "required": false
 	},{
 		"id": "problem_start_time",
-		"order": 10,
+		"order": 11,
 		"visibility": "null",
 		"controlType": "datetimepicker",
 		"displayLabel": "When did the problem begin?",
 		"required": true
            },{
 		  "id": "problem_description",
-		  "order": 11,
+		  "order": 12,
 		  "controlType": "multilinetextbox",
 		  "useAsAdditionalDetails": true,
 		  "displayLabel": "Additional details",
