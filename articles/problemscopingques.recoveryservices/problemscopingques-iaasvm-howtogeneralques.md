@@ -98,9 +98,9 @@
           },{
                 "id": "restore_dropdown",
 		"order": 3,
-		"visibility": "issue_Type == Restore",
+		"visibility": "operation_type == Restore",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs </a>",
+		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>",
 		"displayLabel": "Select one of the related question",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -124,9 +124,9 @@
          },{
 		"id": "policy_dropdown",
 		"order": 4,
-		"visibility": "issue_Type == Policy",
+		"visibility": "operation_type == Policy",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Manage VM backups FAQ </a>",
+		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Manage VM backups FAQ</a>",
 		"displayLabel": "Select one of the related question",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -144,9 +144,9 @@
 	},{
 		"id": "Snapshots/Recovery Points",
 		"order": 5,
-		"visibility": "issue_Type == Snapshots/Recovery Points",
+		"visibility": "operation_type == Snapshots/Recovery Points",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Instant Restore FAQ </a>",
+		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Instant Restore FAQ</a>",
 		"displayLabel": "Select one of the related question",
 		"watermarkText": "Select",
 "dropdownOptions": [{
@@ -164,9 +164,9 @@
 	 },{
 		"id": "Limitations/Pre-requisites/(Not) Supported scenarios",
 		"order": 6,
-		"visibility": "issue_Type == Limitations/Pre-requisites/(Not) Supported scenarios",
+		"visibility": "operation_type == Limitations/Pre-requisites/(Not) Supported scenarios",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AA4evhu'>Prerequisites </a>, <a href='https://aka.ms/AB-AA4ecqa'>Support Matrix </a> for Azure VM backup",
+		"infoBalloonText": "Check <a href='https://aka.ms/AA4evhu'>Prerequisites</a>, <a href='https://aka.ms/AB-AA4ecqa'>Support Matrix</a> for Azure VM backup",
 		"displayLabel": "Select one of the related question",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -193,9 +193,9 @@
 	 },{
 		"id": "Backup/Restore_performance",
 		"order": 7,
-		"visibility": "issue_Type == Backup/Restore performance",
+		"visibility": "operation_type == Backup/Restore performance",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs </a>, <a href='https://aka.ms/AB-BackupRestoreConsid'>Backup and Restore consideration </a>, <a href='https://aka.ms/AB-AA4ecqb'>Backup performance </a>",
+		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>, <a href='https://aka.ms/AB-BackupRestoreConsid'>Backup and Restore consideration</a>, <a href='https://aka.ms/AB-AA4ecqb'>Backup performance</a>",
 		"displayLabel": "Select one of the related question",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -213,9 +213,9 @@
 	},{
 		"id": "Best_Practices",
 		"order": 8,
-		"visibility": "issue_Type == Best Practices",
+		"visibility": "operation_type == Best Practices",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56d'>Best Practices </a> for Azure VM backup",
+		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56d'>Best Practices</a> for Azure VM backup",
 		"displayLabel": "Select one of the related question",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -230,9 +230,9 @@
 		},{
 		"id": "Pricing",
 		"order": 9,
-		"visibility": "issue_Type == Pricing",
+		"visibility": "operation_type == Pricing",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-Costs'>Azure backup costs </a> article",
+		"infoBalloonText": "Check <a href='https://aka.ms/AB-Costs'>Azure backup costs</a> article",
 		"displayLabel": "Select one of the related question",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
@@ -247,9 +247,9 @@
 	},{
 		"id": "Security",
 		"order": 10,
-		"visibility": "issue_Type == Security",
+		"visibility": "operation_type == Security",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56n'>Backup FAQs </a>, <a href='https://aka.ms/AB-Restore-Permissions'>Restore permissions </a> article",
+		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56n'>Backup FAQs</a>, <a href='https://aka.ms/AB-Restore-Permissions'>Restore permissions</a> article",
 		"displayLabel": "Select one of the related question",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
