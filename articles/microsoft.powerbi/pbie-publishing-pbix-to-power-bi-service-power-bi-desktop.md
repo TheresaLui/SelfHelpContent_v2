@@ -15,6 +15,6 @@
 
 # Publish from Power BI Desktop
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Publish from Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-upload-desktop-files).<br>
+* [Publish from Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-upload-desktop-files)

@@ -15,6 +15,6 @@
 
 # Use custom data connectors with the On-premises data gateway
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Use custom data connectors with the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-custom-connectors).<br>
+* [Use custom data connectors with the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-custom-connectors)

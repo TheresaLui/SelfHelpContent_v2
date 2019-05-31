@@ -15,6 +15,6 @@
 
 # Find Power BI users that have signed in
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Find Power BI users that have signed in](https://docs.microsoft.com/power-bi/service-admin-access-usage).<br>
+* [Find Power BI users that have signed in](https://docs.microsoft.com/power-bi/service-admin-access-usage)

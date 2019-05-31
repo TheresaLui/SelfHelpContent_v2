@@ -15,6 +15,6 @@
 
 # Get started with the Power BI mobile app for Windows 10
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Get started with the Power BI mobile app for Windows 10](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-windows-10-phone-app-get-started).<br>
+* [Get started with the Power BI mobile app for Windows 10](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-windows-10-phone-app-get-started)

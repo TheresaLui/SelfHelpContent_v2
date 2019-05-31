@@ -15,6 +15,6 @@
 
 # Authorization Code Grant Flow
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Authorization Code Grant Flow](https://msdn.microsoft.com/library/azure/dn645542.aspx).<br>
+* [Authorization Code Grant Flow](https://msdn.microsoft.com/library/azure/dn645542.aspx)

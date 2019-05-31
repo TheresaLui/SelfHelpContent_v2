@@ -15,6 +15,6 @@
 
 # What is Power BI Premium?
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[What is Power BI Premium?](https://docs.microsoft.com/power-bi/service-premium).<br>
+* [What is Power BI Premium?](https://docs.microsoft.com/power-bi/service-premium)

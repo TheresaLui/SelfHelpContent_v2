@@ -15,6 +15,6 @@
 
 # Power BI pricing
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI pricing](https://powerbi.microsoft.com/pricing/).<br>
+* [Power BI pricing](https://powerbi.microsoft.com/pricing/)

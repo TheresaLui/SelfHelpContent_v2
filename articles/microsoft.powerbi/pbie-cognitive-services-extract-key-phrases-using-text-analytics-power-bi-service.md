@@ -15,6 +15,6 @@
 
 # Example: How to extract key phrases using Text Analytics
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Example: How to extract key phrases using Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction).<br>
+* [Example: How to extract key phrases using Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)

@@ -15,6 +15,6 @@
 
 # Power BI and ExpressRoute
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI and ExpressRoute](https://docs.microsoft.com/power-bi/service-admin-power-bi-expressroute).<br>
+* [Power BI and ExpressRoute](https://docs.microsoft.com/power-bi/service-admin-power-bi-expressroute)

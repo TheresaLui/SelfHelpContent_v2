@@ -15,6 +15,6 @@
 
 # Create and manage relationships in Power BI Desktop
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships).<br>
+* [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)

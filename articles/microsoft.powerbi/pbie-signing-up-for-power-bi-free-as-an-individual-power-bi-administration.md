@@ -15,6 +15,6 @@
 
 # Sign up for Power BI as an individual
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Sign up for Power BI as an individual](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi#in-service-power-bi-pro-60-day-trial).<br>
+* [Sign up for Power BI as an individual](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi#in-service-power-bi-pro-60-day-trial)

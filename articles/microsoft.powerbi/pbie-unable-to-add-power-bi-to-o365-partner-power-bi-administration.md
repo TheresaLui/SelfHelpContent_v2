@@ -15,6 +15,6 @@
 
 # Unable to add Power BI to Office 365 partner subscription
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Unable to add Power BI to Office 365 partner subscription](https://docs.microsoft.com/power-bi/service-admin-syndication-partner).<br>
+* [Unable to add Power BI to Office 365 partner subscription](https://docs.microsoft.com/power-bi/service-admin-syndication-partner)

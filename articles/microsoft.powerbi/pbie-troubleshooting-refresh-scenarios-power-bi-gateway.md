@@ -15,6 +15,6 @@
 
 # Troubleshooting refresh scenarios
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshooting refresh scenarios](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios).<br>
+* [Troubleshooting refresh scenarios](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios)

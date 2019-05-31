@@ -15,6 +15,6 @@
 
 # Embed with report web part in SharePoint Online
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Embed with report web part in SharePoint Online](https://docs.microsoft.com/power-bi/service-embed-report-spo).<br>
+* [Embed with report web part in SharePoint Online](https://docs.microsoft.com/power-bi/service-embed-report-spo)

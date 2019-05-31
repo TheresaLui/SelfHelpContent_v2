@@ -15,6 +15,6 @@
 
 # Administering Power BI in the admin portal
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Administering Power BI in the admin portal](https://docs.microsoft.com/power-bi/service-admin-portal).<br>
+* [Administering Power BI in the admin portal](https://docs.microsoft.com/power-bi/service-admin-portal)

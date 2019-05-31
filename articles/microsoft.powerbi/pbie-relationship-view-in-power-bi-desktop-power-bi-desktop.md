@@ -15,6 +15,6 @@
 
 # Relationship View in Power BI Desktop
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Relationship View in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-relationship-view).<br>
+* [Relationship View in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-relationship-view)

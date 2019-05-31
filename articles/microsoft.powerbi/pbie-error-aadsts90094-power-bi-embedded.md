@@ -15,6 +15,6 @@
 
 # AADSTS90094: The grant requires admin permission
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[AADSTS90094: The grant requires admin permission](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#aadsts90094-the-grant-requires-admin-permission).<br>
+* [AADSTS90094: The grant requires admin permission](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#aadsts90094-the-grant-requires-admin-permission)

@@ -15,6 +15,6 @@
 
 # Regression models
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Regression models](https://docs.microsoft.com/power-bi/service-machine-learning-automated#regression-models).<br>
+* [Regression models](https://docs.microsoft.com/power-bi/service-machine-learning-automated#regression-models)

@@ -15,6 +15,6 @@
 
 # Frequently asked questions about Power BI Embedded
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Frequently asked questions about Power BI Embedded](https://docs.microsoft.com/power-bi/developer/embedded-faq).<br>
+* [Frequently asked questions about Power BI Embedded](https://docs.microsoft.com/power-bi/developer/embedded-faq)

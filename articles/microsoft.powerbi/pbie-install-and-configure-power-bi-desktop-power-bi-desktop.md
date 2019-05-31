@@ -15,6 +15,6 @@
 
 # Get Power BI Desktop
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Get Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-get-the-desktop).<br>
+* [Get Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-get-the-desktop)

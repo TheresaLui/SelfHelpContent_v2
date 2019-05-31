@@ -15,6 +15,6 @@
 
 # Row-level security (RLS) with Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Row-level security (RLS) with Power BI](https://docs.microsoft.com/power-bi/service-admin-rls).<br>
+* [Row-level security (RLS) with Power BI](https://docs.microsoft.com/power-bi/service-admin-rls)

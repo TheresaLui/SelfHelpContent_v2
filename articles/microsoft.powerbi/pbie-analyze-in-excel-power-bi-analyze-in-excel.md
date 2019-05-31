@@ -15,6 +15,6 @@
 
 # Analyze in Excel
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Analyze in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel).<br>
+* [Analyze in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel)

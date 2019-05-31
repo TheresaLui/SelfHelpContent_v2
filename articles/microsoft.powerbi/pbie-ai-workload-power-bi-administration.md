@@ -15,6 +15,6 @@
 
 # Cognitive Services in Power BI (Preview)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Cognitive Services in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-cognitive-services#enabling-ai-features).<br>
+* [Cognitive Services in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-cognitive-services#enabling-ai-features)

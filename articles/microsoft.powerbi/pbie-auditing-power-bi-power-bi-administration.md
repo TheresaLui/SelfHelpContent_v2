@@ -15,6 +15,6 @@
 
 # Use auditing within your organization
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Use auditing within your organization](https://docs.microsoft.com/power-bi/service-admin-auditing).<br>
+* [Use auditing within your organization](https://docs.microsoft.com/power-bi/service-admin-auditing)

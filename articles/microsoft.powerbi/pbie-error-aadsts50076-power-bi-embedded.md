@@ -15,6 +15,6 @@
 
 # Scenario: App performing the on-behalf-of flow
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Scenario: App performing the on-behalf-of flow](https://docs.microsoft.com/azure/active-directory/develop/conditional-access-dev-guide#scenario-app-performing-the-on-behalf-of-flow).<br>
+* [Scenario: App performing the on-behalf-of flow](https://docs.microsoft.com/azure/active-directory/develop/conditional-access-dev-guide#scenario-app-performing-the-on-behalf-of-flow)

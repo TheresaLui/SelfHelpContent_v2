@@ -15,6 +15,6 @@
 
 # Power BI publisher for Excel
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI publisher for Excel](https://docs.microsoft.com/power-bi/publisher-for-excel).<br>
+* [Power BI publisher for Excel](https://docs.microsoft.com/power-bi/publisher-for-excel)

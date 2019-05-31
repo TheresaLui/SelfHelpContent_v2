@@ -15,6 +15,6 @@
 
 # Power Query M Reference
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power Query M Reference](https://msdn.microsoft.com/query-bi/m/power-query-m-reference).<br>
+* [Power Query M Reference](https://msdn.microsoft.com/query-bi/m/power-query-m-reference)

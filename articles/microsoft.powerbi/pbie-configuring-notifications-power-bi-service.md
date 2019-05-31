@@ -15,6 +15,6 @@
 
 # View Power BI notifications
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[View Power BI notifications](https://docs.microsoft.com/power-bi/consumer/end-user-notification-center).<br>
+* [View Power BI notifications](https://docs.microsoft.com/power-bi/consumer/end-user-notification-center)

@@ -15,6 +15,6 @@
 
 # Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).<br>
+* [Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)

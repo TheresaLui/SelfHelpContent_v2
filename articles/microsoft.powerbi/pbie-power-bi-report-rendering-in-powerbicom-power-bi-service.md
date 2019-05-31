@@ -1,6 +1,6 @@
   <properties
-	pageTitle="power bi report rendering in powerbi com"
-	description="power bi report rendering in powerbi com"
+	pageTitle="power bi report rendering in powerbi.com"
+	description="power bi report rendering in powerbi.com"
 	service="microsoft.PowerBIDedicated"
 	resource="capacities"
 	authors="pjfreitas"
@@ -15,6 +15,6 @@
 
 # Power BI Embedded performance best practices
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI Embedded performance best practices](https://docs.microsoft.com/power-bi/developer/embedded-performance-best-practices).<br>
+* [Power BI Embedded performance best practices](https://docs.microsoft.com/power-bi/developer/embedded-performance-best-practices)

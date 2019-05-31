@@ -15,6 +15,6 @@
 
 # Power BI Embedded migration tool
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI Embedded migration tool](https://docs.microsoft.com/power-bi/developer/migrate-tool).<br>
+* [Power BI Embedded migration tool](https://docs.microsoft.com/power-bi/developer/migrate-tool)

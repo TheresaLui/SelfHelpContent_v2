@@ -15,6 +15,6 @@
 
 # Publish to web from Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Publish to web from Power BI](https://docs.microsoft.com/power-bi/service-publish-to-web).<br>
+* [Publish to web from Power BI](https://docs.microsoft.com/power-bi/service-publish-to-web)

@@ -15,6 +15,6 @@
 
 # Configure workspace dataflow settings (Preview)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Configure workspace dataflow settings (Preview)](https://docs.microsoft.com/power-bi/service-dataflows-configure-workspace-storage-settings).<br>
+* [Configure workspace dataflow settings (Preview)](https://docs.microsoft.com/power-bi/service-dataflows-configure-workspace-storage-settings)

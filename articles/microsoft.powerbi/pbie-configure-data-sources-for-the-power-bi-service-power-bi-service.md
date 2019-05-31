@@ -15,6 +15,6 @@
 
 # Data sources for the Power BI service
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Data sources for the Power BI service](https://docs.microsoft.com/power-bi/service-get-data).<br>
+* [Data sources for the Power BI service](https://docs.microsoft.com/power-bi/service-get-data)

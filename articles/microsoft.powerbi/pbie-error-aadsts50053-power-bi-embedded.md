@@ -15,6 +15,6 @@
 
 # Authentication failed with AADSTS70002 or AADSTS50053
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Authentication failed with AADSTS70002 or AADSTS50053](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#authentication).<br>
+* [Authentication failed with AADSTS70002 or AADSTS50053](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#authentication)

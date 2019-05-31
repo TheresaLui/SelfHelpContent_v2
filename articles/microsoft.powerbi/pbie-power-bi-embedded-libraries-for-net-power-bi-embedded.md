@@ -15,6 +15,6 @@
 
 # Power BI Embedded libraries for .NET
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI Embedded libraries for .NET](https://docs.microsoft.com/dotnet/api/overview/azure/powerbi-embedded?view=azure-dotnet).<br>
+* [Power BI Embedded libraries for .NET](https://docs.microsoft.com/dotnet/api/overview/azure/powerbi-embedded?view=azure-dotnet)

@@ -15,6 +15,6 @@
 
 # Share a dashboard or report from the Power BI mobile apps
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Share a dashboard or report from the Power BI mobile apps](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-share-dashboard-from-the-mobile-apps).<br>
+* [Share a dashboard or report from the Power BI mobile apps](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-share-dashboard-from-the-mobile-apps)

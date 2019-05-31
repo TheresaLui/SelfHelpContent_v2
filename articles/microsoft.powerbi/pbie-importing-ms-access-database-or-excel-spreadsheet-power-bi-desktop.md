@@ -15,6 +15,6 @@
 
 # Resolve issues importing Access and .XLS files in Power BI Desktop
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Resolve issues importing Access and .XLS files in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-access-database-errors).<br>
+* [Resolve issues importing Access and .XLS files in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-access-database-errors)

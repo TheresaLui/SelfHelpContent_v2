@@ -15,6 +15,6 @@
 
 # Creating and using dataflows in Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Creating and using dataflows in Power BI](https://docs.microsoft.com/power-bi/service-dataflows-create-use).<br>
+* [Creating and using dataflows in Power BI](https://docs.microsoft.com/power-bi/service-dataflows-create-use)

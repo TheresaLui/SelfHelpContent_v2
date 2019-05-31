@@ -15,6 +15,6 @@
 
 # Install Power BI Desktop optimized for Power BI Report Server
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Install Power BI Desktop optimized for Power BI Report Server](https://docs.microsoft.com/power-bi/report-server/install-powerbi-desktop).<br>
+* [Install Power BI Desktop optimized for Power BI Report Server](https://docs.microsoft.com/power-bi/report-server/install-powerbi-desktop)

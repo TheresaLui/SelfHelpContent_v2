@@ -15,6 +15,6 @@
 
 # Customize visualization titles, legends, and backgrounds
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Customize visualization titles, legends, and backgrounds](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-customize-title-background-and-legend).<br>
+* [Customize visualization titles, legends, and backgrounds](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-customize-title-background-and-legend)

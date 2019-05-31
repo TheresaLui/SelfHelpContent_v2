@@ -1,6 +1,6 @@
   <properties
-	pageTitle="us government tenant whitelisting"
-	description="us government tenant whitelisting"
+	pageTitle="u.s. government tenant whitelisting"
+	description="u.s. government tenant whitelisting"
 	service="microsoft.PowerBIDedicated"
 	resource="capacities"
 	authors="pjfreitas"
@@ -15,6 +15,6 @@
 
 # Enroll your US Government organization in the Power BI service
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Enroll your US Government organization in the Power BI service](https://docs.microsoft.com/power-bi/service-govus-signup).<br>
+* [Enroll your US Government organization in the Power BI service](https://docs.microsoft.com/power-bi/service-govus-signup)

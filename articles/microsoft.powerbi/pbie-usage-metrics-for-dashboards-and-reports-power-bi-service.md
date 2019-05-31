@@ -15,6 +15,6 @@
 
 # Monitor usage metrics for Power BI dashboards and reports
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Monitor usage metrics for Power BI dashboards and reports](https://docs.microsoft.com/power-bi/service-usage-metrics).<br>
+* [Monitor usage metrics for Power BI dashboards and reports](https://docs.microsoft.com/power-bi/service-usage-metrics)

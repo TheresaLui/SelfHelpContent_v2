@@ -15,6 +15,6 @@
 
 # Manage your data source - Import/Scheduled Refresh
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Manage your data source - Import/Scheduled Refresh](https://docs.microsoft.com/power-bi/service-gateway-enterprise-manage-scheduled-refresh).<br>
+* [Manage your data source - Import/Scheduled Refresh](https://docs.microsoft.com/power-bi/service-gateway-enterprise-manage-scheduled-refresh)

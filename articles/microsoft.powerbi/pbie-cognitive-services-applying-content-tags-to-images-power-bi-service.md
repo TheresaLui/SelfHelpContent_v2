@@ -15,6 +15,6 @@
 
 # Applying content tags to images
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Applying content tags to images](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images).<br>
+* [Applying content tags to images](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)

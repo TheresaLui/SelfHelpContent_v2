@@ -15,6 +15,6 @@
 
 # Export a report from Power BI service to Desktop (Preview)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Export a report from Power BI service to Desktop (Preview)](https://docs.microsoft.com/power-bi/service-export-to-pbix).<br>
+* [Export a report from Power BI service to Desktop (Preview)](https://docs.microsoft.com/power-bi/service-export-to-pbix)

@@ -15,6 +15,6 @@
 
 # Generate data insights automatically with Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Generate data insights automatically with Power BI](https://docs.microsoft.com/power-bi/service-insights).<br>
+* [Generate data insights automatically with Power BI](https://docs.microsoft.com/power-bi/service-insights)

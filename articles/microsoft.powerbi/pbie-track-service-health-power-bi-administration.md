@@ -15,6 +15,6 @@
 
 # Track Power BI service health in Office 365
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Track Power BI service health in Office 365](https://docs.microsoft.com/power-bi/service-admin-health).<br>
+* [Track Power BI service health in Office 365](https://docs.microsoft.com/power-bi/service-admin-health)

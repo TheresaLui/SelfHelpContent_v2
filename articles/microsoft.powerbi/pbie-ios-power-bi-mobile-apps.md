@@ -15,6 +15,6 @@
 
 # Get started with the Power BI mobile app on iOS devices
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Get started with the Power BI mobile app on iOS devices](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-iphone-app-get-started).<br>
+* [Get started with the Power BI mobile app on iOS devices](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-iphone-app-get-started)

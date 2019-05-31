@@ -15,6 +15,6 @@
 
 # Share your Power BI dashboards and reports with coworkers and others
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).<br>
+* [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards)

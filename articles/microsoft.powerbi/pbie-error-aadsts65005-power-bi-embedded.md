@@ -15,6 +15,6 @@
 
 # AADSTS65005 error when you try to sign in to Microsoft Cloud services
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[AADSTS65005 error when you try to sign in to Microsoft Cloud services](https://support.microsoft.com/help/3124219/aadsts65005-error-when-you-try-to-sign-in-to-microsoft-cloud-services).<br>
+* [AADSTS65005 error when you try to sign in to Microsoft Cloud services](https://support.microsoft.com/help/3124219/aadsts65005-error-when-you-try-to-sign-in-to-microsoft-cloud-services)

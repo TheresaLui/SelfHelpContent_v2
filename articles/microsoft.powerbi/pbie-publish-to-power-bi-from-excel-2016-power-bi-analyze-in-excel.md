@@ -15,6 +15,6 @@
 
 # Publish to Power BI from Excel 2016
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Publish to Power BI from Excel 2016](https://docs.microsoft.com/power-bi/service-publish-from-excel).<br>
+* [Publish to Power BI from Excel 2016](https://docs.microsoft.com/power-bi/service-publish-from-excel)

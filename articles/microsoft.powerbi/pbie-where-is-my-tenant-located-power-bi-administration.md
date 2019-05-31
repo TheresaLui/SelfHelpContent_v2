@@ -15,6 +15,6 @@
 
 # Where is my Power BI tenant located?
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Where is my Power BI tenant located?](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located).<br>
+* [Where is my Power BI tenant located?](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located)

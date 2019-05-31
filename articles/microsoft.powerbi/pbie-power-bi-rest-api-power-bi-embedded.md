@@ -15,6 +15,6 @@
 
 # Power BI REST APIs
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/).<br>
+* [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)

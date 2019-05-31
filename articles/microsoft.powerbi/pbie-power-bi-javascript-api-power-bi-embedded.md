@@ -15,6 +15,6 @@
 
 # Introducing the new Power BI JavaScript API
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Introducing the new Power BI JavaScript API](https://powerbi.microsoft.com/blog/intro-pbi-js-api/).<br>
+* [Introducing the new Power BI JavaScript API](https://powerbi.microsoft.com/blog/intro-pbi-js-api/)

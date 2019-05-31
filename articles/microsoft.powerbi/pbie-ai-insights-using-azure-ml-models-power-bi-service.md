@@ -15,6 +15,6 @@
 
 # Tutorial: Invoke a Machine Learning Studio model in Power BI (Preview)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Tutorial: Invoke a Machine Learning Studio model in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-tutorial-invoke-machine-learning-model).<br>
+* [Tutorial: Invoke a Machine Learning Studio model in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-tutorial-invoke-machine-learning-model)

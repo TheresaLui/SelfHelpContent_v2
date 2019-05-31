@@ -15,6 +15,6 @@
 
 # Get started with the Power BI mobile app on Android devices
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Get started with the Power BI mobile app on Android devices](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-android-app-get-started).<br>
+* [Get started with the Power BI mobile app on Android devices](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-android-app-get-started)

@@ -15,6 +15,6 @@
 
 # Configure mobile apps with Microsoft Intune
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Configure mobile apps with Microsoft Intune](https://docs.microsoft.com/power-bi/service-admin-mobile-intune).<br>
+* [Configure mobile apps with Microsoft Intune](https://docs.microsoft.com/power-bi/service-admin-mobile-intune)

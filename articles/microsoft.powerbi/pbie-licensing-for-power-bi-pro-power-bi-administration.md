@@ -15,6 +15,6 @@
 
 # Power BI service features by license type
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI service features by license type](https://docs.microsoft.com/power-bi/service-features-license-type).<br>
+* [Power BI service features by license type](https://docs.microsoft.com/power-bi/service-features-license-type)

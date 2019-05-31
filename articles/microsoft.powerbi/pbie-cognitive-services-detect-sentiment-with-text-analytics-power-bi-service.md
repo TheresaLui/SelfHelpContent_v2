@@ -15,6 +15,6 @@
 
 # Example: How to detect sentiment with Text Analytics
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Example: How to detect sentiment with Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis).<br>
+* [Example: How to detect sentiment with Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)

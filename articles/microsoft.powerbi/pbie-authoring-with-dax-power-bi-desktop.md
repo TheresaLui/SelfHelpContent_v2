@@ -15,6 +15,6 @@
 
 # DAX basics in Power BI Desktop
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[DAX basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics).<br>
+* [DAX basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics)

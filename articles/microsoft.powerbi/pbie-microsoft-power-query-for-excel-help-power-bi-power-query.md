@@ -15,6 +15,6 @@
 
 # Microsoft Power Query for Excel Help
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Microsoft Power Query for Excel Help](https://support.office.com/article/microsoft-power-query-for-excel-help-2b433a85-ddfb-420b-9cda-fe0e60b82a94).<br>
+* [Microsoft Power Query for Excel Help](https://support.office.com/article/microsoft-power-query-for-excel-help-2b433a85-ddfb-420b-9cda-fe0e60b82a94)

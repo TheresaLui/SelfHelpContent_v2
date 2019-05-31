@@ -15,6 +15,6 @@
 
 # Code snippets for migrating content from Power BI Workspace Collection
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Code snippets for migrating content from Power BI Workspace Collection](https://docs.microsoft.com/power-bi/developer/migrate-code-snippets).<br>
+* [Code snippets for migrating content from Power BI Workspace Collection](https://docs.microsoft.com/power-bi/developer/migrate-code-snippets)

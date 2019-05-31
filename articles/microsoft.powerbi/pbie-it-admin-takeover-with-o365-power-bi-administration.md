@@ -15,6 +15,6 @@
 
 # Do an admin takeover in Office 365
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Do an admin takeover in Office 365](https://docs.microsoft.com/office365/admin/misc/become-the-admin?view=o365-worldwide).<br>
+* [Do an admin takeover in Office 365](https://docs.microsoft.com/office365/admin/misc/become-the-admin?view=o365-worldwide)

@@ -1,20 +1,20 @@
   <properties
-	pageTitle="advisory - how to migrate power bi workspace collection content to power bi embedded"
-	description="advisory - how to migrate power bi workspace collection content to power bi embedded"
+	pageTitle="sample - code snippets for migrating content from power bi workspace collection"
+	description="sample - code snippets for migrating content from power bi workspace collection"
 	service="microsoft.PowerBIDedicated"
 	resource="capacities"
 	authors="pjfreitas"
 	ms.author="pfreitas"	
-	displayOrder="720"
+	displayOrder="490"
 	selfHelpType="generic"
-	supportTopicIds="32628059"
+	supportTopicIds="32628149"
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
-	articleId="aa0a10b6-2411-05eb-4cf7-43562ea22b1f"
+	articleId="6375b31f-2dd9-3f57-771f-d98282de49db"
 />
 
-# How to migrate Power BI Workspace Collection content to Power BI Embedded
+# Code snippets for migrating content from Power BI Workspace Collection
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[How to migrate Power BI Workspace Collection content to Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded).<br>
+* [Code snippets for migrating content from Power BI Workspace Collection](https://docs.microsoft.com/power-bi/developer/migrate-code-snippets)

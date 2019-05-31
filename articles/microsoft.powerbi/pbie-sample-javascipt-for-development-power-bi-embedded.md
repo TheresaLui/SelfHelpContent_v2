@@ -15,6 +15,6 @@
 
 # JavaScript library for embedding Power BI into your apps.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[JavaScript library for embedding Power BI into your apps.](https://github.com/Microsoft/PowerBI-JavaScript).<br>
+* [JavaScript library for embedding Power BI into your apps.](https://github.com/Microsoft/PowerBI-JavaScript)

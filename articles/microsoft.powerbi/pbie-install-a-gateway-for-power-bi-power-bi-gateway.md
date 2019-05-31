@@ -15,6 +15,6 @@
 
 # Install a gateway for Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Install a gateway for Power BI](https://docs.microsoft.com/power-bi/service-gateway-install).<br>
+* [Install a gateway for Power BI](https://docs.microsoft.com/power-bi/service-gateway-install)

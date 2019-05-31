@@ -15,6 +15,6 @@
 
 # Authentication
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Authentication](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#authentication).<br>
+* [Authentication](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#authentication)

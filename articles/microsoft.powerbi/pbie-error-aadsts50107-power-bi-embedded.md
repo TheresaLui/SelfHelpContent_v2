@@ -15,6 +15,6 @@
 
 # AADSTS50107: Requested federation realm object 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[AADSTS50107: Requested federation realm object ](https://community.powerbi.com/t5/Service/AADSTS50107-Requested-federation-realm-object/td-p/424252).<br>
+* [AADSTS50107: Requested federation realm object ](https://community.powerbi.com/t5/Service/AADSTS50107-Requested-federation-realm-object/td-p/424252)

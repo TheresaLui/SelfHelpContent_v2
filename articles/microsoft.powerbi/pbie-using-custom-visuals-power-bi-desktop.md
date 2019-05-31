@@ -15,6 +15,6 @@
 
 # Custom visuals in Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Custom visuals in Power BI](https://docs.microsoft.com/power-bi/power-bi-custom-visuals).<br>
+* [Custom visuals in Power BI](https://docs.microsoft.com/power-bi/power-bi-custom-visuals)

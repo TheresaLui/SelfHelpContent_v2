@@ -15,6 +15,6 @@
 
 # Tutorial: Build a Machine Learning model in Power BI (Preview)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Tutorial: Build a Machine Learning model in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-tutorial-build-machine-learning-model).<br>
+* [Tutorial: Build a Machine Learning model in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-tutorial-build-machine-learning-model)

@@ -15,6 +15,6 @@
 
 # Get data from Excel workbook files
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Get data from Excel workbook files](https://docs.microsoft.com/power-bi/service-excel-workbook-files).<br>
+* [Get data from Excel workbook files](https://docs.microsoft.com/power-bi/service-excel-workbook-files)

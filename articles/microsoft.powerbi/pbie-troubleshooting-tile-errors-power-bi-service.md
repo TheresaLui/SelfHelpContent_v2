@@ -15,6 +15,6 @@
 
 # Troubleshooting tile errors
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshooting tile errors](https://docs.microsoft.com/power-bi/refresh-troubleshooting-tile-errors).<br>
+* [Troubleshooting tile errors](https://docs.microsoft.com/power-bi/refresh-troubleshooting-tile-errors)

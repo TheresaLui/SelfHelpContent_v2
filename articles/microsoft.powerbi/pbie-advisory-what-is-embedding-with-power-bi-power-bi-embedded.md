@@ -15,6 +15,6 @@
 
 # Embedded analytics with Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Embedded analytics with Power BI](https://docs.microsoft.com/power-bi/developer/embedding).<br>
+* [Embedded analytics with Power BI](https://docs.microsoft.com/power-bi/developer/embedding)

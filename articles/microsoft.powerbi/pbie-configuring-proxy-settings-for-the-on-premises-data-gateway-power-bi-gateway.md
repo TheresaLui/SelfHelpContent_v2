@@ -15,6 +15,6 @@
 
 # Configuring proxy settings for the On-premises data gateway
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Configuring proxy settings for the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-proxy).<br>
+* [Configuring proxy settings for the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-proxy)

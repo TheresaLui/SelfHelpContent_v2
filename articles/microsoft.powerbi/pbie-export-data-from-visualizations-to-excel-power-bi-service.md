@@ -15,6 +15,6 @@
 
 # Export data from visualizations
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Export data from visualizations](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).<br>
+* [Export data from visualizations](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data)

@@ -15,6 +15,6 @@
 
 # Data alerts in Power BI service
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Data alerts in Power BI service](https://docs.microsoft.com/power-bi/service-set-data-alerts).<br>
+* [Data alerts in Power BI service](https://docs.microsoft.com/power-bi/service-set-data-alerts)

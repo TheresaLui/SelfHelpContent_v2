@@ -15,6 +15,6 @@
 
 # Common query tasks in Power BI Desktop
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Common query tasks in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-common-query-tasks).<br>
+* [Common query tasks in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-common-query-tasks)

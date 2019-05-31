@@ -15,6 +15,6 @@
 
 # Row-level security with Power BI Embedded
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Row-level security with Power BI Embedded](https://docs.microsoft.com/power-bi/developer/embedded-row-level-security).<br>
+* [Row-level security with Power BI Embedded](https://docs.microsoft.com/power-bi/developer/embedded-row-level-security)

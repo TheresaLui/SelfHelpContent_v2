@@ -15,6 +15,6 @@
 
 # Import data from external data sources (Power Query)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Import data from external data sources (Power Query)](https://support.office.com/article/import-data-from-external-data-sources-power-query-be4330b3-5356-486c-a168-b68e9e616f5a).<br>
+* [Import data from external data sources (Power Query)](https://support.office.com/article/import-data-from-external-data-sources-power-query-be4330b3-5356-486c-a168-b68e9e616f5a)

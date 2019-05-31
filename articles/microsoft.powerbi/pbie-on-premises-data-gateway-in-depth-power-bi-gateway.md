@@ -15,6 +15,6 @@
 
 # On-premises data gateway in-depth
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[On-premises data gateway in-depth](https://docs.microsoft.com/power-bi/service-gateway-onprem-indepth).<br>
+* [On-premises data gateway in-depth](https://docs.microsoft.com/power-bi/service-gateway-onprem-indepth)

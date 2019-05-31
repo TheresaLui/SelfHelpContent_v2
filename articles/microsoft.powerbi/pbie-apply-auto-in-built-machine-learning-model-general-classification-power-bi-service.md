@@ -15,6 +15,6 @@
 
 # Classification models
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Classification models](https://docs.microsoft.com/power-bi/service-machine-learning-automated#classification-models).<br>
+* [Classification models](https://docs.microsoft.com/power-bi/service-machine-learning-automated#classification-models)

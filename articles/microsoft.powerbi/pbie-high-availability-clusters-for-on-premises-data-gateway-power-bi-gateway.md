@@ -15,6 +15,6 @@
 
 # High availability clusters for On-premises data gateway
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[High availability clusters for On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters).<br>
+* [High availability clusters for On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters)

@@ -15,6 +15,6 @@
 
 # What is Power BI Embedded in Azure?
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[What is Power BI Embedded in Azure?](https://docs.microsoft.com/power-bi/developer/azure-pbie-what-is-power-bi-embedded).<br>
+* [What is Power BI Embedded in Azure?](https://docs.microsoft.com/power-bi/developer/azure-pbie-what-is-power-bi-embedded)

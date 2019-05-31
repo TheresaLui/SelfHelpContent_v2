@@ -15,6 +15,6 @@
 
 # Using the Embed for your organization sample application
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Using the Embed for your organization sample application](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#using-the-embed-for-your-organization-sample-application).<br>
+* [Using the Embed for your organization sample application](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#using-the-embed-for-your-organization-sample-application)

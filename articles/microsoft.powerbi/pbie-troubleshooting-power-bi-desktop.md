@@ -15,6 +15,6 @@
 
 # Resolve Issues when Power BI Desktop will not launch
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Resolve Issues when Power BI Desktop will not launch](https://docs.microsoft.com/power-bi/desktop-error-launching-desktop).<br>
+* [Resolve Issues when Power BI Desktop will not launch](https://docs.microsoft.com/power-bi/desktop-error-launching-desktop)

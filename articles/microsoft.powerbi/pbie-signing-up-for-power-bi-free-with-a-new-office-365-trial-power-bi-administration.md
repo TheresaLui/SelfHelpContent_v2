@@ -15,6 +15,6 @@
 
 # Power BI licensing in your organization
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI licensing in your organization](https://docs.microsoft.com/power-bi/service-admin-service-free-in-your-organization#getting-free-licenses-via-add-subscription-within-office-365).<br>
+* [Power BI licensing in your organization](https://docs.microsoft.com/power-bi/service-admin-service-free-in-your-organization#getting-free-licenses-via-add-subscription-within-office-365)

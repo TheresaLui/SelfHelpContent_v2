@@ -15,6 +15,6 @@
 
 # Troubleshoot Power Query
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshoot Power Query](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-cds-newentity-troubleshooting-mashup).<br>
+* [Troubleshoot Power Query](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-cds-newentity-troubleshooting-mashup)

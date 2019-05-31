@@ -15,6 +15,6 @@
 
 # ArcGIS maps in Power BI service and Power BI Desktop by Esri
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[ArcGIS maps in Power BI service and Power BI Desktop by Esri](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-arcgis).<br>
+* [ArcGIS maps in Power BI service and Power BI Desktop by Esri](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-arcgis)

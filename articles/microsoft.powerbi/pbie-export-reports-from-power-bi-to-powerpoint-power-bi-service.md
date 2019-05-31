@@ -15,6 +15,6 @@
 
 # Export reports from Power BI to PowerPoint
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Export reports from Power BI to PowerPoint](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint).<br>
+* [Export reports from Power BI to PowerPoint](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint)

@@ -15,6 +15,6 @@
 
 # Power BI Security
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI Security](https://docs.microsoft.com/power-bi/service-admin-power-bi-security).<br>
+* [Power BI Security](https://docs.microsoft.com/power-bi/service-admin-power-bi-security)

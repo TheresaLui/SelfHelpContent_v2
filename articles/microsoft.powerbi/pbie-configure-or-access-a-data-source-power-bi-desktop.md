@@ -15,6 +15,6 @@
 
 # Data sources in Power BI Desktop
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Data sources in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources).<br>
+* [Data sources in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources)

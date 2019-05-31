@@ -15,6 +15,6 @@
 
 # Distribute Power BI content to external guest users with Azure AD B2B
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Distribute Power BI content to external guest users with Azure AD B2B](https://docs.microsoft.com/power-bi/service-admin-azure-ad-b2b).<br>
+* [Distribute Power BI content to external guest users with Azure AD B2B](https://docs.microsoft.com/power-bi/service-admin-azure-ad-b2b)

@@ -15,6 +15,6 @@
 
 # Binary Prediction Models
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Binary Prediction Models](https://docs.microsoft.com/power-bi/service-machine-learning-automated#binary-prediction-models).<br>
+* [Binary Prediction Models](https://docs.microsoft.com/power-bi/service-machine-learning-automated#binary-prediction-models)

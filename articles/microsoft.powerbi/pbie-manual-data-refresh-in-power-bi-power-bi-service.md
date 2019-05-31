@@ -15,6 +15,6 @@
 
 # Data refresh in Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Data refresh in Power BI](https://docs.microsoft.com/power-bi/refresh-data).<br>
+* [Data refresh in Power BI](https://docs.microsoft.com/power-bi/refresh-data)

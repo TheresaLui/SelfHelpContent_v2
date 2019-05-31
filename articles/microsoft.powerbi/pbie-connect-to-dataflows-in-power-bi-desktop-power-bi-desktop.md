@@ -15,6 +15,6 @@
 
 # Connect to data created by Power BI dataflows in Power BI Desktop (Beta)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Connect to data created by Power BI dataflows in Power BI Desktop (Beta)](https://docs.microsoft.com/power-bi/desktop-connect-dataflows).<br>
+* [Connect to data created by Power BI dataflows in Power BI Desktop (Beta)](https://docs.microsoft.com/power-bi/desktop-connect-dataflows)

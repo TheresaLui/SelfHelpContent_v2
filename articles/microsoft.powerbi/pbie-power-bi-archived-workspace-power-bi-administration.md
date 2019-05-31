@@ -15,6 +15,6 @@
 
 # Power BI Archived Workspace
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI Archived Workspace](https://docs.microsoft.com/power-bi/service-admin-power-bi-archived-workspace).<br>
+* [Power BI Archived Workspace](https://docs.microsoft.com/power-bi/service-admin-power-bi-archived-workspace)

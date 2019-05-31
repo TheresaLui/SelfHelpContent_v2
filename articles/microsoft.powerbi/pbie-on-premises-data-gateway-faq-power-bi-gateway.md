@@ -15,6 +15,6 @@
 
 # On-premises data gateway FAQ
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[On-premises data gateway FAQ](https://docs.microsoft.com/power-bi/service-gateway-onprem-faq).<br>
+* [On-premises data gateway FAQ](https://docs.microsoft.com/power-bi/service-gateway-onprem-faq)

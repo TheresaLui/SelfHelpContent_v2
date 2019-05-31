@@ -15,6 +15,6 @@
 
 # Troubleshoot your embedded application
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshoot your embedded application](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#app-registration).<br>
+* [Troubleshoot your embedded application](https://docs.microsoft.com/power-bi/developer/embedded-troubleshoot#app-registration)

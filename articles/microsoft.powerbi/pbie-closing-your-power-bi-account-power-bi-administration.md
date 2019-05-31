@@ -15,6 +15,6 @@
 
 # Close your Power BI account
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Close your Power BI account](https://docs.microsoft.com/power-bi/service-admin-closing-your-account).<br>
+* [Close your Power BI account](https://docs.microsoft.com/power-bi/service-admin-closing-your-account)

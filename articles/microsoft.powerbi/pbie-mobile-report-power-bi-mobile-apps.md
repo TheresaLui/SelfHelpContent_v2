@@ -15,6 +15,6 @@
 
 # Explore reports in the Power BI mobile apps
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Explore reports in the Power BI mobile apps](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-reports-in-the-mobile-apps).<br>
+* [Explore reports in the Power BI mobile apps](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-reports-in-the-mobile-apps)

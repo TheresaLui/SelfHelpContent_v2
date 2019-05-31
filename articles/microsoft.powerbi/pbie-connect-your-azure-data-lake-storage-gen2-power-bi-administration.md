@@ -15,6 +15,6 @@
 
 # Connect Azure Data Lake Storage Gen2 for dataflow storage (Preview)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Connect Azure Data Lake Storage Gen2 for dataflow storage (Preview)](https://docs.microsoft.com/power-bi/service-dataflows-connect-azure-data-lake-storage-gen2).<br>
+* [Connect Azure Data Lake Storage Gen2 for dataflow storage (Preview)](https://docs.microsoft.com/power-bi/service-dataflows-connect-azure-data-lake-storage-gen2)

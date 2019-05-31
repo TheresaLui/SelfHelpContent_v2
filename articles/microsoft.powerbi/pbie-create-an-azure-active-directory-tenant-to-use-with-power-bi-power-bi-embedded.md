@@ -15,6 +15,6 @@
 
 # Create an Azure Active Directory tenant to use with Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Create an Azure Active Directory tenant to use with Power BI](https://docs.microsoft.com/power-bi/developer/create-an-azure-active-directory-tenant).<br>
+* [Create an Azure Active Directory tenant to use with Power BI](https://docs.microsoft.com/power-bi/developer/create-an-azure-active-directory-tenant)

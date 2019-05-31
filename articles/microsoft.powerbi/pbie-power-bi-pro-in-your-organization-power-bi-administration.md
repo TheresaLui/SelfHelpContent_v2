@@ -15,6 +15,6 @@
 
 # Power BI licensing in your organization
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI licensing in your organization](https://docs.microsoft.com/power-bi/service-admin-power-bi-pro-in-your-organization).<br>
+* [Power BI licensing in your organization](https://docs.microsoft.com/power-bi/service-admin-power-bi-pro-in-your-organization)

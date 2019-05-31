@@ -15,6 +15,6 @@
 
 # Manage a Power BI on-premises gateway
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Manage a Power BI on-premises gateway](https://docs.microsoft.com/power-bi/service-gateway-manage).<br>
+* [Manage a Power BI on-premises gateway](https://docs.microsoft.com/power-bi/service-gateway-manage)

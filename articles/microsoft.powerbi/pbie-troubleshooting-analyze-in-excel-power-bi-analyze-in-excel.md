@@ -15,6 +15,6 @@
 
 # Troubleshooting Analyze in Excel
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshooting Analyze in Excel](https://docs.microsoft.com/power-bi/desktop-troubleshooting-analyze-in-excel).<br>
+* [Troubleshooting Analyze in Excel](https://docs.microsoft.com/power-bi/desktop-troubleshooting-analyze-in-excel)

@@ -15,6 +15,6 @@
 
 # Power BI performance best practices
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Power BI performance best practices](https://docs.microsoft.com/power-bi/power-bi-reports-performance).<br>
+* [Power BI performance best practices](https://docs.microsoft.com/power-bi/power-bi-reports-performance)

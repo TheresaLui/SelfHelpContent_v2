@@ -13,8 +13,8 @@
 	articleId="4969bae5-c43a-7e4c-6f4e-4a0e0868c695"
 />
 
-# Cognitive Services in Power BI (Preview) 
+# Cognitive Services in Power BI (Preview)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Cognitive Services in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-cognitive-services).<br>
+* [Cognitive Services in Power BI (Preview)](https://docs.microsoft.com/power-bi/service-cognitive-services)

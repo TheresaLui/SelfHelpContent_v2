@@ -15,6 +15,6 @@
 
 # A collection of Power BI samples for developer use
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[A collection of Power BI samples for developer use](https://github.com/Microsoft/PowerBI-developer-samples).<br>
+* [A collection of Power BI samples for developer use](https://github.com/Microsoft/PowerBI-developer-samples)

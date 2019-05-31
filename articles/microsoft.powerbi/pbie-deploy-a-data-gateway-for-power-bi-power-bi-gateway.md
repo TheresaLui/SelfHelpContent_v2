@@ -15,6 +15,6 @@
 
 # Guidance for deploying a data gateway for Power BI
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Guidance for deploying a data gateway for Power BI](https://docs.microsoft.com/power-bi/service-gateway-deployment-guidance).<br>
+* [Guidance for deploying a data gateway for Power BI](https://docs.microsoft.com/power-bi/service-gateway-deployment-guidance)
