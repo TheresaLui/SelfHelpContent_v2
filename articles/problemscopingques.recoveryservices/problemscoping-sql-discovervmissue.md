@@ -22,8 +22,8 @@
             "id": "machine_name",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Select the virtual machine running SQL",
-            "watermarkText": "Enter the name of the virtual machine running SQL",
+            "displayLabel": "Which machine is experiencing the problem?",
+            "watermarkText": "Select the virtual machine running SQL",
 	    "dynamicDropdownOptions": {
         "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
         "jTokenPath": "value",
