@@ -48,7 +48,7 @@ For determining sizes, use the following commmands:
 
 - For PowerShell, Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("<<insert-region>>")}`
 
-- For Azure CLI, Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name:<br>`az vm list-skus --location <<insert-region>> --size <<insert-size>> --output table`
+- For Azure CLI, Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region:<br>`az vm list-skus --location <<insert-region>> --output table`
 
 - For REST API, use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
 
