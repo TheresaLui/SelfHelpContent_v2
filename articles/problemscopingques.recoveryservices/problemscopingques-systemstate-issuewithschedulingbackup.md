@@ -2,29 +2,29 @@
          pageTitle="Scoping questions for Configuration - issues with scheduling backup"
          description="ScScoping questions for Configuration - issues with scheduling backup"
          authors="srinathvasireddy"
-		     ms.author="srinathv"
+         ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32594868"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		    articleId="bdb1bfbf-d4fc-4dba-aca7-33cecf8e881f"
+         articleId="bdb1bfbf-d4fc-4dba-aca7-33cecf8e881f"
 />
 # Questions for Configuration - issues with scheduling backup
 ---
 
 {
          "resourceRequired": false,
-		     "subscriptionRequired": false,
+         "subscriptionRequired": false,
          "title": "Issue with scheduling backup",
          "fileAttachmentHint": "",
          "formElements": [{
-						              "id": "issue_type",
+		          "id": "issue_type",
                           "order": 1,
                           "controlType": "dropdown",
-                 	  	    "displayLabel": "Which type of issue you are facing?",
+		          "displayLabel": "Which type of issue you are facing?",
                           "watermarkText": "Select",
-						              "dropdownOptions":[{
+		          "dropdownOptions":[{
                                       "value": "Unable to add items",
                                       "text": "Unable to add items"
                                     },{
@@ -33,13 +33,13 @@
                                     },{
                                       "value": "Unable to modify backup schedule",
                                       "text": "Unable to modify backup schedule"
-                                    },{	
+                                    },{
                                       "value": "Unable to modify retention policy",
                                       "text": "Unable to modify retention policy"
-                                    },{	
+                                    },{
                                       "value": "Unable to select files/folders for backup",
                                       "text": "Unable to select files/folders for backup"
-                                    },{	
+                                    },{
                                       "value": "Agent console hangs",
                                       "text": "Agent console hangs"
                                     },{
@@ -47,8 +47,8 @@
                                       "text": "Other, don't know or not applicable"
                                     }
                               ],
-						      "required": false
-						  },{
+		      "required": true
+	  },{
                           "id": "problem_start_time",
                           "order": 2,
                           "visibility": "null",
@@ -64,7 +64,8 @@
                           "watermarkText": "Provide additional information about your issue",
                           "required": true,
                           "hints": []
-						}
-		]
+		}
+		],
+"$schema": "SelfHelpContent"
 }
 ---
