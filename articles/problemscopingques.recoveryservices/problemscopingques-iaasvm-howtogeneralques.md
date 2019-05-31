@@ -282,5 +282,6 @@
 		  "hints": []
 		}
 	]
+"$schema": "SelfHelpContent"
 }
 ---
