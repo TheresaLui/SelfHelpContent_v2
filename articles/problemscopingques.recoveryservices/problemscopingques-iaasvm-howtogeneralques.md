@@ -22,7 +22,7 @@
 	      "visibility": "null",
               "order": 1,
               "controlType": "dropdown",
-              "displayLabel": "Select the type of operation that you have question about:",
+              "displayLabel": "Choose the topic that you have question about:",
               "watermarkText": "Select",
 	      "dropdownOptions":[{
 							"value": "Backup",
@@ -63,7 +63,7 @@
               "visibility": "operation_type == Backup",
               "controlType": "dropdown",
                "infoBalloonText": "Check <a href='https://aka.ms/AB-AA4ecq2'>Configure backup</a>, <a href='https://aka.ms/AB-AzureVM-OnDemandBackup'>On-demand backup</a>, <a href='https://aka.ms/AB-AA4e56t'>Backup of encrypted VM</a>, <a href='https://aka.ms/AB-AA4ecql'>Manage Azure VM backup</a>, <a href='https://aka.ms/AB-AA4e56n'> Azure VM backup FAQs</a>",
-              "displayLabel": "Select one of the related question:",
+              "displayLabel": "Choose an option that best describes your situation:",
               "watermarkText": "Select",
               "dropdownOptions": [{
                           "value": "How do I configure a scheduled backup?",
@@ -81,8 +81,8 @@
 			"value": "I have question about backup when VM is shut down",
 			"text": "I have question about backup when VM is shut down"
 		},{
-			"value": "How do I stop protection, but retain my backup data?",
-			"text": "How do I stop protection, but retain my backup data?"
+			"value": "How do I stop protection while retaining my backed up data?",
+			"text": "How do I stop protection while retaining my backed up data?"
 		},{
 			"value": "How do I stop protection and delete my backed up data?",
 			"text": "How do I stop protection and delete my backed up data?"
@@ -101,17 +101,17 @@
 		"visibility": "operation_type == Restore",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>",
-		"displayLabel": "Select one of the related question:",
+		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
-				  "value": "How do I decide whether to restore disks only or a full VM?",
-				  "text": "How do I decide whether to restore disks only or a full VM?"
+				  "value": "How do I decide between Restore Disks vs. Full VM restore?",
+				  "text": "How do I decide between Restore Disks vs. Full VM restore?	"
 			},{
 				"value": "How do I restore managed disk VM?",
 				"text": "How do I restore managed disk VM?"
 			},{
-				"value": "I have questions about restore VM to availability sets",
-				"text": "I have questions about restore VM to availability sets"
+				"value": "How do I restore VM to availability sets? ",
+				"text": "How do I restore VM to availability sets? "
 			},{
 				"value": "How do I restore a VM to a restore point before the VM was migrated to managed disks?",
 				"text": "How do I restore a VM to a restore point before the VM was migrated to managed disks?"
@@ -127,7 +127,7 @@
 		"visibility": "operation_type == Policy",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Manage VM backups FAQ</a>",
-		"displayLabel": "Select one of the related question:",
+		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "I have questions related to policy limit",
@@ -147,7 +147,7 @@
 		"visibility": "operation_type == Snapshots/Recovery Points",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-FAQ-InstantRestore'>Instant Restore FAQ</a>",
-		"displayLabel": "Select one of the related question:",
+		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 "dropdownOptions": [{
 			"value": "I have questions related to Snapshot",
@@ -166,8 +166,8 @@
 		"order": 6,
 		"visibility": "operation_type == Limitations/Pre-requisites/(Not) Supported scenarios",
 		"controlType": "dropdown",
-		"infoBalloonText": "Check <a href='https://aka.ms/AA4evhu'>Prerequisites</a>, <a href='https://aka.ms/AB-AA4ecqa'>Support Matrix</a> for Azure VM backup",
-		"displayLabel": "Select one of the related question:",
+		"infoBalloonText": "Check <a href='https://aka.ms/AA4evhu'>pre-requisites</a>, <a href='https://aka.ms/AB-AA4ecqa'>Support Matrix</a> for Azure VM backup",
+		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 			"value": "What Azure VMs can I back up using Azure Backup?",
@@ -182,8 +182,8 @@
 			"value": "I have questions about Azure VM Backup limitations ",
 			"text": "I have questions about Azure VM Backup limitations "
 		},{
-			  "value": "I have questions about Azure VM Backup Pre-requisites",
-			"text": "I have questions about Azure VM Backup Pre-requisites"
+			  "value": "I have questions about Azure VM Backup pre-requisites",
+			"text": "I have questions about Azure VM Backup pre-requisites"
 		},{
 			"value": "dont_know_answer",
 			"text": "Other, don't know or not applicable"
@@ -196,7 +196,7 @@
 		"visibility": "operation_type == Backup/Restore performance",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-Restore-FAQ'>Restore FAQs</a>, <a href='https://aka.ms/AB-BackupRestoreConsid'>Backup and Restore consideration</a>, <a href='https://aka.ms/AB-AA4ecqb'>Backup performance</a>",
-		"displayLabel": "Select one of the related question:",
+		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "I have questions about restore performance",
@@ -216,7 +216,7 @@
 		"visibility": "operation_type == Best Practices",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56d'>Best Practices</a> for Azure VM backup",
-		"displayLabel": "Select one of the related question:",
+		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "I have questions about VM backup best practices",
@@ -233,7 +233,7 @@
 		"visibility": "operation_type == Pricing",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-Costs'>Azure backup costs</a> article",
-		"displayLabel": "Select one of the related question:",
+		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
 					"value": "I have questions about backup cost",
@@ -250,14 +250,14 @@
 		"visibility": "operation_type == Security",
 		"controlType": "dropdown",
 		"infoBalloonText": "Check <a href='https://aka.ms/AB-AA4e56n'>Backup FAQs</a>, <a href='https://aka.ms/AB-Restore-Permissions'>Restore permissions</a> article",
-		"displayLabel": "Select one of the related question:",
+		"displayLabel": "Choose an option that best describes your situation:",
 		"watermarkText": "Select",
 		"dropdownOptions": [{
-					"value": "Which permissions are required to enable backup for a VM?",
-					"text": "Which permissions are required to enable backup for a VM?"
+					"value": "What permissions are required to enable VM backup?",
+					"text": "What permissions are required to enable VM backup?"
 				},{
-					"value": "Which permissions are required for restoration",
-					"text": "Which permissions are required for restoration"
+					"value": "What permissions are required for restore operation?",
+					"text": "What permissions are required for restore operation?"
 				},{
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
