@@ -23,4 +23,4 @@ We have identified that your backup operation failed due to unsupported disk con
 <!--/issueDescription-->
 
 ## **Recommended Document**
-To know more about the supported disk configuration refer this [article](https://docs.microsoft.com/en-us/azure/backup/backup-support-matrix-iaas#vm-storage-support).
+To know more about the supported disk configuration refer this [article](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support).
