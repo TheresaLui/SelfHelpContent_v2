@@ -13,6 +13,7 @@
 # Deploy a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "My desired region or VM size is unavailable",

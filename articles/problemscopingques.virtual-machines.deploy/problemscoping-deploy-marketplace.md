@@ -13,6 +13,7 @@
 # Deploy a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Troubleshoot Marketplace image deployment failures",

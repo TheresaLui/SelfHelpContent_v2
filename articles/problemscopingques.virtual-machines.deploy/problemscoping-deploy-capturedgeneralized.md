@@ -13,6 +13,7 @@
 # Deploy a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "I am unable to deploy a captured or generalized image",
