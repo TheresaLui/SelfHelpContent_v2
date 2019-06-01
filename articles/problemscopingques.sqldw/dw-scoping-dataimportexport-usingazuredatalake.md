@@ -13,25 +13,25 @@
 # Data Import, Export (ETL)/Using Azure Data Lake
 ---
 {
-	"resourceRequired": true,
-	"title": "Using Azure Data Lake",
-	"fileAttachmentHint": "",
-	"formElements": [
-		{
+    "resourceRequired": true,
+    "title": "Using Azure Data Lake",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
             "required": true
         },
-		{
-			"id": "dw_scoping_import_datalake_error",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "If an error was displayed, what was the error message?",
-			"required": false
-		},
-		{
+        {
+            "id": "dw_scoping_import_datalake_error",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "If an error was displayed, what was the error message?",
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
@@ -40,6 +40,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

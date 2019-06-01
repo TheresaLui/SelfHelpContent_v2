@@ -23,7 +23,8 @@
             "controlType": "datetimepicker",
             "displayLabel": "Start time of most recent occurrence",
             "required": true
-        },{
+        },
+        {
             "id": "perf_current",
             "order": 2,
             "controlType": "dropdown",
@@ -40,7 +41,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "perf_cpu_detect",
             "order": 3,
             "controlType": "multiselectdropdown",
@@ -57,7 +59,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "applications_on_vm",
             "order": 4,
             "controlType": "multiselectdropdown",
@@ -103,20 +106,22 @@
             "required": false
         },
         {
-  				"id": "perf_cpu_apps",
-  				"order": 5,
-  				"controlType": "multilinetextbox",
-  				"displayLabel": "List all processes/applications you have identified that cause the high CPU usage.",
-  				"useAsAdditionalDetails": false,
-  				"required": true
-				},{
-				"id": "problem_description",
-				"order": 6,
-				"controlType": "multilinetextbox",
-				"displayLabel": "Description",
-				"useAsAdditionalDetails": true,
-				"required": true
-				}
-    ]
+            "id": "perf_cpu_apps",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "List all processes/applications you have identified that cause the high CPU usage.",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

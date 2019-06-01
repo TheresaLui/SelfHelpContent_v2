@@ -7,7 +7,7 @@
 	authors="adoylemsft,kasparks,csand-msft"
 	ms.author="kasparks"
 	displayOrder=""
-	articleId="1b973a7c-438c-41ad-b40c-f25d9517fa1e"
+	articleId="538f013a-216a-4478-945d-5c73a3fea479"
 	selfHelpType="diagnoseandsolve"
 	productPesIds="15607"
 	cloudEnvironments="public"
@@ -17,51 +17,6 @@
 {
     "$schema": "SelfHelpContent",
     "commonProblems": [
-        {
-            "id": "Debug_failed_or_suspended_runbooks",
-            "title": "Debug failed or suspended runbooks",
-            "description": "My runbook debug failed and/or was suspended.",
-            "category": "Failed or Suspended Runbook",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "997f91eb-0384-4888-b926-4019b57664c2"
-        },
-        {
-            "id": "Find_runbook_samples",
-            "title": "Find runbook samples",
-            "description": "Where can I find runbook samples?",
-            "category": "Runbook Samples",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "35a05675-cc2c-487f-ba65-838a09aaf036"
-        },
-        {
-            "id": "Import_PowerShell_modules",
-            "title": "Import PowerShell modules",
-            "description": "How do I import PowerShell modules?",
-            "category": "PowerShell Modules",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "8094eae3-0350-42f0-979b-0e74ed2a6de6"
-        },
-        {
-            "id": "Schedule_Runbooks",
-            "title": "Schedule Runbooks",
-            "description": "How do I schedule runbooks?",
-            "category": "Schedule Runbooks",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "a994e56d-3ce5-435f-915f-d42690f4f231"
-        },
-        {
-            "id": "Set_up_Automation_to_authenticate_to_Azure",
-            "title": "Set up Automation to authenticate to Azure",
-            "description": "I would like to set up Automation to authenticate to Azure.",
-            "category": "Authentication Automation",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "ff7ff5c7-3314-448c-ad01-0d8809d2caef"
-        },
         {
             "id": "Problems_with_Run_As_accounts_and_authentication_in_runbooks",
             "title": "Problems with Run As accounts and authentication in runbooks",
@@ -74,7 +29,7 @@
         {
             "id": "Problems_enabling_or_using_Change_Tracking_and_Inventory",
             "title": "Problems enabling or using Change Tracking and Inventory",
-            "description": "I am experiencing issues enabling or using Change Tracking and Inventory.",
+           "description": "I am experiencing issues enabling or using Change Tracking and Inventory.",
             "category": "Change Tracking and Inventory",
             "searchTags": "",
             "supportTopicId": "",
@@ -92,7 +47,7 @@
         {
             "id": "Problems_working_with_hybrid_runbook_workers",
             "title": "Problems working with hybrid runbook workers",
-            "description": "I am experiencing issues working with hybrid runbook workers.",
+	    "description": "I am experiencing issues working with hybrid runbook workers.",
             "category": "Hybrid Runbook Workers",
             "searchTags": "",
             "supportTopicId": "",
@@ -110,7 +65,7 @@
         {
             "id": "Problems_with_runbook_jobs_that_fail_or_suspend",
             "title": "Problems with runbook jobs that fail or suspend",
-            "description": "My runbook jobs are failing and/or being suspended.",
+             "description": "My runbook jobs are failing and/or being suspended.",
             "category": "Failed or Suspended Runbook",
             "searchTags": "",
             "supportTopicId": "",

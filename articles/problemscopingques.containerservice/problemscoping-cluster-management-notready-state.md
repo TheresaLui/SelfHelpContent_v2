@@ -13,25 +13,27 @@
 # Cluster NotReady state
 ---
 {
-                "subscriptionRequired": true,
-                "resourceRequired": true,
-                "title": "Cluster NotReady state",
-                "fileAttachmentHint": "Attach the output of **kubectl describe nodes** and **kubectl get nodes -o wide**",
-                "formElements": [
-                 {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
-                },{
-                  "id": "problem_description",
-                  "order": 2,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  }
-                ]
+    "subscriptionRequired": true,
+    "resourceRequired": true,
+    "title": "Cluster NotReady state",
+    "fileAttachmentHint": "Attach the output of **kubectl describe nodes** and **kubectl get nodes -o wide**",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -14,87 +14,88 @@
 #Partner Center MPN benefits IUR requests
 ---
 {
-  "resourceRequired": true,
-  "subscriptionRequired": true,
-  "title": "MPN benefits IUR issue",
-  "fileAttachmentHint": "",
-  "formElements": [
-    {
-      "id": "mpn_benefit_program",
-      "order": 1,
-      "controlType": "dropdown",
-      "displayLabel": "What offer or program are you having issue with?",
-      "watermarkText": "Select offer/program type",
-      "dropdownOptions": [
+    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "title": "MPN benefits IUR issue",
+    "fileAttachmentHint": "",
+    "formElements": [
         {
-          "value": "MAPS",
-          "text": "MAPS"
+            "id": "mpn_benefit_program",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "What offer or program are you having issue with?",
+            "watermarkText": "Select offer/program type",
+            "dropdownOptions": [
+                {
+                    "value": "MAPS",
+                    "text": "MAPS"
+                },
+                {
+                    "value": "Silver",
+                    "text": "Silver"
+                },
+                {
+                    "value": "Gold",
+                    "text": "Gold"
+                },
+                {
+                    "value": "Azure expert MSP",
+                    "text": "Azure expert MSP"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                }
+            ],
+            "required": false
         },
         {
-          "value": "Silver",
-          "text": "Silver"
+            "id": "mpn_benefit_type",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "What type of benefit are you having problem with?",
+            "watermarkText": "Select benefit type",
+            "dropdownOptions": [
+                {
+                    "value": "Azure and Cloud products",
+                    "text": "Azure and Cloud products"
+                },
+                {
+                    "value": "Software products",
+                    "text": "Software products"
+                },
+                {
+                    "value": "Visual studio subscriptions",
+                    "text": "Visual studio subscriptions"
+                },
+                {
+                    "value": "Technical benefits",
+                    "text": "Technical benefits"
+                },
+                {
+                    "value": "Go to Market",
+                    "text": "Go to Market"
+                }
+            ],
+            "required": false
         },
         {
-          "value": "Gold",
-          "text": "Gold"
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Please provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         },
         {
-          "value": "Azure expert MSP",
-          "text": "Azure expert MSP"
-        },
-        {
-          "value": "Other",
-          "text": "Other"
+            "id": "problem_start_time",
+            "order": 4,
+            "controltype": "datetimepicker",
+            "displayLabel": "When did this issue start?",
+            "required": true
         }
-      ],
-      "required": false
-    },
-    {
-      "id": "mpn_benefit_type",
-      "order": 2,
-      "controlType": "dropdown",
-      "displayLabel": "What type of benefit are you having problem with?",
-      "watermarkText": "Select benefit type",
-      "dropdownOptions": [
-        {
-          "value": "Azure and Cloud products",
-          "text": "Azure and Cloud products"
-        },
-        {
-          "value": "Software products",
-          "text": "Software products"
-        },
-        {
-          "value": "Visual studio subscriptions",
-          "text": "Visual studio subscriptions"
-        },
-        {
-          "value": "Technical benefits",
-          "text": "Technical benefits"
-        },
-        {
-          "value": "Go to Market",
-          "text": "Go to Market"
-        }
-      ],
-      "required": false
-    },
-    {
-      "id": "problem_description",
-      "order": 3,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Details",
-      "watermarkText": "Please provide additional information about your issue",
-      "required": true,
-      "useAsAdditionalDetails": true
-    },
-    {
-      "id": "problem_start_time",
-      "order": 4,
-      "controltype": "datetimepicker",
-      "displayLabel": "When did this issue start?",
-      "required": true
-    }
-  ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

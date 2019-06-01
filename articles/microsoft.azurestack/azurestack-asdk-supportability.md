@@ -3,18 +3,18 @@
     description="Supportability statement and self-help content for ASDK"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors="alexsmithMSFT"
+    authors="alexsmithMSFT, v-miegge"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629172, 32629192"
+    supportTopicIds="32629192"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-	articleId="e3d249b3-e197-40b8-940f-37746ef01081"
+    articleId="e3d249b3-e197-40b8-940f-37746ef01081"
 />
 
-# Azure Stack Development Kit (ASDK) Support Statement 
+# ASDK - Azure Stack Development Kit Supportability
 
 Thank you for your interest in Azure Stack. As outlined in [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting), the Azure Stack Development Kit is offered as an **evaluation environment** with no support available through Microsoft Customer Support Services. Please understand that any support cases opened for ASDK will be redirected to the MSDN Forum and closed.
 
