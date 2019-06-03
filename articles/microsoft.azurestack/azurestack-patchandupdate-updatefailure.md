@@ -18,8 +18,6 @@
 
 ## **Recommended Steps**
 
-## **Recommended Documents**
-
 1. [Prepare for Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#prepare-for-azure-stack-update)
 1. [During Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#during-azure-stack-update)
 1. [After Azure Stack Update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#after-azure-stack-update)
