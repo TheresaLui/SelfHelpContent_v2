@@ -1,36 +1,19 @@
+
 <properties
-
-pageTitle="Office 365 solution"
-
-description="Office 365 solution"
-
-service="microsoft.operationalinsights"
-
-resource="workspaces"
-
-articleId="fc3be0f1-1a29-441e-8fd4-28bd8940493c"
-
-symptomID=""
-
-infoBubbleText=""
-
-authors="moshabi"
-
-ms.author="moshabi"
-
-displayorder=""
-
-selfHelpType="generic"
-
-supportTopicIds="32612433"
-
-resourceTags=""
-
-productPesIds="15725"
-
-cloudEnvironments="Public"
-
+    pageTitle="Office 365 solution"
+    description="Office 365 solution"
+    service="microsoft.operationalinsights"
+    resource="operationalinsightsaccounts"
+    authors="moshabi"
+    displayorder=""
+    selfHelpType="generic"
+    supportTopicIds="32536497"
+    resourceTags=""
+    productPesIds="15725"
+    cloudEnvironments="public"
+	articleId="fcfd10a1-34df-47aa-a9eb-989379a6bcdf"
 />
+
 
 # Office 365 Solution
 **I’ve tried to on board the office 365 solution without success**
