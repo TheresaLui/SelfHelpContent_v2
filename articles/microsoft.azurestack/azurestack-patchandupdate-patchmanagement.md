@@ -7,7 +7,7 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629180,32629240"
+    supportTopicIds="32629240"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
@@ -22,9 +22,9 @@ Customers with Azure Stack environments connected to the internet will automatic
 
 ## Azure Stack update activity checklist
 
-1. [Prepare for Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#prepare-for-azure-stack-update)
-1. [During Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#during-azure-stack-update)
-1. [After Azure Stack Update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#after-azure-stack-update)
+1. [Prepare for Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#prepare-for-azure-stack-update).
+1. [During Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#during-azure-stack-update).
+1. [After Azure Stack Update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#after-azure-stack-update).
 
 Check [Test-AzureStack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) and resolve any identified issues before resuming the failed update using steps to [resume Azure Stack update using PowerShell](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#resume-a-failed-update-operation).
 

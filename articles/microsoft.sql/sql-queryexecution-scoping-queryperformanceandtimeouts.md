@@ -38,7 +38,7 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Details of the issue.",
+            "displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
             "watermarkText": "Provide additional information about your query performance and timeouts.",
             "required": true
         }

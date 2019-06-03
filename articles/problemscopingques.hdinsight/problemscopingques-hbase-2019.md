@@ -25,12 +25,12 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
         {
             "id": "application_id",
             "order": 3,
@@ -87,6 +87,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/hbase/hbase-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

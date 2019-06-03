@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599860,32599906,32599907,32599908,32615224,32628014,32628013"
+    supportTopicIds="32599860,32615224,32628013"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -16,7 +16,7 @@
 
 # Troubleshoot Runbook Execution in Azure Automation
 
-Here are some common issues with executing runbooks in Azure Automation and how to address them.
+Here are some common issues with executing runbooks in Azure Automation and how to address them. Please note that Support will not write a new script for you based on your needs, but we will work with you to ensure your existing script executes correctly inside of Azure Automation. 
 
 ## **Recommended Steps**
 

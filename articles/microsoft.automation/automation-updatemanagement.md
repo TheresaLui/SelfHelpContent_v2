@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599861,32599864,32615228,32599903,32615227,32599924,32615229,32599936,32599937"
+    supportTopicIds="32599861,32599924"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
@@ -56,6 +56,15 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 ### **Machines update without an update deployment**
 
 * If machines are receiving updates without an update deployment, please see the note under ["Install Updates" of the Update Management overview document](https://docs.microsoft.com/azure/automation/automation-update-management#install-updates).
+
+### **I know updates are available, but they don't show as needed on my machines**
+
+* This often happens if machines are configured to get updates from WSUS/SCCM, but WSUS/SCCM have not approved the updates.
+* You can check if machines are configured for WSUS/SCCM by [cross-referencing the "UseWUServer" registry key to the registry keys in the "Configuring Automatic Updates by Editing the Registry" section of this document](https://support.microsoft.com/help/328010/how-to-configure-automatic-updates-by-using-group-policy-or-registry-s)
+
+### **Updates show as installed, but I can't find them on my machine**
+
+* Updates are often superceded by other updates. For more information, see ["Update is superseded" in the Windows Update Troubleshooting guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer)
 
 ### **Updating machines across different tenants**
 

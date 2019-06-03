@@ -42,7 +42,7 @@
                     "text": "Not specific to a blob container"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "blob_path",
@@ -67,6 +67,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

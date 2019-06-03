@@ -77,6 +77,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/storm/storm-landing'>Learn more</a> about commonly faced issues with using Storm on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
