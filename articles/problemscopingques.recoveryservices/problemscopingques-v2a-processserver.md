@@ -54,7 +54,7 @@
                     "text": "My process server CPU utilization or memory usage is high, free space is low"
                 }
             ],
-            "required": true
+            "required": false
         }, {
 			"id": "Basic_troubleshooting_multiselect",
 			"order": 4,
