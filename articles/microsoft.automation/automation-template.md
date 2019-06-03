@@ -9,7 +9,7 @@
     selfHelpType="generic"
     articleId=""
     diagnosticScenario=""
-    supportTopicIds="32641155"
+    supportTopicIds="32641155,32641156,32641157,32641158"
     productPesIds="15607"
     cloudEnvironments="public"
 />
