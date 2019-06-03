@@ -29,7 +29,7 @@ An Azure Availability Set is created on a specific hardware cluster based upon t
 
 We apologize for any inconvenience in not being able to use your desired VM size, but have a couple of options depending on your flexibility with SKU options for the availability set:
 
-- Choose a size that is included in your availability set.
+- Choose a size that is included in your availability set
 - Choose a size that is not included in your availability set. However, you must first deallocate all the VMs in the availability set. This is because Azure must deallocate all the VMs in the availability set to reconfigure it to support the new size.<br>
 
 For PowerShell examples to determine VM sizes in availability sets and to resize a VM, see [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm).<br> 
