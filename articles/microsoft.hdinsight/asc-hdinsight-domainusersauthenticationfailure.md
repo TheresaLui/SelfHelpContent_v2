@@ -20,8 +20,6 @@
 
 There is a problem with the on-premises Active Directory instance for your HDInsight cluster. <br>
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-Please follow the instructions given in this link
-
-[Azure Active Directory Domain Services](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-architecture#set-up-different-domain-controllers)
+* [Azure Active Directory Domain Services](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-architecture#set-up-different-domain-controllers)
