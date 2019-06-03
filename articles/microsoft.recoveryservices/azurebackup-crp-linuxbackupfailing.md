@@ -5,7 +5,7 @@
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="1"
+	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32637320"
 	resourceTags="linux"
