@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-The recommended way to import your Office management logs from Office 365 to Log Analytics in public Azure enviroment , is by using the [Office 365 connector](https://docs.microsoft.com/azure/sentinel/connect-office-365) in Microsoft’s new Azure Sentinel SIEM solution. This solution provides a better experience for collecting SharePoint and Exchange logs. To connect Azure AD logs, use the [Azure Sentinel Azure AD connector](https://docs.microsoft.com/azure/sentinel/connect-azure-active-directory), which provides richer log data than the Office 365 management logs. 
+The recommended way to import your Office management logs from Office 365 to Log Analytics in public Azure environment , is by using the [Office 365 connector](https://docs.microsoft.com/azure/sentinel/connect-office-365) in Microsoft’s new Azure Sentinel SIEM solution. This solution provides a better experience for collecting SharePoint and Exchange logs. To connect Azure AD logs, use the [Azure Sentinel Azure AD connector](https://docs.microsoft.com/azure/sentinel/connect-azure-active-directory), which provides richer log data than the Office 365 management logs. 
 
 ## **Recommended Documents**
 
