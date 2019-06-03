@@ -1,14 +1,35 @@
+<properties
+
+pageTitle="Office 365 solution"
+
+description="Office 365 solution"
+
+service="microsoft.operationalinsights"
+
+resource="workspaces"
+
 articleId="fc3be0f1-1a29-441e-8fd4-28bd8940493c"
+
 symptomID=""
+
 infoBubbleText=""
+
 authors="moshabi"
+
 ms.author="moshabi"
+
 displayorder=""
+
 selfHelpType="generic"
-supportTopicIds="32612494"
+
+supportTopicIds="32612433"
+
 resourceTags=""
+
 productPesIds="15725"
+
 cloudEnvironments="Public"
+
 />
 
 # Office 365 Solution
