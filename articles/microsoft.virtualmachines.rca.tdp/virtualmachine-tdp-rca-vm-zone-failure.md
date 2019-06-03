@@ -50,7 +50,7 @@ For determining sizes:
 For resizing:
 
 - [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) for a conceptual overview on working with VM sizes, availability sets, availability zones, and regions.
-- [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set) for to resize a VM for an availability set using PowerShell.<br>
+- [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set) to resize a VM that's not in an availability set using PowerShell.<br>
 
 
 
