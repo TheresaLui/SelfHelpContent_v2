@@ -38,7 +38,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 3,
             "controlType": "multiselectdropdown",
-			      "infoBalloonText": "Check scheduled backup job failures <a href='https://aka.ms/AB-MABS-ScheduledBackupNotRun'>Troubleshooting</a> article",
+	    "infoBalloonText": "Check scheduled backup job failures <a href='https://aka.ms/AB-MABS-ScheduledBackupNotRun'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {
@@ -61,15 +61,15 @@
                     "value": "Machine has Internet connectivity",
                     "text": "Machine has Internet connectivity"
                 },
-				        {
+		{
                     "value": "Firewall settings on the machine/proxy are configured to allow the required URLs",
                     "text": "Firewall settings on the machine/proxy are configured to allow the required URLs"
                 },
                 {
                     "value": "Ensure that ad-hoc backup is working",
                     "text": "Ensure that ad-hoc backup is working"
-                },	
-				        {
+                },
+		{
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
