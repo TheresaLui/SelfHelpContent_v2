@@ -14,6 +14,7 @@
 # PC Sample
 ---
 {
+    "$schema": "SelfHelpContent",
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Tax Withholding",
@@ -23,7 +24,8 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please describe your issue",
+            "displayLabel": "Please provide additional information about your issue",
+            "useAsAdditionalDetails": true,
             "required": true
         },
               {
