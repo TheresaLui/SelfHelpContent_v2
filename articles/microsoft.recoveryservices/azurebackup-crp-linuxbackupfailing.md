@@ -8,25 +8,15 @@
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds="32637320"
-	resourceTags="windows"
-	productPesIds="14749"
+	resourceTags="linux"
+	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
 	articleId="f82b1ed9-9c4b-4061-93af-3e54d91e3426"
 />
 
-# Backup of Azure Virtual Machine fails
+# Azure Backup - Backup is failing for my VM
 
 ## **Recommended Steps**
-
-### For Linux backup failure
-
-- [Ensure your Windows VM agent is up to date before troubleshooting further](https://aka.ms/AB-AA4ecqu) <br>
-- [Ensure there is connectivity between VM and Azure Storage endpoints](https://aka.ms/AB-AA4ecqj) <br>
-- [For Snapshot extension issues, uninstall extensions to force reload & retry backup](https://aka.ms/AB-AA4e56b) <br>
-- [OS Versions older than Windows Server 2008 R2 are not supported for Backup](https://aka.ms/AA4evhu)
-
-### For Windows backup failure
-
 - [Ensure your Linux VM agent is up to date before troubleshooting further](https://aka.ms/AB-AA4ecq9)<br>
 - [Ensure there is connectivity between VM and Azure Storage endpoints](https://aka.ms/AB-AA4ecqy)<br>
 - [If your Linux OS/Kernel version is not listed here, then it is not supported](https://aka.ms/AB-AA4ecr1)<br>
