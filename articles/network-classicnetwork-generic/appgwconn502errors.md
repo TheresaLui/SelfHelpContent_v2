@@ -18,12 +18,13 @@
 
 502 Bad Gateway error can happen due to various reasons. Most commonly, it could be one of the following:
 
-* Backend servers failing to respond to health probes
+* Backend servers failing to respond to health probes or response status code or body mismatch from what is configured
+* Certificate mismatch for End-to-End SSL scenario, which may lead to probe failures
 * Backend servers timing out for requests sent from Application Gateway
 * Request being sent to an empty backend pool
 * A basic rule has been listed on top of the multi-site rules which catches all the requests and routes them to unintended backend pool
 
-You can troubleshoot the issue using the guidance provided in the documentation below.
+You can troubleshoot the issue using the [guided troubleshooting document](https://support.microsoft.com/en-in/help/4504111/azure-application-gateway-with-bad-gateway-502-errors) or going through the recommended documentation for more details.
 
 ## **Recommended Documents**
 
