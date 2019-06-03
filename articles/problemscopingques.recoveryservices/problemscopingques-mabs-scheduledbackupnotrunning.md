@@ -2,19 +2,19 @@
          pageTitle="Scoping questions for MABS scheduled backup is not run automatically"
          description="Scoping questions for MABS scheduled backup is not run automatically"
          authors="srinathv"
-		 ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632805"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		 articleId="6c1b6a4b-e827-47f6-bfa8-556ae26e6ad8"
+	 articleId="6c1b6a4b-e827-47f6-bfa8-556ae26e6ad8"
 />
 # Questions MABS scheduled backup is not run automatically
 ---
 {
     "resourceRequired": false,
-	  "subscriptionRequired": false,
+    "subscriptionRequired": false,
     "title": "MABS scheduled backup is not run automatically",
     "fileAttachmentHint": "",
     "formElements": [
@@ -22,7 +22,7 @@
             "id": "os_version",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "What is the OS version of the Azure Backup server",
+            "displayLabel": "What is the OS version of the machine where Azure Backup server is installed?",
             "watermarkText": "ex. Windows 2012 R2",
             "required": false
         },
