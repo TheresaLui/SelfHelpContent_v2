@@ -54,7 +54,7 @@
 			"id": "Basic_troubleshooting_multiselect",
 			"order": 3,
 			"controlType": "multiselectdropdown",
-			"displayLabel": "Select the articles that you have read",
+			"displayLabel": "Select the articles that you have read:",
 			"dropdownOptions": [{
 					"value": "Common questions - VMware to Azure replication",
 					"text": "Common questions - VMware to Azure replication"
@@ -75,7 +75,7 @@
 			"required": false
 		}, {
 			"id": "problem_description",
-			"order": 5,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
