@@ -35,7 +35,7 @@
         {
             "id": "application_name",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Application Name",
             "watermarkText": "Provide the name of the application.",
             "required": false

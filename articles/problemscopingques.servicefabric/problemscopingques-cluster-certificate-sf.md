@@ -4,7 +4,7 @@
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32608932, 32608942, 32608944, 32608943, 32608957"
+	supportTopicIds="32608942, 32608944, 32608943, 32608957"
 	productPesIds="15842"
 	cloudEnvironments="public"
 	schemaVersion="1"

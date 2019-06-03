@@ -35,7 +35,7 @@
         {
             "id": "application_name",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Application Name",
             "watermarkText": "Provide the name of the application.",
             "required": false
@@ -44,24 +44,24 @@
             "id": "register_or_copy_error",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Did any errors occur during execution of Copy-ServiceFabricApplicationPackage or Register-ServiceFabricApplicationType?",
+            "displayLabel": "Did any errors occur during the copy or registering operations while deploying the application?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
-                "value": "yes",
-                "text": "yes"
+                "value": "Yes",
+                "text": "Yes"
             },
             {
-                "value": "no",
-                "text": "no"
+                "value": "No",
+                "text": "No"
             }],
             "required": false
         },
         {
             "id": "error_timestamp",
             "order": 5,
-            "visibility": "register_or_copy_error == yes"
+            "visibility": "register_or_copy_error == Yes",
             "controlType": "datetimepicker",
-            "displayLabel: "What time was the deployment?",
+            "displayLabel": "What time was the deployment?",
             "required": false
         }
 	],

@@ -4,7 +4,7 @@
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32608939"
+	supportTopicIds="32608950"
 	productPesIds="15842"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -15,7 +15,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Application Upgrade",
+    "title": "Application Errors and Exceptions",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -35,7 +35,7 @@
         {
             "id": "application_name",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Application Name",
             "watermarkText": "Provide the name of the application.",
             "required": false

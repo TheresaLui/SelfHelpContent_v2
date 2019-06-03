@@ -8,14 +8,14 @@
 	productPesIds="15842"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-application-sf"
+	articleId="problemscopingques-performance-sf"
 />
 # Performance
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Application Deployment",
+    "title": "Application Performance",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -35,7 +35,7 @@
         {
             "id": "application_name",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Application Name",
             "watermarkText": "Provide the name of the application that this is related to.",
             "required": false
@@ -43,7 +43,7 @@
         {
             "id": "partition_id",
             "order": 4,
-            "controlType: "multilinebox",
+            "controlType": "multilinetextbox",
             "displayLabel": "PartitionId(s)",
             "watermarkText": "What PartitionId(s) are you seeing the warning on?",
             "required": false
@@ -51,7 +51,7 @@
         {
             "id": "node_names",
             "order": 5,
-            "controlType: "multilinebox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Nodes",
             "watermarkText": "Which nodes are the warnings coming from?",
             "required": false

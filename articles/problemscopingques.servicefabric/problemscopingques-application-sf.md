@@ -15,7 +15,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Application Deployment",
+    "title": "Application",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -35,7 +35,7 @@
         {
             "id": "application_name",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Application Name",
             "watermarkText": "Provide the name of the application.",
             "required": false

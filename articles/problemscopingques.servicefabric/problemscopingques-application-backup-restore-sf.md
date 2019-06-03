@@ -15,7 +15,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Application Deployment",
+    "title": "Application Backup and Restore",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -35,7 +35,7 @@
         {
             "id": "application_name",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Application Name",
             "watermarkText": "Provide the name of the application.",
             "required": false
@@ -47,12 +47,12 @@
             "displayLabel": "Are you using the Backup and Restore API or the periodic Backup and Restore service?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
-                "value": "yes",
-                "text": "yes"
+                "value": "Yes",
+                "text": "Yes"
             },
             {
-                "value": "no",
-                "text": "no"
+                "value": "No",
+                "text": "No"
             }],
             "required": false
         }
