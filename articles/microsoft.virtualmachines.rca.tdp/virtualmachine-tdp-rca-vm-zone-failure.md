@@ -27,7 +27,7 @@ The Azure Availability Zone did not have enough capacity to allocate the VM. Ava
 
 Try the deployment again as the issue may have been temporary and there are now sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
 
-- Redeploy the VM to a new node in Azure.
+- Redeploy the VM to a new node in the existing availability zone.
 - Resize the VM to a size that is currently available in your region. If you are using an older VM product, consider newer versions.
 - Deploy a new VM to another availability zone in the region.
 - Deploy a new VM in an Azure Availability Set.<br>
@@ -49,8 +49,9 @@ For determining sizes:
 
 For resizing:
 
-- [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) for considerations on working with VM sizes, availability sets, availability zones, and regions.
-- [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) for to resize a VM for an availability set using PowerShell.<br>
+- [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) for a conceptual overview on working with VM sizes, availability sets, availability zones, and regions.
+- [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set) for to resize a VM for an availability set using PowerShell.<br>
+
 
 
 
