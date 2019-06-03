@@ -145,15 +145,15 @@
             "content": "Most of the initial replication issues get resolved using our troubleshooting article, Try these <a href='https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#initial-replication-issues'> troubleshooting steps</a> to self-resolve the issue."
         },
         {
-            "id": "problem_description",
-            "order": 10,
-            "visibility": "null",
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details:",
-            "watermarkText": "Paste error message(s), error code(s) and describe the scenario(s) that are failing.",
-            "required": true,
-            "useAsAdditionalDetails": true
-        }
+			"id": "problem_description",
+			"order": 10,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
+			"useAsAdditionalDetails": true,
+			"hints": []
+		}
     ],
     "$schema": "SelfHelpContent"
 }
