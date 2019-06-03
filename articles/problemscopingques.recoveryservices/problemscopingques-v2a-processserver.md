@@ -1,19 +1,18 @@
 <properties
-	pageTitle="Scoping questions for process server deployment and issues"
-	description="Scoping questions for process server deployment and issues"
-	authors="TobyTu"
-	ms.author="aaronmax"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630515"
-	productPesIds="16370"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="2b342a85-2019-4b4d-b7d0-43639892e013"
+    pageTitle="Scoping questions for process server deployment and issues"
+    description="Scoping questions for process server deployment and issues"
+    authors="TobyTu"
+    ms.author="aaronmax"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32536429"
+    productPesIds="16370"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="2b342a85-2019-4b4d-b7d0-43639892e013"
 />
 # Questions Process Server Deployment and Issues
 ---
 {
-  "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
 	"title": "Process Server Deployment and Issues",
@@ -87,13 +86,9 @@
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Issue description."
-				}, {
-					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
-				}
-			]
+			"hints": []
 		}
-	]
+	],
+  "$schema": "SelfHelpContent"
 }
 ---

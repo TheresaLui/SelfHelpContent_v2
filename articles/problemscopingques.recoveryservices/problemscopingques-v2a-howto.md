@@ -1,34 +1,33 @@
 <properties
-	pageTitle="Scoping questions for how to and general issues"
-	description="Scoping questions for how to and general issues"
-	authors="TobyTu"
-	ms.author="aaronmax"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630515"
-	productPesIds="16370"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="2b342a85-2019-4l4f-b7d0-43639892e013"
+    pageTitle="Scoping questions for how to and general issues"
+    description="Scoping questions for how to and general issues"
+    authors="TobyTu"
+    ms.author="aaronmax"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32630515"
+    productPesIds="16370"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="2b342a85-2019-4l4f-b7d0-43639892e013"
 />
+
 # Questions How-To and General Issues
 ---
 {
-  "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
-	"title": "How-To and General Issues",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "Select_Question",
-			"order": 1,
-			"controlType": "dropdown",
-			"infoBalloonText": "string",
-			"displayLabel": "I have a question about?",
-			"watermarkText": "Choose a question",
-			"dropdownOptions": [{
-					"value": "Protection of application",
-					"text": "Protection of application"
-				}, {
+  "title": "How-To and General Issues",
+  "fileAttachmentHint": "",
+  "formElements": [{
+            "id": "Select_Question",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "I have a question about:",
+            "watermarkText": "Choose a question",
+            "dropdownOptions":[{
+                    "value": "Protection of application",
+                    "text": "Protection of application"
+                }, {
 					"value": "Migration of an application",
 					"text": "Migration of an application"
 				}, {
@@ -83,13 +82,9 @@
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Issue description."
-				}, {
-					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
-				}
-			]
+			"hints": []
 		}
-	]
+	],
+  "$schema": "SelfHelpContent"
 }
 ---
