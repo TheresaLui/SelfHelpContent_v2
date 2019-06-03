@@ -33,26 +33,40 @@
             "required": true
         },
         {
-            "id": "recover_all_accounts",
+            "id": "recovery_type",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Do you want to recover all storage accounts in this resource group?",
+            "displayLabel": "Do you want us to attempt to recover storage accounts in this resource group?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "yes",
-                    "text": "Yes"
+                    "text": "Yes, attempt to recover all storage accounts in resource group above"
+                },
+                {
+                    "value": "some_accounts",
+                    "text": "Only attempt to recover some storage accounts in resource group above"
                 },
                 {
                     "value": "no",
-                    "text": "No"
+                    "text": "No, I do not want to recover any storage accounts"
                 },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "storage_accounts",
+            "order": 4,
+            "visibility": "recovery_type == some_accounts",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Name of storage accounts to recover",
+            "watermarkText": "accountname1;accountname2;accountname3",
+            "required": false
         },
         {
             "id": "problem_start_time",
