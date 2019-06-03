@@ -24,7 +24,7 @@
 * Request being sent to an empty backend pool
 * A basic rule has been listed on top of the multi-site rules which catches all the requests and routes them to unintended backend pool
 
-You can troubleshoot the issue using the [guided troubleshooting document](https://support.microsoft.com/en-in/help/4504111/azure-application-gateway-with-bad-gateway-502-errors) or going through the recommended documentation for more details.
+You can troubleshoot the issue using the [guided troubleshooting document](https://support.microsoft.com/help/4504111/azure-application-gateway-with-bad-gateway-502-errors) or going through the recommended documentation for more details.
 
 ## **Recommended Documents**
 
