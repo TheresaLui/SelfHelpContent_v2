@@ -50,12 +50,13 @@
         },
         {
             "id": "node_names",
-            "order": 4,
+            "order": 5,
             "controlType: "multilinebox",
             "displayLabel": "Nodes",
             "watermarkText": "Which nodes are the warnings coming from?",
             "required": false
         }
-	]
+	],
+    "$schema": "SelfHelpContent"
 }
 ---

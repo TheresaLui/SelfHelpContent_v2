@@ -64,6 +64,7 @@
             "displayLabel: "What time was the deployment?",
             "required": false
         }
-	]
+	],
+    "$schema": "SelfHelpContent"
 }
 ---

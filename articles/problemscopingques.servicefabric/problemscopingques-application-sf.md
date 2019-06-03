@@ -40,6 +40,7 @@
             "watermarkText": "Provide the name of the application.",
             "required": false
         }
-	]
+	],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -71,6 +71,7 @@
             "watermarkText": "If you are replacing an old certificate with a new one, please specify the thumbprint of both certificates.",
             "required": false
         }
-	]
+	],
+    "$schema": "SelfHelpContent"
 }
 ---

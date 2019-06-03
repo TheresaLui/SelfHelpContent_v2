@@ -56,6 +56,7 @@
             }],
             "required": false
         }
-	]
+	],
+    "$schema": "SelfHelpContent"
 }
 ---

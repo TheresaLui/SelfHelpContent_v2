@@ -48,6 +48,7 @@
             "watermarkText": "What is the exact error or exception message?",
             "required": false
         }
-	]
+	],
+    "$schema": "SelfHelpContent"
 }
 ---

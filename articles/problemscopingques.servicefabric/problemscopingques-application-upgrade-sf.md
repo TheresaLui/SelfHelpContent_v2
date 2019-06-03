@@ -48,6 +48,7 @@
             "watermarkText": "Using the cmdlet Get-ServiceFabricApplicationUpgrade do you see any FailureReason or any safety checks in the UpgradeDomainProgressAtFailure?",
             "required": false
         }
-	]
+	],
+    "$schema": "SelfHelpContent"
 }
 ---
