@@ -54,7 +54,7 @@
 			"id": "Basic_troubleshooting_multiselect",
 			"order": 3,
 			"controlType": "multiselectdropdown",
-			"displayLabel": "I have gone through following articles:",
+			"displayLabel": "I have gone through these articles:",
 			"dropdownOptions": [{
 					"value": "Migrate on-premises machines to Azure",
 					"text": "Migrate on-premises machines to Azure"

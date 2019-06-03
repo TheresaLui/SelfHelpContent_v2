@@ -54,7 +54,7 @@
 			"id": "Basic_troubleshooting_multiselect",
 			"order": 3,
 			"controlType": "multiselectdropdown",
-			"displayLabel": "Select the articles that you have read:",
+			"displayLabel": "I have gone through these articles:",
 			"dropdownOptions": [{
 					"value": "Common questions - VMware to Azure replication",
 					"text": "Common questions - VMware to Azure replication"

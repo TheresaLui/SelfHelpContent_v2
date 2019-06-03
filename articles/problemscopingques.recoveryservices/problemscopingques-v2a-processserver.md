@@ -59,7 +59,7 @@
 			"id": "Basic_troubleshooting_multiselect",
 			"order": 4,
 			"controlType": "multiselectdropdown",
-			"displayLabel": "I have gone through following steps:",
+			"displayLabel": "I have gone through these steps:",
 			"dropdownOptions": [{
 					"value": "I resolved process server health alerts",
 					"text": "I resolved process server health alerts"
