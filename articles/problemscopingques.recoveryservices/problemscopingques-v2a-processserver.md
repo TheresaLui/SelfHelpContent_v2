@@ -8,7 +8,7 @@
     productPesIds="16370"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="2b342a85-2019-4b4d-b7s0-43639892e013"
+    articleId="2b342a85-2019-4b4d-b7d0-43639892e013"
 />
 # Questions Process Server Deployment and Issues
 ---
@@ -36,7 +36,6 @@
             "controlType": "dropdown",
             "displayLabel": " I have an issue with:",
             "watermarkText": "Choose an issue",
-            "required": true
             "dropdownOptions": [
                 {
                     "value": "My process server health is critical",
@@ -55,6 +54,7 @@
                     "text": "My process server CPU utilization or memory usage is high, free space is low"
                 }
             ],
+            "required": true
         }, {
 			"id": "Basic_troubleshooting_multiselect",
 			"order": 4,
@@ -64,8 +64,8 @@
 					"value": "I resolved process server health alerts",
 					"text": "I resolved process server health alerts"
 				}, {
-					"value": "All process server services are in "Running" state",
-					"text": "All process server services are in "Running" state"
+					"value": "All process server services are in Running state",
+					"text": "All process server services are in Running state"
 				}, {
 					"value": "Process server heartbeat is the latest",
 					"text": "Process server heartbeat is the latest"
