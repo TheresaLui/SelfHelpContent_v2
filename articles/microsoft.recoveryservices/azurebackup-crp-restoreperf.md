@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Backup of Azure virtual machine fails"
-	description="Backup of Azure virtual machine fails"
+	pageTitle="Azure backup - Restore is taking longer than expected"
+	description="Azure backup - Restore is taking longer than expected"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
@@ -9,12 +9,12 @@
 	selfHelpType="resource"
 	supportTopicIds="32637327"
 	resourceTags="windows"
-	productPesIds="14749"
+	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public"
 	articleId="4de262a6-b00d-4680-851e-aa9cb212f662"
 />
 
-# Azure Virtual Machine Restore Performance
+# Azure backup - Restore is taking longer than expected 
 
 ## **Recommended Documents**
 
