@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure virtual machine backups are running slow"
-	description="VM backup performance"
+	pageTitle="Azure Backup - Backup is taking longer than expected"
+	description="Azure Backup - Backup is taking longer than expected"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
@@ -9,12 +9,12 @@
 	selfHelpType="resource"
 	supportTopicIds="32637321"
 	resourceTags="windows"
-	productPesIds="14749"
+	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public"
 	articleId="fdee12e71-369d-4812-9400-8a81bd302190"
 />
 
-# Azure virtual machine backups are running slow
+# Azure Backup - Backup is taking longer than expected
 
 ## **Recommended Steps**
 
