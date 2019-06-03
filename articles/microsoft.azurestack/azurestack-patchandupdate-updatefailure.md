@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="529e296c-96f1-4f54-a551-5d897bf03eaf"
+    articleId="azurestack-patchandupdate-updatefailure"
 />
 
 # Azure Stack Patch and Update Failures
