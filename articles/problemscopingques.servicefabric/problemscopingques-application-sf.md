@@ -1,22 +1,21 @@
 <properties
-	pageTitle="ARM Template"
-	description="ARM Template"
+	pageTitle="Application"
+	description="Application"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32608935, 32608936, 32608945, 32608946, 32608953, 32608955, 32608960, 32608963"
+	supportTopicIds="32608947, 32608949, 32608961, 32608962"
 	productPesIds="15842"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-cluster-arm-template-sf"
+	articleId="problemscopingques-application-sf"
 />
-# ARM Templates
+# Application
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ARM Templates",
-    "fileAttachmentHint": "Please attach the ARM template used to deploy the cluster as well as any relevant logs/screenshots.",
+    "title": "Application",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -32,7 +31,15 @@
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		}
+		},
+        {
+            "id": "application_name",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Application Name",
+            "watermarkText": "Provide the name of the application.",
+            "required": false
+        }
 	],
     "$schema": "SelfHelpContent"
 }
