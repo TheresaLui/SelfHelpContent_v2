@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for Vmware to Azure enable replication"
          description="Scoping questions for Vmware to Azure enable replication"
          authors="Rajeswarimamilla"
+         ms.author="aaronmax"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32536405"
          productPesIds="16370"
@@ -12,6 +13,7 @@
 # Questions Azure site recovery - Vmware to Azure Enable replication
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Site recovery enable replication failure",
     "fileAttachmentHint": "",
@@ -24,17 +26,23 @@
             "displayLabel": "What is the OS version of the impacted Server?",
             "watermarkText": "Ex: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
             "required": true
-        },
+        }, {
+			"id": "problem_start_time",
+			"order": 2,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		},
         {
             "id": "learn_more_text_1",
-            "order": 2,
+            "order": 3,
             "visibility": "null",
             "controlType": "infoblock",
             "content": "To find the list of supported Operating System <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#replicated-machines'>visit here</a>."
         },
         {
             "id": "problem_source_machine_name",
-            "order": 3,
+            "order": 4,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Provide the host name of the VM",
@@ -44,7 +52,7 @@
         {
             "id": "issue_Type",
             "visibility": "null",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "I am trying to Enable replication, but",
             "watermarkText": "Choose an option",
@@ -93,7 +101,7 @@
             "required": true
         },{
 			"id": "Basic_troubleshooting_multiselect",
-			"order": 5,
+			"order": 6,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "I have gone through following steps:",
 			"dropdownOptions": [{
@@ -117,28 +125,28 @@
 		},
         {
             "id": "learn_more_text1",
-            "order": 6,
+            "order": 7,
             "visibility": "issue_Type == Push installation failed due to connectivity errors",
             "controlType": "infoblock",
             "content": "Most of the Push installation issues get resolved using our troubleshooting article, Try these <a href='https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install'> troubleshooting steps</a> to self-resolve the issue."
         },
         {
             "id": "learn_more_text2",
-            "order": 7,
+            "order": 8,
             "visibility": "issue_Type == Push installation failure due to unsupported version",
             "controlType": "infoblock",
             "content": "Ensure source machine has the <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#replicated-machines'> supported Operating System/Kernel version</a> for successful installation of Mobility service."
         },
         {
             "id": "learn_more_text3",
-            "order": 8,
+            "order": 9,
             "visibility": "issue_Type == My initial replication is stuck",
             "controlType": "infoblock",
             "content": "Most of the initial replication issues get resolved using our troubleshooting article, Try these <a href='https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#initial-replication-issues'> troubleshooting steps</a> to self-resolve the issue."
         },
         {
-            "id": "problem_details",
-            "order": 9,
+            "id": "problem_description",
+            "order": 10,
             "visibility": "null",
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details:",
