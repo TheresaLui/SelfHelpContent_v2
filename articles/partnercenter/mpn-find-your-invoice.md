@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="partnercenter"
 	resource="mpn"
-	authors="Divya Manjari"
+	authors="DivyaManjari"
 	ms.author="dimanjar"
 	displayOrder=""
 	articleId="partnercenter_mpn_find_invoices"
@@ -20,8 +20,8 @@
 
 ## **Recommended Documents**
 
-*  [Where to find your invoices?](https://support.microsoft.com/en-us/help/4017791/how-to-find-download-final-invoices-mpn)
+*  [Where to find your invoices?](https://support.microsoft.com/help/4017791/how-to-find-download-final-invoices-mpn)
 
-*  [Check if you have the necessary user roles to view the invoice] (https://docs.microsoft.com/en-us/partner-center/permissions-overview)
+*  [Check if you have the necessary user roles to view the invoice](https://docs.microsoft.com/en-us/partner-center/permissions-overview)
 
-*  [How to associate an user to your Organization] (https://support.microsoft.com/en-us/help/4499949/how-to-associate-a-user-to-your-organization-s-microsoft-partner-netwo)
+*  [How to associate an user to your Organization](https://support.microsoft.com/help/4499949/how-to-associate-a-user-to-your-organization-s-microsoft-partner-netwo)
