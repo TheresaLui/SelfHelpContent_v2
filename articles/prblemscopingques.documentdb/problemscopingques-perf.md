@@ -1,19 +1,19 @@
 <properties
-	pageTitle="CosmosDb Performance Issue"
-	description="CosmosDb Performance Issue"
-	authors="bharathsreenivas"
+	pageTitle="CosmosDB Performance Issue"
+	description="CosmosDB Performance Issue"
+	authors="rnagpal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32574375,32574400,32574404,32574419,32574426"
+	supportTopicIds="32636818"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="b0c21976-936c-466a-801c-0eca87e1ab5a"
 />
-# CosmosDb performance Issue
+# CosmosDB performance Issue
 ---
 {
     "resourceRequired": true,
-    "title": "CosmosDb Performance Issue",
+    "title": "CosmosDB Performance Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
