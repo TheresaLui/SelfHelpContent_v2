@@ -45,28 +45,32 @@
                     "text": "SUSE Software"
                 },
                 {
+                    "value": "Cosmos DB",
+                    "text": "Cosmos DB"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
-	 {
+        {
             "id": "reservationOrderId",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation Order ID",
-	    "watermarkText": "Choose an option",
+            "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-             "uri": "/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
-             "jTokenPath": "value",
-             "textProperty": "properties.displayName,name",
-	     "textTemplate": "{properties.displayName} ({name})",
-             "valueProperty": "id",
-             "textPropertyRegex": "[^/]+$",
-             "defaultDropdownOptions": {
-             "value": "dont_know_answer",
-             "text": "Other, don't know or not applicable"
+                "uri": "/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
+                "jTokenPath": "value",
+                "textProperty": "properties.displayName,name",
+                "textTemplate": "{properties.displayName} ({name})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "dropdownOptions": [
@@ -78,22 +82,22 @@
             "useAsAdditionalDetails": false,
             "required": true
         },
-	{
+        {
             "id": "Reservationid",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation ID",
-	     "watermarkText": "Choose an option",
+            "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-             "uri": "/providers/Microsoft.Capacity/reservationOrders/{replaceWithParentValue}/reservations?api-version=2017-11-01",
-             "jTokenPath": "value",
-	     "dependsOn": "reservationOrderId",
-             "textProperty": "name",
-             "valueProperty": "id",
-             "textPropertyRegex": "[^/]+$",
-             "defaultDropdownOptions": {
-             "value": "dont_know_answer",
-             "text": "Other, don't know or not applicable"
+                "uri": "/providers/Microsoft.Capacity/reservationOrders/{replaceWithParentValue}/reservations?api-version=2017-11-01",
+                "jTokenPath": "value",
+                "dependsOn": "reservationOrderId",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "dropdownOptions": [
@@ -104,18 +108,18 @@
             ],
             "useAsAdditionalDetails": false,
             "required": true,
-	    "visibility": "reservationOrderId != null"
-	    },
-	{
+            "visibility": "reservationOrderId != null"
+        },
+        {
             "id": "reservationorderid_details",
             "order": 5,
-	    "visibility": "Reservationid == Other",
+            "visibility": "Reservationid == Other",
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",
             "required": false
         },
-	{
+        {
             "id": "currentowner_details",
             "order": 6,
             "controlType": "textbox",
@@ -137,7 +141,7 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
-	    "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide any additional information about your issue",
             "required": true,
@@ -145,11 +149,12 @@
                 {
                     "text": "Returns and exchanges can be done via **self-service option** directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>. Learn more - <a href='https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund'>here</a>"
                 },
-		 {
+                {
                     "text": "To request a billing related request, please select the Issue type as **Billing** and Problem type as **Reservation management** to ensure faster resolution"
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

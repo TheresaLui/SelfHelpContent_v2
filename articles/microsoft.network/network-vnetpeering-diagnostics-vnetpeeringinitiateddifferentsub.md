@@ -22,7 +22,7 @@ cloudEnvironments="Public"
 Microsoft Azure has identified virtual network peering <!--$VirtualNetworkPeering-->VirtualNetworkPeering<!--/$VirtualNetworkPeering--> is in an *Initiated* state. Virtual Network Peering requires two links to be created. In order to create the virtual network peering successfully, create the second link.
 <!--/issueDescription-->
 
-**Complete VNet Peering connection**
+## **Recommended Steps**
 
 1. From a browser, navigate to http://portal.azure.com and, if necessary, sign in with your Azure account
 2. Click All Services > Virtual networks

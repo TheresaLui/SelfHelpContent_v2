@@ -11,7 +11,7 @@
 	supportTopicIds="32629798"
 	productPesIds="16666"
 	articleId="8d591007-b402-4b63-9f3e-451f17322ef4"
-	CloudEnvironments="Public"
+	cloudEnvironments="Public"
 />
 
 # Problem configuring attribute mappings

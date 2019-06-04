@@ -11,7 +11,7 @@
 	articleId="problemscopingques-scalingissues"
 />
 
-# Issues Scaling a Database or Elastic Pool
+# Issues Scaling a Database or Elastic Pool 
 ---
 {
 	"resourceRequired": true,
@@ -20,9 +20,32 @@
 	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"formElements": [
-	{
-			"id": "ongoing_or_completed_updateslo",
+	        {
+		        "id": "which_operation",
 			"order": 1,
+			"controlType": "dropdown",
+			"displayLabel": "Which of these operations is causing trouble?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "Which of these current scaling operations is problematic?",
+			"dynamicDropdownOptions": {
+            			"uri": "{resourceId}/operations?api-version=2017-10-01-preview",
+            			"jTokenPath": "value",
+            			"textProperty": "properties.description",
+            			"valueProperty": "id",
+            			"textPropertyRegex": null
+        		},
+			"dropdownOptions": [
+                	{
+                    		"value": "none_of_these",
+                    		"text": "None of the above"
+                	}],
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": true
+	        },
+	        {
+			"id": "ongoing_or_completed_updateslo",
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Do you need help with an ongoing scaling operation, or one that's already finished?",
 			"watermarkText": "Choose an option",
@@ -44,7 +67,7 @@
 		},
 		{
 			"id": "db_or_epool",
-			"order": 2,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Are you trying to scale a database, or an elastic pool?",
 			"watermarkText": "Choose an option",
@@ -66,7 +89,7 @@
 		},
 		{
 			"id": "db_source_tier",
-			"order": 3,
+			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale from?",
 			"watermarkText": "Choose an option",
@@ -91,7 +114,7 @@
 		},
 		{
 			"id": "db_target_tier",
-			"order": 4,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale to?",
 			"watermarkText": "Choose an option",
@@ -106,6 +129,9 @@
 					"value": "db_premium",
 					"text": "Premium or Business Critical"
 				},{
+				        "value": "elastic_pool",
+					"text": "Elastic Pool"
+				},{
 					"value": "dont_know_answer",
 					"text": "Other"
 				}
@@ -116,7 +142,7 @@
 		},
 		{
 			"id": "ep_source_tier",
-			"order": 5,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale from?",
 			"watermarkText": "Choose an option",
@@ -141,7 +167,7 @@
 		},
 		{
 			"id": "ep_target_tier",
-			"order": 6,
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale to?",
 			"watermarkText": "Choose an option",
@@ -156,6 +182,9 @@
 					"value": "ep_premium",
 					"text": "Premium or Business Critical"
 				},{
+				        "value": "single_database",
+					"text": "Single Database"
+				},{
 					"value": "dont_know_answer",
 					"text": "Other"
 				}
@@ -165,8 +194,19 @@
 			"visibility": "db_or_epool == Elastic_Pool"
 		},
 		{
+			"id": "database_size",
+			"order": 8,
+			"controlType": "textbox",
+			"displayLabel": "How large is your database?",
+			"watermarkText": "How large is your database?",
+			"infoBalloonText": "What size is your database?",
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": true
+		},
+		{
 			"id": "problem_description",
-			"order": 7,
+			"order": 9,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
@@ -176,7 +216,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 8,
+			"order": 10,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",

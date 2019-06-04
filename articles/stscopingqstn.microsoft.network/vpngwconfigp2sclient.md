@@ -12,37 +12,62 @@
 />
 # Configure a point-to-site client information
 ---
-{   "resourceRequired": false,
+{
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Configure a point-to-site client",
     "fileAttachmentHint": "Upload your VPN profile to speed up the support process. For security purposes, please edit or remove the client certificate information.",
     "formElements": [
-        {   "id": "problem_start_time",
+        {
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-       {   "id": "tunnel_type",
+        {
+            "id": "tunnel_type",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [{"value": "IKEv2", "text": "IKEv2"},
-	    			{"value": "SSTP", "text": "SSTP"},
-                                {"value": "OpenVPN", "text": "OpenVPN"},
-				{"value": "dont_know_answer", "text": "Other"}],
+            "dropdownOptions": [
+                {
+                    "value": "IKEv2",
+                    "text": "IKEv2"
+                },
+                {
+                    "value": "SSTP",
+                    "text": "SSTP"
+                },
+                {
+                    "value": "OpenVPN",
+                    "text": "OpenVPN"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            ],
             "required": true
         },
-        {   "id": "problem_description",
+        {
+            "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [{"text": "Issue description"},
-	    	      {"text": "Client platform OS version"}]
+            "hints": [
+                {
+                    "text": "Issue description"
+                },
+                {
+                    "text": "Client platform OS version"
+                }
+            ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

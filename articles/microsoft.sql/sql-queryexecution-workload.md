@@ -8,19 +8,23 @@
     ms.author="pedin"
     displayOrder=""
     articleId="IsWorkLoadIssue_WL112688-E6C3-1004-B3D3-188FD8FC30EA"
-    diagnosticScenario="dbasc"
-    selfHelpType="rca"
-    supportTopicIds="32630434,32630459"
+    diagnosticScenario="SqlPerfTsg"
+    selfHelpType="diagnostics"
+    supportTopicIds="32630434,32630450,32630454,32630459"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="public"
+    cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 
-# Query Execution/Increased Workload
+# We ran diagnostics on your resource and found Increased Workload
+
+<!--issueDescription-->
+Our internal service telemetry detected that over the past 24 hours there has been a significant increase (50% or more) in user requests on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Our internal service telemetry detected that over the past 24 hours there has been a significant increase (50% or more) in user requests for {DatabaseName}. This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period.
+This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Please consider upgrading your database SLO, tuning your queries, or balancing your workload. Please see the recommended articles for more details. 
 
 ## **Recommended Documents**
 
