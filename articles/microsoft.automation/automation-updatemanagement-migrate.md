@@ -1,28 +1,33 @@
 <properties
-    pageTitle="Unenroll machines from Update Management"
-    description="Unenroll machines from Update Management"
+    pageTitle="Migrate machines in Update Management"
+    description="Migrate machines in Update Management"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32642186"
+    supportTopicIds="32642185"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
-    articleId="c6ff52e7-3435-4db8-a531-f6e5604b21cf"
+    articleId="29dd1252-32be-46ca-b717-475d33300501"
 />
 
-# Remove machine from Update Management
+# Move my Update Management machines to another subscription
 
-This article will help you remove your machines from Update Management
+This article will help you migrate your Update Management account or VMs to another subscription. 
 
 ## **Recommended Steps**
 
-### **Remove machine from Update Management**
+### **Move Automation Accounts**
 
-* To unenroll a machine from Update Management, follow the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
+* To move Automation Accounts, see ["How to Move Azure Automation accounts"](https://docs.microsoft.com/azure/automation/how-to/move-account)
+
+### **Move machine from Update Management**
+
+* First, unenroll machines from Update Management, follow the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
+* Then, onboard machines to a different account by following the instructions at ["Onboard machines"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#enable-solutions)
 
 ## **Recommended Documents**
 
