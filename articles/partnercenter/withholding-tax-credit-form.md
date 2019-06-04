@@ -32,7 +32,7 @@ You need to include your withholding tax credit form and a digital copy of your 
 
 - Be sure the total amount on the tax credit form matches the totals from the invoices you are submitting. 
 
-- Once you this information ready, create the service request.
+- Once you this information ready, create the service request and be sure to attache the withholding tax credit form and your Withholding Tax Certificate.
 
 ## **Recommended documents**
 
