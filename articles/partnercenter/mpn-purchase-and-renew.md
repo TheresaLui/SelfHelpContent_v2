@@ -26,4 +26,4 @@
 
 *  [Renewal window in Partner Center](https://support.microsoft.com/help/4295568/partner-membership-center-pmc-to-partner-center-pc-renewal-window)
 
-*  [Check if you have the necesary user roles to perform the purchase](https://docs.microsoft.com/partner-center/permissions-overview)
+*  [Check if you have the necessary user roles to perform the purchase](https://docs.microsoft.com/partner-center/permissions-overview)
