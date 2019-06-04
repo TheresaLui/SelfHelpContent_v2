@@ -36,4 +36,4 @@ You need to include your withholding tax credit form and a digital copy of your 
 
 ## **Recommended documents**
 
-[Make sure you are credited for withholding tax](https://docs.microsoft.com/en-us/partner-center/withholding-tax-credit-form.md)
+[Make sure you are credited for withholding tax](https://docs.microsoft.com/partner-center/withholding-tax-credit-form)
