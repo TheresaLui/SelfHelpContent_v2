@@ -2,6 +2,7 @@
 	pageTitle="CosmosDB Backup and Restore Info"
 	description="CosmosDB Backup and Restore Info"
 	authors="rnagpal"
+	ms.author="rnagpal"
 	selfHelpType="problemScopingQuestions" 
         supportTopicIds="32636805,32636825"
 	productPesIds="15585"
@@ -13,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true, 
     "title": "CosmosDB Backup and Restore Info",
     "fileAttachmentHint": "",
     "formElements": [
@@ -34,24 +36,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Affected databases (separate with commas)",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Affected databases (separate with commas)"
-                }
-            ]
+            "required": false
         },
         {
             "id": "collection_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Affected collections (separate with commas)",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Affected collections (separate with commas)"
-                }
-            ]
+            "required": false
         },
         {
             "id": "data_type",
@@ -130,7 +122,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the restore request. ",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],
