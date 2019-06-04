@@ -6,7 +6,7 @@
 	authors="balaksms"
 	ms.author="balaks"
 	selfHelpType="generic"
-	supportTopicIds="32636763"
+	supportTopicIds="32636763,32636812"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
