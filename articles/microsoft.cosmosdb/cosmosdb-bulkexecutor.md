@@ -26,4 +26,4 @@ The bulk executor library helps you leverage this massive throughput and storage
 ## **Recommended Documents**
 * [Azure Cosmos DB bulk executor library overview](https://docs.microsoft.com/azure/cosmos-db/bulk-executor-overview)
 * [Use bulk executor .NET library to perform bulk operations in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/bulk-executor-dot-net)
-* [Use bulk executor Java library to perform bulk operations on Azure Cosmos DB data](https://docs.microsoft.com/en-us/azure/cosmos-db/bulk-executor-java)
+* [Use bulk executor Java library to perform bulk operations on Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/bulk-executor-java)

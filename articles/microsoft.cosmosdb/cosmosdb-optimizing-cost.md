@@ -25,4 +25,4 @@ For optimizing your Cosmos DB cost, please see the recommended documents:
 * [Understand your Azure Cosmos DB bill](https://docs.microsoft.com/azure/cosmos-db/understand-your-bill)
 * [Optimize provisioned throughput cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-throughput)
 * [Optimize multi-region cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-regions)
-* [Optimize cost with reserved capacity in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/cosmos-db-reserved-capacity)
+* [Optimize cost with reserved capacity in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity)
