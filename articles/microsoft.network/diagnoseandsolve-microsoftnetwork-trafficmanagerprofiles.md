@@ -18,15 +18,6 @@
     "$schema": "SelfHelpContent",
     "commonProblems": [
         {
-            "id": "Traffic_Manager_is_directing_requests_to_a_disabled_endpoint",
-            "title": "Traffic Manager is directing requests to a disabled endpoint",
-            "description": "Traffic Manager is directing requests to disabled endpoint",
-            "category": "Configuration",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "2171b93f-6cc9-41cf-b88c-f40a0510c0b6"
-        },
-        {
             "id": "Traffic_Manager_is_directing_requests_to_disabled_endpoint",
             "title": "Traffic Manager is directing requests to disabled endpoint",
             "description": "Traffic Manager is directing requests to disabled endpoint",

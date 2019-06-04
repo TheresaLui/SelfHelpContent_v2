@@ -90,33 +90,6 @@
             "commonSolutionArticleId": "384c901a-6105-4faa-9f7a-e84e1030ebc1"
         },
         {
-            "id": "Azure_virtual_machine_backup_monitoring_and_reporting_issues",
-            "title": "Azure virtual machine backup monitoring and reporting issues",
-            "description": "Azure virtual machine backup monitoring and reporting issues",
-            "category": "Backup and Restore",
-            "searchTags": "",
-            "supportTopicId": "32553291",
-            "commonSolutionArticleId": "fd89fe97-213e-4abc-a695-9e7d347db5c6"
-        },
-        {
-            "id": "Azure_virtual_machine_backups_are_running_slow",
-            "title": "Azure virtual machine backups are running slow",
-            "description": "My virtual machine backups are running slowly.",
-            "category": "Backup and Restore",
-            "searchTags": "",
-            "supportTopicId": "32553281",
-            "commonSolutionArticleId": "81ee4c43-2f1e-4b18-a11d-b0dabb6a571f"
-        },
-        {
-            "id": "I_want_to_delete_a_vault_that_stores_backup_data",
-            "title": "I want to delete a vault that stores backup data",
-            "description": "How do I delete a Backup vault or Recovery Services vault?",
-            "category": "Backup and Restore",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "5f701380-150c-410b-a192-966fc38a03c6"
-        },
-        {
             "id": "Deleting_a_vault_that_stores_all_backup_data",
             "title": "Deleting a vault that stores all backup data",
             "description": "I am unable to delete a Backup vault or Recovery Services vault",
@@ -124,51 +97,6 @@
             "searchTags": "",
             "supportTopicId": "",
             "commonSolutionArticleId": "0ee1ec25-104d-4a5c-b2d2-63d845f442da"
-        },
-        {
-            "id": "Azure_Recovery_Services_Agent_installation_or_registration_issues",
-            "title": "Azure Recovery Services Agent installation or registration issues",
-            "description": "Azure Recovery Services Agent installation or registration issues",
-            "category": "Recovery Services",
-            "searchTags": "",
-            "supportTopicId": "32553287",
-            "commonSolutionArticleId": "922bb97a-5ed2-44af-a953-bec1213aed57"
-        },
-        {
-            "id": "Backup_of_Linux_Azure_virtual_machine_fails_with_'Could_not_communicate_with_the_VM_agent_for_snapshot_status'",
-            "title": "Backup of Linux Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'",
-            "description": "My Linux VM Snapshot failed.",
-            "category": "Backup and Restore",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "2feefab9-c5ec-444c-a189-ae575462729f"
-        },
-        {
-            "id": "Azure_Linux_VM_Restore_Limitations",
-            "title": "Azure Linux VM Restore Limitations",
-            "description": "I am experiencing limitations when restoring an Azure VM from backup",
-            "category": "Backup and Restore",
-            "searchTags": "",
-            "supportTopicId": "32553297",
-            "commonSolutionArticleId": "fd038c4e-e8f5-4af1-ab39-8698ed8af13b"
-        },
-        {
-            "id": "Azure_VM_Restore_Limitations",
-            "title": "Azure VM Restore Limitations",
-            "description": "I am experiencing limitations when restoring an Azure VM from backup",
-            "category": "Backup and Restore",
-            "searchTags": "",
-            "supportTopicId": "32553299",
-            "commonSolutionArticleId": "e723877c-83f3-49fa-81f1-24ad6ec643a1"
-        },
-        {
-            "id": "Windows_Backup_to_Azure_Backup_monitoring_and_reporting_issues",
-            "title": "Windows Backup to Azure Backup monitoring and reporting issues",
-            "description": "I am experiencing issues with Windows Backup to Azure Backup monitoring and reporting",
-            "category": "Monitoring",
-            "searchTags": "",
-            "supportTopicId": "32553289",
-            "commonSolutionArticleId": "6ef91801-fa39-4a37-8873-9fd1b419a557"
         },
         {
             "id": "Backup_of_Windows_Azure_virtual_machine_fails_with_'Could_not_communicate_with_the_VM_agent_for_snapshot_status'",
