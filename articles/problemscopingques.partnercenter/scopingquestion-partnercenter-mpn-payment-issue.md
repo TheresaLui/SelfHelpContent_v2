@@ -17,7 +17,7 @@
   "resourceRequired": true,
   "subscriptionRequired": true,
   "title": "MPN payment issue",
-  "fileAttachmentHint": "Please attach the proof of payment",
+  "fileAttachmentHint": "",
   "formElements": [
     {
       "id": "mpn_payment_type",
