@@ -1,19 +1,19 @@
 <properties
-	pageTitle="CosmosDb Backup and Restore Info"
-	description="CosmosDb Backup and Restore Info"
-	authors="bharathsreenivas"
+	pageTitle="CosmosDB Backup and Restore Info"
+	description="CosmosDB Backup and Restore Info"
+	authors="rnagpal"
 	selfHelpType="problemScopingQuestions" 
-        supportTopicIds="32597495"
+        supportTopicIds="32636805,32636825"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="b7ff0c6e-0152-4881-9184-a7568ab9789e"
 />
-# CosmosDb Backup and restore Info
+# CosmosDB Backup and restore Info
 ---
 {
     "resourceRequired": true,
-    "title": "CosmosDb Backup and Restore Info",
+    "title": "CosmosDB Backup and Restore Info",
     "fileAttachmentHint": "",
     "formElements": [
         {
