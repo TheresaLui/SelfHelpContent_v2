@@ -46,12 +46,12 @@
                     "text": "Azure Backup agent is latest"
                 },
                 {
-                    "value": "Checked the SQL Scheduler is fine",
-                    "text": "Checked the SQL Scheduler is fine"
+                    "value": "Verified the SQL Scheduler is running fine",
+                    "text": "Verified the SQL Scheduler is running fine"
                 },
                 {
-                    "value": "Ensured there is no any previous backup job in progress",
-                    "text": "Ensured there is no any previous backup job in progress"
+                    "value": "Ensured no previous backup job is in progress",
+                    "text": "Ensured no previous backup job is in progress"
                 },
                 {
                     "value": "If antivirus is running, then exclusion rules are used",
