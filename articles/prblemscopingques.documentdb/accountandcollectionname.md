@@ -13,7 +13,7 @@
 ---
 {
     "resourceRequired": true,
-    "subscriptionRequired ": true,
+    "subscriptionRequired": true,
     "title": "CosmosDB Database and Collection Info",
     "fileAttachmentHint": "",
     "formElements": [
