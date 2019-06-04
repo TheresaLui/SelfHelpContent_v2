@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [How to update billing information during purchase](https://support.microsoft.com/en-us/help/4505986/update-bill-to-sold-to-address-details-during-your-purchase-experience)
+* [How to update billing information during purchase](https://support.microsoft.com/help/4505986/update-bill-to-sold-to-address-details-during-your-purchase-experience)
