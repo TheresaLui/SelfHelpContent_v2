@@ -52,8 +52,8 @@
       "controltype": "datetimepicker",
       "displayLabel": "When was wire transfer done?",
       "required": true
-	}
-	{
+    },
+    {
       "id": "mpn_wire_transfer_account",
       "order": 4,
        "visibility": "mpn_payment_type == Wire transfer",   
