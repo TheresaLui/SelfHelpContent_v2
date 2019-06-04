@@ -64,7 +64,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Updates show as installed, but I can't find them on my machine**
 
-* Updates are often superceded by other updates. For more information, see ["Update is superseded" in the Windows Update Troubleshooting guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer)
+* Updates are often superseded by other updates. For more information, see ["Update is superseded" in the Windows Update Troubleshooting guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer)
 
 ### **Updating machines across different tenants**
 
