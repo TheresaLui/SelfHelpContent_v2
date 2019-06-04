@@ -68,7 +68,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
+            "infoBalloonText": "Check System State backup <a href='https://aka.ms/AB-SystemState-Tshooting'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
