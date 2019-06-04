@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": true,
-    "subscriptionRequired": true, 
+    "subscriptionRequired": true,
     "title": "CosmosDB Backup and Restore Info",
     "fileAttachmentHint": "",
     "formElements": [
