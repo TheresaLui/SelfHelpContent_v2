@@ -8,7 +8,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="d798ee0c-fe0b-4cd6-bef0-9f1201d2d18e"
+    articleId="ea6a7744-1273-4571-b351-90f5938a0e51"
     />
 
 # Problem creating a group
