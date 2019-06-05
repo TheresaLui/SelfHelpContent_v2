@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Update your partner profile"
+	pageTitle="Update your billing info"
 	description="Manage your billing info"
 	infoBubbleText=""
 	service="partnercenter"
@@ -7,7 +7,7 @@
 	authors="LauraBrenner"
 	ms.author="labrenne"
 	displayOrder=""
-	articleId="partnercenter_update_your_partner_profile"
+	articleId="partnercenter_billing info"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32635655"
@@ -18,6 +18,6 @@
 />
 # Change your billing info
 
-## **Recommended Documents**
+## Recommended Documents
 
-* **[Update your partner profile including your billing info](https://docs.microsoft.com/partner-center/update-your-partner-profile)**
+## [Update your partner profile including your billing info](https://docs.microsoft.com/en-us/partner-center/update-your-partner-profile)

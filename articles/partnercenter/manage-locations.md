@@ -1,24 +1,23 @@
 <properties
-	pageTitle="Pricelists"
-	description="Pricelists"
+	pageTitle="Account locations"
+	description="Manage your account locations"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
 	authors="LauraBrenner"
 	ms.author="labrenne"
 	displayOrder=""
-	articleId="partnercenter_pricelists"
+	articleId="partnercenter_account-locations"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635689"
+	supportTopicIds="32635647"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
-
-# Pricelists
+# Account locations
 
 ## Recommended Documents
 
-## [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
+[Manage your account locations](https://docs.microsoft.com/partner-center/manage-locations)
