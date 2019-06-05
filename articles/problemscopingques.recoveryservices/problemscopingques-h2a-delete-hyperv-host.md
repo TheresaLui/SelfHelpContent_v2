@@ -8,7 +8,7 @@
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="881fcef2-0569-437b-bcda-0eede66b5dd1"
+         articleId="c0eb3ade-b5e3-44b5-a952-c587b51f7ca8"
 />
 # Hyper-V server deletion failure
 ---
