@@ -19,6 +19,6 @@
 
 # Pricelists
 
-## Recommended Documents
+## **Recommended Documents**
 
-## [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
+* **[Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)**
