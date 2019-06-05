@@ -10,7 +10,7 @@
 	articleId="partnercenter_credit_limits"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635661,32635662"
+	supportTopicIds="32635661"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
