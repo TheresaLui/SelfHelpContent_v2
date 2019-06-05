@@ -8,11 +8,12 @@
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId=""
+	     articleId="e3d5e9b4-32c0-42d4-bebf-2e0b2dffcbed"
 />
 # Questions addition failure 
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Hyper-V addition failure",

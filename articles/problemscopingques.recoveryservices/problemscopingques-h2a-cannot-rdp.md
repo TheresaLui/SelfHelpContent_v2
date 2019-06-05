@@ -1,18 +1,19 @@
 <properties
             pageTitle="Scoping questions for Site Recovery (Hyper-V to Azure)/Unable to connect"
-            description="Cannot Connect to My Virtual Machine after failover"
+            description="Cannot Connect to My Hyper-V VM after failover"
             authors="genlin"
             ms.author="asgang"
             selfHelpType="problemScopingQuestions"
-            supportTopicIds="32574725"
+            supportTopicIds="32536423"
             productPesIds="16370"
             cloudEnvironments="Public"
             schemaVersion="1"
             articleId="e59636d3-914b-40ee-9abd-95bac066ae4e"
 />
-# Connect to a VM
+# Connect to a Hyper-V VM after failover
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Failure to connect to the RDP port",

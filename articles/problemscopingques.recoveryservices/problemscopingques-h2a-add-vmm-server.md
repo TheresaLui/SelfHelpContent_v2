@@ -10,9 +10,10 @@
          schemaVersion="1"
 	     articleId="881fcef2-0569-437b-bcda-0eede66b5dd1"
 />
-# Questions  VMM server addition failure 
+#Fail to add or register a VMM Server 
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "VMM server addition failure",
