@@ -18,6 +18,6 @@
 />
 # Account locations
 
-## Recommended Documents
+## **Recommended Documents**
 
-[Manage your account locations](https://docs.microsoft.com/partner-center/manage-locations)
+* **[Manage your account locations](https://docs.microsoft.com/partner-center/manage-locations)**
