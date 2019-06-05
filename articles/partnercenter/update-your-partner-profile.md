@@ -7,7 +7,7 @@
 	authors="LauraBrenner"
 	ms.author="labrenne"
 	displayOrder=""
-	articleId="partnercenter_billing info"
+	articleId="partnercenter_update_your_partner_profile"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32635655"
