@@ -1,8 +1,8 @@
 <properties
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
-                authors="summertgu"
-                ms.author="tiag"
+                authors="summertgu,timbasham"
+                ms.author="tiag,tibasham"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615528"
                 productPesIds="14749"
@@ -44,8 +44,8 @@
                     "text": "Windows 7/Windows 8/Windows 8.1/Windows 10"
                 },
                 {
-                    "value": "Windows server 2008r2/Windows server 2012/Windows server 2012r2/Windows server 2016",
-                    "text": "Windows server 2008r2/Windows server 2012/Windows server 2012r2/Windows server 2016"
+                    "value": "Windows Server 2008R2/2012/2012R2/2016/2019",
+                    "text": "Windows Server 2008R2/2012/2012R2/2016/2019"
                 }
             ],
             "required": false
