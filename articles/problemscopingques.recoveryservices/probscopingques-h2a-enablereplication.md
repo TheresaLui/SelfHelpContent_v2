@@ -23,7 +23,7 @@
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
+            "displayLabel": "Which virtual machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
             "required": true
         },
@@ -35,17 +35,16 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
