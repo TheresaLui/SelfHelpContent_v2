@@ -16,6 +16,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Problem creating a group",
     "fileAttachmentHint": "Screenshot of problem",
     "formElements": [
