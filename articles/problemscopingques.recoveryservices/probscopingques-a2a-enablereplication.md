@@ -4,7 +4,7 @@
          authors="ashishgangwar"
 	     ms.author="asgang"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32536401"
+         supportTopicIds="32574718"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
