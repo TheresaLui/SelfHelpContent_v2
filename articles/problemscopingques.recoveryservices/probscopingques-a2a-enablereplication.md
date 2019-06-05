@@ -13,6 +13,7 @@
 # Questions Azure VM protection failure 
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure VM configuration failure",
