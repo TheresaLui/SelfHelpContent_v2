@@ -1,8 +1,8 @@
 <properties
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
-                authors="summertgu"
-                ms.author="tiag"
+                authors="summertgu,timbasham"
+                ms.author="tiag,tibasham"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615534"
                 productPesIds="14749"
@@ -36,6 +36,10 @@
                 {
                     "value": "Another cloud provider",
                     "text": "Another cloud provider"
+                },
+                {
+                        "value": "Azure Marketplace",
+                        "text": "Azure Marketplace"
                 }
             ],
             "required": false
