@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* **[View or print your MAPs invoice](https://docs.microsoft.com/partner-center/mpn-view-print-maps-invoice)**
+* [View or print your MAPs invoice](https://docs.microsoft.com/partner-center/mpn-view-print-maps-invoice)
