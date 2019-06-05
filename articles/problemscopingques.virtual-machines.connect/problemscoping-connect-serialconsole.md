@@ -1,8 +1,8 @@
 <properties
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
-                authors="summertgu,timbasham"
-                ms.author="tiag,tibasham"
+                authors="summertgu"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615528"
                 productPesIds="14749"
