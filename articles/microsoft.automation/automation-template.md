@@ -16,13 +16,13 @@
 
 # Help with resolving ARM Template Deployment Issues
 
-Here are some quick steps to some common Azure template deployment errors:
+Below are some quick steps to resolve common Azure template deployment errors.
 
 ## **Recommended Steps**
 
-Review this article to locate your error code and gain insights into the issue [Troubleshoot common Azure deployment errors with Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors)
+* [Troubleshoot common Azure deployment errors with Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors)
 
-## Find error code
+## Error Codes
 
 There are two types of errors you can receive:
 
@@ -33,13 +33,13 @@ Validation errors arise from scenarios that can be determined before deployment.
 
 Both types of errors return an error code that you use to troubleshoot the deployment. Both types of errors appear in the [activity log](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-audit). However, validation errors don't appear in your deployment history because the deployment never started.
 
-### Validation errors
+### Validation Errors
 
 When deploying through the portal, you see a validation error after submitting your values.
 
 Select the message for more details. You see an **InvalidTemplateDeployment** error and a message that indicates a policy blocked deployment.
 
-### Deployment errors
+### Deployment Errors
 
 When the operation passes validation, but fails during deployment, you get a deployment error.
 
@@ -59,12 +59,9 @@ az group deployment operation list --name exampledeployment -g examplegroup --qu
 
 ```
 
-In the portal, select the notification.
-
-You see more details about the deployment. Select the option to find more information about the error.
+In the portal, select the notification. You will see more details about the deployment. Select the option to find more information about the error.
 
 You see the error message and error codes. Notice there are two error codes. The first error code (**DeploymentFailed**) is a general error that doesn't provide the details you need to solve the error. The second error code (**StorageAccountNotFound**) provides the details you need.
-
 
 ## **Recommended Documents**
 
