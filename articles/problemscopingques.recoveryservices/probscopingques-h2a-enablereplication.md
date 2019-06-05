@@ -13,7 +13,6 @@
 # Fail to enable protection for Hyper-V VM 
 ---
 {
-    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Hyper-V VM  protection failure",
@@ -54,5 +53,6 @@
             "hints": []
         }
     ]
+    "$schema": "SelfHelpContent"
 }
 ---
