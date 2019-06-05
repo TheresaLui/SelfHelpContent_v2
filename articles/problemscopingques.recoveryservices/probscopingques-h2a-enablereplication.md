@@ -54,6 +54,5 @@
             "hints": []
         }
     ]
-    "$schema": "SelfHelpContent"
 }
 ---
