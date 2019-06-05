@@ -7,7 +7,7 @@
 	authors="LauraBrenner"
 	ms.author="labrenne"
 	displayOrder=""
-	articleId="partnercenter_help with delegated admin privileges"
+	articleId="partnercenter_help_with_delegated_admin_privileges"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32635675"
