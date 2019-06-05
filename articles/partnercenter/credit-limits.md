@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* **[Billing basics](https://docs.microsoft.com/partner-center/billing-basics)**
-* **[Common billing scenarios](https://docs.microsoft.com/partner-center/common-billing-scenarios)**
+* [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
+* [Common billing scenarios](https://docs.microsoft.com/partner-center/common-billing-scenarios)
