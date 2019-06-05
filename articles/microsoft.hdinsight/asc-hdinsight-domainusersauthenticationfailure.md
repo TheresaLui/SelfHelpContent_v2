@@ -26,7 +26,7 @@ There is a problem with the on-premises Active Directory instance for your HDIns
 2. Enter Connect-AzureAD by using global administrator (tenant administrator) credentials
 3. Check if the Microsoft Azure PowerShell service principal has already been created: `$powershellSPN = Get-AzureADServicePrincipal -SearchString "Microsoft Azure Powershell"`
 4. If it doesn't exist (that is, if (`$powershellSPN -eq $null`)), create the service principal: `$powershellSPN = New-AzureADServicePrincipal -AppId 1950a258-227b-4e31-a9cf-717495945fc2`
-5. Create and attach the policy to this service principal": 
+5. Create and attach the policy to this service principal: 
 
 ```
 $policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy
