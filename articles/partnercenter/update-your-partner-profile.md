@@ -18,6 +18,6 @@
 />
 # Change your billing info
 
-## Recommended Documents
+## **Recommended Documents**
 
-## [Update your partner profile including your billing info](https://docs.microsoft.com/en-us/partner-center/update-your-partner-profile)
+* **[Update your partner profile including your billing info](https://docs.microsoft.com/en-us/partner-center/update-your-partner-profile)**
