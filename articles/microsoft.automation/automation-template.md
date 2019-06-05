@@ -7,9 +7,9 @@
     ms.author="rithorn"
     displayorder=""
     selfHelpType="generic"
-    articleId=""
+    articleId="f8e659dd-5c45-4a8f-be28-5af4e1f255f5"
     diagnosticScenario=""
-    supportTopicIds="32641155,32641156,32641157,32641158"
+    supportTopicIds="32641156,32641157,32641158"
     productPesIds="15607"
     cloudEnvironments="public"
 />
@@ -31,7 +31,7 @@ There are two types of errors you can receive:
 
 Validation errors arise from scenarios that can be determined before deployment. They include syntax errors in your template, or trying to deploy resources that would exceed your subscription quotas. Deployment errors arise from conditions that occur during the deployment process. They include trying to access a resource that is being deployed in parallel.
 
-Both types of errors return an error code that you use to troubleshoot the deployment. Both types of errors appear in the [activity log](https://docs.microsoft.com/azure-resource-manager/resource-group-audit). However, validation errors don't appear in your deployment history because the deployment never started.
+Both types of errors return an error code that you use to troubleshoot the deployment. Both types of errors appear in the [activity log](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-audit). However, validation errors don't appear in your deployment history because the deployment never started.
 
 ### Validation errors
 
@@ -46,13 +46,17 @@ When the operation passes validation, but fails during deployment, you get a dep
 To see deployment error codes and messages with PowerShell, use:
 
 ```azurepowershell-interactive
+
 (Get-AzResourceGroupDeploymentOperation -DeploymentName exampledeployment -ResourceGroupName examplegroup).Properties.statusMessage
+
 ```
 
 To see deployment error codes and messages with Azure CLI, use:
 
 ```azurecli-interactive
+
 az group deployment operation list --name exampledeployment -g examplegroup --query "[*].properties.statusMessage"
+
 ```
 
 In the portal, select the notification.
