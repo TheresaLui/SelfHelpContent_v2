@@ -7,7 +7,7 @@
 	authors="LauraBrenner"
 	ms.author="labrenne"
 	displayOrder=""
-	articleId="partnercenter_credit limits"
+	articleId="partnercenter_credit_limits"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32635661,32635662"
