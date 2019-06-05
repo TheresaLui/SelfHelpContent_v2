@@ -7,7 +7,7 @@
 	ms.author="scotro,tibasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32511162,32411875,32628264,32628261,32628277,32628275,32628268,32628270"
+	supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270"
 	resourceTags=""
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
@@ -27,7 +27,7 @@
 
 3. Use VM Diagnostics and Storage Diagnostics in the Azure portal to identify if any resource is being overutilized or throttled <br>
 4. [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and storage](https://support.microsoft.com/help/3150851/generic-performance-troubleshooting-for-azure-virtual-machine-running)<br>
-5. Address any Azure host issues by [redeploying](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux#use-the-azure-portal) the VM, which migrates it to a new Azure host.<br>
+5. Address any Azure host issues by [redeploying](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux#use-the-azure-portal) the VM, which migrates it to a new Azure host.<br>
 6. Scale up the Virtual Machine to a different VM type or series for increased performance by clicking 'Size' in the Settings blade of the VM resource.<br>
 7. Consider using [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://docs.azure.cn/storage/storage-premium-storage/) if its an I/O intensive use-case <br>
 
