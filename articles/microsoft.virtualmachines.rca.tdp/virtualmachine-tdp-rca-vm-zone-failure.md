@@ -30,7 +30,6 @@ Try the deployment again as the issue may have been temporary and there are now 
 - Redeploy the VM to a new node in the existing availability zone
 - Resize the VM to a size that is currently available in your region. If you are using an older VM product, consider newer versions.
 - Deploy a new VM to another availability zone in the region
-- Deploy a new VM in an Azure Availability Set
 
 To determine available sizes in the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
 
