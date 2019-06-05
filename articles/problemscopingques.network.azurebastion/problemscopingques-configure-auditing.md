@@ -63,6 +63,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
+    ]
         }
 ---
