@@ -18,6 +18,6 @@
 />
 # Help with delegated admin privileges
 
-## Recommended Documents
+## **Recommended Documents**
 
-## [Help with delegated admin privileges] (https://docs.microsoft.com/partner-center/customers_revoke_admin_privileges)
+* **[Help with delegated admin privileges](https://docs.microsoft.com/partner-center/customers_revoke_admin_privileges)**
