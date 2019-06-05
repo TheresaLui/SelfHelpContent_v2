@@ -16,7 +16,7 @@
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
-# Aczure AD tenants and Partner Center
+# Azure AD tenants and Partner Center
 
 ## **Recommended documents**
 [Work accounts, Azure AD tenants, and Partner Center](https://docs.microsoft.com/partner-center/azure-active-directory-tenants-and-partner-center)
