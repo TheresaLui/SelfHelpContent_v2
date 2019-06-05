@@ -29,7 +29,7 @@
 7. Scale up the Virtual Machine to a different VM type or series for increased performance by clicking 'Size' in the Settings blade of the VM resource
 8. Consider using [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage) if it's an I/O intensive use-case <br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to use the self-help diagnostic tool - PerfInsights](https://docs.microsoft.com/azure/virtual-machines/windows/how-to-use-perfinsights)<br>
 * [Performance diagnostics for Azure virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics)<br>
