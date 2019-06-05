@@ -4,11 +4,11 @@
          authors="ashishgangwar"
 	     ms.author="asgang"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="c791b57a-6fd5-40c8-975f-7c7ba6d9e9b7"
+         supportTopicIds="32536448"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId="32536448"
+	     articleId="c791b57a-6fd5-40c8-975f-7c7ba6d9e9b7"
 />
 # Questions Hyper-V VM resynchronization failure 
 ---
