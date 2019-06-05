@@ -10,7 +10,7 @@
 	articleId="partnercenter_view maps invoice"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635656,32635663,32635680,32635702,32635688"
+	supportTopicIds="32635663"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
