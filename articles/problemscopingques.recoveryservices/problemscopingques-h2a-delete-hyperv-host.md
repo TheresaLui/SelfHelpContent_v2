@@ -2,15 +2,15 @@
          pageTitle="Scoping questions for Hyper-V server deletion failure"
          description="Scoping questions for Hyper-V server deletion failure"
          authors="ashishgangwar"
-	     ms.author="asgang"
+         ms.author="asgang"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds=“32592052"
+         supportTopicIds="32592052"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId="881fcef2-0569-437b-bcda-0eede66b5dd1"
+         articleId="881fcef2-0569-437b-bcda-0eede66b5dd1"
 />
-# Questions Hyper-V server deletion failure
+# Hyper-V server deletion failure
 ---
 {
     "$schema": "SelfHelpContent",
