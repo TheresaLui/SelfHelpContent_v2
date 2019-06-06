@@ -5,7 +5,7 @@
 	resource="vaults"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder=""
+	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds="32637320"
 	resourceTags=""
