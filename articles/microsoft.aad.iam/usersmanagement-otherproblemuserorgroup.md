@@ -2,7 +2,7 @@
     pageTitle="Other problem with group"
     description="otherproblemgroup"
     authors="anupnadigm"
-    ms.authors="anupnadigm"
+    ms.author="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32586794"
     productPesIds="16578"
