@@ -2,6 +2,7 @@
 	pageTitle="CosmosDB Query Performance Issue"
 	description="CosmosDB Query Performance Issue"
 	authors="rnagpal"
+	ms.author="rnagpal"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636795,32636818,32636821"
 	productPesIds="15585"
@@ -13,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "CosmosDB Query Performance Issue",
     "fileAttachmentHint": "",
     "formElements": [
@@ -27,31 +29,21 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "database_name",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Database name",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Database name"
-                }
-            ]
+            "required": false
         },
         {
             "id": "collection_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Collection name",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Collection name"
-                }
-            ]
+            "required": false
         },
         {
             "id": "partition_key",
@@ -74,12 +66,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Cosmos DB Query snippet",
             "required": false,
-            "useAsAdditionalDetails": false,
-            "hints": [
-                {
-                    "text": "Paste the query snippet which is experiencing issues."
-                }
-            ]
+            "useAsAdditionalDetails": false
         },
         {
             "id": "sdk_type",
@@ -116,7 +103,7 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing.",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
