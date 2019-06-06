@@ -11,7 +11,7 @@
 	resourceTags="linux"
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
-	articleId="f82b1ed9-9c4b-4061-93af-3e54d91e3426"
+	articleId="ce3059e1-dea9-432e-8d74-f16235e18dd6"
 />
 
 # Azure Backup - Backup is failing for my VM
