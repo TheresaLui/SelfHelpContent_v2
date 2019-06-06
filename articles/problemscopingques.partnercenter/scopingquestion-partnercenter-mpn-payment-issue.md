@@ -51,7 +51,7 @@
       	"visibility": "mpn_payment_type == Wire transfer",
       "controltype": "datetimepicker",
       "displayLabel": "When was wire transfer done?",
-      "required": true
+      "required": false
     },
     {
       "id": "mpn_wire_transfer_account",
@@ -59,7 +59,7 @@
       	"visibility": "mpn_payment_type == Wire transfer",
       "controltype": "textbox",
       "displayLabel": "Please enter the microsoft account to which wire transfer was done",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",
