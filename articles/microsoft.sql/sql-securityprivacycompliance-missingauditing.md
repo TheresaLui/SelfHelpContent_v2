@@ -10,7 +10,7 @@
 	displayOrder=""
 	articleId="IsMissingAuditing_C355ADE8-6C0E-4F8E-8C2C-940F2196F1DA"
 	diagnosticScenario="missingAuditData"
-	selfHelpType="generic"
+	selfHelpType="diagnostics"
 	supportTopicIds="32630407"
 	resourceTags=""
 	productPesIds="13491"
