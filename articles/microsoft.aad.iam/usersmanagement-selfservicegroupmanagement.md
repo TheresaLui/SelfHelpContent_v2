@@ -1,14 +1,14 @@
 <properties
-    pageTitle="Self service group management"
-    description="self service group management"
-    authors="anupnadigm"
-    ms.author="anmalath"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615431"
-    productPesIds="16578"
-    cloudEnvironments="public"
-    schemaVersion="1"
-    articleId="1813121f-9a01-4698-8b29-b2eb4e79a6df"
+	pageTitle="Self Service Group Management"
+	description="Self Service Group Management"
+	authors="anupnadigm"
+	ms.author="anmalath"
+	selfHelpType="problemscopingquestions"
+	supportTopicIds="32615431"
+	productPesIds="16578"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId="1813121f-9a01-4698-8b29-b2eb4e79a6df"
 />
 
 # Self service group management
