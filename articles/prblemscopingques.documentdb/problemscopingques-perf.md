@@ -80,12 +80,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "SDK Version",
-            "required": false,
-            "hints": [
-                {
-                    "text": "SDK Version"
-                }
-            ]
+            "required": false
         },
         {
             "id": "problem_description",
