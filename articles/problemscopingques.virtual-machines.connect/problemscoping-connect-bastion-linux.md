@@ -5,15 +5,14 @@
                 ms.author="tibasham"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615526"
-                productPesIds="14749"
+                productPesIds="15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="a5907259-3329-4b6f-8a82-310965520f9d"
+                articleId="51bd129f-25b0-4252-9ca5-dcf05e7e7774"
 />
 # Connect to a VM using Azure Bastion
 ---
 {
-    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Failure to connect to the VM using Azure Bastion",
     "fileAttachmentHint": "",
@@ -29,6 +28,7 @@
         {
             "id": "bastionresource",
             "order": 2,
+            "visibility": "ippublicprivate == Azure Bastion",
             "controlType": "dropdown",
             "displayLabel": "Please select your Azure Bastion resource",
             "watermarkText": "Choose a resource",
@@ -46,6 +46,7 @@
         {
             "id": "bastionbrowser",
             "order": 3,
+            "visibility": "ippublicprivate == Azure Bastion",
             "controlType": "textbox",
             "displayLabel": "What browser are you using?",
             "useAsAdditionalDetails": false,
@@ -54,6 +55,7 @@
         {
             "id": "bastionbrowserversion",
             "order": 4,
+            "visibility": "ippublicprivate == Azure Bastion",
             "controlType": "textbox",
             "displayLabel": "What version is your browser?",
             "useAsAdditionalDetails": false,
@@ -62,44 +64,15 @@
         {
             "id": "bastionbrowseros",
             "order": 5,
+            "visibility": "ippublicprivate == Azure Bastion",
             "controlType": "textbox",
             "displayLabel": "What OS is your browser running in?",
             "useAsAdditionalDetails": false,
             "required": false
         },
         {
-            "id": "isadmin",
-            "order": 6,
-            "controlType": "dropdown",
-            "displayLabel": "Is this the built-in administrator account?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "I do not know",
-                    "text": "I do not know"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "name_useraccount",
-            "order": 7,
-            "visibility": "isadmin == No || isadmin == I do not know",
-            "controlType": "textbox",
-            "displayLabel": "What is the name of the user account trying to login?",
-            "required": false
-        },
-        {
             "id": "connect_ifnew",
-            "order": 8,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Is this VM new to Azure?",
             "watermarkText": "Choose an option",
@@ -121,7 +94,7 @@
         },
         {
             "id": "connect_from",
-            "order": 9,
+            "order": 7,
             "visibility": "connect_ifnew == Yes",
             "controlType": "dropdown",
             "displayLabel": "Where is the VM from?",
@@ -148,7 +121,7 @@
         },
         {
             "id": "connect_howmigrated",
-            "order": 10,
+            "order": 8,
             "visibility": "connect_from == On premise || connect_from == From another cloud provider",
             "controlType": "dropdown",
             "displayLabel": "How was this machine migrated?",
@@ -175,7 +148,7 @@
         },
         {
             "id": "connect_wasoncloud",
-            "order": 11,
+            "order": 9,
             "visibility": "connect_from == On premise",
             "controlType": "dropdown",
             "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
@@ -194,7 +167,7 @@
         },
         {
             "id": "connect_config",
-            "order": 12,
+            "order": 10,
             "controlType": "dropdown",
             "displayLabel": "Please specify your configuration change prior to the issue starting",
             "watermarkText": "Choose an option",
@@ -227,46 +200,8 @@
             "required": false
         },
         {
-            "id": "machinetype",
-            "order": 13,
-            "controlType": "dropdown",
-            "displayLabel": "From which type of machine are you trying to RDP into?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Windows 7/Windows Server 2008R2",
-                    "text": "Windows 7/Windows Server 2008R2"
-                },
-                {
-                    "value": "Windows 8/Windows Server 2012",
-                    "text": "Windows 8/Windows Server 2012"
-                },
-                {
-                    "value": "Windows 8.1/Windows Server 2012R2",
-                    "text": "Windows 8.1/Windows Server 2012R2"
-                },
-                {
-                    "value": "Windows 10/Windows Server 2016",
-                    "text": "Windows 10/Windows Server 2016"
-                },
-                {
-                    "value": "Windows 10/Windows Server 2019",
-                    "text": "Windows 10/Windows Server 2019"
-                },
-                {
-                    "value": "Android or iOS",
-                    "text": "Android or iOS"
-                },
-                {
-                    "value": "Other",
-                    "text": "Other"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "problem_description",
-            "order": 14,
+            "order": 11,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -274,7 +209,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 15,
+            "order": 12,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
