@@ -102,6 +102,10 @@
                 {
                     "value": "Private IP",
                     "text": "Private IP"
+                },
+                {
+                    "value": "Azure Bastion",
+                    "text": "Azure Bastion"
                 }
             ],
             "required": false
@@ -168,8 +172,53 @@
             "required": false
         },
         {
-            "id": "isadmin",
+            "id": "bastionresource",
             "order": 9,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "dropdown",
+            "displayLabel": "Please select your Azure Bastion resource",
+            "watermarkText": "Choose a resource",
+            "dynamicDropdownOptions": [
+                {
+                    "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Network/bastionHosts?api-version=2019-04-01",
+                    "jTokenPath": "value",
+                    "textProperty": "name",
+                    "valueProperty": "id",
+                    "textPropertyRegex": "[^/]+$"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "bastionbrowser",
+            "order": 10,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What browser are you using?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "bastionbrowserversion",
+            "order": 11,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What version is your browser?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "bastionbrowseros",
+            "order": 12,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What OS is your browser running in?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "isadmin",
+            "order": 13,
             "controlType": "dropdown",
             "displayLabel": "Is this the built-in administrator account?",
             "watermarkText": "Choose an option",
@@ -191,7 +240,7 @@
         },
         {
             "id": "name_useraccount",
-            "order": 10,
+            "order": 14,
             "visibility": "isadmin == No || isadmin == I do not know",
             "controlType": "textbox",
             "displayLabel": "What is the name of the user account trying to login?",
@@ -199,7 +248,7 @@
         },
         {
             "id": "connect_ifnew",
-            "order": 11,
+            "order": 15,
             "controlType": "dropdown",
             "displayLabel": "Is this VM new to Azure?",
             "watermarkText": "Choose an option",
@@ -221,7 +270,7 @@
         },
         {
             "id": "connect_from",
-            "order": 12,
+            "order": 16,
             "visibility": "connect_ifnew == Yes",
             "controlType": "dropdown",
             "displayLabel": "Where is the VM from?",
@@ -248,7 +297,7 @@
         },
         {
             "id": "connect_howmigrated",
-            "order": 13,
+            "order": 17,
             "visibility": "connect_from == On premise || connect_from == From another cloud provider",
             "controlType": "dropdown",
             "displayLabel": "How was this machine migrated?",
@@ -275,7 +324,7 @@
         },
         {
             "id": "connect_wasoncloud",
-            "order": 14,
+            "order": 18,
             "visibility": "connect_from == On premise",
             "controlType": "dropdown",
             "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
@@ -294,7 +343,7 @@
         },
         {
             "id": "connect_ifbackup",
-            "order": 15,
+            "order": 19,
             "controlType": "dropdown",
             "displayLabel": "Was this VM recovered from backup?",
             "watermarkText": "Choose an option",
@@ -316,7 +365,7 @@
         },
         {
             "id": "connect_ifinternet",
-            "order": 16,
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Do you have connectivity issues from/to this VM?",
             "watermarkText": "Choose an option",
@@ -334,7 +383,7 @@
         },
         {
             "id": "connect_internetissue",
-            "order": 17,
+            "order": 21,
             "visibility": "connect_ifinternet == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is the problem you are having?",
@@ -365,7 +414,7 @@
         },
         {
             "id": "problem_description",
-            "order": 18,
+            "order": 22,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -373,7 +422,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 19,
+            "order": 23,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
