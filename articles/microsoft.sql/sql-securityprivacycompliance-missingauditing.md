@@ -1,17 +1,19 @@
 <properties
 	pageTitle="security, privacy and compliance/missingauditing"
 	description="security, privacy and compliance/missingauditing"
+	infoBubbleText="Informational message about missing auditing data.  See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	infoBubbleText="Informational message about missing auditing data"
+	authoralias="scfitzge"
 	authors="scfitzge"
-	ms.author="scfitzge"
+	ms.author="fitzgeraldsw"
 	displayOrder=""
+	articleId="IsMissingAuditing_C355ADE8-6C0E-4F8E-8C2C-940F2196F1DA"
+	diagnosticScenario="missingAuditData"
 	selfHelpType="generic"
 	supportTopicIds="32630407"
-	productPesIds="13491"
 	resourceTags=""
-	articleId="IsMissingAuditing_C355ADE8-6C0E-4F8E-8C2C-940F2196F1DA"
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
