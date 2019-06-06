@@ -83,6 +83,10 @@
                 {
                     "text": "Password Synchronization process is not working and is affecting many or all users",
                     "value": "global"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -160,6 +164,7 @@
             "useAsAdditionalDetails": true,
             "numberOfLines": 0
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

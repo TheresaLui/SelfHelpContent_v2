@@ -10,6 +10,7 @@
   resourceTags="mfa_overview"
   productPesIds=""
   cloudEnvironments="public"
+	articleId="f8d7255a-bb40-42bc-93a5-741b7e4fd8dc"
 />
 
 # Problems with Azure MFA Server settings

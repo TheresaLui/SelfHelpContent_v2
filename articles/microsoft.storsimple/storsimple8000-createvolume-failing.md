@@ -10,6 +10,7 @@
 	resourceTags="8000Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="7e0a846f-7536-40c3-b59b-b2ed04ef394a"
 />
 
 # I can't create volumes or volume containers

@@ -10,6 +10,7 @@
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
+	articleId="7dbeb718-9f09-4bf9-aa98-0b1c11893a1c"
 />
 
 # My SQL Server VM is slow

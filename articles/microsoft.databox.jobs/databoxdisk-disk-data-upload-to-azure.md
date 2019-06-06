@@ -5,13 +5,14 @@
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="madhurinms"
-	authorAlias="madhn"
+	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32614262, 32614279, 32614281, 32614285, 32614289, 32614290, 32614291"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public"
+	articleId="86bef2de-f277-4281-b772-72f57f524f96"
 />
 
 # Data Box Disk Data Copy

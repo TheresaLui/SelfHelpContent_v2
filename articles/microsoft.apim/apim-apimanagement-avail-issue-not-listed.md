@@ -9,6 +9,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="54e72aa3-0d26-450c-ab97-e29e6984aa3c"
 />
 
 # My issue is not listed here

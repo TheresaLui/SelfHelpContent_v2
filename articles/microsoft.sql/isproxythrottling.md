@@ -5,7 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="subbu-kandhaswamy"
-	authorAlias="subbuk"
+	ms.author="subbuk"
 	displayOrder=""
 	articleId="IsProxyThrottling_0A86E0B4-1C26-4ACD-9B95-C6296829B8D8"
 	diagnosticScenario="crc_sqldb_connectivity"

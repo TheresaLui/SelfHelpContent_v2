@@ -10,7 +10,8 @@
     resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
     productPesIds=""
     cloudEnvironments="public"
-    />
+    	articleId="68d45e6c-8e68-46ad-bf5e-d4f455917544"
+/>
 
 # B2B collaboration: I want to add guest users without an invitation
 

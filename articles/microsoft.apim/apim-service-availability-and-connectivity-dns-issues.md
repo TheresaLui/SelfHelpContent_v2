@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="32ad0b1e-e89e-40ee-9f97-b1c02104512a"
 />
 
 # DNS Issues

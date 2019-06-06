@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="4722c0c6-5946-41ca-aa43-6052aa2867c5"
 />
 
 # Performance/Write Accelerator

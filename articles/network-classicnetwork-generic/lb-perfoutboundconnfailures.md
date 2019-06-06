@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="04ad90c7-89dc-47a2-80a1-cb7e56979595"
 />
 
 # performance/outbound connection failures

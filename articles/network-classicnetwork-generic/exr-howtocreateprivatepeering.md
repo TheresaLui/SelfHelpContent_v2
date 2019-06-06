@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="264edc48-3960-4b11-8378-e47bfed79ac3"
 />
 
 # configuration and setup/how to create and modify azure private peering 

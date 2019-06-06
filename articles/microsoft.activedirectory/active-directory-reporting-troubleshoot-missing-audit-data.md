@@ -10,6 +10,7 @@
     resourceTags="azureadrreports_missingdata_audit"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="bb9285b9-2ee1-434e-9497-5307f8b9d93a"
 />
 
 # I can’t find actions performed in Azure Active Directory in the activity logs

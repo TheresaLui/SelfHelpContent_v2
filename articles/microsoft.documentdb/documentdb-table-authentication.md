@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="90ca157f-14a3-400c-95da-a5ba5b1a021c"
 />
 
 # I am getting authentication failure to my Azure Cosmos DB table collection

@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25" 
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614257"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="bb8d2988-dff2-43c7-9f3c-400f650f26ca"
 />
 
 # URL Rewrite

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public,MoonCake"
+	articleId="24a774b4-3aaf-46b5-aa55-64247af90249"
 />
 
 # Unable to delete Storage Account

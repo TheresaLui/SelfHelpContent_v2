@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="44e6e331-7e0a-431e-87fd-d09551638fda"
 />
 
 # Azure Databricks Delta

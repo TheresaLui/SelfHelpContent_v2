@@ -5,13 +5,14 @@
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="madhurinms"
-	authorAlias="madhn"
+	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32614263, 32614267, 32614268, 32614273, 32614275, 32614294"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public"
+	articleId="aa5e4203-744b-4281-9f7b-a420cfb8bd30"
 />
 
 # Data Box Disk Order Creation

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15791"
 	cloudEnvironments="public"
+	articleId="000e4ba7-e364-48ce-b1e0-bf7dc68067be"
 />
 
 # configuration and management/biztalk connectors

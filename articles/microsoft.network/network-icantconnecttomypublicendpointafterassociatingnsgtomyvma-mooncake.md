@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="networksecuritygroups"
     authors="radwiv"
-    authoralias="radwiv"
+    ms.author="radwiv"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="9a622df1-5f1b-4bfb-90fe-ab7f88d5d4d9"
 />
 
 # I cannot connect to my public endpoint after associating NSG to my virtual machine.

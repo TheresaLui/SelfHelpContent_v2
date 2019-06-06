@@ -4,13 +4,14 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="dkershaw10"
-	authoralias="dkershaw"
+	ms.author="dkershaw"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596853"
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="d762b5bb-f03f-4f23-896a-a77d2b89fc19"
 />
 
 # Microsoft Graph OneDrive API issues

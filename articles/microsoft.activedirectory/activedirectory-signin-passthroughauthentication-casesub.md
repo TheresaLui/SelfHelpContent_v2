@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="aba27273-cfe3-4df0-86e6-96d6d6bed803"
+/>
 
 # Enabling Pass-through authentication
 

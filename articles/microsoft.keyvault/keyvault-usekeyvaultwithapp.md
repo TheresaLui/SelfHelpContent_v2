@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="5a2d8c00-0edd-43cb-85a0-ea1947020704"
 />
 
 # How to Use Key Vault with an Application

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16577"
 	cloudEnvironments="public"
+	articleId="bcb5dde1-bae9-4225-857e-9316ea7ac7f3"
 />
 
 # Unable to activate roles due to Azure resource locks

@@ -66,6 +66,10 @@
                 {
                     "text": "Yes we have an additional Azure AD or use Office 365",
                     "value": "ContainsMultiple"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -99,6 +103,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

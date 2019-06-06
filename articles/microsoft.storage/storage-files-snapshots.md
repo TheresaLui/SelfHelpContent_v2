@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="12426160-23d7-498b-ad4b-d3cc5c130b5f"
 />
 
 # Azure Files Snapshots  

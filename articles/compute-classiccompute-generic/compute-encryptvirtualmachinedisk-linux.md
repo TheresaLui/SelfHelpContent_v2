@@ -4,16 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32518038,32518039"
-	resourceTags="linux, redhat"
-	productPesIds="15571,15797,16454"
+	resourceTags=""
+	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="8b8135ac-b1d3-4f51-a983-0d03ccf4320f"
 />
+
 # Configuration and Setup/Encrypt virtual machine disk
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * Experiencing *ErrorMessage: Azure Disk Encryption extension version '2.2' is not supported*? [Click here for the solution](https://support.microsoft.com/help/4339481)<br>
 * [Understanding Azure Disk Encryption for Windows IaaS VMs](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>

@@ -7,6 +7,7 @@
 	supportTopicIds="32457411"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="adb2debf-fad4-4334-996d-4fbb8fda0c53"
 />
 
 # Web app slow

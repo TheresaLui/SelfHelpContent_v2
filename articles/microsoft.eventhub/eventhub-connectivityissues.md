@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16125"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="b0f5d885-cd9d-4e80-b07a-ea26fc4040cf"
 />
 
 # connectivity issues

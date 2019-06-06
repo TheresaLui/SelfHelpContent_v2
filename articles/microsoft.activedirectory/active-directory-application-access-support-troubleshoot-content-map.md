@@ -8,7 +8,8 @@
   supportTopicIds="32570263"
   productPesIds="14785,16575"
   cloudEnvironments="public"
- />
+ 	articleId="ed9b0fba-366a-4990-8d64-8843f362a2bf"
+/>
 
 # Problems managing application access and permissions
 

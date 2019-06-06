@@ -10,6 +10,7 @@
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="07b6b188-8986-4d01-87c0-625e6527d083"
 />
 
 # I can't see more than 30 days of report data

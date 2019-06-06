@@ -32,6 +32,10 @@
                 {
                     "text": "Disable Azure AD Domain Services",
                     "value": "disable"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -58,6 +62,10 @@
                 {
                     "text": "New Azure Portal",
                     "value": "disable"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -152,6 +160,7 @@
             "useAsAdditionalDetails": true,
             "numberOfLines": 0
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

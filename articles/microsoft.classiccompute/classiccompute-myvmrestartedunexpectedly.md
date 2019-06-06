@@ -4,27 +4,28 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32411816,32593740,32628269,32628280,32628287"
 	resourceTags="windows,windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
+	articleId="6580b9a1-f3cb-4aee-8745-7412f189e555"
 />
 
 # My VM restarted unexpectedly
 
-4 out of 5 customers resolved their VM restart issue using the below steps.<br>
+4 out of 5 customers resolved their VM restart issue using the steps below.<br>
 
-## **Recommended steps**
+## **Recommended Steps**
 
-The common reasons for a VM restarting are: Azure caused (planned or unplanned maintenance or outage), or issues with the OS or application. Use the following steps to find out the reason for a past restart and to mitigate possible future occurrences.<br>
+The most common reasons for a VM restarting are Azure caused (planned/unplanned maintenance or outage), or issues with the OS or application. Use the following steps to find out the reason for a past restart and to mitigate possible future occurrences:
 
-1. Review [Resource Health](data-blade:microsoft_azure_support.resourcehealthdetailblade.resourceId.$resourceId) for the impacted VM.<br>
-2. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) for the time period of the restart to determine the reason.<br>
+1. Review [Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for the impacted VM to understand the RCA
+2. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) for the time period of the restart to determine the reason
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>

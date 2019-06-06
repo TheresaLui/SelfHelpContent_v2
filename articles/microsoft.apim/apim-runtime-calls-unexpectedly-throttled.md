@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="0cc5cb2f-a453-4640-a38e-ef7b65faacb4"
 />
 
 # Calls are being unexpectedly throttled

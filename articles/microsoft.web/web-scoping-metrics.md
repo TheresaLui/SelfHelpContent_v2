@@ -7,6 +7,7 @@
 	supportTopicIds="32581617"
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake"
+	articleId="04735758-f753-4679-8059-f849146021d0"
 />
 
 # Metrics are not available or are incorrect

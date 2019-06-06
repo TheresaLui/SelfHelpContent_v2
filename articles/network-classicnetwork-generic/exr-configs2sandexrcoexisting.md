@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="c83008b5-42a7-4adc-9fa7-7d3ef81b6726"
 />
 
 # How to configure ExpressRoute and site-to-site coexisting connections

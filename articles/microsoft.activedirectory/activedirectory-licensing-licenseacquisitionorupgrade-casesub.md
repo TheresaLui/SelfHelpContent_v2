@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16578"
     cloudEnvironments="public"
- />
+ 	articleId="27a27e60-5ea0-43fb-bd8d-9260c7cdca50"
+/>
 
 # Acquire or upgrade licenses
 

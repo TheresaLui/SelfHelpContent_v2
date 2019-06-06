@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="f186e667-2cfb-4931-935e-01b1e2be02fd"
 />
 
 # Setup Intune - Add Users

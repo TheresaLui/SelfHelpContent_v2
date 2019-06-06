@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+	articleId="c8217076-9f5e-465a-bedd-9c78f79bdf79"
 />
 
 # How to migrate Azure AD Connect from LocalDB to full SQL
