@@ -2,7 +2,7 @@
 	pageTitle="Azure Backup - Restore is failing"
 	description="Azure Backup - Restore is failing"
 	service="microsoft.recoveryservices"
-	resource="vaults"
+	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="8"
