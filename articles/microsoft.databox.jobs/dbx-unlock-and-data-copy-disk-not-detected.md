@@ -1,0 +1,29 @@
+
+<properties
+	pageTitle="Data Box setup and configuration"
+	description="Learn how to handle issues related to Data Box Disk unlock and data copy"
+	service="microsoft.databox.jobs"
+	resource=""
+	authors="madhurinms"
+	ms.author="madhn"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32639208"
+	resourceTags=""
+	productPesIds="16505"
+	cloudEnvironments="public,fairfax"
+	articleId="32639207"
+/>
+
+# Data Box Disk unlock and data copy
+
+**Can't unlock the Data Box Disk **
+
+## **Recommended Documents**
+
+* [Data Box Disk unlock and data copy](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-deploy-set-up)<br>
+* [Data Box Disk FAQ](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-faq)<br>
+
+
+
+

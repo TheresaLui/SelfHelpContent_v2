@@ -21,4 +21,7 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot errors during data copy](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)
+**Troubleshoot errors during data copy**
+
+* [Data Box](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)
+* [Data Box Disk](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-troubleshoot)

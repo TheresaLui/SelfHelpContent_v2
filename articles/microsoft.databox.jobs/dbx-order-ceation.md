@@ -37,6 +37,7 @@ I ordered a couple of Data Box devices. I am not able to create any additional o
 ## **Recommended Documents**
 
 * [Data Box FAQ](https://docs.microsoft.com/azure/databox/data-box-faq)
+* [Data Box Disk FAQ](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-faq)
 
 
 
