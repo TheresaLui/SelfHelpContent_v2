@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Backup - Restore is failing"
 	description="Azure Backup - Restore is failing"
-	service="microsoft.recoveryservices"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
