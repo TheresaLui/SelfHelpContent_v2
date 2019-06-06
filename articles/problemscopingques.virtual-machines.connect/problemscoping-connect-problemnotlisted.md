@@ -238,6 +238,10 @@
                 {
                     "value": "From another cloud provider",
                     "text": "From another cloud provider"
+                },
+                {
+                        "value": "Azure Marketplace",
+                        "text": "Azure Marketplace"
                 }
             ],
             "required": false

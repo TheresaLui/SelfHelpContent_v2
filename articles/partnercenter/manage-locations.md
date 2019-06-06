@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Update your billing info"
-	description="Manage your billing info"
+	pageTitle="Account locations"
+	description="Manage your account locations"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
 	authors="LauraBrenner"
 	ms.author="labrenne"
 	displayOrder=""
-	articleId="partnercenter_update_your_partner_profile"
+	articleId="partnercenter_account-locations"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635655"
+	supportTopicIds="32635647"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
-# Change your billing info
+# Account locations
 
 ## **Recommended Documents**
 
-* [Update your partner profile, including your billing info](https://docs.microsoft.com/partner-center/update-your-partner-profile)
+* [Manage your account locations](https://docs.microsoft.com/partner-center/manage-locations)

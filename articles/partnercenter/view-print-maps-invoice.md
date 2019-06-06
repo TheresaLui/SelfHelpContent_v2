@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Update your billing info"
-	description="Manage your billing info"
+	pageTitle="View or print your MAPs invoice"
+	description="View or print your MAPs invoice"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
 	authors="LauraBrenner"
 	ms.author="labrenne"
 	displayOrder=""
-	articleId="partnercenter_update_your_partner_profile"
+	articleId="partnercenter_view maps invoice"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635655"
+	supportTopicIds="32635663"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
-# Change your billing info
+# View or print your MAPs invoice
 
 ## **Recommended Documents**
 
-* [Update your partner profile, including your billing info](https://docs.microsoft.com/partner-center/update-your-partner-profile)
+* [View or print your MAPs invoice](https://docs.microsoft.com/partner-center/mpn-view-print-maps-invoice)
