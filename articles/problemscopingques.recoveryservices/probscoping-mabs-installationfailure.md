@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for Azure backup server Installation or Configuration Failures"
          description="Scoping questions for Azure backup server Installation or Configuration Failures"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32570754"
          productPesIds="15207"
@@ -13,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure backup server Installation or Configuration Failures",
     "fileAttachmentHint": "",
     "formElements": [
@@ -31,6 +33,10 @@
                 {
                     "value": "Upgrade from V1 to V2",
                     "text": "Upgrade from V1 to V2"
+                },
+                {
+                    "value": "Upgrade from V2 to V3",
+                    "text": "Upgrade from V2 to V3"
                 },
                 {
                     "value": "dont_know_answer",
@@ -73,7 +79,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the dedicated server?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "registration_Type",
@@ -90,19 +96,17 @@
                 {
                     "value": "Re-registration",
                     "text": "Re-registration"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
         },
         {
-            "id": "prerequisites_links",
-            "order": 5,
-            "controlType": "infoblock",
-            "content": "To ensure successful installation and configuration, refer to these prerequisites and dependencies: <a href='https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#which-operating-systems-does-azure-backup-support-br'>supported OS</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://www.microsoft.com/download/details.aspx?id=53345'>.net framework version requirements</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites.</a>"
-        },
-        {
             "id": "basic_troubleshooting_multiselect",
-            "order": 6,
+            "order": 5,
             "visibility": "issue_Type == Microsoft Azure Recovery Service agents failed to install",
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
@@ -134,35 +138,25 @@
                 {
                     "value": "Ensure c:/windows/temp folder has less than 60,000 files",
                     "text": "Ensure c:/windows/temp folder has less than 60,000 files"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
         {
-            "id": "learn_more_text1",
-            "order": 7,
-            "visibility": "issue_Type == Microsoft Azure Recovery Service agents failed to install || issue_Type == SQL components failed to install || issue_Type == Microsoft Azure backup(DPM) software failed to install",
-            "controlType": "infoblock",
-            "content": "Installation of Azure Backup Server on a domain controller is not supported, <a href='https://docs.microsoft.com/azure/backup/backup-mabs-install-azure-stack#using-an-iaas-vm-in-azure-stack'>learn more</a>."
-        },
-        {
-            "id": "learn_more_text2",
-            "order": 8,
-            "visibility": "issue_Type == Microsoft Azure Recovery Service agents failed to install || issue_Type == SQL components failed to install || issue_Type == Microsoft Azure backup(DPM) software failed to install",
-            "controlType": "infoblock",
-            "content": "Please upload  DPMSetup.txt file located at C:\\\\Program Files\\\\Microsoft Azure Backup Server\\\\DPM\\\\DPMLogs\\\\ using 'File upload' on the left."
-        },
-        {
             "id": "error_message",
-            "order": 9,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text from the console",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 10,
+            "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -172,11 +166,12 @@
         },
         {
             "id": "problem_start_time",
-            "order": 11,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -13,40 +13,41 @@
 # Cluster failed state
 ---
 {
-                "subscriptionRequired": true,
-                "resourceRequired": true,
-                "title": "Cluster failed state",
-                "fileAttachmentHint": "",
-                "formElements": [
-                 {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
-                },
-                {
-                    "id": "getErrorMsg",
-                    "order": 2,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What error message did you receive while performing this operation, if any?",
-                    "required": false
-                  },
-                  {
-                    "id": "getLastOperationPerformed",
-                    "order": 3,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What was the last operation performed before cluster went in to this state?",
-                    "required": false
-                  },
-                  {
-                  "id": "problem_description",
-                  "order": 4,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  }
-                ]
+    "subscriptionRequired": true,
+    "resourceRequired": true,
+    "title": "Cluster failed state",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "getErrorMsg",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What error message did you receive while performing this operation, if any?",
+            "required": false
+        },
+        {
+            "id": "getLastOperationPerformed",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What was the last operation performed before cluster went in to this state?",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

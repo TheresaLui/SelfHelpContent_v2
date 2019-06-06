@@ -13,8 +13,8 @@
 # Questions Azure VM Failover Failures
 ---
 {
-     "subscriptionRequired": true,
-     "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Azure VM Test Failover failures",
     "fileAttachmentHint": "",
     "formElements": [
@@ -23,9 +23,9 @@
             "order": 1,
             "visibility": "null",
             "controlType": "textbox",
-             "displayLabel": "What is the OS version of the affected virtual machine?",
+            "displayLabel": "What is the OS version of the affected virtual machine?",
             "watermarkText": "Example: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -41,7 +41,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the ID of failed Site Recovery job Activity:",
             "watermarkText": "Example. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "Select_ErrorMessage",
@@ -62,14 +62,14 @@
                     "value": "Test failover succeeded but failed to get the desired IP",
                     "text": "the test failover succeeded but failed to get the desired IP"
                 },
-		        {
-		            "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		        }
+                }
             ],
             "required": true
         },
-       {
+        {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
@@ -86,6 +86,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

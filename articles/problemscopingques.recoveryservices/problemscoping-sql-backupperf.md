@@ -21,11 +21,19 @@
         {
             "id": "machine_name",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which machine is experiencing the problem?",
-            "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": false
-        },{
+            "watermarkText": "Select the virtual machine running SQL",
+            "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*"
+          },
+           "required": false
+        },
+        {
             "id": "database_Name",
             "order": 2,
             "controlType": "textbox",
@@ -67,7 +75,7 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-		{
+        {
             "id": "job_Running_Time",
             "order": 5,
             "controlType": "textbox",
@@ -92,6 +100,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

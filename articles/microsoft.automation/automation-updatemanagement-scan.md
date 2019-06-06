@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32615228"
+    supportTopicIds="32615228, 32642187"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
@@ -27,13 +27,8 @@ This article will help with several kinds of issues relating to using the Azure 
 
 ### **Updates show as installed, but I can't find them on my machine**
 
-* Updates are often superceded by other updates. For more information, see ["Update is superseded" in the Windows Update Troubleshooting guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer)
+* Updates are often superseded by other updates. For more information, see ["Update is superseded" in the Windows Update Troubleshooting guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer)
 
-### **Update Agent Readiness doesn't show "ready"**
-
-* For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report
-* For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
-* Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
 
 ### **Machine shows as "not assessed"**
 
@@ -61,6 +56,12 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 ### **Updating machines across different tenants**
 
 * If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
+
+### **Update Agent Readiness doesn't show "ready"**
+
+* For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report
+* For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
+* Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
 
 
 ## **Recommended Documents**

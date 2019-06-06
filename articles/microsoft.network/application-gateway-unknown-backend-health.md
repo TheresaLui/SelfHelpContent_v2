@@ -1,15 +1,16 @@
 <properties 
     pageTitle="Unknown backend health"
     description="Unknown backend health with Application Gateway"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot unknown backend issues with Application Gateway."
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    selfHelpType="diagnostics"
+    displayOrder="21"
+    selfHelpType="resource"
     articleId="application-gateway-unknown-backend-health"
-    diagnosticScenario="ApplicationGatewayUnknownBackendHealth"
-    supportTopicIds="32639117"
+	resourceTags=""
+	productPesIds="15922"
+    supportTopicIds="32639116"
     cloudEnvironments="public"
  />
 

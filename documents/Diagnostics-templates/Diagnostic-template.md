@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId=""
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
@@ -18,9 +18,11 @@
 
 # <-- This is the title of the solution. It is not displayed in the portal, however, an **H1** header is a required part of every file. -->
 
+## ** <-- Diagnostic Title or H2 OUTSIDE the issueDescription tag --> **
 <!--issueDescription-->
-## ** <-- Diagnostic Title --> **
-This is text with a replacement token **<!--$tokenname-->[tokenname]<!--/$tokenname-->**. There can be more text and another replacement token **<!--$tokenname2-->[tokenname2]<!--/$tokenname2-->**. Note that the double asterisk used to demark **bold text** should be added before and after the tags demarking the replacement token.
+This is text with a replacement token **<!--$tokenname-->[tokenname]<!--/$tokenname-->**. There can be more text and another replacement token <!--$tokenname2-->[tokenname2]<!--/$tokenname2-->. Please do NOT use links (internal/blade or external), bold, or italic text formatting within the issueDescription tags.
+
+You can have multiple paragraphs within issueDescription tags.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -55,6 +57,6 @@ This is an example of a bulleted list. Note that only 2 levels of bullets are su
 * Your Recommended Steps should be actual steps, not just links to other articles
 * Ensure all links to Microsoft docs are non-region-specific, i.e. does not include /en-us/. This does not apply to articles for Mooncake.
 * Don't link to internal review documentation - these URLs always start with "review.microsoft.docs", and users are unable to access them
-* Avoid using aka.ms short links where possible
+* Do not use aka.ms short links
 * Copy the raw form of this article to use as a template for your own Diagnostic article. Be sure to fill in the metadata!
 
