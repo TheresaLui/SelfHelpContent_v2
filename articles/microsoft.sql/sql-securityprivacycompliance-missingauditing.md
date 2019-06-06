@@ -4,7 +4,6 @@
 	service="microsoft.sql"
 	resource="servers"
 	infoBubbleText="Informational message about missing auditing data"
-	resource="servers"
 	authors="scfitzge"
 	ms.author="scfitzge"
 	displayOrder=""
