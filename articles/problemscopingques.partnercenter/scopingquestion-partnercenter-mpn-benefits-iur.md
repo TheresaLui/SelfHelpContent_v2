@@ -8,7 +8,7 @@
 	productPesIds="15960"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="scopingquestion_partnercenter_MPN_benefits_iur"
+	articleId="scopingquestion_partnercenter_MPN_benefits_IUR_requests"
 	clientIds="partnercenter"
 />
 #Partner Center MPN benefits IUR requests
