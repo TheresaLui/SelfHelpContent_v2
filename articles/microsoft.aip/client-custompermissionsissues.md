@@ -21,6 +21,7 @@
 * If the **Custom Permissions**" option is not available in the Azure Information Protection client, verify that the policy setting [**Make the custom permissions option available for users**](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-settings) is enabled
 * Information regarding configuring **Custom Permissions** can be found at [Make the custom permissions options available or unavailable to users](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-customizations#make-the-custom-permissions-options-available-or-unavailable-to-users)
 * Information regarding **User Defined Permissions** can be found here at [To configure a label for protection settings](https://docs.microsoft.com/azure/information-protection/configure-policy-protection#to-configure-a-label-for-protection-settings)
+* If you are having issues with Address Book which isn't opening, review [Configure a prompt when a program accesses an address book by using the Outlook object model](https://support.microsoft.com/help/926512/information-for-administrators-about-e-mail-security-settings-in-outlo)
 * If you still experience the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
