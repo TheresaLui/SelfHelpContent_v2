@@ -1,24 +1,32 @@
 <properties
-	pageTitle="Azure Backup - I am having issues configuring or enabling backup"
-	description="Azure Backup - I am having issues configuring or enabling backup"
+	pageTitle="Azure Backup - Backup is failing for my VM"
+	description="Azure Backup - Backup is failing for my VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="3"
-	selfHelpType="generic"
-	supportTopicIds="32637322"
-	resourceTags="windows"
-	productPesIds="15571,15797,16470,16454,14749"
-	articleId="8add52e9-c225-4d86-be81-e1175203382b"
+	displayOrder="6"
+	selfHelpType="resource"
+	supportTopicIds="32637320"
+	resourceTags=""
+	productPesIds="14749"
 	cloudEnvironments="public"
-	/>
+	articleId="dee16e08-9048-4f4e-9afe-b592ce647817"
+/>
 
-# Azure Backup - I am having issues configuring or enabling backup
+# Azure Backup - Backup is failing for my VM
 
 ## **Recommended Steps**
 
+- [Ensure your Windows VM agent is up to date before troubleshooting further](https://aka.ms/AB-AA4ecqu) <br>
+- [Ensure there is connectivity between VM and Azure Storage endpoints](https://aka.ms/AB-AA4ecqj) <br>
+- [For Snapshot extension issues, uninstall extensions to force reload & retry backup](https://aka.ms/AB-AA4e56b) <br>
+- [OS Versions older than Windows Server 2008 R2 are not supported for Backup](https://aka.ms/AA4evhu)
+
+## **Recommended Documents**
+
 - [UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup](https://aka.ms/AB-AA4ecq8) <br>
+- [UserErrorStandardSSDNotSupported - Currently Azure Backup does not support Standard SSD disks](https://aka.ms/AB-AA4ecqd) <br>
 - [UserErrorBackupOperationInProgress/SystemBackupOperationInProgress - Unable to initiate backup as another backup operation is currently in progress](https://aka.ms/AB-AA4e56y) <br>
 - [UserErrorUnsupportedDiskSize - Currently Azure Backup does not support disk sizes greater than 4095GB](https://aka.ms/AB-AA4ecqf) <br>
 - [ExtensionSnapshotFailedNoNetwork - Snapshot operation failed due to no network connectivity on the virtual machine](https://aka.ms/AB-AA4ecqk) <br>
@@ -27,7 +35,3 @@
 - [UserErrorKeyvaultPermissionNotConfigured - Backup doesn't have sufficient permissions to the key vault for backup of encrypted VMs](https://aka.ms/AB-AA4e56m) <br>
 - [ExtentionOperationFailed - VMSnapshot extension operation failed](https://aka.ms/AB-AA4e56c) <br>
 - [BackUpOperationFailed / BackUpOperationFailedV2 - Backup fails, with an internal error](https://aka.ms/AB-AA4ecqe) <br>
-
-## **Recommended Documents**
-
-* [Azure Virtual Machine backup troubleshooting guide](https://aka.ms/AB-AA4ecqg)

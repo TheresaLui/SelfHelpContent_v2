@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Azure Virtual Machine Restore failure"
-	description="Azure Virtual Machine Restore failure"
+	pageTitle="Azure backup - Restore is failing for my VM"
+	description="Azure backup - Restore is failing for my VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="3"
+	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32637326"
-	resourceTags=""
-	productPesIds="14749"
+	resourceTags="windows"
+	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
-	articleId="fa9363ae-96d2-4e6a-81c3-8d0ce0ab2b59"
+	articleId="89c1ecd8-5025-41d6-b79c-685f163af217"
 />
 
-# Azure Virtual Machine Restore failure
+# Azure backup - Restore is failing for my VM
 
 ## **Recommended Steps**
 
