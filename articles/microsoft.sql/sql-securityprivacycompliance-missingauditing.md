@@ -7,7 +7,7 @@
 	authoralias="scfitzge"
 	authors="fitzgeraldsw"
 	ms.author="scfitzge"
-	displayOrder=""
+	displayOrder="2"
 	articleId="IsMissingAuditing_C355ADE8-6C0E-4F8E-8C2C-940F2196F1DA"
 	diagnosticScenario="missingAuditData"
 	selfHelpType="diagnostics"
