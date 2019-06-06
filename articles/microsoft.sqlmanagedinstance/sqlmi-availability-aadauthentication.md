@@ -10,7 +10,7 @@
 	articleId="fe2d8ef5-c508-43bf-b20c-bb5f777c5efa"
 	diagnosticScenario=""
 	selfHelpType=""
-	supportTopicIds="32637235"
+	supportTopicIds="32637235,32637236"
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments=""
