@@ -40,7 +40,7 @@
                 },
                 {
                     "text": "Other, don't know or not applicable",
-                    "value": "other"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -89,7 +89,7 @@
                 },
                 {
                     "text": "Other, don't know or not applicable",
-                    "value": "other"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
