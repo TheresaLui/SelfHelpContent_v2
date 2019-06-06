@@ -2,7 +2,7 @@
 	pageTitle="Azure Backup - Backup is failing for my VM"
 	description="Azure Backup - Backup is failing for my VM"
 	service="microsoft.recoveryservices"
-	resource="vaults"
+	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="6"
