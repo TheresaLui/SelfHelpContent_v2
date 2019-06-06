@@ -2,6 +2,7 @@
 	pageTitle="CosmosDB Performance Issue"
 	description="CosmosDB Performance Issue"
 	authors="rnagpal"
+	ms.author="rnagpal"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636818"
 	productPesIds="15585"
@@ -13,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "CosmosDB Performance Issue",
     "fileAttachmentHint": "",
     "formElements": [
@@ -27,31 +29,21 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "database_name",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Database name",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Database name"
-                }
-            ]
+            "required": false
         },
         {
             "id": "collection_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Collection name",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Collection name"
-                }
-            ]
+            "required": false
         },
         {
             "id": "sdk_type",
@@ -100,7 +92,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing.",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
