@@ -4,7 +4,7 @@
 	authors="rnagpal"
 	ms.author="rnagpal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636795,32636818,32636821"
+	supportTopicIds="32636795,32636821"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
