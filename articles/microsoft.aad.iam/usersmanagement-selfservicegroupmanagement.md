@@ -20,7 +20,6 @@
     "title": "Self service group management",
     "fileAttachmentHint": "Screenshot of problem",
     "formElements": [
-       
         {
             "id": "whichUser",
             "visibility": null,
