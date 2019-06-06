@@ -16,6 +16,6 @@
 	cloudEnvironments=""
 />
 
-# Configure or use Azure Active Directory authentication
+# Azure Active Directory authentication
 ## **Recommended documents**
 [Configure and manage Azure Active Directory authentication with SQL Database, Managed Instance, or SQL Data Warehouse](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure)<br>
