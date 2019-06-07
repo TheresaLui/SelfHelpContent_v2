@@ -16,24 +16,6 @@
 	articleId=""
 />
 
-<properties
-	pageTitle="Performance and Query Execution/My issue is not listed"
-	description="Performance and Query Execution/My issue is not listed"
-	infoBubbleText="Performance and Query Execution/My issue is not listed"
-	service="microsoft.sql"
-	resource="servers"
-	authors="danimir"
-	ms.author="danil"
-	displayOrder=""
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32637284"
-	resourceTags=""	
-	productPesIds="16259"
-	cloudEnvironments="public"
-	articleId=""
-/>
-
 # Monitor Managed Instance performance with SQL Analytics
 
 Azure SQL Analytics is an advanced cloud monitoring solution for monitoring performance of Azure SQL Databases, elastic pools, and Managed Instances at scale and across multiple subscriptions through a single pane of glass. It collects and visualizes important Azure SQL Database performance metrics with built-in intelligence for performance troubleshooting.
