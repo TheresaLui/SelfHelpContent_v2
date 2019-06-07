@@ -35,7 +35,7 @@
           "text": "Cancellation of membership"
         },
         {
-          "value": "Other",
+          "value": "dont_know_answer",
           "text": "Other"
         },
       ],
