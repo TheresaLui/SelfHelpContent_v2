@@ -18,8 +18,6 @@
 />
 # Request for refund
 
-## **Recommended Documents**
-
 *  [If you wish to raise refund request for an MPN benefit (Action Pack, Silver level or Gold level) you have purchased then please be aware that your request must match the following criteria to be eligible for a refund
 	- The purchase was made within the last 30 days
 	- All benefits must not be viewed/activated/used and viewing keys (On-premise or cloud products) will result in rejection for refunds
