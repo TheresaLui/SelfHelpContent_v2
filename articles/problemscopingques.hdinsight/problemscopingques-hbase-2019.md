@@ -25,18 +25,18 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
         {
             "id": "application_id",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the HBase application",
-            "required": true
+            "required": false
         },
         {
             "id": "hbase_submission_method",
@@ -70,7 +70,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "HBase query",
             "watermarkText": "HBase query - please replace any parameter value containing PII information in your query",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -87,6 +87,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/hbase/hbase-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -5,7 +5,7 @@
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599860,32599906,32599907,32599908,32615224,32628013,32599859,32599904,32599922,32599862"
+	supportTopicIds="32599906,32599907,32599908,32615224,32628013,32599904,32599862,32642190"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -102,6 +102,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com//azure/automation/troubleshoot/runbooks'>Learn more</a> about troubleshooting runbooks"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

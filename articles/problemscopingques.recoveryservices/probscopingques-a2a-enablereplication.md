@@ -13,6 +13,7 @@
 # Questions Azure VM protection failure 
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure VM configuration failure",
@@ -22,7 +23,7 @@
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
+            "displayLabel": "Which virtual machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
             "required": true
         },
@@ -32,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed Site Recovery job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "Select_ErrorMessage",
@@ -65,10 +66,10 @@
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": true
         },
@@ -90,10 +91,10 @@
                     "value": "VM has required  connectivity",
                     "text": "VM has required connectivity"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": false
         },
@@ -114,6 +115,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

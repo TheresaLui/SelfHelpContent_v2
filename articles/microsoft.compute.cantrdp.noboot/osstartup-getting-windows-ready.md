@@ -6,7 +6,7 @@
     authors="jasonbandrew"
     authorAlias="v-jasoan"
     displayOrder=""
-    articleId="OSStartUp-GETTING_WINDOWS_READY"
+    articleId="dc4015dc-fdb8-45d4-8302-2c6568ad53dd"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"

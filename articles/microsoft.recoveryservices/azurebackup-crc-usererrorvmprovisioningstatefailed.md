@@ -10,7 +10,7 @@
 	articleId="azurebackup-crc-usererrorvmprovisioningstatefailed"
 	diagnosticScenario="azurebackup-crc-usererrorvmprovisioningstatefailed"
 	selfHelpType="diagnostics"
-	supportTopicIds="32553276,32553277,32553285"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -19,8 +19,14 @@
 # Error UserErrorVmProvisioningStateFailed
 
 <!--issueDescription-->
-## We identified that your backup operation failed due to the VM in failed provisioning state.
+We identified that your backup operation failed due to the VM being in a failed provisioning state. This error can occur if any of one of the extensions fail, leaving the VM in a failed provisioned state. To resolve the "UserErrorVmProvisioningStateFailed" issue, ensure that the VM is running or in a shut-down state for the backup operation to succeed. If the VM requires a pending restart, restart and retry the operation.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve UserErrorVmProvisioningStateFailed issue restart the VM and ensure that the VM is running or the VM is in shutdown state for the backup operation to succeed.
+
+* From the Azure portal, go to the extensions list and check if there is a failed extension
+* Attempt to [troubleshoot and recover](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics-vm-extension#troubleshoot-and-support) from the error
+* If the VMSnapshot extension is in **failed** state, follow [these](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) troubleshooting steps
+* If all extensions are running, check the health of the VM Agent by following troubleshooting steps for [Windows](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-but-unresponsive-for-windows-vms) or [Linux](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-is-out-of-date-for-linux-vms)
+
+

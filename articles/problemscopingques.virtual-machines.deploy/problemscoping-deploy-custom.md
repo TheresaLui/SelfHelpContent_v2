@@ -13,7 +13,9 @@
 # Deploy a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Troubleshoot custom image deployment failures",
     "fileAttachmentHint": "",
     "formElements": [
@@ -59,7 +61,8 @@
                     "value": "Deployment failure not found.",
                     "text": "Deployment failure not found."
                 },
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "valuePropertyRegex": "[^/]+$"
             },
             "dropdownOptions": [
                 {
@@ -93,6 +96,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

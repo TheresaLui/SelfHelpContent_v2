@@ -47,39 +47,44 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What's the name of Data Factory?",
-            "required": true
+            "required": false
         },
         {
             "id": "ssisir_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What's the name of Azure-SSIS Integration Runtime?",
-            "required": true
+            "required": false
         },
         {
-			"id": "operation_trigger",
-			"order": 5,
-			"controlType": "dropdown",
-			"displayLabel": "Did you use ADF Portal or SDK?",
-			"dropdownOptions": [{
-					"value": "ADF Portal",
-					"text": "ADF Portal"
-				}, {
-					"value": "PowerShell",
-					"text": "PowerShell"
-				}, {
-					"value": ".NET Client",
-					"text": ".NET Client"
-				}, {
+            "id": "operation_trigger",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Did you use ADF Portal or SDK?",
+            "dropdownOptions": [
+                {
+                    "value": "ADF Portal",
+                    "text": "ADF Portal"
+                },
+                {
+                    "value": "PowerShell",
+                    "text": "PowerShell"
+                },
+                {
+                    "value": ".NET Client",
+                    "text": ".NET Client"
+                },
+                {
                     "value": "Other",
                     "text": "Other"
-                }, {
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Not applicable"
                 }
-			],
-			"required": true
-		},
+            ],
+            "required": true
+        },
         {
             "id": "problem_start_time",
             "order": 6,
@@ -88,12 +93,13 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 7,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		}
-    ]
+            "id": "problem_end_time",
+            "order": 7,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
