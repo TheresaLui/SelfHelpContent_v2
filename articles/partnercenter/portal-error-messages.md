@@ -23,7 +23,7 @@ If an error occurs while you’re on a Partner Center page, you may be prompted 
 
 ## **Recommended Steps**
 
-- On Partner Center pages that include /pcv/ in the URL, you can open the tool manually to collect this information.
+- On Partner Center pages that include /pcv/ in the URL, you can open the tool manually to collect this information
 - On the page with the issue, press Ctrl+Alt+D to open the Client Diagnostic tool
 - Preview the diagnostic information and then save it to a file that you can attach in your support request
 - Review the information in the file before sending it as it can contain personally identifiable information that you may want to remove
