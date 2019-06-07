@@ -1,21 +1,27 @@
 <properties
-         pageTitle="Scoping questions for Azure VM configuration protection failure"
-         description="Scoping questions for Azure VM configuration protection failure"
+         pageTitle="Scoping questions for Azure VM backup failure for windows"
+         description="Scoping questions for Azure VM backup failure for windows"
          authors="srinathvasireddy"
-	 ms.author="srinathv"
+	  ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32553285,32637322"
-         productPesIds="15207,15571,15797,16454,16470,14749"
+         supportTopicIds="32637320"
+         productPesIds="14749"
          cloudEnvironments="public"
          schemaVersion="1"
-	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
+	 articleId="950d1291-6069-4bb8-b439-b817f20deccd"
 />
-# Questions Azure VM configuration protection failure 
+# Questions Azure VM backup failure for windows
 ---
 {
     "resourceRequired": true,
-    "title": "Azure VM configuration failure",
+    "subscriptionRequired": true,
+    "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Virtual Machine backup failure diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
@@ -23,7 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -38,7 +45,7 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the error message that you are seeing?",
-            "watermarkText": "Choose an option",
+            "watermarkText": "Select",
             "dropdownOptions": [
                 {
                     "value": "VM Agent is unable to communicate with azure backup service",
@@ -117,7 +124,8 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

@@ -1,21 +1,27 @@
 <properties
-         pageTitle="Scoping questions for Azure VM configuration protection failure"
-         description="Scoping questions for Azure VM configuration protection failure"
+         pageTitle="Scoping questions for Azure VM backup failure for Linux"
+         description="Scoping questions for Azure VM backup failure for Linux"
          authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32553285,32637322"
-         productPesIds="15207,15571,15797,16454,16470,14749"
+         supportTopicIds="32637320"
+         productPesIds="15571,15797,16454,16470"
          cloudEnvironments="public"
          schemaVersion="1"
-	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
+	articleId="b25f0d4f-e728-487f-a3f3-6770908ce5cd"
 />
-# Questions Azure VM configuration protection failure 
+# Questions Azure VM backup failure for Linux 
 ---
 {
     "resourceRequired": true,
-    "title": "Azure VM configuration failure",
+    "subscriptionRequired": true,
+    "title": "Azure VM backup failure for Linux",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Virtual Machine backup failure diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
@@ -23,38 +29,39 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Enter the failed backup job Activity ID:",
-            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
+            "displayLabel": "Enter the failed backup job Activity ID?",
+            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b ",
             "required": false
         },
         {
-            "id": "Select_ErrorMessage",
+            "id": "select_ErrorMessage",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the error message that you are seeing?",
-            "watermarkText": "Choose an option",
+            "watermarkText": "Select",
             "dropdownOptions": [
                 {
                     "value": "VM Agent is unable to communicate with azure backup service",
-                    "text": "VM Agent is unable to communicate with Azure Backup service"
+                    "text": "VM Agent is unable to communicate with azure backup service"
                 },
                 {
                     "value": "Could not communicate with the VM agent for snapshot status",
                     "text": "Could not communicate with the VM agent for snapshot status"
                 },
                 {
-                    "value": "Snapshot operation failed due to no network connectivity on the virtual machine",
-                    "text": " Snapshot operation failed due to no network connectivity on the virtual machine"
+                    "value": "Snapshot operation failed due to no network connectivity...",
+                    "text": "Snapshot operation failed due to no network connectivity..."
                 },
                 {
                     "value": "Could not copy the snapshot of the virtual machine...",
-                    "text": "Could not copy the snapshot of the virtual machine...."
+                    "text": "Could not copy the snapshot of the virtual machine..."
                 },
                 {
                     "value": "Could not communicate with the VM agent for snapshot status",
@@ -80,10 +87,10 @@
             "required": true
         },
         {
-            "id": "Basic_troubleshooting_multiselect",
+            "id": "basic_troubleshooting_multiselect",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the troubleshooting steps you have completed:",
+            "displayLabel": "Select the troubleshooting steps you have completed",
             "dropdownOptions": [
                 {
                     "value": "VM Agent (WA Agent) has latest version",
@@ -117,7 +124,8 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
