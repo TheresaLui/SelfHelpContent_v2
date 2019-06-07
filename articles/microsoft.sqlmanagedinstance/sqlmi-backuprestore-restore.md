@@ -19,7 +19,7 @@ Managed Instance takes automatic backups (full backups every week, differential 
 
 If you are experiencing some issues with any restore operation, the following troubleshooting steps might help you to identify the issue.
 
-# Recommended Steps
+## **Recommended steps**
 - If you are noticing that some error is returned by `RESTORE` check are you using [supported syntax in this statement](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#restore-statement).
 - Make sure that you are restoring a database from public blob storage protected with SAS credential. Private IPs for blob storage and service endpoints are currently not supported.
 - Verify that you have created `CREDENTIAL` with the name equal to the URL of the blob storage where you want to backup your database.

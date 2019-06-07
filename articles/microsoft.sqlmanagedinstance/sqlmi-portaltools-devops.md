@@ -18,13 +18,13 @@
 
 Managed Instance enables you to use a variety of DevOps tools such as Azure CLI, Azure PowerShell, and Azure Resource Manager Templates.
 
-## Recommended Steps
+## **Recommended steps**
 
 - Check are you using the latest version of Azure CLI, Azure PowerShell, and SQL Server Data Tools.
-- If you are getting connection timeout, note that some of the operations are long-running. Use parameter `-AsJob` in the commands like [New-AzResourceGroupDeployment](https://docs.microsoft.com/en-us/powershell/module/az.resources/new-azresourcegroupdeployment).
+- If you are getting connection timeout, note that some of the operations are long-running. Use parameter `-AsJob` in the commands like [New-AzResourceGroupDeployment](https://docs.microsoft.com/powershell/module/az.resources/new-azresourcegroupdeployment).
 - Check are there any [known issues](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information) that are reported.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Azure CLI samples](https://docs.microsoft.com/azure/sql-database/sql-database-cli-samples).
 - [Azure PowerShell samples](https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples).

@@ -16,7 +16,7 @@
 
 You can use the Azure Database Migration Service to migrate the databases from an on-premises SQL Server instance to an Azure SQL Database Managed Instance. When you migrate databases to Azure by using Azure Database Migration Service, you can do an offline or an online migration. With an offline migration, application downtime starts when the migration starts. With an online migration, downtime is limited to the time to cut over at the end of migration. We suggest that you test an offline migration to determine whether the downtime is acceptable; if not, do an online migration.
 
-## **Recommended Steps**
+## **Recommended steps**
 - Ensure that your VNet Network Security Group rules don't block the following inbound communication ports to Azure Database Migration Service: 443, 53, 9354, 445, 12000. For more detail on Azure VNet NSG traffic filtering, see [Filter network traffic with network security groups](https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg).
 - Configure your [Windows Firewall for source database engine access](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access).
 - Open your Windows Firewall to allow the Azure Database Migration Service to access the source SQL Server, which by default is TCP port 1433.
@@ -26,7 +26,7 @@ You can use the Azure Database Migration Service to migrate the databases from a
 - Provide an SMB network share that contains full database backup files and subsequent transaction log backup files the Azure Database Migration Service can use for database migration.
 - Ensure that the service account running the source SQL Server instance has write privileges on the network share that you created and that the computer account for the source server has read/write access to the same share.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Tutorial: Migrate SQL Server to an Azure SQL Database managed instance online using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)
 - [Tutorial: Migrate SQL Server to an Azure SQL Database managed instance offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance)

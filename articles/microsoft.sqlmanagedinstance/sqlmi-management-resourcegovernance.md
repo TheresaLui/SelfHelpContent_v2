@@ -16,6 +16,6 @@
 
 SQL Server Resource Governor is a feature than you can use to manage SQL Database Managed Instance workload and resource consumption. Resource Governor enables you to specify limits on the amount of CPU, physical IO, and memory that incoming application requests can use.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Check Resource Governor concepts](https://docs.microsoft.com/en-us/sql/relational-databases/resource-governor/resource-governor?view=sql-server-2017#resource-concepts) to understand Resource pools, Workload groups and Classification.

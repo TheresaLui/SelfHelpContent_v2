@@ -18,7 +18,7 @@
 
 You can use the SQL Server Management Studio and other tools to connect to Managed Instance.
 
-## Recommended Steps
+## Recommended steps
 
 - Check are you using the latest version of SQL Server Management Studio. Version must be [18.0 or higher](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).
 - Check are you using the latest version of [SQLManagementObjects](https://www.nuget.org/packages/Microsoft.SqlServer.SqlManagementObjects) - version 150 or higher is required.
@@ -28,6 +28,6 @@ You can use the SQL Server Management Studio and other tools to connect to Manag
 - Make sure that you are using correct [connection parameters](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query#tls-considerations-for-sql-database-connectivity).
 - Check are there any [known issues](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#Issues) that are reported.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Quick-start: Use SQL Server Management Studio to connect and query an Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-ssms)

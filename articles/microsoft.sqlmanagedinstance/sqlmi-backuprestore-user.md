@@ -19,7 +19,7 @@ Managed Instance enables you to manually make a `COPY_ONLY` backups of a databas
 
 If you are experiencing some issues with manual backup operation, the following troubleshooting steps might help you to identify the issue.
 
-# Recommended Steps
+## **Recommended steps**
 
 - If you are noticing that some error is returned by `BACKUP` T-SQL statement, check are you using [supported syntax in this statement](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#backup) (for example mandatory `COPY_ONLY` option).
 - If you cannot backup a database check is it protected with Transparent Data Encryption (TDE). You need to [disable TDE protection in order to take a manual backup](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Take-a-backup-of-TDE-protected-database-on-Azure-SQL-Managed/ba-p/643407#M120).

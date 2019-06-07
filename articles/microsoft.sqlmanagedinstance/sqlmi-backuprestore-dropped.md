@@ -18,7 +18,7 @@
 
 Managed Instance takes automatic backups (full backups every week, differential every 12 hours, and log backups every 5-10 min) that you can use to restore accidentally deleted database. This feature is in preview, and it is still not officially supported. Currently, you can use Azure PowerShell library to restore the accidentally deleted database.
 
-# Recommended Steps
+## **Recommended steps**
 
 Try some of the following steps to trouble shoot the issue:
 

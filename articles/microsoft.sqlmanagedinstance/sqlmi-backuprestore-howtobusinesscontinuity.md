@@ -20,7 +20,7 @@ SQL Database Managed Instance provides several business continuity features, inc
 
 Each mechanism has different characteristics for estimated recovery time (ERT) and potential data loss for recent transactions. Once you understand these options, you can choose among them - and, in most scenarios, use them together for different scenarios. As you develop your business continuity plan, you need to understand the maximum acceptable time before the application fully recovers after the disruptive event. The time required for application to fully recover is known as recovery time objective (RTO). You also need to understand the maximum period of recent data updates (time interval) the application can tolerate losing when recovering after the disruptive event. The time period of updates that you might afford to lose is known as recovery point objective (RPO).
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Overview of business continuity with Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-business-continuity)
 - [Temporal tables](https://docs.microsoft.com/azure/sql-database/sql-database-temporal-tables) enable you to restore row versions from any point in time.

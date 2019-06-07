@@ -18,7 +18,7 @@
 
 [Service broker](https://docs.microsoft.com/sql/database-engine/configure-windows/sql-server-service-broker?toc=%2Fazure%2Fsql-database%2Ftoc.json) technology in Managed Instance enables you to implement native and reliable in-database asynchronous message passing functionalities.
 
-## Recommended Steps
+## **Recommended steps**
 
 If you are experiencing some issues with Service Broker or Query notifications, some of the following steps might help you to troubleshoot the issues:
 
@@ -31,6 +31,6 @@ If you are experiencing some issues with Service Broker or Query notifications, 
 - Make sure that you implement retry-logic in the application code that handles Query Notifications. Depending on the value of [SqlNotificationInfo](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlnotificationinfo) in [SqlNotificationEventArgs](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlnotificationeventargs) you need to handle events such as `Error` or `Restart` and re-try the query.
 - If the messages are sent but the activation procedure is not triggered, check does the user who is authorized to run the procedure has enough permission. As a temporary solution try to assign more permission to the user using `ALTER AUTHORIZATION ON DATABASE::<database name> TO <login name>` or set `ALTER DATABASE <database name> SET TRUSTWORTHY ON` to see would this resolve the issue.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Service broker in Managed Instance](https://docs.microsoft.com/sql/database-engine/configure-windows/sql-server-service-broker?toc=%2Fazure%2Fsql-database%2Ftoc.json)

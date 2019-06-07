@@ -29,7 +29,7 @@ If the issue that you want to report is not listed, you can check if it is docum
 
 - [Managed Instance quick-start guide](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-quickstart-guide)
 - [Managed Instance how-to guides](https://docs.microsoft.com/azure/sql-database/sql-database-howto-managed-instance)
-- [Azure SQL how-to guides](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-howto)
+- [Azure SQL how-to guides](https://docs.microsoft.com/azure/sql-database/sql-database-howto)
 - [Azure CLI samples](https://docs.microsoft.com/azure/sql-database/sql-database-cli-samples).
 - [Azure PowerShell samples](https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples).
 - [Azure Resource Manager samples](https://docs.microsoft.com/azure/sql-database/sql-database-resource-manager-samples).

@@ -18,7 +18,7 @@
 
 Azure Data Factory enables you to run SSIS packages that load data to Managed Instance.
 
-## Recommended Steps
+## **Recommended steps**
 
 To Setup SSIS/Azure Data Factory and SQL MI please follow the steps in these articles:
 
@@ -26,7 +26,7 @@ To Setup SSIS/Azure Data Factory and SQL MI please follow the steps in these art
 - [Reconfigure the Azure-SSIS integration runtime](https://docs.microsoft.com/azure/data-factory/manage-azure-ssis-integration-runtime)
 - If you need some new feature, submit the [feature request](https://feedback.azure.com/forums/270578-azure-data-factory) or vote for the existing one.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Lift and shift SQL Server Integration Services workloads to the cloud](https://docs.microsoft.com/sql/integration-services/lift-shift/ssis-azure-lift-shift-ssis-packages-overview)
 - [ADF/SSIS Frequently Asked Questions](https://docs.microsoft.com/en-us/azure/data-factory/frequently-asked-questions)

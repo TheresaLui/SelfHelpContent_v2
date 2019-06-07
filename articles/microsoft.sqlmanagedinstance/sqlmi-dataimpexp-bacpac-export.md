@@ -26,7 +26,7 @@ If you are experiencing the issues with BACPAC functionality in Managed instance
 - Make sure that you are using the latest version of the tools that include the latest bug fixes.
 - Check is there some [known issue](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#Issues) that might cause the problem that you are experiencing.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Export to BACPAC using SQL Server Management Studio](https://docs.microsoft.com/sql/relational-databases/data-tier-applications/export-a-data-tier-application)
 - [Export to BACPAC using SQLPackage](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility/)
