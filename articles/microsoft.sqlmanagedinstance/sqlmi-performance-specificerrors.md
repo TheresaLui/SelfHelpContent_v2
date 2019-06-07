@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Security|Threat detection"
-	description="Security|Threat detection"
+	pageTitle="Performance and Query Execution|Specific errors or exceptions"
+	description="Performance and Query Execution|Specific errors or exceptions"
 	service="microsoft.sql"
 	resource="servers"
 	authors="MladjoA"
