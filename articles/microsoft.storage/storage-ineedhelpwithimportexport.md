@@ -1,5 +1,5 @@
 <properties
-	pageTitle="I need help with Import/Export"
+	pageTitle="Help with Import/Export service for my Blob storage"
 	description="Discover answers to common questions related to import/export service for your Blob storage"
 	service="microsoft.storage"
 	resource="storageaccounts"
