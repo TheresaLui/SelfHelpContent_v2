@@ -8,7 +8,7 @@
 	ms.author="sunir"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32639185,32639201"
+	supportTopicIds="32639201"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
@@ -24,4 +24,4 @@
 **Troubleshoot errors during data copy**
 
 * [Data Box](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)
-* [Data Box Disk](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-troubleshoot)
+* [Data Box Disk](https://docs.microsoft.com/azure/databox/data-box-disk-troubleshoot)
