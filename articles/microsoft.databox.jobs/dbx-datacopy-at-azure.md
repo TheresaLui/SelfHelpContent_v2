@@ -17,7 +17,7 @@
 
 # Data upload at Azure
 
-**Data copy has failed or completed with errors.**
+Data copy has failed or completed with errors.
 
 ## **Recommended Documents**
 
