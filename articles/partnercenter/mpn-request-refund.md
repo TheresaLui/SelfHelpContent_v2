@@ -18,8 +18,9 @@
 />
 # Request for refund
 
-*  [If you wish to raise refund request for an MPN benefit (Action Pack, Silver level or Gold level) you have purchased then please be aware that your request must match the following criteria to be eligible for a refund
+If you wish to raise refund request for an MPN benefit (Action Pack, Silver level or Gold level) you have purchased then please be aware that your request must match the following criteria to be eligible for a refund
 	- The purchase was made within the last 30 days
 	- All benefits must not be viewed/activated/used and viewing keys (On-premise or cloud products) will result in rejection for refunds
 	- Tax refund for tax exempt partners
-If your request matches these requirements please create a support request for refund.]
+	
+If your request matches these requirements please create a support request for refund.
