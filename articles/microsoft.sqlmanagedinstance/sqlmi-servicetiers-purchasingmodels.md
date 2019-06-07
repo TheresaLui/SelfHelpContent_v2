@@ -7,7 +7,7 @@
     ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32637295"
+	supportTopicIds="32637295,32637294"
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
