@@ -32,7 +32,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Company Name",
             "watermarkText": "Provide the Company Name",
-            "required": true
+            "required": false
         },
         {
             "id": "billingaddress_details",
@@ -41,7 +41,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Billing Address",
             "watermarkText": "Provide the Billing address",
-            "required": true
+            "required": false
         },
         {
             "id": "accountadminemail_details",
@@ -50,7 +50,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Account Administrator's Email Address",
             "watermarkText": "Provide the account admin's email address",
-            "required": true,
+            "required": false,
             "infoBalloonText": "Learn more: <a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator'> Account Admin's email address</a>."
         },
         {
