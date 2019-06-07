@@ -44,7 +44,7 @@
         {
             "id": "mab_version",
             "order": 2,
-            "visibility": "null",            
+            "visibility": "null",
             "controlType": "textbox",
             "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\\\Help\\\\About",
             "displayLabel": "What is the software version of Microsoft Azure Backup Server?",
@@ -54,7 +54,7 @@
         {
             "id": "error_message",
             "order": 3,
-            "visibility": "null",            
+            "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Provide the error message that you are seeing:",
             "watermarkText": "Copy and paste error message that you see in console",
