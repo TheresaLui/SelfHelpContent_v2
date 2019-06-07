@@ -8,7 +8,7 @@
 	ms.author="sunir"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32639186,32639192,32639213"
+	supportTopicIds="32639192,32639213"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
@@ -37,7 +37,7 @@ I ordered a couple of Data Box devices. I am not able to create any additional o
 ## **Recommended Documents**
 
 * [Data Box FAQ](https://docs.microsoft.com/azure/databox/data-box-faq)
-* [Data Box Disk FAQ](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-faq)
+* [Data Box Disk FAQ](https://docs.microsoft.com/azure/databox/data-box-disk-faq)
 
 
 
