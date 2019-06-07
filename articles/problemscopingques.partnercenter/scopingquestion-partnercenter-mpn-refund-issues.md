@@ -56,7 +56,7 @@
       "displayLabel": "Please enter the order ID you are having issue with",
       "watermarkText": "Order ID",
       "required": false
-    },	
+    },
     {
       "id": "problem_description",
       "order": 4,
@@ -65,7 +65,7 @@
       "watermarkText": "Please provide additional information about your issue",
       "required": true,
       "useAsAdditionalDetails": true
-    },
+    }
   ]
 }
 ---
