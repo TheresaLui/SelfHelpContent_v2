@@ -17,8 +17,6 @@
 
 # Data Box Disk unlock and data copy
 
-**Can't unlock the Data Box Disk **
-
 ## **Recommended Documents**
 
 * [Data Box Disk unlock and data copy](https://docs.microsoft.com/azure/databox/data-box-disk-deploy-set-up)<br>
