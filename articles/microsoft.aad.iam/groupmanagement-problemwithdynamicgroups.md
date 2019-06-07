@@ -30,7 +30,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
@@ -42,7 +42,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the membership rule you are having problems with?",
             "content": null,
-            "watermarkText": "Open the group in the portal, click \"Dynamic membership rules\" and click \"Advanced Rule\" and copy the contents here.",
+            "watermarkText": "Open the group in the portal, click \\"Dynamic membership rules\\" and click \\"Advanced Rule\\" and copy the contents here.",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -98,7 +98,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 4
