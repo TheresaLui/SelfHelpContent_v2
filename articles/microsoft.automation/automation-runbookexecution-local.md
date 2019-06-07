@@ -20,6 +20,7 @@ Here are some common issues with executing runbooks in Azure Automation and how 
 
 ## **Recommended Steps**
 
+Specific problems and steps to resolve them follow, but first review ["My Runbook fails but works when ran locally"](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) in the troubleshooting guide. 
 
 ### Runbook fails with "The subscription cannot be found" error
 
