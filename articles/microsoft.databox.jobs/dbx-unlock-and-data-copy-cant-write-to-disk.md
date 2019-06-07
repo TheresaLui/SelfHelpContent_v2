@@ -12,7 +12,7 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
-	articleId="32639207"
+	articleId="32639184"
 />
 
 # Data Box Disk unlock and data copy
