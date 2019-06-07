@@ -7,7 +7,7 @@
 	ms.author="passap"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32602711"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public"
