@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Move Data to, from, or within Azure Storage"
-	description="Move Data to, from, or within Azure Storage"
+	pageTitle="Data migration for Azure storage"
+	description="Learn how to move data to, from, or within Azure storage"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
