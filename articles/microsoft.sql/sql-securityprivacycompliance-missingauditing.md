@@ -4,7 +4,6 @@
 	infoBubbleText="Informational message about missing auditing data.  See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authoralias="scfitzge"
 	authors="fitzgeraldsw"
 	ms.author="scfitzge"
 	displayOrder="2"
@@ -19,14 +18,14 @@
 
 # Missing Auditing Data
 
-**You have missing auditing data and would like an explanation**  
 <!--issueDescription-->
-SQL database auditing  tracks database events and writes them to an audit log in your Azure storage account, Operations Management Suite (OMS) workspace or Event Hubs. The audit session is removed when the database is removed from the replica and the audit session is started on the startup of the new replica.
+SQL database auditing  tracks database events and writes them to an audit log in your Azure storage account, Operations Management Suite (OMS) workspace, or Event Hubs. The audit session is removed when the database is removed from the replica and the audit session is started on the startup of the new replica.
 <!--/issueDescription-->
 
 This message is informational to make you aware of the gap in storage of auditing data.
 
 ## **Recommended Steps**
+
 This message is informational to make you aware of the gap in storage of auditing data.
 
 ## **Recommended Documents**
