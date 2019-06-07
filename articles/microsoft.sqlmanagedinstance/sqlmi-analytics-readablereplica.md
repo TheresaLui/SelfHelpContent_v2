@@ -20,8 +20,7 @@ The Read Scale-Out feature in Business Critical service tier of Azure SQL Manage
 ## **Recommended steps**
 
 - Make sure that your SQL connection string is configured with ApplicationIntent=ReadOnly if you want to connect to readable replica
-- Verify that you are connected to readable replica by executing the following command:
-  - SELECT DATABASEPROPERTYEX(DB_NAME(), 'Updateability')
+- Verify that you are connected to readable replica by executing command SELECT DATABASEPROPERTYEX(DB_NAME(), 'Updateability')
 - When connected to a read-only replica, you can access the performance metrics using the sys.dm_db_resource_stats DMV.
 - To access query plan statistics, use the sys.dm_exec_query_stats, sys.dm_exec_query_plan, and sys.dm_exec_sql_text DMVs.
 
