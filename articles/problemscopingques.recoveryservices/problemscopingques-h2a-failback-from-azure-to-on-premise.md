@@ -27,7 +27,6 @@
             "watermarkText": "Enter the name of the virtual machine(s)",
             "required": true
         },
-
         {
             "id": "problem_start_time",
             "order": 3,
