@@ -27,7 +27,7 @@ Performance troubleshooting strategies vary depending on the class of the proble
 
 ## Different performance compared across two environments
 
-If you are see that queries or workload don't have similar performance across two different environments try to identify what is the key differences using the following steps:
+If you are seeing that queries or workload don't have similar performance across two different environments try to identify what is the key differences using the following steps:
 
 - Make sure that you have similar technical and environmental characteristics on SQL Server and Managed Instance such as number of cores, memory, IO characteristics, encryption, backup schedules, etc. Find the [top reasons that can cause performance difference in this article](https://azure.microsoft.com/blog/key-causes-of-performance-differences-between-sql-managed-instance-and-sql-server/).
 - Look at the queries that are executing on your Managed Instance and identify some additional workload that is not running on SQL Server (for example frequent backups, data load, index maintenance actions).
@@ -42,8 +42,9 @@ If you are experiencing some issues with the queries that are running slower on 
 - Try to find the changes in the resource utilization using the [SQL Server Management Studio(SSMS)](https://docs.microsoft.com/sql/relational-databases/performance/performance-dashboarl?toc=%2Fazure%2Fsql-database%2Ftoc.json), `sys.server_resource_stats` and other [Dynamic Management Views(DMV)](https://docs.microsoft.com/azure/sql-database/sql-database-monitoring-with-dmvs). SSMS and DMVs enable you to identify top resource consuming queries that are using the critical resource. Once you identify the queries you can perform the following actions:
   - Tune the queries that affect performance by rewriting them, adding the indexes, updating statistics, etc.
   - Increase the resources by adding more vCores or memory if you see some bottleneck.
+
 - Try to find some regressed queries using [SQL Server Management Studio/Query store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?toc=%2Fazure%2Fsql-database%2Ftoc.json#Regressed), or [sys.dm_db_tuning_recommendations](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-db-tuning-recommendations-transact-sql). Regressed queries can be automatically corrected if you have enabled automatic tuning feature using `ALTER DATABASE current SET AUTOMATIC_TUNING ( FORCE_LAST_GOOD_PLAN = ON )`, or you can manually corrected them using [sp_force_plan](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-query-store-force-plan-transact-sql) procedure.
-- [Analyze wait statistics](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2019/03/05/analyzing-wait-statistics-on-managed-instance/) to see why the worklosd is waiting and identify the queries that are waiting.
+- [Analyze wait statistics](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2019/03/05/analyzing-wait-statistics-on-managed-instance/) to see why the workload is waiting and identify the queries that are waiting.
 - [Measure IO performance](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2019/03/04/measuring-file-io-performance-on-managed-instance-qpi/) on your instance (especially if you see dominant `PAGEIOLATCH` or `WRITELOG` wait statistics) to see are you hitting some IO storage limit. You might need to pre-allocate files to get [better IO performance](https://techcommunity.microsoft.com/t5/DataCAT/Storage-performance-best-practices-and-considerations-for-Azure/ba-p/305525).
 
 ## **Recommended documents**

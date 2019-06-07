@@ -18,6 +18,7 @@
 The Read Scale-Out feature in Business Critical service tier of Azure SQL Managed Instance allows you to load-balance read-only workloads using the capacity of one of the read-only replicas instead of sharing the read-write replica. This way the read-only workload will be isolated from the main read-write workload and will not affect its performance.
 
 ## **Recommended steps**
+
 - Make sure that your SQL connection string is configured with ApplicationIntent=ReadOnly if you want to connect to readable replica
 - Verify that you are connected to readable replica by executing the following command:
 SELECT DATABASEPROPERTYEX(DB_NAME(), 'Updateability')
@@ -25,4 +26,5 @@ SELECT DATABASEPROPERTYEX(DB_NAME(), 'Updateability')
 - To access query plan statistics, use the sys.dm_exec_query_stats, sys.dm_exec_query_plan, and sys.dm_exec_sql_text DMVs.
 
 ## **Recommended documents**
+
 - [Use read-only replicas to load-balance read-only query workloads](https://docs.microsoft.com/azure/sql-database/sql-database-read-scale-out)

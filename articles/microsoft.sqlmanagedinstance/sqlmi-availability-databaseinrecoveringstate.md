@@ -17,3 +17,7 @@
 />
 
 # Database in Recovering state
+
+## **Recommended steps**
+
+- If there were active long-running transactions during instance failover, recovery process may take long time to complete log redo operation. In extreme situations consider point-in0time restore as a workaround option.
