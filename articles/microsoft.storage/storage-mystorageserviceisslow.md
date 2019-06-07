@@ -1,6 +1,6 @@
 <properties
 	pageTitle="My storage service is slow"
-	description="My storage service is slow"
+	description="Discover common scenarios affecting performance of your storage service, and how to troubleshoot them"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="kasparks"
