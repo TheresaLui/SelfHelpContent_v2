@@ -1,6 +1,6 @@
 <properties
 	pageTitle="What are my Storage account scalability targets?"
-	description="What are my Storage account scalability targets?"
+	description="Learn about most common and proven practices for optimizing performance when using Azure Storage"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="kasparks"
