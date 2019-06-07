@@ -1,6 +1,6 @@
 <properties
 	pageTitle="I need help with Import/Export"
-	description="I need help with Import/Export"
+	description="Discover answers to common questions related to import/export service for your Blob storage"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="kasparks"
