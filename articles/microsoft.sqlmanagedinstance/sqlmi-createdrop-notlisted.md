@@ -9,11 +9,11 @@
 	displayOrder=""
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32637237"
+    supportTopicIds="32637279"
     resourceTags=""	
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="500e388f-eb08-4403-93de-aed1702cfcde"
 />
 
 # Create or drop my issue is not listed

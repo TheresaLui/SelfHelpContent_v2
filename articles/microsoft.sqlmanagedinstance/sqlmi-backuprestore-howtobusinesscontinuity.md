@@ -7,9 +7,10 @@
     ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32608398"
+	supportTopicIds="32637266"
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="de6cd457-a03a-4c2d-9a1b-18940b998243"
 />
 
 # Planning a recovery strategy

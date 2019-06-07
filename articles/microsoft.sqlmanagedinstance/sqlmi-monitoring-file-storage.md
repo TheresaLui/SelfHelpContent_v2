@@ -16,7 +16,7 @@
 
 # Troubleshoot file/storage issues
 
-Managed Instance enables you to define the amount of storage that you would use for your databases, and you you need to monitor your application and ensure that your are nto reaching the limits. If yu experience some issues with storage or files, the following steps might help you to troubleshoot and fix the issues.
+Managed Instance enables you to define the amount of storage that you would use for your databases, and you need to monitor your application and ensure that your are not reaching the limits. If you are experiencing issues with storage or files, the following steps might help you to troubleshoot and fix the issues.
 
 ## **Recommended steps**
 
@@ -32,7 +32,7 @@ Try some of the following steps to troubleshoot the issue:
 - If you are getting the error when you are trying to add files on general Purpose instance and you have not reached the 280 files per instance limit, check are you [reaching the internal 35TB limit due to file fragmentation](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Reaching-Azure-disk-storage-limit-on-General-Purpose-Azure-SQL/ba-p/386234). In some specific configuration of file sizes your max file number limit might be lower than 280 per instance due to internal fragmentation, and you would need to remove some files.
 - If you are getting the errors related to TEMPDB space usage on General Purpose tier, maybe you are reaching the TEMPDB limit that is 24GB/core. Try to remove some objects from TEMPDB  or optimize queries that are using a lot of memory and causes TEMPDB spills, and if this is not possible, you would need to upgrade your Managed Instance to higher tier that has more cores and TEMPDB space.
 - If you are getting the error while trying to add and remove file with the message like "this operation cannot be performed", check is there some conflicting operation such as upgrading service tier, backup, or TDE encryption. In most of the cases you can retry the operation later.
-- If you are making some changes in the TEMPDB such as adding or removing the data files, changing the size that either return errors or they are reset after some time, beware that you cannot modify the TEMPDB. TEMPDB is periodically rebuilt as an empty database and your changes are either blocked or reset. If you need some objects in TEMPDB, you can create SQL Agent job that will re-create them either periodically or when the service starts.
+- If you are making some changes in the TEMPDB such as adding or removing the data files, changing the size that either return errors or they are reset after some time, beware that you cannot modify the TEMPDB. TEMPDB is periodically rebuilt as an empty database and your changes are either blocked or reset. If you need some objects in TEMPDB, you can create SQL Agent job that will recreate them either periodically or when the service starts.
 
 ## **Recommended documents**
 

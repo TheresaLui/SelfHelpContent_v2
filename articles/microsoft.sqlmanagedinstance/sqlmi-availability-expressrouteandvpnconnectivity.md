@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="8a54088d-7e3c-4488-9c52-7152551a4b7b"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637262"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Express Route and VPN connectivity

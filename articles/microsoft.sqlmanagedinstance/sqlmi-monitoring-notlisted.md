@@ -13,14 +13,14 @@
     resourceTags=""	
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="c650c094-9e32-4d16-880b-147dc040e000"
 />
 
 # Management and monitoring - My issue is not listed
 
 Monitoring performance for Managed Instance is supported through built-in metrics in Azure portal, through Azure SQL Analytics, third party tools, and your own implementation of DMV querying.
 
-Please note that QPI (Query Perfomance Insights), metrics alerting from Azure Portal, and Automatic tuning index managemnet is not supported for Managed Instance at this time. In addition, monitoring with SCOM is not supported for monitoring Managed Instance at this time.
+Please note that QPI (Query Performance Insights), metrics alerting from Azure Portal, and Automatic tuning index management is not supported for Managed Instance at this time. In addition, monitoring with SCOM is not supported for monitoring Managed Instance at this time.
 
 ## **Recommended steps**
 
@@ -37,7 +37,7 @@ To monitor performance of Managed Instance, consider using one of the following 
 		* You will need to have SQL Analytics configured as a prerequisite
 		* Enable streaming of SQLInsights log using [Diagnostics settings](https://docs.microsoft.com/azure/sql-database/sql-database-metrics-diag-logging#configure-streaming-of-diagnostics-telemetry-for-instance-databases) for each database monitored to enable Intelligent Insights
 
-2. Monitor Mangaged Instance performance real-time:
+2. Monitor Managed Instance performance real-time:
 
 	* Consider building own solution using open-source Grafana, see [Real-time performance monitoring for Azure SQL Database Managed Instance](https://techcommunity.microsoft.com/t5/DataCAT/Real-time-performance-monitoring-for-Azure-SQL-Database-Managed/ba-p/305537)
 

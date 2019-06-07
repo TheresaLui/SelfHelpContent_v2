@@ -10,6 +10,7 @@
 	supportTopicIds="32637290"
 	productPesIds="16259"
 	cloudEnvironments="public"
+    articleId="f916cd57-c82e-475e-9b20-019c1337cf30"
 />
 
 # Other analytics products and services

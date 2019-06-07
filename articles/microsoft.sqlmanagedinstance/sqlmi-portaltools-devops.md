@@ -14,7 +14,7 @@
 	articleId="f9ded5d7-a69b-4268-a394-9d3372bdf746"
 />
 
-# SQL Server Management Studio an tools
+# SQL Server Management Studio and tools
 
 Managed Instance enables you to use a variety of DevOps tools such as Azure CLI, Azure PowerShell, and Azure Resource Manager Templates.
 

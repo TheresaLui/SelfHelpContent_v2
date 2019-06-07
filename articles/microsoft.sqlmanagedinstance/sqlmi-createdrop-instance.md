@@ -13,7 +13,7 @@
     resourceTags=""	
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="f853015d-28f1-454e-9b08-154a60669a7c"
 />
 
 # Create or drop instance

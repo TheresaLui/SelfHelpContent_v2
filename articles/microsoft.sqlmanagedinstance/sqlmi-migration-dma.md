@@ -10,6 +10,7 @@
 	supportTopicIds="32637255"
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="2d64a91a-2c91-4e09-a3dc-2fe3cb2a3018"
 />
 
 # Data migration assistant (DMA)
@@ -18,7 +19,7 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
 
 ## **Recommended steps**
 - Make sure that you are using [the latest version of Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595)
-- Check whether you chose proper target server type. It should be Azure SQl Database Managed Instance
+- Check whether you chose proper target server type. It should be Azure SQL Database Managed Instance
 
 ## **Recommended documents**
 - [Perform a SQL Server migration assessment with Data Migration Assistant](https://docs.microsoft.com/sql/dma/dma-assesssqlonprem)

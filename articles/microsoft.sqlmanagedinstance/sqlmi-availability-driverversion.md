@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="1cedb97f-15ea-4668-b05c-9e3f921745d8"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637245"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Client drivers

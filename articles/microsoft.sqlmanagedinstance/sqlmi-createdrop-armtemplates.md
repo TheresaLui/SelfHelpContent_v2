@@ -10,13 +10,13 @@
     diagnosticScenario=""
     selfHelpType="generic"
     supportTopicIds="32637232"
-    resourceTags=""	
+    resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="e77ec631-bb08-4788-bf5c-f6dde70c8d93"
 />
 
-# Create or Drop resoruces through ARM
+# Create or Drop resources through ARM
 
 ARM can be used to create managed instances.
 

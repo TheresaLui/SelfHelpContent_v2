@@ -10,6 +10,7 @@
 	supportTopicIds="32637309"
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="3c56c281-38de-48d5-a076-d497a6fc2a71"
 />
 
 # Planning a migration

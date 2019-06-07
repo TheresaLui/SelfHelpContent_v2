@@ -7,13 +7,13 @@
 	authors="srdan-bozovic-msft"
 	ms.author="srbozovi"
 	displayOrder=""
-	articleId="fe2d8ef5-c508-43bf-b20c-bb5f777c5efa"
+	articleId="5640ad3b-b5ac-4082-9883-d4eca6a00faf"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637235,32637236"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Azure Active Directory authentication

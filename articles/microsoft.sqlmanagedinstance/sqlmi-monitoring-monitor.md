@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="ec30f30c-d79a-41ed-8d14-64413acf0810"
 />
 
 # Monitoring - Monitor
@@ -35,7 +35,7 @@ To monitor performance of Managed Instance, consider using one of the following 
 
 	* Consider setting up Intelligent Insights that can help automatically troubleshoot some of the most [common performance issues](https://docs.microsoft.com/azure/sql-database/sql-database-intelligent-insights-troubleshoot-performance#detectable-database-performance-patterns) along with SQL Analytics.
 		* You will need to have SQL Analytics configured as a prerequisite
-		* Enable streaming of SQLInsights log using [Diagnostics settings](https://docs.microsoft.com/azure/sql-database/sql-database-metrics-diag-logging#configure-streaming-of-diagnostics-telemetry-for-instance-databases) for each database monitored to enable Intelligent Insights
+		* Enable streaming of SQL Insights log using [Diagnostics settings](https://docs.microsoft.com/azure/sql-database/sql-database-metrics-diag-logging#configure-streaming-of-diagnostics-telemetry-for-instance-databases) for each database monitored to enable Intelligent Insights
 
 2. Monitor Managed Instance performance real-time:
 

@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="93dd31fa-7ac6-4b6a-a889-df2cd51ce163"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637251"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Data Masking (Dynamic or Static)

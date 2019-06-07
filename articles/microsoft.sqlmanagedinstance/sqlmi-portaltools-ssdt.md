@@ -13,7 +13,7 @@
 	resourceTags=""	
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="d4a00f3b-45d8-4dcd-8779-671ad39f67c6"
 />
 
 # SQL Server Data Tools

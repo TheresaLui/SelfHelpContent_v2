@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="08653dfe-9403-4aca-a70c-c06311a99e24"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637259"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Dropped connections

@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="5a695ce6-feb9-46c6-b9f6-b1ba145bc797"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637229"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Access Control

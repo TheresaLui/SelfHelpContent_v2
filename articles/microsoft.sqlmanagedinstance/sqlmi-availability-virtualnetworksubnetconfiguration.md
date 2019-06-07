@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="ce5fb03d-13f4-4a46-b084-b00be90d4043"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637317,32637316"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Virtual network/subnet configuration

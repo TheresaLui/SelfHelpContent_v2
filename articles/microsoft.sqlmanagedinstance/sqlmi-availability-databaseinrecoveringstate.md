@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="fc0a77ec-b429-4278-9eef-108e8e6383cd"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637254"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Database in Recovering state

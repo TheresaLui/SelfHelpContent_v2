@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="1180a85f-6f15-4652-9108-2ec38312af3c"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637276"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # My instance isn't listed in the Azure portal

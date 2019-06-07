@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="f045ddd3-386f-4fbb-b76e-118ee1810a37"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637293"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Public endpoint

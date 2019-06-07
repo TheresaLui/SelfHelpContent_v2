@@ -10,6 +10,7 @@
 	supportTopicIds="32637231"
 	productPesIds="16259"
 	cloudEnvironments="public"
+    articleId="3ef0f5e0-8bf0-4542-9a9e-c9e850148239"
 />
 
 # SSAS and Azure Analysis Services

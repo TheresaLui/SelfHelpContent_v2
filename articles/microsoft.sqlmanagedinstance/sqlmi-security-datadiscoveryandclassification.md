@@ -8,12 +8,12 @@
 	ms.author="srbozovi"
 	displayOrder=""
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637248"
 	resourceTags=""
 	productPesIds="16259"
 	articleId="2789ca8f-7d25-4cad-a5cc-b7f02206203b"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Data Discovery and Classification

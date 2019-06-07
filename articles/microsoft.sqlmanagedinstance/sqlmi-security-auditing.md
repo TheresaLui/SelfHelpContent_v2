@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="b015edf8-6da6-4488-bdb3-186a1ff80aca"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637233"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Auditing

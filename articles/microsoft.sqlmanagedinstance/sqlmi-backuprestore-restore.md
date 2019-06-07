@@ -15,7 +15,7 @@
 />
 # Restore a managed instance database from Blob Storage
 
-Managed Instance takes automatic backups (full backups every week, differential every 12 hours, and log backups every 5-10 min) that you can use to restore a database to some point of time in past within the retention period, restore accidentally deleted database. Managed Instance also enables you to [restore a database from a backup file placed on Azure Blob Storage](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore), which is useful for migration form SQL Server.
+Managed Instance takes automatic backups (full backups every week, differential every 12 hours, and log backups every 5-10 min) that you can use to restore a database to some point of time in past within the retention period, restore accidentally deleted database. Managed Instance also enables you to [restore a database from a backup file placed on Azure Blob Storage](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore), which is useful for migration from SQL Server.
 
 If you are experiencing some issues with any restore operation, the following troubleshooting steps might help you to identify the issue.
 

@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="a22b8b46-2c2b-4518-97c6-5962c1e71be5"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637246"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Connection timeouts

@@ -13,7 +13,7 @@
     resourceTags=""	
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="d4295119-cb4d-495f-b99f-df8e109b4689"
 />
 
 # Delete Virtual Cluster

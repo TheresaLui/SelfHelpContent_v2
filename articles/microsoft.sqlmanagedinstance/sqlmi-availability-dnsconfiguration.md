@@ -9,11 +9,11 @@
 	displayOrder=""
 	articleId="8dd4b9c6-728f-4f93-ac40-80fcbb81ebb5"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637258"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # DNS configuration

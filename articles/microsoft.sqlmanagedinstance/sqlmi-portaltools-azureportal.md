@@ -13,7 +13,7 @@
 	resourceTags=""	
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="c5130ae3-e734-44d2-9f04-d56a911e68d7"
 />
 
 # Portal and Client tools

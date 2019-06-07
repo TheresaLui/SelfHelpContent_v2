@@ -10,6 +10,7 @@
 	supportTopicIds="32637244"
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="25620156-b02a-4a64-8069-acd4d19cc6e8"
 />
 
 # Change Data Capture

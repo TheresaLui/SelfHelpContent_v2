@@ -10,6 +10,7 @@
 	supportTopicIds="32637230"
 	productPesIds="16259"
 	cloudEnvironments="public"
+    articleId="178e4db0-3cee-4728-972d-8d2610076534"
 />
 
 # Encryption

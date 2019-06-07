@@ -8,11 +8,12 @@
 	ms.author="srbozovi"
 	displayOrder=""
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds="32637247"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments=""
+	cloudEnvironments="public"
+	articleId="12eda0a0-db12-4a0c-be7a-98f50329a6c3"
 />
 
 # Connection type (proxy/redirect)

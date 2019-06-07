@@ -13,7 +13,7 @@
     resourceTags=""	
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="9e4a0d0f-8ecc-4766-b8ae-ad42b74f056d"
 />
 
 # Resource Limits
