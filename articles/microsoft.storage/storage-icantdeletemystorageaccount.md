@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="I can't delete my storage account"
-	description="I can't delete my storage account"
+	description="Troubleshoot errors you receive when deleting your storage account, container, or VHD in the Azure portal"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
