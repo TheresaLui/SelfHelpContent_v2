@@ -19,7 +19,7 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "basic_troubleshooting_multiselect",         
+            "id": "basic_troubleshooting_multiselect",
             "order": 1,
             "controlType": "multiselectdropdown",
             "infoBalloonText": "Check <a href='https://aka.ms/Monitor-Backup-LA'>Log Analytics</a> article",
