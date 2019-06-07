@@ -20,9 +20,9 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-**Issue:** Replica server is writable, but is normally read-only.
+* **Issue:** Replica server is writable, but is normally read-only
 
-Look at the username field(username@severname) in your connection string. Confirm that the servername is the same as that of the replica.
+	Look at the username field(username@severname) in your connection string. Confirm that the servername is the same as that of the replica.
 
 ## **Recommended Documents**
 
