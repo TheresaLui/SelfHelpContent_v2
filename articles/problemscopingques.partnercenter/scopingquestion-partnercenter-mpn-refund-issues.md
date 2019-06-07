@@ -27,8 +27,8 @@
       "watermarkText": "Issue type",
       "dropdownOptions": [
         {
-          "value": Tax refund",
-          "text": Tax refund"
+          "value": "Tax refund",
+          "text": "Tax refund"
         },
         {
           "value": "Cancellation of membership",
