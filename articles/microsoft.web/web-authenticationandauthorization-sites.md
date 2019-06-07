@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="a3230ec7-9b2d-40ab-87b1-93236cb09b7d"
 />
 
 # configuration and management/authentication and authorization

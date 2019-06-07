@@ -10,6 +10,7 @@
     resourceTags="cdnakamai, cdnverizon"
     productPesIds=""
     cloudEnvironments="Mooncake"
+	articleId="fe7cc207-ad1d-43a4-a4d8-a6d2333fe657"
 />
 
 # How does CDN deploy image cache

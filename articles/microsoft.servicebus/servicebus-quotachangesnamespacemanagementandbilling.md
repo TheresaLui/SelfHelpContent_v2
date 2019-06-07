@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="0c96df8e-d26c-4c6d-8fc5-c944fae6d806"
 />
 
 # quota changes, namespace management, and billing

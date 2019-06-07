@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="b11324b3-0c31-4911-b72e-583b35b5647f"
 />
 
 # Where can I check status of service availability and connectivity?

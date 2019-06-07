@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="c74b9f3a-b320-4c87-afc8-9eb659b72bbc"
 />
 
 # npm/performancemonitor

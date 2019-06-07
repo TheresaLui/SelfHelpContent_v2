@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="39034396-bdb0-426d-84e0-c7386d72afd2"
 />
 
 # Run a test failover from  Azure to Azure

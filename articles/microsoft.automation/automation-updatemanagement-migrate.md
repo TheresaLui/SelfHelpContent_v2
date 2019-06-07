@@ -1,0 +1,39 @@
+<properties
+    pageTitle="Migrate machines in Update Management"
+    description="Migrate machines in Update Management"
+    service="microsoft.automation"
+    resource="automationaccounts"
+    authors="zjalexander"
+    ms.author="zachal"
+    displayorder=""
+    selfHelpType="generic"
+    supportTopicIds="32642185"
+    resourceTags=""
+    productPesIds="15607,15725"
+    cloudEnvironments="public"
+    articleId="29dd1252-32be-46ca-b717-475d33300501"
+/>
+
+# Move my Update Management machines to another subscription
+
+This article will help you migrate your Update Management account or VMs to another subscription. 
+
+## **Recommended Steps**
+
+### **Move Automation Accounts**
+
+* To move Automation Accounts, see ["How to Move Azure Automation accounts"](https://docs.microsoft.com/azure/automation/how-to/move-account)
+
+### **Move machine from Update Management**
+
+* First, unenroll machines from Update Management, follow the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
+* Then, onboard machines to a different account by following the instructions at ["Onboard machines"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#enable-solutions)
+
+## **Recommended Documents**
+
+* [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
+* [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
+* [Understand the agent check results in Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)
+* [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)
+* [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)
+* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

@@ -10,6 +10,7 @@
 	resourceTags="Windows"
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="dbe9cb4d-c94c-46d4-9aa8-c4be0efcace3"
 />
 
 # Suspected Malware, Safety Bulletins, and Security Bulletins/System has been compromised

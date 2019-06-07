@@ -5,6 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="subbu-kandhaswamy"
+	ms.author="subbuk"
 	displayOrder=""
 	articleId="IsProxyThrottling_0A86E0B4-1C26-4ACD-9B95-C6296829B8D8"
 	diagnosticScenario="crc_sqldb_connectivity"
@@ -26,6 +27,5 @@ If this is causing issues for your application workload you can force all connec
 <!--/issueDescription-->
 
 ## **Recommended Documents**
-* [Azure SQL Database Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture) 
+* [Azure SQL Database Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture)
 * [This article](https://docs.microsoft.com/azure/sql-database/sql-database-develop-direct-route-ports-adonet-v12)  discusses the port ranges for connections inside and outside of Azure due to the connection policy.   
- 

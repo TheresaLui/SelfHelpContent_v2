@@ -10,6 +10,7 @@
 	resourceTags="apiapp"
 	productPesIds="15792"
 	cloudEnvironments="public"
+	articleId="a78da775-3e1f-4c7d-9e2e-5718693aedef"
 />
 
 # authentication and authorization

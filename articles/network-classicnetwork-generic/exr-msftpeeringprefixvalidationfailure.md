@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="b9f4c722-f7c7-46de-9414-0b33f84d84f5"
 />
 
 # "management/Microsoft peering prefix validation failure"

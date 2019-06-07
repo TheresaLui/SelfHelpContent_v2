@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="16f1d23f-e492-4aef-8f8a-5e438ca2b2e4"
 />
 
 # setup and configuration/question on sql azure vm license

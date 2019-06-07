@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785,16578"
 	cloudEnvironments="public"
+	articleId="08378581-7bc3-42c3-b45d-63468638d316"
 />
 
 # Synchronizing AD to Azure AD/SQL-related installation and sync issues

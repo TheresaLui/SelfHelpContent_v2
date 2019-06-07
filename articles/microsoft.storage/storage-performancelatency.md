@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public"
+	articleId="39a72706-3ad9-4d5d-a9df-b67127f95b7b"
 />
 
 # Troubleshoot latency issues

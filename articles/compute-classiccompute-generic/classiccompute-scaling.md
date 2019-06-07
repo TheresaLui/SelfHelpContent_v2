@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="aa0b9406-4e53-48ee-8d38-9c7e0c4aa58f"
 />
 
 # worker role (paas)/configuration and management/scaling

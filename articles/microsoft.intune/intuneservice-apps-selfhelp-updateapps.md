@@ -10,6 +10,7 @@
 	resourceTags="apps_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="cd49bd09-8b44-4459-915a-86c70b75d173"
 />
 
 # I've made updates to apps but I'm not seeing them in the Company portal app or on the device.

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="55257ca6-d3fd-4285-b11b-62b8cfc393ef"
 />
 
 # Introduction to Azure Cosmos DB: SQL API

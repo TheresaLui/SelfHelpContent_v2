@@ -10,6 +10,7 @@
 	resourceTags="onpremise_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="dd85e7d6-d152-485e-b2dd-91d2bb1419dd"
 />
 
 # I cannot install the Microsoft Intune on-premises Exchange Connector.

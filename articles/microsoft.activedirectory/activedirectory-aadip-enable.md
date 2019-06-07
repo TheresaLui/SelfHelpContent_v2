@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+	articleId="ba375ffb-c952-42dd-b954-926e35432317"
 />
 
 # Identity Protection menu seems disabled

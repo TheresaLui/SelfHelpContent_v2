@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="4ca0ae54-59c3-4cc6-a79d-7de1183b6813"
 />
 
 # How to develop on Azure Storage

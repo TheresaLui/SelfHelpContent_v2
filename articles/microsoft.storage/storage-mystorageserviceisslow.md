@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="5de816db-8eae-4234-b360-2e496b737ec3"
 />
 
 # My storage service is slow

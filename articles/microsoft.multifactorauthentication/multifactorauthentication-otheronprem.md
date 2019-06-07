@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14947"
 	cloudEnvironments="public"
+	articleId="1751d97f-9eab-4c9f-99e3-e936b2dda7de"
 />
 
 # Other questions regarding MFA Server (on-premises)

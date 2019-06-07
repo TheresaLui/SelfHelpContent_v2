@@ -10,6 +10,7 @@
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
+	articleId="bb47a6ad-b627-4074-9fdc-5a993827b56b"
 />
 
 # I have a general question about SQL VM
