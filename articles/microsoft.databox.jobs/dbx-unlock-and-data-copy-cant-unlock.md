@@ -21,7 +21,7 @@
 
 ## **Recommended Documents**
 
-* [Data Box Disk unlock and data copy](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-deploy-set-up)<br>
+* [Data Box Disk unlock and data copy](https://docs.microsoft.com/azure/databox/data-box-disk-deploy-set-up)<br>
 * [Data Box Disk FAQ](https://docs.microsoft.com/azure/databox/data-box-disk-faq)<br>
 
 
