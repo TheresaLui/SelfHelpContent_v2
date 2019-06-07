@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-    articleId="e633b59d-0baf-4a33-8caf-e135f3d246cd"
+    articleId="29c081cb-767b-442c-8c84-2ddec8d54e75"
 />
 
 # Troubleshoot Runbook Execution in Azure Automation - Runbook works locally, but not in Automation
