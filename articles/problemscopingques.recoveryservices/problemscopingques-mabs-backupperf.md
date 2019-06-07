@@ -40,7 +40,7 @@
                 }
             ],
             "required": true
-        }, 
+        },
         {
             "id": "mab_version",
             "order": 2,
