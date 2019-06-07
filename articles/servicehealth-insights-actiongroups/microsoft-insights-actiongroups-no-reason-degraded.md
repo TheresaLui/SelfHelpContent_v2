@@ -21,4 +21,4 @@ At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring syst
 We are sorry, your action group may be degraded. We're working to automatically recover your action group and to determine the source of the problem. No additional action is required from you at this time.
 <!--/issueDescription-->
 
-Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
+Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health. 
