@@ -4,6 +4,7 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
+	ms.author="passap"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
