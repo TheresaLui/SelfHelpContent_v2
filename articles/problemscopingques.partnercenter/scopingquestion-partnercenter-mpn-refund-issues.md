@@ -8,7 +8,7 @@
 	productPesIds="15960"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="scopingquestion_partnercenter_MPN_refund_issues"
+	articleId="scopingquestion_partnercenter_mpn_refund_issues"
 	clientIds="partnercenter"
 />
 #Partner Center MPN refund issues
