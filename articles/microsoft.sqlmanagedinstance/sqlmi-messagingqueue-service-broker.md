@@ -27,7 +27,7 @@ If you are experiencing some issues with Service Broker or Query notifications, 
 - If you are using message passing with encryption, make sure that you have setup database encryption keys.
 - Try to identify some issues in error log such as `Message Service Broker needs to access the master key in the database`.
 - Monitor Service Broker using [XEvents](https://docs.microsoft.com/sql/relational-databases/event-classes/broker-event-category)
-- Ue Profiler to track the following events: `Broker/Broker:Conversation`, `Broker/Broker:Message Undeliverable` and `Broker/Broker:Remote Message Acknowledgement`.
+- Use Profiler to track the following events: `Broker/Broker:Conversation`, `Broker/Broker:Message Undeliverable` and `Broker/Broker:Remote Message Acknowledgement`.
 - Make sure that you implement retry-logic in the application code that handles Query Notifications. Depending on the value of [SqlNotificationInfo](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlnotificationinfo) in [SqlNotificationEventArgs](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlnotificationeventargs) you need to handle events such as `Error` or `Restart` and retry the query.
 - If the messages are sent but the activation procedure is not triggered, check does the user who is authorized to run the procedure has enough permission. As a temporary solution try to assign more permission to the user using `ALTER AUTHORIZATION ON DATABASE::<database name> TO <login name>` or set `ALTER DATABASE <database name> SET TRUSTWORTHY ON` to see would this resolve the issue.
 

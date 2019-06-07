@@ -22,7 +22,7 @@
 
 - SQL Managed Instance requires update of client drivers to fully function. Here is a list with minimal driver versions:
   - ODBC driver v17
-  - PHP drive 5.2.0
+  - PHP driver 5.2.0
   - JDBC driver 6.4.0.
   - Node.js driver 2.1.1
   - OLE DB driver 18.0.2.0

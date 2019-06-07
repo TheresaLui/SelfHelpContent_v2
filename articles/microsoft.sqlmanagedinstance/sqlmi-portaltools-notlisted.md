@@ -22,7 +22,7 @@ Managed Instance supports a number of tools listed below.
 
 ## **Recommended steps**
 
-Ensure you are using the latest version of tools for  anaged Instance. To connect to Managed Instance, consider using the following tools:
+Ensure you are using the latest version of tools for  Managed Instance. To connect to Managed Instance, consider using the following tools:
 
 * [SQL Server Data Tools for Visual Studio (SSDT)](https://docs.microsoft.com/sql/ssdt/sql-server-data-tools). Note that Visual Studio 2019 or higher is required.
 * [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms). Note that SSMS version 18 or higher is required.

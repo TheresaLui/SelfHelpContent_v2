@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Management/Back up a managed instance database"
-	description="Management/Back up a managed instance database"
+	pageTitle="Management/Backup a managed instance database"
+	description="Management/Backup a managed instance database"
 	service="microsoft.sql"
 	resource="servers"
 	authors="jovanpop-msft"
@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 	articleId="14f2e3ce-48e0-4417-b4f1-5097ea71edf3"
 />
-# Back up/Restore a managed instance database
+# Backup/Restore a managed instance database
 
 Managed Instance takes automatic backups (full backups every week, differential every 12 hours, and log backups every 5-10 min) that you can use to restore a database to some point of time in past within the retention period or restore accidentally deleted database. For more information, see [Automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups). 
 
