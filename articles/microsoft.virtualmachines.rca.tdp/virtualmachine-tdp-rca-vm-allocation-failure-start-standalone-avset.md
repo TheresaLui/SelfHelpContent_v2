@@ -15,7 +15,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and found an allocation failure
 
 <!--issueDescription-->
 We detected that the start operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.<br>
@@ -42,10 +42,4 @@ If you are unable to find suitable alternate locations or VM sizes and would lik
 
 - Redeploy the VM to a new Azure node [using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#using-azure-powershell), the [Azure Portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#use-the-azure-portal), and the [Azure CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux#use-the-azure-cli).
 - To determine available sizes using PowerShell, use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command, for Azure CLI see the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command, for the REST API see the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
-
-
-
-
-
-
 

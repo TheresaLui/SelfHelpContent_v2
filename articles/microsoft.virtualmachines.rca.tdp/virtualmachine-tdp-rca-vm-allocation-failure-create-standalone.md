@@ -15,7 +15,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and found an allocation failure
 
 <!--issueDescription-->
 We detected that a create operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.<br>
@@ -27,10 +27,8 @@ The region this VM is associated with did not have enough capacity at the time t
 
 Try redeploying the VM as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
 
-- Choose another VM size that is currently available in your region. If you are using an older VM product, consider newer versions. See [Products by region](https://azure.microsoft.com/regions/services/) to search and browse for products by region and [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set].
+- Choose another VM size that is currently available in your region. If you are using an older VM product, consider newer versions. See [Products by region](https://azure.microsoft.com/regions/services/) to search and browse for products by region and [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set).
 - Redeploy the VM to a new Azure node [using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#using-azure-powershell), the [Azure Portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#use-the-azure-portal), and the [Azure CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux#use-the-azure-cli).
-
-To determine available sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
 
 ### Request exemption
 

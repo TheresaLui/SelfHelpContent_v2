@@ -15,7 +15,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and found an allocation failure
 
 <!--issueDescription-->
 We detected that the operation **<!--$OperationType-->operationType<!--/$OperationType-->** operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.<br>
@@ -34,7 +34,7 @@ We apologize for the inconvenience. Try redeploying the VM as the issue might ha
 
 To determine available sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
 
-For PowerShell examples for resizing a VM, for either in or not in an availability set,see [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm).<br> 
+For PowerShell examples for resizing a VM, for either in or not in an availability set, see [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm).<br> 
 
 ### Request exemption
 If you are unable to find suitable alternate locations or VM sizes and would like to submit a request for an SKU to be enabled, follow the support request process described in [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable). This action will streamline your request and assist in getting a faster turnaround time.<br>

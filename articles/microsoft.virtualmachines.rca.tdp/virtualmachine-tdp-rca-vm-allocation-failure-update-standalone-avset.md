@@ -15,7 +15,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and found an allocation failure
 
 <!--issueDescription-->
 We detected that a update operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.
