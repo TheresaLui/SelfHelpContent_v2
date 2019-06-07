@@ -17,5 +17,7 @@
 />
 
 # Public endpoint
+
 ## **Recommended documents**
-[Configure public endpoint in Azure SQL Database managed instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-public-endpoint-configure)<br>
+
+- [Configure public endpoint in Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-public-endpoint-configure)

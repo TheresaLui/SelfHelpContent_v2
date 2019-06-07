@@ -23,7 +23,7 @@ If you are experiencing some issues with sending emails or alerting, the followi
 
 ### Database mail
 
-If you are the experiencing some issues with sending e-mail messages, try some of the following troubleshooting steps:  
+If you are the experiencing some issues with sending e-mail messages, try some of the following troubleshooting steps: 
 - Check are the options 'Database Mail XPs' and 'show advanced options' enabled in `sys.configurations` view.
 - Check have you correctly configured email profile with correct email server name/IP address, port, and account information (username and password).
 - Check could you reach the mail server from Managed Instance.
@@ -35,12 +35,14 @@ If you are the experiencing some issues with sending e-mail messages, try some o
 - Find more information in [Troubleshooting Database Mail](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms188663(v=sql.105)) article.
 
 ### SQL Agent email alerts
+
 If you are the experiencing issues with sending e-mail alerts from SQL Agent, try some of the following troubleshooting steps:
 - Check do you have an email profile called **AzureManagedInstance_dbmail_profile**.
 - Try to send an email using [sp_send_dbmail](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql) procedure on **AzureManagedInstance_dbmail_profile** profile with T-SQL script.
 - Repeat the steps from the previous section to troubleshoot the potential database email issues.
-- Check is there some [SQL Agent limitation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent) that is causing this issue.
+- Check is there some [SQL Agent limitation](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent) that is causing this issue.
 
 ## **Recommended documents**
+
 - [Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail)
 - [Configure Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail)

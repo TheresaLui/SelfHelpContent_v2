@@ -18,7 +18,7 @@
 
 Managed Instance enables you to define the amount of storage that you would use for your databases, and you you need to monitor your application and ensure that your are nto reaching the limits. If yu experience some issues with storage or files, the following steps might help you to troubleshoot and fix the issues.
 
-# Recommended Steps
+## **Recommended steps**
 
 Try some of the following steps to troubleshoot the issue:
 

@@ -16,4 +16,4 @@
 
 ## **Recommended steps**
 
-[Download the latest version of Azure Data Studio](https://docs.microsoft.com/sql/azure-data-studio/download)
+- [Download the latest version of Azure Data Studio](https://docs.microsoft.com/sql/azure-data-studio/download)

@@ -17,5 +17,7 @@
 />
 
 # DNS configuration
+
 ## **Recommended documents**
-[Configuring a Custom DNS for Azure SQL Database Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-custom-dns)<br>
+
+- [Configuring a Custom DNS for Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-custom-dns)

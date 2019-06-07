@@ -18,4 +18,4 @@ SQL Server Resource Governor is a feature than you can use to manage SQL Databas
 
 ## **Recommended documents**
 
-- [Check Resource Governor concepts](https://docs.microsoft.com/en-us/sql/relational-databases/resource-governor/resource-governor?view=sql-server-2017#resource-concepts) to understand Resource pools, Workload groups and Classification.
+- [Check Resource Governor concepts](https://docs.microsoft.com/sql/relational-databases/resource-governor/resource-governor?view=sql-server-2017#resource-concepts) to understand Resource pools, Workload groups and Classification.

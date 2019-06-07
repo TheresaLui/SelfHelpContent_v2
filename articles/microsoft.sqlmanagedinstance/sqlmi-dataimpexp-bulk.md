@@ -18,7 +18,7 @@
 
 Azure SQL Database Managed Instance enables you to load files from Azure Blob Storage. If you experience some issue while you are loading files from Azure Blob Storage, here you can find the actions that can help you to troubleshoot and mitigate the issue.
 
-# Recommended steps
+## **Recommended steps**
 
 Try some of the following steps to troubleshoot the issue:
 

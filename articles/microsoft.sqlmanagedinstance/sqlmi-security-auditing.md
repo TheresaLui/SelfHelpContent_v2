@@ -17,5 +17,7 @@
 />
 
 # Auditing
+
 ## **Recommended documents**
-[Get started with Azure SQL Database managed instance auditing](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-auditing)<br>
+
+- [Get started with Azure SQL Database managed instance auditing](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-auditing)

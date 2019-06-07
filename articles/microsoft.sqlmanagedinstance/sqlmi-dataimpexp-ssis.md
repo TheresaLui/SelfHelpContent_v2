@@ -29,4 +29,4 @@ To Setup SSIS/Azure Data Factory and SQL MI please follow the steps in these art
 ## **Recommended documents**
 
 - [Lift and shift SQL Server Integration Services workloads to the cloud](https://docs.microsoft.com/sql/integration-services/lift-shift/ssis-azure-lift-shift-ssis-packages-overview)
-- [ADF/SSIS Frequently Asked Questions](https://docs.microsoft.com/en-us/azure/data-factory/frequently-asked-questions)
+- [ADF/SSIS Frequently Asked Questions](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions)

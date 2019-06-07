@@ -10,7 +10,7 @@
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32637241"
-	resourceTags=""	
+	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId=""
@@ -47,7 +47,7 @@ To monitor performance of Managed Instance using Azure SQL Analytics, follow the
 
 ### Setup alerting through SQL Azure Analytics:
 
-* Alerts can be created on all monitored telemetry through SQL Analtyics. This is achieved through writing a query on data that is triggered upon condition being meet. See [examples of queries](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql#creating-alerts-for-managed-instance) to setup alerting through SQL Analtyics.
+* Alerts can be created on all monitored telemetry through SQL Analytics. This is achieved through writing a query on data that is triggered upon condition being meet. See [examples of queries](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql#creating-alerts-for-managed-instance) to setup alerting through SQL Analytics.
 
 * For writing additional queries use [Azure Monitor log queries](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries).
 
@@ -55,5 +55,5 @@ To monitor performance of Managed Instance using Azure SQL Analytics, follow the
 
 * [Monitor Azure SQL Database using Azure SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql)
 * [Setup alerting on Azure SQL Database Managed instance using log queries](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql#creating-alerts-for-managed-instance)
-* [Get started with Azure Monitor log queries](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/get-started-queries)
+* [Get started with Azure Monitor log queries](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries)
 

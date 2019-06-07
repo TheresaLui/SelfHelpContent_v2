@@ -17,5 +17,7 @@
 />
 
 # Data Discovery and Classification
+
 ## **Recommended documents**
-[Azure SQL Database and SQL Data Warehouse data discovery & classification](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-data-discovery-and-classification)<br>
+
+- [Azure SQL Database and SQL Data Warehouse data discovery & classification](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification)

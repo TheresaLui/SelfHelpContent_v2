@@ -17,7 +17,7 @@
 
 Managed Instance enables you to import data from a `BACPAC` file.
 
-# Recommended steps
+## **Recommended steps**
 
 If you are experiencing the issues with BACPAC functionality in Managed instance, try some of the following steps:
 

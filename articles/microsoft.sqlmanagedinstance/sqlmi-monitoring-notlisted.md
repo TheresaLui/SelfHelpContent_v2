@@ -57,4 +57,4 @@ To monitor performance of Managed Instance, consider using one of the following 
 
 * [Monitor Azure SQL Database using Azure SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql)
 * [Setup alerting on Azure SQL Database Managed instance using log queries](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql#creating-alerts-for-managed-instance)
-* [Get started with Azure Monitor log queries](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/get-started-queries)
+* [Get started with Azure Monitor log queries](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries)

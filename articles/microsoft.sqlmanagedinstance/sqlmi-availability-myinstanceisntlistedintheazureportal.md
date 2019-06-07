@@ -19,4 +19,5 @@
 # My instance isn't listed in the Azure portal
 
 ## **Recommended steps**
-* Check if you are signed-in to proper subscription.<br>
+
+- Check if you are signed-in to proper subscription.

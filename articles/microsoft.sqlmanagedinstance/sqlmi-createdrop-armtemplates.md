@@ -26,4 +26,4 @@ To create managed instance using ARM template, see [Creating Azure SQL Managed I
 
 ## **Recommended documents**
 
-* [Understand the structure and syntax of Azure Resource Manager templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
+* [Understand the structure and syntax of Azure Resource Manager templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-authoring-templates)

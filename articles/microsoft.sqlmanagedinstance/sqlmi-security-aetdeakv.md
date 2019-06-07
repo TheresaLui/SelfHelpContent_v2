@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 
-[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)
-[Transparent Data Encryption](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-azure-sql)
-[BYOK Transparent Data Encryption](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql)
+- [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)
+- [Transparent Data Encryption](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-azure-sql)
+- [BYOK Transparent Data Encryption](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql)
