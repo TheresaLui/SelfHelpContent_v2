@@ -4,7 +4,7 @@
                 authors="timbasham"
                 ms.author="tibasham"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32615526"
+                supportTopicIds="32663940"
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
