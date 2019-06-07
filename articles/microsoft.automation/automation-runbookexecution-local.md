@@ -55,7 +55,7 @@ If you are running jobs using a hybrid worker instead of in Azure Automation, yo
 ### Runbooks were working, but suddenly stopped
 
 * If runbooks were previously executing but stopped, [ensure the RunAs account has not expired](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
-* If you are using webhooks to start runbooks, [ensure the webhook has not expired](https://docs.microsoft.com/azure/automation/automation-webhooks#renew-webhook).
+* If you are using webhooks to start runbooks, [ensure the webhook has not expired](https://docs.microsoft.com/azure/automation/automation-webhooks#renew-webhook)
 
 ### Passing parameters into webhooks
 
