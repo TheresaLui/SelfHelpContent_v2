@@ -23,8 +23,7 @@ If an error occurs while you’re on a Partner Center page, you may be prompted 
 
 ## **Recommended Steps**
 
-- Ensure the form includes your name and address, that Microsoft Corporation or Microsoft is completely spelled out (the terms MSFT, MS Corp or other variations are not acceptable), and the form is signed and dated accurately. Here are the tax credit forms: For [Germany](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE305Lo) and [All other countries](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE30311).
-
+- On Partner Center pages that include /pcv/ in the URL, you can open the tool manually to collect this information.
 - On the page with the issue, press Ctrl+Alt+D to open the Client Diagnostic tool
 - Preview the diagnostic information and then save it to a file that you can attach in your support request
 - Review the information in the file before sending it as it can contain personally identifiable information that you may want to remove
