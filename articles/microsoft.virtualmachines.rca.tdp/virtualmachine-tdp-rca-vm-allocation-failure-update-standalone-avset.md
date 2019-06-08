@@ -25,7 +25,7 @@ The hardware cluster where the VM is hosted did not have enough capacity to succ
 
 ## **Recommended Steps**
 
-We apologize for the inconvenience. Try updating the VM as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
+We apologize for the inconvenience. Try updating the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
 
 - If the VM is an availability set, deallocate all the VMs in the availability set  and then restart them again. Doing so enables the Azure platform to choose from more than one cluster when performing the allocation. The VM will use the same size that it had before the deallocation. 
 - Resize the VM to a size that is currently available in your region. If you are using an older VM product, consider newer versions.<br>

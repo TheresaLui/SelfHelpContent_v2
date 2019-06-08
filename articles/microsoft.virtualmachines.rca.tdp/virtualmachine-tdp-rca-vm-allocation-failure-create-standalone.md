@@ -25,7 +25,7 @@ The region this VM is associated with did not have enough capacity at the time t
 
 ## **Recommended Steps**
 
-We apologize for the inconvenience. Try creating the VM as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, consider choosing another VM size that is currently available in your region. If you are using an older VM product, consider newer versions. 
+We apologize for the inconvenience. Try creating the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, consider choosing another VM size that is currently available in your region. If you are using an older VM product, consider newer versions. 
 
 See [Products by region](https://azure.microsoft.com/regions/services/) to search and browse for products by region and [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set).
 
