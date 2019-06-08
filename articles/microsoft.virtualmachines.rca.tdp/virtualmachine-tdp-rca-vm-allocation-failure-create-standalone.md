@@ -21,14 +21,13 @@
 We detected that a create operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.<br>
 <!--/issueDescription-->
 
-The region this VM is associated with did not have enough capacity at the time to support its allocation.
+The region this VM is associated with did not have enough capacity at the time to support its allocation.<br>
 
 ## **Recommended Steps**
 
-Try redeploying the VM as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
+We apologize for the inconvenience. Try creating the VM as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, consider choosing another VM size that is currently available in your region. If you are using an older VM product, consider newer versions. 
 
-- Choose another VM size that is currently available in your region. If you are using an older VM product, consider newer versions. See [Products by region](https://azure.microsoft.com/regions/services/) to search and browse for products by region and [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set).
-- Redeploy the VM to a new Azure node [using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#using-azure-powershell), the [Azure Portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#use-the-azure-portal), and the [Azure CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux#use-the-azure-cli).
+See [Products by region](https://azure.microsoft.com/regions/services/) to search and browse for products by region and [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set).
 
 ### Request exemption
 

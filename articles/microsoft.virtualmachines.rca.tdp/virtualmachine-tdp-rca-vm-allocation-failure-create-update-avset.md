@@ -21,13 +21,13 @@
 We detected that the operation **<!--$OperationType-->operationType<!--/$OperationType-->** operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.<br>
 <!--/issueDescription-->
 
-The hardware cluster where the availability set **<!--$avsetname-->myAvailabilitySet<!--/$avsetname-->** is hosted did not have enough capacity to support its allocation.
+The hardware cluster where the availability set **<!--$avsetname-->myAvailabilitySet<!--/$avsetname-->** is hosted did not have enough capacity to support its allocation.<br>
 
 An Azure Availability Set is created on a specific hardware cluster based upon the first VM using it. Each subsequent VM added must be compatible with the VM sizes supported in that hardware cluster. By having this constraint, high availability is maintained. In this case, the hardware cluster where the availability set is hosted did not have enough capacity to allocate the requested VM size.<br>
 
 ## **Recommended Steps**
 
-We apologize for the inconvenience. Try redeploying the VM as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
+We apologize for the inconvenience. Try the <!--$OperationType-->operationType<!--/$OperationType--> operation on the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
 
 - Deallocate all the VMs in the availability set, and then restart them again. Doing so enables the Azure platform to choose from more than one cluster when performing the allocation. The VM will use the same size that it had before the deallocation. 
 - Resize the VM to a size that is currently available in your availability set. If you are using an older VM product, consider newer versions. See [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set)<br>
@@ -42,6 +42,5 @@ If you are unable to find suitable alternate locations or VM sizes and would lik
 ## **Recommended Documents**
 
 - To determine sizes using PowerShell, use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command, for Azure CLI see the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command, for the REST API see the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
-- To redeploy the VM to a new Azure node, see [using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#using-azure-powershell), the [Azure Portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#use-the-azure-portal), and the [Azure CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux#use-the-azure-cli).
 - See [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) for a conceptual overview on working with VM sizes, availability sets, availability zones, and regions.
 

@@ -21,11 +21,11 @@
 We detected that the start operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.<br>
 <!--/issueDescription-->
 
-The hardware cluster where the VM is hosted did not have enough capacity to start the VM.
+The hardware cluster where the VM is hosted did not have enough capacity to start the VM.<br>
 
 ## **Recommended Steps**
 
-Try redeploying the VM as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
+We apologize for the inconvenience. Try starting the VM as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
 
 - If the VM is an availability set, deallocate all the VMs in the availability set  and then restart them again. Doing so enables the Azure platform to choose from more than one cluster when performing the allocation. The VM will use the same size that it had before the deallocation. 
 - Resize the VM to a size that is currently available in your region. If you are using an older VM product, consider newer versions.<br>
@@ -34,12 +34,13 @@ For PowerShell examples to resize a VM, for both in an availability set and not 
 
 To determine available sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
 
+To determine available sizes using PowerShell, use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command, for Azure CLI see the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command, for the REST API see the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.<br>
+
 ### Request exemption
 
-If you are unable to find suitable alternate locations or VM sizes and would like to submit a request for an SKU to be enabled, follow the support request process described in [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable). This action will streamline your request and assist in getting a faster turnaround time.<br>
+If you are unable to find suitable alternate locations or VM sizes and would like to submit a request for an SKU to be enabled, follow the support request process described in [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable). This action will streamline your request and assist in getting a faster turnaround time.
 
-## **Recommended Documents**
 
-- Redeploy the VM to a new Azure node [using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#using-azure-powershell), the [Azure Portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#use-the-azure-portal), and the [Azure CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux#use-the-azure-cli).
-- To determine available sizes using PowerShell, use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command, for Azure CLI see the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command, for the REST API see the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
+
+
 
