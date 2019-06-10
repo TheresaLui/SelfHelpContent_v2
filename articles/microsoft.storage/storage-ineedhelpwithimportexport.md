@@ -16,7 +16,7 @@
 
 # I need help with Import/Export
 
-## **Recommended steps**
+## **Recommended Steps**
 The Import/Export service only works with Blob storage. You can import any type of blob data using the import/export service, including VHD images. The following links will help make sure you are following the proper steps and answer common questions.
 
 1. [Make sure you have met the prerequisites](https://azure.microsoft.com/documentation/articles/storage-import-export-service/#pre-requisites)
@@ -27,6 +27,7 @@ The Import/Export service only works with Blob storage. You can import any type 
 6. [Questions? Check the FAQ](https://azure.microsoft.com/documentation/articles/storage-import-export-service/#frequently-asked-questions)
 
 
-## **Recommended documents**
-[How to prepare an Import/Export Job?](http://go.microsoft.com/fwlink/?LinkId=785089)<br>
-[Why is my Import/Export shipping status incorrect?](http://go.microsoft.com/fwlink/?LinkId=785090)
+## **Recommended Documents**
+
+* [How to prepare an Import/Export Job?](http://go.microsoft.com/fwlink/?LinkId=785089)<br>
+* [Why is my Import/Export shipping status incorrect?](http://go.microsoft.com/fwlink/?LinkId=785090)
