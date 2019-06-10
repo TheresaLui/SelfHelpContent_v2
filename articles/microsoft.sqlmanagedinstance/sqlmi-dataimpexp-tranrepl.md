@@ -25,6 +25,7 @@ Find here more information about [configuration of transactional replication in 
 If you are experiencing some issues with transactional replication, the following steps can help you to find a way to troubleshoot the issues.
 
 - Review the requirements for the [transactional replication in Managed Instance](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance#requirements).
+
   - Managed instance is not currently participating in a geo-replication relationship.
   - Publisher managed instance is on the same virtual network as the distributor and the subscriber, or vNet peering has been established between the virtual networks of all three entities.
   - Connectivity uses SQL Authentication between replication participants.

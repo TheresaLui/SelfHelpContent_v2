@@ -28,7 +28,8 @@ If you are the experiencing some issues with sending e-mail messages, try some o
 
 - Check are the options 'Database Mail XPs' and 'show advanced options' enabled in `sys.configurations` view.
 - Check have you correctly configured email profile with correct email server name/IP address, port, and account information (username and password).
-- Check could you reach the mail server from Managed Instance.
+- Check could you reach the mail server from Managed Instance
+
   - Create SQL Agent job that has one PowerShell task that executes command like `tns smpt.sendgrid.net -25`, run the job and check the job output in the job history. This is public mail server that should be reached from your Managed Instance, unless if you have explicitly blocked that name and/or port.
   - Replace the name of the mail server and/or port in the job with the mail server and port that you are using and repeat the previous step.
   - Check have you enabled the port that is used to communicate with the email server. Port should be added in the [Outbound security rules](https://docs.microsoft.com/azure/virtual-network/tutorial-filter-network-traffic#create-security-rules) of the Network Security Group that controls the access to your Managed Instance.
