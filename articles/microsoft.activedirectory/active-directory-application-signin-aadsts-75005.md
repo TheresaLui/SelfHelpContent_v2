@@ -17,14 +17,15 @@
 />
 
 # Configuration Issue Preventing User Sign-In
-
+<!--issueDescription-->
 The authentication/SAML request that you are sending is invalid or missing properties.
+<!--issueDescription-->
 
 ## **Recommended Steps**
 
 1. [Capture the SAML request](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging)
 2. Contact the application vendor and share the following info:
-    
+
     a. SAML Request from above
     b. [Azure AD Single SignOn protocol requirements](https://docs.microsoft.com/azure/active-directory/develop/active-directory-single-sign-on-protocol-reference)
 

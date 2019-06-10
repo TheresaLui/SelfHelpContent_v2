@@ -15,15 +15,16 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
- 
-# **Express Route Circuit Private VRF Tunnel Count**
-ExpressRoute circuit: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' 
 
+# **Express Route Circuit Private VRF Tunnel Count**
+<!--/issueDescription-->
+ExpressRoute circuit: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Execute Jarvis Actions operation: 
-**Brooklyn -> ExR Service Operations->Force Apply Device Configuration** for ServiceKey: **<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**
+* Execute Jarvis Actions operation: **Brooklyn -> ExR Service Operations->Force Apply Device Configuration** for ServiceKey: **<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**
 
 ## **Recommended Documents**
+
 * [Create and modify peering for an ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-howto-routing-portal-resource-manager)

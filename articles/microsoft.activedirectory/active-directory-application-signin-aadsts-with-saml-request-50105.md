@@ -17,8 +17,9 @@
 />
 
 # Configuration Issue Preventing User Sign-In
-
+<!--issueDescription-->
 The user who is trying to log in does not have permission to access the application. There are two possible reasons for this, with the most common scenario being that the user has not been assigned to the application.
+<!--issueDescription-->
 
 ## **Recommended Steps**
 
@@ -35,12 +36,12 @@ If you have already assigned the user to the application but the problem still c
 4. Click on the application name to open it, then click **Single Sign-On** on the application's left-hand navigation menu
 5. In the **Domain and URLs** section, find the property labeled **Identifier (Entity ID)**
 6. If the **Issuer** value does not match the **Identifier (Entity ID)**, update the **Identifier (Entity ID)** value to match
- 
+
 If the *Issuer* value already matches the **Identifier (Entity ID)**, there are two options:
 
 * **Option A**: Use the current application to enable single sign-on and assign the users or group to the application
 * **Option B**: Update the application to provide a different *Issuer* value in the SAML request, then use this new value as the **Identifier (Entity ID)** to enable single sign-on with the application you were first configuring
- 
+
 Your application should now be available for user sign-in.
 
 For future sign in problems with SAML based applications, we recommend using the [testing feature with the My Apps secure sign-in extension](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to get better and automatic self diagnosis and resolution steps.
@@ -50,4 +51,4 @@ For future sign in problems with SAML based applications, we recommend using the
 * [Problem SignIn gallery applications](https://docs.microsoft.com/azure/active-directory/application-sign-in-problem-federated-sso-gallery)
 
 <h4>SAML Request Received:</h4>				
-<!--$SAMLRequestFormat-->SAMLRequestFormat<!--/$SAMLRequestFormat-->	
+<!--$SAMLRequestFormat-->SAMLRequestFormat<!--/$SAMLRequestFormat-->
