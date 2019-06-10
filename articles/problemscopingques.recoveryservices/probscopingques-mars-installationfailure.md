@@ -64,7 +64,7 @@
             ],
             "required": true
         },
-     	{
+        {
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
@@ -98,7 +98,7 @@
                     "value": "Ensure c:/windows/temp folder has less than 60,000 files",
                     "text": "Ensure c:/windows/temp folder has less than 60,000 files"
                 },
-		{
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -122,6 +122,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

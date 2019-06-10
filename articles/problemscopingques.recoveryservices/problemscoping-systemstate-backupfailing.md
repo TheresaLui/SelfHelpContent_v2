@@ -68,7 +68,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
-	   "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
+            "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -107,7 +107,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-	    "infoBalloonText": "You can find the MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "You can find the MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -116,7 +116,7 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-	    "infoBalloonText": "You can find the ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "You can find the ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },
@@ -137,6 +137,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

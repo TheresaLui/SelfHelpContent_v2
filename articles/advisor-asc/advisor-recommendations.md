@@ -18,16 +18,17 @@ supportTopicIds="32411835,32411844,32411877,32411817,32411885,32411841,32411816,
 
 # You have Azure Advisor recommendations
 
-<!--/issueDescription-->
+<!--issueDescription-->
 Azure Advisor has identified best practice recommendations for your <!--$resourceType-->resourceType<!--/$resourceType--> **<!--$resourceName-->resourceName<!--/$resourceName-->**. Advisor is a free offering that analyzes resource configuration and usage to recommend solutions that can improve cost effectiveness, performance, high availability, and security of Azure resources.
 <!--/issueDescription-->
 
-We have found the following recommendations for your resourceType **resourceName**:
+We have found the following recommendations for your <!--$resourceType-->resourceType<!--/$resourceType--> **<!--$resourceName-->resourceName<!--/$resourceName-->**:
 
 <!--$recommendationsList-->recommendationsList<!--/$recommendationsList-->
-<!--/issueDescription-->
-<br>
-View your full list of Advisor recommendations across all of your subscriptions at any time in the [Azure portal](https://aka.ms/advisor_azuresupportcenter).
+
+## **Recommended Steps**
+
+View your full list of Advisor recommendations across all of your subscriptions at any time in the [Azure portal](https://aka.ms/advisor_azuresupportcenter):
 
 1. Visit [Advisor](https://aka.ms/advisor_azuresupportcenter) in the Azure portal
 2. Review your complete list of recommendations

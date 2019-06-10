@@ -188,14 +188,16 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "name_useraccount",
             "order": 10,
             "visibility": "isadmin == No || isadmin == I do not know",
             "controlType": "textbox",
             "displayLabel": "What is the name of the user account trying to login?",
             "required": false
-        },{
+        },
+        {
             "id": "connect_ifnew",
             "order": 11,
             "controlType": "dropdown",
@@ -372,6 +374,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

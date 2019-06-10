@@ -114,6 +114,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

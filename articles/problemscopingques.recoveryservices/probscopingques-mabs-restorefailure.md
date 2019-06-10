@@ -72,7 +72,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
             "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
-	    "watermarkText": "Paste MachineId here",
+            "watermarkText": "Paste MachineId here",
             "required": false
         },
         {
@@ -82,7 +82,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId",
             "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
-	    "watermarkText": "Paste ResourceId here",
+            "watermarkText": "Paste ResourceId here",
             "required": false
         },
         {
@@ -101,7 +101,7 @@
                     "value": "Recover data to the original location",
                     "text": "Recover data to the original location"
                 },
-		{
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -144,7 +144,7 @@
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 },
-		{
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -170,7 +170,7 @@
                     "value": "Tried restoring different recovery points",
                     "text": "Tried restoring different recovery points"
                 },
-		 {
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -195,6 +195,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
