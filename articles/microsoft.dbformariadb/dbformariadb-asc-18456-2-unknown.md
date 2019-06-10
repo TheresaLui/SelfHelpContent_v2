@@ -28,4 +28,4 @@ As the service cannot entirely prevent transient connection failures like the on
 ## **Recommended Documents**
 
 * [Azure Database for MariaDB](https://azure.microsoft.com/services/mariadb/)
-* [MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMariaDB)
+* [MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums)
