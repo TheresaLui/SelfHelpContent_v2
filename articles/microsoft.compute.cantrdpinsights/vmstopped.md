@@ -19,10 +19,9 @@
 # Resolve issues with a deallocated Virtual Machine
 
 <!--issueDescription-->
-## **The virtual machine <!--$vmname-->[vmname]<!--/$vmname--> is currently deallocated.**
 We have detected that the virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is currently deallocated. To run additional diagnostic tests, the VM must be running.<br>
 <!--/issueDescription-->
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Please [start](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) the virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname-->, so that we may run additional diagnostic tests

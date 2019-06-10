@@ -13,7 +13,9 @@
 # Deploy a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Troubleshoot my ARM template error",
     "fileAttachmentHint": "",
     "formElements": [
@@ -59,7 +61,8 @@
                     "value": "Deployment failure not found.",
                     "text": "Deployment failure not found."
                 },
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "valuePropertyRegex": "[^/]+$"
             },
             "dropdownOptions": [
                 {
@@ -130,8 +133,8 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "No (Please upload your template below)",
+                    "text": "No (Please upload your template below)"
                 }
             ],
             "required": false
@@ -160,6 +163,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

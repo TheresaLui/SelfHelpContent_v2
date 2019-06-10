@@ -4,8 +4,8 @@
          authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32612998"
-         productPesIds="15207"
+         supportTopicIds="32612998,32637327"
+         productPesIds="15207,14749,15571,15797,16454,16470"
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="9a98fd5d-c64c-4d29-9f4d-fd53e64b5c0b"
@@ -42,7 +42,7 @@
                     "text": "Slow restore during restore disk operation"
                 },
                 {
-		    "value": "Slow restore during restore existing disks operation",
+                    "value": "Slow restore during restore existing disks operation",
                     "text": "Slow restore during restore existing disks operation"
                 },
                 {
@@ -85,6 +85,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

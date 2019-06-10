@@ -46,11 +46,11 @@ schemaVersion="1"
             "required": true,
             "hints": [
                 {
-                    "text": "Template and parameter files used",
                     "text": "Error messages"
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

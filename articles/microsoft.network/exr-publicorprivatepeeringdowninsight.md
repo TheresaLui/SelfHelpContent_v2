@@ -15,16 +15,16 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
- 
-# **Express Route Circuit Private or Public Peering is down**
-ExpressRoute circuit: '**<!--$CircuitName--> [CircuitName] <!--/$CircuitName-->**', Public and/or Private peering exists, but could be down (status:Idle)
 
+# **Express Route Circuit Private or Public Peering is down**
+<!--/issueDescription-->
+ExpressRoute circuit: '**<!--$CircuitName--> [CircuitName] <!--/$CircuitName-->**', Public and/or Private peering exists, but could be down (status:Idle)
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Execute Jarvis Actions operation: 
-Review '**<!--$DumpRoutingInfo--> [DumpRoutingInfo] <!--/$DumpRoutingInfo-->**'  for details and follow the TSG.
+* Execute Jarvis Actions operation: Review '**<!--$DumpRoutingInfo--> [DumpRoutingInfo] <!--/$DumpRoutingInfo-->**'  for details and follow the TSG
 
-## **Recommended Documentation**
+## **Recommended Documents**
 
 * [Verify BGP Connection](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview#validate-bgp-and-routes-on-the-msee)
