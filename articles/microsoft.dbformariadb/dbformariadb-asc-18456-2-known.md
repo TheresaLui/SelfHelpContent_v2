@@ -4,7 +4,7 @@
 	infoBubbleText="Found recent connection failure. See details on the right"
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
-	authors="janeng"
+	authors="haz"
 	displayOrder="100"
 	articleId="dbformariadb-asc-18456-2-known"
 	diagnosticScenario="OrcasMariaDBBackendErrorKnownReasons"
