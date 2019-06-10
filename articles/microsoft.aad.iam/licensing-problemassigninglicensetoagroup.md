@@ -2,6 +2,7 @@
     pageTitle="Problem assigning licenses to a group"
     description="problemassigninglicensetoagroup"
     authors="chpate"
+    ms.authors="chpate"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570958,32615386"
     productPesIds="14785,16578,16575,16578"

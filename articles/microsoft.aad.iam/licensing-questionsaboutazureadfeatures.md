@@ -2,6 +2,7 @@
     pageTitle="Questions about Azure AD features"
     description="questionsaboutazureadfeatures"
     authors="chpate"
+    ms.authors="chpate"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615394"
     productPesIds="16578"
