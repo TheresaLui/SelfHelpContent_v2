@@ -16,8 +16,9 @@
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
+
 # Pricelists
 
 ## **Recommended Documents**
 
-* **[Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)**
+* [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
