@@ -40,4 +40,4 @@ If there are some keys with an uneven access pattern (e.g. super-users of your w
 
 ## **Recommended Documents**
 
-See [Handling large partition keys](https://github.com/Azure/azure-cosmos-dotnet-v2/tree/master/samples/Patterns/Patterns/07.LargePartitionKeys) for more details.
+See [Handling large partition keys](https://github.com/Azure/azure-cosmos-dotnet-v2/tree/master/samples/Patterns/Patterns/07.LargePartitionKeys) for .NET samples.
