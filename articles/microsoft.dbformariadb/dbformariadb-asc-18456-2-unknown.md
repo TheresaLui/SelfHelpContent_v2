@@ -5,6 +5,7 @@
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
 	authors="haz"
+	ms.author="haz"
 	displayOrder="100"
 	articleId="dbformariadb-asc-18456-2-unknown"
 	diagnosticScenario="OrcasMariaDBBackendErrorUnKnownReasons"

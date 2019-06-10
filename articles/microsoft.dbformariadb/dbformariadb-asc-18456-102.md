@@ -5,6 +5,7 @@
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
 	authors="haz"
+	ms.author="haz"
 	displayOrder="100"
 	articleId="dbformariadb-asc-18456-102"
 	diagnosticScenario="OrcasMariaDBIpNotInFirewall"
@@ -23,7 +24,7 @@ Thank you for contacting Microsoft support about your connection issues with Azu
 
 ## **Recommended steps**
 
-To fix this issue please ensure your client IP address is configured in the firewall of the server. You can refer to [this article](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-using-portal) for assistance with configuring your firewall for your Azure Database for MariaDB server.
+To fix this issue please ensure your client IP address is configured in the firewall of the server.
 
 ## **Recommended documents**
 

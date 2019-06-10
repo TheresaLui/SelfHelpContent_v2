@@ -5,6 +5,7 @@
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
 	authors="haz"
+	ms.author="haz"
 	displayOrder="100"
 	articleId="dbformariadb-asc-18470-100"
 	diagnosticScenario="OrcasMariaDBSSLNotSpecified"
