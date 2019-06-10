@@ -132,7 +132,7 @@
             "numberOfLines": 0
         },
         {
-            "id": "onpremOrCloud",
+            "id": "groupMembershipType",
             "visibility": groupOrUserAssignment!=user,
             "order": 6,
             "controlType": "dropdown",
