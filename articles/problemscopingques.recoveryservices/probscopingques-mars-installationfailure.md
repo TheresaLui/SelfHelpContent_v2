@@ -65,9 +65,9 @@
             "required": true
         },
 	{
-	 "id": "basic_troubleshooting_multiselect",
+	 "id": "issue_type",
             "order": 5,
-            "controlType": "multiselectdropdown",
+            "controlType": "dropdown",
 	    "infoBalloonText": "Check installation and registration <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
             "displayLabel": "Which type of issue you are facing?",
             "dropdownOptions": [
