@@ -1,83 +1,48 @@
-﻿<properties
-         pageTitle="Scoping questions for Azure VM backup management issues"
-         description="Scoping questions for Azure VM backup management issues"
+<properties
+         pageTitle="Scoping questions for Azure VM backup failure for windows"
+         description="Scoping questions for Azure VM backup failure for windows"
          authors="srinathvasireddy"
-	 ms.author="srinathv"
+	  ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32565495,32637320,32637321,32637322,32637323,32637324,32637325,32637326,32637327"
+         supportTopicIds="32637320"
          productPesIds="14749"
          cloudEnvironments="public"
          schemaVersion="1"
-	articleId="24288ab9-01d4-4e4e-8e98-9722cd84ba27"
+	 articleId="950d1291-6069-4bb8-b439-b817f20deccd"
 />
-# Questions Azure VM backup management
+# Questions Azure VM backup failure for windows
 ---
 {
-    "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Azure VM backup or restore failure",
+    "subscriptionRequired": true,
+    "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Virtual Machine backup failure diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Which virtual machine(s) is experiencing problem?",
+            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "issue_Type",
-            "visibility": "null",
+            "id": "jobID_Name",
             "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Which type of issue you are facing?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Backup failure",
-                    "text": "Backup failure"
-                },
-                {
-                    "value": "Restore failure",
-                    "text": "Restore failure"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "backup_JobID_Name",
-            "order": 3,
-            "visibility": "issue_Type == Backup failure",
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
         {
-            "id": "restore_JobID_Name",
-            "order": 4,
-            "visibility": "issue_Type == Restore failure",
-            "controlType": "textbox",
-            "displayLabel": "Enter the failed restore job Activity ID:",
-            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": false
-        },
-        {
-            "id": "learn_more_text",
-            "order": 5,
-            "visibility": "issue_Type == Restore failure || issue_Type == Backup failure",
-            "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide failed Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault -- Monitoring and Report -- Backup Jobs -- In progress -- Activity ID"
-        },
-        {
-            "id": "select_ErrorMessage_Backup",
-            "order": 6,
-            "visibility": "issue_Type == Backup failure",
+            "id": "Select_ErrorMessage",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the error message that you are seeing?",
             "watermarkText": "Select",
@@ -96,7 +61,7 @@
                 },
                 {
                     "value": "Could not copy the snapshot of the virtual machine...",
-                    "text": "Could not copy the snapshot of the virtual machine..."
+                    "text": "Could not copy the snapshot of the virtual machine...."
                 },
                 {
                     "value": "Could not communicate with the VM agent for snapshot status",
@@ -122,9 +87,8 @@
             "required": true
         },
         {
-            "id": "basic_troubleshooting_multiselect",
-            "order": 7,
-            "visibility": "issue_Type == Backup failure",
+            "id": "Basic_troubleshooting_multiselect",
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have completed:",
             "dropdownOptions": [
@@ -137,8 +101,8 @@
                     "text": "VM OS version is supported"
                 },
                 {
-                    "value": "VM has internet connectivity",
-                    "text": "VM has internet connectivity"
+                    "value": "VM has Internet connectivity",
+                    "text": "VM has Internet connectivity"
                 },
                 {
                     "value": "Vault is upgraded to new vault stack V2",
@@ -153,51 +117,25 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
-        },
-        {
-            "id": "restoration_Type",
-            "visibility": "issue_Type == Restore failure",
-            "order": 8,
-            "controlType": "dropdown",
-            "displayLabel": "Which type of restore you are performing?",
-            "watermarkText": "Select",
-            "dropdownOptions": [
-                {
-                    "value": "Restoring VMs in Azure Portal",
-                    "text": "Restoring VMs in Azure Portal"
-                },
-                {
-                    "value": "Recovering files from Azure VMs backups",
-                    "text": "Recovering files from Azure VMs backups"
-                },
-                {
-                    "value": "Restore encrypted VMs",
-                    "text": "Restore encrypted VMs"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
             "required": false
         },
         {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
             "id": "problem_description",
-            "order": 9,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": []
-        },
-        {
-            "id": "problem_start_time",
-            "order": 10,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem start time",
-            "required": true
         }
     ],
     "$schema": "SelfHelpContent"

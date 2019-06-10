@@ -1,36 +1,43 @@
 <properties
-         pageTitle="Scoping questions for Azure VM configuration protection failure"
-         description="Scoping questions for Azure VM configuration protection failure"
+         pageTitle="Scoping questions for Azure VM backup failure for Linux"
+         description="Scoping questions for Azure VM backup failure for Linux"
          authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32565494"
-         productPesIds="14749"
+         supportTopicIds="32637320"
+         productPesIds="15571,15797,16454,16470"
          cloudEnvironments="public"
          schemaVersion="1"
-	articleId="2e8851dd-26d4-4e42-9fe4-e714c9607dc7"
+	articleId="b25f0d4f-e728-487f-a3f3-6770908ce5cd"
 />
-# Questions Azure VM configuration protection failure
+# Questions Azure VM backup failure for Linux 
 ---
 {
     "resourceRequired": true,
-    "title": "Azure VM configuration failure",
+    "subscriptionRequired": true,
+    "title": "Azure VM backup failure for Linux",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Virtual Machine backup failure diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Which virtual machine is experiencing this problem?",
-            "watermarkText": "Enter the name of the virtual machine",
-            "required": true
+            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
+            "watermarkText": "Enter the name of the virtual machine(s)",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Enter the failed backup Job Activity ID",
-            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
+            "displayLabel": "Enter the failed backup job Activity ID?",
+            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b ",
             "required": false
         },
         {
@@ -42,15 +49,15 @@
             "dropdownOptions": [
                 {
                     "value": "VM Agent is unable to communicate with azure backup service",
-                    "text": " VM Agent is unable to communicate with azure backup service"
+                    "text": "VM Agent is unable to communicate with azure backup service"
                 },
                 {
                     "value": "Could not communicate with the VM agent for snapshot status",
                     "text": "Could not communicate with the VM agent for snapshot status"
                 },
                 {
-                    "value": "Snapshot operation failed due to no network connectivity on the virtual machine",
-                    "text": "Snapshot operation failed due to no network connectivity on the virtual machine"
+                    "value": "Snapshot operation failed due to no network connectivity...",
+                    "text": "Snapshot operation failed due to no network connectivity..."
                 },
                 {
                     "value": "Could not copy the snapshot of the virtual machine...",
@@ -83,10 +90,10 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the troubleshooting steps you have completed:",
+            "displayLabel": "Select the troubleshooting steps you have completed",
             "dropdownOptions": [
                 {
-                    "value": "VM Agent (WA Agent) is present and has latest version",
+                    "value": "VM Agent (WA Agent) has latest version",
                     "text": "VM Agent (WA Agent) has latest version"
                 },
                 {
@@ -94,8 +101,8 @@
                     "text": "VM OS version is supported"
                 },
                 {
-                    "value": "VM has internet connectivity",
-                    "text": "VM has internet connectivity"
+                    "value": "VM has Internet connectivity",
+                    "text": "VM has Internet connectivity"
                 },
                 {
                     "value": "Vault is upgraded to new vault stack V2",
@@ -110,14 +117,15 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
