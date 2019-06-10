@@ -20,12 +20,7 @@
 <!--issueDescription-->
 The server <!--$ServerName-->ServerName <!--/$ServerName--> experienced connectivity issues due to an issue with your billing information.
 
-This issue may have occurred because: 
-
-* You've reached your spending limit
-* Your bill is past due
-* The bill exceeds your credit card limit
-* The subscription was accidentally cancelled
+This issue may have occured due an issue with your spending limit, billing information, or subscription status. Please review your account details and latest invoice for further information.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
