@@ -27,56 +27,36 @@
             "watermarkText": "Select offer",
             "dropdownOptions": [
                 {
-                    "value": "Azure Applications",
-                    "text": "Azure Applications"
+                    "value": "Global Campaigns",
+                    "text": "Global Campaigns"
                 },
                 {
-                    "value": "Consulting Services",
-                    "text": "Consulting Services"
+                    "value": "Channel Developer",
+                    "text": "Channel Developer"
                 },
                 {
-                    "value": "Container Apps",
-                    "text": "Container Apps"
+                    "value": "Cloud Solution Provider",
+                    "text": "Cloud Solution Provider"
                 },
                 {
-                    "value": "Containers",
-                    "text": "Containers"
+                    "value": "Commercial Distributor",
+                    "text": "Commercial Distributor"
                 },
                 {
-                    "value": "Core Virtual Machines",
-                    "text": "Core Virtual Machines"
+                    "value": "CSP 2T Disti",
+                    "text": "CSP 2T Disti"
                 },
                 {
-                    "value": "D365 Business Central",
-                    "text": "D365 Business Central"
+                    "value": "CSP 2T Reseller",
+                    "text": "CSP 2T Reseller"
                 },
                 {
-                    "value": "D365 for Customer Engagement",
-                    "text": "D365 for Customer Engagement"
+                    "value": "Enterprise Incentives",
+                    "text": "Enterprise Incentives"
                 },
                 {
-                    "value": "D365 for Operations",
-                    "text": "D365 for Operations"
-                },
-                {
-                    "value": "IoT Edge",
-                    "text": "IoT Edge"
-                },
-                {
-                    "value": "Managed Services",
-                    "text": "Managed Services"
-                },
-                {
-                    "value": "PowerBI Apps",
-                    "text": "PowerBI Apps"
-                },
-                {
-                    "value": "SaaS apps",
-                    "text": "SaaS apps"
-                },
-                {
-                    "value": "VM",
-                    "text": "VM"
+                    "value": "Hosting",
+                    "text": "Hosting"
                 }
             ],
             "required": false
