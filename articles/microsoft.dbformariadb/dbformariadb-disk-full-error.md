@@ -27,13 +27,12 @@ Alternatively, if you have provisioned 5 GB of storage, the server is marked rea
 
 The server will automatically be set to read/write again, when at least 5 GB of storage or 5% of the provisioned storage is free again.
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. To fix this issue, please increase the storage size using the portal as described in [reaching storage limit](https://docs.microsoft.com/azure/mariadb/concepts-pricing-tiers).
-2. You can increase the storage in the [Azure Portal](https://portal.azure.com) by clicking on the "Pricing Tier" and then scale up the storage as per your requirement.
+1. To fix this issue, please increase the storage size using the portal as described in [reaching storage limit](https://docs.microsoft.com/azure/mariadb/concepts-pricing-tiers)
+2. You can increase the storage in the [Azure Portal](https://portal.azure.com) by clicking on the "Pricing Tier" and then scale up the storage as per your requirement
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Azure Database for MariaDB](https://azure.microsoft.com/services/mariadb//)
-
-[MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMariaDB)
+* [Azure Database for MariaDB](https://azure.microsoft.com/services/mariadb/)
+* [MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums)
