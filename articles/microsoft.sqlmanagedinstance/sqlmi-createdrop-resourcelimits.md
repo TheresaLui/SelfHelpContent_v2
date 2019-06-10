@@ -20,11 +20,11 @@
 
 Please observe the following limits for Managed Instance.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * For hardware generation resource limits in terms of vCores, memory available per each core and max. storage capacity, see [Hardware generation characteristics](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits#hardware-generation-characteristics)
 * For service tier characteristics in terms of limits for the number of databases that can be created per instance, max temp db size and max storage size per databases, see [Service tier characteristics](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits#service-tier-characteristics)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * For detailed overview of Managed Instance limits, see [Overview Azure SQL Database managed instance resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits#obtaining-a-larger-quota-for-sql-managed-instance)

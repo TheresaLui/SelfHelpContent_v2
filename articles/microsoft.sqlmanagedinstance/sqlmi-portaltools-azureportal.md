@@ -20,10 +20,10 @@
 
 Azure Portal offers a comprehensive management options for Managed Instance.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - [Getting started with Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-quickstart-guide)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Overview of Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-index)

@@ -18,7 +18,7 @@
 
 # Dropped connections
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - SQL Managed Instance requires update of client drivers to fully function. Here is a list with minimal driver versions:
 

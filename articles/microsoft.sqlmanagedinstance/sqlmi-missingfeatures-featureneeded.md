@@ -18,6 +18,6 @@
 Is there a missing feature or functionality of SQL Database Managed Instance that would make your life easier?
 There are most probably other people that need the same or similar thing.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - Vote for the [existing feature requests, or file a new one](https://feedback.azure.com/forums/915676-sql-managed-instance) in the Azure Feedback.

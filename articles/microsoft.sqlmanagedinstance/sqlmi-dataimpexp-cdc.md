@@ -15,6 +15,6 @@
 
 # Change Data Capture
 
-## **Recommended documents**
+## **Recommended Documents**
 - [Change Data Capture](https://docs.microsoft.com/sql/relational-databases/track-changes/about-change-data-capture-sql-server)
 - [Change Tracking](https://docs.microsoft.com/sql/relational-databases/track-changes/about-change-tracking-sql-server)

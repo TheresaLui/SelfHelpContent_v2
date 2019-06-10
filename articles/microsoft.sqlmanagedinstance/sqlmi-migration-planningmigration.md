@@ -15,7 +15,7 @@
 
 # Planning a migration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Database migration assistant](https://docs.microsoft.com/sql/dma/dma-overview?view=sql-server-2017)
 - [Migration guide](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)

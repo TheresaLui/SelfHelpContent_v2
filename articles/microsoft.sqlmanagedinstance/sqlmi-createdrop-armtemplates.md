@@ -20,10 +20,10 @@
 
 ARM can be used to create managed instances.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To create managed instance using ARM template, see [Creating Azure SQL Managed Instance using ARM templates](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Creating-Azure-SQL-Managed-Instance-using-ARM-templates/ba-p/386203)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Understand the structure and syntax of Azure Resource Manager templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-authoring-templates)

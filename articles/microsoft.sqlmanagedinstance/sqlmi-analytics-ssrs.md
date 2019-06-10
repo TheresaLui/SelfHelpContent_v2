@@ -18,5 +18,5 @@
 SSRS is a stateless service that uses database engine to store metadata and object definitions in two databases.
 These databases currently cannot be hosted on Azure SQL Managed Instance.
 
-## **Recommended steps**
+## **Recommended Steps**
 - [Migrate SSRS paginated reports to PowerBI](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)

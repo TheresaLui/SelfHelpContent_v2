@@ -18,7 +18,7 @@
 
 Azure SQL Database Managed Instance provides a set of the tools that enables you to easily troubleshoot and fix performance issues.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Performance troubleshooting strategies vary depending on the class of the problem.
 
@@ -47,7 +47,7 @@ If you are experiencing some issues with the queries that are running slower on 
 - [Analyze wait statistics](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2019/03/05/analyzing-wait-statistics-on-managed-instance/) to see why the workload is waiting and identify the queries that are waiting.
 - [Measure IO performance](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2019/03/04/measuring-file-io-performance-on-managed-instance-qpi/) on your instance (especially if you see dominant `PAGEIOLATCH` or `WRITELOG` wait statistics) to see are you hitting some IO storage limit. You might need to pre-allocate files to get [better IO performance](https://techcommunity.microsoft.com/t5/DataCAT/Storage-performance-best-practices-and-considerations-for-Azure/ba-p/305525).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview)
 - [Azure SQL Analytics(Preview)](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql?toc=%2Fazure%2Fsql-database%2Ftoc.json)

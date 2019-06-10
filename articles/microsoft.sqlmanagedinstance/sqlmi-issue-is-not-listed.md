@@ -18,14 +18,14 @@
 
 If the issue that you want to report is not listed, you can check if it is documented issue or unsupported feature.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - Check whether your [feature available in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-features).
 - Check if there are [known issues or feature limitations in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-features) that you can relate with issue.
 - If the feature is not supported, file a feature request on [Managed Instance feedback](https://feedback.azure.com/forums/915676-sql-managed-instance) or vote for the existing ones.
 - Find more information about the [features in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-index).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Managed Instance quick-start guide](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-quickstart-guide)
 - [Managed Instance how-to guides](https://docs.microsoft.com/azure/sql-database/sql-database-howto-managed-instance)

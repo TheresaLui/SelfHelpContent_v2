@@ -18,7 +18,7 @@
 
 Managed Instance takes automatic backups (full backups every week, differential every 12 hours, and log backups every 5-10 min) that you can use to restore accidentally deleted database. This feature is in preview, and it is still not officially supported. Currently, you can use Azure PowerShell library to restore the accidentally deleted database.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Try some of the following steps to troubleshoot the issue:
 
@@ -26,7 +26,7 @@ Try some of the following steps to troubleshoot the issue:
 - If you are using [PowerShell script](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Restore-dropped-database-on-Azure-SQL-Managed-Instance/ba-p/386285) to take the dropped time, not that this time might not be accurate and can be up to 5 min after the actual drop time. Adjust the drop time if the restore fails.
 - Make sure that you can restore the database on Managed Instance, and that you don't have some limit related to storage size or [number of files in General purpose tier](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Reaching-Azure-disk-storage-limit-on-General-Purpose-Azure-SQL/ba-p/386234).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Automated backups in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)
 - [Restore a dropped database in Managed Instance](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Restore-dropped-database-on-Azure-SQL-Managed-Instance/ba-p/386285)

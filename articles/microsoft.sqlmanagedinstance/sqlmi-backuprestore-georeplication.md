@@ -17,7 +17,7 @@
 
 Geo-replication in Managed Instance enables you to automatically replicate your changes to another region using [Auto failover groups](https://docs.microsoft.com/azure/sql-database/sql-database-auto-failover-group). Note that this feature is still in preview and has some known issues.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Try some of the following steps to troubleshoot the issue:
 
@@ -28,7 +28,7 @@ Try some of the following steps to troubleshoot the issue:
 - If you are getting the error in while you are trying to change service tier (change cores or storage, or move from General Purpose to Business Critical or vice versa), this operation is currently not supported.
 - Check are there some [known issues or limitations](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information) such as transactional replication don't work with Geo-replication.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Best practices for configuring Geo-replication in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-auto-failover-group#best-practices-of-using-failover-groups-with-managed-instances) 
 - [Disaster recovery using database geo-replication](https://docs.microsoft.com/azure/sql-database/saas-dbpertenant-dr-geo-replication?WT.mc_id=pid:13491:sid:32630424/)

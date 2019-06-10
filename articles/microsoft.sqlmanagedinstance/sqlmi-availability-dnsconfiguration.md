@@ -18,6 +18,6 @@
 
 # DNS configuration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Configuring a Custom DNS for Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-custom-dns)

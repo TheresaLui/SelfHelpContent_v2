@@ -17,10 +17,10 @@
 
 The Data Migration Assistant (DMA) helps you upgrade to a modern data platform by detecting compatibility issues that can impact functionality in Azure SQL Database Managed Instance.
 
-## **Recommended steps**
+## **Recommended Steps**
 - Make sure that you are using [the latest version of Data Migration Assistant](https://www.microsoft.com/download/details.aspx?id=53595)
 - Check whether you chose proper target server type. It should be Azure SQL Database Managed Instance
 
-## **Recommended documents**
+## **Recommended Documents**
 - [Perform a SQL Server migration assessment with Data Migration Assistant](https://docs.microsoft.com/sql/dma/dma-assesssqlonprem)
 - [Best practices for running Data Migration Assistant](https://docs.microsoft.com/sql/dma/dma-bestpractices)

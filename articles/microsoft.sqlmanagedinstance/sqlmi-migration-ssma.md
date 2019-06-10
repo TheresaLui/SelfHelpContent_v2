@@ -18,7 +18,7 @@
 Microsoft SQL Server Migration Assistant (SSMA) is a tool designed to automate database migration to SQL Server from Microsoft Access, DB2, MySQL, Oracle, and SAP ASE. It supports all versions of SQL Server as a target, up to the newest SQL Server 2019. There is no specific target version for Azure SQL Database Managed Instance, nor SSMA has built-in logic specific to Managed Instance.
 SSMA can be used as a first step in migration to Managed Instance. Once database is migrated to SQL Server, additional assessment using [Database Migration Assistant](https://docs.microsoft.com/sql/dma/dma-overview) is recommended, before final migration using native backup/restore process or [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [SQL Server Migration Assistant](https://docs.microsoft.com/sql/ssma/sql-server-migration-assistant)
 - [Database Migration Assistant](https://docs.microsoft.com/sql/dma/dma-overview)

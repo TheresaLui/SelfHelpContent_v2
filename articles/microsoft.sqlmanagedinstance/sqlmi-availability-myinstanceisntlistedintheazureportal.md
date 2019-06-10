@@ -18,6 +18,6 @@
 
 # My instance isn't listed in the Azure portal
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - Check if you are signed-in to proper subscription.

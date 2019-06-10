@@ -20,7 +20,7 @@
 
 Databases on managed instance can be created or dropped using T-SQL, API, PowerShell or Azure Portal.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To create or drop databases on Managed Instance, consider following options:
 
@@ -29,6 +29,6 @@ To create or drop databases on Managed Instance, consider following options:
 * Invoke an API call, see [API documentation](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-create-manage#transact-sql-create-and-manage-instance-databases)
 * Use PowerShell scripts, see [Azure.Rm PowerShell library](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Create-database-on-Azure-SQL-Managed-Instance-using-Azure-Rm/ba-p/386207)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Getting started with Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-quickstart-guide)

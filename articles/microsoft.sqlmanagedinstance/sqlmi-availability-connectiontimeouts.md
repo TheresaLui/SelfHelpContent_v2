@@ -18,7 +18,7 @@
 
 # Connection timeouts
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - Check if firewalls are open
 - Check if routing is configured properly

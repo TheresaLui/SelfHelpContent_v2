@@ -20,7 +20,7 @@
 
 Managed Instance supports a number of tools listed below.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Ensure you are using the latest version of tools for  Managed Instance. To connect to Managed Instance, consider using the following tools:
 
@@ -29,6 +29,6 @@ Ensure you are using the latest version of tools for  Managed Instance. To conne
 
 Please note that Query Editor in Azure Portal is not supported for Managed Instance. This is due to security constraints of Managed Instance being enclosed in private VNet due to which external Query Editor cannot connect to Managed Instance.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Managed Instance quickstart guide](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-quickstart-guide)

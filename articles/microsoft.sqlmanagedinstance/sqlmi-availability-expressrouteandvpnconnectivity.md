@@ -18,12 +18,12 @@
 
 # Express Route and VPN connectivity
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - Configure Site-to-Site connection between the application and the Managed Instance VNet per process outlined in [Connect an on-premises application](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connect-app#connect-an-on-premises-application)
 - [Connect a virtual network to an ExpressRoute circuit using the portal](https://docs.microsoft.com/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Troubleshooting access to VNet hosted resources](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#troubleshooting)
 - [Azure SQL Database Managed Instance Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connectivity-architecture)

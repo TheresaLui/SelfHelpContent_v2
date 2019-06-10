@@ -18,6 +18,6 @@
 
 # Public endpoint
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Configure public endpoint in Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-public-endpoint-configure)

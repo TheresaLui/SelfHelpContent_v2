@@ -20,7 +20,7 @@ Azure SQL Database Managed Instance enables you to replicate one or several tabl
 
 Find here more information about [configuration of transactional replication in Managed Instance](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance)
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If you are experiencing some issues with transactional replication, the following steps can help you to find a way to troubleshoot the issues.
 
@@ -36,7 +36,7 @@ If you are experiencing some issues with transactional replication, the followin
 - If you are experiencing connection/login timeout issues, you would need to [increase the timeout in the connection](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance#9---modify-agent-parameters)
 - Auto-failover groups should not be used if the Transactional Replication is configured.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Transactional replication](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transactional-replication).
 - [Configure transactional replication in Managed Instance](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance)

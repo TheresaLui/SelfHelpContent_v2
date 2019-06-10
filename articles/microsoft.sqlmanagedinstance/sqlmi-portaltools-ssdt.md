@@ -23,12 +23,12 @@ SQL Server Data Tools (SSDT) is a modern development tool for building Azure SQL
 * Using Azure AD server principals (logins) and users with SQL Server Data Tools currently isn't supported with SSDT.
 * Scripting for Azure AD server principals (logins) and users isn't supported in SSDT.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Ensure you are running Visual Studio 2019, or higher.
 * Ensure you are using the latest version of SQL Server Data Tools, as older version than 2019 will not work with Managed Instance. [Download here](https://visualstudio.microsoft.com/vs/features/ssdt/).
 * Ensure you are not using Azure AD logins with SSDT as this is not supported at this time.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * To learn more about SSDT, see [SQL Server Data Tools](https://docs.microsoft.com/sql/ssdt/sql-server-data-tools)

@@ -22,7 +22,7 @@ Monitoring performance for Managed Instance is supported through built-in metric
 
 Please note that QPI (Query Performance Insights), metrics alerting from Azure Portal, and Automatic tuning index management is not supported for Managed Instance at this time. In addition, monitoring with SCOM is not supported for monitoring Managed Instance at this time.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To monitor performance of Managed Instance, consider using one of the following options available:
 
@@ -53,7 +53,7 @@ To monitor performance of Managed Instance, consider using one of the following 
 
 5. Consider using third party products that support Managed Instance.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Monitor Azure SQL Database using Azure SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql)
 * [Setup alerting on Azure SQL Database Managed instance using log queries](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql#creating-alerts-for-managed-instance)

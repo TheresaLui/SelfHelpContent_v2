@@ -15,6 +15,6 @@
 
 # Purchasing models
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Service tiers](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#managed-instance-service-tiers)

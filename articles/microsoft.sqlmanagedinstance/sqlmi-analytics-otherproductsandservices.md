@@ -18,6 +18,6 @@
 Azure SQL Managed Instance is a cloud service injected into customer's VNet and by default not available from the web analytic tools and services.
 Optional public endpoint may make managed instance accessible from the outside VNet in a controlled way.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - [Configure public endpoint in managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-public-endpoint-configure)

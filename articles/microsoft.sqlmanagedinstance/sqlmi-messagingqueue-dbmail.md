@@ -18,7 +18,7 @@
 
 Azure SQL Database - Managed Instance enables you to directly send the email messages to the external email servers. You can send email messages directly using [sp_send_dbmail](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql) procedure or via SQL Agent Jobs as [alerts](https://docs.microsoft.com/azure/sql-database/sql-database-job-automation-overview#job-notifications). Learn more about [Database Mail here](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail).
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If you are experiencing issues with sending emails or alerting, the following sections can help you to find a way to troubleshoot the issues.
 
@@ -47,7 +47,7 @@ If you are the experiencing issues with sending e-mail alerts from SQL Agent, tr
 - Repeat the steps from the previous section to troubleshoot the potential database email issues.
 - Check is there some [SQL Agent limitation](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent) that is causing this issue.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail)
 - [Configure Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail)

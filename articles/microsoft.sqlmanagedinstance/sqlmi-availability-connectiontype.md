@@ -18,6 +18,6 @@
 
 # Connection type (proxy/redirect)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Connecting to Azure SQL Database: Azure SQL Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture/)

@@ -19,7 +19,7 @@ Managed Instance takes automatic backups (full backups every week, differential 
 
 If you are experiencing some issues with any restore operation, the following troubleshooting steps might help you to identify the issue.
 
-## **Recommended steps**
+## **Recommended Steps**
 - If you are noticing that some error is returned by `RESTORE` check are you using [supported syntax in this statement](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#restore-statement).
 - Make sure that you are restoring a database from public blob storage protected with SAS credential. Private IPs for blob storage and service endpoints are currently not supported.
 - Verify that you have created `CREDENTIAL` with the name equal to the URL of the blob storage where you want to backup your database.
@@ -31,7 +31,7 @@ If you are experiencing some issues with any restore operation, the following tr
 - If you cannot connect to the database that has completed restore, you might need to wait some additional time. The restored database must be registered in Azure, and in Business Critical tier, it should complete replication/seeding to all secondary replicas.
 - If you you need to cancel the restore request, you would need to delete a database that you are restoring using [Azure PowerShell](https://docs.microsoft.com/powershell/module/az.sql/remove-azsqlinstancedatabase?view=azps-2.1.0) or [Azure CLI](https://docs.microsoft.com/cli/azure/sql/midb?view=azure-cli-latest#az-sql-midb-delete).
 
-## **Recommended documents**
+## **Recommended Documents**
 - [Automated backups in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)
 - [Restore a database in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore)
 - [Troubleshooting Backup/restore issues in Managed Instance](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Troubleshooting-potential-backup-restore-issues-on-Azure-SQL/ba-p/633556)

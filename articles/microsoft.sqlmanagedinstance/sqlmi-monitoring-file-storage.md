@@ -18,7 +18,7 @@
 
 Managed Instance enables you to define the amount of storage that you would use for your databases, and you need to monitor your application and ensure that your are not reaching the limits. If you are experiencing issues with storage or files, the following steps might help you to troubleshoot and fix the issues.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Try some of the following steps to troubleshoot the issue:
 
@@ -34,7 +34,7 @@ Try some of the following steps to troubleshoot the issue:
 - If you are getting the error while trying to add and remove file with the message like "this operation cannot be performed", check is there some conflicting operation such as upgrading service tier, backup, or TDE encryption. In most of the cases you can retry the operation later.
 - If you are making some changes in the TEMPDB such as adding or removing the data files, changing the size that either return errors or they are reset after some time, beware that you cannot modify the TEMPDB. TEMPDB is periodically rebuilt as an empty database and your changes are either blocked or reset. If you need some objects in TEMPDB, you can create SQL Agent job that will recreate them either periodically or when the service starts.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Troubleshooting potential file and storage issues on Managed Instance](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Troubleshooting-potential-file-and-storage-issues-on-Managed/ba-p/664547)
 - [Moving databases to another instance using cross-instance point-in-time restore](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Cross-instance-point-in-time-restore-in-Azure-SQL-Database/ba-p/386208)

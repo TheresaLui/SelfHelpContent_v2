@@ -17,14 +17,14 @@
 
 [Geo-Restore](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups#geo-restore) enables you to take your database from a region even if the entire region is down, and restore it to another instance in different geo-region that is available.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If you are experiencing the issues with geo-restore functionality in Managed instance, try some of the following steps:
 
 - Check are the source and target instance under the same subscription because cross-subscription geo-restore is not yet supported.
 - Check is there some [known issue](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#Issues) that might cause the problem that you are experiencing.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)
 - [Disaster recovery using geo-restore](https://docs.microsoft.com/azure/sql-database/saas-dbpertenant-dr-geo-restore?WT.mc_id=pid:13491:sid:32630425/)<br>

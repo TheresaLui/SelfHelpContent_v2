@@ -19,7 +19,7 @@ Managed Instance enables you to manually make a `COPY_ONLY` backups of a databas
 
 If you are experiencing some issues with manual backup operation, the following troubleshooting steps might help you to identify the issue.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - If you are noticing that some error is returned by `BACKUP` T-SQL statement, check are you using [supported syntax in this statement](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#backup) (for example mandatory `COPY_ONLY` option).
 - If you cannot backup a database check is it protected with Transparent Data Encryption (TDE). You need to [disable TDE protection in order to take a manual backup](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Take-a-backup-of-TDE-protected-database-on-Azure-SQL-Managed/ba-p/643407#M120).
@@ -30,7 +30,7 @@ If you are experiencing some issues with manual backup operation, the following 
 - If you are getting the errors **3063** or **3202** add the following options in the `BACKUP` statement: `MAXTRANSFERSIZE=4194304`, `BLOCKSIZE=65536`, and `COMPRESS`.
 - If you want to track the progress of the ongoing `BACKUP` statement use [T-SQL to query Dynamic Management views](https://docs.microsoft.com/sql/t-sql/statements/backup-transact-sql?view=azuresqldb-mi-current6#backup_progress).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Troubleshooting Backup/restore issues in Managed Instance](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Troubleshooting-potential-backup-restore-issues-on-Azure-SQL/ba-p/633556)
 - [Take a backup of TDE protected database on Managed Instance](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Take-a-backup-of-TDE-protected-database-on-Azure-SQL-Managed/ba-p/643407#M120)

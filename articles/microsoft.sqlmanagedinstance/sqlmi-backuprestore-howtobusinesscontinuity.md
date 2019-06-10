@@ -15,13 +15,13 @@
 
 # Planning a recovery strategy
 
-## **Recommended steps**
+## **Recommended Steps**
 
 SQL Database Managed Instance provides several business continuity features, including automated backups and optional database replication that can mitigate service disruption scenarios. First, you need to understand how SQL Database [high availability architecture](https://docs.microsoft.com/azure/sql-database/sql-database-high-availability) provides 99.99% availability and resiliency to some disruptive events that might affect your business process. Then, you can learn about the additional mechanisms that you can use to recover from the disruptive events that cannot be handled by SQL Database high availability architecture, listed below.
 
 Each mechanism has different characteristics for estimated recovery time (ERT) and potential data loss for recent transactions. Once you understand these options, you can choose among them - and, in most scenarios, use them together for different scenarios. As you develop your business continuity plan, you need to understand the maximum acceptable time before the application fully recovers after the disruptive event. The time required for application to fully recover is known as recovery time objective (RTO). You also need to understand the maximum period of recent data updates (time interval) the application can tolerate losing when recovering after the disruptive event. The time period of updates that you might afford to lose is known as recovery point objective (RPO).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Overview of business continuity with Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-business-continuity)
 - [Temporal tables](https://docs.microsoft.com/azure/sql-database/sql-database-temporal-tables) enable you to restore row versions from any point in time.

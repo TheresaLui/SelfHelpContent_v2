@@ -17,7 +17,7 @@
 
 Managed Instance enables you to import data from a `BACPAC` file.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If you are experiencing the issues with BACPAC functionality in Managed instance, try some of the following steps:
 
@@ -26,7 +26,7 @@ If you are experiencing the issues with BACPAC functionality in Managed instance
 - Make sure that you are using the latest version of the tools that include the latest bug fixes.
 - Check is there some [known issue](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#Issues) that might cause the problem that you are experiencing.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Import a BACPAC using SQL Server Management Studio](https://docs.microsoft.com/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database)
 - [Import a BACPAC using SQLPackage](https://docs.microsoft.com/azure/sql-database/sql-database-import#import-from-a-bacpac-file-using-sqlpackage)

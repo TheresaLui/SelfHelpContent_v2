@@ -18,6 +18,6 @@
 
 # Virtual network/subnet configuration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Configure an existing virtual network for Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-configure-vnet-subnet)

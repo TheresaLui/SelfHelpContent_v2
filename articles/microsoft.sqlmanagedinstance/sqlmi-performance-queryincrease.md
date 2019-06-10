@@ -20,7 +20,7 @@
 
 To understand increase in resource consumption consider troubleshooting with monitoring tools that will help you identify the issue..
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To tune performance of database workloads, see [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview)
 
@@ -31,6 +31,6 @@ To help identify resource consumption, consider using the following options:
 * Consider using own DMV queries
 * Consider using 3rd party solutions available for managed instance
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview)

@@ -20,10 +20,10 @@
 
 Management of managed instance is available through Azure Portal, ARM templates or API.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Getting started with Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-quickstart-guide)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure SQL Database managed instance overview](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-index)

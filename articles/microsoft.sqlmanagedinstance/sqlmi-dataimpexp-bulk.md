@@ -18,7 +18,7 @@
 
 Azure SQL Database Managed Instance enables you to load files from Azure Blob Storage. If you experience some issue while you are loading files from Azure Blob Storage, here you can find the actions that can help you to troubleshoot and mitigate the issue.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Try some of the following steps to troubleshoot the issue:
 
@@ -35,6 +35,6 @@ Try some of the following steps to troubleshoot the issue:
   - `sp` (permission) property should allow reading the file on the storage account.
   - `sip` (ip rage) remove this parameter if it is present in SAS token.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Troubleshooting potential BULK INSERT/OPENROWSET issues on Azure SQL Database](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Troubleshooting-BULK-INSERT-and-OPENROWSET-issues-on-Azure-SQL/ba-p/664734)

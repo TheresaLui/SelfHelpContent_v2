@@ -18,7 +18,7 @@
 
 # Access Control
 
-## **Recommended steps**
+## **Recommended Steps**
 * Separate permissions among users<br>
 * Use as little permissions as possible<br>  
 * Avoid unused logins and roles<br>  

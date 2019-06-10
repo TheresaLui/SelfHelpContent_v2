@@ -15,6 +15,6 @@
 
 # Scaling na instance
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Dynamically scale resources with a minimal downtime](https://docs.microsoft.com/azure/sql-database/sql-database-scale-resources)
