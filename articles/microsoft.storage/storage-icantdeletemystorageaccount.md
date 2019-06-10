@@ -28,7 +28,7 @@ If the storage account uses the ARM deployment model, you can remove the VHD by 
 1. Go to Storage Account - Blobs - vhds, and locate the VHD that you want to delete, or that is preventing deletion of the container or storage account. If you click on this VHD, it will show as Locked/Leased.
 2. Determine which VM is currently using the leased VHD. Generally, the name of the VHD will contain the name of the VM.
 3. Go to Virtual Machine - Disks for the VM that has a lease on the VHD
-4. Remove the VHD from the VM, which will allow the VHD to be deleted. For OS Disks, you will need to delete the VM that is using the disk. For Data Disks, click on the disk and select “Detach”.
+4. Remove the VHD from the VM, which will allow the VHD to be deleted. For OS Disks, you will need to delete the VM that is using the disk. For Data Disks, click on the disk and select "Detach".
 
 ## **Recommended Documents**
 
