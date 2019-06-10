@@ -30,6 +30,7 @@ If you are experiencing some issues with querying remote data using linked serve
 
   - Create SQL Agent job that has one PowerShell task that executes command like `tns <remote-server> -1433`, run the job and check the job output in the job history.
   - Check have you enabled the port that is used to communicate with the remote server. Port should be added in the [Outbound security rules](https://docs.microsoft.com/azure/virtual-network/tutorial-filter-network-traffic#create-security-rules) of the Network Security Group that controls the access to your Managed Instance.
+
 - Check are you using `DISTRIBUTED TRANSACTION` because [MS DTC is not supported](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#distributed-transactions) in Managed Instance.
 - Script the linked server that you are using on Managed Instance, setup the identical linked server  on SQL Server and try to run the query there. If possible, try to place SQL Server in Azure Virtual machine in the same VNet where your Managed Instance is placed (in the different subnet) to ensure that you have similar networking environment.
 

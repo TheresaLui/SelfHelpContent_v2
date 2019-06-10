@@ -31,6 +31,7 @@ If you are experiencing some issues with transactional replication, the followin
   - Connectivity uses SQL Authentication between replication participants.
   - You need an Azure Storage Account share for the replication working directory. Make sure that you have used [correct keys](https://docs.microsoft.com/azure/storage/common/storage-account-manage#access-keys)
   - Port 445 (TCP outbound) should be open in the security rules of NSG for the managed instances to access the Azure file share.
+
 - Check the [transactional replication constraints](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#replication) in Managed Instances to identify are you using some unsupported feature (for example, [updateable subscriptions](https://docs.microsoft.com/sql/relational-databases/replication/transactional/updatable-subscriptions-for-transactional-replication)).
 - If you are experiencing connection/login timeout issues, you would need to [increase the timeout in the connection](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance#9---modify-agent-parameters)
 - Auto-failover groups should not be used if the Transactional Replication is configured.
