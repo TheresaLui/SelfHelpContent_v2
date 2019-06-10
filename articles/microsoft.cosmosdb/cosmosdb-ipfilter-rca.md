@@ -19,7 +19,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The IP address **<!--$IPAddress--> IPAddress <!--/$IPAddress-->** is not whitelisted for sending requests to account **<!--$GlobalDatabaseAccountName--> GlobalDatabaseAccountName <!--/$GlobalDatabaseAccountName-->**.
+The following IP addresses **<!--$IPAddresses--> IPAddresses <!--/$IPAddresses-->** are not whitelisted for sending requests to account **<!--$GlobalDatabaseAccountName--> GlobalDatabaseAccountName <!--/$GlobalDatabaseAccountName-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
