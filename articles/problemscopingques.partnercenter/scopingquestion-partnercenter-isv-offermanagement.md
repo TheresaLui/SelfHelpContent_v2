@@ -23,8 +23,8 @@
             "id": "pc_offer_type",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "What is the offer related to this issue?",
-            "watermarkText": "Select offer",
+            "displayLabel": "What is the program related to this issue?",
+            "watermarkText": "Select program",
             "dropdownOptions": [
                 {
                     "value": "Global Campaigns",
