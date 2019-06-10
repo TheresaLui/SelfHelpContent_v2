@@ -39,7 +39,7 @@ If you are seeing that queries or workload don't have similar performance across
 
 If you are experiencing some issues with the queries that are running slower on Managed Instance, use the following steps to troubleshoot the issues:
 
-- Try to find the changes in the resource utilization using the [SQL Server Management Studio(SSMS)](https://docs.microsoft.com/sql/relational-databases/performance/performance-dashboarl?toc=%2Fazure%2Fsql-database%2Ftoc.json), `sys.server_resource_stats` and other [Dynamic Management Views(DMV)](https://docs.microsoft.com/azure/sql-database/sql-database-monitoring-with-dmvs). SSMS and DMVs enable you to identify top resource consuming queries that are using the critical resource. Once you identify the queries you can perform the following actions:
+- Try to find the changes in the resource utilization using the [SQL Server Management Studio(SSMS) Performance Dashboard](https://docs.microsoft.com/sql/relational-databases/performance/performance-dashboard), `sys.server_resource_stats` and other [Dynamic Management Views(DMV)](https://docs.microsoft.com/azure/sql-database/sql-database-monitoring-with-dmvs). SSMS and DMVs enable you to identify top resource consuming queries that are using the critical resource. Once you identify the queries you can perform the following actions:
   - Tune the queries that affect performance by rewriting them, adding the indexes, updating statistics, etc.
   - Increase the resources by adding more vCores or memory if you see some bottleneck.
 

@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
-	articleId="ec30f30c-d79a-41ed-8d14-64413acf0810"
+	articleId="cd4cc9ef-4cdb-4e1d-9a81-4f4034395a56"
 />
 
 # Monitoring - Monitor

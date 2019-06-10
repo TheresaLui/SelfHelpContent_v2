@@ -16,7 +16,7 @@
 
 # Transactional replication
 
-Azure SQL Database - Managed Instance enables you to replicate one or several tables into another Managed Instance, Singleton database, or SQL Server using [transactional replication](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transactional-replication). You can also replicate the changes from external Managed Instance, Singleton database, or SQL Server to local tables. This feature is currently in **preview mode** and there are some known limitations.
+Azure SQL Database Managed Instance enables you to replicate one or several tables into another Managed Instance, singleton SQL database, or SQL Server using [transactional replication](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transactional-replication). You can also replicate the changes from external Managed Instance, singleton SQL database, or SQL Server to local tables. This feature is currently in **preview mode** and there are some known limitations.
 
 Find here more information about [configuration of transactional replication in Managed Instance](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance)
 

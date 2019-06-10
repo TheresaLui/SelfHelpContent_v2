@@ -10,7 +10,7 @@
 	supportTopicIds="32637267"
 	productPesIds="16259"
 	cloudEnvironments="public"
-    articleId="ec30f30c-d79a-41ed-8d14-64413acf0810"
+    articleId="84a38bf7-150e-4689-9a7b-67bb132511a5"
 />
 
 # I need the following feature or functionality

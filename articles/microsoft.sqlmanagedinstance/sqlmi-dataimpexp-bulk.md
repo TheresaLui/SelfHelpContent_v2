@@ -27,7 +27,7 @@ Try some of the following steps to troubleshoot the issue:
 - If you are getting the error 5 (Access Denied), make sure that you have not denied the access to your Azure Blob Storage account using the firewall.
 - Verify that you have created `EXTERNAL DATA SOURCE` with type `BLOB_STORAGE` targeting the URL of the blob storage where you placed the files that should be restored to your database.
 - Make sure that you are targeting existing file on Azure blob storage.
-- Script `EXTERNAL DATA SOURCE` and `CREDENTIAL` to SQL Server 2017 and try to load the files. If you are troubleshooting the issue on Managed Instance, make sure that SQL Server 2017 is in the sub-net that is placed within the same VNet as the Managed Instance.
+- Script `EXTERNAL DATA SOURCE` and `CREDENTIAL` to SQL Server 2017 and try to load the files. If you are troubleshooting the issue on Managed Instance, make sure that SQL Server 2017 is in the subnet that is placed within the same VNet as the Managed Instance.
 - Check is your SAS credential placed in `SECRET` option of `CREATE DATABASE SCOPED CREDENTIAL` statement valid. The most common errors in SAS token parameters are:
   - `?` is not removed from the beginning of the SAS token because the Azure portal generates SAS token with the leading ?. Remove this character if you see it.
   - `se` (expiry date) property is set to some value in the past (note that this is UTC time).
