@@ -1,27 +1,28 @@
 <properties
     pageTitle="VM boot error"
     description="Virtual machine failed to boot because it found the OS to be unhealthy and the automatic system recovery tried to fix it."
-    infoBubbleText="A boot error 'An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart' has been found for your virtual machine."
+    infoBubbleText="Boot error ?Error 0xC000000E is STATUS_NO_SUCH_DEVICE A device which does not exist was specified' has been found for your virtual machine."
     service="microsoft.compute"
     resource="virtualmachines"
     authors="jasonbandrew"
     ms.author="v-jasoan"
     displayOrder=""
-    articleId="OSStartUp--IMAGE_STATUS_UNDEPLOYABLE"
+    articleId="VMCannotRDP_14B92737-EB19-48C4-A136-D38E70C09FEC"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
     resourceTags="windows"
     productPesIds="14749"
     cloudEnvironments="public"
-/>
- 
+/> 
+
 # VM Boot Error
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operating system.
-
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operation system.
 <!--/issueDescription-->
+
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+
 
 ## **Recommended Steps**
 
@@ -51,4 +52,4 @@ bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
 ```
 
-5. [Run Restore-AzureRMOriginalVM.ps1](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager). When it will create a PowerShell script, Restore_.ps1, that you will run later to swap the problem VM's OS disk back to the problem VM.
+5. [Run Restore-AzureRMOriginalVM.ps1](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager). This will create a PowerShell script, Restore_.ps1, that you will run later to swap the problem VM's OS disk back to the problem VM.
