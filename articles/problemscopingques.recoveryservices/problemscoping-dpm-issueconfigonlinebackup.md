@@ -1,25 +1,26 @@
 <properties
-         pageTitle="Scoping questions for MARS Installation or registration failure"
-         description="Scoping questions for MARS Installation or registration failure"
+         pageTitle="Scoping questions for DPM issue configuring online backup"
+         description="Scoping questions for DPM issue configuring online backup"
          authors="srinathvasireddy"
-	 ms.author="srinathv"
+		 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32553287"
+         supportTopicIds="32553301"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-	 articleId="0d4bc270-b32b-49f9-8b5c-c6d01db47adf"
+		 articleId="449f9bd0-0f11-422d-ac3a-3024cf49fd57"
 />
-# Questions MARS Installation or registration failure
+# Questions DPM issue configuring online backup
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "MARS Installation or registration failure",
+    "title": "DPM issue configuring online backup",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "os_version",
+	    "visibility": "null",
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
@@ -28,6 +29,7 @@
         },
         {
             "id": "machine_name",
+	    "visibility": "null",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
@@ -36,6 +38,7 @@
         },
         {
             "id": "error_message",
+	    "visibility": "null",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
@@ -44,18 +47,23 @@
         },
         {
             "id": "registration_type",
+	    "visibility": "null",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Is this an intial-registration/re-registering issue?",
+            "displayLabel": "At what stage of configuring or enabling backup are you facing the issue?",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
-                    "value": "Initial-registration",
-                    "text": "Initial-registration"
+                    "value": "Installing/upgrading DPM",
+                    "text": "Installing/upgrading DPM"
                 },
                 {
-                    "value": "Re-registering",
-                    "text": "Re-registering"
+                    "value": "Installing/upgrading Azure Backup Server",
+                    "text": "Installing/upgrading Azure Backup Server"
+                },
+                {
+                    "value": "Registering DPM to Recovery Services Vault",
+                    "text": "Registering DPM to Recovery Services Vault"
                 },
                 {
                     "value": "dont_know_answer",
@@ -65,7 +73,8 @@
             "required": true
         },
 	{
-	 "id": "issue_type",
+	   "id": "issue_type",
+            "visibility": "registration_type == Registering DPM to Recovery Services Vault",
             "order": 5,
             "controlType": "dropdown",
 	    "infoBalloonText": "Check installation and registration <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
@@ -93,9 +102,10 @@
                 }
             ],
             "required": true
-	},
+		},
         {
             "id": "basic_troubleshooting_multiselect",
+            "visibility": "registration_type == Registering DPM to Recovery Services Vault",
             "order": 6,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
@@ -147,6 +157,7 @@
         },
         {
             "id": "problem_start_time",
+	    "visibility": "null",
             "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
