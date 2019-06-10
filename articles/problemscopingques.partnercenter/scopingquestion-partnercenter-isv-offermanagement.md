@@ -60,7 +60,7 @@
                 }
             ],
             "required": false
-        },  
+        },
         {
             "id": "problem_description",
             "order": 4,

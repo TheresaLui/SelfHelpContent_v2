@@ -88,7 +88,7 @@
             "displayLabel": "Please provide the customer id you have issues deploying to.",
             "watermarkText": "Provide the customer id",
             "required": false
-        },        
+        },
         {
             "id": "problem_description",
             "order": 4,
