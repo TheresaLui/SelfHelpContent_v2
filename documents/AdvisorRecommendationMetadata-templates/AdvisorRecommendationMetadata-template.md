@@ -7,7 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments=""
 />
-# 
+# Sample title
 ---
 {
   "recommendationOfferingId": "",
@@ -46,9 +46,7 @@
       "actionType": "",
       "extensionName": "",
       "bladeName": "",
-      "metadata": {
-
-      },
+      "metadata": {},
       "documentLink": ""
     }
   ],
@@ -58,15 +56,14 @@
       "actionType": "",
       "extensionName": "",
       "bladeName": "",
-      "metadata": {
-        
-      },
+      "metadata": {},
       "documentLink": ""
     }
   },
   "displayLabel": "",
   "additionalColumns": [],
   "tip": "",
-  "costSavingInfo": ""
+  "costSavingInfo": "",
+  "testData": ""
 }
 ---
