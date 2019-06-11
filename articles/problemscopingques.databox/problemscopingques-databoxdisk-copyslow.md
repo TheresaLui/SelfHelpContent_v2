@@ -1,5 +1,5 @@
 <properties
-	articleId="aa5e4203-744b-4281-9f7b-a420cfb8bd30"
+	articleId="32639200"
 	pageTitle="Scoping Questions for Data Box Disk slow copy speeds"
 	description="Scoping Questions for Data Box Disk slow copy speeds"
 	authors="madhurinms"
