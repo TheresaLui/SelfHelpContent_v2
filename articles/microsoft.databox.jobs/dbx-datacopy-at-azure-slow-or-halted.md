@@ -17,8 +17,7 @@
 
 # Data copy at Azure
 
-**Data copy is slow or stopped**
-No action is required. Data copy is in progress, check back after few hours.
+**Data copy is slow or stopped**: No action is required. Data copy is in progress, check back after few hours.
 
 ## **Recommended Documents**
 

@@ -15,9 +15,7 @@
 	articleId="32639198"
 />
 
-# Data Box Disk unlock and data copy
-
-**Can't unlock the Data Box Disk **
+# Unable to unlock the Data Box Disk
 
 ## **Recommended Documents**
 
