@@ -1,20 +1,20 @@
 <properties
-    pageTitle="De-provisioning Issues"
-    description="De-provisioning Issues"
+    pageTitle="De-provisioning Issues - ExpressRoute Gateway"
+    description="De-provisioning Issues - ExpressRoute Gateway"
     service="microsoft.network"
     resource="expressroutecircuits"
-    authors="radwiv, v-miegge"
-    ms.author="radwiv"
+    authors="v-miegge"
+    ms.author="v-miegge"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32627989, 32627993"
+    supportTopicIds="32627991"
     resourceTags=""
     productPesIds="15480"
     cloudEnvironments="public"
-    articleId="a69eee20-f1cb-4ef6-a3f4-a2ade648df86"
+    articleId="7dc6f9c7-df83-4ec6-8048-bbccfbde7bc3"
 />
 
-# De-provisioning Issues
+# De-provisioning Issues - ExpressRoute Gateway
 
 ## Connectivity to Azure Private, Azure Public, or Dynamics 365 Services
 
@@ -27,5 +27,6 @@ You can delete your ExpressRoute circuit by selecting the delete icon. Please no
 
 ## **Recommended Documents**
 
+* [Remove a gateway](https://docs.microsoft.com/azure/expressroute/expressroute-howto-add-gateway-resource-manager#remove-a-gateway)<br>
 * [De-provision and delete](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#delete) an ExpressRoute circuit<br>
 * [ExpressRoute Circuit Provisioning Workflow](https://docs.microsoft.com/azure/expressroute/expressroute-workflows)
