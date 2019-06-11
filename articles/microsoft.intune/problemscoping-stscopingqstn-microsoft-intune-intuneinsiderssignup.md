@@ -25,7 +25,7 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "The Intune Insiders Program is \\"Invite Only\\" at this time"
                 },
                 {
                     "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
@@ -39,6 +39,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

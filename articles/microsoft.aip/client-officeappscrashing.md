@@ -23,12 +23,14 @@
 3. Temporarily disable all security products that are running, especially anti-virus services, and verify if the issue persists
 4. Verify that your Office suite is updated to the latest version
 5. Verify the [firewall and network requirements](https://docs.microsoft.com/azure/information-protection/get-started/requirements#firewalls-and-network-infrastructure) for Azure Information Protection
-6. If you have Excel spreadsheets that contain macros, edit the macros as follows to ensure that they continue to work as expected after the Azure Information Protection client is installed:
+6. If you experience issues and you use Citrix, make sure to disable Citrix hooking as described here: [How to Disable Citrix API Hooks on a Per-application Basis](https://support.citrix.com/article/CTX107825) and exclude all Office apps
+7. If you have Excel spreadsheets that contain macros, edit the macros as follows to ensure that they continue to work as expected after the Azure Information Protection client is installed:
 
     * At the beginning of the macro, add: `Application.EnableEvents = False`
 	* At the end of the macro, add: `Application.EnableEvents = True`
 
-7. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+8. If you are Windows Defender installed, run the following command in elevated (Run as Administrator) PowerShell session and see if issue resolves: `Set-ProcessMitigation -Name <app path> -Disable EAF, IAF` where instead of <app path> place the relevant exe paths to all Office apps (excel.exe, winword.exe, etc.)
+9. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 

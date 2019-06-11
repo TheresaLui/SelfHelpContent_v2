@@ -16,19 +16,14 @@
 
 # Cluster Patch Orchestration
 
-## Active Known Issue with Service Fabric Linux Clusters 
-A recent update introduced an issue for Service Fabric Linux clusters where Ubuntu based Service Fabric nodes will be unable to do core management operations unless the dependent package is downgraded to the previous version (2.3.4-4). 
+## Resolution to previous ImageBuilder process issue for Service Fabric Linux clusters
 
-**Impacted Customers:** This will affect all customers running Azure Service Fabric Linux clusters.
-
-## **Recommended Steps**
-A script is available to help mitigate the issue. This needs to be applied as a Custom Script Extension to your ARM (Azure Resource Manager) template.
-
-For detailed mitigation steps and support resources please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/02/07/known-issue-for-service-fabric-linux-clusters/). 
+As of Service Fabric runtime version 6.4.644 for Linux clusters, a previous issue with the ImageBuilder process has been resolved. This issue had required the addition of a custom script extension to the Azure Resource Manager template. This custom script extension can now be removed for clusters running Service Fabric runtime version 6.4.6444+. Please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/04/17/resolution-to-previous-imagebuilder-process-issue-for-service-fabric-linux-clusters/) for more information.
 
 ## **Recommended Documents**
 
 * [Common questions and solutions for patch orchestration](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster)<br>
+* [How to debug/diagnose issues with patch updates through Patch Orchestration Application](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application#diagnosticshealth-events)<br>
 * [Patch orchestration application issues](https://github.com/Azure/service-fabric-issues/issues/290)<br>
 * [Patch orchestration telemetry](https://github.com/Azure/service-fabric-issues/issues/617)<br>
 * [Patch Windows for your Service Fabric cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application)<br>
