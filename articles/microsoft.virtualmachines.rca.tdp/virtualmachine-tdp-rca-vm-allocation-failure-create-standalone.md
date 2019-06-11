@@ -27,11 +27,7 @@ The region this VM is associated with did not have enough capacity at the time t
 
 We apologize for the inconvenience. Try creating the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, consider choosing another VM size that is currently available in your region. If you are using an older VM product, consider newer versions. 
 
-See [Products by region](https://azure.microsoft.com/regions/services/) to search and browse for products by region and [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set).
-
-### Request exemption
-
-If you are unable to find suitable alternate locations or VM sizes and would like to submit a request for an SKU to be enabled, follow the support request process described in [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable). This action will streamline your request and assist in getting a faster turnaround time.<br>
+To search and browse the virtual machines by region, see [Products by region](https://azure.microsoft.com/regions/services/). You can also determine specific SKUs by region with the [Azure CLI](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-sku-not-available-errors#solution-2---azure-cli).
 
 ## **Recommended Documents**
 
