@@ -18,7 +18,7 @@
 
 ## **Recommended steps**
 
-### Application points not generating
+### Application points are not generating
 
 * [Troubleshoot common application consistent points not generating issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#error-id-153006---no-app-consistent-recovery-point-available-for-the-vm-in-the-last-xxx-minutes)<br>
 * [**Fix** - Application consistent points are not generating for **SQL 2008/ 2008 R2**](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#cause-1-known-issue-on-sql-server-20082008-r2)<br>
@@ -26,7 +26,7 @@
 * [Application consistent points are not generating for VMs having Storage Spaces Direct](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#cause-3-you-are-using-storage-spaces-direct-configuration)<br>
 * [Troubleshoot Application consistent points not generating due to VSS issues ](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#more-causes-due-to-vss-related-issues)
 
-### Crash consistent points not generating
+### Crash consistent points are not generating
 
 * [Understand and resolve high data change rate/churn issue on the source virtual machine](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#high-data-change-rate-on-the-source-virtal-machine)<br>
 * [Troubleshoot COM+/Volume Shadow Copy service error (error code 151025)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#comvolume-shadow-copy-service-error-error-code-151025)<br>
