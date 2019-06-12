@@ -15,7 +15,7 @@
 
 # Readable replica
 
-The Read Scale-Out feature in Business Critical service tier of Azure SQL Managed Instance allows you to load-balance read-only workloads using the capacity of one of the read-only replicas instead of sharing the read-write replica. This way the read-only workload will be isolated from the main read-write workload and will not affect its performance.
+The Read Scale-Out feature in Business Critical service tier of Azure SQL Managed Instance allows you to load-balance read-only workloads using the capacity of one of the read-only replicas instead of sharing the capacity of primary replica. This way the read-only workload will be isolated from the main read-write workload and will not affect its performance.
 
 ## **Recommended Steps**
 
