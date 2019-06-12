@@ -16,4 +16,6 @@
 
 # Configure Bastion gateway
 
+## **Recommended Documents** ##
+
 You can read product documentation on how to create a Azure Bastion resource and get started with secure RDP/SSH connectivity - [https://aka.ms/bastionhost/create](https://aka.ms/bastionhost/create)
