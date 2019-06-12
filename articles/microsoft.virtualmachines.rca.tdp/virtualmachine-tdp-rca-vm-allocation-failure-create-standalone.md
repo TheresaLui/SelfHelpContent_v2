@@ -27,7 +27,7 @@ The region this VM is associated with did not have enough capacity at the time t
 
 We apologize for the inconvenience. Try creating the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, consider choosing another VM size that is currently available in your region. If you are using an older VM product, consider newer versions. 
 
-To search and browse the virtual machines by region, choose `virtual machines` in an interactive query that Azure provides [here](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines). You can also determine specific SKUs by region with the [Azure CLI](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors#solution-2---azure-cli).
+To search and browse the virtual machines by region, choose `virtual machines` in an interactive query that Azure provides [here](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines).
 
 ## **Recommended Documents**
 
