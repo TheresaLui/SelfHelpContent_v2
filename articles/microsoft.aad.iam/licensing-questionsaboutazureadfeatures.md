@@ -64,7 +64,7 @@
         },
         {
             "id": "azureADLevel",
-            "visibility": purchaseOrUpgrade!=yes,
+            "visibility": "purchaseOrUpgrade!=yes",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What is Azure AD level of your tenant. This information is below the Directory name on Overview blade.",

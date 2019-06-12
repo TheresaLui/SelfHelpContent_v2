@@ -64,7 +64,7 @@
         },
         {
             "id": "groupOrUserAssignment",
-            "visibility": purchaseOrUpgrade!=yes,
+            "visibility": "purchaseOrUpgrade!=yes",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are you assigning license directly to users or assigning license to a group",
