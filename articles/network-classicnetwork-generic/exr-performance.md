@@ -16,7 +16,7 @@
 
 # ExpressRoute Performance Issues
 
-Azure provides stable and fast ways to connect from your on-premises network to Azure. Methods like Site-to-Site VPN and ExpressRoute are successfully used by customers large and small to run their businesses in Azure. But what happens when performance doesn't meet your expectation or previous experience? This document can help standardize the way you test and baseline your specific environment:
+Azure provides stable and fast ways to connect from your on-premises network to Azure. Methods like Site-to-Site VPN and ExpressRoute are successfully used by customers large and small to run their businesses in Azure. What happens when performance doesn't meet your expectation or previous experience? The documents below can help standardize the way you test and baseline your specific environment.
 
 ## **Recommended Documents**
 
