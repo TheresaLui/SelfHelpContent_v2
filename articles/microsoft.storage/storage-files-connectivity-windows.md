@@ -1,17 +1,17 @@
 ﻿<properties
-	pageTitle="Troubleshooting Azure File dropped or terminated connections"
-	description="Troubleshooting Azure File dropped or terminated connections problems"
+	pageTitle="Troubleshooting Azure File connectivity issue on Windows"
+	description="Troubleshooting Azure File connectivity issue on Windows"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="jeffpatt24"
 	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32642181"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
-	articleId="0fe3cd1e-3520-4156-8657-b26992ff7597"
+	articleId="F16A06F5-DD5D-42DB-805F-90DDC48198B1"
 />
 
 # Troubleshooting Azure File: Dropped or Terminated Connections
@@ -29,9 +29,4 @@
 - [My storage account contains "/" and the net use command fails](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#net-use-command-fails-if-the-storage-account-contains-a-forward-slash)<br>
 - [My application/service cannot access mounted Azure Files drive](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#application-or-service-cannot-access-a-mounted-azure-files-drive)<br>
 
-**Linux Client Problems**
-
-- ["Mount error(13): Permission denied" when you attempt to mount an Azure file share](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems#mount-error13-permission-denied-when-you-mount-an-azure-file-share)
-- ["Host is down" error on existing file shares, or the shell hangs when doing list commands on the mount point](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems#mount-error115-operation-now-in-progress-when-you-mount-azure-files-by-using-smb-30)<br>
-- ["Mount error(115): Operation now in progress" when you attempt to mount an Azure file share](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems#mount-error115-operation-now-in-progress-when-you-mount-azure-files-by-using-smb-30)<br>
 
