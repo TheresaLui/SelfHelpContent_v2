@@ -25,7 +25,8 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem begin?",
       "required": true
-    }, {
+    }, 
+    {
       "id": "applications_on_vm",
       "order": 3,
       "controlType": "multiselectdropdown",
@@ -33,13 +34,15 @@
       "dropdownOptions": [{
           "value": "Source IP Address(es)",
           "text": "Include all source IP addresses."
-        }, {
+        }, 
+        {
           "value": "Destination IP Address(es)",
           "text": "Include all destination IP addresses."
         }
       ],
       "required": true
-    }, {
+    }, 
+    {
       "id": "problem_description",
       "order": 5,
       "controlType": "multilinetextbox",
@@ -49,11 +52,13 @@
       "useAsAdditionalDetails": true,
       "hints": [{
           "text": "Issue description."
-        }, {
+        }, 
+        {
           "text": "Describe the issue here."
         }
       ]
-    }, {
+    }, 
+    {
       "id": "learn_more_text",
       "order": 6,
       "controlType": "infoblock",
