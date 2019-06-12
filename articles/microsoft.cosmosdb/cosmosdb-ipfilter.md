@@ -25,12 +25,12 @@ You may have not included your IP address or range within the list of whiteliste
 
 When using subnets, you have to:
 
-* enable [Service Endpoints](https://docs.microsoft.com/en-us/azure/cosmos-db/vnet-service-endpoint) on the subnet,
-* make sure that the apps or services trying to connect to your Cosmos DB instance sit in the same virtual network and subnet as the Cosmos DB instance.
+* Enable [Service Endpoints](https://docs.microsoft.com/azure/cosmos-db/vnet-service-endpoint) on the subnet
+* Make sure that the apps or services trying to connect to your Cosmos DB instance sit in the same virtual network and subnet as the Cosmos DB instance.
 
 ## **Recommended Documents**
 
 * [IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/firewall-support)
-* [How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-firewall)
-* [Access Azure Cosmos DB from virtual networks (VNet)](https://docs.microsoft.com/en-us/azure/cosmos-db/vnet-service-endpoint)
-* [How to configure access from virtual networks (VNet)](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
+* [How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
+* [Access Azure Cosmos DB from virtual networks (VNet)](https://docs.microsoft.com/azure/cosmos-db/vnet-service-endpoint)
+* [How to configure access from virtual networks (VNet)](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
