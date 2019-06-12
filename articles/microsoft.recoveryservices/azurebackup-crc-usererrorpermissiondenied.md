@@ -24,6 +24,7 @@ We have identified that backup operation failed because the backup account Azure
 
 ## **Recommended Steps**
 To resolve this issue perform the below:
+
 * Ensure to provide SysAdmin permissions to backup account AzureWLBackupPluginSvc in SQL Server, by following this [article](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#fix-sql-sysadmin-permissions)
 * Trigger an inquiry (perform [Discover DBs](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#set-permissions-for-non-marketplace-sql-vms) operation from portal) to confirm that the issue is resolved.  
 * Retry Backup operation.
