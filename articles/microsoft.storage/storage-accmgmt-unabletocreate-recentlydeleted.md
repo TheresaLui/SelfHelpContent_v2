@@ -1,9 +1,8 @@
 ﻿<properties
 	pageTitle="Unable to create storage account with the same name as deleted account"
 	description="Unable to create storage account with the same name as deleted account"
-	infoBubbleText="See details on the right"
 	service="microsoft.storage"
-	resource="storage"
+	resource="storageaccounts"
 	authors="Passaree"
     ms.authors="passap"
 	displayOrder=""
