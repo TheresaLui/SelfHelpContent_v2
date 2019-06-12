@@ -20,7 +20,7 @@ You can use the SQL Server Management Studio and other tools to connect to Manag
 
 ## Recommended Steps
 
-- Check are you using the latest version of SQL Server Management Studio. Version must be [18.0 or higher](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).
+- Make sure you are using the latest version of SQL Server Management Studio. Version must be [18.0 or higher](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).
 - Check are you using the latest version of [SQLManagementObjects](https://www.nuget.org/packages/Microsoft.SqlServer.SqlManagementObjects) - version 150 or higher is required.
 - Check are you using the latest version of [DacFx Framework](https://www.microsoft.com/download/details.aspx?id=57784&WT.mc_id=rss_alldownloads_all) (18 or higher).
 - Make sure that you can reach Managed Instance from the computer where you are running queries. Try to test connectivity with the commands like `tns <managed-instance> -1433`.
