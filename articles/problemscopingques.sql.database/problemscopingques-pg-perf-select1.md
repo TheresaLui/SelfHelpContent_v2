@@ -127,8 +127,8 @@
                     "text": "It is slower when connection is from VNET"
                 },
                 {
-                    "value": "It is slower than server on Non-Azure Environment",
-                    "text": "It is slower than server on Non-Azure Environment"
+                    "value": "It is slower than server on Non-Azure cloud Environment",
+                    "text": "It is slower than server on Non-Azure cloud Environment"
                 },
                 {
                     "value": "It is slower than database server running on VM/Locally",
