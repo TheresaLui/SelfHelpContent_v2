@@ -19,12 +19,10 @@
 # Error UserErrorLatestFullPitIsOld
 
 <!--issueDescription-->
-We have identified that the log backup failed because the data source's of the  recovery model has changed since the last successful backup.
+We have identified that the log backup has failed, because the data sources of the recovery model have changed since the last successful backup.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve this issue perform the below steps based on the type of backup and retry the operation.
-
-* If this error occur during scheduled backup then Azure Backup service will Autoheal this issue with a full backup. 
-* In case of on-demand back, trigger a full backup.
+* If this error occurs during a scheduled backup, the Azure Backup Service will auto-heal this issue with a full backup 
+* In case of an on-demand backup, manually trigger a full backup
