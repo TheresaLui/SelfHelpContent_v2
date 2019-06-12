@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16757"
     cloudEnvironments="public"
-	articleId="bastion-Configure-Bastion-gateway"
+	articleId="bastion-configure-bastion-gateway"
 />
 
 # Configure Bastion gateway
