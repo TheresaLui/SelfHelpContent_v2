@@ -20,9 +20,9 @@
 
 ## **Recommended Documents**
 
-Summary of [applications that can be protected through site recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary)
+* Summary of [applications that can be protected through site recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary)
 
-Protect applications through site recovery:
+### **Protect applications through site recovery**
 
 * [Active directory & DNS servers](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#replicate-active-directory-and-dns)<br>
 * [SQL server](https://docs.microsoft.com/azure/site-recovery/site-recovery-sql)<br>
