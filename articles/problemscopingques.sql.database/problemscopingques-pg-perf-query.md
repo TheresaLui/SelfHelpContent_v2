@@ -127,8 +127,8 @@
                     "text": "It is slower when connection is from VNET"
                 },
                 {
-                    "value": "It is slower than server on Non Azure Environment",
-                    "text": "It is slower than server on Non Azure Environment"
+                    "value": "It is slower than server on Non-Azure Environment",
+                    "text": "It is slower than server on Non-Azure Environment"
                 },
                 {
                     "value": "It is slower than database server running on VM/Locally",
@@ -142,16 +142,42 @@
             "required": true
         },
         {
-            "id": "other_point_of_comparison",
+            "id": "cloud_as_point_of_comparison",
             "order": 9,
-            "visibility": "point_of_comparison == Other",
+            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "controlType": "textbox",
+            "displayLabel": "Please indicate to which cloud environment you are comparing:",
+            "required": false
+        },
+        {
+            "id": "cloud_as_point_of_comparison_config",
+            "order": 10,
+            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is your database configuration in the corresponding environment?",
+            "watermarkText": "CPU, RAM, Storage type, etc",
+            "required": false
+        },
+        {
+            "id": "cloud_as_point_of_comparison_app",
+            "order": 11,
+            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is your application VM configuration in the corresponding environment?",
+            "watermarkText": "CPU, RAM, Storage type, etc",
+            "required": false
+        },
+        {
+            "id": "other_point_of_comparison",
+            "order": 12,
+            "visibility": "point_of_comparison == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please specify your point of comparison:",
             "required": false
         },
         {
             "id": "measurement_tool",
-            "order": 10,
+            "order": 13,
             "controlType": "textbox",
             "displayLabel": "What tool are you using to measure your performance??",
             "watermarkText": "e.g. pgbench",
@@ -159,14 +185,14 @@
         },
         {
             "id": "measurement",
-            "order": 11,
+            "order": 14,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide your performance/latency numbers:",
             "required": false
         },
         {
             "id": "slow_queries",
-            "order": 12,
+            "order": 15,
             "controlType": "multilinetextbox",
             "displayLabel": "Please list all the slow running queries:",
             "watermarkText": "Enter All if all queries are slow.",
@@ -174,7 +200,7 @@
         },
         {
             "id": "query_plan",
-            "order": 13,
+            "order": 16,
             "controlType": "multilinetextbox",
             "displayLabel": "Please paste your query plan here for the slow running query:",
             "infoBalloonText": "Run: EXPLAIN [Your query]; to get the query plan for [Your query]",
@@ -182,7 +208,7 @@
         },
         {
             "id": "application",
-            "order": 14,
+            "order": 17,
             "controlType": "dropdown",
             "displayLabel": "Are you connecting to your database server from application?",
             "dropdownOptions": [
@@ -199,7 +225,7 @@
         },
         {
             "id": "application_language",
-            "order": 15,
+            "order": 18,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is your application programming language?",
@@ -241,7 +267,7 @@
         },
         {
             "id": "application_client",
-            "order": 16,
+            "order": 19,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is your application client type?",
@@ -263,7 +289,7 @@
         },
         {
             "id": "problem_description",
-            "order": 17,
+            "order": 20,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",
