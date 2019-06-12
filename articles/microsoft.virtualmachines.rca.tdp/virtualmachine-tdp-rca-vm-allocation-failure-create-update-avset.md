@@ -32,8 +32,6 @@ We apologize for the inconvenience. Please try the <!--$OperationType-->operatio
 - Deallocate all the VMs in the availability set, and then restart them again. Doing so enables the Azure platform to choose from more than one cluster when performing the allocation. The VM will use the same size that it had before the deallocation. 
 - Resize the VM to a size that is currently available in your availability set. If you are using an older VM product, consider newer versions. See [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set)<br>
 
-For PowerShell examples for resizing a VM, for either in or not in an availability set, see [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm).<br>
-
 To determine available sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
 
 ## **Recommended Documents**
