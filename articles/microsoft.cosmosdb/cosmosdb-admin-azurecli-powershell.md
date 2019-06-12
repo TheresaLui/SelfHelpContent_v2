@@ -58,3 +58,5 @@ However, you can use a C# console application or the Azure CLI to manage runtime
 * [Azure CLI samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
 * [Azure Cosmos DB hierarchical resource model and core concepts](https://docs.microsoft.com/azure/cosmos-db/sql-api-resources)
+
+* [Managing Azure Cosmos account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account)
