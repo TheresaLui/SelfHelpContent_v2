@@ -16,7 +16,7 @@
 
 # Recovery points not generating in Azure to Azure (A2A) scenario
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### Application points are not generating
 
@@ -32,7 +32,7 @@
 * [Troubleshoot COM+/Volume Shadow Copy service error (error code 151025)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#comvolume-shadow-copy-service-error-error-code-151025)<br>
 * [Check outbound connectivity to Site Recovery URLs or IP ranges from the VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors?#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Steps to configure outbound network connectivity](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication#configure-outbound-network-connectivity)<br>
 * Review the [**Support Requirements**](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure) for all components <br>
