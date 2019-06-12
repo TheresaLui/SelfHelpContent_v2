@@ -16,8 +16,12 @@
 
 # Kubernetes Service
 
-## **Recommended Documents**
+## **Common causes for failed Cluster deletion**<br>
+* [Azure Kubernetes Services stuck in Creating or Deleting State](https://www.cloudockit.com/aks-azure-kubernetes-services-stucks-in-creating-or-deleting-state/)<br>
+* ["AuthorizationFailed" error while trying to delete the AKS cluster](https://stackoverflow.com/questions/46921036/unable-to-delete-aks-cluster)<br>
 
-* [How to delete an AKS cluster](https://docs.microsoft.com/cli/azure/aks)<br>
-* [AKS (Azure Kubernetes Services) stuck in Creating or Deleting State](https://www.cloudockit.com/aks-azure-kubernetes-services-stucks-in-creating-or-deleting-state/)<br>
+## **Walk-Through articles**<br>
+* [How to delete an AKS cluster](https://docs.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-delete)<br>
+
+## **AKS Support Policy**<br>
 * [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
