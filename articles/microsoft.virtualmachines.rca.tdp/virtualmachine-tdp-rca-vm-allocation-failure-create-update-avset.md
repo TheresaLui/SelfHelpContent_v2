@@ -7,7 +7,7 @@
 	authors="scottAzure"
 	ms.author="scotro"
 	displayOrder=""
-	articleId="OperationFailure_RCA-create-update-avset"
+	articleId="AllocationFailure_RCA-create-update-avset"
 	diagnosticScenario="AllocationFailure"
 	selfHelpType="rca"
 	supportTopicIds=""

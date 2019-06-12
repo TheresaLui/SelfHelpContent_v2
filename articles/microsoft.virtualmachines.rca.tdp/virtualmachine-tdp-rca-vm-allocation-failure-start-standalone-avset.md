@@ -7,7 +7,7 @@
 	authors="scottAzure"
 	ms.author="scotro"
 	displayOrder=""
-	articleId="OperationFailure_RCA-start-standalone-avset"
+	articleId="AllocationFailure_RCA-start-standalone-avset"
 	diagnosticScenario="AllocationFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -34,10 +34,5 @@ For PowerShell examples to resize a VM, for both in an availability set and not 
 
 To determine available sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
 
-To determine available sizes using PowerShell, use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command, for Azure CLI see the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command, for the REST API see the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.<br>
-
-
-
-
-
+To determine available sizes using PowerShell, use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command, for Azure CLI see the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command, for the REST API see the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
 
