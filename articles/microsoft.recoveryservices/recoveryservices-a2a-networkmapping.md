@@ -20,11 +20,11 @@
 
 ### IP address related queries
 
-* [Why ASR doesn't replicate Public IP address ?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#can-i-retain-a-public-ip-address-after-failover)<br>
+* [Why won't ASR replicate a public IP address?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#can-i-retain-a-public-ip-address-after-failover)<br>
 * [How can I retain a private IP address during failover?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#can-i-retain-a-private-ip-address-during-failover)<br>
 * [After failover, why is the server assigned a random new IP address?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#after-failover-why-is-the-server-assigned-a-new-ip-address)<br>
 * [Why I am not getting a same static IP address during Test failover?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-network-mapping#ip-address-assignment-during-test-failover)<br>
-* [How can I retain IP addresses during failover ?](https://docs.microsoft.com/azure/site-recovery/site-recovery-retain-ip-azure-vm-failover)
+* [How can I retain IP addresses during failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-retain-ip-azure-vm-failover)
 
 ### Networking guidance
 
