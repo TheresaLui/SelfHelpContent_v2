@@ -34,7 +34,7 @@ The following is a list of the Runbook failures we have detected in your Automat
 * Roll back to a previous module version by navigating to the "Modules" page under your Automation Account, selecting modules that have been recently updated, and choosing "Delete"
 * [Re-import a previous version of the module](https://docs.microsoft.com/azure/automation/shared-resources/modules#import-modules)
 
-## ** Recommended Documents**
+## **Recommended Documents**
 
 * [Troubleshooting Runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)
 * [Breaking changes for Microsoft Azure PowerShell 2.0.0](https://github.com/Azure/azure-powershell/blob/preview/documentation/migration-guides/migration-guide.2.0.0.md)
