@@ -5,6 +5,7 @@ infoBubbleText="See list of affected Runbooks below"
 service="microsoft.automation"
 resource="runbooks"
 authors="adoyle"
+ms.author="adoyle"
 authorAlias="adoyle"
 displayOrder=""
 articleId="rbmUpdate-48a86414-6e14-4785-8beb-33269666cc3e"
@@ -21,7 +22,7 @@ cloudEnvironments="public"
 
 We have detected runbook failures occurring after an update of module versions. Module updates can contain breaking changes, resulting in scripts behaving unexpectedly. We recommend maintaining a separate automation account to test module updates before deploying them to production.
 
-To resolve this issue ,you can roll back to a previous module version by navigating to the "Modules" page under your Automation Account, selecting modules that have been recently updated, and choosing "Delete". Then you can re-import a previous version of the module following the instructions at [Import Modules](https://docs.microsoft.com/en-us/azure/automation/shared-resources/modules#import-modules). 
+To resolve this issue, you can roll back to a previous module version by navigating to the "Modules" page under your Automation Account, selecting modules that have been recently updated, and choosing "Delete". Then you can re-import a previous version of the module following the instructions at [Import Modules](https://docs.microsoft.com/azure/automation/shared-resources/modules#import-modules).
 The following is a list of the Runbook failures we have detected in your Automation Account:
 <!--$Jobfailures-->[Jobfailures]<!--/$Jobfailures-->
 
