@@ -127,8 +127,8 @@
                     "text": "It is slower when connection is from VNET"
                 },
                 {
-                    "value": "It is slower than server on Non Azure Environment",
-                    "text": "It is slower than server on Non Azure Environment"
+                    "value": "It is slower than server on Non-Azure cloud Environment",
+                    "text": "It is slower than server on Non-Azure cloud Environment"
                 },
                 {
                     "value": "It is slower than database server running on VM/Locally",
@@ -142,16 +142,42 @@
             "required": true
         },
         {
-            "id": "other_point_of_comparison",
+            "id": "cloud_as_point_of_comparison",
             "order": 9,
-            "visibility": "point_of_comparison == Other",
+            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "controlType": "textbox",
+            "displayLabel": "Please indicate to which cloud environment you are comparing:",
+            "required": false
+        },
+        {
+            "id": "cloud_as_point_of_comparison_config",
+            "order": 10,
+            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is your database configuration in the corresponding environment?",
+            "watermarkText": "CPU, RAM, Storage type, etc",
+            "required": false
+        },
+        {
+            "id": "cloud_as_point_of_comparison_app",
+            "order": 11,
+            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is your application VM configuration in the corresponding environment?",
+            "watermarkText": "CPU, RAM, Storage type, etc",
+            "required": false
+        },
+        {
+            "id": "other_point_of_comparison",
+            "order": 12,
+            "visibility": "point_of_comparison == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please specify your point of comparison:",
             "required": false
         },
         {
             "id": "measurement_tool",
-            "order": 10,
+            "order": 13,
             "controlType": "textbox",
             "displayLabel": "What tool are you using to measure your performance??",
             "watermarkText": "e.g. SysBench",
@@ -159,7 +185,7 @@
         },
         {
             "id": "problem_description",
-            "order": 11,
+            "order": 14,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",
