@@ -20,7 +20,7 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
-            "id": "purchaseOrUpgrade",
+            "id": "purchaseOrUpgradeLicense",
             "visibility": null,
             "order": 1,
             "controlType": "dropdown",
@@ -46,8 +46,8 @@
             "numberOfLines": 0
         },
         {
-            "id": "purchaseOrUpgradeSelected",
-            "visibility": "purchaseOrUpgrade!=no",
+            "id": "purchaseOrUpgradeSelection",
+            "visibility": "purchaseOrUpgradeLicense!=no",
             "order": 2,
             "controlType": "infoblock",
             "displayLabel": null,
@@ -64,7 +64,7 @@
         },
         {
             "id": "azureADLevel",
-            "visibility": "purchaseOrUpgrade!=yes",
+            "visibility": "purchaseOrUpgradeLicense!=yes",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What is Azure AD level of your tenant. This information is below the Directory name on Overview blade.",
@@ -94,7 +94,7 @@
         },
         {
             "id": "featureName",
-            "visibility": "purchaseOrUpgrade!=yes",
+            "visibility": "purchaseOrUpgradeLicense!=yes",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What Azure AD feature you want to use.",
