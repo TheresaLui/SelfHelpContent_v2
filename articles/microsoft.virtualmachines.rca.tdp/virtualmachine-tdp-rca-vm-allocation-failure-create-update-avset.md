@@ -27,14 +27,14 @@ An Azure Availability Set is created on a specific hardware cluster based upon t
 
 ## **Recommended Steps**
 
-We apologize for the inconvenience. Try the <!--$OperationType-->operationType<!--/$OperationType--> operation on the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
+We apologize for the inconvenience. Please try the <!--$OperationType-->operationType<!--/$OperationType--> operation on the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
 
 - Deallocate all the VMs in the availability set, and then restart them again. Doing so enables the Azure platform to choose from more than one cluster when performing the allocation. The VM will use the same size that it had before the deallocation. 
 - Resize the VM to a size that is currently available in your availability set. If you are using an older VM product, consider newer versions. See [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set)<br>
 
-To determine available sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
+For PowerShell examples for resizing a VM, for either in or not in an availability set, see [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm).<br>
 
-For PowerShell examples for resizing a VM, for either in or not in an availability set, see [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm).<br> 
+To determine available sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
 
 ## **Recommended Documents**
 
