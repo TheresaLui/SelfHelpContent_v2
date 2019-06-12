@@ -127,7 +127,7 @@
                     "text": "It is slower when connection is from VNET"
                 },
                 {
-                    "value": "It is slower than server on Non-Azure cloud Environment",
+                    "value": "Non-Azure",
                     "text": "It is slower than server on Non-Azure cloud Environment"
                 },
                 {
@@ -144,7 +144,7 @@
         {
             "id": "cloud_as_point_of_comparison",
             "order": 9,
-            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "visibility": "point_of_comparison == Non-Azure",
             "controlType": "textbox",
             "displayLabel": "Please indicate to which cloud environment you are comparing:",
             "required": false
@@ -152,7 +152,7 @@
         {
             "id": "cloud_as_point_of_comparison_config",
             "order": 10,
-            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "visibility": "point_of_comparison == Non-Azure",
             "controlType": "multilinetextbox",
             "displayLabel": "What is your database configuration in the corresponding environment?",
             "watermarkText": "CPU, RAM, Storage type, etc",
@@ -161,7 +161,7 @@
         {
             "id": "cloud_as_point_of_comparison_app",
             "order": 11,
-            "visibility": "point_of_comparison == It is slower than server on Non-Azure cloud environment",
+            "visibility": "point_of_comparison == Non-Azure",
             "controlType": "multilinetextbox",
             "displayLabel": "What is your application VM configuration in the corresponding environment?",
             "watermarkText": "CPU, RAM, Storage type, etc",
