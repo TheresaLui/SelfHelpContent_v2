@@ -22,7 +22,7 @@
 * [How to resolve insufficientSubnetSize error while deploying a Cluster](https://docs.microsoft.com/azure/aks/troubleshooting#im-getting-an-insufficientsubnetsize-error-while-deploying-an-aks-cluster-with-advanced-networking-what-should-i-do)<br>
 * [How to request for more quota in case of "Quota Exceed" failure during cluster creation](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
 
-**Walk-Through articles**<br>
+**Walk-through articles**<br>
 * [Deploy an Azure Kubernetes Service (AKS) cluster using the Azure CLI](https://docs.microsoft.com/azure/aks/kubernetes-walkthrough)<br>
 * [Deploy an Azure Kubernetes Service (AKS) cluster using the Azure portal](https://docs.microsoft.com/azure/aks/kubernetes-walkthrough-portal)<br>
 * [Create a Kubernetes cluster with Azure Kubernetes Service and Terraform](https://docs.microsoft.com/azure/terraform/terraform-create-k8s-cluster-with-tf-and-aks)<br>
