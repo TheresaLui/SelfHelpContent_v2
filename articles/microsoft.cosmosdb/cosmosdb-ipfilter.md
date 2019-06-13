@@ -17,15 +17,15 @@
 
 ## **Recommended Steps**
 
-### If you are having connectivity issues while using Cosmos DB's IP firewall
+### If you are having connectivity issues with your Cosmos DB account with IP firewall enabled
 
-You may have not included your IP address or range within the list of whitelisted IP addresses in your account's networking configuration. To configure IP policy-based access control, the user must provide the set of IP addresses or IP address ranges in CIDR form to be included as the allowed list of client IPs for a given database account. Once this configuration is applied, all requests originating from machines outside this allowed list are blocked by the server.
+You may have not added your IP address or IP address ranges in your account's firewall and virtual networks settings. To configure IP policy-based access control, the user must provide the set of IP addresses or IP address ranges in CIDR form to be included as the allowed list of client IPs for a given database account.
 
 ### If you are having connectivity issues while accessing Cosmos DB through a virtual network (VNet)
 
 When using subnets, you have to:
 
-* Enable [Service Endpoints](https://docs.microsoft.com/azure/cosmos-db/vnet-service-endpoint) on the subnet
+* Enable [Service Endpoints](https://docs.microsoft.com/azure/cosmos-db/vnet-service-endpoint) on the subnet.
 * Make sure that the apps or services trying to connect to your Cosmos DB instance sit in the same virtual network and subnet as the Cosmos DB instance.
 
 ## **Recommended Documents**
