@@ -26,8 +26,8 @@ Ensure that associated configuration server is healthy and [**troubleshoot all c
 
 ## Connectivity
 
-1. Troubleshoot all [connectivity issues](https://aka.ms/v2a_replication_connectivity) to ensure smooth replication. If connectivity breaks, initial replication will not progress.
-1. Ensure all necessary folders are [excluded from antivirus software](https://aka.ms/v2a_antivirus_exclusions).
+* Troubleshoot all [connectivity issues](https://aka.ms/v2a_replication_connectivity) to ensure smooth replication. If connectivity breaks, initial replication will not progress.
+* Ensure all necessary folders are [excluded from antivirus software](https://aka.ms/v2a_antivirus_exclusions).
 
 ## High churn
 
