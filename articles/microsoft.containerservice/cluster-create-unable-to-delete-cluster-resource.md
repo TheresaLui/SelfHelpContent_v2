@@ -22,7 +22,7 @@
 * [Azure Kubernetes Services stuck in Creating or Deleting State](https://www.cloudockit.com/aks-azure-kubernetes-services-stucks-in-creating-or-deleting-state/)<br>
 * ["AuthorizationFailed" error while trying to delete the AKS cluster](https://stackoverflow.com/questions/46921036/unable-to-delete-aks-cluster)<br>
 
-**Walk-through articles**<br>
+**Walk-through article**<br>
 * [How to delete an AKS cluster](https://docs.microsoft.com/cli/azure/aks?view=azure-cli-latest#az-aks-delete)<br>
 
 **AKS Support Policy**<br>
