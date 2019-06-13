@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-1)	You can read product [documentation](https://aka.ms/bastionhost/nsg) on how to manage NSGs in the Bastion deployment.<br>
-2)	[Read](https://aka.ms/bastionhost/accesscontrol) how to manage access control in the Bastion deployment.
+1. You can read product [documentation](https://aka.ms/bastionhost/nsg) on how to manage NSGs in the Bastion deployment.<br>
+2. [Read](https://aka.ms/bastionhost/accesscontrol) how to manage access control in the Bastion deployment.
