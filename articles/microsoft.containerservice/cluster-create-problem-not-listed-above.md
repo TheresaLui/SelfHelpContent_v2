@@ -16,7 +16,6 @@
 
 # Kubernetes Service
 
-
 ## **Recommended documents**
 
 **Common causes for failed Cluster creation**<br>
@@ -27,7 +26,7 @@
 * [Azure Kubernetes Services stuck in Creating or Deleting State](https://www.cloudockit.com/aks-azure-kubernetes-services-stucks-in-creating-or-deleting-state/)<br>
 * ["AuthorizationFailed" error while trying to delete the AKS cluster](https://stackoverflow.com/questions/46921036/unable-to-delete-aks-cluster)<br>
 
-**Recommended Documents**<br>
+**Other related articles**<br>
 * [Upgrade an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/upgrade-cluster)<br>
 * [AKS troubleshooting common scenarios](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
 * [Supported Kubernetes versions in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/supported-kubernetes-versions)
