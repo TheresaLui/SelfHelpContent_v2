@@ -36,7 +36,7 @@ Use request deadlines appropriate for the service type: Shorter for latency-sens
 
 Retry failed operations:
 
-* Set [`ConnectionPolicy.RetryOptions`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.documents.client.connectionpolicy.retryoptions) for reads.
+* Set [`ConnectionPolicy.RetryOptions`](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.connectionpolicy.retryoptions) for reads.
 * Implement a retry loop with exponential back-off and random jitter for writes. Cosmos DB cannot retry writes automatically because they are not idempotent in general.
 
 ### Correlations
