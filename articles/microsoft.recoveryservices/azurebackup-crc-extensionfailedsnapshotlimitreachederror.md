@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
-	ms.author="srinathvasireddy"
+	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-extensionfailedsnapshotlimitreachederror"
 	diagnosticScenario="azurebackup-crc-extensionfailedsnapshotlimitreachederror"
@@ -23,4 +23,5 @@ We have identified that your snapshot operation failed as the snapshot limit has
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 To resolve this issue, refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedsnapshotlimitreachederror---snapshot-operation-failed-as-snapshot-limit-is-exceeded-for-some-of-the-disks-attached).
