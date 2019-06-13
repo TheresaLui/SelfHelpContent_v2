@@ -7,7 +7,7 @@
 	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602741"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
