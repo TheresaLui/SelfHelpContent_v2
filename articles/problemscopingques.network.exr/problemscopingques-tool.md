@@ -2,6 +2,7 @@
     pageTitle="ExpressRoute\Configuration and Setup\Tool Issues"
     description="ExpressRoute\Configuration and Setup\Tool Issues"
     authors="v-miegge"
+    ms.author="v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32627980"
     productPesIds="15585"
@@ -28,11 +29,11 @@
       "dropdownOptions": [{
           "value": "Portal",
           "text": "Portal"
-        }, 
+        },
         {
           "value": "PowerShell",
           "text": "PowerShell"
-        }, 
+        },
         {
           "value": "CLI",
           "text": "CLI"
@@ -57,7 +58,7 @@
       "useAsAdditionalDetails": true,
       "hints": [{
           "text": "Issue description."
-        }, 
+        },
         {
           "text": "Describe the issue here."
         }
