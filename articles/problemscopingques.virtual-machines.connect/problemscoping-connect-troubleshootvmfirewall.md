@@ -36,6 +36,10 @@
                 {
                     "value": "Another cloud provider",
                     "text": "Another cloud provider"
+                },
+                {
+                        "value": "Azure Marketplace",
+                        "text": "Azure Marketplace"
                 }
             ],
             "required": false
