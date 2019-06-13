@@ -1,0 +1,21 @@
+<properties
+    pageTitle="Delete Bastion gateway"
+    description="Delete Bastion gateway"
+    service="microsoft.network"
+    resource="bastionHosts"
+    authors="spacest"
+    ms.author="mariliu"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32641416"
+    resourceTags=""
+    productPesIds="16757"
+    cloudEnvironments="public"
+	articleId="bastion-configure-delete-gateway"
+/>
+
+# Delete Bastion gateway
+
+## **Recommended Documents**
+
+* You can read product [documentation](https://aka.ms/bastionhost/delete) on how to delete an Azure Resource.
