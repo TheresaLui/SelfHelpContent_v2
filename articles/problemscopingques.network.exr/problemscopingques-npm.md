@@ -5,7 +5,6 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32602122"
     productPesIds="15585"
-    articleId="expressroute-connectivity-issues-detected-npm"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="1cefc7d8-95c4-429c-b8d3-487e67c13690"
