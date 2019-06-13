@@ -16,6 +16,6 @@
 
 # Connectivity issues detected by NPM
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshooting Network Performance](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-network-performance)
