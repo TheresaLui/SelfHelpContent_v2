@@ -16,18 +16,20 @@
 
 # Kubernetes Service
 
-## **Common causes for failed Cluster Upgrade**<br>
+## **Recommended documents**
+
+**Common causes for failed Cluster Upgrade**<br>
 * [Cluster goes into a failed state during the upgrade due to exceed resource quotas](https://docs.microsoft.com/azure/aks/troubleshooting#im-receiving-errors-that-my-cluster-is-in-failed-state-and-upgrading-or-scaling-will-not-work-until-it-is-fixed)<br>
 * [Upgrade failed due to expired Service Principal Name](https://docs.microsoft.com/azure/aks/update-credentials#update-aks-cluster-with-new-credentials)<br>
 * [Upgrade or Scale fails if Cluster has a failed upgrade or is currenlty undergoing un update](https://docs.microsoft.com/azure/aks/troubleshooting#im-receiving-errors-that-my-cluster-is-in-failed-state-and-upgrading-or-scaling-will-not-work-until-it-is-fixed)<br>
 * [AKS Cluster Upgrade failed to create Daemonsets (FluentD/Prometheus)](https://github.com/Azure/AKS/issues/828)<br>
 * [Other active known issues related to upgrade](https://github.com/Azure/AKS/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+upgrade+label%3Aknown-issue+)
 
-## **Recommended Documents**<br>
+**Recommended Documents**<br>
 * [Upgrade an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/upgrade-cluster)<br>
 * [AKS troubleshooting common scenarios](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
 * [Tutorial: Upgrade Kubernetes in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/tutorial-kubernetes-upgrade-cluster)<br>
 * [Supported Kubernetes versions in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/supported-kubernetes-versions)
 
-## **AKS Support Policy**<br>
+**AKS Support Policy**<br>
 * [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
