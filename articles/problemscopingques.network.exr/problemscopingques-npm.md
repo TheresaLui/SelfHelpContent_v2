@@ -27,21 +27,26 @@
       "required": true
     },
     {
-      "id": "applications_on_vm",
-      "order": 3,
-      "controlType": "multiselectdropdown",
-      "displayLabel": "Provide additional information about your issue.",
-      "dropdownOptions": [{
-          "value": "Source IP Address(es)",
-          "text": "Include all source IP addresses."
-        },
-        {
-          "value": "Destination IP Address(es)",
-          "text": "Include all destination IP addresses."
-        }
-      ],
-      "required": true
-    },
+			"id": "problem_description",
+			"order": 5,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Source IP Address(es)"
+				},
+                {
+					"text": "Include all source IP addresses."
+				}{
+					"text": "Destination IP Address(es)"
+				},
+                {
+					"text": "Include all destination IP addresses."
+				}
+			]
+		},
     {
       "id": "problem_description",
       "order": 5,
