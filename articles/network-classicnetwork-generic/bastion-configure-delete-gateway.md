@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* You can read product [documentation](https://aka.ms/bastionhost/delete) on how to delete an Azure Resource.
+* [How to delete an Azure Resource](https://aka.ms/bastionhost/delete)
