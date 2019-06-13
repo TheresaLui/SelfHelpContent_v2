@@ -39,7 +39,8 @@
 				},
                 {
 					"text": "Include all source IP addresses."
-				}{
+				}
+				{
 					"text": "Destination IP Address(es)"
 				},
                 {
@@ -57,7 +58,7 @@
       "useAsAdditionalDetails": true,
       "hints": [{
           "text": "Issue description."
-        }, 
+        },
         {
           "text": "Describe the issue here."
         }
