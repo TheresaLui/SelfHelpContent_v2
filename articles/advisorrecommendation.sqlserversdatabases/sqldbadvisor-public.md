@@ -14,7 +14,7 @@
   "recommendationOfferingName": "Azure SQL Database",
   "$schema": "AdvisorRecommendation",
   "dataSourceMetadata": {
-    "dataSource": "SAS",
+    "dataSource": "SAS"
   },
   "recommendationTypeId": "a1f91337-c953-4791-9517-f170de60bf35",
   "recommendationCategory": "Performance",
