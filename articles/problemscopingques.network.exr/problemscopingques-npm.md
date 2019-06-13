@@ -2,6 +2,7 @@
     pageTitle="ExpressRoute\Connectivity Issues detected by NPM"
     description="ExpressRoute\Connectivity Issues detected by NPM"
     authors="v-miegge"
+    ms.author="v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32602122"
     productPesIds="15585"
@@ -24,7 +25,7 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem begin?",
       "required": true
-    }, 
+    },
     {
       "id": "applications_on_vm",
       "order": 3,
@@ -33,14 +34,14 @@
       "dropdownOptions": [{
           "value": "Source IP Address(es)",
           "text": "Include all source IP addresses."
-        }, 
+        },
         {
           "value": "Destination IP Address(es)",
           "text": "Include all destination IP addresses."
         }
       ],
       "required": true
-    }, 
+    },
     {
       "id": "problem_description",
       "order": 5,
@@ -56,7 +57,7 @@
           "text": "Describe the issue here."
         }
       ]
-    }, 
+    },
     {
       "id": "learn_more_text",
       "order": 6,
