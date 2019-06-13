@@ -18,6 +18,6 @@
 
 To delete an ExpressRoute Direct resource, delete any associated ExpressRoute Circuits and peerings.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Deleting an ExpressRoute Circuit](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#delete)
