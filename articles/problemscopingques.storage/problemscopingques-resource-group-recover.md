@@ -36,7 +36,7 @@
             "id": "recovery_type",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Do you want us to attempt to recover storage accounts in this resource group?",
+            "displayLabel": "We can only attempt to recover deleted stroage accounts in this Resource Group. Do you want us to attempt to recover them?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
