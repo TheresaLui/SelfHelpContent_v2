@@ -18,7 +18,7 @@
 
 You can use ExpressRoute Direct to connect directly into Microsoft’s global network locations strategically distributed across the world.
 
-To view available port inventory and create an ExpressRoute Direct resource, request to allow ExpressRoute Direct on your Azure subscription. Send an email to ExpressRouteDirect@microsoft.com, including the following information
+To view available port inventory and create an ExpressRoute Direct resource, request to allow ExpressRoute Direct on your Azure subscription. Send an email to ExpressRouteDirect@microsoft.com, including the following information:
 
 * Scenarios you are looking to accomplish with ExpressRoute Direct<br>
 * Location preferences<br>
