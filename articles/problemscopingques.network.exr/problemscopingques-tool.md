@@ -40,14 +40,14 @@
         }
       ],
       "required": false
-    }, 
+    },
     {
       "id": "problem_start_time",
       "order": 2,
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem begin?",
       "required": true
-    }, 
+    },
     {
       "id": "problem_description",
       "order": 5,
@@ -63,7 +63,7 @@
           "text": "Describe the issue here."
         }
       ]
-    }, 
+    },
     {
       "id": "learn_more_text",
       "order": 6,
