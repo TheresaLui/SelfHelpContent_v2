@@ -17,7 +17,7 @@
 
 # Unable to create storage account with the same name as recently deleted account
 
-Azure storage requires that [storage account name must be unique](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors#cause), so a new storage account with the same name cannot be created until after the old account has been cleaned up in the backend. You can either create a new storage account with a different name now or retry account creation with the same name 14 days after deletion of the previous account. 
+Azure storage requires that [storage account names must be unique](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors#cause), so a new storage account with the same name cannot be created until after the old account has been cleaned up in the backend. You can either create a new storage account with a different name now or retry account creation with the same name at a later time. It can take up to 14 days after deletion of the previous account for the backend cleanup to complted. 
 
 ## **Recommended Documents**
 - [Storage account name must be unique](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors#cause)
