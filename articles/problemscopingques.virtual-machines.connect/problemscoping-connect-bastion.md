@@ -1,14 +1,14 @@
 <properties
-                pageTitle="Cannot Connect to My Virtual Machine using Azure Bastion"
-                description="Cannot Connect to My Virtual Machine using Azure Bastion"
-                authors="timbasham"
-                ms.author="tibasham"
-                selfHelpType="problemScopingQuestions"
-                supportTopicIds="32663940"
-                productPesIds="14749"
-                cloudEnvironments="Public"
-                schemaVersion="1"
-                articleId="a5907259-3329-4b6f-8a82-310965520f9d"
+    pageTitle="Cannot Connect to My Virtual Machine using Azure Bastion"
+    description="Cannot Connect to My Virtual Machine using Azure Bastion"
+    authors="timbasham"
+    ms.author="tibasham"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32663940"
+    productPesIds="14749"
+    cloudEnvironments="Public"
+    schemaVersion="1"
+    articleId="a5907259-3329-4b6f-8a82-310965520f9d"
 />
 # Connect to a VM using Azure Bastion
 ---
