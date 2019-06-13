@@ -103,8 +103,8 @@
                     "text": "It is slower when connection is from VNET"
                 },
                 {
-                    "value": "It is slower than server on Non Azure Environment",
-                    "text": "It is slower than server on Non Azure Environment"
+                    "value": "Non-Azure",
+                    "text": "It is slower than server on Non-Azure cloud Environment"
                 },
                 {
                     "value": "It is slower than database server running on VM/Locally",
@@ -118,16 +118,42 @@
             "required": true
         },
         {
-            "id": "other_point_of_comparison",
+            "id": "cloud_as_point_of_comparison",
             "order": 7,
-            "visibility": "point_of_comparison == Other",
+            "visibility": "point_of_comparison == Non-Azure",
+            "controlType": "textbox",
+            "displayLabel": "Please indicate to which cloud environment you are comparing:",
+            "required": false
+        },
+        {
+            "id": "cloud_as_point_of_comparison_config",
+            "order": 8,
+            "visibility": "point_of_comparison == Non-Azure",
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is your database configuration in the corresponding environment?",
+            "watermarkText": "CPU, RAM, Storage type, etc",
+            "required": false
+        },
+        {
+            "id": "cloud_as_point_of_comparison_app",
+            "order": 9,
+            "visibility": "point_of_comparison == Non-Azure",
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is your application VM configuration in the corresponding environment?",
+            "watermarkText": "CPU, RAM, Storage type, etc",
+            "required": false
+        },
+        {
+            "id": "other_point_of_comparison",
+            "order": 10,
+            "visibility": "point_of_comparison == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please specify your point of comparison:",
             "required": false
         },
         {
             "id": "workload",
-            "order": 8,
+            "order": 11,
             "controlType": "dropdown",
             "displayLabel": "Is the workload the same as your point of comparison?",
             "dropdownOptions": [
@@ -144,21 +170,21 @@
         },
         {
             "id": "measurement_method",
-            "order": 9,
+            "order": 12,
             "controlType": "textbox",
             "displayLabel": "What tools are you using to measure your performance?",
             "required": false
         },
         {
             "id": "measurement",
-            "order": 10,
+            "order": 13,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide your performance/latency numbers:",
             "required": false
         },
         {
             "id": "login_happens_at",
-            "order": 11,
+            "order": 14,
             "controlType": "dropdown",
             "displayLabel": "Login latency happens at:",
             "dropdownOptions": [
@@ -179,7 +205,7 @@
         },
         {
             "id": "problem_description",
-            "order": 12,
+            "order": 15,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",
