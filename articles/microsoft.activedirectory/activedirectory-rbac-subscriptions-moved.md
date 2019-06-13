@@ -6,7 +6,7 @@
     authors="rolyon"
     ms.author="rolyon"
     displayOrder=""
-    articleId=""
+    articleId="6a973647-50e6-4954-ace9-5b1844cf0657"
     diagnosticScenario=""
     selfHelpType="generic"
     supportTopicIds="32615428"
@@ -15,15 +15,15 @@
     cloudEnvironments="public"
 />
 
-# Recover RBAC when subscriptions are moved across tenants
+# Azure Active Directory: Recover RBAC when subscriptions are moved across tenants
 
 ## **Recommended Steps**
 
-* If you need steps for how to transfer a subscription to a different tenant, see [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer).
-* If you transfer a subscription to a different tenant and you don't see your role assignments, you must re-create the role assignments in the target tenant. All role assignments are permanently deleted from the source tenant and are not migrated to the target tenant.
-* If you are a Global Administration and you don't have access to a subscription, use the Access management for Azure resources switch to temporarily [elevate your access](https://docs.microsoft.com/azure/role-based-access-control/elevate-access-global-admin) to get access to the subscription.
+* If you need steps for how to transfer a subscription to a different Azure AD tenant, see [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
+* If you transfer a subscription to a different Azure AD tenant, all role assignments are permanently deleted from the source Azure AD tenant and are not migrated to the target Azure AD tenant. You must re-create your role assignments in the target tenant.
+* If you are a Azure AD Global Administrator and you don't have access to a subscription after it was moved between tenants, use the **Access management for Azure resources** toggle to temporarily [elevate your access](https://docs.microsoft.com/azure/role-based-access-control/elevate-access-global-admin) to get access to the subscription
 
 ## **Recommended Documents**
 
 - [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
-- [Elevate access for a Global Administrator in Azure Active Directory](https://docs.microsoft.com/azure/role-based-access-control/elevate-access-global-admin)
+- [Elevate access to manage all Azure subscriptions and management groups](https://docs.microsoft.com/azure/role-based-access-control/elevate-access-global-admin)

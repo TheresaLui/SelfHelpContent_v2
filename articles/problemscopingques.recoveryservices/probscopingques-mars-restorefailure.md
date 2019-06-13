@@ -32,7 +32,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",
@@ -40,14 +40,15 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text from failed job details dialog in Microsoft Azure Backup agent",
-            "required": true
+            "required": false
         },
         {
             "id": "get_machineid",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "watermarkText": "Paste MachineId here",
             "required": false
         },
         {
@@ -55,7 +56,8 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "watermarkText": "Paste ResourceId here",
             "required": false
         },
         {
@@ -139,14 +141,8 @@
             "required": true
         },
         {
-            "id": "learn_more_text",
-            "order": 10,
-            "controlType": "infoblock",
-            "content": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
-        },
-        {
             "id": "problem_description",
-            "order": 11,
+            "order": 10,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -154,6 +150,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

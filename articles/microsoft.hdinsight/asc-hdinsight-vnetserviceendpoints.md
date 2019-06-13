@@ -10,7 +10,7 @@
     articleId="Hdi_Crud_MisconfiguredVnetServiceEndpoints"
     diagnosticScenario="HDInsightVNetServiceEndpointsInsight"
     selfHelpType="rca"
-    supportTopicIds="32629129"
+    supportTopicIds="32629129, 32636507"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

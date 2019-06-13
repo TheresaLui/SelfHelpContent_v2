@@ -13,7 +13,9 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "I received an allocation failure",
     "fileAttachmentHint": "",
     "formElements": [
@@ -45,12 +47,12 @@
         {
             "id": "correlationId",
             "order": 2,
-            "visibility": "resourceGroup != null",
+            "visibility": "resourceGroup != null && resourceGroup != dont_know_answer",
             "controlType": "dropdown",
             "displayLabel": "Select failed deployment",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceGroup",
-                "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroup}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups/{replaceWithParentValue}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
                 "jTokenPath": "value",
                 "textProperty": "properties.timestamp,properties.parameters.location.value,name",
                 "textTemplate": "Time:{properties.timestamp} Region:{properties.parameters.location.value} Name:{name}",
@@ -59,7 +61,8 @@
                     "value": "Deployment failure not found.",
                     "text": "Deployment failure not found."
                 },
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "valuePropertyRegex": "[^/]+$"
             },
             "dropdownOptions": [
                 {
@@ -159,6 +162,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

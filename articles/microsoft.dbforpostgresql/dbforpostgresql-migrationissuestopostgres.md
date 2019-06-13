@@ -7,7 +7,7 @@
     ms.author="jtoland,ankam"
     displayOrder="201"
     selfHelpType="resource"
-    supportTopicIds=" 32628452, 32628446"
+    supportTopicIds="32639991"
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"

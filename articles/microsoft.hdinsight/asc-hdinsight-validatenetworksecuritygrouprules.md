@@ -10,7 +10,7 @@
     articleId="Hdi_Crud_InvalidNetworkSecurityGroupRules"
     diagnosticScenario="HDInsightValidateNetworkSecurityGroupRulesInsight"
     selfHelpType="rca"
-    supportTopicIds="32629159"
+    supportTopicIds="32629159, 32636507"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

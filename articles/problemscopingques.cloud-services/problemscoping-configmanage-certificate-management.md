@@ -13,54 +13,61 @@
 # Config and Management
 ---
 {
-                "resourceRequired": true,
-                "title": "Certificate management",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "subscriptionRequired": true,
+    "resourceRequired": true,
+    "title": "Certificate management",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "certificate_kind",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Which kind of certificates you are referring to?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                    "id": "scaling_error",
-                    "order": 1,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What is the error you received?",
-                    "required": false,
-                    "useAsAdditionalDetails": false
-                },{
-                    "id": "cert_resource_info",
-                    "order": 2,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "Please provide all the information regarding the certificate and the resource.",
-                    "required": false,
-                    "useAsAdditionalDetails": false
-                },{
-                    "id": "certificate_kind",
-                    "order": 3,
-                    "controlType": "dropdown",
-                    "displayLabel": "Which kind of certificates you are referring to?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                      {
-                        "value": "Service certificates(used for SSL)",
-                        "text": "Service certificates(used for SSL)"
-                      },{
-                        "value": "Management certificates(used for deployment)",
-                        "text": "Management certificates(used for deployment)"
-                      }
-                      ],
-                      "required": false
-                  },{
-                  "id": "problem_description",
-                  "order": 4,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 5,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
+                    "value": "Service certificates(used for SSL)",
+                    "text": "Service certificates(used for SSL)"
+                },
+                {
+                    "value": "Management certificates(used for deployment)",
+                    "text": "Management certificates(used for deployment)"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "scaling_error",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error you received?",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "cert_resource_info",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide all the information regarding the certificate and the resource.",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

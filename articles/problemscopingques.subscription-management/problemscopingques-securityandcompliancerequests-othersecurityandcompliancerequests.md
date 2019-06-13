@@ -19,34 +19,36 @@
     "title": "Other Security and Compliance Requests",
     "fileAttachmentHint": "",
     "formElements": [
-      {
-      "id": "problem_start_time",
-      "visibility": null,
-      "order": 2,
-      "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-  },
-  {
-			"id": "problem_description",
-			"order": 1,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the following:",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Brief description of the issue"
-				}
-			]
-		}
-	]
+        {
+            "id": "problem_start_time",
+            "visibility": null,
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the following:",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Brief description of the issue"
+                }
+            ]
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

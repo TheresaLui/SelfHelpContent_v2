@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Change ownership of my subscription",
     "fileAttachmentHint": "If you are **not** the Account Admin, provide written (email) permission from the current  Account Admin as an attachment to the case",
     "formElements": [
@@ -25,11 +26,39 @@
             "required": true
         },
         {
+            "id": "SubscriptionId",
+            "order": 13,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Subscription ID",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions?api-version=2014-04-01",
+                "jTokenPath": "value",
+                "textProperty": "displayName,subscriptionId",
+                "textTemplate": "{displayName} ({subscriptionId})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not in the list"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
             "id": "subscriptionid_details",
-            "order": 2,
+            "order": 14,
+            "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
-            "displayLabel": "Subscription ID that needs to be moved",
-            "watermarkText": "Provide the Subscription ID that needs to be moved",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "Provide your Subscription id",
             "required": false
         },
         {
@@ -102,7 +131,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details of error for the failure",
-            "required": true,
+            "required": false,
             "watermarkText": "Provide details on the error for the failure "
         },
         {
@@ -155,12 +184,13 @@
             "displayLabel": "Additional Details (if any)",
             "watermarkText": "Provide any additional details about the issue",
             "required": true,
-	    "hints": [
+            "hints": [
                 {
                     "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

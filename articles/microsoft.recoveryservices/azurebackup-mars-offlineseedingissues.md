@@ -18,11 +18,11 @@
 
 ## **Recommended Documents**
 
-- [Supported configurations](https://aka.ms/AB-offlineSeeding-Supportedconfig) for offline backup using Microsoft Azure Recovery Services agent<br>
-- [Prerequisites](https://aka.ms/AB-AA4dp4z) for offline backup using Microsoft Azure Recovery Services agent<br>
+- [Supported configurations](https://aka.ms/AB-offlineSeeding-Supportedconfig) and [Prerequisites](https://aka.ms/AB-AA4dp4z) for offline backup using Microsoft Azure Recovery Services agent<br>
 - [Configure offline backup using Microsoft Azure Recovery Services agent](https://aka.ms/AB-OfflineSeeding-configuration)
 
 **Note:**
 
 - If the source computer is a virtual machine, then the copy computer must be a different physical server or client machine from the source computer<br>
-- Ensure that the carrier information and tracking number are updated within two weeks of Azure import job creation. Failure to verify this information within two weeks can result in the job being deleted, and drives not being processed
+- Ensure that the carrier information and tracking number are updated within two weeks of Azure import job creation. Failure to verify this information within two weeks can result in the job being deleted, and drives not being processed<br>
+- Ensure that Azure PowerShell version 3.7.0 is installed on both source and copy computer before you begin offline backup operation

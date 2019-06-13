@@ -5,7 +5,7 @@
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32612186, 32612187, 32612188, 32612189, 32612190, 32612191, 32612192, 32612193, 32612194, 32612195, 32612196, 32612198, 32612199, 32612200, 32612201, 32612202, 32612203, 32612204, 32612206, 32612207, 32612210"
+	supportTopicIds="32612186, 32612188, 32612189, 32612190, 32612191, 32612192, 32612193, 32612194, 32612195, 32612196, 32612198, 32612199, 32612200, 32612201, 32612202, 32612203, 32612204, 32612206, 32612207, 32612210"
 	productPesIds="16432"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -81,7 +81,7 @@
             "controlType": "textbox",
             "displayLabel": "Workspace ID if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
-            "required": true
+            "required": false
         },
         {
             "id": "cluster_url",
@@ -89,7 +89,7 @@
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster, Notebook, and Job URL",
-            "required": true
+            "required": false
         },
         {
             "id": "workload_submission_method",
@@ -187,6 +187,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/azure-databricks/'>Learn more</a> about Azure Databricks"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

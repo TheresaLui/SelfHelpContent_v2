@@ -7,7 +7,7 @@
 	authors="arluca"
 	ms.author="arluca"
 	displayOrder="1"
-	articleId="user-assigned managed identity integration with App Service/Function"
+	articleId="user-assigned managed identity integration with App Service-Function"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds="32632154"

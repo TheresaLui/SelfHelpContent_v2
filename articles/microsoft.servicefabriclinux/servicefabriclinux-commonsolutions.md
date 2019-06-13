@@ -7,7 +7,7 @@
   ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32589163,32589164,32589176,32589177,32589178,32589182,32589186,32589188,32589194,32589165,32589173,32589174,32589175,32589179,32589187,32589189,32589190,32589191,32589196,32589166,32589167,32589169,32589170,32589180,32589181,32589184,32589185,32589193,32589195,32598337,32589168,32589171,32589172,32589183,32589192"	
+supportTopicIds="32589163,32589164,32589176,32589177,32589178,32589182,32589186,32589188,32589194,32589165,32589173,32589174,32589175,32589179,32589187,32589189,32589190,32589191,32589196,32589166,32589167,32589169,32589170,32589180,32589181,32589184,32589185,32589193,32589195,32598337,32589168,32589171,32589172,32589183,32589192"	
 	resourceTags=""
 	productPesIds="16147"
 	cloudEnvironments="public"
@@ -16,15 +16,9 @@
 
 # Service Fabric Linux Common Solutions
 
-## Active Known Issue with Service Fabric Linux Clusters 
-A recent update introduced an issue for Service Fabric Linux clusters where Ubuntu based Service Fabric nodes will be unable to do core management operations unless the dependent package is downgraded to the previous version (2.3.4-4). 
+## Resolution to previous ImageBuilder process issue for Service Fabric Linux clusters
 
-**Impacted Customers:** This will affect all customers running Azure Service Fabric Linux clusters.
-
-## **Recommended Steps**
-A script is available to help mitigate the issue. This needs to be applied as a Custom Script Extension to your ARM (Azure Resource Manager) template.
-
-For detailed mitigation steps and support resources please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/02/07/known-issue-for-service-fabric-linux-clusters/). 
+As of Service Fabric runtime version 6.4.644 for Linux clusters, a previous issue with the ImageBuilder process has been resolved. This issue had required the addition of a custom script extension to the Azure Resource Manager template. This custom script extension can now be removed for clusters running Service Fabric runtime version 6.4.6444+. Please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/04/17/resolution-to-previous-imagebuilder-process-issue-for-service-fabric-linux-clusters/) for more information.
 
 ## **Recommended Documents**
 

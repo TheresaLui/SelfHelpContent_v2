@@ -30,6 +30,18 @@ You can change the payment method for your subscription to invoice by submitting
 
 Learn more:  [Pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice) <br>
 
+### **Add a new payment instrument**
+
+1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
+2. Search on **Cost Management + Billing**
+3. Select a Subscription you'd like to add the credit or debit card to
+4. Select **Payment methods**
+5. In the top-left corner, select “+” to add a card. A credit card form will appear on the right
+6. Enter credit or debit card details
+7. To make this card your active payment method, check the box next to Make this my active payment method above the form. This card will become the active payment instrument for all subscriptions using the same card as the selected subscription. Select **Next**
+
+Learn more : [Add, update or remove a payment instrument](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
+
 ## **Recommended Documents**
 
 * [Request/Download/View your Azure billing invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)

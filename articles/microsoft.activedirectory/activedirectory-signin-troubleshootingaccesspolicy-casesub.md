@@ -11,10 +11,11 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- 	articleId="484b506b-cd37-45aa-b0eb-ea11c390a70b"
+    articleId="484b506b-cd37-45aa-b0eb-ea11c390a70b"
 />
 
 # Troubleshooting conditional access policies in Azure Active Directory
+To view a short video, see [Enable Azure Active Directory Conditional Access to secure user access](https://www.youtube.com/watch?time_continue=4&v=eLAYBwjCGoA).
 
 ## **Recommended Steps**
 
@@ -22,7 +23,9 @@ Now that you have configured your conditional access policy, you probably want t
 
 ## **Recommended Documents**
 
+* [Conditional Access overview](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 * [Best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
 * [Conditions in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/conditions)
 * [Controls in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/controls)
 * [Locations in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition)
+* [How to: Block legacy authentication to Azure AD with conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
