@@ -19,7 +19,7 @@
 # Error UserErrorVmVaultLocationMismatch
 
 <!--issueDescription-->
-## We identified that your backup operation failed because the VM is in Failed state. For successful backup the VM state should be Running, Stopped, or Stopped (deallocated)..
+We identified that your backup operation failed because the VM is in Failed state. For successful backup the VM state should be Running, Stopped, or Stopped (deallocated)..
 <!--/issueDescription-->
 
 ## **Recommended Document**
