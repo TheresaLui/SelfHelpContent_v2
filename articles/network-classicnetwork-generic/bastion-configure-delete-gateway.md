@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [How to delete an Azure Resource](https://docs.microsoft.com/en-us/azure/azure-resource-manager/manage-resources-portal#delete-resources)
+* [How to delete an Azure Resource](https://docs.microsoft.com/azure/azure-resource-manager/manage-resources-portal#delete-resources)
