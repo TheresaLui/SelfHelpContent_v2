@@ -7,7 +7,7 @@
 	authors="subbu-kandhaswamy, VMMicrosoft"
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
-	articleId="MismatchedSLOs_AC7025F5-55EA-4DB5-918C-155E13653C30"
+	articleId="MismatchedSlo_1E07C5D3-62B6-4DD5-A96D-656DCF269C50"
 	diagnosticScenario="crc_sqldb_connectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414"
