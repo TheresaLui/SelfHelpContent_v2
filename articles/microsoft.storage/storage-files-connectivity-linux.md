@@ -1,17 +1,17 @@
 ﻿<properties
-	pageTitle="Troubleshooting Azure File dropped or terminated connections"
-	description="Troubleshooting Azure File dropped or terminated connections problems"
+	pageTitle="Troubleshooting Azure File connectivity issue on Linux"
+	description="Troubleshooting Azure File connectivity issue on Linux"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="jeffpatt24"
 	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602759"
+	supportTopicIds="32642179,32642180"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
-	articleId="0fe3cd1e-3520-4156-8657-b26992ff7597"
+	articleId="7ED212B9-8B43-4F72-9904-6BA274E6FC22"
 />
 
 # Troubleshooting Azure File: Dropped or Terminated Connections
@@ -21,13 +21,6 @@
 - Run [troubleshooting script for mounting errors](https://support.microsoft.com/help/4022301/troubleshooter-for-azure-files-shares)<br>
 - Check if you hit [quota error when trying to open a file](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#error-1816-not-enough-quota-is-available-to-process-this-command-when-you-copy-to-an-azure-file-share)<br>
 
-**Windows Client Problems**
-
-- [Error 5 when attempting to mount an Azure File Share](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#error-5-when-you-mount-an-azure-file-share)<br>
-- [Error 53, Error 67, or Error 87 when attempting to mount an Azure File Share](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#error-53-error-67-or-error-87-when-you-mount-or-unmount-an-azure-file-share)<br>
-- [Net use was successful but I don’t see the Azure file share mounted in Windows Explorer](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#no-folder-with-a-drive-letter-in-my-computer)<br>
-- [My storage account contains "/" and the net use command fails](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#net-use-command-fails-if-the-storage-account-contains-a-forward-slash)<br>
-- [My application/service cannot access mounted Azure Files drive](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#application-or-service-cannot-access-a-mounted-azure-files-drive)<br>
 
 **Linux Client Problems**
 
