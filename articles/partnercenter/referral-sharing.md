@@ -18,6 +18,6 @@
 />
 # Co-sell referral sharing
 
-## Recommended Documents
+## **Recommended Documents**
 
 [Get Co-Sell ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
