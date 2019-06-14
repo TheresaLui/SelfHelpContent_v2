@@ -18,7 +18,7 @@
 />
 # Referral user access and tool issues
 
-## Recommended Documents
+## **Recommended Documents**
 
 [Get Co-Sell ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
 [How to get access to view and manage referrals](https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals)
