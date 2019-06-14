@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-performance-other"
+	articleId="problemscopingques-performance-other-bastion"
 	pageTitle="Have other performance issues while using my RDP or SSH session"
 	description="Have other performance issues while using my RDP or SSH session"
 	authors="spacest"
