@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [How to delete an Azure Resource](https://aka.ms/bastionhost/delete)
+* [How to delete an Azure Resource](https://docs.microsoft.com/en-us/azure/azure-resource-manager/manage-resources-portal#delete-resources)
