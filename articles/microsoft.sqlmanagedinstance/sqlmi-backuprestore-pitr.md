@@ -21,14 +21,15 @@ If you are experiencing some issues with automated backups or point-in-time rest
 
 ## **Recommended Steps**
 
-### Restore database (point is time restore)
+### Restore database (point in time restore)
 
-- Find a database in the Azure portal and check the `earliest restore time value`. Check is the point-in time that you used after this time.
+- Find a database in the Azure portal and check the **earliest restore time value**. Check is the point-in time that you used after this time.
 - If you cannot connect to the database that has completed restore, you might need to wait some additional time. The restored database must be registered in Azure, and in Business Critical tier, it should complete replication/seeding to all secondary replicas.
+- Make sure that the account that is performing point-in-time restore has **Write** permission on Managed Instance and **Read** permission on subscription and resource group. The recommended role is [SQL Managed Instance Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-managed-instance-contributor)
 
 ### Automatic Backups
 
-- If you want to monitor automatic backup requests, create an XEvent session that traces `sqlserver.backup_restore_progress_trace` event.
+- If you want to monitor automatic backup requests, create an XEvent session that traces **sqlserver.backup_restore_progress_trace** event.
 - If you want to track the progress of the ongoing automatic backup use [T-SQL to query Dynamic Management views](https://docs.microsoft.com/sql/t-sql/statements/restore-statements-transact-sql?view=azuresqldb-mi-current#restore-mi-database-progress)
 - If you cannot connect to the database that has completed restore, you might need to wait some additional time. The restored database must be registered in Azure, and in Business Critical tier, it should complete replication/seeding to all secondary replicas. 
 
