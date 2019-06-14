@@ -19,10 +19,11 @@
 # Error OperationCancelledBecauseConflictingOperationRunningUserError
 
 <!--issueDescription-->
-We have identified that backup operation was cancelled since it was conflicting with another operation running on the same database.
+We have identified that the backup operation was cancelled, as it was conflicting with another operation running on the same database.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 This issues occurs when the triggered adhoc/scheduled job is conflicting with another running operation on the database. To resolve this issue, ensure the below conditions are met:
 
 * If one Full backup is running on the database ensure another Full backup is not triggered
