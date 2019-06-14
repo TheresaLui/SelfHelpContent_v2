@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-* [Manage NSGs in Bastion](https://aka.ms/bastionhost/nsg)
-* [Manage Access Control in Bastion](https://aka.ms/bastionhost/accesscontrol) 
+* [Manage NSGs in Bastion](https://docs.microsoft.com/azure/bastion/bastion-nsg)
+* [Manage Access Control in Bastion](https://docs.microsoft.com/azure/bastion/bastion-vm-manage) 
