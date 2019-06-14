@@ -18,7 +18,7 @@
 />
 # Co-sell help and how-to 
 
-## Recommended Documents
+## **Recommended Documents**
 
 [Selling with Microsoft](https://partner.microsoft.com/reach-customers/selling-with-microsoft)
 [Get Co-Sell Ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
