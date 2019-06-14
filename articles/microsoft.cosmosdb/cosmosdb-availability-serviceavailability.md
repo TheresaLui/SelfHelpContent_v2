@@ -36,7 +36,8 @@ Use request deadlines appropriate for the service type: Shorter for latency-sens
 
 Retry failed operations:
 
-* Set [`ConnectionPolicy.RetryOptions`](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.connectionpolicy.retryoptions) for reads.
+* .NET: Set [`ConnectionPolicy.RetryOptions`](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.connectionpolicy.retryoptions) for reads.
+* Java: See [`RetryOptions`](https://azure.github.io/azure-cosmosdb-java/1.0.0/index.html?com/microsoft/azure/cosmosdb/RetryOptions.html).
 * Implement a retry loop with exponential back-off and random jitter for writes. Cosmos DB cannot retry writes automatically because they are not idempotent in general.
 
 ### Correlations
@@ -57,7 +58,7 @@ If `TransportException` is present (.NET Cosmos DB SDK 2.3 and newer), find the 
 
 If multiple server host:port pairs or multiple (partition, replica) pairs are present across different error messages, this indicates a problem with the client machine with a high degree of confidence.
 
-If multiple client machines fail to connect to a single server, this may indicate a network or service issue.
+If multiple client machines fail to connect to a single server, this may indicate a network or service issue. When filing a support ticket, include `StorePhysicalAddress`, `Request URI`, server host:port and the UTC time range of the issue in your request.
 
 ## **Recommended Documents**
 
