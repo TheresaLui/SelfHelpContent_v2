@@ -21,7 +21,8 @@ Managed Instance enables you to use a variety of DevOps tools such as Azure CLI,
 ## **Recommended Steps**
 
 - Check are you using the latest version of Azure CLI, Azure PowerShell, and SQL Server Data Tools.
-- If you are getting connection timeout, note that some of the operations are long-running. Use parameter `-AsJob` in the commands like [New-AzResourceGroupDeployment](https://docs.microsoft.com/powershell/module/az.resources/new-azresourcegroupdeployment).
+- If you are getting connection timeout, note that some of the operations are long-running. Use parameter **-AsJob** in the commands like [New-AzResourceGroupDeployment](https://docs.microsoft.com/powershell/module/az.resources/new-azresourcegroupdeployment).
+- Make sure that the account that is performing the action has the required Azure RBAC permissions. The recommendend RBAC role is [SQL Managed Instance Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-managed-instance-contributor)
 - Check are there any [known issues](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information) that are reported.
 
 ## **Recommended Documents**
