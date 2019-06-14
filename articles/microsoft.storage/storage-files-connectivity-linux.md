@@ -14,7 +14,7 @@
 	articleId="7ED212B9-8B43-4F72-9904-6BA274E6FC22"
 />
 
-# Troubleshooting Azure File: Dropped or Terminated Connections
+# Troubleshooting Azure Files: Connectivity issue on Linux
 
 ## **Recommended Steps**
 
