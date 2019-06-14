@@ -19,14 +19,15 @@
 # Error UserErrorBackupFailedAsReplicaIsNotInSynchronizingOrSynchronizedState
 
 <!--issueDescription-->
-We have identified that your log backups have failed due to current replica of the database that is not in 'Synchronizing State' or 'Synchronized State' with the other nodes of the Availability Group.
+We have identified that your log backups have failed due to a current replica of the database that is not in 'Synchronizing State' or 'Synchronized State' with the other nodes of the Availability Group.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 To resolve this issue, perform the below:
 
-1. Ensure the Secondary replica can communicate with the Primary replica.
-2. Ensure the Primary and the Secondary replicas are in either the Synchronizing state or Synchronizing state.
+1. Ensure the Secondary replica can communicate with the Primary replica
+2. Ensure the Primary and the Secondary replicas are in either the Synchronizing state or Synchronizing state
 
 ## **Recommended Document**		
-For more information refer [Back up behavior in case of Always on availability groups](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#back-up-behavior-in-case-of-always-on-availability-groups)
+
+* [Back up behavior in case of Always on availability groups](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#back-up-behavior-in-case-of-always-on-availability-groups)
