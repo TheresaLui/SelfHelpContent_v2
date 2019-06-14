@@ -23,10 +23,9 @@ We have identified that database recovery failed because some of data files that
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-During ALR (Alternate Location Recovery) when you specify the target file path for recovery. If the path specified contains data files (with extensions .mdf, .ldf and .ndf) with the same name as the ones that you are trying to restore then it the restore will fail.<br/>
-You can verify this by checking specified file name from **Advanced Configuration** blade. <br/>
-To resolve this issue change the name of the target file (with the extension .mdf, .ldf or .ndf) to prevent file name conflicts.
 
->
->[!Note]
-If renaming is not an option and you want the target files to be replaced, then choose the option ALR with overwrite.   
+During ALR (Alternate Location Recovery), you specify the target file path for recovery. If the path specified contains data files (with extensions .mdf, .ldf and .ndf) with the same name as the ones that you are trying to restore, then it the restore will fail. You can verify this by checking specified file name from **Advanced Configuration** blade. 
+
+To resolve this issue, change the name of the target file (with the extension .mdf, .ldf or .ndf) to prevent file name conflicts.
+
+**Note**: If renaming is not an option and you want the target files to be replaced, then choose the option ALR with overwrite.   
