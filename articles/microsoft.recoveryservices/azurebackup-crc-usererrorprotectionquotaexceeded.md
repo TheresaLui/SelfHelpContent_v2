@@ -23,4 +23,4 @@ We have identified that your backup operation failed because the VM protection q
 <!--/issueDescription-->
 
 ## **Recommended Document**
-To resolve this issue create a new vault and enable VM protection in this new vault. For information, refer this article {steps to create a new vault](https://docs.microsoft.com/en-us/azure/backup/backup-create-rs-vault).
+To resolve this issue create a new vault and enable VM protection in this new vault. For information, refer this article [steps to create a new vault](https://docs.microsoft.com/azure/backup/backup-create-rs-vault).
