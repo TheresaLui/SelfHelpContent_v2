@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-1. You can read product [documentation](https://docs.microsoft.com/azure/bastion/bastion-nsg) on how to manage NSGs in the Bastion deployment.<br>
-2. [Read](https://docs.microsoft.com/azure/bastion/bastion-vm-manage) how to manage access control in the Bastion deployment.
+* [Manage NSGs in Bastion](https://docs.microsoft.com/azure/bastion/bastion-nsg) 
+* [Manage Access Control in Bastion](https://docs.microsoft.com/azure/bastion/bastion-vm-manage)
