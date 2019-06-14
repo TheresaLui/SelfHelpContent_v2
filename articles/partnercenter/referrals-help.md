@@ -18,7 +18,7 @@
 />
 # Referrals help and how-to
 
-## Recommended Documents
+## **Recommended Documents**
 
 [Grow your business with referrals from Microsoft](https://docs.microsoft.com/partner-center/referrals)
 
