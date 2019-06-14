@@ -23,8 +23,9 @@ We have identified that backup operation fails due to connection issues with the
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 If the backup operation fails with this error, perform the below steps:
 
-* Check the firewall settings to see if the port 5022 (by default) allows communication between the server instances that host the Primary replica and Secondary replica.
-* Check whether the network service account has connect permission to the firewall.
-* Retry backup operation.
+* Check the firewall settings to see if the port 5022 (by default) allows communication between the server instances that host the Primary replica and Secondary replica
+* Check whether the network service account has connect permission to the firewall
+* Retry backup operation
