@@ -20,8 +20,9 @@
 
 ## **Recommended Documents**
 
-[Grow your business with referrals from Microsoft](https://docs.microsoft.com/partner-center/referrals)
+[Grow your business with referrals from Microsoft](https://docs.microsoft.com/partner-center/referrals)<br>
 
-[Create a business profile to get sales leads from Microsoft](https://docs.microsoft.com/partner-center/create-a-marketing-profile)
+[Create a business profile to get sales leads from Microsoft](https://docs.microsoft.com/partner-center/create-a-marketing-profile)<br>
 
 [Respond to Referrals](https://docs.microsoft.com/partner-center/responding-to-referrals)
+
