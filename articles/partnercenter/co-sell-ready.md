@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-[Get Co-Sell ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
+* [Get Co-Sell ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
