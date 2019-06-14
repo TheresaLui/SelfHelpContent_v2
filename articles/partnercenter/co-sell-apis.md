@@ -20,6 +20,6 @@
 
 ## **Recommended Documents**
 
-[Microsoft Partner API documentation and resources](https://docs.microsoft.com/partner/)<br>
-[Programmatically manage referrals (API)](https://docs.microsoft.com/partner/develop/referrals)
+* [Microsoft Partner API documentation and resources](https://docs.microsoft.com/partner/)<br>
+* [Programmatically manage referrals (API)](https://docs.microsoft.com/partner/develop/referrals)
 
