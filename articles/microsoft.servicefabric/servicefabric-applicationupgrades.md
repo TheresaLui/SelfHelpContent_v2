@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="c821c894-2e20-4dae-937f-7b92bb8f103e"
 />
 
 # application/upgrades

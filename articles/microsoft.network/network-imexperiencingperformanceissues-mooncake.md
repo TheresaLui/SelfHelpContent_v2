@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="applicationgateways"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="8"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="5d6f9de9-9947-4b4b-aedb-65770f874e66"
 />
 
 # I'm experiencing performance issues

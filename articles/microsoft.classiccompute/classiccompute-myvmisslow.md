@@ -4,13 +4,16 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds="32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags="windows, linux, windowsSQL, redhat"
 	productPesIds="14749,15571,15797,16454"
 	cloudEnvironments="public"
+	articleId="5b164da5-bc96-47b3-8bd9-74cfcf4db851"
+	category="performance"
+	searchTags="slow, performance, vm"
 />
 
 # My VM is slow

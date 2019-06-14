@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake"
+	articleId="7ba0fd5f-8a79-441e-8375-417e68b0b8fb"
 />
 
 # open source technologies/node.js

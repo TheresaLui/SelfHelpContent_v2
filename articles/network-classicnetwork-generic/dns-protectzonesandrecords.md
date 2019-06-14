@@ -9,6 +9,7 @@
 	resourceTags=""
 	productPesIds="15804"
 	cloudEnvironments="public"
+	articleId="d175f73b-be00-4aef-bd2a-434889f52325"
 />
 
 # protect dns zones and records

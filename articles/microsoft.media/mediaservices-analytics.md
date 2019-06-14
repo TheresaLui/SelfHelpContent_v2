@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
- />
+ 	articleId="bb420f91-7bee-4f28-9ae9-a33b0921598b"
+/>
 
 # What are the capabilities of Media Analytics?
 

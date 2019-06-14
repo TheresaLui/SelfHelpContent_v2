@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="7768381c-b727-4257-8494-45a70b884f38"
 />
 
 # exchange online

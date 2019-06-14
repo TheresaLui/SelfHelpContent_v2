@@ -2,18 +2,26 @@
          pageTitle="Scoping questions for Azure VM backup failure for windows"
          description="Scoping questions for Azure VM backup failure for windows"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553277"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
+	 articleId="8a6de52d-409f-4240-ba1c-1bd98e7cc819"
 />
-# Questions Azure VM backup failure for windows 
+# Questions Azure VM backup failure for windows
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Virtual Machine backup failure diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
@@ -21,7 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": true
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -29,17 +38,11 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 3,
-            "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, you can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
+            "required": false
         },
         {
             "id": "Select_ErrorMessage",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the error message that you are seeing?",
             "watermarkText": "Select",
@@ -75,13 +78,17 @@
                 {
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
         {
             "id": "Basic_troubleshooting_multiselect",
-            "order": 5,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have completed:",
             "dropdownOptions": [
@@ -104,20 +111,25 @@
                 {
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 6,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
             "required": false
         },
         {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -125,6 +137,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

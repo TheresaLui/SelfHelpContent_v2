@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="5a21452a-5ee9-4652-9e4d-83ed21a54a64"
 />
 
 # user experience/downloading and installing the remoteapp client app

@@ -4,13 +4,14 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="dkershaw10"
-	authoralias="dkershaw"
+	ms.author="dkershaw"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32134056"
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="2aa75ba7-654d-40ab-9636-6470513a1ec6"
 />
 
 # Troubleshooting 401 and 403 Authorization Failures

@@ -8,7 +8,8 @@
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview,enterpriseapps_singleapp"
   displayOrder="1507"
- />
+ 	articleId="090a6a54-5ba7-4d28-8eae-954ca5d4e579"
+/>
 
 # Problems configuring the Azure AD Application Proxy
 

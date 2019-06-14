@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785"
     cloudEnvironments="public"
- />
+ 	articleId="7559ea52-bf96-48ce-93d6-2e0285b1dc3d"
+/>
 
 # I can't assign licenses to a user or group
 

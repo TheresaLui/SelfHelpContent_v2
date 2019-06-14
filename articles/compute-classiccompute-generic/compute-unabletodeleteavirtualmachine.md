@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="f0b6a396-5b74-4e20-92d8-f1c4cca97d72"
 />
 
 # Management/Unable to delete a virtual machine

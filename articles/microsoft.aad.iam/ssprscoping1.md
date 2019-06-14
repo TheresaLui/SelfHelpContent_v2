@@ -2,12 +2,13 @@
     pageTitle="Administrator-initiated password reset" 
 	description="Password Management/Administrator-initiated password reset" 
 	authors="sahenry" 
+    ms.author="sahenry"
 	selfHelpType="problemScopingQuestions" 
 	supportTopicIds="32045781" 
 	productPesIds="16579" 
 	cloudEnvironments="public" 
 	schemaVersion="1"
-    articleId="5b936215-dc2e-45df-b66d-d2214ae748a5"
+    articleId="c7a169ee-063e-4acd-a61e-44f17d01a0e6"
 /> 
 # Problem with administrator-initiated password reset 
 ---
@@ -38,14 +39,14 @@
             "visibility": null,
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "What is the username of the user whose password the admin is trying to reset?",
+            "displayLabel": "Which user is experiencing this problem?",
             "content": null,
             "watermarkText": "For example 'joe@contoso.com'.",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -79,7 +80,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
@@ -91,6 +92,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

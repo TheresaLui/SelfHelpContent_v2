@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="88585c89-1fde-42c4-913d-98c9f05de322"
 />
 
 # Setup help for Azure EA

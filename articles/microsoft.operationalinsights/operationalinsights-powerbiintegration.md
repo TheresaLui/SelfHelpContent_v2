@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="3fef1dca-387b-46d9-aa85-214b5f32460a"
 />
 
 # powerbiintegration

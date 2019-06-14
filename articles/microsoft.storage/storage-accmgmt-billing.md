@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="ca6bff12-656d-46e3-b5ec-02f3626e3645"
 />
 
 # How does Azure storage billing works

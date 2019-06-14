@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="d5d92d3f-4dad-4d61-8547-d3e6f54d3150"
 />
 
 # Why does Cost Management have different numbers than my invoice?

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16454,15797"
 	cloudEnvironments="public"
+	articleId="46b75dfc-0e0c-4be1-b60d-bf258b33403c"
 />
 
 # Configuration and Setup/Network

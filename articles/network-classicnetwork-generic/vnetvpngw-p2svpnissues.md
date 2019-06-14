@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="fbbd16a1-4abf-48c3-a9ca-7834280dc5ae"
 />
 
 # p2s vpn issues

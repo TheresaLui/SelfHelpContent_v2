@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="expressroutecircuits"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="10"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="39af1404-9dae-4138-aeb3-31b6686b804c"
 />
 
 # I need help with cross-subscription connectivity (for Circuit User)

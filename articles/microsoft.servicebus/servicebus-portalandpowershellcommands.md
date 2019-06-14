@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="6b328246-deba-4f73-8ae9-e06ada455885"
 />
 
 # portal and powershell commands
