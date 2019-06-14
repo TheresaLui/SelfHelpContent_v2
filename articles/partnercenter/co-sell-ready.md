@@ -18,6 +18,6 @@
 />
 # Co-sell deal registration, validation, and review
 
-## Recommended Documents
+## **Recommended Documents**
 
 [Get Co-Sell ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
