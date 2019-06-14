@@ -25,7 +25,7 @@ Try some of the following steps to troubleshoot the issue:
 - Make sure that the parameters that you provided to the script are correct (especially a name of the database and the time when it is dropped). Note that dropped datetime is in UTC time zone.
 - If you are using [PowerShell script](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Restore-dropped-database-on-Azure-SQL-Managed-Instance/ba-p/386285) to take the dropped time, not that this time might not be accurate and can be up to 5 min after the actual drop time. Adjust the drop time if the restore fails.
 - Make sure that you can restore the database on Managed Instance, and that you don't have some limit related to storage size or [number of files in General purpose tier](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Reaching-Azure-disk-storage-limit-on-General-Purpose-Azure-SQL/ba-p/386234).
-- Make sure that the account that is performing point-in-time restore has **Write** permission on Managed Instance and **Read** permission on subscription and reosurce group. The recommendend role is [SQL Managed Instance Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-managed-instance-contributor).
+- Make sure that the account that is performing point-in-time restore has **Write** permission on Managed Instance and **Read** permission on subscription and resource group. The recommended role is [SQL Managed Instance Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-managed-instance-contributor).
 
 ## **Recommended Documents**
 
