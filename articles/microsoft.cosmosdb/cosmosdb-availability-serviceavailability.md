@@ -60,8 +60,6 @@ If multiple server host:port pairs or multiple (partition, replica) pairs are pr
 
 If multiple client machines fail to connect to a single server, this may indicate a network or service issue. When filing a support ticket, include `StorePhysicalAddress`, `Request URI`, server host:port and the UTC time range of the issue in your request.
 
-## **Recommended Documents**
+### Client Runtime Versions
 
-* [Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
-* [Performance tips for Azure Cosmos DB and Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java)
-* [Performance tips for Azure Cosmos DB and Async Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java)
+We recommend keeping up with the latest version of the client SDK. Newer versions are frequently more transparent operationally and have the latest bug fixes. If running on the latest SDK is not possible, we recommend being on a recent enough SDK (at most 2-3 minor versions behind). We recommend against running on significantly older clients.
