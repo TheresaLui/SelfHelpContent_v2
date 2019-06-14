@@ -25,9 +25,9 @@ We identified that your restore operation failed because the Storage Account spe
 ## **Recommended Steps**
 To resolve this issue, perform the below:
 
-* Ensure the storage account specified for restore operation exists until restore operation is completed.
-* If the specified storage account is deleted then use a different storage account and retry the operation.
+* Ensure the storage account specified for restore operation exists until restore operation is completed
+* If the specified storage account is deleted then use a different storage account and retry the operation
 
 ## **Recommended Document**
 
-For more information, refer the storage account [article](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#storage-accounts)
+* [Storage account backups](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#storage-accounts)
