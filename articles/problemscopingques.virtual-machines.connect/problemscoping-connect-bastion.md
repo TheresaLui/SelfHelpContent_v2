@@ -13,6 +13,7 @@
 # Connect to a VM using Azure Bastion
 ---
 {
+    "$schema": "SelfHelpContent"
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Failure to connect to the VM using Azure Bastion",
@@ -279,7 +280,6 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]   
 }
 ---
