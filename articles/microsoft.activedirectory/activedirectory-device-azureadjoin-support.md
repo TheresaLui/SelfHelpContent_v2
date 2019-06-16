@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="14785,16578"
     cloudEnvironments="public"
+	articleId="8e507143-2943-404b-ada1-0ce1df865cc2"
 />
 
 # Problems with Azure AD Join

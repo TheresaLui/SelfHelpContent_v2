@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="7583d172-75ed-419c-ae42-f8bf132e9472"
 />
 
 # onedrive for business

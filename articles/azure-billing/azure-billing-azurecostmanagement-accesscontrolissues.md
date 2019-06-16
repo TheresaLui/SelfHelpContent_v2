@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="9832c7a3-a77c-4a30-8c2c-4e5557b57d6c"
 />
 
 # Access Control Issues

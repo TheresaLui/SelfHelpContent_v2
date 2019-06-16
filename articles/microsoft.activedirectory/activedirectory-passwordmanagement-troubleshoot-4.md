@@ -8,7 +8,8 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
+ 	articleId="8e239995-834a-4f64-afbb-d1c82b40d1ca"
+/>
 # I want to look at an event log to troubleshoot password writeback
 
 ## **Recommended steps**

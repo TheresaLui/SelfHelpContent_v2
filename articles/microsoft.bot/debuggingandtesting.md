@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public"
+	articleId="7a27c603-3595-4a71-9fc3-f48c598f4633"
 />
 
 # Debugging and Testing

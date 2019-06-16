@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="e7e352e0-2c2f-4945-9646-fbcd5a021341"
 />
 
 # Graph queries are not responsive enough

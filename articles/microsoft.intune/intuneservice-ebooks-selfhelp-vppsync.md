@@ -10,6 +10,7 @@
 	resourceTags="ebooks_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="1d88efbe-e72f-4758-b1ba-04cbe782323a"
 />
 
 # My e-book is not showing up in the Intune portal.

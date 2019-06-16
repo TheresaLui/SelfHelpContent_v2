@@ -4,13 +4,14 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="kasparks,passaree"
-    authoralias="kasparks,passap"
+    ms.author="kasparks,passap"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds="15629"
     cloudEnvironments="MoonCake"
+	articleId="0c7b6a64-35e7-467e-9ee7-cfdc6ecc3614"
 />
 
 # My storage service is slow

@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="917e26d0-971a-44b3-9c12-da53dacc5c4c"
 />
 
 # How to Import Existing Keys into a Key Vault

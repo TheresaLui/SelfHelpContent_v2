@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="10507698-2133-4fc7-b3b0-ce77f4be285e"
 />
 
 # Setup help for Azure Web Direct

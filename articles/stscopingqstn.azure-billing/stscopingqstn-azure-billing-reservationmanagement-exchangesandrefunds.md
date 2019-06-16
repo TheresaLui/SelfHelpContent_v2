@@ -6,6 +6,7 @@
 	supportTopicIds="32593227,32593228,32593229"
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="15631be2-164e-482a-a368-b26aa61278ec"
 />
 # Exchanges and Refunds
 * **Type of Reservation** : SUSE Linux, SQL Database, Virtual Machines RI <br>

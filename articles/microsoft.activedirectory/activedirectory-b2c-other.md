@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16580"
 	cloudEnvironments="public"
+	articleId="a6e46422-dbda-428a-a1c1-6d17c0353f5b"
 />
 
 # Business to Consumer (B2C)

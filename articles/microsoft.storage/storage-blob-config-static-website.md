@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="9b2a8734-2db5-4b2b-899f-982f2edf3654"
 />
 
 # How to configure a Static Website

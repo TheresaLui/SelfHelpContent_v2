@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="08ef2177-57e9-42a5-88e0-d1be15db9350"
 />
 
 # worker role (paas)/development/visual studio, SDK and emulators

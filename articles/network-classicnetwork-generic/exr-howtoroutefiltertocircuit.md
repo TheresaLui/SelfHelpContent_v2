@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="fbf9f72b-8d40-4276-9010-107d20a39c5b"
 />
 
 # How to attach route filter to a circuit

@@ -10,6 +10,7 @@
 	resourceTags="servicefabric"
 	productPesIds=""
 	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"	 
+	articleId="0f879396-3c1b-411b-92ba-c0d6ce01b974"
 />
 
 # Errors deploying a service 

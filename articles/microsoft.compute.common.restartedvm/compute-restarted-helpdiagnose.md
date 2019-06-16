@@ -4,20 +4,21 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32628287"
+	supportTopicIds="32593740,32628269,32628280,32628287"
 	resourceTags=""
-	productPesIds="14749"
+	productPesIds="14749,14745"
 	cloudEnvironments="public"
+	articleId="1052989d-6417-4985-b4af-0ffdb63302b9"
 />
 
 # Help diagnose my VM restart issue
 
-4 out of 5 customers resolved their VM restart issue using the below steps.<br>
+4 out of 5 customers resolved their VM restart issue using the guides listed below.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>

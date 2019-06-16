@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="7352da63-29a0-4f50-a0c7-c47443b12d76"
 />
 
 # Azure Cosmos DB Cassandra API tools

@@ -10,6 +10,7 @@
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="public"
+	articleId="621de367-5f63-4e65-b93e-b86ea33ffc7a"
 />
 
 # Problems enabling or using Change Tracking and Inventory

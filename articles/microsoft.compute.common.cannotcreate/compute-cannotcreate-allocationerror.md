@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628252,32628253"
 	resourceTags=""
-	productPesIds="14749,15571,15797,16454"
+	productPesIds="14749,15571,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="9c0b9ec9-a07a-40e3-a6a2-f4d49f5f4ccb"
 />
 
 # I received an allocation failure

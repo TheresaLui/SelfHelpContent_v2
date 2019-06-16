@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="201f3e69-f507-4126-b546-8eff6b63983c"
 />
 
 # Disable replication in V2A

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="81e72bc3-122a-4460-bcc8-08429ed0fc73"
 />
 
 # Azure Cosmos DB Cassandra API drivers
