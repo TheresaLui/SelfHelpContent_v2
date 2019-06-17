@@ -33,16 +33,18 @@
             "controlType": "dropdown",
             "displayLabel": "Please select your Azure Bastion resource",
             "watermarkText": "Choose a resource",
-            "dynamicDropdownOptions": [
-                {
+            "required": false,
+            "dynamicDropdownOptions": {
                     "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Network/bastionHosts?api-version=2019-04-01",
                     "jTokenPath": "value",
                     "textProperty": "name",
                     "valueProperty": "id",
-                    "textPropertyRegex": "[^/]+$"
-                }
-            ],
-            "required": false
+                    "textPropertyRegex": "[^/]+$",
+                    "defaultDropdownOptions": {
+                        "value": "dont_know_answer",
+                        "text": "Other, don't know or not applicable"
+                    }
+            }
         },
         {
             "id": "bastionbrowser",
