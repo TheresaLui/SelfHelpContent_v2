@@ -24,7 +24,7 @@ To Setup SSIS/Azure Data Factory and SQL MI please follow the steps in these art
 
 - [Create the Azure-SSIS integration runtime in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/create-azure-ssis-integration-runtime)
 - [Joining Azure-SSIS integration runtime to a Virtual Network](https://docs.microsoft.com/azure/data-factory/join-azure-ssis-integration-runtime-virtual-network)
-- [Provisioning Azure-SSIS integration runtime using Azure Active Directory authentication](https://docs.microsoft.com/en-us/azure/data-factory/enable-aad-authentication-azure-ssis-ir)
+- [Provisioning Azure-SSIS integration runtime using Azure Active Directory authentication](https://docs.microsoft.com/azure/data-factory/enable-aad-authentication-azure-ssis-ir)
 - [Reconfigure the Azure-SSIS integration runtime](https://docs.microsoft.com/azure/data-factory/manage-azure-ssis-integration-runtime)
 - If you need some new feature, submit the [feature request](https://feedback.azure.com/forums/270578-azure-data-factory) or vote for the existing one.
 
