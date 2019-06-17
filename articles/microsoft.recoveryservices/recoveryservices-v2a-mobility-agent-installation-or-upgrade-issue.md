@@ -18,7 +18,7 @@
 
 ## Prerequisites
 
-* For smooth installation of mobility agent, ensure push installation prerequisites for [Windows](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service#prepare-for-a-push-installation-on-a-windows-computer) and [Linux](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service#prepare-for-a-push-installation-on-a-linux-server) are met.</br>
+* For smooth installation of mobility agent, ensure the push installation prerequisites for [Windows](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service#prepare-for-a-push-installation-on-a-windows-computer) and [Linux](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service#prepare-for-a-push-installation-on-a-linux-server) are met
 * Ensure all Site Recovery folders are [excluded from antivirus](https://aka.ms/asr_antivirus_exclusions)
 
 ### Troubleshoot mobility agent installation failures
