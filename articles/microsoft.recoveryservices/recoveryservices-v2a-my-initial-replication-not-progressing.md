@@ -16,7 +16,7 @@
 
 # VMware/Physical to Azure - My Initial replication is not progressing
 
-## **Recommended documents**
+## **Recommended steps**
 
 **Critical process server**
 
