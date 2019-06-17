@@ -37,13 +37,13 @@
 			"hints": [{
 					"text": "Source IP Address(es)"
 				},
-                {
+				{
 					"text": "Include all source IP addresses."
 				}
 				{
 					"text": "Destination IP Address(es)"
 				},
-                {
+				{
 					"text": "Include all destination IP addresses."
 				}
 			]
