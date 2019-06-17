@@ -9,7 +9,7 @@
 	displayOrder=""
 	diagnosticScenario="SqlMIPerf"
 	selfHelpType="diagnostics"
-	supportTopicIds="32637224,32637274,32637296,32637300,32637306,32637313,32637228,32637295,32637304"
+	supportTopicIds="32637296,32637300,32637306,32637313"
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
@@ -35,26 +35,26 @@ To enable normal operation of your instance, please increase the storage limit f
 
 	Example (with the current values):
 
-	```powershell
-Set-AzSqlInstance
-	-ResourceGroupName <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
-	-Name <!--$ServerName-->ServerName<!--/$ServerName-->
-	-VCore <!--$virtual_core_count-->virtual_core_count<!--/$virtual_core_count-->
-	-StorageSizeInGB <!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb-->
-	```
+	<code>
+		Set-AzSqlInstance
+		-ResourceGroupName <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
+		-Name <!--$ServerName-->ServerName<!--/$ServerName-->
+		-VCore <!--$virtual_core_count-->virtual_core_count<!--/$virtual_core_count-->
+		-StorageSizeInGB <!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb-->
+	</code>
 	
 * [Azure CLI - Managed Instance update](https://docs.microsoft.com/en-us/cli/azure/sql/mi#az-sql-mi-update)
 
 	Example (with the current values)
 
-	```
-az sql mi update
-	--subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->
-	--resource-group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
-	--name <!--$ServerName-->ServerName<!--/$ServerName-->
-	--capacity <!--$virtual_core_count-->virtual_core_count<!--/$virtual_core_count-->
-	--storage <!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb-->
-	```
+	<code>
+		az sql mi update
+		--subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->
+		--resource-group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
+		--name <!--$ServerName-->ServerName<!--/$ServerName-->
+		--capacity <!--$virtual_core_count-->virtual_core_count<!--/$virtual_core_count-->
+		--storage <!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb-->
+	</code>
 
 ## **Recommended Documents**
 
