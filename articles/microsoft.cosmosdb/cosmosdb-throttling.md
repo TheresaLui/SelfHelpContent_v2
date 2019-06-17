@@ -31,6 +31,7 @@ You may have not provisioned enough RUs to meet your per-second request rates. T
 If your application is not latency sensitive, you can keep the RUs fixed and increase the number of retries for the Cosmos DB client. For the core (SQL) API, this is available as a configuration in the native SDK when you instantiate the Cosmos DB client.
 
 ```csharp
+
 RetryOptions retryOptions = new RetryOptions
 {
     MaxRetryAttemptsOnThrottledRequests = 15 //updated retries (default is 10)

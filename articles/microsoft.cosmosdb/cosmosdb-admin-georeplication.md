@@ -20,4 +20,4 @@ The following documents provide details on how Azure Cosmos DB provides high-ava
 ## **Recommended Documents**
 
 * [High availability with Cosmos DB in the event of regional outages](https://docs.microsoft.com/azure/cosmos-db/high-availability#high-availability-with-cosmos-db-in-the-event-of-regional-outages)
-* [RPO and RTO for Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels-tradeoffs#rto)
+* [RPO and RTO for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/consistency-levels-tradeoffs#rto)
