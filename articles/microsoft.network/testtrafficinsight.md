@@ -16,7 +16,7 @@ cloudEnvironments="Public" />
 
 # Diagnostics for resource access and network routing
 
-##**<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**: <!--$InsightTitle-->[InsightTitle]<!--/$InsightTitle-->
+## **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**: <!--$InsightTitle-->[InsightTitle]<!--/$InsightTitle-->
 
 <!--issueDescription-->
 We have identified an issue which is preventing you from being able to remote into your VM **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**. We identified that <!--$InsightDescription-->[InsightDescription]<!--/$InsightDescription-->
