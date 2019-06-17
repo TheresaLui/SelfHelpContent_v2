@@ -3,7 +3,7 @@
 	description="Azure Portal Dashboard"
 	service="microsoft.Portal"
 	resource=""
-	authors="jamdavi"
+	authors="debugthings"
 	ms.author="jamdavi"
 	displayOrder=""
 	selfHelpType="generic"
@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15693"
 	cloudEnvironments="public"
-	articleId="881d3908-1e3a-49ae-bf10-364c460e1aa1"
+	articleId="appinsights-dashboard"
 />
 
 # Azure Portal
