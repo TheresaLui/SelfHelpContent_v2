@@ -1,10 +1,10 @@
 <properties
-	pageTitle="Frequently asked questions about different APIs in Azure Cosmos DB" 
-	description="Frequently asked questions about different APIs in Azure Cosmos DB"
+	pageTitle="Azure Cosmos DB Administration Other Topics"
+	description="Azure Cosmos DB Administration Other Topics"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="rnagpal"
-	ms.author="rnagpal"
+	authors="markjbrown"
+	ms.author="mjbrown"
 	selfHelpType="generic"
 	supportTopicIds="32636803"
 	resourceTags=""
@@ -13,8 +13,11 @@
 	articleId="cosmosdb-admin-other"
 />
 
-# Frequently asked questions about different APIs in Azure Cosmos DB
+# Azure Cosmos DB Administration Other Topics
 
 ## **Recommended Documents**
 
+* [Manage Azure Cosmos DB using PowerShell](https://docs.microsoft.com/azure/cosmos-db/manage-with-powershell)
+* [Manage Azure Cosmos DB using Azure CLI](https://docs.microsoft.com/azure/cosmos-db/manage-with-cli)
+* [Manage Azure Cosmos DB using ARM Templates](https://docs.microsoft.com/azure/cosmos-db/manage-sql-with-resource-manager)
 * [FAQs](https://docs.microsoft.com/azure/cosmos-db/faq)
