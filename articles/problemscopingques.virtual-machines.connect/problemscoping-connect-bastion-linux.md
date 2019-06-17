@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Cannot Connect to My Virtual Machine using Azure Bastion"
-    description="Cannot Connect to My Virtual Machine using Azure Bastion"
+    pageTitle="Cannot Connect to my Virtual Machine using Azure Bastion"
+    description="Cannot Connect to my Virtual Machine using Azure Bastion"
     authors="timbasham"
     ms.author="tibasham"
     selfHelpType="problemScopingQuestions"
@@ -10,6 +10,7 @@
     schemaVersion="1"
     articleId="51bd129f-25b0-4252-9ca5-dcf05e7e7774"
 />
+
 # Connect to a VM using Azure Bastion
 ---
 {
