@@ -19,15 +19,12 @@
 # Error UserErrorSQLVDIInitFailed
 
 <!--issueDescription-->
-We have identified that your backup operations failed due to the VDI associated with the SQL Instance is inconsistent state.
+We have identified that your backup operations failed due to the VDI associated with the SQL Instance is in an inconsistent state.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 To resolve this issue, perform the below:
 
-* Check if binary sqlvdi.dll is properly registered in Windows. Re-register if necessary
-* Check if database has some DBCC errors. Run the below query in SQL Server Management Studio, and fix the errors if any
-
-	`DBCC CHECKDB (DatabaseName) WITH NO_INFOMSGS, ALL_ERRORMSGS`
-
-* Try repairing installation of the SQL instance associated with the database.
+* Check if binary sqlvdi.dll is properly registered in Windows. Re-register if necessary.
+* Check if database has some DBCC errors. Run the query `DBCC CHECKDB (DatabaseName) WITH NO_INFOMSGS, ALL_ERRORMSGS` in SQL Server Management Studio, and fix the errors if any
+* Try repairing installation of the SQL instance associated with the database
