@@ -19,12 +19,11 @@
 # Error UserErrorOperationFailedAsDatasourceIsOpenedByAnotherUser
 
 <!--issueDescription-->
-We have identified that the database operation failed due to another session that was connected to database, and not allowing the operation to be triggered.
+We have identified that the database operation failed due to another session connected to database, which is not allowing the operation to be triggered.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue, perform the below:
 
-* Use the [sp_who](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-who-transact-sql?view=sql-server-2017) or sp_who2 stored procedures to find the active processes in the database.
-* Kill all the active process in the database(if not risky).
-* Retrigger the backup operation.
+* Use the [sp_who](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-who-transact-sql?view=sql-server-2017) or sp_who2 stored procedures to find the active processes in the database
+* Kill all the active process in the database (if not risky)
+* Retrigger the backup operation
