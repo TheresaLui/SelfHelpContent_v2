@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* [Selling with Microsoft](https://partner.microsoft.com/reach-customers/selling-with-microsoft)<br>
+* [Selling with Microsoft](https://partner.microsoft.com/reach-customers/selling-with-microsoft)
 * [Get Co-Sell Ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
