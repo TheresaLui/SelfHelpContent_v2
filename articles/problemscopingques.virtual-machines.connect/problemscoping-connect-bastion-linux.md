@@ -3,7 +3,7 @@
 	description="Can't connect to my Virtual Machine using Azure Bastion"
 	authors="timbasham"
 	ms.author="tibasham"
-	selfHelpType="problemScopingQuestion"
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32663940"
 	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="Public"
