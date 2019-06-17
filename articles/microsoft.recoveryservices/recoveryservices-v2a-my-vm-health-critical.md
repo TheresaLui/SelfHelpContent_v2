@@ -16,7 +16,9 @@
 
 # VMware/Physical to Azure - My VM health is critical
 
-## Critical process server
+## **Recommended documents**
+
+**Critical process server**
 
 Unhealthy servers impacts replication of a virtual machine. Ensure associated process server is healthy. If not, [**troubleshoot all process server alerts**](https://aka.ms/health_ps_critical).
 
