@@ -16,7 +16,7 @@
 
 # VMware/Physical to Azure - Applications DR Guidance
 
-This is a list of [on-premises applications](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) that can be protected through site recovery:
+This is a list of [on-premises applications](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) that can be protected through site recovery.
 
 ## **Recommended Documents**
 
