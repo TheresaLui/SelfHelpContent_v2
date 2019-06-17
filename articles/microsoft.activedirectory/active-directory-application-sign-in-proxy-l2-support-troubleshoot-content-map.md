@@ -21,3 +21,4 @@
 The following documents can help you to resolve some of the most common issues in this category.
 
   * [I can't sign in to an on-premises application using the Azure AD application proxy](https://docs.microsoft.com/azure/active-directory/application-sign-in-problem-on-premises-application-proxy/?WT.mc_id=UI_AAD_Apps_Sign_In_Support_L2_Proxy)
+  * [Debug Application Proxy application issues](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-debug-apps)
