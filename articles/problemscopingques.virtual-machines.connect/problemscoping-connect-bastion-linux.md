@@ -209,7 +209,7 @@
             "order": 11,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
