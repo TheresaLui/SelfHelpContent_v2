@@ -16,9 +16,9 @@
 
 # VMware/Physical to Azure - My Initial replication is not progressing
 
-## **Recommended steps**
+## **Recommended Steps**
 
-**Critical process server**
+### Critical process server
 
 Unhealthy servers impacts replication of a virtual machine. Ensure associated process server is healthy. If not, [**troubleshoot all process server alerts**](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#check-process-server-health).
 
@@ -28,7 +28,7 @@ Ensure that associated configuration server is healthy and [**troubleshoot all c
 
 ### Connectivity
 
-* Troubleshoot all [connectivity issues](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#step-2-troubleshoot-connectivity-and-replication-issues) to ensure smooth replication. If connectivity breaks, initial replication will not progress<br>
+* Troubleshoot all [connectivity issues](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#step-2-troubleshoot-connectivity-and-replication-issues) to ensure smooth replication. If connectivity breaks, initial replication will not progress.
 * Ensure all necessary folders are [excluded from antivirus software](https://docs.microsoft.com/azure/site-recovery/vmware-azure-set-up-source#azure-site-recovery-folder-exclusions-from-antivirus-program)
 
 ### High churn
