@@ -20,21 +20,21 @@
 
 **Critical process server**
 
-Unhealthy servers impacts replication of a virtual machine. Ensure associated process server is healthy. If not, [**troubleshoot all process server alerts**](https://aka.ms/health_ps_critical).
+Unhealthy servers impacts replication of a virtual machine. Ensure associated process server is healthy. If not, [**troubleshoot all process server alerts**](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#check-process-server-health).
 
 ### Critical configuration server
 
-Ensure that associated configuration server is healthy and [**troubleshoot all configuration server alerts**](https://aka.ms/asr_cs_troubleshoot).
+Ensure that associated configuration server is healthy and [**troubleshoot all configuration server alerts**](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-configuration-server).
 
 ### Connectivity
 
-* Troubleshoot all [connectivity issues](https://aka.ms/v2a_replication_connectivity) to ensure smooth replication. If connectivity breaks, initial replication will not progress.
-* Ensure all necessary folders are [excluded from antivirus software](https://aka.ms/v2a_antivirus_exclusions).
+* Troubleshoot all [connectivity issues](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#step-2-troubleshoot-connectivity-and-replication-issues) to ensure smooth replication. If connectivity breaks, initial replication will not progress.
+* Ensure all necessary folders are [excluded from antivirus software](https://docs.microsoft.com/azure/site-recovery/vmware-azure-set-up-source#azure-site-recovery-folder-exclusions-from-antivirus-program).
 
 ### High churn
 
-Ensure that the [data change rates/churn](https://aka.ms/v2a_high_churn_TS) is within the limits. High churn will lead to slow replication.
+Ensure that the [data change rates/churn](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#source-machines-with-high-churn-error-78188) is within the limits. High churn will lead to slow replication.
 
 ### Source machine heartbeat
 
-Ensure that the mobility agent [heartbeat on source machine](https://aka.ms/v2a_agent_heartbeat_TS) is latest for smooth replication.
+Ensure that the mobility agent [heartbeat on source machine](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication#source-machines-with-no-heartbeat-error-78174) is latest for smooth replication.
