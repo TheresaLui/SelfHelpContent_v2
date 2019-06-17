@@ -11,7 +11,7 @@
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
-  "recommendationOfferingName": "Virtual Machine",
+  "recommendationOfferingName": "Virtual Machines",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "abb1f687-2d58-4197-8f5b-8882f05c04b8",
   "dataSourceMetadata": {
@@ -37,7 +37,7 @@
     "4d0ad6c7-f6c3-46d8-ab0d-1406d5e6c86b"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/reservedinstances",
   "description": "Purchase a new Reserved instance for your expiring Reserved instances",
   "longDescription": "Reserved instances listed below are expiring soon or recently expired. Your resources will continue to operate normally, however, you will be billed at the pay-as-you-go rates going forward. To optimize your costs, purchase a replacement for the expiring RIs.",
@@ -48,16 +48,18 @@
       "description": "Renew",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
-      "bladeName": "CreateReservationBlade",
+      "bladeName": "CreateBlade",
       "metadata": {
-        "referrer": "AzureAdvisorRiRenewal",
-        "subid": "{subscriptionId}",
-        "spec": "{SKU}",
-        "ritype": "{ResourceType}",
-        "loc": "{Region}",
-        "scope": "{AppliedScopeType}",
-        "quantity": "{Quantity}",
-        "term": "{Term}"
+        "filters": {
+          "reservedResourceType": "{ResourceType}",
+          "subId": "{subscriptionId}",
+          "scope": "{AppliedScopeType}",
+          "region": "{Region}",
+          "sku": "{SKU}",
+          "term": "{Term}",
+          "quantity": "{Quantity}"
+        },
+        "referrer": "AzureAdvisorRiRenewal"
       }
     }
   ],
