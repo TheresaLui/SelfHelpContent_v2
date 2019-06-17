@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Azure Stack Node Operations"
+    pageTitle="Azure Stack Node Management issues (Add, Drain, Repair, etc.)"
     description="Azure Stack Node Add, Drain, and Repair"
     service="microsoft.azurestack"
     resource="azurestack"
@@ -7,14 +7,14 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629188,32630575,32629232"
+    supportTopicIds="32629188"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
     articleId="azurestack-operator-nodeops"
 />
 
-# Azure Stack Node Operations
+# Azure Stack Node Node Management issues
 
 Using the Azure Stack Admin portal, you can view each physical node's status, and run node actions such as power on, power off, shut down, drain, resume, and repair.
 

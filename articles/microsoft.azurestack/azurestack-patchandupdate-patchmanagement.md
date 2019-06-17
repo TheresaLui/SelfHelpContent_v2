@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Azure Stack Patch and Update Management"
+    pageTitle="Azure Stack Patch management questions (not related to precheck)"
     description="Assist customers before and during patch and update runs"
     service="microsoft.azurestack"
     resource="azurestack"
@@ -7,14 +7,14 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629240"
+    supportTopicIds="32663933"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
     articleId="662f64b1-781e-4263-80c2-a6b8ff6e3fe7"
 />
 
-# Azure Stack Patch and Update Management
+# Azure Stack Patch management questions
 
 ## Availability of Updates
 
