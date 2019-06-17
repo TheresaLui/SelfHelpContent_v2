@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 * Vault movement [across subscription/resource group](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#vault-tasks)<br>
-* Supported [operating systems/Kernels](https://aka.ms/asr-os-support)<br>
+* Supported [operating systems/Kernels](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#replicated-machines)<br>
 * Supported [Linux file systems](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#linux-file-systemsguest-storage)<br>
 * Supported [storage/disk configurations](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#storage)<br>
 * Supported [network configurations](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#network)<br>
