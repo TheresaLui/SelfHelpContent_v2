@@ -21,7 +21,7 @@ Inputs are divided into two types: data stream inputs and reference data inputs.
 
 Stream Analytics jobs must include at least one data stream input. Event Hubs, IoT Hub, and Blob storage are supported as data stream input sources.
 
-Reference data is a static or slowly dataset in Blob Store or SQL DB that can be joined with stream input. You cannot create and run a Stream Analytics job with reference data input alone. 
+Reference data is a static or slowly changing dataset in Blob Store or Azure SQL Database that can be joined with stream input. You cannot create and run a Stream Analytics job with reference data input alone. 
 
 To learn more about configuring inputs in Azure Stream Analytics job, see the recommended documents.
 
