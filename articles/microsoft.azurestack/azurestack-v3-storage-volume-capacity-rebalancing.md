@@ -14,7 +14,7 @@
     articleId="92d85eb7-cd78-434f-96fe-8292931b29d6"
 />
 
-# Azure Stack Volume capacity and re-balancing
+# Azure Stack Volume capacity and rebalancing
 
 ## **Recommended Documents**
 
