@@ -3,10 +3,11 @@
     description="Issues Signing In to Applications/On-premises apps via Azure AD application proxy"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="luleon"
+    authors="japere"
+    ms.author="japere"
     selfHelpType="generic"
     supportTopicIds="32596856"
-    productPesIds="14785,16575"
+    productPesIds="16575"
     cloudEnvironments="public"
     	articleId="fe213024-d500-4e56-aff1-bae56d08ff3b"
 />
