@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="4b421b27-8eb4-4615-b1ce-1e6149881de6"
+    articleId="5a850a45-94a3-4145-b2fc-6c4b3cdc4788"
 />
 
 # Azure Stack Preparing Certificates
