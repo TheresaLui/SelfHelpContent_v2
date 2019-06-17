@@ -16,7 +16,9 @@
 
 # VMware/Physical to Azure - My application or crash consistent points are not generated
 
-## Common pre-requisites
+## **Recommended steps**
+
+### Common pre-requisites
 
 1. Unhealthy servers impacts replication of a virtual machine. Ensure associated process server is healthy. If not, [troubleshoot all process server alerts](https://aka.ms/health_ps_critical).
 1. Ensure that associated configuration server is healthy and [troubleshoot all configuration server alerts](https://aka.ms/asr_cs_troubleshoot).
@@ -24,12 +26,12 @@
 1. Ensure all necessary folders are [excluded from antivirus software](https://aka.ms/v2a_antivirus_exclusions).
 1. Ensure that the mobility agent heartbeat on [source machine is latest](https://aka.ms/v2a_agent_heartbeat_TS) for smooth replication.
 
-## Crash consistency points are not generated
+### Crash consistency points are not generated
 
 1. Ensure all pre-requisites mentioned in the above section are validated.
 1. High churn: Ensure that the [data change rates/churn](https://aka.ms/v2a_high_churn_TS) is within the limits. High churn will lead to slow replication and hinder crash consistent point generation.
 
-## Application consistency points are not generated
+### Application consistency points are not generated
 
 1. Ensure all pre-requisites mentioned in the top section are validated.
 1. Ensure that **Site Recovery VSS provider** is installed on the machine. If not, [complete installation](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#vss-installation-failures).
