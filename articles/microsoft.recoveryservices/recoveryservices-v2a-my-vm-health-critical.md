@@ -16,7 +16,7 @@
 
 # VMware/Physical to Azure - My VM health is critical
 
-## **Recommended documents**
+## **Recommended steps**
 
 **Critical process server**
 
