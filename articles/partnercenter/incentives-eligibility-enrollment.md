@@ -10,7 +10,7 @@
 	articleId="incentives_eligibility_policy_enrollment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="332635666,32635668"
+	supportTopicIds="32635668,32635666"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
