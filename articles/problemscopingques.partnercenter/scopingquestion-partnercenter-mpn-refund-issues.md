@@ -37,7 +37,7 @@
         {
           "value": "dont_know_answer",
           "text": "Other"
-        },
+        }
       ],
       "required": true
     },
@@ -59,7 +59,7 @@
     },
     {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -68,7 +68,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controltype": "datetimepicker",
             "displayLabel": "When did this issue start?",
             "required": true
