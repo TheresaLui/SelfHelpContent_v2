@@ -1,62 +1,58 @@
 <properties
-	pageTitle="Partner Center Offer Issue"
-	description="Partner Center Offer Issue"
+	pageTitle="Partner Center Indirect Reseller Recognition"
+	description="Partner Center Indirect Reseller Recognition"
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635654,32635682,32635686,32635689,32635693,32639661,32635709,32639664,32639663"
+	supportTopicIds="32635674"
 	productPesIds="15960"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="scopingquestion_partnercenter_offers"
+	articleId="sproblemscopingques_indirect_recognize"
 	clientIds="partnercenter"
 />
-# Partner Center Offer Issue
+# Partner Center Indirect Reseller Recognition
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Partner Center Offer Issue",
+    "title": "Partner Center Indirect Reseller Recognition",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "pc_offer_id",
+            "id": "pc_subscription_id",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the offer id you are having problems finding.",
-            "watermarkText": "Provide the offer id as a GUID",
+            "displayLabel": "Please provide the subscription id you want credit for.",
+            "watermarkText": "Provide the subscription as a GUID",
             "required": false
         },
         {
             "id": "pc_customertenant_id",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Please provide the customer tenant id you are purchasing for.",
+            "displayLabel": "Please provide the customer tenant id you want credit for.",
             "watermarkText": "Provide the customer tenant id as a GUID",
             "required": false
         },
         {
-            "id": "pc_offer_type",
+            "id": "mpn_benefit_type",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What kind of offer is your issue about?",
-            "watermarkText": "Select offer type",
+            "displayLabel": "Did your indirect provider associate your MPN ID to the subscription(s)?",
+            "watermarkText": "Did your indirect provider associate your MPN ID to the subscription(s)?",
             "dropdownOptions": [
                 {
-                    "value": "Commercial",
-                    "text": "Commercial"
+                    "value": "Yes, my provider associated my MPN ID with the subscription",
+                    "text": "Yes, my provider associated my MPN ID with the subscription"
                 },
                 {
-                    "value": "Academic",
-                    "text": "Academic"
+                    "value": "No, my provider did not associate my MPN ID with the subscription",
+                    "text": "No, my provider did not associate my MPN ID with the subscription"
                 },
                 {
-                    "value": "GCC (Government Community Cloud)",
-                    "text": "GCC (Government Community Cloud)"
-                },
-                {
-                    "value": "Nonprofit",
-                    "text": "Nonprofit"
+                    "value": "I'm not sure if my indirect provider associated my MPN ID with the subscription",
+                    "text": "I'm not sure if my indirect provider associated my MPN ID with the subscription"
                 }
             ],
             "required": false

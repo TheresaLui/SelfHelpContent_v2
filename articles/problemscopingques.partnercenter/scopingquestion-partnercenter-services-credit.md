@@ -1,64 +1,46 @@
 <properties
-	pageTitle="Partner Center Offer Issue"
-	description="Partner Center Offer Issue"
+	pageTitle="Partner Center Services Credit"
+	description="Partner Center Services Credit"
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635654,32635682,32635686,32635689,32635693,32639661,32635709,32639664,32639663"
+	supportTopicIds="32635664"
 	productPesIds="15960"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="scopingquestion_partnercenter_offers"
+	articleId="sproblemscopingques_services_credit"
 	clientIds="partnercenter"
 />
-# Partner Center Offer Issue
+# Partner Center Services Credit
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Partner Center Offer Issue",
+    "title": "Partner Center Services Credit",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "pc_offer_id",
+            "id": "pc_subscription_id",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the offer id you are having problems finding.",
-            "watermarkText": "Provide the offer id as a GUID",
+            "displayLabel": "Please provide the subscription id you want credit for.",
+            "watermarkText": "Provide the subscription as a GUID",
             "required": false
         },
         {
             "id": "pc_customertenant_id",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Please provide the customer tenant id you are purchasing for.",
+            "displayLabel": "Please provide the customer tenant id you want credit for.",
             "watermarkText": "Provide the customer tenant id as a GUID",
             "required": false
         },
-        {
-            "id": "pc_offer_type",
+               {
+            "id": "pc_incident_id",
             "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "What kind of offer is your issue about?",
-            "watermarkText": "Select offer type",
-            "dropdownOptions": [
-                {
-                    "value": "Commercial",
-                    "text": "Commercial"
-                },
-                {
-                    "value": "Academic",
-                    "text": "Academic"
-                },
-                {
-                    "value": "GCC (Government Community Cloud)",
-                    "text": "GCC (Government Community Cloud)"
-                },
-                {
-                    "value": "Nonprofit",
-                    "text": "Nonprofit"
-                }
-            ],
+            "controlType": "textbox",
+            "displayLabel": "Please provide the outage incident ID",
+            "watermarkText": "Please provide the outage incident ID",
             "required": false
         },
         {
