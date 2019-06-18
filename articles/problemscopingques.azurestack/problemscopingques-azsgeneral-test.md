@@ -16,7 +16,7 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Azure Stack Environment Details",
-    "fileAttachmentHint": "To help the support agent identify your issue, please <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-privileged-endpoint'>connect to the Privileged Endpoint</a>, run Get-AzureStackStampInformation command, and then collect and upload the output of this command",
+    "fileAttachmentHint": "To help the support agent identify your issue, please collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
     "formElements": [
         {
             "id": "hardware_partner",
