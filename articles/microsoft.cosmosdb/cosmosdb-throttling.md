@@ -51,7 +51,7 @@ client.OpenAsync();
 
 ```
 
-### **Partition Key Choice
+### **Partition Key Choice**
 
 If your throughput utilization is low overall, but you still see rate limiting, you may have to review your partition key choice for skew. You can monitor your Azure Cosmos DB containers in the Azure portal to see if your requests are skewed to one or few partitions. If this is the cause of the rate limiting, you can migrate to a new container with near zero downtime using Change Feed.
 
@@ -61,7 +61,7 @@ If your throughput utilization is low overall, but you still see rate limiting, 
 * [Real-world data modeling and partitioning example](https://docs.microsoft.com/azure/cosmos-db/how-to-model-partition-example)
 * [Change Feed in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/change-feed)
 
-### **Rate limiting in write-heavy scenarios
+### **Rate limiting in write-heavy scenarios**
 
 If your RU consumption is predominantly from writes, you may be able to reduce RU consumption by modeling as smaller documents, tuning indexing policy, or by writing in batches.
 
@@ -70,9 +70,9 @@ If your RU consumption is predominantly from writes, you may be able to reduce R
 * [Exclude unused paths from indexing for faster writes](https://docs.microsoft.com/azure/cosmos-db/performance-tips#indexing-policy)
 * [Bulk Executor Library](https://docs.microsoft.com/azure/cosmos-db/bulk-executor-overview)
 
-### **Rate limiting in read-heavy scenarios
+### **Rate limiting in read-heavy scenarios**
 
-* If your RU consumption is predominantly from reads, you may be able to reduce RU consumption by tuning individual queries, lowering consistency level, or by reading in batches.
+If your RU consumption is predominantly from reads, you may be able to reduce RU consumption by tuning individual queries, lowering consistency level, or by reading in batches.
 
 * [Understand Request units in Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
 * [Get query execution metrics and analyze performance](https://docs.microsoft.com/azure/cosmos-db/profile-sql-api-query)
