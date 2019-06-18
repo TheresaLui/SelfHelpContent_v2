@@ -218,12 +218,12 @@
             "required": false
         },  
         {
-            "id": "problem_start_time",
+            "id": "error_start_time",
             "order": 11,
             "visibility": "has_worked == Yes",
             "controlType": "datetimepicker",
             "displayLabel": " When did the problem start?",
-             "required": true
+             "required": false
         },
         {
             "id": error_message",
@@ -234,7 +234,13 @@
            "watermarkText": "Provide the error message you received if any",
              "required": true
         },
-
+        {
+            "id": "problem_start_time",
+            "order": 900,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
         {
             "id": "problem_description",
             "order": 1000,
