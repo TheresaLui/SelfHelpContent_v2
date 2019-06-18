@@ -8,7 +8,7 @@
 	articleId="streamanalytics-connectivity"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32357236,32628762,32357226"
+	supportTopicIds="32357236,32628762"
 	resourceTags=""
 	productPesIds="15663"
 	cloudEnvironments="public"
