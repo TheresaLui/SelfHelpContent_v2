@@ -16,7 +16,13 @@
 />
 
 # Unexpected Output
-There are times when your Stream Analytics query may not be producing the output you are expecting. This could happen due to a variety of reasons. If your query uses TIMESTAMP BY, the please be sure to configure event ordering policies according to your latency and correctness requirements. If the event ordering policies look ok, you can also debug and understand why your job is producing unexpected output, see the recommended documents.
+There are times when your Stream Analytics query may not be producing the output you are expecting. This could happen due to a variety of reasons.
+
+If your query uses TIMESTAMP BY, the please be sure to configure event ordering policies according to your latency and correctness requirements. If events arrive late and your policy is configured to drop these events, you will not see this in the results that Stream Analytics writes to your outputs. 
+
+Malformed input events that cause deserialization errors will also be dropped by Stream Analytics. You can check what caused these deserialization errors by seeing [diagnostic logs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#send-diagnostics-to-azure-monitor-logs).
+
+If the event ordering policies look ok, you can also debug and understand why your job is producing unexpected output, see the recommended documents.
 
 
 ## **Recommended Documents**
