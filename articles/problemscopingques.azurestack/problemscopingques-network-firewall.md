@@ -162,14 +162,15 @@
                 }
             ],
             "required": false
-        }, {
+        },
+        {
             "id": "Subscription_name",
             "order": 7,
              "visibility": "tenant_all_single == Single tenant",
             "controlType": "textbox",
             "displayLabel": "Tenant ID",
             "watermarkText": "ID of the tenant",
-            "required": false,
+            "required": false
         },
         {
           "id": "check_firewall",
@@ -225,7 +226,7 @@
              "required": true
         },
         {
-            "id": "when_problem_start",
+            "id": error_message",
             "order": 12,
             "visibility": "has_worked == No",
             "controlType": "textbox",
