@@ -57,7 +57,7 @@
           "region": "{Region}",
           "sku": "{SKU}",
           "term": "{Term}",
-          "quantity": "{Quantity}"
+          "quantity": {Quantity}
         },
         "referrer": "AzureAdvisorRiRenewal"
       }
