@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack Marketplace Management - Download issues"
-    description="Azure Stack Marketplace Management - Download issues"
+    pageTitle="Azure Stack Network for User Environment"
+    description="Azure Stack Network for User Environment"
     authors="genlin"
     ms.author="genli"
     selfHelpType="problemScopingQuestions"
@@ -8,9 +8,9 @@
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-6f9f-4e97-b711-4b07ac45db50"
+    articleId="8ccb2fde-2000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Marketplace Management - Download issues
+# Azure Stack Network for User Environment
 ---
 {
     "subscriptionRequired": true,
@@ -146,44 +146,94 @@
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },
         {
-            "id": "registration_name",
+            "id": "tenant_all_single",
             "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Registration name",
-            "watermarkText": "Name of your Azure Stack registration",
-            "required": false,
-            "infoBalloonText": "You can find the registration name in Region Management - Properties"
+            "controlType": "dropdown",
+            "displayLabel": "Is this isolated to a specific tenant or all tenants? ",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "All tenants",
+                    "text": "All tenants"
+                },
+                {
+                    "value": "Single tenant",
+                    "text": "Single tenant"
+                }
+            ],
+            "required": false
         }, {
             "id": "Subscription_name",
             "order": 7,
+             "visibility": "tenant_all_single == Single tenant",
             "controlType": "textbox",
-            "displayLabel": "Subscription ID",
-            "watermarkText": "ID of Azure Subscription used for registration",
+            "displayLabel": "Tenant ID",
+            "watermarkText": "ID of the tenant",
             "required": false,
-            "infoBalloonText": "You can find the Azure Subscription ID in Region Management- Properties"
         },
-{
-            "id": "image_name",
+        {
+          "id": "check_firewall",
             "order": 8,
-            "controlType": "textbox",
-            "displayLabel": "Image name",
-            "watermarkText": "Image Name",
-            "required": false
-        },{
-            "id": "image_version",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "Image version",
-            "watermarkText": "Image version",
+            "controlType": "dropdown",
+            "visibility": "tenant_all_single == Single tenant",
+            "displayLabel": " Is this isolated to single Resource Group or Virtual Network? ",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "No"
+                },
+                {
+                    "value": "Yes",
+                    "text": "No"
+                }
+            ],
             "required": false
         },
         {
-            "id": "problem_start_time",
-            "order": 900,
+            "id": "rg_vnet_name",
+            "order": 9,
+              "visibility": "check_firewall == Yes",
+            "controlType": "textbox",
+            "displayLabel": " What is the name of resource group or virtual network?",
+            "watermarkText": "Name of the resource group or virtual network ",
+            "required": false
+        },{
+          "id": "has_worked",
+            "order": 10,
+            "controlType": "dropdown",
+            "displayLabel": "Has this ever worked?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },  
+        {
+            "id": "when_problem_start",
+            "order": 11,
+            "visibility": "has_worked == Yes",
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": true
+            "displayLabel": " When did the problem start?",
+             "required": true
         },
+        {
+            "id": "when_problem_start",
+            "order": 12,
+            "visibility": "has_worked == No",
+            "controlType": "textbox",
+            "displayLabel": "What is the error message?",
+           "watermarkText": "Provide the error message you received if any",
+             "required": true
+        },
+
         {
             "id": "problem_description",
             "order": 1000,
