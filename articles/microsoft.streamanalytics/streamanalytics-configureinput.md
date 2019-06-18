@@ -17,7 +17,13 @@
 
 # Configure Input
 
-Stream Analytics has first-class integration with Azure data streams as inputs from Azure Event Hubs, Azure IoT Hub, and Azure Blob Storage. Azure Stream Analytics also supports reference data (also known as lookup table) which is a finite data set that is static or slowly changing in nature, used to perform a lookup or to correlate with your data stream. To learn more about configuring inputs in Azure Stream Analytics job, see the recommended documents.
+Inputs are divided into two types: data stream inputs and reference data inputs. 
+
+Stream Analytics jobs must include at least one data stream input. Event Hubs, IoT Hub, and Blob storage are supported as data stream input sources.
+
+Reference data is a static or slowly changing dataset in Blob Store or Azure SQL Database that can be joined with stream input. You cannot create and run a Stream Analytics job with reference data input alone. 
+
+To learn more about configuring inputs in Azure Stream Analytics job, see the recommended documents.
 
 
 ## **Recommended Documents**

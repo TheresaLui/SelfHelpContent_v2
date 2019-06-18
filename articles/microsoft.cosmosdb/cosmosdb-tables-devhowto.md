@@ -15,14 +15,18 @@
 
 # How to develop applications with Azure Cosmos DB Table API
 
-An existing application using the Azure Table Storage service can seamlessly connect to Azure Cosmos DB's Table API without any modification, and instantly benefit from the following premium capabilities:
+Applications written for Azure Table storage can migrate to Azure Cosmos DB by using the Table API.
 
-* Elastic performance: the expected performance can be adjusted manually from the Azure Portal, or programmatically through API/SDK calls
+To get started:
+
+* Replace your connection string to connect to an Azure Cosmos DB account created with the Table API.
+* Make sure to use the latest version of your Azure Table Storage driver or SDK; if your application is running on .NET, we recommend to use the [Azure Cosmos DB Table .NET Standard SDK](https://docs.microsoft.com/azure/cosmos-db/table-sdk-dotnet-standard).
+* Get familiar with Azure Cosmos DB's provisioned throughput model and evaluate how many [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units) your application might need.
+
+Then, learn about the premium capabilities you can leverage:
+
 * Automatic secondary indexing: all columns get automatically indexed by default
-* Global distribution: tables can be replicated to any Azure datacenter to ensure low latency and high availability
-* Comprehensive SLAs covering availability, latency, consistency and throughput
-
-The Table API has client SDKs available for .NET, Java, Python, and Node.js.
+* [Global distribution](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally): tables can be replicated to any Azure datacenter to ensure low latency and high availability
 
 ## **Recommended Documents**
 
