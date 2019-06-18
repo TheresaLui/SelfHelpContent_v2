@@ -32,9 +32,10 @@ If your application is not latency sensitive, you can keep the RUs fixed and inc
 
 ```csharp
 
+// update retries (default is 10)
 RetryOptions retryOptions = new RetryOptions
 {
-    MaxRetryAttemptsOnThrottledRequests = 15 //updated retries (default is 10)
+    MaxRetryAttemptsOnThrottledRequests = 15
 };
 
 ConnectionPolicy connectionPolicy = new ConnectionPolicy
@@ -44,8 +45,10 @@ ConnectionPolicy connectionPolicy = new ConnectionPolicy
     RetryOptions = retryOptions
 };
 
-client = new DocumentClient(new Uri(endpoint), key, connectionPolicy);
+DocumentClient client = new DocumentClient(new Uri(endpoint), key, connectionPolicy);
+
 client.OpenAsync();
+
 ```
 
 ### **Partition Key Choice
