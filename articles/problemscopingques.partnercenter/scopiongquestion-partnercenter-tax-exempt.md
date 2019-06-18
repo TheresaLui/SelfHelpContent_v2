@@ -47,7 +47,7 @@
             "useAsAdditionalDetails": true
         },
         {
-            "id": "tax_id_added",
+            "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Tax ID updated date",
