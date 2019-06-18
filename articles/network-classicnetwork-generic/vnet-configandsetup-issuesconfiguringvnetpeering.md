@@ -19,9 +19,11 @@
 ## **Recommended Steps**
 
 * Walk through our [step-by-step Troubleshooter for VNet Peering](https://support.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
+* Learn how to [monitor communication between VMs with the connection monitor capability of Network Watcher](https://docs.microsoft.com/azure/network-watcher/connection-monitor)
 
 ## **Recommended Documents**
 
 * [VNet Peering Frequently Asked Questions](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#vnet-peering)<br>
 * [VNet Peering overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)<br>
 * Learn about the [VNet Peering requirements and constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints)<br>
+
