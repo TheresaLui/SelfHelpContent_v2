@@ -71,5 +71,6 @@
       "useAsAdditionalDetails": true
     }
   ]
+      "$schema": "SelfHelpContent"
 }
 ---
