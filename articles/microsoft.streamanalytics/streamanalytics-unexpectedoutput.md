@@ -28,5 +28,6 @@ If the event ordering policies look ok, you can also debug and understand why yo
 ## **Recommended Documents**
 
 * [How to configure event ordering policies and how they might impact your output](https://docs.microsoft.com/azure/stream-analytics/event-ordering)
+* [Why is my query producing unexpected output?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-query#query-is-not-producing-expected-output)
 * [Debug queries progressively](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-query#debug-queries-progressively)
 * [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
