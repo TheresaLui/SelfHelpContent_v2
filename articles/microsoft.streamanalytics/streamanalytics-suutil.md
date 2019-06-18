@@ -28,3 +28,5 @@ There are multiple factors that affect streaming unit utilization. To learn more
 * [Query parallelization to optimize SU % utilization](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parallelization)
 * [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
 * [Why increasing number of streaming units for a job might not decrease SU % Utilization?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption#factors-that-increase-su-utilization)
+* [How to fine tuning Cosmos DB output for better performance?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-documentdb-output)
+* [How to fine tune Azure SQL DB for better performance?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-sql-output-perf)
