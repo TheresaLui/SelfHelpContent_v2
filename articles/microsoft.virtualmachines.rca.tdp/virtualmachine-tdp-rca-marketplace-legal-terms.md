@@ -23,16 +23,16 @@ We detected a purchase failure for the deployment of Azure Marketplace offer **<
 
 ## Recommended Steps
 
-You can browse images and current offers on [Azure Marketplace]( https://azuremarketplace.microsoft.com/) storefront and purchase them in the [Azure portal](https://azure.portal.com). You can also use the following commands:<br>
+You can browse images and current offers on the [Azure Marketplace]( https://azuremarketplace.microsoft.com/) storefront and purchase them in the [Azure portal](https://portal.azure.com). You can also use the following commands:<br>
 
 |Tool|Command|
 |---|---|
-| Azure PowerShell | [Get-AzMarketPlaceTerms](https://docs.microsoft.com/en-us/powershell/module/az.marketplaceordering/get-azmarketplaceterms)<br>[Set-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/set-azmarketplaceterms) |
-| Azure CLI | [az image show](https://docs.microsoft.com/en-us/cli/azure/image?view=azure-cli-latest#az-image-show)<br>[az vm image accept-terms](https://docs.microsoft.com/en-us/cli/azure/vm/image?view=azure-cli-latest#az-vm-image-accept-terms)|<br>
+| Azure PowerShell | [Get-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/get-azmarketplaceterms)<br>[Set-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/set-azmarketplaceterms) |
+| Azure CLI | [az image show](https://docs.microsoft.com/cli/azure/image?view=azure-cli-latest#az-image-show)<br>[az vm image accept-terms](https://docs.microsoft.com/cli/azure/vm/image?view=azure-cli-latest#az-vm-image-accept-terms)|<br>
 
 ## Recommended Documents
 
-- [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#accept-the-terms).
+- [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#accept-the-terms)
 - [Find Windows VM images in the Azure Marketplace with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage)  
 - [Find Linux VM images in the Azure Marketplace with the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage)
  
