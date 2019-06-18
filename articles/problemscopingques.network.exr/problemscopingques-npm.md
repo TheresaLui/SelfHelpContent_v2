@@ -12,65 +12,53 @@
 />
 
 # Provide additional IP address information about your issue.
-
 ---
 {
-  "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
   "title": "Provide additional IP address information about your issue.",
   "fileAttachmentHint": "",
-  "formElements": [{
-      "id": "problem_start_time",
-      "order": 2,
-      "controlType": "datetimepicker",
-      "displayLabel": "When did the problem begin?",
-      "required": true
-    },
-    {
-      "id": "problem_description",
-      "order": 5,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Details",
-      "watermarkText": "Provide additional information about your issue",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [{
-            "text": "Source IP Address(es)"
+  "formElements": [
+      {
+            "id": "destination_vm internal IP address",
+            "order": 1,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the internal IP address of the source VM",
+            "watermarkText": "Enter IP address of the source VM",
+            "required": true
         },
         {
-            "text": "Include all source IP addresses."
-        }
-        {
-            "text": "Destination IP Address(es)"
+            "id": "resource internal IP address",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the internal IP address of the destination VM",
+            "watermarkText": "Enter IP address of the destination VM",
+            "required": false
         },
         {
-            "text": "Include all destination IP addresses."
-        }
-      ]
-    },
-    {
-      "id": "problem_description",
-      "order": 5,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Details",
-      "watermarkText": "Provide additional information about your issue",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [{
-          "text": "Issue description."
+            "id": "problem_description",
+            "order": 999,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Additional details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "hints": []
+        },
         },
         {
-          "text": "Describe the issue here."
+            "id": "problem_start_time",
+            "order": 1000,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true
+        {
+            "id": "learn_more_text",
+            "order": 1001,
+            "controlType": "infoblock",
+            "content": "<a href='https://jsonlint.com/'>Use this JSON Checker</a> if you are receiving validation errors in your scoping question"
         }
-      ]
-    },
-    {
-      "id": "learn_more_text",
-      "order": 6,
-      "controlType": "infoblock",
-      "content": "<a href='https://jsonlint.com/'>Use this JSON Checker</a> if you are receiving validation errors in your scoping question"
-    }
-  ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
