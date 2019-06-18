@@ -53,8 +53,9 @@ Common status code values customers see are listed below
 
 **Status Code** | **Explanation**
 --- | ---
+***404*** | Concurrent operations that attempts to delete and update the same edge or vertex simultaneously.
 ***409*** | Request encountered a conflicting write operation. This usually happens when vertex or an edge with an identifier already exists in the graph.
-***429***  | Request was throttled and should be retried after ***x-ms-retry-after-ms***.
+***429***  | Request was throttled and should be retried after value in ***x-ms-retry-after-ms***.
 
 ## **Recommended Documents**
 * [TinkerPop Status Codes](http://tinkerpop.apache.org/docs/3.0.2-SNAPSHOT/#_developing_a_driver)

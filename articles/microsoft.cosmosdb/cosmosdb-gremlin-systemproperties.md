@@ -18,3 +18,9 @@ Azure Cosmos DB has [system properties](https://docs.microsoft.com/en-us/rest/ap
 ```
 g.withStrategies(ProjectionStrategy.build().IncludeSystemProperties('_ts').create())
 ```  
+
+## **E-Tag**
+
+This property is used for optimistic concurrency control. To ensure that vertex or edge is updated by a single writer the following pattern is recommended
+
+```g.withStrategies(ProjectionStrategy.build().IncludeSystemProperties('_etag').create()).V('1').has('_etag', '"00000100-0000-0800-0000-5d03edac0000"').property('test', '1')```
