@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Failure to connect to the SSH port",
     "fileAttachmentHint": "",
@@ -126,7 +127,7 @@
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
-            }   
+            }
         },
         {
             "id": "bastionbrowser",

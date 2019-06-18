@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Troubleshoot my network security group (NSG)",
     "fileAttachmentHint": "",
