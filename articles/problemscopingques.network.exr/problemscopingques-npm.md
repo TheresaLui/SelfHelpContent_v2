@@ -1,6 +1,6 @@
 <properties
-    pageTitle="ExpressRoute\Connectivity Issues detected by NPM"
-    description="ExpressRoute\Connectivity Issues detected by NPM"
+    pageTitle="ExpressRoute or Connectivity Issues detected by NPM"
+    description="ExpressRoute or Connectivity Issues detected by NPM"
     authors="v-miegge"
     ms.author="v-miegge"
     selfHelpType="problemScopingQuestions"
@@ -10,7 +10,7 @@
     schemaVersion="1"
     articleId="1cefc7d8-95c4-3000-b8d3-487e67c13690"
 />
-# Provide additional IP address information about your issue.
+# Provide additional IP address information about your issue
 
 ---
 {
