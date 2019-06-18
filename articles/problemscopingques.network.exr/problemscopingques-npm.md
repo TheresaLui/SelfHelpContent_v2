@@ -25,7 +25,7 @@
       "controlType": "textbox",
       "infoBalloonText": "string",
       "displayLabel": "Please provide the internal IP address of the source VM",
-      "watermarkText": "Enter IP address of the source VM",
+      "watermarkText": "Enter IP address of the source VM"
         },
         {
           "id": "resource internal IP address",
