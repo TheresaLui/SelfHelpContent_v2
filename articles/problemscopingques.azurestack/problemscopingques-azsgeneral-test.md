@@ -13,10 +13,10 @@
 # Azure Stack Marketplace Management - Download issues
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Azure Stack Environment Details",
-    "fileAttachmentHint": "To help the support agent identify your issue, please <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-privileged-endpoint
-'>connect to the Privileged Endpoint</a>, and collect and upload the output of Get-AzureStackStampInformation command",
+    "fileAttachmentHint": "To help the support agent identify your issue, please <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-privileged-endpoint'>connect to the Privileged Endpoint</a>, and collect and upload the output of Get-AzureStackStampInformation command",
     "formElements": [
         {
             "id": "hardware_partner",
@@ -177,9 +177,6 @@
             "watermarkText": "Image version",
             "required": false,
         },
-
-
-
         {
             "id": "problem_start_time",
             "order": 900,
