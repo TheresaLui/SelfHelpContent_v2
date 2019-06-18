@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	articleId="d0e4ed4e-30f4-4c0c-acc5-3f615f1f4f70"
+	articleId="bot-unabletocreatebot"
 />
 
 # Unable to create a bot
