@@ -63,12 +63,6 @@
           "text": "Describe the issue here."
         }
       ]
-    },
-    {
-      "id": "learn_more_text",
-      "order": 6,
-      "controlType": "infoblock",
-      "content": "<a href='https://jsonlint.com/'>Use this JSON Checker</a> if you are receiving validation errors in your scoping question"
     }
   ]
 }
