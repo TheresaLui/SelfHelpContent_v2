@@ -168,14 +168,14 @@
             "controlType": "textbox",
             "displayLabel": "Image name",
             "watermarkText": "Image Name",
-            "required": false,
+            "required": false
         },{
             "id": "image_version",
             "order": 9,
             "controlType": "textbox",
             "displayLabel": "Image version",
             "watermarkText": "Image version",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_start_time",
