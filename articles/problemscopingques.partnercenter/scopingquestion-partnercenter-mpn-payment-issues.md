@@ -33,6 +33,10 @@
         {
           "value": "Credit card",
           "text": "Credit card"
+        },
+	{
+          "value": "dont_know_answer",
+          "text": "Other"
         }
       ],
       "required": true
@@ -69,13 +73,6 @@
             "watermarkText": "Please provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 6,
-            "controltype": "datetimepicker",
-            "displayLabel": "When did this issue start?",
-            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
