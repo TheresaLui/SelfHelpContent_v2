@@ -16,7 +16,11 @@
 />
 
 # Configure Output
-You can store or direct the results of a Stream Analytics job to many destinations like SQL database, Cosmos DB, Power BI, Azure Functions, and more. To learn more about configuring outputs in Azure Stream Analytics job, see the recommended documents.
+You can store or direct the results of a Stream Analytics job to many destinations like SQL database, Cosmos DB, Power BI, Azure Functions, and more. 
+
+It is important to make sure your Stream Analytics job has permissions to write to output sinks. Lack of enough permissions will cause problems writing results to output. 
+
+To learn more about configuring outputs in Azure Stream Analytics job, see the recommended documents.
 
 ## **Recommended Documents**
 
