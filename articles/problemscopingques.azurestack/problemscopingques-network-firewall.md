@@ -218,7 +218,7 @@
             "required": false
         },  
         {
-            "id": "when_problem_start",
+            "id": "problem_start_time",
             "order": 11,
             "visibility": "has_worked == Yes",
             "controlType": "datetimepicker",
