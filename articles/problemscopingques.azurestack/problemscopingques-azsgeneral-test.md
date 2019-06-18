@@ -150,15 +150,15 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Registration name",
-            "watermarkText": "Name of your Azure Stack registration?",
+            "watermarkText": "Name of your Azure Stack registration",
             "required": false,
             "infoBalloonText": "You can find the registration name in Region Management - Properties"
         }, {
             "id": "Subscription_name",
             "order": 7,
             "controlType": "textbox",
-            "displayLabel": "Subscription name",
-            "watermarkText": "ID of Azure Subscription used for registration?",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "ID of Azure Subscription used for registration",
             "required": false,
             "infoBalloonText": "You can find the Azure Subscription ID in Region Management- Properties"
         },
