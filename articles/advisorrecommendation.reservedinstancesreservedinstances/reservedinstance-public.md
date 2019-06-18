@@ -52,7 +52,7 @@
       "bladeName": "CreateBlade",
       "metadata": {
         "filters": {
-          "reservedResourceType": "{reservationType}",
+          "reservedResourceType": "VirtualMachines",
           "subId": "{subscriptionId}",
           "scope": "{scope}",
           "region": "{location}",
