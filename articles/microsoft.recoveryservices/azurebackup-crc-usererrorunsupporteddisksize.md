@@ -23,7 +23,7 @@ We have identified that your backup operation failed because currently Azure Bac
 
 ## **Recommended Documents**
 
-* For more information on supported configurations refer this [article](https://docs.microsoft.com/en-us/azure/backup/backup-support-matrix-iaas)
+* For more information on supported configurations refer this [article](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas)
 * Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB
 * Make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) section
 * Complete the upgrade following these [instructions](https://aka.ms/AB-IR-upgrade)
