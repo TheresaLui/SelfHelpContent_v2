@@ -30,30 +30,22 @@ In this state, insert, update, delete, and index maintenance queries or any othe
 To enable normal operation of your instance, please increase the storage limit from:
 
 * [Azure Portal](https://portal.azure.com/)
+	1. Navigate to the Managed Instance *<!--$ServerName-->ServerName<!--/$ServerName-->*
+	2. Select *"Pricing Tier"*
+	3. Increase storage size
+	4. Click *"Apply"*
+
 * [Az PowerShell - Managed Instance update](https://docs.microsoft.com/powershell/module/Az.Sql/Set-AzSqlInstance)
 
 	Example (with the current values):
 
-```
-Set-AzSqlInstance
--ResourceGroupName <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
--Name <!--$ServerName-->ServerName<!--/$ServerName-->
--VCore <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
--StorageSizeInGB <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
-```
+	`Set-AzSqlInstance -ResourceGroupName <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> -Name <!--$ServerName-->ServerName<!--/$ServerName--> -VCore <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount--> -StorageSizeInGB <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->`
 
 * [Azure CLI - Managed Instance update](https://docs.microsoft.com/cli/azure/sql/mi#az-sql-mi-update)
 
 	Example (with the current values):
 
-```
-az sql mi update
---subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->
---resource-group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
---name <!--$ServerName-->ServerName<!--/$ServerName-->
---capacity <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
---storage <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
-```
+	`az sql mi update --subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> --resource-group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> --name <!--$ServerName-->ServerName<!--/$ServerName--> --capacity <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount--> --storage <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->`
 
 ## **Recommended Documents**
 
