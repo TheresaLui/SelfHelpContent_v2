@@ -41,6 +41,7 @@ Set-AzSqlInstance
 -VCore <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
 -StorageSizeInGB <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
 ```
+
 * [Azure CLI - Managed Instance update](https://docs.microsoft.com/cli/azure/sql/mi#az-sql-mi-update)
 
 	Example (with the current values):
