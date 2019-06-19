@@ -20,7 +20,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Managed instance named **<!--$ServerName-->ServerName<!--/$ServerName-->** on subscription **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->** and resource group **<!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->** was hitting the preconfigured maximum storage limit of *<!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb--> GB* between *<!--$minTime-->minTime<!--/$minTime-->* and *<!--$maxTime-->maxTime<!--/$maxTime-->*.
+Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> was hitting the preconfigured maximum storage limit of <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb--> GB between <!--$minTime-->minTime<!--/$minTime--> and <!--$maxTime-->maxTime<!--/$maxTime-->.
 
 In this state, insert, update, delete, and index maintenance queries or any other requests that require system or user database space expansion will fail immediately due to the insufficient space.
 <!--/issueDescription-->
