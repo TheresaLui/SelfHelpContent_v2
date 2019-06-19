@@ -217,7 +217,7 @@
                 }
             ],
             "required": false
-        },  
+        },
         {
             "id": "error_message",
             "order": 12,
