@@ -4,7 +4,7 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635667,32635679,32635684,32635695,32635696"
+	supportTopicIds="32635667,32635679,32635684,32635695,32635696,32639660"
 	productPesIds="15960"
 	cloudEnvironments="public"
 	schemaVersion="1"

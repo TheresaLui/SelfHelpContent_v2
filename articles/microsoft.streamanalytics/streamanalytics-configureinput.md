@@ -28,6 +28,8 @@ To learn more about configuring inputs in Azure Stream Analytics job, see the re
 
 ## **Recommended Documents**
 
-* [Different types of streaming input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-inputs)
-* [Configuring reference data](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-use-reference-data)
+* [Different types of streaming data input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-inputs)
+* [Different types of reference data input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-use-reference-data)
+* [How to use Azure SQL DB as reference data input](https://docs.microsoft.com/azure/stream-analytics/sql-reference-data)
+* [Azure SQL DB reference data input FAQs](https://docs.microsoft.com/azure/stream-analytics/sql-reference-data#faqs)
 * [How to parse array and record data types](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parsing-json)
