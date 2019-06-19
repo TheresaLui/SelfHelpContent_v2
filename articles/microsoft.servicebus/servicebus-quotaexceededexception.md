@@ -4,6 +4,7 @@
 	service="microsoft.servicebus"
 	resource="namespaces"
 	authors="jtaubensee"
+	ms.author="chiragpa"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
