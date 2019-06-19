@@ -19,9 +19,14 @@
 # Error BMSUserErrorVaultDeletionNotAllowed
 
 <!--issueDescription-->
-We have that your operation failed because the vault cannot be deleted as there are existing resources within the vault.
+We have determined that your operation has failed because the vault cannot be deleted, as there are existing resources within the vault.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve this issue, ensure there are no backup items, protected servers or backup management servers associated with this vault. Unregister the following containers associated with this vault before proceeding for deletion. For more information refer this [article](https://aka.ms/AB-AA4ecq5)
+* Ensure there are no backup items, protected servers, or backup management servers associated with this vault
+* Unregister any containers associated with this vault before proceeding for deletion
+
+## **Recommended Steps**
+
+* [Delete a Recovery Services Vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)
