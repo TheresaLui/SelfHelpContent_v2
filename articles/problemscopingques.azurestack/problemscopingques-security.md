@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack virtual machine"
-    description="Azure Stack virtual machine"
+    pageTitle="Azure Stack Security, Secrets Management, and Identity"
+    description="Azure Stack Security, Secrets Management, and Identity"
     authors="genlin"
     ms.author="genli"
     selfHelpType="problemScopingQuestions"
@@ -8,9 +8,9 @@
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-3000-4e97-b711-4b07ac45db50"
+    articleId="8ccb2fde-4000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack virtual machine
+# Azure Stack Security, Secrets Management, and Identity"
 ---
 {
     "subscriptionRequired": true,
@@ -146,102 +146,35 @@
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },
         {
-            "id": "os_version",
+            "id": "stack_guid",
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "What is the OS version of the affected virtual machine?",
-            "watermarkText": "Example: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
+            "displayLabel": "GUID of your Azure Stack environment's Deployment",
+            "watermarkText": "Enter the GUID",
             "required": false
         },
         {
-            "id": "tenant_vm_admin",
+            "id": "CA_external",
             "order": 7,
-            "controlType": "dropdown",
-            "displayLabel": "Is this a tenant or an admin virtual machine?",
-            "dropdownOptions": [
-                {
-                    "value": "Tenant virtual machine",
-                    "text": "Tenant virtual machine"
-                },
-                {
-                    "value": "Admin virtual machine",
-                    "text": "Admin virtual machine"
-                }
-            ],
+            "controlType": "textbox",
+            "displayLabel": "Certificate authority that signed your Azure Stack external certificates",
+            "watermarkText": "Enter the name of the Certificate authority",
             "required": false
         },
         {
-            "id": "how_deploy",
+            "id": "external_CA_expire_day",
             "order": 8,
-            "controlType": "dropdown",
-            "displayLabel": "What image was used to deploy the virtual machine?",
-            "watermarkText": "Select a option",
-            "dropdownOptions": [
-                {
-                    "value": "Azure Stack image",
-                    "text": "Azure stack marketplace image"
-                },
-                {
-                    "value": "custom image",
-                    "text": "Custom image"
-                }
-            ],
+            "controlType": "textbox",
+            "displayLabel": "Next external certificate expiration date",
+            "watermarkText": "Enter the date,
             "required": false
         },
         {
-            "id": "vm_status",
+            "id": "internal_CA_expire_day",
             "order": 9,
             "controlType": "textbox",
-            "displayLabel": "What is the status of the affected virtual machine in the portal?",
-            "watermarkText": "",
-            "required": false
-        },
-    {
-          "id": "has_worked",
-            "order": 10,
-            "controlType": "dropdown",
-            "displayLabel": "Has this ever worked?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "change_before",
-            "order": 11,
-            "visibility": "has_worked == Yes",
-            "controlType": "textbox",
-            "displayLabel": "Has anything changed since this issue started?",
-           "watermarkText": "Description of what happened before you noticed the issue",
-            "required": false
-        },
-    {
-          "id": "perform_steps",
-            "order": 12,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Select the troubleshooting steps you have completed:",
-            "dropdownOptions": [
-                {
-                    "value": "Restart the virtual machine",
-                    "text": "Restart the virtual machine"
-                },
-                {
-                    "value": "Redeploy the virtual machine",
-                    "text": "Redeploy the virtual machine"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
+            "displayLabel": "Next internal certificate expiration date",
+            "watermarkText": "Enter the date,
             "required": false
         },
         {
