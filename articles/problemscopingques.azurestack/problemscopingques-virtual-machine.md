@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Azure Stack Environment Details"
-    description="Additional details for on-premises Azure Stack issue"
-    authors="alexsmithMSFT"
-    ms.author="prchint"
+    pageTitle="Azure Stack virtual machine"
+    description="Azure Stack virtual machine"
+    authors="genlin"
+    ms.author="genli"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629190,32629191,32629227,32629228,32629258,32629259,32629192,32663928,32663927,32663926,32629196,32629217,32629218,32629252,32629254,32629188,32629245,32629247,32630576,32629269,32629234,32629263,32629233,32629177,32629189,32629204,32629209,32629212,32629195,32630577,32629271,32629272,32663929,32663930,32629187,32629193,32663921,32663913,32663902,32663903,32663904,32663906,32663905,32629200,32629278"
+    supportTopicIds="32663889,32663907,32663909,32663891,32663893,32663895,32663898,32663915,32663917,32663919,32663911,32663912,32663890,32663908,32663910,32663892,32663894,32663896,32663899,32663914,32663916,32663918,32663920,32663897,32663900,32663901"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-6f9f-4e97-b700-4b07ac45db50"
+    articleId="8ccb2fde-3000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Environment Details
+# Azure Stack virtual machine
 ---
 {
     "subscriptionRequired": true,
@@ -144,6 +144,105 @@
             ],
             "required": false,
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
+        },
+        {
+            "id": "os_version",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "What is the OS version of the affected virtual machine?",
+            "watermarkText": "Example: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
+            "required": false
+        },
+        {
+            "id": "tenant_vm_admin",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Is this a tenant or an admin virtual machine?",
+            "dropdownOptions": [
+                {
+                    "value": "Tenant virtual machine",
+                    "text": "Tenant virtual machine"
+                },
+                {
+                    "value": "Admin virtual machine",
+                    "text": "Admin virtual machine"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "how_deploy",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "What image was used to deploy the virtual machine?",
+            "watermarkText": "Select a option",
+            "dropdownOptions": [
+                {
+                    "value": "Azure Stack image",
+                    "text": "Azure stack marketplace image"
+                },
+                {
+                    "value": "custom image",
+                    "text": "Custom image"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "vm_status",
+            "order": 9,
+            "controlType": "textbox",
+            "displayLabel": "What is the status of the affected virtual machine in the portal?",
+            "watermarkText": "",
+            "required": false
+        },
+    {
+          "id": "has_worked",
+            "order": 10,
+            "controlType": "dropdown",
+            "displayLabel": "Has this ever worked?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "change_before",
+            "order": 11,
+            "visibility": "has_worked == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Has anything changed since this issue started?",
+           "watermarkText": "Description of what happened before you noticed the issue",
+            "required": false
+        },
+    {
+          "id": "perform_steps",
+            "order": 12,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Select the troubleshooting steps you have completed:",
+            "dropdownOptions": [
+                {
+                    "value": "Restart the virtual machine",
+                    "text": "Restart the virtual machine"
+                },
+                {
+                    "value": "Redeploy the virtual machine",
+                    "text": "Redeploy the virtual machine"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
         },
         {
             "id": "problem_start_time",

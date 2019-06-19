@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Azure Stack Environment Details"
-    description="Additional details for on-premises Azure Stack issue"
-    authors="alexsmithMSFT"
+    pageTitle="Azure Stack Security, Secrets Management, and Identity"
+    description="Azure Stack Security, Secrets Management, and Identity"
+    authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629190,32629191,32629227,32629228,32629258,32629259,32629192,32663928,32663927,32663926,32629196,32629217,32629218,32629252,32629254,32629188,32629245,32629247,32630576,32629269,32629234,32629263,32629233,32629177,32629189,32629204,32629209,32629212,32629195,32630577,32629271,32629272,32663929,32663930,32629187,32629193,32663921,32663913,32663902,32663903,32663904,32663906,32663905,32629200,32629278"
+    supportTopicIds="32663931,32663932,32629198,32629257"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-6f9f-4e97-b700-4b07ac45db50"
+    articleId="8ccb2fde-4000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Environment Details
+# Azure Stack Security, Secrets Management, and Identity"
 ---
 {
     "subscriptionRequired": true,
@@ -144,6 +144,38 @@
             ],
             "required": false,
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
+        },
+        {
+            "id": "stack_guid",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "GUID of your Azure Stack environment's Deployment",
+            "watermarkText": "Enter the GUID",
+            "required": false
+        },
+        {
+            "id": "CA_external",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "Certificate authority that signed your Azure Stack external certificates",
+            "watermarkText": "Enter the name of the Certificate authority",
+            "required": false
+        },
+        {
+            "id": "external_CA_expire_day",
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "Next external certificate expiration date",
+            "watermarkText": "Enter the date",
+            "required": false
+        },
+        {
+            "id": "internal_CA_expire_day",
+            "order": 9,
+            "controlType": "textbox",
+            "displayLabel": "Next internal certificate expiration date",
+            "watermarkText": "Enter the date",
+            "required": false
         },
         {
             "id": "problem_start_time",

@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Azure Stack Environment Details"
-    description="Additional details for on-premises Azure Stack issue"
-    authors="alexsmithMSFT"
-    ms.author="prchint"
+    pageTitle="Azure Stack Marketplace Management - Download issues"
+    description="Azure Stack Marketplace Management - Download issues"
+    authors="genlin"
+    ms.author="genli"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629190,32629191,32629227,32629228,32629258,32629259,32629192,32663928,32663927,32663926,32629196,32629217,32629218,32629252,32629254,32629188,32629245,32629247,32630576,32629269,32629234,32629263,32629233,32629177,32629189,32629204,32629209,32629212,32629195,32630577,32629271,32629272,32663929,32663930,32629187,32629193,32663921,32663913,32663902,32663903,32663904,32663906,32663905,32629200,32629278"
+    supportTopicIds="32663924,32663923,32663922,32629265"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-6f9f-4e97-b700-4b07ac45db50"
+    articleId="8ccb2fde-6f9f-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Environment Details
+# Azure Stack Marketplace Management - Download issues
 ---
 {
     "subscriptionRequired": true,
@@ -144,6 +144,38 @@
             ],
             "required": false,
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
+        },
+        {
+            "id": "registration_name",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Registration name",
+            "watermarkText": "Name of your Azure Stack registration",
+            "required": false,
+            "infoBalloonText": "You can find the registration name in Region Management - Properties"
+        }, {
+            "id": "Subscription_name",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "ID of Azure Subscription used for registration",
+            "required": false,
+            "infoBalloonText": "You can find the Azure Subscription ID in Region Management- Properties"
+        },
+{
+            "id": "image_name",
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "Image name",
+            "watermarkText": "Image Name",
+            "required": false
+        },{
+            "id": "image_version",
+            "order": 9,
+            "controlType": "textbox",
+            "displayLabel": "Image version",
+            "watermarkText": "Image version",
+            "required": false
         },
         {
             "id": "problem_start_time",
