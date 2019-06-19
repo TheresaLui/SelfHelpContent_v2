@@ -175,7 +175,7 @@
             "order": 8,
             "controlType": "textbox",
             "displayLabel": "How did you deploy the virtual machine?",
-            "watermarkText": ""
+            "watermarkText": "Select a option",
             "dropdownOptions": [
                 {
                     "value": "Azure Stack image",
