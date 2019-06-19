@@ -60,4 +60,3 @@ To enable normal operation of your instance, please increase the storage limit f
 
 * [Managed Instance resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits)
 * [Managed Instance service tiers](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#managed-instance-service-tiers)
-* [What to do if Azure SQL Managed Instance reaches the max storage limit?](https://stackoverflow.com/questions/54150468/what-to-do-if-azure-sql-managed-instance-reaches-the-max-storage-limit)
