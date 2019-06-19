@@ -30,31 +30,29 @@ In this state, insert, update, delete, and index maintenance queries or any othe
 To enable normal operation of your instance, please increase the storage limit from:
 
 * [Azure Portal](https://portal.azure.com/)
-
 * [Az PowerShell - Managed Instance update](https://docs.microsoft.com/powershell/module/Az.Sql/Set-AzSqlInstance)
 
 	Example (with the current values):
 
-	<code>
-		Set-AzSqlInstance
-		-ResourceGroupName <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
-		-Name <!--$ServerName-->ServerName<!--/$ServerName-->
-		-VCore <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
-		-StorageSizeInGB <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
-	</code>
-
+```
+Set-AzSqlInstance
+-ResourceGroupName <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
+-Name <!--$ServerName-->ServerName<!--/$ServerName-->
+-VCore <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
+-StorageSizeInGB <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
+```
 * [Azure CLI - Managed Instance update](https://docs.microsoft.com/cli/azure/sql/mi#az-sql-mi-update)
 
 	Example (with the current values):
 
-	<code>
-		az sql mi update
-		--subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->
-		--resource-group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
-		--name <!--$ServerName-->ServerName<!--/$ServerName-->
-		--capacity <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
-		--storage <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
-	</code>
+```
+az sql mi update
+--subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->
+--resource-group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
+--name <!--$ServerName-->ServerName<!--/$ServerName-->
+--capacity <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
+--storage <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
+```
 
 ## **Recommended Documents**
 
