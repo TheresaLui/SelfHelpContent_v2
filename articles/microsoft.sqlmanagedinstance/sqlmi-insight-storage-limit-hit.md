@@ -29,7 +29,7 @@ In this state, insert, update, delete, and index maintenance queries or any othe
 
 To enable normal operation of your instance, please increase the storage limit from:
 
-* [Azure Portal - <!--$ServerName-->ServerName<!--/$ServerName-->](https://portal.azure.com/#resource/subscriptions/<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->/resourceGroups/<!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->/providers/Microsoft.Sql/managedInstances/<!--$ServerName-->ServerName<!--/$ServerName-->)
+* [Azure Portal](https://portal.azure.com/)
 
 * [Az PowerShell - Managed Instance update](https://docs.microsoft.com/powershell/module/Az.Sql/Set-AzSqlInstance)
 
@@ -45,7 +45,7 @@ To enable normal operation of your instance, please increase the storage limit f
 
 * [Azure CLI - Managed Instance update](https://docs.microsoft.com/cli/azure/sql/mi#az-sql-mi-update)
 
-	Example (with the current values)
+	Example (with the current values):
 
 	<code>
 		az sql mi update
