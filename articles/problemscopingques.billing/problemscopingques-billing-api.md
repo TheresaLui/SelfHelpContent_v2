@@ -30,30 +30,12 @@
         {
             "id": "SubscriptionId",
             "order": 6,
-            "controlType": "dropdown",
-            "displayLabel": "Select the Subscription ID",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions?api-version=2014-04-01",
-                "jTokenPath": "value",
-                "textProperty": "displayName,subscriptionId",
-                "textTemplate": "{displayName} ({subscriptionId})",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not in the list"
-                }
-            ],
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
+            "displayLabel": "Enter the Subscription ID",
+	    "controlType": "textbox",
+            "useAsAdditionalDetails": true,       
+            "watermarkText": "Provide the email id accessing the data",
+            "required": false
+          },
         {
             "id": "subscriptionid_details",
             "order": 7,
