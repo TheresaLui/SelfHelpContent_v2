@@ -166,7 +166,7 @@
             "order": 8,
             "controlType": "textbox",
             "displayLabel": "Next external certificate expiration date",
-            "watermarkText": "Enter the date,
+            "watermarkText": "Enter the date",
             "required": false
         },
         {
@@ -174,7 +174,7 @@
             "order": 9,
             "controlType": "textbox",
             "displayLabel": "Next internal certificate expiration date",
-            "watermarkText": "Enter the date,
+            "watermarkText": "Enter the date",
             "required": false
         },
         {
