@@ -23,7 +23,7 @@ We detected a purchase failure for the deployment of Azure Marketplace offer **<
 
 ## Recommended Steps
 
-Go to the [Azure Marketplace](https://azuremarketplace.microsoft.com/) storefront, or the Marketplace service in the [Azure portal](https://portal.azure.com) to access the offer you intended to purchase. Complete the purchase or you can cancel.<br>
+Go to the [Azure Marketplace](https://azuremarketplace.microsoft.com/) storefront, or the Marketplace service in the [Azure portal](https://portal.azure.com), to access the offer you intended to purchase. Complete the purchase or you can cancel.<br>
 
 Choose your payment method:
 - [Add, update, or remove a credit or debit card for Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
