@@ -7,7 +7,7 @@
 	authors="scottAzure"
 	ms.author="scotro"
 	displayOrder=""
-	articleId="DeploymentFailure_RCA-Marketplace-legal-terms"
+	articleId="DeploymentFailure_RCA-Marketplace-legal"
 	diagnosticScenario="OperationFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
