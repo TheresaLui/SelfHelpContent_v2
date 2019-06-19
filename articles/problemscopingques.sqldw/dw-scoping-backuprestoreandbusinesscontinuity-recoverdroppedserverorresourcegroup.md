@@ -13,8 +13,8 @@
 # Backup, restore and business continuity - recover dropped server or resource group
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Recover dropped server or resource group",
     "fileAttachmentHint": "",
     "formElements": [

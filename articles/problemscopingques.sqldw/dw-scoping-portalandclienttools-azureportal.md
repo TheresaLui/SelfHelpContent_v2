@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": true,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Azure Portal",
     "fileAttachmentHint": "",
     "formElements": [
