@@ -1,10 +1,10 @@
 <properties
-	pageTitle="Testing BCDR or HADR with Cosmos DB"
-	description="Testing BCDR or HADR with Cosmos DB"
+	pageTitle="High-availability, business continuity and disaster recovery via global distribution capabilities of Azure Cosmos DB"
+	description="High-availability, business continuity and disaster recovery via global distribution capabilities of Azure Cosmos DB"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
-	ms.author="balaks"
+	authors="markjbrown"
+	ms.author="mjbrown"
 	selfHelpType="generic"
 	supportTopicIds="32636794"
 	resourceTags=""
@@ -12,14 +12,12 @@
 	cloudEnvironments="public"
 	articleId="cosmosdb-admin-georeplication"
 />
-# How to test BCDR (business continuity and disaster recovery) or HADR (high availability and disaster recovery) with Azure Cosmos DB
 
-Most enterprise applications include business continuity testing as part of their development and release process. BCDR and HADR testing 
-is often an important step in compliance certifications and guarantees service availability in the case of regional outages.
+# High-availability, business continuity and disaster recovery via global distribution capabilities of Azure Cosmos DB
 
-## **Recommended Steps**
-
-You can test the BCDR readiness of your applications that use Azure Cosmos DB by triggering a manual failover of your Cosmos DB account and/or by adding and removing a region dynamically.
+The following documents provide details on how Azure Cosmos DB provides high-availability, business continuity and disaster recovery in the case of regional outages.
 
 ## **Recommended Documents**
-* [Automatic regional failover for business continuity in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/regional-failover)
+
+* [High availability with Cosmos DB in the event of regional outages](https://docs.microsoft.com/azure/cosmos-db/high-availability#high-availability-with-cosmos-db-in-the-event-of-regional-outages)
+* [RPO and RTO for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/consistency-levels-tradeoffs#rto)
