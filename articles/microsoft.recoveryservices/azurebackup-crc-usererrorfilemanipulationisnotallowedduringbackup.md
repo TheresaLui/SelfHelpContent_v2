@@ -19,11 +19,12 @@
 # Error UserErrorFileManipulationIsNotAllowedDuringBackup
 
 <!--issueDescription-->
-We have identified that backup operation failed because another process was manipulating files and SQL server does not allow to run backup in parallel with that operation.
+We have identified that backup operation failed because another process was manipulating files. SQL server is not able to run backup in parallel with that operation.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 To resolve this issue, when Backup operation is in progress:
 
-* Ensure not to add or drop files to a database
-* Ensure not to shrink files
+* Do not add or drop files to a database
+* Do not shrink files
