@@ -218,7 +218,7 @@
             "required": false
         },  
         {
-            "id": error_message",
+            "id": "error_message",
             "order": 12,
             "visibility": "has_worked == No",
             "controlType": "textbox",
