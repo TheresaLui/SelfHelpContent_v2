@@ -27,7 +27,7 @@ Review the marketplace terms for the offer and accept them by doing one of the f
 
 - Go to the [Azure Marketplace]( https://azuremarketplace.microsoft.com/) storefront, or the Marketplace service in the [Azure portal](https://portal.azure.com).
 - For PowerShell, use the [Get-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/get-azmarketplaceterms) and [Set-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/set-azmarketplaceterms) commands. For an example, see [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#accept-the-terms).
-- For Azure CLI, use the [az image show](htt.ps://docs.microsoft.com/cli/azure/image?view=azure-cli-latest#az-image-show) and [az vm image accept-terms](https://docs.microsoft.com/cli/azure/vm/image?view=azure-cli-latest#az-vm-image-accept-terms) commands. For an example, see [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#accept-the-terms).<br>
+- For Azure CLI, use the [az image show](https://docs.microsoft.com/cli/azure/image?view=azure-cli-latest#az-image-show) and [az vm image accept-terms](https://docs.microsoft.com/cli/azure/vm/image?view=azure-cli-latest#az-vm-image-accept-terms) commands. For an example, see [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#accept-the-terms).<br>
 
 ## Recommended Documents
 
