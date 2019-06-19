@@ -14,7 +14,8 @@
 ---
 {
     "resourceRequired": true,
-    "title": "Cannot scale higher or lower",
+    "subscriptionRequired": true,
+    "title": "Recover dropped server or resource group",
     "fileAttachmentHint": "",
     "formElements": [
         {
