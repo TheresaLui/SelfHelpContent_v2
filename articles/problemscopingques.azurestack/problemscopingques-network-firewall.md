@@ -229,7 +229,6 @@
         },
         {
             "id": "problem_start_time",
-            "visibility": "has_worked" == Yes",
             "order": 900,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
