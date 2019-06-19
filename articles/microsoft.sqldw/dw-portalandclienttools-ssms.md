@@ -7,6 +7,7 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635220"
 	productPesIds="15818"
+	displayOrder="65"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-portalandclienttools-ssms.md"
