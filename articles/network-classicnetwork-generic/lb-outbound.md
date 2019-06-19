@@ -33,6 +33,6 @@ Do you know? Azure engineers helped customers solve around 80% of the cases abou
 * [Outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)
 * [Troubleshoot Azure Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot)
 * [Metrics and health diagnostics for Standard Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics)
-* [Azure Monitor logs for public Basic Load Balancer](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-monitor-log#enable-logging)
+* [Azure Monitor logs for public Basic Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log#enable-logging)
 
 
