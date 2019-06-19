@@ -218,14 +218,6 @@
             "required": false
         },  
         {
-            "id": "error_start_time",
-            "order": 11,
-            "visibility": "has_worked == Yes",
-            "controlType": "datetimepicker",
-            "displayLabel": " When did the problem start?",
-             "required": false
-        },
-        {
             "id": error_message",
             "order": 12,
             "visibility": "has_worked == No",
