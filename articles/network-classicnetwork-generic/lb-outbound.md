@@ -16,17 +16,17 @@
 
 # Troubleshoot No outbound connectivity from Backend Pool
 
-Do you know? Azure engineers helped customers solve around 80% of the cases about "No outbound connectivity from Backend Pool" by following these recommended steps and documents in the past.
+Did you know: Azure engineers helped customers solve around 80% of the cases about "No outbound connectivity from Backend Pool" by following these recommended steps and documents in the past.
 
 ## **Recommended Steps**
 
-1. Know the traffic flow. What are the source, destination, and what are in between? Examine every hop to understand if the traffic is flowing as expected.
+1. Know the traffic flow. What is the source and destination, and what is in between? Examine every hop to understand if the traffic is flowing as expected.
 2. Check if there's any Network Security Group, User Defined Route, or any other filtering system which can block or alternate the outbound connectivity.
 3. Check the load balancer configuration. For example, are the back-end address pool, health probe, and load balancer rule setup correctly?
-4. Check DNS resolution on the affected source machine(s).
+4. Check DNS resolution on the affected source machine(s)
 5. Are you using an **internal Standard Load Balancer**? If yes, you need take steps to [create outbound connectivity](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-rules-overview#outbound-nat-for-internal-standard-load-balancer-scenarios) for the VMs in the backend pool if outbound connectivity is desired.
 6. If this is an intermittent issue, does your application initiate many outbound flows and you experience [SNAT port exhaustion](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections#problemsolving)?
-7. If you're using a 3rd party network virtual appliance (NVA) from Azure market place with Azure Load Balancer, make sure you have the instructions from NVA vendor and follow the instructions.  
+7. If you're using a 3rd party network virtual appliance (NVA) from Azure market place with Azure Load Balancer, make sure you have the instructions from NVA vendor and follow the instructions 
 
 ## **Recommended Documents**
 
