@@ -1,6 +1,6 @@
 <properties 
 	pageTitle="I am receiving a quota exceeded exception" 
-	description="Learn more about the two most causes for the QuotaExceededException error" 
+	description="Learn more about the two most common cause for the QuotaExceededException error" 
 	service="microsoft.servicebus"
 	resource="namespaces"
 	authors="jtaubensee"
