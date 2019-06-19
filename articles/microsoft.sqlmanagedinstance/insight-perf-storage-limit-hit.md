@@ -41,7 +41,8 @@ To enable normal operation of your instance, please increase the storage limit f
 		-Name <!--$ServerName-->ServerName<!--/$ServerName-->
 		-VCore <!--$virtual_core_count-->virtual_core_count<!--/$virtual_core_count-->
 		-StorageSizeInGB <!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb-->
-	</code><br><br>
+	</code>
+
 * [Azure CLI - Managed Instance update](https://docs.microsoft.com/cli/azure/sql/mi#az-sql-mi-update)
 
 	Example (with the current values)
@@ -53,7 +54,8 @@ To enable normal operation of your instance, please increase the storage limit f
 		--name <!--$ServerName-->ServerName<!--/$ServerName-->
 		--capacity <!--$virtual_core_count-->virtual_core_count<!--/$virtual_core_count-->
 		--storage <!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb-->
-	</code><br><br>
+	</code>
+
 ## **Recommended Documents**
 
 * [Managed Instance resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits)
