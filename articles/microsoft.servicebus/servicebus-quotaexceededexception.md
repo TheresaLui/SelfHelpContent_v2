@@ -16,10 +16,12 @@
 
 # I am receiving a quota exceeded exception
 
-## **Recommended steps**
+## **Recommended Steps**
+
 QuotaExceededException indicates that a quota for a specific entity has been exceeded. 
 
 * Look at the [Service Bus Messaging Exceptions](https://azure.microsoft.com/documentation/articles/service-bus-messaging-exceptions/#quotaexceededexception) article for more information about quota exceeded exceptions
 
-## **Recommended documents**
-[More information on the QuotaExceededException Class](https://msdn.microsoft.com/library/azure/microsoft.servicebus.messaging.quotaexceededexception.aspx)<br>
+## **Recommended Documents**
+
+* [More information on the QuotaExceededException Class](https://msdn.microsoft.com/library/azure/microsoft.servicebus.messaging.quotaexceededexception.aspx)<br>
