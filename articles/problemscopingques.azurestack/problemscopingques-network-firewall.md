@@ -177,15 +177,15 @@
             "order": 8,
             "controlType": "dropdown",
             "visibility": "tenant_all_single == Single tenant",
-            "displayLabel": " Is this isolated to single Resource Group or Virtual Network? ",
+            "displayLabel": " Is this isolated to single resource group or virtual network? ",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "Yes",
-                    "text": "No"
+                    "text": "Yes"
                 },
                 {
-                    "value": "Yes",
+                    "value": "No",
                     "text": "No"
                 }
             ],
@@ -229,6 +229,7 @@
         },
         {
             "id": "problem_start_time",
+            "visibility": "has_worked" == Yes",
             "order": 900,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
