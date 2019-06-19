@@ -23,4 +23,6 @@ We have identified that your backup operations failed because the VM was reboote
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue check if the VM was shutdown while processes were running, if yes then rerun the backup operation.
+
+* Check if the VM was shut down while processes were running
+* If yes, then rerun the backup operation
