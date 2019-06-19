@@ -20,7 +20,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Managed instance named **<!--$ServerName-->ServerName<!--/$ServerName-->** on subscription **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->** and resource group **<!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->** was hitting the preconfigured maximum storage limit of *<!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb--> GB* between *<!--$min_time-->min_time<!--/$min_time-->* and *<!--$max_time-->max_time<!--/$max_time-->*.
+Managed instance named **<!--$ServerName-->ServerName<!--/$ServerName-->** on subscription **<!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->** and resource group **<!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->** was hitting the preconfigured maximum storage limit of *<!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb--> GB* between *<!--$minTime-->minTime<!--/$minTime-->* and *<!--$maxTime-->maxTime<!--/$maxTime-->*.
 
 In this state, insert, update, delete, and index maintenance queries or any other requests that require system or user database space expansion will fail immediately due to the insufficient space.
 <!--/issueDescription-->
@@ -39,8 +39,8 @@ To enable normal operation of your instance, please increase the storage limit f
 		Set-AzSqlInstance
 		-ResourceGroupName <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
 		-Name <!--$ServerName-->ServerName<!--/$ServerName-->
-		-VCore <!--$virtual_core_count-->virtual_core_count<!--/$virtual_core_count-->
-		-StorageSizeInGB <!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb-->
+		-VCore <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
+		-StorageSizeInGB <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
 	</code>
 
 * [Azure CLI - Managed Instance update](https://docs.microsoft.com/cli/azure/sql/mi#az-sql-mi-update)
@@ -52,8 +52,8 @@ To enable normal operation of your instance, please increase the storage limit f
 		--subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId-->
 		--resource-group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->
 		--name <!--$ServerName-->ServerName<!--/$ServerName-->
-		--capacity <!--$virtual_core_count-->virtual_core_count<!--/$virtual_core_count-->
-		--storage <!--$reserved_storage_gb-->reserved_storage_gb<!--/$reserved_storage_gb-->
+		--capacity <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount-->
+		--storage <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->
 	</code>
 
 ## **Recommended Documents**
