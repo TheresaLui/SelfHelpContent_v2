@@ -20,6 +20,6 @@
 
 ## **Recommended Documents**
 
-* **[Partner licensing questions - quick reference guide](https://support.microsoft.com/help/4076425/partner-licensing-questions-quick-reference-guide)**
-* **[Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers)**
-* **[Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)**
+* [Partner licensing questions - quick reference guide](https://support.microsoft.com/help/4076425/partner-licensing-questions-quick-reference-guide)
+* [Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers)
+* [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
