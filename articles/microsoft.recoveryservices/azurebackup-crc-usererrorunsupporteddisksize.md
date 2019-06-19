@@ -18,10 +18,10 @@
 # Error UserErrorUnsupportedDiskSize
 
 <!--issueDescription-->
-We have identified that your backup operation failed because currently Azure Backup does not support disk sizes greater than 4095GB. 
+We have identified that your backup operation failed because Azure Backup does not currently support disk sizes greater than 4095GB. 
 <!--/issueDescription-->
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 * For more information on supported configurations refer this [article](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas)
 * Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB
