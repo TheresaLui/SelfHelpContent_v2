@@ -1,6 +1,6 @@
 <properties 
 	pageTitle="How can I rename a queue/topic after I create it?" 
-	description="How can I rename a queue/topic after I create it?" 
+	description="Learn how to change the name of a queue in the portal, using the NamespaceManager API" 
 	service="microsoft.servicebus"
 	resource="namespaces"
 	authors="jtaubensee"
