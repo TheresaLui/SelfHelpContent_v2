@@ -1,6 +1,6 @@
 <properties 
 	pageTitle="I am receiving a timeout exception" 
-	description="I am receiving a timeout exception" 
+	description="Troubleshoot timeout exceptions for your service bus" 
 	service="microsoft.servicebus"
 	resource="namespaces"
 	authors="jtaubensee"
