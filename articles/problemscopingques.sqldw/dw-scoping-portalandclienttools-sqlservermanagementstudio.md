@@ -1,7 +1,7 @@
 <properties
-	articleId="dw-scoping-portalandclienttools-azuredatastudio.md"
-	pageTitle="Azure Data Studio"
-	description="Azure Data Studio"
+	articleId="dw-scoping-portalandclienttools-sqlservermanagementstudio.md"
+	pageTitle="SQL Server Management Studio"
+	description="SQL Server Management Studio"
 	authors="anumjs"
 	ms.author="anjangsh"
 	selfHelpType="problemScopingQuestions"
@@ -25,7 +25,7 @@
             "required": true
         },
         {
-            "id": "dw_scoping_version",
+            "id": "dw_scoping_ssms_version",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server Management Studio (SSMS) version?",

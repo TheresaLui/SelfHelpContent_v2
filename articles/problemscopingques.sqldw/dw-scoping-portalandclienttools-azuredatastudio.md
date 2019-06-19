@@ -25,7 +25,7 @@
             "required": true
         },
         {
-            "id": "dw_scoping_version",
+            "id": "dw_scoping_data_version",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the Azure Data Studio version?",
