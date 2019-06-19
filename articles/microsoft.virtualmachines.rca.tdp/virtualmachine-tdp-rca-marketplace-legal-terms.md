@@ -7,7 +7,7 @@
 	authors="scottAzure"
 	ms.author="scotro"
 	displayOrder=""
-	articleId="ValidationFailure_RCA-Marketplace-legal-terms"
+	articleId="DeploymentFailure_RCA-Marketplace-legal-terms"
 	diagnosticScenario="OperationFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -23,23 +23,23 @@ We detected a purchase failure for the deployment of Azure Marketplace offer **<
 
 ## Recommended Steps
 
-You can browse images and current offers on the [Azure Marketplace]( https://azuremarketplace.microsoft.com/) storefront and purchase them in the [Azure portal](https://portal.azure.com). You can also use the following commands:<br>
+Review the marketplace terms for the offer and accept them by doing one of the following.
 
-|Tool|Command|
-|---|---|
-| Azure PowerShell | [Get-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/get-azmarketplaceterms)<br>[Set-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/set-azmarketplaceterms) |
-| Azure CLI | [az image show](https://docs.microsoft.com/cli/azure/image?view=azure-cli-latest#az-image-show)<br>[az vm image accept-terms](https://docs.microsoft.com/cli/azure/vm/image?view=azure-cli-latest#az-vm-image-accept-terms)|<br>
+### Marketplace and Azure Portal
+
+Go to the [Azure Marketplace]( https://azuremarketplace.microsoft.com/) storefront, or the Marketplace service in the [Azure portal](https://portal.azure.com).<br>
+
+### Azure PowerShell
+
+Use the [Get-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/get-azmarketplaceterms) and [Set-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/set-azmarketplaceterms) commands. For an example, see [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#accept-the-terms).<br>
+
+
+### Azure CLI
+
+Use the [az image show](htt.ps://docs.microsoft.com/cli/azure/image?view=azure-cli-latest#az-image-show) and [az vm image accept-terms](https://docs.microsoft.com/cli/azure/vm/image?view=azure-cli-latest#az-vm-image-accept-terms) commands. For an example, see [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#accept-the-terms).<br>
 
 ## Recommended Documents
 
-- [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#accept-the-terms)
 - [Find Windows VM images in the Azure Marketplace with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage)  
 - [Find Linux VM images in the Azure Marketplace with the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage)
- 
-
-
-
-
-
-
-
+- [Marketplace FAQs](https://docs.microsoft.com/azure/marketplace/marketplace-faq-publisher-guide)
