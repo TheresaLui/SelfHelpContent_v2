@@ -16,10 +16,13 @@
 
 # I am receiving a timeout exception
 
-## **Recommended steps**
-This exception usually indicates that a user-initiated operation is taking longer than the operation timeout. 
-* Look at the [Service Bus Messaging Exceptions](https://azure.microsoft.com/documentation/articles/service-bus-messaging-exceptions/#timeoutexception) article for more information about timeout exceptions
-* Check the [Azure service status site](https://azure.microsoft.com/status/) to see if there are any known service outages.
+## **Recommended Steps**
 
-## **Recommended documents**
-[More information on the TimeOutException Class](https://msdn.microsoft.com/library/system.timeoutexception.aspx)<br>
+This exception usually indicates that a user-initiated operation is taking longer than the operation timeout. 
+
+* Look at the [Service Bus Messaging Exceptions](https://azure.microsoft.com/documentation/articles/service-bus-messaging-exceptions/#timeoutexception) article for more information about timeout exceptions
+* Check the [Azure service status site](https://azure.microsoft.com/status/) to see if there are any known service outages
+
+## **Recommended Documents**
+
+* [More information on the TimeOutException Class](https://msdn.microsoft.com/library/system.timeoutexception.aspx)<br>
