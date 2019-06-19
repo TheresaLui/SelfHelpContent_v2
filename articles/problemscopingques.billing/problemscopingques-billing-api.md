@@ -28,18 +28,8 @@
             "required": true
         },
         {
-            "id": "SubscriptionId",
-            "order": 6,
-            "displayLabel": "Enter the Subscription ID",
-	    "controlType": "textbox",
-            "useAsAdditionalDetails": true,       
-            "watermarkText": "Provide the email id accessing the data",
-            "required": false
-          },
-        {
             "id": "subscriptionid_details",
             "order": 7,
-            "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "Provide your Subscription id",
