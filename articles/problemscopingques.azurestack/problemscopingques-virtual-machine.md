@@ -173,7 +173,7 @@
         {
             "id": "how_deploy",
             "order": 8,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "How did you deploy the virtual machine?",
             "watermarkText": "Select a option",
             "dropdownOptions": [
@@ -196,27 +196,9 @@
             "watermarkText": "",
             "required": false
         },
-        {
-            "id": "is_reboot",
-            "order": 10,
-            "controlType": "textbox",
-            "displayLabel": "",
-            "watermarkText": ""
-            "dropdownOptions": [
-                {
-                    "value": "Azure Stack image",
-                    "text": "A image in Azure stack marketplace"
-                },
-                {
-                    "value": "custom image",
-                    "text": "A custom image"
-                }
-            ],
-            "required": false
-        },
     {
           "id": "has_worked",
-            "order": 11,
+            "order": 10,
             "controlType": "dropdown",
             "displayLabel": "Has this ever worked?",
             "watermarkText": "Choose an option",
@@ -234,7 +216,7 @@
         },
         {
             "id": "change_before",
-            "order": 12,
+            "order": 11,
             "visibility": "has_worked == Yes",
             "controlType": "textbox",
             "displayLabel": "Has anything changed since this issue started?",
@@ -243,7 +225,7 @@
         },
     {
           "id": "perform_steps",
-            "order": 13,
+            "order": 12,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have completed:",
             "dropdownOptions": [
