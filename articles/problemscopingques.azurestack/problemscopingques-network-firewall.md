@@ -199,7 +199,8 @@
             "displayLabel": " What is the name of resource group or virtual network?",
             "watermarkText": "Name of the resource group or virtual network ",
             "required": false
-        },{
+        },
+    {
           "id": "has_worked",
             "order": 10,
             "controlType": "dropdown",
