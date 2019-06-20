@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
-	ms.author="srinathv"
+	ms.author="srinathvasireddy"
 	displayOrder=""
 	articleId="azurebackup-crc-copyingvhdsfrombackupvaulttakinglongtime"
 	diagnosticScenario="azurebackup-crc-copyingvhdsfrombackupvaulttakinglongtime"
