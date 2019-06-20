@@ -39,6 +39,7 @@
   "description": "",
   "longDescription": "",
   "potentialBenefits": "",
+  "supportedSDKLanguages": [],
   "actions": [
     {
       "actionId": "",
