@@ -14,7 +14,7 @@
 	articleId="bot-unabletoconfigureCortana"
 />
 
-# Unable to create Cortana channel
+# Unable to configure a bot with Cortana channel
 
 Cortana does not currently support the use of Azure Active Directory (AAD) Account authentication. You will need to use a Microsoft Account (MSA) to successfully publish your bot to Cortana.
 You may see the following errors if you use AAD authentication:
