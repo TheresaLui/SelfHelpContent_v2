@@ -17,8 +17,9 @@
 # ExtensionFailedSnapshotRateExceededError
 
 <!--issueDescription-->
-We have identify that the backup snapshot operation is colliding with another product trying to take snapshot at the same time. Since the storage account has a limit of one snapshot, per disk per minute hence the backup failed.
+We have identify that the backup snapshot operation is colliding with another product trying to take snapshot at the same time. Since the storage account has a limit of one snapshot per disk per minute, the backup failed.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue, ensure there is no conflict during snapshot operation, by following the [best practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices) and retry the backup operation.
+## **Recommended Documents**
+
+* [Best practices for Azure Backups](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
