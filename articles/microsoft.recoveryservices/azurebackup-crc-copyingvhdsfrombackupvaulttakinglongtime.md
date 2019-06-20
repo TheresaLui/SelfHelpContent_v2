@@ -19,11 +19,15 @@
 # Error CopyingVHDsFromBackUpVaultTakingLongTime
 
 <!--issueDescription-->
-We have identified that your backup operation is taking longer than expected.
+We have identified that your backup operation is taking longer than expected, due to transient storage errors or insufficient storage account IOPS for the backup service to transfer data to the vault within the timeout period.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have identified that the backup operation failed becuase due to transient storage errors or insufficient storage account IOPS for backup service to transfer data to the vault within the timeout period.
 
-## **Recommended Document**
-To resolve this issue, configure VM backup using these best practices and retry the backup operation. For more information, refer [Backup performance](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance) and [Best practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices).
+* Review your Virtual Machine backup configuration
+* Ensure you are using the [Best practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices) for Azure Backups
+* Retry the operation
+
+## **Recommended Documents**
+
+* [Backup performance](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance)
