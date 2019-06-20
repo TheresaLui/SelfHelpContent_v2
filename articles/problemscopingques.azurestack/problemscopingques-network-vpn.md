@@ -190,7 +190,7 @@
             "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Provide details about your local VPN device",
             "useAsAdditionalDetails": true,
             "required": true,
             "hints": [{
