@@ -27,9 +27,4 @@ We have investigated and determined that your virtual machine is in an inaccessi
 
 1. Force a restart of the Virtual Machine from the portal
 
-
- 
-
-
-
 2. If this is a recurrent issue on every restart causing a slow shutdown operation, then collect a memory dump while the problem is happening and create a support case providing the memory dump collected.
