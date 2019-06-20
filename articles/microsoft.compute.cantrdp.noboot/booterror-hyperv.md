@@ -31,7 +31,4 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
 
 1. Proceed with a redeploy which will move the VM to another host
 
-
- .
 2. If that is does not resolve the problem, then recreate the VM so it is allocated in a different cluster all together.
-
