@@ -177,7 +177,7 @@
             "order": 8,
             "controlType": "dropdown",
             "visibility": "tenant_all_single == Single tenant",
-            "displayLabel": " Does the issue occur in a certain resource group or virtual network? ",
+            "displayLabel": "Does the issue occur in a certain resource group or virtual network? ",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
