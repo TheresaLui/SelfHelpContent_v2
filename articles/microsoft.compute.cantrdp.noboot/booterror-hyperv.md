@@ -27,8 +27,6 @@ We have investigated and determined that your virtual machine is in an inaccessi
 
 ## **Recommended Steps**
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
-
 1. Proceed with a redeploy which will move the VM to another host
 
 2. If that is does not resolve the problem, then recreate the VM so it is allocated in a different cluster all together.
