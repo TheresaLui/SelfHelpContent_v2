@@ -6,11 +6,11 @@
 	authors="anoobbacker"
 	ms.author="anbacker"
 	authoralias="anbacker"
-	displayOrder="8"
-	articleId="8d369530-40db-47c3-9825-3fd11864293c"
+	displayOrder="9"
+	articleId="b5117bd9-ce72-4f16-950d-fa3020bbc0bb"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags="DataBoxEdge"
+	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
 />
@@ -22,9 +22,9 @@
 If you are receiving heartbeat alerts, this may be because your device has Internet connectivity issues. Try the following steps to resolve the issue:
 
 * The Internet connectivity is broken. Check your internet connection. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve any reported issues.
-* The device is turned off. Turn on your device! For more information, go to [Turn on your device](https://docs.microsoft.com/azure/databox-online/data-box-edge-deploy-connect-setup-activate#set-up-and-activate-the-physical-device).
+* The device is turned off. Turn on your device! For more information, go to [Turn on your device](https://docs.microsoft.com/azure/databox-online/data-box-gateway-deploy-connect-setup-activate#set-up-and-activate-the-virtual-device).
 * Your device could have rebooted due to an update. Wait for a few minutes, then try to reconnect.
 
 ## **Recommended Documents**
 
-* [Troubleshoot your Azure Data Box Edge issues](https://docs.microsoft.com/azure/databox-online/data-box-edge-troubleshoot)
+* [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)
