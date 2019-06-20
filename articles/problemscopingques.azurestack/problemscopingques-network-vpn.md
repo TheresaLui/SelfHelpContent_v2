@@ -168,7 +168,7 @@
             "required": false
         },
         {
-            "id": "s2s_status",
+            "id": "issue_resource,
             "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Is there a issue when you connect to a resource by using the Site-to-Site VPN?",
@@ -186,13 +186,13 @@
             "required": false
         },
         {
-            "id": "On-premises VPN device configuration",
+            "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "useAsAdditionalDetails": true,
-            "required": false,
+            "required": true,
             "hints": [{
                         "text": "VPN device model"
                     },
@@ -213,13 +213,13 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "more_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
-            "useAsAdditionalDetails": true,
-            "required": true
+            "useAsAdditionalDetails": false,
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
