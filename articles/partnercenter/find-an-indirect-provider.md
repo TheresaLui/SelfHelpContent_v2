@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Find an indirect provider"
-	description="Find an indirect provider"
+	pageTitle="Find an Indirect provider"
+	description="Find an Indirect provider"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -17,7 +17,7 @@
 	cloudEnvironments="public"
 />
 
-# Find an indirect provider
+# Find an Indirect provider
 
 Microsoft has built a global network of qualified indirect providers who can help you get your unique cloud-based solution to market faster. Indirect providers can take care of customer billing and support, allowing you to focus on building your reseller business.
 
