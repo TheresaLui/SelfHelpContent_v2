@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
-	ms.author:"srinathvasireddy"
+	ms.author="srinathvasireddy"
 	displayOrder=""
 	articleId="azurebackup-crc-maximumdatasourcesizeexceededforosversion"
 	diagnosticScenario="azurebackup-crc-maximumdatasourcesizeexceededforosversion"
