@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
-	authorAlias="srinathvasireddy"
+	ms.author="srinathvasireddy"
 	articleId="azurebackup-crc-extensionfailedsnapshotrateexceedederror"
 	diagnosticScenario="azurebackup-crc-extensionfailedsnapshotrateexceedederror"
 	selfHelpType="diagnostics"
@@ -21,4 +21,4 @@ We have identify that the backup snapshot operation is colliding with another pr
 <!--/issueDescription-->
 
 ## **Recommended Document**
-To resolve this issue, ensure there is no conflict during snapshot operation, by following the [best practices](https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction#best-practices) and retry the backup operation.
+To resolve this issue, ensure there is no conflict during snapshot operation, by following the [best practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices) and retry the backup operation.
