@@ -19,7 +19,7 @@
 # We ran diagnostics on your resource and found the following issue
 
 There is a problem with the credentials you are using to login to the HDInsight Ambari portal. <br>
-You are probably using an on-premise id that will not work while logging into the HDInsight Ambari portal. <br>
+If you are using an on-premise id, it will not work while logging into the HDInsight Ambari portal. <br>
 
 ## **Recommended Steps**
 
