@@ -71,7 +71,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "deployment_os",
