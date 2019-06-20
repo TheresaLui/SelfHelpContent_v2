@@ -36,8 +36,8 @@
             "id": "cluster_name",
             "order": 10,
             "controlType": "textbox",
-            "displayLabel": "Cluster name if available",
-            "required": false
+            "displayLabel": "Cluster name",
+            "required": true
         },
         {
             "id": "is_new_problem",
