@@ -192,6 +192,7 @@
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "useAsAdditionalDetails": true,
+            "required": false,
             "hints": [{
                         "text": "VPN device model"
                     },
@@ -200,11 +201,10 @@
                         },{
                         "text": "Phase 1 (main mode) and Phase 2 (quick mode) policy configuration"
                     },{
-                        "text": Routing Subnets"
+                        "text": "Routing Subnets"
                     }
                     ]
-            "required": false
-        }
+        },
         {
             "id": "problem_start_time",
             "order": 900,
