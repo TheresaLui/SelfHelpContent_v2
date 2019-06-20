@@ -22,9 +22,7 @@ Creating an ARM resource or ARM deployment may result in a policy violation.
 
 Here is a list of the policy violations:
 
-<!--$policyAssignmentDetail-->
-[policyAssignmentDetail]
-<!--/$policyAssignmentDetail-->
+<!--$policyAssignmentDetail-->[policyAssignmentDetail]<!--/$policyAssignmentDetail-->
 <!--/issueDescription-->
 
 ## **Recommended Documents**

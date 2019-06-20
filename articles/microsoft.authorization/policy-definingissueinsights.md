@@ -20,9 +20,7 @@
 <!--/issueDescription-->
 We found the following policy definition syntax errors:
 
-<!--$ErrorMessages-->
-[ErrorMessages]
-<!--/$ErrorMessages-->
+<!--$ErrorMessages-->[ErrorMessages]<!--/$ErrorMessages-->
 <!--/issueDescription-->
 
 ## Recommended Steps

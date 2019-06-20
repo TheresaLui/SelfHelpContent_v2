@@ -20,9 +20,7 @@
 <!--/issueDescription-->
 The recent policy definition and assignment changes on the user's subscription:
 
-<!--$Summary-->
-[Summary]
-<!--/$Summary-->
+<!--$Summary-->[Summary]<!--/$Summary-->
 <!--/issueDescription-->
 
 ## Recommended Steps
