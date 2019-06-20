@@ -189,7 +189,7 @@
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description",
+            "displayLabel": "On-premises VPN device configuration",
             "watermarkText": "Provide details about your local VPN device",
             "useAsAdditionalDetails": true,
             "required": true,
@@ -219,7 +219,7 @@
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "useAsAdditionalDetails": false,
-            "required": false
+            "required": true,
         }
     ],
     "$schema": "SelfHelpContent"
