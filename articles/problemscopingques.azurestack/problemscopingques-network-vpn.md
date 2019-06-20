@@ -168,7 +168,7 @@
             "required": false
         },
         {
-            "id": "issue_resource,
+            "id": "issue_resource",
             "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Is there a issue when you connect to a resource by using the Site-to-Site VPN?",
