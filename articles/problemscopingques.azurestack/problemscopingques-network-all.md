@@ -149,7 +149,7 @@
             "id": "tenant_all_single",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Does the issue occurs a specific tenant or all tenants? ",
+            "displayLabel": "Does the issue occur in a specific tenant or all tenants? ",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -177,7 +177,7 @@
             "order": 8,
             "controlType": "dropdown",
             "visibility": "tenant_all_single == Single tenant",
-            "displayLabel": " Does the issue occurs in a certain resource group or virtual network? ",
+            "displayLabel": " Does the issue occur in a certain resource group or virtual network? ",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
