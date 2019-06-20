@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Azure Stack Security, Secrets Management, and Identity"
-    description="Azure Stack Security, Secrets Management, and Identity"
+    pageTitle="Azure Stack Network for User Environment - VPN"
+    description="Azure Stack Network for User Environment - VPN"
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32663931,32663932,32629198,32629257"
+    supportTopicIds="32629265"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-4000-4e97-b711-4b07ac45db50"
+    articleId="8ccb2fde-7000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Security, Secrets Management and Identity
+# Azure Stack Network for User Environment - VPN
 ---
 {
     "subscriptionRequired": true,
@@ -146,37 +146,65 @@
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },
         {
-            "id": "stack_guid",
+            "id": "s2s_status",
             "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "GUID of your Azure Stack environment's Deployment",
-            "watermarkText": "Enter the GUID",
+            "controlType": "dropdown",
+            "displayLabel": "What is the status of the Site-to-Site VPN gateway connection?",
+            "watermarkText": "Connection status",
+            "dropdownOptions": [
+                {
+                    "value": "Connected",
+                    "text": "Connected"
+                },
+                {
+                    "value": "Not connected",
+                    "text": "Can't connected"
+                },
+                {
+                    "value": "intermittent",
+                    "text": "The connection is intermittent"
+                }
+            ],
             "required": false
         },
         {
-            "id": "CA_external",
+            "id": "s2s_status",
             "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Certificate authority that signed your Azure Stack external certificates",
-            "watermarkText": "Enter the name of the Certificate authority",
+            "controlType": "dropdown",
+            "displayLabel": "Is there a issue when you connect to a resource by using the Site-to-Site VPN?",
+            "watermarkText": "Choose a option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
             "required": false
         },
         {
-            "id": "external_CA_expire_day",
+            "id": "On-premises VPN device configuration",
             "order": 8,
-            "controlType": "textbox",
-            "displayLabel": "Next external certificate expiration date",
-            "watermarkText": "Enter the date",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "useAsAdditionalDetails": true,
+            "hints": [{
+                        "text": "VPN device model"
+                    },
+                    {
+                        "text": "Firmware version"
+                        },{
+                        "text": "Phase 1 (main mode) and Phase 2 (quick mode) policy configuration"
+                    },{
+                        "text": Routing Subnets"
+                    }
+                    ]
             "required": false
-        },
-        {
-            "id": "internal_CA_expire_day",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "Next internal certificate expiration date",
-            "watermarkText": "Enter the date",
-            "required": false
-        },
+        }
         {
             "id": "problem_start_time",
             "order": 900,
