@@ -23,14 +23,7 @@ We have identified that your backup operation is taking longer than expected.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue, try the following: 
+We have identified that the backup operation failed becuase due to transient storage errors or insufficient storage account IOPS for backup service to transfer data to the vault within the timeout period.
 
-* Consider staggering backup times of involved VMs by about an hour or so to see if issue resolves. Stagger more if required.
-* Consider limiting on the number of disks per storage account relative to how heavily the disks are being accessed
-* If protected disks that are undergoing incremental backup have a daily churn of more than 200 GB, backup can take a long time (more than eight hours) to complete
-* If changes are spread out and fragmented across a disk, backup operation will be slower. Consider performance defragmentation.
-
-## **Recommended Documents**
-
-* [Backup performance](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance) 
-* [Best practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
+## **Recommended Document**
+To resolve this issue, configure VM backup using these best practices and retry the backup operation. For more information, refer [Backup performance](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance) and [Best practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices).
