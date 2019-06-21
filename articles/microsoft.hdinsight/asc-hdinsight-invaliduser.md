@@ -18,10 +18,9 @@
 
 # We ran diagnostics on your resource and found the following issue
 
-There is a problem with the credentials you are using to login to the HDInsight Ambari portal. <br>
-If you are using an on-premise id, it will not work while logging into the HDInsight Ambari portal. <br>
+There is a problem with the credentials you are using to login to the HDInsight Ambari portal. If you are using an on-premise id, it will not work while logging into the HDInsight Ambari portal. 
 
 ## **Recommended Steps**
 
-* Use the same credentials you use to login to [Azure Portal](https://portal.azure.com) to login to the HDInsight Ambari portal.
+* Use the same credentials you use to login to [Azure Portal](https://portal.azure.com) to login to the HDInsight Ambari portal
 
