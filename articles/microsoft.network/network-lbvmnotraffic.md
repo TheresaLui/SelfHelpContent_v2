@@ -1,6 +1,6 @@
 <properties
 	pageTitle="My load balanced VMs are not receiving traffic"
-	description="Troubleshoot connectivity issues to the load balancers in your virtual network"
+	description="Troubleshoot connectivity issues to the load balanced virtual machines in your virtual network"
 	service="microsoft.network"
 	resource="loadbalancers"
 	authors="radwiv"
