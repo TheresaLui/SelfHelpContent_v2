@@ -21,13 +21,13 @@
 We detected a purchase failure for the deployment of Azure Marketplace offer **<!--$offerId-->offerId<!--/$offerId-->** using the subscription **<!--$subscriptionId-->subscriptionID<!--/$subscriptionId-->**. <br>
 <!--/issueDescription-->
 
-The offer you intended to purchase is available for your subscription or location.<br>
+The offer you intended to purchase is not available for your subscription or region.<br>
 
 ## Recommended Steps
 
 If this offer has been created recently, please allow up to 30 minutes for this offer to be available for purchase. 
 
-If still unavailable, go to the [Azure Marketplace](https://azuremarketplace.microsoft.com/) or the Marketplace service in the [Azure Portal](https://portal.azure.com/) to select an image that is supported by your subscription and location. You can also use PowerShell and the Azure CLI:
+If still unavailable, you can determine which images are available in your subscription or region by using PowerShell and the Azure CLI:
 
 - For PowerShell examples, see [Navigate the images](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/cli-ps-findimage#navigate-the-images).
 - For Azure CLI examples, see [List popular images](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#list-popular-images).
