@@ -46,7 +46,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "correlationId",
