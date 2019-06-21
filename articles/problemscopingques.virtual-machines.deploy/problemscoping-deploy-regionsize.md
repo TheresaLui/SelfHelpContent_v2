@@ -18,6 +18,10 @@
     "resourceRequired": false,
     "title": "My desired region or VM size is unavailable",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine deployment diagnostics",
+            "description": "These diagnostics will check for details about your selected deployment failure.",
+            "insightNotAvailableText": "We didn't find any problems"},    
     "formElements": [
         {
             "id": "resourceGroup",

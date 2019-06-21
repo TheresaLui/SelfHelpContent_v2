@@ -18,6 +18,10 @@
     "resourceRequired": false,
     "title": "I need guidance deploying with managed disks",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine deployment diagnostics",
+            "description": "These diagnostics will check for details about your selected deployment failure.",
+            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
             "id": "resourceGroup",
