@@ -18,16 +18,16 @@
 # Your Azure Marketplace purchase needs your attention
 
 <!--issueDescription-->
-We detected a purchase failure for the deployment of Azure Marketplace offer **<!--$offerId-->offerId<!--/$offerId-->** using the subscription **<!--$subscriptionId-->subscriptionID<!--/$subscriptionId-->**. Your purchase cannot be completed until you complete the payment on the purchase offer.<br>
+We detected a purchase failure for the deployment of Azure Marketplace offer **<!--$offerId-->offerId<!--/$offerId-->** using the subscription **<!--$subscriptionId-->subscriptionID<!--/$subscriptionId-->**. <br>
 <!--/issueDescription-->
+
+Your purchase cannot be completed until you choose your payment method.<br>
 
 ## Recommended Steps
 
-Go to the [Azure Marketplace](https://azuremarketplace.microsoft.com/) storefront, or the Marketplace service in the [Azure portal](https://portal.azure.com), to access the offer you intended to purchase. Complete the purchase or you can cancel.<br>
-
 Choose your payment method:
 - [Add, update, or remove a credit or debit card for Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-- [Pay Azure subscription by invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)<br>
+- [Pay Azure subscription by invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice). This option is available for only business accounts.<br>
 
 ## Recommended Documents
 
