@@ -1,9 +1,12 @@
 <properties
 	pageTitle="VMs behind Load Balancer (LB) not responding to requests"
-	description="VMs behind Load Balancer (LB) not responding to requests"
+	description="Troubleshoot reasons behind why the load balanced virtual machines are unresponsive"
 	service="microsoft.network"
 	resource="loadbalancers"
 	authors="radwiv"
+	ms.author="radwiv"
+	category="Connectivity"
+	searchTags=""
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
