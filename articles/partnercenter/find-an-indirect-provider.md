@@ -24,3 +24,4 @@ Microsoft has built a global network of qualified indirect providers who can hel
 ## **Recommended Documents**
 
 * [Find an indirect provider](https://partner.microsoft.com/cloud-solution-provider/find-a-provider)
+
