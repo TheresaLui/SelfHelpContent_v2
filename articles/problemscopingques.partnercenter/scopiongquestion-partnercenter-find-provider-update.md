@@ -29,11 +29,11 @@
             "useAsAdditionalDetails": true
         },
         {
-            "id": "tax_id_added",
+            "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "Tax ID updated date",
-            "watermarkText": "When did you add your tax ID to your partner profile?",
+            "displayLabel": "Start Time",
+            "watermarkText": "When did your issue begin?",
             "required": true
         }
     ],
