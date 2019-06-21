@@ -23,7 +23,7 @@ Information about how to update details published on the Find a Provider page.
 
 ## **Recommended Steps**
 
-- Verify your companies infromation on the [Find a Provider page](https://partner.microsoft.com/cloud-solution-provider/find-a-provider).
+- Verify your companies information on the [Find a Provider page](https://partner.microsoft.com/cloud-solution-provider/find-a-provider).
 - Download the [Update Provider Listing Form](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3d8Wm).
 - Complete the form and attach the file to your support request.
 
