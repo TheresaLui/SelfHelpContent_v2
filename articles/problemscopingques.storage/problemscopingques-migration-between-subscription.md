@@ -23,14 +23,14 @@
             "visibility": "true",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Source storage account name",
-            "watermarkText": "storage account name",
+            "displayLabel": "Source storage account",
+            "watermarkText": "Enter storage account name",
             "required": true
         },{
             "id": "storage_account_to",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Destination Storage Account",
+            "displayLabel": "Destination storage account",
             "watermarkText": "Select storage account",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",

@@ -23,7 +23,7 @@
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Source storage account",
-            "watermarkText": "Storage account to migration from",
+            "watermarkText": "Select storage account to migrate from",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",
                 "jTokenPath": "value",
@@ -42,14 +42,14 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Source storage account name",
-            "watermarkText": "storage account name",
+            "watermarkText": "Enter storage account name",
             "required": false
         },{
             "id": "storage_account_to",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Destination Storage Account",
-            "watermarkText": "To StorageAccountName",
+            "displayLabel": "Destination storage account",
+            "watermarkText": "Select storage account to migrate to",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",
                 "jTokenPath": "value",
@@ -68,7 +68,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Destination storage account name",
-            "watermarkText": "storage account name",
+            "watermarkText": "Enter storage account name",
             "required": false
         },{
             "id": "problem_start_time",
