@@ -13,6 +13,7 @@
 # Storage File migration between Storage Accounts
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Storage File migration between Storage Accounts scoping question",
     "fileAttachmentHint": "",
