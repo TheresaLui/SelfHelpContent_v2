@@ -18,16 +18,14 @@
 # Your Azure Marketplace purchase needs your attention
 
 <!--issueDescription-->
-We detected a purchase failure for the deployment of Azure Marketplace offer **<!--$offerId-->offerId<!--/$offerId-->** using the subscription **<!--$subscriptionId-->subscriptionID<!--/$subscriptionId-->**. Your purchase cannot be completed until you accept the terms on the purchase offer.<br>
+We detected a purchase failure for the deployment of Azure Marketplace offer **<!--$offerId-->offerId<!--/$offerId-->** using the subscription **<!--$subscriptionId-->subscriptionID<!--/$subscriptionId-->**.<br> 
 <!--/issueDescription-->
+
+Your purchase cannot be completed until the offer is enabled for purchase.<br>
 
 ## Recommended Steps
 
-Review the marketplace terms for the offer and accept them by doing one of the following.
-
-- Go to the [Azure Marketplace]( https://azuremarketplace.microsoft.com/) storefront, or the Marketplace service in the [Azure portal](https://portal.azure.com).
-- For PowerShell, use the [Get-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/get-azmarketplaceterms) and [Set-AzMarketPlaceTerms](https://docs.microsoft.com/powershell/module/az.marketplaceordering/set-azmarketplaceterms) commands. For an example, see [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#accept-the-terms).
-- For Azure CLI, use the [az image show](https://docs.microsoft.com/cli/azure/image?view=azure-cli-latest#az-image-show) and [az vm image accept-terms](https://docs.microsoft.com/cli/azure/vm/image?view=azure-cli-latest#az-vm-image-accept-terms) commands. For an example, see [Accept the terms](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#accept-the-terms).<br>
+The enrollment administrator controls privileges on which accounts can make the purchase. Contact the publisher or your system administrator to acertain the needed requirements.
 
 ## Recommended Documents
 
