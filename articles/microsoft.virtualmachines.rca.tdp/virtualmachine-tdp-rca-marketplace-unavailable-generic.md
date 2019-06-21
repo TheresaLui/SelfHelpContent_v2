@@ -18,13 +18,14 @@
 # Your Azure Marketplace purchase needs your attention
 
 <!--issueDescription-->
-We detected a purchase failure for the deployment of Azure Marketplace offer **<!--$offerId-->offerId<!--/$offerId-->** using the subscription **<!--$subscriptionId-->subscriptionID<!--/$subscriptionId-->**. Validation errors, possibly temporarily, interrupted the purchase.<br>
+We detected a purchase failure for the deployment of Azure Marketplace offer **<!--$offerId-->offerId<!--/$offerId-->** using the subscription **<!--$subscriptionId-->subscriptionID<!--/$subscriptionId-->**.<br>
 <!--/issueDescription-->
+
+Validation errors, possibly temporarily, interrupted the purchase.<br>
 
 ## Recommended Steps
 
 If this offer was created recently, please allow up to 30 minutes for this offer to be available for purchase. If error persists, contact support.
-
 
 ## Recommended Documents
 
