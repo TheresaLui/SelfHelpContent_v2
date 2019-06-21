@@ -29,7 +29,7 @@ If this offer has been created recently, please allow up to 30 minutes for this 
 
 If still unavailable, you can determine which images are available in your region by using PowerShell and the Azure CLI. Please note, however, that although an offer may be avaiable in your region it is not guaranteed to be available for your subscription.
 
-- For PowerShell examples, see [Navigate the images](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/cli-ps-findimage#navigate-the-images).
+- For PowerShell examples, see [Navigate the images](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#navigate-the-images).
 - For Azure CLI examples, see [List popular images](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#list-popular-images).
 
 ## Recommended Documents
