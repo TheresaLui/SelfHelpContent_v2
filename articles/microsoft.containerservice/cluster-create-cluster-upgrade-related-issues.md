@@ -24,7 +24,7 @@
 * [Upgrade failed due to expired Service Principal Name](https://docs.microsoft.com/azure/aks/update-credentials#update-aks-cluster-with-new-credentials)<br>
 * [Upgrade or Scale fails if cluster has a failed upgrade or is currently undergoing un update](https://docs.microsoft.com/azure/aks/troubleshooting#im-receiving-errors-that-my-cluster-is-in-failed-state-and-upgrading-or-scaling-will-not-work-until-it-is-fixed)<br>
 * [AKS cluster upgrade failed to create Daemonsets (FluentD/Prometheus)](https://github.com/Azure/AKS/issues/828)<br>
-* [Other active known issues related to upgrade](https://github.com/Azure/AKS/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+upgrade+label%3Aknown-issue+)<br>
+* [Other active known issues related to upgrade](https://github.com/Azure/AKS/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+upgrade+label%3Aknown-issue+)<br><br>
 
 
 ### Other related articles
