@@ -34,7 +34,7 @@
                     "value": "dont_know_answer",
                     "text": "From a different subscription, external source or not applicable"
                 }
-            }
+            },
             "required": true
         },{
             "id": "storage_account_from_other",
@@ -60,7 +60,7 @@
                     "value": "dont_know_answer",
                     "text": "From a different subscription, external source or not applicable"
                 }
-            }
+            },
             "required": true
         },{
             "id": "storage_account_to_other",
