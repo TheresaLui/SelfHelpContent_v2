@@ -26,4 +26,3 @@ Information about Azure Marketplace billing and invoicing in Partner Center.
 * [Access billing info for Marketplace products](https://docs.microsoft.com/partner-center/sell-marketplace-products#access-billing-info-for-marketplace-products)
 * [Understanding the types of billing in Partner Center](https://docs.microsoft.com/partner-center/billing-different-types#billing-for-one-time-and-select-recurring-charges)
 * [Get invoice billed Azure Marketplace consumption line items](https://docs.microsoft.com/partner-center/develop/get-invoice-billed-consumption-lineitems)
-
