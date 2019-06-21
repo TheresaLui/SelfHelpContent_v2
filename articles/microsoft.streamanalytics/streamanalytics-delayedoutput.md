@@ -20,7 +20,7 @@ When a Stream Analytics job is started, the input events are read, but there can
 
 It is important to ensure data is getting ingested into all partitions of your Event Hubs or IoT Hub. When one input partition is not receiving input, this can lead to a 5 second delay of your output.
 
-If your job is processing events by Arrival Time (using TIMESTAMP BY clause in your query), your [event ordering policies](https://docs.microsoft.com/azure/stream-analytics/event-ordering) could also introduce a delay in your output. When configuring these settings, it is important to remember prioritize your data correctness and latency requirements.
+If your job is processing events by Arrival Time (using TIMESTAMP BY clause in your query), your [event ordering policies](https://docs.microsoft.com/azure/stream-analytics/event-ordering) could also delay the output produced. When configuring these settings, it is important to remember prioritize your data correctness and latency requirements.
 
 There are scenarios in which your output might be delayed. To learn more, see the recommended documents:
 
