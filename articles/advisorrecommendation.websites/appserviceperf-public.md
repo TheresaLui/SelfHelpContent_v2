@@ -14,7 +14,7 @@
   "recommendationOfferingName": "App Service",
   "$schema": "AdvisorRecommendation",
   "dataSourceMetadata": {
-    "dataSource": "SAS",
+    "dataSource": "SAS"
   },
   "recommendationTypeId": "85650d10-4245-40f6-a3e5-db1e70728a47",
   "recommendationCategory": "Performance",

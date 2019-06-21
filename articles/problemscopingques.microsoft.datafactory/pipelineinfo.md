@@ -39,21 +39,21 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Name of the problem pipeline(s) (separate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "pipeline_json_code",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "JSON code of the affected pipeline",
-            "required": true
+            "required": false
         },
         {
             "id": "sample_pipeline_run_ids",
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Sample problem pipeline RunIDs (separate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "sample_activity_run_ids",

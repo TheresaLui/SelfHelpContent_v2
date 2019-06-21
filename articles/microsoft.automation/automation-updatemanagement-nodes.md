@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32615227"
+    supportTopicIds="32615227,32642182"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"

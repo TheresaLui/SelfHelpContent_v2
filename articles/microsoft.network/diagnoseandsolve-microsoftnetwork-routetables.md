@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="a6d4dba5-cbfe-45b3-a8fa-c54ac3a71eee"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15526"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.network, routetables

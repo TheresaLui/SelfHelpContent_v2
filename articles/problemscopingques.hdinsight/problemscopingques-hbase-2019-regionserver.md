@@ -36,14 +36,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Number of region servers impacted",
-            "required": true
+            "required": false
         },
         {
             "id": "region_server_list",
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Name of the region servers impacted (seperate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

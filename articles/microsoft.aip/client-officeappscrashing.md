@@ -29,7 +29,8 @@
     * At the beginning of the macro, add: `Application.EnableEvents = False`
 	* At the end of the macro, add: `Application.EnableEvents = True`
 
-8. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+8. If you are Windows Defender installed, run the following command in elevated (Run as Administrator) PowerShell session and see if issue resolves: `Set-ProcessMitigation -Name <app path> -Disable EAF, IAF` where instead of <app path> place the relevant exe paths to all Office apps (excel.exe, winword.exe, etc.)
+9. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 

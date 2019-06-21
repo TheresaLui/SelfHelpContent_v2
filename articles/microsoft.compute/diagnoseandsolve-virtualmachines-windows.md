@@ -463,7 +463,7 @@ cloudEnvironments="public"
           "title": "Restore VM from Snapshot",
           "description": "Troubleshoot issues when restoring a VM from Snapshot",
           "supportTopicId": "32632143",
-          "commonSolutionArticleId": "compute-virtualdiskmgmt",
+          "commonSolutionArticleId": "compute-virtualdiskmgmt-restoresnapshot",
           "symptomId": ""
         },
         {
