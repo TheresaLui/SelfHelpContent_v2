@@ -29,10 +29,12 @@ When the transaction log becomes full, SQL Server Database Engine issues a 9002 
 
 ## **Recommended Steps**
 
-To enable normal operation of your instance, you will need to increase the space reserved for log files on your storage.
+* To enable normal operation of your instance, you will need to increase the space reserved for log files on your storage
+* If you have free, unneeded space on your instance, you can just [enlarge your log files](<https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file?view=sql-server-2017#AddOrEnlarge>). Otherwise, consider updating your SLO and getting more storage for your instance.
+* To enlarge the log file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and `MAXSIZE` syntax
 
-If you have free, unneeded space on your instance, you can just [enlarge your log files](<https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file?view=sql-server-2017#AddOrEnlarge>). Otherwise, consider updating your SLO and getting more storage for your instance.
+## **Recommended Documents**
 
-To enlarge the log file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and `MAXSIZE` syntax. For more information, see [ALTER DATABASE (Transact-SQL) File and Filegroup options](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-file-and-filegroup-options?view=sql-server-2017).
+* [ALTER DATABASE (Transact-SQL) File and Filegroup options](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-file-and-filegroup-options?view=sql-server-2017)
+* [Managing the size of the transactional log file](https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file?view=sql-server-2017#AddOrEnlarge)
 
-More information about managing the size of the transactional log file can be found on this [link](<https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file?view=sql-server-2017#AddOrEnlarge>).
