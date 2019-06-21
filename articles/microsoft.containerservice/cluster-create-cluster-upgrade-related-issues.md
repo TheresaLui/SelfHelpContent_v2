@@ -32,7 +32,7 @@
 * [Tutorial: Upgrade Kubernetes in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/tutorial-kubernetes-upgrade-cluster)<br>
 * [Troubleshooting common scenarios](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
 * [Supported Kubernetes versions in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/supported-kubernetes-versions)<br>
-<br>
+
 ### AKS Support Policy
 
 * [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
