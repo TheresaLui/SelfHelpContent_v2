@@ -26,6 +26,7 @@
 * [AKS cluster upgrade failed to create Daemonsets (FluentD/Prometheus)](https://github.com/Azure/AKS/issues/828)<br>
 * [Other active known issues related to upgrade](https://github.com/Azure/AKS/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+upgrade+label%3Aknown-issue+)<br>
 
+
 ### Other related articles
 
 * [Upgrade an Azure Kubernetes Service cluster](https://docs.microsoft.com/azure/aks/upgrade-cluster)<br>
