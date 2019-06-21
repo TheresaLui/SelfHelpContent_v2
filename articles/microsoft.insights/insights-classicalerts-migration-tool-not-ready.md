@@ -22,11 +22,11 @@ Classic alerts are being retired on August 31, 2019 and are being replaced by ne
 
 ## **Recommended Steps**
 
-1. The migration tool is rolling out in phases to all subscriptions that have classic alerts.
-
+1. The migration tool is rolling out in phases to all subscriptions that have classic alerts
 2. Currently only subscriptions having classic alert rules on following resource types are marked as "Not Ready for Migration":
-    - Classic cloud services (Microsoft.ClassicCompute/domainNames/slots/roles),
-    - Cosmos DB (Microsoft.DocumentDB/databaseAccounts),
+
+    - Classic cloud services (Microsoft.ClassicCompute/domainNames/slots/roles)
+    - Cosmos DB (Microsoft.DocumentDB/databaseAccounts)
     - and some Application Insights resources
 
 3. Check if your subscription has any classic alert rules on above resources. If so, these subscriptions will be made ready in coming weeks.
