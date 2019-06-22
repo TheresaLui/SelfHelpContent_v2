@@ -1,9 +1,10 @@
 <properties
 	pageTitle="I can't delete my virtual network"
-	description="I can't delete my virtual network"
+	description="Troubleshoot issues related to deleting your virtual network"
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="anavin"
+	ms.author="anavin"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
