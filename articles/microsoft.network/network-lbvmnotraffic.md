@@ -16,7 +16,7 @@
 	articleId="8ae1e668-23e1-42d7-8e23-5fb74f1962e7"
 />
 
-# My Load Balanced VMs are not receiving traffic
+# My load balanced VMs are not receiving traffic
 
 ## **Recommended steps**
 If you have configured Load Balancer in your virtual network and have connectivity issues, try one or more of the below steps to resolve the issue.<br>
