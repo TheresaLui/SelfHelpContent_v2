@@ -1,9 +1,10 @@
 <properties
 	pageTitle="I can't connect to my secondary NIC"
-	description="I can't connect to my secondary NIC"
+	description="Troubleshoot connectivity issues to your secondary network interface card (NIC)"
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="anavin"
+	ms.author="anavin"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
