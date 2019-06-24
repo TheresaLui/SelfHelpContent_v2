@@ -23,17 +23,13 @@
             "controlType": "dropdown",
             "displayLabel": "What Expressroute peering do you use?",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
+            "dropdownOptions": [{
                     "value": "Azure private peering",
                     "text": "Azure private peering"
-                },
-                {
+                },{
                     "value": "Microsoft peering",
                     "text": "Microsoft peering"
-                },
-                
-                {
+                },{
                     "value": "Azure public peering",
                     "text": "Azure public peering"
                 },
