@@ -17,7 +17,7 @@
 
 # <-- metrics-error-retrieving-data-message-on-dashboard -->
 
-## **My chart shows Error Retrieving Data message on dashboard**
+## My chart shows Error Retrieving Data message on dashboard
 
 This problem may happen when your dashboard was created with a metric that was later deprecated and removed from Azure. To verify that it is the case, open the **Metrics** tab of your resource, and check the available metrics in the metric picker. If the metric is not shown, the metric has been removed from Azure. Usually, when a metric is deprecated, there is a better new metric that provides with a similar perspective on the resource health.
 
