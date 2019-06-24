@@ -8,7 +8,7 @@
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-7000-4e97-b711-4b07ac45db50"
+    articleId="8ccb2fde-7110-4e97-b711-4b07ac45db50"
 />
 # Azure Stack patch and update
 ---
@@ -167,14 +167,6 @@
             "controlType": "textbox",
             "displayLabel": "Update being updated to",
             "watermarkText": "Enter the name of the update",
-            "required": false
-        },
-        {
-            "id": "sub_id",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "Azure Subscription GUID that the system is registered with",
-            "watermarkText": "Enter the GUID",
             "required": false
         },
         {
