@@ -219,7 +219,7 @@
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "useAsAdditionalDetails": false,
-            "required": true,
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
