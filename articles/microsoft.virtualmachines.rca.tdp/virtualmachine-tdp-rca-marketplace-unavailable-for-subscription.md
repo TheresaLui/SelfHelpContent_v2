@@ -27,7 +27,7 @@ The offer you intended to purchase is currently unavailable.<br>
 
 If this offer was created recently, please allow up to 30 minutes for this offer to be available for purchase.
 
-Not all data that determines purchase eligibilty is known at the time you select an offer, as the purchase terms in accordance with your subscription are subject to change by the publisher. If still unavailable, contact the publisher for recommendations or you can determine which images are available in your region by using PowerShell and the Azure CLI. 
+Not all data that determines purchase eligibility is known at the time you select an offer, as the purchase terms in accordance with your subscription are subject to change by the publisher. If still unavailable, contact the publisher for recommendations or you can determine which images are available in your region by using PowerShell and the Azure CLI. 
 
 - For PowerShell examples, see [Navigate the images](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#navigate-the-images).
 - For Azure CLI examples, see [List popular images](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#list-popular-images).
