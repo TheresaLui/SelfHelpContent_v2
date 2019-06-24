@@ -23,7 +23,7 @@ For FAQ on RTO and RPO, guarantees during regional failures across consistency l
 ## **Recommended Steps**
 
 * For single-region write accounts, you can test HA by triggering a manual failover
-* For multi-region write accounts, you can test HA by adding and removing a region dynamically.
+* For multi-region write accounts, you can test HA by adding and removing a region dynamically
 
 ## **Recommended Documents**
 

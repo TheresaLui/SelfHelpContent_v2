@@ -20,7 +20,7 @@ Stored procedure requests have a timeout of [5 seconds](https://docs.microsoft.c
 ## **Recommended Steps**
 
 * For stored procedures, follow the pattern above to avoid timeouts
-* For any other operation (not stored procedures) that return a timeout response, please file a support ticket with the account endpoint, database and container names, activity ID, and the operation that timed out.
+* For any other operation (not stored procedures) that return a timeout response, please file a support ticket with the account endpoint, database and container names, activity ID, and the operation that timed out
 
 ## **Recommended Documents**
 
