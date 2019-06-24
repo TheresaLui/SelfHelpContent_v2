@@ -17,9 +17,10 @@
 
 # <-- metrics-chart-shows-unexpected-drop-in-values -->
 
-## **My chart shows unexpected drop in values**
+## My chart shows unexpected drop in values
 
 In many cases, the perceived drop in the metric values is a misunderstanding of the data shown on the chart. You can be misled by a drop in sums or counts when the chart shows the most-recent minutes because the last metric data points haven’t been received or processed by Azure yet. Depending on the service, the latency of processing metrics can be within a couple minutes range. For charts showing a recent time range with a 1- or 5- minute granularity, a drop of the value over the last few minutes becomes more noticeable:
+
 ![metric image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/drop-in-values.png)
 
 ## **Recommended Steps**
