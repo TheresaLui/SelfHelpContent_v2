@@ -9,7 +9,7 @@
     selfHelpType="generic"
     articleId="appinsights-metricsexplorer"
     productPesIds="15693"
-    supportTopicIds="32602208"
+    supportTopicIds=""
     cloudEnvironments="public"
  />
  

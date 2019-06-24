@@ -9,9 +9,9 @@
     articleId="metrics-chart-shows-no-data"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32602208"
     resourceTags=""
-    productPesIds=""
+    productPesIds="15693"
     cloudEnvironments="public,fairfax"
 />
 
