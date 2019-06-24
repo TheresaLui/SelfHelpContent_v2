@@ -16,7 +16,7 @@
 
 # Configure a Load Balancer Telemetry
 
-Do you know: 8 of 10 "Configure a Load Balancer Telemetry" issues were once solved by using the resources below.   
+Did you know: 8 of 10 "Configure a Load Balancer Telemetry" issues were resolved using the resources listed below.   
 
 ## **Recommended Documents**
 
