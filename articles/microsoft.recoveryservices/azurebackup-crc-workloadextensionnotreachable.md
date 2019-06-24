@@ -28,4 +28,4 @@ We have identified that your operation failed because workload extension was not
 
 ## **Recommended Documents**
 
-* [Troubleshoot revalidation errors](https://docs.microsoft.com/en-us/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures)
+* [Troubleshoot revalidation errors](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures)
