@@ -25,7 +25,7 @@
 * Check if the Virtual Machines in the Load Balancer's Backend Pool are responding to Load Balancer Probe:
 
 	a. Check if the Virtual Machines are up and available
-	b. Check if the Virtual Machines are listening on the probe port (use command "netstat -an" (Windows) or "netstat -l" (Linux))
+	b. Check if the Virtual Machines are listening on the probe port (use command `netstat -an` (Windows) or `netstat -l` (Linux))
 	c. Check if the Network Security Groups on load balancer backend pool VM allow traffic on probe port (see [Troubleshoot Network Security Groups](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal))
 	d. Check if the effective User Defined Routes are interfering with probe packet routing (see [Troubleshoot Routes](https://docs.microsoft.com/azure/virtual-network/virtual-network-routes-troubleshoot-portal))
 	e. If the Load Balancer Health Probe is configured for HTTP, change it to TCP, and validate if it starts responding to probes
@@ -50,7 +50,7 @@
 	a. Test connectivity from on-premises network to any non-Load Balanced virtual machine in your virtual network to make sure the VPN/Express Route connection is good
 	b. Test connectivity to Public IP Address from On-premises network as well as outside to make sure On-premises firewall is not blocking the traffic
 	c. Check if you have Forced Tunneling configured, or a Default Route is applied on the Vnet or LB subnet. This can potentially disrupt proper routing.<br>
-
+	
 ## **Recommended Documents**
 
 * [Troubleshoot Azure Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot)<br>
