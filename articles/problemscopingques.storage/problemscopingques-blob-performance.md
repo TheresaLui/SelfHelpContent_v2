@@ -30,7 +30,7 @@
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex":"^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
             "required": false
         },
         {
@@ -39,22 +39,28 @@
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
-            "dropdownOptions": [{
+            "dropdownOptions": [
+                {
                     "value": "HTTP_401",
                     "text": "HTTP 401"
-                }, {
+                },
+                {
                     "value": "HTTP_403",
                     "text": "HTTP 403"
-                }, {
+                },
+                {
                     "value": "HTTP_409",
                     "text": "HTTP 409"
-                }, {
+                },
+                {
                     "value": "HTTP_500",
                     "text": "HTTP 500"
-                }, {
+                },
+                {
                     "value": "HTTP_503",
                     "text": "HTTP 503"
-                }, {
+                },
+                {
                     "value": "other",
                     "text": "Not listed above  "
                 }
@@ -104,6 +110,7 @@
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot performance issues."
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

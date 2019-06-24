@@ -17,8 +17,9 @@
 />
 
 # Configuration Issue Preventing User Sign-In
-
+<!--issueDescription-->
 The application you were trying to sign into does not exist in the Azure Active Directory. The application may not be configured properly in Azure AD, or the Issuer value that is coming in the sign-in request (SAML request) does not match the application Identifier.
+<!--issueDescription-->
 
 ## **Recommended Steps**
 
@@ -31,7 +32,7 @@ The application you were trying to sign into does not exist in the Azure Active 
 
 Your application should now be available for user sign-in.
 
-For future sign in problems with SAML based applications, we recommend using the [testing feature with the My Apps secure sign-in extension](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to get better and automatic self diagnosis and resolution steps. 
+For future sign in problems with SAML based applications, we recommend using the [testing feature with the My Apps secure sign-in extension](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to get better and automatic self diagnosis and resolution steps.
 
 ## **Recommended Documents**
 

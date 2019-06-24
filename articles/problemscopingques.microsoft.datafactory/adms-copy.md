@@ -48,34 +48,37 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What's the source of the copy activity?",
-            "required": true
+            "required": false
         },
         {
             "id": "sink_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What's the sink of the copy activity?",
-            "required": true
+            "required": false
         },
         {
-			"id": "ir_type",
-			"order": 5,
-			"controlType": "dropdown",
-			"displayLabel": "Which type of integration runtime are you using?",
-			"watermarkText": "Choose an IR type",
-			"dropdownOptions": [{
-					"value": "Azure IR",
-					"text": "Azure IR"
-				}, {
-					"value": "Self-hosted IR",
-					"text": "Self-hosted IR"
-				}, {
-					"value": "dont_know_answer",
-					"text": "Not applicable"
-				}
-			],
-			"required": true
-		},
+            "id": "ir_type",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Which type of integration runtime are you using?",
+            "watermarkText": "Choose an IR type",
+            "dropdownOptions": [
+                {
+                    "value": "Azure IR",
+                    "text": "Azure IR"
+                },
+                {
+                    "value": "Self-hosted IR",
+                    "text": "Self-hosted IR"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable"
+                }
+            ],
+            "required": true
+        },
         {
             "id": "sample_run_ids",
             "order": 6,
@@ -98,12 +101,13 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 9,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		}
-    ]
+            "id": "problem_end_time",
+            "order": 9,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

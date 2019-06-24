@@ -25,22 +25,22 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
-         {
+        {
             "id": "SubscriptionId",
             "order": 13,
             "controlType": "dropdown",
             "displayLabel": "Select the Subscription ID",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions?api-version=2014-04-01",
-             "jTokenPath": "value",
-             "textProperty": "displayName,subscriptionId",
-             "textTemplate": "{displayName} ({subscriptionId})",
-             "valueProperty": "id",
-             "textPropertyRegex": "[^/]+$",
-             "defaultDropdownOptions": {
-             "value": "dont_know_answer",
-             "text": "Other, don't know or not applicable"
+                "uri": "/subscriptions?api-version=2014-04-01",
+                "jTokenPath": "value",
+                "textProperty": "displayName,subscriptionId",
+                "textTemplate": "{displayName} ({subscriptionId})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "dropdownOptions": [
@@ -184,12 +184,13 @@
             "displayLabel": "Additional Details (if any)",
             "watermarkText": "Provide any additional details about the issue",
             "required": true,
-	    "hints": [
+            "hints": [
                 {
                     "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

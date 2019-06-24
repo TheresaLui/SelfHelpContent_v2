@@ -1,19 +1,21 @@
 <properties
-	pageTitle="CosmosDb Backup and Restore Info"
-	description="CosmosDb Backup and Restore Info"
-	authors="bharathsreenivas"
+	pageTitle="CosmosDB Backup and Restore Info"
+	description="CosmosDB Backup and Restore Info"
+	authors="rnagpal"
+	ms.author="rnagpal"
 	selfHelpType="problemScopingQuestions" 
-        supportTopicIds="32597495"
+        supportTopicIds="32636805,32636825"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="b7ff0c6e-0152-4881-9184-a7568ab9789e"
 />
-# CosmosDb Backup and restore Info
+# CosmosDB Backup and restore Info
 ---
 {
     "resourceRequired": true,
-    "title": "CosmosDb Backup and Restore Info",
+    "subscriptionRequired": true,
+    "title": "CosmosDB Backup and Restore Info",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -34,24 +36,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Affected databases (separate with commas)",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Affected databases (separate with commas)"
-                }
-            ]
+            "required": false
         },
         {
             "id": "collection_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Affected collections (separate with commas)",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Affected collections (separate with commas)"
-                }
-            ]
+            "required": false
         },
         {
             "id": "data_type",
@@ -130,9 +122,10 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the restore request. ",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

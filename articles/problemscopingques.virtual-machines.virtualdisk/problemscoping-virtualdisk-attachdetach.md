@@ -13,59 +13,63 @@
 # Virtual Disk Management
 ---
 {
-                "resourceRequired": true,
-                "title": "Attaching or detaching virtual disks",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "resourceRequired": true,
+    "title": "Attaching or detaching virtual disks",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "virtualdisk_attachdetach",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Are you trying to attach or detach a virtual disk?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                    "id": "virtualdisk_attachdetach",
-                    "order": 1,
-                    "controlType": "dropdown",
-                    "displayLabel": "Are you trying to attach or detach a virtual disk?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Attach",
-                            "text": "Attach"
-                        },
-                        {
-                            "value": "Detach",
-                            "text": "Detach"
-                        }
-                    ],
-                    "required": false
-                },{
-                "id": "virtualdisk_ifnew",
-                "order": 2,
-                "visibility": "virtualdisk_attachdetach == Attach",
-                "controlType": "dropdown",
-                "displayLabel": "Are you attaching a new data disk or an existing data disk?",
-                "watermarkText": "Choose an option",
-                "dropdownOptions": [
-                    {
-                        "value": "A new data disk",
-                        "text": "A new data disk"
-                    },
-                    {
-                        "value": "An existing data disk",
-                        "text": "An existing data disk"
-                    }
-                ],
-                "required": false
-                },{
-                  "id": "problem_description",
-                  "order": 3,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 4,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
+                    "value": "Attach",
+                    "text": "Attach"
+                },
+                {
+                    "value": "Detach",
+                    "text": "Detach"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "virtualdisk_ifnew",
+            "order": 2,
+            "visibility": "virtualdisk_attachdetach == Attach",
+            "controlType": "dropdown",
+            "displayLabel": "Are you attaching a new data disk or an existing data disk?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "A new data disk",
+                    "text": "A new data disk"
+                },
+                {
+                    "value": "An existing data disk",
+                    "text": "An existing data disk"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
