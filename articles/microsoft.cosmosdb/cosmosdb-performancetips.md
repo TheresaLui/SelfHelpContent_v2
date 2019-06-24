@@ -19,14 +19,15 @@
 
 In order to achieve the best performance for applications using Azure Cosmos DB, ensure that you are following below tips:
 
-1. For .NET and Async Java, use Direct/TCP connectivity mode
-2. Collocate clients in same Azure region for better performance.
-3. For high transaction workloads, increase the number of threads/connection pool size to maximize concurrency of requests.
-4. Use singleton client instance for the lifetime of your application.
-5. Review your indexing policy and explicitly include paths you need for queries (if possible).
-6. Larger documents consume higher RUs for reads and writes, so try to keep your documents small for best performance.
+* For .NET and Async Java, use Direct/TCP connectivity mode
+* Collocate clients in same Azure region for better performance
+* For high transaction workloads, increase the number of threads/connection pool size to maximize concurrency of requests
+* Use singleton client instance for the lifetime of your application
+* Review your indexing policy and explicitly include paths you need for queries (if possible)
+* Larger documents consume higher RUs for reads and writes, so try to keep your documents small for best performance
 
 ## **Recommended Documents**
+
 * [Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 * [Performance tips for Azure Cosmos DB and Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java)
 * [Performance tips for Azure Cosmos DB and Async Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java)
