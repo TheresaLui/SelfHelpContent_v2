@@ -5,7 +5,7 @@
     resource="components"
     authors="vgorbenko"
     ms.author="vitalyg"
-    displayOrder="8"
+    displayOrder="3"
     articleId="metrics-error-retrieving-data-message-on-dashboard"
     diagnosticScenario=""
     selfHelpType="generic"
@@ -27,4 +27,6 @@ Update the failing tile by picking an alternative metric for your chart on dashb
 
 * [Getting started with Azure Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-getting-started)<br>
 * [Advanced features of Azure Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts)<br>
-* [Troubleshooting issues with metrics charts](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot)<br>
+* [Troubleshooting metrics charts](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot)<br>
+* [See a list of available metrics for Azure services](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported)<br>
+* [See examples of configured charts](https://docs.microsoft.com/azure/azure-monitor/platform/metric-chart-samples)
