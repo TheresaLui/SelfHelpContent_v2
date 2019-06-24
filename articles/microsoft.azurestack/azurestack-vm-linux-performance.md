@@ -1,20 +1,20 @@
 <properties
-    pageTitle="Azure Stack Linux VM performance issues"
-    description="Azure Stack Linux VM performance issues"
+    pageTitle="Azure Stack VM performance issues"
+    description="Azure Stack VM performance issues"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="genlin"
     ms.author="mquian"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32663917"
+    supportTopicIds="32663917,32663918"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
     articleId="6f641910-1003-4135-b8d1-85ab25fa1503"
 />
 
-# Azure Stack Linux VM performance issues
+# Azure Stack VM performance issues
 
 ## **Recommended Steps**
 
@@ -29,4 +29,4 @@
 - [What is Azure Diagnostics extension](https://docs.microsoft.com/azure/monitoring-and-diagnostics/azure-diagnostics)
 - [Azure Monitor on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-metrics-azure-data)
 - [Extensions on Azure Stack VMs](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-compute-overview#extensions)
-- [Tutorial: Monitor and update a Windows virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-monitoring)
+- [Tutorial: Monitor and update a virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-monitoring)
