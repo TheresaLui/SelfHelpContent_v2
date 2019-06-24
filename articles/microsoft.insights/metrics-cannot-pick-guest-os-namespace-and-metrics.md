@@ -17,7 +17,7 @@
 
 # <-- metrics-cannot-pick-guest-os-namespace-and-metrics -->
 
-## **I can't pick Guest OS namespace and metrics**
+## I can't pick Guest OS namespace and metrics
 
 Virtual machines and virtual machine scale sets have two categories of metrics: **Virtual Machine Host** metrics that are collected by the Azure hosting environment, and **Guest OS** metrics that are collected by the [monitoring agent](https://docs.microsoft.com/azure/azure-monitor/platform/agents-overview) running on your virtual machines. You install the monitoring agent by enabling [Azure Diagnostic Extension](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-overview).
 
