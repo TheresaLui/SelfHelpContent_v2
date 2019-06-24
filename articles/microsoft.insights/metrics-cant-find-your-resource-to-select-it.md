@@ -17,7 +17,7 @@
 
 # <-- metrics-cant-find-your-resource-to-select-it -->
 
-## **I can't find my resource to select it in metrics explorer**
+## I can't find my resource to select it in metrics explorer
 
 You clicked on the **Select a resource** button, but don't see your resource in the resource picker dialog.
 
