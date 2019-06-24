@@ -1,6 +1,6 @@
 <properties
 	pageTitle="DAC access limit reached"
-	description="Redo Lag"
+	description="Dedicated Admin Connection Limit reached"
 	infoBubbleText="Found DAC access limit issue"
 	service="microsoft.sql"
 	resource="servers"
