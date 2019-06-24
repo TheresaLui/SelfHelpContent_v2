@@ -22,5 +22,6 @@
 We have identified that the backup operation failed because changes were made to the Virtual Machine while the operation Create Restore Point was in progress.
 <!--/issueDescription-->
 
-## **Recommended Document**
-This could be a transient error, to resolve this issue retry the operation.
+## **Recommended Steps**
+
+* This could be a transient error. To resolve this issue, retry the operation.
