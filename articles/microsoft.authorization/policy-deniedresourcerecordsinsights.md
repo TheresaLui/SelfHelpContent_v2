@@ -9,7 +9,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="diagnostics"
-    supportTopicIds="32599711,32599712,32599713"
+    supportTopicIds="32636045,32636046,32636050"
     productPesIds="16456"
     cloudEnvironments="public"
     articleId="e9802b12-2126-4064-be9c-edf32897515c"

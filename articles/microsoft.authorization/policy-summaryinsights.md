@@ -1,9 +1,9 @@
 <properties
-    pageTitle="One or more errors detected during creation of an Azure Policy Definition"
-    description="One or more errors detected during creation of an Azure Policy Definition"
+    pageTitle="Recent policy changes on the user's subscription"
+    description="Recent policy changes on the user's subscription"
     service="microsoft.authorization"
-    infoBubbleText="One or more errors detected during creation of an Azure Policy Definition. See details on the right."
-    diagnosticScenario="AzurePolicyDefiningIssueInsights"
+    infoBubbleText="Recent policy changes on the user's subscription. See details on the right."
+    diagnosticScenario="AzurePolicySummaryInsights"
     resource="policyDefinitions"
     authors="robga"
     ms.author="robga"
@@ -12,15 +12,15 @@
     supportTopicIds="32636045,32636046,32636050"
     productPesIds="16456"
     cloudEnvironments="public"
-    articleId="21fcaa7d-e41b-4d47-8a5a-843ea71bdda0"
+    articleId="d6693265-5e4d-4eae-8bc9-e432a4336077"
 />
 
-# Azure Policy - One or more errors detected during creation of an Azure Policy Definition
+# Azure Policy - Recent policy changes on the user's subscription
 
 <!--/issueDescription-->
-We found the following policy definition syntax errors:
+The recent policy definition and assignment changes on the user's subscription:
 
-<!--$ErrorMessages-->[ErrorMessages]<!--/$ErrorMessages-->
+<!--$Summary-->[Summary]<!--/$Summary-->
 <!--/issueDescription-->
 
 ## Recommended Steps

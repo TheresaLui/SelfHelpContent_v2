@@ -23,7 +23,7 @@
       "id": "mpn_refund_issue_type",
       "order": 1,
       "controlType": "dropdown",
-      "displayLabel": "Please selcet issue type?",
+      "displayLabel": "Please select issue type?",
       "watermarkText": "Issue type",
       "dropdownOptions": [
         {
