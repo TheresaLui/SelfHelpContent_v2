@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack Security, Secrets Management, and Identity"
-    description="Azure Stack Security, Secrets Management, and Identity"
+    pageTitle="Azure Stack patch and update"
+    description="Azure Stack patch and update"
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
@@ -8,9 +8,9 @@
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-4000-4e97-b711-4b07ac45db50"
+    articleId="8ccb2fde-7000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Security, Secrets Management and Identity
+# Azure Stack patch and update
 ---
 {
     "subscriptionRequired": true,
@@ -154,7 +154,7 @@
             "required": false
         },
         {
-            "id": pre_update",
+            "id": "pre_update",
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Pre-update version",
