@@ -21,7 +21,7 @@ This problem may happen when your dashboard was created with a metric that was l
 
 ## **Recommended Steps**
 
-Update the failing tile by picking an alternative metric for your chart on dashboard. You can [review a list of available metrics for Azure services](metrics-supported.md).
+Update the failing tile by picking an alternative metric for your chart on dashboard. You can [review a list of available metrics for Azure services](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported).
 
 ## **Recommended Documents**
 
