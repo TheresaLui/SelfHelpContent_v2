@@ -4,7 +4,7 @@
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32663931,32663932,32629198,32629257"
+    supportTopicIds="32629186"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -179,7 +179,7 @@
         },
         {
             "id": "sub_id",
-            "order": 10,
+            "order": 9,
             "controlType": "textbox",
             "displayLabel": "Azure Subscription GUID that the system is registered with",
             "watermarkText": "Enter the GUID",

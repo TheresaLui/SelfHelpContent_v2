@@ -4,7 +4,7 @@
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629186"
+    supportTopicIds="32629234,32629242,32629234,32629263,32629233,32629177,32629189,32629204,32629209,32629212,32629282"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
