@@ -25,11 +25,8 @@ You clicked on the **Select a resource** button, but don't see your resource in 
 
 Metrics explorer requires you to select subscriptions and resource groups before listing available resources. If you don't see your resource:
 
-1. Ensure that you've selected correct subscription in the **Subscription** dropdown. If your subscription isn't listed, click on the  **Directory + Subscription settings** and add a subscription with your resource.
-
-1. Ensure that you've selected the correct resource group.
-    > [!WARNING]
-    > For best performance, when you first open metrics explorer, the **Resource group** dropdown has no pre-selected resource groups. You must pick at least one group before you can see any resources.
+* Ensure that you've selected correct subscription in the **Subscription** dropdown. If your subscription isn't listed, click on the  **Directory + Subscription settings** and add a subscription with your resource.
+* Ensure that you've selected the correct resource group. **NOTE**: For best performance, when you first open metrics explorer, the **Resource group** dropdown has no pre-selected resource groups. You must pick at least one group before you can see any resources.
 
 ## **Recommended Documents**
 
