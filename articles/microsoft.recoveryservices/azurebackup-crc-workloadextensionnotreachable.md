@@ -22,5 +22,10 @@
 We have identified that your operation failed because workload extension was not found on the virtual machine.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue re-register the extension on the SQL Server VM. For more information, see this [article](https://aka.ms/AB-SQL-registration).
+## **Recommended Steps**
+
+* To resolve this issue, re-register the extension on the SQL Server VM
+
+## **Recommended Documents**
+
+* [Troubleshoot revalidation errors](https://docs.microsoft.com/en-us/azure/backup/backup-sql-server-azure-troubleshoot#re-registration-failures)
