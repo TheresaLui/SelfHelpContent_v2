@@ -21,7 +21,7 @@ Virtual machines and virtual machine scale sets have two categories of metrics: 
 
 By default, Guest OS metrics are stored in Azure Storage account, which you pick from the **Diagnostic settings** tab of your resource. If Guest OS metrics aren't collected or metrics explorer cannot access them, you will only see the **Virtual Machine Host** metric namespace:
 
-<!-- ![metric image](./media/metrics-troubleshoot/cannot-pick-guest-os-namespace.png) -->
+![metric image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/cannot-pick-guest-os-namespace.png)
 
 ## **Recommended Steps**
 
