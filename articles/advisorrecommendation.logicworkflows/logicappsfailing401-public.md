@@ -3,7 +3,7 @@
     description="Repair your log alert rule"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="2b5eac39-9f50-4d8d-bc9b-1e1e07c5c37e_Public"
+    articleId="6dcdcb36-ee1d-4507-ab15-093098330426_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
