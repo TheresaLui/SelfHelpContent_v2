@@ -4,7 +4,7 @@
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629186"
+    supportTopicIds="32663933,32629240"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -158,14 +158,14 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Pre-update version",
-            "watermarkText": "Enter the version",
+            "watermarkText": "Enter the version of the Azure Stack before you apply the update",
             "required": false
         },
         {
             "id": "update_name",
             "order": 8,
             "controlType": "textbox",
-            "displayLabel": "Update being updated to",
+            "displayLabel": "The name of update that you applied",
             "watermarkText": "Enter the name of the update",
             "required": false
         },
