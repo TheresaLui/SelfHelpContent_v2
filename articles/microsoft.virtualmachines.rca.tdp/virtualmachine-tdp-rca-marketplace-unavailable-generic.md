@@ -25,7 +25,7 @@ Validation errors, possibly temporarily, interrupted the purchase.<br>
 
 ## Recommended Steps
 
-If this offer was created recently, please allow up to 30 minutes for this offer to be available for purchase. If error persists, contact support.
+If this offer was created recently, please allow up to 30 minutes for this offer to be available for purchase. If error persists, contact the publisher to find out when the purchase will be enabled. If unable to resolve, contact [Help and Support](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) in the Azure Portal.
 
 ## Recommended Documents
 
