@@ -16,7 +16,7 @@
     cloudEnvironments="public"
 />
 
-# VM Boot Error
+# VM boot error
 
 <!--issueDescription-->
 
