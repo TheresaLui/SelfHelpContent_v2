@@ -30,4 +30,4 @@
 
 **Increase AzCopy Performance for Data Transfer**
 
-5. [Optimizing Throughput/Performance - Increase concurrent requests](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-configure?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#optimize-throughput)<br>
+5. [Optimizing Throughput/Performance - Increase concurrent requests](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-configure?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#optimize-throughput)<br>
