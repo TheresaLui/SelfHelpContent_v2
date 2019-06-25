@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-### HowTo articles <br>
+### How-To articles <br>
 * [How to Create a Windows Container on AKS using CLI](https://docs.microsoft.com/azure/aks/windows-container-cli)<br>
 * [How to RDP in to Windows nodes in AKS cluster](https://docs.microsoft.com/azure/aks/rdp)<br>
 * [How to create Dockerfiles for Windows Server containers](https://docs.microsoft.com/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile?context=/azure/aks/context/aks-context)<br>

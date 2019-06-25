@@ -28,11 +28,16 @@ Performance limits given to us by the remote storage are given on a file tier ba
 
 ## Recommended Steps
 
-* If you have free, unneeded storage space on your Managed Instance, follow the [best practices for storage](https://techcommunity.microsoft.com/t5/DataCAT/Storage-performance-best-practices-and-considerations-for-Azure/ba-p/305525) to get better performance
-* To enlarge the log file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and `MAXSIZE` syntax. 
-In addition, here is the list of affected files which should be resized:
+* To enable normal operation of your instance, you will need to increase the size of following files which are affected:
 
 <!--$setFilePath-->setFilePath<!--/$setFilePath-->
+
+* To increase the size of file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and the `MAXSIZE` syntax, as described in the following example:
+
+  ```
+  alter database database_name
+         modify file (name='file_name', size = 300GB)
+  ```
 
 ## **Recommended Documents**
 

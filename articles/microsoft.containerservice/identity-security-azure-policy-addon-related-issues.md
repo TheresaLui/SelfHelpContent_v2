@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-### HowTo articles <br>
+### How-To articles <br>
 * [Understand Azure Policy for Azure Kubernetes Service](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks)<br>
 * [How to Opt-in for this preview feature](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks#opt-in-for-preview)<br>
 * [How to install Azure Policy addon](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks#installing-the-add-on)<br>
@@ -26,7 +26,7 @@
 * [How to remove the Policy addon](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks#remove-the-add-on)<br>
 * [How to programmatically create policies and view compliance data](https://docs.microsoft.com/azure/governance/policy/how-to/programmatically-create)<br>
 
-### Reference articles for Azure Policy AddOn <br>
+### Reference articles for Azure Policy Add On <br>
 * [Azure Policy Samples](https://docs.microsoft.com/azure/governance/policy/samples/index)<br>
 * [Azure Policy definition structure](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure)<br>
 * [Supported effect in Azure Policy](https://docs.microsoft.com//azure/governance/policy/concepts/effects)<br>

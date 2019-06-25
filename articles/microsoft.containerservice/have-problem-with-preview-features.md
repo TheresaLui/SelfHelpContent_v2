@@ -20,7 +20,8 @@
 
 * [AKS Preview Features and Related Projects](https://github.com/Azure/AKS/blob/master/previews.md)<br>
 
-### Preview Features:<br>
+### Preview Features
+
 * [Windows Worker Nodes](https://github.com/Azure/AKS/blob/master/previews.md#windows)<br>
 * [Locked down cluster egress](https://github.com/Azure/AKS/blob/master/previews.md#egress)<br>
 * [Multiple Node Pools](https://github.com/Azure/AKS/blob/master/previews.md#nodepools)<br>
@@ -29,6 +30,6 @@
 * [Kubernetes Audit Log](https://github.com/Azure/AKS/blob/master/previews.md#noauditforu)<br>
 * [Kubernetes Pod Security Policies](https://github.com/Azure/AKS/blob/master/previews.md#psp)<br>
 
-### AKS Support Policy<br>
+### AKS Support Policy
 
 * [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)

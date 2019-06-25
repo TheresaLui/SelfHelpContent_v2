@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Azure Stack Network for User Environment"
-    description="Azure Stack Network for User Environment"
+    pageTitle="Azure Stack patch and update"
+    description="Azure Stack patch and update"
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629211,32629213,32629223,32629230,32629231,32629277,32629281"
+    supportTopicIds="32663933,32629240"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-2000-4e97-b711-4b07ac45db50"
+    articleId="8ccb2fde-7110-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Network for User Environment
+# Azure Stack patch and update
 ---
 {
     "subscriptionRequired": true,
@@ -146,86 +146,36 @@
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },
         {
-            "id": "tenant_all_single",
+            "id": "stack_guid",
             "order": 6,
-            "controlType": "dropdown",
-            "displayLabel": "Does the issue occur in a specific tenant or all tenants? ",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "All tenants",
-                    "text": "All tenants"
-                },
-                {
-                    "value": "Single tenant",
-                    "text": "Single tenant"
-                }
-            ],
+            "controlType": "textbox",
+            "displayLabel": "GUID of your Azure Stack environment's Deployment",
+            "watermarkText": "Enter the GUID",
             "required": false
         },
         {
-            "id": "Subscription_name",
+            "id": "pre_update",
             "order": 7,
-             "visibility": "tenant_all_single == Single tenant",
             "controlType": "textbox",
-            "displayLabel": "Tenant ID",
-            "watermarkText": "ID of the tenant",
+            "displayLabel": "Pre-update version",
+            "watermarkText": "Enter the version of the Azure Stack before you apply the update",
             "required": false
         },
         {
-          "id": "check_firewall",
+            "id": "update_name",
             "order": 8,
-            "controlType": "dropdown",
-            "visibility": "tenant_all_single == Single tenant",
-            "displayLabel": "Does the issue occur in a certain resource group or virtual network? ",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
+            "controlType": "textbox",
+            "displayLabel": "The name of update that you applied",
+            "watermarkText": "Enter the name of the update",
             "required": false
         },
         {
-            "id": "rg_vnet_name",
+            "id": "sub_id",
             "order": 9,
-              "visibility": "check_firewall == Yes",
             "controlType": "textbox",
-            "displayLabel": " What is the name of resource group or virtual network?",
-            "watermarkText": "Name of the resource group or virtual network ",
+            "displayLabel": "Azure Subscription GUID that the system is registered with",
+            "watermarkText": "Enter the GUID",
             "required": false
-        },
-    {
-          "id": "has_worked",
-            "order": 10,
-            "controlType": "dropdown",
-            "displayLabel": "Has this ever worked?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "error_message",
-            "order": 12,
-            "visibility": "has_worked == No",
-            "controlType": "textbox",
-            "displayLabel": "What is the error message?",
-           "watermarkText": "Provide the error message you received if any",
-             "required": true
         },
         {
             "id": "problem_start_time",
