@@ -29,18 +29,13 @@ When the transaction log becomes full, SQL Server Database Engine issues a 9002 
 
 ## **Recommended Steps**
 
-* To enable normal operation of your instance, you will need to increase the space reserved for log files on your storage.
-
-* If you have free, unneeded space on your instance, you can just [enlarge your log files](<https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file?view=sql-server-2017#AddOrEnlarge>). To enlarge the log file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and/or `MAXSIZE` syntax, as described in the following  example: 
-
-  
+* To enable normal operation of your instance, you will need to increase the space reserved for log files on your storage
+* If you have free, unneeded space on your instance, you can [enlarge your log files](<https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file?view=sql-server-2017#AddOrEnlarge>). To enlarge the log file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and/or `MAXSIZE` syntax, as described in the following example:
 
   ```sql
   alter database database_name
          modify file (name='file_name', size = 300GB)
   ```
-
-  
 
 * Otherwise, if you don't have enough free storage on your instance, consider updating your SLO and getting more storage. To update your SLO you should:
 
