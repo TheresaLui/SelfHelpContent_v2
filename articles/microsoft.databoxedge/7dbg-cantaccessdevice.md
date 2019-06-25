@@ -6,7 +6,7 @@
     authors="anoobbacker"
     ms.author="anbacker"
     authoralias="anbacker"
-    displayOrder="10"
+    displayOrder="100"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="DataBoxGateway"

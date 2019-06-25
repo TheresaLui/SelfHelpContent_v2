@@ -6,7 +6,7 @@
 	authors="anoobbacker"
 	ms.author="anbacker"
 	authoralias="anbacker"
-	displayOrder="3"
+	displayOrder="30"
 	articleId="80156441-0058-43d9-97b2-5c4764e129db"
 	selfHelpType="resource"
 	supportTopicIds=""

@@ -6,7 +6,7 @@
 	authors="anoobbacker"
 	ms.author="anbacker"
 	authoralias="anbacker"
-	displayOrder="2"
+	displayOrder="20"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="DataBoxEdge"
