@@ -28,9 +28,23 @@ Azure SQL MI provides two connection policy settings: proxy and redirect. In red
 
 ## **Recommended Steps**
 
-To enable normal operation of your instance, you should change your connection policy to redirect mode.
+To enable normal operation of your instance, you should execute `az sql server conn-policy update`  command from  __Azure CLI__ in order to change your connection policy to redirect mode. 
 
-To change connection policy for an Azure SQL Managed Instance, use the [conn-policy](https://docs.microsoft.com/cli/azure/sql/server/conn-policy) command.
+The following is a template of `az sql server conn-policy update` command which you should execute after you modify parameters with appropriate values.  
+
+```sql
+az sql server conn-policy update --connection-type {Default, Proxy, Redirect}
+                                 [--add]
+                                 [--force-string]
+                                 [--ids]
+                                 [--remove]
+                                 [--resource-group]
+                                 [--server]
+                                 [--set]
+                                 [--subscription]
+```
+
+Have in mind that `--connection-type` parameter is the only one which is required, and in this specific case it should be set to __Redirect__. Other parameters are optional and more about them can be found on [this link](https://docs.microsoft.com/cli/azure/sql/server/conn-policy). 
 
 ## **Recommended Documents**
 
