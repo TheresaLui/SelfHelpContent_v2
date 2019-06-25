@@ -2,7 +2,7 @@
     pageTitle="ExpressRoute or Connectivity Issues detected by NPM"
     description="ExpressRoute or Connectivity Issues detected by NPM"
     authors="v-miegge"
-    ms.author="v-miegge"
+    ms.author="v-miegge,mariliu"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32602123"
     productPesIds="15480"
@@ -15,15 +15,14 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "subscriptionRequired": true,
-  "resourceRequired": true,
+  "subscriptionRequired": false,
+  "resourceRequired": false,
   "title": "VM Information",
   "fileAttachmentHint": "",
   "formElements": [{
       "id": "destination_vm internal IP address",
       "order": 1,
       "controlType": "textbox",
-      "infoBalloonText": "string",
       "displayLabel": "Please provide the internal IP address of the source VM",
       "watermarkText": "Enter IP address of the source VM"
         },

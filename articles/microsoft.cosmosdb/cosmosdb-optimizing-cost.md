@@ -15,7 +15,7 @@
 
 # Azure Cosmos DB - Optimizing costs
 
-For optimizing your Cosmos DB cost, please see the recommended documents: 
+For optimizing your Cosmos DB cost, please see the recommended documents section. We provide tips on how to provision the right amount of RUs per container/database, optimize individual operations like query to lower consumption, and opt into reserved capacity for billing discounts.
 
 
 ## **Recommended Documents**

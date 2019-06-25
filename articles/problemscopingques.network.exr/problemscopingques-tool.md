@@ -15,8 +15,8 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "subscriptionRequired": true,
-  "resourceRequired": true,
+  "subscriptionRequired": false,
+  "resourceRequired": false,
   "title": "Which tool(s) are you experiencing issues with?",
   "fileAttachmentHint": "",
   "formElements": [{

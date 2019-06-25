@@ -16,7 +16,7 @@
 
 # Configure a Load Balancer Telemetry
 
-Do you know? Azure engineers helped customers solve around 80% of the cases about "Configure a Load Balancer Telemetry" by following these recommended documents in the past.
+Did you know: 8 of 10 "Configure a Load Balancer Telemetry" issues were resolved using the resources listed below.   
 
 ## **Recommended Documents**
 
