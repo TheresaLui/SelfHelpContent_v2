@@ -18,14 +18,16 @@
 
 ## **Recommended Documents**
 
-### HowTo articles <br>
+### How-To articles <br>
+
 * [Prerequisites for enabling Azure Monitoring for containers](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-onboard#prerequisites)<br>
 * [How to enable Azure Monitor for Azure Kubernetes Service (AKS) (Container Insight)](http://www.allaboutwindowssl.com/2018/12/azure-monitor-for-aks/)<br>
 * [How to disable Azure Monitor for Azure Kubernetes Service (AKS) (Container Insight)](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-optout)<br>
 * [How to update Azure Monitor for containers to enable metrics](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-update-metrics)<br>
 * [How to monitor Azure Kubernetes Service (AKS) with Azure Monitor container health](https://azure.microsoft.com/blog/monitoring-azure-kubernetes-service-aks-with-azure-monitor-container-health-preview/)<br>
 
-### Troubleshooting guides <br>
+### Troubleshooting Guides <br>
+
 * [Troubleshoot Guide for Azure Monitor for containers](https://github.com/Microsoft/OMS-docker/tree/ci_feature/Troubleshoot)<br>
 * [Troubleshooting common issues in AKS](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
 
