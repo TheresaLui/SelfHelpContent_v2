@@ -28,7 +28,9 @@ Performance limits given to us by the remote storage are given on a file tier ba
 
 ## Recommended Steps
 
-* To enable normal operation of your instance, you will need to increase the size of following files which are affected: <!--$setFilePath-->setFilePath<!--/$setFilePath-->
+* To enable normal operation of your instance, you will need to increase the size of following files which are affected:
+
+<!--$setFilePath-->setFilePath<!--/$setFilePath-->
 
 * To increase the size of file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and the `MAXSIZE` syntax, as described in the following example:
 
