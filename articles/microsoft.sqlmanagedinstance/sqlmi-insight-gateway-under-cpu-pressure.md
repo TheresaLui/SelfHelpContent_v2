@@ -32,10 +32,9 @@ To enable normal operation of your instance, you should execute `az sql server c
 
 The following is a template of `az sql server conn-policy update` command which you should execute after you modify parameters with appropriate values. 
 
- 
 
-```sql
 
+```
 az sql server conn-policy update --connection-type {Default, Proxy, Redirect}
                                  [--add]
                                  [--force-string]
