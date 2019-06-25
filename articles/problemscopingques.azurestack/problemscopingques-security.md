@@ -10,7 +10,7 @@
     schemaVersion="1"
     articleId="8ccb2fde-4000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Security, Secrets Management, and Identity"
+# Azure Stack Security, Secrets Management and Identity
 ---
 {
     "subscriptionRequired": true,

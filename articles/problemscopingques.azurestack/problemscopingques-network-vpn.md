@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Azure Stack Network for User Environment"
-    description="Azure Stack Network for User Environment"
+    pageTitle="Azure Stack Network for User Environment - VPN"
+    description="Azure Stack Network for User Environment - VPN"
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629211,32629213,32629223,32629230,32629231,32629277,32629281"
+    supportTopicIds="32629282"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-2000-4e97-b711-4b07ac45db50"
+    articleId="8ccb2fde-7000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Network for User Environment
+# Azure Stack Network for User Environment - VPN
 ---
 {
     "subscriptionRequired": true,
@@ -146,86 +146,64 @@
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },
         {
-            "id": "tenant_all_single",
+            "id": "s2s_status",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Does the issue occur in a specific tenant or all tenants? ",
-            "watermarkText": "Choose an option",
+            "displayLabel": "What is the status of the Site-to-Site VPN gateway connection?",
+            "watermarkText": "Connection status",
             "dropdownOptions": [
                 {
-                    "value": "All tenants",
-                    "text": "All tenants"
+                    "value": "Connected",
+                    "text": "Connected"
                 },
                 {
-                    "value": "Single tenant",
-                    "text": "Single tenant"
+                    "value": "Not connected",
+                    "text": "Can't connected"
+                },
+                {
+                    "value": "intermittent",
+                    "text": "The connection is intermittent"
                 }
             ],
             "required": false
         },
         {
-            "id": "Subscription_name",
+            "id": "issue_resource",
             "order": 7,
-             "visibility": "tenant_all_single == Single tenant",
-            "controlType": "textbox",
-            "displayLabel": "Tenant ID",
-            "watermarkText": "ID of the tenant",
+            "controlType": "dropdown",
+            "displayLabel": "Is there a issue when you connect to a resource by using the Site-to-Site VPN?",
+            "watermarkText": "Choose a option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
             "required": false
         },
         {
-          "id": "check_firewall",
+            "id": "problem_description",
             "order": 8,
-            "controlType": "dropdown",
-            "visibility": "tenant_all_single == Single tenant",
-            "displayLabel": "Does the issue occur in a certain resource group or virtual network? ",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "rg_vnet_name",
-            "order": 9,
-              "visibility": "check_firewall == Yes",
-            "controlType": "textbox",
-            "displayLabel": " What is the name of resource group or virtual network?",
-            "watermarkText": "Name of the resource group or virtual network ",
-            "required": false
-        },
-    {
-          "id": "has_worked",
-            "order": 10,
-            "controlType": "dropdown",
-            "displayLabel": "Has this ever worked?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "error_message",
-            "order": 12,
-            "visibility": "has_worked == No",
-            "controlType": "textbox",
-            "displayLabel": "What is the error message?",
-           "watermarkText": "Provide the error message you received if any",
-             "required": true
+            "controlType": "multilinetextbox",
+            "displayLabel": "On-premises VPN device configuration",
+            "watermarkText": "Provide details about your local VPN device",
+            "useAsAdditionalDetails": true,
+            "required": true,
+            "hints": [{
+                        "text": "VPN device model"
+                    },
+                    {
+                        "text": "Firmware version"
+                        },{
+                        "text": "Phase 1 (main mode) and Phase 2 (quick mode) policy configuration"
+                    },{
+                        "text": "Routing Subnets"
+                    }
+                    ]
         },
         {
             "id": "problem_start_time",
@@ -235,12 +213,12 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "more_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": false,
             "required": true
         }
     ],
