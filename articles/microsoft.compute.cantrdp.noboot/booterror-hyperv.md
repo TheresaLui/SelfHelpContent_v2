@@ -28,5 +28,4 @@ We have investigated and determined that your virtual machine is in an inaccessi
 ## **Recommended Steps**
 
 1. Proceed with a redeploy which will move the VM to another host
-
-2. If that is does not resolve the problem, then recreate the VM so it is allocated in a different cluster all together.
+2. If that is does not resolve the problem, then recreate the VM so it is allocated in a different cluster all together
