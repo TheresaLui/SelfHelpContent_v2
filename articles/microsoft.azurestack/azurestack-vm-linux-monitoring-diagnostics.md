@@ -17,16 +17,18 @@
 # Azure Stack Linux VM monitoring and diagnostics issues
 
 Azure Stack provides many of the same tools as Azure public cloud for VM diagnostics.
+
 **Azure Diagnostics Extension** helps you configure the VM to collect diagnostics data that can be used to monitor the health of your application.
+
 **Azure Monitor for VMs** monitors your Azure and Azure Stack virtual machines (VM) and virtual machine scale sets at scale. It analyzes the performance and health of your Linux VMs, and monitors their processes and dependencies on other resources and external processes.
 
 ## **Recommended Steps**
 
-- To view diagnostic information for a specific VM, select the VM in the Azure Stack portal, choose Diagnostic settings, and select the metrics you wish to track.
-- For more granular and VM-specific metrics, you need to [install the Azure diagnostics extension](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-monitoring#install-diagnostics-extension) on the VM, by clicking the Enable guest-level monitoring button.
-- When a VM boots up, the [boot diagnostic agent](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics) captures screen output that can be used for troubleshooting purposes in the portal.
-- To monitor sets of VMs across Azure and Azure Stack, [enable Azure Monitor for VMs running on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/vm-update-management#enable-azure-monitor-for-vms-running-on-azure-stack).
-- Review [supported metrics with Azure Monitor on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-metrics-supported), and then retrieve metrics from [Azure Monitor for VMs](https://docs.microsoft.com/azure/azure-monitor/overview#azure-monitor-for-vms) in the public portal.
+- To view diagnostic information for a specific VM, select the VM in the Azure Stack portal, choose Diagnostic settings, and select the metrics you wish to track
+- For more granular and VM-specific metrics, you need to [install the Azure diagnostics extension](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-monitoring#install-diagnostics-extension) on the VM, by clicking the Enable guest-level monitoring button
+- When a VM boots up, the [boot diagnostic agent](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics) captures screen output that can be used for troubleshooting purposes in the portal
+- To monitor sets of VMs across Azure and Azure Stack, [enable Azure Monitor for VMs running on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/vm-update-management#enable-azure-monitor-for-vms-running-on-azure-stack)
+- Review [supported metrics with Azure Monitor on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-metrics-supported), and then retrieve metrics from [Azure Monitor for VMs](https://docs.microsoft.com/azure/azure-monitor/overview#azure-monitor-for-vms) in the public portal
 
 ## **Recommended Documents**
 
