@@ -28,8 +28,15 @@ Performance limits given to us by the remote storage are given on a file tier ba
 
 ## Recommended Steps
 
-If you have free, unneeded storage space on your Managed Instance, you can get better performance by simply resizing your file. More information about storage performance best practices can be found [on this link](https://techcommunity.microsoft.com/t5/DataCAT/Storage-performance-best-practices-and-considerations-for-Azure/ba-p/305525).
+* To enable normal operation of your instance, you will need to increase the size of following files which are affected: <!--$setFilePath-->setFilePath<!--/$setFilePath-->
 
-To enlarge the log file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and `MAXSIZE` syntax. For more information, see [ALTER DATABASE (Transact-SQL) File and Filegroup options](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-file-and-filegroup-options?view=sql-server-2017).
+* To increase the size of file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and the `MAXSIZE` syntax, as described in the following example:
 
-In addition, here is the list of affected files which should be resized:  <!--$setFilePath-->setFilePath<!--/$setFilePath-->.
+  ```
+  alter database database_name
+         modify file (name='file_name', size = 300GB)
+  ```
+
+## **Recommended Documents**
+
+* [ALTER DATABASE (Transact-SQL) File and Filegroup options](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-file-and-filegroup-options?view=sql-server-2017)
