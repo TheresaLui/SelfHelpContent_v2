@@ -4,6 +4,7 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="ramMSFT"
+	ms.author="raprasad"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602726"
@@ -17,9 +18,11 @@
 ## **Recommended steps**
 
 **How to Monitor performance for Storage Services**
+
 1. [Monitor Storage performance using Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#monitoring-performance) to identify increase in latency when compared to your baseline<br>
 
 **Common Storage Performance Diagnostics and Troubleshooting**
+
 2. [Troubleshoot latency increase](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#troubleshooting-guidance) when using Azure Storage<br>
 
 **Troubleshoot client side performance issues when facing high end-to-end latency**
