@@ -13,13 +13,15 @@
 	articleId="cosmosdb-stored-procedure"
 />
 
-# Introduction to server-side programming in Azure Cosmos DB
+# Troubleshooting stored procedures
 
-The creation and execution of database triggers, stored procedures, and custom query operators is supported through the Azure portal, the REST API, and client SDKs in many platforms including .NET, Node.js and JavaScript.
+* Stored procedure requests have a timeout of [5 seconds](https://docs.microsoft.com/azure/cosmos-db/concepts-limits). Stored procedures must yield execution by checking the `isAccepted` return value in order to avoid running into timeouts (408). See [Stored procedure sample using IsAccepted](https://github.com/Azure/azure-cosmos-dotnet-v2/blob/fd036405a7de6b8bc4c9fdbc6872b09f9b6e2bf3/samples/code-samples/ServerSideScripts/JS/BulkImport.js#L50-L58) for a sample that breaks up and resumes execution using this pattern.
+* You can debug stored procedures locally using the [Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator) or by adding console.log statements and enabling [Enable Script Logging RequestOption in .NET](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.requestoptions.enablescriptlogging?view=azure-dotnet) or [Enable Script Logging RequestOption in Java](https://docs.microsoft.com/java/api/com.microsoft.azure.documentdb.requestoptions.setscriptloggingenabled?view=azure-java-stable#com_microsoft_azure_documentdb_RequestOptions_setScriptLoggingEnabled_boolean_) via RequestOptions
+* Stored procedures return 400 (Bad Request) on any failure. You can examine the inner exception by examining the `x-ms-substatus` response header
+* Stored procedures are recommended for write operations. You may run into RU bottlenecks if you use stored procedures for readonly operations
+* Stored procedures are scoped to a single partition key specified via [Partition Key RequestOption in .NET](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.requestoptions.partitionkey?view=azure-dotnet) or [Partition Key RequestOption in Java](https://docs.microsoft.com/en-us/java/api/com.microsoft.azure.documentdb.requestoptions.setpartitionkey?view=azure-java-stable#com_microsoft_azure_documentdb_RequestOptions_setPartitionKey_PartitionKey_). Queries within a stored procedure are also automatically scoped to the same partition key value 
 
 ## **Recommended Documents**
 
-Refer to below documents for an overview of server-side programming in Azure Cosmos DB which includes samples on how to write stored procedures. If your stored procedure times out or has been blocked for high resource consumption, follow best practices below to optimize the code:
-
+* [Cosmos DB Server-side JavaScript API](https://azure.github.io/azure-cosmosdb-js-server/)
 * [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)
-* [Bounded execution](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs#bounded-execution)
