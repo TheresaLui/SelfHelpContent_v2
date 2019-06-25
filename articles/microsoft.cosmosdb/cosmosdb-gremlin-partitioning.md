@@ -37,5 +37,5 @@ A great partitioning key exhibits the following properties:
 
 ## **Recommended Documents**
 
-* [Partitioning and horizontal scaling in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/partition-data) 
-* [Using a partitioned graph in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/graph-partitioning)
+* [Partitioning and horizontal scaling in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data) 
+* [Using a partitioned graph in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/graph-partitioning)

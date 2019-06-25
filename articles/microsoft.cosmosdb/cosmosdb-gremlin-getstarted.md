@@ -104,7 +104,7 @@ from gremlin_python.driver import client, serializer
 5. [PHP](https://packagist.org/packages/brightzone/gremlin-php)
 
 ## **Recommended Documents**
-* [Import data into Cosmos DB Gremlin account](https://docs.microsoft.com/en-us/azure/cosmos-db/bulk-executor-graph-dotnet)
+* [Import data into Cosmos DB Gremlin account](https://docs.microsoft.com/azure/cosmos-db/bulk-executor-graph-dotnet)
 * [Development using the Gremlin API](https://docs.microsoft.com/azure/cosmos-db/graph-introduction#get-started)
 * [Supported Gremlin operators](https://docs.microsoft.com/azure/cosmos-db/gremlin-support)
 * [Graph data partitioning](https://docs.microsoft.com/azure/cosmos-db/graph-partitioning)

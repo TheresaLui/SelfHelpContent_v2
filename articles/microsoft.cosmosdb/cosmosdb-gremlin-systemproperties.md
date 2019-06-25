@@ -14,7 +14,7 @@
 />
 # Gremlin - System Cosmos DB Properties
 
-Azure Cosmos DB has [system properties](https://docs.microsoft.com/en-us/rest/api/cosmos-db/databases) on every document ```_ts```, ```_self```, ```_attachments```, ```_rid``` and ```_etag```. Additionally, Graph engine adds ```inVPartition``` and ```outVPartition``` properties on edges. By default none of these properties are available for traversal. However, it is possible to include specific properties, or all of them, in Gremlin traversal.
+Azure Cosmos DB has [system properties](https://docs.microsoft.com/rest/api/cosmos-db/databases) on every document ```_ts```, ```_self```, ```_attachments```, ```_rid``` and ```_etag```. Additionally, Graph engine adds ```inVPartition``` and ```outVPartition``` properties on edges. By default none of these properties are available for traversal. However, it is possible to include specific properties, or all of them, in Gremlin traversal.
 ```
 g.withStrategies(ProjectionStrategy.build().IncludeSystemProperties('_ts').create())
 ```

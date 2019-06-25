@@ -43,5 +43,5 @@ Consder physical characteristics of Cosmos DB and Azure infrastructure when asse
 
 ## **Recommended Documents**
 
-* [How to use the execution profile step to evaluate your Gremlin queries](https://docs.microsoft.com/en-us/azure/cosmos-db/graph-execution-profile) 
-* [Request Units in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/request-units)
+* [How to use the execution profile step to evaluate your Gremlin queries](https://docs.microsoft.com/azure/cosmos-db/graph-execution-profile) 
+* [Request Units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
