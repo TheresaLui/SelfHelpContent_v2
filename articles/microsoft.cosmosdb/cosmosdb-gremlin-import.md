@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-import"
 />
-# Gremlin - Data Import
+## **Recommended Documents**
 
 Here are some of the ways data can be imported into Gremlin account: 
 

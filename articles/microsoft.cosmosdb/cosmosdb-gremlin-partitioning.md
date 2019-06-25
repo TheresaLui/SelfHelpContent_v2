@@ -17,11 +17,13 @@
 Azure Cosmos DB models vertices and edges as documents and stores them in the same collection. Azure Cosmos DB collections are partitioned. Gremlin stores **vertices** and **outgoing edges** with the same partition key. Edges inherit partitioning key from the source vertex.
 
 Example of setting partition key on the vertex, if **/pk** is partitioning key on collection
+
 ```
 g.addV('vertexlabel').property('pk', 'pkValue')
 ```
 
 Example of limiting search of vertices to a single partition key. Following strategy will instruct Gremlin engine to perform traversal only within a given partition even though there may be vertices matching the criteria in other partitions.
+
 ```
 g.withStrategies(PartitionStrategy.build().partitionKey('pk').readPartitions('pkValue').create()).V('V1')
 ```
@@ -31,8 +33,11 @@ g.withStrategies(PartitionStrategy.build().partitionKey('pk').readPartitions('pk
 Every traversal hop between vertices connected by an edge requires Gremlin engine to reach into storage layer, even if both vertices are stored in the same partition. 
 
 A great partitioning key exhibits the following properties:
-1. Data and load is equally distributed across all partitions. 
+
+1. Data and load is equally distributed across all partitions.
+
 2. There are no hot partitions storage or throughput-wise.
+
 3. Traversal are scoped to a subset of partition and rarely fan-out to all of them.
 
 ## **Recommended Documents**

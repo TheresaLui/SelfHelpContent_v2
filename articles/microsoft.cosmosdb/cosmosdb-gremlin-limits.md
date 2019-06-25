@@ -28,4 +28,8 @@ When gremlin-specific limit is reached, traversal is terminated with ***x-ms-sta
 ***Degree of parallelism*** | **32** | Maximum number of storage partitions queried in a single request to storage layer. For large graphs with hundreds of partitions this limit will impact traversal execution latency.
 ***Repeat Limit*** | **32** | Maximum number of iterations a ```.repeat()``` operator can execute. Each iteration of ```.repeat()``` step in most cases performs breadth-first traversal which means that any traversal is limited to at most 32 hops between vertices.
 ***Traversal Timeout*** | **30 seconds** | Traversal will be terminated when it exceeds this time. Cosmos DB Graph is an OLTP database with vast majority of traversals completing within milliseconds. To perform OLAP queries on Cosmos DB Graph please use [Apache Spark](https://azure.microsoft.com/services/cosmos-db/) with [Graph Data Frames](https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes) and [Cosmos DB Spark Connector](https://github.com/Azure/azure-cosmosdb-spark).
-***Predicate Limit*** | 5 | Number of ```.has()``` or ```.hasNot()``` steps applied on a single vertex or edge. When this limit is hit error surfaced to the application is ```The SQL query exceeded the maximum number of joins. The allowed limit is 5```. This is a temporary inconvenience as team is working to lift this limit. 
+***Predicate Limit*** | **5** | Count of ```.has()``` or ```.hasNot()``` steps applied on a single vertex or edge. When this limit is hit error surfaced to the application is ```The SQL query exceeded the maximum number of joins. The allowed limit is 5```. This is a temporary inconvenience as team is working to lift this limit. 
+
+## **Recommended Documents**
+
+* [Limits in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits)

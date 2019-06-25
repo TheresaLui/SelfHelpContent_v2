@@ -21,16 +21,22 @@ To try Gremlin for the first time or explore graph traversals it is recommended 
 
 1. Retrieve 10 vertices 
 ```g.V().limit(10)```
+
 2. Retrieve 10 edges
 ```g.E().limit(10)```
+
 3. Create a vertex with properties 
 ```g.addV('business').property('id', 'city-1').property('name','Seattle')```
+
 4. Create an edge between two existing vertices
 ```g.V('city-1').addE('is-driving-distance-from').to(g.V('city-2'))```
+
 5. Find all cities in driving distance from places of business ```g.V().hasLabel('business').outE('is-driving-distance-from').inV()```
 
 To access Gremlin account from an application please use one of the recommended clients:
+
 1. [Gremlin.Net](https://www.nuget.org/packages/Gremlin.Net) for .NET applications.
+
 ```C#
 using (GremlinServer server = new GremlinServer("<account fully qualified domain name>", 443, true, $"/dbs/{<database name/colls/{<graph or collection name>}", $"{<account key>}"))
 using (GremlinClient client = new GremlinClient(server, new GraphSON2Reader(), new GraphSON2Writer(), GremlinClient.GraphSON2MimeType))
@@ -38,7 +44,9 @@ using (GremlinClient client = new GremlinClient(server, new GraphSON2Reader(), n
     IEnumerable<object> result = await client.SubmitAsync<object>(requestScript: "g.V().limit(10)");
 }
 ```
-2. [TinkerPop Gremlin Java Client](https://mvnrepository.com/artifact/com.tinkerpop.gremlin/gremlin-java) 
+
+2. [TinkerPop Gremlin Java Client](https://mvnrepository.com/artifact/com.tinkerpop.gremlin/gremlin-java)
+
 ```Java
 Cluster.Builder builder = Cluster.build();
 builder.addContactPoint(<account fully qualified domain name>);
@@ -64,9 +72,10 @@ Client client = cluster.connect();
 
 ResultSet resultSet = client.submit("g.V().limit(10)");
 List<Result> results = resultSet.all().get();
-
 ```
+
 3. [Node.js](https://www.npmjs.com/package/gremlin)
+
 ```js
 'use strict';
 var gremlin = require("gremlin");
@@ -85,9 +94,10 @@ client.execute("g.V().drop()", {}, (err, results) => {
 		}
     });
 );
-
 ```
+
 4. [Python](https://pypi.org/project/gremlinpython/)
+
 ```Python
 from gremlin_python.driver import client, serializer
 
@@ -99,8 +109,8 @@ from gremlin_python.driver import client, serializer
     callback = client.submitAsync("g.V().count()")
     for result in callback.result():
         print('Node count {}'.format(result[0]))
-
 ```
+
 5. [PHP](https://packagist.org/packages/brightzone/gremlin-php)
 
 ## **Recommended Documents**

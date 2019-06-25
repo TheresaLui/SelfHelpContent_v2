@@ -26,6 +26,7 @@ Gremlin engine returns a set of headers with every response that are recommended
 
 These attributes can be retrieved from the client drvier.
 * ***Gremlin.Net***
+
 ```C#
 GremlinServer gremlinServer = new GremlinServer(...);
 GremlinClient gremlinClient = new GremlinClient(gremlinServer, ...);
@@ -37,6 +38,7 @@ Console.WriteLine($"[\"x-ms-status-code\"] = { resultSet.StatusAttributes["x-ms-
 ```
 
 * ***TinkerPop Java Gremlin Client***
+
 ```Java
 Cluster cluster = builder.create();
 Client client = cluster.connect();
@@ -59,4 +61,5 @@ Common status code values customers see are listed below
 ***429***  | Request was throttled and should be retried after value in ***x-ms-retry-after-ms***.
 
 ## **Recommended Documents**
+
 * [TinkerPop Status Codes](http://tinkerpop.apache.org/docs/3.0.2-SNAPSHOT/#_developing_a_driver)

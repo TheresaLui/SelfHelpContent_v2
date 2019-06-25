@@ -15,12 +15,17 @@
 # Gremlin - System Cosmos DB Properties
 
 Azure Cosmos DB has [system properties](https://docs.microsoft.com/rest/api/cosmos-db/databases) on every document ```_ts```, ```_self```, ```_attachments```, ```_rid``` and ```_etag```. Additionally, Graph engine adds ```inVPartition``` and ```outVPartition``` properties on edges. By default none of these properties are available for traversal. However, it is possible to include specific properties, or all of them, in Gremlin traversal.
+
 ```
 g.withStrategies(ProjectionStrategy.build().IncludeSystemProperties('_ts').create())
 ```
 
-## **E-Tag**
+### **E-Tag**
 
 This property is used for optimistic concurrency control. To ensure that vertex or edge is updated by a single writer the following pattern is recommended
 
 ```g.withStrategies(ProjectionStrategy.build().IncludeSystemProperties('_etag').create()).V('1').has('_etag', '"00000100-0000-0800-0000-5d03edac0000"').property('test', '1')```
+
+## **Recommended Documents**
+
+[Cosmos DB Optimistic Concurrency](https://docs.microsoft.com/en-us/azure/cosmos-db/faq#how-does-the-sql-api-provide-concurrency)
