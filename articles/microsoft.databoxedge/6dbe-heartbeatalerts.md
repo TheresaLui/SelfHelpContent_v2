@@ -7,12 +7,12 @@
 	ms.author="anbacker"
 	authoralias="anbacker"
 	displayOrder="8"
-	articleId="8d369530-40db-47c3-9825-3fd11864293c"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="DataBoxEdge"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="3201a5e5-95ac-4c18-a810-fa03d9c2ad64"
 />
 
 # I am getting heartbeat alert emails

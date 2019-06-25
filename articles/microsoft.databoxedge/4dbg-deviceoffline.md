@@ -7,12 +7,12 @@
 	ms.author="anbacker"
 	authoralias="anbacker"
 	displayOrder="6"
-	articleId="29ea6e42-c4bf-4849-a8de-74be54d3c4a6"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="842f687b-c163-4afd-bd6d-914fb4c1d589"
 />
 
 # My device appears offline in the portal
