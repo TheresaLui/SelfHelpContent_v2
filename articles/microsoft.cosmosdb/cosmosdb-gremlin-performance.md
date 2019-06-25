@@ -38,7 +38,7 @@ Consder physical characteristics of Cosmos DB and Azure infrastructure when asse
 
 ## **Traversal Step Specific Behavior**
 
-1. **.order().by()** operator is performed in compute layer. It is heavily impacted by the size of data retrieved from storage layer. To improve performance of this step consider reducing amount of data being retrieved by projecting specific properties. _This behavior will be fixed in near future._
+1. **.order().by()** and **.group().by()** operators are performed in compute layer. They are heavily impacted by the size of data retrieved from storage layer. To improve performance of this step consider reducing amount of data being retrieved by projecting specific properties. _This behavior will be fixed in near future._
 2. **.range()** step has linearly increasing latency and RU/s cost as the window of time moves. When range at offset X is requested, X-1 records are processed but ignored. As such, there is still latency and charge for X-1 records. _This behavior will be fixed in near future._
 
 ## **Recommended Documents**

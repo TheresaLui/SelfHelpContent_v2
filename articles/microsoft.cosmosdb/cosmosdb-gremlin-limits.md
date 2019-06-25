@@ -18,11 +18,11 @@ Cosmos DB Gremlin is built on top of Cosmos DB infrastructure therefore all Limi
 
 ### **Gremlin-specific limits**
 
-When gremlin-specific limit is reached, traversal is terminated with HTTP 429 Throttling error.
+When gremlin-specific limit is reached, traversal is terminated with ***x-ms-status-code*** = 429 that indicates throttling error.
 
 **Resource**	| **Default limit** | **Explanation**
 --- | --- | ---
-***Memory Per Request*** | **2 GB** | This value limits total response size received from storage layer during request processing.
+***Memory Per Request*** | **2 GB** | Maximum memory that a request can consume during processing. Requests which need to do computation over large data sets will consume additional memory, so consider scoping requests to smaller data sets to avoid this limit or consider using OLAP solutions.
 ***Script Length*** | **64 KB** | Maximum length of a Gremlin traversal script per request.
 ***Operator Depth*** | **400** |  Total number of unique steps in a traversal. For example, ```g.V().out()``` has operator count of 2 V() and out(), ```g.V('label').repeat(out()).times(100)``` has operator depth of 3 V(), repeat() and out() because ```.times(100)``` is a parameter to ```.repeat()``` operator.
 ***Degree of parallelism*** | **32** | Maximum number of storage partitions queried in a single request to storage layer. For large graphs with hundreds of partitions this limit will impact traversal execution latency.

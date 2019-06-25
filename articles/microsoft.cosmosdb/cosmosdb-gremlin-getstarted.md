@@ -33,7 +33,7 @@ To access Gremlin account from an application please use one of the recommended 
 1. [Gremlin.Net](https://www.nuget.org/packages/Gremlin.Net) for .NET applications.
 ```C#
 using (GremlinServer server = new GremlinServer("<account fully qualified domain name>", 443, true, $"/dbs/{<database name/colls/{<graph or collection name>}", $"{<account key>}"))
-using (GremlinClient client = new GremlinClient(server, new GraphSON2Reader(), new GraphSON2Writer(), GremlinClient.GraphSON2MimeType, null))
+using (GremlinClient client = new GremlinClient(server, new GraphSON2Reader(), new GraphSON2Writer(), GremlinClient.GraphSON2MimeType))
 {
     IEnumerable<object> result = await client.SubmitAsync<object>(requestScript: "g.V().limit(10)");
 }
