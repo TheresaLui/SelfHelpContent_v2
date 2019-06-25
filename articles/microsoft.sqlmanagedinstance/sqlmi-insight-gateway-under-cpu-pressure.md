@@ -35,6 +35,7 @@ The following is a template of `az sql server conn-policy update` command which 
  
 
 ```sql
+
 az sql server conn-policy update --connection-type {Default, Proxy, Redirect}
                                  [--add]
                                  [--force-string]
