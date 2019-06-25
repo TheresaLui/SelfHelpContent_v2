@@ -32,7 +32,6 @@
                     "value": "Microsoft peering",
                     "text": "Microsoft peering"
                 },
-                
                 {
                     "value": "Azure public peering",
                     "text": "Azure public peering"
