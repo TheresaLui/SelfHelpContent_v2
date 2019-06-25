@@ -7,7 +7,7 @@
     ms.author="anbacker"
     authoralias="anbacker"
     displayOrder="1"
-    articleId="7ecd4a4b-f490-43bb-a9cd-e2d9dbb8be36"
+    articleId="7ecd4a4b-f490-43bb-a9cd-e2d9abb8be36"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="DataBoxEdge"
