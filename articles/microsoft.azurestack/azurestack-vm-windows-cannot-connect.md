@@ -23,7 +23,7 @@ You can troubleshoot connectivity issues by using one of the following methods:
 - [Troubleshoot using Azure portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection#troubleshoot-using-the-azure-portal)
 - [Troubleshoot using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection#troubleshoot-using-azure-powershell)
 
-## **Recommended Document**
+## **Recommended Documents**
 
 - [Troubleshoot Remote Desktop connections to an Azure virtual machine](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)
 - [Detailed troubleshooting steps for remote desktop connection issues to Windows VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp  )
