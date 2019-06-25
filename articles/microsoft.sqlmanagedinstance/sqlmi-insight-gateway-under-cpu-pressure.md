@@ -45,7 +45,7 @@ az sql server conn-policy update --connection-type {Default, Proxy, Redirect}
                                  [--subscription]
 ```
 
-Keep in mind that `--connection-type` parameter is the only one which is required, and in this specific case it should be set to __Redirect__. Other parameters are optional and more about them can be found on [this link](https://docs.microsoft.com/cli/azure/sql/server/conn-policy). 
+	Keep in mind that `--connection-type` parameter is the only one which is required, and in this specific case it should be set to __Redirect__. Other parameters are optional and more about them can be found on [this link](https://docs.microsoft.com/cli/azure/sql/server/conn-policy). 
 
 ## **Recommended Documents**
 
