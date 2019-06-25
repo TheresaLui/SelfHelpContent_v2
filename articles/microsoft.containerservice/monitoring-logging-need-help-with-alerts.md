@@ -26,7 +26,7 @@
 
 ### Reference articles for Alerts <br>
 * [Overview of alerts in Microsoft Azure](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview)<br>
-* [Supported Metrics and Dimensions with new (Faster) Alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time#metrics-and-dimensions-supported)<br>
+* [Supported Metrics and Dimensions with new (Fast) Alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time#metrics-and-dimensions-supported)<br>
 
 ### Troubleshooting guides <br>
 * [Troubleshoot Guide for Azure Monitor for containers](https://github.com/Microsoft/OMS-docker/tree/ci_feature/Troubleshoot)<br>
