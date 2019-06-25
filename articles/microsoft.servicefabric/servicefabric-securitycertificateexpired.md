@@ -24,10 +24,10 @@
 * [How to manually recover a cluster with an already expired certificate](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Fix%20Expired%20Cluster%20Certificate%20Manual%20Steps.md)<br>
 * [How to create a new self-signed certificate](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Create%20a%20New%20Self%20Signed%20Certificate.md)<br>
 
-### Reference articles on SF security
+### Reference articles on SF security<br>
 * [Service Fabric security concepts](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security)<br>
 * [Service Fabric security recommendations](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security#security-recommendations)<br>
 
-### Best Practices for Service Fabric cluster
+### Best Practices for Service Fabric cluster<br>
 * [Service Fabric Security Best Practices](https://docs.microsoft.com/azure/service-fabric/service-fabric-best-practices-security)<br>
 * [Service Fabric Production environment checklist](https://docs.microsoft.com/azure/service-fabric/service-fabric-production-readiness-checklist)<br>
