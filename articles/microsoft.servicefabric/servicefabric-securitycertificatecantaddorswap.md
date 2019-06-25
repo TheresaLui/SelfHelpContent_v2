@@ -24,10 +24,10 @@
 * [How to add or remove certificates for a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security-update-certs-azure)<br>
 
 
-### Reference articles on SF security
+### Reference articles on SF security<br>
 * [Service Fabric security concepts](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security)<br>
 * [Service Fabric security recommendations](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security#security-recommendations)<br>
 
-### Best Practices for Service Fabric cluster
+### Best Practices for Service Fabric cluster<br>
 * [Service Fabric Security Best Practices](https://docs.microsoft.com/azure/service-fabric/service-fabric-best-practices-security)<br>
 * [Service Fabric Production environment checklist](https://docs.microsoft.com/azure/service-fabric/service-fabric-production-readiness-checklist)<br>
