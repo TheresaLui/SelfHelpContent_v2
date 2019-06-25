@@ -32,6 +32,7 @@
                     "value": "Microsoft peering",
                     "text": "Microsoft peering"
                 },
+                
                 {
                     "value": "Azure public peering",
                     "text": "Azure public peering"
@@ -48,7 +49,7 @@
             "controlType": "textbox",
             "visibility": "peer_type == Azure private peering",
             "displayLabel": "Provide the Virtual Network name",
-            "watermarkText": "",
+            "watermarkText": "Example: Myvnet",
             "required": false
 		},{
 			"id": "problem_start_time",

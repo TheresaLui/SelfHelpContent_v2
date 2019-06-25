@@ -18,7 +18,7 @@
   "title": "Azure ExpressRoute Gateway",
   "fileAttachmentHint": "",
   "formElements": [{
-        "id": "slow_vm_determination",
+        "id": "express_gateway",
         "order": 1,
         "controlType": "dropdown",
         "required": true,
@@ -34,6 +34,7 @@
                 "value": "dont_know_answer",
                 "text": "Other, don't know or not applicable"
             }
+        
         }
           }, {
 			"id": "problem_start_time",

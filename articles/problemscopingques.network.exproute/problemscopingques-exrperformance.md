@@ -21,15 +21,15 @@
             "id": "source_ip",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide the source IP address(es)",
-            "watermarkText": "",
+            "displayLabel": "Source IP address(es)",
+            "watermarkText": "Example: 10.0.0.1",
             "required": false
 		},{
             "id": "destination_ip",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Provide the destination IP address(es)",
-            "watermarkText": "",
+            "displayLabel": "Destination IP address(es)",
+            "watermarkText": "Example: 10.1.0.2",
             "required": false
 		},{
 			"id": "problem_start_time",
