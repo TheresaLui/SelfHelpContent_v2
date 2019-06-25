@@ -16,7 +16,7 @@
 
 # Azure Stack Windows VM stop or restart issues
 
-## **Recommended Document**
+## **Recommended Documents**
 
 - [Enable diagnostics on a virtual machine created using the Azure portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics#enable-boot-diagnostics-on-existing-virtual-machine)
 - [Enable boot diagnostics using the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics#enable-boot-diagnostics-using-the-azure-cli)
