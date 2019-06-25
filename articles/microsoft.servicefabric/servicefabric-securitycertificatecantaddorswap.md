@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 ### How to articles<br>
-* [How to add a secondary certificate](hhttps://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Use%20Azure%20Resource%20Explorer%20to%20add%20the%20Secondary%20Certificate.md)<br>
+* [How to add a secondary certificate](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Use%20Azure%20Resource%20Explorer%20to%20add%20the%20Secondary%20Certificate.md)<br>
 * [How to swap a secondary certificate](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Use%20Azure%20Resource%20Explorer%20to%20add%20the%20Secondary%20Certificate.md)<br>
 * [How to add or remove certificates for a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security-update-certs-azure)<br>
 
