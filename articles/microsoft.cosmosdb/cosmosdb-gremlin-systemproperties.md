@@ -28,4 +28,4 @@ This property is used for optimistic concurrency control. To ensure that vertex 
 
 ## **Recommended Documents**
 
-[Cosmos DB Optimistic Concurrency](https://docs.microsoft.com/en-us/azure/cosmos-db/faq#how-does-the-sql-api-provide-concurrency)
+[Cosmos DB Optimistic Concurrency](https://docs.microsoft.com/azure/cosmos-db/faq#how-does-the-sql-api-provide-concurrency)

@@ -25,6 +25,7 @@ Gremlin engine returns a set of headers with every response that are recommended
 ***x-ms-activity-id*** | Unique identifier of a traversal activity on the server side. When there is a problem with traversal, it is very useful to share this identifier with support team.
 
 These attributes can be retrieved from the client drvier.
+
 * ***Gremlin.Net***
 
 ```C#
