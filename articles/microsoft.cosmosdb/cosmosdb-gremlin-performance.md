@@ -36,7 +36,7 @@ Consder physical characteristics of Cosmos DB and Azure infrastructure when asse
 ***Network latency between compute and storage***  | **1-2 milliseconds** | Every time Gremlin query engine needs to reach out to storage layer this cost is paid.
 ***Storage page size*** | **4 MB** | Data is retrieved in pages, each page requires round-trip between compute and storage layer. Divide ***storeOps.size*** by this size and multiply by network latency to assess time spent in data retrieval phase.
 
-# **Traversal Step Specific Behavior**
+### **Traversal Step Specific Behavior**
 
 1. **.order().by()** and **.group().by()** operators are performed in compute layer. They are heavily impacted by the size of data retrieved from storage layer. To improve performance of this step consider reducing amount of data being retrieved by projecting specific properties. _This behavior will be fixed in near future._
 2. **.range()** step has linearly increasing latency and RU/s cost as the window of time moves. When range at offset X is requested, X-1 records are processed but ignored. As such, there is still latency and charge for X-1 records. _This behavior will be fixed in near future._
