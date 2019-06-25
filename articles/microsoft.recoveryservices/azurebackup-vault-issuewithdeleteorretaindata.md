@@ -16,16 +16,13 @@
 
 # Issue with delete or retain backed-up data
 
-## **Recommended steps**
+## **Recommended Steps**
 
-If you are noticing below error message when deleting the backup items from Backup Infrastructure:
+* Deletion Failed: There are backup items associated with the server. Stop protection and [delete backups for each of the backup items](https://aka.ms/DeleteBackupItems) to delete the server's registration. If the issue persists, contact support.
+	
+* Navigate to your on-premises server Management Console (MARS, Azure Backup Server or SC DPM depending on where your back items are protected) and perform the steps listed in [Deleting backup items from management console](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#deleting-backup-items-from-management-console)
 
-***Deletion Failed**
-There are backup items associated with the server. Stop protection and delete backups for each of the backup items to delete the server's registration. If the issue persist contact support. Refer to https://aka.ms/DeleteBackupItems for more info.*
-
-Navigate to your on-premises server Management Console (MARS, Azure Backup Server or SC DPM depending on where your back items are protected) and perform the steps listed in [Deleting backup items from management console](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#deleting-backup-items-from-management-console).
-
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Why is the size of the data transferred to the Recovery Services vault smaller than the data selected for backup?](https://aka.ms/AB-smaller-data-backup)<br>
 - [If I cancel a backup job after it starts, is the transferred backup data deleted?](https://aka.ms/AB-transferred-backup-data)<br>
