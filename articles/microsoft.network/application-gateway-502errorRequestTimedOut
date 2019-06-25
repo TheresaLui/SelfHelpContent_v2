@@ -1,0 +1,39 @@
+<properties
+	pageTitle="TSG: 502 Bad Gateway error - Determine if the request timed out"
+	description="Optional: Show how to check if request timed out"
+	service="microsoft.network"
+	resource="applicationGateway"
+	authors="SatishMathew"
+	ms.author="smathew"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="f031f747-a865-4409-8cf8-e9be297aggg6"
+/>
+
+# Determine if the request timed out
+
+### **How to check request timed out**
+
+1. Click on the [Backend HTTP Settings Collection](www.google.com) of the Application Gateway in ASC
+2. Select the HTTP setting that is configured in your rule. This can be identified by the Request Routing Rule Links column
+3. The Request Timeout is measured in seconds. Suggest the customer to enter a value for request timeout in HTTP settings higher than how long the backend server takes to return the response to every request.
+4. To identify how long the server takes to respond, check the “AppGWT -> ReqResp” in Jarvis Logs and for each request, the timeTaken value (in milliseconds) will point to the time taken for the whole request to be processed starting from the first byte received by the Application Gateway till the last byte sent out to the client. Make sure that the request timeout is set to a value higher than this. [Sample Log here](www.google.com)
+
+### **Learn more**
+
+If your backend is healthy and you are still facing the 502 error, it might be because of the following reason:
+
+When Application Gateway forwards a request to a backend pool server, it waits for a configured period for a response. If it receives no response from the backend server within this time, it is considered a timeout and Application Gateway returns a HTTP 502 error to the client. If this is the case, you should consider increasing the timeout value in the HTTP Settings accordingly.
+
+Sample ReqResp log entry for checking request timeout:
+```
+{"instanceId":"ApplicationGatewayRole_IN_1","clientIP":"13.83.18.255",
+"clientPort":1984,"httpMethod":"GET","requestUri":"/",
+"requestQuery":"X-AzureApplicationGateway-CACHE-HIT=0","userAgent":"-",
+"httpStatus":502,"httpVersion":"HTTP/1.1","receivedBytes":45,
+"sentBytes":1646,**"timeTaken":31020**,"sslEnabled":"on","host":"www.appgwtest.net"}
+```
