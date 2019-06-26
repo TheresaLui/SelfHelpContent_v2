@@ -21,6 +21,7 @@
 * For [cloning, data movement, or migration](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#migrating-data-to-the-original-account), we recommend using Azure Data Factory or the change feed library
 * For details on how backup works, retention periods for accidental deletions, and known limitations, see [Backup and restore](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore)
 
+
 ## **Recommended Documents**
 
 * [Azure Cosmos DB backup process](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#automatic-and-online-backups)
