@@ -20,7 +20,7 @@ When gremlin traversal latency or cost in RU/s does not match expectations there
 g.V('mary').out().executionProfile()
 ```
 
-Response of traversal will contain diagnostic information about every physical operator invilved in traversal.
+Response of traversal will contain diagnostic information about every physical operator involved in traversal.
 
 **Property**	| **Explanation**
 --- | ---
@@ -29,7 +29,7 @@ Response of traversal will contain diagnostic information about every physical o
 ***storeOps.fanoutFactor*** | Number of partitions Gremlin engine touched during physical operator execution. To improve performance it is recommended to reduce this number.
 ***storeOps.size*** | Size of data in bytes retrieved by Gremlin engine.
 
-Consder physical characteristics of Cosmos DB and Azure infrastructure when assessing impact of each physical operator.
+Consider physical characteristics of Cosmos DB and Azure infrastructure when assessing impact of each physical operator.
 
 **Resource** | **Value** | **Explanation**
 --- | --- | ---
