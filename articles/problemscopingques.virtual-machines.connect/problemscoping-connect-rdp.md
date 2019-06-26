@@ -40,6 +40,10 @@
                 {
                     "value": "Private IP",
                     "text": "Private IP"
+                },
+                {
+                    "value": "Azure Bastion",
+                    "text": "Azure Bastion"
                 }
             ],
             "required": false
@@ -106,8 +110,55 @@
             "required": false
         },
         {
-            "id": "isadmin",
+            "id": "bastionresource",
             "order": 6,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "dropdown",
+            "displayLabel": "Please select your Azure Bastion resource",
+            "watermarkText": "Choose a resource",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Network/bastionHosts?api-version=2019-04-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            }
+        },
+        {
+            "id": "bastionbrowser",
+            "order": 7,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What browser are you using?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "bastionbrowserversion",
+            "order": 8,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What version is your browser?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "bastionbrowseros",
+            "order": 9,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What OS is your browser running in?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "isadmin",
+            "order": 10,
             "controlType": "dropdown",
             "displayLabel": "Is this the built-in administrator account?",
             "watermarkText": "Choose an option",
@@ -129,7 +180,7 @@
         },
         {
             "id": "name_useraccount",
-            "order": 7,
+            "order": 11,
             "visibility": "isadmin == No || isadmin == I do not know",
             "controlType": "textbox",
             "displayLabel": "What is the name of the user account trying to login?",
@@ -137,7 +188,7 @@
         },
         {
             "id": "connect_ifnew",
-            "order": 8,
+            "order": 12,
             "controlType": "dropdown",
             "displayLabel": "Is this VM new to Azure?",
             "watermarkText": "Choose an option",
@@ -159,7 +210,7 @@
         },
         {
             "id": "connect_from",
-            "order": 9,
+            "order": 13,
             "visibility": "connect_ifnew == Yes",
             "controlType": "dropdown",
             "displayLabel": "Where is the VM from?",
@@ -176,13 +227,17 @@
                 {
                     "value": "From another cloud provider",
                     "text": "From another cloud provider"
+                },
+                {
+                        "value": "Azure Marketplace",
+                        "text": "Azure Marketplace"
                 }
             ],
             "required": false
         },
         {
             "id": "connect_howmigrated",
-            "order": 10,
+            "order": 14,
             "visibility": "connect_from == On premise || connect_from == From another cloud provider",
             "controlType": "dropdown",
             "displayLabel": "How was this machine migrated?",
@@ -209,7 +264,7 @@
         },
         {
             "id": "connect_wasoncloud",
-            "order": 11,
+            "order": 15,
             "visibility": "connect_from == On premise",
             "controlType": "dropdown",
             "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
@@ -228,7 +283,7 @@
         },
         {
             "id": "connect_config",
-            "order": 12,
+            "order": 16,
             "controlType": "dropdown",
             "displayLabel": "Please specify your configuration change prior to the issue starting",
             "watermarkText": "Choose an option",
@@ -262,26 +317,30 @@
         },
         {
             "id": "machinetype",
-            "order": 13,
+            "order": 17,
             "controlType": "dropdown",
             "displayLabel": "From which type of machine are you trying to RDP into?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Windows 7/Windows server 2008r2",
-                    "text": "Windows 7/Windows server 2008r2"
+                    "value": "Windows 7/Windows Server 2008R2",
+                    "text": "Windows 7/Windows Server 2008R2"
                 },
                 {
-                    "value": "Windows 8/Windows server 2012",
-                    "text": "Windows 8/Windows server 2012"
+                    "value": "Windows 8/Windows Server 2012",
+                    "text": "Windows 8/Windows Server 2012"
                 },
                 {
-                    "value": "Windows 8.1/Windows server 2012r2",
-                    "text": "Windows 8.1/Windows server 2012r2"
+                    "value": "Windows 8.1/Windows Server 2012R2",
+                    "text": "Windows 8.1/Windows Server 2012R2"
                 },
                 {
-                    "value": "Windows 10/Windows server 2016",
-                    "text": "Windows 10/Windows server 2016"
+                    "value": "Windows 10/Windows Server 2016",
+                    "text": "Windows 10/Windows Server 2016"
+                },
+                {
+                    "value": "Windows 10/Windows Server 2019",
+                    "text": "Windows 10/Windows Server 2019"
                 },
                 {
                     "value": "Android or iOS",
@@ -296,15 +355,15 @@
         },
         {
             "id": "problem_description",
-            "order": 14,
+            "order": 18,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 15,
+            "order": 19,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

@@ -36,7 +36,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the HBase application",
-            "required": true
+            "required": false
         },
         {
             "id": "hbase_submission_method",
@@ -70,7 +70,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "HBase query",
             "watermarkText": "HBase query - please replace any parameter value containing PII information in your query",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

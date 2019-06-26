@@ -29,14 +29,14 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What service level are you trying to scale to?",
-            "required": true
+            "required": false
         },
         {
             "id": "dw_scoping_crud_cannotscale_region",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What region are you trying to scale in?",
-            "required": true
+            "required": false
         },
         {
             "id": "dw_scoping_crud_cannotscale_quota",

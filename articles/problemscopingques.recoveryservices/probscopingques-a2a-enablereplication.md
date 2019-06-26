@@ -13,6 +13,7 @@
 # Questions Azure VM protection failure 
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure VM configuration failure",
@@ -22,7 +23,7 @@
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
+            "displayLabel": "Which virtual machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
             "required": true
         },

@@ -24,6 +24,6 @@ The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-
 
 ## **Recommended Steps**
 
-* Please stop and delete the following VM(s) with attached OS disk before <!--$$AttemptedOperationPresentParticiple-->[$AttemptedOperationPresentParticiple]<!--/$$AttemptedOperationPresentParticiple--> the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
+* Please stop and delete the following VM(s) with attached OS disk before <!--$AttemptedOperationPresentParticiple-->[AttemptedOperationPresentParticiple]<!--/$AttemptedOperationPresentParticiple--> the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
 
 <!--$VMList-->[VMList]<!--/$VMList--> <br>

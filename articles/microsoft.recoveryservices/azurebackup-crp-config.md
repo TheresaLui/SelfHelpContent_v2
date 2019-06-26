@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Azure IAAS VM Backup Configure Protection"
-	description="Azure IAAS VM Backup Configure Protection failures"
+	pageTitle="Azure Backup - I am having issues configuring or enabling backup"
+	description="Azure Backup - I am having issues configuring or enabling backup"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="2"
+	displayOrder="3"
 	selfHelpType="generic"
 	supportTopicIds="32637322"
-	resourceTags=""
-	productPesIds="14749"
+	resourceTags="windows"
+	productPesIds="15571,15797,16470,16454,14749"
 	articleId="8add52e9-c225-4d86-be81-e1175203382b"
 	cloudEnvironments="public"
 	/>
 
-# Unable to Configure Backup for Azure Virtual Machines
+# Azure Backup - I am having issues configuring or enabling backup
 
 ## **Recommended Steps**
 
