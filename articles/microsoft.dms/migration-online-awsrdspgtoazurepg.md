@@ -20,19 +20,24 @@
 
 ## **Recommended Steps**
 
+
 **Migration errors - AWS RDS PostgreSQL to Azure Database for PostgreSQL using online migration**
+
 
 * **Error**: The Default value of column '{column}' in table '{table}' in database '{database}' is different on source and target servers. It's '{value on source}' on source and '{value on target}' on target.
 
 	This errors occurs when the default value on a column schema is different on source and target databases. Please make sure schema on the target matches schema on the source. If you need help with migrating schema, please refer to our [Azure PostgreSQL online migration documentation](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#migrate-the-sample-schema).
+
 	
 * **Error**: Target database '{database}' has '{number of tables}' tables where as source database '{database}' has '{number of tables}' tables. The number of tables on source and target databases should match.
 
 	This errors occurs when the number of tables are different on source and target databases. Please make sure schema on the target matches schema on the source. If you need help with migrating schema, please refer to our [Azure PostgreSQL online migration documentation](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#migrate-the-sample-schema).
 
+
 * **The source database {database} is empty**
 
 	This errors occurs when the source database is empty. This is most likely because you have selected the wrong database as source. Please recheck the source database you selected for migration. 
+
 	
 * **The target database {database} is empty.** Please migrate the schema.
 

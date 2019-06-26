@@ -22,6 +22,7 @@
 
 **Migration errors - AWS RDS MySQL to Azure Database for MySQL using online migration**
 
+
 * **Database '{0}' has foreign key(s) on target.** Fix the target and start a new data migration activity. Execute below script on target to list the foreign key(s).
 
 	If you have foreign keys in your schema, the initial load and continuous sync of the migration will fail. Execute the following script in MySQL workbench to extract the drop foreign key script and add foreign key script:
@@ -34,9 +35,11 @@ SET group_concat_max_len = 8192; SELECT SchemaName, GROUP_CONCAT(DropQuery SEPAR
 
 	When migrating a MySQL database to Azure using Command Line Interface (CLI), users may hit this error. The service could not locate the database on the source server. This could be because you may have provided incorrect database name or the database does not exist on the listed server. Please note database names are case sensitive. Provide the exact database name to fix the issue.
 
+
 * **There are tables with the same name in the database '{database}'.** Azure Database for MySQL does not support case sensitive tables.
 
 	This error happens when you have two tables with the same name in the source database. Please note that MySQL database on Azure does not support case sensitive tables. So, update the table names accordingly and try again. 
+
 	
 * **The target database {database} is empty.** Please migrate the schema.
 
