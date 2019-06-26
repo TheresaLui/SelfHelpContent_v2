@@ -4,13 +4,13 @@
     service="microsoft.documentdb"
     resource="databaseAccounts"
     authors="balaksms"
-    displayOrder="75"
-    selfHelpType="resource"
-    supportTopicIds="32597495"
+    ms.author="balaks"
+    selfHelpType="generic"
+    supportTopicIds="32636805, 32636825"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public"
-    articleId="60e43f00-7058-40f6-9d12-0768c4ea1cc0"
+    articleId="cosmosdb-admin-backuprestore"
 />
 
 # Backup and restore
