@@ -4,11 +4,11 @@
     authors="TobyTu"
     ms.author="Mario.Liu"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32627977"
+    supportTopicIds="32627991"
     productPesIds="15480"
     cloudEnvironments="Public"
     schemaVersion="1"
-    articleId="b4b6273d-8527-4f2d-8526-36a830ea0098"
+    articleId="b4b9473d-8527-4f2d-8526-36a830ea0098"
 />
 # Azure ExpressRoute Gateway questions
 ---

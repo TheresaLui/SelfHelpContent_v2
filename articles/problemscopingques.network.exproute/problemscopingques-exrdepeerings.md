@@ -4,11 +4,11 @@
     authors="TobyTu"
     ms.author="Mario.Liu"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32627979"
+    supportTopicIds="32627993"
     productPesIds="15480"
     cloudEnvironments="Public"
     schemaVersion="1"
-    articleId="a4b6173d-9653-4f2d-8526-36a830ea0098"
+    articleId="a9b6173d-9653-4f2d-8526-36a830ea0098"
 />
 # Azure ExpressRoute Peerings questions
 ---
