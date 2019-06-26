@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="microsoft.dms"
 	resource="virtualmachines"
-	authors="rradjou"
+	authors="radjaram"
 	ms.author="rradjou"
 	displayOrder="2"
 	articleId="migration-online-awsrdssqlservertoazuresqldb"

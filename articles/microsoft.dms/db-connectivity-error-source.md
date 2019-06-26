@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="microsoft.dms"
 	resource="virtualmachines"
-	authors="rradjou"
+	authors="radjaram"
 	ms.author="rradjou"
 	displayOrder="1"
 	articleId="db-connectivity-error-source"
