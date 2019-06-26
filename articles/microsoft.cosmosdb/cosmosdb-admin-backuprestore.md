@@ -1,16 +1,16 @@
 <properties
-    pageTitle="CosmosDB Backup and Restore" 
-    description="CosmosDB Backup and Restore"
-    service="microsoft.documentdb"
-    resource="databaseAccounts"
-    authors="balaksms"
-    ms.author="balaks"
-    selfHelpType="generic"
-    supportTopicIds="32636805, 32636825"
-    resourceTags=""
-    productPesIds="15585"
-    cloudEnvironments="public"
-    articleId="cosmosdb-admin-backuprestore"
+	pageTitle="CosmosDB Backup and Restore" 
+	description="CosmosDB Backup and Restore"
+	service="microsoft.documentdb"
+	resource="databaseAccounts"
+	authors="balaksms"
+	ms.author="balaks"
+	selfHelpType="generic"
+	supportTopicIds="32636805, 32636825"
+	resourceTags=""
+	productPesIds="15585"
+	cloudEnvironments="public"
+	articleId="cosmosdb-admin-backuprestore"
 />
 
 # Backup and restore
