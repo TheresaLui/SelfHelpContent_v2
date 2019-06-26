@@ -38,7 +38,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "http://aka.ms/aa_gatewayrec_learnmore",
+  "learnMoreLink": "https://aka.ms/aa_gatewayrec_learnmore",
   "description": "Upgrade your SKU or add more instances to ensure fault tolerance",
   "longDescription": "Deploying two or more medium or large sized instances will ensure business continuity during outages caused by planned or unplanned maintenance.",
   "potentialBenefits": "Ensure business continuity through application gateway resilience",
@@ -48,21 +48,21 @@
       "actionType": "Blade",
       "description": "Upgrade the SKU size",
       "extensionName": "Microsoft_Azure_Network",
-      "BladeName": "ApplicationGatewayConfigurationBlade"
+      "bladeName": "ApplicationGatewayConfigurationBlade"
     },
     {
       "actionId": "e0b4d800-09e0-4aaa-925e-02c8f5fdfdf4",
       "actionType": "Blade",
       "description": "Increase the instance count",
       "extensionName": "Microsoft_Azure_Network",
-      "BladeName": "ApplicationGatewayConfigurationBlade"
+      "bladeName": "ApplicationGatewayConfigurationBlade"
     },
     {
       "actionId": "118b2801-008e-461a-bf6e-078820b4159a",
       "actionType": "Blade",
       "description": "Upgrade the SKU size, and increase the instance count",
       "extensionName": "Microsoft_Azure_Network",
-      "BladeName": "ApplicationGatewayConfigurationBlade"
+      "bladeName": "ApplicationGatewayConfigurationBlade"
     }
   ],
   "resourceMetadata": {
