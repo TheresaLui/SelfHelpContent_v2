@@ -14,7 +14,7 @@
 />
 # Gremlin - Limits
 
-Cosmos DB Gremlin is built on top of Cosmos DB infrastructure therefore all Limits in [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits) apply. 
+Cosmos DB Gremlin API is built on top of Cosmos DB infrastructure therefore all Limits in [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits) apply. 
 
 ### **Gremlin-specific limits**
 
