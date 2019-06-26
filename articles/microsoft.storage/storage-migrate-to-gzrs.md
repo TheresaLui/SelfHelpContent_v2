@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Convert to GZRS replication type"
-	description="Self-help guide on how to convert to GZRS replication"
+	description="Self-help guide on how to convert to GZRS replication."
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="ramMSFT"
