@@ -28,7 +28,7 @@
 
 **Troubleshoot client side performance issues when facing high end-to-end latency**
 
-* [Troubelshoot client performance issues when Average end-to-end latency is much higher than Average Server side latency](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=/azure/storage/blobs/toc.json#investigating-client-performance-issues)
+* [Troubleshoot client performance issues when Average end-to-end latency is much higher than Average Server side latency](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=/azure/storage/blobs/toc.json#investigating-client-performance-issues)
 * [Troubleshoot high client latency issues when metrics show low Average end-to-end latency and low Average server side latency](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=/azure/storage/blobs/toc.json#metrics-show-low-AverageE2ELatency-and-low-AverageServerLatency)<br>
 
 **Increase AzCopy Performance for Data Transfer**
