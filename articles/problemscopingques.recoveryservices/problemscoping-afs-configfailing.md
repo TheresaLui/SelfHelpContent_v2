@@ -21,9 +21,20 @@
         {
             "id": "storage_account_name",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which storage account(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the storage account(s)",
+	     "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Storage/storageAccounts' or resourceType eq 'Microsoft.ClassicStorage/storageAccounts'",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+          },
             "required": false
         },
         {
