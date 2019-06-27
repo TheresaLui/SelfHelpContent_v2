@@ -10,9 +10,9 @@ displayOrder=""
 articleId="SmtpPort25BlockQualifiedSub"
 diagnosticScenario="SmtpPort25BlockQualifiedSub"
 selfHelpType="Diagnostics"
-supportTopicIds="32592839"
+supportTopicIds="32592839, 32640601"
 resourceTags="windows"
-productPesIds="15526"
+productPesIds="15526, 15660"
 cloudEnvironments="Public"
 />
 
