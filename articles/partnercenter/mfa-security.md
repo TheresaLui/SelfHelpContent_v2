@@ -23,7 +23,7 @@ Resource materials related to implementing partner security requirements immedia
 
 ## **Recommended Documents**
 
-* [Partner security requirements](portalhttps://partner.microsoft.com/resources/collection/partner-security-requirements)
+* [Partner security requirements portal](https://partner.microsoft.com/resources/collection/partner-security-requirements)
 * [What Are Baseline Policies](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)
 * [Partner security requirements announcement](https://assetsprod.microsoft.com/mpn/announcement-partner-security-requirements.pdf)
 * [Partner Security Requirements FAQ](https://assetsprod.microsoft.com/mpn/security-requirements-faq.pdf)
