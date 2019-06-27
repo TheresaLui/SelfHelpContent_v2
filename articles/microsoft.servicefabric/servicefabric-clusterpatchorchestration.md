@@ -23,6 +23,7 @@ As of Service Fabric runtime version 6.4.644 for Linux clusters, a previous issu
 ## **Recommended Documents**
 
 * [Common questions and solutions for patch orchestration](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster)<br>
+* [How to debug/diagnose issues with patch updates through Patch Orchestration Application](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application#diagnosticshealth-events)<br>
 * [Patch orchestration application issues](https://github.com/Azure/service-fabric-issues/issues/290)<br>
 * [Patch orchestration telemetry](https://github.com/Azure/service-fabric-issues/issues/617)<br>
 * [Patch Windows for your Service Fabric cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application)<br>

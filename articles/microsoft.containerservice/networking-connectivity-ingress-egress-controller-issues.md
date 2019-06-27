@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 * [Concepts: Ingress controllers](https://docs.microsoft.com/azure/aks/concepts-network#ingress-controllers)<br>
-Create an ingress controller in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/ingress-basic)<br>
+* [Create an Ingress controller in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/ingress-basic)<br>
 * [Create an HTTPS ingress controller and use your own TLS certificates on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/ingress-own-tls)<br>
 * [Create an ingress controller to an internal virtual network in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/ingress-internal-ip)<br>
 * [Create a Kubernetes cluster with Application Gateway ingress controller](https://docs.microsoft.com/azure/terraform/terraform-create-k8s-cluster-with-aks-applicationgateway-ingress)<br>

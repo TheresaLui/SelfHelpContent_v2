@@ -1,6 +1,6 @@
 <properties
-pageTitle="Top common problems for Application Insights"
-description="Menu based workflow document for top AI problems"        
+pageTitle="Application Insights and Data Collection Issues"
+description="Application Insights and Data Collection Issues"        
 service="microsoft.insights"
 resource="components"
 authors="gansmore"
@@ -12,7 +12,7 @@ productPesIds="15693"
 cloudEnvironments="public"
 />
 
-# Top common problems for Application Insights?
+# Application Insights and Data Collection Issues
 ---
 {
 	"$schema":"SelfHelpContent",
@@ -38,7 +38,7 @@ cloudEnvironments="public"
 			"searchTags": "partial data, no metric, usage",			
 			"supportTopicId": "32602224",
 			"commonSolutionArticleId": "insights_usage_blade"
-		}, 
+		},
 		{				    
 			"title": "Why did I not receive an e-mail notification?",
 			"description": "I can see that an alert was triggered but no e-mail notification was sent.",
@@ -46,7 +46,7 @@ cloudEnvironments="public"
 			"searchTags": "e-mail, notification, wrong people",			
 			"supportTopicId": "32546625",
 			"commonSolutionArticleId": "insights_missingemail"
-		}, 
+		},
 		{				    
 			"title": "How do I monitor an App Service?",
 			"description": "I want to add Application Insights monitoring to my App Service.",
@@ -54,7 +54,7 @@ cloudEnvironments="public"
 			"searchTags": "app service, web app",			
 			"supportTopicId": "32602209",
 			"commonSolutionArticleId": "insights_appservice"
-		}, 
+		},
 		{				    
 			"title": "How do I troubleshoot my Web Test?",
 			"description": "I see an error on my webtest but don't know how to troubleshoot.",
@@ -62,7 +62,7 @@ cloudEnvironments="public"
 			"searchTags": "availability test, web test",			
 			"supportTopicId": "32422336",
 			"commonSolutionArticleId": "insights_availabilitytests"
-		}, 
+		},
 		{				    
 			"title": "I need help configuring the .NET SDK.",
 			"description": "I want to configure my .NET SDK to add or remove additional monitoring.",
@@ -70,7 +70,7 @@ cloudEnvironments="public"
 			"searchTags": ".net, iis, dotnetcore",			
 			"supportTopicId": "32402631",
 			"commonSolutionArticleId": "insights_dotnetsdk"
-		}, 
+		},
 		{				    
 			"title": "I need help configuring the Java SDK.",
 			"description": "I want to configure my Java SDK to add or remove additional monitoring.",

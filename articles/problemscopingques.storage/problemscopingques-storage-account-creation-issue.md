@@ -4,7 +4,7 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602693"
+	supportTopicIds="32639215,32602693,32639216,32639217,32639218,32639219,32639220,32639214"
 	productPesIds="15629"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -46,6 +46,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

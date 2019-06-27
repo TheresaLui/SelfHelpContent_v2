@@ -15,11 +15,13 @@
 
 # MongoDB API Support
 
-MongoDB API support for MongoDB features and syntax
+Cosmos DB's API for MongoDB is compatible with MongoDB server version 3.2 by default. See [MongoDB Feature Support](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support) for the list of supported operators and limitations. 
+
+Features or query operators added in MongoDB version 3.4, including aggregation pipeline support is currently available as a preview feature. See [Mongo Preview Features](https://azure.microsoft.com/blog/azure-cosmosdb-extends-support-for-mongodb-aggregation-pipeline-unique-indexes-and-more/) for to enable these capabilities.
 
 ## **Recommended Steps**
-
-* You can communicate with the database's MongoDB API through any of the open source MongoDB client drivers. The MongoDB API enables the use of existing client drivers by adhering to the MongoDB wire protocol.
+* Review and enable preview feature via the Azure Portal, for example, Mongo Aggregation Pipeline, or Mongo 3.4 compatibility
+* Rewrite query minus the unsupported operator, with client-side logic when required
 
 ## **Recommended Documents**
 [MongoDB Feature Support](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support)

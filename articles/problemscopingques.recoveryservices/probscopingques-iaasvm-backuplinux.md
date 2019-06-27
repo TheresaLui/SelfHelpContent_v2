@@ -18,10 +18,10 @@
     "title": "Azure VM backup failure for Linux",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-            "title": "Azure Virtual Machine backup failure diagnostics",
-            "description": "These diagnostics will check for errors.",
-            "insightNotAvailableText": "We didn't find any problems"
-	   	    },
+        "title": "Azure Virtual Machine backup failure diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
@@ -30,7 +30,7 @@
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
             "required": false,
-	    "diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -78,11 +78,11 @@
                 {
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
-              }
-	     ,{
-		"value": "dont_know_answer",
-		"text": "Other, don't know or not applicable"
-		}
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
             ],
             "required": true
         },
@@ -111,10 +111,11 @@
                 {
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
-               },{
-		   "value": "dont_know_answer",
-		   "text": "Other, don't know or not applicable"
-		}
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
             ],
             "required": false
         },
@@ -124,7 +125,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
@@ -136,6 +137,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

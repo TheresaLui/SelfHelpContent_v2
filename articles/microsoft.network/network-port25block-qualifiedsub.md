@@ -20,7 +20,7 @@ cloudEnvironments="Public"
 
 <!--issueDescription-->
 Your **'<!--$SubOfferType-->[SubscriptionOfferType]<!--/$SubOfferType-->'** subscription named **'<!--$SubscriptionName-->[SubscriptionName]<!--/$SubscriptionName-->'** is currently unauthorized to send mail from Azure VMs on TCP port 25. You may request to have this feature enabled for your subscription.
-<!--issueDescription-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

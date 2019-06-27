@@ -4,8 +4,8 @@
          authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32553285"
-         productPesIds="15207"
+         supportTopicIds="32553285,32637322"
+         productPesIds="15207,15571,15797,16454,16470,14749"
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
@@ -72,10 +72,10 @@
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": true
         },
@@ -105,10 +105,10 @@
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": false
         },
@@ -129,6 +129,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

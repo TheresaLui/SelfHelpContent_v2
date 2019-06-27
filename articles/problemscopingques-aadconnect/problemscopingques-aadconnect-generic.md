@@ -13,43 +13,44 @@
 # Azure AD Connect questions
 ---
 {
-  "subscriptionRequired": false,
-  "resourceRequired": false,
-	"title": "Azure AD Connect issues",
-	"fileAttachmentHint": "",
-	"formElements": [
-			{
-			"id": "problem_start_time",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did you first noticed the problem?",
-			"required": true
-			},
-			{
-      "id": "problem_description",
-      "order": 2,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Description",
-      "watermarkText": "Provide additional information about your issue",
-      "required": true,
-      "useAsAdditionalDetails": true
-			},
-			{
-			"id": "problem_error",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide any error messages or error codes you observed",
-			"watermarkText": "Please provide any error messages or error codes you observed",
-			"required": false
-			},
-			{
-			"id": "problem_steps_taken",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please describe the steps, if any, that you already took to remedy the issue",
-			"watermarkText": "Please describe the steps, if any, that you already took to remedy the issue",
-			"required": false
-			}
-	]
+    "subscriptionRequired": false,
+    "resourceRequired": false,
+    "title": "Azure AD Connect issues",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did you first noticed the problem?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+        {
+            "id": "problem_error",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide any error messages or error codes you observed",
+            "watermarkText": "Please provide any error messages or error codes you observed",
+            "required": false
+        },
+        {
+            "id": "problem_steps_taken",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please describe the steps, if any, that you already took to remedy the issue",
+            "watermarkText": "Please describe the steps, if any, that you already took to remedy the issue",
+            "required": false
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

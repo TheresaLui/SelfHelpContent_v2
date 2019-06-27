@@ -10,11 +10,11 @@
          schemaVersion="1"
          articleId="2b342a85-2011-4b4d-b7d0-43639892e013"
 />
-# Questions Azure VM Fail-over Failures
+# Questions Azure VM Fail-over Failures 
 ---
 {
-     "subscriptionRequired": true,
-     "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Azure VM Failover failures",
     "fileAttachmentHint": "",
     "formElements": [
@@ -25,7 +25,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the affected virtual machine?",
             "watermarkText": "Example: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -41,7 +41,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the ID of failed Site Recovery job activity:",
             "watermarkText": "Example. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "Select_ErrorMessage",
@@ -66,18 +66,18 @@
                     "value": "ILB,NSG or Public IP were not replicated",
                     "text": "Internal load balancing, Network Security Groups or Public IP were not replicated"
                 },
-                 {
+                {
                     "value": "disks were missing post failover/failback",
                     "text": "disks were missing post failover or failback"
                 },
-		        {
-		            "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		        }
+                }
             ],
             "required": true
         },
-       {
+        {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
@@ -94,6 +94,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
