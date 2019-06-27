@@ -7,7 +7,7 @@
     authorAlias="v-jasoan"
     ms.author="v-jasoan"
     displayOrder=""
-    articleId="OSStartUp-PLEASE-WAIT"
+    articleId="OSStartUp-PLEASE_WAIT"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
