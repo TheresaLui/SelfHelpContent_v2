@@ -17,6 +17,11 @@
     "subscriptionRequired": false,
     "title": "HDInsight CRUD Issue",
     "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
+        "diagnosticCard": {
+        "title": "HDInsight CRUD Troubleshooter",
+        "description": "HDInsight CRUD Troubleshooter can help you troubleshoot and solve your CRUD problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
