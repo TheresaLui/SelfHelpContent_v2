@@ -3,16 +3,16 @@
 	description="Diagnose and solve issues with Runbook and PowerShell Modules"        
 	service="microsoft.automation"
 	resource="automationaccounts"
-	resourceTags=""
-	authors="csand-msft"
-	ms.author=""
+	resourceTags="runbooks, jobs"
+	authors="adoylemsft,kasparks,csand-msft"
+	ms.author="kasparks"
 	displayOrder=""
 	articleId="538f013a-216a-4478-945d-5c73a3fea479"
 	selfHelpType="diagnoseandsolve"
 	productPesIds="15607"
 	cloudEnvironments="public"
 />
-# Top common problems for microsoft.automation, automationaccounts
+# Diagnose and solve issues with Runbook and PowerShell Modules
 ---
 {
     "$schema": "SelfHelpContent",
@@ -74,7 +74,7 @@
         {
             "id": "Problems_enabling_or_using_Update_Management",
             "title": "Problems enabling or using Update Management",
-           "description": "I am experiencing issues when enabling or using Update Management.",
+            "description": "I am experiencing issues when enabling or using Update Management.",
             "category": "Update Management",
             "searchTags": "",
             "supportTopicId": "",

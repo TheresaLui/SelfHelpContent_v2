@@ -25,7 +25,7 @@ cloudEnvironments="public"
       "searchTags": "502, bad gateway, server, error",	  
       "supportTopicId": "32573483",
       "commonSolutionArticleId": "application-gateway-502-error",
-      "symptomId": ""
+      "symptomId": "AppGw502AzurePortalInsight"
     },
 	{
       "id": "Im_encountering_4xx_client_error",
@@ -45,7 +45,7 @@ cloudEnvironments="public"
       "searchTags": "redirect, err_too_many_redirects",	  
       "supportTopicId": "32639115",
       "commonSolutionArticleId": "application-gateway-too-many-redirects-error",
-      "symptomId": ""
+      "symptomId": "AppGwTooManyRedirectsAzurePortalInsight"
     },
     {
       "id": "Im_encountering_connection_timed_out_error",
@@ -75,7 +75,7 @@ cloudEnvironments="public"
       "searchTags": "SSL, HTTPS, encryption, certificate",		  
       "supportTopicId": "32582828",
       "commonSolutionArticleId": "application-gateway-ssl-termination",
-      "symptomId": ""
+      "symptomId": "AppGwSslTerminationAzurePortalInsight"
     },
     {
       "id": "End-to-end_SSL",
@@ -85,7 +85,7 @@ cloudEnvironments="public"
       "searchTags": "SSL, HTTPS, encryption, end, whitelist, certificate",	  
       "supportTopicId": "32582825",
       "commonSolutionArticleId": "application-gateway-end-to-end-ssl",
-      "symptomId": ""
+      "symptomId": "AppGwE2ESslAzurePortalInsight"
     },
 	{
       "id": "session_affinity",
@@ -95,7 +95,7 @@ cloudEnvironments="public"
       "searchTags": "cookie, session affinity, cookie-based",
       "supportTopicId": "32640605",
       "commonSolutionArticleId": "application-gateway-session-affinity",
-      "symptomId": ""
+      "symptomId": "AppGwSessionAffinityAzurePortalInsight"
     }
   ],
   "troubleshootingTools": [

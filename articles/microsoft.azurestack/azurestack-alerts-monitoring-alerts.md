@@ -3,15 +3,15 @@
     description="General guidance for Azure Stack alert issues"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors="alexsmithMSFT"
+    authors="alexsmithMSFT, v-miegge"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629171,32630574"
+    supportTopicIds="32630574"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-	articleId="84de2e54-0b99-46e4-afb8-1ecf4e31679f"
+    articleId="84de2e54-0b99-46e4-afb8-1ecf4e31679f"
 />
 
 # Azure Stack alerts
@@ -21,11 +21,11 @@ Azure Stack includes infrastructure monitoring capabilities that enable you to v
 ## **Recommended Steps**
 
 1. To view the health state in the portal, click the region that you want to view in the Region management tile
-2. View the health state of infrastructure roles and of resource providers by following steps to [view and manage component health state](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-and-manage-component-health-state)
-3. [View active alerts](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-alerts) for each Azure Stack region is available directly from the Region management blade
-4. You can also integrate an [external monitoring solutions with Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor)
+1. View the health state of infrastructure roles and of resource providers by following steps to [view and manage component health state](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-and-manage-component-health-state)
+1. [View active alerts](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-alerts) for each Azure Stack region available directly from the Region management blade
+1. You can also integrate an [external monitoring solutions with Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor)
 
 ## **Recommended Documents**
 
-* [Monitor health and alerts in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health)
+* [Monitor health and alerts in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health)<br>
 * [Integrate external monitoring solution with Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor)

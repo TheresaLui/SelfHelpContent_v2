@@ -36,7 +36,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the application",
-            "required": true
+            "required": false
         },
         {
             "id": "interactive_query",
@@ -44,7 +44,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Interactive query if applicable",
             "watermarkText": "Interactive query, please replace any PII parameter value in the query when needed",
-            "required": true
+            "required": false
         },
         {
             "id": "interactive_query_plan",
@@ -52,7 +52,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Interactive query plan if available",
             "watermarkText": "Interactive query plan",
-            "required": true
+            "required": false
         },
         {
             "id": "interactive_query_submission_method",

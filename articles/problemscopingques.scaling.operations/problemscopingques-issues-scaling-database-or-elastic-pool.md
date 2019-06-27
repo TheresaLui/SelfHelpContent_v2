@@ -17,7 +17,6 @@
 	"resourceRequired": true,
 	"title": "Issues Scaling a Database or Elastic Pool",
 	"fileAttachmentHint": "",
-	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"formElements": [
 	        {

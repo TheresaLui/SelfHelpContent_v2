@@ -24,15 +24,6 @@
             "category": "Quotas",
             "searchTags": "",
             "supportTopicId": "",
-            "commonSolutionArticleId": "0a7064a9-6a5a-4092-b206-0d4ad3519cfc"
-        },
-        {
-            "id": "I_am_receiving_a_quota_exceeded_exception",
-            "title": "I am receiving a quota exceeded exception",
-            "description": "I am receiving a quota exceeded exception",
-            "category": "Quotas",
-            "searchTags": "",
-            "supportTopicId": "",
             "commonSolutionArticleId": "9142a1af-8474-4dcb-817f-6683d57fdb92"
         },
         {
@@ -43,15 +34,6 @@
             "searchTags": "",
             "supportTopicId": "",
             "commonSolutionArticleId": "cdc14e12-4e6f-490a-93db-179b0e08a425"
-        },
-        {
-            "id": "I_am_receiving_a_timeout_exception",
-            "title": "I am receiving a timeout exception",
-            "description": "I am receiving a timeout exception",
-            "category": "Configuration",
-            "searchTags": "",
-            "supportTopicId": "",
-            "commonSolutionArticleId": "a12ed0eb-48a4-4283-93c5-9da75ff3f923"
         },
         {
             "id": "I_am_receiving_a_timeout_exception",

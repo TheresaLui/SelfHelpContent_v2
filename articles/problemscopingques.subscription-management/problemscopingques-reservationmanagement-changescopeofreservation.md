@@ -96,6 +96,7 @@
                 "textProperty": "name",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
+		"valuePropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"

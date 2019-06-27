@@ -7,7 +7,7 @@
 		ms.author="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
-                supportTopicIds="32594865,32594866,32594867,32594868,32632799,32594870,32632800"
+                supportTopicIds="32594866,32594867,32594868,32632799,32594870,32632800"
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
@@ -24,7 +24,8 @@ How to:
 - [Recover System State files to the same server](https://aka.ms/AB-AA4dp4e)<br>
 - [Recover System State files to the alternate server](https://aka.ms/AB-AA4dp4d)<br>
 - [Apply restored System State on a Windows Server](https://aka.ms/AB-AA4dwsn)<br>
-- [Troubleshoot failed System State restore](https://aka.ms/AB-AA4dwsp)<br>
+- [Troubleshoot failed System State Backup](https://aka.ms/AB-SystemState-Tshooting)<br>
+- [Troubleshoot failed System State Restore](https://aka.ms/AB-AA4dwsp)<br>
 
 **Limitations** 
 
