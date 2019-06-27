@@ -1,14 +1,14 @@
 <properties
-    pageTitle="Azure Stack Security, Secrets Management, and Identity"
-    description="Azure Stack Security, Secrets Management, and Identity"
+    pageTitle="Azure Stack Preparing Certificates"
+    description="Azure Stack Preparing Certificates"
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32663931,32663932,32629257"
+    supportTopicIds="32629198"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="8ccb2fde-4000-4e97-b711-4b07ac45db50"
+    articleId="8ccb2fde-1101-4e97-b711-4b07ac45db50"
 />
 # Azure Stack Security, Secrets Management and Identity
 ---
@@ -159,22 +159,6 @@
             "controlType": "textbox",
             "displayLabel": "Certificate authority that signed your Azure Stack external certificates",
             "watermarkText": "Enter the name of the Certificate authority",
-            "required": false
-        },
-        {
-            "id": "external_CA_expire_day",
-            "order": 8,
-            "controlType": "textbox",
-            "displayLabel": "Next external certificate expiration date",
-            "watermarkText": "Enter the date",
-            "required": false
-        },
-        {
-            "id": "internal_CA_expire_day",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "Next internal certificate expiration date",
-            "watermarkText": "Enter the date",
             "required": false
         },
         {
