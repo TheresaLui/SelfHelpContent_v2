@@ -23,7 +23,7 @@ When you activate a role in Azure AD Privileged Identity Management (PIM), the a
 
 1. Sign out of the Azure portal and then sign back in.
 
-    When you activate an Azure AD role or an Azure resource role, you will see the stages of your activation. Once all the stages are complete, you will see a **Sign out** link. Make sure to use this link to sign out and then sign back in. This will solve most cases for activation delay.
+    When you activate an Azure AD role or an Azure resource role, you will see the stages of your activation. Once all the stages are complete, you will see a **Sign out** link. You can use this link to sign out. This will solve most cases for activation delay.
 
 1. If you are activating the Exchange Administrator role, make sure you sign out and sign back in.
 
