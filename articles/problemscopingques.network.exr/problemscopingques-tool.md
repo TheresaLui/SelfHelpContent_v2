@@ -15,15 +15,14 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "subscriptionRequired": true,
-  "resourceRequired": true,
+  "subscriptionRequired": false,
+  "resourceRequired": false,
   "title": "Which tool(s) are you experiencing issues with?",
   "fileAttachmentHint": "",
   "formElements": [{
       "id": "slow_vm_determination",
       "order": 1,
       "controlType": "dropdown",
-      "infoBalloonText": "string",
       "displayLabel": "Which tool(s) are you experiencing issues with?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [{
