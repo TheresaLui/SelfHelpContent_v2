@@ -47,9 +47,9 @@
       "extensionName": "Microsoft_Azure_Monitoring",
       "bladeName": "AutoScaleSettingsBlade",
        "metadata": {
-        "WebHostingPlanId": "{serverFarmId}",
-		"resourceId": "{serverFarmId}",
-		"apiVersion": "2015-08-01"
+       "WebHostingPlanId": "{serverFarmId}",
+       "resourceId": "{serverFarmId}",
+       "apiVersion": "2015-08-01"
       }
     }
   ],
