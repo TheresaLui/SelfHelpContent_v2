@@ -38,5 +38,4 @@ Vertex created with the traversal below will be automatically deleted in **123 s
 ## **Recommended Documents**
 
 * [Cosmos DB Optimistic Concurrency](https://docs.microsoft.com/azure/cosmos-db/faq#how-does-the-sql-api-provide-concurrency)
-
-* [Time to Live (TTL) in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/time-to-live)
+* [Time to Live (TTL) in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/time-to-live)
