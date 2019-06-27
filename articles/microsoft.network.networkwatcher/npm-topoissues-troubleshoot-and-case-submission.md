@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring but topology does not show all the hops"
 	description="I installed NPM and setup monitoring but topology does not show all the hops"
-	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
+	service="microsoft.network"
+	resource="networkWatchers"
 	authoralias="vinigam"
 	authors="vinynigam"
 	displayOrder="10"
@@ -11,6 +11,7 @@
 	resourceTags="optional"
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
+	articleId="npm-topoissues-troubleshoot-and-case-submission"
 />
 
 # Topology Issues

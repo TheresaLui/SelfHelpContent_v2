@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring in Performance Monitor but I do not see any data in the dashboard"
 	description="I installed NPM and setup monitoring in Performance Monitor  but I do not see any data in the dashboard"
-	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
+	service="microsoft.network"
+	resource="networkWatchers"
 	authoralias="vinigam"
 	authors="vinynigam"
 	displayOrder="5"
@@ -11,6 +11,7 @@
 	resourceTags="optional"
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
+	articleId="npm-nodataforpmrule-troubleshoot-and-case-submission"
 />
 
 # NPM for Performance Monitor

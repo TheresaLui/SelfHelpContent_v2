@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring in Service Connectivity Monitor but I do not see any data in the dashboard"
 	description="I installed NPM and setup rules  but I do not see any data for my rule"
-	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
+	service="microsoft.network"
+	resource="networkWatchers"
 	authoralias="vinigam"
 	authors="vinynigam"
 	displayOrder="6"
@@ -11,6 +11,7 @@
 	resourceTags="optional"
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
+	articleId="npm-nodataforscmule-troubleshoot-and-case-submission"
 />
 
 # No monitoring data in NPM for a specific rule

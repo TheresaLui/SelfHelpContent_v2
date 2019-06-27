@@ -1,9 +1,9 @@
 <properties
 	pageTitle="I am unable to see my agent in the Nodes page"
 	description="I am unable to see my agent in the Nodes page"
-	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
-	authoralias="vinigam"
+	service="microsoft.network"
+	resource="networkWatchers"
+	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="1"
 	selfHelpType="resource"
@@ -11,6 +11,7 @@
 	resourceTags="optional"
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
+	articleId="npm-setupandconfiguration-troubleshoot-and-case-submission"
 />
 
 # Agent Setup and Configuration issues
@@ -29,17 +30,11 @@ tasklist |findstr NPMDAgent
 
 ### **No Data in NPM**
 
- * If you have not created rules, go to "Configure" to create rules , select source and destinations and set thresholds to start monitoring. [Learn more](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor#configure-the-solution).<br>
+ * If you have not [created rules](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor#configure-the-solution), go to "Configure" to create rules, select source and destinations, and set thresholds to start monitoring
+ * Based on frequency set in the test, it may take the data about 30 mins to appear in the dashboard
+ * To check if NPM is receiving any data, run `NetworkMonitoring | take 5` in Log Analytics for your workspace
 
-
- * Based on frequency set in the test, it may take the data about 30 mins to appear in the dashboard.
-
- * To check if NPM is receiving any data, run the below mentioned query in Log Analytics for your workspace: <br>
-
- ```
- NetworkMonitoring | take 5
- ```
-
+## **Recommended Documents**
 
 ## **Recommended documents**
 [Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>

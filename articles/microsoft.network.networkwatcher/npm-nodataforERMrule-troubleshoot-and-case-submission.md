@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring in Express Route Monitor but I do not see any data in the dashboard"
 	description="I installed NPM and setup monitoring in Express Route Monitor  but I do not see any data in the dashboard"
-	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
+	service="microsoft.network"
+	resource="networkWatchers"
 	authoralias="vinigam"
 	authors="vinynigam"
 	displayOrder="7"
@@ -11,6 +11,7 @@
 	resourceTags="optional"
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
+	articleId="npm-nodataforermrule-troubleshoot-and-case-submission"
 />
 
 # No monitoring data in NPM for Express Route Monitor
