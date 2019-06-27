@@ -32,7 +32,7 @@ Performance limits given to us by the remote storage are given on a file tier ba
 
 <!--$setFilePath-->setFilePath<!--/$setFilePath-->
 
-* To increase the size of file, use the `MODIFY FILE` clause of the `ALTER DATABASE` statement, specifying the `SIZE` and the `MAXSIZE` syntax, as described in the following example:
+* To increase the size of file, use the __MODIFY FILE__ clause of the __ALTER DATABASE__ statement, specifying the __SIZE__ syntax, as described in the following example:
 
   ```
   alter database database_name
