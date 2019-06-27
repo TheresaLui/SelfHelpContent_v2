@@ -40,11 +40,11 @@ SET group_concat_max_len = 8192; SELECT SchemaName, GROUP_CONCAT(DropQuery SEPAR
 
 	This error happens when you have two tables with the same name in the source database. Please note that MySQL database on Azure does not support case sensitive tables. So, update the table names accordingly and try again. 
 
-	
+
 * **The target database {database} is empty.** Please migrate the schema.
 
 	This error occurs when target MySQL database you are migrating to does not have the required schema. Schema migration is required to be able to migrate data to your target. Please [migrate the schema](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online#migrate-the-sample-schema) from your source to the target database.
-	
+
 ## **Recommended Documents**
 
 * [Tutorial: Migrate MySQL to Azure Database for MySQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online)<br>

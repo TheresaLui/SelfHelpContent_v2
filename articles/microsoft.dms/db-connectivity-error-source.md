@@ -28,7 +28,7 @@
 
 
 * **Error**: Error 53 - SQL connection failed. (The other codes are -1, 2, 5, 53, 233, 258, 1225, 11001).
-	
+
 	* **Recommended documents**: 
 
 		[Interactive user guide to troubleshoot the connectivity issue](https://support.microsoft.com/help/4009936/solving-connectivity-errors-to-sql-server)
@@ -37,7 +37,7 @@
 
 		[Prerequisites for migrating SQL Server to an Azure SQL Database managed instance](https://docs.microsoft.com/azure/dms/pre-reqs#prerequisites-for-migrating-sql-server-to-an-azure-sql-database-managed-instance)
 
-	
+
 * **Error 4060 - Login failed**
 
 	Authentication has failed with the target database. Review user actions in [Authentication Errors Page](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-2017), and update authentication settings.

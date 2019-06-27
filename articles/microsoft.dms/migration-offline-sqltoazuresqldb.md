@@ -36,8 +36,8 @@
 	* The nullability of column '<column_name>' in table '<table_name>' is different on source and target
 	* The data type of the column in the source table does not match with the data type in the target table
 	* No columns found for the source table. It may not exist, it may have been deleted, or the user may not have access.
-	
-	
+
+
 ## **Recommended Documents**
 
 * [Tutorial: Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)<br>

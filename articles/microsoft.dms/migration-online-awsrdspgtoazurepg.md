@@ -28,7 +28,7 @@
 
 	This errors occurs when the default value on a column schema is different on source and target databases. Please make sure schema on the target matches schema on the source. If you need help with migrating schema, please refer to our [Azure PostgreSQL online migration documentation](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#migrate-the-sample-schema).
 
-	
+
 * **Error**: Target database '{database}' has '{number of tables}' tables where as source database '{database}' has '{number of tables}' tables. The number of tables on source and target databases should match.
 
 	This errors occurs when the number of tables are different on source and target databases. Please make sure schema on the target matches schema on the source. If you need help with migrating schema, please refer to our [Azure PostgreSQL online migration documentation](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#migrate-the-sample-schema).
@@ -38,12 +38,12 @@
 
 	This errors occurs when the source database is empty. This is most likely because you have selected the wrong database as source. Please recheck the source database you selected for migration. 
 
-	
+
 * **The target database {database} is empty.** Please migrate the schema.
 
 	This errors occurs when there is no schema on the target database. Please make sure schema on the target matches schema on the source. If you need help with migrating schema, please refer to our [Azure PostgreSQL online migration documentation](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#migrate-the-sample-schema).
 
-	
+
 ## **Recommended Documents**
 
 * [Tutorial: Migrate PostgreSQL to Azure Database for PostgreSQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online)<br>
