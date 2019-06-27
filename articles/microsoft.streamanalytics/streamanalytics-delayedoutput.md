@@ -16,7 +16,7 @@
 />
 
 # Delayed Output
-When a Stream Analytics job is started, the input events are read, but there can be a delay in the output being produced in certain circumstances.
+When a Stream Analytics job is started, the input events are read, but there can be a delay in the output being produced in certain scenarios.
 
 It is important to ensure data is getting ingested into all partitions of your Event Hubs or IoT Hub. When one input partition is not receiving input, this can lead to a 5 second delay of your output.
 
