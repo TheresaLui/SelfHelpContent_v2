@@ -49,8 +49,8 @@
       "bladeName": "AutoScaleSettingsBlade",
        "metadata": {
         "WebHostingPlanId": "{serverFarmId}",
-		"resourceId": "{serverFarmId}",
-		"apiVersion": "2015-08-01"
+	"resourceId": "{serverFarmId}",
+	"apiVersion": "2015-08-01"
       }
     }
   ],
