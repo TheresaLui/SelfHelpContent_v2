@@ -30,3 +30,7 @@ If you have not validated or obtain a new certificate, follow these steps:
 
 - [Remediate common issues for Azure Stack PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-remediate-certs)
 - [Start-AzsReadinessChecker cmdlet reference](https://docs.microsoft.com/azure-stack/operator/azure-stack-azsreadiness-cmdlet)
+- [Azure Stack certificates signing request generation](https://docs.microsoft.com/azure/azure-stack/azure-stack-get-pki-certs)
+- [Azure Stack public key infrastructure certificate requirements](https://docs.microsoft.com/azure/azure-stack/azure-stack-pki-certs#certificate-requirements​)
+- [ Prepare Azure Stack PKI certificates for use in deployment or rotation](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-prepare-pki-certs)
+- [Validate Azure Stack PKI certificates](https://docs.microsoft.com/azure/azure-stack/azure-stack-validate-pki-certs)
