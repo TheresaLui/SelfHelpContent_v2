@@ -1,20 +1,20 @@
 <properties
-	articleId="dw-scoping-createscalepauseresumedelete-cannotscalehigherorlower.md"
-	pageTitle="Cannot scale higher or lower"
-	description="Cannot scale higher or lower"
-	authors="saltug,mlee3gsd"
-	ms.author="saltug,martinle"
+	articleId="dw-scoping-createscalepauseresumedelete-dwstuckduringcreationscalingorresuming.md"
+	pageTitle="Create/Scale/Pause/Resume/Delete database taking too long"
+	description="Create/Scale/Pause/Resume/Delete database taking too long"
+	authors="mlee3gsd"
+	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635190"
+	supportTopicIds="32635193, 32635192"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Create/Scale/Pause/Resume/Delete/Cannot scale higher or lower
+# Create, Scale, Pause, Resume, Delete - Create, Scale, Pause, Resume or Delete database taking too long
 ---
 {
     "resourceRequired": true,
-    "title": "Cannot scale higher or lower",
+    "title": "Region unavailable for Data Warehouse creation",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -25,50 +25,43 @@
             "required": true
         },
         {
-            "id": "dw_scoping_crud_cannotscale_portal",
+            "id": "dw_scoping_crud_operation_create",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Was the operation initiated through the portal?",
+            "displayLabel": "Are you experiencing this during the create operation?",
             "required": false
         },
         {
-            "id": "dw_scoping_crud_cannotscale_programmatic",
+            "id": "dw_scoping_crud_operation_scale",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Was the operation initiated programmatically?",
+            "displayLabel": "Are you experiencing this during the scale operation?",
             "required": false
         },
         {
-            "id": "dw_scoping_crud_cannotscale_region",
+            "id": "dw_scoping_crud_operation_resume",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "What is the region of your data warehouse?",
+            "displayLabel": "Are you experiencing this during the resume operation?",
             "required": false
         },
         {
-            "id": "dw_scoping_crud_cannotscale_slo",
+            "id": "dw_scoping_crud_operation_howlong",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "What performance tier are you requesting?",
+            "displayLabel": "How long has this operation have been running?",
             "required": false
         },
         {
-            "id": "dw_scoping_crud_cannotscale_error",
+            "id": "dw_scoping_crud_operation_error",
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "If the operation failed, what is the error message that was displayed?",
-            "required": false
-        },
-        {
-            "id": "dw_scoping_crud_cannotscale_quota",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "What's your current DTU quota?",
+            "displayLabel": "If an error was displayed, what was the error message?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
