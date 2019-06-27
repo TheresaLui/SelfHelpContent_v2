@@ -14,7 +14,7 @@
 />
 # Gremlin - Performance
 
-When gremlin traversal latency or cost in RU/s does not match expectations there is a custom Cosmos DB Gremlin step to gain insight.
+When Gremlin traversal latency or cost in RU/s does not match expectations there is a custom Cosmos DB Gremlin step to gain insight.
 
 ```
 g.V('mary').out().executionProfile()

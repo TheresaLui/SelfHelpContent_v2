@@ -22,7 +22,7 @@ Example of setting partition key on the vertex, if **/pk** is partitioning key o
 g.addV('vertexlabel').property('pk', 'pkValue')
 ```
 
-Example of limiting search of vertices to a single partition key. Following strategy will instruct Gremlin engine to perform traversal only within a given partition even though there may be vertices matching the criteria in other partitions.
+Following is an example of limiting search of vertices to a single partition key which demonstrates strategy that instructs Gremlin engine to perform traversal only within a given partition even though there may be vertices matching the criteria in other partitions.
 
 ```
 g.withStrategies(PartitionStrategy.build().partitionKey('pk').readPartitions('pkValue').create()).V('V1')
@@ -34,7 +34,7 @@ Every traversal hop between vertices connected by an edge requires Gremlin engin
 
 A great partitioning key exhibits the following properties:
 
-1. Data and load is equally distributed across all partitions.
+1. Data and load are equally distributed across all partitions.
 
 2. There are no hot partitions storage or throughput-wise.
 

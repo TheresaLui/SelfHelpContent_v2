@@ -24,7 +24,7 @@ Gremlin engine returns a set of headers with every response that are recommended
 ***x-ms-retry-after-ms*** | A value in timespan format (00:00:02.5000000) after which throttled request can be retried. Traversal that is retried before specified time elapses will likely be throttled again.
 ***x-ms-activity-id*** | Unique identifier of a traversal activity on the server side. When there is a problem with traversal, it is very useful to share this identifier with support team.
 
-These attributes can be retrieved from the client drvier.
+These attributes can be retrieved from the client driver.
 
 * ***Gremlin.Net***
 

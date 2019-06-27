@@ -28,7 +28,7 @@ Gremlin follows very closely [Apache TinkerPop](https://tinkerpop.apache.org/doc
 
 * ***GraphSONv3*** serializer is not available today but will become available in near future.
 
-* ***Transactions*** are not supported due to distributed nature of the system. Please configure desired consistency model on gremlin account to "read your own writes".
+* ***Transactions*** are not supported due to distributed nature of the system. Please configure desired consistency model on Gremlin account to "read your own writes".
 
 ## **Recommended Documents**
 

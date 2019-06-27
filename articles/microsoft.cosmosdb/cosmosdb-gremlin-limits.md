@@ -16,9 +16,9 @@
 
 Cosmos DB Gremlin API is built on top of Cosmos DB infrastructure therefore all Limits in [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits) apply. 
 
-### **Gremlin-specific limits**
+### **Azure Cosmos DB Gremlin limits**
 
-When gremlin-specific limit is reached, traversal is terminated with ***x-ms-status-code*** = 429 that indicates throttling error.
+When Gremlin limit is reached, traversal is terminated with ***x-ms-status-code*** = 429 that indicates throttling error.
 
 **Resource**	| **Default limit** | **Explanation**
 --- | --- | ---
