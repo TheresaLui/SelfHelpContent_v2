@@ -1,5 +1,5 @@
 <properties  
-    pageTitle="My Linux VM is not booting after applying updates"
+    pageTitle="My Linux VM is not booting after applying updates "
     description="My Linux VM is not booting after applying updates"
     service=""
     resource=""
