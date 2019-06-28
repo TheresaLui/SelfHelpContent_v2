@@ -26,8 +26,8 @@ Your purchase cannot be completed until you choose your payment method.<br>
 ## Recommended Steps
 
 Choose your payment method:
-- [Add, update, or remove a credit or debit card for Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-- [Pay Azure subscription by invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice). This option is available for only business accounts.<br>
+- [Add, update, or remove a credit or debit card for Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
+
 
 ## Recommended Documents
 
