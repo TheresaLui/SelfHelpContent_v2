@@ -25,7 +25,8 @@ Your purchase cannot be completed until the offer is enabled for purchase.<br>
 
 ## Recommended Steps
 
-The enrollment administrator controls privileges on which accounts can make the purchase. Contact the publisher or your system administrator to ascertain the needed requirements. If unable to resolve, contact Help and Support in the [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
+If you have an Azure Enterprise account, you can enable the purchase directly in the [Microsoft Azure Enterprise Portal](https://ea.azure.com/).
+ If unable to resolve, contact Help and Support in the [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
 
 ## Recommended Documents
 
