@@ -7,7 +7,7 @@
     ms.author="tibasham"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32615532,32628284,32639646"
+    supportTopicIds="32675600"
     resourceTags=""
     productPesIds="15571,15797,16454,16470,16342"
     cloudEnvironments="public"
