@@ -17,6 +17,7 @@
 # Troubleshoot and resolve connectivity (timeout) issues
  
 ## **Recommended Documents**
- 
+
+
 - [Make HTTP timeout configurable in ADLS Connector](https://issues.apache.org/jira/browse/HADOOP-15356)<br>
 - [Configuring timeout at SDK](https://github.com/Azure/azure-data-lake-store-java/blob/f5c270b8cb2ac68536b2cb123d355a874cade34c/src/main/java/com/microsoft/azure/datalake/store/ADLStoreOptions.java#L145)<br>
