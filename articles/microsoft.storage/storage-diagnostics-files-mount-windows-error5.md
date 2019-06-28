@@ -44,6 +44,7 @@ Verify virtual network and firewall rules are configured properly on the storage
 <!--/issueDescription-->
 
 ## **Recommended Documents**
+
 - [Troubleshoot Azure Files problems in Windows](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems)
 - [Troubleshooting tool for Azure Files mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)
 - [Secure transfer required](https://docs.microsoft.com/azure/storage/common/storage-require-secure-transfer)
