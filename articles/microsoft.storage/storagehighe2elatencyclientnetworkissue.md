@@ -21,7 +21,7 @@ We observed that at **<!--$Timeframe-->[Timeframe]<!--/$Timeframe-->** the opera
 
 <!--/issueDescription-->
 
-### 1. Here are best practices to identify and resolve [client side performance issues]  (https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#investigating-client-performance-issues) 
+### 1. Here are best practices to identify and resolve [client side performance issues](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#investigating-client-performance-issues) 
 
 
-### 2. Please refer to [troubleshooting network latency issues]  (https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=/azure/storage/blobs/toc.json#investigating-network-latency-issues) to further troubleshoot Network issues
+### 2. Please refer to [troubleshooting network latency issues](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=/azure/storage/blobs/toc.json#investigating-network-latency-issues) to further troubleshoot Network issues
