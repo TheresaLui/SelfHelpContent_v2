@@ -31,7 +31,7 @@ Please contact the publisher for recommendations or you can determine which imag
 - For PowerShell examples, see [Navigate the images](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#navigate-the-images).
 - For Azure CLI examples, see [List popular images](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#list-popular-images).
 
-If unable to resolve, contact Help and Support in the [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)).<br>
+If unable to resolve, contact Help and Support in the [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).<br>
 
 ## Recommended Documents
 
