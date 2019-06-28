@@ -16,7 +16,7 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Azure Files Windows mount error 53
+# Azure Files - Windows mount error 53
 
 <!--issueDescription-->
 If your Azure file share mount fails with the following error: **_System error 53 has occurred. The network path was not found_**, please follow the recommended steps below to troubleshoot the problem.
