@@ -8,7 +8,7 @@
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques.visualstudio-pipelines.buildandrelease-build"
+	articleId="problemscopingques-visualstudio-pipelines-buildandrelease-build"
 />
 # Pipelines Issues - Build
 ---
