@@ -23,14 +23,14 @@ We detected a purchase failure for the deployment of Azure Marketplace offer **<
 
 Your purchase cannot be completed until you choose your payment method.<br>
 
-## Recommended Steps
+## **Recommended Steps**
 
 Choose your payment method:
 
 - [Add, update, or remove a credit or debit card for Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
 
 
-## Recommended Documents
+##  **Recommended Documents**
 
 - [Find Windows VM images in the Azure Marketplace with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage)  
 - [Find Linux VM images in the Azure Marketplace with the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage)
