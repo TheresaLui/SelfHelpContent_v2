@@ -2,7 +2,7 @@
 	articleId="dw-scoping-dataimportexport-usingazuredatafactory.md"
 	pageTitle="Using Azure Data Factory"
 	description="Using Azure Data Factory"
-	authors="saltug,happynicolle"
+	authors="saltug,mlee3gsd"
 	ms.author="saltug,nicw"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635226"
