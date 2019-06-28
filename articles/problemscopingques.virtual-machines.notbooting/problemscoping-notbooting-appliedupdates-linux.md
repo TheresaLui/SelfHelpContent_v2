@@ -50,7 +50,7 @@
             "order": 3,
             "visibility": "notbooting_rcaonly == Yes",
             "controlType": "dropdown",
-            "displayLabel": "Are you willing to provide the VHD of the VM for the investigation?",
+            "displayLabel": "Are you willing to provide the OS VHD of the VM for the investigation?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
