@@ -4,7 +4,7 @@
 	authors="chrisjco"
 	ms.author="ccoop"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32452973,32452974,32572374,32572376,"
+	supportTopicIds="32452973, 32452974, 32572374, 32572376"
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -14,9 +14,12 @@
 ---
 {
 	"resourceRequired": false,
+	"title": Pipeline Issues",
+	"subscriptionRequired": false,
 	"fileAttachmentHint": "Upload any screenshots or log files of the error or issue",
 	"formElements": [
-		{	"id": "problem_start_time",
+		{	
+			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Problem start time",
