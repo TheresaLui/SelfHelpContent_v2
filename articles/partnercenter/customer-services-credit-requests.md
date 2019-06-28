@@ -27,7 +27,7 @@ If a service you are providing for your customers has an outage, you are able to
 
 ## **Recommended Documents**
 
-* [Request an SLA credit from Microsoft](https://docs.microsoft.com/en-us/partner-center/request-credit)
+* [Request an SLA credit from Microsoft](https://docs.microsoft.com/partner-center/request-credit)
 * [Online Services Consolidated SLA document](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)
 * [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
 * [Common billing scenarios](https://docs.microsoft.com/partner-center/common-billing-scenarios)
