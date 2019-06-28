@@ -17,7 +17,7 @@
 	cloudEnvironments="public"
 />
 # Customer services credit requests
-If a service you are providing for your customers has an outage, you are able to request a credit from Microsoft. Service Level Agreement (SLA) credits are determined based on which service was impacted
+If a service you are providing for your customers has an outage, you are able to request a credit from Microsoft. Service Level Agreement (SLA) credits are determined based on which service was impacted.
 
 ## **Recommended Steps**
 
