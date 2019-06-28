@@ -27,7 +27,7 @@ Partners may have different reasons for asking for credit or refunds. Follow the
 
 ## **Recommended Documents**
 
-* [Request an SLA credit from Microsoft](https://docs.microsoft.com/en-us/partner-center/request-credit)
+* [Request an SLA credit from Microsoft](https://docs.microsoft.com/partner-center/request-credit)
 * [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
 * [Common billing scenarios](https://docs.microsoft.com/partner-center/common-billing-scenarios)
 
