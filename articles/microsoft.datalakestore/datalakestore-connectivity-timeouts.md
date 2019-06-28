@@ -3,7 +3,7 @@
     description="Troubleshoot and resolve connectivity (timeout) issues"
     service="Microsoft.DataLakeStore"
     resource="datalake"
-    authors="sumameh"
+    authors="sumantmehtams"
     ms.author="sumameh"
     displayOrder=""
     selfHelpType="generic"
