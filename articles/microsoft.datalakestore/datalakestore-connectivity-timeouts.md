@@ -7,7 +7,7 @@
     ms.author="sumameh"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32674899,32674924"
+    supportTopicIds="32674924"
     resourceTags=""
     productPesIds="15879"
     cloudEnvironments="public"
