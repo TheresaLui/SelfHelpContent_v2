@@ -1,4 +1,5 @@
 <properties
+	articleId="problemscopingques-visualstudio-pipelines-buildandrelease-build"
 	pageTitle="Scoping questions for Pipelines Build Issues"
 	description="Scoping questions for Pipelines Build Issues"
 	authors="chrisjco"
@@ -8,9 +9,8 @@
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-visualstudio-pipelines-buildandrelease-build"
 />
-# Pipelines Issues - Build
+# Pipelines Issues Build
 ---
 {
 	"resourceRequired": false,
