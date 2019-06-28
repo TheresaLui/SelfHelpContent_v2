@@ -16,15 +16,14 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Windows File Mount Error 5
+# Azure Files Windows mount error 53
 
 <!--issueDescription-->
-If your Azure File Share mount fails with the following error: **_System error 53 has occurred. The network path was not found_**, please follow the recommended steps below to troubleshoot the problem.
+If your Azure file share mount fails with the following error: **_System error 53 has occurred. The network path was not found_**, please follow the recommended steps below to troubleshoot the problem.
 
 ## **Recommended Steps**
 
 ### **Cause: Port 445 is blocked**
-
 System error 53 can occur if port 445 outbound communication to an Azure Files datacenter is blocked. To see the summary of ISPs that allow or disallow access from port 445, go to [TechNet](https://social.technet.microsoft.com/wiki/contents/articles/32346.azure-summary-of-isps-that-allow-disallow-access-from-port-445.aspx).
 
 To check if your firewall or ISP is blocking port 445, use the [AzFileDiagnostics](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5) tool or [Test-NetConnection](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#cause-1-port-445-is-blocked) cmdlet. 

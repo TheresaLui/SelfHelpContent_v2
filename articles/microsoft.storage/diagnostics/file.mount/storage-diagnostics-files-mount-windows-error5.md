@@ -16,10 +16,10 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Windows File Mount Error 5
+# Azure Files Windows mount error 5
 
 <!--issueDescription-->
-If your Azure File Share mount fails with the following error: **_System error 5 has occurred. Access is denied_**, please follow the recommended steps below to troubleshoot the problem.
+If your Azure file share mount fails with the following error: **_System error 5 has occurred. Access is denied_**, please follow the recommended steps below to troubleshoot the problem.
 
 ## **Recommended Steps**
 ### **Cause 1: Unencrypted communication channel**
@@ -44,8 +44,6 @@ Verify virtual network and firewall rules are configured properly on the storage
 <!--/issueDescription-->
 
 ## **Recommended Documents**
-
-If the mount still fails, see:
 - [Troubleshoot Azure Files problems in Windows](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems)
 - [Troubleshooting tool for Azure Files mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)
 - [Secure transfer required](https://docs.microsoft.com/azure/storage/common/storage-require-secure-transfer)
