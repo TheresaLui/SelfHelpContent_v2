@@ -25,10 +25,13 @@ The offer you intended to purchase is currently unavailable.<br>
 
 ## Recommended Steps
 
-When you select an offer, the possibility exists that not all of the data that determines purchase availability is known at the time. The purchase terms in accordance with your subscription are subject to change by the publisher. If still unavailable, contact the publisher for recommendations or you can determine which images are available in your region by using PowerShell and the Azure CLI. 
+When you select an offer, the possibility exists that not all of the data that determines purchase availability is known at the time. The purchase terms in accordance with your subscription are subject to change by the publisher. 
 
+Please contact the publisher for recommendations or you can determine which images are available in your region by using PowerShell and the Azure CLI.
 - For PowerShell examples, see [Navigate the images](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#navigate-the-images).
 - For Azure CLI examples, see [List popular images](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#list-popular-images).
+
+If unable to resolve, contact Help and Support in the [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)).<br>
 
 ## Recommended Documents
 
