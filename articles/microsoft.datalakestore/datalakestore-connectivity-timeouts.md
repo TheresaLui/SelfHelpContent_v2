@@ -1,21 +1,22 @@
 <properties
-	pageTitle="How do I secure data in my data lake store account?"
-	description="How do I secure data in my data lake store account?"
-	service="Microsoft.DataLakeStore"
-	resource="accounts"
-	authors="wmeng-msft"
-	displayOrder="3"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="public"
-	articleId="859343c6-b6a5-4e45-a8d8-d506c3ffe4c9"
+    pageTitle="Troubleshoot and resolve connectivity (timeout) issues"
+    description="Troubleshoot and resolve connectivity (timeout) issues"
+    service="Microsoft.DataLakeStore"
+    resource="datalake"
+    authors="sumameh"
+    ms.author="sumameh"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32674899,32674924"
+    resourceTags=""
+    productPesIds="15879"
+    cloudEnvironments="public"
+    articleId="88446272-9153-45e5-b441-f6aea505a6c0"
 />
-
-# How do I secure data in my data lake store account?
-
-## **Recommended documents**
-[Assign users or security group as ACLs to the Azure Data Lake Store file system](https://azure.microsoft.com/documentation/articles/data-lake-store-secure-data/#filepermissions)<br>
-[Access control in Data Lake Store](https://azure.microsoft.com/documentation/articles/data-lake-store-access-control/)<br>
-[Securing data stored in Data Lake Store](https://azure.microsoft.com/documentation/articles/data-lake-store-secure-data/)
+ 
+# Troubleshoot and resolve connectivity (timeout) issues
+ 
+## **Recommended Documents**
+ 
+- [Make HTTP timeout configurable in ADLS Connector](https://issues.apache.org/jira/browse/HADOOP-15356)<br>
+- [Configuring timeout at SDK](https://github.com/Azure/azure-data-lake-store-java/blob/f5c270b8cb2ac68536b2cb123d355a874cade34c/src/main/java/com/microsoft/azure/datalake/store/ADLStoreOptions.java#L145)<br>
