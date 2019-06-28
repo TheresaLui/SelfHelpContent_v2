@@ -26,6 +26,7 @@ Your purchase cannot be completed until you choose your payment method.<br>
 ## Recommended Steps
 
 Choose your payment method:
+
 - [Add, update, or remove a credit or debit card for Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
 
 
