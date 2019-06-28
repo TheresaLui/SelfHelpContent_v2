@@ -23,15 +23,13 @@ We detected a purchase failure for the deployment of Azure Marketplace offer **<
 
 Your purchase cannot be completed until the offer is enabled for purchase.<br>
 
-## Recommended Steps
+## **Recommended Steps**
 
-If you have an Azure Enterprise account, you can enable the purchase directly in the [Microsoft Azure Enterprise Portal](https://ea.azure.com/).
- If unable to resolve, contact Help and Support in the [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
+* If you have an Azure Enterprise account, you can enable the purchase directly in the [Microsoft Azure Enterprise Portal](https://ea.azure.com/)
+* If you are unable to resolve the issue, please contact Help and Support in the [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)
 
-## Recommended Documents
+## **Recommended Documents**
 
 - [Find Windows VM images in the Azure Marketplace with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage)  
 - [Find Linux VM images in the Azure Marketplace with the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage)
 - [Marketplace FAQs](https://docs.microsoft.com/azure/marketplace/marketplace-faq-publisher-guide)
-
- 
