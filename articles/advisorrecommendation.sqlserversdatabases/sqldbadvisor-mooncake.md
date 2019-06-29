@@ -35,7 +35,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore",
+  "learnMoreLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore_cn",
   "description": "Follow SQL DB Advisor recommendations",
   "longDescription": "Improve the performance of your SQL database. Follow the recommendations from SQL DB Advisor.",
   "potentialBenefits": "Improved database performance",
@@ -44,7 +44,7 @@
       "actionId": "18c1ceec-2171-486c-ab89-8205f804340f",
       "actionType": "Document",
       "description": "Improve database performance with SQL DB Advisor",
-      "documentLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore"
+      "documentLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore_cn"
     }
   ],
   "resourceMetadata": {

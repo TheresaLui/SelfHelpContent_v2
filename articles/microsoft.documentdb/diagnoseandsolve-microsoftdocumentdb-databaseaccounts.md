@@ -64,7 +64,7 @@
         },
         {
             "id": "MongoDB_-_How_to_develop_apps_to_manage_data_in_MongoDB_API?",
-            "title": "MongoDB - How to develop apps to manage data in MongoDB API?",
+            "title": "MongoDB - How do I develop apps to manage data in MongoDB API?",
             "description": "How do I develop apps to manage data in MongoDB API?",
             "category": "MongoDB Development",
             "searchTags": "",
