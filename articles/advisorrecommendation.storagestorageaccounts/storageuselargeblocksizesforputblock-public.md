@@ -24,7 +24,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StorageUseLargeBlockSizesForPutBlock",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
