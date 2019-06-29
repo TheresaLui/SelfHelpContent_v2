@@ -14,7 +14,7 @@
   "recommendationOfferingName": "App Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "07f9a07d-9030-465c-89dc-b1f712334b83",
-  "dataSourceMetadata": {    
+  "dataSourceMetadata": {
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
@@ -62,10 +62,6 @@
       }
     }
   },
-  "displayLabel": "Many outbound connections",
-  "additionalColumns": [],
-  "tip": "",
-  "costSavingInfo": "",
-  "testData": ""
+  "displayLabel": "Many outbound connections"
 }
 ---
