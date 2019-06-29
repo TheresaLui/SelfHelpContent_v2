@@ -64,6 +64,6 @@
       }
     }
   },
-  "displayLabel": "High CPU"  
+  "displayLabel": "High CPU"
 }
 ---
