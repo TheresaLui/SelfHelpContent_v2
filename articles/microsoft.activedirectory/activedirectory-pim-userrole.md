@@ -3,12 +3,13 @@
 	description="After you activate a role in Azure AD Privileged Identity Management (PIM), you don't have the assigned permissions."
 	service="microsoft.aad"
 	resource="Microsoft_Azure_PIM"
-	authors="billmath"
+	authors="rolyon"
+	ms.author="rolyon"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds="32462545"
 	resourceTags="privilegedidentitymanagement_overview"
-	productPesIds="14785,16577"
+	productPesIds="16577"
 	cloudEnvironments="public"
 	articleId="b64b291b-35e2-4cfa-8925-4dbe26427262"
 />
@@ -22,6 +23,8 @@ When you activate a role in Azure AD Privileged Identity Management (PIM), the a
 1. Sign out of the Azure portal and then sign back in.
 
     When you activate an Azure AD role or an Azure resource role, you will see the stages of your activation. Once all the stages are complete, you will see a **Sign out** link. You can use this link to sign out. This will solve most cases for activation delay.
+
+1. In PIM, verify that the user is listed as the member of the role.
 
 1. If you are activating the Exchange Administrator role, make sure you sign out and sign back in.
 

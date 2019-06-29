@@ -3,7 +3,8 @@
 	description="After you activate a role in Azure AD Privileged Identity Management (PIM), you don't have the assigned permissions. Or after you deactivate a role in PIM, permissions are not removed."
 	service="microsoft.aad"
 	resource="Microsoft_Azure_PIM"
-	authors="IdentityMy"
+	authors="rolyon"
+	ms.author="rolyon"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32462545"
@@ -15,7 +16,7 @@
 
 # Delays when activating or deactivating a role
 
-## **Permissions are not granted after activating a role**
+## Permissions are not granted after activating a role
 
 When you activate a role in Azure AD Privileged Identity Management (PIM), the activation may not instantly propagate to all portals that require the privileged role. Sometimes, even if the change is propagated, web caching in a portal may result in the change not taking effect immediately. If your activation is delayed, here are the steps you should follow.
 
@@ -24,6 +25,8 @@ When you activate a role in Azure AD Privileged Identity Management (PIM), the a
 1. Sign out of the Azure portal and then sign back in.
 
     When you activate an Azure AD role or an Azure resource role, you will see the stages of your activation. Once all the stages are complete, you will see a **Sign out** link. You can use this link to sign out. This will solve most cases for activation delay.
+
+1. In PIM, verify that the user is listed as the member of the role.
 
 1. If you are activating the Exchange Administrator role, make sure you sign out and sign back in.
 
@@ -38,7 +41,7 @@ When you activate a role in Azure AD Privileged Identity Management (PIM), the a
 * [Activate my Azure AD roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-activate-role)
 * [Activate my Azure resource roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-activate-your-roles)
 
-## **Permissions are not removed after deactivating a role or the role activation expires**
+## Permissions are not removed after deactivating a role or the role activation expires
 
 When you deactivate a role in Azure AD Privileged Identity Management (PIM) or when a role activation period expires, there might be a delay where you continue to have access. The following scenarios are two possible delays.
 
