@@ -14,7 +14,7 @@
   "recommendationOfferingName": "App Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "9ebff5d5-10c1-4fed-8c58-1954e27d3bfa",
-  "dataSourceMetadata": {    
+  "dataSourceMetadata": {
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
@@ -63,10 +63,6 @@
       }
     }
   },
-  "displayLabel": "Try PremiumV2 SKU",
-  "additionalColumns": [],
-  "tip": "",
-  "costSavingInfo": "",
-  "testData": ""
+  "displayLabel": "Try PremiumV2 SKU"
 }
 ---
