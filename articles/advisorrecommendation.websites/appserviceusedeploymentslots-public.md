@@ -14,7 +14,7 @@
   "recommendationOfferingName": "App Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "0dc165fd-69bf-468a-aa04-a69377b6feb0",
-  "dataSourceMetadata": {    
+  "dataSourceMetadata": {
     "dataSource": "SAS"
   },
   "recommendationCategory": "HighAvailability",
@@ -63,10 +63,6 @@
       }
     }
   },
-  "displayLabel": "Site Slots",
-  "additionalColumns": [],
-  "tip": "",
-  "costSavingInfo": "",
-  "testData": ""
+  "displayLabel": "Site Slots"
 }
 ---
