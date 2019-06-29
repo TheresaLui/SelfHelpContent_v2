@@ -14,7 +14,7 @@
   "recommendationOfferingName": "App Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "78c5ab69-858a-43ca-a5ac-4ca6f9cdc30d",
-  "dataSourceMetadata": {    
+  "dataSourceMetadata": {
     "dataSource": "SAS"
   },
   "recommendationCategory": "HighAvailability",
@@ -62,10 +62,6 @@
       }
     }
   },
-  "displayLabel": "Exceeded quota limit",
-  "additionalColumns": [],
-  "tip": "",
-  "costSavingInfo": "",
-  "testData": ""
+  "displayLabel": "Exceeded quota limit"
 }
 ---
