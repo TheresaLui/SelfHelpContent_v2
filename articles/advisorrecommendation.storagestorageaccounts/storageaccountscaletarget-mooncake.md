@@ -38,7 +38,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/subscalelimit",
+  "learnMoreLink": "https://aka.ms/subscalelimit_cn",
   "description": "Prevent hitting subscription limit for maximum storage accounts",
   "longDescription": "A region can support a maximum of 250 storage accounts per subscription. You have either already reached or are about to reach that limit. If you reach that limit, you will be unable to create any more storage accounts in that subscription/region combination. Please evaluate the recommended action below to avoid hitting the limit.",
   "potentialBenefits": "Ensure you do not reach the limit that can prevent you from creating additional storage accounts",
@@ -47,7 +47,7 @@
       "actionId": "937a7f37-6591-4e89-bb11-4866a83531f3",
       "description": "Design for fewer accounts per subscription per region ",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/subscalelimit"
+      "documentLink": "https://aka.ms/subscalelimit_cn"
     }
   ],
   "resourceMetadata": {

@@ -38,7 +38,7 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/redis/recommendations/connections",
+  "learnMoreLink": "https://aka.ms/redis/recommendations/connections_cn",
   "description": "Improve your Cache and application performance when running with many connected clients",
   "longDescription": "Cache instances perform best when not running under high server load which may cause them to become unresponsive, experience data loss, or become unavailable. Apply best practices to reduce the server load or scale to a different size or sku with more capacity.",
   "potentialBenefits": "Ensure optimal performance and high availability through best practices",
@@ -71,3 +71,4 @@
   "tip": "You can improve your Cache and application performance when running with many connected clients by scaling to a different size or sku"
 }
 ---
+
