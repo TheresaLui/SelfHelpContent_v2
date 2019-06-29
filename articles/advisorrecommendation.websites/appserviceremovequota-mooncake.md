@@ -31,7 +31,7 @@
     },
     "serviceTreeId": "df36aee8-c644-400b-a0ab-fd0f1191211d"
   },
-  "ingestionClientIdentities": [  
+  "ingestionClientIdentities": [
   "dff79eea-93f9-44ae-8a0f-2f9f937f669e"
   ],
   "version": 1.0,
