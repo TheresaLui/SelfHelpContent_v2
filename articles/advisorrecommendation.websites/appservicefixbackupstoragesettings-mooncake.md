@@ -14,7 +14,7 @@
   "recommendationOfferingName": "App Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "80efd6cb-dcee-491b-83a4-7956e9e058d5",
-  "dataSourceMetadata": {    
+  "dataSourceMetadata": {
     "dataSource": "SAS"
   },
   "recommendationCategory": "HighAvailability",
@@ -62,10 +62,6 @@
       }
     }
   },
-  "displayLabel": "Fix backup storage settings",
-  "additionalColumns": [],
-  "tip": "",
-  "costSavingInfo": "",
-  "testData": ""
+  "displayLabel": "Fix backup storage settings"
 }
 ---
