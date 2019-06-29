@@ -14,7 +14,7 @@
   "recommendationOfferingName": "App Service",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "1294987d-c97d-41d0-8fd8-cb6eab52d87b",
-  "dataSourceMetadata": {    
+  "dataSourceMetadata": {
     "dataSource": "SAS"
   },
   "recommendationCategory": "HighAvailability",
@@ -65,10 +65,6 @@
       }
     }
   },
-  "displayLabel": "High CPU",
-  "additionalColumns": [],
-  "tip": "",
-  "costSavingInfo": "",
-  "testData": ""
+  "displayLabel": "High CPU"
 }
 ---
