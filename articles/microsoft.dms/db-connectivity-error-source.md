@@ -18,6 +18,6 @@
 
 # <-- Errors when connecting to source databases for migration --> 
 
-## Recommended documents:
+## **Recommended documents:**
  
 [Troubleshoot DMS errors when connecting to source databases](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms-source-connectivity)
