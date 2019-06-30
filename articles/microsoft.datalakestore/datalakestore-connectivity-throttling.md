@@ -19,6 +19,6 @@
 ## **Recommended Documents**
 
 
-- [Best practices for using ADLS Gen1](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-best-practices)<br>
-- [ADLS Gen1 performance tuning guidance - Structure your data set](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-performance-tuning-guidance#structure-your-data-set)<br>
-- [ADLS Gen1 performance tuning - Hive - Limitations](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-performance-tuning-hive#limitations)<br>
+- [Best practices for using ADLS Gen1](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-best-practices)<br>
+- [ADLS Gen1 performance tuning guidance - Structure your data set](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-performance-tuning-guidance#structure-your-data-set)<br>
+- [ADLS Gen1 performance tuning - Hive - Limitations](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-performance-tuning-hive#limitations)<br>
