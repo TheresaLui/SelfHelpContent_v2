@@ -21,9 +21,9 @@
 
 - [ADLS  - Troubleshoot token issues](https://hadoop.apache.org/docs/r3.1.2/hadoop-azure-datalake/troubleshooting_adl.html#Error_fetching_access_token:
 )<br>
-- [Service to service authentication with ADLS Gen1 using AAD](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-service-to-service-authenticate-using-active-directory:
+- [Service to service authentication with ADLS Gen1 using AAD](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-service-to-service-authenticate-using-active-directory:
 )<br>
-- [End user authentication with ADLS Gen1 using AAD](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-end-user-authenticate-using-active-directory
+- [End user authentication with ADLS Gen1 using AAD](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-end-user-authenticate-using-active-directory
 )<br>
 - [Error fetching access token when using ADLS Gen1](https://community.hortonworks.com/content/supportkb/177534/ls-error-fetching-access-token-when-using-azure-da.html
 )<br>
