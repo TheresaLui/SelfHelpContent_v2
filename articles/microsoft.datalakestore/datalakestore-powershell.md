@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 
-- [Get started with ADLS Gen1 using Azure PowerShell](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-get-started-powershell
+- [Get started with ADLS Gen1 using Azure PowerShell](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-powershell
 )<br>
 
 
