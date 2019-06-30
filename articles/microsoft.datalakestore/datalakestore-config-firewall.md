@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 
-- [ADLS Gen1 security overview - Network isolation](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-security-overview#network-isolation
+- [ADLS Gen1 security overview - Network isolation](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-security-overview#network-isolation
 )<br>
 
 
