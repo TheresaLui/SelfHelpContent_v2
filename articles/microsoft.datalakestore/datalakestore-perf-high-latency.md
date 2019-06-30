@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 
-- [ADLS Gen1 - Performance and scale considerations](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-best-practices#performance-and-scale-considerations
+- [ADLS Gen1 - Performance and scale considerations](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-best-practices#performance-and-scale-considerations
 )<br>
 
 
