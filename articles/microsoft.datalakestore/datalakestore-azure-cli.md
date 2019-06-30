@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 
-- [Get started with ADLS Gen1 using Azure CLI](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-get-started-cli-2.0
+- [Get started with ADLS Gen1 using Azure CLI](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-cli-2.0
 )<br>
 
 
