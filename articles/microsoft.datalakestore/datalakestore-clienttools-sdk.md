@@ -19,10 +19,10 @@
 ## **Recommended Documents**
 
 
-- [Filesystem operations on ADLS Gen1 using Java SDK](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-get-started-java-sdk
+- [Filesystem operations on ADLS Gen1 using Java SDK](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-java-sdk
 )<br>
-- [Account management operations on ADLS Gen1 using Python](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-get-started-python
+- [Account management operations on ADLS Gen1 using Python](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-python
 )<br>
-- [Account management operations on ADLS Gen1 using .NET SDK](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-get-started-net-sdk
+- [Account management operations on ADLS Gen1 using .NET SDK](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-get-started-net-sdk
 )<br>
 
