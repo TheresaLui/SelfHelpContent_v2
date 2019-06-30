@@ -16,7 +16,10 @@
 	cloudEnvironments="public"
 />
 
-# Errors you may encounter while migrating from SQL Server to Azure SQLDB using offline migration  
+# Troubleshooting errors while migrating to Azure SQLDB
+
+## Errors you may encounter while migrating from SQL Server to Azure SQLDB using offline migration  
+
 
 ## **Recommended Steps**
 
@@ -44,7 +47,7 @@
 * [Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/dms-overview)
 * [Database Migration Guide](https://datamigration.microsoft.com/)
 
-# Errors you may encounter while migrating from AWS RDS SQL Server to Azure SQL Database using online migration
+## Errors you may encounter while migrating from AWS RDS SQL Server to Azure SQL Database using online migration
 
 ## **Recommended Steps**
 
