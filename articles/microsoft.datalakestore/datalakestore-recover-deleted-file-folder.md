@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 
-- [Data corruption or accidental deletion recovery guidance](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-disaster-recovery-guidance#data-corruption-or-accidental-deletion-recovery-guidance
+- [Data corruption or accidental deletion recovery guidance](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-disaster-recovery-guidance#data-corruption-or-accidental-deletion-recovery-guidance
 )<br>
 
 
