@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 
-- [Filesystem operations on ADLS Gen1 using REST API](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-data-operations-rest-api
+- [Filesystem operations on ADLS Gen1 using REST API](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-data-operations-rest-api
 )<br>
 
 
