@@ -16,7 +16,8 @@
 	cloudEnvironments="public"
 />
 
-# <-- Troubleshoot DMS errors when connecting to source databases --> 
+# <-- Errors when connecting to source databases for migration --> 
 
-See this article for information on troubleshooting common errors: 
+## Recommended documents:
+ 
 [Troubleshoot DMS errors when connecting to source databases](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms-source-connectivity)
