@@ -19,6 +19,6 @@
 ## **Recommended Documents**
 
 
-- [ADLS Gen1 security - Authorization and access control](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-security-overview#authorization-and-access-control)<br>
+- [ADLS Gen1 security - Authorization and access control](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-security-overview#authorization-and-access-control)<br>
 
 
