@@ -1,5 +1,5 @@
-<properties
 ﻿<properties
+	
 	articleId="problemscopingques-visualstudio-pipelines-buildandrelease-build"
 	pageTitle="Scoping questions for Pipelines Build Issues"
 	description="Scoping questions for Pipelines Build Issues"
