@@ -49,7 +49,7 @@
             "displayLabel": "Provide any additional details",
             "required": false,
             "useAsAdditionalDetails": true
-        }
+        },
         {
             "id": "file_or_folder_path",
             "order": 5,
