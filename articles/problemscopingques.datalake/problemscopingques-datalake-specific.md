@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="3f725dac-be75-499e-985e-c79b21fd7c07"
+/>
 # ADLS Gen1 Scoping Questions Specific
 ---
 {
