@@ -18,10 +18,11 @@
 
 # We ran diagnostics on your resource and found an issue
 
-We noticed that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has been failing due to user password is expired.
+We noticed that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has been failing due to an expired user password.
 
 
 ## **Recommended Steps**
 
-Please change your password in the azure portal or on-premise and then wait for the password to update before retrying to log onto the cluster.
+* Please change your password in the Azure portal or on-premise, then wait for the password to update before retrying to log onto the cluster
+
 <!--$users-->[users]<!--/$users--> 
