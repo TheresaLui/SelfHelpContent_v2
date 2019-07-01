@@ -51,7 +51,7 @@ NetworkMonitoring
 ```
 
 * It takes NPM about 30 mins to start showing data after initial setup <br>
-* Check circuit and peering metrics in Azure Monitor to see if circuit and peering are receiving any data. If there is no data in NPM and in Azure monitor, reach out to the Express Route team. [Learn more](https://docs.microsoft.com/azure/expressroute/expressroute-monitoring-metrics-alerts).<br>
+* Check circuit and peering metrics in Azure Monitor to see if circuit and peering are receiving any data. If there is no data in NPM and in Azure monitor, reach out to the Express Route team. 
 
 
 ## **Recommended Documents**
@@ -62,3 +62,4 @@ NetworkMonitoring
 * [Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 * [Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
 * [Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)
+* [Learn more about NPM ](https://docs.microsoft.com/azure/expressroute/expressroute-monitoring-metrics-alerts)
