@@ -24,12 +24,12 @@
 
 ### If you cannot connect to your Windows virtual machine (VM) and are unsure of the cause, the following troubleshooting steps should be performed
 
-* Verify that your VM has been started.<br>
+* Verify that your VM has been started
 * Understand [how to use boot diagnostics to troubleshoot Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics) in Azure
 
 ### If your VM is not at the **ctrl-alt-del** screen, it may be experiencing a boot error
 
-1. Restart the virtual machine to address boot issues.<br>
+1. Restart the virtual machine to address boot issues
 2. Review the [common boot errors and solutions for non-bootable VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot) troubleshooting guide
 
 **Common issues associated to specific boot errors:**<br>
