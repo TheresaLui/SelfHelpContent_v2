@@ -20,7 +20,7 @@
 "resourceRequired": false,
   "subscriptionRequired": false,
   "title": "Pipeline Issues",
-  "fileAttachmentHint": "Upload any screenshots or log files of the error or issue",
+    "fileAttachmentHint": "Upload any screenshots or the [Diagnostic log](https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting?view=azure-devops#get-logs-to-diagnose-problems)",
   "formElements": [
     {
       "id": "problem_description",
@@ -41,7 +41,7 @@
           "text": "Additional details"
         },
         {
-          "text": "Screenshots"
+          "text": "Screenshots and Diagnostic log"
         }
       ]
     },
@@ -54,17 +54,17 @@
       "required": false
     },
     {
-      "id": "project_name",
+      "id": "definition_name",
       "order": 3,
       "controlType": "textbox",
-      "displayLabel": "Name of project affected",
+      "displayLabel": "Name of definition affected",
       "required": false
     },
     {
-      "id": "definition_name",
+      "id": "project_name",
       "order": 4,
       "controlType": "textbox",
-      "displayLabel": "Name of definition affected",
+      "displayLabel": "Name of Team Project with definition affected",
       "required": false
     },
     {
