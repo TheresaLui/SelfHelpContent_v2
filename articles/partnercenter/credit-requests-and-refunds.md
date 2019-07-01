@@ -21,9 +21,9 @@ Partners may have different reasons for asking for credit or refunds. Follow the
 
 ## **Recommended Steps**
 
-- Determine what kind of credit request and refund you are submitting.
-- Download the [Credit request and refund form](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3eWCb) and complete the information.
-- Ensure to attach the form when creating your service request.
+- Determine what kind of credit request and refund you are submitting
+- Download the [Credit request and refund form](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3eWCb) and complete the information
+- Ensure to attach the form when creating your service request
 
 ## **Recommended Documents**
 
