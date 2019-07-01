@@ -62,4 +62,4 @@ NetworkMonitoring
 * [Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 * [Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
 * [Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)
-* [Learn more about NPM ](https://docs.microsoft.com/azure/expressroute/expressroute-monitoring-metrics-alerts)
+* [Learn more about NPM Monitoring Alerts](https://docs.microsoft.com/azure/expressroute/expressroute-monitoring-metrics-alerts)
