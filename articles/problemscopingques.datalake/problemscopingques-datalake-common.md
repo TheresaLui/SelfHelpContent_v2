@@ -15,7 +15,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "schema"="SelfHelpContent",
+    "schema": "SelfHelpContent",
     "title": "ADLS Gen1 Scoping Questions Common",
     "fileAttachmentHint": "",
     "formElements": [
