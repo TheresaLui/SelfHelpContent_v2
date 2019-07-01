@@ -28,7 +28,7 @@ For all SDKs there is a minimal level of dependency tracking that will cover the
 
 **On-premises .NET applications**<br>
 
-1. Review the installation [guide](https://docs.microsoft.com/en-us/azure/azure-monitor/app/monitor-performance-live-website-now)
+1. Review the installation [guide](https://docs.microsoft.com/azure/azure-monitor/app/monitor-performance-live-website-now)
 2. On your IIS web server, sign in with administrator credentials.
 3. If Application Insights Status Monitor is not already installed, [download and run the installer](https://docs.microsoft.com/azure/azure-monitor/app/monitor-performance-live-website-now#download)
 4. In Status Monitor, select the installed web application or website that you want to monitor. Sign in with your Azure credentials.
@@ -36,7 +36,7 @@ For all SDKs there is a minimal level of dependency tracking that will cover the
 
 **On-premisss Java applications**<br>
 
-1. Review the agent installation [guide](https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-agent)
+1. Review the agent installation [guide](https://docs.microsoft.com/azure/azure-monitor/app/java-agent)
 2. On the machine running your Java server, [download the agent](https://github.com/Microsoft/ApplicationInsights-Java/releases/latest). Please ensure to download the same version of Java Agent as Application Insights Java SDK core and web packages.
 3. Edit the application server startup script, and add the following JVM: `-javaagent:PATHTOAGENTJAR`
 4. Restart JVM
