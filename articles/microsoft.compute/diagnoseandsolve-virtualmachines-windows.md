@@ -158,8 +158,8 @@ cloudEnvironments="public"
           "symptomId": "CannotRdpAzurePortalInsight"
         },
         {
-          "id": "Cannot_SSH",
-          "title": "Cannot SSH",
+          "id": "Cannot_RDP",
+          "title": "Cannot RDP",
           "description": "Troubleshoot connectivity issues to an Azure virtual machine",
           "supportTopicId": "32615526",
           "commonSolutionArticleId": "d67fb475-a831-4f4b-a6ce-7fbacb0bf9df",
