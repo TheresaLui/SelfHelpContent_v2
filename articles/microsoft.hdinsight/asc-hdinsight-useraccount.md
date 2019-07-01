@@ -18,9 +18,10 @@
 
 # We ran diagnostics on your resource and found an issue
 
-We noticed that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has been failing due to a user account is locked out.
+We noticed that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has been failing due to a user account that is locked out.
 
 ## **Recommended Steps**
 
-Please wait 30 minutes and try to log into the cluster again.
+* Please wait 30 minutes and try to log into the cluster again
+
 <!--$users-->[users]<!--/$users--> 
