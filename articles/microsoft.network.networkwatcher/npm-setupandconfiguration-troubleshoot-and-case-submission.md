@@ -16,17 +16,12 @@
 
 # Agent Setup and Configuration issues
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### Unable to see  agent in the Nodes page
 
-* Check the Log Analytics workspace id and key entered for the agent during setup. [Use this link for reference]( https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard)<br>
-* Check if the agent is up and running by following this step: <br>
-Go to CMD prompt and run the command below.
-```
-tasklist |findstr NPMDAgent
-```
- If agent is not found, that means it is not running. Look for Microsoft Monitoring Agent and start it.
+* [Check the Log Analytics workspace id](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard) and key entered for the agent during setup
+* Check if the agent is up and running. Open a CMD prompt and run `tasklist |findstr NPMDAgent'. If agent is not found, that means it is not running. Look for **Microsoft Monitoring Agent** and start it.
 
 ### **No Data in NPM**
 
@@ -36,10 +31,9 @@ tasklist |findstr NPMDAgent
 
 ## **Recommended Documents**
 
-## **Recommended documents**
-[Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>
-[Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)
-[Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)
+* [Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>
+* [Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+* [Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+* [Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+* [Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)
+* [Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)
