@@ -47,7 +47,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
@@ -57,7 +57,7 @@
             "displayLabel": "File or folder path",
             "watermarkText": "'File name' or 'Folder name'",
             "required": false
-        },        
+        },
         {
             "id": "client",
             "order": 6,
