@@ -1,20 +1,21 @@
 <properties
-	articleId="dw-scoping-createscalepauseresumedelete-failedtocreateordeletedatabase.md"
-	pageTitle="Failed to create or delete database"
-	description="Failed to create or delete database"
-	authors="saltug,mlee3gsd"
-	ms.author="saltug,martinle"
+	articleId="dw-scoping-createscalepauseresumedelete-dwstuckduringcreationscalingorresuming.md"
+	pageTitle="Create/Scale/Pause/Resume/Delete database taking too long"
+	description="Create/Scale/Pause/Resume/Delete database taking too long"
+	authors="mlee3gsd"
+	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635196"
+	supportTopicIds="32635193, 32635192"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Create/Scale/Pause/Resume/Delete/Failed to create or delete database
+# Create, Scale, Pause, Resume, Delete - Create, Scale, Pause, Resume or Delete database taking too long
 ---
 {
     "resourceRequired": true,
-    "title": "Failed to create or delete database",
+    "subscriptionRequired": true,
+    "title": "Region unavailable for Data Warehouse creation",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -25,38 +26,38 @@
             "required": true
         },
         {
-            "id": "dw_scoping_crud_faileddatabase_portal",
+            "id": "dw_scoping_crud_operation_create",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Was the operation initiated through the portal?",
+            "displayLabel": "Are you experiencing this during the create operation?",
             "required": false
         },
         {
-            "id": "dw_scoping_crud_faileddatabase_programmatic",
+            "id": "dw_scoping_crud_operation_scale",
             "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "If the operation was programmatic using an ARM template, please provide the template.",
+            "controlType": "textbox",
+            "displayLabel": "Are you experiencing this during the scale operation?",
             "required": false
         },
         {
-            "id": "dw_scoping_crud_faileddatabase_error",
+            "id": "dw_scoping_crud_operation_resume",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "Are you experiencing this during the resume operation?",
             "required": false
         },
         {
-            "id": "dw_scoping_crud_faileddatabase_create",
+            "id": "dw_scoping_crud_operation_howlong",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Is the failure during the create operation?",
+            "displayLabel": "How long has this operation have been running?",
             "required": false
         },
         {
-            "id": "dw_scoping_crud_faileddatabase_delete",
+            "id": "dw_scoping_crud_operation_error",
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "Is the failure during the delete operation?",
+            "displayLabel": "If an error was displayed, what was the error message?",
             "required": false
         },
         {
