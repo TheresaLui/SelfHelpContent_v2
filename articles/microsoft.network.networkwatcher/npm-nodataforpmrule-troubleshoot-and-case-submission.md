@@ -3,7 +3,7 @@
 	description="I installed NPM and setup monitoring in Performance Monitor  but I do not see any data in the dashboard"
 	service="microsoft.network"
 	resource="networkWatchers"
-	authoralias="vinigam"
+	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="5"
 	selfHelpType="resource"
