@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": true,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Region unavailable for Data Warehouse creation",
     "fileAttachmentHint": "",
     "formElements": [
