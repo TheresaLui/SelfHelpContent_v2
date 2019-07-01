@@ -45,6 +45,7 @@ There’s a lot of information provided with each detection that should help you
 **Can I configure Smart Detection?**<br>
 
 You can configure the following settings for a smart detection rule:
+
 * If the rule is enabled (the default is **true**.)
 * If email notifications should be sent to users associated with the subscription’s Monitoring Reader and Monitoring contributor roles when a detection is found (the default is **true**.)
 * Any additional email recipients who should get a notification when a detection is found.
@@ -59,11 +60,12 @@ This Smart Detection rule is available as an alert rule, and is created together
 
 You are not charged for this alert rule.
 
-**What is the “Application Insights Smart Detection” Action Group?**<br>
+**What is the "Application Insights Smart Detection" Action Group?**<br>
 
-The “Application Insights Smart Detection” Action Group is created automatically together with the [Failure Anomalies](https://docs.microsoft.com/en-us/azure/azure-monitor/app/proactive-failure-diagnostics) alert rule (part of Smart Detection), to support triggering actions when this alert rule fires.
+The "Application Insights Smart Detection" Action Group is created automatically together with the [Failure Anomalies](https://docs.microsoft.com/azure/azure-monitor/app/proactive-failure-diagnostics) alert rule (part of Smart Detection), to support triggering actions when this alert rule fires.
 
 This Action Group is created in the following situations:
+
 1. When you create a new Application Insights resource.
 2. When existing Failure Anomalies alert rules are being migrated to the new alerting platform (more info about the migration is available [here](https://azure.microsoft.com/updates/classic-alerting-monitoring-retirement/).)
 
