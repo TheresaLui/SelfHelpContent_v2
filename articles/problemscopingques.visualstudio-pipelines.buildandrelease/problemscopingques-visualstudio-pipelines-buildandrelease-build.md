@@ -15,61 +15,62 @@
 # Pipelines Issues Build
 ---
 {
-	"resourceRequired": false,
-	"title": Pipeline Issues",
-	"subscriptionRequired": false,
-	"fileAttachmentHint": "Upload any screenshots or log files of the error or issue",
-	"formElements": [
-		{	
-			"id": "problem_start_time",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "Problem start time",
-			"required": true
-		}
-]		
-		{	"id": "org_name",
-			"order": 2,
-			"controlType": "textbox",
-        	"displayLabel": "Please provide your Azure DevOps Organization name (like XYZ.visualstudio.com \ dev.azure.com/XYZ)",
-            "required": true
-		},
-		{	"id": "project_name",
-			"order": 3,
-			"controlType": "textbox",
-          	"displayLabel": "Name of project affected",
-           	"required": true
-		},
-		{	"id": "definition_name",
-			"order": 4,
-			"controlType": "textbox",
-            "displayLabel": "Name of definition affected",
-            "required": true
-		},
-		{
-            "id": "problem_description",
-        	"order": 5,
-          	"controlType": "multilinetextbox",
-       		"displayLabel": "Please provide these details",
-       		"required": true,
-        	"watermarkText": "Please provide: a detailed scenario of the error condition or issue, troubleshooting done so far, and any other relevant information.",
-        	"useAsAdditionalDetails": true,
-           		"hints": 
-			[
-                {
-                    	"text": "Expected behavior, actual behavior"
-                },
-                {
-                    	"text": "Troubleshooting done so far"
-                },
-                {
-						"text":  "Additional details"
-				},
-				{
-                    	"text": "Screenshots"
-                }
-            ]
+  "resourceRequired": false,
+  "title": "Pipeline Issues",
+  "fileAttachmentHint": "Upload any screenshots or log files of the error or issue",
+  "formElements": [
+    {
+      "id": "problem_description",
+      "order": 1,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Please provide these details",
+      "required": true,
+      "watermarkText": "Please provide: a detailed scenario of the error condition or issue, troubleshooting done so far, and any other relevant information.",
+      "useAsAdditionalDetails": true,
+      "hints": [
+        {
+          "text": "Expected behavior, actual behavior"
+        },
+        {
+          "text": "Troubleshooting done so far"
+        },
+        {
+          "text": "Additional details"
+        },
+        {
+          "text": "Screenshots"
         }
-	]
+      ]
+    },
+    {
+      "id": "org_name",
+      "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "Please provide your Azure DevOps Organization name (like XYZ.visualstudio.com or dev.azure.com/XYZ)",
+      "watermarkText": "Choose an option",
+      "required": true
+    },
+    {
+      "id": "project_name",
+      "order": 3,
+      "controlType": "textbox",
+      "displayLabel": "Name of project affected",
+      "required": true
+    },
+    {
+      "id": "definition_name",
+      "order": 4,
+      "controlType": "textbox",
+      "displayLabel": "Name of definition affected",
+      "required": true
+    },
+    {
+      "id": "problem_start_time",
+      "order": 5,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem start?",
+      "required": true
+    }
+  ]
 }
 ---
