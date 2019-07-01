@@ -143,23 +143,26 @@
             ],
             "required": false,
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
-        },{
+        },
+        {
             "id": "vm_status",
             "order": 6,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Examine the boot diagnostics and image snapshot, is the virtual machine booted and running?",
-            "watermarkText": "Enter the virtual machine status",
+            "displayLabel": "Examine the boot diagnostics and image snapshot, is the VM booted and running?",
+            "watermarkText": "Enter your answer",
             "required": false
-		},{
+        },
+        {
             "id": "destination_name",
             "order": 7,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "What is the destination URL or IP address and/or port that you are connecting to?",
-            "watermarkText": "Enter the URL, IP address, port number",
+            "watermarkText": "Enter URL, IP address, port number",
             "required": false
-		},{
+        },
+        {
             "id": "connect_name",
             "order": 8,
             "controlType": "dropdown",
@@ -176,7 +179,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "connect_method",
             "order": 9,
             "visibility": "null",
@@ -184,31 +188,34 @@
             "displayLabel": "Are you attempting to connect through S2S tunnel or does the VNet have a Virtual Network Gateway deployed?",
             "watermarkText": "Enter your answer",
             "required": false
-		},{
+        },
+        {
             "id": "source_ip",
             "order": 10,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "What is the source IP address that you are attempting to connect from?",
-            "watermarkText": "Example:10.0.1.2",
+            "watermarkText": "Example: 10.1.0.1",
             "required": false
-		},{
-			"id": "problem_start_time",
-			"order": 11,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 12,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": []
-		}
-	],
+        },
+        {
+            "id": "problem_start_time",
+            "order": 11,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 12,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": []
+        }
+    ],
   "$schema": "SelfHelpContent"
 }
 ---
