@@ -64,6 +64,7 @@
             "controlType": "dropdown",
             "displayLabel": "Client",
             "watermarkText": "Choose an option",
+            "required": false,
             "dropdownOptions": [
                 {
                     "value": "HDInsight",
@@ -113,8 +114,7 @@
                     "value": "Not applicable",
                     "text": "Not applicable"
                 }
-            ],
-            "required": false
+            ]            
         }        
     ]    
 }
