@@ -18,8 +18,7 @@
 
 # Troubleshooting errors while migrating to Azure SQLDB
 
-## Errors you may encounter while migrating from SQL Server to Azure SQLDB using offline migration  
-
+### Errors you may encounter while migrating from SQL Server to Azure SQLDB using offline migration  
 
 ## **Recommended Steps**
 
@@ -47,12 +46,11 @@
 * [Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/dms-overview)
 * [Database Migration Guide](https://datamigration.microsoft.com/)
 
-## Errors you may encounter while migrating from AWS RDS SQL Server to Azure SQL Database using online migration
+### Errors you may encounter while migrating from AWS RDS SQL Server to Azure SQL Database using online migration
 
 ## **Recommended Steps**
 
 **Migration errors - AWS RDS SQL Server to Azure SQL Database using online migration**
-
 
 * **CDC is not enabled for database {0} and table {1}**, which is a required setting for performing continuous sync. 
 
@@ -65,7 +63,6 @@ USE '{0}'; SELECT is_tracked_by_cdc, name AS TableName FROM sys.tables WHERE typ
 ```
 
 If the results show 'is_tracked_by_cdc' as 0 for one or more tables, enable the change capture for the database and for the specific tables.
-
 
 * **Full Backup is not taken for database {0}**, this is needed to perform replicate features for continuous sync. 
 	
