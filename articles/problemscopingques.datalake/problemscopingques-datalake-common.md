@@ -65,57 +65,43 @@
             "displayLabel": "Client",
             "watermarkText": "Choose an option",
             "required": false,
-            "dropdownOptions": [
-                {
+            "dropdownOptions": [{
                     "value": "HDInsight",
                     "text": "HDInsight"
-                },
-                {
+                }, {
                     "value": "Databricks",
                     "text": "Databricks"
-                },
-                {
+                }, {
                     "value": "Portal",
                     "text": "Portal"
-                },
-                {
+                }, {
                     "value": "Java SDK",
                     "text": "Java SDK"
-                },
-                {
+                }, {
                     "value": "Python SDK",
                     "text": "Python SDK"
-                },
-                {
+                }, {
                     "value": ".NET SDK",
                     "text": ".NET SDK"
-                },
-                {
+                }, {
                     "value": "PowerShell",
                     "text": "PowerShell"
-                },
-                {
+                }, {
                     "value": "Azure CLI",
                     "text": "Azure CLI"
-                },
-                {
+                }, {
                     "value": "REST API",
                     "text": "REST API"
-                },
-                {
+                }, {
                     "value": "ADLA",
                     "text": "ADLA"
-                },
-                {
+                }, {
                     "value": "Other",
                     "text": "Other"
-                },
-                {
+                }, {
                     "value": "Not applicable",
                     "text": "Not applicable"
-                }
-            ]            
-        }        
-    ]    
+                }]            
+        }]
 }
 ---
