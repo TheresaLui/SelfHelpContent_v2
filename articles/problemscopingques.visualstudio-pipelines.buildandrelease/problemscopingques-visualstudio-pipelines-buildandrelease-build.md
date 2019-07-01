@@ -20,7 +20,7 @@
 "resourceRequired": false,
   "subscriptionRequired": false,
   "title": "Pipeline Issues",
-    "fileAttachmentHint": "Upload any screenshots or the [Diagnostic log](https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting?view=azure-devops#get-logs-to-diagnose-problems)",
+    "fileAttachmentHint": "Upload any screenshots or the <a href='https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting?view=azure-devops#get-logs-to-diagnose-problems'>Diagnostic log</a>",
   "formElements": [
     {
       "id": "problem_description",
