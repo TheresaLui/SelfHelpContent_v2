@@ -31,12 +31,7 @@
       "watermarkText": "Please provide: a detailed scenario of the error condition or issue, troubleshooting done so far, and any other relevant information.",
       "useAsAdditionalDetails": true,
       "hints": [
-        {
-          "text": "Azure DevOps Organization name (like XYZ.visualstudio.com or dev.azure.com/XYZ)"
-        },
-       	{
-          "text": "Project and Definition name"
-        },
+  
     	{
           "text": "Expected behavior, actual behavior"
         },
