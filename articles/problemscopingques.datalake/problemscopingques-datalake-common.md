@@ -101,7 +101,5 @@
                 }, {
                     "value": "Not applicable",
                     "text": "Not applicable"
-                }]            
-        }]
-}
+                }]}]}
 ---
