@@ -34,7 +34,7 @@ For all SDKs there is a minimal level of dependency tracking that will cover the
 4. In Status Monitor, select the installed web application or website that you want to monitor. Sign in with your Azure credentials.
 5. Restart IIS.
 
-**On-premisss Java applications**<br>
+**On-premises Java applications**<br>
 
 1. Review the agent installation [guide](https://docs.microsoft.com/azure/azure-monitor/app/java-agent)
 2. On the machine running your Java server, [download the agent](https://github.com/Microsoft/ApplicationInsights-Java/releases/latest). Please ensure to download the same version of Java Agent as Application Insights Java SDK core and web packages.
