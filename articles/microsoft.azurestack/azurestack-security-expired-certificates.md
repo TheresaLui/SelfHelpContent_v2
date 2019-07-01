@@ -19,12 +19,13 @@
 ## **Recommended Steps**
 
 If you have validated the certificate, see [Using validated certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs#using-validated-certificates).
+
 If you have not validated or obtain a new certificate, follow these steps:
 
-1. [Prepare Azure Stack PKI certificate for use in deployment or rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-prepare-pki-certs). 
-2. You can use the Azure Stack Readiness Checker tool to validate the generated PKI certificate is suitable for pre-deployment: [Validate Azure Stack PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs).
-3. [Perform core services certificate validation](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs#perform-core-services-certificate-validation).
-4. [Perform platform as a service certificate validation](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs#perform-platform-as-a-service-certificate-validation).
+1. [Prepare Azure Stack PKI certificate for use in deployment or rotation](https://docs.microsoft.com/azure-stack/operator/azure-stack-prepare-pki-certs)
+2. You can use the Azure Stack Readiness Checker tool to validate the generated PKI certificate is suitable for pre-deployment: [Validate Azure Stack PKI certificates](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs)
+3. [Perform core services certificate validation](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs#perform-core-services-certificate-validation)
+4. [Perform platform as a service certificate validation](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-pki-certs#perform-platform-as-a-service-certificate-validation)
 
 ## **Recommended Documents**
 
