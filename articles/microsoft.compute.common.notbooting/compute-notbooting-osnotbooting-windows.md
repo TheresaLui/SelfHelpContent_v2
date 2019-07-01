@@ -29,7 +29,7 @@
 
 ### If your VM is not at the **ctrl-alt-del** screen, it may be experiencing a boot error
 
-1. Restart the virtual machine to address boot issues.
+1. Restart the virtual machine to address boot issues
 2. Review the [common boot errors and solutions for non-bootable VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot) troubleshooting guide
 
 **Common issues associated to specific boot errors:**<br>
