@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": false,    
     "title": "Cannot scale higher or lower",
     "fileAttachmentHint": "",
     "formElements": [
