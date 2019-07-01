@@ -10,6 +10,7 @@
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	schema="SelfHelpContent"
 
 />
 # Pipelines Issues Build
