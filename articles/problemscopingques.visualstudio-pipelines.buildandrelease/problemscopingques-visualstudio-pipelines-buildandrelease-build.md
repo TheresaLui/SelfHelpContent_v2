@@ -16,7 +16,7 @@
 ---
 {
   "resourceRequired": false,
-"subscriptionRequired"="false",
+  "subscriptionRequired": false,
   "title": "Pipeline Issues",
   "fileAttachmentHint": "Upload any screenshots or log files of the error or issue",
   "formElements": [
