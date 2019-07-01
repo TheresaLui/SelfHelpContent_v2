@@ -5,9 +5,10 @@
 	description="Scoping questions for Pipelines Build Issues"
 	authors="chrisjco"
 	ms.author="ccoop"
-	selfHelpType="problemScopingQuestions"
+	selfHelpType="SelfHelpContent"
 	supportTopicIds="32452973, 32452974, 32572374, 32572376"
 	productPesIds="15543"
+	subscriptionRequired="false"
 	cloudEnvironments="public"
 	schemaVersion="1"
 
@@ -29,9 +30,15 @@
       "useAsAdditionalDetails": true,
       "hints": [
         {
+          "text": "Azure DevOps Organization name (like XYZ.visualstudio.com or dev.azure.com/XYZ)"
+        },
+       	{
+          "text": "Project and Definition name"
+        },
+    	{
           "text": "Expected behavior, actual behavior"
         },
-        {
+	{
           "text": "Troubleshooting done so far"
         },
         {
@@ -48,21 +55,21 @@
       "controlType": "textbox",
       "displayLabel": "Please provide your Azure DevOps Organization name (like XYZ.visualstudio.com or dev.azure.com/XYZ)",
       "watermarkText": "Choose an option",
-      "required": true
+      "required": false
     },
     {
       "id": "project_name",
       "order": 3,
       "controlType": "textbox",
       "displayLabel": "Name of project affected",
-      "required": true
+      "required": false
     },
     {
       "id": "definition_name",
       "order": 4,
       "controlType": "textbox",
       "displayLabel": "Name of definition affected",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_start_time",
