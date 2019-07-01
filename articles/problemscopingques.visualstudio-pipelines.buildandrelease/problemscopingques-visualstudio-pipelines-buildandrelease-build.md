@@ -31,8 +31,7 @@
       "watermarkText": "Please provide: a detailed scenario of the error condition or issue, troubleshooting done so far, and any other relevant information.",
       "useAsAdditionalDetails": true,
       "hints": [
-  
-    	{
+      	{
           "text": "Expected behavior, actual behavior"
         },
 	{
