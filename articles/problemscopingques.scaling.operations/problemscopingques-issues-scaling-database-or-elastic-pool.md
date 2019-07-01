@@ -30,7 +30,7 @@
 					"value": "Ongoing_normal",
 					"text": "Ongoing (normal operation)"
 				},{
-				        "value: "Ongoing_long-running_stuck",
+				        "value": "Ongoing_long-running_stuck",
 					"text": "Ongoing (long-running/stuck)"
 				},{
 					"value": "Completed successfully",
