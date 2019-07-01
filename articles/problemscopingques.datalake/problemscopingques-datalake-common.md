@@ -57,7 +57,7 @@
             "displayLabel": "File or folder path",
             "watermarkText": "'File name' or 'Folder name'",
             "required": false
-        },        
+        },
         {
             "id": "client",
             "order": 6,
