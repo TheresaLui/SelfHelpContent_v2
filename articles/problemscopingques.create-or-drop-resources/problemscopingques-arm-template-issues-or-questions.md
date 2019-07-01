@@ -48,6 +48,5 @@
 			  "useAsAdditionalDetails": false
 		  }
 	]
-  "$schema": "SelfHelpContent"
 }
 ---
