@@ -4,7 +4,7 @@
     authors="sumantmehtams"
     ms.author="sumameh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32674924,32674922,32674905,32674913,32674907,32674926,32674925,32674915,32674909,32674911,32674910,32674914,32674921,32674920,32674927,32674912,32674923,32674906,32674918,32674917,32674916,32674919"
+    supportTopicIds="32674924,32674922,32674905,32674913,32674907,32674926,32674925,32674915,32674909,32674911,32674910,32674914,      32674921,32674920,32674927,32674912,32674923,32674906,32674918,32674917,32674916,32674919"
     productPesIds="15879"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -59,7 +59,7 @@
             "required": false
         },        
         {
-            "id": "Client",
+            "id": "client",
             "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Client",
@@ -76,39 +76,39 @@
                 {
                     "value": "Portal",
                     "text": "Portal"
-                }
+                },
                 {
                     "value": "Java SDK",
                     "text": "Java SDK"
-                }
+                },
                 {
                     "value": "Python SDK",
                     "text": "Python SDK"
-                }
+                },
                 {
                     "value": ".NET SDK",
                     "text": ".NET SDK"
-                }
+                },
                 {
                     "value": "PowerShell",
                     "text": "PowerShell"
-                }
+                },
                 {
                     "value": "Azure CLI",
                     "text": "Azure CLI"
-                }
+                },
                 {
                     "value": "REST API",
                     "text": "REST API"
-                }
+                },
                 {
                     "value": "ADLA",
                     "text": "ADLA"
-                }
+                },
                 {
                     "value": "Other",
                     "text": "Other"
-                }
+                },
                 {
                     "value": "Not applicable",
                     "text": "Not applicable"
