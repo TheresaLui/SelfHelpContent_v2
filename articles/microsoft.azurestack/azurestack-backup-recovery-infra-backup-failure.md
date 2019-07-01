@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack infrastructure Backup failure"
-    description="Azure Stack infrastructure Backup failure"
+    pageTitle="Azure Stack Infrastructure Backup failure"
+    description="Azure Stack Infrastructure Backup failure"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="TobyTu"
