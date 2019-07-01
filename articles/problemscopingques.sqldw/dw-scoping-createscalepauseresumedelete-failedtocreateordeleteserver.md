@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Failed to create or delete server",
     "fileAttachmentHint": "",
     "formElements": [
