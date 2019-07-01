@@ -2,12 +2,15 @@
 	pageTitle="ADLS Gen1 Scoping Questions Common"
 	description="ADLS Gen1 Scoping Questions Common"
 	authors="sumantmehtams"
+    ms.author="sumameh"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32674924,32674922,32674905,32674913,32674907,32674926,32674925,32674915,32674909,32674911,32674910,32674914,32674921,32674920,32674927,32674912,32674923,32674906,32674918,32674917,32674916,32674919"
 	productPesIds="15879"
 	cloudEnvironments="public"
 	schemaVersion="1"
+    schema="SelfHelpContent"
 	articleId="27f3c71b-3fbc-43fd-8acf-6e9bf44b2a2b"
+    subscriptionRequired ="false"
 />
 # ADLS Gen1 Scoping Questions Common
 ---
@@ -47,6 +50,72 @@
             "required": false,
             "useAsAdditionalDetails": true
         }
+        {
+            "id": "file_or_folder_path",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "File or folder path",
+            "watermarkText": "'File name' or 'Folder name'",
+            "required": false
+        },        
+        {
+            "id": "Client",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Client",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "HDInsight",
+                    "text": "HDInsight"
+                },
+                {
+                    "value": "Databricks",
+                    "text": "Databricks"
+                },
+                {
+                    "value": "Portal",
+                    "text": "Portal"
+                }
+                {
+                    "value": "Java SDK",
+                    "text": "Java SDK"
+                }
+                {
+                    "value": "Python SDK",
+                    "text": "Python SDK"
+                }
+                {
+                    "value": ".NET SDK",
+                    "text": ".NET SDK"
+                }
+                {
+                    "value": "PowerShell",
+                    "text": "PowerShell"
+                }
+                {
+                    "value": "Azure CLI",
+                    "text": "Azure CLI"
+                }
+                {
+                    "value": "REST API",
+                    "text": "REST API"
+                }
+                {
+                    "value": "ADLA",
+                    "text": "ADLA"
+                }
+                {
+                    "value": "Other",
+                    "text": "Other"
+                }
+                {
+                    "value": "Not applicable",
+                    "text": "Not applicable"
+                }
+            ],
+            "required": false
+        }        
     ]
 }
 ---
