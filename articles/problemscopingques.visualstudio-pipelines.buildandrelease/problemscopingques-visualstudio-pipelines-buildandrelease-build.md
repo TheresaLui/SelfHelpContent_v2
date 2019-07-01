@@ -5,10 +5,9 @@
 	description="Scoping questions for Pipelines Build Issues"
 	authors="chrisjco"
 	ms.author="ccoop"
-	selfHelpType="SelfHelpContent"
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32452973, 32452974, 32572374, 32572376"
 	productPesIds="15543"
-	subscriptionRequired="false"
 	cloudEnvironments="public"
 	schemaVersion="1"
 
@@ -17,6 +16,7 @@
 ---
 {
   "resourceRequired": false,
+"subscriptionRequired"="false",
   "title": "Pipeline Issues",
   "fileAttachmentHint": "Upload any screenshots or log files of the error or issue",
   "formElements": [
