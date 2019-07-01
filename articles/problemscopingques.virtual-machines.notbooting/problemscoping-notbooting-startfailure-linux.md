@@ -5,7 +5,7 @@
                 ms.author="tibasham"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32675598"
-                productPesIds="14749,15571,15797,16454,16470"
+                productPesIds="15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="3b881f6a-2ca9-44e9-bab0-d9aaa2879912"
