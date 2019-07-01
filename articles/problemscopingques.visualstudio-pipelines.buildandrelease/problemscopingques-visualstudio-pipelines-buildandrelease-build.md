@@ -10,13 +10,14 @@
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	schema="SelfHelpContent"
+	
 
 />
 # Pipelines Issues Build
 ---
 {
-  "resourceRequired": false,
+"$schema": "SelfHelpContent",
+"resourceRequired": false,
   "subscriptionRequired": false,
   "title": "Pipeline Issues",
   "fileAttachmentHint": "Upload any screenshots or log files of the error or issue",
