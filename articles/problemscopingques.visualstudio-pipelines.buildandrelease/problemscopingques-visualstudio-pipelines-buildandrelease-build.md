@@ -26,7 +26,8 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "Problem start time",
 			"required": true
-		}, 
+		}
+]		
 		{	"id": "org_name",
 			"order": 2,
 			"controlType": "textbox",
