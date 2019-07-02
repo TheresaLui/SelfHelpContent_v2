@@ -19,7 +19,7 @@ cloudEnvironments="public"
 # Azure Files - Windows mount error 87
 
 <!--issueDescription-->
-If your Azure file share mount fails with the following error: **_System error 87 has occurred. The parameter is incorrect_**, please follow the recommended steps below to troubleshoot the problem.
+If your Azure file share mount fails with the following error: "System error 87 has occurred. The parameter is incorrect", please follow the recommended steps below to troubleshoot the problem.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

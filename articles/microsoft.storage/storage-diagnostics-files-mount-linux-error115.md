@@ -19,7 +19,7 @@ cloudEnvironments="public"
 # "Mount error(115): Operation now in progress" when you mount Azure Files by using SMB 3.0
 
 <!--issueDescription-->
-If your Azure file share mount fails with the following error: **_Mount error(115): Operation now in progress_**, please follow the recommended steps below to troubleshoot the problem.
+If your Azure file share mount fails with the following error: "Mount error(115): Operation now in progress", please follow the recommended steps below to troubleshoot the problem.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

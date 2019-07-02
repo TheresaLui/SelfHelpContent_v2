@@ -19,7 +19,7 @@ cloudEnvironments="public"
 # Azure Files - Windows mount error 5
 
 <!--issueDescription-->
-If your Azure file share mount fails with the following error: **_System error 5 has occurred. Access is denied_**, please follow the recommended steps below to troubleshoot the problem.
+If your Azure file share mount fails with the following error: "System error 5 has occurred. Access is denied", please follow the recommended steps below to troubleshoot the problem.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

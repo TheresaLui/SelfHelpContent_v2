@@ -19,7 +19,7 @@ cloudEnvironments="public"
 # "Mount error(13): Permission denied" when you mount an Azure file share
 
 <!--issueDescription-->
-If your Azure file share mount fails with the following error: **_Mount error(13): Permission denied_**, please follow the recommended steps below to troubleshoot the problem.
+If your Azure file share mount fails with the following error: "Mount error(13): Permission denied", please follow the recommended steps below to troubleshoot the problem.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
