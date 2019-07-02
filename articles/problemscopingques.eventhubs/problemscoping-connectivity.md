@@ -1,24 +1,24 @@
 <properties
-pageTitle="Performance issues due to high send latency"
-description="Performance issues due to high send latency"
+pageTitle="Connectivity Issues"
+description="Connectivity Issues"
 service="microsoft.eventhubs"
-resource="highsendlatency"
+resource="connectivityissues"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32636941"
+supportTopicIds="32636940"
 resourceTags=""
 productPesIds="16125"
 cloudEnvironments="public"
-articleId="eh-high-send-latency"
+articleId="eh-connectivity"
 schemaVersion="1"
 />
-# Performance issues due to high send latency
+# Connectivity Issues
 ---
 {
     "subscriptionRequired": true,
-    "title": "Performance issues due to high send latency",
+    "title": "Connectivity Issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -64,32 +64,12 @@ schemaVersion="1"
             "required": false
         },
         {
-            "id": "problem_currentLatency",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Provide current latency of the request(s)",
-            "required": false
-        },
-        {
-            "id": "problem_expectedLatency",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Provide the expected latency of the request(s)",
-            "required": false
-        },
-        {
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
-            "displayLabel": "Details",
-            "watermarkText": "Provide additional information about your issue",
+            "displayLabel": "Please provide the call stack with exception messages and time stamp",
             "required": false,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Issue description."
-                }
-            ]
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"

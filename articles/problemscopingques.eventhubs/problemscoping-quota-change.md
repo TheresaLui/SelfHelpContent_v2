@@ -49,7 +49,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
