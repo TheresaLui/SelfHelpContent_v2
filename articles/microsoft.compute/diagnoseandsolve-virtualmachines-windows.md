@@ -17,7 +17,8 @@ cloudEnvironments="public"
 {
 	"$schema":"SelfHelpContent",
   "commonProblems": [
-    {
+    {						   
+      "id": "Troubleshoot_Deployment_Failures",
       "title": "Troubleshoot Deployment Failures",
       "description": "Troubleshoot failures and errors when creating a new VM in Azure",
       "category": "Deployment",
@@ -25,6 +26,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Allocation_failure",
           "title": "Allocation failure",
           "description": "Troubleshoot allocation failures when creating a new VM in Azure",
           "supportTopicId": "32628252",
@@ -32,6 +34,7 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
+          "id": "Captured_or_generalized_image_deployment_failure",
           "title": "Captured or generalized image deployment failure",
           "description": "Troubleshoot issues when creating a managed image of a generalized VM in Azure",
           "supportTopicId": "32628259",
@@ -39,13 +42,15 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
-          "title": "Provisioning or deployment timeout error",
+          "id": "Provisioning_or_deployment_timeout_error",
+	  "title": "Provisioning or deployment timeout error",
           "description": "Troubleshoot provisioning or deployment timeout errors when creating a new VM in Azure",
           "supportTopicId": "32628279",
           "commonSolutionArticleId": "2b6deeb3-490a-4d18-8a36-83ed65de8451",
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
+          "id": "ARM_template_error",
           "title": "ARM template error",
           "description": "Troubleshoot issues when deploying with ARM template",
           "supportTopicId": "32628255",
@@ -53,6 +58,7 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
+          "id": "Custom_image_deployment_failure",
           "title": "Custom image deployment failure",
           "description": "Troubleshoot issues when deploying a custom image",
           "supportTopicId": "32628262",
@@ -60,6 +66,7 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
+          "id": "Marketplace_image_deployment_failure",
           "title": "Marketplace image deployment failure",
           "description": "Troubleshoot issues when deploying a marketplace image",
           "supportTopicId": "32628274",
@@ -69,6 +76,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
       "category": "Deployment",
@@ -76,6 +84,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Deploy_with_managed_disks",
           "title": "Deploy with managed disks",
           "description": "Guidance on deploying with managed disks or converting a VM from unmanaged disks to managed disks",
           "supportTopicId": "32628271",
@@ -83,6 +92,7 @@ cloudEnvironments="public"
           "symptomId": ""
         },
         {
+          "id": "Prepare_an_image",
           "title": "Prepare an image",
           "description": "Guidance on capturing a VM to image in Azure",
           "supportTopicId": "32628272",
@@ -90,6 +100,7 @@ cloudEnvironments="public"
           "symptomId": ""
         },
         {
+          "id": "Choosing_Region_or_VM_size",
           "title": "Choosing Region or VM size",
           "description": "Guidance on creating a new VM in an unavailable size or region, or when finding suitable SKU for deployment",
           "supportTopicId": "32628263",
@@ -99,6 +110,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "Cannot_Connect_to_VM",
       "title": "Cannot Connect to VM",
       "description": "Troubleshoot connectivity issues with an Azure VM",
       "category": "Connectivity",
@@ -106,6 +118,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Configuration_change_impacted_connectivity",
           "title": "Configuration change impacted connectivity",
           "description": "Troubleshoot connectivity issues due to configuration changes",
           "supportTopicId": "32615530",
@@ -113,6 +126,7 @@ cloudEnvironments="public"
           "symptomId": "CannotRdpAzurePortalInsight"
         },
         {
+          "id": "Troubleshoot_network_security_group",
           "title": "Troubleshoot network security group (NSG)",
           "description": "Troubleshoot connectivity issues due to network security group rules",
           "supportTopicId": "32615530",
@@ -120,6 +134,7 @@ cloudEnvironments="public"
           "symptomId": "CannotRdpAzurePortalInsight"
         },
         {
+          "id": "Troubleshoot_VM_firewall",
           "title": "Troubleshoot VM firewall",
           "description": "Troubleshoot connectivity issues due to firewall rules",
           "supportTopicId": "32615534",
@@ -127,6 +142,7 @@ cloudEnvironments="public"
           "symptomId": "CannotRdpAzurePortalInsight"
         },
         {
+          "id": "Public_IP_issue",
           "title": "Public IP issue",
           "description": "Troubleshoot connectivity issues due to Public IP issues",
           "supportTopicId": "32615527",
@@ -134,6 +150,7 @@ cloudEnvironments="public"
           "symptomId": "CannotRdpAzurePortalInsight"
         },
         {
+          "id": "Serial_console_access",
           "title": "Serial console access",
           "description": "Understand how to use serial console to troubleshoot connectivity issues",
           "supportTopicId": "32615528",
@@ -141,6 +158,7 @@ cloudEnvironments="public"
           "symptomId": "CannotRdpAzurePortalInsight"
         },
         {
+          "id": "Cannot_RDP",
           "title": "Cannot RDP",
           "description": "Troubleshoot connectivity issues to an Azure virtual machine",
           "supportTopicId": "32615526",
@@ -150,6 +168,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "Help_with_VM_Password_Reset",
       "title": "Help with VM Password Reset",
       "description": "Guidance on resetting the credentials of an existing user or creating a new user",
       "category": "Connectivity",
@@ -159,6 +178,7 @@ cloudEnvironments="public"
       "symptomId": ""
     },
     {
+      "id": "VM_is_not_booting",
       "title": "VM is not booting",
       "description": "Troubleshoot common boot errors for non-bootable VMs",
       "category": "Connectivity",
@@ -168,6 +188,7 @@ cloudEnvironments="public"
       "symptomId": "CannotRdpAzurePortalInsight"
     },
     {
+      "id": "Cannot_Start_or_Stop_VM",
       "title": "Cannot Start or Stop VM",
       "description": "Troubleshoot issues when starting or stopping a VM in Azure",
       "category": "Deployment",
@@ -175,6 +196,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Cannot_start_after_configuration_change",
           "title": "Cannot start after configuration change",
           "description": "Troubleshoot VM start issues due to configuration changes",
           "supportTopicId": "32628285",
@@ -182,6 +204,7 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
+          "id": "Disk_related_error",        
           "title": "Disk related error",
           "description": "Troubleshoot disk related errors when starting a VM in Azure",
           "supportTopicId": "32628265",
@@ -189,6 +212,7 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
+          "id": "Allocation_failure",
           "title": "Allocation failure",
           "description": "Troubleshoot allocation failures when starting a VM in Azure",
           "supportTopicId": "32628253",
@@ -196,6 +220,7 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
+          "id": "VM_unresponsive_to_start_or_stop_operations",
           "title": "VM unresponsive to start or stop operations",
           "description": "Troubleshoot issues when VM is not responsive to start or stop operations",
           "supportTopicId": "32628286",
@@ -203,6 +228,7 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
+          "id": "Start_or_stop_operation_failed",
           "title": "Start or stop operation failed",
           "description": "Troubleshoot failures when starting or stopping a VM in Azure",
           "supportTopicId": "32628282",
@@ -212,6 +238,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "Unexpected_VM_Restart",
       "title": "Unexpected VM Restart",
       "description": "Troubleshoot issues that cause an Azure VM to restart unexpectedly",
       "category": "Management",
@@ -219,6 +246,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Guest_OS_causing_restarts",
           "title": "Guest OS causing restarts",
           "description": "Troubleshoot VM restart issues caused by issues within the guest operating system",
           "supportTopicId": "32628269",
@@ -226,6 +254,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Troubleshoot_Windows_Update_issues",
           "title": "Troubleshoot Windows Update issues",
           "description": "Troubleshoot VM restart issues caused by Windows Update issues",
           "supportTopicId": "32628289",
@@ -233,6 +262,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Request_Root_Cause_for_VM_Restart",
           "title": "Request Root Cause for VM Restart",
           "description": "Request Root Cause Analysis document for VM restart issues",
           "supportTopicId": "32628280",
@@ -242,6 +272,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "Virtual_Disk_Management_Issues",
       "title": "Virtual Disk Management Issues",
       "description": "Troubleshoot issues with managing virtual disks in Azure",
       "category": "Management",
@@ -249,6 +280,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Resizing_virtual_disks",
           "title": "Resizing virtual disks",
           "description": "Guidance on resizing virtual disks",
           "supportTopicId": "32632142",
@@ -256,6 +288,7 @@ cloudEnvironments="public"
           "symptomId": ""
         },
         {
+          "id": "Attaching_or_detaching_virtual_disks",
           "title": "Attaching or detaching virtual disks",
           "description": "Guidance on attaching or detaching a virtual disk to/from VMs",
           "supportTopicId": "32632139",
@@ -263,6 +296,7 @@ cloudEnvironments="public"
           "symptomId": ""
         },
         {
+          "id": "Creating_or_deleting_virtual_disks",
           "title": "Creating or deleting virtual disks",
           "description": "Guidance on deleting virtual disks",
           "supportTopicId": "32632140",
@@ -272,6 +306,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "Encryption_Issues",
       "title": "Encryption Issues",
       "description": "Troubleshoot encryption issues of Azure VM and/or disks",
       "category": "Management",
@@ -279,6 +314,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Encrypt_VM_disk",
           "title": "Encrypt VM disk",
           "description": "Guidance on encrypting a VM disk",
           "supportTopicId": "32518038",
@@ -286,6 +322,7 @@ cloudEnvironments="public"
           "symptomId": ""
         },
         {
+          "id": "Manage_encrypted_disks_keys_or_secrets_or_permissions",
           "title": "Manage encrypted disks, keys or secrets, or permissions",
           "description": "Guidance on managing encrypted disks, keys or secrets, or permissions",
           "supportTopicId": "32518039",
@@ -293,6 +330,7 @@ cloudEnvironments="public"
           "symptomId": ""
         },
         {
+          "id": "Azure_Disk_Encryption_extension issue",
           "title": "Azure Disk Encryption (ADE) extension issue",
           "description": "Troubleshoot issues with Azure Disk Encryption extension",
           "supportTopicId": "32628258",
@@ -302,6 +340,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "VM_Performance_Issues",
       "title": "VM Performance Issues",
       "description": "Troubleshoot issues that cause low performance of an Azure VM",
       "category": "Performance",
@@ -309,6 +348,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Disk_throughput_low",
           "title": "Disk throughput low",
           "description": "Troubleshoot performance issues when disk throughput is lower than expected",
           "supportTopicId": "32628264",
@@ -316,6 +356,7 @@ cloudEnvironments="public"
           "symptomId": "VMPerfDiagExtInsights"
         },
         {
+          "id": "CPU_usage_high",
           "title": "CPU usage high",
           "description": "Troubleshoot performance issues when CPU usage is higher than expected",
           "supportTopicId": "32628261",
@@ -323,6 +364,7 @@ cloudEnvironments="public"
           "symptomId": "VMPerfDiagExtInsights"
         },
         {
+          "id": "Network_throughput_slow",
           "title": "Network throughput slow",
           "description": "Troubleshoot performance issues when network throughput is slower than expected",
           "supportTopicId": "32628277",
@@ -330,6 +372,7 @@ cloudEnvironments="public"
           "symptomId": "VMPerfDiagExtInsights"
         },
         {
+          "id": "Memory_usage_high",
           "title": "Memory usage high",
           "description": "Troubleshoot performance issues when memory usage is higher than expected",
           "supportTopicId": "32628275",
@@ -337,6 +380,7 @@ cloudEnvironments="public"
           "symptomId": "VMPerfDiagExtInsights"
         },
         {
+          "id": "GPU_processing_slow",
           "title": "GPU processing slow",
           "description": "Troubleshoot performance issues when GPU processing is slower than expected",
           "supportTopicId": "32628268",
@@ -344,6 +388,7 @@ cloudEnvironments="public"
           "symptomId": "VMPerfDiagExtInsights"
         },
         {
+          "id": "Guidance_for_better_VM_sizing_and_throughput",
           "title": "Guidance for better VM sizing and throughput",
           "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
           "supportTopicId": "32628270",
@@ -351,6 +396,7 @@ cloudEnvironments="public"
           "symptomId": "VMPerfDiagExtInsights"
         },
         {
+          "id": "Replication_of_Shared_Image_Version_slow",
           "title": "Replication of Shared Image Version slow",
           "description": "Troubleshoot performance issues when replication of Shared Image Version is slow",
           "supportTopicId": "32615275",
@@ -358,6 +404,7 @@ cloudEnvironments="public"
           "symptomId": "VMPerfDiagExtInsights"
         },
         {
+          "id": "Write_accelerator",
           "title": "Write accelerator",
           "description": "Guidance on using Write Accelerator for high performance",
           "supportTopicId": "32608639",
@@ -367,6 +414,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "VM_Extension_Issues",
       "title": "VM Extension Issues",
       "description": "Troubleshoot issues installing and/or executing Azure VM extensions",
       "category": "Deployment",
@@ -374,6 +422,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "VM_Diagnostic_extension issue",
           "title": "VM Diagnostic (boot diagnostics) extension issue",
           "description": "Troubleshoot issues with VM Diagnostic extension",
           "supportTopicId": "32628283",
@@ -381,6 +430,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Azure_Custom_Script_extension_issue",
           "title": "Azure Custom Script (CSE) extension issue",
           "description": "Troubleshoot issues with Azure Custom Script extension",
           "supportTopicId": "32628256",
@@ -388,6 +438,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Log_Analytics_extension_issue",
           "title": "Log Analytics (OMS) extension issue",
           "description": "Troubleshoot issues with Log Analytics extension",
           "supportTopicId": "32628273",
@@ -395,6 +446,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Azure_Desired_State_Configuration_extension_issue",
           "title": "Azure Desired State Configuration (DSC) extension issue",
           "description": "Troubleshoot issues with Azure Desired State Configuration extension",
           "supportTopicId": "32628257",
@@ -402,6 +454,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Microsoft_Antimalware_extension_issue",
           "title": "Microsoft Antimalware (security) extension issue",
           "description": "Troubleshoot issues with Microsoft Antimalware extension",
           "supportTopicId": "32628276",
@@ -409,6 +462,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Azure_Disk_Encryption_extension_issue",
           "title": "Azure Disk Encryption (ADE) extension issue",
           "description": "Troubleshoot issues with Azure Disk Encryption extension",
           "supportTopicId": "32628258",
@@ -416,6 +470,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "VM_Snapshot_extension_issue",
           "title": "VM Snapshot (Azure Backup) extension issue",
           "description": "Troubleshoot issues with VM Snapshot extension",
           "supportTopicId": "32628288",
@@ -423,6 +478,7 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Extension_not_installing_correctly",
           "title": "Extension not installing correctly",
           "description": "Troubleshoot issues when VM extension is not installing correctly",
           "supportTopicId": "32628266",
@@ -430,13 +486,15 @@ cloudEnvironments="public"
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Extension_not_executing_correctly",
           "title": "Extension not executing correctly",
-          "description": "Troubleshoot issues when VM extension is not installing correctly",
+          "description": "Troubleshoot issues when VM extension is not executing correctly",
           "supportTopicId": "32628267",
           "commonSolutionArticleId": "cd2fec93-b941-40e5-ae9e-9461817e53de",
           "symptomId": "RestartFailuresAzurePortalInsight"
         },
         {
+          "id": "Update_Management_extension_issue",
           "title": "Update Management extension issue",
           "description": "Troubleshoot issues with Update Management extension",
           "supportTopicId": "32633803",
@@ -446,6 +504,7 @@ cloudEnvironments="public"
       ]
     },
     {
+      "id": "Backup_and_Restore",
       "title": "Backup and Restore",
       "description": "Troubleshoot issues creating a backup or restoring from backup",
       "category": "Management",
@@ -453,6 +512,7 @@ cloudEnvironments="public"
       "supportTopicId": "",
       "subProblems": [
         {
+          "id": "Troubleshoot_backup_issues",
           "title": "Troubleshoot backup issues",
           "description": "Troubleshoot issues when backing up a single VM, multiple VMs, or VM disks",
           "supportTopicId": "32565494",
@@ -460,6 +520,7 @@ cloudEnvironments="public"
           "symptomId": ""
         },
         {
+          "id": "Restore_VM_from_Snapshot",
           "title": "Restore VM from Snapshot",
           "description": "Troubleshoot issues when restoring a VM from Snapshot",
           "supportTopicId": "32632143",
@@ -467,6 +528,7 @@ cloudEnvironments="public"
           "symptomId": ""
         },
         {
+          "id": "VM_Snapshot_extension_issue",
           "title": "VM Snapshot (Azure Backup) extension issue",
           "description": "Troubleshoot issues with VM Snapshot extension",
           "supportTopicId": "32628288",
@@ -478,6 +540,7 @@ cloudEnvironments="public"
   ],
   "troubleshootingTools": [
     {
+      "id": "Redeploy_virtual_machine_tool",
       "title": "Redeploy virtual machine",
       "description": "Migrate and redeploy this virtual machine to a different Azure host",
       "category": "Deployment",
@@ -495,6 +558,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Reset_RDP_account_configuration_tool",
       "title": "Reset RDP account and configuration for VM",
       "description": "Resets the built-in administrator account and the Remote Desktop service configuration",      
       "category": "Deployment",
@@ -512,6 +576,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Serial_Console_tool",
       "title": "Serial Console",
       "description": "Log on to virtual machine's serial console",      
       "category": "Connectivity",
@@ -529,6 +594,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Boot_Diagnostics_tool",
       "title": "Boot Diagnostics",
       "description": "View the serial console output and a screenshot of this virtual machine to help diagnose startup issues",      
       "category": "Connectivity",
@@ -546,6 +612,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Verify_IP_flow_tool",
       "title": "Verify IP flow",
       "description": "Use IP flow verify to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine",      
       "category": "Connectivity",
@@ -563,6 +630,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Virtual_Machine_Health_tool",
       "title": "Virtual Machine Health",
       "description": "Use Azure Resource health to diagnose any issues with the resource. It monitors and indicates any availability issues.",      
       "category": "Management",
@@ -580,6 +648,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Azure_Service_Health_tool",
       "title": "Azure Service Health",
       "description": "Use the Azure Service Health blade to see current service issues that may be affecting your resources",      
       "category": "Management",
@@ -597,6 +666,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Audit_and_Activity_Log_tool",
       "title": "Audit and Activity Log",
       "description": "View Activity Logs to look at recent history of changes on this virtual machine",      
       "category": "Management",
@@ -614,6 +684,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Performance_diagnostics_tool",
       "title": "Performance diagnostics",
       "description": "Troubleshoot performance issues on the virtual machine",      
       "category": "Performance",
@@ -631,6 +702,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Troubleshoot_network_connectivity_tool",
       "title": "Troubleshoot network connectivity",
       "description": "Check and test direct TCP connections from the VM to another VM, fully qualified domain name (FQDN), URI, or an IPv4 address",
       "category": "Connectivity",
@@ -648,6 +720,7 @@ cloudEnvironments="public"
       }
     },
     {
+      "id": "Virtual_Machine_metrics_tool",
       "title": "Virtual Machine metrics",
       "description": "View charts and metrics and counters data for the virtual machine",
       "category": "Management",
