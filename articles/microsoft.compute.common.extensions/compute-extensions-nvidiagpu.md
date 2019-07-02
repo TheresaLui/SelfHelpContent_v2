@@ -1,6 +1,6 @@
 <properties
 	pageTitle="NVIDIA GPU driver extension issue"
-	description="NVIDIA GPU driver extension issue
+	description="NVIDIA GPU driver extension issue"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
