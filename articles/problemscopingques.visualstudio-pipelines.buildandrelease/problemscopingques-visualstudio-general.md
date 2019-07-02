@@ -2,7 +2,7 @@
 	
 	articleId="problemscopingques-visualstudio-general"
 	pageTitle="Scoping questions for general DevOps Services issues"
-	description=""Scoping questions for general DevOps Services issues"
+	description="Scoping questions for general DevOps Services issues"
 	authors="chrisjco"
 	ms.author="ccoop"
 	selfHelpType="problemScopingQuestions"
