@@ -32,7 +32,7 @@
       "useAsAdditionalDetails": true,
       "hints": [
       	{
-          "text": "Expected behavior, actual behavior"
+          "text": "Error message (if any)"
         },
 	{
           "text": "Troubleshooting done so far"
