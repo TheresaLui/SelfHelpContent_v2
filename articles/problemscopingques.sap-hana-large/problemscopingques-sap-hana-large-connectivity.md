@@ -4,7 +4,7 @@
     authors="tizape"
     ms.author="tizape"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32632331,32632357,32632371,32632369,32632372,32632367"
+    supportTopicIds="32632357,32632371,32632369,32632372,32632367"
     productPesIds="16208"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -97,7 +97,7 @@
 		},
 		{
 			"id": "HubVNET",
-			"order": 6,
+			"order": 4,
 			"visibility": "topology == On Premise to HANA",
 			"controlType": "dropdown",
 			"displayLabel": "Chose the virtual network connected to your on-premise network",
@@ -121,7 +121,7 @@
 		},
 		{
 			"id": "configure_sap_hana",
-			"order": 3,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "Is this an Azure VM or a SAP HANA Large Instance",
 			"watermarkText": "Choose an option",
@@ -142,7 +142,7 @@
 		},
 		{
 			"id": "sapHanaBareMetalInstance",
-			"order": 4,
+			"order": 6,
 			"visibility": "configure_sap_hana == SAP HANA Large Instance || resourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Please select your SAP Hana Large Instance",
@@ -168,7 +168,7 @@
 		},
 		{
 			"id": "sapHanaVMInstance",
-			"order": 5,
+			"order": 7,
 			"visibility": "configure_sap_hana == Azure VM || resourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Please select your SAP Hana VM Instance",
