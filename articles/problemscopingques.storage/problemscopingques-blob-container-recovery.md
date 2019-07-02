@@ -30,7 +30,7 @@
                 },
                 {
                     "value": "by_time_period",
-                    "text": "Recover by deletion time period"
+                    "text": "Recover by deleted time period"
                 },
                 {
                     "value": "dont_know_answer",
@@ -47,7 +47,7 @@
             "controlType": "textbox",
             "displayLabel": "Name of Container to recover",
             "watermarkText": "container1;container2;container3",
-            "required": true,
+            "required": true
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
@@ -55,9 +55,8 @@
             "order": 3,
             "visibility": "recovery_option != by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate local time the Container was deleted",
-            "required": false,
-            "diagnosticInputRequiredClients": "ASC"
+            "displayLabel": "Approximate local time the Container was deleted"
+            "required"=false
         },
         {
             "id": "problem_start_time",
@@ -65,8 +64,7 @@
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
             "displayLabel": "Start time",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "problem_end_time",
@@ -74,8 +72,7 @@
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
             "displayLabel": "End time",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "problem_description",
