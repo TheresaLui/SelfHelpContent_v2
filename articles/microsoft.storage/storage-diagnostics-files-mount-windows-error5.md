@@ -20,6 +20,7 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 If your Azure file share mount fails with the following error: **_System error 5 has occurred. Access is denied_**, please follow the recommended steps below to troubleshoot the problem.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 ### **Cause 1: Unencrypted communication channel**
@@ -36,7 +37,6 @@ If virtual network (VNET) and firewall rules are configured on the storage accou
 
 ### [Solution for cause 2](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#solution-for-cause-2)
 
-<!--/issueDescription-->
 
 ## **Recommended Documents**
 

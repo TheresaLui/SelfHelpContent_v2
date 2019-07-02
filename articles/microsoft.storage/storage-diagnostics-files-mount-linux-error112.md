@@ -20,6 +20,7 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 If your Azure file share mount fails with the following error: **_Mount error(112): Host is down_**, please follow the recommended steps below to troubleshoot the problem.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 ### **Cause**
@@ -47,7 +48,6 @@ You can work around this problem by specifying a hard mount. A hard mount forces
 
 If you can't upgrade to the latest kernel versions, you can work around this problem by keeping a file in the Azure file share that you write to every 30 seconds or less. This must be a write operation, such as rewriting the created or modified date on the file. Otherwise, you might get cached results, and your operation might not trigger the reconnection.
 
-<!--/issueDescription-->
 
 ## **Recommended Documents**
 

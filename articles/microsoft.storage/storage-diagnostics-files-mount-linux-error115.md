@@ -20,6 +20,7 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 If your Azure file share mount fails with the following error: **_Mount error(115): Operation now in progress_**, please follow the recommended steps below to troubleshoot the problem.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 ### **Cause**
@@ -30,8 +31,6 @@ The encryption feature for SMB 3.0 for Linux was introduced in the 4.11 kernel. 
 
 If your Linux SMB client doesn't support encryption, mount Azure Files by using SMB 2.1 from an Azure Linux VM that's in the same datacenter as the file share. Verify that the [Secure transfer required]( https://docs.microsoft.com/azure/storage/common/storage-require-secure-transfer) setting is disabled on the storage account. 
 
-
-<!--/issueDescription-->
 
 ## **Recommended Documents**
 

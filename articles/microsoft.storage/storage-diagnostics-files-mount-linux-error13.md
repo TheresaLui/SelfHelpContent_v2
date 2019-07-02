@@ -20,6 +20,7 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 If your Azure file share mount fails with the following error: **_Mount error(13): Permission denied_**, please follow the recommended steps below to troubleshoot the problem.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -42,8 +43,6 @@ If virtual network (VNET) and firewall rules are configured on the storage accou
 
 Verify virtual network and firewall rules are configured properly on the storage account. To test if virtual network or firewall rules is causing the issue, temporarily change the setting on the storage account to **Allow access from all networks**. To learn more, see [Configure Azure Storage firewalls and virtual networks](https://docs.microsoft.com/azure/storage/common/storage-network-security).
 
-
-<!--/issueDescription-->
 
 ## **Recommended Documents**
 
