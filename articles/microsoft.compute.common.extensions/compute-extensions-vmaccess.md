@@ -20,7 +20,7 @@
 
 ## **Recommended Documents**
 
-*Manage administrative users, SSH, and check or repair disks on Linux VMs using the VMAccess Extension with the Azure CLI:*
+Manage administrative users, SSH, and check or repair disks on Linux VMs using the VMAccess Extension with the Azure CLI:
 
 * [Overview](https://docs.microsoft.com/azure/virtual-machines/extensions/vmaccess#overview)<br>
 * [Prerequisites](https://docs.microsoft.com/azure/virtual-machines/extensions/vmaccess#prerequisites)<br>
