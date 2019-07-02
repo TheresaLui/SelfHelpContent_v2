@@ -31,7 +31,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe the issue you are encountering.",
             "watermarkText": "",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {

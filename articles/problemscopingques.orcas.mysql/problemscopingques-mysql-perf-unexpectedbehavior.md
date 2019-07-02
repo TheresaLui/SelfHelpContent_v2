@@ -26,12 +26,12 @@
             "required": true
         },
         {
-            "id": "describe_issue",
+            "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please describe the issue you are encountering.",
+            "displayLabel": "Problem description",
+            "watermarkText": "Provide your repro steps and other information about your issue",
             "required": true,
-            "watermarkText": "Provide your issue",
             "useAsAdditionalDetails": true
         },
         {
