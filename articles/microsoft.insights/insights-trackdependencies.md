@@ -17,6 +17,8 @@
 
 For all SDKs there is a minimal level of dependency tracking that will cover the most common types of dependencies. For example, .NET will collect SQL and HTTP dependencies--including services built on HTTP such as Storage--without much configuration. For Java you would need to install the Java agent. The steps below will cover the most common monitoring scenarios. Node.JS and JavaScript natively support these without additional configuration.
 
+## **Recommended Steps**
+
 **App Service**<br>
 
 1. Review the setup [guide](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps#enable-application-insights) for common problems and solutions
