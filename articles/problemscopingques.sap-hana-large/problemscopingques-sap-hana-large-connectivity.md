@@ -4,8 +4,8 @@
     authors="tizape"
     ms.author="tizape"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32632357,32632371,32632369,32632372,32632367"
-    productPesIds="16208"
+    supportTopicIds="32632357,32632371,32632369,32632372,32632367,32632342"
+    productPesIds="16208,15571,15797"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="80aa8522-57d5-4826-ac41-51e412abf20d"
@@ -25,7 +25,8 @@
 			"controlType": "dropdown",
 			"displayLabel": "Where is the source machine located?",
 			"watermarkText": "Choose a topology",
-			"dropdownOptions": [{
+			"dropdownOptions": [
+                {
 					"value": "On Premise to HANA",
 					"text": "On Premise to HANA"
 				},

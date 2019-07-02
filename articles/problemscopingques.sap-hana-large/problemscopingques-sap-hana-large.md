@@ -25,7 +25,8 @@
 			"controlType": "dropdown",
 			"displayLabel": "Is this an Azure VM or a SAP HANA Large Instance",
 			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
+			"dropdownOptions": [
+                {
 					"value": "Azure VM",
 					"text": "Azure VM(G-Series, M-Series,DS-Series etc)"
 				},
@@ -67,7 +68,7 @@
 		{
 			"id": "sapHanaBareMetalInstance",
 			"order": 3,
-			"visibility": "configure_sap_hana == SAP HANA Large Instance || resourceGroup != null",
+			"visibility": "configure_sap_hana == SAP HANA Large Instance || configure_sap_hana != Azure VM || resourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Please select your SAP Hana Large Instance",
 			"watermarkText": "Filter by name",
@@ -93,7 +94,7 @@
 		{
 			"id": "sapHanaVMInstance",
 			"order": 4,
-			"visibility": "configure_sap_hana == Azure VM || resourceGroup != null",
+			"visibility": "configure_sap_hana != SAP HANA Large Instance || configure_sap_hana == Azure VM || resourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Please select your SAP Hana VM Instance",
 			"watermarkText": "Filter by name",
