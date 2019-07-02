@@ -4,13 +4,13 @@
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32663931,32663932,32629198,32629257"
+    supportTopicIds="32663931,32663932,32629257"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="8ccb2fde-4000-4e97-b711-4b07ac45db50"
 />
-# Azure Stack Security, Secrets Management, and Identity"
+# Azure Stack Security, Secrets Management and Identity
 ---
 {
     "subscriptionRequired": true,
