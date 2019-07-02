@@ -44,16 +44,18 @@ A detection doesn't mean that your app definitely has a problem. It's simply a s
 
 You can configure the following settings for a smart detection rule:
 
-* If the rule is enabled (the default is **true**.)
-* If email notifications should be sent to users associated with the subscription's Monitoring Reader and Monitoring contributor roles when a detection is found (the default is **true**.)
-* Any additional email recipients who should get a notification when a detection is found.
-    * Email configuration is not available for Smart Detection rules marked as **Preview**.
+* If the rule is enabled (the default is **true**)
+* If email notifications should be sent to users associated with the subscription's Monitoring Reader and Monitoring contributor roles when a detection is found (the default is **true**)
+* Any additional email recipients who should get a notification when a detection is found:
 
-Configuring Smart Detection rules can be done from the portal or via ARM templates. For more information, see [here](https://docs.microsoft.com/azure/azure-monitor/app/proactive-diagnostics#smart-detection-email-notifications).
+    * Email configuration is not available for Smart Detection rules marked as **Preview**
+
+[Configuring Smart Detection rules can be done from the portal or via ARM template](https://docs.microsoft.com/azure/azure-monitor/app/proactive-diagnostics#smart-detection-email-notifications). 
 
 **What is the Failure Anomalies alert rule?**<br>
 
 [Failure Anomalies](https://docs.microsoft.com/azure/azure-monitor/app/proactive-failure-diagnostics) is a Smart Detection rule that automatically notifies you in near real time if your web app experiences an abnormal rise in the rate of failed requests or failed dependency calls.
+
 This Smart Detection rule is available as an alert rule, and is created together with your Application Insights resource.
 
 You are not charged for this alert rule.
@@ -64,8 +66,8 @@ The "Application Insights Smart Detection" Action Group is created automatically
 
 This Action Group is created in the following situations:
 
-1. When you create a new Application Insights resource.
-2. When existing Failure Anomalies alert rules are being migrated to the new alerting platform (more info about the migration is available [here](https://azure.microsoft.com/updates/classic-alerting-monitoring-retirement/).)
+1. When you create a new Application Insights resource
+2. When existing Failure Anomalies alert rules are being [migrated](https://azure.microsoft.com/updates/classic-alerting-monitoring-retirement/) to the new alerting platform
 
 You are not charged for email or webhook actions triggered by this Action Group.
 
