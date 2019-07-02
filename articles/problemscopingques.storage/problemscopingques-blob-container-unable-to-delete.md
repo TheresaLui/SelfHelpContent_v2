@@ -26,7 +26,7 @@
         {
             "id": "blob_container",
             "order": 3,
-            "controlType": "multiselectdropdown",
+            "controlType": "dropdown",
             "displayLabel": "Blob Container",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
