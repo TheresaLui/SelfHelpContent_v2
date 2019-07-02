@@ -62,6 +62,7 @@
                     "defaultDropdownOptions": {
                         "value": "dont_know_answer",
                         "text": "Other or none of the above"
+                    }
             },
             "DropdownOptions": [
                 {
