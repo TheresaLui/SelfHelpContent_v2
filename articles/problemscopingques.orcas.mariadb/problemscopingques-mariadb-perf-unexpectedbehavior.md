@@ -26,7 +26,7 @@
             "required": true
         },
         {
-            "id": "describe_issue",
+            "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe the issue you are encountering.",

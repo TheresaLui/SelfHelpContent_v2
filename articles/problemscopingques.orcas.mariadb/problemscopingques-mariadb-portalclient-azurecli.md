@@ -39,7 +39,7 @@
             "displayLabel": "What is the error message you received?",
             "watermarkText": "",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
             "id": "cli_command",
@@ -48,7 +48,7 @@
             "displayLabel": "Can you please share a sample CLI command?",
             "watermarkText": "",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",

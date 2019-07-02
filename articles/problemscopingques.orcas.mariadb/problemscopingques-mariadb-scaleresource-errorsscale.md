@@ -32,7 +32,7 @@
             "displayLabel": "What is the error you received?",
             "watermarkText": "",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",

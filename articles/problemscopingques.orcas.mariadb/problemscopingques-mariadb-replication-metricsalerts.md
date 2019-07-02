@@ -4,7 +4,7 @@
     authors="Hang-Zhang"
     ms.author="haz"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640068"
+    supportTopicIds="32673563"
     productPesIds="16617"
     cloudEnvironments="public"
     schemaVersion="1"

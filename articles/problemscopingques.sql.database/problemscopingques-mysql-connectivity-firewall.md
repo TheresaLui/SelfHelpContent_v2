@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Database Connectivity"
-    description="Database Connectivity"
-    authors="Xin-Cheng"
-    ms.author="chengxin"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640152"
-    productPesIds="16617"
-    cloudEnvironments="public"
-    schemaVersion="1"
-    articleId="problemscopingques-mariadb-connectivity-maxlimit"
+	pageTitle="Database Connectivity"
+	description="Database Connectivity"
+	authors="Xin-Cheng"
+	ms.author="chengxin"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32640058"
+	productPesIds="16221"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId="problemscopingques-mysql-connectivity-firewall"
 />
-# Database Connectivity - Server hit maximum connection limit
+# Database Connectivity - Firewall rules or VNETs
 ---
 {
     "resourceRequired": false,
@@ -40,7 +40,7 @@
                     "text": "Intermittent"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "intermittent",
@@ -65,11 +65,11 @@
             "required": false
         },
         {
-            "id": "connection_pooler",
+            "id": "vnet",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Are you using a connection pooler?",
-            "infoBalloonText": "It is highly recommended to use a connection pooler while connecting to the server.",
+            "displayLabel": "Are you facing issues while connecting from VNET?",
+            "infoBalloonText": "VNET is not supported on Basic Tiers.",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -80,53 +80,48 @@
                     "text": "No"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
-            "id": "connection_pooler_type",
+            "id": "vnet_rule",
             "order": 5,
-            "visibility": "connection_pooler == Yes",
-            "controlType": "textbox",
-            "displayLabel": "What connection pooler are you using?",
-            "required": false
-        },
-        {
-            "id": "connection_pooler_config",
-            "order": 6,
-            "visibility": "connection_pooler == Yes",
-            "controlType": "multilinetextbox",
-            "displayLabel": "Could you provide connection pooling configuration?",
-            "watermarkText": "",
-            "required": false,
-            "useAsAdditionalDetails": true
-        },
-        {
-            "id": "workload",
-            "order": 7,
+            "visibility": "vnet == Yes",
             "controlType": "dropdown",
-            "displayLabel": "What does your workload look like?",
+            "displayLabel": "Did you setup a VNET rule for your server?",
             "dropdownOptions": [
                 {
-                    "value": "Mostly reads",
-                    "text": "Mostly reads"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "Mostly writes",
-                    "text": "Mostly writes"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Mix of both"
+                    "value": "No",
+                    "text": "No"
                 }
             ],
             "required": false
         },
         {
+            "id": "firewall_rule",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Did you setup firewall rules on the server?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "No"
+                }
+            ],
+            "required": true
+        },
+        {
             "id": "problem_description",
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any exceptions/error messages you received and any other information you want to share with us.",
-            "watermarkText": "",
             "required": true,
             "useAsAdditionalDetails": true
         }

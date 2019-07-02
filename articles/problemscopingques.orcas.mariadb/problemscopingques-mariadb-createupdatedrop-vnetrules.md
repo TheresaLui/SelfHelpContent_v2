@@ -50,7 +50,7 @@
             "required": false
         },
         {
-            "id": "subscription_server_vnet",
+            "id": "endpoint_vnet",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Have you enabled the Microsoft.Sql server endpoint on your VNet?",
@@ -73,7 +73,7 @@
             "displayLabel": "What is the error message you received?",
             "watermarkText": "",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
             "id": "operation_request_from",

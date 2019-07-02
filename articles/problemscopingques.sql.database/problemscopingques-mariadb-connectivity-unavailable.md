@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Database Connectivity"
-    description="Database Connectivity"
-    authors="Xin-Cheng"
-    ms.author="chengxin"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640055,32640053"
-    productPesIds="16221"
-    cloudEnvironments="public"
-    schemaVersion="1"
-    articleId="problemscopingques-mysql-connectivity-dropped-errors"
+	pageTitle="Database Connectivity"
+	description="Database Connectivity"
+	authors="Xin-Cheng"
+	ms.author="chengxin"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32640117"
+	productPesIds="16617"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId="problemscopingques-mariadb-connectivity-unavailable"
 />
-# Database Connectivity - Established connection is dropped or terminated && Error while connecting to the server
+# Database Connectivity - Database is currently unavailable
 ---
 {
     "resourceRequired": false,
@@ -26,10 +26,43 @@
             "required": true
         },
         {
-            "id": "ongoing",
+            "id": "down",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Are you currently facing this issue?",
+            "displayLabel": "Why do you say database is down/unhealthy?",
+            "dropdownOptions": [
+                {
+                    "value": "cannot_load",
+                    "text": "Can’t load server information on portal"
+                },
+                {
+                    "value": "unable_to_connect",
+                    "text": "Unable to connect/Getting errors while logging in"
+                },
+                {
+                    "value": "down_in_health",
+                    "text": "Shows down in resource health menu"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Others"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "dont_know_down",
+            "order": 3,
+            "visibility": "down == dont_know_answer",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the reason why you think database is down/unhealthy:",
+            "required": false
+        },
+        {
+            "id": "server_recover",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Did the server recover?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -43,26 +76,25 @@
             "required": false
         },
         {
-            "id": "persistent_or_intermittent",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Is the issue persistent or intermittent?",
-            "dropdownOptions": [
-                {
-                    "value": "persistent",
-                    "text": "Persistent"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Intermittent"
-                }
-            ],
+            "id": "when_server_recovered",
+            "order": 5,
+            "visibility": "server_recover == Yes",
+            "controlType": "datetimepicker",
+            "displayLabel": "When did it recover?",
             "required": false
         },
         {
-            "id": "intermittent",
-            "order": 4,
-            "visibility": "persistent_or_intermittent == dont_know_answer",
+            "id": "steps_to_recover",
+            "order": 6,
+            "visibility": "server_recover == Yes",
+            "controlType": "multilinetextbox",
+            "displayLabel": "What steps did you take to recover the server?",
+            "required": false
+        },
+        {
+            "id": "frequency",
+            "order": 7,
+            "visibility": "server_recover == Yes",
             "controlType": "dropdown",
             "displayLabel": "How often does this issue happen?",
             "dropdownOptions": [
@@ -82,26 +114,8 @@
             "required": false
         },
         {
-            "id": "resource_health",
-            "order": 5,
-            "controlType": "dropdown",
-            "displayLabel": "Does your server show Unavailable in the Resource Health blade in portal?",
-            "infoBalloonText": "Resource health menu item can be found above New support request.",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "application",
-            "order": 6,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Are you connecting to your database server from application?",
             "dropdownOptions": [
@@ -114,20 +128,20 @@
                     "text": "No"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "non_application",
-            "order": 7,
+            "order": 9,
             "visibility": "application == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "What is your client?",
-            "watermarkText": "phpMyAdmin, MySQL Workbench, etc",
+            "watermarkText": "mycli, Database Workbench, etc",
             "required": false
         },
         {
             "id": "container",
-            "order": 8,
+            "order": 10,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Is your application running in any container service?",
@@ -145,7 +159,7 @@
         },
         {
             "id": "Azure_application",
-            "order": 9,
+            "order": 11,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Is your application running in Azure?",
@@ -163,7 +177,7 @@
         },
         {
             "id": "Azure_application_subscription",
-            "order": 10,
+            "order": 12,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "textbox",
             "displayLabel": "Subscription ID of your Azure App Service:",
@@ -171,7 +185,7 @@
         },
         {
             "id": "Azure_application_type",
-            "order": 11,
+            "order": 13,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is the type of your Azure App Service?",
@@ -197,7 +211,7 @@
         },
         {
             "id": "Azure_application_name",
-            "order": 12,
+            "order": 14,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "textbox",
             "displayLabel": "What is the name of your Azure App Service?",
@@ -205,7 +219,7 @@
         },
         {
             "id": "application_location",
-            "order": 13,
+            "order": 15,
             "visibility": "application == Yes && Azure_application == No",
             "controlType": "textbox",
             "displayLabel": "Where is your application running?",
@@ -213,16 +227,16 @@
         },
         {
             "id": "application_driver",
-            "order": 14,
+            "order": 16,
             "visibility": "application == Yes",
             "controlType": "textbox",
             "displayLabel": "What is the type and version of your client driver?",
-            "watermarkText": "e.g. Connector/ODBC 8.0.16",
+            "watermarkText": "MariaDB Connector/J 2.4.2",
             "required": false
         },
         {
             "id": "application_retry",
-            "order": 15,
+            "order": 17,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Does your application have retry mechanism?",
@@ -240,17 +254,15 @@
         },
         {
             "id": "application_log",
-            "order": 16,
+            "order": 18,
             "visibility": "application == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Please share any client side logs:",
-            "watermarkText": "",
-            "required": false,
-            "useAsAdditionalDetails": true
+            "required": false
         },
         {
             "id": "connection_pooler",
-            "order": 17,
+            "order": 19,
             "controlType": "dropdown",
             "displayLabel": "Are you using a connection pooler?",
             "infoBalloonText": "It is highly recommended to use a connection pooler while connecting to the server.",
@@ -264,11 +276,11 @@
                     "text": "No"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "connection_pooler_type",
-            "order": 18,
+            "order": 20,
             "visibility": "connection_pooler == Yes",
             "controlType": "textbox",
             "displayLabel": "What connection pooler are you using?",
@@ -276,40 +288,11 @@
         },
         {
             "id": "connection_pooler_config",
-            "order": 19,
+            "order": 21,
             "visibility": "connection_pooler == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Could you provide connection pooling configuration?",
-            "watermarkText": "",
-            "required": false,
-            "useAsAdditionalDetails": true
-        },
-        {
-            "id": "query_running",
-            "order": 20,
-            "controlType": "dropdown",
-            "displayLabel": "Does this issue happen while queries are running?",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
             "required": false
-        },
-        {
-            "id": "impacted_query",
-            "order": 21,
-            "visibility": "query_running == Yes",
-            "controlType": "multilinetextbox",
-            "displayLabel": "Can you Provide the query that is impacted more often?",
-            "watermarkText": "",
-            "required": false,
-            "useAsAdditionalDetails": true
         },
         {
             "id": "problem_description",
@@ -317,7 +300,6 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any exceptions/error messages you received and any other information you want to share with us.",
             "required": true,
-            "watermarkText": "",
             "useAsAdditionalDetails": true
         }
     ],

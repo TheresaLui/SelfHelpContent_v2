@@ -39,7 +39,7 @@
             "displayLabel": "Can you share the query you cannot execute due to lack of super user permission?",
             "watermarkText": "",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",

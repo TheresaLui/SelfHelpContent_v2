@@ -1,16 +1,16 @@
 <properties
-    pageTitle="Database Connectivity"
-    description="Database Connectivity"
-    authors="Xin-Cheng"
-    ms.author="chengxin"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640123"
-    productPesIds="16617"
-    cloudEnvironments="public"
-    schemaVersion="1"
-    articleId="problemscopingques-mariadb-connectivity-firewall"
+	pageTitle="Database Connectivity"
+	description="Database Connectivity"
+	authors="Xin-Cheng"
+	ms.author="chengxin"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32640018"
+	productPesIds="16222"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId="problemscopingques-pg-connectivity-maxlimit"
 />
-# Database Connectivity - Firewall rules or VNETs
+# Database Connectivity - Server hit maximum connection limit
 ---
 {
     "resourceRequired": false,
@@ -40,7 +40,7 @@
                     "text": "Intermittent"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "intermittent",
@@ -65,11 +65,11 @@
             "required": false
         },
         {
-            "id": "vnet",
+            "id": "connection_pooler",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Are you facing issues while connecting from VNET?",
-            "infoBalloonText": "VNET is not supported on Basic Tiers.",
+            "displayLabel": "Are you using a connection pooler?",
+            "infoBalloonText": "It is highly recommended to use a connection pooler while connecting to the server.",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -80,49 +80,50 @@
                     "text": "No"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
-            "id": "vnet_rule",
+            "id": "connection_pooler_type",
             "order": 5,
-            "visibility": "vnet == Yes",
-            "controlType": "dropdown",
-            "displayLabel": "Did you setup a VNET rule for your server?",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
+            "visibility": "connection_pooler == Yes",
+            "controlType": "textbox",
+            "displayLabel": "What connection pooler are you using?",
             "required": false
         },
         {
-            "id": "firewall_rule",
+            "id": "connection_pooler_config",
             "order": 6,
+            "visibility": "connection_pooler == Yes",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Could you provide connection pooling configuration?",
+            "required": false
+        },
+        {
+            "id": "workload",
+            "order": 7,
             "controlType": "dropdown",
-            "displayLabel": "Did you setup firewall rules on the server?",
+            "displayLabel": "What does your workload look like?",
             "dropdownOptions": [
                 {
-                    "value": "Yes",
-                    "text": "Yes"
+                    "value": "Mostly reads",
+                    "text": "Mostly reads"
+                },
+                {
+                    "value": "Mostly writes",
+                    "text": "Mostly writes"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "No"
+                    "text": "Mix of both"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any exceptions/error messages you received and any other information you want to share with us.",
-            "watermarkText": "",
             "required": true,
             "useAsAdditionalDetails": true
         }

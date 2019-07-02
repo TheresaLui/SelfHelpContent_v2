@@ -1,21 +1,21 @@
 <properties
-    pageTitle="Database Performance"
-    description="Database Performance"
-    authors="Xin-Cheng"
-    ms.author="chengxin"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640060"
-    productPesIds="16221"
-    cloudEnvironments="public"
-    schemaVersion="1"
-    articleId="problemscopingques-mysql-perf-select1"
+	pageTitle="Database Performance"
+	description="Database Performance"
+	authors="Xin-Cheng"
+	ms.author="chengxin"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32639986"
+	productPesIds="16222"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId="problemscopingques-pg-perf-login"
 />
-# Database Performance - SELECT 1
+# Database Performance - login
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Database SELECT 1 Performance",
+    "title": "Database login is slow",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -33,32 +33,8 @@
             "required": true
         },
         {
-            "id": "persistent",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Are you having a consistent repro?",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "select_1",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is your select 1 performance latency?",
-            "required": false
-        },
-        {
             "id": "client_location",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is your client located in the same region as your database server?",
             "dropdownOptions": [
@@ -74,26 +50,8 @@
             "required": false
         },
         {
-            "id": "pooling",
-            "order": 6,
-            "controlType": "dropdown",
-            "displayLabel": "Do you have connection pooling enabled?",
-            "infoBalloonText": "It is highly recommended to enable connection pooling tools while testing the server performance with multiple connections.",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "accelerated_networking",
-            "order": 7,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is accelerated networking enabled on the client?",
             "dropdownOptions": [
@@ -109,8 +67,26 @@
             "required": false
         },
         {
+            "id": "pooling",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have connection pooling enabled?",
+            "infoBalloonText": "It is highly recommended to enable connection pooling while testing the server performance with multiple connections.",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "point_of_comparison",
-            "order": 8,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "What is your point of comparison?",
             "dropdownOptions": [
@@ -128,7 +104,7 @@
                 },
                 {
                     "value": "Non-Azure",
-                    "text": "It is slower than server on Non-Azure cloud Environment"
+                    "text": "It is slower than server on Non-Azure cloud environment"
                 },
                 {
                     "value": "It is slower than database server running on VM/Locally",
@@ -139,11 +115,11 @@
                     "text": "Other"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "cloud_as_point_of_comparison",
-            "order": 9,
+            "order": 7,
             "visibility": "point_of_comparison == Non-Azure",
             "controlType": "textbox",
             "displayLabel": "Please indicate to which cloud environment you are comparing:",
@@ -151,7 +127,7 @@
         },
         {
             "id": "cloud_as_point_of_comparison_config",
-            "order": 10,
+            "order": 8,
             "visibility": "point_of_comparison == Non-Azure",
             "controlType": "multilinetextbox",
             "displayLabel": "What is your database configuration in the corresponding environment?",
@@ -160,7 +136,7 @@
         },
         {
             "id": "cloud_as_point_of_comparison_app",
-            "order": 11,
+            "order": 9,
             "visibility": "point_of_comparison == Non-Azure",
             "controlType": "multilinetextbox",
             "displayLabel": "What is your application VM configuration in the corresponding environment?",
@@ -169,23 +145,67 @@
         },
         {
             "id": "other_point_of_comparison",
-            "order": 12,
+            "order": 10,
             "visibility": "point_of_comparison == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please specify your point of comparison:",
             "required": false
         },
         {
-            "id": "measurement_tool",
-            "order": 13,
-            "controlType": "textbox",
-            "displayLabel": "What tool are you using to measure your performance??",
-            "watermarkText": "e.g. SysBench",
+            "id": "workload",
+            "order": 11,
+            "controlType": "dropdown",
+            "displayLabel": "Is the workload the same as your point of comparison?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "measurement_method",
+            "order": 12,
+            "controlType": "textbox",
+            "displayLabel": "What tools are you using to measure your performance?",
+            "required": false
+        },
+        {
+            "id": "measurement",
+            "order": 13,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide your performance/latency numbers:",
+            "required": false
+        },
+        {
+            "id": "login_happens_at",
             "order": 14,
+            "controlType": "dropdown",
+            "displayLabel": "Login latency happens at:",
+            "dropdownOptions": [
+                {
+                    "value": "First Login",
+                    "text": "First Login"
+                },
+                {
+                    "value": "Every Login",
+                    "text": "Every Login"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 15,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",

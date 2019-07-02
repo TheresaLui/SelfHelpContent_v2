@@ -17,7 +17,7 @@
     "subscriptionRequired": false,
     "title": "Database Recover Dropped Resource",
     "fileAttachmentHint": "",
-    "formElements": [     
+    "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,

@@ -1,21 +1,21 @@
 <properties
-    pageTitle="Database Performance"
-    description="Database Performance"
-    authors="Xin-Cheng"
-    ms.author="chengxin"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640156"
-    productPesIds="16617"
-    cloudEnvironments="public"
-    schemaVersion="1"
-    articleId="problemscopingques-mariadb-perf-query"
+	pageTitle="Database Performance"
+	description="Database Performance"
+	authors="Xin-Cheng"
+	ms.author="chengxin"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32640077"
+	productPesIds="16221"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId="problemscopingques-mysql-perf-other"
 />
-# Database Performance - Query
+# Database Performance - Other
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Database Query Performance",
+    "title": "Database Performance",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -139,7 +139,7 @@
                     "text": "Other"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "cloud_as_point_of_comparison",
@@ -180,7 +180,7 @@
             "order": 13,
             "controlType": "textbox",
             "displayLabel": "What tool are you using to measure your performance??",
-            "watermarkText": "e.g. sysbench",
+            "watermarkText": "e.g. SysBench",
             "required": false
         },
         {
