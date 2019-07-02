@@ -17,7 +17,7 @@
 
 ## **Recommended Documents**
 
-- [Availability Zones (public preview)](https://docs.microsoft.com/en-us/azure/firewall/overview#availability-zones-public-preview)
+- [Availability Zones (public preview)](https://docs.microsoft.com/azure/firewall/overview#availability-zones-public-preview)
 - [Deploy an Azure Firewall with Availability Zones using Azure PowerShell](https://docs.microsoft.com/azure/firewall/deploy-availability-zone-powershell)
 
 NOTE: During the public preview, if you add or remove a public IP address from a running firewall, the existing inbound connectivity using Destination Network Address Translation (DNAT) rules may not function for 40 ~ 120 seconds. There is no impact to outbound connectivity. This problem will be fixed by the General Availability release.

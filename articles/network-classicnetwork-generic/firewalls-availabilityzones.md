@@ -17,5 +17,5 @@
 
 ## **Recommended Documents**
 
-- [Availability Zones (public preview)](https://docs.microsoft.com/en-us/azure/firewall/overview#availability-zones-public-preview)
+- [Availability Zones (public preview)](https://docs.microsoft.com/azure/firewall/overview#availability-zones-public-preview)
 - [Deploy an Azure Firewall with Availability Zones using Azure PowerShell](https://docs.microsoft.com/azure/firewall/deploy-availability-zone-powershell)
