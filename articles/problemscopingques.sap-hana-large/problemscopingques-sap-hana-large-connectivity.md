@@ -23,7 +23,7 @@
 			"id": "topology",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Where is the source machine located?",
+			"displayLabel": "Where is the source traffic coming from?",
 			"watermarkText": "Choose a topology",
 			"dropdownOptions": [
                 {
@@ -72,7 +72,7 @@
 		{
 			"id": "VMName",
 			"order": 3,
-			"visibility": "resourceGroup != null",
+			"visibility": "topology != On Premise to HANA ||resourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Provide the Name of the source VM",
 			"watermarkText": "Filter by name",
