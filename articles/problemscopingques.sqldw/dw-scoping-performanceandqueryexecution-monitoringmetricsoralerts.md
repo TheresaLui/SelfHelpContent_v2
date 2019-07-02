@@ -1,21 +1,21 @@
 <properties
-	articleId="dw-scoping-performanceandqueryexecution.md"
-	pageTitle="Performance and Query Execution"
-	description="Performance and Query Execution"
+	articleId="dw-scoping-performanceandqueryexecution-monitoringmetricsoralerts"
+	pageTitle="Monitoring, metrics, or alerts"
+	description="Monitoring, metrics, or alerts"
 	authors="mlee3gsd"
 	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635180, 32635210, 32635214, 32635219, 32635225"
+	supportTopicIds="32635204, 32635205"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Performance and Query Execution
+# Performance and Query Execution - Monitoring, metrics, or alerts
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Performance and Query Execution",
+    "title": "Performance and Query Execution - Monitoring, metrics, or alerts",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -26,29 +26,22 @@
             "required": true
         },
         {
-            "id": "dw_scoping_perf_queryid",
+            "id": "dw_scoping_perf_portal",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "If a query is involved, what is the query id?",
+            "displayLabel": "Are you experiencing this through the Azure portal or programmatically (TSQL)?",
             "required": false
         },
         {
-            "id": "dw_scoping_perf_rc",
+            "id": "dw_scoping_perf_metric",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the resource class of this query?",
-            "required": false
-        },
-        {
-            "id": "dw_scoping_perf_error",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "Which monitoring, metric, or alert is of concern?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",

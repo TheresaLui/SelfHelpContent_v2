@@ -1,46 +1,46 @@
 <properties
-	articleId="dw-scoping-performanceandqueryexecution.md"
-	pageTitle="Performance and Query Execution"
-	description="Performance and Query Execution"
+	articleId="dw-scoping-backuprestoreandbusinesscontinuity-restoringfrombackup.md"
+	pageTitle="Restoring from backup"
+	description="Restoring from backup"
 	authors="mlee3gsd"
 	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635180, 32635210, 32635214, 32635219, 32635225"
+	supportTopicIds="32635218"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Performance and Query Execution
+# Backup, Restore and Business Continuity - Restoring from backup
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Performance and Query Execution",
+    "title": "Restoring from backup",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the maintenance occur?",
             "required": true
         },
         {
-            "id": "dw_scoping_perf_queryid",
+            "id": "dw_scoping_backup_backupregion",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "If a query is involved, what is the query id?",
+            "displayLabel": "What region is your backup located?",
             "required": false
         },
         {
-            "id": "dw_scoping_perf_rc",
+            "id": "dw_scoping_backup_restoreregion",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the resource class of this query?",
+            "displayLabel": "What is the region you are restoring to?",
             "required": false
         },
         {
-            "id": "dw_scoping_perf_error",
+            "id": "dw_scoping_backup_error",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "If an error was displayed, what was the error message?",

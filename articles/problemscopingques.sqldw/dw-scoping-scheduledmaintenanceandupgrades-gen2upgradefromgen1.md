@@ -1,21 +1,20 @@
 <properties
-	articleId="dw-scoping-dataimportexport-usingazuredatafactory.md"
-	pageTitle="Using Azure Data Factory"
-	description="Using Azure Data Factory"
-	authors="saltug,mlee3gsd"
-	ms.author="saltug,martinle"
+	articleId="dw-scoping-availabilityandconnectivity-azureactivedirectoryauthentication.md"
+	pageTitle="Azure Active Directory Authentication"
+	description="Azure Active Directory Authentication"
+	authors="mlee3gsd"
+	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635226"
+	supportTopicIds="32635186"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Data Import, Export (ETL)/Using Azure Data Factory
+# Availability and Connectivity Azure Active Directory Authentication
 ---
 {
     "resourceRequired": true,
-    "subscriptionRequired": true,
-    "title": "Using Azure Data Factory",
+    "title": "Azure Active Directory Authentication",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -26,10 +25,10 @@
             "required": true
         },
         {
-            "id": "dw_scoping_import_datafactory_error",
+            "id": "dw_scoping_availability_authtype",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "What authentication type is selected?",
             "required": false
         },
         {

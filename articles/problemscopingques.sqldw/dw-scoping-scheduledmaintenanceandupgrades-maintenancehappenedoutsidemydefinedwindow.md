@@ -1,54 +1,47 @@
 <properties
-	articleId="dw-scoping-performanceandqueryexecution.md"
-	pageTitle="Performance and Query Execution"
-	description="Performance and Query Execution"
+	articleId="dw-scoping-scheduledmaintenanceandupgrades-maintenancehappenedoutsidemydefinedwindow.md"
+	pageTitle="Maintenance happened outside of my defined window"
+	description="Maintenance happened outside of my defined window"
 	authors="mlee3gsd"
 	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635180, 32635210, 32635214, 32635219, 32635225"
+	supportTopicIds="32635203"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Performance and Query Execution
+# Scheduled Maintenance and Upgrades - Maintenance happened outside of my defined window
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Performance and Query Execution",
+    "title": "Maintenance happened outside of my defined window",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the maintenance occur?",
             "required": true
         },
         {
-            "id": "dw_scoping_perf_queryid",
+            "id": "dw_scoping_sched_slo",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "If a query is involved, what is the query id?",
+            "displayLabel": "What is the performance tier of the data warehouse at the time of the maintenance event?",
             "required": false
         },
         {
-            "id": "dw_scoping_perf_rc",
+            "id": "dw_scoping_sched_region",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the resource class of this query?",
-            "required": false
-        },
-        {
-            "id": "dw_scoping_perf_error",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "What is the region of your data warehouse?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",

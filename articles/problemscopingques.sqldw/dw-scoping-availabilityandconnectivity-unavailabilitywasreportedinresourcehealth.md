@@ -1,21 +1,21 @@
 <properties
-	articleId="dw-scoping-performanceandqueryexecution.md"
-	pageTitle="Performance and Query Execution"
-	description="Performance and Query Execution"
+	articleId="dw-scoping-availabilityandconnectivity-unavailabilitywasreportedinresourcehealth.md"
+	pageTitle="Unavailability was reported in Resource Health"
+	description="Unavailability was reported in Resource Health"
 	authors="mlee3gsd"
 	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635180, 32635210, 32635214, 32635219, 32635225"
+	supportTopicIds="32635223"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Performance and Query Execution
+# Availability and Connectivity - Unavailability was reported in Resource Health
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Performance and Query Execution",
+    "title": "Unavailability was reported in Resource Health",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -26,29 +26,15 @@
             "required": true
         },
         {
-            "id": "dw_scoping_perf_queryid",
+            "id": "dw_scoping_availability_howlong",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "If a query is involved, what is the query id?",
-            "required": false
-        },
-        {
-            "id": "dw_scoping_perf_rc",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "What is the resource class of this query?",
-            "required": false
-        },
-        {
-            "id": "dw_scoping_perf_error",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "How long have you been experiencing this issue?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
