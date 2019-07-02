@@ -4,7 +4,7 @@
     authors="tizape"
     ms.author="tizape"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32632331, 32632357, 32632371, 32632369, 32632372, 32632367"
+    supportTopicIds="32632331,32632357,32632371,32632369,32632372,32632367"
     productPesIds="16208"
     cloudEnvironments="public"
     schemaVersion="1"
