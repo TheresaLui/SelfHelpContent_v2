@@ -5,7 +5,7 @@
 	authors="mlee3gsd"
 	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635180, 32635210, 32635214, 32635219, 32635225"
+	supportTopicIds="32635210, 32635214, 32635219, 32635225"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
