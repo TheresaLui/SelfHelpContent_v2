@@ -1,6 +1,6 @@
 <properties
     pageTitle="Unable to connect to a SAP Hana instance"
-    description="Problem scoping for SAP HANA on Azure Large Instances Connectivity"
+    description="Problem scoping for SAP HANA on Azure Large Instance Connectivity"
     authors="tizape"
     ms.author="tizape"
     selfHelpType="problemScopingQuestions"
@@ -22,6 +22,7 @@
 	"formElements": [{
 			"id": "topology",
 			"order": 1,
+            "visibility": null,
 			"controlType": "dropdown",
 			"displayLabel": "Where is the source traffic coming from?",
 			"watermarkText": "Choose a topology",
@@ -46,7 +47,7 @@
 			"required": true
 		},
 		{
-			"id": "resourceGroup",
+			"id": "sourceVMresourceGroup",
 			"order": 2,
 			"visibility": "topology == Azure to HANA (same Region) || topology == Azure to HANA (across Region)",
 			"controlType": "dropdown",
@@ -72,7 +73,7 @@
 		{
 			"id": "VMName",
 			"order": 3,
-			"visibility": "topology != On Premise to HANA ||resourceGroup != null",
+			"visibility": "topology != On Premise to HANA && sourceVMresourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Provide the Name of the source VM",
 			"watermarkText": "Filter by name",
@@ -141,9 +142,33 @@
 			"required": true
 		},
 		{
-			"id": "sapHanaBareMetalInstance",
+			"id": "resourceGroup",
 			"order": 6,
-			"visibility": "configure_sap_hana == SAP HANA Large Instance || resourceGroup != null",
+			"visibility": "configure_sap_hana == Azure VM || configure_sap_hana == SAP HANA Large Instance",
+			"controlType": "dropdown",
+			"displayLabel": "Please provide the Resource Group name",
+			"watermarkText": "Filter by name",
+			"dynamicDropdownOptions": {
+				"uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
+				"jTokenPath": "value",
+				"textProperty": "name",
+				"valueProperty": "id",
+				"textPropertyRegex": "[^/]+$",
+				"defaultDropdownOptions": {
+					"value": "dont_know_answer",
+					"text": "Other or none of the above"
+				}
+			},
+			"DropdownOptions": [{
+				"value": "Unable to retrieve list of resource groups",
+				"text": "Unable to retrieve list of resource groups"
+			}],
+			"required": true
+		},
+		{
+			"id": "sapHanaBareMetalInstance",
+			"order": 7,
+			"visibility": "configure_sap_hana == SAP HANA Large Instance && resourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Please select your SAP Hana Large Instance",
 			"watermarkText": "Filter by name",
@@ -168,8 +193,8 @@
 		},
 		{
 			"id": "sapHanaVMInstance",
-			"order": 7,
-			"visibility": "configure_sap_hana == Azure VM || resourceGroup != null",
+			"order": 8,
+			"visibility": "configure_sap_hana == Azure VM && resourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Please select your SAP Hana VM Instance",
 			"watermarkText": "Filter by name",
@@ -192,7 +217,6 @@
 			}],
 			"required": true
 		},
-
 		{
 			"id": "problem_start_time",
 			"order": 100,
