@@ -1,36 +1,36 @@
 <properties
-	pageTitle="Monitoring and Alerting"
-	description="Monitoring and Alerting"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640063"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-monitoring-issues_metricshown"
+    pageTitle="Monitoring and Alerting"
+    description="Monitoring and Alerting"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640063"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-monitoring-issues_metricshown"
 />
 # Monitoring and Alerting - Issues with metrics shown in the portal
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Monitoring Issues with metrics",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
             "id": "metrics_issue",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which metric(s) are you experiencing issues viewing?",
-            "required": true
+            "required": false
         },
         {
             "id": "experience_same_issue",
@@ -47,9 +47,9 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
@@ -58,7 +58,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

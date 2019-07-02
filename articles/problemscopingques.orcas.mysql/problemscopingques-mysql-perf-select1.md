@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Performance"
-	description="Database Performance"
-	authors="Xin-Cheng"
-	ms.author="chengxin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640060"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-perf-select1"
+    pageTitle="Database Performance"
+    description="Database Performance"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640060"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-perf-select1"
 />
 # Database Performance - SELECT 1
 ---
@@ -139,7 +139,7 @@
                     "text": "Other"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "cloud_as_point_of_comparison",

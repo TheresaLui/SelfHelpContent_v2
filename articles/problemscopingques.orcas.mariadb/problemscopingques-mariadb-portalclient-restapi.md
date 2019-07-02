@@ -1,52 +1,56 @@
 <properties
-	pageTitle="Portal, Client Tools and APIs"
-	description="Portal, Client Tools and APIs"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640150"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-toolsapis-rest_api"
+    pageTitle="Portal, Client Tools and APIs"
+    description="Portal, Client Tools and APIs"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640150"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-toolsapis-rest_api"
 />
 # Portal, Client Tools and APIs - Rest API
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Tools and APIs Rest API",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
             "id": "api_version",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the API version you are using?",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error message you received?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "sample_request",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Can you please share one sample request?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
-		{
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -55,7 +59,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

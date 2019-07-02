@@ -1,30 +1,30 @@
 <properties
-	pageTitle="Portal, Client Tools and APIs"
-	description="Portal, Client Tools and APIs"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640047"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-toolsapis-azure_cli"
+    pageTitle="Portal, Client Tools and APIs"
+    description="Portal, Client Tools and APIs"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640047"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-toolsapis-azure_cli"
 />
 # Portal, Client Tools and APIs - Azure CLI
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": " Portal Client Azure CLI",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
             "id": "azure_cli_version",
             "order": 2,
@@ -37,16 +37,20 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error message you received?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "cli_command",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Can you please share a sample CLI command?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
-		{
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -55,7 +59,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Connectivity"
-	description="Database Connectivity"
-	authors="Xin-Cheng"
-	ms.author="chengxin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640117"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-connectivity-unavailable"
+    pageTitle="Database Connectivity"
+    description="Database Connectivity"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640117"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-connectivity-unavailable"
 />
 # Database Connectivity - Database is currently unavailable
 ---
@@ -48,7 +48,7 @@
                     "text": "Others"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "dont_know_down",
@@ -56,7 +56,9 @@
             "visibility": "down == dont_know_answer",
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the reason why you think database is down/unhealthy:",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "server_recover",
@@ -89,7 +91,9 @@
             "visibility": "server_recover == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "What steps did you take to recover the server?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "frequency",
@@ -128,7 +132,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "non_application",
@@ -258,7 +262,9 @@
             "visibility": "application == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Please share any client side logs:",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "connection_pooler",
@@ -276,7 +282,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "connection_pooler_type",
@@ -292,13 +298,16 @@
             "visibility": "connection_pooler == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Could you provide connection pooling configuration?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "problem_description",
             "order": 22,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any exceptions/error messages you received and any other information you want to share with us.",
+            "watermarkText": "",
             "required": true,
             "useAsAdditionalDetails": true
         }

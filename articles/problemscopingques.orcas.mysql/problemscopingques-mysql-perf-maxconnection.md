@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Performance"
-	description="Database Performance"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640091"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-perf-max_connection"
+    pageTitle="Database Performance"
+    description="Database Performance"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640091"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-perf-max_connection"
 />
 # Performance and Query Execution - Server hit maximum connection limit
 ---
@@ -30,7 +30,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the name and version of the client driver you are using?",
-            "required": true
+            "required": false
         },
         {
             "id": "host_in_azure",
@@ -47,7 +47,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "connection_pool",
@@ -64,7 +64,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "number_concurrency",

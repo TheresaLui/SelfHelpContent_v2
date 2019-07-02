@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Connectivity"
-	description="Database Connectivity"
-	authors="Xin-Cheng"
-	ms.author="chengxin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640055,32640053"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-connectivity-dropped-errors"
+    pageTitle="Database Connectivity"
+    description="Database Connectivity"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640055,32640053"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-connectivity-dropped-errors"
 />
 # Database Connectivity - Established connection is dropped or terminated && Error while connecting to the server
 ---
@@ -57,7 +57,7 @@
                     "text": "Intermittent"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "intermittent",
@@ -114,7 +114,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "non_application",
@@ -244,7 +244,9 @@
             "visibility": "application == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Please share any client side logs:",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "connection_pooler",
@@ -262,7 +264,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "connection_pooler_type",
@@ -278,7 +280,9 @@
             "visibility": "connection_pooler == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Could you provide connection pooling configuration?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "query_running",
@@ -303,7 +307,9 @@
             "visibility": "query_running == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Can you Provide the query that is impacted more often?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "problem_description",
@@ -311,6 +317,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any exceptions/error messages you received and any other information you want to share with us.",
             "required": true,
+            "watermarkText": "",
             "useAsAdditionalDetails": true
         }
     ],

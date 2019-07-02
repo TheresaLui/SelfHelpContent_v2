@@ -1,36 +1,36 @@
 <properties
-	pageTitle="Portal, Client Tools and APIs"
-	description="Portal, Client Tools and APIs"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640155"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-toolsapis-setup_alert"
+    pageTitle="Portal, Client Tools and APIs"
+    description="Portal, Client Tools and APIs"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640155"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-toolsapis-setup_alert"
 />
 # Portal, Client Tools and APIs - Setting up Monitoring and Alerts
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Tools and APIs Setting Monitor Alerts",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
             "id": "metric_issue",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which metric(s) are you experiencing issues with?",
-            "required": true
+            "required": false
         },
         {
             "id": "same_issue_server",
@@ -47,9 +47,9 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
@@ -58,7 +58,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -1,38 +1,38 @@
 <properties
-	pageTitle="Scaling a resource"
-	description="Scaling a resource"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640086"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-scaleresource-questions"
+    pageTitle="Scaling a resource"
+    description="Scaling a resource"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640086"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-scaleresource-questions"
 />
 # Scaling a resource - Questions about scaling a resource
-
+---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Scaling Resource Questions",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
             "id": "price_tier",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the Pricing Tier of your server?",
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
@@ -41,6 +41,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
+---

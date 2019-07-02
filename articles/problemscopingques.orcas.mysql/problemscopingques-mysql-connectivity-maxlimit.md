@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Connectivity"
-	description="Database Connectivity"
-	authors="Xin-Cheng"
-	ms.author="chengxin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640090"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-connectivity-maxlimit"
+    pageTitle="Database Connectivity"
+    description="Database Connectivity"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640090"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-connectivity-maxlimit"
 />
 # Database Connectivity - Server hit maximum connection limit
 ---
@@ -40,7 +40,7 @@
                     "text": "Intermittent"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "intermittent",
@@ -80,7 +80,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "connection_pooler_type",
@@ -96,7 +96,9 @@
             "visibility": "connection_pooler == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Could you provide connection pooling configuration?",
-            "required": false
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "workload",
@@ -117,7 +119,7 @@
                     "text": "Mix of both"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -125,6 +127,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any exceptions/error messages you received and any other information you want to share with us.",
             "required": true,
+            "watermarkText": "",
             "useAsAdditionalDetails": true
         }
     ],

@@ -1,52 +1,52 @@
 <properties
-	pageTitle="Database Backup Restore"
-	description="Database Backup Restore"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640149"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-backuprestore-recover_droppedresource"
+    pageTitle="Database Backup Restore"
+    description="Database Backup Restore"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640149"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-backuprestore-recover_droppedresource"
 />
 # Backup, Restore and Business Continuity - Recover A Dropped Resource
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Database Recover Dropped Resource",
     "fileAttachmentHint": "",
-	"formElements": [     
-		{
-			"id": "problem_start_time",
+    "formElements": [
+        {
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
-			"id": "subscription_id",
+            "id": "subscription_id",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is your subscription ID?",
-            "required": true
-		},
-		{
-			"id": "resource_group_name",
+            "required": false
+        },
+        {
+            "id": "resource_group_name",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the resource group name of the dropped server?",
-            "required": true
-		},
-		{
+            "required": false
+        },
+        {
             "id": "dropped_server_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What is the server name of the dropped server?",
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "drop_time",
             "order": 5,
             "controlType": "datetimepicker",
@@ -54,7 +54,7 @@
             "required": true
         },
         {
-			"id": "guarantee_recovered",
+            "id": "guarantee_recovered",
             "order": 6,
             "controlType": "dropdown",
             "displayLabel": "There is no guarantee the data can be recovered to latest point. Do you accept?",
@@ -68,9 +68,9 @@
                     "text": "No"
                 }
             ],
-            "required": true
-		},
-		{
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
@@ -79,7 +79,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

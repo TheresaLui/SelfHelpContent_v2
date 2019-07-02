@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Performance"
-	description="Database Performance"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640157"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-perf-unexpected_behavior"
+    pageTitle="Database Performance"
+    description="Database Performance"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640157"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-perf-unexpected_behavior"
 />
 # Performance and Query Execution - Unexpected behavior, errors or exceptions executing a query
 ---
@@ -30,14 +30,16 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe the issue you are encountering.",
-            "required": true
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "client_driver",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the name and version of the client driver you are using?",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",

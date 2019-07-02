@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Performance"
-	description="Database Performance"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640158"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-perf-resource_consumption"
+    pageTitle="Database Performance"
+    description="Database Performance"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640158"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-perf-resource_consumption"
 />
 # Performance and Query Execution - Unexpected increase in resource consumption (CPU, Memory, I/O)
 ---
@@ -40,14 +40,14 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "issue_time",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Can you provide the start time and end time of the issue?",
-            "required": true
+            "required": false
         },
         {
             "id": "workload_increase",
@@ -64,7 +64,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Connectivity"
-	description="Database Connectivity"
-	authors="Xin-Cheng"
-	ms.author="chengxin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640123"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-connectivity-firewall"
+    pageTitle="Database Connectivity"
+    description="Database Connectivity"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640123"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-connectivity-firewall"
 />
 # Database Connectivity - Firewall rules or VNETs
 ---
@@ -40,7 +40,7 @@
                     "text": "Intermittent"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "intermittent",
@@ -80,7 +80,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "vnet_rule",
@@ -115,13 +115,14 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any exceptions/error messages you received and any other information you want to share with us.",
+            "watermarkText": "",
             "required": true,
             "useAsAdditionalDetails": true
         }

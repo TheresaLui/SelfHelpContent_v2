@@ -1,38 +1,38 @@
 <properties
-	pageTitle="Security"
-	description="Security"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640122"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-security-firewall_rules"
+    pageTitle="Security"
+    description="Security"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640122"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-security-firewall_rules"
 />
 # Security - Firewall rules
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Security Firewal Rules",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
-			"id": "client_position",
+            "id": "client_position",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Is your client hosted in Azure? If not, what is the environment?",
-            "required": true
-		},
-		{
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
@@ -41,7 +41,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

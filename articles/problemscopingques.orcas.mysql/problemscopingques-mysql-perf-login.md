@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Performance"
-	description="Database Performance"
-	authors="Xin-Cheng"
-	ms.author="chengxin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640061"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-perf-login"
+    pageTitle="Database Performance"
+    description="Database Performance"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640061"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-perf-login"
 />
 # Database Performance - login
 ---
@@ -115,7 +115,7 @@
                     "text": "Other"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "cloud_as_point_of_comparison",
@@ -132,7 +132,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is your database configuration in the corresponding environment?",
             "watermarkText": "CPU, RAM, Storage type, etc",
-            "required": false
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "cloud_as_point_of_comparison_app",
@@ -141,7 +142,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is your application VM configuration in the corresponding environment?",
             "watermarkText": "CPU, RAM, Storage type, etc",
-            "required": false
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "other_point_of_comparison",
@@ -201,7 +203,7 @@
                     "text": "I don't know"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

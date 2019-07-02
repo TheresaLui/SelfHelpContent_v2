@@ -1,33 +1,40 @@
 <properties
-	pageTitle="Database Backup Restore"
-	description="Database Backup Restore"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640083"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-backuprestore-pointintime_restore"
+    pageTitle="Database Backup Restore"
+    description="Database Backup Restore"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640083"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-backuprestore-pointintime_restore"
 />
 # Backup, Restore and Business Continuity - Point in Time Restore
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Database Point in Time Restore",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
         {
             "id": "restore_request_time",
-            "order": 1,
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did you submit the restore request?",
             "required": true
         },
         {
-			"id": "restore_failures",
-            "order": 2,
+            "id": "restore_failures",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Have you encountered any restore failures?",
             "dropdownOptions": [
@@ -40,39 +47,39 @@
                     "text": "No"
                 }
             ],
-            "required": true
-		},
-		{
-			"id": "source_server_name",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "What is the source server name?",
-            "required": true
-		},
-		{
-            "id": "target_server_name",
+            "required": false
+        },
+        {
+            "id": "source_server_name",
             "order": 4,
             "controlType": "textbox",
+            "displayLabel": "What is the source server name?",
+            "required": false
+        },
+        {
+            "id": "target_server_name",
+            "order": 5,
+            "controlType": "textbox",
             "displayLabel": "What is the target server name?",
-            "required": true
+            "required": false
         },
         {
             "id": "source_server_createtime",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When was the source server created?",
             "required": false
         },
         {
             "id": "restore_pointin_time",
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "What is the point in time you selected for restore?",
             "required": false
         },
-		{
+        {
             "id": "restore_request_from",
-            "order": 7,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Did you submit the restore request from the Azure portal or Azure CLI?",
             "dropdownOptions": [
@@ -85,18 +92,18 @@
                     "text": "Azure CLI"
                 }
             ],
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "problem_description",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

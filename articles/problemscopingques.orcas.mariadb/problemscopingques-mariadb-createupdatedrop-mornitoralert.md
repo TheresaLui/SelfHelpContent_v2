@@ -1,30 +1,30 @@
 <properties
-	pageTitle="Create Update Drop Resources"
-	description="Create Update Drop Resources"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640134"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-createupdatedrop-mornitor_alert"
+    pageTitle="Create Update Drop Resources"
+    description="Create Update Drop Resources"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640134"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-createupdatedrop-mornitor_alert"
 />
 # Create Update and Drop Resources - Monitoring and alerts
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Create Update Drop Resources Monitoring",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
             "id": "server_name",
             "order": 2,
@@ -32,7 +32,7 @@
             "displayLabel": "What is the server name?",
             "required": true
         },
-		{
+        {
             "id": "experience_using_azure",
             "order": 3,
             "controlType": "dropdown",
@@ -47,7 +47,7 @@
                     "text": "Azure CLI"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "same_issue_happened",
@@ -64,9 +64,9 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -75,7 +75,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

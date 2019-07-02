@@ -1,45 +1,47 @@
 <properties
-	pageTitle="Security"
-	description="Security"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640062"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-security-superuser_access"
+    pageTitle="Security"
+    description="Security"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640062"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-security-superuser_access"
 />
 # Security - I need superuser access
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Security Superuser Access",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
-			"id": "permission_required",
+            "id": "permission_required",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What permissions are you looking for?",
-            "required": true
-		},
+            "required": false
+        },
         {
-			"id": "query_executed",
+            "id": "query_executed",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Can you share the query you cannot execute due to lack of super user permission?",
-            "required": true
-		},
-		{
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
@@ -48,7 +50,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

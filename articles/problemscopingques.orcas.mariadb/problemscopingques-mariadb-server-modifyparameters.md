@@ -1,52 +1,54 @@
 <properties
-	pageTitle="Server Parameters"
-	description="Server Parameters"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640133"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-server-modify_parameters"
+    pageTitle="Server Parameters"
+    description="Server Parameters"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640133"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-server-modify_parameters"
 />
 # Server Parameters - Modify server parameters
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Server Parameters Modify",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
-			"id": "server_parameter",
+            "id": "server_parameter",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What server parameter(s) do you want to change?",
-            "required": true
-		},
+            "required": false
+        },
         {
-			"id": "parameter_value",
+            "id": "parameter_value",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is value you want to change to?",
-            "required": true
-		},
+            "required": false
+        },
         {
-			"id": "error_message",
+            "id": "error_message",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error message you received?",
-            "required": false
-		},
-		{
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -55,7 +57,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

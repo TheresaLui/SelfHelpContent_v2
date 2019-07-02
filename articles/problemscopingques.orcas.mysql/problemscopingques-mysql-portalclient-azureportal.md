@@ -1,30 +1,30 @@
 <properties
-	pageTitle="Portal, Client Tools and APIs"
-	description="Portal, Client Tools and APIs"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640048"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-toolsapis-azure_portal"
+    pageTitle="Portal, Client Tools and APIs"
+    description="Portal, Client Tools and APIs"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640048"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-toolsapis-azure_portal"
 />
 # Portal, Client Tools and APIs - Azure Portal
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Tools and APIs Azure Portal",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
             "id": "similar_issue_azure",
             "order": 2,
@@ -40,7 +40,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "similar_issue_browser",
@@ -57,7 +57,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "similar_issue_computer",
@@ -74,9 +74,9 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -85,7 +85,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

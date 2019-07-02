@@ -1,38 +1,38 @@
 <properties
-	pageTitle="Create Update Drop Resources"
-	description="Create Update Drop Resources"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640111"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-createupdatedrop-arm_template"
+    pageTitle="Create Update Drop Resources"
+    description="Create Update Drop Resources"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640111"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-createupdatedrop-arm_template"
 />
 # Create Update and Drop Resources - ARM template issues
 ---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Create Update Drop Resources ARM Template",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
-			"id": "arm_template",
+            "id": "arm_template",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Can you provide the sample ARM template you are using? Please remove the sensitive information (such as password) from the sample.",
             "required": false
-		},
-		{
+        },
+        {
             "id": "operation_request_from",
             "order": 3,
             "controlType": "dropdown",
@@ -47,9 +47,9 @@
                     "text": "Azure CLI"
                 }
             ],
-            "required": true
+            "required": false
         },
-		{
+        {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
@@ -58,7 +58,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

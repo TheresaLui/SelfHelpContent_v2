@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Database Performance"
-	description="Database Performance"
-	authors="Xin-Cheng"
-	ms.author="chengxin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640156"
-	productPesIds="16617"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mariadb-perf-query"
+    pageTitle="Database Performance"
+    description="Database Performance"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640156"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mariadb-perf-query"
 />
 # Database Performance - Query
 ---
@@ -139,7 +139,7 @@
                     "text": "Other"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "cloud_as_point_of_comparison",

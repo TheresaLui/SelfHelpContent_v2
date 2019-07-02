@@ -1,30 +1,30 @@
 <properties
-	pageTitle="Security"
-	description="Security"
-	authors="Hang-Zhang"
-	ms.author="haz"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640045"
-	productPesIds="16221"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-mysql-security-auditing"
+    pageTitle="Security"
+    description="Security"
+    authors="Hang-Zhang"
+    ms.author="haz"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32640045"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="problemscopingques-mysql-security-auditing"
 />
 # Security - Auditing
-
+---
 {
-	"resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Security Auditing",
     "fileAttachmentHint": "",
-	"formElements": [
+    "formElements": [
         {
-			"id": "problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-		},
+        },
         {
             "id": "audit_logging_enable",
             "order": 2,
@@ -40,16 +40,16 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
-			"id": "sending_log",
+            "id": "sending_log",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Where are you sending the logs to? Event Hubs, Azure Storage, or Log Analytics?",
-            "required": true
-		},
-		{
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
@@ -58,6 +58,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-	],
-	"$schema": "SelfHelpContent"
+    ],
+    "$schema": "SelfHelpContent"
 }
+---
