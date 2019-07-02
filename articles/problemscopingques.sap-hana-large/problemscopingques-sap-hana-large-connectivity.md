@@ -8,15 +8,16 @@
     productPesIds="16208"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="80aa8522-57d5-4826-ac41-51e412abf20d"
 />
 
 
-# SAP HANA on Azure Large Instances
+# Unable to connect to a SAP Hana instance
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Configure SAP HANA large instances",
+    "title": "Unable to connect to a SAP Hana instance",
     "fileAttachmentHint": "",
     "formElements": [
         {
