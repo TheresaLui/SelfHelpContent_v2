@@ -34,6 +34,7 @@ Information related to planned maintenance is available during a planned mainten
 * [In-depth FAQ for planned maintenance](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#faq)<br>
 * [Understanding planned maintenance for Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-and-updates)<br>
 * [Handling planned maintenance notifications for Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications)<br>
+* [How to subscribe to notifications before any VM maintenance is performed](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events)<br>
 * [How to view notifications and alerts in the portal](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#notification-and-alerts-in-the-portal)<br>
 * [View VMs scheduled for maintenance in the portal](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#view-vms-scheduled-for-maintenance-in-the-portal)<br>
 * [Find VMs scheduled for maintenance using CLI](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#find-vms-scheduled-for-maintenance-using-cli)<br>
