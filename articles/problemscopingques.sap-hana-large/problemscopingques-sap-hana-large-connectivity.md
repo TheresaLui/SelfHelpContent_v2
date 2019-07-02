@@ -1,14 +1,13 @@
 <properties
-    pageTitle="SAP HANA on Azure Large Instances"
-    description="Problem scoping for SAP HANA on Azure Large Instances"
-    authors="phgantik,timbasham"
-    ms.author="tibasham"
+    pageTitle="Unable to connect to a SAP Hana instance"
+    description="Problem scoping for SAP HANA on Azure Large Instances Connectivity"
+    authors="tizape"
+    ms.author="tizape"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32549255,32549257,32549256,32549258,32549259,32632347,32632349,32632350,32632360,32632373,32632374,32632342,32632345,32632357,32632361,32632365,32632369,32632371,32632372,32632337,32632338,32632339,32632354,32632366,32632348,32632351,32632352,32632353,32632358,32632362,32632370,32632346,32632364,32632340,32632341,32632343,32632355,32632356,32632363,32632367,32632344,32632359,32632368"
-    productPesIds="16208,15571,15797"
+    supportTopicIds="32632331, 32632357, 32632371, 32632369, 32632372, 32632367"
+    productPesIds="16208"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="3561f156-4abd-4450-9a71-792802e50f89"
 />
 
 
@@ -21,23 +20,28 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "configure_sap_hana",
+            "id": "topology",
+            "visibility": "null",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Is this an Azure VM or a SAP HANA Large Instance",
-            "watermarkText": "Choose an option",
+            "displayLabel": "Where is the source machine located?",
+            "watermarkText": "Choose a topology",
             "dropdownOptions": [
                 {
-                    "value": "Azure VM",
-                    "text": "Azure VM(G-Series, M-Series,DS-Series etc)"
+                    "value": "On Premise to HANA",
+                    "text": "On Premise to HANA"
                 },
                 {
-                    "value": "SAP HANA Large Instance",
-                    "text": "SAP HANA Large Instance"
+                    "value": "Azure to HANA (same Region)",
+                    "text": "Azure to HANA (same Region)"
                 },
                 {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
+                    "value": "Azure to HANA (across Region)",
+                    "text": "Azure to HANA (across Region)"
+                },
+                {
+                    "text": "Other or none of the above",
+                    "value": "dont_know_answer"
                 }
             ],
             "required": true
@@ -45,9 +49,9 @@
         {
             "id": "resourceGroup",
             "order": 2,
-            "visibility": "null",
+            "visibility": "topology == Azure to HANA (same Region) || topology == Azure to HANA (across Region)",
             "controlType": "dropdown",
-            "displayLabel": "Please provide the Resource Group name",
+            "displayLabel": "Please provide the Resource Group name of the Source VM",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                     "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
@@ -68,8 +72,84 @@
             "required": true
         },
         {
-            "id": "sapHanaBareMetalInstance",
+            "id": "VMName",
             "order": 3,
+            "visibility": "resourceGroup != null",
+            "controlType": "dropdown",
+            "displayLabel": "Provide the Name of the source VM",
+            "watermarkText": "Filter by name",
+            "dynamicDropdownOptions": {
+                "dependsOn": "resourceGroup",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+		    "valuePropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other or none of the above"
+                }
+            },
+            "DropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of VMs",
+                    "text": "Unable to retrieve list of VMs"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "HubVNET",
+            "order": 6,
+            "visibility": "topology == On Premise to HANA",
+            "controlType": "dropdown",
+            "displayLabel": "Chose the virtual network connected to your on-premise network",
+            "watermarkText": "Choose a virtual network",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualNetworks?api-version=2018-11-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other or none of the above"
+                }
+            },
+            "DropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of VNETs",
+                    "text": "Unable to retrieve list of VNETs"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "configure_sap_hana",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Is this an Azure VM or a SAP HANA Large Instance",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Azure VM",
+                    "text": "Azure VM(G-Series, M-Series,DS-Series etc)"
+                },
+                {
+                    "value": "SAP HANA Large Instance",
+                    "text": "SAP HANA Large Instance"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "sapHanaBareMetalInstance",
+            "order": 4,
             "visibility": "configure_sap_hana == SAP HANA Large Instance || resourceGroup != null",
             "controlType": "dropdown",
             "displayLabel": "Please select your SAP Hana Large Instance",
@@ -97,7 +177,7 @@
         },
         {
             "id": "sapHanaVMInstance",
-            "order": 4,
+            "order": 5,
             "visibility": "configure_sap_hana == Azure VM || resourceGroup != null",
             "controlType": "dropdown",
             "displayLabel": "Please select your SAP Hana VM Instance",
@@ -123,6 +203,7 @@
             ],
             "required": true
         },
+
         {
             "id": "problem_start_time",
             "order": 100,
