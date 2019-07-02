@@ -2,8 +2,6 @@
 	articleId="dw-scoping-dataimportexport-usingpolybase.md"
 	pageTitle="Using Polybase"
 	description="Using Polybase"
-	authors="saltug,happynicolle"
-	ms.author="saltug,nicw"
 	authors="saltug,mlee3gsd"
 	ms.author="saltug,martinle"
 	selfHelpType="problemScopingQuestions"
