@@ -78,7 +78,7 @@
 			"displayLabel": "Provide the Name of the source VM",
 			"watermarkText": "Filter by name",
 			"dynamicDropdownOptions": {
-				"dependsOn": "resourceGroup",
+				"dependsOn": "sourceVMresourceGroup",
 				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-06-01",
 				"jTokenPath": "value",
 				"textProperty": "name",
