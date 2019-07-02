@@ -17,8 +17,8 @@
 
 ## **Recommended Documents**
 
-- [Multiple public IPs (public preview)](https://docs.microsoft.com/en-us/azure/firewall/overview#multiple-public-ips-public-preview)
-- [Deploy an Azure Firewall with multiple public IP addresses using Azure PowerShell](https://docs.microsoft.com/en-us/azure/firewall/deploy-multi-public-ip-powershell)
+- [Multiple public IPs (public preview)](https://docs.microsoft.com/azure/firewall/overview#multiple-public-ips-public-preview)
+- [Deploy an Azure Firewall with multiple public IP addresses using Azure PowerShell](https://docs.microsoft.com/azure/firewall/deploy-multi-public-ip-powershell)
 
 NOTE: During the public preview, if you add or remove a public IP address from a running firewall, the existing inbound connectivity using Destination Network Address Translation (DNAT) rules may not function for 40 ~ 120 seconds. There is no impact to outbound connectivity. This problem will be fixed by the General Availability release.
 
