@@ -43,7 +43,7 @@
 		{
 			"id": "resourceGroup",
 			"order": 2,
-			"visibility": "null",
+			"visibility": "configure_sap_hana == Azure VM || configure_sap_hana == SAP HANA Large Instance",
 			"controlType": "dropdown",
 			"displayLabel": "Please provide the Resource Group name",
 			"watermarkText": "Filter by name",
