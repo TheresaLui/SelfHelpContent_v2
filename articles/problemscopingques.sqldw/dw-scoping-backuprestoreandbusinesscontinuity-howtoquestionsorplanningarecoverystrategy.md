@@ -19,22 +19,29 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "dw_scoping_backup_backupregion",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+	{
+            "id": "dw_scoping_backup_backupregion",
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the region of your data warehouse?",
             "required": false
         },
         {
             "id": "dw_scoping_backup_slo",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the performance tier of your data warehouse?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
