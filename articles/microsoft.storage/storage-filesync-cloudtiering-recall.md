@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Troubleshoot Cloud Tiering Issues"
-	description="Troubleshoot CLoud Tiering Issues"
+	pageTitle="Troubleshooting Azure File Sync - Cloud Tiering"
+	description="Troubleshooting Azure File Sync - Cloud Tiering"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="jeffpatt24"
