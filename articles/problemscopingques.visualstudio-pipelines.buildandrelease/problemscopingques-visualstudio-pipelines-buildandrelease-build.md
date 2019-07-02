@@ -6,7 +6,7 @@
 	authors="chrisjco"
 	ms.author="ccoop"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32452973, 32452974, 32572374, 32572376"
+	supportTopicIds="32452973, 32452974, 32572374, 32572376, 32572373"
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
