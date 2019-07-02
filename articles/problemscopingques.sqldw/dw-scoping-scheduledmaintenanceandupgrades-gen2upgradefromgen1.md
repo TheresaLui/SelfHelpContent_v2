@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure Active Directory Authentication",
     "fileAttachmentHint": "",
     "formElements": [
