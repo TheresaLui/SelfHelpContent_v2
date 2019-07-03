@@ -30,7 +30,7 @@ schemaVersion="1"
             "required": true
         },
          {
-            "id": "problem_capacityUnits"
+            "id": "problem_capacityUnits",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "How many capacity units are your requesting for?",

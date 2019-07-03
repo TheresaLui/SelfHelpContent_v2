@@ -51,7 +51,7 @@ schemaVersion="1"
             ]
         },
         {
-            "id": "problem_locationofcode"
+            "id": "problem_locationofcode",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider?"
