@@ -14,7 +14,7 @@
 	articleId=""
 />
 
-# Troubleshooting Azure File Sync. Files are failing to tier
+# Troubleshooting Azure File Sync - Files are failing to tier
 
 ## **Recommended Documents**
 
@@ -36,4 +36,4 @@
 
 - [How do I monitor cloud tiering on a server?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#monitor-tiering-activity)<br>
 - [How do I monitor recall activity on a server?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#monitor-recall-activity)<br>
-- [How do I tell whether a file has been tiered?](https://docs.microsoft.com/azure/storage/files/storage-files-faq#is-my-file-tiered)<br>
+- [How do I tell whether a file has been tiered?](https://docs.microsoft.com/azure/storage/files/storage-files-faq#is-my-file-tiered)
