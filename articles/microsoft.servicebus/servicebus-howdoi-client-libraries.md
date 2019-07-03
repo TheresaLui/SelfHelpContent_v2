@@ -23,6 +23,6 @@
 * [Service Bus libraries for Java](https://docs.microsoft.com/java/api/overview/azure/servicebus?view=azure-java-stable)<br>
 * [Explore Service Bus client libraries](https://docs.microsoft.com/dotnet/api/overview/azure/servicebus/client?view=azure-dotnet)<br>
 * [Explore Service Bus management libraries](https://docs.microsoft.com/dotnet/api/overview/azure/servicebus/management?view=azure-dotnet)<br>
-* [Service Bus REST APIs](https://docs.microsoft.com/en-us/rest/api/servicebus/)<br>
+* [Service Bus REST APIs](https://docs.microsoft.com/rest/api/servicebus/)<br>
 * [Explore all the samples available for Service Bus](https://azure.microsoft.com/resources/samples/?term=service+bus&sort=0)<br>
 
