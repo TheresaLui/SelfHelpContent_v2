@@ -16,7 +16,7 @@
 
 # Troubleshooting Azure File Sync - Management Issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Cloud endpoint management failures**
 
