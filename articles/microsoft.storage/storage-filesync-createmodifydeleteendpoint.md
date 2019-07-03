@@ -16,7 +16,7 @@
 
 # Troubleshooting Azure File Sync - Unable to create, modify or delete a server endpoint.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Server endpoint management failures**
 
