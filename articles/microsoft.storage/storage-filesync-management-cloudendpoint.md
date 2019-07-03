@@ -14,7 +14,7 @@
 	articleId="956782a7-e2d1-4bbb-a7a7-b64de38f70ca"
 />
 
-# Troubleshooting Azure File Sync - Unable to create, modify or delete a cloud endpoint
+# Troubleshooting Azure File Sync. Unable to create, modify or delete a cloud endpoint.
 
 ## **Recommended documents**
 
