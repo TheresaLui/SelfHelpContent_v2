@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="d4e6dd45-4491-4393-98fc-cc4d7ff5b47e"
 />
 
 # Troubleshooting Azure File Sync - Files are not syncing from server to Azure file share.
