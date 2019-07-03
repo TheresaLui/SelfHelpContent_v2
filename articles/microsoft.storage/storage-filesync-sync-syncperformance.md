@@ -16,7 +16,7 @@
 
 # Troubleshooting Azure File Sync performance issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Azure File Sync scale targets](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets#azure-file-sync-scale-targets)<br>
 - [Azure File Sync performance metrics](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets#azure-file-sync-performance-metrics)<br>
