@@ -24,12 +24,7 @@
 * [How to give NETWORK SERVICE access to the certificate's private key](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-dotnet-app-enable-https-endpoint#give-network-service-access-to-the-certificates-private-key)<br>
 * [How to add or remove certificates for a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security-update-certs-azure)<br>
 
-<<<<<<< HEAD
-### Reference articles on SF security
-=======
-
 ### Reference articles on SF security<br>
->>>>>>> origin/master
 * [Service Fabric security concepts](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security)<br>
 * [Service Fabric security recommendations](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security#security-recommendations)<br>
 
