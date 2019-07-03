@@ -14,7 +14,7 @@
 	articleId="a3c986e5-0469-4031-bfa4-a1ab3827fd79"
 />
 
-# Troubleshooting Azure File Sync - Unable to register a server
+# Troubleshooting Azure File Sync. Unable to register a server.
 
 ## **Recommended documents**
 
