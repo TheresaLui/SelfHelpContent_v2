@@ -16,7 +16,7 @@
 
 # Troubleshooting Azure File Sync - Unable to register a server
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Server is not listed under registered servers in the Azure portal](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-registration-missing)<br>
 - ["This server is already registered" error](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-already-registered)<br>
