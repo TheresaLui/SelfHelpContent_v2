@@ -14,9 +14,9 @@
 	articleId="d27b1391-9bc6-4de4-91dd-69d96abd8205"
 />
 
-# Troubleshooting Azure File Sync - Server endpoint has a health status of "Error" in the portal.
+# Troubleshooting Azure File Sync - Server endpoint has a health status of "Error" in the portal
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Sync Failures**
 
