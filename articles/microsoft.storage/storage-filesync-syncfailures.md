@@ -14,13 +14,13 @@
 	articleId="d27b1391-9bc6-4de4-91dd-69d96abd8205"
 />
 
-# Troubleshooting Azure File Sync - Server endpoint health status in the portal = Error
+# Troubleshooting Azure File Sync - Server endpoint has an "error" health status in the portal
 
 ## **Recommended documents**
 
 **Sync Failures**
 
-- [Server endpoint health status in the portal = Error](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#common-sync-errors)<br>
+- [Sync is failing. Server endpoint has an "error" health status in the portal](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#common-sync-errors)<br>
 - [Individual files are failing to sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#how-do-i-see-if-there-are-specific-files-or-folders-that-are-not-syncing)<br>
 - [File created or modified directly in the Azure file share are not syncing to the servers in the sync group](https://docs.microsoft.com/azure/storage/files/storage-files-faq#afs-change-detection)<br>
 - [Server endpoint has a health status of "No Activity" or "Pending" and the server state on the registered servers blade is "Appears offline"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-noactivity)<br>
