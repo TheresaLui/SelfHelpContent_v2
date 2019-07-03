@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="3d9daf47-f3a6-4569-b2ff-cbcfcccb6314"
 />
 
 # Troubleshooting Azure File Sync cloud tiering issues
