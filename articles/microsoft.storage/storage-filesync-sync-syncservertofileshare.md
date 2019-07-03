@@ -14,7 +14,7 @@
 	articleId=""
 />
 
-# Troubleshooting Azure File Sync. Files are not syncing from server to Azure file share.
+# Troubleshooting Azure File Sync - Files are not syncing from server to Azure file share.
 
 ## **Recommended documents**
 
@@ -23,7 +23,7 @@
 - [Individual files are failing to sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#how-do-i-see-if-there-are-specific-files-or-folders-that-are-not-syncing)<br>
 - [Sync is failing. Server endpoint has an "error" health status in the portal](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#common-sync-errors)<br>
 - [Server endpoint has a health status of "No Activity" or "Pending" and the server state on the registered servers blade is "Appears offline"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-noactivity)<br>
-- [Server endpoint has a health status of “No Activity” and the server state on the registered servers blade is “Online”](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#endpoint-noactivity-sync)<br>
+- [Server endpoint has a health status of "No Activity" and the server state on the registered servers blade is "Online"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#endpoint-noactivity-sync)<br>
 - [Server endpoint health is in a "Pending" state for several hours](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#serverendpoint-pending)<br>
 
 **Sync Monitoring**
