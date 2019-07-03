@@ -11,10 +11,10 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
-	articleId="956782a7-e2d1-4bbb-a7a7-b64de38f70ca"
+	articleId=""
 />
 
-# Troubleshooting Azure File Sync - Files are not syncing from server to Azure file share
+# Troubleshooting Azure File Sync. Files are not syncing from server to Azure file share.
 
 ## **Recommended documents**
 
@@ -34,4 +34,4 @@
 
 **Throttle Sync**
 
-- [How do I throttle Azure File Sync's network usage?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-server-registration#ensuring-azure-file-sync-is-a-good-neighbor-in-your-datacenter)<br>
+- [How do I throttle Azure File Sync's network usage?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-server-registration#ensuring-azure-file-sync-is-a-good-neighbor-in-your-datacenter)
