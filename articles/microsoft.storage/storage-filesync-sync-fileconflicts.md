@@ -16,6 +16,6 @@
 
 # Troubleshooting Azure File Sync File Conflicts
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [If the same file is changed on two servers at approximately the same time, what happens?](https://docs.microsoft.com/azure/storage/files/storage-files-faq#afs-conflict-resolution)
