@@ -11,6 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-ipfilter"
+	displayOrder="1"
 />
 
 # Connecting to Azure Cosmos DB accounts
