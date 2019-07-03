@@ -36,6 +36,11 @@ This article will help with several kinds of issues relating scheduling Azure Up
 * You may recieve this error if machines are offline when the deployment occurs. Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 * Review the steps to creating a dynamic deployment, especially the note about permissions, in ["Using Dynamic Groups"](https://docs.microsoft.com/azure/automation/automation-update-management#using-dynamic-groups)
 
+### **"You have requested to create an update configuration on a machine that is not registered for Update Management"**
+
+* This issue is commonly related to Scope Configuration.
+  * Option 1) [Update the scope configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) to add the desired machines, * Option 2) (Recommended) [Disable Scope Configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#all-available-and-future-machines) and register all machines in the workspace for Update Management
+
 
 ## **Recommended Documents**
 
