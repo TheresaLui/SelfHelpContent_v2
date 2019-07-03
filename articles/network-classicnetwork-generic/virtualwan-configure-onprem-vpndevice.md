@@ -10,7 +10,7 @@
 	articleId="virtualwan-configure-onprem-vpndevice"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32640643"
+	supportTopicIds="32640643,32640645"
 	resourceTags=""
 	productPesIds="16572"
 	cloudEnvironments="public"
