@@ -23,8 +23,9 @@ We have identified that your operation failed because workload extension was not
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 To resolve this issue, perform the below steps:
 
-1. If the issue transient then subsequent retry operation could resolve the issue.
-2. Ensure the VM has latest backup agent, for more information refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot).
-3. Check event logs for storage issues potentially impacting backup scratch space, resolve them and retry the backup operation.
+1. If the issue transient then subsequent retry operation could resolve the issue
+2. Ensure the VM has [latest backup agent](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)
+3. Check event logs for storage issues potentially impacting backup scratch space, resolve them, and retry the backup operation
