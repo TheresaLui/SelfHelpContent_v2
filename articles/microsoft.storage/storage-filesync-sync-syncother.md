@@ -16,7 +16,7 @@
 
 # Troubleshooting Azure File Sync Sync issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Sync Failures**
 
