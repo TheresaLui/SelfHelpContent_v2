@@ -14,7 +14,7 @@
 	articleId=""
 />
 
-# Troubleshooting Azure File Sync. Registered server state is appears offline.
+# Troubleshooting Azure File Sync - Registered server state is appears offline.
 
 ## **Recommended documents**
 
