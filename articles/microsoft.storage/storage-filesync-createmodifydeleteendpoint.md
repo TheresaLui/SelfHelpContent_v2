@@ -14,7 +14,7 @@
 	articleId="b17d5b4f-a43a-46a2-8045-bf700ef408b1"
 />
 
-# Troubleshooting Azure File Sync - Unable to create, modify or delete a server endpoint
+# Troubleshooting Azure File Sync. Unable to create, modify or delete a server endpoint.
 
 ## **Recommended documents**
 
