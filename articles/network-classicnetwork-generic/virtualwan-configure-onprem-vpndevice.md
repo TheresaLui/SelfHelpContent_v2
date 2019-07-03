@@ -21,4 +21,4 @@
 
 ## **Recommended Documents**
 
-* Learn about configuring devices for our [Virtual WAN partners](https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-configure-automation-providers). Partner not listed?  Use this content to learn how to become a Virtual WAN partner.
+* Learn about configuring devices for our [Virtual WAN partners](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-configure-automation-providers). Partner not listed?  Use this content to learn how to become a Virtual WAN partner.
