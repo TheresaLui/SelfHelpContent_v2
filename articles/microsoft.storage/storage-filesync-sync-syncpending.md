@@ -16,7 +16,7 @@
 
 # Troubleshooting Azure File Sync - Server endpoint has a health status of pending in the portal
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Sync Failures**
 
