@@ -21,9 +21,9 @@
 <!--issueDescription-->
 The following IP addresses:
 
-**<!--$IPAddresses-->IPAddresses<!--/$IPAddresses-->** 
+**<!--$IPAddresses-->[IPAddresses]<!--/$IPAddresses-->** 
 
-are not whitelisted for sending requests to account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->**.
+are not whitelisted for sending requests to account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
