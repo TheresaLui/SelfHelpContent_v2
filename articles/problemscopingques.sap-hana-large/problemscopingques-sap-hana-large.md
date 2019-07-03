@@ -42,7 +42,7 @@
 			"required": true
 		},
 		{
-			"id": "resourceGroup",
+			"id": "sapResourceGroup",
 			"order": 2,
 			"visibility": "configure_sap_hana == Azure VM || configure_sap_hana == SAP HANA Large Instance",
 			"controlType": "dropdown",
@@ -68,12 +68,12 @@
 		{
 			"id": "sapHanaBareMetalInstance",
 			"order": 3,
-			"visibility": "configure_sap_hana == SAP HANA Large Instance && resourceGroup != null",
+			"visibility": "configure_sap_hana == SAP HANA Large Instance && sapResourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Please select your SAP Hana Large Instance",
 			"watermarkText": "Filter by name",
 			"dynamicDropdownOptions": {
-				"dependsOn": "resourceGroup",
+				"dependsOn": "sapResourceGroup",
 				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.HanaonAzure/hanaInstances?api-version=2017-11-03-preview",
 				"jTokenPath": "value",
 				"textProperty": "name",
@@ -94,12 +94,12 @@
 		{
 			"id": "sapHanaVMInstance",
 			"order": 4,
-			"visibility": "configure_sap_hana == Azure VM && resourceGroup != null",
+			"visibility": "configure_sap_hana == Azure VM && sapResourceGroup != null",
 			"controlType": "dropdown",
 			"displayLabel": "Please select your SAP Hana VM Instance",
 			"watermarkText": "Filter by name",
 			"dynamicDropdownOptions": {
-				"dependsOn": "resourceGroup",
+				"dependsOn": "sapResourceGroup",
 				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-06-01",
 				"jTokenPath": "value",
 				"textProperty": "name",
