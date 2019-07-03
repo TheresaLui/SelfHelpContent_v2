@@ -26,7 +26,7 @@ This article will help with several kinds of issues relating to enabling the Azu
 
 ### **Machine isn't onboarding after waiting 15 minutes**
 
-* Refer to [the "Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
+* Refer to the ["Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
 
 ### **Update Agent Readiness doesn't show "ready"**
 
@@ -37,7 +37,7 @@ This article will help with several kinds of issues relating to enabling the Azu
 ### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already enrolled into Update Management
-* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine.
+* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
 
 ### **Machine shows as "not assessed"**
 
@@ -47,7 +47,8 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **"You have requested to create an update configuration on a machine that is not registered for Update Management"**
 
-* This issue is commonly related to Scope Configuration
+* This issue is commonly related to Scope Configuration:
+
   * Option 1) [Update the scope configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) to add the desired machines
   * Option 2) (Recommended) [Disable Scope Configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#all-available-and-future-machines) and register all machines in the workspace for Update Management
 
