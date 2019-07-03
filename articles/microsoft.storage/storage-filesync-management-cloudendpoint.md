@@ -14,11 +14,11 @@
 	articleId=""
 />
 
-# Troubleshooting Azure File Sync. Unable to create, modify or delete a cloud endpoint.
+# Troubleshooting Azure File Sync - Unable to create, modify or delete a cloud endpoint.
 
 ## **Recommended documents**
 
 **Cloud endpoint management failures**
 
 - [Cloud endpoint creation fails with error: "The specified Azure FileShare is already in use by a different CloudEndpoint"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#cloud-endpoint-using-share)<br>
-- [Cloud endpoint creation fails with error: "AuthorizationFailed”](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#cloud-endpoint-authfailed)
+- [Cloud endpoint creation fails with error: "AuthorizationFailed"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#cloud-endpoint-authfailed)
