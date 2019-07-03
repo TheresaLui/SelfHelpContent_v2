@@ -62,7 +62,8 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **"You have requested to create an update configuration on a machine that is not registered for Update Management"**
 
-* This issue is commonly related to Scope Configuration.
+* This issue is commonly related to Scope Configuration:
+
   * Option 1) [Update the scope configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) to add the desired machines
   * Option 2) (Recommended) [Disable Scope Configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#all-available-and-future-machines) and register all machines in the workspace for Update Management
 
