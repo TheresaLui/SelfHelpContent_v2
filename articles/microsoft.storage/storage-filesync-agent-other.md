@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="8707e8cb-dc3b-4fc8-a862-4d5b3da3cb31"
 />
 
 # Troubleshooting Azure File Sync Agent
