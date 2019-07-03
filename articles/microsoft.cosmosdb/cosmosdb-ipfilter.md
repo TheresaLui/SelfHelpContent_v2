@@ -1,11 +1,11 @@
 <properties
 	pageTitle="IP filter"
-  	description="IP filter"
+  	description="Trobuleshoot firewall connectivity issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
 	ms.author="bharathb"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636792"
 	resourceTags=""
 	productPesIds="15585"
