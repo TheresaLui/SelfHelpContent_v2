@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-[Tutorial: Create a Site-to-Site connection using Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-site-to-site-portal)
+* [Tutorial: Create a Site-to-Site connection using Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-site-to-site-portal)
