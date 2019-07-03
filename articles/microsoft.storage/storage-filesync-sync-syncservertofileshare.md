@@ -1,28 +1,27 @@
 <properties
-	pageTitle="Troubleshooting Azure File Sync - Sync error"
-	description="Troubleshooting Azure File Sync - Sync error"
+	pageTitle="Troubleshooting Azure File Sync - Files are not syncing from server to Azure file share"
+	description="Troubleshooting Azure File Sync - Files are not syncing from server to Azure file share"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="jeffpatt24"
 	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32675725"
+	supportTopicIds="32675722"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
-	articleId="d27b1391-9bc6-4de4-91dd-69d96abd8205"
+	articleId="d4e6dd45-4491-4393-98fc-cc4d7ff5b47e"
 />
 
-# Troubleshooting Azure File Sync - Server endpoint has a health status of "Error" in the portal
+# Troubleshooting Azure File Sync - Files are not syncing from server to Azure file share.
 
 ## **Recommended Documents**
 
 **Sync Failures**
 
-- [Sync is failing - Server endpoint has a health status of "Error" in the portal](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#common-sync-errors)<br>
 - [Individual files are failing to sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#how-do-i-see-if-there-are-specific-files-or-folders-that-are-not-syncing)<br>
-- [Files created or modified directly in the Azure file share are not syncing to the servers in the sync group](https://docs.microsoft.com/azure/storage/files/storage-files-faq#afs-change-detection)<br>
+- [Sync is failing. Server endpoint has an "error" health status in the portal](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#common-sync-errors)<br>
 - [Server endpoint has a health status of "No Activity" or "Pending" and the server state on the registered servers blade is "Appears offline"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-noactivity)<br>
 - [Server endpoint has a health status of "No Activity" and the server state on the registered servers blade is "Online"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#endpoint-noactivity-sync)<br>
 - [Server endpoint health is in a "Pending" state for several hours](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#serverendpoint-pending)<br>

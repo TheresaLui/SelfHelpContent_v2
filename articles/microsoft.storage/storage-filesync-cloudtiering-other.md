@@ -1,27 +1,27 @@
 <properties
-	pageTitle="Troubleshooting Azure File Sync - Cloud Tiering"
-	description="Troubleshooting Azure File Sync - Cloud Tiering"
+	pageTitle="Troubleshooting Azure File Sync - Cloud Tiering Other"
+	description="Troubleshooting Azure File Sync - Cloud Tiering Other"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="jeffpatt24"
 	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32675711"
+	supportTopicIds="32675713"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
-	articleId="95f4f61e-2457-4a6a-9f2d-996cbdeebd17"
+	articleId="3d9daf47-f3a6-4569-b2ff-cbcfcccb6314"
 />
 
-# Troubleshooting Azure File Sync - Files are failing to recall
+# Troubleshooting Azure File Sync cloud tiering issues
 
 ## **Recommended Documents**
 
 **Cloud Tiering Failures**
 
-- [Troubleshoot files that fail to be recalled](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#files-fail-recall)<br>
 - [Troubleshoot files that fail to tier](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#files-fail-tiering)<br>
+- [Troubleshoot files that fail to be recalled](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#files-fail-recall)<br>
 - [Troubleshoot files unexpectedly recalled on a server](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#files-unexpectedly-recalled)
 
 **Cloud Tiering Configuration**
