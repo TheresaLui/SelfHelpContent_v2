@@ -10,7 +10,7 @@
 	articleId="virtualwan-associate-expressroute"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32640634,32640641,32640656"
+	supportTopicIds="32640641,32640656"
 	resourceTags=""
 	productPesIds="16572"
 	cloudEnvironments="public"
