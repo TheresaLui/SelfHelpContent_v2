@@ -36,7 +36,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the Hive application",
-            "required": true
+            "required": false
         },
         {
             "id": "hive_query",
@@ -44,7 +44,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Hive query if applicable",
             "watermarkText": "Hive query",
-            "required": true
+            "required": false
         },
         {
             "id": "hive_query_plan",
@@ -52,7 +52,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Hive query explain plan if available",
             "watermarkText": "Hive query plan",
-            "required": true
+            "required": false
         },
         {
             "id": "hive_submission_method",

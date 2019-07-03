@@ -24,7 +24,7 @@ The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> <!--$ResourceName-->
 
 ## **Recommended Steps** 
 
-* Please [detach the following data disk(s) from its VM](https://docs.microsoft.com/azure/lab-services/devtest-lab-attach-detach-data-disk#detach-a-data-disk) before <!--$$AttemptedOperationPresentParticiple-->[$AttemptedOperationPresentParticiple]<!--/$$AttemptedOperationPresentParticiple--> the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
+* Please [detach the following data disk(s) from its VM](https://docs.microsoft.com/azure/lab-services/devtest-lab-attach-detach-data-disk#detach-a-data-disk) before <!--$AttemptedOperationPresentParticiple-->[AttemptedOperationPresentParticiple]<!--/$AttemptedOperationPresentParticiple--> the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
 
 <!--$DataDiskWithVMList-->[DataDiskWithVMList]<!--/$DataDiskWithVMList--> <br>
 

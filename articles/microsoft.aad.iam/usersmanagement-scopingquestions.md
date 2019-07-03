@@ -28,7 +28,7 @@
             "useAsAdditionalDetails": true
         },
         {
-            "id": "whereProblem",
+            "id": "whatProblem",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",

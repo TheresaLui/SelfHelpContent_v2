@@ -82,14 +82,14 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Sample slow pipeline RunIDs (separate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "sample_normal_run_ids",
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Sample normal pipeline RunIDs (separate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "factory_name",

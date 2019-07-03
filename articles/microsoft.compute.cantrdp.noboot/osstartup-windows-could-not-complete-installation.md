@@ -16,13 +16,12 @@
     cloudEnvironments="public"
 />
 
-# VM Boot Error: Virtual machine failed to process Windows Updates during installation
+# VM Boot Error
 
-## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
 <!--issueDescription-->
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operation system.
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code 'An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart'.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -44,7 +43,7 @@ bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} default {<ID
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} displayorder {<IDENTIFIER FROM THE BOOT LOADER>}
 ```
 
-   3. Then run the following commands to veriify everything is in place:
+   3. Then run the following commands to verify everything is in place:
 
 ```
 C:\Users\azureadmin>bcdedit /store f:\boot\bcd /set {bootmgr} displayorder {05d0826e-19a2-4380-968f-4b45f971812d}

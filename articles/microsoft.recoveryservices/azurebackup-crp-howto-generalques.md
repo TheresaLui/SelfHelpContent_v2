@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Diagnose and resolve issues for Azure Virtual Machine Backup and Restore"
-	description="Diagnose and resolve issues for Azure Virtual Machine Backup and Restore"
+	pageTitle="Azure backup - howto and general questions"
+	description="Azure backup - howto and general questions"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="6"
+	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds="32637323,32637324,32637325"
-	resourceTags=""
-	productPesIds="14749"
+	resourceTags="windows"
+	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public"
 	articleId="ea9de181-a019-4256-98f3-7842e7125113"
 />
 
-# Diagnose and resolve issues for Azure Virtual Machine Backup and Restore
+# Azure backup - howto and general questions
 
 ## **Recommended Steps**
 

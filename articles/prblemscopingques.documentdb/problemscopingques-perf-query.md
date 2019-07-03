@@ -1,19 +1,21 @@
 <properties
-	pageTitle="CosmosDb Query Performance Issue"
-	description="CosmosDb Query Performance Issue"
-	authors="bharathsreenivas"
+	pageTitle="CosmosDB Query Performance Issue"
+	description="CosmosDB Query Performance Issue"
+	authors="rnagpal"
+	ms.author="rnagpal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32597551,32597550,32597549,32597548"
+	supportTopicIds="32636795,32636821"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="f65e7cce-b509-4ffe-bd75-774fdfd331bb"
 />
-# CosmosDb Query performance Issue
+# CosmosDB Query performance Issue
 ---
 {
     "resourceRequired": true,
-    "title": "CosmosDb Query Performance Issue",
+    "subscriptionRequired": true,
+    "title": "CosmosDB Query Performance Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -27,31 +29,21 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "database_name",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Database name",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Database name"
-                }
-            ]
+            "required": false
         },
         {
             "id": "collection_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Collection name",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Collection name"
-                }
-            ]
+            "required": false
         },
         {
             "id": "partition_key",
@@ -74,12 +66,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Cosmos DB Query snippet",
             "required": false,
-            "useAsAdditionalDetails": false,
-            "hints": [
-                {
-                    "text": "Paste the query snippet which is experiencing issues."
-                }
-            ]
+            "useAsAdditionalDetails": false
         },
         {
             "id": "sdk_type",
@@ -116,7 +103,7 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing.",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
