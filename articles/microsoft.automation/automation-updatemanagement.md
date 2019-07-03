@@ -20,9 +20,14 @@ This article will help with several kinds of issues relating to onboarding and u
 
 ## **Recommended Steps**
 
+### **Desired automation account, region, or Log Analytics workspace is greyed out**
+
+* Only certain regions are supported for linking Log Analytics and Automation Accounts, which is required for Update Management. See the ["Workspace Mappings"](https://docs.microsoft.com/azure/automation/how-to/region-mappings) document for the full list of supported regions 
+
 ### **Machine isn't onboarding after waiting 15 minutes**
 
 * Refer to [the "Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
+
 
 ### **Update Agent Readiness doesn't show "ready"**
 
