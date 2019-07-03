@@ -14,7 +14,7 @@
 	articleId=""
 />
 
-# Troubleshooting Azure File Sync. Tiering policy not met
+# Troubleshooting Azure File Sync - Tiering policy not met
 
 ## **Recommended Documents**
 
