@@ -37,8 +37,8 @@ schemaVersion="1"
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Yes"
-                    "text": Yes"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
                     "value": "No",

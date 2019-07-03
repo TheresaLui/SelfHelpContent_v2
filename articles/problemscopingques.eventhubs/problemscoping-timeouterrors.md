@@ -58,7 +58,7 @@ schemaVersion="1"
             ]
         },
         {
-            "id": "problem_permissions",
+            "id": "problem_environment",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Does this issue reproduce in multiple environments?",
@@ -111,7 +111,7 @@ schemaVersion="1"
             "displayLabel": "Details",
             "watermarkText": "Provide the call stack with exception messages and any additional details",
             "required": true,
-            "useAsAdditionalDetails": false
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
