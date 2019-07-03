@@ -35,4 +35,4 @@
 
 **Throttle Sync**
 
-- [How do I throttle Azure File Sync's network usage?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-server-registration#ensuring-azure-file-sync-is-a-good-neighbor-in-your-datacenter)<br>
+- [How do I throttle Azure File Sync's network usage?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-server-registration#ensuring-azure-file-sync-is-a-good-neighbor-in-your-datacenter)
