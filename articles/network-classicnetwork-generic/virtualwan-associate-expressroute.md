@@ -21,5 +21,5 @@
 
 ## **Recommended Documents**
 
-* Learn about associating an ExpressRoute circuit  in our [Tutorial: Create an ExpressRoute association using Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-expressroute-portal)
+* Learn about associating an ExpressRoute circuit in our [Tutorial: Create an ExpressRoute association using Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-expressroute-portal)
 * Learn more about Virtual WAN and ExpressRoute in our documentation: [What is Azure Virtual WAN?](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about)
