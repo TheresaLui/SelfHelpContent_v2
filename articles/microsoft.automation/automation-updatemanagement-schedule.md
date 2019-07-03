@@ -31,6 +31,12 @@ This article will help with several kinds of issues relating scheduling Azure Up
 * Follow the instructions in ["Machines don't show up in the portal under Update Management"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) to ensure the machine is correctly configured for the correct workspace
 * Ensure you have the correct permissions to create deployments, especially Contributor access on any Azure VMs you are trying to manage, by referencing the ["Update Management"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) section of the Automation RBAC documentation
 
+### **"No computers match the Update deployment target specification" error received**
+
+* You may recieve this error if machines are offline when the deployment occurs. Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* Review the steps to creating a dynamic deployment, especially the note about permissions, in ["Using Dynamic Groups"](https://docs.microsoft.com/azure/automation/automation-update-management#using-dynamic-groups)
+
+
 ## **Recommended Documents**
 
 * [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
