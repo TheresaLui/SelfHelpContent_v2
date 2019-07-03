@@ -23,7 +23,6 @@ This article will help with several kinds of issues relating to machines not sho
 ### **Machine was showing up, but disappeared**
 
 * To prevent stale data, machines that have not reported in for 12 hours are not shown in Update Management
-
 * Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) to check for the most recent reports from machines and common solutions
 
 ### **Update Agent Readiness doesn't show "ready"**
@@ -35,7 +34,7 @@ This article will help with several kinds of issues relating to machines not sho
 ### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already enrolled into Update Management
-* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine.
+* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
 
 ### **Machine shows as "not assessed"**
 
@@ -45,12 +44,13 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **"No computers match the Update deployment target specification" error received**
 
-* You may recieve this error if machines are offline when the deployment occurs. Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* You may recieve this error if machines are offline when the deployment occurs. Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs).
 * Review the steps to creating a dynamic deployment, especially the note about permissions, in ["Using Dynamic Groups"](https://docs.microsoft.com/azure/automation/automation-update-management#using-dynamic-groups)
 
 ### **"You have requested to create an update configuration on a machine that is not registered for Update Management"**
 
-* This issue is commonly related to Scope Configuration.
+* This issue is commonly related to Scope Configuration:
+
   * Option 1) [Update the scope configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) to add the desired machines
   * Option 2) (Recommended) [Disable Scope Configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#all-available-and-future-machines) and register all machines in the workspace for Update Management
 
