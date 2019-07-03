@@ -16,6 +16,6 @@
 
 # Troubleshooting Azure File Sync - Registered server state is appears offline.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Server endpoint has a health status of "No Activity" or "Pending" and the server state on the registered servers blade is "Appears offline"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-noactivity)
