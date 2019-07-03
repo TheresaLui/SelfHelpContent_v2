@@ -14,7 +14,7 @@
 	articleId="95f4f61e-2457-4a6a-9f2d-996cbdeebd17"
 />
 
-# Troubleshooting Azure File Sync - Files are failing to recall
+# Troubleshooting Azure File Sync. Files are failing to recall
 
 ## **Recommended Documents**
 
