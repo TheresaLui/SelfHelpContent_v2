@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="06ba38ad-323c-48a5-82eb-5925490c299f"
 />
 
 # Azure File Sync - General guidance or advisory  
