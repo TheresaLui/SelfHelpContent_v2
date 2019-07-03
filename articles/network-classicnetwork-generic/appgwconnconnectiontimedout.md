@@ -16,7 +16,7 @@
 
 # Connectivity Connection Timed out
 
-Connection timed out error when accessing Application Gateway usually occurs when the client could not establish a TCP session with the Application Gateway on the requested port due to either a listener not being configured or NSG/UDR blocking the access to the port.
+Connection timed out error when accessing Application Gateway usually occurs when the client could not establish a TCP/SSL session with the Application Gateway on the requested port due to either a listener not being configured, NSG/UDR blocking the access to the port or the domain name with which you are accessing not resolving to Application Gateway's IP address.
 
 Check the documentation mentioned below to get guidance on how to troubleshoot these issues.
 

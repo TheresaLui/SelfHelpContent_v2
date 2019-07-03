@@ -16,7 +16,10 @@
 
 # General Guidance and Advisory
 
+If you are seeking assistance specific to configuration, connectivity, WAF or performance issues, please choose the appropriate topic. If you have general product related questions and feature requests, please find a few recommended documents below that might help.
+
 ## **Recommended Documents**
 
-* Application gateway [FAQ](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq)<br>
-* Application gateway [documentation](https://docs.microsoft.com/azure/application-gateway) including "How to" and "Troubleshooting" steps for common issues
+* [Application Gateway FAQ](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq)
+* [Application Gateway documentation](https://docs.microsoft.com/azure/application-gateway) including "How to" and "Troubleshooting" steps for common issues
+* [Application Gateway feature requests and updates](https://feedback.azure.com/forums/217313-networking?category_id=134448)
