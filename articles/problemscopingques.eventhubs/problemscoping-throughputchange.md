@@ -1,25 +1,25 @@
 <properties
-pageTitle="Request for Partition change"
-description="Request for Partition change"
+pageTitle="Request to change Throughput unit"
+description="Unable to retrieve diagnostics or log information"
 service="microsoft.eventhubs"
-resource="partitionchange"
+resource="unableToGetLogs"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32636955"
+supportTopicIds="32636956"
 resourceTags=""
 productPesIds="16125"
 cloudEnvironments="public"
-articleId="eh-partition-change-request"
+articleId="eh-throughput"
 schemaVersion="1"
 />
-# Request for Partition change
+# Request to change Throughput unit
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Request for Partition change",
+    "title": "Request to change Throughput unit",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -30,18 +30,17 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_partitionchangecount",
+            "id": "problem_TUQuota",
             "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "What would you like to change your current partition count to?",
-            "watermarkText": "Please enter the count to update the your current partition",
-            "required": true
+            "controlType": "multilinetextbox",
+            "displayLabel": "What would you like to change your TU count to (max 40 TUs for Standard, please explore Event Hubs Dedicated)? ",
+            "required": false
         },
         {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Additional Details",
+            "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,

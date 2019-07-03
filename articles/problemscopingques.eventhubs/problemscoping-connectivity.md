@@ -54,14 +54,14 @@ schemaVersion="1"
             "id": "problem_locationofcode",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider?"
+            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider?",
             "required": true
         },
         {
             "id": "problem_sdkversion",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Enter the SDK stack and SDK version you are using?"
+            "displayLabel": "Enter the SDK stack and SDK version you are using?",
             "required": false
         },
         {

@@ -76,7 +76,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "What is your preferred cluster name?",
             "watermarkText": "Please enter a unique name for your cluster",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_region",
@@ -84,7 +84,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "What region do you want to create the cluster in?",
             "watermarkText": "Please enter the region where the cluster needs to be created",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_subcription",
@@ -92,7 +92,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "Which subscription ID  would you like to provision your cluster to belong to?",
             "watermarkText": "Provide Subscription ID",
-            "required": true
+            "required": false
         },
        {
             "id": "problem_resourcegroup",
@@ -100,7 +100,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "Which the resource group would you like to provision your cluster in?",
             "watermarkText": "Provide resource group name",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

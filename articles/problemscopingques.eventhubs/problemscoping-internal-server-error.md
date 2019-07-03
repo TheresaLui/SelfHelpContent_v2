@@ -2,7 +2,7 @@
 pageTitle="Internal Server Errors"
 description="Internal Server Errors"
 service="microsoft.eventhubs"
-resource="connectivityissues"
+resource="internalServerissues"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
@@ -11,7 +11,7 @@ supportTopicIds="32636942"
 resourceTags=""
 productPesIds="16125"
 cloudEnvironments="public"
-articleId="eh-connectivity"
+articleId="eh-internal-server-error"
 schemaVersion="1"
 />
 # Internal Server Errors
@@ -54,7 +54,7 @@ schemaVersion="1"
             "id": "problem_sdkversion",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Have you enabled exponential back off and retry behaviors"
+            "displayLabel": "Have you enabled exponential back off and retry behaviors" ,
             "required": false
         },
         {

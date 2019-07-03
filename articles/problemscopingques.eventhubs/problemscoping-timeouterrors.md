@@ -33,7 +33,7 @@ schemaVersion="1"
             "id": "problem_locationofcode",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider?"
+            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider?",
             "required": true
         },
         {

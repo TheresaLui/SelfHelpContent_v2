@@ -7,7 +7,7 @@ authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32636941"
+supportTopicIds="32636953"
 resourceTags=""
 productPesIds="16125"
 cloudEnvironments="public"
@@ -51,15 +51,22 @@ schemaVersion="1"
             ]
         },
         {
-            "id": "problem_expectedLatency",
+            "id": "problem_saskeys",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Did you reset your SAS keys recently and When?",
             "required": false
         },
+       {
+            "id": "problem_monitoringdata",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "What Azure monitoring data are your trying to collect ?",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
