@@ -14,7 +14,7 @@
 	articleId=""
 />
 
-# Troubleshooting Azure File Sync Performance
+# Troubleshooting Azure File Sync performance issues
 
 ## **Recommended documents**
 
