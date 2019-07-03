@@ -174,7 +174,7 @@
 			"watermarkText": "Filter by name",
 			"dynamicDropdownOptions": {
 				"dependsOn": "resourceGroup",
-				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.HanaonAzure/hanaInstances?api-version=2018-06-01",
+				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.HanaonAzure/hanaInstances?api-version=2017-11-03-preview",
 				"jTokenPath": "value",
 				"textProperty": "name",
 				"valueProperty": "id",
