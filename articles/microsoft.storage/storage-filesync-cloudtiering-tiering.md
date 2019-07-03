@@ -11,10 +11,10 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
-	articleId="956782a7-e2d1-4bbb-a7a7-b64de38f70ca"
+	articleId=""
 />
 
-# Troubleshooting Azure File Sync - Files are failing to tier
+# Troubleshooting Azure File Sync. Files are failing to tier
 
 ## **Recommended Documents**
 
