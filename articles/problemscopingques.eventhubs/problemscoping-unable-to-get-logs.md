@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Unable to retrieve diagnostics or log information",
     "fileAttachmentHint": "",
     "formElements": [

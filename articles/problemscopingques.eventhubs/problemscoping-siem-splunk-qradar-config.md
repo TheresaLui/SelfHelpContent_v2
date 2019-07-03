@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Questions on Configuring Qradar, Splunk or SIEM",
     "fileAttachmentHint": "",
     "formElements": [
@@ -29,10 +30,10 @@ schemaVersion="1"
             "required": true
         },
        {
-            "id": "problem_capacityUnits"
+            "id": "problem_siempartner",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "How many capacity units are your requesting for?",
+            "displayLabel": "Which SIEM product are you using?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -69,7 +70,7 @@ schemaVersion="1"
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any additional details ,
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],

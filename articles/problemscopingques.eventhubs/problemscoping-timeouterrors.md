@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Timeout errors",
     "fileAttachmentHint": "",
     "formElements": [
@@ -109,7 +110,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide the call stack with exception messages and any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": false
         }
     ],

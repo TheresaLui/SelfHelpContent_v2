@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Request to scale up Event Hubs Dedicated Sku",
     "fileAttachmentHint": "",
     "formElements": [

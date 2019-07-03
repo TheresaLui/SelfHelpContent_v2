@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Connectivity Issues",
     "fileAttachmentHint": "",
     "formElements": [
@@ -68,7 +69,7 @@ schemaVersion="1"
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the call stack with exception messages and time stamp",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],

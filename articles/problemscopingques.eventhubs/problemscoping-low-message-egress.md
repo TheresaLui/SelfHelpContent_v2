@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Low message egress",
     "fileAttachmentHint": "",
     "formElements": [

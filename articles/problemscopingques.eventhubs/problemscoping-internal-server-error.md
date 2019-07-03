@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Internal Server Errors",
     "fileAttachmentHint": "",
     "formElements": [

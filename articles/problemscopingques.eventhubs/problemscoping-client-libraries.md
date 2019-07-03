@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Questions with Event Hubs client libraries or API",
     "fileAttachmentHint": "",
     "formElements": [

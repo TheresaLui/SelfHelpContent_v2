@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Issues with Create or Delete Operations",
     "fileAttachmentHint": "",
     "formElements": [
