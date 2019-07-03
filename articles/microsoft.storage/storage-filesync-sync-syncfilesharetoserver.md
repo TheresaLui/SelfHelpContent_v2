@@ -16,7 +16,7 @@
 
 # Troubleshooting Azure File Sync - Files are not syncing from Azure file share to server.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Sync Failures**
 
