@@ -4,12 +4,14 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
+	ms.author="balaks"
 	displayOrder="401"
-	selfHelpType="generic"
-	supportTopicIds="32615110"
+	selfHelpType="tools"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"	articleId="d4efebf6-70c3-486a-8081-99e77c289b12"
+	cloudEnvironments="public"	
+	articleId="d4efebf6-70c3-486a-8081-99e77c289b12"
 />
 
 # How to develop applications with Azure Cosmos DB Cassandra API
