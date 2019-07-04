@@ -47,6 +47,10 @@
                 {
                     "value": "Azure CLI",
                     "text": "Azure CLI"
+                },
+                {
+                    "value": "I don't have the answer",
+                    "text": "I don't have the answer"
                 }
             ],
             "required": false
@@ -64,6 +68,10 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+                {
+                    "value": "I don't have the answer",
+                    "text": "I don't have the answer"
                 }
             ],
             "required": false
