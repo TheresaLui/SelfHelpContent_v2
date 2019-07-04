@@ -30,18 +30,20 @@ If your issue is with a label that applies protection, verify the following:
 	* If this option is enabled and **In Outlook apply Do Not Forward** is selected, the label displays in Outlook only
 	* If this option is enabled and **In Word, Excel, PowerPoint and File Explorer prompt user for custom permissions** is selected, the label displays in Word, Excel, PowerPoint and File Explorer, but not Outlook
 
-4. Check if you are using scoped policies which aren't configured properly: [How to configure the Azure Information Protection policy for specific users by using scoped policies](https://docs.microsoft.com/azure/information-protection/configure-policy-scope)
+4. Make sure the labels are added to a policy: [Add or remove a label to or from an Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/configure-policy-add-remove-label)
+	
+5. Check if you are using scoped policies which aren't configured properly: [How to configure the Azure Information Protection policy for specific users by using scoped policies](https://docs.microsoft.com/azure/information-protection/configure-policy-scope)
 
-5. If you are experiencing issues with visual markings not being applied, please review the below documents:
+6. If you are experiencing issues with visual markings not being applied, please review the below documents:
 
 	* [How to configure a label for visual markings for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-markings) 
 	* [When visual markings are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-markings#when-visual-markings-are-applied)
 
-6. Azure Information Protection does not support having multiple version of Office installed and multiple users signed in to Office. Try to logout all users logged into Office and try again [More information](https://docs.microsoft.com/azure/information-protection/requirements#applications)
+7. Azure Information Protection does not support having multiple version of Office installed and multiple users signed in to Office. Try to logout all users logged into Office and try again [More information](https://docs.microsoft.com/azure/information-protection/requirements#applications)
 
-7. Make sure you are using the correct client for your deployment. More information can be found [here](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
+8. Make sure you are using the correct client for your deployment. More information can be found [here](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
-8. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+9. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 
