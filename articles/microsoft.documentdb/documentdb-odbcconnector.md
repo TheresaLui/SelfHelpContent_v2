@@ -6,7 +6,7 @@
 	authors="bharathsreenivas, arramac"
     ms.author="bharathb, arramac"
 	displayOrder="95"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32597535"
 	resourceTags=""
 	productPesIds="15585"
