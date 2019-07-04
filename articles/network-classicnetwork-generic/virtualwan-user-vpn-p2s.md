@@ -21,5 +21,6 @@
 
 ## **Recommended Documents**
 
-* Create a P2S Connection using Virtual WAN with our [Tutorial: Create a Point-to-Site connection using Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-point-to-site-portal)
-* Learn more about more about [What is Azure Virtual WAN?](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about)
+* [What is Azure Virtual WAN?](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about)
+* Create a P2S Connection using Virtual WAN with our tutorial: [Create a Point-to-Site connection using Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-point-to-site-portal)
+
