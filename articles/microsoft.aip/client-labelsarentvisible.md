@@ -39,7 +39,9 @@ If your issue is with a label that applies protection, verify the following:
 
 6. Azure Information Protection does not support having multiple version of Office installed and multiple users signed in to Office. Try to logout all users logged into Office and try again [More information](https://docs.microsoft.com/azure/information-protection/requirements#applications)
 
-7. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+7. Make sure you are using the correct client for your deployment. More information can be found [here](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
+
+8. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 
