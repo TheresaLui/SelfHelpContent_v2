@@ -7,7 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# Create an Azure service health alert
+# Create an Azure service health alert 
 ---
 {
   "$schema": "AdvisorRecommendation",

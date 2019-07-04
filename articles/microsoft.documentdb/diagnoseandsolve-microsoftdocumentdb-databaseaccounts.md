@@ -45,42 +45,6 @@
             "commonSolutionArticleId": "7352da63-29a0-4f50-a0c7-c47443b12d76"
         },
         {
-            "id": "Connecting_and_authenticating_with_Gremlin_API",
-            "title": "Connecting and authenticating with Gremlin API",
-            "description": "Connecting and authenticating with Gremlin Authentication.",
-            "category": "Connectivity",
-            "searchTags": "",
-            "supportTopicId": "32597491",
-            "commonSolutionArticleId": "5845f31f-a927-44e2-9277-030f1bce88a2"
-        },
-        {
-            "id": "Gremlin_-_Importing_data",
-            "title": "Gremlin - Importing data",
-            "description": "Importing data with Gremlin.",
-            "category": "Gremlin API",
-            "searchTags": "",
-            "supportTopicId": "32597507",
-            "commonSolutionArticleId": "989307be-883e-45eb-b8f2-f747c7deca56"
-        },
-        {
-            "id": "Performance_tips_for_Azure_Cosmos_DB_Gremlin_API",
-            "title": "Performance tips for Azure Cosmos DB Gremlin API",
-            "description": "CosmosDB performance tips for Gremlin API",
-            "category": "Cosmos DB",
-            "searchTags": "",
-            "supportTopicId": "32597549",
-            "commonSolutionArticleId": "043d6851-e831-4139-9698-ff5902dc28c6"
-        },
-        {
-            "id": "Gremlin_-_Supported_operators",
-            "title": "Gremlin - Supported operators",
-            "description": "Gremlin Support",
-            "category": "Cosmos DB",
-            "searchTags": "",
-            "supportTopicId": "32597564",
-            "commonSolutionArticleId": "bcf0febc-9b0e-4fd9-b1a1-5fcb296de645"
-        },
-        {
             "id": "Azure_Cosmos_DB_Emulator",
             "title": "Azure Cosmos DB Emulator",
             "description": "How do I use the Azure Cosmos DB Emulator?",
@@ -100,7 +64,7 @@
         },
         {
             "id": "MongoDB_-_How_to_develop_apps_to_manage_data_in_MongoDB_API?",
-            "title": "MongoDB - How to develop apps to manage data in MongoDB API?",
+            "title": "MongoDB - How do I develop apps to manage data in MongoDB API?",
             "description": "How do I develop apps to manage data in MongoDB API?",
             "category": "MongoDB Development",
             "searchTags": "",
