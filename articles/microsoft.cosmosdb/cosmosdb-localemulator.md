@@ -3,14 +3,14 @@
 	description="Cosmos DB Emulator"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="bharathsreenivas"
-	displayOrder="91"
-	selfHelpType="resource"
-	supportTopicIds="32597531"
+	authors="rnagpal"
+	ms.author="rnagpal"
+	selfHelpType="generic"
+	supportTopicIds="32675642"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="6d010170-a4d1-47d0-a543-36771788e503"
+	articleId="cosmosdb-localemulator"
 />
 
 # Azure Cosmos DB Emulator
