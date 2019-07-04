@@ -16,6 +16,9 @@
 
 # Azure Information Protection service - PowerShell
 
+## **Recommended Steps**
+Verify that you have configured all network devices according to [Firewalls and network infrastructure settings](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure)
+
 ## **Recommended Documents**
 
 * [Administering the Azure Rights Management service by using Windows PowerShell](https://docs.microsoft.com/azure/information-protection/administer-powershell)<br>
