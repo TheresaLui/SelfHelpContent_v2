@@ -56,6 +56,7 @@ If your issue is with a label that applies protection, verify the following:
 
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Overview of sensitivity labels](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
 * [Download Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)<br>
