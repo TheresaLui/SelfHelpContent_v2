@@ -40,8 +40,8 @@
                     "text": "No"
                 },
                 {
-                    "value": "I don't have the answer",
-                    "text": "I don't have the answer"
+                    "value": "dont_know_answer",
+                    "text": "Don't know or unsure"
                 }
             ],
             "required": false
@@ -75,8 +75,8 @@
                     "text": "Azure CLI"
                 },
                 {
-                    "value": "I don't have the answer",
-                    "text": "I don't have the answer"
+                    "value": "dont_know_answer",
+                    "text": "Don't know or unsure"
                 }
             ],
             "required": false
