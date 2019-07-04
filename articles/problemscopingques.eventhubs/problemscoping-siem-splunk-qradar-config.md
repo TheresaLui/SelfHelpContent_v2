@@ -67,7 +67,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any additional details",
             "required": true,
