@@ -31,7 +31,7 @@ If your issue is with a label that applies protection, verify the following:
 	* If this option is enabled and **In Word, Excel, PowerPoint and File Explorer prompt user for custom permissions** is selected, the label displays in Word, Excel, PowerPoint and File Explorer, but not Outlook
 
 4. Make sure the labels are added to a policy: [Add or remove a label to or from an Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/configure-policy-add-remove-label)
-	
+
 5. Check if you are using scoped policies which aren't configured properly: [How to configure the Azure Information Protection policy for specific users by using scoped policies](https://docs.microsoft.com/azure/information-protection/configure-policy-scope)
 
 6. If you are experiencing issues with visual markings not being applied, please review the below documents:
