@@ -7,7 +7,7 @@
 	authors="vinynigam"
 	displayOrder="10"
 	selfHelpType="resource"
-	supportTopicIds="32642176"
+	supportTopicIds="32606422"
 	resourceTags="optional"
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"

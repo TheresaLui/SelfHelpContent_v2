@@ -21,7 +21,7 @@
 ### Unable to see agent in the Nodes page
 
 * [Check the Log Analytics workspace id](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard) and key entered for the agent during setup
-* Check if the agent is up and running. Open a CMD prompt and run `tasklist |findstr NPMDAgent'. If agent is not found, that means it is not running. Look for **Microsoft Monitoring Agent** and start it.
+* Check if the agent is up and running. Open a CMD prompt and run `tasklist |findstr NPMDAgent`. If agent is not found, that means it is not running. Look for **Microsoft Monitoring Agent** and start it.
 
 ### **No Data in NPM**
 
