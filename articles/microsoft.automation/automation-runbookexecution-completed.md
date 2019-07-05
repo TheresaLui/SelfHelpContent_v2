@@ -59,6 +59,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 * For help passing parameters into webhooks, see [Start a runbook from a webhook](https://docs.microsoft.com/azure/automation/automation-webhooks#parameters)
 
 ### "The term <X> is not recognized..."
+
 * Follow the steps in ["Cmdlet not recognized" in the runbook troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#cmdlet-not-recognized)
 
 ### Errors about "TypeData"
