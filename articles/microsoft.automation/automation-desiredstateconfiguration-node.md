@@ -40,6 +40,10 @@
 * See "Using xDscDiagnostics to Analyze DSC Logs" for information on how to collect logs Support will need to help you with your case
 * You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/dsc/troubleshooting/troubleshooting#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
 
+### **DSC and VMSS**
+
+* To deploy DSC with VMSS, consult the sample template ["VMSS Configuration managed by Azure Automation"](https://azure.microsoft.com/resources/templates/201-vmss-automation-dsc/)
+
 ## **Recommended Documents**
 
 * [Troubleshoot issues with Automation DSC](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration)<br>
