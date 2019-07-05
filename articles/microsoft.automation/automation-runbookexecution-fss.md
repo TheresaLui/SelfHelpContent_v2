@@ -66,6 +66,10 @@ This issue can occur when the runbook isn't using a RunAs account to access Azur
 
 If none of the above solutions address your problem, please follow the steps in [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510) before opening a case. This will help us resolve your case as quickly as possible.
 
+### Runbook is stuck
+
+* If you are unable to stop a runbook job in the portal, you may be able to stop it via PowerShell with either [Stop-AzureRmAutomationJob](https://docs.microsoft.com/powershell/module/azurerm.automation/Stop-AzureRmAutomationJob?view=azurermps-6.13.0) or [Stop-AzAutomationJob](https://docs.microsoft.com/powershell/module/az.automation/Stop-AzAutomationJob?view=azps-2.4.0)
+
 ## **Recommended Documents**
 
 * [Troubleshoot errors with runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)
