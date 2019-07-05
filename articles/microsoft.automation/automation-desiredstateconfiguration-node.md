@@ -44,6 +44,10 @@
 
 * To deploy DSC with VMSS, consult the sample template ["VMSS Configuration managed by Azure Automation"](https://azure.microsoft.com/resources/templates/201-vmss-automation-dsc/)
 
+### **Issues with a specific DSC Resource**
+
+* For support with specific DSC resources, you will need to file an issue with the resource owner. Many resources can be found [on GitHub in the DSC Resources repository](https://github.com/PowerShell/DscResources#dsc-resources). 
+
 ## **Recommended Documents**
 
 * [Troubleshoot issues with Automation DSC](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration)<br>
