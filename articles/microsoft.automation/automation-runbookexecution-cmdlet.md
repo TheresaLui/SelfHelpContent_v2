@@ -24,7 +24,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 * Try running the [runbook locally](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation.
 * [Update the Azure PowerShell](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) modules in your Automation Account to the latest version
-* Ensure you are using the RunAs service principle with the -ServicePrincipal parameter on any Azure resources. Using credentials within the Azure Automation sandbox may lead to authentication failures. 
+* Ensure you are using the RunAs service principal with the -ServicePrincipal parameter on any Azure resources. Using credentials within the Azure Automation sandbox may lead to authentication failures. 
 
 ### Runbook fails with "The subscription cannot be found" error
 

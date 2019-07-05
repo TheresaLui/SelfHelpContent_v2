@@ -30,9 +30,9 @@
 
 * Review the ["DSC node report becomes stuck 'in progress' state" section of the State Configuration troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#dsc-in-progress)
 
-### "One or more errors occured"
+### "One or more errors occurred"
 
-* If you are using Register-AzAutomationDscNode or Register-AzureRMAutomationDscNode and recieving this error, it is because the resource can't be found.
+* If you are using Register-AzAutomationDscNode or Register-AzureRMAutomationDscNode and receiving this error, it is because the resource can't be found.
 * This can often occur when trying to onboard nodes across subscriptions. To achieve this, follow the documentation at ["Onboarding Machines for Management"](https://docs.microsoft.com/en-us/azure/automation/automation-dsc-onboarding#registering-virtual-machines-across-azure-subscriptions)
 
 ### Checking error logs
