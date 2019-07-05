@@ -76,6 +76,9 @@ If none of the above solutions address your problem, please follow the steps in 
 
 * This error occurs when using credentials inside of an Azure Automation sandbox. Please use the -ServicePrincipal parameter on any Azure resources with the RunAs account. 
 
+### "Command not recognized"
+
+* This error is commonly caused when modules have not been imported or are otherwise out of date. Ensure any dependent modules in your script have been [imported into Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery#modules-in-powershell-gallery) and are the correct version. 
 
 
 
