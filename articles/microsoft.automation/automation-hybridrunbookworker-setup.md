@@ -37,10 +37,8 @@
 
 ### **"Last seen time" not updated**
 
-* If the hybrid worker isn't reporting to the Azure Automation service, follow the [Troubleshoot Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker) guide for your OS. 
-* Review the [network planning guide](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker#network-planning) and ensure you have connectivity to the service.
-
-
+* If the hybrid worker isn't reporting to the Azure Automation service, follow the [Troubleshoot Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker) guide for your OS
+* Review the [network planning guide](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker#network-planning) and ensure you have connectivity to the service
 
 ## **Recommended Documents**
 
