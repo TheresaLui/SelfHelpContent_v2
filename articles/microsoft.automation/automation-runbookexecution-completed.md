@@ -27,11 +27,11 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 ### Inconsistent behavior in runbooks
 
-* Follow the guidance in [Runbook Execution](https://docs.microsoft.com/azure/automation/automation-runbook-execution#runbook-behavior) to avoid issues with concurrent jobs, resources getting created multiple times, or other timing-sensitive logic in runbooks. 
+* Follow the guidance in [Runbook Execution](https://docs.microsoft.com/azure/automation/automation-runbook-execution#runbook-behavior) to avoid issues with concurrent jobs, resources getting created multiple times, or other timing-sensitive logic in runbooks
 
 ### Switching between multiple subscriptions in a runbook
 
-* Follow the guidance in "Working with multiple subscriptions"(https://docs.microsoft.com/azure/automation/automation-runbook-execution#working-with-multiple-subscriptions)
+* Follow the guidance in [Working with multiple subscriptions](https://docs.microsoft.com/azure/automation/automation-runbook-execution#working-with-multiple-subscriptions)
 
 ### *Runbook fails with error "The subscription cannot be found"
 
@@ -52,7 +52,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 ### Runbooks were working, but suddenly stopped
 
 * If runbooks were previously executing but stopped, [ensure the RunAs account has not expired](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
-* If you are using webhooks to start runbooks, [ensure the webhook has not expired](https://docs.microsoft.com/azure/automation/automation-webhooks#renew-webhook).
+* If you are using webhooks to start runbooks, [ensure the webhook has not expired](https://docs.microsoft.com/azure/automation/automation-webhooks#renew-webhook)
 
 ### Passing parameters into webhooks
 
@@ -64,7 +64,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 ### Errors about "TypeData"
 
-* If you are receiving errors about TypeData, you are running a PowerShell Workflow with modules that do not support Workflow. You need to change the runbook type to PowerShell. See ["Runbook types" for more details. ](https://docs.microsoft.com/azure/automation/automation-runbook-types#powershell-runbooks)
+* If you are receiving errors about TypeData, you are running a PowerShell Workflow with modules that do not support Workflow. You need to change the runbook type to PowerShell. See ["Runbook types" for more details](https://docs.microsoft.com/azure/automation/automation-runbook-types#powershell-runbooks).
 
 ### Using Az modules
 
