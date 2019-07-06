@@ -28,7 +28,7 @@
 
 ### I can't deploy Change Tracking into the region I want
 
-* Only specific regions are supported. Review the [Workspace Mappings document](https://docs.microsoft.com/azure/automation/how-to/region-mappings)
+* Only specific regions are supported. Review the [Workspace Mappings document](https://docs.microsoft.com/azure/automation/how-to/region-mappings).
 
 ## **Recommended Documents**
 
