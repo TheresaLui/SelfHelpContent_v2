@@ -33,7 +33,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 * Follow the guidance in [Working with multiple subscriptions](https://docs.microsoft.com/azure/automation/automation-runbook-execution#working-with-multiple-subscriptions)
 
-### *Runbook fails with error "The subscription cannot be found"
+### Runbook fails with error "The subscription cannot be found"
 
 * This issue can occur when the runbook isn't using a RunAs account to access Azure resources. To resolve, follow the steps in [Scenario: Unable to find the Azure subscription](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#unable-to-find-subscription). 
 
