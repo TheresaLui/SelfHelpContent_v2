@@ -10,7 +10,7 @@
 	articleId="database-connectivity-other"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32673588"
+	supportTopicIds="32673596"
 	resourceTags=""
 	productPesIds="16307"
 	cloudEnvironments="public"
