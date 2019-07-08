@@ -14,6 +14,7 @@
 # Scaling Based on Schedule or Workload
 ---
 {
+	"$schema": "SelfHelpContent",
 	"resourceRequired": true,
 	"title": "Scaling Based on Schedule or Workload",
 	"fileAttachmentHint": "",
