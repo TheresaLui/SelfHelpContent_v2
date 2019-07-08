@@ -14,6 +14,7 @@
 # ARM Template Issues or Questions
 ---
 {
+	"$schema": "SelfHelpContent",
 	"resourceRequired": true,
 	"title": "ARM Template Issues or Questions",
 	"fileAttachmentHint": "",
