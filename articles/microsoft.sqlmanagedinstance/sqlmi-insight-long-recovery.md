@@ -21,8 +21,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> was going through a long recovery.
-It started at <!--$recoveryStart-->recoveryStart<!--/$recoveryStart--> and lasted for <!--$recoveryDuration-->recoveryDuration<!--/$recoveryDuration-->.
+We identified database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> was going through a long recovery. It started at <!--$recoveryStart-->recoveryStart<!--/$recoveryStart--> and lasted for <!--$recoveryDuration-->recoveryDuration<!--/$recoveryDuration-->.
 
 Recovery operation is a database process that occurs when a database first restarts after a downtime due to user initiated or system side operation. This rolls back all your in-flight but uncommitted transactions at the time of restart, and during this time the database becomes unavailable.
 <!--/issueDescription-->
