@@ -7,11 +7,11 @@
 	ms.author="mquian"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32677638"
+	supportTopicIds="32677641"
 	resourceTags=""
 	productPesIds="15791"
 	cloudEnvironments="public"
-	articleId="f7517214-1014-48f3-9ce4-3f84fb92275e"
+	articleId="f7517214-1021-48f3-9ce4-3f84fb92275e"
 />
 
 # Integration Accounts Schemas, Maps and other Artifacts
