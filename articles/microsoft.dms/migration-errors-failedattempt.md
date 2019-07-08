@@ -18,10 +18,9 @@
 
 # Troubleshooting top common errors when running a migration activity  
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot common Azure DMS issues and errors](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms)<br>
 * [Known issues/migration limitations with online migrations to Azure SQL DB](https://docs.microsoft.com/azure/dms/known-issues-azure-sql-online)<br>
 * [Known issues/migration limitations with online migrations to Azure DB for MySQL](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online)<br>
-* [Known issues/migration limitations with online migrations to Azure DB for PostgreSQL](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online)<b>
-* 
+* [Known issues/migration limitations with online migrations to Azure DB for PostgreSQL](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online)
