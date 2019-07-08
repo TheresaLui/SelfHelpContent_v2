@@ -14,7 +14,7 @@
 	articleId="60d58083-8fdf-4f4a-85fd-3f26004c78c3"
 />
 
-# Troubleshooting Azure File Sync - Files are not syncing from Azure file share to server.
+# Troubleshooting Azure File Sync - Files are not syncing from Azure file share to server
 
 ## **Recommended Documents**
 
