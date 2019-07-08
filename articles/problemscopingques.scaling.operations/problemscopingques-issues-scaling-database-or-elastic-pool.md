@@ -63,12 +63,11 @@
             			"textProperty": "properties.description",
             			"valueProperty": "id",
             			"textPropertyRegex": null
+				"defaultDropdownOptions": {
+                			"value": "dont_know_answer",
+                			"text": "Don't know/None of these"
+            			}
         		},
-			"dropdownOptions": [
-                	{
-                    		"value": "none_of_these",
-                    		"text": "None of the above"
-                	}],
 			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": "ongoing_or_completed_updateslo == Ongoing_normal || ongoing_or_completed_updateslo == Ongoing_long-running_stuck"
