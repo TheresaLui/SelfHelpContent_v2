@@ -1,21 +1,21 @@
 <properties
-	articleId="dw-scoping-dataimportexport-usingazuredatafactory.md"
-	pageTitle="Using Azure Data Factory"
-	description="Using Azure Data Factory"
-	authors="saltug,mlee3gsd"
-	ms.author="saltug,martinle"
+	articleId="dw-scoping-backuprestoreandbusinesscontinuity-howtoquestionsorplanningarecoverystrategy.md"
+	pageTitle="How-to questions or planning a recovery strategy"
+	description="How-to questions or planning a recovery strategy"
+	authors="mlee3gsd"
+	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635226"
+	supportTopicIds="32635201"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Data Import, Export (ETL)/Using Azure Data Factory
+# Backup, Restore and Business Continuity - How-to questions or planning a recovery strategy
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Using Azure Data Factory",
+    "title": "How-to questions or planning a recovery strategy",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -25,16 +25,23 @@
             "displayLabel": "When did the problem start",
             "required": true
         },
-        {
-            "id": "dw_scoping_import_datafactory_error",
+	{
+            "id": "dw_scoping_backup_backupregion",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "What is the region of your data warehouse?",
+            "required": false
+        },
+        {
+            "id": "dw_scoping_backup_slo",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "What is the performance tier of your data warehouse?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",

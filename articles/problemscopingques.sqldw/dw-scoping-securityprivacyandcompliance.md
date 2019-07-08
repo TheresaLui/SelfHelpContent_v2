@@ -1,32 +1,32 @@
 <properties
-	articleId="dw-scoping-dataimportexport-usingazuredatafactory.md"
-	pageTitle="Using Azure Data Factory"
-	description="Using Azure Data Factory"
-	authors="saltug,mlee3gsd"
-	ms.author="saltug,martinle"
+	articleId="dw-scoping-securityprivacyandcompliance.md"
+	pageTitle="Security, Privacy and Compliance"
+	description="Security, Privacy and Compliance"
+	authors="mlee3gsd"
+	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635226"
+	supportTopicIds="32635184, 32635185, 32635191, 32635199, 32635213, 32635221, 32635222, 32635233"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Data Import, Export (ETL)/Using Azure Data Factory
+# Security, Privacy and Compliance - General
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Using Azure Data Factory",
+    "title": "Security, Privacy and Compliance",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "required": true
         },
         {
-            "id": "dw_scoping_import_datafactory_error",
+            "id": "dw_scoping_security_error",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "If an error was displayed, what was the error message?",

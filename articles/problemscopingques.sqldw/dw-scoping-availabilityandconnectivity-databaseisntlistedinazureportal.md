@@ -1,21 +1,21 @@
 <properties
-	articleId="dw-scoping-dataimportexport-usingazuredatafactory.md"
-	pageTitle="Using Azure Data Factory"
-	description="Using Azure Data Factory"
-	authors="saltug,mlee3gsd"
-	ms.author="saltug,martinle"
+	articleId="dw-scoping-availabilityandconnectivity-databaseisntlistedinazureportal.md"
+	pageTitle="Database isn't listed in Azure portal"
+	description="Database isn't listed in Azure portal"
+	authors="mlee3gsd"
+	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635226"
+	supportTopicIds="32635194"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Data Import, Export (ETL)/Using Azure Data Factory
+# Availability and Connectivity - Database isn't listed in Azure portal
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Using Azure Data Factory",
+    "title": "Database isn't listed in Azure portal",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -26,10 +26,10 @@
             "required": true
         },
         {
-            "id": "dw_scoping_import_datafactory_error",
+            "id": "dw_scoping_availability_databasename",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "What is the name of the database that is not listed in the portal?",
             "required": false
         },
         {

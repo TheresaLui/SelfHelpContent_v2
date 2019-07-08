@@ -1,40 +1,54 @@
 <properties
-	articleId="dw-scoping-dataimportexport-usingazuredatafactory.md"
-	pageTitle="Using Azure Data Factory"
-	description="Using Azure Data Factory"
-	authors="saltug,mlee3gsd"
-	ms.author="saltug,martinle"
+	articleId="dw-scoping-backuprestoreandbusinesscontinuity-restoringfrombackup.md"
+	pageTitle="Restoring from backup"
+	description="Restoring from backup"
+	authors="mlee3gsd"
+	ms.author="martinle"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635226"
+	supportTopicIds="32635218"
 	productPesIds="15818"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Data Import, Export (ETL)/Using Azure Data Factory
+# Backup, Restore and Business Continuity - Restoring from backup
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Using Azure Data Factory",
+    "title": "Restoring from backup",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the maintenance occur?",
             "required": true
         },
         {
-            "id": "dw_scoping_import_datafactory_error",
+            "id": "dw_scoping_backup_backupregion",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "What region is your backup located?",
+            "required": false
+        },
+        {
+            "id": "dw_scoping_backup_restoreregion",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "What is the region you are restoring to?",
+            "required": false
+        },
+        {
+            "id": "dw_scoping_backup_error",
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "If an error was displayed, what was the error message?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
