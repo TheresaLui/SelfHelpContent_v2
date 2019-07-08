@@ -14,7 +14,7 @@
  	articleId="a227223a-6b33-4c77-be5a-07ba742a9bd6"
 />
 
-# Configure User Multi-Factor Authentication Methods (Authenticator, OATH token, Voice or SMS) for Azure Active Directory
+# Configure User Multi-Factor Authentication Methods (Authenticator App, Phone, SMS, Token) for Azure Active Directory
 
 ## **Recommended Documents**
 
