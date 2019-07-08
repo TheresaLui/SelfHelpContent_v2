@@ -18,10 +18,9 @@
 
 # Troubleshooting migration failures 
 
-See How-to Guides, Tutorials and Resources section in Azure Database Migration Service Documentation website for 
-pre-requisits for setting up DMS service instance, configuring migration projects and troubleshooting errors.
+See How-to Guides, Tutorials and Resources section in Azure Database Migration Service Documentation website for DMS pre-requisites, service instance, configuring migration projects, and troubleshooting errors.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/)
 * [Troubleshoot common Azure DMS issues and errors](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms)<br>
