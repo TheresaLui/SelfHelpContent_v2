@@ -2,6 +2,7 @@
     pageTitle="virtualwan-problemscopingques-select-vpn-partner"
     description="Select My Virtual WAN VPN Partner"
     authors="karenhammons"
+    ms.author="karenha,reyandap"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640643,32640645,32640655"
     productPesIds="16572"
