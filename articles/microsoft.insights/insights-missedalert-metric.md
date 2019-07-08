@@ -26,8 +26,8 @@ If you believe your metric alert should have triggered but it did not, the follo
 
 1. Review the alert rule configuration:
 
-    - Check that **Aggregation type**, **Aggregation granularity (period)** and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want.
-    - Please also mind Dynamic Thresholds advanced settings, if used, as **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated.
+    - Check that **Aggregation type**, **Aggregation granularity (period)** and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want
+    - Please also mind Dynamic Thresholds advanced settings, if used, as **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated
 
 If they are not what you want, edit the rule to match what you want.
 
