@@ -1,6 +1,6 @@
 <properties
     pageTitle="Development and Creation of Logic Apps -other issues"
-    description="Development and Creation of Logic Apps -other issues""
+    description="Development and Creation of Logic Apps -other issues"
     service=""
     resource=""
     authors="genlin"
