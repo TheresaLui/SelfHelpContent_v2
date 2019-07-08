@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Managed Instance - Long recovery"
-	description="Managed Instance - Long recovery"
-	infoBubbleText="Database recovery is taking a long time."
-	service="microsoft.sql"
-	resource="managedInstances"
-	ms.author="v-anbozo"
-	authors="v-anbozo"
-	displayOrder=""
-	diagnosticScenario="SqlMIConnectivity_Long recovery"
-	selfHelpType="diagnostics"
-	supportTopicIds="32637216,32637254"
-	resourceTags=""
-	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	articleId="sqlmanagedinstance-connectivity-long-recovery"
-/>
+  	pageTitle="Managed Instance - Long recovery"
+  	description="Managed Instance - Long recovery"
+  	infoBubbleText="Database recovery is taking a long time."
+  	service="microsoft.sql"
+  	resource="managedInstances"
+  	ms.author="v-anbozo"
+  	authors="v-anbozo"
+  	displayOrder=""
+  	diagnosticScenario="SqlMIConnectivity_Long recovery"
+  	selfHelpType="diagnostics"
+  	supportTopicIds="32637216,32637254"
+  	resourceTags=""
+  	productPesIds="16259"
+  	cloudEnvironments="public,blackForest,fairfax,mooncake"
+  	articleId="sqlmanagedinstance-connectivity-long-recovery"
+  />
 
 # Managed Instance - Long recovery
 
