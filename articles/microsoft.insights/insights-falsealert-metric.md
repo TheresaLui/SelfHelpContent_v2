@@ -28,10 +28,10 @@ If you believe your metric alert shouldn't have triggered but it did, the follow
 
 **Note:** If you are using Dynamic Thresholds condition type and think that thresholds used were not correct, please provide feedback using the frown icon. This feedback will impact the machine learning algorithmic research and improve future detections.
 
-1. If you have selected multiple dimension values for a metric, the alert will be triggered when **any** of the metric time-series (as defined by a combination of dimension values) breaches the threshold.
+1. If you have selected multiple dimension values for a metric, the alert will be triggered when **any** of the metric time-series (as defined by a combination of dimension values) breaches the threshold
 1. Review the alert rule configuration:
 
-    - Check that **Aggregation type**, **Aggregation granularity (period)** and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want.
+    - Check that **Aggregation type**, **Aggregation granularity (period)**, and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want
     - Please also mind Dynamic Thresholds advanced settings, if used, as **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated.
 
 If they are not what you want, edit the rule to match what you want.
