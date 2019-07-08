@@ -29,7 +29,7 @@
             "id": "dw_scoping_availability_error",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": If an error was displayed, what was the error message?",
+            "displayLabel": "If an error was displayed, what was the error message?",
             "required": false
         },
         {
