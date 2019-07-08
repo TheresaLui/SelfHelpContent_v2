@@ -18,9 +18,9 @@
 
 # Troubleshooting DMS database connectivity issues 
 
-See How-to Guides, Tutorials and Resources section in Azure Database Migration Service Documentation website for 
-pre-requisits for setting up DMS service instance, configuring migration projects and troubleshooting errors.
+See How-to Guides, Tutorials, and Resources section in Azure Database Migration Service documentation for 
+pre-requisites for setting up DMS service instance, configuring migration projects, and troubleshooting errors.
 
 ## **Recommended Documents**
 
-[Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/)
+* [Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/)
