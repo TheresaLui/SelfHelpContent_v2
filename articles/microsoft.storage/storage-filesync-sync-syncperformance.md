@@ -24,6 +24,7 @@
 
 **Sync Monitoring**
 
+- [Monitor Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-monitoring)
 - [How do I monitor sync health?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#broken-sync)<br>
 - [How do I monitor the progress of a current sync session?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#how-do-i-monitor-the-progress-of-a-current-sync-session)<br>
 - [How do I know if my servers are in sync with each other?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#how-do-i-know-if-my-servers-are-in-sync-with-each-other)<br>
