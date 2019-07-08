@@ -67,12 +67,13 @@
             	"watermarkText": "Provide additional information about your issue",
             	"required": true,
             	"useAsAdditionalDetails": true
-       	 	}
+       	 	
 	}, {
 		"id": "learn_more_text",
 		"order": 1001,
 		"controlType": "infoblock",
 		"content": "<a href='https://docs.microsoft.com/azure/virtual-wan/virtual-wan-locations-partners'>Learn about configuring devices through our partners </a> Not listed? Find details on how to get your partner onboarded."
         }
+	}
     ]
 }
