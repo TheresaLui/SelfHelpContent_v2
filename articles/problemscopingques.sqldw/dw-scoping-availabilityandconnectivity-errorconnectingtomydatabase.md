@@ -1,14 +1,14 @@
 <properties
-        articleId="dw-scoping-availabilityandconnectivity-errorconnectingtomydatabase.md"
-        pageTitle="Error connecting to my database"
-        description="Error connecting to my database"
-        authors="mlee3gsd"
-        ms.author="martinle"
-        selfHelpType="problemScopingQuestions"
-        supportTopicIds="32635195"
-        productPesIds="15818"
-        cloudEnvironments="public"
-        schemaVersion="1"
+	articleId="dw-scoping-availabilityandconnectivity-errorconnectingtomydatabase.md"
+	pageTitle="Error connecting to my database"
+	description="Error connecting to my database"
+	authors="mlee3gsd"
+	ms.author="martinle"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32635195"
+	productPesIds="15818"
+	cloudEnvironments="public"
+	schemaVersion="1"
 />
 # Availability and Connectivity - Error connecting to my database
 ---
