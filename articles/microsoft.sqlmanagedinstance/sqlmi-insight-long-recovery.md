@@ -1,4 +1,4 @@
-- <properties
+<properties
   	pageTitle="Managed Instance - Long recovery"
   	description="Managed Instance - Long recovery"
   	infoBubbleText="Database recovery is taking a long time."
