@@ -18,6 +18,6 @@
 
 # Troubleshooting the error when more than max number of databases selected for migration  
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* [Troubleshooting - max number of databases selected for migration](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms#max-number-of-databases-selected-for-migration)
+* [Troubleshooting max number of databases selected for migration](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms#max-number-of-databases-selected-for-migration)
