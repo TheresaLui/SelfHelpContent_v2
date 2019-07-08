@@ -19,5 +19,5 @@
 ## **Recommended Documents**
 
 * [Authentication methods](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods)
-* [Troubleshooting phone options](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods#troubleshooting-phone-options)
+* [Troubleshooting phone options](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods#troubleshooting-phone-options)
 * [Converged registration for self-service password reset and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged)
