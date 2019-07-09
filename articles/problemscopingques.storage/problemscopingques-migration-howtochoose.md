@@ -146,7 +146,7 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
