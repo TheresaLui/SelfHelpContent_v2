@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public"
-	articleId="647d0661-562c-42ea-9df1-0066faef2d86"
+	articleId="49955c3a-0bc9-41a9-8520-8c6fbe81b4cb
 />
 
 # Planned Maintenance in virtual machine scale sets
