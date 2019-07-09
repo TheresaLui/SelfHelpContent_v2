@@ -8,7 +8,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public,MoonCake,FairFax"
 	schemaVersion="1"
-	articleId="E4579893-8E9C-469C-A21A-D84EEEFAD4A9"
+	articleId="ED05B7F3-35E8-4F28-B3A3-FBFF20E2B301"
 />
 
 # Storage migration between Storage Accounts

@@ -43,8 +43,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "azcopy_performance",
@@ -66,8 +65,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "error_code",
@@ -105,8 +103,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false
         },
         {
             "id": "problem_start_time",

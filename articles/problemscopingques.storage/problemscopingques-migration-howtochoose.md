@@ -67,12 +67,11 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
          {
             "id": "network_bandwidth",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Approximate available network bandwidth",
             "watermarkText": "Choose an option",
@@ -118,8 +117,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "error_code",
@@ -141,19 +139,18 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
