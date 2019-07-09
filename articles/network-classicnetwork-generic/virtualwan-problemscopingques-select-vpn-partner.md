@@ -65,15 +65,15 @@
             ],
             "required": true
 	},
-	{ 
-            "id": "problem_start_time", 
-            "order": 1, 
-            "controlType": "datetimepicker", 
-            "displayLabel": "When did the problem start?", 
-            "required": true 
+	{
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
         },
 	{
-            "id": "problem_description", 
+            "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
