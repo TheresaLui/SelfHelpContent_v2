@@ -22,6 +22,6 @@
 
 * [Frequently Asked Questions (FAQ) for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
 * [Troubleshoot FAQ for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq#troubleshooting)<br>
-* [Restart VMs in a scale set](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-manage-cli#restart-vms-in-a-scale-set)<br>
-* [Stop and start VMs in a scale set](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-manage-cli#stop-and-start-vms-in-a-scale-set)<br>
+* [Restart VMs in a scale set](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-manage-cli#restart-vms-in-a-scale-set)<br>
+* [Stop and start VMs in a scale set](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-manage-cli#stop-and-start-vms-in-a-scale-set)<br>
 * [Troubleshoot FAQ for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq#troubleshooting)
