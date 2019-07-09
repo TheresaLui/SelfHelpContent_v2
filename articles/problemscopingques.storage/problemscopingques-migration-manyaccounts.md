@@ -9,6 +9,8 @@
 	cloudEnvironments="public,MoonCake,FairFax"
 	schemaVersion="1"
 	articleId="E4579893-8E9C-469C-A21A-D84EEEFAD4A9"
+/>
+
 # Storage migration between Storage Accounts
 ---
 {
