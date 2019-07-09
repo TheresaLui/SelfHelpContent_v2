@@ -13,8 +13,7 @@
 
 
 # Select VPN Device Partner - Configure my On-Prem Device 
-
-
+---
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": true,
@@ -77,3 +76,4 @@
 	}
     ]
 }
+---
