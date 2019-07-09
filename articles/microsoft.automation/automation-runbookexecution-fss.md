@@ -68,6 +68,9 @@ This issue can occur when the runbook isn't using a RunAs account to access Azur
 * If runbooks were previously executing but stopped, [ensure the RunAs account has not expired](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
 * If you are using webhooks to start runbooks, [ensure the webhook has not expired](https://docs.microsoft.com/azure/automation/automation-webhooks#renew-webhook).
 
+### Using a Hybrid Worker
+
+* If you are using a hybrid worker to execute jobs, please consult the [Hybrid Runbook Worker troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker). 
 
 ### Using Az modules
 
