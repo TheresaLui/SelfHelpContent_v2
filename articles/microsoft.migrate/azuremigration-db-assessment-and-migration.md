@@ -7,7 +7,7 @@
     ms.author="snehaa"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32675742, 32675743"
+    supportTopicIds="32675742"
     resourceTags=""
     productPesIds="16348"
     cloudEnvironments="public"
