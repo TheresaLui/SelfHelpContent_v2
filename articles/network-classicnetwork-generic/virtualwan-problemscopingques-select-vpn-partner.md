@@ -10,16 +10,16 @@
     cloudEnvironments="public,mooncake,fairfax"
     schemaVersion="1"
 />
-# Select VPN Device Partner Configure my On-Prem Device 
+# Select VPN Device Partner Configure my On Prem Device 
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Virtual WAN On-Premise VPN Device",
     "fileAttachmentHint": "Upload the scrubbed configuration file for your on-premises VPN Device",
     "formElements": [
     	{
-            "id": "partner",
+	    "id": "name_partner",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Please select the name of your Virtual WAN Partner",
@@ -69,7 +69,7 @@
         },
 	{
             "id": "problem_description", 
-            "order": 1000,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
@@ -78,11 +78,10 @@
 	},
 	{
 	    "id": "learn_more_text",
-	    "order": 1001,
+	    "order": 100,
 	    "controlType": "infoblock",
 	    "content": "<a href='https://docs.microsoft.com/azure/virtual-wan/virtual-wan-locations-partners'>Learn about configuring devices through our partners</a> Not listed? Find details on how to get your partner onboarded."
         }
-    }
-    ],
+    ]
 }
 ---
