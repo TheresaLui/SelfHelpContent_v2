@@ -35,6 +35,10 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 This issue can occur when the runbook isn't using a RunAs account to access Azure resources. To resolve, follow the steps in [Scenario: Unable to find the Azure subscription](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#unable-to-find-subscription).
 
+### "Run Login-AzureRmAccount to login"
+
+* This error can occur when you are not using a RunAs account or the RunAs account has expired. See ["Manage Azure Automation RunAs accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account).
+
 ### Dealing with multiple subscriptions inside of a runbook
 
 * If you need to manage Azure resources across several subscriptions with Azure Automation, please follow the guidance in ["Dealing with Multiple Subscriptions"](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-auth-failure) to prevent errors. 

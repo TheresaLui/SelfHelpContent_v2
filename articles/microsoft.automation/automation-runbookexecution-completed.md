@@ -42,6 +42,10 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 * This error can occur when you are not using a RunAs account or the RunAs account has expired. See ["Manage Azure Automation RunAs accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account).
 
+### "Run Login-AzureRmAccount to login"
+
+* This error can occur when you are not using a RunAs account or the RunAs account has expired. See ["Manage Azure Automation RunAs accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account).
+
 ### Runbook fails with error "Strong authentication enrollment is required"
 
 * See ["Authentication to Azure failed because multi-factor authentication is enabled" in the Runbook troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#auth-failed-mfa)
