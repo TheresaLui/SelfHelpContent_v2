@@ -14,6 +14,7 @@
 ---
 {
     "$schema": "SelfHelpContent",
+    "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Virtual WAN On-Premise VPN Device",
     "fileAttachmentHint": "Upload the scrubbed configuration file for your on-premises VPN Device",
@@ -54,8 +55,12 @@
 			"text": "128 Technology"
 		},
 		{
+			"value": "dont_know_answer",
+			"text": "Don't know"
+		},
+		{
 			"value": "Not listed",
-			"text": "Not  listed"
+			"text": "Not listed"
                 }
             ],
             "required": true
