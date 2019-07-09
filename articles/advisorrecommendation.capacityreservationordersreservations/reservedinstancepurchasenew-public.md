@@ -51,7 +51,7 @@
       "bladeName": "CreateBlade",
       "metadata": {
         "filters": {
-          "reservedResourceType": "{ResourceType}",
+          "reservedResourceType": "{ResourceTypeNew}",
           "subId": "{subscriptionId}",
           "scope": "{AppliedScopeType}",
           "region": "{Region}",
