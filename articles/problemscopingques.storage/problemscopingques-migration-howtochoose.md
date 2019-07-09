@@ -123,7 +123,7 @@
             "id": "error_code",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Did you receive any error code? ",
+            "displayLabel": "Transfer frequency",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
