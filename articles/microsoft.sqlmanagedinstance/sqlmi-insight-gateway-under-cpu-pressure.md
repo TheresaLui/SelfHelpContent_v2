@@ -21,7 +21,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> had degraded performance between <!--$startTime-->startTime<!--/$startTime--> and <!--$maxTime-->endTime<!--/$maxTime--> due to high CPU pressure on the gateway for this instance.
+Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> had degraded performance between <!--$startTime-->startTime<!--/$startTime--> and <!--$endTime-->endTime<!--/$endTime--> due to high CPU pressure on the gateway for this instance.
 <!--/issueDescription-->
 
 Azure SQL MI provides two connection policy settings: proxy and redirect. In redirect mode, clients establish connection directly to the node hosting the instance, while in proxy mode, all connections are proxied via Azure SQL Database gateways. Redirect mode is strongly recommended in order to avoid performance degradation since in proxy mode all requests are proxied via gateway, which could lead to its high CPU pressure.
@@ -29,9 +29,9 @@ Azure SQL MI provides two connection policy settings: proxy and redirect. In red
 
 ## **Recommended Steps**
 
-* To enable normal operation of your instance, you should execute `az sql server conn-policy update`  command from  __Azure CLI__ in order to change your connection policy to redirect mode
+* To enable normal operation of your instance, you should execute __az sql server conn-policy update__ command from  __Azure CLI__ in order to change your connection policy to redirect mode
 
-	The following is a template of `az sql server conn-policy update` command which you should execute after you modify parameters with appropriate values: 
+	The following is a template of __az sql server conn-policy update__ command which you should execute after you modify parameters with appropriate values: 
 
 ```
 az sql server conn-policy update --connection-type {Default, Proxy, Redirect}
@@ -45,7 +45,7 @@ az sql server conn-policy update --connection-type {Default, Proxy, Redirect}
                                  [--subscription]
 ```
 
-	Keep in mind that `--connection-type` parameter is the only one which is required, and in this specific case it should be set to __Redirect__. Other parameters are optional and more about them can be found on [this link](https://docs.microsoft.com/cli/azure/sql/server/conn-policy). 
+Keep in mind that `--connection-type` parameter is the only one which is required, and in this specific case it should be set to __Redirect__. Other [parameters are optional](https://docs.microsoft.com/cli/azure/sql/server/conn-policy). 
 
 ## **Recommended Documents**
 

@@ -6,7 +6,7 @@
 	authors="markjbrown"
 	ms.author="mjbrown"
 	selfHelpType="generic"
-	supportTopicIds="32636824"
+	supportTopicIds="32636824,32675641"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
