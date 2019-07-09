@@ -19,5 +19,5 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-This is typically a client side error involving high resource contention or network slowness. To prevent trickle attacks we forcibly terminate these slow connections and you would receive pre-login timeout errors. 
+This is typically a client side error involving high resource contention or network slowness. To prevent trickle attacks, we forcibly terminate these slow connections and you would receive pre-login timeout errors. 
 <!--/issueDescription-->
