@@ -16,7 +16,7 @@
 
 # Planned Maintenance in virtual machine scale sets
 
-**I don't see any indication of planned maintenance in the portal, PowerShell, or CLI.**<br>
+**I don't see any indication of planned maintenance in the portal, PowerShell, or CLI**<br>
 
 Azure conducts planned maintenance on virtual machine scale sets. To maintain the host infrastructure, Azure uses in-place migration to apply updates across fault domains. VMs in the scale sets are paused while their hosts are updated. No notifications are sent for these operations.<br>
 
