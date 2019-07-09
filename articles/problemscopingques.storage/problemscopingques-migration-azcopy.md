@@ -14,9 +14,10 @@
 # Storage migration between Storage Accounts
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Issues migrating data using AzCopy",
-    "fileAttachmentHint": "Upload AzCopy Log for fast case resolution. Log files are located in the %USERPROFILE\\.azcopy directory on Windows, or in the $HOME\\.azcopy",
+    "fileAttachmentHint": "Upload AzCopy Log for fast case resolution. Log files are located in the %USERPROFILE\\\\.azcopy directory on Windows, or in the $HOME\\\\.azcopy",
     "formElements": [
         {
             "id": "azcopy_version",
@@ -109,14 +110,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

@@ -14,7 +14,8 @@
 # Storage migration between Storage Accounts
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
     "formElements": [

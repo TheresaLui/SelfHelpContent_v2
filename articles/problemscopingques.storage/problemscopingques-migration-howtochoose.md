@@ -14,6 +14,7 @@
 # How to choose data migration solution
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
