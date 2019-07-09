@@ -23,8 +23,13 @@ Please note that Support will not write a new script for you based on your needs
 Specific problems and their solutions are listed below, but we highly recommend you try these two troubleshooting steps first:
 
 * Try running the [runbook locally](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation.
+* Investigate runbook [error streams](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#runbook-output) for specific messages and compare them to the errors below. 
 * [Update the Azure PowerShell](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) modules in your Automation Account to the latest version
 * Ensure you are using the RunAs service principal with the -ServicePrincipal parameter on any Azure resources. Using credentials within the Azure Automation sandbox may lead to authentication failures. 
+
+### "Command not recognized"
+
+* This error is commonly caused when modules have not been imported or are otherwise out of date. Ensure any dependent modules in your script have been [imported into Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery#modules-in-powershell-gallery) and are the correct version. 
 
 ### Runbook fails with "The subscription cannot be found" error
 
@@ -76,9 +81,7 @@ If none of the above solutions address your problem, please follow the steps in 
 
 * This error occurs when using credentials inside of an Azure Automation sandbox. Please use the -ServicePrincipal parameter on any Azure resources with the RunAs account. 
 
-### "Command not recognized"
 
-* This error is commonly caused when modules have not been imported or are otherwise out of date. Ensure any dependent modules in your script have been [imported into Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery#modules-in-powershell-gallery) and are the correct version. 
 
 
 
