@@ -23,6 +23,7 @@
 The Azure Migrate appliance collects metadata about the on-premises VMs, the complete list of metadata collected by the appliance is listed in the following links:
 
 [Metadata collected using Hyper-V appliance](https://aka.ms/migrate/hyperv/metadatacollected)
+
 [Metadata collected using VMWare appliance](https://aka.ms/migrate/vmware/metadatacollected)
 
 Additionally, if you are using the [dependency visualization functionality](https://aka.ms/migrate/agentbased/dependencies), the dependency agents collect details such as FQDN, OS, IP address, MAC address, processes running inside the VM and the incoming/outgoing TCP connections from the VM.
