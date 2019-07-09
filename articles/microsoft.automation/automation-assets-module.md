@@ -33,6 +33,13 @@ It is recommended to have a test Automation Account to ensure updating modules d
 
 * While Az modules are supported in Azure Automation, there are several important considerations. Review the [Az Module Support documentation](https://docs.microsoft.com/azure/automation/az-modules) for potential pitfalls, including using AzureRM modules in the same account as Az modules. 
 
+### Module import stuck, "importing newer version" stuck
+
+* If module imports are stuck, unsucessful, or otherwise in a bad state, you can use PowerShell to remove the module and try again:
+
+``` Get-AzureRmAutomationModule -ResourceGroupName RGoftheAAAcount -AutomationAccountName YourAutomationAccount| Where-Object { $_.ProvisioningState -eq "Creating"} | Remove-AzureRmAutomationModule ```
+
+
 ## **Recommended Documents**
 
 * [Common errors when importing modules](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#common-errors-when-importing-modules)<br>
