@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32628003,32628005,32628012"
+    supportTopicIds="32628005,32628012"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -35,7 +35,7 @@ It is recommended to have a test Automation Account to ensure updating modules d
 
 ### Module import stuck, "importing newer version" stuck
 
-* If module imports are stuck, unsucessful, or otherwise in a bad state, you can use PowerShell to remove the module and try again:
+* If module imports are stuck, unsuccessful, or otherwise in a bad state, you can use PowerShell to remove the module and try again:
 
 ``` Get-AzureRmAutomationModule -ResourceGroupName RGoftheAAAcount -AutomationAccountName YourAutomationAccount| Where-Object { $_.ProvisioningState -eq "Creating"} | Remove-AzureRmAutomationModule ```
 
