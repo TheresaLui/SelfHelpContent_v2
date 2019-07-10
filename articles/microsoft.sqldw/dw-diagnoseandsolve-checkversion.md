@@ -15,4 +15,6 @@
 />
 # Check your SQL Data Warehouse version and Release Notes
 
-To check your SQL Data Warehouse version, follow [steps outlined here](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/release-notes-10-0-10106-0#check-your-azure-sql-data-warehouse-version). See the release notes for [what’s new](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/release-notes-10-0-10106-0).
+## **Recommended Steps**
+
+To check your SQL Data Warehouse version, follow [steps outlined here](https://docs.microsoft.com/azure/sql-data-warehouse/release-notes-10-0-10106-0#check-your-azure-sql-data-warehouse-version). See the release notes for [what’s new](https://docs.microsoft.com/azure/sql-data-warehouse/release-notes-10-0-10106-0).
