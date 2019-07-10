@@ -1,6 +1,6 @@
 <properties
-    pageTitle="My chart shows error retrieving data message on dashboard"
-    description="My chart shows error retrieving data message on dashboard"
+    pageTitle="My chart shows Error Retrieving Data message on dashboard"
+    description="My chart shows Error Retrieving Data message on dashboard"
     service="microsoft.insights"
     resource="components"
     authors="vgorbenko"
@@ -9,9 +9,9 @@
     articleId="metrics-error-retrieving-data-message-on-dashboard"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32677617"
     resourceTags=""
-    productPesIds="15693"
+    productPesIds="16250"
     cloudEnvironments="public,fairfax"
 />
 

@@ -9,9 +9,9 @@
     articleId="metrics-chart-shows-unexpected-drop-in-values"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32677619"
     resourceTags=""
-    productPesIds="15693"
+    productPesIds="16250"
     cloudEnvironments="public,fairfax"
 />
 

@@ -9,9 +9,9 @@
     articleId="metrics-cant-find-your-resource-to-select-it"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32677614"
     resourceTags=""
-    productPesIds="15693"
+    productPesIds="16250"
     cloudEnvironments="public,fairfax"
 />
 

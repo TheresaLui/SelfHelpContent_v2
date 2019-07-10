@@ -9,9 +9,9 @@
     articleId="metrics-chart-shows-dashed-line"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32602208"
+    supportTopicIds="32677616"
     resourceTags=""
-    productPesIds="15693"
+    productPesIds="16250"
     cloudEnvironments="public,fairfax"
 />
 

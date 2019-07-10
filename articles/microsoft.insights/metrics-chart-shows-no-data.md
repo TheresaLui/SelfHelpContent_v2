@@ -1,6 +1,6 @@
 <properties
-    pageTitle="I can't find my resource to select it in metrics explorer"
-    description="I can't find my resource to select it in metrics explorer"
+    pageTitle="My metric chart shows no data"
+    description="My metric chart shows no data"
     service="microsoft.insights"
     resource="components"
     authors="vgorbenko"
@@ -9,9 +9,9 @@
     articleId="metrics-chart-shows-no-data"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32677618"
     resourceTags=""
-    productPesIds="15693"
+    productPesIds="16250"
     cloudEnvironments="public,fairfax"
 />
 
@@ -19,7 +19,7 @@
 
 ## My chart shows no data
 
-Sometimes the charts in metrics explorer might show no data after selecting correct resources and metrics. 
+Sometimes the charts in metrics explorer might show no data after selecting correct resources and metrics.
 
 ### Microsoft.Insights resource provider isn't registered for your subscription
 
