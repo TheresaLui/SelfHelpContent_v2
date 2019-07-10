@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Scoping questions for count mismatch on Azure Migrate Dashboard"
-    description="Scoping questions for count mismatch on Azure Migrate Dashboard"
+    pageTitle="Scoping questions for count mismatch on Azure Migrate"
+    description="Scoping questions for count mismatch on Azure Migrate"
     authors="An-mol"
     ms.author="anvar"
     selfHelpType="problemScopingQuestions"
@@ -24,6 +24,7 @@
             "id": "tool_used",
             "order": 1,
             "controlType": "dropdown",
+            "visibility": null,
             "displayLabel": "Select the tool you are using:",
             "watermarkText": "Select",
             "dropdownOptions": [
