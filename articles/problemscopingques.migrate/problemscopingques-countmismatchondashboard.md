@@ -1,18 +1,17 @@
 <properties
-         pageTitle="Scoping questions for count mismatch on Azure Migrate Dashboard"
-         description="Scoping questions for count mismatch on Azure Migrate Dashboard"
-         authors="An-mol"
-         ms.author="anvar"
-         selfHelpType="problemScopingQuestions"
-         supportTopicIds="32675737"
-         productPesIds="16348"
-         cloudEnvironments="public"
-         schemaVersion="1"
-         articleId="a43bcc80-f30d-4873-8e1f-37e665ec652a"
+    pageTitle="Scoping questions for count mismatch on Azure Migrate Dashboard"
+    description="Scoping questions for count mismatch on Azure Migrate Dashboard"
+    authors="An-mol"
+    ms.author="anvar"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32675737"
+    productPesIds="16348"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="a43bcc80-f30d-4873-8e1f-37e665ec652a"
 />
 
 # Count mismatch on Azure Migrate dashboard
-
 ---
 {
     "subscriptionRequired": true,
