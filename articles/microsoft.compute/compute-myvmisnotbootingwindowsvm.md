@@ -5,7 +5,7 @@
     resource="virtualmachines"
     authors="timbasham"
     ms.author="tibasham"
-    displayOrder="5"
+    displayOrder="6"
     selfHelpType="resource"
     supportTopicIds="32675597,32675600,32675601,32675599"
     resourceTags="windows, windowsSQL"
