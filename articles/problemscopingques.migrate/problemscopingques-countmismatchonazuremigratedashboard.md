@@ -22,7 +22,7 @@
            "order": 1,
            "visibility": "null",
            "controlType": "textbox",
-            "diplayLabel": "Which metric does not match?",
+            "displayLabel": "Which metric does not match?",
             "watermarkText": "E.g. Discovered Servers",
             "required": true
         },
