@@ -26,7 +26,7 @@ To resolve common issues, try one or more of the following:
 2. Review errors in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM or in logs for errors such as [FSTAB](https://support.microsoft.com/help/3206699/azure-linux-vm-cannot-start-because-of-fstab-errors) (file systems table), [FSCK](https://support.microsoft.com/help/3213321/linux-recovery-cannot-ssh-to-linux-vm-due-to-file-system-errors-fsck) (file system consistency), or networking
 3. [Validate your Network Security Group is allowing traffic](data-blade:microsoft_azure_network.verifyipflowblade.vmId.$resourceId)
 4. [Troubleshoot connectivity issues when trying SSH from Azure](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade.id.$resourceId)
-5. Review effective security group rules to ensure inbound “Allow” NSG rule exists and is prioritized for SSH port (default 22)
+5. Review effective security group rules to ensure inbound "Allow" NSG rule exists and is prioritized for SSH port (default 22)
 6. [Reset Password using CLI or PowerShell](http://aka.ms/resetarmpass)
 7. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
 8. [Reset SSH connection and configuration using CLI](http://aka.ms/resetarmssh) to fix SSH issues
