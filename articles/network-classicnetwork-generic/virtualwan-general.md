@@ -21,4 +21,4 @@
 
 ## **Recommended Documents**
 
-* Need help with your Azure Virtual WAN?  Learn more in our documentation: [What is Azure Virtual WAN?](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about),
+* [What is Azure Virtual WAN?](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about)
