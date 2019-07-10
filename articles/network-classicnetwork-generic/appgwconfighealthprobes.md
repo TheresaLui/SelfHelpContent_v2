@@ -17,10 +17,11 @@
 # Configure Custom Health Probes
 Application Gateway's default health probe checks for the backend server on \<protocol>://127.0.0.1:\<port>/ where the protocol and port are inherited from the HTTP settings associated in the rule. Application Gateway probe requests expect a healthy http response code (200-399) from the backend server for the request above.
 
-But if you want to configure a custom hostname and path for your probe, you need to create a custom health probe and associate with the HTTP Settings.
+If you want to configure a custom hostname and path for your probe, you need to create a custom health probe and associate with the HTTP Settings.
 
 When you configure a custom probe, make sure that the backend server responds with an acceptable http status code (by default, 200-399) for the probe requests for the hostname and the path mentioned. You can check this from the backend health tab details.
 
 ## **Recommended Documents**
+
 * Create a custom probe using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-ps)
 * Application gateway [health monitoring](https://docs.microsoft.com/azure/application-gateway/application-gateway-probe-overview) overview
