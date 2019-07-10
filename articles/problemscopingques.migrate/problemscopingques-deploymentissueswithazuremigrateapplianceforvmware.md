@@ -70,7 +70,7 @@
                     "text": "Save and start discovery"
                 },
 {
-                    "value": "don't_know_answer",
+                    "value": "dont_know_answer",
                     "text": "Other"
                 }
             ],
@@ -135,7 +135,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": false,
+            "required": true,
             "hints": []
         }
     ],

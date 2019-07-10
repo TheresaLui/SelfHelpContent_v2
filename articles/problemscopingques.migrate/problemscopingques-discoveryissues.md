@@ -49,7 +49,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name of the appliance",
             "watermarkText": "E.g. MyContosoAppliance",
-            "required": true
+            "required": false
         },
          {
             "id": "host_details",
@@ -74,7 +74,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": false,
+            "required": true,
             "hints": []
         }
     ],

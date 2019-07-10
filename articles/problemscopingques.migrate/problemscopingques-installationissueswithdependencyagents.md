@@ -49,7 +49,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name of the OS",
             "watermarkText": "E.g. Windows Server 2003",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
@@ -65,7 +65,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": false,
+            "required": true,
             "hints": []
         }
     ],
