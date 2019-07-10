@@ -3,7 +3,7 @@
 	description="Create, edit, or delete VPN Site"
 	infoBubbleText="Create, edit, or delete VPN Site"
 	service="microsoft.network"
-	resource="virtualWan,virtualHub"
+	resource=""
 	authors="karenhammons"
 	ms.author="karenha,reyandap"
 	displayOrder=""
@@ -13,7 +13,7 @@
 	supportTopicIds="32640664"
 	resourceTags=""
 	productPesIds="16572"
-	cloudEnvironments="public"
+	cloudEnvironments="public,mooncake,fairfax"
 />
 
 # Create, Edit, or Delete VPN Site for your Virtual WAN
