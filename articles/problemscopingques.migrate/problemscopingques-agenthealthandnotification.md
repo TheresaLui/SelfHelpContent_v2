@@ -10,9 +10,7 @@
          schemaVersion="1"
         articleId="3a479135-f725-4996-98b2-fcf529877594"
 />
-
 # Agent health and notification
-
 ---
 {
     "subscriptionRequired": true,

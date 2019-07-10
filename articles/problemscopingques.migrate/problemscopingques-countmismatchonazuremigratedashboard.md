@@ -10,21 +10,19 @@
     schemaVersion="1"
     articleId="275455e6-9c0f-43fa-9459-b011230d20fd"
 />
-
 # Count mismatch on Azure Migrate Dashboard
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Count mismatch on Azure Migrate dashboard",
-    "fileAttachmentHint": "",
-    "formElements": [
-              {
-            "id": "countmismatch_metric",
-            "order": 1,
-            "visibility": "null",
-            "controlType": "textbox",
-            "displayLabel": "Which metric does not match?",
+   "title": "Count mismatch on Azure Migrate dashboard",
+    "fieAttachmentHint": "",
+    "formEleents": [
+              {            "id": "countmismatch_metric",
+           "order": 1,
+           "visibility": "null",
+           "controlType": "textbox",
+            "diplayLabel": "Which metric does not match?",
             "watermarkText": "E.g. Discovered Servers",
             "required": required
         },
