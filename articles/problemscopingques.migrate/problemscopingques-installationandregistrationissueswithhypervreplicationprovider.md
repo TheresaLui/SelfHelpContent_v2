@@ -74,7 +74,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": false,
+            "required": true,
             "hints": []
         }
     ],
