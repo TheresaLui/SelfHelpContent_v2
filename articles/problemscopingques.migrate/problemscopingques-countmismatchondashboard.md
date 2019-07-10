@@ -10,9 +10,7 @@
     schemaVersion="1"
     articleId="a43bcc80-f30d-4873-8e1f-37e665ec652a"
 />
-
 # Count mismatch on Azure Migrate dashboard
-
 ---
 {
     "subscriptionRequired": true,
