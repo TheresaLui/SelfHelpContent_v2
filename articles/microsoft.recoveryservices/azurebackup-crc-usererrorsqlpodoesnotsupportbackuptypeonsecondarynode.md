@@ -19,8 +19,9 @@
 # Error UserErrorSQLPODoesNotSupportBackupTypeOnSecondaryNode
 
 <!--issueDescription-->
-We have identified that your operation failed because workload extension was not found on the virtual machine.
+We have identified that your operation has failed because the required workload extension was not found on the virtual machine.
 <!--/issueDescription-->
 
 ## **Recommended Document**
-To resolve this issue ensure the Backup type is supported by the secondary node of AG, see [article](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/active-secondaries-backup-on-secondary-replicas-always-on-availability-groups?view=sql-server-2017)
+
+* [Ensure the backup type is supported by the secondary node of the availability group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/active-secondaries-backup-on-secondary-replicas-always-on-availability-groups?view=sql-server-2017)
