@@ -17,14 +17,14 @@
     "resourceRequired": true,
    "title": "Count mismatch on Azure Migrate dashboard",
     "fieAttachmentHint": "",
-    "formEleents": [
+    "formElements": [
               {            "id": "countmismatch_metric",
            "order": 1,
            "visibility": "null",
            "controlType": "textbox",
             "diplayLabel": "Which metric does not match?",
             "watermarkText": "E.g. Discovered Servers",
-            "required": required
+            "required": true
         },
         {
             "id": "problem_start_time",
