@@ -17,9 +17,7 @@
 
 # <-- metrics-chart-shows-no-data -->
 
-## My chart shows no data
-
-Sometimes the charts in metrics explorer might show no data after selecting correct resources and metrics.
+Sometimes the charts in metrics explorer might show no data after selecting correct resources and metrics. This can be caused by one of the reasons listed below.
 
 ### **Microsoft.Insights resource provider isn't registered for your subscription**
 
