@@ -23,7 +23,7 @@
             "order": 1,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the name of the Appliance",
+            "displayLabel": "Provide the name of the appliance",
             "watermarkText": "E.g. MyContosoAppliance",
             "required": true
         },
