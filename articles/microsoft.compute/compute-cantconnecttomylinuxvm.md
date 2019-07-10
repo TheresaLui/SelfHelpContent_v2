@@ -1,4 +1,4 @@
-﻿<properties  
+<properties  
     pageTitle="Resolve connection issue with your Linux VM"
     description="Resolve connection issue with your Linux VM"
     service="microsoft.compute"
