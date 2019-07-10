@@ -42,6 +42,10 @@
                 {
                     "value": "United States"
                     "text": "United States"
+                },
+                {
+                    "value": "dont_know_answer"
+                    "text": "Don't know"
                 }
             ],
             "required": true

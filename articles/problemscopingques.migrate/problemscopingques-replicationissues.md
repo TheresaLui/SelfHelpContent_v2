@@ -40,7 +40,7 @@
                     "text": "Physical Server"
                 },
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Other"
                 }
 
@@ -63,11 +63,11 @@
                     "text": "Agent less"
                 },
                 {
-                    "value": "Not applicable",
+                    "value": "dont_know_answer",
                     "text": "Not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_start_time",

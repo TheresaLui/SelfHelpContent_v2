@@ -34,6 +34,10 @@
                 {
                     "value": "Agent less replication",
                     "text": "Agent less replication"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": true
@@ -66,7 +70,7 @@
                     "text": "Save and start discovery"
                 },
 {
-                    "value": "Other"
+                    "value": "don't_know_answer"
                     "text": "Other"
                 }
             ],
@@ -88,7 +92,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "ports_opened",
@@ -106,7 +110,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
          {
             "id": "appliance_name",
@@ -131,7 +135,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required": false,
             "hints": []
         }
     ],

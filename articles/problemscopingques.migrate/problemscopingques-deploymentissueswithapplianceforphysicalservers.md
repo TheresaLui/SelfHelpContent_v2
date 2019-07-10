@@ -36,7 +36,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "ports_opened",
@@ -54,7 +54,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
          {
             "id": "appliance_name",

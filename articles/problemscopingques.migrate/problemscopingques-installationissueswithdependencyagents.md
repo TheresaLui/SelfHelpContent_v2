@@ -36,7 +36,7 @@
                     "text": "Linux"
                 },
                 {
-                    "value": "Other"
+                    "value": "dont_know_answer"
                     "text": "Other"
                 }
             ],
@@ -65,7 +65,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required": false,
             "hints": []
         }
     ],

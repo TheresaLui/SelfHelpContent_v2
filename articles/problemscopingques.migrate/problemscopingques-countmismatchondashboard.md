@@ -8,7 +8,7 @@
          productPesIds="16348"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="275455e6-9c0f-43fa-9459-b011230d20fd"
+         articleId="a43bcc80-f30d-4873-8e1f-37e665ec652a"
 />
 
 # Count mismatch on Azure Migrate dashboard
@@ -60,7 +60,7 @@
                     "text": "UnifyCloud"
                 },
 {
-                    "value": "Other"
+                    "value": "dont_know_answer"
                     "text": "Other"
                 }
             ],

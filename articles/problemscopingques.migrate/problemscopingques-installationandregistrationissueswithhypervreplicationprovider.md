@@ -34,6 +34,10 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": true
@@ -54,7 +58,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
@@ -70,7 +74,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required": false,
             "hints": []
         }
     ],

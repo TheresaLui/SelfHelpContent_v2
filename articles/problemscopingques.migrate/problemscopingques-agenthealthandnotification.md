@@ -36,7 +36,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name of the agent that has issues",
             "watermarkText": "E.g. Assessment agent",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",

@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for Stop replication"
          description="Scoping questions for Stop replication"
          authors="An-mol"
-        ms.author="anvar"
+         ms.author="anvar"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675758"
          productPesIds="16348"
@@ -40,7 +40,7 @@
                     "text": "Physical Server"
                 },
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Other"
                 }
 
@@ -63,11 +63,11 @@
                     "text": "Agent less"
                 },
                 {
-                    "value": "Not applicable",
+                    "value": "dont_know_answer",
                     "text": "Not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_start_time",
