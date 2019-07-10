@@ -24,5 +24,6 @@ We have identified that restore operation are failing due to the managed disk VM
 
 ## **Recommended Steps**
 To resolve this issue, perform the below:
+
 * Go to Azure portal -> Storage Account -> Firewall and Virtual Networks and check if access is allowed for selected network or/and any IP address is added in firewall to restrict the access to the storage account.
 * If storage account is restricted with firewall and Virtual Networks, then remove the restrictions from the storage account or choose a different storage account without any restriction for restoration.
