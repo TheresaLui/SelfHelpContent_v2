@@ -6,7 +6,7 @@
     resource="dnszones"
     authors="rohinkoul"
     ms.author="rohink"
-    displayOrder=""
+    displayOrder="6"
     articleId="dns-performance"
     diagnosticScenario=""
     selfHelpType="resource"
