@@ -25,10 +25,9 @@ Here are the things you can try:
 3.	Sometimes bot creation can fail due to browser related settings:
 	1. 	Enable third party cookies in your browser. When third party cookies are disabled, bot creation will still succeed but test in web chat will break, making one to believe bot creation failed. 
 	2. 	Try using InPrivate/InCognito modes, this can help with issues related to browser session/cache.
-	3.	Try clearing the browser cache. [Read](https://support.microsoft.com/help/10607/microsoft-edge-view-delete-browser-history) the impact of clearing browser cache before you do so.
-4.	You may be seeing an intermittent issue, please try again after sometime
-5.	Sometimes enabling App Insights during bot creation can cause issues, try and create a bot without App Insights and enable it later on
-6.	If manually creating App ID & Password, we recommend automatic creation of App ID & Password via Azure Portal, however if you have to manually create these please use the new experience available at the [Azure portal](https://ms.portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) and not apps.dev.microsoft.com
+	3.	Try clearing the browser cache (clearing browser cache removes your browsing history).
+4.	Sometimes enabling App Insights during bot creation can cause issues, try and create a bot without App Insights and enable it later on
+5.	If manually creating App ID & Password, we recommend automatic creation of App ID & Password via Azure Portal, however if you have to manually create these please use the new experience available at the [Azure portal](https://ms.portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) and not apps.dev.microsoft.com. More guidance can be found under recommended documents section.
 
 
 ## **Recommended Documents**
