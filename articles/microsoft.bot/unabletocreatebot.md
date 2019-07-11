@@ -17,12 +17,15 @@
 # Unable to create a bot
 
 Here are the things you can try:
+
 1.	Insufficient permissions may prevent you from creating a bot. You need to have Admin, Contributor or Owner RBAC roles in order to create bots.To understand RBAC roles, please read [this](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles). <br>
 	[The bottroubleshooter community tool](https://github.com/BotBuilderCommunity/botbuilder-community-tools/tree/master/bottroubleshooter) can help identify certain permission issues. Please download the troubleshooter and follow the guidance as detailed in there.
 2.	Sometimes bot creation can fail due to network related settings:
+
 	1.	Check your network settings, if you are on a VPN try without a VPN connection, if possible.
 	2. 	If you are behind a proxy try without a proxy, if possible.
 3.	Sometimes bot creation can fail due to browser related settings:
+	
 	1. 	Enable third party cookies in your browser. When third party cookies are disabled, bot creation will still succeed but test in web chat will break, making one to believe bot creation failed. 
 	2. 	Try using InPrivate/InCognito modes, this can help with issues related to browser session/cache.
 	3.	Try clearing the browser cache (clearing browser cache removes your browsing history).
