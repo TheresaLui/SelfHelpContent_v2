@@ -18,13 +18,13 @@
 
 ## **Recommended steps**
 
-## Issues with the prerequisites check on appliance
+## Issues with the prerequisites check on appliance:
 
 ### **I am getting an error in the Internet prerequisite check on the appliance.**
 
 The appliance should have Internet connectivity (either directly or via a proxy). Ensure you are able to connect to the URLs listed [here](https://aka.ms/migrate/selfhelp/appliancevmware/urls). If whitelisting is required, please ensure you whitelist all the URLs.
 
-## Issues in registering the appliance with Azure Migrate
+## Issues in registering the appliance with Azure Migrate:
 
 ### **I am unable to register the appliance to Azure Migrate due to insufficient permissions on the subscription.** 
 
