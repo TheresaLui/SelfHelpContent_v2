@@ -26,7 +26,7 @@ Common root causes for cluster creation issues:
    * If you are using [ADLS Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store)
    * If you are using Azure Storage, ensure that the storage account name is valid during the cluster creation
 
-**Note**: ADLS Gen 1 is not supported for HBASE clusters, and is not supported in HDI version 4.0)<br>
+**Note**: ADLS Gen 1 is not supported for HBASE clusters, and is not supported in HDI version 4.0<br>
 
 * A subscription-based Azure policy is in place, denying the creation of public IPs. HDInsight cluster creation requires two public IPs.
 
