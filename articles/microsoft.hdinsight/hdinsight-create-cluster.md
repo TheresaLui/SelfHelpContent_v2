@@ -23,10 +23,8 @@ Common root causes for cluster creation issues:
 * Permissions issues
 
    * If you are using ADLS Gen 2, ensure that the user-assigned managed identity assigned to HDInsight cluster is in either the Storage Blob Data Contributor role, or the [Storage Blob Data Owner Role](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account)<br>
-   * If you are using [ADLS Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store)
+   * If you are using [ADLS Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store), note that ADLS Gen 1 is not supported for HBASE clusters, and is not supported in HDI version 4.0<br>
    * If you are using Azure Storage, ensure that the storage account name is valid during the cluster creation
-
-**Note**: ADLS Gen 1 is not supported for HBASE clusters, and is not supported in HDI version 4.0<br>
 
 * A subscription-based Azure policy is in place, denying the creation of public IPs. HDInsight cluster creation requires two public IPs.
 
@@ -41,11 +39,11 @@ Common root causes for cluster creation issues:
    * You must always allow traffic from the following IP addresses:
 
      |Source IP address|Destination|Direction|
-     |-|-|-|
-     |168.61.49.99|*:443|Inbound|
-     |23.99.5.239|*:443|Inbound|
-     |168.61.48.131|*:443|Inbound|
-     |138.91.141.162|*:443|Inbound|
+     |---|---|---|
+     |168.61.49.99|\*:443|Inbound|
+     |23.99.5.239|\*:443|Inbound|
+     |168.61.48.131|\*:443|Inbound|
+     |138.91.141.162|\*:443|Inbound|
 
    * If your cluster is in a specific region, add the respective source IP, which is listed in the following [link](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#hdinsight-ip)<br>
    * If you are using either Express Route or your own custom DNS server, please follow [this link](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#multinet)
