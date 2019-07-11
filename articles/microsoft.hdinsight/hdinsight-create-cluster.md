@@ -16,25 +16,27 @@
 
 # Create HDInsight Cluster
 
-## Common root causes for cluster creation issues
+## **Recommended Steps**
+
+Common root causes for cluster creation issues:
 
 1. Permissions issues
 
-   * If you are using ADLS Gen 2, ensure that the user-assigned managed identity assigned to HDInsight cluster is in either the  Storage Blob Data Contributor role, or the [Storage Blob Data Owner Role](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account)<br>
-   * If you are using [ADLS Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store)<br>
-
-     >[!Note]
-     >ADLS Gen 1 is not supported for HBASE clusters, and is not supported in HDI version 4.0)<br>
+   * If you are using ADLS Gen 2, ensure that the user-assigned managed identity assigned to HDInsight cluster is in either the Storage Blob Data Contributor role, or the [Storage Blob Data Owner Role](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account)<br>
+   * If you are using [ADLS Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store)
    * If you are using Azure Storage, ensure that the storage account name is valid during the cluster creation
+
+**Note**: ADLS Gen 1 is not supported for HBASE clusters, and is not supported in HDI version 4.0)<br>
 
 1. A subscription-based Azure policy is in place, denying the creation of public IPs. HDInsight cluster creation requires two public IPs.
 
-   * The following policies often impact cluster creation:
-     * Policies preventing the creation of IP Address & Load balancers within the subscription<br>
-     * Policy preventing the creation of a storage account<br>
-     * Policy preventing the deletion of networking resources (IP Address /Load Balancers)
+The following policies often impact cluster creation:
+    
+    * Policies preventing the creation of IP Address & Load balancers within the subscription<br>
+    * Policy preventing the creation of a storage account<br>
+    * Policy preventing the deletion of networking resources (IP Address /Load Balancers)
 
-1. The customer has a firewall on their VNET, and Storage accounts rules which deny traffic.
+1. The customer has a firewall on their VNET, and Storage accounts rules which deny traffic
 
    * You must always allow traffic from the following IP addresses:
 
