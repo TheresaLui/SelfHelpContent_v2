@@ -18,7 +18,7 @@
 
 ### **My Azure Migrate project creation fails with a deployment failed error.**  
 
-You can usually retry to fix this error. Click on the job notification for the failed deployment, navigate to "Deployments" and click on "Re-deploy" to re-trigger the creation of the project and addition of the selected tools. This should solve the issue.
+You can usually retry to fix this error. Click on the job notification for the failed deployment, navigate to "Deployments", and click on "Re-deploy" to re-trigger the creation of the project and addition of the selected tools. This should solve the issue.
 
 ### **I want to create a new project in a different geography and add tools to it.**  
   
