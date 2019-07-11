@@ -13,7 +13,7 @@
     supportTopicIds="32560536"
     resourceTags=""
     productPesIds="15804"
-    cloudEnvironments="public,fairfax,blackForest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 />
 
 # Troubleshooting Performance issues related to DNS resolution
