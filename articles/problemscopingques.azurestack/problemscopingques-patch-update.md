@@ -69,7 +69,7 @@
             "id": "patch_level",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Current Patch Level",
+            "displayLabel": "Pre-update patch level",
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
                 {
@@ -151,14 +151,6 @@
             "controlType": "textbox",
             "displayLabel": "GUID of your Azure Stack environment's Deployment",
             "watermarkText": "Enter the GUID",
-            "required": false
-        },
-        {
-            "id": "pre_update",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Pre-update version",
-            "watermarkText": "Enter the version of the Azure Stack before you apply the update",
             "required": false
         },
         {
