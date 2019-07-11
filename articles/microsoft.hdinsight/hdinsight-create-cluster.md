@@ -20,7 +20,7 @@
 
 Common root causes for cluster creation issues:
 
-1. Permissions issues
+* Permissions issues
 
    * If you are using ADLS Gen 2, ensure that the user-assigned managed identity assigned to HDInsight cluster is in either the Storage Blob Data Contributor role, or the [Storage Blob Data Owner Role](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account)<br>
    * If you are using [ADLS Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store)
@@ -28,15 +28,15 @@ Common root causes for cluster creation issues:
 
 **Note**: ADLS Gen 1 is not supported for HBASE clusters, and is not supported in HDI version 4.0)<br>
 
-1. A subscription-based Azure policy is in place, denying the creation of public IPs. HDInsight cluster creation requires two public IPs.
+* A subscription-based Azure policy is in place, denying the creation of public IPs. HDInsight cluster creation requires two public IPs.
 
-The following policies often impact cluster creation:
+    The following policies often impact cluster creation:
     
     * Policies preventing the creation of IP Address & Load balancers within the subscription<br>
     * Policy preventing the creation of a storage account<br>
     * Policy preventing the deletion of networking resources (IP Address /Load Balancers)
 
-1. The customer has a firewall on their VNET, and Storage accounts rules which deny traffic
+* The customer has a firewall on their VNET, and Storage accounts rules which deny traffic
 
    * You must always allow traffic from the following IP addresses:
 
@@ -50,19 +50,19 @@ The following policies often impact cluster creation:
    * If your cluster is in a specific region, add the respective source IP, which is listed in the following [link](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#hdinsight-ip)<br>
    * If you are using either Express Route or your own custom DNS server, please follow [this link](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#multinet)
 
-1. Resources have locks which impact cluster creation
+* Resources have locks which impact cluster creation
 
    * Please ensure that there are no [locks on your VNET or Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources)
 
-1. The customer is using an unsupported version of HDI and/or Apache Hadoop Component
+* The customer is using an unsupported version of HDI and/or Apache Hadoop Component
 
    * Please ensure that you are using a [supported HDI version](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#supported-hdinsight-versions) AND [Apache Hadoop Component version](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#apache-hadoop-components-available-with-different-hdinsight-versions)
 
-1. The Storage Account name is violating Storage Account name restrictions
+* The Storage Account name is violating Storage Account name restrictions
 
    * Storage Account names cannot be more than 24 characters and Storage account name cannot contain a special character. These restrictions also apply to the default container name in the storage account.
 
-1. A service outage
+* A service outage
 
    * Check [Azure Status](https://status.azure.com/status) for any potential outages or service issues
 
