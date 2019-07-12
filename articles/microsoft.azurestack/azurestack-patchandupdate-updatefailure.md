@@ -18,6 +18,7 @@
 
 ## **Recommended Steps**
 
+1. [Review Azure Stack known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1906) and [security updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-security-updates-1906)
 1. [Prepare for Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#prepare-for-azure-stack-update)
 1. [During Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#during-azure-stack-update)
 1. [After Azure Stack Update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#after-azure-stack-update)

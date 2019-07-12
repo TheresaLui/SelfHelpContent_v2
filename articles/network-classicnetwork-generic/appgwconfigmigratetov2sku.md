@@ -10,7 +10,7 @@
 	supportTopicIds="32674896"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="configure-migrate-to-v2-sku"
 />
 
