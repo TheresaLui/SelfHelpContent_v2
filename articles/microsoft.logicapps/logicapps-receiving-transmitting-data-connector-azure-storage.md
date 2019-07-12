@@ -1,8 +1,8 @@
 <properties
     pageTitle="Receiving or Transmitting data through a specific Connector - Azure Storage"
     description="Receiving or Transmitting data through a specific Connector - Azure Storage"
-    service=""
-    resource=""
+    service="microsoft.logicapps"
+    resource="logicapps"
     authors="v-miegge"
     ms.author="v-miegge"
     displayOrder=""
@@ -16,9 +16,7 @@
 
 # Receiving or Transmitting data through a specific Connector - Azure Storage
 
-You can create logic apps that automate tasks and workflows for managing your files. For example, you can build logic apps that create, get, update, and delete files in your storage account.
-
-https://docs.microsoft.com/azure/connectors/connectors-create-api-azureblobstorage 
+You can create logic apps that automate tasks and workflows for managing your files. For example, you can build logic apps that [create, get, update, and delete files](https://docs.microsoft.com/azure/connectors/connectors-create-api-azureblobstorage) in your storage account.
 
 ## **Recommended Documents**
 
