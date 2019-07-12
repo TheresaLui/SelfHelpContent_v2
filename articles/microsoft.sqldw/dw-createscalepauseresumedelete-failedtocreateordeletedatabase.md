@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-* If you are receiving an error when creating a data warehouse, ensure you are using a [supported collation](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-reference-collation-types) type.
+* If you are receiving an error when creating a data warehouse, ensure you are using a [supported collation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-reference-collation-types) type.
 
 ## **Recommended Documents**
 * [Supported collation types](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-reference-collation-types)
