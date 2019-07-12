@@ -22,7 +22,7 @@
 
   * restore a deleted data warehouse using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore#restore-a-deleted-database-using-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore#restore-a-deleted-database-using-powershell)
   * restore an active or paused data warehouse using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore#restore-an-active-or-paused-database-using-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore#restore-an-active-or-paused-database-using-powershell)
-  * If portal doesn’t show restore point, use [PowerShell](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowershell%2Fmodule%2Faz.sql%2Fget-azsqldatabaserestorepoint%3Fview%3Dazps-2.4.0%23examples&data=02%7C01%7CAnum.Jang%40microsoft.com%7Cc312220870c149e98b3808d70652252d%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636984822185146550&sdata=GiVw%2FJwKdSm5zWMdF03%2BnlBdDfb08sjghrkLABp6dWI%3D&reserved=0) to confirm if the restore point was created.
+  * If portal doesn’t show restore point, use [PowerShell](https://docs.microsoft.com/powershell/module/az.sql/get-azsqldatabaserestorepoint?view=azps-2.4.0#examples) to confirm if the restore point was created.
   
 * If you are moving or restoring your data warehouse across subscriptions
 
