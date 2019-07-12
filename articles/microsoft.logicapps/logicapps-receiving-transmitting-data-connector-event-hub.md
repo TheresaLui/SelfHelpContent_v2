@@ -1,8 +1,8 @@
 <properties
     pageTitle="Receiving or Transmitting data through a specific Connector - Event Hub"
     description="Receiving or Transmitting data through a specific Connector - Event Hub"
-    service=""
-    resource=""
+    service="microsoft.logicapps"
+    resource="logicapps"
     authors="v-miegge"
     ms.author="v-miegge"
     displayOrder=""
@@ -16,7 +16,7 @@
 
 # Receiving or Transmitting data through a specific Connector - Event Hub
 
-This article shows how you can monitor and manage events sent to Azure Event Hubs from inside a logic app with the Azure Event Hubs connector. That way, you can create logic apps that automate tasks and workflows for checking, sending, and receiving events from your Event Hub. For connector-specific technical information, see the Azure Event Hubs connector reference. 
+You can monitor and manage events sent to Azure Event Hubs from inside a logic app with the Azure Event Hubs connector. That way, you can create logic apps that automate tasks and workflows for checking, sending, and receiving events from your Event Hub. For connector-specific technical information, see the Azure Event Hubs connector reference. 
 
 * [Monitor, receive, and send events with Azure Events Hubs and Azure Logic Apps](https://docs.microsoft.com/azure/connectors/connectors-create-api-azure-event-hubs)
 
