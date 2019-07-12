@@ -38,6 +38,10 @@
             },
             "dropdownOptions": [
                 {
+                    "value": "AllBlobContainer",
+                    "text": "All blob containers"
+                },
+                {
                     "value": "NoBlobContainer",
                     "text": "Not specific to a blob container"
                 }
