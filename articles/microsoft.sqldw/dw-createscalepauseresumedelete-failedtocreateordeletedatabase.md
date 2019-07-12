@@ -15,7 +15,12 @@
 />
 # Failed to create or delete database
 
+## **Recommended Steps**
+
+* If you are receiving an error when creating a data warehouse, ensure you are using a [supported collation](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-reference-collation-types) type.
+
 ## **Recommended Documents**
+* [Supported collation types](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-reference-collation-types)
 * [Create from Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal)<br>
 * [Create from PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-powershell)<br>
 * [Clean up resources](https://docs.microsoft.com/azure/sql-data-warehouse/pause-and-resume-compute-powershell#clean-up-resources)
