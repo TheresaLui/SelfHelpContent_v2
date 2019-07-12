@@ -26,4 +26,4 @@ When a Data Consumer receives an invitation to a Data Share, they are offered th
 
 ## **Recommended Documents**
 
-* [Configuring Snapshot Schedule](https://docs.microsoft.com/en-us/azure/data-share/share-your-data)<br>
+* [Configuring Snapshot Schedule](https://docs.microsoft.com/azure/data-share/share-your-data)<br>
