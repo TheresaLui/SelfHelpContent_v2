@@ -19,7 +19,7 @@
 # Error SalBitmapError
 
 <!--issueDescription-->
-We have identified that your operation failed because workload extension was not found on the virtual machine.
+We have identified that your operation failed because MARS agent was unable to detect chnages in file.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
