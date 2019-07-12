@@ -24,7 +24,7 @@
             "id": "replication_scenarios",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Select the replication scenarios",
+            "displayLabel": "Select the replication scenario",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
