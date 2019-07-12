@@ -7,7 +7,7 @@
     ms.author="saltug,martinle"
     supportTopicIds="32635218"
     productPesIds="15818"
-    displayOrder="70"
+    displayOrder="71"
     selfHelpType="resource"
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-restoringfrombackup.md"
