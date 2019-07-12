@@ -25,8 +25,8 @@
         },
         {
             "id": "blob_container",
-            "order": 3,
-            "controlType": "dropdown",
+            "order": 2,
+            "controlType": "multiselectdropdown",
             "displayLabel": "Blob Container",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
@@ -35,18 +35,21 @@
                 "textProperty": "id",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "AllBlobContainer",
-                    "text": "All blob containers"
-                },
-                {
-                    "value": "NoBlobContainer",
-                    "text": "Not specific to a blob container"
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Classic container or not applicable"
                 }
-            ],
+            },
             "required": true
+        },
+        {
+            "id": "blob_container_classic",
+            "visibility": "blob_container == dont_know_answer",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Blob container name",
+            "watermarkText": "Name of blob container",
+            "required": false
         },
         {
             "id": "blob_path",
