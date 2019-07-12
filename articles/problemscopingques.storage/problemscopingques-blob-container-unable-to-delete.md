@@ -40,16 +40,6 @@
                     "text": "Classic container or not applicable"
                 }
             },
-            "dropdownOptions": [
-                {
-                    "value": "AllBlobContainer",
-                    "text": "All blob containers"
-                },
-                {
-                    "value": "NoBlobContainer",
-                    "text": "Not specific to a blob container"
-                }
-            ],
             "required": true
         },
         {
@@ -57,8 +47,8 @@
             "visibility": "blob_container == dont_know_answer",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Blob container name",
-            "watermarkText": "Name of blob container",
+            "displayLabel": "Classic blob container name",
+            "watermarkText": "Name of classic blob container",
             "required": false
         },
         {
