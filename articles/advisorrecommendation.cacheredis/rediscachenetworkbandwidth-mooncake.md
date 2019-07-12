@@ -38,7 +38,7 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/redis/recommendations/bandwidth_cn",
+  "learnMoreLink": "https://aka.ms/redis/recommendations/bandwidth",
   "description": "Improve your Cache and application performance when running with high network bandwidth",
   "longDescription": "Cache instances perform best when not running under high network bandwidth which may cause them to become unresponsive, experience data loss, or become unavailable. Apply best practices to reduce network bandwidth or scale to a different size or sku with more capacity.",
   "potentialBenefits": "Ensure optimal performance and high availability through best practices",

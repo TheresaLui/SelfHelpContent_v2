@@ -26,9 +26,11 @@ If you are trying to deploy the [Start/Stop VMs solution](https://docs.microsoft
 * Try creating a new automation account just for the Start-Stop VM solution
 * Review the ["Fails to properly deploy" section of the Start/Stop Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#deployment-failure)
 
+**"resourceGroupName' does not match the expected pattern"**
 
+* This is caused by an older version of the Start/Stop VM Solution. Follow the ["Update the Solution" guide](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#update-the-solution).  
 
-## **Recommended Documents** ##
+## **Recommended Documents**
 
-* Start-Stop VM Troubleshooting Guide: [This didn't solve my problem](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#other)
+* [Start-Stop VM Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#other)
 
