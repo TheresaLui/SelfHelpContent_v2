@@ -13,6 +13,7 @@
 # Unable to delete Blob or Container
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Unable to delete Blob or Container scoping question",
     "fileAttachmentHint": "",
