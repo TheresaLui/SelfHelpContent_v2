@@ -6,7 +6,7 @@
 	authors="ginamr"
 	ms.author="girobins"
 	selfHelpType="generic"
-	supportTopicIds="32636818, 32636821"        
+	supportTopicIds="32636818, 32636821"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
@@ -60,7 +60,7 @@ Here is the list of string functions that can utilize the index:
 
 For more system function details see [System Functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-system-functions) article.
 
-## Recommended Documents
+## **Recommended Documents**
 Please refer to documents below on how to get execution statistics and tune your queries:
 
 * [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
