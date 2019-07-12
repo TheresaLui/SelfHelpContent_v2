@@ -40,6 +40,16 @@
                     "text": "Classic container or not applicable"
                 }
             },
+            "dropdownOptions": [
+                {
+                    "value": "AllBlobContainer",
+                    "text": "All blob containers"
+                },
+                {
+                    "value": "NoBlobContainer",
+                    "text": "Not specific to a blob container"
+                }
+            ],
             "required": true
         },
         {
