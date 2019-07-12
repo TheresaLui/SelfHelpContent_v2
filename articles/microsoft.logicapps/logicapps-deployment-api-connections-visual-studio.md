@@ -1,8 +1,8 @@
 <properties
     pageTitle="Deployment Logic Apps and API Connections - Deployment via Visual Studio"
     description="Deployment Logic Apps and API Connections - Deployment via Visual Studio"
-    service=""
-    resource=""
+    service="microsoft.logicapps"
+    resource="logicapps"
     authors="v-miegge"
     ms.author="v-miegge"
     displayOrder=""
