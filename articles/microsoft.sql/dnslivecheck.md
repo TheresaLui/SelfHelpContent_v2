@@ -1,6 +1,6 @@
 <properties
-  pageTitle="Resolve issues connecting to SQL Database"
-  description="Resolve issues connecting to SQL Database"
+  pageTitle="DNS Live Check"
+  description="DNS Live Check"
   infoBubbleText="Found recent connectivity issue. See details on the right."
   service="microsoft.sql"
   resource="servers"
