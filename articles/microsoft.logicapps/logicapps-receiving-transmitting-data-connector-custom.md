@@ -1,8 +1,8 @@
 <properties
     pageTitle="Receiving or Transmitting data through a specific Connector - Custom Connector"
     description="Receiving or Transmitting data through a specific Connector - Custom Connector"
-    service=""
-    resource=""
+    service="microsoft.logicapps"
+    resource="logicapps"
     authors="v-miegge"
     ms.author="v-miegge"
     displayOrder=""
@@ -20,7 +20,7 @@ Custom connectors allow you to communicate with services that are not available 
 
 ![Custom Connector Path](images/custom-connector.png)
 
-[Custom connectors](https://docs.microsoft.com/connectors/custom-connectors/index)
+* [Custom connectors](https://docs.microsoft.com/connectors/custom-connectors/index)
 
 ## **Recommended Documents**
 
