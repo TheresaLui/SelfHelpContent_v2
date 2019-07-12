@@ -1,8 +1,8 @@
 <properties
     pageTitle="Deployment Logic Apps and API Connections - Deployment via ARM deployment and the Portal"
     description="Deployment Logic Apps and API Connections - Deployment via ARM deployment and the Portal"
-    service=""
-    resource=""
+    service="microsoft.logicapps"
+    resource="logicapps"
     authors="v-miegge"
     ms.author="v-miegge"
     displayOrder=""
@@ -23,4 +23,4 @@ When you create a logic app, you can expand your logic app's definition into an 
 
 ## **Recommended Documents**
 
-* [You can download logic apps from the Azure portal and save them as Azure Resource Manager templates](https://docs.microsoft.com/azure/logic-apps/manage-logic-apps-with-visual-studio#download-from-azure)
+* [Download logic apps from the Azure portal and save them as Azure Resource Manager templates](https://docs.microsoft.com/azure/logic-apps/manage-logic-apps-with-visual-studio#download-from-azure)
