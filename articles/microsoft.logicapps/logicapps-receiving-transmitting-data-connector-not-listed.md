@@ -1,8 +1,8 @@
 <properties
     pageTitle="Receiving or Transmitting data through a specific Connector - The Connector is not listed above"
     description="Receiving or Transmitting data through a specific Connector - The Connector is not listed above"
-    service=""
-    resource=""
+    service="microsoft.logicapps"
+    resource="logicapps"
     authors="v-miegge"
     ms.author="v-miegge"
     displayOrder=""
