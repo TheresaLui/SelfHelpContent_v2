@@ -7,7 +7,7 @@
 	ms.author="saltug,martinle"
 	supportTopicIds="32635187"
 	productPesIds="15818"
-	displayOrder="80"
+	displayOrder="81"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-securityprivacyandcompliance-azureactivedirectory.md"
