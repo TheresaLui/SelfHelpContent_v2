@@ -23,6 +23,7 @@ DataBricks SQL DW Connector : Reading/Writing
 * Check your JDBC connection string
 * Check your username and password on SQL DW.  Ensure you can login with that user to your SQL DW.
 * If you are receiving an error : com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
+
   * Check your permissions.  Your SQL DW user needs to have CONTROL permissions to create an external table from SQL DW.
 
     ```T-SQL
@@ -33,6 +34,7 @@ DataBricks SQL DW Connector : Reading/Writing
     ```
 
   * Check to see if you have spaces in the column names of the table in SQL DW.  Spaces in column names are not supported.  Consider renaming the column removing spaces or use the query option using an alias for column names.
+  
 * [Use the appropriate resource class and service level](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL Data Warehouse increases the numbers of readers and writers for parallelism.
 
 ## **Recommended Documents**
