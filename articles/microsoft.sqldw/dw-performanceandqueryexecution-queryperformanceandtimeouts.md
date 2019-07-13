@@ -7,7 +7,7 @@
 	ms.author="saltug,martinle"
 	supportTopicIds="32635214"
 	productPesIds="15818"
-	displayOrder="30"
+	displayOrder="32"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-performanceandqueryexecution-queryperformanceandtimeouts.md"
