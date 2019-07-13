@@ -7,7 +7,7 @@
 	ms.author="saltug,martinle"
 	supportTopicIds="32635189"
 	productPesIds="15818"
-	displayOrder="30"
+	displayOrder="31"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-portalandclienttools-azureportal.md"
