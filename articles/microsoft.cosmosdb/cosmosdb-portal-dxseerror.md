@@ -16,7 +16,7 @@
 # I am getting an error when browsing data through Azure Cosmos DB Data Explorer
 
 ## **Start here**
-Before further troubleshooting, clear your browser cache and reload the page. This will ensure you are using the latest version of the Data Explorer, 
+Before further troubleshooting, clear your browser cache and reload the page. This will ensure you are using the latest version of the Data Explorer.
 
 Load the Data Explorer in Incognito or private browsing mode.  If the issue does not occur there, then clearing your cache in your original browsing session and reloading will resolve the issue. If the issue continues to occur in Incognito mode, please contact us for support. 
 
