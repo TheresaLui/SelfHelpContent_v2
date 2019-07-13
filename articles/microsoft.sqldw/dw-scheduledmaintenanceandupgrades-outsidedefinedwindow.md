@@ -7,7 +7,7 @@
 	ms.author="saltug,martinle"
 	supportTopicIds="32635203"
 	productPesIds="15818"
-	displayOrder="50"
+	displayOrder="51"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-scheduledmaintenanceandupgrades-outsidedefinedwindow.md"
