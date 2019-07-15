@@ -7,7 +7,7 @@
 	ms.author="annayak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32678712,32679282,32679296,32679296,32679289"
+	supportTopicIds="32678718,32679288,32679302,32679295"
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
 	cloudEnvironments="public"
@@ -21,10 +21,10 @@
 ### **Authenticate with Azure AD**
 
 - [Get started with Azure AD for Storage](https://docs.microsoft.com/azure/storage/common/storage-auth-aad)
-- [Authenticate with Azure Active Directory from an application for access to blobs and queues (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-app)
-- [Manage access rights to Azure Blob and Queue data with RBAC (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac)
-- [Authenticate access to blobs and queues with managed identities for Azure Resources (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-msi)
-- [Use an Azure AD identity to access Azure Storage with CLI or PowerShell (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-script)
+- [Authenticate with Azure Active Directory from an application for access to blobs and queues](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-app)
+- [Manage access rights to Azure Blob and Queue data with RBAC](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac)
+- [Authenticate access to blobs and queues with managed identities for Azure Resources](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-msi)
+- [Use an Azure AD identity to access Azure Storage with CLI or PowerShell](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-script)
 
 ### **Shared Access Signature (SAS)**
 
