@@ -24,6 +24,5 @@ Application Insights performs a soft-delete on resources so there is a good chan
 
 **Known Issues**<br>
 
-1. If the resource has been deleted for more than 90 days we will not be able to recover it
-2. If the resource has been recreated we cannot recover it
-3. If you've purged data and want it back you cannot do that as there is no soft-delete for actual data
+1. If the resource has been recreated we cannot recover it
+2. If you've purged data and want it back you cannot do that as there is no soft-delete for actual data
