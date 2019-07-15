@@ -25,7 +25,8 @@
 * If you are receiving an error: com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
 * Check your permissions. Your SQL DW user needs to have CONTROL permissions to create an external table from SQL DW:
 
-```T-SQL
+```
+T-SQL
     SELECT users.[name], perm.state_desc, perm.permission_name
     FROM sys.database_permissions perm
     JOIN sys.database_principals users ON perm.grantee_principal_id = users.principal_id
