@@ -10,7 +10,7 @@
     selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32602216"
+    supportTopicIds="32602216,32632995"
  />
  
 # I need help using powershell to automate my Application Insights deployments

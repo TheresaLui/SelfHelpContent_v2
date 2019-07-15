@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [How to create an Azure Bastion resource and get started with secure RDP/SSH connectivity](https://aka.ms/bastionhost/create)
+* [How to create an Azure Bastion resource and get started with secure RDP/SSH connectivity](https://docs.microsoft.com/azure/bastion/bastion-create-host-portal)
