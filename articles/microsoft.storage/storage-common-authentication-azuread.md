@@ -1,17 +1,17 @@
 <properties
-	pageTitle="Troubleshoot and resolve Azure Storage access issues"
-	description="Troubleshoot and resolve Azure Storage access issues"
+	pageTitle="Troubleshoot and resolve Azure Storage authentication issues with Azure AD"
+	description="Troubleshoot and resolve Azure Storage authentication issues with Azure AD"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="annayak"
 	ms.author="annayak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32678712,32679282,32679296,32679296,32679289"
+	supportTopicIds="32678715,32679285,32679299,32679292"
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
 	cloudEnvironments="public"
-	articleId="b899df06-8ac3-47f3-a10e-4842e559f703"
+	articleId="0ffe93a2-8388-4727-9601-fbc18fb6ab0c"
 />
 
 # Troubleshoot and resolve Azure Storage access issues
@@ -26,13 +26,6 @@
 - [Authenticate access to blobs and queues with managed identities for Azure Resources (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-msi)
 - [Use an Azure AD identity to access Azure Storage with CLI or PowerShell (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-script)
 
-### **Shared Access Signature (SAS)**
-
-- [When to Shared Access Signature (SAS)?](https://docs.microsoft.com/azure/storage/storage-dotnet-shared-access-signature-part-1#when-should-you-use-a-shared-access-signature)
-- [How to construct Account SAS?](https://docs.microsoft.com/rest/api/storageservices/fileservices/Constructing-an-Account-SAS?redirectedfrom=MSDN)
-- [Delegating Access with a Shared Access Signature](https://docs.microsoft.com/rest/api/storageservices/fileservices/delegating-access-with-a-shared-access-signature)
-- [Using SAS with Storage Explorer](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer#attach-storage-account-using-sas)
-
 ### **Access Options**
 
 - [User Policy to manage resources and control access](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-policy)
@@ -40,7 +33,3 @@
 - [Microsoft Azure Storage Explorer](http://storageexplorer.com)
 - [PowerShell](https://azure.microsoft.com/documentation/articles/storage-powershell-guide-full/)
 - [Azure Storage Connection Strings](https://docs.microsoft.com/azure/storage/storage-configure-connection-string)
-
-### **CORS**
-
-- [Enabling CORS so application can run under one domain](https://docs.microsoft.com/rest/api/storageservices/fileservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)
