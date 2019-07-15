@@ -3,7 +3,7 @@
     description="Is there a service outage?"
     service="microsoft.insights"
     resource="components"
-    articleId="insights_datalatency"
+    articleId="insights-serviceoutage"
     authors="debugthings"
     ms.author="jamdavi"
     displayOrder="1014"
