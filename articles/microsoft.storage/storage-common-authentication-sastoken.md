@@ -85,7 +85,7 @@ If your client application is receiving an HTTP 409 (Conflict) message from the 
 
 >Learn how to enable server-side logs to diagnose these issues<br>
 >[Configure Storage Server Side Logging from Portal ](https://docs.microsoft.com/azure/storage/common/storage-monitor-storage-account#configure-logging)<br>
->[Analyze Storage Server Side Logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging)<br>
+>[Analyze Storage Server Side Logs](https://docs.microsoft.com/azure/storage/common/storage-analytics-logging)<br>
 
 **Resolutions**
 
