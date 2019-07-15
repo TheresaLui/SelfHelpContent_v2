@@ -25,7 +25,8 @@ Follow the links to:
 * create a [user-defined restore point using Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore#create-a-user-defined-restore-point-using-the-azure-portal)
 * [copy your data warehouse with user-defined restore points using PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore#create-a-user-defined-restore-point-using-the-azure-portal)
 * see information about back up and restore in SQL Data Warehouse, query [sys.pdw_loader_backup_runs](https://docs.microsoft.com/sql/relational-databases/system-catalog-views/sys-pdw-loader-backup-runs-transact-sql?view=aps-pdw-2016-au7)
-* see [checklist](https://docs.microsoft.com/azure/sql-database/sql-database-disaster-recovery#configure-your-database-after-recovery) of tasks to properly configure connectivity to your restored data warehouse.
+* see [checklist](https://docs.microsoft.com/azure/sql-database/sql-database-disaster-recovery#configure-your-database-after-recovery) of tasks to properly configure connectivity to your restored data warehouse
 
 ## **Recommended Documents**
+
 * [More about back up and restore](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-restore-database-overview/)
