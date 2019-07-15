@@ -20,11 +20,13 @@
 
 
 ### **Common issues reported with RBAC roles** ####
+
 - [I am the owner of the Storage account but don't get to access data](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?#assign-rbac-roles-using-the-azure-portal)
 - [I have Data Reader/Data Contributor permission but don't see the storage account on Portal](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?#assign-rbac-roles-using-the-azure-portal) 
 - [I have problems accessing storage resources using RBAC in Storage Explorer](https://docs.microsoft.com/azure/storage/common/storage-explorer-troubleshooting?tabs=1904#role-based-access-control-permission-issues)
 
 ### **Grant access to Azure blob and queue data with RBAC**
+
 - [Grant access to Azure blob and queue data with RBAC in the Azure portal](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal)
 - [Grant access to Azure blob and queue data with RBAC using PowerShell](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-powershell)
 - [Grant access to Azure blob and queue data with RBAC using Azure CLI](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-cli)
