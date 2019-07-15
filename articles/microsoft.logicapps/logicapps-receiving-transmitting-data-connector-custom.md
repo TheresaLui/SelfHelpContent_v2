@@ -18,7 +18,7 @@
 
 Custom connectors allow you to communicate with services that are not available as prebuilt connectors.  
 
-![Custom Connector Path](images/custom-connector.png)
+![Custom Connector Path](images/custom-connector.jpg)
 
 * [Custom connectors](https://docs.microsoft.com/connectors/custom-connectors/index)
 
