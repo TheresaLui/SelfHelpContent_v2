@@ -34,7 +34,7 @@ DataBricks SQL DW Connector : Reading/Writing
     ```
 
   * Check to see if you have spaces in the column names of the table in SQL DW.  Spaces in column names are not supported.  Consider renaming the column removing spaces or use the query option using an alias for column names.
-  
+
 * [Use the appropriate resource class and service level](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL Data Warehouse increases the numbers of readers and writers for parallelism.
 
 ## **Recommended Documents**
