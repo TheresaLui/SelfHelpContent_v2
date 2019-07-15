@@ -7,11 +7,11 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="---"
+    supportTopicIds="32629548"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public"
-    articleId="---"
+    articleId="7c16030e-6550-4e50-9e61-99a3f1ae2871"
 />
 
 # V2 - Azure-SSIS/Package Execution or Deployment Problem Common Solutions Update
