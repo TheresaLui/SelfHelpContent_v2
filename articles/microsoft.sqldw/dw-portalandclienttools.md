@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* To ensure latest feature support, we recommend using the latest version of SQL Server Database tools (SSDT) and Visual Studio for development purposes. See [documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-install-visual-studio) to install.
+* To ensure latest feature support, we recommend using the [latest version of SQL Server Database tools (SSDT) and Visual Studio for development purposes](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-install-visual-studio)
 * Monitoring resource utilization and query activity [from Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity)
 
   * When viewing resource utilization from the Azure portal, the metric aggregation occurs across all the compute nodes of the data warehouse. For data warehouses with a single compute node (DW500c and below), Max, Min, and Avg will have the same values.
