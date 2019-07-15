@@ -19,5 +19,6 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 - Changing redundancy type to zone-redundant storage (ZRS) involves moving the physical data from a single storage stamp to multiple stamps within a qualified region. Please check [Qualified Region](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs#support-coverage-and-regional-availability) for more information<br>
+
 - Live migration is only supported for Standard accounts. Premium accounts are not supported<br>
 <!--/issueDescription-->
