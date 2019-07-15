@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
-	articleId="accessandresourcemanagementhowtoaddandmanageadmins"
+	articleId="requesttoenableport25emailflow"
 />
  
 # Request to enable Port 25 email flow
