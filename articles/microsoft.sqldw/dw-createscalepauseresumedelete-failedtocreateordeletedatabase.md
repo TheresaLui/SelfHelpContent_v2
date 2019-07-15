@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* If you are receiving an error when creating a data warehouse, ensure you are using a supported collation type.
+* If you are receiving an error when creating a data warehouse, ensure you are using a supported collation type
 
 ## **Recommended Documents**
 
