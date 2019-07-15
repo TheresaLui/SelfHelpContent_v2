@@ -21,7 +21,6 @@ We have a number of documents with examples that you can follow to help investig
 
 ## **Recommended Documents**
 
-
 * [Diagnose dependencies](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-dependencies)<br>
 * [Diagnose web apps with Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-exceptions)<br>
 * [Diagnose run-time exceptions](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-runtime-exceptions)<br>
