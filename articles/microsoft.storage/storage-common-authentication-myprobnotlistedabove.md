@@ -33,7 +33,7 @@
 - [Delegating Access with a Shared Access Signature](https://docs.microsoft.com/rest/api/storageservices/fileservices/delegating-access-with-a-shared-access-signature)
 - [Using SAS with Storage Explorer](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer#attach-storage-account-using-sas)
 
-### **Shared Access Signature (SAS)**
+### **Shared Key**
 
 - [Shared Key access to Storage](https://docs.microsoft.com/rest/api/storageservices/authorize-with-shared-key)
 - [Specifying the Date Header](https://docs.microsoft.com/rest/api/storageservices/authorize-with-shared-key#Subheading1)
