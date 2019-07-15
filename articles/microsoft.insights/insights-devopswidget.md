@@ -19,7 +19,7 @@
 
 The [Application Insights DevOps Widget](https://marketplace.visualstudio.com/items?itemName=ms-appinsights.ApplicationInsightsWidgets) is used to display data on your **DevOps dashboard** that is part of you DevOps organization to quickly see Application Insights metrics while tracking your code changes and work items. The widget utilizes an [API key](https://dev.applicationinsights.io/documentation/Authorization/API-key-and-App-ID) to query your application insights instance.
 
-**Generate the API Key**<br>
+### **Generate the API Key**
 
 1. Follow [this guide](https://dev.applicationinsights.io/documentation/Authorization/API-key-and-App-ID) for detailed instructions
 2. Navigate to the API Key menu item for you Application Insights Instance
@@ -27,9 +27,9 @@ The [Application Insights DevOps Widget](https://marketplace.visualstudio.com/it
 4. Select **Read Telemetry** from the check box selections
 5. Click **Generate key** button
 6. Save this key somewhere as it is only displayed once
-7. Save the Application Id as you'll need this too
+7. Save the Application ID, as you'll need this too
 
-**Installing the widget**<br>
+### **Installing the widget**
 
 1. Navigate to the widget page in the [DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-appinsights.ApplicationInsightsWidgets)
 2. Click **Get it free**
