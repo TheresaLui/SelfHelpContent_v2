@@ -7,7 +7,7 @@
     authors="debugthings"
     ms.author="jamdavi"
     displayOrder="1014"
-    selfHelpType="resource"
+    selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32402638"
     cloudEnvironments="public"
