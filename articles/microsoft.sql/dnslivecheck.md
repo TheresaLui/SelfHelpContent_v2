@@ -19,9 +19,10 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We performed a DNS resolution against server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix--> which failed to resolve to a valid IP address. This indicates that the DNS is unavailable. Please open a support ticket with us to debug this issue further.
+We performed a DNS resolution against server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix-->, which failed to resolve to a valid IP address. This indicates that the DNS is unavailable. Please open a support ticket with us to debug this issue further.
 
 <!--/issueDescription-->
 
 ## **Recommended Documents**
+
 * [Testing DNS resolution](https://docs.microsoft.com/powershell/module/dnsclient/resolve-dnsname?view=winserver2012r2-ps)
