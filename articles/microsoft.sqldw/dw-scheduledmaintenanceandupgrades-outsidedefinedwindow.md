@@ -22,9 +22,9 @@ By default, all newly created Azure SQL Data Warehouse instances have an eight-h
 
 To view the maintenance schedule that has been applied to your data warehouse, complete the following steps:
 
-1. Sign in to the [Azure portal](https://portal.azure.com/).
-2. Select the data warehouse that you want to view.
-3. The selected data warehouse opens on the overview blade. The maintenance schedule that's applied to the data warehouse appears below <b>Maintenance schedule</b>
+1. Sign in to the [Azure portal](https://portal.azure.com/)
+2. Select the data warehouse that you want to view
+3. The selected data warehouse opens on the overview blade
 
 ## **Recommended Documents**
 
