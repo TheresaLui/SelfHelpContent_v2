@@ -24,7 +24,7 @@ Azure Functions integrates with Azure Logic Apps in the Logic Apps Designer. Thi
 
 ## **Recommended Documents**
 
-* [How to troubleshoot “functions runtime is unreachable”](https://docs.microsoft.com/azure/azure-functions/functions-recover-storage-account)<br>
+* [How to troubleshoot 'functions runtime is unreachable'](https://docs.microsoft.com/azure/azure-functions/functions-recover-storage-account)<br>
 * [Storage account deleted](https://docs.microsoft.com/azure/azure-functions/functions-recover-storage-account#storage-account-deleted)<br>
 * [Storage account application settings deleted](https://docs.microsoft.com/azure/azure-functions/functions-recover-storage-account#storage-account-application-settings-deleted)<br>
 * [Storage account credentials invalid](https://docs.microsoft.com/azure/azure-functions/functions-recover-storage-account#storage-account-credentials-invalid)<br>
