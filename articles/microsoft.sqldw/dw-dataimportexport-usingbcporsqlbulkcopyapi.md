@@ -19,7 +19,7 @@
 
 * [Use the appropriate resource class and service level](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL Data Warehouse increases the numbers of readers and writers for parallelism.<br>
 * [Using bcp or SQLBulkCopy API to load data into SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/design-elt-data-loading#4-load-the-data-into-sql-data-warehouse-staging-tables-using-polybase)
-* When loading using BCP, make sure you specify the -q parameter to set the QUOTED_IDENTIFIERS on.
+* When loading using BCP, make sure you specify the -q parameter to set the QUOTED_IDENTIFIERS on
 
 ## **Recommended Documents**
 
