@@ -42,4 +42,4 @@ A service outage can manifest itself in two ways. The first way is data in the p
 ## **Recommended Documents**
 
 * [Azure Monitor Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)<br>
-* [Azure Status Blog](https://status.azure.com/en-us/status)<br>
+* [Azure Status Blog](https://status.azure.com/status)<br>
