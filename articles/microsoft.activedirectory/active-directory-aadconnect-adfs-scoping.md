@@ -12,10 +12,10 @@
 />
 # AD FS Scoping question
 ---
-
 {
-  "subscriptionRequired": true,
-  "resourceRequired": false,
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": false,
 	"title": "AD FS Scoping Questions",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -53,10 +53,11 @@
 			"hints": [{
 					"text": "Issue description."
 				}, {
-					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
+					"text": "Error messages."
+				}, {
+					"text": "Applicable screenshots."
 				}
 			]
 		}
 	]
 }
----
