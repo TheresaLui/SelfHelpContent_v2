@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
 	cloudEnvironments="public"
-	articleId="80299363-0fe4-4b9e-a04d-22947d21414d"
+	articleId="b899df06-8ac3-47f3-a10e-4842e559f703"
 />
 
 # Troubleshoot and resolve Azure Storage Authentication issues
