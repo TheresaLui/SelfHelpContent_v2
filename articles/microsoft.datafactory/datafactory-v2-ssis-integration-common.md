@@ -34,7 +34,7 @@
 - [Run an SSIS package with the Stored Procedure activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/how-to-invoke-ssis-package-stored-procedure-activity)
 - [Access data stores and file shares with Windows authentication from SSIS packages in Azure](https://docs.microsoft.com/sql/integration-services/lift-shift/ssis-azure-connect-with-windows-auth?view=sql-server-2017)
 
-## FAQ
+### FAQ
 
 - [Azure Data Factory FAQ](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions)
 - [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
