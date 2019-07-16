@@ -3,12 +3,13 @@
 	description="configure dns zones and records"
 	service="microsoft.network"
 	resource="dns"
-	authors="radwiv"
+	authors="rohinkoul"
+    ms.author="rohink"
 	selfHelpType="generic"
 	supportTopicIds="32593308"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="ff5614c0-e1fe-4cbe-ab23-3891e7872ca4"
 />
 
