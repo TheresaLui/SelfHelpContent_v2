@@ -14,28 +14,33 @@
 />
 
 # SQL queries for Azure Cosmos DB
+
+## **Recommended Steps**
+
 For optimal query performance, follow the steps from the [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance) article.
 
 The most common issues and workarounds are detailed below. 
 
-## Tune Query Feed Options Parameters 
+### Tune Query Feed Options Parameters 
+
 Query performance can be tuned via the request's [Feed Options](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.feedoptions?view=azure-dotnet) Parameters. Try setting the below options:
 
-  * Set `MaxDegreeOfParallelism` to -1 first and then compare performance across different values. 
-  * Set `MaxBufferedItemCount` to -1 first and then compare performance across different values. 
-  * Set `MaxItemCount` to -1.
+  * Set `MaxDegreeOfParallelism` to -1 first and then compare performance across different values
+  * Set `MaxBufferedItemCount` to -1 first and then compare performance across different values 
+  * Set `MaxItemCount` to -1
 
 When comparing performance of different values, try values such as 2, 4, 8, 16, and others.
 
-## Read all results from continuations
+### Read all results from continuations
+
 If you think you are not getting all the results, make sure to drain the continuation fully. In other words, keep reading results while the continuation token has more documents to yield.
 
 Fully draining can be achieved with either of the following patterns:
 
-  * Continue processing results while continuation is not empty.
-  * Continue processing while query has more results. 
+  * Continue processing results while continuation is not empty
+  * Continue processing while query has more results
 
-    ```csharp
+    ```
     // using AsDocumentQuery you get access to whether or not the query HasMoreResults
     // If it does, just call ExecuteNextAsync until there are no more results
     // No need to supply a continuation token here as the server keeps track of progress
@@ -49,7 +54,8 @@ Fully draining can be achieved with either of the following patterns:
     }
     ```
 
-## Choose system functions that utilize index
+### Choose system functions that utilize index
+
 If the expression can be translated into a range of string values, then it can utilize the index; otherwise, it cannot. 
 
 Here is the list of string functions that can utilize the index: 
@@ -58,9 +64,10 @@ Here is the list of string functions that can utilize the index:
   * LEFT(str_expr, num_expr) = str_expr 
   * SUBSTRING(str_expr, num_expr, num_expr) = str_expr, but only if first num_expr is 0 
 
-For more system function details see [System Functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-system-functions) article.
+For more system function details see [System Functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-system-functions).
 
 ## **Recommended Documents**
+
 Please refer to documents below on how to get execution statistics and tune your queries:
 
 * [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
