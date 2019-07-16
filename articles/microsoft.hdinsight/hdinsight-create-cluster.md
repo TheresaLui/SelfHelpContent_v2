@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-Common root causes for cluster creation issues
+Common root causes for cluster creation issues.
 
 ### Permissions issues
 
