@@ -18,18 +18,18 @@ cloudEnvironments="public"
 # Migrate to ZRS within a region
 
 <!--issueDescription-->
-Changing redundancy type to zone redundant storage (ZRS) involves moving the physical data from a single storage stamp to multiple stamps within a qualified region. <br>Live migration is only supported for Standard accounts. Premium accounts are not supported<br>
+Changing redundancy type to zone redundant storage (ZRS) involves moving the physical data from a single storage stamp to multiple stamps within a qualified region. <br>Live migration is only supported for Standard accounts. Premium accounts are not supported.
 <!--/issueDescription-->
 
-### 1. Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is not in a qualified region
+## **Recommended Steps**
+
+1. Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is not in a qualified region
 
 We were able to successfully migrate Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->. 
 
 Please check [Qualified Region](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs#support-coverage-and-regional-availability) for more information
 
+2. Unable to migrate Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** to ZRS due to account type is premium
 
----
-
-### 2. Unable to migrate Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** to ZRS due to account type is premium
 
 
