@@ -20,7 +20,7 @@ At <!--$startTime-->startTime<!--/$startTime--> UTC, the Azure monitoring system
 
 <!--$DetailedStatus-->DetailedStatus<!--/$DetailedStatus-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * **Use Azure Resource Health**: [view detailed information](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/resourceHealth) about the current and past health status of your Azure resource, <!--$ResourceName-->ResourceName<!--/$ResourceName-->, as well as recommended actions that you can take for specific availability issues.
 
