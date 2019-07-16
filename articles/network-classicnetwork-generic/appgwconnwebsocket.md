@@ -10,7 +10,7 @@
 	supportTopicIds="32639117"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="connectivity-web-socket"
 />
 
