@@ -28,8 +28,8 @@
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
-                    "value": "VMWare VMs",
-                    "text": "VMWareVMs"
+                    "value": "VMware VMs",
+                    "text": "VMwareVMs"
                 },
                 {
                     "value": "Hyper-V VMs",
@@ -48,10 +48,10 @@
             "required": true
         },
         {
-            "id": "if_VMWare_method",
+            "id": "if_VMware_method",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "If you are selecting VMWare VMs, please provide the method for replication",
+            "displayLabel": "If you are selecting VMware VMs, please provide the method for replication",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
