@@ -16,7 +16,7 @@
 
 # V2 - Azure-SSIS/Package Execution or Deployment Problem Common Solutions Update
 
-## Common Package Execution Errors
+## **Recommended Steps**
 
 ### Error message: *"ADO NET Source has failed to acquire the connection '...' " with "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible."*
 
@@ -27,7 +27,8 @@ Try these actions:
 * Verify that you're passing the data source or destination name/IP correctly<br>
 * Verify that the firewall is set properly<br>
 * Verify that your virtual network is configured properly if your data source or destination is on-premises:
-  * You can verify whether the issue is from virtual network configuration by provisioning an Azure VM in the same virtual network. Then check whether the data source or destination can be accessed from the Azure VM.<br>
+  
+  * You can verify whether the issue is from virtual network configuration by provisioning an Azure VM in the same virtual network, then check whether the data source or destination can be accessed from the Azure VM
   * You can find more details about using a virtual network with an SSIS integration runtime in [Join an Azure-SSIS integration runtime to a virtual network](https://docs.microsoft.com/azure/data-factory/join-azure-ssis-integration-runtime-virtual-network)
 
 ### Error message: *"The connection '...' is not found"*
