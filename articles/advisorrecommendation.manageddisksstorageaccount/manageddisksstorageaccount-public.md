@@ -67,6 +67,6 @@
   "displayLabel": "Use Managed Disks",
   "additionalColumns": [],
   "tip": "You can use Managed Disks to prevent disk throttling and improve virtual machine performance.",
-  "learnMoreLink": "https://aka.ms/aa_lowusagerec_learnmore"
+  "learnMoreLink": "https://aka.ms/aa_avset_manageddisk_learnmore"
 }
 ---
