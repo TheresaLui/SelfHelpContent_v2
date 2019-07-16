@@ -14,9 +14,10 @@
 />
 
 # An Azure service issue impacted resources in your subscription
+
 At <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime--> UTC, an Azure service issue impacted resources in your subscription. Please view the latest information about the service issue in Azure service health: [Tracking ID <!--$TrackingId-->TrackingId<!--/$TrackingId-->](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory). You may also download a PDF summary document and root cause for the service issue in Azure Service Health.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * **Create a Service Health alert**: the alert will notify you and your team the next time there is an issue with your Azure services that affects you. [Stay in-the-know with Azure Service Health alerts](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-activity-log-alerts-on-service-notifications).
 
