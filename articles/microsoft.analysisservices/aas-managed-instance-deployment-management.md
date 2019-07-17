@@ -3,7 +3,7 @@
 	pageTitle="managed instance deployment"
 	description="managed instance deployment"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="200"

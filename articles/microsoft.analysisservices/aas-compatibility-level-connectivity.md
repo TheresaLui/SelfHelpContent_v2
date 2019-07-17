@@ -3,7 +3,7 @@
 	pageTitle="compatibility level"
 	description="compatibility level"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="50"

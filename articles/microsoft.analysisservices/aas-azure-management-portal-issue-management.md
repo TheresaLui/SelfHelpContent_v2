@@ -3,7 +3,7 @@
 	pageTitle="azure management portal issue"
 	description="azure management portal issue"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="160"

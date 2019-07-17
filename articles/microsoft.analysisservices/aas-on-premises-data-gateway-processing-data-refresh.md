@@ -3,7 +3,7 @@
 	pageTitle="on-premises data gateway"
 	description="on-premises data gateway"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="290"

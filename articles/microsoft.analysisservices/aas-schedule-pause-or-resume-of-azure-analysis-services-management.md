@@ -3,7 +3,7 @@
 	pageTitle="schedule pause or resume of azure analysis services"
 	description="schedule pause or resume of azure analysis services"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="210"

@@ -3,7 +3,7 @@
 	pageTitle="performance"
 	description="performance"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="310"

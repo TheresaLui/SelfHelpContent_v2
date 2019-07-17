@@ -3,7 +3,7 @@
 	pageTitle="enable firewall"
 	description="enable firewall"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="90"

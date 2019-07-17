@@ -3,7 +3,7 @@
 	pageTitle="replicas sync or scale out"
 	description="replicas sync or scale out"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="120"

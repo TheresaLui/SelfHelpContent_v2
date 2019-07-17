@@ -3,7 +3,7 @@
 	pageTitle="processing database"
 	description="processing database"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="330"

@@ -3,7 +3,7 @@
 	pageTitle="performance and timeouts"
 	description="performance and timeouts"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="360"

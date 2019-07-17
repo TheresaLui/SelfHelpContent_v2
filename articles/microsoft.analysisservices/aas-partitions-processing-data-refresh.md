@@ -3,7 +3,7 @@
 	pageTitle="partitions"
 	description="partitions"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="300"

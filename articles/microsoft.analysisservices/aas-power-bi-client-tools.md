@@ -3,7 +3,7 @@
 	pageTitle="power bi"
 	description="power bi"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="30"

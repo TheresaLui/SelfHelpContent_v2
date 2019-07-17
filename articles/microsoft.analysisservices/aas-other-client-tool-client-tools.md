@@ -3,7 +3,7 @@
 	pageTitle="other client tool"
 	description="other client tool"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="20"

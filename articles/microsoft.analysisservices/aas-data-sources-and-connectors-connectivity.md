@@ -3,7 +3,7 @@
 	pageTitle="data sources and connectors"
 	description="data sources and connectors"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="70"

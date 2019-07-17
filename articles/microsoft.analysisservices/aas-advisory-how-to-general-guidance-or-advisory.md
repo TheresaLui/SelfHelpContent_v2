@@ -3,7 +3,7 @@
 	pageTitle="advisory - how to"
 	description="advisory - how to"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="140"

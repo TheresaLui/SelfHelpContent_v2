@@ -3,7 +3,7 @@
 	pageTitle="register an app or rest api"
 	description="register an app or rest api"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="110"

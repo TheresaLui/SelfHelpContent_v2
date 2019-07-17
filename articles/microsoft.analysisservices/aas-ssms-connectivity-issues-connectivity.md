@@ -3,7 +3,7 @@
 	pageTitle="ssms connectivity issues"
 	description="ssms connectivity issues"
 	service="Microsoft.AnalysisServices"
-	resource="servers"
+	resource="Microsoft.AnalysisServices/servers"
 	authors="pjfreitas"
 	ms.author="pfreitas"
 	displayOrder="130"
