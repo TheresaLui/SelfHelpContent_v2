@@ -1,5 +1,5 @@
 <properties
-	pageTitle="how do i/monitor or debug my service"
+	pageTitle="how do i"
 	description="how do i"
 	service="microsoft.servicebus"
 	resource="namespaces"
