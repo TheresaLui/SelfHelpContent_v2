@@ -26,6 +26,7 @@ You can find answers to many common questions in [Log Analytics FAQ](https://doc
 Review the following topics for background information and troubleshooting.<br> 
 
 **Resource providers and azure logs:** 
+
 * Overview of [Azure Activity log]( https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview)
 * Learn how to [query Diagnostics data]( https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-logs-stream-log-store#examples) in a Log Analytics workspace?
 * Overview of [Azure Monitor for VMs]( https://docs.microsoft.com/en-us/azure/azure-monitor/insights/vminsights-enable-overview)
