@@ -19,9 +19,9 @@
 # Error CBPSourceSnapshotFailedReplicaMissingOrInvalid
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the disk-backup replica is either invalid or missing
+We have identified that your backup operation failed because the disk backup replica is either invalid or missing.
 <!--/issueDescription-->
 
 ## **Recommended Document**
 
-To resolve the issue, refer this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaMissingOrInvalid)
+To resolve the issue, refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaMissingOrInvalid).
