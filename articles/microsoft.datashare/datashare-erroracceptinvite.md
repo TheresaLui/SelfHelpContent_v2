@@ -7,7 +7,7 @@
 	authors="joannapea"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32675621"
 	resourceTags=""
 	productPesIds="16762"
 	cloudEnvironments="public"
@@ -21,3 +21,4 @@ If you have not created a Data Share account in this subscription, the Data Shar
 ## **Recommended Steps**
 
 * [Register a resource provider](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-supported-services)
+* [Register Azure Data Share resource provider](https://docs.microsoft.com/azure/data-share/concepts-roles-permissions#resource-provider-registration)
