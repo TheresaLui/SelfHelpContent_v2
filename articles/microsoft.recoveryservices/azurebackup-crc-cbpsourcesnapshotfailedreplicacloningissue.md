@@ -19,9 +19,9 @@
 # Error CBPSourceSnapshotFailedReplicaInconsistent
 
 <!--issueDescription-->
-We identified that your Backup failed as the disk-backup replica could not be cloned.
+We identified that your backup failed because the disk backup replica could not be cloned.
 <!--/issueDescription-->
 
 ## **Recommended Document**
 
-To resolve this issue, refer this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaCloningIssue).
+To resolve this issue, please refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaCloningIssue).
