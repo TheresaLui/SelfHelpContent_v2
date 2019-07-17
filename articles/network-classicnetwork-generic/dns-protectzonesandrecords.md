@@ -15,5 +15,6 @@
 
 # protect dns zones and records
 
-## **Recommended documents**
-[Protect](https://docs.microsoft.com/azure/dns/dns-protect-zones-recordsets) DNS zones and records
+## **Recommended Documents**
+
+* [Protect](https://docs.microsoft.com/azure/dns/dns-protect-zones-recordsets) DNS zones and records
