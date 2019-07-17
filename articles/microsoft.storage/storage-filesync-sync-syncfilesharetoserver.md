@@ -14,7 +14,7 @@
 	articleId="60d58083-8fdf-4f4a-85fd-3f26004c78c3"
 />
 
-# Troubleshooting Azure File Sync - Files are not syncing from Azure file share to server.
+# Troubleshooting Azure File Sync - Files are not syncing from Azure file share to server
 
 ## **Recommended Documents**
 
@@ -25,6 +25,7 @@
 
 **Sync Monitoring**
 
+- [Monitor Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-monitoring)<br>
 - [How do I monitor sync health?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#broken-sync)<br>
 - [How do I monitor the progress of a current sync session?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#how-do-i-monitor-the-progress-of-a-current-sync-session)<br>
 - [How do I know if my servers are in sync with each other?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#how-do-i-know-if-my-servers-are-in-sync-with-each-other)
