@@ -23,7 +23,8 @@ We have identified that an adhoc/scheduled backup was triggered before the first
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 To resolve this issue, perform the below steps:
 
-* If scheduled Differential/Log backups fails with this issue, then Azure Backup uses auto-heal to trigger a remedial full backup and no further action is required as it is auto corrected.
-* If adhoc Differential/Log backups fails with this issue, then ensure full backup is taken else, all the subsequent adhoc Diff/Log backup will continue to fail with this error code.
+* If scheduled Differential/Log backups fails with this issue, then Azure Backup uses auto-heal to trigger a remedial full backup and no further action is required as it is auto corrected
+* If adhoc Differential/Log backups fails with this issue, then ensure full backup is taken else, all the subsequent adhoc Diff/Log backup will continue to fail with this error code
