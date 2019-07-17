@@ -16,7 +16,7 @@
 ---
 {
 	"subscriptionRequired": true,
-	"resourceRequired": false,
+	"resourceRequired": true,
 	"title": "Unable to connect to a SAP Hana instance",
 	"fileAttachmentHint": "",
 	"formElements": [{
