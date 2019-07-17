@@ -19,9 +19,9 @@
 # Error CBPSourceSnapshotFailedReplicaInconsistent
 
 <!--issueDescription-->
-We identified that your Source volume snapshot failed due to inconsistent datasource replica.
+We identified that your Source volume snapshot failed due to an inconsistent datasource replica.
 <!--/issueDescription-->
 
 ## **Recommended Document**
 
-To resolve this issue, refer this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaInconsistent).
+To resolve this issue, refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaInconsistent).
