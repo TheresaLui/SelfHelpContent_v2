@@ -33,7 +33,7 @@ schemaVersion="1"
             "displayLabel": "Details",
             "watermarkText": "Provide the exact command and error message with any addition details.",
             "required": true,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Issue description."
