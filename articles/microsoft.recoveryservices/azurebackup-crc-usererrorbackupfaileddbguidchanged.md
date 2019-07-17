@@ -19,11 +19,12 @@
 # Error UserErrorBackupFailedDBGuidChanged
 
 <!--issueDescription-->
-We have identified that your Log/Differential backup failed because database GUID has changed since the last successful Full backup. 
+We have identified that your Log/Differential backup failed because database GUID has changed since the last successful full backup. 
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
+
 To resolve this issue, perfom the below steps:
 
-* If scheduled Differential/Log backups fails with this issue Azure Backup uses auto-heal to trigger a remedial full backup. not further action is required.
-* If adhoc Differential/Log backups fails with this issue, then ensure Full backup is taken else, all subsequent adhoc Diff/Log backup will continue to fail with this error code.
+* If scheduled Differential/Log backups fails with this issue, Azure Backup uses auto-heal to trigger a remedial full backup. No further action is required.
+* If adhoc Differential/Log backups fails with this issue, then ensure a full backup is taken. Otherwise, all subsequent adhoc Diff/Log backups will continue to fail with this error code.
