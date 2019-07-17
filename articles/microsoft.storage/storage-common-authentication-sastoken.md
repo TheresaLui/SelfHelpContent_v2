@@ -36,10 +36,10 @@ If your client application is throwing HTTP 403 (Forbidden) errors, below are mo
 
 **NOTE**: If an expired SAS key is the cause, you will not see any entries in the server-side Storage Logging log data.
 
-    1. Client is using an expired SAS token
-    2. Clock skew 
-    3. Invalid keys 
-    4. Empty headers
+1. Client is using an expired SAS token
+2. Clock skew 
+3. Invalid keys 
+4. Empty headers
 
 To resolve these issues, try these steps:
 
@@ -61,10 +61,10 @@ If your client application is receiving an HTTP 404 (Not found) message from the
 
 The most likley reasons for this are:
 
-    1. The client or another process previously deleted the object
-    2. Shared Access Signature (SAS) authorization issue 
-    3. Client-side JavaScript code does not have permission to access the object 
-    4. Network failure and lost network packets can lead to the storage service returning HTTP 404 messages to the client.
+1. The client or another process previously deleted the object
+2. Shared Access Signature (SAS) authorization issue 
+3. Client-side JavaScript code does not have permission to access the object 
+4. Network failure and lost network packets can lead to the storage service returning HTTP 404 messages to the client
 
 ## **Recommended Documents**
 
