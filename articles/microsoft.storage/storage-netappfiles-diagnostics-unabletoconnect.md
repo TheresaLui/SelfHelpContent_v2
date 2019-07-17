@@ -1,6 +1,7 @@
 ﻿<properties
 	pageTitle="Unable to connect to Azure NetApp Files volume"
 	description="Unable to connect to Azure NetApp Files volume"
+	infoBubbleText="We have detected a connectivity issue to your Azure NetApp Files volume. See details on the right."
 	service="microsoft.storage"
 	resource="storage"
 	authors="Ram-Kakani"
