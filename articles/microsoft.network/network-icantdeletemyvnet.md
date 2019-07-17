@@ -7,9 +7,9 @@
 	ms.author="anavin"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32584253"
 	resourceTags=""
-	productPesIds="32584253"
+	productPesIds=""
 	cloudEnvironments="public"
 	articleId="61f24fa9-0fc9-44e8-b419-93f4d7cf005a"
 />
