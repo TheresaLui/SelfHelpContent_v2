@@ -3,12 +3,13 @@
 	description="configure custom dns for webapps"
 	service="microsoft.network"
 	resource="dns"
-	authors="radwiv"
+	authors="rohinkoul"
+    ms.author="rohink"
 	selfHelpType="generic"
 	supportTopicIds="32593307"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="e9527325-7d9c-4438-bd54-66f12a6c6709"
 />
 

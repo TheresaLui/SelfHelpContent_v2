@@ -3,12 +3,13 @@
 	description="protect dns zones and records"
 	service="microsoft.network"
 	resource="dns"
-	authors="radwiv"
+	authors="rohinkoul"
+    ms.author="rohink"
 	selfHelpType="generic"
 	supportTopicIds="32593312"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="d175f73b-be00-4aef-bd2a-434889f52325"
 />
 

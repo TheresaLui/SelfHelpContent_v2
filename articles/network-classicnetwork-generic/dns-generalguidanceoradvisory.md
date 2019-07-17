@@ -3,12 +3,13 @@
 	description="general guidance or advisory"
 	service="microsoft.network"
 	resource="dns"
-	authors="radwiv"
+	authors="rohinkoul"
+    ms.author="rohink"
 	selfHelpType="generic"
 	supportTopicIds="32560121"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="12f475ed-9a7e-4d54-9782-40f83070f767"
 />
 
