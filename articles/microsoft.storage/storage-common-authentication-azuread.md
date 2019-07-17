@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 
-### **Common issues reported with RBAC roles** ####
+### **Common issues reported with RBAC roles**
 
 - [I am the owner of the Storage account but don't get to access data](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?#assign-rbac-roles-using-the-azure-portal)
 - [I have Data Reader/Data Contributor permission but don't see the storage account on Portal](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?#assign-rbac-roles-using-the-azure-portal) 
