@@ -3,13 +3,14 @@
 	description="traffic routing"
 	service="microsoft.network"
 	resource="trafficmanagerprofiles"
-	authors="radwiv,ScottAzure"
+	authors="rohinkoul"
+    ms.author="rohink"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32593302,32411851"
 	resourceTags=""
 	productPesIds="15400,15797"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="b5bb9add-6c52-44db-919a-f25f6a0cd29c"
 />
 
@@ -17,6 +18,7 @@
 
 ## **Recommended documents**
 
+* [Debug HTTP errors](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs#why-am-i-seeing-an-http-error-when-using-traffic-manager)
 * Traffic Manager [routing methods](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-routing-methods)<br>
 * Traffic Manager [FAQs](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs)<br>
 * [Understanding Nested Traffic Manager profiles](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-nested-profiles)<br>
