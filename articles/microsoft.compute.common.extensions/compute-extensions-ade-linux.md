@@ -23,7 +23,8 @@
 * [Overview of Azure Disk Encryption extension for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/azure-disk-enc-linux)<br>
 * [Understanding prerequisites for Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-prerequisites)<br>
 * [Troubleshooting Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-tsg)<br>
-* [Azure Disk Encryption FAQ](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-faq)
+* [Azure Disk Encryption FAQ](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-faq)<br>
+* [How to troubleshoot Azure Extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
 
 **Additional Information**<br>
 

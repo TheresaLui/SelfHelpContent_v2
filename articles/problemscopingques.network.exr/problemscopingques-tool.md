@@ -22,8 +22,7 @@
   "formElements": [{
       "id": "slow_vm_determination",
       "order": 1,
-      "controlType": "dropdown",
-      "infoBalloonText": "string",
+      "controlType": "multiselectdropdown",
       "displayLabel": "Which tool(s) are you experiencing issues with?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [{

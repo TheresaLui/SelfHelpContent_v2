@@ -14,7 +14,7 @@
     articleId="abdc2tg3-706d-401c-b984-f433c12f1e9f"
 />
 
-# Enable data protection with Azure Backup
+# Enable Data Protection with Azure Backup
 
 ## **Recommended Steps**
 
