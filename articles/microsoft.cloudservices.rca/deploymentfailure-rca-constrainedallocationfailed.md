@@ -23,7 +23,8 @@ We have detected that the deployment for cloud service **<!--$csname-->cloud ser
 Microsoft Azure partitions compute nodes in a datacenter into various clusters, with each cluster containing about a thousand nodes/blades. The cloud services when deployed get pinned to a single cluster, and don’t currently span across multiple clusters. In some cases, as availability of free blades or free space within a blade in a cluster fluctuates, the constraints to find an allocation for the service may not be not met. When these constraints are not satisfied, we return back the request as a service allocation failure.
 <!--/issueDescription-->
 
-## **Details of the diagnosis**
+## **Diagnosis Details**
+
 Following are the details specific to this Deployment failure:
 
 * **Deployment operation time**: **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)**
