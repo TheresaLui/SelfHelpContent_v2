@@ -22,6 +22,6 @@
 We identified that your Source volume snapshot failed due to inconsistent datasource replica.
 <!--/issueDescription-->
 
-## **Recommended Document
+## **Recommended Document**
 
 To resolve this issue, refer this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaInconsistent).
