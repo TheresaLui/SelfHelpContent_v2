@@ -59,7 +59,7 @@ To resolve these issues, try these steps:
   
 If your client application is receiving an HTTP 404 (Not found) message from the server, this implies that the object the client was attempting to use (such as an entity, table, blob, container, or queue) does not exist in the storage service.
 
-The most likley reasons for this are:
+The most likely reasons for this are:
 
 1. The client or another process previously deleted the object
 2. Shared Access Signature (SAS) authorization issue 
