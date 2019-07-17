@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-### **Shared Key Access **
+### **Shared Key Access**
 
 - [Shared Key access to Storage](https://docs.microsoft.com/rest/api/storageservices/authorize-with-shared-key)
 - [Specifying the Date Header](https://docs.microsoft.com/rest/api/storageservices/authorize-with-shared-key#Subheading1)
