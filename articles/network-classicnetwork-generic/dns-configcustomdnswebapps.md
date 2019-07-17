@@ -15,5 +15,6 @@
 
 # configure custom dns for webapps
 
-## **Recommended documents**
-Configure custom domains [for WebApps](https://docs.microsoft.com/azure/dns/dns-web-sites-custom-domain)
+## **Recommended Documents**
+
+* Configure custom domains [for WebApps](https://docs.microsoft.com/azure/dns/dns-web-sites-custom-domain)
