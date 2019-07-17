@@ -36,9 +36,10 @@ Following are the details specific to this Deployment failure:
 * **Cause of the failure**: If you are deploying into an existing VNet, Affinity Group, or Hosted Service, your deployment is **pinned** to a cluster which will cause all further deployment operations (like deploying to a different slot, scale up etc) to bound to the same cluster. This cluster might be full and cannot support any more capacity.
 
 * **Possible mitigations**: Please try the following:
--	Remove the constraints that are binding you to the cluster (deploy to a different VNet, deploy to a new Cloud Service)
--	Lower your role instance count request. There might be capacity for a smaller deployment.
--	Try again in the future. Capacity might become available. 
+
+	* Remove the constraints that are binding you to the cluster (deploy to a different VNet, deploy to a new Cloud Service)
+	* Lower your role instance count request. There might be capacity for a smaller deployment.
+	* Try again in the future. Capacity might become available. 
 
 ## **Recommended Document**
 
