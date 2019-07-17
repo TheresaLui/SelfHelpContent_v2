@@ -38,7 +38,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/aa_sivmrec_learnmore_cn",
+  "learnMoreLink": "https://aka.ms/aa_sivmrec_learnmore",
   "description": "Use availability sets for improved fault tolerance",
   "longDescription": "Group two or more virtual machines in an availability set to ensure at least one virtual machine is available during an outage.",
   "potentialBenefits": "Ensure business continuity through virtual machine resilience",
@@ -47,13 +47,13 @@
       "actionId": "7C9876C8-E6CB-4DC9-8865-39E4EA2CD384",
       "actionType": "Document",
       "description": "Move the virtual machine into an existing availability set",
-      "documentLink": "https://aka.ms/aa_sivmrec_arm_action1"
+      "documentLink": "https://aka.ms/aa_sivmrec_arm_action1_cn"
     },
     {
       "actionId": "6BE7BED7-4847-48B1-890E-4987A4362CFE",
       "actionType": "Document",
       "description": "Move the virtual machine into a new availability set",
-      "documentLink": "https://aka.ms/aa_sivmrec_arm_action2"
+      "documentLink": "https://aka.ms/aa_sivmrec_arm_action2_cn"
     }
   ],
   "resourceMetadata": {

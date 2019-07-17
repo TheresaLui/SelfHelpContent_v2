@@ -16,7 +16,7 @@
 
 # Resolve Update Management issues with Azure Automation - Scanning for and Deploying Updates
 
-This article will help with several kinds of issues relating to using the Azure Update Management solution.
+This article will help with assessing available updates and installing updates using the Azure Update Management solution.
 
 ## **Recommended Steps**
 
@@ -41,6 +41,10 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 * Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 * If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
+
+### **KB2267602 is consistently  missing**
+
+* KB2267602 is the [Windows Defender definition update](https://www.microsoft.com/wdsi/definitions). It is updated daily.
 
 ### Installing updates by classification on Linux
 

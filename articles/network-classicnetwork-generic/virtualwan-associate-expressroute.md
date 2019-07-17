@@ -13,7 +13,7 @@
 	supportTopicIds="32640641,32640656"
 	resourceTags=""
 	productPesIds="16572"
-	cloudEnvironments="public"
+	cloudEnvironments="public,mooncake,fairfax"
 />
 
 # Virtual WAN and ExpressRoute
