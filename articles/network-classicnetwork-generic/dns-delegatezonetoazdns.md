@@ -15,5 +15,6 @@
 
 # delegate zone to azure dns
 
-## **Recommended documents**
-[Delegate zones](https://docs.microsoft.com/azure/dns/dns-domain-delegation) to Azure DNS
+## **Recommended Documents**
+
+* [Delegate zones](https://docs.microsoft.com/azure/dns/dns-domain-delegation) to Azure DNS
