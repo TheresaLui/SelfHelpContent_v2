@@ -23,8 +23,8 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem Start Date",
             "required": true
-        },       
-         {
+        },
+	{
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
@@ -35,9 +35,9 @@
                 {
                     "text": "Note: Make sure that you add details about why your deployment has to send mail directly to mail providers instead of using an authenticated relay"
                 }
-            ]
-        }        
-    ],
+		]
+		}
+		],
     "$schema": "SelfHelpContent"
 }
 ---
