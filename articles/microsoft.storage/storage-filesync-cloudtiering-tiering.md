@@ -20,9 +20,9 @@
 
 **Cloud Tiering Failures**
 
-- [Troubleshoot files that fail to tier](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#files-fail-tiering)<br>
-- [Troubleshoot files that fail to be recalled](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#files-fail-recall)<br>
-- [Troubleshoot files unexpectedly recalled on a server](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#files-unexpectedly-recalled)
+- [Troubleshoot files that fail to tier](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#how-to-troubleshoot-files-that-fail-to-tier)<br>
+- [Troubleshoot files that fail to be recalled](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#how-to-troubleshoot-files-that-fail-to-be-recalled)<br>
+- [Troubleshoot files unexpectedly recalled on a server](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#how-to-troubleshoot-files-unexpectedly-recalled-on-a-server)
 
 **Cloud Tiering Configuration**
 
@@ -34,6 +34,7 @@
 
 **Cloud Tiering Monitoring**
 
-- [How do I monitor cloud tiering on a server?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#monitor-tiering-activity)<br>
-- [How do I monitor recall activity on a server?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#monitor-recall-activity)<br>
-- [How do I tell whether a file has been tiered?](https://docs.microsoft.com/azure/storage/files/storage-files-faq#is-my-file-tiered)
+- [Monitor Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-monitoring)<br>
+- [How to monitor tiering activity on a server](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#how-to-monitor-tiering-activity-on-a-server)<br>
+- [How to monitor recall activity on a server](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#how-to-monitor-recall-activity-on-a-server)<br>
+- [How do I tell whether a file has been tiered?](https://docs.microsoft.com/azure/storage/files/storage-sync-cloud-tiering#is-my-file-tiered)
