@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "SubscriptionRequired": false,
     "title": "Port 25 email flow",
     "fileAttachmentHint": "",
     "formElements": [
@@ -23,7 +24,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem Start Date",
             "required": true
-        },
+	},
 	{
             "id": "problem_description",
             "order": 2,
