@@ -1,5 +1,4 @@
  <properties
-	description="azure management portal issue"
 	pageTitle="azure management portal issue"
 	description="azure management portal issue"
 	service="Microsoft.AnalysisServices"

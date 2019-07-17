@@ -1,5 +1,4 @@
  <properties
-	description="replicas sync or scale out"
 	pageTitle="replicas sync or scale out"
 	description="replicas sync or scale out"
 	service="Microsoft.AnalysisServices"

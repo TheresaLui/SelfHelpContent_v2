@@ -1,5 +1,4 @@
  <properties
-	description="compatibility level"
 	pageTitle="compatibility level"
 	description="compatibility level"
 	service="Microsoft.AnalysisServices"

@@ -1,5 +1,4 @@
  <properties
-	description="advisory - how to"
 	pageTitle="advisory - how to"
 	description="advisory - how to"
 	service="Microsoft.AnalysisServices"

@@ -1,5 +1,4 @@
  <properties
-	description="data sources and connectors"
 	pageTitle="data sources and connectors"
 	description="data sources and connectors"
 	service="Microsoft.AnalysisServices"

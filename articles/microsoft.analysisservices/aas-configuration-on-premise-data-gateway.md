@@ -1,5 +1,4 @@
  <properties
-	description="configuration"
 	pageTitle="configuration"
 	description="configuration"
 	service="Microsoft.AnalysisServices"

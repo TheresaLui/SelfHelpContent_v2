@@ -1,5 +1,4 @@
  <properties
-	description="ssms connectivity issues"
 	pageTitle="ssms connectivity issues"
 	description="ssms connectivity issues"
 	service="Microsoft.AnalysisServices"

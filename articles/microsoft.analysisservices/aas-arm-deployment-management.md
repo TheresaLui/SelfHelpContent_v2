@@ -1,5 +1,4 @@
  <properties
-	description="arm deployment"
 	pageTitle="arm deployment"
 	description="arm deployment"
 	service="Microsoft.AnalysisServices"

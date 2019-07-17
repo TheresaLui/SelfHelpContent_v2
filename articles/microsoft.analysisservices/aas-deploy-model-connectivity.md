@@ -1,5 +1,4 @@
  <properties
-	description="deploy model"
 	pageTitle="deploy model"
 	description="deploy model"
 	service="Microsoft.AnalysisServices"

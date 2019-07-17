@@ -1,5 +1,4 @@
  <properties
-	description="create automation account or schedule runbook"
 	pageTitle="create automation account or schedule runbook"
 	description="create automation account or schedule runbook"
 	service="Microsoft.AnalysisServices"

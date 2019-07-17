@@ -1,5 +1,4 @@
  <properties
-	description="data refresh"
 	pageTitle="data refresh"
 	description="data refresh"
 	service="Microsoft.AnalysisServices"

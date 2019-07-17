@@ -1,5 +1,4 @@
  <properties
-	description="enable firewall"
 	pageTitle="enable firewall"
 	description="enable firewall"
 	service="Microsoft.AnalysisServices"

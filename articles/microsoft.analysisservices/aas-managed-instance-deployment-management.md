@@ -1,5 +1,4 @@
  <properties
-	description="managed instance deployment"
 	pageTitle="managed instance deployment"
 	description="managed instance deployment"
 	service="Microsoft.AnalysisServices"

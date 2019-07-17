@@ -1,5 +1,4 @@
  <properties
-	description="connection timeout"
 	pageTitle="connection timeout"
 	description="connection timeout"
 	service="Microsoft.AnalysisServices"

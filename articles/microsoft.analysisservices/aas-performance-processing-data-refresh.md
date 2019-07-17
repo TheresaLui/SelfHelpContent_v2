@@ -1,5 +1,4 @@
  <properties
-	description="performance"
 	pageTitle="performance"
 	description="performance"
 	service="Microsoft.AnalysisServices"

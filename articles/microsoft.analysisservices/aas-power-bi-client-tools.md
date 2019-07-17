@@ -1,5 +1,4 @@
  <properties
-	description="power bi"
 	pageTitle="power bi"
 	description="power bi"
 	service="Microsoft.AnalysisServices"

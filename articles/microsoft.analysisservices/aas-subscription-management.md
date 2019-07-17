@@ -1,5 +1,4 @@
  <properties
-	description="subscription"
 	pageTitle="subscription"
 	description="subscription"
 	service="Microsoft.AnalysisServices"

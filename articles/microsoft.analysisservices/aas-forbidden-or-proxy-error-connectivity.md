@@ -1,5 +1,4 @@
  <properties
-	description="forbidden or proxy error"
 	pageTitle="forbidden or proxy error"
 	description="forbidden or proxy error"
 	service="Microsoft.AnalysisServices"

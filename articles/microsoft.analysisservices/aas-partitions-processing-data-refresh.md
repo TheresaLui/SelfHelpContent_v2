@@ -1,5 +1,4 @@
  <properties
-	description="partitions"
 	pageTitle="partitions"
 	description="partitions"
 	service="Microsoft.AnalysisServices"

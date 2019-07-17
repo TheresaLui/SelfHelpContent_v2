@@ -1,5 +1,4 @@
  <properties
-	description="performance and timeouts"
 	pageTitle="performance and timeouts"
 	description="performance and timeouts"
 	service="Microsoft.AnalysisServices"

@@ -1,5 +1,4 @@
  <properties
-	description="processing database"
 	pageTitle="processing database"
 	description="processing database"
 	service="Microsoft.AnalysisServices"

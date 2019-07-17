@@ -1,5 +1,4 @@
  <properties
-	description="on-premises data gateway"
 	pageTitle="on-premises data gateway"
 	description="on-premises data gateway"
 	service="Microsoft.AnalysisServices"

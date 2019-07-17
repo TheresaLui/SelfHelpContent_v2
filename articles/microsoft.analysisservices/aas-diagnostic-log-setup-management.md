@@ -1,5 +1,4 @@
  <properties
-	description="diagnostic log setup"
 	pageTitle="diagnostic log setup"
 	description="diagnostic log setup"
 	service="Microsoft.AnalysisServices"

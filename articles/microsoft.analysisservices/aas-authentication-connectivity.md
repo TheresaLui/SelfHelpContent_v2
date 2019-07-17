@@ -1,5 +1,4 @@
  <properties
-	description="authentication"
 	pageTitle="authentication"
 	description="authentication"
 	service="Microsoft.AnalysisServices"

@@ -1,5 +1,4 @@
  <properties
-	description="backup and restore"
 	pageTitle="backup and restore"
 	description="backup and restore"
 	service="Microsoft.AnalysisServices"

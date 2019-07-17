@@ -1,5 +1,4 @@
  <properties
-	description="register an app or rest api"
 	pageTitle="register an app or rest api"
 	description="register an app or rest api"
 	service="Microsoft.AnalysisServices"

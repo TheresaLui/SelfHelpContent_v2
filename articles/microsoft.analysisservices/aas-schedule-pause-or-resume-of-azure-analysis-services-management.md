@@ -1,5 +1,4 @@
  <properties
-	description="schedule pause or resume of azure analysis services"
 	pageTitle="schedule pause or resume of azure analysis services"
 	description="schedule pause or resume of azure analysis services"
 	service="Microsoft.AnalysisServices"

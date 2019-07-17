@@ -1,5 +1,4 @@
  <properties
-	description="excel"
 	pageTitle="excel"
 	description="excel"
 	service="Microsoft.AnalysisServices"

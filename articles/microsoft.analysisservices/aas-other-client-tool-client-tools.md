@@ -1,5 +1,4 @@
  <properties
-	description="other client tool"
 	pageTitle="other client tool"
 	description="other client tool"
 	service="Microsoft.AnalysisServices"

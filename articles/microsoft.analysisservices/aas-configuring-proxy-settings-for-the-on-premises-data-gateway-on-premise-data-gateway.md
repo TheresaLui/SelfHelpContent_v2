@@ -1,5 +1,4 @@
  <properties
-	description="configuring proxy settings for the on-premises data gateway"
 	pageTitle="configuring proxy settings for the on-premises data gateway"
 	description="configuring proxy settings for the on-premises data gateway"
 	service="Microsoft.AnalysisServices"

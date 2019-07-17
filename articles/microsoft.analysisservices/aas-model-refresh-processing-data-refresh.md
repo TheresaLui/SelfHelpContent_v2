@@ -1,5 +1,4 @@
  <properties
-	description="model refresh"
 	pageTitle="model refresh"
 	description="model refresh"
 	service="Microsoft.AnalysisServices"
