@@ -17,6 +17,7 @@
 # Troubleshoot and resolve Azure Storage access issues with Shared Access Signature (SAS) Token
 
 ## **Recommended Steps** 
+
 Most customers resolved their SAS token authentication and connectivity failures, on their own, using the steps below.
 
 ### **Shared Access Signature (SAS)**
@@ -29,67 +30,66 @@ Most customers resolved their SAS token authentication and connectivity failures
 
 ### **Common SAS Errors**  
 
-#### **Receiving HTTP 403 (Forbidden) messages** 
+**Receiving HTTP 403 (Forbidden) messages** 
   
-If your client application is throwing HTTP 403 (Forbidden) errors, below are most likely cause <br>
->NOTE : If an expired SAS key is the cause, you will not see any entries in the server-side Storage Logging log data.
+If your client application is throwing HTTP 403 (Forbidden) errors, below are most likely cause:
+
+**NOTE**: If an expired SAS key is the cause, you will not see any entries in the server-side Storage Logging log data.
 
     1. Client is using an expired SAS token
     2. Clock skew 
     3. Invalid keys 
     4. Empty headers
+
+To resolve these issues, try these steps:
+
+* Typically, you should not set a start time when you create a SAS for a client to use immediately. If there are small clock differences between the host generating the SAS using the current time and the storage service, then it is possible for the storage service to receive a SAS that is not yet valid.
+* Do not set a very short expiry time on a SAS. Again, small clock differences between the host generating the SAS and the storage service can lead to a SAS apparently expiring earlier than anticipated.
+* Does the version parameter in the SAS key (for example sv=2015-04-05) match the version of the Storage Client Library you are using? We recommend that you always use the latest version of the Storage Client Library.
+* If you regenerate your storage access keys, any existing SAS tokens may be invalidated. This issue may arise if you generate SAS tokens with a long expiry time for client applications to cache.    
        
-**Resolutions**
+## **Recommended Documents**
 
->Learn how to enable and client-side logs to diagnose these issues<br>
->[Logging with .NET Storage Client Library](https://docs.microsoft.com/rest/api/storageservices/client-side-logging-with-the-.net-storage-client-library)<br>
->[Logging with Java Storage Client Library](https://docs.microsoft.com/rest/api/storageservices/client-side-logging-with-the-microsoft-azure-storage-sdk-for-java)<br>
+* [Logging with .NET Storage Client Library](https://docs.microsoft.com/rest/api/storageservices/client-side-logging-with-the-.net-storage-client-library)<br>
+* [Logging with Java Storage Client Library](https://docs.microsoft.com/rest/api/storageservices/client-side-logging-with-the-microsoft-azure-storage-sdk-for-java)<br>
+* [Sample client library log generated for HTTP 403 issues](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?#the-client-is-receiving-403-messages)
 
->[Sample client library log generated for HTTP 403 issues](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?#the-client-is-receiving-403-messages)
 
-    1. Typically, you should not set a start time when you create a SAS for a client to use immediately. If there are small clock differences between the host generating the SAS using the current time and the storage service, then it is possible for the storage service to receive a SAS that is not yet valid.
-    2. Do not set a very short expiry time on a SAS. Again, small clock differences between the host generating the SAS and the storage service can lead to a SAS apparently expiring earlier than anticipated.
-    3. Does the version parameter in the SAS key (for example sv=2015-04-05) match the version of the Storage Client Library you are using? We recommend that you always use the latest version of the Storage Client Library.
-    4. If you regenerate your storage access keys, any existing SAS tokens may be invalidated. This issue may arise if you generate SAS tokens with a long expiry time for client applications to cache.    
-
-#### **Receiving HTTP 404 (Not found) messages** ####  
+### **Receiving HTTP 404 (Not found) messages**
   
 If your client application is receiving an HTTP 404 (Not found) message from the server, this implies that the object the client was attempting to use (such as an entity, table, blob, container, or queue) does not exist in the storage service.
 
-    The most likley reasons for this are
+The most likley reasons for this are:
+
     1. The client or another process previously deleted the object
     2. Shared Access Signature (SAS) authorization issue 
     3. Client-side JavaScript code does not have permission to access the object 
     4. Network failure and lost network packets can lead to the storage service returning HTTP 404 messages to the client.
 
-**Resolutions**
+## **Recommended Documents**
 
->Learn how to enable server-side logs to diagnose these issues<br>
->[Configure Storage Server Side Logging from Portal ](https://docs.microsoft.com/azure/storage/common/storage-monitor-storage-account#configure-logging)<br>
->[Analyze Storage Server Side Logs](https://docs.microsoft.com/azure/storage/common/storage-analytics-logging)<br>
+* [Configure Storage Server Side Logging from Portal ](https://docs.microsoft.com/azure/storage/common/storage-monitor-storage-account#configure-logging)
+* [Analyze Storage Server Side Logs](https://docs.microsoft.com/azure/storage/common/storage-analytics-logging)<br>
+* [Logging with .NET Storage Client Library](https://docs.microsoft.com/rest/api/storageservices/client-side-logging-with-the-.net-storage-client-library)
+* [Logging with Java Storage Client Library](https://docs.microsoft.com/rest/api/storageservices/client-side-logging-with-the-microsoft-azure-storage-sdk-for-java)<br>
 
->Learn how to enable and client-side logs to diagnose these issues<br>
->[Logging with .NET Storage Client Library](https://docs.microsoft.com/rest/api/storageservices/client-side-logging-with-the-.net-storage-client-library)<br>
->[Logging with Java Storage Client Library](https://docs.microsoft.com/rest/api/storageservices/client-side-logging-with-the-microsoft-azure-storage-sdk-for-java)<br>
-
-Below links provide sample server and client side logs to refer, as well as guidance on how to overcome these errors
+The below links provide sample server and client side logs to refer, as well as guidance on how to overcome these errors:
 
 - [The client or another process previously deleted the object](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#client-previously-deleted-the-object)
 - [Shared Access Signature (SAS) authorization issue](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#SAS-authorization-issue)
 - [Client-side JavaScript code does not have permission to access the object](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#JavaScript-code-does-not-have-permission)
 - [Network failure and lost network packets](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#network-failure)
 
-#### **Receiving HTTP 409 (Conflict) messages** ####  
+### **Receiving HTTP 409 (Conflict) messages**
 
 If your client application is receiving an HTTP 409 (Conflict) message from the server, this implies that the server is processing a previous request on the same object which conflicts with the current request.
 
->Learn how to enable server-side logs to diagnose these issues<br>
->[Configure Storage Server Side Logging from Portal ](https://docs.microsoft.com/azure/storage/common/storage-monitor-storage-account#configure-logging)<br>
->[Analyze Storage Server Side Logs](https://docs.microsoft.com/azure/storage/common/storage-analytics-logging)<br>
+## **Recommended Documents**
 
-**Resolutions**
+* [Configure Storage Server Side Logging from Portal ](https://docs.microsoft.com/azure/storage/common/storage-monitor-storage-account#configure-logging)
+* [Analyze Storage Server Side Logs](https://docs.microsoft.com/azure/storage/common/storage-analytics-logging)
 
-Below link provides sample server side logs to refer and guidance on how to overcome these errors
+The below link provides sample server side logs to refer and guidance on how to overcome these errors:
 
 - [The client is receiving HTTP 409 (Conflict) messages](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#the-client-is-receiving-409-messages)
 
@@ -112,4 +112,3 @@ Below link provides sample server side logs to refer and guidance on how to over
 - [Create SAS token for only Blob Service](https://docs.microsoft.com/rest/api/storageservices/constructing-a-service-sas#specifying-the-signed-resource-blob-service-only)
 - [Create SAS token for only File Service](https://docs.microsoft.com/rest/api/storageservices/constructing-a-service-sas#specifying-the-signed-resource-file-service-only)
 - [Create SAS token for only Table Service](https://docs.microsoft.com/rest/api/storageservices/constructing-a-service-sas#specifying-the-table-name-table-service-only)
-
