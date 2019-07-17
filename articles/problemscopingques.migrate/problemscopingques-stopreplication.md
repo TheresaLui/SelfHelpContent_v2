@@ -43,7 +43,6 @@
                     "value": "dont_know_answer",
                     "text": "Other"
                 }
-
             ],
             "required": true
         },
