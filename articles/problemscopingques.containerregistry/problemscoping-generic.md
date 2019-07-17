@@ -15,11 +15,13 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Other Issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
+            "required": true,
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?"
@@ -31,7 +33,7 @@ schemaVersion="1"
             "displayLabel": "Details",
             "watermarkText": "Provide the exact command and error message with any addition details (such as the output from 'az acr check-health --name myregistry --ignore-errors --yes').",
             "required": true,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Issue description."

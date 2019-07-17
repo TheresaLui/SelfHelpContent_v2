@@ -15,11 +15,13 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "ACR Tasks Issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
+            "required": true,
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?"

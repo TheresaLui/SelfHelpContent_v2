@@ -15,11 +15,13 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Management Issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
+            "required": true,
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?"
@@ -57,7 +59,7 @@ schemaVersion="1"
                     "text": "Another Azure Service"
                 },
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Other"
                 }
             ]
@@ -79,7 +81,7 @@ schemaVersion="1"
                     "text": "Command Line"
                 },
                 {
-                    "value": "other",
+                    "value": "dont_know_answer",
                     "text": "Not sure"
                 }
             ]
@@ -91,7 +93,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Exact portal actions or command line and expected results",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Issue description."

@@ -15,11 +15,13 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Missing Manifest or Tag",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
+            "required": true,
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?"
@@ -57,7 +59,7 @@ schemaVersion="1"
                     "text": "Another Azure Service"
                 },
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Other"
                 }
             ]
@@ -77,7 +79,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue (such as the output from 'az acr check-health --name myregistry --ignore-errors --yes')",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Issue description."
