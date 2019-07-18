@@ -3,13 +3,14 @@
 	description="management/cannotdeletevirtualnetwork"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="radwiv,anavinahar"
+	authors="anavinahar"
+	ms.author="anavin"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32584253"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="627dab53-d2ea-4306-9b46-a93a32bba7be"
 />
 
@@ -21,5 +22,5 @@
 
 ## **Recommended documents**
 
-[Troubleshoot cannot delete VNet](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-cannot-delete-vnet)<br>
-[Delete a virtual network gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-delete-vnet-gateway-portal)
+* [Troubleshoot cannot delete VNet](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-cannot-delete-vnet)<br>
+* [Delete a virtual network gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-delete-vnet-gateway-portal)
