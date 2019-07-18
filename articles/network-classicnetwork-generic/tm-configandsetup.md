@@ -18,8 +18,8 @@
 
 ## **Recommended documents**
 
-* [Debug HTTP errors](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs#why-am-i-seeing-an-http-error-when-using-traffic-manager)
 * [Troubleshoot endpoint degraded state](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-troubleshooting-degraded)
+* [Debug HTTP errors](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs#why-am-i-seeing-an-http-error-when-using-traffic-manager)
 * [Enable diagnostic logging for endpoint](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-diagnostic-logs)
 * Configure [geographic](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-geographic-routing-method), [priority](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-priority-routing-method), [weighted](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-weighted-routing-method), [performance](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-performance-routing-method), [multivalue](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-routing-methods#multivalue), or [subnet](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-routing-methods#subnet) traffic routing methods
 * [Test](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-testing-settings) Traffic Manager settings
