@@ -1,7 +1,7 @@
 <properties
 	pageTitle="CBPSourceSnapshotFailedReplicaInconsistent "
 	description="CBPSourceSnapshotFailedReplicaInconsistent "
-	infoBubbleText="Backup failed because the disk-backup replica is either invalid or missing."
+	infoBubbleText="Source volume snapshot failed due to inconsistent datasource replica."
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
