@@ -2,7 +2,7 @@
 	pageTitle="CBPSourceSnapshotFailedReplicaCloningIssue"
 	description="CBPSourceSnapshotFailedReplicaCloningIssue"
 	infoBubbleText="Backup failed as the disk-backup replica could not be cloned."
-	service="microsoft.recoveryservices"
+  service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
 	ms.author="srinathvasireddy"
@@ -15,6 +15,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 />
+
 
 # Error CBPSourceSnapshotFailedReplicaCloningIssue
 
