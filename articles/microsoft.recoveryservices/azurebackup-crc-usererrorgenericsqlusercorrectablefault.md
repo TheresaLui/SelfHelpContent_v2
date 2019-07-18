@@ -22,6 +22,6 @@
 We have identified that your operation failed because of an underlying issue with the SQL Server.  
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
 
-To resolve the issue, review the underlying error code from SQL Server and the link to documentation provided in **Additional Details** sections. 
+* To resolve the issue, review the underlying error code from SQL Server and the link to documentation provided in **Additional Details** sections
