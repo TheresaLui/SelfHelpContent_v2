@@ -49,6 +49,5 @@ By default, the Data Explorer returns query results in pages, with up to 100 res
 ## **Recommended Documents**
 
 * Review [Get started with Azure Cosmos DB MongoDB API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction#how-to-get-started) for building MongoDB API applications
-
-
-Review documentation on how [Virtual Network](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint) and [Firewall](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) work with Azure Cosmos DB.
+* [Virtual Networks](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
+* [Firewalls](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
