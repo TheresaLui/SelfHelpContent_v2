@@ -24,4 +24,4 @@ We have identified that you VM has a Write Accelerator enabled disk which is cur
 
 ## **Recommended Document**
 
- For more information, refer Azure backup automatically excludes the Disks with [Write Accelerator enabled during backup](https://docs.microsoft.com/en-us/azure/backup/backup-support-matrix-iaas#vm-storage-support) article.
+ For more information, refer Azure backup automatically excludes the Disks with [Write Accelerator enabled during backup](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#vm-storage-support) article.
