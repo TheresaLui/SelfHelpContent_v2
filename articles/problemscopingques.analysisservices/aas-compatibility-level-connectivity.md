@@ -1,16 +1,14 @@
  <properties
-	pageTitle="compatibility level"
-	description="compatibility level"
-	service="Microsoft.AnalysisServices"
-	resource="Microsoft.AnalysisServices/servers"
-	authors="pjfreitas"
-	ms.author="pfreitas"
-	displayOrder="50"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32675685"
-	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
-	articleId="B3D687A7-BD38-41AB-A06E-58B9C17E8F59"
+      articleId="B3D687A7-BD38-41AB-A06E-58B9C17E8F59"
+      pageTitle="compatibility level"
+      description="compatibility level"
+      authors="pjfreitas"
+      ms.author="pfreitas"
+      selfHelpType="problemScopingQuestions"
+      supportTopicIds="32675685"
+      productPesIds="16157"
+      cloudEnvironments="public, MoonCake, fairfax" 
+      schemaVersion="1"
 />
 # Compatibility level for Analysis Services tabular models
 ---
