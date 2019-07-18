@@ -19,9 +19,9 @@
 # Error UserErrorVmAlreadyExistWithSameName
 
 <!--issueDescription-->
-We have identified that your operation failed because of an underlying issue with the SQL Server.  
+We have identified that your operation failed because a VM with the same name already exists in the same Resource Group.  
 <!--/issueDescription-->
 
 ## **Recommended Document**
 
- To resolve the issue, review the underlying error code from SQL Server and the link to documentation provided in **Additional Details** sections.
+ To restore a VM, refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#storage-accounts).
