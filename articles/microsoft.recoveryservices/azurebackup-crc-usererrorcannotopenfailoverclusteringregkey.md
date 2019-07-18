@@ -26,6 +26,6 @@ We have identified that your backup operation failed due an issue opening the Wi
 
  To resolve this issue, perform the below:
 
- - Ensure WSFC service is installed, running and accessible in the current state.
- - Ensure the availability group has is not dropped.
- - Retry the operation to test if the issue was transient.
+ - Ensure WSFC service is installed, running and accessible in the current state
+ - Ensure the availability group has is not dropped
+ - Retry the operation to test if the issue was transient
