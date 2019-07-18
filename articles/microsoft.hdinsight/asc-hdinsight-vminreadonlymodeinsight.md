@@ -23,13 +23,15 @@ The drive has to be remounted in read-write mode.
 
 ## **Recommended Steps**
 
-1. Run the following command to identify the read-only disk with drive and partition:
-```
-        mount -l | grep sd
-```
-2. SSH into the node and run the following commands to change it to read/write mode:
+1. You can connect to Ambari service using Secure Shell (SSH): `ssh <clustername>-ssh.azurehdinsight.net`
+
+2. SSH into the affected node and run the following command to identify the read-only disk with drive and partition: `mount -l | grep sd`
+
+3. Run the following commands to change it to read-write mode:
+
  ```       
         sudo fsck.ext4 -f /drive/partition
         sudo mount -o remount,rw /drive/partition /
- ```       
+ ```
+ 
 Replace /drive/partion with the affected drive and partition
