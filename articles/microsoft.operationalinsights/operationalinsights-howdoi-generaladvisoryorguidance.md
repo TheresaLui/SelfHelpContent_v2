@@ -19,13 +19,13 @@ cloudEnvironments="Public, Fairfax"
 
 # Advisory or general guidance
 
-You can find answers to many common questions in [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq). ALso, you can select *'Diagnose and solve problems'* from your workspace in Azure portal to view solutions for common problems in.
+You can find answers to many common questions in the [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq). Additionally, you can select **Diagnose and solve problems** from your workspace in Azure portal to view solutions for common problems.
 
 ## **Recommended Steps**
 
 Review the following topics for background information and troubleshooting.<br> 
 
-**Resource providers and azure logs:** 
+### Resource providers and Azure logs
 
 * Overview of [Azure Activity log]( https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview)
 * Learn how to [query Diagnostics data]( https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-logs-stream-log-store#examples) in a Log Analytics workspace?
@@ -43,16 +43,16 @@ Review the following topics for background information and troubleshooting.<br>
 * Network [Network Security Group](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-manage-log)
 * Learn how diagnostics assists with debugging [App Service](https://docs.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs)<br>
 
-**Alerts:**
+### Alerts
 
-* [Troubleshoot log alerts]( https://docs.microsoft.com/azure/azure-monitor/platform/alert-log-troubleshoot)<br>
+* [Troubleshoot log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alert-log-troubleshoot)<br>
 
-**Billing:**
+### Billing
 
-* Understand [Azure Monitor pricing](https://azure.microsoft.com/pricing/details/monitor/) including FAQs with useful information.
+* Understand [Azure Monitor pricing](https://azure.microsoft.com/pricing/details/monitor/) 
 * Learn how to [manage usage and costs](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage)<br>
 
-**Collecting data using agents:**
+### Collecting data using agents
 
 * [Azure monitoring agents](https://docs.microsoft.com/azure/azure-monitor/platform/agents-overview) overview
 * [Troubleshoot the Log Analytics VM extension](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot)
@@ -61,7 +61,8 @@ Review the following topics for background information and troubleshooting.<br>
 * Manage the [SCOM connector](https://docs.microsoft.com/azure/azure-monitor/platform/om-agents)
 * Learn on [Log Analytic gateway](https://docs.microsoft.com/azure/azure-monitor/platform/gateway)<br>
 
-**Collecting data from Azure resources:**
+### Collecting data from Azure resources
+
 * [Azure Diagnostics troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting)<br>
 
 If you didn't find an answer for your inquiry, go to the [discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights) to search or post your question.
