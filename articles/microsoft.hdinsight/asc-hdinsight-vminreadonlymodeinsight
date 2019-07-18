@@ -1,0 +1,18 @@
+<properties
+    ms.author="v-anreg"
+    pageTitle="VM is in read-only mode"
+    description="Virtual Machine Issue"
+    infoBubbleText="VM has booted up in read-only mode. See details on the right."
+    service="microsoft.hdinsight"
+    resource="clusters"
+    authors="anirudhrege"
+    displayOrder=""
+    articleId="Hdi_VirtualMachine_ReadOnly"
+    diagnosticScenario=""
+    selfHelpType="diagnostics"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds="15078"
+    cloudEnvironments="public"
+/>
+
