@@ -18,6 +18,10 @@
 
 ## **Recommended Steps**
 
+### **Does Azure Migrate: Server Assessment support creation of assessments for physical servers?**
+
+Server Assessment currently supports assessment of VMware and Hyper-V VMs, support for physical servers is currently not available and will be enabled in future. 
+
 ### **Why is the confidence rating of my assessment low?**
 
 The confidence rating of an assessment helps you estimate the reliability of the recommendations provided by Azure Migrate: Server Assessment. It is calculated based on the availability of data points needed to compute the assessment. Below are the reasons why an assessment could get a low confidence rating:
