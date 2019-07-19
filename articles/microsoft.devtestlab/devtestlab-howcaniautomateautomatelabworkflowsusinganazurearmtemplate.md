@@ -17,5 +17,6 @@
 # How can I automate workflows in DevTest Labs using Azure Resource Manager template?
 
 
-## **Recommended documents**
-[Try out sample ARM templates available in our public GitHub repositories](https://github.com/Azure/azure-devtestlab/tree/master/Environments)
+## **Recommended Documents**
+
+* [Try out sample ARM templates available in our public GitHub repositories](https://github.com/Azure/azure-devtestlab/tree/master/Environments)
