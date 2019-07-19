@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Stream Analytics is not receiving any input.
+# Stream Analytics is not receiving any input
 
 ## Stream Analytics job is not receiving any input
 <!--issueDescription-->
@@ -26,7 +26,7 @@ It was found that your Stream Analytics job  is not receiving any input from the
 
 ## **Recommended Steps**
 
-1. Make sure when you start your Stream Analytics job, you select the right Start Time. 
+1. Make sure when you start your Stream Analytics job, you select the right Start Time
 2. [Test connection](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input#input-events-not-received-by-job) of job with the input and sample data to see if event stream is flowing in as expected. If there is no data while sampling, please check that your device or application is sending events to your input source as expected.
 
 
