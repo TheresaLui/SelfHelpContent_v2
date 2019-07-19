@@ -14,9 +14,11 @@
     articleId="abdc2tg3-706d-401c-b984-f433c12f1e9f"
 />
 
-# Enable data protection with Azure Backup
+# Enable Data Protection with Azure Backup
 
 ## **Recommended Steps**
+
+Business continuity and disaster recovery planning are closely related processes that a company uses to prepare for unforeseen risks.
 
 * [Protecting applications and data on Azure Stack](https://azure.microsoft.com/blog/protecting-applications-and-data-on-azure-stack/)
 

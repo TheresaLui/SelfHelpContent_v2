@@ -23,16 +23,15 @@
       "id": "destination_vm internal IP address",
       "order": 1,
       "controlType": "textbox",
-      "infoBalloonText": "string",
-      "displayLabel": "Please provide the internal IP address of the source VM",
-      "watermarkText": "Enter IP address of the source VM"
+      "displayLabel": "Source IP Address(es)",
+      "watermarkText": "Enter the Source IP address"
         },
         {
           "id": "resource internal IP address",
           "order": 2,
           "controlType": "textbox",
-          "displayLabel": "Please provide the internal IP address of the destination VM",
-          "watermarkText": "Enter IP address of the destination VM",
+          "displayLabel": "Destination IP Address(es)",
+          "watermarkText": "Enter the Destination IP address",
           "required": false
         },
         {

@@ -73,6 +73,10 @@
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
                 {
+                    "value": "1906",
+                    "text": "1906"
+                },
+                {
                     "value": "1905",
                     "text": "1905"
                 },
@@ -149,7 +153,7 @@
             "id": "tenant_all_single",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Is this isolated to a specific tenant or all tenants? ",
+            "displayLabel": "Does the issue occur in a specific tenant or all tenants? ",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -177,7 +181,7 @@
             "order": 8,
             "controlType": "dropdown",
             "visibility": "tenant_all_single == Single tenant",
-            "displayLabel": " Is this isolated to single resource group or virtual network? ",
+            "displayLabel": "Does the issue occur in a certain resource group or virtual network? ",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

@@ -40,7 +40,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/aa_logalerts_queryrepair",
   "description": "Repair your log alert rule",
-  "longDescription": "We have detected that one or more of your alert rules have invalid queries specified in their condition section. Log alert rules are created in Azure Monitor and are used to run analytics queries at specified intervals. The results of the query determine if an alert needs to be triggered. Analytics queries may become invalid overtime due to changes in referenced resources, tables, or commands. We recommend that you??correct the query in the alert rule??to prevent it??from getting auto-disabled and ensure monitoring coverage of your resources in Azure.",
+  "longDescription": "We have detected that one or more of your alert rules have invalid queries specified in their condition section. Log alert rules are created in Azure Monitor and are used to run analytics queries at specified intervals. The results of the query determine if an alert needs to be triggered. Analytics queries may become invalid overtime due to changes in referenced resources, tables, or commands. We recommend that you correct the query in the alert rule to prevent it from getting auto-disabled and ensure monitoring coverage of your resources in Azure.",
   "potentialBenefits": "Ensure continued monitoring and alerting for your resources",
   "actions": [
     {
