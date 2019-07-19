@@ -1,24 +1,24 @@
 <properties
-    articleId="dw-scoping-securityprivacyandcompliance.md"
-    pageTitle="Security, Privacy and Compliance"
-    description="Security, Privacy and Compliance"
+    articleId="dw-scoping-securityprivacyandcompliance-aadauth.md"
+    pageTitle="Security, Privacy and Compliance - Azure Active Directory Authentication"
+    description="Security, Privacy and Compliance - Azure Active Directory Authentication"
     authors="mlee3gsd"
     ms.author="martinle"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32635184, 32635185, 32635191, 32635199, 32635213, 32635221, 32635222, 32635233"
+    supportTopicIds="32635186,32635187"
     productPesIds="15818"
     cloudEnvironments="public"
     schemaVersion="1"
 />
 
-# Security, Privacy and Compliance - General
+# Security, Privacy and Compliance - Azure Active Directory Authentication
 
 ---
 {
 
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Security, Privacy and Compliance",
+    "title": "Security, Privacy and Compliance - Azure Active Directory Authentication",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -29,10 +29,10 @@
             "required": true
         },
         {
-            "id": "dw_scoping_security_error",
+            "id": "dw_scoping_security_authtype",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "If an error was displayed, what was the error message?",
+            "displayLabel": "What authentication type is selected?",
             "required": false
         },
         {

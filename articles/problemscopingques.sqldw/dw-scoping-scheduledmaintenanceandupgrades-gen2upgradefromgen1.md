@@ -1,18 +1,21 @@
 <properties
-	articleId="dw-scoping-availabilityandconnectivity-azureactivedirectoryauthentication.md"
-	pageTitle="Azure Active Directory Authentication"
-	description="Azure Active Directory Authentication"
-	authors="mlee3gsd"
-	ms.author="martinle"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635186"
-	productPesIds="15818"
-	cloudEnvironments="public"
-	schemaVersion="1"
+        articleId="dw-scoping-availabilityandconnectivity-azureactivedirectoryauthentication.md"
+        pageTitle="Gen2 upgrade from Gen1"
+        description="Gen2 upgrade from Gen1"
+        authors="mlee3gsd"
+        ms.author="martinle"
+        selfHelpType="problemScopingQuestions"
+        supportTopicIds="32635200"
+        productPesIds="15818"
+        cloudEnvironments="public"
+        schemaVersion="1"
 />
-# Availability and Connectivity Azure Active Directory Authentication
+
+# Scheduled Maintenance and Upgrades - Gen2 upgrade from Gen1
+
 ---
 {
+
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Azure Active Directory Authentication",
@@ -26,15 +29,29 @@
             "required": true
         },
         {
-            "id": "dw_scoping_availability_authtype",
+            "id": "dw_scoping_gen2upgrade_region",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "What authentication type is selected?",
+            "displayLabel": "What region is your data warehouse?",
+            "required": false
+        },
+        {
+            "id": "dw_scoping_gen2upgrade_selfupgrade",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Are you self-upgrading to Gen2?",
+            "required": false
+        },
+	{
+            "id": "dw_scoping_gen2upgrade_error",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "If an error was displayed, what was the error message?",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
