@@ -31,4 +31,4 @@ We highly recommend upgrading to the latest version of the SDK for performance a
 
 ## **Recommended Documents**
 
-* [Latest SDK Version](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-sdk-<!--$SDKLinkUrlSuffix-->SDKLinkUrlSuffix<!--/$SDKLinkUrlSuffix-->) 
+* [Latest SDK Version](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-<!--$SDKLinkUrlSuffix-->SDKLinkUrlSuffix<!--/$SDKLinkUrlSuffix-->) 
