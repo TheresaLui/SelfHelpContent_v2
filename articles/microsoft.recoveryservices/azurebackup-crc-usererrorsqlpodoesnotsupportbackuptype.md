@@ -22,6 +22,6 @@
 We have identified that your backup operation failed because the database recovery model does not allow the requested backup type. 
 <!--/issueDescription-->
 
-## **Recommended Documents**
+## **Recommended Steps**
 
-To resolve this issue, follow the recommended action as mentioned in this troubleshooting [artilce](https://aka.ms/AB-usererrorsqlpodoesnotsupportbackuptype).
+* Follow the recommended actions in this troubleshooting [article](https://aka.ms/AB-usererrorsqlpodoesnotsupportbackuptype)
