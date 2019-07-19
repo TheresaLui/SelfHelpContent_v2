@@ -44,14 +44,14 @@
         },
         {
             "id": "dw_scoping_availability_queryid",
-            "order": 2,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "If you know the query id, please enter it here.",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
