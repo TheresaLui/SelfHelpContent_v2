@@ -31,7 +31,7 @@ The drive has to be remounted in read-write mode.
 
  ```       
         sudo fsck.ext4 -f /drive/partition
-        sudo mount -o remount,rw /drive/partition /
+        sudo mount -o remount,rw /drive/partition
  ```
  
-Replace /drive/partion with the affected drive and partition
+Replace /drive/partion with the affected drive and partition e.g /dev/sda
