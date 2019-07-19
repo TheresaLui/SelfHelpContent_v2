@@ -26,6 +26,6 @@ You can monitor your Azure Database for MySQL server using a default set of metr
 
 ## **Recommended Documents**
 
-* [Manage metric alerts using Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-metric)<br>
+* [Manage metric alerts using Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric)<br>
 * [Access server logs from the Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal)<br>
 * [Access server logs from the Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)

@@ -29,4 +29,4 @@ To fix this issue please ensure your client IP address is configured in the fire
 
 [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
 
-[MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMySQL)
+[MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL)

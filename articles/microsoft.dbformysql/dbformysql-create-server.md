@@ -36,5 +36,5 @@ Most users are able to resolve their issue using the steps below.
 
 * [Azure Database for MySQL servers](https://docs.microsoft.com/azure/mysql/concepts-servers)<br>
 * [Supported versions](https://docs.microsoft.com/azure/mysql/concepts-supported-versions)<br>
-* [Available pricing tiers](https://docs.microsoft.com/en-us/azure/mysql/concepts-pricing-tiers)<br>
-* [Current know limitations](https://docs.microsoft.com/en-us/azure/mysql/concepts-limits)
+* [Available pricing tiers](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers)<br>
+* [Current know limitations](https://docs.microsoft.com/azure/mysql/concepts-limits)

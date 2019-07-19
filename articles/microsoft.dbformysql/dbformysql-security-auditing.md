@@ -20,9 +20,9 @@ Azure Database for MySQL comes with a rich set of capabilities with regards to a
 
 ## **Recommended Steps**
 
-* Review the [Configuring Audit logging on Azure Portal](https://docs.microsoft.com/en-us/azure/mysql/howto-configure-audit-logs-portal) how-to
+* Review the [Configuring Audit logging on Azure Portal](https://docs.microsoft.com/azure/mysql/howto-configure-audit-logs-portal) how-to
 
 ## **Recommended Documents**
 
-* [Using slow query logs - Portal](https://docs.microsoft.com/en-us/azure/mysql/howto-configure-server-logs-in-portal)<br>
-* [Using slow query logs - CLI](https://docs.microsoft.com/en-us/azure/mysql/howto-configure-server-logs-in-cli)
+* [Using slow query logs - Portal](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal)<br>
+* [Using slow query logs - CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)

@@ -16,7 +16,7 @@
 
 # Managing server parameters in Azure Database for MySQL
 
-Azure Database for MySQL allows you to configure parameters at a server level using the [Azure portal](https://docs.microsoft.com/en-us/azure/mysql/howto-server-parameters) or the [Azure CLI](https://docs.microsoft.com/en-us/azure/mysql/howto-configure-server-parameters-using-cli). To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal.
+Azure Database for MySQL allows you to configure parameters at a server level using the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters) or the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli). To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal.
 
 ## **Recommended Steps**
 

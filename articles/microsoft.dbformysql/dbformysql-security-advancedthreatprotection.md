@@ -21,7 +21,7 @@ Azure Database for MySQL comes with a rich set of security features including se
 ## **Recommended Steps**
 
 * Ensure that that your Azure Database for MySQL is deployed for General Purpose and Memory Optimized servers
-* Review the [Advanced Threat Protection](https://docs.microsoft.com/en-us/azure/mysql/howto-database-threat-protection-portal) how-to
+* Review the [Advanced Threat Protection](https://docs.microsoft.com/azure/mysql/howto-database-threat-protection-portal) how-to
 
 ## **Recommended Documents**
 

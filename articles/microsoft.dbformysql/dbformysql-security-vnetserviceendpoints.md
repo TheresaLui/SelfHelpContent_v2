@@ -26,6 +26,6 @@ Virtual Network (VNet) services endpoints and rules extend the private address s
 ## **Recommended Documents**
 
 * [How-to create user in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-create-users)<br>
-* [Azure Database for MySQL Virtual network service endpoints](https://docs.microsoft.com/en-us/azure/mysql/concepts-data-access-and-security-vnet)<br>
-* [Setting Virtual network service endpoints - Portal](https://docs.microsoft.com/en-us/azure/mysql/howto-manage-vnet-using-portal)<br>
-* [Setting Virtual network service endpoints - CLI](https://docs.microsoft.com/en-us/azure/mysql/howto-manage-vnet-using-cli)
+* [Azure Database for MySQL Virtual network service endpoints](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-vnet)<br>
+* [Setting Virtual network service endpoints - Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal)<br>
+* [Setting Virtual network service endpoints - CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli)

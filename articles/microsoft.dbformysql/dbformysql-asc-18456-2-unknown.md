@@ -28,4 +28,4 @@ As the service cannot entirely prevent transient connection failures like the on
 
 [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
 
-[MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMySQL)
+[MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL)

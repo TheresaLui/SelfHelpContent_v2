@@ -25,5 +25,5 @@ Each active connection consumes memory and therefore the maximum number of conne
 
 ## **Recommended Documents**
 
-* [MySQL Max connections](https://docs.microsoft.com/en-us/azure/mysql/concepts-limits)<br> 
+* [MySQL Max connections](https://docs.microsoft.com/azure/mysql/concepts-limits)<br> 
 * [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/)

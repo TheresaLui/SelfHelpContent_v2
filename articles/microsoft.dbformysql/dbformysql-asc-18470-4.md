@@ -28,4 +28,4 @@ To fix this issue, please ensure you use {user_name}@{server_name} as the format
 
 [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
 
-[MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMySQL)
+[MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL)

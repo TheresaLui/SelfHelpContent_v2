@@ -24,9 +24,9 @@ Query performance issues can have many different root causes. Work through the r
 * Analyze your workload using [sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema)
 * Use our intelligent performance features for additional insights:
 
-  * [Query Store](https://docs.microsoft.com/en-us/azure/mysql/concepts-query-store)
-  * [Query Performance Insights](https://docs.microsoft.com/en-us/azure/mysql/concepts-query-performance-insight)
-  * [Performance Recommendations](https://docs.microsoft.com/en-us/azure/mysql/concepts-performance-recommendations)
+  * [Query Store](https://docs.microsoft.com/azure/mysql/concepts-query-store)
+  * [Query Performance Insights](https://docs.microsoft.com/azure/mysql/concepts-query-performance-insight)
+  * [Performance Recommendations](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
 
 * Assure you have the right set of indexes created for your queries
 * Monitor the resource consumption of your server. If you max out either I/O or compute resources, increase scale up the resource that you are limited on.
@@ -34,4 +34,4 @@ Query performance issues can have many different root causes. Work through the r
 
 ## **Recommended Documents**
 
-* [Monitor and tune](https://docs.microsoft.com/en-us/azure/mysql/concepts-monitoring)<br>
+* [Monitor and tune](https://docs.microsoft.com/azure/mysql/concepts-monitoring)<br>

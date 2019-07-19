@@ -28,6 +28,6 @@ The time taken to execute 'Select 1' is a common way to measure the network late
 
 ## **Recommended Documents**
 
-* [Azure Regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)<br>
-* [Accelerated Networking](https://docs.microsoft.com/en-us/azure/virtual-network/create-vm-accelerated-networking-cli/)<br>
-* [Connection Pooling](https://docs.azure.cn/en-us/mysql-database-on-azure/mysql-database-connection-pool)
+* [Azure Regions](https://azure.microsoft.com/global-infrastructure/regions/)<br>
+* [Accelerated Networking](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli/)<br>
+* [Connection Pooling](https://docs.azure.cn/mysql-database-on-azure/mysql-database-connection-pool)
