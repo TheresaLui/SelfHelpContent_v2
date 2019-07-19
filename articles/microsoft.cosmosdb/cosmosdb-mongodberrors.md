@@ -5,19 +5,21 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
 	ms.author="bharathb"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636778,32636789,32636810"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-mongodberrors"
+	displayOrder="223"
+	category="MongoDB"
 />
 # MongoDB - Commonly faced errors
 
 ## **Recommended Steps**
 
 ### **Client connection errors**
-Mongo client drivers use “connection pooling”. Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection. On the server side, connections which are idle for more than 30 minutes are automatically closed down.
+Mongo client drivers use "connection pooling". Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection. On the server side, connections which are idle for more than 30 minutes are automatically closed down.
 It is possible that some of the connections in the connection pool would timeout (if that connection was not picked by driver to issue user commands for sometime).
 To avoid connectivity messages, change the connection string to set maxConnectionIdleTime to 1-2 minutes.
 
