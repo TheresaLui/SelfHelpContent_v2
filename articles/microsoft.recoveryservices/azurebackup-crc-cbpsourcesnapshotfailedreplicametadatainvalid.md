@@ -22,6 +22,6 @@
 We have identified that your backup operation failed because the source volume snapshot failed because metadata on replica is invalid.
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Recommended Document**
 
-To resolve the issue, refer this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaMetadataInvalid).
+To resolve the issue, refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaMetadataInvalid).
