@@ -19,7 +19,7 @@
 # Error UserErrorWAEnabledDisksNotSupported
 
 <!--issueDescription-->
-We have identified that you VM has a Write Accelerator enabled disk which is currently not supported by Azure Backup  
+We have identified that your VM has a Write Accelerator enabled disk which is currently not supported by Azure Backup  
 <!--/issueDescription-->
 
 ## **Recommended Document**
