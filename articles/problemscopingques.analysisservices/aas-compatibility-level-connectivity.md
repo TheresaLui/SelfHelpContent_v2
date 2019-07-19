@@ -20,8 +20,24 @@
   "formElements":
   [
     {
-      "id": "compatibility_level_100",
+      "id": "problem_start_time_100", 
       "order": 100,
+      "controlType": "datetimepicker",
+      "displayLabel": "What time did the problem begin?",
+      "required": true
+    }
+,
+    {
+      "id": "problem_end_time_200",
+      "order": 200,
+      "controlType": "datetimepicker",
+      "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+      "required": false
+    }
+,
+    {
+      "id": "compatibility_level_300",
+      "order": 300,
       "controltype": "multilinetextbox",
       "displaylabel": "What compatibility level are you attempting to use?",
       "watermarktext": "What compatibility level are you attempting to use?",
@@ -29,8 +45,8 @@
     }
 ,
     {
-      "id": "compatibility_level_200",
-      "order": 200,
+      "id": "compatibility_level_400",
+      "order": 400,
       "controltype": "dropdown",
       "displaylabel": "Was this recently upgraded?",
       "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
@@ -38,8 +54,8 @@
     }
 ,
     {
-      "id": "compatibility_level_300",
-      "order": 300,
+      "id": "compatibility_level_500",
+      "order": 500,
       "controltype": "multilinetextbox",
       "displaylabel": "What is the full error message with all error IDs?",
       "watermarktext": "What is the full error message with all error IDs?",
@@ -47,8 +63,8 @@
     }
 ,
     {
-      "id": "compatibility_level_400",
-      "order": 400,
+      "id": "compatibility_level_600",
+      "order": 600,
       "controltype": "dropdown",
       "displaylabel": "Can the issue be reproduced by other users?",
       "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
@@ -56,8 +72,8 @@
     }
 ,
     {
-      "id": "compatibility_level_500",
-      "order": 500,
+      "id": "compatibility_level_700",
+      "order": 700,
       "controltype": "dropdown",
       "displaylabel": "Is this an intermittent or permanent issue?",
       "watermarkText":"Choose an option","dropdownOptions":[{"value": "Intermittent","text": "Intermittent"},{"value": "Permanent","text": "Permanent"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
