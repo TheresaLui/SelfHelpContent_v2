@@ -27,7 +27,7 @@ Connection timed out error usually occurs when the client is not able to establi
   - The TLS version of the request is not supported by the Application Gateway.
   - The cipher suite supported by the client request does not match the cipher suites configured in [Application Gateway's SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview#predefined-ssl-policy).
 
-## Recommended Steps
+## **Recommended Steps**
 
 1. Check the configuration of the application gateway to ensure that there is a listener configured for the port on which the client is sending the request. If you have found that there is no listener configured on the requested front-end port, create the required listener by following the [listener configuration instructions](https://docs.microsoft.com/azure/application-gateway/configuration-overview#listeners) and ensure that this listener is associated to the relevant request routing rule
 2. Ensure that the NSG on the Application Gateway subnet is allowing inbound access to the required ports.
