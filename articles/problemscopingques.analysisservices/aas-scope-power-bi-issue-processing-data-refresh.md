@@ -68,7 +68,7 @@
       "order": 600,
       "controltype": "dropdown",
       "displaylabel": "Can the issue be reproduced by other users?",
-      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "don’t_know_answer","text":"Other, don't know or not applicable"}],
+      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don’t know or not applicable"}],
       "required": true
     }
 ,
