@@ -1,18 +1,21 @@
 <properties
-	articleId="dw-scoping-availabilityandconnectivity-unavailabilitywasreportedinresourcehealth.md"
-	pageTitle="Unavailability was reported in Resource Health"
-	description="Unavailability was reported in Resource Health"
-	authors="mlee3gsd"
-	ms.author="martinle"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635223"
-	productPesIds="15818"
-	cloudEnvironments="public"
-	schemaVersion="1"
+    articleId="dw-scoping-availabilityandconnectivity-unavailabilitywasreportedinresourcehealth.md"
+    pageTitle="Unavailability was reported in Resource Health"
+    description="Unavailability was reported in Resource Health"
+    authors="mlee3gsd"
+    ms.author="martinle"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32635223"
+    productPesIds="15818"
+    cloudEnvironments="public"
+    schemaVersion="1"
 />
+
 # Availability and Connectivity - Unavailability was reported in Resource Health
+
 ---
 {
+
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Unavailability was reported in Resource Health",
@@ -33,6 +36,20 @@
             "required": false
         },
         {
+            "id": "dw_scoping_availability_error",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "If an error was displayed, what was the error message?",
+            "required": false
+        },
+        {
+            "id": "dw_scoping_availability_queryid",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "If you know the query id, please enter it here.",
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
@@ -44,4 +61,5 @@
     ],
     "$schema": "SelfHelpContent"
 }
+
 ---
