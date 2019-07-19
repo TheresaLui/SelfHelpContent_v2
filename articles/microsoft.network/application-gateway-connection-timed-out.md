@@ -19,13 +19,10 @@
 Connection timed out error usually occurs when the client is not able to establish a TCP session with the Application Gateway on the requested port. This can happen because of the following reasons:
 
 - Client DNS is not able to resolve to the Application Gateway's IP
-- Configuration issues:
-  - A listener is not configured for the port on which the client is trying to establish a TCP connection.
-  - The listener accepting the request does not have any request routing rules associated with it.
+- A listener is not configured for the port on which the client is trying to establish a TCP connection.
+- The listener accepting the request does not have any request routing rules associated with it.
 - An NSG is blocking the access to the port on which the client is sending the request.
-- In case of HTTPS, the connection can get rejected because:
-  - The TLS version of the request is not supported by the Application Gateway.
-  - The cipher suite supported by the client request does not match the cipher suites configured in [Application Gateway's SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview#predefined-ssl-policy).
+- In case of HTTPS, the connection can get rejected if the TLS version of the request is not supported by the Application Gateway, and/or the cipher suite supported by the client request does not match the cipher suites configured in [Application Gateway's SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview#predefined-ssl-policy).
 
 ## **Recommended Steps**
 
