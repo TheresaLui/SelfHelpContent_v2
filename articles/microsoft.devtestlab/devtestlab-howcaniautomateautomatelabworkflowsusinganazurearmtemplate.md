@@ -17,4 +17,4 @@
 
 
 ## **Recommended documents**
-[Try out sample ARM templates available in our public Github repositories](https://github.com/Azure/azure-devtestlab/tree/master/ARMTemplates)
+[Try out sample ARM templates available in our public GitHub repositories](https://github.com/Azure/azure-devtestlab/tree/master/Environments)
