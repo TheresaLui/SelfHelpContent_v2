@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Top common problems for microsoft.network, dnszones"
+	pageTitle="Top  common problems for microsoft.network, dnszones"
 	description="Top common problems for microsoft.network, dnszones"        
 	service="microsoft.network"
 	resource="dnszones"

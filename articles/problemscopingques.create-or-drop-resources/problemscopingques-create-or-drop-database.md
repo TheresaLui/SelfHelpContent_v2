@@ -20,32 +20,44 @@
     "subscriptionRequired": true,
     "formElements": [
         {
-            "id": "which_operation",
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Which operation are you having trouble with?",
-            "watermarkText": "Select one",
-            "infoBalloonText": "Which of these is causing issues?",
-            "dropdownOptions": [
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other"
-                }
-            ],
-            "dynamicDropdownOptions": {
-                "uri": "{resourceId}/operations?api-version=2017-10-01-preview",
-                "jtokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "id",
-                "textPropertyRegex": null
-            },
-            "required": false,
-            "useAsAdditionalDetails": false,
-            "visibility": true
-        },
+	    "id": "encountering_an_error",
+	    "order": 1,
+	    "controlType": "dropdown",
+	    "displayLabel": "Are you encountering an error message?",
+	    "dropdownOptions": [{
+	            "value": "Yes",
+		    "text": "Yes"
+		},
+		{
+		    "value": "No",
+		    "text": "No"
+		},
+		{
+		    "value": "dont_know_answer",
+		    "text": "Unsure"
+		}
+	    ],
+	    "required": false
+	},
+	{
+	    "id": "error_message",
+	    "order": 2,
+	    "controlType": "multilinetextbox",
+	    "displayLabel": "Please provide this error message",
+	    "required": false,
+	    "visibility": "encountering_an_error == Yes"
+	},
+	{
+	    "id": "attempt_method",
+	    "order": 3,
+	    "controlType": "multilinetextbox",
+	    "displayLabel": "How are you attempting the operation that throws this error?",
+	    "required": false,
+	    "visibility": "encountering_an_error == Yes"
+	},
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 4,
             "controltype": "multilinetextbox",
             "displayLabel": "Any additional details you would like to include?",
             "watermarkText": "Enter any additional details here",
@@ -55,7 +67,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 5,
             "controltype": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "watermarkText": "Specify when the problem started",
