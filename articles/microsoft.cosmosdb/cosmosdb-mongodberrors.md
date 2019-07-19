@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 ### **Client connection errors**
-Mongo client drivers use “connection pooling”. Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection. On the server side, connections which are idle for more than 30 minutes are automatically closed down.
+Mongo client drivers use "connection pooling". Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection. On the server side, connections which are idle for more than 30 minutes are automatically closed down.
 It is possible that some of the connections in the connection pool would timeout (if that connection was not picked by driver to issue user commands for sometime).
 To avoid connectivity messages, change the connection string to set maxConnectionIdleTime to 1-2 minutes.
 
