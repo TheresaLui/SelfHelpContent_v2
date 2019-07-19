@@ -1,5 +1,5 @@
 <properties
-        articleId="dw-scoping-scheduledmaintenanceandupgrades-gen2upgradefromgen1.md"
+        articleId="dw-scoping-availabilityandconnectivity-azureactivedirectoryauthentication.md"
         pageTitle="Gen2 upgrade from Gen1"
         description="Gen2 upgrade from Gen1"
         authors="mlee3gsd"
