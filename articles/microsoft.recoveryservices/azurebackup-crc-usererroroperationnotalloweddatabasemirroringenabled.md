@@ -22,6 +22,7 @@
 We have identified that your operation failed because Azure backup does not support mirror databases and database snapshots for backup and restore operations.
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
 
-To resolve this issue you can remove the database mirroring session of the database for the operation to complete successfully. Alternatively, if the database is already protected, then **Stop backup** operation on the database.
+* To resolve this issue, remove the database mirroring session of the database for the operation to complete successfully
+* Alternatively, if the database is already protected, then **Stop backup** operation on the database
