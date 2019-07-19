@@ -24,7 +24,6 @@ If your job is processing events by Arrival Time (using TIMESTAMP BY clause in y
 
 There are scenarios in which your output might be delayed. To learn more, see the recommended documents:
 
-
 ## **Recommended Documents**
 
 * [Job output is delayed](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output#job-output-is-delayed)
