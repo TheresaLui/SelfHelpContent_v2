@@ -22,6 +22,6 @@
 We have identified that your operation failed because a VM with the same name already exists in the same Resource Group.  
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
 
-Restore operation cannot be performed on a VM with the same name that already exists in the same Resource Group, for more information on how to restore a VM refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#storage-accounts).
+* Follow [these steps](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#storage-accounts) to restore a VM 
