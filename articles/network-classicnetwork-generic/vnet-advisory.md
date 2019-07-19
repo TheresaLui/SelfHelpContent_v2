@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 * Look at the [Virtual Network Frequently Asked Questions](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq) to get answers immediately<br>
-* Use [Azure Advisor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorBlade) to learn about best practises and optimize your deployments<br>
+* Use [Azure Advisor](https://ms.portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorBlade) to learn about best practices and optimize your deployments<br>
 * [Get help with your **Network Virtual Appliance (NVA)**](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)<br>
 * [Get the latest Azure Networking updates](https://azure.microsoft.com/updates/?product=virtual-network)<br>
 * Learn about the different [Networking Architecture Examples](https://docs.microsoft.com/azure/architecture/reference-architectures/#virtual-networks)<br>
