@@ -25,4 +25,4 @@
 
 ## **Recommended Documents**
 
-Verify the HTTP response code that Application Gateway received from the backend by viewing the *SERVER-STATUS* value in *RequestQuery* field of [access logs](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging). If the response code is 4xx, then it's an issue with your backend and not the application gateway.
+You can verify the HTTP response code that Application Gateway received from the backend by viewing the *SERVER-STATUS* value in *RequestQuery* field of [access logs](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging). If the response code is 4xx, then it's an issue with your backend and not the application gateway.
