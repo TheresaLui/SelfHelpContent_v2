@@ -22,5 +22,5 @@
 We have identified that your backup operation are failed because you are using a Classic VMs, where the RDFE service does not support UpdateExtension operation.
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Recommended Step**
 As a workaround to resolve this issue, you can backup by shutting down the virtual machine and starting it back when the snapshot operation is over.
