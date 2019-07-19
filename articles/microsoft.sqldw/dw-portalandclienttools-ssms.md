@@ -22,7 +22,8 @@
 * [Query with SQL Server Management Studio](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-query-ssms#2-run-a-sample-query)
 * [Set up SQL Server Management Studio (SQL DW) to script out SQL DW objects](https://docs.microsoft.com/sql/ssms/scripting/generate-and-publish-scripts-wizard?view=azure-sqldw-latest#generating-scripts-on-azure-sql-data-warehouse)
 * [Generate and publish scripts](https://docs.microsoft.com/sql/ssms/scripting/generate-and-publish-scripts-wizard?view=azure-sqldw-latest) to generate and publish scripts
-* Feature currently not supported in SSMS:
+* Features currently not supported in SSMS:
+
   * Query Store
   * Backup/Restore
   * Database Diagrams
