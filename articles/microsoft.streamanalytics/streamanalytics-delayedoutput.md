@@ -22,7 +22,7 @@ It is important to ensure data is getting ingested into all partitions of your E
 
 If your job is processing events by Arrival Time (using TIMESTAMP BY clause in your query), your [event ordering policies](https://docs.microsoft.com/azure/stream-analytics/event-ordering) could also delay the output produced. When configuring these settings, it is important to remember prioritize your data correctness and latency requirements.
 
-There are scenarios in which your output might be delayed. To learn more, see the recommended documents:
+There are scenarios in which your output might be delayed. To learn more, see the recommended documents.
 
 ## **Recommended Documents**
 
