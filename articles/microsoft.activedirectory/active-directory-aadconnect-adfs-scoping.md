@@ -1,6 +1,6 @@
 <properties
 	pageTitle="ADFS_Scoping_Qustions"
-	description="The AD FS scoping question page."
+	description="The AD FS scoping question page"
 	authors="billmath"
 	ms.author="billmath"
 	selfHelpType="ProblemScopingQuestions"
@@ -8,7 +8,7 @@
 	productPesIds="16579"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="21c79041-b9ae-4f4f-b431-5a3648c97e20" 
+	articleId="21c79041-b9ae-4f4f-b431-5a3648c97e20"
 />
 
 # AD FS Scoping question
