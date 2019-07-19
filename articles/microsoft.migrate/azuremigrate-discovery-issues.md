@@ -32,6 +32,10 @@ Additionally, if you are using the [dependency visualization functionality](http
 
 Ensure that the Azure Migrate appliance is up and running. Note that it takes 30 minutes for the latest information to reflect on the Azure Migrate portal. If you still see outdated information, you can perform a refresh using the steps listed [here.](https://aka.ms/migrate/discovery/refresh)
 
+### **I don't see the discovered VMs on Azure portal. Server Assessment and Server Migration tiles show a status of "Discovery in progress"**
+
+After starting discovery from the appliance, allow some time for the discovered machines to show up on the Azure portal. It takes around 15 minutes for a VMware discovery, and around 2 minutes per added host for a Hyper-V discovery. If you continue to see "Discovery in progress" even after this time, click **Refresh** on the **Servers** tab. This should show the count of the discovered servers in the Server Assessment and Server Migration tiles.
+
 ## Hyper-V VM discovery
 
 ### **I do not see the correct disk size on Hyper-V VMs. How do I proceed?**
