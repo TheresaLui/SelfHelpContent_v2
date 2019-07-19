@@ -16,7 +16,7 @@
 
 # endpoint monitoring
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot endpoint degraded state](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-troubleshooting-degraded)
 * Traffic Manager [Endpoint Monitoring](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-monitoring)
