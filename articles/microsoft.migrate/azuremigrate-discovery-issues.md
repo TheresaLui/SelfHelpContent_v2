@@ -22,15 +22,14 @@
 
 The Azure Migrate appliance collects metadata about the on-premises VMs, the complete list of metadata collected by the appliance is listed in the following links:
 
-[Metadata collected using Hyper-V appliance](https://aka.ms/migrate/hyperv/metadatacollected)
-
-[Metadata collected using VMWare appliance](https://aka.ms/migrate/vmware/metadatacollected)
+* [Metadata collected using Hyper-V appliance](https://aka.ms/migrate/hyperv/metadatacollected)
+* [Metadata collected using VMWare appliance](https://aka.ms/migrate/vmware/metadatacollected)
 
 Additionally, if you are using the [dependency visualization functionality](https://aka.ms/migrate/agentbased/dependencies), the dependency agents collect details such as FQDN, OS, IP address, MAC address, processes running inside the VM and the incoming/outgoing TCP connections from the VM.
 
 ### **Machines are showing outdated information on the portal. How do I proceed?**
 
-Ensure that the Azure Migrate appliance is up and running. Note that it takes 30 minutes for the latest information to reflect on the Azure Migrate portal. If you still see outdated information, you can perform a refresh using the steps listed [here.](https://aka.ms/migrate/discovery/refresh)
+Ensure that the Azure Migrate appliance is up and running. Note that it takes 30 minutes for the latest information to reflect on the Azure Migrate portal. If you still see outdated information, you can perform a refresh using the steps listed [here](https://aka.ms/migrate/discovery/refresh).
 
 ### **I don't see the discovered VMs on Azure portal. Server Assessment and Server Migration tiles show a status of "Discovery in progress"**
 
