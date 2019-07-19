@@ -14,7 +14,7 @@
 	articleId="ab45b514-042c-46a6-8c33-2e92b4fb28c1"
 />
 
-# Common Solutions for Virtual Network connection failurrs
+# Common solutions for Virtual Network connection failures
 
 ## **Recommended Steps**
 1. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to check if traffic is allowed to or from a virtual machine<br>
