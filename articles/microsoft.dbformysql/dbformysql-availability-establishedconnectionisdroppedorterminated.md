@@ -20,8 +20,8 @@ An established connection to an Azure Database for MySQL server can be terminate
 
 ## **Recommended Steps**
 
-* Try to reconnect to your server. If you are not able to reconnect, please switch to the problem subtype *Database is currently unavailable* to trouble shoot intermitted connection problems.
-* Check the **Rresource health** for your server to see if there were any reported events that could have caused the connection disruption
+* Try to reconnect to your server. If you are not able to reconnect, please switch to the problem subtype *Database is currently unavailable* to troubleshoot intermittent connection problems.
+* Check the **Resource health** for your server to see if there were any reported events that could have caused the connection disruption
 * Check the **Activity log** for you database to see if there changes to the server that could have causes the connection drops
 * Check your client logs if you are experiencing connection timeouts or query timeouts. If yes, please review your setting for the following server parameters: *connect_timeout*, *wait_timeout*, and *interactive_timeout*. Consult the MySQL documentation for current server version for more information.
 
