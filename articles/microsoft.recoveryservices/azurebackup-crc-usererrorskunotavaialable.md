@@ -22,5 +22,7 @@
 We have identified that your Create New VM restore operation failed because the VM size selected is not available.
 <!--/issueDescription-->
 
-## **Recommended Step**
-To resolve this issue, use [Restore Disks](https://aka.ms/VMrestore-restore-disk) option to restore. Use the restored disks to create a VM with a different size using PowerShell cmdlets.
+## **Recommended Steps**
+
+* Use the [Restore Disks](https://aka.ms/VMrestore-restore-disk) option to restore
+* After that, use the restored disks to create a VM with a different size using PowerShell cmdlets
