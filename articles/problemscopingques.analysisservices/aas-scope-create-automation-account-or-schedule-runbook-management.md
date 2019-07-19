@@ -84,10 +84,10 @@
     {
       "id": "create_automation_account_or_schedule_runbook_800",
       "order": 800,
-      "controltype": "dropdown",
+      "controltype": "multilinetextbox",
       "displaylabel": "Is this an intermittent or permanent issue?",
-      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Intermittent","text": "Intermittent"},{"value": "Permanent","text": "Permanent"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
-      "required": true
+      "watermarktext": "Is this an intermittent or permanent issue?",
+      "required": false
     }
   ],
   "$schema": "SelfHelpContent"

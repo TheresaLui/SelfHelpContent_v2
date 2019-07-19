@@ -50,7 +50,7 @@
       "order": 400,
       "controltype": "dropdown",
       "displaylabel": "Are you a subscription administrator?",
-      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
+      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don’t know or not applicable"}],
       "required": true
     }
 ,
@@ -84,10 +84,10 @@
     {
       "id": "subscription_800",
       "order": 800,
-      "controltype": "dropdown",
+      "controltype": "multilinetextbox",
       "displaylabel": "Is this an intermittent or permanent issue?",
-      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Intermittent","text": "Intermittent"},{"value": "Permanent","text": "Permanent"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
-      "required": true
+      "watermarktext": "Is this an intermittent or permanent issue?",
+      "required": false
     }
   ],
   "$schema": "SelfHelpContent"
