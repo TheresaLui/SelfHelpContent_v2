@@ -28,4 +28,4 @@ If there are throttling errors from downstream sink, please consider if the sink
 
 ## **Recommended Steps**
 
-1. [Partitioning and scaling out your job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-scale-jobs)
+* [Partitioning and scaling out your job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-scale-jobs)
