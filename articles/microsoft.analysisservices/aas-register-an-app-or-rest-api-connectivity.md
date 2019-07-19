@@ -19,7 +19,7 @@
 
 * [Register an application](https://docs.microsoft.com/azure/active-directory/reports-monitoring/howto-configure-prerequisites-for-reporting-api#register-an-application)
 
-* [Analysis Services Rest Api Sample](https://github.com/Microsoft/Analysis-Services/tree/master/RestApiSample)
+* [Analysis Services Rest API Sample](https://github.com/Microsoft/Analysis-Services/tree/master/RestApiSample)
 
 
 

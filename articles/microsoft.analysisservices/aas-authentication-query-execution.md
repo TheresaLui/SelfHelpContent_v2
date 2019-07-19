@@ -19,7 +19,7 @@
 
 * [Authentication and user permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)
 
-* [Dynamic Management Views (DMVs)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services?view=sql-server-2017)
+* [Dynamic Management Views](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services?view=sql-server-2017)
 
 * [Authentication and user permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)
 

@@ -13,11 +13,11 @@
 	articleId="54dc2c0c-a04b-3824-6f3a-b2db87f98a2c"
 />
 
-# Frequently Asked Questions (FAQ)
+# Frequently Asked Questions
 
 ## **Recommended Documents**
 
-* [Frequently Asked Questions (FAQ)](https://docs.microsoft.com/power-bi/service-gateway-personal-mode#frequently-asked-questions-faq)
+* [Frequently Asked Questions](https://docs.microsoft.com/power-bi/service-gateway-personal-mode#frequently-asked-questions-faq)
 
 * [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
 

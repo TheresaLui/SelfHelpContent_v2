@@ -25,7 +25,7 @@
       "controltype": "multilinetextbox",
       "displaylabel":"What compatibility level are you attempting to use?",
       "watermarktext": "What compatibility level are you attempting to use?",
-      "required: true,
+      "required": true,
       "useAsAdditionalDetails: true
     }
 ,
@@ -35,7 +35,7 @@
       "controltype": "Dropdown",
       "displaylabel":"Was this recently upgraded?",
       "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
-      "required: true,
+      "required": true,
       "useAsAdditionalDetails: true
     }
 ,
@@ -45,7 +45,7 @@
       "controltype": "multilinetextbox",
       "displaylabel":"What is the full error message with all error IDs?",
       "watermarktext": "What is the full error message with all error IDs?",
-      "required: true,
+      "required": true,
       "useAsAdditionalDetails: true
     }
 ,
@@ -65,7 +65,7 @@
       "controltype": "Dropdown",
       "displaylabel":"Is this an intermittent or permanent issue?",
       "watermarkText":"Choose an option","dropdownOptions":[{"value": "Intermittent","text": "Intermittent"},{"value": "Permanent","text": "Permanent"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
-      "required: true,
+      "required": true,
       "useAsAdditionalDetails: true
     }
   ],

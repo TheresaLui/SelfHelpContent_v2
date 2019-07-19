@@ -21,6 +21,6 @@
 
 * [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
 
-* [On-premises data gateway (personal mode)](https://docs.microsoft.com/power-bi/service-gateway-personal-mode#frequently-asked-questions-faq)
+* [On-premises data gateway personal mode](https://docs.microsoft.com/power-bi/service-gateway-personal-mode#frequently-asked-questions-faq)
 
 

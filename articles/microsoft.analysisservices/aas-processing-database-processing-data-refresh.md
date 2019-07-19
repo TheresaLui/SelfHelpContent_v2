@@ -19,7 +19,7 @@
 
 * [Using Analysis Services Tabular data in Power BI Desktop](https://docs.microsoft.com/sql/analysis-services/tabular-models/process-database-table-or-partition-analysis-services?view=sql-server-2017 )
 
-* [Dynamic Management Views (DMVs)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services?view=sql-server-2017)
+* [Dynamic Management Views](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services?view=sql-server-2017)
 
 
 
