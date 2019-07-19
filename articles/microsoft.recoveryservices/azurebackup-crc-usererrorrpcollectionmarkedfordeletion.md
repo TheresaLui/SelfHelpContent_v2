@@ -22,5 +22,6 @@
 We have identified that your operation failed because the Recovery Point collection is marked for deletion.
 <!--/issueDescription-->
 
-## **Recommended Step**
-To resolve this issue, ensure the Recovery Point collection allocated for the VM is in consistent state and retry the operation.
+## **Recommended Steps**
+
+* To resolve this issue, ensure the Recovery Point collection allocated for the VM is in consistent state and retry the operation
