@@ -19,6 +19,7 @@
 # We ran diagnostics on your resource and found the following issue
 
 The virtual machine booted up with a read-only file system. The following node(s) are in read-only mode: <!--$AlertHost-->[AlertHost]<!--/$AlertHost--> <br>
+
 The drive has to be remounted in read-write mode.
 
 ## **Recommended Steps**
@@ -34,4 +35,4 @@ The drive has to be remounted in read-write mode.
         sudo mount -o remount,rw /drive/partition
  ```
  
-Replace /drive/partion with the affected drive and partition e.g /dev/sda
+    Replace /drive/partition with the affected drive and partition e.g /dev/sda
