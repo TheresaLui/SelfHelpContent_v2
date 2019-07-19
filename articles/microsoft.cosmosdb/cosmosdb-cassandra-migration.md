@@ -1,16 +1,18 @@
 <properties
-	pageTitle="Migrate data to Azure Cosmos DB Cassandra API"
-	description="Cassandra migration"
+	pageTitle="Cassandra migration"
+	description="Migrate data to Azure Cosmos DB Cassandra API"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636782"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-cassandra-migration"
+	displayOrder="143"
+	category="Cassandra"
 />
 
 # Migrate data to Azure Cosmos DB Cassandra API

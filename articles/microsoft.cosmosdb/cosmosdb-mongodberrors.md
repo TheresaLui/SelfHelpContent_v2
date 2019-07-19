@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
 	ms.author="bharathb"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636778,32636789,32636810"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-mongodberrors"
+	displayOrder="223"
+	category="MongoDB"
 />
 # MongoDB - Commonly faced errors
 
