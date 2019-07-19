@@ -19,8 +19,9 @@
 # Error UserErrorBackupFailedDatabaseFilesLimitExceeded
 
 <!--issueDescription-->
-We have identified that your Log backup is failing because the number of files in the database is greater than 1000, the maximum supported limit.  
+We have identified that your log backup is failing because the number of files in the database is greater than 1000 (the maximum supported limit).  
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue, reduce the number of files in the database for the backup operation to complete successfully. For more information, refer this [article](https://go.microsoft.com/fwlink/?linkid=2077170).
+## **Recommended Steps**
+
+* [Reduce the number of files in the database](https://go.microsoft.com/fwlink/?linkid=2077170) for the backup operation to complete successfully
