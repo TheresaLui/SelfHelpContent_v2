@@ -32,7 +32,7 @@
     {
       "id": "compatibility_level_200",
       "order": 200,
-      "controltype": "Dropdown",
+      "controltype": "dropdown",
       "displaylabel": "Was this recently upgraded?",
       "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
       "required": true,
@@ -52,7 +52,7 @@
     {
       "id": "compatibility_level_400",
       "order": 400,
-      "controltype": "Dropdown",
+      "controltype": "dropdown",
       "displaylabel": "Can the issue be reproduced by other users?",
       "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
       "required": true,
@@ -62,7 +62,7 @@
     {
       "id": "compatibility_level_500",
       "order": 500,
-      "controltype": "Dropdown",
+      "controltype": "dropdown",
       "displaylabel": "Is this an intermittent or permanent issue?",
       "watermarkText":"Choose an option","dropdownOptions":[{"value": "Intermittent","text": "Intermittent"},{"value": "Permanent","text": "Permanent"},{"value": "dont_know_answer","text":"Other, don't know or not applicable"}],
       "required": true,
