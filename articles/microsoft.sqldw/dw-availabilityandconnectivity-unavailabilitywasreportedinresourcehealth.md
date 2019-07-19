@@ -22,7 +22,7 @@ Resource Health determines the health of your SQL resource by examining the succ
 
 * Check [Microsoft Azure Service Dashboard](https://azure.microsoft.com/status/) for any known issues
 * Check [Resource Health](https://docs.microsoft.com/azure/service-health/resource-health-overview) blade in the Azure Portal for status updates. When available, downtime reasons for health events are reported in the Health History section of Resource Health. Downtime reasons are typically published 30 minutes after an event.
-* Check the identified [maintenance schedule](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/viewing-maintenance-schedule) for your data warehouse
+* Check the identified [maintenance schedule](https://docs.microsoft.com/azure/sql-data-warehouse/viewing-maintenance-schedule) for your data warehouse
 
 ## **Recommended Documents**
 
