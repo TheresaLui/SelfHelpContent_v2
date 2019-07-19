@@ -29,7 +29,7 @@
   * Go through the [checklist](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#checklist-before-moving-resources) before moving your data warehouse across subscriptions
   * If you need to 'restore' with a new data warehouse across subscriptions, follow the instructions on restoring and using the Move functionality [here](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore#restoring-from-restore-points)
 
-* If you are restoring the data warehouse to a different server, follow this [checklist](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-disaster-recovery#configure-your-database-after-recovery) to ensure recovered data warehouse has appropriate security configuration.
+* If you are restoring the data warehouse to a different server, follow this [checklist](https://docs.microsoft.com/azure/sql-database/sql-database-disaster-recovery#configure-your-database-after-recovery) to ensure recovered data warehouse has appropriate security configuration.
 
   * To re-map a database user to a different login, use ```ALTER USER <UserName> WITH LOGIN = <LoginName>```
 
