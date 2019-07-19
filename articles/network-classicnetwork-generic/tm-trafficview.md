@@ -16,7 +16,7 @@
 
 # traffic view
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * Traffic view [overview](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-traffic-view-overview)
 * Traffic view [FAQs](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs#traffic-view)
