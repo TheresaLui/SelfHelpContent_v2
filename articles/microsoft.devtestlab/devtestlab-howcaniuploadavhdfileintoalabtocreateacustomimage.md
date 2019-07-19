@@ -16,5 +16,6 @@
 
 # How can I upload a VHD file into a Lab to create a custom image?
 
-## **Recommended documents**
-[Try out the sample PowerShell script to upload a VHD file to a Lab.](https://github.com/Azure/azure-devtestlab/blob/master/samples/DevTestLabs/Scripts/UploadVHD/UploadVHDToDTL.ps1)
+## **Recommended Documents**
+
+* [Try out the sample PowerShell script to upload a VHD file to a Lab.](https://github.com/Azure/azure-devtestlab/blob/master/samples/DevTestLabs/Scripts/UploadVHD/UploadVHDToDTL.ps1)
