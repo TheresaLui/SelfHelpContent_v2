@@ -12,7 +12,6 @@
 />
 
 # AD FS Scoping question
-
 ---
 {
     "$schema": "SelfHelpContent",
