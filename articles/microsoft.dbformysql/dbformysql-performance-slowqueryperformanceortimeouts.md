@@ -5,7 +5,7 @@
     resource="servers"
     authors="jan-eng"
     ms.author="janeng"
-    displayOrder="40"
+    displayOrder="90"
     selfHelpType="resource"
     supportTopicIds="32640094"
     resourceTags="servers, databases"
