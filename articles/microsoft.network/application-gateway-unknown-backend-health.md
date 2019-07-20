@@ -16,7 +16,7 @@
 
 # Unknown backend health
 
-Application Gateway continuously probes each member in the backend pool to monitor their health status. You can view the health of each backend server using the [back-end health](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) view. The status as *healthy* for all backend servers is desirable. If the status is shown as *Unhealthy* or *Unknown*, then perform the below steps to troubleshoot the issue.
+Application Gateway continuously probes each member in the backend pool to monitor their health status. You can view the health of each backend server using the [back-end health](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) view. *Healthy* status for all backend servers is desirable. If the status is shown as *Unhealthy* or *Unknown*, then perform the below steps to troubleshoot the issue.
 
 ## **Recommended Steps**
 

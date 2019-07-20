@@ -26,5 +26,7 @@ Connection timed out error usually occurs when the client is not able to establi
 
 ## **Recommended Steps**
 
-1. Check the configuration of the application gateway to ensure that there is a listener configured for the port on which the client is sending the request. If you have found that there is no listener configured on the requested front-end port, create the required listener by following the [listener configuration instructions](https://docs.microsoft.com/azure/application-gateway/configuration-overview#listeners) and ensure that this listener is associated to the relevant request routing rule
-2. Ensure that the NSG on the Application Gateway subnet is allowing inbound access to the required ports.
+1. Check the configuration of the application gateway to ensure that there is a listener configured for the port on which the client is sending the request. If you have found that there is no listener configured on the requested front-end port, create the required listener by following the [listener configuration instructions](https://docs.microsoft.com/azure/application-gateway/configuration-overview#listeners) and ensure that this listener is associated to the relevant request routing rule.
+2. Ensure that the NSG on the Application Gateway subnet is allowing inbound access to the port on which the client is making the request.
+
+If the above two steps do not resolve the issue, then proceed to file the support request.
