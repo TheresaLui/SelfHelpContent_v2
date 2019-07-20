@@ -27,5 +27,5 @@ Increase in resource consumption can be a result of an explicit user action or c
 
 ## **Recommended Documents**
 
-* [Performance Recommendations in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendationsL)<br>
+* [Performance Recommendations in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)<br>
 * [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
