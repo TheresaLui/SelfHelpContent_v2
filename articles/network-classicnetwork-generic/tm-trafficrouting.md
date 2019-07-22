@@ -16,7 +16,7 @@
 
 # traffic routing
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Debug HTTP errors](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs#why-am-i-seeing-an-http-error-when-using-traffic-manager)
 * Traffic Manager [routing methods](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-routing-methods)

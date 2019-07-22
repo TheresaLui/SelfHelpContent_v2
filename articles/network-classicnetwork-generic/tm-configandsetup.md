@@ -16,7 +16,7 @@
 
 # configuration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot endpoint degraded state](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-troubleshooting-degraded)
 * [Debug HTTP errors](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs#why-am-i-seeing-an-http-error-when-using-traffic-manager)

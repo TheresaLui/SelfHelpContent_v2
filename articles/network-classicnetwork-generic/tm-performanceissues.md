@@ -16,7 +16,7 @@
 
 # performance issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Performance considerations](https://azure.microsoft.com/documentation/articles/traffic-manager-performance-considerations/) for Traffic Manager
 * [Troubleshoot endpoint degraded state](https://azure.microsoft.com/documentation/articles/traffic-manager-troubleshooting-degraded/) for Traffic Manager

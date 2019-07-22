@@ -16,7 +16,7 @@
 
 # real user measurements
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * Traffic Manager [Real User Measurements](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-rum-overview) overview
 * Send Real User Measurements to Traffic Manager using [Visual Studio SDK](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-create-rum-visual-studio) or using [Web pages](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-create-rum-web-pages)
