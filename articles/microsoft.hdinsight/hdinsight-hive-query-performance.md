@@ -30,7 +30,7 @@ The following Hive performance optimization methods can be applied to your clust
 
 * [Optimize Apache Hive queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
 
-**Troubleshooting**
+### **Troubleshooting**
 
 * [Why is my reducer extremely slow?](https://hdinsight.github.io/hive/hive-slow-reducer.html)
 * [Why does Tez application hang?](https://hdinsight.github.io/hive/hive-tez-job-hang.html)
