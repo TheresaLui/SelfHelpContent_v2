@@ -19,10 +19,9 @@
 
 ## **Recommended Steps**
 
-- **Listener configuration issue:** You can get a 404 error, when the multi-site listener that is matching the IP, port and protocol of the request does not match the host name in the request. Ensure that the host value entered in the listener configuration is the same as the host header in the client request.
-- **WAF issue**: You can get a 403 error when the Web Application Firewall (WAF) is blocking the request. Analyze the [WAF logs](https://docs.microsoft.com/azure/application-gateway/waf-overview#logging) to evaluate whether the WAF is blocking the request
-- **Backend application issue**: Bypass the Application Gateway to directly access the backend server. If the backend server still returns the same 4xx error, then the issue is with the backend and not the Application Gateway.
+1. Bypass the Application Gateway to directly access the backend server. If the backend server still returns the same 4xx error, then the issue is with the backend and not the Application Gateway. You can also verify this by observing the HTTP response code that Application Gateway received from the backend by viewing the *SERVER-STATUS* value in *RequestQuery* field of [access logs](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging). 
 
-## **Recommended Documents**
+   If the response code from the backend is verified to be 4xx, then it's an issue with your backend and not the application gateway. If the response from the backend is verified to be valid, then follow the steps below to troubleshoot.
 
-You can verify the HTTP response code that Application Gateway received from the backend by viewing the *SERVER-STATUS* value in *RequestQuery* field of [access logs](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging). If the response code is 4xx, then it's an issue with your backend and not the application gateway.
+2. If you are getting a 404 error, then it could be a listener configuration issue. This could happen when the multi-site listener that is matching the IP, port and protocol of the request does not match the host name in the request. Ensure that the host value entered in the listener configuration is the same as the host header in the client request.
+3. If you are getting a 403 error and using Web Application Firewall (WAF) SKU of the Application Gateway, then this behavior can happen if WAF is blocking the request. Analyze the [WAF logs](https://docs.microsoft.com/azure/application-gateway/waf-overview#logging) to evaluate whether the 403 error is due to WAF blocking the request.
