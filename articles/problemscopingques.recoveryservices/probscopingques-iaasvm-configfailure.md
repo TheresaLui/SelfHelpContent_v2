@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure VM configuration failure",
     "fileAttachmentHint": "",
     "formElements": [
