@@ -19,3 +19,7 @@
 ## **Recommended Documents**
 
 * [Use the Apache Beeline client with Apache Hive](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-use-hive-beeline)
+
+**Troubleshooting**
+
+* [How do I launch Hive shell with specific configurations on HDInsight cluster?](https://hdinsight.github.io/hive/hive-shell-configurations.html)
