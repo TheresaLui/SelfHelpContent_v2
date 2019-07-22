@@ -19,3 +19,7 @@
 ## **Recommended Documents**
 
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
+
+**Troubleshooting**
+
+* [Why does the Hive Zeppelin Interpreter give a Zookeeper error?](https://hdinsight.github.io/hive/hive-llap-zeppelin-namespace.html)
