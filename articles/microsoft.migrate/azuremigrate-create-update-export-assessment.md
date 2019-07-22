@@ -20,7 +20,7 @@
 
 ### **Does Azure Migrate: Server Assessment support creation of assessments for physical servers?**
 
-Server Assessment currently supports assessment of VMware and Hyper-V VMs, support for physical servers is currently not available and will be enabled in future. 
+Server Assessment currently supports assessment of VMware and Hyper-V VMs, support for physical servers is currently not available and will be enabled in future.
 
 ### **Why is the confidence rating of my assessment low?**
 
@@ -41,3 +41,7 @@ If there are configuration changes (VM deletion, core addition/removal, memory s
 ### **Can I customize an assessment after I have created it?**
 
 Yes, you can customize assessments either while creating them or after they are created by using the 'Edit properties' option in the assessment. [Learn more](https://aka.ms/migrate/selfhelp/customizeplan) about the customization options in an assessment.
+
+### **Why does my assessment report say 'PercentageOfCoresUtilizedMissing' or 'PercentageOfMemoryUtilizedMissing' for some VMs?**
+
+The above issues are listed when the Azure Migrate appliance cannot collect performance data for the on-premises VMs. This can happen if the VMs are powered off for the duration for which you are creating the assessment (last one day/one week/one month) as the appliance cannot collect performance data for a VM, when it is powered off. If only memory counters are missing and you are trying to assess Hyper-V VMs, check if you have dynamic memory enabled on these VMs. There is a known issue currently due to which Azure Migrate appliance cannot collect memory utilization for VMs which do not have dynamic memory enabled. Note that the issue is only there for Hyper-V VMs and not there for VMware VMs. If any of the performance counters are missing, Azure Migrate: Server Assessment falls back to the allocated cores/memory and recommends a VM size accordingly.

@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="Assessment recommendations"
     description="Issues and guidance regarding assessment recommendations in Server Assessment"    service="microsoft.migrate"
     resource="migrateprojects"
@@ -23,7 +23,7 @@ Azure Migrate: Server Assessment currently does not support Enterprise Agreement
 
 ### **Why does Server Assessment mark my Linux VMs 'Conditionally ready'. Is there anything I need to do to fix this?**
 
-There is a known gap in Server Assessment where it is unable to detect the minor version of the Linux OS installed on the on-premises VMs (for example, for RHEL 6.10, currently Server Assessment only detects RHEL 6 as the OS version). Since Azure endorses only specific versions of Linux, the Linux VMs are currently marked as conditionally ready in Server Assessment. We are working on this issue and this gap will be fixed in future. Meanwhile, you can manually ensure if the Linux OS running on the on-premises VM is endorsed in Azure by reviewing the [Azure Linux support documentation.](https://aka.ms/migrate/selfhost/azureendorseddistros). Once you have verified the endorsed distro, you can ignore this warning. 
+There is a known gap in Server Assessment where it is unable to detect the minor version of the Linux OS installed on the on-premises VMs (for example, for RHEL 6.10, currently Server Assessment only detects RHEL 6 as the OS version). Since Azure endorses only specific versions of Linux, the Linux VMs are currently marked as conditionally ready in Server Assessment. We are working on this issue and this gap will be fixed in future. Meanwhile, you can manually ensure if the Linux OS running on the on-premises VM is endorsed in Azure by reviewing the [Azure Linux support documentation.](https://aka.ms/migrate/selfhost/azureendorseddistros). Once you have verified the endorsed distro, you can ignore this warning.
 
 ### **The VM SKU recommended by Server Assessment has more number of cores and a larger memory size than what is allocated on-premises. Why is that so?**
 
@@ -35,7 +35,11 @@ For example, let's say there is an on-premises VM with 4 cores and 8 GB memory w
 
 The disk sizing in Server Assessment depends on two assessment properties - sizing criterion and storage type. If the sizing criterion is 'Performance-based' and storage type is set to 'Automatic', the IOPS and throughput values of the disk are considered to identify the target disk type (Standard HDD, Standard SSD or Premium disks). A disk SKU within the disk type is then recommended considering the size requirements of the on-premises disk. If the sizing criterion is 'Performance-based' and storage type is 'Premium', a premium disk SKU in Azure is recommended based on the IOPS, throughput and size requirements of on-premises disk. The same logic is used to do disk sizing when the sizing criterion is 'As on-premises' sizing and storage type is 'Standard HDD', 'Standard SSD' or 'Premium'.
 
-For example, if you have an on-premises disk with 32 GB memory, but the aggregated read and write IOPS for the disk is 800 IOPS, Server Assessment will recommend a premium disk type (due to the higher IOPS requirements) and then recommend a disk SKU which can support the required IOPS and size. The nearest match in this example would be P15 (256 GB, 1100 IOPS). So even though the size required by the on-premises disk was 32 GB, Server Assessment recommended a disk with bigger size due to the high IOPS requirement of the on-premises disk. 
+For example, if you have an on-premises disk with 32 GB memory, but the aggregated read and write IOPS for the disk is 800 IOPS, Server Assessment will recommend a premium disk type (due to the higher IOPS requirements) and then recommend a disk SKU which can support the required IOPS and size. The nearest match in this example would be P15 (256 GB, 1100 IOPS). So even though the size required by the on-premises disk was 32 GB, Server Assessment recommended a disk with bigger size due to the high IOPS requirement of the on-premises disk.
+
+### **Why does my assessment report say 'PercentageOfCoresUtilizedMissing' or 'PercentageOfMemoryUtilizedMissing' for some VMs?**
+
+The above issues are listed when the Azure Migrate appliance cannot collect performance data for the on-premises VMs. This can happen if the VMs are powered off for the duration for which you are creating the assessment (last one day/one week/one month) as the appliance cannot collect performance data for a VM, when it is powered off. If only memory counters are missing and you are trying to assess Hyper-V VMs, check if you have dynamic memory enabled on these VMs. There is a known issue currently due to which Azure Migrate appliance cannot collect memory utilization for VMs which do not have dynamic memory enabled. Note that the issue is only there for Hyper-V VMs and not there for VMware VMs. If any of the performance counters are missing, Azure Migrate: Server Assessment falls back to the allocated cores/memory and recommends a VM size accordingly.
 
 ### **Is the OS license cost of the VM included in the Compute cost estimated by Server Assessment?**
 
