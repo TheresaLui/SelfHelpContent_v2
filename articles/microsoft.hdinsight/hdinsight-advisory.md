@@ -23,7 +23,7 @@
 * [Azure HDInsight Pricing](https://azure.microsoft.com/pricing/details/hdinsight/) 
 * [HDInsights Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)  
 
-**Troubleshooting**
+### **Troubleshooting**
 
 * [How do I export Hive metastore and import it on another HDInsight cluster?](https://hdinsight.github.io/hive/hive-export-import-metastore.html)
 * [Where are the Hive logs on HDInsight cluster?](https://hdinsight.github.io/hive/hive-logs-locations.html)
