@@ -1,6 +1,7 @@
 <properties
 pageTitle="Failure Transaction Analysis"
 description="Failure Transaction Analysis"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="andyS210"
