@@ -34,3 +34,7 @@
 **WebHCat**
 
 * [Understand and resolve errors received from WebHCat on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-templeton-webhcat-debug-errors)
+
+**Troubleshooting**
+
+* [Why do I see ‘permission denied’ when attempting to create a table in Secure Hive?](https://hdinsight.github.io/hive/hive-createtable-permissiondenied.html)
