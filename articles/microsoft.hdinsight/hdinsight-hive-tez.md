@@ -16,11 +16,11 @@
 
 # TEZ
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 * [Hive on Tez](https://cwiki.apache.org/confluence/display/Hive/Hive+on+Tez)
 
-**Troubleshooting**
+## **Recommended Documents**
 
 * [How do I download Tez Directed Acyclic Graph (DAG) data from HDInsight cluster?](https://hdinsight.github.io/hive/hive-tez-dag-data-download.html)
 * [How do I analyze Tez Directed Acyclic Graph (DAG) critical path on HDInsight cluster?](https://hdinsight.github.io/hive/hive-tez-dag-critical-path.html)
