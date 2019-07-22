@@ -50,8 +50,7 @@ Server Assessment currently only considers the OS license cost for Windows machi
 These properties are only applicable for 'Performance-based' sizing. Server Assessment continuously collects performance data of on-premises machines and uses it to recommend the VM SKU and disk SKU in Azure. Below is how performance data is collected by Server Assessment:
 
 - The Azure Migrate appliance continuously profiles the on-premises environment to gather real-time utilization data every 20 seconds for VMware VMs and every 30 seconds for Hyper-V VMs
-
 - The appliance rolls up the 20/30-second samples to create a single data point for every 10 minutes. To create the single data point, the appliance selects the peak value from all the 20/30-second samples, and sends it to Azure.
-
 - When you create an assessment in Server Assessment, based on the performance duration and performance history percentile value, the representative utilization value is identified. For example, if the performance history is 1 week and percentile utilization is 95th, Azure Migrate will sort all the 10-minute sample points for the last one week in ascending order and then select the 95th percentile as the representative value.
-The 95th percentile value ensures that you are ignoring any outliers, which may be included if you pick the 99th percentile. If you want to pick the peak usage for the period and do not want to miss any outliers, you should select 99th percentile as the percentile utilization.
+
+    The 95th percentile value ensures that you are ignoring any outliers, which may be included if you pick the 99th percentile. If you want to pick the peak usage for the period and do not want to miss any outliers, you should select 99th percentile as the percentile utilization.
