@@ -19,3 +19,7 @@
 ## **Recommended Documents**
 
 * [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
+
+**Troubleshooting**
+
+* [Why do some joins in Hive give an Out of Memory error?](https://hdinsight.github.io/hive/hive-join-oom.html)
