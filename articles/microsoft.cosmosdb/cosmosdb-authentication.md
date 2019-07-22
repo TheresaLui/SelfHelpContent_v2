@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Authentication"
-	description="Authentication"
+	description="Troubleshoot Azure Cosmos DB Authentication related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636770"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-authentication"
+	displayOrder="60"
+	category="Core (SQL)"
 />
 
 # Authentication in Azure Cosmos DB
