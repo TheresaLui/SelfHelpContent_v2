@@ -23,8 +23,8 @@ All Azure Database for MySQL management operations can be performed using REST A
 * If you are looking if a specific command is supported, samples on how to use a command, or which parameters are required, please refer to our [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/)
 * If you are using Azure Resource Manager templates and have a issue:
 
-  * Familiarize yourself with one of our sample [Azure Resource Manager](https://github.com/Azure/azure-quickstart-templates/tree/master/101-managed-mysql-with-vnet) template in Azure Quickstart GitHub Gallery, compare your template against it, and or build on top of it
-  * Ensure the required parameters are set and valid. See the [Provisioning Azure Database for MySQL using ARM templates](https://docs.microsoft.com/azure/mysql/tutorial-provision-mysql-server-using-azure-resource-manager-templates#create-an-azure-database-for-mysql-server-with-vnet-service-endpoint-using-azure-resource-manager-template) to understand the valid values of the parameters.
+    * Familiarize yourself with one of our sample [Azure Resource Manager](https://github.com/Azure/azure-quickstart-templates/tree/master/101-managed-mysql-with-vnet) template in Azure Quickstart GitHub Gallery, compare your template against it, and or build on top of it
+    * Ensure the required parameters are set and valid. See the [Provisioning Azure Database for MySQL using ARM templates](https://docs.microsoft.com/azure/mysql/tutorial-provision-mysql-server-using-azure-resource-manager-templates#create-an-azure-database-for-mysql-server-with-vnet-service-endpoint-using-azure-resource-manager-template) to understand the valid values of the parameters.
 
 * Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete.
 
