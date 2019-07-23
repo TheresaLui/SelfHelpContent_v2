@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32411818"
 	resourceTags=""
-	productPesIds="15571,16470"
+	productPesIds="15571,16470,15797,16454"
 	cloudEnvironments="public"
 	articleId="174c3fd1-0fa7-4354-b892-8ae3b669cd80"
 />
@@ -26,4 +26,3 @@
 * [Configure SQL Server Failover Cluster Instance on Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-create-failover-cluster/)<br>
 * [Understand Windows cluster technologies and overview](http://technet.microsoft.com/library/hh831579.aspx)<br>
 * [Understand more about Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview)
-
