@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-**Configuration Steps for Spark Applications**
+**Configuration**
 
 * [How do I configure an Apache Spark application by using Apache Ambari on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-apache-ambari-on-clusters)
 * [How do I configure an Apache Spark application by using a Jupyter notebook on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-a-jupyter-notebook-on-clusters)
