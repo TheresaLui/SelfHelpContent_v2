@@ -19,7 +19,7 @@
 # Error CBPSourceSnapshotFailedReplicaMetadataInvalid
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the source volume snapshot failed because metadata on replica is invalid.
+We have identified that your backup operation failed because the source volume snapshot metadata on replica is invalid.
 <!--/issueDescription-->
 
 ## **Recommended Document**
