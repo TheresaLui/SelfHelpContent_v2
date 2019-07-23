@@ -23,7 +23,7 @@ The time taken to execute 'Select 1' is a common way to measure the network late
 * Ensure your client and MariaDB Database are in the same Azure region
 * If your client is hosted in an Azure VM, turn on accelerated networking for lowest connection latency
 * Ensure you are measuring latency on an existing connection. Creating a new connection can take 100+ milliseconds. Connection pooling is strongly recommended to avoid the overhead of establishing new connections.
-* Reduce the number of round trips between you application and the database if possible
+* Reduce the number of round trips between your application and the database if possible
 * We strongly recommend that you use a database connection pool or a long connection to Azure Database for MariaDB.
 
 ## **Recommended Documents**
