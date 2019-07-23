@@ -24,4 +24,4 @@ We identified that your Source volume snapshot failed due to an inconsistent dat
 
 ## **Recommended Document**
 
-To resolve this issue, refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaInconsistent).
+* To resolve this issue, refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaInconsistent)
