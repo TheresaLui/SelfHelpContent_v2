@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Scoping questions for deployment issues with Azure Migrate appliance for VMware"
-    description="Scoping questions for deployment issues with Azure Migrate appliance for VMware"
+    pageTitle="Scoping questions for deployment issues with Azure Migrate appliance for VMware (Server Assessment)"
+    description="Scoping questions for deployment issues with Azure Migrate appliance for VMware (Server Assessment)"
     authors="An-mol"
     ms.author="anvar"
     selfHelpType="problemScopingQuestions"
@@ -8,7 +8,7 @@
     productPesIds="16348"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="c3178863-02c4-4abc-90bc-a296cf55f14c"
+    articleId="16626ec8-bb1d-4ed4-baf2-9d659b578d89"
 />
 
 # Deployment issues with Azure Migrate appliance for VMware
