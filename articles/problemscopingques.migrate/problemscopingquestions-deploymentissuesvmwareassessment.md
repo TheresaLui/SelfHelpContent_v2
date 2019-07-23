@@ -21,19 +21,31 @@
     "fileAttachmentHint": "",
     "formElements": [
              {
-            "id": "replication_scenarios",
+            "id": "failed_step",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Select the replication scenario",
+            "displayLabel": "Select the step that failed",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
-                    "value": "Agent based replication",
-                    "text": "Agent based replication"
+                    "value": "Creating the appliance VM",
+                    "text": "Creating the appliance VM"
                 },
                 {
-                    "value": "Agent less replication",
-                    "text": "Agent less replication"
+                    "value": "Pre-requisites and Setup",
+                    "text": "Pre-requisites and Setup"
+                },
+                {
+                    "value": "Registration with Azure Migrate project",
+                    "text": "Registration with Azure Migrate project"
+                },
+                 {
+                    "value": "Connecting with the vCenter Server",
+                    "text": "Connecting with the vCenter Server"
+                },
+                 {
+                    "value": "Save and Start Discovery",
+                    "text": "Save and Start Discovery"
                 },
                 {
                     "value": "dont_know_answer",
@@ -43,42 +55,8 @@
             "required": true
             },
             {
-            "id": "step_failed",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Select the step that is failing",
-            "watermarkText": "Select",
-            "dropdownOptions": [
-                {
-                    "value": "Creation of Appliance VM",
-                    "text": "Creation of Appliance VM"
-                },
-                {
-                    "value": "Pre-requisites and setup",
-                    "text": "Pre-requisites and setup"
-                },
-                {
-                    "value": "Registration with Azure Migrate Project",
-                    "text": "Registration with Azure Migrate Project"
-                },
-                {
-                    "value": "Connection with vCenter Server",
-                    "text": "Connection with vCenter Server"
-                },
-                {
-                    "value": "Save and start discovery",
-                    "text": "Save and start discovery"
-                },
-{
-                    "value": "dont_know_answer",
-                    "text": "Other"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "Whitelisting_URLs",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Have you whitelisted the URLs?",
             "watermarkText": "Select",
@@ -96,7 +74,7 @@
         },
         {
             "id": "ports_opened",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are the required ports open?",
             "watermarkText": "Select",
@@ -114,7 +92,7 @@
         },
          {
             "id": "appliance_name",
-            "order": 5,
+            "order": 4,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Provide the name of appliance(s) (if applicable)",
@@ -123,14 +101,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
