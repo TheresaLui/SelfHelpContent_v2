@@ -24,11 +24,12 @@ Most users are able to resolve their issue using the steps below.
 
 * Make sure that the server name is globally unique
 * If you are using the portal, review the [Manage an Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/tutorial-design-database-using-portal) tutorial
-
 * If you are using Azure CLI:
+
   * Make sure you are signed-in to the correct using **az login**
   * Ensure you are using the correct subscription, in case you have more than one
   * Specify all required parameters in **az mariadb server create** with valid values. Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mariadb?view=azure-cli-latest) for required parameters and valid values.
+
 * Consult the [REST API reference documentation](https://docs.microsoft.com/rest/api/mariadb/) if you encounter issues using our REST
 
 ## **Recommended Documents**
