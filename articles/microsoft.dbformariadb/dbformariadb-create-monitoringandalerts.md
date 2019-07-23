@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="16617"
     cloudEnvironments="public"
-    articleId="e1475999-0623-4331-ab68-b829a4cd1214"
+    articleId="29b4bc86-3a48-4486-97a7-2c5ff12ce7a0"
 />
 
 # Monitoring Azure Database for MariaDB servers

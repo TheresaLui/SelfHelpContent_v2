@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="16617"
     cloudEnvironments="public"
-    articleId="e1475999-0623-4331-ab68-b829a4cd1214"
+    articleId="d4b60714-37a7-4235-94ae-0efd1bd28fb8"
 />
 
 # Managing firewall rules for Azure Database for MariaDB

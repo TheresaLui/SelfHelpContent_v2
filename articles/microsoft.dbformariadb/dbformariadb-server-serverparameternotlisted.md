@@ -25,4 +25,4 @@ Azure Database for MariaDB allows you to configure parameters at a server level 
 ## **Recommended Documents**
 
 * [Configure parameters using the Azure portal](https://docs.microsoft.com/azure/mariadb/howto-server-parameters/)<br>
-* [Configure parameters using the Azure CLI](https://docs.microsoft.com/en-us/azure/mariadb/howto-configure-server-parameters-cli/)
+* [Configure parameters using the Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-configure-server-parameters-cli/)

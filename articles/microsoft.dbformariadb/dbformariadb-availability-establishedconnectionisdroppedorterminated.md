@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="16617"
     cloudEnvironments="public"
-    articleId="cf53cc8b-732f-4262-b101-f8eab4930254"
+    articleId="61fd6b3b-9706-4eeb-9f56-4bc956116579"
 />
 
 # Connection issues to Azure Databases for MariaDB

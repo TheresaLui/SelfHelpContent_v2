@@ -22,6 +22,7 @@ All Azure Database for MariaDB management operations can be performed using REST
 
 * If you are looking if a specific command is supported, samples on how to use a command, or which parameters are required, please refer to our [REST API reference documentation](https://docs.microsoft.com/rest/api/mariadb/).
 * If you are using Azure Resource Manager templates and have a issue:
+
   * To familiarize yourself withAzure Resource Manager templates, create a sample template by clicking on **Export Template** in the portal for an existing Azure Database for MariaDB.
   * Required parameters are set and valid. See the [Azure Database for MariaDB REST API](https://docs.microsoft.com/rest/api/mariadb) to understand the valid values of the parameters.
 * Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete.
