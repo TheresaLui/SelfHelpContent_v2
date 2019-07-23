@@ -16,7 +16,9 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Failed transactions detected for **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**
+# Failed Transactions
+
+Failed transactions have been detected for **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**:
 
 **<!--$AADescription-->[AADescription]<!--/$AADescription-->**
 
