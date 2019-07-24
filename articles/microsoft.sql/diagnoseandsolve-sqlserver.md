@@ -1,19 +1,19 @@
 <properties
-pageTitle="Top common problems for SQL Database"
-description="Menu based workflow document for top SQL Database problems"
+pageTitle="Top common problems for SQL Servers"
+description="Menu based workflow document for top SQL Servers problems"
 service="microsoft.sql"
 resource="servers"
-resourceTags="databases"
+resourceTags="servers"
 authors="VMMicrosoft"
 ms.author="vimahadi"
 displayOrder=""
-articleId="c95b09f8-3f33-4fe9-8c66-79505deb412d"
+articleId="7e485e61-34af-4d6c-acb3-b36b85227e3b"
 selfHelpType="diagnoseandsolve"
 productPesIds="13491"
 cloudEnvironments="public"
 />
 
-# Top common problems for SQL Database
+# Top common problems for SQL Servers
 ---
 {
   "$schema":"SelfHelpContent",
@@ -25,8 +25,7 @@ cloudEnvironments="public"
       "searchTags": "provisioning, crud, slo, scaling, service tier",
       "category": "Provisioning",
       "commonSolutionArticleId": "cbfbab1e-05e9-4631-9ef8-e1467611c765",
-      "supportTopicId": "32630431",
-      "symptomId": "SqlProvision"
+      "supportTopicId": "32630431"
     },
     {
       "id": "The_workload_for_my_database_has_increased",
@@ -35,8 +34,7 @@ cloudEnvironments="public"
       "searchTags": "performance, increase, workload",
       "category": "Performance",
       "commonSolutionArticleId": "832be260-f5b8-47dc-95ba-288bcfc7625c",
-      "supportTopicId": "32630459",
-      "symptomId": "SqlPerfTsg"
+      "supportTopicId": "32630459"
     },
     {
       "id": "I_am_having_issues_connecting_to_my database",
@@ -45,8 +43,7 @@ cloudEnvironments="public"
       "searchTags": "connect, connectivity, availability, error",
       "category": "Connectivity ",
       "commonSolutionArticleId": "ed58b3a0-20fe-4cb6-a261-5afaa0d4324a",
-      "supportTopicId": "32630429",
-      "symptomId": "SqlLts"
+      "supportTopicId": "32630429"
     },
     {
       "id": "I_am_having_issues_exporting_my_database",
@@ -55,8 +52,7 @@ cloudEnvironments="public"
       "searchTags": "export, bacpac",
       "category": "Export",
       "commonSolutionArticleId": "12410211-a2f0-48af-99a1-58da8fcb50ff",
-      "supportTopicId": "32630420",
-      "symptomId": "SqlRca"
+      "supportTopicId": "32630420"
     },
     {
       "id": "I_am_having_issues_with_SQL_Data_Sync",
@@ -65,8 +61,7 @@ cloudEnvironments="public"
       "searchTags": "data sync",
       "category": "Data Sync",
       "commonSolutionArticleId": "8953a223-c606-42bd-ae86-964c0db4e34c",
-      "supportTopicId": "32630455",
-      "symptomId": "SqlDataSync"
+      "supportTopicId": "32630455"
     },
     {
       "id": "Need_to_backup_or_restore_my_database",
@@ -75,8 +70,7 @@ cloudEnvironments="public"
       "searchTags": "backup, automated backup, point in time restore, pitr, restore",
       "category": "Backup",
       "commonSolutionArticleId": "eeb46dff-62eb-4d87-b7a9-939908fc69df",
-      "supportTopicId": "32630409",
-      "symptomId": ""
+      "supportTopicId": "32630409"
     },
     {
       "id": "I_am_receiving_performance_errors",
@@ -85,8 +79,7 @@ cloudEnvironments="public"
       "searchTags": "performance, error",
       "category": "Performance",
       "commonSolutionArticleId": "7d57d34f-58d4-4f40-99e2-0dc8e40ab2b4",
-      "supportTopicId": "32630454",
-      "symptomId": ""
+      "supportTopicId": "32630454"
     }
   ],
   "troubleshootingTools": []
