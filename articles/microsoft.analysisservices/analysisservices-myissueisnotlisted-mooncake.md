@@ -9,7 +9,7 @@
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
-    displayOrder=""
+    displayOrder="7"
     cloudEnvironments="MoonCake"
     issueNotListed="true"
  	articleId="c5f5bdff-4047-44f5-978b-4b33074dc81f"
