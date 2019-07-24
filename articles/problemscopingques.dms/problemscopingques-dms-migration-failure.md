@@ -68,9 +68,9 @@
 					"value": "MongoDB_To_CosmosDBMongoAPI_Online",
 					"text": "MongoDB to Azure Azure CosmosDB Mongo API Online"
 				},{
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
+					"value": "dont_know_answer",
+					"text": "Other, don't know or not applicable"
+			}
 			],
 			"required": true
 		},{
@@ -82,6 +82,7 @@
 			"useAsAdditionalDetails":true,
 			"watermarkText":"Please provide the detailed symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information"
 		}
-	]
+	],
+	"$schema": "SelfHelpContent"
 }
----
+
