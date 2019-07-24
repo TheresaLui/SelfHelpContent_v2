@@ -19,7 +19,7 @@ cloudEnvironments="Public, Fairfax"
 
 # Advisory or general guidance
 
-You can find answers to many common questions in [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq). ALso, you can select *'Diagnose and solve problems'* from your workspace in Azure portal to view solutions for common problems in.
+You can find answers to many common questions in the [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq). Additionally, you can select **Diagnose and solve problems** from your workspace in Azure portal to view solutions for common problems.
 
 ## **Recommended Steps**
 
@@ -38,19 +38,19 @@ Review the following topics for information and troubleshooting. If you didn't f
 * Learn about [Update management](https://docs.microsoft.com/azure/automation/automation-update-management) **|** *Monitoring non-VMs resources* > *Update management*
 * Learn how and when your databases are accessed [CosmosDB]( https://docs.microsoft.com/azure/cosmos-db/logging) **|** *Monitoring non-VMs resources* *Other*
 * Learn about [Intune](https://docs.microsoft.com/intune/review-logs-using-azure-monitor) **|** *Monitoring non-VMs resources* *Other*
-* Network [Network Security Group](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-manage-log) **|** *Monitoring non-VMs resources* *Other*
+* Network [Netwrork Security Group](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-manage-log) **|** *Monitoring non-VMs resources* *Other*
 * Learn how diagnostics assists with debugging [App Service](https://docs.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs) **|** *Monitoring non-VMs resources* *Other*<br>
 
-**Alerts:**
+### Alerts
 
 * [Troubleshoot log alerts]( https://docs.microsoft.com/azure/azure-monitor/platform/alert-log-troubleshoot) **|** *Alerts* > select relevant alert category<br>
 
-**Billing:**
+### Billing
 
 * Understand [Azure Monitor pricing](https://azure.microsoft.com/pricing/details/monitor/) including FAQs with useful information.
 * Learn how to [manage usage and costs](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage) **|** *How Do I* > *Billing, data volume and retention*<br>
 
-**Collecting data using agents:**
+### Collecting data using agents
 
 * [Azure monitoring agents](https://docs.microsoft.com/azure/azure-monitor/platform/agents-overview) overview
 * [Troubleshoot the Log Analytics VM extension](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot)
