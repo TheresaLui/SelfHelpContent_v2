@@ -80,14 +80,14 @@
             "order": 150,
             "controlType": "textbox",
             "displayLabel": "Total number of brokers on your Kafka cluster",
-            "required": true
+            "required": false
         },
         {
             "id": "number_problem_brokers",
             "order": 160,
             "controlType": "textbox",
             "displayLabel": "Number of brokers experienced the problem",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -104,6 +104,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/kafka/kafka-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

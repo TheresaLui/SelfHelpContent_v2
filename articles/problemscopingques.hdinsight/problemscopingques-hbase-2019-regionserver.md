@@ -25,25 +25,25 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
         {
             "id": "number_region_servers_impacted",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Number of region servers impacted",
-            "required": true
+            "required": false
         },
         {
             "id": "region_server_list",
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Name of the region servers impacted (seperate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -60,6 +60,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/hbase/hbase-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

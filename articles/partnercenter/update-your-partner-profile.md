@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Update your partner profile"
+	pageTitle="Update your billing info"
 	description="Manage your billing info"
 	infoBubbleText=""
 	service="partnercenter"
@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* **[Update your partner profile including your billing info](https://docs.microsoft.com/partner-center/update-your-partner-profile)**
+* [Update your partner profile, including your billing info](https://docs.microsoft.com/partner-center/update-your-partner-profile)

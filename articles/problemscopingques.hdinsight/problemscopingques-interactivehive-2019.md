@@ -25,18 +25,18 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
         {
             "id": "application_id",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the application",
-            "required": true
+            "required": false
         },
         {
             "id": "interactive_query",
@@ -44,7 +44,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Interactive query if applicable",
             "watermarkText": "Interactive query, please replace any PII parameter value in the query when needed",
-            "required": true
+            "required": false
         },
         {
             "id": "interactive_query_plan",
@@ -52,7 +52,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Interactive query plan if available",
             "watermarkText": "Interactive query plan",
-            "required": true
+            "required": false
         },
         {
             "id": "interactive_query_submission_method",
@@ -93,6 +93,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

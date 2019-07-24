@@ -47,36 +47,40 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What's the name of your Data Factory?",
-            "required": true
+            "required": false
         },
         {
             "id": "ssisir_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What's the name of your Azure-SSIS Integration Runtime?",
-            "required": true
+            "required": false
         },
         {
-			"id": "data_source_location",
-			"order": 5,
-			"controlType": "dropdown",
-			"displayLabel": "Where is your data source?",
-			"dropdownOptions": [{
-					"value": "On-prem",
-					"text": "On-prem"
-				}, {
-					"value": "Azure",
-					"text": "Azure"
-				}, {
-					"value": "3rd party",
-					"text": "3rd party"
-				}, {
+            "id": "data_source_location",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Where is your data source?",
+            "dropdownOptions": [
+                {
+                    "value": "On-prem",
+                    "text": "On-prem"
+                },
+                {
+                    "value": "Azure",
+                    "text": "Azure"
+                },
+                {
+                    "value": "3rd party",
+                    "text": "3rd party"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Not applicable"
                 }
-			],
-			"required": true
-		},
+            ],
+            "required": true
+        },
         {
             "id": "problem_start_time",
             "order": 6,
@@ -85,12 +89,13 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 7,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
-    ]
+            "id": "problem_end_time",
+            "order": 7,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

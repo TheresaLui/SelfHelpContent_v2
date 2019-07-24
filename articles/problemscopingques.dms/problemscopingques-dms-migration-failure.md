@@ -21,6 +21,11 @@
 	"title": "Error when running database migration",
 	"fileAttachmentHint": "",
 	"formElements": [
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Error when running database migration",
+    "fileAttachmentHint": "",
+    "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,

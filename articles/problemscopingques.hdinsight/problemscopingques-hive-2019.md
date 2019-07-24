@@ -25,18 +25,18 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
         {
             "id": "application_id",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the Hive application",
-            "required": true
+            "required": false
         },
         {
             "id": "hive_query",
@@ -44,7 +44,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Hive query if applicable",
             "watermarkText": "Hive query",
-            "required": true
+            "required": false
         },
         {
             "id": "hive_query_plan",
@@ -52,7 +52,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Hive query explain plan if available",
             "watermarkText": "Hive query plan",
-            "required": true
+            "required": false
         },
         {
             "id": "hive_submission_method",
@@ -69,7 +69,7 @@
                     "value": "Ambari Hive View",
                     "text": "Ambari Hive view"
                 },
-                                {
+                {
                     "value": "ODBC",
                     "text": "ODBC"
                 },
@@ -95,6 +95,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/hive/hive-landing'>Learn more</a> about commonly faced issues with using Hive on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

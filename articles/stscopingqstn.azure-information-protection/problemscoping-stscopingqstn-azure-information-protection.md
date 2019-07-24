@@ -24,9 +24,9 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": [
-		{
-		    "text": "This Problem is only for Azure Information Protection (AIP) support. AIP is a cloud-based solution that helps an organization to classify, label, and protect its documents and emails. If you need assistance with services below: Please return to Step 1 to choose the correct subscription, product and/or service for which you need assistance. Have you tried our <a href='http://aipbot.azurewebsites.net/'>chatBot</a>?"
-		},
+                {
+                    "text": "This Problem is only for Azure Information Protection (AIP) support. AIP is a cloud-based solution that helps an organization to classify, label, and protect its documents and emails. If you need assistance with services below: Please return to Step 1 to choose the correct subscription, product and/or service for which you need assistance. Have you tried our <a href='http://aipbot.azurewebsites.net/'>chatBot</a>?"
+                },
                 {
                     "text": "Azure Active Directory (AAD)"
                 },
@@ -48,6 +48,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

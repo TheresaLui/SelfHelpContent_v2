@@ -4,8 +4,8 @@
          authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32612998"
-         productPesIds="15207"
+         supportTopicIds="32612998,32637327"
+         productPesIds="15207,14749,15571,15797,16454,16470"
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="9a98fd5d-c64c-4d29-9f4d-fd53e64b5c0b"
@@ -21,9 +21,20 @@
         {
             "id": "using_VM",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
+	    "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+	    },
             "required": false
         },
         {
@@ -42,7 +53,7 @@
                     "text": "Slow restore during restore disk operation"
                 },
                 {
-		    "value": "Slow restore during restore existing disks operation",
+                    "value": "Slow restore during restore existing disks operation",
                     "text": "Slow restore during restore existing disks operation"
                 },
                 {
@@ -85,6 +96,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

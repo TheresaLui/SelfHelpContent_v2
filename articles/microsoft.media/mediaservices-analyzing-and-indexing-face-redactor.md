@@ -18,7 +18,7 @@
 
 # Azure Media Services analyzing with face redactor
 
-Anonymize videos by detecting and blurring the faces of selected individuals. Azure Media Redactor is ideal for use in public safety and news media scenarios. Pricing is based on the duration and resolution of the input file. 
+Analyze videos by detecting and blurring the faces of selected individuals. Azure Media Redactor is ideal for use in public safety and news media scenarios. Pricing is based on the duration and resolution of the input file. 
 
 ### How do I scale up the processing speed of Redactor?
 
