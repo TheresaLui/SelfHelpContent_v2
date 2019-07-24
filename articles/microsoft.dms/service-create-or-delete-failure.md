@@ -10,7 +10,7 @@
 	articleId="service-create-or-delete-failure"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32673608"
 	resourceTags=""
 	productPesIds="16307"
 	cloudEnvironments="public"

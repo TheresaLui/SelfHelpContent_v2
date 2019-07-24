@@ -10,7 +10,6 @@
 	productPesIds="16307"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	schema="SelfHelpContent"
 />
 # Failure when running a database migration using DMS
 ---
@@ -21,11 +20,6 @@
 	"title": "Error when running database migration",
 	"fileAttachmentHint": "",
 	"formElements": [
-    "resourceRequired": false,
-    "subscriptionRequired": false,
-    "title": "Error when running database migration",
-    "fileAttachmentHint": "",
-    "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
