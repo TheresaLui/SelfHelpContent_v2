@@ -18,6 +18,8 @@
 
 # Troubleshooting errors while creating or deleting Database Migration Service instance
 
+## **Recommended Steps**
+
 ## Create Service Errors
 
 **Error:** 
@@ -26,9 +28,9 @@
 * *"xxx/NIC-xxxxxxxxxxxx/ipConfigurations/ipconfig cannot be used because it contains external resources."*
 * *"You need to ***delete these external resources*** before deploying into this subnet."*
 
-### **Recommnded Steps**
+### **Recommened Steps**
 
-* The VNET selected to create DMS instance in contained external resources like application gateway, Azure SQL DB Managed Instance, or hosing environments. DMS can be created in the same VNET but it needs to be created in a separate Subnet. 
+* The VNET selected to create DMS instance in contained external resources like application gateway, Azure SQL DB Managed Instance, or hosting environments. DMS can be created in the same VNET but it needs to be created in a separate Subnet. 
 
 **Error:** 
 
