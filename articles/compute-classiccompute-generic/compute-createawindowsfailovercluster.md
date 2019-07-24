@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configuration and setup/create a windows failover cluster"
-	description="configuration and setup/create a windows failover cluster"
+	pageTitle="configuration and setup/Create a Windows failover cluster"
+	description="configuration and setup/Create a Windows failover cluster"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
