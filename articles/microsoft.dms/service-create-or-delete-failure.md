@@ -18,7 +18,7 @@
 
 # Troubleshooting errors while creating or deleting Database Migration Service instance
 
-### Create Service Errors
+## Create Service Errors
 
 **Error:** 
 
@@ -26,7 +26,7 @@
 * *"xxx/NIC-xxxxxxxxxxxx/ipConfigurations/ipconfig cannot be used because it contains external resources."*
 * *"You need to ***delete these external resources*** before deploying into this subnet."*
 
-## **Recommnded Steps**
+### **Recommnded Steps**
 
 * The VNET selected to create DMS instance in contained external resources like application gateway, Azure SQL DB Managed Instance, or hosing environments. DMS can be created in the same VNET but it needs to be created in a separate Subnet. 
 
@@ -34,12 +34,12 @@
 
 * *"VM has reported a failure when processing extension **'CustomScriptExtension'**. Error message: "Finished executing command."*
 
-## **Recommended Steps** 
+### **Recommended Steps** 
 
 * This error most commonly occurs when the VNET selected to create a DMS instance is blocking connectivity to the metrics and health monitoring end point https://warmpath.msftcloudes.com and/or blocking the following communication ports: 443, 53, 9354, 
 445, 12000
 
-## **Recommended Documents**
+### **Recommended Documents**
 
 * [Common Network Configuration Issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#-common-network-configuration-issues)<br>
 * [Overview of prerequisites for using the Azure Database Migration Service](https://docs.microsoft.com/azure/dms/pre-reqs)
@@ -48,7 +48,7 @@
 * *"ServiceProvisioningDisabledException"*
 * *"The service could not be provisioned. Please contact Microsoft with error code 'xxxx-<region_name>'"*
 
-## **Recommended Steps** 
+### **Recommended Steps** 
 
 * DMS service may not be available in the region you are trying to create an instance. Check this website for 
 availability by region: https://azure.microsoft.com/global-infrastructure/services/?products=database-migration&regions=all
@@ -57,23 +57,22 @@ availability by region: https://azure.microsoft.com/global-infrastructure/servic
 
 * *"ResourceNotPermittedOnDelegatedSubnet"*<br>
 
-## **Recommended Steps** 
+### **Recommended Steps** 
 
 * The subnet used is a Delegated Subnet and dms service cannot be created in one
 
-## **Recommended Documents**
+### **Recommended Documents**
 
 * [Add, change, or delete a virtual network subnet](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet)
 
-
-### Delete Service Errors
+## Delete Service Errors
 
 **Error:** 
 
 * *"Service failed to Stop. Error: {'error':{'code':'InvalidRequest','message':'One or more activities are currently running. To
  stop the service, please wait until the activities have completed or stop those activities manually and try again.'}}"*
 
-## **Recommended Steps** 
+### **Recommended Steps** 
 
 When this error is reported, it is possible that there are activities or tasks off projects that may not be visible on the Azure portal. This removes the ability to clean up DMS instance by deleting the service instance which requires the deletion of all tasks in all projects across service using the UI.
 
@@ -86,6 +85,6 @@ In such situation, use the Azure Resource Manager PowerShell module for Data Mig
 
 Once this is done, try deleting the service again.
 
-## **Recommended Documents**
+### **Recommended Documents**
 
 * [Data Migration specific PowerShell cmdlets])https://docs.microsoft.com/powershell/module/azurerm.datamigration/?view=azurermps-6.13.0#data_migration)
