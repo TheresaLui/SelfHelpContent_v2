@@ -2,11 +2,13 @@
 	pageTitle="Storage Blob Container recovery"
 	description="Storage Blob Container recovery scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602730"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="c5205999-f0e2-41c5-96d1-b711cd8498c2"
 />
 # Recover deleted Blob Container
 ---
@@ -16,40 +18,75 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "warning_same_name",
+            "id": "recovery_option",
             "order": 1,
-            "controlType": "infoblock",
-            "content": "WARNING: Do not recreate Container with the same name while we attempt to recover it."
+            "controlType": "dropdown",
+            "displayLabel": "Recovery Option",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "by_container_name",
+                    "text": "Recover by container name"
+                },
+                {
+                    "value": "by_time_period",
+                    "text": "Recover by deleted time period"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
         },
         {
             "id": "blob_container",
             "order": 2,
+            "visibility": "recovery_option == by_container_name",
             "controlType": "textbox",
             "displayLabel": "Name of Container to recover",
-            "watermarkText": "ContainerName",
+            "watermarkText": "container1;container2;container3",
             "required": true
         },
         {
-            "id": "problem_start_time",
+            "id": "problem_approx_time",
             "order": 3,
+            "visibility": "recovery_option != by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate time the Container was deleted",
+            "displayLabel": "Approximate local time the Container was deleted",
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "problem_start_time",
             "order": 4,
+            "visibility": "recovery_option == by_time_period",
+            "controlType": "datetimepicker",
+            "displayLabel": "Start time",
+            "required": true
+        },
+        {
+            "id": "problem_end_time",
+            "order": 5,
+            "visibility": "recovery_option == by_time_period",
+            "controlType": "datetimepicker",
+            "displayLabel": "End time",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
             "id": "learn_more_text",
-            "order": 5,
+            "order": 7,
             "controlType": "infoblock",
             "content": "You can follow our <a href='https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data'>best practices for protecting your data</a> to ensure that your deleted data will be recoverable in the future."
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="146a4d25-dd7e-48bd-b838-4591517e20ca"
 />
 
 # Cannot Add or Update API for product

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
+	articleId="90d92390-7847-4542-9bd6-30dd8d5b9a91"
 />
 
 # redis cache/development and advisory

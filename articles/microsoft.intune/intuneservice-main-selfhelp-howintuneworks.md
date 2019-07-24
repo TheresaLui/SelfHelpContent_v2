@@ -10,6 +10,7 @@
 	resourceTags="main_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="e5641142-823e-4bce-b04e-f2da805daed8"
 />
 
 # Where can I find documentation about how Intune works?

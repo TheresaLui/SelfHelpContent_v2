@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public"
+	articleId="7a2a66b3-995b-4693-9557-788e20b8e9b1"
 />
 
 # Blob storage lifecycle

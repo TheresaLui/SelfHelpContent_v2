@@ -4,25 +4,26 @@
 	infoBubbleText="Found recent login failure. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authorAlias="vitomaz"
+	ms.author="vitomaz"
 	authors="vitomaz-msft"
 	displayOrder=""
 	articleId="sql_datasync_loginfailedinhub"
 	diagnosticScenario="SqlDataSync"
 	selfHelpType="diagnostics"
-	supportTopicIds="32574329"
+	supportTopicIds="32630455"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 # We ran diagnostics on your resource and found an issue
 
-<!--issueDescription-->
+<!--issueDescription-->  
 We were able to detect a login failure in the following Hub Database(s):<br>
-**<!--$LoginFailedHubList--> LoginFailedHubList <!--/$LoginFailedHubList-->**
-<!--/issueDescription-->
 
-Please update the credentials for the hub(s).<br>
+**<!--$LoginFailedHubList--> LoginFailedHubList <!--/$LoginFailedHubList-->**<br>
+
+Please update the credentials for the hub(s).
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

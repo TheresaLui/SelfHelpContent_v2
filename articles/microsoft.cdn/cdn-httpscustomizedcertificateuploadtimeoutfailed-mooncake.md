@@ -10,6 +10,7 @@
     resourceTags="cdnakamai, cdnverizon"
     productPesIds=""
     cloudEnvironments="Mooncake"
+	articleId="433756f8-2963-48b7-a3e7-22e0427f0d88"
 />
 
 # HTTPS customized certificate upload timeout/failed

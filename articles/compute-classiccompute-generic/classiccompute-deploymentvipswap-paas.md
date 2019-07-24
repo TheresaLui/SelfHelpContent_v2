@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="72dc1bdd-f304-489e-bc58-f6f604899378"
 />
 
 # worker role (paas)/Deployment/VIP Swap

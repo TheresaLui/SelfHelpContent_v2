@@ -7,6 +7,7 @@
 	supportTopicIds="32440122"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="cc5212f1-cf7a-4692-a3b6-2c74dd3e734f"
 />
 
 # Configuring custom domain names

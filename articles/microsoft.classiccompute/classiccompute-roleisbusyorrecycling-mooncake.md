@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="2f7c511f-6fe7-4744-be5a-d459d866bca1"
 />
 
 # My role is Busy or Recycling

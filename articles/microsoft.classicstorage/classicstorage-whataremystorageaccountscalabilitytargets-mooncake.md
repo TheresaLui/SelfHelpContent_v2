@@ -4,13 +4,14 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="6"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="1d52d299-9d90-482f-83aa-75a016e18ace"
 />
 
 # What are my Storage account scalability targets?

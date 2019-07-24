@@ -7,6 +7,7 @@
 	supportTopicIds="32581616"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="356ecc93-6136-408c-8d1d-e9f18d96991c"
 />
 
 # High memory usage

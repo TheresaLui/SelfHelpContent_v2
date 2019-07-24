@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785,16579"
     cloudEnvironments="public"
-    />
+    	articleId="481dc5f3-093c-4c25-b8a5-923443f6bdc4"
+/>
 
 # I'm having a problem with self-service password reset
 There are many reasons that password resets could fail. Below is a list of the most common problems and steps to solve them. 

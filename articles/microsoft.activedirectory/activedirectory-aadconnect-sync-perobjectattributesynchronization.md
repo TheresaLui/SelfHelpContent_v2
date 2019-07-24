@@ -9,7 +9,8 @@
     resourceTags=""
     productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="bd143943-d7e5-4dba-b5e0-f52fae4358cd"
+/>
 
 # Synchronizing AD to Azure AD/Per object or attribute synchronization
 

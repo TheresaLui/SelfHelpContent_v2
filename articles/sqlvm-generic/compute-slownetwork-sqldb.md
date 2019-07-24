@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="9071ca67-d9a9-4830-80bc-b93726a68607"
 />
 
 # performance/slow network

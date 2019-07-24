@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="bc3844f7-f953-4236-a9a6-8b2bf58d925a"
 />
 
 # Password Reset Does not work

@@ -10,6 +10,7 @@
 	productPesIds="15973"
 	supportTopicIds="32565577"
 	cloudEnvironments="public"
+	articleId="a55b9a63-400a-4843-82ab-18681288ec7c"
 />
 
 # Errors and Exceptions/403 Forbidden or Quota Exceeded

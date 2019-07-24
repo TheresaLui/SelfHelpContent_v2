@@ -4,19 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32615272,32615273,32615274,32615275"
+	supportTopicIds="32615272,32615274,32615275"
 	resourceTags=""
-	productPesIds="15571,15797,16454,16208"
+	productPesIds="15571,15797,16454,16208,16470"
 	cloudEnvironments="public"
+	articleId="a06eec15-0698-4a7b-9e41-f7487a1a199b"
 />
 
 # Shared Image Gallery
 
-4 out of 5 customers resolve their Shared Image Gallery issues using below steps:<br>
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If you run into issues while performing any operations on shared image galleries, image definitions, and image versions, run the failing command again in debug mode. Debug mode is activated by passing the **-Debug** switch with CLI and the **-Debug** switch with PowerShell. Once you’ve located the error, select one of the below documents to troubleshoot the error.
 
@@ -26,7 +28,7 @@ If you run into issues while performing any operations on shared image galleries
 4. [Unable to create a VM or a scale set](https://docs.microsoft.com/azure/virtual-machines/linux/troubleshooting-shared-images#unable-to-create-a-vm-or-a-scale-set)<br>
 5. [Unable to share resources](https://docs.microsoft.com/azure/virtual-machines/linux/troubleshooting-shared-images#unable-to-share-resources)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Announcing the public preview of Shared Image Gallery](https://azure.microsoft.com/blog/announcing-the-public-preview-of-shared-image-gallery/)<br>
 * [Troubleshooting shared image galleries](https://docs.microsoft.com/azure/virtual-machines/linux/troubleshooting-shared-images)<br>

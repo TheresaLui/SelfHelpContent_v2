@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="66a91fe5-1c4c-4a74-8831-8e680171ccf6"
 />
 
 # Shared Image Gallery

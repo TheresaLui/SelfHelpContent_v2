@@ -3,13 +3,14 @@
 	description="My issue is not listed"
 	service="microsoft.servermanagement"
 	resource="nodes"
-	authors="danielleemsft"
+	authors="daniellee-msft"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
 	issueNotListed="true"
+	articleId="38709fca-d902-4ce8-998b-e612b986d0ea"
 />
 
 # My issue is not listed

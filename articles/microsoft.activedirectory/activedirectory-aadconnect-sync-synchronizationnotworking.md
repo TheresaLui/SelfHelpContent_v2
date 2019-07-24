@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="d23e4390-180d-4024-8eea-23fc48044803"
+/>
 
 # Synchronizing AD to Azure AD/Synchronization not working
 

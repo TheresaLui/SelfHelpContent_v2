@@ -4,13 +4,14 @@
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="michco"
-    authoralias="michco"
+    ms.author="michco"
     displayOrder="25"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="WindowsSQL"
     productPesIds="14749"
     cloudEnvironments="MoonCake"
+	articleId="f3316dfd-d01e-496d-afc3-41618f6155a9"
 />
 
 # I can't connect to SQL Server in my VM

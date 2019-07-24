@@ -5,7 +5,7 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="jaredro"
-    authoralias="jaredr80"
+    ms.author="jaredr80"
     displayOrder=""
     articleId="ExRMseeCircuitConfigValidationStateDoesNotMatchInsight"
     diagnosticScenario="ExRMseeCircuitConfigValidationStateDoesNotMatchInsight"
@@ -17,15 +17,17 @@
  />
 
 # Validation State Does Not Match
-
+<!--/issueDescription-->
 The current state of the circuit's config in GWM does not match the device config, which may be causing inconsistencies with the customer's experience.
 
 *Private and Microsoft peering do not apply to this insight.*
 
-'**<!--$Message-->[Message]<!--/$Message-->**' <br>
-ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
-MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
-VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
+* '**<!--$Message-->[Message]<!--/$Message-->**' <br>
+* ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
+* MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
+* VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
+<!--/issueDescription-->
 
 ## **Recommended Steps**
+
 * Execute **Jarvis Actions** operation: **Brooklyn->ExR Service Operations->Force Apply Device Configuration** for ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'

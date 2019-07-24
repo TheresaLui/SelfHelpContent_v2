@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628288"
 	resourceTags=""
-  productPesIds="15797,15571,16454"
+	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
+	articleId="c5847b30-7196-44dd-9861-40d19c77298c"
 />
 
 # VM Snapshot (Azure Backup) extension issue
@@ -21,7 +22,8 @@
 
 * [Overview of VM Snapshot Linux extension for Azure Backup](https://docs.microsoft.com/azure/virtual-machines/extensions/vmsnapshot-linux)<br>
 * [Understanding how to troubleshoot Azure virtual machine backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
-* [Troubleshoot Azure Backup failure: Snapshot VM sub task timed out](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)
+* [Troubleshoot Azure Backup failure: Snapshot VM sub task timed out](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)<br>
+* [How to troubleshoot Azure Extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
 
 **Additional Information**<br>
 

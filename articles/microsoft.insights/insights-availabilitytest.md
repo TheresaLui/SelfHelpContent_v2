@@ -5,12 +5,13 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
+    ms.author = "jamdavi"
     articleId="insights_availabilitytests"
     displayOrder="8"
     selfHelpType="generic"
     cloudEnvironments="public"
-    productPesIds="15693" 
-    supportTopicIds="32422336"
+    productPesIds="15693,15454" 
+    supportTopicIds="32422336,32630726,32630727,32630728,32630729,32630730,32630732,32630733,32630734"
  />
 # I am having problems with my Availability Tests
 ## **Recommended Steps**

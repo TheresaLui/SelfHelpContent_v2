@@ -5,14 +5,14 @@
 	service="microsoft.streamanalytics"
 	resource="streamingjobs"
 	authors="sidramadoss"
-	articleId="streamanalytics-visualstudio"
+	articleId="1cd6f930-04e6-4980-b932-21214ca899be"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32628759"
 	resourceTags=""
 	productPesIds="15663"
 	cloudEnvironments="public"
-	authorAlias="sidram"
+	ms.author="sidram"
 />
 
 # Automate with PowerShell

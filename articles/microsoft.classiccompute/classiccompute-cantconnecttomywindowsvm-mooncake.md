@@ -5,14 +5,15 @@
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="ScottAzure"
-    authoralias="scotro
+    ms.author="scotro
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="windows, WindowsSQL"
     productPesIds=""
     cloudEnvironments="MoonCake"
- />
+ 	articleId="d21cc1c0-63ee-4096-988e-d531e6d89aed"
+/>
 
 # I can't connect to my Windows VM
 

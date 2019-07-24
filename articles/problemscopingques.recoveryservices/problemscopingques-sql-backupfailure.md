@@ -1,7 +1,8 @@
 <properties
          pageTitle="Scoping questions for SQL database backup failure"
          description="Scoping questions for SQL database backup failure"
-         authors="srinathvasireddy"
+         authors="srinathv"
+         ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605791"
          productPesIds="15207"
@@ -17,20 +18,27 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "machine_name",
+        "id": "machine_name",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which machine is experiencing the problem?",
-            "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": true
-        },
+            "watermarkText": "Select the virtual machine running SQL",
+            "dynamicDropdownOptions": {
+        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+        "jTokenPath": "value",
+        "textProperty": "name",
+        "valueProperty": "id",
+        "textPropertyRegex": ".*"
+       },
+     "required": false
+     },
         {
             "id": "os_version",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
@@ -38,7 +46,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
+            "required": false
         },
         {
             "id": "database_Name",
@@ -46,7 +54,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the databases whose backup is failing?",
             "watermarkText": "Enter database name(s) comma separated",
-            "required": true
+            "required": false
         },
         {
             "id": "backup_Type",
@@ -66,9 +74,13 @@
                 {
                     "value": "Differential backup",
                     "text": "Differential backup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "jobID_Name",
@@ -76,31 +88,19 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
-            "id": "learn_more_text",
+            "id": "error_code",
             "order": 7,
-            "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, you can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
-        },
-        {
-            "id": "error_message",
-            "order": 8,
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Copy and paste the error message details",
-            "required": true
-        },
-        {
-            "id": "prerequisites_links",
-            "order": 9,
-            "controlType": "infoblock",
-            "content": "Ensure you review these prerequisites and dependencies for successful configuration and backup:, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-operating-systems'>supported OS version</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-sql-server-versions-and-editions'>supported SQL server versions and editions</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#prerequisites'>permission required on VM.</a>"
+            "displayLabel": "Provide the error code that are you seeing:",
+            "watermarkText": "Example: UserErrorSQLPODoesNotExist",
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
-            "order": 10,
+            "order": 8,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
@@ -119,26 +119,24 @@
                 {
                     "value": "SQL server VM has required permission for backup",
                     "text": "SQL server VM has required permission for backup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 11,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
             "required": false
         },
         {
-            "id": "learn_more_text1",
-            "order": 12,
-            "controlType": "infoblock",
-            "content": "Please upload SQL Server logs located at %ProgramFiles%\\\\Microsoft SQL Server\\\\MSSQL11.MSSQLSERVER\\\\MSSQL\\\\Log. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+            "id": "problem_start_time",
+            "order": 9,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
         },
         {
             "id": "problem_description",
-            "order": 13,
+            "order": 10,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

@@ -23,12 +23,13 @@ This operation is proceeding slowly due to long running transactions on the data
 **Root cause investigation**<br>
 Before the scale operation switches the database to the target performance tier, it kills any active transactions on the source instance, to avoid long recovery on the target instance. Recovery is a database process that occurs when a database is restarted after a shutdown – which happens after the target instance starts up during a scale operation. Recovery rolls back all inflight but uncommitted transactions at the time of restart, and during this time the database is unavailable for additional requests. If there are any large transactions to rollback, this activity takes time proportional to the number of the active transactions. We recommend terminating any open transactions on your database to avoid long recovery of the target instance and speed up the scale operation. Please refer the links below for related information.
 
-## **Recommended steps**
+## **Recommended Steps**
 Please close any open transactions on your database to speed up the scale operation and avoid long recovery. <br>
 
-## **Recommended documents**
-[SQL Transaction Log](https://docs.microsoft.com/sql/relational-databases/logs/the-transaction-log-sql-server)<br>
-[Azure SQL scale single DB resources](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale)<br>
-[Azure SQL scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale)<br>
-[Azure SQL database DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits/)<br>
-[Azure SQL database vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases/)
+## **Recommended Documents**
+
+* [SQL Transaction Log](https://docs.microsoft.com/sql/relational-databases/logs/the-transaction-log-sql-server)<br>
+* [Azure SQL scale single DB resources](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale)<br>
+* [Azure SQL scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale)<br>
+* [Azure SQL database DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits/)<br>
+* [Azure SQL database vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases/)

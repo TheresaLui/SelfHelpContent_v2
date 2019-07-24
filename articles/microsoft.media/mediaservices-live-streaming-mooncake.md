@@ -4,14 +4,15 @@
     service="microsoft.media"
     resource="mediaservices"
     authors="juliako"
-    authoralias="juliako"
+    ms.author="juliako"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
- />
+ 	articleId="e2f8d39b-83bb-4c7f-b72e-6ed00c47d8c5"
+/>
 
 # How do I configure live streaming?
 

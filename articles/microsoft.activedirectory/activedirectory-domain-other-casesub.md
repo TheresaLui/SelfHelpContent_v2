@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785"
     cloudEnvironments="public"
-    />
+    	articleId="07b272c8-3c81-46d1-a309-1a7af16bf00f"
+/>
 
 # Other problems related to domain name management
 

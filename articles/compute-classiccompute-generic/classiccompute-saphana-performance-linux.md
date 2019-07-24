@@ -10,6 +10,7 @@
 	resourceTags="linux"
 	productPesIds="15571,15797"
 	cloudEnvironments="public"
+	articleId="6229b1e3-4adb-491b-aed4-db1778e4a78b"
 />
 
 # Performance/Performance issues that are related to SAP HANA large instances

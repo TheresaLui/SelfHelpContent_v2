@@ -4,13 +4,14 @@
 	service=""
 	resource=""
 	authors=""
-	authoralias=""
+	ms.author=""
 	displayOrder=""
 	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments=""
+	articleId=""
 />
 
 # tools

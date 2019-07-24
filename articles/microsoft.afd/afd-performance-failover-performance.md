@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25" 
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614251"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="2a4a8edf-ad4c-45cd-90c2-2e11d3c5d5f4"
 />
 
 # Failover Performance

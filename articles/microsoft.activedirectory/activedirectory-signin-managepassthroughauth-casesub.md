@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="b3551364-3478-4cfd-a5a8-e812771ac400"
+/>
 
 # Managing Pass-through authentication (post enablement)
 

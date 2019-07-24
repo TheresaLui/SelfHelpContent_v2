@@ -4,14 +4,15 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="curtand"
-    authorAlias="curtand"
+    ms.author="curtand"
     displayOrder=""
     supportTopicIds="32615518"
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="46924752-5b58-4e30-a6a2-da0a832199e0"
+/>
 
 # Licensing and Billing
  

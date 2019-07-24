@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="28e0d3f0-b629-48ee-9006-6340098340ec"
 />
 
 # worker role (paas)/application and service availability/performance

@@ -10,7 +10,8 @@
     resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
     productPesIds=""
     cloudEnvironments="public"
-    />
+    	articleId="0319ff52-bd20-443e-9ee4-41f5d073115b"
+/>
 
 # B2B collaboration: I have invited guest users who can't redeem their invitations
  

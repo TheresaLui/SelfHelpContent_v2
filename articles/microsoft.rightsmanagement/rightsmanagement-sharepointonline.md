@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="bd0c18c2-2c87-46a5-96d8-831ec45857f2"
 />
 
 # sharepoint online

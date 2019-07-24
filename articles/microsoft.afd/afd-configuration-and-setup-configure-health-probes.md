@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25"
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614243"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="8499e1cb-dd26-43ef-beb2-969863ba8570"
 />
 
 # Configure Health Probes

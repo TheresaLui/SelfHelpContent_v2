@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="087adda2-fcbc-4cff-ba4d-823f611ffff1"
 />
 
 # Azure Automation - Source Control Integration

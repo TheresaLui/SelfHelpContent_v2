@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579,14785"
     cloudEnvironments="public"
-    />
+    	articleId="e76b52f3-9670-440f-bad7-e214ee4dbe87"
+/>
 
 # I'm having problems with password policies
 ## **Recommended steps**

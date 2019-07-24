@@ -1,27 +1,36 @@
 <properties
 	pageTitle="Provide On Prem Device"
 	description="Provide On Prem Device"
-	authors="KristinaNeyens"
+	authors="radwiv"
+	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
 	articleid="ProvideOnPremDevice"
-	supportTopicIds="32591152, 32591149, 32591158"
+	supportTopicIds="32591149, 32591152, 32633157"
 	productPesIds="16094"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 />
 # VPN Gwy On Prem Device
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "VPN Gwy On Prem Device",
     "fileAttachmentHint": "Upload your VPN configuration file. Make sure you edit or remove any pre-shared keys or secrets from the file",
     "formElements": [
         {
-            "id": "Provide VPN On Premise device",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "Provide VPN On Prem device",
+            "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Choose the device you are using",
-            "watermarkText": "Choose a device",
+            "displayLabel": "Select the device you are using",
+            "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "A10 Networks",
@@ -112,47 +121,29 @@
                     "text": "WatchGuard"
                 },
                 {
-                    "value": "Other - Please Specify",
-                    "text": "Other - Please Specify"
+                    "value": "dont_know_answer",
+                    "text": "Other"
                 }
             ],
             "required": true
         },
         {
-            "id": "problem_start_time",
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
-            "required": true
-        },
-        {
             "id": "problem_description",
-            "order": 5,
+            "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide device Model and iOS/firmware version",
-            "required": false,
+            "displayLabel": "Provide device Model and iOS/firmware version",
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Issue description"
                 },
                 {
-                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"
-                },
-                {
-                    "text": "Upload your configuration file to speed the support process"
-                },
-                {
-                    "text": "For security purposes, please edit or remove the pre-shared key field from the configuration information"
+                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \\"Cisco ASA 5505 OS version 8.3\\")"
                 }
             ]
-        },
-        {
-            "id": "learn_more_text",
-            "order": 6,
-            "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-deviceshttps://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices?toc=%2Fazure%2Fvpn-gateway%2F%2Ftoc.json'>Learn more</a> about Validated VPN Devices and our device configuration guides"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

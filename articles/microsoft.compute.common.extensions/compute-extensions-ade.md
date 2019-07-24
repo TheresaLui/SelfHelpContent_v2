@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628258"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="904eaea6-a9a3-454b-88c6-46fb04db2640"
 />
 
 # Azure Disk Encryption (ADE) extension issue
@@ -22,7 +23,9 @@
 * [Overview of Azure Disk Encryption extension for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/azure-disk-enc-windows)<br>
 * [Understanding prerequisites for Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-prerequisites)<br>
 * [Troubleshooting Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-tsg)<br>
-* [Azure Disk Encryption FAQ](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-faq)
+* [Azure Disk Encryption FAQ](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-faq)<br>
+* [How to troubleshoot Azure Extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
+
 
 **Additional Information**<br>
 
