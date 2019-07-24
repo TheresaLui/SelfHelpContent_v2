@@ -1,0 +1,26 @@
+<properties
+    pageTitle="Backups and restore options for Azure Database for MariaDB"
+    description="Backups and restore options for Azure Database for MariaDB"
+    service="microsoft.dbformariadb"
+    resource="servers"
+    authors="jan-eng"
+    ms.author="janeng"
+    displayOrder="130"
+    selfHelpType="resource"
+    supportTopicIds="32640113"
+    resourceTags="servers, databases"
+    productPesIds="16617"
+    cloudEnvironments="public"
+    articleId="55c846e2-cd1a-4155-b3d2-dea2939ee727"
+/>
+
+# Backups and restore options for Azure Database for MariaDB
+
+Azure Database for MariaDB automatically takes backups of your server. The backups are used to support our point-in-time restore feature. Users do not have access to the backups and cannot change the timing of when backups are taken. The default retention period for backups is 7 days and can be increased to 35 days.
+
+## **Recommended Documents**
+
+* [Azure Database for MariaDB business continuity overview](https://docs.microsoft.com/azure/mariadb/concepts-business-continuity)<br>
+* [Azure Database for MariaDB backup and restore concepts](https://docs.microsoft.com/azure/mariadb/concepts-backup)<br>
+* [How-to restore a MariaDB server using the Azure portal](https://docs.microsoft.com/azure/mariadb/howto-restore-server-portal)<br>
+* [How-to restore a MariaDB server using the Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-restore-server-cli)

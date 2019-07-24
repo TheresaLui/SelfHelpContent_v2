@@ -11,7 +11,7 @@
 	supportTopicIds="32629800"
 	productPesIds="16666"
 	articleId="8d591007-b403-4b63-9f3e-451f17322ef4"
-	CloudEnvironments="Public"
+	cloudEnvironments="Public"
 />
 
 # Problems with credential validation while configuring Workday to AD User Provisioning

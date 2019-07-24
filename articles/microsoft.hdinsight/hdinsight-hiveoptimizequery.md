@@ -5,8 +5,8 @@
     resource="clusters"
     authors="TobyTu"
     ms.author="jaserano"
-    displayOrder="7"
-    selfHelpType="resource"
+    displayOrder=""
+    selfHelpType="Generic"
     supportTopicIds="32636464"
     resourceTags=""
     productPesIds="15078"
@@ -29,3 +29,7 @@ The following Hive performance optimization methods can be applied to your clust
 ## **Recommended Documents**
 
 * [Optimizing Hive Performance](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
+
+### **Troubleshooting**
+
+* [Why are my LLAP queries running slow?](https://hdinsight.github.io/hive/hive-llap-query-perf.html)

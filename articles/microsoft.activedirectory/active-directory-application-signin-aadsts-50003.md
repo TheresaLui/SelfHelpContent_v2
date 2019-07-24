@@ -17,8 +17,9 @@
 />
 
 # Configuration Issue Preventing User Sign-In
-
-The certificate for your application is invalid or expired. Please activate the existing certificate, or create and apply a new one. An invalid certificate will prevent any user from accessing this application. 
+<!--issueDescription-->
+The certificate for your application is invalid or expired. Please activate the existing certificate, or create and apply a new one. An invalid certificate will prevent any user from accessing this application.
+<!--issueDescription-->
 
 ## **Recommended Steps**
 

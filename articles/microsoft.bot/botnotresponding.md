@@ -18,6 +18,8 @@
 
 Timeout errors usually manifest themselves as HTTP GatewayTimeout errors (504). This happens when the bot fails to respond to the Bot Framework within 15 seconds. 
 
+[The bottroubleshooter community tool](https://github.com/BotBuilderCommunity/botbuilder-community-tools/tree/master/bottroubleshooter) can help identify certain issues. Please download the troubleshooter and follow the guidance as detailed in there.
+
 ## **Recommended Steps**
 
 1. Analyze your bot behavior and make sure it doesn’t make external calls (to storage or other services) that take longer than 15 seconds

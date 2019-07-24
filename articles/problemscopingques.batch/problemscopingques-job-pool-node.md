@@ -17,8 +17,7 @@
     "subscriptionRequired": true,
     "title": "Job, Pool, and node details",
     "fileAttachmentHint": "",
-    "formElements":
-    [
+    "formElements": [
         {
             "id": "job_id_selection",
             "order": 1,
@@ -33,8 +32,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the pool that has the problem",
             "watermarkText": "Choose a pool",
-            "dynamicDropdownOptions":
-            {
+            "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Batch/batchAccounts/{resourceName}/pools?api-version=2018-12-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
@@ -53,7 +51,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the Batch Node ID which has the problem",
             "watermarkText": "The Batch Node ID which has the problem",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
@@ -70,13 +68,13 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints":
-            [
+            "hints": [
                 {
                     "text": "Provide additional information about your issue."
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

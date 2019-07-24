@@ -5,7 +5,7 @@
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599857,32599920,32599939,32599940"
+	supportTopicIds="32599857,32599920,32599939"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -17,14 +17,13 @@
     "resourceRequired": false,
     "title": "Hybrid Worker",
     "fileAttachmentHint": "",
-    "formElements":
-    [
+    "formElements": [
         {
-			"id": "NodeName",
-			"order": 1,
-			"controlType": "textbox",
-			"displayLabel": "Please provide the computer name of the hybrid worker",
-			"required": false
+            "id": "NodeName",
+            "order": 1,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the computer name of the hybrid worker",
+            "required": false
         },
         {
             "id": "problem_start_time",
@@ -32,23 +31,6 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-        },
-        {
-            "id": "previously successful",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Has this runbook successfully run in Azure Automation before?",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes, this runbook has successfully run in Azure Automation before"
-                },
-                {
-                    "value": "No",
-                    "text": "No, this runbook has never successfully run in Azure Automation"
-                }
-            ],
-            "required": false
         },
         {
             "id": "problem_description",
@@ -63,7 +45,8 @@
                     "text": "Paste in the exact text of any errors that occurred."
                 }
             ]
-        },
-    ]
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
