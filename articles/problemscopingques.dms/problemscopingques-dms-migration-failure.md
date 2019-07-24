@@ -15,6 +15,7 @@
 # Failure when running a database migration using DMS
 ---
 {
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"subscriptionRequired": false,
 	"title": "Error when running database migration",
@@ -82,7 +83,7 @@
 			"useAsAdditionalDetails":true,
 			"watermarkText":"Please provide the detailed symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information"
 		}
-	],
-	"$schema": "SelfHelpContent"
+	]
 }
+---
 

@@ -21,19 +21,17 @@
 ### Create Service Errors
 
 **Error:** *"SubnetWithExternalResourcesCannotBeUsedByOtherResources"* 
-*"xxx/NIC-xxxxxxxxxxxx/ipConfigurations/ipconfig cannot be used because it contains external resources"*<br>
+*"xxx/NIC-xxxxxxxxxxxx/ipConfigurations/ipconfig cannot be used because it contains external resources."*<br>
 *"You need to ***delete these external resources*** before deploying into this subnet."*
 
-**Recommented Steps:** The VNET selected to create DMS instance in contained external resources like application gateway, 
-Azure SQL DB Managed Instance or hosing environments. DMS can be created in the same VNET but it 
-needs to be created in a separate Subnet. 
+**Recommended Steps:** The VNET selected to create DMS instance in contained external resources like application gateway, 
+Azure SQL DB Managed Instance or hosing environments. DMS can be created in the same VNET but it needs to be created in a separate Subnet. 
 
 <br>
 
-**Error:** *"VM has reported a failure when processing extension **'CustomScriptExtension'**. Error message: "Finished executing command"*
+**Error:** *"VM has reported a failure when processing extension **'CustomScriptExtension'**. Error message: "Finished executing command."*
 
-**Recommended steps:** This error most commonly occurs when the VNET selected to create a DMS instance is blocking connectivity to the metrics and 
-health monitoring end point https://warmpath.msftcloudes.com and/or blocking the following communication ports: 443, 53, 9354, 
+**Recommended steps:** This error most commonly occurs when the VNET selected to create a DMS instance is blocking connectivity to the metrics and health monitoring end point https://warmpath.msftcloudes.com and/or blocking the following communication ports: 443, 53, 9354, 
 445, 12000.
 
 **Recommended Documents**<br>
