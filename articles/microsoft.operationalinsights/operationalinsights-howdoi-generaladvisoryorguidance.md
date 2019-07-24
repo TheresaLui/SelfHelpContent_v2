@@ -59,6 +59,7 @@ Review the following topics for information and troubleshooting. If you didn't f
 * Learn on [Log Analytic gateway](https://docs.microsoft.com/azure/azure-monitor/platform/gateway) and how to manage the [SCOM connector](https://docs.microsoft.com/azure/azure-monitor/platform/om-agents) **|** *Monitoring VMs (Azure and on-prem)* > *COM integration or OMS Gateway*<br>
 
 **Collecting data from Azure resources:**
+
 * [Azure Diagnostics troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting) **|** *Monitoring non-VMs resources* > *Collect Diagnostics logs or Diagnostics Settings*<br>
 
 ## **Recommended Documents**
