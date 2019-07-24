@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32675631"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-import"
+	displayOrder="181"
+	category="Gremlin (Graph)"
 />
 # Gremlin - Import
 

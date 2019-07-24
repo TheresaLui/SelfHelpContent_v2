@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Cosmos DB connectors"
-	description="Cosmos DB connectors"
+	description="Troubleshoot Azure Cosmos DB connectors"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636815"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-connectors-other"
+	displayOrder="121"
+	category="Tools and Connectors"
 />
 
 # Cosmos DB connectors

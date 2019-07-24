@@ -38,7 +38,7 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/redis/recommendations/memory_cn",
+  "learnMoreLink": "https://aka.ms/redis/recommendations/memory",
   "description": "Improve your Cache and application performance when running with high memory pressure",
   "longDescription": "Cache instances perform best when not running under high memory pressure which may cause them to become unresponsive, experience data loss, or become unavailable. Apply best practices to reduce used memory or scale to a different size or sku with more capacity.",
   "potentialBenefits": "Ensure optimal performance and high availability through best practices",

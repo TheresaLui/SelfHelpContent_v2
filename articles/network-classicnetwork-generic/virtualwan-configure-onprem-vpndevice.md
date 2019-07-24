@@ -3,7 +3,7 @@
 	description="Configure an on-premise VPN device for your Virtual WAN"
 	infoBubbleText="Configure an on-premise VPN device for your Virtual WAN"
 	service="microsoft.network"
-	resource="virtualWan,virtualHub"
+	resource=""
 	authors="karenhammons"
 	ms.author="karenha,reyandap"
 	displayOrder=""
@@ -13,7 +13,7 @@
 	supportTopicIds="32640643,32640645"
 	resourceTags=""
 	productPesIds="16572"
-	cloudEnvironments="public"
+	cloudEnvironments="public,mooncake,fairfax"
 />
 
 # Configure your on-premise VPN Device
