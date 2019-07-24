@@ -85,6 +85,25 @@
             "controlType": "textbox",
             "displayLabel": "Number of VMs the exception was seen during this time.",
             "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 9,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide additional details about the issue that you were facing",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "More information on the exact issue."
+                },
+                {
+                    "text": "Read/Write regions where the issue is experienced"
+                },
+                {
+                    "text": "Activity Id of the request (if available)."
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"
