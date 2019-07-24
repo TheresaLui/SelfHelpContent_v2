@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Billing and Pricing"
-	description="Billing and Pricing"
+	description="Troubleshoot Azure Cosmos DB Billing and Pricing issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636791,32636806,32636826"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-billing-pricing"
+	displayOrder="100"
+	category="Billing and Pricing"
 />
 
 # Pricing in Azure Cosmos DB

@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Data Migration"
-	description="Data Migration"
+	description="Migrate data to Azure Cosmos DB"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636783"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-data-migration"
+	displayOrder="63"
+	category="Core (SQL)"
 />
 
 # Migrating data to Azure Cosmos DB

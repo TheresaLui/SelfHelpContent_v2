@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32675634"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-partitioning"
+	displayOrder="183"
+	category="Gremlin (Graph)"
 />
 # Gremlin - Partitioning
 
