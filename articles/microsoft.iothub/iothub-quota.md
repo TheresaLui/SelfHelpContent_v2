@@ -7,7 +7,7 @@
  	ms.author="jlian,saziz,jtanner"
 	displayOrder="5"
 	selfHelpType="resource"
-	supportTopicIds="32596642,32596611,32596660,32630557,32630561"
+	supportTopicIds="32630557,32630561"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
@@ -25,5 +25,5 @@
 ## **Recommended Documents**
 
 * [How to upgrade your IoT hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-upgrade)<br>
-* [IoT hub pricing examples](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-pricing)<br>
+* [IoT hub pricing examples](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-pricing)<br>
 * [IoT Hub pricing](https://azure.microsoft.com/pricing/details/iot-hub/)<br>

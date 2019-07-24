@@ -25,7 +25,7 @@
 | Device count | The maximum number of devices you can register to a single IoT hub is 1,000,000. The only way to increase this limit is to contact Microsoft Support. |
 | Device import and export jobs | IoT Hub only allows 1 device import/export job to run at a time. |
 
-1. If you have [logs turned on](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#cloud-to-device-commands), go to [Logs](data-blade:Microsoft_OperationsManagementSuite_Workspace.AnalyticsBlade.workspaceResourceId.$resourceId) and check for errors under the DeviceIdentitiesOperations category.
+1. If you have [logs turned on](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#cloud-to-device-commands), check for errors under the DeviceIdentitiesOperations category.
 
 ## **Recommended Documents**
 

@@ -17,7 +17,7 @@
 
 ## **Recommended Documents**
 
-* [Import and export IoT Hub device identities in bulk](https://docs.microsoft.com/azure/iot-hub/iot-hub-bulk-identity-mgmty)<br>
+* [Import and export IoT Hub device identities in bulk](https://docs.microsoft.com/azure/iot-hub/iot-hub-bulk-identity-mgmt)<br>
 * [PowerShell reference](https://docs.microsoft.com/powershell/module/azurerm.iothub/new-azurermiothubexportdevices)<br>
 * [CLI reference](https://docs.microsoft.com/cli/azure/ext/azure-cli-iot-ext/iot/hub/device-identity?view=azure-cli-latest#ext-azure-cli-iot-ext-az-iot-hub-device-identity-import)
 

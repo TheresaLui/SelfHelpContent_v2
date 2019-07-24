@@ -19,5 +19,5 @@
 
 * [Understand device twins](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-device-twins)<br>
 * [Understand module twins](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-module-twins)<br>
-* [Common error codes](https://docs.microsoft.com/en-us/rest/api/iothub/common-error-codes)<br>
+* [Common error codes](https://docs.microsoft.com/rest/api/iothub/common-error-codes)<br>
 

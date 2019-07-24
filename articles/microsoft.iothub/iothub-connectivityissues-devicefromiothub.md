@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 1. Make sure the device isn't accidentally disabled in [IoT Devices tab](data-blade:Microsoft_Azure_IotHub.DeviceExplorerBlade.id.$resourceId)
-2. If you have [logs turned on](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#cloud-to-device-commands), go to [Logs](data-blade:Microsoft_OperationsManagementSuite_Workspace.AnalyticsBlade.workspaceResourceId.$resourceId) and check for common errors under the category C2DCommands:
+2. If you have [logs turned on](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#cloud-to-device-commands), check for common errors under the category C2DCommands:
 
 | Error | Cause | Resolution |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

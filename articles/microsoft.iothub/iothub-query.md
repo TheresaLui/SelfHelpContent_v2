@@ -18,5 +18,5 @@
 ## **Recommended Documents**
 
 * [IoT Hub query language for device and module twins, jobs, and message routing](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-query-language)<br>
-* [Common error codes](https://docs.microsoft.com/en-us/rest/api/iothub/common-error-codes)<br>
+* [Common error codes](https://docs.microsoft.com/rest/api/iothub/common-error-codes)<br>
 

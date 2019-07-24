@@ -17,5 +17,5 @@
 
 ## **Recommended Documents**
 
-* [Configure IoT Hub IP filters](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-ip-filtering)<br>
+* [Configure IoT Hub IP filters](https://docs.microsoft.com/azure/iot-hub/iot-hub-ip-filtering)<br>
 
