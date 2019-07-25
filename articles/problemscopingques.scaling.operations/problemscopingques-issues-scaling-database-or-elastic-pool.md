@@ -11,16 +11,15 @@
 	articleId="problemscopingques-scalingissues"
 />
 
-# Issues Scaling a Database or Elastic Pool
+# Issues Scaling a Database or Elastic Pool 
 ---
 {
 	"resourceRequired": true,
 	"title": "Issues Scaling a Database or Elastic Pool",
 	"fileAttachmentHint": "",
-	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"formElements": [
-	{
+	        {
 			"id": "ongoing_or_completed_updateslo",
 			"order": 1,
 			"controlType": "dropdown",
@@ -28,12 +27,21 @@
 			"watermarkText": "Choose an option",
 			"infoBalloonText": "Is the scaling operation you need help with still in progress, or has it concluded?",
 			"dropdownOptions": [{
-					"value": "Ongoing",
-					"text": "Ongoing"
+					"value": "Ongoing_normal",
+					"text": "Ongoing (normal operation)"
 				},{
-					"value": "Completed/Terminated",
-					"text": "Completed/Terminated"
+				        "value": "Ongoing_long-running_stuck",
+					"text": "Ongoing (long-running/stuck)"
 				},{
+					"value": "Completed successfully",
+					"text": "Completed successfully"
+				},{
+					"value": "Canceled_by_user",
+					"text": "Canceled by user"
+				},{
+				        "value": "Failed_with_error",
+					"text": "Failed with error"
+			        },{
 			                "value": "dont_know_answer",
 					"text": "I'm not sure"
 				}
@@ -42,9 +50,38 @@
 			"useAsAdditionalDetails": false,
 			"visibility": true
 		},
+	        {
+		        "id": "which_operation",
+			"order": 2,
+			"controlType": "dropdown",
+			"displayLabel": "Which of these operations is causing trouble?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "Which of these current scaling operations is problematic?",
+			"dynamicDropdownOptions": {
+            			"uri": "{resourceId}/operations?api-version=2017-10-01-preview",
+            			"jTokenPath": "value",
+            			"textProperty": "properties.description",
+            			"valueProperty": "id",
+            			"textPropertyRegex": null,
+				"defaultDropdownOptions": {
+                			"value": "dont_know_answer",
+                			"text": "Don't know/None of these"
+            			}
+        		},
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": "ongoing_or_completed_updateslo == Ongoing_normal || ongoing_or_completed_updateslo == Ongoing_long-running_stuck"
+	        },
+		{
+			"id": "error_message",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "What error message are you seeing?",
+			"visibility": "ongoing_or_completed_updateslo == Failed_with_error"
+		},
 		{
 			"id": "db_or_epool",
-			"order": 2,
+			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "Are you trying to scale a database, or an elastic pool?",
 			"watermarkText": "Choose an option",
@@ -66,7 +103,7 @@
 		},
 		{
 			"id": "db_source_tier",
-			"order": 3,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale from?",
 			"watermarkText": "Choose an option",
@@ -91,7 +128,7 @@
 		},
 		{
 			"id": "db_target_tier",
-			"order": 4,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale to?",
 			"watermarkText": "Choose an option",
@@ -119,7 +156,7 @@
 		},
 		{
 			"id": "ep_source_tier",
-			"order": 5,
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale from?",
 			"watermarkText": "Choose an option",
@@ -144,7 +181,7 @@
 		},
 		{
 			"id": "ep_target_tier",
-			"order": 6,
+			"order": 8,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale to?",
 			"watermarkText": "Choose an option",
@@ -172,7 +209,7 @@
 		},
 		{
 			"id": "database_size",
-			"order": 7,
+			"order": 9,
 			"controlType": "textbox",
 			"displayLabel": "How large is your database?",
 			"watermarkText": "How large is your database?",
@@ -183,7 +220,7 @@
 		},
 		{
 			"id": "problem_description",
-			"order": 8,
+			"order": 10,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
@@ -193,7 +230,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 9,
+			"order": 11,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",

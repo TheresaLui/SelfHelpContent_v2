@@ -17,8 +17,9 @@
 />
 
 # Configuration Issue Preventing User Sign-In
-
+<!--issueDescription-->
 The user who is trying to log in does not have permission to access the application. There are two possible reasons for this, with the most common scenario being that the user has not been assigned to the application.
+<!--issueDescription-->
 
 ## **Recommended Steps**
 
@@ -47,7 +48,7 @@ If the *Issuer* value already matches the **Identifier (Entity ID)**, there are 
 
 Your application should now be available for user sign-in.
 
-For future sign in problems with SAML based applications, we recommend using the [testing feature with the My Apps secure sign-in extension](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to get better and automatic self diagnosis and resolution steps. 
+For future sign in problems with SAML based applications, we recommend using the [testing feature with the My Apps secure sign-in extension](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to get better and automatic self diagnosis and resolution steps.
 
 ## **Recommended Documents**
 

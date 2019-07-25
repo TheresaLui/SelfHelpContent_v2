@@ -36,6 +36,10 @@
                 {
                     "value": "Another cloud provider",
                     "text": "Another cloud provider"
+                },
+                {
+                        "value": "Azure Marketplace",
+                        "text": "Azure Marketplace"
                 }
             ],
             "required": false
@@ -114,7 +118,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "isadmin",
             "order": 6,
             "controlType": "dropdown",
@@ -135,7 +140,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "name_useraccount",
             "order": 7,
             "visibility": "isadmin == No || isadmin == I do not know",
@@ -158,6 +164,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

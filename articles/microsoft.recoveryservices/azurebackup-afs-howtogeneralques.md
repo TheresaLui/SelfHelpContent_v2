@@ -27,3 +27,6 @@
 - [Stop protecting an Azure File share](https://docs.microsoft.com/azure/backup/backup-azure-files#stop-protecting-an-azure-file-share)<br>
 - [Resume protection for Azure File share in case stopped protection with retain backup data](https://docs.microsoft.com/azure/backup/backup-azure-files#resume-protection-for-azure-file-share)<br>
 - [Delete backup data](https://docs.microsoft.com/azure/backup/backup-azure-files#delete-backup-data)
+- [Can I recover from a deleted Azure file share?](https://aka.ms/AB-file-share-afs)<br>
+- [Can I restore from backups if I stopped protection on an Azure file share?](https://aka.ms/AB-stopped-afs)<br>
+- [Frequently asked questions](https://aka.ms/BKP-AFS-FAQs)

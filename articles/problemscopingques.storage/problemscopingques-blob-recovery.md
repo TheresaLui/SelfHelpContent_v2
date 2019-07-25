@@ -4,8 +4,8 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32608638"
-	productPesIds="16459"
+	supportTopicIds="32608638,32612607"
+	productPesIds="16459,16598"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="2ba85226-8c6e-4ecf-bcd1-f3f199c5c6f0"
@@ -18,10 +18,10 @@
     "title": "Storage Blob recovery scoping question",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-		"title": "Is it possible to recover my accidently deleted blob?",
-    	"description": "Our blob recovery troubleshooter can help you troubleshoot and solve your problem.",
-    	"insightNotAvailableText": "Our troubleshooter could not find your deleted blob. You can enable <a href='https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete'>soft delete for Azure Storage blobs</a> to ensure that accidentally deleted blobs will be recoverable in the future. ."
-	},
+        "title": "Is it possible to recover my accidently deleted blob?",
+        "description": "Our blob recovery troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter could not find your deleted blob. You can enable <a href='https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete'>soft delete for Azure Storage blobs</a> to ensure that accidentally deleted blobs will be recoverable in the future. ."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -48,6 +48,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

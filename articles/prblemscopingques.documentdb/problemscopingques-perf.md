@@ -1,19 +1,21 @@
 <properties
-	pageTitle="CosmosDb Performance Issue"
-	description="CosmosDb Performance Issue"
-	authors="bharathsreenivas"
+	pageTitle="CosmosDB Performance Issue"
+	description="CosmosDB Performance Issue"
+	authors="rnagpal"
+	ms.author="rnagpal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32574375,32574400,32574404,32574419,32574426"
+	supportTopicIds="32636818"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="b0c21976-936c-466a-801c-0eca87e1ab5a"
 />
-# CosmosDb performance Issue
+# CosmosDB performance Issue
 ---
 {
     "resourceRequired": true,
-    "title": "CosmosDb Performance Issue",
+    "subscriptionRequired": true,
+    "title": "CosmosDB Performance Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -27,31 +29,21 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "database_name",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Database name",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Database name"
-                }
-            ]
+            "required": false
         },
         {
             "id": "collection_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Collection name",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Collection name"
-                }
-            ]
+            "required": false
         },
         {
             "id": "sdk_type",
@@ -88,19 +80,14 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "SDK Version",
-            "required": false,
-            "hints": [
-                {
-                    "text": "SDK Version"
-                }
-            ]
+            "required": false
         },
         {
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing.",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
@@ -114,6 +101,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

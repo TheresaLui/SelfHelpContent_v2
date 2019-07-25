@@ -109,14 +109,16 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "name_useraccount",
             "order": 6,
             "visibility": "isadmin == No || isadmin == I do not know",
             "controlType": "textbox",
             "displayLabel": "What is the name of the user account trying to login?",
             "required": false
-        },{
+        },
+        {
             "id": "connect_ifnew",
             "order": 7,
             "controlType": "dropdown",
@@ -157,6 +159,10 @@
                 {
                     "value": "From another cloud provider",
                     "text": "From another cloud provider"
+                },
+                {
+                        "value": "Azure Marketplace",
+                        "text": "Azure Marketplace"
                 }
             ],
             "required": false
@@ -293,6 +299,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

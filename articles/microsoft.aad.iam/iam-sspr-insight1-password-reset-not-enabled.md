@@ -17,10 +17,17 @@
 />
 
 # Self-service password reset not enabled
+<!--/issueDescription-->
+Self-service password reset is not enabled for your tenant <!--$TenantId-->[TenantId]<!--/$TenantId-->. Users who do not have an administrator role cannot reset their passwords on their own.
+<!--/issueDescription-->
 
-We have determined that self-service password reset is not enabled for your tenant <!--$TenantId-->[TenantId]<!--/$TenantId-->. This means that users who do not have an administrator role cannot reset their passwords on their own. To enable self-service password reset, do the following:
+## **Recommended Steps**
 
-1. From your Azure AD tenant, in the **Azure portal** under **Azure Active Directory**, select **Password reset**.
-2. From the **Properties** page, under the option **Self Service Password Reset Enabled**, choose **Selected** or **All**.
+To enable self-service password reset:
 
-For more guidance on configuring self-service password reset, review the [Quickstart for self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/quickstart-sspr).
+1. From your Azure AD tenant, in the **Azure portal** under **Azure Active Directory**, select **Password reset**
+2. From the **Properties** page, under the option **Self Service Password Reset Enabled**, choose **Selected** or **All**
+
+## **Recommended Documents**
+
+* [Quickstart for self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/quickstart-sspr)
