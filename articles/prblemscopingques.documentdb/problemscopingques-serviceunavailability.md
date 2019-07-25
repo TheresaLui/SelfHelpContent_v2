@@ -16,7 +16,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB Service Unavailability Issue",
-    "fileAttachmentHint": "Please attach your stack trace exceptions in a flat text file.",
+    "fileAttachmentHint": "Please attach at least 20 stack traces wtih the exception message in a single flat text file.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -40,20 +40,31 @@
             "required": false
         },
 		{
-            "id": "connectivity_mode",
+            "id": "sdk_type",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Which connectivity mode is your client using?",
-			"infoBalloonText": "This is specified in the connection policy of the constructor for the Document client. Default is gateway",
+            "displayLabel": "What is the client SDK used?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Gateway",
-                    "text": "Gateway"
+                    "value": ".NET",
+                    "text": ".NET"
                 },
                 {
-                    "value": "Direct",
-                    "text": "Direct"
+                    "value": "Java",
+                    "text": "Java"
+                },
+                {
+                    "value": "Node.js",
+                    "text": "Node.js"
+                },
+                {
+                    "value": "Python",
+                    "text": "Python"
+                },
+                {
+                    "value": "Other (describe below)",
+                    "text": "Other (mention below in the description)"
                 }
             ],
             "required": false
@@ -65,30 +76,23 @@
             "displayLabel": "Database name",
             "required": false
         },
-        {
-            "id": "collection_name",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Collection name",
-            "required": false
-        },
 		{
             "id": "exception_count",
-            "order": 7,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "How many service unavailable exceptions did you observe?",
             "required": false
         },
 		{
             "id": "vm_count",
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Number of VMs the exception was seen during this time.",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing",
             "required": true,
