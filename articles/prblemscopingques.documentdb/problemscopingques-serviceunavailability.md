@@ -63,8 +63,8 @@
                     "text": "Python"
                 },
                 {
-                    "value": "Other (describe below)",
-                    "text": "Other (mention below in the description)"
+                    "value": "REST",
+                    "text": "REST"
                 }
             ],
             "required": false
@@ -77,22 +77,29 @@
             "required": false
         },
 		{
-            "id": "exception_count",
+            "id": "collection_name",
             "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Collection name",
+            "required": false
+        },
+		{
+            "id": "exception_count",
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "How many service unavailable exceptions did you observe?",
             "required": false
         },
 		{
             "id": "vm_count",
-            "order": 7,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "Number of VMs the exception was seen during this time.",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing",
             "required": true,
