@@ -14,7 +14,7 @@
 ---
 {
                 "subscriptionRequired": true,
-                "resourceRequired": true,
+                "resourceRequired": false,
                 "title": "Instance Metadata Service",
                 "fileAttachmentHint": "",
                 "formElements": [

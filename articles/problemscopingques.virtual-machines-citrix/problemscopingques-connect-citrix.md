@@ -13,7 +13,8 @@
 # Citrix VM Connectivity
 ---
 {
-                "resourceRequired": true,
+                "subscriptionRequired": true,
+                "resourceRequired": false,
                 "title": "Connectivity",
                 "fileAttachmentHint": "",
                 "formElements": [
