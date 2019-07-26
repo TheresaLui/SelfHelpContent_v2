@@ -6,7 +6,7 @@
 	resource="userassignedidentities"
 	authors="arluca"
 	ms.author="arluca"
-	displayOrder="1"
+	displayOrder="25"
 	articleId="user-assigned managed identity integration with App Service-Function"
 	diagnosticScenario=""
 	selfHelpType="resource"
