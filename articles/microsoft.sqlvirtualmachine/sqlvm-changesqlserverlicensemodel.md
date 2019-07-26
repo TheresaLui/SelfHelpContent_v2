@@ -18,16 +18,14 @@
 
 ## **Recommended Steps**
 
-* **Switch your SQL license**: The ability to switch between licensing models is a feature provided by the new SQL VM resource provider. For detailed steps, review [How to change the licensing model for a SQL Server virtual machine in Azure.](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb)
-
-* To find out how to apply billing changes for SQL Server edition upgrades or downgrades, review [How to perform an in-place upgrade or downgrade of SQL Server edition on Azure VM.](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-change-edition)<br>
+* **Switch your SQL license**: The ability to switch between licensing models is a feature provided by the [new SQL VM resource provider](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb)
+* To apply billing changes for SQL Server edition upgrades or downgrades, review [How to perform an in-place upgrade or downgrade of SQL Server edition on Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-change-edition)<br>
 
 
 ## **Recommended Documents**
 
-* [Register SQL Server virtual machine in Azure with the SQL VM resource provider](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider) <br>
-
-* [Virtual Machines Licensing FAQ](https://azure.microsoft.com/pricing/licensing-faq/)<br>
+* [Register SQL Server virtual machine in Azure with the SQL VM resource provider](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider)
+* [Virtual Machines Licensing FAQ](https://azure.microsoft.com/pricing/licensing-faq/)
 * [Install Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)<br>
 * [Azure SQL VM CLI](https://docs.microsoft.com/cli/azure/sql/vm?view=azure-cli-latest)
 
