@@ -37,4 +37,4 @@ If you plan to use a firewall, and access the cluster from outside on certai
 ## **Recommended Documents**
 
 * [VNET and Networking](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
-* [Connect HDInsight to your on-premises network](https://docs.microsoft.com/en-us/azure/hdinsight/connect-on-premises-network#configure-the-virtual-network-to-use-the-custom-dns-server)
+* [Connect HDInsight to your on-premises network](https://docs.microsoft.com/azure/hdinsight/connect-on-premises-network#configure-the-virtual-network-to-use-the-custom-dns-server)
