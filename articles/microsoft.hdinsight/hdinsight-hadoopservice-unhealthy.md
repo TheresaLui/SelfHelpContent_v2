@@ -17,6 +17,9 @@
  
 ## **Recommended Documents**
 
+**Services that rely on Zookeepers are failing to start**
+*[Zookeeper server fails to form a quorum]https://hdinsight.github.io/zookeeper/manage-zookeeper-snapshot.html
+
 **Ambari Agent Heartbeat Lost**
 
 * [Ambari Agent Heartbeat Lost](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
