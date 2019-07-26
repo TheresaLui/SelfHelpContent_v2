@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "VMware to Azure - Not able to connect to VMware VM after failover",
     "fileAttachmentHint": "",
     "formElements": [

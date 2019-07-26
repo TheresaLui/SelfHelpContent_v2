@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Reprotect VMware VM after failover",
     "fileAttachmentHint": "",
     "formElements": [

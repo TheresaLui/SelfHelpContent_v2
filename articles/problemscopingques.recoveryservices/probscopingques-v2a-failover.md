@@ -14,8 +14,8 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "VMware to Azure failover problems",
     "fileAttachmentHint": "",
     "formElements": [
