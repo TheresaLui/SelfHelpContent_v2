@@ -11,9 +11,9 @@
 	     articleId="a3a4bbf7-0f9f-40e9-8834-682466a42523"
 />
 # Questions for VMware to Azure vCenter issues and queries
-
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "vCenter issues and queries",

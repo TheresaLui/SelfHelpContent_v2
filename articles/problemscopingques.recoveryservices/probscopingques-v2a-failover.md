@@ -11,9 +11,9 @@
 	     articleId="6c11de4c-386a-49e6-9b42-c6cee09cb86a"
 />
 # Questions for VMware to Azure failover problems
-
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "VMware to Azure failover problems",

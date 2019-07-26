@@ -11,9 +11,9 @@
 	     articleId="379e6c2e-980b-45a3-a272-b88b13e39d08"
 />
 # Questions for reprotect VMware VM after failover
-
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Reprotect VMware VM after failover",

@@ -1,6 +1,7 @@
 <properties
          pageTitle="Scoping questions for not able to connect to VMware VM after failover"
          description="Scoping questions for not able to connect to VMware VM after failover"
+         authors="ashishgangwar"
 	     ms.author="asgang"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32536425"
@@ -10,9 +11,9 @@
 	     articleId="9e8068ef-e372-451c-b105-b94f75638ae0"
 />
 # Not able to connect to VMware VM after failover
-
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "VMware to Azure - Not able to connect to VMware VM after failover",
