@@ -13,7 +13,7 @@
     cloudEnvironments="public"
     articleId="328b4e89-006b-481e-b12e-f700ca1938d7"
 />
-# Azure HDInsight: Ambari Agent Heartbeat Lost and Ambari Service Management
+# Azure HDInsight: Services hosted on the Cluster are Failing
  
 ## **Recommended Documents**
 
