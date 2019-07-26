@@ -19,8 +19,7 @@
 ## **Recommended Documents**
 
 
-**Services that rely on Zookeepers are failing to start**
-* [Zookeeper server fails to form a quorum](https://hdinsight.github.io/zookeeper/manage-zookeeper-snapshot.html)
+**Services that rely on Zookeepers are failing to start**: [Zookeeper server fails to form a quorum](https://hdinsight.github.io/zookeeper/manage-zookeeper-snapshot.html)
 
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [Why does the Hive Zeppelin Interpreter give a Zookeeper error?](https://hdinsight.github.io/hive/hive-llap-zeppelin-namespace.html)
