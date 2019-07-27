@@ -41,9 +41,9 @@ $parameters = @{
     SyncDbPassword = ''
 }
 
-$scriptUrlBase = 'https://raw.githubusercontent.com/vitomaz-msft/DataSyncHealthChecker/master/Data%20Sync%20Health%20Checker.ps1'
+$scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/AzureSQLDataSyncHealthChecker/master/AzureSQLDataSyncHealthChecker.ps1'
 Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase)).Content)) -ArgumentList $parameters
-
+#end
 ```
 
 ### Disclaimers
