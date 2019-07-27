@@ -16,7 +16,7 @@
 
 # Error: Server not available
 
-The "Can't connect to MariaDB server on.." message, dropped connections, and other transient connection errors can occur when the your MariaDB server is restarting. A restart happens when a service update is rolled out to your server, a technical issue with the underlying infrastructure was encountered, you triggered a restart of the server, you changed the compute resources, or you change between service tiers. The error you are seeing is transient and generally goes away in less than 60 seconds.
+The "Can't connect to MariaDB server on.." message, dropped connections, and other transient connection errors can occur when your MariaDB server is restarting. A restart happens when a service update is rolled out to your server, a technical issue with the underlying infrastructure was encountered, you triggered a restart of the server, you changed the compute resources, or you change between service tiers. The error you are seeing is transient and generally goes away in less than 60 seconds.
 
 ## **Recommended Steps**
 

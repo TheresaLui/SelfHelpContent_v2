@@ -16,7 +16,7 @@
 
 # Using Azure REST APIs for Azure Database for MariaDB
 
-All Azure Database for MariaDB management operations can be performed using REST APIs. If you are looking if a specific command is supported, samples on how to use a command, or which parameters are required, please refer to our [REST API reference documentation](https://docs.microsoft.com/rest/api/mariadb/).
+All Azure Database for MariaDB management operations can be performed using REST APIs.
 
 ## **Recommended Steps**
 

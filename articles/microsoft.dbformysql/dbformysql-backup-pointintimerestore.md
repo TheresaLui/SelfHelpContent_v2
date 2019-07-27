@@ -20,8 +20,9 @@ Azure Database for MySQL supports point-in-time restore to any point within the 
 
 ## **Recommended Steps**
 
+* If you are having connectivity issue after restoring the server then make sure that the connection string is referring to the restored server.
 * Azure that you try to restore to a point in time that is within you configured retention period. Note that we do not backfill the backups if you increase the retention period.
-* If you are trying to restore to a point in time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again
+* If you are trying to restore to a point in time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again.
 
 ## **Recommended Documents**
 
