@@ -19,8 +19,7 @@
 ## **Recommended Documents**
 
 
-**Services that rely on Zookeepers are failing to start**: [Zookeeper server fails to form a quorum](https://hdinsight.github.io/zookeeper/manage-zookeeper-snapshot.html)
-
+* Services that rely on Zookeepers are failing to start**: [Zookeeper server fails to form a quorum](https://hdinsight.github.io/zookeeper/manage-zookeeper-snapshot.html)<br>
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [Why does the Hive Zeppelin Interpreter give a Zookeeper error?](https://hdinsight.github.io/hive/hive-llap-zeppelin-namespace.html)
 * Ambari Web UI Access: While Ambari for your cluster is accessible directly over the Internet, some links from the Ambari Web UI (such as to the JobTracker) are not exposed to the internet. To access these services, you must [create an SSH tunnel with HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-linux-ambari-ssh-tunnel).
