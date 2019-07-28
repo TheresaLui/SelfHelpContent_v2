@@ -23,7 +23,7 @@ You can find answers to many common questions in the [Log Analytics FAQ](https:/
 
 ## **Recommended Steps**
 
-Review the following topics for information and troubleshooting. If you didn't find an answer for your inquiry, go to the [discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights). When opening a  support request, using the support path to the right of the topics can get it routed and handled quicker.<br> 
+Review the following topics for information and troubleshooting. If you didn't find an answer for your inquiry, go to the [discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights). When opening a support request, using the support path to the right of the topics can get it routed and handled quicker.<br> 
 
 * Overview of [Azure Activity log]( https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) **|** *Monitoring non-VMs resources* > *Collect Azure Activity logs* 
 * Learn how to [query Diagnostics data]( https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-logs-stream-log-store#examples) in a Log Analytics workspace **|** *How Do I* > *How to query specific data*
@@ -47,7 +47,7 @@ Review the following topics for information and troubleshooting. If you didn't f
 
 ### Billing
 
-* Understand [Azure Monitor pricing](https://azure.microsoft.com/pricing/details/monitor/) including FAQs with useful information.
+* Understand [Azure Monitor pricing](https://azure.microsoft.com/pricing/details/monitor/) including FAQs with useful information
 * Learn how to [manage usage and costs](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage) **|** *How Do I* > *Billing, data volume and retention*<br>
 
 ### Collecting data using agents
