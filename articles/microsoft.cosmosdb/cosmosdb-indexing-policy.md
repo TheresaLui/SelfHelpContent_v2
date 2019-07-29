@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="ginamr"
 	ms.author="girobins"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636795"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-indexing-policy"
+	displayOrder="67"
+	category="Core (SQL)"
 />
 
 # Indexing Policy in Azure Cosmos DB

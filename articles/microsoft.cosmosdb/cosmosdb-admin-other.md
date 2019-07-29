@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Azure Cosmos DB Administration Other Topics"
-	description="Azure Cosmos DB Administration Other Topics"
+	description="Troubleshoot other CosmosDB Administration related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="markjbrown"
 	ms.author="mjbrown"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636803"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-admin-other"
+	displayOrder="25"
+	category="Administration"
 />
 
 # Azure Cosmos DB Administration Other Topics

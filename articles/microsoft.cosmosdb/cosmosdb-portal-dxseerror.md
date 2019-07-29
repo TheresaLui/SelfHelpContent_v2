@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="deborahc"
 	ms.author="dech"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636780,32636790"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-portal-dxseerror"
+	displayOrder="261"
+	category="Portal and Monitoring"
 />
 
 # I am getting an error when browsing data through Azure Cosmos DB Data Explorer

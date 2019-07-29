@@ -13,11 +13,12 @@
 # Management
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
-    "title": "Instance Metadata Service",
-    "fileAttachmentHint": "",
-    "formElements": [
+
+                "subscriptionRequired": true,
+                "resourceRequired": false,
+                "title": "Instance Metadata Service",
+                "fileAttachmentHint": "",
+                "formElements": [
         {
             "id": "citrixcase",
             "order": 1,

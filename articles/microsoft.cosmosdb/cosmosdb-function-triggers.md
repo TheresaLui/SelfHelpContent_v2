@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Azure Cosmos DB Triggers"
-	description="Azure Cosmos DB Triggers"
+	description="Configure Azure Cosmos DB Triggers"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636793"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-function-triggers"
+	displayOrder="123"
+	category="Tools and Connectors"
 />
 
 # Azure Cosmos DB Triggers
