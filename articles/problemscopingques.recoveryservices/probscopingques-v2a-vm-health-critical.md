@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for my VM health is critical"
          description="Scoping questions for my VM health is critical"
-         authors="ashishgangwar"
+         authors="ashishgangwar,TobyTu"
          ms.author="asgang"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32642158"

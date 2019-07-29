@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for configuration server issues & queries "
          description="Scoping questions for configuration server issues & queries "
-         authors="ashishgangwar"
+         authors="ashishgangwar,TobyTu"
          ms.author="asgang"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32593224"

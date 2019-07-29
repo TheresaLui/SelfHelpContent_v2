@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for V2A test failover"
          description="Scoping questions for V2A test failover"
-         authors="ashishgangwar"
+         authors="ashishgangwar,TobyTu"
          ms.author="asgang"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32536464"

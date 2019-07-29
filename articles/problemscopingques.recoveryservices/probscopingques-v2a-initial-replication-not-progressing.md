@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for my initial replication is not progressing"
          description="Scoping questions for my initial replication is not progressing"
-         authors="ashishgangwar"
+         authors="ashishgangwar,TobyTu"
          ms.author="asgang"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32642155"
