@@ -11,7 +11,6 @@
          articleId="8ppb5fde-7000-4e97-b711-4b07ac45db50"
 />
 # My VM health is critical
-
 ---
 {
     "subscriptionRequired": true,
@@ -35,7 +34,6 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-
         {
             "id": "problem_start_time",
             "order": 3,
