@@ -1,0 +1,25 @@
+<properties
+	pageTitle="How can I change to a different pricing tier?"
+	description="How can I change to a different pricing tier?"
+	service="microsoft.cognitiveservices"
+	resource="accounts"
+	authors="kasparks"
+	displayOrder="6"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="MoonCake"
+	articleId="ffbc5027-c4cc-4b1b-bfec-15e49a08bb10"
+/>
+
+# How can I change to a different pricing tier?
+
+## **Recommended steps**
+
+Follow the steps below to resolve the issue.
+
+1. Change to a different pricing tier in the Pricing tier blade.
+
+   From within Settings blade, click on Pricing tier link to enter pricing tier blade and then select the pricing tier desired.
+
