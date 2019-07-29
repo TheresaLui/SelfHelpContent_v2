@@ -18,7 +18,7 @@
 # We ran diagnostics on your resource and found an allocation failure
 
 <!--issueDescription-->
-We detected that the operation **<!--$OperationType-->operationType<!--/$OperationType-->** operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.<br>
+We detected that the **<!--$OperationType-->operationType<!--/$OperationType-->** operation for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an allocation failure.<br>
 <!--/issueDescription-->
 
 The hardware cluster where the availability set **<!--$avsetname-->myAvailabilitySet<!--/$avsetname-->** is hosted did not have enough capacity to support its allocation.<br>
@@ -27,12 +27,13 @@ An Azure Availability Set is created on a specific hardware cluster based upon t
 
 ## **Recommended Steps**
 
-We apologize for the inconvenience. Please try the <!--$OperationType-->operationType<!--/$OperationType--> operation on the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
+We apologize for the inconvenience. Please try the **<!--$OperationType-->operationType<!--/$OperationType-->** operation on the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. If that doesn't work, you have the following options:<br>
 
 - Deallocate all the VMs in the availability set, and then restart them again. Doing so enables the Azure platform to choose from more than one cluster when performing the allocation. The VM will use the same size that it had before the deallocation. 
-- Resize the VM to a size that is currently available in your availability set. If you are using an older VM product, consider newer versions. See [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set)<br>
+- Resize the VM to a size that is currently supported by your availability set. If you are using an older VM product, consider newer versions. See [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set)<br>
+- Recreate the VM in a new availability set. See [Change the availability set](https://docs.microsoft.com/azure/virtual-machines/windows/change-availability-set)<br>
 
-To determine available sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options.<br>
+To determine supported sizes using the Azure portal, select the VM and under **Settings**, choose **Size**. On the **Size** blade, you can view supported sizes and use filter options. It should be noted that a VM size being supported in a cluster, does not mean that the cluster has enough capacity to allocate the VM.<br>
 
 ## **Recommended Documents**
 
