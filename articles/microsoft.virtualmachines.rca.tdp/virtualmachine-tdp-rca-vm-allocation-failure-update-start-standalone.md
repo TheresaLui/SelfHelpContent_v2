@@ -29,7 +29,7 @@ We apologize for the inconvenience. Please try the operation again as the issue 
 
 - Deallocate the VM, and then start it again. Deallocating the VM enables the Azure platform to choose from more than one cluster when performing the allocation. The VM will use the same size that it had before the deallocation.
 - Deallocate the VM, and choose a size that is supported in the region. See the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.
-- Resize the VM to a different size that is supported in the current hardware cluster. See [Resize a Windows VM not in an availability set](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set).<br>
+- Resize the VM to a different size that is supported in the current hardware cluster. See [Resize a Windows VM not in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-not-in-an-availability-set).<br>
 
 To search and browse the virtual machines by region, choose `virtual machines` in an interactive query that Azure provides [here](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines). It should be noted that a VM size being supported in a cluster/region, does not mean that the cluster/region has enough capacity to allocate the VM.<br>
 
