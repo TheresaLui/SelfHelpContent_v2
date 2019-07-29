@@ -1,9 +1,9 @@
 <properties
-         pageTitle ="Scoping questions for Mobility agent installation or upgrade issues"
-         description ="Scoping questions for Mobility agent installation or upgrade issues"
-         authors ="ashishgangwar,TobyTu"
+         pageTitle="Scoping questions for Mobility agent installation or upgrade issues"
+         description="Scoping questions for Mobility agent installation or upgrade issues"
+         authors="ashishgangwar,TobyTu"
          ms.author="asgang"
-         selfHelpType = "problemScopingQuestions"
+         selfHelpType= "problemScopingQuestions"
          supportTopicIds="32642153"
          productPesIds="16370"
          cloudEnvironments="public"
