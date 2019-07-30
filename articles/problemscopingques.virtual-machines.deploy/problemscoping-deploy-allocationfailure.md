@@ -18,10 +18,6 @@
     "resourceRequired": false,
     "title": "I received an allocation failure",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-            "title": "Virtual machine deployment diagnostics",
-            "description": "These diagnostics will check for details about your selected deployment failure.",
-            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
             "id": "resourceGroup",
@@ -46,8 +42,7 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "correlationId",
@@ -76,8 +71,7 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false
         },
         {
             "id": "deployment_operation",
