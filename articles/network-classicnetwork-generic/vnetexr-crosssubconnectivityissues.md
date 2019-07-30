@@ -16,7 +16,7 @@
 
 # Cross-subscription Connectivity Issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to link a virtual network to an ExpressRoute circuit](https://docs.microsoft.com/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager)<br>
 * [How to connect a virtual network in a different subscription to an ExpressRoute circuit](https://docs.microsoft.com/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager#connect-a-virtual-network-in-a-different-subscription-to-a-circuit)<br>
