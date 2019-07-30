@@ -3,19 +3,19 @@
          description="Scoping questions for Mobility agent installation or upgrade issues"
          authors="ashishgangwar,TobyTu"
          ms.author="asgang"
-         selfHelpType= "problemScopingQuestions"
+         selfHelpType="problemScopingQuestions"
          supportTopicIds="32642153"
          productPesIds="16370"
          cloudEnvironments="public"
-         schemaVersion= "1"
-         articleId="8ppb2fde-7000-4e97-b711-4b07ac45db50"
+         schemaVersion="1"
+         articleId="8ppb2fde-7000-4e97-b711-4b07ac45db95"
 />
 # Mobility agent installation or upgrade issues
 
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": false,
+    "resourceRequired": true,
     "title": "Mobility agent installation or upgrade issues",
     "fileAttachmentHint": "",
     "formElements": [
@@ -34,8 +34,7 @@
             "displayLabel": "Enter the failed Site Recovery job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
-        },
-        {
+        },{
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
