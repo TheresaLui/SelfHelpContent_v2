@@ -20,6 +20,7 @@
 If your virtual array is offline, this could be due to one of the following reasons:
 
 ## **Recommended steps**
+
 1. The virtual array is not able to communicate with the StorSimple Device Manager service. <br>
 	a. In the local web UI of the virtual array, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.
 2. The virtual array may be turned off or paused on the hypervisor. <br>
