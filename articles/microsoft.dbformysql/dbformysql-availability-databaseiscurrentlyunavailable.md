@@ -6,7 +6,7 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="20"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640051"
     resourceTags="servers, databases"
     productPesIds="16221"
@@ -21,7 +21,7 @@ The "Can't connect to MySQL server on.." message, dropped connections, and other
 ## **Recommended Steps**
 
 * Try to reconnect to your server. If you can reconnect, consider [implementing retry logic](https://docs.microsoft.com/azure/mysql/concepts-connectivity) to handle such transient errors and avoid application downtime.
-* Check if the storage size is full. If the storage size is full then you can either scale the storage or enable storage **auto-growth**.Review [How to enable storage auto-growth](https://docs.microsoft.com/azure/mysql/howto-auto-grow-storage-portal#enable-storage-auto-grow).
+* Check if the storage size is full. If the storage size is full then you can either scale the storage or enable storage **auto-growth**.Review [How to enable storage auto-growth](https://docs.microsoft.com/azure/mysql/howto-auto-grow-storage-portal#enable-storage-auto-grow)
 * Check the resource health for your server to see if there were any reported events on the service side that could have caused the connection disruption
 * If the **Resource health** for your server is not indicating any disruptions, consider the troubleshooting steps outline in the problem subtopic *Error while connecting to the server*
 

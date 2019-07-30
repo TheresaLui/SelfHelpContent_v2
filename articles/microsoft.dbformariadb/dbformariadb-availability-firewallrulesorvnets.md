@@ -6,7 +6,7 @@
     authors="ajlam"
     ms.author="andrela"
     displayOrder="50"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640123"
     productPesIds="16617"
     cloudEnvironments="public"
