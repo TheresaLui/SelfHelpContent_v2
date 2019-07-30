@@ -21,4 +21,4 @@
 - [Server Registration displays the following message: "Pre-requisites are missing"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-registration-prerequisites)<br>
 - [Server Registration displays the following message: "This server is already registered"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-already-registered)<br>
 - [When I register a server, I see numerous "web site not trusted" responses.](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#web-site-not-trusted)<br>
-- [Server is not listed under registered servers in the Azure portal](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-registration-missing)
+- [Server is not listed under registered servers in the Azure portal.](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-registration-missing)
