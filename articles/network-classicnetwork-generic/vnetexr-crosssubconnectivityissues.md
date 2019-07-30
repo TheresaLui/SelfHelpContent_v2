@@ -4,6 +4,7 @@
     service="microsoft.network"
     resource="virtualnetworks"
     authors="radwiv, v-miegge"
+    ms.author="radwiv"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32584877"
