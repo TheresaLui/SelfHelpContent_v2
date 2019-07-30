@@ -24,7 +24,7 @@
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "Provide vCenter name",
-            "watermarkText": "Enter the name of the vCenter",
+            "watermarkText": "Enter the name of the VMware vCenter",
             "required": true
         },
         {
