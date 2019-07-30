@@ -16,7 +16,7 @@
 
 # Connectivity Issues to VNet Service Endpoints
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Validate bandwidth/throughput](https://docs.microsoft.com/azure/virtual-network/virtual-network-bandwidth-testing) <br>
 * [Optimize network throughput](https://docs.microsoft.com/azure/virtual-network/virtual-network-optimize-network-bandwidth) <br>
