@@ -4,6 +4,7 @@
     service="microsoft.network"
     resource="expressroute"
     authors="chadmath, v-miegge"
+    ms.author="chadmath"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32584879"
