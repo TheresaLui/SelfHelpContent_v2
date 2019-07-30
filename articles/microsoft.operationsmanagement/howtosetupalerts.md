@@ -5,6 +5,7 @@
     service="microsoft.operationsmanagement"
     resource="solutions"
     authors="adoylemsft"
+    ms.author="adoyle"
     displayorder="6"
     selfHelpType="resource"
     supportTopicIds=""
