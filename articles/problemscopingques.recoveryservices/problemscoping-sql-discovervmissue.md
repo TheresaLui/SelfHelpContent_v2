@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Unable to discover VM",
     "fileAttachmentHint": "",
+      "diagnosticCard": {
+        "title": "Unable to discover VM",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -30,6 +35,10 @@
         "textProperty": "name",
         "valueProperty": "id",
         "textPropertyRegex": ".*"
+	 "defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
        },
             "required": false
         },
@@ -85,14 +94,16 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
