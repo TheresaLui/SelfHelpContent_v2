@@ -1,22 +1,20 @@
 <properties
-	pageTitle="Avere vFXT Cluster Installation and Configuration Issues"
-	description="Resolve issues with Avere vFXT cluster installation and configuration."
-	infoBubbleText="Avere vFXT Cluster Installation and Configuration Issues"
-	service="microsoft.averevfxt"
-	resource="cluster"
-	authors="jbut"
-	ms.author="jebutl"
-	displayOrder="1"
-	articleId="averevfxt-clusterinstallationandconfiguration"
-	diagnosticScenario=""
-	selfHelpType="resource"
-	supportTopicIds="32609687"
-	resourceTags=""
-	productPesIds="16506"
-	cloudEnvironments="public"
+    pageTitle="Avere vFXT Cluster Installation and Configuration Issues"
+    description="Resolve issues with Avere vFXT cluster installation and configuration."
+    infoBubbleText="Avere vFXT Cluster Installation and Configuration Issues"
+    service="microsoft.averevfxt"
+    resource="cluster"
+    authors="jbut"
+    ms.author="jebutl"
+    displayOrder="1"
+    articleId="averevfxt-clusterinstallationandconfiguration"
+    diagnosticScenario=""
+    selfHelpType="resource"
+    supportTopicIds="32609687"
+    resourceTags=""
+    productPesIds="16506"
+    cloudEnvironments="public"
 />
-
-# <-- This is the title of the article. It is not displayed in the portal, however, an **H1** header is a required part of every article. -->
 
 Most customers can resolve installation and configuration issues by following the [Avere vFXT for Azure Documentation](https://docs.microsoft.com/azure/avere-vfxt/).  You need to plan your deployment, fulfill prerequisites, and finally deploy the cluster.
 
@@ -26,11 +24,9 @@ Most customers can resolve installation and configuration issues by following th
 2. If a step wasn't missed in the planning process, then a step may have been missed in the [preparation process](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-prereqs).
 3. If you're sure that you've commpleted both planning and preparation, then you should have a smooth deployment.  You may move onto the [actual creation](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy) of the cluster.
 
-
 ## **Recommended Documents**
 
 * [Avere vFXT for Azure Documentation](https://docs.microsoft.com/azure/avere-vfxt/)
 * [Plan your Avere vFXT system](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy-plan)
 * [Prepare to create the Avere vFXT](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-prereqs)
 * [Deploy the vFXT cluster](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy)
-
