@@ -13,12 +13,11 @@
     cloudEnvironments="public, mooncake"
     articleId="bfa4e56c-3fbc-461d-a7d5-1e485b42932b"
 />
-
 # Azure HDInsight: Virtual Network
 
 ## Common HDInsight VNET issues
 
-**I have created my cluster, but forgot to add it to my VNet**
+**I have created my cluster but forgot to add it to my VNet**
 
 Unfortunately, there is no way to add a VNET to an existing cluster. You must [delete the existing cluster, then re-deploy a new cluster and add it to the VNET](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#existingvnet).
 
