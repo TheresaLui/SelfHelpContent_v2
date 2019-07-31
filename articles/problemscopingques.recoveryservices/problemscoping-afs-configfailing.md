@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for issue configuring Azure File share backup"
          description="Scoping questions for issue configuring Azure File share backup"
          authors="srinathvasireddy"
-	       ms.author="srinathv"
+	       ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612212"
          productPesIds="15207"
@@ -49,7 +49,8 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the File Share whose backup configuration is failing?",
             "watermarkText": "Enter file share name(s) comma separated",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -57,7 +58,8 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed configuration job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -91,7 +93,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",
@@ -99,14 +102,16 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that you are seeing:",
             "watermarkText": "Copy and paste error message text here",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
