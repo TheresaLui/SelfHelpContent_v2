@@ -37,3 +37,4 @@ Most client connectivity issues will be resolved by following these steps.
 * [Troubleshooting connectivity problems between Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-connectivity-problem-between-vms)
 * [Mount the Avere vFXT cluster](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-mount-clients)
 * [Access the vFXT cluster](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-cluster-gui)
+
