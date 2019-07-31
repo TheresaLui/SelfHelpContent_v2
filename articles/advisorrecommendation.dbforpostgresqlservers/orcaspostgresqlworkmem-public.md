@@ -13,7 +13,7 @@
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "",
+  "recommendationTypeId": "e2fa79e2-b3e0-11e9-a2a3-2a2ae2dbcce4",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by allocating more work_mem for the sort or hash operations thus avoiding unnecessary disk read and write.",
   "actions": [
     {
-      "actionId": "",
+      "actionId": "d32bb2b0-b3e0-11e9-a2a3-2a2ae2dbcce4",
       "description": "Tuning Suggestion on Server Parameter: work_mem",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
