@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for System State restore failure"
          description="Scoping questions for System State restore failure"
-         authors="srinathv"
+         authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32594870"
@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "System State restore failing",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "System State restore failing",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -32,7 +37,8 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",
@@ -80,7 +86,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "issue_type",
@@ -102,7 +109,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -140,7 +148,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
