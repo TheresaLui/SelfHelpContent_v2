@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "MARS backup completes with warnings",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "MARS backup completes with warnings",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -24,7 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Basic_troubleshooting_multiselect",
