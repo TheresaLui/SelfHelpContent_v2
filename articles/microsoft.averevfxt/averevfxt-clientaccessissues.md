@@ -16,6 +16,8 @@
     cloudEnvironments="public"
 />
 
+# Avere vFXT Client Access Issues
+
 Most client connectivity issues will be resolved by following these steps.
 
 ## **Recommended Steps**

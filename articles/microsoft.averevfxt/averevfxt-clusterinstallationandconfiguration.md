@@ -16,6 +16,8 @@
     cloudEnvironments="public"
 />
 
+# Avere vFXT Cluster Installation and Configuration Issues
+
 Most customers can resolve installation and configuration issues by following the [Avere vFXT for Azure Documentation](https://docs.microsoft.com/azure/avere-vfxt/).  You need to plan your deployment, fulfill prerequisites, and finally deploy the cluster.
 
 ## **Recommended Steps**
