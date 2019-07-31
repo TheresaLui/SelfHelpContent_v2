@@ -22,7 +22,7 @@ This library tracks the following out-of-the-box:
 - Incoming and outgoing HTTP requests
 - Important system metrics such as CPU usage, memory usage, and requests/sec
 - Unhandled exceptions
-- Events from many popular third-party libraries ([Github: see supported third-party libraries](https://github.com/microsoft/applicationinsights-node.js#automatic-third-party-instrumentation))
+- Events from many popular third-party libraries ([GitHub: see supported third-party libraries](https://github.com/microsoft/applicationinsights-node.js#automatic-third-party-instrumentation))
 
 ## Getting Started
 
@@ -44,16 +44,16 @@ This library tracks the following out-of-the-box:
 5. Configure the local SDK by calling `appInsights.setup('_your_ikey_');`, using the ikey you grabbed in step 2. Or put this ikey in the
    **APPINSIGHTS_INSTRUMENTATIONKEY** environment variable and call **appInsights.setup()** without parameters.
 6. Finally, start automatically collecting and sending data by calling `appInsights.start();`.
-7. For advanced configuration see our [Github Readme](https://github.com/microsoft/applicationinsights-node.js#configuration)
+7. For advanced configuration see our [GitHub Readme](https://github.com/microsoft/applicationinsights-node.js#configuration)
 
-## Troubleshooting
+## **Recommended Steps**
 
 1. Update to the latest version of the Node.js SDK. SDK version should be greater than 1.1.0, which is when SDK was changed to use async_hooks API for correlation.
 2. If issue relates to app insights crashing the app or showing up on the top of your callstack, see **Application Insights is causing my application to crash** below. Be sure issue is not reproducible if app insights is not present in your application
 3. For issues where certain telemetry is not being automatically collected, see **Telemetry is not being collected** below
 3. If the app is crashing because of application insights - try disabling automatic dependency correlation, `.setAutoDependencyCorrelation(false)`
 4. If the app is hanging when it should terminate, disable disk retry caching, `.setDiskRetryCaching(false)` or call `appInsights.flush()` when you expect
-5. See rest of FAQs below and the list of open [Github issues](https://github.com/microsoft/applicationinsights-node.js/issues)
+5. See rest of FAQs below and the list of open [GitHub issues](https://github.com/microsoft/applicationinsights-node.js/issues)
 6. Create a ticket or file a [bug report]. Please provide which version of the SDK being used, which version of node.js being used (`node --version`), a `package.json` file, a callstack, and a code snippet to reproduce, if possible.
 
 [How can I preprocess or filter my telemetry before it gets sent to Azure?](https://github.com/microsoft/applicationinsights-node.js#preprocess-data-with-telemetry-processors)<br>
@@ -85,7 +85,7 @@ appInsights.flush();
 
 **Application Insights is causing my application to crash**<br>
 
-Please note that when your app crashes, we "rethrow" your error so that we can send telemetry about it and still let your app crash as usual. This causes the SDK to show on the top of your callstack when debugging, even if the crash originated elsewhere in your app. However, we remove ourselves from your callstack in the resulting telemetry.
+Please note that when your app crashes, we "rethrow" your error so that we can send telemetry about it and still let your app crash as usual. This causes the SDK to show on the top of your call stack when debugging, even if the crash originated elsewhere in your app. However, we remove ourselves from your call stack in the resulting telemetry.
 
 If removing app insights from your application resolves the crashes, you can try the following:
 
@@ -104,3 +104,10 @@ Make sure that app insights is the first thing that is required into the applica
 ```
 var appInsights = require('applicationinsights'); // this should be the first line of code run in your application, if possible
 ```
+
+## **Recommended Documents**
+[How can I preprocess or filter my telemetry before it gets sent to Azure?](https://github.com/microsoft/applicationinsights-node.js#preprocess-data-with-telemetry-processors)<br>
+[How do I enable Live Metrics Streaming?](https://github.com/microsoft/applicationinsights-node.js#live-metrics)<br>
+[How can I send my own custom telemetry?](https://github.com/microsoft/applicationinsights-node.js#track-custom-telemetry)<br>
+[How do I enable W3C compatible distributed tracing in my application?](https://github.com/microsoft/applicationinsights-node.js#distributed-tracing-modes)<br>
+[How can I send Node.js specific metrics about my application?](https://github.com/microsoft/applicationinsights-node.js#extended-metrics)<br>
