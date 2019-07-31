@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for Azure File Share backup management issue"
          description="Scoping questions for Azure File Share backup management issue"
          authors="srinathvasireddy"
-	       ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612213"
          productPesIds="15207"
@@ -49,7 +49,8 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the File Share which is facing management issue:",
             "watermarkText": "Enter file share name(s) comma separated",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "management_issue_type",
@@ -83,7 +84,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_code",
@@ -91,14 +93,16 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that you are seeing:",
             "watermarkText": "Copy and paste error message text here",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
