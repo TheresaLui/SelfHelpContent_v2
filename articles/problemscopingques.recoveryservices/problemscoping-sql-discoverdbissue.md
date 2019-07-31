@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for unable to discover DB"
          description="Scoping questions for unable to discover DB"
          authors="srinathvasireddy"
-	       ms.author="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632803"
          productPesIds="15207"
@@ -34,7 +34,7 @@
             "jTokenPath": "value",
             "textProperty": "name",
             "valueProperty": "id",
-            "textPropertyRegex": ".*"
+            "textPropertyRegex": ".*",
 	    "defaultDropdownOptions": {
                            "value": "dont_know_answer",
                            "text": "Other or none of the above"
