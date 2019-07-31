@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for unable to configure or disable DB backup"
          description="Scoping questions for unable to configure or disable DB backup"
          authors="srinathvasireddy"
-	 ms.author="srinathv"
+	       ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605793"
          productPesIds="15207"
@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "SQL database configuration failure",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL database configuration failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -101,14 +106,16 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
             "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
