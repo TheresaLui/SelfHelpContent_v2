@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "SQL database restore failure",
     "fileAttachmentHint": "",
+      "diagnosticCard": {
+        "title": "SQL database restore failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -30,6 +35,10 @@
         "textProperty": "name",
         "valueProperty": "id",
         "textPropertyRegex": ".*"
+	"defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
        },
             "required": false
         },
@@ -61,7 +70,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "restore_Type1",
@@ -83,7 +93,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -135,7 +146,8 @@
             "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
