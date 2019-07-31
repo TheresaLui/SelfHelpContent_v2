@@ -2,13 +2,13 @@
          pageTitle="Scoping questions for Azure File Share backup performance issue"
          description="Scoping questions for Azure File Share backup performance issue"
          authors="srinathvasireddy"
-	 ms.author="srinathv"
+	       ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612211"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-	 articleId="78d9d4fe-4e02-4f16-9e66-ab9529f5c0ae"
+	       articleId="78d9d4fe-4e02-4f16-9e66-ab9529f5c0ae"
 />
 # Questions for Azure File Share backup performance issue
 ---
@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure File Share backup performance issue",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure File Share backup performance diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "storage_account_name",
@@ -24,7 +29,7 @@
             "controlType": "dropdown",
             "displayLabel": "Which storage account(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the storage account(s)",
-	    "dynamicDropdownOptions": {
+	          "dynamicDropdownOptions": {
             "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Storage/storageAccounts' or resourceType eq 'Microsoft.ClassicStorage/storageAccounts'",
             "jTokenPath": "value",
             "textProperty": "name",
@@ -36,6 +41,7 @@
             }
           },
             "required": false
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "fileshare_Name",
