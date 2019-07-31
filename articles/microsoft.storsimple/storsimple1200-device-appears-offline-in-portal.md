@@ -24,7 +24,7 @@
 
 	* In the local web UI of the virtual array, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.
 	
-2. The virual array may be turned off or paused on the hypervisor:
+2. The virtual array may be turned off or paused on the hypervisor:
 
 	* Your virtual array could have rebooted due to a Windows update. Wait a few minutes and try to reconnect.<br>
 	* In Hyper-V, your virtual array will be paused automatically when the volume that stores snapshots or virtual hard disks, runs out of available storage. The state of the virtual array is listed as *paused-critical* in Hyper-V Manager. Resolve this by creating additional space on the volume. <br>
