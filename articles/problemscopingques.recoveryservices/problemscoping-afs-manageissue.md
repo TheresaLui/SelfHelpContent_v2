@@ -8,7 +8,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-	 articleId="04e81c26-e724-4026-b744-0edbf9ae5eeb"
+	       articleId="04e81c26-e724-4026-b744-0edbf9ae5eeb"
 />
 # Questions for Azure File Share backup management issue
 ---
@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure File share backup management issue",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure File share backup management issue",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "storage_account_name",
@@ -35,7 +40,8 @@
                 "text": "Other, don't know or not applicable"
             }
           },
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "fileshare_Name",
@@ -43,7 +49,8 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the File Share which is facing management issue:",
             "watermarkText": "Enter file share name(s) comma separated",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "management_issue_type",
@@ -77,7 +84,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_code",
@@ -85,14 +93,16 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that you are seeing:",
             "watermarkText": "Copy and paste error message text here",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
