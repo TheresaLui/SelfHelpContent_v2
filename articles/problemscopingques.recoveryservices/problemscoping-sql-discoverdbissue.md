@@ -35,6 +35,10 @@
             "textProperty": "name",
             "valueProperty": "id",
             "textPropertyRegex": ".*"
+	    "defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
 	    },
             "required": false
         },
