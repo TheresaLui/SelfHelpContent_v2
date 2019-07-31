@@ -17,10 +17,10 @@
     "subscriptionRequired": true,
     "title": "SQL database restore failure",
     "fileAttachmentHint": "",
-      "diagnosticCard": {
-        "title": "SQL database restore failure",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
+    "diagnosticCard": {
+       "title": "SQL database restore failure",
+       "description": "These diagnostics will check for errors.",
+       "insightNotAvailableText": "We didn't find any problems"
     },
     "formElements": [
         {
