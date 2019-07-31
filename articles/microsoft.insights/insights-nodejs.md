@@ -23,7 +23,7 @@ This library tracks the following out-of-the-box:
 - Unhandled exceptions
 - Events from many popular third-party libraries ([Github: see supported third-party libraries](https://github.com/microsoft/applicationinsights-node.js#automatic-third-party-instrumentation))
 
-# Getting Started
+## Getting Started
 
 1. Create an Application Insights resource in Azure by following [these instructions](https://docs.microsoft.com/azure/application-insights/app-insights-nodejs).
 2. Grab the _Instrumentation Key_ (aka "ikey") from the resource you created in step 1. Later, you'll either add it to your app's environment variables or use it directly in your scripts.
