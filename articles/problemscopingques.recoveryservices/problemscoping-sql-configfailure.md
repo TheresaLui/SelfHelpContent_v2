@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for unable to configure or disable DB backup"
          description="Scoping questions for unable to configure or disable DB backup"
          authors="srinathvasireddy"
-	       ms.author="srinathvasireddy"
+	 ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605793"
          productPesIds="15207"
@@ -35,6 +35,10 @@
             "textProperty": "name",
             "valueProperty": "id",
             "textPropertyRegex": ".*"
+	     "defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
 	    },
             "required": false
         },
