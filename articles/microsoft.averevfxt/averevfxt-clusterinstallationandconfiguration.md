@@ -29,4 +29,4 @@ Most customers can resolve installation and configuration issues by following th
 * [Avere vFXT for Azure Documentation](https://docs.microsoft.com/azure/avere-vfxt/)
 * [Plan your Avere vFXT system](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy-plan)
 * [Prepare to create the Avere vFXT](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-prereqs)
-* [Deploy the vFXT cluster](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy)
+* [Deploy the vFXT cluster](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy)
