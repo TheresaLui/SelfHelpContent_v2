@@ -38,7 +38,7 @@
 
 ### **Recommended Steps** 
 
-* This error most commonly occurs when the VNET selected to create a DMS instance is blocking connectivity to the metrics and health monitoring end point https://warmpath.msftcloudes.com and/or blocking the following communication ports: 443, 53, 9354, 
+* This error most commonly occurs when the VNET selected to create a DMS instance is blocking connectivity to the metrics and health monitoring end point https://prod.warmpath.msftcloudes.com and/or blocking the following communication ports: 443, 53, 9354, 
 445, 12000
 
 ### **Recommended Documents**
