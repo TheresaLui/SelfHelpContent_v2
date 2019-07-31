@@ -16,6 +16,11 @@
     "resourceRequired": true,
     "title": "SQL database backup failure",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL database backup failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
         "id": "machine_name",
@@ -28,7 +33,11 @@
         "jTokenPath": "value",
         "textProperty": "name",
         "valueProperty": "id",
-        "textPropertyRegex": ".*"
+        "textPropertyRegex": ".*",
+        "defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
        },
      "required": false
      },
@@ -132,7 +141,8 @@
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
