@@ -3,7 +3,7 @@
     description="Increase the server work_mem to avoid excessive disk spilling"
     authors="manishku"
     ms.author="kummanish"
-    articleId=""
+    articleId="2613de4e-b3d7-11e9-a2a3-2a2ae2dbcce4"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
@@ -38,7 +38,7 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://www.postgresql.org/docs/current/runtime-config-resource.html",
+  "learnMoreLink": "https://aka.ms/runtimeconfiguration",
   "description": "Increase the work_mem to avoid excessive disk spilling from sort and hash",
   "longDescription": "Our internal telemetry shows that the configuration work_mem is too small for your PostgreSQL server which is resulting a lot of disk spilling and degraded query performance. To improve this, we recommend to increase the work_mem limit for the server which will help to reduce the scenarios when the sort or hash happens on disk, thereby improving the overall query performance.",
   "potentialBenefits": "Improve query performance by allocating more work_mem for the sort or hash operations thus avoiding unnecessary disk read and write.",
@@ -66,6 +66,6 @@
     }
   },
   "displayLabel": "Increase server parameter: work_mem",
-  "additionalColumns": [],
+  "additionalColumns": []
 }
 ---
