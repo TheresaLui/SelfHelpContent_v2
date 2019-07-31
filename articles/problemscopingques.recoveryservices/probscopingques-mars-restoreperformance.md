@@ -16,6 +16,11 @@
     "resourceRequired": true,
     "title": "MARS restore performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "MARS restore performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -23,7 +28,8 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "restore_type",
@@ -45,7 +51,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "recoverymode_type",
@@ -67,7 +74,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "job_time",
@@ -98,7 +106,8 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"
