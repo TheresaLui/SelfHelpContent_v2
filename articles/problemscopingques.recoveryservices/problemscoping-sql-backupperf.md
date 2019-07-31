@@ -1,8 +1,8 @@
 <properties
          pageTitle="Scoping questions for SQL database backup performance"
          description="Scoping questions for SQL database backup performance"
-         authors="srinathv"
-         ms.author="srinathv"
+         authors="srinathvasireddy"
+         ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605792"
          productPesIds="15207"
@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "SQL database backup performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL database backup performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -92,7 +97,8 @@
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
