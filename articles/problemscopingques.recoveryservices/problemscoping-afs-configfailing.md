@@ -40,7 +40,7 @@
                 "text": "Other, don't know or not applicable"
             }
           },
-            "required": false
+            "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
