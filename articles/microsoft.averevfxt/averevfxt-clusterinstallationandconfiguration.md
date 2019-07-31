@@ -20,9 +20,9 @@ Most customers can resolve installation and configuration issues by following th
 
 ## **Recommended Steps**
 
-1. Planning your deployment is important.  If you haven't already, please spend time reviewing our document regarding [planning for your deployment](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy-plan).
-2. If a step wasn't missed in the planning process, then a step may have been missed in the [preparation process](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-prereqs).
-3. If you're sure that you've completed both planning and preparation, then you should have a smooth deployment.  You may move onto the [actual creation](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy) of the cluster.
+1. Planning your deployment is important. If you haven't already, please spend time reviewing our document regarding [planning for your deployment](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy-plan).
+2. If a step wasn't missed in the planning process, then a step may have been missed in the [preparation process](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-prereqs)
+3. If you're sure that you've completed both planning and preparation, then you should have a smooth deployment. You may move onto the [actual creation](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy) of the cluster.
 
 ## **Recommended Documents**
 
