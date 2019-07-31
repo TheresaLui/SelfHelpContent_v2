@@ -20,11 +20,14 @@
 
 <!--issueDescription-->
 
-Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->** has one or more client applications using version(s) of 
-the **<!--$SDKType-->SDKType<!--/$SDKType-->** SDK older than **<!--$SDKMinVersion-->SDKMinVersion<!--/$SDKMinVersion-->**
+Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->** has one or more client applications using version(s) of the **<!--$SDKType-->SDKType<!--/$SDKType-->** SDK older than **<!--$MinSupportedSDKVersion-->MinSupportedSDKVersion<!--/$MinSupportedSDKVersion-->**
 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 We highly recommend upgrading to the latest version of the SDK for performance and reliability improvements along with the latest bug fixes.
+
+## **Recommended Documents**
+
+* [Latest SDK Version](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-<!--$SDKLinkUrlSuffix-->SDKLinkUrlSuffix<!--/$SDKLinkUrlSuffix-->) 
