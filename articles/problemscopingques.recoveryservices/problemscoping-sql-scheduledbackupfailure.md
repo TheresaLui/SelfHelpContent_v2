@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "SQL database scheduled backup failure",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL database scheduled backup failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
         "id": "machine_name",
@@ -130,7 +135,8 @@
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
