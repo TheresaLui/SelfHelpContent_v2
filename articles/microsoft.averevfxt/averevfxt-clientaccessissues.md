@@ -2,6 +2,8 @@
     pageTitle="Avere vFXT Client Access Issues"
     description="Resolve issues with Avere vFXT client access."
     infoBubbleText="Avere vFXT Client Access Issues"
+    service="microsoft.averevfxt"
+    resource=""
     authors="jbut"
     ms.author="jebutl"
     displayOrder="1"
