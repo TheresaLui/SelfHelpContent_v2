@@ -18,6 +18,7 @@
 Add this SDK to your Node.js services to include deep info about Node.js processes and their external dependencies such as database and cache services. You can use this SDK for your Node.js services hosted anywhere: your datacenter, Azure VMs and Azure Web Apps, and even other public clouds.
 
 This library tracks the following out-of-the-box:
+
 - Incoming and outgoing HTTP requests
 - Important system metrics such as CPU usage, memory usage, and requests/sec
 - Unhandled exceptions
@@ -28,15 +29,18 @@ This library tracks the following out-of-the-box:
 1. Create an Application Insights resource in Azure by following [these instructions](https://docs.microsoft.com/azure/application-insights/app-insights-nodejs).
 2. Grab the _Instrumentation Key_ (aka "ikey") from the resource you created in step 1. Later, you'll either add it to your app's environment variables or use it directly in your scripts.
 3. Add the Application Insights Node.js SDK to your app's dependencies and package.json:
+
      ```
      npm install --save applicationinsights
      ```
      *Note:* If you're using TypeScript, do not install a separate "typings" package.
      This NPM package contains built-in typings.
+
 4. As early as possible in your app's code, load the Application Insights package:
      ```
      let appInsights = require('applicationinsights');
      ```
+
 5. Configure the local SDK by calling `appInsights.setup('_your_ikey_');`, using the ikey you grabbed in step 2. Or put this ikey in the
    **APPINSIGHTS_INSTRUMENTATIONKEY** environment variable and call **appInsights.setup()** without parameters.
 6. Finally, start automatically collecting and sending data by calling `appInsights.start();`.
@@ -60,13 +64,16 @@ This library tracks the following out-of-the-box:
 
 **I am not seeing any telemetry show up in my Application Insights instance**<br>
 If you are not seeing your telemetry in your instance of Application Insights in the Portal:
+
 1. Wait for 10-20 minutes to make sure that the lack of data is not due to ingestion delay.
 2. Try flushing your telemetry with a callback provided to see if the telemetry was accepted by the ingestion server
+
      ```
      appInsights.flush({ callback: (res) => {
           console.log(res); // ItemsAccepted should equal ItemsReceived
      }});
      ```
+
 3. File a ticket or [bug report]
 
 **I am missing telemetry when my app terminates**<br>
@@ -80,7 +87,8 @@ appInsights.flush();
 
 Please note that when your app crashes, we "rethrow" your error so that we can send telemetry about it and still let your app crash as usual. This causes the SDK to show on the top of your callstack when debugging, even if the crash originated elsewhere in your app. However, we remove ourselves from your callstack in the resulting telemetry.
 
-If removing app insights from your application resolves the crashes, you can try the following
+If removing app insights from your application resolves the crashes, you can try the following:
+
  1. Upgrade to the latest version of the SDK. Version **1.1.0** fixed a majority of the stability issues with the SDK. Any version prior to this will have stability issues related to dependency correlation.
  2. Disable automatic dependency correlation via **.setAutoDependencyCorrelation(false)**. This will turn off dependency correlation between your applications incoming/outgoing requests.
  3. File a ticket or [bug report]
@@ -92,6 +100,7 @@ A list of the 3rd party libraries & versions that we support native tracking of 
 **Telemetry is not being collected**<br>
 
 Make sure that app insights is the first thing that is required into the application. If anything else is required first, e.g. **https** module, or some 3rd party library, then we will not be able to collect telemetry on it.
+
 ```
 var appInsights = require('applicationinsights'); // this should be the first line of code run in your application, if possible
 ```
