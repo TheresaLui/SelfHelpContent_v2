@@ -1,11 +1,12 @@
 <properties
-    description="Support topic description for Virtual machine running windows"
-    authors="akjoshi"
-    ms.author="akankshajsh"
-    productPesIds="14749"
-    selfHelpType="supportTopicDescription"
-    articleId="compute-vm-windows-supportopicdescription"
-    cloudEnvironments="public"
+	pageTitle="Support topic description for VM running Windows"
+	description="Support topic description for Virtual machine running windows"
+	authors="akjoshi"
+	ms.author="akankshajsh"
+	productPesIds="14749"
+	selfHelpType="supportTopicDescription"
+	articleId="compute-vm-windows-supportopicdescription"
+	cloudEnvironments="public"
 />
 
 # Support topic description for Virtual machine running windows
