@@ -8,9 +8,10 @@
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
+	subscriptionRequired="true"
 	articleId="problem-scopingques-sql-backuprestore-georestore-db"
 />
-# Error When Connecting to my Database
+# Error when trying to geo-restore
 ---
 {
     "formElements": [
@@ -20,17 +21,15 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "target_server",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the target server?",
-            "infoBalloonText": "Enter wthe target server name , where you want to do the geo-restore.",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "infoBalloonText": "Enter the target server name , where you want to geo-restore.",
+            "required": false
         },
         {
             "id": "error_dropdown",
@@ -50,7 +49,7 @@
                 },
                 {
                     "value": "Premium",
-                    "text": "Premium"
+					"text": "Premium"
                 },
                 {
                     "value": "Vcore-GeneralPurpose",
@@ -63,10 +62,13 @@
                 {
                     "value": "Hyperscale",
                     "text": "Hyperscale"
-                }    
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "Dont know answer"
+                }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",
