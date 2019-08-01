@@ -27,7 +27,3 @@ Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!
 ## **Recommended Steps**
 
 We highly recommend upgrading to the latest version of the SDK for performance and reliability improvements along with the latest bug fixes.
-
-## **Recommended Documents**
-
-* [Latest SDK Version](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-<!--$SDKLinkUrlSuffix-->SDKLinkUrlSuffix<!--/$SDKLinkUrlSuffix-->) 
