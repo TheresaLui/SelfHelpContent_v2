@@ -8,12 +8,12 @@
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	subscriptionRequired="true"
 	articleId="problem-scopingques-sql-backuprestore-georestore-db"
 />
 # Error when trying to geo-restore
 ---
 {
+	"subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_start_time",
