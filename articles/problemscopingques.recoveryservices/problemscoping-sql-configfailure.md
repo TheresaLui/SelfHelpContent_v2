@@ -38,7 +38,7 @@
 	     "defaultDropdownOptions": {
                            "value": "dont_know_answer",
                            "text": "Other or none of the above"
-                     }
+                     },
 	    },
             "required": false
         },
@@ -118,8 +118,7 @@
             "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",
