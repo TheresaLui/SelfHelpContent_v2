@@ -1,14 +1,14 @@
 <properties
     pageTitle="Security"
     description="Security"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640098"
-    productPesIds="16221"
+    supportTopicIds="32640029"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-security-vnet_endpoint"
+    articleId="problemscopingques-pg-security-vnetendpoint"
 />
 # Security - VNET service endpoints
 ---

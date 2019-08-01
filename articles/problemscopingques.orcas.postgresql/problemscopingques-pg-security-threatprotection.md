@@ -1,14 +1,14 @@
 <properties
     pageTitle="Security"
     description="Security"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640043"
-    productPesIds="16221"
+    supportTopicIds="32639965"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-security-threat-protection"
+    articleId="problemscopingques-pg-security-threatprotection"
 />
 # Security - Advanced Threat Protection
 ---

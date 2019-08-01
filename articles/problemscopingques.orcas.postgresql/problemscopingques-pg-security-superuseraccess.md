@@ -1,14 +1,14 @@
 <properties
     pageTitle="Security"
     description="Security"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640062"
-    productPesIds="16221"
+    supportTopicIds="32639989"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-security-superuser_access"
+    articleId="problemscopingques-pg-security-superuseraccess"
 />
 # Security - I need superuser access
 ---
