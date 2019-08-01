@@ -23,7 +23,8 @@
 * [Overview of virtual machine extensions and features for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)<br>
 * [Understanding how to troubleshoot extension failures](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot#troubleshooting-extension-failures)<br>
 * [Understanding Azure virtual machine extensions and features](https://docs.microsoft.com/azure/virtual-machines/extensions/overview)<br>
-* [Understanding Azure Virtual Machine Agent for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows)
+* [Understanding Azure Virtual Machine Agent for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows)<br>
+* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
 
 **Additional Information for specific extensions**<br>
 

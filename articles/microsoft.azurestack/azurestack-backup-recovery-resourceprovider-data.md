@@ -16,9 +16,14 @@
 
 # Azure Stack resource provider data recovery
 
-## **Recommended Documents**
+## **Recommended Steps**
+
+This scenario addresses recovering your entire installation in the event of a failure of the equipment and the redeployment of the private cloud.
 
 * [Recover from catastrophic data loss](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-recover-data)
+
+## **Recommended Documents**
+
 * [Infrastructure Backup Service best practices](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-best-practices)
 * [Enable Backup for Azure Stack from the administration portal](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-enable-backup-console)
 * [Back up Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-back-up-azure-stack)

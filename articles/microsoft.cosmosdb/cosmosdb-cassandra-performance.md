@@ -1,16 +1,18 @@
 <properties
-	pageTitle="Azure Cosmos DB Cassandra API feature support"
-	description="Azure Cosmos DB Cassandra API feature support"
+	pageTitle="Azure Cosmos DB Cassandra API performance"
+	description="Troubleshoot Azure Cosmos DB Cassandra API performance issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636817"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-cassandra-performance"
+	displayOrder="145"
+	category="Cassandra"
 />
 
 # Apache Cassandra features Supported by Azure Cosmos DB Cassandra API
