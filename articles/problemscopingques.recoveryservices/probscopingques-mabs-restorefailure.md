@@ -112,8 +112,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "data_source_type",
@@ -156,8 +155,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -191,8 +189,7 @@
             "visibility": "issue_Type == Restore from cloud || issue_Type == Restore from disk",
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",
