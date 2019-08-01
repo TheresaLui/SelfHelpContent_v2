@@ -1,14 +1,14 @@
 <properties
     pageTitle="Server Parameters"
     description="Server Parameters"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640092"
-    productPesIds="16221"
+    supportTopicIds="32640021"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-server-parameter_notlisted"
+    articleId="problemscopingques-pg-server-parametersnotlisted"
 />
 # Server Parameters - Server parameter not listed
 ---

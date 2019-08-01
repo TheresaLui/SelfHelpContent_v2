@@ -1,14 +1,14 @@
 <properties
     pageTitle="Server Parameters"
     description="Server Parameters"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640070"
-    productPesIds="16221"
+    supportTopicIds="32639997"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-server-modify_parameters"
+    articleId="problemscopingques-pg-server-modifyparameters"
 />
 # Server Parameters - Modify server parameters
 ---
