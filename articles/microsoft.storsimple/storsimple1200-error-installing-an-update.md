@@ -20,9 +20,9 @@
 
 ## **Recommended Steps**
 
-[Run diagnostics from the Web UI to test network setting](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#to-run-the-diagnostic-tests)<br>
+* [Run diagnostics from the Web UI to test network setting](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#to-run-the-diagnostic-tests)<br>
 
 
 ## **Recommended Documents**
 
-[Install latest update on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-install-update-11)
+* [Install latest update on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-install-update-11)
