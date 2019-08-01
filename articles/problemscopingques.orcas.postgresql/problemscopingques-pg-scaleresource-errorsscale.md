@@ -1,14 +1,14 @@
 <properties
     pageTitle="Scaling a resource"
     description="Scaling a resource"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640054"
-    productPesIds="16221"
+    supportTopicIds="32639978"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-scaleresource-errors"
+    articleId="problemscopingques-pg-scaleresource-errorsscale"
 />
 # Scaling a resource - Errors scaling a resource
 ---

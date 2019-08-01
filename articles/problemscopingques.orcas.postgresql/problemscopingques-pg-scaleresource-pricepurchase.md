@@ -1,14 +1,14 @@
 <properties
     pageTitle="Scaling a resource"
     description="Scaling a resource"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640085"
-    productPesIds="16221"
+    supportTopicIds="32640013"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-scaleresource-price_purchase"
+    articleId="problemscopingques-pg-scaleresource-pricepurchase"
 />
 # Scaling a resource - Pricing tiers and purchasing model (vCores, storage, etc.)
 ---
