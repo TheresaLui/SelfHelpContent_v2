@@ -140,7 +140,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
