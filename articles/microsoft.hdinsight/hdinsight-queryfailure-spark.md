@@ -53,9 +53,7 @@
 --num-executors sets the number of executors
 --executor-cores sets the number of cores for each executor
 --executor-memory controls the memory size (heap size) of each executor on Apache Hadoop YARN, and you'll need to leave some memory for execution overhead
-* Following command is an example of how to change the configuration parameters for a batch application that is submitted using spark-submit:
-
-spark-submit --class --executor-memory 3072M --executor-cores 4 –-num-executors 10 
+* Following command is an example of how to change the configuration parameters for a batch application that is submitted using spark-submit: `spark-submit --class --executor-memory 3072M --executor-cores 4 –-num-executors 10`
 
 ## **Recommended Documents**
 
