@@ -1,14 +1,14 @@
 <properties
     pageTitle="Portal, Client Tools and APIs"
     description="Portal, Client Tools and APIs"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640093"
-    productPesIds="16221"
+    supportTopicIds="32640023"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-toolsapis-setup_alert"
+    articleId="problemscopingques-pg-portalclient-setupalert"
 />
 # Portal, Client Tools and APIs - Setting up Monitoring and Alerts
 ---

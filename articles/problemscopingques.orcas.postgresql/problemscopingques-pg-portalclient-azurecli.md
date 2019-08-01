@@ -1,14 +1,14 @@
 <properties
     pageTitle="Portal, Client Tools and APIs"
     description="Portal, Client Tools and APIs"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640047"
-    productPesIds="16221"
+    supportTopicIds="32639969"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-toolsapis-azure_cli"
+    articleId="problemscopingques-pg-portalclient-azurecli"
 />
 # Portal, Client Tools and APIs - Azure CLI
 ---
