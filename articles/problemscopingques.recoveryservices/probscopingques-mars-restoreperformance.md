@@ -52,8 +52,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "recoverymode_type",
@@ -107,8 +106,7 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
