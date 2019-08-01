@@ -1,14 +1,14 @@
 <properties
     pageTitle="Monitoring and Alerting"
     description="Monitoring and Alerting"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640066"
-    productPesIds="16221"
+    supportTopicIds="32640022"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-monitoring-issues_settingup"
+    articleId="problemscopingques-pg-mornitoring-issuessettingup"
 />
 # Monitoring and Alerting - Issues with setting up monitors and alerts
 ---

@@ -1,14 +1,14 @@
 <properties
     pageTitle="Monitoring and Alerting"
     description="Monitoring and Alerting"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640063"
-    productPesIds="16221"
+    supportTopicIds="32639994"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-monitoring-issues_metricshown"
+    articleId="problemscopingques-pg-mornitoring-issuesmetricshown"
 />
 # Monitoring and Alerting - Issues with metrics shown in the portal
 ---
