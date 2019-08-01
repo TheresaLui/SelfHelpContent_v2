@@ -98,8 +98,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
 	},
         {
             "id": "basic_troubleshooting_multiselect",
@@ -157,8 +156,7 @@
             "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
