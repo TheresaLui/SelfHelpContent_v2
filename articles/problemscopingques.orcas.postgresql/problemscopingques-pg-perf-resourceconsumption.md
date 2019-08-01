@@ -1,14 +1,14 @@
 <properties
     pageTitle="Database Performance"
     description="Database Performance"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640096"
-    productPesIds="16221"
+    supportTopicIds="32640026"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-perf-resource_consumption"
+    articleId="problemscopingques-pg-perf-resourceconsumption"
 />
 # Performance and Query Execution - Unexpected increase in resource consumption (CPU, Memory, I/O)
 ---

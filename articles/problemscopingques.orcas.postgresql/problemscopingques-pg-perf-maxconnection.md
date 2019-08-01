@@ -1,14 +1,14 @@
 <properties
     pageTitle="Database Performance"
     description="Database Performance"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640091"
-    productPesIds="16221"
+    supportTopicIds="32640019"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-perf-max_connection"
+    articleId="problemscopingques-pg-perf-maxconnection"
 />
 # Performance and Query Execution - Server hit maximum connection limit
 ---

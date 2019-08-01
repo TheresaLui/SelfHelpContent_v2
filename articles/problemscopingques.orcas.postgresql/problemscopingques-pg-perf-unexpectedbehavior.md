@@ -1,14 +1,14 @@
 <properties
     pageTitle="Database Performance"
     description="Database Performance"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640095"
-    productPesIds="16221"
+    supportTopicIds="32640026"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-perf-unexpected_behavior"
+    articleId="problemscopingques-pg-perf-unexpectedbehavior"
 />
 # Performance and Query Execution - Unexpected behavior, errors or exceptions executing a query
 ---
