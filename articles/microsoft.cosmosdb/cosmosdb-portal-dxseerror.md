@@ -21,16 +21,16 @@ Before further troubleshooting, clear your browser cache and reload the page. Th
 
 Load the Data Explorer in Incognito or private browsing mode.  If the issue does not occur there, then clearing your cache in your original browsing session and reloading will resolve the issue. If the issue continues to occur in Incognito mode, please contact us for support. 
 
-**Unable to view data in Data Explorer** 
+**Unable to view data, stored procedures, UDFs, or triggers in Data Explorer** 
 
-If you are not able to view your data - databases, containers, and/or items (documents) from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account. 
+If you are not able to view your data - databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account. 
 
 If VNET is enabled, navigate to the "Firewall and virtual networks" pane and ensure:
 
 1. The setting "Allow access from Azure Portal" is enabled.
 1. If you are accessing the Portal from outside the VNET and want to view data, you will need to add your current IP Address to the Firewall. If you are within the VNET, only step 1 is required. 
 
-If you have followed these steps and receive a 403 "Unable to proceed with the request. Please check the authorization claims to ensure the required permissions to process the request" error, please contact us for support and provide the ActivityId. 
+If you have followed these steps and receive a 403 "Unable to proceed with the request. Please check the authorization claims to ensure the required permissions to process the request" error, please contact us for support and provide the ActivityId of the message. The ActivityId can be found in the yellow notification bar at the bottom of the Data Explorer screen. 
 
 If you do not have permission to view or change VNET/Firewall settings for your account, contact your Cosmos account owner to enable the above. 
 
