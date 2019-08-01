@@ -8,11 +8,11 @@
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="88380ce6-b40c-11e9-a2a3-2a2ae2dbcce4"
+	articleId="problem-scopingques-sql-backuprestore-georestore-db"
 />
 # Error When Connecting to my Database
 ---
-
+{
     "formElements": [
         {
             "id": "problem_start_time",
