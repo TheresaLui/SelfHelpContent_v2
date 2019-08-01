@@ -44,7 +44,7 @@
 * [InvalidClassException](https://hdinsight.github.io/spark/spark-class-version-mismatch-InvalidClassException.html)
 * [NativeAzureFileSystem ... RequestBodyTooLarge](https://hdinsight.github.io/spark/spark-stream-driver-logs-error-requestbodytoolarge.html)
 * [Spark Application Fails with OutOfMemoryError](https://hdinsight.github.io/spark/spark-application-failure-with-outofmemoryerror.html)
-* Spark Application Fails with OutOfMemoryError on one node only: This could be due to skew. A frequent solution to skew is to use broadcast plans by changing the broadcast threshold value. The threshold can be configured using spark.sql.autoBroadcastJoinThreshold
+* Spark Application Fails with OutOfMemoryError on one node only: This could be due to skew. A frequent solution to skew is to use broadcast plans by changing the broadcast threshold value. The threshold can be configured using `spark.sql.autoBroadcastJoinThreshold`
 
 ### **Steps to check for resource allocation issues:**
 
