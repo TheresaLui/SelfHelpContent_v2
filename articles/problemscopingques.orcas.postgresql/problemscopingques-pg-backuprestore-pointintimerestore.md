@@ -1,14 +1,14 @@
 <properties
     pageTitle="Database Backup Restore"
     description="Database Backup Restore"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640083"
-    productPesIds="16221"
+    supportTopicIds="32640011"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-backuprestore-pointintime_restore"
+    articleId="problemscopingques-pg-backuprestore-pointintimerestore"
 />
 # Backup, Restore and Business Continuity - Point in Time Restore
 ---

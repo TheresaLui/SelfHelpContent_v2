@@ -1,14 +1,14 @@
 <properties
     pageTitle="Database Backup Restore"
     description="Database Backup Restore"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640046"
-    productPesIds="16221"
+    supportTopicIds="32639968"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-backuprestore-automated_backups"
+    articleId="problemscopingques-pg-backuprestore-automatedbackups"
 />
 # Backup, Restore and Business Continuity - Automated backups
 ---

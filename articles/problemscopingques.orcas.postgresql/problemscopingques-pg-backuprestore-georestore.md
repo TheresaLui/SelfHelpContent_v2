@@ -1,14 +1,14 @@
 <properties
     pageTitle="Database Backup Restore"
     description="Database Backup Restore"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640059"
-    productPesIds="16221"
+    supportTopicIds="32639984"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-backuprestore-georedundant_backups"
+    articleId="problemscopingques-pg-backuprestore-georestore"
 />
 # Backup, Restore and Business Continuity - Geo redundant backups
 ---

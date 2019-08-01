@@ -1,14 +1,14 @@
 <properties
     pageTitle="Database Backup Restore"
     description="Database Backup Restore"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640067"
-    productPesIds="16221"
+    supportTopicIds="32639993"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-backuprestore-longterm_backups"
+    articleId="problemscopingques-pg-backuprestore-longtermbackups"
 />
 # Backup, Restore and Business Continuity - Long Term Backup Retention
 ---

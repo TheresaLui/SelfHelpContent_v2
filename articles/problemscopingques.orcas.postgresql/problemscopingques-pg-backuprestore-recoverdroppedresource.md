@@ -1,14 +1,14 @@
 <properties
     pageTitle="Database Backup Restore"
     description="Database Backup Restore"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640087"
-    productPesIds="16221"
+    supportTopicIds="32640015"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-backuprestore-recover_droppedresource"
+    articleId="problemscopingques-pg-backuprestore-recoverdroppedresource"
 />
 # Backup, Restore and Business Continuity - Recover A Dropped Resource
 ---
