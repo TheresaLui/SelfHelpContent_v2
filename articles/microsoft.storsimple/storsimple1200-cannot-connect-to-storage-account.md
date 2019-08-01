@@ -20,5 +20,5 @@
 
 ## **Recommended Steps**
 
-1. [Verify if the access key to storage account has been regenerated. If so, synchronize the access key of your storage account](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-manage-storage-accounts#synchronizing-storage-account-credential-keys)<br>
-2. [Run diagnostics from the Web UI to test network setting](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#to-run-the-diagnostic-tests)
+* [Verify if the access key to storage account has been regenerated. If so, synchronize the access key of your storage account](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-manage-storage-accounts#synchronizing-storage-account-credential-keys).
+* [Run diagnostics from the Web UI to test network setting](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#to-run-the-diagnostic-tests)
