@@ -34,14 +34,14 @@ schemaVersion="1"
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Please provide size of the event you are passing to the subscriber",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_throughputevent",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide throughput of events you are passing to the subscriber",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
