@@ -1,14 +1,14 @@
 <properties
     pageTitle="Migrating to Azure"
     description="Migrating to Azure"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640064,32640069"
-    productPesIds="16221"
+    supportTopicIds="32639991,32639996"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-migrating-issues"
+    articleId="problemscopingques-pg-migrating-issuestools"
 />
 # Migrating to Azure - Issues with migration & Migration tools
 ---
