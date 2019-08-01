@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* There are limitations on the [number of cuncurrent jobs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) that can be run based on the SKU of IoT Hub
+* There are limitations on the [number of concurrent jobs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) that can be run based on the SKU of IoT Hub
 * There are also throttles on the [number of job operations and job device operations](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that can happen per second
 * You can only have one active device import/export job at a time
 

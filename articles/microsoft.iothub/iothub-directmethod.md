@@ -18,9 +18,13 @@
 
 ## **Recommended Steps**
 
-1. If you are not able to invoke a direct method, please ensure the device has an active connection to the IoT Hub
-2. Note that there are [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods
+* Error 404103 DeviceNotOnline indicates that the device isn't reachable during the timeout period<br>
+* Error 404001 DeviceNotFound indicates that the device isn't registered with IoT Hub<br>
+* Error 504101 GatewayTimeout indicates that the device is online, but didn't respond during the timeout period<br>
+* Error 401002 AuthenticationFailed indicates that either the authentication expire or the specified device isn't found.<br>
+* Review [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods
 
 ## **Recommended Documents**
 
+* [Configure direct method timeout (default is 30 seconds)](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-direct-methods#invoke-a-direct-method-from-a-back-end-app)<br>
 * [Understand and invoke direct methods from IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-direct-methods#handle-a-direct-method-on-a-device)

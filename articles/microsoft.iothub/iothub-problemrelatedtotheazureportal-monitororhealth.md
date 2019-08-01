@@ -19,6 +19,8 @@
 ## **Recommended Steps**
 
 1. Learn more about IoT Hub's [logging](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#understand-the-logs) and [platform metrics](https://docs.microsoft.com/azure/iot-hub/iot-hub-metrics), available through Azure Monitor. <br>
+1. To use the "Logs" feature in IoT Hub, you must first [set up diagnostic logs with Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-logs-stream-log-store). This workflow typically has a 15 minutes latency.
+1. We're aware of a bug on metrics export (via the AllMetrics category) with connectedDeviceCount and totalDeviceCount metrics and certain aggregation types. Workaround: [metrics alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric) are unaffected by the bug, and the "Total" aggregation type in the export is also unaffected.
 
 ## **Recommended Documents**
 
