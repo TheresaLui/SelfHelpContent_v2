@@ -9,7 +9,7 @@
   displayOrder=""
   articleId="ConnectivityCheck_042F9ACD-6B75-4184-A72C-A7F68E71C9B3"
   diagnosticScenario="crc_sqldb_connectivity"
-  selfHelpType="DiagnoseAndSolve"
+  selfHelpType="diagnostics"
   supportTopicIds="32630429"
   resourceTags=""
   productPesIds="13491"
