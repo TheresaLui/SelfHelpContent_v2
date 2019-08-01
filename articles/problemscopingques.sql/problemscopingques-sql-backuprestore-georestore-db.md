@@ -13,6 +13,7 @@
 # Error when trying to geo-restore
 ---
 {
+	"resourceRequired": true,
 	"subscriptionRequired": true,
     "formElements": [
         {
