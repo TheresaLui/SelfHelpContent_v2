@@ -1,14 +1,14 @@
 <properties
     pageTitle="Create Update Drop Resources"
     description="Create Update Drop Resources"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640097"
-    productPesIds="16221"
+    supportTopicIds="32640028"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-createupdatedrop-vnet_rules"
+    articleId="problemscopingques-pg-createupdatedrop-vnetrules"
 />
 # Create Update and Drop Resources - Virtual network rules
 ---

@@ -1,14 +1,14 @@
 <properties
     pageTitle="Create Update Drop Resources"
     description="Create Update Drop Resources"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640089"
-    productPesIds="16221"
+    supportTopicIds="32640024"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-createupdatedrop-server"
+    articleId="problemscopingques-pg-createupdatedrop-server"
 />
 # Create Update and Drop Resources - Server
 ---

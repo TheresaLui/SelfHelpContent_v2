@@ -1,14 +1,14 @@
 <properties
     pageTitle="Create Update Drop Resources"
     description="Create Update Drop Resources"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640044"
-    productPesIds="16221"
+    supportTopicIds="32639966"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-createupdatedrop-arm_template"
+    articleId="problemscopingques-pg-createupdatedrop-armtemplate"
 />
 # Create Update and Drop Resources - ARM template issues
 ---

@@ -1,14 +1,14 @@
 <properties
     pageTitle="Create Update Drop Resources"
     description="Create Update Drop Resources"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640071"
-    productPesIds="16221"
+    supportTopicIds="32639998"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-createupdatedrop-mornitor_alert"
+    articleId="problemscopingques-pg-createupdatedrop-mornitoralert"
 />
 # Create Update and Drop Resources - Monitoring and alerts
 ---
