@@ -44,18 +44,18 @@
 * [InvalidClassException](https://hdinsight.github.io/spark/spark-class-version-mismatch-InvalidClassException.html)
 * [NativeAzureFileSystem ... RequestBodyTooLarge](https://hdinsight.github.io/spark/spark-stream-driver-logs-error-requestbodytoolarge.html)
 * [Spark Application Fails with OutOfMemoryError](https://hdinsight.github.io/spark/spark-application-failure-with-outofmemoryerror.html)
-* Spark Application Fails with OutOfMemoryError on one node only: This could be due to skew. A frequent solution to skew is to use broadcast plans by changing the broadcast threshold value. The threshold can be configured using “spark.sql.autoBroadcastJoinThreshold”
+* Spark Application Fails with OutOfMemoryError on one node only: This could be due to skew. A frequent solution to skew is to use broadcast plans by changing the broadcast threshold value. The threshold can be configured using spark.sql.autoBroadcastJoinThreshold
 
-### **Steps to check for resource allocation issues**
+### **Steps to check for resource allocation issues:**
 
 * Make sure that the cluster to be used has enough resources by verifying the applications currently running in spark cluster, using Yarn UI. Another source of information about the resources being used by the Spark Executors is the Spark Application UI. In the Spark UI, select the Executors tab to display Summary and Detail views of the configuration and resources consumed by the executors. These views can help you determine whether to change default values for Spark executors for the entire cluster, or a particular set of job executions.
 * Depending on your Spark workload, you may determine that a non-default Spark configuration provides more optimized Spark job executions. You should perform benchmark testing with sample workloads to validate any non-default cluster configurations. Some of the common parameters that you may consider adjusting are:
+--num-executors sets the number of executors
+--executor-cores sets the number of cores for each executor
+--executor-memory controls the memory size (heap size) of each executor on Apache Hadoop YARN, and you'll need to leave some memory for execution overhead
+* Following command is an example of how to change the configuration parameters for a batch application that is submitted using spark-submit:
 
-   * --num-executors sets the number of executors
-   * --executor-cores sets the number of cores for each executor
-   * --executor-memory controls the memory size (heap size) of each executor on Apache Hadoop YARN, and you'll need to leave some memory for execution overhead
-    
-* Following command is an example of how to change the configuration parameters for a batch application that is submitted using spark-submit: `spark-submit --class --executor-memory 3072M --executor-cores 4 –-num-executors 10`
+spark-submit --class --executor-memory 3072M --executor-cores 4 –-num-executors 10 
 
 ## **Recommended Documents**
 
