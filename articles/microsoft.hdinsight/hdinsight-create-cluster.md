@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+Common root causes for cluster creation issues.
+
 ### Permissions issues
 
 * If you are using ADLS Gen 2, ensure that the user-assigned managed identity assigned to HDInsight cluster is in either the Storage Blob Data Contributor role or the [Storage Blob Data Owner Role](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account)

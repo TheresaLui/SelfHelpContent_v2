@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Change feed in Azure Cosmos DB"
-	description="Change feed in Azure Cosmos DB"
+	description="Troubleshoot Azure Cosmos DB Change feed issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636774,32636775"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-changefeed"
+	displayOrder="61"
+	category="Core (SQL)"
 />
 
 # Change feed in Azure Cosmos DB

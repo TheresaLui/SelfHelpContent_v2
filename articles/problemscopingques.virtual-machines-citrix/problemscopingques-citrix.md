@@ -13,9 +13,10 @@
 # Citrix VM
 ---
 {
-    "resourceRequired": true,
-    "fileAttachmentHint": "",
-    "formElements": [
+                "subscriptionRequired": true,
+                "resourceRequired": false,
+                "fileAttachmentHint": "",
+                "formElements": [
         {
             "id": "citrixcase",
             "order": 1,

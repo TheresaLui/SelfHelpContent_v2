@@ -13,9 +13,13 @@
     cloudEnvironments="public"
     articleId="328b4e89-006b-481e-b12e-f700ca1938d7"
 />
-# Azure HDInsight: Ambari Agent Heartbeat Lost and Ambari Service Management
+# Azure HDInsight: Services hosted on the Cluster are Failing to start
  
 ## **Recommended Documents**
+
+**Services that rely on Zookeepers are failing to start**
+
+* [Zookeeper server fails to form a quorum](https://hdinsight.github.io/zookeeper/manage-zookeeper-snapshot.html)
 
 **Ambari Agent Heartbeat Lost**
 
