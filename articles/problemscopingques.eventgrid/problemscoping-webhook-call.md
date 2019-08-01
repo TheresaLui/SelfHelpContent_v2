@@ -80,7 +80,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
             "watermarkText": "Provide additional information about your issue",
