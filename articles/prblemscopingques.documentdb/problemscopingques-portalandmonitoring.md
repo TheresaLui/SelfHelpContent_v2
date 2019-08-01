@@ -16,7 +16,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB Portal and Monitoring Issue",
-    "fileAttachmentHint": "Please attach a HAR trace file.  Open the developer tools in Chrome or Edge, then reproduce your issue. After reproducing the issue, save the network traces as a HAR file.",
+    "fileAttachmentHint": "Please attach a HAR trace file. Open the developer tools in Chrome or Edge, then reproduce your issue. After reproducing the issue, save the network traces as a HAR file.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -36,27 +36,27 @@
             "id": "session_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Provide the session Id for issue",
-			"infoBalloonText": "Once the Portal has loaded, use [Ctrl] + [Alt] + [A] which will provide information about what subscriptions are currently loaded"
+            "displayLabel": "Provide the session Id for issue.",
+			"infoBalloonText": "Once the Portal has loaded, use [Ctrl] + [Alt] + [A] which will provide information about what subscriptions are currently loaded.",
             "required": false
         },
 		{
             "id": "database_name",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Database name",
             "required": false
         },
 		{
             "id": "collection_name",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Collection name",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing",
             "required": true,
