@@ -16,7 +16,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB Portal and Monitoring Issue",
-    "fileAttachmentHint": "Please attach a HAR trace file. Open the developer tools in Chrome or Edge, then reproduce your issue. After reproducing the issue, save the network traces as a HAR file.",
+    "fileAttachmentHint": "Please attach a HAR file to expedite the investigation of the Portal issue. Open the developer tools in Chrome or Edge and reproduce your issue. After reproducing the issue, save the network traces as a HAR file.  In Chrome, right-click anywhere inside the Network pane and select 'Save as HAR with Content' or from the drop-down actions menu.  In Edge or Internet Explorer Click command to 'Export as HAR' or typing [Ctrl] + [S] This will open a dialog allowing you to select where to save your HAR file.",
     "formElements": [
         {
             "id": "problem_start_time",
