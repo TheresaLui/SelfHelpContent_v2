@@ -8,9 +8,9 @@
     productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-replication-data_in"
+    articleId="problemscopingques-pg-replication-data_in"
 />
-# Replication - Data-in replication to Azure Database for MySQL
+# Replication - Data-in replication to Azure Database for PG
 ---
 {
     "resourceRequired": false,
