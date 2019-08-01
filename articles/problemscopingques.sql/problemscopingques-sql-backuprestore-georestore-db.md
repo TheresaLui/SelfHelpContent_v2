@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="D748D991-21A6-4FBD-B98E-7962F6100F9A"
+	articleId="88380ce6-b40c-11e9-a2a3-2a2ae2dbcce4"
 />
 # Error When Connecting to my Database
 ---
