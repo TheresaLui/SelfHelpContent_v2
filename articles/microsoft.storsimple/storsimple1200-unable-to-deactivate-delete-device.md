@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-[Deactivate and delete a StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-deactivate-and-delete-device)
+* [Deactivate and delete a StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-deactivate-and-delete-device)
