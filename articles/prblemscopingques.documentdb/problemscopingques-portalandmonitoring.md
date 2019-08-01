@@ -41,7 +41,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Provide the session Id for issue",
-			"infoBalloonText": "Once the Portal has loaded, use Ctrl+Alt+A which will provide information about what subscriptions are currently loaded"
+			"infoBalloonText": "Once the Portal has loaded, use [Ctrl] + [Alt] + [A] which will provide information about what subscriptions are currently loaded"
             "required": false
         },
 		{
