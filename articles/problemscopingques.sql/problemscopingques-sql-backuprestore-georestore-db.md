@@ -61,8 +61,8 @@
                     "text": "VCore-BusinessCritical"
                 },
                 {
-                    "value": "Hyperscale",
-                    "text": "Hyperscale"
+                    "value": "HyperscaleDB",
+                    "text": "HyperscaleDB"
                 },
 				{
                     "value": "dont_know_answer",
