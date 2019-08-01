@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": false,
     "title": "MARS restore performance",
     "fileAttachmentHint": "",
     "diagnosticCard": {
