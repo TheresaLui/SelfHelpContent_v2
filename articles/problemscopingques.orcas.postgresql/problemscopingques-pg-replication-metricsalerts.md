@@ -1,14 +1,14 @@
 <properties
     pageTitle="Replication"
     description="Replication"
-    authors="Hang-Zhang"
-    ms.author="haz"
+    authors="Xin-Cheng"
+    ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640068"
-    productPesIds="16221"
+    supportTopicIds="32639995"
+    productPesIds="16222"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="problemscopingques-mysql-replication-metrics_alerts"
+    articleId="problemscopingques-pg-replication-metricsalerts"
 />
 # Replication - Metrics and alerts
 ---
