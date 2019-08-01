@@ -29,8 +29,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "performance_issue_type",
@@ -118,8 +117,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "learn_more_text",
@@ -142,8 +140,7 @@
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
