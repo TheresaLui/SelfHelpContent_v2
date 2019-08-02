@@ -1,5 +1,5 @@
 <properties
-        articleId="dw-scoping-availabilityandconnectivity-azureactivedirectoryauthentication.md"
+        articleId="dw-scoping-scheduledmaintenanceandupgrades-gen2upgrade.md"
         pageTitle="Gen2 upgrade from Gen1"
         description="Gen2 upgrade from Gen1"
         authors="mlee3gsd"
@@ -18,7 +18,7 @@
 
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Azure Active Directory Authentication",
+    "title": "SQL DW Gen2 upgrade from Gen1",
     "fileAttachmentHint": "",
     "formElements": [
         {
