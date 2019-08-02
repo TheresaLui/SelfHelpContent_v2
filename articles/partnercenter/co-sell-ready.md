@@ -18,6 +18,10 @@
 />
 # Co-sell deal registration, validation, and review
 
+## **Recommended Steps**
+
+- For more information on co-sell deal registration contact isvdrops@microsoft.com.
+
 ## **Recommended Documents**
 
 * [Get Co-Sell ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
