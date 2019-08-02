@@ -6,11 +6,11 @@
 	authors="jlian"
 	ms.author="jlian"
 	selfHelpType="generic"
-	supportTopicIds="32630548"
+	supportTopicIds="32680885,32680884"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	articleId="05b5e534-0ec7-4db7-9249-ff3ebcde400b"
+	articleId="8bb9a0cc-e06a-4e76-bca5-3e703c4ab16a"
 />
 
 # Issues with IoT Hub routing

@@ -7,7 +7,7 @@
 	ms.author="jlian,saziz"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32630528,32630558"
+	supportTopicIds="32630528"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
