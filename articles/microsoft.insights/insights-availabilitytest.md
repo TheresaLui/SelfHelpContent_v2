@@ -14,6 +14,7 @@
     supportTopicIds="32422336,32630726,32630727,32630728,32630729,32630730,32630732,32630733,32630734"
  />
 # I am having problems with my Availability Tests
+
 ## **Recommended Steps**
 
 1. Check the [Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/azure-monitor/app/troubleshoot-availability) for answers to common questions
@@ -27,8 +28,6 @@
 
 **Known issues**<br>
 You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more. This is by design.
-
-
 
 ## **Recommended Documents**
 [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)<br>
