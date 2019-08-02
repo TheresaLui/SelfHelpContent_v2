@@ -90,7 +90,7 @@
             "controlType": "textbox",
             "displayLabel": "Notebook URL if available",
             "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Notebook URL",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

@@ -90,7 +90,7 @@
             "controlType": "textbox",
             "displayLabel": "Job URL for the job with issue",
             "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Job URL",
-            "required": true
+            "required": false
         },
         {
             "id": "job_rul_goodrun",
