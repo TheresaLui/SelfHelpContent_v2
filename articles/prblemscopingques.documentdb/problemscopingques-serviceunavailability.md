@@ -73,7 +73,7 @@
             "id": "database_name",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "(Jimsch Test) Database name",
+            "displayLabel": "Database name",
             "required": false
         },
 		{
@@ -101,7 +101,7 @@
             "id": "problem_description",
             "order": 9,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you were facing",
+            "displayLabel": "Please provide any additional details about the issue that you were facing",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
