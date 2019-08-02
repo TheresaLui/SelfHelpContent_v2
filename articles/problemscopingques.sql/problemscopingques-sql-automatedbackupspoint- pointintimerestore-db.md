@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Error while Geo-replication"
+	pageTitle="Error with automatedbackupspoint- pointintimerestore-db"
 	description="Scoping questions to capture more details about errors encountered while trying to Geo-restore SQL DB"
 	authors="andikshi"
 	ms.author="andikshi"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630424"
+	supportTopicIds="32630409"
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="problem-scopingques-sql-backuprestore-georeplication-db"
+	articleId="problem-scopingques-sql-automatedbackupspoint-pointintimerestore-db"
 />
-# Error when trying to geo-replication
+# Error with automatedbackupspoint- pointintimerestore-db
 ---
 {
 	"resourceRequired": true,
@@ -24,27 +24,12 @@
             "infoBalloonText": "Enter the approximate time you started to see the error.",
             "required": true
         },
-        {
-            "id": "error_dropdown",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Is the secondry on the same service tier as primary",
-            "watermarkText": "Choose an option",
-            "infoBalloonText": "Secondry database should always be on the same or higher SLO as primary",
-			"dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Dont know answer"
-                }
-            ],
+	{
+            "id": "restore_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "What was the requested restore date\time?",
+            "infoBalloonText": "Enter the approximate time that you want the point in time restore for",
             "required": true
         },
         {
