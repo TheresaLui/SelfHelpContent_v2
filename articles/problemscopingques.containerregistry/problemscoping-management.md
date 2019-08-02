@@ -31,7 +31,7 @@ schemaVersion="1"
             "required": true,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What registry is the registry accessed from?",
+            "displayLabel": "What environment is the registry accessed from?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
