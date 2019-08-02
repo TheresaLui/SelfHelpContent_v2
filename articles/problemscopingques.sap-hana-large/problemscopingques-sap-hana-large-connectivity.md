@@ -16,7 +16,7 @@
 ---
 {
 	"subscriptionRequired": true,
-	"resourceRequired": false,
+	"resourceRequired": true,
 	"title": "Unable to connect to a SAP Hana instance",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -117,103 +117,6 @@
 			"DropdownOptions": [{
 				"value": "Unable to retrieve list of VNETs",
 				"text": "Unable to retrieve list of VNETs"
-			}],
-			"required": true
-		},
-		{
-			"id": "configure_sap_hana",
-			"order": 5,
-			"controlType": "dropdown",
-			"displayLabel": "Is this an Azure VM or a SAP HANA Large Instance",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Azure VM",
-					"text": "Azure VM(G-Series, M-Series,DS-Series etc)"
-				},
-				{
-					"value": "SAP HANA Large Instance",
-					"text": "SAP HANA Large Instance"
-				},
-				{
-					"value": "dont_know_answer",
-					"text": "Other, don't know or not applicable"
-				}
-			],
-			"required": true
-		},
-		{
-			"id": "sapResourceGroup",
-			"order": 6,
-			"visibility": "configure_sap_hana == Azure VM || configure_sap_hana == SAP HANA Large Instance",
-			"controlType": "dropdown",
-			"displayLabel": "Please provide the Resource Group name",
-			"watermarkText": "Filter by name",
-			"dynamicDropdownOptions": {
-				"uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
-				"jTokenPath": "value",
-				"textProperty": "name",
-				"valueProperty": "id",
-				"textPropertyRegex": "[^/]+$",
-				"defaultDropdownOptions": {
-					"value": "dont_know_answer",
-					"text": "Other or none of the above"
-				}
-			},
-			"DropdownOptions": [{
-				"value": "Unable to retrieve list of resource groups",
-				"text": "Unable to retrieve list of resource groups"
-			}],
-			"required": true
-		},
-		{
-			"id": "sapHanaBareMetalInstance",
-			"order": 7,
-			"visibility": "configure_sap_hana == SAP HANA Large Instance && sapResourceGroup != null",
-			"controlType": "dropdown",
-			"displayLabel": "Please select your SAP Hana Large Instance",
-			"watermarkText": "Filter by name",
-			"dynamicDropdownOptions": {
-				"dependsOn": "sapResourceGroup",
-				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.HanaonAzure/hanaInstances?api-version=2017-11-03-preview",
-				"jTokenPath": "value",
-				"textProperty": "name",
-				"valueProperty": "id",
-				"textPropertyRegex": "[^/]+$",
-				"valuePropertyRegex": "[^/]+$",
-				"defaultDropdownOptions": {
-					"value": "dont_know_answer",
-					"text": "Other or none of the above"
-				}
-			},
-			"DropdownOptions": [{
-				"value": "Unable to retrieve list of SAP Hana Large Instances",
-				"text": "Unable to retrieve list of SAP Hana Large Instances"
-			}],
-			"required": true
-		},
-		{
-			"id": "sapHanaVMInstance",
-			"order": 8,
-			"visibility": "configure_sap_hana == Azure VM && sapResourceGroup != null",
-			"controlType": "dropdown",
-			"displayLabel": "Please select your SAP Hana VM Instance",
-			"watermarkText": "Filter by name",
-			"dynamicDropdownOptions": {
-				"dependsOn": "sapResourceGroup",
-				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-06-01",
-				"jTokenPath": "value",
-				"textProperty": "name",
-				"valueProperty": "id",
-				"textPropertyRegex": "[^/]+$",
-				"valuePropertyRegex": "[^/]+$",
-				"defaultDropdownOptions": {
-					"value": "dont_know_answer",
-					"text": "Other or none of the above"
-				}
-			},
-			"DropdownOptions": [{
-				"value": "Unable to retrieve list of SAP Hana VMs",
-				"text": "Unable to retrieve list of SAP Hana VMs"
 			}],
 			"required": true
 		},

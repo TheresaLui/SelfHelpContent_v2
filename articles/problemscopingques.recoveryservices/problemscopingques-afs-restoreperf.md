@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure File Share restore performance issue",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "Azure File Share restore performance issue",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "storage_account_name",
@@ -65,7 +70,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "JobID_Name",
@@ -174,7 +180,8 @@
             "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"
