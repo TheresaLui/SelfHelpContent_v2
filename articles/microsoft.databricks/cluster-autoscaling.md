@@ -14,7 +14,9 @@
 	articleId="f1a01f3b-d175-4387-8b3b-d09082cbe570"
 />
 
-# **Recommended Documents**
+# Diagnose and resolve issues with Databricks cluster auto scaling
+
+## **Recommended Documents**
 
 * [Enable and configure autoscaling](https://docs.databricks.com/user-guide/clusters/sizing.html#enable-and-configure-autoscaling)
 * [How autoscaling behaves](https://docs.databricks.com/user-guide/clusters/sizing.html#how-autoscaling-behaves)
