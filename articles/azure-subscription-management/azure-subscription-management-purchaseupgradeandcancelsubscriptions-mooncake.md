@@ -16,14 +16,11 @@
 
 # I need to purchase or upgrade my subscription
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).<br>
+* [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
+* [Upgrade a 1 RMB Trial subscription to a Standard Pay-In-Advance (PIA) subscription](https://docs.azure.cn/billing/billing-upgrade-1rmb-trial)<br>
 
-* You can upgrade your 1 RMB trial subscription to Standard Pay-In-Advance subscription.<br>
+## **Recommended Documents**
 
-    [Upgrade a 1 RMB Trial subscription to a Standard Pay-In-Advance (PIA) subscription](https://docs.azure.cn/billing/billing-upgrade-1rmb-trial)<br>
-
-## **Recommended documents**
-
-[1 RMB Trial Subscription FAQ](https://www.azure.cn/offers/ms-mc-azr-44p/)
+* [1 RMB Trial Subscription FAQ](https://www.azure.cn/offers/ms-mc-azr-44p/)
