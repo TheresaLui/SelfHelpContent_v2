@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How-to-questions-or-planning-a-recovery-strategy"
-	description="Scoping questions to capture more details about advisory cases on recovery strategy"
+	pageTitle="Advisory-how-to-questions-or-planning-a-recovery-strategy"
+	description="Scoping questions to capture more details advisory cases on how-to-questions-or-planning-a-recovery-strategy"
 	authors="andikshi"
 	ms.author="andikshi"
 	selfHelpType="problemScopingQuestions"
@@ -8,9 +8,9 @@
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="problem-scopingques-sql-how-to-questions-or-planning-a-recovery-strategy-db"
+	articleId="problem-scopingques-sql-backuprestore-georestore-db"
 />
-# Scoping questions to capture more details about advisory cases on recovery strategy
+# Advisory-how-to-questions-or-planning-a-recovery-strategy
 ---
 {
 	"resourceRequired": true,
@@ -28,10 +28,10 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the help you seek.",
+            "displayLabel": "Please provide details about your recovery strategy.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": Please provide the full details explaining your requirement, business needs , and any particular issues you are currently facing with the implementation"
+            "watermarkText": "Please provide the full details like the Detailed questions, environment details , business needs\justification ,impact , cost considerations etc."
         }
     ],
     "$schema": "SelfHelpContent"
