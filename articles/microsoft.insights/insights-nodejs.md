@@ -41,8 +41,7 @@ This library tracks the following out-of-the-box:
      let appInsights = require('applicationinsights');
      ```
 
-5. Configure the local SDK by calling `appInsights.setup('_your_ikey_');`, using the ikey you grabbed in step 2. Or put this ikey in the
-   **APPINSIGHTS_INSTRUMENTATIONKEY** environment variable and call **appInsights.setup()** without parameters.
+5. Configure the local SDK by calling `appInsights.setup('_your_ikey_');`, using the ikey you grabbed in step 2. Or put this ikey in the **APPINSIGHTS_INSTRUMENTATIONKEY** environment variable and call **appInsights.setup()** without parameters.
 6. Finally, start automatically collecting and sending data by calling `appInsights.start();`.
 7. For advanced configuration see our [GitHub Readme](https://github.com/microsoft/applicationinsights-node.js#configuration)
 
@@ -54,7 +53,7 @@ This library tracks the following out-of-the-box:
 3. If the app is crashing because of application insights - try disabling automatic dependency correlation, `.setAutoDependencyCorrelation(false)`
 4. If the app is hanging when it should terminate, disable disk retry caching, `.setDiskRetryCaching(false)` or call `appInsights.flush()` when you expect
 5. See rest of FAQs below and the list of open [GitHub issues](https://github.com/microsoft/applicationinsights-node.js/issues)
-6. Create a ticket or file a [bug report]. Please provide which version of the SDK being used, which version of node.js being used (`node --version`), a `package.json` file, a callstack, and a code snippet to reproduce, if possible.
+6. Create a ticket or file a [bug report](https://github.com/microsoft/ApplicationInsights-node.js/issues/new). Please provide which version of the SDK being used, which version of node.js being used (**node --version**), a **package.json** file, a callstack, and a code snippet to reproduce, if possible.
 
 [How can I preprocess or filter my telemetry before it gets sent to Azure?](https://github.com/microsoft/applicationinsights-node.js#preprocess-data-with-telemetry-processors)<br>
 [How do I enable Live Metrics Streaming?](https://github.com/microsoft/applicationinsights-node.js#live-metrics)<br>
