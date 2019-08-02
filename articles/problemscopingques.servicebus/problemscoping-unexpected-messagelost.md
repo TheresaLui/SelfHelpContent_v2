@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Message Lost or duplicate message issues",
     "fileAttachmentHint": "",
     "formElements": [

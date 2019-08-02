@@ -17,13 +17,29 @@
     "subscriptionRequired": true,
     "title": "Unable to discover DB",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Unable to discover DB",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which machine is experiencing the problem?",
-            "watermarkText": "Enter the name of the virtual machine running SQL",
+            "watermarkText": "Select the virtual machine running SQL",
+	    "dynamicDropdownOptions": {
+       	    "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
+	    },
             "required": false
         },
         {
@@ -40,7 +56,8 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "database_Name",
@@ -86,7 +103,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",

@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
-	supportTopicIds="32636763"
+	selfHelpType="resource"
+	supportTopicIds="32636763,32636812"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-sdk-netsdk"
+	displayOrder="281"
+	category="SDK Issues"
 />
 
 # Introduction to Azure Cosmos DB .NET SDK
