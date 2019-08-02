@@ -1,5 +1,5 @@
 <properties
-	articleId="1eb7e261-b70e-412d-b3f7-a813b72d4c28"
+	articleId="6b0e2f04-209b-487f-98c1-fc0306b87f57"
 	pageTitle="Scoping Questions for Databricks Spark Issue"
 	description="Scoping Questions for Databricks Spark Issue"
 	authors="lisaliu"
