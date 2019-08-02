@@ -20,7 +20,7 @@
 
 ###  **How does Traffic Analytic show the malicious traffic in my environment.**
 
-* Traffic Analytics relies on Microsoft internal threat intelligence systems to deem an IP as malicious. [Use this link for reference.](https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics-faq#how-does-traffic-analytics-decide-that-an-ip-is-malicious)<br>
+* Traffic Analytics relies on Microsoft internal threat intelligence systems to deem an IP as malicious. [Use this link for reference.](https://docs.microsoft.com/azure/network-watcher/traffic-analytics-faq#how-does-traffic-analytics-decide-that-an-ip-is-malicious)<br>
 
 ### **I want to get more information about the malicious traffic in my environment.**
 
@@ -28,10 +28,10 @@
 
 ### **I want to block NSG from allowing  malicious traffic in my environment.**
 
-* You can control allowed traffic by using Network Security Group rules. [Use this link for reference.](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) <br>
+* You can control allowed traffic by using Network Security Group rules. [Use this link for reference.](https://docs.microsoft.com/azure/virtual-network/security-overview) <br>
 
 ## **Recommended Documents**
 
-* [Learn more about Traffic Analytics solution](https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics)<br>
+* [Learn more about Traffic Analytics solution](https://docs.microsoft.com/azure/network-watcher/traffic-analytics)<br>
 * [Learn more about Traffic Analytics schema](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 * [Learn more about Traffic Analytics Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)

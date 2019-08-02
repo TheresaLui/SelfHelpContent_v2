@@ -24,6 +24,6 @@
 
 ## **Recommended Documents**
 
-* [Learn more about Traffic Analytics solution](https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics)<br>
+* [Learn more about Traffic Analytics solution](https://docs.microsoft.com/azure/network-watcher/traffic-analytics)<br>
 * [Learn more about Traffic Analytics schema](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 * [Learn more about Traffic Analytics Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)
