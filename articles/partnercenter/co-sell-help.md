@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-- For more information on the Co-sell program, and becoming Co-sell ready contact Cosell@microsoft.com.
+- For more information on the Co-sell program and becoming Co-sell ready, contact Cosell@microsoft.com
 
 ## **Recommended Documents**
 
