@@ -20,7 +20,7 @@
 
 ### **Disable Traffic Analytics**
 
-* To disable Traffic Analytics, go to NSG flow logs setting and set "Traffic Analytics Status" to Off. You will have to repeat this step for all the NSGs for which you want to disable Traffic Analytics <br>
+* To disable Traffic Analytics, go to NSG flow logs setting and set "Traffic Analytics Status" to Off. You will have to repeat this step for all the NSGs for which you want to disable Traffic Analytics.
 
 ## **Recommended Documents**
 
