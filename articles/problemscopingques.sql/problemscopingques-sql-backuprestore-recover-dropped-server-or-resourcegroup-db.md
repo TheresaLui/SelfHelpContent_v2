@@ -20,8 +20,8 @@
             "id": "target_server_resource_group",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "What is the server\resourcegroup that was deleted?",
-            "infoBalloonText": "Enter the server\resourcegroup that was deleted and you want to restore.",
+            "displayLabel": "What is the server or resourcegroup that was deleted?",
+            "infoBalloonText": "Enter the server or resourcegroup that was deleted and you want to restore.",
             "required": false
         },
 	{

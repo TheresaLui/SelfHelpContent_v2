@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="problem-scopingques-sql-backuprestore-georestore-db"
+	articleId="problem-scopingques-sql-backuprestore-how-to-questions-or-planning-a-recovery-strategy-db"
 />
 # Advisory-how-to-questions-or-planning-a-recovery-strategy
 ---

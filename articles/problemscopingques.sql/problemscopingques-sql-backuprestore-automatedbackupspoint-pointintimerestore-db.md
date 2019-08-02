@@ -28,7 +28,7 @@
             "id": "restore_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "What was the requested restore date\time?",
+            "displayLabel": "What was the requested restore datetime?",
             "infoBalloonText": "Enter the approximate time that you want the point in time restore for",
             "required": true
         },
