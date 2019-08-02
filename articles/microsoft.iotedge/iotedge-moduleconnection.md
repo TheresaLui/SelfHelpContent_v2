@@ -1,0 +1,28 @@
+<properties
+	pageTitle="IoT Edge module not connecting"
+	description="IoT Edge module not connecting"
+	service="microsoft.devices"
+	resource="iotedge"
+	authors="kgremban"
+	ms.author="kgremban"
+	selfHelpType="generic"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds="16509"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+/>
+
+# IoT Edge module not connecting
+
+If your IoT Edge device has been running for a while and then modules stop being able to connect, it's probably because something changed in the device's configuration or connection. 
+
+## **Recommended steps**
+
+* On the IoT Edge device, run `iotedge check --verbose`. 
+  * Look particularly at the results of the configuration checks. If you don't provide certificates during installation, IoT Edge uses preview certificates that expire after 30 days. Reboot the device or use a production certificate to continue using the device. 
+* Check the version of IoT Edge on your device by running `iotedge --version`. Update your device to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues.
+
+## **Recommended documents**
+
+[Install production certificates](https://docs.microsoft.com/azure/iot-edge/production-checklist#install-production-certificates)<br>
+[Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge)

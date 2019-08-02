@@ -1,0 +1,27 @@
+<properties
+	pageTitle="Loses connection to IoT Hub over time"
+	description="Loses connection to IoT Hub over time"
+	service="microsoft.devices"
+	resource="iotedge"
+	authors="kgremban"
+	ms.author="kgremban"
+	selfHelpType="generic"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds="16509"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+/>
+
+# Loses connection to IoT Hub over time
+
+If your IoT Edge device was running successfully for a while, then eventually loses its connection to IoT Hub, something in your configuration may be blocking the connection or you may be running an older version of IoT Edge. 
+
+## **Recommended steps**
+
+* On the IoT Edge device, run `iotedge check --verbose`. Look particularly at the results of the connectivity checks. 
+* Check the version of IoT Edge on your device by running `iotedge --version`. Update your device to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues.
+
+## **Recommended documents**
+
+[Built-in troubleshooting functionality](https://github.com/Azure/iotedge/blob/master/doc/troubleshoot-checks.md)<br>
+[Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge)
