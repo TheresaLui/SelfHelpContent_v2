@@ -17,7 +17,7 @@
 
 # VM not recommended for JIT
 
-The ASC recommendation *"Just-In-Time network access control should be applied on virtual machines"* lists all virtual machines (VMs) under the subscription, which do not have the JIT policy applied.
+The ASC recommendation *Just-In-Time network access control should be applied on virtual machines* lists all virtual machines (VMs) under the subscription, which do not have the JIT policy applied.
 
 For a VM to be eligible for JIT:
 
