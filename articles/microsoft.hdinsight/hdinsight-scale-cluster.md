@@ -13,14 +13,10 @@
     cloudEnvironments="public"
     articleId="hdinsight-scale-cluster"
 />
-# Scale HDInsight Cluster 
+
+# Scale HDInsight Cluster
 
 ## **Recommended Documents**
 
-* [Scale HDInsight clusters ](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)<br> 
+* [Scale HDInsight clusters ](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)<br>
 * [Automatically scale Azure HDInsight clusters (preview)](https://docs.microsoft.com/azure/hdinsight/hdinsight-autoscale-clusters?toc=%2F%2Fazure%2Fhdinsight%2Fhadoop%2FTOC.json&bc=%2F%2Fazure%2Fbread%2Ftoc.json) 
-
-
-
-  
-

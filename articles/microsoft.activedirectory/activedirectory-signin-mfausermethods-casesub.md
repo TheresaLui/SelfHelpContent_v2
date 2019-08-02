@@ -14,9 +14,10 @@
  	articleId="a227223a-6b33-4c77-be5a-07ba742a9bd6"
 />
 
-# Configure User Multi-Factor Authentication Methods (Authenticator, OATH token, Voice or SMS) for Azure Active Directory
+# Configure User Multi-Factor Authentication Methods (Authenticator App, Phone, SMS, Token) for Azure Active Directory
 
 ## **Recommended Documents**
 
 * [Authentication methods](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods)
+* [Troubleshooting phone options](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods#troubleshooting-phone-options)
 * [Converged registration for self-service password reset and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged)

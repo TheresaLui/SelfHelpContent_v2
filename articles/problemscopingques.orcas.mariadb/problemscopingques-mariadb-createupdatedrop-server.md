@@ -47,6 +47,10 @@
                 {
                     "value": "Azure CLI",
                     "text": "Azure CLI"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or unsure"
                 }
             ],
             "required": false

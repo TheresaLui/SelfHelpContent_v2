@@ -18,9 +18,12 @@
 
 ## **Recommended Steps**
 
-* [Review alerts supported by the system](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-best-practices#monitoring)
+You can follow the following best practices when you deploy and manage Azure Stack in your data center to help mitigate data loss in the event of a catastrophic failure.
+
+* [Infrastructure Backup Service best practices](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-best-practices#monitoring)
 
 ## **Recommended Documents**
 
+* [Review alerts supported by the system](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-best-practices#monitoring)
 * [Recover from catastrophic data loss](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-recover-data)
 * [Infrastructure Backup Limits](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-reference#infrastructure-backup-limits)

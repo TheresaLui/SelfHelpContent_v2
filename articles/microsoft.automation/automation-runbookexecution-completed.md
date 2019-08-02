@@ -23,6 +23,7 @@ Here are some common issues with executing runbooks in Azure Automation and how 
 Specific problems and their solutions are listed below, but we highly recommend you try these two troubleshooting steps first:
 
 * Try running the [runbook locally](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation.
+* Investigate runbook [error streams](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#runbook-output) for specific messages and compare them to the errors below
 * [Add additional output](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#message-streams) to the runbook to identify where the error occurs 
 
 ### Inconsistent behavior in runbooks
@@ -38,6 +39,10 @@ Specific problems and their solutions are listed below, but we highly recommend 
 * This issue can occur when the runbook isn't using a RunAs account to access Azure resources. To resolve, follow the steps in [Scenario: Unable to find the Azure subscription](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#unable-to-find-subscription). 
 
 ### "Your azure credentials have not been set up or have expired, please run connect-azureRmAccount to set up your azure credentials"
+
+* This error can occur when you are not using a RunAs account or the RunAs account has expired. See ["Manage Azure Automation RunAs accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account).
+
+### "Run Login-AzureRmAccount to login"
 
 * This error can occur when you are not using a RunAs account or the RunAs account has expired. See ["Manage Azure Automation RunAs accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account).
 

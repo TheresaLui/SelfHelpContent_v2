@@ -17,13 +17,29 @@
     "subscriptionRequired": true,
     "title": "Azure VM backup performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure VM backup performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "using_VM",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
+	    "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+	    },
             "required": false
         },
         {
@@ -46,7 +62,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "JobID_Name",
@@ -101,7 +118,8 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"
