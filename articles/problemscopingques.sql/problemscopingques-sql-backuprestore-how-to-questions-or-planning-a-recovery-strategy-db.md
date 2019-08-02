@@ -31,7 +31,7 @@
             "displayLabel": "Please provide details about your recovery strategy.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide you questions with additional like the environment, business needs and justification ,impact , cost considerations etc."
+            "watermarkText": "Please provide your questions with additional details like the environment, business needs and justification ,impact , cost considerations etc."
         }
     ],
     "$schema": "SelfHelpContent"
