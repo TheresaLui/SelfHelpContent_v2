@@ -1,0 +1,66 @@
+<properties
+	pageTitle="Error while long-term-backup-and-retention"
+	description="Scoping questions to capture more details about errors encountered while long-term-backup-and-retention"
+	authors="andikshi"
+	ms.author="andikshi"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32630432"
+	productPesIds="13491"
+	cloudEnvironments="Public"
+	schemaVersion="1"
+	articleId="problem-scopingques-sql-backuprestore-long-term-backup-and-retention-db"
+/>
+# Error while long-term-backup-and-retention
+---
+{
+	"resourceRequired": true,
+	"subscriptionRequired": true,
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true
+        },
+        {
+            "id": "error_dropdown",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "What is the type of issue",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Select the best most relevant issue type",
+			"dropdownOptions": [
+                {
+                    "value": "Configuring LTR",
+                    "text": "Configuring LTR"
+                },
+                {
+                    "value": "Restoring DB from LTR",
+                    "text": "Restoring DB from LTR"
+                },
+                {
+                    "value": "Deleting LTR",
+                    "text": "Deleting LTR"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Dont know answer"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
+        }
+    ],
+    "$schema": "SelfHelpContent"
+}
+---

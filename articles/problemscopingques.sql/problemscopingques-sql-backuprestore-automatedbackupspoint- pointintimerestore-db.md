@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Error with automatedbackupspoint- pointintimerestore-db"
-	description="Scoping questions to capture more details about errors encountered while trying to Geo-restore SQL DB"
+	description="Scoping questions to capture more details about errors encountered while trying to do a PITR for SQL DB"
 	authors="andikshi"
 	ms.author="andikshi"
 	selfHelpType="problemScopingQuestions"
