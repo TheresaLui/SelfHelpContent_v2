@@ -73,7 +73,7 @@
             "id": "database_name",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Database name",
+            "displayLabel": "(Jimsch Test) Database name",
             "required": false
         },
 		{
