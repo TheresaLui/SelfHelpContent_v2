@@ -18,11 +18,18 @@
 
 ## **Recommended Documents**
 
-**Server endpoint management failures**
+**Server endpoint creation failures**
 
-- [Server endpoint creation fails, with this error: "MgmtServerJobFailed" (Error code: -2134375898 or 0x80c80226)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-createjobfailed)<br>
-- [Server endpoint creation fails, with this error: "MgmtServerJobFailed" (Error code: -2147024894 or 0x80070002)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-createjobfailed-invalidpath)<br>
-- [Server endpoint creation fails, with this error: "MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-createjobfailed-compression)<br>
-- [Server endpoint creation fails, with this error: "MgmtServerJobFailed" (Error code: -2134376345 or 0x80C80067)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-createjobfailed-limitreached)<br>
-- [Server endpoint deletion fails, with this error: "MgmtServerJobExpired" (Error code: -2134347757 or 0x80c87013)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-deletejobexpired)<br>
+- [MgmtServerJobFailed (Error code: -2134375898 or 0x80c80226)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#-2134375898)<br>
+- [MgmtServerJobFailed (Error code: -2147024894 or 0x80070002)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#-2147024894)<br>
+- [MgmtServerJobFailed (Error code: -2134347507 or 0x80c8710d)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#-2134347507)<br>
+- [MgmtServerJobFailed (Error code: -2134376345 or 0x80C80067)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#-2134376345)<br>
+- [MgmtServerJobFailed (Error code: -2134376427 or 0x80c80015)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#-2134376427)<br>
+
+**Server endpoint deletion failures**
+
+- [MgmtServerJobExpired (Error code: -2134347757 or 0x80c87013)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#-2134347757)<br>
+
+**Unable to open or modify server endpoint properties**
+
 - [Unable to open server endpoint properties page or update cloud tiering policy](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-provisioningfailed)

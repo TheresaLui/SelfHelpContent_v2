@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Issue with Backup Alerts (email)",
     "fileAttachmentHint": "Please attach the screenshot of Backup Alerts screen filtered with timespan",
+     "diagnosticCard": {
+        "title": "Issue with Backup Alerts (email)",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_type",
@@ -69,7 +74,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "backup_solutions",
@@ -100,7 +106,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "alert_type",
@@ -172,7 +179,8 @@
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

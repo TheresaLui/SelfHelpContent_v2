@@ -29,8 +29,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text here",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "vault_name",
@@ -38,8 +37,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the vault name from which you are trying to download vault credential:",
             "watermarkText": "ex. contoso_vault",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -81,8 +79,7 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",

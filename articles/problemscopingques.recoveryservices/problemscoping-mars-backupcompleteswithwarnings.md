@@ -29,8 +29,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -73,8 +72,7 @@
             "displayLabel": "Provide the MachineId:",
             "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "watermarkText": "Paste MachineId here",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "get_resourceId",
@@ -83,16 +81,14 @@
             "displayLabel": "Provide the ResourceId:",
             "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "watermarkText": "Paste ResourceId here",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",

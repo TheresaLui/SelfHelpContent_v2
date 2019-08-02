@@ -40,8 +40,7 @@
                 "text": "Other, don't know or not applicable"
             }
           },
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "fileshare_Name",
@@ -49,8 +48,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the File Share whose backup configuration is failing?",
             "watermarkText": "Enter file share name(s) comma separated",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "jobID_Name",
@@ -58,8 +56,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed configuration job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -102,16 +99,14 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that you are seeing:",
             "watermarkText": "Copy and paste error message text here",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",
