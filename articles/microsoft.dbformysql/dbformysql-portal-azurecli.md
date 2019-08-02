@@ -22,8 +22,9 @@ Azure Database for MySQL has rich support for managing your server in the Azure 
 
 * Make sure you are signed-in to the correct using **az login**
 * You are using the correct subscription in case you have more than one
-* You specify all required parameters for the command you are using Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values.
+* You specify all required parameters for the command you are using Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values
 * If you are:
+
   * Creating server, review [Create an Azure Database for MySQL using CLI](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-cli)
   * Setting up firewall rules, review [How-to configure firewall rules using CLI](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-cli)
   * Trying to restore, review [How-to restore a server using CLI](https://docs.microsoft.com/azure/mysql/howto-restore-server-cli)
