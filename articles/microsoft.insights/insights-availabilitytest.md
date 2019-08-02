@@ -18,7 +18,7 @@
 ## **Recommended Steps**
 
 1. Check the [Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/azure-monitor/app/troubleshoot-availability) for answers to common questions
-2. Make sure you have whitelisted all of the [IP Address Used by Availability Tests](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses#availability-tests)
+2. Make sure you have whitelisted all of the [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)
 3. Verify you have the test running in multiple geo-locations. It is strongly recommended to run at least from two locations. Web communication fails for multiple reasons from time to time and having only one location enabled will considerably increase the likelihood of false positives
 4. Check server side logs for the failure, especially if the answer to #3 is yes
 5. Determine if the issue present in all geo-locations
@@ -32,4 +32,4 @@ You cannot create more than 10 tests inside of the UI. You must use [PowerShell]
 ## **Recommended Documents**
 [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)<br>
 [Automation](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test)<br>
-[IP Address Used by Availability Tests](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses#availability-tests)<br>
+[IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)<br>
