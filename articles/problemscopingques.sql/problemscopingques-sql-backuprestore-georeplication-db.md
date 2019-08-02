@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Error while Geo-restore"
+	pageTitle="Error while Geo-replication"
 	description="Scoping questions to capture more details about errors encountered while trying to Geo-restore SQL DB"
 	authors="andikshi"
 	ms.author="andikshi"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630425"
+	supportTopicIds="32630424"
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="problem-scopingques-sql-backuprestore-georestore-db"
+	articleId="problem-scopingques-sql-backuprestore-georeplication-db"
 />
-# Error when trying to geo-restore
+# Error when trying to geo-replication
 ---
 {
 	"resourceRequired": true,
@@ -25,46 +25,22 @@
             "required": true
         },
         {
-            "id": "target_server",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "What is the target server?",
-            "infoBalloonText": "Enter the target server name , where you want to geo-restore.",
-            "required": false
-        },
-        {
             "id": "error_dropdown",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What is the target SLO",
+            "displayLabel": "Is the secondry on the same service tier as primary",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "Select the target SLO",
+            "infoBalloonText": "Secondry database should always be on the same of higher SLO as primary",
 			"dropdownOptions": [
                 {
-                    "value": "Basic",
-                    "text": "Basic"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "Standard",
-                    "text": "Standard"
+                    "value": "No",
+                    "text": "No"
                 },
                 {
-                    "value": "Premium",
-					"text": "Premium"
-                },
-                {
-                    "value": "Vcore-GeneralPurpose",
-                    "text": "VCore-GeneralPurpose"
-                },
-                {
-                    "value": "VCore-BusinessCritical",
-                    "text": "VCore-BusinessCritical"
-                },
-                {
-                    "value": "HyperscaleDB",
-                    "text": "HyperscaleDB"
-                },
-				{
                     "value": "dont_know_answer",
                     "text": "Dont know answer"
                 }
