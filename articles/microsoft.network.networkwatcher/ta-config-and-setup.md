@@ -27,7 +27,7 @@
 
 *  To view bytes and packets data in Traffic Analytics, [enable Flow Logs version 2]( https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal)<br>
 
-### **Faster procsessing interval**
+### **Faster processing interval**
 
 *  To [view bytes and packets data in Traffic Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard), enable Flow Logs version 2
 
