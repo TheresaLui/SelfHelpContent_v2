@@ -21,8 +21,12 @@ An established connection to an Azure Database for MariaDB server can be termina
 ## **Recommended Steps**
 
 * Try to reconnect to your server. If you are not able to reconnect, please switch to the problem subtype *Database is currently unavailable* to troubleshoot intermittent connection problems.
-* Check the **Resource health** for your server to see if there were any reported events that could have caused the connection disruption
-* Check the **Activity log** for you database to see if there changes to the server that could have causes the connection drops
+* Check the **Resource health** for your server to see if there were any reported events that could have caused the connection disruption.
+* Check the **Activity log** for you database to see if there changes to the server that could have causes the connection drops.
+* Validate the network connectivity between your client and database servers
+
+  * Use the *PING* command to confirm that name resolution successfully translates your server name to an IP address.
+  * Use the *telnet* to port 3306 using the IP address returned in the prior step. This will test whether there are any firewalls/routers blocking traffic to port 3306.
 * Check your client logs if you are experiencing connection timeouts or query timeouts. If yes, please review your setting for the following server parameters: *connect_timeout*, *wait_timeout*, and *interactive_timeout*. Consult the MariaDB documentation for current server version for more information.
 
 ## **Recommended Documents**

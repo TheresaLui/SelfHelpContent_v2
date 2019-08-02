@@ -33,4 +33,4 @@ Azure Database for MySQL uses the community edition of MySQL. As such, most driv
 * [Connect with Ruby](https://docs.microsoft.com/azure/mysql/connect-ruby)<br>
 * [Connect with C++](https://docs.microsoft.com/azure/mysql/connect-cpp)<br>
 * [Connect with Go](https://docs.microsoft.com/azure/mysql/connect-go)<br>
-* [Connect with MySQL Workbench](https://docs.microsoft.com/azure/mysql/connect-workbench)
+* [Connect with Workbench](https://docs.microsoft.com/azure/mysql/connect-workbench)

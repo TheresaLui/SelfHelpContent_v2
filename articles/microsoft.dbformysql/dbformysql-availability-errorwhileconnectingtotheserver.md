@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Connection issues to MySQL"
-    description="Connection issues to MySQL"
+    pageTitle="Connection issues to Azure Databases for MySQL"
+    description="Connection issues to Azure Databases for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
     authors="jan-eng"
@@ -20,13 +20,13 @@ Persistent connection issues when connecting to Azure Databases for MySQL can oc
 
 ## **Recommended Steps**
 
-* [Set up firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) to allow your client's IP address
+* [Set up firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) to allow your client's IP address.
 * If you are using VNets, ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal). Note that the Basic tier does not support VNet service endpoints.
-* Follow [connection recommendations](https://docs.microsoft.com/azure/mysql/concepts-connection-libraries) on computers hosting your client programs
-* Fix [incorrect connection strings](https://docs.microsoft.com/azure/mysql/howto-connection-string) in your application
-* Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mysql/concepts-ssl-connection-security)
-* Review the [supported client driver list](https://docs.microsoft.com/azure/mysql/concepts-compatibility) and assure you are using a driver that is supported
-* Make sure the user you are using has the appropriate permissions
+* Follow [connection recommendations](https://docs.microsoft.com/azure/mysql/concepts-connection-libraries) on computers hosting your client programs.
+* Fix [incorrect connection strings](https://docs.microsoft.com/azure/mysql/howto-connection-string) in your application.
+* Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mysql/concepts-ssl-connection-security).
+* Review the [supported client driver list](https://docs.microsoft.com/azure/mysql/concepts-compatibility) and assure you are using a driver that is supported.
+* Make sure the user you are using has the appropriate permissions.
 
 ## **Recommended Documents**
 

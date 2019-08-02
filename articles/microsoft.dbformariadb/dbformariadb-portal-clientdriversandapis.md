@@ -25,4 +25,4 @@ Azure Database for MariaDB uses the community edition of MariaDB. As such, most 
 
 ## **Recommended Documents**
 
-* [Connect with MySQL Workbench](https://docs.microsoft.com/azure/mariadb/connect-workbench)
+* [Connect with Workbench](https://docs.microsoft.com/azure/mariadb/connect-workbench)

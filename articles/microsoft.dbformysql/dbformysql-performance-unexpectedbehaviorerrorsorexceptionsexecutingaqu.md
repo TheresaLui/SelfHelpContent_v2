@@ -29,4 +29,5 @@ Query execution problems can be caused by the database engine itself or by the i
 ## **Recommended Documents**
 
 * [How-to use sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema)<br>
+* [Monitor and tune](https://docs.microsoft.com/azure/mysql/concepts-monitoring/)<br>
 * [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)

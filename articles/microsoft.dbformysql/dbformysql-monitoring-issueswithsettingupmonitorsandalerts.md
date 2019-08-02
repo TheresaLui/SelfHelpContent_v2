@@ -37,5 +37,5 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Documents**
 
 * [Create an alert rule on a metric from Azure portal](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric#create-an-alert-rule-on-a-metric-from-the-azure-portal/)<br>
-* [How to configuring webhooks in alerts.](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-webhooks/)<br>
+* [How to configure webhooks in alerts.](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-webhooks/)<br>
 * [Overview of metrics collection](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform#metrics/)

@@ -16,7 +16,7 @@
 
 # Backups and restore options for Azure Database for MySQL
 
-Long term retention backups are currently not natively supported by the service. You have the option to use *mysqldump* to take backups and store them for long term retention. Third party solutions are available.
+Long term retention backups are currently not natively supported by the service. You have the option to use **mysqldump** to take backups and store them for long term retention. Third party solutions are available.
 
 Native support for long term retention backups is currently being worked on by the Azure engineering team.
 

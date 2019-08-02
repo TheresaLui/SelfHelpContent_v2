@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Connection issues to MySQL"
-    description="Connection issues to MySQL"
+    pageTitle="Connection issues to Azure Databases for MySQL"
+    description="Connection issues to Azure Databases for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
     authors="jan-eng"

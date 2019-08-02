@@ -24,6 +24,7 @@ Most migration problems can be solved by working through the recommended steps.
 
 * If you are migrating using dump and restore, or data-in-replication and encounter problems, familiarize yourself with [Migrate your MariaDB database to Azure Database for MariaDb using dump and restore](https://docs.microsoft.com/azure/mariadb/howto-migrate-dump-restore/) how-to
 * If you are using dump and restore
+
   * Make sure to use database dumps when you are migrating the entire databases.
   * Make sure all tables in the database use the InnoDB storage engine when loading data into Azure Database for MariaDB.
   * To avoid any compatibility issues, ensure the same version of MariaDB is used on the source and destination systems when dumping databases.

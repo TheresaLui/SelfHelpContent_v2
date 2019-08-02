@@ -22,7 +22,8 @@ Azure Database for MariaDB supports point-in-time restore to any point within th
 
 * If you are having connectivity issue after restoring the server then make sure that the connection string is referring to the restored server.
 * Azure that you try to restore to a point in time that is within you configured retention period. Note that we do not backfill the backups if you increase the retention period.
-* If you are trying to restore to a point in time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again
+* If you are trying to restore to a point in time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again.
+* The point in time restore duration depends on your database size and the transaction log size from last full backup. The SLA of restore time is 12 hours.
 
 ## **Recommended Documents**
 

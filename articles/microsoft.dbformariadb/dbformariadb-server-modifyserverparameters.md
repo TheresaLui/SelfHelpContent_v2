@@ -20,6 +20,8 @@ Azure Database for MariaDB allows you to configure parameters at a server level 
 
 ## **Recommended Steps**
 
+* To change the **time_zone* parameter, follow the [instruction](https://docs.microsoft.com/azure/mariadb/howto-server-parameters#working-with-the-time-zone-parameter) to populate the time zone table.
+* Review the [server parameter limitation](https://docs.microsoft.com/azure/mariadb/concepts-read-replicas#considerations-and-limitations) for read replica server.
 * If a parameter you'd like to configure is not listed, let us know by creating a new request or voting for existing requests in our [feedback forum](https://feedback.azure.com/forums/915439-azure-database-for-mariadb)
 
 ## **Recommended Documents**

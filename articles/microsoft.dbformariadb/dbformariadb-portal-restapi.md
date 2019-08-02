@@ -30,6 +30,6 @@ All Azure Database for MariaDB management operations can be performed using REST
 
 ## **Recommended Documents**
 
-* [Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/)<br>
+* [Azure Database for MariaDB documentation](https://docs.microsoft.com/azure/mariadb/)<br>
 * [Rest API for MariaDB](https://docs.microsoft.com/rest/api/mariadb/)<br>
 * [Resource types and versions](https://docs.microsoft.com/azure/templates/microsoft.dbformariadb/allversions)

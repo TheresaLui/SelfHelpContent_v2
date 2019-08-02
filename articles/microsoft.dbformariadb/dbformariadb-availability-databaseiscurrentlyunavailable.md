@@ -21,9 +21,9 @@ The "Can't connect to MariaDB server on.." message, dropped connections, and oth
 ## **Recommended Steps**
 
 * Try to reconnect to your server. If you can reconnect, consider [implementing retry logic](https://docs.microsoft.com/azure/mariadb/concepts-connectivity) to handle such transient errors and avoid application downtime.
-* Check if the storage size is full. If the storage size is full then you can either scale the storage or enable storage **auto-growth**.Review [How to enable storage auto-growth](https://docs.microsoft.com/azure/mariadb/howto-auto-grow-storage-portal#enable-storage-auto-grow)
-* Check the resource health for your server to see if there were any reported events on the service side that could have caused the connection disruption
-* If the **Resource health** for your server is not indicating any disruptions, consider the troubleshooting steps outline in the problem subtopic *Error while connecting to the server*
+* If the server is in read-only mode, please either increase the storage size using the portal as described in [reaching storage limit](https://docs.microsoft.com/azure/mariadb/concepts-pricing-tiers#reaching-the-storage-limit) or enable storage **auto-growth**.Review [How to enable storage auto-growth](https://docs.microsoft.com/azure/mariadb/howto-auto-grow-storage-portal#enable-storage-auto-grow).
+* Check the resource health for your server to see if there were any reported events on the service side that could have caused the connection disruption.
+* If the **Resource health** for your server is not indicating any disruptions, consider the troubleshooting steps outline in the problem subtopic *Error while connecting to the server*.
 
 ## **Recommended Documents**
 

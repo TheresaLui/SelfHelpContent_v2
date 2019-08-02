@@ -2,7 +2,7 @@
     pageTitle="Connection issues to MariaDB"
     description="Connection issues to MariaDB"
     service="microsoft.dbformariadb"
-    resource="servers"
+    resource="servers, databases"
     authors="ajlam"
     ms.author="andrela"
     displayOrder="50"

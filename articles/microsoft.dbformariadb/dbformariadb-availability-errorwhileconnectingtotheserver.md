@@ -20,13 +20,13 @@ Persistent connection issues when connecting to Azure Databases for MariaDB can 
 
 ## **Recommended Steps**
 
-* [Set up firewall rules](https://docs.microsoft.com/azure/mariadb/concepts-firewall-rules) to allow your client's IP address
+* [Set up firewall rules](https://docs.microsoft.com/azure/mariadb/concepts-firewall-rules) to allow your client's IP address.
 * If you are using VNets, ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mariadb/howto-manage-vnet-portal). Note that the Basic tier does not support VNet service endpoints.
-* Follow [connection recommendations](https://docs.microsoft.com/azure/mariadb/connect-workbench) on computers hosting your client programs
-* Fix [incorrect connection strings](https://docs.microsoft.com/azure/mariadb/howto-connection-string) in your application
-* Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mariadb/concepts-ssl-connection-security)
-* Review the [supported client driver list](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) and assure you are using a driver that is supported
-* Make sure the user you are using has the appropriate permissions
+* Follow [connection recommendations](https://docs.microsoft.com/azure/mariadb/connect-workbench) on computers hosting your client programs.
+* Fix [incorrect connection strings](https://docs.microsoft.com/azure/mariadb/howto-connection-string) in your application.
+* Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mariadb/concepts-ssl-connection-security).
+* Review the [supported client driver list](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) and assure you are using a driver that is supported.
+* Make sure the user you are using has the appropriate permissions.
 
 ## **Recommended Documents**
 

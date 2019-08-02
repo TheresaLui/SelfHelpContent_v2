@@ -24,11 +24,13 @@ Azure Database for MariaDB has rich support for managing your server in the Azur
 * You are using the correct subscription in case you have more than one
 * You specify all required parameters for the command you are using Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mariadb?view=azure-cli-latest) for required parameters and valid values.
 * If you are:
+
   * Creating server, review [Create an Azure Database for MariaDB using CLI](https://docs.microsoft.com/azure/mariadb/quickstart-create-mariadb-server-database-using-azure-cli)
   * Setting up firewall rules, review [How-to configure firewall rules using CLI](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-cli)
   * Trying to restore, review [How-to restore a server using CLI](https://docs.microsoft.com/azure/mariadb/howto-restore-server-cli)
   * Changing server parameters, review [How-to configure server parameters using CLI](https://docs.microsoft.com/azure/mariadb/howto-configure-server-parameters-cli)
   * Trying to access the server logs, review [How-to access server logs using CLI](https://docs.microsoft.com/azure/mariadb/howto-configure-server-logs-cli)
+  * Setting up replication, review [How-to setup replication using CLI](https://docs.microsoft.com/azure/mariadb/howto-read-replicas-cli)
   * Setting up virtual networks, review [How-to setup virtual networks using CLI](https://docs.microsoft.com/azure/mariadb/howto-manage-vnet-cli)
 
 ## **Recommended Documents**

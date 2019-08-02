@@ -35,3 +35,4 @@ Query performance issues can have many different root causes. Work through the r
 ## **Recommended Documents**
 
 * [Monitor and tune](https://docs.microsoft.com/azure/mysql/concepts-monitoring)<br>
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
