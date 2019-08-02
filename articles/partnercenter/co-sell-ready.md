@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-- For more information on co-sell deal registration contact isvdrops@microsoft.com.
+- For more information on co-sell deal registration, contact isvdrops@microsoft.com
 
 ## **Recommended Documents**
 
