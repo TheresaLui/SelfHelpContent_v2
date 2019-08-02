@@ -20,27 +20,24 @@
 
 ### **Prerequisites to follow before configuring Traffic Analytics**
 
-* Ensure you have the correct user access setup for your account and network watcher enabled for your subscription. [Use this link for reference.](https://docs.microsoft.com/azure/network-watcher/traffic-analytics#prerequisites)<br>
-
-### **Step-by-step Enable Traffic Analytics using Azure Portal**
-
-*  [Use this link for reference](https://docs.microsoft.com/azure/network-watcher/traffic-analytics#enable-flow-log-settings)<br>
+* Ensure you have the [correct user access setup for your account, and network watcher enabled for your subscription](https://docs.microsoft.com/azure/network-watcher/traffic-analytics#prerequisites)
+* [Enable Traffic Analytics using Azure Portal](https://docs.microsoft.com/azure/network-watcher/traffic-analytics#enable-flow-log-settings)<br>
 
 ### **Bytes and Packets data**
 
-*  To view bytes and packets data in Traffic Analytics, enable Flow Logs version 2. [Use this link for reference]( https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal)<br>
+*  To view bytes and packets data in Traffic Analytics, [enable Flow Logs version 2]( https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal)<br>
 
 ### **Faster procsessing interval**
 
-*  To view bytes and packets data in Traffic Analytics, enable Flow Logs version 2. [Use this link for reference]( https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard)<br>
+*  To [view bytes and packets data in Traffic Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard), enable Flow Logs version 2
 
 ### **Regions where NSGs can be enabled with Traffic Analytics**
 
-*  Supported regions for NSGs can be found in the official documentation. NSGs in regions other than the supported list cannot be enabled with Traffic Analytics. [Use this link for reference](https://docs.microsoft.com/azure/network-watcher/traffic-analytics#supported-regions)<br>
+*  Supported regions for NSGs can be found in the [documentation](https://docs.microsoft.com/azure/network-watcher/traffic-analytics#supported-regions). NSGs in regions other than the supported list cannot be enabled with Traffic Analytics.
 
 ### **Regions where Log Analytics workspace needs to be created for Traffic Analytics**
 
-*  Regions in which NSG may be enabled with Traffic Analytics and the region in which the Log Analytics workspace collecting data from Traffic Analytics can be different. Regions in which Traffic Analytics supports Log analytics workspaces can be found in official documentation. If region in which Traffic Analytics enabled NSG is present , differs from the region in which workspace resides, you may incur egress costs. [Use this link for reference.](https://docs.microsoft.com/azure/network-watcher/traffic-analytics#supported-regions)<br>
+*  Regions in which NSG may be enabled with Traffic Analytics and the region in which the Log Analytics workspace collecting data from Traffic Analytics can be different. Regions in which Traffic Analytics supports Log analytics workspaces can be found in [documentation](https://docs.microsoft.com/azure/network-watcher/traffic-analytics#supported-regions). If region in which Traffic Analytics enabled NSG is present differs from the region in which workspace resides, you may incur egress costs. 
 
 ## **Recommended Documents**
 
