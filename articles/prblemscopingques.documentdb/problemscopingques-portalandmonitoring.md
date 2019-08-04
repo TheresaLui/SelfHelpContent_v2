@@ -39,7 +39,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing",
             "required": true,
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
