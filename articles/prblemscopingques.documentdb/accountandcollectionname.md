@@ -28,7 +28,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
 			"diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -36,7 +36,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Database name",
-            "required": false
+            "required": false,
 			"diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -44,7 +44,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Collection name",
-            "required": false
+            "required": false,
 			"diagnosticInputRequiredClients": "Portal"
         },
         {
