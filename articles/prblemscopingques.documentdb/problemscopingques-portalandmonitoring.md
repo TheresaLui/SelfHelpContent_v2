@@ -26,52 +26,20 @@
             "required": true
         },
 		{
-            "id": "problem_duration",
+            "id": "session_id",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "How long was the issue observed?",
-            "required": false
-        },
-		{
-            "id": "session_id",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Provide the session Id for issue.",
-			"infoBalloonText": "Once the Portal has loaded, use [Ctrl] + [Alt] + [A] which will provide information about what subscriptions are currently loaded.",
-            "required": false
-        },
-		{
-            "id": "database_name",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Database name",
-            "required": false
-        },
-		{
-            "id": "collection_name",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Collection name",
+            "displayLabel": "Provide a Session Id for when you observe the issue.",
+			"infoBalloonText": "Once the Portal has loaded and you've reproduced the issue, use [Ctrl] + [Alt] + [A] in your browser to obtain the Session Id.",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you were facing",
             "required": true,
             "useAsAdditionalDetails": true,
-             "hints": [
-                {
-                    "text": "More information on the exact issue."
-                },
-                {
-                    "text": "Read/Write regions where the issue is experienced"
-                },
-                {
-                    "text": "Activity Id of the request (if available)."
-                }
-            ]
         }
     ],
     "$schema": "SelfHelpContent"
