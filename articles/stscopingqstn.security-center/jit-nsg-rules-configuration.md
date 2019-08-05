@@ -19,7 +19,7 @@
 
 Just In Time (JIT) works through creating network Security Group (NSG) inbound rules. When first configured, JIT creates low priority **Deny** rules for each port that your JIT policy defines for the virtual machine (VM).
 
-## JIT naming conventions
+### JIT naming conventions
 
 The naming convention for the rule is:
 
