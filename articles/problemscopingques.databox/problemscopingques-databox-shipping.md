@@ -43,6 +43,10 @@
                 {
                     "value": "Missing accessories",
                     "text": "Missing accessories"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -52,8 +56,8 @@
             "visibility": "issue == Missing accessories",
             "order": 110,
             "controlType": "multilinetextbox",
-            "displayLabel": "Name and version",
-            "watermarkText": "What accessories are missing from the shipment?",
+            "displayLabel": "What accessories are missing from the shipment?",
+            "watermarkText": "List out the accessories missing from the shipment",
             "required": true
         },
         {
@@ -69,7 +73,7 @@
             "id": "learn_more_text",
             "order": 700,
             "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/en-us/azure/databox/data-box-faq"
+            "content": "<a href='https://docs.microsoft.com/azure/databox/data-box-faq'>Learn more</a>"
         }
     ],
     "$schema": "SelfHelpContent"
