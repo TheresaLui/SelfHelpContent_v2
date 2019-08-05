@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure backup server Online backup is failing",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure backup server Online backup is failing",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_Type",
@@ -39,7 +44,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "os_version",
@@ -48,7 +54,8 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted Server?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "machine_name",
@@ -90,7 +97,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",
@@ -138,7 +146,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -213,7 +222,8 @@
             "visibility": "null",
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

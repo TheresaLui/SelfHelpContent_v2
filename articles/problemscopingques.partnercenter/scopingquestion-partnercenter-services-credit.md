@@ -17,7 +17,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Services Credit",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Ensure to attach the credit request and refund form before submitting the service request.",
     "formElements": [
         {
             "id": "pc_subscription_id",

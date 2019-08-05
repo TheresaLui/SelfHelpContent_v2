@@ -19,11 +19,9 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The following IP addresses:
+The following IP addresses: **<!--$IPAddresses-->[IPAddresses]<!--/$IPAddresses-->** 
 
-**<!--$IPAddresses-->IPAddresses<!--/$IPAddresses-->** 
-
-are not whitelisted for sending requests to account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->**.
+are not whitelisted for sending requests to account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -34,4 +32,4 @@ To configure IP policy-based access control, you must provide the set of IP addr
 
 ## **Recommended Documents**
 
-Please refer to this [article](https://docs.microsoft.com/azure/cosmos-db/firewall-support) to learn how to update the IP access control policy on this account.
+* [Update the IP Access Control Policy](https://docs.microsoft.com/azure/cosmos-db/firewall-support) 

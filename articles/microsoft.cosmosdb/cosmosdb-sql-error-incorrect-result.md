@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
-	supportTopicIds="32636788, 32636808"
+	selfHelpType="resource"
+	supportTopicIds="32636808"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-sql-error-incorrect-result"
+	displayOrder="64"
+	category="Core (SQL)"
 />
 
 # Errors for SQL API in Azure Cosmos DB

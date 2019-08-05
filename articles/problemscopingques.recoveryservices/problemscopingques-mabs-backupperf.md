@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure backup server backup is taking longer",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure backup server backup is taking longer",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_Type",
@@ -39,7 +44,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "mab_version",
@@ -93,7 +99,8 @@
             "visibility": "null",
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
