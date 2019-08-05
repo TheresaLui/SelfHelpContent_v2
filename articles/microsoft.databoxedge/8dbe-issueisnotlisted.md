@@ -20,4 +20,4 @@
 ## **Recommended Documents**
 
 * [Compare StorSimple with Azure File Sync and Data Box Edge data transfer options](https://docs.microsoft.com/azure/storsimple/storsimple-8000-choose-storage-solution)<br>
-* [Azure Data Box Edge security and data protection](https://docs.microsoft.com/en-us/azure/databox-online/data-box-edge-security)<br>
+* [Azure Data Box Edge security and data protection](https://docs.microsoft.com/azure/databox-online/data-box-edge-security)<br>
