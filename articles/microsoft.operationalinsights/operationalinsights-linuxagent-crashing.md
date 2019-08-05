@@ -5,6 +5,7 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="johnkemnetz"
+    ms.author="johnkem"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32612497"

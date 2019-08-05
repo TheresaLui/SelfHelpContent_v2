@@ -15,6 +15,7 @@ schemaVersion="1"
 # Agent not reporting data or Heartbeat data missing
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",

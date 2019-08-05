@@ -5,6 +5,7 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="johnkemnetz"
+    ms.author="johnkem"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32612462"
@@ -17,6 +18,7 @@
 # Linux Agent/HeartBeat-related issues
 
 ## **Recommended steps**
+
 If you are not seeing any heartbeat data in Log Analytics, try the following:
 
 * Ensure that you are running the [latest version of the agent](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#agent-and-vm-extension-version). You can see if you have the latest version by running `sudo sh ./omsagent-*.universal.x64.sh --version-check` on the machine. If you are not running the latest version, you can run `sudo sh ./omsagent-*.universal.x64.sh --upgrade` to upgrade.
