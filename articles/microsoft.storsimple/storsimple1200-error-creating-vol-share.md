@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-1. [Use StorSimple Device Manager service to manage volumes on the StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-manage-volumes#add-a-volume)<br>
-2. [Use the StorSimple Device Manager service to manage shares on the StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-manage-shares#add-a-share)
+* [Use StorSimple Device Manager service to manage volumes on the StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-manage-volumes#add-a-volume)<br>
+* [Use the StorSimple Device Manager service to manage shares on the StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-manage-shares#add-a-share)
