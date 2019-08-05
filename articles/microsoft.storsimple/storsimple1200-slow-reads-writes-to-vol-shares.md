@@ -21,5 +21,5 @@
 
 ## **Recommended Documents**
 
-[Troubleshoot via the local web UI](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#troubleshoot-web-ui-setup-errors)<br>
-[StorSimple Virtual Array system requirements](https://docs.microsoft.com/azure/storsimple/storsimple-ova-system-requirements)
+* [Troubleshoot via the local web UI](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#troubleshoot-web-ui-setup-errors)<br>
+* [StorSimple Virtual Array system requirements](https://docs.microsoft.com/azure/storsimple/storsimple-ova-system-requirements)
