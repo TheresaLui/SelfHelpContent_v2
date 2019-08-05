@@ -24,7 +24,6 @@ Try the following steps to diagnose and mitigate VM performance issues.<br>
 2. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization. On **Windows**, use the [Perfmon](https://docs.microsoft.com/windows-server/administration/windows-commands/perfmon) tool.
 3. [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and storage](https://support.microsoft.com/help/3150851/generic-performance-troubleshooting-for-azure-virtual-machine-running)<br>
 4. Review the different VM types in Azure, to resize click 'Size' in the Settings blade of the VM resource.  
-
 * [Azure Virtual Machine Sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes)
 * [General purpose VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-general)
 * [Compute optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-compute)

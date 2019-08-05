@@ -27,7 +27,6 @@ Try the following steps to diagnose and mitigate VM performance issues.<br>
 
 3. [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and storage](https://support.microsoft.com/help/3150851/generic-performance-troubleshooting-for-azure-virtual-machine-running)<br>
 4. Review the different VM types in Azure, to resize click 'Size' in the Settings blade of the VM resource. 
-
 * [Azure Virtual Machine Sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)
 * [General purpose VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-general)
 * [Compute optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-compute)
