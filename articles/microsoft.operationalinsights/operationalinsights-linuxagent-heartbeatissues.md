@@ -26,6 +26,7 @@ If you are not seeing any heartbeat data in Log Analytics, try the following:
 * Restart the OMI server daemon on the machine by running `sudo /opt/omi/bin/service_control restart`
 * Restart the machine.
 * Ensure that the agent successfully onboarded to the OMS Service by verifying that this file exists: `/etc/opt/microsoft/omsagent/<workspace id>/conf/omsadmin.conf`. The file will only exist if the agent successfully onboarded. If the file does not exist, review the [common onboarding error codes](https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Troubleshooting.md#onboarding-error-codes) and attempt to re-onboard the agent:<br>
+
 ```
 cd /opt/microsoft/omsagent/bin
 sudo ./omsadmin.sh -w <WorkspaceID> -s <WorkspaceKey>
