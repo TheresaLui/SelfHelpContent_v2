@@ -27,11 +27,10 @@ When a virtual machine (VM) is first configured to Just in Time (JIT), a policy 
 
 After creating the policy, you can edit each one per VM from the **Security Center portal – Just in time VM** access blade.
 
-## Using the Set-AzJitNetworkAccessPolicy PowerShell cmdlet
+### Using the Set-AzJitNetworkAccessPolicy PowerShell cmdlet
 
-When creating a new policy using PowerShell, the name must be set to "default".
-
-For any additional VMs that you want to add after first policy was set, you must create an array for all configured VMs. Otherwise, the current policy will override the existing "default" policy.
+* When creating a new policy using PowerShell, the name must be set to "default"
+* For any additional VMs that you want to add after first policy was set, you must create an array for all configured VMs. Otherwise, the current policy will override the existing "default" policy.
 
 We are going to improve this behavior in the future.
 
