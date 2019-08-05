@@ -15,6 +15,7 @@ schemaVersion="1"
 # Cannot uninstall agent
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",
