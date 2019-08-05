@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Diagnose and resolve Linux Virtual Machine performance issues"
-	description="Diagnose and resolve Linux Virtual Machine performance issues"
+	pageTitle="Diagnose and resolve Linux Virtual Machine GPU performance issues"
+	description="Diagnose and resolve Linux Virtual Machine GPU performance issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
@@ -14,9 +14,9 @@
 	articleId="55e5b484-ddbe-497f-bd1d-9adcb30216f8"
 />
 
-# Diagnose and resolve Linux Virtual Machine performance issues
+# Diagnose and resolve Linux Virtual Machine GPU performance issues
 
-Try the following steps to diagnose and mitigate VM performance issues.<br>
+Try the following steps to diagnose and mitigate VM GPU performance issues.<br>
 
 ## **Recommended Steps**
 

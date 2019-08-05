@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Diagnose and resolve Virtual Machine performance issues"
-	description="Diagnose and resolve Virtual Machine performance issues"
+	pageTitle="Diagnose and resolve Virtual Machine CPU performance issues"
+	description="Diagnose and resolve Virtual Machine CPU performance issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
@@ -14,9 +14,9 @@
 	articleId="f41ebb73-3970-4687-80dc-8b06e4335a57"
 />
 
-# Diagnose and resolve Virtual Machine performance issues
+# Diagnose and resolve Virtual Machine CPU performance issues
 
-Try the following steps to diagnose and mitigate VM performance issues.<br>
+Try the following steps to diagnose and mitigate VM CPU performance issues.<br>
 
 ## **Recommended Steps**
 
