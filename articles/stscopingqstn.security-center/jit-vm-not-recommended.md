@@ -22,8 +22,8 @@ The ASC recommendation *Just-In-Time network access control should be applied on
 For a VM to be eligible for JIT:
 
 * The subscription must be under Standard Pricing Tier. See [Pricing Page](https://azure.microsoft.com/pricing/details/security-center/) for more information.<br>
-* The VM is deployed through ARM. Classic VMs are not supported.<br>
-* NSG must exist on either VM or its subnet.
+* The VM is deployed through ARM. Classic VMs are not supported.
+* NSG must exist on either VM or its subnet
 
 ## **Recommended Documents**
 
