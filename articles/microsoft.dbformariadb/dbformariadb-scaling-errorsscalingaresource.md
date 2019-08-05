@@ -6,7 +6,7 @@
     authors="ambhatna"
     ms.author="ambhatna"
     displayOrder="170"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640119"
     resourceTags="servers, databases"
     productPesIds="16617"

@@ -6,7 +6,7 @@
     authors="sunilagarwal"
     ms.author="sunila"
     displayOrder="90"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640156"
     resourceTags="servers, databases"
     productPesIds="16617"
@@ -22,6 +22,7 @@ Query performance issues can have many different root causes. Work through the r
 
 * Review [Troubleshoot query performance in Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-troubleshoot-query-performance)
 * Use our intelligent performance features for additional insights:
+
   * [Query Store](https://docs.microsoft.com/azure/mariadb/concepts-query-store)
   * [Query Performance Insights](https://docs.microsoft.com/azure/mariadb/concepts-query-performance-insight)
   * [Performance Recommendations](https://docs.microsoft.com/azure/mariadb/concepts-performance-recommendations)
