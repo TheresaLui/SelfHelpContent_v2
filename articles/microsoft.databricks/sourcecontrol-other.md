@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [Configure version control](https://github.com/Azure/SelfHelpContent/new/master/articles/microsoft.databricks)
+* [Configure version control](https://docs.databricks.com/user-guide/notebooks/github-version-control.html#configure-version-control)
