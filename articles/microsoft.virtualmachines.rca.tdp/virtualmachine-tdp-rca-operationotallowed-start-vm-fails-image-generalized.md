@@ -21,6 +21,8 @@
 We have detected that the **<!--$OperationType-->operationType<!--/$OperationType-->** operation for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an issue due to the image being generalized.
 <!--/issueDescription-->
 
+## **Recommended Steps**
+
 A generalized VM is a virtual machine with personal account information removed so that its image can be used for creating other VMs. There is no way to return the VM that generated this error back to its original state as a functioning virtual machine, however the following options may be helpful:
 
 - Replace the VM by recreating it from the VHD used to create the original VM
@@ -29,7 +31,7 @@ A generalized VM is a virtual machine with personal account information removed 
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 To learn more about generalized and specialized VMs for **Windows**:<br>
 
