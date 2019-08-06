@@ -16,7 +16,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB Portal and Monitoring Issue",
-    "fileAttachmentHint": "Please attach a HAR file to expedite the investigation of the Portal issue. Open the developer tools in Chrome or Edge and reproduce your issue. After reproducing the issue, save the network traces as a HAR file.  In Chrome, right-click anywhere inside the Network pane and select 'Save as HAR with Content' or from the drop-down actions menu.  In Edge or Internet Explorer Click command to 'Export as HAR' or typing [Ctrl] + [S] This will open a dialog allowing you to select where to save your HAR file.",
+    "fileAttachmentHint": "Please attach a HAR file to expedite the investigation. Use [F12] to open the developer tools in your browser. Navigate to the Network tab. Reproduce the issue, while the network requests are being recorded. Save the network traces as a HAR file: in Chrome or Firefox, right-click inside the network pane of requests and select "Save all as HAR"; in Edge or Internet Explorer, select the "Export as HAR" command or type [Ctrl] + [S] in the Network tab.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -30,7 +30,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide a Session Id for when you observe the issue.",
-			"infoBalloonText": "Once the Portal has loaded and you've reproduced the issue, use [Ctrl] + [Alt] + [A] in your browser to obtain the Session Id.",
+			"infoBalloonText": "Once the Portal has loaded and you've reproduced the issue, use [Ctrl] + [Alt] + [A] in your browser. This generates a PortalDiagnostics.json file that contains the Session Id as 'sessionId.'",
             "required": false
         },
         {
