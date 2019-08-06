@@ -110,15 +110,14 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_start_time",
             "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": trueDPM Online backup is failing
         },
         {
             "id": "problem_description",
