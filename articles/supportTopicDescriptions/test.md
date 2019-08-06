@@ -17,7 +17,7 @@
    "productLink1":"",
    "productLink2":"",
    "productLink3": "",
-   "SupportTopics": [
+   "supportTopics": [
 	{
 	         "id": "32615525",
 	         "longDescription":"Cannot connect to my VM covers issues, ranging from incorrect password to network related problems",
