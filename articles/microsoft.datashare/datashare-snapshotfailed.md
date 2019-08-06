@@ -7,7 +7,7 @@
 	ms.author="joanpo"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32675627,32675629"
 	resourceTags=""
 	productPesIds="16762"
 	cloudEnvironments="public"

@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636807"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-cassandra-other"
+	displayOrder="144"
+	category="Cassandra"
 />
 
 # Apache Cassandra features Supported by Azure Cosmos DB Cassandra API

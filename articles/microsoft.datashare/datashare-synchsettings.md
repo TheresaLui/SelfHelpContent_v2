@@ -7,7 +7,7 @@
 	authors="joannapea"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32675620,32675630"
 	resourceTags=""
 	productPesIds="16762"
 	cloudEnvironments="public"

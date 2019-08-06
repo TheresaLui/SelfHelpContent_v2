@@ -13,10 +13,11 @@
 # Citrix VM Connectivity
 ---
 {
-    "resourceRequired": true,
-    "title": "Performance",
-    "fileAttachmentHint": "",
-    "formElements": [
+                "subscriptionRequired": true,
+                "resourceRequired": false,
+                "title": "Performance",
+                "fileAttachmentHint": "",
+                "formElements": [
         {
             "id": "problems_scenario_perf",
             "order": 1,

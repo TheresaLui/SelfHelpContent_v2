@@ -17,27 +17,35 @@
     "subscriptionRequired": false,
     "title": "HDInsight CRUD Issue",
     "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
+        "diagnosticCard": {
+        "title": "HDInsight CRUD Troubleshooter",
+        "description": "HDInsight CRUD Troubleshooter can help you troubleshoot and solve your CRUD problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "cluster_name",
             "order": 10,
             "controlType": "textbox",
             "displayLabel": "Cluster name",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "is_new_problem",

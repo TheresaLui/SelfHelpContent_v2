@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
 	ms.author="bharathb"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636784"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-mongodbmigration"
+	displayOrder="224"
+	category="MongoDB"
 />
 
 # Import MongoDB data into CosmosDB
