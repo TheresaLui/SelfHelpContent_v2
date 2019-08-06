@@ -50,6 +50,7 @@
       "actionId": "184ffcd3-5ecc-52g4-0c5b-c5d58ff0423f",
       "description": "View {version} release notes",
       "actionType": "Blade",
+      "extensionName": "Microsoft_Azure_Storage",
       "documentLink": "https://github.com/Azure/azure-storage-net-data-movement/releases/tag/v0.12.0"
     }
   ],
