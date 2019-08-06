@@ -36,7 +36,7 @@
             "valueProperty": "id",
             "textPropertyRegex": ".*"
 	    },
-            "required": false
+            "required": true
         },
         {
             "id": "os_version",
