@@ -44,7 +44,7 @@
       "actionId": "184ffcd3-5ecc-52g4-0c5b-c5d58ff0423e",
       "description": "Learn how to update your Storage Data Movement Library",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/nuget/consume-packages/install-use-packages-visual-studio"
+      "documentLink": "https://docs.microsoft.com/nuget/consume-packages/install-use-packages-visual-studio"
     },
     {
       "actionId": "184ffcd3-5ecc-52g4-0c5b-c5d58ff0423f",
