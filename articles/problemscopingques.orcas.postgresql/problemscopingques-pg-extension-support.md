@@ -40,29 +40,8 @@
             "required": true
         },
         {
-            "id": "operation",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "What operation do you want to perform?",
-            "dropdownOptions": [
-                {
-                    "value": "Enable",
-                    "text": "Enable"
-                },
-                {
-                    "value": "Disable",
-                    "text": "Disable"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or unsure"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",

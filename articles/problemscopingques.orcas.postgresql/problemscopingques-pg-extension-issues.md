@@ -52,17 +52,20 @@
                 {
                     "value": "Disable",
                     "text": "Disable"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or unsure"
                 }
             ],
+            "required": false
+        },
+        {
+            "id": "error",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error message that you are getting?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",
