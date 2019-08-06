@@ -21,7 +21,7 @@ A service outage can manifest itself in two ways. The first way is data in the p
 
 **Investigate Azure Portal Outage Checklist**<br>
 
-1. First check the [Azure Monitor Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) and [Azure Status Blog](https://status.azure.com/en-us/status) pages for outages
+1. First check the [Azure Monitor Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) and [Azure Status Blog](https://status.azure.com/status) pages for outages
 2. Does the screen show an error message?
 
   * if not this is likely an issue with **data collection**
@@ -38,7 +38,7 @@ A service outage can manifest itself in two ways. The first way is data in the p
 
 **Investigate Data Collection Checklist**<br>
 
-1. First check the [Azure Monitor Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) and [Azure Status Blog](https://status.azure.com/en-us/status) pages for outages
+1. First check the [Azure Monitor Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) and [Azure Status Blog](https://status.azure.com/status) pages for outages
 2. Follow the [no data guide](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data) to ensure your configuration is correct
 3. Navigate to https://dc.services.visualstudio.com/v2/track/ in a browser
 
