@@ -61,7 +61,7 @@
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error message that you are getting?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
