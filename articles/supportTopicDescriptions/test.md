@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Support topic description for VM running Windows"
-	description="Support topic description for Virtual machine running windows"
+	description="Support topic description for  Virtual machine running windows"
 	authors="akjoshi"
 	ms.author="akankshajsh"
 	productPesIds="14749"
