@@ -4,7 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="prateek9us"
-	displayOrder=""
+	displayOrder="10"
 	selfHelpType="generic"
 	supportTopicIds="32536465"
 	resourceTags=""

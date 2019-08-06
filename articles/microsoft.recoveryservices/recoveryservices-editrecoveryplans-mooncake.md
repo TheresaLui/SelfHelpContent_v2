@@ -4,7 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="ruturaj"
-	displayOrder=""
+	displayOrder="2"
 	selfHelpType="generic"
 	supportTopicIds="32536397, 32536398, 32536400"
 	resourceTags=" "
