@@ -16,13 +16,25 @@
 
 # IoT Hub direct method issues  
 
-## **Recommended Steps**
+Review [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods.
 
-* **404103 DeviceNotOnline** indicates that the device isn't reachable during the timeout period<br>
-* **404001 DeviceNotFound** indicates that the device isn't registered with IoT Hub<br>
-* **504101 GatewayTimeout** indicates that the device is online, but didn't respond during the timeout period<br>
-* **401002 AuthenticationFailed** indicates that either the authentication expired or the specified device isn't found.<br>
-* Review [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods
+## **Common Errors**
+
+**404103 DeviceNotOnline** 
+
+The device isn't reachable during the timeout period or if the device crashed/disconnected during the direct method request.
+
+**404001 DeviceNotFound** 
+
+The device isn't registered with IoT Hub. To fix, register the device.
+
+**504101 GatewayTimeout** 
+
+The device is online, but didn't respond during the timeout period.
+
+**401002 AuthenticationFailed** 
+
+Either the authentication expired or the specified device isn't found.
 
 ## **Recommended Documents**
 

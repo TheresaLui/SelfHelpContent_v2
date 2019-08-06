@@ -28,10 +28,8 @@ To learn more, see [IoT Hub Pricing FAQ](https://azure.microsoft.com/pricing/det
 
 **Common questions with IoT Hub throttling include:**
 
-| **Symptom** | **Cause** |
-|-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Didn't get 429 errors but have been throttled | IoT Hub only sends 429 ThrottlingException when the limit has been violated for too long. To learn more, see [Traffic shaping](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#traffic-shaping ). |
-| JobQuotaExceededException with device import or export jobs | You can only have one active import or export job at any point in time. |
+* If you **didn't get 429 errors but think you've been throttled**, it might be because IoT Hub only sends 429 ThrottlingException when the limit has been violated for too long. To learn more, see [Traffic shaping](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#traffic-shaping).
+* If you got **JobQuotaExceededException** with device import or export jobs, it's because you can only have one active import or export job at any point in time.
 
 To learn more, see [IoT hub throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#)
 
