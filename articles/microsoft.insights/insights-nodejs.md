@@ -94,7 +94,7 @@ If removing app insights from your application resolves the crashes, you can try
 
 **A 3rd party library is not being tracked**<br>
 
-A list of the 3rd party libraries & versions that we support native tracking of is here. If it is not on this list, you may still get tracking of it via our tracking of incoming/outgoing http/s requests, if the library uses it. If the (npm) version of the library you are using is not being automatically tracked, and you are using the latest version of the Application Insights Node.js SDK, please file a ticket or [bug report](https://github.com/microsoft/ApplicationInsights-node.js/issues/new).
+A list of the 3rd party libraries & versions that we support native tracking of is [here](https://github.com/Microsoft/node-diagnostic-channel/blob/master/src/diagnostic-channel-publishers/README.md). If it is not on this list, you may still get tracking of it via our tracking of incoming/outgoing http/s requests, if the library uses it. If the (npm) version of the library you are using is not being automatically tracked, and you are using the latest version of the Application Insights Node.js SDK, please file a ticket or [bug report](https://github.com/microsoft/ApplicationInsights-node.js/issues/new).
 
 **Telemetry is not being collected**<br>
 
