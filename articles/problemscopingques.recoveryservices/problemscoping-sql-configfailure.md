@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for unable to configure or disable DB backup"
          description="Scoping questions for unable to configure or disable DB backup"
          authors="srinathvasireddy"
-	 ms.author="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605793"
          productPesIds="15207"
@@ -35,10 +35,6 @@
             "textProperty": "name",
             "valueProperty": "id",
             "textPropertyRegex": ".*"
-	     "defaultDropdownOptions": {
-                           "value": "dont_know_answer",
-                           "text": "Other or none of the above"
-                     },
 	    },
             "required": false
         },
@@ -117,7 +113,8 @@
             "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": trueDPM Online backup is failing
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
