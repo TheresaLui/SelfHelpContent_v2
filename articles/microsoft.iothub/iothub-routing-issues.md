@@ -18,7 +18,7 @@
 ## **Recommended Steps** 
 
 1. To check the health status of your endpoint, go to **Custom endpoints** in [**Message routing**](data-blade:Microsoft_Azure_IotHub.RoutingBlade.id.$resourceId)
-1. To see the traffic, latency, and if messages have been dropped or orphaned, go to [**Metrics**]((data-blade:Microsoft_Azure_Monitoring.MetricsBladeV3.ResourceId.$resourceId)). For example:
+1. To see the traffic, latency, and if messages have been dropped or orphaned, go to [**Metrics**]((data-blade:Microsoft_Azure_Monitoring.MetricsBladeV3.ResourceId.$resourceId). For example:
 
 	* Use *Routing: telemetry messages dropped* to see number of messages dropped due to dead endpoints
 	* Use *Routing: telemetry messages orphaned* to see number of messages that didn't match any routing rules, including the fallback route

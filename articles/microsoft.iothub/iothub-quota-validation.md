@@ -18,9 +18,7 @@
 
 ## **Recommended Steps**
 
-### Quota
-
-Common reasons for unexpectedly hitting daily quota include:
+**Common reasons for unexpectedly hitting daily quota include:**
 
 * If you're using free (F1) edition IoT Hub, it has a smaller message meter size at 0.5 KB (as opposed to 4KB for the paid editions). This might cause you to hit daily quota sooner than expected. [Unfortunately, it's not possible to upgrade from free IoT Hub to paid](https://azure.microsoft.com/pricing/details/iot-hub/). <br>
 * Typically each file upload uses two messages, one for initiation and one for completion.<br>
@@ -28,11 +26,9 @@ Common reasons for unexpectedly hitting daily quota include:
 
 To learn more, see [IoT Hub Pricing FAQ](https://azure.microsoft.com/pricing/details/iot-hub/)
 
-### Throttling
+**Common questions with IoT Hub throttling include:**
 
-Common questions with IoT Hub throttling include:
-
-| Symptom | Cause |
+| **Symptom** | **Cause** |
 |-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Didn't get 429 errors but have been throttled | IoT Hub only sends 429 ThrottlingException when the limit has been violated for too long. To learn more, see [Traffic shaping](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#traffic-shaping ). |
 | JobQuotaExceededException with device import or export jobs | You can only have one active import or export job at any point in time. |

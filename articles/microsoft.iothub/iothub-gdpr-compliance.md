@@ -6,7 +6,7 @@
 	authors="jlian,meetshamir,jtanner-msft"
 	 ms.author="jlian,saziz,jtanner"
 	displayOrder="75"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32630552"
 	resourceTags=""
 	productPesIds="15946"

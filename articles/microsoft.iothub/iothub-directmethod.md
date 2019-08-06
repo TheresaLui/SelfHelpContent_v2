@@ -18,10 +18,10 @@
 
 ## **Recommended Steps**
 
-* Error 404103 DeviceNotOnline indicates that the device isn't reachable during the timeout period<br>
-* Error 404001 DeviceNotFound indicates that the device isn't registered with IoT Hub<br>
-* Error 504101 GatewayTimeout indicates that the device is online, but didn't respond during the timeout period<br>
-* Error 401002 AuthenticationFailed indicates that either the authentication expire or the specified device isn't found.<br>
+* **404103 DeviceNotOnline** indicates that the device isn't reachable during the timeout period<br>
+* **404001 DeviceNotFound** indicates that the device isn't registered with IoT Hub<br>
+* **504101 GatewayTimeout** indicates that the device is online, but didn't respond during the timeout period<br>
+* **401002 AuthenticationFailed** indicates that either the authentication expired or the specified device isn't found.<br>
 * Review [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods
 
 ## **Recommended Documents**

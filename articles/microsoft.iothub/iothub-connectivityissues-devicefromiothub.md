@@ -21,7 +21,7 @@
 1. Make sure the device isn't accidentally disabled in [IoT Devices tab](data-blade:Microsoft_Azure_IotHub.DeviceExplorerBlade.id.$resourceId)
 2. If you have [logs turned on](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#cloud-to-device-commands), check for common issues under the category C2DCommands:
 
-| Issue | Cause | Mitigation |
+| **Issue** | **Cause** | **Mitigation** |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 404001 DeviceNotFound | The specified device isn't registered IoT Hub or device is not online | Find the device ID (properties column in logs) and register it with IoT Hub |
 | MessageExpired | Cloud-to-device message expired because the device hasn't processed the the message in time. The device might've be offline. | See [C2D message time to live](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-c2d#message-expiration-time-to-live) |
