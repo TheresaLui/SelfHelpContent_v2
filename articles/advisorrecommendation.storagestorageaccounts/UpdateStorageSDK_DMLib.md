@@ -1,7 +1,7 @@
 <properties
     pageTitle="Update your Storage Data Movement Library to the latest version"
     description="Update your Storage Data Movement Library to the latest version"
-    authors="xdataanalytics"
+    authors="yinfan"
     ms.author="xdataanalytics"
     articleId="02cfb5ef-z9b0-3522-8743-142gceb10057_Public"
     selfHelpType="advisorRecommendationMetadata"
