@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="rashan, scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_RCA-operationotallowed-start-vm-fails-image-generalized"
 	diagnosticScenario="DeploymentFailure"
