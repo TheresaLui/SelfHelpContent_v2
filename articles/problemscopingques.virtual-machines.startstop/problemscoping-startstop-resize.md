@@ -44,8 +44,26 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "startstop_inportal",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Did you have problem resizing in portal?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -53,7 +71,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
