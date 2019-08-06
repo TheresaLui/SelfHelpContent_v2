@@ -13,6 +13,7 @@
 # Start or Stop My VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "I am unable to resize my VM",
     "fileAttachmentHint": "",
