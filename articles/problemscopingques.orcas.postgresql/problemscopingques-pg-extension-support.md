@@ -37,7 +37,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the version of the extension?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
