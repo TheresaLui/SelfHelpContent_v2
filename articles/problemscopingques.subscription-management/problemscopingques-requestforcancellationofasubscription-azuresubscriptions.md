@@ -15,6 +15,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Request for Cancellation of a Subscription",
     "fileAttachmentHint": "",
     "formElements": [
@@ -39,7 +40,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Reason for cancellation",
             "watermarkText": "Provide the reason for cancellation",
-            "required": true
+            "required": false
         },
         {
             "id": "error_description",
