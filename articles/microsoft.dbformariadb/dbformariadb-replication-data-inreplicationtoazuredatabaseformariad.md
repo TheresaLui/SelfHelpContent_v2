@@ -20,12 +20,12 @@ Data-in Replication allows you to synchronize data from a MariaDB server running
 
 ## **Recommended Steps**
 
-* Review [considerations and limitations](https://docs.microsoft.com/azure/mariadb/concepts-data-in-replication#limitations-and-considerations) of data-in replication.
-* Review how to configure [data-in replication](https://docs.microsoft.com/azure/mariadb/howto-data-in-replication).
+* Review [considerations and limitations](https://docs.microsoft.com/azure/mariadb/concepts-data-in-replication#limitations-and-considerations) of data-in replication
+* Review how to configure [data-in replication](https://docs.microsoft.com/azure/mariadb/howto-data-in-replication)
 * If the master server has SSL enabled, ensure the SSL CA certificate provided for the domain has been included in the "mariadb.az_replication_change_master" stored procedure. Refer to the following [examples](https://docs.microsoft.com/azure/mariadb/howto-data-in-replication#link-the-master-and-replica-servers-to-start-data-in-replication) and the "master_ssl_ca" parameter.
 * Ensure the master server's IP address has been added to the Azure Database for MariaDB replica server's firewall rules. Update firewall rules using the [Azure portal](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-portal) or [Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-cli).
-* Ensure the machine hosting the master server allows both inbound and outbound traffic on port 3306.
-* Ensure the the master server has **Public IP address** or the DNS is public accessible.
+* Ensure the machine hosting the master server allows both inbound and outbound traffic on port 3306
+* Ensure the the master server has **Public IP address** or the DNS is public accessible
 
 ## **Recommended Documents**
 
