@@ -52,6 +52,9 @@
             "hints": [
                 {
                     "text": "Learn more: <a href='https://docs.microsoft.com/azure/billing/billing-avoid-charges-free-account'> Avoid charges with Azure free account </a>."
+                },
+		 {
+                    "text": "Learn more: <a href='https://docs.microsoft.com/azure/billing/billing-understand-your-usage'> Understand your charge</a>."
                 }
             ],
             "required": true
