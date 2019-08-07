@@ -1,17 +1,17 @@
 <properties
-    pageTitle="Adjusting Azure Data Lake Analytics Quotas"
-    description="Manage Quotas on Azure Data Lake Analytics"
-    service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+    	pageTitle="Adjusting Azure Data Lake Analytics Quotas"
+    	description="Manage Quotas on Azure Data Lake Analytics"
+    	service="Microsoft.DataLakeAnalytics"
+	resource="accounts"
 	authoralias="guyhay"
-	authors="guyhayMSFT"
-    ms.author="guyhay"
-	displayOrder=""
+	authors="guyhay"
+    	ms.author="guyhay"
+	displayOrder="1"
 	selfHelpType="resource"
 	productPesIds="15940"
-    supportTopicIds="32680642"
+   	supportTopicIds="32680641"
 	cloudEnvironments="public"
-    articleId="datalakeanalytics-adjust-quota-limits"	
+   	articleId="datalakeanalytics-adjust-quota-limits"	
 />
 # Manage Quotas on Azure Data Lake Analytics
 
@@ -28,4 +28,4 @@ Quotas define the limits of resources that a user subscription or Azure Data Lak
 
 ## **Recommended Documents**
 
-* [Adjust quotas and limits in Azure Data Lake Analytics](https://docs.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-quota-limits)<br>
+* [Adjust quotas and limits in Azure Data Lake Analytics](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-quota-limits)<br>
