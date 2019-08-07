@@ -20,7 +20,7 @@
 
 1. Try sending a direct method to the device using the [IoT Devices tab](data-blade:Microsoft_Azure_IotHub.DeviceExplorerBlade.id.$resourceId)
 1. Try sending a direct method to a different device
-1. Review [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods.
+1. Review [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods
 1. If you have [logs turned on](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#direct-methods), check for common issues under the category DirectMethods:
 
 **404103 DeviceNotOnline** 
