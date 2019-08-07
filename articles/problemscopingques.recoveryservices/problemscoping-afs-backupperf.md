@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure File Share backup performance issue",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure File Share backup performance diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "storage_account_name",
@@ -24,7 +29,7 @@
             "controlType": "dropdown",
             "displayLabel": "Which storage account(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the storage account(s)",
-	    "dynamicDropdownOptions": {
+	          "dynamicDropdownOptions": {
             "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Storage/storageAccounts' or resourceType eq 'Microsoft.ClassicStorage/storageAccounts'",
             "jTokenPath": "value",
             "textProperty": "name",
@@ -35,7 +40,8 @@
                 "text": "Other, don't know or not applicable"
             }
           },
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "fileshare_Name",

@@ -1,5 +1,4 @@
-﻿<properties
-	
+<properties
 	articleId="problemscopingques-visualstudio-pipelines-buildandrelease-build"
 	pageTitle="Scoping questions for Pipelines Build Issues"
 	description="Scoping questions for Pipelines Build Issues"
@@ -10,8 +9,6 @@
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	
-
 />
 # Pipelines Issues Build
 ---

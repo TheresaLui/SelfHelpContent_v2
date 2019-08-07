@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636787"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-cassandra-errorsincorrectresult"
+	displayOrder="142"
+	category="Cassandra"
 />
 
 # Azure Cosmos DB Cassandra API - Common errors

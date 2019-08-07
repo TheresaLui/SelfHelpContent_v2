@@ -11,6 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-sql-query"
+	displayOrder="65"
+	category="Core (SQL)"
 />
 
 # SQL queries for Azure Cosmos DB
