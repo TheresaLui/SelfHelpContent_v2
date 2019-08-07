@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Issues Signing In or Accessing My Subscriptions",
     "fileAttachmentHint": "",
     "formElements": [
