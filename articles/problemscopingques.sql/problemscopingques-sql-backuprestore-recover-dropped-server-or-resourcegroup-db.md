@@ -50,7 +50,7 @@
         },
         {
             "id": "target_server_name",
-     	    "order": 2,
+     	    "order": 3,
             "visibility": "resource_type_dropdown == Server",
             "controlType": "textbox",
             "displayLabel": "What is the server or resourcegroup that was deleted?",
@@ -59,7 +59,7 @@
         },
 	{
             "id": "target_server_resourcegroup_name",
-     	    "order": 2,
+     	    "order": 4,
             "visibility": "resource_type_dropdown == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "What is the server or resourcegroup that was deleted?",
@@ -68,7 +68,7 @@
         },
 	{
             "id": "problem_start_time",
-            "order": 3,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When was this deleted?",
             "infoBalloonText": "Enter the approximate time when this was deleted.",
