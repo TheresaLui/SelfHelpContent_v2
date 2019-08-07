@@ -132,6 +132,9 @@
                 {
                     "text": "Learn more on <a href='https://azure.microsoft.com/pricing/reserved-vm-instances/'>RI pricing</a>."
                 },
+		   {
+                    "text": "Learn more on <a href='https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges'>RI discounts</a>."
+                },
                 {
                     "text": "Returns and exchanges can be done via self-service option directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
                 },
