@@ -38,5 +38,5 @@ check the serverResponseLatency values in the [Application Gateway access log](h
 
 - [Check throughput limits for application gateway](https://azure.microsoft.com/documentation/articles/application-gateway-introduction/).
 - [Migrate to high-performance V2 SKU of Application Gateway](https://docs.microsoft.com/azure/application-gateway/migrate-v1-v2).
-- [Troubleshoot 502 Bad Gateway error](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-troubleshooting-502)
+- [Troubleshoot 502 Bad Gateway error](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502)
 - Learn more about [Performance metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#metrics)
