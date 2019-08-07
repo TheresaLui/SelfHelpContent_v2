@@ -1,46 +1,45 @@
 <properties
-	pageTitle="Refund Request"
-	description="Refund Request"
-	articleId="refundrequest"
+	pageTitle="Unexpected Charges-issuenotlisted"
+	description="Unexpected Charges-issuenotlisted"
+	articleId="unexpectedcharges-problemscopingquestions-issuenotlisted"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454868"
+	supportTopicIds="32680683"
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
-
-# Refund Request
+# Unexpected Charges-issuenotlisted
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false,
-    "title": "Refund Request",
+    "subscriptionRequired": true,
+    "title": "Unexpected Charges-issuenotlisted",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
-            "visibility": null,
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Problem Start Date",
             "required": true
         },
-        {
-            "id": "refundamount_details",
+         {
+            "id": "subscriptionid_details",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Refund Amount",
-            "watermarkText": "Provide the refund amount",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "Provide your Subscription id",
             "required": true
         },
         {
-            "id": "refundreason_details",
+            "id": "error_details",
             "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Reason for the Refund ",
-            "watermarkText": "Provide the reason for the refund",
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": false,
+            "displayLabel": "Screenshot of any error message",
+            "watermarkText": "",
             "required": false
         },
         {
@@ -48,12 +47,8 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Please provide any additional details (if any)",
-	     "hints": [
-                {
-                    "text": "If you are an indirect EA customer, please log your request via <a href='ea.azure.com'>EA portal</a> only"
-                }
-	],
+            "displayLabel": "Brief summary of the issue",
+            "watermarkText": "Provide brief summary of the issue",
             "required": true
         }
     ],
