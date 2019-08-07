@@ -15,7 +15,7 @@
 ---
 {
     "resourceRequired": false,
-    "subsscriptionRequired": false,
+    "subscriptionRequired": false,
     "title": "Assist me with pricing model",
     "fileAttachmentHint": "",
     "formElements": [
