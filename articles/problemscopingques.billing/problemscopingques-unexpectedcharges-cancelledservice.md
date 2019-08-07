@@ -31,7 +31,7 @@
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "Provide your Subscription id",
-            "required": true
+            "required": false
         },
         {
             "id": "service_details",
