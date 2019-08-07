@@ -27,9 +27,9 @@
   "owner": {
     "email": "orcasql-livesite@service.microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://AZURE OSS DATABASES/Open Source RDBMS",
+      "service": "Azure OSS Databases",
+      "team": "Open Source RDBMS (Project OrcaSQL)"
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },
