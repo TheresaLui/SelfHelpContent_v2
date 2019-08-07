@@ -55,7 +55,30 @@
             "watermarkText": "",
             "required": false
         },
-        {
+	{
+            "id": "customer_details3",
+            "order": 15,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have any outstanding balance?",
+            "watermarkText": "",
+	    "infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#download-usage'>this </a> to resolve any outstanding balance",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+        },
+	{
             "id": "orderid_details",
             "order": 4,
             "controlType": "textbox",
