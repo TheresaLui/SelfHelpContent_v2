@@ -15,6 +15,13 @@
 />
 # HDInsights General Guidance/Advisory 
 
+If you have a question about how HDInsight works or whether a scenario is supported with HDInsight, then a support case should not be opened. Microsoft recommends that you follow these steps:
+
+1. Check if the issue has a troubleshooting topic on [docs.microsoft.com](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide).
+1. Check if this issue was raised in the [forums](https://social.msdn.microsoft.com/Forums/home?forum=hdinsight).
+1. Check if the issue was raised on [Stack Overflow](https://stackoverflow.com/questions/tagged/hdinsight).
+1. If there are not any matching docs or discussions, please open an issue on one of those two forums.
+
 ## **Recommended Documents**
 
 * [Azure HDInsight Overview](https://docs.microsoft.com/azure/hdinsight/)<br> 
