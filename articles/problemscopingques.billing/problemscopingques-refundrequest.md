@@ -51,7 +51,7 @@
             "displayLabel": "Please provide any additional details (if any)",
 	     "hints": [
                 {
-                    "text": "If you are an **indirect EA** customer, please log your request via <a href='ea.azure.com'>EA portal</a> only"
+                    "text": "If you are an indirect EA customer, please log your request via <a href='ea.azure.com'>EA portal</a> only"
                 }
 	],
             "required": true
