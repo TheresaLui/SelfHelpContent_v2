@@ -28,7 +28,7 @@ The specified device isn't registered IoT Hub or device is not online. Find the 
 
 **MessageExpired** 
 
-The C2D message expired because the device hasn't processed the the message in time. Typically this is because device was offline. To resolve, see [C2D message time to live](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-c2d#message-expiration-time-to-live).
+The C2D message expired because the device hasn't processed the message in time. Typically this is because device was offline. To resolve, see [C2D message time to live](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-c2d#message-expiration-time-to-live).
 
 **DeliveryCountExceeded** 
 
