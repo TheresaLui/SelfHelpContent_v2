@@ -28,24 +28,21 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "cluster_name",
             "order": 10,
             "controlType": "textbox",
             "displayLabel": "Cluster name",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "is_new_problem",
