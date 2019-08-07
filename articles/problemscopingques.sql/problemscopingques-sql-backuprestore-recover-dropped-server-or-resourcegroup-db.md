@@ -53,7 +53,7 @@
      	    "order": 3,
             "visibility": "resource_type_dropdown == Server",
             "controlType": "textbox",
-            "displayLabel": "What is the server or resourcegroup that was deleted?",
+            "displayLabel": "What is the server that was deleted?",
             "infoBalloonText": "Enter the name of the server that was deleted and you want to restore.",
             "required": false
         },
@@ -81,7 +81,7 @@
             "displayLabel": "Please provide additional context for the restore",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide additional context about how the resource was deleted, Business justification for restore , any other specifications."
+            "watermarkText": "Please provide additional context about how the resource was deleted, business justification for restore , and any other specifications if needed."
         }
     ],
     "$schema": "SelfHelpContent"
