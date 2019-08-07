@@ -17,35 +17,27 @@
     "subscriptionRequired": true,
     "title": "CosmosDB Database and Collection Info",
     "fileAttachmentHint": "",
-	"diagnosticCard": {
-        "title": "CosmosDB Database and Collection Info",
-        "description": "Our CosmosDB Database and Collection Info Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
-    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-			"diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "database_name",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Database name",
-            "required": false,
-			"diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "collection_name",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Collection name",
-            "required": false,
-			"diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "problem_description",
