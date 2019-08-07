@@ -40,7 +40,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Name of the service",
             "watermarkText": "",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description1",
@@ -49,7 +49,7 @@
             "useAsAdditionalDetails": false,
             "displayLabel": "Screenshot of the portal that service is cancelled",
             "watermarkText": "",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
