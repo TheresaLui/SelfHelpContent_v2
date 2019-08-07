@@ -19,10 +19,9 @@
 ## **Recommended Steps**
 
 1. Make sure the device isn't accidentally disabled in [IoT Devices tab](data-blade:Microsoft_Azure_IotHub.DeviceExplorerBlade.id.$resourceId)
-2. If you're having trouble connecting your device to IoT Hub for the first time, try testing the connection with a [default sample](https://docs.microsoft.com/azure/iot-hub/tutorial-connectivity) and running our [diagnostic tool](https://github.com/azure/iothub-diagnostics)
-3. If you can get the sample to work but not your own application, check to see if there's an authorization or firewall issue: [IoT Hub device side troubleshooting guide](https://github.com/Azure/azure-iot-sdk-node/wiki/Troubleshooting-Guide-Devices#cannot-connect-to-your-azure-iot-hub)
-4. If the device was connected to IoT Hub but the connection dropped unexpectedly, get the error code(s) (400xxx, 500xxx) from diagnostic logs and check if there's solution in our device disconnection guide: [IoT Hub disconnection errors and solutions](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-connectivity)
-5. If you have access to the device either physically or remotely (like SSH), see if you can get the logs from the device to find out more. These logs will also help our support team to help you troubleshoot.
+1. For the most reliable connectivity, try using the latest version of our [device client SDKs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks#azure-iot-hub-device-sdks) if possible.
+1. Get the error code(s) (400xxx, 500xxx) from diagnostic logs and check if there's solution in our device disconnection guide: [IoT Hub disconnection errors and solutions](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-connectivity).
+1. If you have access to the device either physically or remotely (like SSH), see if you can get the logs from the device to find out more. These logs will also help our support team to help you troubleshoot.
 
 ## **Recommended Documents**
 
