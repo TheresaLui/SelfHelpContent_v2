@@ -23,8 +23,8 @@ Quotas define the limits of resources that a user subscription or Azure Data Lak
 2. The default values for new Azure Data Lake accounts are 5 accounts, up to 250 AUs for each job and 20 concurrent jobs
 3. If you want to lower these values, you can in the ADLA portal blade without creating a support incident
 4. If you want to increase these values, please continue creating the support request  
-5. If you want to increase the number of Azure Data Lake accounts We will need the subscription GUID and region
-6. If you want to increase the maximum number of concurrent AUs or maximum number of concurrent jobs we will need the subscription GUID, ADLA account name and region
+5. If you want to increase the number of Azure Data Lake accounts we will need the subscription GUID and region
+6. If you want to increase the maximum number of concurrent AUs or maximum number of concurrent jobs we will need the subscription GUID, ADLA account name, and region
 
 ## **Recommended Documents**
 
