@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Pay by Invoice",
     "fileAttachmentHint": "",
     "formElements": [
