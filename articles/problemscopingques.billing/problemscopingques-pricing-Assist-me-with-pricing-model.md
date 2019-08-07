@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Azure Subscriptions and Services"
-	description="Azure Subscriptions and Services"
-	articleId="pricing-azuresubscriptionsandservicesscopingquestions"
+	pageTitle="Assist me with pricing model"
+	description="Assist me with pricing model"
+	articleId="pricing-assistmewithpricingmodel"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
@@ -11,11 +11,11 @@
 	schemaVersion="1"
 />
 
-# Pricing -Azure Subscriptions and Services
+# Pricing -Assist me with pricing model
 ---
 {
     "resourceRequired": false,
-    "title": "Azure Subscriptions and Services",
+    "title": "Assist me with pricing model",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -39,6 +39,9 @@
                 },
                 {
                     "text": "Know more about Azure pricing -  <a href='https://azure.microsoft.com/pricing/faq/'>here</a>."
+                },
+		{
+                    "text": "Know more about Marketplace pricing -  <a href='https://docs.microsoft.com/en-us/azure/marketplace/marketplace-faq-publisher-guide'>here</a>."
                 }
             ]
         }
