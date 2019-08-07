@@ -11,7 +11,7 @@
     diagnosticScenario="ApplicationGateway502BadGatewayError"
     supportTopicIds="32573483"
 	productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Bad Gateway Error (502)
