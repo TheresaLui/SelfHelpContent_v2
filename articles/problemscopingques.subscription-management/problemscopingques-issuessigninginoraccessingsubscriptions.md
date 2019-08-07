@@ -112,7 +112,7 @@
         {
             "id": "browser_details2",
             "order": 6,
-            "visibility": "browser_details1 == Other",
+            "visibility": "browser_details1 == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please provide the Browser Information",
             "required": false
