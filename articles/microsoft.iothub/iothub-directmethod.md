@@ -16,7 +16,7 @@
 
 # IoT Hub direct method issues  
 
-## Recommended Steps**
+## **Recommended Steps**
 
 1. Try sending a direct method to the device using the [IoT Devices tab](data-blade:Microsoft_Azure_IotHub.DeviceExplorerBlade.id.$resourceId)
 1. Try sending a direct method to a different device
