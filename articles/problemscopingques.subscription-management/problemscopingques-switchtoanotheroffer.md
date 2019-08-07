@@ -29,7 +29,7 @@
         },
 	{
             "id": "SubscriptionId",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the Subscription ID",
             "watermarkText": "Choose an option",
@@ -56,7 +56,7 @@
         },
         {
             "id": "subscriptionid_details",
-            "order": 2,
+            "order": 3,
             "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
@@ -65,7 +65,7 @@
         },
         {
             "id": "offertype_details",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Select the new Offer type to convert to",
             "watermarkText": "Select the new Offer type to convert to",
@@ -127,7 +127,7 @@
         },
         {
             "id": "offertype_details2",
-            "order": 4,
+            "order": 5,
             "visibility": "offertype_details == Other",
             "controlType": "textbox",
             "displayLabel": " Provide the Offer Type",
@@ -136,7 +136,7 @@
         },
 	{
             "id": "reason_details",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Reason for switching",
             "watermarkText": "Provide the reason for switching",
@@ -144,7 +144,7 @@
         },
 	{
             "id": "error_details",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message (if any)",
             "watermarkText": "",
@@ -152,7 +152,7 @@
         },
 	 {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide a brief description of the issue",
             "watermarkText": "Provide a brief description of the issue",
