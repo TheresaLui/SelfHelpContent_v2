@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Request for Cancellation of a Subscription - browser problem"
 	description="Request for Cancellation of a Subscription - browser problem"
-	articleId="requestforcancellationofasubscriptionthirdpartypurchase"
+	articleId="requestforcancellationofasubscriptionbrowserproblems"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
