@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Request to re-enable a Subscription"
-	description="Request to re-enable a Subscription"
-	articleId="requestforcancellationofasubscriptionthirdpartypurchase"
+	pageTitle="Request for Cancellation of a Subscription - issue not listed"
+	description="Request for Cancellation of a Subscription - issue not listed"
+	articleId="requestforcancellationofasubscriptionissuenotlisted"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32632954"
+	supportTopicIds="32680688"
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 
-# Re-enable a Subscription
+#  Request for Cancellation of a Subscription- issue not listed
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Re-enable a Subscription",
+    "title": "Request for Cancellation of a Subscription - issue not listed",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -26,7 +26,7 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
-	{
+        {
             "id": "subscriptionid",
             "order": 2,
             "controlType": "textbox",
@@ -35,38 +35,22 @@
             "required": true
         },
         {
-            "id": "reason_description",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Reason for re-enabling",
-            "watermarkText": "Provide the reason for re-enabling",
-            "required": false
-        },
-        {
             "id": "error_description",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message encountered (if any)",
             "watermarkText": "Provide the error message encountered",
             "required": false
         },
-	{
-            "id": "email_description",
-            "order": 5,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Email notification (if any) about subscription suspension",
-            "watermarkText": "",
-            "required": false
-        },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details (if any)",
-            "watermarkText": "Provide any other additional relevant details",
+            "watermarkText": "Describe your problem, providing as much detail as possible",
             "required": true
-           }
+	    }
     ],
     "$schema": "SelfHelpContent"
 }

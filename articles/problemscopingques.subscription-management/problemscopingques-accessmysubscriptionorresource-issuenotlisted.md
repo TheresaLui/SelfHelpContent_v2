@@ -1,22 +1,21 @@
 <properties
-	pageTitle="Request for Cancellation of a Subscription"
-	description="Request for Cancellation of a Subscription"
-	articleId="requestforcancellationofasubscriptionazuresubscriptions"
+	pageTitle="Unable to access my subscription or resource- issue not listed"
+	description="Unable to access my subscription or resource- issue not listed"
+	articleId="unabletoaccessmysubscriptionorresource-issuenotlisted-problemscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32632949"
+	supportTopicIds="32680689"
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
-
-# Azure Subscription Cancellation
+# Unable to access my subscription or resource- issue not listed
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Request for Cancellation of a Subscription",
+    "title": "Unable to access my subscription or resource- issue not listed",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -26,39 +25,31 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
-	{
-            "id": "subscriptionId",
+        {
+            "id": "subscription_id",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "",
             "required": true
         },
-	{
-            "id": "reason_description",
+        {
+            "id": "error_details",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Reason for cancellation",
-            "watermarkText": "Provide the reason for cancellation",
-            "required": false
-        },
-        {
-            "id": "error_description",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Error message (if any) encountered ",
-            "watermarkText": "Provide the error message encountered",
+            "displayLabel": "Error message/Screenshot of the error ",
+            "watermarkText": "Provide the error message/Screenshot of the error ",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details (if any)",
-            "watermarkText": "Provide any other additional relevant details",
+            "displayLabel": "Additional details",
+            "watermarkText": "Provide any additional information about your issue",
             "required": true
-           }
+            }
     ],
     "$schema": "SelfHelpContent"
 }
