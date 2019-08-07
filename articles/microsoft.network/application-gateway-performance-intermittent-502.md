@@ -15,6 +15,7 @@
  />
 
 # Application Gateway Intermittent 502 errors
+
 If you are experiencing 502 errors intermittently while accessing Application Gateway, it could be because of the following reasons:
 * Application Gateway SKU tier or size and number of instances
 * Application Gateway to backend server latency and network performance
