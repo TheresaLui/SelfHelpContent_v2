@@ -25,8 +25,8 @@
             "infoBalloonText": "Select from the following",
 			"dropdownOptions": [
                 {
-                    "value": "ResourceGroup",
-                    "text": "ResourceGroup"
+                    "value": "Resourcegroup",
+                    "text": "Resourcegroup"
                 },
                 {
                     "value": "Server",
@@ -42,7 +42,7 @@
 	{
             "id": "target_resourcegroup_name",
      	    "order": 2,
-            "visibility": "resource_type_dropdown == ResourceGroup",
+            "visibility": "resource_type_dropdown == Resourcegroup",
             "controlType": "textbox",
             "displayLabel": "What is the resourcegroup that was deleted?",
             "infoBalloonText": "Enter the name of the resourcegroup that was deleted and you want to restore.",
