@@ -49,8 +49,8 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details (if any)",
             "watermarkText": "Describe your problem, providing as much detail as possible",
-            "required": true            
-        }
+            "required": true
+	    }
     ],
     "$schema": "SelfHelpContent"
 }
