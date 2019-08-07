@@ -45,7 +45,7 @@
   "actions": [
     {
       "actionId": "d32bb2b0-b3e0-11e9-a2a3-2a2ae2dbcce4",
-      "description": "Tuning Suggestion on Server Parameter: work_mem",
+      "description": "Increase value of Server Parameter: work_mem",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
       "bladeName": "PostgreSqlServerParametersBlade",
