@@ -46,7 +46,7 @@
             "id": "problem_description1",
             "order": 4,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": false,
             "displayLabel": "Screenshot of the portal that service is cancelled",
             "watermarkText": "",
             "required": true
