@@ -18,6 +18,7 @@
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Policy definition",
     "fileAttachmentHint": "",
     "formElements": [

@@ -18,6 +18,7 @@
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Error message",
     "fileAttachmentHint": "",
     "formElements": [
