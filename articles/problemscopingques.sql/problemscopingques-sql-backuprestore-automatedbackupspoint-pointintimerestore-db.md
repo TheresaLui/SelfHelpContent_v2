@@ -51,7 +51,7 @@
             "id": "restore_time",
             "order": 3,
             "controlType": "datetimepicker",
-	    "visibility": "IssueType_dropdown==Point in time restore"
+	    "visibility": "IssueType_dropdown==Point in time restore",
             "displayLabel": "What was the requested restore datetime?",
             "infoBalloonText": "Enter the approximate time that you want the point in time restore for",
             "required": true
