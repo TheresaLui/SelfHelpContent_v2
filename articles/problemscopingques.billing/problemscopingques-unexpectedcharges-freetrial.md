@@ -51,7 +51,7 @@
             "watermarkText": "",
             "hints": [
                 {
-                    "text": "Learn more <a href='https://docs.microsoft.com/azure/billing/billing-understand-your-bill'> here </a>."
+                    "text": "Learn more: <a href='https://docs.microsoft.com/azure/billing/billing-avoid-charges-free-account'> Avoid charges with Azure free account </a>."
                 }
             ],
             "required": true
