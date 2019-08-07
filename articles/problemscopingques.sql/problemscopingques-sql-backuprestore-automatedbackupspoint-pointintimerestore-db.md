@@ -25,7 +25,7 @@
             "required": true
         },
 	{
-            "id": "IssueType_down",
+            "id": "IssueType_dropdown",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Is the issue with Backups or Point in time restore",
