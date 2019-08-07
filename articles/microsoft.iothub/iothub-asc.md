@@ -13,7 +13,7 @@
 	articleId="412dfc49-ed54-4e1e-8f09-64bfac530af6s"
 />
 
-# Issues with Azure Security Center and IoT Hub
+# Issues with Azure Security Center and IoT Hub 
 
 ## **Recommended Documents**
 
