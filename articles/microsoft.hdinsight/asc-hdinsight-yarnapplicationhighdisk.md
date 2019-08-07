@@ -27,5 +27,5 @@ We determined that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<
 
 1. Ensure that yarn.log-aggregation-enabled is enabled. If disabled, NMs will keep the logs locally and not aggregate them in remote store on application completion/termination.
 2. Cache also uses disk space, so check if yarn.nodemanager.localizer.cache.cleanup.interval-ms (default 10 mins) and yarn.nodemanager.localizer.cache.target-size-mb (default 10240 MB) are set to reasonable values.
-3. Ensure that the cluster size is appropriate for the workload. If this is not the scale, scale up the cluster and retry.
+3. Ensure that the cluster size is appropriate for the workload. If the cluster is not appropriately sized, scale up the cluster and retry.
 4. /mnt/resource might also get filled with orphaned files (as in the case of RM restart). Manually cleaning up /mnt/resource/hadoop/yarn/log and /mnt/resource/hadoop/yarn/local would help in this scenario.
