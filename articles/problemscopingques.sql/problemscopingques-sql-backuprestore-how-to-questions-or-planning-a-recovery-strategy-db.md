@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Advisory-how-to-questions-or-planning-a-recovery-strategy"
+	pageTitle="How to questions or planning a recovery strategy"
 	description="Scoping questions to capture more details advisory cases on how-to-questions-or-planning-a-recovery-strategy"
 	authors="andikshi"
 	ms.author="andikshi"

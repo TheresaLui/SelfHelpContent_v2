@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Error while long-term-backup-and-retention"
+	pageTitle="Long-term backup retention"
 	description="Scoping questions to capture more details about errors encountered while long-term-backup-and-retention"
 	authors="andikshi"
 	ms.author="andikshi"
@@ -58,7 +58,7 @@
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
+            "watermarkText": "Please provide the full error that you seeing \ Explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
         }
     ],
     "$schema": "SelfHelpContent"

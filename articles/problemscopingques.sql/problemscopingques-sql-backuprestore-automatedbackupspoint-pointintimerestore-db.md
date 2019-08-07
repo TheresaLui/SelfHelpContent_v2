@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Error with automatedbackupspoint- pointintimerestore-db"
+	pageTitle="Automated backups or point in time restore"
 	description="Scoping questions to capture more details about errors encountered while trying to do a PITR for SQL DB"
 	authors="andikshi"
 	ms.author="andikshi"
@@ -25,9 +25,33 @@
             "required": true
         },
 	{
-            "id": "restore_time",
+            "id": "IssueType_down",
             "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Is the issue with Backups or Point in time restore",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Choose the issue type",
+			"dropdownOptions": [
+                {
+                    "value": "Backups",
+                    "text": "Backups"
+                },
+                {
+                    "value": "Point in time restore",
+                    "text": "Point in time restore"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Dont know answer"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "restore_time",
+            "order": 3,
             "controlType": "datetimepicker",
+	    "visibility": "IssueType_dropdown==Point in time restore"
             "displayLabel": "What was the requested restore datetime?",
             "infoBalloonText": "Enter the approximate time that you want the point in time restore for",
             "required": true
@@ -39,7 +63,7 @@
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
+            "watermarkText": "Please provide the full error you are recieving.If available, please attach any relevant screenshots and scripts that you have used."
         }
     ],
     "$schema": "SelfHelpContent"

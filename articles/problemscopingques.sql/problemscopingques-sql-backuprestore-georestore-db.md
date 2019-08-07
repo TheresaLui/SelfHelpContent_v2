@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Error while Geo-restore"
-	description="Scoping questions to capture more details about errors encountered while trying to Geo-restore SQL DB"
+	pageTitle="Geo-restore"
+	description="Scoping questions to capture more details about errors\issues encountered while trying to Geo-restore SQL DB"
 	authors="andikshi"
 	ms.author="andikshi"
 	selfHelpType="problemScopingQuestions"
@@ -78,7 +78,7 @@
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
+            "watermarkText": "Please provide the full error that you seeing \ Explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
         }
     ],
     "$schema": "SelfHelpContent"

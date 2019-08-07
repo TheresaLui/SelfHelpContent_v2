@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Recover-dropped-server-or-resourcegroup"
+	pageTitle="Recover dropped server or resource group"
 	description="Scoping questions to recover-dropped-server-or-resourcegroup"
 	authors="andikshi"
 	ms.author="andikshi"
@@ -13,20 +13,62 @@
 # Scoping questions to recover-dropped-server-or-resourcegroup
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"subscriptionRequired": true,
     "formElements": [
-        {
-            "id": "target_server_resource_group",
+      {
+            "id": "resource_type_dropdown",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Do you want to restore a resourcegroup or server",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Select from the following",
+			"dropdownOptions": [
+                {
+                    "value": "ResourceGroup",
+                    "text": "ResourceGroup"
+                },
+                {
+                    "value": "Server",
+                    "text": "Server"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Dont know answer"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "target_resourcegroup_name",
+     	    "order": 2,
+            "visibility": "resource_type_dropdown == ResourceGroup",
+            "controlType": "textbox",
+            "displayLabel": "What is the resourcegroup that was deleted?",
+            "infoBalloonText": "Enter the name of the resourcegroup that was deleted and you want to restore.",
+            "required": false
+        },
+        {
+            "id": "target_server_name",
+     	    "order": 2,
+            "visibility": "resource_type_dropdown == Server",
             "controlType": "textbox",
             "displayLabel": "What is the server or resourcegroup that was deleted?",
-            "infoBalloonText": "Enter the server or resourcegroup that was deleted and you want to restore.",
+            "infoBalloonText": "Enter the name of the server that was deleted and you want to restore.",
+            "required": false
+        },
+	{
+            "id": "target_server_resourcegroup_name",
+     	    "order": 2,
+            "visibility": "resource_type_dropdown == dont_know_answer",
+            "controlType": "textbox",
+            "displayLabel": "What is the server or resourcegroup that was deleted?",
+            "infoBalloonText": "Enter the name of the server or resourcegroup that was deleted and you want to restore.",
             "required": false
         },
 	{
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When was this deleted?",
             "infoBalloonText": "Enter the approximate time when this was deleted.",
