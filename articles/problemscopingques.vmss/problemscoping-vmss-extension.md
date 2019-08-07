@@ -1,66 +1,74 @@
 <properties
-                pageTitle="Management"
-                description="Management"
+                pageTitle="Extensions not operating correctly"
+                description="Extensions not operating correctly"
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32591160"
+                supportTopicIds="32641077"
                 productPesIds="16080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0108"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0133"
 />
-# Management
+# Agent and extensions
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Azure Metadata Service (Scheduled Events)",
+    "title": "Extensions not operating correctly",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "manage_error",
+            "id": "extension_error",
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
-            "id": "tracking_id",
+            "id": "extension_configure",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Share the tracking ID of planned maintenance, for which you configured the scheduled events.",
+            "displayLabel": "What extension are you trying to configure?",
             "required": false,
             "useAsAdditionalDetails": false
         },
         {
-            "id": "primary_issue_category",
+            "id": "extension_operation",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What is the primary issue category?",
+            "displayLabel": "What operation are you trying to do?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Creating scheduled events",
-                    "text": "Creating scheduled events"
+                    "value": "Install",
+                    "text": "Install"
                 },
                 {
-                    "value": "Want to learn more about scheduled events",
-                    "text": "Want to learn more about scheduled events"
+                    "value": "Uninstall",
+                    "text": "Uninstall"
                 },
                 {
-                    "value": "Functionality issues",
-                    "text": "Functionality issues"
+                    "value": "Enable",
+                    "text": "Enable"
+                },
+                {
+                    "value": "Troubleshoot",
+                    "text": "Troubleshoot"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
                 }
             ],
             "required": false
         },
         {
-            "id": "if_alert",
+            "id": "extension_agentinstalled",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Did you receive an alert for the VM indicating a planned maintenance event needing a restart?",
+            "displayLabel": "Do you have the latest Azure VM Agent installed?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -70,6 +78,10 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
                 }
             ],
             "required": false
