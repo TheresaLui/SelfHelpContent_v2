@@ -5,7 +5,7 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32680681"
+	supportTopicIds="32680681,32680680"
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
