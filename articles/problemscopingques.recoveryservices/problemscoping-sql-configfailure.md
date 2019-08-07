@@ -34,9 +34,13 @@
        	    "jTokenPath": "value",
             "textProperty": "name",
             "valueProperty": "id",
-            "textPropertyRegex": ".*"
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
 	    },
-            "required": true
+            "required": false
         },
         {
             "id": "os_version",
