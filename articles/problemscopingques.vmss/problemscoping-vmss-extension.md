@@ -24,7 +24,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false,
-            "useAsAdditionalDetails": false
+            "useAsAdditionalDetails": true
         },
         {
             "id": "extension_configure",
