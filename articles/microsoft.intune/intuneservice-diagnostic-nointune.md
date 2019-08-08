@@ -19,7 +19,7 @@
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
  
 <div>
-  You do not have a valid Microsoft Intune subscription.<br/>
-  <br/>To purchase an Microsoft Intune subscription please review the following plans and pricing <a href="https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing" target="_blank">here</a>.<br/>
+  You do not have a Microsoft Intune subscription.<br/>
+  <br/>To purchase a Microsoft Intune subscription please review the following plans and pricing <a href="https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing" target="_blank">here</a>.<br/>
   <br/>
 </div>
