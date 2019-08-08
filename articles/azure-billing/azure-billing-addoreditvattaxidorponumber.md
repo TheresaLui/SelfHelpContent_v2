@@ -30,7 +30,7 @@ To add or update Tax ID, visit [Profile in Azure Account Center](https://porta
 
   1. Login into **Billing** portal, select the **Subscription** that needs to be edited
   2. On Subscription page select **Change Payment Method** and select **Edit Payment method**. Enter in PO Number and select **Next**
-  3. This will take the you back to the initial “Choose payment method” page. Select the check at the bottom to **save** changes
+  3. This will take the you back to the initial Choose payment method page. Select the check at the bottom to **save** changes
 
 * For EA Admins & EA Customers 
 
