@@ -4,7 +4,7 @@
 	authors="prdasneo"
 	ms.author="prdasneo"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32632955"
+   supportTopicIds="32632955,32680690"
 	productPesIds="15660"
 	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
