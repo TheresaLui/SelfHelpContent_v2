@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Scoping questions for Issue with Azure purchase"
-	description="Scoping questions for Subscription Management/Issue with Azure purchase"
+	pageTitle="Scoping questions for Issue with Azure Subscription conversion"
+	description="Scoping questions for Subscription Management/Issue with Azure Subscription conversion"
 	authors="prdasneo"
 	ms.author="prdasneo"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32632948"
+   supportTopicIds="32632955,32680690"
 	productPesIds="15660"
 	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
-   articleId="8297852a-5e4f-41d8-ae24-9e37aaa5714a"
+   articleId="problemscopingquestion-issuewith-azure-subscription-conversion"
 />
-# Issue with Azure purchase
+# Issue with Azure Subscription conversion
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Purchase Issues - Azure Subscriptions",
+    "title": "Subscription conversion Issues - Azure Subscriptions",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -33,23 +33,7 @@
             "watermarkText": "",
             "required": true
         },
-	{
-            "id": "phonenumber_details",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Phone number used during purchase",
-            "watermarkText": "Provide the Phone number used during purchase",
-            "required": false
-        },
-	{
-            "id": "emailid_details",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Email address used during purchase",
-            "watermarkText": "Provide the Email address used during purchase",
-            "required": false
-        },
-	{
+        {
             "id": "error_details",
             "order": 5,
             "controlType": "multilinetextbox",

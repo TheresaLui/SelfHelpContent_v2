@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Security and Compliance Requests"
-	description="Security and Compliance Requests"
+	pageTitle="Privacy Blade and GDPR Requests"
+	description="Privacy Blade and GDPR Requests"
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32607560"
+	supportTopicIds="32607561"
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
-	articleId="othersecurityandcompliancerequests"
+	articleId="privacybladeandGDPRRequests-problemscopingquestions"
 />
 
 
-# Other Security and Compliance Requests
+# Privacy Blade and GDPR Requests
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Other Security and Compliance Requests",
+    "title": "Privacy Blade and GDPR Requests",
     "fileAttachmentHint": "",
     "formElements": [
        {
@@ -45,7 +45,7 @@
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Learn more on Azure Compliance <a href='https://azure.microsoft.com/overview/trusted-cloud/compliance/'>here</a>"
+                    "text": "Learn more on Privacy and GDPR <a href='https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure'>here</a>"
                 }
             ]
         }

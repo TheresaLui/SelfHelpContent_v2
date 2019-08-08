@@ -1,17 +1,17 @@
 <properties
-	pageTitle="Reservation Management"
-	description="Reservation Management"
+	pageTitle="ReservationManagement-Blade Issues"
+	description="ReservationManagement-Blade Issues"
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32593233"
+	supportTopicIds="32680693"
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
-	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4369"
+	articleId="reservationmanagmentbladeissues-problemscopingquestions"
 />
 
-# Other Issues or Requests
+# ReservationManagement-Blade Issues
 ---
 {
     "resourceRequired": false,
@@ -121,38 +121,77 @@
             "watermarkText": "Provide your Reservation id",
             "required": false
         },
-	{
-            "id": "currentowner_details",
+        {
+            "id": "role_details",
             "order":6,
             "controlType": "textbox",
-            "displayLabel": "Current Owner",
+            "displayLabel": "Your role on the reservation",
             "watermarkText": "",
             "required": false
         },
-	{
-            "id": "newowner_details",
-            "order":7,
+        {
+            "id": "browser_details1",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Browser Information",
+            "watermarkText": "Choose the browser",
+            "dropdownOptions": [
+                {
+                    "value": "Apple Safari",
+                    "text": "Apple Safari"
+                },
+                {
+                    "value": "Google Chrome",
+                    "text": "Google Chrome"
+                },
+                {
+                    "value": "Internet Explorer",
+                    "text": "Internet Explorer"
+                },
+                {
+                    "value": "Microsoft Edge",
+                    "text": "Microsoft Edge"
+                },
+                {
+                    "value": "Mozilla Firefox",
+                    "text": "Mozilla Firefox"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "browser_details2",
+            "order": 8,
+            "visibility": "browser_details1 == dont_know_answer",
             "controlType": "textbox",
-            "displayLabel": "New Owner",
+            "displayLabel": "Please provide the Browser Information",
+            "required": false
+        },
+        {
+            "id": "error_details",
+            "order":9,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error Message/Screenshot of the issue",
             "watermarkText": "",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 10,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
-            "watermarkText": "Provide any additional information about your issue",
+            "displayLabel": "Browser network trace or any other details (if applicable)",
+            "watermarkText": "Provide the browser network trace or any additional information about your issue",
             "required": true,
             "hints": [
                 {
-                    "text": "Returns and exchanges can be done via **self-service option** directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>. Learn more - <a href='https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund'>here</a>"
-                },
-                {
-                    "text": "To request a billing related request, please select the Issue type as **Billing** and Problem type as **Reservation management** to ensure faster resolution"
+                    "text": "Learn more - <a href='https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/'>how to capture a browser network trace</a>"
                 }
-            ]
+                ]
         }
     ],
     "$schema": "SelfHelpContent"
