@@ -28,8 +28,8 @@ Every database file in SQL MI is placed on a separate Azure Premium disk (one fi
 
 Every Managed Instance has up to 35 TB of total internal storage reserved for Azure Premium disks storage layer. If you create many files and the total size of the underlying disks reaches 35 TB, you will get internal storage limit error. This means that once you provision Managed Instance you have two storage limits:
 
-1. Managed instance user-defined storage is the Managed Instance max storage size for your database files that you choose on portal and you pay for this amount of storage.
-2. Internal physically allocated azure premium disk storage that cannot exceed 35 TB.
+1. Managed instance user-defined storage is the Managed Instance max storage size for your database files that you choose on portal and you pay for this amount of storage
+2. Internal physically allocated azure premium disk storage that cannot exceed 35 TB
 
 As a result, you cannot have more than 280 files on the General Purpose instance because 280 files placed on the smallest 128GB disks will reach 35TB limit.
 
