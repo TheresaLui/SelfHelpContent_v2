@@ -23,4 +23,5 @@ We have identified that your backup operation failed because the Microsoft Azure
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue, refer this [article](https://aka.ms/SalChecksumStoreInitializationFailed)
+
+* To resolve this issue, refer to this [article](https://aka.ms/SalChecksumStoreInitializationFailed)
