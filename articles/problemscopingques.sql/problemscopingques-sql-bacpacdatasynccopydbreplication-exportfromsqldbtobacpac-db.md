@@ -54,7 +54,7 @@
 	{
             "id": "version_details",
             "order": 5,
-	    "visibility": "platform_type == SSMS || platform_type == Sal package ",
+	    "visibility": "platform_type == SSMS || platform_type == Sql package ",
             "controlType": "textbox",
             "displayLabel": "Please provide the version details",
             "required": false
@@ -66,7 +66,7 @@
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the full error that you seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
+            "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
         }
     ],
     "$schema": "SelfHelpContent"
