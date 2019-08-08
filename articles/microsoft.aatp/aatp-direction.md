@@ -16,7 +16,7 @@
 
 # direction
 
-## **For MDATP or Office ATP please use the links below**
+## **Recommended documents**
 
 *[For Microsoft Defender Advanced Threat Protection, please open support ticket here](https://support.Microsoft.com/en-us/supportforbusiness/productselection) <br>
 *[For Office  Advanced Threat Protection, please open support ticket here](https://portal.office.com/adminportal#/homepage) <br>
