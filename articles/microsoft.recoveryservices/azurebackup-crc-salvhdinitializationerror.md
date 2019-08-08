@@ -22,6 +22,6 @@
 We have identified that your backup operation failed because Microsoft Azure Recovery Services Agent was unable to access the scratch location to initialize VHD.
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
 
-To resolve this issue, fix the scratch location path by referring this [article](https://aka.ms/SalVhdInitializationError)
+* [Fix the scratch location path](https://aka.ms/SalVhdInitializationError)
