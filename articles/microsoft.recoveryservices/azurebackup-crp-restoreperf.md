@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure backup - Restore is taking longer than expected"
-	description="Azure backup - Restore is taking longer than expected"
+	pageTitle="Azure Backup - Restore is taking longer than expected"
+	description="Azure Backup - Restore is taking longer than expected"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
@@ -14,7 +14,7 @@
 	articleId="4de262a6-b00d-4680-851e-aa9cb212f662"
 />
 
-# Azure backup - Restore is taking longer than expected
+# Azure Backup - Restore is taking longer than expected
 
 ## **Recommended Steps**
 

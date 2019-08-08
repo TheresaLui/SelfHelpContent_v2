@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure backup - Restore is failing for my VM"
-	description="Azure backup - Restore is failing for my VM"
+	pageTitle="Azure Backup - Restore is failing for my VM"
+	description="Azure Backup - Restore is failing for my VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
@@ -14,7 +14,7 @@
 	articleId="89c1ecd8-5025-41d6-b79c-685f163af217"
 />
 
-# Azure backup - Restore is failing for my VM
+# Azure Backup - Restore is failing for my VM
 
 ## **Recommended Steps**
 

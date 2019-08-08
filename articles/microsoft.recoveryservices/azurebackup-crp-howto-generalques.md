@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure backup - how to and general questions"
-	description="Azure backup - how to and general questions"
+	pageTitle="Azure Backup - how to and general questions"
+	description="Azure Backup - how to and general questions"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
@@ -14,7 +14,7 @@
 	articleId="ea9de181-a019-4256-98f3-7842e7125113"
 />
 
-# Azure backup - how to and general questions
+# Azure Backup - how to and general questions
 
 ## **Recommended Steps**
 
