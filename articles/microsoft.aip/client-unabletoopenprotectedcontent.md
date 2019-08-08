@@ -25,7 +25,7 @@
 5. If you experience issues with external collaboration, review [Configuring secure document collaboration by using Azure Information Protection](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents)
 6. If you need to open a content where you don't have permissions to (user has left the company, etc.) you can use the Super User feature: [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users)
 7. Make sure you have followed all network requirements as described at [Firewalls and network infrastructure](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure)
-7. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+8. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 
