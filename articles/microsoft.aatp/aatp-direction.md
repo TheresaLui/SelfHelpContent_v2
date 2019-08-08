@@ -20,6 +20,6 @@
 
 -[For Windows Defender Advanced Threat Protection, please open support ticket at](https://support.Microsoft.com/en-us/supportforbusiness/productselection) <br>
 -[For Office  Advanced Threat Protection, please open support ticket at](https://portal.office.com/adminportal#/homepage) <br>
--[For Azure Advanced Threat Protection, continue here]
+
 
 
