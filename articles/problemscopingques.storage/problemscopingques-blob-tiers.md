@@ -4,7 +4,7 @@
 	authors="passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602719,32602732,32602720,32608636,32639221,32602709"
+	supportTopicIds="32602719,32602732,32602720,32608636,32639221"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -36,10 +36,6 @@
                 {
                     "value": "page_blob",
                     "text": "Page Blob(s)"
-                },
-                {
-                    "value": "other",
-                    "text": "Not listed above  "
                 }
             ],
             "required": false
@@ -49,7 +45,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Blob path",
-            "watermarkText": "Sample blob path with tiering issue(s)",
+            "watermarkText": "Sample blob path with tiering issues",
             "required": false
         },
         {
@@ -57,7 +53,7 @@
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local start time of the most recent occurrence",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
