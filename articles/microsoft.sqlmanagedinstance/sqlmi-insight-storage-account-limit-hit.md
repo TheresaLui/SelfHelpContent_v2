@@ -21,7 +21,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> had degraded performance between <!--$startTime-->startTime<!--/$startTime--> and <!--$endTime-->endTime<!--/$endTime--> due to storage account limit being hit .
+Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> had degraded performance between <!--$startTime-->startTime<!--/$startTime--> and <!--$endTime-->endTime<!--/$endTime--> due to storage account limit being hit.
 <!--/issueDescription-->
 
 Every database file in SQL MI is placed on a separate Azure Premium disk (one file per disk). Azure Premium disks that are used in storage layer have fixed sizes: 128 GB, 256 GB, 512 GB, 1 TB, 2 TB, and 4 TB, and Managed Instance uses minimal disk size that is required to fit the database file with specified size. For example, database file with 200 GB will be placed on 256 GB disk, a database file with 800 GB will be placed on 1 TB disk. Every disk automatically grows if the database file size reaches the disk storage limits.
