@@ -1,6 +1,6 @@
 <properties
-                pageTitle="MDM Authority Not Set"
-                description="MDM Authority Not Set"
+                pageTitle="No Intune Subscription"
+                description="No Intune Subscription"
                 infoBubbleText="You do not have an active Intune subscription."
                 service="microsoft.intune"
                 resource="intune"
