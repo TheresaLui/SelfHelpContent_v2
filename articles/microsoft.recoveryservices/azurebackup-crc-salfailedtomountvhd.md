@@ -1,7 +1,7 @@
 <properties
 	pageTitle="SalFailedToMountVhd"
 	description="SalFailedToMountVhd"
-	infoBubbleText=""
+	infoBubbleText="Backup could not be started because of virtual hard drive named %FileName could not be mounted;"
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
