@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Purchase Issues - Azure Subscriptions",
     "fileAttachmentHint": "",
     "formElements": [
