@@ -7,47 +7,56 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454868"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 
 # Refund Request
 ---
 {
-	"resourceRequired": false,
-	"title": "Refund Request",
-	"fileAttachmentHint": "",
-	"formElements": [
-      {
-      "id": "problem_start_time",
-      "visibility": null,
-      "order": 4,
-      "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-  },
-  {
-			"id": "problem_description",
-			"order": 1,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the following:",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Refund amount"
-				}, {
-					"text": "Reason for refund request"
-				}
-			]
-		}
-	]
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Refund Request",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "visibility": null,
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date",
+            "required": true
+        },
+        {
+            "id": "refundamount_details",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Refund Amount",
+            "watermarkText": "Provide the refund amount",
+            "required": true
+        },
+        {
+            "id": "refundreason_details",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Reason for the Refund ",
+            "watermarkText": "Provide the reason for the refund",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Please provide any additional details (if any)",
+	     "hints": [
+                {
+                    "text": "If you are an indirect EA customer, please log your request via <a href='ea.azure.com'>EA portal</a> only"
+                }
+	],
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

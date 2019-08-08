@@ -5,7 +5,8 @@
 	          service="microsoft.recoveryservices"
 	          resource="backup"
 	          authors="srinathv"
-	          articleId="azurebackup-crc-usererrorunsupporteddisksize"
+	          ms.author="srinathv"
+		  articleId="azurebackup-crc-usererrorunsupporteddisksize"
 	          diagnosticScenario="azurebackup-crc-usererrorunsupporteddisksize"
 	          selfHelpType="diagnostics"
 	          supportTopicIds="32553276"
@@ -14,14 +15,15 @@
 />
 
 
-# UserErrorUnsupportedDiskSize
+# Error UserErrorUnsupportedDiskSize
 
 <!--issueDescription-->
-The backup operation failed because the disk exceeds the maximum allowed size by the VM Backup Stack v1. For disks bigger than 1023GB you need to upgrade to VM Backup stack V2. To avoid failures in the future, upgrade to Azure VM Backup stack V2.
+We have identified that your backup operation failed because Azure Backup does not currently support disk sizes greater than 4095GB. 
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* Review the [benefits](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2), including the ability to backup disks up to 4TB. 
-* Make sure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#considerations-before-upgrade) section.
-* Complete the upgrade following these [instructions](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#upgrade).
+* For more information on supported configurations refer this [article](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas)
+* Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB
+* Make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) section
+* Complete the upgrade following these [instructions](https://aka.ms/AB-IR-upgrade)

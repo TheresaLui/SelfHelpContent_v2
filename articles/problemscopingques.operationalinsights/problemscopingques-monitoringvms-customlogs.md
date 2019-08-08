@@ -44,6 +44,10 @@ schemaVersion="1"
                 {
                     "value": "dont_know_answer",
                     "text": "Not sure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -72,6 +76,7 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

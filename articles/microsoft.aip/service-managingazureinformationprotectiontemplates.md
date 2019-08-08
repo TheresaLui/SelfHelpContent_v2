@@ -16,8 +16,15 @@
 
 # Azure Information Protection service - managing protection templates
 
+## **Recommended Steps**
+
+Review the below documentation that contains information about how to create protection templates and manage them.
+It is strongly suggested to be familiar with the documentation and review the examples.
+
 ## **Recommended Documents**
 
+* [How to configure a label for Rights Management protection](https://docs.microsoft.com/azure/information-protection/configure-policy-protection)<br>
+* [Example configurations for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-protection#example-configurations)
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [How to create a new label for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-new-label)<br>
 * [How to configure a label for Rights Management protection](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-protection)<br>

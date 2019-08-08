@@ -5,7 +5,7 @@
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629134, 32629136, 32628998, 32629061, 32629075, 32629079, 32629081, 32629093, 32629133, 32629135, 32629137, 32629138, 32629139, 32629140, 32629141, 32629142, 32629143, 32629144, 32629166"
+	supportTopicIds="32628998, 32629061, 32629079, 32629081, 32629093, 32629133, 32629135, 32629137, 32629138, 32629141, 32629166"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -25,18 +25,18 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
         {
             "id": "application_id",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the Spark application",
-            "required": true
+            "required": false
         },
         {
             "id": "spark_submission_method",
@@ -47,26 +47,30 @@
             "dropdownOptions": [
                 {
                     "value": "Jupyter",
-                    "text": "Jupyter"
+                    "text": "Jupyter Notebook"
+                },
+                {
+                    "value": "Zeppelin",
+                    "text": "Zeppelin Notebook"
                 },
                 {
                     "value": "Livy",
                     "text": "Livy"
                 },
                 {
-                    "value": "Zeppelin",
-                    "text": "Zeppelin"
-                },
-                {
                     "value": "Spark shell",
                     "text": "Spark shell"
+                },
+                {
+                    "value": "ADF",
+                    "text": "Azure Data Factory"
                 },
                 {
                     "value": "ODBC/JDBC",
                     "text": "ODBC/JDBC"
                 },
                 {
-                    "value": "Other (describe below)",
+                    "value": "Other",
                     "text": "Other"
                 }
             ],
@@ -125,6 +129,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/spark/spark-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

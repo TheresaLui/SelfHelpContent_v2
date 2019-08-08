@@ -19,6 +19,7 @@
 ## **Recommended Documents**
 
 * [FAQs for Microsoft Azure Information Protection app for iOS and Android](https://docs.microsoft.com/azure/information-protection/rms-client/mobile-app-faq)<br>
+* [Can Rights Management prevent screen captures?](https://docs.microsoft.com/azure/information-protection/faqs-rms#can-rights-management-prevent-screen-captures)<br>
 * [Get started with the Microsoft Azure Information Protection app for iOS and Android](https://docs.microsoft.com/azure/information-protection/rms-client/mobile-app-get-started)<br>
 * [Applications that support Azure Rights Management data protection](https://docs.microsoft.com/azure/information-protection/requirements-applications)<br>
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>

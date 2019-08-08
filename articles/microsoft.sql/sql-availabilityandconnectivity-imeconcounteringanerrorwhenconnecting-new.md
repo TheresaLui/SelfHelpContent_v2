@@ -1,19 +1,20 @@
 <properties
-	pageTitle="availability and connectivity/I'm encountering an error when connecting to my database"
-	description="availability and connectivity/I'm encountering an error when connecting to my database"
+	pageTitle="Diagnose and resolve issues connecting to Azure SQL Database"
+	description="Diagnose and resolve issues connecting to Azure SQL Database"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
     ms.author="emlisa"
-	displayOrder=""
-	selfHelpType="generic"
+	displayOrder="1"
+	selfHelpType="resource"
 	supportTopicIds="32630429"
 	productPesIds="13491"
 	cloudEnvironments="public"
+    resourceTags="servers, databases"
 	articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a"
 />
 
-# availability and connectivity/I'm encountering an error when connecting to my database
+# Diagnose and resolve issues connecting to Azure SQL Database
 
 ## **Recommended Documents**
 
