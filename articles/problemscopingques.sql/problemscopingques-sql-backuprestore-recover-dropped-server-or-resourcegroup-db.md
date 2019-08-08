@@ -29,8 +29,8 @@
                     "text": "resource group"
                 },
                 {
-                    "value": "Server",
-                    "text": "Server"
+                    "value": "server",
+                    "text": "server"
                 },
                 {
                     "value": "dont_know_answer",
@@ -51,7 +51,7 @@
         {
             "id": "target_server_name",
      	    "order": 3,
-            "visibility": "resource_type_dropdown == Server",
+            "visibility": "resource_type_dropdown == server",
             "controlType": "textbox",
             "displayLabel": "What is the server that was deleted?",
             "infoBalloonText": "Enter the name of the server that was deleted and you want to restore.",
