@@ -24,4 +24,4 @@ We have identified that your backup operation failed because Microsoft Azure Rec
 
 ## **Recommended Document**
 
-To resolve this issue, fix the scratch location path by referring this [article](https://aka.ms/SalVhdInitializationError).
+To resolve this issue, fix the scratch location path by referring this [article](https://aka.ms/SalVhdInitializationError)
