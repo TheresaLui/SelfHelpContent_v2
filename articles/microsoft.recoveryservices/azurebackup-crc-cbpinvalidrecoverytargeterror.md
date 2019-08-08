@@ -19,9 +19,9 @@
 # Error CBPInvalidRecoveryTargetError
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the scratch space specified does not match with the actual location of the scratch space folder
+We have identified that your backup operation failed because the scratch space specified does not match with the actual location of the scratch space folder.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve this issue, ensure the actual location of the scratch space folder and the space specified for DPM/MABS is valid and matched.
+* To resolve this issue, ensure the actual location of the scratch space folder and the space specified for DPM/MABS is valid and matched
