@@ -7,19 +7,18 @@
 	ms.author="zacohen"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602242,32602243"
+	supportTopicIds="32602250,32602251,32602260"
 	resourceTags=""
 	productPesIds="16264"
 	cloudEnvironments="public"
-	articleId="ec8f9e49-000b-426d-b559-56914a557126"
+	articleId="4d0a34be-66f5-4310-956d-d45645d24cc2"
 />
 
 # direction
 
-## **Recommended documents**
+## **Recommended Documents**
 
 -[For Windows Defender Advanced Threat Protection, please open support ticket at](https://support.Microsoft.com/en-us/supportforbusiness/productselection) <br>
--[For Office  Advanced Threat Protection, please open support ticket at](https://portal.office.com/adminportal#/homepage) <br>
-
+-[For Office  Advanced Threat Protection, please open support ticket at](https://portal.office.com/adminportal#/homepage) 
 
 
