@@ -8,7 +8,7 @@
 	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32637321"
-	resourceTags="windows,linux,redhat,ubuntu,suse"
+	resourceTags="windows,linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public"
 	articleId="fdee12e71-369d-4812-9400-8a81bd302190"
