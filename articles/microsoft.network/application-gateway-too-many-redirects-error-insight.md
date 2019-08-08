@@ -11,7 +11,7 @@
     diagnosticScenario="ApplicationGatewayTooManyRedirectsError"
     supportTopicIds="32639115"
 	productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Too many redirects error

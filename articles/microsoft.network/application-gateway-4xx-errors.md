@@ -11,7 +11,7 @@
  	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32639113"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # 4xx client error
