@@ -26,3 +26,4 @@
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
 * [Policy sample Github](https://github.com/Azure/azure-policy/tree/master/samples)
 * [Issues with assigning the policy definition cross-subscriptions](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#definition-location)
+* [Policy known issues](https://github.com/Azure/azure-policy#known-issues)
