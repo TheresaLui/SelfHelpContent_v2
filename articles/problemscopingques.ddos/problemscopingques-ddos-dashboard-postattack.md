@@ -24,7 +24,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the public IP you want to configure?",
             "watermarkText": "Enter the public IP address. Example: 13.0.1.2",
-            "required": false,
+            "required": false
         },
         {
             "id": "under_attack",
@@ -46,7 +46,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": True,
+            "required": true
         },
         {
             "id": "problem_start_time",
