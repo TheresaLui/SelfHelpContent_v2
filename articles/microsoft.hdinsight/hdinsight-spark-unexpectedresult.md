@@ -14,11 +14,18 @@
 	articleId="5439eff7-79f0-4817-ae46-f580367db1db"
 />
 
-# I'm having issues with my YARN application
+# Spark Unexpected Results
 
 ## **Recommended Steps**
 
-To solve issues with YARN applications, the following logs and settings might be helpful:
+* [IllegalArgumentException](https://hdinsight.github.io/spark/spark-application-fails-IllegalArgumentException.html)
+* [LISTSTATUS failed with error 0x83090aa2 (Forbidden. ACL verification failed. Either the resource does not exist or the user is not authorized to perform the requested operation.)](https://hdinsight.github.io/ClusterManagement/hdinsight-adlsaccessissues.html)
+* [InvalidClassException](https://hdinsight.github.io/spark/spark-class-version-mismatch-InvalidClassException.html)
+* [NativeAzureFileSystem ... RequestBodyTooLarge](https://hdinsight.github.io/spark/spark-stream-driver-logs-error-requestbodytoolarge.html)
+* [Spark Application Fails with OutOfMemoryError](https://hdinsight.github.io/spark/spark-application-failure-with-outofmemoryerror.html)
+* Spark Application Fails with OutOfMemoryError on one node only: This could be due to skew. A frequent solution to skew is to use broadcast plans by changing the broadcast threshold value. The threshold can be configured using `spark.sql.autoBroadcastJoinThreshold`
+
+* To solve issues with YARN applications, the following logs and settings might be helpful:
 
 * **YARN Timeline Server**: The YARN Timeline server provides generic information on completed applications and framework-specific application information
 * **YARN Application logs**: The application logs can be useful in debugging issues, with aggregated logs being stored in the path `/app-logs/<user>/logs/<applicationId>`
