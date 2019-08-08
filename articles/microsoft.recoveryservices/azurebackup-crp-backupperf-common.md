@@ -5,13 +5,13 @@
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="9"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32637321"
-	resourceTags="windows,linux,redhat,ubuntu"
+	resourceTags=""
 	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public"
-	articleId="fdee12e71-369d-4812-9400-8a81bd302190"
+	articleId="3deace67-212d-4ace-9afd-02bf3f9babf8"
 />
 
 # Azure Backup - Backup is taking longer than expected

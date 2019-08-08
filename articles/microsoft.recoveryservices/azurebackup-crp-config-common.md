@@ -5,12 +5,12 @@
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="3"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32637322"
-	resourceTags="windows,linux,redhat,ubuntu"
+	resourceTags=""
 	productPesIds="15571,15797,16470,16454,14749"
-	articleId="8add52e9-c225-4d86-be81-e1175203382b"
+	articleId="9ba9becb-d7a2-4b16-b471-3cfd6ed0570a"
 	cloudEnvironments="public"
 	/>
 

@@ -1,30 +1,35 @@
 <properties
-	pageTitle="Azure Backup - Backup is taking longer than expected"
-	description="Azure Backup - Backup is taking longer than expected"
+	pageTitle="Azure Backup - how to and general questions"
+	description="Azure Backup - how to and general questions"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="9"
-	selfHelpType="resource"
-	supportTopicIds="32637321"
-	resourceTags="windows,linux,redhat,ubuntu"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32637323,32637324,32637325"
+	resourceTags=""
 	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public"
-	articleId="fdee12e71-369d-4812-9400-8a81bd302190"
+	articleId="5135966d-bcd5-4459-b33e-e8bae9b87f84"
 />
 
-# Azure Backup - Backup is taking longer than expected
+# Azure Backup - how to and general questions
 
 ## **Recommended Steps**
 
-* Note that a first backup time **can be greater than 24 hours**, as it is proportional to the size of the source data<br>
-* Subsequent (i.e. incremental or daily) backup time **can take up to 24 hours** to complete<br>
-* Understand the [factors contributing to backup time](https://aka.ms/AB-AA4ecqb)<br>
-* Follow [best practices](https://aka.ms/AB-AA4e56d) to optimize backup performance
+* [Changing storage replication type from GRS to LRS is not supported](https://aka.ms/AB-AA4e571)<br>
+* [Support matrix](https://aka.ms/AB-AA4ecqa) for Azure Virtual Machine backup<br>
+* How much time will it take to [Backup](https://aka.ms/AB-AA4ecqb) or [Restore](https://aka.ms/AB-AA4ecqn)?<br>
+* How to stop/cancel backup job using [PowerShell](https://aka.ms/AB-AA4e56e)?<br>
+* To configure Alert/Notification on successful backup jobs use query [all successful Azure VMs backup jobs](https://aka.ms/Successful-BackupAlert-IAASVM) while defining [alert condition](https://aka.ms/backup-Alert-condition) in Log Analytics<br>
+* You can also use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for Azure VMs, read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs<br>
+* [Frequently asked questions](https://aka.ms/AB-AA4e56n)
+
 
 ## **Recommended Documents**
 
+* [Azure Virtual Machine backup troubleshooting guide](https://aka.ms/AB-AA4ecqg)
 * [Configure Azure VMs Backup in Recovery Services vault](https://aka.ms/AB-AA4ecq2)<br>
 * [Enable Backup during VM creation](https://aka.ms/AB-EnableBackupDuringVMcreation)<br>
 * [Enable Backup from VM blade](https://aka.ms/AB-EnableBackupDuringVMcreation)<br>

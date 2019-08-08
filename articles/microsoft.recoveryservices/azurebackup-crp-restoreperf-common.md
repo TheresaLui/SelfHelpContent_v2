@@ -5,13 +5,13 @@
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="7"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32637327"
-	resourceTags="windows,linux,redhat,ubuntu"
+	resourceTags=""
 	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public"
-	articleId="4de262a6-b00d-4680-851e-aa9cb212f662"
+	articleId="f8e41db8-7983-4264-bc44-ddb1fbe636ff"
 />
 
 # Azure Backup - Restore is taking longer than expected

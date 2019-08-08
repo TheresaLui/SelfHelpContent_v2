@@ -5,13 +5,13 @@
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="2"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32637320"
-	resourceTags="linux,redhat,ubuntu"
+	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
-	articleId="ce3059e1-dea9-432e-8d74-f16235e18dd6"
+	articleId="fe4213e1-5c21-455d-9b16-3089ccf8dc81"
 />
 
 # Azure Backup - Backup is failing for my VM

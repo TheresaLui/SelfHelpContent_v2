@@ -5,13 +5,13 @@
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="5"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32637326"
-	resourceTags="linux,redhat,ubuntu"
+	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
-	articleId="89c1ecd8-5025-41d6-b79c-685f163af217"
+	articleId="6a55c94c-2fff-4536-ba7b-69dcbc1e2a1e"
 />
 
 # Azure Backup - Restore is failing for my VM
