@@ -15,6 +15,7 @@ schemaVersion="1"
 # Agent is crashing
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
@@ -122,7 +123,5 @@ schemaVersion="1"
             "hints": []
         }
     ]
-"$schema": "SelfHelpContent"
-
 }
 ---
