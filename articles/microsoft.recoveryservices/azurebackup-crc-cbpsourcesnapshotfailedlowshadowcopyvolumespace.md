@@ -21,6 +21,6 @@
 We have identified that your backup operation failed because the source volume snapshot failed because of low shadow copy volume space.
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
 
-To resolve this issue, increase the shadow copy storage space on the protected volume by referring this [article](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#increase-shadow-copy-storage).
+* [Increase the shadow copy storage space on the protected volume](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#increase-shadow-copy-storage)
