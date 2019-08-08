@@ -18,4 +18,5 @@
 ## **Recommended Documents**
 
 * [Understand IoT Hub routing](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c)<br>
-
+* [Routing query syntax](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-routing-query-syntax)<br>
+* [Routing endpoints](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c#routing-endpoints)

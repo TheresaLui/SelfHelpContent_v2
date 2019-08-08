@@ -17,6 +17,7 @@
 
 ## **Recommended Documents**
 
+* [Learn more about IoT Hub's integration with Azure Event Grid](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid)<br>
 * [Use Event Grid to track device connection state](https://docs.microsoft.com/azure/iot-hub/iot-hub-how-to-order-connection-state-events)<br>
 * [Limitations for device connected and device disconnected events](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid#limitations-for-device-connected-and-device-disconnected-events)<br>
 * [When to use Event Grid vs message routing?](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid-routing-comparison)<br>
