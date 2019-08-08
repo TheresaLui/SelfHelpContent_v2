@@ -10,7 +10,7 @@
     articleId="application-gateway-invalid-application-gateway-access-url"
     diagnosticScenario="ApplicationGatewayScopingQuestionValidationMessage"
     supportTopicIds=""
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public"
  />
 
 # Invalid URL
