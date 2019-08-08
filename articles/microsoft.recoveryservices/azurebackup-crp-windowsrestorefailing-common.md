@@ -8,10 +8,10 @@
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32637326"
-	resourceTags="Windows"
+	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
-	articleId="6e895e83-d9a3-456c-b82b-d9c5a6a20365"
+	articleId="4f74f61e-97d5-49ba-8caf-fc1f0d5c2792"
 />
 
 # Azure Backup - Restore is failing

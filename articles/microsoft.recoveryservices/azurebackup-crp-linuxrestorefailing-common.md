@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Azure Backup - Restore is failing"
-	description="Azure Backup - Restore is failing"
+	pageTitle="Azure Backup - Restore is failing for my VM"
+	description="Azure Backup - Restore is failing for my VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
 	ms.author="srinathv"
-	displayOrder="8"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32637326"
-	resourceTags="Windows"
-	productPesIds="14749"
+	resourceTags=""
+	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
-	articleId="6e895e83-d9a3-456c-b82b-d9c5a6a20365"
+	articleId="6a55c94c-2fff-4536-ba7b-69dcbc1e2a1e"
 />
 
-# Azure Backup - Restore is failing
+# Azure Backup - Restore is failing for my VM
 
 ## **Recommended Steps**
 
@@ -44,6 +44,7 @@
 	- Step 2: [Attach to restored VM](https://aka.ms/AB-AA4e56s)<br>
 
 - If you are unable to restore, verify that you don’t have any group policy restriction from portal
+- We recommend using SSH based authentication for Linux VMs. If you are using password based authentication on the backed up VM, you need to [reset password](https://aka.ms/AB-AA4e56u) post restore using VM Access extension <br>
 - If you are unable to see **Backup Items** from the portal, ensure you have [required permission](https://aka.ms/AB-AA4ecqc) to access backup vault
 - If you are facing issues restoring a VM, try [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://aka.ms/AB-AA4e56j)<br>
 - To perform a restore ensure you have appropriate [Role Based Access Controls in place](https://aka.ms/AB-AA4ecqc) <br>
