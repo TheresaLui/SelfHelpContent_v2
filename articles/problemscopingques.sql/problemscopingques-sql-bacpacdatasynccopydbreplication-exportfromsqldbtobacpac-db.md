@@ -25,33 +25,10 @@
             "required": true
         },
    	{
-            "id": "export_destination",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "What is the export destination",
-            "watermarkText": "Choose an option",
-            "infoBalloonText": "Select the destination",
-			"dropdownOptions": [
-                {
-                    "value": "Storage Account",
-                    "text": "Storage Account"
-                },
-                {
-                    "value": "Local drive via SSMS",
-                    "text": "Local drive via SSMS"
-                },
-               	{
-                    "value": "dont_know_answer",
-                    "text": "Dont know answer"
-                }
-            ],
-            "required": true
-        },
-	{
             "id": "platform_type",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "What is this pertaining to?",
+            "displayLabel": "What tool or method are you using to export?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Select one of the following",
 			"dropdownOptions": [
@@ -59,13 +36,13 @@
                     "value": "SSMS",
                     "text": "SSMS"
                 },
-                {
-                    "value": "SSDT",
-                    "text": "SSDT"
-                },
  		{
                     "value": "Sql package",
                     "text": "Sql package"
+                },
+		{
+                    "value": "SQL DB Export Service",
+                    "text": "SQL DB Export Service"
                 },
                	{
                     "value": "dont_know_answer",
@@ -77,6 +54,7 @@
 	{
             "id": "version_details",
             "order": 5,
+	    "visibility": "platform_type != SQL DB Export Service",
             "controlType": "textbox",
             "displayLabel": "Please provide the version details",
             "required": false

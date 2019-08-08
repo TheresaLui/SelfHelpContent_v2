@@ -63,7 +63,7 @@
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the full error you are recieving.If available, please attach any relevant screenshots and scripts that you have used."
+            "watermarkText": "Please provide the full error you are receiving. If available,please attach any relevant screenshots and scripts that you have used."
         }
     ],
     "$schema": "SelfHelpContent"

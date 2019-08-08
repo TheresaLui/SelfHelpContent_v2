@@ -28,7 +28,7 @@
             "id": "platform_type",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "What is this pertaining to?",
+            "displayLabel": "What tool/method are you using to import?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Select one of the following",
 			"dropdownOptions": [
@@ -36,13 +36,17 @@
                     "value": "SSMS",
                     "text": "SSMS"
                 },
-                {
-                    "value": "SSDT",
-                    "text": "SSDT"
-                },
  		{
+                    "value": "From blob storage via portal",
+                    "text": "From blob storage via portal"
+                },
+		{
                     "value": "Sql Package",
                     "text": "Sql Package"
+                },
+                {
+                    "value": "BACPAC file using PowerShell",
+                    "text": "BACPAC file using PowerShell"
                 },
                	{
                     "value": "dont_know_answer",
@@ -55,6 +59,7 @@
             "id": "version_details",
             "order": 5,
             "controlType": "textbox",
+	    "visibility": "platform_type == SSMS || platform_type == Sql Package",
             "displayLabel": "Please provide the version details",
             "required": false
         },

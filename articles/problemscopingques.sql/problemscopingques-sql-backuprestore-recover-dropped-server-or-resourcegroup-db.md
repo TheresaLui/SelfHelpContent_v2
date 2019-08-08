@@ -25,8 +25,8 @@
             "infoBalloonText": "Select from the following",
 			"dropdownOptions": [
                 {
-                    "value": "Resourcegroup",
-                    "text": "Resourcegroup"
+                    "value": "resource group",
+                    "text": "resource group"
                 },
                 {
                     "value": "Server",
@@ -42,10 +42,10 @@
 	{
             "id": "target_resourcegroup_name",
      	    "order": 2,
-            "visibility": "resource_type_dropdown == Resourcegroup",
+            "visibility": "resource_type_dropdown == resource group",
             "controlType": "textbox",
-            "displayLabel": "What is the resourcegroup that was deleted?",
-            "infoBalloonText": "Enter the name of the resourcegroup that was deleted and you want to restore.",
+            "displayLabel": "What is the resource group that was deleted?",
+            "infoBalloonText": "Enter the name of the resource group that was deleted and you want to restore.",
             "required": false
         },
         {
@@ -55,15 +55,6 @@
             "controlType": "textbox",
             "displayLabel": "What is the server that was deleted?",
             "infoBalloonText": "Enter the name of the server that was deleted and you want to restore.",
-            "required": false
-        },
-	{
-            "id": "target_server_resourcegroup_name",
-     	    "order": 4,
-            "visibility": "resource_type_dropdown == dont_know_answer",
-            "controlType": "textbox",
-            "displayLabel": "What is the server or resourcegroup that was deleted?",
-            "infoBalloonText": "Enter the name of the server or resourcegroup that was deleted and you want to restore.",
             "required": false
         },
 	{

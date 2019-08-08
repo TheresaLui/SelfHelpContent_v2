@@ -33,12 +33,12 @@
             "required": false
         },
         {
-            "id": "target_SLO",
+            "id": "target_servicetier",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "What is the target SLO",
+            "displayLabel": "What is the target service tier",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "Select the target SLO",
+            "infoBalloonText": "Select the target service tier",
 			"dropdownOptions": [
                 {
                     "value": "Basic",
@@ -53,16 +53,16 @@
 		    "text": "Premium"
                 },
                 {
-                    "value": "Vcore-GeneralPurpose",
-                    "text": "VCore-GeneralPurpose"
+                    "value": "vCore – General Purpose",
+                    "text": "vCore – General Purpose"
                 },
                 {
-                    "value": "VCore-BusinessCritical",
-                    "text": "VCore-BusinessCritical"
+                    "value": "vCore – Business Critical",
+                    "text": "vCore – Business Critical"
                 },
                 {
-                    "value": "HyperscaleDB",
-                    "text": "HyperscaleDB"
+                    "value": "Hyperscale",
+                    "text": "Hyperscale"
                 },
 		{
                     "value": "dont_know_answer",
