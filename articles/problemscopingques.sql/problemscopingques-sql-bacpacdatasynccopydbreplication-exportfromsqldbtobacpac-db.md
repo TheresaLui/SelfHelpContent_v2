@@ -54,7 +54,7 @@
 	{
             "id": "version_details",
             "order": 5,
-	    "visibility": "platform_type != SQL DB Export Service",
+	    "visibility": "platform_type == SSMS || platform_type == Sal package ",
             "controlType": "textbox",
             "displayLabel": "Please provide the version details",
             "required": false
