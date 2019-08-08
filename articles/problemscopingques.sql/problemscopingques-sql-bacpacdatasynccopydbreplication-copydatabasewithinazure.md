@@ -53,12 +53,12 @@
 		    "text": "Premium"
                 },
                 {
-                    "value": "vCore \– General Purpose",
-                    "text": "vCore \– General Purpose"
+                    "value": "vCore General Purpose",
+                    "text": "vCore General Purpose"
                 },
                 {
-                    "value": "vCore \– Business Critical",
-                    "text": "vCore \– Business Critical"
+                    "value": "vCore Business Critical",
+                    "text": "vCore Business Critical"
                 },
                 {
                     "value": "Hyperscale",
