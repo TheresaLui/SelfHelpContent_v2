@@ -15,6 +15,7 @@ schemaVersion="1"
 # Cannot uninstall agent
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
