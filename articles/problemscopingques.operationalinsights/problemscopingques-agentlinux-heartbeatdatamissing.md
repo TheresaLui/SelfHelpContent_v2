@@ -15,6 +15,7 @@ schemaVersion="1"
 # Agent not reporting data or Heartbeat data missing
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
