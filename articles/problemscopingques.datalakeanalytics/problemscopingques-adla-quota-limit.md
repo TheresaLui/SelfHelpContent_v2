@@ -32,7 +32,7 @@
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
         },
-                {
+        {
             "id": "request_type",
             "order": 50,
             "controlType": "dropdown",
