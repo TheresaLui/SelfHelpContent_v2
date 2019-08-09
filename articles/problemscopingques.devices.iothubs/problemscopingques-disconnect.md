@@ -24,7 +24,7 @@
       "order": 1,
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
-      "required": false
+      "required": true
     },
     {
       "id": "protocol",
@@ -107,9 +107,13 @@
         {
           "value": "iOS",
           "text": "iOS"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Don't know"
         }
       ],
-      "required": false
+      "required": true
     },
     {
       "id": "sdk_version",
@@ -118,7 +122,7 @@
       "controlType": "textbox",
       "displayLabel": "Version",
       "watermarkText": "Example: 1.21.0",
-      "required": false
+      "required": true
     },
     {
       "id": "problem_description",
@@ -130,10 +134,10 @@
       "useAsAdditionalDetails": true,
       "hints": [
         {
-          "text": "Device logs of errors with latest timestamp (indicate timezone or UTC)"
+          "text": "Examples of device IDs (ideally 3)"
         },
         {
-          "text": "Examples of device IDs (ideally 3)"
+          "text": "Error logs with timestamp (indicate timezone or UTC)"
         },
         {
           "text": "Any other details"
