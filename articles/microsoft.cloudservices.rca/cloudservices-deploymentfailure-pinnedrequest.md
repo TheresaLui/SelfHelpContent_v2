@@ -7,7 +7,7 @@
 	authors="ChiragPavecha"
 	ms.author="chiragpa"
 	displayOrder=""
-	articleId="deploymentfailure_rca-constrainedallocationfailed"
+	articleId="cloudservices-deploymentfailure-pinnedrequest"
 	diagnosticScenario="DeploymentFailure,"
 	selfHelpType="rca"
 	supportTopicIds="32565644,32565474,32569897,32565476,32565478,32565479"
