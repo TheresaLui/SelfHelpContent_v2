@@ -18,11 +18,11 @@
 
 ## **Recommended Steps**
 
-* [IllegalArgumentException](https://hdinsight.github.io/spark/spark-application-fails-IllegalArgumentException.html)
+* [IllegalArgumentException](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-troubleshoot-illegalargumentexception)
 * [LISTSTATUS failed with error 0x83090aa2 (Forbidden. ACL verification failed. Either the resource does not exist or the user is not authorized to perform the requested operation.)](https://hdinsight.github.io/ClusterManagement/hdinsight-adlsaccessissues.html)
-* [InvalidClassException](https://hdinsight.github.io/spark/spark-class-version-mismatch-InvalidClassException.html)
-* [NativeAzureFileSystem ... RequestBodyTooLarge](https://hdinsight.github.io/spark/spark-stream-driver-logs-error-requestbodytoolarge.html)
-* [Spark Application Fails with OutOfMemoryError](https://hdinsight.github.io/spark/spark-application-failure-with-outofmemoryerror.html)
+* [InvalidClassException](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-troubleshoot-job-fails-invalidclassexception)
+* [NativeAzureFileSystem ... RequestBodyTooLarge](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-troubleshoot-event-log-requestbodytoolarge)
+* [Spark Application Fails with OutOfMemoryError](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-troubleshoot-outofmemory)
 * Spark Application Fails with OutOfMemoryError on one node only: This could be due to skew. A frequent solution to skew is to use broadcast plans by changing the broadcast threshold value. The threshold can be configured using `spark.sql.autoBroadcastJoinThreshold`
 
 * To solve issues with YARN applications, the following logs and settings might be helpful:
