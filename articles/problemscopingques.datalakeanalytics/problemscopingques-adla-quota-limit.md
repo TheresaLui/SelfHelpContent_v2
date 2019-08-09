@@ -36,7 +36,7 @@
             "id": "request_type",
             "order": 50,
             "controlType": "dropdown",
-            "displayLabel": "Is the quota request to adjust the max number of accounts or to adjust the per account limit?",
+            "displayLabel": "What is the request for?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -60,7 +60,7 @@
             "order": 110,
             "controlType": "textbox",
             "displayLabel": "Azure Region",
-            "watermarkText": "Please provide the Azure Region in which the max number of ADLA account is to be increased",
+            "watermarkText": "Please provide the Azure Region in which the max number of ADLA accounts is to be increased",
             "required": false
         },
         {
@@ -69,7 +69,7 @@
             "order": 120,
             "controlType": "textbox",
             "displayLabel": "New max number of accounts",
-            "watermarkText": "Please provide the new max number of ADLA account to be requested",
+            "watermarkText": "Please provide the new max number of ADLA accounts to be increased to",
             "required": false
         },
         {
@@ -87,7 +87,7 @@
             "order": 140,
             "controlType": "textbox",
             "displayLabel": "Azure Region",
-            "watermarkText": "Please provide the Azure Region in which a new ADLA account limit is to be increased",
+            "watermarkText": "Please provide the Azure Region in which the new ADLA account limit is to be adjusted",
             "required": false
         },
         {
