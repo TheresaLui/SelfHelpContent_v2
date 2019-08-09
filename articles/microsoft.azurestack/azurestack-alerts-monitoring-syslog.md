@@ -22,10 +22,10 @@ Starting with the [1904 Update](https://docs.microsoft.com/azure-stack/operator/
 
 ## **Recommended Steps**
 
-1. [Integrate Azure Stack infrastructure with Syslog](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-security) with external security solutions already deployed in your datacenter.
-1. Configure [Syslog forwarding for network devices](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-physical-device-auditing#syslog-forwarding-for-network-devices) used by your Azure Stack environment.
-1. Check connectivity to syslog server and port.
-1. Follow OEM-specific documentation for integration Baseboard Management (BMC), Hardware Lifecycle Host (HLH), and other physical components with Syslog.
+1. [Integrate Azure Stack infrastructure with Syslog](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-security) with external security solutions already deployed in your datacenter
+1. Configure [Syslog forwarding for network devices](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-physical-device-auditing#syslog-forwarding-for-network-devices) used by your Azure Stack environment
+1. Check connectivity to syslog server and port
+1. Follow OEM-specific documentation for integration Baseboard Management (BMC), Hardware Lifecycle Host (HLH), and other physical components with Syslog
 
 ## **Recommended Documents**
 
