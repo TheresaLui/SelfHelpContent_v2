@@ -11,7 +11,7 @@
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32635692"
-	clientIds='partnercenter'
+	clientIds="partnercenter"
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
