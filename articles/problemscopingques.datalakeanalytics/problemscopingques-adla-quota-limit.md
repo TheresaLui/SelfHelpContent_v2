@@ -89,7 +89,7 @@
             "displayLabel": "Azure Region",
             "watermarkText": "Please provide the Azure Region in which a new ADLA account limit is to be increased",
             "required": false
-        },        
+        },
         {
             "id": "new_max_concurrent_jobs",
             "visibility": "request_type == max_account_limit",
