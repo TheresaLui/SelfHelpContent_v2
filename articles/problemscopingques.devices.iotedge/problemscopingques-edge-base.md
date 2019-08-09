@@ -4,7 +4,7 @@
 	authors="jlian"
 	ms.author="jlian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds=""
+	supportTopicIds="32608836,32608837,32608838,32608841,32608824,32608825,32608829,32608857,32608862,32608869"
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
