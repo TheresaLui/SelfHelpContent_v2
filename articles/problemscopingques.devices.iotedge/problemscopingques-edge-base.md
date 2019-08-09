@@ -38,8 +38,8 @@
 			"order": 3,
 			"controlType": "multilinetextbox",
 			"infoBalloonText": "Your first step when troubleshooting IoT Edge should be to use the check command, which performs a collection of configuration and connectivity tests for common issues. The check command is available in <a href= 'https://github.com/Azure/azure-iotedge/releases/tag/1.0.7'>release 1.0.7</a> and later. To learn more, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#run-the-iotedge-check-command'>Troubleshoot IoT Edge</a> ",
-			"displayLabel": "Output of "iotedge check"",
-			"watermarkText": "Paste output of "iotedge check"",
+			"displayLabel": "Output of `iotedge check`",
+			"watermarkText": "Paste output of `iotedge check`",
 			"required": false
 		},
 		{
@@ -170,9 +170,9 @@
 			"id": "docker_version",
 			"order": 8,
 			"controlType": "textbox",
-			"infoBalloonText": "Run "docker version" ("docker -H npipe:////./pipe/iotedge_moby_engine version" for Moby on Windows)",
+			"infoBalloonText": "Run `docker version` (`docker -H npipe:////./pipe/iotedge_moby_engine version` for Moby on Windows)",
 			"displayLabel": "Docker version",
-			"watermarkText": "Paste output of "docker version" here",
+			"watermarkText": "Paste output of `docker version` here",
 			"required": false
 		},
 		{
