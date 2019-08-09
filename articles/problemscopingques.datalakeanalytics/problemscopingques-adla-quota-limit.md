@@ -91,7 +91,7 @@
             "required": false
         },        
         {
-            "id": "new_max_account_limits",
+            "id": "new_max_concurrent_jobs",
             "visibility": "request_type == max_account_limit",
             "order": 150,
             "controlType": "textbox",
@@ -100,7 +100,7 @@
             "required": false
         },
         {
-            "id": "new_max_account_limits",
+            "id": "new_max_concurrent_aus",
             "visibility": "request_type == max_account_limit",
             "order": 160,
             "controlType": "textbox",
