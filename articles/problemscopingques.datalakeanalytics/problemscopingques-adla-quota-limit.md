@@ -5,7 +5,7 @@
 	authors="lisaliu"
 	ms.author="guyhay, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32680641, 32680642"
+	supportTopicIds="32680642"
 	productPesIds="15940"
 	cloudEnvironments="public"
 	schemaVersion="1"
