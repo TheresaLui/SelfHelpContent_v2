@@ -24,7 +24,7 @@
       "order": 1,
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
-      "required": true
+      "required": false
     },
     {
       "id": "sdk_or_not",
@@ -44,7 +44,7 @@
         },
         {
           "value": "dont_know_answer",
-          "text": "Don't Know"
+          "text": "Don't know"
         }
       ],
       "required": true
@@ -80,6 +80,10 @@
         {
           "value": "iOS",
           "text": "iOS"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Don't know"
         }
       ],
       "required": true
@@ -112,6 +116,10 @@
         {
           "value": "HTTPS",
           "text": "HTTPS"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Don't know"
         }
       ],
       "required": true
@@ -121,15 +129,18 @@
       "order": 6,
       "controlType": "multilinetextbox",
       "displayLabel": "Details, error logs, and affected device IDs",
-      "watermarkText": "Provide additional information about your issue. Do you have any device logs of the error with latest timestamp?",
+      "watermarkText": "Provide additional information, logs, and device IDs.",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
         {
-          "text": "Issue description."
+          "text": "Any device logs of errors with latest timestamp"
         },
         {
-          "text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
+          "text": "Examples of device IDs (ideally 3)"
+        },
+        {
+          "text": "Any other details"
         }
       ]
     }
