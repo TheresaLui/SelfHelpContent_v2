@@ -16,7 +16,7 @@
 
 # ASDK - Azure Stack Development Kit Supportability
 
-Thank you for your interest in Azure Stack. As outlined in [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting), the Azure Stack Development Kit is offered as an **evaluation environment** with no support available through Microsoft Customer Support Services. Please understand that any support cases opened for ASDK will be redirected to the MSDN Forum and closed.
+Thank you for your interest in Azure Stack. As outlined in [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting), the Azure Stack Development Kit is offered as an **evaluation environment** with no support available through Microsoft Customer Support Services. Please note that any support cases opened for ASDK will be redirected to the MSDN Forum and closed.
 
 ## **Recommended Steps**
 
@@ -25,7 +25,7 @@ Thank you for your interest in Azure Stack. As outlined in [Microsoft Azure Stac
 ## ASDK documentation
 
 * Prepare the [ASDK host computer](https://docs.microsoft.com/azure-stack/asdk/asdk-prepare-host)<br>
-* Before you can install the ASDK on the host computer, [prepare the development kit host computer](https://docs.microsoft.com/azure-stack/asdk/asdk-prepare-host#prepare-the-development-kit-host-computer).
+* Before you can install the ASDK on the host computer, [prepare the development kit host computer](https://docs.microsoft.com/azure-stack/asdk/asdk-prepare-host#prepare-the-development-kit-host-computer)
 
 ## **Recommended Documents**
 
