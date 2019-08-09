@@ -37,7 +37,7 @@
             "order": 10,
             "controlType": "textbox",
             "displayLabel": "Cluster name",
-            "required": true
+            "required": false
         },
         {
             "id": "is_new_problem",
@@ -197,7 +197,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
