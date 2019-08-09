@@ -13,6 +13,7 @@
 # Management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Unable to share Shared Image Gallery, Image Definition or Image Version",
     "fileAttachmentHint": "",
