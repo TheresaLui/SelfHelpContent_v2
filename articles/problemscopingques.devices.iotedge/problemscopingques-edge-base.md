@@ -29,25 +29,23 @@
 			"id": "edge_device_id",
 			"order": 2,
 			"controlType": "textbox",
-			"infoBalloonText": "Run `iotedge version` on the device",
-			"displayLabel": "IoT Edge device ID",
+			"displayLabel": "Affected IoT Edge device ID",
 			"watermarkText": "Example: myEdgeDevice",
-			"required": true
+			"required": false
 		},
 		{
 			"id": "iotedge_check",
-			"order": 2,
+			"order": 3,
 			"controlType": "multilinetextbox",
 			"infoBalloonText": "Your first step when troubleshooting IoT Edge should be to use the check command, which performs a collection of configuration and connectivity tests for common issues. The check command is available in <a href= 'https://github.com/Azure/azure-iotedge/releases/tag/1.0.7'>release 1.0.7</a> and later. To learn more, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#run-the-iotedge-check-command'>Troubleshoot IoT Edge</a> ",
-			"displayLabel": "Output of iotedge check",
-			"watermarkText": "Paste here",
+			"displayLabel": "Output of "iotedge check"",
+			"watermarkText": "Paste output of "iotedge check"",
 			"required": false
 		},
 		{
 			"id": "os",
-			"order": 3,
+			"order": 4,
 			"controlType": "dropdown",
-			"infoBalloonText": "To learn more about the Azure IoT Device SDKs, see <a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks'>Understand and use Azure IoT Hub SDKs</a> ",
 			"displayLabel": "Device (host) operating system",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
@@ -123,7 +121,7 @@
 		},
 		{
 			"id": "architecture",
-			"order": 4,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "Architecture",
 			"watermarkText": "Choose an option",
@@ -144,7 +142,7 @@
 		},
 		{
 			"id": "container_os",
-			"order": 4,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Container operating system",
 			"watermarkText": "Choose an option",
@@ -161,7 +159,7 @@
 		},
 		{
 			"id": "edge_version",
-			"order": 5,
+			"order": 7,
 			"controlType": "textbox",
 			"infoBalloonText": "Run `iotedge version` on the device",
 			"displayLabel": "IoT Edge version",
@@ -170,19 +168,18 @@
 		},
 		{
 			"id": "docker_version",
-			"order": 6,
+			"order": 8,
 			"controlType": "textbox",
-			"infoBalloonText": "Run <code>docker version</code> (<code>docker -H npipe:////./pipe/iotedge_moby_engine version</code> for Moby on Windows)",
+			"infoBalloonText": "Run "docker version" ("docker -H npipe:////./pipe/iotedge_moby_engine version" for Moby on Windows)",
 			"displayLabel": "Docker version",
-			"watermarkText": "Paste here",
+			"watermarkText": "Paste output of "docker version" here",
 			"required": false
 		},
 		{
 			"id": "problem_description",
-			"order": 7,
+			"order": 9,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Additional information",
-			"infoBalloonText": "Follow <a href=\"https://docs.microsoft.com/en-us/azure/iot-edge/troubleshoot#standard-diagnostic-steps\">diagnostic steps</a> to help extract useful information.",
 			"watermarkText": "Please provide any additional information that may be helpful in understanding the issue. ",
 			"required": true,
 			"useAsAdditionalDetails": true,
@@ -193,7 +190,7 @@
 					"text": "Expected behavior and current behavior"
 				},
 				{
-					"text": "Share as many logs as possible (iotedged logs, edge-agent logs, edge-hub logs) "
+					"text": "Share as many logs as possible (iotedged logs, edge-agent logs, edge-hub logs) from <a href=\"https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps\">diagnostic steps</a>"
 				}
 			]
 		}
