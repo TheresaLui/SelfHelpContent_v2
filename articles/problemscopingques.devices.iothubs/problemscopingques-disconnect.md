@@ -27,10 +27,37 @@
       "required": false
     },
     {
-      "id": "sdk_or_not",
+      "id": "protocol",
       "order": 2,
       "controlType": "dropdown",
-      "infoBalloonText": "<a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks'>Learn more about the Azure IoT Device SDKs</a> ",
+      "infoBalloonText": "IoT Hub supports MQTT, AMQP, and HTTPS protocols. To learn more, see <a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-protocols'>Choose a communication protocol</a> ",
+      "displayLabel": "What protocol are you using?",
+      "watermarkText": "Choose an option",
+      "dropdownOptions": [
+        {
+          "value": "MQTT",
+          "text": "MQTT"
+        },
+        {
+          "value": "AMQP",
+          "text": "AMQP"
+        },
+        {
+          "value": "HTTPS",
+          "text": "HTTPS"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Don't know"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "sdk_or_not",
+      "order": 3,
+      "controlType": "dropdown",
+      "infoBalloonText": "To learn more about the Azure IoT Device SDKs, see <a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks'>Understand and use Azure IoT Hub SDKs</a> ",
       "displayLabel": "Are you using Azure IoT Device SDKs?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
@@ -51,10 +78,10 @@
     },
     {
       "id": "sdk_language",
-      "order": 3,
+      "order": 4,
       "visibility": "sdk_or_not == Yes",
       "controlType": "dropdown",
-      "displayLabel": "What's the language of SDK you're using?",
+      "displayLabel": "Language",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
         {
@@ -80,49 +107,18 @@
         {
           "value": "iOS",
           "text": "iOS"
-        },
-        {
-          "value": "dont_know_answer",
-          "text": "Don't know"
         }
       ],
-      "required": true
-    },
-    {
-      "id": "sdk_version",
-      "order": 4,
-      "visibility": "sdk_or_not == Yes",
-      "controlType": "textbox",
-      "displayLabel": "What version?",
-      "watermarkText": "Example: 1.21.0",
       "required": false
     },
     {
-      "id": "protocol",
+      "id": "sdk_version",
       "order": 5,
-      "controlType": "dropdown",
-      "infoBalloonText": "<a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-protocols'>Learn more about protocol supported by IoT Hub</a> ",
-      "displayLabel": "What transport protocol are you using?",
-      "watermarkText": "Choose an option",
-      "dropdownOptions": [
-        {
-          "value": "MQTT",
-          "text": "MQTT"
-        },
-        {
-          "value": "AMQP",
-          "text": "AMQP"
-        },
-        {
-          "value": "HTTPS",
-          "text": "HTTPS"
-        },
-        {
-          "value": "dont_know_answer",
-          "text": "Don't know"
-        }
-      ],
-      "required": true
+      "visibility": "sdk_or_not == Yes",
+      "controlType": "textbox",
+      "displayLabel": "Version",
+      "watermarkText": "Example: 1.21.0",
+      "required": false
     },
     {
       "id": "problem_description",
@@ -134,7 +130,7 @@
       "useAsAdditionalDetails": true,
       "hints": [
         {
-          "text": "Any device logs of errors with latest timestamp"
+          "text": "Device logs of errors with latest timestamp (indicate timezone or UTC)"
         },
         {
           "text": "Examples of device IDs (ideally 3)"
