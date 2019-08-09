@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="f9fb9e78-587e-4766-8573-762030330d71"
 />
 
 # Deployments aren't getting applied to an IoT Edge device
@@ -21,7 +22,7 @@ IoT Edge deployment manifests describe the modules that should be running on an 
 * Verify that the deployment manifest lists the correct module names, module images, and includes the credentials for any private container registries. 
 * If it's an automatic deployment, verify that the tags in the device twin match the target condition for the deployment. And check that another deployment doesn't have higher priority for that device. 
 * On the IoT Edge device, run `iotedge check --verbose`. Look particularly at the results of the connectivity checks to make sure that your device can connect to IoT Hub to retrieve deployment updates. 
-* Run `iotedge logs $edgeAgent` to check the IoT Edge agent logs for any errors or failures. The agent is responsible for retrieving deployments and starting the modules, so these logs should help identify which part of the process is failing. 
+* Run `iotedge logs edgeAgent` to check the IoT Edge agent logs for any errors or failures. The agent is responsible for retrieving deployments and starting the modules, so these logs should help identify which part of the process is failing. 
 
 ## **Recommended documents**
 

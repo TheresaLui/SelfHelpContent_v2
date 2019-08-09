@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="06c4e95e-448b-4ac6-9ebc-57c7c2fd38e3"
 />
 
 # I'm hitting quota limits for my IoT Hub
@@ -20,7 +21,7 @@ If you reach the IoT Hub message quota (403 IoTHubQuotaExceeded), consider upgra
 
 * To upgrade IoT hub to a higher tier, go to [Pricing and scale](data-blade:Microsoft_Azure_IotHub.IotHubPricingAndScaleBlade.id.$resourceId), and [choose a tier](https://docs.microsoft.com/azure/iot-hub/iot-hub-scaling)
 * It is [not currently possible](https://azure.microsoft.com/pricing/details/iot-hub/) to upgrade from IoT Hub free edition (F1) to one of the paid editions. For a workaround, use [ARM templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-export-template-powershell) to create a paid IoT hub with the same settings, and import device identities from the free IoT hub with our [bulk device management API](https://docs.microsoft.com/azure/iot-hub/iot-hub-bulk-identity-mgmt).
-* For other types of quota increases, like maximum units, number of hubs in a subscription, or maximum device count, please open a support request.
+* You can ask for other types of quota increases, like maximum units, number of hubs in a subscription, or maximum device count, in a support request.
 
 ## **Recommended Documents**
 

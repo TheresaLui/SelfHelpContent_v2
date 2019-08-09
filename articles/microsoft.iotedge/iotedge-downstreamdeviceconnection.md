@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="73d78d4d-24a5-40e9-b7d3-a5158975e098"
 />
 
 # Downstream device can't connect to an IoT Edge gateway

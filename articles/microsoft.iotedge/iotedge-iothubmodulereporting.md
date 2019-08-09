@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="0699858c-012b-412b-a7cf-435e22cfbb89"
 />
 
 # The Azure portal doesn't report IoT Edge modules as running

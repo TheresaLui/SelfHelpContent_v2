@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="14bc5cb4-01f0-49fb-8757-fc31add23ffc"
 />
 
 # Problems related to the Azure CLI

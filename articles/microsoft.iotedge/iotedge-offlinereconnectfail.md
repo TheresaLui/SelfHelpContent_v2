@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="ff4317fd-3c49-446d-882b-bef72440ed17"
 />
 
 # My IoT Edge device doesn't reconnect after coming back online

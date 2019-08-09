@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="642e98fe-b62c-4c7e-9550-87f54fab3a9b"
 />
 
 # IoT Edge module not connecting
@@ -18,9 +19,9 @@ If your IoT Edge device has been running for a while and then modules stop being
 
 ## **Recommended steps**
 
-* On the IoT Edge device, run `iotedge check --verbose`. 
-  * Look particularly at the results of the configuration checks. If you don't provide certificates during installation, IoT Edge uses preview certificates that expire after 30 days. Reboot the device or use a production certificate to continue using the device. 
+* On the IoT Edge device, run `iotedge check --verbose`. Look particularly at the results of the configuration checks. If you don't provide certificates during installation, IoT Edge uses preview certificates that expire after 30 days. Reboot the device or use a production certificate to continue using the device. 
 * Check the version of IoT Edge on your device by running `iotedge --version`. Update your device to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues.
+* Update the IoT Edge agent and IoT Edge hub modules to tag 1.0.8 or newer. For more information, see [Update a specific tag image](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge#update-a-specific-tag-image).
 
 ## **Recommended documents**
 
