@@ -4,7 +4,7 @@
     infoBubbleText="Cluster Creation Error When Service Bypass Disabled. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="RaviChitturi"
+    authors="Ravi"
     ms.author="v-ravikc"
     displayOrder=""
     articleId="Hdi_ServiceBypassDisabled"
