@@ -32,4 +32,4 @@ Since "Allow trusted Microsoft services to access <!--$StorageAccount-->[Storage
 
 ## **Recommended Documents**
 
-* [Service Bypass is disabled](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-use-blob-storage)
+* [Service Bypass is disabled](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)
