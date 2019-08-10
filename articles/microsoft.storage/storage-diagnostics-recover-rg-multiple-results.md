@@ -19,7 +19,7 @@ cloudEnvironments="public"
 
 Microsoft Azure team completed storage account recovery process in Resource Group **<!--$ResourceGroupName-->[ResourceGroupName]<!--/$ResourceGroupName-->** that was deleted on **<!--$DeletionTime-->[DeletionTime]<!--/$DeletionTime-->** with the following results:
 
-### Successfully recovered storage acount(s):
+### Successfully recovered storage account(s):
 We were able to successfully recover the following storage account(s). Please check and confirm if you can access them:
 
 **_[Enter list of accounts where recovery succeeded]_**

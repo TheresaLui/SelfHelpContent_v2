@@ -23,14 +23,14 @@ Microsoft Azure team cannot recover deleted storage account(s) in Resource Group
 
 **<!--$DeletionInfo_Recreated-->[DeletionInfo_Recreated]<!--/$DeletionInfo_Recreated-->**<br>
 
-[Storage account names must be unique within Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account#create-a-storage-account) so it is not possible to recover deleted storage accounts with the same name as another live account in Azure. If you are the owner of these new storage accounts, you will need to delete the new accounts before we can attempt recovery of the deleted ones. Our recovery attempt is based on best effort and we cannot gurantee that it will succeed. Please backup your data in the new storage account before deletion.
+[Storage account names must be unique within Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account#create-a-storage-account) so it is not possible to recover deleted storage accounts with the same name as another live account in Azure. If you are the owner of these new storage accounts, you will need to delete the new accounts before we can attempt recovery of the deleted ones. Our recovery attempt is based on best effort and we cannot guarantee that it will succeed. Please backup your data in the new storage account before deletion.
 
 ---
 ## Storage account recovery results
 
 Microsoft Azure team completed storage account recovery process in Resource Group **<!--$ResourceGroupName-->[ResourceGroupName]<!--/$ResourceGroupName-->** that was deleted on **<!--$DeletionTime-->[DeletionTime]<!--/$DeletionTime-->** with the following results:
 
-### Successfully recovered storage acount(s):
+### Successfully recovered storage account(s):
 We were able to successfully recover the following storage account(s). Please check and confirm if you can access them:
 
 **_[Enter list of accounts where recovery succeeded]_**
