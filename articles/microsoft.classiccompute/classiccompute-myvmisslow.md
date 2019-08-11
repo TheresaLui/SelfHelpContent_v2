@@ -12,6 +12,8 @@
 	productPesIds="14749,15571,15797,16454"
 	cloudEnvironments="public"
 	articleId="5b164da5-bc96-47b3-8bd9-74cfcf4db851"
+	category="performance"
+	searchTags="slow, performance, vm"
 />
 
 # My VM is slow

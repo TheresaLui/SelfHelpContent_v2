@@ -31,7 +31,6 @@ If you have migrated to SCC and receive errors about missing permissions, please
 1. [Do you need to be a global admin to configure Azure Information Protection, or can I delegate to other administrators?](https://docs.microsoft.com/azure/information-protection/faqs#do-you-need-to-be-a-global-admin-to-configure-azure-information-protection-or-can-i-delegate-to-other-administrators)<br>
 2. [Important information about administrative roles after migrating to SCC](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels#important-information-about-administrative-roles)<br>
 
-
 ## **Recommended Documents**
 
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>

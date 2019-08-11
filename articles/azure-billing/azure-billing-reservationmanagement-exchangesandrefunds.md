@@ -1,10 +1,11 @@
 <properties
-	pageTitle="exchanges and refunds"
-	description="exchanges and refunds"
+	pageTitle="Exchanges and refunds for an Azure Reserved Instance"
+	description="Exchanges and refunds for an Azure Reserved Instance"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
-	displayOrder=""
+	ms.author="prdasneo"
+	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32593227"
 	resourceTags=""
@@ -13,25 +14,29 @@
 	articleId="0f67df6b-5123-49f6-9ab8-ff5755ec54f4"
 />
 
-# Exchanges and Refunds
+# Exchanges and refunds for an Azure Reserved Instance
 
-**How is a reserved instance purchase billed?**
+### **Billing for a Reserved Instance purchase**
 
-The reserved instance purchase is charged to the payment method tied to the subscription.  The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an enterprise agreement (offer number: MS-AZR-0017P) or Pay-As-You-Go (offer number: MS-AZR-0003P). For an enterprise subscription, the charges are deducted from the enrollment's monetary commitment balance or charged as overage. For Pay-As-You-Go subscription, the charges are billed to the credit card or invoice payment method on the subscription. To Learn more, see [Understanding the application of reserved instances billing benefit.](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
+The reserved instance purchase is charged to the payment method tied to the subscription. The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an enterprise agreement (offer number: MS-AZR-0017P or MS-AZR-0148P) or Pay-As-You-Go (offer number: MS-AZR-0003P or MS-AZR-0023P). 
+Cloud solution providers can use the Azure portal or [Partner Center](https://docs.microsoft.com/partner-center/azure-reservations) to purchase Azure Reservations.<br>
 
-**Cancellations and exchanges**
+To learn more, see [Azure Reservations](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations).
+
+### **Exchange an existing reserved instance**
 
 * **Reserved VM Instance and SQL Database**
 
-If you need to cancel your reservation, there may be a 12% early termination fee. Refunds are based on the lowest price of either your purchase price or the current price of the reservation. Refunds are limited to $50,000 per year. The refund you receive is the remaining pro-rated balance minus the 12% early termination fee. To request a cancellation, go to the [Reservation Blade](https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade) in the Azure portal and select Refund to create a support request. <br>
+You can exchange a reservation for another reservation of the same type. You can also refund a reservation, up to $50,000 USD per year, if you no longer need it. Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. However, other US Government subscription types including Pay-As-You-Go and CSP are supported.
 
-If you need to change your Reserved VM Instances reservation to another region, VM size group, or term, you can exchange it for another reservation that's of equal or greater value. The term start date for the new reservation doesn't carry over from the exchanged reservation. The 1 or 3 year term starts from when you create the new reservation. To request an exchange, go to the [Reservation Blade](https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade) in the Azure portal, and select Exchange to create a support request.
+1. Log in to your [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade)<br>
+2. Select the reservations that you want to refund and click **Exchange** <br>
+3. Select the VM product that you want to purchase and type a quantity. Make sure that the new purchase total is more than the return total. [Determine the right size before you purchase](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#determine-the-right-vm-size-before-you-buy) <br>
+4. Review and complete the transaction <br>
 
-* **SUSE Software**
+To refund a reservation, go to **Reservation Details** and click **Refund**.
 
-You can't cancel or exchange a SUSE plan that you bought. Check your usage to make sure you buy the right plan. For help in identifying what to buy, see [Understand how the SUSE Linux Enterprise software reservation discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges).
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Prepay for Virtual Machines with Azure Reserved VM Instances](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#cancellations-and-exchanges)<br>
 * [Prepay for SUSE software plans from Azure Reservations](https://docs.microsoft.com/azure/virtual-machines/linux/prepay-suse-software-charges#cancellation-and-exchanges-not-allowed)<br>
@@ -44,3 +49,12 @@ You can't cancel or exchange a SUSE plan that you bought. Check your usage to ma
 * [Manage reserved instances](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance)<br>
 * [Manage Microsoft Azure reservations on behalf of your customers](https://docs.microsoft.com/partner-center/azure-reservations-manage)<br>
 * [Reserved instances in Partner Center Cloud Solution Provider (CSP) program](https://docs.microsoft.com/partner-center/azure-reservations)<br>
+* [How return and exchange transactions are processed](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#how-return-and-exchange-transactions-are-processed)<br>
+* [Exchange and Refund policies](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#exchange-policies)<br>
+
+Discount Application:
+
+* [Reserved VM Instance](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)
+* [Cosmos DB](https://docs.microsoft.com/azure/billing/billing-understand-cosmosdb-reservation-charges)
+* [SQL Database](https://docs.microsoft.com/azure/billing/billing-understand-reservation-charges)
+* [SUSE Linux](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges)

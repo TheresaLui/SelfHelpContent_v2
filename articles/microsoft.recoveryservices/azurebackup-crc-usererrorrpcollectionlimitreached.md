@@ -7,7 +7,7 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	articleId="azurebackup-crc-usererrorrpcollectionlimitreached"
-	diagnosticScenario="azurebackup-crc-usererrorrpcollectionlimitreached"
+	diagnosticScenario="AzureBackup_ScenarioLevelInsight"
 	selfHelpType="diagnostics"
 	supportTopicIds="32553276,32553277"
 	productPesIds="15207"

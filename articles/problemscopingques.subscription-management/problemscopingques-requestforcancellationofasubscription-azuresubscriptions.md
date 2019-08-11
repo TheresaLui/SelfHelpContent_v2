@@ -5,49 +5,61 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32549156"
+	supportTopicIds="32632949"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 
 # Azure Subscription Cancellation
 ---
 {
-	"resourceRequired": false,
-	"title": "Azure subscriptions",
-	"fileAttachmentHint": "",
-	"formElements": [
-      {
-      "id": "problem_start_time",
-      "visibility": null,
-      "order": 2,
-      "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-  },
-  {
-			"id": "problem_description",
-			"order": 1,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the following:",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Error message encountered while cancelling the subscription"
-				}, {
-					"text": "Cancellation Reason"
-				}
-			]
-		}
-	]
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Request for Cancellation of a Subscription",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date",
+            "required": true
+        },
+	{
+            "id": "subscriptionId",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "",
+            "required": true
+        },
+	{
+            "id": "reason_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Reason for cancellation",
+            "watermarkText": "Provide the reason for cancellation",
+            "required": false
+        },
+        {
+            "id": "error_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error message (if any) encountered ",
+            "watermarkText": "Provide the error message encountered",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Additional details (if any)",
+            "watermarkText": "Provide any other additional relevant details",
+            "required": true
+           }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

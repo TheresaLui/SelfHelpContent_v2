@@ -1,20 +1,20 @@
 <properties  
-              pageTitle="My VM is not booting"
-              description="My VM is not booting"
-              service=""
-              resource=""
-              authors="scotro,timbasham"
-              ms.author="scotro,tibasham"
-              displayOrder=""
-              selfHelpType="generic"
-              supportTopicIds="32615532,32628284"
-              resourceTags=""
-              productPesIds="14749"
-              cloudEnvironments="public"
-	articleId="f77c4d7d-6738-46fb-afea-07b627a597b6"
+    pageTitle="My Windows VM is not booting for reconnection"
+    description="My Windows VM is not booting for reconnection"
+    service=""
+    resource=""
+    authors="scotro,timbasham"
+    ms.author="scotro,tibasham"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32615532,32628284,32639646"
+    resourceTags=""
+    productPesIds="14749,14745"
+    cloudEnvironments="public"
+    articleId="f77c4d7d-6738-46fb-afea-07b627a597b6"
 />
 
-# My VM is not booting
+# My Windows VM is not booting for reconnection
 
 4 out of 5 customers resolved their VM boot issue using the steps listed below.<br>
 

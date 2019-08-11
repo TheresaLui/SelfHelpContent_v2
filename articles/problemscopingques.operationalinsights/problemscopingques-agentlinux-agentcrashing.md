@@ -15,6 +15,7 @@ schemaVersion="1"
 # Agent is crashing
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
@@ -45,6 +46,10 @@ schemaVersion="1"
                 {
                     "value": "dont_know_answer",
                     "text": "Not sure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -67,6 +72,10 @@ schemaVersion="1"
                 {
                     "value": "dont_know_answer",
                     "text": "Not sure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
