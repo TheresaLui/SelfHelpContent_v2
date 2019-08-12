@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
+    ms.author="cychua"
     displayOrder="60"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="f99eaa64-e651-4ad3-9da7-53d32d3b92a9"
+	articleId="activedirectory-aadconnect-sync-aadconnectsetup-mooncake"
 />
 
 # How to set up Azure AD Connect sync
@@ -21,7 +22,7 @@
 
 * Azure AD Connect provides two options for new installation: Express and customized. For details on both options, refer to article [Select which installation type to use for Azure AD Connect](https://docs.azure.cn/active-directory/hybrid/how-to-connect-install-select-installation).
 
-* To understand the pre-requisites for installing Azure AD Connect, refer to article [Prerequisites for Azure AD Connect](https://docs.azure.cn/active-directory/hybrid/how-to-connect-install-prerequisites).
+* To understand the prerequisites for installing Azure AD Connect, refer to article [Prerequisites for Azure AD Connect](https://docs.azure.cn/active-directory/hybrid/how-to-connect-install-prerequisites).
 
 * To download the latest build of Azure AD Connect, click [here](https://www.microsoft.com/download/details.aspx?id=47594).
 

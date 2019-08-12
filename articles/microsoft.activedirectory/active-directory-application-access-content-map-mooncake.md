@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="ajamess"
+    ms.author="asteen"
     selfHelpType="resource"
     cloudEnvironments="MoonCake"
     resourceTags="enterpriseapps_overview, enterpriseapps_singleapp,directory_overview"
     displayOrder="47"
-    	articleId="0326bd07-49cf-422a-8cd6-7e281373f2fb"
+    articleId="active-directory-application-access-content-map-mooncake"
 />
 
 # Problems managing application access and permissions

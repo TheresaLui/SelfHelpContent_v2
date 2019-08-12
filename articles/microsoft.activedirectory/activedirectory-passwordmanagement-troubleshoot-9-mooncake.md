@@ -8,14 +8,14 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
-    	articleId="37a166b9-2609-4eda-9849-2e777826e9f0"
+    articleId="activedirectory-passwordmanagement-troubleshoot-9-mooncake"
 />
 
 # Browse password reset documentation to find answers
 
 ## **Recommended steps**
 
-If you are using any of our documentation, we have tried hard to provide links to all of the interesting pasword reset information for administrators in our table of contents.
+If you are using any of our documentation, we have tried hard to provide links to all of the interesting password reset information for administrators in our table of contents.
 
 Check out the table of contents below:
 

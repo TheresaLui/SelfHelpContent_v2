@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
+    ms.author="cychua"
     displayOrder="52"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="directory_ad_connect"
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="6545c2ae-f913-4591-aed8-3f3e5fc7c9b1"
+	articleId="active-directory-aadconnect-sync-objectsync-synchronizationnotworking-localdb10gblimit-mooncake"
 />
 
 # Synchronization Service stops working after LocalDB reaches 10-GB limit

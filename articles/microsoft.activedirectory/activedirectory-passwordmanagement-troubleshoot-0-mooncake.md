@@ -8,7 +8,7 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
-	articleId="a447252e-69f4-4283-885e-ae2cd1e56715"
+	articleId="activedirectory-passwordmanagement-troubleshoot-0-mooncake"
 />
 
 # Problems with licensing

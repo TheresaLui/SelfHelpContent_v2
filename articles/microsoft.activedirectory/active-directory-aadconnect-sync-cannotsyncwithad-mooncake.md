@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
+    ms.author="cychua"
     displayOrder="57"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="directory_ad_connect"
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="5ff2b37b-4313-42db-b9f0-2a0fc89172c6"
+	articleId="active-directory-aadconnect-sync-cannotsyncwithad-mooncake"
 />
 
 # Synchronization Service cannot import/export changes from on-premises AD

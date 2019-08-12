@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
+    ms.author="jeffsta"
     displayOrder="2"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="MoonCake"
-    	articleId="070f7d13-893f-483d-ad0c-80167337398d"
+    articleId="activedirectory-usersandgroups-edit-users-troubleshooter-mooncake"
 />
 
 

@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
+    ms.author="piotrci"
     displayOrder="42"
-    supportTopicIds="32565594"
+    supportTopicIds=""
     selfHelpType="resource"
     resourceTags="directory_delete"
-    productPesIds="14785,16578" 
+    productPesIds="" 
     cloudEnvironments="MoonCake"
- 	articleId="72fb9b5a-7925-4358-8f2e-2f62b53755d3"
+ 	articleId="activedirectory-directory-deletetenantsubscriptiontshooter-mooncake"
 />
 
 # I have Microsoft Online Services blocking deletion of my Azure AD
@@ -28,9 +29,7 @@ To view the list of all subscriptions present in your tenant, go to the [Office 
 Your ability to manage subscriptions depends on how they were originally purchased:
 
 1. Paid or trial seat-based subscriptions like Office 365 Enterprise E3, EMS or Azure AD Premium can be managed via the Office 365 Admin portal. If you wish to cancel a subscription you can do so by the following: Navigate to the Admin portal, go to the **Subscriptions** page and find the subscription you wish to manage in the list, then select **Cancel**. Then select **Confirm Cancellation**. If you wish to expedite your subscription to immediate cancel *before* its natural subscription lifecycle to delete an Azure AD tenant you will need to escalate through Support. Learn more about [Azure billing or Office 365 Business support](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-
 2. Purchases made with an Enterprise Agreement (EA) cannot be canceled in the Admin Center. Please contact your Account Manager to manage EA subscriptions.
-
 3. Subscriptions created by a Cloud Solution Provider (CSP) partner cannot be canceled in the Admin Center. Please contact the partner using the information provided in the Admin Center for that subscription.
 
 If you would like to move an Azure subscription to a different Azure AD tenant or Office 365, you can move your Pay-As-You-Go, Visual Studio, Action Pack or BizSpark subscription in the Account Center via self-service transfer. Learn more on [How to transfer ownership of an Azure subscription](https://docs.azure.cn/billing/billing-subscription-transfer).
@@ -38,11 +37,7 @@ If you would like to move an Azure subscription to a different Azure AD tenant o
 ## **Recommended documents**
 
 * [How Azure subscriptions are associated with Azure AD](https://docs.azure.cn/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
-
 * [Deleting Users from Azure Active Directory](https://docs.azure.cn/active-directory/fundamentals/add-users-azure-active-directory)
-
 * [Removing applications in the directory](https://docs.azure.cn/active-directory/develop/quickstart-register-app#removing-an-application)
-
 * [Transfer ownership of an Azure subscription to another account](https://docs.azure.cn/billing/billing-subscription-transfer)
-
 * [Additional information on deleting an Azure AD](https://docs.azure.cn/active-directory/fundamentals/active-directory-whatis#how-can-i-delete-an-azure-ad-directory)

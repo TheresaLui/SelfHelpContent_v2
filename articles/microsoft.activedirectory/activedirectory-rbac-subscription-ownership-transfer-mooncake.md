@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
+    ms.author="jeffsta"
     displayOrder="14"
     selfHelpType="resource"
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
-    	articleId="301cb828-36d2-4ce6-a8f0-6c862cbdc7ce"
+    articleId="activedirectory-rbac-subscription-ownership-transfer-mooncake"
 />
 
 # Unable to transfer ownership of a subscription

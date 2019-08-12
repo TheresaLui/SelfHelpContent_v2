@@ -4,13 +4,14 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="parakhj"
+	ms.author="parja"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32416703"
+	supportTopicIds=""
 	resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
-	productPesIds="14785,16580"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="9c3caee9-a539-4c9d-afb9-9a713e01ab49"
+	articleId="activedirectory-userandgroups-b2ccreateormigrateuser-mooncake"
 />
 
 # B2C: How to create or migrate users into Azure AD B2C

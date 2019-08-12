@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
+    ms.author="cychua"
     displayOrder="51"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="userandgroups_overview, userandgroups_user, userandgroups_group"
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="f6ba0966-136a-42e7-a17e-7f49f69bf886"
+	articleId="active-directory-aadconnect-sync-oufiltering-mooncake"
 />
 
 # Synchronization issue with OU-based (Organizational Unit) filtering

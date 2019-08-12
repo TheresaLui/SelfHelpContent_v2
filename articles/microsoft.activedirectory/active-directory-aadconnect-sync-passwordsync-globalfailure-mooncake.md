@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="billmath"
+    ms.author="billmath"
     displayOrder="50"
     selfHelpType="resource"
-    supportTopicIds="32596863"
+    supportTopicIds=""
     resourceTags="directory_ad_connect"
-    productPesIds="14785,16579"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="7183c039-47a0-432a-95ef-272beead8260"
+	  articleId="active-directory-aadconnect-sync-passwordsync-globalfailure-mooncake"
 />
 
 # Password synchronization does not work – No passwords are synchronized
@@ -37,12 +38,11 @@ To troubleshoot the issue, follow the steps described in section [Troubleshoot p
 
 Common root causes include:
 
-  * The on-premises Active Directory User object is enabled for **User must change password at next logon** option. When this option is enabled, the user is assigned a temporary password and will be prompted to change the password on next logon. Azure AD Connect does not synchronize temporary passwords to Azure AD. To resolve this issue, either:
+* The on-premises Active Directory User object is enabled for **User must change password at next logon** option. When this option is enabled, the user is assigned a temporary password and will be prompted to change the password on next logon. Azure AD Connect does not synchronize temporary passwords to Azure AD. To resolve this issue, either:
 
-    * Ask the user to sign in to on-premises application (E.g., Windows Desktop) and change the password. The new password will be synchronized to Azure AD, or
+  * Ask the user to sign in to on-premises application (E.g., Windows Desktop) and change the password. The new password will be synchronized to Azure AD.
+  * Have an administrator update the user’s password without enabling the option “User must change password at next logon” option and share the new password with the user.
 
-    * Have an administrator update the user’s password without enabling the option “User must change password at next logon” option and share the new password with the user.
-
-  * The on-premises Active Directory User object is not correctly configured for object synchronization or password synchronization.
+* The on-premises Active Directory User object is not correctly configured for object synchronization or password synchronization.
 
 To troubleshoot the issue, follow the steps described in the article [Troubleshoot password hash synchronization with Azure AD Connect sync](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-password-hash-synchronization).

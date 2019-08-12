@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
+    ms.author="cychua"
     displayOrder="54"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="c8217076-9f5e-465a-bedd-9c78f79bdf79"
+	articleId="active-directory-aadconnect-sync-howtomigratelocaldbtosql-mooncake"
 />
 
 # How to migrate Azure AD Connect from LocalDB to full SQL

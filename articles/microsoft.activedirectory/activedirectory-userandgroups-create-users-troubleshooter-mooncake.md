@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
+    ms.author="jeffsta"
     displayOrder="4"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="MoonCake"
- 	articleId="d76aa3c6-0e07-4cbe-b420-7007cd993250"
+ 	articleId="activedirectory-userandgroups-create-users-troubleshooter-mooncake"
 />
 # I can’t create a new user in my Azure AD
 

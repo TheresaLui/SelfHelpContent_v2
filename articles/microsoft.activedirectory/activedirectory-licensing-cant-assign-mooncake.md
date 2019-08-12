@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
+    ms.author="piotrci"
     displayOrder="27"
     supportTopicIds=""
     selfHelpType="resource"
     resourceTags="licensing_overview"
     productPesIds=""
     cloudEnvironments="MoonCake"
- 	articleId="c7120d5d-e561-40d3-807f-58d97a215580"
+ 	articleId="activedirectory-licensing-cant-assign-mooncake"
 />
 
 # I can't assign licenses to a user or group

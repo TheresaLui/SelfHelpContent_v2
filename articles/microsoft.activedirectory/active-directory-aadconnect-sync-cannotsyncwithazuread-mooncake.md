@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
+    ms.author="cychua"
     displayOrder="56"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="directory_ad_connect"
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="e1363ef5-1d70-4aec-9036-f290c226ba53"
+	articleId="active-directory-aadconnect-sync-cannotsyncwithazuread-mooncake"
 />
 
 # Synchronization Service cannot import/export changes from Azure AD
@@ -25,5 +26,5 @@ Common root causes include the following:
 
 ## **Recommended documents**
 
-* [Azure AD Connect sync: How to manage the Azure AD service account](https://docs.azure.cn/zh-c/active-directory/hybrid/how-to-connect-sync-change-serviceacct-pass)
+* [Azure AD Connect sync: How to manage the Azure AD service account](https://docs.azure.cn/active-directory/hybrid/how-to-connect-sync-change-serviceacct-pass)
 * [Troubleshoot connectivity issues with Azure AD Connect](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-connectivity)  

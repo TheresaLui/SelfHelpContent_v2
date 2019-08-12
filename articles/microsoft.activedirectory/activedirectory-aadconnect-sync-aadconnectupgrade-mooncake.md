@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
+    ms.author="cychua"
     displayOrder="59"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="32f0e973-4d2a-4254-ad49-c384658e6cf6"
+	articleId="activedirectory-aadconnect-sync-aadconnectupgrade-mooncake"
 />
 
 # How to upgrade Azure AD Connect to the latest version

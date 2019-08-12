@@ -11,7 +11,7 @@
     resourceTags="directory_domain,domain_directory"
     productPesIds=""
     cloudEnvironments="MoonCake"
-    	articleId="9b72ef87-cf93-4c51-a4bd-365c2e5dbaf6"
+    articleId="9b72ef87-cf93-4c51-a4bd-365c2e5dbaf6"
 />
 
 # I want to delete the initial .omschina.cn domain
@@ -20,8 +20,7 @@
 
 1. To delete the existing .omschina.cn domain, you must first delete the tenant instance you have created. Before you can delete the tenant, you must remove all users, groups and applications, and cancel your Azure and or Office 365 subscriptions. [Learn more](https://support.microsoft.com/help/2787210/-unable-to-remove-this-domain-error-when-you-try-to-remove-a-domain-from-office-365).
 
-2. If you have mistakenly created an Azure AD tenant with an initial .omschina.cn domain such as **myname.omschina.cn** and wish to update it to a friendlier company name like **contoso.omschina.cn**, you can configure a new Azure AD tenant and associate your subscriptions with
-the targeted tenant. [Learn more](https://support.microsoft.com/help/2787792/-domain-has-associated-subdomains-or-you-cannot-remove-a-domain-that-has-subdomains-error-when-you-try-to-remove-a-domain-from-office-365).
+2. If you have mistakenly created an Azure AD tenant with an initial .omschina.cn domain such as **myname.omschina.cn** and wish to update it to a friendlier company name like **contoso.omschina.cn**, you can configure a new Azure AD tenant and associate your subscriptions with the targeted tenant. [Learn more](https://support.microsoft.com/help/2787792/-domain-has-associated-subdomains-or-you-cannot-remove-a-domain-that-has-subdomains-error-when-you-try-to-remove-a-domain-from-office-365).
 
 ## **Recommended documents**
 

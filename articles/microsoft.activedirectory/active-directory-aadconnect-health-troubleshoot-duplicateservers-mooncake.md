@@ -4,10 +4,11 @@
 	service="microsoft.aad"
 	resource="Microsoft_Azure_ADHybridHealth"
 	authors="arluca"
+	ms.author="arluca"
 	displayOrder="61"
 	selfHelpType="resource"
 	cloudEnvironments="MoonCake"
-	articleId="6fb849ef-d956-4b12-b16e-570cce273b4d"
+	articleId="active-directory-aadconnect-health-troubleshoot-duplicateservers-mooncake"
 />
 # Duplicate servers in the portal
 

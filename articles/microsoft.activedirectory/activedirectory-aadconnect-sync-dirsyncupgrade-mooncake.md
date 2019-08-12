@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
+    ms.author="cychua"
     displayOrder="55"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="a4c281dd-514f-4398-8ef4-54c451d70b53"
+	articleId="activedirectory-aadconnect-sync-dirsyncupgrade-mooncake"
 />
 
 # How to upgrade DirSync to Azure AD Connect
@@ -18,6 +19,7 @@
 ## **Recommended steps**
 
 There are two options to upgrade DirSync (Windows Azure Active Directory Sync) to Azure AD Connect, including:
+
 * In-place upgrade
 * Parallel deployment
 

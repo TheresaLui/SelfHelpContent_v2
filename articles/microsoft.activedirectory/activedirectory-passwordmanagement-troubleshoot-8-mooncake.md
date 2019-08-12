@@ -8,7 +8,7 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
- 	articleId="80e45cf7-81d0-4efc-905c-65147bd56f10"
+ 	articleId="activedirectory-passwordmanagement-troubleshoot-8-mooncake"
 />
 # Gather the right information for communicating my problem to Microsoft
 

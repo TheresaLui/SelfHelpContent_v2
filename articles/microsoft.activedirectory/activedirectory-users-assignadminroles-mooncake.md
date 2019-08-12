@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="curtand"
+    ms.author="curtand"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="users-assignrole,userandgroups_overview,userandgroups_user"
     productPesIds=""
-    cloudEnvironments="MonnCake"
-    	articleId="c413431f-16ff-477b-8fe0-aeac99229c06"
+    cloudEnvironments="MoonCake"
+    articleId="activedirectory-users-assignadminroles-mooncake"
 />
 
 # I want to assign an administrator role to a user

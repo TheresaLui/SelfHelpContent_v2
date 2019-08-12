@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
+    ms.author="jeffsta"
     displayOrder="16"
     selfHelpType="resource"
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
-    	articleId="84e98da4-755a-4e4b-9e70-bad0d3acaf02"
+    articleId="activedirectory-rbac-default-directory-mooncake"
 />
 
 # Unable to change the default directory of a subscription

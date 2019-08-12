@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
+    ms.author="jeffsta"
     displayOrder="3"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="MoonCake"
- 	articleId="0bb3f8d7-e9be-4515-94e8-1de8eaec35c0"
+ 	articleId="activedirectory-userandgroups-delete-users-troubleshooter-mooncake"
 />
 # I can’t delete a user from my directory
 

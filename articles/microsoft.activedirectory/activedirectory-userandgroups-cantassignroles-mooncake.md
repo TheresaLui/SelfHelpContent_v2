@@ -11,12 +11,13 @@
     resourceTags="userandgroups_overview,userandgroups_user"
     productPesIds=""
     cloudEnvironments="MoonCake"
-    	articleId="2eec419f-9c11-4a06-90cf-63ff4aa23a6d"
+    articleId="activedirectory-userandgroups-cantassignroles-mooncake"
 />
 
 # I can’t assign roles to other users in the Azure AD tenant
 
 ## **Recommended steps**
+
 1. Ensure that you are assigned to a directory role that is authorized to manage roles in your current Azure AD. If you are managing multiple directories, verify the tenant you are accessing has given permissions to the Global Administrator or Privileged Identity Manager. In the case, you are given permissions to an Azure subscription that does not convey that you have permissions to manage the Azure AD that is associated with that subscription. Learn more on [Assigning Azure AD administrative roles](https://docs.azure.cn/active-directory/users-groups-roles/directory-assign-admin-roles).
 2. Assign the role that corresponds to the permissions that the user needs in your Azure AD. To assign the role, navigate to the ‘directory role’ tab for the user. Learn about the [Azure AD permissions and roles](https://docs.azure.cn/active-directory/users-groups-roles/directory-assign-admin-roles#administrator-permissions).
 

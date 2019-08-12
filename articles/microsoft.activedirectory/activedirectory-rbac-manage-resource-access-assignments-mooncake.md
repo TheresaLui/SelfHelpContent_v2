@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
+    ms.author="jeffsta"
     displayOrder="15"
     selfHelpType="resource"
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
-    	articleId="0dad618e-1a44-47d8-8a8c-2f53ea240177"
+    articleId="activedirectory-rbac-manage-resource-access-assignments-mooncake"
 />
 
 # Unable to assign access to resources in my directory
@@ -25,6 +26,7 @@
 
 
 ## **Recommended documents**
+
 * [Managing access assignments by user](https://docs.azure.cn/role-based-access-control/role-assignments-portal)
 * [Managing access assignments by resource](https://docs.azure.cn/role-based-access-control/role-assignments-portal)
 * [Built-in roles for Azure RBAC](https://docs.azure.cn/role-based-access-control/built-in-roles)

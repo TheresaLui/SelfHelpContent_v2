@@ -23,7 +23,7 @@ Once a user is visible in Azure AD, that user can be assigned to Azure AD roles 
 1. Verify the user's role assignments are correct in Azure AD. The easiest way to do this is via PowerShell, using either the Microsoft Online Services [Get-MsolUserRole](https://docs.microsoft.com/powershell/msonline/v1/get-msoluserrole) cmdlet or Azure AD v2 PowerShell [Get-AzureADDirectoryRoleMember](https://docs.microsoft.com/powershell/azuread/v2/get-azureaddirectoryrolemember) cmdlet. This command response illustrates that a user currently has two administrative role assignments in Azure AD:
 
 ```
-PS> Get-MsolUserRole -UserPrincipalName user@cexample.omschina.cn
+PS> Get-MsolUserRole -UserPrincipalName user@example.omschina.cn
 
 ObjectId                               Name                             Description
 --------                               ----                             -----------

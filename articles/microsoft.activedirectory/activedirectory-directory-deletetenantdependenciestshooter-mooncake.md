@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="elkuzmen"
+    ms.author="elkuzmen"
     displayOrder="43"
-    supportTopicIds="32565595"
+    supportTopicIds=""
     selfHelpType="resource"
     resourceTags="directory_delete,directory_overview"
-    productPesIds="14785"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-    	articleId="4ac494f9-0a11-4bba-afb0-4ee2253a7e80"
+    articleId="activedirectory-directory-deletetenantdependenciestshooter-mooncake"
 />
 
 # I'm having a problem deleting my Azure AD tenant

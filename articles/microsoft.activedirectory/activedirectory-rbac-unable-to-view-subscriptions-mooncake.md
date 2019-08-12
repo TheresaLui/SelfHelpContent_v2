@@ -4,18 +4,20 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="jeffsta-MSFT"
+    ms.author="jeffsta"
     displayOrder="12"
     selfHelpType="resource"
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
-    	articleId="4f37ac19-64d8-44e5-881d-51bd8d9a9a5a"
+    articleId="activedirectory-rbac-unable-to-view-subscriptions-mooncake"
 />
 
 # Unable to view subscriptions in the Azure portal
 
 ## **Recommended steps**
 
-**Verify whether you are signing in to the account that is associated with the subscription.** 
+**Verify whether you are signing in to the account that is associated with the subscription.**
+
 If you have both Azure AD and Microsoft accounts, you might be signing in with a personal account instead of a work or school account. If this is the case, sign into the desired account and consider [renaming your personal account](https://support.microsoft.com/help/11545/microsoft-account-rename-your-personal-account).
 
 **Verify whether you have the appropriate permissions to view the subscription.**

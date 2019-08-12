@@ -11,7 +11,7 @@
     resourceTags="userandgroups_overview,userandgroups_user"
     productPesIds=""
     cloudEnvironments="MoonCake"
-    	articleId="6b8e9f0b-f73a-4726-8e55-332c114b5223"
+    articleId="activedirectory-userandgroups-cantaccesssubscription-mooncake"
 />
 
 # I can’t access an Azure subscription
