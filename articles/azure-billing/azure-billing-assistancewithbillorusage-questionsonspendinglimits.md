@@ -10,7 +10,7 @@
 	supportTopicIds="32632938"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	articleId="assistancewithbillorusage-questionsonspendinglimits"
 />
 
@@ -57,7 +57,7 @@ Note: Only Account Admin of Sponsorship can check the credits
 * Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa).Click on the subscription type -> Billing history, where you can download the Invoice and usage report
 	
 ### **Azure Free Account Services**
-For [Azure Free Account](https://azure.microsoft.com/offers/ms-azr-0044p/), we offer eligible customers $200 in Azure credits (“Credits”) to be used within the first 30 days of sign-up and 12 months of select [free services](https://azure.microsoft.com/free/) (services subject to change). Once all the benefits has been consumed for the free service, the usage is going to discount from the subscription credit. To prevent this, the resources needs to be deleted <br>
+For [Azure Free Account](https://azure.microsoft.com/offers/ms-azr-0044p/), we offer eligible customers $200 in Azure credits (Credits) to be used within the first 30 days of sign-up and 12 months of select [free services](https://azure.microsoft.com/free/) (services subject to change). Once all the benefits has been consumed for the free service, the usage is going to discount from the subscription credit. To prevent this, the resources needs to be deleted <br>
 
 * Learn more: [Resource deletion](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-delete)<br>
 * Learn more: [Azure Free Account FAQ](https://azure.microsoft.com/free/free-account-faq/)<br>
