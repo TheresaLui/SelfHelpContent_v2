@@ -22,10 +22,8 @@ There are two portals in Azure Stack: the administration portal and the user por
 
 To access the administrator portal, browse to the portal URL and sign in by using the credentials of an Azure Stack operator.
 
-* For single-node ASDK environments, the admin portal is hosted at-
-`https://adminportal.local.azurestack.external`
-* For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment. It will match the pattern-
-`https://adminportal.<REGION>.<FQDN>`
+* For single-node ASDK environments, the admin portal is hosted at- `https://adminportal.local.azurestack.external`
+* For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment. It will match the pattern- `https://adminportal.<REGION>.<FQDN>`
 * Subscriptions are created by users in the user portal based on the plans and offers you create for them. However, the user portal doesn't provide access to any of the administrative or operational capabilities of the administration portal.
 
 ## **Recommended Documents**
