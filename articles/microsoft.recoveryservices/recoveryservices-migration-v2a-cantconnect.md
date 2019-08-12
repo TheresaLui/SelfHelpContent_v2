@@ -4,13 +4,14 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="prateek9us"
+    ms.author="genli"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32680617"
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="a7573f50-08c4-4744-8597-84f70800d159"
 />
 
 # Unable to connect to VM after failover - VMware to Azure

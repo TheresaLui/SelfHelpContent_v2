@@ -43,7 +43,6 @@
 ### Unsupported Boot configurations
 
 * Boot disk not found - [Error 95310](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#boot-and-system-partitions--volumes-are-not-the-same-disk-errorid-95309
-) </br>
-* Multiple Boot disks found - [Error 95311](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#boot-and-system-partitions--volumes-are-not-the-same-disk-errorid-95309)</br>
-* System and boot partitions/volumes on different disks - [Error 95309](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#boot-and-system-partitions--volumes-are-not-the-same-disk-errorid-95309)</br>
+* Multiple Boot disks found - [Error 95311](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#boot-and-system-partitions--volumes-are-not-the-same-disk-errorid-95309)
+* System and boot partitions/volumes on different disks - [Error 95309](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#boot-and-system-partitions--volumes-are-not-the-same-disk-errorid-95309)
 * ASR [VSS installation failures](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#vss-installation-failures)

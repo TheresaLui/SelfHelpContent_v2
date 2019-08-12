@@ -4,6 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="AnoopVasudavan"
+    ms.author="genli"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32680618"
