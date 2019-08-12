@@ -29,7 +29,7 @@ HDInsight deployment failed since "Allow trusted Microsoft services to access st
 1. Go to the Storage Account <!--$StorageAccount-->[StorageAccount]<!--/$StorageAccount--> that was selected during the cluster creation
 2. Select the Firewalls and Virtual networks in the left pane in Azure Portal
 3. Then select the Selected networks radio button
-4. Check the "Allow trusted Microsoft services to access this storage account" checkbox
+4. Check the "Allow trusted Microsoft services to access this storage account" checkbox in Exceptions
 
 ## **Recommended Documents**
 
