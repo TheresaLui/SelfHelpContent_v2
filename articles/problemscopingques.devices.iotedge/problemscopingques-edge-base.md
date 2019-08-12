@@ -180,6 +180,7 @@
 			"order": 9,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Additional information",
+			"infoBalloonText": "To get iotedged logs, edge-agent logs, and edge-hub logs, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps'>IoT Edge diagnostic steps</a>",
 			"watermarkText": "Please provide any additional information that may be helpful in understanding the issue. ",
 			"required": true,
 			"useAsAdditionalDetails": true,
@@ -190,7 +191,7 @@
 					"text": "Expected behavior and current behavior"
 				},
 				{
-					"text": "Share as many logs as possible (iotedged logs, edge-agent logs, edge-hub logs) from <a href=\"https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps\">diagnostic steps</a>"
+					"text": "Share as many logs as possible (iotedged logs, edge-agent logs, edge-hub logs)"
 				}
 			]
 		}
