@@ -7,7 +7,7 @@
 	authors="arluca"
 	ms.author="arluca"
 	displayOrder="25"
-	articleId="user-assigned managed identity integration with App Service-Function"
+	articleId="active-directory-managed-identities-app-service-integration-mooncake"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds="32632154"

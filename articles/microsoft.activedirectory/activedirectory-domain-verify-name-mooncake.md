@@ -11,7 +11,7 @@
     resourceTags="directory_domain,domain_directory"
     productPesIds=""
     cloudEnvironments="MoonCake"
-    	articleId="06b245f1-29b7-4eea-9718-e71235a68ce6"
+    articleId="activedirectory-domain-verify-name-mooncake"
 />
 
 # I can't verify my domain name even though I added it to Azure AD
@@ -26,7 +26,6 @@
 
 ## **Recommended documents**
 
-[Add a custom domain name in Azure AD](https://docs.azure.cn/active-directory/fundamentals/add-custom-domain)
-
-[Federated and managed domain names](https://docs.azure.cn/active-directory/users-groups-roles/domains-manage#federated-and-managed-domain-names)
+* [Add a custom domain name in Azure AD](https://docs.azure.cn/active-directory/fundamentals/add-custom-domain)
+* [Federated and managed domain names](https://docs.azure.cn/active-directory/users-groups-roles/domains-manage#federated-and-managed-domain-names)
 

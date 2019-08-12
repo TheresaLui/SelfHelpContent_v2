@@ -32,6 +32,7 @@
   * ...for first 30 days after a trial is started created **OR**
   * ...when a vanity domain is not present **AND** Azure AD Connect is not syncing identities
   * **_Requires_**: any **one** of Authentication Email, Alternate Email, Authentication Phone, Mobile Phone, or Office Phone to have a value present
+
 * **Two gate policy applies...**
 
   * ...after the first 30 days of a trial has passed **OR**

@@ -11,7 +11,7 @@
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="f1927a08-e64c-4866-a47e-0f6199388e7a"
+	articleId="activedirectory-iga-add-resource-mooncake"
 />
 
 # Why can't I add a certain resource to an access package or catalog?

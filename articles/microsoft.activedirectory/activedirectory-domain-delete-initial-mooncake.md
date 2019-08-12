@@ -11,7 +11,7 @@
     resourceTags="directory_domain,domain_directory"
     productPesIds=""
     cloudEnvironments="MoonCake"
-    articleId="9b72ef87-cf93-4c51-a4bd-365c2e5dbaf6"
+    articleId="activedirectory-domain-delete-initial-mooncake"
 />
 
 # I want to delete the initial .omschina.cn domain

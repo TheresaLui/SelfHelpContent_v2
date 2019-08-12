@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
+    ms.author="piotrci"
     displayOrder="26"
     supportTopicIds=""
     selfHelpType="resource"
     resourceTags="licensing_overview"
     productPesIds=""
     cloudEnvironments="MoonCake"
- 	articleId="01ddd40b-fd7d-4ca0-a0b6-90ff67c3b9ca"
+ 	articleId="activedirectory-licensing-no-users-mooncake"
 />
 
 # A user doesn't have the right licenses

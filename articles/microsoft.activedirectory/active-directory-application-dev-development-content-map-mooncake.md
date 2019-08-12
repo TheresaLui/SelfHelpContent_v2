@@ -4,11 +4,12 @@
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
   authors="ajamess"
+  ms.author="asteen"
   selfHelpType="resource"
   cloudEnvironments="MoonCake"
   resourceTags="registeredapps_allapps_button, registeredapps_singleapp_properties,directory_overview"
   displayOrder="45"
- 	articleId="2490e88b-8c7c-405e-91bb-265386536110"
+ 	articleId="active-directory-application-dev-development-content-map-mooncake"
 />
 
 # Problems developing my application

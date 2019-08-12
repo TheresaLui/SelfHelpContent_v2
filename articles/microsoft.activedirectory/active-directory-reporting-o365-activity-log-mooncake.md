@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="MarkusVi"
+    ms.author="markvi"
     displayOrder="11"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="e3fc639c-11e1-4666-9054-f216fdbc7325"
+	articleId="active-directory-reporting-o365-activity-log-mooncake"
 />
 
 # How can I get Office 365 activity log information through the Azure portal?
@@ -21,4 +22,4 @@ Even though Office 365 activity and Azure AD activity logs share a lot of the di
 
 ## **Recommended documents**
 
-- [Office 365 Admin Center](https://portal.office.cn/AdminPortal/Home#/reportsSecurityAndCompliance)
+- [Office 365 Admin Center](https://portal.office.com/AdminPortal/Home#/reportsSecurityAndCompliance)

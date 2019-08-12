@@ -4,11 +4,12 @@
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
   authors="ajamess"
+  ms.author="asteen"
   selfHelpType="resource"
   cloudEnvironments="MoonCake"
   resourceTags="registeredapps_allapps_button,registeredapps_singleapp_properties,directory_overview"
   displayOrder="46"
- 	articleId="77510bf5-4977-4f5d-b8dc-610ddd5ceccf"
+ 	articleId="active-directory-application-dev-config-content-map-mooncake"
 />
 
 # Problems configuring or registering my application

@@ -11,7 +11,7 @@
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="9d841529-cb49-4e4b-b8c8-f0d3061b1217"
+	articleId="activedirectory-iga-create-tou-mooncake"
 />
 
 # Why can't I create a Terms of Use?

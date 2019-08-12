@@ -41,7 +41,7 @@ Common root causes include:
 * The on-premises Active Directory User object is enabled for **User must change password at next logon** option. When this option is enabled, the user is assigned a temporary password and will be prompted to change the password on next logon. Azure AD Connect does not synchronize temporary passwords to Azure AD. To resolve this issue, either:
 
   * Ask the user to sign in to on-premises application (E.g., Windows Desktop) and change the password. The new password will be synchronized to Azure AD.
-  * Have an administrator update the user’s password without enabling the option “User must change password at next logon” option and share the new password with the user.
+  * Have an administrator update the user's password without enabling the option "User must change password at next logon" option and share the new password with the user.
 
 * The on-premises Active Directory User object is not correctly configured for object synchronization or password synchronization.
 

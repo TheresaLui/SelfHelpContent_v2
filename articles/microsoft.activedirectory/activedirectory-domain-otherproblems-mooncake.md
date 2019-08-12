@@ -11,7 +11,7 @@
     resourceTags="directory_domain"
     productPesIds=""
     cloudEnvironments="MoonCake"
-    	articleId="2d359d87-aebf-40e8-badf-f9be35a38c49"
+    articleId="activedirectory-domain-otherproblems-mooncake"
 />
 
 # I still have other problems related to domain name management

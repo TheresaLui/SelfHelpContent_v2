@@ -4,11 +4,12 @@
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
   authors="ajamess"
+  ms.author="asteen"
   selfHelpType="resource"
   cloudEnvironments="MoonCake"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp,directory_overview"
   displayOrder="44"
- 	articleId="7453063a-eccd-48c5-ab67-93e5ae89111f"
+ 	articleId="active-directory-application-sign-in-content-map-mooncake"
 />
 
 # Problems when signing in to applications

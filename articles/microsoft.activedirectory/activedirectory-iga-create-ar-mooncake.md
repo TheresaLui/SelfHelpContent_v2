@@ -11,7 +11,7 @@
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="a76fa3fb-f114-41df-bc21-a64148a4d445"
+	articleId="activedirectory-iga-create-ar-mooncake"
 />
 
 # Why can't I create an Access Review?
