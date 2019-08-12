@@ -18,6 +18,6 @@
 
 ## **Recommended Steps**
 
-- [How to manage VMware vCenter server in Azure site recovery](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter)
-- [How to prepare an account for automatic discovery](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter#set-up-an-account-for-automatic-discovery)
-- [How to delete a vCenter in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter#delete-a-vcenter-server)
+* [How to manage VMware vCenter server in Azure site recovery](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter)
+* [How to prepare an account for automatic discovery](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter#set-up-an-account-for-automatic-discovery)
+* [How to delete a vCenter in Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter#delete-a-vcenter-server)

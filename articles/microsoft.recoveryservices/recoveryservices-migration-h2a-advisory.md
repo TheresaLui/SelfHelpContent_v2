@@ -18,8 +18,7 @@
 
 **Prerequisites**
 
-* [Supported scenarios and requirements](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix)
- for replicating Hyper-V VMs to Azure
+* [Supported scenarios and requirements](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix) for replicating Hyper-V VMs to Azure
 * Run [Deployment planner](https://docs.microsoft.com/azure/site-recovery/hyper-v-deployment-planner-overview) for capacity planning, and to check whether your network bandwidth and storage allocations are sufficient for the amount of churn in your VMs
 * [Azure Site Recovery Pricing](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)
 
