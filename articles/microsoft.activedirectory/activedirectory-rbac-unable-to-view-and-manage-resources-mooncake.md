@@ -31,7 +31,7 @@ If you have both Azure AD and Microsoft accounts, you might be signing in with a
 **Verify whether you are viewing the correct directory in the Azure portal.**
 
 You might have selected the wrong directory in the Azure portal.
- 
+
 1. To confirm, select your user profile at the top right hand corner in the Azure portal.
 2. Verify whether the directory that you are in is the right directory. If not, switch to the directory you want. 
 
