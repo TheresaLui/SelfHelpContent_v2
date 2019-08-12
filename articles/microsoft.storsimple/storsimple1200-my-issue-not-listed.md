@@ -19,10 +19,10 @@
 # My issue is not listed
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-1. [StorSimple Virtual Array best practices](https://docs.microsoft.com/azure/storsimple/storsimple-ova-best-practices)
-2. [Disaster recovery and device failover for your StorSimple Virtual Array via Azure portal](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-failover-dr)
-3. [Change the StorSimple Virtual Array device administrator password via StorSimple Device](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-change-device-admin-password)
-4. [Use the StorSimple Device Manager service to troubleshoot the StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-diagnose-problems)
-5. [Troubleshoot via the local web UI](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#troubleshoot-web-ui-setup-errors)
+* [StorSimple Virtual Array best practices](https://docs.microsoft.com/azure/storsimple/storsimple-ova-best-practices)
+* [Disaster recovery and device failover for your StorSimple Virtual Array via Azure portal](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-failover-dr)
+* [Change the StorSimple Virtual Array device administrator password via StorSimple Device](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-change-device-admin-password)
+* [Use the StorSimple Device Manager service to troubleshoot the StorSimple Virtual Array](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-array-diagnose-problems)
+* [Troubleshoot via the local web UI](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#troubleshoot-web-ui-setup-errors)
