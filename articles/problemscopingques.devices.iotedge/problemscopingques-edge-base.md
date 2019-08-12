@@ -18,7 +18,8 @@
 	"resourceRequired": false,
 	"title": "Issues with IoT Edge",
 	"fileAttachmentHint": "Upload screenshots of errors if available",
-	"formElements": [{
+	"formElements": [
+		{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
