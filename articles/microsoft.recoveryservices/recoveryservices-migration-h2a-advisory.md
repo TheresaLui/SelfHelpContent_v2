@@ -22,7 +22,7 @@
 * Run [Deployment planner](https://docs.microsoft.com/azure/site-recovery/hyper-v-deployment-planner-overview) for capacity planning, and to check whether your network bandwidth and storage allocations are sufficient for the amount of churn in your VMs
 * [Azure Site Recovery Pricing](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 The following tutorial series show you how to set up disaster recovery for on-premises VMs:
 
@@ -32,9 +32,8 @@ The following tutorial series show you how to set up disaster recovery for on-pr
 4. [Run a disaster recovery drill to Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure)
 5. [Fail over and fail back Hyper-V VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-failover-failback-tutorial)
 
-**Additional Information**
+## **Recommended Documents**
 
 * Replicate specific [Workloads or applications](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) with Azure Site Recovery 
 * [Replicate VMs to Azure using ExpressRoute](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-use-expressroute-to-replicate-virtual-machines-to-azure)
-
-Any other question? Check [FAQ on replicating Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions).
+* [FAQ on replicating Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions)
