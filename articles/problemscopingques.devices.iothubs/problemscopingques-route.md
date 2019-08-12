@@ -14,7 +14,7 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "subscriptionRequired": false,
+  "subscriptionRequired": true,
   "resourceRequired": true,
   "title": "Routing issues",
   "fileAttachmentHint": "Upload screenshots of errors if available",
@@ -41,7 +41,7 @@
             "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, don't know, or not applicable"
-            }            
+            }
         },
         "dropdownOptions": [
             {
