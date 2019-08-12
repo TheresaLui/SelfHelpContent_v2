@@ -33,8 +33,8 @@
         "displayLabel": "Which route is having issues?",
         "watermarkText": "Choose an option",
         "dynamicDropdownOptions": {
-            "uri": "{resourceId}?api-version=2018-12-01-preview",
-            "jTokenPath": "$.properties.routing.routes",
+            "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Devices/IotHubs/{resourcename}?api-version=2018-04-01",
+            "jTokenPath": "properties.routing.routes",
             "textProperty": "name",
             "valueProperty": "name",
             "textPropertyRegex": "[^/]+$",
