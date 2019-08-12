@@ -11,7 +11,8 @@
 	articleId="53fe32ef-1e90-4ff9-943d-8b55e8abb4bc"
 />
 # Routing issues
----{
+---
+{
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": true,
