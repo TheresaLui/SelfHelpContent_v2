@@ -1,85 +1,85 @@
 <properties
-	articleId="f11ecff3-3003-1111-9e61-fc57f2aacd5b"
-	pageTitle="Scoping Questions for configuring protection on Virtual Network resource"
-	description="Scoping Questions for configuring protection on Virtual Network resource"
+	articleId="f11ecff3-4001-1111-9e61-fc57f2aacd5b"
+	pageTitle="Scoping Questions for Test DDoS mitigation"
+	description="Scoping Questions for Test DDoS mitigation"
 	authors="genlin"
 	ms.author="mariliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640600"
+	supportTopicIds="32605610"
 	productPesIds="16355"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Configure protection on Virtual Network resource
+# Test DDoS mitigation
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Configure protection on Virtual Network resource",
+    "title": "Test DDoS mitigation",
     "fileAttachmentHint": "",
     "formElements": [
-        {
-            "id": "public_ip",
+          {
+            "id": "has_ddosplan",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have a DDoS protection plan?",
+            "watermarkText": "Choose an option:",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+          {
+            "id": "has_vnetwithpublicip",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have a virtual network with public IP configured?",
+            "watermarkText": "Choose an option:",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "what_publicip_fortest",
+            "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the public IP you want to configure?",
+            "displayLabel": "What is the Public IP that you are using to test DDoS Protection?",
             "watermarkText": "Enter the public IP address. Example: 13.0.1.2",
             "required": false
         },
         {
-            "id": "has_vnet",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Do you have a virtual network configured?",
-            "watermarkText": "Choose an option:",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "under_attack",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Is the public IP you are trying to configure under attack?",
-            "watermarkText": "Choose an option:",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
