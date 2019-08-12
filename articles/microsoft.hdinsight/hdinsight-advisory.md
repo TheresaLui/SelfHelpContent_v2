@@ -15,6 +15,12 @@
 />
 # HDInsights General Guidance/Advisory 
 
+If you have a question about how HDInsight works or whether a scenario is supported with HDInsight, Microsoft recommends that you follow these steps:
+
+1. Check if the issue has a troubleshooting topic on [docs.microsoft.com](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide) or [hdinsight/github.io](https://hdinsight.github.io/)
+1. Check if this issue was raised in the [forums](https://social.msdn.microsoft.com/Forums/home?forum=hdinsight) or [Stack Overflow](https://stackoverflow.com/questions/tagged/hdinsight)
+1. If there are not any matching docs or discussions, please open an issue on one of the forums
+
 ## **Recommended Documents**
 
 * [Azure HDInsight Overview](https://docs.microsoft.com/azure/hdinsight/)<br> 
@@ -23,7 +29,10 @@
 * [Azure HDInsight Pricing](https://azure.microsoft.com/pricing/details/hdinsight/) 
 * [HDInsights Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)  
 
+### **Troubleshooting**
 
+* [How do I export Hive metastore and import it on another HDInsight cluster?](https://hdinsight.github.io/hive/hive-export-import-metastore.html)
+* [Where are the Hive logs on HDInsight cluster?](https://hdinsight.github.io/hive/hive-logs-locations.html)
 
 
 

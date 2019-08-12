@@ -1,18 +1,21 @@
 <properties
-	articleId="dw-scoping-securityprivacyandcompliance.md"
-	pageTitle="Security, Privacy and Compliance"
-	description="Security, Privacy and Compliance"
-	authors="mlee3gsd"
-	ms.author="martinle"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635184, 32635185, 32635191, 32635199, 32635213, 32635221, 32635222, 32635233"
-	productPesIds="15818"
-	cloudEnvironments="public"
-	schemaVersion="1"
+    articleId="dw-scoping-securityprivacyandcompliance.md"
+    pageTitle="Security, Privacy and Compliance"
+    description="Security, Privacy and Compliance"
+    authors="mlee3gsd"
+    ms.author="martinle"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32635184, 32635185, 32635191, 32635199, 32635213, 32635221, 32635222, 32635233"
+    productPesIds="15818"
+    cloudEnvironments="public"
+    schemaVersion="1"
 />
+
 # Security, Privacy and Compliance - General
+
 ---
 {
+
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Security, Privacy and Compliance",
@@ -44,4 +47,5 @@
     ],
     "$schema": "SelfHelpContent"
 }
+
 ---

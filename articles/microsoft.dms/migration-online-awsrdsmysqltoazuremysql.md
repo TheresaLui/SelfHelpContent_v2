@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Errors for AWS RDS MySQL to Azure Database for MySQL Online Migration"
+	pageTitle="Errors for MySQL to Azure Database for MySQL Online Migration"
 	description="Top migration errors and troubleshooting info"
 	infoBubbleText=""
 	service="microsoft.dms"
@@ -16,9 +16,18 @@
 	cloudEnvironments="public"
 />
 
-# Errors you may encounter while migrating from AWS RDS MySQL to Azure Database for MySQL using online migration 
+# Configuration info for migrating from MySQL to Azure Database for MySQL using online migration and errors you may encounter while migration
 
 ## **Recommended Steps**
+
+DMS offers migration from a MySQL (RDS and non-RDS) source to a MySQL (Azure) target. For the configuration info, please visit their respective links below under Recommended documents.
+
+For both scenarios, please follow the "Prerequisites" section. There, you will need to modify the needed parameters to aid in a migration. 
+
+After you set up the prerequisites, please make sure you migrate the schema for the data migration. DMS requires a schema copy of the source on the target prior to starting the data migration - you may need to make modifications to it, however. Please follow the steps in the "Migrate the [sample] schema" section in the respective links provided for guidance on how to migrate the schema and on what modifications may be needed. 
+
+
+### Troubleshooting
 
 **Migration errors - AWS RDS MySQL to Azure Database for MySQL using online migration**
 
@@ -48,5 +57,6 @@ SET group_concat_max_len = 8192; SELECT SchemaName, GROUP_CONCAT(DropQuery SEPAR
 ## **Recommended Documents**
 
 * [Tutorial: Migrate MySQL to Azure Database for MySQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online)<br>
+* [Tutorial: Migrate RDS MySQL to Azure Database for MySQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-rds-mysql-server-azure-db-for-mysql-online)<br>
 * [Azure Database for MySQL Documentation](https://docs.microsoft.com/azure/mysql)<br>
 * [Database Migration Guide](https://datamigration.microsoft.com/)

@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636809"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-advisory-other"
+	displayOrder="40"
+	category="General Advisory"
 />
 
 # Azure Cosmos DB - General Advisory

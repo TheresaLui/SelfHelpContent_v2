@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas, arramac"
    	ms.author="bharathb, arramac"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636828"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-sparkconnector"
+	displayOrder="126"
+	category="Tools and Connectors"
 />
 # Azure Cosmos DB Spark Connector
 

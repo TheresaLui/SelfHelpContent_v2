@@ -16,6 +16,10 @@
 
 # Azure Policy - Policy behavior not as expected
 
+## **Recommended Steps**
+
+* **Please note that the new policy or initiative assignment will take around 30 minutes to take effect.**
+
 ## **Recommended Documents**
 
 **Is this a tagging or location policy?**
@@ -31,3 +35,4 @@
 
 * [Troubleshooting a policy definition](https://docs.microsoft.com/azure/governance/policy/how-to/determine-non-compliance)
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
+* [Policy known issues](https://github.com/Azure/azure-policy#known-issues)

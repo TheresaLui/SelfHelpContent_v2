@@ -13,6 +13,7 @@
 # Management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure Metadata Service (Scheduled Events)",
     "fileAttachmentHint": "",

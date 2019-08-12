@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Cosmos security and VNet service endpoint"
-	description="Cosmos Security"
+	description="Troubleshoot CosmosDB security and VNet service endpoint related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636764"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-admin-securityvnetendpoint"
+	displayOrder="24"
+	category="Administration"
 />
 
 # Connection failure after VNet service endpoint configuration
