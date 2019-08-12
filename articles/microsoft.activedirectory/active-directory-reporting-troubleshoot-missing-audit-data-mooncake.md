@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="MarkusVi"
+    ms.author="markvi"
     displayOrder="8"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_audit"
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="bb9285b9-2ee1-434e-9497-5307f8b9d93a"
+	articleId="active-directory-reporting-troubleshoot-missing-audit-data-mooncake"
 />
 
 # I can’t find actions performed in Azure Active Directory in the activity logs

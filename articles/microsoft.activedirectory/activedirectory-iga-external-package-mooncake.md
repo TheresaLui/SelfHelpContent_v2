@@ -11,7 +11,7 @@
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="3eadcc0a-95d6-4223-a04e-15748b5594c0"
+	articleId="activedirectory-iga-external-package-mooncake"
 />
 
 # Why is an external user's access package not being provisioned? 

@@ -11,7 +11,7 @@
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="958025bf-da79-48d8-99ec-79dc335420d8"
+	articleId="activedirectory-iga-reviewer-email-mooncake"
 />
 
 # I created a review, but the reviewer did not receive an email regarding the required action

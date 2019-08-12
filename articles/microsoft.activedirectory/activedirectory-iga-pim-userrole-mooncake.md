@@ -11,7 +11,7 @@
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="2004e382-2684-4e6c-9546-af4948c51907"
+	articleId="activedirectory-iga-pim-userrole-mooncake"
 />
 
 # Unable to manage role in a Microsoft Online Services portal after being assigned or activated

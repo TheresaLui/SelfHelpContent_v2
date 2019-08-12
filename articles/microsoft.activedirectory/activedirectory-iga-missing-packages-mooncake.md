@@ -11,7 +11,7 @@
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="8986a0a9-aa7e-49ee-b38a-c337752b52fe"
+	articleId="activedirectory-iga-missing-packages-mooncake"
 />
 
 # Why aren't access packages showing up in a user's MyAccess portal?

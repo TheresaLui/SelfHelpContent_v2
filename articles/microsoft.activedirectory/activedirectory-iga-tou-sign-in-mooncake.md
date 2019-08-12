@@ -11,7 +11,7 @@
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="f90f1e79-0c38-4ccc-8b68-d9790ad2bac1"
+	articleId="activedirectory-iga-tou-sign-in-mooncake"
 />
 
 # Users are unable to sign in with Terms of Use
