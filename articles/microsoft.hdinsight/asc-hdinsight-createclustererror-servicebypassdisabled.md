@@ -1,7 +1,7 @@
 <properties
-    pageTitle="HDInsight Create Cluster Error when Service Bypass Disabled"
-    description="HDInsightServiceBypassDisabled"
-    infoBubbleText="Cluster Creation Error When Service Bypass Disabled. See details on the right."
+    pageTitle="HDInsight Service Bypass is disabled"
+    description="Cluster creation error as service bypass is disabled"
+    infoBubbleText="Found recent cluster failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
     authors="Ravi"
@@ -19,9 +19,10 @@
 # We ran diagnostics on your resource and found the following issue
 
 ## Problem
-There is a problem while creating a HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> because Service Bypass is disabled.
 
-Since "Allow trusted Microsoft services to access <!--$StorageAccount-->[StorageAccount]<!--/$StorageAccount-->storage account checkbox is not checked" unable to create a cluster
+There is a problem while creating HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> because Service Bypass is disabled.
+
+HDInsight deployment failed since "Allow trusted Microsoft services to access storage account <!--$StorageAccount-->[StorageAccount]<!--/$StorageAccount--> checkbox is not checked"
 
 ## **Recommended Steps**
 
@@ -32,4 +33,4 @@ Since "Allow trusted Microsoft services to access <!--$StorageAccount-->[Storage
 
 ## **Recommended Documents**
 
-* [Service Bypass is disabled](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)
+* [Use Azure storage with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)
