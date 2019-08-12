@@ -16,7 +16,7 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Storage Account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> was throttled due to a scalability limit being exceeded
+# Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled due to a scalability limit being exceeded
 <!--issueDescription-->
 **<!--$AADescription-->[AADescription]<!--/$AADescription-->**
 
