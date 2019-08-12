@@ -21,5 +21,5 @@
 
 ## **Recommended Steps**
 
-1. [In the local web UI of the virtual array, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Validate that the device is configured properly and resolve any reported issues.](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#troubleshoot-web-ui-setup-errors)<br>
-2. [Ensure that the correct ports have been opened on the device.](https://docs.microsoft.com/azure/storsimple/storsimple-ova-system-requirements#networking-requirements)
+* [In the local web UI of the virtual array, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Validate that the device is configured properly and resolve any reported issues](https://docs.microsoft.com/azure/storsimple/storsimple-ova-web-ui-admin#troubleshoot-web-ui-setup-errors).
+* [Ensure that the correct ports have been opened on the device](https://docs.microsoft.com/azure/storsimple/storsimple-ova-system-requirements#networking-requirements)
