@@ -16,9 +16,9 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# An Azure file share in storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled
+# An Azure file share in storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> was throttled
 <!--issueDescription-->
-An Azure file share in storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled due to IOPS (transactions) limit reached.
+An Azure file share in storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> was throttled due to IOPS (transactions) limit reached.
 
 Refer to the [Azure Files scale targets](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets#file-share-and-file-scale-targets) to learn more about the scalability targets.
 <!--/issueDescription-->
