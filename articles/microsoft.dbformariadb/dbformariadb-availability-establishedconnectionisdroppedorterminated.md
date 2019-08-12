@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Connection issues to MariaDB"
-    description="Connection issues to MariaDB"
+    pageTitle="Availability and Connectivity in Azure Database for MariaDB"
+    description="Established connection is dropped or terminated"
     service="microsoft.dbformariadb"
     resource="servers"
     authors="jan-eng"
@@ -29,6 +29,22 @@ An established connection to an Azure Database for MariaDB server can be termina
   * Use the *telnet* to port 3306 using the IP address returned in the prior step. This will test whether there are any firewalls/routers blocking traffic to port 3306.
   
 * Check your client logs if you are experiencing connection timeouts or query timeouts. If yes, please review your setting for the following server parameters: *connect_timeout*, *wait_timeout*, and *interactive_timeout*. Consult the MariaDB documentation for current server version for more information.
+
+* Constantly seeing "Server has gone away" error.
+
+  * Review the [supported client driver list](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) and assure you are using a driver that is supported.
+  * Review the **init_connect** server parameter is improperly configured with correct format.
+  * [Set up firewall rules](https://docs.microsoft.com/azure/mariadb/concepts-firewall-rules) to allow your client's IP address.
+
+* Intermittently seeing "Server has gone away" error.
+
+  * Server dropped an incorrect or too large packet. Please increase the value for **max_allowed_packet** from the Azure Portal parameter pane to avoid issues due to the size of the packet.
+  * You got a timeout from the TCP/IP connection on the client side. Please note that there are a number of parameters that can cause this timeout to happen. After the server waits for activity to happen, a number of seconds before it closes the connection. Please increase **wait_timeout**, **net_read_timeout** and **net_write_timeout** parameters with proper value.
+
+* Intermittently seeing "Out of memory" error.
+  * Scale up to the higher [pricing tier](https://docs.microsoft.com/azure/mariadb/concepts-pricing-tiers) to get more memory.
+  * Optimize the application query by avoiding to use the large join statement or large memory table.
+  * Review the *innodb_buffer_pool_pages_free* state by execute *show global status like 'innodb_buffer_pool_pages_free'*. If the value is not zero, consider reducing the **innodb_buffer_pool_size** from Azure Portal server parameter to give more memory for ad-hoc query.
 
 ## **Recommended Documents**
 
