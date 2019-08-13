@@ -123,14 +123,14 @@
                     "required": false
                 },{
                     "id": "problem_description",
-                    "order": 16,
+                    "order": 6,
                     "controlType": "multilinetextbox",
                     "displayLabel": "Description",
                     "useAsAdditionalDetails": false,
                     "required": true
                     },{
                     "id": "problem_start_time",
-                    "order": 17,
+                    "order": 7,
                     "controlType": "datetimepicker",
                     "displayLabel": "When did the problem start?",
                     "required": true
