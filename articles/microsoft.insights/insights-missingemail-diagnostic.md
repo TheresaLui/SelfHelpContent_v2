@@ -8,7 +8,7 @@
     ms.author="jamdavi"
     articleId="insights_missingemail_diagnostic"
     diagnosticScenario="ApplicationInsightsMissingEmailDiagnostic"
-    selfHelpType="diagnostic"
+    selfHelpType="diagnostics"
     productPesIds="15693"
     supportTopicIds=""
     cloudEnvironments="public"
