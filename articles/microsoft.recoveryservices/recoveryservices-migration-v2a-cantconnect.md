@@ -15,12 +15,13 @@
 />
 
 # Unable to connect to VM after failover - VMware to Azure
+
 ## **Recommended Steps**
 
 - Prepare to [**connect to VM** after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)<br>
 - [VM **Connect button** grayed out?](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#unable-to-connectrdpssh-to-the-failed-over-virtual-machine-due-to-grayed-out-connect-button-on-the-virtual-machine) Or [**unable to RDP/SSH** to VM?](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#unable-to-connectrdpssh-to-the-failed-over-virtual-machine-even-though-connect-button-is-available-not-grayed-out-on-the-virtual-machine)<br>
 - Troubleshoot [RDP connection to Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection) and [SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
-- Add Public IP address to a VM [during failover with scripts](https://docs.microsoft.com/azure/site-recovery/site-recovery-runbook-automation) or [after failover](https://aka.ms/addpublicip)<br>
+- Add Public IP address to a VM [during failover with scripts](https://docs.microsoft.com/azure/site-recovery/site-recovery-runbook-automation) or [after failover](https://blogs.technet.microsoft.com/srinathv/2018/02/07/how-to-add-a-public-ip-address-to-azure-vm-for-vm-failed-over-using-asr/)<br>
 - [How to **retain fixed private IP address** while failing over to Azure](https://docs.microsoft.com/azure/site-recovery/concepts-on-premises-to-azure-networking#retaining-ip-addresses)<br>
 
 ## **Recommended Documents**

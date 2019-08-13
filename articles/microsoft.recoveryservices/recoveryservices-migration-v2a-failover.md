@@ -40,7 +40,7 @@
 - [How to Run a Test Failover to Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure)<br>
 - [Create a network for test failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#create-a-network-for-test-failover)<br>
 - [Test failover considerations to failover the VM into production recovery network](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#test-failover-to-a-production-network-in-the-recovery-site)<br>
-- [Add a public IP address to the VM after test failover](https://aka.ms/addpublicip)<br>
+- [Add a public IP address to the VM after test failover](https://blogs.technet.microsoft.com/srinathv/2018/02/07/how-to-add-a-public-ip-address-to-azure-vm-for-vm-failed-over-using-asr/)<br>
 
 **Failback**<br>
 

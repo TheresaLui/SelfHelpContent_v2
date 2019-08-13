@@ -15,7 +15,8 @@
 />
 
 # Run a test failover in Site recovery - VMware to Azure
-## **Recommended steps**
+
+## **Recommended Steps**
 
 - Not enough **cores** available to failover? [Follow these steps to increase the quota ](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
 - How to [run a **Test Failover** to Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure) and [**connect to VM** after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)<br>
@@ -34,8 +35,7 @@
 - [Unable to find DFSR databases post failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#issues-caused-by-virtualization-safeguards)
 - [How to troubleshoot domain controller issues during test failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#troubleshoot-domain-controller-issues-during-test-failover)<br>
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 **Automation**<br>
 
