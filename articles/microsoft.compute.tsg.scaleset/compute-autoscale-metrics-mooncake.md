@@ -11,7 +11,7 @@
     productPesIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
-    articleId="95dc49b6-37a0-4085-ac5d-db3f74e7e462"
+    articleId="compute-autoscale-metrics-mooncake"
 />
 
 # What metrics can I use to autoscale my scale set
