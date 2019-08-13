@@ -134,7 +134,7 @@
                     "required": false
                 },{
                     "id": "problem_description",
-                    "order": 7,
+                    "order": 1,
                     "controlType": "multilinetextbox",
                     "displayLabel": "Description",
                     "useAsAdditionalDetails": false,
