@@ -56,8 +56,8 @@
                     "text": "Replication is stuck at 0%"
                 },
                 {
-                    "value": "Replication is stuck at >0%",
-                    "text": "Replication is stuck at >0%"
+                    "value": "Replication is stuck at 0%",
+                    "text": "Replication is stuck at 0%"
                 },
                 {
                     "value": "VM is protected,but Replication health is critical",
