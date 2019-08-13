@@ -4,22 +4,23 @@
 	service="microsoft.billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="963f0c3f-ce00-474d-b5a9-aa8f0812e73e"
+	articleId="billing-increasemyquota-mooncake"
 />
 
 # I need to increase my quota
 
 ## **Recommended steps**
 
-1. Open the [Cost Management + Billing -Subscriptions blade](https://ms.portal.azure.cn/#blade/Microsoft_Azure_Billing/BillingMenuBlade/Overview).
+1. Open the [Cost Management + Billing -Subscriptions blade](https://portal.azure.cn/#blade/Microsoft_Azure_Billing/BillingMenuBlade/Overview).
 
-2. Select [Subscriptions](https://ms.portal.azure.cn/#blade/Microsoft_Azure_Billing/BillingMenuBlade/Subscriptions).
+2. Select [Subscriptions](https://portal.azure.cn/#blade/Microsoft_Azure_Billing/BillingMenuBlade/Subscriptions).
 
 3. Select the subscription that needs an increased quota.
 
@@ -33,5 +34,5 @@
 
 ## **Recommended documents**
 
-* [Azure subscription and service limits, quotas and contraints](https://docs.azure.cn/azure-subscription-service-limits)
+* [Azure subscription and service limits, quotas and constraints](https://docs.azure.cn/azure-subscription-service-limits)
 * [Resolve errors for resource quotas](https://docs.azure.cn/azure-resource-manager/resource-manager-quota-errors)

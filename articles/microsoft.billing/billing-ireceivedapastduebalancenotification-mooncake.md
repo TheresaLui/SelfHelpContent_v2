@@ -4,13 +4,14 @@
 	service="microsoft.billing"
 	resource="billing"
 	authors="jlian"
+	ms.author="jlian"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="19d7f613-2156-47a9-bd84-db8dd2a1cecf"
+	articleId="billing-ireceivedapastduebalancenotification-mooncake"
 />
 
 # I received a past due balance notification

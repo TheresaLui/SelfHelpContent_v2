@@ -4,13 +4,14 @@
 	service="microsoft.billing"
 	resource="billing"
 	authors="jlian"
+	ms.author="jlian"
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="6f6a0a8e-2b65-4a9e-a918-a00d6aa50d39"
+	articleId="billing-ineedacopyofmybillorusage-mooncake"
 />
 
 # I need a copy of my bill or usage

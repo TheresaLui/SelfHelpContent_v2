@@ -4,13 +4,14 @@
 	service="microsoft.billing"
 	resource="billing"
 	authors="jlian"
+	ms.author="jlian"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="61511670-285d-4ed1-aa6e-0320533f2d7f"
+	articleId="billing-ineedtochangethepaymentmethod-mooncake"
 />
 
 # I need to change the payment method

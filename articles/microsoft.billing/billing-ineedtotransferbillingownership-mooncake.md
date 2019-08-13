@@ -4,13 +4,14 @@
 	service="microsoft.billing"
 	resource="billing"
 	authors="jlian"
+	ms.author="jlian"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="85dafd84-94a6-4688-8af7-8efd44d19ecc"
+	articleId="billing-ineedtotransferbillingownership-mooncake"
 />
 
 # I need to transfer billing ownership
