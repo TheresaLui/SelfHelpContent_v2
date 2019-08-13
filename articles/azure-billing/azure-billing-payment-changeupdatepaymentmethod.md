@@ -52,7 +52,7 @@ Learn more: [Update, change, or remove payment methods](https://docs.microsoft.c
 
 If you want to update payment method to **'invoice'** (direct debit), please open a [support request](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) so we can run a credit check before approving your request.<br> 
 Refer [Switch to Pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice) to change to invoice mode of payment<br>
-**Note**:  Once moved to invoice mode of payment you cannot switch to credit card mode of payment and you cannot purchase any Azure market place services using  invoice mode of payment.
+**Note**:  Once moved to invoice mode of payment you cannot switch to credit card mode of payment and you cannot purchase any Azure marketplace services using  invoice mode of payment.
 
 ## **Recommended Documents**
 
