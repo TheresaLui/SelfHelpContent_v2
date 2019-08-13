@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "Can't apply this label",
 				"subscriptionRequired": "false",
-                "fileAttachmentHint": "",
+                "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity -> Help and Feedback -> Export Logs",
                 "formElements": [
                 {
                 "id": "cant_apply_label",
@@ -104,11 +104,11 @@
                 ],
                 "required": true
                 },{
-                    "id": "ippublic",
-                    "order": 6,
-                    "visibility": "ippublicprivate == Public IP",
+                    "id": "sccmigrate
+                    "order": 5
+                    "visibility": "client_type == Azure Information Protection Classic Client",
                     "controlType": "dropdown",
-                    "displayLabel": "Are you able to connect to the Private IP?",
+                    "displayLabel": "Did you activate Unified Labeling in your tenant?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
