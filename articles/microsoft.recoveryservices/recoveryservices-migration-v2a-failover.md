@@ -15,7 +15,8 @@
 />
 
 # Run a Failover in Site recovery - VMware to Azure
-## **Recommended steps**
+
+## **Recommended Steps**
 
 - Not enough **cores** available to failover? [Follow these steps to increase the quota ](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
 - How to [**failover** to Azure (step-by-step)](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover) and [**connect to VM** after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)<br>
@@ -26,8 +27,7 @@
 - Troubleshoot [RDP connection to Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection) and [SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
 - Troubleshoot Failover error codes with: [Error ID 28031](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28031), [Error ID 28092](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28092), [Error ID 70038](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-70038)<br>
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 **Automation**<br>
 
