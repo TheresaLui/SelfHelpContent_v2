@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for not able to connect to VM"
          description="Scoping questions for not able to connect to VM"
-         author="TobyTu"
+         authors="TobyTu"
          ms.author="asgang"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32680617"
