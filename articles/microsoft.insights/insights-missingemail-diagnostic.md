@@ -34,7 +34,7 @@ If you're certain that an alert has generated an event but has not sent an e-mai
 
 ### E-Mail Server
 
-* [O365 Safe Sender](https://docs.microsoft.com/office365/SecurityCompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365)<br>
+* [O365 Safe Sender](https://docs.microsoft.com/office365/SecurityCompliance/create-safe-sender-lists-in-office-365)<br>
 * [Exchange SPAM Quarantine](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/spam-quarantine)<br>
 * [Exchange Sender Filtering](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/sender-filtering)<br>
 * [G Suite Approved Sender Settings](https://support.google.com/a/answer/2368132)<br>
