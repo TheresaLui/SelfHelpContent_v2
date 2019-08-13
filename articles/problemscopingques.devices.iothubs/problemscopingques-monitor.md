@@ -1,22 +1,22 @@
 <properties
-	pageTitle="IoT Hub service issues"
-	description="IoT Hub service issues for IoT Hub scoping questions"
+	pageTitle="Metrics, logs, or alerts"
+	description="Metrics, logs, or alerts for IoT Hub scoping questions"
 	authors="jlian"
 	ms.author="jlian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630528"
+	supportTopicIds="32630559"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
-	articleId="dc08c7a8-7b45-4070-9200-20f7ba52bf84"
+	articleId="ef89b825-e087-47a9-9e2a-d69bd438025b"
 />
-# IoT Hub service issues
+# Metrics, logs, or alerts
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Hub service issues",
+  "title": "Metrics, logs, or alerts",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -30,9 +30,9 @@
       "id": "errors",
       "order": 2,
       "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 500001 ServerError",
-      "required": true
+      "displayLabel": "What metric, log, or alert are you having troubles with?",
+      "watermarkText": "Example: connected devices metric",
+      "required": false
     },
     {
       "id": "problem_description",
@@ -41,11 +41,7 @@
       "displayLabel": "Description",
       "watermarkText": "Provide additional information about your issue",
       "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [
-        {
-          "text": "Error logs with timestamp (indicate timezone or UTC)"
-        }
+      "useAsAdditionalDetails": true
       ]
     }
   ]

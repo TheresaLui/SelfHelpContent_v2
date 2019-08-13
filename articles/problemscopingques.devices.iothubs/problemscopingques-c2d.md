@@ -8,7 +8,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
-	articleId="f843dcf7-98d9-4cb4-9c7f-d34cb5ab74ed"
+	articleId="471990b5-2440-4371-8dc2-f1a4883559c7"
 />
 # Can't reach device from IoT Hub
 ---

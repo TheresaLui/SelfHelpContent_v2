@@ -28,7 +28,7 @@
 		{
 			"id": "route_name",
 			"order": 2,
-			"controlType": "dropdown",
+			"controlType": "multiselectdropdown",
 			"displayLabel": "Which route is having issues?",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
@@ -63,7 +63,7 @@
 				"valueProperty": "endpointNames",
 				"textPropertyRegex": "[^/]+$"
 			},
-      "required": true
+      		"required": true
 		},
 		{
 			"id": "problem_description",

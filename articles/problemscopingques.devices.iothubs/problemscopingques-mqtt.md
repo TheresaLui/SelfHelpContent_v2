@@ -1,22 +1,22 @@
 <properties
-	pageTitle="IoT Hub service issues"
-	description="IoT Hub service issues for IoT Hub scoping questions"
+	pageTitle="3rd party MQTT client"
+	description="3rd party MQTT client for IoT Hub scoping questions"
 	authors="jlian"
 	ms.author="jlian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630528"
+	supportTopicIds="32630540"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
-	articleId="dc08c7a8-7b45-4070-9200-20f7ba52bf84"
+	articleId="87cabeeb-a572-421d-bc71-5ba6a30a72b4"
 />
-# IoT Hub service issues
+# 3rd party MQTT client
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "IoT Hub service issues",
+  "title": "3rd party MQTT client",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -30,9 +30,9 @@
       "id": "errors",
       "order": 2,
       "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 500001 ServerError",
-      "required": true
+      "displayLabel": "What 3rd party MQTT client are you using?",
+      "watermarkText": "Example: paho-mqtt",
+      "required": false
     },
     {
       "id": "problem_description",
@@ -41,11 +41,7 @@
       "displayLabel": "Description",
       "watermarkText": "Provide additional information about your issue",
       "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [
-        {
-          "text": "Error logs with timestamp (indicate timezone or UTC)"
-        }
+      "useAsAdditionalDetails": true
       ]
     }
   ]
