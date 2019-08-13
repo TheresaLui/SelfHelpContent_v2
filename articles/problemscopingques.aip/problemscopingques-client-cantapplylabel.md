@@ -104,8 +104,8 @@
                 ],
                 "required": true
                 },{
-                    "id": "sccmigrate
-                    "order": 5
+                    "id": "sccmigrate",
+                    "order": 5,
                     "visibility": "client_type == Azure Information Protection Classic Client",
                     "controlType": "dropdown",
                     "displayLabel": "Did you activate Unified Labeling in your tenant?",
