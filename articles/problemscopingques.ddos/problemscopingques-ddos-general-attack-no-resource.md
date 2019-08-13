@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Under Attack with General Questions or No resource available",
     "fileAttachmentHint": "",
     "formElements": [

@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Test DDoS mitigation",
     "fileAttachmentHint": "",
     "formElements": [

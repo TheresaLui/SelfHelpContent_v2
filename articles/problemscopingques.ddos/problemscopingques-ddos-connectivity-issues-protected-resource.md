@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Configure protection on Virtual Network resource",
     "fileAttachmentHint": "",
     "formElements": [
