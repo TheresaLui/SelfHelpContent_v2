@@ -20,13 +20,6 @@
                 "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity - Help and Feedback - Export Logs",
                 "formElements": [
                 {
-                "id": "cant_apply_label",
-                "order": 1,
-                "controlType": "multilinetextbox",
-                "displayLabel": "What is the error you received?",
-                "required": false,
-                "useAsAdditionalDetails": true
-                },{
                     "id": "client_type",
                     "order": 2,
                     "controlType": "dropdown",
