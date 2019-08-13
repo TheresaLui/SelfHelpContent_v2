@@ -18,11 +18,11 @@
 
 ## **Recommended Steps**  
 
-* [Distributed training using HorovodRunner](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/index.html#distributed-training-with-horovodrunner)
+* [Distributed training using HorovodRunner](https://docs.azuredatabricks.net/applications/deep-learning/distributed-training/horovod-runner.html)
 * [Distributed model inferencing](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/index.html#distributed-inference)    
-* [Debugging and performance tuning for model inferencing](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/model-inference-performance.html#model-inference-performance-tuning-guide)   
+* [Debugging and performance tuning for model inferencing](https://docs.azuredatabricks.net/applications/deep-learning/index.html#model-inference)   
 
- 
+
 ## **Recommended Documents**
 
 * [Deep Learning Guide](https://docs.azuredatabricks.net/applications/deep-learning/index.html)
