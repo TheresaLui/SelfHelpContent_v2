@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Issues with IoT devices"
-	description="Issues with IoT devices for IoT Hub scoping questions"
+	pageTitle="Can't reach device from IoT Hub"
+	description="Can't reach device from IoT Hub for IoT Hub scoping questions"
 	authors="jlian"
 	ms.author="jlian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630568"
+	supportTopicIds="32630539,32630547"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="f843dcf7-98d9-4cb4-9c7f-d34cb5ab74ed"
 />
-# Issues with IoT devices
+# Can't reach device from IoT Hub
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "Issues with IoT devices",
+  "title": "Can't reach device from IoT Hub",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -125,8 +125,79 @@
       "required": true
     },
     {
-      "id": "problem_description",
+      "id": "service_sdk_or_not",
       "order": 6,
+      "controlType": "dropdown",
+      "infoBalloonText": "IoT Hub Service SDKs enable you to build backend applications to manage your IoT hub, and optionally send messages, schedule jobs, invoke direct methods, or send desired property updates to your IoT devices or modules. To learn more, see <a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks'>Understand and use Azure IoT Hub SDKs</a> ",
+      "displayLabel": "Are you using the IoT Hub Service SDK to send direct method or cloud-to-device messages?",
+      "watermarkText": "Choose an option",
+      "dropdownOptions": [
+        {
+          "value": "Yes",
+          "text": "Yes"
+        },
+        {
+          "value": "No",
+          "text": "No"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Don't know"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "service_sdk_language",
+      "order": 7,
+      "visibility": "service_sdk_or_not == Yes",
+      "controlType": "dropdown",
+      "displayLabel": "Language",
+      "watermarkText": "Choose an option",
+      "dropdownOptions": [
+        {
+          "value": "C# (.NET)",
+          "text": "C# (.NET)"
+        },
+        {
+          "value": "C",
+          "text": "C"
+        },
+        {
+          "value": "Java",
+          "text": "Java"
+        },
+        {
+          "value": "Node.JS",
+          "text": "Node.JS"
+        },
+        {
+          "value": "Python",
+          "text": "Python"
+        },
+        {
+          "value": "iOS",
+          "text": "iOS"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Don't know"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "sdk_version",
+      "order": 8,
+      "visibility": "service_sdk_or_not == Yes",
+      "controlType": "textbox",
+      "displayLabel": "Version",
+      "watermarkText": "Example: 1.10.1",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 9,
       "controlType": "multilinetextbox",
       "displayLabel": "Details, error logs, and affected device IDs",
       "watermarkText": "Provide additional information, logs, and device IDs.",

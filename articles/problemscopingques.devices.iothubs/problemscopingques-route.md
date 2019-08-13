@@ -51,12 +51,12 @@
 		{
 			"id": "endpoint",
 			"order": 3,
-			"dependsOn": "route_name",
 			"visibility": "route_name != null && route_name != no_route && route_name != dont_know_answer",
 			"controlType": "dropdown",
 			"displayLabel": "Endpoint",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
+				"dependsOn": "route_name",
 				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Devices/IotHubs/{resourcename}?api-version=2018-04-01",
 				"jTokenPath": "properties.routing.routes[?(@.name == '{replaceWithParentValue}')]",
 				"textProperty": "endpointNames",
