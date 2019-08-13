@@ -133,6 +133,23 @@
                     ],
                     "required": false
                 },{
+                    "id": "scopedpolicy",
+                    "order": 6,
+                    "controlType": "dropdown",
+                    "displayLabel": "Is the issue related to a scoped policy?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
                     "id": "problem_description",
                     "order": 1,
                     "controlType": "multilinetextbox",
