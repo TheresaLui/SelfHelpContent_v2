@@ -25,7 +25,7 @@ Persistent connection issues when connecting to Azure Databases for MariaDB can 
 * Follow [connection recommendations](https://docs.microsoft.com/azure/mariadb/connect-workbench) on computers hosting your client programs.
 * Fix [incorrect connection strings](https://docs.microsoft.com/azure/mariadb/howto-connection-string) in your application.
 * Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mariadb/concepts-ssl-connection-security).
-* Review the [supported client driver list](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) and assure you are using a driver that is supported.
+* Review the [supported client driver list](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) and ensure you are using a driver that is supported.
 * Make sure the user you are using has the appropriate permissions.
 
 ## **Recommended Documents**
