@@ -38,7 +38,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "is_publicip_attack",
@@ -60,7 +60,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": fasle
+            "required": true
         },
         {
             "id": "what_publicip_fortest",
