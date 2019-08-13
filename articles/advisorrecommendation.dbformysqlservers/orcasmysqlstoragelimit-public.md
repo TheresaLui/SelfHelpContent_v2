@@ -19,7 +19,7 @@
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "Medium",
+  "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.DbForMysql/servers",
   "recommendationFriendlyName": "OrcasMySQLStorageLimit",
   "recommendationMetadataState": "Active",
