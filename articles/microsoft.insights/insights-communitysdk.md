@@ -17,5 +17,7 @@
 
 ## **Recommended Steps**
 
-If you're using a unsupported SDK, you will need to open an issue in the repository to the respective project. If you're using a deprecated SDK, please visit the GitHub repository as it will have the most up to date information. Please review our up to date list of [supported languages, frameworks, and platforms](https://docs.microsoft.com/azure/azure-monitor/app/platforms).
+* If you're using an unsupported SDK, you will need to open an issue in the repository to the respective project
+* If you're using a deprecated SDK, please visit the GitHub repository as it will have the most up to date information.
+* Please review our up to date list of [supported languages, frameworks, and platforms](https://docs.microsoft.com/azure/azure-monitor/app/platforms)
 
