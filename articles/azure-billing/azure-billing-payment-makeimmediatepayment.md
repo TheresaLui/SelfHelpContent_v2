@@ -30,6 +30,8 @@ For Invoice (direct debit) payments, please send your payment to the location li
 	* You might have to check with the bank to see if the international transaction is enabled on the card<br>
 	* If card has credit limit to settle the balance<br>
 	* If recurring payment is enabled on the card<br>
+* **Declined payment**: Please make sure which payment instrument (PI) is getting declined incase you have multiple PI's associated to a subscription. If needed, change the PI by following the steps here: [How to change your credit card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
+* **Remove card**: If you need to remove your PI from the subscription, please follow the steps here: [Remove your credit card from the account](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#remove-a-credit-card-from-the-account)<br>
 
 Check the [Payment FAQ](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#frequently-asked-questions) to see if it resolves your issue <br>
 
