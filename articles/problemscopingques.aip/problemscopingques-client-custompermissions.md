@@ -44,8 +44,7 @@
                 "id": "version_number",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? You can get the latest version at http://aka.ms/getaip"
-                ],
+                "displayLabel": "What version are you using? You can get the latest version at http://aka.ms/getaip",
                 "required": true
                 },{
                     "id": "custompermissionsenable",
