@@ -134,7 +134,7 @@
                     "required": false
                 },{
                     "id": "scopedpolicy",
-                    "order": 6,
+                    "order": 7,
                     "controlType": "dropdown",
                     "displayLabel": "Is the issue related to a scoped policy?",
                     "watermarkText": "Choose an option",
