@@ -23,15 +23,15 @@ To reset the password or ssh key used to authenticate to your scale set VMs, you
 For more information, refer to [this document](https://docs.azure.cn/virtual-machines/extensions/vmaccess) that describes how to use the VMAccessForLinux extension for Linux-based scale sets. For Windows-based scale sets, here is sample powershell code:
 
 ```powershell
+
 $vmssName = "myvmss"
 $vmssResourceGroup = "myvmssrg"
 $publicConfig = @{"UserName" = "user"}
 $privateConfig = @{"Password" = "********"}
-
 $extName = "VMAccessAgent"
 $publisher = "Microsoft.Compute"
 $vmss = Get-AzureRmVmss -ResourceGroupName $vmssResourceGroup -VMScaleSetName $vmssName
 $vmss = Add-AzureRmVmssExtension -VirtualMachineScaleSet $vmss -Name $extName -Publisher $publisher -Setting $publicConfig -ProtectedSetting $privateConfig -Type $extName -TypeHandlerVersion "2.0" -AutoUpgradeMinorVersion $true
-
 Update-AzureRmVmss -ResourceGroupName $vmssResourceGroup -Name $vmssName -VirtualMachineScaleSet $vmss
+
 ```
