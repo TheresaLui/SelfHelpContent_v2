@@ -4,13 +4,14 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
+    ms.author="csand"
     displayOrder="12"
     selfHelpType="resource"
     productPesIds=""
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
-	articleId="1a996868-5703-4fdc-9c6b-9046f07cca11"
+	articleId="automation-troubleshoot-map-problemswithrunbookexecution-mooncake"
 />
 
 # Problems with runbook jobs that fail or suspend

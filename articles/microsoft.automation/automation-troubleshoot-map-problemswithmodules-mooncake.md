@@ -4,13 +4,14 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
+    ms.author="csand"
     displayOrder="11"
     selfHelpType="resource"
     productPesIds=""
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
-	articleId="72e1e12d-86b3-4a54-a70c-fb8a61ef4be3"
+	articleId="automation-troubleshoot-map-problemswithmodules-mooncake"
 />
 
 # Problems working with PowerShell modules

@@ -4,13 +4,14 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
+    ms.author="csand"
     displayOrder="10"
     selfHelpType="resource"
     productPesIds=""
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
-	articleId="8eabb032-746c-412b-b378-ef5cd69c4dad"
+	  articleId="automation-troubleshoot-map-problemswithdesiredstateconfiguration-mooncake"
 />
 
 # Problems enabling or using Desired State Configuration (DSC)

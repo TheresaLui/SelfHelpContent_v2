@@ -4,13 +4,14 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
+    ms.author="csand"
     displayOrder="9"
     selfHelpType="resource"
     productPesIds=""
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
-	articleId="8518007f-2fe3-4f33-b1d4-ce4bfc72a20b"
+	articleId="automation-troubleshoot-map-problemswithauthentication-mooncake"
 />
 
 # Problems with Run As accounts and authentication in runbooks
