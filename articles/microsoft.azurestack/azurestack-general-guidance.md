@@ -49,6 +49,7 @@ Thank you for your interest in Azure Stack. As outlined in Microsoft Azure Stack
 * [VM Sizes supported in Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-vm-sizes)
 
 ### Azure Marketplace
+
 * [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-marketplace-azure-items)
 
 ### Manage Capacity
@@ -78,7 +79,7 @@ If the built-in roles for Azure resources don't meet the specific needs of your 
 
 ### Manage usage and billing as a CSP
 
-[Create a CSP or APSS Subscription](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-add-manage-billing-as-a-csp#create-a-csp-or-apss-subscription)
+[Create a CSP or APSS Subscription](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-manage-billing-as-a-csp#create-a-csp-or-apss-subscription)
 
 Choose the type of shared services account that you use for Azure Stack. The types of subscriptions that can be used for registration of a multi-tenant Azure Stack are:
 
