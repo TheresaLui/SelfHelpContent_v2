@@ -7,7 +7,7 @@
 	supportTopicIds="32584330"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_viewer_issues"
+    articleId="scoping_automatic_protection"
 	schemaVersion="1"
 />
 # Can't apply this label
