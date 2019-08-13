@@ -42,8 +42,8 @@
                             "text": "Azure Information Protection Unified Labeling Client"
                         },
 	                    {
-                        "value": "I don't know",
-                        "text": "dont_know_answer"
+							"value": "dont_know_answer",
+							"text": "I don't know"
 						}
                     ],
                     "required": true
@@ -68,8 +68,8 @@
                         "text": "1.41.51.0"
                     },
                     {
-                        "value": "I don't know",
-                        "text": "dont_know_answer"
+						"value": "dont_know_answer",
+						"text": "I don't know"
                     }
                 ],
                 "required": true
@@ -98,8 +98,8 @@
                         "text": "2.0.778.0"
                     },
                     {
-                        "value": "I don't know",
-                        "text": "dont_know_answer"
+						"value": "dont_know_answer",
+						"text": "I don't know"
                     }
                 ],
                 "required": true
