@@ -23,8 +23,8 @@
 - [How to **assign new IP address** to a VM after failover](https://azure.microsoft.com/blog/networking-infrastructure-setup-for-microsoft-azure-as-a-disaster-recovery-site/)
 - [How to **preserve the drive letters** of data disks when failed over to Azure](https://support.microsoft.com/help/3031135/how-to-preserve-the-drive-letter-for-protected-virtual-machines-that-a)
 - [How to **connect to VM** after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)
-- [Issue] [*Connect button grayed out on VM*](https://aka.ms/unabletordpssh)
-- [Issue] [*Connect button available and unable to RDP/SSH to VM*](https://aka.ms/unabletordpssh)
+- [Issue] [*Connect button grayed out on VM*](https://blogs.technet.microsoft.com/srinathv/2018/02/07/unable-to-connectrdpssh-to-the-failed-over-vm-using-azure-site-recovery/)
+- [Issue] [*Connect button available and unable to RDP/SSH to VM*](https://blogs.technet.microsoft.com/srinathv/2018/02/07/unable-to-connectrdpssh-to-the-failed-over-vm-using-azure-site-recovery/)
 - [How to] [troubleshoot RDP connection to Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)
 - [How to] [troubleshoot SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)
 - [Issue] [*There aren't sufficient cores available to failover* Follow these steps to increase the quota](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)
@@ -46,7 +46,7 @@
 - [Create a network for test failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#create-a-network-for-test-failover)
 - [Test failover considerations to **Failover the VM into your production network**](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#test-failover-to-a-production-network-in-the-recovery-site)
 - [How to run a test failover for a single VM](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure#verify-vm-properties)
-- [Add a public IP address to the VM after test failover](https://aka.ms/addpublicip)
+- [Add a public IP address to the VM after test failover](https://blogs.technet.microsoft.com/srinathv/2018/02/07/how-to-add-a-public-ip-address-to-azure-vm-for-vm-failed-over-using-asr/)
 
 ### Failback
 
