@@ -17,20 +17,20 @@
 
 # U-SQL jobs failing
 
-U-SQL jobs can fail for a number of reasons.  Common reasons include 
+U-SQL jobs can fail for a number of reasons.  Common reasons include: 
 
 * Transient outages of the services such as DNS, Networking, ADLS that ADLA depends on
 * Changes to the ACLs of the ADLS files consumed in the job
-* Changing data sizes, which may cause data skew or storage throttling
-* Changing data-distribution across partitions, which may cause errors or un-optimized execution of jobs
-* Improvements to the U-SQL compiler and optimizer which may cause existing old optimizer hints to become outdated 
+* Changing data size may cause data skew or storage throttling
+* Changing data-distribution across partitions may cause errors or unoptimized execution of jobs
+* Improvements to the U-SQL compiler and optimizer may cause existing optimizer hints to become outdated 
 * Note that jobs that fail with error type "SYSTEM" are not charged 
 
 
 ## **Recommended Steps**
 
-1. Check if there are outages in the region where this job is running (https://status.azure.com/status)<br>
-2. Understand what the error what caused the error by using the Job Browser in Visual Studio or the Azure Portal<br>
+1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
+2. Understand the error that caused the job to fail error by using the Job Browser in Visual Studio or the Azure Portal<br>
 
 ## **Recommended Documents**
 
