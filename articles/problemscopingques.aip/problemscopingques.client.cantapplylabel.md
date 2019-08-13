@@ -7,11 +7,14 @@
 	supportTopicIds="32584334"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="b4b6273d-558e-4f2d-ab00-36a830ea0016"
+    articleId="scoping_cant_apply_label"
+	schemaVersion="1"
+	subscriptionRequired="false"
 />
 # Can't apply this label
 ---
 {
+				"$schema": "SelfHelpContent",
                 "resourceRequired": true,
                 "title": "Can't apply this label",
                 "fileAttachmentHint": "",
@@ -39,7 +42,7 @@
                             "text": "Azure Information Protection Unified Labeling Client"
                         }
                     ],
-                    "required": true
+                    "required": false
                 },{
                 "id": "version_number_classic",
                 "order": 3,
@@ -61,7 +64,7 @@
                         "text": "1.41.51.0"
                     }
                 ],
-                "required": true
+                "required": false
                 },{
                 "id": "version_number_ul",
                 "order": 4,
