@@ -7,9 +7,9 @@
 	ms.author="scotro"
 	displayOrder="31"
 	selfHelpType="resource"
-	supportTopicIds="32593740,32628269,32628280,32628287"
+	supportTopicIds=""
 	resourceTags="linux,redhat,ubuntu"
-	productPesIds="15571,16342,15797,16454,16470"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="classiccompute-myvmrestartedunexpectedly-linux-mooncake"
 />
