@@ -4,13 +4,14 @@
 	service="microsoft.cache"
 	resource="redis"
 	authors="kasparks"
+	ms.author="kasparks"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="aa0654f6-59a7-418f-aba3-13ecd9e1cf50"
+	articleId="cache-whatarethebestpracticesforusingazurerediscache-mooncake"
 />
 
 # What are the best practices for using Azure Redis Cache?
