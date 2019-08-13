@@ -1,14 +1,14 @@
 <properties
-	articleId="326391891"
 	pageTitle="Scoping Questions for Data Box"
 	description="Scoping Questions for Data Box"
 	authors="shijojoy"
 	ms.author="shijoy"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639189, 32639190, 32639193, 32639197, 32639199, 32639203, 32639188, 32639211, 32639191, 32639195, 32639207, 32639212"
+	supportTopicIds="32639189,32639190,32639193,32639197,32639199,32639203,32639188,32639211,32639191,32639195,32639207,32639212"
 	productPesIds="16505"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="3263918912"
 />
 # Data Box issues
 ---
