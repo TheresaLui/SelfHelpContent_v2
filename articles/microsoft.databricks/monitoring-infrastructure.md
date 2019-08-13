@@ -6,7 +6,7 @@
 	authors="bprakash"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32612202"
+	supportTopicIds="32677688, 32677715"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
