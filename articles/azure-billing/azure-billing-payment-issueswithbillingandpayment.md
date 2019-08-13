@@ -26,6 +26,7 @@
 Refer [Troubleshoot payment issues/error scenarios](https://support.microsoft.com/help/4505172/troubleshooting-payment-issues) to see if it resolves your issue.
 
 ### **Change/Update/Remove existing payment method**
+
 * In order to be able to make immediate payment, please make sure to [resolve past due balances](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance). If your payment isn't received or if we can't process your payment, you might get an email or see a Past due balance notification alert in the Account Center or Azure portal
 * The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) can review and update the credit card in the Account Center: [Add/Update my payment method](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
 * You might have your Azure subscription disabled because your credit is expired, you reached your spending limit, have an overdue bill, hit your credit card limit, or because the subscription was canceled by the Account Administrator. Follow the steps in the article below to get your subscription reactivated: [Reactivate my subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
