@@ -1,5 +1,5 @@
 <properties
-	articleId="f11ecff3-3003-1111-9e61-fc57f2aacd5b"
+	articleId="f11ecff3-3003-3000-9e61-fc57f2aacd5b"
 	pageTitle="Scoping Questions for configuring protection on Virtual Network resource"
 	description="Scoping Questions for configuring protection on Virtual Network resource"
 	authors="genlin"
@@ -72,14 +72,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
