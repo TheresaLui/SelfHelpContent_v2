@@ -18,31 +18,35 @@
 
 ## **Recommended Steps**
 
-You can download your invoice or have it sent in email:
+Only certain roles like the account admin or EA admin can download the invoice or have it sent in email. Learn more on the roles: [Azure profile, roles, tasks](https://docs.microsoft.com/azure/billing/billing-manage-access)<br>
+**EA customer/ Microsoft Customer Agreement**: Can download usage from [EA portal](https://ea.azure.com)/[Azure portal](https://portal.azure.com/) as an EA Admin, Account Owner, or Department Admin with the view charges policy enabled.
+**Other Subscriptions**: Download usage from [Azure Account Center](https://account.azure.com/Subscriptions)
 
 ### **Download your invoice from Azure portal (.pdf)**
 
-  1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) in Azure portal as [a user with access to invoices](https://docs.microsoft.com/azure/billing/billing-manage-access)
-  2. Select **Invoices**
-  3. Click **Download Invoice** to view a copy of your PDF invoice. If it says **Not available**, see [Why don't I see an invoice for the last billing period?](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)
+  1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) in Azure portal as [a user with access to invoices](https://docs.microsoft.com/azure/billing/billing-manage-access). Select **Invoices**
+  2. Click **Download Invoice** to view a copy of your PDF invoice. If it says **Not available**, see [Why don't I see an invoice for the last billing period?](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)
+  3. You can also view your daily usage by clicking the billing period.<br>
+For Microsoft Customer Agreement, refer : [Download invoices for a Microsoft Customer Agreement](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#download-your-azure-invoices-pdf)
 
 ### **Get your invoice in email (.pdf)**
 
-  1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).  Click **Invoices** then Email my invoice
-  2. Click **opt in** and accept the terms. You will have to opt in for each subscription you own
-_Note:_ If you don't get an email after following the steps, make sure your email address is correct in the [communication preferences on your profile](https://account.windowsazure.com/profile)
+  1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).  Click **Invoices** then Email my invoice.
+  2. Click **opt in** and accept the terms. You will have to opt in for each subscription you own<br>
+Note: If you don't get an email after following the steps, make sure your email address is correct in the [communication preferences on your profile](https://account.windowsazure.com/profile).
+For Microsoft Customer Agreement, refer : [Get invoice in email for a Microsoft Customer Agreement](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#get-your-invoice-in-email-pdf)
+[Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/)
 
 ### **Download your usage from the Account Center(.csv)**
   
   1. Sign into the [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
-  2. Select the subscription for which you want the invoice and usage information
-  3. Select **Billing History**
-  4. Select **View Current Statement** to see an estimate of your charges at the time the estimate was generated
-  5. Select **Download Usage** to download the daily usage data as a CSV file. If you see two versions available, download version 2
+  2. Select the subscription for which you want the invoice and usage information. Select **Billing History**
+  3. Select **View Current Statement** to see an estimate of your charges at the time the estimate was generated
+  4. Select **Download Usage** to download the daily usage data as a CSV file. If you see two versions available, download version 2<br>
 
-For more information about your daily usage, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/billing/billing-understand-your-bill). For help managing costs, see [Prevent unexpected costs with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started) <br>
-
-Instead of [downloading your invoice](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) every month, you can now opt-in to receive your invoice statement attached to your monthly billing email: [Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/)
+Note: Only the Account Administrator can access the Azure Account Center. Other billing admins, such as an Owner, can get usage information using the [Billing APIs](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview)<br>
+Understand daily usage: [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/billing/billing-understand-your-bill) <br>
+Manage costs: [Prevent unexpected costs with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
 
 ### **Unable to see invoice for the last billing period**
 
