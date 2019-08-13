@@ -4,13 +4,14 @@
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="jluk"
+	ms.author="juluk"
 	displayOrder="32"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	 
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="7f1012c9-9029-41ba-b879-6344a8fbd317"
+	articleId="classiccompute-autoscalemetricsnotdefined-mooncake"
 />
 
 # When using Autoscale, I get an email stating 'metrics data not available'

@@ -11,7 +11,7 @@
 	resourceTags="linux,redhat,ubuntu"
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="MoonCake"
-	articleId="cf085c22-540c-47ed-b869-98eec09214de"
+	articleId="classiccompute-myvmrestartedunexpectedly-linux-mooncake"
 />
 
 # My VM restarted unexpectedly

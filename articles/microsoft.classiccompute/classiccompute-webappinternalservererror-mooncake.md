@@ -4,13 +4,14 @@
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="jluk"
+	ms.author="juluk"
 	displayOrder="30"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	 
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="bf86ef14-68e0-4fb9-a314-0f2f7541296e"
+	articleId="classiccompute-webappinternalservererror-mooncake"
 />
 
 # My web application shows Internal Server Error or Service Unavailable (50x)
@@ -38,4 +39,4 @@ If any startup files (like **global.asax** or **web.config**) have problems, the
 
 7.	Use **DebugView** to capture exceptions/errors.
 
-8.	For further diagnostics, use **[DebugDiag](https://msdn.microsoft.com/library/ff420662.aspx)**, **ProcDump**, or **WinDbg** to capture and review memory dumps. This gives pointers where the problem is.
+8.	For further diagnostics, use **DebugDiag**, **ProcDump**, or **WinDbg** to capture and review memory dumps. This gives pointers where the problem is.

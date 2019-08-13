@@ -4,13 +4,14 @@
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="jluk"
+	ms.author="juluk"
 	displayOrder="29"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	 
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="30e7ba03-52c1-483d-a143-0f5840e91a96"
+	articleId="classiccompute-webappnotrespondingortimingout-mooncake"
 />
 
 # My web application is not responding or timing out

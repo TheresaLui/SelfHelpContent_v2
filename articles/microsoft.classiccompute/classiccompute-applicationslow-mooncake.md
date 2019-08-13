@@ -4,28 +4,32 @@
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="jluk"
+	ms.author="juluk"
 	displayOrder="33"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	 
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="56941257-e147-4087-b24a-40bb08041e08"
+	articleId="classiccompute-applicationslow-mooncake"
 />
 
 # My application is slow
 
 ## **Recommended steps**
 
-1.	Keep the external dependencies (SQL Azure, Azure Redis Cache, etc.) that the application accesses in the same region.
-If the application has numerous external resources, network delays may cause slow performance.
+1.	Keep the external dependencies (Azure SQL, Azure Redis Cache, etc.) that the application accesses in the same region.
+
+    If the application has numerous external resources, network delays may cause slow performance.
 2.	Review operating system level metrics such as CPU, memory usage, IO, and network.
-If any resource has consistently high utilization, your application may need more resources than the current hardware provides. Scale out or up if you see resource constraints. 
+
+    If any resource has consistently high utilization, your application may need more resources than the current hardware provides. Scale out or up if you see resource constraints. 
 3.	Review your application's error logs, traces, and metrics.
 
     Logs, trace, and metrics can determine if there are any application bottlenecks causing performance issues. A quick way to recover from a one-time issue is to restart your application and machine.
-4.	For further diagnostics, use [DebugDiag](https://msdn.microsoft.com/library/ff420662.aspx), **ProcDump**, or **WinDbg**.
-These programs capture memory dumps and give pointers to where the problem might be in the application.
+4.	For further diagnostics, use **DebugDiag**, **ProcDump**, or **WinDbg**.
+
+    These programs capture memory dumps and give pointers to where the problem might be in the application.
 
 ## **Recommended documents**
 
