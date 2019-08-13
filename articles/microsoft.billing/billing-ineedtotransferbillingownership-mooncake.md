@@ -22,10 +22,7 @@
 
 2. Sign in to the [Account Center](https://account.windowsazure.cn/Subscriptions) as the Account Admin.
 
-3. Select the subscription for which you
-
-
- want to transfer billing ownership.
+3. Select the subscription for which you want to transfer billing ownership.
 
 4. On the right side of the page, select **Transfer Subscription**.
 
