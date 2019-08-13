@@ -44,7 +44,7 @@ Your subscription might be disabled if the monthly credits on your subscription 
 ### **Get Azure Invoice**
 
 * [Invoice over email](https://azure.microsoft.com/blog/azure-email-invoices/)
-* [Download from Azure Account Centre](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
+* [Download from Azure Account Center](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [Allowing additional users to access invoices](https://docs.microsoft.com/azure/billing/billing-manage-access)
 
 ## **Recommended Documents**
