@@ -1,0 +1,32 @@
+﻿<properties
+pageTitle="Cannot find deletion logs for deleted blob container"
+description="Cannot find deletion logs for deleted blob container"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+displayOrder=""
+articleId="Storagev2insights_blobContainer_recovery_cannot_noLogs"
+diagnosticScenario="Storage Blob Container is not recoverable since no deletion log was found"
+selfHelpType="diagnostics"
+supportTopicIds=""
+productPesIds=""
+cloudEnvironments="public"
+/>
+
+# Unable to recover Blob Container
+
+Microsoft Azure sincerely apologizes that we are unable to recover the following deleted blob container(s). 
+
+### Blob container(s) does not existed
+The following blob container(s) are not recoverable, we cannot find deletion logs for them in the last 14 days. As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This Blob Container and all its content was cleaned up after deletion and is no longer recoverable by Azure.
+
+_**[List containers that does not exist]**_
+
+
+### Active blob container(s) exist
+We have found the following blob container(s) in our system which means that they were either not deleted or has been recreated with the same name. It is not possible for us to recover a container with the same name as an existing one.
+
+_**[List active containers]**_
+
+Please follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidently deleted content can be recovered in the future.
