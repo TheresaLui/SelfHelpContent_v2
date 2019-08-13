@@ -46,7 +46,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "under_attack",
@@ -68,7 +68,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",

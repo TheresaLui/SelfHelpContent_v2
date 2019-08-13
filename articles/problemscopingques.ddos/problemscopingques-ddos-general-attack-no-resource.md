@@ -38,7 +38,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "is_publicip_attack",
@@ -60,7 +60,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": fasle
         },
         {
             "id": "what_publicip_fortest",
@@ -74,9 +74,23 @@
         {
             "id": "other_question",
             "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Do you have any question about the product?",
-            "watermarkText": "Enter the question you have",
+            "controlType": "dropdown",
+            "displayLabel": "Do you have some general question about the product?",
+            "watermarkText": "Choose an option:",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
             "required": false
         },
         {
