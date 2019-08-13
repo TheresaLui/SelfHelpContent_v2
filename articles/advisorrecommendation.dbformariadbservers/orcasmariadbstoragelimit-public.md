@@ -19,7 +19,7 @@
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "High",
+  "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMariadb/servers",
   "recommendationFriendlyName": "OrcasMariaDbStorageLimit",
   "recommendationMetadataState": "Active",
