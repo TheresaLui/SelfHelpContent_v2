@@ -13,7 +13,6 @@
 # Data Box issues
 ---
 {
-    "$schema": "SelfHelpContent",
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Data Box issues",
@@ -72,6 +71,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/databox/data-box-faq'>Learn more</a> about Azure Data Box"
         }
-	]
+	],
+	"$schema": "SelfHelpContent"
 	}
 	---
