@@ -21,8 +21,8 @@ U-SQL jobs can run slowly for a number of reasons.  Common reasons include
 
 * Transient outages of the services such as DNS, Networking, ADLS that ADLA depends on
 * Changing data sizes, which may cause data skew or storage throttling
-* Chaging data-distribution across partitions, which may cause errors or un-optimized execution of jobs
-* Improvements to the U-SQL compiler and optimiser which may cause existing old optimiser hints to become outdated 
+* Changing data-distribution across partitions, which may cause errors or un-optimized execution of jobs
+* Improvements to the U-SQL compiler and optimizer which may cause existing old optimizer hints to become outdated 
 
 ## **Recommended Documents**
 
