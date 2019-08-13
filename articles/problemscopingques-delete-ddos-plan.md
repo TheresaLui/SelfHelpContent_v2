@@ -18,7 +18,6 @@
     "title": "Create DDoS Plan",
     "fileAttachmentHint": "",
     "formElements": [
-        
         {
             "id": "disassociate_vnet",
             "order": 2,
