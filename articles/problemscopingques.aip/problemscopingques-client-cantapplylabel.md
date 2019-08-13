@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "Can't apply this label",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity -> Help and Feedback -> Export Logs",
+                "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity - Help and Feedback - Export Logs",
                 "formElements": [
                 {
                 "id": "cant_apply_label",
