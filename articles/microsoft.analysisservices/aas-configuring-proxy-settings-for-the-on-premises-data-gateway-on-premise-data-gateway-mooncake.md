@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="18"
 	selfHelpType="generic"
-	supportTopicIds="32675682"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="66ebe09e-bcc9-50a9-f46f-c988954664a5"
+	articleId="aas-configuring-proxy-settings-for-the-on-premises-data-gateway-on-premise-data-gateway-mooncake"
 />
 
 # Configuring proxy settings for the On-premises data gateway

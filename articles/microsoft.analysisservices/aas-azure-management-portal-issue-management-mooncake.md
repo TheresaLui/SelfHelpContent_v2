@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="14"
 	selfHelpType="generic"
-	supportTopicIds="32558756"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="bfb92303-7122-055b-398e-ef0bb88ceedb"
+	articleId="aas-azure-management-portal-issue-management-mooncake"
 />
 
 # Manage Analysis Services

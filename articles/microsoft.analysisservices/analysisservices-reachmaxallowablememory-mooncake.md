@@ -10,7 +10,7 @@
     productPesIds=""
     displayOrder="1"
     cloudEnvironments="MoonCake"
- 	articleId="15dc089b-0c5c-4e33-b3ad-a40b00a011b1"
+ 	articleId="analysisservices-reachmaxallowablememory-mooncake"
 />
 
 # Memory error: You have reached the maximum allowable memory allocation for your tier.

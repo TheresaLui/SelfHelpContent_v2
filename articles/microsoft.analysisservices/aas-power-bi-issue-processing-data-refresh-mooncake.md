@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="36"
 	selfHelpType="generic"
-	supportTopicIds="32675703"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="dd276081-4ae1-ebb0-9fca-9c1da2612184"
+	articleId="aas-power-bi-issue-processing-data-refresh-mooncake"
 />
 
 # Using Analysis Services Tabular data in Power BI Desktop

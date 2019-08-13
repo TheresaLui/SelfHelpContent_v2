@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="6f0aac34-9a1c-4a22-abd5-1b1068c0c6b6"
+	articleId="analysisservices-odbcdrivernotinstalled-mooncake"
 />
 
 # 'Driver' property doesn't correspond to an installed ODBC driver

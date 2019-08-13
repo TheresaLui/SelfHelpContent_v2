@@ -8,10 +8,10 @@
 	ms.author="pfreitas"
 	displayOrder="25"
 	selfHelpType="generic"
-	supportTopicIds="32675688"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="fce36885-c003-194b-80fa-f3a993b15e23"
+	articleId="aas-enable-firewall-connectivity-mooncake"
 />
 
 # Hardening Azure Analysis Services with the new firewall capability

@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="32"
 	selfHelpType="generic"
-	supportTopicIds="32675702"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="793e7450-a177-4100-42bb-0420672266ea"
+	articleId="aas-partitions-processing-data-refresh-mooncake"
 />
 
 # Process Tabular Model Partitions

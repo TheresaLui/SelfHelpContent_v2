@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="33"
 	selfHelpType="generic"
-	supportTopicIds="32558776"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="21aee1ac-3d85-3469-0df6-40a0613731df"
+	articleId="aas-performance-and-timeouts-query-execution-mooncake"
 />
 
 # Monitoring Azure Analysis Services with Log Analytics and Power BI

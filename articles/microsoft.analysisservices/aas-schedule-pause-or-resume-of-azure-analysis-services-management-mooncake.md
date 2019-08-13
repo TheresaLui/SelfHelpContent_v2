@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="40"
 	selfHelpType="generic"
-	supportTopicIds="32675698"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="972ee660-d223-61d1-a28f-dcf958ad71af"
+	articleId="aas-schedule-pause-or-resume-of-azure-analysis-services-management-mooncake"
 />
 
 # Azure Analysis Services - Scale and Pause or Resume using scheduled autoscaling

@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="19"
 	selfHelpType="generic"
-	supportTopicIds="32558762"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="27c11c5c-3532-0a5a-9364-f5ee07cd4f02"
+	articleId="aas-connection-timeout-connectivity-mooncake"
 />
 
 # Connecting to servers

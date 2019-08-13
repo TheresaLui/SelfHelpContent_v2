@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="42"
 	selfHelpType="generic"
-	supportTopicIds="32675699"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="3fdd9bbd-a79b-dc62-89c9-29430b5ff156"
+	articleId="aas-subscription-management-mooncake"
 />
 
 # Organizing subscriptions and resource groups within the Enterprise

@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="16"
 	selfHelpType="generic"
-	supportTopicIds="32675685"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="dd72694e-f048-c934-1145-87ae3693f7d4"
+	articleId="aas-compatibility-level-connectivity-mooncake"
 />
 
 # Compatibility level for Analysis Services tabular models

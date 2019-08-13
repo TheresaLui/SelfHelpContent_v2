@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="41"
 	selfHelpType="generic"
-	supportTopicIds="32675692"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="512b6e32-bd21-9fd1-c1fc-9cc4a85c6aa3"
+	articleId="aas-ssms-connectivity-issues-connectivity-mooncake"
 />
 
 # How to uninstall SQL Server Management Studio

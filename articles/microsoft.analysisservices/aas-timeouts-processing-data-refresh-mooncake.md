@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="43"
 	selfHelpType="generic"
-	supportTopicIds="32675705"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="87d8cf82-0387-f7b4-0750-2e75107109fe"
+	articleId="aas-timeouts-processing-data-refresh-mooncake"
 />
 
 # Automating Azure Analysis Services processing with Azure Functions

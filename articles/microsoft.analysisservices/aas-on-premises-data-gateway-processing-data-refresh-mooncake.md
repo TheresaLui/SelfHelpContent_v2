@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="30"
 	selfHelpType="generic"
-	supportTopicIds="32558767"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="c8e78b9b-41b9-d72a-2651-d996889f0675"
+	articleId="aas-on-premises-data-gateway-processing-data-refresh-mooncake"
 />
 
 # Troubleshooting the On-premises data gateway

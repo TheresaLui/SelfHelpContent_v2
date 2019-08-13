@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="12"
 	selfHelpType="generic"
-	supportTopicIds="32675700"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="e581eeed-3c1b-ff98-9c5a-e3fadaeabd11"
+	articleId="aas-authentication-processing-data-refresh-mooncake"
 />
 
 # Authentication and user permissions

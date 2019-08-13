@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="34"
 	selfHelpType="generic"
-	supportTopicIds="32558775"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="3af15cd8-0ce4-b02e-1b18-50f49309786f"
+	articleId="aas-performance-processing-data-refresh-mooncake"
 />
 
 # Monitoring Azure Analysis Services with Log Analytics and Power BI

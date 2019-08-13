@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="28"
 	selfHelpType="generic"
-	supportTopicIds="32675697"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="f7bcb589-a540-cbf5-29ef-3700ef189f2c"
+	articleId="aas-managed-instance-deployment-management-mooncake"
 />
 
 # Azure Analysis Services integration with VNets via On-Premises Data Gateway

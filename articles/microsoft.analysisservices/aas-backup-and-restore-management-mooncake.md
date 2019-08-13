@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="15"
 	selfHelpType="generic"
-	supportTopicIds="32675694"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="b84eddd1-10b9-ba39-bf09-dc13983510ac"
+	articleId="aas-backup-and-restore-management-mooncake"
 />
 
 # Backup and restore

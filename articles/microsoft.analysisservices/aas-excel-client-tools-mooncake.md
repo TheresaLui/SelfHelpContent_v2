@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="26"
 	selfHelpType="generic"
-	supportTopicIds="32558764"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="dfe796d1-7da5-f86f-0458-d2b2429413dc"
+	articleId="aas-excel-client-tools-mooncake"
 />
 
 # Connect Excel to an Azure Analysis Services server

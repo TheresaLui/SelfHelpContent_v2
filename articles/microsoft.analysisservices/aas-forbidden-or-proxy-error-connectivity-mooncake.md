@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="27"
 	selfHelpType="generic"
-	supportTopicIds="32675689"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="f9edd860-e767-1d4c-9221-5116896d16e1"
+	articleId="aas-forbidden-or-proxy-error-connectivity-mooncake"
 />
 
 # Azure SQL Database gateway IP addresses

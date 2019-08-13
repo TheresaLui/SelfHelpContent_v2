@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="24"
 	selfHelpType="generic"
-	supportTopicIds="32675696"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="b2952654-2823-d09f-6290-0a8820f85566"
+	articleId="aas-diagnostic-log-setup-management-mooncake"
 />
 
 # Setup diagnostics logging

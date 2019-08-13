@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="23"
 	selfHelpType="generic"
-	supportTopicIds="32675687"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="bdc40ec8-9f10-0111-70d1-691a17de43ef"
+	articleId="aas-deploy-model-connectivity-mooncake"
 />
 
 # Deploy a model from Visual Studio

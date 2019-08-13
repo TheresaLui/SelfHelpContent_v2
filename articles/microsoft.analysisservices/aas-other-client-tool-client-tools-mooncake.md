@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="31"
 	selfHelpType="generic"
-	supportTopicIds="32558773"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="bb3b31e7-3d1a-a547-c7c8-f6bceb2494d9"
+	articleId="aas-other-client-tool-client-tools-mooncake"
 />
 
 # Connecting to servers

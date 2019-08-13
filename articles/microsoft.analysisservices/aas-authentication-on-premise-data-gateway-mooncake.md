@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="11"
 	selfHelpType="generic"
-	supportTopicIds="32675680"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="8758e0b9-7dea-389f-9bd9-5bb8dcce2e95"
+	articleId="aas-authentication-on-premise-data-gateway-mooncake"
 />
 
 # On-premises data gateway support for Azure Analysis Services

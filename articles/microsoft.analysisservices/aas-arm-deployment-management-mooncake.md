@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="9"
 	selfHelpType="generic"
-	supportTopicIds="32675693"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="df8f4c17-79eb-2172-1bfe-4302046829fc"
+	articleId="aas-arm-deployment-management-mooncake"
 />
 
 # Deploy resources with Resource Manager templates and Azure PowerShell

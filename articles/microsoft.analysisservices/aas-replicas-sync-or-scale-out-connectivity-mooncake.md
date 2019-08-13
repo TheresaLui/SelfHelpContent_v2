@@ -7,10 +7,10 @@
 	ms.author="pfreitas"
 	displayOrder="39"
 	selfHelpType="generic"
-	supportTopicIds="32675691"
-	productPesIds="16157"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
-	articleId="91e1b156-c83b-c9e3-e635-f1f8026ee29e"
+	articleId="aas-replicas-sync-or-scale-out-connectivity-mooncake"
 />
 
 # Azure Analysis Services scale-out
