@@ -7,12 +7,12 @@
 	authors="madhavpatel6"
 	ms.author="madpatel"
 	displayOrder="1"
-	articleId="adfs_invalid_issuerid_regex"
+	articleId="adfs-invalid-issuerid-regex-mooncake"
 	diagnosticScenario="ADFS - Invalid IssuerID Regex"
 	selfHelpType="diagnostics"
-	supportTopicIds="32045775"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="14785"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
 />
 
