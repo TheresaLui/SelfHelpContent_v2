@@ -6,7 +6,7 @@
     authors="ajlam"
     ms.author="andrela"
     displayOrder="320"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640146"
     resourceTags="servers, databases"
     productPesIds="16617"

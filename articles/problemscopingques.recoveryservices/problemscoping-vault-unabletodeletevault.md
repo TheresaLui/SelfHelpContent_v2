@@ -1,8 +1,8 @@
 <properties
          pageTitle="Scoping questions for unable to delete vault"
          description="Scoping questions for unable to delete vault"
-         authors="srinathv"
-		     ms.author="srinathv"
+         authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632791"
          productPesIds="15207"
@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Unable to delete vault",
     "fileAttachmentHint": "",
+      "diagnosticCard": {
+        "title": "Unable to delete vault",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "error_message",
@@ -50,14 +55,16 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

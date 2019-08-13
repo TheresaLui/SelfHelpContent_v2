@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure VM backup performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure VM backup performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "using_VM",
@@ -57,7 +62,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "JobID_Name",
@@ -112,7 +118,8 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"

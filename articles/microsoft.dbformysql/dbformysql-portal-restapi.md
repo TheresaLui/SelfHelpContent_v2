@@ -6,7 +6,7 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="330"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640088"
     resourceTags="servers, databases"
     productPesIds="16221"
@@ -30,4 +30,6 @@ All Azure Database for MySQL management operations can be performed using REST A
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)<br>
+* [Rest API for MySQL](https://docs.microsoft.com/rest/api/mysql/)<br>
+* [Resource types and versions](https://docs.microsoft.com/azure/templates/microsoft.dbformysql/allversions)

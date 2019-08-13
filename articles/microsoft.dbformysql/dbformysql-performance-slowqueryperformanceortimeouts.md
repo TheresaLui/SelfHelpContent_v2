@@ -6,7 +6,7 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="90"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640094"
     resourceTags="servers, databases"
     productPesIds="16221"
@@ -35,3 +35,4 @@ Query performance issues can have many different root causes. Work through the r
 ## **Recommended Documents**
 
 * [Monitor and tune](https://docs.microsoft.com/azure/mysql/concepts-monitoring)<br>
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)

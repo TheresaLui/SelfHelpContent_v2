@@ -6,7 +6,7 @@
     authors="ajlam"
     ms.author="andrela"
     displayOrder="450"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640092"
     resourceTags="servers, databases"
     productPesIds="16221"
@@ -20,6 +20,11 @@ Azure Database for MySQL allows you to configure parameters at a server level us
 
 ## **Recommended Steps**
 
+* Review the [non-configurable server parameters](https://docs.microsoft.com/azure/mysql/howto-server-parameters#non-configurable-server-parameters).
+* To change the **time_zone* parameter, follow the [instruction](https://docs.microsoft.com/azure/mysql/howto-server-parameters#working-with-the-time-zone-parameter) to populate the time zone table.
+* Review the [server parameter limition](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#considerations-and-limitations) for read replica server.
+* The [read replicas](https://docs.microsoft.com/azure/mysql/concepts-read-replicas) has **read_only = ON**, and we don't support to change it.
+* To change the in **read_only** parameter for non read replicas, please increase the storage size using the portal as described in [reaching storage limit](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers#storage).
 * If a parameter you'd like to configure is not listed, let us know by creating a new request or voting for existing requests in our [feedback forum](https://feedback.azure.com/forums/597982-azure-database-for-mysql)
 
 ## **Recommended Documents**

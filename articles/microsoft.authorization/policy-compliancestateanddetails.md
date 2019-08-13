@@ -24,5 +24,6 @@ Click an assignment under **Compliance**. The "last evaluated" timestamp is view
 
 ## **Recommended Documents**
 
-* [Get Compliance data programmatically](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#command-line)
+* [How Azure Policy compliance works](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#how-compliance-works)
+* [Get compliance data programmatically](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#command-line)
 * [On-demand evaluation scan](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#evaluation-triggers)

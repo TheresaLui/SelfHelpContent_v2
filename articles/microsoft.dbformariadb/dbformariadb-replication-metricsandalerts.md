@@ -6,7 +6,7 @@
     authors="ajlam"
     ms.author="andrela"
     displayOrder="420"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32673563"
     resourceTags="servers, databases"
     productPesIds="16617"
@@ -25,5 +25,6 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Documents**
 
-* [How to create and manage read replicas in the portal](https://docs.microsoft.com/azure/mariadb/howto-read-replicas-portal)
+* [How to create and manage read replicas in the portal](https://docs.microsoft.com/azure/mariadb/howto-read-replicas-portal)<br>
+* [Use Azure CLI to create and manage read replicas](https://docs.microsoft.com/azure/mariadb/howto-read-replicas-cli)<br>
 * [Overview on read replicas](https://docs.microsoft.com/azure/mariadb/concepts-read-replicas)

@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32639116"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Unknown backend health

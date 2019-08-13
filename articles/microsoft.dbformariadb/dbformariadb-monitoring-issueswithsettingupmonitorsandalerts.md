@@ -6,7 +6,7 @@
     authors="ambhatna"
     ms.author="ambhatna"
     displayOrder="260"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640130"
     resourceTags="servers, databases"
     productPesIds="16617"
@@ -22,13 +22,15 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-* If you are having trouble creating and managing metric alerts using Azure portal, review the [Set up alerts on metrics](https://docs.microsoft.com/azure/mariadb/howto-alert-metric/) how-to
+* If you are having trouble creating and managing metric alerts using Azure portal, review the [Set up alerts on metrics](https://docs.microsoft.com/azure/mariadb/howto-alert-metric) how-to
 * If you are having trouble using Azure CLI:
+
   * Make sure you are signed-in to the correct using **az login**
   * Ensure you are using the correct subscription, in case you have more than one
   * Specify all required parameters in **az monitor metrics alert** with valid values. Review the [Azure CLI Monitor Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric#with-azure-cli) documentation for valid parameters.
 
 * If you are having trouble using Azure Rest API:
+
   * Familiarize yourself with [Components of a REST API request/response](https://docs.microsoft.com/rest/api/azure/#components-of-a-rest-api-requestresponse)
   * If your **Metric Alerts** deployment is failing, make sure required parameters are set and valid. See the [Metric alerts REST API documentation](https://docs.microsoft.com/rest/api/monitor/metricalerts).
 
