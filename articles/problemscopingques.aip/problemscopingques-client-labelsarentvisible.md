@@ -52,7 +52,7 @@
                 "order": 3,
                 "visibility": "client_type == Azure Information Protection Classic Client",
                 "controlType": "dropdown",
-                "displayLabel": "What version are you using? if it's not listed, please upgrade",
+                "displayLabel": "What version are you using? if it's not listed, please upgrade to the latest version at http://aka.ms/getaip",
                 "watermarkText": "Choose an option",
                 "dropdownOptions": [
                     {
@@ -78,7 +78,7 @@
                 "order": 4,
                 "visibility": "client_type == Azure Information Protection Unified Labeling Client",
                 "controlType": "dropdown",
-                "displayLabel": "What version are you using? if it's not listed, please upgrade",
+                "displayLabel": "What version are you using? if it's not listed, please upgrade to the latest version at http://aka.ms/getaip",
                 "watermarkText": "Choose an option",
                 "dropdownOptions": [
                     {
