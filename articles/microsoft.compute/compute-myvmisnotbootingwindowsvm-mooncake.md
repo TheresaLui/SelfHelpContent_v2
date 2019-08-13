@@ -7,11 +7,11 @@
     ms.author="tibasham"
     displayOrder="34"
     selfHelpType="resource"
-    supportTopicIds="32675597,32675600,32675601,32675599"
+    supportTopicIds=""
     resourceTags="windows, windowsSQL"
-    productPesIds="14749,14745"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-    articleId="fbb1ecda-19a5-40a0-89e0-145c5076c8c0"
+    articleId="compute-myvmisnotbootingwindowsvm-mooncake"
 />
 
 # Resolve connection issue with your Windows VM
@@ -35,13 +35,13 @@ If your Windows virtual machine (VM) is not booting and you are unsure of the ca
 
 **Common issues associated to specific boot errors:**
 
-  * [Check Disk Boot Error](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-check-disk-boot-error)
-  * [BitLocker Boot Error](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-bitlocker-boot-error)
-  * [Boot Configuration Update](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-vm-boot-configure-update)
-  * [Common Blue Screen Error](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-common-blue-screen-error)
-  * [Critical Service Failure](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-critical-service-failed-boot-error)
-  * [Updating Boot Error](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-stuck-updating-boot-error)
-  * [Reboot loop](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-reboot-loop)
+* [Check Disk Boot Error](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-check-disk-boot-error)
+* [BitLocker Boot Error](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-bitlocker-boot-error)
+* [Boot Configuration Update](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-vm-boot-configure-update)
+* [Common Blue Screen Error](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-common-blue-screen-error)
+* [Critical Service Failure](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-critical-service-failed-boot-error)
+* [Updating Boot Error](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-stuck-updating-boot-error)
+* [Reboot loop](https://docs.azure.cn/virtual-machines/troubleshooting/troubleshoot-reboot-loop)
 
 ## **Recommended Documents**
 

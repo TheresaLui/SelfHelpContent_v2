@@ -7,11 +7,11 @@
     ms.author="tibasham"
     displayOrder="35"
     selfHelpType="resource"
-    supportTopicIds="32675597,32675600,32675601,32675599"
+    supportTopicIds=""
     resourceTags="linux,redhat,Ubuntu"
-    productPesIds="15571,16342,16065,15797,16454,16470"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-    articleId="151455db-1b97-415c-a86e-eb1d23147f3e"
+    articleId="compute-myvmisnotbootinglinuxvm-mooncake"
 />
 
 # Resolve connection issue with your Linux VM
