@@ -8,9 +8,9 @@
     ms.author="jamdavi"
     articleId="insights_missingemail_diagnostic"
     diagnosticScenario="ApplicationInsightsMissingEmailDiagnostic"
-    selfHelpType="generic"
+    selfHelpType="diagnostic"
     productPesIds="15693"
-    supportTopicIds="32546625"
+    supportTopicIds=""
     cloudEnvironments="public"
  />
 # I should have received an E-mail for an alert that fired
