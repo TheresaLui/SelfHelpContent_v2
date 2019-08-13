@@ -4,13 +4,14 @@
 	service="microsoft.cognitiveservices"
 	resource="accounts"
 	authors="kasparks"
+	ms.author="kasparks"
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="4dfd561f-0c8c-4dc8-8d25-cc9e785dbf96"
+	articleId="cognitiveservices-willmyapikeysbechangedafterswitchingpricingtiers-mooncake"
 />
 
 # Will my API keys be changed after switching pricing tiers?
