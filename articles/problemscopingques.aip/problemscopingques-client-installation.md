@@ -41,59 +41,10 @@
                     ],
                     "required": true
                 },{
-                "id": "version_number_classic",
+                "id": "version_number",
                 "order": 3,
-                "visibility": "client_type == Azure Information Protection Classic Client",
-                "controlType": "dropdown",
-                "displayLabel": "What version did you try to install? if it's not listed, please upgrade to the latest version at http://aka.ms/getaip",
-                "watermarkText": "Choose an option",
-                "dropdownOptions": [
-                    {
-                        "value": "1.53.10.0",
-                        "text": "1.53.10.0"
-                    },
-                    {
-                        "value": "1.48.204.0",
-                        "text": "1.48.204.0"
-                    },
-                    {
-                        "value": "1.41.51.0",
-                        "text": "1.41.51.0"
-                    },
-                    {
-						"value": "dont_know_answer",
-						"text": "I don't know"
-                    }
-                ],
-                "required": true
-                },{
-                "id": "version_number_ul",
-                "order": 4,
-                "visibility": "client_type == Azure Information Protection Unified Labeling Client",
-                "controlType": "dropdown",
-                "displayLabel": "What version did you try to install? if it's not listed, please upgrade to the latest version at http://aka.ms/getaip",
-                "watermarkText": "Choose an option",
-                "dropdownOptions": [
-                    {
-                        "value": "2.2.19.0",
-                        "text": "2.2.19.0"
-                    },
-                    {
-                        "value": "2.2.14.0",
-                        "text": "2.2.14.0"
-                    },
-                    {
-                        "value": "2.0.779.0",
-                        "text": "2.0.779.0"
-                    },
-                    {
-                        "value": "2.0.778.0",
-                        "text": "2.0.778.0"
-                    },
-                    {
-						"value": "dont_know_answer",
-						"text": "I don't know"
-                    }
+                "controlType": "textbox",
+                "displayLabel": "What version are you using? You can get the latest version at http://aka.ms/getaip"
                 ],
                 "required": true
                 },{
