@@ -9,7 +9,6 @@
     cloudEnvironments="Public"
     articleId="scoping_cant_apply_label"
 	schemaVersion="1"
-	subscriptionRequired="false"
 />
 # Can't apply this label
 ---
@@ -17,6 +16,7 @@
 				"$schema": "SelfHelpContent",
                 "resourceRequired": true,
                 "title": "Can't apply this label",
+				"subscriptionRequired": "false", 
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
