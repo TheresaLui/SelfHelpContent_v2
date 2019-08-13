@@ -90,7 +90,7 @@
                         "text": "2.0.778.0"
                     }
                 ],
-                "required": true
+                "required": false
                 },{
                     "id": "ippublic",
                     "order": 6,
