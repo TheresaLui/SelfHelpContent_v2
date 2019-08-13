@@ -16,7 +16,7 @@
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
                 "title": "Labels aren't visible",
-				"subscriptionRequired": "false",
+				"subscriptionRequired": false,
                 "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity -> Help and Feedback -> Export Logs",
                 "formElements": [
                 {
