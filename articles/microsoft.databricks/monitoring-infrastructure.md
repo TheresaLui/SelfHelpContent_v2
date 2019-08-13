@@ -3,7 +3,7 @@
 	description="Monitoring for Azure Databricks"
 	service="microsoft.databricks"
 	resource="workspaces"
-	authors="bprakash"
+	authors="deeptivu"
 	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds="32677688, 32677715"
