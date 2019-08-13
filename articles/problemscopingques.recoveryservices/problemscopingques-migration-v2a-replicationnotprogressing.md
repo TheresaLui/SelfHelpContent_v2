@@ -2,6 +2,7 @@
     pageTitle="V2A Replication not progressing"
     description="V2A Replication not progressing"
     authors="srinathv"
+    ms.author="aaronmax"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32680615"
     productPesIds="16370"
@@ -13,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "V2A Replication not progressing",
     "fileAttachmentHint": "",
     "formElements": [
@@ -45,7 +47,7 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "Replication not progressing issues",
@@ -73,6 +75,10 @@
                 {
                     "value": "My issue is not listed here",
                     "text": "My issue is not listed here"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

@@ -52,6 +52,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+  "$schema": "SelfHelpContent"
 }
 ---

@@ -1,6 +1,7 @@
 <properties
          pageTitle="Scoping questions for not able to connect to VM"
          description="Scoping questions for not able to connect to VM"
+         author="TobyTu"
          ms.author="asgang"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32680617"
@@ -51,6 +52,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+  "$schema": "SelfHelpContent"
 }
 ---
