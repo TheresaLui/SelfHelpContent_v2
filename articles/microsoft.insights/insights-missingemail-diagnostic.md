@@ -1,7 +1,7 @@
 <properties
-    pageTitle="I should have received an E-mail for an alert that fired"
-    description="General troubleshooting guide for missing e-mail from alerts."
-    infoBubbleText="Some suggestions have been found to help solve your missing e-mail issue quicker."
+    pageTitle="I should have received an email for an alert that fired"
+    description="General troubleshooting guide for missing email from alerts."
+    infoBubbleText="Some suggestions have been found to help solve your missing email issue quicker."
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
@@ -13,26 +13,26 @@
     supportTopicIds=""
     cloudEnvironments="public"
  />
-# I should have received an E-mail for an alert that fired
+# I should have received an email for an alert that fired
 
 ## **Recommended Steps**
 
-If you're certain that an alert has generated an event but has not sent an e-mail notification you should check the following:
+If you're certain that an alert has generated an event but has not sent an email notification you should check the following:
 
-1. The e-mail client SPAM settings (Outlook, Gmail)
-2. The e-mail server SPAM/quarantine settings (Exchange, O365, G Suite)
-3. Any e-mail security appliances (Barracuda, Cisco)
-4. If the e-mail is a distribution list, make sure it can receive external e-mails
-5. Look for any unsubscribe e-mail notifications, check with colleagues if the e-mail is a distribution list
+1. The email client SPAM settings (Outlook, Gmail)
+2. The email server SPAM/quarantine settings (Exchange, O365, G Suite)
+3. Any email security appliances (Barracuda, Cisco)
+4. If the email is a distribution list, make sure it can receive external emails
+5. Look for any unsubscribe email notifications, check with colleagues if the email is a distribution list
 
 ## **Recommended Documents**
 
-### E-Mail Client
+### EMail Client
 
 * [Outlook SPAM Settings](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)<br>
 * [Gmail SPAM Settings](https://support.google.com/mail/answer/6579?hl=en)<br>
 
-### E-Mail Server
+### EMail Server
 
 * [O365 Safe Sender](https://docs.microsoft.com/office365/SecurityCompliance/create-safe-sender-lists-in-office-365)<br>
 * [Exchange SPAM Quarantine](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/spam-quarantine)<br>
