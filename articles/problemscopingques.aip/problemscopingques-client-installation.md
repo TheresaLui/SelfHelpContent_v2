@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Information Client - Custom permissions issues"
-	description="Azure Information Client - Custom permissions issues"
+	pageTitle="Azure Information Client - Installation issues"
+	description="Azure Information Client - Installation issues"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584336"
+	supportTopicIds="32584352"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_custom_permissions"
+    articleId="scoping_viewer_issues"
 	schemaVersion="1"
 />
 # Can't apply this label
@@ -15,7 +15,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Custom permissions issues",
+                "title": "Viewer Issues",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity - Help and Feedback - Export Logs",
                 "formElements": [
@@ -96,41 +96,6 @@
                     }
                 ],
                 "required": true
-                },{
-                    "id": "custompermissionsenable",
-                    "order": 5,
-                    "visibility": "client_type == Azure Information Protection Classic Client",
-                    "controlType": "dropdown",
-                    "displayLabel": "Did you enable custom permissions in your policy?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
-                        }
-                    ],
-                    "required": false
-                },{
-                    "id": "scopedpolicy",
-                    "order": 7,
-                    "controlType": "dropdown",
-                    "displayLabel": "Is the issue related to a scoped policy?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
-                        }
-                    ],
-                    "required": false
                 },{
                     "id": "problem_description",
                     "order": 1,
