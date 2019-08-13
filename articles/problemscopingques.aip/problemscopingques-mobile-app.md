@@ -58,7 +58,7 @@
                     ],
                     "required": false
                 },{
-                    "id": "apptype",
+                    "id": "aiporoffice",
                     "order": 6,
                     "controlType": "dropdown",
                     "displayLabel": "Is the issue related to AIP Viewer app or Office for Mobile Apps?",
