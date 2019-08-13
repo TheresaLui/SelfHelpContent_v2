@@ -23,7 +23,7 @@ In the Azure portal, as an Account Administrator, you can add a new credit card,
 ### **Troubleshoot Payment issues**
 Refer [Troubleshoot payment issues/error scenarios](https://support.microsoft.com/help/4505172/troubleshooting-payment-issues) to see if it resolves your issue.
 
-If there is a pending payment on the card since the card was denied by your financial institution, please reach out to your **financial institution** to resolve the issue. Use the below pointers
+If there is a pending payment on the card since the card was denied by your financial institution, please reach out to your **financial institution** to resolve the issue. Use the below pointers:
 
    * You might have to check with the bank to see if the international transaction is enabled on the card
    * If card has credit limit to settle the balance
@@ -39,10 +39,10 @@ If there is a pending payment on the card since the card was denied by your fina
 
 ### **Update/Change/Remove an existing Credit or Debit card**
 
-1. Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa). Search on **Cost Management + Billing**
+1. Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa). Search on **Cost Management + Billing**.
 2. Select **Payment methods**. Click on the credit or debit card that you'd like to edit. A credit card form will appear on the right
-3. Update the credit or debit card details. Select **Save**
-4. To **remove**, check the box next to the card that you want to remove.<br>
+3. Update the credit or debit card details. Select **Save**.
+4. To **remove**, check the box next to the card that you want to remove
 
 _Note_: You can't remove your credit card if it is associated with other active Microsoft subscriptions. You will need to remove the credit card from all active subscriptions that you have with Microsoft and try again. Click **Delete**
 
@@ -50,9 +50,10 @@ Learn more: [Update, change, or remove payment methods](https://docs.microsoft.c
 
 ### **Switch to Pay by Invoice**
 
-If you want to update payment method to **'invoice'** (direct debit), please open a [support request](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) so we can run a credit check before approving your request.<br> 
-Refer [Switch to Pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice) to change to invoice mode of payment<br>
-**Note**:  Once moved to invoice mode of payment you cannot switch to credit card mode of payment and you cannot purchase any Azure marketplace services using  invoice mode of payment.
+* If you want to update payment method to **'invoice'** (direct debit), please open a [support request](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) so we can run a credit check before approving your request
+* Refer [Switch to Pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice) to change to invoice mode of payment<br>
+
+**Note**: Once moved to invoice mode of payment you cannot switch to credit card mode of payment and you cannot purchase any Azure marketplace services using invoice mode of payment.
 
 ## **Recommended Documents**
 
