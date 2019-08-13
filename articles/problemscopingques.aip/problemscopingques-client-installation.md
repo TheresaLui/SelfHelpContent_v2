@@ -7,7 +7,7 @@
 	supportTopicIds="32584352"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_viewer_issues"
+    articleId="scoping_installation_issues"
 	schemaVersion="1"
 />
 # Can't apply this label
@@ -15,15 +15,15 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Viewer Issues",
+                "title": "Installation Issues",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity - Help and Feedback - Export Logs",
+                "fileAttachmentHint": "Navigate to %temp% and include MSI installer logs",
                 "formElements": [
                 {
                     "id": "client_type",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Which AIP client are you using?",
+                    "displayLabel": "Which AIP client did you try to install?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -45,7 +45,7 @@
                 "order": 3,
                 "visibility": "client_type == Azure Information Protection Classic Client",
                 "controlType": "dropdown",
-                "displayLabel": "What version are you using? if it's not listed, please upgrade to the latest version at http://aka.ms/getaip",
+                "displayLabel": "What version did you try to install? if it's not listed, please upgrade to the latest version at http://aka.ms/getaip",
                 "watermarkText": "Choose an option",
                 "dropdownOptions": [
                     {
@@ -71,7 +71,7 @@
                 "order": 4,
                 "visibility": "client_type == Azure Information Protection Unified Labeling Client",
                 "controlType": "dropdown",
-                "displayLabel": "What version are you using? if it's not listed, please upgrade to the latest version at http://aka.ms/getaip",
+                "displayLabel": "What version did you try to install? if it's not listed, please upgrade to the latest version at http://aka.ms/getaip",
                 "watermarkText": "Choose an option",
                 "dropdownOptions": [
                     {
@@ -95,6 +95,13 @@
 						"text": "I don't know"
                     }
                 ],
+                "required": true
+                },{
+                "id": "os_type",
+                "order": 5,
+                "visibility": "client_type == Azure Information Protection Unified Labeling Client",
+                "controlType": "textbox",
+                "displayLabel": "What Windows version are you using?",
                 "required": true
                 },{
                     "id": "problem_description",
