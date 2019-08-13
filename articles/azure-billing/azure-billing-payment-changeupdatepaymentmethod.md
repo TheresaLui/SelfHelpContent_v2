@@ -33,7 +33,7 @@ If there is a pending payment on the card since the card was denied by your fina
 
 1. Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa). Search on **Cost Management + Billing**
 2. Select a Subscription you'd like to add the credit or debit card to. Select **Payment methods**
-3. In the top-left corner, select “+” to add a card. A credit card form will appear on the right. Enter credit or debit card details
+3. In the top-left corner, select + to add a card. A credit card form will appear on the right. Enter credit or debit card details
 4. To make this card your active payment method, check the box next to Make this my active payment method above the form. This card will become the active payment instrument for all subscriptions using the same card as the selected subscription. Select **Next**
 5. To **use a different credit card**, check the box next to the card you'd like to make the active payment method. Click **Set active**
 
@@ -57,6 +57,6 @@ Refer [Switch to Pay by Invoice](https://docs.microsoft.com/azure/billing/billi
 ## **Recommended Documents**
 
 * [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)
-* [Change payment method- FAQ](https://docs.microsoft.com/en-us/azure/billing/billing-how-to-change-credit-card#frequently-asked-questions)
+* [Change payment method- FAQ](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#frequently-asked-questions)
 * [Change payment method for a billing profile](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#change-payment-method-for-a-billing-profile)
 * [Check access to a Microsoft Customer Agreement](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card#check-access-to-a-microsoft-customer-agreement)
