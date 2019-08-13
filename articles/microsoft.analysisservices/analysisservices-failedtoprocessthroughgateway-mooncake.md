@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="analysisservices-failedtoprocessthroughgateway-mooncake"
+	articleId="cc4f16bb-7b0c-49cc-8041-6c37e9f1b2ce"
 />
 
 # Failed to process model with data source through gateway

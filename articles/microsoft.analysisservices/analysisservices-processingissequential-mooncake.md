@@ -12,7 +12,7 @@
     displayOrder="6"
     cloudEnvironments="MoonCake"
     issueNotListed="true"
- 	articleId="analysisservices-processingissequential-mooncake"
+ 	articleId="5d4f65e0-6668-4aa0-ac3d-68374e88c122"
 />
 
 # Processing of partition is sequential
