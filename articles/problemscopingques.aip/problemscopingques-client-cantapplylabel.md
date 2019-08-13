@@ -14,9 +14,9 @@
 ---
 {
 				"$schema": "SelfHelpContent",
-                "resourceRequired": true,
+                "resourceRequired": false,
                 "title": "Can't apply this label",
-				"subscriptionRequired": "false", 
+				"subscriptionRequired": "false",
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
@@ -40,9 +40,13 @@
                         {
                             "value": "Azure Information Protection Unified Labeling Client",
                             "text": "Azure Information Protection Unified Labeling Client"
-                        }
+                        },
+	                    {
+                        "value": "I don't know",
+                        "text": "dont_know_answer"
+						}
                     ],
-                    "required": false
+                    "required": true
                 },{
                 "id": "version_number_classic",
                 "order": 3,
@@ -62,9 +66,13 @@
                     {
                         "value": "1.41.51.0",
                         "text": "1.41.51.0"
+                    },
+                    {
+                        "value": "I don't know",
+                        "text": "dont_know_answer"
                     }
                 ],
-                "required": false
+                "required": true
                 },{
                 "id": "version_number_ul",
                 "order": 4,
@@ -88,9 +96,13 @@
                     {
                         "value": "2.0.778.0",
                         "text": "2.0.778.0"
+                    },
+                    {
+                        "value": "I don't know",
+                        "text": "dont_know_answer"
                     }
                 ],
-                "required": false
+                "required": true
                 },{
                     "id": "ippublic",
                     "order": 6,
