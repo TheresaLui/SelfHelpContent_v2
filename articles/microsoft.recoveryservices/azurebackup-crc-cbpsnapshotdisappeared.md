@@ -22,5 +22,6 @@
 We have identified that your backup operation failed because the shadow copy storage space on the protected volume is not sufficient.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve this issue increase the shadow copy storage space on the protected volume by referring this [article](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)
+## **Recommended Steps**
+
+* [Increase the shadow copy storage space on the protected volume](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)
