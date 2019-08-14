@@ -1,7 +1,7 @@
 <properties
 	pageTitle="ScratchLocationError"
 	description="ScratchLocationError"
-	infoBubbleText=""
+	infoBubbleText="Invalid or incorrect scratch location [%ScratchPath;] specified."
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
