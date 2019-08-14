@@ -4,10 +4,10 @@
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584369"
+	supportTopicIds="32584370"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_policy_issues"
+    articleId="scoping_portal_issues"
 	schemaVersion="1"
 />
 # Can't apply this label
@@ -15,7 +15,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Policy Issues",
+                "title": "Portal Issues",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Provide screenshot of the error seen in the portal",
                 "formElements": [
@@ -63,23 +63,6 @@
                     "visibility": "sccmigrate == Yes",
                     "controlType": "dropdown",
                     "displayLabel": "Did you publish labels in the SCC portal?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
-                        }
-                    ],
-                    "required": false
-                },{
-                    "id": "scopedpolicy",
-                    "order": 7,
-                    "controlType": "dropdown",
-                    "displayLabel": "Is the issue related to a scoped policy?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
