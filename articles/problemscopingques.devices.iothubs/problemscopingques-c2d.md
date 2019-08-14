@@ -145,7 +145,7 @@
           "text": "Don't know"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "service_sdk_language",
@@ -184,7 +184,7 @@
           "text": "Don't know"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "service_sdk_version",
@@ -193,7 +193,7 @@
       "controlType": "textbox",
       "displayLabel": "Version",
       "watermarkText": "Example: 1.10.1",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

@@ -32,12 +32,12 @@
       "controlType": "textbox",
       "displayLabel": "What error did you see?",
       "watermarkText": "Example: 429001 ThrottlingException, 403002 IotHubQuotaExceeded",
-      "required": true
+      "required": false
     },
     {
       "id": "feature",
       "order": 3,
-      "controlType": "dropdown",
+      "controlType": "multiselectdropdown",
       "displayLabel": "What feature were you using when you were throttled or hit quota?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
@@ -70,7 +70,7 @@
           "text": "Other, don't know, or not applicable"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

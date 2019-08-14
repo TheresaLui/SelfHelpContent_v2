@@ -32,7 +32,7 @@
       "controlType": "textbox",
       "displayLabel": "What error did you see?",
       "watermarkText": "Example: 500001 ServerError",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

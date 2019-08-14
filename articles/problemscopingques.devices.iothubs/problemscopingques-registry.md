@@ -32,7 +32,7 @@
       "controlType": "textbox",
       "displayLabel": "What error did you see?",
       "watermarkText": "Example: 429001 ThrottlingException, 403002 IotHubQuotaExceeded",
-      "required": true
+      "required": false
     },
     {
       "id": "programmatically",
@@ -54,7 +54,7 @@
           "text": "Other, don't know, or not applicable"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "code",
@@ -63,7 +63,7 @@
       "visibility": "programmatically == Yes",
       "displayLabel": "Can you share the code snippet or command used?",
       "watermarkText": "Paste here",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

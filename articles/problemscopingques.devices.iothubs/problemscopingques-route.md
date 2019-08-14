@@ -31,7 +31,7 @@
       "order": 2,
       "controlType": "multiselectdropdown",
       "displayLabel": "Which route is having issues?",
-      "watermarkText": "Choose an option",
+      "watermarkText": "Select from your routes",
       "dynamicDropdownOptions": {
         "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Devices/IotHubs/{resourcename}?api-version=2018-04-01",
         "jTokenPath": "properties.routing.routes",
@@ -47,28 +47,41 @@
         "value": "no_route",
         "text": "Could not find any routes in this hub"
       }],
-      "required": true
+      "required": false
     },
     {
       "id": "endpoint",
       "order": 3,
-      "visibility": "route_name != null && route_name != no_route && route_name != dont_know_answer",
       "controlType": "dropdown",
-      "displayLabel": "Endpoint",
-      "watermarkText": "Choose an option",
-      "dynamicDropdownOptions": {
-        "dependsOn": "route_name",
-        "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Devices/IotHubs/{resourcename}?api-version=2018-04-01",
-        "jTokenPath": "properties.routing.routes[?(@.name == '{replaceWithParentValue}')]",
-        "textProperty": "endpointNames",
-        "valueProperty": "endpointNames",
-        "valuePropertyRegex": "[^/]+$"
-      },
-      "dropdownOptions": [{
-        "value": "no_endpoint",
-        "text": "Could not find an endpoint associated to this route"
-      }],      
-      "required": true
+      "displayLabel": "What type of endpoint?",
+      "watermarkText": "Choose one or more endpoint types",
+      "dropdownOptions": [
+        {
+          "value": "Event Hubs",
+          "text": "Event Hubs"
+        },
+        {
+          "value": "Blob Storage",
+          "text": "Blob Storage"
+        },
+        {
+          "value": "Service Bus Queue",
+          "text": "Service Bus Queue"
+        },
+        {
+          "value": "Service Bus Topic",
+          "text": "Service Bus Topic"
+        },
+        {
+          "value": "Built-in Endpoint",
+          "text": "Built-in Endpoint"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Don't know"
+        }
+      ],
+      "required": false
     },
     {
       "id": "problem_description",

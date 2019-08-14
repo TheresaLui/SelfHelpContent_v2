@@ -29,7 +29,7 @@
     {
       "id": "event_type",
       "order": 2,
-      "controlType": "dropdown",
+      "controlType": "multiselectdropdown",
       "displayLabel": "What type of event are you having issues with?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [

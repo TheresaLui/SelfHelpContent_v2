@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Throttling or quota hit"
-	description="Throttling or quota hit for IoT Hub scoping questions"
+	pageTitle="Can't create IoT hub"
+	description="Can't create IoT hub for IoT Hub scoping questions"
 	authors="jlian"
 	ms.author="jlian"
 	selfHelpType="problemScopingQuestions"
@@ -10,13 +10,13 @@
 	schemaVersion="1"
 	articleId="a52dc0cc-c9e5-4971-9e51-4ae943380c6c"
 />
-# Throttling or quota hit
+# Can't create IoT hub
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "Throttling or quota hit",
+  "title": "Can't create IoT hub",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
@@ -27,50 +27,59 @@
       "required": true
     },
     {
-      "id": "errors",
-      "order": 2,
-      "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 429001 ThrottlingException, 403002 IotHubQuotaExceeded",
-      "required": true
-    },
-    {
       "id": "feature",
-      "order": 3,
+      "order": 2,
       "controlType": "dropdown",
-      "displayLabel": "What feature were you using when you were throttled or hit quota?",
+      "displayLabel": "Did you have issues with creating or deleting IoT hub?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
         {
-          "value": "Twin (device and module) operations",
-          "text": "Twin (device and module) operations"
+          "value": "Create",
+          "text": "Create"
         },
         {
-          "value": "Device to cloud sends",
-          "text": "Device to cloud sends"
+          "value": "Delete",
+          "text": "Delete"
         },
         {
-          "value": "Identity registry operations",
-          "text": "Identity registry operations"
+          "value": "Update",
+          "text": "Update"
         },
         {
-          "value": "New device connections",
-          "text": "New device connections"
+          "value": "dont_know_answer",
+          "text": "Don't know or not applicable"
+        }
+      ],
+      "required": false
+    },
+    {
+      "id": "errors",
+      "order": 3,
+      "controlType": "textbox",
+      "displayLabel": "What error did you see?",
+      "watermarkText": "Paste here",
+      "required": false
+    },
+      "id": "where",
+      "order": 4,
+      "controlType": "dropdown",
+      "displayLabel": "Where did you encounter the issue?",
+      "watermarkText": "Choose an option",
+      "dropdownOptions": [
+        {
+          "value": "Azure portal",
+          "text": "Azure portal"
         },
         {
-          "value": "Cloud-to-device sends",
-          "text": "Cloud-to-device sends"
-        },
-        {
-          "value": "Queries",
-          "text": "Queries"
+          "value": "CLI or PowerShell",
+          "text": "CLI or PowerShell"
         },
         {
           "value": "dont_know_answer",
           "text": "Other, don't know, or not applicable"
         }
       ],
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",
