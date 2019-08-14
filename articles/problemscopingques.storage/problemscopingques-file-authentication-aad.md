@@ -17,11 +17,6 @@
     "resourceRequired": true,
     "title": "Storage Files Authentication - AAD DS",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "What caused my Azure AAD DS issue?",
-        "description": "Our Azure Files AAD DS  troubleshooter can help you troubleshoot and solve your problem. Click 'Submit' to run the troubleshooter.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any AAD DS issues with your resource. Please see 'Recommended Solution' section for additional troubleshooting steps."
-    },
     "formElements": [
         {
             "id": "aad_ds_enabled",
@@ -35,12 +30,11 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "no",
+                    "value": "dont_know_answer",
                     "text": "No"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": ""
+            "required": true
         },
         {
             "id": "ran_through_prereq",
@@ -55,7 +49,7 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "no",
+                    "value": "dont_know_answer",
                     "text": "No"
                 }
             ],
@@ -74,7 +68,7 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "no",
+                    "value": "dont_know_answer",
                     "text": "No"
                 }
             ],
@@ -93,7 +87,7 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "no",
+                    "value": "dont_know_answer",
                     "text": "No"
                 }
             ],
@@ -112,7 +106,7 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "no",
+                    "value": "dont_know_answer",
                     "text": "No"
                 }
             ],
