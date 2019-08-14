@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Information Service - Managing Azure Information Protection templates"
-	description="Azure Information Service - Managing Azure Information Protection templates"
+	pageTitle="Azure Information Client - Unable to open protected content"
+	description="Azure Information Client - Unable to open protected content"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584354"
+	supportTopicIds="32584381"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_service_manage"
+    articleId="scoping_unable_to_open_protected_content"
 	schemaVersion="1"
 />
 # Can't apply this label
@@ -15,24 +15,24 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Managing Azure Information Protection templates",
+                "title": "Unable to open protected content",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Provide screenshot of the error seen in the portal",
+                "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "portal_type",
+                    "id": "client_type",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Which portal are you using?",
+                    "displayLabel": "What program are you using to open the protected content?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "AIP Portal",
-                            "text": "AIP Portal"
+                            "value": "AIP Viewer",
+                            "text": "AIP Viewer"
                         },
                         {
-                            "value": "SCC Portal",
-                            "text": "SCC Portal"
+                            "value": "Office",
+                            "text": "Office"
                         },
 	                    {
 							"value": "dont_know_answer",
@@ -41,10 +41,10 @@
                     ],
                     "required": true
                 },{
-                    "id": "sccmigrate",
+                    "id": "isexternal",
                     "order": 5,
                     "controlType": "dropdown",
-                    "displayLabel": "Did you activate Unified Labeling in your tenant?",
+                    "displayLabel": "Is the person unable to open the content an external user?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -58,11 +58,11 @@
                     ],
                     "required": false
                 },{
-                    "id": "publishlabels",
+                    "id": "ismfaenabled",
                     "order": 6,
-                    "visibility": "sccmigrate == Yes",
+                    "visibility": "isexternal == Yes",
                     "controlType": "dropdown",
-                    "displayLabel": "Did you publish labels in the SCC portal?",
+                    "displayLabel": "Do you have MFA or conditional access policy enabled?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -76,10 +76,10 @@
                     ],
                     "required": false
                 },{
-                    "id": "scopedpolicy",
+                    "id": "networkreq",
                     "order": 7,
                     "controlType": "dropdown",
-                    "displayLabel": "Is the issue related to a scoped policy?",
+                    "displayLabel": "Did you follow all networking requirements at https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure ?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {

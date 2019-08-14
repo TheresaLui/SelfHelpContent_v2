@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Information Service - Managing Azure Information Protection templates"
-	description="Azure Information Service - Managing Azure Information Protection templates"
+	pageTitle="Azure Information Protection - AIP Mobile Education"
+	description="Azure Information Protection - AIP Mobile Education"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584354"
+	supportTopicIds="32584341"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_service_manage"
+    articleId="scoping_mobile_app_education"
 	schemaVersion="1"
 />
 # Can't apply this label
@@ -15,24 +15,24 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Managing Azure Information Protection templates",
+                "title": "Azure Information Protection Mobile Education",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Provide screenshot of the error seen in the portal",
+                "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "portal_type",
+                    "id": "app_type",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Which portal are you using?",
+                    "displayLabel": "Which OS are you using?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "AIP Portal",
-                            "text": "AIP Portal"
+                            "value": "iOS",
+                            "text": "iOS"
                         },
                         {
-                            "value": "SCC Portal",
-                            "text": "SCC Portal"
+                            "value": "Android",
+                            "text": "Android"
                         },
 	                    {
 							"value": "dont_know_answer",
@@ -41,10 +41,10 @@
                     ],
                     "required": true
                 },{
-                    "id": "sccmigrate",
+                    "id": "latest_version",
                     "order": 5,
                     "controlType": "dropdown",
-                    "displayLabel": "Did you activate Unified Labeling in your tenant?",
+                    "displayLabel": "Did you upgrade your app to the latest version in the store?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -58,37 +58,19 @@
                     ],
                     "required": false
                 },{
-                    "id": "publishlabels",
+                    "id": "aiporoffice",
                     "order": 6,
-                    "visibility": "sccmigrate == Yes",
                     "controlType": "dropdown",
-                    "displayLabel": "Did you publish labels in the SCC portal?",
+                    "displayLabel": "Is the issue related to AIP Viewer app or Office for Mobile Apps?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Yes",
-                            "text": "Yes"
+                            "value": "AIP Viewer",
+                            "text": "AIP Viewer"
                         },
                         {
-                            "value": "No",
-                            "text": "No"
-                        }
-                    ],
-                    "required": false
-                },{
-                    "id": "scopedpolicy",
-                    "order": 7,
-                    "controlType": "dropdown",
-                    "displayLabel": "Is the issue related to a scoped policy?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
+                            "value": "Office for Mobile",
+                            "text": "Office for Mobile"
                         }
                     ],
                     "required": false

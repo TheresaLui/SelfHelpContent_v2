@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "Viewer Issues",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity - Help and Feedback - Export Logs",
+                "fileAttachmentHint": "Export AIP logs using Settings button in AIP Viewer - Export Logs",
                 "formElements": [
                 {
                     "id": "client_type",

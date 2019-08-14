@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Information Service - Managing Azure Information Protection templates"
-	description="Azure Information Service - Managing Azure Information Protection templates"
+	pageTitle="Azure Information Service - Portal issues"
+	description="Azure Information Service - Portal	issues"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584354"
+	supportTopicIds="32584370"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_service_manage"
+    articleId="scoping_portal_issues"
 	schemaVersion="1"
 />
 # Can't apply this label
@@ -15,7 +15,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Managing Azure Information Protection templates",
+                "title": "Portal Issues",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Provide screenshot of the error seen in the portal",
                 "formElements": [
@@ -63,23 +63,6 @@
                     "visibility": "sccmigrate == Yes",
                     "controlType": "dropdown",
                     "displayLabel": "Did you publish labels in the SCC portal?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
-                        }
-                    ],
-                    "required": false
-                },{
-                    "id": "scopedpolicy",
-                    "order": 7,
-                    "controlType": "dropdown",
-                    "displayLabel": "Is the issue related to a scoped policy?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
