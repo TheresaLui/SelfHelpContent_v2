@@ -187,7 +187,7 @@
       "required": true
     },
     {
-      "id": "sdk_version",
+      "id": "service_sdk_version",
       "order": 8,
       "visibility": "service_sdk_or_not == Yes",
       "controlType": "textbox",

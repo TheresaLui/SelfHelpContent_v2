@@ -37,7 +37,7 @@
     {
       "id": "feature",
       "order": 3,
-      "controlType": "dropbox",
+      "controlType": "dropdown",
       "displayLabel": "What feature were you using when you were throttled or hit quota?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
