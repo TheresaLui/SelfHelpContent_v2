@@ -23,7 +23,7 @@ You can find answers to many common questions in the [Log Analytics FAQ](https:/
 
 ## **Recommended Steps**
 
-Review the following topics for information and troubleshooting. If you can't find answers for your inquiry, try out [discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights). When opening a support request, follow the support path to the right of the topics to get it routed and handled quicker.<br> 
+Review the following topics for information and troubleshooting. If you can't find answers for your inquiry, check the [discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights). When opening a support request, follow the support path to the right of the topics to get it routed and handled quicker.<br> 
 
 * [Azure Activity log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) **|** *Monitoring non-VMs resources* > *Collect Azure Activity logs* 
 * [query Diagnostics data](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-logs-stream-log-store#examples) in a Log Analytics workspace **|** *How Do I* > *How to query specific data*
