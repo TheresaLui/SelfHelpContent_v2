@@ -64,7 +64,7 @@
         "valueProperty": "endpointNames",
         "valuePropertyRegex": "[^/]+$"
       },
-          "required": false
+      "required": false
     },
     {
       "id": "problem_description",

@@ -37,7 +37,7 @@
     {
       "id": "programmatically",
       "order": 3,
-      "controlType": "dropbox",
+      "controlType": "dropdown",
       "displayLabel": "Are you performing device identity registry operations programmatically (API, SDK, PowerShell, or CLI)?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
@@ -57,8 +57,8 @@
       "required": true
     },
     {
-      "id": "feature",
-      "order": 3,
+      "id": "code",
+      "order": 4,
       "controlType": "multilinetextbox",
       "visibility": "programmatically == Yes",
       "displayLabel": "Can you share the code snippet or command used?",

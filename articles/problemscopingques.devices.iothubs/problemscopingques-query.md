@@ -37,7 +37,7 @@
     {
       "id": "source",
       "order": 3,
-      "controlType": "dropbox",
+      "controlType": "dropdown",
       "displayLabel": "How are you issuing the query?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
