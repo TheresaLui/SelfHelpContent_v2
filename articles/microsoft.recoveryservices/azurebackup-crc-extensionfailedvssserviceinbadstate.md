@@ -24,4 +24,4 @@ We have detected that your VSS (Volume Shadow copy Service) service is in an inc
 
 ## **Recommended Steps**
 
-To resolve the ExtensionFailedVssServiceInBadState issue, restart the VSS and retry the backup operation.
+* Restart the VSS and retry the backup operation

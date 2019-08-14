@@ -21,20 +21,12 @@
 We detected a purchase failure for the deployment of Azure Marketplace offer **<!--$offerId-->offerId<!--/$offerId-->** using the subscription **<!--$subscriptionId-->subscriptionID<!--/$subscriptionId-->**. <br>
 <!--/issueDescription-->
 
-The offer you intended to purchase is currently unavailable.<br>
+The offer you intended to purchase is currently unavailable in the region or country associated with your account/subscription.<br>
 
 ## **Recommended Steps**
 
-When you select an offer, the possibility exists that not all of the data that determines purchase availability is known at the time. The purchase terms in accordance with your subscription are subject to change by the publisher. 
-
-Please contact the publisher for recommendations or you can determine which images are available in your region by using PowerShell and the Azure CLI.
-
-- For PowerShell examples, see [Navigate the images](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#navigate-the-images)
-- For Azure CLI examples, see [List popular images](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#list-popular-images)
-* If you are unable to resolve the issue, please contact Help and Support in the [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)
+Please contact the publisher for recommendations regarding the image.
 
 ## **Recommended Documents**
 
-- [Find Windows VM images in the Azure Marketplace with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage)  
-- [Find Linux VM images in the Azure Marketplace with the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage)
 - [Marketplace FAQs](https://docs.microsoft.com/azure/marketplace/marketplace-faq-publisher-guide)

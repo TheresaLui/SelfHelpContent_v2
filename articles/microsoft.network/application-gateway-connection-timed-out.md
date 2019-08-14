@@ -11,7 +11,7 @@
     resourceTags=""
 	productPesIds="15922"
 	supportTopicIds="32639114"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Connectivity Issue: Connection Timed out

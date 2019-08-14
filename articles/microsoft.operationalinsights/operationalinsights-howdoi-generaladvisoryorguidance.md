@@ -14,7 +14,7 @@ selfHelpType="generic"
 supportTopicIds="32633015"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 />
 
 # Advisory or general guidance

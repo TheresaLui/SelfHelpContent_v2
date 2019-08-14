@@ -47,19 +47,12 @@
       "actionId": "f04de9c9-5b7d-46c6-8642-5636cae7cb66",
       "description": "Renew",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Reservations",
-      "bladeName": "CreateBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "filters": {
-          "reservedResourceType": "{ResourceTypeNew}",
-          "subId": "{subscriptionId}",
-          "scope": "{AppliedScopeType}",
-          "region": "{Region}",
-          "sku": "{SKU}",
-          "term": "{Term}",
-          "quantity": "{Quantity}"
-        },
-        "referrer": "AzureAdvisorRiRenewal"
+        "id": "{ReservationId}",
+        "menuid": "renewal",
+        "referrerInfo": "AdvisorRenewal"
       }
     }
   ],
@@ -92,6 +85,7 @@
     }
   ],
   "tip": "Purchase a new Reserved VM Instance for your expiring RI to continue receiving discounted rates.",
+  "testData": "a89bd2aa-ccb0-42a7-bf35-5345e0dbd684,/subscriptions/a89bd2aa-ccb0-42a7-bf35-5345e0dbd684,\"{\"\"ReservationName\"\":\"\"Test Reservation\"\", \"\"ReservationId\"\": \"\"/providers/microsoft.capacity/reservationOrders/12c9a47d-3153-46f5-a301-70e2a3ece67c/reservations/aed75d99-e764-4cd0-bd92-0635e475de2f\"\",\"\"ExpiryDate\"\":\"\"8/12/2019 12:48:17 AM\"\",\"\"Product\"\":\"\"Test product\"\",\"\"Quantity\"\":\"\"5\"\"}\"",
   "costSavingInfo": "*You can save up to the stated amount if you purchase single subscription reservations for 3 years and your future usage follows the same pattern as the last 30 days. Your actual savings may vary."
 }
 ---
