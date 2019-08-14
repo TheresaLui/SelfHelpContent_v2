@@ -24,12 +24,7 @@ Most users are able to resolve their issue using the steps below.
 
 * Not able to scale from Basic to General Purpose/Memory Optimized service tiers and vice-versa:
 
-    * Scaling only supported from General Purpose to Memory Optimized service tiers and vice-versa. Azure Database for MySQL does not allow any scaling to/from the Basic service tier.
     * In case you want to migrate from Basic to General purpose/Memory Optimized and vice-versa, you can take a database dump of your Basic tier MySQL database, recreate the server in General Purpose/Memory Optimized and then load the database dump and vice-versa.
-
-* Can't change the backup storage type after a server is created:
-
-    * You can independently change the vCores, the pricing tier (except to and from Basic), the amount of storage, and the backup retention period. You cannot change the backup storage type after a server is created.
 
 * No new connections can be established when the system scales:
 
