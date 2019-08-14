@@ -25,9 +25,8 @@ Azure provides an [activity log](https://docs.microsoft.com/azure/azure-resource
 - The status of the operation
 - The values of other properties that might help you research the operation
 
-For information on how to use Azure Activity log see, [View activity logs to monitor actions on resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-audit)
-
-For a list of resource actions for Azure Cosmos DB see, [Azure Resource Manager Resource Provider operations](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftdocumentdb).
+* For information on how to use Azure Activity log see, [View activity logs to monitor actions on resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-audit)
+* For a list of resource actions for Azure Cosmos DB see, [Azure Resource Manager Resource Provider operations](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftdocumentdb)
 
 Activity logs are kept for 90 days. You can query for any range of dates, as long as the starting date isn't more than 90 days in the past.
 
