@@ -18,9 +18,9 @@
     "title": "Storage Files Authentication - AAD DS",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "What caused my Azure Files connectivity issue?",
-        "description": "Our Azure Files AAD DS  troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any AAD DS issues with your resource. Please see our manual troubleshooting steps below to troubleshoot your problem."
+        "title": "What caused my Azure AAD DS issue?",
+        "description": "Our Azure Files AAD DS  troubleshooter can help you troubleshoot and solve your problem. Click 'Submit' to run the troubleshooter.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any AAD DS issues with your resource. Please see 'Recommended Solution' section for additional troubleshooting steps."
     },
     "formElements": [
         {
@@ -37,14 +37,9 @@
                 {
                     "value": "no",
                     "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "ran_through_prereq",
@@ -61,14 +56,9 @@
                 {
                     "value": "no",
                     "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "aad_ds_vm",
@@ -85,14 +75,9 @@
                 {
                     "value": "no",
                     "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "share_permission",
@@ -109,14 +94,9 @@
                 {
                     "value": "no",
                     "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "directory_permission",
@@ -133,14 +113,9 @@
                 {
                     "value": "no",
                     "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "problem_start_time",
