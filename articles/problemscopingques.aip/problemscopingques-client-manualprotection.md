@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Information Client - Automatic protection"
-	description="Azure Information Client - Automatic protection"
+	pageTitle="Azure Information Client - Manual protection"
+	description="Azure Information Client - Manual protection"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584330"
+	supportTopicIds="32584355"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_automatic_protection"
+    articleId="scoping_manual_protection"
 	schemaVersion="1"
 />
 # Can't apply this label
@@ -15,7 +15,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Automatic Protection",
+                "title": "Manual Protection",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity button - Help and Feedback - Export Logs",
                 "formElements": [
