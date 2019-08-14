@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="11"
 	selfHelpType="resource"
-	supportTopicIds="32639998, 32639994, 32640004, 32640020, 32640022, 32640023"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="de093a66-3658-4670-85c5-57a400812a81"
+	articleId="dbforpostgresql-mgnt-monitoring-mooncake"
 />
 
 # Monitoring Azure Database for PostgreSQL servers

@@ -7,11 +7,11 @@
     ms.author="raagyema"
 	displayOrder="20"
 	selfHelpType="resource"
-	supportTopicIds="32639992"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="postgresgeneralreplication"
+	articleId="dbforpostgresql-replica-issues-mooncake"
 />
 
 # Issues with replication

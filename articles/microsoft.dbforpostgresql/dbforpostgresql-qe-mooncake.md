@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="17"
 	selfHelpType="resource"
-	supportTopicIds="32640026, 32640027"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="a6322fae-939f-4909-845d-643f3599aa63"
+	articleId="dbforpostgresql-qe-mooncake"
 />
 
 # Troubleshoot query execution problems in Azure Database for PostgreSQL

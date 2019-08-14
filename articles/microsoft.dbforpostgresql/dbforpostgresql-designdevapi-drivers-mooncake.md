@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds="32639972"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="39980a83-435d-4da1-ac95-13b7673692dc"
+	articleId="dbforpostgresql-designdevapi-drivers-mooncake"
 />
 
 # Connecting to Azure Databases for PostgreSQL
@@ -29,6 +29,6 @@ Azure Database for PostgreSQL uses the community edition of PostgreSQL. As such,
 * [Connect with Java](https://docs.azure.cn/postgresql/connect-java)
 * [Connect with .NET](https://docs.azure.cn/postgresql/connect-csharp)
 * [Connect with Python](https://docs.azure.cn/postgresql/connect-python)
-* [Connect with Node.js](https://docs.azure.cn/azure/postgresql/connect-nodejs)
-* [Connect with Ruby](https://docs.azure.cn/azure/postgresql/connect-ruby)
-* [Connect with Go](https://docs.azure.cn/azure/postgresql/connect-go)
+* [Connect with Node.js](https://docs.azure.cn/postgresql/connect-nodejs)
+* [Connect with Ruby](https://docs.azure.cn/postgresql/connect-ruby)
+* [Connect with Go](https://docs.azure.cn/postgresql/connect-go)

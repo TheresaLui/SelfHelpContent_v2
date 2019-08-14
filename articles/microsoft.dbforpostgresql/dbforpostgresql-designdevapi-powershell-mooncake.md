@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="5"
 	selfHelpType="resource"
-	supportTopicIds="32640012"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="10c4ddcc-dc51-4ea5-8e85-a007ab5d8f27"
+	articleId="dbforpostgresql-designdevapi-powershell-mooncake"
 />
 
 # Using PowerShell to manage Azure Databases for PostgreSQL

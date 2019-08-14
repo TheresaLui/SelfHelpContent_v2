@@ -7,11 +7,11 @@
     ms.author="raagyema"
 	displayOrder="21"
 	selfHelpType="resource"
-	supportTopicIds="32639995"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="postgresmonitorreplication"
+	articleId="dbforpostgresql-replica-monitor-mooncake"
 />
 
 # Monitoring replication

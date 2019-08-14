@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="14"
 	selfHelpType="resource"
-	supportTopicIds="32628440"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="35d95f74-d835-43b3-8f5b-880b009a2e17"
+	articleId="dbforpostgresql-mgnt-vnet-mooncake"
 />
 
 # Managing VNet service endpoints in Azure Database for PostgreSQL

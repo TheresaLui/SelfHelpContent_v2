@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="6"
 	selfHelpType="resource"
-	supportTopicIds="32640017"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="fabef761-b7cf-4410-ae24-d72edd0bd0f7"
+	articleId="dbforpostgresql-designdevapi-rest-mooncake"
 />
 
 # Using Azure REST APIs for Azure Database for PostgreSQL

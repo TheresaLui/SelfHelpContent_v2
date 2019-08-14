@@ -7,11 +7,11 @@
     ms.author="ankam,janeng"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32639974, 32639979"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="e0349317-477d-4dd6-bada-7a2d78d09118"
+	articleId="dbforpostgresql-errorservernotavailable-mooncake"
 />
 
 # Error: Server not available or SSL SYSCALL error: EOF detected

@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="15"
 	selfHelpType="resource"
-	supportTopicIds="32639986"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="46d2f88a-161c-49f3-a847-c45c4e6bd47c"
+	articleId="dbforpostgresql-perf-login-mooncake"
 />
 
 # Troubleshooting login performance in Azure Database for PostgreSQL

@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32639969"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="55ca0c9c-b11f-4aca-9882-1fc388f78dfc"
+	articleId="dbforpostgresql-designdevapi-cli-mooncake"
 />
 
 # Using Azure CLI for Azure Database for PostgreSQL

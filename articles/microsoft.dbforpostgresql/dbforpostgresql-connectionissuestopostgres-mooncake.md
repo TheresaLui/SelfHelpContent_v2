@@ -7,11 +7,11 @@
     ms.author="anakm, janeng"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds="32639977, 32639999"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="48fb0d99-c2ee-4558-a91a-ef9940c31c5b"
+	articleId="dbforpostgresql-connectionissuestopostgres-mooncake"
 />
 
 # Connection issues to Azure Databases for PostgreSQL

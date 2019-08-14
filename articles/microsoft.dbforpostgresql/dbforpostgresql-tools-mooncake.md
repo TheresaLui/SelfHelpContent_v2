@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="23"
 	selfHelpType="resource"
-	supportTopicIds="32628424, 32628428, 32628429, 32628450, 32628459"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="195cd685-ee7f-4026-bfed-4a665f62bd90"
+	articleId="dbforpostgresql-tools-mooncake"
 />
 
 # Tools for Azure Database for PostgreSQL

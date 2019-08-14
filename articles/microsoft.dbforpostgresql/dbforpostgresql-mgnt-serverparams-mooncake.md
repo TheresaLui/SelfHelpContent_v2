@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="13"
 	selfHelpType="resource"
-	supportTopicIds="32639997"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="20c07169-4446-40d0-8323-32ed595cb129"
+	articleId="dbforpostgresql-mgnt-serverparams-mooncake"
 />
 
 # Managing server parameters in Azure Database for PostgreSQL

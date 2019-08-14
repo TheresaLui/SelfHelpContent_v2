@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="16"
 	selfHelpType="resource"
-	supportTopicIds="32640025"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="fd54f6b6-653f-460f-88ba-d8350893e55a"
+	articleId="dbforpostgresql-perf-query-mooncake"
 />
 
 # Troubleshooting query performance in Azure Database for PostgreSQL

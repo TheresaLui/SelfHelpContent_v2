@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="8"
 	selfHelpType="resource"
-	supportTopicIds="32639968, 32639993, 32639984, 32640011"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="7b83315e-3c52-4fbe-a8f3-ae2c6b5e2976"
+	articleId="dbforpostgresql-mgnt-backuprestore-mooncake"
 />
 
 # Backups and restore options for Azure Database for PostgreSQL

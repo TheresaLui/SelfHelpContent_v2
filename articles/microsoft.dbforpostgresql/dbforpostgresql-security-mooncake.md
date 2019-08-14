@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="22"
 	selfHelpType="resource"
-	supportTopicIds="32639965, 32639967, 32639981, 32640029"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="d71ecddf-9ffc-4968-8e51-d214ed7d9569"
+	articleId="dbforpostgresql-security-mooncake"
 />
 
 # Security in Azure Database for PostgreSQL

@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="9"
 	selfHelpType="resource"
-	supportTopicIds="32640024"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="be9525a5-673c-4d87-a240-161b2b75cafe"
+	articleId="dbforpostgresql-mgnt-crud-mooncake"
 />
 
 # Creating, scaling, and deleting an Azure Database for PostgreSQL server

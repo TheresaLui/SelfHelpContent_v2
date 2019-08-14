@@ -7,11 +7,11 @@
     ms.author="raagyema"
 	displayOrder="18"
 	selfHelpType="resource"
-	supportTopicIds="32639973"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="postgrescreatereplica"
+	articleId="dbforpostgresql-replica-createdelete-mooncake"
 />
 
 # Create a replica

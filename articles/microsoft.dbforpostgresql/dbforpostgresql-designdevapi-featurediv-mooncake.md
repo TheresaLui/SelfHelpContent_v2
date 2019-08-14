@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32628437"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="dffab08d-2cb5-4b35-ac9f-961039041aaf"
+	articleId="dbforpostgresql-designdevapi-featurediv-mooncake"
 />
 
 # Feature differences between PostgreSQL PaaS and standalone PostgreSQL

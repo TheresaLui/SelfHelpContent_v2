@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="12"
 	selfHelpType="resource"
-	supportTopicIds="32639989"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="5059d4ef-9770-4f1a-8c26-7273ca5ec32c"
+	articleId="dbforpostgresql-mgnt-permissions-mooncake"
 />
 
 # Managing permissions on in Azure Database for PostgreSQL servers

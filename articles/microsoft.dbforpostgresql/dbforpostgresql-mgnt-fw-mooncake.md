@@ -7,11 +7,11 @@
     ms.author="janeng"
 	displayOrder="10"
 	selfHelpType="resource"
-	supportTopicIds="32639982, 32639980"
+	supportTopicIds=""
 	resourceTags="servers, databases"
-	productPesIds="16222"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="72908d27-63aa-4a0e-b445-a1033378f0bd"
+	articleId="dbforpostgresql-mgnt-fw-mooncake"
 />
 
 # Managing firewall rules for Azure Database for PostgreSQL
