@@ -7,7 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# Repair your log alert rule
+# Repair your log alert rule 
 ---
 {
   "recommendationOfferingId": "5818758e-7acd-4b29-834c-3af9950c477d",
