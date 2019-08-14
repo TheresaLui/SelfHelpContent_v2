@@ -6,11 +6,11 @@
 	authors="kennthhz"
 	ms.author="haozhag, padmaa"
 	selfHelpType="resource"
-	supportTopicIds="32636798"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15585"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="cosmosdb-throughput-longscaleoperation"
+	articleId="cosmosdb-throughput-longscaleoperation-mooncake"
 	displayOrder="62"
 	category="Throughput and Scaling"
 />
@@ -21,7 +21,7 @@
 
 Azure Cosmos DB currently only supports scale up operation. It is typically a long running operation. You can use below table to estimate how long it will take.
 
-*Scale factor = New throughput/ Mininum throughput
+* Scale factor = New throughput/ MininumMinimum throughput
 
 | Min throughput        | Scale factor            | Estimated Duration  |
 | --------------------- |:-----------------------:| -------------------:|
