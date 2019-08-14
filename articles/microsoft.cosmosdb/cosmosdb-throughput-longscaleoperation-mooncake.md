@@ -21,7 +21,7 @@
 
 Azure Cosmos DB currently only supports scale up operation. It is typically a long running operation. You can use below table to estimate how long it will take.
 
-* Scale factor = New throughput/ MininumMinimum throughput
+* Scale factor = New throughput/ Minimum throughput
 
 | Min throughput        | Scale factor            | Estimated Duration  |
 | --------------------- |:-----------------------:| -------------------:|
