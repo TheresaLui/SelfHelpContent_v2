@@ -22,6 +22,6 @@
 We have identified that your backup operation failed because the MARS agent cannot find the scratch location.
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Steps**
 
-To resolve this fix the scratch location path by referring this [article](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#manage-the-backup-cache-folder).
+* [Fix the scratch location path](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#manage-the-backup-cache-folder)
