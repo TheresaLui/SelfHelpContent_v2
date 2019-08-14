@@ -18,14 +18,14 @@ cloudEnvironments="public"
 
 ### Blob Container(s) recovered
 
-Microsoft Azure were able to successfully recover the following deleted blob container(s) in storage account _**{ResourceName}**_:<br>
+Microsoft Azure was able to successfully recover the following blob container(s) in storage account _**{ResourceName}**_ that were deleted:<br>
 
 _**[List recovered blob container(s)]**_
 
 
 ### Unable to recover blob container(s)
 
-We sincerely apologizes that we are unable to recover the following deleted blob container(s) in storage account _**{ResourceName}**_:<br>
+We sincerely apologize that we were unable to recover the following deleted blob container(s) in storage account _**{ResourceName}**_:<br>
 
 _**[List container(s) that are not recoverable]**_
 

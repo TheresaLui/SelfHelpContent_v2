@@ -19,14 +19,14 @@ cloudEnvironments="public"
 
 Microsoft Azure sincerely apologizes that we are unable to recover the following deleted blob container(s). 
 
-### Blob container(s) does not existed
-The following blob container(s) in storage account **{ResourceName}** are not recoverable because we cannot find deletion logs for them in the last 14 days. As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. These blob container(s) and all their contents were cleaned up after deletion and is no longer recoverable by Azure.
+### Blob container(s) does not exist
+The following blob container(s) in storage account **{ResourceName}** are not recoverable because we cannot find deletion logs for them in the last 14 days. This could indicate that the deletion happened earlier than that time. As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. These blob container(s) and all their contents were cleaned up after deletion and is no longer recoverable by Azure.
 
 _**[List containers that does not exist]**_
 
 
 ### Active blob container(s) exist
-The following blob container(s) already exists in storage account **{ResourceName}** which means that they were either not deleted or has been recreated with the same name. It is not possible for us to recover a container with the same name as another container in the same storage account.
+The following blob container(s) already exist in storage account **{ResourceName}** which means that they were either not deleted or has been recreated with the same name. It is not possible for us to recover a container with the same name as another container in the  storage account.
 
 _**[List active containers]**_
 
