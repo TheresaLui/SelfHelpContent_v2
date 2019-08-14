@@ -31,7 +31,7 @@
       "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "What is the query?",
-      "watermarkText": "SELECT * FROM devices WHERE properties.reported.telemetryConfig.sendFrequencyInSecs >= 60",
+      "watermarkText": "SELECT * FROM devices WHERE properties.reported.telemetryConfig.sendFrequencyInSecs = 60",
       "required": false
     },
     {

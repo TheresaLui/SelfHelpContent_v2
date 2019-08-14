@@ -64,7 +64,11 @@
         "valueProperty": "endpointNames",
         "valuePropertyRegex": "[^/]+$"
       },
-      "required": false
+      "dropdownOptions": [{
+        "value": "no_endpoint",
+        "text": "Could not find an endpoint associated to this route"
+      }],      
+      "required": true
     },
     {
       "id": "problem_description",
