@@ -39,7 +39,8 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": ""
         },
         {
             "id": "ran_through_prereq",
