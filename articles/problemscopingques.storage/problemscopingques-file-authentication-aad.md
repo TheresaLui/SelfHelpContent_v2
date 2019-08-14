@@ -27,7 +27,7 @@
             "id": "aad_ds_enabled",
             "order": 0,
             "controlType": "dropdown",
-            "displayLabel"Do you have AAD DS Authentication feature enabled on your storage account?",
+            "displayLabel": "Do you have AAD DS Authentication feature enabled on your storage account?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -37,7 +37,7 @@
                 {
                     "value": "no",
                     "text": "No"
-                }
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
@@ -61,7 +61,7 @@
                 {
                     "value": "no",
                     "text": "No"
-                }
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
@@ -85,7 +85,7 @@
                 {
                     "value": "no",
                     "text": "No"
-                }
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
@@ -109,7 +109,7 @@
                 {
                     "value": "no",
                     "text": "No"
-                }
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
@@ -133,7 +133,7 @@
                 {
                     "value": "no",
                     "text": "No"
-                }
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
