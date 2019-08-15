@@ -4,7 +4,7 @@
     service="microsoft.analysisservices"
     resource="servers"
     authors="binf"
-    ms.author=""
+    ms.author="binf"
     resourceTags=""
     selfHelpType="resource"
     supportTopicIds=""
