@@ -16,7 +16,7 @@
 
 # Problems with Run As accounts and authentication in runbooks
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot authentication errors](https://docs.azure.cn/automation/troubleshoot/runbooks#authentication-errors-when-working-with-azure-automation-runbooks)
 * [Set up Automation to authenticate to Azure with RunAs accounts](https://docs.azure.cn/automation/manage-runas-account)
