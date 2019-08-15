@@ -39,8 +39,7 @@ CSP customers can only purchase reservations through their partners. RI can be p
 * Click **Create a resource** or **More Services**
 * Search for Reservations or navigate to **Reserved VM Instances** under the **Compute** category. Click **Create**
 * Fill in the **Create reservation** template to reserve VMs.
-
-  * After all information has been entered, the cost will be automatically calculated. Cost summary will have pre-tax with comparison to original and discounted price.
+* After all information has been entered, the cost will be automatically calculated. Cost summary will have pre-tax with comparison to original and discounted price.
 * Click **Purchase** to complete the reservation
 
 ### **Fields needed to create a Reservation:**
