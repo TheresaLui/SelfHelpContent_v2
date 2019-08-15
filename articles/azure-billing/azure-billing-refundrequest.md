@@ -23,7 +23,7 @@ You can request a refund  by submitting a request to Azure support. Once your re
 **Customers with Azure EA agreement (indirect)**
 If you are an Indirect EA customer, please log your request for pricing, billing, and credit scenarios via [EA portal](https://ea.azure.com) only.
 
-### **Information needed to process the refund request quickly:**
+### **Information needed to process the refund request quickly**
 
 * Refund amount
 * Reason for the refund
@@ -38,16 +38,16 @@ To request refunds for your reserved instance, please select:
 * Problem subtype: **Cancel, exchange and refunds**
 * Additionally provide: Reservation ID, Reservation Order ID and reason for return/exchange
 
-### **Policy:**
+### **Policy**
 
-* Credits or refunds are always applied at the Subscription level as opposed to the Account level.
-* Microsoft can only credit or refund the charges we invoiced for, and only in the currency you were charged in.
-* Credit Cards: If we are providing a refund to a credit card, we can only refund the card you were initially charged.
-* If you incurred other charges by other institutions (such as your bank or due to currency conversion),Microsoft is unable to refund these charges.
-
+* Credits or refunds are always applied at the Subscription level as opposed to the Account level
+* Microsoft can only credit or refund the charges we invoiced for, and only in the currency you were charged in
+* Credit Cards: If we are providing a refund to a credit card, we can only refund the card you were initially charged
+* If you incurred other charges by other institutions (such as your bank or due to currency conversion), Microsoft is unable to refund these charges
 
 
 ## **Recommended Documents**
+
 * [Request/Download/View your Azure billing invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [Prevent unexpected charges with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)
 * [Understand your bill](https://docs.microsoft.com/azure/billing/billing-understand-your-bill#csv)
