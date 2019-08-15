@@ -17,46 +17,48 @@
 # reserved instance- unable to purchase
 
 ### **Purchase a Reserved Instance**
-Please access [Reservations](https://portal.azure.com/#create/Microsoft.Reservations) in order to purchase a Reservation. Purchases of RI are only supported under **Pay-As-You-Go** (3P) and **Enterprise Agreement** (17P) offer types.<br>
-**Note**: You must be in the role **Owner** on the subscription to buy a Reserved Instance. For purchasing reservations in an enterprise enrollment, the enterprise administrator must enable reservation purchases in the EA portal, by default the setting is enabled for all enrollments.<br>
-Before purchasing, please check if the RI is supported for the region you are purchasing since if capacity is unavailable for a region, you will not be able to purchase RI in that region.
-Reserved Instance for Pay-As-You-Go is **not** available in the following countries: Brazil, India, China, Taiwan, Russia, Korea, Argentina, Hong Kong, Indonesia,  Liechtenstein,  Malaysia, Mexico, Saudi Arabia, South Africa, Turkey.<br>
-Refer [Products available by region](https://azure.microsoft.com/global-infrastructure/services/) to learn more
 
-Additionally if you see a credit card failure, please verify if:
+* Please access [Reservations](https://portal.azure.com/#create/Microsoft.Reservations) in order to purchase a Reservation. Purchases of RI are only supported under **Pay-As-You-Go** (3P) and **Enterprise Agreement** (17P) offer types.<br>
+* **Note**: You must be in the role **Owner** on the subscription to buy a Reserved Instance. For purchasing reservations in an enterprise enrollment, the enterprise administrator must enable reservation purchases in the EA portal, by default the setting is enabled for all enrollments.<br>
+* Before purchasing, please check if the RI is supported for the region you are purchasing since if capacity is unavailable for a region, you will not be able to purchase RI in that region
+* Reserved Instance for Pay-As-You-Go is **not** available in the following countries: Brazil, India, China, Taiwan, Russia, Korea, Argentina, Hong Kong, Indonesia,  Liechtenstein,  Malaysia, Mexico, Saudi Arabia, South Africa, Turkey.
+* Refer to [Products available by region](https://azure.microsoft.com/global-infrastructure/services/) to learn more
+* If you see a credit card failure, please verify if:
 
-* You have sufficient funds
-* You are using a valid Payment instrument<br>
-* Virtual machines purchase experience available [here](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances).
-* Determine the VM size for a customer’s Azure reservation [here](https://docs.microsoft.com/partner-center/azure-usage).
-* SQL purchase experience available [here](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity).
+	* You have sufficient funds
+	* You are using a valid Payment instrument<br>
+	* Virtual machines purchase experience available [here](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)
+	* Determine the VM size for a customer’s Azure reservation [here](https://docs.microsoft.com/partner-center/azure-usage)
+	* SQL purchase experience available [here](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity)
 
 ### **CSP Purchase Experience**
+
 CSP customers can only purchase reservations through their partners. RI can be purchased by Partners from both the Partner Center Portal and Ibiza.
 
 ### **Create a Reservation**
 
 * Click **Create a resource** or **More Services**
-* Search for Reservations or navigate to **Reserved VM Instances** under the **Compute** category. Click **Create**
-* Fill in the **Create reservation** template to reserve VMs.
+* Search for Reservations or navigate to **Reserved VM Instances** under the **Compute** category. Click **Create**.
+* Fill in the **Create reservation** template to reserve VMs
 * After all information has been entered, the cost will be automatically calculated. Cost summary will have pre-tax with comparison to original and discounted price.
 * Click **Purchase** to complete the reservation
 
-### **Fields needed to create a Reservation:**
+### **Fields needed to create a Reservation**
 
-* Name - Friendly name for the Reservation Instance.
-* Subscription - This field is used to capture the subscription's PI to purchase Reservations.
-* Scope - The target where the VMs will get the benefit of RI.
-* Single - Only VMs running in the selected subscription will receive the RI benefit.
-* Shared - All the VMs (up to the purchased RI amount) will receive the benefit under the account.
-* Location/Region - Region where benefit VMs are deployed.
-* VM Size - Size of VMs to receive benefit.
-* VM Instance Flexibility - This will apply the Reservation discount to other VM sizes in the same VM group.
-* Capacity Priority - This reserves the data center capacity for your deployments.
-* Term - Reservation Duration (1 or 3 year).
-* Quantity - Number of VMs that will receive benefit.
+* Name - Friendly name for the Reservation Instance
+* Subscription - This field is used to capture the subscription's PI to purchase Reservations
+* Scope - The target where the VMs will get the benefit of RI
+* Single - Only VMs running in the selected subscription will receive the RI benefit
+* Shared - All the VMs (up to the purchased RI amount) will receive the benefit under the account
+* Location/Region - Region where benefit VMs are deployed
+* VM Size - Size of VMs to receive benefit
+* VM Instance Flexibility - This will apply the Reservation discount to other VM sizes in the same VM group
+* Capacity Priority - This reserves the data center capacity for your deployments
+* Term - Reservation Duration (1 or 3 year)
+* Quantity - Number of VMs that will receive benefit
 
 ### **Discounted subscription and offer types**
+
 Reservation discounts apply to the following eligible subscriptions and offer types. Resources that run in a subscription with other offer types don't receive the reservation discount.
 
 1. Enterprise agreement (offer numbers: MS-AZR-0017P or MS-AZR-0148P)
