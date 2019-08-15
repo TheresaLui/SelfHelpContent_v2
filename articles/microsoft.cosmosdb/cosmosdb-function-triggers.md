@@ -50,12 +50,13 @@ The rate at which the changes are delivered to your Function depends greatly on 
 
 1. Is your Azure Function deployed in the same region as your Azure Cosmos account? For optimal network latency, both the Azure Function and your Azure Cosmos account should be colocated in the same Azure region.
 2. Are the changes happening in your Azure Cosmos container continuous or sporadic? If it's the latter, there could be some delay between the changes being stored and the Azure Function picking them up. This is because internally, when the trigger checks for changes in your Azure Cosmos container and finds none pending to be read, it will sleep for a configurable amount of time (5 seconds, by default) before checking for new changes (to avoid high RU consumption). You can configure this sleep time through the `FeedPollDelay/feedPollDelay` setting in the [configuration](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2#trigger---configuration) of your trigger (the value is expected to be in milliseconds).
-3. Your Azure Cosmos container might be [rate-limited](https://docs.microsoft.com/azure/cosmos-db/request-units).
-4. You can use the `PreferredLocations` attribute in your trigger to specify a comma-separated list of Azure regions to define a custom preferred connection order.
-5. If working on App Service / Premium Plan, you can increase the number of instances or the size of the instances to accommodate your compute / processing needs.
-6. Try and optimize the Function to do as few things as possible to reduce execution time, you can always apply a Fan-Out pattern for any lengthy operation.
+3. Your Azure Cosmos container might be [rate-limited](https://docs.microsoft.com/azure/cosmos-db/request-units)
+4. You can use the `PreferredLocations` attribute in your trigger to specify a comma-separated list of Azure regions to define a custom preferred connection order
+5. If working on App Service/Premium Plan, you can increase the number of instances or the size of the instances to accommodate your compute/processing needs
+6. Try and optimize the Function to do as few things as possible to reduce execution time, you can always apply a Fan-Out pattern for any lengthy operation
 
 ## **Recommended Documents**
+
 * [Introduction](https://docs.microsoft.com/azure/cosmos-db/change-feed)
 * [How to configure and read the Azure Cosmos DB Trigger logs](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)
 * [Create multiple Azure Cosmos DB Triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-create-multiple-cosmos-db-triggers)
