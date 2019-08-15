@@ -7,7 +7,7 @@
 	ms.author="zacohen"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602250,32602251,32602260"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16264"
 	cloudEnvironments="public"
@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 
-*[For Microsoft Defender Advanced Threat Protection, please open support ticket here](https://support.Microsoft.com/en-us/supportforbusiness/productselection) <br>
+*[For Microsoft Defender Advanced Threat Protection, please open support ticket here](https://support.Microsoft.com/supportforbusiness/productselection) <br>
 *[For Office  Advanced Threat Protection, please open support ticket here](https://portal.office.com/adminportal#/homepage) <br>
 *For Azure Advanced Threat Protection, please continue here.
