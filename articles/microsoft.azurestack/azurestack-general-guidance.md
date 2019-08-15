@@ -45,7 +45,7 @@ Thank you for your interest in Azure Stack. As outlined in Microsoft Azure Stack
 
 ### Supported Operating System and VM Sizes
 
-* [Guess Operating System supported on Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-supported-os)
+* [Guest Operating System supported on Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-supported-os)
 * [VM Sizes supported in Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-vm-sizes)
 
 ### Azure Marketplace
@@ -58,7 +58,7 @@ Thank you for your interest in Azure Stack. As outlined in Microsoft Azure Stack
 
 To increase the total available memory capacity for Azure Stack, you can add additional memory. In Azure Stack, your physical server is also referred to as a scale unit node. All scale unit nodes that are members of a single scale unit must have [the same amount of memory](https://docs.microsoft.com/azure-stack/operator/azure-stack-manage-storage-physical-memory-capacity).
 
-#### Rentention Period
+#### Retention Period
 
 The retention period setting allows a cloud operator to specify a time period in days (between 0 and 9999 days) during which any deleted account can potentially be recovered. The default retention period is set to 0 days. Setting the value to "0" means that any deleted account is immediately out of retention and marked for periodic garbage collection.
 
@@ -74,12 +74,12 @@ A user in Azure Stack can be a reader, owner, or contributor for each instance o
 
 If the built-in roles for Azure resources don't meet the specific needs of your organization, you can create your own custom roles. For this tutorial, you create a custom role named Reader Support Tickets using Azure PowerShell.
 
-* [Tutorial: Create a custom role for Azure resources using Azure PoweShell](https://docs.microsoft.com/azure/role-based-access-control/tutorial-custom-role-powershell)<br>
+* [Tutorial: Create a custom role for Azure resources using Azure PowerShell](https://docs.microsoft.com/azure/role-based-access-control/tutorial-custom-role-powershell)<br>
 * [Manage usage and billing as a CSP](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-manage-billing-as-a-csp#create-a-csp-or-apss-subscription)
 
 ### Manage usage and billing as a CSP
 
-[Create a CSP or APSS Subscription](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-manage-billing-as-a-csp#create-a-csp-or-apss-subscription)
+* [Create a CSP or APSS Subscription](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-manage-billing-as-a-csp#create-a-csp-or-apss-subscription)
 
 Choose the type of shared services account that you use for Azure Stack. The types of subscriptions that can be used for registration of a multi-tenant Azure Stack are:
 
