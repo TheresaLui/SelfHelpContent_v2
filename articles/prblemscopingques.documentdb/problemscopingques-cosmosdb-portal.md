@@ -8,7 +8,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="2afe17a9-592e-4088-9842-ccef4f79151d"
+	articleId="fb4c4d58-1c15-4a7b-b670-49e958ea3675"
 />
 # CosmosDB Portal and Monitoring Issue
 ---
