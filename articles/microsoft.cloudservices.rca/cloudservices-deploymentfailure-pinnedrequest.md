@@ -20,9 +20,9 @@
 <!--issueDescription-->
 We have detected that the deployment for cloud service **<!--$csname-->cloud service<!--/$csname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to an allocation failure with error message: <br>
 
-* Allocation failed; unable to satisfy constraints in request. The requested new service deployment is bound to an Affinity Group, or it targets a Virtual Network, or there is an existing deployment under this hosted service. Any of these conditions constraints the new deployment to specific Azure resources. Please retry later or try reducing the VM size or number of role instances. Alternatively, if possible, remove the aforementioned constraints or try deploying to a different region.
+* Allocation failed; unable to satisfy constraints in request. The requested new service deployment is bound to an Affinity Group, or it targets a Virtual Network, or there is an existing deployment under this hosted service. 
 
-The servers in Azure datacenters are partitioned into clusters. The Cloud Services when deployed for the first time gets [pinned](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#background--how-allocation-works) to a single cluster, and don’t currently span across multiple clusters. This will also cause all further deployment operations (like deploying to a different slot, scale up etc) to bound to the same cluster. In some cases, as capacity fluctuates, the constraints to find the required hardware may not be met on that cluster and we return back the request as a service allocation failure.
+The servers in Azure datacenters are partitioned into clusters. The Cloud Services when deployed for the first time gets pinned to a single cluster, and don’t currently span across multiple clusters. This will also cause all further deployment operations (like deploying to a different slot, scale up etc) to bound to the same cluster. In some cases, as capacity fluctuates, the constraints to find the required hardware may not be met on that cluster and we return back the request as a service allocation failure.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
