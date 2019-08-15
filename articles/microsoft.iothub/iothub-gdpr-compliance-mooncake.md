@@ -5,13 +5,13 @@
 	resource="iothubs"
 	authors="jlian,meetshamir,jtanner-msft"
 	 ms.author="jlian,saziz,jtanner"
-	displayOrder="75"
+	displayOrder="11"
 	selfHelpType="resource"
-	supportTopicIds="32630552"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	articleId="117fd7e5-da5f-4c40-809d-4a8c0435e455"
+	productPesIds=""
+	cloudEnvironments="MoonCake"
+	articleId="iothub-gdpr-compliance-mooncake"
 />
 
 # IoT Hub GDPR and Compliance
@@ -27,7 +27,7 @@
 
 * Microsoft is committed to GDPR, privacy, and putting customers in control of their own data. To learn more, see [the GDPR blog](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data).
 * Azure helps enable data privacy for GDPR compliance. To learn more, visit the [Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Azure/GDPR).
-* To understand IoT Hub customer data handling requests, refer to [link](https://docs.microsoft.com/azure/iot-hub/iot-hub-customer-data-requests).
+* To understand IoT Hub customer data handling requests, refer to [link](https://docs.azure.cn/iot-hub/iot-hub-customer-data-requests).
 * To raise a data handling request through the Azure Portal, refer to [link](https://azure.microsoft.com/blog/streamlining-gdpr-requests-with-the-azure-portal).
 * [FAQs on GDPR](https://azure.microsoft.com/blog/in-case-you-missed-it-10-of-your-questions-from-our-gdpr-webinars)
 
