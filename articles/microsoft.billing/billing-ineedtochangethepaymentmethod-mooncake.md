@@ -16,7 +16,7 @@
 
 # I need to change the payment method
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. [Find your Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
 2. Sign in to the [Account Center](https://account.windowsazure.cn/Subscriptions) as the Account Admin
