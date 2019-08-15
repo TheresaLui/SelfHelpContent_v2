@@ -16,9 +16,7 @@
 
 # Will my API keys be changed after switching pricing tiers?
 
-## **Recommended steps**
+## **Recommended Steps**
 
-Please read the following answer.
-
-1. API Keys will remain the same after you switch to a different pricing tier within Pricing tier blade. You do not need to make any code changes and you will see the updated charge in your next month's invoice after switching pricing tiers.
+* API Keys will remain the same after you switch to a different pricing tier within Pricing tier blade. You do not need to make any code changes and you will see the updated charge in your next month's invoice after switching pricing tiers.
 
