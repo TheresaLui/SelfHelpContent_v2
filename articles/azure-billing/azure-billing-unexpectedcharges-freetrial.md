@@ -58,10 +58,10 @@
   * You will be directed to a page displaying the following information:Start Date, End Date, Sponsorship Amount, Used, Remaining Balance<br>
   
 * **How can I verify free services are active or when they will expire?**<br>
-
- * In the Ibiza Portal> Subscription > Overview page > scroll down to Free services for 12 months and click the Information icon. This will display the date when Free services expire<br>
- * **Note**: No V1 services are part of Azure Free Included Services. For the most up-to-date list of Free Services, see [Which products are free for 12 months](http://www.microsoftazuresponsorships.com/)<br>
-* Additional FAQ: [Free account FAQ](https://azure.microsoft.com/free/free-account-faq/)
+	
+	* In the Ibiza Portal> Subscription > Overview page > scroll down to Free services for 12 months and click the Information icon. This will display the date when Free services expire<br>
+ 	* **Note**: No V1 services are part of Azure Free Included Services. For the most up-to-date list of Free Services, see [Which products are free for 12 months](http://www.microsoftazuresponsorships.com/)<br>
+	* Additional FAQ: [Free account FAQ](https://azure.microsoft.com/free/free-account-faq/)
 
 ## **Recommended Documents**
 
