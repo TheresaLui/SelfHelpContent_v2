@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="5"
 	selfHelpType="resource"
-	supportTopicIds="32375290"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="ce318719-e09d-43ee-8c21-089d47909c17"
+	articleId="keyvault-createmanagekey-mooncake"
 />
 
 # How to Create and Manage Keys

@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="9"
 	selfHelpType="resource"
-	supportTopicIds="32375293"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="917e26d0-971a-44b3-9c12-da53dacc5c4c"
+	articleId="keyvault-importexistkey-mooncake"
 />
 
 # How to Import Existing Keys into a Key Vault

@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="14"
 	selfHelpType="resource"
-	supportTopicIds="32375281"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="43b249d6-fd36-400c-a8b5-f8193345bc47"
+	articleId="keyvault-manageuserandkeys-mooncake"
 />
 
 # Managing Users and Keys in Key Vault

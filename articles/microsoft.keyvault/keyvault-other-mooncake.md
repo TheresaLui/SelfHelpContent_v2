@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="19"
 	selfHelpType="resource"
-	supportTopicIds="32382911"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="97314451-830a-4c21-887e-beabaf1b2877"
+	articleId="keyvault-other-mooncake"
 />
 
 # Other Scenarios for Key Vault related tasks

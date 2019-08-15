@@ -4,13 +4,14 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author=""
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds="32452742"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="ee2740e9-e40c-4c32-ab2c-0ec8414b28c3"
+	articleId="keyvault-advisory-mooncake"
 />
 
 # Advisory for Key Vault related tasks

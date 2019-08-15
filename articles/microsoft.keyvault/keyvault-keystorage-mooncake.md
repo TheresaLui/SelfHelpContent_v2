@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="11"
 	selfHelpType="resource"
-	supportTopicIds="32375280"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="921a9821-fa93-4e7f-9e05-98f4d99fc3cc"
+	articleId="keyvault-keystorage-mooncake"
 />
 
 # 4 Ways to Store Keys with Key Vault

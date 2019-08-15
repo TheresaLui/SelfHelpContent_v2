@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="12"
 	selfHelpType="resource"
-	supportTopicIds="32375294"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="2b6c0e36-2f01-4a72-832a-5a50ab1aa7fe"
+	articleId="keyvault-keyvaultlogaudit-mooncake"
 />
 
 # How to Logging and Auditing with Key Vault

@@ -10,7 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="MoonCake"
-	articleId="a6ae6509-9a17-4c40-94d7-7c7d580ed8db"
+	articleId="keyvault-deauthappkey-mooncake"
 />
 
 # Authorizing and Deauthorizing Applications to Use Keys

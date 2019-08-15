@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="6"
 	selfHelpType="resource"
-	supportTopicIds="32375279"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="644b6154-35ce-432c-836f-61e736f63cec"
+	articleId="keyvault-createmanagevault-mooncake"
 />
 
 # How to Create and Manage a Key Vault

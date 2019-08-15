@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="17"
 	selfHelpType="resource"
-	supportTopicIds="32375287"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="cb727e8d-89ea-4d5e-ba1f-d1679f0ecb35"
+	articleId="keyvault-multiregionop-mooncake"
 />
 
 # How to configure an application for multi-region reduntant operation

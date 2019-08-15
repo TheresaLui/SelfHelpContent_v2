@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="21"
 	selfHelpType="resource"
-	supportTopicIds="32375282"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="5a2d8c00-0edd-43cb-85a0-ea1947020704"
+	articleId="keyvault-usekeyvaultwithapp-mooncake"
 />
 
 # How to Use Key Vault with an Application

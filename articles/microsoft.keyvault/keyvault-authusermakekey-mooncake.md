@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32375285"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="a0b57fdd-c29c-4a60-8b54-7a78da171846"
+	articleId="keyvault-authusermakekey-mooncake"
 />
 
 # How to Authorizing Users to Create Keys

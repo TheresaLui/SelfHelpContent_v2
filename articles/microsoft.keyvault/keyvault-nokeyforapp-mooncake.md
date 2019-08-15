@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="18"
 	selfHelpType="resource"
-	supportTopicIds="32375283"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="c91b46a1-97cf-4619-9767-45d0c3e0fdd8"
+	articleId="keyvault-nokeyforapp-mooncake"
 />
 
 # Application Cannot Obtain or Use a Key

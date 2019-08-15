@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="8"
 	selfHelpType="resource"
-	supportTopicIds="32375291"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="a3f8dd78-7c00-441f-93af-e85d80937976"
+	articleId="keyvault-developapptousekv-mooncake"
 />
 
 # Develop an Application to Use Key Vault

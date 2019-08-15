@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="15"
 	selfHelpType="resource"
-	supportTopicIds="32375296"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="ef2146e8-0e56-4e59-b7fa-629446d88d7f"
+	articleId="keyvault-managevaultexists-mooncake"
 />
 
 # Managing an Existing Key Vault

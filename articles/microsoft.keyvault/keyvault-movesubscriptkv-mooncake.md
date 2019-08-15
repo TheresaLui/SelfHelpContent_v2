@@ -6,11 +6,11 @@
 	authors="fhokholdMSFT"
 	displayOrder="16"
 	selfHelpType="resource"
-	supportTopicIds="32375297"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="15657"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="6c2979b7-4bb2-4c90-a61c-0c81d6a7a117"
+	articleId="keyvault-movesubscriptkv-mooncake"
 />
 
 # How to Change Key Vault Type for Azure Key Vault
