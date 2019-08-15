@@ -27,8 +27,6 @@ Additionally if you see a credit card failure, please verify if:
 
 * You have sufficient funds
 * You are using a valid Payment instrument<br>
-
-
 * Virtual machines purchase experience available [here](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances).
 * Determine the VM size for a customer’s Azure reservation [here](https://docs.microsoft.com/partner-center/azure-usage).
 * SQL purchase experience available [here](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity).
@@ -41,6 +39,7 @@ CSP customers can only purchase reservations through their partners. RI can be p
 * Click **Create a resource** or **More Services**
 * Search for Reservations or navigate to **Reserved VM Instances** under the **Compute** category. Click **Create**
 * Fill in the **Create reservation** template to reserve VMs.
+
   * After all information has been entered, the cost will be automatically calculated. Cost summary will have pre-tax with comparison to original and discounted price.
 * Click **Purchase** to complete the reservation
 
