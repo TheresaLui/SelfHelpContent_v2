@@ -17,6 +17,6 @@
 
 ## **Recommended Documents**
 
-* [For Microsoft Defender Advanced Threat Protection, please open support ticket here](https://support.Microsoft.com/supportforbusiness/productselection) <br>
-* [For Office  Advanced Threat Protection, please open support ticket here](https://portal.office.com/adminportal#/homepage) <br>
+* [For Microsoft Defender Advanced Threat Protection, please open a support ticket here](https://support.Microsoft.com/supportforbusiness/productselection) <br>
+* [For Office Advanced Threat Protection, please open a support ticket here](https://portal.office.com/adminportal#/homepage) <br>
 * For Azure Advanced Threat Protection, please continue
