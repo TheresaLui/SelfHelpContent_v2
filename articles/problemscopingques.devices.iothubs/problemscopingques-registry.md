@@ -31,7 +31,7 @@
       "order": 2,
       "controlType": "textbox",
       "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 429001 ThrottlingException, 403002 IotHubQuotaExceeded",
+      "watermarkText": "Example: 429001 ThrottlingException",
       "required": false
     },
     {

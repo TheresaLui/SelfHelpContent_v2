@@ -47,12 +47,12 @@
         "value": "no_route",
         "text": "Could not find any routes in this hub"
       }],
-      "required": false
+      "required": true
     },
     {
       "id": "endpoint",
       "order": 3,
-      "controlType": "dropdown",
+      "controlType": "multiselectdropdown",
       "displayLabel": "What type of endpoint?",
       "watermarkText": "Choose one or more endpoint types",
       "dropdownOptions": [
