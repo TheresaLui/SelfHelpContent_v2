@@ -7,9 +7,9 @@
 	authors="vinynigam"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32606425"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="16160"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="npm-setupandconfiguration-troubleshoot-and-case-submission"
 />

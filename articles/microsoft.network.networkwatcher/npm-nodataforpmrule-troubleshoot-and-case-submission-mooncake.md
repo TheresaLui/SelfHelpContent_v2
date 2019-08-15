@@ -7,11 +7,11 @@
 	authors="vinynigam"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32606442"
+	supportTopicIds=""
 	resourceTags="optional"
-	productPesIds="16160"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="npm-nodataforpmrule-troubleshoot-and-case-submission"
+	articleId="npm-nodataforpmrule-troubleshoot-and-case-submission-mooncake"
 />
 
 # NPM for Performance Monitor
