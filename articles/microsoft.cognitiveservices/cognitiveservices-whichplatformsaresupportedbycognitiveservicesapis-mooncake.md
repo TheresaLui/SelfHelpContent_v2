@@ -16,6 +16,6 @@
 
 # Which platforms are supported by Cognitive Services APIs?
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Supported platforms for Cognitive Services APIs.](https://github.com/Microsoft/ProjectOxford-ClientSDK)
