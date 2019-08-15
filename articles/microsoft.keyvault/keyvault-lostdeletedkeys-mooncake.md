@@ -20,7 +20,7 @@
 
     [Using Soft-Delete and Backup and Restore Behavior with Key Vault](https://docs.azure.cn/key-vault/key-vault-ovw-soft-delete)
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?
 

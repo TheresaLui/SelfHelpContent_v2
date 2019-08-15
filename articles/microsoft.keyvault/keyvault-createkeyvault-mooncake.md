@@ -23,9 +23,9 @@
 
 * You can also create a key vault using the Azure Portal.
 
-    [Create a Key Vault with Azure Portal](https://ms.portal.azure.cn/#create/Microsoft.KeyVault)
+    [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?
 

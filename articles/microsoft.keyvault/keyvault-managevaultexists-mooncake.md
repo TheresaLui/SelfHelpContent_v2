@@ -18,7 +18,7 @@
 
 * Authorize an application to use a key or secret with these steps for [creating and managing a key vault with PowerShell](https://docs.azure.cn/key-vault/key-vault-get-started)
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?
 

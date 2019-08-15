@@ -17,16 +17,18 @@
 ## **Recommended steps**
 
 * Authorizing Applications to Use Keys
+
 * Authorize an application to use a key or secret. Assume for this example that the service principal name (spn) is "yourSPN" and that the user principal name is "yourUPN".
     ```
         az keyvault set-policy --name 'ContosoKeyVault' --spn yourSPN --key-permissions decrypt sign
         az keyvault set-policy --name 'ContosoKeyVault' --upn yourUPN --secret-permissions get
-    ```
+     ```
+
 * Deauthorizing application to use keys.
     ``` 
         az keyvault delete-policy --name 'ContosoKeyVault' --upn yourUPN
     ```
-**Troublshooting**
+**Troubleshooting**
 
 * I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?
 

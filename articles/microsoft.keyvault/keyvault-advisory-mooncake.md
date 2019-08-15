@@ -26,7 +26,7 @@
 
     Then, authorize the Application to use secrets and keys.
 
-**Troublshooting**
+**Troubleshooting**
 
 * To see how to associate a certificate with an Azure AD application look at [Getting Started with Key Vault for Certificates](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/)
 

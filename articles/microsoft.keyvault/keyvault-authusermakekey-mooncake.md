@@ -20,7 +20,7 @@
 * You need to [Register the application in Azure Active Directory](https://docs.azure.cn/key-vault/key-vault-manage-with-cli2)
 * Then, authorize the Application to use secrets and keys.
 
-**Troublshooting**
+**Troubleshooting**
 
 * Are you not sure how to create a key vault? 
 [Creating and Managing Key Vault with PowerShell](https://docs.azure.cn/key-vault/key-vault-overview)
