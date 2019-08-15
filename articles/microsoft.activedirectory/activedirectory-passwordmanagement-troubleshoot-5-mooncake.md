@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
+    ms.author="gahug"
     displayOrder="19"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
- 	articleId="activedirectory-passwordmanagement-troubleshoot-5-mooncake"
+    articleId="activedirectory-passwordmanagement-troubleshoot-5-mooncake"
 />
 # I don't think I have the correct permissions, firewall rules, or connection settings for password writeback
 

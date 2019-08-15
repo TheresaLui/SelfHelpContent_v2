@@ -4,6 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
+    ms.author="gahug"
     displayOrder="17"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"

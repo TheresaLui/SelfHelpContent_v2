@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
+    ms.author="gahug"
     displayOrder="24"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
-	articleId="activedirectory-passwordmanagement-troubleshoot-0-mooncake"
+    articleId="activedirectory-passwordmanagement-troubleshoot-0-mooncake"
 />
 
 # Problems with licensing
@@ -25,8 +26,7 @@
   * Azure AD Basic or any Paid O365 Subscription - cloud users and cloud administrators can reset their own passwords
   * Azure AD Premium - any user or administrator (cloud, federated, password hash synced users) can reset passwords. Password writeback must be enabled to support some scenarios.
 
-
-*  Premium features are also included in:
+* Premium features are also included in:
 
     * Enterprise Mobility + Security E3
     * Enterprise Mobility + Security E5

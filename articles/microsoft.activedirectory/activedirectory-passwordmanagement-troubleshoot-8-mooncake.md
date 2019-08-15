@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
+    ms.author="gahug"
     displayOrder="18"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
- 	articleId="activedirectory-passwordmanagement-troubleshoot-8-mooncake"
+    articleId="activedirectory-passwordmanagement-troubleshoot-8-mooncake"
 />
 # Gather the right information for communicating my problem to Microsoft
 
