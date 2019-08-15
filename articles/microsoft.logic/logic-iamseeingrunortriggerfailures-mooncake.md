@@ -4,13 +4,14 @@
 	service="microsoft.logic"
 	resource="workflows"
 	authors="jeffhollan"
+	ms.author="jehollan"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="8c9deb0c-7785-4555-9e7d-54e712df444b"
+	articleId="logic-iamseeingrunortriggerfailures-mooncake"
 />
 
 # I am seeing run or trigger failures

@@ -4,13 +4,14 @@
 	service="microsoft.logic"
 	resource="workflows"
 	authors="jeffhollan"
+	ms.author="jehollan"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="c347650e-cde5-482e-8a16-f0ea4cafb3c9"
+	articleId="logic-mylogicappisnotrunning-mooncake"
 />
 
 # My Logic App is not running
