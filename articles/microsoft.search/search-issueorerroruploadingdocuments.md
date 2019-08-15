@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Using Search Index/Issue or error uploading documents"
-	description="Using Search Index/Issue or error uploading documents"
+	pageTitle="Search Index/Issue indexing documents using the REST API"
+	description="Search Index/Issue indexing documents using the REST API"
 	service="microsoft.search"
 	resource="searchservices"
-	authors="bernitorres"
-	selfHelpType="generic"
-	supportTopicIds="32335648"
+	authors="bernitorres, mrcarter8"
+	selfHelpType="resource"
+	supportTopicIds="32681367"
 	resourceTags=""
 	productPesIds="15568"
 	cloudEnvironments="public"
 	articleId="07fdc3ea-3445-495a-8ae6-f33ff93a3f37"
 />
 
-# Using Search Index/Issue or error uploading documents
+# Issue indexing documents using the REST API
  
 ## **Recommended documents**
 [How to import data into Azure Search - push and pull methods](https://azure.microsoft.com/documentation/articles/search-what-is-data-import/) <br>
