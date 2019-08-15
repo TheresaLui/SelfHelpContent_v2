@@ -7,11 +7,11 @@
   ms.author="pfreitas"
   displayOrder="27"
   selfHelpType="resource"
-  supportTopicIds="32629163"
+  supportTopicIds=""
   resourceTags=""
-  productPesIds="15078"
+  productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="a985627a-f1b7-4c99-87e9-a285d6f3bf1b"/>
+  ArticleId="hdinsight-hive-webhcat-mooncake"/>
 
 # WebHCat 
 

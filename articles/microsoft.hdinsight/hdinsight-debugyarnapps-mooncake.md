@@ -4,13 +4,14 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="bharathsreenivas"
+    ms.author="bharathb"
     displayOrder="9"
     selfHelpType="resource"
-    supportTopicIds="32511173"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="15078"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="0b0579e2-2fdc-4472-818a-999cbd44f0ea"
+	articleId="hdinsight-debugyarnapps-mooncake"
 />
 
 # I'm having an issues with my YARN application

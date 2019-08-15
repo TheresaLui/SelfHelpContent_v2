@@ -7,11 +7,11 @@
   ms.author="pfreitas"
   displayOrder="15"
   selfHelpType="resource"
-  supportTopicIds="32629057"
+  supportTopicIds=""
   resourceTags=""
-  productPesIds="15078"
+  productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="ea0675ba-1aee-49fa-9321-53eb2d708cd5"
+  ArticleId="hdinsight-hive-hiveacid-mooncake"
 />
 
 # Hive ACID 

@@ -7,11 +7,11 @@
   ms.author="pfreitas"
   displayOrder="19"
   selfHelpType="resource"
-  supportTopicIds="32629069"
+  supportTopicIds=""
   resourceTags=""
-  productPesIds="15078"
+  productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="b47d28df-b6a9-4eb6-b5c7-a6f595e49636"
+  ArticleId="hdinsight-hive-hiveserver2-mooncake"
 />
 
 # Hiveserver2 

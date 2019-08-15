@@ -7,11 +7,11 @@
   ms.author="pfreitas"
   displayOrder="14"
   selfHelpType="resource"
-  supportTopicIds="32629033"
+  supportTopicIds=""
   resourceTags=""
-  productPesIds="15078"
+  productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="7e4169d8-70cf-40f7-8bf2-a7dd65e2b13a"
+  ArticleId="hdinsight-hive-crudoperations-mooncake"
 />
 
 # CRUD Operations

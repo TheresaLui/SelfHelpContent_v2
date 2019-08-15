@@ -4,13 +4,14 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="ansi12"
+    ms.author="ansiva"
     displayOrder="37"
     selfHelpType="resource"
-    supportTopicIds="32588507"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="15078"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="7928890f-4e51-4f46-ba2c-e2bcbfcea648"
+	articleId="hdinsight-udrissue-mooncake"
 />
 
 # Cluster Creation Fails Due To an Issue With User-Defined Rules

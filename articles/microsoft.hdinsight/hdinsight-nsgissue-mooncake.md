@@ -4,13 +4,14 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="ansi12"
+    ms.author="ansiva"
     displayOrder="28"
     selfHelpType="resource"
-    supportTopicIds="32588506"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="15078"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="bcafe3cc-2e04-4fc5-a352-e62dd714a044"
+	articleId="hdinsight-nsgissue-mooncake"
 />
 
 # Cluster Creation Fails With InvalidNetworkSecurityGroupSecurityRules or InvalidNetworkConfigurationErrorCode

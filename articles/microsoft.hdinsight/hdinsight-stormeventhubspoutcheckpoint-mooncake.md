@@ -4,18 +4,19 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="bharathsreenivas"
+    ms.author="bharathb"
     displayOrder="36"
     selfHelpType="resource"
-    supportTopicIds="32511223"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="15078"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="5df0937d-cc30-41f5-8354-bea63dde782e"
+	articleId="hdinsight-stormeventhubspoutcheckpoint-mooncake"
 />
 
 # Transfer Storm eventhub spout checkpoint information from one topology to another
 
-When developing topologies that read from eventhubs using HDInsight’s Storm eventhub spout jar, one can deploy a topology with the same name on a new cluster, but retain the checkpoint data committed to zookeeeper in the old cluster. 
+When developing topologies that read from eventhubs using HDInsight’s Storm eventhub spout jar, one can deploy a topology with the same name on a new cluster, but retain the checkpoint data committed to zookeeper in the old cluster. 
 
 ## **Recommended documents**
 

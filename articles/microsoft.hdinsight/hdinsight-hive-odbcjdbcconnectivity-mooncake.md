@@ -7,11 +7,11 @@
   ms.author="pfreitas"
   displayOrder="21"
   selfHelpType="resource"
-  supportTopicIds="32629094"
+  supportTopicIds=""
   resourceTags=""
-  productPesIds="15078"
+  productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="275b8af5-6ecd-48c5-abdc-01f38b10e279"
+  ArticleId="hdinsight-hive-odbcjdbcconnectivity-mooncake"
 />
 
 # ODBC-JDBC connectivity 

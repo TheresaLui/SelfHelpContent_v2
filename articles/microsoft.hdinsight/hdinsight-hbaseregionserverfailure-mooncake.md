@@ -4,13 +4,14 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="bharathsreenivas"
+    ms.author="bharathb"
     displayOrder="12"
     selfHelpType="resource"
-    supportTopicIds="32511184"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="15078"
+    productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="5815b294-cb5e-4d93-9733-d839e1fc04f0"
+	articleId="hdinsight-hbaseregionserverfailure-mooncake"
 />
 
 # Restart operation on HBase Region Server fails to complete

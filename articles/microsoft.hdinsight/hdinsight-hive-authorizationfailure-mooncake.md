@@ -7,11 +7,11 @@
   ms.author="pfreitas"
   displayOrder="13"
   selfHelpType="resource"
-  supportTopicIds="32629015"
+  supportTopicIds=""
   resourceTags=""
-  productPesIds="15078"
+  productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="716bf3f6-35f6-4380-a7a8-52daf77df289"
+  ArticleId="hdinsight-hive-authorizationfailure-mooncake"
 />
 
 # Authorization failure 

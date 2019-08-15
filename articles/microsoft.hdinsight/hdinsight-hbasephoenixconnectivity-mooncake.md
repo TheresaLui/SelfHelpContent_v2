@@ -4,13 +4,14 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="bharathsreenivas"
+    ms.author="bharathb"
     displayOrder="11"
     selfHelpType="resource"
-    supportTopicIds="32511183"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="15078"
+    productPesIds=""
     cloudEnvironments="public, MoonCake"
-	articleId="1d5b3e23-d2d7-4fea-bdad-d3b8bc0faed6"
+	articleId="hdinsight-hbasephoenixconnectivity-mooncake"
 />
 
 # Unable to connect to Apache Phoenix
