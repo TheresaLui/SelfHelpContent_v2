@@ -60,6 +60,7 @@
       "watermarkText": "Paste here",
       "required": false
     },
+    {
       "id": "where",
       "order": 4,
       "controlType": "dropdown",
