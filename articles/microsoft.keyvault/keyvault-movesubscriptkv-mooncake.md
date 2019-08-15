@@ -32,5 +32,4 @@
 ## **Recommended Documents**
 
 * [Creating and Managing Key Vault with PowerShell](https://docs.azure.cn/key-vault/key-vault-get-started)
-* [How to Generate and Transfer HSM-protected Keys for Azure Key Vault](https://docs.azure.cn/key-vault/key-vault-hsm-protected-keys)
 * [Create and Manage using CLI 2.0](https://docs.azure.cn/key-vault/key-vault-manage-with-cli2)
