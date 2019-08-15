@@ -16,11 +16,7 @@
 
 # How can I change to a different pricing tier?
 
-## **Recommended steps**
+## **Recommended Steps**
 
-Follow the steps below to resolve the issue.
-
-1. Change to a different pricing tier in the Pricing tier blade.
-
-   From within Settings blade, click on Pricing tier link to enter pricing tier blade and then select the pricing tier desired.
+* Change to a different pricing tier in the Pricing tier blade. From within Settings blade, click on Pricing tier link to enter pricing tier blade and then select the pricing tier desired.
 
