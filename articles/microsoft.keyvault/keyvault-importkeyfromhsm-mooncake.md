@@ -18,7 +18,7 @@
 ## **Recommended Steps**
 
 * Before importing a HSM-protected key to key vault you will need to download the BYOK toolset. Please note that is feature is available on Windows only
-* The link aobve shows you how to generate a key using Thales generatekey program and transfer your key to your key vault.
+* The link above shows you how to generate a key using Thales generatekey program and transfer your key to your key vault.
 
 **Troubleshooting**
 
