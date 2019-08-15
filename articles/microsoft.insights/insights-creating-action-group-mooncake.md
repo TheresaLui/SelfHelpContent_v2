@@ -7,10 +7,10 @@
 	authors="dkamstra, snehithm"
 	ms.author="dukek, snmuvva"
 	displayOrder="5"
-	articleId="insights-creating-action-group"
+	articleId="insights-creating-action-group-mooncake"
 	selfHelpType="MoonCake"
-	supportTopicIds="32629621"
-	productPesIds="15454"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake"
 />
 

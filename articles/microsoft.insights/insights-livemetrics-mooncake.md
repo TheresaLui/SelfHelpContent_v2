@@ -5,12 +5,12 @@
     resource="components"
     authors="debugthings"
     ms.author="jamdavi"
-    articleId="insights_livemetrics"
+    articleId="insights-livemetrics-mooncake"
     displayOrder="9"
     selfHelpType="resource"
     cloudEnvironments="MoonCake"
-    productPesIds="15693" 
-    supportTopicIds="32602207"
+    productPesIds="" 
+    supportTopicIds=""
  />
  
 # Why can I not see Live Metrics?

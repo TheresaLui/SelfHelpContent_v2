@@ -5,12 +5,12 @@
     resource="components"
     authors="debugthings"
     ms.author="jamdavi"
-    articleId="insights_commuinitysdk"
+    articleId="insights-communitysdk-mooncake"
     displayOrder="4"
     selfHelpType="resource"
     cloudEnvironments="MoonCake"
-    productPesIds="15693" 
-    supportTopicIds="32402637"
+    productPesIds="" 
+    supportTopicIds=""
  />
  
 # Community-Supported SDKs

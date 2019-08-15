@@ -7,10 +7,10 @@
     ms.author="mcosner"
     displayOrder="15"
     selfHelpType="resource"
-    productPesIds="15693"
-    supportTopicIds="32402629,32402626,32602225,32632988,32632990"
+    productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
- 	articleId="ca41db6f-2d4b-455e-8cbe-8152fc10fb1a"
+ 	articleId="insights-wheresmydata-mooncake"
 />
  
 # Where's my data?

@@ -4,12 +4,13 @@
     service="microsoft.insights"
     resource="components"
     authors="mcosner"
+    ms.author="mcosner"
     displayOrder="12"
     selfHelpType="resource"
     supportTopicIds=""
-    productPesIds="15693"
+    productPesIds=""
     cloudEnvironments="MoonCake"
- 	articleId="62453b8f-3e8c-4ecb-baeb-6ed9489a48cf"
+ 	articleId="insights-pingtestfailures-mooncake"
 />
 # My web test is intermittently failing with a protocol violation error
 

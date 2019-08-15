@@ -3,13 +3,13 @@
     description="Where's my data (Latency)?"
     service="microsoft.insights"
     resource="components"
-    articleId="insights_datalatency"
+    articleId="insights-datalatency-mooncake"
     authors="debugthings"
     ms.author="jamdavi"
     displayOrder="6"
     selfHelpType="resource"
-    productPesIds="15693"
-    supportTopicIds="32546624"
+    productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
 />
  

@@ -5,12 +5,12 @@
     resource="components"
     authors="debugthings"
     ms.author="jamdavi"
-    articleId="insights_appmap"
+    articleId="insights-appmap-mooncake"
     displayOrder="3"
     selfHelpType="resource"
     cloudEnvironments="MoonCake"
-    productPesIds="15693" 
-    supportTopicIds="32602206"
+    productPesIds="" 
+    supportTopicIds=""
  />
  
 # How do I troubleshoot the Application Map?

@@ -5,12 +5,12 @@
     resource="components"
     authors="debugthings"
     ms.author="jamdavi"
-    articleId="5bcae984-826e-4880-b0eb-7498f98d76be"
+    articleId="insights-apiaccess-mooncake"
     displayOrder="2"
     selfHelpType="resource"
     cloudEnvironments="MoonCake"
-    productPesIds="15693" 
-    supportTopicIds="32602213"
+    productPesIds="" 
+    supportTopicIds=""
  />
  
 # How do I setup the Application Insights API?

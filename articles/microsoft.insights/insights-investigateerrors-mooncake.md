@@ -3,13 +3,13 @@
     description="How do I investigate errors with my application?"
     service="microsoft.insights"
     resource="components"
-    articleId="insights-investigateerrors"
+    articleId="insights-investigateerrors-mooncake"
     authors="debugthings"
     ms.author="jamdavi"
     displayOrder="8"
     selfHelpType="resource"
-    productPesIds="15693"
-    supportTopicIds="32632991"
+    productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
 />
  

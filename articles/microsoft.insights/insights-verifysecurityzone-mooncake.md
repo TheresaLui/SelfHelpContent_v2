@@ -4,11 +4,12 @@
 	service="microsoft.insights"
 	resource="components"
 	authors="chlon"
+	ms.author="chlon"
 	displayOrder="14"
 	selfHelpType="resource"
-	productPesIds="15693"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="8d518f7c-fbc9-48c9-81c4-6288c85fd089"
+	articleId="insights-verifysecurityzone-mooncake"
 />
 
 # I need to verify my security zone

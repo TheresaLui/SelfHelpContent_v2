@@ -5,12 +5,12 @@
     resource="components"
     authors="debugthings"
     ms.author="jamdavi"
-    articleId="insights_sdkconfiguration"
+    articleId="insights-sdkconfiguration-mooncake"
     displayOrder="13"
     selfHelpType="resource"
     cloudEnvironments="MoonCake"
-    productPesIds="15693" 
-    supportTopicIds="32602224, 32602223"
+    productPesIds="" 
+    supportTopicIds=""
  />
  
 # How do I configure my SDK?
