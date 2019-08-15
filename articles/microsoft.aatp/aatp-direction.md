@@ -6,7 +6,7 @@
 	authors="zacohen2"
 	ms.author="zacohen"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16264"
