@@ -16,11 +16,11 @@
 
 # I need a copy of my bill or usage
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).
+* [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/)
 * [Getting started with Azure billing and cost management](https://docs.azure.cn/billing/billing-getting-started)
