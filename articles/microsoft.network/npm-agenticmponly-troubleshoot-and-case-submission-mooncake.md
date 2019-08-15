@@ -7,10 +7,10 @@
 	authors="vinynigam"
 	displayOrder="30"
 	selfHelpType="resource"
-	supportTopicIds="32606425"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="16160"
-    articleId="npm-agenticmponly-troubleshoot-and-case-submission"
+	productPesIds=""
+    articleId="npm-agenticmponly-troubleshoot-and-case-submission-mooncake"
 	cloudEnvironments="MoonCake"
 />
 

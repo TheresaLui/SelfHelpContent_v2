@@ -7,11 +7,11 @@
     ms.author="absha"
     displayOrder="25"
     selfHelpType="resource"
-    articleId="application-gateway-ssl-termination"
+    articleId="application-gateway-ssl-termination-mooncake"
 	resourceTags=""
-	productPesIds="15922"
+	productPesIds=""
     supportTopicIds="32582828"
-    cloudEnvironments="MoonCake"
+    cloudEnvironments=""
  />
 
 # SSL termination issues with Application Gateway

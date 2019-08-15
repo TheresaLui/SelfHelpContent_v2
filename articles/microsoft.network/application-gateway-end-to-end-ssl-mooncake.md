@@ -7,10 +7,10 @@
     ms.author="absha"
     displayOrder="22"
     selfHelpType="resource"
-    articleId="application-gateway-end-to-end-ssl"
+    articleId="application-gateway-end-to-end-ssl-mooncake"
 	resourceTags=""
-	productPesIds="15922"
-    supportTopicIds="32582825"
+	productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
  />
 

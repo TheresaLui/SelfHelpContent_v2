@@ -7,10 +7,10 @@
     ms.author="absha"
     displayOrder="21"
     selfHelpType="resource"
-    articleId="application-gateway-connection-timed-out-error"
+    articleId="application-gateway-connection-timed-out-mooncake"
     resourceTags=""
-	productPesIds="15922"
-	supportTopicIds="32639114"
+	productPesIds=""
+	supportTopicIds=""
     cloudEnvironments="MoonCake"
  />
 

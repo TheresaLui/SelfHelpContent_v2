@@ -7,10 +7,10 @@
     ms.author="absha"
     displayOrder="27"
     selfHelpType="resource"
-    articleId="application-gateway-unknown-backend-health"
+    articleId="application-gateway-unknown-backend-health-mooncake"
 	resourceTags=""
-	productPesIds="15922"
-    supportTopicIds="32639116"
+	productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
  />
 

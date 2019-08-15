@@ -7,10 +7,10 @@
     ms.author="absha"
     displayOrder="23"
 	selfHelpType="resource"
-    articleId="application-gateway-performance"
+    articleId="application-gateway-performance-mooncake"
  	resourceTags=""
-	productPesIds="15922"
-    supportTopicIds="32436962"
+	productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
  />
 

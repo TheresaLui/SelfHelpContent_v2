@@ -7,10 +7,10 @@
     ms.author="absha"
     displayOrder="26"
     selfHelpType="resource"
-    articleId="application-gateway-too-many-redirects-error"
+    articleId="application-gateway-too-many-redirects-error-mooncake"
 	resourceTags=""
-	productPesIds="15922"
-    supportTopicIds="32639115"
+	productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
  />
 

@@ -7,10 +7,10 @@
     ms.author="absha"
     displayOrder="19"
 	selfHelpType="resource"
-    articleId="application-gateway-4xx-error"
+    articleId="application-gateway-4xx-errors-mooncake"
  	resourceTags=""
-	productPesIds="15922"
-    supportTopicIds="32639113"
+	productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
  />
 

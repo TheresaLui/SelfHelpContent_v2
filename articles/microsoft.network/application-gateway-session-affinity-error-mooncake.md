@@ -7,10 +7,10 @@
     ms.author="absha"
     displayOrder="24"
 	selfHelpType="resource"
-    articleId="application-gateway-session-affinity"
+    articleId="application-gateway-session-affinity-error-mooncake"
 	resourceTags=""
-	productPesIds="15922"
-    supportTopicIds="32640605"
+	productPesIds=""
+    supportTopicIds=""
     cloudEnvironments="MoonCake"
  />
 
