@@ -37,5 +37,5 @@ We apologize for any inconvenience in not being able to satisfy your deployment 
 
 *[How Allocation works?](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#background--how-allocation-works)<br>
 *[Why Allocation failure happens?](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#why-allocation-failure-happens)<br>
-*[Common scenarions for Allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#common-issues)<br>
+*[Common scenarios for Allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#common-issues)<br>
 *[Possible solutions for Allocation failure](https://docs.microsoft.com//azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
