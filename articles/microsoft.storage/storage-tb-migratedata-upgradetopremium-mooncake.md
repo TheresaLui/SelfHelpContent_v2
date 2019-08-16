@@ -4,7 +4,7 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
-	displayOrder="8"
+	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32551680"
 	resourceTags=""
@@ -16,5 +16,4 @@
 # Migrating to Azure Premium Storage
 
 ## **Recommended documents**
-
-* [Migrating to Azure Premium Storage](https://docs.azure.cn/storage/common/storage-migration-to-premium-storage/)
+[Migrating to Azure Premium Storage](https://docs.azure.cn/storage/common/storage-migration-to-premium-storage/)
