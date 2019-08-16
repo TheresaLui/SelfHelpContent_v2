@@ -16,7 +16,7 @@
 
 # How to upgrade Azure AD Connect to the latest version
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * There are three options to upgrade Azure AD Connect to the latest version, including:
   * Automatic upgrade
@@ -29,7 +29,7 @@
 
 * For details on the changes/improvements in the latest build of Azure AD Connect, refer to article [Azure AD Connect: Version release history](https://docs.azure.cn/active-directory/hybrid/reference-connect-version-history).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure AD Connect: Upgrade from a previous version to the latest](https://docs.azure.cn/active-directory/hybrid/how-to-upgrade-previous-version)  
 * [Azure AD Connect download site](https://www.microsoft.com/download/details.aspx?id=47594)  

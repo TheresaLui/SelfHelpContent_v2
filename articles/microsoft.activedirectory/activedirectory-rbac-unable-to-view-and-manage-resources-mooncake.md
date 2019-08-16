@@ -14,7 +14,7 @@
 
 # Unable to view and manage Azure resources
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **Verify whether you are signing into the account that is associated with the subscription.** 
 
@@ -37,7 +37,7 @@ You might have selected the wrong directory in the Azure portal.
 
 **Verify whether you are filtering out some subscriptions in the resource blade (All Resources or Resource Groups) in the Azure portal.**
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Managing access assignments by user](https://docs.azure.cn/role-based-access-control/role-assignments-portal)
 * [Managing access assignments by resource](https://docs.azure.cn/role-based-access-control/role-assignments-portal)

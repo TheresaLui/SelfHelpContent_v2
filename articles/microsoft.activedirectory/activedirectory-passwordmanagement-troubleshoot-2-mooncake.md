@@ -14,7 +14,7 @@
 
 # Problems with users registering for password reset
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **I want to pre-populate data for users so they don't have to register**
 

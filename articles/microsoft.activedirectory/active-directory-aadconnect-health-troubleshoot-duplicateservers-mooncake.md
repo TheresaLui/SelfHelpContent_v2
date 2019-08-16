@@ -12,7 +12,7 @@
 />
 # Duplicate servers in the portal
 
-## **Recommended steps**
+## **Recommended Steps**
 
 When an agent is uninstalled/removed from the server, the server is not automatically removed from the portal. Duplicate servers will occur, when a second agent is registered by a server with the same name/details.
 

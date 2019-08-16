@@ -16,7 +16,7 @@
 
 # Synchronization Service is started but there is no synchronization activity
 
-## **Recommended steps**
+## **Recommended Steps**
 
 The Azure AD Connect Synchronization Service appears to be running in the Windows Service Control Manager but there is no synchronization activity. Common root causes include the following:
 
@@ -26,7 +26,7 @@ The Azure AD Connect Synchronization Service appears to be running in the Window
 
 * The Azure AD Connect server is currently in staging mode. When the Connect server is in staging mode, it will be active for import and synchronization. However, it will not run any exports. For details about staging mode, refer to article section [Azure AD Connect sync: Operational tasks and consideration - Staging mode](https://docs.azure.cn/active-directory/hybrid/how-to-connect-sync-staging-server#staging-mode).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure AD Connect sync: Scheduler](https://docs.azure.cn/active-directory/hybrid/how-to-connect-sync-feature-scheduler)  
 * [Azure AD Connect sync: Operational tasks and consideration](https://docs.azure.cn/active-directory/hybrid/how-to-connect-sync-staging-server)  

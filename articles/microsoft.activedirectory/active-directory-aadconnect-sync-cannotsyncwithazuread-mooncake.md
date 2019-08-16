@@ -16,7 +16,7 @@
 
 # Synchronization Service cannot import/export changes from Azure AD
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Common root causes include the following:
 
@@ -24,7 +24,7 @@ Common root causes include the following:
 
 * There is network connectivity issue between the Azure AD Connect server and Azure AD. To troubleshoot connectivity issue, refer to article [Troubleshoot connectivity issues with Azure AD Connect](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-connectivity).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure AD Connect sync: How to manage the Azure AD service account](https://docs.azure.cn/active-directory/hybrid/how-to-connect-sync-change-serviceacct-pass)
 * [Troubleshoot connectivity issues with Azure AD Connect](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-connectivity)  

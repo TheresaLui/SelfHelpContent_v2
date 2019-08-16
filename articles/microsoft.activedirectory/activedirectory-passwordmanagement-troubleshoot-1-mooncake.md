@@ -14,7 +14,7 @@
 
 # Problems testing password reset policy
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **I reset my password but it used a different policy from the one I set in the portal**
 

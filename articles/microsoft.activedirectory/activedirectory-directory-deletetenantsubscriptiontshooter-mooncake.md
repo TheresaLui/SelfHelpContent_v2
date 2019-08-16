@@ -16,7 +16,7 @@
 
 # I have Microsoft Online Services blocking deletion of my Azure AD
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Organizational subscriptions are related to products that require user-level license assignment, for example: Office 365 Enterprise E3, Enterprise Mobility + Security, or Azure AD Premium. To delete an Azure AD tenant, all subscriptions associated to the tenant need to be in a completely **Deprovisioned** state. Deprovisioning occurs after one or more of the following occurs:
 
@@ -34,7 +34,7 @@ Your ability to manage subscriptions depends on how they were originally purchas
 
 If you would like to move an Azure subscription to a different Azure AD tenant or Office 365, you can move your Pay-As-You-Go, Visual Studio, Action Pack or BizSpark subscription in the Account Center via self-service transfer. Learn more on [How to transfer ownership of an Azure subscription](https://docs.azure.cn/billing/billing-subscription-transfer).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How Azure subscriptions are associated with Azure AD](https://docs.azure.cn/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
 * [Deleting Users from Azure Active Directory](https://docs.azure.cn/active-directory/fundamentals/add-users-azure-active-directory)

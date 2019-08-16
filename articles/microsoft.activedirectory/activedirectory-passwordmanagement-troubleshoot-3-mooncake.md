@@ -14,7 +14,7 @@
 
 # Problems with temporary passwords
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **I don't want to communicate temporary passwords to users**
 

@@ -14,7 +14,7 @@
 
 # Browse password reset documentation to find answers
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If you are using any of our documentation, we have tried hard to provide links to all of the interesting password reset information for administrators in our table of contents.
 

@@ -16,7 +16,7 @@
 
 # I want to assign an administrator role to a user
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. To assign a role to a user, open the user in Azure AD.
 
@@ -26,6 +26,6 @@
  
 For information on what different roles can do, see the recommended documents.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Assigning administrator roles in Azure AD](https://docs.azure.cn/active-directory/users-groups-roles/directory-assign-admin-roles)

@@ -16,7 +16,7 @@
 
 # How to set up Azure AD Connect sync
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * If you are new to Azure AD Connect and would like to learn more about it, start with article [Connect Active Directory with Azure Active Directory](https://docs.azure.cn/active-directory/hybrid/whatis-hybrid-identity).
 
@@ -26,7 +26,7 @@
 
 * To download the latest build of Azure AD Connect, click [here](https://www.microsoft.com/download/details.aspx?id=47594).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Connect Active Directory with Azure Active Directory](https://docs.azure.cn/active-directory/hybrid/whatis-hybrid-identity)
 * [Select which installation type to use for Azure AD Connect](https://docs.azure.cn/active-directory/hybrid/how-to-connect-install-select-installation)  

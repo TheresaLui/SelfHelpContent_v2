@@ -16,7 +16,7 @@
 
 # Synchronization issue with OU-based (Organizational Unit) filtering
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Important points to consider when configuring OU-based filtering:
 
@@ -30,6 +30,6 @@ Important points to consider when configuring OU-based filtering:
 
 * Changing the names of existing OUs may cause OU-based filtering to stop working correctly. If you need to change the names of existing OUs, you must reconfigure OU-based filtering on your Azure AD Connect server.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure AD Connect sync: Configure filtering - Organizational Unit-based filtering](https://docs.azure.cn/active-directory/hybrid/how-to-connect-sync-configure-filtering#organizational-unitbased-filtering)  

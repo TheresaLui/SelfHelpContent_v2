@@ -16,7 +16,7 @@
 
 # Synchronization issue with specific user, group or contact object
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. Check for any synchronization error which corresponds to this object. For details on common synchronization errors, refer to article [Troubleshooting Errors during synchronization](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-sync-errors). Synchronization errors are available to customers in the following ways:
 
@@ -27,7 +27,7 @@
 
 3. If no error is found for this object, follow the troubleshooting steps described in article [Troubleshoot an object that is not synchronizing to Azure AD](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-object-not-syncing).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshooting Errors during synchronization](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-sync-errors)
 * [Identity synchronization and duplicate attribute resiliency](https://docs.azure.cn/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency)

@@ -16,7 +16,7 @@
 
 # I don’t see the Sign-in Data streaming even though I have configured it through Azure Monitor Diagnostics
 
-## **Recommended steps**
+## **Recommended Steps**
 
 You configured the Azure AD Logs through Diagnostics settings (using "Export Data") in the Azure Active Directory - Activity Logs - Audit. Now you can't see the sign-ins either in Storage account or Event hub. 
 
@@ -24,6 +24,6 @@ Even though you can see the **SignIn** check box and select that option through 
 
 Resolution: [Start a free trial for Azure AD Premium](https://www.azure.cn/pricing/1rmb-trial-full/?form-type=identityauth) and check out this feature.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Active Directory reporting latencies](https://docs.azure.cn/active-directory/reports-monitoring/reference-reports-latencies)

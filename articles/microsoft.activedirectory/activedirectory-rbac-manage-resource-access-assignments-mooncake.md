@@ -14,7 +14,7 @@
 
 # Unable to assign access to resources in my directory
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1.	Sign in to [the Azure portal](https://portal.azure.cn) with an account that is the subscription owner. 
 2.  Select **More services &gt; Subscriptions**.
@@ -25,7 +25,7 @@
 7.	Then search for the user by name or email address (or a device name), select the user or device and select **Save**.
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Managing access assignments by user](https://docs.azure.cn/role-based-access-control/role-assignments-portal)
 * [Managing access assignments by resource](https://docs.azure.cn/role-based-access-control/role-assignments-portal)

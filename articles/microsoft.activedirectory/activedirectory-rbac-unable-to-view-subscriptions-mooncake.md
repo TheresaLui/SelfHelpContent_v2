@@ -14,7 +14,7 @@
 
 # Unable to view subscriptions in the Azure portal
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **Verify whether you are signing in to the account that is associated with the subscription.**
 
@@ -35,7 +35,7 @@ You might have selected the wrong directory in the Azure portal.
 1.	To confirm, select your user profile at the top right hand corner in the Azure portal.
 2.	Verify whether the directory that you are in is the right directory. If not, switch to the directory you want. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Managing access assignments by user](https://docs.azure.cn/role-based-access-control/role-assignments-portal)
 * [Managing access assignments by resource](https://docs.azure.cn/role-based-access-control/role-assignments-portal)

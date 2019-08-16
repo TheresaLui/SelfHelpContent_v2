@@ -13,7 +13,7 @@
 />
 # I want to look at an event log to troubleshoot password writeback
 
-## **Recommended steps**
+## **Recommended Steps**
 
 You can look at the Azure AD Connect Application Event log to troubleshoot password writeback. It contains a rich set of logging information that describes much of what is occurring with the password writeback service, in real time. To get access to this log, follow the steps below:
 

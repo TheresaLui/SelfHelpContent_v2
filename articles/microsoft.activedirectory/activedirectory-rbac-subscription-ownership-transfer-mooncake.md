@@ -14,7 +14,7 @@
 
 # Unable to transfer ownership of a subscription
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1.	Sign in to the [Azure subscription portal](https://account.windowsazure.cn/Subscriptions) with an account that is the Account Administrator for the subscription.
 2.	Open the subscription that you want to transfer.
@@ -22,7 +22,7 @@
 4.	Specify the recipient. The recipient automatically gets an email with an acceptance link.
 5.	The recipient clicks the link and follows the instructions, including entering their payment information. When the recipient succeeds, the subscription is transferred. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Transfer ownership of an Azure subscription](https://docs.azure.cn/billing/billing-subscription-transfer#frequently-asked-questions-faq)
 * [Understanding resource access in Azure](https://docs.azure.cn/role-based-access-control/rbac-and-directory-admin-roles)

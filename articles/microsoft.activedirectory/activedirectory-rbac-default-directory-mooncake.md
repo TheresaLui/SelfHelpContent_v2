@@ -16,7 +16,7 @@
 
 Changing the default directory of a subscription is performed by transferring the subscription to a user who is in the desired directory.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1.	Sign in to the [Azure subscription portal](https://account.windowsazure.cn/Subscriptions) with an account that is the Account Administrator of the subscription to transfer subscription ownership.
 2.	Ensure that your target user is in the desired directory and that you would like them to be the subscription owner.
@@ -25,7 +25,7 @@ Changing the default directory of a subscription is performed by transferring th
 5.	The recipient clicks the link and follows the instructions, including entering their payment information. When the recipient succeeds, the subscription is transferred. 
 7. The default directory of the subscription is changed to the directory that the user is in if the subscription ownership transfer is successful.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Transfer ownership of an Azure subscription](https://docs.azure.cn/billing/billing-subscription-transfer#frequently-asked-questions-faq)
 * [Understanding resource access in Azure](https://docs.azure.cn/role-based-access-control/rbac-and-directory-admin-roles)

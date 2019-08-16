@@ -16,10 +16,10 @@
 
 # How can I get Office 365 activity log information through the Azure portal?
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Even though Office 365 activity and Azure AD activity logs share a lot of the directory resources, if you want a full view of the Office 365 activity logs, you should go to the Office 365 Admin Center to get Office 365 Activity log information.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Office 365 Admin Center](https://portal.office.com/AdminPortal/Home#/reportsSecurityAndCompliance)

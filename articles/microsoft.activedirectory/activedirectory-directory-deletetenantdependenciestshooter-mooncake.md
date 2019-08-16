@@ -16,7 +16,7 @@
 
 # I'm having a problem deleting my Azure AD tenant
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To delete an Azure AD tenant, you must first remove any associations to your custom domain names in your directory, along with any users, groups, applications and your Azure and or Office 365 subscriptions in the directory. Deleting an Azure AD tenant is irreversible. Any data homed in the directory is permanently deleted. Learn more about [deleting a directory](https://docs.azure.cn/active-directory/fundamentals/active-directory-whatis).
 
@@ -26,7 +26,7 @@ To delete an Azure AD tenant, you must first remove any associations to your cus
 4. Ensure that if you are signed in with a work or school account, you must not be attempting to delete your home directory. For example, if you are is signed in as joe@contoso.omschina.cn, you cannot delete the directory that has contoso.omschina.cn as its default domain.  
 5. No multi-factor authentication providers can be linked to the directory.  
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How Azure subscriptions are associated with Azure AD](https://docs.azure.cn/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
 * [Deleting Users from Azure Active Directory](https://docs.azure.cn/active-directory/fundamentals/add-users-azure-active-directory)

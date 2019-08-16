@@ -25,7 +25,7 @@ While it is possible to create users via the Azure Portal UI, those users will n
 
 If you’d like to be able to create Azure AD B2C users via the portal, you can request this functionality in the [Azure AD B2C UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c) forum.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Graph API](https://docs.azure.cn/active-directory-b2c/active-directory-b2c-devquickstarts-graph-dotnet)
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)

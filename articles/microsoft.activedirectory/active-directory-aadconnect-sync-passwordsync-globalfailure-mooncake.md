@@ -16,7 +16,7 @@
 
 # Password synchronization does not work – No passwords are synchronized
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **Password synchronization does not work – No passwords synchronized**
 

@@ -14,7 +14,7 @@
 
 # Problems with licensing
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **I don't understand the licensing requirements**
 

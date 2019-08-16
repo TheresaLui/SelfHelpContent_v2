@@ -16,7 +16,7 @@
 
 # How to upgrade DirSync to Azure AD Connect
 
-## **Recommended steps**
+## **Recommended Steps**
 
 There are two options to upgrade DirSync (Windows Azure Active Directory Sync) to Azure AD Connect, including:
 
@@ -25,7 +25,7 @@ There are two options to upgrade DirSync (Windows Azure Active Directory Sync) t
 
 For details on both options, refer to article [Azure AD Connect: Upgrade from DirSync](https://docs.azure.cn/active-directory/hybrid/how-to-dirsync-upgrade-get-started).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure AD Connect: Upgrade from DirSync](https://docs.azure.cn/active-directory/hybrid/how-to-dirsync-upgrade-get-started)  
 * [Upgrade Windows Azure Active Directory Sync and Azure Active Directory Sync](https://docs.azure.cn/active-directory/hybrid/reference-connect-dirsync-deprecated)

@@ -16,7 +16,7 @@
 
 # I can’t find actions performed in Azure Active Directory in the activity logs
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Below are our latency numbers for Activity logs.
 
@@ -27,6 +27,6 @@ Below are our latency numbers for Activity logs.
 
 Note: If you don't see the Audit logs even after 2 hours from performing the action, please [file a support ticket](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Active Directory reporting latencies](https://docs.azure.cn/active-directory/reports-monitoring/reference-reports-latencies)

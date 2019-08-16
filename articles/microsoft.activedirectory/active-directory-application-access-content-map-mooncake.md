@@ -14,7 +14,7 @@
 
 # Problems managing application access and permissions
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **I'm having a problem assigning or removing users or groups to an application**
 
