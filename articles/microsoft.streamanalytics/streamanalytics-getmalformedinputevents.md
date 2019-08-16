@@ -4,6 +4,7 @@
 	service="microsoft.streamanalytics"
 	resource="streamingjobs"
 	authors="SnehaGunda"
+	ms.author="sngun"
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""
