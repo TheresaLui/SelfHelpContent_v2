@@ -20,12 +20,11 @@
 
 1. Check for any synchronization error which corresponds to this object. For details on common synchronization errors, refer to article [Troubleshooting Errors during synchronization](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-sync-errors). Synchronization errors are available to customers in the following ways:
 
-    * Identity synchronization error report - this is an email notification that is sent to the Technical Notification contact for the tenant whenever Azure AD Connect completes a synchronization cycle with errors.
-    * Under the [Synchronization Service Manager Operation tab](https://docs.azure.cn/active-directory/hybrid/how-to-connect-sync-service-manager-ui-operations).
+    * Identity synchronization error report - this is an email notification that is sent to the Technical Notification contact for the tenant whenever Azure AD Connect completes a synchronization cycle with errors
+    * Under the [Synchronization Service Manager Operation tab](https://docs.azure.cn/active-directory/hybrid/how-to-connect-sync-service-manager-ui-operations)
 
-2. Check for duplicate attribute errors under [Duplicate Attributes Resiliency](https://docs.azure.cn/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency) feature.
-
-3. If no error is found for this object, follow the troubleshooting steps described in article [Troubleshoot an object that is not synchronizing to Azure AD](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-object-not-syncing).
+2. Check for duplicate attribute errors under [Duplicate Attributes Resiliency](https://docs.azure.cn/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency) feature
+3. If no error is found for this object, follow the troubleshooting steps described in article [Troubleshoot an object that is not synchronizing to Azure AD](https://docs.azure.cn/active-directory/hybrid/tshoot-connect-object-not-syncing)
 
 ## **Recommended Documents**
 
