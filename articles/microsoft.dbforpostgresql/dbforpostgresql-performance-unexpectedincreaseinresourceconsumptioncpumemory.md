@@ -22,7 +22,7 @@ Increase in resource consumption can be a result of an explicit user action or c
 
 * Ensure there are no changes to the pricing tier of your service that might have triggered it
 * Adjust the pricing tier commensurate to the increase in the workload
-* Check if there are any schema changes, for example whethere an index was dropped
+* Check if there are any schema changes, for example whether an index was dropped
 * Ensure that the table statistics are up to date
 
 ## **Recommended Documents**
