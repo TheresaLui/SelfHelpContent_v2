@@ -21,4 +21,4 @@ We currently do not support PowerShell to manage your Azure Database for Postgre
 ## **Recommended Documents**
 
 * [Install Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)<br>
-* [CLI reference documentation](https://docs.microsoft.com/en-us/cli/azure/postgres?view=azure-cli-latest)
+* [CLI reference documentation](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest)
