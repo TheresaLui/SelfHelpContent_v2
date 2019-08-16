@@ -25,7 +25,7 @@ Log Analytics customers prior to April 2018 have an option to either stay in the
 
 **How can I understand the usage and estimated cost of my Log Analytics workspace?**
 
-The Log Analytics page "Usage and estimated costs" has information on your estimated monthly costs based on the last 30 days of usage. Additionally, there is a chart of data volume ingested so you can see any trends and information on which solutions account for the most data volume. From your workspace, click “Usage and estimated costs” on the left navigation pane to see information on your [estimated monthly costs](https://docs.azure.cn/azure-monitor/platform/manage-cost-storage) based on the last 30 days of usage. Additionally, there is a chart of data volume ingested so you can see any trends and information on which solutions account for the most data volume.
+The Log Analytics page "Usage and estimated costs" has information on your estimated monthly costs based on the last 30 days of usage. Additionally, there is a chart of data volume ingested so you can see any trends and information on which solutions account for the most data volume. From your workspace, click "Usage and estimated costs" on the left navigation pane to see information on your [estimated monthly costs](https://docs.azure.cn/azure-monitor/platform/manage-cost-storage) based on the last 30 days of usage. Additionally, there is a chart of data volume ingested so you can see any trends and information on which solutions account for the most data volume.
 
 ## **Recommended Documents**
 
