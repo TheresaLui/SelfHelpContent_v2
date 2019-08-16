@@ -28,14 +28,14 @@ The servers in Azure datacenters are partitioned into clusters. The Cloud Servic
 ## **Recommended Steps**
 
 We apologize for any inconvenience this may have caused you. We are actively working on improving the platform to not be limited to one cluster and make more resources available for your service needs. Meanwhile, we have few options depending on your flexibility:<br>
-	* Redeploy to a new cloud service - This solution is likely to be most successful as it allows the platform to choose from all clusters in that region.<br>
-	* Delete both production and staging slots - This solution will preserve your existing DNS name, but will cause downtime to your application.<br>
-	* Reserved IP - This solution will preserve your existing IP address, but will cause downtime to your application.<br>
-	* Remove affinity group for new deployments - Affinity Groups are no longer recommended. Follow steps for #1 above to deploy a new cloud service. Ensure cloud service is not in an affinity group<br>
+- Redeploy to a new cloud service - This solution is likely to be most successful as it allows the platform to choose from all clusters in that region.<br>
+- Delete both production and staging slots - This solution will preserve your existing DNS name, but will cause downtime to your application.<br>
+- Reserved IP - This solution will preserve your existing IP address, but will cause downtime to your application.<br>
+- Remove affinity group for new deployments - Affinity Groups are no longer recommended. Follow steps for #1 above to deploy a new cloud service. Ensure cloud service is not in an affinity group<br>
 
 ## **Recommended Documents**
 
-*[How Allocation works?](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#background--how-allocation-works)<br>
-*[Why Allocation failure happens?](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#why-allocation-failure-happens)<br>
-*[Common scenarios for Allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#common-issues)<br>
-*[Possible solutions for Allocation failure](https://docs.microsoft.com//azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
+- [How Allocation works?](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#background--how-allocation-works)<br>
+- [Why Allocation failure happens?](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#why-allocation-failure-happens)<br>
+- [Common scenarios for Allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#common-issues)<br>
+- [Possible solutions for Allocation failure](https://docs.microsoft.com//azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
