@@ -7,11 +7,11 @@
     ms.author="emlisa"
 	displayOrder="9"
 	selfHelpType="resource"
-	supportTopicIds="32630415"
-	productPesIds="13491"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
-	articleId="514fdf6b-b8b0-4887-a734-2236d1907bff"
+	articleId="sql-dataimportexportsyncreplication-copydatabasewithinazure-mooncake"
 />
 
 # data import, export, sync, replication/copy database within Azure

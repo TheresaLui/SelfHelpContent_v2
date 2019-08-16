@@ -7,11 +7,11 @@
   ms.author="emlisa"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32630438"
-	productPesIds="13491"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
-	articleId="ec03f2ee-fbd5-4879-9f4f-73b76f7f22d4"
+	articleId="sql-availabilityandconnectivity-mydatabasewasreportedasunavailableresourcehealth-mooncake"
 />
 
 # SQL Database Resource Health Issues: Unavailability

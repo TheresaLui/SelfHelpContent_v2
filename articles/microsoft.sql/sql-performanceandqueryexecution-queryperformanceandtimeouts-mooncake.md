@@ -4,14 +4,14 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-  ms.author="emlisa"
+    ms.author="emlisa"
 	displayOrder="26"
 	selfHelpType="resource"
-	supportTopicIds="32630450"
-	productPesIds="13491"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
-	articleId="e7df013f-4ee6-41d4-9e8f-f2f99692a25b"
+	articleId="sql-performanceandqueryexecution-queryperformanceandtimeouts-mooncake"
 />
 
 # Resolve poor performance and timeout issues in Azure SQL Database

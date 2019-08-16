@@ -8,11 +8,11 @@
     authorAlias="emlisa"
 	displayOrder="28"
 	selfHelpType="resource"
-	supportTopicIds="32630459"
-	productPesIds="13491"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
-    articleId="832be260-f5b8-47dc-95ba-288bcfc7625c"
+    articleId="sql-performancenandqueryexecution-unexpectedincrease-mooncake"
 />
 
 # performance and query execution/unexpected increase in resource consumption or DTUS

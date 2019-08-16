@@ -7,11 +7,11 @@
     ms.author="emlisa"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32630432"
-	productPesIds="13491"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
-	articleId="fe65a0a8-b9e5-4a2c-8f94-aa5cf5dc158a"
+	articleId="sql-backuprestore-longtermbackupretention-mooncake"
 />
 
 # backup/restore/long-term backup retention

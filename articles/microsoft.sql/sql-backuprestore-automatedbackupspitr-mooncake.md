@@ -7,11 +7,11 @@
   ms.author="emlisa"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds="32630409"
-	productPesIds="13491"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
-	articleId="eeb46dff-62eb-4d87-b7a9-939908fc69df"
+	articleId="sql-backuprestore-automatedbackupspitr-mooncake"
 />
 
 # Issues with SQL Database backup, restore, automated backups or point in time restore
