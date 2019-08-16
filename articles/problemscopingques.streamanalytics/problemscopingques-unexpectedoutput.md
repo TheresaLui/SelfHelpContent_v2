@@ -20,26 +20,32 @@
 	"fileAttachmentHint": "",
 	"formElements": [
          {
-			"id": "sample_input",
+			"id": "problem_start_time",
 			"order": 1,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Sample Input",
-			"watermarkText": "Provide sample input (in JSON) without PII",
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
 			"required": true
 		},{
 			"id": "expected_output",
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Expected output",
-			"watermarkText": "Provide expected output (in JSON) without PII",
+			"watermarkText": "Describe what is your expected output and what you are seeing instead.",
 			"required": true
 		},{
-			"id": "asa_query",
+			"id": "sample_input",
 			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Sample Input",
+			"watermarkText": "Provide sample input (in JSON) without PII",
+			"required": false
+		},{
+			"id": "asa_query",
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "ASA Query",
 			"watermarkText": "Provide query that is producing unexpected results",
-			"required": true
+			"required": false
 		}
 	]
 }
