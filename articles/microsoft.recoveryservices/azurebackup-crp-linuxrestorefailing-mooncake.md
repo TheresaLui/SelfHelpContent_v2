@@ -7,7 +7,7 @@
 	ms.author="srinathv"
 	displayOrder="16"
 	selfHelpType="resource"
-	supportTopicIds="32637326"
+	supportTopicIds=""
 	resourceTags="windows"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
