@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder="20"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553281"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="MoonCake"
-	articleId="azurebackup-iaas-backupperf-mooncake"
+	articleId="870b74fd-a900-42a7-bdd1-a706fa8b2558"
 />
 
 # Azure virtual machine backups are running slow

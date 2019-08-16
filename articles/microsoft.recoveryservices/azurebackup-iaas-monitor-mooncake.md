@@ -4,14 +4,13 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="saurabhsensharma"
-	ms.author="saurse"
 	displayOrder="21"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553291"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="MoonCake"
-	articleId="azurebackup-iaas-monitor-mooncake"
+	articleId="7786d3f4-48b4-459f-8d12-d3f27e0e7cdd"
 />
 
 

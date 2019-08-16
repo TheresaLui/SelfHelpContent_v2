@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder="24"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553277"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="MoonCake"
-	articleId="azurebackup-iaaswin-backup-mooncake"
+	articleId="79088548-2aa6-44f1-8f3c-25df1e8e92bf"
 />
 
 # Diagnose and resolve issues with Windows Azure virtual machine backup

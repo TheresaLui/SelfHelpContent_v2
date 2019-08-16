@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder="19"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32637326"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="MoonCake"
-	articleId="azurebackup-crp-windowsrestorefailing-mooncake"
+	articleId="6e895e83-d9a3-456c-b82b-d9c5a6a20365"
 />
 
 # Azure Backup - Restore is failing

@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder="23"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553297"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="MoonCake"
-	articleId="azurebackup-iaaslinux-restore-mooncake"
+	articleId="9344f1ee-97c8-459c-8a55-58c514b4d2ef"
 />
 
 # Azure Linux VM Restore Limitations

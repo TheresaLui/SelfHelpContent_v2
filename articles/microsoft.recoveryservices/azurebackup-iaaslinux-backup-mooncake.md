@@ -7,11 +7,11 @@
 	ms.author="trinadhk"
 	displayOrder="22"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553276"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="MoonCake"
-	articleId="azurebackup-iaaslinux-backup-mooncake"
+	articleId="493a4d5a-add2-4831-abc4-7352a51b60d2"
 />
 
 # Backup of Linux Azure Virtual Machine fails
