@@ -6,7 +6,7 @@
     authors="kummanish"
     ms.author="manishku"
     displayOrder="460"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639981"
     resourceTags="servers, databases"
     productPesIds="16617"

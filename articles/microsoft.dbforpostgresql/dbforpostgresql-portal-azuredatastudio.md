@@ -6,7 +6,7 @@
     authors="TheJY"
     ms.author="jeanyd"
     displayOrder="360"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639970"
     resourceTags="servers, databases"
     productPesIds="16222"

@@ -6,12 +6,12 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="140"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639968"
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
-    articleId="7a6c959f-0671-48c4-9435-8051e7298f9d"
+    articleId="8d101db0-cc7c-4c31-a9da-3f85bf9c063d"
 />
 
 # Automated backups 

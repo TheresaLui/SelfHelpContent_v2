@@ -6,7 +6,7 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="250"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639998"
     resourceTags="servers, databases"
     productPesIds="16222"
@@ -28,4 +28,4 @@ You can monitor your Azure Database for PostgreSQL server using a set of metrics
 
 * [Manage metric alerts using Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric)<br>
 * [Access server logs from the Azure portal](https://docs.microsoft.com/azure/postgresql/howto-configure-server-logs-in-portal)<br>
-* [Access server logs from the Azure CLI](https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-server-logs-using-cli)
+* [Access server logs from the Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-configure-server-logs-using-cli)

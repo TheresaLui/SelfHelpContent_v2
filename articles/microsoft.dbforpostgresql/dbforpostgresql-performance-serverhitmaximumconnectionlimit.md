@@ -6,7 +6,7 @@
     authors="sunilagarwal"
     ms.author="sunila"
     displayOrder="60"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640019"
     resourceTags="servers, databases"
     productPesIds="16222"

@@ -6,12 +6,12 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="20"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639974"
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
-    articleId="7038fb50-8107-4d8e-87bc-07171b0e537f"
+    articleId="6428cfa2-9135-430c-8f96-96c8768e01d1"
 />
 
 # Error: Server not available or SSL SYSCALL error: EOF detected

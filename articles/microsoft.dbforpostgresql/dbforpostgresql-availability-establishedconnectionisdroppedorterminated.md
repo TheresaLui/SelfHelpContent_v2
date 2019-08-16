@@ -6,12 +6,12 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="40"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639979"
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
-    articleId="7038fb50-8107-4d8e-87bc-07171b0e537f"
+    articleId="2393642e-b8d9-413e-be03-8535589ccc46"
 />
 
 # Dropped connections

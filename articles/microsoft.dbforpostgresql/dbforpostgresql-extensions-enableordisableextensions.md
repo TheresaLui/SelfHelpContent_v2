@@ -6,7 +6,7 @@
     authors="rachel-msft"
     ms.author="raagyema"
     displayOrder="510"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639975"
     resourceTags="servers, databases"
     productPesIds="16222"

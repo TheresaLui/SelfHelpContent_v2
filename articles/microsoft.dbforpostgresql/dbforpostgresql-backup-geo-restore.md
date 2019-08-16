@@ -6,12 +6,12 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="160"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639984"
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
-    articleId="7a6c959f-0671-48c4-9435-8051e7298f9d"
+    articleId="62d59e94-5a7b-4819-81af-b664886c50bf"
 />
 
 # Geo-redundant backups and geo-restore

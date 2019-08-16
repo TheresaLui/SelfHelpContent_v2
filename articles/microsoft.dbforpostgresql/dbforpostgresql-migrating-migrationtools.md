@@ -6,7 +6,7 @@
     authors="ankam"
     ms.author="ankam"
     displayOrder="300"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639996"
     resourceTags="servers, databases"
     productPesIds="16222"

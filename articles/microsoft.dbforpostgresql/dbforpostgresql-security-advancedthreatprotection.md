@@ -6,7 +6,7 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="470"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32639965"
     resourceTags="servers, databases"
     productPesIds="16222"
