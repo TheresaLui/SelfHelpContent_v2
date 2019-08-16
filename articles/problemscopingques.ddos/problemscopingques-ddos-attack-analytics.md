@@ -31,7 +31,7 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Is the public IP you are trying to configure under attack?",
-            "watermarkText": "Choose an option:",
+            "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "Yes",

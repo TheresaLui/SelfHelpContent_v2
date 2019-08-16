@@ -4,7 +4,7 @@
 	authors="jlian"
 	ms.author="jlian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630568"
+	supportTopicIds="32630568,32630545,32630546"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
@@ -57,7 +57,7 @@
       "id": "sdk_or_not",
       "order": 3,
       "controlType": "dropdown",
-      "infoBalloonText": "To learn more about the Azure IoT Device SDKs, see <a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks'>Understand and use Azure IoT Hub SDKs</a> ",
+      "infoBalloonText": "IoT Hub Device SDKs enable you to build apps that run on your IoT devices using device client or module client. These apps send telemetry to your IoT hub, and optionally receive messages, job, method, or twin updates from your IoT hub. To learn more, see <a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks'>Understand and use Azure IoT Hub SDKs</a> ",
       "displayLabel": "Are you using Azure IoT Device SDKs?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [

@@ -24,24 +24,15 @@ Most users are able to resolve their issue using the steps below.
 
 * Not able to scale from Basic to General Purpose/Memory Optimized service tiers and vice-versa:
 
-    * Scaling only supported from General Purpose to Memory Optimized service tiers and vice-versa. Azure Database for MySQL does not allow any scaling to/from the Basic service tier.
     * In case you want to migrate from Basic to General purpose/Memory Optimized and vice-versa, you can take a database dump of your Basic tier MySQL database, recreate the server in General Purpose/Memory Optimized and then load the database dump and vice-versa.
 
-* Can't change the backup storage type after a server is created:
+* Connections are dropped and no new connections can be established while vCores are scaled:
 
-    * You can independently change the vCores, the pricing tier (except to and from Basic), the amount of storage, and the backup retention period. You cannot change the backup storage type after a server is created.
+    * vCore scaling requires a server restart. The window when new connections cannot be established varies, but in most cases, is less than a minute. We recommend you implement retry logic so your application can seamlessly reconnect to the MySQL server once the scale operation is completed. Storage scaling does not cause a restart.
 
-* No new connections can be established when the system scales:
+* Cannot scale up the master server when a replica exists, or cannot scale down a replica:
 
-    * When you change the number of vCores or the pricing tier, a copy of the original server is created with the new compute allocation. After the new server is up and running, connections are switched over to the new server. During the moment when the system switches over to the new server, no new connections can be established, and all uncommitted transactions are rolled back. This window varies, but in most cases, is less than a minute.
-
-* Cannot scale up the master server when a replica exists:
-
-    * The replica must be scaled before master server
-
-* Cannot scale down the replica of a master server:
-
-    * The master server must scaled before replica server
+    * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
 
 ## **Recommended Documents**
 
