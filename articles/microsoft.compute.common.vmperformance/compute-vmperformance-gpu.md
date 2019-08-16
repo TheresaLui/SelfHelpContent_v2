@@ -11,7 +11,7 @@
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
-	articleId="f41ebb73-3970-4687-80dc-8b06e4335a57"
+	articleId="0ab4f15c-3ab7-44d1-8f36-f81b3156971b"
 />
 
 # Diagnose and resolve Virtual Machine GPU performance issues

@@ -11,7 +11,7 @@
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
-	articleId="f41ebb73-3970-4687-80dc-8b06e4335a57"
+	articleId="6aaf31c5-6dde-4418-9af0-f3fa234593fc"
 />
 
 # Diagnose and resolve Virtual Machine Memory performance issues

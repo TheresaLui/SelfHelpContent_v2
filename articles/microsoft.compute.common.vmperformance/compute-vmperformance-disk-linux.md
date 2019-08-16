@@ -11,7 +11,7 @@
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
-	articleId="55e5b484-ddbe-497f-bd1d-9adcb30216f8"
+	articleId="e32c32c4-edf2-470f-a731-7f4fe2cff95d"
 />
 
 # Diagnose and resolve Linux Virtual Machine Storage performance issues
