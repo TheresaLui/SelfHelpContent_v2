@@ -5,13 +5,14 @@
     service="microsoft.operationalinsights"
     resource="workspaces"
     authors="adoylemsft"
+    ms.author="adoyle"
     displayorder="6"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="eb4c9980-c265-4173-b999-3673174cebf3"
+	articleId="operationalinsights-howtosetupalerts-mooncake"
 />
 
 # Setting up Alerts

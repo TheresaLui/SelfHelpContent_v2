@@ -5,13 +5,14 @@
     service="microsoft.operationalinsights"
     resource="workspaces"
     authors="adoylemsft"
+    ms.author="adoyle"
     displayorder="4"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="30e42405-2730-42f9-bd5f-a9575a240525"
+	articleId="operationalinsights-howtosetupdataandlogcollection-mooncake"
 />
 
 # Log Collection

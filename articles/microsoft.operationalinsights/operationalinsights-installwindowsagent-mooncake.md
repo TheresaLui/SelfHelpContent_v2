@@ -5,13 +5,14 @@
     service="microsoft.operationalinsights"
     resource="workspaces"
     authors="adoylemsft"
+    ms.author="adoyle"
     displayorder="2"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="3ed5318e-9351-4113-9be2-8ac667f1ed53"
+	articleId="operationalinsights-installwindowsagent-mooncake"
 />
 
 # Installation of Windows Agent

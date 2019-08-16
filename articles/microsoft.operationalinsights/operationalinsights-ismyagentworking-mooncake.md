@@ -5,13 +5,14 @@
     service="microsoft.operationalinsights"
     resource="workspaces"
     authors="adoylemsft"
+    ms.author="adoyle"
     displayorder="1"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="4d7da022-535a-415e-be88-60d709895e48"
+	articleId="operationalinsights-ismyagentworking-mooncake"
 />
 
 # Agent Health

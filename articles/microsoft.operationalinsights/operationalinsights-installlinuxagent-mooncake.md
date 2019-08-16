@@ -5,13 +5,14 @@
     service="microsoft.operationalinsights"
     resource="workspaces"
     authors="adoylemsft"
+    ms.author="adoyle"
     displayorder="3"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="e753d062-0586-4b67-8796-19579a2c3c00"
+	articleId="operationalinsights-installlinuxagent-mooncake"
 />
 
 # Installation of Linux Agent
