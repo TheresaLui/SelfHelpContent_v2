@@ -6,7 +6,7 @@
 	icmTeam=""
 	icmService=""
 	feedbackEmail=""
-	productPesIds="14749"
+	productPesIds="cddd3eb5-1830-b494-44fd-782f691479dc"
 	selfHelpType="supportTopicDescription"
 	articleId="compute-vm-windows-supportopicdescription"
 	cloudEnvironments="public"
@@ -22,7 +22,7 @@
    "productLink3": "",
    "supportTopics": [
 	{
-	         "id": "32615525",
+	         "id": "9f3b8c5f-02c0-7f6e-7b95-9a00ba99aded",
 	         "longDescription":"Cannot connect to my VM covers issues, ranging from incorrect password to network related problems",
 	         "shortDescription":"Issues impacting connectivity to a VM",
 	         "searchTags":"cannot connect,",
@@ -30,7 +30,7 @@
 	         "useInDiagnoseAndSolve":"true"
 	},
 	{
-	         "id": "32615530",
+	         "id": "0847678f-f905-4c94-7a14-9d42b9f944e3",
 	         "longDescription":"The configuration of the VM has.VM was removed from a domain, VM size was changed, etc. ",
 	         "shortDescription":"One or more non-networking related settings in the VM have changed",
 	         "searchTags":"cannot connect,",
