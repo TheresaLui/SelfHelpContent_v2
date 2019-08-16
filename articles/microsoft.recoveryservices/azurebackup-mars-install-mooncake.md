@@ -24,7 +24,6 @@
 
   - Ensure the agent is uninstalled on the server and it is deleted from portal
   - Use the same passphrase that was initially used for registering the server
-
 - Ensure your OS has the latest updates
 - [Ensure that the server has at least .Net Framework version 4.5.2 and higher](https://www.microsoft.com/download/details.aspx?id=30653)
 - [Invalid vault credentials provided: The file is either corrupted or does not have the latest information](https://docs.azure.cn/backup/backup-azure-mars-troubleshoot#invalid-vault-credentials-provided)
