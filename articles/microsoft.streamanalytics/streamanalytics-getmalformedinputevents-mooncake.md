@@ -4,12 +4,13 @@
 	service="microsoft.streamanalytics"
 	resource="streamingjobs"
 	authors="SnehaGunda"
+	ms.author="sngun"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="dca9db9e-38af-4c4b-8bb3-7687f892a949"
+	articleId="streamanalytics-getmalformedinputevents-mooncake"
 />
 
 

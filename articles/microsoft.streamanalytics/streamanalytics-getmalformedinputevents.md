@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public"
 	articleId="dca9db9e-38af-4c4b-8bb3-7687f892a949"
 />
 
