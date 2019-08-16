@@ -32,6 +32,13 @@
 			"displayLabel": "Expected output",
 			"watermarkText": "Describe what is your expected output and what you are seeing instead.",
 			"required": true
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Issue description."
+				},{
+					"text": "Please provide additional details of what your expected and what was actually observed."
+				}
+			]
 		},{
 			"id": "sample_input",
 			"order": 3,
