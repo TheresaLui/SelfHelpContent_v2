@@ -16,7 +16,7 @@
 
 # Windows Backup to Azure Backup monitoring and reporting issues
 
-##**Recommended steps**
+## **Recommended steps**
 Follow these steps to resolve the most common Azure Backup monitoring and reporting issues.
 
 * Note that alerts are raised only for failed backups
@@ -28,7 +28,7 @@ Follow these steps to resolve the most common Azure Backup monitoring and report
 * Alert is not raised or email is not sent even though backup failed? Refer to [Q3 in FAQ](https://docs.azure.cn/backup/backup-azure-manage-windows-server#frequently-asked-questions)
 
 
-##**Recommended documents**
+## **Recommended documents**
 
 * [Monitor backups of Windows machines](https://docs.azure.cn/backup/backup-azure-manage-windows-server#monitor-jobs-and-alerts)
 
