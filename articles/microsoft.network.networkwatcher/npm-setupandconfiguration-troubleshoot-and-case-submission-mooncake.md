@@ -11,7 +11,7 @@
 	resourceTags="optional"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="npm-setupandconfiguration-troubleshoot-and-case-submission"
+	articleId="npm-setupandconfiguration-troubleshoot-and-case-submission-mooncake"
 />
 
 # Agent Setup and Configuration issues
