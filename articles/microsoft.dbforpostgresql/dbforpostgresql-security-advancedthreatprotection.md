@@ -27,4 +27,4 @@ Azure Database for PostgreSQL comes with a rich set of security features includi
 * [Firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules)<br>
 * [Configuring SSL](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security)<br>
 * [VNet service endpoints](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-vnet)<br>
-* [Advanced Threat Protection](https://docs.microsoft.com/en-us/azure/postgresql/concepts-data-access-and-security-threat-protection)
+* [Advanced Threat Protection](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-threat-protection)

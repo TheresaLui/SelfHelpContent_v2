@@ -34,4 +34,4 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Documents**
 
 * [Download server logs from the Azure portal](https://docs.microsoft.com/azure/postgresql/howto-configure-server-logs-in-portal/)<br>
-* [Download server logs from the Azure CLI](https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-server-logs-using-cli/)
+* [Download server logs from the Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-configure-server-logs-using-cli/)

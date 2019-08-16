@@ -9,9 +9,9 @@
     selfHelpType="generic"
     supportTopicIds="32639981"
     resourceTags="servers, databases"
-    productPesIds="16617"
+    productPesIds="16222"
     cloudEnvironments="public"
-    articleId="7ce043ed-e999-4b4e-ba5e-cfe5388cea80"
+    articleId="3b2cdd35-8f48-40b3-88de-ea7c22c0bdb7"
 />
 
 # Managing firewall rules for Azure Database for PostgreSQL

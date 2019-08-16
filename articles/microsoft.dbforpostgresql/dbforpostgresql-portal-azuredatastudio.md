@@ -16,7 +16,9 @@
 
 # Azure Data Studio
 
-## **About Azure Data Studio**
+## **Recommended Steps**
+
+**About Azure Data Studio**
 
 To learn about Azure Data Studio please refer to (https://docs.microsoft.com/sql/azure-data-studio).
 

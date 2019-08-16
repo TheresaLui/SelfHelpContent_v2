@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
-    articleId="650bfaca-c013-49b7-a158-eba8cf126181"
+    articleId="1f0fa8ae-1033-4d6a-afd6-ce1e02ce623a"
 />
 
 # Managing permissions on in Azure Database for PostgreSQL servers

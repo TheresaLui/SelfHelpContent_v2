@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
-    articleId="7a6c959f-0671-48c4-9435-8051e7298f9d"
+    articleId="6d0360ff-6ed5-4f4b-8d0a-7f56129afb42"
 />
 
 # Long term retention of backups

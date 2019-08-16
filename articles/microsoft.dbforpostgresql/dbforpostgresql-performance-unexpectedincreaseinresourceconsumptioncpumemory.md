@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
-    articleId="64dc203f-500c-43b0-9096-2114c4910381"
+    articleId="3f47468a-cc1e-41c2-9665-57b66bbe16e2"
 />
 
 # Troubleshooting unexpected increase in resource consumption

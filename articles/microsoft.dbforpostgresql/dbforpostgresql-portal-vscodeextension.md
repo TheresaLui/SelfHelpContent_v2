@@ -16,7 +16,9 @@
 
 # Visual Studio Code extensions
 
-## **About Visual Studio Code**
+## **Recommended Steps**
+
+**About Visual Studio Code**
 
 If you are looking for information and resources about Visual Studio Code, please refer to:
 
