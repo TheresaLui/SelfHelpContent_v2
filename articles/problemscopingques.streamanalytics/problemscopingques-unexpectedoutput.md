@@ -31,7 +31,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Expected output",
 			"watermarkText": "Describe what is your expected output and what you are seeing instead.",
-			"required": true
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description."
