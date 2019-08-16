@@ -23,7 +23,7 @@ ASC Regulatory Compliance currently only supports the following Compliance Stand
 * Azure CIS
 * PCI DSS 3.2
 * ISO 27001
-* SOC TSP.
+* SOC TSP
 
 Additional standards will be reflected in the dashboard as it develops.
 
@@ -31,10 +31,7 @@ Additional standards will be reflected in the dashboard as it develops.
 
 Select a tab for a compliance standard that is relevant to you. You will see the list of all controls for that standard. For the applicable controls, you can view the details of passing and failing assessments associated with that control. Some controls are grayed out. These controls do not have any Security Center assessments associated with them. [See here for more information](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard#assess-your-regulatory-compliance).
 
->[!Note]
->Customizations within the Regulatory Compliance blade is not supported.
->* Example: Customer received the PCI DSS 3.2 report for the whole subscription. The customer would like to download PCI-DSS 3.2 report only for a selected resource group. (Not supported)
->* It is not possible to modify the value of certain CCEID to match your companies standard.
+**Note**: Customizations within the Regulatory Compliance blade is not supported. Example: Customer received the PCI DSS 3.2 report for the whole subscription. The customer would like to download PCI-DSS 3.2 report only for a selected resource group. It is not possible to modify the value of certain CCEID to match your companies standard.
 
 ### I made the suggested changed based on the recommendation, yet it is not being reflected in the dashboard
 
@@ -44,9 +41,9 @@ After you take action to resolve recommendations, please await 12 hours to see t
 
 To use the Regulatory Compliance, Azure Security Center must be on standard pricing tier on the subscription level. If the Regulatory Compliance UI is not loading correctly, try the following steps:
 
-1. Clear browser cache.
-1. Use a different browser.
-1. Try to load it from different network location.
+1. Clear browser cache
+1. Use a different browser
+1. Try to load it from different network location
 
 The compliance dashboard surfaces security assessments and recommendations as they align to specific compliance requirements. If a recommendation result is not accurate, refer to the recommendation section for further analysis.
 
