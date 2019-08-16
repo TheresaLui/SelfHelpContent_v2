@@ -7,11 +7,11 @@
 	ms.author="trinadhk"
 	displayOrder="25"
 	selfHelpType="resource"
-	supportTopicIds="32553299"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="6fff7f67-d153-43f0-89c9-598eba2fe465"
+	articleId="azurebackup-iaaswin-restore-mooncake"
 />
 
 # Azure Windows VM Restore Limitations

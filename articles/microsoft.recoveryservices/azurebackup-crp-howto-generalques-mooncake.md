@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder="14"
 	selfHelpType="resource"
-	supportTopicIds="32637323,32637324,32637325"
+	supportTopicIds=""
 	resourceTags="windows"
-	productPesIds="15571,15797,16470,16454,14749"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="ea9de181-a019-4256-98f3-7842e7125113"
+	articleId="azurebackup-crp-howto-generalques-mooncake"
 />
 
 # Azure backup - howto and general questions

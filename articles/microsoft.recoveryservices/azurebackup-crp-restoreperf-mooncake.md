@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder="17"
 	selfHelpType="resource"
-	supportTopicIds="32637327"
+	supportTopicIds=""
 	resourceTags="windows"
-	productPesIds="15571,15797,16470,16454,14749"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="4de262a6-b00d-4680-851e-aa9cb212f662"
+	articleId="azurebackup-crp-restoreperf-mooncake"
 />
 
 # Azure backup - Restore is taking longer than expected 

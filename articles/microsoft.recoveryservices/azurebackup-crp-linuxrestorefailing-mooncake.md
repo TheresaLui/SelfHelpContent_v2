@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder="16"
 	selfHelpType="resource"
-	supportTopicIds="32637326"
+	supportTopicIds=""
 	resourceTags="windows"
-	productPesIds="15571,15797,16470,16454"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="89c1ecd8-5025-41d6-b79c-685f163af217"
+	articleId="azurebackup-crp-linuxrestorefailing-mooncake"
 />
 
 # Azure backup - Restore is failing for my VM

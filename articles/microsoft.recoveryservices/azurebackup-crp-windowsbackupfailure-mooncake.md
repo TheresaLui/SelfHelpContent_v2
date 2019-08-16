@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder="18"
 	selfHelpType="resource"
-	supportTopicIds="32637320"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="14749"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
-	articleId="dee16e08-9048-4f4e-9afe-b592ce647817"
+	articleId="azurebackup-crp-windowsbackupfailure-mooncake"
 />
 
 # Azure Backup - Backup is failing for my VM
