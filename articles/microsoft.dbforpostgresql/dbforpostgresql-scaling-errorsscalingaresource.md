@@ -1,0 +1,38 @@
+<properties
+    pageTitle="Error while scaling a resource in Azure Database for PostgreSQL"
+    description="Error while scaling a resource in Azure Database for PostgreSQL"
+    service="microsoft.dbforpostgresql"
+    resource="servers"
+    authors="ambhatna"
+    ms.author="ambhatna"
+    displayOrder="180"
+    selfHelpType="resource"
+    supportTopicIds="32639978"
+    resourceTags="servers, databases"
+    productPesIds="16222"
+    cloudEnvironments="public"
+    articleId="7a89af74-874f-4cc1-a34b-77fdb5a0be0d"
+    />
+
+# Error while scaling a resource in Azure Database for PostgreSQL
+
+Most users are able to resolve their issue using the steps below.
+
+## **Recommended Steps**
+
+* Not able to scale from Basic to General Purpose/Memory Optimized service tiers and vice-versa:
+
+    * If you want to migrate from Basic to General purpose/Memory Optimized and vice-versa, you can [take a database dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore) of your Basic tier PostgreSQL database, create a server in General Purpose/Memory Optimized and then load the database dump and vice-versa.
+
+* Connections are dropped and no new connections can be established while vCores are scaled:
+
+    * vCore scaling requires a server restart. The window when new connections cannot be established varies, but in most cases, is less than a minute. We recommend you implement retry logic so your application can seamlessly reconnect to the Postgres server once the scale operation is completed. Storage scaling does not cause a restart.
+
+* Cannot scale up the master server when a replica exists, or cannot scale down a replica:
+
+    * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
+
+## **Recommended Documents**
+
+* [Azure Database for PostgreSQL Pricing Page](https://azure.microsoft.com/pricing/details/postgresql/)<br>
+* [Read Replica in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#replica-configuration/)
