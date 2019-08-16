@@ -6,11 +6,11 @@
 	authors="saltug"
 	ms.author="saltug"
 	supportTopicIds=""
-	productPesIds="15818"
+	productPesIds=""
 	displayOrder="7"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-diagnoseandsolve-checkversion.md"
+	articleId="dw-diagnoseandsolve-checkversion-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # Check your SQL Data Warehouse version and Release Notes

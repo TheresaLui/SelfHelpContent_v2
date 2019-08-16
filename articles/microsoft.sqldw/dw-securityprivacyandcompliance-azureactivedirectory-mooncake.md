@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,mlee3gsd"
 	ms.author="saltug,martinle"
-	supportTopicIds="32635187"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="18"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-securityprivacyandcompliance-azureactivedirectory.md"
+	articleId="dw-securityprivacyandcompliance-azureactivedirectory-mooncake"
 	cloudEnvironments="MoonCake"
 />
 

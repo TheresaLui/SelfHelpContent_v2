@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,mlee3gsd"
 	ms.author="saltug,martinle"
-	supportTopicIds="32635205"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="12"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-portalandclienttools-monitoring.md"
+	articleId="dw-portalandclienttools-monitoring-mooncake"
 	cloudEnvironments="MoonCake"
 />
 

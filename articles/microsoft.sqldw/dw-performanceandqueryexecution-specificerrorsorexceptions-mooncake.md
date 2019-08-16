@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,mlee3gsd"
 	ms.author="saltug,martinle"
-	supportTopicIds="32635219"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="9"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-performanceandqueryexecution-specificerrorsorexceptions.md"
+	articleId="dw-performanceandqueryexecution-specificerrorsorexceptions-mooncake"
 	cloudEnvironments="MoonCake"
 />
 

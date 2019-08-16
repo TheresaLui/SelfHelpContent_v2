@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635192"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="4"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-createscalepauseresumedelete-takingtoolong.md"
+	articleId="dw-createscalepauseresumedelete-takingtoolong-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # Create/Scale/Pause/Resume/Delete database taking too long

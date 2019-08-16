@@ -5,12 +5,12 @@
     resource="servers"
     authors="saltug,mlee3gsd"
     ms.author="saltug,martinle"
-    supportTopicIds="32635218"
-    productPesIds="15818"
+    supportTopicIds=""
+    productPesIds=""
     displayOrder="2"
     selfHelpType="resource"
     resourceTags="datawarehouse"
-    articleId="dw-backuprestoreandbusinesscontinuity-restoringfrombackup.md"
+    articleId="dw-backuprestoreandbusinesscontinuity-restoringfrombackup-mooncake"
     cloudEnvironments="MoonCake"
 />
 

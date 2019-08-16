@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635179, 32635209"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="6"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-dataimportexport.md"
+	articleId="dw-dataimportexport-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # How to troubleshoot data import and export issues

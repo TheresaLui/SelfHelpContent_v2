@@ -5,12 +5,12 @@
     resource="servers"
     authors="saltug,happynicolle"
     ms.author="saltug,nicw"
-    supportTopicIds="32635220"
-    productPesIds="15818"
+    supportTopicIds=""
+    productPesIds=""
     displayOrder="13"
     selfHelpType="resource"
     resourceTags="datawarehouse"
-    articleId="dw-portalandclienttools-ssms.md"
+    articleId="dw-portalandclienttools-ssms-mooncake"
     cloudEnvironments="MoonCake"
 />
 

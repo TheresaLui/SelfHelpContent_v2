@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635200, 32635202, 32635212"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="17"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-scheduledmaintenanceandupgrades"
+	articleId="dw-scheduledmaintenanceandupgrades-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # How to manage and troubleshoot Scheduled Maintenance and upgrades

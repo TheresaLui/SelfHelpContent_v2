@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,mlee3gsd"
 	ms.author="saltug,martinle"
-	supportTopicIds="32635214"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="8"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-performanceandqueryexecution-queryperformanceandtimeouts.md"
+	articleId="dw-performanceandqueryexecution-queryperformanceandtimeouts-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # Query performance and timeouts

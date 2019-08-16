@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,mlee3gsd"
 	ms.author="saltug,martinle"
-	supportTopicIds="32635203"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="15"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-scheduledmaintenanceandupgrades-outsidedefinedwindow.md"
+	articleId="dw-scheduledmaintenanceandupgrades-outsidedefinedwindow-mooncake"
 	cloudEnvironments="MoonCake"
 />
 

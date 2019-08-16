@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635176, 32635206"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="1"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-availabilityandconnectivity.md"
+	articleId="dw-availabilityandconnectivity-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # How to troubleshoot availability and connectivity issues

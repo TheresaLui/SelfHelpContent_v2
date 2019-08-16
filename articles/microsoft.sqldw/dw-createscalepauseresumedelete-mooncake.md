@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635178, 32635208"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="5"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-createscalepauseresumedelete.md"
+	articleId="dw-createscalepauseresumedelete-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # How to troubleshoot Create/Scale/Pause/Resume/Delete issues

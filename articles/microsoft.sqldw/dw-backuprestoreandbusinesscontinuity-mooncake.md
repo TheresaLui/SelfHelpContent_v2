@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635201, 32635207, 32635215, 32635224"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="3"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-backuprestoreandbusinesscontinuity.md"
+	articleId="dw-backuprestoreandbusinesscontinuity-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # How to recover from a backup and data protection

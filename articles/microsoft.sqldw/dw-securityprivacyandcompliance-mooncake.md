@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,mlee3gsd"
 	ms.author="saltug,martinle"
-	supportTopicIds="32635184, 32635185, 32635191, 32635199, 32635213, 32635221, 32635222, 32635233"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="19"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-securityprivacyandcompliance.md"
+	articleId="dw-securityprivacyandcompliance-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # Security, Privacy and Compliance

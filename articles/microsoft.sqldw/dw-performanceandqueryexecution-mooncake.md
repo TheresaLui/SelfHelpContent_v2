@@ -5,12 +5,12 @@
 	resource="servers"
 	authors="saltug,mlee3gsd"
 	ms.author="saltug,martinle"
-	supportTopicIds="32635204, 32635210, 32635214, 32635219, 32635225"
-	productPesIds="15818"
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="10"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-performanceandqueryexecution.md"
+	articleId="dw-performanceandqueryexecution-mooncake"
 	cloudEnvironments="MoonCake"
 />
 # How to enhance and troubleshoot query performance and execution
