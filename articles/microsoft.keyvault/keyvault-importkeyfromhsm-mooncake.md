@@ -4,6 +4,7 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author="fhokholdMSFT"
 	displayOrder="10"
 	selfHelpType="resource"
 	supportTopicIds=""
