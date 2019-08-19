@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Manage an Azure Cosmos account"
-	description="Manage an Azure Cosmos account"
+	description="Troubleshoot CosmosDB Account provisioning or management related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="markjbrown"
 	ms.author="mjbrown"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636765"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-admin-account-management"
+	displayOrder="20"
+	category="Administration"
 />
 
 # Manage an Azure Cosmos account

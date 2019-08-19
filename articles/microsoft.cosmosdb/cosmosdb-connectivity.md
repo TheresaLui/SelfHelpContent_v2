@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Connectivity"
-	description="Connectivity"
+	description="Troubleshoot Azure Cosmos DB Connectivity issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="markjbrown"
 	ms.author="mjbrown"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636777"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-connectivity"
+	displayOrder="62"
+	category="Core (SQL)"
 />
 
 # Connectivity in Azure Cosmos DB

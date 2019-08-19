@@ -10,9 +10,9 @@ displayOrder=""
 articleId="SmtpPort25BlockAlreadyEnabled"
 diagnosticScenario="SmtpPort25BlockAlreadyEnabled"
 selfHelpType="Diagnostics"
-supportTopicIds="32592839"
+supportTopicIds="32592839, 32640601"
 resourceTags="windows"
-productPesIds="15526"
+productPesIds="15526, 15660"
 cloudEnvironments="Public"
 />
 # This subscription is authorized to send mail over TCP port 25

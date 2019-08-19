@@ -31,7 +31,7 @@ In an HDInsight cluster, the **headnodehost** is the default headnode on which a
 ## **Recommended Steps**
 
 1. You can connect to Ambari service using Secure Shell (SSH): `ssh <clustername>-ssh.azurehdinsight.net`
-	2. Run the following command to open host file /etc/host on one of the headnodes using Vi: `vi /etc/hosts/`
+2. Run the following command to open host file /etc/host on one of the headnodes using Vi: `vi /etc/hosts/`
 3. Look for the headnode with **headnodehost** next to it. This is the active node. The other headnode is the standby node.
 4. Run the following command to stop Ambari service on the standby node: `sudo systemctl stop ambari-server`
 

@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636767"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-portal-alerts"
+	displayOrder="260"
+	category="Portal and Monitoring"
 />
 
 # Monitor Cosmos DB with alerts

@@ -5,6 +5,7 @@
 	service="microsoft.storage"
 	resource="storage"
 	authors="Passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602730"
@@ -24,7 +25,9 @@ Container recovery is only possible under the following conditions. Please check
 2.  Storage Account replication is configured as [Geo-redundant storage (GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs) or [Read-access geo-redundant storage (RA-GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage)<br>
 3. A new Container with the same name has not been created since
 
-**Note:** Garbage collection could occur on our system at any time, so we cannot guarantee successful recovery.
+**Note:** As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This blob container and all its content may not be recoverable by Azure even when all conditions above are true.<br>
+
+Follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidentally deleted content can be recovered in the future.
 
 ## **Recommended documents**
 [Best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data)

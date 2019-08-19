@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-- [Frequently asked questions](https://aka.ms/BKP-ABS-FAQs)<br>
+- [Frequently asked questions](https://aka.ms/AB-FAQ-DPM)<br>
 - [Troubleshoot Azure Backup Server](https://aka.ms/AB-AA4dqdk)<br>

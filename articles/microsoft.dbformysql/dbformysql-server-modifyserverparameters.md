@@ -1,0 +1,30 @@
+<properties
+    pageTitle="Managing server parameters in Azure Database for MySQL"
+    description="Managing server parameters in Azure Database for MySQL"
+    service="microsoft.dbformysql"
+    resource="servers"
+    authors="jan-eng"
+    ms.author="janeng"
+    displayOrder="440"
+    selfHelpType="generic"
+    supportTopicIds="32640070"
+    resourceTags="servers, databases"
+    productPesIds="16221"
+    cloudEnvironments="public"
+    articleId="2e852f4c-511e-4f71-bb13-b7b13fb05801"
+/>
+
+# Managing server parameters in Azure Database for MySQL
+
+Azure Database for MySQL allows you to configure parameters at a server level using the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters) or the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli). To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal.
+
+## **Recommended Steps**
+
+* To change the **time_zone* parameter, follow the [instruction](https://docs.microsoft.com/azure/mysql/howto-server-parameters#working-with-the-time-zone-parameter) to populate the time zone table.
+* Review the [server parameter limitation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#considerations-and-limitations) for read replica server.
+* If a parameter you'd like to configure is not listed, let us know by creating a new request or voting for existing requests in our [feedback forum](https://feedback.azure.com/forums/597982-azure-database-for-mysql)
+
+## **Recommended Documents**
+
+* [Configure parameters using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters)<br>
+* [Configure parameters using the Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli)

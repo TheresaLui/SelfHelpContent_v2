@@ -30,10 +30,23 @@
 
 * Review the ["DSC node report becomes stuck 'in progress' state" section of the State Configuration troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#dsc-in-progress)
 
+### "One or more errors occurred"
+
+* If you are using Register-AzAutomationDscNode or Register-AzureRMAutomationDscNode and receiving this error, it is because the resource can't be found
+* This can often occur when trying to onboard nodes across subscriptions. To achieve this, follow the documentation at ["Onboarding Machines for Management"](https://docs.microsoft.com/azure/automation/automation-dsc-onboarding#registering-virtual-machines-across-azure-subscriptions).
+
 ### Checking error logs
 
 * See "Using xDscDiagnostics to Analyze DSC Logs" for information on how to collect logs Support will need to help you with your case
 * You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/dsc/troubleshooting/troubleshooting#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
+
+### DSC and VMSS
+
+* To deploy DSC with VMSS, consult the sample template ["VMSS Configuration managed by Azure Automation"](https://azure.microsoft.com/resources/templates/201-vmss-automation-dsc/)
+
+### Issues with a specific DSC Resource
+
+* For support with specific DSC resources, you will need to file an issue with the resource owner. Many resources can be found [on GitHub in the DSC Resources repository](https://github.com/PowerShell/DscResources#dsc-resources). 
 
 ## **Recommended Documents**
 

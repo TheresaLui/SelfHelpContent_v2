@@ -18,11 +18,7 @@
 
 ## **Recommended Documents**
 
-Azure Stack cloud operators monitor and manage the storage capacity of their Azure Stack deployment. The Azure Stack storage infrastructure allocates a subset of the total storage capacity of the Azure Stack deployment, to be used for storage services. The storage services store a tenant's data in shares on volumes that correspond to the nodes of the deployment.
-
-- [Overview of Azure Stack capacity planning](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planning-overview)
-- [Azure Stack Capacity Planner](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planner)
-- [Monitoring shares](https://docs.microsoft.com/azure-stack/operator/azure-stack-manage-storage-shares#monitor-shares)
-- [Manage available space](https://docs.microsoft.com/azure-stack/operator/azure-stack-manage-storage-shares#manage-available-space)
-- [Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences)
-
+* [Manage Azure Stack storage accounts](https://docs.microsoft.com/azure-stack/operator/azure-stack-manage-storage-accounts )
+* [Azure Stack User Storage Overview](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview)
+* [Overview of identity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-identity-overview)
+* [Allow or block invitations to B2B users from specific organizations](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
