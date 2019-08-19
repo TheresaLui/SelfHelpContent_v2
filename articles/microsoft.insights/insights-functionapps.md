@@ -22,7 +22,7 @@
 2. Verify the correct Application Insights instance is listed in the **Monitor** section
 3. Validate the **APPINSIGHTS_INSTRUMENTATIONKEY** is correct in your **Application Settings**
 
-**Common Questions**<br><br>
+### **Common Questions**
 
 **What is auto collected?**<br>
 FunctionApps v2 will auto collect HTTP, ServiceBus and SQL dependencies for .NET Applications. [See here](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#dependencies) for information.<br>
