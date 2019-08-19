@@ -10,8 +10,7 @@
     articleId="application-gateway-performance"
  	resourceTags=""
 	productPesIds="15922"
-    supportTopicIds="32436962"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Performance issue

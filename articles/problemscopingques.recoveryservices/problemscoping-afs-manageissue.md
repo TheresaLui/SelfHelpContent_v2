@@ -8,7 +8,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-	 articleId="04e81c26-e724-4026-b744-0edbf9ae5eeb"
+	       articleId="04e81c26-e724-4026-b744-0edbf9ae5eeb"
 />
 # Questions for Azure File Share backup management issue
 ---
@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure File share backup management issue",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure File share backup management issue",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "storage_account_name",
@@ -77,7 +82,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_code",

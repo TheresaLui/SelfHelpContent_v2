@@ -17,6 +17,11 @@
     "subscriptionRequired": false,
     "title": "MABS scheduled backup is not run automatically",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "MABS scheduled backup is not run automatically",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -99,7 +104,8 @@
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

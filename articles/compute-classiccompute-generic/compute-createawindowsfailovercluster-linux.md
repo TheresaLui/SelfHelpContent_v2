@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="configuration and setup/create a cluster"
-	description="configuration and setup/create a cluster"
+	pageTitle="configuration and setup/Create a linux failover cluster"
+	description="configuration and setup/Create a Linux failover cluster"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"

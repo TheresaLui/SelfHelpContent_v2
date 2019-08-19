@@ -11,7 +11,7 @@
     resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32573483"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Bad Gateway Error (502)

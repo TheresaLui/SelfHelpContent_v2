@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure VM Restore failure for Linux",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure VM Restore failure for Linux",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "using_VM",
@@ -69,7 +74,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
@@ -86,7 +92,8 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"

@@ -11,13 +11,13 @@
     diagnosticScenario="ApplicationGateway502BadGatewayError"
     supportTopicIds="32573483"
 	productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Bad Gateway Error (502)
 
 We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->** and have found the below issues that could be the cause of your Bad Gateway Error (502).
 
-## **Issues Identified**
+### **Issues Identified**
 
  <!--$failedCheckList-->[failedChecklist]<!--/$failedCheckList-->

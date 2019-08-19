@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "DPM issue configuring online backup",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "DPM issue configuring online backup",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -70,7 +75,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
 	{
 	   "id": "issue_type",

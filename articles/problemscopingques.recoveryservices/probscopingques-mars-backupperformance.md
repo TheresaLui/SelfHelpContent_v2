@@ -17,6 +17,11 @@
     "subscriptionRequired": false,
     "title": "MARS backup performance",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "MARS backup performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -46,7 +51,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "agent_location",

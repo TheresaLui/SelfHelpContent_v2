@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="management/manage or use a cluster in Azure"
-	description="management/manage or use a cluster in Azure"
+	pageTitle="management/manage or use a Linux cluster in Azure"
+	description="management/manage or use a Linux cluster in Azure"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -14,7 +14,7 @@
 	articleId="174c3fd1-0fa7-4354-b892-8ae3b669cd80"
 />
 
-# Management/Manage or use a cluster in Azure
+# Management/Manage or use a Linux cluster in Azure
 
 4 out of 5 customers resolved their issue using the guides listed below.<br>
 
