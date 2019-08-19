@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Subscription Management - Account Review"
-	description="Subscription Management - Account Review"
+	pageTitle="Subscription Management-Account Review"
+	description="Subscription Management-Account Review"
 	articleId="accountreview-problemscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
@@ -97,6 +97,7 @@
             "watermarkText": "",
             "required": true
             }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
