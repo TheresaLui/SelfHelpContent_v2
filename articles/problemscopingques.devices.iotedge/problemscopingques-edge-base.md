@@ -73,7 +73,7 @@
       "controlType": "multilinetextbox",
       "infoBalloonText": "Paste the output of `sudo iotedge check --output json` on Linux or `iotedge check --output json` on Windows.",
       "displayLabel": "Output of iotedge check",
-      "watermarkText": "{\"additional_info\":{\"docker_version\":\"3.0.5\",\"iotedged_version\":\"1.0.8\",\"now\":\"2019-08-15T19:21:07.163516400Z\",\"os\":{\"id\":\"windows\",\"version_id\":\"10.0.17763 \",\"bitness\":64}}...",
+      "watermarkText": "{\"additional_info\":{\"docker_version\":\"3.0.5\",\"iotedged_version\":\"1.0.8\",\"now\":\"2019-08-15T19:21:07.163516400Z\",\"os\":{\"id\":\"windows\",\"version_id\":\"10.0.17763 \",\"bitness\":64}}\n...",
       "required": false
     },
     {
@@ -83,7 +83,7 @@
       "controlType": "multilinetextbox",
       "infoBalloonText": "Paste the output of `sudo iotedge check` on Linux or `iotedge check` on Windows.",
       "displayLabel": "Output of iotedge check",
-      "watermarkText": "√ config.yaml is well-formed - OK\n√ config.yaml has well-formed connection string - OK\n√ container engine is installed and functional - OK...",
+      "watermarkText": "√ config.yaml is well-formed - OK\n√ config.yaml has well-formed connection string - OK\n√ container engine is installed and functional - OK\n...",
       "required": false
     },
     {
