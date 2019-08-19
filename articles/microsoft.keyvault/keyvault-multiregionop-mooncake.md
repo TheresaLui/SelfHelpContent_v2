@@ -16,21 +16,19 @@
 
 # How to configure an application for multi-region redundant operation
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* Key Vault features multiple layers of redundancy in order to maintain availability.
+* Key Vault features multiple layers of redundancy in order to maintain availability: [Availability and Redundancy Azure Key Vault](https://docs.azure.cn/key-vault/key-vault-disaster-recovery-guidance)
 
-    [Availability and Redundancy Azure Key Vault](https://docs.azure.cn/key-vault/key-vault-disaster-recovery-guidance)
-
-**Troubleshooting**
+### **Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?
 
-    [Change a key vault tenant ID after a subscription move](https://docs.azure.cn/key-vault/key-vault-subscription-move-fix)
+    * [Change a key vault tenant ID after a subscription move](https://docs.azure.cn/key-vault/key-vault-subscription-move-fix)
 
 * I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?
 
-    [Grant permission to many applications to access a key vault](https://docs.azure.cn/key-vault/key-vault-group-permissions-for-apps)
+    * [Grant permission to many applications to access a key vault](https://docs.azure.cn/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
 
