@@ -16,27 +16,22 @@
 
 # Advisory for Key Vault related tasks
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* How to Create and Manage a Key Vault
-
-    [Key Vault Getting Started Guide in PowerShell](https://docs.azure.cn/key-vault/key-vault-overview)
-
+* Create a Key Vault: [Key Vault Getting Started Guide in PowerShell](https://docs.azure.cn/key-vault/key-vault-overview)
 * Next you need to [Register the application in Azure Active Directory](https://docs.azure.cn/key-vault/key-vault-manage-with-cli2)
-
-    Then, authorize the Application to use secrets and keys.
+* Authorize the Application to use secrets and keys
 
 **Troubleshooting**
 
 * To see how to associate a certificate with an Azure AD application look at [Getting Started with Key Vault for Certificates](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/)
-
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?
-
-    [Change a key vault tenant ID after a subscription move](https://docs.azure.cn/key-vault/key-vault-subscription-move-fix)
+	
+	* [Change a key vault tenant ID after a subscription move](https://docs.azure.cn/key-vault/key-vault-subscription-move-fix)
 
 * I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?
 
-    [Grant permission to many applications to access a key vault](https://docs.azure.cn/key-vault/key-vault-group-permissions-for-apps)
+	* [Grant permission to many applications to access a key vault](https://docs.azure.cn/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
 
