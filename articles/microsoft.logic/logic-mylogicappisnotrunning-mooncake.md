@@ -16,14 +16,12 @@
 
 # My Logic App is not running
 
-## **Recommended steps**
+## **Recommended Steps**
 
-To resolve the most common issues, try one or more of the following methods.
+To resolve the most common issues, try one or more of the following methods:
 
-1. After saving a logic app with at least one trigger and action, if you aren't seeing any runs firing, follow troubleshooting steps mentioned under below link.
+1. After saving a logic app with at least one trigger and action, if you aren't seeing any runs firing, follow the [troubleshooting steps](https://docs.azure.cn/logic-apps/logic-apps-diagnosing-failures)
 
-    [Troubleshoot Logic App Runs](https://docs.azure.cn/logic-apps/logic-apps-diagnosing-failures)
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [For additional details, see Logic Apps troubleshooting.](https://docs.azure.cn/logic-apps/logic-apps-diagnosing-failures)
