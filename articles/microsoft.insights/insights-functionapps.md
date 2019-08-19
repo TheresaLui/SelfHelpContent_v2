@@ -30,7 +30,7 @@ FunctionApps v2 will auto collect HTTP, ServiceBus and SQL dependencies for .NET
 **Missing or partial data**<br>
 Sampling is enabled by default which can make it appear as if some data is not being sent. [Click here](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#configure-sampling) for information.<br>
 
-The [log configuration settings](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#log-configuration-in-hostjson) in your host.json can cause certain data to disappear from Application Insights. For example, if you set [Host.Results](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#category-hostresults) to **Warning** you will not see your executions as server requests<br>
+The [log configuration settings](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#log-configuration-in-hostjson) in your host.json can cause certain data to disappear from Application Insights. For example, if you set [Host.Results](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#category-hostresults) to **Warning** you will not see your executions as server requests.<br>
 
 **Custom Logs and Telemetry**<br>
 To write custom logs see the [write logs in C# functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#write-logs-in-c-functions) or [write logs in JavaScript functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#write-logs-in-javascript-functions) documentation.<br>
