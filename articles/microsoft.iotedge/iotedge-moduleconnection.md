@@ -3,17 +3,17 @@
 	description="IoT Edge module not connecting"
 	service="microsoft.devices"
 	resource="iotedge"
-	authors="kgremban"
-	ms.author="kgremban"
+	authors="veyalla,kgremban"
+	ms.author="veyalla,kgremban"
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32680961"
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="642e98fe-b62c-4c7e-9550-87f54fab3a9b"
 />
 
-# IoT Edge module not connecting
+# IoT Edge module loses connection
 
 If your IoT Edge device has been running for a while and then modules stop being able to connect, it's probably because something changed in the device's configuration or connection. 
 

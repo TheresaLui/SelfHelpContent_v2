@@ -3,10 +3,10 @@
 	description="After installation, the IoT Edge agent doesn't start"
 	service="microsoft.devices"
 	resource="iotedge"
-	authors="kgremban"
-	ms.author="kgremban"
+	authors="veyalla,kgremban"
+	ms.author="veyalla,kgremban"
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32680959"
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
@@ -19,13 +19,20 @@ When you install or update Azure IoT Edge, or even when an IoT Edge device resta
 
 ## **Recommended steps**
 
-* Run the IoT Edge troubleshooting tool on your IoT Edge device to check for common configuration or connectivity issues.
+1. Run the IoT Edge troubleshooting tool on your IoT Edge device to check for common configuration or connectivity issues.
+
   * On Linux devices: `sudo iotedge check --verbose`
   * On Windows devices: `iotedge check --verbose`
-* View the logs of the IoT Edge security manager, which should tell you whether the image download is still in progress or failed.
+
+2. View the logs of the IoT Edge security manager, which should tell you whether the image download is still in progress or failed.
+
   * On Linux devices: `sudo journalctl -u iotedge -f`
   * On Windows devices: `. {Invoke-WebRequest -useb https://aka.ms/iotedge-win} | Invoke-Expression; Get-IoTEdgeLog`
 
+3. Restart the IoT Edge service.
+
+  * On Linux devices: `sudo systemctl restart iotedge`
+  * On Windows devices: `Stop-Service iotedge` and `Start-Service iotedge`
 
 ## **Recommended documents**
 
