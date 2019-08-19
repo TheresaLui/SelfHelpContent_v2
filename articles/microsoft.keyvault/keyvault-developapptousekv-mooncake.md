@@ -24,8 +24,8 @@
 * Authorize the application to use secrets and keys:
 
 ``` 
-	az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign
-    	az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --secret-permissions get 
+az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign
+az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --secret-permissions get 
 ```
 
 ### **Troubleshooting**
