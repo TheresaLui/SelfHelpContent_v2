@@ -15,44 +15,34 @@
 />
 
 # 4 Ways to Store Keys with Key Vault
-## **Recommended steps**
 
-* Please make sure you have installed [PowerShell](https://www.powershellgallery.com/packages/AzureRM/4.1.0). Below are 4 methods for storing keys in a key vault.
+## **Recommended Steps**
 
-* Import key into a key vault.
-    ```
-        $key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVault' -Name 'ContosoFirstKey' -KeyFilePath 'c:\softkey.pfx' -KeyFilePassword $securepfxpwd
-    ```
+* Please make sure you have installed [PowerShell](https://www.powershellgallery.com/packages/AzureRM/4.1.0). Below are 4 methods for storing keys in a key vault:
 
-* Bring your own key (BYOK).
-    ```
-        $key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVaultHSM' -Name 'ContosoFirstHSMKey' -KeyFilePath 'c:\ITByok.byok' -Destination 'HSM'
-    ```
+* Import key into a key vault: `$key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVault' -Name 'ContosoFirstKey' -KeyFilePath 'c:\softkey.pfx' -KeyFilePassword $securepfxpwd`
+* Bring your own key (BYOK): `$key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVaultHSM' -Name 'ContosoFirstHSMKey' -KeyFilePath 'c:\ITByok.byok' -Destination 'HSM'`
+* Generate a key: `$key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVault' -Name 'ContosoFirstKey' -Destination 'Software'`
+* Backup a key using Key Vault backup capability and then restore a backed-up key:
 
-* Generate a key.
-    ```
-        $key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVault' -Name 'ContosoFirstKey' -Destination 'Software'
-    ```
-
-* Backup a key using Key Vault backup capability and then restore a backed-up key.
-    ```
+	```
         Backup-AzureKeyVaultKey -VaultName 'MyKeyVault' -Name 'MyKey' -OutputFile 'C:\Backup.blob'
         Restore-AzureKeyVaultKey -VaultName 'MyKeyVault' -InputFile "C:\Backup.blob"
-    ```
+    	```
 
-* Overview of basic commands for Key Vault
+* Overview of basic commands for Key Vault: 
 
-    [Key Vault Getting Started Guide](https://docs.azure.cn/key-vault/key-vault-get-started)
+    * [Key Vault Getting Started Guide](https://docs.azure.cn/key-vault/key-vault-get-started)
 
-**Troubleshooting**
+### **Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?
 
-    [Change a key vault tenant ID after a subscription move](https://docs.azure.cn/key-vault/key-vault-subscription-move-fix)
+    * [Change a key vault tenant ID after a subscription move](https://docs.azure.cn/key-vault/key-vault-subscription-move-fix)
 
 * I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?
 
-    [Grant permission to many applications to access a key vault](https://docs.azure.cn/key-vault/key-vault-group-permissions-for-apps)
+    * [Grant permission to many applications to access a key vault](https://docs.azure.cn/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
 
