@@ -7,9 +7,9 @@
     ms.author="mahi"
     displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32511208"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="15078"
+    productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="601bdc6e-1aa5-4dde-994a-f388dd10e75c"
 />
