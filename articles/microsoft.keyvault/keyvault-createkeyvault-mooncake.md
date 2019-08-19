@@ -16,7 +16,7 @@
 
 # How to Create and Manage a Key Vault
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Create a New Key Vault: [Key Vault Getting Started Guide](https://docs.azure.cn/key-vault/key-vault-get-started)
 * You can also create a key vault using the Azure Portal: [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
