@@ -5,9 +5,9 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32633817"
+	supportTopicIds="32607561"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="public"
 	schemaVersion="1"
 />
 # Account Review
