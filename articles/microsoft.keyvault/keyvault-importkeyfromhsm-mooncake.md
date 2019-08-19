@@ -18,12 +18,11 @@
 
 ## **Recommended Steps**
 
-* Before importing a HSM-protected key to key vault you will need to download the BYOK toolset. Please note that is feature is available on Windows only
-* The link above shows you how to generate a key using Thales generatekey program and transfer your key to your key vault.
+* Before importing a HSM-protected key to key vault you will need to download the BYOK toolset. Please note that is feature is available on Windows only.
+* The link above shows you how to generate a key using Thales generatekey program and transfer your key to your key vault
 
-**Troubleshooting**
+### **Troubleshooting**
 
-* How to Setup a Key Vault for HSM-protected Keys?
 * There are two different types of Key Vaults: "Premium" and "Standard". One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys.
 
 ## **Recommended Documents**
