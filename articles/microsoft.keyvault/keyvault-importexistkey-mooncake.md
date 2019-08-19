@@ -15,31 +15,22 @@
 />
 
 # How to Import Existing Keys into a Key Vault
+
 ## **Recommended Steps**
 
-* Before importing a HSM-protected key to key vault you will need to download the BYOK toolset. Please note that is feature is available on Windows only
+* Before importing a HSM-protected key to key vault you will need to download the BYOK toolset. Please note that is feature is available on Windows only.
+* The link above shows you how to generate a key using Thales generatekey program and transfer your key to your key vault
+* Import key into a key vault: `$key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVault' -Name 'ContosoFirstKey' -KeyFilePath 'c:\softkey.pfx' -KeyFilePassword $securepfxpwd`
+* Bring your own key (BYOK): `$key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVaultHSM' -Name 'ContosoFirstHSMKey' -KeyFilePath 'c:\ITByok.byok' -Destination 'HSM'`
+* Backup a key using Key Vault backup capability and then restore a backed-up key:
 
-* The link above shows you how to generate a key using Thales generatekey program and transfer your key to your key vault.
+```
+Backup-AzureKeyVaultKey -VaultName 'MyKeyVault' -Name 'MyKey' -OutputFile 'C:\Backup.blob'
+Restore-AzureKeyVaultKey -VaultName 'MyKeyVault' -InputFile "C:\Backup.blob"
+```
 
-* Import key into a key vault.
-    ```
-        $key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVault' -Name 'ContosoFirstKey' -KeyFilePath 'c:\softkey.pfx' -KeyFilePassword $securepfxpwd
-    ```
+### **Troubleshooting**
 
-* Bring your own key (BYOK).
-    ```
-        $key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVaultHSM' -Name 'ContosoFirstHSMKey' -KeyFilePath 'c:\ITByok.byok' -Destination 'HSM'
-    ```
-
-* Backup a key using Key Vault backup capability and then restore a backed-up key.
-    ```
-        Backup-AzureKeyVaultKey -VaultName 'MyKeyVault' -Name 'MyKey' -OutputFile 'C:\Backup.blob'
-        Restore-AzureKeyVaultKey -VaultName 'MyKeyVault' -InputFile "C:\Backup.blob"
-    ```
-
-**Troubleshooting**
-
-* How to Setup a Key Vault for HSM-protected Keys?
 * There are two different types of Key Vaults: "Premium" and "Standard". One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys.
 
 ## **Recommended Documents**
