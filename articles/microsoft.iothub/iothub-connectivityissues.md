@@ -10,13 +10,13 @@
 	supportTopicIds="32596603,32596668,32596620,32596621,32596622"
 	resourceTags=""
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="88730035-f99d-44e6-900f-fdaa9d066f27"
 />
 
 # I'm seeing connectivity issues with my IoT devices
 
-## **Recommended Steps**
+## Recommended Steps
 
 1. Make sure the device isn't accidentally disabled in [IoT Devices tab](data-blade:Microsoft_Azure_IotHub.DeviceExplorerBlade.id.$resourceId)
 2. If you're having trouble connecting your device to IoT Hub for the first time, try testing the connection with a [default sample](https://docs.microsoft.com/azure/iot-hub/tutorial-connectivity) and running our [diagnostic tool](https://github.com/azure/iothub-diagnostics)
