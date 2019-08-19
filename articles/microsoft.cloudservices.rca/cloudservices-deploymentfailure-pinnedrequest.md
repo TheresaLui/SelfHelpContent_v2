@@ -7,7 +7,7 @@
 	authors="ChiragPavecha"
 	ms.author="chiragpa"
 	displayOrder=""
-	articleId="deploymentfailure_rca-constrainedallocationfailed"
+	articleId="cloudservices-deploymentfailure-pinnedrequest"
 	diagnosticScenario="DeploymentFailure,"
 	selfHelpType="rca"
 	supportTopicIds="32565644,32565474,32569897,32565476,32565478,32565479"
@@ -36,7 +36,7 @@ We apologize for any inconvenience this may have caused you. We are actively wor
 
 ## **Recommended Documents**
 
-- [How Allocation works](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#background--how-allocation-works)<br>
-- [Why Allocation failures happen](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#why-allocation-failure-happens)<br>
+- [How does Allocation work?](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#background--how-allocation-works)<br>
+- [Why do Allocation failures happen?](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#why-allocation-failure-happens)<br>
 - [Common scenarios for Allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#common-issues)<br>
 - [Possible solutions for Allocation failure](https://docs.microsoft.com//azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
