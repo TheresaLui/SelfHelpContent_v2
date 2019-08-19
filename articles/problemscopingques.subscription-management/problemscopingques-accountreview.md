@@ -25,7 +25,7 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
-        {
+	{
             "id": "student_details1",
             "order": 2,
             "controlType": "dropdown",
@@ -80,15 +80,15 @@
             "infoBalloonText": " Verify your phone/contact details <a href='https://portal.azure.com/#blade/Microsoft_Azure_Billing/BillingMenuBlade/Overview'>here</a>.",
             "required": false
         },
-        {
+	{
             "id": "detaileddesc_details",
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Detailed description of how Azure is being used",
             "watermarkText": "Provide the detailed description of how Azure is being used",
-            "required": false
+            "required": true
         },
-        {
+	{
             "id": "problem_description",
             "order": 8,
             "controlType": "multilinetextbox",
@@ -97,7 +97,6 @@
             "watermarkText": "",
             "required": true
             }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
