@@ -83,7 +83,7 @@
       "controlType": "multilinetextbox",
       "infoBalloonText": "Paste the output of `sudo iotedge check` on Linux or `iotedge check` on Windows.",
       "displayLabel": "Output of iotedge check",
-      "watermarkText": "Configuration checks\n--------------------\n√ config.yaml is well-formed - OK\n√ config.yaml has well-formed connection string - OK\n√ container engine is installed and functional - OK...",
+      "watermarkText": "√ config.yaml is well-formed - OK\n√ config.yaml has well-formed connection string - OK\n√ container engine is installed and functional - OK...",
       "required": false
     },
     {
