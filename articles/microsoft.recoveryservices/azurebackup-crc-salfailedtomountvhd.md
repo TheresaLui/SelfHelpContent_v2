@@ -19,7 +19,7 @@
 # Error SalFailedToMountVhd
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the MARS agent is not able to mount the metadata VHD (stored in scratch space)
+We have identified that your backup operation failed because the MARS agent is not able to mount the metadata VHD (stored in scratch space).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
