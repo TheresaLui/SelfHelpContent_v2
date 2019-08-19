@@ -37,7 +37,7 @@
                     "text": "Working for a Company?"
                 },
                 {
-                    "value": "Using Azure as an individual?"
+                    "value": "Using Azure as an individual?",
                     "text": "Using Azure as an individual?"
                 },
                 {
