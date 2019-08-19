@@ -97,7 +97,6 @@
             "watermarkText": "",
             "required": true
             }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
