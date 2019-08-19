@@ -51,7 +51,7 @@
           "text": "1.0.7"
         },
         {
-          "value": "Other",
+          "value": "dont_know_answer",
           "text": "Other (please specify) or not available"
         }
       ],
@@ -59,7 +59,7 @@
     },
     {
       "id": "edge_version_specify",
-      "visibility": "edge_version == Other",
+      "visibility": "edge_version == dont_know_answer",
       "order": 4,
       "controlType": "textbox",
       "displayLabel": "Enter IoT Edge version",
@@ -88,7 +88,7 @@
     },
     {
       "id": "os",
-      "visibility": "edge_version == 107 || edge_version == Other",
+      "visibility": "edge_version == 107 || edge_version == dont_know_answer",
       "order": 7,
       "controlType": "dropdown",
       "displayLabel": "Device (host) operating system",
@@ -159,7 +159,7 @@
           "text": "Raspbian Buster"
         },
         {
-          "value": "Other",
+          "value": "dont_know_answer",
           "text": "Other"
         }
       ],
@@ -167,7 +167,7 @@
     },
     {
       "id": "architecture",
-      "visibility": "edge_version == 107 || edge_version == Other",
+      "visibility": "edge_version == 107 || edge_version == dont_know_answer",
       "order": 8,
       "controlType": "dropdown",
       "displayLabel": "Architecture",
@@ -190,7 +190,7 @@
     },
     {
       "id": "container_os",
-      "visibility": "edge_version == 107 || edge_version == Other",
+      "visibility": "edge_version == 107 || edge_version == dont_know_answer",
       "order": 9,
       "controlType": "dropdown",
       "displayLabel": "Container operating system",
@@ -209,7 +209,7 @@
     },
     {
       "id": "docker_version",
-      "visibility": "edge_version == 107 || edge_version == Other",
+      "visibility": "edge_version == 107 || edge_version == dont_know_answer",
       "order": 10,
       "controlType": "textbox",
       "infoBalloonText": "Run `docker version` (`docker -H npipe:////./pipe/iotedge_moby_engine version` for Moby on Windows)",
