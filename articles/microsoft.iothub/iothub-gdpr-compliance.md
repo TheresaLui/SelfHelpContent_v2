@@ -16,7 +16,7 @@
 
 # IoT Hub GDPR and Compliance
 
-## Recommended Documents
+## **Recommended Documents**
 
 **Compliance and Certification**
 
