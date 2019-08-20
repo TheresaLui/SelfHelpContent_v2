@@ -19,7 +19,7 @@ If you see a cloud image with a single blue raindrop, this happens when partiall
 
 ## **Recommended steps**
 
-1. Use InPrivate or Incognito mode in your browser.
-1. Try clearing browser cache and cookies, then refresh the page.
-1. Try restarting the browser.
+1. Use InPrivate or Incognito mode in your browser
+1. Try clearing browser cache and cookies, then refresh the page
+1. Try restarting the browser
 

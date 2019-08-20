@@ -31,9 +31,9 @@ Whether deploying custom code or an Azure service as an IoT Edge module, there a
   * On Linux devices: `sudo docker ps -a` to get the container names, then `sudo docker rm -f <container name>`
   * On Windows devices: `docker -H npipe:////./pipe/iotedge_moby_engine ps -a` to get the container names, then `docker -H npipe:////./pipe/iotedge_moby_engine rm -f <container name>`
 
-* If your module is a third-party module from the [IoT Edge module marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules), refer to their documentation for additional information. 
+* If your module is a third-party module from the [IoT Edge module marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules), refer to their documentation for additional information. 
 
 ## **Recommended documents**
 
-[Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)<br>
-[Container management for production deployments](https://docs.microsoft.com/azure/iot-edge/production-checklist#container-management)
+* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
+* [Container management for production deployments](https://docs.microsoft.com/azure/iot-edge/production-checklist#container-management)

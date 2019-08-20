@@ -26,5 +26,5 @@ The Azure Blob Storage on IoT Edge module enables local storage that can also sy
 
 ## **Recommended documents**
 
-[Store data at the edge with Azure Blob Storage on IoT Edge](https://docs.microsoft.com/azure/iot-edge/how-to-store-data-blob)<br>
-[Deploy the Azure Blob Storage on IoT Edge module to your device](https://docs.microsoft.com/azure/iot-edge/how-to-deploy-blob)
+* [Store data at the edge with Azure Blob Storage on IoT Edge](https://docs.microsoft.com/azure/iot-edge/how-to-store-data-blob)
+* [Deploy the Azure Blob Storage on IoT Edge module to your device](https://docs.microsoft.com/azure/iot-edge/how-to-deploy-blob)

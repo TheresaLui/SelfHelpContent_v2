@@ -27,4 +27,4 @@ Azure IoT Edge is designed to operate while offline, and then automatically reco
 
 ## **Recommended documents**
 
-[Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge)
+* [Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge)

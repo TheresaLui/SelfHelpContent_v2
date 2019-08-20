@@ -25,5 +25,5 @@ If your IoT Edge device has been running for a while and then modules stop being
 
 ## **Recommended documents**
 
-[Install production certificates](https://docs.microsoft.com/azure/iot-edge/production-checklist#install-production-certificates)<br>
-[Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge)
+* [Install production certificates](https://docs.microsoft.com/azure/iot-edge/production-checklist#install-production-certificates)
+* [Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge)

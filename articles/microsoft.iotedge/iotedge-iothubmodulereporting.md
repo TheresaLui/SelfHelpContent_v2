@@ -29,5 +29,5 @@ There are several ways to check whether a module is running on your IoT Edge dev
 
 ## **Recommended documents**
 
-[Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)<br>
-[React to IoT Hub events by using Event Grid](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid)
+* [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
+* [React to IoT Hub events by using Event Grid](https://docs.microsoft.com/azure/iot-hub/iot-hub-event-grid)

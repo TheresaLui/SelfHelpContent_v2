@@ -30,6 +30,6 @@ For a downstream device to connect to an IoT Edge gateway, the devices need to t
 
 ## **Recommended documents**
 
-[Configure an IoT Edge device to act as a transparent gateway](https://docs.microsoft.com/azure/iot-edge/how-to-create-transparent-gateway)<br>
-[Authenticate a downstream device to Azure IoT Hub](https://docs.microsoft.com/azure/iot-edge/how-to-authenticate-downstream-device)<br>
-[Connect a downstream device to an Azure IoT Edge gateway](https://docs.microsoft.com/azure/iot-edge/how-to-connect-downstream-device)
+* [Configure an IoT Edge device to act as a transparent gateway](https://docs.microsoft.com/azure/iot-edge/how-to-create-transparent-gateway)
+* [Authenticate a downstream device to Azure IoT Hub](https://docs.microsoft.com/azure/iot-edge/how-to-authenticate-downstream-device)
+* [Connect a downstream device to an Azure IoT Edge gateway](https://docs.microsoft.com/azure/iot-edge/how-to-connect-downstream-device)

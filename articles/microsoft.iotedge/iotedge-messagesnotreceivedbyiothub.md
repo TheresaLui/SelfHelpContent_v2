@@ -32,5 +32,5 @@ If you aren't seeing messages arriving at IoT Hub from your IoT Edge device, tra
 
 ## **Recommended documents**
 
-[Azure IoT Edge standard diagnostic steps](https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps)<br>
-[IoT Hub quotas and throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling)
+* [Azure IoT Edge standard diagnostic steps](https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps)
+* [IoT Hub quotas and throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling)
