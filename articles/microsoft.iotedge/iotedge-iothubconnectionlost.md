@@ -19,8 +19,8 @@ If your IoT Edge device was running successfully for a while, then eventually lo
 
 ## **Recommended steps**
 
-* On the IoT Edge device, run `iotedge check --verbose`. Look particularly at the results of the connectivity checks. 
-* Check the version of IoT Edge on your device by running `iotedge --version`. Update your device to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues.
+* On the IoT Edge device, run the command **iotedge check --verbose**. Look particularly at the results of the connectivity checks. 
+* Check the version of IoT Edge on your device by running the command **iotedge --version**. Update your device to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues.
 
 ## **Recommended documents**
 

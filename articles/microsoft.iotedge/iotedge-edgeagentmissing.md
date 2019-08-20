@@ -19,20 +19,18 @@ When you install or update Azure IoT Edge, or even when an IoT Edge device resta
 
 ## **Recommended steps**
 
-1. Run the IoT Edge troubleshooting tool on your IoT Edge device to check for common configuration or connectivity issues.
+For Linux devices:
 
-  * On Linux devices: `sudo iotedge check --verbose`
-  * On Windows devices: `iotedge check --verbose`
+1. Run the IoT Edge troubleshooting tool on your IoT Edge device to check for common configuration or connectivity issues: `sudo iotedge check --verbose` 
+2. View the logs of the IoT Edge security manager, which should tell you whether the image download is still in progress or failed: `sudo journalctl -u iotedge -f`
+3. Restart the IoT Edge service: `sudo systemctl restart iotedge`
 
-2. View the logs of the IoT Edge security manager, which should tell you whether the image download is still in progress or failed.
 
-  * On Linux devices: `sudo journalctl -u iotedge -f`
-  * On Windows devices: `. {Invoke-WebRequest -useb https://aka.ms/iotedge-win} | Invoke-Expression; Get-IoTEdgeLog`
+For Windows devices:
 
-3. Restart the IoT Edge service.
-
-  * On Linux devices: `sudo systemctl restart iotedge`
-  * On Windows devices: `Stop-Service iotedge` and `Start-Service iotedge`
+1. Run the IoT Edge troubleshooting tool on your IoT Edge device to check for common configuration or connectivity issues: `iotedge check --verbose`
+2. View the logs of the IoT Edge security manager, which should tell you whether the image download is still in progress or failed: `. {Invoke-WebRequest -useb https://aka.ms/iotedge-win} | Invoke-Expression; Get-IoTEdgeLog`
+3. Restart the IoT Edge service: `Stop-Service iotedge` and `Start-Service iotedge`
 
 ## **Recommended documents**
 
