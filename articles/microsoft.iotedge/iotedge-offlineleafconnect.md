@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	articleId="ff4317fd-3c49-446d-882b-bef72440ed17"
+	articleId="144f0fb6-05c9-42fa-ad82-aaa48e0301fa"
 />
 
 # My IoT Edge gateway device can't connect to downstream devices while offline
