@@ -5,7 +5,7 @@
 	resource="solutions"
 	resourceTags=""
 	authors="adoylemsft,yossiy,dalek"
-	ms.author="yossiy,dalek"
+	ms.author="adoyle"
 	displayOrder=""
 	articleId="d5341afc-2993-482c-8342-31a552c28939"
 	selfHelpType="diagnoseandsolve"
