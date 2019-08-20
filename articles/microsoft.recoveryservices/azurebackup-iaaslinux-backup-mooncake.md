@@ -17,6 +17,7 @@
 # Backup of Linux Azure Virtual Machine fails
 
 ## **Recommended Steps**
+
 - [Ensure your Linux VM agent is up to date before troubleshooting further](https://docs.azure.cn/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-is-out-of-date-for-linux-vms)
 - [Ensure there is connectivity between VM and Azure Storage endpoints](https://docs.azure.cn/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access)
 - [If your Linux OS/Kernel version is not listed here, then it is not supported](https://docs.azure.cn/backup/backup-support-matrix-iaas#operating-system-support-linux)
