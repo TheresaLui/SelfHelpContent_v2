@@ -71,8 +71,8 @@
       "visibility": "edge_version == 108OrHigher",
       "order": 5,
       "controlType": "multilinetextbox",
-      "displayLabel": "Output of 'iotedge check --output json'",
-      "infoBalloonText": "You might need to add `sudo` on Linux: `sudo iotedge check --output json`",
+      "displayLabel": "Output of 'sudo iotedge check --output json'",
+      "infoBalloonText": "You might need to remove `sudo` on Windows: `iotedge check --output json`",
       "watermarkText": "Example: \n{\"additional_info\":{\"docker_version\":\"3.0.5\",\"iotedged_version\":\"1.0.8\",\"now\":\"2019-08-15T19:21:07.163516400Z\",\"os\":{\"id\":\"windows\",\"version_id\":\"10.0.17763 \",\"bitness\":64}}\n...",
       "required": false
     },
@@ -81,8 +81,8 @@
       "visibility": "edge_version == 107",
       "order": 6,
       "controlType": "multilinetextbox",
-      "displayLabel": "Output of 'iotedge check'",
-      "infoBalloonText": "You might need to add `sudo` on Linux: `sudo iotedge check`",
+      "displayLabel": "Output of 'sudo iotedge check'",
+      "infoBalloonText": "You might need to remove `sudo` on Windows: `iotedge check`",
       "watermarkText": "Example: \n√ config.yaml is well-formed - OK\n√ config.yaml has well-formed connection string - OK\n√ container engine is installed and functional - OK\n...",
       "required": false
     },
