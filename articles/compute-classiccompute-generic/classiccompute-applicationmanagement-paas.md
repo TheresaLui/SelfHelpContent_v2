@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="f71c7180-b3d1-49f0-97fe-03fbc271affe"
 />
 
 # worker role (paas)/configuration and management/application management

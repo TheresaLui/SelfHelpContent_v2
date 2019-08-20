@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
+	articleId="fdccae2e-f103-4a82-be97-33f6cc3a7658"
 />
 
 # ASC/Pending Verification for Fraud Protection

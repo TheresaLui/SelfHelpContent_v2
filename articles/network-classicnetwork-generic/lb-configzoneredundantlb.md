@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="eb2f0914-cfb3-44d6-94d3-f784a65de312"
 />
 
 # configure zone-redundant Load Balancer

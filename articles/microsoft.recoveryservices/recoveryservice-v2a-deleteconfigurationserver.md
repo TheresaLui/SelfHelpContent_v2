@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="c1b757da-9b6f-4244-baba-b53e5a635f50"
 />
 
 # Delete a configuration server

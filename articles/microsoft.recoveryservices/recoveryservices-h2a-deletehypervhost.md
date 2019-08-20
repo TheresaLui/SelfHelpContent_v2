@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="bceb35e4-5446-44ae-8215-edc9439b540c"
 />
 
 # Delete Hyper-V Host in Azure

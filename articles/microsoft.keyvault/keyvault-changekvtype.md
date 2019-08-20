@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="63f236da-16f3-43cf-9918-6b1dfed5086a"
 />
 
 # How to Set Key Vault Type for Azure Key Vault

@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="9b426a96-be56-4c89-b53f-83502e35315c"
+/>
 
 # Problems with pass-through authentication connectors
 

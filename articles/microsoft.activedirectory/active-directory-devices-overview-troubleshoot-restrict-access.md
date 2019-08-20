@@ -10,6 +10,7 @@
 	resourceTags="devices_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="c2c4333b-f96f-4c41-876b-3f9919fb4a49"
 />
 
 # Can I restrict access to Devices in the Azure AD administration portal?

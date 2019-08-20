@@ -8,7 +8,8 @@
   cloudEnvironments="public"
   resourceTags="registeredapps_allapps_button, registeredapps_singleapp_properties,directory_overview"
   displayOrder="2508"
- />
+ 	articleId="2490e88b-8c7c-405e-91bb-265386536110"
+/>
 
 # Problems developing my application
 

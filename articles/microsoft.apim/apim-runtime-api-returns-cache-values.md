@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="f5527052-2b96-45f7-aa10-63ade24067a3"
 />
 
 # API always returns cache values

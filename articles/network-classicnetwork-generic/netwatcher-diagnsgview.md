@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="9584a772-20ff-4c51-b665-f5f454202a44"
 />
 
 # diagnostictools/nsgview

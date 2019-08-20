@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16094"
 	cloudEnvironments="public"
+	articleId="cd011511-2575-40c2-9e8e-eb523bda1eb0"
 />
 
 # Modify VPN Gateway connection settings

@@ -8,7 +8,8 @@
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="1107"
- />
+ 	articleId="756a9296-ec1d-4f22-a723-820d173e4a04"
+/>
 
 # Problems configuring and provisioning users to an application
 

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="b7348189-a484-4cad-b5bd-638a432c7ca5"
 />
 
 # Develop for Azure Files 

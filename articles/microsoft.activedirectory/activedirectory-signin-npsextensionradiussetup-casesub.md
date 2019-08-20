@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="63cdd1e7-cefa-4f67-b331-88f6af759eca"
+/>
 
 # NPS Extension / RADIUS Setup and Configuration
 

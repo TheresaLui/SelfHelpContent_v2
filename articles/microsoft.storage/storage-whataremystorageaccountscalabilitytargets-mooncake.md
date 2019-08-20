@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="4284c5ed-f353-40e8-aa55-e534595bb7eb"
 />
 
 # What are my Storage account scalability targets?

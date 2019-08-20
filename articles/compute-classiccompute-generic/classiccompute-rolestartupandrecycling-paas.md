@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="c887b1f7-c005-422d-bf7f-7a14a718c8b2"
 />
 
 # worker role (paas)/application and service availability/role startup and recycling

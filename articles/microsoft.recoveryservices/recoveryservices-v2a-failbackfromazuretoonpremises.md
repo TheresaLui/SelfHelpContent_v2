@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="3ba69fe9-aa9b-42cf-a1d2-d24baee92c89"
 />
 
 # Site Recovery (VMware to Azure)/Failback from Azure to on-premises

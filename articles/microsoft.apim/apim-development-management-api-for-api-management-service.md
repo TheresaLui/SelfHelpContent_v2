@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="1cf765fa-92db-4317-a384-1ebcc5e237f7"
 />
 
 # Management API for API management service

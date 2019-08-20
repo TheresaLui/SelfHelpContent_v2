@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="f97caaf6-313e-4dd9-8568-335674c112eb"
 />
 
 # remoteapp deployment/custom template creation, modification, and uploading

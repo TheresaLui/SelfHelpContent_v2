@@ -4,17 +4,21 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32513964"
 	resourceTags=""
-	productPesIds="15571,15797"
+	productPesIds="15571,15797,16470"
 	cloudEnvironments="public"
+	articleId="d24bcf5a-b3ad-486c-86a2-bcf511139deb"
 />
 
 # Migration and Move/Migrate IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Frequently asked questions about migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-faq?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>
 * [Review most common migration errors](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-errors?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>

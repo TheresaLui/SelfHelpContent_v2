@@ -8,7 +8,8 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
+ 	articleId="780ea717-ab4d-4718-bafc-d6afc473dec7"
+/>
 # I need to generate a report on who is registering or resetting passwords
 
 ## **Recommended steps**

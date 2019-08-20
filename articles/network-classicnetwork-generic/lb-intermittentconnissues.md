@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="9182f40a-a2c1-4080-a3e5-7ca291bfd42b"
 />
 
 # Intermittent connectivity issues

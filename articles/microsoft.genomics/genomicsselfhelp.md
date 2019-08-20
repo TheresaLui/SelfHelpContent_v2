@@ -9,6 +9,7 @@
 	resourceTags="Genomics"
 	productPesIds="16323"
 	cloudEnvironments="public"
+	articleId="97c01d2d-49f7-4326-97fc-387fb26b3ac1"
 />    
 # Check the Genomics FAQ to see if it Resolves your Issue
 

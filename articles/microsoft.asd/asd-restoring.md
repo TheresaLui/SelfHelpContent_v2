@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16513"
 	cloudEnvironments="public"
+	articleId="6c750bf3-9761-44f7-9a1a-66207a7c29b4"
 />
 
 # ASD/Restoring an Accidently Deleted Domain

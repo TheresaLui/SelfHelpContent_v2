@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16578"
     cloudEnvironments="public"
-    />
+    	articleId="496e4000-6529-4e27-afc9-999f477f68fa"
+/>
 
 # Directory deletion problem with removing subscriptions
 

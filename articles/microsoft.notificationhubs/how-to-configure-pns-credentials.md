@@ -10,6 +10,7 @@
 	productPesIds=""
 	supportToicIds =""
 	cloudEnvironments="public"
+	articleId="bd310504-f4d7-4487-9016-17f1d4cd2bc5"
 />
 
 # How do I configure PNS credentials and get started?

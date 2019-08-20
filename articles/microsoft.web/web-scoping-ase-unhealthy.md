@@ -7,6 +7,7 @@
 	supportTopicIds="32581609"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="0cb46f7e-9295-4cf5-8459-16fc48c55f30"
 />
 
 # ASE is unavailable or unhealthy

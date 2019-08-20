@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="6e122525-b660-4331-a071-2f0e0db865c5"
 />
 
 # How to Create and Manage a Key Vault

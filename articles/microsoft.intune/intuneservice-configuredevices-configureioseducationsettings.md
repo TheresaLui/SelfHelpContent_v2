@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="fc56915b-d5cc-45b8-a226-c972ecda84ce"
 />
 
 # Configure Devices - Configure iOS education settings

@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="4eb77a8e-81a6-48b6-aa91-ac7fb963ba36"
 />
 
 # servicefabric-setup

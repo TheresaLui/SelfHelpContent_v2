@@ -10,6 +10,7 @@
 	resourceTags="mfa_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="8be9edc6-1654-4758-a453-c996864024f0"
 />
 
 # Other questions about MFA Server

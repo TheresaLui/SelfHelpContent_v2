@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="9d32fc66-40fb-4f4c-b9d8-9848deac69b0"
 />
 
 # My app is getting connectivity errors

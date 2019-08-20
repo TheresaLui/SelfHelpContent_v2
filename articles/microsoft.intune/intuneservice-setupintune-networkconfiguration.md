@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="eb8e3ec1-87c4-4c3b-bcd6-74454c1650d5"
 />
 
 # Setup Intune - Network Configuration

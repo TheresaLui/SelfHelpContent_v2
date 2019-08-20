@@ -6,6 +6,7 @@
    supportTopicIds="32597483,32597486,32597487,32597530,32597534,32597543,32597553"
   productPesIds="15585"
   cloudEnvironments="public"
+	articleId="7ec231b3-9745-4630-9344-1e2e5318f8b2"
 />
 # DocumentDb SDK Issues
 * Cosmos DB SDK Version

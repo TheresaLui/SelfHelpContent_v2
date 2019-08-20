@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16572"
 	cloudEnvironments="public"
+	articleId="b2ed4643-fdc3-4e28-9938-c7fbb71c290f"
 />
 
 # Configure a branch device for Partners

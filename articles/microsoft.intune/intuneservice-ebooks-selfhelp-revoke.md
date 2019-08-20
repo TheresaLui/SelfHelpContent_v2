@@ -10,6 +10,7 @@
 	resourceTags="ebooks_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="e1d61e58-5b85-415c-b2aa-4959c5d557c2"
 />
 
 # I assigned an e-book to a user's device, but now I want to unassign it.

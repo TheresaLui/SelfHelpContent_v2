@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="b1bfd228-a15a-420e-8eab-c24af22ce76f"
 />
 
 # keyvault-overview

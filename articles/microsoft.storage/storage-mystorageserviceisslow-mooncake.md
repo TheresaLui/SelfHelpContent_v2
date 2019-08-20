@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="3dd013ca-c5c9-4e22-bebe-b9ff7257b91e"
 />
 
 # My storage service is slow

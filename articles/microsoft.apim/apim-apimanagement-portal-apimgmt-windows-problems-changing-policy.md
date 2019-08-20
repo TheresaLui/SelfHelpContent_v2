@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="4da79ec5-8f7a-46a9-a908-8df10bb3adc0"
 />
 
 # Problems with Changing Policy

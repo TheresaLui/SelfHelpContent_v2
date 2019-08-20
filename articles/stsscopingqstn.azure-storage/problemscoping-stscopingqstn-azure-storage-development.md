@@ -19,6 +19,7 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
@@ -27,7 +28,7 @@
                     "text": "Date and time of the most recent occurrence (best estimate)"
                 },
                 {
-                    "text": "[Request ID](https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id)"
+                    "text": "<a href='https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id'>Request ID</a>[]()"
                 }
             ]
         },
@@ -38,6 +39,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

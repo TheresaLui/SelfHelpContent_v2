@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="39eee39d-75c1-4975-9a55-b573e8d3092e"
 />
 
 # Configuring Function Apps/Configuring memory

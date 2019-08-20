@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
+	articleId="494f21f7-213c-464e-a789-31d5770016e1"
 />
 
 # managed cache/performance, code-related problems, or time-outs

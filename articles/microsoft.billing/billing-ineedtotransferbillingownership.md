@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="85dafd84-94a6-4688-8af7-8efd44d19ecc"
 />
 
 # I need to transfer billing ownership

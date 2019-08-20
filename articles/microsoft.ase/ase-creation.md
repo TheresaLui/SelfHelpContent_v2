@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="36d20a7c-63f6-4fb2-8e76-0378bf0997d6"
 />
 
 # Creation Issues

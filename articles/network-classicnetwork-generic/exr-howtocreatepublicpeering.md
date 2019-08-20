@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="975a7b02-2258-466c-a2fa-e30a5576c206"
 />
 
 # configuration and setup/how to create and modify azure public peering

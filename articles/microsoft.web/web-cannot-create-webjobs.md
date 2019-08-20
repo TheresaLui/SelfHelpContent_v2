@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748,16170"
 	cloudEnvironments="public"
+	articleId="9094e5ad-2de9-494b-90ce-70691c675a73"
 />
 
 # Problems with WebJobs/Cannot create WebJobs

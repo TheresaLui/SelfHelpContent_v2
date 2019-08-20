@@ -10,6 +10,7 @@
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="16342,16065,15797,16454,16470"
     cloudEnvironments="MoonCake"
+	articleId="148d28e7-e2ed-4c6d-9057-7a623e36c987"
 />
 
 # I can't connect to my Linux VM
@@ -19,7 +20,7 @@
 
  1. Verify if your VM is running by viewing your VM's [console screenshot or logs](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId). Review errors in the logs such as FSTAB (file systems table), FSCK (file system consistency), or networking
  2. Click [here](data-blade:microsoft_azure_network.verifyipflowblade.vmId.$resourceId) to ensure that Network Security Group is allowing traffic
- 3. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues when trying SSH from Azure
+ 3. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade.id.$resourceId) to troubleshoot connectivity issues when trying SSH from Azure
  4. Review effective security group rules to ensure inbound “Allow” NSG rule exists and is prioritized for SSH port(default 22)
  5. Reset Password to address authentication errors <br>
  [Reset Password using CLI or PowerShell](https://docs.azure.cn/virtual-machines/linux/troubleshoot-ssh-connection#fix-common-ssh-errors/)

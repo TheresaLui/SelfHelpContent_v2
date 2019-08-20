@@ -7,6 +7,7 @@
 	supportTopicIds="32581619"
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake"
+	articleId="2ea551fd-219f-49bc-9db9-85e5cd0c96af"
 />
 
 # Moving resources

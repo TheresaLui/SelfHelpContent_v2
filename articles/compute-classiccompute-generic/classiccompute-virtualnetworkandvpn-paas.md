@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="87aa158e-febe-423a-8f8d-c314e7a8ffc1"
 />
 
 # worker role (paas)/Connectivity/Virtual Network and VPN

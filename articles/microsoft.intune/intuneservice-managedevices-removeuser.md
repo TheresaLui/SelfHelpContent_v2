@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="ebc49a42-b0bc-4f16-a85f-c43257c5ab6d"
 />
 
 # Manage Devices - Remove Users

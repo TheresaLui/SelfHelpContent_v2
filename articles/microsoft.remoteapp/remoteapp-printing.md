@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="a454069d-241e-43d9-a283-77b9b08d87e0"
 />
 
 # user experience/printing

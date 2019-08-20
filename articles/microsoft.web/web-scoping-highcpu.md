@@ -7,6 +7,7 @@
 	supportTopicIds="32583701"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="c385c33b-ef5b-465f-889f-56d97682249e"
 />
 
 # High CPU usage

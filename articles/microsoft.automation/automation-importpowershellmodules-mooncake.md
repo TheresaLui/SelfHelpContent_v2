@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="8094eae3-0350-42f0-979b-0e74ed2a6de6"
 />
 
 # Import PowerShell modules

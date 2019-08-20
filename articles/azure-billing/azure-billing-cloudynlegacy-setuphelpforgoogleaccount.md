@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="c2cc613b-60c3-4092-8162-964eb5a882fb"
 />
 
 # Setup help for Google Account
