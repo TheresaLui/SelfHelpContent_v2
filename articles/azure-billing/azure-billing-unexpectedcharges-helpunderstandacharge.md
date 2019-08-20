@@ -45,15 +45,12 @@ For **network-related usage**, the user can use a network capture tool such as 
   * [Network Monitor](http://www.microsoft.com/download/details.aspx?id=4865 )
   * [Fiddler](http://www.telerik.com/fiddler) (NOTE: this tool is not supported by Microsoft)<br>
   
-For issues related to the **Virtual Machines running a Windows OS image**, the host OS Event Logs can be used: [Windows Event Logs](http://msdn.microsoft.com/library/windows/desktop/aa363632(v=vs.85).aspx)<br>
+For issues related to the **Virtual Machines running a Windows OS image**, the host OS Event Logs can be used: [Windows Event Logs](https://docs.microsoft.com/windows/win32/eventlog/about-event-logging)<br>
 For **PaaS deployments**, enable diagnostics in the application: [Enable diagnostics in a cloud service](https://azure.microsoft.com/documentation/articles/cloud-services-dotnet-diagnostics/)<br>
 For **IaaS deployments**: [Enable diagnostics logging for apps](https://docs.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs)
 
   * Enable diagnostics in ASP.NET applications: [Enable tracing in ASP.NET Web services](http://msdn.microsoft.com/library/vstudio/bb885203(v=vs.100).aspx)
-  * Enable IIS logging in IIS:
-  
-    * [Enable or disable logging (IIS 7)](http://technet.microsoft.com/library/cc754631(v=WS.10).aspx  )
-    * [Enhance Logging for IIS 8.5](http://www.iis.net/learn/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85)
+  * Enable IIS logging in IIS: [Enhance Logging for IIS 8.5](http://www.iis.net/learn/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85)
 
 ## **Recommended Documents**
 
