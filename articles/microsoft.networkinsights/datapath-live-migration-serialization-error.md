@@ -16,12 +16,9 @@ cloudEnvironments="Public"
 
 # We ran diagnostics on your VM and found an issue
 
-<!--issueDescription-->
-We identified that a [live migration](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-and-updates#live-migration) was performed on the VM 
-<!--$VMName-->[VMName]<!--/$VMName--> by Azure. After the live migration, the network stack for the VM failed to initialize as expected. This prevented connectivity to the VM from outside the virtual network topology. A fix for this bug was already being deployed to production and is expected to complete in ~4 weeks.
-<!--/issueDescription-->
+We identified that a [live migration](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-and-updates#live-migration) was performed on the VM <!--$VMName-->[VMName]<!--/$VMName--> by Azure. After the live migration, the network stack for the VM failed to initialize as expected. This prevented connectivity to the VM from outside the virtual network topology. A fix for this bug was already being deployed to production and is expected to complete in ~4 weeks.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Redeploying affected VMs (instructions available for [Linux](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux) and [Windows](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows)) mitigates the issue.
 
