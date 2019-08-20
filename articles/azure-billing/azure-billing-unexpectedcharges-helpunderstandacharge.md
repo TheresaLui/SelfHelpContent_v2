@@ -49,7 +49,7 @@ For issues related to the **Virtual Machines running a Windows OS image**, the
 For **PaaS deployments**, enable diagnostics in the application: [Enable diagnostics in a cloud service](https://azure.microsoft.com/documentation/articles/cloud-services-dotnet-diagnostics/)<br>
 For **IaaS deployments**: [Enable diagnostics logging for apps](https://docs.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs)
 
-  * Enable diagnostics in ASP.NET applications: [Enable tracing in ASP.NET Web services](http://msdn.microsoft.com/library/vstudio/bb885203(v=vs.100).aspx)
+  * Enable diagnostics in ASP.NET applications: [Enable tracing in ASP.NET Web services](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/bb885203(v=vs.100))
   * Enable IIS logging in IIS: [Enhance Logging for IIS 8.5](http://www.iis.net/learn/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85)
 
 ## **Recommended Documents**
