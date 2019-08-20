@@ -40,7 +40,7 @@
   "version": 2.0,
   "learnMoreLink": "https://aka.ms/reservedinstances",
   "description": "Configure automatic renewal for your expiring reservation",
-  "longDescription": "Reserved instances listed below are expiring soon or recently expired. Your resources will continue to operate normally, however, you will be billed at the on-demand rates going forward. To optimize your costs, confgure automatic renewal for these reservations or purchase a replacement manually.",
+  "longDescription": "Reserved instances listed below are expiring soon or recently expired. Your resources will continue to operate normally, however, you will be billed at the on-demand rates going forward. To optimize your costs, configure automatic renewal for these reservations or purchase a replacement manually.",
   "potentialBenefits": "Continue to receive discounted rates for your resources",
   "actions": [
     {
