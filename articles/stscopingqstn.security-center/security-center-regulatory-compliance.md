@@ -12,7 +12,7 @@
     articleId="a15f057d-9001-8910-a98a-dfaf3843dc2f"
 />
 
-# Azure Security Center Regulatory Compliance Common Solutions
+# Azure Security Center Regulatory Compliance Common Solutions 
 
 ## Common Regulatory Compliance issues
 
