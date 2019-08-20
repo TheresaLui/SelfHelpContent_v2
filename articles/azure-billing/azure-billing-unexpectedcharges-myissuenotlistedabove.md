@@ -16,10 +16,9 @@
 
 # Unexpected Charges-my issue is not listed above
 
-**The Azure Free Account** offer includes $200 of Azure credits (to be used within the first 30 days of sign-up) and 12 months of select free services (subject to change). <br>
-This offer is limited to one enrollment per eligible customer and cannot be combined with any other offer unless otherwise permitted by Microsoft.<br>
-Within 30 days of sign-up or upon exhaustion of the customer’s credits (whichever occurs first), the customer must upgrade to a Pay-As-You-Go account by removing the Spending Limit. This allows continued use of the Azure Free Account for the remaining 11 months. After the customer has upgraded, usage outside the initial credits and select free services will be billed at Pay-As-You-Go rates. If the customer elects not to upgrade, the Free Account subscription will be disabled.<br>
-Learn more : [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)<br>
+**The Azure Free Account** offer includes $200 of Azure credits (to be used within the first 30 days of sign-up) and 12 months of select free services (subject to change). This offer is limited to one enrollment per eligible customer and cannot be combined with any other offer unless otherwise permitted by Microsoft.
+
+Within 30 days of sign-up or upon exhaustion of the customer’s credits (whichever occurs first), the customer must upgrade to a Pay-As-You-Go account by removing the Spending Limit. This allows continued use of the Azure Free Account for the remaining 11 months. After the customer has upgraded, usage outside the initial credits and select free services will be billed at Pay-As-You-Go rates. If the customer elects not to upgrade, the Free Account subscription will be disabled. Learn more: [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)<br>
 
 ### **Cancel Subscription**
 
@@ -28,13 +27,14 @@ Learn more : [Products available monthly for free under Azure free account](http
 * Follow prompts and finish cancellation<br>
 * Learn more: [Cancel Azure Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)<br>
 
-### **Cancel Developer support plan:**
+### **Cancel Developer support plan**
 
 * Log into [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
 * Select Developer Support Plan and cancel the plan
 * Once the cancellation is done for the Developer Support plan, de-provision of the plan needs to take place. For this, please reach out to support and provide an approval from the account admin's email address.
 
-**Note**: If you cancel your subscription/resource in the middle of your billing cycle, you might still see a charge which would be for any usage in the previous month. For example, if your billing cycle was from the 26th of every month to the 25th of the next month & you suspended the subscription on the 23rd, which is 28 days into the billing cycle for June, you might see a charge for the 28 days of use.<br>
+**Note**: If you cancel your subscription/resource in the middle of your billing cycle, you might still see a charge which would be for any usage in the previous month. For example, if your billing cycle was from the 26th of every month to the 25th of the next month & you suspended the subscription on the 23rd, which is 28 days into the billing cycle for June, you might see a charge for the 28 days of use.
+
 If you see a charge despite of cancelling a subscription please make sure you don’t have any other support plans which is causing the charge. If you do, please go ahead and cancel the plan.<br>
 
 
