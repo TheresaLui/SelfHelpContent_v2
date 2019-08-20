@@ -2,7 +2,7 @@
 pageTitle="VM connectivity affected due to network stack initialization issue after live migration"
 description="VM connectivity affected due to network stack initialization issue after live migration"
 infoBubbleText="Connectivity issues detected with VM. See details on the right"
-service="microsoft.network"
+service="microsoft.compute"
 resource="virtualmachines"
 authors="rkrir"
 ms.author="krisragh"
