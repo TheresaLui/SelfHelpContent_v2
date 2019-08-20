@@ -221,14 +221,14 @@
       "id": "problem_description",
       "order": 11,
       "controlType": "multilinetextbox",
-      "displayLabel": "Additional information",
+      "displayLabel": "Description",
       "infoBalloonText": "To get iotedged logs, edge-agent logs, and edge-hub logs, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps'>IoT Edge diagnostic steps</a>",
       "watermarkText": "Please provide any additional information that may be helpful in understanding the issue. ",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
         {
-          "text": "Steps to reproduce the issue"
+          "text": "Description of the issue and steps to reproduce"
         },
         {
           "text": "Expected behavior and current behavior"
