@@ -18,7 +18,7 @@
 
 ### Issues with Signup
 
-You may experience an issue when you try to sign up for a new account in the Microsoft Azure portal or Azure account center. Before you troubleshoot the issue, first consider the following suggestions:<br>
+You may experience an issue when you try to sign up for a new account in the Microsoft Azure portal or Azure account center. Before you troubleshoot the issue, first consider the following suggestions:
 
   * Make sure that the information that you provided for your Azure account profile (including contact email address, street address, and telephone number) is correct
   * Make sure that the credit card information is correct
@@ -35,20 +35,19 @@ Learn more: [Pricing](https://azure.microsoft.com/pricing/) <br>
 
 ### Renew MPN Offers
 
-From **Partner Center**, select **Membership** offers. On the **Purchased** tab, for each of your purchased offers, you can see:<br>
+From **Partner Center**, select **Membership** offers. On the **Purchased** tab, for each of your purchased offers, you can see:
 
-  * Your expiration date<br>
-  * Status<br>
-  * Auto-renewal information<br>
-  * You can turn-off auto-renewal<br>
-  * You can manage your payment options<br>
-	
-* Learn more: [Renew Offers](https://docs.microsoft.com/partner-center/renew-mpn-offers) <br>
-* [How to manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits) <br>
-* Learn more on Azure Pass - [Azure Pass FAQ](https://azure.microsoft.com/offers/azure-pass/)<br>
+* Your expiration date
+* Status
+* Auto-renewal information
+* You can turn-off auto-renewal
+* You can manage your payment options
+
+Learn more: [Renew Offers](https://docs.microsoft.com/partner-center/renew-mpn-offers)<br>
+Learn more: [How to manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits) <br>
+Learn more on Azure Pass - [Azure Pass FAQ](https://azure.microsoft.com/offers/azure-pass/)<br>
 
 ## **Recommended Documents**
-
 * [Add users and assign permissions to them](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Purchase or renew a subscription to Microsoft Action Pack](https://docs.microsoft.com/partner-center/mpn-get-action-pack)
 * [Microsoft Partner Network](https://partner.microsoft.com/membership/internal-use-software)
