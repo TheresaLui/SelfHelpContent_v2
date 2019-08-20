@@ -16,15 +16,14 @@
 
 # Troubleshooting Azure-SSIS IR Management - IR join vNet Issues
 
-## Where can I see the error
+The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
 
-* The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
+## **Recommended Steps**
 
-## Common solution
+* Get the error code in the error message and then search the [troubleshoot document](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) of the error code and find the detail cause and solution
 
-* Get the error code in the error message and then search the [troubleshoot document](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) of the error code and find the detail cause and solution.
+## Common errors, causes, and solutions
 
-## Common errors, causes, and solution
 When you join SSIS IR to Azure Virtual Network, SSIS IR uses the virtual network that's under the user subscription. For more information, see [Join an Azure-SSIS Integration Runtime to a virtual network](https://docs.microsoft.com/azure/data-factory/join-azure-ssis-integration-runtime-virtual-network).
 
 When there's a Virtual Network-related issue, you'll see one of the following errors.
