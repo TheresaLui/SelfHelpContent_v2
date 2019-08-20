@@ -64,3 +64,4 @@
   "displayLabel": "You are close to exceed storage quota of 2GB. Create a Standard search service for larger quota.",
   "additionalColumns": []
 }
+---
