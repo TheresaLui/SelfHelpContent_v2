@@ -81,7 +81,7 @@
       "visibility": "edge_version == 107",
       "order": 6,
       "controlType": "multilinetextbox",
-      "infoBalloonText": "Output of 'sudo iotedge check'",
+      "infoBalloonText": "Output of 'iotedge check'",
       "displayLabel": "Linux: `sudo iotedge check`\nWindows: `iotedge check`",
       "watermarkText": "Example: \n√ config.yaml is well-formed - OK\n√ config.yaml has well-formed connection string - OK\n√ container engine is installed and functional - OK\n...",
       "required": false
