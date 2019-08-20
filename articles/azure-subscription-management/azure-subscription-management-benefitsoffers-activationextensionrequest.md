@@ -52,4 +52,4 @@ From **Partner Center**, select **Membership** offers. On the **Purchased** 
 * [Add users and assign permissions to them](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Purchase or renew a subscription to Microsoft Action Pack](https://docs.microsoft.com/partner-center/mpn-get-action-pack)
 * [Microsoft Partner Network](https://partner.microsoft.com/membership/internal-use-software)
-* [Microsoft Action Pack subscription program FAQ](https://support.microsoft.com/help/2932638/microsoft-action-pack-subscription-program-faq)
+* [Microsoft Action Pack subscription program FAQ](https://support.microsoft.com/en-us/help/4458106/how-to-get-support-for-microsoft-partners)
