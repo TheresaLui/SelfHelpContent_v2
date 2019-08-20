@@ -80,11 +80,11 @@
                 },
                 {
                     "value": "error401",
-                    "text": "401 â€“ Unauthorized"
+                    "text": "401 – Unauthorized"
                 },
                 {
                     "value": "error403",
-                    "text": "403 â€“ Forbidden"
+                    "text": "403 – Forbidden"
                 },
                 {
                     "value": "error404",
@@ -96,7 +96,7 @@
                 },
                 {
                     "value": "error412",
-                    "text": "412 â€“ Precondition failed"
+                    "text": "412 – Precondition failed"
                 },
                 {
                     "value": "dont_know_answer",
