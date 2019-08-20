@@ -11,7 +11,6 @@
 	productPesIds=""
 	displayOrder="7"
 	cloudEnvironments="public"
- 	articleId="0b75606b-d6f9-4b40-8875-e1ffc5258446"
 />
 
 # I'm getting incorrect map data
