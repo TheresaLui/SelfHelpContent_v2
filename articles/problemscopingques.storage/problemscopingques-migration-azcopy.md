@@ -17,7 +17,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Issues migrating data using AzCopy",
-    "fileAttachmentHint": "Upload AzCopy Log for fast case resolution. Log files are located in the %USERPROFILE\\\\.azcopy directory on Windows, or in the $HOME\\\\.azcopy",
+    "fileAttachmentHint": "Upload AzCopy Log for fast case resolution. Log files are located in the %USERPROFILE\\.azcopy directory on Windows, or in the $HOME\\.azcopy",
     "formElements": [
         {
             "id": "azcopy_version",
@@ -80,11 +80,11 @@
                 },
                 {
                     "value": "error401",
-                    "text": "401 – Unauthorized"
+                    "text": "401  Unauthorized"
                 },
                 {
                     "value": "error403",
-                    "text": "403 – Forbidden"
+                    "text": "403  Forbidden"
                 },
                 {
                     "value": "error404",
@@ -96,7 +96,7 @@
                 },
                 {
                     "value": "error412",
-                    "text": "412 – Precondition failed"
+                    "text": "412  Precondition failed"
                 },
                 {
                     "value": "dont_know_answer",
