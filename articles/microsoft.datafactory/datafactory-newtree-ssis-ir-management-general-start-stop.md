@@ -20,11 +20,11 @@
 
 * The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
 
-## Common solution
+## **Recommended Steps**
 
-* Get the error code in the error message and then search the [troubleshoot document](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) of the error code and find the detail cause and solution.
+* Get the error code in the error message and then search the [troubleshoot document](https://docs.microsoft.com/azure/data-factory/ssis-integration-runtime-management-troubleshoot) of the error code and find the detail cause and solution
 
-## Common errors, causes, and solution
+### Common errors, causes, and solutions
 
 The common error will be Azure SQL Server or Managed Instance related.
 
@@ -38,9 +38,10 @@ You might see this issue when you're provisioning a new SSIS IR or while IR is r
 * Login failed during SQL authentication. The account provided can't sign in to the SQL Server database. Make sure you provide the correct user account.
 * Login failed during Microsoft Azure Active Directory (Azure AD) authentication (managed identity). Add the managed identity of your factory to an AAD group, and make sure the managed identity has access permissions to your catalog database server.
 * Connection timeout. This error is always caused by a security-related configuration. We recommend that you:
-  1. Create a new VM.
-  2. Join the VM to the same Microsoft Azure Virtual Network of IR if IR is in a virtual network.
-  3. Install SSMS and check the Azure SQL Database server or managed instance status.
+
+  1. Create a new VM
+  2. Join the VM to the same Microsoft Azure Virtual Network of IR if IR is in a virtual network
+  3. Install SSMS and check the Azure SQL Database server or managed instance status
 
 For other problems, fix the issue shown in the detailed SQL Exception error message. If you’re still having problems, contact the Azure SQL Database server or managed instance support team.
 
@@ -52,11 +53,12 @@ Here's what this kind of error message might look like: "The database 'SSISDB' h
 
 The possible solutions are:
 
-* Increase the quota size of your SSISDB.
+* Increase the quota size of your SSISDB
 * Change the configuration of SSISDB to reduce the size by:
-   * Reducing the retention period and number of project versions.
-   * Reducing the retention period of the log.
-   * Changing the default level of the log.
+
+   * Reducing the retention period and number of project versions
+   * Reducing the retention period of the log
+   * Changing the default level of the log
 
 ### CatalogDbBelongsToAnotherIR
 
