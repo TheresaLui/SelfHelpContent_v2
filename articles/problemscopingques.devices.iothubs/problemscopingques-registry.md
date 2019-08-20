@@ -27,8 +27,25 @@
       "required": true
     },
     {
+      "id": "problem_description",
+      "order": 5,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Description",
+      "watermarkText": "Provide additional information about your issue",
+      "required": true,
+      "useAsAdditionalDetails": true,
+      "hints": [
+        {
+          "text": "Description of the issue and repro steps"
+        },
+        {
+          "text": "Error logs with timestamp (indicate timezone or UTC)"
+        }
+      ]
+    }
+    {
       "id": "errors",
-      "order": 2,
+      "order": 10,
       "controlType": "textbox",
       "displayLabel": "What error did you see?",
       "watermarkText": "Example: 429001 ThrottlingException",
@@ -36,7 +53,7 @@
     },
     {
       "id": "programmatically",
-      "order": 3,
+      "order": 15,
       "controlType": "dropdown",
       "displayLabel": "Are you performing device identity registry operations programmatically (API, SDK, PowerShell, or CLI)?",
       "watermarkText": "Choose an option",
@@ -58,21 +75,12 @@
     },
     {
       "id": "code",
-      "order": 4,
+      "order": 20,
       "controlType": "multilinetextbox",
       "visibility": "programmatically == Yes",
       "displayLabel": "Can you share the code snippet or command used?",
       "watermarkText": "Paste here",
       "required": false
-    },
-    {
-      "id": "problem_description",
-      "order": 10,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Description",
-      "watermarkText": "Provide additional information about your issue",
-      "required": true,
-      "useAsAdditionalDetails": true
     }
   ]
 }

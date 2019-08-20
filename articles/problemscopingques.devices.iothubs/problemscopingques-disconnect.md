@@ -27,8 +27,34 @@
       "required": true
     },
     {
-      "id": "protocol",
+      "id": "device_id",
       "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "Affected device IDs",
+      "infoBalloonText": "Ideally 3 devices",
+      "watermarkText": "Example: myEdgeDevice, chiller-02",
+      "required": false
+    },
+    {
+      "id": "problem_description",
+      "order": 5,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Description",
+      "watermarkText": "Provide additional information about your issue",
+      "required": true,
+      "useAsAdditionalDetails": true,
+      "hints": [
+        {
+          "text": "Description of the issue and repro steps"
+        },
+        {
+          "text": "Error logs with timestamp (indicate timezone or UTC)"
+        }
+      ]
+    },
+    {
+      "id": "protocol",
+      "order": 10,
       "controlType": "dropdown",
       "infoBalloonText": "IoT Hub supports MQTT, AMQP, and HTTPS protocols. To learn more, see <a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-protocols'>Choose a communication protocol</a> ",
       "displayLabel": "What protocol are you using?",
@@ -55,7 +81,7 @@
     },
     {
       "id": "sdk_or_not",
-      "order": 3,
+      "order": 15,
       "controlType": "dropdown",
       "infoBalloonText": "IoT Hub Device SDKs enable you to build apps that run on your IoT devices using device client or module client. These apps send telemetry to your IoT hub, and optionally receive messages, job, method, or twin updates from your IoT hub. To learn more, see <a href='https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks'>Understand and use Azure IoT Hub SDKs</a> ",
       "displayLabel": "Are you using Azure IoT Device SDKs?",
@@ -78,7 +104,7 @@
     },
     {
       "id": "sdk_language",
-      "order": 4,
+      "order": 20,
       "visibility": "sdk_or_not == Yes",
       "controlType": "dropdown",
       "displayLabel": "Language",
@@ -117,32 +143,12 @@
     },
     {
       "id": "sdk_version",
-      "order": 5,
+      "order": 25,
       "visibility": "sdk_or_not == Yes",
       "controlType": "textbox",
       "displayLabel": "Version",
       "watermarkText": "Example: 1.21.0",
       "required": true
-    },
-    {
-      "id": "problem_description",
-      "order": 6,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Details, error logs, and affected device IDs",
-      "watermarkText": "Provide additional information, logs, and device IDs.",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [
-        {
-          "text": "Examples of device IDs (ideally 3)"
-        },
-        {
-          "text": "Error logs with timestamp (indicate timezone or UTC)"
-        },
-        {
-          "text": "Any other details"
-        }
-      ]
     }
   ]
 }

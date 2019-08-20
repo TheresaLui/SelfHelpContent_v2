@@ -27,8 +27,25 @@
       "required": true
     },
     {
+      "id": "problem_description",
+      "order": 5,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Description",
+      "watermarkText": "Provide additional information about your issue",
+      "required": true,
+      "useAsAdditionalDetails": true,
+      "hints": [
+        {
+          "text": "Description of the issue and repro steps"
+        },
+        {
+          "text": "Error logs with timestamp (indicate timezone or UTC)"
+        }
+      ]
+    },
+    {
       "id": "feature",
-      "order": 2,
+      "order": 10,
       "controlType": "dropdown",
       "displayLabel": "Did you have issues with creating or deleting IoT hub?",
       "watermarkText": "Choose an option",
@@ -54,7 +71,7 @@
     },
     {
       "id": "errors",
-      "order": 3,
+      "order": 15,
       "controlType": "textbox",
       "displayLabel": "What error did you see?",
       "watermarkText": "Paste here",
@@ -62,7 +79,7 @@
     },
     {
       "id": "where",
-      "order": 4,
+      "order": 20,
       "controlType": "dropdown",
       "displayLabel": "Where did you encounter the issue?",
       "watermarkText": "Choose an option",
@@ -81,20 +98,6 @@
         }
       ],
       "required": false
-    },
-    {
-      "id": "problem_description",
-      "order": 10,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Description",
-      "watermarkText": "Provide additional information about your issue",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [
-        {
-          "text": "Error logs with timestamp (indicate timezone or UTC)"
-        }
-      ]
     }
   ]
 }
