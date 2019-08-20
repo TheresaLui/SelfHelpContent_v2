@@ -75,7 +75,7 @@
         {
           "text": "Error logs with timestamp (indicate timezone or UTC)"
         }
-      ]      
+      ]
     }
   ]
 }
