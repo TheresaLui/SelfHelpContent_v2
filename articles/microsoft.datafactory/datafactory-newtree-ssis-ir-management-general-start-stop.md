@@ -16,9 +16,7 @@
 
 # Troubleshooting Azure-SSIS IR Management - General start and stop Issues
 
-## Where can I see the error
-
-* The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
+The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
 
 ## **Recommended Steps**
 
