@@ -16,5 +16,5 @@
 # Invalid URL
 
 <!--issueDescription-->
-The entered URL is invalid. Please provide a valid URL in the syntax protocol://domainOrIPAddress, for example: http://contoso.com, https://contoso.com, http://contoso, or https://contoso.
+The format of the URL entered is invalid. A valid URL format requires protocol, hostname and port number (in case of ports other than 80 and 443) in the syntax <protocol>://<domainOrIPAddress>:<portNumber>, for example: http://contoso.com or http://contoso.com:8080. Please refresh this page and enter the access URL in a valid format.
 <!--/issueDescription-->
