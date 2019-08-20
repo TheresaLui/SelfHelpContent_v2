@@ -10,7 +10,7 @@
     articleId="application-gateway-502-error"
     resourceTags=""
 	productPesIds="15922"
-    supportTopicIds="32573483", "32680993"
+    supportTopicIds="32573483","32680993"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 

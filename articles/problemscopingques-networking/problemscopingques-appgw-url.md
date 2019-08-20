@@ -13,7 +13,7 @@ supportTopicIds="32436964,32582828,32582829,32582830,32582825,32582826,32582827,
 # Application Gateway URL
 ---
 {
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
 	"resourceRequired": true,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
