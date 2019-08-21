@@ -23,7 +23,7 @@ You may experience an issue when you try to sign up for a new account in the Mi
   * Make sure that the information that you provided for your Azure account profile (including contact email address, street address, and telephone number) is correct
   * Make sure that the credit card information is correct
   * Make sure that you don’t already have a Microsoft account that has the same information
-  * [Troubleshoot Sign-up Issues](https://support.microsoft.com/help/4467267/can-t-sign-up-for-azure-in-azure-portal-or-azure-account-center)<br>
+  * [Troubleshoot Sign-up Issues](https://docs.microsoft.com/azure/billing/billing-troubleshoot-azure-sign-up)<br>
 
 ### Activate your benefit
 
