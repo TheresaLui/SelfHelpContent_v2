@@ -35,7 +35,7 @@ HDInsight cluster billing starts once a cluster is created and stops when the cu
 
 Customers may also receive the error: *Cannot delete cluster due to Cluster Name already in use*
 
-This can occur if:
+This may occur if:
 
 * The delete operation has not completed yet. <br>
   * Please allow time for the delete operation to complete.<br>
