@@ -34,9 +34,9 @@
 
 * This issue usually means the Data Source/Destination is inaccessible from SSIS Integration Runtime, which can be caused by different reasons:<br>
 
-	* Make sure you're passing the Data Source/Destination Name/IP correctly<br>
-    	* Make sure the firewall is set properly<br>
-    	* Make sure your vNet is configured properly if your Data Source/Destination are in on-premise
+	* Make sure you're passing the Data Source/Destination Name/IP correctly
+	* Make sure the firewall is set properly
+	* Make sure your vNet is configured properly if your Data Source/Destination are in on-premise
 	* You can verify whether the issue is from vNet configuration by provisioning an Azure VM in the same vNet, then check whether the Data Source/Destination can be accessed from the Azure VM
 	* You can find more details about using vNet with SSIS Integration Runtime at [Join an Azure-SSIS integration runtime to a virtual network](https://docs.microsoft.com/azure/data-factory/join-azure-ssis-integration-runtime-virtual-network)
 	
