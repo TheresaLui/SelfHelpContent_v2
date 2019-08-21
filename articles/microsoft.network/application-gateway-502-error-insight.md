@@ -9,7 +9,7 @@
     selfHelpType="diagnostics"
     articleId="application-gateway-502-error-insight"
     diagnosticScenario="ApplicationGateway502BadGatewayError"
-    supportTopicIds="32573483"
+    supportTopicIds="32573483,32680993"
 	productPesIds="15922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
  />

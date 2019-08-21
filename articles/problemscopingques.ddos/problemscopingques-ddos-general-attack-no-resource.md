@@ -72,28 +72,6 @@
             "required": false
         },
         {
-            "id": "other_question",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Do you have some general question about the product?",
-            "watermarkText": "Choose an option:",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
@@ -105,7 +83,7 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Provide additional information about your issue, or general question about the product.",
             "required": true,
             "useAsAdditionalDetails": true
         }

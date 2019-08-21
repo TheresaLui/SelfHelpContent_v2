@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "Activating Azure Information Protection",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "",
+                "fileAttachmentHint": "Provide screenshot of the error seen in the portal",
                 "formElements": [
                 {
                     "id": "portal_type",
