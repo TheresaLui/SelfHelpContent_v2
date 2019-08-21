@@ -17,7 +17,7 @@
 
 Whether deploying custom code or an Azure service as an IoT Edge module, there are some common errors that you can check.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Use the built-in troubleshooting tool to check for common configuration or connection errors. 
 
@@ -33,7 +33,7 @@ Whether deploying custom code or an Azure service as an IoT Edge module, there a
 
 * If your module is a third-party module from the [IoT Edge module marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules), refer to their documentation for additional information. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
 * [Container management for production deployments](https://docs.microsoft.com/azure/iot-edge/production-checklist#container-management)

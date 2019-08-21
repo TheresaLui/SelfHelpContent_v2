@@ -17,14 +17,14 @@
 
 IoT Edge devices need outbound ports to communicate with IoT Hub. If you have a proxy or firewall on your network, that could impact the device's connection to the cloud. 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Run the IoT Edge troubleshooting tool on your IoT Edge device to identify common connection errors.
 
 * On Linux devices: `sudo iotedge check --verbose`
 * On Windows devices: `iotedge check --verbose`
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Firewall and port configuration rules for IoT Edge deployments](https://docs.microsoft.com/azure/iot-edge/troubleshoot#firewall-and-port-configuration-rules-for-iot-edge-deployment)
 * [Configure an IoT Edge device to communicate through a proxy server](https://docs.microsoft.com/azure/iot-edge/how-to-configure-proxy-support)

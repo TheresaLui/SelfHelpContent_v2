@@ -17,7 +17,7 @@
 
 Direct method calls to IoT Edge modules require an open connection. When troubleshooting direct method failures, start by verifying that the module can be reached. 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Run the troubleshooting tool on your IoT Edge device to check that the device can connect to IoT Hub.
   
@@ -26,7 +26,7 @@ Direct method calls to IoT Edge modules require an open connection. When trouble
 
 * If your IoT Edge device is not running the latest version, upgrade to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
 * [Update the IoT Edge security daemon and runtime](https://docs.microsoft.com/azure/iot-edge/how-to-update-iot-edge)

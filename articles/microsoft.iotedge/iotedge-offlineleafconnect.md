@@ -15,7 +15,7 @@
 
 # My IoT Edge gateway device can't connect to downstream devices while offline
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If your gateway device is operating offline, verify that the downstream device is set as a child device of the gateway. You can manage the child/parent relationship from the device details page of either the IoT Edge gateway device or the downstream device. The gateway device must connect to IoT Hub once to retrieve child device information, then can operate offline. 
 

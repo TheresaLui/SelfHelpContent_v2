@@ -17,7 +17,7 @@
 
 IoT Edge deployment manifests describe the modules that should be running on an IoT Edge device, and declares how they should be configured and how they can communicate with each other. If a deployment is applied to an IoT Edge device but the changes don't appear, it's usually because there's a connectivity issue or the deployment manifest isn't formatted correctly. 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Verify that the deployment manifest lists the correct module names, module images, and includes the credentials for any private container registries. 
 
@@ -27,6 +27,6 @@ IoT Edge deployment manifests describe the modules that should be running on an 
 
 * Run the command **iotedge logs edgeAgent** to check the IoT Edge agent logs for any errors or failures. The agent is responsible for retrieving deployments and starting the modules, so these logs should help identify which part of the process is failing. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [IoT Edge agent module continually reports 'empty config file' and no modules start on the device](https://docs.microsoft.com/azure/iot-edge/troubleshoot#edge-agent-module-continually-reports-empty-config-file-and-no-modules-start-on-the-device)

@@ -17,7 +17,7 @@
 
 If you encounter errors when running **az iot edge** commands with the Azure CLI, make sure that you're using the latest versions of the Azure CLI and the Azure IoT extension for the CLI. 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. Check your version of the CLI and the IoT extension with the following command: `az --version`
 

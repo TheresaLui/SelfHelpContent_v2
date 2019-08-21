@@ -17,7 +17,7 @@
 
 For a downstream device to connect to an IoT Edge gateway, the devices need to trust each other, the downstream device needs to know how to reach the gateway, and the gateway needs to know how to authenticate the downstream device. Use the recommended steps to check that those three conditions are met. 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * On the IoT Edge gateway device, run the command **iotedge check --verbose**. Look particularly at the results of the configuration checks to make sure that the certificates are valid and defined correctly. 
 
@@ -28,7 +28,7 @@ For a downstream device to connect to an IoT Edge gateway, the devices need to t
   * Check that the gateway hostname is resolvable to an IP address. If not, use DNS or add a host file entry on the downstream device. 
   * Verify that the gateway hostname in the downstream device's connection string is the same as the hostname value in the IoT Edge config.yaml file on the gateway device. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Configure an IoT Edge device to act as a transparent gateway](https://docs.microsoft.com/azure/iot-edge/how-to-create-transparent-gateway)
 * [Authenticate a downstream device to Azure IoT Hub](https://docs.microsoft.com/azure/iot-edge/how-to-authenticate-downstream-device)

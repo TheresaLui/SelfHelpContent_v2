@@ -17,7 +17,7 @@
 
 If you aren't seeing messages arriving at IoT Hub from your IoT Edge device, trace the message path from the original module to see which step in the communication pipeline is failing. 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Run the troubleshooting tool on your IoT Edge device to check that the device can connect to IoT Hub.
 
@@ -30,7 +30,7 @@ If you aren't seeing messages arriving at IoT Hub from your IoT Edge device, tra
 
 * Check whether you've reached the IoT Hub quota limits or if your messages are being throttled. The IoT Edge hub should report 429 or 408 errors in those cases. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure IoT Edge standard diagnostic steps](https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps)
 * [IoT Hub quotas and throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling)

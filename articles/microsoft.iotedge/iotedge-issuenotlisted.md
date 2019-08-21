@@ -17,7 +17,7 @@
 
 If your IoT Edge issue isn't listed in the support options, a good first step is to run the built-in troubleshooting tool on your IoT Edge device. It checks for the most common configuration and connection errors. Even if the troubleshooting tool doesn't flag anything on your device, it's still helpful to eliminate those common errors.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Run the IoT Edge troubleshooting tool on your IoT Edge device.
 
@@ -26,7 +26,7 @@ Run the IoT Edge troubleshooting tool on your IoT Edge device.
 
 If you open a support case, include the output of the troubleshooting tool to help your case manager get to a resolution faster. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Common issues and resolutions for Azure IoT Edge](https://docs.microsoft.com/azure/iot-edge/troubleshoot)
 * [Built-in troubleshooting functionality](https://github.com/Azure/iotedge/blob/master/doc/troubleshoot-checks.md)
