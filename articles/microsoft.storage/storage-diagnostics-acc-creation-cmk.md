@@ -19,8 +19,9 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 
-Storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_ creation failed at _**<!--$IssueTime-->[IssueTime]<!--/$IssueTime-->**_ because customer-managed key (CMK) is being enabled without Azure Key Vault (AKV) provisioned. Please ensure that [prerequisite for enabling customer-managed keys](https://docs.microsoft.com/en-us/azure/storage/common/storage-encryption-keys-cli?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) are met before enabling it on storage account.
+Storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> creation failed at <!--$IssueTime-->[IssueTime]<!--/$IssueTime--> because customer-managed key (CMK) is being enabled without Azure Key Vault (AKV) provisioned. 
 <!--/issueDescription-->
+Please ensure that [prerequisite for enabling customer-managed keys](https://docs.microsoft.com/en-us/azure/storage/common/storage-encryption-keys-cli?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) are met before enabling it on storage account.
 
 ## **Recommended Documents**
 
