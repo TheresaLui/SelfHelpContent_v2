@@ -27,9 +27,9 @@ If you are unable to delete your cluster in **PowerShell**:
 
 * When using the command, replace ```CLUSTERNAME``` with the name of your HDInsight cluster.
 
-For more information on using these parameters, visit [Use-AzureRmHDInsightCluster](https://docs.microsoft.com/en-us/powershell/module/azurerm.hdinsight/use-azurermhdinsightcluster?view=azurermps-6.13.0).
+For more information on using these parameters, visit [Use-AzureRmHDInsightCluster](https://docs.microsoft.com/powershell/module/azurerm.hdinsight/use-azurermhdinsightcluster?view=azurermps-6.13.0).
 
-Also, verify that you do not have any locks on your resource. For more information, visit [Lock resources to prevent unexpected changes](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources#portal).
+Also, verify that you do not have any locks on your resource. For more information, visit [Lock resources to prevent unexpected changes](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#portal).
 
 HDInsight cluster billing starts once a cluster is created and stops when the customer issues a delete request. Billing is pro-rated per minute, so you should always delete your cluster when it is no longer in use.
 
