@@ -6,7 +6,7 @@
     authors="sunilagarwal"
     ms.author="sunila"
     displayOrder="80"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640125"
     resourceTags="servers, databases"
     productPesIds="16617"
@@ -29,4 +29,4 @@ The time taken to execute 'Select 1' is a common way to measure the network late
 ## **Recommended Documents**
 
 * [Azure Regions](https://azure.microsoft.com/global-infrastructure/regions/)<br>
-* [Accelerated Networking](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli/)<br>
+* [Accelerated Networking](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli/)

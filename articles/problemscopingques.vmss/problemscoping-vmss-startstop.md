@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32449676"
+                supportTopicIds="32641073"
                 productPesIds="16080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
@@ -13,8 +13,9 @@
 # Management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Cannot stop, start, delete, or restart VM Scale Sets",
+    "title": "Cannot start or stop my instances",
     "fileAttachmentHint": "",
     "formElements": [
         {
