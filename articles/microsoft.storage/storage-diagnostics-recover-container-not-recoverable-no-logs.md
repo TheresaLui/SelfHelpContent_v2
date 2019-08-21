@@ -20,14 +20,14 @@ cloudEnvironments="public"
 Microsoft Azure sincerely apologizes that we are unable to recover the following deleted blob container(s). 
 
 ### Blob container(s) does not exist
-The following blob container(s) in storage account **{ResourceName}** are not recoverable because we cannot find deletion logs for them in the last 14 days. This could indicate that the deletion happened earlier than that time. As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. These blob container(s) and all their contents were cleaned up after deletion and is no longer recoverable by Azure.
+The following blob container(s) in storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_ are not recoverable because we cannot find deletion log for them between **<!--$LogSearchStartTime-->[LogSearchStartTime]<!--/$LogSearchStartTime-->** and **<!--$LogSearchEndTime-->[LogSearchEndTime]<!--/$LogSearchEndTime-->**. Any container(s) that was deleted at an earlier time are also not recoverable. As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. These blob container(s) and all their contents were cleaned up after deletion and is no longer recoverable by Azure:<br>
 
-_**[List containers that does not exist]**_
+<!--$DeletionInfo_ContainersNotExist-->[DeletionInfo_ContainersNotExist]<!--/$DeletionInfo_ContainersNotExist-->
 
 
 ### Active blob container(s) exist
-The following blob container(s) already exist in storage account **{ResourceName}** which means that they were either not deleted or has been recreated with the same name. It is not possible for us to recover a container with the same name as another container in the  storage account.
+The following blob container(s) already exist in storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_ which means that they were either not deleted or has been recreated with the same name. It is not possible for us to recover a container with the same name as another container in the  storage account:<br>
 
-_**[List active containers]**_
+<!--$DeletionInfo_ContainersActive-->[DeletionInfo_ContainersActive]<!--/$DeletionInfo_ContainersActive-->
 
 Please follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidentally deleted content can be recovered in the future.
