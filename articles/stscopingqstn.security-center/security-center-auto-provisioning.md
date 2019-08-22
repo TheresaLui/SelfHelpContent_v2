@@ -17,7 +17,7 @@
 
 # Pricing and Settings - Auto Provisioning
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Enable automatic provisioning of the Log Analytics Agent](https://docs.microsoft.com/azure/security-center/security-center-enable-data-collection#enable-automatic-provisioning-of-the-log-analytics-agent-)<br>
 * [Auto provisioning troubleshooting](https://docs.microsoft.com/azure/security-center/security-center-enable-data-collection#troubleshooting)
