@@ -24,14 +24,14 @@
         "controlType": "dropdown",
         "displayLabel": "Select the configuration that has the problem",
         "watermarkText": "Choose a configuration",
-	    "dropdownOptions": 
+	    "dropdownOptions":
         [
             {
                 "value": "Unable to retrieve list of configurations",
                 "text": "Unable to retrieve list of configurations"
             }
         ],
-        "dynamicDropdownOptions": 
+        "dynamicDropdownOptions":
         {
             "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Automation/automationAccounts/{resourcename}/configurations?api-version=2017-05-15-preview",
             "jTokenPath": "value",
