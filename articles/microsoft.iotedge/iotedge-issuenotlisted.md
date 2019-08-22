@@ -19,7 +19,7 @@ If your IoT Edge issue isn't listed in the support options, a good first step is
 
 ## **Recommended Steps**
 
-Run the IoT Edge troubleshooting tool on your IoT Edge device.
+Run the IoT Edge troubleshooting tool on your IoT Edge device:
 
 * Linux devices: `sudo iotedge check --verbose`
 * Windows devices: `iotedge check --verbose`
