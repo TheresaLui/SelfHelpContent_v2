@@ -1,5 +1,5 @@
-﻿<properties 
-    pageTitle="Problem with inviting an external user" 
+﻿<properties
+    pageTitle="Problem with inviting an external user"
     description="Problem with inviting an external user" 
     authors="marialai" 
     ms.author="mal"
