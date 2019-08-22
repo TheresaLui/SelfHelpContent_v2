@@ -19,12 +19,12 @@ Direct method calls to IoT Edge modules require an open connection. When trouble
 
 ## **Recommended Steps**
 
-* Run the troubleshooting tool on your IoT Edge device to check that the device can connect to IoT Hub.
+* Run the troubleshooting tool on your IoT Edge device to check that the device can connect to IoT Hub:
   
   * On Linux devices: `sudo iotedge check --verbose`
   * On Windows devices: `iotedge check --verbose`
 
-* If your IoT Edge device is not running the latest version, upgrade to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues.
+* If your IoT Edge device is not running the latest version, upgrade to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues
 
 ## **Recommended Documents**
 
