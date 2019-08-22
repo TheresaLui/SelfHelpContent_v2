@@ -1,5 +1,5 @@
 ﻿<properties
-    pageTitle="Problem with inviting an external user"
+    pageTitle="problem-with-inviting-an-external-user"
     description="Problem with inviting an external user" 
     authors="marialai" 
     ms.author="mal"
@@ -8,6 +8,7 @@
     productPesIds="16578" 
     cloudEnvironments="public" 
     schemaVersion="1"
+    subscriptionRequired = false
     articleId="problemscopingques-aadb2binvitationissue"
 />
 # Problem with inviting an external user
@@ -107,10 +108,10 @@
                     "text": "PowerShell",
                     "value": "powerShell"
                 },{
-                    "text": "B2B invitation manager API"
+                    "text": "B2B invitation manager API",
                     "value": "B2Bapi"
                 },{
-                    "text": "I don't know"
+                    "text": "I don't know",
                     "value": "dont_know_answer"
                 }
             ],
