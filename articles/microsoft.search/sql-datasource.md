@@ -31,7 +31,7 @@ If you are having trouble indexing a SQL data source, you may want to ensure tha
 
 If change detection is not working for you:
 
-1. Make sure to enable [change tracking] (https://docs.microsoft.com/sql/relational-databases/track-changes/enable-and-disable-change-tracking-sql-server?view=sql-server-2017)  in your database. 
+1. Make sure to enable [change tracking](https://docs.microsoft.com/sql/relational-databases/track-changes/enable-and-disable-change-tracking-sql-server?view=sql-server-2017) in your database. 
 
 1. Confirm you meet the database version requirements:
 	SQL Server 2012 SP3 and later, if you're using SQL Server on Azure VMs.
