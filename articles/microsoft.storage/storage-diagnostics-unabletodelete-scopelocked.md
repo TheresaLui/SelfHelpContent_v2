@@ -17,8 +17,10 @@ cloudEnvironments="public,fairfax,mooncake"
 />
 
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to lock(s) to prevent unexpected changes
+
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> cannot be deleted because it contains one or more [lock(s) to prevent unexpected changes](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources). Please remove the following lock(s) before deleting <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> <!--$ResourceName-->[ResourceName]<!--/$ResourceName-->:
+
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> cannot be deleted because it contains one or more lock(s) to prevent unexpected changes. Please remove the following lock(s) before deleting <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> <!--$ResourceName-->[ResourceName]<!--/$ResourceName-->:
 
 <!--$ScopeLockTable-->[ScopeLockTable]<!--/$ScopeLockTable-->
 <!--/issueDescription-->
@@ -26,3 +28,4 @@ The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> <!--$ResourceName-->
 ## **Recommended Documents**
 
 * [Lock resources to prevent unexpected changes](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources)
+
