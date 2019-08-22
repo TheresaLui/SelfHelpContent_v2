@@ -32,6 +32,27 @@
             "required": false
         },
         {
+            "id": "OperatingSystem",
+            "order": 25,
+            "controlType": "dropdown",
+            "displayLabel": "What OS are the affected machines?",
+            "dropdownOptions": [
+                {
+                    "value": "Windows",
+                    "text": "Windows Server"
+                },
+                {
+                    "value": "Linux",
+                    "text": "Linux"
+                },
+                {
+                    "value": "Both",
+                    "text": "Both Windows and Linux"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 30,
             "controlType": "multilinetextbox",
