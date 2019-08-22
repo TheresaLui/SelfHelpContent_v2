@@ -5,7 +5,7 @@
 	ms.author="akankshajsh"
 	icmTeam="icmteamname"
 	icmService="icmservicename"
-	feedbackEmail="emailid"
+	feedbackEmail="emailId"
 	productPesIds="cddd3eb5-1830-b494-44fd-782f691479dc"
 	selfHelpType="supportTopicDescription"
 	articleId="compute-vm-windows-supportopicdescription"
