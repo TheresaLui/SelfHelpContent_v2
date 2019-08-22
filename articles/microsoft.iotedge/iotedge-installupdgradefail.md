@@ -20,12 +20,14 @@ If IoT Edge fails during installation or update, it's often because of a missing
 ## **Recommended Steps**
 
 For Linux devices:<br>
-1. If you can, run the command **sudo iotedge check --verbose** to test for common configuration errors. 
+
+1. If you can, run the command **sudo iotedge check --verbose** to test for common configuration errors
 2. Make sure that the container engine is running. If you get errors trying to install the Moby container engine, [Verify your Linux kernel for Moby compatibility](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-linux#verify-your-linux-kernel-for-moby-compatibility).
 3. Check that you used the installation packages that match your device's operating system. There are unique packages for each [supported operating system](https://docs.microsoft.com/azure/iot-edge/support#operating-systems).
 
 For Windows devices:<br>
-1. If you can, run the command **iotedge check --verbose** to test for common configuration errors. 
+
+1. If you can, run the command **iotedge check --verbose** to test for common configuration errors
 2. Verify that your device is running a [supported version of Windows](https://docs.microsoft.com/azure/iot-edge/support#operating-systems). Windows 10 Enterprise is not supported to host IoT Edge due to licensing issues. The EULA explicitly excludes the use of Windows Containers on non-Server and non-IOT editions of Windows in product environments.
 
 ## **Recommended Documents**
