@@ -19,14 +19,13 @@ For a downstream device to connect to an IoT Edge gateway, the devices need to t
 
 ## **Recommended Steps**
 
-* On the IoT Edge gateway device, run the command **iotedge check --verbose**. Look particularly at the results of the configuration checks to make sure that the certificates are valid and defined correctly. 
-
+* On the IoT Edge gateway device, run the command **iotedge check --verbose**. Look particularly at the results of the configuration checks to make sure that the certificates are valid and defined correctly
 * If your gateway device is operating offline, verify that the downstream device is set as a child device of the gateway. You can manage the child/parent relationship from the device details page of either the IoT Edge gateway device or the downstream device. The gateway device must connect to IoT Hub once to retrieve child device information, then can operate offline. 
-
 * Make sure that the downstream device and the gateway device can reach each other over your network:
-  * Open communication ports on any firewalls between the two devices, and open inbound ports on the gateway device. 
+
+  * Open communication ports on any firewalls between the two devices, and open inbound ports on the gateway device
   * Check that the gateway hostname is resolvable to an IP address. If not, use DNS or add a host file entry on the downstream device. 
-  * Verify that the gateway hostname in the downstream device's connection string is the same as the hostname value in the IoT Edge config.yaml file on the gateway device. 
+  * Verify that the gateway hostname in the downstream device's connection string is the same as the hostname value in the IoT Edge config.yaml file on the gateway device
 
 ## **Recommended Documents**
 
