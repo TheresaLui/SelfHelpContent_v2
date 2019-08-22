@@ -15,7 +15,7 @@
 
 # Azure Recovery Services Agent installation or registration issues
 
-## **Recommended steps**
+## **Recommended Steps**
 Try the recommended steps below to resolve commonly observed issues with installation or registration of the **Microsoft Azure Recovery Services Agent**
 
 ### **Installation**
@@ -41,7 +41,7 @@ Try the recommended steps below to resolve commonly observed issues with install
 
 * If you are **re-registering your Windows server/client** to a vault, ensure that the encryption passphrase provided, matches the passphrase provided during an earlier registration of the server/client to the same vault
 
-## **Recommended documents**
+## **Recommended Documents**
 [Azure Backup FAQs](https://docs.azure.cn/backup/backup-azure-backup-faq)<br>
 
 
