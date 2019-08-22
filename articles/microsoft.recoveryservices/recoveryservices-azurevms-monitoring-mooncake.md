@@ -16,7 +16,7 @@
 
 # Azure virtual machine backup monitoring and reporting issues
 
-## **Recommended Steps**
+## **Recommended steps**
 Try the recommended steps below to resolve common issues with Azure IaaS VM Backup monitoring and reporting
 
 * Note that alerts are raised only for failed backups
@@ -29,6 +29,6 @@ Try the recommended steps below to resolve common issues with Azure IaaS VM Back
 	3. A backup job is triggered and then fails, and another backup job is in progress <br>
 	4. A scheduled backup job for a Resource Manager-enabled VM starts, but the VM no longer exists <br>
 
-##**Recommended Documents**
+##**Recommended documents**
 
  [Azure virtual machine backup monitoring guide](https://docs.azure.cn/backup/backup-azure-monitor-vms)<br>

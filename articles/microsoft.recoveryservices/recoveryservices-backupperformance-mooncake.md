@@ -15,11 +15,11 @@
 
 # Azure virtual machine backups are running slow
 
-## **Recommended Steps**
+## **Recommended steps**
 Understand the factors contributing to backup time and how you can optimize the time by following best practices. 
 
 1. Understand the [factors contributing to backup time.](https://docs.azure.cn/backup/backup-azure-vms-introduction#total-vm-backup-time)
 2. Make sure that you are following [best practices](https://docs.azure.cn/backup/backup-azure-vms-introduction#best-practices) for optimal backup performance. 
 
-## **Recommended Documents**
+## **Recommended documents**
 [Planning for Azure virtual machine backup](https://docs.azure.cn/backup/backup-azure-vms-introduction)<br>

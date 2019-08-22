@@ -15,7 +15,7 @@
 
 # Replication not progressing - VMware/Physical to Azure
 
-## **Recommended Documents**
+## **Recommended documents**
 * Troubleshoot [Initial replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot/) <br>
 * Replication is stuck and not progressing? Follow this troubleshooting [article](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication)</br>
 * Troubleshoot error message ['No application consistent recovery point available for the VM'](https://blogs.technet.microsoft.com/srinathv/2018/01/11/troubleshooting-no-latest-app-consistent-snapshot-issues-for-vmware-to-azure-when-using-azure-site-recovery/)</br>

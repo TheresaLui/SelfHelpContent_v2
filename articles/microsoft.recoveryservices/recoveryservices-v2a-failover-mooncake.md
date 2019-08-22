@@ -15,7 +15,7 @@
 
 # Site Recovery (VMware to Azure)/Unable to connect/RDP/SSH to the failed over virtual machine
 
-## **Recommended Steps**
+## **Recommended steps**
 
 **Connect button is grayed out on the virtual machine** 
 - If the deployment model is Resource Manager <br/>
@@ -32,7 +32,7 @@ Add an endpoint on public port 3389 for RDP and on public port 22 for SSH. [See 
 	- If the domain controller is not functioning correctly try logging in to the failed over virtual machine using a local administrator account<br/>
 - If you are using a custom DNS server then ensure that it is reachable. You can do that by creating a new virtual in the same network and checking that it is able to do name resolution using the custom DNS Server<br/>
 
-## **Recommended Documents**
+## **Recommended documents**
 
 [Detailed failover documentation](https://docs.azure.cn/site-recovery/site-recovery-failover)<br/>
 [Troubleshoot RDP connection](https://docs.azure.cn/virtual-machines/windows/troubleshoot-rdp-connection)<br/>

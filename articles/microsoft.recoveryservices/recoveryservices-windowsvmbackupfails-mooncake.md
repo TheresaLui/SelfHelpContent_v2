@@ -15,7 +15,7 @@
 
 # Backup of Windows Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'
 
-## **Recommended Steps**
+## **Recommended steps**
 To resolve common isuess, try one or more of the following steps.
 
 1. Check VM has access to internet for taking snapshot. Learn how to [enable internet access](https://docs.azure.cn/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#cause-1-the-vm-does-not-have-internet-access) if VM is behind NSG or Firewall. 
@@ -23,5 +23,5 @@ To resolve common isuess, try one or more of the following steps.
 3. Check that snapshot status is [retrievable.](https://docs.azure.cn/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#cause-4-the-snapshots-status-cannot-be-retrieved-or-the-snapshots-cannot-be-taken)
 
 
-## **Recommended Documents**
+## **Recommended documents**
 [Azure virtual machine backup troubleshooting guide](https://docs.azure.cn/backup/backup-azure-vms-troubleshoot)<br>
