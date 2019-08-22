@@ -20,6 +20,8 @@
 
 First, [compile the configuration locally ](https://docs.microsoft.com/powershell/dsc/configurations/configurations#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation. 
 
+Second, [collect diagnostic logs](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#steps-to-troubleshoot-desired-state-configuration-dsc). 
+
 ### Import-DSC Resource needs to be on new line
 
 * If importing multiple DSC resources, [list each Import-DscResource statement on a new line](https://docs.microsoft.com/powershell/dsc/configurations/import-dscresource)
