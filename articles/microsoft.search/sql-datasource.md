@@ -10,7 +10,7 @@
 	supportTopicIds="32681365"
 	resourceTags=""
 	productPesIds="15568"
-    articleId="sql-datasource"
+	articleId="sql-datasource"
 	cloudEnvironments="public"
 />
 
@@ -45,5 +45,5 @@ If change detection is not working for you:
 ## **Recommended documents**
 [Crawl a SQL database using Azure Search Indexers](https://docs.microsoft.com/azure/search/search-indexer-tutorial) <br>
 [Configure a connection from an Azure Search indexer to SQL Server on an Azure VM](https://docs.microsoft.com/azure/search/search-howto-connecting-azure-sql-iaas-to-azure-search-using-indexers) <br>
-[How to upload documents using using indexers from the portal](https://azure.microsoft.com/documentation/articles/search-import-data-portal/) <br>
+[How to upload documents using indexers from the Azure Portal](https://azure.microsoft.com/documentation/articles/search-import-data-portal/) <br>
 [Capture changes using Azure SQL Integrated Change Tracking](https://docs.microsoft.com/azure/search/search-howto-connecting-azure-sql-database-to-azure-search-using-indexers#capture-new-changed-and-deleted-rows)
