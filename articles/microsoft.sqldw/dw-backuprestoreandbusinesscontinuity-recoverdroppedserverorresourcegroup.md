@@ -23,10 +23,10 @@ File a support ticket to attempt recovery of the dropped server. Best chances of
 * A server with the same name has not been created
 * The server was dropped less than 7 days ago
 
-To learn how to avoid business interruptions you can review the capabilities that Azure SQL Database provides for [business continuity](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/backup-and-restore).
+To learn how to avoid business interruptions you can review the capabilities that Azure SQL Database provides for [business continuity](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore).
 
 ## **Recommended Steps**
 
 Check if the databases under the server can be recovered using supported features:
 
-* If the server still exists you can [restore deleted databases](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw) from the Azure portal, PowerShell, or REST APIs
+* If the server still exists you can [restore deleted databases](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw) from the Azure portal, PowerShell, or REST APIs
