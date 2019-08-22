@@ -1,11 +1,13 @@
-﻿<properties pageTitle="Problem with inviting an external user" 
+﻿<properties pageTitle="problem-with-inviting-an-external-user" 
 	 description="aadb2bissue" 
 	 authors="marialai" 
+     ms.author="mal"
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32615387" 
-	 productPesIds="14785" 
+	 productPesIds="16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+     subscriptionRequired = false
 	articleId="problemscopingques-inviteb2buser"
 />
 # Problem with inviting an external user
@@ -16,9 +18,25 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
-            "id": "whoInviter",
+            "id": "problem_start_time",
             "visibility": null,
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem occur?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "whoInviter",
+            "visibility": null,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Who is trying to invite an external user?",
             "content": null,
@@ -35,11 +53,10 @@
                 },
                 {
                     "text": "I have a different problem, not an invitation problem.",
-                    "value": "anotherProblem"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -48,7 +65,7 @@
         {
             "id": "whoInvitee",
             "visibility": null,
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the email address of the person you’re trying to invite?",
             "content": null,
@@ -56,7 +73,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -65,7 +81,7 @@
         {
             "id": "whichApp",
             "visibility": null,
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Where does this problem occur? ",
             "content": null,
@@ -90,52 +106,15 @@
                 },{
                     "text": "PowerShell",
                     "value": "powerShell"
-                },
-            ],
-            "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "whereProblem",
-            "visibility": null,
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Where does the problem occur?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Azure portal",
-                    "value": "azurePortal"
-                },
-                {
-                    "text": "PowerShell",
-                    "value": "powerShell"
-                },
-                {
-                    "text": "B2B API",
-                    "value": "invitationAPI"
-                },
-                {
-                    "text": "Access panel",
-                    "value": "accessPanel"
-                },
-                {
-                    "text": "Other Application",
-                    "value": "otherApp"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
+                },{
+                    "text": "B2B invitation manager API"
+                    "value": "B2Bapi"
+                },{
+                    "text": "I don't know"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -144,7 +123,7 @@
         {
             "id": "errorText",
             "visibility": null,
-            "order": 3,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Paste in the error text, including the correlation ID if any.",
             "content": null,
@@ -152,7 +131,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -161,7 +139,7 @@
         {
             "id": "URL",
             "visibility": null,
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "What is the URL of the page you saw the problem on?",
             "content": null,
@@ -169,7 +147,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -178,7 +155,7 @@
         {
             "id": "reproStepsText",
             "visibility": null,
-            "order": 5,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "What specific steps did you or the user follow that resulted in the error?",
             "content": null,
@@ -186,12 +163,27 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 10
         },
+        {
+            "id": "problem_description",
+            "visibility": null,
+            "order": 9,
+            "controlType": "multilinetextbox",
+            "displayLabel": "You may provide additional details here",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0
+        }
     ],
     "$schema": "SelfHelpContent"
 }
