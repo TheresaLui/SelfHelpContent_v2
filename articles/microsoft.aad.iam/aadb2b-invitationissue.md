@@ -1,5 +1,5 @@
 ﻿<properties pageTitle="Problem with inviting an external user" 
-	 description="aadb2bissue" 
+	 description="aadb2binvitationissue" 
 	 authors="marialai" 
      ms.author="mal"
 	 selfHelpType="problemScopingQuestions" 
@@ -122,7 +122,7 @@
         {
             "id": "errorText",
             "visibility": null,
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Paste in the error text, including the correlation ID if any.",
             "content": null,
@@ -138,7 +138,7 @@
         {
             "id": "URL",
             "visibility": null,
-            "order": 7,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "What is the URL of the page you saw the problem on?",
             "content": null,
@@ -154,7 +154,7 @@
         {
             "id": "reproStepsText",
             "visibility": null,
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What specific steps did you or the user follow that resulted in the error?",
             "content": null,
@@ -170,7 +170,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 9,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "You may provide additional details here",
             "content": null,
