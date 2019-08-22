@@ -1,13 +1,13 @@
-﻿<properties pageTitle="Problem with inviting an external user" 
-	 description="aadb2binvitationissue" 
-	 authors="marialai" 
-     ms.author="mal"
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32615387" 
-	 productPesIds="16578" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-	articleId="problemscopingques-inviteb2buser"
+﻿<properties 
+    pageTitle="Problem with inviting an external user" 
+    description="Problem with inviting an external user" 
+    authors="marialai" 
+    ms.author="mal"
+    selfHelpType="problemScopingQuestions" 
+    supportTopicIds="32615387" 
+    productPesIds="16578" 
+    cloudEnvironments="public" 
+    schemaVersion="1"
 />
 # Problem with inviting an external user
 ---
