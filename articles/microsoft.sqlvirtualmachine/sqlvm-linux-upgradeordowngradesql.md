@@ -6,7 +6,7 @@
 	authors="egranet"
 	ms.author="egranet"
 	displayOrder=""
-	articleId="683e3eaa-2e14-4f6d-a7af-4573d29ca9f3"
+	articleId="f67a7233-d146-4fab-b610-2353f8239715"
 	selfHelpType="generic"
 	supportTopicIds="32633525"
 	resourceTags="windowsSQL"
