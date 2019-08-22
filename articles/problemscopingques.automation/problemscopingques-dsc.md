@@ -75,7 +75,7 @@
                 },
                 {
                     "value": "Don't know",
-                    "text": "I don't know if the runbook works locally"
+                    "text": "I don't know if the configuration works locally"
                 }
             ],
             "required": false
