@@ -21,9 +21,10 @@ Azure IoT Edge is designed to operate while offline, and then automatically reco
 
 * Give the device sufficient time to reconnect. On some platforms, it may take up to 10 minutes. 
 * Check the version of IoT Edge on your device by running the command **iotedge --version**. Update your device to version 1.0.7-1 or newer to take advantage of an SDK fix for intermittent connectivity issues.
-* Use the built-in troubleshooting tool on the IoT Edge device to check for common connection errors. 
-  * On Linux devices: `sudo iotedge check --verbose`
-  * On Windows devices: `iotedge check --verbose`
+* Use the built-in troubleshooting tool on the IoT Edge device to check for common connection errors:
+
+	* On Linux devices: `sudo iotedge check --verbose`
+  	* On Windows devices: `iotedge check --verbose`
 
 ## **Recommended Documents**
 
