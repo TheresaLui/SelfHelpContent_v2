@@ -19,7 +19,7 @@ IoT Edge devices need outbound ports to communicate with IoT Hub. If you have a 
 
 ## **Recommended Steps**
 
-Run the IoT Edge troubleshooting tool on your IoT Edge device to identify common connection errors.
+Run the IoT Edge troubleshooting tool on your IoT Edge device to identify common connection errors:
 
 * On Linux devices: `sudo iotedge check --verbose`
 * On Windows devices: `iotedge check --verbose`
