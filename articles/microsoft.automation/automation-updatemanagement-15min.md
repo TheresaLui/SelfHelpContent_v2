@@ -20,6 +20,8 @@ This article will help with several kinds of issues relating to onboarding the A
 
 ## **Recommended Steps**
 
+First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
+
 ### **Machine isn't onboarding after waiting**
 
 * Refer to [the "Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
