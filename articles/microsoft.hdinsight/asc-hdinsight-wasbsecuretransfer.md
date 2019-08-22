@@ -26,7 +26,7 @@ We determined that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<
 
 1. Navigate to your cluster in the Azure portal
 2. On the left side, within the Settings section, click Storage accounts
-3. One of the storage accounts listed your primary storage account
+3. One of the storage accounts listed is your primary storage account
 
 ### **Disabling secure transfer**
 
