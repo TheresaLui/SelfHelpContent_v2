@@ -19,10 +19,10 @@ If the IoT Edge service is reporting a failed state, there are several possible 
 
 ## **Recommended Steps**
 
-Run the IoT Edge troubleshooting tool on your IoT Edge device.
+Run the IoT Edge troubleshooting tool on your IoT Edge device:
 
-* On Linux devices: `sudo iotedge check --verbose`
-* On Windows devices: `iotedge check --verbose`
+	* On Linux devices: `sudo iotedge check --verbose`
+	* On Windows devices: `iotedge check --verbose`
 
 ## **Recommended Documents**
 
