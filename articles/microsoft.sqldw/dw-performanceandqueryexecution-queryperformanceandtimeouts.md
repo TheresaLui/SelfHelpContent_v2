@@ -1,18 +1,19 @@
 <properties
-	pageTitle="Query performance and timeouts"
-	description="Query performance and timeouts"
-	service="microsoft.sql"
-	resource="servers"
-	authors="saltug,mlee3gsd"
-	ms.author="saltug,martinle"
-	supportTopicIds="32635214"
-	productPesIds="15818"
-	displayOrder="32"
-	selfHelpType="resource"
-	resourceTags="datawarehouse"
-	articleId="dw-performanceandqueryexecution-queryperformanceandtimeouts.md"
-	cloudEnvironments="public"
+    pageTitle="Query performance and timeouts"
+    description="Query performance and timeouts"
+    service="microsoft.sql"
+    resource="servers"
+    authors="saltug,mlee3gsd"
+    ms.author="saltug,martinle"
+    supportTopicIds="32635214"
+    productPesIds="15818"
+    displayOrder="32"
+    selfHelpType="generic"
+    resourceTags="datawarehouse"
+    articleId="dw-performanceandqueryexecution-queryperformanceandtimeouts.md"
+    cloudEnvironments="public"
 />
+
 # Query performance and timeouts
 
 ## **Recommended Steps**
