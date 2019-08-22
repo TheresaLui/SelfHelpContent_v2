@@ -17,6 +17,6 @@
 
 # Agent Health
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Agent Health Solution in OMS](https://blogs.technet.microsoft.com/msoms/2016/08/29/agent-health-solution-in-oms/)

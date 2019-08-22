@@ -17,7 +17,7 @@
 
 # Searching for Performance data
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Raw searchable performance metrics in OMS](https://blogs.technet.microsoft.com/msoms/2016/08/05/raw-searchable-performance-metrics-in-oms/)
 * [Log Searches in Log Analytics](https://docs.azure.cn/azure-monitor/log-query/log-query-overview)

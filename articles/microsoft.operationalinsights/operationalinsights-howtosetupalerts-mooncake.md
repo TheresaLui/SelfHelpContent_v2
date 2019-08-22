@@ -17,7 +17,7 @@
 
 # Setting up Alerts
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Alerts in Log Analytics](https://docs.azure.cn/azure-monitor/platform/alerts-overview)
 * [How to generate an alert in Microsoft OMS when a computer is down or unreachable](https://blogs.technet.microsoft.com/msoms/2016/09/08/how-to-generate-an-alert-in-microsoft-oms-when-a-computer-is-down-or-unreachable/)

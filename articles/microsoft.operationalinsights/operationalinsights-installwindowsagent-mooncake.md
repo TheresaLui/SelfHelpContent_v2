@@ -17,7 +17,7 @@
 
 # Installation of Windows Agent
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Connect Servers directly to OMS](https://docs.azure.cn/azure-monitor/overview#optionally-connect-servers-directly-to-the-operations-management-suite-by-installing-an-agent)
 * [Connect Windows computer to Log Analytics](https://docs.azure.cn/azure-monitor/platform/agent-windows)

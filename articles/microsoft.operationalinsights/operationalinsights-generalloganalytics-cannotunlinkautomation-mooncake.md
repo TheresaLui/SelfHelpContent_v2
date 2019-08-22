@@ -21,7 +21,7 @@
 
 You need Contributor permission in the Resource Group level to perform this operation.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To unlink an Automation account from a Log Analytics workspace you must first remove all solutions from the workspace that have dependencies on the Automation account, including:
 
@@ -34,7 +34,7 @@ After you remove these solutions from the workspace, you can continue with the u
 * From Automation account, select *Linked workspace* on the left pane.
 * Click *Unlink workspace* on the ribbon, then *OK*. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Automation User Documentation](https://docs.azure.cn/automation/)
 * [Forward job status and job streams from Automation to Log Analytics](https://docs.azure.cn/automation/automation-manage-send-joblogs-log-analytics)

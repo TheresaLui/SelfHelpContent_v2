@@ -22,7 +22,7 @@
 Linking Automation account to Log Analytics workspace requires that both resources are placed in the same "Resource Group".
 The Automation account and workspace link is created with the installation of *Automation & Control* solution in the workspace.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To link an Automation account to a Log Analytics workspace, follow these steps:
 
@@ -45,7 +45,7 @@ To link an Automation account to a Log Analytics workspace, follow these steps:
 
 **Important:** The removal of Automation & Control solution from workspace doesn't remove the link to the Automation account. To remove the link, follow the steps in 'Automation account link verification' above.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Automation User Documentation](https://docs.azure.cn/automation/)
 * [Forward job status and job streams from Automation to Log Analytics](https://docs.azure.cn/automation/automation-manage-send-joblogs-log-analytics)

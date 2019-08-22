@@ -17,7 +17,7 @@
 
 # Installation of Linux Agent
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Linux Management with OMS](https://blogs.technet.microsoft.com/msoms/2016/08/26/now-generally-available-linux-management-with-operations-management-suite-oms/)
 * [Connect Linux computers to Log Analytics](https://docs.azure.cn/azure-monitor/learn/quick-collect-linux-computer)

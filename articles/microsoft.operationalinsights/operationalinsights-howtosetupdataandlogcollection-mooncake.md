@@ -17,7 +17,7 @@
 
 # Log Collection
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to enable data and log collection in Microsoft OMS](https://blogs.technet.microsoft.com/msoms/2016/09/29/how-to-enable-data-and-log-collection-in-microsoft-oms/)
 * [Data sources in Log Analytics](https://docs.azure.cn/azure-monitor/platform/agent-data-sources)
