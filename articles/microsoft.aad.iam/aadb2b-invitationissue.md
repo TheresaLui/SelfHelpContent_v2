@@ -7,7 +7,7 @@
 	 productPesIds="16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
-     subscriptionRequired = false
+     subscriptionRequired = "0"
 	articleId="problemscopingques-inviteb2buser"
 />
 # Problem with inviting an external user
