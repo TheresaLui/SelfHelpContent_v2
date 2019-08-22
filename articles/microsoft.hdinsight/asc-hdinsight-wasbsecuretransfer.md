@@ -10,7 +10,7 @@
     articleId="Hdi_WASB_Storage"
     diagnosticScenario="HDInsightWasbSecureTransferInsight"
     selfHelpType="rca"
-    supportTopicIds="32636488"
+    supportTopicIds="32636430"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
@@ -30,7 +30,7 @@ We determined that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<
 
 ### **Disabling secure transfer**
 
-1. Within the Azure portal seatch for your storage account, determined from the previous step 
+1. Within the Azure portal search for your storage account, determined from the previous step 
 2. On the left side, within the Setting section, click Configuration
 3. Toggle Secure transfer required to disabled and save the configuration
 4. Confirm that Ambari restarted any stopped services
