@@ -16,9 +16,6 @@
 
 # Azure Automation - State Configuration (DSC)
 
-First, [compile the configuration locally ](https://docs.microsoft.com/powershell/dsc/configurations/configurations#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation. 
-
-Second, [collect diagnostic logs](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#steps-to-troubleshoot-desired-state-configuration-dsc). 
 
 ## **Recommended Documents**
 
