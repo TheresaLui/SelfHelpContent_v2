@@ -19,19 +19,18 @@ Whether deploying custom code or an Azure service as an IoT Edge module, there a
 
 ## **Recommended Steps**
 
-* Use the built-in troubleshooting tool to check for common configuration or connection errors. 
+* Use the built-in troubleshooting tool to check for common configuration or connection errors:
 
   * On Linux devices: `sudo iotedge check --verbose`
   * On Windows devices: `iotedge check --verbose`
 
 * Restart the module: `iotedge restart <module name>`
-
-* Remove the module from the device and have the IoT Edge agent pull the module image again. 
+* Remove the module from the device and have the IoT Edge agent pull the module image again:
 
   * On Linux devices: `sudo docker ps -a` to get the container names, then `sudo docker rm -f <container name>`
   * On Windows devices: `docker -H npipe:////./pipe/iotedge_moby_engine ps -a` to get the container names, then `docker -H npipe:////./pipe/iotedge_moby_engine rm -f <container name>`
 
-* If your module is a third-party module from the [IoT Edge module marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules), refer to their documentation for additional information. 
+* If your module is a third-party module from the [IoT Edge module marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules), refer to their documentation for additional information
 
 ## **Recommended Documents**
 
