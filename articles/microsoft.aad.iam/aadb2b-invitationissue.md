@@ -49,7 +49,7 @@
                     "value": "thisUser"
                 },
                 {
-                    "text": "Another user",
+                    "text": "Another user. Enter user UPN in additional details field",
                     "value": "anotherUser"
                 },
                 {
