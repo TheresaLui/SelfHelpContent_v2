@@ -46,7 +46,7 @@
             "controlType": "textbox",
             "displayLabel": "Job name",
             "watermarkText": "Please provide the job name for the job that failed",
-            "required": true
+            "required": false
         },
         {
             "id": "job_url",
@@ -54,7 +54,7 @@
             "controlType": "textbox",
             "displayLabel": "Job URL",
             "watermarkText": "Please provide the job URL for the job that failed",
-            "required": true
+            "required": false
         },
         {
             "id": "usql_script",
