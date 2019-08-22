@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Security, Privacy and Compliance-AzureActiveDirectory"
-    description="Security, Privacy and Compliance-AzureActiveDirectory"
+    pageTitle="Security, Privacy and Compliance-Auditing"
+    description="Security, Privacy and Compliance-Auditing"
     service="microsoft.sql"
     resource="servers"
     authors="saltug,mlee3gsd"
@@ -10,7 +10,7 @@
     displayOrder="81"
     selfHelpType="generic"
     resourceTags="datawarehouse"
-    articleId="dw-securityprivacyandcompliance-azureactivedirectory.md"
+    articleId="dw-securityprivacyandcompliance-auditing.md"
     cloudEnvironments="public"
 />
 
