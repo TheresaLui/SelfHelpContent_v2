@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Update Management",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
