@@ -25,7 +25,6 @@ For Linux devices:
 2. View the logs of the IoT Edge security manager, which should tell you whether the image download is still in progress or failed: `sudo journalctl -u iotedge -f`
 3. Restart the IoT Edge service: `sudo systemctl restart iotedge`
 
-
 For Windows devices:
 
 1. Run the IoT Edge troubleshooting tool on your IoT Edge device to check for common configuration or connectivity issues: `iotedge check --verbose`
