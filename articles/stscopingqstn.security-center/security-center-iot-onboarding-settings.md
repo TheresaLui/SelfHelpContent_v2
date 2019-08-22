@@ -8,7 +8,7 @@
     authorAlias="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32680764, 32636845"
+    supportTopicIds="32680764"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
