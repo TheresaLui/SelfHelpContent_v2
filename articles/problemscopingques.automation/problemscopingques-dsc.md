@@ -60,6 +60,27 @@
             "required": false
         },
         {
+            "id": "run locally",
+            "order": 25,
+            "controlType": "dropdown",
+            "displayLabel": "Does the DSC configuration work when applied locally?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes, this configuration works locally but not in Azure Automation"
+                },
+                {
+                    "value": "No",
+                    "text": "No, this configuration does not work locally"
+                },
+                {
+                    "value": "Don't know",
+                    "text": "I don't know if the runbook works locally"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 30,
             "controlType": "multilinetextbox",
