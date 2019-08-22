@@ -21,7 +21,7 @@
 - [Changing storage replication type from GRS to LRS is not supported](https://docs.azure.cn/backup/backup-azure-backup-faq#can-i-change-from-grs-to-lrs-after-a-backup)
 - [Support matrix](https://docs.azure.cn/backup/backup-support-matrix-iaas) for Azure Virtual Machine backup
 - How much time will it take to [Backup](https://docs.azure.cn/backup/backup-azure-vms-introduction#backup-performance) or [Restore](https://docs.azure.cn/backup/backup-azure-vms-introduction#restore-considerations)?
-- How to stop/cancel backup job using [PowerShell](https://aka.ms/AB-AA4e56e)?
+- How to stop/cancel backup job using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.backup/stop-azurermbackupjob?view=azurermps-6.13.0&viewFallbackFrom=azurermps-5.1.1)?
 - To configure Alert/Notification on successful backup jobs use query [all successful Azure VMs backup jobs](https://docs.azure.cn/backup/backup-azure-monitoring-use-azuremonitor#all-successful-azure-vm-backup-jobs) while defining [alert condition](https://docs.azure.cn/backup/backup-azure-monitoring-use-azuremonitor#alert-condition) in Log Analytics
 - You can also use [Activity Logs](https://docs.azure.cn/backup/backup-azure-monitoring-use-azuremonitor#using-rs-vaults-activity-logs) to get notifications for events such as backup success for Azure VMs, read [recommendations](https://docs.azure.cn/backup/backup-azure-monitoring-use-azuremonitor#recommendation) before configuring notification using Activity Logs
 - [Frequently asked questions](https://docs.azure.cn/backup/backup-azure-vm-backup-faq)
