@@ -17,7 +17,7 @@
 
 # IoT Hub - IoT Recommendations in IoT Hub
 
-## *Recommended documents**
+## **Recommended documents**
 
 * [IoT Recommendations](https://docs.microsoft.com/azure/asc-for-iot/concept-recommendations)<br>
 * [Troubleshooting guide](https://docs.microsoft.com/azure/asc-for-iot/troubleshoot-agent)<br>
