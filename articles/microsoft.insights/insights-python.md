@@ -44,7 +44,7 @@ Take a look at [extension packages](https://github.com/census-instrumentation/op
 ## **What out-of-the-box metrics are available immediately when instrumenting with OpenCensus Azure?**<br>
 As of today, important system metrics such as CPU usage, memory usage, and requests/sec, outgoing HTTP requests using the [requests](https://2.python-requests.org/en/master/) library as well as incoming HTTP requests using [http.server](https://docs.python.org/3/library/http.server.html) for Python3 and [BaseHTTPServer](https://docs.python.org/2/library/basehttpserver.html) for Python2.
 
-## **Recommended Documents**<br>
+## **Recommended Documents**
 
 * [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python)
 * [OpenCensus Azure Monitor Exporter](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-azure)
