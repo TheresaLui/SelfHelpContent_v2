@@ -17,7 +17,7 @@
 
 # IoT Hub - IoT Overview
 
-## *Recommended documents**
+## **Recommended documents**
 
 * [Azure Security Center for IoT Overview](https://docs.microsoft.com/azure/asc-for-iot/overview)<br>
 * [Pricing and associated costs](https://docs.microsoft.com/azure/asc-for-iot/concept-pricing)<br>
