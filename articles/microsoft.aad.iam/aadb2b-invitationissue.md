@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired" = false,
     "title": "Problem with inviting an external user",
     "fileAttachmentHint": null,
     "formElements": [
