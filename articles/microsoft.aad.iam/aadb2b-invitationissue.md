@@ -8,7 +8,6 @@
     productPesIds="16578" 
     cloudEnvironments="public" 
     schemaVersion="1"
-    subscriptionRequired = false
     articleId="problemscopingques-aadb2binvitationissue"
 />
 # Problem with inviting an external user
