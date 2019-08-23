@@ -17,7 +17,7 @@
 
 # IoT Hub - IoT Custom Alerts
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Quickstart: Create custom alerts](https://docs.microsoft.com/azure/asc-for-iot/quickstart-create-custom-alerts)<br>
 * [Troubleshooting guide](https://docs.microsoft.com/azure/asc-for-iot/troubleshoot-agent)<br>
