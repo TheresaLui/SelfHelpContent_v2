@@ -33,10 +33,11 @@ To resolve this issue, install [Visual C++ Redistributable for Visual Studio 201
 
 	`MSIEXEC /UNREGISTER`<br>
 	`MSIEXEC /REGISTER`
+	
 - If issue still persist after installation then reboot the VM and retry backup operation. <br/>
 
 **Step 2:**
 
 - Run the below command from the elevated command prompt to set the Reg-key and then trigger the backup operation.
 
-`REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v IsVCRedistInstalled /t REG_SZ /d True /f`
+	`REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v IsVCRedistInstalled /t REG_SZ /d True /f`
