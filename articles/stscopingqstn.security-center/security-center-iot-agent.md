@@ -17,7 +17,7 @@
 
 # IoT Hub - IoT Agent
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [IoT Supported Agents](https://docs.microsoft.com/azure/asc-for-iot/security-agent-architecture)<br>
 * [Tutorial: Configure security agents](https://docs.microsoft.com/azure/asc-for-iot/how-to-agent-configuration)<br>
