@@ -24,4 +24,4 @@ We have identified that your backup operation failed while access system files.
 
 ## **Recommended Step**
 
-To resolve this issue, run System File Checker to fix system issues and retry the backup. For more info refer [ article](https://support.microsoft.com/help/929833)
+To resolve this issue, run System File Checker to fix system issues and retry the backup. For more info refer this [article](https://support.microsoft.com/help/929833)
