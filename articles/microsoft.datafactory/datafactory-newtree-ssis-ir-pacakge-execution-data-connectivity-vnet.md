@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Troubleshooting Azure-SSIS IR Runtime - Data Connectivity VNet Issues"
+	pageTitle="Execute SSIS Package - Data Connectivity VNet Issues"
 	description="Troubleshooting Azure-SSIS IR Runtime - Data Connectivity VNet Issues"
 	service="microsoft.datafactory"
 	resource="factories"
@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Troubleshooting package execution data connectivity issues
+# Execute SSIS Package - Data Connectivity VNet Issues
 
 ## **Recommended Steps**
 

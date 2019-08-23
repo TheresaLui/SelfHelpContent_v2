@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Troubleshooting Azure-SSIS IR Runtime - Performance Issues"
+	pageTitle="Execute SSIS Package - Performance Issues"
 	description="Troubleshooting Azure-SSIS IR Runtime - Performance Issues"
 	service="microsoft.datafactory"
 	resource="factories"
@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Troubleshooting package execution performance issues
+# Execute SSIS Package - Performance Issues
 ## **Recommended Steps**
 
 * Check if the SSIS Integration Runtime is in the same region as the Data Source and Destination
