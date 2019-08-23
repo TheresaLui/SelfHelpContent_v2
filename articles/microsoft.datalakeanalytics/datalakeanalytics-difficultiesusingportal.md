@@ -29,5 +29,5 @@ You will also need appropirate rights to the Azure Data Lake Storage Gen1 to sub
 
 * [Getting started with Azure Data Lake Analytics using the Azure portal](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-get-started-portal)<br>
 * [Manage Azure Data Lake Analytics using the Azure portal](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-manage-use-portal)<br>
-* [Access control in Azure Data Lake Storage Gen1](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-access-control)<br>
-* [Securing data stored in Azure Data Lake Storage Gen1](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-secure-data)<br>
+* [Access control in Azure Data Lake Storage Gen1](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-access-control)<br>
+* [Securing data stored in Azure Data Lake Storage Gen1](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-secure-data)<br>
