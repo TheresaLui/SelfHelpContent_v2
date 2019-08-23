@@ -18,18 +18,28 @@
 
 ## **Recommended Steps**
 
-To manage access to Azure resources, you must have the appropriate administrator role.<br>
+[Supported subscription types](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#supported-subscription-types)<br>
 
-* [Add/Change Administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)<br>
-* [Manage access using RBAC and Azure portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)<br>
+### **Transfer billing ownership**
 
-### Change Account Owner
-
-1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://ms.portal.azure.com/#)
-2. Select the subscription for which you want to transfer billing ownership
-3. On the right side of the page, select **Transfer Subscription**
-
+1. Sign in to the [Azure portal](https://ms.portal.azure.com/#home) as the [Account Admin](https://ms.portal.azure.com/#) of the billing account that has the subscription you want to transfer
+2. Search on **Cost Management + Billing**. Select **Subscriptions** from left-pane. Depending on the access, you may need to select a billing scope and then **Subscriptions** or **Azure subscriptions**
+3. Select Transfer billing ownership for the subscription you want to transfer
+4. Enter the email address of a user who's a billing administrator of the account that will be the new owner for the subscription and then select Send **transfer request**
+5. The user gets an email with instructions to review your transfer request. To approve the transfer request, the user selects the link in the email and follows the instructions
+**Note**: If you transfer billing ownership of your subscription to a user's account in another Azure AD tenant, all [role-based access control (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) assignments to manage resources in the subscription are permanently removed. Only the new owner will have access to manage resources in the subscription. For more information, see [Transferring subscription to a user in another Azure AD tenant](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/known-issues).<br>
 If your current Account Admin has left and you need to take over ownership, please open a support request so we can validate the transfer.<br>
+Learn more: [Transfer Ownership of Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
+
+   * [Steps after accepting billing ownership](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#next-steps-after-accepting-billing-ownership)
+   * Retain billing ownership but change the type of your subscription refer: [Switch your Azure subscription to another offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
+   * Control who can manage resources in a subscription: [Built-in roles for Azure resources](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)
+   * [Transferring Visual Studio, Microsoft Partner Network (MPN) and Pay as you go Dev/Test subscriptions](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#transferring-visual-studio-microsoft-partner-network-mpn-and-pay-as-you-go-devtest-subscriptions)
+   * [Transfer billing ownership of Enterprise Agreement (EA) subscriptions](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#transfer-billing-ownership-of-enterprise-agreement-ea-subscriptions)
+
+* [Transfer Ownership FAQ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#frequently-asked-questions-faq-for-senders)
+* [Troubleshoot Transfer ownership issues](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#troubleshooting)
+
 
 **Subscription Ownership Transfer prerequisites:** <br>
 
@@ -47,37 +57,29 @@ If your current Account Admin has left and you need to take over ownership, plea
 * If the subscription is transferred with an existing unpaid balance from the current billing cycle, the pending balance will be transferred to the new Subscription owner
 * If we are transferring the subscription from one tenant to another tenant (from one organization to another organization) then the Co-admins from the Source Subscription will not be transferred
 
-Learn more:  [Transfer Ownership of Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer) <br>
-
-### Add Administrator 
+### **Add/Change Azure subscription administrators**
 
 To add someone as an administrator for an Azure subscription, assign them the Owner role (an RBAC role) at the subscription scope. The Owner role can manage the resources in the subscription that you assigned and doesn't have access privilege to other subscriptions.<br>
 
-1. Visit [Subscriptions in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
-2. Select the subscription that you want to give access
-3. Select **Add**. If the Add button is missing, you do not have permission to add permissions.
-4. Select **Access control (IAM)** in the list
-5. In the **Role** box, select **Owner**
-6. In the **Assign access to** box, select **Azure AD user, group, or application**
-7. In the **Select** box, type the email address of the user you want to add as Owner. Select the user, and then select **Save**
-	
-### Add or Change Co-Administrator
+1. Visit [Subscriptions in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).Select the subscription that you want to give access. Select **Add**. If the Add button is missing, you do not have permission to add permissions.
+2. Select **Access control (IAM)** in the list. In the **Role** box, select **Owner**.In the **Assign access to** box, select **Azure AD user, group, or application**
+3. In the **Select** box, type the email address of the user you want to add as Owner. Select the user, and then select **Save**
 
-Only an [Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) can be added as a Co-administrator. Other users with roles such as [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) and [Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader) cannot be added as Co-administrators.
+Learn more: [Change Azure subscription administrator](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
 
-### Move Resources 
+### **Move Resources**
 
-Azure resources can be moved to either another Azure subscription or another resource group under the same subscription. You can use the Azure portal, Azure PowerShell, Azure CLI, or the REST API to [move resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources). <br>
+Azure resources can be moved to either another Azure subscription or another resource group under the same subscription. You can use the Azure portal, Azure PowerShell, Azure CLI, or the REST API to move resources. Moving a resource only moves it to a new resource group or subscription. It doesn't change the location of the resource.
 
-Learn more on how to move Azure resources: [Tutorial: Move Azure resources to another resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-tutorial-move-resources). <br>
+  * Learn more: [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
+  * Learn more: [Checklist before moving resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#checklist-before-moving-resources)
+  * Learn more: [Tutorial: Move Azure resources to another resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-tutorial-move-resources)
+  * Learn more: [Services that can be moved](https://docs.microsoft.com/azure/azure-resource-manager/move-support-resources)
 
-Learn more: [Services that can be moved](https://docs.microsoft.com/azure/azure-resource-manager/move-support-resources). <br>
- 
-_Note:_ If you want to upgrade your Azure subscription (such as switching from free to pay-as-you-go), you need to convert your subscription.<br>
+**Note**: If you want to upgrade your Azure subscription (such as switching from free to pay-as-you-go), you need to convert your subscription.
 
-* To upgrade a free trial, see [Upgrade your Free Trial or Microsoft Imagine Azure subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
-* To change a pay-as-you-go account, see [Change your Azure Pay-As-You-Go subscription to a different offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)<br>
-* If you can't convert the subscription, [create an Azure support request](https://docs.microsoft.com/azure/azure-supportability/how-to-create-azure-support-request). Select Subscription Management for the issue type
+  * To upgrade a free trial: [Upgrade your Azure subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
+  * To change a pay-as-you-go subscription: [Switch subscription offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
 
 
 ## **Recommended Documents**
