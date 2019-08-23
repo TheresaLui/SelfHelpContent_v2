@@ -13,91 +13,86 @@
 # Account Review
 ---
 {
-    "resourceRequired": false,
-    "subscriptionRequired": false,
-    "title": "Account review",
-    "fileAttachmentHint": "",
-    "formElements": [
-        {
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem Start Date",
-            "required": true
-        },
-	{
-            "id": "student_details1",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Are you a student?",
-            "watermarkText": "",
-            "dropdownOptions": [
+  "resourceRequired": false,
+  "subscriptionRequired": false,
+  "title": "Account review",
+  "fileAttachmentHint": "",
+  "formElements": [
+    {
+      "id": "problem_start_time",
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "Problem Start Date",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 2,
+      "controlType": "multilinetextbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Problem Description",
+      "watermarkText": "Please provide a detailed description of your problem",
+      "required": true,
+      "hints": [
                 {
-                    "value": "Working for a Company?",
-                    "text": "Working for a Company?"
+                    "text": "Please take a look at your contact information <a href='https://account.azure.com/Profile'>here</a>, and update anything that might be incorrect"
                 },
-                {
-                    "value": "Using Azure as an individual?",
-                    "text": "Using Azure as an individual?"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other"
+		 {
+                    "text": "Please take a look at your billing information <a href='https://portal.azure.com/#blade/Microsoft_Azure_Billing/BillingMenuBlade/Payment'>here</a>, and update anything that might be incorrect"
                 }
-            ],
-            "required": true
+            ]
+    },
+    {
+      "id": "student_details1",
+      "order": 3,
+      "controlType": "dropdown",
+      "displayLabel": "Are you a student, employee, or individual?",
+      "watermarkText": "",
+      "dropdownOptions": [
+        {
+          "value": "Student",
+          "text": "Student"
         },
         {
-            "id": "student_details2",
-            "order": 3,
-            "visibility": "student_details1 == dont_know_answer",
-            "controlType": "textbox",
-            "displayLabel": "Please provide the details",
-            "required": false
+          "value": "Working for a Company",
+          "text": "Working for a Company"
         },
         {
-            "id": "company_details",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Company or University name",
-            "watermarkText": "Provide the Company/University name",
-            "required": false
+          "value": "Using Azure as an individual",
+          "text": "Using Azure as an individual"
         },
         {
-            "id": "url_details",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "URL/Website of Company or University",
-            "watermarkText": "Provide the URL/Website of Company or University",
-            "required": false
-        },
-        {
-            "id": "phone_details",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Phone number where you can be contacted",
-            "watermarkText": "Provide the Phone number where you can be contacted",
-            "infoBalloonText": " Verify your phone/contact details <a href='https://portal.azure.com/#blade/Microsoft_Azure_Billing/BillingMenuBlade/Overview'>here</a>.",
-            "required": false
-        },
-	{
-            "id": "detaileddesc_details",
-            "order": 7,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Detailed description of how Azure is being used",
-            "watermarkText": "Provide the detailed description of how Azure is being used",
-            "required": true
-        },
-	{
-            "id": "problem_description",
-            "order": 8,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
-            "displayLabel": "Problem Description",
-            "watermarkText": "",
-            "required": true
-            }
-    ],
-    "$schema": "SelfHelpContent"
+          "value": "dont_know_answer",
+          "text": "Other"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "company_details",
+      "order": 4,
+      "controlType": "textbox",
+      "displayLabel": "Company or University name",
+      "watermarkText": "Provide your Company or University name",
+      "required": false
+    },
+    {
+      "id": "url_details",
+      "order": 5,
+      "controlType": "textbox",
+      "displayLabel": "URL/Website of Company or University",
+      "watermarkText": "Provide the URL/Website of your Company or University",
+      "required": false
+    },
+    {
+      "id": "detaileddesc_details",
+      "order": 7,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Detailed description of how Azure is being used",
+      "watermarkText": "Provide a detailed description of how you are using, or plan to use Azure, to help us resolve your issue as quickly as possible.",
+      "required": true
+    }
+  ],
+  "$schema": "SelfHelpContent"
 }
 ---
