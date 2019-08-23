@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "Azure Information Service - Education",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "",
+                "fileAttachmentHint": "Provide screenshot of the error seen in the portal",
                 "formElements": [
                 {
                     "id": "portal_type",

@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "Custom permissions issues",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity - Help and Feedback - Export Logs",
+                "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity button - Help and Feedback - Export Logs",
                 "formElements": [
                 {
                     "id": "client_type",

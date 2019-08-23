@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "Managing Azure Information Protection templates",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "",
+                "fileAttachmentHint": "Provide screenshot of the error seen in the portal",
                 "formElements": [
                 {
                     "id": "portal_type",
