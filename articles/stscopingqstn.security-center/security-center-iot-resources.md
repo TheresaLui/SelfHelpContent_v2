@@ -17,7 +17,7 @@
 
 # IoT Hub - IoT Resources
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshooting guide](https://docs.microsoft.com/azure/asc-for-iot/troubleshoot-agent)<br>
 * [Azure Security Center for IoT frequently asked questions](https://docs.microsoft.com/azure/asc-for-iot/resources-frequently-asked-questions)
