@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Troubleshooting Azure-SSIS IR Runtime - Data Connectivity Issues"
+	pageTitle="Execute SSIS Package - Data Connectivity Issues"
 	description="Troubleshooting Azure-SSIS IR Runtime - Data Connectivity Issues"
 	service="microsoft.datafactory"
 	resource="factories"
@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Troubleshooting package execution data connectivity issues
+# Execute SSIS Package - Data Connectivity Issues
 ## **Recommended Steps**
 
 * The ADF Portal can be used to check the output of the SSIS Package Execution Activity including the execution result, error messages, and operation ID. Details can be found at [Monitor the pipeline](https://docs.microsoft.com/azure/data-factory/how-to-invoke-ssis-package-ssis-activity#monitor-the-pipeline).

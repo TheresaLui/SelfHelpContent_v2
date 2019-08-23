@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Troubleshooting Azure-SSIS IR Runtime - Customized Components Issues"
+	pageTitle="Execute SSIS Package - Customized Components Issues"
 	description="Troubleshooting Azure-SSIS IR Runtime - Customized Components Issues"
 	service="microsoft.datafactory"
 	resource="factories"
@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Troubleshooting package execution customized component issues
+# Execute SSIS Package - Customized Components Issues
 
 ## **Recommended Steps**
 
