@@ -22,6 +22,7 @@
 We have identified that your backup operation failed because the specific source file path was invalid or could not be found. 
 <!--/issueDescription-->
 
-## **Recommended Step**
+## **Recommended Steps**
 
-To resolve this issue, verify the source file path location and retry the operation.
+* Verify the source file path location
+* Retry the operation
