@@ -22,10 +22,10 @@
 We have identified that your backup operation failed while access system files.
 <!--/issueDescription-->
 
-## **Recommended Step**
+## **Recommended Steps**
+
 To resolve this issue, perform the below steps:
 
-- Check if the Event Log is coinciding with the backup failure for disk corruption issues and resolve the issue if any. 
-- In CBEngine logs, search for the error code 0x80070570, if you find references to this error then it means Metadata VHD file might be corrupt.
-
-  - To resolve VHD issue, delete the VHDs from the folder *C:\Program Files\Microsoft Azure Recovery Services Agent\Scratch\VHDs* and retry the backup operation. 
+- Check if the Event Log is coinciding with the backup failure for disk corruption issues and resolve the issue if any
+- In CBEngine logs, search for the error code 0x80070570. If you find references to this error, the Metadata VHD file might be corrupt.
+  - To resolve VHD issue, delete the VHDs from the folder *C:\Program Files\Microsoft Azure Recovery Services Agent\Scratch\VHDs* and retry the backup operation
