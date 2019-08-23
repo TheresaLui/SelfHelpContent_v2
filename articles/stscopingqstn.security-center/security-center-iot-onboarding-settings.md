@@ -17,7 +17,7 @@
 
 # IoT Hub - IoT Onboarding & Setting
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [IoT prerequisites](https://docs.microsoft.com/azure/asc-for-iot/service-prerequisites)<br>
 * [Quickstart: Onboard Azure Security Center for IoT service in IoT Hub](https://docs.microsoft.com/azure/asc-for-iot/quickstart-onboard-iot-hub)<br>
