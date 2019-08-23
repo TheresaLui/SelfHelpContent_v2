@@ -22,3 +22,5 @@
 HBase Master (HMaster) can fail with errors such as "Atomic renaming failure" or "No server address listed in hbase". To resolve these issues, check the following the recommended document:
 
 * [HBase Master not starting up](https://hdinsight.github.io/hbase/hbase-master-not-starting-up)
+
+* [Ambari agent heartbeat lost Alert](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
