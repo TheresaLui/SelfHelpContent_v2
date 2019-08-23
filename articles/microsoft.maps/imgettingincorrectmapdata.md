@@ -11,6 +11,7 @@
 	productPesIds=""
 	displayOrder="7"
 	cloudEnvironments="public"
+	articleID="azuremaps.imgettingincorrectmapdata"
 />
 
 # I'm getting incorrect map data
