@@ -22,8 +22,9 @@
 We have identified that your backup operation failed because Microsoft Azure Recovery Services Agent encountered an unexpected failure while transferring data to Microsoft Azure Backup.
 <!--/issueDescription-->
 
-## **Recommended Step**
+## **Recommended Steps**
+
 To resolve this issue, perform the below steps:
 
-- [Ensure the MARS agent is up to date](https://go.microsoft.com/fwlink/?linkid=229525&clcid=0x409).
-- Retry the operation. If the issue is transient, retry will resolve the issue.
+- [Ensure the MARS agent is up to date](https://go.microsoft.com/fwlink/?linkid=229525&clcid=0x409)
+- Retry the operation. If the issue is transient, retrying will resolve the issue.
