@@ -29,10 +29,9 @@ To resolve this issue, install [Visual C++ Redistributable for Visual Studio 201
 **Step 1:**
 
 - Ensure HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Msiserver registry key value is set to 3 and not 4 for allowing this service installation.
-- Restart installation service from the elevated command prompt by running the below command:
-
-	`MSIEXEC /UNREGISTER`<br>
-	`MSIEXEC /REGISTER`
+- Restart installation service from the elevated command prompt by running the below command:<br/>
+	```MSIEXEC /UNREGISTER```
+	```MSIEXEC /REGISTER```
 	
 - If issue still persist after installation then reboot the VM and retry backup operation. <br/>
 
