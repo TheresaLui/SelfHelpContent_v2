@@ -37,6 +37,6 @@ To resolve this issue, install [Visual C++ Redistributable for Visual Studio 201
 
 **Step 2:**
 
-- Run the below command from the elevated command prompt to set the Reg-key and then trigger the backup operation.
+- To set the Reg-key run the below command and then retry the backup operation.
 
-	`REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v IsVCRedistInstalled /t REG_SZ /d True /f`
+	```REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v IsVCRedistInstalled /t REG_SZ /d True /f```
