@@ -22,7 +22,7 @@ Common root causes for cluster creation issues.
 
 ### Permissions issues
 
-* If you are using ADLS Gen 2, ensure that the user-assigned managed identity assigned to HDInsight cluster is in either the Storage Blob Data Contributor role or the [Storage Blob Data Owner Role](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account)
+* If you are using Azure Data Lake Storage Gen 2, and receive the error "This request is not authorized to perform this operation using this permission", open the Azure portal, go to your Storage account, and under Access Control (IAM), ensure that the **Storage Blob Data Contributor** or the **Storage Blob Data Owner Role** role has Assigned access to the **User assigned managed identity** for the subscription. See [Set up permissions for the managed identity on the Data Lake Storage Gen2 account](../hdinsight-hadoop-use-data-lake-storage-gen2.md#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account) for detailed instructions.
 * If you are using [ADLS Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store), understand that **ADLS Gen 1**  is not supported for HBASE clusters, and is not supported in HDI version 4.0
 * If you are using Azure Storage, ensure that the storage account name is valid during the cluster creation
 * A subscription-based Azure policy is in place, denying the creation of public IPs. HDInsight cluster creation requires two public IPs.
