@@ -6,13 +6,13 @@
 	authors="deborahc"
 	ms.author="dech"
 	selfHelpType="resource"
-	supportTopicIds="32636780,32636790"
+	supportTopicIds="32681013"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-portal-dxseerror"
 	displayOrder="261"
-	category="Portal and Monitoring"
+	category="Portal"
 />
 
 # I am getting an error when browsing data through Azure Cosmos DB Data Explorer
