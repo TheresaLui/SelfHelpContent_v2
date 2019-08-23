@@ -17,7 +17,7 @@
 
 # IoT Hub - IoT Security Alerts in Security Center
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Security Center for IoT security alerts](https://docs.microsoft.com/azure/asc-for-iot/concept-security-alerts)<br>
 * [Troubleshooting guide](https://docs.microsoft.com/azure/asc-for-iot/troubleshoot-agent)<br>
