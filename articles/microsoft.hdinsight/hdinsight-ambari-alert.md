@@ -20,3 +20,4 @@
 
 * [Manage HDInsight clusters by using the Apache Ambari Web UI: Ambari Alerts](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#alerts)
 * [Managing and Monitoring a Cluster: Ambari Alerts | Hortonworks](https://docs.hortonworks.com/HDPDocuments/Ambari-2.7.3.0/managing-and-monitoring-ambari/content/amb_ambari_alerts.html)
+* [Ambari agent heartbeat lost Alert](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
