@@ -16,7 +16,7 @@
 
 To use the Regulatory Compliance, Azure Security Center must be on standard pricing tier on the subscription level. If the Regulatory Compliance UI is not loading correctly, try the following steps:
 
-1. Clear browser cache.
+1. Clear the browser cache.
 2. Use a different browser.
 3. Try to load it from different network location.
 
