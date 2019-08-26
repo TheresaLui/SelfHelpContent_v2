@@ -38,7 +38,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Impact of deleted data for your business",
             "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
