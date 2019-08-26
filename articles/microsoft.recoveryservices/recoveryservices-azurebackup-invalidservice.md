@@ -14,7 +14,7 @@
     articleId="f40767c9-421d-43ed-b715-49be95bda065"
 />
 
-# Site Recovery - Azure Backup Issues - Invalid Service Selected
+# Azure Backup Issues - Invalid Service Selected
 
 ## **Recommended Steps**
 
