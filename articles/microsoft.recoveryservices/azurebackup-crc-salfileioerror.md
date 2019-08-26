@@ -26,5 +26,5 @@ We have identified that your backup operation failed during the read operation o
 
  To resolve this issue, perform the below steps:
  
-    - Review the properties of the file that is causing the failure and check if it is in the supported [list](https://docs.microsoft.com/azure/backup/backup-support-matrix-mars-agent#supported-file-types-for-backup)
-    - Exclude the failed file(s) and retry the backup operation
+ * Review the properties of the file that is causing the failure and check if it is in the supported [list](https://docs.microsoft.com/azure/backup/backup-support-matrix-mars-agent#supported-file-types-for-backup)
+ * Exclude the failed file(s) and retry the backup operation
