@@ -6,7 +6,7 @@
 	authors="balaksms,ovplaton-msft"
 	ms.author="balaks,ovplaton"
 	selfHelpType="resource"
-	supportTopicIds="32636804,32636827"
+	supportTopicIds="32681470"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"

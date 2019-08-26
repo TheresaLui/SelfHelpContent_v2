@@ -6,7 +6,7 @@
 	authors="ginamr"
 	ms.author="girobins"
 	selfHelpType="generic"
-	supportTopicIds="32636818, 32636821"
+	supportTopicIds="32636818, 32636821, 32681012"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
