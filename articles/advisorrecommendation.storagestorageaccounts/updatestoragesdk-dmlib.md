@@ -13,7 +13,7 @@
   "recommendationOfferingId": "c3c3299d-ee34-4610-844d-3782d691a7fe",
   "recommendationOfferingName": "Storage",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "02cfb5ef-z9b0-3522-8743-142gceb10057",
+  "recommendationTypeId": "7e9fbfe8-1234-435c-b114-424445c9be6f",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://xstore.kusto.windows.net') .database('xstore') .AzureStorageAdvisorUseLatestVersionSDK_DMLib",
     "dataSource": "Kusto",
@@ -44,12 +44,12 @@
       "actionId": "184ffcd3-5ecc-52g4-0c5b-c5d58ff0423e",
       "description": "Learn how to update your Storage Data Movement Library",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/nuget/consume-packages/install-use-packages-visual-studio"
+      "documentLink": "https://aka.ms/AA5wtca"
     },
     {
       "actionId": "184ffcd3-5ecc-52g4-0c5b-c5d58ff0423f",
       "description": "View {version} release notes",
-      "actionType": "Blade",
+      "actionType": "Document",
       "extensionName": "Microsoft_Azure_Storage",
       "documentLink": "https://github.com/Azure/azure-storage-net-data-movement/releases/tag/v0.12.0"
     }
