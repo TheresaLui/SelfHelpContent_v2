@@ -21,7 +21,9 @@
 ### **Billing for Reserved Instance purchase**
 
 The reserved instance purchase is charged to the payment method tied to the subscription. The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an enterprise agreement (offer number: MS-AZR-0017P) or Pay-As-You-Go (offer number: MS-AZR-0003P). For an enterprise subscription, the charges are deducted from the enrollment's monetary commitment balance or charged as overage. For Pay-As-You-Go subscription, the charges are billed to the credit card or invoice payment method on the subscription.<br>
-To Learn more, see [Understanding billing for Reserved instances](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
+
+* Learn more: [Understanding billing for Reserved instances](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
+* Learn more: [Download or view Azure billing invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 
 ### **Download your invoice from Azure portal (.pdf)**
 

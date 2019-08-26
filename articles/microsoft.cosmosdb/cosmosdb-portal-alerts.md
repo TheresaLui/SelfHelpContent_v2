@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 	articleId="cosmosdb-portal-alerts"
 	displayOrder="260"
-	category="Portal and Monitoring"
+	category="Monitoring"
 />
 
 # Monitor Cosmos DB with alerts

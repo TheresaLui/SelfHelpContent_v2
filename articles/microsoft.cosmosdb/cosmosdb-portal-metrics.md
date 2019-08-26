@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 	articleId="cosmosdb-portal-metrics"
 	displayOrder="262"
-	category="Portal and Monitoring"
+	category="Monitoring"
 />
 
 

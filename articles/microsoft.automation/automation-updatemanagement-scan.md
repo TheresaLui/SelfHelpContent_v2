@@ -20,6 +20,8 @@ This article will help with assessing available updates and installing updates u
 
 ## **Recommended Steps**
 
+First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
+
 ### **I know updates are available, but they don't show as needed on my machines**
 
 * This often happens if machines are configured to get updates from WSUS/SCCM, but WSUS/SCCM have not approved the updates

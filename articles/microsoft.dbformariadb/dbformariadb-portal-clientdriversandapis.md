@@ -6,7 +6,7 @@
     authors="TheJY"
     ms.author="jeanyd"
     displayOrder="340"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640116"
     resourceTags="servers, databases"
     productPesIds="16617"
@@ -25,4 +25,4 @@ Azure Database for MariaDB uses the community edition of MariaDB. As such, most 
 
 ## **Recommended Documents**
 
-* [Connect with MySQL Workbench](https://docs.microsoft.com/azure/mariadb/connect-workbench)
+* [Connect with Workbench](https://docs.microsoft.com/azure/mariadb/connect-workbench)
