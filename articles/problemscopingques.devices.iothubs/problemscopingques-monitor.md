@@ -28,7 +28,7 @@
     },
     {
       "id": "errors",
-      "order": 2,
+      "order": 5,
       "controlType": "textbox",
       "displayLabel": "What metric, log, or alert are you having troubles with?",
       "watermarkText": "Example: connected devices metric",
@@ -41,7 +41,15 @@
       "displayLabel": "Description",
       "watermarkText": "Provide additional information about your issue",
       "required": true,
-      "useAsAdditionalDetails": true
+      "useAsAdditionalDetails": true,
+      "hints": [
+        {
+          "text": "Description of the issue and repro steps"
+        },
+        {
+          "text": "Error logs with timestamp (indicate timezone or UTC)"
+        }
+      ]
     }
   ]
 }

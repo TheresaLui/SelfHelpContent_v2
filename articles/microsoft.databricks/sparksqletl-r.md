@@ -18,6 +18,8 @@
 
 ## **Recommended Documents**
 
+* [Change Version of R (r-base)](https://kb.azuredatabricks.net/r/change-r-version.html)
+* [Install rJava and RJDBC Libraries](https://kb.azuredatabricks.net/r/install-rjava-rjdbc-libraries.html)
 * [Resolving Package or Namespace Loading Error](https://kb.azuredatabricks.net/r/namespace-onload.html)
 * [How to Persist and Share Code in RStudio](https://kb.azuredatabricks.net/r/persist-share-code-rstudio.html)
 * [Problem: Rendering an R Markdown File Containing sparklyr Code Fails](https://kb.azuredatabricks.net/r/rmarkdown-sparklyr-code.html)
