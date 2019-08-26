@@ -26,7 +26,7 @@
 - Replacing an existing virtual machine during restore is not supported. You can use one of the following restore options:
 
 	- [Replace disks of existing backed-up VM](https://docs.azure.cn/backup/backup-azure-arm-restore-vms#replace-existing-disks)
-	- [Restore disks](https://docs.azure.cn/backup/backup-azure-arm-restore-vms#restore-disks) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://docs.azure.cn/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)
+	- [Restore disks](https://docs.azure.cn/backup/backup-azure-arm-restore-vms#restore-disks) and create a new VM using [Templates](https://docs.azure.cn/backup/backup-azure-arm-restore-vms#use-templates-to-customize-a-restored-vm) or [PowerShell](https://docs.azure.cn/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)
 	- [Restore as a new VM](https://docs.azure.cn/backup/backup-azure-arm-restore-vms#create-a-vm)
 	
 **Frequently Asked Questions**
@@ -44,7 +44,7 @@
 	- Step 2: [Attach to restored VM](https://docs.azure.cn/virtual-network/virtual-network-network-interface-vm#vm-add-nic)
 
 - If you are unable to restore, verify that you don’t have any group policy restriction from portal
-- We recommend using SSH based authentication for Linux VMs. If you are using password based authentication on the backed up VM, you need to [reset password](https://aka.ms/AB-AA4e56u) post restore using VM Access extension
+- We recommend using SSH based authentication for Linux VMs. If you are using password based authentication on the backed up VM, you need to [reset password](https://docs.microsoft.com/previous-versions/azure/virtual-machines/linux/classic/reset-access-classic) post restore using VM Access extension
 - If you are unable to see **Backup Items** from the portal, ensure you have [required permission](https://docs.azure.cn/backup/backup-rbac-rs-vault) to access backup vault
 - If you are facing issues restoring a VM, try [Restore disks](https://docs.azure.cn/backup/backup-azure-arm-restore-vms#restore-disks) and create a new VM using [Templates](https://docs.azure.cn/backup/backup-azure-arm-restore-vms#use-templates-to-customize-a-restored-vm) or [PowerShell](https://docs.azure.cn/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)
 - To perform a restore ensure you have appropriate [Role Based Access Controls in place](https://docs.azure.cn/backup/backup-rbac-rs-vault) 
