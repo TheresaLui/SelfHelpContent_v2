@@ -6,7 +6,7 @@
     authors="ambhatna"
     ms.author="ambhatna"
     displayOrder="190"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640147"
     resourceTags="servers, databases"
     productPesIds="16617"
@@ -21,6 +21,8 @@ Azure Database for MariaDB offers Basic, General Purpose, and Memory Optimized t
 * **Basic** tier is designed for workloads requiring light compute and I/O performance
 * **General Purpose** tier is for most business workloads requiring balanced compute and memory with scalable I/O throughput
 * **Memory Optimized** tier is for high performance database workloads requiring in-memory performance for faster transaction processing and higher concurrency
+
+Please note that changing to and from the Basic pricing tier after server creation is not supported.
 
 ## **Recommended Documents**
 

@@ -17,6 +17,11 @@
     "subscriptionRequired": false,
     "title": "MARS restore failure",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "MARS restore failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -98,7 +103,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "basic_troubleshooting_multiselect",

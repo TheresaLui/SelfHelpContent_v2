@@ -8,7 +8,7 @@
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds="32637320"
-	resourceTags=""
+	resourceTags="Windows"
 	productPesIds="14749"
 	cloudEnvironments="public"
 	articleId="dee16e08-9048-4f4e-9afe-b592ce647817"
