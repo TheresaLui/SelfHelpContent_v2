@@ -18,4 +18,4 @@
 
 ## **Recommended Steps**
 
-For faster resolution and assistance, you can go back to the previous screen and choose **Azure Backup** under **Service**.
+* For faster resolution and assistance, go back to the previous screen and choose **Azure Backup** under **Service**
