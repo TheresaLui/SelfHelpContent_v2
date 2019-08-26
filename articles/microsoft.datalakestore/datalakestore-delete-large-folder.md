@@ -19,7 +19,8 @@
 
 Recursive deletes of large subfolders in an ADLS Gen1 account may time out when the user performing the deletes is not a superuser. Recursive deletes require recursive enumeration of subfolders to perform ACL checks to ensure that the user has the required permissions to delete all files under the target folder.  
 <br>
-<b>Some suggestions on how to overcome folder deletion issues:</b> <br>
+
+## **Recommended steps** <br>
 
 1. Issue the recursive delete as a superuser. This will skip the recursive enumeration required for ACL checks.<br>
 
