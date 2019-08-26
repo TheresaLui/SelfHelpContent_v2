@@ -1,4 +1,4 @@
-properties
+<properties
     pageTitle="Azure HDInsights Query or Job Failure: Hive"
     description="Azure HDInsight Hive Troubleshooting"
     service="microsoft.hdinsight"
