@@ -18,5 +18,8 @@
 
 ## **Recommended Documents**
 
-* [Structured Streaming Demo in Python](https://docs.databricks.com/spark/latest/structured-streaming/demo-notebooks.html#structured-streaming-python)
+* [How to Run SQL Queries from Python Scripts](https://kb.azuredatabricks.net/python/sql-in-python.html)
+* [Reading Large DBFS-Mounted Files Using Python APIs](https://kb.azuredatabricks.net/python/dbfs-file-size-limit.html)
+* [Problem: Python Command Execution Fails with AttributeError](https://kb.azuredatabricks.net/python/python-exec-display-cancelled.html)
+* [Running C++ Code in Python](https://kb.azuredatabricks.net/python/running-c-plus-plus-code.html)
 * [How to Create Table DDLs to Import into an External Metastore](https://kb.azuredatabricks.net/metastore/create-table-ddl-for-metastore.html)

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How to create a Storage Account"
-        description="How to create a Storage Account"
+	pageTitle="Issues creating a storage account"
+ 	description="Issues creating a storage account"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
@@ -14,7 +14,11 @@
 	articleId="56259d76-53c9-43dc-8754-aa04446a4961"
 />
 
-# How to create a Storage Account
+# Issues creating a storage account
+
+[Storage accounts name must be globally unique across Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors). If you do not provide a unique name, you receive an error like:
+> Code=StorageAccountAlreadyTaken
+Message=The storage account named mystorage is already taken.
 
 ## **Recommended Documents**
 

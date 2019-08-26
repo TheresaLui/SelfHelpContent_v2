@@ -7,7 +7,11 @@
     ms.author="mquian"
     displayOrder=""
     selfHelpType="generic"
+<<<<<<< HEAD
     supportTopicIds="32588755"
+=======
+    supportTopicIds="32680554"
+>>>>>>> a98891351efff1432d4615b2769be3ef69ff828c
     resourceTags=""
     productPesIds="15791"
     cloudEnvironments="public"
@@ -18,6 +22,7 @@
 
 ## **Recommended Steps**
 
+<<<<<<< HEAD
 You can create, edit, manage and deploy logic apps in the Azure Portal.  
 
 - [Quickstart : Create your first automated workflow with Azure Logic Apps – Azure Portal](https://docs.microsoft.com/en-us/azure/logic-apps/quickstart-create-first-logic-app-workflow)
@@ -29,3 +34,10 @@ After you create and run a logic app, you can check its runs history, trigger hi
 Before you can build [enterprise integration and B2B solutions](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-overview) by using [Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview), you need to create an integration account, which is a separate Azure resource that provides a secure, scalable, and manageable container for the integration artifacts that you define and use with your logic app workflows.
 
 - [Create and manage integration accounts for B2B solutions by using Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-create-integration-account)
+=======
+- You can create, edit, manage and deploy logic apps in the Azure Portal. For more information, see: [Quickstart : Create your first automated workflow with Azure Logic Apps – Azure Portal](https://docs.microsoft.com/azure/logic-apps/quickstart-create-first-logic-app-workflow).
+
+- After you create and run a logic app, you can check its runs history, trigger history, status, and performance. For more information, see: [Troubleshoot and diagnose workflow failures in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-diagnosing-failures).
+
+- Before you can build [enterprise integration and B2B solutions](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-overview) by using [Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-overview), you need to create an integration account, which is a separate Azure resource that provides a secure, scalable, and manageable container for the integration artifacts that you define and use with your logic app workflows. For more information, see: [Create and manage integration accounts for B2B solutions by using Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-create-integration-account).
+>>>>>>> a98891351efff1432d4615b2769be3ef69ff828c

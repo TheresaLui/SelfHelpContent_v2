@@ -20,6 +20,8 @@ This article will help with several kinds of issues relating to enabling the Azu
 
 ## **Recommended Steps**
 
+First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
+
 ### **Desired automation account, region, or Log Analytics workspace is greyed out**
 
 * Only certain regions are supported for linking Log Analytics and Automation Accounts, which is required for Update Management. See the ["Workspace Mappings"](https://docs.microsoft.com/azure/automation/how-to/region-mappings) document for the full list of supported regions.

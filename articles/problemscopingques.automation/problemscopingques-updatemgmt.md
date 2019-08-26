@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Update Management",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
@@ -29,6 +30,27 @@
             "order": 20,
             "controlType": "textbox",
             "displayLabel": "Please provide the computer name of one or more affected machines",
+            "required": false
+        },
+        {
+            "id": "OperatingSystem",
+            "order": 25,
+            "controlType": "dropdown",
+            "displayLabel": "What OS are the affected machines?",
+            "dropdownOptions": [
+                {
+                    "value": "Windows",
+                    "text": "Windows Server"
+                },
+                {
+                    "value": "Linux",
+                    "text": "Linux"
+                },
+                {
+                    "value": "Both",
+                    "text": "Both Windows and Linux"
+                }
+            ],
             "required": false
         },
         {
