@@ -28,5 +28,6 @@ Blob recovery is only possible under the following conditions.  Please check if:
 
 Enable [soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) to protect your data against accidental deletion.
 
-## **Recommended documents**
-[Soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete)
+## **Recommended Documents**
+
+* [Soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete)
