@@ -17,7 +17,7 @@
 {
    "shortDescription":"Virtual machines lorem ipsum lorem ipsum",
    "longDescription":"Issues impacting connectivity to a VM",
-   "productLink1":"",
+   "productLink1":"link1",
    "productLink2":"",
    "productLink3": "",
    "supportTopics": [
