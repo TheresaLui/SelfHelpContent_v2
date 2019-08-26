@@ -13,13 +13,28 @@
 />
 
 # SSL or other security errors
-These are some common sources of security errors when connectoring to your Azure Search service:
 
-*Azure Search listens on HTTPS port 443. All connections to the Azure Search service are are encrypted using SSL/TLS 1.2.  Please be sure to use TLS v1.2 for SSL connections to your service.
-*Make sure your search service URL uses HTTPS.  If your URL contains HTTP instead of HTTPS, a 502 Bad Gateway status code will be returned.
-*If you see a 403 error code, Forbidden, please confirm that you are passing a valid API key for the operation you are trying to perform.  For example, you may be passing a query key when trying to update the definition of an index. 
+## **Recommended Steps**
 
-## **Recommended documents**
-[Security and data privacy in Azure Search](https://docs.microsoft.com/azure/search/search-security-overview#encrypted-transmission-and-storage) <br>
-[HTTP status codes (Azure Search)](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)
+The following table explains the security related response codes you may see from the Azure Search REST API:
+
+|Status code|Meaning|Notes
+|-----------|-------|-----|
+|403|Forbidden|Confirm that you are passing a valid API key or the API is not allowed to perform the current operation. For example, you may be passing a query key while attempting to update the index definition.|
+|502|Bad Gateway|Ensure the search service endpoint URL in your request is using HTTPS and not HTTP.
+
+You may also see 400 "Bad Request" responses when customer managed encryption keys are involved.  These errors may be returned when you are either creating or updating an index with custom encryption keys enabled and there are issues with the current configuration.  You may also see these error messages when you later execute a request to the Azure Search API and the customer managed encryption key configuration has changed.
+
+|Error Message|Meaning|
+|-----------|-------|
+|Access to the required key vault permissions was denied|The credentails provided are not allowed to access Azure Key Vault or permissions were revoked|
+|Could not resolve the key vault uri|The provided Azure Key Vault URI is invalid or the Key Vault does not exist or was deleted|
+|The key cannot be found|The requested key does not exist in the Azure Key Vault configured for the index|
+|Service does not have a managed identity defined|The index is configured to use a [managed identity](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) to authenticate to Azure Key Vault, but isn't enabled for the service or was previously disabled|
+|The provided application id is invalid|The index is configured to use an Azure Active Directory id to authenticate to Azure Key Vault, but it is invalid or no longer exists|
+|The provided application secret is invalid|The index is configured to use an Azure Active Directory secret to authenticate to Azure Key Vault, but it is invalid or was changed|
+
+## **Recommended Documents**
+[Security and data privacy in Azure Search](https://docs.microsoft.com/azure/search/search-security-overview#encrypted-transmission-and-storage)<br>
+[HTTP status codes (Azure Search)](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)<br>
 [Azure Search encryption using customer-managed keys in Azure Key Vault](https://docs.microsoft.com/azure/search/search-security-manage-encryption-keys)
