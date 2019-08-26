@@ -18,8 +18,6 @@
 
 ## **Recommended Steps**
 
-Common root causes for cluster creation issues.
-
 ### Permissions issues
 
 * If you are using Azure Data Lake Storage Gen2, and receive the error ```AmbariClusterCreationFailedErrorCode```, ```Internal server error occurred while processing the request. Please retry the request or contact support.```, open the Azure portal, go to your Storage account, and under Access Control (IAM), ensure that the **Storage Blob Data Contributor** or the **Storage Blob Data Owner** role has Assigned access to the **User assigned managed identity** for the subscription. See [Set up permissions for the managed identity on the Data Lake Storage Gen2 account](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account) for detailed instructions.
