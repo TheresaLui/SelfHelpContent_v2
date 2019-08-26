@@ -17,7 +17,7 @@
 
 # Recover deleted Container
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Container recovery is only possible under the following conditions. Please check if:
 
@@ -29,6 +29,7 @@ Container recovery is only possible under the following conditions. Please check
 
 Follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidentally deleted content can be recovered in the future.
 
-## **Recommended documents**
-[Best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data)
+## **Recommended Documents**
+
+* [Best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data)
 
