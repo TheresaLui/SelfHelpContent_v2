@@ -13,6 +13,7 @@
 # Restoring an Accidently Deleted Domain
 {
 	"resourceRequired": false,
+	"subscriptionRequired": true,
 	"title": "Restoring an Accidently Deleted Domain",
 	"fileAttachmentHint": "Please attach any relevant logs or screenshots",
 	"formElements": [{
