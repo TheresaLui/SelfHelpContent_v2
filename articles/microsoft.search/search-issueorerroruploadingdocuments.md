@@ -23,7 +23,7 @@ If you are having trouble indexing documents using the Azure Search REST API, pa
 * 200: Document was successfully modified or deleted. Delete operations are [idempotent](https://en.wikipedia.org/wiki/Idempotence). Even if a document key does not exist in the index, attempting a delete operation with that key will result in a 200 status code.
 * 201: Document was successfully created
 * 400: There was an error in the request preventing a document from being indexed. The error message will indicate what is wrong with the request. Correct the error and try again.
-* 404: The document could not be updated because the given key doesn't exist in the index. This error does not occur for the upload or mergeOrUpload actions since they will create new documents if the key doesn't exist.
+* 404: The document could not be updated because the given key doesn't exist in the index. This error does not occur for the upload or merge actions since they will create new documents if the key doesn't exist.
 * 409: A version conflict was detected when attempting to index a document. This can happen when you're trying to index the same document more than once concurrently.
 * 422: The index is temporarily unavailable because it was updated with the 'allowIndexDowntime' flag set to 'true'. Wait until the operation is complete and try again.
 * 429: You have exceeded the storage quota allocated for your service. You can receive this error when uploading new documents or changing existing ones. You must either delete documents, add partitions, or move to a higher service tier for additional quota.
