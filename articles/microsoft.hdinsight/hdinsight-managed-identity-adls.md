@@ -28,7 +28,7 @@ To assign the correct role:
 
 1. Create an Azure storage account and enable Data Lake Storage Gen2 for the storage account
 1. Create a user assigned managed identity
-1. In the Storage accounts blade, add the user-assigned managed identity to either the Storage Blob Data Owner role, or the Storage Blob Data Contributor role, on the storage account.
+1. In the Storage accounts blade, add the user-assigned managed identity to either the Storage Blob Data Owner role, or the Storage Blob Data Contributor role, on the storage account
 1. Proceed with cluster creation workflow
 
 ### Adding Secondary Azure Data Lake Storage Gen2
