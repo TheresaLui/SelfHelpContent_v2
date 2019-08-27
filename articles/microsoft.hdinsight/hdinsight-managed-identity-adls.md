@@ -22,13 +22,13 @@ Troubleshooting common HDInsight Create failures due to Azure Data Lake Storage 
 
 ### Permissions issues
 
-If you are using Azure Data Lake Storage Gen2 as the storage account for HDInsight cluster, ensure that the user assigned managed identity assigned to the HDInsight cluster is in either the Contributor role or the [Owner Role](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account) for the Azure Data Lake Storage Gen2 storage account.
+If you are using Azure Data Lake Storage Gen2 as the storage account for HDInsight cluster, ensure that the user assigned managed identity assigned to the HDInsight cluster is in either the Storage Blob Data Contributor role or the [Storage Blob Data Owner](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account) for the Azure Data Lake Storage Gen2 storage account.
 
 To assign the correct role:
 
 1. Create an Azure storage account and enable Data Lake Storage Gen2 for the storage account
 1. Create a user assigned managed identity
-1. In the Storage accounts blade, add the user-assigned managed identity to either the Owner role, or the Contributor role, on the storage account
+1. In the Storage accounts blade, add the user-assigned managed identity to either the Storage Blob Data Owner role, or the Storage Blob Data Contributor role, on the storage account
 1. Proceed with cluster creation workflow
 
 ### Adding Secondary Azure Data Lake Storage Gen2
