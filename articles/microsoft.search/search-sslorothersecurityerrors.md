@@ -4,13 +4,14 @@
 	service="microsoft.search"
 	resource="searchservices"
 	authors="mrcarter8"
+	ms.author="mcarter"
 	selfHelpType="resource"
 	displayOrder="5"
 	supportTopicIds="32681387"
 	resourceTags=""
 	productPesIds="15568"
 	cloudEnvironments="public"
-	articleId="search-sslorothersecurityerrors"
+	articleId="search-sslorothersecurityerrors"	
 />
 
 # SSL or other security errors

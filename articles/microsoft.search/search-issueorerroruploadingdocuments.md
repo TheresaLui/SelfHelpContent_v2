@@ -4,6 +4,7 @@
 	service="microsoft.search"
 	resource="searchservices"
 	authors="bernitorres, mrcarter8"
+	ms.author="mcarter"
 	selfHelpType="resource"
 	supportTopicIds="32681367"
 	displayOrder="3"
