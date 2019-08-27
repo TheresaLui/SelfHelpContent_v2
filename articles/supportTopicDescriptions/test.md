@@ -3,7 +3,7 @@
 	description="Support topic description for  Virtual machine running windows"
 	authors="akjoshi"
 	ms.author="akankshajsh"
-	icmTeam="icmteam name"
+	icmTeam="icmteam name 1"
 	icmService="icmservice name"
 	feedbackEmail="emailId"
 	productPesIds="cddd3eb5-1830-b494-44fd-782f691479dc"
