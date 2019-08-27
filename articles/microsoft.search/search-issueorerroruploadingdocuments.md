@@ -11,14 +11,14 @@
 	resourceTags=""
 	productPesIds="15568"
 	cloudEnvironments="public"
-	articleId="search-issueorerroruploadingdocuments"
+	articleId="07fdc3ea-3445-495a-8ae6-f33ff93a3f37"
 />
 
 # Issue indexing documents using the REST API
 
 ## **Recommended Steps**
 
-If you are having trouble indexing documents using the Azure Search REST API, pay close attention to the [HTTP status codes](http-status-codes.md) returned in the response. The following table explains the various per-document codes returned. Some indicate problems with the request itself, while others indicate temporary error conditions that may go away when you retry after a delay.
+If you are having trouble indexing documents using the Azure Search REST API, pay close attention to the [HTTP status codes](https://docs.microsoft.com/rest/api/searchservice/http-status-codes) returned in the response. The following table explains the various per-document codes returned. Some indicate problems with the request itself, while others indicate temporary error conditions that may go away when you retry after a delay.
 
 |Status code|Meaning|Retryable|Notes|
 |-----------|-------|---------|-----| 
@@ -34,6 +34,6 @@ If you are having trouble indexing documents using the Azure Search REST API, pa
 [How to import data into Azure Search - push and pull methods](https://docs.microsoft.com/azure/search/search-what-is-data-import) <br>
 [How to upload documents using the REST API](https://docs.microsoft.com/rest/api/searchservice/AddUpdate-or-Delete-Documents) <br>
 [How to upload documents using indexers with the REST API](https://docs.microsoft.com/rest/api/searchservice/Indexer-operations) <br>
-[How to upload documents using using indexers from the portal](https://docs.microsoft.com/azure/search/search-import-data-portal) <br>
+[How to upload documents using indexers from the portal](https://docs.microsoft.com/azure/search/search-import-data-portal) <br>
 [How to upload documents using the .NET SDK](https://docs.microsoft.com/azure/search/search-howto-dotnet-sdk#core-scenarios) <br>
 [How to index complex data types](https://docs.microsoft.com/azure/search/search-howto-complex-data-types)
