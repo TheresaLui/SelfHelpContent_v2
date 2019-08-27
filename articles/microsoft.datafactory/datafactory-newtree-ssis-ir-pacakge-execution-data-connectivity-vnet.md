@@ -48,7 +48,13 @@
 
 * This error may be because a known issue in old version SSMS. If the package contains a custom component (For example, SSIS Azure Feature Pack or 3rd party components) which isn't installed on the machine where SSMS is used to do the deployment, the component will be removed by SSMS and cause the error. Upgrade [SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) to the latest version that has the issue fixed.<br>
 
-**Error message: "ADONET Source has failed to acquire the connection {GUID} with the following error message: Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'" when using managed identity**
+**Error message: "`Microsoft OLE DB Provider for Analysis Services. 'Hresult: 0x80004005 Description:' COM error: COM error: mscorlib; Exception has been thrown by the target of an invocation`"**<br>
+
+* Potential cause & recommended action: One potential cause is that username and password with MFA enabled is configured for Azure Analysis Services authentication, which is not supported in SSIS integration runtime yet. Try to use Service Principal for Azure Analysis Service authentication:<br>
+    1. Prepare service principal for AAS [https://docs.microsoft.com/azure/analysis-services/analysis-services-service-principal](https://docs.microsoft.com/azure/analysis-services/analysis-services-service-principal).<br>
+    2. In connection manager, configure "Use a specific user name and password": set "AppID" as user name and "clientSecret" as password.<br>
+
+**Error message: "`ADONET Source has failed to acquire the connection {GUID} with the following error message: Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON`" when using managed identity**
 
 * Make sure you don't configure the authentication method of connection manager as "Active Directory Password Authentication" when the parameter "ConnectUsingManagedIdentity" is True. You can configure it as "SQL Authentication" instead which would be ignored if "ConnectUsingManagedIdentity" is set.
 
