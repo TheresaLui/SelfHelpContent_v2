@@ -18,23 +18,19 @@
 
 ## **Recommended Steps**
 
-The following table explains the security related response codes you may see from the Azure Search REST API:
+The security related status codes from the Azure Search REST API are listed below:
 
-|Status code|Meaning|Notes
-|-----------|-------|-----|
-|403|Forbidden|Confirm that you are passing a valid API key or the API is not allowed to perform the current operation. For example, you may be passing a query key while attempting to update the index definition.|
-|502|Bad Gateway|Ensure the search service endpoint URL in your request is using HTTPS and not HTTP.|
+* 403 "Forbidden": Confirm that you are passing a valid API key or the API is not allowed to perform the current operation. For example, you may be passing a query key while attempting to update the index definition.
+* 502 "Bad Gateway": Ensure the search service endpoint URL in your request is using HTTPS and not HTTP
 
-You may also see 400 "Bad Request" status codes in a response related to Azure Search encryption using customer-managed encryption keys.  These errors may be returned when you are either creating or updating an index with custom encryption keys enabled and there are issues with the current configuration.  You may also see these error messages when you later execute a request to the Azure Search API and the customer managed encryption key configuration has changed.
+If you receive a 400 "Bad Request" status codes, it may be related to Azure Search encryption using customer-managed keys.  These errors may be returned when you are either creating or updating an index with custom encryption keys enabled and there are issues with the current configuration.  You may also see these error messages when you later execute a request to the Azure Search API and the customer managed encryption key configuration has changed.
 
-|Error Message|Meaning|
-|-----------|-------|
-|Access to the required key vault permissions was denied|The credentials provided are not allowed to access Azure Key Vault or permissions were revoked|
-|Could not resolve the key vault uri|The provided Azure Key Vault URI is invalid or the Key Vault does not exist or was deleted|
-|The key cannot be found|The requested key does not exist in the Azure Key Vault configured for the index|
-|Service does not have a managed identity defined|The index is configured to use a [managed identity](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) to authenticate to Azure Key Vault, but isn't enabled for the service or was previously disabled|
-|The provided application id is invalid|The index is configured to use an Azure Active Directory id to authenticate to Azure Key Vault, but it is invalid or no longer exists|
-|The provided application secret is invalid|The index is configured to use an Azure Active Directory secret to authenticate to Azure Key Vault, but it is invalid or was changed|
+* "Access to the required key vault permissions was denied": The credentials provided are not allowed to access Azure Key Vault or permissions were revoked
+* "Could not resolve the key vault uri": The provided Azure Key Vault URI is invalid or the Key Vault does not exist or was deleted
+* "The key cannot be found": The requested key does not exist in the Azure Key Vault configured for the index
+* "Service does not have a managed identity defined": The index is configured to use a [managed identity](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) to authenticate to Azure Key Vault, but isn't currently enabled for the service or was previously disabled
+* "The provided application id is invalid": The index is configured to use an Azure Active Directory id to authenticate to Azure Key Vault, but it is invalid or no longer exists
+* "The provided application secret is invalid": The index is configured to use an Azure Active Directory secret to authenticate to Azure Key Vault, but it is invalid or was changed
 
 ## **Recommended Documents**
 
