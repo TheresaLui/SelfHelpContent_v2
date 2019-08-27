@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Troubleshooting Azure-SSIS IR Management - IR join vNet Issues"
+	pageTitle="Azure-SSIS IR join vNet Issues"
 	description="Troubleshooting Azure-SSIS IR Management - IR join vNet Issues"
 	service="microsoft.datafactory"
 	resource="factories"

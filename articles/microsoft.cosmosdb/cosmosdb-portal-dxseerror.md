@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-portal-dxseerror"
-	displayOrder="261"
+	displayOrder="80"
 	category="Portal"
 />
 
