@@ -24,5 +24,5 @@ Recursive deletes of large subfolders in an ADLS Gen1 account may time out when 
 
 
 1. Issue the recursive delete as a superuser. This will skip the recursive enumeration required for ACL checks.
-2. If Step 1 is not possible, try to delete smaller sub-folders individually before deleting the parent folder.
+2. If Step 1 is not possible, try to delete smaller sub-folders individually before deleting the parent folder
 
