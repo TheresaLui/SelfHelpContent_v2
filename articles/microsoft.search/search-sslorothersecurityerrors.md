@@ -37,6 +37,7 @@ You may also see 400 "Bad Request" status codes in a response related to Azure S
 |The provided application secret is invalid|The index is configured to use an Azure Active Directory secret to authenticate to Azure Key Vault, but it is invalid or was changed|
 
 ## **Recommended Documents**
-[Security and data privacy in Azure Search](https://docs.microsoft.com/azure/search/search-security-overview#encrypted-transmission-and-storage)<br>
-[HTTP status codes (Azure Search)](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)<br>
-[Azure Search encryption using customer-managed keys in Azure Key Vault](https://docs.microsoft.com/azure/search/search-security-manage-encryption-keys)
+
+* [Security and data privacy in Azure Search](https://docs.microsoft.com/azure/search/search-security-overview#encrypted-transmission-and-storage)<br>
+* [HTTP status codes (Azure Search)](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)<br>
+* [Azure Search encryption using customer-managed keys in Azure Key Vault](https://docs.microsoft.com/azure/search/search-security-manage-encryption-keys)
