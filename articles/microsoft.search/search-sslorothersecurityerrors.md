@@ -5,6 +5,7 @@
 	resource="searchservices"
 	authors="mrcarter8"
 	selfHelpType="resource"
+	displayOrder="5"
 	supportTopicIds="32681387"
 	resourceTags=""
 	productPesIds="15568"

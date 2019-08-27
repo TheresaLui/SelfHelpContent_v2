@@ -6,6 +6,7 @@
 	authors="bernitorres, mrcarter8"
 	selfHelpType="resource"
 	supportTopicIds="32681367"
+	displayOrder="3"
 	resourceTags=""
 	productPesIds="15568"
 	cloudEnvironments="public"
