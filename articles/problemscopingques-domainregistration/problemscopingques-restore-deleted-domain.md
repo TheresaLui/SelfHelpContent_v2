@@ -12,49 +12,49 @@
 />
 # Restoring an Accidently Deleted Domain
 {
-"resourceRequired": false,
-"title": "Restoring an Accidently Deleted Domain",
-"fileAttachmentHint": "Please attach any relevant logs or screenshots",
-"formElements": [{
-"id": "problem_start_time",
-"order": 1,
-"controlType": "datetimepicker",
-"displayLabel": "Incident time",
-"required": true
-},
-{
-"id": "2",
-"order": 2,
-"controlType": "textbox",
-"displayLabel": "How long has it been since you deleted the domain?",
-"watermarkText": "...",
-"required": false
-},
-{
-"id": "3",
-"order": 3,
-"controlType": "dropdown",
-"displayLabel": "Have you tried buying the domain again",
-"watermarkText": "Choose an option",
-"dropdownOptions": [{
-"value": "Yes",
-"text": "Yes"
-}, {
-"value": "No",
-"text": "No"
-}
-],
-"required": false
-},
-{
-"id": "problem_description",
-"order": 4,
-"controlType": "multilinetextbox",
-"displayLabel": "Details",
-"watermarkText": "Provide additional information about your incident including any error messages you are seeing.",
-"required": true,
-"useAsAdditionalDetails": true
-}
-],
-"$schema": "SelfHelpContent"
+	"resourceRequired": false,
+	"title": "Restoring an Accidently Deleted Domain",
+	"fileAttachmentHint": "Please attach any relevant logs or screenshots",
+	"formElements": [{
+			"id": "problem_start_time",
+			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "Incident time",
+			"required": true
+		},
+			{
+			"id": "2",
+			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "How long has it been since you deleted the domain?",
+			"watermarkText": "...",
+			"required": false
+		},
+		{
+			"id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Have you tried buying the domain again",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}
+			],
+			"required": false
+		},
+		{
+			"id": "problem_description",
+			"order": 4,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your incident including any error messages you are seeing.",
+			"required": true,
+			"useAsAdditionalDetails": true
+		}
+	],
+	"$schema": "SelfHelpContent"
 }

@@ -15,7 +15,7 @@
 {
     "resourceRequired": false,
     "title": "App Service Built-in Authentication through Portal",
-    "fileAttachmentHint": "Please attach any relevant logs/screenshots",
+    "fileAttachmentHint": "Please attach any relevant logs or screenshots",
     "formElements": [
         {
             "id": "problem_start_time",
