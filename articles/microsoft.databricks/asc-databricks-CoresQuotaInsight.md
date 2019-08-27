@@ -31,7 +31,7 @@ Please check whether sufficient quota of cores are available in region for this 
 ## **Recommended Documents**
 
 * [Handling Azure Resource Manager Deployment Limits](https://azure.microsoft.com/en-us/blog/azure-limits-quotas-increase-requests/)
-* [Quota increase requests] (https://docs.microsoft.com/en-us/azure/azure-supportability/resource-manager-core-quotas-request/)
+* [Quota increase requests](https://docs.microsoft.com/en-us/azure/azure-supportability/resource-manager-core-quotas-request/)
 * [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/)
 * [Cores available by region](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=virtual-machines&regions=all/)
 
