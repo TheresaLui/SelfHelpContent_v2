@@ -27,5 +27,5 @@ We see high I/O usage on your Hyperscale database<!--$DatabaseName-->DatabaseNam
 
 ## **Recommended Documents**
 
-* [Upgrade to Higher SLO]( https://docs.microsoft.com/en-us/previous-versions/azure/dn369872(v=azure.100))
-* [Hyperscale Architecture](https://www.microsoft.com/en-us/research/uploads/prod/2019/05/socrates.pdf)
+* [Upgrade to Higher SLO]( https://docs.microsoft.com/previous-versions/azure/dn369872(v=azure.100))
+* [Hyperscale Architecture](https://www.microsoft.com/research/uploads/prod/2019/05/socrates.pdf)
