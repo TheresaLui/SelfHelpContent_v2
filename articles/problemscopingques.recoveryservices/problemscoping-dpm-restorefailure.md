@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "DPM restore failure",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "DPM restore failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_Type",
@@ -109,7 +114,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "data_source_type",

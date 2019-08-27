@@ -1,18 +1,21 @@
 <properties
-	articleId="dw-scoping-createscalepauseresumedelete-dwstuckduringcreationscalingorresuming.md"
-	pageTitle="Create/Scale/Pause/Resume/Delete database taking too long"
-	description="Create/Scale/Pause/Resume/Delete database taking too long"
-	authors="mlee3gsd"
-	ms.author="martinle"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635193, 32635192"
-	productPesIds="15818"
-	cloudEnvironments="public"
-	schemaVersion="1"
+    articleId="dw-scoping-createscalepauseresumedelete-dwstuckduringcreationscalingorresuming.md"
+    pageTitle="Create/Scale/Pause/Resume/Delete database taking too long"
+    description="Create/Scale/Pause/Resume/Delete database taking too long"
+    authors="mlee3gsd"
+    ms.author="martinle"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32635193, 32635192"
+    productPesIds="15818"
+    cloudEnvironments="public"
+    schemaVersion="1"
 />
+
 # Create, Scale, Pause, Resume, Delete - Create, Scale, Pause, Resume or Delete database taking too long
+
 ---
 {
+
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Region unavailable for Data Warehouse creation",
@@ -61,8 +64,15 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "dw_scoping_crud_operation_region",
             "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "What region is your data warehouse?",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
@@ -72,4 +82,5 @@
     ],
     "$schema": "SelfHelpContent"
 }
+
 ---

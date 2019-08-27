@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "offline backup or seeding issues",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "offline backup or seeding issues",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "backup_type",
@@ -46,7 +51,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",

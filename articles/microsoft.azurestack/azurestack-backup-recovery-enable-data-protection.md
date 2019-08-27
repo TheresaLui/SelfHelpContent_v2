@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+Business continuity and disaster recovery planning are closely related processes that a company uses to prepare for unforeseen risks.
+
 * [Protecting applications and data on Azure Stack](https://azure.microsoft.com/blog/protecting-applications-and-data-on-azure-stack/)
 
 ## **Recommended Documents**

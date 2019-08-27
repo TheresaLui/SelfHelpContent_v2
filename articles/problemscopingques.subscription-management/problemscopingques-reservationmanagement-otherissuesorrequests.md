@@ -121,9 +121,25 @@
             "watermarkText": "Provide your Reservation id",
             "required": false
         },
+	{
+            "id": "currentowner_details",
+            "order":6,
+            "controlType": "textbox",
+            "displayLabel": "Current Owner",
+            "watermarkText": "",
+            "required": false
+        },
+	{
+            "id": "newowner_details",
+            "order":7,
+            "controlType": "textbox",
+            "displayLabel": "New Owner",
+            "watermarkText": "",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

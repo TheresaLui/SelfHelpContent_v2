@@ -10,7 +10,7 @@
     articleId="application-gateway-session-affinity-insight"
     diagnosticScenario="ApplicationGatewaySessionAffinity"
     supportTopicIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Session affinity issues with Application Gateway

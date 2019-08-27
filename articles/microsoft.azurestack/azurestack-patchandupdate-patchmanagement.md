@@ -20,6 +20,10 @@
 
 Customers with Azure Stack environments connected to the internet will automatically see "Update Available" in the Admin Portal. For disconnected customers, update release notifications are available via an RSS feed at [Support Content Updates](https://support.microsoft.com/help/4089498/support-content-updates). Select the Product as *Azure Stack*, then choose either ATOM or RSS.
 
+When planning for your maintenance window, it's important to review the specific type of update package released from Microsoft as called out in the respective release note. Aside from the occasional Hotfix, each update package will have a corresponding type, Full or Express. Full update packages update the physical host operating systems in the scale unit and require a larger maintenance window. Express update packages are scoped, and do not update the underlying physical host operating systems [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure-stack/operator/azure-stack-updates). 
+
+Latest update available 1907, an express package.
+
 ## **Recommended Steps**
 
 1. [Prepare for Azure Stack update](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#prepare-for-azure-stack-update)

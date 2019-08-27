@@ -14,7 +14,7 @@
 # Azure Cost Management
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Azure Cost Management",
     "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",

@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32675636"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-responseheaders"
+	displayOrder="185"
+	category="Gremlin (Graph)"
 />
 # Gremlin - Response Headers
 
@@ -28,7 +30,7 @@ These attributes can be retrieved from the client driver.
 
 * ***Gremlin.Net***
 
-```C#
+```
 GremlinServer gremlinServer = new GremlinServer(...);
 GremlinClient gremlinClient = new GremlinClient(gremlinServer, ...);
 
@@ -40,7 +42,7 @@ Console.WriteLine($"[\"x-ms-status-code\"] = { resultSet.StatusAttributes["x-ms-
 
 * ***TinkerPop Java Gremlin Client***
 
-```Java
+```
 Cluster cluster = builder.create();
 Client client = cluster.connect();
 

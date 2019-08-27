@@ -24,5 +24,8 @@ Information about how to upgrade or downgrade different types of CSP subscriptio
 ## **Recommended Documents**
 
 * [Add licenses or services to an existing subscription](https://docs.microsoft.com/partner-center/add-licenses-or-services-to-an-existing-subscription)
+* [Migrate Office 365 E4 subscriptions to newer Office 365 versions](https://docs.microsoft.com/partner-center/migrate-office365-e4-subscriptions-to-newer-versions)
+* [Migrate Skype for Business Online Plan 1 subscriptions to newer Office 365 versions](https://docs.microsoft.com/partner-center/skype-retiring)
 * [Migrate Dynamics 365 and Customer Engagement Plan from Basic (qualified offers) to newer versions](https://docs.microsoft.com/partner-center/manual-subscription-migration)
+* [Migrate Dynamics 365 Business Edition Offers to newer versions](https://docs.microsoft.com/partner-center/migrate-dynamics-365-to-new)
 * [Transfer Azure subscriptions](https://docs.microsoft.com/partner-center/switch-azure-subscriptions-to-a-different-partner)
