@@ -20,7 +20,7 @@ We no longer provide support for recovering a deleted ADLS Gen1 account. As part
 
 ## **Recommended Steps**
 
-* Follow our [Best Practices](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-disaster-recovery-guidance) for protecting your data to ensure that accidentally deleted content can be recovered in the future
+* Follow our [Best Practices](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-disaster-recovery-guidance) for protecting your data to ensure that accidentally deleted content can be recovered in the future.
 
 
 
