@@ -14,7 +14,7 @@
 {
 	"resourceRequired": false,
 	"title": "Restoring an Accidently Deleted Domain",
-	"fileAttachmentHint": "Please attach any relevant logs/screenshots",
+	"fileAttachmentHint": "Please attach any relevant logs or screenshots",
 	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
