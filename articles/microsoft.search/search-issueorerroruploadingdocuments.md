@@ -30,10 +30,11 @@ If you are having trouble indexing documents using the Azure Search REST API, pa
 |422|The index is temporarily unavailable because it was updated with the 'allowIndexDowntime' flag set to 'true'.|Yes||
 |503|Your search service is temporarily unavailable, most likely due to heavy load.|Yes|Your code should wait before retrying in this case or you risk prolonging the service unavailability.|
 
-## **Recommended documents**
-[How to import data into Azure Search - push and pull methods](https://docs.microsoft.com/azure/search/search-what-is-data-import) <br>
-[How to upload documents using the REST API](https://docs.microsoft.com/rest/api/searchservice/AddUpdate-or-Delete-Documents) <br>
-[How to upload documents using indexers with the REST API](https://docs.microsoft.com/rest/api/searchservice/Indexer-operations) <br>
-[How to upload documents using indexers from the portal](https://docs.microsoft.com/azure/search/search-import-data-portal) <br>
-[How to upload documents using the .NET SDK](https://docs.microsoft.com/azure/search/search-howto-dotnet-sdk#core-scenarios) <br>
-[How to index complex data types](https://docs.microsoft.com/azure/search/search-howto-complex-data-types)
+## **Recommended Documents**
+
+* [How to import data into Azure Search - push and pull methods](https://docs.microsoft.com/azure/search/search-what-is-data-import) <br>
+* [How to upload documents using the REST API](https://docs.microsoft.com/rest/api/searchservice/AddUpdate-or-Delete-Documents) <br>
+* [How to upload documents using indexers with the REST API](https://docs.microsoft.com/rest/api/searchservice/Indexer-operations) <br>
+* [How to upload documents using indexers from the portal](https://docs.microsoft.com/azure/search/search-import-data-portal) <br>
+* [How to upload documents using the .NET SDK](https://docs.microsoft.com/azure/search/search-howto-dotnet-sdk#core-scenarios) <br>
+* [How to index complex data types](https://docs.microsoft.com/azure/search/search-howto-complex-data-types)
