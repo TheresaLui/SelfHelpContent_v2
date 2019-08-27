@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Troubleshooting Azure-SSIS IR Management - Customized Setup Issues"
+	pageTitle="Azure-SSIS IR Customized Setup Issues"
 	description="Troubleshooting Azure-SSIS IR Management - Customized Setup Issues"
 	service="microsoft.datafactory"
 	resource="factories"
