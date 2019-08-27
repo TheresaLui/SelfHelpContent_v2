@@ -1,5 +1,5 @@
 <properties
-    pageTitle="You are close to exceed storage quota of 2GB. Create Standard search service for larger storage quota."
+    pageTitle="You are close to exceeding storage quota of 2GB. Move to a Standard search service if you need more storage."
     description="After exceeding storage quota, indexing operations will stop working."
     authors="aadevteam"
     ms.author="aadevteam"
@@ -7,7 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# You are close to exceed storage quota of 2GB
+# You are close to exceeding storage quota of 2GB
 ---
 {
   "recommendationOfferingId": "2be23fe8-3b59-46d2-bcb6-cdf01ede0583",
@@ -39,8 +39,8 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/azs/search-limits-quotas-capacity",
-  "description": "You are close to exceed storage quota of 2GB. Create a Standard search service.",
-  "longDescription": "You are close to exceed storage quota of 2GB. Create a Standard search service. After exceeding storage quota, indexing operations will stop working.",
+  "description": "You are close to exceeding storage quota of 2GB. Create a Standard search service.",
+  "longDescription": "You are close to exceeding storage quota of 2GB. Create a Standard search service. After exceeding storage quota, indexing operations will stop working.",
   "potentialBenefits": "capability to handle more data",
   "actions": [
     {
@@ -61,7 +61,7 @@
       }
     }
   },
-  "displayLabel": "You are close to exceed storage quota of 2GB. Create a Standard search service for larger quota.",
+  "displayLabel": "You are close to exceeding storage quota of 2GB. Create a Standard search service for larger quota.",
   "additionalColumns": []
 }
 ---
