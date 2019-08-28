@@ -51,6 +51,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]    
+    ]
 }
 ---
