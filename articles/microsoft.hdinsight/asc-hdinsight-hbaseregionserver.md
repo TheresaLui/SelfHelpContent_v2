@@ -26,7 +26,7 @@ We determined that the HDInsight HBase cluster <!--$ClusterDnsName-->[ClusterDns
 
 2. Execute hadoop fs -ls -R /hbase/WALs/ > /tmp/wals.out to get fresh list of WALs.
 
-3. Move the *-splitting directories to a temporary folder, splitWAL, and delete the *-splitting directories.
+3. Move the \*-splitting directories to a temporary folder, splitWAL, and delete the \*-splitting directories.
 
 4. Execute hbase zkcli command to connect with zookeeper shell.
 
