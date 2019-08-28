@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # Access tiers are not supported on this storage account
 
 <!--issueDescription-->
-Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does not support access tiers as it is a **<!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind-->** account. [Object storage data tiering to hot, cool, or archive is only supported in Blob storage and General Purpose v2 (GPv2) accounts](https://docs.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers#storage-accounts-that-support-tiering) and only available for block and append blobs. Please change to a supported account type to use access tiers.
+Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does not support access tiers as it is a **<!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind-->** account. Object storage data tiering to hot, cool, or archive is only supported in Blob storage and General Purpose v2 (GPv2) accounts and only available for block and append blobs. Please change to a supported account type to use access tiers.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
