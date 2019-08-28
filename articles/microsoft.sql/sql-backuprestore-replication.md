@@ -2,14 +2,14 @@
 	pageTitle="Common Solutions Template"
 	description="Common Solutions Template"
 	infoBubbleText="Common Solutions Template"
-	service=""
-	resource=""
-	authors=""
-	ms.author=""
+	service="microsoft.sql"
+	resource="servers"
+	authors="mravikiran"
+	ms.author="mravikiran"
 	displayOrder=""
 	articleId=""
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
@@ -29,12 +29,12 @@
     * To optimize costs, you could scale up before the replication process starts and then scale back down after it’s completed. 
     * During the upgrade, the database will remain transactionally consistent. It is suggested that you pause all workload before you scale to avoid rollbacks.
 
-2. If the replication is failing with a timeout error. Customer can re-try replication by increasing the querytimeout:
+2. If the replication is failing with a timeout error, customer can re-try replication by increasing the querytimeout:
     * Please open the distributor and log reader job properties from Job activity monitor for respective publication.
     * Right click on Distributor Job and select properties
-    *  Go to Step
-    *  Click on second step of job and click on edit
-    *  add parameter -QueryTimeOut 3600 at the end of command
+        * Go to Step
+        * Click on second step of job and click on edit
+        * Add parameter -QueryTimeOut 3600 at the end of command
     * After increasing the querytimeout you have to restart distribution and logreader agent job from job activity monitor.
 
 3. Error 2627 - Violation of PRIMARY KEY constraint <>. Cannot insert duplicate key in object:
