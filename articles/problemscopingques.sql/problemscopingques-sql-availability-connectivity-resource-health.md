@@ -13,6 +13,7 @@
 # Error When Connecting to my Database
 ---
 {
+    "$schema": "SelfHelpContent",
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Resource Health Scoping Questions",
@@ -23,8 +24,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Unavailability start time",
-            "infoBalloonText": "Please provide the start time of the most recent occurence of unavailability.",
-            "required": true
+            "infoBalloonText": "Please provide the start time of the most recent occurence of unavailability."
         },
         {
             "id": "new_or_recurring_issue",
@@ -79,16 +79,8 @@
             "displayLabel": "Additional context to help us solve your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Please ensure you selected server/database or server/elastic pool on the Basics tab, so we know what resource is reporting unavailability."
-                },
-                {
-                    "text": "Are you seeking assistance with mitigating a current unavailability issue, or looking for root cause of prior unavailability?"
-                }
-            ]
+            "watermarkText": "Please ensure you selected a Resource of server/database or server/elastic pool on the Basics tab so we know what resource you need help with.  Add any additional details to help us troubleshoot your issue."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
