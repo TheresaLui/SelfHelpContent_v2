@@ -19,8 +19,16 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "new_or_recurring_issue",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Unavailability start time",
+            "infoBalloonText": "Please provide the start time of the most recent occurence of unavailability.",
+            "required": true
+        },
+        {
+            "id": "new_or_recurring_issue",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "How often does the issue ocur?",
             "watermarkText": "Choose an option",
@@ -43,7 +51,7 @@
             "controlType": "dropdown",
             "displayLabel": "What status does Resource Health report?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "Please indicate what status Resource Health reports for your database or elastic pool",
+            "infoBalloonText": "Please indicate what status Resource Health reports for your database or elastic pool.",
             "dropdownOptions": [
                 {
                     "value": "Available",
@@ -65,21 +73,20 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
-            "order": 10,
-            "controlType": "datetimepicker",
-            "displayLabel": "Unavailability start time",
-            "infoBalloonText": "Please provide the start time of the most recent occurence of the unavailability",
-            "required": true
-        },
-        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide any additional context to help us solve your issue.",
+            "displayLabel": "Additional context to help us solve your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": ""
+            "hints": [
+                {
+                    "text": "Please ensure you selected server/database or server/elastic pool on the Basics tab, so we know what resource is reporting unavailability."
+                },
+                {
+                    "text": "Are you seeking assistance with mitigating a current unavailability issue, or looking for root cause of prior unavailability?"
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"
