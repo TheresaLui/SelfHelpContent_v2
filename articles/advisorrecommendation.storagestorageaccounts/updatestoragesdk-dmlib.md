@@ -38,16 +38,16 @@
   "description": "Upgrade your Storage Client Library to the latest version for better reliability and performance",
   "longDescription": "The latest version of Storage Client Library/ SDK contains fixes to issues reported by customers and proactively identified through our QA process. The latest version also carries reliability and performance optimization in addition to new features that can improve your overall experience using Azure Storage.",
   "potentialBenefits": "Latest Storage Client Library contains fixes for known issues and additional improvements.",
-  "supportedSDKLanguages": [],
+  "supportedSDKLanguages": [".Net"],
   "actions": [
     {
-      "actionId": "184ffcd3-5ecc-52g4-0c5b-c5d58ff0423e",
+      "actionId": "7e9fbfe8-1234-435c-b114-424445c9be7f",
       "description": "Learn how to update your Storage Data Movement Library",
       "actionType": "Document",
       "documentLink": "https://aka.ms/AA5wtca"
     },
     {
-      "actionId": "184ffcd3-5ecc-52g4-0c5b-c5d58ff0423f",
+      "actionId": "7e9fbfe8-1234-435c-b114-424445c9be8f",
       "description": "View {version} release notes",
       "actionType": "Document",
       "extensionName": "Microsoft_Azure_Storage",
@@ -56,7 +56,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "184ffcd3-5ecc-52g4-0c5b-c5d58ff0423g",
+      "actionId": "7e9fbfe8-1234-435c-b114-424445c9be9f",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Storage",
       "bladeName": "StorageAccountBlade",
@@ -77,6 +77,6 @@
     }
   ],
   "tip": "",
-  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/storageAccounts/axdataanalyticsstgwcus"
+  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/storageAccounts/axdataanalyticsstgwcus,.NET,0.12.0.0"
 }
 ---
