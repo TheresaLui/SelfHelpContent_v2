@@ -38,12 +38,12 @@
 	"version": 2.0,
 	"learnMoreLink": "https://aka.ms/azurepolicy",
 	"description": "Configure azure policy over your Azure resources to stay compliant with your coporate standards and service level agreements.",
-	"longDescription": "",
+	"longDescription": "Configure azure policy over your Azure resources to stay compliant with your coporate standards and service level agreements.",
 	"potentialBenefits": "Stay compliant with your coporate standards and service level agreements.",
 	"actions": [
 		{
 			"actionId": "e10b9c32-5af9-40cd-9b04-caca22bad08d",
-			"description": "",
+			"description": "Create Azure policy",
 			"actionType": "Document",
 			"documentLink": "https://aka.ms/azurepolicy"
 		}
