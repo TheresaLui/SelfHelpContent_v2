@@ -21,14 +21,17 @@
 * [Pipelines and Activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities)
 * [Pipeline execution and triggers](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers)
 
-* Triggers:
+### Triggers
 
-  * Trigger Pipeline On Demand:
+* Trigger Pipeline On Demand:
+
     * [Trigger the pipeline manually](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#trigger-the-pipeline-manually) section under [_Create a pipeline_](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)
 
-  * Trigger Pipeline On a Schedule:
+* Trigger Pipeline On a Schedule:
+
     * [Tumbling Window Trigger](https://docs.microsoft.com/azure/data-factory/how-to-create-tumbling-window-trigger)
     * [Schedule Trigger](https://docs.microsoft.com/azure/data-factory/how-to-create-schedule-trigger)
 
-  * Trigger Pipeline In Response To Events:
+* Trigger Pipeline In Response To Events:
+
     * [Event Trigger](https://docs.microsoft.com/azure/data-factory/how-to-create-event-trigger) for event-driven architecture
