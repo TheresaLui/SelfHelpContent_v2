@@ -1,6 +1,6 @@
 ﻿<properties
 pageTitle="Modules were found that are not current"
-issueDescription="Modules may need to be updated"
+description="Modules may need to be updated"
 infoBubbleText="See list of affected modules below"
 service="microsoft.automation"
 resource="runbooks"
@@ -19,9 +19,12 @@ cloudEnvironments="public"
 
 # There are Automation Core Modules that need updating.
 ## Automation Modules that are older or out of date can cause unforeseen issues
+<!--issueDescription-->
 
 We have detected that there are older versions of core Azure modules than what is currently available. Using older versions of Azure modules can cause unforeseen issues when running jobs. The following is a list of the modules we have detected in your Automation Account that are not the latest versions:
 <!--$Modules Out of date-->[Modules Out of date]<!--/$Modules Out of date-->
+
+<!--/issueDescription-->
 
 ## Resolution
 
