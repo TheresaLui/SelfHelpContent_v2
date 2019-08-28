@@ -24,7 +24,7 @@
 
 ## **Recommended Steps**
 
-1. If transaction replication appears to be slow and the subscriber is in Azure SQL Database: 
+1. If transactional replication appears to be slow and the subscriber is in Azure SQL Database: 
     * Scale the SQL Database to a premium pricing tier. You can change [DTU service tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu) or [vCore characteristics](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vcore-resource-limits-single-databases)  at any time with minimal downtime to your application (generally averaging under four seconds). 
     * To optimize costs, you could scale up before the replication process starts and then scale back down after it’s completed. 
     * During the upgrade, the database will remain transactionally consistent. It is suggested that you pause all workload before you scale to avoid rollbacks.
@@ -37,33 +37,16 @@
     *  add parameter -QueryTimeOut 3600 at the end of command
     * After increasing the querytimeout you have to restart distribution and logreader agent job from job activity monitor.
 
-3. Error 2627 - Violation of PRIMARY KEY constraint <>. Cannot insert duplicate key in object 
+3. Error 2627 - Violation of PRIMARY KEY constraint <>. Cannot insert duplicate key in object:
     * you may try to delete the row with PK *at the Subscriber*. The distribution agent will then be able to insert the row again into the subscriber table
     * Another option would be to configure the Distribution Agent with the SkipErrors parameters. This has the disadvantage though that the failed insert will be ignored; the data on Publisher and Subscriber might become different then.
 
 4. To add new article to existing publication without generating a new snapshot, please disable below 2 properties of publication:
-    1. Immediate_sync 
-    EXEC sp_changepublication
-    @publication = '<yourpublicationname>',
-    @property = N'allow_anonymous',
-    @value = 'false'
-    GO
-
-    2. Allow_anonymous
-    EXEC sp_changepublication
-    @publication = '<yourpublicationname>’,
-    @property = N'immediate_sync',
-    @value = 'false'
-    GO
-
-```
-[cluster my-cluster]
-    FormLayout = selectionpanel
-    Category = My Templates
-    CategoryOrder = 100
-    MaxCount = 200
-    Autoscale = $Autoscale
-```
+    * Allow_Anonymous
+    `EXEC sp_changepublication @publication = '<yourpublicationname>', @property = N'allow_anonymous', @value = 'false'`
+    
+    * Immediate_Sync
+    `EXEC sp_changepublication @publication = '<yourpublicationname>’, @property = N'immediate_sync', @value = 'false'`
 
 ## **Recommended Documents**
 
