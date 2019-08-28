@@ -1,6 +1,6 @@
 ﻿<properties
 pageTitle="Modules were found that are not current"
-description="Modules may need to be updated"
+issueDescription="Modules may need to be updated"
 infoBubbleText="See list of affected modules below"
 service="microsoft.automation"
 resource="runbooks"
