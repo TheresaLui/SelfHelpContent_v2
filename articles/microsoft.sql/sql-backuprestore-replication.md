@@ -43,7 +43,7 @@
 
 ## **Recommended Documents**
 
-* [Types of Replcation](https://docs.microsoft.com/sql/relational-databases/replication/types-of-replication?view=sql-server-2017)
+* [Types of Replication](https://docs.microsoft.com/sql/relational-databases/replication/types-of-replication?view=sql-server-2017)
 * [Prepare Server for Replication](https://docs.microsoft.com/sql/relational-databases/replication/tutorial-preparing-the-server-for-replication?view=sql-server-2017)
 * [Configure Transactional Replication](https://docs.microsoft.com/sql/relational-databases/replication/tutorial-replicating-data-between-continuously-connected-servers?view=sql-server-2017)
 * [For monitoring Replication](https://docs.microsoft.com/sql/relational-databases/replication/monitor/monitoring-replication?view=sql-server-2017)
