@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # **REPLICATION**
@@ -25,16 +25,15 @@
 ## **Recommended Steps**
 
 1. If transactional replication appears to be slow and the subscriber is in Azure SQL Database: 
-    * Scale the SQL Database to a premium pricing tier. You can change [DTU service tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu) or [vCore characteristics](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vcore-resource-limits-single-databases)  at any time with minimal downtime to your application (generally averaging under four seconds). 
+    * Scale the SQL Database to a premium pricing tier. You can change [DTU service tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu) or [vCore characteristics](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vcore-resource-limits-single-databases)  at any time with minimal downtime to your application (generally averaging under four seconds). It is suggested that you pause all workload before you scale to avoid rollbacks.
     * To optimize costs, you could scale up before the replication process starts and then scale back down after it’s completed. 
-    * During the upgrade, the database will remain transactionally consistent. It is suggested that you pause all workload before you scale to avoid rollbacks.
 
 2. If the replication is failing with a timeout error, customer can re-try replication by increasing the querytimeout:
     * Please open the distributor and log reader job properties from Job activity monitor for respective publication.
     * Right click on Distributor Job and select properties
         * Go to Step
         * Click on second step of job and click on edit
-        * Add parameter -QueryTimeOut 3600 at the end of command
+        * Add parameter -QueryTimeOut 3600 at the end of command (time is in seconds)
     * After increasing the querytimeout you have to restart distribution and logreader agent job from job activity monitor.
 
 3. Error 2627 - Violation of PRIMARY KEY(PK) constraint. Cannot insert duplicate key in object:
