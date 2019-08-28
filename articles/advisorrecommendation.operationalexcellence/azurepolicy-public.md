@@ -1,3 +1,14 @@
+<properties
+    pageTitle="Create Azure policy recommendation"
+    description="Create Azure policy recommendation"
+    authors="timwong"
+    ms.author="timwong"
+    articleId="c3c3299d-ee34-4610-844d-3782d691a7fe_Public"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Public"
+/>
+# Create an Azure service health alert
+---
 {
 	"recommendationOfferingId": "c3c3299d-ee34-4610-844d-3782d691a7fe",
 	"recommendationOfferingName": "Azure Advisor",
@@ -51,3 +62,4 @@
 	"tip": "",
 	"testData": "36d32aaa-efe0-454b-9326-e5547b655dba,/subscriptions/36d32aaa-efe0-454b-9326-e5547b655dba"
 }
+---
