@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Troubleshooting Azure-SSIS IR Management - General start and stop Issues"
+	pageTitle="Azure-SSIS IR General start and stop Issues"
 	description="Troubleshooting Azure-SSIS IR Management - General start and stop Issues"
 	service="microsoft.datafactory"
 	resource="factories"
