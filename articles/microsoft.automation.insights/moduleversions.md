@@ -4,7 +4,8 @@ description="Modules may need to be updated"
 infoBubbleText="See list of affected modules below"
 service="microsoft.automation"
 resource="runbooks"
-authors="adoyle"
+authors="adoylemsft"
+ms.author="adoyle"
 authorAlias="adoyle"
 displayOrder=""
 articleId="MoudleUpdate-48a86414-6e14-4785-8beb-33269666cc3e"
@@ -24,7 +25,7 @@ We have detected that there are older versions of core Azure modules than what i
 
 ## Resolution
 
-Please see the following link https://docs.microsoft.com/en-us/azure/automation/automation-update-azure-modules.
+Please see the following link https://docs.microsoft.com/azure/automation/automation-update-azure-modules.
 
 Once this has completed, attempt to re-run the runbook that may have been failing previously. To learn more about updating your modules, see Update Azure modules in Azure Automation.
 
