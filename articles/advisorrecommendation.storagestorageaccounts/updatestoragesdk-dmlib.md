@@ -51,7 +51,7 @@
       "description": "View {version} release notes",
       "actionType": "Document",
       "extensionName": "Microsoft_Azure_Storage",
-      "documentLink": "https://github.com/Azure/azure-storage-net-data-movement/releases/tag/v0.12.0"
+      "documentLink": "https://aka.ms/AA5ys0r"
     }
   ],
   "resourceMetadata": {
