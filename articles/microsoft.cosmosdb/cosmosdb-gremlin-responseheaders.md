@@ -60,8 +60,10 @@ Common status code values customers see are listed below
 **Status Code** | **Explanation**
 --- | ---
 ***404*** | Concurrent operations that attempts to delete and update the same edge or vertex simultaneously. Error message `"Owner resource does not exist"` indicates that specified database or collection is incorrect in connection parameters in `/dbs/<database name>/colls/<collection or graph name>` format.
-***409*** | Request encountered a conflicting write operation. This usually happens when vertex or an edge with an identifier already exists in the graph.
+***409*** | `Conflicting request to resource has been attempted. Retry to avoid conflicts.` This usually happens when vertex or an edge with an identifier already exists in the graph.
+***412*** | Status code is usually complemented with error message `"PreconditionFailedException": One of the specified pre-condition is not met`. This is indicative of an optimistic concurrency control violation between reading an edge or vertex and writing it back to the store after modification. Most common situations when this occurs is property modification, for example `g.V('identifier').property('name','value')`. Gremlin engine would read the vertex, perform modification and write it back. If two traversals concurrently read and write the same vertex or an edge one of them will receive this error. It is recommended to retry traversal again.
 ***429***  | Request was throttled and should be retried after value in ***x-ms-retry-after-ms***.
+***500*** | Error message that contains `"NotFoundException: Entity with the specified id does not exist in the system."` indicates that a database and/or collection was re-created with the same name. This error will disappear within 5 minutes as change propagates and invalidates caches in different Cosmos DB components.
 
 ## **Recommended Documents**
 
