@@ -63,7 +63,7 @@
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue.  Please indicate if the Activity log shows any recent operations against this resource.",
+            "watermarkText": "Provide additional information about your issue.  Please indicate if the Activity Log shows any recent operations against this resource, such as a rename or delete",
             "required": true,
             "useAsAdditionalDetails": true
         }
