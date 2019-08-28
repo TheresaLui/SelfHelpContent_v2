@@ -27,25 +27,30 @@
             "required": true
         },
         {
-            "id": "missing_resource_type",
+            "id": "resource_type",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What type of resource is missing?",
-            "dropdownOptions": [{
-                  "value": "database"
-                  "text": "Database"
-               }, {
-                  "value": "elastic_pool"
-                  "text": "Elastic Pool"
-               }, {
-                  "value": "dont_know_answer"
-                  "text": "Other, or don't know answer"
-               }
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Is the unavailability recurring or a one time issue?",
+            "dropdownOptions": [
+                {
+                    "value": "database",
+                    "text": "Database"
+                },
+                {
+                    "value": "elastic_pool",
+                    "text": "Elastic Pool"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, or don't know answer"
+                }
             ],
-            "required": true
+            "required": false
         },
         {
-            "id": "missing_resource_name",
+            "id": "resource_name",
             "order": 10,
             "controlType": "textbox",
             "displayLabel": "Missing Resource Name",
