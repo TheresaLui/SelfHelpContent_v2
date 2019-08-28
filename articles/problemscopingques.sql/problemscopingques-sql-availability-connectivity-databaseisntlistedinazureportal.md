@@ -32,7 +32,7 @@
             "controlType": "dropdown",
             "displayLabel": "What type of resource is missing?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "Is the unavailability recurring or a one time issue?",
+            "infoBalloonText": "Please select the resource type that is missing.",
             "dropdownOptions": [
                 {
                     "value": "database",
@@ -47,7 +47,7 @@
                     "text": "Other, or don't know answer"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "resource_name",
@@ -63,7 +63,7 @@
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Provide additional information about your issue.  Please indicate if the Activity log shows any recent operations against this resource.",
             "required": true,
             "useAsAdditionalDetails": true
         }
