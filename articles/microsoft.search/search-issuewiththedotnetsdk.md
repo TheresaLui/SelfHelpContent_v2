@@ -20,12 +20,12 @@
 
 * The Azure Search .Net SDK has two libraries.  Please make sure you are using the correct library for the operation you'd like to perform:
 
-	* [Client library](https://www.nuget.org/packages/Microsoft.Azure.Search) to execute indexing and search operations on an Azure Search index.
-	* [Management library](https://www.nuget.org/packages/Microsoft.Azure.Management.Search) to provision a new service, manage api-keys, and adjust resources.
+	* [Client library](https://www.nuget.org/packages/Microsoft.Azure.Search) to execute indexing and search operations on an Azure Search index
+	* [Management library](https://www.nuget.org/packages/Microsoft.Azure.Management.Search) to provision a new service, manage api-keys, and adjust resources
 
-* Upgrade to the latest version of the Azure Search .NET SDKs from Nuget.org for fixes and improvements.
-* If you encounter a bug, please create an issue on [GitHub](https://github.com/azure/azure-sdk-for-net/issues) and mention "Azure Search" in the title.
-* If you would like to provide feedback for a future update of the SDK, see our [feedback page](https://feedback.azure.com/forums/263029-azure-search).
+* Upgrade to the latest version of the Azure Search .NET SDKs from Nuget.org for fixes and improvements
+* If you encounter a bug, please create an issue on [GitHub](https://github.com/azure/azure-sdk-for-net/issues) and mention "Azure Search" in the title
+* If you would like to provide feedback for a future update of the SDK, see our [feedback page](https://feedback.azure.com/forums/263029-azure-search)
 
 ## **Recommended Documents**
 
