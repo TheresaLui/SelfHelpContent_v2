@@ -36,6 +36,14 @@ Customers will attempt to scale a cluster during the scale operation. However, d
 
 Customers have experienced issues with scale-up operations failing during an OMS script installation. This is a known issue. If you have OMS enabled, please disable OMS temporarily, scale-up the cluster, then re-enable OMS.
 
+To temporarily disable Operations Management Suite (OMS) follow steps below:
+
+1. Login to the Azure Portal and in the top search bar search for HDInsight Cluster
+1. Select the cluster you are looking to scale 
+1. Scroll down to the Monitioring section and select Operations Management Suite 
+1. Select disable then save
+1. Once this is saved scale the cluster then re-enable OMS
+
 **Missing Required IP**
 
 If you use either network security groups or user defined routes to control traffic, you must allow traffic from the IP addresses used by Azure Health and Management services, so that they can communicate with your HDInsight cluster.
