@@ -17,8 +17,9 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 We determined that the HDInsight HBase cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has regions not available.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -36,4 +37,4 @@ We determined that the HDInsight HBase cluster <!--$ClusterDnsName-->[ClusterDns
 
 ## **Recommended Documents**
 
-* [Issues with region servers in Azure HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/hbase/hbase-troubleshoot-unassigned-regions#scenario-unassigned-regions%20%22)
+* [Issues with region servers in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/hbase-troubleshoot-unassigned-regions#scenario-unassigned-regions%20%22)
