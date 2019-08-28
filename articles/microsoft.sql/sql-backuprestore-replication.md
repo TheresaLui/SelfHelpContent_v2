@@ -37,16 +37,13 @@
         * Add parameter -QueryTimeOut 3600 at the end of command
     * After increasing the querytimeout you have to restart distribution and logreader agent job from job activity monitor.
 
-3. Error 2627 - Violation of PRIMARY KEY constraint <>. Cannot insert duplicate key in object:
-    * you may try to delete the row with PK *at the Subscriber*. The distribution agent will then be able to insert the row again into the subscriber table
+3. Error 2627 - Violation of PRIMARY KEY(PK) constraint. Cannot insert duplicate key in object:
+    * you may try to delete the row with PK (at the Subscriber). The distribution agent will then be able to insert the row again into the subscriber table
     * Another option would be to configure the Distribution Agent with the SkipErrors parameters. This has the disadvantage though that the failed insert will be ignored; the data on Publisher and Subscriber might become different then.
 
 4. To add new article to existing publication without generating a new snapshot, please disable below 2 properties of publication:
-    * Allow_Anonymous
-    `EXEC sp_changepublication @publication = '<yourpublicationname>', @property = N'allow_anonymous', @value = 'false'`
-    
-    * Immediate_Sync
-    `EXEC sp_changepublication @publication = '<yourpublicationname>’, @property = N'immediate_sync', @value = 'false'`
+    * Allow_Anonymous : `EXEC sp_changepublication @publication = '<yourpublicationname>', @property = N'allow_anonymous', @value = 'false'`
+    * Immediate_Sync : `EXEC sp_changepublication @publication = '<yourpublicationname>’, @property = N'immediate_sync', @value = 'false'`
 
 ## **Recommended Documents**
 
