@@ -1,4 +1,5 @@
 <properties
+pageTitle="sql database support topics"
 description = "Support topic description for SQL Database"
 authors = "akjoshi"
 ms.author = "akankshajsh"
@@ -7,7 +8,7 @@ icmService="icmservice"
 feedbackEmail="email"
 productPesIds = "95412dd5-f222-a91f-98a6-144a84418c66"
 selfHelpType = "supportTopicDescription"
-articleId = "sql-database-supportopicdescription"
+articleId="sql-database-supportopicdescription"
 cloudEnvironments = "public" 
 />
 
