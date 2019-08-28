@@ -14,7 +14,6 @@ cloudEnvironments = "public"
 />
 
   # Support topic description for SQL Database
-
 ---
 
 {
