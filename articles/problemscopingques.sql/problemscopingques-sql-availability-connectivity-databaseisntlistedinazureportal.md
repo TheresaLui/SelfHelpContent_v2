@@ -1,5 +1,4 @@
 <properties
-	articleId="FAD1FE7C-C2A3-408E-8DCA-A3CAE653AD36"
 	pageTitle="Database isn't listed in Azure portal"
 	description="Database isn't listed in Azure portal"
 	authors="keithelm"
@@ -9,6 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="FAD1FE7C-C2A3-408E-8DCA-A3CAE653AD36"
 />
 # Availability and Connectivity - Database isn't listed in Azure portal
 ---
@@ -44,7 +44,7 @@
 			"value": "dont_know_answer"
 			"text": "Other, or don't know answer"
 		}
-            ]
+            ],
             "required": true
         },
         {
