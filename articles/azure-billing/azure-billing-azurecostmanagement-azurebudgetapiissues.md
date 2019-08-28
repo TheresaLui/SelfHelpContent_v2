@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="5a3c8fec-59d4-4d8b-a95f-8526cc35494d"
 />
 
 # Azure Budget API Issues

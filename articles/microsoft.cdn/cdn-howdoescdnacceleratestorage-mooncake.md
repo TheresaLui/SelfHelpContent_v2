@@ -10,6 +10,7 @@
     resourceTags="cdnakamai, cdnverizon"
     productPesIds=""
     cloudEnvironments="Mooncake"
+	articleId="b9d4937b-ae99-4640-b83d-a5675f3cf79e"
 />
 
 # How does CDN accelerate storage

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="d28e27ee-3fca-40bf-ba1b-cbe71d472a7f"
 />
 
 # Manage Apps - Selectively Wipe Apps

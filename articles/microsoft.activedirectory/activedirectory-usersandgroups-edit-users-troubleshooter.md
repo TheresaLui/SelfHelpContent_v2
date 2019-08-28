@@ -8,7 +8,8 @@
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="public"
-    />
+    	articleId="070f7d13-893f-483d-ad0c-80167337398d"
+/>
 
 
 # I can’t update the properties of a user in my directory 

@@ -11,7 +11,8 @@
 	displayOrder=""
 	cloudEnvironments="public"
 	issueNotListed="true"
- />
+ 	articleId="f2093927-94ec-474f-a83e-5a2a21e8a8bd"
+/>
 
 # My issue is not listed
 

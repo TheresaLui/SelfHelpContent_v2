@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16170"
 	cloudEnvironments="public"
+	articleId="382f73d5-62ac-4f54-a701-876770c47daf"
 />
 
 # configuration and management/creating or deleting web app

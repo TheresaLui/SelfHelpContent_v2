@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="43911388-c859-426a-b870-2e685101a20a"
 />
 
 # Migrating to Azure Premium Storage

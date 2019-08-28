@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="af239d24-bb78-43fe-95c3-6363435bfe3b"
 />
 
 # Configure Devices - Manage PowerShell scripts

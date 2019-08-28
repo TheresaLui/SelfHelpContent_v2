@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for MARS restore performance"
          description="Scoping questions for MARS restore performance"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32613000"
          productPesIds="15207"
@@ -13,8 +14,14 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "MARS restore performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "MARS restore performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -22,7 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "restore_type",
@@ -38,6 +46,10 @@
                 {
                     "value": "Restore data to the same machine from which the backups were taken",
                     "text": "Restore data to the same machine from which the backups were taken"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -56,9 +68,14 @@
                 {
                     "value": "Volume",
                     "text": "Volume"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "job_time",
@@ -66,7 +83,7 @@
             "controlType": "textbox",
             "displayLabel": "How long is the restore job running?",
             "watermarkText": "Ex. 18 hrs",
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",
@@ -91,6 +108,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -10,6 +10,7 @@
 	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="8f48e255-7e25-4135-840c-41e11861e7b8"
 />
 
 # I can't register my virtual array.

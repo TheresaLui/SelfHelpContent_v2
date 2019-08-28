@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="f5cfdd96-9dee-4423-a67b-4f2c77369536"
 />
 
 # Unable to connect issues

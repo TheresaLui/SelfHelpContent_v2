@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="164762c5-ff0e-44b6-9452-e72202c423fa"
 />
 
 # Privacy Blade and GDPR requests

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
+	articleId="09fd8fea-8302-4140-aa60-50bef0240283"
 />
 
 # How do I create a report

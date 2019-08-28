@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="5c0a3dd4-a2a3-42c2-b051-05da21c9fab7"
 />
 
 # Unhandled exceptions

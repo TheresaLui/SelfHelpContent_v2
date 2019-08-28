@@ -10,6 +10,7 @@
 	resourceTags="apiapp"
 	productPesIds="15792"
 	cloudEnvironments="public"
+	articleId="67b1bdc9-0a48-4581-a495-15b7c9c2467e"
 />
 
 # deployment

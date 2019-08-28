@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="429b1902-cdd3-4831-8835-b7936061db75"
 />
 
 # Manage Devices - Device inventory

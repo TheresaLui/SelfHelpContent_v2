@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="55836a6c-04b9-4a21-9967-9c756a31932c"
 />
 
 # How to develop with CLI

@@ -10,6 +10,7 @@
 	resourceTags="windows"
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="395f1a5d-a871-4860-a897-221e95f2bb93"
 />
 
 # Migration and Move/Move resources between subscriptions

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16513"
 	cloudEnvironments="public"
+	articleId="b58fa05b-313d-451a-95bb-eeb2c45b6312"
 />
 
 # ASD/Purchasing

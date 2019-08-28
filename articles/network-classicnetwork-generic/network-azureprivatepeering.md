@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="4d8190d5-265c-424f-ba1c-f5105f92aeae"
 />
 
 # Connectivity/Azure Private Peering

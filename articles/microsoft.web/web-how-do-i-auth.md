@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="af9317f4-a198-4a85-bbc2-b6b19d4832f1"
 />
 # How do I for authentication and authorization
 ## **Recommended documents**

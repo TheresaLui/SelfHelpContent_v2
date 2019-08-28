@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170"
 	cloudEnvironments="public"
+	articleId="c8301fb1-9668-444d-b000-456f03242194"
 />
 
 # configuration and management/Hybrid

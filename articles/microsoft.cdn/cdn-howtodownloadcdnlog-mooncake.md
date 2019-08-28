@@ -10,6 +10,7 @@
     resourceTags="cdnakamai, cdnverizon"
     productPesIds=""
     cloudEnvironments="Mooncake"
+	articleId="a348c771-8178-448a-9c4e-94e601cd8397"
 />
 
 # How to download CDN log

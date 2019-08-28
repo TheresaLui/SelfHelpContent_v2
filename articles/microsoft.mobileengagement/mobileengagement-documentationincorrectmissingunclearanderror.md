@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15658"
 	cloudEnvironments="public"
+	articleId="f036b01d-59b4-446d-9559-38743b4087cd"
 />
 
 # service/documentation: incorrect, missing, unclear, and error

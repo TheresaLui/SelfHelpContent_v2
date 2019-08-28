@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="c115472d-f3cb-4dfb-ac63-b0b553c10c91"
 />
 
 # configure IPv6 Load Balancer

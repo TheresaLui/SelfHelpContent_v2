@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="d334929b-7f97-45c5-8c6f-924eb938b8fd"
 /> 
 # Other related problem with Domain Names 
 ---
@@ -26,7 +27,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -43,7 +44,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
@@ -60,7 +61,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
@@ -82,6 +83,10 @@
                 {
                     "text": "Yes we have an additional Azure AD or use Office 365",
                     "value": "ContainsMultiple"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -115,6 +120,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16355"
     cloudEnvironments="public"
+	articleId="05374841-e8a0-437e-96c0-06a4e5fb164d"
 />
 # General guidance or advisory
 ## **Recommended steps**

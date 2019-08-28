@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="520c82b2-48cf-49b0-92cc-ec99aedc5669"
 />
 
 #  Problems with Email notifications

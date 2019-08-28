@@ -1,22 +1,27 @@
 <properties
     pageTitle="Issues with service admins or co-admins"
     description="Azure Active Directory troubleshooting"
-    infoBubbleText=""
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="rolyon"
+    ms.author="rolyon"
     displayOrder=""
-    articleId=""
+    articleId="8a68770e-c96b-48ea-9cc6-952ff9fb2ec1"
     diagnosticScenario=""
     selfHelpType="generic"
     supportTopicIds="32615391"
     resourceTags=""
-    productPesIds="16578"​
+    productPesIds="16578"
     cloudEnvironments="public"
 />
 
-# Issues with service admins or co-admins
+# Azure Active Directory: Issues with service admins or co-admins
 
-Choose this category for issues related to updating the classic Service Administrator or Co-Administrator roles for a subscription.
+## **Recommended Steps**
 
-* [Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+- If you are having issues with Service administrator or Co-administrators, see the recommended documentation
+
+## **Recommended Documents**
+
+- [Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+- [Classic subscription administrator roles, Azure RBAC roles, and Azure AD administrator roles](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles)

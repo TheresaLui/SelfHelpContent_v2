@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15791"
 	cloudEnvironments="public"
+	articleId="94a2f81c-da7c-40e1-b625-8b9c086a9b48"
 />
 
 # how-to or development issues

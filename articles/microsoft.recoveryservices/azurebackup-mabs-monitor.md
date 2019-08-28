@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="e98bce42-16da-4bac-897e-509cd99fe1fe"
 />
 
 # Troubleshooting Azure Backup server Monitor Reporting issues?

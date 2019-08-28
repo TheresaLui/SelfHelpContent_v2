@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="c511e6af-62eb-4d29-b5b4-e6992fe8f070"
 />
 
 # How to develop with PowerShell

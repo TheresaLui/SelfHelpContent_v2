@@ -8,7 +8,8 @@
   supportTopicIds="32596846"
   productPesIds="14785"
   cloudEnvironments="public"
- />
+ 	articleId="fa8bf5cb-d142-4bb4-8b0b-8558a2c59162"
+/>
 
 # Issues developing apps against SharePoint
 

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="e460f249-f6fe-4851-93b7-5f00eda49666"
 />
 
 # Back up and restore Azure file shares  

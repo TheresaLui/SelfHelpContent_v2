@@ -10,6 +10,7 @@
 	resourceTags=" "
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="cbd61f59-d90a-44db-97ae-4fa037a4b7d4"
 />
 
 # Edit recovery plans

@@ -10,6 +10,7 @@
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+	articleId="6f220066-8111-4387-b2a5-3717daca6de1"
 />
 
 # Azure Backup Advisory Queries

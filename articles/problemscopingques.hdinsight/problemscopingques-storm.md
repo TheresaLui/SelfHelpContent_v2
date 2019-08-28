@@ -7,6 +7,7 @@
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="d866d96f-5a50-4ce8-b0cb-0365b723b179"
 />
 # Kafka Issue
 ---
@@ -76,6 +77,7 @@
             "controlType": "infoblock",
             "content": "<a href='https://hdinsight.github.io/storm/storm-landing'>Learn more</a> about commonly faced issues with using Storm on HDInsight"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="7fe10e49-4e3e-49e7-8b9e-037c925e1bb2"
 />
 
 # Service outage

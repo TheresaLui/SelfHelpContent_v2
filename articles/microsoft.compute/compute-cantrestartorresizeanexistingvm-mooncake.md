@@ -10,6 +10,7 @@
 	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"	
 	productPesIds=""
 	cloudEnvironments="MoonCake" 
+	articleId="6db3ff85-d7f9-41dd-99db-0e7b67d731f4"
 />
 
 # I can't restart or resize an existing VM

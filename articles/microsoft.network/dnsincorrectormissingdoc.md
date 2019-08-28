@@ -9,6 +9,7 @@
 	resourceTags=""
 	productPesIds="15804"
 	cloudEnvironments="public"
+	articleId="344e80eb-8873-45b5-837a-8d839b619db9"
 />
 
 # incorrect or missing documentation

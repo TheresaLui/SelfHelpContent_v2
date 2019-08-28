@@ -8,7 +8,8 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
+ 	articleId="ca9755c2-f8fe-4b11-adb9-024ffeed4e5d"
+/>
 # I want to look through all password reset troubleshooting content
 ## **Recommended steps**
 Did you know that password reset has a rich set of troubleshooting guidance and a FAQ? Chances are, if you have a question, you can find the answer to it in the links below.

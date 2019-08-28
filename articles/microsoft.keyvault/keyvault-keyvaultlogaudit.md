@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="2b6c0e36-2f01-4a72-832a-5a50ab1aa7fe"
 />
 
 # How to Logging and Auditing with Key Vault 

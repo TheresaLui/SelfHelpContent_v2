@@ -4,9 +4,8 @@ description="Modules may need to be updated"
 infoBubbleText="See list of affected modules below"
 service="microsoft.automation"
 resource="runbooks"
-authors="adoylemsft"
+authors="adoyle"
 ms.author="adoyle"
-authorAlias="adoyle"
 displayOrder=""
 articleId="MoudleUpdate-48a86414-6e14-4785-8beb-33269666cc3e"
 diagnosticScenario="AAModuleUpdateDetection"
@@ -17,15 +16,14 @@ productPesIds="15607"
 cloudEnvironments="public"
 />
 
+
 # There are Automation Core Modules that need updating
 
 ## Automation Modules that are older or out of date can cause unforeseen issues
 <!--issueDescription-->
-
 We have detected that there are older versions of core Azure modules than what is currently available. Using older versions of Azure modules can cause unforeseen issues when running jobs. The following is a list of the modules we have detected in your Automation Account that are not the latest versions:
 
 <!--$Modules Out of date-->[Modules Out of date]<!--/$Modules Out of date-->
-
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -39,6 +37,7 @@ The Azure PowerShell modules are updated frequently to include fixes and improve
 **Note**: If the change in the modules would result in a major version upgrade, such as from 3.x to 4.x or 5.x to 6.x, then you would need to be aware that these major version updates include breaking changes. These changes can be to the way that cmdlets work which may result in broken scripts until they are adapted to use the changes that have been introduced. Carefully review the breaking changes guidance for the version of the modules, such as for [major version 6.x](https://github.com/Azure/azure-powershell/blob/preview/documentation/migration-guides/migration-guide.6.0.0.md), to determine if you need to update any of your runbook scripts to accommodate changes in the cmdlets they call.
 
 Each major update has its own upgrade guidance. Review all the guides for the version you are upgrading from before you make any changes.
+
 
 ## **Recommended Documents**
 

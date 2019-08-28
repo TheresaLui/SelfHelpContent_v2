@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="8be07834-db99-4958-a47a-b13de8b05967"
 />
 
 # Help with Dashboards or Reports

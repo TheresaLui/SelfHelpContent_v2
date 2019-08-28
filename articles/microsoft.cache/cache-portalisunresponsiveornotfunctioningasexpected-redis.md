@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
+	articleId="31939c05-ca0c-4275-a9c1-0042e84e23f3"
 />
 
 # managed cache/portal is unresponsive or not functioning as expected

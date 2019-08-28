@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="3cb03330-8d02-4062-9648-5dacd2ecebe9"
 />
 
 # Account Lockout or Requesting Access from an Alternate Admin

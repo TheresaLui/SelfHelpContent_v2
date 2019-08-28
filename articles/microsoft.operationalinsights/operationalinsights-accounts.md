@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="9ce6c291-59bd-41a6-8507-f85b5086b3a5"
 />
 
 # accounts

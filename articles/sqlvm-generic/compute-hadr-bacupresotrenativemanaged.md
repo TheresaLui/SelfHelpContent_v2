@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="47e3f8c1-3a96-4219-8d4d-25dc6492d80a"
 />
 
 # high availability and disaster recovery/ Backup and restore - SQL native, automated or managed

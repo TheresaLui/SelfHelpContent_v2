@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="0aa95a3e-713a-44b3-a65b-fa6f367da6bf"
 />
 
 # I need help setting up a USQL project in Visual Studio.

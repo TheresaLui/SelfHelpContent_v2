@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16578"
     cloudEnvironments="public"
-    />
+    	articleId="304620c6-e279-475c-9656-bb2f0aeff0bd"
+/>
 
 # Problem identifying global administrator
 

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="8da04fa7-367f-460b-a693-9985057ec434"
 />
 
 # How do I register my assembly in the Azure Data Lake?

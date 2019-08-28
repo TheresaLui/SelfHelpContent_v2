@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="bc13cbce-0f61-435e-832f-59f02e13926b"
 />
 
 # azurenetworkinganalytics-other
