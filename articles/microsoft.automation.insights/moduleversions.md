@@ -24,9 +24,9 @@ We have detected that there are older versions of core Azure modules than what i
 
 ## Resolution
 
-In your **"Automation Account"**> click **"Modules"**> click **"Update Azure modules"**
+Please see the following link https://docs.microsoft.com/en-us/azure/automation/automation-update-azure-modules.
 
-The update takes roughly 15 minutes to complete. Once it has completed, attempt to re-run the runbook that may have been failing previously. To learn more about updating your modules, see Update Azure modules in Azure Automation.
+Once this has completed, attempt to re-run the runbook that may have been failing previously. To learn more about updating your modules, see Update Azure modules in Azure Automation.
 
 The Azure PowerShell modules are updated frequently to include fixes and improvements and it is a good practice to stay current when possible.
 If you are experiencing problems with a particular module you can try upgrading only that module to the latest Azure PowerShell modules to correct your problem. To learn how to do this, see [alternative ways to update your modules](https://docs.microsoft.com/azure/automation/automation-update-azure-modules#alternative-ways-to-update-your-modules)
