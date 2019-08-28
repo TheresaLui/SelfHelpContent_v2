@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Common Solutions Template"
-	description="Common Solutions Template"
-	infoBubbleText="Common Solutions Template"
+	pageTitle="Common Solutions Replication"
+	description="Common Solutions for Transactional Replication and Geo-Replication"
+	infoBubbleText="Common Solutions Transactional Replication and Geo-Replication"
 	service="microsoft.sql"
 	resource="servers"
 	authors="mravikiran"
