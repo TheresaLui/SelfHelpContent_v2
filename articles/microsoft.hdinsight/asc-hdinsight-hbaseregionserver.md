@@ -35,4 +35,4 @@ We determined that the HDInsight HBase cluster <!--$ClusterDnsName-->[ClusterDns
     - `rmr /hbase/regions-in-transition` (or `rmr /hbase-unsecure/regions-in-transition`)
     - Exit `hbase zkcli`
     - Restart Active HMaster from Ambari
-    - Run hbase hbck again to check issue is fixed
+    - Run `hbase hbck` again to check issue is fixed
