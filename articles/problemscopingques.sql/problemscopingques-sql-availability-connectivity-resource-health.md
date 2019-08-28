@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false, 
+    "subscriptionRequired": false,
     "title": "Resource Health Scoping Questions",
     "fileAttachmentHint": "",
     "formElements": [
