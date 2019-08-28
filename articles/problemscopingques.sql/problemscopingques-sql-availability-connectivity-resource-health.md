@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false, 
     "title": "Resource Health Scoping Questions",
     "fileAttachmentHint": "",
     "formElements": [
@@ -56,11 +57,11 @@
                     "text": "Unavailable"
                 },
                 {
-                    "value": "Unknown",
+                    "value": "dont_know_answer",
                     "text": "Unknown/I don't know"
                 }
             ],
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -68,16 +69,16 @@
             "controlType": "datetimepicker",
             "displayLabel": "Unavailability start time",
             "infoBalloonText": "Please provide the start time of the most recent occurence of the unavailability",
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "displayLabel": "Please provide any additional context to help us solve your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
+            "watermarkText": ""
         }
     ],
     "$schema": "SelfHelpContent"
