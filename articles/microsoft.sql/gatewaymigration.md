@@ -17,8 +17,11 @@
 />
 
 # We ran diagnostics on your resource and found an issue
+
 <!--issueDescription-->
-Between <b>{StartTime} UTC</b> and <b>{EndTime} UTC</b>, server <!--$ServerName-->ServerName<!--/$ServerName--> was unreachable, and issue is related to recent migration of traffic connections to newer gateways in this region. This migration will change the public IP address that DNS resolves for database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->. <br /> For further information, please refer to the documentation present in the link below.
+Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, server <!--$ServerName-->ServerName<!--/$ServerName--> was unreachable, and issue is related to recent migration of traffic connections to newer gateways in this region. This migration will change the public IP address that DNS resolves for database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.
+
+For further information, please refer to the documentation present in the link below.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -27,4 +30,4 @@ Between <b>{StartTime} UTC</b> and <b>{EndTime} UTC</b>, server <!--$ServerName-
 
 ## **Recommended Documents**
 
-* [Gateway Migration to new hardwares](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-gateway-migration)
+* [Gateway Migration to new hardwares](https://docs.microsoft.com/azure/sql-database/sql-database-gateway-migration)
