@@ -27,6 +27,24 @@
             "required": true
         },
         {
+            "id": "missing_resource_type",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "What type of resource is missing?",
+            "dropdownOptions": [{
+                  "value": "database"
+                  "text": "Database"
+               }, {
+                  "value": "elastic_pool"
+                  "text": "Elastic Pool"
+               }, {
+                  "value": "dont_know_answer"
+                  "text": "Other, or don't know answer"
+               }
+            ],
+            "required": true
+        },
+        {
             "id": "missing_resource_name",
             "order": 10,
             "controlType": "textbox",
