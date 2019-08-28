@@ -6,7 +6,7 @@
 	resource="servers"
 	authors="mravikiran"
 	ms.author="mravikiran"
-	displayOrder=""
+	displayOrder="4"
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="resource"
@@ -17,15 +17,12 @@
 />
 
 # **REPLICATION**
-[Replication](https://docs.microsoft.com/en-us/sql/relational-databases/replication/sql-server-replication?view=sql-server-2017) is a set of technologies for copying and distributing data and database objects from one database to another and then synchronizing between databases to maintain consistency. Following recommendations are for [Transactional Replication](https://docs.microsoft.com/en-us/sql/relational-databases/replication/transactional/transactional-replication?view=sql-server-2017) and Geo-Replication 
-
-
-## **Transactional Replication**
+[Replication](https://docs.microsoft.com/sql/relational-databases/replication/sql-server-replication?view=sql-server-2017) is a set of technologies for copying and distributing data and database objects from one database to another and then synchronizing between databases to maintain consistency. Following recommendations are for [Transactional Replication](https://docs.microsoft.com/sql/relational-databases/replication/transactional/transactional-replication?view=sql-server-2017)
 
 ## **Recommended Steps**
 
 1. If transactional replication appears to be slow and the subscriber is in Azure SQL Database: 
-    * Scale the SQL Database to a premium pricing tier. You can change [DTU service tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu) or [vCore characteristics](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vcore-resource-limits-single-databases)  at any time with minimal downtime to your application (generally averaging under four seconds). It is suggested that you pause all workload before you scale to avoid rollbacks.
+    * Scale the SQL Database to a premium pricing tier. You can change [DTU service tiers](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu) or [vCore characteristics](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases)  at any time with minimal downtime to your application (generally averaging under four seconds). It is suggested that you pause all workload before you scale to avoid rollbacks.
     * To optimize costs, you could scale up before the replication process starts and then scale back down after it’s completed. 
 
 2. If the replication is failing with a timeout error, customer can re-try replication by increasing the querytimeout:
@@ -46,17 +43,13 @@
 
 ## **Recommended Documents**
 
-* [Types of Replcation](https://docs.microsoft.com/en-us/sql/relational-databases/replication/types-of-replication?view=sql-server-2017)
-* [Prepare Server for Replication](https://docs.microsoft.com/en-us/sql/relational-databases/replication/tutorial-preparing-the-server-for-replication?view=sql-server-2017)
-* [Configure Transactional Replication](https://docs.microsoft.com/en-us/sql/relational-databases/replication/tutorial-replicating-data-between-continuously-connected-servers?view=sql-server-2017)
-* [For monitoring Replication](https://docs.microsoft.com/en-us/sql/relational-databases/replication/monitor/monitoring-replication?view=sql-server-2017)
+* [Types of Replcation](https://docs.microsoft.com/sql/relational-databases/replication/types-of-replication?view=sql-server-2017)
+* [Prepare Server for Replication](https://docs.microsoft.com/sql/relational-databases/replication/tutorial-preparing-the-server-for-replication?view=sql-server-2017)
+* [Configure Transactional Replication](https://docs.microsoft.com/sql/relational-databases/replication/tutorial-replicating-data-between-continuously-connected-servers?view=sql-server-2017)
+* [For monitoring Replication](https://docs.microsoft.com/sql/relational-databases/replication/monitor/monitoring-replication?view=sql-server-2017)
 
-## **Geo-Replication**
+### Notes
+As an alternative to replication, you can synchronize databases by using Microsoft Sync Framework see 
+For detailed documentation of the Sync Framework database synchronization components, see [Synchronizing Databases](https://go.microsoft.com/fwlink/?LinkId=209079)
+For a comparison between Sync Framework and Merge Replication, see [Synchronizing Databases Overview](https://msdn.microsoft.com/library/bb902818(SQL.110).aspx) 
 
-## **Recommended Documents**
-
-* [Create readable secondary databases using active geo-replication](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32630424/)<br>
-* [Configure active geo-replication in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication-portal?WT.mc_id=pid:13491:sid:32630424/)<br>
-* [Disaster recovery using database geo-replication](https://docs.microsoft.com/azure/sql-database/saas-dbpertenant-dr-geo-replication?WT.mc_id=pid:13491:sid:32630424/)<br>
-* [PowerShell example to configure active geo-replication for a single database](https://docs.microsoft.com/azure/sql-database/scripts/sql-database-setup-geodr-and-failover-database-powershell?toc=%2fpowershell%2fmodule%2ftoc.json?WT.mc_id=pid:13491:sid:32630424/)<br>
-* [PowerShell example to configure active geo-replication for a pooled database](https://docs.microsoft.com/azure/sql-database/scripts/sql-database-setup-geodr-and-failover-pool-powershell?toc=%2fpowershell%2fmodule%2ftoc.json?WT.mc_id=pid:13491:sid:32630424/)
