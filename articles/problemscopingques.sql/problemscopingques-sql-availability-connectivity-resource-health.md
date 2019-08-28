@@ -80,7 +80,7 @@
             "displayLabel": "Additional context to help us solve your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Please ensure you selected a Resource of server/database or server/elastic pool on the Basics tab so we know what resource you need help with.  Add any additional details to help us troubleshoot your issue."
+            "watermarkText": "On the Basics tab, please ensure you selected a server, database or elastic pool in the Resource dropdown so we know what resource you need assistance with.  Add any additional details that may help us troubleshoot your issue."
         }
     ]
 }
