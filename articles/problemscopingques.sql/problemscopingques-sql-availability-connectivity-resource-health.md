@@ -24,6 +24,7 @@
             "controlType": "dropdown",
             "displayLabel": "How often does the issue ocur?",
             "watermarkText": "Choose an option",
+            "infoBalloonText": "Is the unavailability recurring or a one time issue?",
             "dropdownOptions": [
                 {
                     "value": "one_time",
@@ -61,7 +62,7 @@
                     "text": "Unknown/I don't know"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
