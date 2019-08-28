@@ -24,7 +24,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Unavailability start time",
-            "infoBalloonText": "Please provide the start time of the most recent occurence of unavailability."
+            "infoBalloonText": "Please provide the start time of the most recent occurence of unavailability.",
             "required": true
        },
         {
