@@ -16,9 +16,7 @@
 
 # Managed Identity
 
-## Update to Common Solutions
-
-Troubleshooting common HDInsight Create failures due to Azure Data Lake Storage Gen2 Issues.
+Common HDInsight Create failures due to Azure Data Lake Storage Gen2 Issues.
 
 **Permissions issues**
 
