@@ -40,6 +40,14 @@ Learn more: [Transfer Ownership of Subscription](https://docs.microsoft.com/azu
 [Transfer Ownership FAQ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#frequently-asked-questions-faq-for-senders)<br>
 [Troubleshoot Transfer ownership issues](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#troubleshooting)
 
+**Subscription Ownership Transfer prerequisites:**
+
+* Transferring a subscription to an account in the same Azure Active Directory tenant have no impact to the resources running in the subscription. However, if subscription is transferred to an account in another tenant, all users, groups, and service principals who had [role based access (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) to manage resources in the subscription lose their access.
+* Subscription Transfer with an existing outstanding amount from the current billing cycle will not be transferred to the new payment instrument in the new account. The only information available to the users in new account is the last month's cost for your subscription. The rest of the usage and billing history does not transfer with the subscription.
+* Transfer billing ownership of Enterprise Agreement (EA) subscriptions is currently supported in the Enterprise Agreement Portal only.
+* Transferring a credit-oriented subscription like Visual Studio, BizSpark, Microsoft Partner Network to a new user requires to have a Visual Studio / Microsoft partner network license to accept the transfer request.
+* All resources like Virtual Machines, disks, and websites transfer to the new account successfully. Following resources could be affected in a cross-tenant subscription transfer
+
 ### **Add/Change Azure subscription administrators**
 
 To add someone as an administrator for an Azure subscription, assign them the Owner role (an RBAC role) at the subscription scope. The Owner role can manage the resources in the subscription that you assigned and doesn't have access privilege to other subscriptions.<br>
