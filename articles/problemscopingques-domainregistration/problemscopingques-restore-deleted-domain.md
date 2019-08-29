@@ -1,5 +1,4 @@
 <properties
-	articleId="problemscopingques-restore-deleted-domain"
 	pageTitle="Restoring an Accidently Deleted Domain"
 	description="Restoring an Accidently Deleted Domain"
 	supportTopicIds="32604404"
@@ -9,6 +8,7 @@
 	productPesIds="16513"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="problemscopingques-restore-deleted-domain"
 />
 # Restoring an Accidently Deleted Domain
 {
