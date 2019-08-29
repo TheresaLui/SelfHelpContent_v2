@@ -7,7 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# Create an Azure service health alert
+# Create Azure policy
 ---
 {
 	"recommendationOfferingId": "c3c3299d-ee34-4610-844d-3782d691a7fe",
