@@ -20,21 +20,14 @@
 
 # Error AgentShadowCopyMissing
 
-
 <!--issueDescription-->
 We have identified that your backup operation failed because of insufficient shadow copy space in the selected backup volume(s).
 <!--/issueDescription-->
 
 
-## **Recommended Step**
+## **Recommended Steps**
+
 To resolve this issue, perform the below:
 
-
-- Increase Shadow copy storage space for the affected volume(s) using the vssadmin tool, restart the VSS service and try again.
-- To resolve snapshot deleted due to high IO on the volume, try scheduling backup when there is low IOPS load (for ex. off-peak hours) on the source volumes.
- 
-
-
-
-
-
+- Increase Shadow copy storage space for the affected volume(s) using the vssadmin tool, restart the VSS service and try again
+- To resolve snapshot deleted due to high IO on the volume, try scheduling backup when there is low IOPS load (for ex. off-peak hours) on the source volumes
