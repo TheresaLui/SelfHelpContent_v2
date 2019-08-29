@@ -1,5 +1,5 @@
 <properties
-	articleId=""
+	articleId="a31813b0-19cc-4cc8-9e94-a5cdb282d622"
 	pageTitle="Scoping Questions for installing ADLS within Visual Studio"
 	description="Scoping Questions for installing ADLS within Visual Studio"
 	authors="guyhay, lisaliu, v-anukar"

@@ -1,5 +1,5 @@
 <properties
-	articleId=""
+	articleId="ba259ada-2d37-4cd7-9b09-ce2ecd30c9fc"
 	pageTitle="Scoping Questions for difficulties while using ADL SDK"
 	description="Scoping Questions for difficulties while using ADL SDK"
 	authors="guyhay, lisaliu, v-anukar"

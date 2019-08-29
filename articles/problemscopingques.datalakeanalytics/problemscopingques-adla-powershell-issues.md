@@ -1,5 +1,5 @@
 <properties
-	articleId=""
+	articleId="ed67b9ce-ed4f-4392-aeba-c78d34df0ceb"
 	pageTitle="Scoping Questions for ADLA Portal and client tool issues"
 	description="Scoping Questions for ADLA Portal and client tool issues"
 	authors="guyhay, lisaliu, v-anukar"
@@ -46,7 +46,7 @@
             "controlType": "textbox",
             "displayLabel": "Request ID in CloudException",
             "watermarkText": "Please provide the requestID/operationID in the cloud exception",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

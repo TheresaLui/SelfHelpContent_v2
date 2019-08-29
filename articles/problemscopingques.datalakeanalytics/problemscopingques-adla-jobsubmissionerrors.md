@@ -1,5 +1,5 @@
 <properties
-	articleId=""
+	articleId="cb6e882e-5a9a-42e7-aff0-3354c6e8dd7c"
 	pageTitle="Scoping Questions for ADLA Job Submission Errors"
 	description="Scoping Questions for ADLA Job Submission Errors"
 	authors="guyhay, lisaliu, v-anukar"
@@ -76,7 +76,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
             "watermarkText": "Please provide the detail symptom including the full error message text if available, and any other relevant information",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true
         }
     ],

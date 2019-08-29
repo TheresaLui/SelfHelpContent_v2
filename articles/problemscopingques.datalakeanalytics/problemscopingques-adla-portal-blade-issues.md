@@ -1,5 +1,5 @@
 <properties
-	articleId=""
+	articleId="5afc3eba-2961-4272-a78a-08951926ea48"
 	pageTitle="Scoping Questions for ADLA Portal and client tool issues"
 	description="Scoping Questions for ADLA Portal and client tool issues"
 	authors="guyhay, lisaliu, v-anukar"
@@ -38,7 +38,7 @@
             "controlType": "textbox",
             "displayLabel": "ADLA account name",
             "watermarkText": "Please provide the Azure Data Lake Analytics Account name",
-            "required": true
+            "required": false
         },
         {
             "id": "request_id",
