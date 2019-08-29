@@ -31,7 +31,7 @@ Supported Subscriptions:  You can switch from an individual subscription with pa
 
 Learn more: [Switch Azure subscription offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
 
-## Recommended Steps
+## **Recommended Steps**
 	
 **Switch Subscription offer**
 
