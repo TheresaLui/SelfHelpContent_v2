@@ -182,7 +182,7 @@ cloudEnvironments = "public"
 			"useInDiagnoseAndSolve": ""
 		},
 		{
-			"id": "082b2da9-a5c0-11f5-357b-3d00439faa5e",
+			"id": "8d45071f-366e-4338-7465-08aef4c72785",
 			"longDescription": "",
 			"shortDescription": "SQL technologies related to logically copying database contents or creating a copy of a SQL DB",
 			"searchTags": "",
