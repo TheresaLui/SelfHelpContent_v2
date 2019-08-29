@@ -23,14 +23,16 @@
 Note: You might be affected by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
 
 **Page hangs in the loading status**<br>
-If your internet browser page hangs, try each of the following steps until you can get to the Azure portal.
 
-* Refresh the page.
-* Use a different internet browser.
+If your internet browser page hangs, try each of the following steps until you can get to the Azure portal:
+
+* Refresh the page
+* Use a different internet browser
 * Use the private browsing mode for your browser. For Internet Explorer: Click **Tools > Safety > InPrivate Browsing**, and then browse and sign-in to the [Azure portal](https://portal.azure.com/) or [Azure account center](https://account.azure.com/Subscriptions).
 
-**You are automatically signed in as a different user**<br>
-This issue can occur if you use more than one user account in an internet browser.To resolve the issue, try one of the following methods:
+**You are automatically signed in as a different user**
+
+This issue can occur if you use more than one user account in an internet browser. To resolve the issue, try one of the following methods:
 
 * Clear the cache and delete Internet cookies. In Internet Explorer, click **Tools > Internet Options > Delete**. Make sure that the check boxes for temporary files, cookies, password, and browsing history are selected, and then click Delete.
 * Reset the Internet Explorer settings to revert any personal settings that you’ve made. Click **Tools > Internet Options > Advanced** select the **Delete personal settings box > Reset**.
