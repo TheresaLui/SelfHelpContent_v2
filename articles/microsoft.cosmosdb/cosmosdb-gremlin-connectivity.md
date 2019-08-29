@@ -37,7 +37,7 @@ Connections to Cosmos DB Graph can be terminated under following conditions:
 
 Whenever client application encounters connection failure the right course of action is to retry. At no point in time is the entire Cosmos DB Graph cluster down so retrying a failed connection is the recommended action.
 
-For **Java** clients, there is a way to override default retry strategy with a custom strategy that does not invalidate entire host when a single connection to the host fails. It is recommended for customers to include this retry strategy in their applications.
+For **Java** clients it is recommended to override the default retry strategy with a custom one. This custom strategy should avoid invalidating a host when a single connection fails.
 
 ```Java
 import java.util.Collection;
