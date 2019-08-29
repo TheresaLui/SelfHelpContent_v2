@@ -27,7 +27,7 @@
 3. Select Transfer billing ownership for the subscription you want to transfer
 4. Enter the email address of a user who's a billing administrator of the account that will be the new owner for the subscription and then select Send **transfer request**
 5. The user gets an email with instructions to review your transfer request. To approve the transfer request, the user selects the link in the email and follows the instructions
-**Note**: If you transfer billing ownership of your subscription to a user's account in another Azure AD tenant, all [role-based access control (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) assignments to manage resources in the subscription are permanently removed. Only the new owner will have access to manage resources in the subscription. For more information, see [Transferring subscription to a user in another Azure AD tenant](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/known-issues).<br>
+**Note**: If you transfer billing ownership of your subscription to a user's account in another Azure AD tenant, all [role-based access control (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) assignments to manage resources in the subscription are permanently removed. Only the new owner will have access to manage resources in the subscription. For more information, see [Transferring subscription to a user in another Azure AD tenant](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/known-issues)<br>
 If your current Account Admin has left and you need to take over ownership, please open a support request so we can validate the transfer.<br>
 Learn more: [Transfer Ownership of Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
 
@@ -41,7 +41,7 @@ Learn more: [Transfer Ownership of Subscription](https://docs.microsoft.com/azu
 * [Troubleshoot Transfer ownership issues](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#troubleshooting)
 
 
-**Subscription Ownership Transfer prerequisites:** 
+**Subscription Ownership Transfer prerequisites:**
 
 1. Transferring a subscription to an account in the same Azure Active Directory tenant have no impact to the resources running in the subscription. However, if subscription is transferred to an account in another tenant, all users, groups, and service principals who had [role based access (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) to manage resources in the subscription lose their access.
 2. All resources like Virtual Machines, disks, and websites transfer to the new account successfully. Following resources could be affected in a cross-tenant subscription transfer.<br>
