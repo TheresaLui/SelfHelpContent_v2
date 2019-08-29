@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="A20166B8-89E5-42D9-A471-AF1DF8874A19"
+	articleId="B74000CE-E6CD-4996-8241-AE8C0B6476DD"
 />
 # Error When Connecting to my Database
 ---
@@ -66,7 +66,7 @@
             "id": "any_known_changes",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Have there been any recent changes you know about?",
+            "displayLabel": "Have there been any recent changes?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Please indicate what status Resource Health reports for your database or elastic pool.",
             "dropdownOptions": [
