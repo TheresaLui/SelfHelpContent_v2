@@ -16,9 +16,9 @@
 
 ## **Recommended Steps**
 
-**Troubleshoot Browser issues (Browser hangs, keeps spinning, does not load, etc.)** <br>
+**Troubleshoot Browser issues (Browser hangs, keeps spinning, does not load, etc.)**<br>
 
-Note: You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
+Note: You might be affected by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
 
 **Page hangs in the loading status**<br>
 If your internet browser page hangs, try each of the following steps until you can get to the Azure portal.
@@ -52,6 +52,6 @@ Learn more: [Troubleshoot No Subscriptions found](https://docs.microsoft.com/azu
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
 * [Migrate resources between accounts/subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 * [Add/Manage admins and co-admins](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
-* Locate the [Account Admin ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
+* Locate the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
 * [What do I do if my Azure subscription becomes disabled? ](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable/)
 * [Getting started - spending limit](https://docs.microsoft.com/azure/billing/billing-getting-started#spending-limit)
