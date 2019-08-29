@@ -48,6 +48,12 @@ Learn more: [Transfer Ownership of Subscription](https://docs.microsoft.com/azu
 * Transferring a credit-oriented subscription like Visual Studio, BizSpark, Microsoft Partner Network to a new user requires to have a Visual Studio / Microsoft partner network license to accept the transfer request.
 * All resources like Virtual Machines, disks, and websites transfer to the new account successfully. Following resources could be affected in a cross-tenant subscription transfer
 
+   * **Azure AD Domain Services**
+   * [Azure Key Vaults](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+   * [SQL related users and databases](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure) could be impacted, especially if the customer uses an Azure Active Directory related authentication.
+   * **App Services** configured with Azure Active Directory authentication could be impacted.
+   * **Visual Studio Team** Services accounts connected to Azure subscriptions may temporarily lose access when the connected Azure subscription is cancelled.
+
 ### **Add/Change Azure subscription administrators**
 
 To add someone as an administrator for an Azure subscription, assign them the Owner role (an RBAC role) at the subscription scope. The Owner role can manage the resources in the subscription that you assigned and doesn't have access privilege to other subscriptions.<br>
