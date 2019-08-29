@@ -1,10 +1,10 @@
 <properties
-	pageTitle="Database isn't listed in Azure portal"
+	pageTitle="Database or elastic pool isn't listed in Azure portal"
 	description="Database isn't listed in Azure portal"
 	authors="keithelm"
 	ms.author="keithelm,emlisa"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630436"
+	supportTopicIds="32630436,32630437"
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
