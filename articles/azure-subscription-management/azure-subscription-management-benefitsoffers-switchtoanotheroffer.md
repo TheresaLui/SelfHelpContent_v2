@@ -38,9 +38,11 @@ Learn more: [Switch Azure subscription offer](https://docs.microsoft.com/azure/b
 1. Sign in at [Azure Account Center](https://account.windowsazure.com/Subscriptions).  Select your individual subscription with pay-as-you-go rates.
 2. Click **Switch to another offer**. The option is only available if you have a individual subscription with pay-as-you-go rates and have completed your first billing period.<br>
 **Note**: The button is only available if you're on Pay-As-You-Go and done with your first billing period.
+
 3. **Select the offer you want** from the list of offers your subscription can be switched to.
 4. Depending on the offer you’re switching to, you may see a note about the impact of switching. Go through this list carefully and follow the instructions before you proceed.<br>
 **Note**: This list varies based on the memberships that your account is associated with. Refer [list of available offers you can switch to](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer#whats-supported) and make sure you have the right memberships.
+
 5. You can rename your subscription. By default, it is set to the new offer name. Click **Switch Offer** to complete the process.
 	
 Learn more: [Switch Azure subscription FAQ](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer#frequently-asked-questions)<br>
