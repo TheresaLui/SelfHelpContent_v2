@@ -20,8 +20,8 @@ Managed Instance takes automatic backups (full backups every week, differential 
 If you are experiencing some issues with any restore operation, the following troubleshooting steps might help you to identify the issue.
 
 ## **Recommended Steps**
-- If you are noticing that some error is returned by **RESTORE** check are you using [supported syntax in this statement](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#restore-statement).
-- Check are there some [unsupported features](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#restore-statement) in your .bak file (for example, multiple log files or backup sets, too many database files or in-memory OLTP objects targeting General Purpose tier).
+- If you are noticing that some error is returned by **RESTORE** check are you using [supported syntax in this statement](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#restore-statement)
+- Check are there some [unsupported features](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#restore-statement) in your .bak file (for example, multiple log files or backup sets, too many database files or in-memory OLTP objects targeting General Purpose tier)
 - Make sure that you are restoring a database from public blob storage protected with SAS credential. Private IPs for blob storage and service endpoints are currently not supported.
 - Verify that you have created **CREDENTIAL** with the name equal to the URL of the blob storage where you want to backup your database
 - Try to run **RESTORE FILELISTONLY** statement and check would Managed Instance return a list of the files in the backup
