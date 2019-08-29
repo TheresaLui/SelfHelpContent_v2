@@ -29,9 +29,11 @@ We have identified that the backup operation failed for the managed disk VM.
 To resolve this issue, perform the below:
 
 For Windows VM :
+
 - Restart the Windows Guest Agent service and retry the backup operation.
 - [Ensure the Windows Guest Agent version is latest](https://aka.ms/AB-update-windows-guest-agent)
 	
 For Linux VM :
+
 - Restart the Linux Guest Agent service and retry the backup operation.
 - [Ensure the Linux Guest Agent version is latest](https://aka.ms/AB-AA4ecq9)
