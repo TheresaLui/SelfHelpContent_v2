@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Performance and Query Execution\Unexpected increase in resource consumption",
+    "title": "Performance and Query Execution\\Unexpected increase in resource consumption",
     "fileAttachmentHint": "",
     "formElements": [
         {
