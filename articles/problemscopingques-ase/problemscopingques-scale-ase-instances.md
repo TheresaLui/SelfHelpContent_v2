@@ -27,7 +27,7 @@
 		},
 			{
 			"id": "2",
-			"order": 3,
+			"order": 2	,
 			"controlType": "textbox",
 			"displayLabel": "What is the name of the ASE?",
 			"watermarkText": "...",
@@ -58,8 +58,8 @@
 			"required": false
 		},
 		{
-			"id": "4",
-			"order": 4,
+			"id": "5",
+			"order":5,
 			"controlType": "textbox",
 			"displayLabel": "Are you aware of any recent changes to ASE or the environment, including Azure Networking? If so, please describe what and when.",
 			"watermarkText": "...",
@@ -67,7 +67,7 @@
 		},
 		{
 			"id": "problem_description",
-			"order": 5,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your incident including any error messages you are seeing.",
