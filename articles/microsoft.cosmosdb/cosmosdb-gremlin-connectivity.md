@@ -11,13 +11,13 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-connectivity"
-	displayOrder="180"
+	displayOrder="188"
 	category="Gremlin (Graph)"
 />
 
 # Connectivity Issues
 
-Gremlin client drivers are designed to work with individual servers and assume  a single host represents a single server. When they encounter connectivity issues they mark the server as unavailable internally. This behavior presents a problem for Cosmos DB Graph database because behind a single host name youraccount.gremlin.cosmos.azure.com there is a virtual IP address of a load balancer that routes traffic within a cluster of computers. Connectivity failure to a single node in the cluster should not render entire VIP unavailable, but it does, for Gremlin client drivers.
+Open source Gremlin client drivers were initially designed to connect with individual servers. When they encounter a connectivity issues they mark the server as unavailable internally. This behavior presents a problem for Cosmos DB Graph database because behind a single host name youraccount.gremlin.cosmos.azure.com there is a virtual IP address of a load balancer that routes traffic within a cluster of computers. Connectivity failure to a single node in the cluster should not render entire VIP unavailable, but it does, for Gremlin client drivers.
 
 Common manifestations of this problem are:
 
@@ -35,7 +35,7 @@ Connections to Cosmos DB Graph can be terminated under following conditions:
 
 ## **Recommended Steps**
 
-Whenever client application encounters connection failure the right course of action is to retry. At no point in time entire Cosmos DB Graph cluster is down so retrying a failed connection is the recommended action.
+Whenever client application encounters connection failure the right course of action is to retry. At no point in time is the entire Cosmos DB Graph cluster down so retrying a failed connection is the recommended action.
 
 For **Java** clients, there is a way to override default retry strategy with a custom strategy that does not invalidate entire host when a single connection to the host fails. It is recommended for customers to include this retry strategy in their applications.
 
