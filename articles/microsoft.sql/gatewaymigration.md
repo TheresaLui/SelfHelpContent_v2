@@ -26,7 +26,8 @@ For further information, please refer to the documentation present in the link b
 
 ## **Recommended Steps**
 
-* Try connecting to the database after sometime or please add some type of retry logic to your application code.
+* Retry connecting to the database after a few minutes
+* Add some type of retry logic to your application code
 
 ## **Recommended Documents**
 
