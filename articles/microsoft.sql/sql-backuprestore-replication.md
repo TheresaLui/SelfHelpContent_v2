@@ -7,15 +7,17 @@
 	authors="mravikiran"
 	ms.author="mravikiran"
 	displayOrder="4"
-	articleId=""
+	articleId="Microsoft.sql.sql-backuprestore-replication"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="servers, databases"
 	productPesIds=""
 	cloudEnvironments="public"
 />
+
 # **REPLICATION**
+
 [Replication](https://docs.microsoft.com/sql/relational-databases/replication/sql-server-replication?view=sql-server-2017) is a set of technologies for copying and distributing data and database objects from one database to another and then synchronizing between databases to maintain consistency. Following recommendations are for [Transactional Replication](https://docs.microsoft.com/sql/relational-databases/replication/transactional/transactional-replication?view=sql-server-2017)
 
 ## **Recommended Steps**
@@ -48,7 +50,9 @@
 * [For monitoring Replication](https://docs.microsoft.com/sql/relational-databases/replication/monitor/monitoring-replication?view=sql-server-2017)
 
 ### Notes
+
 As an alternative to replication, you can synchronize databases by using Microsoft Sync Framework 
+
 * For detailed documentation of the Sync Framework database synchronization components, see [Synchronizing Databases](https://go.microsoft.com/fwlink/?LinkId=209079)
 * For a comparison between Sync Framework and Merge Replication, see [Synchronizing Databases Overview](https://msdn.microsoft.com/library/bb902818(SQL.110).aspx) 
 
