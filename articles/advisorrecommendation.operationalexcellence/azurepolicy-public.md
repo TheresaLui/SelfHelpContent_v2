@@ -3,7 +3,7 @@
     description="Create Azure policy recommendation"
     authors="timwong"
     ms.author="timwong"
-    articleId="c3c3299d-ee34-4610-844d-3782d691a7fe_Public"
+    articleId="84bd72c6-7596-4806-84c4-bc39fe3967f8"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
