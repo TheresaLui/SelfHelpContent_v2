@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# **REPLICATION**
+# REPLICATION
 
 [Replication](https://docs.microsoft.com/sql/relational-databases/replication/sql-server-replication?view=sql-server-2017) is a set of technologies for copying and distributing data and database objects from one database to another and then synchronizing between databases to maintain consistency. Following recommendations are for [Transactional Replication](https://docs.microsoft.com/sql/relational-databases/replication/transactional/transactional-replication?view=sql-server-2017)
 
