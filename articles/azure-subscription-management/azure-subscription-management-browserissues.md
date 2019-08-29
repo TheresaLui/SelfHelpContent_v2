@@ -20,14 +20,14 @@
 
 Note: You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
 
-## **Page hangs in the loading status**
+**Page hangs in the loading status**<br>
 If your internet browser page hangs, try each of the following steps until you can get to the Azure portal.
 
 * Refresh the page.
 * Use a different internet browser.
 * Use the private browsing mode for your browser. For Internet Explorer: Click **Tools > Safety > InPrivate Browsing**, and then browse and sign-in to the [Azure portal](https://portal.azure.com/) or [Azure account center](https://account.azure.com/Subscriptions).
 
-## **You are automatically signed in as a different user**
+**You are automatically signed in as a different user**<br>
 This issue can occur if you use more than one user account in an internet browser.To resolve the issue, try one of the following methods:
 
 * Clear the cache and delete Internet cookies. In Internet Explorer, click **Tools > Internet Options > Delete**. Make sure that the check boxes for temporary files, cookies, password, and browsing history are selected, and then click Delete.
@@ -36,7 +36,7 @@ This issue can occur if you use more than one user account in an internet browse
 
 Learn more: [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)
 
-## **Unable to access subscriptions**
+**Unable to access subscriptions**<br>
 
 * In the [Azure portal](https://portal.azure.com/), make sure that the correct Azure directory is selected from the account at the top right
 * In the [Azure Account center](https://account.windowsazure.com/Subscriptions), make sure if the account used is the account admin
