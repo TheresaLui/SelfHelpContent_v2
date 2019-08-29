@@ -21,25 +21,22 @@ Open source Gremlin client drivers were initially designed to connect with indiv
 
 Common manifestations of this problem are:
 
-* .NET: ***Gremlin.Net.Driver.Exceptions.ServerUnavailableException:** No connection to the server available which most likely means that the server is completely unavailable.*
-
-* .Java: ***TimeoutException:** Timed-out waiting for connection on youraccount.gremlin.cosmos.azure.com - possibly unavailable"*
+* .NET: **Gremlin.Net.Driver.Exceptions.ServerUnavailableException:** No connection to the server available which most likely means that the server is completely unavailable
+* .Java: **TimeoutException:** Timed-out waiting for connection on youraccount.gremlin.cosmos.azure.com - possibly unavailable"
 
 Connections to Cosmos DB Graph can be terminated under following conditions:
 
 * Connection was idle for over an hour and there was no traffic on it other than keep-alive messages. To reclaim resources Cosmos DB will close such connections.
-
 * Upgrade of Cosmos DB Graph database. Upgrade is rolling through the cluster and customer may experience intermittent connection failures as nodes are shut down and brought back up.
-
-* Firewall rule, IP filter or VNET configuration on account was changed. In this event Cosmos DB Graph will terminate connections that are no longer allowed under new configuration
+* Firewall rule, IP filter or VNET configuration on account was changed. In this event Cosmos DB Graph will terminate connections that are no longer allowed under new configuration.
 
 ## **Recommended Steps**
 
 Whenever client application encounters connection failure the right course of action is to retry. At no point in time is the entire Cosmos DB Graph cluster down so retrying a failed connection is the recommended action.
 
-For **Java** clients it is recommended to override the default retry strategy with a custom one. This custom strategy should avoid invalidating a host when a single connection fails.
+For **Java** clients, it is recommended to override the default retry strategy with a custom one. This custom strategy should avoid invalidating a host when a single connection fails.
 
-```Java
+```
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Random;
@@ -125,7 +122,7 @@ final class StickyLoadBalancingStrategy implements LoadBalancingStrategy {
 
 To use sticky strategy please include the following snippet into your source code:
 
-```Java
+```
 Cluster.Builder builder = Cluster.build();
 
 //
