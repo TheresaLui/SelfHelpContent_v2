@@ -18,21 +18,23 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-We determined that the HDInsight HBase cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has regions not available. Region offline could be due to multiple reasons. Potential cause here could be several regions are "in transition" for a long time, as can be seen from HMaster UI and are actually offline. Due to sheer number of regions that are attempting to transition, HMaster times out and is unable to bring online these offline regions. 
+We determined that the HDInsight HBase cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has regions unavailable. Region offline could be due to multiple reasons. Potential cause here could be several regions are "in transition" for a long time, as can be seen from HMaster UI and are actually offline. Due to sheer number of regions that are attempting to transition, HMaster times out and is unable to bring online these offline regions. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-1. First, attempt to fix by running `hbase hbck -fixAssignments -ignorePreCheckPermission`, if this doesn't work look below.
 
-2. *(BETA)* Following script is developed to fix the issue and verify the fix. Please attempt this method first, before trying next steps or calling SME. Feedback on the experience and possible enhancements would be appreciated.
-    - If you have ssh access to the cluster, please download this script via 
-            `sudo wget: https://raw.githubusercontent.com/Azure/hbase-utils/master/scripts/clearregionintransitionznode.sh `
-    - Execute script as 
-            `sudo bash clearregionintransitionznode.sh`
+1. First, attempt to fix by running `hbase hbck -fixAssignments -ignorePreCheckPermission`
+2. *(BETA)* Following script is developed to fix the issue and verify the fix. Please attempt this method first, before trying next steps or calling SME: 
+    
+    * If you have ssh access to the cluster, download this script with `sudo wget: https://raw.githubusercontent.com/Azure/hbase-utils/master/scripts/clearregionintransitionznode.sh `
+    * Execute the script with `sudo bash clearregionintransitionznode.sh`
+    * Feedback on the experience and possible enhancements would be appreciated
 
 3. Following below steps if above fails:
+
     - Run `hbase zkcli`
     - `rmr /hbase/regions-in-transition` (or `rmr /hbase-unsecure/regions-in-transition`)
     - Exit `hbase zkcli`
     - Restart Active HMaster from Ambari
     - Run `hbase hbck` again to check issue is fixed
+    
