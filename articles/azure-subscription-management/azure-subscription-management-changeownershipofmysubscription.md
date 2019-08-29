@@ -41,21 +41,20 @@ Learn more: [Transfer Ownership of Subscription](https://docs.microsoft.com/azu
 * [Troubleshoot Transfer ownership issues](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#troubleshooting)
 
 
-**Subscription Ownership Transfer prerequisites:** <br>
+**Subscription Ownership Transfer prerequisites:** 
 
-* Approval Email from Source Account Holder and Destination Account Holder confirming they accept this subscription ownership transfer
-* The Account and its subscriptions must continue to be "consumed" in the same country
-* If you are Azure customer from Australia/New Zealand, you cannot migrate subscription outside of your Region, nor can any Account/Subscription be migrated into your region
-* The destination subscription must have a valid payment instrument <br>
-* If transferring Subscription Ownership to a different tenant than the original, the new Account Admin will also be the new Service Admin
-* We cannot perform Subscription Ownership Transfer if the subscription has charges already in dunning, Delay Write-off, or Write-off on the source account. You need to pay the charges before we perform the Subscription Ownership Transfer.
-* There is no loss of data and downtime, however, AAD services will be affected and you will need to move those services on your own. The list of services can be found [here](https://docs.microsoft.com/azure/active-directory/active-directory-apps-index).<br>
-* If Subscription has Invoice Mode of Payment as Payment method, you cannot proceed with Subscription Ownership Transfer
-* All Subscription admins and Co-admins get changed to the Destination Account Owner, depending upon tenant. If we transfer the subscription to another tenant, the new AA will also become the new SA and the Co-admins will be lost.<br>
-* All Subscription admins and Co-admins get changed to the Destination Account Owner, depending upon tenant. If we transfer the subscription to another tenant, the new AA will also become the new SA and the Co-admins will be lost.
-* All billing history will be lost for Source Subscription. Please backup the billing invoices and usage history if required.<br>
-* If the subscription is transferred with an existing unpaid balance from the current billing cycle, the pending balance will be transferred to the new Subscription owner
-* If we are transferring the subscription from one tenant to another tenant (from one organization to another organization) then the Co-admins from the Source Subscription will not be transferred
+1. Transferring a subscription to an account in the same Azure Active Directory tenant have no impact to the resources running in the subscription. However, if subscription is transferred to an account in another tenant, all users, groups, and service principals who had [role based access (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) to manage resources in the subscription lose their access.
+2. All resources like Virtual Machines, disks, and websites transfer to the new account successfully. Following resources could be affected in a cross-tenant subscription transfer.<br>
+
+   * **Azure AD Domain Services**
+   * [Azure Key Vaults](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+   * [SQL related users and databases](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure) could be impacted, especially if the customer uses an Azure Active Directory related authentication.
+   * **App Services** configured with Azure Active Directory authentication could be impacted.
+   * **Visual Studio Team** Services accounts connected to Azure subscriptions may temporarily lose access when the connected Azure subscription is cancelled.
+  
+3. Subscription Transfer with an existing outstanding amount from the current billing cycle will not be transferred to the new payment instrument in the new account. The only information available to the users in new account is the last month's cost for your subscription. The rest of the usage and billing history does not transfer with the subscription.
+4. Transfer billing ownership of Enterprise Agreement (EA) subscriptions is currently supported in the Enterprise Agreement Portal only.
+5. Transferring a credit-oriented subscription like Visual Studio, BizSpark, Microsoft Partner Network to a new user requires to have a Visual Studio / Microsoft partner network license to accept the transfer request.
 
 ### **Add/Change Azure subscription administrators**
 
