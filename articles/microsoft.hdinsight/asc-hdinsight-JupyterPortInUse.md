@@ -1,0 +1,42 @@
+<properties
+    pageTitle="HDInsight Jupyter service is down in headnode in ambari page"
+    description="Jupyter service is down in headnode(hn0) in ambari page or Jupytor 500 error - The port is already in use"
+    infoBubbleText="Found recent service is down in in ambari. See details on the right."
+    service="microsoft.hdinsight"
+    resource="clusters"
+    authors="Sainath"
+    ms.author="v-samaly"
+    displayOrder=""
+    articleId="HDI_JupyterPortInUse"
+    diagnosticScenario="HDInsightJupyterPortAlreadyInUseInsight"
+    selfHelpType="rca"
+    supportTopicIds="32636430"
+    resourceTags=""
+    productPesIds="15078"
+    cloudEnvironments="public"
+/>
+
+# We ran diagnostics on your resource and found the following issue
+
+Jupyter service for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is down.
+
+## **Recommended Steps**
+
+The default port for Jupyter notebook in HDI is 8001
+
+Directory 'var/run/jupyter/' should exist in headnode0 (hn0) and it is supposed to contain a file jupyter.pid which is created by OS to store the pid for jupyter, and gets deleted when process dies. 
+
+	1. Check if "var/run/jupyter/" exist.
+	2. If yes, delete the file jupyter.pid
+	   If no, create this folder and run the below command to change its ownership to root:
+		`sudo chown /run/jupyter spark:root`
+	3. Kill the process listening on port 8001 using the below command (assuming 18816 is the process taking port 8001):
+		`sudo kill -9 18816`
+	4. To know the process taking port 8001, you can use the below command.
+		`netstat -tlup | grep 8001`
+	5. Restart the jupyter.
+	
+
+## **Recommended Documents**
+
+* [HDInsight Jupyter service is down in headnode in ambari page](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki?pagePath=%2FWIKI%2FTSGs%2FSpark%2FNotebooks%2FJupyter%2FJupyter%20The%20port%208001%20is%20already%20in%20use%20trying%20another%20port&pageId=4539&wikiVersion=GBwikiMaster)
