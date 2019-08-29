@@ -37,9 +37,9 @@
 	"recommendationTimeToLive": 86400,
 	"version": 2.0,
 	"learnMoreLink": "https://aka.ms/azurepolicy",
-	"description": "Configure azure policy over your Azure resources to stay compliant with your coporate standards and service level agreements.",
+	"description": "Configure azure policy over your Azure resources",
 	"longDescription": "Configure azure policy over your Azure resources to stay compliant with your coporate standards and service level agreements.",
-	"potentialBenefits": "Stay compliant with your coporate standards and service level agreements.",
+	"potentialBenefits": "Stay compliant with your coporate standards and service level agreements",
 	"actions": [
 		{
 			"actionId": "e10b9c32-5af9-40cd-9b04-caca22bad08d",
@@ -59,7 +59,7 @@
 	},
 	"displayLabel": "Configure Azure policy",
 	"additionalColumns": [],
-	"tip": "",
+	"tip": "You can configure Azure policy to enforce rules over your resources to stay complaint.",
 	"testData": "36d32aaa-efe0-454b-9326-e5547b655dba,/subscriptions/36d32aaa-efe0-454b-9326-e5547b655dba"
 }
 ---
