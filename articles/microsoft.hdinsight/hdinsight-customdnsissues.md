@@ -17,11 +17,11 @@
 
 ## **Recommended Steps**
 
-### Custom Script Actions
+**Custom Script Actions**
 
 Microsoft support teams can only address issues that occur when loading the script. Any errors during the execution of custom scripts is outside the scope of a support ticket. Please use our forums or other channels for troubleshooting errors which occur during the execution of custom scripts.
 
-### Adding an additional service to an existing cluster
+**Adding an additional service to an existing cluster**
 
 Microsoft can only support additional applications that are part the cluster creation process. For any additional applications/services outside of the cluster creation process, please contact that application/service provider for support.
 
@@ -29,11 +29,11 @@ For a list of supported components, see [What are the Apache Hadoop components a
 
 **Note**: Support for individual components can also vary by cluster type. For example, Spark is not supported on a Kafka cluster and vice-versa.
 
-### Adding/Deleting edge nodes
+**Adding/Deleting edge nodes**
 
 You can add an existing HDInsight cluster's empty edge node to a new cluster when you create the cluster. For more information, see [Use empty edge nodes on Apache Hadoop clusters in HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-apps-use-edge-node).
 
-### Connecting HDInsight to your on-premise network
+**Connecting HDInsight to your on-premise network**
 
 If your error description contains **HostName Resolution failed**, this error points to a problem with the custom DNS configuration. DNS servers within a virtual network, can forward DNS queries to Azure’s recursive resolvers, to resolve host names within that virtual network. See [Name Resolution in Virtual Networks](https://docs.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances) for details.
 
@@ -41,10 +41,10 @@ Access to Azure’s recursive resolvers is provided via the virtual IP **168.63.
 
 For the steps to resolve this issue, see [ErrorDescription contains 'HostName Resolution failed'](https://hdinsight.github.io/ClusterCRUD/hdinsight-vnet#1-errordescription-contains-hostname-resolution-failed).
 
-### HDInsight does not use private dns zone names for cluster setup
+**HDInsight does not use private dns zone names for cluster setup**
 
 You must create and configure the DNS server before installing HDInsight in the virtual network. For more information see [Create custom DNS server](https://docs.microsoft.com/azure/hdinsight/connect-on-premises-network#create-custom-dns-server)
 
-## Additional Information
+**Additional Information**
 
 If you are having technical issues with cluster creation, select **Create** instead of **Other Customization**. Also, if you are running into issues while trying to scale a cluster, please select **Scale** instead of **Other Customization**. Both **Create** and **Scale** will provide better solutions and applicable diagnostics.
