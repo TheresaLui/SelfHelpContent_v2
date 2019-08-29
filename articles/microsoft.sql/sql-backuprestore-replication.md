@@ -54,5 +54,5 @@
 As an alternative to replication, you can synchronize databases by using Microsoft Sync Framework 
 
 * For detailed documentation of the Sync Framework database synchronization components, see [Synchronizing Databases](https://go.microsoft.com/fwlink/?LinkId=209079)
-* For a comparison between Sync Framework and Merge Replication, see [Synchronizing Databases Overview](https://msdn.microsoft.com/library/bb902818(SQL.110).aspx) 
+* For a comparison between Sync Framework and Merge Replication, see [Synchronizing Databases Overview](https://msdn.microsoft.com/library/bb902818\(v=SQL.110\).aspx) 
 
