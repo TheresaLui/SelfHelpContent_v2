@@ -16,7 +16,9 @@
 
 # General Guidance and Advisory
 
-If you are seeking assistance specific to configuration, connectivity, WAF or performance issues, please choose the appropriate topic. If you have general product related questions and feature requests, please find a few recommended documents below that might help.
+If you are seeking assistance specific to Configuration and Setup, Connectivity, Performance, Routing or Web Application Firewall (WAF) related issues, please navigate back to **Basics** tab and select the relevant **Problem type**. 
+
+If you have general product related questions and feature requests, please find a few recommended documents below that might help.
 
 ## **Recommended Documents**
 

@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="markjbrown"
 	ms.author="mjbrown"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32675640"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-throttling"
+	displayOrder="241"
+	category="Throughput and Scaling"
 />
 
 # Rate limiting in Azure Cosmos DB

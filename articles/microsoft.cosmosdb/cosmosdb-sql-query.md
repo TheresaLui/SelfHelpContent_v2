@@ -6,11 +6,13 @@
 	authors="ginamr"
 	ms.author="girobins"
 	selfHelpType="generic"
-	supportTopicIds="32636818, 32636821"
+	supportTopicIds="32636818, 32636821, 32681012"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-sql-query"
+	displayOrder="65"
+	category="Core (SQL)"
 />
 
 # SQL queries for Azure Cosmos DB

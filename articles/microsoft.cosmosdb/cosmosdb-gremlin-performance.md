@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32675635"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-performance"
+	displayOrder="184"
+	category="Gremlin (Graph)"
 />
 # Gremlin - Performance
 

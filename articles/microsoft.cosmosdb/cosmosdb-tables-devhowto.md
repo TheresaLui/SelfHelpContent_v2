@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636750"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"	
 	articleId="cosmosdb-tables-devhowto"
+	displayOrder="300"
+	category="Azure Table"
 />
 
 # How to develop applications with Azure Cosmos DB Table API

@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Request Timeout"
-	description="Request Timeout"
+	description="Troubleshoot CosmosDB Request Timeout issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="markjbrown"
 	ms.author="mjbrown"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636823"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-admin-requesttimeout"
+	displayOrder="23"
+	category="Administration"
 />
 
 # Timeouts in Cosmos DB

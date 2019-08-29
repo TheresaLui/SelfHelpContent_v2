@@ -16,9 +16,13 @@
 
 ## **Recommended Steps**  
 
-### **My Azure Migrate project creation fails with a deployment failed error**  
+### **My Azure Migrate project creation fails**  
 
-You can usually retry to fix this error. Click on the job notification for the failed deployment, navigate to "Deployments", and click on "Re-deploy" to re-trigger the creation of the project and addition of the selected tools. This should solve the issue.
+You can usually retry to fix this error. Click on the job notification for the failed deployment, navigate to "Deployments", and click on "Re-deploy" to re-trigger the creation of the project and addition of the selected tools. If a re-deploy does not solve the issue, make sure that your account has "Owner" or "Contributor" permissions for the subscription or resource group where you wish to create the migrate project. This should solve the issue.
+
+### **Not able to select the geography to create my migrate project**
+If you are not able to see and choose a geography where Azure Migrate was deployed recently, wait for up to 15-20 mins and retry project creation. 
+Azure Migrate is deployed in these [geographies](https://aka.ms/migrate/self-help/geographies-for-migrate-project). 
 
 ### **I want to create a new project in a different geography and add tools to it**  
   

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="IP filter"
-  	description="Troubleshoot firewall connectivity issues"
+  	description="Troubleshoot CosmosDB firewall connectivity issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
@@ -11,7 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-ipfilter"
-	displayOrder="1"
+	displayOrder="25"
+	category="Administration"
 />
 
 # Connecting to Azure Cosmos DB accounts

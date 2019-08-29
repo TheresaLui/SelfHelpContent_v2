@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32675637"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-systemproperties"
+	displayOrder="186"
+	category="Gremlin (Graph)"
 />
 # Gremlin - System Cosmos DB Properties
 

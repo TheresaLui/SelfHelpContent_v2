@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32675632"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-getstarted"
+	displayOrder="180"
+	category="Gremlin (Graph)"
 />
 
 # Getting Started with Gremlin
@@ -33,7 +35,7 @@ To access Gremlin account from an application please use one of the recommended 
 
 1. [Gremlin.Net](https://www.nuget.org/packages/Gremlin.Net) for .NET applications:
 
-```C#
+```
 using (GremlinServer server = new GremlinServer("<account fully qualified domain name>", 443, true, $"/dbs/{<database name/colls/{<graph or collection name>}", $"{<account key>}"))
 using (GremlinClient client = new GremlinClient(server, new GraphSON2Reader(), new GraphSON2Writer(), GremlinClient.GraphSON2MimeType))
 {
@@ -43,7 +45,7 @@ using (GremlinClient client = new GremlinClient(server, new GraphSON2Reader(), n
 
 2. [TinkerPop Gremlin Java Client](https://mvnrepository.com/artifact/com.tinkerpop.gremlin/gremlin-java):
 
-```Java
+```
 Cluster.Builder builder = Cluster.build();
 builder.addContactPoint(<account fully qualified domain name>);
 builder.port(443);
@@ -72,7 +74,7 @@ List<Result> results = resultSet.all().get();
 
 3. [Node.js](https://www.npmjs.com/package/gremlin):
 
-```js
+```
 'use strict';
 var gremlin = require("gremlin");
 
@@ -94,7 +96,7 @@ client.execute("g.V().drop()", {}, (err, results) => {
 
 4. [Python](https://pypi.org/project/gremlinpython/):
 
-```Python
+```
 from gremlin_python.driver import client, serializer
 
 	client = client.Client('wss://<fully qualified account name>:443/', 'g',

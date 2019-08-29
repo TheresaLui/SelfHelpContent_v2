@@ -26,7 +26,6 @@
 * Check your permissions. Your SQL DW user needs to have CONTROL permissions to create an external table from SQL DW:
 
 ```
-T-SQL
     SELECT users.[name], perm.state_desc, perm.permission_name
     FROM sys.database_permissions perm
     JOIN sys.database_principals users ON perm.grantee_principal_id = users.principal_id
@@ -34,6 +33,12 @@ T-SQL
 ```
 
 * Check to see if you have spaces in the column names of the table in SQL DW.  Spaces in column names are not supported.  Consider renaming the column removing spaces or use the query option using an alias for column names.
+
+```
+    SELECT [My Column Name] AS MyColumnName
+    FROM <table>
+````
+
 * [Use the appropriate resource class and service level](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL Data Warehouse increases the numbers of readers and writers for parallelism.
 
 ## **Recommended Documents**

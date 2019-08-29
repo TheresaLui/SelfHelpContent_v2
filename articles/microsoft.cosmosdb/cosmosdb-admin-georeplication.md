@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Geo-replication with Cosmos DB"
-	description="Geo-replication with Cosmos DB"
+	description="Troubleshoot CosmosDB Geo-replication related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="markjbrown"
 	ms.author="mjbrown"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636794"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-admin-georeplication"
+	displayOrder="22"
+	category="Administration"
 />
 
 # Testing business continuity during regional failures
