@@ -15,6 +15,7 @@
 {
 	"resourceRequired": false,
 	"subscriptionRequired": true,
+	"$schema": "SelfHelpContent",
 	"title": "Restoring an Accidently Deleted Domain",
 	"fileAttachmentHint": "Please attach any relevant logs and screenshots",
 	"formElements": [{
@@ -57,7 +58,6 @@
 			"required": true,
 			"useAsAdditionalDetails": true
 		}
-	],
-	"$schema": "SelfHelpContent"
+	]
 }
 ---

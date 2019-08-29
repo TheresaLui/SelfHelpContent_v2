@@ -13,6 +13,8 @@
 # Developer Portal down or is not responding
 ---
 {
+	"subscriptionRequired": true,
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"title": "Cannot sign in to Developer Portal",
 	"fileAttachmentHint": "Please attach any relevant logs/screenshots as well as the ARM deployment template",

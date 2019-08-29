@@ -13,6 +13,8 @@
 # Managed Service Identity (MSI) and KeyVault
 ---
 {
+	"subscriptionRequired": true,
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"title": "Managed Service Identity (MSI) and KeyVault",
 	"fileAttachmentHint": "Please attach any relevant logs/screenshots",

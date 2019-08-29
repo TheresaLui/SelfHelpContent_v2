@@ -13,6 +13,8 @@
 # Importing API (OpenAPI, WSDL, WADL)
 ---
 {
+	"subscriptionRequired": true,
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"title": "Importing API (OpenAPI, WSDL, WADL)",
 	"fileAttachmentHint": "Please attach any relevant logs/screenshots",

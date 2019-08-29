@@ -13,6 +13,8 @@
 # Importing API (Logic, API or Function Apps)
 ---
 {
+	"subscriptionRequired": true,
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"title": "Importing API (Logic, API or Function Apps)",
 	"fileAttachmentHint": "Please attach any relevant logs/screenshots",

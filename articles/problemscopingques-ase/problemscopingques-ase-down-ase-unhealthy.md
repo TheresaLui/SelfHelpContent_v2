@@ -13,6 +13,8 @@
 # Cannot sign in to Developer Portal
 ---
 {
+	"subscriptionRequired": true,
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"title": "Cannot sign in to Developer Portal",
 	"fileAttachmentHint": "Please attach any relevant logs/screenshots",
