@@ -29,8 +29,8 @@ We have identified that your backup operation failed due network connectivity or
 ## **Recommended Steps**
 To resolve this issue, perform the below:
 
-- Retry the operation to resolve transient network issues. 
-- Ensure the VM is connected to Internet and firewall, NSG, VPN or proxy server settings that are configured correctly to allow outbound communication with Azure Storage and Azure Backup endpoints as mentioned in this [article](https://aka.ms/AB-AA4dp5t).
+- Retry the operation to resolve transient network issues
+- Ensure the VM is connected to Internet and firewall, NSG, VPN or proxy server settings that are configured correctly to allow outbound communication with Azure Storage and Azure Backup endpoints as mentioned in this [article](https://docs.microsoft.com/azure/backup/backup-sql-server-database-azure-vms#establish-network-connectivity)
 
 
 
