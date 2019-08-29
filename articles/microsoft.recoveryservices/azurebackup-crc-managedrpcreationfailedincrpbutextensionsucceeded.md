@@ -1,7 +1,7 @@
 <properties
     pageTitle="ManagedRPCreationFailedInCrpButExtensionSucceeded"
     description="ManagedRPCreationFailedInCrpButExtensionSucceeded"
-    infoBubbleText="We have identified that the backup operation failed for the managed disk VM"
+    infoBubbleText="Backup operation failed for managed disk VM"
     service="microsoft.recoveryservices"
     resource="backup"
     authors="srinathvasireddy"
