@@ -18,16 +18,16 @@
 
 If you have an individual subscription with [pay-as-you-go](https://azure.microsoft.com/offers/ms-azr-0003p/), you can switch your Azure subscription to another offer in the [Account Center](https://account.windowsazure.com/Subscriptions). For example, you can use this feature to take advantage of the [monthly credits for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/).<br>
 
-To upgrade from Free Trial, refer [upgrade you subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription).<br>
+To upgrade from Free Trial, refer [upgrade your subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription).<br>
 
 Supported Subscriptions:  You can switch from an individual subscription with pay-as-you-go rates to:
 
 * [Pay-As-You-Go Dev/Test](https://azure.microsoft.com/offers/ms-azr-0023p/)
 * [Visual Studio Professional](https://azure.microsoft.com/offers/ms-azr-0059p/)
-* [Visual Studio Test Professinal](https://azure.microsoft.com/offers/ms-azr-0060p/)
+* [Visual Studio Test Professional](https://azure.microsoft.com/offers/ms-azr-0060p/)
 * [MSDN Platforms](https://azure.microsoft.com/offers/ms-azr-0062p/)
 * [Visual Studio Enterprise](https://azure.microsoft.com/offers/ms-azr-0063p/)
-* [Visual Studio Enterprise (Bizspark)](https://azure.microsoft.com/offers/ms-azr-0064p/)
+* [Visual Studio Enterprise (BizSpark)](https://azure.microsoft.com/offers/ms-azr-0064p/)
 
 Learn more: [Switch Azure subscription offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
 
