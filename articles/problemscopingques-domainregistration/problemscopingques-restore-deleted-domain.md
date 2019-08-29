@@ -11,6 +11,7 @@
 	articleId="problemscopingques-restore-deleted-domain"
 />
 # Restoring an Accidently Deleted Domain
+---
 {
 	"resourceRequired": false,
 	"subscriptionRequired": true,
@@ -59,3 +60,4 @@
 	],
 	"$schema": "SelfHelpContent"
 }
+---
