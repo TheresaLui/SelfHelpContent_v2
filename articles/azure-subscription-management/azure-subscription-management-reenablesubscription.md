@@ -14,18 +14,18 @@
 	articleId="reenablesubscriptions"
 />
 
-# Reenable Subscription
+# Re enable Subscription
 
-Your Azure subscription can get disabled because your credit has expired, you reached your spending limit, have an overdue bill, hit your credit card limit, or because the subscription was canceled by the Account Administrator. Refer below on how you can re-enable your subscription 
+Your Azure subscription can get disabled because your credit has expired, you reached your spending limit, have an overdue bill, hit your credit card limit, or because the subscription was cancelled by the Account Administrator. Refer below on how you can re-enable your subscription 
 Learn more: [Reactivate Azure subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
 
 ## **Recommended Steps**
 
-**Re-enable your Azure Subscription (subscription was accidentally canceled)** <br>
-The [Account Administrator](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) can reactivate a canceled Pay-As-You-Go subscription in the Account Center
+**Re-enable your Azure Subscription (subscription was accidentally cancelled)** <br>
+The [Account Administrator](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) can reactivate a cancelled Pay-As-You-Go subscription in the Account Center
 
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions)
-2. Select the canceled subscription. Click **Reactivate**
+2. Select the cancelled subscription. Click **Reactivate**
 3. For other subscription types, [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade) to have your subscription reactivated
 
 ### **Expired credit card**
@@ -60,6 +60,6 @@ Example:
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
 * [Migrate resources between accounts/subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 * [Add/Manage admins and co-admins](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
-* Locate the [Account Admin ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
+* Locate the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
 * [What do I do if my Azure subscription becomes disabled? ](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable/)
 * [Getting started - spending limit](https://docs.microsoft.com/azure/billing/billing-getting-started#spending-limit)
