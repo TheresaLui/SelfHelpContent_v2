@@ -37,21 +37,20 @@ Learn more: [Transfer Ownership of Subscription](https://docs.microsoft.com/azu
    * [Transferring Visual Studio, Microsoft Partner Network (MPN) and Pay as you go Dev/Test subscriptions](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#transferring-visual-studio-microsoft-partner-network-mpn-and-pay-as-you-go-devtest-subscriptions)
    * [Transfer billing ownership of Enterprise Agreement (EA) subscriptions](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#transfer-billing-ownership-of-enterprise-agreement-ea-subscriptions)
 
-* [Transfer Ownership FAQ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#frequently-asked-questions-faq-for-senders)
-* [Troubleshoot Transfer ownership issues](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#troubleshooting)
-
+[Transfer Ownership FAQ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#frequently-asked-questions-faq-for-senders)<br>
+[Troubleshoot Transfer ownership issues](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#troubleshooting)
 
 **Subscription Ownership Transfer prerequisites:**
 
 * Transferring a subscription to an account in the same Azure Active Directory tenant have no impact to the resources running in the subscription. However, if subscription is transferred to an account in another tenant, all users, groups, and service principals who had [role based access (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) to manage resources in the subscription lose their access.
-* All resources like Virtual Machines, disks, and websites transfer to the new account successfully. Following resources could be affected in a cross-tenant subscription transfer.
+* All resources like Virtual Machines, disks, and websites transfer to the new account successfully. Following resources could be affected in a cross-tenant subscription transfer
 
-  * **Azure AD Domain Services**
-  * [Azure Key Vaults](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
-  * [SQL related users and databases](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure) could be impacted, especially if the customer uses an Azure Active Directory related authentication.
-  * **App Services** configured with Azure Active Directory authentication could be impacted.
-  * **Visual Studio Team** Services accounts connected to Azure subscriptions may temporarily lose access when the connected Azure subscription is cancelled.
-  
+   * **Azure AD Domain Services**
+   * [Azure Key Vaults](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+   * [SQL related users and databases](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure) could be impacted, especially if the customer uses an Azure Active Directory related authentication.
+   * **App Services** configured with Azure Active Directory authentication could be impacted.
+   * **Visual Studio Team** Services accounts connected to Azure subscriptions may temporarily lose access when the connected Azure subscription is cancelled.
+   
 * Subscription Transfer with an existing outstanding amount from the current billing cycle will not be transferred to the new payment instrument in the new account. The only information available to the users in new account is the last month's cost for your subscription. The rest of the usage and billing history does not transfer with the subscription.
 * Transfer billing ownership of Enterprise Agreement (EA) subscriptions is currently supported in the Enterprise Agreement Portal only.
 * Transferring a credit-oriented subscription like Visual Studio, BizSpark, Microsoft Partner Network to a new user requires to have a Visual Studio / Microsoft partner network license to accept the transfer request.
