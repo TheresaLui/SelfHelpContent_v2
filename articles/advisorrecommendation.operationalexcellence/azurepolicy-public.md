@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Create Azure policy recommendation"
-    description="Create Azure policy recommendation"
+    pageTitle="Create Azure Policy recommendation"
+    description="Create Azure Policy recommendation"
     authors="timwong"
     ms.author="timwong"
     articleId="84bd72c6-7596-4806-84c4-bc39fe3967f8"
@@ -37,13 +37,13 @@
 	"recommendationTimeToLive": 86400,
 	"version": 2.0,
 	"learnMoreLink": "https://aka.ms/azurepolicy",
-	"description": "Configure azure policy over your Azure resources",
-	"longDescription": "Configure azure policy over your Azure resources to stay compliant with your coporate standards and service level agreements.",
+	"description": "Configure Azure Policy over your Azure resources",
+	"longDescription": "Configure Azure Policy over your Azure resources to stay compliant with your coporate standards and service level agreements.",
 	"potentialBenefits": "Stay compliant with your coporate standards and service level agreements",
 	"actions": [
 		{
 			"actionId": "e10b9c32-5af9-40cd-9b04-caca22bad08d",
-			"description": "Create Azure policy",
+			"description": "Create Azure Policy",
 			"actionType": "Document",
 			"documentLink": "https://aka.ms/azurepolicy"
 		}
@@ -57,9 +57,9 @@
 			"metadata": { "id": "{resourceId}" }
 		}
 	},
-	"displayLabel": "Configure Azure policy",
+	"displayLabel": "Configure Azure Policy",
 	"additionalColumns": [],
-	"tip": "You can configure Azure policy to enforce rules over your resources to stay complaint.",
+	"tip": "You can configure Azure Policy to enforce rules over your resources to stay complaint.",
 	"testData": "36d32aaa-efe0-454b-9326-e5547b655dba,/subscriptions/36d32aaa-efe0-454b-9326-e5547b655dba"
 }
 ---
