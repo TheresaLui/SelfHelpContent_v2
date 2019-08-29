@@ -1,43 +1,51 @@
 <properties
-	articleId="dc5eae56-3f47-425c-93ee-893395c979b6"
-	pageTitle="Scoping Questions for HDInsight Create Issue"
-	description="Scoping Questions for HDInsight Create Issue"
-	authors="shravanmn, csunilkumar, lisaliu"
-	ms.author="shravan, sunilkc, lisaliu"
+	articleId="53bc517d-d719-4725-ad5f-709281c0d534"
+	pageTitle="Scoping Questions for HDInsight Create Issue related to ADLS Gen2"
+	description="Scoping Questions for HDInsight Create Issue related to ADLS Gen2"
+	authors="lisaliu"
+	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636438, 32636507, 32636444"
+	supportTopicIds="32636439"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# HDI Cluster Create Issue
+# HDI Cluster Create Issue related to ADLS Gen2
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "HDInsight CRUD Issue",
     "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
+        "diagnosticCard": {
+        "title": "HDInsight CRUD Troubleshooter",
+        "description": "HDInsight CRUD Troubleshooter can help you troubleshoot and solve your CRUD problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_end_time",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "cluster_name",
             "order": 10,
             "controlType": "textbox",
             "displayLabel": "Cluster name",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "is_new_problem",
