@@ -21,4 +21,4 @@ Azure Cosmos DB can store terabytes of data. You can perform a large-scale data 
 This article describes the challenges involved in moving large-scale data to Azure Cosmos DB and introduces you to the tool that helps with the challenges and migrates data to Azure Cosmos DB. 
 
 ## **Recommended Documents**
-[Migrate terabytes of data into Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/migrate-cosmosdb-data)
+[Migrate terabytes of data into Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/migrate-cosmosdb-data)
