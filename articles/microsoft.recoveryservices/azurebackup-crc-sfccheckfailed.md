@@ -25,5 +25,5 @@ We have identified that your backup operation failed because of system file erro
 ## **Recommended Step**
 To resolve this issue, perform the below:
 
-- Ensure there are no actions (such as a reboot) pending on the server.
-- To get the details of the failed files and to repair them, refer to this [article](https://support.microsoft.com/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system).
+- Ensure there are no actions (such as a reboot) pending on the server
+- To get the details of the failed files and to repair them, refer to this [article](https://support.microsoft.com/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)
