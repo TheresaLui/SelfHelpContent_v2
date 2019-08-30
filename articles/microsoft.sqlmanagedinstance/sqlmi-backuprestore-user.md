@@ -15,15 +15,14 @@
 />
 # Back up a managed instance database to Azure Blob Storage
 
-Managed Instance enables you to manually make a **COPY_ONLY** backups of a database to Azure Blob Storage using Transact-SQL **BACKUP TO URL** statement. These backups are not automatic managed backups (full backups every week, differential every 12 hours, and log backups every 5-10 min) that you can use to restore a database to some point of time in past within the retention period or restore accidentally deleted database. 
-
-If you are experiencing some issues with manual backup operation, the following troubleshooting steps might help you to identify the issue.
+Managed Instance enables you to manually make a **COPY_ONLY** backups of a database to Azure Blob Storage using Transact-SQL **BACKUP TO URL** statement. These backups are not automatic managed backups (full backups every week, differential every 12 hours, and log backups every 5-10 min) that you can use to restore a database to some point of time in past within the retention period or restore accidentally deleted database. If you are experiencing some issues with manual backup operation, the following troubleshooting steps might help you to identify the issue.
 
 ## **Recommended Steps**
 
-- If you are noticing that some error is returned by **BACKUP** T-SQL statement, check are you using [supported syntax in this statement](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#backup) (for example mandatory **COPY_ONLY** option).
-- If you cannot backup a database check is it protected with Transparent Data Encryption (TDE). You need to [disable TDE protection in order to take a manual backup](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Take-a-backup-of-TDE-protected-database-on-Azure-SQL-Managed/ba-p/643407#M120).
-- Verify that you have created **CREDENTIAL** with the name equal to the URL of the blob storage where you want to backup your database.
+- If you are noticing that some error is returned by **BACKUP** T-SQL statement, check are you using [supported syntax in this statement](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#backup) (for example mandatory **COPY_ONLY** option, no differential and log backups).
+- If you cannot backup a database due to error **33111 Cannot find server certificate with thumbprint ...** check is it protected with Transparent Data Encryption (TDE). You need to [disable TDE protection in order to take a manual backup](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/Take-a-backup-of-TDE-protected-database-on-Azure-SQL-Managed/ba-p/643407#M120).
+- Verify that you have created **CREDENTIAL** with the name equal to the URL of the blob storage where you want to backup your database that has at least **rw** permission in SAS token.
+- Make sre that you have valid type of Azure Storage account (for example -SkuName Standard_LRS -Kind StorageV2).
 - Script **CREDENTIAL** and backup a database from the SQL Server to Azure Blob Storage account.  
 - Check is your SAS credential placed in **SECRET** option of **CREATE CREDENTIAL** statement valid. The most common errors are leading *?* in SAS token, wrong *se* (expiry date), *st* (start date),*sp* (permission) property. 
 - Check is your database greater than 195GB and are you using in this scenario multiple URL stripes so every stripe would be less than 195 GB. Maximal backup stripe size on Azure Blob Storage can be 195 GB.
