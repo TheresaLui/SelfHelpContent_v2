@@ -72,7 +72,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Where did you already look?",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {

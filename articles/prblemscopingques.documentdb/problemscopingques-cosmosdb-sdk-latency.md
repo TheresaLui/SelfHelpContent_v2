@@ -110,7 +110,7 @@
             "order": 9,
             "controlType": "textbox",
             "displayLabel": "Provide your diagnostic log query string",
-			"infoBalloonText": "<a href='https://docs.microsoft.com/en-us/azure/cosmos-db/logging#queries'>Cosmos DB article</a> -Sample log queries",
+			"infoBalloonText": "<a href='https://docs.microsoft.com/azure/cosmos-db/logging#queries'>Cosmos DB article</a> -Sample log queries",
             "required": false
         },
         {
