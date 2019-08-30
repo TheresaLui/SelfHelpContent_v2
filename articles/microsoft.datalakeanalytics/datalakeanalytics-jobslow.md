@@ -2,7 +2,7 @@
 	pageTitle="Job started to run slow"
 	description="Job started to run slow"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay"
 	authoralias="guyhay"
 	authors="guyhay"
