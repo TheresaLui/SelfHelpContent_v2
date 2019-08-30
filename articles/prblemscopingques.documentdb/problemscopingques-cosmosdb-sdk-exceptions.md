@@ -25,6 +25,14 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
+		{
+            "id": "previous_steps",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What steps have you taken to resolve the issue?",
+			"infoBallonText": "Provide steps and include URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve",
+			"required": false
+        },
         {
             "id": "problem_description",
             "order": 9,
