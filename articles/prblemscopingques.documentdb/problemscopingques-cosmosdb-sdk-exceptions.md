@@ -28,9 +28,8 @@
         {
             "id": "previous_steps",
             "order": 2,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "What steps have you taken to resolve the issue?",
-			"useAsAdditionalDetails": true,
 			"infoBallonText": "Provide steps and include URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve",
 			"required": false
         },

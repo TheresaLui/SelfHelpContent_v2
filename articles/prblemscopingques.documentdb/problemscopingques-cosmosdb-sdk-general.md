@@ -16,7 +16,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB SDK General Questions",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Attach any related screenshots or information",
     "formElements": [
         {
             "id": "problem_start_time",
