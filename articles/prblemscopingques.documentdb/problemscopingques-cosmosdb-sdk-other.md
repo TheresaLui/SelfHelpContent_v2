@@ -49,15 +49,65 @@
             "required": false
         },
 		{
-            "id": request_pct",
+            "id": "request_pct",
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Percentage of requests observing the issue",
             "required": false
         },
+		{
+            "id": "sdk_type",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "What is the client SDK used?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": ".NET",
+                    "text": ".NET"
+                },
+                {
+                    "value": "Java",
+                    "text": "Java"
+                },
+                {
+                    "value": "Java Script or Node.js",
+                    "text": "Java Script or Node.js"
+                },
+                {
+                    "value": "Python",
+                    "text": "Python"
+                },
+                {
+                    "value": "Spring",
+                    "text": "Spring"
+                },
+                {
+                    "value": "SPARK",
+                    "text": "SPARK"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "sdk_version",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "What is your SDK Version?",
+			"infoBalloonText": "Version example (1xx, 2xx, 3xx)",
+            "required": false
+        },
+        {
+            "id": "problem_repro",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide repro steps and sample code for your issue",
+			"infoBallonText": "To expedite your issue resolution it may help to provide steps to reproduce the issue and/or sample code",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 10,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you are facing.",
             "required": true,

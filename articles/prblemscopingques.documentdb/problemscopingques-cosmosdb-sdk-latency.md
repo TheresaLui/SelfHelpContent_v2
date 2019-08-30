@@ -56,6 +56,63 @@
 			"infoBalloonText": "Read/Write regions where the issue is experienced",
             "required": false
         },
+		{
+            "id": "request_pct",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Percentage of requests observing latency",
+            "required": false
+        },
+		{
+            "id": "sdk_type",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "What is the client SDK used?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": ".NET",
+                    "text": ".NET"
+                },
+                {
+                    "value": "Java",
+                    "text": "Java"
+                },
+                {
+                    "value": "Java Script or Node.js",
+                    "text": "Java Script or Node.js"
+                },
+                {
+                    "value": "Python",
+                    "text": "Python"
+                },
+                {
+                    "value": "Spring",
+                    "text": "Spring"
+                },
+                {
+                    "value": "SPARK",
+                    "text": "SPARK"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "sdk_version",
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "What is your SDK Version?",
+			"infoBalloonText": "Version example (1xx, 2xx, 3xx)",
+            "required": false
+        },
+		{
+            "id": query_string",
+            "order": 9,
+            "controlType": "textbox",
+            "displayLabel": "Provide your diagnostic log query string",
+			"infoBalloonText": "<a href='https://docs.microsoft.com/azure/cosmos-db/logging#queries'>Cosmos DB article</a> -Sample log queries",
+            "required": false
+        },
         {
             "id": "problem_description",
             "order": 10,
