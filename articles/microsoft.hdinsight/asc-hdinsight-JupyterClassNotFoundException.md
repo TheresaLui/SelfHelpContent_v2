@@ -17,9 +17,9 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
-There is a problem in copying of the storage jars to HTTPFS classpath is failing
-
+<!--issueDescription-->
+Copying of the storage jars to HTTPFS classpath is failing
+<!--/issueDescription-->
 ## **Recommended Steps**
 
 1. SSH to headnode0 in the cluster and run these scripts/Run this using script action
@@ -36,6 +36,3 @@ cp /usr/hdp/current/hadoop-mapreduce-client/wildfly-openssl-*.jar /usr/hdp/curre
 ```
 2. Restart Jupyter
 
-## **Recommended Documents**
-
-* [HDInsight Jupyter ClassNotFoundException](https://msdata.visualstudio.com/HDInsight/_wiki/wikis/HDInsight.wiki?pagePath=%2FWIKI%2FTSGs%2FSpark%2FNotebooks%2FJupyter%2FJupyter%20500%20ClassNotFoundException&pageId=2265&wikiVersion=GBwikiMaster)
