@@ -17,13 +17,12 @@
 
 # Difficulties using Azure Data Lake Portal
 
-You can use the Azure portal to operate Azure Data Lake jobs, accounts, data sources, and users.  You must have the appropriate rights to the subscription and the Azure Dat Lake Analytics account. 
+You can use the Azure portal to operate Azure Data Lake jobs, accounts, data sources, and users.  You must have the appropriate rights to the subscription and the Azure Data Lake Analytics account. 
 You will also need appropriate rights to the Azure Data Lake Storage Gen1 to submit jobs.
 
 ## **Recommended Steps**
 
 1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
-
 
 ## **Recommended Documents**
 
