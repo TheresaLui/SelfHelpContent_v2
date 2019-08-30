@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Database isn't listed in Azure portal",
     "fileAttachmentHint": "",
     "formElements": [
