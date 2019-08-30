@@ -49,4 +49,3 @@ Directory 'var/run/jupyter/' should exist in headnode0 (hn0) and it is supposed 
 ```
 
 5. Restart the jupyter.
-	
