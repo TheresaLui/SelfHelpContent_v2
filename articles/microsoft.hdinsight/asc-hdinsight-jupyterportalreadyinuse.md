@@ -34,16 +34,13 @@ Directory 'var/run/jupyter/' should exist in headnode0 (hn0) and it is supposed 
 	```
 		sudo chown /run/jupyter spark:root
 	```
-	
 3. Kill the process listening on port 8001 using the below command (assuming 18816 is the process taking port 8001):
 	```
 		sudo kill -9 18816
-	```
-	
+	```	
 4. To know the process taking port 8001, you can use the below command.
 	```
 		netstat -tlup | grep 8001
 	```
-	
 5. Restart the jupyter.
 	
