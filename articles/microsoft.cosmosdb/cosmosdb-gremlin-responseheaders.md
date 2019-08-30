@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-gremlin-responseheaders"
-	displayOrder="185"
+	displayOrder="285"
 	category="Gremlin (Graph)"
 />
 # Gremlin - Response Headers
