@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-scalingissues"
+	articleId="533D6774-52C3-4A31-B7F3-433C56122B43"
 />
 
 # Issues Scaling a Database or Elastic Pool 

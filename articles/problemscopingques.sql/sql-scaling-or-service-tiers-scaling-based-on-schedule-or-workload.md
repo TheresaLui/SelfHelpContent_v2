@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-scaling-based-on-schedule-or-workload"
+	articleId="D3FA08A1-5FF6-4FCC-B7D9-94C7AE055296"
 />
 
 # Scaling Based on Schedule or Workload

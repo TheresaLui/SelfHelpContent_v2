@@ -4,7 +4,7 @@
 	service="microsoft.sql"
 	authors="pxding"
         ms.author="pedin"
-        articleId="4452DEB9-32C2-4510-9899-EBFDD6A69205"
+        articleId="C00BD8E2-3CA0-451D-A2E5-8BE0987A0150"
         selfHelpType="ProblemScopingQuestions"
         supportTopicIds="32630450"
         productPesIds="13491"

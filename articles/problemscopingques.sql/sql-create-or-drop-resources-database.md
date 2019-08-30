@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-createordropdatabase"
+	articleId="4AE9B6BF-D792-4068-8F4B-EA91F97D1A04"
 />
 
 # Create or Drop a Database
