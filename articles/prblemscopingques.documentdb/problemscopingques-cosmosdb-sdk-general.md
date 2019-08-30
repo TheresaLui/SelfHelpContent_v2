@@ -3,7 +3,7 @@
 	description="CosmosDB SDK General Questions"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="problemScopingQuestions" 
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636808"
 	productPesIds="15585"
 	cloudEnvironments="public"

@@ -3,7 +3,7 @@
 	description="CosmosDB SDK Performance Issues"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="problemScopingQuestions" 
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636801"
 	productPesIds="15585"
 	cloudEnvironments="public"

@@ -3,7 +3,7 @@
 	description="CosmosDB SDK Latency Issues"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="problemScopingQuestions" 
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636763"
 	productPesIds="15585"
 	cloudEnvironments="public"

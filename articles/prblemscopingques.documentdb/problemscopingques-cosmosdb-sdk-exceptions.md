@@ -3,7 +3,7 @@
 	description="CosmosDB SDK Exception Issues"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="problemScopingQuestions" 
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636796"
 	productPesIds="15585"
 	cloudEnvironments="public"
@@ -28,7 +28,7 @@
         {
             "id": "previous_steps",
             "order": 2,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "What steps have you taken to resolve the issue?",
 			"infoBallonText": "Provide steps and include URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve",
 			"required": false
@@ -79,8 +79,8 @@
                     "text": "Java"
                 },
                 {
-                    "value": "Java Script or Node.js",
-                    "text": "Java Script or Node.js"
+                    "value": "js or Node.js",
+                    "text": "js or Node.js"
                 },
                 {
                     "value": "Python",
