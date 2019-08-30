@@ -118,7 +118,7 @@
             "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you are facing",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {

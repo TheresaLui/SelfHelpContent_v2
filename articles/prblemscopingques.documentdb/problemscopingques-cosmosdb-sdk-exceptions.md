@@ -79,8 +79,8 @@
                     "text": "Java"
                 },
                 {
-                    "value": "js or Node.js",
-                    "text": "js or Node.js"
+                    "value": "Java Script or Node.js",
+                    "text": "Java Script or Node.js"
                 },
                 {
                     "value": "Python",
@@ -110,7 +110,7 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you are facing",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
