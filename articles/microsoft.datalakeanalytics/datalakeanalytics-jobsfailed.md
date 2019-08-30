@@ -2,7 +2,7 @@
 	pageTitle="Job started to fail with error"
 	description="Job started to fail with error"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay"
 	authoralias="guyhay"
 	authors="guyhay"
