@@ -115,13 +115,8 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide repro steps and sample code for your issue",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Details of the steps to encounter the issue and sample code"
-                }
-            ]
+			"infoBallonText": "To expedite your issue resolution it may help to provide steps to reproduce the issue and/or sample code",
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"

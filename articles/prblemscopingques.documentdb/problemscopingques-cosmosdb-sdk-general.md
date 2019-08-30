@@ -68,7 +68,7 @@
             "required": false
         },
         {
-            "id": "previous_investigation",
+            "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Where did you already look?",

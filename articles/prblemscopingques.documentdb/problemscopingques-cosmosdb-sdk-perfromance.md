@@ -30,13 +30,8 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What steps have you taken to resolve the issue?",
-            "required": false,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Provide steps and include URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve"
-                }
-            ]
+			"infoBallonText": "Provide steps and include URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve",
+			"required": false
         },
 		{
             "id": "environment_information",
