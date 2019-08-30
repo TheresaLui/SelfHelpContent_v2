@@ -17,9 +17,11 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
+
 <!--issueDescription-->
 Copying of the storage jars to HTTPFS classpath is failing
 <!--/issueDescription-->
+
 ## **Recommended Steps**
 
 1. SSH to headnode0 in the cluster and run these scripts/Run this using script action
@@ -34,5 +36,6 @@ cp /usr/hdp/current/spark2-client/jars/aopalliance-repackaged-2*.jar /usr/hdp/cu
 cp /usr/hdp/current/spark2-client/jars/javax.inject-2*.jar /usr/hdp/current/hadoop-httpfs/webapps/webhdfs/WEB-INF/lib/
 cp /usr/hdp/current/hadoop-mapreduce-client/wildfly-openssl-*.jar /usr/hdp/current/hadoop-httpfs/webapps/webhdfs/WEB-INF/lib/
 ```
+
 2. Restart Jupyter
 
