@@ -18,7 +18,7 @@
 # Difficulties using Azure Data Lake Portal
 
 You can use the Azure portal to operate Azure Data Lake jobs, accounts, data sources, and users.  You must have the appropriate rights to the subscription and the Azure Dat Lake Analytics account. 
-You will also need appropirate rights to the Azure Data Lake Storage Gen1 to submit jobs.
+You will also need appropriate rights to the Azure Data Lake Storage Gen1 to submit jobs.
 
 ## **Recommended Steps**
 
@@ -29,5 +29,3 @@ You will also need appropirate rights to the Azure Data Lake Storage Gen1 to sub
 
 * [Getting started with Azure Data Lake Analytics using the Azure portal](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-get-started-portal)<br>
 * [Manage Azure Data Lake Analytics using the Azure portal](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-manage-use-portal)<br>
-* [Access control in Azure Data Lake Storage Gen1](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-access-control)<br>
-* [Securing data stored in Azure Data Lake Storage Gen1](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-secure-data)<br>

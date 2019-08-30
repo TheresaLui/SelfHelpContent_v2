@@ -17,7 +17,7 @@
 
 # Difficulties using Azure Data Lake PowerShell extensions
 
-You can use the PowerShell extensios for Azure Data Lake to operate ADL jobs, accounts, data sources, and users.  You must have PowerShell installed on your workstation 
+You can use the PowerShell extensions for Azure Data Lake to operate ADL jobs, accounts, data sources, and users.  You must have PowerShell installed on your workstation 
 
 ## **Recommended Steps**
 
