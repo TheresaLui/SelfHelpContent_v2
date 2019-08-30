@@ -32,6 +32,14 @@
             "displayLabel": "CPU Information",
             "required": false
         },
+		{
+            "id": "environment_information",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Environment Information",
+			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, SPARK, Other Cloud)",
+            "required": false
+        },
         {
             "id": "problem_description",
             "order": 10,

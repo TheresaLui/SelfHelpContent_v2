@@ -33,6 +33,13 @@
 			"infoBallonText": "Provide steps and include URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve",
 			"required": false
         },
+		{
+            "id": "cpu_information",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "CPU Information",
+            "required": false
+        },
         {
             "id": "problem_description",
             "order": 9,
