@@ -5,7 +5,7 @@
 	resource="accounts"
 	authors="guyhay"
     ms.author="guyhay"
-	displayOrder="1"
+	displayOrder="8"
 	selfHelpType="resource"
 	productPesIds="15940"
    	supportTopicIds="32680642"

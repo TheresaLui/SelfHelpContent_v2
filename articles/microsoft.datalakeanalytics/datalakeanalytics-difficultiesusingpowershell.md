@@ -6,7 +6,7 @@
 	ms.author="guyhay"
 	authoralias="guyhay"
 	authors="guyhay"
-	displayOrder="3"
+	displayOrder="10"
 	selfHelpType="resource"
 	supportTopicIds="32680653"
 	resourceTags=""
