@@ -27,7 +27,7 @@ For further information, please refer to the documentation present in the link b
 ## **Recommended Steps**
 
 * Retry connecting to the database after a few minutes
-* Add some type of retry logic to your application code
+* Ensure that you do not have any outgoing firewall rules restrictions in your environment
 
 ## **Recommended Documents**
 
