@@ -1,7 +1,7 @@
 <properties
     pageTitle="Azure ExpressRoute Direct"
     description="Azure ExpressRoute Direct"
-    authors="TobyTu"
+    authors="TobyTu, v-miegge"
     ms.author="Mario.Liu"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32627976"
@@ -41,19 +41,40 @@
         },{
             "id": "peer_location",
             "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Provide the desired peering location if inventory isn't available in there",
-            "watermarkText": "",
-            "required": false
+            "controlType": "dropdown",
+            "displayLabel": "Is inventory available in your desired peering location?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know, or not applicable"
+                }
+            ],
+            "required": true
+		}, {
+			"id": "problem_description",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "If your answer is "No", which peering location are you interested in?",
+			"required": false
 		},{
 			"id": "problem_start_time",
-			"order": 3,
+			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 4,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
