@@ -19,12 +19,12 @@
 # We ran diagnostics on your resource and found the following issue
 
 <!--issueDescription-->
-Copying of the storage jars to HTTPFS classpath is failing
+Copying of the storage jars to HTTPFS classpath is failing.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. SSH to headnode0 in the cluster and run these scripts/Run this using script action
+1. SSH to headnode0 in the cluster and run these scripts using script action:
 
 ```
 cp /usr/hdp/current/hadoop-client/hadoop-azure-2*.jar /usr/hdp/current/hadoop-httpfs/webapps/webhdfs/WEB-INF/lib/
