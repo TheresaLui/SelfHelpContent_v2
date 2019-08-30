@@ -1,6 +1,6 @@
 <properties
-	pageTitle="ExtensionVCRedistInstallationFailure "
-	description="ExtensionVCRedistInstallationFailure "
+	pageTitle="ExtensionVCRedistInstallationFailure"
+	description="ExtensionVCRedistInstallationFailure"
 	infoBubbleText="Snapshot operation failed due to failure in installation of Visual C++ Redistributable for Visual Studio 2012."
 	service="microsoft.recoveryservices"
 	resource="backup"
