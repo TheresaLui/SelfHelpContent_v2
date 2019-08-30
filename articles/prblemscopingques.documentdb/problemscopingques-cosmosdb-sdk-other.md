@@ -105,16 +105,16 @@
 			"infoBallonText": "To expedite your issue resolution it may help to provide steps to reproduce the issue and/or sample code",
             "required": false
         },
-		{
+        {
             "id": "problem_description",
-            "order": 9,
+            "order": 10,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide details about the issue that you are facing",
+            "displayLabel": "Please provide additional details about the issue that you are facing.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Details of the issue and frequency"
+                    "text": "More information on the exact issue."
                 }
             ]
         }

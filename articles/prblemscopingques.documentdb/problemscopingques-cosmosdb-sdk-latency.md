@@ -117,15 +117,12 @@
             "id": "problem_description",
             "order": 10,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing",
+            "displayLabel": "Please provide additional details about the issue that you are facing.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "More information on the exact issue."
-                },
-                {
-                    "text": "Activity Id of the request (if available)."
                 }
             ]
         }
