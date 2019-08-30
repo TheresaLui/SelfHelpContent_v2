@@ -106,7 +106,7 @@
             "required": false
         },
 		{
-            "id": query_string",
+            "id": "query_string",
             "order": 9,
             "controlType": "textbox",
             "displayLabel": "Provide your diagnostic log query string",
