@@ -48,6 +48,13 @@
 			"infoBalloonText": "Read/Write regions where the issue is experienced",
             "required": false
         },
+		{
+            "id": request_pct",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Percentage of requests observing the issue",
+            "required": false
+        },
         {
             "id": "problem_description",
             "order": 10,
