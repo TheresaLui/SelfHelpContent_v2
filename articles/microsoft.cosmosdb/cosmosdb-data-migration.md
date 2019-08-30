@@ -9,7 +9,7 @@
 	supportTopicIds="32636783"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	articleId="cosmosdb-data-migration"
 	displayOrder="63"
 	category="Core (SQL)"
