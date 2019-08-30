@@ -4,7 +4,7 @@
 	service="Microsoft.DataLakeAnalytics"
 	resource="accounts"
 	authors="wmeng-msft"
-	displayOrder="4"
+	displayOrder="101"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
