@@ -40,6 +40,14 @@
 			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, SPARK, Other Cloud)",
             "required": false
         },
+		{
+            "id": "region_information",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Region Information",
+			"infoBalloonText": "Read/Write regions where the issue is experienced",
+            "required": false
+        },
         {
             "id": "problem_description",
             "order": 10,
