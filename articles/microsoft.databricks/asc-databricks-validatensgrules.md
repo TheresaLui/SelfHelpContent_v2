@@ -18,13 +18,13 @@
 
 # We ran diagnostics on your resource and found the following issue
 
-Following the inbound network security group rules are missing for <!--$NetworkSecurityGroup-->ACP-VA7-INT-RG_COMPUTE-DATABRICKS-MCT-NSG<!--/$NetworkSecurityGroup-->.
+Following the inbound network security group rules are missing from network security group <!--$NetworkSecurityGroup-->"ACP-VA7-INT-RG_COMPUTE-DATABRICKS-MCT-NSG"<!--/$NetworkSecurityGroup-->.
 
 ## **Recommended Steps**
 
 * Go to the Azure Portal and identify the NSG by name "ACP-VA7-INT-RG_COMPUTE-DATABRICKS-MCT-NSG" that is associated with the public subnet where the cluster is being deployed
-* Based on workspace location, Please make sure to add missing IP address as “Inbound security rules”. Missing IP address  <!--$MissingIp-->23.101.152.95/32
-<!--/$MissingIp-->
+* Based on workspace location, We have identifies following missing IP address must be added as “Inbound security rules”. <br/>
+Missing IP address : <!--$MissingIp-->23.101.152.95/32 <!--/$MissingIp-->
 
 ## **Recommended Documents**
 
