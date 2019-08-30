@@ -13,10 +13,11 @@
 # Scoping questions to recover-dropped-server-or-resourcegroup
 ---
 {
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
-	"subscriptionRequired": true,
-    "formElements": [
-      {
+	"subscriptionRequired": false,
+	"formElements": [
+	{
             "id": "resource_type_dropdown",
             "order": 1,
             "controlType": "dropdown",
@@ -74,7 +75,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide additional context about how the resource was deleted, business justification for restore , and any other specifications if needed."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
