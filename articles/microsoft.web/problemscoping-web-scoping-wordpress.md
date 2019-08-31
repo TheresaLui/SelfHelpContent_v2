@@ -13,9 +13,6 @@
 />
 
 # WordPress
-
-
-
 ---
 {
     "resourceRequired": false,
@@ -28,12 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Have you enabled WordPress debug.log and PHP error log?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -41,7 +33,23 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
+        },
+        {
+			"id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Have you enabled WordPress debug.log and PHP error log?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}
+			],
+			"required": false
+		}
     ],
     "$schema": "SelfHelpContent"
 }
