@@ -13,7 +13,7 @@
     supportTopicIds="32636430"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Blackforest, Mooncake, Fairfax"
 />
 
 # We ran diagnostics on your resource and found the following issue
@@ -32,20 +32,20 @@ Directory 'var/run/jupyter/' should exist in headnode0 (hn0) and it is supposed 
 2. If yes, delete the file jupyter.pid
    If no, create this folder and run the below command to change its ownership to root:
    
-```
+`
 	sudo chown /run/jupyter spark:root
-```
+`
 
 3. Kill the process listening on port 8001 using the below command (assuming 18816 is the process taking port 8001):
 
-```
+`
 	sudo kill -9 18816
-```	
+`	
 
 4. To know the process taking port 8001, you can use the below command.
 
-```
+`
 	netstat -tlup | grep 8001
-```
+`
 
 5. Restart the jupyter.
