@@ -2,7 +2,8 @@
 	pageTitle="Metrics are not available or are incorrect"
 	description="Configuration and Management/Metrics are not available or are incorrect"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581617"
 	productPesIds="14748"
@@ -14,7 +15,8 @@
 # Metrics are not available or are incorrect
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

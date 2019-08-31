@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Configuring SSL"
 	description="Configuring SSL"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32440123"
 	productPesIds="14748"
@@ -14,7 +15,8 @@
 # Configuring SSL
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

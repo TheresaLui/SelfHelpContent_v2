@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Moving resources"
 	description="Moving resources"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581619"
 	productPesIds="14748"
@@ -14,7 +15,8 @@
 # Moving resources
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

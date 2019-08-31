@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Creating or deleting resources"
 	description="Creating or deleting resources"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542209"
 	productPesIds="14748"
@@ -14,7 +15,8 @@
 # Creating or deleting resource
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

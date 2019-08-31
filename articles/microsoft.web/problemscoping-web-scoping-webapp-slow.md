@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Web app slow"
 	description="Web app slow"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32457411"
 	productPesIds="14748"
@@ -18,6 +19,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

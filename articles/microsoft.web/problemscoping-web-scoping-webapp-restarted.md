@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Web app restarted"
 	description="Web app restarted"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32570954"
 	productPesIds="14748"
@@ -20,6 +21,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

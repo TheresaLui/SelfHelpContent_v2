@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Configuring Traffic Manager with App Service"
 	description="Configuring Traffic Manager with App Service"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581614"
 	productPesIds="14748"
@@ -18,6 +19,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

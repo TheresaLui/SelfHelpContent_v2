@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for IP configuration"
 	description="IP configuration"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542210"
 	productPesIds="14748"
@@ -14,7 +15,8 @@
 # IP configuration
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Backup and Restore"
 	description="Backup and Restore"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542208"
 	productPesIds="14748"
@@ -19,6 +20,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

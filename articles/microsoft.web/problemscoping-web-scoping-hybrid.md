@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Configuring hybrid connections with App Service"
 	description="Configuring hybrid connections with App Service"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581613"
 	productPesIds="14748"
@@ -16,7 +17,8 @@
 
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

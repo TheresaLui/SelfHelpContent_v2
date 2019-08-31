@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for high CPU usage"
 	description="High CPU usage"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32583701"
 	productPesIds="14748"
@@ -17,7 +18,8 @@
 
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",

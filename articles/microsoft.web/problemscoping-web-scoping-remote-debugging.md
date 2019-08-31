@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Remote debugging"
 	description="Remote debugging"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581620"
 	productPesIds="14748"
@@ -15,7 +16,8 @@
 
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",
