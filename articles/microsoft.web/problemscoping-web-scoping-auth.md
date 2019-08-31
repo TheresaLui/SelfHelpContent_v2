@@ -5,7 +5,7 @@
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32542207"
+	supportTopicIds="32606475"
 	productPesIds="14748"
 	cloudEnvironments="public"
    schemaVersion="1"
