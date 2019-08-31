@@ -2,8 +2,9 @@
 	pageTitle="Scoping questions for Web App Down or Reporting Errors"
 	description="Availability, Performance, and Application Issues/Web app down or reporting errors"
 	service="microsoft.web"
-	authors="shrahman"
-   selfHelpType="problemScopingQuestions"
+	authors="shrahman, khzayed"
+    ms.author="cts-shrahman, khaled-zayed"
+    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542218"
 	productPesIds="16333"
 	cloudEnvironments="public, MoonCake"
@@ -24,7 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required": true
         },
         {
 			"id": "3",
