@@ -13,9 +13,6 @@
 />
 
 # Configuring Traffic Manager with App Service
-
-
-
 ---
 {
     "resourceRequired": false,

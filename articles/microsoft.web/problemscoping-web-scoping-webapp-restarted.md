@@ -13,11 +13,6 @@
 />
 
 # Web app restarted
-
-
-
-
-
 ---
 {
     "resourceRequired": false,
@@ -30,21 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "What framework is your app using (e.g. ASP.NET, Node, Java, Python etc.)?"
-                },
-                {
-                    "text": "Is the issue still occurring? If not, how was the issue resolved?"
-                },
-                {
-                    "text": "Have you seen any application errors during the restart timeframe? If so, what was the error?"
-                },
-                {
-                    "text": "What is the frequency of the restarts?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -52,7 +33,48 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
+        },
+        {
+            "id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Have you enabled WordPress debug.log and PHP error log?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}
+			],
+			"required": false
+		},
+        {
+			"id": "3",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Have you seen any application errors during the restart timeframe? If so, what was the error?",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "4",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "What is the frequency of the restarts?",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "5",
+			"order": 5,
+			"controlType": "textbox",
+			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
+			"watermarkText": "...",
+			"required": false
+		}
+
     ],
     "$schema": "SelfHelpContent"
 }

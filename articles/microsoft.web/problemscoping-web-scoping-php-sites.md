@@ -13,9 +13,6 @@
 />
 
 # PHP
-
-
-
 ---
 {
      "resourceRequired": false,

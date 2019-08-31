@@ -13,10 +13,6 @@
 />
 
 # Backup and Restore
-
-
-
-
 ---
 {
     "resourceRequired": false,
@@ -29,15 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Is it a Scheduled Backup or Manual Backup?"
-                },
-                {
-                    "text": "Are you seeing an error message?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -45,7 +33,23 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
+        },
+        {
+			"id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Is it a Scheduled Backup or Manual Backup?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Scheduled",
+					"text": "Scheduled"
+				}, {
+					"value": "Manual",
+					"text": "Manual"
+				}
+			],
+			"required": false
+		}
     ],
     "$schema": "SelfHelpContent"
 }

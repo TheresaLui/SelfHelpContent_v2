@@ -13,9 +13,6 @@
 />
 
 # High memory usage
-
-
-
 ---
 {
      "resourceRequired": false,

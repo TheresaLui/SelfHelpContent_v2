@@ -13,9 +13,6 @@
 />
 
 # High CPU usage
-
-
-
 ---
 {
      "resourceRequired": false,

@@ -13,8 +13,6 @@
 />
 
 # Configuring hybrid connections with App Service
-
-
 ---
 {
      "resourceRequired": false,
