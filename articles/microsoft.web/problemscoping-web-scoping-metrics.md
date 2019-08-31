@@ -11,11 +11,10 @@
    schemaVersion="1"
    articleId="bf000ecb-9268-4834-bb7f-6eced0867ded"
 />
-
 # Metrics are not available or are incorrect
 ---
 {
-     "resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": true,
     "formElements": [
         {
@@ -31,7 +30,7 @@
                     "text": "Which metric is not being shown or is incorrect?"
                 },
                 {
-                    "text": "Is the metric only missing for a specific \\"Time range\\" view (i.e past hour, past 24 hours etc.)?"
+                    "text": "Is the metric only missing for a specific Time range view (i.e past hour, past 24 hours etc.)?"
                 }
             ]
         },
