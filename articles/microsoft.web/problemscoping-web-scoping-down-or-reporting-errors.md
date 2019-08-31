@@ -15,6 +15,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",
@@ -24,21 +25,34 @@
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "hints": [
-                {
-                    "text": "What framework is your app using (i.e. ASP.NET, Node, Java, Python etc.)?"
-                },
-                {
-                    "text": "Is the issue still occurring? If not, how was the issue resolved (i.e. App or Service Restarted, Scaling etc.)?"
-                },
-                {
-                    "text": "Is there a specific error you are seeing? Please include the text of the error."
-                }
-            ]
         },
         {
+			"id": "3",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "What framework is your app using (i.e. ASP.NET, Node, Java, Python etc.)?",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "4",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved (i.e. App or Service Restarted, Scaling etc.)?",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "5",
+			"order": 5,
+			"controlType": "textbox",
+			"displayLabel": "Is there a specific error you are seeing? Please include the text of the error.",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
