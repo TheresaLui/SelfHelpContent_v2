@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for Web app restarted"
-	description="Web app restarted"
+	pageTitle="Scoping questions for Web app slow"
+	description="Web app slow"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32570954"
-	productPesIds="14748"
+	supportTopicIds="32457411"
+	productPesIds="16333"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="84fdb6ef-131e-457d-9c12-4b83f9f95802"
+   articleId="364b-4dc7-9b67-099847303e2a"
 />
 
-# Web app restarted
+# Web app slow
 ---
 {
     "resourceRequired": false,
@@ -35,17 +35,17 @@
             "required": true
         },
         {
-            "id": "3",
+			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Have you enabled WordPress debug.log and PHP error log?",
+			"displayLabel": "Is the issue intermittent or consistent? If intermittent, please explain in the additional details the observed pattern",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
+					"value": "intermittent",
+					"text": "intermittent"
 				}, {
-					"value": "No",
-					"text": "No"
+					"value": "consistent",
+					"text": "consistent"
 				}
 			],
 			"required": false
@@ -54,27 +54,18 @@
 			"id": "4",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "Have you seen any application errors during the restart timeframe? If so, what was the error?",
+			"displayLabel": "Which URL(s) are experiencing the slowdown?",
 			"watermarkText": "...",
 			"required": false
 		},
-        {
+         {
 			"id": "5",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "What is the frequency of the restarts?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "6",
-			"order": 6,
-			"controlType": "textbox",
-			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
+			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved??",
 			"watermarkText": "...",
 			"required": false
 		}
-
     ],
     "$schema": "SelfHelpContent"
 }

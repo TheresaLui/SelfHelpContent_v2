@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for Web app restarted"
-	description="Web app restarted"
+	pageTitle="Scoping questions for WordPress"
+	description="WordPress"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32570954"
-	productPesIds="14748"
+	supportTopicIds="32444080"
+	productPesIds="16333"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="84fdb6ef-131e-457d-9c12-4b83f9f95802"
+   articleId="be52-4ad7-8b99-8236841af287"
 />
 
-# Web app restarted
+# WordPress
 ---
 {
     "resourceRequired": false,
@@ -35,7 +35,7 @@
             "required": true
         },
         {
-            "id": "3",
+			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Have you enabled WordPress debug.log and PHP error log?",
@@ -49,32 +49,7 @@
 				}
 			],
 			"required": false
-		},
-        {
-			"id": "4",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "Have you seen any application errors during the restart timeframe? If so, what was the error?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "5",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What is the frequency of the restarts?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "6",
-			"order": 6,
-			"controlType": "textbox",
-			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
-			"watermarkText": "...",
-			"required": false
 		}
-
     ],
     "$schema": "SelfHelpContent"
 }

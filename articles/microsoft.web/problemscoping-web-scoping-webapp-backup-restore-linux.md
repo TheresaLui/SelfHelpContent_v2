@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for Web app restarted"
-	description="Web app restarted"
+	pageTitle="Scoping questions for Backup and Restore"
+	description="Backup and Restore"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32570954"
-	productPesIds="14748"
+	supportTopicIds="32542208"
+	productPesIds="16170"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="84fdb6ef-131e-457d-9c12-4b83f9f95802"
+   articleId="6140-4a89-8e61-a74482e156b2"
 />
 
-# Web app restarted
+# Backup and Restore
 ---
 {
     "resourceRequired": false,
@@ -35,46 +35,21 @@
             "required": true
         },
         {
-            "id": "3",
+			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Have you enabled WordPress debug.log and PHP error log?",
+			"displayLabel": "Is it a Scheduled Backup or Manual Backup?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
+					"value": "Scheduled",
+					"text": "Scheduled"
 				}, {
-					"value": "No",
-					"text": "No"
+					"value": "Manual",
+					"text": "Manual"
 				}
 			],
 			"required": false
-		},
-        {
-			"id": "4",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "Have you seen any application errors during the restart timeframe? If so, what was the error?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "5",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What is the frequency of the restarts?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "6",
-			"order": 6,
-			"controlType": "textbox",
-			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
-			"watermarkText": "...",
-			"required": false
 		}
-
     ],
     "$schema": "SelfHelpContent"
 }
