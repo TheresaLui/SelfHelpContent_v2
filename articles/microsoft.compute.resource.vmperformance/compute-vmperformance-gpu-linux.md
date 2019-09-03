@@ -11,7 +11,7 @@
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
-	articleId="2f101132-9899-437e-a74f-f5dd404fd8f9"
+	articleId="3d66057d-3c6b-4d12-9241-09830bfd7083"
 />
 
 # Diagnose and resolve Linux Virtual Machine GPU performance issues

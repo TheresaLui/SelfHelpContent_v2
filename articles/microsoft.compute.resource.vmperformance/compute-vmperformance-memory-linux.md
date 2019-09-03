@@ -11,7 +11,7 @@
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
-	articleId="d2aaff89-b196-425a-99ed-15656d09fbd1"
+	articleId="4f7c908f-4f24-40fd-a575-06d23f7f5e44"
 />
 
 # Diagnose and resolve Linux Virtual Machine Memory performance issues

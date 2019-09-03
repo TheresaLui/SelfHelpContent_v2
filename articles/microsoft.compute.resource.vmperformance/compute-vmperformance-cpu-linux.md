@@ -11,7 +11,7 @@
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
-	articleId="d0fa4014-1b31-4dea-beaa-0e7d1ef6d466"
+	articleId="9f6417ef-5d01-4c46-8c46-fc5ad86e3869"
 />
 
 # Diagnose and resolve Linux Virtual Machine CPU performance issues

@@ -11,7 +11,7 @@
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
-	articleId="1846ef6d-3aa8-44c1-bff0-cc8ede1933c6"
+	articleId="f4459a0f-af9f-43c0-b9fd-a4984488f123"
 />
 
 # Diagnose and resolve Virtual Machine Storage performance issues

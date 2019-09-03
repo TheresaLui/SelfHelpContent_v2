@@ -11,7 +11,7 @@
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
-	articleId="4bcf8e9d-ba5f-48d5-95c0-5562c74a3108"
+	articleId="6f06c7d9-7348-4d15-baf3-b00900fadb8d"
 />
 
 # Diagnose and resolve Virtual Machine Network performance issues

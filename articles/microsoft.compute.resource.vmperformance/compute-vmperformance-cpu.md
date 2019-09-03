@@ -11,7 +11,7 @@
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
-	articleId="c56d711a-2df1-4c2a-b250-b6dc68a4975b"
+	articleId="5bf61dab-01b5-40f4-adeb-b60c21f73e83"
 />
 
 # Diagnose and resolve Virtual Machine CPU performance issues

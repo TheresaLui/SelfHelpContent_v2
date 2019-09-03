@@ -11,7 +11,7 @@
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
-	articleId="59d5ee22-322d-4b0e-9d2b-fe07bdc1442f"
+	articleId="0adf8e65-c877-43fe-8388-33e25b2af9bb"
 />
 
 # Diagnose and resolve Linux Virtual Machine sizing issues

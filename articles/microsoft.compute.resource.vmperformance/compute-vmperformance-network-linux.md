@@ -11,7 +11,7 @@
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
-	articleId="bc90f2f2-a08a-47e0-a0c1-8dc34731507d"
+	articleId="b72e0592-b8dc-4d5c-a67d-504d8630b742"
 />
 
 # Diagnose and resolve Linux Virtual Machine Network performance issues

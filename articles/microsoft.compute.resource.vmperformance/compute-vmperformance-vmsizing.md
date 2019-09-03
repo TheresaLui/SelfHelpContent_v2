@@ -11,7 +11,7 @@
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
-	articleId="b3157bac-dc37-4341-98c8-14320fad6c37"
+	articleId="944d5b78-5b69-4c12-b65c-0eec1681ec6c"
 />
 
 # Diagnose and resolve Virtual Machine sizing issues
