@@ -23,8 +23,8 @@ Resource materials related to implementing partner security requirements immedia
 
 ## **Recommended Steps**
 
-- Question: What will happen if I don’t implement MFA as per this new security requirement by August 1, 2019? [Answer](https://docs.microsoft.com/partner-center/partner-security-requirements-faq#what-will-happen-if-i-dont-implement-mfa-as-per-this-new-security-requirement-by-august-1-2019).
-- Question: How do I confirm that my environment is complaint with the partner security requirements? [Answer](https://docs.microsoft.com/partner-center/partner-security-requirements#assessing-your-environment).
+- [What will happen if I don’t implement MFA as per this new security requirement by August 1, 2019?](https://docs.microsoft.com/partner-center/partner-security-requirements-faq#what-will-happen-if-i-dont-implement-mfa-as-per-this-new-security-requirement-by-august-1-2019)
+- [How do I confirm that my environment is complaint with the partner security requirements?](https://docs.microsoft.com/partner-center/partner-security-requirements#assessing-your-environment)
 
 ## **Recommended Documents**
 
