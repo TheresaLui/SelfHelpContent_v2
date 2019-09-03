@@ -28,20 +28,11 @@
             "required": true
         },
         {
-            "id": "feature_name",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "What feature or functionality is missing?",
-            "watermarkText": "Provide the name of the feature or functionality",
-            "required": false,
-            "useAsAdditionalDetails": false
-        },
-        {
             "id": "feature_business_impact",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the business impact this is causing?",
-            "watermarkText": "Provide information about the business impact",
+            "displayLabel": "What is the business impact of the missing feature/functionality?",
+            "watermarkText": "Provide information about the business impact of the missing feature/functionality",
             "required": false,
             "useAsAdditionalDetails": false
         },
