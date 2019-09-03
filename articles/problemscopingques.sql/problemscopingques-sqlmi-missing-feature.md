@@ -21,6 +21,13 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
             "id": "feature_name",
             "order": 2,
             "controlType": "textbox",
