@@ -34,7 +34,6 @@
             "displayLabel": "Problem start time",
             "required": true
         },
-        ,
         {
             "id": "3",
 			"order": 3,

@@ -15,7 +15,7 @@
 # Configuring hybrid connections with App Service
 ---
 {
-     "resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": true,
     "formElements": [
         {
@@ -62,8 +62,8 @@
 			"required": false
 		},
         {
-			"id": "4",
-			"order": 4,
+			"id": "5",
+			"order": 5,
 			"controlType": "textbox",
 			"displayLabel": "What is the HC endpoint? (The endpoint that is visible in the Azure portal)",
 			"watermarkText": "...",

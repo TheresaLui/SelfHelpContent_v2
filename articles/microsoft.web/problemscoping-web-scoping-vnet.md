@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for VNET integration with App Service"
 	description="VNET integration with App Service"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542212"
 	productPesIds="14748"
@@ -15,6 +16,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",
