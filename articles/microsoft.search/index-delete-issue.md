@@ -25,8 +25,6 @@ The most common reason for an index not being deleted will happen when making th
 * The Index was previously deleted
 * The services is unavailable (and you may wish to add Replicas to ensure an availability SLA)
 
-If you want to attach a cognitive service resource programmatically, please see [this section of the documentation](https://docs.microsoft.com/azure/search/cognitive-search-attach-cognitive-services).
-
 ## **Recommended Documents**
 
 * [Azure Search Delete index via REST](https://docs.microsoft.com/rest/api/searchservice/delete-index) 
