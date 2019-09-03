@@ -52,7 +52,7 @@
             "order": 2,
             "visibility": "null",
             "controlType": "textbox",
-            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\\\Help\\\\About",
+            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\Help\\About",
             "displayLabel": "What is the software version of Microsoft Azure Backup Server?",
             "watermarkText": "ex. version 12.0.332.0.",
             "required": false

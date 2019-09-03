@@ -13,9 +13,10 @@
 # Copy database within Azure
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-    "formElements": [
+	"$schema": "SelfHelpContent",
+	"resourceRequired": false,
+	"subscriptionRequired": false,
+	"formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -80,7 +81,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

@@ -11,8 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-availability-serviceavailability"
-	displayOrder="80"
-	category="Availability"
+	displayOrder="68"
+	category="Core (SQL)"
 />
 # Cosmos DB returns service unavailable
 
