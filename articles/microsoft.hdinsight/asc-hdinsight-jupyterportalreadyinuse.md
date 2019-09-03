@@ -24,28 +24,12 @@ Jupyter service for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName
 
 ## **Recommended Steps**
 
-The default port for Jupyter notebook in HDI is 8001
+* The default port for Jupyter notebook in HDI is 8001
+* Directory `var/run/jupyter/` should exist in headnode0 (hn0), and should contain a file jupyter.pid which is created by OS to store the pid for jupyter. It gets deleted when process dies.
 
-Directory 'var/run/jupyter/' should exist in headnode0 (hn0) and it is supposed to contain a file jupyter.pid which is created by OS to store the pid for jupyter, and gets deleted when process dies. 
-
-1. Check if "var/run/jupyter/" exist.
-2. If yes, delete the file jupyter.pid
-   If no, create this folder and run the below command to change its ownership to root:
-   
-`
-	sudo chown /run/jupyter spark:root
-`
-
-3. Kill the process listening on port 8001 using the below command (assuming 18816 is the process taking port 8001):
-
-`
-	sudo kill -9 18816
-`	
-
-4. To know the process taking port 8001, you can use the below command.
-
-`
-	netstat -tlup | grep 8001
-`
-
-5. Restart the jupyter.
+	* Check if `var/run/jupyter/` exists
+	* If yes, delete the file jupyter.pid
+	* If no, create this folder and run this command to change its ownership to root: `sudo chown /run/jupyter spark:root`
+	* Kill the process listening on port 8001 using this command (assuming 18816 is the process taking port 8001): `sudo kill -9 18816`
+	* To know the process taking port 8001, you can use `netstat -tlup | grep 8001`
+	* Restart the jupyter
