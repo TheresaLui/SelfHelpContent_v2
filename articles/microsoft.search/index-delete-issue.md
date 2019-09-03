@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-The most common reason for an index not being deleted will happen when making the call from the API as opposed to from the portal.  If this is the case, it is important to make note of the HTTP response that comes back from the call as this gives the best indication as to why it failed.  Common reasons for this include:
+The most common reason for an index not being deleted will happen when making the call from the API as opposed to from the portal. If this is the case, it is important to make note of the HTTP response that comes back from the call as this gives the best indication as to why it failed. Common reasons for this include:
 
 * Using a Query API key as opposed to an Admin API Key (which is required for this action)
 * Incorrectly formed API request
@@ -29,5 +29,5 @@ If you want to attach a cognitive service resource programmatically, please see 
 
 ## **Recommended Documents**
 
-* [Azure Search Delete index via REST](https://docs.microsoft.com/rest/api/searchservice/delete-index) <br
-* [Azure Search HTTP Response Codes](https://docs.microsoft.com/rest/api/searchservice/http-status-codes) <br
+* [Azure Search Delete index via REST](https://docs.microsoft.com/rest/api/searchservice/delete-index) 
+* [Azure Search HTTP Response Codes](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)
