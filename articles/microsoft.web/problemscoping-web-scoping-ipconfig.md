@@ -25,18 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "What is the name of your App Service?"
-                },
-                {
-                    "text": "Does your App Service have a custom domain with an IP-based SSL binding on it?"
-                },
-                {
-                    "text": "Are you looking to set up IP restrictions or are the current settings not working?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -44,7 +33,15 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
+        },
+        {
+			"id": "3",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Are you looking to set up IP restrictions or are the current settings not working?",
+			"watermarkText": "...",
+			"required": false
+		}
     ],
     "$schema": "SelfHelpContent"
 }

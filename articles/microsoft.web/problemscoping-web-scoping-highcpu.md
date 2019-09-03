@@ -25,24 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Which indicators are you looking at for CPU usage?"
-                },
-                {
-                    "text": "How much CPU consumption are you seeing?"
-                },
-                {
-                    "text": "What framework(s) is your app using (e.g. ASP.NET, Node, Java, Python etc.)?"
-                },
-                {
-                    "text": "Is the issue still occurring? If not, how was the issue resolved?"
-                },
-                {
-                    "text": "Has the site volume increased?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -50,7 +33,48 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
+        },
+        {
+			"id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Has the site volume increased?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}
+			],
+			"required": false
+		},
+        {
+			"id": "4",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "Which indicators are you looking at for CPU usage?",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "5",
+			"order": 5,
+			"controlType": "textbox",
+			"displayLabel": "How much CPU consumption are you seeing?",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "6",
+			"order": 6,
+			"controlType": "textbox",
+			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
+			"watermarkText": "...",
+			"required": false
+		}
+        
     ],
     "$schema": "SelfHelpContent"
 }
