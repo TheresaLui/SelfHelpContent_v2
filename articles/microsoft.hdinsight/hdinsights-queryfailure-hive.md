@@ -25,6 +25,7 @@
 
 ### **Troubleshooting**
 
+* [Troubleshoot a slow or failing job on a HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [Optimize Apache Hive queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
 * [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
 * [Improve Hive query performance](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive#improve-hive-query-performance)

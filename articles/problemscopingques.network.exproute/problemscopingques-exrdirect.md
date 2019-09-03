@@ -38,22 +38,45 @@
                 }
             ],
             "required": true
-        },{
-            "id": "peer_location",
+        },
+{
+            "id": "is_inventory",
             "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Provide the desired peering location if inventory isn't available in there",
-            "watermarkText": "",
-            "required": false
+            "controlType": "dropdown",
+            "displayLabel": "Is inventory available in your desired peering location?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+		},{
+			"id": "peer_location",
+			"visibility": "is_inventory == No",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Which peering location is you interested in?",
+			"watermarkText": "",
+			"required": false
 		},{
 			"id": "problem_start_time",
-			"order": 3,
+			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 4,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",

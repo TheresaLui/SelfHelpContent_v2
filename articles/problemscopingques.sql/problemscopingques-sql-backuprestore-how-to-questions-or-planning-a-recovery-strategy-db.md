@@ -13,9 +13,10 @@
 # Advisory-how-to-questions-or-planning-a-recovery-strategy
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-    "formElements": [
+	"$schema": "SelfHelpContent",
+	"resourceRequired": false,
+	"subscriptionRequired": false,
+	"formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -33,7 +34,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide your questions with additional details like the environment, business needs, cost considerations, etc."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
