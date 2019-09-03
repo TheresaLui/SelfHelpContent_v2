@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for Moving resources"
-	description="Moving resources"
+	pageTitle="Scoping questions for Configuring SSL"
+	description="Configuring SSL"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32581619"
-	productPesIds="14748"
-	cloudEnvironments="public, MoonCake"
+	supportTopicIds="32440123"
+	productPesIds="16333"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="73799750-2889-45e0-b6ea-ddb118e38d07"
+   articleId="e8fd8bda-5616-44d8-8980-bceb60ad2943"
 />
 
-# Moving resources
+# Configuring SSL
 ---
 {
      "resourceRequired": false,
@@ -38,14 +38,14 @@
 			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Are you moving App Service resources within the same subscription or are you trying to move resources across different subscriptions?",
+			"displayLabel": "Are you using an App Service Certificate or an external certificate?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Same Subscription",
-					"text": "Same Subscription"
+					"value": "App Service Certificate",
+					"text": "App Service Certificate"
 				}, {
-					"value": "Different Subscription",
-					"text": "Different Subscription"
+					"value": "external certificate",
+					"text": "external certificate"
 				}
 			],
 			"required": false
@@ -54,7 +54,7 @@
 			"id": "4",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "What is the destination resource group?",
+			"displayLabel": "What domain is the SSL cert issued to?",
 			"watermarkText": "...",
 			"required": false
 		},
@@ -62,15 +62,7 @@
 			"id": "5",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "What resource(s) are you trying to move?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "6",
-			"order": 6,
-			"controlType": "textbox",
-			"displayLabel": "Do any of the apps have SSL certificates configured? If yes, are they custom SSL certificates or Azure App Service Certificates?",
+			"displayLabel": "What is the name of the App Service?",
 			"watermarkText": "...",
 			"required": false
 		}

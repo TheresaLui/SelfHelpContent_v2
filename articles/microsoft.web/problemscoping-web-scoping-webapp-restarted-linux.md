@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Scoping questions for Moving resources"
-	description="Moving resources"
+	pageTitle="Scoping questions for Web app restarted"
+	description="Web app restarted"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32581619"
-	productPesIds="14748"
-	cloudEnvironments="public, MoonCake"
+	supportTopicIds="32570954"
+	productPesIds="16170"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="73799750-2889-45e0-b6ea-ddb118e38d07"
+   articleId="84fdb6ef-457d-9c12-4b83f9f95802"
 />
 
-# Moving resources
+# Web app restarted
 ---
 {
-     "resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": true,
     "formElements": [
         {
@@ -35,17 +35,17 @@
             "required": true
         },
         {
-			"id": "3",
+            "id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Are you moving App Service resources within the same subscription or are you trying to move resources across different subscriptions?",
+			"displayLabel": "Have you enabled WordPress debug.log and PHP error log?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Same Subscription",
-					"text": "Same Subscription"
+					"value": "Yes",
+					"text": "Yes"
 				}, {
-					"value": "Different Subscription",
-					"text": "Different Subscription"
+					"value": "No",
+					"text": "No"
 				}
 			],
 			"required": false
@@ -54,7 +54,7 @@
 			"id": "4",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "What is the destination resource group?",
+			"displayLabel": "Have you seen any application errors during the restart timeframe? If so, what was the error?",
 			"watermarkText": "...",
 			"required": false
 		},
@@ -62,7 +62,7 @@
 			"id": "5",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "What resource(s) are you trying to move?",
+			"displayLabel": "What is the frequency of the restarts?",
 			"watermarkText": "...",
 			"required": false
 		},
@@ -70,10 +70,11 @@
 			"id": "6",
 			"order": 6,
 			"controlType": "textbox",
-			"displayLabel": "Do any of the apps have SSL certificates configured? If yes, are they custom SSL certificates or Azure App Service Certificates?",
+			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
 			"watermarkText": "...",
 			"required": false
 		}
+
     ],
     "$schema": "SelfHelpContent"
 }

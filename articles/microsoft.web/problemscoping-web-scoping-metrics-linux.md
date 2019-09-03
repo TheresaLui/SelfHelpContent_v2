@@ -1,21 +1,20 @@
 <properties
-	pageTitle="Scoping questions for Moving resources"
-	description="Moving resources"
+	pageTitle="Metrics are not available or are incorrect"
+	description="Configuration and Management/Metrics are not available or are incorrect"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32581619"
-	productPesIds="14748"
+	supportTopicIds="32581617"
+	productPesIds="16170"
 	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
-   articleId="73799750-2889-45e0-b6ea-ddb118e38d07"
+   articleId="bf000ecb-9268-4834-bb7f-6eced0867de3"
 />
-
-# Moving resources
+# Metrics are not available or are incorrect
 ---
 {
-     "resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": true,
     "formElements": [
         {
@@ -38,14 +37,14 @@
 			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Are you moving App Service resources within the same subscription or are you trying to move resources across different subscriptions?",
+			"displayLabel": "Is the metric only missing for a specific time range view (i.e past hour, past 24 hours etc.)? If yes, please specify the time range in the details.",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Same Subscription",
-					"text": "Same Subscription"
+					"value": "Yes",
+					"text": "Yes"
 				}, {
-					"value": "Different Subscription",
-					"text": "Different Subscription"
+					"value": "No",
+					"text": "No"
 				}
 			],
 			"required": false
@@ -54,23 +53,7 @@
 			"id": "4",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "What is the destination resource group?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "5",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What resource(s) are you trying to move?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "6",
-			"order": 6,
-			"controlType": "textbox",
-			"displayLabel": "Do any of the apps have SSL certificates configured? If yes, are they custom SSL certificates or Azure App Service Certificates?",
+			"displayLabel": "Which metric is not being shown or is incorrect?",
 			"watermarkText": "...",
 			"required": false
 		}

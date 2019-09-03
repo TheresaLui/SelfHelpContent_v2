@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Scoping questions for Moving resources"
-	description="Moving resources"
+	pageTitle="Scoping questions for Web app slow"
+	description="Web app slow"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32581619"
-	productPesIds="14748"
-	cloudEnvironments="public, MoonCake"
+	supportTopicIds="32457411"
+	productPesIds="16333"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="73799750-2889-45e0-b6ea-ddb118e38d07"
+   articleId="364b-4dc7-9b67-099847303e2a"
 />
 
-# Moving resources
+# Web app slow
 ---
 {
-     "resourceRequired": false,
+    "resourceRequired": false,
     "subscriptionRequired": true,
     "formElements": [
         {
@@ -38,14 +38,14 @@
 			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Are you moving App Service resources within the same subscription or are you trying to move resources across different subscriptions?",
+			"displayLabel": "Is the issue intermittent or consistent? If intermittent, please explain in the additional details the observed pattern",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Same Subscription",
-					"text": "Same Subscription"
+					"value": "intermittent",
+					"text": "intermittent"
 				}, {
-					"value": "Different Subscription",
-					"text": "Different Subscription"
+					"value": "consistent",
+					"text": "consistent"
 				}
 			],
 			"required": false
@@ -54,23 +54,15 @@
 			"id": "4",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "What is the destination resource group?",
+			"displayLabel": "Which URL(s) are experiencing the slowdown?",
 			"watermarkText": "...",
 			"required": false
 		},
-        {
+         {
 			"id": "5",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "What resource(s) are you trying to move?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "6",
-			"order": 6,
-			"controlType": "textbox",
-			"displayLabel": "Do any of the apps have SSL certificates configured? If yes, are they custom SSL certificates or Azure App Service Certificates?",
+			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved??",
 			"watermarkText": "...",
 			"required": false
 		}

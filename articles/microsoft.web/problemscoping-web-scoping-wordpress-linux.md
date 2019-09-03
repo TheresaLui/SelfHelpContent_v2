@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for VNET integration with App Service"
-	description="VNET integration with App Service"
+	pageTitle="Scoping questions for WordPress"
+	description="WordPress"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32542212"
-	productPesIds="14748"
+	supportTopicIds="32444080"
+	productPesIds="16170"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="28446461-8c33-42b3-984e-0d378ea3bbf1"
+   articleId="746b4c1e-8b99-8236841af287"
 />
 
-# VNET integration with App Service
+# WordPress
 ---
 {
     "resourceRequired": false,
@@ -35,10 +35,10 @@
             "required": true
         },
         {
-            "id": "3",
+			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Is point-to-site enabled on VNET Gateway?",
+			"displayLabel": "Have you enabled WordPress debug.log and PHP error log?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
@@ -48,22 +48,6 @@
 					"text": "No"
 				}
 			],
-			"required": false
-		},
-        {
-			"id": "4",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "What is the name of VNET",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "5",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What is the Gateway type configured with existing VNET?",
-			"watermarkText": "...",
 			"required": false
 		}
     ],

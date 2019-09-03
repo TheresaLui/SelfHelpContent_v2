@@ -5,11 +5,11 @@
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32606475"
-	productPesIds="14748"
+	supportTopicIds="32606471"
+	productPesIds="16170"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="0b0cb739-3aa0-45da-91c5-17e78c0b33b4"
+   articleId="0b0cb739-3aa0-45da-91c5-17e78c0b33b6"
 />
 
 # Authentication and authorization
@@ -25,18 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Are you using ADAL?"
-                },
-                {
-                    "text": "Is this a problem managing the App in the Portal?"
-                },
-                {
-                    "text": "Are you configuring your application for authentication\\authorization using the Portal configuration in Azure App Service?"
-                }
-            ]
+            "required": true
         },
         {
 			"id": "2",

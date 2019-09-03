@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Scoping questions for VNET integration with App Service"
-	description="VNET integration with App Service"
+	pageTitle="Scoping questions for IP configuration"
+	description="IP configuration"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32542212"
-	productPesIds="14748"
+	supportTopicIds="32542210"
+	productPesIds="16170"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="28446461-8c33-42b3-984e-0d378ea3bbf1"
+   articleId="1b5ede53-4f95-933f-92355b9f7e7f"
 />
 
-# VNET integration with App Service
+# IP configuration
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
     "subscriptionRequired": true,
     "formElements": [
         {
@@ -35,34 +35,10 @@
             "required": true
         },
         {
-            "id": "3",
+			"id": "3",
 			"order": 3,
-			"controlType": "dropdown",
-			"displayLabel": "Is point-to-site enabled on VNET Gateway?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}
-			],
-			"required": false
-		},
-        {
-			"id": "4",
-			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "What is the name of VNET",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "5",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What is the Gateway type configured with existing VNET?",
+			"displayLabel": "Are you looking to set up IP restrictions or are the current settings not working?",
 			"watermarkText": "...",
 			"required": false
 		}

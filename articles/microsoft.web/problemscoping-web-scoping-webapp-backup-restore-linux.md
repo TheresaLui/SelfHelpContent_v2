@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for VNET integration with App Service"
-	description="VNET integration with App Service"
+	pageTitle="Scoping questions for Backup and Restore"
+	description="Backup and Restore"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32542212"
-	productPesIds="14748"
+	supportTopicIds="32542208"
+	productPesIds="16170"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="28446461-8c33-42b3-984e-0d378ea3bbf1"
+   articleId="6140-4a89-8e61-a74482e156b2"
 />
 
-# VNET integration with App Service
+# Backup and Restore
 ---
 {
     "resourceRequired": false,
@@ -35,35 +35,19 @@
             "required": true
         },
         {
-            "id": "3",
+			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Is point-to-site enabled on VNET Gateway?",
+			"displayLabel": "Is it a Scheduled Backup or Manual Backup?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
+					"value": "Scheduled",
+					"text": "Scheduled"
 				}, {
-					"value": "No",
-					"text": "No"
+					"value": "Manual",
+					"text": "Manual"
 				}
 			],
-			"required": false
-		},
-        {
-			"id": "4",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "What is the name of VNET",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "5",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What is the Gateway type configured with existing VNET?",
-			"watermarkText": "...",
 			"required": false
 		}
     ],
