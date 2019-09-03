@@ -35,12 +35,12 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Scaling compute",
-                    "text": "Scaling compute"
+                    "value": "Changing number of vCores",
+                    "text": "Changing number of vCores"
                 },
                 {
-                    "value": "Scaling storage",
-                    "text": "Scaling storage"
+                    "value": "Changing storage size",
+                    "text": "Changing storage size"
                 },
                 {
                     "value": "Changing service tier",
