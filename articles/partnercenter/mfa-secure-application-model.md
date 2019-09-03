@@ -23,10 +23,10 @@ Resource materials related to implementing partner security requirements immedia
 
 ## **Recommended Steps**
 
-- Question: How do I confirm that my environment is complaint with the partner security requirements? [Answer](https://docs.microsoft.com/partner-center/partner-security-requirements#assessing-your-environment).
-- Question: If I have already enabled MFA (through conditional access or any third party solution), enable the Require MFA for admins and End user protection baseline policies? [Answer](https://docs.microsoft.com/partner-center/partner-security-requirements-faq#is-it-a-requirement-to-enable-the-baseline-protection-policies). 
-- Issue: Assistance in setting up MFA: Outlook isn't connecting after enabling MFA. [Solutions](https://docs.microsoft.com/partner-center/partner-security-requirements#do-you-have-users-using-office-365-provided-by-licenses-associated-with-your-partner-tenant). 
-- Issue: Account lockouts happening while implementing MFA. [Solutions](https://docs.microsoft.com/partner-center/partner-security-requirements#configure-self-service-password-reset). 
+- [How do I confirm that my environment is complaint with the partner security requirements?](https://docs.microsoft.com/partner-center/partner-security-requirements#assessing-your-environment)
+- [If I have already enabled MFA (through conditional access or any third party solution), how do I enable the required MFA for admins and end user protection baseline policies?](https://docs.microsoft.com/partner-center/partner-security-requirements-faq#is-it-a-requirement-to-enable-the-baseline-protection-policies)
+- [Outlook isn't connecting after enabling MFA](https://docs.microsoft.com/partner-center/partner-security-requirements#do-you-have-users-using-office-365-provided-by-licenses-associated-with-your-partner-tenant)
+- [Account lockouts happening while implementing MFA](https://docs.microsoft.com/partner-center/partner-security-requirements#configure-self-service-password-reset)
 
 
 ## **Recommended Documents**
