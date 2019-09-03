@@ -21,3 +21,4 @@
 ## **Recommended Documents**
 
 * [View or print your MAPs invoice](https://docs.microsoft.com/partner-center/mpn-view-print-maps-invoice)
+* [Refund policy-MPN OFFER PURCHASE TERMS AND CONDITIONS](https://go.microsoft.com/fwlink/?linkid=842232)
