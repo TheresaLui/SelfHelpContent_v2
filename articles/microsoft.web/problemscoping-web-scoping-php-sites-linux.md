@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for high CPU usage"
-	description="High CPU usage"
+	pageTitle="Scoping questions for PHP"
+	description="PHP"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32583701"
-	productPesIds="14748"
+	supportTopicIds="32444083"
+	productPesIds="16170"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="d65501bd-4146-474a-b467-2c84e613b369"
+   articleId="793d003c-4810-9edf-8bbeccf38e7c"
 />
 
-# High CPU usage
+# PHP
 ---
 {
      "resourceRequired": false,
@@ -38,7 +38,7 @@
 			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Has the site volume increased?",
+			"displayLabel": "Have you enabled PHP error log?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
@@ -48,30 +48,6 @@
 					"text": "No"
 				}
 			],
-			"required": false
-		},
-        {
-			"id": "4",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "Which indicators are you looking at for CPU usage?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "5",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "How much CPU consumption are you seeing?",
-			"watermarkText": "...",
-			"required": false
-		},
-        {
-			"id": "6",
-			"order": 6,
-			"controlType": "textbox",
-			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
-			"watermarkText": "...",
 			"required": false
 		}
     ],

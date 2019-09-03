@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for high CPU usage"
-	description="High CPU usage"
+	pageTitle="Scoping questions for Remote debugging"
+	description="Remote debugging"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32583701"
-	productPesIds="14748"
+	supportTopicIds="32581620"
+	productPesIds="16170"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="d65501bd-4146-474a-b467-2c84e613b369"
+   articleId="5f322fa9-452c-a39b-028cde102221"
 />
 
-# High CPU usage
+# Remote debugging
 ---
 {
      "resourceRequired": false,
@@ -38,7 +38,7 @@
 			"id": "3",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Has the site volume increased?",
+			"displayLabel": "Have you updated Visual Studio to the latest updates?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
@@ -53,25 +53,65 @@
         {
 			"id": "4",
 			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "Which indicators are you looking at for CPU usage?",
-			"watermarkText": "...",
+			"controlType": "dropdown",
+			"displayLabel": "Have you updated the Azure SDK to the latest updates?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}
+			],
 			"required": false
 		},
         {
 			"id": "5",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "How much CPU consumption are you seeing?",
+			"displayLabel": "What is the version and release of Visual Studio you are using?",
 			"watermarkText": "...",
 			"required": false
 		},
         {
 			"id": "6",
 			"order": 6,
+			"controlType": "dropdown",
+			"displayLabel": "Are you using Cloud Explorer to start debugging or manually attaching the debugger?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Cloud Explorer",
+					"text": "Cloud Explorer"
+				}, {
+					"value": "Manual",
+					"text": "Manual"
+				}
+			],
+			"required": false
+		},
+        {
+			"id": "7",
+			"order": 7,
 			"controlType": "textbox",
-			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
+			"displayLabel": "What is the exact error message?",
 			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "8",
+			"order": 8,
+			"controlType": "dropdown",
+			"displayLabel": "Are you behind a firewall?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}
+			],
 			"required": false
 		}
     ],

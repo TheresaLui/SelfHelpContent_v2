@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Scoping questions for high CPU usage"
-	description="High CPU usage"
+	pageTitle="Scoping questions for high memory usage"
+	description="High memory usage"
 	service="microsoft.web"
 	authors="shrahman, khaled-zayed"
     ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32583701"
-	productPesIds="14748"
+	supportTopicIds="32581616"
+	productPesIds="16333"
 	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="d65501bd-4146-474a-b467-2c84e613b369"
+   articleId="ccbd-4b55-8191-4539de3408c8"
 />
 
-# High CPU usage
+# High memory usage
 ---
 {
      "resourceRequired": false,
@@ -54,7 +54,7 @@
 			"id": "4",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "Which indicators are you looking at for CPU usage?",
+			"displayLabel": "Which indicators are you looking at for memory usage?",
 			"watermarkText": "...",
 			"required": false
 		},
@@ -62,7 +62,7 @@
 			"id": "5",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "How much CPU consumption are you seeing?",
+			"displayLabel": "How much memory consumption are you seeing?",
 			"watermarkText": "...",
 			"required": false
 		},
