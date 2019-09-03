@@ -26,3 +26,4 @@ Resources providing knowledge of how to activate benefits in the Microsoft Partn
 * [Manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits)
 * [How to activate Microsoft Azure internal-use rights licenses in Partner Membership Center or Partner Center](https://support.microsoft.com/help/3013414/how-to-activate-microsoft-azure-internal-use-rights-licenses)
 * [Microsoft Partner Network Support contract activation and Access ID in Partner Center](https://support.microsoft.com/help/2904733/microsoft-partner-network-support-contract-activation)
+*  [Activation, Download and User Assignment of Benefits](https://support.microsoft.com/help/2966368/downloading-activating-software-in-pmc-and-partner-center)
