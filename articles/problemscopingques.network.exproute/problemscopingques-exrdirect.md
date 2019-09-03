@@ -38,8 +38,9 @@
                 }
             ],
             "required": true
-        },{
-            "id": "peer_location",
+        },
+{
+            "id": "is_inventory",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Is inventory available in your desired peering location?",
@@ -55,18 +56,18 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other, don't know, or not applicable"
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
 		},{
-                        "id": "peer_location",
-                        "visibility": "is_inventory == No",
-                        "order": 3,
-                        "controlType": "textbox",
-                        "displayLabel": "Which peering location is you interested in?",
-                        "watermarkText": "",
-                        "required": false
+			"id": "peer_location",
+			"visibility": "is_inventory == No",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Which peering location is you interested in?",
+			"watermarkText": "",
+			"required": false
 		},{
 			"id": "problem_start_time",
 			"order": 4,
