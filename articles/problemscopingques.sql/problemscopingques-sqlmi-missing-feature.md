@@ -28,15 +28,6 @@
             "required": true
         },
         {
-            "id": "feature_business_impact",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the business impact of the missing feature/functionality?",
-            "watermarkText": "Provide information about the business impact of the missing feature/functionality",
-            "required": false,
-            "useAsAdditionalDetails": false
-        },
-        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
@@ -44,6 +35,14 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
+        },
+            "id": "feature_business_impact",
+            "order": 1001,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the business impact of the missing feature/functionality?",
+            "watermarkText": "Provide information about the business impact of the missing feature/functionality",
+            "required": false,
+            "useAsAdditionalDetails": false
         }
     ]
 }
