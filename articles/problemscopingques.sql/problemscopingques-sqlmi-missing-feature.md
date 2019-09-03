@@ -36,6 +36,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         },
+        {
             "id": "feature_business_impact",
             "order": 1001,
             "controlType": "multilinetextbox",
