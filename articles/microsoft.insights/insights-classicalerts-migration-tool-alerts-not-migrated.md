@@ -37,5 +37,5 @@ The migration tool creates equivalent new alert rules and action groups for your
 ## **Recommended Documents**
 
 - [Understand the automatic migration process](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-automatic-migration)
-- [Classic alert rules that will not be migrated](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-understand-migration#classic-alert-rules-that-will-not-be-migrated)
+- [Classic alert rules that will not be migrated](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-understand-migration#classic-alert-rules-that-will-not-be-migrated)
 - [Common problems with migration and how to resolve them](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-understand-migration#common-problems-and-remedies)
