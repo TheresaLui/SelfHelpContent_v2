@@ -16,7 +16,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB SDK Latency Issues",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please (zip) attach a .csv with extra request diagnostics or query metrics if available, as well additional debugging info like a repro.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -45,7 +45,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Environment Information",
-			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, SPARK, Other Cloud)",
+			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, Spark, Spring, Other Cloud)",
             "required": false
         },
 		{
@@ -91,8 +91,8 @@
                     "text": "Spring"
                 },
                 {
-                    "value": "SPARK",
-                    "text": "SPARK"
+                    "value": "Spark",
+                    "text": "Spark"
                 }
             ],
             "required": false
@@ -102,15 +102,15 @@
             "order": 8,
             "controlType": "textbox",
             "displayLabel": "What is your SDK Version?",
-			"infoBalloonText": "Version example (1xx, 2xx, 3xx)",
+			"infoBalloonText": "Version example (1.x.x, 2.x.x, 3.x.x)",
             "required": false
         },
 		{
             "id": "query_string",
             "order": 9,
             "controlType": "textbox",
-            "displayLabel": "Provide your diagnostic log query string",
-			"infoBalloonText": "<a href='https://docs.microsoft.com/azure/cosmos-db/logging#queries'>Cosmos DB article</a> -Sample log queries",
+            "displayLabel": "Request Diagnostics or Query Metrics string",
+			"infoBalloonText": "<a href='https://aka.ms/cosmos-how-to-diagnostics'>Cosmos DB article</a> - Diagnostics how to",
             "required": false
         },
         {

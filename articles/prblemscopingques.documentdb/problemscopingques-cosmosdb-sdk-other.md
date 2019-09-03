@@ -16,7 +16,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "CosmosDB SDK Other Issues",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Attach (zip) file of sample code",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -25,39 +25,25 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-        {
-            "id": "cpu_information",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "CPU Information",
-            "required": false
-        },
 		{
             "id": "environment_information",
-            "order": 3,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Environment Information",
-			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, SPARK, Other Cloud)",
+			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, Spark, Spring, Other Cloud)",
             "required": false
         },
 		{
             "id": "region_information",
-            "order": 4,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Region Information",
 			"infoBalloonText": "Read/Write regions where the issue is experienced",
             "required": false
         },
 		{
-            "id": "request_pct",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Percentage of requests observing the issue",
-            "required": false
-        },
-		{
             "id": "sdk_type",
-            "order": 6,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the client SDK used?",
             "watermarkText": "Choose an option",
@@ -83,38 +69,30 @@
                     "text": "Spring"
                 },
                 {
-                    "value": "SPARK",
-                    "text": "SPARK"
+                    "value": "Spark",
+                    "text": "Spark"
                 }
             ],
             "required": false
         },
         {
             "id": "sdk_version",
-            "order": 7,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is your SDK Version?",
-			"infoBalloonText": "Version example (1xx, 2xx, 3xx)",
-            "required": false
-        },
-        {
-            "id": "problem_repro",
-            "order": 8,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide repro steps and sample code for your issue",
-			"infoBallonText": "To expedite your issue resolution it may help to provide steps to reproduce the issue and/or sample code",
+			"infoBalloonText": "Version example (1.x.x, 2.x.x, 3.x.x)",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing.",
+            "displayLabel": "Please provide repro steps and sample code for your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "More information on the exact issue."
+                    "text": "To expedite your issue resolution it may help to provide steps to reproduce the issue and/or sample code attached as a file or link to git hub"
                 }
             ]
         }

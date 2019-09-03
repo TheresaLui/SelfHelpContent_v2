@@ -38,7 +38,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Environment Information",
-			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, SPARK, Other Cloud)",
+			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, Spark, Spring, Other Cloud)",
             "required": false
         },
 		{
@@ -77,8 +77,8 @@
                     "text": "Spring"
                 },
                 {
-                    "value": "SPARK",
-                    "text": "SPARK"
+                    "value": "Spark",
+                    "text": "Spark"
                 }
             ],
             "required": false
@@ -88,7 +88,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "What is your SDK Version?",
-			"infoBalloonText": "Version example (1xx, 2xx, 3xx)",
+			"infoBalloonText": "Version example (1.x.x, 2.x.x, 3.x.x)",
             "required": false
         },
         {
@@ -103,7 +103,7 @@
                     "text": "More information on the exact issue."
                 },
                 {
-                    "text": "Activity Id of the request (if available)."
+                    "text": "Please provide repro steps."
                 }
             ]
         }
