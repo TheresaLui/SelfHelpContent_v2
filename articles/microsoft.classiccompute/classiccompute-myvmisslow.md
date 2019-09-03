@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32628275"
+	supportTopicIds="32411875"
 	resourceTags="windows, linux, windowsSQL, redhat"
 	productPesIds="14749,15571,15797,16454"
 	cloudEnvironments="public"
