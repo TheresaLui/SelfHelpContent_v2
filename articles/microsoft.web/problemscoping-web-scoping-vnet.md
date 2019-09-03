@@ -23,18 +23,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "What is the name of VNET"
-                },
-                {
-                    "text": "What is the Gateway type configured with existing VNET?"
-                },
-                {
-                    "text": "Is point-to-site enabled on VNET Gateway?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -42,7 +31,39 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
+        },
+        {
+            "id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Is point-to-site enabled on VNET Gateway?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}
+			],
+			"required": false
+		},
+        {
+			"id": "4",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "What is the name of VNET",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "5",
+			"order": 5,
+			"controlType": "textbox",
+			"displayLabel": "What is the Gateway type configured with existing VNET?",
+			"watermarkText": "...",
+			"required": false
+		}
     ],
     "$schema": "SelfHelpContent"
 }
