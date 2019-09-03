@@ -15,7 +15,6 @@
 
 ---
     {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "SQL DW Gen2 upgrade from Gen1",
