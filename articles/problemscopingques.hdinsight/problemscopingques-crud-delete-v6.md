@@ -1,20 +1,21 @@
 <properties
-	articleId="21b5b627-e2bf-49b5-9e31-f69f51a3cc18"
-	pageTitle="Scoping Questions for HDInsight Kafka Broker Issue"
-	description="Scoping Questions for HDInsight Kafka Broker Issue"
-	authors="lisaliu"
-	ms.author="lisaliu"
+	articleId="29214270-d021-4e34-8fbf-98c9e82b7924"
+	pageTitle="Scoping Questions for HDInsight Delete Issue"
+	description="Scoping Questions for HDInsight Delete Issue"
+	authors="shravanmn, csunilkumar, lisaliu"
+	ms.author="shravan, sunilkc, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628995, 32629018, 32629019, 32629020, 32629021, 32629074"
+	supportTopicIds="32681536"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Kafka Broker Issue
+# HDI Cluster Delete Issue
 ---
 {
     "resourceRequired": true,
-    "title": "HDInsight Kafka Issue",
+    "subscriptionRequired": true,
+    "title": "HDInsight CRUD Delete Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -33,7 +34,7 @@
         },
         {
             "id": "is_new_problem",
-            "order": 3,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -64,7 +65,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
             "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
-            "required": true
+            "required": false
         },
         {
             "id": "change_made",
@@ -73,21 +74,45 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
+            "required": false
+        },
+        {
+            "id": "CRUD_request_submission_method",
+            "order": 200,
+            "controlType": "dropdown",
+            "displayLabel": "How was the CRUD request submitted?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Azure Portal",
+                    "text": "Azure Portal"
+                },
+                {
+                    "value": "ARM Template",
+                    "text": "ARM Template"
+                },
+                {
+                    "value": "Azure CLI",
+                    "text": "Azure CLI"
+                },
+                {
+                    "value": "Power Shell",
+                    "text": "Power Shell"
+                },
+                {
+                    "value": "Azure Data Factory Activity",
+                    "text": "Azure Data Factory Activity"
+                },
+                {
+                    "value": "Azure Automation runbook",
+                    "text": "Azure Automation runbook"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
             "required": true
-        },
-        {
-            "id": "number_total_brokers",
-            "order": 150,
-            "controlType": "textbox",
-            "displayLabel": "Total number of brokers on your Kafka cluster",
-            "required": false
-        },
-        {
-            "id": "number_problem_brokers",
-            "order": 160,
-            "controlType": "textbox",
-            "displayLabel": "Number of brokers experienced the problem",
-            "required": false
         },
         {
             "id": "problem_description",
@@ -97,12 +122,6 @@
             "watermarkText": "Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 600,
-            "controlType": "infoblock",
-            "content": "<a href='https://hdinsight.github.io/kafka/kafka-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
     ],
     "$schema": "SelfHelpContent"

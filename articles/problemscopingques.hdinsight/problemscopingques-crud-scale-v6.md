@@ -1,21 +1,22 @@
 <properties
-	articleId="e3caa757-3e0c-4ab6-8dfe-61a019fac909"
-	pageTitle="Scoping Questions for HDInsight Delete Issue"
-	description="Scoping Questions for HDInsight Delete Issue"
-	authors="lisaliu"
-	ms.author="lisaliu"
+	articleId="07bf991e-b729-4f69-aed2-d33877bd20f7"
+	pageTitle="Scoping Questions for HDInsight Scaling Issue"
+	description="Scoping Questions for HDInsight Scaling Issue"
+	authors="shravanmn, csunilkumar, lisaliu"
+	ms.author="shravan, sunilkc, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629037"
+	supportTopicIds="32681537, 32681540, 32681539, 32681538"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# HDI Cluster Delete Issue
+# HDI Cluster Scaling Issue
 ---
 {
     "resourceRequired": true,
-    "title": "HDInsight CRUD Issue",
-    "fileAttachmentHint": "",
+    "subscriptionRequired": true,
+    "title": "HDInsight Scaling Issue",
+    "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -33,9 +34,9 @@
         },
         {
             "id": "is_new_problem",
-            "order": 3,
+            "order": 50,
             "controlType": "dropdown",
-            "displayLabel": "Is this a new problem, or it has happened before?",
+            "displayLabel": "Is this a new problem, or the problem has happened before?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -55,7 +56,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "previous_solution",
@@ -64,7 +65,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
             "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
-            "required": true
+            "required": false
         },
         {
             "id": "change_made",
@@ -73,7 +74,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
-            "required": true
+            "required": false
         },
         {
             "id": "CRUD_request_submission_method",
@@ -107,8 +108,8 @@
                     "text": "Azure Automation runbook"
                 },
                 {
-                    "value": "Other (describe below)",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -121,12 +122,6 @@
             "watermarkText": "Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 600,
-            "controlType": "infoblock",
-            "content": "<a href='https://hdinsight.github.io/ClusterCRUD/clustercrud-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
     ],
     "$schema": "SelfHelpContent"

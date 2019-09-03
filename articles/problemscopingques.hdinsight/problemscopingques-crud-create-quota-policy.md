@@ -1,11 +1,11 @@
 <properties
-	articleId="a270902b-e2c9-4f4a-abd2-b85d97b41327"
-	pageTitle="Scoping Questions for HDInsight Create Issue"
-	description="Scoping Questions for HDInsight Create Issue"
-	authors="lisaliu"
-	ms.author="lisaliu"
+	articleId="e8a9c8a8-e67c-4115-aa74-33557cfffabc"
+	pageTitle="Scoping Questions for HDInsight Create Issue related to quota limit or Azure policy"
+	description="Scoping Questions for HDInsight Create Issue related to quota limit or Azure policy"
+	authors="shravanmn, csunilkumar, lisaliu"
+	ms.author="shravan, sunilkc, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629032"
+	supportTopicIds="32681543, 32681542"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -15,7 +15,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "HDInsight CRUD Issue",
+    "title": "HDInsight Cluster Create Issue",
     "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
     "formElements": [
         {
@@ -36,14 +36,14 @@
             "id": "cluster_name",
             "order": 10,
             "controlType": "textbox",
-            "displayLabel": "Cluster name if available",
-            "required": false
+            "displayLabel": "Cluster name",
+            "required": true
         },
         {
             "id": "is_new_problem",
             "order": 50,
             "controlType": "dropdown",
-            "displayLabel": "Is this a new problem, or it has happened before?",
+            "displayLabel": "Is this a new problem, or the problem has happened before?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -182,8 +182,8 @@
                     "text": "Azure Automation runbook"
                 },
                 {
-                    "value": "Other (describe below)",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
