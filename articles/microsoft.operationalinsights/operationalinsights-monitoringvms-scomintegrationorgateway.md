@@ -26,13 +26,8 @@ Connecting Operations Manager with Azure Log Analytics allows you to collect mac
 
 * Unable to register SCOM to the log Analytics workspace? Connect Operations Manager to your Log Analytics workspace by [updating the SCOM management packs](https://azure.microsoft.com/updates/system-center-operations-manager-management-pack-to-configure-operations-management-suite/)
 * Unable to connect Operations Manager to Log Analytics, status of SCOM says last data sent as "never": Re-configure Azure Log Analytics in SCOM
-* Communication errors because of TLS version: 
-  
-  * Configure [MMA agent to use TLS 1.2](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#configure-agent-to-use-tls-12)
-
-* What does Health Service event 8000 mean?
-
- * The Log Analytics workspace to which the MMA agent is connected is deleted and hence the MMA agent is causing this error <br>
+* Communication errors because of TLS version? Configure [MMA agent to use TLS 1.2](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#configure-agent-to-use-tls-12)
+* Error Health Service event 8000: The Log Analytics workspace to which the MMA agent is connected is deleted and hence the MMA agent is causing this error <br>
 
 ## **Recommended Documents**
 
