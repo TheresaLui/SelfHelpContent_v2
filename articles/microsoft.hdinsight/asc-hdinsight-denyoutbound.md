@@ -13,7 +13,7 @@
     supportTopicIds="32629159, 32636423, 32636422"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 # HDInsight cluster contains deny outbound rule within Network Security Group
 
