@@ -24,4 +24,6 @@
 
 ## **Recommended Documents**
 
+* [Co-sell Partner engagement guide](https://aka.ms/Co-sellPartnerengagementguidepartnerlink)
+* [Co-sell Ready partner community](https://www.microsoftpartnercommunity.com/t5/Co-Sell-Ready-partners/gp-p/Co-SellReadypartners)
 * [Get Co-Sell ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
