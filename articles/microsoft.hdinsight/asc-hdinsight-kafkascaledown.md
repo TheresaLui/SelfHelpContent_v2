@@ -13,7 +13,7 @@
     supportTopicIds="32628995, 32629125, 32636492, 32636468"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # We ran diagnostics on your resource and found an issue
