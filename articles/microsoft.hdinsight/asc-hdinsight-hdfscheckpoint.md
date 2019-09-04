@@ -13,7 +13,7 @@
     supportTopicIds="32628986, 32629101, 32636418, 32636425"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> checkpoint error
