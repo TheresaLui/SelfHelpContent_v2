@@ -37,8 +37,8 @@ supportTopicIds="32573483"
             "id": "backend_health",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Are there any Unhealthy backends?",
-			"infoBalloonText": "Use <a href='data-blade:Microsoft_Azure_Network.ApplicationGatewayBackendHealthGridBlade.id.$resourceId'>Backend health</a> to view the health status of each backend",
+            "displayLabel": "Are there any unhealthy backends?",
+			"infoBalloonText": "Use <a href='https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal'>Backend health</a> to view the health status of each backend",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
