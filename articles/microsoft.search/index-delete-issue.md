@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Search Index/Issue deleting an index
+# Issue deleting an index
 
 ## **Recommended Steps**
 
@@ -23,7 +23,7 @@ The most common reason for an index not being deleted will happen when making th
 * Using a Query API key as opposed to an Admin API Key (which is required for this action)
 * Incorrectly formed API request
 * The Index was previously deleted
-* The services is unavailable (and you may wish to add Replicas to ensure an availability SLA)
+* The service is currently unavailable.  You must have 2 or more replicas to ensure an availability SLA.
 
 ## **Recommended Documents**
 
