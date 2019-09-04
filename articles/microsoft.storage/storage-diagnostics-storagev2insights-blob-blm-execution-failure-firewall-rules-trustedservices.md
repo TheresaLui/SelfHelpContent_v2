@@ -1,0 +1,28 @@
+<properties
+pageTitle="Lifecycle Management doesn't execute when Firewall is enabled without Trusted Services selected"
+description="Lifecycle Management doesn't execute when Firewall is enabled without Trusted Services selected"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="annayak"
+ms.author="annayak"
+displayOrder=""
+articleId="storagev2insights_blob_blm_execution_firewall_rules_trustedservices"
+diagnosticScenario="Storage issues with Storage Firewalls enabled"
+selfHelpType="diagnostics"
+supportTopicIds=""
+productPesIds=""
+cloudEnvironments="public"
+/>
+
+# Connectivity issues with Storage Firewalls enabled
+
+<!--issueDescription-->
+We have detected that [Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security) is currently configured on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** but doesn't have **Trusted Microsoft** services selected as an exception. Lifecycle management requests are issued via the Microsoft.Insights service which is part of the [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services). These requests get blocked when **Trusted Microsoft Services** is not selected in the firewall exception list.
+
+## **Recommended Steps**
+
+For successful execution of Lifecycle management policies on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** , add **Trusted Services** as an exception. 
+ * [Configure firewall and virtual networks Exception](https://docs.microsoft.com/azure/storage/common/storage-network-security#exceptions)
+
+<!--/issueDescription-->
