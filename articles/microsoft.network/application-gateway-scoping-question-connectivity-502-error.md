@@ -37,8 +37,8 @@ supportTopicIds="32573483"
             "id": "backend_health",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Are there any [Unhealthy backends](data-blade:Microsoft_Azure_Network.ApplicationGatewayBackendHealthGridBlade)?",
-            "watermarkText": "Choose an option",		
+            "displayLabel": "Are there any [Unhealthy backends](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal)?",
+            "watermarkText": "Choose an option",	
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -47,6 +47,10 @@ supportTopicIds="32573483"
                 {
                     "value": "No",
                     "text": "No"
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": true
