@@ -31,9 +31,8 @@
 
 **Unexpected Charges**<br>
 
-The anniversary day is the day of the month you purchased the subscription. The invoice is generated on the anniversary date and 10 days later the credit card is charged. Invoice customers need to pay using Wire transfer/check and the details for payment is available on your monthly invoice.
-
-For example, if you purchased the subscription on January 15th, the anniversary day will be the 15th of each month when the invoice is generated and 10 days later the card is charged.
+The anniversary day is the day of the month you purchased the subscription. The invoice is generated on the anniversary date and 10 days later the credit card is charged. Invoice customers need to pay using Wire transfer/check and the details for payment is available on your monthly invoice.<br>
+For example, if you purchased the subscription on January 15th, the anniversary day will be the 15th of each month when the invoice is generated and 10 days later the card is charged.<br>
 
 **Note**: If you cancel your subscription/resource in the middle of your billing cycle, you might still see a charge which would be for any usage in the previous month. For example, if your billing cycle was from the 26th of every month to the 25th of the next month & you suspended the subscription on the 23rd, which is 28 days into the billing cycle for June, you might see a charge for the 28 days of use. 
 If you see a charge in spite of cancelling a subscription please make sure, you don’t have any other support plans which is causing the charge. If you do, please go ahead and cancel the plan.<br>
@@ -48,18 +47,18 @@ You may experience an issue when you try to sign up for a new account in the Mi
 
 **Unable to access services**<br>
 
-This may be caused by a disabled subscription, due to outstanding charges. Please make sure to login as an admin to settle the payments before [re-activating the subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable).
+This may be caused by a disabled subscription, due to outstanding charges. Please make sure to login as an admin to settle the payments before [reactivating the subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable).
 
 **Azure Free Trial**
 
 Azure free trial account is only for 1 month and once it is upgraded to [Pay-as-you-go](https://azure.microsoft.com/offers/ms-azr-0003p/) there will be 12 month free services. When you upgrade from a Free Trial subscription, you keep your remaining credit for the full 30 days after you created the subscription. You also have access to free services for 12 months. If you want to [transfer the subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer) after upgrading, you must wait until the subscription offer ID changes to MS-AZR-003P. The offer ID changes when:
 
-  * You consume all the remaining credit, or
-  * 30 days pass since the start of the free trial: [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)
+* You consume all the remaining credit, or
+* 30 days pass since the start of the free trial: [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)
   
 **Unable to create or upgrade to another support plan**
 
-* Make sure to sign in to Azure account center as account admin. If you already have a subscription add a payment method to re-activate it. Please make sure to wait for few hours for the process completion.
+* Make sure to sign in to Azure account center as account admin. If you already have a subscription add a payment method to reactivate it. Please make sure to wait for few hours for the process completion.
 * The credit card linked to the current plan might have spending limit or some other issue. Please try linking to another card.
 
 **Note**: Support plans are billed like separate subscriptions and have subscription ID’s associated with them for billing purposes. All subscriptions on an account will receive the benefits associated with that support plan.
@@ -69,12 +68,11 @@ Only an account admin or the service administrator for the subscription can perf
 		
 **Azure for Students**
 
-* Unable to sign-up for Azure for student offer: Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case its not added, please reach out to your local IT team to add the email in the org directory.
+* Unable to sign-up for Azure for student offer: Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case it's not added, please reach out to your local IT team to add the email in the org directory.
 * Azure for Students subscription disabled due to exhausting the spending limit:
 
    * [Remove any spending limits](https://docs.microsoft.com/azure/billing/billing-spending-limit)
-   * If you are getting an error, please [Add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card) to your Azure Profile and convert the offer to Pay-As-You-Go
-   
+   * If you are getting an error, please [Add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card) to your Azure Profile and convert the offer to Pay-As-You-Go   
 * Unable to sign-up for Azure for student offer due to error message "**You are not eligible for an Azure subscription**":<br>
 This could be due to an unmanaged Active Directory tenant issue. Please follow the steps below:
  
