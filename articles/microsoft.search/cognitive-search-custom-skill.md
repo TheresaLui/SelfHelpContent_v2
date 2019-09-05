@@ -1,0 +1,28 @@
+<properties
+	pageTitle="Issue getting a custom skill to work"
+	description="Issue getting a custom skill to work"
+	service="microsoft.search"
+	resource="searchservices"
+	authors="vkurpad"
+	ms.author="vikurpad"
+	selfHelpType="resource"
+	displayOrder="4"	
+	supportTopicIds="32681334"
+	resourceTags=""
+	productPesIds="15568"
+	articleId="cognitve-search-custom-skill"
+	cloudEnvironments="public"
+/>
+# Issue getting a custom skill to work with Cognitive Search
+
+## **Recommended Steps**
+
+If you are having trouble with a custom skill, you may want to ensure that:
+
+1. Validate that your skill works with a REST client 
+1. Validate that the custom skill meets the [custom skill interface guidelines](https://docs.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-interface)
+1. Check the indexer run errors and warnings
+1. Ensure that the skillset defintion of the custom skill is [valid](https://docs.microsoft.com/en-us/azure/search/cognitive-search-create-custom-skill-example)
+## **Recommended Documents**
+
+* [How to add a custom skill to a cognitive search pipeline](https://docs.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-interface) 
