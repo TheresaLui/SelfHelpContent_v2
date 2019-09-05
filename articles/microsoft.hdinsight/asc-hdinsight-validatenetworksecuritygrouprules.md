@@ -28,3 +28,4 @@ There is a problem with the inbound network security group rules configured for 
 ## **Recommended Documents**
 
 * [HDInsight with network security groups and user-defined routes](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#hdinsight-ip)
+ 
