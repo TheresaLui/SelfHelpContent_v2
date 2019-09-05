@@ -6,7 +6,7 @@
     resource="solutions"
     authors="adoylemsft"
     ms.author="adoyle"
-    displayorder="6"
+    displayorder="2"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
