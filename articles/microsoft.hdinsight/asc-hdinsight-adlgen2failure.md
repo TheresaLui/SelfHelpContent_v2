@@ -18,8 +18,7 @@
 
 # We ran diagnostics on your resource and found the following issue
 
-There is a problem with the Azure Data Lake Gen2 account configured for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->. <br>
-The Managed Service Identity (MSI) requires "Storage Blob Data Owner" permission.
+There is a problem with the Azure Data Lake Gen2 account configured for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->. The Managed Service Identity (MSI) requires "Storage Blob Data Owner" permission.
 
 ## **Recommended Steps**
 
