@@ -61,11 +61,11 @@ Azure free trial account is only for 1 month and once it is upgraded to [Pay-as-
 
 * Make sure to sign in to Azure account center as account admin. If you already have a subscription add a payment method to re-activate it. Please make sure to wait for few hours for the process completion.
 * The credit card linked to the current plan might have spending limit or some other issue. Please try linking to another card.
-* **Note**: Support plans are billed like separate subscriptions and have subscription ID’s associated with them for billing purposes. All subscriptions on an account will receive the benefits associated with that support plan.
+
+**Note**: Support plans are billed like separate subscriptions and have subscription ID’s associated with them for billing purposes. All subscriptions on an account will receive the benefits associated with that support plan.
       
 **Unable to move from one resource group to another**<br>
-      
-* Only an account admin or the service administrator for the subscription can perform this action. Refer to [move resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources) to learn more.
+Only an account admin or the service administrator for the subscription can perform this action. Refer to [move resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources) to learn more.
 		
 **Azure for Students**
 
@@ -78,8 +78,7 @@ Azure free trial account is only for 1 month and once it is upgraded to [Pay-as-
 
    * Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case its not added, please reach out to your local IT team to add the email in the org directory.
 
-* Unable to sign-up for Azure for student offer due to error message "**You are not eligible for an Azure subscription**":
-
+* Unable to sign-up for Azure for student offer due to error message "**You are not eligible for an Azure subscription**":<br>
 This could be due to an unmanaged Active Directory tenant issue. Please follow the steps below:
  
    * Open an InPrivate session of Internet Explorer and go to [Azure for Students](https://imagine.microsoft.com/azure)
@@ -91,15 +90,14 @@ This could be due to an unmanaged Active Directory tenant issue. Please follow t
 
 **Note**: You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://azure.microsoft.com/status/history/).
 
-**Page hangs in the loading status**
-
+**Page hangs in the loading status**<br>
 If your internet browser page hangs, try each of the following steps until you can get to the Azure portal:
 
-* Refresh the page
-* Use a different internet browser
-* Use the private browsing mode for your browser. For Internet Explorer: Click **Tools > Safety > InPrivate Browsing**, and then browse and sign-in to the [Azure portal](https://portal.azure.com/) or [Azure account center](https://account.azure.com/Subscriptions).
+   * Refresh the page
+   * Use a different internet browser
+   * Use the private browsing mode for your browser. For Internet Explorer: Click **Tools > Safety > InPrivate Browsing**, and then browse and sign-in to the [Azure portal](https://portal.azure.com/) or [Azure account center](https://account.azure.com/Subscriptions).
 
-**You are automatically signed in as a different user**
+**You are automatically signed in as a different user**<br>
 
 This issue can occur if you use more than one user account in an internet browser. Learn more: [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription).
 
