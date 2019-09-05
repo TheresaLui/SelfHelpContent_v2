@@ -18,15 +18,15 @@ cloudEnvironments="public"
 # Lifecycle Management couldn't transition blobs due to unsupported account or blob type
 
 <!--issueDescription-->
-We have detected that Lifecycle Management couldn't affect some or any blobs due to the following reason :- <br>
+We have detected that Lifecycle Management couldn't affect some or any blobs due to the following reason(s):
 
-**<!--$displayMessage-->[displayMessage]<!--/$displayMessage-->** 
+<!--$displayMessage-->[displayMessage]<!--/$displayMessage-->
 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
- For successful execution of Lifecycle Management policies on the storage account refer the issue description above and follow the applicable article below
+* For successful execution of Lifecycle Management policies on the storage account, refer the issue description above and follow the applicable article below
 
 ## **Recommended Documents**
 
