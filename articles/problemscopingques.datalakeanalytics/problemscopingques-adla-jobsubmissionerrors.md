@@ -1,5 +1,5 @@
 <properties
-	articleId="cb6e882e-5a9a-42e7-aff0-3354c6e8dd7c"
+	articleId="adla-job-submission-erros"
 	pageTitle="Scoping Questions for ADLA Job Submission Errors"
 	description="Scoping Questions for ADLA Job Submission Errors"
 	authors="guyhay, lisaliu, v-anukar"
@@ -38,7 +38,7 @@
             "controlType": "textbox",
             "displayLabel": "ADLA account name",
             "watermarkText": "Please provide the Azure Data Lake Analytics Account name",
-            "required": true
+            "required": false
         },
         {
             "id": "request_id",
@@ -51,7 +51,7 @@
         {
             "id": "permission_review_job",
             "order": 200,
-            "controlType": "dropdown",
+            "controlType": "multilinetextbox",
             "displayLabel": "Grant permission to look at the job?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [

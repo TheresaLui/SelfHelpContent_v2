@@ -1,5 +1,5 @@
 <properties
-	articleId="ed67b9ce-ed4f-4392-aeba-c78d34df0ceb"
+	articleId="adla-powershell-issues"
 	pageTitle="Scoping Questions for ADLA Portal and client tool issues"
 	description="Scoping Questions for ADLA Portal and client tool issues"
 	authors="guyhay, lisaliu, v-anukar"

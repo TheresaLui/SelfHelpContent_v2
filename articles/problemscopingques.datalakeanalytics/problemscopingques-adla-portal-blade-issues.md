@@ -1,5 +1,5 @@
 <properties
-	articleId="5afc3eba-2961-4272-a78a-08951926ea48"
+	articleId="adla-portal-clienttool-issues"
 	pageTitle="Scoping Questions for ADLA Portal and client tool issues"
 	description="Scoping Questions for ADLA Portal and client tool issues"
 	authors="guyhay, lisaliu, v-anukar"

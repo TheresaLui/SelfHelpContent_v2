@@ -1,5 +1,5 @@
 <properties
-	articleId="a31813b0-19cc-4cc8-9e94-a5cdb282d622"
+	articleId="adla-vs-installation-issues"
 	pageTitle="Scoping Questions for installing ADLS within Visual Studio"
 	description="Scoping Questions for installing ADLS within Visual Studio"
 	authors="guyhay, lisaliu, v-anukar"
@@ -46,7 +46,7 @@
             "controlType": "textbox",
             "displayLabel": "Request ID in CloudException",
             "watermarkText": "Please provide the requestID/operationID in the cloud exception",
-            "required": false
+            "required": true
         },
         {
             "id": "visualstudio_version",

@@ -1,5 +1,5 @@
 <properties
-	articleId="ba259ada-2d37-4cd7-9b09-ce2ecd30c9fc"
+	articleId="adla-sdk-issues"
 	pageTitle="Scoping Questions for difficulties while using ADL SDK"
 	description="Scoping Questions for difficulties while using ADL SDK"
 	authors="guyhay, lisaliu, v-anukar"
@@ -38,7 +38,7 @@
             "controlType": "textbox",
             "displayLabel": "ADLA account name",
             "watermarkText": "Please provide the Azure Data Lake Analytics Account name",
-            "required": true
+            "required": false
         },
         {
             "id": "request_id",
