@@ -30,20 +30,19 @@ If there is a pending payment on the card since the card was denied by your fina
 
 **Add a new Credit or Debit card to an Azure Subscription**<br>
 
-1. Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
-1. Search for **Cost Management + Billing**
-1. Select a Subscription you'd like to add the credit or debit card to and select **Payment methods**
-1. In the top-left corner, select “+” to add a card. A credit card form will appear on the right. Enter credit or debit card details.
-1. To make this card your active payment method, check the box next to Make this my active payment method above the form. This card will become the active payment instrument for all subscriptions using the same card as the selected subscription. Select **Next**.
-1. To **use a different credit card**, check the box next to the card you'd like to make the active payment method. Click **Set active**.
+* Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa). Search for **Cost Management + Billing**
+* Select a Subscription you'd like to add the credit or debit card to and select **Payment methods**
+* A credit card form will appear on the right. Enter credit or debit card details.
+* To make this card your active payment method, check the box next to Make this my active payment method above the form. This card will become the active payment instrument for all subscriptions using the same card as the selected subscription. Select **Next**.
+* To **use a different credit card**, check the box next to the card you'd like to make the active payment method. Click **Set active**.
 
 **Update/Change/Remove an existing Credit or Debit card**
 
-1. Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
-1. Search for **Cost Management + Billing**
-1. Select **Payment methods**. Click on the credit or debit card that you'd like to edit. A credit card form will appear on the right.
-1. Update the credit or debit card details. Select **Save**.
-1. To **remove**, check the box next to the card that you want to remove
+* Sign in to the [Azure portal](https://portal.azure.com/) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
+* Search for **Cost Management + Billing**
+* Select **Payment methods**. Click on the credit or debit card that you'd like to edit. A credit card form will appear on the right.
+* Update the credit or debit card details. Select **Save**
+* To **remove**, check the box next to the card that you want to remove
 	
 **Note**: You can't remove your credit card if it is associated with other active Microsoft subscriptions. You will need to remove the credit card from all active subscriptions that you have with Microsoft and try again. Click **Delete**.
 
