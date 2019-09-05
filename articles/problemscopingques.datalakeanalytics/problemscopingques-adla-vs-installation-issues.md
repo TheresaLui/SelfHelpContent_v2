@@ -46,7 +46,7 @@
             "controlType": "textbox",
             "displayLabel": "Request ID in CloudException",
             "watermarkText": "Please provide the requestID/operationID in the cloud exception",
-            "required": true
+            "required": false
         },
         {
             "id": "visualstudio_version",
@@ -62,7 +62,7 @@
             "controlType": "textbox",
             "displayLabel": "Version of Data Lake Studio",
             "watermarkText": "Please provide the version of data lake studio being used",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
