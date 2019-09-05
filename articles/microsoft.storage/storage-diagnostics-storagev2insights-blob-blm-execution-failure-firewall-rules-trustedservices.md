@@ -18,11 +18,15 @@ cloudEnvironments="public"
 # Lifecycle Management doesn't execute when Storage Firewall is enabled without "Trusted Services" selected
 
 <!--issueDescription-->
-We have detected that [Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security) is currently configured on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** but doesn't have **Trusted Microsoft** services selected as an exception. Lifecycle management requests are issued via the Microsoft.Insights service which is part of the [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services). These requests get blocked when **Trusted Microsoft Services** is not selected in the firewall exception list.
+We have detected that Storage Firewalls and Virtual Networks is currently configured on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**, but doesn't have **Trusted Microsoft** services selected as an exception. Lifecycle management requests are issued via the Microsoft.Insights service which is a trusted Microsoft Service. These requests get blocked when **Trusted Microsoft Services** is not selected in the firewall exception list.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
-For successful execution of Lifecycle management policies on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** , add **Trusted Services** as an exception. 
- * [Configure firewall and virtual networks Exception](https://docs.microsoft.com/azure/storage/common/storage-network-security#exceptions)
+* For successful execution of Lifecycle management policies on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** , add **Trusted Services** as an exception
 
-<!--/issueDescription-->
+## **Recommended Documents**
+
+ * [Configure firewall and virtual networks Exception](https://docs.microsoft.com/azure/storage/common/storage-network-security#exceptions)
+* [Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)
+* [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services)
