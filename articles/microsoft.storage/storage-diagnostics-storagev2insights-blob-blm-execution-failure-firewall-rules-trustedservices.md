@@ -28,5 +28,5 @@ We have detected that Storage Firewalls and Virtual Networks is currently config
 ## **Recommended Documents**
 
  * [Configure firewall and virtual networks Exception](https://docs.microsoft.com/azure/storage/common/storage-network-security#exceptions)
-* [Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)
-* [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services)
+ * [Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)
+ * [Trusted Microsoft Services](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services)
