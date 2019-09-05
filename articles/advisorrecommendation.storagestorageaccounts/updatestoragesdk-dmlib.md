@@ -22,7 +22,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
-  "recommendationFriendlyName": "UpdateSDK",
+  "recommendationFriendlyName": "UpdateSorageDataMovementSDK",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "yinfan@microsoft.com",
@@ -44,14 +44,13 @@
       "actionId": "7e9fbfe8-1234-435c-b114-424445c9be7f",
       "description": "Learn how to update your Storage Data Movement Library",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/AA5wtca"
+      "documentLink": "{recommendedActionLearnMore}"
     },
     {
       "actionId": "7e9fbfe8-1234-435c-b114-424445c9be8f",
       "description": "View {version} release notes",
       "actionType": "Document",
-      "extensionName": "Microsoft_Azure_Storage",
-      "documentLink": "https://aka.ms/AA5ys0r"
+      "documentLink": "{releaseNotes}"
     }
   ],
   "resourceMetadata": {
