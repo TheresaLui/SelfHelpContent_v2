@@ -38,6 +38,7 @@ If you see a charge in spite of cancelling a subscription please make sure, you 
 
 **Unable to Upgrade/Sign-up/Purchase Azure**<br>
 You may experience an issue when you try to sign up for a new account in the Microsoft Azure portal or Azure account center. Before you troubleshoot the issue, first consider the following suggestions:
+
 * Make sure that the information that you provided for your Azure account profile (including contact email address, street address, and telephone number) is correct
 * Make sure that the credit card information is correct
 * Make sure that you don’t already have a Microsoft account that has the same information
@@ -64,8 +65,8 @@ Azure free trial account is only for 1 month and once it is upgraded to [Pay-as-
 
 * Azure for Students subscription disabled due to exhausting the spending limit.
 
-   * [Remove any spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit.)
-   * If you are getting an error please [Add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card.) to your Azure Profile and convert the offer to Pay-As-You-Go.
+   * [Remove any spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
+   * If you are getting an error please [Add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card) to your Azure Profile and convert the offer to Pay-As-You-Go.
 
 * Unable to sign-up for Azure for student offer
 
