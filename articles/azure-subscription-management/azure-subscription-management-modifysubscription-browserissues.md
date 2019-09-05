@@ -1,6 +1,6 @@
 <properties
-	pageTitle="reenable subscriptions"
-	description="reenable subscriptions"
+	pageTitle="modify subscriptions - browser issues"
+	description="modify subscriptions - browser issues"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
-	articleId="reenablesubscriptions"
+	articleId="modifysubscriptions-browserissues"
 />
 
 # Browser issues
