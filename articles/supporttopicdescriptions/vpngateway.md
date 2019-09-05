@@ -1,5 +1,6 @@
 <properties
 description = "Support topic description for VPN Gateway"
+pageTitle="vpn gateway"
 authors = "akjoshi"
 ms.author = "akankshajsh"
 icmTeam="icmteam"
