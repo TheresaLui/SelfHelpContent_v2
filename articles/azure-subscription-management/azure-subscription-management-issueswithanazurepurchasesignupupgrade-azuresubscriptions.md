@@ -63,7 +63,7 @@ Azure free trial account is only for 1 month and once it is upgraded to [Pay-as-
 * The credit card linked to the current plan might have spending limit or some other issue. Please try linking to another card.
 * **Note**: Support plans are billed like separate subscriptions and have subscription ID’s associated with them for billing purposes. All subscriptions on an account will receive the benefits associated with that support plan.
       
-**Unable to move from one resource group to another**
+**Unable to move from one resource group to another**<br>
       
 * Only an account admin or the service administrator for the subscription can perform this action. Refer to [move resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources) to learn more.
 		
@@ -73,11 +73,11 @@ Azure free trial account is only for 1 month and once it is upgraded to [Pay-as-
 
    * [Remove any spending limits](https://docs.microsoft.com/azure/billing/billing-spending-limit)
    * If you are getting an error, please [Add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card) to your Azure Profile and convert the offer to Pay-As-You-Go
-
+   
 * Unable to sign-up for Azure for student offer:
 
    * Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case its not added, please reach out to your local IT team to add the email in the org directory.
-   
+
 * Unable to sign-up for Azure for student offer due to error message "**You are not eligible for an Azure subscription**":
 
 This could be due to an unmanaged Active Directory tenant issue. Please follow the steps below:
