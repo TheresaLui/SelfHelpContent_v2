@@ -1,6 +1,6 @@
 <properties
-	pageTitle="purchase,signup or upgrade - browser issues"
-	description="purchase,signup or upgrade - browser issues"
+	pageTitle="purchase,sign up or upgrade - browser issues"
+	description="purchase,sign up or upgrade - browser issues"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
@@ -14,13 +14,13 @@
 	articleId="issueswithpurchasesignuporupgrade-browserissues"
 />
 
-# Purchase,signup or upgrade - browser issues
+# Purchase,sign up or upgrade - browser issues
 
 ## **Recommended Steps**
 
-**Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)**
+**Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc)**
 
-* You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
+* You might be affected by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
 * Please log out of all the active azure sessions. Follow the below steps [here](http://www.thewindowsclub.com/launch-start-private-browsing) for in- Private session of the internet explorer, if using google chrome please use the incognito mode of the browsing
 * You could also try to Refresh browser, use another browser, delete cache cookies if above doesn't work<br>
 	
