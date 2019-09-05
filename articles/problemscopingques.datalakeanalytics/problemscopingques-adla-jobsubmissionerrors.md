@@ -68,7 +68,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -76,7 +76,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
             "watermarkText": "Please provide the detail symptom including the full error message text if available, and any other relevant information",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],
