@@ -42,13 +42,13 @@ Migrate single database, offline
 In case you need to migrate a single (or a few) databases offline, the quickest method is to use SQL native backup and restore.
 
 1. Execute native backup of your database with on-prem. SQL server
-2. Use restore to restore your backed database to managed instance, see [Restore a database to a managed instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-get-started-restore)
+2. Use restore to restore your backed database to managed instance, see [Restore a database to a managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore)
 
-For all methods migrating to managed instance, such is for example transactional replication, see [SQL Database migration methods](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-features#migration-methods).
+For all methods migrating to managed instance, such is for example transactional replication, see [SQL Database migration methods](https://docs.microsoft.com/azure/sql-database/sql-database-features#migration-methods).
 
 ## **Recommended Documents**
 
-- [SQL Database migration methods](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-features#migration-methods)
+- [SQL Database migration methods](https://docs.microsoft.com/azure/sql-database/sql-database-features#migration-methods)
 - [Data migration assistant](https://docs.microsoft.com/sql/dma/dma-overview?view=sql-server-2017)
 - [Database migration service](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)
-- [Restore a database to a managed instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-get-started-restore)
+- [Restore a database to a managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore)
