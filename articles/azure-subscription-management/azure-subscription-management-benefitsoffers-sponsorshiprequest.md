@@ -20,7 +20,7 @@
 
 ### Activate Azure Sponsorship
 
-This offer for a limited sponsored Microsoft Azure account is **available by e-mail invitation only for limited customers selected by Microsoft**. If you are entitled to the Microsoft Azure Sponsorship offer, you would have received an e-mail invitation to accept this offer for your Account Id.<br>
+This offer for a limited sponsored Microsoft Azure account is **available by email invitation only for limited customers selected by Microsoft**. If you are entitled to the Microsoft Azure Sponsorship offer, you would have received an email invitation to accept this offer for your Account Id.<br>
 
   1. Go to [Microsoft Azure Sponsorship Offer](https://azure.microsoft.com/offers/ms-azr-0036p/) and click **Activate**<br>
   2. To cancel your current subscription, please refer [how to cancel Azure subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)<br>
