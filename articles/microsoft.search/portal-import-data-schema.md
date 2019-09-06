@@ -7,7 +7,7 @@
 	ms.author="vikurpad"
 	selfHelpType="resource"
 	displayOrder="4"	
-	supportTopicIds="32681350"
+	supportTopicIds="32681349"
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-schema"
