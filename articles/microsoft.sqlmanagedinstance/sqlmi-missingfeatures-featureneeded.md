@@ -20,4 +20,8 @@ There are most probably other people that need the same or similar thing.
 
 ## **Recommended Steps**
 
-- Vote for the [existing feature requests, or file a new one](https://feedback.azure.com/forums/915676-sql-managed-instance) in the Azure Feedback.
+- If you are getting the error while using some feature, check is the feature supported in [Managed Instance]().
+- If the feature is supported, check is there some [unavailable option or known issue](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information).
+- If you are not sure how to use some feature try to find the examples in [Quick starts](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-index#5-minute-quickstarts), [Azure CLI samples](https://docs.microsoft.com/azure/sql-database/sql-database-cli-samples#managed-instance), [Azure PowerShell samples](https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples#managed-instance) or [How-to articles](https://docs.microsoft.com/azure/sql-database/sql-database-howto).
+- If you are using the feature that is available and you are getting the error, proceed with creating the ticked and add the error code, message, and as much as possible details.
+- If the feature or option is not supported vote for the [existing feature requests, or file a new one](https://feedback.azure.com/forums/915676-sql-managed-instance) in the Azure Feedback. The roadmap and ETA for the features that are not yet available cannot be find via support.
