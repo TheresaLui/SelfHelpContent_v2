@@ -41,11 +41,11 @@ supportTopicIds="32436964,32582828,32582829,32582830,32582825,32582826,32582827,
             "dropdownOptions": [
                 {
                     "value": "v1_SKU",
-                    "text": "vi SKU"
+                    "text": "V1 SKU"
                 },
                 {
                     "value": "v2_SKU",
-                    "text": "v2 SKU"
+                    "text": "V2 SKU"
                 },
 				{
                     "value": "dont_know_answer",
