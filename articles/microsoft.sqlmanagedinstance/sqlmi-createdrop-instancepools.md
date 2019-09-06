@@ -38,11 +38,11 @@ Deployment of instance pools can be managed only using PowerShell during public 
 
 For more info on instance pools: 
 
-- Read what are SQL Database [instance pools](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-instance-pools)
-- Check list of commands in [how-to guide](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-instance-pools-how-to)
+- Read what are SQL Database [instance pools](https://docs.microsoft.com/azure/sql-database/sql-database-instance-pools)
+- Check list of commands in [how-to guide](https://docs.microsoft.com/azure/sql-database/sql-database-instance-pools-how-to)
 - Deployment duration of instance pool is similar to [deployment time of single instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#managed-instance-management-operations)
 
 ## **Recommended Documents**
 
-- What are SQL Database [instance pools](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-instance-pools)
-- Instance pools [how-to guide](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-instance-pools-how-to)
+- What are SQL Database [instance pools](https://docs.microsoft.com/azure/sql-database/sql-database-instance-pools)
+- Instance pools [how-to guide](https://docs.microsoft.com/azure/sql-database/sql-database-instance-pools-how-to)
