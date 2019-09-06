@@ -2,7 +2,7 @@
 	pageTitle="Job started to return incorrect results"
 	description="Job started to return incorrect results"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay,v-ranjik"
 	authoralias="guyhay,v-ranjik"
 	authors="guyhay,v-ranjik"
