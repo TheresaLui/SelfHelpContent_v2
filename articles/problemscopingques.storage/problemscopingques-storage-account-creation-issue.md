@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Storage account creation issues"
+	pageTitle="Storage Account creation issues"
 	description="Issues creating storage account scoping question"
 	authors="Passaree"
     ms.author="passap"
@@ -37,7 +37,7 @@
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when account creation failed",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
