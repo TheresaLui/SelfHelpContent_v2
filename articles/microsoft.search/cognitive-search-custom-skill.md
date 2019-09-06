@@ -7,7 +7,7 @@
 	ms.author="vikurpad"
 	selfHelpType="resource"
 	displayOrder="4"	
-	supportTopicIds="32681334"
+	supportTopicIds="32681374"
 	resourceTags=""
 	productPesIds="15568"
 	articleId="cognitve-search-custom-skill"
