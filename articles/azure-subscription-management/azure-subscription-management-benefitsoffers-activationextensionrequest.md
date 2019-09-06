@@ -26,9 +26,9 @@ You may experience an issue when you try to sign up for a new account in the Mi
 
 [Troubleshoot Sign-up Issues](https://docs.microsoft.com/azure/billing/billing-troubleshoot-azure-sign-up)
 
-### Activate Visual Studio Enterprise (bizspark) benefit
+### Activate Visual Studio Enterprise (BizSpark) benefit
 
-[Activate your Bizspark benefit](https://azure.microsoft.com/offers/ms-azr-0064p/)<br>
+[Activate your BizSpark benefit](https://azure.microsoft.com/offers/ms-azr-0064p/)<br>
 
 **Note**: If you remove the [Spending Limit](https://azure.microsoft.com/pricing/spending-limits/), charges will be incurred at the [Pay-As-You-Go rates](https://azure.microsoft.com/pricing/). If you maintain the Spending Limit and you use your monthly credit in full or you use any service that is excluded from payment by monthly credit, your subscription will be suspended for the remainder of the billing period. You will be notified at least 30 days in advance of any increases to the rates. Any taxes which may result from receiving services at no charge are the sole responsibility of the recipient. You must maintain an active Visual Studio Enterprise subscription, provided by your organization based on its membership in the [Microsoft BizSpark](https://www.microsoft.com/bizspark) startup program, to enjoy this benefit. This offer is limited to one per subscriber.<br>
 Learn more: [Pricing](https://azure.microsoft.com/pricing/)
@@ -46,7 +46,7 @@ Azure free trial account is only for 1 month and once it is upgraded to [Pay-as-
    * 30 days pass since the start of the free trial
    * Unable to create/ upgrade to another support plan
    
-      * Make sure to sign in to Azure account center as account admin. If you already have a subscription add a payment method to re-activate it. Please make sure to wait for few hours for the process completion
+      * Make sure to sign in to Azure account center as account admin. If you already have a subscription add a payment method to reactivate it. Please make sure to wait for few hours for the process completion
       * The credit card linked to the current plan might have spending limit on or some issue. Please try linking to another card
 		
 **Note**: Support plans are billed like separate subscriptions and have subscription ID’s associated with them for billing purposes. All subscriptions on an account will receive the benefits associated with that support plan.<br>
