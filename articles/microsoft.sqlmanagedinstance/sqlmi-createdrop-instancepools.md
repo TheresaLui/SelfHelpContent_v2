@@ -22,12 +22,13 @@ Instance pools allow you to pre-provision compute resources according to your to
 
 There are several resource limitations regarding instance pools and instances inside pools:
 
-- Instance pools are available only on Gen5 hardware.
-- Instances within a pool have dedicated CPU and RAM, so the aggregated number of vCores across all instances must be less than or equal to the number of vCores allocated to the pool.
-- All instance level limits apply to instances created within a pool.
+- Instance pools are available only on Gen5 hardware
+- Instances within a pool have dedicated CPU and RAM, so the aggregated number of vCores across all instances must be less than or equal to the number of vCores allocated to the pool
+- All instance level limits apply to instances created within a pool
 - In addition to instance-level limits there are also two limits imposed at the instance pool level: 
-- Total storage size per pool (8 TB).
-- Total number of databases per pool (100).
+
+	- Total storage size per pool (8 TB)
+	- Total number of databases per pool (100)
 
 Deployment of instance pools can be managed only using PowerShell during public preview. Things to be aware of that are related to instance pool creation are:
 
