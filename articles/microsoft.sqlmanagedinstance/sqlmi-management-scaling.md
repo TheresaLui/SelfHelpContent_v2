@@ -17,9 +17,9 @@
 
 Azure SQL Database provides management operations that you can use to automatically deploy new managed instances, update instance properties, and delete instances when no longer needed. All management operations can be categorized as follows:
 
-- Instance deployment (new instance creation).
-- Instance update (changing instance properties, such as vCores, reserved storage, pricing tier).
-- Instance deletion.
+- Instance deployment (new instance creation)
+- Instance update (changing instance properties, such as vCores, reserved storage, pricing tier)
+- Instance deletion
 
 Instance update (scaling an instance) refers to scaling of vCores, storage capacity or pricing tier. Things to be aware of that are related to instance update are:
 
