@@ -7,7 +7,7 @@
 	ms.author="vikurpad"
 	selfHelpType="resource"
 	displayOrder="4"	
-	supportTopicIds="32681341"
+	supportTopicIds="32681350"
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-schema"
@@ -21,8 +21,8 @@ If you are having trouble with the index schema being suggested by the import da
 
 1. Your data source definition is valid, the wizard is able to read a file/record from the data source 
 1. Ensure the first file/record matches your anticipated schema
-1. Set your [parsing mode](https://docs.microsoft.com/en-us/azure/search/search-howto-index-json-blobs#parsing-modes) to use appropriate document cracker
+1. Set your [parsing mode](https://docs.microsoft.com/azure/search/search-howto-index-json-blobs#parsing-modes) to use appropriate document cracker
 	
 ## **Recommended Documents**
 
-* [How to index JSON blobs using Azure Search Blob indexer](https://docs.microsoft.com/en-us/azure/search/search-howto-index-json-blobs) 
+* [How to index JSON blobs using Azure Search Blob indexer](https://docs.microsoft.com/azure/search/search-howto-index-json-blobs) 
