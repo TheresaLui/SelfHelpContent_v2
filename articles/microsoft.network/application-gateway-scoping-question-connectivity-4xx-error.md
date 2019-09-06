@@ -1,15 +1,16 @@
 <properties
-	pageTitle="Application Gateway URL"
-	description="Application Gateway URL"
-	authors="radwiv,spacest"
-	ms.author="radwiv,mariliu"
+	pageTitle="Scoping questions for Application Gateway issues for Connectivity/4xx error"
+	description="Scoping questions for Application Gateway issues for Connectivity/4xx error"
+	authors="abshamsft"
+	ms.author="absha"
 	selfHelpType="problemScopingQuestions"
-supportTopicIds="32436964,32582828,32582829,32582830,32582825,32582826,32582827,32565735,32565736,32582833,32640605,32640606,32640607,32640608,32640602,32640603,32639114,32639115,32639116,32639117,32639118,32639111,32639112,32639110,32639109,32641400,32674895,32674896,32680993,32680759,32680758,32680757,32680756"
+supportTopicIds="32639113"
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	schemaVersion="1"
-	articleId="ad021338-109f-4290-a45e-f7be9d73fe26"
+	articleId="scoping-question-connectivity-4xx-error"
 />
+
 # Application Gateway URL
 ---
 {
@@ -32,20 +33,20 @@ supportTopicIds="32436964,32582828,32582829,32582830,32582825,32582826,32582827,
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },
-		{
-            "id": "sku_version",
+        {
+            "id": "bypass_appgtw_check",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What is the SKU version of your Application Gateway?",
+            "displayLabel": "Did you receive a 4xx response on accessing the backend directly by bypassing the Application Gateway?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "v1_SKU",
-                    "text": "vi SKU"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "v2_SKU",
-                    "text": "v2 SKU"
+                    "value": "No",
+                    "text": "No"
                 },
 				{
                     "value": "dont_know_answer",
@@ -54,7 +55,7 @@ supportTopicIds="32436964,32582828,32582829,32582830,32582825,32582826,32582827,
             ],
             "required": true
         },
-        {
+		{
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
