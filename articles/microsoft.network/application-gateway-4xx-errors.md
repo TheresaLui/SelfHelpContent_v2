@@ -5,13 +5,13 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder="22"
+    displayOrder="32"
 	selfHelpType="resource"
     articleId="application-gateway-4xx-error"
  	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32639113"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # 4xx client error

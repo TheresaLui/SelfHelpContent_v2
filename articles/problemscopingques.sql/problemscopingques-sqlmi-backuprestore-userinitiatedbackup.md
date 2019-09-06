@@ -10,8 +10,6 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
-    subscriptionRequired="true"
-    resourceRequired="false"
 />
 # SQL Database Managed Instance
 ---

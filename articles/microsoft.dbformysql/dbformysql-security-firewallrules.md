@@ -6,7 +6,7 @@
     authors="kummanish"
     ms.author="manishku"
     displayOrder="410"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640057"
     resourceTags="servers, databases"
     productPesIds="16221"
@@ -25,8 +25,8 @@ Most users are able to resolve their issue using the steps below.
 * If you cannot connect after setting up a firewall rule for your client:
 
   * Make sure your security credentials are valid in case you are seeing the authentication errors
-  * Validate that the firewall on the client allows outbound traffic on the required ports
-  * If you client does not have a static IP address, your IP address might not be covered by the firewall rule
+  * Validate that the firewall on the client allows outbound traffic on the required ports and the [required IP addresses](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture)
+  * If your client does not have a static IP address, you might have to open the firewall to a range of addresses or update the firewall whenever your client address changes
 
 * There may be as much as a five-minute delay for changes to the Azure Database for MySQL Server firewall configuration to take effect. Confirm your rule was added and re-try to connect for at least 5 minutes.
 * If you are having trouble using Azure CLI:

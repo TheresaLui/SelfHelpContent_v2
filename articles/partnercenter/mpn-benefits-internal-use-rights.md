@@ -26,3 +26,5 @@ Resources providing knowledge of Microsoft product features and capabilities wit
 * [Internal Use Rights cloud and software benefit](https://partner.microsoft.com/membership/internal-use-software)
 * [Microsoft competency requirements for Gold and Silver membership](https://docs.microsoft.com/partner-center/learn-about-competencies)
 * [Manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits)
+* [Benefits for MAPS Partners](https://assetsprod.microsoft.com/en-us/MPN-MAPS-Software-IUR-License-Table.xlsx)
+* [Benefits for Competency Partners](https://assetsprod.microsoft.com/en-us/mpn-maps-software-iur-competency-license-table.docx)

@@ -15,8 +15,13 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Storage Account recovery scoping question",
+    "title": "Storage account recovery scoping questions",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Is it possible to recover my deleted storage account?",
+        "description": "Our storage account recovery troubleshooter can help identify if it is possible to recover your deleted account",
+        "insightNotAvailableText": "Our troubleshooter could not identify if your deleted account is recoverable or not. Please ensure that the storage account name provided is correct."
+    },
     "formElements": [
         {
             "id": "warning_same_name",
@@ -30,40 +35,16 @@
             "controlType": "textbox",
             "displayLabel": "Name of the deleted Storage Account",
             "watermarkText": "accountname1;accountname2;accountname3",
-            "required": true
-        },
-        {
-            "id": "storage_account_type",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Deployment model",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "ARM",
-                    "text": "Resource Manager (ARM)"
-                },
-                {
-                    "value": "Classic",
-                    "text": "Classic"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "storage_account_region",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Region of Storage Account",
-            "watermarkText": "Region",
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Date and time that the account was deleted",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",

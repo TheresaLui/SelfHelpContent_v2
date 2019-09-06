@@ -6,13 +6,13 @@
 	authors="deborahc"
 	ms.author="dech"
 	selfHelpType="resource"
-	supportTopicIds="32636780,32636790"
+	supportTopicIds="32681013"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-portal-dxseerror"
-	displayOrder="261"
-	category="Portal and Monitoring"
+	displayOrder="80"
+	category="Portal"
 />
 
 # I am getting an error when browsing data through Azure Cosmos DB Data Explorer
@@ -24,14 +24,15 @@
 
 **Unable to view data, stored procedures, UDFs, or triggers in Data Explorer** 
 
-* If you are not able to view your data - databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account. 
+* If you are not able to view your data including databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account
 * If VNET is enabled, navigate to the "Firewall and virtual networks" pane and ensure:
 
 	1. The setting "Allow access from Azure Portal" is enabled
 	1. If you are accessing the Portal from outside the VNET and want to view data, you will need to add your current IP Address to the Firewall. If you are within the VNET, only step 1 is required. 
 
 	If you have followed these steps and receive a 403 "Unable to proceed with the request. Please check the authorization claims to ensure the required permissions to process the request" error, please contact us for support and provide the ActivityId of the message. The ActivityId can be found in the yellow notification bar at the bottom of the Data Explorer screen. 
-* If you do not have permission to view or change VNET/Firewall settings for your account, contact your Cosmos account owner to enable the above. 
+
+* If you do not have permission to view or change VNET/Firewall settings for your account, contact your Cosmos account owner to enable the above
 
 ### **Cannot view my MongoDB API data**
 
