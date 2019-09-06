@@ -15,13 +15,13 @@
 
 # Planning a migration
 
-Migrating to managed instance can be performed offline and online for most of the workloads. Note that managed instance is nearly 100% compatible with on-prem SQL server, however there also exists disparity in some of the functionalities supported. For details on managed instance compatibility with on-prem SQL server please see [Managed instance differences, limitations and known issues](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information).
+Migrating to managed instance can be performed offline and online for most of the workloads. Note that managed instance is nearly 100% compatible with on-prem. SQL server, however there also exists disparity in some of the functionalities supported. For details on managed instance compatibility with on-prem. SQL server please see [Managed instance differences, limitations and known issues](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information).
 
 ## **Recommended Steps**
 
-Migration should be approached in several phases: First, assess compatiblity of your on-premsises SQL databases you wish to migrate to managed instance. Remove any blockers based on the assessment provided. Migrate to managed instance choosing one of the online or offline methods.
+Migration should be approached in several phases: First, assess compatibility of your on-premises SQL databases you wish to migrate to managed instance. Remove any blockers based on the assessment provided. Migrate to managed instance choosing one of the online or offline methods.
 
-Pre-asessment
+Pre-assessment
 
 1. Review the list of supported features and differences, see [Managed instance differences, limitations and known issues](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information).
 
@@ -33,7 +33,7 @@ Assessment
 
 Migrate many databases online, or offline
 
-In case you have considerable number of databases to migrate, consider using Data migration service as it automates this process for you allowing minimum downtime. The service needs to be configured to connect with your on-prem systems.
+In case you have considerable number of databases to migrate, consider using Data migration service as it automates this process for you allowing minimum downtime. The service needs to be configured to connect with your on-premises systems.
 
 1. Use [Data migration service](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online) to run online migration of your databases following instructions provided.
 
