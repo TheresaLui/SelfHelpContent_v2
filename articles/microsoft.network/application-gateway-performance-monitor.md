@@ -5,7 +5,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder="22"
+    displayOrder="33"
 	selfHelpType="resource"
     articleId="application-gateway-performance-monitor"
  	resourceTags=""
