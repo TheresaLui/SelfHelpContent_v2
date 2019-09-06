@@ -2,7 +2,7 @@
 	pageTitle="Using Azure Data Lake PowerShell extensions"
 	description="Using Azure Data Lake PowerShell extensions"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay,v-anukar"
 	authoralias="guyhay,v-anukar"
 	authors="guyhay,v-anukar"

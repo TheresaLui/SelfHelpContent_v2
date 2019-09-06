@@ -2,7 +2,7 @@
 	pageTitle="Difficulties using Azure Data Lake portal blade"
 	description="Difficulties using Azure Data Lake portal blade"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay,v-anukar"
 	authoralias="guyhay,v-anukar"
 	authors="guyhay,v-anukar"

@@ -2,7 +2,7 @@
 	pageTitle="Installing Azure Data Lake Studio within Visual Studio"
 	description="Installing Azure Data Lake Studio within Visual Studio"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay,v-anukar"
 	authoralias="guyhay,v-anukar"
 	authors="guyhay,v-anukar"

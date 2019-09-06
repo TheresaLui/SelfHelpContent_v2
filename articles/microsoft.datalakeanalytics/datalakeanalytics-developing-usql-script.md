@@ -2,7 +2,7 @@
 	pageTitle="Developing a U-SQL script"
 	description="Developing a U-SQL script"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay,v-anukar"
 	authoralias="guyhay,v-anukar"
 	authors="guyhay,v-anukar"
