@@ -113,7 +113,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "You can find the MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "You can find the MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -122,7 +122,7 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "infoBalloonText": "You can find the ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "You can find the ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },

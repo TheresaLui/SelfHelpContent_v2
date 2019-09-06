@@ -39,32 +39,6 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "storage_account_type",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Deployment model",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "ARM",
-                    "text": "Resource Manager (ARM)"
-                },
-                {
-                    "value": "Classic",
-                    "text": "Classic"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "storage_account_region",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Region of Storage Account",
-            "watermarkText": "Region",
-            "required": false
-        },
-        {
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
