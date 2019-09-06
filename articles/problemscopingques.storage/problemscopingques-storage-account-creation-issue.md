@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Storage Account creation issues"
-	description="Issues creating Storage Account scoping question"
+	pageTitle="Storage account creation issues"
+	description="Issues creating storage account scoping question"
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
@@ -13,22 +13,23 @@
 # Issues creating Storage Account
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Storage Account creation issue",
+    "title": "Storage account creation issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "storage_account_name",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Name of Storage Account that failed to create",
-            "required": true
+            "displayLabel": "Name of storage account that failed to create",
+            "required": false
         },
         {
-            "id": "storage_account_region",
+            "id": "correlation_id",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Region for Storage Account",
+            "displayLabel": "Correlation ID of the failed event",
             "required": false
         },
         {
@@ -36,7 +37,7 @@
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when account creation failed",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
