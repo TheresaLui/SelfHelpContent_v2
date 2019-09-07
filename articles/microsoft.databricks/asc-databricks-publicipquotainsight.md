@@ -1,7 +1,7 @@
 <properties
     pageTitle="Databricks Public IPAddress quota limit"
     description="Databricks cluster failure due to exceeding public ipaddress quota per resource group."
-    infoBubbleText="No Enough Public IP Address available within Resource Group. "
+    infoBubbleText="Not enough Public IP Address available within Resource Group. "
     service="microsoft.databricks"
     resource="workspaces"
     authors="nsarang"
