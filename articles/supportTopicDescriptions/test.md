@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Support topic description for VM running Windows"
+	pageTitle="Support topic   description for VM running Windows"
 	description="Support topic description for  Virtual machine running windows"
 	authors="akjoshi"
 	ms.author="akankshajsh"
