@@ -1,5 +1,5 @@
 <properties
-pageTitle="sql database support topics"
+pageTitle="sql    database support topics"
 description = "Support topic description for SQL Database"
 authors = "akjoshi"
 ms.author = "akankshajsh"
