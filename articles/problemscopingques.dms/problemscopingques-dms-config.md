@@ -25,7 +25,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "If this is related to a failed configuration, what time did the problem begin?",
-            "required": false
+            "required": true
         },{
 			"id": "migrationtype_dropdown",
 			"order": 2,
@@ -75,11 +75,10 @@
 			"required": true
 		},{
 			"id":"SourceServer",
-			"order":1000,
+			"order":100,
 			"controlType":"multilinetextbox",
 			"displayLabel":"If the problem is related to source or target server connectivity, please provide exact string used in the source and target server-name fields in the project/task creation",
 			"required":false,
-			"useAsAdditionalDetails":true,
 			"watermarkText":"This is needed to validate if there is a formatting issue in the IP address or FQDN in the configuration"
 		},{
 			"id":"problem_description",
