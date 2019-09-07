@@ -28,6 +28,6 @@ If there is single cluster in a workspace, You must delete existing cluster, the
 ## **Recommended Documents**
 
 * [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits#resource-group-limits)
-* [Workspace Migration](https://docs.microsoft.com/en-us/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps)
+* [Workspace Migration](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps)
 
                 
