@@ -18,7 +18,7 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-Databricks Culuster scaling failed due to exceeding the quota of '800' resources of type 'Microsoft.Network/publicIPAddresses' per resource group <!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup-->. 
+Databricks Cluster scaling failed due to exceeding the quota of '800' resources of type 'Microsoft.Network/publicIPAddresses' per resource group <!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup-->. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
