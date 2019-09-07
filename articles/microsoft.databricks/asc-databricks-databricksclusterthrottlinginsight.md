@@ -31,5 +31,5 @@ Service Throttling  happens if you have exceeded subscription limits for <!--$Op
 
 ## **Recommended Documents**
 
-* [Troubleshooting API throttling errors](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshooting-throttling-errors)
-* [Throttling Resource Manager requests](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-request-limits)
+* [Troubleshooting API throttling errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshooting-throttling-errors)
+* [Throttling Resource Manager requests](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-request-limits)
