@@ -6,7 +6,7 @@
 	ms.author="guyhay,v-ranjik"
 	authoralias="guyhay,v-ranjik"
 	authors="guyhay,v-ranjik"
-	displayOrder="1"
+	displayOrder="18"
 	selfHelpType="resource"
 	supportTopicIds="32680651"
 	resourceTags=""
