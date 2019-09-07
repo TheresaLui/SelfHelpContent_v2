@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Databricks Subnet Full"
+    pageTitle="databricks subnet full"
     description="Cluster unable to start due to subnet full."
     infoBubbleText="No Enough Public IP Address available due to subnet full. "
     service="microsoft.databricks"
@@ -18,14 +18,14 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-Databricks Cluster deployed in <!--$Subnet-->Subnet<!--/$Subnet--> does not have sufficient free public IP addresses.
+Databricks Culuster deployed in <!--$Subnet-->Subnet<!--/$Subnet--> does not have sufficient free public IP addresses.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Please perform following steps:
+In order to create space on the virtual network please perform following steps:
 
-* Take a backup/copy of resources (notebooks, cluster configurations, jobs).Delete all resources I.e all clusters within the subnet
+* Delete all resources within the subnet
 * [Change subnet settings](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#change-subnet-settings) to the existing virtual network to include a larger address space
 * Create a new workspace with the updated subnet.Follow these [detailed migration](https://docs.microsoft.com/en-us/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) steps to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.
 
