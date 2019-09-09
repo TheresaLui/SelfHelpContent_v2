@@ -22,7 +22,7 @@ We determined that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To obtain this permission, assign the HDInsight Cluster Operator, Contributor, or Owner role to the user or service principal trying to access configurations.
+To obtain this permission, assign the HDInsight Cluster Operator, Contributor, or Owner role to the user <!--$Username-->[Username]<!--/$Username--> or service principal trying to access configurations.
 
 ## **Recommended Documents**
 
