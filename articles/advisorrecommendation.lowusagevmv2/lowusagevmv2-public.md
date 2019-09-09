@@ -31,7 +31,7 @@
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },
-  "recommendationTimeToLive": 86400,
+  "recommendationTimeToLive": 86401,
   "version": 6.0,
   "learnMoreLink": "https://aka.ms/aa_lowusagerec_learnmore",
   "description": "Right-size or shutdown underutilized virtual machines",
