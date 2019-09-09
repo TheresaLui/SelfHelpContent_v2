@@ -27,7 +27,7 @@ Please check whether sufficient quota of cores are available in region for this 
 
 ### Not enough cores available
 
-1. Please follow instructions for raising ticket https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-usages--quota-blade 
+1. Please follow instructions for raising [ticket](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-usages--quota-blade) 
 
 ## **Recommended Documents**
 
