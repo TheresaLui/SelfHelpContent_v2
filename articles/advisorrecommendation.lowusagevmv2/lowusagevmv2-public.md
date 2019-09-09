@@ -48,7 +48,7 @@
         "id": "{resourceId}",
         "menuid": "size"
       },
-      "condition": "test"
+      "condition": "targetSku != \"Shutdown\""
     },
     {
       "actionId": "1550a191-607c-4daf-ae42-8730bd77f75a",
