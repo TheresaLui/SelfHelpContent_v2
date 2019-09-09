@@ -7,7 +7,7 @@
 	authors="scottAzure"
 	ms.author="scotro,rashan"
 	displayOrder=""
-	articleId="SupportTopic_RCA-sizenotfound-avzone"
+	articleId="SupportTopic_RCA-sizenotfound-avzone-nondeallocated"
 	diagnosticScenario="SizeNotFoundAvZone"
 	selfHelpType="rca"
 	supportTopicIds=""
