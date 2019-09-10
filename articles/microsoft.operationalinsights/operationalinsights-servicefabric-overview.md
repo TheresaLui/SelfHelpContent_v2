@@ -16,7 +16,6 @@
 
 # servicefabric-overview
 
-
 ## **Recommended documents**
 [Service Fabric Solution]
 (https://azure.microsoft.com/documentation/articles/log-analytics-service-fabric/)
