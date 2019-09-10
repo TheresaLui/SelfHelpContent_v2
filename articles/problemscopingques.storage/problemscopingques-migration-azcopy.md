@@ -26,11 +26,21 @@
     "formElements": [
           {
             "id": "storage_account_from",
-            "visibility": "true",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Source storage account",
-            "watermarkText": "Enter storage account name",
+            "watermarkText": "Select storage account",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "From a different subscription, external source or not applicable"
+                }
+            },
             "required": true
         },
 	 {
@@ -38,7 +48,7 @@
             "visibility": "true",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Source storage account",
+            "displayLabel": "Destination storage account",
             "watermarkText": "Enter storage account name",
             "required": true
         },
