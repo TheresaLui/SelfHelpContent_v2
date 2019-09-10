@@ -2,7 +2,7 @@
 	pageTitle="Storage migration using AzCopy"
 	description="Issues migrating data using AzCopy"
 	authors="Passaree"
-    ms.author="passap"
+        ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602696,32630512"
 	productPesIds="15629,16459"
@@ -17,7 +17,12 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Issues migrating data using AzCopy",
-    "fileAttachmentHint": "Upload AzCopy Log for fast case resolution. Log files are located in the %USERPROFILE\\.azcopy directory on Windows, or in the $HOME\\.azcopy",
+    "fileAttachmentHint": "Upload AzCopy Log for fast case resolution. Log files are located in the %USERPROFILE\\\\.azcopy directory on Windows, or in the $HOME\\\\.azcopy",
+    "diagnosticCard": {
+        "title": "What caused AzCopy issue?",
+        "description": "Our Data Migration AzCopy troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure the information provided is accurate and in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "azcopy_version",
@@ -43,7 +48,8 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "azcopy_performance",
@@ -65,7 +71,8 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "error_code",
@@ -80,11 +87,11 @@
                 },
                 {
                     "value": "error401",
-                    "text": "401  Unauthorized"
+                    "text": "401 – Unauthorized"
                 },
                 {
                     "value": "error403",
-                    "text": "403  Forbidden"
+                    "text": "403 – Forbidden"
                 },
                 {
                     "value": "error404",
@@ -96,14 +103,15 @@
                 },
                 {
                     "value": "error412",
-                    "text": "412  Precondition failed"
+                    "text": "412 – Precondition failed"
                 },
                 {
                     "value": "dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": false
+            "required": false,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
