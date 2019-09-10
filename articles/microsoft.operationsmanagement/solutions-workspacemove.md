@@ -16,9 +16,13 @@
 />
 
 # Moving Log Analytics Workspace
-If you need to move your Log Analytics Workspace to another subscription or resource group please follow steps as below:
+
+## **Recommended Steps**
+
+If you need to move your Log Analytics Workspace to another subscription or resource group, please follow the steps below:
+
 1. Delete the Solutions that are enabled on the Workspace
 2. Move the Workspace to the new Subscription/Resource Group
-3. Add the Solutions again.
+3. Add the Solutions again
 
-If this is not followed then then the solutions may remain in old location, and dashboards in a non-working state. Possibly requiring a request to support to fix this issue.
+If this is not followed, the solutions may remain in the old location and dashboards in a non-working state, possibly requiring a request to support to fix this issue.
