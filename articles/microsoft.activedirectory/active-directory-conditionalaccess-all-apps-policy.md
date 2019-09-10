@@ -21,8 +21,8 @@
 <!--issueDescription-->
 
 A policy including all applications applied to sign-in <!--$CorrelationId-->[CorrelationId]<!--/$CorrelationId-->, which can impact workflow behavior such as blocking your entire organization.
-If the policy is not working as expected, consider modifying the ‘Cloud apps” condition.
 
+If the policy is not working as expected, consider modifying the "Cloud Apps” condition.
 <!--/issueDescription-->
 
 Details: <!--$IssueDetails -->[IssueDetails]<!--/$IssueDetails-->
