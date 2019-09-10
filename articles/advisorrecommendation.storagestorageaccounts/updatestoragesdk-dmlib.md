@@ -22,7 +22,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
-  "recommendationFriendlyName": "UpdateSorageDataMovementSDK",
+  "recommendationFriendlyName": "UpdateStorageDataMovementSDK",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "yinfan@microsoft.com",
