@@ -18,6 +18,6 @@
 
 ## **Recommended Documents**
 
-* [Limits and configuration information for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config) - This article describes the limits and configuration details for creating and running automated workflows with Azure Logic Apps.<br>
-* [Leverage Logic Apps performance using Azure Functions](https://social.technet.microsoft.com/wiki/contents/articles/38934.leverage-your-logic-apps-performance-using-azure-functions.aspx)<br>
+* [Limits and configuration details](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config) for creating and running automated workflows with Azure Logic Apps 
+* [Leverage Logic Apps performance using Azure Functions](https://social.technet.microsoft.com/wiki/contents/articles/38934.leverage-your-logic-apps-performance-using-azure-functions.aspx)
 * [Azure Logic Apps service dashboard](https://status.azure.com/status)
