@@ -2,7 +2,7 @@
 	pageTitle="Storage migration using AzCopy"
 	description="Issues migrating data using AzCopy"
 	authors="Sijia"
-  ms.author="siz"
+        ms.author="siz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630513"
 	productPesIds="16460"
@@ -53,7 +53,8 @@
             "watermarkText": "Enter storage account name",
             "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
-        },
+          }
+    ],
     "$schema": "SelfHelpContent"
 }
 ---
