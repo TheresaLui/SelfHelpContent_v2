@@ -2,10 +2,10 @@
 	pageTitle="Monitor cost question"
 	description="Questions about cost"
 	authors="Sijia"
-    ms.author="siz"
+        ms.author="siz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681644,32681663"
-	productPesIds="15629"
+	productPesIds="15629,16459,16460,16461,16462,16598"
 	cloudEnvironments="public,MoonCake,FairFax"
 	schemaVersion="1"
 	articleId="c449c5cc-78a3-4ef0-88a0-3c4622437a24"
@@ -23,7 +23,7 @@
             "id": "monitor_cost",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Monitor cost question",
+            "displayLabel": "Monitor cost related question",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
