@@ -16,5 +16,6 @@
 />
 
 # Setting up Alerts
-## **Recommended documents**
-[Alerts in Log Analytics](https://azure.microsoft.com/documentation/articles/log-analytics-alerts/)
+## **Recommended Documents**
+
+* [Alerts in Log Analytics](https://azure.microsoft.com/documentation/articles/log-analytics-alerts/)
