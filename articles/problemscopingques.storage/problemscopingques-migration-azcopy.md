@@ -11,7 +11,7 @@
 	articleId="321513E7-1346-42C6-A5BC-2D43DA486F20"
 />
 
-# Storage migration between Storage Accounts
+# Storage migration with AzCopy
 ---
 {
     "subscriptionRequired": true,
@@ -41,7 +41,8 @@
                     "text": "From a different subscription, external source or not applicable"
                 }
             },
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
 	 {
             "id": "storage_account_to",
@@ -50,7 +51,8 @@
             "controlType": "textbox",
             "displayLabel": "Destination storage account",
             "watermarkText": "Enter storage account name",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
 	{
             "id": "azcopy_version",
