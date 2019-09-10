@@ -20,7 +20,7 @@
 
 <!--issueDescription-->
 
-The sign-in <!--$CorrelationId-->[CorrelationId]<!--/$CorrelationId--> used legacy authentication, which can impact the behavior of Conditional Access policies. Consider blocking legacy authentication using a conditional access policy. By default, conditional access policies do not apply to legacy authentication. If access is unexpected with your current policies, set the **client apps** conditions to include **other clients**
+The sign-in <!--$CorrelationId-->[CorrelationId]<!--/$CorrelationId--> used legacy authentication, which can impact the behavior of Conditional Access policies. Consider blocking legacy authentication using a conditional access policy. By default, conditional access policies do not apply to legacy authentication. If access is unexpected with your current policies, set the **client apps** conditions to include **other clients**.
 
 <!--/issueDescription-->
 
