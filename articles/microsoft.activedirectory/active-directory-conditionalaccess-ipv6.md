@@ -24,7 +24,7 @@ The sign-in <!--$CorrelationId-->[CorrelationId]<!--/$CorrelationId--> was from 
 
 <!--/issueDescription-->
 
-Details: <!--$IssueDetails -->[IssueDetails]<!--/$IssueDetails-->
+Details: <!--$IssueDetails-->[IssueDetails]<!--/$IssueDetails-->
 
 ## **Recommended Documents**
 
