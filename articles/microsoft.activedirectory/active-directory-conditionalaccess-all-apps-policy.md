@@ -25,7 +25,7 @@ A policy including all applications applied to sign-in <!--$CorrelationId-->[Cor
 If the policy is not working as expected, consider modifying the "Cloud Apps" condition.
 <!--/issueDescription-->
 
-Details: <!--$IssueDetails -->[IssueDetails]<!--/$IssueDetails-->
+Details: <!--$IssueDetails-->[IssueDetails]<!--/$IssueDetails-->
 
 ## **Recommended Documents**
 
