@@ -14,6 +14,7 @@
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Cannot connect to SQL Server",
     "fileAttachmentHint": null,
     "formElements": [
