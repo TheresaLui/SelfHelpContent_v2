@@ -2,7 +2,7 @@
 	pageTitle="Difficulties using Azure Data Lake SDK"
 	description="Difficulties using Azure Data Lake SDK"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay"
 	authoralias="guyhay"
 	authors="guyhay"
