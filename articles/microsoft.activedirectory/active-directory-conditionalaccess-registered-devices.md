@@ -24,4 +24,4 @@ $<!--$DeviceCount-->[DeviceCount]<!--/$DeviceCount--> device(s) have not yet syn
 
 <!--/issueDescription-->
 
-Details: <!--$IssueDetails -->[IssueDetails]<!--/$IssueDetails-->
+Details: <!--$IssueDetails-->[IssueDetails]<!--/$IssueDetails-->
