@@ -14,15 +14,15 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionFailedTimeoutVMNetworkUnresponsive
+# Error ExtensionFailedTimeoutVMNetworkUnresponsive
 
 <!--issueDescription-->
-## **Backup operation failed due to delay in network calls while performing the snapshot operation.**
+Backup operation failed due to delay in network calls while performing the snapshot operation.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-We have detected that your backup operation on **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** failed due to delay in network calls while performing the snapshot operation.
+We have detected that your backup operation failed due to delay in network calls while performing the snapshot operation.
 
 To resolve this issue, perform Step 1. If the issue persists, try steps 2 and 3.
 
@@ -37,7 +37,6 @@ REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v CalculateSnapshotTi
 
 This will ensure the snapshots are taken through host instead of Guest. Retry the backup operation.
 
-2. Try changing the backup schedule to a time when VM **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** is under less load (less CPU/IOps etc.)
+2. Try changing the backup schedule to a time when VM is under less load (less CPU/IOps etc.)
 
-3. Try [increasing the size of VM](https://azure.microsoft.com/blog/resize-virtual-machines/)
- **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** and retry the operation
+3. Try [increasing the size of VM](https://azure.microsoft.com/blog/resize-virtual-machines/) and retry the operation
