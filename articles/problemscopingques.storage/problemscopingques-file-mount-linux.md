@@ -147,7 +147,7 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "error2",
+                    "value": "linux_error2",
                     "text": "Mount error(2): No such file or directory"
                 },
                 {
@@ -171,7 +171,7 @@
                     "text": "Mount error(115): Operation now in progress"
                 },
                 {
-                    "value": "dont_know_answer",
+                    "value": "linux_dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
             ],
@@ -179,9 +179,9 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "linux_error_other",
+            "id": "error_other",
             "order": 5,
-            "visibility": "mount_error == dont_know_answer",
+            "visibility": "mount_error == linux_dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",

@@ -130,7 +130,7 @@
                     "text": "System error 1816 has occurred. Not enough quota is available to process this command."
                 },
                 {
-                    "value": "dont_know_answer",
+                    "value": "win_dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
             ],
@@ -138,9 +138,9 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "win_error_other",
+            "id": "error_other",
             "order": 4,
-            "visibility": "mount_error == dont_know_answer",
+            "visibility": "mount_error == win_dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",
