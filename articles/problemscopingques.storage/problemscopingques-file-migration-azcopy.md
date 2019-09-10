@@ -53,7 +53,22 @@
             "watermarkText": "Enter storage account name",
             "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
-          }
+          },
+	   {
+            "id": "problem_start_time",
+            "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate start time of the most recent occurrence",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide any additional details",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
     ],
     "$schema": "SelfHelpContent"
 }
