@@ -1,6 +1,6 @@
 <properties
     pageTitle="HDInsight Service Bypass is disabled"
-    description="Cluster creation error as service bypass is disabled"
+    Description="Cluster creation error as service bypass is disabled"
     infoBubbleText="Found recent cluster failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
