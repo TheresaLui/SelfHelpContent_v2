@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "unable to (Re)register to vault",
     "fileAttachmentHint": "",
+      "diagnosticCard": {
+        "title": "unable to (Re)register to vault",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -70,7 +75,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
 	},
         {
             "id": "basic_troubleshooting_multiselect",

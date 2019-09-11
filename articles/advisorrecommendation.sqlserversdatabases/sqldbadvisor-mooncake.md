@@ -14,7 +14,7 @@
   "recommendationOfferingName": "Azure SQL Database",
   "$schema": "AdvisorRecommendation",
   "dataSourceMetadata": {
-    "dataSource": "SAS",
+    "dataSource": "SAS"
   },
   "recommendationTypeId": "a1f91337-c953-4791-9517-f170de60bf35",
   "recommendationCategory": "Performance",
@@ -44,7 +44,7 @@
       "actionId": "18c1ceec-2171-486c-ab89-8205f804340f",
       "actionType": "Document",
       "description": "Improve database performance with SQL DB Advisor",
-      "documentLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore"
+      "documentLink": "https://aka.ms/aa_sqldbadvisorrec_learnmore_cn"
     }
   ],
   "resourceMetadata": {

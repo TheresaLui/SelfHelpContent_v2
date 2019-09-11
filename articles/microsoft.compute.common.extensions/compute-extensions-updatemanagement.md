@@ -24,4 +24,5 @@
 * [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)<br>
 * [Understand the agent check results in Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)<br>
 * [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)<br>
-* [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)
+* [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)<br>
+* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
