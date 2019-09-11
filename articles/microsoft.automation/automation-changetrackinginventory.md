@@ -29,7 +29,7 @@
 
 ### I can't see Files tracked
 
-* File Tracking must be enabled. See [Enable File Tracking](https://docs.microsoft.com/azure/automation/change-tracking-file-contents#enable-file-content-tracking)
+* File Tracking must be enabled. See [Enable File Tracking](https://docs.microsoft.com/azure/automation/change-tracking-file-contents#enable-file-content-tracking).
 
 ### Some areas of Change Tracking are blank
 
