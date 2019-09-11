@@ -115,7 +115,7 @@ cloudEnvironments = "public"
         {
             "id": "c66265ed-a6a1-b155-34a4-6f7116757910",
             "longDescription": "",
-            "shortDescription": "<<Generic  comment needs to be entered for all products>>",
+            "shortDescription": "Generic  comment needs to be entered for all products",
             "searchTags": "VPN, Gateway, Site-to-site, S2S, P2S, Point-to-site",
             "category": "General questions",
             "useInDiagnoseAndSolve": "TRUE"
