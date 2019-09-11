@@ -20,9 +20,9 @@
 
 **Switch your SQL license**: The ability to switch between licensing models is a feature provided by the new SQL VM resource provider. The ability to convert the licensing model is currently only available when starting with a pay-as-you-go SQL Server VM image. If you start with a bring-your-own-license image from the portal, you will not be able to convert that image to pay-as-you-go. For detailed steps and restrictions, review [How to change the licensing model for a SQL Server virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb).<br>
 
-**Applying billing changes for SQL Server edition upgrades:** To apply billing changes for SQL Server edition upgrades or downgrades, review [How to perform an in-place upgrade or downgrade of SQL Server edition on Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-change-edition).<br>
+**Applying billing changes for SQL Server edition upgrades:** To apply billing changes for SQL Server edition upgrades or downgrades, review [How to perform an in-place upgrade or downgrade of SQL Server edition on Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-change-edition).<br>
 
-**Azure SQL VM Licensing FAQ:** Please refer to the [FAQ document for SQL Server running on Windows Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq#licensing) for common licensing questions. 
+**Azure SQL VM Licensing FAQ:** Please refer to the [FAQ document for SQL Server running on Windows Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq#licensing) for common licensing questions. 
 
 ## **Recommended Documents**
 
