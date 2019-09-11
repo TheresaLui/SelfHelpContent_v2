@@ -24,4 +24,4 @@ We found that you are using Standard SSD disk for the VM.
 
 ## **Recommended Documents**
 
-To resolve this issue make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) and [benefits](https://aka.ms/AB-IR-feature-considerations) section.
+To resolve this issue, ensure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-instant-restore-capability#feature-considerations) and [benefits]https://docs.microsoft.com/azure/backup/backup-instant-restore-capability#feature-considerations) section.
