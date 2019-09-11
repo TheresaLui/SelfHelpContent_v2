@@ -67,11 +67,11 @@
   "displayLabel": "Update Storage Data Movement Library",
   "additionalColumns": [
     {
-      "name": "Language",
+      "name": "language",
       "title": "SDK Language"
     },
     {
-      "name": "Version",
+      "name": "version",
       "title": "Minimum Recommended Version"
     }
   ],
