@@ -17,16 +17,18 @@
 # Move Data to, from, or within Azure Storage
 
 ## **Recommended Steps** 
-Unfortunately, storage account cannot be migrated directly to a different region. Here is a workaround you can follow:
- 1. Create a new storage account in the desired region.
- 
- 2. Use the following tools for move the data:
+
+Unfortunately, the storage account cannot be migrated directly to a different region. Here is a workaround you can follow:
+
+1. Create a new storage account in the desired region
+2. Use the following tools for move the data:
+
  	* [Transfer data with AzCopy v10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)<br>	
 	* [Transfer data with Storage Explorer](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 	
- 3. Once you are sure that everything is copied, you can delete the old storage account.
+ 3. Once you are sure that everything is copied, you can delete the old storage account
  
-Just remember that if you have applications that connects at the source Storage Account, you will need to replace the credentials for the new ones from the new storage account.
+Please remember that if you have applications that connects at the source Storage Account, you will need to replace the credentials for the new ones from the new storage account.
 
 ## **Recommended Documents**
 
