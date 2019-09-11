@@ -11,7 +11,7 @@
 	articleId="321513E7-1346-42C6-A5BC-2D43DA486F20"
 />
 
-# Storage migration between Storage Accounts
+# Storage migration with AzCopy
 ---
 {
     "subscriptionRequired": true,
@@ -24,9 +24,39 @@
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure the information provided is accurate and in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
     },
     "formElements": [
-        {
-            "id": "azcopy_version",
+          {
+            "id": "storage_account_from",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Source storage account",
+            "watermarkText": "Select storage account",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "From a different subscription, external source or not applicable"
+                }
+            },
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+	 {
+            "id": "storage_account_to",
+            "visibility": "true",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Destination storage account",
+            "watermarkText": "Enter storage account name",
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+	{
+            "id": "azcopy_version",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Version of AzCopy you are using",
             "watermarkText": "Choose an option",
@@ -53,7 +83,7 @@
         },
         {
             "id": "azcopy_performance",
-            "order": 2,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Are you experiencing any performance issue with the copy operations",
             "watermarkText": "Choose an option",
@@ -76,7 +106,7 @@
         },
         {
             "id": "error_code",
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Did you receive any error code? ",
             "watermarkText": "Choose an option",
@@ -115,14 +145,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
