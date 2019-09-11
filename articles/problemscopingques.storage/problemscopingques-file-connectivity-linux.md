@@ -147,27 +147,27 @@
             "watermarkText": "Choose a mount error",
             "dropdownOptions": [
                 {
-                    "value": "error2",
+                    "value": "linux_error2",
                     "text": "Mount error(2): No such file or directory"
                 },
                 {
-                    "value": "error11",
+                    "value": "linux_error11",
                     "text": "Mount error(11): Resource temporarily unavailable"
                 },
                 {
-                    "value": "error13",
+                    "value": "linux_error13",
                     "text": "Mount error(13): Permission denied"
                 },
                 {
-                    "value": "error22",
+                    "value": "linux_error22",
                     "text": "Mount error(22): Invalid argument"
                 },
                 {
-                    "value": "error112",
+                    "value": "linux_error112",
                     "text": "Mount error(112): Host is down"
                 },
                 {
-                    "value": "error115",
+                    "value": "linux_error115",
                     "text": "Mount error(115): Operation now in progress"
                 },
                 {
@@ -179,7 +179,7 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "error_other",
+            "id": "linux_error_other",
             "order": 5,
             "visibility": "mount_error == dont_know_answer",
             "controlType": "textbox",
