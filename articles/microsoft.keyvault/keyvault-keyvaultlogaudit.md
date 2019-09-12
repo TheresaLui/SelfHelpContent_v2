@@ -1,15 +1,15 @@
 <properties
-	pageTitle="Azure Key Vault Logging and Auditing"
+	pageTitle="Azure Key Vault Service Limits"
 	description="Logging and Auditing with Azure Key Vault"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
 	displayOrder="9"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375294"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="2b6c0e36-2f01-4a72-832a-5a50ab1aa7fe"
 />
 
