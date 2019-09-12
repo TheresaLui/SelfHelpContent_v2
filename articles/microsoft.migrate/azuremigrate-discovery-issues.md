@@ -23,7 +23,7 @@
 The Azure Migrate appliance collects metadata about the on-premises VMs, the complete list of metadata collected by the appliance is listed in the following links:
 
 * [Metadata collected using Hyper-V appliance](https://aka.ms/migrate/hyperv/metadatacollected)
-* [Metadata collected using VMWare appliance](https://aka.ms/migrate/vmware/metadatacollected)
+* [Metadata collected using VMware appliance](https://aka.ms/migrate/vmware/metadatacollected)
 
 Additionally, if you are using the [dependency visualization functionality](https://aka.ms/migrate/agentbased/dependencies), the dependency agents collect details such as FQDN, OS, IP address, MAC address, processes running inside the VM and the incoming/outgoing TCP connections from the VM.
 
@@ -36,7 +36,7 @@ Ensure that the Azure Migrate appliance is up and running. Note that it takes 30
 After starting discovery from the appliance, allow some time for the discovered machines to show up on the Azure portal. It takes around 15 minutes for a VMware discovery, and around 2 minutes per added host for a Hyper-V discovery. If you continue to see "Discovery in progress" even after this time, try the following: 
 
  - Click **Refresh** on the **Servers** tab. This should show the count of the discovered servers in the Server Assessment and Server Migration tiles.
- - If you are discovering VMware servers, verify that the vCenter account you specified has permissions set correctly and has access granted to atleast 1 VM. Please note that while you can set the discovery scope to vCenter Server datacenters, clusters, folder of clusters, hosts, folder of hosts, or individual VMs, Azure Migrate is not able to discover VMs if the vCenter account has access granted at vCenter VM folder level. Learn more about scoping discovery [here](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#scoping-discovery).
+ - If you are discovering VMware servers, verify that the vCenter account you specified has permissions set correctly and has access granted to at least 1 VM. Please note that while you can set the discovery scope to vCenter Server datacenters, clusters, folder of clusters, hosts, folder of hosts, or individual VMs, Azure Migrate is not able to discover VMs if the vCenter account has access granted at vCenter VM folder level. Learn more about scoping discovery [here](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#scoping-discovery).
 
 ## Hyper-V VM discovery
 
@@ -60,7 +60,7 @@ Hyper-V discovery is done using the Hyper-V host and cluster information provide
 
 Azure Migrate allows you to discover up to 10000 Hyper-V VMs in a single Azure Migrate project. A single appliance supports discovery of up to 5000 VMs. [Learn more](https://aka.ms/migrate/scale/hyperv) about how you can discover a large environment.
 
-## VMWare VM discovery
+## VMware VM discovery
 
 ### **How can I scope discovery for a multi-tenant environment in Azure Migrate?**
 
@@ -68,4 +68,4 @@ Azure Migrate allows you to split the discovery of your VMs to ensure that VMs o
 
 ### **How can I discover a large environment in Azure Migrate?**
 
-Azure Migrate allows you to discover up to 35000 VMWare VMs in an Azure Migrate project. A single appliance can discover up to 10000 VMs. [Learn more]((https://aka.ms/migrate/vmware/multitenant)) about how you can discover a large environment.
+Azure Migrate allows you to discover up to 35000 VMware VMs in an Azure Migrate project. A single appliance can discover up to 10000 VMs. [Learn more]((https://aka.ms/migrate/vmware/multitenant)) about how you can discover a large environment.
