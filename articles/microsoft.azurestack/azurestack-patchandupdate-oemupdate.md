@@ -21,7 +21,7 @@ In addition to monthly Azure Stack updates and hotfixes, your Azure Stack hardwa
 ## **Recommended Steps**
 
 1. Check with your original equipment manufacturer (OEM) about their specific notification process to ensure update notifications reach your organization
-2. To apply OEM updates, follow process to [Apply updates in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-apply-updates)
+2. To apply OEM updates, follow the process outlined in [Apply Azure Stack OEM updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem?view=azs-1908)
 
 ## **Recommended documents**
 
