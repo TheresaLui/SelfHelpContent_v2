@@ -10,7 +10,7 @@
     articleId="Hdi_fullsubnet"
     diagnosticScenario="HDInsightSubnetIsFullInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629125, 32636492"
+    supportTopicIds="32636423, 32681537"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
