@@ -10,7 +10,7 @@
     articleId="Hdi_Crud_InvalidStorageAccount"
     diagnosticScenario="HDInsightInvalidStorageAccountInsight"
     selfHelpType="rca"
-    supportTopicIds="32629032"
+    supportTopicIds="32636423"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
