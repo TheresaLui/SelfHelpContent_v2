@@ -14,7 +14,6 @@
 # Connection failure
 
 ---
-
 {
     "resourceRequired": true,
     "title": "Connection failure",
@@ -56,6 +55,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

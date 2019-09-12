@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for WordPress"
 	description="WordPress"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32444080"
 	productPesIds="14748"
@@ -12,12 +13,10 @@
 />
 
 # WordPress
-
-
-
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",
@@ -26,12 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Have you enabled WordPress debug.log and PHP error log?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -39,7 +33,24 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
-    ]
+        },
+        {
+			"id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Have you enabled WordPress debug.log and PHP error log?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}
+			],
+			"required": false
+		}
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

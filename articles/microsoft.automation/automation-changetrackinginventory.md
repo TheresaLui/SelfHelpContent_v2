@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599855,32599863,32599865, 32599918"
+    supportTopicIds="32599863,32599865,32599902,32599918"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -25,6 +25,20 @@
 ### I am not seeing Change Tracking records for my Windows machine
 
 * Please review the [Change Tracking troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/change-tracking#records-not-showing-windows)
+* Records are not collected immediately. See [Data Collection Details](https://docs.microsoft.com/azure/automation/change-tracking#change-tracking-data-collection-details)
+
+### I can't see Files tracked
+
+* File Tracking must be enabled. See [Enable File Tracking](https://docs.microsoft.com/azure/automation/change-tracking-file-contents#enable-file-content-tracking).
+
+### Some areas of Change Tracking are blank
+
+* If you are using Azure Security Center and File Integrity Monitoring, please see [Configuring Change Tracking](https://docs.microsoft.com/azure/automation/change-tracking#file-integrity-monitoring-in-azure-security-center)
+
+
+### I can't deploy Change Tracking into the region I want
+
+* Only specific regions are supported. Review the [Workspace Mappings document](https://docs.microsoft.com/azure/automation/how-to/region-mappings).
 
 ## **Recommended Documents**
 

@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for Azure VM Restore failure for Linux"
          description="Scoping questions for Azure VM Restore failure for Linux"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553297"
          productPesIds="15207"
@@ -13,16 +14,33 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure VM Restore failure for Linux",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure VM Restore failure for Linux",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "using_VM",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": true
+	    "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+	    },
+            "required": false
         },
         {
             "id": "JobID_Name",
@@ -30,17 +48,11 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed restore job activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 3,
-            "controlType": "infoblock",
-            "content": " Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault -- Monitoring and Report -- Backup Jobs -- Failed -- Activity ID."
+            "required": false
         },
         {
             "id": "Restoration_Type",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Which type of restore are you performing?",
             "watermarkText": "Select",
@@ -62,11 +74,12 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -76,11 +89,13 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

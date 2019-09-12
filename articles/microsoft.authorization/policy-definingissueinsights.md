@@ -9,7 +9,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="diagnostics"
-    supportTopicIds="32599711,32599712,32599713"
+    supportTopicIds="32636045,32636046,32636050"
     productPesIds="16456"
     cloudEnvironments="public"
     articleId="21fcaa7d-e41b-4d47-8a5a-843ea71bdda0"
@@ -17,9 +17,11 @@
 
 # Azure Policy - One or more errors detected during creation of an Azure Policy Definition
 
+<!--/issueDescription-->
 We found the following policy definition syntax errors:
 
 <!--$ErrorMessages-->[ErrorMessages]<!--/$ErrorMessages-->
+<!--/issueDescription-->
 
 ## Recommended Steps
 

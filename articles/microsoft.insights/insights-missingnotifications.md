@@ -9,7 +9,7 @@
 	displayOrder="5"
 	articleId="insights-missingnotifications"
 	selfHelpType="generic"
-	supportTopicIds="32629650,32629653,32629654,32629655,32629656,32629658,32630731,32633011,32629671"
+	supportTopicIds="32629650,32629653,32629654,32629655,32629656,32630731,32633011,32629671"
 	productPesIds="15454,15725"
 	cloudEnvironments="public,fairfax,mooncake"
 />
@@ -19,6 +19,14 @@
 Most alerts in Azure Monitor use [Action Groups](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-action-groups) as the notification delivery mechanism. If you are sure the alert was triggered but you are not receiving notifications, following the recommended steps will help you resolve this issue.
 
 ## **Recommended Steps**
+
+### Prerequisite: check if an alert instance was created
+
+[Action rules](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules) allow you to suppress notifications for your alerts. It is possible that your alert notifications were suppressed through an action rule. You can verify this by doing the following steps:
+
+* Go to the Azure Portal and go to the [all alerts page](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-managing-alert-instances). Set the appropriate filters and figure out whether an alert actually triggered.
+* If there is an alert instance present, select it. If the notification for the alert was suppressed through an action rule, the information would be captured in the history section of the alert.
+* If there was an action rule suppressing your alert notifications, go to the [action rules page](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules#managing-your-action-rules) where you can disable the specific action rule
 
 ### Email
 
@@ -37,14 +45,7 @@ Most alerts in Azure Monitor use [Action Groups](https://docs.microsoft.com/azur
 
 ### Webhook
 
-* Whitelist the [IP addresses](https://go.microsoft.com/fwlink/?linkid=827201#action-specific-information) the webhook will be called from:
-
-	* 13.106.57.181
-	* 13.106.54.3
-	* 13.106.54.19
-	* 13.106.38.142
-	* 13.106.38.148
-	* 13.106.57.196
+* Whitelist the [IP addresses](https://go.microsoft.com/fwlink/?linkid=827201#action-specific-information) the webhook will be called from.
 
 * Verify the webhook endpoint you have configured is correct and the endpoint is working correctly
 * If you are using webhooks to [integrate with Teams or Slack](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups-logic-app), the endpoint expects the payload in a certain format which is different from what alerts provide

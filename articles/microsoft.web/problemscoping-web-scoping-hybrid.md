@@ -2,7 +2,8 @@
 	pageTitle="Scoping questions for Configuring hybrid connections with App Service"
 	description="Configuring hybrid connections with App Service"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581613"
 	productPesIds="14748"
@@ -12,11 +13,10 @@
 />
 
 # Configuring hybrid connections with App Service
-
-
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",
@@ -25,18 +25,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "What is the Hybrid Connection URL? (You can find this in the Hybrid Connection Manager details for the HC or in the connection string shown in the portal.)"
-                },
-                {
-                    "text": "What is the status of the HC? (\"Not connected\", \"Connected\", \"Status unknown\", etc.)"
-                },
-                {
-                    "text": "What is the HC endpoint? (The endpoint that is visible in the Azure portal.)"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -44,7 +33,43 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
-    ]
+        },
+        {
+			"id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "What is the status of the HC?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Not connected",
+					"text": "Not connected"
+				}, {
+					"value": "Connected",
+					"text": "Connected"
+				}, {
+					"value": "Status unknown",
+					"text": "Status unknown"
+				}
+			],
+			"required": false
+		},
+        {
+			"id": "4",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "What is the Hybrid Connection URL? (You can find this in the Hybrid Connection Manager details for the HC or in the connection string shown in the portal)",
+			"watermarkText": "...",
+			"required": false
+		},
+        {
+			"id": "5",
+			"order": 5,
+			"controlType": "textbox",
+			"displayLabel": "What is the HC endpoint? (The endpoint that is visible in the Azure portal)",
+			"watermarkText": "...",
+			"required": false
+		}
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

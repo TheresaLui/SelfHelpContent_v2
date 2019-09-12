@@ -15,19 +15,22 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
- 
+
 # **ExpressRoute Gateway Configuration is Null**
+<!--/issueDescription-->
 
-'**<!--$Message--> [Message] <!--/$Message-->**'  </br>
-ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>
-MSEE: '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' </br>
-VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
+* '**<!--$Message--> [Message] <!--/$Message-->**'  </br>
+* ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>
+* MSEE: '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' </br>
+* VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
 
- 
+<!--/issueDescription-->
+
 ## **Recommended Steps**
 
 + Execute **Jarvis Actions** operation: **Brooklyn->ExR Diagnostic Operations->Fix Vnet Config in Goalstate** for '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
 
 
 ## **Recommended Documents**
+
 * [Configure a virtual network gateway for ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-howto-add-gateway-portal-resource-manager)

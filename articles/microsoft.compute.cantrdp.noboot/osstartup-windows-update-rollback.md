@@ -18,9 +18,10 @@
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have investigated and determined that your virtual machine (VM) **<!--$vmname-->[vmname]<!--/$vmname-->** is in an inaccessible state because Windows failed to install one or more Windows Updates with error code **Failure configuring Windows updates - Reverting changes**. The issue occurs when a there are a high number of pending updates to be installed or one of the updates has become corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect that the VM is reverting changes.<br>
+We have investigated and determined that your virtual machine (VM) **<!--$vmname-->[vmname]<!--/$vmname-->** is in an inaccessible state because Windows failed to install one or more Windows Updates with error code **Failure configuring Windows updates - Reverting changes**. The issue occurs when a there are a high number of pending updates to be installed or one of the updates has become corrupt.
 <!--/issueDescription-->
+
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect that the VM is reverting changes.
 
 ## **Recommended Steps**
 
@@ -32,21 +33,8 @@ If the issue continues even after a restart please follow the steps below:
 2. [Attach the copy/snapshot](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal) of the OS disk as a data disk to a troubleshooting VM
 3. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned
 4. Identify the boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is both the Boot partition and the Windows partition.
-
-    *  The Windows partition contains a folder named **Windows**, and this partition is typically larger than the others
-
-6. Using [DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism), query the updates that are currently installed and pending installation:
-
-    ```
-    dism /image:<drive letter>:\ /get-packages > c:\temp\Patch_level.txt
-    ```
-
-7. Open the file c:\temp\Patch_level.txt and read it starting from the bottom to the top. The Windows Update impacting the virtual machine will be listed with the status **Install Pending** or **Uninstall Pending**.
-8. Remove the problematic Windows Updates by performing the following commands for each of the Windows Updates that are in status **Install Pending / Uninstall Pending**:
-    
-    ```
-    dism /Image:<drive letter>:\ /Remove-Package /PackageName:<package to be removed>
-    ```
-
-9. Detach the repaired OS disk from the troubleshooting VM. [Then, swap the OS disk with the original VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap).
-10. Start the VM and verify if you are able to connect via RDP
+5. Using [DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism), query the updates that are currently installed and pending installation with `dism /image:<drive letter>:\ /get-packages > c:\temp\Patch_level.txt`
+6. Open the file `c:\temp\Patch_level.txt` and read it starting from the bottom to the top. The Windows Update impacting the virtual machine will be listed with the status **Install Pending** or **Uninstall Pending**.
+7. Remove the problematic Windows Updates by performing the following command for each of the Windows Updates that are in status **Install Pending / Uninstall Pending**: `dism /Image:<drive letter>:\ /Remove-Package /PackageName:<package to be removed>`
+8. Detach the repaired OS disk from the troubleshooting VM. [Then, swap the OS disk with the original VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap).
+9. Start the VM and verify if you are able to connect via RDP

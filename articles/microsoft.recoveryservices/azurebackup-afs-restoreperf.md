@@ -18,6 +18,6 @@
 
 ## **Recommended Documents**
 
-- [Can I recover from a deleted Azure file share?](https://docs.microsoft.com/azure/backup/backup-azure-files-faq#can-i-recover-from-a-deleted-azure-file-share-br)<br>
-- [Can I restore from backups if I stopped protection on an Azure file share?](https://docs.microsoft.com/azure/backup/backup-azure-files-faq#can-i-restore-from-backups-if-i-stopped-protection-on-an-azure-file-share-br)<br>
+- [Can I recover from a deleted Azure file share?](https://aka.ms/AB-file-share-afs)<br>
+- [Can I restore from backups if I stopped protection on an Azure file share?](https://aka.ms/AB-stopped-afs)<br>
 - [Frequently asked questions](https://aka.ms/BKP-AFS-FAQs)

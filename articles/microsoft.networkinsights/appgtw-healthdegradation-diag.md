@@ -5,6 +5,7 @@ infoBubbleText="Issues with your Application Gateway were detected. See details 
 service="microsoft.network"
 resource="ApplicationGateway"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder="10"
 articleId="AppGwHealthIsDegradedInsight"
 diagnosticScenario="AppGwHealthIsDegradedInsight"
@@ -15,10 +16,14 @@ productPesIds="15922"
 cloudEnvironments="Public"
 />
 # Microsoft Azure has identified that your Application Gateway is in a degraded state
+
 <!--issueDescription-->
 We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->' health is degraded** for metric '<!--$MetricName-->[MetricName]<!--/$MetricName-->'. This was most recently reported at <!--$PreciseTimeStamp-->[PreciseTimeStamp]<!--/$PreciseTimeStamp--> UTC.
-<!--/issueDescription--> 
-## **Steps to resolve**
+<!--/issueDescription-->
+
+## **Recommended Steps**
+
 Consider stopping and starting the Application Gateway to recover impacted services via the following PowerShell commandlets: <br>
-Stop-AzureRmApplicationGateway <!--$Gatewayname-->[GatewayName]<!--/$Gatewayname--> <br>
-Start-AzureRmApplicationGateway <!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->
+
+* `Stop-AzureRmApplicationGateway <!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->`
+* `Start-AzureRmApplicationGateway <!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->`

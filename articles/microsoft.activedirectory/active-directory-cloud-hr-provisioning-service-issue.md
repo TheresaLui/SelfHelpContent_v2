@@ -11,7 +11,7 @@
 	supportTopicIds="32629796"
 	productPesIds="16666"
 	articleId="8d591007-b407-4b63-9f3e-451f17322ef4"
-	CloudEnvironments="Public"
+	cloudEnvironments="Public"
 />
 
 # Troubleshooting Workday provisioning service issues

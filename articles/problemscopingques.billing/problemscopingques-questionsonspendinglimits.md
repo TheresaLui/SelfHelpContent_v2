@@ -13,40 +13,40 @@
 #  Questions on Spending Limits
 ---
 {
-  "resourceRequired": false,
-  "title": "Questions on Spending Limits",
-  "fileAttachmentHint": "",
-  "formElements": [
-    {
-      "id": "problem_start_time",
-      "visibility": null,
-      "order": 1,
-      "controlType": "datetimepicker",
-      "displayLabel": "Problem Start Date",
-      "required": true
-    },
-    {
-      "id": "subscriptionid_details",
-      "order": 2,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Subscription ID",
-      "watermarkText": "Provide your Subscription ID",
-      "required": true
-    },
-    {
-      "id": "problem_description",
-      "order": 3,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Error message (if any)",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [
+    "resourceRequired": false,
+    "title": "Questions on Spending Limits",
+    "fileAttachmentHint": "",
+    "formElements": [
         {
-          "text": "Describe your problem, providing as much detail as possible."
+            "id": "problem_start_time",
+            "visibility": null,
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date",
+            "required": true
+        },
+        {
+            "id": "subscriptionid_details",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "Provide your Subscription id",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error message (if any)",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Describe your problem, providing as much detail as possible."
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

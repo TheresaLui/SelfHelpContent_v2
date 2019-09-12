@@ -3,11 +3,11 @@
     description="Azure Stack General Guidance"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors="alexsmithMSFT"
+    authors="alexsmithMSFT, v-miegge"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629177,32629175"
+    supportTopicIds="32629177"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
@@ -16,19 +16,16 @@
 
 # Azure Stack General Guidance
 
-The first step in troubleshooting Azure Stack is to review the documented known issues for troubleshooting Azure Stack components such as deployment, virtual machines, and storage.
-
-You can validate the status of your Azure Stack on your own using the provided administration tools. When you have an issue that you cannot solve yourself, contact Microsoft Customer Services & Support (CSS), who can analyze the detailed logs, focus on the area where the error occurred, and work with you in resolving the issue.
+The recommended steps below may help solve or isolate the issue. If the steps below help identify a specific issue, please go back and select the specific problem type, as it may have specific documentation on the issue or will help us work with you in resolving the issue. 
 
 ## **Recommended Steps**
 
-1. Review [troubleshooting known issues](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting) and [release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
-2. Perform [validation for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) using the Test-AzureStack cmdlet
-3. Use [log collection tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics) to collect traces and log files
+1. Review [release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
+1. Perform [validation for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) using the Test-AzureStack cmdlet
+1. Review the available [updates in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates) 
+1. Use [log collection tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics) to collect traces and log files
 
 ## **Recommended Documents**
 
-* [Azure Stack known issues](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting)<br>
-* [Release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/)<br>
-* [Azure Stack diagnostics tools](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics)<br>
-* [Validation for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test)
+For general troubleshooting and topics that cover common questions sent to Microsoft Customer Support Services (CSS), see [Azure Stack Troubleshooting](https://aka.ms/azstroubleshooting). For more details about specific concepts and tasks, see the [Azure Stack Operator Documnentation](https://docs.microsoft.com/azure-stack/operator).
+

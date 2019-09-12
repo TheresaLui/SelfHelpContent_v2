@@ -16,22 +16,31 @@
     "resourceRequired": false,
     "fileAttachmentHint": "Upload your VPN configuration file. Make sure you edit or remove any pre-shared keys or secrets from the file",
     "formElements": [
-        {   "id": "problem_start_time",
+        {
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
         },
-        {   "id": "problem_description",
+        {
+            "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "hints": [{"text": "Issue description"},
-                {"text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"}]
+            "hints": [
+                {
+                    "text": "Issue description"
+                },
+                {
+                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"
+                }
+            ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

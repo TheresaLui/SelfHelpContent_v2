@@ -12,11 +12,11 @@
     selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32402631"
+    supportTopicIds="32402631, 32632986, 32632987"
  />
 # I am having problems with my .NET SDK
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. First, review the .NET SDK [getting started guide](https://docs.microsoft.com/azure/azure-monitor/app/asp-net) and check the default configuration
 2. If you're using .NET Core, review the .NET Core SDK [getting started guide](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core) and check the default configuration
@@ -27,10 +27,10 @@
 
 **App Service Integration Change:** We recently changed the way we integrate with App Services. You no longer need to have the extension installed (in the Extensions blade). You should remove the Application Insights extension from the App Service extension blade and use the [new experience](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps?toc=%2Fazure%2Fazure-monitor%2Ftoc.json) to enable this.
 
-
 ## **Recommended Documents**
-[Getting Started .NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net)<br>
-[Getting Started .NET Core](https://github.com/Microsoft/ApplicationInsights-aspnetcore)<br>
-[.NET SDK GitHub](https://github.com/Microsoft/ApplicationInsights-dotnet)<br>
-[.NET Core SDK GitHub](https://github.com/Microsoft/ApplicationInsights-dotnet)<br>
-[Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data)
+
+* [Getting Started .NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net)<br>
+* [Getting Started .NET Core](https://github.com/Microsoft/ApplicationInsights-aspnetcore)<br>
+* [.NET SDK GitHub](https://github.com/Microsoft/ApplicationInsights-dotnet)<br>
+* [.NET Core SDK GitHub](https://github.com/Microsoft/ApplicationInsights-dotnet)<br>
+* [Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data)

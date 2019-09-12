@@ -22,7 +22,7 @@
 Microsoft Intune has a dependency on specific Service Principals (SPNs) to function correctly. We allow the ability to disable these Intune SPNs in Azure Active Directory for customers that would like to do so. We have detected that you are using Intune and that these SPNs are disabled, which will prevent Intune from functioning correctly. Please re-enable sign on for **<!--$IntuneAppNames-->[IntuneAppNames]<!--/$IntuneAppNames-->**.
 <!--/issueDescription-->
 
-## Recommended Steps
+## **Recommended Steps**
 
 1. In the [Azure portal](https://portal.azure.com/), choose Azure Active Directory > Enterprise Applications, then choose the Application type of "All Applications" and click apply
 2. Search for **<!--$IntuneAppNames-->[IntuneAppNames]<!--/$IntuneAppNames-->**

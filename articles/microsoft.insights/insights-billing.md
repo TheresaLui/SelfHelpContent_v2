@@ -10,7 +10,7 @@
     selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32602214"
+    supportTopicIds="32602214, 32632982, 32632983"
  />
  
 # I have questions about my bill with Application Insights
@@ -27,7 +27,7 @@ The Application Insights Usage and estimated costs page will show you an estimat
 
 **How can I reduce my costs?**<br>
 
-There are several ways to reduce costs of using Application Insights, all of which involve reducing data volumes such as [sampling](https://docs.microsoft.com/en-us/azure/azure-monitor/app/sampling).
+There are several ways to reduce costs of using Application Insights, all of which involve reducing data volumes such as [sampling](https://docs.microsoft.com/azure/azure-monitor/app/sampling).
 
 **How do I change the daily cap?**<br>
 

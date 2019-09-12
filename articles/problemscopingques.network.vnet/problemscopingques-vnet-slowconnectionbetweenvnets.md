@@ -14,7 +14,6 @@
 # Slow connectivity from on-premises
 
 ---
-
 {
     "resourceRequired": true,
     "title": "Slow connectivity from on-premises",
@@ -56,6 +55,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

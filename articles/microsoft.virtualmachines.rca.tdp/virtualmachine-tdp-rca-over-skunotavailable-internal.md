@@ -15,8 +15,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-
-# Deployment failure - SKU not available (internal)
+# Deployment Failure - SKU not available
 
 ## We ran diagnostics on your resource and found an issue
 

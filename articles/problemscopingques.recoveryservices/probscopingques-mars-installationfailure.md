@@ -14,8 +14,14 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "MARS Installation or registration failure",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "MARS Installation or registration failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -31,7 +37,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",
@@ -39,7 +45,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text from failed job details dialog in Microsoft Azure Backup agent",
-            "required": true
+            "required": false
         },
         {
             "id": "registration_type",
@@ -61,24 +67,42 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
-        {
-            "id": "infoblock_reregistration",
+	{
+	 "id": "issue_type",
             "order": 5,
-            "visiblity": "registration_type == re-registering",
-            "controlType": "infoblock",
-            "content": "Note: To re-register machine to the same vault, use the same passphrase that was used during initial registration."
-        },
-        {
-            "id": "prerequisites_links",
-            "order": 6,
-            "controlType": "infoblock",
-            "content": "To ensure successful installation and configuration, refer to these prerequisites and dependencies: <a href='https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#which-operating-systems-does-azure-backup-support-br'>supported OS</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://www.microsoft.com/download/details.aspx?id=53345'>.net framework version requirements</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites.</a>"
-        },
+            "controlType": "dropdown",
+	    "infoBalloonText": "Check installation and registration <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
+            "displayLabel": "Which type of issue you are facing?",
+            "dropdownOptions": [
+                {
+                    "value": "Proxy Configuration failed",
+                    "text": "Proxy Configuration failed"
+                },
+                {
+                    "value": "Installing pre-requisites (.NET and PowerShell) failed",
+                    "text": "Installing pre-requisites (.NET and PowerShell) failed"
+                },
+                {
+                    "value": "Issue with Vault Credentials",
+                    "text": "Issue with Vault Credentials"
+                },
+                {
+                    "value": "Issue with encryption-key/passphrase",
+                    "text": "Issue with encryption-key/passphrase"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+	},
         {
             "id": "basic_troubleshooting_multiselect",
-            "order": 7,
+            "order": 6,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
@@ -109,13 +133,17 @@
                 {
                     "value": "Ensure c:/windows/temp folder has less than 60,000 files",
                     "text": "Ensure c:/windows/temp folder has less than 60,000 files"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -125,11 +153,12 @@
         },
         {
             "id": "problem_start_time",
-            "order": 9,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

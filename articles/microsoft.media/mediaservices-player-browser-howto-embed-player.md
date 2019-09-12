@@ -20,7 +20,7 @@
 
 ### **Quick Start on embedding the player**
 
-This section shows you the basic steps without going into details. Sections that follow give you specifics on how to set up and configure Azure Media Player. Simply add the following includes to your document's <head>:
+This section shows you the basic steps without going into details. Sections that follow give you specifics on how to set up and configure Azure Media Player. Simply add the following to your document's `<head>`:
 
 ```
 <link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">

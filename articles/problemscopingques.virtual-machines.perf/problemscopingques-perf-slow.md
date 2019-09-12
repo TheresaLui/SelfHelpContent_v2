@@ -23,7 +23,8 @@
             "controlType": "datetimepicker",
             "displayLabel": "Start time of most recent occurrence",
             "required": true
-        },{
+        },
+        {
             "id": "perf_current",
             "order": 2,
             "controlType": "dropdown",
@@ -40,7 +41,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "applications_on_vm",
             "order": 3,
             "controlType": "multiselectdropdown",
@@ -84,21 +86,24 @@
                 }
             ],
             "required": false
-        },{
-          "id": "perf_slow_apps",
-          "order": 4,
-          "controlType": "multilinetextbox",
-          "displayLabel": "List all processes/applications you have identified that are slow.",
-          "useAsAdditionalDetails": false,
-          "required": true
-        },{
-				"id": "problem_description",
-				"order": 5,
-				"controlType": "multilinetextbox",
-				"displayLabel": "Description",
-				"useAsAdditionalDetails": true,
-				"required": true
-				}
-    ]
+        },
+        {
+            "id": "perf_slow_apps",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "List all processes/applications you have identified that are slow.",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

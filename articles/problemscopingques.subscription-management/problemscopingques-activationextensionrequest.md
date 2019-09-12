@@ -25,12 +25,40 @@
             "required": true
         },
         {
+            "id": "SubscriptionId",
+            "order": 9,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Subscription ID",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions?api-version=2014-04-01",
+                "jTokenPath": "value",
+                "textProperty": "displayName,subscriptionId",
+                "textTemplate": "{displayName} ({subscriptionId})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not in the list"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
             "id": "subscriptionid_details",
-            "order": 2,
+            "order": 10,
+            "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide the Subscription ID",
-            "required": true
+            "watermarkText": "Provide your Subscription id",
+            "required": false
         },
         {
             "id": "requesttype_details",
@@ -61,7 +89,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Error message encountered during activation (if applicable) ",
             "watermarkText": "Provide the error message encountered during activation (if applicable)",
-            "required": true
+            "required": false
         },
         {
             "id": "requesttype_details2",
@@ -70,7 +98,7 @@
             "controlType": "textbox",
             "displayLabel": "Please provide the extension period",
             "watermarkText": " Provide the extension period",
-            "required": true
+            "required": false
         },
         {
             "id": "offertype_details",
@@ -128,7 +156,7 @@
                     "text": "Visual Studio Test Professional"
                 },
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Other"
                 }
             ],
@@ -137,11 +165,11 @@
         {
             "id": "offertype_details2",
             "order": 7,
-            "visibility": "offertype_details == Other",
+            "visibility": "offertype_details == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": " Provide the Offer Type",
             "watermarkText": "Provide the Offer Type",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -152,6 +180,7 @@
             "useAsAdditionalDetails": true,
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -5,11 +5,12 @@
 	resource="servers"
 	authors="emlisa"
     ms.author="emlisa"
-	displayOrder=""
-	selfHelpType="generic"
+	displayOrder="1"
+	selfHelpType="resource"
 	supportTopicIds="32630429"
 	productPesIds="13491"
 	cloudEnvironments="public"
+    resourceTags="servers, databases"
 	articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a"
 />
 
