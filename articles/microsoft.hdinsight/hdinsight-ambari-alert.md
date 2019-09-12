@@ -16,11 +16,11 @@
 
 # Azure HDInsight: Ambari Alerts
 
+The Ambari heartbeat lost alert is usually transient, and will resolve on its own. 
+
 ## **Recommended Documents**
 
 * [Manage HDInsight clusters by using the Apache Ambari Web UI: Ambari Alerts](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#alerts)
+* [Ambari agent heartbeat lost Alert](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues)
 * [Managing and Monitoring a Cluster: Managing Alerts and Notifications | Hortonworks](https://docs.hortonworks.com/HDPDocuments/Ambari-2.7.3.0/managing-and-monitoring-ambari/content/amb_managing_alerts_and_notifications.html)
-* [Description, potential causes and possible remedies for predefined alerts | Hortonworks](https://docs.hortonworks.com/HDPDocuments/Ambari-2.7.3.0/managing-and-monitoring-ambari/content/amb_predefined_alerts.html)
-https://docs.hortonworks.com/HDPDocuments/Ambari-2.7.3.0/managing-and-monitoring-ambari/content/amb_managing_alerts_and_notifications.html
-* [Ambari agent heartbeat lost Alert](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
-
+* [Managing and Monitoring a Cluster: Predefined alerts | Hortonworks](https://docs.hortonworks.com/HDPDocuments/Ambari-2.7.3.0/managing-and-monitoring-ambari/content/amb_predefined_alerts.html)
