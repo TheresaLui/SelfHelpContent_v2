@@ -10,7 +10,7 @@
     articleId="Hdi_Ambari_AgentHeartbeatLoss"
     diagnosticScenario="HDInsightAgentNotSendingHeartbeatInsight"
     selfHelpType="rca"
-    supportTopicIds="32628984, 32629005, 32629006, 32636436, 32636437"
+    supportTopicIds="32636418, 32636430"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
