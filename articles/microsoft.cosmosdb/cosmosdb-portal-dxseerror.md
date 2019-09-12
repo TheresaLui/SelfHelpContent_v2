@@ -50,6 +50,7 @@
     - To have these 429s appear in Metrics, use the id property when performing these operations. 
 
 **Metadata throttling**
+
 - Scenario: You are seeing high rate of throttling (429) in the **System** metrics tab, and want to know the cause:
     - Metadata throttling can occur when you are performing a high volume of CRUD operations on databases or containers, such as listing databases/containers or querying for offers to see the current provisioned throughput. 
     - Increasing the RU of the database or container will have no impact and is not recommended. 
