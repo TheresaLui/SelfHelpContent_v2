@@ -22,9 +22,7 @@
 
 ### **Troubleshooting**
 
-* Key Vault returns HTTP status code 429 (Too many requests)<br>
-
-	[Key Vault Throttling options](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)
+* Key Vault returns HTTP status code 429 (Too many requests): [Key Vault Throttling options](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)
 
 ## **Recommended Documents**
 
