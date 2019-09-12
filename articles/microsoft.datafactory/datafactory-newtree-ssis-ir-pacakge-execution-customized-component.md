@@ -6,7 +6,7 @@
 	authors="LianwMS"
 	ms.author="lianw"
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-customized-component.md"
-	diagnosticScenario=""
+	displayOrder="14"
 	selfHelpType="generic"
 	supportTopicIds="32680897"
 	resourceTags=""
