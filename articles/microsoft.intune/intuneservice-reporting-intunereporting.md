@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="4c3cfade-78f1-4973-b760-3ea5e2754070"
 />
 
 # Reporting - Intune Reporting

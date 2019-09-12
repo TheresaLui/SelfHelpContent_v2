@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="c730d919-a29e-4e95-a0e9-96ffd0258c6a"
 />
 
 # networkperformancemonitor-other

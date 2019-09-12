@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="64f179d0-f955-4481-9ff2-28cf79992bcb"
 />
 
 # worker role (paas)/Connectivity/Problem accessing Cloud Services

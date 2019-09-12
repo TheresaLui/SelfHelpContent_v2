@@ -10,6 +10,7 @@
 	resourceTags=""	 
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
+	articleId="bf86ef14-68e0-4fb9-a314-0f2f7541296e"
 />
 
 # My web application shows Internal Server Error or Service Unavailable (50x)

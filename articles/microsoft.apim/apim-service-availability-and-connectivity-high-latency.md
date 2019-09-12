@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="0c0123db-c0b5-4168-92a8-6eb37033dfa3"
 />
 
 # High latency

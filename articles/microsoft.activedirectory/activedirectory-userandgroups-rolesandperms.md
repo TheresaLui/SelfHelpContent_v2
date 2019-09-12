@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785"
     cloudEnvironments="public"
-    />
+    	articleId="25e24adf-6daf-4bbb-a50b-bf48e0301307"
+/>
 
 # Azure AD roles and permissions 
  

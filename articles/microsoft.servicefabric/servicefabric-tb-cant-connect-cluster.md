@@ -10,6 +10,7 @@
 	resourceTags="servicefabric"
 	productPesIds=""
 	cloudEnvironments="public,BlackForest,Fairfax"	 
+	articleId="3488103d-e0b8-4585-84e8-4c58663eeb5c"
 />
  
 # Connection failures using Service Fabric Explorer (SFX) or PowerShell to the Management Endpoint 

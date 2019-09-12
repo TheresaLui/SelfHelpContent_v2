@@ -3,18 +3,20 @@
 	description="cleardb purchase"
 	service="azure-subscription-management"
 	resource="subscription-management"
-	authors="aashu"
-	displayOrder=""
+	authors="prdasneo"
+	ms.author="prdasneo"
+	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32549157,32549158"
+	supportTopicIds="32549157"
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="165ad219-1c00-4d27-9692-c66437d2fd26"
 />
 
 # cleardb purchase
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to download your invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)

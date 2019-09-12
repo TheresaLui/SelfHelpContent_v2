@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="eba74647-4f2b-468d-a764-12e68ec96d2d"
 />
 
 # Develop and Customize - How to use Intune Graph APIs

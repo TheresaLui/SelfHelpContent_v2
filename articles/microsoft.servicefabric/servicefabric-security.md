@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="c2236127-4c73-4ccc-94ef-4ff8018b054e"
 />
 
 # cluster/security

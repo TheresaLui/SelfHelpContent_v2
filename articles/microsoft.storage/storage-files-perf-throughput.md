@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="21436305-8ddd-44f2-b3cc-9cba908ac0da"
 />
 
 # Troubleshooting Azure File throughput issues

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="9770a5ae-26a6-4c6d-8518-00583197ebb2"
 />
 
 # Configure SQL AlwaysOn

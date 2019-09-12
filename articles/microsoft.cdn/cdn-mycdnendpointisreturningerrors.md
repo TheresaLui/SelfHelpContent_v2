@@ -10,6 +10,7 @@
     resourceTags="cdnakamai, cdnverizon"
 	productPesIds="15528"
 	cloudEnvironments="public"
+	articleId="cb3e6619-e713-4018-b457-c0c759e2cb01"
 />
 
 # My CDN endpoint is returning 404 errors

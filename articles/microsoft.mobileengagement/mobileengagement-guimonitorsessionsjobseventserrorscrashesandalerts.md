@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15658"
 	cloudEnvironments="public"
+	articleId="d100e96b-b8da-4686-91da-13bd6ab01df9"
 />
 
 # analytics, monitoring, segmentation, and dashboards/gui monitor: sessions, jobs, events, errors, crashes, and alerts

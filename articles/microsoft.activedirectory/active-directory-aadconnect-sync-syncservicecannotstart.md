@@ -10,6 +10,7 @@
     resourceTags="directory_ad_connect,directory_overview"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="21d7ffcc-3ebb-4063-8ebf-e28e3bfadbd8"
 />
 
 # Cannot start Azure AD Connect Synchronization Service

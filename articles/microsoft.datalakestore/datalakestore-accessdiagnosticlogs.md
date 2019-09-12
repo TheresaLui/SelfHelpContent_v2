@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="2ff6abba-7988-4970-b89a-b8db98a20ca2"
 />
 
 # How do I access diagnostic logs?

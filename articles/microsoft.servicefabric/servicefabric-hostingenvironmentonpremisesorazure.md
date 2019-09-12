@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="624b0d56-b8a1-4abb-bc6e-f9f1f7c49ec1"
 />
 
 # Cluster/hosting environment (on premises or azure)

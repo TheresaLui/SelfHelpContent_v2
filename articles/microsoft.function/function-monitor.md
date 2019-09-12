@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="505bf069-145a-4530-9f9c-eb3dc71f272e"
 />
 
 # Monitor Azure Functions

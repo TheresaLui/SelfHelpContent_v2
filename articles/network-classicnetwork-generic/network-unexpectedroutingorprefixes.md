@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="558b7e8d-7cc4-452a-b3e3-2d9f98eb56dc"
 />
 
 # connectivity/unexpected routing or prefixes

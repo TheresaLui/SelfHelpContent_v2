@@ -5,6 +5,7 @@
 	service="microsoft.aad.iam"
 	resource="aadconnect"
 	authors="aditis"
+	ms.author="sahaaditi"
 	displayOrder="1"
 	articleId="ADtoAADSync_AADConnect_ASC_SynchronizationCycleDisabled"
 	diagnosticScenario=""
@@ -13,18 +14,20 @@
 	productPesIds="14785"
 	cloudEnvironments="public"
 />
+
 # The Azure AD Sync scheduler is disabled
 <!--issueDescription-->
-## The Azure AD Sync scheduler is disabled
 We have detected that the synchronization cycle is disabled on server(s) for your tenant.
+<!--/issueDescription-->
 
 When the synchronization cycle is disabled on an Azure AD Connect server, the synchronization process will no longer synchronize data between the on-premises Active Directory and Azure Active Directory. Please enable the synchronization cycle on each affected Azure AD Connect server.
-<!--/issueDescription-->
-## **Recommended steps**
-To enable the synchronization cycle, execute the following PowerShell cmdlet on the Azure AD Connect server: 
 
-`Set-ADSyncScheduler -SyncCycleEnabled $true` 
+## **Recommended Steps**
 
-This cmdlet will enable the synchronization cycle and synchronization will resume at the configured interval.
+* Execute the following PowerShell cmdlet on the Azure AD Connect server: `Set-ADSyncScheduler -SyncCycleEnabled $true`
 
-For more information about stopping, starting, enabling and disabling the synchronization cycle please refer to this article: [https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#overview ](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#overview) 
+	This cmdlet will enable the synchronization cycle and synchronization will resume at the configured interval.
+
+## **Recommended Documents**
+
+* [Active Directory Connect Sync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#overview)

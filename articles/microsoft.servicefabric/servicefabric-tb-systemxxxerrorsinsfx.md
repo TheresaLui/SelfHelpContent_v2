@@ -10,6 +10,7 @@
 	resourceTags="servicefabric"
 	productPesIds=""
 	cloudEnvironments="public,BlackForest,Fairfax"	 
+	articleId="7d9f2c7e-07b0-40a9-afa6-0154a86048be"
 />
     
 # I am seeing System.XXX Errors in Service Fabric Explorer 

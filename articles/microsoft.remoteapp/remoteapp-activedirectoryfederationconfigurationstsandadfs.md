@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="c8e7f4fb-e950-41a7-ac84-28f7078f0adc"
 />
 
 # infrastructure setup/active directory federation configuration (sts and ad fs)

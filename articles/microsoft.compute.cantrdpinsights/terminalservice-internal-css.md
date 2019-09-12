@@ -18,10 +18,10 @@ cloudEnvironments="public"
 
 # Terminal Service is not running
 <!--issueDescription-->
-Terminal Service is not running and hence RDP connectivity is impacted
+We have investigated and identified that the Terminal Service is not running on this virtual machine <!--$vmname-->[vmname]<!--/$vmname--> impacting the RDP connectivity.
 <!--/issueDescription-->
 
-## **Customer Ready Mitigation Steps**
+## **Recommended Steps**
 
 1. Before proceeding further please ensure to take a back up of the OS Disk. This will help if a rollback is required <br>
   * For managed disk VMs, please navigate to the [snapshots blade](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Compute%2Fsnapshots) to create a snapshot of the OS disk. For details instructions, see the article [Create a snapshot](https://docs.microsoft.com/azure/virtual-machines/windows/snapshot-copy-managed-disk)<br>
@@ -43,7 +43,3 @@ REG add "HKLM\SYSTEM\CurrentControlSet\services\netlogon" /v Start /t REG_DWORD 
 set-Service -Name termservice -StartupType automatic -status Running
 ```
 6. Verify the VM now has the RDP connectivity.
-
-## **Internal**
-
-For more details, refer to the [internal article](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/Can%E2%80%99t_RDP-SSH/TSG/VM_Responding_Bucket/TermService_service_is_not_starting).

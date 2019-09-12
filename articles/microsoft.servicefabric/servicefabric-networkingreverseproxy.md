@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="e46b720a-b95c-4274-973b-ac971925b235"
 />
 
 # networking/reverseproxy

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="249fe7e5-7615-4e66-8476-7f0ac828ab68"
 />
 
 # configuration and setup/how to create and modify Microsoft peering

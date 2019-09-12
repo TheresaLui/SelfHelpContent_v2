@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="a0b57fdd-c29c-4a60-8b54-7a78da171846"
 />
 
 # How to Authorizing Users to Create Keys

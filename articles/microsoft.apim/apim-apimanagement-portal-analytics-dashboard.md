@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="8a660608-3c81-42ef-8d05-428233c4d9f2"
 />
 
 # Questions about analytics or dashboard data

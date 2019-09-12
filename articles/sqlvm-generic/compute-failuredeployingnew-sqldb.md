@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="c9e24805-7a03-41f6-9d44-cd7da21e648d"
 />
 
 # setup and configuration/failure deploying new sql vm

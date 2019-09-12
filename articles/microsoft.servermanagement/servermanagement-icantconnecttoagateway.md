@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="7269f03d-db8a-470e-8e8f-4a2514aa045f"
 />
 
 # I can’t connect to a gateway

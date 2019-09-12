@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="64e9f068-e638-4c93-bd11-c34a5f8ddd1e"
 />
 
 # I need help with cross-subscription connectivity (for Circuit Owner)

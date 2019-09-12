@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15658"
 	cloudEnvironments="public"
+	articleId="ab5a3b35-c025-4644-93ef-40c3b4777363"
 />
 
 # api/account api

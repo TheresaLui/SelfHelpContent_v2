@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="3b9c5dfb-2a76-453e-a9c7-c2f048634b46"
 />
 # Configuration and Setup/Encrypt virtual machine disk
 
