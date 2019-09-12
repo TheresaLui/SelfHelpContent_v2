@@ -2,12 +2,12 @@
 	pageTitle="Azure Key Vault Service Limits"
 	description="Azure Key Vault Service Limits"
 	service="Microsoft.Keyvault"
-	resource="vaults"
+    resource="vaults"
     authors="jlichwa"
     ms.authors="jalichwa"
     displayOrder="9"
     selfHelpType="generic"
-	supportTopicIds="32596890"
+    supportTopicIds="32596890"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
@@ -25,7 +25,7 @@
 **Troubleshooting**
 
 * Key Vault returns HTTP status code 429 (Too many requests)<br>
-[Key Vault Throtling options](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)
+[Key Vault Throttling options](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)
 
 ## **Recommended Documents**
 [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)<br>

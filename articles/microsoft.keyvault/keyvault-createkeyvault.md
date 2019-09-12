@@ -4,7 +4,7 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
-    ms.authors="jalichwa"
+    ms.author="jalichwa"
 	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32375289"
@@ -17,11 +17,9 @@
 # How to Create and Manage a Key Vault
 ## **Recommended steps**
 
-* Azure Portal Key Vault quick start<br>
-[Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
+* Azure Portal Key Vault quick start<br> [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
 
-* CLI Key Vault quick start<br>
-[Create a Key Vault with CLI](https://docs.microsoft.com/azure/key-vault/quick-create-cli)
+* CLI Key Vault quick start<br> [Create a Key Vault with CLI](https://docs.microsoft.com/azure/key-vault/quick-create-cli)
 
 **Troubleshooting**
 

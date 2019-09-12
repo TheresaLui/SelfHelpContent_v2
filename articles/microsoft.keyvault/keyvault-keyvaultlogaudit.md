@@ -4,7 +4,7 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
-    ms.authors="jalichwa"
+    ms.author="jalichwa"
 	displayOrder="9"
 	selfHelpType="generic"
 	supportTopicIds="32375294"
@@ -17,10 +17,9 @@
 # How to Logging and Auditing with Key Vault 
 ## **Recommended Steps**
 
-* Logging with Azure Key Vault<br>
-[Using Logging with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging)
-* Auditing with Key Vault<br>
-[Set up key vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)
+* Logging with Azure Key Vault<br> [Using Logging with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging)
+
+* Auditing with Key Vault<br> [Set up key vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)
 
 **Troubleshooting**
 

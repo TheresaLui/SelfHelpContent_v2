@@ -4,7 +4,7 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
-    ms.authors="jalichwa"
+    ms.author="jalichwa"
 	displayOrder="2"
 	selfHelpType="generic"
 	supportTopicIds="32375286"
@@ -20,10 +20,9 @@
 There are two different types of Key Vaults: "Premium" and "Standard". One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys.<br>
 
 Setting Key Vault Type can be done only during creation of key vault.<br>
+
 * When Key Vault is created through Portal select Standard or Premium pricing tier <br>
 * When Key Vault is created through CLI command use --SKU parameter to create standard or premium type. For more information how to create key vault check [Create Key Vault using CLI](https://docs.microsoft.com/cli/azure/keyvault?view=azure-cli-latest#az-keyvault-create) <br>
-
-
 
 **Troubleshooting**
 
