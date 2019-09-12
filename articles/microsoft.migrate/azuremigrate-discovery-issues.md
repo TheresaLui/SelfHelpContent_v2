@@ -48,6 +48,10 @@ This can happen if you have disks on SMB storage. In order to detect disk size c
 
 Check whether Hyper-V hosts are ready for discovery by running this [script](https://aka.ms/migrate/hyperv/script) on the Hyper-V hosts.
 
+### What are the supported host operating systems for Hyper-V VM discovery?
+
+Windows Server 2019, Windows Server 2016 or Windows Server 2012 R2 are the supported Hyper-V host operating systems. You can't assess VMs located on Hyper-V hosts running Windows Server 2012.
+
 ### **How can I scope discovery for a multi-tenant environment in Azure Migrate?**
 
 Hyper-V discovery is done using the Hyper-V host and cluster information provided. All VMs running on the hosts added to the Azure Migrate appliance are discovered. Scoping discovery to a single tenant that shares the hosts with other tenants is not supported today in Azure Migrate. 
