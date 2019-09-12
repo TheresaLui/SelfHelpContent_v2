@@ -2,16 +2,16 @@
 	pageTitle="Azure Key Vault Service Limits"
 	description="Azure Key Vault Service Limits"
 	service="Microsoft.Keyvault"
-    resource="vaults"
-    authors="jlichwa"
-    ms.authors="jalichwa"
-    displayOrder="9"
-    selfHelpType="generic"
-    supportTopicIds="32596890"
+	resource="vaults"
+	authors="jlichwa"
+	ms.author="jalichwa"
+	displayOrder="9"
+	selfHelpType="generic"
+	supportTopicIds="32596890"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
-    articleId="keyvault-keyvaultlimits"
+	articleId="keyvault-keyvaultlimits"
 />
 
 # Azure Key Vault Service Limits
