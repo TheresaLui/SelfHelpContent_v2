@@ -6,6 +6,7 @@
 	authors="LianwMS"
 	ms.author="lianw"
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-performance.md"
+	displayOrder="15"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32680900"
