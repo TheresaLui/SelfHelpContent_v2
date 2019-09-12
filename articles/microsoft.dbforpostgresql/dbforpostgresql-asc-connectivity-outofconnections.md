@@ -5,6 +5,7 @@
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="janeng"
+	ms.author="janeng"
 	displayOrder="100"
 	articleId="dbforpostgresql-asc-connectivity-outofconnections"
 	diagnosticScenario="OrcasPostgresOutofConnections"
