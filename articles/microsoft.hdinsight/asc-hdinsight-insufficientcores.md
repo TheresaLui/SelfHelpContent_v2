@@ -10,7 +10,7 @@
     articleId="Hdi_Crud_InsufficientCores"
     diagnosticScenario="HDInsightInsufficientNumberOfCoresInsight"
     selfHelpType="rca"
-    supportTopicIds="32636423,32636444,32636492"
+    supportTopicIds="32681543, 32681537"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
