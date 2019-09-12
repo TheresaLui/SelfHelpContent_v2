@@ -10,7 +10,7 @@
     articleId="Hdi_DeleteError_ResourceLock"
     diagnosticScenario="HDInsightClusterDeleteErrorInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629037, 32629032, 32636444, 32636445"
+    supportTopicIds="32681536"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
