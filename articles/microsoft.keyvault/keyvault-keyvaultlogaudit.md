@@ -4,6 +4,7 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+    ms.authors="jalichwa"
 	displayOrder="9"
 	selfHelpType="generic"
 	supportTopicIds="32375294"
@@ -21,7 +22,7 @@
 * Auditing with Key Vault<br>
 [Set up key vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
