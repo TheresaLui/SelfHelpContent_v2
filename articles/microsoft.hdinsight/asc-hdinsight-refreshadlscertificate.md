@@ -10,7 +10,7 @@
     articleId="Hdi_CertExpired"
     diagnosticScenario="HDInsightExpiredCertificateInsight"
     selfHelpType="rca"
-    supportTopicIds="32629004, 32636420"
+    supportTopicIds="32636418, 32636420, 32636425"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
