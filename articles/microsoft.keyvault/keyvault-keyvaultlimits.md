@@ -17,16 +17,15 @@
 # Azure Key Vault Service Limits
 ## **Recommended Steps**
 
-* Azure Service Limits<br>
-[Service Limits](https://docs.microsoft.com/azure/key-vault/key-vault-service-limits)
+* Azure [Service Limits](https://docs.microsoft.com/azure/key-vault/key-vault-service-limits)
+* [Key Vault Service SLA](https://azure.microsoft.com/support/legal/sla/key-vault/v1_0/)
 
-* SLA<br>
-[Key Vault Service SLA](https://azure.microsoft.com/support/legal/sla/key-vault/v1_0/)<br>
-
-**Troubleshooting**
+### **Troubleshooting**
 
 * Key Vault returns HTTP status code 429 (Too many requests)<br>
-[Key Vault Throttling options](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)
+
+	[Key Vault Throttling options](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)
 
 ## **Recommended Documents**
-[Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)<br>
+
+* [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)<br>
