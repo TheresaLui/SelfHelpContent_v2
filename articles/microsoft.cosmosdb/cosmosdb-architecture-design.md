@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Azure Cosmos DB - Architecture and design"
-	description="Azure Cosmos DB - Architecture and design"
+	description="Troubleshoot Azure Cosmos DB - Architecture and design related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636768"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-architecture-design"
+	displayOrder="41"
+	category="General Advisory"
 />
 
 # Azure Cosmos DB - Architecture and design

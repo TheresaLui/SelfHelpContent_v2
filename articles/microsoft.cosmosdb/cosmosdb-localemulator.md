@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32675642"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-localemulator"
+	displayOrder="127"
+	category="Tools and Connectors"
 />
 
 # Azure Cosmos DB Emulator

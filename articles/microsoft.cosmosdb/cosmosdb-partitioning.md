@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636816,32636786,32636814"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-partitioning"
+	displayOrder="240"
+	category="Throughput and Scaling"
 />
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB

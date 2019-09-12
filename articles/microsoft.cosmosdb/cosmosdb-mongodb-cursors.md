@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636779"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-mongodb-cursors"
+	displayOrder="222"
+	category="MongoDB"
 />
 # MongoDB - Cursor support
 

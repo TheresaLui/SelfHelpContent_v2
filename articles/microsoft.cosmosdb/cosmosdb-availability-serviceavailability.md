@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Cosmos DB returns service unavailable"
-	description="Cosmos DB Service Unavailable"
+	description="Troubleshoot Azure Cosmos DB Availability issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms,ovplaton-msft"
 	ms.author="balaks,ovplaton"
-	selfHelpType="generic"
-	supportTopicIds="32636804,32636827"
+	selfHelpType="resource"
+	supportTopicIds="32681470"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-availability-serviceavailability"
+	displayOrder="68"
+	category="Core (SQL)"
 />
 # Cosmos DB returns service unavailable
 

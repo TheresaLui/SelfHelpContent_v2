@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636801"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-sdk-nodejs"
+	displayOrder="282"
+	category="SDK Issues"
 />
 
 # Introduction to Azure Cosmos DB Node.js SDK

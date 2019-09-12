@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
 	ms.author="bharathb"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636831"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-mongodbunsupported"
+	displayOrder="225"
+	category="MongoDB"
 />
 
 # MongoDB API Support

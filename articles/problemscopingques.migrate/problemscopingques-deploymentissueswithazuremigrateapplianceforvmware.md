@@ -1,23 +1,23 @@
 <properties
-         pageTitle="Scoping questions for deployment issues with Azure Migrate appliance for VMWare"
-         description="Scoping questions for deployment issues with Azure Migrate appliance for VMWare"
-         authors="An-mol"
-         ms.author="anvar"
-         selfHelpType="problemScopingQuestions"
-         supportTopicIds="32675747"
-         productPesIds="16348"
-         cloudEnvironments="public"
-         schemaVersion="1"
-         articleId="c3178863-02c4-4abc-90bc-a296cf55f14c"
+    pageTitle="Scoping questions for deployment issues with Azure Migrate appliance for VMware"
+    description="Scoping questions for deployment issues with Azure Migrate appliance for VMware"
+    authors="An-mol"
+    ms.author="anvar"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32675748"
+    productPesIds="16348"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="c3178863-02c4-4abc-90bc-a296cf55f14c"
 />
 
-# Deployment issues with Azure Migrate appliance for VMWare
+# Deployment issues with Azure Migrate appliance for VMware
 
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Deployment issues with Azure Migrate appliance for VMWare",
+    "title": "Deployment issues with Azure Migrate appliance for VMware",
     "fileAttachmentHint": "",
     "formElements": [
              {

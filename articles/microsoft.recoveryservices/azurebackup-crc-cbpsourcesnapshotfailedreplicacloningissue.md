@@ -1,8 +1,8 @@
 <properties
 	pageTitle="CBPSourceSnapshotFailedReplicaCloningIssue"
 	description="CBPSourceSnapshotFailedReplicaCloningIssue"
-	infoBubbleText="Backup failed because the disk-backup replica is either invalid or missing."
-	service="microsoft.recoveryservices"
+	infoBubbleText="Backup failed as the disk-backup replica could not be cloned."
+  	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
 	ms.author="srinathvasireddy"
@@ -16,12 +16,13 @@
 	cloudEnvironments="public"
 />
 
-# Error CBPSourceSnapshotFailedReplicaInconsistent
+
+# Error CBPSourceSnapshotFailedReplicaCloningIssue
 
 <!--issueDescription-->
-We identified that your backup failed because the disk backup replica could not be cloned.
+We have identified that your backup operation failed because the disk backup replica could not be cloned.
 <!--/issueDescription-->
 
 ## **Recommended Document**
 
-To resolve this issue, please refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaCloningIssue).
+To resolve the issue, refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaCloningIssue).
