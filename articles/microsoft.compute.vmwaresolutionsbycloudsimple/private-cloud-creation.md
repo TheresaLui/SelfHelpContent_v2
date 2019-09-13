@@ -3,7 +3,6 @@
     description="Describes how to access VMware Solution by CloudSimple portal from Azure portal"
     infoBubbleText="Problems related to creation of Private Cloud on your CloudSimple service"
    	ms.service="azure-vmware-cloudsimple"
-    resource=""
     author="dikamath" 
     ms.author="dikamath"
     displayOrder=""
@@ -24,4 +23,4 @@
 
 ## **Recommended documents**
 
-[Create a Private Cloud](https://docs.microsoft.com/en-us/azure/vmware-cloudsimple/create-private-cloud)<br>
+[Create a Private Cloud](https://docs.microsoft.com/azure/vmware-cloudsimple/create-private-cloud)<br>
