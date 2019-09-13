@@ -4,7 +4,7 @@
 	authors="swbhartims"
 	ms.author="swbhartims"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630392"
+	supportTopicIds="32630414,32630423,32630429,32630436,32630438,32630460"
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -14,10 +14,11 @@
 # SqlException received on the customer's client
 ---
 {
-	"resourceRequired": true,
+	"$schema": "SelfHelpContent",
+	"resourceRequired": false,
 	"title": "SqlException received on the customer's client",
 	"fileAttachmentHint": "",
-	"subscriptionRequired": true,
+	"subscriptionRequired": false,
 	"formElements": [
 	    {
 		      "id": "sqlexception_received_on_client",
