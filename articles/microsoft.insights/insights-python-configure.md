@@ -1,3 +1,17 @@
+<properties 
+    pageTitle="Configuring OpenCensus Python"
+    description="Configuring OpenCensus Python"
+    service="microsoft.insights"
+    resource="components"
+    authors="lzchen"
+    ms.author="lechin"
+    articleId="insights_python"
+    displayOrder="1125"
+    selfHelpType="resource"
+    cloudEnvironments="public"
+    productPesIds="15693" 
+    supportTopicIds="32681426"
+/>
 # **Configuring OpenCensus Python**<br>
 
 Follow [these instructions](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python) to see how to setup and instrument your application to send traces to Application Insights. Take a look at the [Github page](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-azure) for more detailed instructions.
