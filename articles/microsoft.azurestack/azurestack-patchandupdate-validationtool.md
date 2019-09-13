@@ -28,7 +28,7 @@ Using the [UpdateReadiness group](https://docs.microsoft.com/azure-stack/operato
 3. Review active alerts in the Azure Stack Admin Portal, and resolve any that require action
 4. Run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) with the UpdateReadiness group to validate the status of your Azure Stack and resolve any operational issues:
 
-```powershell
+```
 Test-AzureStack -Group UpdateReadiness
 ```
 
