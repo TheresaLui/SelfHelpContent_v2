@@ -23,6 +23,7 @@ Azure Database for MySQL allows you to configure parameters at a server level us
 * To change the **time_zone* parameter, follow the [instruction](https://docs.microsoft.com/azure/mysql/howto-server-parameters#working-with-the-time-zone-parameter) to populate the time zone table.
 * Review the [server parameter limitation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#considerations-and-limitations) for read replica server.
 * If a parameter you'd like to configure is not listed, let us know by creating a new request or voting for existing requests in our [feedback forum](https://feedback.azure.com/forums/597982-azure-database-for-mysql)
+* If there is a change in the server's parameter value from the portal, sometime the client does not see the parameter changed. In such cases client need to reconnect to take param effect after updating param on portal.
 
 ## **Recommended Documents**
 

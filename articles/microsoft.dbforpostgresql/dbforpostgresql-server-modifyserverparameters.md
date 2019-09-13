@@ -26,6 +26,8 @@ To review the current list of configurable parameters, navigate to the **Server 
 
 * Some PostgreSQL parameters can be modified at a session level using the PostgreSQL [SET command](https://www.postgresql.org/docs/current/sql-set.html). You can identify which parameters are session-level-modifiable using the SQL query: `SELECT name, context FROM pg_settings where context='user';`
 
+* If there is a change in the server's parameter value from the portal, sometime the client does not see the parameter changed. In such cases client need to reconnect to take param effect after updating param on portal.
+
 ## **Recommended Documents**
 
 * [Configure parameters using the Azure portal](https://docs.microsoft.com/azure/postgresql/howto-configure-server-parameters-using-portal)<br>
