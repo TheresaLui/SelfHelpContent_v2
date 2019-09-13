@@ -66,7 +66,15 @@
             "watermarkText": "Provide additional information about your issue.  Please indicate if the Activity Log shows any recent operations against this resource, such as a rename or delete",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        },
+        {
+		      "id": "sqlexception_received_on_client",
+			    "order": 2000,
+			    "controlType": "multilinetextbox",
+    			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+		    	"required": false,
+			    "visibility": true
+	    }
     ]
 }
 ---
