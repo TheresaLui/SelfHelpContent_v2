@@ -25,6 +25,10 @@ This article will help with several kinds of issues relating to using the Azure 
 * Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
 * If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management).
 
+### **Updates aren't installing while "Never reboot" is selected"**
+
+* Some updates can be dependent on other required updates. If a required update needs a reboot, and "Never reboot" is selected, the required update will not finish installing and any dependent updates will not be able to install until the next update deployment.
+
 ### **I know updates are available, but they don't show as needed on my machines**
 
 * This often happens if machines are configured to get updates from WSUS/SCCM, but WSUS/SCCM have not approved the updates.
