@@ -16,16 +16,21 @@
 
 # Azure Stack validation tool
 
-Before applying an Azure Stack update, you can prepare by making sure you have applied all the hotfixes, security patches, and OEM updates, validated the health of your Azure Stack instance, checked the available capacity, and reviewed the update package.
+Before applying an Azure Stack update, make sure you have applied all required hotfixes, security patches, and OEM updates, validated the health of your Azure Stack instance, checked the available capacity, and reviewed the update package.
 
 The [Test-AzureStack validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) also lets you run a series of tests on your system to identify failures if present, prior to applying an Azure Stack update.
+Using the [UpdateReadiness group](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#groups), warnings are displayed as errors in the console output, and should be considered as blockers for the update.
 
 ## **Recommended Steps**
 
 1. Ensure you have applied all the required hotfixes, security patches, and OEM updates listed in the update release notes, available from the [list of update packages](https://docs.microsoft.com/azure-stack/operator/azure-stack-servicing-policy#update-package-release-cadence)
-2. Review all documented known issues for the Azure Stack Update you are planning to apply
-3. Before you start installation of this update, run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) to validate the status of your Azure Stack and resolve any operational issues found, including all warnings and failures
-4. Review active alerts in the Azure Stack Admin Portal, and resolve any that require action
+2. Review all known issues for the Azure Stack Update you are planning to apply
+3. Review active alerts in the Azure Stack Admin Portal, and resolve any that require action
+4. Run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) with the UpdateReadiness group to validate the status of your Azure Stack and resolve any operational issues:
+
+```powershell
+Test-AzureStack -Group UpdateReadiness
+```
 
 ## **Recommended Documents**
 
