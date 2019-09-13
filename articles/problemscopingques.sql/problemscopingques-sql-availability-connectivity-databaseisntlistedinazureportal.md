@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630436,32630437"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="FAD1FE7C-C2A3-408E-8DCA-A3CAE653AD36"
 />
@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Database isn't listed in Azure portal",
     "fileAttachmentHint": "",
     "formElements": [
