@@ -1,10 +1,10 @@
 <properties
-    pageTitle="Register a disconnected Azure Stack"
-    description="Register a disconnected Azure Stack"
+    pageTitle="Precheck questions or Test-AzureStack failures"
+    description="Precheck questions or Test-AzureStack failures"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors="TobyTu"
-    ms.author="mquian"
+    authors="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629240"
@@ -16,9 +16,20 @@
 
 # Azure Stack validation tool
 
-As an Azure Stack operator, being able to determine the health and status of your system on-demand is essential. The Azure Stack validation tool (Test-AzureStack) is a PowerShell cadet that lets you run a series of tests on your system to identify failures if present. You will typically be asked to run this tool through the [privileged end point (PEP)](https://docs.microsoft.com/azure-stack/operator/azure-stack-privileged-endpoint) when you contact Microsoft Customer Services Support (CSS) with an issue. With the system-wide health and status information at hand, CSS can collect and analyze detailed logs, focus on the area where the error occurred, and work with you to resolve the issue.
+Before applying an Azure Stack update, you can prepare by making sure you have applied all the hotfixes, security patches, and OEM updates, validated the health of your Azure Stack instance, checked the available capacity, and reviewed the update package.
+
+The [Test-AzureStack validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) also lets you run a series of tests on your system to identify failures if present, prior to applying an Azure Stack update.
+
+## **Recommended Steps**
+
+1. Ensure you have applied all the required hotfixes, security patches, and OEM updates listed in the update documentation linked from the [list of update packages](https://docs.microsoft.com/azure-stack/operator/azure-stack-servicing-policy#update-package-release-cadence)
+2. Review all documented known issues for the Azure Stack Update you are planning to apply
+3. Before you start installation of this update, run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) to validate the status of your Azure Stack and resolve any operational issues found, including all warnings and failures
+4. Review active alerts in the Azure Stack Admin Portal, and resolve any that require action
 
 ## **Recommended Documents**
 
+* [Update package release cadence](https://docs.microsoft.com/azure-stack/operator/azure-stack-servicing-policy#update-package-release-cadence)
 * [Microsoft Azure Stack troubleshooting](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting)
-* [Tests available](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#tests-available)
+* [Validation Tests Available](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#tests-available)
+* [Azure Stack Troubleshooting](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting)
