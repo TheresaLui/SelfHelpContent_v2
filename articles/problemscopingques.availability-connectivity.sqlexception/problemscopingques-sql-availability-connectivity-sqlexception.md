@@ -4,7 +4,7 @@
 	authors="swbhartims"
 	ms.author="swbhartims"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630414,32630423,32630429,32630436,32630438,32630460"
+	supportTopicIds="32630429"
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -24,7 +24,7 @@
 		      "id": "sqlexception_received_on_client",
 			    "order": 1,
 			    "controlType": "multilinetextbox",
-    			"displayLabel": "Please provide the verbatim SQLException, or client error message you're seeing. Complete callstack (with appropriate user sensitive information redacted) preferred.",
+    			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
 		    	"required": true,
 			    "visibility": true
 	    },
