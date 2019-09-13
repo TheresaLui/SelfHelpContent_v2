@@ -26,14 +26,10 @@ Using the [UpdateReadiness group](https://docs.microsoft.com/azure-stack/operato
 1. Ensure you have applied all the required hotfixes, security patches, and OEM updates listed in the update release notes, available from the [list of update packages](https://docs.microsoft.com/azure-stack/operator/azure-stack-servicing-policy#update-package-release-cadence)
 2. Review all known issues for the Azure Stack Update you are planning to apply
 3. Review active alerts in the Azure Stack Admin Portal, and resolve any that require action
-4. Run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) with the UpdateReadiness group to validate the status of your Azure Stack and resolve any operational issues:
-
-```
-Test-AzureStack -Group UpdateReadiness
-```
+4. Run ` Test-AzureStack -Group UpdateReadiness ` to validate the status of your Azure Stack environment, and resolve any operational issues before applying the update
 
 ## **Recommended Documents**
 
 * [Test-AzureStack validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test)
 * [Validation Tests Available](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#tests-available)
-* [Microsoft Azure Stack troubleshooting](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting)
+* [Azure Stack Troubleshooting](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting)
