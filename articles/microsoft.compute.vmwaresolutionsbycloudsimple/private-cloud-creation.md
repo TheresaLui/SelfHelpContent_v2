@@ -16,11 +16,11 @@
 
 # Troubleshooting Private Cloud creation 
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. Ensure that the vSphere and vSAN network does not overlap with any other network in the region.<br>
+* Ensure that the vSphere and vSAN network does not overlap with any other network in the region
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Create a Private Cloud](https://docs.microsoft.com/azure/vmware-cloudsimple/create-private-cloud)<br>
+* [Create a Private Cloud](https://docs.microsoft.com/azure/vmware-cloudsimple/create-private-cloud)<br>
