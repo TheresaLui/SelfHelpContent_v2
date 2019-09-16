@@ -20,4 +20,4 @@
 ## **Recommended Documents**
 
 * [On-premises DNS setup](https://docs.microsoft.com/azure/vmware-cloudsimple/on-premises-dns-setup/) <br>
-* [VSphere Management Network](https://docs.microsoft.com/azure/vmware-cloudsimple/manage-private-cloud#vsphere-management-network) <br>
+* [vSphere Management Network](https://docs.microsoft.com/azure/vmware-cloudsimple/manage-private-cloud#vsphere-management-network) <br>

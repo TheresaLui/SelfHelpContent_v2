@@ -20,7 +20,7 @@
 
 * Check if there are any bandwidth constraints on your on-premises VPN device. <br>
 * Check if any firewall or proxy for  blocking or throttling the traffic. <br>
-* Check with ISP for sub-optimal paths to the VPN public IP address. <br>
+* Check with ISP for suboptimal paths to the VPN public IP address. <br>
 * Check for Service Policy or QoS applied on L3 interface that caps speed or bandwidth. <br>
 * Check router or FW for high CPU or memory utilization. <br>
 * Check if an asymmetric path over WAN causing slowness or drops. <br>
