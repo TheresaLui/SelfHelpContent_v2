@@ -94,6 +94,10 @@
                     "text": "5-10% free volume space is available on scratch folder location"
                 },
                 {
+                    "value": "A valid security PIN is entered",
+                    "text": "A valid security PIN is entered"
+                },
+                {
                     "value": "If antivirus is running, then exclusion rules are used",
                     "text": "If antivirus is running, then exclusion rules are used"
                 },
