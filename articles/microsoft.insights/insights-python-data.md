@@ -15,6 +15,7 @@
 # No data or Partial Data with OpenCensus Python
 
 ## No data/partial data
+
 1. Make sure OpenCensus Python is [configured properly]()
 2. Wait for ~5 minutes to make sure that the lack of data is not due to ingestion delay (it takes about that long for sent telemetry data to appear on Azure Monitor)
 3. Take a look at the output for your logs for any failed telemetry items.

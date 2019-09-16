@@ -41,6 +41,7 @@ tracer = Tracer(
 ```
 
 #### If using opencensus-ext-flask integration
+
 1. Make sure you have the latest version of [opencensus-ext-flask](https://pypi.org/project/opencensus-ext-flask/)
 2. Check to see if the host(s) your are making requests to are not in settings.py under BLACKLIST_HOSTNAMES.
 3. Check to see if the path(s) your are making requests to are not in settings.py under BLACKLIST_PATHS.
@@ -85,6 +86,8 @@ CARROTS_VIEW = view_module.View("carrots_view",
                                 CARROTS_MEASURE,
                                 aggregation_module.DistributionAggregation())
 ```
+
+If you do not find your solution from this page, create a ticket or file a [bug report](https://github.com/census-instrumentation/opencensus-python/issues/new?labels=bug&template=bug_report.md). Please provide which version of Python is being used (python --version), what platform you are running on, version numbers of installed dependencies, a callstack, and a code snippet to reproduce if possible.
 
 ## **Recommended Documents**<br>
 
