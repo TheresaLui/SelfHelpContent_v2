@@ -14,7 +14,7 @@
     articleId="0c24ae6d-5aee-4cff-bcd9-36e9725da3da"    
 />
 
-# Troubleshooting Private Cloud creation 
+# Troubleshooting Private Cloud deletion
 
 
 ## **Recommended Documents**
