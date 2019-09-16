@@ -12,20 +12,20 @@
     productPesIds="15693" 
     supportTopicIds=""
 />
-# **Configuring OpenCensus Python**<br>
+# Configuring OpenCensus Python
 
 Follow [these instructions](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python) to see how to setup and instrument your application to send traces to Application Insights. Take a look at the [Github page](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-azure) for more detailed instructions.
 
-## Versioning
+## **Versioning**<br>
 
 1. Make sure your application is running a [version](https://github.com/census-instrumentation/opencensus-python/blob/master/setup.py) of Python that is supported by OpenCensus
 2. Upgrade to the latest version of [opencensus-ext-azure](https://pypi.org/project/opencensus-ext-azure/)
 
-## Instrumentation Key
+## **Instrumentation Key**<br>
 
 1. Make sure that the instrumentation key you specified in the <b>APPINSIGHTS_INSTRUMENTATIONKEY</b> environment variable or in your code corresponds to the Application Insights instance you are viewing. The key specified in your code takes precedence over the one specified in the environment variable.
 
-## No data is collected
+## **No data is collected**<br>
 
 ### Tracing
 
@@ -67,6 +67,7 @@ OPENCENSUS = {
 5. Check to see if the path(s) your are making requests to are not in settings.py under BLACKLIST_PATHS.
 
 #### If using opencensus-ext-httplib integration
+
 1. Make sure `config_integration.trace_integrations(['httplib'])` is included in your code.
 2. Check to see if the host(s) your are making requests to are not in set in `blacklist_hostnames`.
 3. If using Python2, [httplib](https://docs.python.org/2/library/httplib.html) is the supported library. If using Python3,
@@ -89,7 +90,7 @@ CARROTS_VIEW = view_module.View("carrots_view",
 
 If you do not find your solution from this page, create a ticket or file a [bug report](https://github.com/census-instrumentation/opencensus-python/issues/new?labels=bug&template=bug_report.md). Please provide which version of Python is being used (python --version), what platform you are running on, version numbers of installed dependencies, a callstack, and a code snippet to reproduce if possible.
 
-## **Recommended Documents**<br>
+## **Recommended Documents**
 
 * [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python)
 * [OpenCensus Azure Monitor Exporter](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-azure)
