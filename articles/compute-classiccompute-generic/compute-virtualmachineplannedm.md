@@ -34,6 +34,7 @@ Information related to planned maintenance is available during a planned mainten
 * [In-depth FAQ for planned maintenance](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#faq)<br>
 * [Understanding planned maintenance for Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-and-updates)<br>
 * [How to view notifications and alerts in the portal](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#notification-and-alerts-in-the-portal)<br>
+* [How to subscribe to notifications before any VM maintenance is performed](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)<br>
 * [Handling planned maintenance notifications for Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications)<br>
 * [How to view VMs scheduled for maintenance in the portal](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#view-vms-scheduled-for-maintenance-in-the-portal)<br>
 * [Check maintenance status using PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#check-maintenance-status-using-powershell)<br>

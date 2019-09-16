@@ -11,7 +11,7 @@
     diagnosticScenario="ApplicationGatewayEndToEndSSLIssues"
     supportTopicIds="32582825"
 	productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # End-to-end SSL issues with Application Gateway
@@ -21,7 +21,3 @@ We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedR
 ## **Issues identified**
 
  <!--$failedCheckList-->[failedChecklist]<!--/$failedCheckList-->
-
-## **Recommended Steps**
-
-If there are no issues identified by diagnostics, then verify that you have configured end-to-end SSL correctly. See how to [configure end-to-end SSL with Application Gateway](https://docs.microsoft.com/azure/application-gateway/end-to-end-ssl-portal).

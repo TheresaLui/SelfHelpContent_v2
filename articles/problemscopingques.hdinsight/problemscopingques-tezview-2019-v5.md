@@ -26,12 +26,12 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
         {
             "id": "is_new_problem",
             "order": 10,
@@ -159,7 +159,7 @@
             "id": "tardyresponse",
             "order": 400,
             "controlType": "dropdown",
-            "displayLabel": "Is the issue regarding to targy response?",
+            "displayLabel": "Is the issue regarding to tardy response?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -186,6 +186,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

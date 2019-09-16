@@ -6,7 +6,7 @@
 	authoralias="rradjou"
 	ms.author="radjaram"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32615126"
+	supportTopicIds="32673593,32673610,32673597,32673594"
 	productPesIds="16307"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -14,6 +14,7 @@
 # Failure when running a database migration using DMS
 ---
 {
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"subscriptionRequired": false,
 	"title": "Error when running database migration",
@@ -67,9 +68,9 @@
 					"value": "MongoDB_To_CosmosDBMongoAPI_Online",
 					"text": "MongoDB to Azure Azure CosmosDB Mongo API Online"
 				},{
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
+					"value": "dont_know_answer",
+					"text": "Other, don't know or not applicable"
+			}
 			],
 			"required": true
 		},{
@@ -79,8 +80,9 @@
 			"displayLabel":"Please provide additional context for the error message you are encountering.",
 			"required":true,
 			"useAsAdditionalDetails":true,
-			"watermarkText":"Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information"
+			"watermarkText":"Please provide the detailed symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information"
 		}
 	]
 }
 ---
+

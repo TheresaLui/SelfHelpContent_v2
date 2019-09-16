@@ -18,19 +18,30 @@
     "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-            "title": "Azure Virtual Machine backup failure diagnostics",
-            "description": "These diagnostics will check for errors.",
-            "insightNotAvailableText": "We didn't find any problems"
-	   	    },
+        "title": "Azure Virtual Machine backup failure diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
+	    "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+	    },
             "required": false,
-	    "diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -79,12 +90,13 @@
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -112,10 +124,10 @@
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": false
         },
@@ -125,7 +137,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true,
-	    "diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
@@ -137,6 +149,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

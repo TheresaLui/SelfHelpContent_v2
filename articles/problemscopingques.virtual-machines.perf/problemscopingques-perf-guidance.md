@@ -17,13 +17,14 @@
     "title": "Guidance for better VM sizing and throughput",
     "fileAttachmentHint": "",
     "formElements": [
-    	{
+        {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Start time of most recent occurrence",
             "required": true
-        },{
+        },
+        {
             "id": "perf_current",
             "order": 2,
             "controlType": "dropdown",
@@ -40,36 +41,38 @@
                 }
             ],
             "required": false
-        },{
-        "id": "perf_constraints",
-        "order": 3,
-        "controlType": "multiselectdropdown",
-        "displayLabel": "Which category of resource constraints did you observe?",
-        "watermarkText": "Choose an option",
-        "dropdownOptions": [
-            {
-                "value": "CPU",
-                "text": "CPU"
-            },
-            {
-                "value": "Memory",
-                "text": "Memory"
-            },
-            {
-                "value": "Disk",
-                "text": "Disk"
-            },
-            {
-                "value": "Network",
-                "text": "Network"
-            },
-            {
-                "value": "GPU",
-                "text": "GPU"
-            }
-        ],
-        "required": false
-    },{
+        },
+        {
+            "id": "perf_constraints",
+            "order": 3,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Which category of resource constraints did you observe?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "CPU",
+                    "text": "CPU"
+                },
+                {
+                    "value": "Memory",
+                    "text": "Memory"
+                },
+                {
+                    "value": "Disk",
+                    "text": "Disk"
+                },
+                {
+                    "value": "Network",
+                    "text": "Network"
+                },
+                {
+                    "value": "GPU",
+                    "text": "GPU"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "applications_on_vm",
             "order": 4,
             "controlType": "multiselectdropdown",
@@ -113,7 +116,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "perf_storage",
             "order": 5,
             "controlType": "dropdown",
@@ -130,14 +134,16 @@
                 }
             ],
             "required": false
-        },{
-				"id": "problem_description",
-				"order": 6,
-				"controlType": "multilinetextbox",
-				"displayLabel": "Description",
-				"useAsAdditionalDetails": true,
-				"required": true
-				}
-    ]
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

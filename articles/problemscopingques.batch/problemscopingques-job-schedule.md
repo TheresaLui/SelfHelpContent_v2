@@ -17,8 +17,7 @@
     "subscriptionRequired": true,
     "title": "Job Schedule details",
     "fileAttachmentHint": "",
-    "formElements":
-    [
+    "formElements": [
         {
             "id": "job_schedule_id_selection",
             "order": 1,
@@ -42,13 +41,13 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints":
-            [
+            "hints": [
                 {
                     "text": "Provide additional information about your issue."
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

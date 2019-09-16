@@ -5,7 +5,7 @@
 	authors="shravanmn, csunilkumar, lisaliu"
 	ms.author="shravan, sunilkc, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636444, 32636438, 32636507, 32636439"
+	supportTopicIds="32636438, 32636507, 32636444, 32681541, 32681543, 32681542, 32681541"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -36,8 +36,8 @@
             "id": "cluster_name",
             "order": 10,
             "controlType": "textbox",
-            "displayLabel": "Cluster name if available",
-            "required": false
+            "displayLabel": "Cluster name",
+            "required": true
         },
         {
             "id": "is_new_problem",
@@ -197,6 +197,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

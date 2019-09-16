@@ -62,6 +62,7 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

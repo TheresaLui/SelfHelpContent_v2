@@ -63,7 +63,7 @@
                 },
                 {
                     "value": "Other",
-                    "text" : "Other"
+                    "text": "Other"
                 }
             ],
             "required": false
@@ -75,7 +75,7 @@
             "displayLabel": "What is the new requested upper limit for Premium Streaming Endpoint Units?",
             "infoBalloonText": "Please provide the max upper limit of Premium Streaming Endpoint Units that you  need.",
             "watermarkText": "Enter a numeric value",
-            "visibility" : "quota_SRU_value == Other",
+            "visibility": "quota_SRU_value == Other",
             "required": false
         },
         {
@@ -87,6 +87,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

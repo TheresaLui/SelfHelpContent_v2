@@ -106,7 +106,7 @@
             "displayLabel": "What is the new requested upper limit for Media Reserved Units (MRU)?",
             "infoBalloonText": "Please provide the max upper limit of Media Reserved Units (MRU) that you  need.",
             "watermarkText": "Enter a numeric value",
-            "visibility" : "quota_MRU_value == Other",
+            "visibility": "quota_MRU_value == Other",
             "required": false
         },
         {
@@ -181,6 +181,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

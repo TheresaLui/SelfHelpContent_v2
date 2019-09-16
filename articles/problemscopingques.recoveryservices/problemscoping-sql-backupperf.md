@@ -1,8 +1,8 @@
 <properties
          pageTitle="Scoping questions for SQL database backup performance"
          description="Scoping questions for SQL database backup performance"
-         authors="srinathv"
-         ms.author="srinathv"
+         authors="srinathvasireddy"
+         ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605792"
          productPesIds="15207"
@@ -17,15 +17,32 @@
     "subscriptionRequired": true,
     "title": "SQL database backup performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL database backup performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which machine is experiencing the problem?",
-            "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": false
-        },{
+            "watermarkText": "Select the virtual machine running SQL",
+            "dynamicDropdownOptions": {
+                     "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+                     "jTokenPath": "value",
+                     "textProperty": "name",
+                     "valueProperty": "id",
+                     "textPropertyRegex": ".*",
+                     "defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
+          },
+           "required": false
+        },
+        {
             "id": "database_Name",
             "order": 2,
             "controlType": "textbox",
@@ -57,7 +74,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -67,7 +85,7 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-		{
+        {
             "id": "job_Running_Time",
             "order": 5,
             "controlType": "textbox",
@@ -92,6 +110,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

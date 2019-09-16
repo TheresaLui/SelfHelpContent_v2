@@ -261,6 +261,7 @@
             "required": false,
             "useAsAdditionalDetails": false
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -11,7 +11,7 @@
     diagnosticScenario="ApplicationGatewaySSLTermiationIssues"
     supportTopicIds="32582828"
 	productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # SSL termination issues with Application Gateway
@@ -21,7 +21,3 @@ We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedR
 ## **Issues identified**
 
  <!--$failedCheckList-->[failedChecklist]<!--/$failedCheckList-->
-
-## **Recommended Steps**
-
-If there are no issues identified by diagnostics, then verify that you have configured SSL termination correctly. See how to [configure SSL termination with Application Gateway](https://docs.microsoft.com/azure/application-gateway/tutorial-ssl-powershell).

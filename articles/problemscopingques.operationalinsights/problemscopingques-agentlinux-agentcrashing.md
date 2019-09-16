@@ -8,13 +8,15 @@ ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612497"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 schemaVersion="1"
 />
 
 # Agent is crashing
 ---
 {
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",

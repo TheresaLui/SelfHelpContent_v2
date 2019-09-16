@@ -17,14 +17,13 @@
     "resourceRequired": false,
     "title": "Hybrid Worker",
     "fileAttachmentHint": "",
-    "formElements":
-    [
+    "formElements": [
         {
-			"id": "NodeName",
-			"order": 1,
-			"controlType": "textbox",
-			"displayLabel": "Please provide the computer name of the hybrid worker",
-			"required": false
+            "id": "NodeName",
+            "order": 1,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the computer name of the hybrid worker",
+            "required": false
         },
         {
             "id": "problem_start_time",
@@ -47,6 +46,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

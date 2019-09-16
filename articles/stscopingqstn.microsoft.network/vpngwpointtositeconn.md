@@ -93,7 +93,7 @@
             ],
             "required": true
         },
-	{
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -109,6 +109,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

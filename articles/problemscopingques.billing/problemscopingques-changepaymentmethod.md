@@ -98,6 +98,7 @@
             "watermarkText": "Provide any error message or additional information about your issue",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

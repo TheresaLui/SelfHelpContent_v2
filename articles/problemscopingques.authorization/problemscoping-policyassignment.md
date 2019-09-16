@@ -18,10 +18,10 @@
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Policy definition",
     "fileAttachmentHint": "",
-    "formElements":
-    [
+    "formElements": [
         {
             "id": "problem_start_time",
             "order": 10,
@@ -84,14 +84,16 @@
             "order": 40,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Provide additional information about the issue and what is your expectation",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [{
+            "hints": [
+                {
                     "text": "Issue description."
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

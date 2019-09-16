@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "DPM restore failure",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "DPM restore failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_Type",
@@ -44,7 +49,7 @@
         {
             "id": "os_version",
             "order": 2,
-	    "visibility": "issue_Type == Restore from cloud",
+            "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
             "watermarkText": "ex. Windows 2012 R2",
@@ -53,7 +58,7 @@
         {
             "id": "machine_name",
             "order": 3,
-	    "visibility": "issue_Type == Restore from cloud",
+            "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the impacted machine",
@@ -62,7 +67,7 @@
         {
             "id": "error_message",
             "order": 4,
-	    "visibility": "issue_Type == Restore from cloud",
+            "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Provide the error code that you are seeing:",
             "watermarkText": "Example: DataTransferServiceCoFLimitReached",
@@ -74,7 +79,7 @@
             "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -84,7 +89,7 @@
             "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId",
-            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },
@@ -104,12 +109,13 @@
                     "value": "Recover data to the original location",
                     "text": "Recover data to the original location"
                 },
-				{
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "data_source_type",
@@ -122,7 +128,8 @@
                 {
                     "value": "Restoring files and folder",
                     "text": "Restoring files and folder"
-                },{
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -149,7 +156,7 @@
                     "value": "Tried restoring different recovery points",
                     "text": "Tried restoring different recovery points"
                 },
-				{
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -174,6 +181,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -13,33 +13,34 @@
 # Service Principal related
 ---
 {
-                "subscriptionRequired": true,
-                "resourceRequired": true,
-                "title": "Service Principal related",
-                "fileAttachmentHint": "",
-                "formElements": [
-                 {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
-                },
-                {
-                    "id": "getErrorMsg",
-                    "order": 2,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What error message did you receive while performing this operation, if any?",
-                    "required": false
-                  },
-                  {
-                  "id": "problem_description",
-                  "order": 3,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  }
-                ]
+    "subscriptionRequired": true,
+    "resourceRequired": true,
+    "title": "Service Principal related",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "getErrorMsg",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What error message did you receive while performing this operation, if any?",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

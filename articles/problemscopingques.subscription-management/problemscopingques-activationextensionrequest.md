@@ -31,15 +31,15 @@
             "displayLabel": "Select the Subscription ID",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions?api-version=2014-04-01",
-             "jTokenPath": "value",
-             "textProperty": "displayName,subscriptionId",
-             "textTemplate": "{displayName} ({subscriptionId})",
-             "valueProperty": "id",
-             "textPropertyRegex": "[^/]+$",
-             "defaultDropdownOptions": {
-             "value": "dont_know_answer",
-             "text": "Other, don't know or not applicable"
+                "uri": "/subscriptions?api-version=2014-04-01",
+                "jTokenPath": "value",
+                "textProperty": "displayName,subscriptionId",
+                "textTemplate": "{displayName} ({subscriptionId})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             },
             "dropdownOptions": [
@@ -180,6 +180,7 @@
             "useAsAdditionalDetails": true,
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

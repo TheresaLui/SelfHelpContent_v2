@@ -17,16 +17,14 @@
     "subscriptionRequired": true,
     "title": "Pool and node details",
     "fileAttachmentHint": "",
-    "formElements":
-    [
+    "formElements": [
         {
             "id": "pool_id_selection",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Select the pool that has the problem",
             "watermarkText": "Choose a pool",
-            "dynamicDropdownOptions":
-            {
+            "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Batch/batchAccounts/{resourceName}/pools?api-version=2018-12-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
@@ -62,13 +60,13 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints":
-            [
+            "hints": [
                 {
                     "text": "Provide additional information about your issue."
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

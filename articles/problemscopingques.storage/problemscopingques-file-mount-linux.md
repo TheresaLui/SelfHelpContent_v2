@@ -18,10 +18,10 @@
     "title": "Storage File Share mounting issues - Linux",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-		"title": "What caused my Azure Files mount issue on Linux?",
-    	"description": "Our Azure Files mount troubleshooter can help you troubleshoot and solve your problem.",
-    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure that File Share or File Path provided is in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
-	},
+        "title": "What caused my Azure Files mount issue on Linux?",
+        "description": "Our Azure Files mount troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure that File Share or File Path provided is in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "file_share_or_path",
@@ -147,31 +147,31 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "error2",
+                    "value": "linux_error2",
                     "text": "Mount error(2): No such file or directory"
                 },
                 {
-                    "value": "error11",
+                    "value": "linux_error11",
                     "text": "Mount error(11): Resource temporarily unavailable"
                 },
                 {
-                    "value": "error13",
+                    "value": "linux_error13",
                     "text": "Mount error(13): Permission denied"
                 },
                 {
-                    "value": "error22",
+                    "value": "linux_error22",
                     "text": "Mount error(22): Invalid argument"
                 },
                 {
-                    "value": "error112",
+                    "value": "linux_error112",
                     "text": "Mount error(112): Host is down"
                 },
                 {
-                    "value": "error115",
+                    "value": "linux_error115",
                     "text": "Mount error(115): Operation now in progress"
                 },
                 {
-                    "value": "dont_know_answer",
+                    "value": "linux_dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
             ],
@@ -181,7 +181,7 @@
         {
             "id": "error_other",
             "order": 5,
-            "visibility": "mount_error == dont_know_answer",
+            "visibility": "mount_error == linux_dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",
@@ -202,6 +202,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

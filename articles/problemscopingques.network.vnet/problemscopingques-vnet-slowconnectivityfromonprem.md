@@ -14,7 +14,6 @@
 # Slow connection between Virtual Networks
 
 ---
-
 {
     "resourceRequired": true,
     "title": "Slow connection between Virtual Networks",
@@ -56,6 +55,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

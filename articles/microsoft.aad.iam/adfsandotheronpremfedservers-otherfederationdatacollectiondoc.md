@@ -27,7 +27,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 1
@@ -44,7 +44,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 1
@@ -73,6 +73,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -23,7 +23,7 @@ schemaVersion="1"
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When was the workspace deleted?",
+            "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
@@ -66,6 +66,7 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

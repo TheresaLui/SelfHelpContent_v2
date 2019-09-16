@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Connectivity to Azure Cosmos DB Cassandra API"
-	description="Connectivity to Azure Cosmos DB Cassandra API"
+	description="Troubleshoot Connectivity to Azure Cosmos DB Cassandra API"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636776"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-cassandra-connectivity"
+	displayOrder="141"
+	category="Cassandra"
 />
 
 # Unable to connect to Azure Cosmos DB Cassandra API 

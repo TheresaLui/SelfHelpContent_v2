@@ -14,7 +14,6 @@
 # Bandwidth or latency issues
 
 ---
-
 {
     "resourceRequired": true,
     "title": "Bandwidth or latency issues",
@@ -56,6 +55,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Credit limits"
-	description="Manage your credit info"
+	description="Manage your credit"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -20,6 +20,6 @@
 
 ## **Recommended Documents**
 
-* **[Cloud Solution Provider (CSP) account credit limits](https://docs.microsoft.com/partner-center/account-credit-limit)**
-
-* **[Billing basics](https://docs.microsoft.com/partner-center/billing-basics)**
+* [Cloud Solution Provider (CSP) account credit limits](https://docs.microsoft.com/partner-center/account-credit-limit)
+* [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
+* [Common billing scenarios](https://docs.microsoft.com/partner-center/common-billing-scenarios)

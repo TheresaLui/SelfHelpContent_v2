@@ -13,8 +13,8 @@
 # Questions Azure VM re-protection Failures
 ---
 {
-     "subscriptionRequired": true,
-     "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Azure VM re-protection failures",
     "fileAttachmentHint": "",
     "formElements": [
@@ -43,7 +43,7 @@
             "watermarkText": "Example: cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-       {
+        {
             "id": "problem_start_time",
             "order": 4,
             "controlType": "datetimepicker",
@@ -60,6 +60,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

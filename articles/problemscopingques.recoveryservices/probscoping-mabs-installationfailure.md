@@ -35,10 +35,10 @@
                     "text": "Upgrade from V1 to V2"
                 },
                 {
-		    "value": "Upgrade from V2 to V3",
+                    "value": "Upgrade from V2 to V3",
                     "text": "Upgrade from V2 to V3"
-		},
-		{
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -97,13 +97,14 @@
                     "value": "Re-registration",
                     "text": "Re-registration"
                 },
-		 {
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "visibility": "issue_Type == Microsoft Azure Recovery Service agents failed to install",
@@ -138,13 +139,14 @@
                     "value": "Ensure c:/windows/temp folder has less than 60,000 files",
                     "text": "Ensure c:/windows/temp folder has less than 60,000 files"
                 },
-		 {
+                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
-        },{
+        },
+        {
             "id": "error_message",
             "order": 6,
             "controlType": "textbox",
@@ -169,6 +171,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

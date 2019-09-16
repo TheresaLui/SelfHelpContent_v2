@@ -85,7 +85,7 @@
             "displayLabel": "What is the new requested upper limit for Live Events or Channels?",
             "infoBalloonText": "Please provide the max upper limit of Live Events or Channels that you need.",
             "watermarkText": "Enter a numeric value",
-            "visibility" : "quota_liveevent_value == Other",
+            "visibility": "quota_liveevent_value == Other",
             "required": false
         },
         {
@@ -97,6 +97,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
