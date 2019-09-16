@@ -44,7 +44,7 @@ Many issues with Hybrid Workers are caused by connectivity problems. Run [the "T
 * When running in a hybrid runbook worker, you can use the equivalent [AzureRM](https://docs.microsoft.com/powershell/module/azurerm.automation/) or [Az](https://docs.microsoft.com/powershell/module/az.automation) cmdlets
 * Hybrid Worker does not have access to your Automation account modules. [See "Install PowerShell modules"](https://docs.microsoft.com/azure/automation/automation-windows-hrw-install#5-install-powershell-modules)
 
-### Error: "Machine is already registered to a different account"
+### **Error: "Machine is already registered to a different account"**
 
 * Follow the troubleshooting guide for ["Unable to add a Hybrid Runbook Worker"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#already-registered)
 
