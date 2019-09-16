@@ -25,7 +25,7 @@ Databricks Cluster deployed in <!--$Subnet-->Subnet<!--/$Subnet--> does not have
 
 In order to create space on the virtual network please perform following steps:
 
-* Delete all cluster within the subnet
+* Delete all clusters within the subnet
 * [Change subnet settings](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#change-subnet-settings) to the existing virtual network to include a larger address space
 * Create a new workspace with the updated subnet. Follow these [detailed migration](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) steps to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.
 
