@@ -22,7 +22,7 @@ Azure Migrate and the in-built Server Assessment, Server Migration tools are ava
 
 ### **I don't see a particular geography when creating the Azure Migrate project**
   
-Azure Migrate is currently available in Asia, Europe, Japan, United Kingdom, United States, Canada, India, Australia. Other geographies like Brazil, France and Azure Government will follow later this year. You can use a project in any geography to perform a migration to an Azure region of your choice.  
+Azure Migrate is currently available in Asia, Europe, Japan, United Kingdom, United States, Canada, India, and Australia. Other geographies like Brazil, France, and Azure Government will follow later this year. You can use a project in any geography to perform a migration to an Azure region of your choice.  
 
 ### **I want to create a new project in a different geography and add tools to it**  
   
@@ -37,8 +37,7 @@ Make sure that you have selected the right project by clicking on 'Change' again
 You can usually retry to fix this error. Click on the job notification for the failed deployment, navigate to "Deployments", and click on "Re-deploy" to re-trigger the creation of the project and addition of the selected tools. If a re-deploy does not solve the issue, make sure that your account has "Owner" or "Contributor" permissions for the subscription or resource group where you wish to create the migrate project. This should solve the issue.
 
 ### **Not able to select the geography to create my migrate project**
-If you are not able to see and choose a geography where Azure Migrate was deployed recently, wait for up to 15-20 mins and retry project creation. 
-Azure Migrate is deployed in these [geographies](https://docs.microsoft.com/azure/migrate/how-to-add-tool-first-time#create-a-project-and-add-a-tool). 
+If you are not able to see and choose a geography where Azure Migrate was deployed recently, wait for up to 15-20 mins and retry project creation. Azure Migrate is deployed in these [geographies](https://docs.microsoft.com/azure/migrate/how-to-add-tool-first-time#create-a-project-and-add-a-tool). 
   
 ### **I don't see the tool that I want to use**
   
