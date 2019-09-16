@@ -16,7 +16,7 @@
 
 # Backups and restore options for Azure Database for MariaDB
 
-Azure Database for MariaDB generally does not support restoring dropped server. When a server is dropped, the operation cascades to the backups shortly after the server drop operation was initiated.
+Azure Database for MariaDB generally does not support restoring dropped servers. When a server is dropped, the operation cascades to the backups shortly after the server drop operation was initiated.
 
 ## **Recommended Steps**
 
