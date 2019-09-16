@@ -40,7 +40,7 @@ Many issues with Hybrid Workers are caused by connectivity problems. Run [the "T
 
 ### **Differences between Hybrid Runbook Worker and Azure sandbox**
 
-* Azure sandbox has several internal cmdlets which are not available in the Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/shared-resources/modules#internal-cmdlets)
+* Azure sandbox has [several internal cmdlets which are not available in the Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/shared-resources/modules#internal-cmdlets)
 * When running in a hybrid runbook worker, you can use the equivalent [AzureRM](https://docs.microsoft.com/powershell/module/azurerm.automation/) or [Az](https://docs.microsoft.com/powershell/module/az.automation) cmdlets
 * Hybrid Worker does not have access to your Automation account modules. [See "Install PowerShell modules"](https://docs.microsoft.com/azure/automation/automation-windows-hrw-install#5-install-powershell-modules)
 
