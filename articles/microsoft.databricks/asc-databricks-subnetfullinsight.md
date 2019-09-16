@@ -18,7 +18,7 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-Databricks Culuster deployed in <!--$Subnet-->Subnet<!--/$Subnet--> does not have sufficient free public IP addresses.
+Databricks Cluster deployed in <!--$Subnet-->Subnet<!--/$Subnet--> does not have sufficient free public IP addresses.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
