@@ -1,4 +1,18 @@
-# **No data or Partial Data with OpenCensus Python**<br>
+<properties 
+    pageTitle="Configuring OpenCensus Python"
+    description="Configuring OpenCensus Python"
+    service="microsoft.insights"
+    resource="components"
+    authors="lzchen"
+    ms.author="lechin"
+    articleId="insights_python"
+    displayOrder="1126"
+    selfHelpType="resource"
+    cloudEnvironments="public"
+    productPesIds="15693" 
+    supportTopicIds=""
+/>
+# No data or Partial Data with OpenCensus Python
 
 ## No data/partial data
 1. Make sure OpenCensus Python is [configured properly]()
@@ -13,7 +27,7 @@ As of today, important system metrics such as CPU usage, memory usage, and reque
 
 If you do not find your solution from this page, create a ticket or file a [bug report](https://github.com/census-instrumentation/opencensus-python/issues/new?labels=bug&template=bug_report.md). Please provide which version of Python is being used (python --version), what platform you are running on, version numbers of installed dependencies, a callstack, and a code snippet to reproduce if possible.
 
-# **Recommended Documents**<br>
+## **Recommended Documents**<br>
 
 * [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python)
 * [OpenCensus Azure Monitor Exporter](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-azure)
