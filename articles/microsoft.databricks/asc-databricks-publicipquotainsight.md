@@ -23,7 +23,7 @@ Databricks Cluster scaling failed due to exceeding the quota of '800' resources 
 
 ## **Recommended Steps**
 
-If there is single cluster in a workspace, You must delete existing cluster, then re-deploy a new cluster of bigger VM Size. If there are multiple clusters in the same workspace, Please ask customer to create different workspaces and move some the jobs to new workspace.
+If there is single cluster in a workspace, Please delete existing cluster, then re-deploy a new cluster of bigger VM Size. If there are multiple clusters in the same workspace, Please try to create different workspace and move some the jobs to new workspace.
 
 ## **Recommended Documents**
 
