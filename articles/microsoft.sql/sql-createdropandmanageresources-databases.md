@@ -17,11 +17,11 @@
 
 ### Databases created in Gen5 tier rather than S0 when tier isn't specified
 
-The default SLO for new databases has switched from S0 to GP_Gen5_2. Using T-SQL, Entity Framework, PowerShell, or AzureCLI to create a database without specifying a service tier will now result in provisioning a GP_Gen5_2 database. Any automated means of creating new databases that do not specify the service tier will now behave differently in terms of the performance and pricing of the newly created databases.  For more information, see the [update announcement](https://azure.microsoft.com/updates/azure-sql-database-default-configuration-changing-soon/).
+The default SLO for new databases has switched from S0 to GP_Gen5_2. Using T-SQL, Entity Framework, PowerShell, or AzureCLI to create a database without specifying a service tier will now result in provisioning a GP_Gen5_2 database. Any automated means of creating new databases that do not specify the service tier will now behave differently in terms of the performance and pricing of the newly created databases. For more information, see the [update announcement](https://azure.microsoft.com/updates/azure-sql-database-default-configuration-changing-soon/).
 
 ### Shrink database by clearing up unused space
 
-To free up space and shrink log files, use [these console commands](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-shrinkdatabase-transact-sql).
+* To free up space and shrink log files, use [these console commands](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-shrinkdatabase-transact-sql)
 
 ### Trouble dropping a database through Azure Portal
 
