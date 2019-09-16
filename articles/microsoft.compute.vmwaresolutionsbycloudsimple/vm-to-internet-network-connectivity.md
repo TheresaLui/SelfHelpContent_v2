@@ -28,4 +28,4 @@
 
 * [Use VLAN Information to Set Up a Distributed Port Group in vSphere](https://docs.microsoft.com/azure/vmware-cloudsimple/create-vlan-subnet#use-vlan-information-to-set-up-a-distributed-port-group-in-vsphere)<br>
 * [Firewall Rules](https://docs.microsoft.com/azure/vmware-cloudsimple/firewall#firewall-rules)<br>
-* [VLANs/Subnets](https://docs.microsoft.com/en-us/azure/vmware-cloudsimple/create-vlan-subnet)<br>
+* [VLANs/Subnets](https://docs.microsoft.com/azure/vmware-cloudsimple/create-vlan-subnet)<br>

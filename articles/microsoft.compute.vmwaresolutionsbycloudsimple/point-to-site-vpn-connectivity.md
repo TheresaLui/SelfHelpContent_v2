@@ -14,7 +14,7 @@
     articleId="f4e93e8f-2b28-4bc9-bec6-45e2d65391d2"    
 />
 
-# Troubleshooting point-to-site VPN connectivity to CloudSimple 
+# Troubleshooting point-to-site VPN connectivity to Cloud Simple 
 
 ## **Recommended Steps**
 
