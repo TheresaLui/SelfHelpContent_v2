@@ -24,11 +24,7 @@ Unable to delete databricks workspace <!--$Resourcename-->[Resourcename]<!--/$Re
 ## **Recommended Steps**
 
 1. Login to portal and navigate to databricks workspace <!--$Resourcename-->[Resourcename]<!--/$Resourcename--> 
-2. Click on Managed Resource Group.
-3. Click on 'Locks' to check if there are any locks.
-4. If there are no locks, delete Managed Resource Group
-5. Try deleting workspace by clicking "Delete" button
-6. If there is lock on "Managed Resource Group", Please notify Engineering Team to enable 'Bypass Management Locks'
-7. Once enabled, notify customer to delete Managed Resource Group and delete workspace.
-
-
+2. Click on Managed Resource Group
+3. Click on 'Locks' to check if there are any locks on Managed Resource Group.
+4. If there are no locks, delete Managed Resource Group.
+5. Try deleting workspace by clicking "Delete" button.
