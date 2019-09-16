@@ -6,14 +6,16 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630429"
 	productPesIds="13491"
-	cloudEnvironments="Public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="D748D991-21A6-4FBD-B98E-7962F6100F9A"
 />
 # Error When Connecting to my Database
 ---
 {
+    "$schema": "SelfHelpContent",
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Error When Connecting to my Database",
     "fileAttachmentHint": "",
     "diagnosticCard": {
@@ -79,6 +81,10 @@
                 {
                     "value": "Error_Other",
                     "text": "Other error not listed"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
                 }
             ],
             "required": true,
@@ -93,7 +99,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

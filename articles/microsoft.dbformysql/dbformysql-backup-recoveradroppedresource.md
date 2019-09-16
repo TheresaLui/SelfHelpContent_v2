@@ -6,7 +6,7 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="160"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640087"
     resourceTags="servers, databases"
     productPesIds="16221"
@@ -16,7 +16,7 @@
 
 # Backups and restore options for Azure Database for MySQL
 
-Azure Database for MySQL generally does not support restoring dropped server. When a server is dropped, the operation cascades to the backups shortly after the server drop operation was initiated.
+Azure Database for MySQL generally does not support restoring dropped servers. When a server is dropped, the operation cascades to the backups shortly after the server drop operation was initiated.
 
 ## **Recommended Steps**
 

@@ -6,7 +6,7 @@
     authors="ambhatna"
     ms.author="ambhatna"
     displayOrder="240"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640111"
     resourceTags="servers, databases"
     productPesIds="16617"
@@ -23,6 +23,7 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Steps**
 
 * To familiarize yourself with Azure Resource Manager templates, create a sample template by clicking on **Export Template** in the portal for an existing Azure Database for MariaDB
+
 * If your deployment is failing:
     
     * Make sure your the server name is globally unique

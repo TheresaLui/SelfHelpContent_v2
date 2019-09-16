@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+Many issues with Hybrid Workers are caused by connectivity problems. Run [the "Test Cloud Connectivity" tool](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows-troubleshoot#connectivity-issues) to ensure your environment is properly configured. 
+
 ### **Ensure the agent is present** 
 
 * For **Linux**, ensure the agent is running by following the [Linux OMS Agent troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#oms-agent-not-running)

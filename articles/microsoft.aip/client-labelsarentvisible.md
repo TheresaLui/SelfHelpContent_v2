@@ -43,7 +43,9 @@ If your issue is with a label that applies protection, verify the following:
 
 8. Make sure you are using the correct client for your deployment. More information can be found [here](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
-9. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+9. If you are using Azure Information Protection Unified Labeling Client, make sure you have published the labels and policies to the relevant users: [How to get started](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#how-to-get-started)
+
+10. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 

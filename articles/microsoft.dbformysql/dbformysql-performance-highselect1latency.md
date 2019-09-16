@@ -6,7 +6,7 @@
     authors="sunilagarwal"
     ms.author="sunila"
     displayOrder="80"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640060"
     resourceTags="servers, databases"
     productPesIds="16221"
@@ -24,7 +24,7 @@ The time taken to execute 'Select 1' is a common way to measure the network late
 * If your client is hosted in an Azure VM, turn on accelerated networking for lowest connection latency
 * If you are connecting from the Azure Kubernetes Service, review the [Develop with Azure Kubernetes Service](https://docs.microsoft.com/azure/mysql/concepts-aks) documentation
 * Ensure you are measuring latency on an existing connection. Creating a new connection can take 100+ milliseconds. Connection pooling is strongly recommended to avoid the overhead of establishing new connections.
-* Reduce the number of round trips between you application and the database if possible
+* Reduce the number of round trips between your application and the database if possible
 * We strongly recommend that you use a database connection pool or a long connection to Azure Database for MySQL.
 
 ## **Recommended Documents**
