@@ -16,41 +16,59 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "No data in Application Insights",
+    "title": "OpenCensus Python SDK",
     "fileAttachmentHint": "",
-    "formElements": [{ 
-            "id": "problem_start_time",
-            "order": 1, 
-            "controlType": "datetimepicker", 
-            "displayLabel": "When did the problem start?", 
-            "required": true 
-        }, {
-            "id": "problem_description",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true
-        },{
+    "formElements": [{
 			"id": "python_version",
-			"order": 3,
+			"order": 1,
 			"controlType": "textbox",
 			"displayLabel": "What version of Python are you using?",
 			"required": false
 		},{
 			"id": "dependencies_version",
-			"order": 4,
+			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "List the version numbers of relevant installed dependencies.",
 			"required": false
 		},{
 			"id": "instrumentation_code",
-			"order": 5,
+			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Paste a code snippet of how you instrumented with OpenCensus.",
 			"required": false
-		}
+		},{
+            "id": "problem_start_time",
+            "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide these details",
+            "required": true,
+            "watermarkText": "Please provide: a detailed scenario of the error condition, troubleshooting done so far, log files, timestamp, screenshots and any other relevant information.",
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Expected behavior, actual behavior"
+                },
+                {
+                    "text": "Troubleshooting done so far"
+                },
+                {
+                    "text": "Log Files"
+                },
+                {
+                    "text": "Timestamps"
+                },
+                {
+                    "text": "Screenshots"
+                }
+            ]
+        }
 	]
 }
 ---
