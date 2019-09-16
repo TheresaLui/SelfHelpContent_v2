@@ -98,7 +98,15 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
-        }
+        },
+        {
+		      "id": "sqlexception_received_on_client",
+			    "order": 2000,
+			    "controlType": "multilinetextbox",
+    			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+		    	"required": true,
+			    "visibility": true
+	    }
     ]
 }
 ---
