@@ -18,12 +18,12 @@
 
 ## **Recommended Steps**
 
-* Check if the virtual machine hosting the application is running. <br>
-* Check if the virtual machine's IP address, subnet mask or gateway configured correctly. <br>
-* If you are using NSX Distributed Firewall in your Private Clouds, check if it blocks access to that virtual machine. <br>
-* Check if the virtual machine's operating system firewall rules block the application's required ports. <br>
-* Check if there are firewall rules blocking any inbound or outbound traffic. <br>
-* Check if the public IP address is mapped to the correct virtual machine. <br>
+* Check if the virtual machine hosting the application is running
+* Check if the virtual machine's IP address, subnet mask or gateway configured correctly
+* If you are using NSX Distributed Firewall in your Private Clouds, check if it blocks access to that virtual machine
+* Check if the virtual machine's operating system firewall rules block the application's required ports
+* Check if there are firewall rules blocking any inbound or outbound traffic
+* Check if the public IP address is mapped to the correct virtual machine
 
 
 ## **Recommended Documents**
