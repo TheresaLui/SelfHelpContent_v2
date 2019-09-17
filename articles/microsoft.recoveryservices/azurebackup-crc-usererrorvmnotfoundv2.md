@@ -1,7 +1,7 @@
 <properties
     pageTitle="UserErrorVmNotFoundV2"
     description="UserErrorVmNotFoundV2"
-    infoBubbleText="We have identified that your backup operation has failed because the virtual machine does not exist"
+    infoBubbleText="We have identified that your backup operation has failed because the virtual machine does not exist."
     service="microsoft.recoveryservices"
     resource="backup"
     authors="srinathvasireddy"
