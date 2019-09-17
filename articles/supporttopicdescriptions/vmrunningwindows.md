@@ -1,4 +1,5 @@
 <properties
+pageTitle="topic desc for VM running windows"   
 description = "Support topic description for Virtual Machine running Windows"
 authors = "akjoshi"
 ms.author = "akankshajsh"
