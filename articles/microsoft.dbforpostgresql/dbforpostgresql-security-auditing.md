@@ -33,7 +33,7 @@ Database activity auditing is available using the pgAudit extension.
 
 * To install pgAudit, you first need to include it in the server's shared_preload_libraries parameter. This parameter requires a restart to take effect. 
 
-* pgAudit settings are specified gloabally and cannot be specified at a database or role level.
+* pgAudit settings are specified globally and cannot be specified at a database or role level.
 
 * Setting 'pgaudit.log_client' to ON will redirect logs to a client process (like psql) instead of being written to file. This setting should generally be left disabled.
 
