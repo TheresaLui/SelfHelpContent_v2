@@ -21,4 +21,4 @@
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [HDInsight Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)
 * [Where are Kafka logs on HDInsight cluster](https://hdinsight.github.io/kafka/kafka-logs.html)
-* [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/kafka/kafka-faq)
+* [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
