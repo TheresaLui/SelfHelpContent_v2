@@ -22,4 +22,4 @@ We have identified that your Snapshot operation failed because it failed to inst
 
 ## **Recommended Documents**
 
-To resolve the issue, refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#common-issues)
+* To resolve the issue, refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#common-issues)
