@@ -18,12 +18,12 @@
 
 ## **Recommended Steps**
 
-* Check if the firewall table is attached to the correct subnet. <br>
-* Check if the firewall rules are configured on firewall table. <br>
-* Check that the virtual machine is using the correct distributed port group. <br>
-* If you are using NSX Distributed Firewall, check if the firewall rules are correctly configured. <br>
-* If you are using NSX Distributed Firewall, check if the firewall rules are in the correct sequence. <br>
-* If you are using NSX Distributed Firewall, check if the **Applied to** field of the firewall rule is correct. <br>
+* Check if the firewall table is attached to the correct subnet
+* Check if the firewall rules are configured on firewall table
+* Check that the virtual machine is using the correct distributed port group
+* If you are using NSX Distributed Firewall, check if the firewall rules are correctly configured
+* If you are using NSX Distributed Firewall, check if the firewall rules are in the correct sequence
+* If you are using NSX Distributed Firewall, check if the **Applied to** field of the firewall rule is correct
 
 
 ## **Recommended Documents**
