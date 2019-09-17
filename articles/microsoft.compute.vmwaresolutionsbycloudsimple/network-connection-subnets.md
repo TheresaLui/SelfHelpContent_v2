@@ -18,8 +18,8 @@
 
 ## **Recommended Steps**
 
-* Check if there are firewall rules blocking any outbound traffic. <br>
-* Check if the distributed port group has correct VLAN ID. <br>
+* Check if there are firewall rules blocking any outbound traffic
+* Check if the distributed port group has correct VLAN ID
 
 
 ## **Recommended Documents**
