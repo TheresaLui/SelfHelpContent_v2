@@ -18,9 +18,9 @@
 
 ## **Recommended Steps**
 
-* Check if the required ports are open on the firewall for inbound traffic. <br>
-* Check if the public IP address is mapped to the correct virtual machine. <br>
-* Check if the virtual machine receiving the public ip address traffic is running. <br>
+* Check if the required ports are open on the firewall for inbound traffic
+* Check if the public IP address is mapped to the correct virtual machine
+* Check if the virtual machine receiving the public ip address traffic is running
 
 
 ## **Recommended Documents**
