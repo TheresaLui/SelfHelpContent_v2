@@ -1,7 +1,7 @@
 <properties
-	articleId="a0cf70ba-6b43-43fa-9806-3fa329592dde"
-	pageTitle="Scoping Questions for ADLA Job Failure Issue"
-	description="Scoping Questions for ADLA Job Failure Issue"
+	articleId="problemscopingquetions-adla-job-started-to-fail-with-error"
+	pageTitle="Scoping Questions for ADLA Job started to fail with error"
+	description="Scoping Questions for ADLA Job start to fail with error"
 	authors="guyhay, lisaliu"
 	ms.author="guyhay, lisaliu"
 	selfHelpType="problemScopingQuestions"
@@ -10,12 +10,12 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# ADLA Job Failure Issues
+# ADLA Job started to fail with error
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ADLA Job Failure Issue",
+    "title": "ADLA Job started to fail with error",
     "fileAttachmentHint": "",
     "formElements": [
         {
