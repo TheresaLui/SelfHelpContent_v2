@@ -18,14 +18,14 @@
 
 ## **Recommended Steps**
 
-* Check that the Virtual Network Gateway that links to your Azure virtual network to CloudSimple is of type **ExpressRoute**. <br>
-* Check if a gateway subnet created in the virtual network. <br>
-* Check if ExpressRoute Gateway already connected to another ExpressRoute circuit in the same peering location. <br>
-* Check that the correct connection type selected. <br>
-* Check that the virtual network in the same location as the Virtual Network Gateway. <br>
-* Check if there is a subnet overlap with the private cloud. <br>
-* Check if the subnet overlaps with another peered virtual network. <br>
-* Check if you are linking more than 10 virtual networks in a standard ExpressRoute Circuit?" <br>
+* Check that the Virtual Network Gateway that links to your Azure virtual network to CloudSimple is of type **ExpressRoute**
+* Check if a gateway subnet created in the virtual network
+* Check if ExpressRoute Gateway already connected to another ExpressRoute circuit in the same peering location
+* Check that the correct connection type selected
+* Check that the virtual network in the same location as the Virtual Network Gateway
+* Check if there is a subnet overlap with the private cloud
+* Check if the subnet overlaps with another peered virtual network
+* Check if you are linking more than 10 virtual networks in a standard ExpressRoute Circuit
 
 
 ## **Recommended Documents**
