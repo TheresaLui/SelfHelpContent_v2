@@ -24,4 +24,4 @@
 * [Using Kafka with Azure Kubernetes Service](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-azure-container-services)
 * [Install Streamsets with your Kafka cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-apps-install-streamsets)
 * [Installing custom apps on your HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-apps-install-custom-applications)
-* [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/kafka/kafka-faq)
+* [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
