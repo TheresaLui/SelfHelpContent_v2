@@ -22,4 +22,4 @@
 * [Configure storage and scalability for Apache Kafka](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability)
 * [Troubleshooting issues with an HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [Cluster capacity planning](https://docs.microsoft.com/azure/hdinsight/hdinsight-capacity-planning)
-* [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/kafka/kafka-faq)
+* [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
