@@ -20,6 +20,8 @@ This article will help with several kinds of issues relating to machines not sho
 
 ## **Recommended Steps**
 
+First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
+
 ### **Machine was showing up, but disappeared**
 
 * To prevent stale data, machines that have not reported in for 12 hours are not shown in Update Management

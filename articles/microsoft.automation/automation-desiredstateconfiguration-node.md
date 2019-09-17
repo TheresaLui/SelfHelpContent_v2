@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+* For issues on a machine, [collect diagnostic logs](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#steps-to-troubleshoot-desired-state-configuration-dsc)
+
 ### "Provisioning failed"
 
 * Most issues are caused by network configurations. Please review the requirements in the [Prerequisites section of the State Configuration overview](https://docs.microsoft.com/azure/automation/automation-dsc-overview#network-planning).
