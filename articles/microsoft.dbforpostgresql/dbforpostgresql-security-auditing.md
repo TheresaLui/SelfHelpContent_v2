@@ -45,5 +45,4 @@ Database activity auditing is available using the pgAudit extension.
 
 ## **Recommended Documents**
 
-* [Audit logging](https://docs.microsoft.com/azure/postgresql/concepts-audit)
 * [Azure Database for PostgreSQL logging](https://docs.microsoft.com/azure/postgresql/concepts-server-logs)
