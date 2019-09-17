@@ -22,8 +22,8 @@
 * Check that the DLR internal interface is attached to source subnet that needs UDR. <br>
 * Check that the DLR **internal** interface's IP address and subnet prefix length is the same as the source subnet that needs UDR. <br>
 * Check that the DLR has an uplink interface. <br>
-* Check tha the DLR interface is attached to the port group to which the virtual appliance or the next-hop is attached. <br>
-* Check that the DLR **uplink** interface's IP addrsss and subnet prefix length is the same as the source subnet that needs UDR. <br>
+* Check that the DLR interface is attached to the port group to which the virtual appliance or the next-hop is attached. <br>
+* Check that the DLR **uplink** interface's IP addresss and subnet prefix length is the same as the source subnet that needs UDR. <br>
 * Check that the DLR's default gateway IP address is correct. <br>
 * Check that the DLR's static route for destination subnet exists and is configured correctly. <br>
 * Check that NSX distributed switch is not preventing communication between source and destination. <br>
