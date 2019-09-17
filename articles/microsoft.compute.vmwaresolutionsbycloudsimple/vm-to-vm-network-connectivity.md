@@ -18,11 +18,11 @@
 
 ## **Recommended Steps**
 
-* Check if there are firewall rules blocking any outbound traffic. <br>
-* Check the VM network configuration: IP address, subnet mask and gateway. <br>
-* Check if the VM is attached to correct distributed port group. <br>
-* Check if the distributed port group has correct VLAN ID. <br>
-* If you are in connection to on-premises VM, check the ExpressRoute connection. <br>
+* Check if there are firewall rules blocking any outbound traffic
+* Check the VM network configuration: IP address, subnet mask and gateway 
+* Check if the VM is attached to correct distributed port group 
+* Check if the distributed port group has correct VLAN ID 
+* If you are in connection to on-premises VM, check the ExpressRoute connection 
 
 
 ## **Recommended Documents**
