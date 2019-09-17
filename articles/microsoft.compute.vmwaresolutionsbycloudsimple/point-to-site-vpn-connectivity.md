@@ -18,9 +18,9 @@
 
 ## **Recommended Steps**
 
-* Check if the VPN client is behind a firewall or proxy which might block VPN traffic. <br>
-* Verify that the correct VPN configuration bundle is used with the VPN Client. <br>
-* Check VPN client's compatibility with your OS. <br>
+* Check if the VPN client is behind a firewall or proxy which might block VPN traffic
+* Verify that the correct VPN configuration bundle is used with the VPN Client
+* Check VPN client's compatibility with your OS
 
 
 ## **Recommended Documents**
