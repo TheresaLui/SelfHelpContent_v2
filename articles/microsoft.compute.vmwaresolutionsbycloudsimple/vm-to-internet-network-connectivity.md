@@ -18,11 +18,10 @@
 
 ## **Recommended Steps**
 
-* Check if there are firewall rules blocking any outbound traffic. <br>
-* Check the VM network configuration: IP address, subnet mask and gateway. <br>
-* Check if the VM is attached to correct distributed port group. <br>
-* Check if the distributed port group has correct VLAN ID. <br>
-
+* Check if there are firewall rules blocking any outbound traffic 
+* Check the VM network configuration: IP address, subnet mask and gateway 
+* Check if the VM is attached to correct distributed port group
+* Check if the distributed port group has correct VLAN ID 
 
 ## **Recommended Documents**
 
