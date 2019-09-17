@@ -17,9 +17,9 @@
 
 ## **Recommended Steps**
 
-* The subnet should not overlap with any other network. <br>
-* Only RFC-1918 address space should be used. <br>
-* The address space selected must not be a subset of existing network. <br>
+* The subnet should not overlap with any other network
+* Only RFC-1918 address space should be used
+* The address space selected must not be a subset of existing network
 
 
 ## **Recommended Documents**
