@@ -22,14 +22,14 @@
 
 The Azure Migrate appliance collects metadata about the on-premises VMs, the complete list of metadata collected by the appliance is listed in the following links:
 
-* [Metadata collected using Hyper-V appliance](https://aka.ms/migrate/hyperv/metadatacollected)
-* [Metadata collected using VMware appliance](https://aka.ms/migrate/vmware/metadatacollected)
+* [Metadata collected using Hyper-V appliance](https://docs.microsoft.com/azure/migrate/migrate-appliance#collected-performance-data-hyper-v)
+* [Metadata collected using VMware appliance](https://docs.microsoft.com/azure/migrate/migrate-appliance#collected-metadata-vmware)
 
-Additionally, if you are using the [dependency visualization functionality](https://aka.ms/migrate/agentbased/dependencies), the dependency agents collect details such as FQDN, OS, IP address, MAC address, processes running inside the VM and the incoming/outgoing TCP connections from the VM.
+Additionally, if you are using the [dependency visualization functionality](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies), the dependency agents collect details such as FQDN, OS, IP address, MAC address, processes running inside the VM and the incoming/outgoing TCP connections from the VM.
 
 ### **Machines are showing outdated information on the portal. How do I proceed?**
 
-Ensure that the Azure Migrate appliance is up and running. Note that it takes 30 minutes for the latest information to reflect on the Azure Migrate portal. If you still see outdated information, you can perform a refresh using the steps listed [here](https://aka.ms/migrate/discovery/refresh).
+Ensure that the Azure Migrate appliance is up and running. Note that it takes 30 minutes for the latest information to reflect on the Azure Migrate portal. If you still see outdated information, you can perform a refresh using the steps listed [here](https://docs.microsoft.com/azure/migrate/troubleshooting-general#i-do-not-the-latest-information-on-the-on-premise-vms-on-the-portal).
 
 ### **I don't see the discovered VMs on Azure portal. Server Assessment and Server Migration tiles show a status of "Discovery in progress"**
 
@@ -42,11 +42,11 @@ After starting discovery from the appliance, allow some time for the discovered 
 
 ### **I do not see the correct disk size on Hyper-V VMs. How do I proceed?**
 
-This can happen if you have disks on SMB storage. In order to detect disk size correctly, it is required that CredSSP delegation is set up from the Azure Migrate appliance to the Hyper-V hosts discovered. [Learn more](https://aka.ms/migrate/diskdetails/credSSPdelegation) about how you can do this. 
+This can happen if you have disks on SMB storage. In order to detect disk size correctly, it is required that CredSSP delegation is set up from the Azure Migrate appliance to the Hyper-V hosts discovered. [Learn more](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#enable-credssp-on-hosts) about how you can do this. 
 
 ### **I am facing WinRM errors while validating Hyper-V hosts. What should I do?**
 
-Check whether Hyper-V hosts are ready for discovery by running this [script](https://aka.ms/migrate/hyperv/script) on the Hyper-V hosts.
+Check whether Hyper-V hosts are ready for discovery by running this [script](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#enable-credssp-on-hosts) on the Hyper-V hosts.
 
 ### What are the supported host operating systems for Hyper-V VM discovery?
 
@@ -58,14 +58,14 @@ Hyper-V discovery is done using the Hyper-V host and cluster information provide
 
 ### **How can I discover a large environment in Azure Migrate?**
 
-Azure Migrate allows you to discover up to 10000 Hyper-V VMs in a single Azure Migrate project. A single appliance supports discovery of up to 5000 VMs. [Learn more](https://aka.ms/migrate/scale/hyperv) about how you can discover a large environment.
+Azure Migrate allows you to discover up to 10000 Hyper-V VMs in a single Azure Migrate project. A single appliance supports discovery of up to 5000 VMs. [Learn more](https://docs.microsoft.com/azure/migrate/scale-hyper-v-assessment) about how you can discover a large environment.
 
 ## VMware VM discovery
 
 ### **How can I scope discovery for a multi-tenant environment in Azure Migrate?**
 
-Azure Migrate allows you to split the discovery of your VMs to ensure that VMs of one tenant are not discovered in another tenant's subscription. [Learn more](https://aka.ms/migrate/vmware/multitenant) about how you can split the discovery in Azure Migrate.
+Azure Migrate allows you to split the discovery of your VMs to ensure that VMs of one tenant are not discovered in another tenant's subscription. [Learn more](https://docs.microsoft.com/azure/migrate/scale-vmware-assessment#plan-discovery-in-a-multi-tenant-environment) about how you can split the discovery in Azure Migrate.
 
 ### **How can I discover a large environment in Azure Migrate?**
 
-Azure Migrate allows you to discover up to 35000 VMware VMs in an Azure Migrate project. A single appliance can discover up to 10000 VMs. [Learn more]((https://aka.ms/migrate/vmware/multitenant)) about how you can discover a large environment.
+Azure Migrate allows you to discover up to 35000 VMware VMs in an Azure Migrate project. A single appliance can discover up to 10000 VMs. [Learn more](https://docs.microsoft.com/azure/migrate/scale-vmware-assessment#plan-discovery-in-a-multi-tenant-environment) about how you can discover a large environment.
