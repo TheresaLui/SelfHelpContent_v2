@@ -23,7 +23,7 @@ Cluster unable to start/scale due to insufficient number of cores within the sub
 
 ## **Recommended Steps**
 
-Please check whether sufficient quota of cores are available in region for this subscriptions <!--$Subscription Name-->[SubscriptionName]<!--/$Subscription Name-->:
+Please check whether sufficient quota of cores are available in region for this subscriptions <!--$Subscription Name-->[SubscriptionName]<!--/$Subscription Name-->
 
 ### Not enough cores available
 
@@ -33,5 +33,5 @@ Please check whether sufficient quota of cores are available in region for this 
 
 * [Handling Azure Resource Manager Deployment Limits](https://azure.microsoft.com/blog/azure-limits-quotas-increase-requests/)
 * [Quota increase requests](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request/)
-* [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/)
+* [GPU Family](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-gpu/)
 * [Cores available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines&regions=all/)
