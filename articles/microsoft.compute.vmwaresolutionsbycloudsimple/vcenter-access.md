@@ -31,4 +31,4 @@
 ## **Recommended Documents**
 
 * [Site-to-Site VPN](https://docs.microsoft.com/azure/vmware-cloudsimple/cloudsimple-vpn-gateways#site-to-site-vpn-gateway)<br>
-* [Login to vCenter](https://docs.microsoft.com/azure/vmware-cloudsimple/vmware-components#vcenter-server-appliance)<br>
+* [Login to vCenter](https://docs.microsoft.com/azure/vmware-cloudsimple/vmware-components#vcenter-server-appliance)
