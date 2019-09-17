@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Installing Azure Data Lake Studio within Visual Studio"
-	description="Installing Azure Data Lake Studio within Visual Studio"
+	pageTitle="Installing Azure Data Lake Tools for Visual Studio"
+	description="Installing Azure Data Lake Tools for Visual Studio"
 	service="Microsoft.DataLakeAnalytics"
 	resource="datalake"
 	ms.author="guyhay,v-anukar"
@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* [Develop U-SQL scripts by using Data Lake Tools for Visual Studio](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started)<br>
+* [Develop U-SQL scripts by installing and using Data Lake Tools for Visual Studio](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started)<br>
 * [Install Data Lake Tools for Visual Studio](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-install)<br>

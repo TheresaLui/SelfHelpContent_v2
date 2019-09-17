@@ -1,21 +1,21 @@
 <properties
-	articleId="problemscopingques-adla-job-started-to-run-slow"
-	pageTitle="Scoping Questions for ADLA job stated to run slow"
-	description="Scoping Questions for ADLA job stated to run slow"
+	articleId="problemscopingques-adla-job-started-to-return-incorrect-results"
+	pageTitle="Scoping Questions for ADLA job stated to return incorrect results"
+	description="Scoping Questions for ADLA job stated to return incorrect results"
 	authors="guyhay, lisaliu"
 	ms.author="guyhay, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32680652"
+	supportTopicIds="32680651"
 	productPesIds="15940"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# ADLA job stated to run slow
+# ADLA job stated to return incorrect results
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ADLA job stated to run slow",
+    "title": "ADLA job stated to return incorrect results",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -45,7 +45,7 @@
             "order": 140,
             "controlType": "textbox",
             "displayLabel": "Job name",
-            "watermarkText": "Please provide the job name for the job that failed",
+            "watermarkText": "Please provide the job name for the job that started to return incorrect results",
             "required": false
         },
         {
@@ -53,7 +53,7 @@
             "order": 150,
             "controlType": "textbox",
             "displayLabel": "Job URL",
-            "watermarkText": "Please provide the job URL for the job that failed",
+            "watermarkText": "Please provide the job URL for the job that return incorrect results",
             "required": false
         },
         {
