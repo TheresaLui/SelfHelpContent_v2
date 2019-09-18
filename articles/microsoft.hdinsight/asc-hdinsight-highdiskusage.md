@@ -19,8 +19,9 @@
 # We ran diagnostics on your resource and found an issue
 
 ## Problem
-
+<!--issueDescription-->
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high disk usage on the headnode. Please ssh into the headnode and clean up any files that are not needed.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
