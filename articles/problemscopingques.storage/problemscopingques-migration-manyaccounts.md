@@ -27,16 +27,43 @@
             "watermarkText": "AccountName1;AccountName2;AccountName3",
             "required": true
         },
+	{
+            "id": "storage_account_to",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Storage account_to",
+            "watermarkText": "Select storage account to migrate to",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "From a different subscription, external source or not applicable"
+                }
+            },
+            "required": true
+        },{
+            "id": "storage_account_to_other",
+            "visibility": "storage_account_to == dont_know_answer",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Destination storage account name",
+            "watermarkText": "Enter storage account name",
+            "required": false
+        },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
