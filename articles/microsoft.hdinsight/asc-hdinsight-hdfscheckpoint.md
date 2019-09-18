@@ -17,8 +17,9 @@
 />
 
 # <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> checkpoint error
-
+<!--issueDescription-->
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is currently suffering from HDFS checkpoint error. 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
