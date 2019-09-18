@@ -20,10 +20,10 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "storage_account",
+            "id": "storage_account_from",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Storage accounts to migrate",
+            "displayLabel": "Storage accounts from",
             "watermarkText": "AccountName1;AccountName2;AccountName3",
             "required": true
         },
