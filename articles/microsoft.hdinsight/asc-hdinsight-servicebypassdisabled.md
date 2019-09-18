@@ -17,10 +17,11 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 There is a problem while creating HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> because Service Bypass is disabled.
 
 HDInsight deployment failed since "Allow trusted Microsoft services to access storage account <!--$StorageAccount-->[StorageAccount]<!--/$StorageAccount--> checkbox is not checked"
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
