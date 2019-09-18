@@ -23,6 +23,7 @@
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Can you access the backend pool instance directly without the load balancer?",
+             "infoBalloonText": "If no, this issue should not be considered as a load balancer issue. You need to fix the connectivity issue with the backed pool instance first."
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -31,7 +32,7 @@
                 },
                 {
                     "value": "No",
-                    "text": "No, it timeouts. Tips: In this case, you need to fix the connectivity issue with the backed pool instance first. This issue should not be considered as a load balancer issue"
+                    "text": "No."
                 },
                 {
                     "value": "dont_know_answer",
@@ -93,19 +94,26 @@
             "required": true
         },
         {
-            "id": "problem_start_time",
-            "order": 4,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
-            "required": true
-        },
-        {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description",
+            "displayLabel": "Please specify any additional details",
+            "required": true,
             "useAsAdditionalDetails": true,
-            "required": true
+            "hints": [
+                {
+                    "text": "Source details (e.f. IP Address)"
+                },
+                {
+                    "text": "Did the connectivity work in the past and stopped working now?"
+                },
+                {
+                    "text": "Can you access the backend pool instances directly without the load balancer?"
+                },
+                {
+                    "text": "Did you receive any error messages from the Load Balancer that you want to share?"
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"
