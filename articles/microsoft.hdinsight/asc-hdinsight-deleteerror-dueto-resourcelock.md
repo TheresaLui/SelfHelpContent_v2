@@ -19,9 +19,11 @@
 # We ran diagnostics on your resource and found an issue
 
 ## Problem
+<!--issueDescription-->
 The cluster delete operation for <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed because there are locks on some of the resources in its resource group.
 
 Since the delete did not succeed, a new cluster with the same name cannot be created in the same vNet.
+<!--/issueDescription-->
 
 ## Locked Resources
 <!--$LockedResources-->[LockedResources]<!--/$LockedResources-->
