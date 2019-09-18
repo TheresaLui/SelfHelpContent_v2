@@ -22,7 +22,7 @@ U-SQL jobs can run slowly for a number of reasons.  Common reasons include:
 * Transient outages of the services such as DNS, Networking, ADLS that ADLA depends on
 * Changing data sizes may cause data skew or storage throttling
 * Changing data-distribution across partitions may cause errors or un-optimized execution of jobs
-* Incorrect Azure Data Lake Analytics compute resourced (AUs assigned to the job, AU quota assigned to the ADLA account, or queued jobs)
+* Incorrect Azure Data Lake Analytics compute resources (AUs assigned to the job, AU quota assigned to the ADLA account, or queued jobs)
 * Improvements to the U-SQL compiler and optimizer may cause existing optimizer hints to become outdated 
 
 ## **Recommended Documents**
