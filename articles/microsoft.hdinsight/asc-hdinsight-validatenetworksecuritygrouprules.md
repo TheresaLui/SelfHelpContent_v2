@@ -17,8 +17,9 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 There is a problem with the inbound network security group rules configured for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
