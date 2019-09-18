@@ -17,10 +17,11 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 There is a problem with the virtual network service endpoints configured for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->.
 
 The client is trying to connect from IP address <!--$MissingIp-->[MissingIp]<!--/$MissingIp-->, which is not authorized to connect to the Azure SQL Database server. The server firewall has no IP address rule that allows a client to communicate from the given IP address to the SQL Database.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
