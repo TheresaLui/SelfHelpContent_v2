@@ -31,7 +31,7 @@
                 },
                 {
                     "value": "No",
-                    "text": "No, it timeouts. Tips: In this case, you need to fix the connectivity issue with the backed pool instance first. The issue should not be considered as a load balancer issue"
+                    "text": "No, it timeouts. Tips: In this case, you need to fix the connectivity issue with the backed pool instance first. This issue should not be considered as a load balancer issue"
                 },
                 {
                     "value": "dont_know_answer",
