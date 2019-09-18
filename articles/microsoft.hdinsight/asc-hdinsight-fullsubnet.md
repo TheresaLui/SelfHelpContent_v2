@@ -19,8 +19,9 @@
 # We ran diagnostics on your resource and found the following issue
 
 ## Problem
-
+<!--issueDescription-->
 Deployment of the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed within subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> because the subnet does not have sufficient free IP addresses to match the number of nodes of the cluster.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
