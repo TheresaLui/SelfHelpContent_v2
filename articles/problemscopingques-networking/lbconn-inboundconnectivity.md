@@ -14,7 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "No connectivity to the backend pool",
     "fileAttachmentHint": "",
     "formElements": [
