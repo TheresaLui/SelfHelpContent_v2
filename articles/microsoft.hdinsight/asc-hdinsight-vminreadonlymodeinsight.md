@@ -17,10 +17,11 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 The virtual machine booted up with a read-only file system. The following node(s) are in read-only mode: <!--$AlertHost-->[AlertHost]<!--/$AlertHost--> <br>
 
 The drive has to be remounted in read-write mode.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
