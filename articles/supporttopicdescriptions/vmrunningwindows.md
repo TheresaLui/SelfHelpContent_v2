@@ -1,9 +1,9 @@
 <properties
-pageTitle="topic desc for VM running windows"   
 description = "Support topic description for Virtual Machine running Windows"
-authors = "akjoshi"
-ms.author = "akankshajsh"
-icmTeam="teamname"
+pageTitle = "Support topic description for VM running Windows"
+authors = "akankshajsh"
+ms.author = "akjoshi"
+icmTeam="icmteam"
 icmService="icmservice"
 feedbackEmail="email"
 productPesIds = "6f16735c-b0ae-b275-ad3a-03479cfa1396"
