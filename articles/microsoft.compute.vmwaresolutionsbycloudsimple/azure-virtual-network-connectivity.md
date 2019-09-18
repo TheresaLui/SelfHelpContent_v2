@@ -34,22 +34,17 @@
 
 
 
-## UI sample
-![Microsoft.Common.TextBox](./media/managed-application-elements/microsoft.common.textbox.png)
+## ToolTip sample
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
 
-## Schema
-```json
-{
-  "name": "element1",
-  "type": "Microsoft.Common.TextBox",
-  "label": "Example text box 1",
-  "defaultValue": "my text value",
-  "toolTip": "Use only allowed characters",
-  "constraints": {
-    "required": true,
-    "regex": "^[a-z0-9A-Z]{1,30}$",
-    "validationMessage": "Only alphanumeric characters are allowed, and the value must be 1-30 characters long."
-  },
-  "visible": true
-}
-```
+<h2>Tooltip</h2>
+<p>Move the mouse over the text below:</p>
+
+<div class="tooltip">Hover over me
+	<span class="tooltiptext">Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs</span>
+</div>
+
+</body>
+</html>
