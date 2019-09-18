@@ -23,7 +23,7 @@
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Can you access the backend pool instance directly without the load balancer?",
-             "infoBalloonText": "If no, this issue should not be considered as a load balancer issue. You need to fix the connectivity issue with the backed pool instance first."
+             "infoBalloonText": "If no, this issue should not be considered as a load balancer issue. You need to fix the connectivity issue with the backed pool instance first.",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
