@@ -1,14 +1,14 @@
 <properties
                 pageTitle="Networking/No connectivity to backend pool"
                 description="Networking/No connectivity to backend pool"
-                authors="ChiragPavecha"
-                ms.author="chiragpa"
+                authors="genlin"
+                ms.author="genli"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32588977"
                 productPesIds="16450"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="problemscoping-networking-unable-to-connect"
+                articleId="problemscoping-networking-no-connectivity-backend-pool"
 />
 # No connectivity to backend pool
 ---
