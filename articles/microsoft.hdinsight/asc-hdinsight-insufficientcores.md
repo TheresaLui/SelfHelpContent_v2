@@ -17,8 +17,9 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 The available number of cores required to create or scale a resource for a subscription is less than required <!--$Details-->[Details]<!--/$Details--> 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
