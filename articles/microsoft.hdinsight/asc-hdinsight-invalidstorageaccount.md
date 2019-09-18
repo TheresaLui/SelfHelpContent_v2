@@ -17,9 +17,10 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 There is a problem with the storage account required to create your HDInsight cluster. <br>
 The storage account selected does not support page blobs which is a requirement for this cluster type.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
