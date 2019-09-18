@@ -25,7 +25,7 @@ We identified that your VM became unavailable at **<!--$StartTime--> StartTime <
 
 The auto-recovery action was triggered by our Azure monitoring systems after detecting that the physical node where the virtual machine was hosted was running low on resources. As a result, your VM was automatically moved to a different and healthy physical node to avoid further impact. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
-Our core platform engineers identified the bug and are currently working on a fix that will be deployed to all affected nodes.<br>
+Our core platform engineers identified the backend service issue and are currently working on a fix that will be deployed to all affected nodes.<br>
 
 To learn more about our automated recovery action, see [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines).<br>
 
