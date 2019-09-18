@@ -1,8 +1,8 @@
 <properties
-description = "Support topic description for   VPN Gateway"
-pageTitle="vpn gateway"
-authors = "akjoshi"
-ms.author = "akankshajsh"
+description = "Support topic description for VPN Gateway"
+pageTitle="Support topic description for VPN Gateway"
+authors = "akankshajsh"
+ms.author = "akjoshi"
 icmTeam="icmteam"
 icmService="icmservice"
 feedbackEmail="email"
