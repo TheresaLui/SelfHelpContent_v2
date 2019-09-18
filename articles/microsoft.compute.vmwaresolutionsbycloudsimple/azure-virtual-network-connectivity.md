@@ -31,3 +31,25 @@
 ## **Recommended Documents**
 
 * [Azure Virtual Network Connection using ExpressRoute](https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection)<br>
+
+
+
+## UI sample
+![Microsoft.Common.TextBox](./media/managed-application-elements/microsoft.common.textbox.png)
+
+## Schema
+```json
+{
+  "name": "element1",
+  "type": "Microsoft.Common.TextBox",
+  "label": "Example text box 1",
+  "defaultValue": "my text value",
+  "toolTip": "Use only allowed characters",
+  "constraints": {
+    "required": true,
+    "regex": "^[a-z0-9A-Z]{1,30}$",
+    "validationMessage": "Only alphanumeric characters are allowed, and the value must be 1-30 characters long."
+  },
+  "visible": true
+}
+```
