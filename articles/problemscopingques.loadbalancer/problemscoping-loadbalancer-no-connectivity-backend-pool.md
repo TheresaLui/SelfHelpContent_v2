@@ -5,10 +5,10 @@
                 ms.author="genli"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32588977"
-                productPesIds="16450"
+                productPesIds="16098"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="problemscoping-networking-no-connectivity-backend-pool"
+                articleId="c515f682-dcdb-4ad4-a075-230804ca2aa2"
 />
 # No connectivity to backend pool
 ---
