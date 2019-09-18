@@ -1,21 +1,21 @@
 <properties
-	articleId="a0cf70ba-6b43-43fa-9806-3fa329592dde"
-	pageTitle="Scoping Questions for ADLA Job started to fail with error"
-	description="Scoping Questions for ADLA Job start to fail with error"
+	articleId="problemscopingques-adla-job-started-to-return-incorrect-results"
+	pageTitle="Scoping Questions for ADLA job stated to return incorrect results"
+	description="Scoping Questions for ADLA job stated to return incorrect results"
 	authors="guyhay, lisaliu"
 	ms.author="guyhay, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32680650"
+	supportTopicIds="32680651"
 	productPesIds="15940"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# ADLA Job started to fail with error
+# ADLA job stated to return incorrect results
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ADLA Job started to fail with error",
+    "title": "ADLA job stated to return incorrect results",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -45,7 +45,7 @@
             "order": 140,
             "controlType": "textbox",
             "displayLabel": "Job name",
-            "watermarkText": "Please provide the job name for the job that failed",
+            "watermarkText": "Please provide the job name for the job that started to return incorrect results",
             "required": false
         },
         {
@@ -53,15 +53,7 @@
             "order": 150,
             "controlType": "textbox",
             "displayLabel": "Job URL",
-            "watermarkText": "Please provide the job URL for the job that failed",
-            "required": false
-        },
-        {
-            "id": "usql_script",
-            "order": 160,
-            "controlType": "multilinetextbox",
-            "displayLabel": "U-SQL script",
-            "watermarkText": "Please provide the U-SQL script for the job that failed",
+            "watermarkText": "Please provide the job URL for the job that return incorrect results",
             "required": false
         },
         {
