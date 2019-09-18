@@ -17,9 +17,9 @@
 />
 
 # We ran diagnostics on your resource and found an issue
-
+<!--issueDescription-->
 We noticed that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has been failing due to an expired user password.
-
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
