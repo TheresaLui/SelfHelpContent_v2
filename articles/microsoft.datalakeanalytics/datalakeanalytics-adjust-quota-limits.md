@@ -18,6 +18,7 @@ Quotas define the limits of Azure Data Lake Analytics compute resources that a s
 Each resource can have its own quota. 
 
 Common quota requests include:
+
 * Increasing the number of ADLA accounts, from the default of 5 per subscription and region
 * Increasing the maximum number of concurrent AUs per ADLA account, from the default of 250 per ADLA account
 * Increasing the maximum numober of concurrent jobs per ADLA account , from the default of 20 per ADLA account
