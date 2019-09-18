@@ -17,8 +17,9 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 There is a problem with the Ambari Metrics Collector configured for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
