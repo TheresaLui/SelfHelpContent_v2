@@ -14,27 +14,49 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": no,
     "title": "Cluster failed state",
     "fileAttachmentHint": "Attach the output of **kubectl get networkpolicies -o yaml**",
     "formElements": [
+           {
+            "id": "is_backend_issue",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Can you access the backend pool instance directly without the load balancer?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes. "
+                },
+                {
+                    "value": "No",
+                    "text": "No, it timeouts. Tips: In this case you need to fix the connectivity issue with the backed pool instance first. The issue should not be considered as a load balancer issue"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I didn't try"
+                }
+            ],
+            "required": false
+        },
         {
             "id": "problem_start_time",
-            "order": 1,
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
             "id": "getErrorMsg",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What error message did you receive while performing this operation, if any?",
             "required": false
         },
         {
             "id": "getNetworkPolicyProvider",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Which network policy provider you are using?",
             "infoBalloonText": "Read <a href='https://docs.microsoft.com/azure/aks/use-network-policies#differences-between-azure-and-calico-policies-and-their-capabilities'>here</a> for AKS supported policy providers.",
@@ -42,7 +64,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
