@@ -18,9 +18,31 @@
     "title": "No connectivity to the backend pool",
     "fileAttachmentHint": "",
     "formElements": [
+           {
+            "id": "is_backend_issue",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Can you access the backend pool instance directly without the load balancer?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes. "
+                },
+                {
+                    "value": "No",
+                    "text": "No, it timeouts. Tips: In this case, you need to fix the connectivity issue with the backed pool instance first. The issue should not be considered as a load balancer issue"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I didn't try"
+                }
+            ],
+            "required": false
+        },
         {
             "id": "inbound-connectivity",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Please specify the source location",
             "watermarkText": "Choose an option",
@@ -50,7 +72,7 @@
         },
         {
             "id": "connectivity-break-type",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please specify the type of connectivity loss",
             "watermarkText": "Choose an option",
@@ -72,7 +94,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
