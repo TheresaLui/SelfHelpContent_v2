@@ -7,7 +7,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32681530"
+    supportTopicIds="32681538"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
@@ -20,7 +20,7 @@
 
 **Autoscale Preview**
 
-The Autoscale feature is a preview feature and only works for Spark, Hive and MapReduce clusters created after May 8th 2019. 
+The Autoscale feature is a preview feature and only works for Spark, Hive and MapReduce clusters created after May 8th 2019.
 
 **Error: The deployment would exceed the quota of '800'.**
 
