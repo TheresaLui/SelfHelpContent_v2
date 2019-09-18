@@ -103,23 +103,9 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please specify any additional details",
-            "required": true,
+            "displayLabel": "Description",
             "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Source details (e.f. IP Address)"
-                },
-                {
-                    "text": "Did the connectivity work in the past and stopped working now?"
-                },
-                {
-                    "text": "Can you access the backend pool instances directly without the load balancer?"
-                },
-                {
-                    "text": "Did you recieve any error messages from the Load Balancer that you want to share?"
-                }
-            ]
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
