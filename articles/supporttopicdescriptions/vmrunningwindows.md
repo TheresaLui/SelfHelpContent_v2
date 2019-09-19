@@ -9,7 +9,7 @@ feedbackEmail="email"
 productPesIds = "6f16735c-b0ae-b275-ad3a-03479cfa1396"
 selfHelpType = "supportTopicDescription"
 articleId = "virtual-machine-running-windows-supporttopicdescription"
-cloudEnvironments = "public" 
+cloudEnvironments = "public,BlackForest,Fairfax, MoonCake" 
 />
 
 # Support topic description for Virtual Machine running Windows
