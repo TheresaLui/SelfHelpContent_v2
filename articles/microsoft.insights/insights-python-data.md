@@ -21,7 +21,7 @@
 3. Take a look at the output for your logs for any failed telemetry items. Local log files are stored in your local file system. The default storage path is $HOME\.opencensus\.azure\{FILENAME}. At the time of writing this document, only request, dependency, trace and exception telemetry will have logs for failed telemetry.
 
 ## **What libraries does OpenCensus support?**<br>
-Take a look at [extension packages](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib) to see if OpenCensus supports the extension that you need. Go to the corresponding (setup.py) file to see what the latest supported version is. The list of integrations can be found at the bottom of [this FAQ](https://docs.microsoft.com/en-us/azure/azure-monitor/app/opencensus-python#opencensus-for-python)
+Take a look at [extension packages](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib) to see if OpenCensus supports the extension that you need. Go to the corresponding (setup.py) file to see what the latest supported version is. The list of integrations can be found at the bottom of [this FAQ](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python#opencensus-for-python)
 
 ## **I'm not seeing metric X out-of-the-box**<br>
 As of today, important system metrics such as CPU usage, memory usage, and requests/sec, outgoing HTTP requests using the [requests](https://2.python-requests.org/en/master/) library as well as incoming HTTP requests using [http.server](https://docs.python.org/3/library/http.server.html) for Python3 and [BaseHTTPServer](https://docs.python.org/2/library/basehttpserver.html) for Python2.
