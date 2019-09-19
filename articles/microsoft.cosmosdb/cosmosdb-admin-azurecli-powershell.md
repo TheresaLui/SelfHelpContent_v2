@@ -15,7 +15,7 @@
 	category="Administration"
 />
 
-# Creating and managing Azure Cosmos DB account and resources
+# Creating and managing Azure Cosmos DB account and resources TEST
 
 You can create and manage all Azure Cosmos DB resources (across all APIs) from an ARM template, PowerShell or Azure CLI as well as dynamically change throughput (RU/s) on both database and container resources. You can also create and manage database and container resources from using any of the Cosmos DB SDK's as well as dynamically change throughput (RU/s).
 
