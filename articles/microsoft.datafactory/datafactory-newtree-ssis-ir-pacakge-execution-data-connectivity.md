@@ -6,6 +6,7 @@
 	authors="LianwMS"
 	ms.author="lianw"
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-data-connectivity.md"
+	displayOrder="12"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32680898"

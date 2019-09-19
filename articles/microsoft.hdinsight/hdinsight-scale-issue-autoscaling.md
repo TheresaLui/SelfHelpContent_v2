@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="d51bcaf5-9001-4e83-a49b-fde2d1d43229"
+    articleId="9651a650-909c-4f84-a526-cb7ed6313e0b"
 />
 
 # HDInsight cluster deployment issue with Autoscaling
@@ -20,7 +20,7 @@
 
 **Autoscale Preview**
 
-The Autoscale feature is a preview feature and only works for Spark, Hive and MapReduce clusters created after May 8th 2019. 
+The Autoscale feature is a preview feature and only works for Spark, Hive and MapReduce clusters created after May 8th 2019.
 
 **Error: The deployment would exceed the quota of '800'.**
 
