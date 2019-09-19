@@ -5,18 +5,20 @@
 	resource="vaults"
 	authors="fhokholdMSFT"
 	displayOrder="17"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375296"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="ef2146e8-0e56-4e59-b7fa-629446d88d7f"
 />
 
 # Managing an Existing Key Vault
 ## **Recommended steps**
 
-* Authorize an application to use a key or secret with these steps for [creating and managing a key vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
+* [Create and manage Key Vault with CLI](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-manage-with-cli2)<br>
+
+* [Secure your key vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-secure-your-key-vault)<br>
 
 **Troublshooting**
 
@@ -26,9 +28,7 @@
 [Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
-[Using Soft-Delete with Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-soft-delete-powershell)<br>
-[Using Soft-Delete with Key Vault with CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-soft-delete-cli)<br>
+
 [Using Soft-Delete with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)<br>
-[Create and Manage using CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
-[Using Managed Storage Account Keys](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)<br>
-[Security Worlds and Geographic Boundaries](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)
+[Key Vault key rotation and auditing](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-key-rotation-log-monitoring)<br>
+[Developers Guide](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-developers-guide)
