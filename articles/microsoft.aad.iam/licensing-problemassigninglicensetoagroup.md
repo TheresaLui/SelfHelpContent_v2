@@ -2,7 +2,7 @@
     pageTitle="Problem assigning licenses to a group"
     description="problemassigninglicensetoagroup"
     authors="chpate"
-    ms.authors="chpate"
+    ms.author="chpate"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570958,32615386"
     productPesIds="14785,16578,16575,16578"
@@ -16,13 +16,30 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Problem assigning licenses to a group",
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "purchaseOrUpgrade",
             "visibility": null,
-            "order": 1,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is your question regarding purchase/upgrade of license (including trial)?",
             "content": null,
@@ -36,19 +53,22 @@
                 {
                     "text": "No",
                     "value": "no"
+                },
+                ,
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "purchaseOrUpgradeSelected",
-            "visibility": "purchaseOrUpgrade!=no",
-            "order": 2,
+            "visibility": "purchaseOrUpgrade==yes",
+            "order": 4,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "Please select License acquisition and upgrade support topic in previous screen.",
@@ -56,16 +76,14 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "groupOrUserAssignment",
-            "visibility": "purchaseOrUpgrade!=yes",
-            "order": 3,
+            "visibility": "purchaseOrUpgrade==no",
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Are you assigning license directly to users or assigning license to a group",
             "content": null,
@@ -79,19 +97,21 @@
                 {
                     "text": "Group",
                     "value": "group"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "groupName",
-            "visibility": "groupOrUserAssignment!=user",
-            "order": 4,
+            "visibility": "groupOrUserAssignment==group",
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "What is name or id of the group having issue?",
             "content": null,
@@ -99,16 +119,14 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 2
         },
         {
             "id": "onpremOrCloud",
-            "visibility": groupOrUserAssignment!=user,
-            "order": 5,
+            "visibility": groupOrUserAssignment==group,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Is the group synced from on-prem active directory?",
             "content": null,
@@ -125,16 +143,14 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "groupMembershipType",
-            "visibility": groupOrUserAssignment!=user,
-            "order": 6,
+            "visibility": groupOrUserAssignment==group,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "What is the membership Type of the group?",
             "content": null,
@@ -148,19 +164,21 @@
                 {
                     "text": "Dynamic",
                     "value": "dynamic"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "userUPN",
             "visibility": null,
-            "order": 7,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "What is UPN of the user having issue?",
             "content": null,
@@ -168,7 +186,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": null,
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
@@ -177,7 +194,7 @@
         {
             "id": "userCID",
             "visibility": null,
-            "order": 7,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "If you have the correlation if of the failure please provide",
             "content": null,
@@ -185,7 +202,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": null,
             "required": no,
             "maxLength": 0,
             "useAsAdditionalDetails": true,

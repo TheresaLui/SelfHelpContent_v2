@@ -2,7 +2,7 @@
     pageTitle="Questions about Azure AD features"
     description="questionsaboutazureadfeatures"
     authors="chpate"
-    ms.authors="chpate"
+    ms.author="chpate"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615394"
     productPesIds="16578"
@@ -16,13 +16,30 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Questions about Azure AD features",
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "purchaseOrUpgradeLicense",
             "visibility": null,
-            "order": 1,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is your question regarding purchase/upgrade of license (including trial)?",
             "content": null,
@@ -36,19 +53,21 @@
                 {
                     "text": "No",
                     "value": "no"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "purchaseOrUpgradeSelection",
-            "visibility": "purchaseOrUpgradeLicense!=no",
-            "order": 2,
+            "visibility": "purchaseOrUpgradeLicense==yes",
+            "order": 4,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "Please select License acquisition and upgrade support topic in previous screen.",
@@ -56,16 +75,14 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "azureADLevel",
-            "visibility": "purchaseOrUpgradeLicense!=yes",
-            "order": 3,
+            "visibility": "purchaseOrUpgradeLicense==no",
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "What is Azure AD level of your tenant. This information is below the Directory name on Overview blade.",
             "content": null,
@@ -83,19 +100,21 @@
                 {
                     "text": "Azure AD Premium P2",
                     "value": "p2"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "featureName",
-            "visibility": "purchaseOrUpgradeLicense!=yes",
-            "order": 4,
+            "visibility": "purchaseOrUpgradeLicense==no",
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "What Azure AD feature you want to use.",
             "content": null,
@@ -106,7 +125,6 @@
             "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 2
         }
     ],
