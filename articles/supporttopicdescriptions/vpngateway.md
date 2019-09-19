@@ -9,7 +9,7 @@ feedbackEmail="email"
 productPesIds = "5a813df8-0060-7015-892d-9f17015a6706"
 selfHelpType = "supportTopicDescription"
 articleId = "vpn-gateway-supporttopicdescription"
-cloudEnvironments = "public" 
+cloudEnvironments = "public,BlackForest,Fairfax, MoonCake" 
 />
 
 # Support topic description for VPN Gateway
