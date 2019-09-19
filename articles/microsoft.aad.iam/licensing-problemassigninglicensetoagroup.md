@@ -2,6 +2,7 @@
     pageTitle="Problem assigning licenses to a group"
     description="problemassigninglicensetoagroup"
     authors="anupnadigm"
+    ms.author="chpate"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570958"
     productPesIds="14785,16578,16575"
@@ -19,9 +20,25 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "tenantSubscription",
             "visibility": null,
-            "order": 1,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Does the tenant have a subscription for a premium Azure AD product?",
             "content": null,
@@ -55,13 +72,12 @@
         {
             "id": "licenseRequirement",
             "visibility": "tenantSubscription!=yes",
-            "order": 2,
+            "order": 4,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal'>Assigning licenses to groups is currently in Public Preview and requires an active subscription for one of the Azure AD products, such as: Azure AD Basic, Azure AD Premium, or Enterprise Mobility + Security. You can see the list of your subscriptions under Azure Active Directory--Licenses--All Products. Click here to read more about the preview and the license requirement to use this feature.</a>",
             "watermarkText": null,
             "infoBalloonText": null,
-            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
             "required": false,
@@ -72,7 +88,7 @@
         {
             "id": "whereProblem",
             "visibility": null,
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "What environment are you using to assign a license to a group?",
             "content": null,
@@ -114,13 +130,12 @@
         {
             "id": "portalAvailability",
             "visibility": "whereProblem!=azurePortal",
-            "order": 4,
+            "order": 6,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-assignment-azure-portal'>Assigning licenses to groups is only available through the Azure portal. Open the group in the portal, go to the Licenses tab to view or modify a license on a group. Click here to find out more.</a>",
             "watermarkText": null,
             "infoBalloonText": null,
-            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
             "required": false,
@@ -131,13 +146,12 @@
         {
             "id": "groupId",
             "visibility": null,
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Object ID of the group you are having problems with?",
             "content": null,
             "watermarkText": "The Object ID can be found by opening the group in the portal, in the Overview tab in the Essentials box on the very top.",
             "infoBalloonText": null,
-            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
             "required": false,
@@ -148,13 +162,12 @@
         {
             "id": "symptoms",
             "visibility": null,
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "What are the symptoms of the problem?",
             "content": null,
             "watermarkText": "Tell us what you are trying to accomplish and what is not working.",
             "infoBalloonText": null,
-            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
             "required": false,
@@ -165,13 +178,12 @@
         {
             "id": "problem_start_time",
             "visibility": null,
-            "order": 7,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
-            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
             "required": false,
@@ -182,13 +194,12 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 8,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
-            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": null,
             "required": true,
