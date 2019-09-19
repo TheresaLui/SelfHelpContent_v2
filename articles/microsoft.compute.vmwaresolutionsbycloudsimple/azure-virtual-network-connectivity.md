@@ -34,17 +34,9 @@
 
 
 
-## ToolTip sample
-<!DOCTYPE html>
-<html>
-<body style="text-align:center;">
+## **ToolTip Sample **
 
-<h2>Tooltip</h2>
-<p>Move the mouse over the text below:</p>
+<span title="Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs">
+* [Azure Virtual Network Connection using ExpressRoute](https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection)<br>
+</span>
 
-<div class="tooltip">Hover over me
-	<span class="tooltiptext">Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs</span>
-</div>
-
-</body>
-</html>
