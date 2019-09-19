@@ -17,6 +17,11 @@
     "resourceRequired": true,
     "title": "Recovery Services vault deletion failure",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Recovery Services vault deletion failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
@@ -24,7 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "Which Recovery Services vault was you unable to delete?",
             "watermarkText": "Enter the name of the recovery services vault",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -56,7 +62,8 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

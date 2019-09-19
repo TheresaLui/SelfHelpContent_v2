@@ -48,14 +48,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What's the source of the copy activity?",
-            "required": true
+            "required": false
         },
         {
             "id": "sink_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What's the sink of the copy activity?",
-            "required": true
+            "required": false
         },
         {
             "id": "ir_type",

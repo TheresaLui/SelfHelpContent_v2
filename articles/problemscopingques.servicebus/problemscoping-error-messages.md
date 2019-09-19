@@ -54,7 +54,7 @@ schemaVersion="1"
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": false
         },
         {
@@ -63,7 +63,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Please specific the client library (.Net, .Net Standard, Java, Python, etc) you are using and the version number?",
             "watermarkText": "Clients used by the application and their version number",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true
         },
         {

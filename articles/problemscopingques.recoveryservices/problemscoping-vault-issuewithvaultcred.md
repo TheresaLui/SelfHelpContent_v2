@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "issue with vault credential",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "Issue with vault credential",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "error_message",
@@ -78,7 +83,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",

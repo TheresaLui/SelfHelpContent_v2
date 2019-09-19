@@ -45,14 +45,7 @@ Most alerts in Azure Monitor use [Action Groups](https://docs.microsoft.com/azur
 
 ### Webhook
 
-* Whitelist the [IP addresses](https://go.microsoft.com/fwlink/?linkid=827201#action-specific-information) the webhook will be called from:
-
-	* 13.106.57.181
-	* 13.106.54.3
-	* 13.106.54.19
-	* 13.106.38.142
-	* 13.106.38.148
-	* 13.106.57.196
+* Whitelist the [IP addresses](https://go.microsoft.com/fwlink/?linkid=827201#action-specific-information) the webhook will be called from.
 
 * Verify the webhook endpoint you have configured is correct and the endpoint is working correctly
 * If you are using webhooks to [integrate with Teams or Slack](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups-logic-app), the endpoint expects the payload in a certain format which is different from what alerts provide

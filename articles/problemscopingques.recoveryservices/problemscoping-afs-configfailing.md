@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for issue configuring Azure File share backup"
          description="Scoping questions for issue configuring Azure File share backup"
          authors="srinathvasireddy"
-	 ms.author="srinathv"
+	       ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612212"
          productPesIds="15207"
@@ -17,13 +17,29 @@
     "subscriptionRequired": true,
     "title": "Issue configuring Azure File share backup",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "For issue configuring Azure File share backup",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "storage_account_name",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which storage account(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the storage account(s)",
+	          "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Storage/storageAccounts' or resourceType eq 'Microsoft.ClassicStorage/storageAccounts'",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+          },
             "required": false
         },
         {
@@ -74,7 +90,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",

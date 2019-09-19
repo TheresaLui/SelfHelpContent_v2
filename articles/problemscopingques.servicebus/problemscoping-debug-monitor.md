@@ -33,14 +33,14 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please include the type of metrics you are trying to setup?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_alert",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please include the type of alerts you are trying to setup?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

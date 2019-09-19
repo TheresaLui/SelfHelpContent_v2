@@ -18,6 +18,10 @@
     "resourceRequired": false,
     "title": "Troubleshoot my ARM template error",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine deployment diagnostics",
+            "description": "These diagnostics will check for details about your selected deployment failure.",
+            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
             "id": "resourceGroup",
@@ -42,7 +46,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "correlationId",
@@ -71,7 +76,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "deployment_manageddisks",
