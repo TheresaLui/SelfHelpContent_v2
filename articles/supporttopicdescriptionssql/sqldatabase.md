@@ -533,6 +533,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
 			"category": "",
 			"useInDiagnoseAndSolve": ""
 		}
-	]
+	],
+	"$schema": "SelfHelpContent"
 }
 ---
