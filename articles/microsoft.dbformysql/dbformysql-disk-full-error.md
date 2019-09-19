@@ -19,6 +19,7 @@
 
 <!--issueDescription-->
 During our investigation we determined that the database server was marked as read-only. When a server is marked as read-only, all new transactions that try to write to the server (Insert/Update/Delete) are expected to fail. Read queries will continue to work uninterrupted.
+<!--/issueDescription-->
 
 Servers with less than 100 GB provisioned storage are marked read-only if the free storage is less than 512MB or 5% of the provisioned storage size. Servers with more than 100 GB provisioned storage are marked read only when the free storage is less than 5 GB. For example:
 
