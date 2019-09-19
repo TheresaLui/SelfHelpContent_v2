@@ -19,6 +19,6 @@ cloudEnvironments="public"
 # Find Data migration solution
 
 <!--issueDescription-->
-Please check Data transfer feature in Azure portal [Data transfer feature](**<!--$DataMigrationBladeUri-->[DataMigrationBladeUri]<!--/$DataMigrationBladeUri-->**) to get recommendation on data migration solution.
+Please check [Data transfer feature in Azure portal](**<!--$DataMigrationBladeUri-->[DataMigrationBladeUri]<!--/$DataMigrationBladeUri-->**) to get recommendation on data migration solution.
 <!--/issueDescription-->
 
