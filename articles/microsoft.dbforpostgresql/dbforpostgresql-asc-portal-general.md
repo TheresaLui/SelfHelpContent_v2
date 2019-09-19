@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Issue with portal"
 	description="Having trouble with Portal"
-	infoBubbleText="Portal is not loading"
+	infoBubbleText="Portal blades are not loading for Azure Database for PostgreSQL. See details on the right."
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="Xin-Cheng"
@@ -25,9 +25,9 @@ Most users are able to resolve their portal issues using the steps below:
 ## **Recommended steps**
 * Clear your browser cache
 * Refresh your browser
-* If above steps don't work, you can always unblock yourself by using [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/postgres?view=azure-cli-latest) to manage your Azure Database for PostgreSQL servers.
+* If above steps don't work, you can always unblock yourself by using [Azure CLI](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest) to manage your Azure Database for PostgreSQL servers.
 
 ## **Recommended documents**
-* [Azure CLI for PostgreSQL](https://docs.microsoft.com/en-us/cli/azure/postgres?view=azure-cli-latest)
+* [Azure CLI for PostgreSQL](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest)
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 * [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)

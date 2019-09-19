@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Issue with portal"
 	description="Having trouble with Portal"
-	infoBubbleText="Portal is not loading "
+	infoBubbleText="Portal blades are not loading for Azure Database for MariaDB. See details on the right."
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
 	authors="Xin-Cheng"
@@ -25,9 +25,9 @@ Most users are able to resolve their portal issues using the steps below:
 ## **Recommended steps**
 * Clear your browser cache
 * Refresh your browser
-* If above steps don't work, you can always unblock yourself by using [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/MariaDB?view=azure-cli-latest) to manage your Azure Database for MariaDB servers.
+* If above steps don't work, you can always unblock yourself by using [Azure CLI](https://docs.microsoft.com/cli/azure/MariaDB?view=azure-cli-latest) to manage your Azure Database for MariaDB servers.
 
 ## **Recommended documents**
-* [Azure CLI for MariaDB](https://docs.microsoft.com/en-us/cli/azure/MariaDB?view=azure-cli-latest)
+* [Azure CLI for MariaDB](https://docs.microsoft.com/cli/azure/MariaDB?view=azure-cli-latest)
 * [Azure Database for MariaDB](https://azure.microsoft.com/services/MariaDB/)
 * [MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMariaDB)

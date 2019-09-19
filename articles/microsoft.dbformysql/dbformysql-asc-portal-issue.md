@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Issue with portal"
 	description="Having trouble with Portal"
-	infoBubbleText="Portal is not loading "
+	infoBubbleText="Portal blades are not loading for Azure Database for MySQL. See details on the right."
 	service="microsoft.dbformysql"
 	resource="dbformysql"
 	authors="Xin-Cheng"
@@ -23,9 +23,9 @@ During our investigation we found that there is an ongoing portal issue. The iss
 <!--/issueDescription-->
 
 ## **Recommended steps**
-* To unblock yourself, you can use [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/mysql?view=azure-cli-latest) to manage your Azure Database for MySQL servers.
+* To unblock yourself, you can use [Azure CLI](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) to manage your Azure Database for MySQL servers.
 
 ## **Recommended documents**
-* [Azure CLI for MySQL](https://docs.microsoft.com/en-us/cli/azure/mysql?view=azure-cli-latest)
+* [Azure CLI for MySQL](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)
 * [Azure Database for MySQL](https://azure.microsoft.com/services/MySQL/)
 * [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL)
