@@ -9,7 +9,7 @@
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
-    resourceTags=""​
+    resourceTags=""
     cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="privatedns-cantcreaterecord"
 />
