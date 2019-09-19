@@ -27,16 +27,8 @@
       "required": true
     },
     {
-      "id": "errors",
-      "order": 2,
-      "controlType": "textbox",
-      "displayLabel": "What error did you see?",
-      "watermarkText": "Example: 500001 ServerError",
-      "required": false
-    },
-    {
       "id": "problem_description",
-      "order": 10,
+      "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "Description",
       "watermarkText": "Provide additional information about your issue",
@@ -44,9 +36,20 @@
       "useAsAdditionalDetails": true,
       "hints": [
         {
+          "text": "Description of the issue and repro steps"
+        },
+        {
           "text": "Error logs with timestamp (indicate timezone or UTC)"
         }
       ]
+    },
+    {
+      "id": "errors",
+      "order": 10,
+      "controlType": "textbox",
+      "displayLabel": "What error did you see?",
+      "watermarkText": "Example: 500001 ServerError",
+      "required": false
     }
   ]
 }

@@ -28,7 +28,7 @@
     },
     {
       "id": "errors",
-      "order": 2,
+      "order": 5,
       "controlType": "textbox",
       "displayLabel": "What 3rd party MQTT client are you using?",
       "watermarkText": "Example: paho-mqtt",
@@ -41,7 +41,15 @@
       "displayLabel": "Description",
       "watermarkText": "Provide additional information about your issue",
       "required": true,
-      "useAsAdditionalDetails": true
+      "useAsAdditionalDetails": true,
+      "hints": [
+        {
+          "text": "Description of the issue and repro steps"
+        },
+        {
+          "text": "Error logs with timestamp (indicate timezone or UTC)"
+        }
+      ]
     }
   ]
 }

@@ -10,7 +10,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32633513"
 	resourceTags="WindowsSQL"
-	productPesIds="14745"
+	productPesIds="14745, 16342"
 	cloudEnvironments="public"
 />
 

@@ -20,6 +20,8 @@ This article will help with several kinds of issues relating scheduling Azure Up
 
 ## **Recommended Steps**
 
+First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
+
 ### **Machines aren't showing up in deployment list**
 
 * Only machines that have reported to Log Analytics in the past 24 hours are shown in the machine list
