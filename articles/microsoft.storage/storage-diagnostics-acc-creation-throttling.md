@@ -19,14 +19,13 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 
-Storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> creation failed at <!--$IssueTime-->[IssueTime]<!--/$IssueTime--> due to throttling on storage account management operations. [Storage resource provider scale limit](https://docs.microsoft.com/azure/storage/common/storage-scalability-targets#storage-resource-provider-scale-limits) exceeded on subscription <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->.
-
-Please reduce [storage account management operations](https://docs.microsoft.com/rest/api/storagerp/storageaccounts) and retry storage account creation. 
-
+Storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> creation failed at <!--$IssueTime-->[IssueTime]<!--/$IssueTime--> due to throttling on storage account management operations on subscription <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->.
 <!--/issueDescription-->
+
+Please reduce [storage account management operations](https://docs.microsoft.com/rest/api/storagerp/storageaccounts) to meet [storage resource provider scale limit](https://docs.microsoft.com/azure/storage/common/storage-scalability-targets#storage-resource-provider-scale-limits) and retry storage account creation. 
 
 ## **Recommended Documents**
 
-* [Storage account management operations](https://docs.microsoft.com/rest/api/storagerp/storageaccounts)
 * [Storage resource provider scale limit](https://docs.microsoft.com/azure/storage/common/storage-scalability-targets#storage-resource-provider-scale-limits)
+* [Storage account management operations](https://docs.microsoft.com/rest/api/storagerp/storageaccounts)
 
