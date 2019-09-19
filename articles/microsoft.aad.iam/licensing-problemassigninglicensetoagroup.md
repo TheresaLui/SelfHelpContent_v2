@@ -8,7 +8,7 @@
     productPesIds="14785,16578,16575,16578"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="23c1cf4d-6fdd-475b-ba06-87595b53195b"
+    articleId="licensing-problemassigninglicensetoagroup"
     />
 
 # Problem assigning licenses to a group
