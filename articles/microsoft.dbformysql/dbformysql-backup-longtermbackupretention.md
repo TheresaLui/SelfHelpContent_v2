@@ -20,6 +20,10 @@ Long term retention backups are currently not natively supported by the service.
 
 Native support for long term retention backups is currently being worked on by the Azure engineering team.
 
+## **Recommended Steps**
+
+* [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
+
 ## **Recommended Documents**
 
 * [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>
