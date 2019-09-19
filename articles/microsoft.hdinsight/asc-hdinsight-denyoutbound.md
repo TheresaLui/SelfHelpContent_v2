@@ -8,18 +8,19 @@
     ms.author="nebhatta"
     displayOrder="88"
     articleId="Hdi_Network_DenyOutbound"
-    diagnosticScenario="HDInsightInsufficientNumberOfCoresInsight"
+    diagnosticScenario="HDInsightDenyOutboundInsight"
     selfHelpType="rca"
-    supportTopicIds="32629159, 32636423, 32636422"
+    supportTopicIds="32636423, 32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 # HDInsight cluster contains deny outbound rule within Network Security Group
 
 ## We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 We determined that the network security group associated with the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> have the following network security group rules that would deny outbound access from the cluster. <!--$Details-->[Details]<!--/$Details-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
