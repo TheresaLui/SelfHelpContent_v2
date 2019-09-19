@@ -167,6 +167,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "searchTags": "VPN, Gateway, Site-to-site, S2S, P2S, Point-to-site, performance",
             "useInDiagnoseAndSolve": "TRUE"
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
