@@ -19,9 +19,9 @@ cloudEnvironments="public"
 # Find Data migration solution
 
 <!--issueDescription-->
-There is a Data transfer feature in Azure portal to get recommendation on data migration solution.
+There is a Data Transfer feature in Azure portal that provides recommendations on data migration solutions.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Please check [Data transfer feature in Azure portal](<!--$DataMigrationBladeUri-->[DataMigrationBladeUri]<!--/$DataMigrationBladeUri-->) to get recommendation on data migration solution.
+* Check the [Data transfer feature in Azure portal](<!--$DataMigrationBladeUri-->[DataMigrationBladeUri]<!--/$DataMigrationBladeUri-->) to get recommendations on data migration solutions
