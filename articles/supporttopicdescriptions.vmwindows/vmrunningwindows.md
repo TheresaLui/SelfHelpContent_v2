@@ -487,7 +487,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "78338998-486e-d645-07e5-4c90760f5b3a",
-            "shortDescription": "[Not visible for the customer]",
+            "shortDescription": " ",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
