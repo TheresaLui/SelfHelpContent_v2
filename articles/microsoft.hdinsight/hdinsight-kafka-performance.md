@@ -4,7 +4,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="dhgoelmsft"
-    ms.author="dhgoel"
+    ms.author="deeptivu"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32636470"
@@ -22,3 +22,4 @@
 * [Configure storage and scalability for Apache Kafka](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability)
 * [Troubleshooting issues with an HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [Cluster capacity planning](https://docs.microsoft.com/azure/hdinsight/hdinsight-capacity-planning)
+* [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
