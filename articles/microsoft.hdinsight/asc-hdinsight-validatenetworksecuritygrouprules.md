@@ -24,7 +24,7 @@ There is a problem with the inbound network security group rules configured for 
 ## **Recommended Steps**
 
 * Go to the Azure Portal and identify the NSG that is associated with the subnet where the cluster is being deployed
-* In the “Inbound security rules” section, make sure the rules allow inbound access to port 443 for the IP addresses <!--$MissingIp-->[MissingIp]<!--/$MissingIp-->
+* In the "Inbound security rules" section, make sure the rules allow inbound access to port 443 for the IP addresses <!--$MissingIp-->[MissingIp]<!--/$MissingIp-->
 
 ## **Recommended Documents**
 
