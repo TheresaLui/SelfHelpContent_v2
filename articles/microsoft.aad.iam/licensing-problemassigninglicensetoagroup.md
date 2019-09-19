@@ -1,11 +1,11 @@
 <properties
     pageTitle="Problem assigning licenses to a group"
     description="problemassigninglicensetoagroup"
-    authors="anupnadigm"
+    authors="chpate"
     ms.author="chpate"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32570958"
-    productPesIds="14785,16578,16575"
+    supportTopicIds="32615386"
+    productPesIds="16578,16575,16578"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="23c1cf4d-6fdd-475b-ba06-87595b53195b"
@@ -16,25 +16,10 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Problem assigning licenses to a group",
     "fileAttachmentHint": null,
     "formElements": [
-        {
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
-            "required": true
-        },
-        {
-            "id": "problem_description",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true
-        },
         {
             "id": "tenantSubscription",
             "visibility": null,
@@ -63,10 +48,8 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
@@ -79,10 +62,8 @@
             "watermarkText": null,
             "infoBalloonText": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
@@ -121,10 +102,8 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
@@ -137,10 +116,8 @@
             "watermarkText": null,
             "infoBalloonText": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
@@ -153,10 +130,8 @@
             "watermarkText": "The Object ID can be found by opening the group in the portal, in the Overview tab in the Essentials box on the very top.",
             "infoBalloonText": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 2
         },
         {
@@ -169,10 +144,8 @@
             "watermarkText": "Tell us what you are trying to accomplish and what is not working.",
             "infoBalloonText": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 4
         },
         {
@@ -185,10 +158,8 @@
             "watermarkText": null,
             "infoBalloonText": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
@@ -201,7 +172,6 @@
             "watermarkText": null,
             "infoBalloonText": null,
             "dynamicDropdownOptions": null,
-            "hints": null,
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
