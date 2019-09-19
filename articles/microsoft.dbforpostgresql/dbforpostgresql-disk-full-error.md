@@ -5,7 +5,7 @@
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="seanliang"
-	ms.author = "zhlian"
+	ms.author="zhlian"
 	displayOrder="100"
 	articleId="dbforpostgresql-disk-full-error"
 	diagnosticScenario="OrcasPostgresServerNotWritable"
