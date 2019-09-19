@@ -9,7 +9,7 @@ feedbackEmail="prdasneo@microsoft.com"
 productPesIds = "f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
 selfHelpType = "supportTopicDescription"
 articleId = "Subscription-management-supportopicdescription"
-cloudEnvironments = "public" 
+cloudEnvironments = "public,BlackForest,Fairfax, MoonCake" 
 />
 
 
