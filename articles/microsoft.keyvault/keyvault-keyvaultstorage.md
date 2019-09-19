@@ -18,11 +18,11 @@
 ## **Recommended Steps**
 
 * Manage storage account keys with Azure Key Vault<br>
-[CLI](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-ovw-storage-keys)<br>
-[PowerShell](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-overview-storage-keys-powershell)
+[CLI](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)<br>
+[PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-overview-storage-keys-powershell)
 
 ## **Recommended Documents**
 
-[About keys, secrets, certificates and storage account keys](https://docs.microsoft.com/en-us/azure/key-vault/about-keys-secrets-and-certificates#azure-storage-account-key-management)<br>
+[About keys, secrets, certificates and storage account keys](https://docs.microsoft.com/azure/key-vault/about-keys-secrets-and-certificates#azure-storage-account-key-management)<br>
 
-[Developers Guide](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-developers-guide)<br>
+[Developer's Guide](https://docs.microsoft.com/azure/key-vault/key-vault-developers-guide)<br>

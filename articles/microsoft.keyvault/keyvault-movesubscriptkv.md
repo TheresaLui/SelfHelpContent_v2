@@ -4,12 +4,13 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author="jalichwa"
 	displayOrder="12"
 	selfHelpType="generic"
 	supportTopicIds="32375297"
 	resourceTags="optional"
 	productPesIds="15657"
-    cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="6c2979b7-4bb2-4c90-a61c-0c81d6a7a117"
 />
 
@@ -22,8 +23,8 @@
 
 ## **Recommended Documents**
 
-[Availability and Redundancy Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-disaster-recovery-guidance)<BR>
+[Availability and Redundancy Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-disaster-recovery-guidance)<br>
 
-[Best practisces to use Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-best-practices)<br>
+[Best practices to use Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)<br>
 
 [How to Generate and Transfer HSM-protected Keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys)<br>
