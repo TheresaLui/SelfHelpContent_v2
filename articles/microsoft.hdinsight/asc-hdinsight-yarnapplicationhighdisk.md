@@ -17,9 +17,9 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 We determined that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high disk usage because of yarn applications running on the affected nodes.
-
+<!--/issueDescription-->
 ### **Affected Resources**
 
 <!--$Details-->[Details]<!--/$Details-->
