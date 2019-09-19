@@ -18,6 +18,10 @@
 
 Azure Database for MySQL automatically takes backups of your server. The backups are used to support our point-in-time restore feature. Users do not have access to the backups and cannot change the timing of when backups are taken. The default retention period for backups is 7 days and can be increased to 35 days.
 
+## **Recommended Steps**
+
+* [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
+
 ## **Recommended Documents**
 
 * [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>

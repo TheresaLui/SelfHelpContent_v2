@@ -19,7 +19,7 @@
 # We ran diagnostics on your Microsoft Intune subscription
 
 <div>
-No issues found, however, please review the following troubleshooting tips for more information. 
+We found no issues, however, please review the following troubleshooting tips for more information.  If you're still experiencing an issue please open a support case.
 <br/>
   <ol>
     <li><a href="https://docs.microsoft.com/intune/device-enrollment" target="_blank">Learn about device enrollment with Intune</a></li>
