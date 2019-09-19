@@ -18,7 +18,7 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-The workspace **<!--$ResourceName-->ResourceName<!--/$ResourceName-->** has been throttled at least **<!--$ThrottledRequests-->ThrottledRequests<!--/$ThrottledRequests-->** times while performing '<!--$OperationName-->OperationName<!--/$OperationName-->' during cluster autoscale (Scale up and Scale down).
+The workspace **<!--$ResourceName-->ResourceName<!--/$ResourceName-->** has been throttled at least **<!--$ThrottledRequests-->ThrottledRequests<!--/$ThrottledRequests-->** times, while performing '<!--$OperationName-->OperationName<!--/$OperationName-->' during cluster autoscale (Scale up and Scale down).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
