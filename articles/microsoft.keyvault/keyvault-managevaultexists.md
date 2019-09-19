@@ -4,6 +4,7 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author="jalichwa"
 	displayOrder="17"
 	selfHelpType="generic"
 	supportTopicIds="32375296"
@@ -16,9 +17,9 @@
 # Managing an Existing Key Vault
 ## **Recommended steps**
 
-* [Create and manage Key Vault with CLI](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-manage-with-cli2)<br>
+* [Create and manage Key Vault with CLI](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 
-* [Secure your key vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-secure-your-key-vault)<br>
+* [Secure your Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-secure-your-key-vault)<br>
 
 **Troublshooting**
 
@@ -30,5 +31,5 @@
 ## **Recommended Documents**
 
 [Using Soft-Delete with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)<br>
-[Key Vault key rotation and auditing](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-key-rotation-log-monitoring)<br>
-[Developers Guide](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-developers-guide)
+[Key Vault key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)<br>
+[Developer's Guide](https://docs.microsoft.com/azure/key-vault/key-vault-developers-guide)
