@@ -39,7 +39,7 @@
                     "text": "I didn't try"
                 }
             ],
-            "required": required
+            "required": true
         },
         {
             "id": "inbound-connectivity",
