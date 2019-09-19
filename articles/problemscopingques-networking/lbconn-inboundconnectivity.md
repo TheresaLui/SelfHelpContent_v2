@@ -23,7 +23,7 @@
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Can you access the backend pool instance directly without the load balancer?",
-             "infoBalloonText": "If no, this issue should not be considered as a load balancer issue. You need to fix the connectivity issue with the backed pool instance first.",
+             "infoBalloonText": "If no, this issue should not be considered as a load balancer issue. You need to fix the connectivity issue with the backed pool instances first.",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -39,7 +39,7 @@
                     "text": "I didn't try"
                 }
             ],
-            "required": false
+            "required": required
         },
         {
             "id": "inbound-connectivity",
@@ -94,8 +94,15 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "problem_start_time",
             "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please specify any additional details",
             "required": true,
@@ -106,9 +113,6 @@
                 },
                 {
                     "text": "Did the connectivity work in the past and stopped working now?"
-                },
-                {
-                    "text": "Can you access the backend pool instances directly without the load balancer?"
                 },
                 {
                     "text": "Did you receive any error messages from the Load Balancer that you want to share?"
