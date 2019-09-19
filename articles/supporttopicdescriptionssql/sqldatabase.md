@@ -9,7 +9,7 @@ feedbackEmail="email"
 productPesIds = "95412dd5-f222-a91f-98a6-144a84418c66"
 selfHelpType = "supportTopicDescription"
 articleId="sql-database-supportopicdescription"
-cloudEnvironments = "public" 
+cloudEnvironments = "public,BlackForest,Fairfax, MoonCake" 
 />
 
   # Support topic description for SQL Database
