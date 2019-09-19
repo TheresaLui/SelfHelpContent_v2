@@ -21,25 +21,9 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
-            "required": true
-        },
-        {
-            "id": "problem_description",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true
-        },
-        {
             "id": "purchaseOrUpgradeLicense",
             "visibility": null,
-            "order": 3,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Is your question regarding purchase/upgrade of license (including trial)?",
             "content": null,
@@ -66,23 +50,15 @@
         },
         {
             "id": "purchaseOrUpgradeSelection",
-            "visibility": "purchaseOrUpgradeLicense==yes",
-            "order": 4,
+            "visibility": "purchaseOrUpgradeLicense == yes",
+            "order": 2,
             "controlType": "infoblock",
-            "displayLabel": null,
-            "content": "Please select License acquisition and upgrade support topic in previous screen.",
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "numberOfLines": 0
+            "content": "Please select License acquisition and upgrade support topic in previous screen."
         },
         {
             "id": "azureADLevel",
             "visibility": "purchaseOrUpgradeLicense==no",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What is Azure AD level of your tenant. This information is below the Directory name on Overview blade.",
             "content": null,
@@ -114,7 +90,7 @@
         {
             "id": "featureName",
             "visibility": "purchaseOrUpgradeLicense==no",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What Azure AD feature you want to use.",
             "content": null,
@@ -125,7 +101,23 @@
             "required": true,
             "maxLength": 0,
             "numberOfLines": 2
-        }
+        },
+        {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
     ],
     "$schema": "SelfHelpContent"
 }

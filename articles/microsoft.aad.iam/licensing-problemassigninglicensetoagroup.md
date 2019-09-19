@@ -21,11 +21,11 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
-            "id": "tenantSubscription",
+            "id": "purchaseOrUpgradeLicense",
             "visibility": null,
-            "order": 3,
+            "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Does the tenant have a subscription for a premium Azure AD product?",
+            "displayLabel": "Is your question regarding purchase/upgrade of license (including trial)?",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
@@ -39,12 +39,8 @@
                     "value": "no"
                 },
                 {
-                    "text": "Not sure",
-                    "value": "dontknow"
-                },
-                {
                     "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
+                    "text": "Not sure"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -53,52 +49,33 @@
             "numberOfLines": 0
         },
         {
-            "id": "licenseRequirement",
-            "visibility": "tenantSubscription!=yes",
-            "order": 4,
+            "id": "purchaseOrUpgradeSelection",
+            "visibility": "purchaseOrUpgradeLicense == yes",
+            "order": 2,
             "controlType": "infoblock",
-            "displayLabel": null,
-            "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal'>Assigning licenses to groups is currently in Public Preview and requires an active subscription for one of the Azure AD products, such as: Azure AD Basic, Azure AD Premium, or Enterprise Mobility + Security. You can see the list of your subscriptions under Azure Active Directory--Licenses--All Products. Click here to read more about the preview and the license requirement to use this feature.</a>",
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "numberOfLines": 0
+            "content": "Please select License acquisition and upgrade support topic in previous screen."
         },
         {
-            "id": "whereProblem",
-            "visibility": null,
-            "order": 5,
+            "id": "groupOrUserAssignment",
+            "visibility": "purchaseOrUpgradeLicense==no",
+            "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What environment are you using to assign a license to a group?",
+            "displayLabel": "Are you assigning license directly to users or assigning license to a group",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "Azure portal",
-                    "value": "azurePortal"
+                    "text": "Direct",
+                    "value": "direct"
                 },
                 {
-                    "text": "Office portal",
-                    "value": "officePortal"
-                },
-                {
-                    "text": "PowerShell cmdlets",
-                    "value": "powerShell"
-                },
-                {
-                    "text": "Microsoft Graph APIs",
-                    "value": "msGraph"
-                },
-                {
-                    "text": "Not sure",
-                    "value": "other"
+                    "text": "Group",
+                    "value": "group"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
+                    "text": "Not sure"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -107,47 +84,104 @@
             "numberOfLines": 0
         },
         {
-            "id": "portalAvailability",
-            "visibility": "whereProblem!=azurePortal",
-            "order": 6,
-            "controlType": "infoblock",
-            "displayLabel": null,
-            "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-assignment-azure-portal'>Assigning licenses to groups is only available through the Azure portal. Open the group in the portal, go to the Licenses tab to view or modify a license on a group. Click here to find out more.</a>",
+            "id": "groupName",
+            "visibility": "groupOrUserAssignment==group",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is name or id of the group having issue?",
+            "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
+            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "numberOfLines": 0
-        },
-        {
-            "id": "groupId",
-            "visibility": null,
-            "order": 7,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the Object ID of the group you are having problems with?",
-            "content": null,
-            "watermarkText": "The Object ID can be found by opening the group in the portal, in the Overview tab in the Essentials box on the very top.",
-            "infoBalloonText": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "numberOfLines": 2
         },
         {
-            "id": "symptoms",
+            "id": "onpremOrCloud",
+            "visibility": groupOrUserAssignment==group,
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Is the group synced from on-prem active directory?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Yes",
+                    "value": "yes"
+                },
+                {
+                    "text": "No",
+                    "value": "no"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "numberOfLines": 0
+        },
+        {
+            "id": "groupMembershipType",
+            "visibility": groupOrUserAssignment==group,
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "What is the membership Type of the group?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Assigned",
+                    "value": "assigned"
+                },
+                {
+                    "text": "Dynamic",
+                    "value": "dynamic"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "numberOfLines": 0
+        },
+        {
+            "id": "userUPN",
+            "visibility": null,
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is UPN of the user having issue?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0
+        },
+        {
+            "id": "userCID",
             "visibility": null,
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "What are the symptoms of the problem?",
+            "displayLabel": "If you have the correlation if of the failure please provide",
             "content": null,
-            "watermarkText": "Tell us what you are trying to accomplish and what is not working.",
+            "watermarkText": null,
             "infoBalloonText": null,
+            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
-            "numberOfLines": 4
-        },
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0
+        }
         {
             "id": "problem_start_time",
             "visibility": null,
