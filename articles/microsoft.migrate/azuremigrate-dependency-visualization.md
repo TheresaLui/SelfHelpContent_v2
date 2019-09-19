@@ -22,6 +22,14 @@
 
 When you configure your OMS workspace for the first time for an Azure Migrate: Server Assessment project, you can either create a new or use an existing OMS workspace. [Learn more](https://aka.ms/migrate/dependencies/oms) about how to configure an OMS workspace in Server Assessment.
 
+### I am not able to create an Log Analytics workspace in the region of my preference. How do I proceed?
+
+Azure Migrate currently supports creation of OMS workspace in East US, Southeast Asia and West Europe regions. Within Azure Migrate, you cannot create a workspace in regions in Japan or Australia. Even if the workspace is created outside of Azure Migrate, it currently cannot be associated with an Azure Migrate project. This limitation is temporary and will be addressed in the future.
+
+### I am not able to associate my Log Analytics workspace with the Azure Migrate project. How do I proceed?
+
+Azure Migrate currently supports creation or associations of OMS workspaces that are in East US, Southeast Asia and West Europe regions. Within Azure Migrate, you cannot create a workspace in regions in Japan or Australia. Even if the workspace is created outside of Azure Migrate, it currently cannot be associated with an Azure Migrate project. This limitation is temporary and will be addressed in the future.
+
 ### **Can I change the OMS workspace used by Server Assessment?**
 
 No, you cannot change the OMS workspace once it has been configured.
