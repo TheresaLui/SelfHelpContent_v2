@@ -94,6 +94,3 @@ If you do not find your solution from this page, create a ticket or file a [bug 
 
 * [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python)
 * [OpenCensus Azure Monitor Exporter](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-azure)
-
-
-
