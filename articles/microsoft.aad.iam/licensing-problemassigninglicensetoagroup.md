@@ -5,7 +5,7 @@
     ms.author="chpate"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615386"
-    productPesIds="16578,16575,16578"
+    productPesIds="16575,16578"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="23c1cf4d-6fdd-475b-ba06-87595b53195b"
@@ -158,7 +158,7 @@
             "watermarkText": null,
             "infoBalloonText": null,
             "dynamicDropdownOptions": null,
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "numberOfLines": 0
         },
