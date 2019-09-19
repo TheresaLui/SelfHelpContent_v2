@@ -1,16 +1,18 @@
 <properties
 	pageTitle="Azure CosmosDB Cassandra authentication"
-	description="Authentication"
+	description="Troubleshoot Azure CosmosDB Cassandra authentication issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636769"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-cassandra-authentication"
+	displayOrder="140"
+	category="Cassandra"
 />
 
 # Authentication failure error when connecting to Azure Cosmos DB Cassandra collection

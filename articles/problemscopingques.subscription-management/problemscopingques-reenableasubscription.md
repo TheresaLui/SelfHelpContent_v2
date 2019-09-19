@@ -31,7 +31,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Reason for cancellation/switching/re-enabling",
             "watermarkText": "Provide the reason for cancellation/switching/re-enabling",
-            "required": true
+            "required": false
         },
         {
             "id": "browser_details1",
@@ -81,7 +81,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Error message (if any) encountered ",
             "watermarkText": "Provide the error message encountered",
-            "required": true
+            "required": false
         },
         {
             "id": "email_description",
@@ -89,7 +89,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Email notification received (if applicable) about subscription suspension",
             "watermarkText": "Provide the email notification received about subscription suspension",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

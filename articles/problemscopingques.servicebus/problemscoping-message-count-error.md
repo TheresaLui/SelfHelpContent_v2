@@ -34,7 +34,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "Enter the current message count",
             "watermarkText": "Enter the current message count",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_ExpectedMesssageCount",
@@ -42,7 +42,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "Enter the expected message count",
             "watermarkText": "Enter the expected message count",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

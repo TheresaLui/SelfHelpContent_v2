@@ -5,7 +5,7 @@
 	resource="virtualmachines"
 	authors="tabrezm,timbasham"
 	ms.author="tibasham"
-	displayOrder=""
+	displayOrder="30"
 	selfHelpType="tools"
 	supportTopicIds=""
 	resourceTags="linux, redhat, Ubuntu"

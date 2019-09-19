@@ -35,7 +35,6 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-
         {
             "id": "problem_start_time",
             "order": 3,

@@ -24,6 +24,12 @@
             "controlType": "dropdown",
             "displayLabel": "Select the runbook that has the problem",
             "watermarkText": "Choose a runbook",
+	    "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of runbooks",
+                    "text": "Unable to retrieve list of runbooks"
+                }
+            ],
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Automation/automationAccounts/{resourcename}/runbooks?api-version=2017-05-15-preview",
                 "jTokenPath": "value",

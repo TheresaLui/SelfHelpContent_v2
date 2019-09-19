@@ -15,7 +15,13 @@
 />
 
 # Azure Automation - State Configuration (DSC) - My Template Failed to Deploy
+This article will discuss specific deployment failures that can occur with DSC templates
 
+## **Recommended Steps**
+
+### **DSC and VMSS**
+
+* To deploy DSC with VMSS, consult the sample template ["VMSS Configuration managed by Azure Automation"](https://azure.microsoft.com/resources/templates/201-vmss-automation-dsc/)
 
 ## **Recommended Documents**
 

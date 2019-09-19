@@ -14,11 +14,10 @@
 	articleId="Unable to delete file in an Azure file share"
 />
 
-# Unable to delete file in an Azure file share
-
-This issue typically occurs if the file has an open handle. If the clients have closed all open handles on the file and the issue continues to occur, please open a support case and we will force close the handles.
+# Troubleshooting Azure Files deletion issues
 
 ## **Recommended Documents**    
 
+- [Unable to delete a file or directory in an Azure file share](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#open-handles)
 - [Troubleshoot Azure Files problems in Windows](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems)<br>
 - [Troubleshoot Azure Files problems in Linux](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems)<br>

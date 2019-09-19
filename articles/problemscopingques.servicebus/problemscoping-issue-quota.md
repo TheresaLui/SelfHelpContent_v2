@@ -33,7 +33,7 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What quota increase are you requesting for?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_Reason",
@@ -41,7 +41,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Enter your justification for increase the quota",
             "watermarkText": "Provide your reasoning for quota change request",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

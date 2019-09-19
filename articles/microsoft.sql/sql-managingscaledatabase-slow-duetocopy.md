@@ -17,8 +17,8 @@
 />
 # We ran diagnostics on your resource and found an ongoing scale issue
 <!--issueDescription-->
-You have initiated a scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. This operation is delayed due to slow copy of data between source and target performance tiers.
-<!--issueDescription-->
+You have initiated a scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. This operation is delayed due to slow copy of data between source and target performance tiers. The time required to complete an operation to change the performance tier of an Azure SQL Database depends on the mechanism used for the change.
+<!--/issueDescription-->
 
 ### **Root Cause Investigation**
 

@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="kennthhz"
 	ms.author="haozhag, padmaa"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636798"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-throughput-longscaleoperation"
+	displayOrder="242"
+	category="Throughput and Scaling"
 />
 
 # Azure Cosmos DB about long running scale operations

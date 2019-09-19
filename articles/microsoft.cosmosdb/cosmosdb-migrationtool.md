@@ -5,12 +5,14 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
 	ms.author="bharathb"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32636785"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-migrationtool"
+	displayOrder="124"
+	category="Tools and Connectors"
 />
 # Data Migration tool
 

@@ -17,6 +17,11 @@
     "subscriptionRequired": false,
     "title": "MARS backup failure",
     "fileAttachmentHint": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
+     "diagnosticCard": {
+        "title": "MARS backup failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -54,7 +59,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",
@@ -86,6 +92,10 @@
                 {
                     "value": "5-10% free volume space is available on scratch folder location",
                     "text": "5-10% free volume space is available on scratch folder location"
+                },
+                {
+                    "value": "A valid security PIN is entered",
+                    "text": "A valid security PIN is entered"
                 },
                 {
                     "value": "If antivirus is running, then exclusion rules are used",
