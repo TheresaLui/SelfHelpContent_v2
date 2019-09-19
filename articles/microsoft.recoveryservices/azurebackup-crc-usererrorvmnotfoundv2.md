@@ -1,15 +1,14 @@
-
 <properties
-    pageTitle="UserErrorAzureVmNotFoundV2"
-    description="UserErrorAzureVmNotFoundV2"
-    infoBubbleText="We have identified that your backup operation has failed because the virtual machine does not exist"
+    pageTitle="UserErrorVmNotFoundV2"
+    description="UserErrorVmNotFoundV2"
+    infoBubbleText="We have identified that your backup operation has failed because the virtual machine does not exist."
     service="microsoft.recoveryservices"
     resource="backup"
     authors="srinathvasireddy"
     ms.author="srinathvasireddy"
     displayOrder=""
-    articleId="azurebackup-crc-usererrorazurevmnotfoundv2"
-    diagnosticScenario="azurebackup-crc-usererrorazurevmnotfoundv2"
+    articleId="azurebackup-crc-usererrorvmnotfoundv2"
+    diagnosticScenario="azurebackup-crc-usererrorvmnotfoundv2"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -18,7 +17,7 @@
 />
 
 
-# Error UserErrorAzureVmNotFoundV2
+# Error UserErrorVmNotFoundV2
 
 
 <!--issueDescription-->
@@ -28,4 +27,3 @@ We have identified that your backup operation has failed because the Virtual Mac
 
 ## **Recommended Steps**
 To resolve this issue, ensure the Virtual Machine exists or select a different Virtual Machine. 
-

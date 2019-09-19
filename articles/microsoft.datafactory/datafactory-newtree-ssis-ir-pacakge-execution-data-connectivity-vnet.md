@@ -6,6 +6,7 @@
 	authors="LianwMS"
 	ms.author="lianw"
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-data-connectivity-vnet.md"
+	displayOrder="13"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32680899"

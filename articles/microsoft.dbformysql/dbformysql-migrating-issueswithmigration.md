@@ -24,17 +24,19 @@ Most migration problems can be solved by working through the recommended steps.
 
 * If you are evaluating different migration options, consult our [Azure Database Migration Guide](https://datamigration.microsoft.com/)
 * If you are migrating yourself (e.g. using dump and restore, or data-in-replication) and encounter problems, consider using the [Data Migration Service](https://azure.microsoft.com/services/database-migration/)
-* If you are using the Data Migration Service and experience problems, work through the [step-by-step tutorials for Azure Database for MySQL](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online)
+* If you are using the Data Migration Service and experience problems, work through the [step-by-step tutorials for Azure Database for MySQL](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online):
 
   * Address issues with [online migration configuration](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#online-migration-configuration)
   * Address [datatype limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#datatype-limitations)
   * Address [LOB limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#lob-limitations)
   * Address [other common issues](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#other-limitations)
-* If you are using dump and restore
 
-  * Make sure to use database dumps when you are migrating the entire databases.
-  * Make sure all tables in the database use the InnoDB storage engine when loading data into Azure Database for MySQL.
-  * To avoid any compatibility issues, ensure the same version of MySQL is used on the source and destination systems when dumping databases.
+* If you are using dump and restore:
+
+  * Make sure to use database dumps when you are migrating the entire databases
+  * If you encountered the "MySQL server has gone away" error, increase the value of the `max_allowed_packet` parameter in portal first and then add the `max_allowed_packet` parameter in your mysqldump command: `$ mysqldump --max-allowed-packet=1234567899 -u root -p testdb > testdb_backup.sql`
+  * Make sure all tables in the database use the InnoDB storage engine when loading data into Azure Database for MySQL
+  * To avoid any compatibility issues, ensure the same version of MySQL is used on the source and destination systems when dumping databases
 
 ## **Recommended Documents**
 
