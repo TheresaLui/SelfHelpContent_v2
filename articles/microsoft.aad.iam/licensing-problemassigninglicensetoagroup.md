@@ -181,7 +181,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": true,
             "numberOfLines": 0
-        }
+        },
         {
             "id": "problem_start_time",
             "visibility": null,
