@@ -26,7 +26,7 @@ The following error <!--$Text-->[Text]<!--/$Text--> occurs when the HDInsight cl
 In order to mitigate the issue please do the following:
 
 * Ssh to affected node
-* Get root user. $ sudo su
+* Get root user i.e. sudo su
 * Recursively create needed directories.
 * Change owner and group for these folders.
 ```
@@ -35,6 +35,7 @@ $ chgrp -R hadoop /mnt/resource/hadoop/yarn/local
 $ chown -R yarn /mnt/resource/hadoop/yarn/log
 $ chgrp -R hadoop /mnt/resource/hadoop/yarn/log
 ```
+
 * Go back to ambari portal. click on this alert. disable and enable the alert. (reset the alert status, usually it takes 5 mins to update)
 
 ## **Recommended Documents** 
