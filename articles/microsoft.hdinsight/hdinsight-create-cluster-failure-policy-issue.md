@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="0a3f2d71-7001-4cf0-8591-a95d9b0ce136"
+    articleId="0a3f2d71-4401-4cf0-8591-a95d9b0ce136"
 />
 
 # Create failure due to Azure Policy
@@ -26,9 +26,9 @@ You may receive the following error message:
 
 To resolve this issue, follow these steps:
 
-1. Go to the Azure Portal, Search for Policy
+1. Go to the Azure Portal and search for Policy
 2. On the Policy page, go to **Assignments** and remove the policy identified in the error message to allow public IP creation
-3. Try to recreate HDInsight cluster. The policy can be populated after the cluster is created.
+1. Try to recreate HDInsight cluster. The policy can be populated after the cluster is created.
 
 For more information azure Azure policy, see [Tutorial: Create and manage policies to enforce compliance](https://docs.microsoft.com/azure/governance/policy/tutorials/create-and-manage).
 

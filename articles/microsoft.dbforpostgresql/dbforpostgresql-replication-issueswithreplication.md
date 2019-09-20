@@ -43,6 +43,10 @@ You can choose to stop replication to a replica. Stopping replication disconnect
 
 Replicas do not automatically failover. You have to choose to stop replication and redirect your application to point to the (former) replica's connection string. The replica will always have a unique connection string from the master server.
 
+**Issue** Can't scale down replica's compute and storage
+
+The replica's compute and storage tiers should be equal or greater than the master server to ensure the replica is able to keep up with the master server.
+
 ## **Recommended Documents**
 
 * [Overview on read replicas](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas)
