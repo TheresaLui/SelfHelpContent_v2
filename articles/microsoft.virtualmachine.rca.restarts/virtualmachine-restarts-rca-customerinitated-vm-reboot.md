@@ -28,3 +28,5 @@ The reboot was triggered by an authorized user or process from either the Azure 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 
 To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).
+
+To understand more about the user-initiated reboot, refer to [Understand a system reboot for Azure VM] (https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/understand-vm-reboot#user-initiated-reboot-or-shutdown-actions)
