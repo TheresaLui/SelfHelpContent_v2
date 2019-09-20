@@ -26,6 +26,7 @@ Always leverage Polybase to batch load into your data warehouse and avoid single
 * [Use the appropriate resource class and service level](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL Data Warehouse increases the numbers of readers and writers for parallelism.
 * Load using Managed Identities (MSIs) by visiting the following [documentation](https://docs.microsoft.com/azure/sql-data-warehouse/load-data-from-azure-blob-storage-using-polybase#authenticate-using-managed-identities-to-load-optional)
 * PolyBase can only read UTF8 and UTF16-LE encoded delimited text files
+* Monitor progress of your load by visiting the following [documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-polybase-load)
 
 ## **Recommended Documents**
 
