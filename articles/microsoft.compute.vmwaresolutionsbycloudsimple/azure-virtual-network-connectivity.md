@@ -35,8 +35,6 @@
 
 
 <span title="Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs">
-
-![metric image](/images/info_icon.png)
-
+![Image Alt](info_icon.png)
 </span>
 
