@@ -23,11 +23,8 @@ Cluster unable to start/scale due to insufficient number of cores within the sub
 
 ## **Recommended Steps**
 
-Please check whether sufficient quota of cores are available in region for this subscriptions <!--$Subscription Name-->[SubscriptionName]<!--/$Subscription Name-->
-
-### Not enough cores available
-
-1. Please follow instructions for raising a [ticket](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-usages--quota-blade) 
+* Check whether sufficient quota of cores are available in region for this subscriptions <!--$Subscription Name-->[SubscriptionName]<!--/$Subscription Name-->
+* Not enough cores available: follow instructions for raising a [ticket](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-usages--quota-blade) 
 
 ## **Recommended Documents**
 
