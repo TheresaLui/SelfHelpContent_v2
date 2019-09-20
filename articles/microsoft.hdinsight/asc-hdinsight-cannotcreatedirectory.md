@@ -19,7 +19,9 @@
 # We ran diagnostics on your resource and found an issue
 
 ## Problem
+<!--issueDescription-->
 The following error <!--$Text-->[Text]<!--/$Text--> occurs when the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->'s Ambari cannot create a directory on the cluster. 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
