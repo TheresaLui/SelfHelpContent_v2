@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDB SDK Other Issues"
-	description="CosmosDB SDK Other Issues"
+	pageTitle="CosmosDB SDK Issues"
+	description="CosmosDB SDK Issues"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
@@ -87,7 +87,7 @@
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide repro steps and sample code for your issue.",
+            "displayLabel": "Please provide repro steps or sample code for your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

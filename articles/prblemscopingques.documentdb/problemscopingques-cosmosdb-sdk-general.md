@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDB SDK General Questions"
-	description="CosmosDB SDK General Questions"
+	pageTitle="CosmosDB SDK Questions"
+	description="CosmosDB SDK Questions"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
@@ -26,10 +26,26 @@
             "required": true
         },
 		{
-            "id": "sdk_type",
+            "id": "environment_information",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Environment Information",
+			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, Spark, Spring, Other Cloud)",
+            "required": false
+        },
+		{
+            "id": "region_information",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Region Information",
+			"infoBalloonText": "Read/Write regions where the issue is experienced",
+            "required": false
+        },
+		{
+            "id": "sdk_type",
+            "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Which SDK are you inquiring about?",
+            "displayLabel": "What is the client SDK used?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -53,30 +69,30 @@
                     "text": "Spring"
                 },
                 {
-                    "value": "SPARK",
-                    "text": "SPARK"
+                    "value": "Spark",
+                    "text": "Spark"
                 }
             ],
             "required": false
         },
         {
-           "id": "question",
-            "order": 3,
+            "id": "sdk_version",
+            "order": 5,
             "controlType": "textbox",
-            "displayLabel": "What is your question?",
-			"infoBalloonText": "This form is for general Cosmos DB SDK questions. If you have a specific issue, please go back and select another SDK Issues problem subtype to expedite a resolution for your issue.",
+            "displayLabel": "What is your SDK Version?",
+			"infoBalloonText": "Version example (1.x.x, 2.x.x, 3.x.x)",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Where did you already look?",
+            "displayLabel": "Please provide repro steps or sample code for your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Provide URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve"
+                    "text": "To expedite your issue resolution it may help to provide steps to reproduce the issue and/or sample code attached as a file or link to git hub"
                 }
             ]
         }
