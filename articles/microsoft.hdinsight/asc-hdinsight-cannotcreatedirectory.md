@@ -29,8 +29,8 @@ In order to mitigate the issue please do the following:
 
 * Ssh to affected node
 * Get root user i.e. sudo su
-* Recursively create needed directories.
-* Change owner and group for these folders.
+* Recursively create needed directories
+* Change owner and group for these folders:
 
 ```
 $ chown -R yarn /mnt/resource/hadoop/yarn/local
@@ -39,7 +39,7 @@ $ chown -R yarn /mnt/resource/hadoop/yarn/log
 $ chgrp -R hadoop /mnt/resource/hadoop/yarn/log
 ```
 
-* Go back to ambari portal. Click on this alert. Disable and enable the alert. (Reset the alert status, usually it takes 5 mins to update)
+* Go back to ambari portal. Click on this alert. Disable and enable the alert. This resets the alert status, which usually takes around 5 minutes.
 
 ## **Recommended Documents** 
 
