@@ -25,7 +25,7 @@ The workspace **<!--$ResourceName-->ResourceName<!--/$ResourceName-->** has been
 
 Operations : **'<!--$OperationName-->OperationName<!--/$OperationName-->'** has exceeded subscription limits.
 
-* Identify list of ARM API failures from Azure Support Center -> Resource Explorer's Event Tab. 
+* Identify list of ARM API failures from Azure Support Center -> Resource Explorer's Event Tab
 * Please ask Customer to stop all the jobs and wait until all jobs are stopped
 * Restart Jobs
 
