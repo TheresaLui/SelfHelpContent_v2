@@ -24,7 +24,7 @@ This article will help with several kinds of issues relating to using the Azure 
 
 * Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
 * If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management).
-* Step through the [Windows Update Troubleshooting guide](https://docs.microsoft.com/en-us/windows/deployment/update/windows-update-troubleshooting)  
+* Step through the [Windows Update Troubleshooting guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting)  
 
 ### **I know updates are available, but they don't show as needed on my machines**
 
