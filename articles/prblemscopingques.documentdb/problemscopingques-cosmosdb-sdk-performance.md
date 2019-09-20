@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDB SDK Performance Issues"
-	description="CosmosDB SDK Performance Issues"
+	pageTitle="CosmosDB SDKIssues"
+	description="CosmosDB SDK Issues"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
@@ -17,7 +17,7 @@
     "subscriptionRequired": true,
     "title": "CosmosDB SDK Performance Issues",
     "fileAttachmentHint": "Please attach a memory dump, netstat information, and CPU logs (zip file)",
-    "formElements": [
+     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -25,17 +25,9 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-        {
-            "id": "previous_steps",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What steps have you taken to resolve the issue?",
-			"infoBallonText": "Provide steps and include URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve",
-			"required": false
-        },
 		{
             "id": "environment_information",
-            "order": 3,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Environment Information",
 			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, Spark, Spring, Other Cloud)",
@@ -43,7 +35,7 @@
         },
 		{
             "id": "region_information",
-            "order": 4,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Region Information",
 			"infoBalloonText": "Read/Write regions where the issue is experienced",
@@ -51,7 +43,7 @@
         },
 		{
             "id": "sdk_type",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the client SDK used?",
             "watermarkText": "Choose an option",
@@ -85,7 +77,7 @@
         },
         {
             "id": "sdk_version",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is your SDK Version?",
 			"infoBalloonText": "Version example (1.x.x, 2.x.x, 3.x.x)",
@@ -93,17 +85,14 @@
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing",
+            "displayLabel": "Please provide repro steps or sample code for your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "More information on the exact issue."
-                },
-                {
-                    "text": "Please provide repro steps."
+                    "text": "To expedite your issue resolution it may help to provide steps to reproduce the issue and/or sample code attached as a file or link to git hub"
                 }
             ]
         }

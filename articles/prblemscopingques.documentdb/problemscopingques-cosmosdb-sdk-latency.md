@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDB SDK Latency Issues"
-	description="CosmosDB SDK Latency Issues"
+	pageTitle="CosmosDB SDK Issues"
+	description="CosmosDB SDK Issues"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
@@ -17,7 +17,7 @@
     "subscriptionRequired": true,
     "title": "CosmosDB SDK Latency Issues",
     "fileAttachmentHint": "Please (zip) attach a .csv with extra request diagnostics or query metrics if available, as well additional debugging info like a repro.",
-    "formElements": [
+     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -26,23 +26,8 @@
             "required": true
         },
 		{
-            "id": "previous_steps",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What steps have you taken to resolve the issue?",
-			"infoBallonText": "Provide steps and include URLs to documents, git hub, stack overflow, forms, etc. that you have already searched to help us improve",
-			"required": false
-        },
-		{
-            "id": "cpu_information",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "CPU Information",
-            "required": false
-        },
-		{
             "id": "environment_information",
-            "order": 4,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Environment Information",
 			"infoBalloonText": "Environment info (Azfunctions/App Service/VM, Other, Spark, Spring, Other Cloud)",
@@ -50,22 +35,15 @@
         },
 		{
             "id": "region_information",
-            "order": 5,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Region Information",
 			"infoBalloonText": "Read/Write regions where the issue is experienced",
             "required": false
         },
 		{
-            "id": "request_pct",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Percentage of requests observing latency",
-            "required": false
-        },
-		{
             "id": "sdk_type",
-            "order": 7,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the client SDK used?",
             "watermarkText": "Choose an option",
@@ -99,30 +77,22 @@
         },
         {
             "id": "sdk_version",
-            "order": 8,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is your SDK Version?",
 			"infoBalloonText": "Version example (1.x.x, 2.x.x, 3.x.x)",
             "required": false
         },
-		{
-            "id": "query_string",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "Request Diagnostics or Query Metrics string",
-			"infoBalloonText": "<a href='https://aka.ms/cosmos-how-to-diagnostics'>Cosmos DB article</a> - Diagnostics how to",
-            "required": false
-        },
         {
             "id": "problem_description",
-            "order": 10,
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details about the issue that you are facing.",
+            "displayLabel": "Please provide repro steps or sample code for your issue.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "More information on the exact issue."
+                    "text": "To expedite your issue resolution it may help to provide steps to reproduce the issue and/or sample code attached as a file or link to git hub"
                 }
             ]
         }
