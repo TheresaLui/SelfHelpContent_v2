@@ -24,11 +24,13 @@ This article will help with several kinds of issues relating to using the Azure 
 
 * Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
 * If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management).
+* Step through the [Windows Update Troubleshooting guide](https://docs.microsoft.com/en-us/windows/deployment/update/windows-update-troubleshooting)  
 
 ### **I know updates are available, but they don't show as needed on my machines**
 
 * This often happens if machines are configured to get updates from WSUS/SCCM, but WSUS/SCCM have not approved the updates.
 * You can check if machines are configured for WSUS/SCCM by [cross-referencing the "UseWUServer" registry key to the registry keys in the "Configuring Automatic Updates by Editing the Registry" section of this document](https://support.microsoft.com/help/328010/how-to-configure-automatic-updates-by-using-group-policy-or-registry-s)
+* If machines are configured for WSUS then [run the Client Diagnostics tool available here](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/manage/wsus-tools) 
 
 ### **Updates show as installed, but I can't find them on my machine**
 
