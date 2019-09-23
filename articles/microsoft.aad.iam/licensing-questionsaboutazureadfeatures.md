@@ -20,10 +20,16 @@
     "title": "Questions about Azure AD features",
     "fileAttachmentHint": null,
     "formElements": [
+         {
+            "id": "purchaseOrUpgradeSelection",
+            "order": 1,
+            "controlType": "infoblock",
+            "content": "Please select License acquisition and upgrade support topic in previous screen."
+        },
         {
             "id": "purchaseOrUpgradeLicense",
             "visibility": null,
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Is your question regarding purchase/upgrade of license (including trial)?",
             "content": null,
@@ -47,13 +53,6 @@
             "required": true,
             "maxLength": 0,
             "numberOfLines": 0
-        },
-        {
-            "id": "purchaseOrUpgradeSelection",
-            "visibility": "purchaseOrUpgradeLicense == yes",
-            "order": 2,
-            "controlType": "infoblock",
-            "content": "Please select License acquisition and upgrade support topic in previous screen."
         },
         {
             "id": "azureADLevel",
