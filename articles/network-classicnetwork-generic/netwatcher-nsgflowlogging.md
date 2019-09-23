@@ -9,7 +9,7 @@
 	displayOrder="2"
 	articleId="23f8d822-ea47-49a0-8638-95e9d8d1113f"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32606424"
 	resourceTags=""
 	productPesIds="16160"
@@ -45,9 +45,9 @@ There are two ways to fix this:
 	- Click on the Virtual Network containing the Service Endpoints
 	- Select **Service endpoints** under **Settings** from the left pane
 	- Make a note of the subnets where **Microsoft.Storage** is enabled
-	
+
 * Disabling service endpoints:
-		
+
 	- Continuing from above, select **Subnets** under **Settings** from the left pane
 	* Click on the subnet containing the Service Endpoints
 	- In the **Service endpoints** section, under **Services**, uncheck **Microsoft.Storage**
