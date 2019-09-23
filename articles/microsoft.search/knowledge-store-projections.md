@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-If you are having trouble with creating a knowledge store projection you may want to ensure that:
+If you are having trouble with creating a knowledge store projection you may want to:
 
 1. Define the knowledge store with a connection string and projections in the skillset as described [here](https://docs.microsoft.com/azure/search/knowledge-store-projection-overview)
 1. Use a shaper field to create a shape to match the projection definition
