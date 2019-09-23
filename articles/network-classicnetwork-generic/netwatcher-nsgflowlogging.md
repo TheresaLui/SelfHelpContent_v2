@@ -35,7 +35,7 @@ NSG Flow Logs does not work on NSGs with [Service endpoints](https://docs.micros
 
 There are two ways to fix this:
 
-1.  Re-configure NSG flow logs to emit to Azure Storage account without VNET endpoints (Internal:How? Awaiting response from CSS)
+1.  Re-configure NSG flow logs to emit to Azure Storage account without VNET endpoints
 
 * Find subnets with endpoints:
 
