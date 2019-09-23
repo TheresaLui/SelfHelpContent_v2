@@ -28,4 +28,4 @@ To resolve common issues, try one or more of the following steps:
 
 ## **Recommended documents**
 
-[Create private DNS zones](https://docs.microsoft.com/en-us/azure/dns/private-dns-portal)
+[Create private DNS zones](https://docs.microsoft.com/azure/dns/private-dns-portal)
