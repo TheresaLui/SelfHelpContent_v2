@@ -16,7 +16,7 @@
 
 # I can't resolve DNS records from a private DNS zone
 
-## **Recommended steps**
+## **Recommended Steps**
 
 DNS name resolution is a multi-step process, which can fail for many reasons. The following steps help you investigate why DNS resolution is failing for a DNS record in a zone hosted in Azure DNS.
 
