@@ -166,14 +166,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "0ce5bed2-b9b2-9788-0a8c-26157579e8be",
-      "shortDescription": "Server endpoint has a health status of “pending” in the portal",
+      "shortDescription": "Server endpoint has a health status of \"pending\" in the portal",
       "category": "Sync",
       "searchTags": "sync pending,change enumeration,change detection",
       "useInDiagnoseAnsSolve": "xyz"
     },
     {
       "id": "20feac84-fe5e-37a4-c8b9-566bdbcfaaac",
-      "shortDescription": "Server endpoint has a health status of “error” in the portal",
+      "shortDescription": "Server endpoint has a health status of \"error\" in the portal",
       "category": "Sync",
       "searchTags": "sync error",
       "useInDiagnoseAnsSolve": "xyz"
