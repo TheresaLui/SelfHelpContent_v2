@@ -49,9 +49,80 @@
             "numberOfLines": 0
         },
         {
+            "id": "groupName",
+            "visibility": "groupOrUserAssignment==group",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is name or id of the group having issue?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "numberOfLines": 2
+        },
+        {
+            "id": "onpremOrCloud",
+            "visibility": groupOrUserAssignment==group,
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Is the group synced from on-prem active directory?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Yes",
+                    "value": "yes"
+                },
+                {
+                    "text": "No",
+                    "value": "no"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "numberOfLines": 0
+        },
+        {
+            "id": "groupMembershipType",
+            "visibility": groupOrUserAssignment==group,
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "What is the membership Type of the group?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Assigned",
+                    "value": "assigned"
+                },
+                {
+                    "text": "Dynamic",
+                    "value": "dynamic"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "numberOfLines": 0
+        },
+        {
             "id": "userUPN",
             "visibility": null,
-            "order": 2,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is UPN of the user having issue?",
             "content": null,
@@ -66,9 +137,9 @@
         {
             "id": "userCID",
             "visibility": null,
-            "order": 3,
+            "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "If you have the correlation if of the failure please provide",
+            "displayLabel": "If you have the correlation of the failure please provide it",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
@@ -81,7 +152,7 @@
         {
             "id": "problem_start_time",
             "visibility": null,
-            "order": 4,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "content": null,
@@ -95,7 +166,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 5,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,
