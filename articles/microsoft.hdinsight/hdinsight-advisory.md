@@ -30,6 +30,7 @@ If you have a question about how HDInsight works or whether a scenario is suppor
 -[Billing](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#billing)
 -[Hive](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#hive)
 -[Other FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#hive)
+
 1. Check if the issue has a troubleshooting topic on [docs.microsoft.com](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide) or [hdinsight/github.io](https://hdinsight.github.io/)
 1. Check if this issue was raised in the [forums](https://social.msdn.microsoft.com/Forums/home?forum=hdinsight) or [Stack Overflow](https://stackoverflow.com/questions/tagged/hdinsight)
 1. If there are not any matching docs or discussions, please open an issue on one of the forums. 
