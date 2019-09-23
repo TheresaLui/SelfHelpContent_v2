@@ -61,7 +61,6 @@
             "dynamicDropdownOptions": null,
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": true,
             "numberOfLines": 0
         },
         {
@@ -77,7 +76,6 @@
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": true,
             "numberOfLines": 0
         },
         {
