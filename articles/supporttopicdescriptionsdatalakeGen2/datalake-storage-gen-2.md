@@ -21,7 +21,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
   "shortDescription": "",
   "longDescription": "",
   "productLink1": "https://docs.microsoft.com/azure/storage/files/storage-files-introduction",
-  "productLink2": "https://docs.microsoft.com/en-us/azure/storage/files/storage-files-faq",
+  "productLink2": "https://docs.microsoft.com/azure/storage/files/storage-files-faq",
   "productLink3": "",
   "SupportTopics": [
     {
