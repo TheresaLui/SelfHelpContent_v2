@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-### I could not enable NSG Flow Logs 
+### I could not enable NSG Flow Logs
 
 * "Microsoft.Insights" resource provider is not registered
 
