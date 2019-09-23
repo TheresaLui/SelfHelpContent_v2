@@ -23,7 +23,8 @@ cloudEnvironments="public"
 			"category": "Data Collection",
 			"searchTags": "missing data, no data, empty, blank",
 			"supportTopicId": "32602225",
-			"commonSolutionArticleId": "appinsights-missing-ingestion-data"
+			"commonSolutionArticleId": "appinsights-missing-ingestion-data",
+			"symptomId": "ApplicationInsightsMissingDataDiagnostic",
 		}, {
 			"id": "Why_is_my_data_not_showing_up_right_away?",
       "title": "Why is my data not showing up right away?",
@@ -31,7 +32,7 @@ cloudEnvironments="public"
 			"category": "Data Collection",
 			"searchTags": "latency, slow, collection, ingestion",
 			"supportTopicId": "32546624",
-			"commonSolutionArticleId": "insights_datalatency"
+			"commonSolutionArticleId": "insights_datalatency",
 		},
 		{
       "id": "Why_can_I_not_see_some_of_my_data?",
@@ -41,6 +42,7 @@ cloudEnvironments="public"
 			"searchTags": "partial data, no metric, usage",
 			"supportTopicId": "32602224",
 			"commonSolutionArticleId": "insights_usage_blade"
+			"symptomId": "ApplicationInsightsMissingUsageDataDiagnostic"
 		}, 
 		{				    
 			"id": "Why_did_I_not_receive_an_e-mail_notification?",
