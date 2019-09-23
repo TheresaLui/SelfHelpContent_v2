@@ -9,7 +9,7 @@ feedbackEmail="email"
 productPesIds = "17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
 selfHelpType = "supportTopicDescription"
 articleId = "Azure-Backup-supporttopicdescription"
-cloudEnvironments = "public,BlackForest,Fairfax, MoonCake" 
+cloudEnvironments = "public,BlackForest, Fairfax, MoonCake" 
 />
 
 
