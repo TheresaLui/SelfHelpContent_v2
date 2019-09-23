@@ -24,7 +24,7 @@ cloudEnvironments="public"
 			"searchTags": "missing data, no data, empty, blank",
 			"supportTopicId": "32602225",
 			"commonSolutionArticleId": "appinsights-missing-ingestion-data",
-			"symptomId": "ApplicationInsightsMissingDataDiagnostic",
+			"symptomId": "ApplicationInsightsMissingDataDiagnostic"
 		}, {
 			"id": "Why_is_my_data_not_showing_up_right_away?",
       "title": "Why is my data not showing up right away?",
