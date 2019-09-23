@@ -15,7 +15,7 @@ cloudEnvironments="public"
 # Top common problems for Application Insights?
 ---
 {
-	"$schema":"SelfHelpContent",
+"$schema":"SelfHelpContent",
 	"commonProblems": [{
       			"id": "Where_is_my_data",
 			"title": "Where is my data?",
@@ -41,7 +41,7 @@ cloudEnvironments="public"
 			"category": "Data Collection",
 			"searchTags": "partial data, no metric, usage",
 			"supportTopicId": "32602224",
-			"commonSolutionArticleId": "insights_usage_blade"
+			"commonSolutionArticleId": "insights_usage_blade",
 			"symptomId": "ApplicationInsightsMissingUsageDataDiagnostic"
 		}, 
 		{				    
