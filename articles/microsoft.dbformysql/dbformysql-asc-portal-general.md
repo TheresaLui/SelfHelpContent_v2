@@ -19,15 +19,17 @@
 # Having trouble with Azure Portal
 
 <!--issueDescription-->
-Most users are able to resolve their portal issues using the steps below:
+Most users are able to resolve their portal issues using the steps below.
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
+
 * Clear your browser cache
 * Refresh your browser
-* If above steps don't work, you can always unblock yourself by using [Azure CLI](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) to manage your Azure Database for MySQL servers.
+* If above steps don't work, you can always unblock yourself by using [Azure CLI](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) to manage your Azure Database for MySQL servers
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Azure CLI for MySQL](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)
 * [Azure Database for MySQL](https://azure.microsoft.com/services/MySQL/)
 * [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL)
