@@ -63,66 +63,10 @@
             "maxLength": 0,
             "numberOfLines": 2
         },
-        {
-            "id": "onpremOrCloud",
-            "visibility": groupOrUserAssignment==group,
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Is the group synced from on-prem active directory?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Yes",
-                    "value": "yes"
-                },
-                {
-                    "text": "No",
-                    "value": "no"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "required": true,
-            "maxLength": 0,
-            "numberOfLines": 0
-        },
-        {
-            "id": "groupMembershipType",
-            "visibility": groupOrUserAssignment==group,
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "What is the membership Type of the group?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Assigned",
-                    "value": "assigned"
-                },
-                {
-                    "text": "Dynamic",
-                    "value": "dynamic"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "required": true,
-            "maxLength": 0,
-            "numberOfLines": 0
-        },
         {
             "id": "userUPN",
             "visibility": null,
-            "order": 5,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is UPN of the user having issue?",
             "content": null,
@@ -137,7 +81,7 @@
         {
             "id": "userCID",
             "visibility": null,
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "If you have the correlation of the failure please provide it",
             "content": null,
@@ -152,7 +96,7 @@
         {
             "id": "problem_start_time",
             "visibility": null,
-            "order": 7,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "content": null,
@@ -166,7 +110,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 8,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,
