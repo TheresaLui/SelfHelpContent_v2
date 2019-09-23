@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Key Vault Authentication with MSI"
-	description="Azure Key Vault Authentication with MSI"
+	pageTitle="Azure Key Vault Authentication with Managed Service Identity"
+	description="Azure Key Vault Authentication with Managed Service Identity"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="jlichwa"
@@ -14,7 +14,7 @@
 	articleId="keyvault-authwithMSI"
 />
 
-# Azure Key Vault Authentication with MSI
+# Azure Key Vault Authentication with Managed Service Identity
 ## **Recommended Steps**
 
 1. Assign Managed Identity to App or Function
@@ -23,7 +23,7 @@
 
 ### **Troubleshooting**
 
-* Unauthorized access, access denied, forbidden, or similar error. The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
+* Unauthorized access, access denied, forbidden, or similar error - The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
 
 ## **Recommended Documents**
 * [Use an App Service Managed Identity to Access Key Vault](https://docs.microsoft.com/azure/key-vault/managed-identity)
