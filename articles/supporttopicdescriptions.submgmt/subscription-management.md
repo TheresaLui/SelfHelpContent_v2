@@ -9,7 +9,7 @@ feedbackEmail="prdasneo@microsoft.com"
 productPesIds = "f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
 selfHelpType = "supportTopicDescription"
 articleId = "Subscription-management-supportopicdescription"
-cloudEnvironments = "public" 
+cloudEnvironments = "public,BlackForest,Fairfax, MoonCake" 
 />
 
 
@@ -24,7 +24,6 @@ cloudEnvironments = "public"
   "productLink2": "",
   "productLink3": "",
   "SupportTopics": [
-
     {
       "id": "fcbb0be8-bb43-03e8-9abe-63fdb8bb4462",
       "longDescription": "",
@@ -36,7 +35,7 @@ cloudEnvironments = "public"
     {
       "id": "864ba249-4c3f-5d2f-d1fb-89faf02b1981",
       "longDescription": "",
-      "shortDescription": "Questions on any benefits/offer related issues not listed in the above scenarios",
+      "shortDescription": "Other questions on benefits/offer related issues",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -76,7 +75,7 @@ cloudEnvironments = "public"
     {
       "id": "6a516898-b8cc-4d28-d9f8-9a90f90f7de9",
       "longDescription": "",
-      "shortDescription": "Questions on any benefits/offer related issues not listed in the above scenarios",
+      "shortDescription": "Other questions on benefits/offer related issues",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -132,7 +131,7 @@ cloudEnvironments = "public"
     {
       "id": "ab7cca40-872c-318d-4caa-b4cb6915c1bd",
       "longDescription": "",
-      "shortDescription": "Questions on any benefits/offer related issues not listed in the above scenarios",
+      "shortDescription": "Other questions on benefits/offer related issues",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -172,7 +171,7 @@ cloudEnvironments = "public"
     {
       "id": "235e7495-2037-327f-043c-0fb4945d15d9",
       "longDescription": "",
-      "shortDescription": "Questions on any benefits/offer related issues not listed in the above scenarios",
+      "shortDescription": "Other questions on any benefits/offer related issues",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -236,7 +235,7 @@ cloudEnvironments = "public"
     {
       "id": "5f852a1b-8eee-2f98-c4d2-f26c14c7e96b",
       "longDescription": "",
-      "shortDescription": "Other questions about Azure Security or Azure Compliance not listed in the above scenarios",
+      "shortDescription": "Other questions about Azure Security or Azure Compliance",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -268,7 +267,7 @@ cloudEnvironments = "public"
     {
       "id": "ad022976-a98d-9a91-0ddb-146ce0ff30cb",
       "longDescription": "",
-      "shortDescription": "Questions on any benefits/offer related issues not listed in the above scenarios",
+      "shortDescription": "Other questions on benefits/offer related issues",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -305,6 +304,7 @@ cloudEnvironments = "public"
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     }
-  ]
+  ],
+  "$schema": "SelfHelpContent"
 }
 ---

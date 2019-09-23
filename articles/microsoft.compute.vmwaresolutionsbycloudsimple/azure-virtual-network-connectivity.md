@@ -1,7 +1,7 @@
 <properties
     pageTitle="Access Azure VMware Solution by CloudSimple - Portal" 
     description="Describes how to access VMware Solution by CloudSimple portal from Azure portal"
-    infoBubbleText="Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs"
+    infoBubbleText="Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs. See details on the right."
     ms.service="azure-vmware-cloudsimple"
     authors="dikamath, sharaths-cs" 
     ms.author="dikamath, b-shsury, v-rabmah"
@@ -31,3 +31,10 @@
 ## **Recommended Documents**
 
 * [Azure Virtual Network Connection using ExpressRoute](https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection)<br>
+
+
+
+<span title="Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs">
+![Image Alt](https://azure.microsoft.com/patterns/styles/glyphs-icons/calculator-information.svg)
+</span>
+
