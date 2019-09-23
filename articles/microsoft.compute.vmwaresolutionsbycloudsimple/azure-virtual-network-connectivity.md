@@ -35,6 +35,6 @@
 
 
 <span title="Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs">
-![Image Alt](https://microsoft.sharepoint.com/teams/Images/Shared%20Documents/More%20Info.PNG)
+	[Azure Virtual Network Connection using ExpressRoute](https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection)<br>
 </span>
 
