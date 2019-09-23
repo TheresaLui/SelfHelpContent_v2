@@ -35,6 +35,6 @@
 
 
 <span title="Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs">
-![Image Alt](https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/calculator-information.svg)
+![Image Alt](https://azure.microsoft.com/patterns/styles/glyphs-icons/calculator-information.svg)
 </span>
 
