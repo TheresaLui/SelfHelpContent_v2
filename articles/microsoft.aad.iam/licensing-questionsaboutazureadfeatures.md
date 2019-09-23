@@ -21,43 +21,14 @@
     "fileAttachmentHint": null,
     "formElements": [
          {
-            "id": "purchaseOrUpgradeSelection",
+            "id": "warning_same_name",
             "order": 1,
             "controlType": "infoblock",
-            "content": "Please select License acquisition and upgrade support topic in previous screen."
-        },
-        {
-            "id": "purchaseOrUpgradeLicense",
-            "visibility": null,
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Is your question regarding purchase/upgrade of license (including trial)?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Yes",
-                    "value": "yes"
-                },
-                {
-                    "text": "No",
-                    "value": "no"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not sure"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "required": true,
-            "maxLength": 0,
-            "numberOfLines": 0
+            "content": "For questions regarding purchase/upgrde of license (including trial), please select license acquisition and upgrade support topic in previous screen."
         },
         {
             "id": "azureADLevel",
-            "visibility": "purchaseOrUpgradeLicense==no",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What is Azure AD level of your tenant. This information is below the Directory name on Overview blade.",
             "content": null,
@@ -89,7 +60,7 @@
         {
             "id": "featureName",
             "visibility": "purchaseOrUpgradeLicense==no",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What Azure AD feature you want to use.",
             "content": null,
@@ -103,14 +74,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",

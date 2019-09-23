@@ -21,44 +21,9 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
-            "id": "purchaseOrUpgradeLicense",
-            "visibility": null,
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Is your question regarding purchase/upgrade of license (including trial)?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Yes",
-                    "value": "yes"
-                },
-                {
-                    "text": "No",
-                    "value": "no"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not sure"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "required": true,
-            "maxLength": 0,
-            "numberOfLines": 0
-        },
-        {
-            "id": "purchaseOrUpgradeSelection",
-            "visibility": "purchaseOrUpgradeLicense == yes",
-            "order": 2,
-            "controlType": "infoblock",
-            "content": "Please select License acquisition and upgrade support topic in previous screen."
-        },
-        {
             "id": "problem_start_time",
             "visibility": null,
-            "order": 9,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "content": null,
@@ -72,7 +37,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 10,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,
