@@ -1,13 +1,13 @@
 <properties
-	pageTitle="MPN - Net new customers not reflecting
-	description="MPN -Net new customers not reflecting"
+	pageTitle="MPN - Net new customers not reflecting in Partner Center"
+	description="MPN -Net new customers not reflecting in Partner Center"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
 	authors="KalpanaChawla-Infosys"
 	ms.author="KalpanaChawla-Infosys"
 	displayOrder=""
-	articleId="mpn_competencies_net_new_customers"
+	articleId="mpn_netnew_customers"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32681447"
@@ -17,12 +17,10 @@
 	cloudEnvironments="public"
 />
 
-# MPN - Net new customers not reflecting in Partner Center – not applicable anymore
+# MPN - Net new customers not reflecting in Partner Center
 
-
-Net new customers not reflecting in Partner Center 
-
+Resources providing knowledge on Net new customers not reflecting in Partner Center
 
 ## **Recommended Documents**
 
-* [Performance data in Partner Center](https://support.microsoft.com/en-us/help/4519834/performance-data-in-partner-center)
+* [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)
