@@ -20,7 +20,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
 {
   "shortDescription": "Azure Blob storage is optimized for storing massive amounts of unstructured data in Azure",
   "longDescription": "",
-  "productLink1": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview",
+  "productLink1": "https://docs.microsoft.com/azure/storage/blobs/storage-blobs-overview",
   "productLink2": "https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction#move-data-to-blob-storage",
   "productLink3": "",
   "SupportTopics": [
