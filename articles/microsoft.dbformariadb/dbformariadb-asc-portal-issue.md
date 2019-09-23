@@ -19,7 +19,7 @@
 # Having trouble with Azure Portal
 
 <!--issueDescription-->
-During our investigation we found that there is an ongoing portal issue. The issue has been forwarded to the engineering team for fixes.
+An ongoing portal issue has been detected. The issue has been forwarded to the engineering team for resolution.
 <!--/issueDescription-->
 
 ## **Recommended steps**
