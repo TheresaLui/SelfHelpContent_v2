@@ -50,38 +50,10 @@
         },
         {
             "id": "purchaseOrUpgradeSelection",
-            "visibility": "purchaseOrUpgradeLicense == yes",
+            "visibility": "purchaseOrUpgradeLicense==yes",
             "order": 2,
             "controlType": "infoblock",
             "content": "Please select License acquisition and upgrade support topic in previous screen."
-        },
-        {
-            "id": "groupOrUserAssignment",
-            "visibility": "purchaseOrUpgradeLicense==no",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Are you assigning license directly to users or assigning license to a group",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Direct",
-                    "value": "direct"
-                },
-                {
-                    "text": "Group",
-                    "value": "group"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not sure"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "required": true,
-            "maxLength": 0,
-            "numberOfLines": 0
         },
         {
             "id": "problem_start_time",
