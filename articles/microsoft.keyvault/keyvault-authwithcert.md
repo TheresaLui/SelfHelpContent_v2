@@ -23,9 +23,12 @@
 
 ### **Troubleshooting**
 
-* Unauthorized access, access denied, forbidden, or similar error - The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
+* Unauthorized access, access denied, forbidden, or similar error:
+
+	The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
 
 ## **Recommended Documents**
+
 * [Create service principal](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
 * [Grant access to Key Vault](https://docs.microsoft.com/azure/key-vault/managed-identity#grant-your-app-access-to-key-vault)
 * [Certificate-based authentication with Azure AD](https://docs.microsoft.com/azure/cosmos-db/certificate-based-authentication)
