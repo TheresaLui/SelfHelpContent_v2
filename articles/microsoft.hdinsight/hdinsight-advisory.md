@@ -18,6 +18,7 @@
 If you have a question about how HDInsight works or whether a scenario is supported with HDInsight, Microsoft recommends that you follow these steps:
 
 1. Check if your question has already been covered in one of the sections of the FAQ document:
+
 -[Creating or deleting HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#creating-or-deleting-hdinsight-clusters)
 -[Individual Components](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#individual-components)
 -[Metastore](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#metastore)
@@ -32,3 +33,6 @@ If you have a question about how HDInsight works or whether a scenario is suppor
 1. Check if the issue has a troubleshooting topic on [docs.microsoft.com](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide) or [hdinsight/github.io](https://hdinsight.github.io/)
 1. Check if this issue was raised in the [forums](https://social.msdn.microsoft.com/Forums/home?forum=hdinsight) or [Stack Overflow](https://stackoverflow.com/questions/tagged/hdinsight)
 1. If there are not any matching docs or discussions, please open an issue on one of the forums. 
+
+## **Recommended Documents**
+* [Azure HDInsight FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq)
