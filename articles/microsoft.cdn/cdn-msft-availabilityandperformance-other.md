@@ -20,5 +20,5 @@
 ## **Recommended documents**
 * Are you experiencing issues specifically with an endpoint? Try our [Endpoint Troubleshooting Guide](https://docs.microsoft.com/azure/cdn/cdn-troubleshoot-endpoint)<br>
 * Are you experiencing performance issues with large files?  Try our [Large File Optimization Guide](https://docs.microsoft.com/azure/cdn/cdn-large-file-optimization)<br>
-* [General web delivery optimization](https://docs.microsoft.com/en-us/azure/cdn/cdn-optimization-overview#general-web-delivery) may also help with availability or performance experiences<br>
+* [General web delivery optimization](https://docs.microsoft.com/azure/cdn/cdn-optimization-overview#general-web-delivery) may also help with availability or performance experiences<br>
 * Need more information on the product?  Please read more about [Azure CDN](https://docs.microsoft.com/azure/cdn/)
