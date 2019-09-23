@@ -18,13 +18,13 @@
 
 # We ran diagnostics on your resource and found the following issue
 
-<!--issueDescription-->
 Jupyter service for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is down.
-<!--/issueDescription-->
 
 ## **Recommended Steps**
 
+<!--issueDescription-->
 Jupyter depends on a systemd service called "hadoop-httpfs", which failed to start.
+<!--/issueDescription-->
 
 SSH to headnode0 in the cluster and run these scripts:
 
