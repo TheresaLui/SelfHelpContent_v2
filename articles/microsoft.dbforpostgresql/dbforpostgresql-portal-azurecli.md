@@ -32,6 +32,7 @@ Azure Database for PostgreSQL supports managing your server using the Azure CLI.
   * trying to access the server logs, review [How-to access server logs using CLI](https://docs.microsoft.com/azure/postgresql/howto-configure-server-logs-using-cli)
   * setting up replication, review [How-to setup replication using CLI](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-cli)
   * setting up virtual networks, review [How-to setup virtual networks using CLI](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-cli)
+  * moving a server across resource groups or subscriptions, review [Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 
 ## **Recommended Documents**
 
