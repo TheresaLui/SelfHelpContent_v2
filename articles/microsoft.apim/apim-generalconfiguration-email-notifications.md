@@ -10,7 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
-    articleId="efab6ce9-600d-4734-a26a-37f688108dc6"
+    articleId="ad157085-2d71-4e91-aded-bcd39b391a0e"
 />
 
 # Notifications and email templates in Azure API Management
