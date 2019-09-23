@@ -17,16 +17,13 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-
-Jupyter service for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is down.
+<!--issueDescription-->
+Jupyter service for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is down. Jupyter depends on a systemd service called "hadoop-httpfs", which failed to start.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
-<!--issueDescription-->
-Jupyter depends on a systemd service called "hadoop-httpfs", which failed to start.
-<!--/issueDescription-->
-
-SSH to headnode0 in the cluster and run these scripts:
+* SSH to headnode0 in the cluster and run these scripts:
 
 ```
 sudo sed -i "s/HttpFSContentsManager.root = 'HdiNotebooks'/#HttpFSContentsManager.root = 'HdiNotebooks'/" /var/lib/.jupyter/jupyter_notebook_config.py
@@ -34,4 +31,4 @@ sudo sed -i "s/c.NotebookApp.contents_manager_class = HttpFSContentsManager/#c.N
 sudo sed -i "s/use_httpfs = not cluster_utilities.is_wasb_primary_fs()/use_httpfs = False/" /var/lib/ambari-server/resources/common-services/JUPYTER/1.0.0/package/scripts/jupyter.py
 ```
 
-Restart Jupyter from Ambari UI.
+* Restart Jupyter from Ambari UI
