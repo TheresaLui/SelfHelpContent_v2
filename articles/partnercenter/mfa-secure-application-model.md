@@ -23,7 +23,7 @@ Resource materials related to implementing partner security requirements immedia
 
 ## **Recommended Steps**
 
-- [MFA is blocking me from supporting my customer with AOBO, what do I do?](https://docs.microsoft.com/partner-center/partner-security-requirements#assessing-your-environment)
+- [MFA is blocking me from supporting my customer with AOBO, what do I do?](https://docs.microsoft.com/partner-center/partner-security-requirements-faq#mfa-is-blocking-me-from-supporting-my-customer-using-aobo-what-should-i-do)
 - [How do I confirm that my environment is complaint with the partner security requirements?](https://docs.microsoft.com/partner-center/partner-security-requirements#assessing-your-environment)
 - [If I have already enabled MFA (through conditional access or any third party solution), how do I apply the required MFA for admins and end user protection baseline policies?](https://docs.microsoft.com/partner-center/partner-security-requirements-faq#is-it-a-requirement-to-enable-the-baseline-protection-policies)
 - [Outlook isn't connecting after enabling MFA](https://docs.microsoft.com/partner-center/partner-security-requirements#do-you-have-users-using-office-365-provided-by-licenses-associated-with-your-partner-tenant)
