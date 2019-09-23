@@ -8,7 +8,7 @@ icmService="icmservice"
 feedbackEmail="email"
 productPesIds = "30dfd88b-b455-1748-a4a0-e4c5aa795663"
 selfHelpType = "supportTopicDescription"
-articleId = "files-storage-supporttopicdescription"
+articleId = "files-storage-supporttopic-description"
 cloudEnvironments = "public,BlackForest,Fairfax, MoonCake" 
 />
 
