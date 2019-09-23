@@ -21,9 +21,37 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "groupOrUserAssignment",
+            "visibility": "null",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Are you assigning license directly to users or assigning license to a group",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Direct",
+                    "value": "direct"
+                },
+                {
+                    "text": "Group",
+                    "value": "group"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "numberOfLines": 0
+        },
+        {
             "id": "problem_start_time",
             "visibility": null,
-            "order": 1,
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "content": null,
@@ -37,7 +65,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,
