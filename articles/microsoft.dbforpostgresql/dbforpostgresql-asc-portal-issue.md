@@ -22,11 +22,12 @@
 An ongoing portal issue has been detected. The issue has been forwarded to the engineering team for resolution.
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * To unblock yourself, you can use [Azure CLI](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest) to manage your Azure Database for PostgreSQL servers.
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Azure CLI for PostgreSQL](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest)
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 * [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
