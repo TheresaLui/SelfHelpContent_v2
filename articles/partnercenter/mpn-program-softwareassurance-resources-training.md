@@ -23,6 +23,6 @@ Resources providing knowledge of Software Assurance resources and training
 
 ## **Recommended Documents**
 
-* [Software Assurance Training Vouchers](https://trainingbenefits.partners.extranet.microsoft.com/SATV/Pages/default.aspx)
-* [Software Assurance Planning Services](https://planningservices.partners.extranet.microsoft.com/Pages/default.aspx )
-* [Software Assurance Planning Services Enrollment](https://planningservices.partners.extranet.microsoft.com/Pages/FAQHelpCategory.aspx?FAQCategory=Enrollment)
+* [Software Assurance Training Vouchers](https://trainingbenefits.partners.extranet.microsoft.com/en/SATV/Pages/default.aspx)
+* [Software Assurance Planning Services](https://planningservices.partners.extranet.microsoft.com/en/Pages/default.aspx )
+* [Software Assurance Planning Services Enrollment](https://planningservices.partners.extranet.microsoft.com/en/Pages/FAQHelpCategory.aspx?FAQCategory=Enrollment)
