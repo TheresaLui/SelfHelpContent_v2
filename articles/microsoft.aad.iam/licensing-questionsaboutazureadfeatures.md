@@ -20,15 +20,9 @@
     "title": "Questions about Azure AD features",
     "fileAttachmentHint": null,
     "formElements": [
-         {
-            "id": "warning_same_name",
-            "order": 1,
-            "controlType": "infoblock",
-            "content": "For questions regarding purchase/upgrde of license (including trial), please select license acquisition and upgrade support topic in previous screen."
-        },
         {
             "id": "azureADLevel",
-            "order": 2,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "What is Azure AD level of your tenant. This information is below the Directory name on Overview blade.",
             "content": null,
@@ -60,7 +54,7 @@
         {
             "id": "featureName",
             "visibility": "purchaseOrUpgradeLicense==no",
-            "order": 3,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What Azure AD feature you want to use.",
             "content": null,
@@ -74,14 +68,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
