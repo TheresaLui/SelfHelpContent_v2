@@ -31,7 +31,9 @@
 ## **Recommended Documents**
 
 <span title="Problems related to Azure virtual network connection of a subscription from CloudSimple network, VMware VMs">
+
 * [Azure Virtual Network Connection using ExpressRoute](https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection)<br>
+
 </span>
 
 
