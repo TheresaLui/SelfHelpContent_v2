@@ -21,9 +21,12 @@
 
 ### **Troubleshooting**
 
-* Unauthorized access, access denied, forbidden, or similar error - The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
+* Unauthorized access, access denied, forbidden, or similar error: 
+
+	The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
 
 ## **Recommended Documents**
+
 * [Set and retrieve a secret .NET](https://docs.microsoft.com/azure/key-vault/quick-create-net)
 * [Use an App Service Managed Identity to Access Key Vault](https://docs.microsoft.com/azure/key-vault/managed-identity)
 * [Use Azure Key Vault with an web app in .NET](https://docs.microsoft.com/azure/key-vault/tutorial-net-create-vault-azure-web-app)
