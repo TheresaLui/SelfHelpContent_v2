@@ -36,7 +36,7 @@
             "id": "persistent",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Are you having a consistent repro?",
+            "displayLabel": "Can you reproduce this performance issue consistently?",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -53,7 +53,7 @@
             "id": "select_1",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is your select 1 performance latency?",
+            "displayLabel": "What is the measured time when running 'SELECT 1' from your MariaDB client?",
             "required": false
         },
         {
@@ -179,7 +179,7 @@
             "id": "measurement_tool",
             "order": 13,
             "controlType": "textbox",
-            "displayLabel": "What tool are you using to measure your performance??",
+            "displayLabel": "What tool are you using to measure your performance?",
             "watermarkText": "e.g. sysbench",
             "required": false
         },

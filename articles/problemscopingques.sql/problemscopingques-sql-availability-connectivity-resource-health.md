@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630438"
 	productPesIds="13491"
-	cloudEnvironments="Public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="6B24CFBF-A6D2-4B0B-9A66-020664EF9408"
 />
@@ -81,7 +81,15 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "On the Basics tab, please ensure you selected a server, database or elastic pool in the Resource dropdown so we know what resource you need assistance with.  Add any additional details that may help us troubleshoot your issue."
-        }
+        },
+        {
+		      "id": "sqlexception_received_on_client",
+			    "order": 2000,
+			    "controlType": "multilinetextbox",
+    			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+		    	"required": false,
+			    "visibility": true
+	    }
     ]
 }
 ---

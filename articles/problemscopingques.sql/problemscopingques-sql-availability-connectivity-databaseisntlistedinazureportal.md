@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630436,32630437"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="FAD1FE7C-C2A3-408E-8DCA-A3CAE653AD36"
 />
@@ -66,7 +66,15 @@
             "watermarkText": "Provide additional information about your issue.  Please indicate if the Activity Log shows any recent operations against this resource, such as a rename or delete",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        },
+        {
+		      "id": "sqlexception_received_on_client",
+			    "order": 2000,
+			    "controlType": "multilinetextbox",
+    			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+		    	"required": false,
+			    "visibility": true
+	    }
     ]
 }
 ---

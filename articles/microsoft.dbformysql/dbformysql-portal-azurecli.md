@@ -32,6 +32,8 @@ Azure Database for MySQL has rich support for managing your server in the Azure 
   * Trying to access the server logs, review [How-to access server logs using CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)
   * Setting up replication, review [How-to setup replication using CLI](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli)
   * Setting up virtual networks, review [How-to setup virtual networks using CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli)
+  * Moving a server across resource groups or subscriptions, review [Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
+
 
 ## **Recommended Documents**
 
