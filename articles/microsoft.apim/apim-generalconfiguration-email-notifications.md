@@ -1,19 +1,19 @@
 <properties
-    pageTitle="Importing API (OpenAPI, WSDL, WADL)"
-    description="Importing API (OpenAPI, WSDL, WADL)"
+    pageTitle="Problem with Email Notifications"
+    description="Problem with Email Notifications"
     service="microsoft.apim"
     resource="apimanagement"
     authors="genli,v-miegge"
     ms.author="mquian,toddfous"
     selfHelpType="generic"
-    supportTopicIds="32632419"
+    supportTopicIds="32632426"
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
-    articleId="50b8bf6a-0489-43cc-a86e-b65b61046b48"
+    articleId="ad157085-2d71-4e91-aded-bcd39b391a0e"
 />
 
-# Importing API (OpenAPI, WSDL, WADL)
+# Notifications and email templates in Azure API Management
 
 > [!NOTE]
 > For faster resolution, check that you have API Management resource in your Portal. If no resource exists and the issue does not involve an instance of an API Management Service, consider a different product that aligns better to your issue.
@@ -24,7 +24,4 @@
 
 ## **Recommended Documents**
 
-* [API import restrictions and known issues](https://docs.microsoft.com/azure/api-management/api-management-api-import-restrictions)<br>
-* [Important changes to OpenAPI import and export](https://blogs.msdn.microsoft.com/apimanagement/2018/04/11/important-changes-to-openapi-import-and-export)<br>
-* [Import an OpenAPI specification](https://docs.microsoft.com/azure/api-management/import-api-from-oas)<br>
-* [Import a SOAP API](https://docs.microsoft.com/azure/api-management/import-soap-api)
+* [How to configure notifications and email templates in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-configure-notifications)
