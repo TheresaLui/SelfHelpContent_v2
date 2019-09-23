@@ -24,5 +24,5 @@
 
 ## **Recommended Documents**
 
-* [Api Management Service - Update](https://docs.microsoft.com/rest/api/apimanagement/apimanagementservice/update)<br>
+* [Api Management Service - Update](https://docs.microsoft.com/en-us/rest/api/apimanagement/2019-01-01/apimanagementservice/update)<br>
 * [How do I add a user to the Administrators group?](https://docs.microsoft.com/azure/api-management/api-management-faq#how-do-i-add-a-user-to-the-administrators-group)
