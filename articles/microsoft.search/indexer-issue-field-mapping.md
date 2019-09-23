@@ -6,7 +6,7 @@
 	authors="vkurpad"
 	ms.author="vikurpad"
 	selfHelpType="resource"
-	displayOrder="4"	
+	displayOrder="13"	
 	supportTopicIds="32681378"
 	resourceTags=""
 	productPesIds="15568"
