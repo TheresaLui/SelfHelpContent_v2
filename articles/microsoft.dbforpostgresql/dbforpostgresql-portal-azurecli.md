@@ -22,7 +22,7 @@ Azure Database for PostgreSQL supports managing your server using the Azure CLI.
 
 * Make sure you are signed-in to the correct account using **az login**
 * You are using the correct subscription in case you have more than one
-* You specify all required parameters for the command you are using Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest) for required parameters and valid values.
+* You specify all required parameters for the command you are using. Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest) for required parameters and valid values.
 * If you are:
 
   * creating server, review [Create an Azure Database for PostgreSQL using CLI](https://docs.microsoft.com/azure/postgresql/quickstart-create-server-database-azure-cli)
