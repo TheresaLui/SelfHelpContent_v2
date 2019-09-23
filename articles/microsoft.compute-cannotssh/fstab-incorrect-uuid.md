@@ -41,7 +41,7 @@ Microsoft Azure has concluded an investigation of your virtual machine. We ident
 	* Validate that updates and test the syntax before initiating a reboot `$ sudo mount -a`
 	* Reboot the VM and test SSH access
 
-3. In case serial console cannot be accessed, please follow the steps in the article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue.
+3. In case serial console cannot be accessed, please follow the steps in the article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue
 
 ## **Recommended Documents**
 
