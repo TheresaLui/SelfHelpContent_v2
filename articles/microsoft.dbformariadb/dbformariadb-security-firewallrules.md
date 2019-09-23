@@ -36,7 +36,7 @@ Most users are able to resolve their issue using the steps below.
   * Ensure you are using the correct subscription, in case you have more than one
   * Specify all required parameters in **az mariadb server firewall-rule** with valid values. Review the [Azure CLI MariaDB firewall rule](https://docs.microsoft.com/cli/azure/mariadb/server/firewall-rule?view=azure-cli-latest) documentation for valid parameters.
 
-* Server's IP appears to be public and you can ping or connect using telnet.
+* Server's IP appears to be public and you can ping or connect using telnet:
 
   * Connections to the Azure Database for MariaDB server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture).
 
