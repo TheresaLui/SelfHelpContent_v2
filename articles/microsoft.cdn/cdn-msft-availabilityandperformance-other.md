@@ -4,6 +4,7 @@
 	service="microsoft.cdn"
 	resource="profiles"
 	authors="karenha,magattus"
+	ms.author="karenha,magattus"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32605815"
