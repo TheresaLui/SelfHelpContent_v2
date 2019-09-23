@@ -64,26 +64,26 @@
             "numberOfLines": 2
         },
         {
-            "id": "onpremOrCloud",
+            "id": "groupMembershipType",
             "visibility": groupOrUserAssignment==group,
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Is the group synced from on-prem active directory?",
+            "displayLabel": "What is the membership Type of the group?",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "Yes",
-                    "value": "yes"
+                    "text": "Assigned",
+                    "value": "assigned"
                 },
                 {
-                    "text": "No",
-                    "value": "no"
+                    "text": "Dynamic",
+                    "value": "dynamic"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Don't know"
+                    "text": "Don't know"
                 }
             ],
             "dynamicDropdownOptions": null,
