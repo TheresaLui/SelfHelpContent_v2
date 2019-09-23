@@ -15,13 +15,12 @@
 />
 
 # Azure Key Vault Behind Firewall
+
 ## **Recommended Steps**
 
-* Access Key Vault behind firewall<br>
-[How to guide](https://docs.microsoft.com/azure/key-vault/key-vault-access-behind-firewall)
+* [Access Key Vault behind firewall](https://docs.microsoft.com/azure/key-vault/key-vault-access-behind-firewall)
 
 ## **Recommended Documents**
 
-[Virtual network service endpoints](https://docs.microsoft.com/azure/key-vault/key-vault-overview-vnet-service-endpoints)<br>
-
-[Configure firewalls and virtual networks](https://docs.microsoft.com/azure/key-vault/key-vault-network-security)<br>
+* [Virtual network service endpoints](https://docs.microsoft.com/azure/key-vault/key-vault-overview-vnet-service-endpoints)<br>
+* [Configure firewalls and virtual networks](https://docs.microsoft.com/azure/key-vault/key-vault-network-security)<br>
