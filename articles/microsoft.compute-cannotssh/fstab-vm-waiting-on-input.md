@@ -42,7 +42,7 @@ To recover the virtual machine, follow these steps:
 	* Validate that updates and test the syntax before initiating a reboot `$ sudo mount -a`
 	* Reboot the VM and test SSH access
 
-3. In case serial console cannot be accessed, please follow the steps at article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue.
+3. In case serial console cannot be accessed, please follow the steps at article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue
 
 ## **Recommended Documents**
 
