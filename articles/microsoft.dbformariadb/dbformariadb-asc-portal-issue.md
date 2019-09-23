@@ -22,11 +22,12 @@
 An ongoing portal issue has been detected. The issue has been forwarded to the engineering team for resolution.
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* To unblock yourself, you can use [Azure CLI](https://docs.microsoft.com/cli/azure/MariaDB?view=azure-cli-latest) to manage your Azure Database for MariaDB servers.
+* To unblock yourself, you can use [Azure CLI](https://docs.microsoft.com/cli/azure/MariaDB?view=azure-cli-latest) to manage your Azure Database for MariaDB servers
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Azure CLI for MariaDB](https://docs.microsoft.com/cli/azure/MariaDB?view=azure-cli-latest)
 * [Azure Database for MariaDB](https://azure.microsoft.com/services/MariaDB/)
 * [MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMariaDB)
