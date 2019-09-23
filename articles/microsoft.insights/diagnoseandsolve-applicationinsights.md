@@ -32,7 +32,7 @@ cloudEnvironments="public"
 			"category": "Data Collection",
 			"searchTags": "latency, slow, collection, ingestion",
 			"supportTopicId": "32546624",
-			"commonSolutionArticleId": "insights_datalatency",
+			"commonSolutionArticleId": "insights_datalatency"
 		},
 		{
       "id": "Why_can_I_not_see_some_of_my_data",
