@@ -4,6 +4,7 @@
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="prateek9us, TobyTu"
+    ms.author="aaronmax"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32634431"
@@ -13,7 +14,7 @@
     articleId="8a419a44-2857-4c54-8661-90c3759ba81e"
 />
 
-# Disaster Recovery VMWare to VMWare
+# Disaster Recovery VMware to VMware
 
 ## **Recommended Steps**
 
