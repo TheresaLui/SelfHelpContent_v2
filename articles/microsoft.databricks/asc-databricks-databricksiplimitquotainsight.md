@@ -18,21 +18,21 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-Databricks cluster auto scale failed due to **<!--$Message-->[Message]<!--/$Message-->**. Operation Failed : **<!--$Count-->[Count]<!--/$Count-->**
+Databricks cluster auto scale failed due to **<!--$Message-->[Message]<!--/$Message-->**. Operation Failed: **<!--$Count-->[Count]<!--/$Count-->**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Databricks clusters use one public IP address per node. If your subscription ID : <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId--> has already used all its public IPs, you should request to increase the quota:
+Databricks clusters use one public IP address per node. If your subscription ID: <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId--> has already used all its public IPs, you should request to increase the quota:
 
-* Please raise [ticket](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)
+* Please raise a [ticket](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)
 * Select Issue type "Service and subscription limits(quotas)"
-* Select Subscription ID : <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->
-* Select Quota type "Networking" and hit next button to navigate "Details" tab.
-* Click on "Provider details" link.
-* Select "Resource Manager" as Deployment Model and Location for increasing quota limit.
-* Select "Public IP Addresses" as Resources and provide new limits of public addresses.
-* Review request details and click create button for raising request for increasing quota limit.
+* Select Subscription ID <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->
+* Select Quota type "Networking" and hit next button to navigate "Details" tab
+* Click on "Provider details" link
+* Select "Resource Manager" as Deployment Model and Location for increasing quota limit
+* Select "Public IP Addresses" as Resources and provide new limits of public addresses
+* Review request details and click create button for raising request for increasing quota limit
 
 ## **Recommended Documents**
 
