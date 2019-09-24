@@ -19,8 +19,8 @@
 
 # MPN - Performance data in Partner Center
 
-How to find performance data in Partner Center
+How to find performance data in Partner Center.
 
 ## **Recommended Documents**
 
-* [Performance data in Partner Center](https://support.microsoft.com/en-us/help/4519834/performance-data-in-partner-center)
+* [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)
