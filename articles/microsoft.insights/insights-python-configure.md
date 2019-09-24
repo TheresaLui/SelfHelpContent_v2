@@ -14,18 +14,18 @@
 />
 # Configuring OpenCensus Python
 
-Follow [these instructions](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python) to see how to setup and instrument your application to send traces to Application Insights. Take a look at the [README]](https://github.com/census-instrumentation/opencensus-python/blob/master/contrib/opencensus-ext-azure/README.rst) for more detailed instructions.
+Follow [these instructions](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python) to see how to setup and instrument your application to send traces to Application Insights. Take a look at the [README](https://github.com/census-instrumentation/opencensus-python/blob/master/contrib/opencensus-ext-azure/README.rst) for more detailed instructions.
 
-## **Versioning**
+## Versioning
 
 1. Make sure your application is running a [version](https://github.com/census-instrumentation/opencensus-python/blob/master/setup.py#L32-L38) of Python that is supported by OpenCensus.
 2. Upgrade to the latest version of [opencensus-ext-azure](https://pypi.org/project/opencensus-ext-azure/).
 
-## **Instrumentation Key**
+## Instrumentation Key
 
 1. Make sure that the instrumentation key you specified in the `APPINSIGHTS_INSTRUMENTATIONKEY` environment variable or in your code corresponds to the Application Insights instance you are viewing. The key specified in your code takes precedence over the one specified in the environment variable.
 
-## **No data is collected**
+## No data is collected
 
 ### Tracing
 
@@ -119,6 +119,7 @@ execution_context.set_opencensus_attr(
 [http.client](https://docs.python.org/3/library/http.client.html) is the supported library.
 
 #### If using opencensus-ext-requests integration
+
 1. Make sure `config_integration.trace_integrations(['requests'])` is included in your code.
 2. Check to see if the url(s) your are making requests to are not in set in `blacklist_hostnames`.
 
