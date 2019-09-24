@@ -25,6 +25,7 @@
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBOptimizeRU",
   "recommendationMetadataState": "Active",
+  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
