@@ -13,7 +13,7 @@
 	articleId="indexer-service-limits"
 	cloudEnvironments="public"
 />
-# Issue creating a knowledge store projection
+# Issue or question on indexer service limits
 
 ## **Recommended Steps**
 
