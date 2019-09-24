@@ -1,11 +1,11 @@
 <properties
-	pageTitle="MPN -Exams/assessment data not reflecting in Partner Center"
-	description="MPN -Exams/assessment data not reflecting in Partner Center"
+	pageTitle="MPN Exams/assessment data not reflecting in Partner Center"
+	description="MPN Exams/assessment data not reflecting in Partner Center"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
 	authors="KalpanaChawla-Infosys"
-	ms.author="KalpanaChawla-Infosys"
+	ms.author="v-kalpc"
 	displayOrder=""
 	articleId="mpn_benefits_not_able_to_see_benefits"
 	diagnosticScenario=""
@@ -17,9 +17,9 @@
 	cloudEnvironments="public"
 />
 
-# MPN -Exams/assessment data not reflecting in Partner Center
+# MPN Exams/assessment data not reflecting in Partner Center
 
-Resources providing knowledge on exams/assessment data not reflecting in Partner Center
+Resources providing knowledge on exams/assessment data not reflecting in Partner Center.
 
 ## **Recommended Documents**
 
