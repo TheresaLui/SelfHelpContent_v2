@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
-	articleId="D748D991-21A6-4FBD-B98E-7962F6100F9A"
+	articleId="1688B2F2-D77C-4D1D-BDBF-928FA372704C"
 />
 # Error When Connecting to my Database
 ---

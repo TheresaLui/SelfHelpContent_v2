@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
-	articleId="6B24CFBF-A6D2-4B0B-9A66-020664EF9408"
+	articleId="217152B3-3A59-4441-8B67-B20B2DE5CD95"
 />
 # Scoping questions for Configure or use Azure Active Directory authentication
 ---
