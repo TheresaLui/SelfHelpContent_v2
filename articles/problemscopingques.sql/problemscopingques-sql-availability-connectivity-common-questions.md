@@ -2,9 +2,9 @@
 	pageTitle="Resource Health Scoping Questions"
 	description="Scoping questions to capture more details about Availability and Connectivity\Resource Health support topic"
 	authors="keithelm"
-	ms.author="keithelm,muruga,emlisa"
+	ms.author="keithelm,muruga,emlisa,swbhartims"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630414"
+	supportTopicIds="32630414, 32630423, 32630460"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
@@ -40,7 +40,7 @@
             "id": "sqlexception_received_on_client",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing.Complete          callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+            "displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing.              Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
             "required": false,
             "visibility": true
         },
