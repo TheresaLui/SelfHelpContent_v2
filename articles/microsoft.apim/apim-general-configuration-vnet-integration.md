@@ -16,15 +16,13 @@
 
 # APIM General Configuration and VNET Integration
 
-> [!NOTE]
-> For faster resolution, check that you have API Management resource in your Portal. If no resource exists and the issue does not involve an instance of an API Management Service, consider a different product that aligns better to your issue.
+**Note** For faster resolution, check that you have API Management resource in your Portal. If no resource exists and the issue does not involve an instance of an API Management Service, consider a different product that aligns better to your issue.
 
-API Management (APIM) is a way to create consistent and modern API gateways for existing back-end services. You can use Azure API Management to take any backend and launch a full-fledged API program based on it.
-
-> [!IMPORTANT] 
-> This feature is available in the Premium and Developer tiers of API Management.
+API Management is a way to create consistent and modern API gateways for existing back-end services. You can use Azure API Management to take any backend and launch a full-fledged API program based on it.
 
 Azure Virtual Networks (VNETs) allow you to place any of your Azure resources in a non-internet routable network that you control access to. For more information, see [How to use Azure API Management with virtual networks](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet).
+
+**Important** This feature is available in the Premium and Developer tiers of API Management.
 
 ## **Recommended Documents**
 
