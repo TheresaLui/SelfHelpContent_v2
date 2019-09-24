@@ -14,17 +14,28 @@
     articleId="14dc0ce8-a36f-4736-bd56-48f33e04eddd"
 />
 
-# Persistent connection errors
-
-Persistent connection issues when connecting to Azure Databases for PostgreSQL can occur due to an incorrect firewall configuration, an incorrect connection string, an incorrect virtual network (VNet) configuration, missing permissions for the user that is trying to connect, and other reasons. Work through the recommended steps to ensure you are not hitting a misconfiguration issue.
+# Error while connecting to server
 
 ## **Recommended Steps**
 
-* [Set up firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules) to allow your client's IP address
+### **Intermittent connection errors**
+Causes of intermittent connection issues include server restart, high resource utilization on the server, and client timeouts. The following steps could help you resolve the issue:
+
+* Retry the connection
+* Check your server metrics to see if any resource is near 100% utilization. High utilization may lead to unavailable resources for a new connection.
+* Check your client's timeout settings
+* If the issue persists, see below
+
+### **Persistent connection errors**
+
+If connection issues last for more than a couple minutes, the root cause may be a more persistent issue. Persistent connection issues when connecting to Azure Databases for PostgreSQL can occur due to an incorrect firewall configuration, an incorrect connection string, an incorrect virtual network (VNet) configuration, missing permissions for the user that is trying to connect, and other reasons. Work through the recommended steps to ensure you are not hitting a misconfiguration issue.
+
+* The error "pg_hba.conf entry for host 'xxxx', user 'xxxx', database 'pxxxx', SSL..." indicates that a firewall rule is needed. [Set up firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules) to allow your client's IP address
 * If you are using VNets, ensure that the [service endpoints](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-portal) are correctly configured. Note that the Basic tier does not support VNet service endpoints.
 * Follow [connection recommendations](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries) on computers hosting your client programs
 * Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security)
 * Make sure the user you are connecting with has the appropriate permissions
+* Confirm that the username field correlates correctly the servername/hostname field
 
 ## **Recommended Documents**
 
