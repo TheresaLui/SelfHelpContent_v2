@@ -27,7 +27,7 @@ DNS name resolution is a multi-step process, which can fail for many reasons. Th
 * If you are using **custom DNS Servers** with in your virtual network, please make sure that these servers are forwarding DNS queries to Azure resolver (168.129.63.16) for private DNS zones hosted in Azure DNS.
 * DNS resolution against Azure DNS private zones from **PaaS applications** injected in a virtual network is not supported natively. To workaround this problem :-
 
-    * Deploy a custom DNS server (VM based) in the virtual network where you have injected the application.
-    * Configure the DNS server to forward traffic to 168.129.63.16 (Azure resolver)
-    * Go to the DNS server settings on the virtual network and enter the IP address of the DNS servers deployed by you.
-    * Execute a [Sync Network](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#managing-vnet-integration) operation on the injected PaaS application for the changes to take effect.
+  * Deploy a custom DNS server (VM based) in the virtual network where you have injected the application.
+  * Configure the DNS server to forward traffic to 168.129.63.16 (Azure resolver)
+  * Go to the DNS server settings on the virtual network and enter the IP address of the DNS servers deployed by you.
+  * Execute a [Sync Network](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#managing-vnet-integration) operation on the injected PaaS application for the changes to take effect.
