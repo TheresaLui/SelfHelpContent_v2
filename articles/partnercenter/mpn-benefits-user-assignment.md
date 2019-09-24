@@ -20,10 +20,10 @@
 # MPN - User assignment
 
 
-Resources providing knowledge on User assignment
+Resources providing knowledge on User Assignment.
 
 
 ## **Recommended Documents**
 
 * [Azure & Cloud products benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515206/azure-cloud-products-benefits-tab-for-mpn-partners-in-partner-center)
-* [Visual Studio Benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515204/visual-studio-subscriptions-benefits-tab-for-mpn-partners-in-partner-c )
+* [Visual Studio Benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515204/visual-studio-subscriptions-benefits-tab-for-mpn-partners-in-partner-c)
