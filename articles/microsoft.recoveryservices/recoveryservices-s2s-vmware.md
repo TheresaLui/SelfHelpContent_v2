@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-- [End-of-support announcement](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-secondary-disaster-recovery#end-of-support-announcement)<br>
+- [End-of-support announcement](https://docs.microsoft.com/azure/site-recovery/vmware-physical-secondary-disaster-recovery#end-of-support-announcement)<br>
 - [Scenario migration](https://docs.microsoft.com/azure/site-recovery/vmware-physical-secondary-disaster-recovery#scenario-migration)
 
 ## **Recommended Documents**
