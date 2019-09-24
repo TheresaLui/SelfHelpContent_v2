@@ -19,7 +19,7 @@
 
 # MPN - Missing Benefits
 
-Resources providing knowledge of  missing benefits
+Resources providing knowledge of missing benefits.
 
 ## **Recommended Documents**
 
