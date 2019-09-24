@@ -14,7 +14,9 @@
 # Scheduled Maintenance and Upgrades - Gen2 upgrade from Gen1
 
 ---
+
 {
+
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "SQL DW Gen2 upgrade from Gen1",
