@@ -92,6 +92,7 @@
                                         "value": "dont_know_answer",
                                         "text": "Don't know/None of these"
                                     }
+            }
         }
     ]
 }
