@@ -16,12 +16,12 @@
 
 # Site Recovery Hyper-V (VMM to Azure)/Replication Policy
 
-## **Recommended Steps**
+## **Recommended steps**
 
 * [Disaster recovery of on-premises Hyper-V VMs to Azure - Replication policy](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-tutorial#set-up-a-replication-policy)<br>
 * [Disaster recovery of on-premises Hyper-V VMs in VMM clouds to Azure - Replication policy](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial#set-up-a-replication-policy)
 
-## **Recommended  Documents**
+## **Recommended documents**
 
 * [Set up disaster recovery of on-premises Hyper-V VMs in VMM clouds to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial)</br>
 * [Set up disaster recovery of on-premises Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-tutorial)
