@@ -23,7 +23,3 @@ API Management is a way to create consistent and modern API gateways for existin
 
 - [Automatically scale an Azure API Management instance](https://docs.microsoft.com/azure/api-management/api-management-howto-autoscale)
 - [API Management pricing ](https://azure.microsoft.com/pricing/details/api-management)
-
-
-
-

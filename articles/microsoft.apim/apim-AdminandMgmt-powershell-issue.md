@@ -24,6 +24,3 @@ API Management is a way to create consistent and modern API gateways for existin
 - [Managing Azure API Management using Azure Automation](https://docs.microsoft.com/azure/api-management/automation-manage-api-management)
 - [Azure PowerShell samples for API Management](https://docs.microsoft.com/azure/api-management/powershell-samples)
 - [Troubleshooting Azure Resource Manager (ARM) PowerShell issues](https://blogs.msdn.microsoft.com/cloud_solution_architect/2016/02/24/troubleshooting-azure-resource-manager-arm-powershell-issues/)
-
-
-

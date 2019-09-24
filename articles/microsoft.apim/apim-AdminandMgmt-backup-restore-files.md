@@ -23,5 +23,3 @@ API Management is a way to create consistent and modern API gateways for existin
 
 - [How to implement disaster recovery using service backup and restore in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-disaster-recovery-backup-restore)
 - [Automating API Management Backup and Restore with Logic Apps](https://github.com/Azure/api-management-samples/tree/master/tutorials/automating-apim-backup-restore-with-logic-apps)
-
-
