@@ -19,12 +19,10 @@
 
 # MPN - Benefits expiry issue
 
-Resources providing knowledge of Benefits expiry issues
-
-
+Resources providing knowledge of Benefits expiry issues.
 
 ## **Recommended Documents**
 
 * [Benefits Overview – Learn more about benefits in Partner Center](https://support.microsoft.com/help/2966368/benefits-overview-in-partner-center-downloading-activating-software)
 * [When can you renew your membership and receive a new set of benefits](https://docs.microsoft.com/partner-center/renew-mpn-offers)
-* [Recently migrated? See what are the differences between PMC and Partner Center]( https://docs.microsoft.com/partner-center/move-pmc-pc-map)
+* [Recently migrated? See what are the differences between PMC and Partner Center](https://docs.microsoft.com/partner-center/move-pmc-pc-map)
