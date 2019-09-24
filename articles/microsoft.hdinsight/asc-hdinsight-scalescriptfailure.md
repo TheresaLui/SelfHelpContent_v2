@@ -10,17 +10,18 @@
     articleId="Hdi_ScaleFailure_SasKeyExpired"
     diagnosticScenario="HDInsightCustomizationInsight"
     selfHelpType="rca"
-    supportTopicIds="32629125, 32629126, 32636492"
+    supportTopicIds="32681537"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # We ran diagnostics on your resource and found an issue
-
+<!--issueDescription-->
 We noticed that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has been failing a scale up operation. The failure is due to persisted custom scripts that are inaccessible. The following scripts use an expired SAS key:
 
  <!--$ScriptUri-->[ScriptUri]<!--/$ScriptUri-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

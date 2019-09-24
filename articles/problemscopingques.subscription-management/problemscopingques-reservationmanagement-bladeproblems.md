@@ -15,7 +15,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [

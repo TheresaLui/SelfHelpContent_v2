@@ -10,15 +10,16 @@
     articleId="Hdi_Crud_ExceededDeploymentQuota"
     diagnosticScenario="HDInsightExceededDeploymentQuotaInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629125, 32629032, 32636444, 32636492"
+    supportTopicIds="32681543"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 You have reached the limit on the maximum number of deployments allowed per resource group. Current deployment quota is <!--$DeploymentQuota-->[DeploymentQuota]<!--/$DeploymentQuota-->. Please delete deployments that are no longer needed from the deployment history of resource group '<!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup-->' to resolve the issue. 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
