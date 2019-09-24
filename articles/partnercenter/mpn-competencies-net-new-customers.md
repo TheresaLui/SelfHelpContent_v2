@@ -19,7 +19,7 @@
 
 # MPN - Net new customers not reflecting in Partner Center
 
-Resources providing knowledge on Net new customers not reflecting in Partner Center
+Resources providing knowledge on Net new customers not reflecting in Partner Center.
 
 ## **Recommended Documents**
 
