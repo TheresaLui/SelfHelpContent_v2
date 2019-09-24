@@ -26,6 +26,7 @@ DNS name resolution is a multi-step process, which can fail for many reasons. Th
 * Ensure that you are using Fully Qualified Domain Name (FQDN) while querying the Azure DNS private zones. If you are using single label names please make sure that you have configured **correct DNS suffix** on your [Windows](https://docs.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-ddns#windows-clients) or [Linux](https://docs.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-ddns#linux-clients) virtual machines.
 * If you are using **custom DNS Servers** with in your virtual network, please make sure that these servers are forwarding DNS queries to Azure resolver (168.129.63.16) for private DNS zones hosted in Azure DNS.
 * DNS resolution against Azure DNS private zones from **PaaS applications** injected in a virtual network is not supported natively. To workaround this problem :-
+
     * Deploy a custom DNS server (VM based) in the virtual network where you have injected the application.
     * Configure the DNS server to forward traffic to 168.129.63.16 (Azure resolver)
     * Go to the DNS server settings on the virtual network and enter the IP address of the DNS servers deployed by you.
