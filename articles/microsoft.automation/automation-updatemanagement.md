@@ -84,7 +84,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Updating machines across different tenants**
 
-* If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
+* If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant).
 
 
 ## **Recommended Documents**
