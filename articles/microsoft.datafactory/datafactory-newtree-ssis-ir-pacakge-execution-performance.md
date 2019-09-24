@@ -8,7 +8,7 @@
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-performance.md"
 	displayOrder="15"
 	diagnosticScenario=""
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32680900"
 	resourceTags=""
 	productPesIds="15613"
