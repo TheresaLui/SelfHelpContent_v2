@@ -5,7 +5,7 @@
 	authors="lechen"
 	ms.author="lechen"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds=""
+	supportTopicIds="32681426"
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
