@@ -19,7 +19,7 @@
 
 # MPN - Benefits swap request
 
-Resources providing knowledge on Benefits swap request
+Resources providing knowledge on Benefits swap request.
 
 
 ## **Recommended Documents**
