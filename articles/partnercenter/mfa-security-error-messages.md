@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Partner Center MFA Security Error Messages"
-	description="Partner Center MFA Security Error Messages"
+	pageTitle="Getting started and troubleshooting Secure App Model"
+	description="Getting started and troubleshooting Secure App Model"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -17,7 +17,7 @@
 	cloudEnvironments="public"
 />
 
-# Implement partner security requirements to safeguard your business
+# Getting started and troubleshooting Secure App Model
 
 Resource materials related to implementing partner security requirements immediately to safeguard your business. 
 

@@ -3,8 +3,8 @@
     description="TSG / How-to for know scenario"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="ramakoni1"
-    ms.author="ramakoni"
+    authors="deeptivu"
+    ms.author="deeptivu"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32636471"
@@ -21,3 +21,4 @@
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [HDInsight Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)
 * [Where are Kafka logs on HDInsight cluster](https://hdinsight.github.io/kafka/kafka-logs.html)
+* [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
