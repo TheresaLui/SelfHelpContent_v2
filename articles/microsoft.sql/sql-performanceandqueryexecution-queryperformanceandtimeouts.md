@@ -19,3 +19,4 @@
 ## **Recommended Steps**
 
 * Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. The following reference walks through how to address both troubleshooting paths: [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/)
+* Another very common reason for poor performance is the lack of maintenance tasks to keep statistics up to date and preventing index fragmentation. You can use the solution discussed in the following blog to prevent this from happening:[How to maintain Azure SQL Indexes and Statistics] (https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-maintain-Azure-SQL-Indexes-and-Statistics/ba-p/368787)
