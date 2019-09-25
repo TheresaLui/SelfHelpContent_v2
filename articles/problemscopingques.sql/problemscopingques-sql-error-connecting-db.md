@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Error When Connecting to my Database",
     "fileAttachmentHint": "",
     "diagnosticCard": {

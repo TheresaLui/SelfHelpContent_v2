@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Resource Health Scoping Questions",
     "fileAttachmentHint": "",
     "formElements": [
