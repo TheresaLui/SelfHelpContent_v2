@@ -80,10 +80,10 @@
             "order": 3000,
             "controlType": "dropdown",
             "displayLabel": "Please provide the database name for which you are creating a support ticket.",
-            "required": true,
+            "required": false,
             "infoBalloonText": "Which of these databases are you filing a ticket for?",
             "dynamicDropdownOptions": {
-                        "uri": "{servername}/databases?api-version=2017-10-01-preview",
+                        "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Sql/servers/{serverName}/databases?api-version=2017-10-01-preview",
                         "jTokenPath": "value",
                         "textProperty": "properties.description",
                         "valueProperty": "id",
