@@ -13,8 +13,8 @@
 # CosmosDB SQL Query Issue
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB SQL Query Issue",
     "fileAttachmentHint": "",
     "formElements": [
