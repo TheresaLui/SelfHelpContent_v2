@@ -16,12 +16,12 @@
 
 # Site Recovery (VMM to Azure)/Add register VMM server
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Setup a VMM server - Set up the source environment](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial#set-up-the-source-environment)<br>
 * [Install the provider on the VMM server](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial#install-the-provider-on-the-vmm-server)<br>
 * [Install the Recovery Services agent on Hyper-V hosts](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial#install-the-recovery-services-agent-on-hyper-v-hosts)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Set up disaster recovery of on-premises Hyper-V VMs in VMM clouds to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial#set-up-the-source-environment)<br>
+* [Set up disaster recovery of on-premises Hyper-V VMs in VMM clouds to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial#set-up-the-source-environment)<br>
