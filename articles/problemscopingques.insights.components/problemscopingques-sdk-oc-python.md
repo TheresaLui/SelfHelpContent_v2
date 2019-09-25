@@ -28,7 +28,7 @@
 			"id": "dependencies_version",
 			"order": 2,
 			"controlType": "multilinetextbox",
-			"displayLabel": "List the version numbers of relevant installed dependencies.",
+			"displayLabel": "List the version numbers of relevant installed dependencies and integrations.",
 			"required": false
 		},{
 			"id": "instrumentation_code",
