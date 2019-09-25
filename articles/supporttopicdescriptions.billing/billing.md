@@ -89,7 +89,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "5fe819a9-d7f9-5f17-1ed8-ddf099ff2542",
-      "shortDescription": "Questions on how to setup collection of memory data from Azure and AWS in Cloudyn as this isn’t on by default ",
+      "shortDescription": "Questions on how to setup collection of memory data from Azure and AWS in Cloudyn as this isn’t on by default",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
