@@ -25,7 +25,7 @@ The auto-recovery action was triggered by our Azure monitoring systems that dete
 
 Our core platform engineers and are working on a fix for the platform bug that will be deployed to all affected nodes. We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>
 
-To check if SLA was violated please refer to article "https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_8/.<br>
+To check if SLA was violated please refer to article https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_8/.<br>
 
 ## **Recommended Documents**
 
