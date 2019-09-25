@@ -13,8 +13,8 @@
 # CosmosDB Backup and restore Info
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB Backup and Restore Info",
     "fileAttachmentHint": "",
     "formElements": [
