@@ -28,40 +28,17 @@ There can be many possible root causes:
 
 **1. Ambari Agent Not Started**
 
-* You can connect to Ambari service using Secure Shell (SSH):<br>
-
-	`ssh <clustername>-ssh.azurehdinsight.net`
-
-* Check if Ambari-agent is running:<br>
-
-	`service ambari-agent status`
-
-* If not, check if failover controller services are running:<br>
-
-	`ps -ef | grep failover`
-
-* If failover controller services are not running, check hdinsight-agent log:<br>
-
-	`/var/log/hdinsight-agent/hdinsight-agent.out`
+* You can connect to Ambari service using Secure Shell (SSH): `ssh <clustername>-ssh.azurehdinsight.net`
+* Check if Ambari-agent is running: `service ambari-agent status`
+* If not, check if failover controller services are running: `ps -ef | grep failover`
+* If failover controller services are not running, check hdinsight-agent log: `/var/log/hdinsight-agent/hdinsight-agent.out`
 
 **2. Ambari agent has high percentage CPU utilization**
 
-* Run the following command to find process id of Ambari-agent:<br>
-
-	`ps -ef | grep ambari_agent`
-
-* Then run the following command to show CPU utilization:<br>
-
-	`top -p <ambari-agent-pid>`
-
-* Restart the Ambari-Agent if CPU utilization is high:<br>
-
-	`service ambari-agent restart`
-
-* You can also try killing the Ambari Agent process and starting it again:<br>
-
-	`kill -9 <ambari-agent-pid>`<BR>
-	`service ambari-agent start`
+* Run the following command to find process id of Ambari-agent: `ps -ef | grep ambari_agent`
+* Then run the following command to show CPU utilization: `top -p <ambari-agent-pid>`
+* Restart the Ambari-Agent if CPU utilization is high: `service ambari-agent restart`
+* You can also try killing the Ambari Agent process and starting it again: `kill -9 <ambari-agent-pid>`, `service ambari-agent start`
 
 **3. Networking Issue**
 
@@ -69,4 +46,4 @@ There can be many possible root causes:
 
 ## **Recommended Documents**
 
-* [Ambari Agent Heartbeat Lost Issue](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
+* [Apache Ambari heartbeat issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues)
