@@ -13,8 +13,8 @@
 # CosmosDB Backup and restore Info
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB Backup and Restore Info",
     "fileAttachmentHint": "",
     "formElements": [
@@ -111,8 +111,8 @@
                     "text": "To recover from accidental deletion or updation of data in a Cosmos DB Collection/Container"
                 },
                 {
-                    "value": "Other (describe below in the description)",
-                    "text": "Other (mention below in the description)"
+                    "value": "dont_know_answer",
+                    "text": "(describe below in the description)"
                 }
             ],
             "required": true

@@ -27,6 +27,17 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to network issues within the Private Cloud VMs">
+
 * [Use VLAN Information to Set Up a Distributed Port Group in vSphere](https://docs.microsoft.com/azure/vmware-cloudsimple/create-vlan-subnet#use-vlan-information-to-set-up-a-distributed-port-group-in-vsphere)<br>
+</span>
+
+<span title="Problems related to network issues within the Private Cloud VMs">
+
 * [Firewall Rules](https://docs.microsoft.com/azure/vmware-cloudsimple/firewall#firewall-rules)<br>
+</span>
+
+<span title="Problems related to network issues within the Private Cloud VMs">
+
 * [VLANs/Subnets](https://docs.microsoft.com/azure/vmware-cloudsimple/create-vlan-subnet)<br>
+</span>

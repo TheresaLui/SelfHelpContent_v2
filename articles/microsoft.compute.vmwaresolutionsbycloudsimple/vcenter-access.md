@@ -30,5 +30,12 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to accessing vCenter on my Private Cloud">
+
 * [Site-to-Site VPN](https://docs.microsoft.com/azure/vmware-cloudsimple/cloudsimple-vpn-gateways#site-to-site-vpn-gateway)<br>
-* [Login to vCenter](https://docs.microsoft.com/azure/vmware-cloudsimple/vmware-components#vcenter-server-appliance)
+</span>
+
+<span title="Problems related to accessing vCenter on my Private Cloud">
+
+* [Login to vCenter](https://docs.microsoft.com/azure/vmware-cloudsimple/vmware-components#vcenter-server-appliance)<br>
+</span>

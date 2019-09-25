@@ -13,8 +13,8 @@
 # CosmosDB SDK Latency Issues
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB SDK Latency Issues",
     "fileAttachmentHint": "Please (zip) attach a .csv with extra request diagnostics or query metrics if available, as well additional debugging info like a repro.",
      "formElements": [

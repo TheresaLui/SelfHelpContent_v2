@@ -13,8 +13,8 @@
 # CosmosDB SDK Other Issues
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB SDK Other Issues",
     "fileAttachmentHint": "Attach (zip) file of sample code",
     "formElements": [

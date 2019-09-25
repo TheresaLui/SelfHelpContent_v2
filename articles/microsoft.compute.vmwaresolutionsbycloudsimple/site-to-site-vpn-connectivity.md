@@ -28,4 +28,7 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to Site-to-Site VPN between on-premises and Private Cloud network, routing issues, new routes configuration">
+
 * [Site-to-Site VPN](https://docs.microsoft.com/azure/vmware-cloudsimple/vpn-gateway#set-up-a-site-to-site-vpn-gateway)<br>
+</span>
