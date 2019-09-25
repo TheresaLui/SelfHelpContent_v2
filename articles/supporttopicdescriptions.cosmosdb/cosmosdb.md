@@ -42,7 +42,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "2d059d23-da2d-d843-c4fa-2c7fc54f358a",
-      "shortDescription": "Provision Azure Cosmos DB resource or Update Azure Cosmos dB resource using Azure CLI or Azure PowerShell ",
+      "shortDescription": "Provision Azure Cosmos DB resource or update Azure Cosmos DB resource using Azure CLI or Azure PowerShell ",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -58,7 +58,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "ea8df32b-1ece-7705-e7c0-9e8694fe6fa4",
-      "shortDescription": "Configure or change firewall rules or add Service Endpoints through Virtual Network configuration",
+      "shortDescription": "Configure or change firewall rules or add service endpoints through virtual network configuration",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -66,7 +66,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "1febed04-4d8a-704e-85f4-30445a96fc00",
-      "shortDescription": "Configure Azure Cosmos DB for Geo Replication by adding/removing Region, or adding/updating Multi write Regions  ",
+      "shortDescription": "Configure Azure Cosmos DB for Geo Replication by adding/removing region, or adding/updating multi-write regions",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -74,7 +74,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "bdcd3fa3-04a3-032b-ee4a-4db844e124f7",
-      "shortDescription": "Provision or Deploy a new Azure Cosmos DB  or changing an existing Azure Cosmos DB configuration",
+      "shortDescription": "Provision or deploy a new Azure Cosmos DB or change an existing Azure Cosmos DB configuration",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -90,7 +90,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "41b38840-391d-ef79-682f-687789b9b13a",
-      "shortDescription": "Provision Azure Cosmos DB via CLI/ARM, Configure Security, setup multiple regions and Multi write Regions",
+      "shortDescription": "Provision Azure Cosmos DB via CLI/ARM, configure security, setup multiple regions and multi-write regions",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -106,7 +106,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "41bc06c8-9fce-9aec-143d-95c138a89c3c",
-      "shortDescription": "Any other issues with Backup and Restore",
+      "shortDescription": "Any other issues with backup and restore",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -114,7 +114,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "5d796926-9097-ca55-3e36-5389266c8a14",
-      "shortDescription": "Request to perform a restore Drill or Restore a Deleted Azure Cosmos DB Account or Database or Containers",
+      "shortDescription": "Request to perform a restore drill or restore a deleted Azure Cosmos DB Account or database or containers",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -122,7 +122,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "3009d4df-08f1-a526-d857-bfe9c9ed97da",
-      "shortDescription": "Request to restore Azure Cosmos DB Account or Database or Containers",
+      "shortDescription": "Request to restore Azure Cosmos DB Account or database or containers",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -138,7 +138,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "389a9bae-81cf-352e-9003-6a973aca9659",
-      "shortDescription": "Question or reason for high charges with Azure Cosmos DB Database or Containers",
+      "shortDescription": "Question or reason for high charges with Azure Cosmos DB database or containers",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -146,7 +146,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "be82ebf2-34d5-fc14-1278-0ec0e6196147",
-      "shortDescription": "Procedure to calculate RU or why huge RU charges in the bill",
+      "shortDescription": "Procedure to calculate RU or questions on why huge RU charges are in the bill",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -154,7 +154,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "31807073-5773-9236-fccb-115644900de7",
-      "shortDescription": "Question related to an invoice received for Azure Cosmos DB usage or reason for high charges with Azure Cosmos DB Database or Containers",
+      "shortDescription": "Question related to an invoice received for Azure Cosmos DB usage or reason for high charges with Azure Cosmos DB database or containers",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -194,7 +194,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "ecd5f3ef-7d7d-641f-1885-8c1193f16412",
-      "shortDescription": "Cassandra query is taking long time to complete or costing high RU charges or  receiving Request rate large errors",
+      "shortDescription": "Cassandra query is taking long time to complete or resulting in high RU charges or receiving large request rate errors",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -218,7 +218,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "0daa93f2-43d0-e1b5-2c5f-7f1b0470e7d2",
-      "shortDescription": "How to with Azure Cosmos DB Cassandra API or Question regarding Migration or  performance  or observing unexpected behaviors",
+      "shortDescription": "How to with Azure Cosmos DB Cassandra API or questions regarding migration or performance or observing unexpected behaviors",
       "longDescription": "",
       "category": "APIs",
       "searchTags": "",
@@ -242,7 +242,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "ec8fea26-f3c8-7b22-c2bd-eb2c84026764",
-      "shortDescription": "Data is not returned with change feed, Change feed usage and  using Change Feed with Azure Functions",
+      "shortDescription": "Data is not returned with change feed, change feed usage and using change feed with Azure Functions",
       "longDescription": "",
       "category": "SDK",
       "searchTags": "",
@@ -250,7 +250,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "819ec30a-db03-7ee0-192e-c61afed9975d",
-      "shortDescription": "How to create Stored Procedure, requirement for using Storage Procedure, Stored Procedure is not behaving as expected",
+      "shortDescription": "How to create Stored Procedures, requirement for using Stored Procedures or if Stored Procedures are not behaving as expected",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -258,7 +258,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "4d2e2c03-38ca-6f87-4bad-7a6b35fa9da7",
-      "shortDescription": "Query is taking long time to complete, costing high RU Charges, Query is timing out, Query is failing with exceptions",
+      "shortDescription": "Query is taking long time to complete or resulting in high RU Charges or timing out or failing with exceptions",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -386,7 +386,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "9efa47ff-dd59-a3de-768f-c480e2e37534",
-      "shortDescription": "Azure Cosmos DB Gremlin API request are failing with Unsupported command or what command are supported in Cosmos DB Cassandra API",
+      "shortDescription": "Azure Cosmos DB Gremlin API requests are failing with unsupported command or questions on what commands are supported in Cosmos DB Cassandra API",
       "longDescription": "",
       "category": "Supported Feature",
       "searchTags": "",
@@ -394,7 +394,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "743771fb-e776-bcc2-07c9-86cf70de4c31",
-      "shortDescription": "Question or issue with System Properties with Azure Cosmos DB Gremlin API",
+      "shortDescription": "Question or issues with system properties with Azure Cosmos DB Gremlin API",
       "longDescription": "",
       "category": "Supported Feature",
       "searchTags": "",
@@ -410,7 +410,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "4744a7ff-ba95-141e-26c5-03a1bb56d477",
-      "shortDescription": "Azure Cosmos DB Gremlin API queries are taking long time/timing out, High RU charges or receiving Request Rate too Large",
+      "shortDescription": "Azure Cosmos DB Gremlin API queries are taking long time/timing out, High RU charges or receiving request rate too large exceptions",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -426,7 +426,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "e403071c-6daa-8737-4e64-1c2ab7fd9192",
-      "shortDescription": "Issues or questions related to Limits enforced by Azure Cosmos DB Gremlin",
+      "shortDescription": "Issues or questions related to limits enforced by Azure Cosmos DB Gremlin",
       "longDescription": "",
       "category": "Limits",
       "searchTags": "",
@@ -458,7 +458,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "5df7f465-11f0-0c98-327a-48dd9e72b1c1",
-      "shortDescription": "How to with Azure Cosmos DB Graph API or Migration failures or  performance issues or observing unexpected behaviors",
+      "shortDescription": "How to with Azure Cosmos DB Graph API or migration failures or performance issues or observing unexpected behaviors",
       "longDescription": "",
       "category": "APIs",
       "searchTags": "",
@@ -466,7 +466,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "1d77dbfb-e2ae-5fbd-27d8-f746218b96c7",
-      "shortDescription": "Azure Cosmos DB Resource Limits such as Storage, Container Item size or any exception showing limits reached.",
+      "shortDescription": "Azure Cosmos DB Resource Limits such as storage, container item size or any exception showing limits reached",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -482,7 +482,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "92d06d05-1c51-0d75-f4dd-161cbcc2b25f",
-      "shortDescription": "CQL command request are failing with Unsupported command or what the command are supported in Azure Cosmos DB Cassandra API",
+      "shortDescription": "CQL command request are failing with unsupported command errors or questions on what commands are supported in Azure Cosmos DB Cassandra API",
       "longDescription": "",
       "category": "Supported Feature",
       "searchTags": "",
@@ -498,7 +498,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "a41d3595-83d1-2491-c090-42e4e344c157",
-      "shortDescription": "Azure Cosmos dB Mongo API Aggregation requests are behaving unexpectedly or operators supported by aggregation pipeline",
+      "shortDescription": "Azure Cosmos DB Mongo API Aggregation requests are behaving unexpectedly or operators supported by aggregation pipeline",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -506,7 +506,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "50beaad9-fa85-5833-657c-bd1eba874cf1",
-      "shortDescription": "Enable Persistent Mongo Cursor with Cosmos DB Mongo API or requests are failing with Cursor not found exceptions ",
+      "shortDescription": "Enable persistent Mongo cursor with Cosmos DB Mongo API or requests are failing with cursor not found exceptions ",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -522,7 +522,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "e12caa53-cbdc-2a4d-b501-6864ba063805",
-      "shortDescription": "Cassandra query is taking long time to complete or costing high RU charges or  receiving Request rate large errors",
+      "shortDescription": "Cassandra query is taking long time to complete or costing high RU charges or receiving request rate too large errors",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -546,7 +546,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "866600f1-7ecf-985a-3e2f-254618877215",
-      "shortDescription": "How to with Azure Cosmos DB Mongo API or Migration failing or  performance issues or observing unexpected behaviors",
+      "shortDescription": "How to with Azure Cosmos DB Mongo API or Migration failing or performance issues or observing unexpected behaviors",
       "longDescription": "",
       "category": "APIs",
       "searchTags": "",
@@ -554,7 +554,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "88540c19-1390-a69d-d119-5f27e7a97a2b",
-      "shortDescription": "Any other issue with Portal , Metrics or Alerts",
+      "shortDescription": "Any other issue with Portal, metrics or alerts",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -586,7 +586,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "06381622-6ea9-ab75-3b2c-86567db997ef",
-      "shortDescription": "How manage  Azure Cosmos DB or Update Azure Cosmos DB Configuration or Monitor Azure Cosmos DB through Azure Portal",
+      "shortDescription": "How to manage Azure Cosmos DB or update Azure Cosmos DB configuration or monitor Azure Cosmos DB through Azure Portal",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -594,7 +594,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "499fe381-76ad-5796-05e8-44274fb41403",
-      "shortDescription": "How manage  Azure Cosmos DB or Update Azure Cosmos DB Configuration or Monitor Azure Cosmos DB through Azure Portal",
+      "shortDescription": "How manage  Azure Cosmos DB or update Azure Cosmos DB configuration or monitor Azure Cosmos DB through Azure Portal",
       "longDescription": "",
       "category": "APIs",
       "searchTags": "",
@@ -642,7 +642,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "5b8e724e-fd81-4ce2-e235-5affbf6cd9f7",
-      "shortDescription": "How to use Azure Cosmos DB SDKs or Question regarding performance  or observing unexpected behaviours",
+      "shortDescription": "How to use Azure Cosmos DB SDKs or questions regarding performance or observing unexpected behaviours",
       "longDescription": "",
       "category": "APIs",
       "searchTags": "",
@@ -658,7 +658,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "9a66119d-6c23-5910-a3b5-73ab6ee50728",
-      "shortDescription": "Configure or change firewall rules or add Service Endpoints through Virtual Network configuration",
+      "shortDescription": "Configure or change firewall rules or add service endpoints through Virtual Network configuration",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -666,7 +666,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "538317ca-7bb8-2f96-a06d-15b00e1f8691",
-      "shortDescription": "How to Restrict/grant access to users, why who changed the setting or access the resource",
+      "shortDescription": "How to restrict/grant access to users, permissions on changing the settings or accessing the resource",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -674,7 +674,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "49494131-3cd2-225b-d4ac-1826e68c554c",
-      "shortDescription": "Questions on Cosmos DB Certification and compliance",
+      "shortDescription": "Questions on Cosmos DB certification and compliance",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -698,7 +698,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "b5c539ef-dc6f-4223-733d-1e322f7e5ceb",
-      "shortDescription": "RU changes is taking very long time. The change is been running for hours",
+      "shortDescription": "RU changes is taking very long time. The change has been running for hours",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -706,7 +706,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "30f60402-6835-96d7-7c66-6ebfddb9c858",
-      "shortDescription": "Question or issue in setting up Shared Throughput",
+      "shortDescription": "Question or issue in setting up shared throughput",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -714,7 +714,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
-      "shortDescription": "Unable to reduce/Increase the RU beyond a limit, why the Minimum are is different between identical collections.",
+      "shortDescription": "Unable to reduce/increase the RU beyond a limit, why the minimum is different between identical collections.",
       "longDescription": "",
       "category": "Management",
       "searchTags": "",
@@ -722,7 +722,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "7d91ee0e-0c06-d5c8-c1b1-4c1eac14f382",
-      "shortDescription": "Observing high Request rate too large even after provisioning high RU",
+      "shortDescription": "Observing high request rate too large even after provisioning high RU",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -754,7 +754,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "00a44a3f-4897-2c1f-2f33-2e8d96b99d44",
-      "shortDescription": "How to create/manage triggers or  observing unexpected behavior or question on triggers",
+      "shortDescription": "How to create/manage triggers or observing unexpected behavior or question on triggers",
       "longDescription": "",
       "category": "APIs",
       "searchTags": "",
