@@ -74,7 +74,26 @@
     			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
 		    	"required": false,
 			    "visibility": true
-	    }
+	    },
+        {
+            "id": "database_name",
+            "order": 3000,
+            "controlType": "dropdown",
+            "displayLabel": "Please provide the database name for which you are creating a support ticket.",
+            "required": true,
+            "infoBalloonText": "Which of these databases are you filing a ticket for?",
+            "dynamicDropdownOptions": {
+                        "uri": "{servername}/databases?api-version=2017-10-01-preview",
+                        "jTokenPath": "value",
+                        "textProperty": "properties.description",
+                        "valueProperty": "id",
+                        "textPropertyRegex": null,
+                        "defaultDropdownOptions": {
+                                        "value": "dont_know_answer",
+                                        "text": "Don't know/None of these"
+                                    }
+            }
+        }
     ]
 }
 ---

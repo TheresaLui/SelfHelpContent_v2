@@ -26,6 +26,7 @@
 
 * Please review the [Change Tracking troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/change-tracking#records-not-showing-windows)
 * Records are not collected immediately. See [Data Collection Details](https://docs.microsoft.com/azure/automation/change-tracking#change-tracking-data-collection-details)
+* Windows client SKUs are not supported. Please see the [Supported Operating Systems list](https://docs.microsoft.com/azure/automation/change-tracking#supported-windows-operating-systems)
 
 ### I can't see Files tracked
 
