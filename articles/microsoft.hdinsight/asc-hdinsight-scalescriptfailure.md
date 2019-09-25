@@ -31,4 +31,5 @@ In order to scale up, the persisted script needs to be demoted so it does not ru
 1. If you want to use a different storage account with a SAS key, then the script needs to be added again with a new SAS key. Keep in mind that this can fail again if the cluster is scaled up after the key expires.
 
 ## **Recommended Documents**
-[Storage shared access signatures (SAS) overview](https://docs.microsoft.com/azure/storage/common/storage-sas-overview)
+
+* [Storage shared access signatures (SAS) overview](https://docs.microsoft.com/azure/storage/common/storage-sas-overview)
