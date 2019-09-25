@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+<span title="Problems related to NSX on my Private Cloud">
+
 * Check that the distributed logical router (DLR) is created for the user defined route (UDR)
 * Check that the DLR internal interface is attached to source subnet that needs UDR
 * Check that the DLR **internal** interface's IP address and subnet prefix length is the same as the source subnet that needs UDR
@@ -32,3 +34,5 @@
 * Check that the Source/Destination virtual machine IP, subnet mask and Default Gateway are configured correctly
 * Check if the virtual machine's OS Firewall rules block the traffic
 * Check that the virtual appliance has IP forwarding enabled or has proper routes
+
+</span>
