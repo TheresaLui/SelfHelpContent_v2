@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-MSI-keyvault"
+	articleId="problemscopingques-api-error"
 	pageTitle="API Management APIs returning Other Errors (400, 500, 503, etc.)"
 	description="API Management APIs returning Other Errors (400, 500, 503, etc.)"
 	supportTopicIds="32632391"
