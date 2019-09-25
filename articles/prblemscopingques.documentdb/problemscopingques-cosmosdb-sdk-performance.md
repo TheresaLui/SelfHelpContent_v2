@@ -13,8 +13,8 @@
 # CosmosDB SDK Performance Issues
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB SDK Performance Issues",
     "fileAttachmentHint": "Please attach a memory dump, netstat information, and CPU logs (zip file)",
      "formElements": [

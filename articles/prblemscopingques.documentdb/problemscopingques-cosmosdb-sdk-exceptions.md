@@ -13,8 +13,8 @@
 # CosmosDB SDK Exception Issues
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB SDK Exception Issues",
     "fileAttachmentHint": "Please attach at least 20 stack traces wtih the exception message in a single flat text file.",
     "formElements": [
