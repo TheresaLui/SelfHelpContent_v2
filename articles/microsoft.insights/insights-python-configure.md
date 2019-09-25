@@ -30,7 +30,7 @@ Follow [these instructions](https://docs.microsoft.com/azure/azure-monitor/app/o
 ### Tracing
 
 1. You may specify a `sampler` as part of your `Tracer` configuration. If no explicit sampler is provided, the [ProbabilitySampler will be used by default](https://github.com/census-instrumentation/opencensus-python/blob/2457a87165bbe3951ae48a2a56c2177d7f277be2/opencensus/trace/tracer.py#L52). The `ProbabilitySampler` would use a [rate of 1/10000 by default](https://github.com/census-instrumentation/opencensus-python/blob/2457a87165bbe3951ae48a2a56c2177d7f277be2/opencensus/trace/samplers/__init__.py#L16), meaning one out of every 10000 requests will be sent to Application Insights. If you want to specify a sampling rate, see below.
-2. When specifiying a sampler, make sure your `Tracer` specifies a sampler with a sampling rate between 0.0 and 1.0 inclusive. A sampling rate of 1.0 represents 100%, meaning all of your requests will be sent as telemetry to Application Insights:
+2. When specifying a sampler, make sure your `Tracer` specifies a sampler with a sampling rate between 0.0 and 1.0 inclusive. A sampling rate of 1.0 represents 100%, meaning all of your requests will be sent as telemetry to Application Insights:
 
 ```
 tracer = Tracer(
