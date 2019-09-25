@@ -37,5 +37,5 @@
 
 <span title="Problems related to accessing vCenter on my Private Cloud">
 
-* [Login to vCenter](https://docs.microsoft.com/azure/vmware-cloudsimple/vmware-components#vcenter-server-appliance)
+* [Login to vCenter](https://docs.microsoft.com/azure/vmware-cloudsimple/vmware-components#vcenter-server-appliance)<br>
 </span>
