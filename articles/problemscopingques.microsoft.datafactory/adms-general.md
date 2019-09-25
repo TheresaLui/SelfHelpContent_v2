@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Azure Data Movement IR issue info"
-	description="Scoping questions to gather Azure Data Movement IR issue information"
-	authors="chez-charlie"
-	ms.author="chez"
+	pageTitle="Azure Data Movement general issue info"
+	description="Scoping questions to gather Azure Data Movement general issue information"
+	authors="sheldonfeng"
+	ms.author="shelfeng"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629536, 32629537, 32629541, 32637155"
+    supportTopicIds="32629431, 32637153, 32629540, 32680904, 32680905, 32680906"
 	productPesIds="15613"
 	cloudEnvironments="public"
 	schemaVersion="1"
-    articleId="c39fcac9-2658-490f-9888-e78d2b526dee"
+    articleId="add0db11-c89e-4110-8cee-bba530732c9d"
 />
 
-# Azure Data Movement Integration Runtime Issue
+# Azure Data Movement Issue
 
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Azure Data Movement IR issue",
+    "title": "Azure Data Movement general issue info",
     "fileAttachmentHint": "Please attach JSON code for dataset, linked service and screen shots to help us triage your problem faster",
     "formElements": [
         {
@@ -44,36 +44,44 @@
             "required": false
         },
         {
-            "id": "sample_run_ids",
+            "id": "ir_type",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Which type of integration runtime are you using?",
+            "watermarkText": "Choose an IR type",
+            "dropdownOptions": [
+                {
+                    "value": "Azure IR",
+                    "text": "Azure IR"
+                },
+                {
+                    "value": "Self-hosted IR",
+                    "text": "Self-hosted IR"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "sample_run_ids",
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
             "required": false
         },
         {
-            "id": "factory_name",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Name of the data factory",
-            "required": false
-        },
-        {
-            "id": "ir_name",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Name of the IR",
-            "required": false
-        },
-        {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 7,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
