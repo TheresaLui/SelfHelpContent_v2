@@ -69,4 +69,4 @@ There can be many possible root causes:
 
 ## **Recommended Documents**
 
-* [Ambari Agent Heartbeat Lost Issue](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
+* [Apache Ambari heartbeat issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues)
