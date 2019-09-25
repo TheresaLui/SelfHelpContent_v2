@@ -25,7 +25,7 @@ We determined that the network security group associated with the HDInsight clus
 ## **Recommended Steps**
 
 * Restricting outbound access is not supported. Please remove or update the following rules to allow outbound access from the HDInsight cluster.
-* Configure outbound network traffic for Azure HDInsight clusters using Firewall [Preview] (https://docs.microsoft.com/azure/hdinsight/hdinsight-restrict-outbound-traffic?view=aspnetcore-1.1)
+* Configure outbound network traffic for Azure HDInsight clusters using Firewall [Preview](https://docs.microsoft.com/azure/hdinsight/hdinsight-restrict-outbound-traffic)
 
 ## **Recommended Documents** 
 
