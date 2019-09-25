@@ -25,7 +25,18 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true
+            "required": true,
+            "hints": [
+                {
+                    "text": "Are you using ADAL?"
+                },
+                {
+                    "text": "Is this a problem managing the App in the Portal?"
+                },
+                {
+                    "text": "Are you configuring your application for authentication\\authorization using the Portal configuration in Azure App Service?"
+                }
+            ]
         },
         {
 			"id": "2",

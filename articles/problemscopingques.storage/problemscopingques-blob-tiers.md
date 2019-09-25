@@ -17,36 +17,20 @@
     "resourceRequired": true,
     "title": "Blob tiers - Hot, Cool, Archive scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Why can I not set tiering on my blobs?",
+        "description": "Our blob tier troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please provide a sample blob path with this issue and ensure that it is in the approved format."
+    },
     "formElements": [
-        {
-            "id": "blob_type",
-            "order": 1,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Type of blob(s) with tiering issues",
-            "watermarkText": "Blob type(s)",
-            "dropdownOptions": [
-                {
-                    "value": "block_blob",
-                    "text": "Block Blob(s)"
-                },
-                {
-                    "value": "append_blob",
-                    "text": "Append Blob(s)"
-                },
-                {
-                    "value": "page_blob",
-                    "text": "Page Blob(s)"
-                }
-            ],
-            "required": false
-        },
         {
             "id": "blob_path",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Blob path",
-            "watermarkText": "Sample blob path with tiering issues",
-            "required": false
+            "displayLabel": "Sample blob path with tiering issues",
+            "watermarkText": "'ContainerName/.../BlobName'",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
