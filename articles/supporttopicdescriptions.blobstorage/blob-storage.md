@@ -124,7 +124,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "6e4c12a2-280e-9cb5-91e5-01e8d0482c44",
-      "shortDescription": "Setup a Custom Domain for your storage account to give it a more friendly name",
+      "shortDescription": "Setup a custom domain for your storage account to give it a more friendly name",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -180,7 +180,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "aa5a1089-4ea5-40af-94bd-8b1023eefb7f",
-      "shortDescription": "Issues with Soft delete for blobs which enables data recovery from accidental deletion or overwrites",
+      "shortDescription": "Issues with soft delete for blobs which enables data recovery from accidental deletion or overwrites",
       "category": "Deletion and Recovery Issues",
       "searchTags": "soft delete,data recovery,",
       "useInDiagnoseAndSolve": ""
@@ -348,7 +348,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "31f75cc8-4f85-a0b6-8fde-8736cc0100a5",
-      "shortDescription": "Enable Storage analytics for in depth metrics and charts to analyze performance and trends on the Storage account",
+      "shortDescription": "Enable storage analytics for in depth metrics and charts to analyze performance and trends on the storage account",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -397,7 +397,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "b2dd4a60-5fcc-d82d-6f31-0bee7cd81dc3",
-      "shortDescription": "Issues setting up Static website, configuring it with Custom Domain or enabling CDN with Static website",
+      "shortDescription": "Issues setting up Static website, configuring it with Custom Domain or enabling CDN with static website",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
