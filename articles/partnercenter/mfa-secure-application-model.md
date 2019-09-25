@@ -35,6 +35,6 @@ Resource materials related to implementing partner security requirements immedia
 * [Partner security requirements portal](https://partner.microsoft.com/resources/collection/partner-security-requirements)
 * [Partner Security Requirements](https://docs.microsoft.com/partner-center/partner-security-requirements)
 * [Partner Security Application Model Guide](https://assetsprod.microsoft.com/mpn/secure-application-model-guide.pdf)
-* [Partner Security Requirements FAQ](https://assetsprod.microsoft.com/security-requirements-faq.pdf)
+* [Partner Security Requirements FAQ](https://docs.microsoft.com/partner-center/partner-security-requirements-faq)
 * [Enabling the Secure Application Model framework](https://docs.microsoft.com/partner-center/develop/enable-secure-app-model)
 * [CSP Partner Application Overview](https://assetsprod.microsoft.com/mpn/csp-partner-application-overview.pdf)
