@@ -19,7 +19,7 @@
 # Perfinsights Diagnostics Tool is not installed
 
 <!--issueDescription-->
-**Do you know Perfinsights tool could help you diagnose key performance issues on this VM?**
+Do you know Perfinsights tool could help you diagnose key performance issues on this VM?
 
 We have detected that Perfinsights is not installed on this VM.
 
