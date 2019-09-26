@@ -19,7 +19,9 @@
 # Perfinsights Diagnostics Tool is not installed
 
 <!--issueDescription-->
-**Do you know Perfinsights tool could help you diagnose key performance issues on this VM?** We have detected that Perfinsights is not installed on **<!--$vmname-->[vmname]<!--/$vmname-->**.
+**Do you know Perfinsights tool could help you diagnose key performance issues on this VM?**
+
+We have detected that Perfinsights is not installed on - <!--$vmname-->[vmname]<!--/$vmname-->
 
 Perfinsights is a diagnostics tool which can help you analyze operating system level metrics such as:
 
@@ -31,4 +33,4 @@ Perfinsights is a diagnostics tool which can help you analyze operating system l
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-**For the machine <!--$vmname-->[vmname]<!--/$vmname-->, you can [Install PerfInsights](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/performanceDiagnostics)** and review results directly from the Azure portal. You may also [download PerfInsights](https://www.microsoft.com/en-us/download/details.aspx?id=58426) and run it on your virtual machine. To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights-linux)
+**For the machine <!--$vmname-->[vmname]<!--/$vmname-->, you can [Install PerfInsights](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/performanceDiagnostics)** and review results directly from the Azure portal. You may also [download PerfInsights](https://www.microsoft.com/download/details.aspx?id=58426) and run it on your virtual machine. To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights-linux)
