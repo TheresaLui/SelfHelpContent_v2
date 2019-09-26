@@ -16,12 +16,13 @@
 
 # Azure Resource Graph - Generic Guidance
 
-This support request will be filed for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in 
+This support request will be filed for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in:
 
 * Azure Portal Search, "All Resources" view, and "Resource Graph Explorer". 
 * Azure CLI with the following command "az graph query", 
 * Azure Powershell with the following command "Search-AzGraph -Query", 
 * API under Azure resource provider "Microsoft.ResourceGraph".
+
 
 ## **Recommended Documents**
 
