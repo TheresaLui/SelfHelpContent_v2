@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "SDK Education",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Provide logs for MIP SDK: from the mip_data directory and for RMS SDK from %SystemDrive%\\ProgramData\\MSIPC\\<SID>",
+                "fileAttachmentHint": "Provide logs for MIP SDK: from the mip_data directory and for RMS SDK from %SystemDrive%\\ProgramData\\MSIPC\\SID",
                 "formElements": [
                 {
                     "id": "client_type",
@@ -47,7 +47,7 @@
                 "displayLabel": "What version of the SDK are you using? Did you upgrade to the latest version?",
                 "required": true
                 },{
-                "id": "version_number",
+                "id": "sample_code",
                 "order": 4,
                 "controlType": "textbox",
                 "displayLabel": "Did you use a sample code? Did it work?",
