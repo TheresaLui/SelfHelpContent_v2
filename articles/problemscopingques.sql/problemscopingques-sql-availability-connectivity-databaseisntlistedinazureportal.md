@@ -85,7 +85,7 @@
             "dynamicDropdownOptions": {
                         "uri": "{resourceId}/databases?api-version=2017-10-01-preview",
                         "jTokenPath": "value",
-                        "textProperty": "properties.description",
+                        "textProperty": "name",
                         "valueProperty": "id",
                         "textPropertyRegex": null,
                         "defaultDropdownOptions": {
