@@ -38,7 +38,6 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
 			"searchTags": "storage key,access denied,unable to access,shared key,authenticate,authorize,403",
 			"useInDiagnoseAndSolve": ""
 		},
-
 		{
 			"id": "669666e7-b00f-4a36-e017-0b361c03aa26",
 			"shortDescription": "Issues using SAS token to access table storage such as access denied errors or connectivity failures",
