@@ -29,4 +29,4 @@ Microsoft Azure also provides access to resource health and troubleshooting info
 
 To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).
 
-To understand more about the user-initiated reboot, refer to [Understand a system reboot for Azure VM] (https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/understand-vm-reboot#user-initiated-reboot-or-shutdown-actions)
+To understand more about the user-initiated reboot, refer to [Understand a system reboot for Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#user-initiated-reboot-or-shutdown-actions)
