@@ -15,12 +15,12 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+# Virtual Machine Connectivity Issue: VMA RCA
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
-
-We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This expected occurrence was caused by a **user initiated reboot action**.
+We identified that your VM <!--$vmname-->Virtual machine<!--/$vmname--> became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This expected occurrence was caused by a **user initiated reboot action**.
 <!--/issueDescription-->
 
 The reboot was triggered by an authorized user or process from either the Azure Portal or from Azure Resource Manager interfaces. As a result, your VM was rebooted. RDP connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
