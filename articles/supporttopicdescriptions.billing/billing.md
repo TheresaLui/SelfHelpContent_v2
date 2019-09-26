@@ -298,14 +298,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "10ec0d5a-45cd-a195-1252-0dfcca25263d",
+      "id": "fb851540-8284-7777-9d25-ffbfe5ec8eb8",
       "shortDescription": "Questions or need help understanding the usage data being reported for the RI deployment",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "fb851540-8284-7777-9d25-ffbfe5ec8eb8",
+      "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2 ,
       "shortDescription": "Questions on issues with purchasing Reserved Instances",
       "category": "",
       "searchTags": "",
@@ -319,7 +319,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
+      "id": "10ec0d5a-45cd-a195-1252-0dfcca25263d",
       "shortDescription": "Questions on any other Reserved Instance related issues not listed in the above scenarios",
       "category": "",
       "searchTags": "",
