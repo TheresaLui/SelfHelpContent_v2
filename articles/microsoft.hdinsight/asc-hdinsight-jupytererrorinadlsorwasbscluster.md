@@ -18,7 +18,9 @@
 
 # We ran diagnostics on your resource and found the following issue
 
+<!--issueDescription-->
 Jupyter service for your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is down.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
