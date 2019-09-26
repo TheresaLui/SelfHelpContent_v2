@@ -94,7 +94,7 @@
             "id": "database_name",
             "order": 3000,
             "controlType": "dropdown",
-            "displayLabel": "Please provide the database name for which you are creating a support ticket.",
+            "displayLabel": "Please provide the database name for which you are creating a support ticket. If multiple databases are affected, select one of the affected databases to start an investigation",
             "required": false,
             "infoBalloonText": "Which of these databases are you filing a ticket for?",
             "dynamicDropdownOptions": {
