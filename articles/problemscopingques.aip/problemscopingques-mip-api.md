@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "SDK API",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Provide logs for MIP SDK: from the mip_data directory and for RMS SDK from %SystemDrive%\ProgramData\MSIPC\<SID>",
+                "fileAttachmentHint": "Provide logs for MIP SDK: from the mip_data directory and for RMS SDK from %SystemDrive%\\ProgramData\\MSIPC\\<SID>",
                 "formElements": [
                 {
                     "id": "client_type",
