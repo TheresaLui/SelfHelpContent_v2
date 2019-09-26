@@ -5,7 +5,7 @@
     resource="resources"
     authors="chgupta"
     ms.author="chiragg4u"
-    displayOrder=""
+    displayOrder="1"
     selfHelpType="generic"
     supportTopicIds="32636054,32636052,32636053,32636055,32636056,32636057"
     resourceTags=""
@@ -16,16 +16,18 @@
 
 # Azure Resource Graph - Generic Guidance
 
-This support request will be filed for “Azure Resource Graph” (ARG) service. Azure Resource Graph is exposed in 
-* Azure Portal Search and “All Resources” view, and also powers “Resource Graph Explorer”, 
-* Azure CLI as “az graph query”, 
-* Powershell as “Search-AzGraph -Query”, 
-* Open API under Azure resource provider “Microsoft.ResourceGraph”.
+This support request will be filed for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in 
+
+* Azure Portal Search and "All Resources" view, and also powers "Resource Graph Explorer", 
+* Azure CLI as "az graph query", 
+* Powershell as "Search-AzGraph -Query", 
+* Open API under Azure resource provider "Microsoft.ResourceGraph".
 
 ## **Recommended Documents**
 
-* [What is Azure Resource Graph?](https://docs.microsoft.com/en-us/azure/governance/resource-graph/overview)
-* [Explore your Azure resource with Resource Graph.](https://docs.microsoft.com/en-us/azure/governance/resource-graph/concepts/explore-resources)
+* [What is Azure Resource Graph?](https://docs.microsoft.com/azure/governance/resource-graph/overview)
+* [Explore your Azure resource with Resource Graph.](https://docs.microsoft.com/azure/governance/resource-graph/concepts/explore-resources)
 * If this is a new feature request, please submit your request [here](https://feedback.azure.com/forums/915958-azure-governance?category_id=345061).
+* For a list of supported resource types, look for a Yes in this [table](https://docs.microsoft.com/azure/azure-resource-manager/complete-mode-deletion).
 
 If the above two steps do not resolve the issue, then proceed to file the support request.
