@@ -1,4 +1,4 @@
-<propertiese
+<properties
 	pageTitle="MIP SDK - Education"
 	description="MIP SDK - Education"
 	authors="orbarak-ms"
