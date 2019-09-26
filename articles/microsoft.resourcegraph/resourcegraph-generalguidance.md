@@ -7,7 +7,7 @@
     ms.author="chgupta"
     displayOrder="1"
     selfHelpType="generic"
-    supportTopicIds="32636054,32636052,32636053,32636055,32636056,32636057"
+    supportTopicIds="32636054,32636052,32636053,32636055,32636056"
     resourceTags=""
     productPesIds="16716"
     cloudEnvironments="public"
