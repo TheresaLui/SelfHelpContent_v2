@@ -1,4 +1,4 @@
-<propertiese
+<properties
 	pageTitle="MIP SDK - Install"
 	description="MIP SDK - Install"
 	authors="orbarak-ms"
