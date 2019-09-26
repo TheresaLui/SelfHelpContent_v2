@@ -135,7 +135,7 @@ execution_context.set_opencensus_attr(
 
 ```
 
-3. Only requests using the [requests](https://2.python-requests.org/en/master/) library will be tracked.
+3. Only requests using the [requests](https://pypi.org/project/requests/) library will be tracked.
 
 ### Metrics
 
