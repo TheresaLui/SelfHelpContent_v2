@@ -15,7 +15,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Client Education",
+                "title": "SDK AzureAD",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Provide logs from the mip_data directory (MIP SDK) or %SystemDrive%\ProgramData\MSIPC\<SID> (RMS SDK)",
                 "formElements": [
