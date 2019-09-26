@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "Client Education",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Provide logs from the mip_data directory (MIP SDK) or %SystemDrive%\ProgramData\MSIPC\<SID> (RMS SDK)",
+                "fileAttachmentHint": "Provide logs from the mip_data directory (MIP SDK) or SystemDrive\ProgramData\MSIPC\<SID> (RMS SDK)",
                 "formElements": [
                 {
                     "id": "client_type",
