@@ -34,7 +34,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "2c4bca0f-56c8-119b-e54d-72a4788e67dc",
-      "shortDescription": "Issues or questions related to Azure file share snapshots",
+      "shortDescription": "Issues or questions related to Azure file share snapshots ",
       "category": "Snapshots",
       "searchTags": "snapshots",
       "useInDiagnoseAnsSolve": ""
