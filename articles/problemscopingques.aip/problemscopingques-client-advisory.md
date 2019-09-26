@@ -44,7 +44,7 @@
                 "id": "version_number",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? You can get the latest version at http://aka.ms/getaip",
+                "displayLabel": "What version are you using? You can get the latest version at https://www.microsoft.com/download/details.aspx?id=53018",
                 "required": true
                 },{
                     "id": "problem_description",
