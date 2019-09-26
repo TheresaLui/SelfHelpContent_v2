@@ -30,4 +30,4 @@ This support request will be filed for "Azure Resource Graph" (ARG) service. Azu
 * If this is a new feature request, please submit your request [here](https://feedback.azure.com/forums/915958-azure-governance?category_id=345061).
 * For a list of supported resource types, look for a Yes in this [table](https://docs.microsoft.com/azure/azure-resource-manager/complete-mode-deletion).
 
-If the above two steps do not resolve the issue, then proceed to file the support request.
+If the above information does not resolve the issue you are facing, then proceed to file the support request.
