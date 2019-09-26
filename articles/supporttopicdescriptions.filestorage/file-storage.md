@@ -1,9 +1,10 @@
+
 <properties
 description = "Support topic description for Files storage"
 pageTitle = "Support topic description for Files storage"
 authors = "akjoshi"
 ms.author = "akankshajsh"
-icmTeam="icmteam"
+icmTeam="icmteam2"
 icmService="icmservice"
 feedbackEmail="email"
 productPesIds = "30dfd88b-b455-1748-a4a0-e4c5aa795663"
@@ -33,7 +34,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "2c4bca0f-56c8-119b-e54d-72a4788e67dc",
-      "shortDescription": "Issues or questions related to Azure file share snapshots",
+      "shortDescription": "Issues or questions related to Azure file share snapshots ",
       "category": "Snapshots",
       "searchTags": "snapshots",
       "useInDiagnoseAnsSolve": ""

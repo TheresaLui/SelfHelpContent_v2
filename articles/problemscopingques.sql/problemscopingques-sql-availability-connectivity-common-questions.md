@@ -52,9 +52,9 @@
             "required": false,
             "infoBalloonText": "Which of these databases are you filing a ticket for?",
             "dynamicDropdownOptions": {
-                        "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Sql/servers/{serverName}/databases?api-version=2017-10-01-preview",
+                        "uri": "{resourceId}/databases?api-version=2017-10-01-preview",
                         "jTokenPath": "value",
-                        "textProperty": "properties.description",
+                        "textProperty": "name",
                         "valueProperty": "id",
                         "textPropertyRegex": null,
                         "defaultDropdownOptions": {
