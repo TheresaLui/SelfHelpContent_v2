@@ -21,7 +21,7 @@
 <!--issueDescription-->
 **Do you know Perfinsights tool could help you diagnose key performance issues on this VM?**
 
-We have detected that Perfinsights is not installed on - <!--$vmname-->[vmname]<!--/$vmname-->
+We have detected that Perfinsights is not installed on this VM.
 
 Perfinsights is a diagnostics tool which can help you analyze operating system level metrics such as:
 
