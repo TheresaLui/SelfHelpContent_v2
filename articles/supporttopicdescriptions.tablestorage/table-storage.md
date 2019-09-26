@@ -162,7 +162,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
 			"shortDescription": "Resolve issues related to securing table storage",
 			"category": "Security",
 			"searchTags": "secure storage account,storage account security,",
-			"useInDiagnoseAndSolve": ""
+			"useInDiagnoseAndSolve": "" 
 		}
   ],
   "$schema": "SelfHelpContent"
