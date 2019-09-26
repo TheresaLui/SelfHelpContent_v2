@@ -17,7 +17,7 @@
                 "resourceRequired": false,
                 "title": "SDK Visual Studio Integration",
 				"subscriptionRequired": false,
-                "fileAttachmentHint": "Provide logs from the mip_data directory (MIP SDK) or SystemDrive\ProgramData\MSIPC\<SID> (RMS SDK)",
+                "fileAttachmentHint": "Provide logs for MIP SDK: from the mip_data directory and for RMS SDK from %SystemDrive%\ProgramData\MSIPC\<SID>",
                 "formElements": [
                 {
                     "id": "client_type",
