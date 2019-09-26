@@ -51,7 +51,7 @@
                 "order": 4,
                 "controlType": "textbox",
                 "displayLabel": "Did you use a sample code? Did it work?",
-                "required": true
+                "required": false
                 },{
                     "id": "sccmigrate",
                     "order": 5,
