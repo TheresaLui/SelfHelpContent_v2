@@ -50,8 +50,7 @@
                 "id": "sample_code",
                 "order": 4,
                 "controlType": "textbox",
-                "displayLabel": "Did you use a sample code? Did it work?",
-                "required": false
+                "displayLabel": "Did you use a sample code? Did it work?"
                 },{
                     "id": "sccmigrate",
                     "order": 5,
