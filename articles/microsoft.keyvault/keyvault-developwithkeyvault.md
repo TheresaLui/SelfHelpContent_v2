@@ -11,7 +11,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
-	articleId="keyvault-authcreateserviceprincipal"
+	articleId="keyvault-keyvault-developwithkeyvault"
 />
 
 # Develop with Azure Key Vault
