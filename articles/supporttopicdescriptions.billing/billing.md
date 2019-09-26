@@ -312,28 +312,28 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
+      "id": "0b759e67-2619-49bf-441d-ed952a5f32c5",
       "shortDescription": "Questions on how to get a copy of Reserved Instance invoice if you are not aware of/can't get it yourself from the portal",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "0b759e67-2619-49bf-441d-ed952a5f32c5",
+      "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
       "shortDescription": "Questions on any other Reserved Instance related issues not listed in the above scenarios",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "69103c54-633a-058d-a66b-6ab02c9c806e",
+      "id": "057f6615-3650-5370-57b2-e1a64af3b037",
       "shortDescription": "Questions or issues with cancellations, exchanges or refunds related to Reserved Instances only",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "057f6615-3650-5370-57b2-e1a64af3b037",
+      "id": "69103c54-633a-058d-a66b-6ab02c9c806e",
       "shortDescription": "Questions or need help with pricing for Reserved Instances",
       "category": "",
       "searchTags": "",
@@ -418,7 +418,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "8b6c2e08-cd75-c2d1-7a12-e4daf1e16f2e",
-      "shortDescription": "Need help with refund or request the statuts of an existing refund",
+      "shortDescription": "Need help with refund or request the status of an existing refund",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
