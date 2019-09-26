@@ -1,7 +1,7 @@
 <properties
     pageTitle="Perfinsights Not Installed"
     description="Perfinsights Not Installed"
-    infoBubbleText="Perfinsights is not installed on the VM"
+    infoBubbleText="Install Perfinsights to run detailed Performance diagnostics reports"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="MukeshNandaMS"
@@ -22,10 +22,11 @@
 **Do you know Perfinsights tool could help you diagnose key performance issues on this VM?** We have detected that Perfinsights is not installed on **<!--$vmname-->[vmname]<!--/$vmname-->**.
 
 Perfinsights is a diagnostics tool which can help you analyze operating system level metrics such as:
+
 1. Best Practices recommendations for SQL and Windows
 2. Top CPU consumers
 3. Top Memory consumers
-4. Key IO metrics, with Disk level IOPS/MBps graphs
+4. Key IO metrics, with Disk level IOPS/Mbps graphs
 5. Storage Pool layout
 
 <!--/issueDescription-->

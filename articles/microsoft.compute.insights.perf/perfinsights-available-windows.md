@@ -1,7 +1,7 @@
 <properties
     pageTitle="Perfinsights is available to run Diagnostics"
     description="Perfinsights is available to run Diagnostics"
-    infoBubbleText="Perfinsights is available to run Diagnostics"
+    infoBubbleText="Perfinsights is available for your VM to run Diagnostics reports"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="MukeshNandaMS"
@@ -22,10 +22,11 @@
 **Do you know Perfinsights tool could help you diagnose key performance issues on this VM?** We have detected that Perfinsights is already Installed for the VM **<!--$vmname-->[vmname]<!--/$vmname-->**. You can run the tool On-Demand through Portal and download or view reports for your analysis.
 
 Perfinsights is a diagnostics tool which can help you analyze operating system level metrics such as:
+
 1. Best Practices recommendations for SQL and Windows
 2. Top CPU consumers
 3. Top Memory consumers
-4. Key IO metrics, with Disk level IOPS/MBps graphs
+4. Key IO metrics, with Disk level IOPS/Mbps graphs
 5. Storage Pool layout
 
 <!--/issueDescription-->
