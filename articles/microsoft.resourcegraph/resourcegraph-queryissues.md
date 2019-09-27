@@ -18,12 +18,12 @@
 
 This support request will be filed for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in:
 
-* Azure Portal Search, "All Resources" view, and "Resource Graph Explorer". 
-* Azure CLI with the following command "az graph query", 
-* Azure Powershell with the following command "Search-AzGraph -Query", 
-* API under Azure resource provider "Microsoft.ResourceGraph".
+* Azure Portal Search, "All Resources" view, and "Resource Graph Explorer"
+* Azure CLI with the command `az graph query`
+* Azure Powershell with the command `Search-AzGraph -Query`
+* API under Azure resource provider "Microsoft.ResourceGraph"
 
-"Azure Resource Graph" service supports an extensive query language based on [Azure Data Explorer language](https://docs.microsoft.com/azure/data-explorer/write-queries#overview-of-the-query-language) also known as Kusto Query Language aka KQL. 
+"Azure Resource Graph" service supports an extensive query language based on [Azure Data Explorer language](https://docs.microsoft.com/azure/data-explorer/write-queries#overview-of-the-query-language), also known as Kusto Query Language aka KQL. 
 
 ## **Recommended Documents**
 
