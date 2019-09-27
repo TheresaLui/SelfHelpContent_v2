@@ -17,8 +17,7 @@
 # Lost or Deleted Keys and Secrets in Key Vault
 ## **Recommended steps**
 
-* Using Soft-Delete with Key Vault<br>
-[Using Soft-Delete and Backup and Restore Behavior with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
+* [Using Soft-Delete and Backup and Restore Behavior with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
 
 **Troubleshooting**
 

@@ -19,12 +19,15 @@
 
 * How to import a key from a HSM<br>
 [HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys)
+
 * Before importing a HSM-protected key to key vault you will need to download the BYOK toolset. Please note that is feature is available on Windows only<br>
+
 * The link aobve shows you how to generate a key using Thales generatekey program and transfer your key to your key vault.<br>
 
 **Troubleshooting**
 
 * How to Setup a Key Vault for HSM-protected Keys?<br>
+
 * There are two different types of Key Vaults: "Premium" and "Standard". One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys.<br>
 
 ## **Recommended Documents**
