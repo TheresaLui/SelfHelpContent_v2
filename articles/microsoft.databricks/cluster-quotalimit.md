@@ -18,13 +18,13 @@
 
 ## **Recommended Steps**
 
-* To increase quota, please follow the steps:
+* To [increase quota](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors), please follow the steps:
+
     * Go to subscriptions [here](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
     * Select the subscription that needs an increased quota
     * Select Usage + quotas
     * In the upper right corner, select Request increase
     * Fill in the forms for the type of quota you need to increase
-For more information, check [this article](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors)
 
 * To check current resources, please navigate to: Azure Portal under your subscription --> Usage + quotas
 
