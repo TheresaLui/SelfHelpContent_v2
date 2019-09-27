@@ -61,7 +61,30 @@
             "dynamicDropdownOptions": null,
             "required": true,
             "maxLength": 0,
-            "numberOfLines": 2
+            "numberOfLines": 1
+        },
+        {
+            "id": "onpremOrCloud",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Is the group synced from on-prem active directory?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Yes",
+                    "value": "yes"
+                },
+                {
+                    "text": "No",
+                    "value": "no"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "numberOfLines": 0
         },
         {
             "id": "groupMembershipType",
@@ -103,7 +126,7 @@
             "dynamicDropdownOptions": null,
             "required": true,
             "maxLength": 0,
-            "numberOfLines": 0
+            "numberOfLines": 1
         },
         {
             "id": "userCID",
@@ -118,7 +141,7 @@
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
-            "numberOfLines": 0
+            "numberOfLines": 1
         },
         {
             "id": "problem_start_time",
