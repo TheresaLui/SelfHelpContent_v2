@@ -487,7 +487,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "78338998-486e-d645-07e5-4c90760f5b3a",
-            "shortDescription": "[Not visible for the customer]",
+            "shortDescription": " ",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -832,6 +832,13 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
             "shortDescription": "Covers issues related unexpected restarts of virtual machines on Azure",
             "category": "Management",
+            "searchTags": "xyz",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "4d78b174-3203-a3ac-9e08-41fb35de6354",
+            "shortDescription": "",
+            "category": "",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         }

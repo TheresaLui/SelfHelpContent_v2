@@ -28,5 +28,12 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to configured firewall rules and associated subnets, IPs, Public IP addresses">
+
 * [Firewall Table](https://docs.microsoft.com/azure/vmware-cloudsimple/firewall#add-a-new-firewall-table)<br>
+</span>
+
+<span title="Problems related to configured firewall rules and associated subnets, IPs, Public IP addresses">
+
 * [Firewall Rules](https://docs.microsoft.com/azure/vmware-cloudsimple/firewall#firewall-rules)<br>
+</span>

@@ -31,7 +31,7 @@
             "id": "storage_account_to",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Storage account_to",
+            "displayLabel": "Storage account to",
             "watermarkText": "Select storage account to migrate to",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",
