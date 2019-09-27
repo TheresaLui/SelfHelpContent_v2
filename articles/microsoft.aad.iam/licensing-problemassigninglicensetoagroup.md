@@ -79,6 +79,10 @@
                 {
                     "text": "No",
                     "value": "no"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "dynamicDropdownOptions": null,
