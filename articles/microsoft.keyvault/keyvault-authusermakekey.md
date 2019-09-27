@@ -18,10 +18,10 @@
 ## **Recommended Steps**
 
 1. Create Service Principal
-<br>[Using Active Directory](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
-<br>[Using MSI](https://docs.microsoft.com/azure/key-vault/managed-identity#grant-your-app-access-to-key-vault)
-2. [Grant Access using created Service Principal](https://docs.microsoft.com/azure/key-vault/managed-identity#grant-your-app-access-to-key-vault)
+    1. [Using Active Directory](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    1. [Using MSI](https://docs.microsoft.com/azure/key-vault/managed-identity#grant-your-app-access-to-key-vault)
 
+2. [Grant Access using created Service Principal](https://docs.microsoft.com/azure/key-vault/managed-identity#grant-your-app-access-to-key-vault)
 
 ## **Recommended Documents**
 
