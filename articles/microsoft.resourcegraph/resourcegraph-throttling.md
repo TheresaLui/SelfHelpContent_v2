@@ -18,10 +18,10 @@
 
 This support request will be filed for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in:
 
-* Azure Portal Search, "All Resources" view, and "Resource Graph Explorer". 
-* Azure CLI with the following command "az graph query", 
-* Azure Powershell with the following command "Search-AzGraph -Query", 
-* API under Azure resource provider "Microsoft.ResourceGraph".
+* Azure Portal Search, "All Resources" view, and "Resource Graph Explorer" 
+* Azure CLI with the command `az graph query`
+* Azure Powershell with the command `Search-AzGraph -Query`
+* API under Azure resource provider "Microsoft.ResourceGraph"
 
 Throttling error with "Azure Resource Graph" service call usually occurs when the client is trying to utilize too many resources on the server side. Azure Resource Graph is designed for at scale queries but client need to optimize the queries to be able to use the full capabilities. 
 
