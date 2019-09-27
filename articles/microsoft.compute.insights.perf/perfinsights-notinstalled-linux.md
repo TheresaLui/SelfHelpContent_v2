@@ -16,17 +16,18 @@
     cloudEnvironments="public"
 />
 
-# Do you know Perfinsights tool could help you diagnose key performance issues on this VM?
+# Perfinsights tool could help you diagnose key performance issues on this VM?
 
 ## We have detected that Perfinsights is not installed on this VM **<!--$vmname-->[vmname]<!--/$vmname-->**.
+<br>
 
 <!--issueDescription-->
-Perfinsights is a diagnostics tool which can help you analyze operating system level metrics such as
+Do you know Perfinsights tool could help you diagnose key performance issues on this VM? Perfinsights is a diagnostics tool which can help you analyze operating system level metrics such as
 
-1. Operating System, Hardware and Networking config
-2. Processes and Memory
-3. Logs collection
-4. Storage/RAID layout
+Operating System, Hardware and Networking config
+Processes and Memory
+Logs collection
+Storage/RAID layout
 
 <!--/issueDescription-->
 

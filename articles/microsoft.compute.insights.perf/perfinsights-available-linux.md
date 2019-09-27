@@ -26,10 +26,10 @@ We have detected that Perfinsights is already Installed for the VM . You can run
 
 Perfinsights is a diagnostics tool which can help you analyze operating system level metrics such as
 
-1. Best Practices recommendations for Linux distro
-2. Top CPU consumers
-3. Top Memory consumers
-4. Storage/RAID layout
+Best Practices recommendations for Linux distro
+Top CPU consumers
+Top Memory consumers
+Storage/RAID layout
 
 <!--/issueDescription-->
 
