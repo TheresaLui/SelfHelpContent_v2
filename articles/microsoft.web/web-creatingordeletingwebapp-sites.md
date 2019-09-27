@@ -21,7 +21,7 @@ Things to consider if you are running into issues when creating resources: <br>
 2. [App Services pricing](https://azure.microsoft.com/pricing/details/app-service/)<br>
 
 If you are trying to restore a deleted Web App: <br>
-[Restore deleted App Service app Using PowerShell](https://docs.microsoft.com/en-us/azure/app-service/app-service-undelete)<br>
+[Restore deleted App Service app Using PowerShell](https://docs.microsoft.com/azure/app-service/app-service-undelete)<br>
 
 How-To: <br>
 1. [Quickstart: Create a Web App](https://azure.microsoft.com/get-started/web-app/) <br>
