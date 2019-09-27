@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="MoonCake"
 	articleId="cosmosdb-gremlin-import-mooncake"
 	displayOrder="28"
 	category="Gremlin (Graph)"

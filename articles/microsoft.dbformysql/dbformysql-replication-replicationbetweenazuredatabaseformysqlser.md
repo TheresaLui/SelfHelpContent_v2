@@ -18,6 +18,12 @@
 
 The read replica feature allows you to replicate data from an Azure Database for MySQL server to a read-only server. You can replicate from the master server to up to five replicas. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
 
+## **Recommended Steps**
+
+**Issue** Can't scale down replica's compute and storage
+
+The replica's compute and storage tiers should be equal or greater than the master server to ensure the replica is able to keep up with the master server.
+
 ## **Recommended Documents**
 
 * Learn more about [read replica servers](https://docs.microsoft.com/azure/mysql/concepts-read-replicas)

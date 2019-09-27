@@ -13,13 +13,13 @@
     supportTopicIds="32636488"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 We determined that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high disk usage because of yarn applications running on the affected nodes.
-
+<!--/issueDescription-->
 ### **Affected Resources**
 
 <!--$Details-->[Details]<!--/$Details-->

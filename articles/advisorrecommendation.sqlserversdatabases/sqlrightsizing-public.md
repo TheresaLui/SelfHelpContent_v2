@@ -25,6 +25,7 @@
   "recommendationResourceType": "Microsoft.Sql/servers/databases",
   "recommendationFriendlyName": "SQLRightSizing",
   "recommendationMetadataState": "Active",
+  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

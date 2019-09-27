@@ -9,7 +9,7 @@
 	displayOrder="2"
 	articleId="23f8d822-ea47-49a0-8638-95e9d8d1113f"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32606424"
 	resourceTags=""
 	productPesIds="16160"
@@ -21,13 +21,13 @@
 
 ## **Recommended Steps**
 
-### I could not enable NSG Flow Logs
+### **I could not enable NSG Flow Logs**
 
 * "Microsoft.Insights" resource provider is not registered
 
 If you received an *AuthorizationFailed* or a *GatewayAuthenticationFailed* error, you might have not enabled the Microsoft Insights resource provider on your subscription. Please [follow the instructions](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#register-insights-provider) to enable the Microsoft Insights provider.
 
-### I have enabled NSG Flow Logs but do not see data in my storage account
+### **I have enabled NSG Flow Logs but do not see data in my storage account**
 
 * **Service Endpoints exist on your VNet**
 
@@ -35,7 +35,7 @@ NSG Flow Logs does not work on NSGs with [Service endpoints](https://docs.micros
 
 There are two ways to fix this:
 
-1.  Re-configure NSG flow logs to emit to Azure Storage account without VNET endpoints (Internal:How? Awaiting response from CSS)
+1.  Re-configure NSG flow logs to emit to Azure Storage account without VNET endpoints
 
 * Find subnets with endpoints:
 
@@ -45,9 +45,9 @@ There are two ways to fix this:
 	- Click on the Virtual Network containing the Service Endpoints
 	- Select **Service endpoints** under **Settings** from the left pane
 	- Make a note of the subnets where **Microsoft.Storage** is enabled
-	
+
 * Disabling service endpoints:
-		
+
 	- Continuing from above, select **Subnets** under **Settings** from the left pane
 	* Click on the subnet containing the Service Endpoints
 	- In the **Service endpoints** section, under **Services**, uncheck **Microsoft.Storage**
