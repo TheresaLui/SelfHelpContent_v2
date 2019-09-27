@@ -20,7 +20,7 @@
 **Things to consider when moving your resources:**<br>
 [App Service Move Limitations](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#app-service-limitations)<br>
 **If you are trying to restore a deleted Web App:**<br>
-[Restore deleted App Service app Using PowerShell](https://docs.microsoft.com/en-us/azure/app-service/app-service-undelete)<br>
+[Restore deleted App Service app Using PowerShell](https://docs.microsoft.com/azure/app-service/app-service-undelete)<br>
 **How-To Articles:**<br>
 [Quickstart: Create a Web App](https://azure.microsoft.com/get-started/web-app/)<br>
 [Create an App Service Plan](https://docs.microsoft.com/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview#create-an-app-service-plan-or-use-existing-one)<br>
