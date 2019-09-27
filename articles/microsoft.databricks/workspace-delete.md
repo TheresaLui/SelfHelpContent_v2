@@ -16,4 +16,6 @@
 
 # Diagnose and resolve issues with Workspace deletion
 
+## **Recommended Steps**
+
 * Cleanup of workspace is an asynchronous process and takes about 5-10 minutes to clean up cluster resources like VNET, Virtual Machines, storage and NSG.  If you just initiated it, please check after 5-10 minutes.
