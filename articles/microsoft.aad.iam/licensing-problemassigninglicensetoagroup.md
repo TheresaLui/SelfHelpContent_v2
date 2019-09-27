@@ -65,7 +65,7 @@
         },
         {
             "id": "onpremOrCloud",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the group synced from on-prem active directory?",
             "content": null,
@@ -88,7 +88,7 @@
         },
         {
             "id": "groupMembershipType",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the membership Type of the group?",
             "content": null,
@@ -116,7 +116,7 @@
         {
             "id": "userUPN",
             "visibility": null,
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is UPN of the user having issue?",
             "content": null,
@@ -131,7 +131,7 @@
         {
             "id": "userCID",
             "visibility": null,
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "If you have the correlation of the failure please provide it",
             "content": null,
@@ -146,7 +146,7 @@
         {
             "id": "problem_start_time",
             "visibility": null,
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "content": null,
@@ -160,7 +160,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,
