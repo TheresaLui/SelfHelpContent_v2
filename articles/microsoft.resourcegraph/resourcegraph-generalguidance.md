@@ -18,17 +18,17 @@
 
 This support request will be filed for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in:
 
-* Azure Portal Search, "All Resources" view, and "Resource Graph Explorer". 
-* Azure CLI with the following command "az graph query", 
-* Azure Powershell with the following command "Search-AzGraph -Query", 
-* API under Azure resource provider "Microsoft.ResourceGraph".
+* Azure Portal Search, "All Resources" view, and "Resource Graph Explorer"
+* Azure CLI with the command `az graph query`
+* Azure Powershell with the command `Search-AzGraph -Query`
+* API under Azure resource provider "Microsoft.ResourceGraph"
 
 
 ## **Recommended Documents**
 
 * [What is Azure Resource Graph?](https://docs.microsoft.com/azure/governance/resource-graph/overview)
 * [Explore your Azure resource with Resource Graph.](https://docs.microsoft.com/azure/governance/resource-graph/concepts/explore-resources)
-* For the list of supported resource types, look for a Yes in this [table](https://docs.microsoft.com/azure/azure-resource-manager/complete-mode-deletion).
-* If this is a new feature request, please submit your request [here](https://feedback.azure.com/forums/915958-azure-governance?category_id=345061).
+* For the list of supported resource types, look for a Yes in this [table](https://docs.microsoft.com/azure/azure-resource-manager/complete-mode-deletion)
+* If this is a new feature request, please submit your request [here](https://feedback.azure.com/forums/915958-azure-governance?category_id=345061)
 
 If the above information does not resolve the issue you are facing, then proceed to file the support request.
