@@ -48,6 +48,8 @@ Please try the following **Action Plans** to address this Deployment failure:
   * Downsize the VM to check if the cluster can allocate the nodes.
   * Try again in the future. Capacity might become available. 
 
+If the Customers still encounter Allocation Failure after Re-deployed, it probably because the capacity issue **(Capacity constraint in South Central US possibly thru Oct 2019)**, please try different VM sizes to mitigate.
+
 **Understanding Service Allocation Problem:**:
 
   In RDFE both the PaaS and IaaS offering run on a Cloud Service. The only difference is when re-create the PaaS/IaaS deployments and the overall Cloud Service concept is the same.
