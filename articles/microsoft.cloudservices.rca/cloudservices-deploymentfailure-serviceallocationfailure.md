@@ -23,40 +23,32 @@ We have detected that the deployment for classic Virtual Machine **<!--$Resource
 The servers in Azure datacenters are partitioned into clusters. The classic virtual Machine when deployed get pinned to a single cluster, and don’t currently span across multiple clusters. In some cases, as capacity fluctuates, the constraints to find an allocation for the service may not be met. When these constraints are not satisfied, we return back the request as a service allocation failure.
 <!--/issueDescription-->
 
-## **Diagnosis Details**
+## **Recommended Steps**
 
-Following are the details specific to this Deployment failure:
+Please try the following **Action Plans** to address this Deployment failure:  
+(We recommend you to **migrate the VM to ARM** since classic infrastructure might get decommissioned in near future.)
 
-* **Deployment operation time**: **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)**
-
-* **Name of the Virtual Machine**: **<!--$ResourceName-->virtualMachine<!--/$ResourceName-->**
-
-* **Error Message**: The operation failed: 'The server encountered an internal error. Please retry the request.'
-
-* **Cause of the failure**: If you are deploying into an existing VNet, Affinity Group, or Hosted Service, your deployment is **pinned** to a cluster which will cause all further deployment operations (like deploying to a different slot, scale up etc) to bound to the same cluster. This cluster might be full and cannot support any more capacity.
-
-* **Action Plan (Please try the following)**:
   * Migrated the virtual machine to ARM
 
-      For migrating to classic to ARM, please follow the below steps:
-      Move classic resources to ARM before moving it to a different subscription. Refer to the following documents to move resources from classic to ARM:
+    While there are plenty of amazing features and better supporting offered in Azure Resource Manager. It is recommended to ask Customers to [Plan out Migration to ARM](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-plan#plan).
 
-      https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-plan?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json
+    These steps show you how to use [Azure PowerShell commands to migrate](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-ps#step-1-plan-for-migration) infrastructure as a service (IaaS) resources from the classic deployment model to the Azure Resource Manager deployment model.
 
-      https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-deep-dive
+    Customers can also migrate resources by using the [Azure Command Line Interface (Azure CLI)](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-cli#step-1-prepare-for-migration).
 
-      Steps to migrate using PowerShell: https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-ps 
+    If Customers encounter issues during the migration, here is a [Common Errors Mitigations](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-errors) documents that can help.
+    
 
-  * Deploy to a new Cloud Service
+  * **Re-deploy your VM to new cloud service.** The allocation requests to restart these VMs have to be attempted at the original cluster that hosts the cloud service. Creating a new cloud service allows the Azure platform to find another cluster that has free resources or supports the VM size that you requested. Hence, re-create the VM in a different cloud service will forces the VM to be allocated in the best cluster that have available nodes. 
 
-    Delete VM, create a new VM and cloud service with the existing OS Disk.
+    * For PaaS VM Instances. Delete the production and staging slots of an existing cloud service so that the cloud service is empty, and then **Create a new deployment in the existing cloud service**. This will re-attempt to allocation on all clusters in the region. Ensure the cloud service is not tied to an affinity group.
+
+    * For IaaS Classic VM. Copy the VM’s disks and use them to create a new VM instance (i.e. clone/copy VM) with the same data as the original VM instance.
     
   * Downsize the VM to check if the cluster can allocate the nodes.
   * Try again in the future. Capacity might become available. 
 
-   (We recommend you to migrate the VM to ARM since classic infrastructure might get decommissioned in near future.)
-
-* **Understanding Service Allocation Problem:**:
+**Understanding Service Allocation Problem:**:
 
   In RDFE both the PaaS and IaaS offering run on a Cloud Service. The only difference is when re-create the PaaS/IaaS deployments and the overall Cloud Service concept is the same.
 
