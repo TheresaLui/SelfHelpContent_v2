@@ -41,11 +41,11 @@ Following are the details specific to this Deployment failure:
       For migrating to classic to ARM, please follow the below steps:
       Move classic resources to ARM before moving it to a different subscription. Refer to the following documents to move resources from classic to ARM:
 
-      https://docs.microsoft.com/en-us/azure/virtual-machines/windows/migration-classic-resource-manager-plan?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json
+      https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-plan?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json
 
-      https://docs.microsoft.com/en-us/azure/virtual-machines/windows/migration-classic-resource-manager-deep-dive
+      https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-deep-dive
 
-      Steps to migrate using PowerShell: https://docs.microsoft.com/en-us/azure/virtual-machines/windows/migration-classic-resource-manager-ps 
+      Steps to migrate using PowerShell: https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-ps 
 
   * Deploy to a new Cloud Service
 
@@ -65,5 +65,5 @@ Following are the details specific to this Deployment failure:
   For Classic VMs, they were pinned to a cluster where was having allocation issue. The allocation requests to restart these VMs have to be attempted at the original cluster that hosts the cloud service. Creating a new cloud service allows the Azure platform to find another cluster that has free resources or supports the VM size that you requested.
 
 ## **Recommended documents**
-* [Troubleshooting allocation failure when you deploy Cloud Services in Azure](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-allocation-failures#solutions) (Applicable to IaaS VM deployments)
-* [Troubleshooting steps specific to allocation failure scenarios in the classic deployment model](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/allocation-failure-classic#resize-a-vm-or-add-vms-or-role-instances-to-an-existing-cloud-service)
+* [Troubleshooting allocation failure when you deploy Cloud Services in Azure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions) (Applicable to IaaS VM deployments)
+* [Troubleshooting steps specific to allocation failure scenarios in the classic deployment model](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure-classic#resize-a-vm-or-add-vms-or-role-instances-to-an-existing-cloud-service)
