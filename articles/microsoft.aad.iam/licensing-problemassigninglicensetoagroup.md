@@ -65,7 +65,6 @@
         },
         {
             "id": "groupMembershipType",
-            "visibility": groupOrUserAssignment==group,
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What is the membership Type of the group?",
