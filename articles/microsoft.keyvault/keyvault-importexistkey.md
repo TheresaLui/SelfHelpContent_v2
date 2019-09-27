@@ -3,13 +3,14 @@
 	description="Importing Existing Keys Into Key Vault"
 	service="Microsoft.Keyvault"
 	resource="vaults"
-	authors="fhokholdMSFT"
+	authors="jlichwa"
+	ms.author="jalichwa"
 	displayOrder="20"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375293"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="917e26d0-971a-44b3-9c12-da53dacc5c4c"
 />
 
@@ -34,7 +35,7 @@
         Restore-AzureKeyVaultKey -VaultName 'MyKeyVault' -InputFile "C:\Backup.blob"
     ```
 
-**Troublshooting**
+**Troubleshooting**
 
 * How to Setup a Key Vault for HSM-protected Keys?<br>
 * There are two different types of Key Vaults: "Premium" and "Standard". One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys.<br>

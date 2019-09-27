@@ -5,11 +5,11 @@
 	resource="vaults"
 	authors="fhokholdMSFT"
 	displayOrder="3"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375295"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="ac9233e4-9d2f-4aa4-87cd-68ef92f61952"
 />
 
@@ -19,7 +19,7 @@
 * Using Soft-Delete with Key Vault<br>
 [Using Soft-Delete and Backup and Restore Behavior with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)

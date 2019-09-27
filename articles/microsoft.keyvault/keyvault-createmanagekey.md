@@ -4,12 +4,13 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author="jalichwa"
 	displayOrder="19"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375290"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="ce318719-e09d-43ee-8c21-089d47909c17"
 />
 
@@ -21,7 +22,7 @@
 * You can also create a key vault using the Azure Portal.<br>
 [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
