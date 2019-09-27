@@ -61,10 +61,11 @@
             "dynamicDropdownOptions": null,
             "required": true,
             "maxLength": 0,
-            "numberOfLines": 1
+            "numberOfLines": 2
         },
         {
             "id": "onpremOrCloud",
+            "visibility": "groupOrUserAssignment==group",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the group synced from on-prem active directory?",
@@ -92,6 +93,7 @@
         },
         {
             "id": "groupMembershipType",
+            "visibility": "groupOrUserAssignment==group",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the membership Type of the group?",
@@ -130,7 +132,7 @@
             "dynamicDropdownOptions": null,
             "required": true,
             "maxLength": 0,
-            "numberOfLines": 1
+            "numberOfLines": 2
         },
         {
             "id": "userCID",
@@ -145,7 +147,7 @@
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
-            "numberOfLines": 1
+            "numberOfLines": 2
         },
         {
             "id": "problem_start_time",
