@@ -36,6 +36,6 @@ These restrictions are put in place due to numerous business and technical const
 ## **Recommended Documents**
 
 To determine sizes available for your subscription using <br>
-* PowerShell- see the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command
-* Azure CLI- see the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command
-* REST API- see the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation
+* PowerShell: see [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command
+* Azure CLI: see [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command
+* REST API: see [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation
