@@ -4,12 +4,13 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author="jalichwa"
 	displayOrder="11"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375280"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="921a9821-fa93-4e7f-9e05-98f4d99fc3cc"
 />
 
@@ -36,7 +37,7 @@
     ```
 * Overview of basic commands for Key Vault<br>
 [Key Vault Getting Started Guide](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)

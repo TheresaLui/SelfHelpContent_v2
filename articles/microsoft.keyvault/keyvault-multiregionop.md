@@ -4,12 +4,13 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author="jalichwa"
 	displayOrder="21"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375287"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="cb727e8d-89ea-4d5e-ba1f-d1679f0ecb35"
 />
 
@@ -19,7 +20,7 @@
 * Key Vault features multiple layers of redundancy in order to maintain availability.<br>
 [Availability and Redundancy Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-disaster-recovery-guidance)<br>
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)

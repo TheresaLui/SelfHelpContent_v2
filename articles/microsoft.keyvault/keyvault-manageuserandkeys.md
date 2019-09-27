@@ -4,12 +4,13 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author="jalichwa"
 	displayOrder="4"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375281"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="43b249d6-fd36-400c-a8b5-f8193345bc47"
 />
 
@@ -18,7 +19,7 @@
 
 * Authorize an application to use a key or secret with these steps for [creating and managing a key vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)

@@ -4,23 +4,24 @@
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
+	ms.author="jalichwa"
 	displayOrder="10"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32452742"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="ee2740e9-e40c-4c32-ab2c-0ec8414b28c3"
 />
 
 # Advisory for Key Vault related tasks
 ## **Recommended steps**
 
-* How to Create and Manage a Key Vault<br>
-[Key Vault Getting Started Guide in PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
-* Next you need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br> Then, authorize the Application to use secrets and keys.<br>
+* [Key Vault Get Started](https://docs.microsoft.com/azure/key-vault/key-vault-overview)
+* [About Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)
+* [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)
 
-**Troublshooting**
+**Troubleshooting**
 
 * To see how to associate a certificate with an Azure AD application look at [Getting Started with Key Vault for Certificates](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/) <br>
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>

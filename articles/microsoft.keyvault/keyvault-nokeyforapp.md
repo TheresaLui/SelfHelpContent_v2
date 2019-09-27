@@ -3,13 +3,14 @@
 	description="Application Cannot Obtain or Use a Key"
 	service="Microsoft.Keyvault"
 	resource="vaults"
-	authors="fhokholdMSFT"
+	authors="jlichwa"
+	ms.author="jalichwa"
 	displayOrder="16"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32375283"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="public"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="c91b46a1-97cf-4619-9767-45d0c3e0fdd8"
 />
 
@@ -22,7 +23,7 @@
         az keyvault set-policy --name 'ContosoKeyVault' --upn yourUPN --secret-permissions get
     ```
 
-**Troublshooting**
+**Troubleshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)<br>
@@ -30,6 +31,7 @@
 [Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)<br>
 
 ## **Recommended Documents**
+[Use an App Service Managed Identity to Access Key Vault](https://docs.microsoft.com/azure/key-vault/managed-identity)<br>
 [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
 [Create and Manage using CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 [Using Managed Storage Account Keys](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)<br>
