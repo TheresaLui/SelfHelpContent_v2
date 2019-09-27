@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Gernric Guidance for Throttling in Azure Resource Graph"
+    pageTitle="Generic Guidance for Throttling in Azure Resource Graph"
     description="This page provides guidance for throttling in Azure Resource Graph"
     service="microsoft.resourcegraph"
     resource="resources"
