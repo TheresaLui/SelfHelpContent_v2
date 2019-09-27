@@ -40,14 +40,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "6d607aed-0da2-0322-dfd1-987002d9f410",
-      "shortDescription": "Questions on any other Bill or usage related issues not listed in the above scenarios",
+      "shortDescription": "Questions on any other bill or usage related issues not listed in the above scenarios",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "01a923f7-8ef0-c400-50ef-d6ef3a163cd7",
-      "shortDescription": "Questions on how to get a copy of invoice or usage report if you are not aware of/cant get it yourself from the portal",
+      "shortDescription": "Questions on how to get a copy of invoice or usage report if you are not aware of or can't get it yourself from the portal",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -68,7 +68,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "112c798f-1ff9-8168-193d-a7f171564dac",
-      "shortDescription": "General Billing/EA API questions that are not related to any other API problems listed.",
+      "shortDescription": "General Billing/EA API questions that are not related to any other API problems listed",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -89,7 +89,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "5fe819a9-d7f9-5f17-1ed8-ddf099ff2542",
-      "shortDescription": "Questions on how to setup collection of memory data from Azure and AWS in Cloudyn as this isn’t on by default. ",
+      "shortDescription": "Questions on how to setup collection of memory data from Azure and AWS in Cloudyn as this isn’t on by default",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -117,7 +117,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "6f7b5bce-6e13-6f21-b1b6-e25a2f418e17",
-      "shortDescription": "Issues with EA credentials validation or with locating required credentials for EA setup and/or with auto-discovery of accounts/subscription in the EA.",
+      "shortDescription": "Issues with EA credentials validation or with locating required credentials for EA setup and/or with auto-discovery of accounts/subscription in the EA",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -145,7 +145,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "495f67ae-f501-88c4-51bc-629bfd5c5807",
-      "shortDescription": " Questions on the reports in the Optimization section in Cloudyn.",
+      "shortDescription": " Questions on the reports in the Optimization section in Cloudyn",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -166,14 +166,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "c25e0c9b-c44b-580f-488a-db3b5cc96c89",
-      "shortDescription": "Questions on how to setup Category Manager or with its functionality",
+      "shortDescription": "Questions on how to setup Category Manager or its functionalities",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "f043d503-ea2f-2c82-1c5a-6d1ad376be0b",
-      "shortDescription": "Questions on how to setup budget or with budget functionality",
+      "shortDescription": "Questions on how to setup budget or budget functionalities",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -187,14 +187,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "edb757ad-16ed-b106-350e-5f489a989a39",
-      "shortDescription": "Questions about cost or data in Cloudyn, not matching data in Cloud providers’ portals",
+      "shortDescription": "Questions about cost or data in Cloudyn not matching data in Cloud providers’ portals",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "8e830758-ed8f-4281-ee9e-f0a8deb333b3",
-      "shortDescription": "Need assistance if you have received Initially Suspended notification & have waited for your admin to approve your access to the tool but the admin is not responsive.",
+      "shortDescription": "Need assistance if you have received initially suspended notification & have waited for your admin to approve your access to the tool, but the admin is not responsive.",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -208,28 +208,28 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "750bbf33-ccd8-21b8-03be-db99ca762450",
-      "shortDescription": "Other setup issues, not covered in specific setup issues listed above.",
+      "shortDescription": "Other setup issues, not covered in specific setup issues listed above",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "d78fc3cb-2082-5041-9497-7a458ec7bc2f",
-      "shortDescription": "Issues or questions with scheduled reports/exports functionality",
+      "shortDescription": "Issues or questions with scheduled reports or exports functionality",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "a7096926-dcd0-2504-ba61-a40ec81b9566",
-      "shortDescription": "Errors encountered while setting up scheduled reports or exports.",
+      "shortDescription": "Errors encountered while setting up scheduled reports or exports",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "76ea362a-2219-833b-d371-d91738e4e31a",
-      "shortDescription": "Questions on discrepancy between cost and data reported in ACM versus other resources in Cloud providers’ portals.",
+      "shortDescription": "Questions on discrepancy between cost and data reported in ACM versus other resources in Cloud providers’ portals",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -250,7 +250,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "6bb902c6-b903-0b03-f17f-37ca5ce605c2",
-      "shortDescription": "Issues setting up cost alerts/encountering system errors",
+      "shortDescription": "Issues setting up cost alerts or encountering system errors",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -285,7 +285,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "44114011-6a66-e902-c00f-e419b6b4509f",
-      "shortDescription": "Questions on why access to view/configure data in ACM is not available. ",
+      "shortDescription": "Questions on why access to view/configure data in ACM is not available",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -298,43 +298,43 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "10ec0d5a-45cd-a195-1252-0dfcca25263d",
+      "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
       "shortDescription": "Questions or need help understanding the usage data being reported for the RI deployment",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "fb851540-8284-7777-9d25-ffbfe5ec8eb8",
-      "shortDescription": "Questions on issues with purchasing reserved instances",
-      "category": "",
-      "searchTags": "",
-      "useInDiagnoseAndSolve": ""
-    },
-    {
-      "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
-      "shortDescription": "Questions on how to get a copy of reserved instance invoice if you are not aware of/cant get it yourself from the portal",
+      "id": "10ec0d5a-45cd-a195-1252-0dfcca25263d",
+      "shortDescription": "Questions on issues with purchasing Reserved Instances",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "0b759e67-2619-49bf-441d-ed952a5f32c5",
-      "shortDescription": "Questions on any other Reserved instance related issues not listed in the above scenarios",
+      "shortDescription": "Questions on how to get a copy of Reserved Instance invoice if you are not aware of/can't get it yourself from the portal",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
-      "id": "69103c54-633a-058d-a66b-6ab02c9c806e",
-      "shortDescription": "Questions or issues with cancellations, exchanges or refunds related to reserved instance only",
+      "id": "fb851540-8284-7777-9d25-ffbfe5ec8eb8",
+      "shortDescription": "Questions on any other Reserved Instance related issues not listed in the above scenarios",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "057f6615-3650-5370-57b2-e1a64af3b037",
-      "shortDescription": "Questions or need help with pricing for reserved instances",
+      "shortDescription": "Questions or issues with cancellations, exchanges or refunds related to Reserved Instances only",
+      "category": "",
+      "searchTags": "",
+      "useInDiagnoseAndSolve": ""
+    },
+    {
+      "id": "69103c54-633a-058d-a66b-6ab02c9c806e",
+      "shortDescription": "Questions or need help with pricing for Reserved Instances",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -397,14 +397,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "1ca6ee84-ab07-56ee-b6d2-d508c7120710",
-      "shortDescription": "Questions about monetary caps - what happens when they get hit, how to set, and how to remove them",
+      "shortDescription": "Questions about monetary caps - what happens when they get hit, how to set or remove them",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
     },
     {
       "id": "15da022a-a108-c566-b944-c6d46ccd6479",
-      "shortDescription": "Questions about billing cycles, when the you will get your bill, and when your CreditCard will be auto-charged",
+      "shortDescription": "Questions about billing cycles, when you will get your bill, and when your credit card will be auto-charged",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -418,7 +418,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "8b6c2e08-cd75-c2d1-7a12-e4daf1e16f2e",
-      "shortDescription": "Need help with refund or request the statuts of an existing refund",
+      "shortDescription": "Need help with refund or request the status of an existing refund",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""

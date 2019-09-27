@@ -23,4 +23,7 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to creation of Private Cloud on your CloudSimple service">
+
 * [Create a Private Cloud](https://docs.microsoft.com/azure/vmware-cloudsimple/create-private-cloud)<br>
+</span>

@@ -66,7 +66,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "df3be71a-64c5-4b80-9b7f-392776c4495c",
-      "shortDescription": "Duplicate (see Performance L2 topic, line 42)",
+      "shortDescription": "",
       "longDescription": "",
       "category": "Availability",
       "searchTags": "alwayson;always on;ha;primary;secondary;listener;load balancer;ilb;availability group;ag;ag connectivity;availability group connectivity",

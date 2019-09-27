@@ -25,4 +25,7 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to Point-to-Site VPN access to CloudSimple network environment, routing issues, VPN authentication issues">
+
 * [Point-to-Site VPN](https://docs.microsoft.com/azure/vmware-cloudsimple/vpn-gateway#create-point-to-site-vpn-gateway)<br>
+</span>

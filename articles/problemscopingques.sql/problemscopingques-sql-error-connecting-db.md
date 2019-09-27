@@ -14,8 +14,8 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Error When Connecting to my Database",
     "fileAttachmentHint": "",
     "diagnosticCard": {
@@ -100,13 +100,32 @@
             "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
         },
         {
-		      "id": "sqlexception_received_on_client",
-			    "order": 2000,
-			    "controlType": "multilinetextbox",
-    			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
-		    	"required": true,
-			    "visibility": true
-	    }
+                "id": "sqlexception_received_on_client",
+                "order": 2000,
+                "controlType": "multilinetextbox",
+                "displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing.              Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+                "required": true,
+                "visibility": true
+        },
+        {
+            "id": "database_name",
+            "order": 3000,
+            "controlType": "dropdown",
+            "displayLabel": "Please provide the database name for which you are creating a support ticket.",
+            "required": false,
+            "infoBalloonText": "Which of these databases are you filing a ticket for?",
+            "dynamicDropdownOptions": {
+                        "uri": "{resourceId}/databases?api-version=2017-10-01-preview",
+                        "jTokenPath": "value",
+                        "textProperty": "name",
+                        "valueProperty": "id",
+                        "textPropertyRegex": null,
+                        "defaultDropdownOptions": {
+                                        "value": "dont_know_answer",
+                                        "text": "Don't know/None of these"
+                                    }
+            }
+        }
     ]
 }
 ---
