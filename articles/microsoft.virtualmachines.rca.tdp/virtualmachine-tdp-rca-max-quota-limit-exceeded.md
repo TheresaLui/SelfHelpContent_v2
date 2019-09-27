@@ -27,19 +27,17 @@ We apologize for the inconvenience.  Due to various technical constraints, vCPU 
 ## **Recommended Steps**
 To identify the quota limit you are encountering for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->**, you can use the Azure CLI command [az-vm-list-usage](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-usage).  For example, if you are looking to check quota limit for west us region, please run **az vm list-usage --location westus | --out table**
 
-If you are encountering **Total Regional vCPUs** limit, you have the following options <br>
-- Deploy your VM in a region with available quota, you can use the Azure CLI command [az-vm-list-usage](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-usage) to check your available quota.
-- Deploy a different VM size with fewer cores
-- Deploy your desired size by following the steps in [Regional vCPU Quota Increase](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **Total Regional vCPUs** limit.
+If you are encountering **Total Regional vCPUs** limit, you can deploy your desired size by following the steps in [Regional vCPU Quota Increase](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **Total Regional vCPUs** limit.
 
-If you are encountering **per VM Series vCPUs** limit, you have the following options <br>
-- Deploy a different VM Series with available quota, you can use the Azure CLI command [az-vm-list-usage](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-usage) to check your available quota
-- Deploy in a region with available quota for the requested VM Series
-- Deploy your desized VM by following the steps in [VM Series vCPU Limit Increase](https://docs.microsoft.com/en-us/azure/azure-supportability/per-vm-quota-requests#request-per-vm-series-vcpu-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **per VM Series vCPUs** limit.
+If you are encountering **per VM Series vCPUs** limit, you can deploy your desized size by following the steps in [VM Series vCPU Limit Increase](https://docs.microsoft.com/en-us/azure/azure-supportability/per-vm-quota-requests#request-per-vm-series-vcpu-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **per VM Series vCPUs** limit.
+
+**Consider Alternate Sizes or Locations**
+
+Quota increase requests may take one or more business days to be approved due to business and technical constraints.  Please consider alternate sizes that are available to deploy for your subscription, you can use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
 
 
 ## **Recommended Documents**
-To learn more about quota increase requests for Azure Subscriptions, please refer to the following article: <br>
+To learn more about quota increase requests and how the Regional and VM Series vCPU cores are allocated, please refer to the following article: <br>
 * [Understand Quota Limits](https://docs.microsoft.com/en-us/azure/azure-supportability/resource-manager-core-quotas-request)
 
 To learn more about how quotas are managed for Azure subscriptions, please refer to the following articles:<br>
