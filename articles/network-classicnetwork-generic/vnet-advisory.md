@@ -27,7 +27,7 @@
 
 ## More information
 
-If you have questions about Virtual Network security or NSG (Network Security Group), here are the relative information:
+If you have questions about Virtual Network security or NSG (Network Security Group), see the following articles:
 
 * Use [Security group view](data-blade:microsoft_azure_network.networkwatchersecuritygroupviewblade.id.$subscriptionId) to see NSGs and rules associated at a NIC and subnet level for VM<br>
 * Use [NSG flow logs](data-blade:microsoft_azure_network.flowlogsblade.id.$subscriptionId) to view ingress and egress IP traffic through a Network Security Group<br>
