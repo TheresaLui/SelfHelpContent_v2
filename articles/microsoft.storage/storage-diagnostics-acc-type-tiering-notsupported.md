@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # Access tiers is not supported on this storage account
 
 <!--issueDescription-->
-Storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> does not support access tiers as it is a <!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind--> account. 
+Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does not support access tiers as it is a **<!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind-->** account. 
 
 <!--/issueDescription-->
 
