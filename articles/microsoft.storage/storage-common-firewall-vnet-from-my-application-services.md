@@ -21,7 +21,7 @@
 
 Most customers resolved their firewall & virtual network related connectivity failure issues, from their own applications, using the steps below. This resulted in a faster resolution of the issue and we highly recommend you look through the proposed solutions. 
 
-Own applications cover anything deployed on IaaS VMs, Cloud Service deployments, on another cloud or on premise. The applciation could be Storage Explorer, any storage tools or custom applications. 
+Own applications cover anything deployed on IaaS VMs, Cloud Service deployments, on another cloud or on premise. The application could be Storage Explorer, any storage tools or custom applications. 
 
 _If the issue is from a Microsoft hosted service like Web Apps, Functions Apps, SQLDB , HDI etc please navigate one step back and choose the problem subtype as "Not able to connect from other Azure Service."_ 
 
