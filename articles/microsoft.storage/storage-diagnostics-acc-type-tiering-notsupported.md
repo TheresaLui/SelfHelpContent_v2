@@ -18,14 +18,20 @@ cloudEnvironments="public"
 # Access tiers is not supported on this storage account
 
 <!--issueDescription-->
-Storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> does not support access tiers as it is a <!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind--> account. Object storage data tiering to hot, cool, or archive is only supported in General Purpose v2 (GPv2) and Blob storage accounts and only available for block and append blobs.
-* At account level - Only hot and cool access tiers can be set. The archive access tier is not available at the account level.
-* At individual blob level 
-  * Replication option LRS/GRS/RA-GRS   - All three access tiers hot,cool and archive can be set. 
-  * Replication option ZRS/GZRS/RA-GZRS - Only hot and cool access tiers can be set.
+Storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> does not support access tiers as it is a <!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind--> account. 
+
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+ Object storage data tiering to hot, cool, or archive is only supported in General Purpose v2 (GPv2) and Blob storage accounts and only available for block and append blobs.
+
+* At account level - Only hot and cool access tiers can be set. The archive access tier is not available at the account level.
+
+* At individual blob level 
+
+  * Replication option LRS/GRS/RA-GRS   - All three access tiers hot,cool and archive can be set.  
+  * Replication option ZRS/GZRS/RA-GZRS - Only hot and cool access tiers can be set.
+ 
  Please change to a supported account type or replication option to use your preferred access tier. 
 
 ## **Recommended Documents**
