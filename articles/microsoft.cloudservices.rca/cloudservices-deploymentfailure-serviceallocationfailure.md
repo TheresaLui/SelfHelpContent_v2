@@ -7,7 +7,7 @@
 	authors="ZihanZhang"
 	ms.author="zihzhan"
 	displayOrder=""
-  articleId="cloudservices-deploymentfailure-serviceAllocationFailure"
+  	articleId="cloudservices-deploymentfailure-serviceAllocationFailure"
 	diagnosticScenario="DeploymentFailure,"
 	selfHelpType="rca"
 	supportTopicIds=""
