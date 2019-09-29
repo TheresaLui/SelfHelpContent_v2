@@ -29,7 +29,7 @@ _If the issue is from a Microsoft hosted service like Web Apps, Functions Apps, 
  
  Only a subset of Microsoft Azure services is part of the trusted services list. Please refer the link below to know about the services covered under trusted services. 
    
-- [**Trusted Microsoft services**](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services) 
+[**Trusted Microsoft services**](https://docs.microsoft.com/azure/storage/common/storage-network-security#trusted-microsoft-services) 
 
 Any service not on the list above wouldn't work until the public IP or VNet of that service is explicitly added to the exception list. Refer below to know how to resolve the issue for the most commonly reported services. 
 
@@ -39,7 +39,7 @@ If the application getting blocked is in a different region than storage account
 
 * If it's an application on an Azure VM it would be the [Public IP of the IaaS VM](https://docs.microsoft.com/azure/virtual-network/associate-public-ip-address-vm).
 
-* If it's Storage Explorer on your client machine then it's the Public IP which the request has which typically is an ISP or Proxy IP. You can use use a browser and use something like [What's my Public IP](https://www.whatsmyip.org/) to find your public IP.
+* If it's Storage Explorer on your client machine then it's the Public IP which the request has which typically is an ISP or Proxy IP. You can use a browser and a like like [What's my Public IP](https://www.whatsmyip.org/) to find your public IP.
 
 * Some services might have a set of outbound IP addresses or range of address and in that case the whole list or range needs to be added. Please refer to the documentation for the service to find the public IP. Once you have the public IP add it to the storage account settings by referring this [article](https://docs.microsoft.com/azure/storage/common/storage-network-security#grant-access-from-an-internet-ip-range). Alternately, you can navigate back and open a support case by selecting the corresponding product and get help in getting the public IP for the service.  
 
