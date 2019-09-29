@@ -36,8 +36,11 @@ Any service not on the list above wouldn't work until the public IP or VNet of t
 ### **2. My application getting blocked is in a different region than storage account**
 
 If the application getting blocked is in a different region than storage account, then the public IP of the application needs to be added to the Firewall. 
+
 * If it's an application on an Azure VM it would be the [Public IP of the IaaS VM](https://docs.microsoft.com/azure/virtual-network/associate-public-ip-address-vm).
+
 * If it's Storage Explorer on your client machine then it's the Public IP which the request has which typically is an ISP or Proxy IP. You can use use a browser and use something like [What's my Public IP](https://www.whatsmyip.org/) to find your public IP.
+
 * Some services might have a set of outbound IP addresses or range of address and in that case the whole list or range needs to be added. Please refer to the documentation for the service to find the public IP. Once you have the public IP add it to the storage account settings by referring this [article](https://docs.microsoft.com/azure/storage/common/storage-network-security#grant-access-from-an-internet-ip-range). Alternately, you can navigate back and open a support case by selecting the corresponding product and get help in getting the public IP for the service.  
 
 * [Connecting over ExpressRoute](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/expressroute#architecture) - Every ExpressRoute circuit is given two IP addresses at the Microsoft Edge that are used to connect to Microsoft Services like Azure Storage. To allow communication from your circuit to Azure Storage you must configure the storage account's 'Firewall and virtual networks' configuration to add those two IP addresses on your storage account. Please open a support case under Networking to get the two IPs.
