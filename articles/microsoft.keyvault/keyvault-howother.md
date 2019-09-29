@@ -11,7 +11,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
-	articleId="keyvault-howother"
+	articleId="keyvault-howother2"
 />
 
 # How to Perform Key Vault actions

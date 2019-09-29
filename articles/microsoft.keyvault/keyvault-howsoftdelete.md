@@ -11,7 +11,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
-	articleId="keyvault-howsoftdelete"
+	articleId="keyvault-howother"
 />
 
 # Using Key Vault with Soft Delete

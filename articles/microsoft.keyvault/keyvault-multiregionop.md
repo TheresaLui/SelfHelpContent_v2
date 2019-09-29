@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Configuring an Application for Multi-Region Reduntant Operation"
-	description="Configuring an Application for Multi-Region Reduntant Operation"
+	pageTitle="Configuring an Application for Multi-Region Redundant Operation"
+	description="Configuring an Application for Multi-Region Redundant Operation"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
@@ -14,7 +14,7 @@
 	articleId="cb727e8d-89ea-4d5e-ba1f-d1679f0ecb35"
 />
 
-# How to configure an application for multi-region reduntant operation
+# How to configure an application for multi-region redundant operation
 ## **Recommended steps**
 
 * Key Vault features multiple layers of redundancy in order to maintain availability.<br>
