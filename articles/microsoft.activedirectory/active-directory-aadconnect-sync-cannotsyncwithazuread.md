@@ -10,6 +10,7 @@
     resourceTags="directory_ad_connect"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="e1363ef5-1d70-4aec-9036-f290c226ba53"
 />
 
 # Synchronization Service cannot import/export changes from Azure AD

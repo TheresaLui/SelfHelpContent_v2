@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="a3f8dd78-7c00-441f-93af-e85d80937976"
 />
 
 # Develop an Application to Use Key Vault

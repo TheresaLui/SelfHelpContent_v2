@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="fdfbd898-4897-4f63-ac82-83ede6831f9f"
 />
 
 # My App is performing slow

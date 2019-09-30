@@ -10,6 +10,7 @@
 	resourceTags="8000Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="3238bbf1-192c-4395-aba1-3ebdbb7a216c"
 />
 
 # My volumes have gone offline

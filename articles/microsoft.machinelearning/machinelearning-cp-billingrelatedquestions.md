@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
- />
+ 	articleId="7bd03b92-cbe6-4f9b-9505-ddf164043f02"
+/>
 
 # I have a question regarding billing for machine learning web service plans
 

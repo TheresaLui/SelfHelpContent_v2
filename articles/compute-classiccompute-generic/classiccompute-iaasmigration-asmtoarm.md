@@ -4,17 +4,20 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32513964"
+	supportTopicIds="32513964,32632323"
 	resourceTags=""
-	productPesIds="14749,15571"
+	productPesIds="14749,16348"
 	cloudEnvironments="public"
+	articleId="06336d96-d8aa-471e-a610-6f96c2416763"
 />
 
 # Migration and Move/Migrate IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Frequently asked questions about migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-faq?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review most common migration errors](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-errors?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review community tools for assisting with migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-community-tools?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
@@ -24,4 +27,4 @@
 * [Review the instructions on how to migrate using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-ps?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review the instructions on how to migrate using Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-cli?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Migrate ExpressRoute circuits and associated virtual network](https://docs.microsoft.com/azure/expressroute/expressroute-migration-classic-resource-manager)<br>
-* [Migrate your VPN Gateway classic to Resource Manager](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-classic-resource-manager-migration)<br>
+* [Migrate your VPN Gateway classic to Resource Manager](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-classic-resource-manager-migration)

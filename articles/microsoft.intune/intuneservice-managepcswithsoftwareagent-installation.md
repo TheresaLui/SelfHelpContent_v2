@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="7baea6a4-b00d-4709-a88b-cd96def49c3b"
 />
 
 # Manage PCs with Software Agent - Installation

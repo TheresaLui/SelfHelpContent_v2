@@ -3,19 +3,20 @@
 	description="configuration and setup/encrypt virtual machine disk"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32518038,32518039"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="3b9c5dfb-2a76-453e-a9c7-c2f048634b46"
 />
 # Configuration and Setup/Encrypt virtual machine disk
 
 ## **Recommended documents**
-* [ErrorMessage: Azure Disk Encryption extension version '2.2' is not supported](https://github.com/Azure/azure-powershell/issues/6337#issuecomment-395160429)<br>
-* [Understanding Azure Disk Encryption for Windows IaaS VMs](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-troubleshoot-deployment-new-vm?toc=%2fazure%2fvirtual-machines%2fWindows%2ftoc.json)<br>
+
+* Experiencing *ErrorMessage: Azure Disk Encryption extension version '2.2' is not supported*? [Click here for the solution](https://support.microsoft.com/help/4339481)<br>
 * [Understanding prerequisites for Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#prerequisites)<br>
 * [Applying Azure Disk Encryption in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-apply-disk-encryption)<br>
 * [Understanding Azure Disk Encryption deployment scenarios and user experiences](https://docs.microsoft.com/azure/security/azure-security-disk-encryption?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#disk-encryption-deployment-scenarios-and-user-experiences)<br>

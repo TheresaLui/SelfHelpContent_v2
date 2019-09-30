@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="8f6f8090-d2f7-4400-841c-b5fc77193adf"
 />
 # H2A resynch required for VM
 

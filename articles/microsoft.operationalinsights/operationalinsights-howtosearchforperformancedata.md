@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="183223b9-39fc-4b6d-9d9f-8fb618a65878"
 />
 
 # Searching for Performance data

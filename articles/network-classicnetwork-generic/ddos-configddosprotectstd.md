@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16355"
     cloudEnvironments="public"
+	articleId="8d1ab792-6b8e-458e-a131-272fbe37aaf5"
 />
 # Configure DDoS protection standard
 ## **Recommended documents**

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
+	articleId="88de9c40-9eb1-478f-acaa-1af9c608bbfa"
 />
 
 # redis cache/performance, code-related problems, or time-outs

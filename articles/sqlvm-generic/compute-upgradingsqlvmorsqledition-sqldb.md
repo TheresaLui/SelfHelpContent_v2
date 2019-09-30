@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="d4defdbc-214f-4235-a6b5-b4d17b707f65"
 />
 
 # setup and configuration/upgrading sql vm or sql edition

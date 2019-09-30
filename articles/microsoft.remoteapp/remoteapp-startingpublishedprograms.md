@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="2b6f9d86-5440-4151-8944-4101cd0f0be4"
 />
 
 # user experience/starting published programs

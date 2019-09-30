@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="1fdecdb9-25ca-410c-b731-42f6222fe8ea"
 />
 
 # npm/expressroutemonitor

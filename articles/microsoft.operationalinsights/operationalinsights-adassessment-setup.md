@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="66931c3d-ed65-4205-b278-bb2862d57805"
 />
 
 # adassessment-setup

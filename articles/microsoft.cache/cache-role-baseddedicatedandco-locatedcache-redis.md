@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
+	articleId="8b98fbd7-e9e4-44a5-aa9d-ceb8c0b4b117"
 />
 
 # role-based (dedicated and co-located) cache

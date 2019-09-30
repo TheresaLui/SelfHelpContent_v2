@@ -10,6 +10,7 @@ description="diagnostictools/nexthop"
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="a4dd9713-f962-4bc6-a389-6b79764692f7"
 />
 
 # diagnostictools/nexthop

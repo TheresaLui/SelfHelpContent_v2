@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="c039bcd4-350c-4fa1-84ac-5897badee8dd"
 />
 
 # Intune for Education - Take a test profile

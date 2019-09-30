@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
+	articleId="0b0579e2-2fdc-4472-818a-999cbd44f0ea"
 />
 
 # I'm having an issues with my YARN application

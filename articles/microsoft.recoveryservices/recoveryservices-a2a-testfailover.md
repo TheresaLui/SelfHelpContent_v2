@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="39034396-bdb0-426d-84e0-c7386d72afd2"
 />
 
 # Run a test failover from  Azure to Azure
@@ -17,6 +18,7 @@
 
 - [How to run a **Test Failover of Azure VM** to secondary Azure region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-dr-drill#run-a-test-failover)<br>
 - [Test Failover overwiew](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure)<br>
+- [What IP address is assigned to a VM during Test Failover?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-network-mapping#ip-assignment-behavior-during-test-failover)
 - [Issue] [*Connect button grayed out on VM*](https://aka.ms/unabletordpssh)<br>
 - [Issue] [*Connect button available and unable to RDP/SSH to VM*](https://aka.ms/unabletordpssh)<br>
 - [How to] [troubleshoot RDP connection to Windows VM?](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>

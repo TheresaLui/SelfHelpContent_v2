@@ -8,9 +8,10 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
+	articleId="7bedaf87-db7e-482b-8d50-cd4ffa87c410"
 />
 
-# Problems testing password rest policy
+# Problems testing password reset policy
 
 ## **Recommended steps**
 **I reset my password but it used a different policy from the one I set in the portal**

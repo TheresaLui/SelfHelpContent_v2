@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="7c12ced6-faaa-4c58-bd72-6d5dc8b2f176"
 />
 
 # "management/networking limits for expressroute"

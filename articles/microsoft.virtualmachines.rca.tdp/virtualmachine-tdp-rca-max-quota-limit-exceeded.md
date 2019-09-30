@@ -7,6 +7,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_rca-max-quota-limit-exceeded"
 	diagnosticScenario="DeploymentFailure"
@@ -16,6 +17,7 @@
 	productPesIds="14749,15571"
 	cloudEnvironments="public"
 />
+
 # We found a Quota limitation on your subscription
 
 <!--issueDescription-->
@@ -29,7 +31,7 @@ To identify the quota limit you are encountering for subscription **<!--$Subscri
 
 If you are encountering **Total Regional vCPUs** limit, you can deploy your desired size by following the steps in [Regional vCPU Quota Increase](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **Total Regional vCPUs** limit.
 
-If you are encountering **per VM Series vCPUs** limit, you can deploy your desized size by following the steps in [VM Series vCPU Limit Increase](https://docs.microsoft.com/en-us/azure/azure-supportability/per-vm-quota-requests#request-per-vm-series-vcpu-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **per VM Series vCPUs** limit.
+If you are encountering **per VM Series vCPUs** limit, you can deploy your desired size by following the steps in [VM Series vCPU Limit Increase](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests#request-per-vm-series-vcpu-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **per VM Series vCPUs** limit.
 
 **Consider Alternate Sizes or Locations**
 
@@ -41,6 +43,7 @@ To learn more about quota increase requests and how the Regional and VM Series v
 * [Understand Quota Limits](https://docs.microsoft.com/en-us/azure/azure-supportability/resource-manager-core-quotas-request)
 
 To learn more about how quotas are managed for Azure subscriptions, please refer to the following articles:<br>
+=======
+To deploy the desired VM, you must first increase your virtual CPU quota. See [How to view and increase your current quota](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request).<br>
 
-* [Learn about the new Subscription Usage + Quotas view that displays your current limits](https://blogs.msdn.microsoft.com/skeeler/2017/01/subscription-usage-and-quotas-in-the-azure-portal/)  
-* [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
+To learn more about how quotas are managed for Azure subscriptions, see [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits).<br>

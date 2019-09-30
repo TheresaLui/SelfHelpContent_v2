@@ -23,9 +23,8 @@ Your role **<!--$RoleName-->RoleName<!--/$rolename-->** availability has been pa
 
 <!--/issueDescription-->
 
-This planned maintenance update required a reboot of your Role Instance to apply the required updates to the infrastructure. The Role Instance was shut down while we patched the infrastructure, and then the Role Instance was restarted.<br> 
-To learn more about planned maintenance on Azure, please refer to the following article:<br>
-* [Planned maintenance for Cloud Services in Azure ](https://blogs.msdn.microsoft.com/kwill/2012/09/19/role-instance-restarts-due-to-os-upgrades/)<br>
+This planned maintenance update required a reimage of your Role Instance to apply the required updates to the infrastructure. The Role Instance was shut down while we patched the infrastructure, and then the Role Instance was restarted. Please note that during this patching activity while we preserve the Local Resource disk (usually C:), the Windows disk (usually D:) gets rebuilt. If you have stored any files on the Windows disk, they will get deleted during this reimage.<br> To learn more about disk partition preservation, please refer to the following article:<br>
+* [Windows Azure Disk Partition Preservation](https://blogs.msdn.microsoft.com/kwill/2012/10/05/windows-azure-disk-partition-preservation/)<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you have two or more instance for each of your Web\Worker Role.<br>
 To learn more about the kind of planned maintenance events that can impact the availability of your Cloud Service, their Notifications and mitigation strategy, please refer to the following articles:<br>

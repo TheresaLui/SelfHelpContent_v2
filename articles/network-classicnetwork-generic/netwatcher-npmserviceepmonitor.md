@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="518e42dd-33b4-4d35-b923-1fa4c43e3528"
 />
 
 # npm/serviceendpointmonitor

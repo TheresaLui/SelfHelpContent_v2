@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="eb4c9980-c265-4173-b999-3673174cebf3"
 />
 
 # Setting up Alerts

@@ -11,6 +11,7 @@
 	resourceTags="devices_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="ba8d40d9-9b48-47a5-be9c-afb7ff2f8df7"
 />
 
 # Why is there no MDM or Compliant status on my device?

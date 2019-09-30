@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public, MoonCake"
+	articleId="f7aa6e59-5ef8-462d-aad9-22a1155e103e"
 />
 
 # How to get Azure Storage metrics and logs
