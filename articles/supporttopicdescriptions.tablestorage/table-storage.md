@@ -60,13 +60,6 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
 			"useInDiagnoseAndSolve": ""
 		},
 		{
-			"id": "c7dd7d9f-9b6d-6c47-a598-c65dd743a8eb",
-			"shortDescription": "",
-			"category": "",
-			"searchTags": "",
-			"useInDiagnoseAndSolve": ""
-		},
-		{
 			"id": "0905fe1f-c2bc-5eed-d5c4-52277fd1dbd4",
 			"shortDescription": "Issues connecting to table storage such as timeouts, throttling, dropped connections, etc",
 			"category": "Connectivity",
