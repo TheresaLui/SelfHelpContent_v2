@@ -154,7 +154,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         {
             "id": "caf1656c-c7d0-6086-16ca-5801f401bb7e",
             "longDescription": "",
-            "shortDescription": "Customers can use this category of support topics for managing existing VPN Gateways.",
+            "shortDescription": "Reset, resize or manage an existing VPN Gateway.",
             "category": "Management",
             "searchTags": "VPN, Gateway, Site-to-site, S2S, P2S, Point-to-site",
             "useInDiagnoseAndSolve": "TRUE"
@@ -162,7 +162,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         {
             "id": "59297240-0228-3915-8fae-553a01974f0b",
             "longDescription": "",
-            "shortDescription": "Customers can use this support topic to get help with performance issues such as latency or throughput.",
+            "shortDescription": "Running mission-critical workloads require both performance and reliability. Get help with performance issues such as latency or throughput.",
             "category": "Performance",
             "searchTags": "VPN, Gateway, Site-to-site, S2S, P2S, Point-to-site, performance",
             "useInDiagnoseAndSolve": "TRUE"
