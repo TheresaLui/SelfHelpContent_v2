@@ -18,7 +18,7 @@
 
 # Sign-In issues into Azure AD with AD FS due a mismatch of the token signing certificate
 
-<!--/issueDescription-->
+<!--issueDescription-->
 
 We have detected sign-in issues for one or more of your federated domains. This is caused by a mismatch between the token signing certificate that AD FS is using to issue authentication tokens and the public key that Azure AD is using to validate the tokens. This error could occur due to your federation metadata not being available externally.
 
