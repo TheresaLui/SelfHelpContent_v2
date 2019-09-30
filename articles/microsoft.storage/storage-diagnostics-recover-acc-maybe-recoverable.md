@@ -1,6 +1,6 @@
 ﻿<properties
-pageTitle="Cannot recover Storage Blob Container"
-description="Cannot recover Storage Blob Container"
+pageTitle="Deleted storage account(s) might be recoverable"
+description="Deleted storage account(s) might be recoverable"
 infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
@@ -8,7 +8,7 @@ authors="passaree"
 ms.author="passap"
 displayOrder=""
 articleId="Storagev2insights_acct_recovery_maybe"
-diagnosticScenario="Storage Blob Container is not recoverable due to GC"
+diagnosticScenario="Deleted storage account(s) might be recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
@@ -16,8 +16,8 @@ cloudEnvironments="public"
 />
 
 # Storage Account Recovery
-<!--/issueDescription-->
-Deleted storage accounts might be recoverable
+<!--issueDescription-->
+Deleted storage accounts might be recoverable.
 <!--/issueDescription-->
 
 ### 1. Storage account(s) recovery successful
