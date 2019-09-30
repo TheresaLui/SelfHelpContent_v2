@@ -830,7 +830,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
-            "shortDescription": "VMs might sometimes restart without evidence of the user having initiated the operation. This could be due to factors such as an OS-related update or a guest OS on the machine",
+            "shortDescription": "VMs might sometimes restart without the user intitiating the operation - this could be due to factors such as an OS-related update or a guest OS on the machine",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
