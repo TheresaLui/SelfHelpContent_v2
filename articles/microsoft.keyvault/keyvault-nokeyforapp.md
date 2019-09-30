@@ -15,7 +15,7 @@
 />
 
 # Application Cannot Obtain or Use a Key
-## **Recommended steps**
+## **Recommended Steps**
 
 * Authorize an application to use a key or secret. Assume for this example that the service principal name (spn) is "yourSPN" and that the user principal name is "yourUPN": 
 
