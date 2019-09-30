@@ -27,15 +27,15 @@ The servers in Azure datacenters are partitioned into clusters. The Classic Virt
 
 We apologize for the inconvenience. You have the following options:  
 
-  * Migrate the IaaS classic virtual machine resources to Azure Resource Manager using the steps outlined in:
+* Migrate the IaaS classic virtual machine resources to Azure Resource Manager using the steps outlined in:
   
     - [Azure CLI commands to migrate](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-cli#step-1-prepare-for-migration)
     - [Azure PowerShell commands to migrate](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-ps#step-1-plan-for-migration)
     - [Azure Portal to migrate](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-overview#migration-of-storage-accounts)
 
-	* Consider [planning your migration to ARM](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-plan#plan)
-	* Copy the VM’s disks and use them to create a new VM instance (i.e. clone/copy VM) with the same data as the original VM instance
-      	* Downsize the VM to check if the cluster can allocate the VM
+* Consider [planning your migration to ARM](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-plan#plan)
+* Copy the VM’s disks and use them to create a new VM instance (i.e. clone/copy VM) with the same data as the original VM instance
+* Downsize the VM to check if the cluster can allocate the VM
 
 If you still encounter a **Service Allocation Failure**, please consider using a different VM size, or deploying to another location.
 
