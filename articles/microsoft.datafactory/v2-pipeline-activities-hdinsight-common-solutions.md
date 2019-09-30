@@ -24,7 +24,7 @@ If you have received an error message from HDInsight activities, including Hive,
 
 * [ADF Troubleshooting Guide](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide#hdinsight) __please read to understand your error codes__ <br>
 
-* [HDInsight Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide) from HDInsight team offers troubling shooting guide for each HDInsight environments <br>
+* [HDInsight Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide) from HDInsight team offers troubleshooting guide for each HDInsight environments <br>
 
 * Activities Documents, including: <br>
   * HDInsight [Hive Activity](https://docs.microsoft.com/azure/data-factory/transform-data-using-hadoop-hive) <br>
