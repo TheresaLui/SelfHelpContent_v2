@@ -17,7 +17,7 @@
 
 ## **Recommended Documents**
 
-* [Server-side configuration tuning](https://docs.microsoft.com/en-us/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues#server-side-config-tunings) to improve performance
+* [Server-side configuration tuning](https://docs.microsoft.com/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues#server-side-config-tunings) to improve performance
 
 * Did you know that Writes to Hbase would be 4 to 10x faster with our Accelerated Writes feature for Apache HBase in Azure HDInsight? Accelerated Writes uses Azure premium SSD managed disks to improve performance of the Apache HBase Write Ahead Log (WAL). To learn more about it please follow [Azure HDInsight Accelerated Writes for Apache HBase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes)
 
