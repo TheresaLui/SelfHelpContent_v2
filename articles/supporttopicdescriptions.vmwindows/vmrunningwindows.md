@@ -214,7 +214,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "12ba6e9b-cd71-6f10-0f95-b4028afcd4da",
-            "shortDescription": "Common problem related to creating a new Azure virtual machine such as provisioning or allocation failures",
+            "shortDescription": "Common problems related to creating a new Azure virtual machine such as provisioning or allocation failures",
             "category": "Deployment",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -263,7 +263,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "af9e6ed0-943e-ea7e-054b-62684f3a5226",
-            "shortDescription": "Resolve issues when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
+            "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
             "category": "Deployment",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -487,7 +487,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "78338998-486e-d645-07e5-4c90760f5b3a",
-            "shortDescription": "Your virtual machine has entered a non-bootable state and is either not booting at all or is on a reboot loop",
+            "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -830,7 +830,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
-            "shortDescription": "Covers issues related unexpected restarts of virtual machines on Azure due to an OS updates or guest OS on the machine",
+            "shortDescription": "Covers issues related unexpected restarts of your VM on Azure due to an OS update or guest OS on the machine",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
