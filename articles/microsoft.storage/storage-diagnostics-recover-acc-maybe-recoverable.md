@@ -12,7 +12,7 @@ diagnosticScenario="Deleted storage account(s) might be recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Storage Account Recovery

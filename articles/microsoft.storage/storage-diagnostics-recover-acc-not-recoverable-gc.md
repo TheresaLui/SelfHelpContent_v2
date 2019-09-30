@@ -12,7 +12,7 @@ diagnosticScenario="Deleted storage account(s) are not recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Unable to recover storage account(s) because deleted account was already garbage collected
