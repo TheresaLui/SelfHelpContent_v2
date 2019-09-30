@@ -7,7 +7,7 @@
     ms.author="chiragpa"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32637211"
+    supportTopicIds="32637211,32683760"
     resourceTags="linux"
     productPesIds="16450"
     cloudEnvironments="public"
