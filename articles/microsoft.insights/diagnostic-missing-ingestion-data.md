@@ -6,11 +6,13 @@
     resource="components"
     authors="debugthings"
     ms.author="jamdavi"
-    selfHelpType="diagnostic"
+    displayOrder=""
     articleId="diagnostic-missing-ingestion-data"
     diagnosticScenario="ApplicationInsightsMissingDataDiagnostic"
-    productPesIds="15693"
+    selfHelpType="diagnostic"
     supportTopicIds=""
+    resourceTags=""
+    productPesIds="15693"
     cloudEnvironments="public"
  />
 
