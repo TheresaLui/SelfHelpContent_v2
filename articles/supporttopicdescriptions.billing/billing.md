@@ -26,7 +26,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
   "SupportTopics": [
     {
       "id": "3ec1a070-f242-9ecf-5a7c-e1a88ce029ef",
-      "shortDescription": "",
+      "shortDescription": "Manage your billing and profile data used across Azure subscriptions",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -425,7 +425,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "25f29e3b-8a6b-780a-0848-2fab24972cf0",
-      "shortDescription": "",
+      "shortDescription": "Are there charges you do not understand on your bill? Use one of the below options to tell us more about your issue.",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""

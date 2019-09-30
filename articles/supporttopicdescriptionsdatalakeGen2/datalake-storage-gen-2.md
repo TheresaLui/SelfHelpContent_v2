@@ -25,13 +25,6 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
   "productLink3": "",
   "SupportTopics": [
     {
-      "id": "a28c1b93-3640-af67-e3dc-83b27d0bf2ca",
-      "shortDescription": "",
-      "category": "",
-      "searchTags": "",
-      "useInDiagnoseAndSolve": ""
-    },
-    {
       "id": "8c8263fe-7471-0c53-0983-0d04a87ab1c7",
       "shortDescription": "",
       "category": "",
