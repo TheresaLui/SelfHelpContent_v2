@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Service Objective Assignment Failed"
 	description="Service object assignment failed because of an ongoing capacity issue."
-	infoBubbleText="Found create server operation failed because there is an ongoing capacity issue.  See details on the right"
+	infoBubbleText="Found create server operation failed because there is an ongoing capacity issue. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="Xin-Cheng"

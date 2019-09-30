@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Subscription Not Ready"
-	description="Subscription is not ready for the operation because it is in registration process."
-	infoBubbleText="The subscription is in registration process. See details on the right"
+	pageTitle="Service Not Available"
+	description="Our service is not available in this region because the region is locked down."
+	infoBubbleText="Your subscription is restricted from provision servers in this region. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	displayOrder="100"
-	articleId="dbforpostgresql-asc-operation-subscriptionregister"
+	articleId="dbforpostgresql-asc-operation-serviceunavailable"
 	diagnosticScenario="OrcasPostgresOperationFailure"
 	selfHelpType="rca"
 	supportTopicIds="32639966, 32639980, 32639988, 32639998, 32640024, 32640028"
@@ -16,16 +16,17 @@
 	cloudEnvironments="public"
 />
 
-# Operation is failed because subscription is in registration process.
+# Our service is not available in this region because the region is locked down.
 
 <!--issueDescription-->
 
-Thank you for contacting Microsoft support team. During our investigation we found that your operation failed because your subscription is still in registration process. 
+Thank you for contacting Microsoft support team. Our service is currently not available in this region.
 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-This issue should be transient, please retry your operation later.
+
+Please try other nearby regions.
 
 ## **Recommended Documents**
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)

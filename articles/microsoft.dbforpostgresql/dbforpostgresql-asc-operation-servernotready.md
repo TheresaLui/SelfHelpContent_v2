@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Operation Timed Out"
 	description="Operation timed out because the backend is not ready to perform it."
-	infoBubbleText="Found operation on PostgreSQL server failed because the backend is not ready to perform it.  See details on the right"
+	infoBubbleText="Found operation on PostgreSQL server failed because the backend is not ready to perform it. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="Xin-Cheng"

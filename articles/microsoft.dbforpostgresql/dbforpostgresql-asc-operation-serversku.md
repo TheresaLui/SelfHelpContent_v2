@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Server sku is not supported"
 	description="Operation failed because server version, editio, hardware generation, number of vcores or storage size are not set correctly. "
-	infoBubbleText="Found operation on PostgreSQL server failed because server version, editio, hardware generation, number of vcores or storage size are not set correctly. .  See details on the right"
+	infoBubbleText="Found operation on PostgreSQL server failed because server version, editio, hardware generation, number of vcores or storage size are not set correctly. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="Xin-Cheng"

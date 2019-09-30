@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Subscription Not Ready"
-	description="Subscription is not ready for the operation because it is in registration process."
-	infoBubbleText="The subscription is in registration process. See details on the right"
+	pageTitle="Edition or Sku Not Supported"
+	description="The given edition or sku is not supported in this region."
+	infoBubbleText="Your server edition or sku is not supported in this region. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	displayOrder="100"
-	articleId="dbforpostgresql-asc-operation-subscriptionregister"
+	articleId="dbforpostgresql-asc-operation-skunotsupported"
 	diagnosticScenario="OrcasPostgresOperationFailure"
 	selfHelpType="rca"
 	supportTopicIds="32639966, 32639980, 32639988, 32639998, 32640024, 32640028"
@@ -16,16 +16,16 @@
 	cloudEnvironments="public"
 />
 
-# Operation is failed because subscription is in registration process.
+# Given edition or sku is not supported in this region
 
 <!--issueDescription-->
 
-Thank you for contacting Microsoft support team. During our investigation we found that your operation failed because your subscription is still in registration process. 
+Thank you for contacting Microsoft support team. Your server edition or sku is not supported in this region.
 
 <!--/issueDescription-->
-
 ## **Recommended Steps**
-This issue should be transient, please retry your operation later.
+
+Please try other edition/skus or use other regions.
 
 ## **Recommended Documents**
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)

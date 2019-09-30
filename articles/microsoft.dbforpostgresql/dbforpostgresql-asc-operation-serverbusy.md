@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Server is Busy with Other Operations"
 	description="Operation is failed because server is busy with other operations."
-	infoBubbleText="Found operation on PostgreSQL server failed because server is busy with other operations.  See details on the right"
+	infoBubbleText="Found operation on PostgreSQL server failed because server is busy with other operations. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="Xin-Cheng"

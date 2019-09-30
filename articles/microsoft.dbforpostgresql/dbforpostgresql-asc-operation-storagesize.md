@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Storage Size Does Not Meet Requirement"
 	description="Operation failed because the provided storage size does not meet requirement."
-	infoBubbleText="Found create or update PostgreSQL server failed because the input storage size does not meet our requirement .  See details on the right"
+	infoBubbleText="Found create or update PostgreSQL server failed because the input storage size does not meet our requirement. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	authors="Xin-Cheng"
