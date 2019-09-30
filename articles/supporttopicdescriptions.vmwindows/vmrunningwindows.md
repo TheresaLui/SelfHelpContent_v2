@@ -802,7 +802,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "fd32c173-79fe-462d-bfff-aeef92800055",
-            "shortDescription": "Issues where I need help diagnosing the virtual machine restart",
+            "shortDescription": "Look into actions and events that can cause VMs to reboot and understand how to avoid unexpected reboots or reduce the impact of such issues",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
