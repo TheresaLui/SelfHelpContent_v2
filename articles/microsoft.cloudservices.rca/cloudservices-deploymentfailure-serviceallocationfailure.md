@@ -4,7 +4,7 @@
 	infoBubbleText="Found recent deployment failure. See details on the right."
 	service="Microsoft.ClassicCompute"
 	resource="virtualMachines"
-	authors="ZihanZhang"
+	authors="zihzhan"
 	ms.author="zihzhan"
 	displayOrder=""
   	articleId="cloudservices-deploymentfailure-serviceAllocationFailure"
