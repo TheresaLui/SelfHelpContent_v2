@@ -830,7 +830,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
-            "shortDescription": "Covers issues related unexpected restarts of your VM on Azure due to an OS update or guest OS on the machine",
+            "shortDescription": "Covers issues related to unexpected restarts of your VM on Azure due to an OS update or guest OS on the machine",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
