@@ -18,7 +18,7 @@
 
 ## **No data found in the time range**
 <!--issueDescription-->
-Our diagnostic has detected that you have not sent any data to the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. This is an indication that there is a configuration issue with your application and you should follow the troubleshooting steps below to correct your issue.
+Our diagnostic has detected that the configured application(s) have not sent any data to the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. This is an indication that there is a configuration issue with your application and you should follow the troubleshooting steps below to correct your issue.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
