@@ -3,13 +3,14 @@
     description="Self-help for blob storage lifecycle"
 	service="microsoft.storage"
 	resource="storage"
-	authors=""
+	authors="Passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608636"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="7a2a66b3-995b-4693-9557-788e20b8e9b1"
 />
 

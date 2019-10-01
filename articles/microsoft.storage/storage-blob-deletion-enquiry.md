@@ -4,6 +4,7 @@ description="Blob deletion enquiry RCA"
 service="microsoft.storage"
 resource="storage"
 authors="shines"
+ms.author="passap"
 displayOrder=""
 articleId="Storagev2insights_Blob_deletion_enquiry_RCA"
 diagnosticScenario="Blob Deletion"
@@ -11,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="storage"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # **Blob | Container deletion RCA**

@@ -13,7 +13,7 @@
 	supportTopicIds="32631238"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Account Failover Read/Write not Occuring on New Primary Storage Account
