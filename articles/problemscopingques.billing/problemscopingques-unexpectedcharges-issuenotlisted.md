@@ -25,17 +25,9 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
-         {
-            "id": "subscriptionid_details",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription id",
-            "required": false
-        },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 2,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Brief summary of the issue",
@@ -44,7 +36,7 @@
         },
 	{
             "id": "error_details",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": false,
             "displayLabel": "Error message (if any)",
