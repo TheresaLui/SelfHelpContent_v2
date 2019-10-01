@@ -144,7 +144,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "67c173d3-1cb5-d61a-3502-a8d6bc279b22",
-            "shortDescription": "Covers issues related to connecting to a virtual machine using RDP or SSH on Azure",
+            "shortDescription": "Troubleshoot issues with connecting to your VM via RDP or SSH due to configuration or other changes",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -214,14 +214,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "12ba6e9b-cd71-6f10-0f95-b4028afcd4da",
-            "shortDescription": "A configuration change to the virtual machine has impacted RDP or SSH connectivity",
+            "shortDescription": "Common problems related to creating a new Azure virtual machine such as provisioning or allocation failures",
             "category": "Deployment",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "57f62030-d8ca-14f0-21d8-d13a38da9b44",
-            "shortDescription": "Resolve errors when starting or stopping a virtual machine running in Azure",
+            "shortDescription": "You've configured the Start/Stop VM solution but it doesn't start or stop all the VMs configured",
             "category": "Deployment",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -263,7 +263,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "af9e6ed0-943e-ea7e-054b-62684f3a5226",
-            "shortDescription": "Covers issues related to starting or stopping a virtual machine on Azure",
+            "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
             "category": "Deployment",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -305,7 +305,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "3bbbcb43-c3a5-64eb-eb73-f8b254e36d32",
-            "shortDescription": "Covers issues related to configuration of a virtual machine on Azure",
+            "shortDescription": "Covers issues related to configuration of a failover cluster, RDS or disk encryption for a VM running in Azure",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -487,7 +487,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "78338998-486e-d645-07e5-4c90760f5b3a",
-            "shortDescription": " ",
+            "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -627,7 +627,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "32e9eab8-0dfe-2ee6-aa44-226df969736c",
-            "shortDescription": "Covers issues related to Virtual Disk Management with virtual machines on Azure",
+            "shortDescription": "Issues when resizing, attaching/detaching or performing other tasks on a virtual disk",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -795,14 +795,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "4c8242d3-5e7c-8369-d5fb-95c4cd3de057",
-            "shortDescription": "Covers issues related to performance of the virtual machines on Azure",
+            "shortDescription": "Troubleshoot issues that can affect a Windows VM's performance such as high usage of CPU, disk space or memory",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "fd32c173-79fe-462d-bfff-aeef92800055",
-            "shortDescription": "Issues where I need help diagnosing the virtual machine restart",
+            "shortDescription": "Look into actions and events that can cause VMs to reboot and understand how to avoid unexpected reboots",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -830,8 +830,15 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
-            "shortDescription": "Covers issues related unexpected restarts of virtual machines on Azure",
+            "shortDescription": "VMs might sometimes restart without the user intitiating the operation - this could be due to factors such as an OS update or a guest OS on the machine",
             "category": "Management",
+            "searchTags": "xyz",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "4d78b174-3203-a3ac-9e08-41fb35de6354",
+            "shortDescription": "",
+            "category": "",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         }

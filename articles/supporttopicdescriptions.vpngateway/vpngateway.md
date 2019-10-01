@@ -34,7 +34,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         {
             "id": "1ed231f6-71f9-0f14-fb0a-ce15bca04c53",
             "longDescription": "",
-            "shortDescription": "Customers can use this support topic to configure their device for Point-to-Site connections.",
+            "shortDescription": "Common Point-to-Site connection problems that you might experience, such as those related to authentication or network connection.",
             "category": "Configuration and setup",
             "searchTags": "VPN, Gateway, P2S, Point-to-site",
             "useInDiagnoseAndSolve": "TRUE"
@@ -82,7 +82,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         {
             "id": "4427d63a-aeb1-8a8b-434c-f93de806bd3c",
             "longDescription": "",
-            "shortDescription": "Customers can use this category of support topics for configuring VPN Gateway.",
+            "shortDescription": "Issues related to configuring different kinds of VPN gateways or verifying the VPN connection.",
             "category": "Configuration and setup",
             "searchTags": "VPN, Gateway, Site-to-site, S2S, P2S, Point-to-site",
             "useInDiagnoseAndSolve": "TRUE"
@@ -106,7 +106,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         {
             "id": "ce423144-c8f2-ba63-dcf5-76ae2658b584",
             "longDescription": "",
-            "shortDescription": "Customers can use this category of support topics to get help related to Connectivity issues.",
+            "shortDescription": "Resolve errors related to connecting to your VPN Gateway, or with connectivity-related configuration issues.",
             "category": "Connectivity",
             "searchTags": "VPN, Gateway, Site-to-site, S2S, P2S, Point-to-site, Connectivity",
             "useInDiagnoseAndSolve": "TRUE"
@@ -154,7 +154,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         {
             "id": "caf1656c-c7d0-6086-16ca-5801f401bb7e",
             "longDescription": "",
-            "shortDescription": "Customers can use this category of support topics for Managing existing VPN Gateways.",
+            "shortDescription": "Reset, resize or manage an existing VPN Gateway.",
             "category": "Management",
             "searchTags": "VPN, Gateway, Site-to-site, S2S, P2S, Point-to-site",
             "useInDiagnoseAndSolve": "TRUE"
@@ -162,7 +162,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         {
             "id": "59297240-0228-3915-8fae-553a01974f0b",
             "longDescription": "",
-            "shortDescription": "Customers can use this support topic to get help with performance issues such as latency or throughput.",
+            "shortDescription": "Running mission-critical workloads require both performance and reliability. Get help with performance issues such as latency or throughput.",
             "category": "Performance",
             "searchTags": "VPN, Gateway, Site-to-site, S2S, P2S, Point-to-site, performance",
             "useInDiagnoseAndSolve": "TRUE"

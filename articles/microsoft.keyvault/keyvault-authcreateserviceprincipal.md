@@ -5,13 +5,13 @@
 	resource="vaults"
 	authors="jlichwa"
 	ms.author="jalichwa"
-	displayOrder="9"
+	displayOrder="8"
 	selfHelpType="generic"
 	supportTopicIds="32596883"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
-	articleId="keyvault-authcreateserviceprincipal"
+	articleId="keyvault-authcreateserviceprincipal2"
 />
 
 # Azure Key Vault Create Service Principal
@@ -23,7 +23,7 @@
 
 * Unauthorized access, access denied, forbidden, or similar error: 
 
-	The principal used doesn't have access to the resource it's trying to access. Grant the App Service's access to a resource.
+	The principal used doesn't have access to the resource it's trying to access. Grant the App Services access to a resource.
 
 ## **Recommended Documents**
 
