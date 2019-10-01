@@ -16,7 +16,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Unexpected Charges-issuenotlisted",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please attach the screenshot of the error (if any)",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -31,14 +31,14 @@
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "Provide your Subscription id",
-            "required": true
+            "required": false
         },
         {
             "id": "error_details",
             "order": 3,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": false,
-            "displayLabel": "Screenshot of any error message",
+            "displayLabel": "Error message (if any)",
             "watermarkText": "",
             "required": false
         },
