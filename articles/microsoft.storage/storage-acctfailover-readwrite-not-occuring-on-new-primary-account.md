@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Account Failover Read/Write not Occuring on New Primary Storage Account"
-	description="Azure Account Failover Read/Write not Occuring on New Primary Storage Account"
+	pageTitle="Azure Account Failover Read/Write not Occurring on New Primary Storage Account"
+	description="Azure Account Failover Read/Write not Occurring on New Primary Storage Account"
 	infoBubbleText=""
 	service="microsoft.storage"
 	resource="storageaccounts"
@@ -16,7 +16,7 @@
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
-# Azure Account Failover Read/Write not Occuring on New Primary Storage Account
+# Azure Account Failover Read/Write not Occurring on New Primary Storage Account
 
 ## **Recommended Documents**
 

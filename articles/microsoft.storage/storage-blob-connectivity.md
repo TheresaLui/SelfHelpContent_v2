@@ -7,7 +7,7 @@
 	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602710,32602725,32602728"
+	supportTopicIds="32602725,32602728"
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
