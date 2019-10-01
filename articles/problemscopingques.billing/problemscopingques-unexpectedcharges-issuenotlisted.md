@@ -34,22 +34,22 @@
             "required": false
         },
         {
-            "id": "error_details",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": false,
-            "displayLabel": "Error message (if any)",
-            "watermarkText": "",
-            "required": false
-        },
-        {
             "id": "problem_description",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Brief summary of the issue",
             "watermarkText": "Provide brief summary of the issue",
             "required": true
+        },
+	{
+            "id": "error_details",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": false,
+            "displayLabel": "Error message (if any)",
+            "watermarkText": "",
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
