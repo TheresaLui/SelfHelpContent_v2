@@ -21,6 +21,8 @@ Virtual network rules are firewall rules that control whether your Azure Databas
 ## **Recommended Steps**
 
 * Ensure that the Azure Database for MariaDB uses the General Purpose or Memory optimized tier. The Basic tier does not support VNet service endpoints.
+* If you are using multiple subscriptions make sure that both the subscription has the Microsoft.Sql resource provider registered. For more information refer to the [resource-manager-registration](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-supported-services) how-to.
+* If you are using multiple subscriptions, all of them must be in the same Azure Active Directory tenant
 * Ensure that you have turned on [VNet service endpoints](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview) for your VNet
 * If you are using the portal, review the [Configure a VNet connection using Portal](https://docs.microsoft.com/azure/mariadb/howto-manage-vnet-portal/) how-to
 * If you are using the Azure CLI, review the [Configure a VNet connection using Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-manage-vnet-cli/) how-to

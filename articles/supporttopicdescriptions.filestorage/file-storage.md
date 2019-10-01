@@ -46,13 +46,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "searchTags": "Azure Backup,snapshots",
       "useInDiagnoseAnsSolve": ""
     },
-    {
-      "id": "26539ab9-e313-4304-ead8-3661606d8ae8",
-      "shortDescription": "",
-      "category": "",
-      "searchTags": "",
-      "useInDiagnoseAnsSolve": ""
-    },
+
     {
       "id": "f83fd4de-adce-504b-6185-361be7f5a6ac",
       "shortDescription": "Mounted Azure file shares on a Windows client are disconnected",
