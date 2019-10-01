@@ -27,7 +27,7 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 We apologize for the inconvenience.  Due to various technical constraints, vCPU quotas for virtual machines and virtual machine scale sets are enforced at two tiers for each subscription, in each region. The first tier is the **Total Regional vCPUs** limit (across all VM Series), and the second tier is the **per VM Series vCPUs** limit (such as the D-series vCPUs).
 
 ## **Recommended Steps**
-To identify the quota limit you are encountering for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->**, you can use the Azure CLI command [az-vm-list-usage](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-usage).  For example, if you are looking to check quota limit for west us region, please run **az vm list-usage --location westus | --out table**
+To identify the quota limit you are encountering for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->**, you can use the Azure CLI command [az vm list-usage](https://docs.microsoft.com/azure/virtual-machines/linux/quotas#check-usage).
 
 **Submit Quota Increase Request**
 
