@@ -23,7 +23,7 @@ Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does
 <!--/issueDescription-->
 
 ## **Recommended Steps**
- Storage data tiering to hot, cool, or archive is only supported in General Purpose v2 (GPv2) and Blob storage accounts and only available for block blobs. For Premium Block Blob accounts Lifecycle Management can be used with deletion policies.
+ Storage data tiering to hot, cool, or archive is only supported in General Purpose v2 (GPv2) and Blob storage accounts and only available for block blobs. 
 
 ### Account level settings
 
