@@ -28,7 +28,7 @@ SFTP is a network protocol that provides file access, file transfer, and file ma
 
 * SFTP connector supports private key formats – use tools such as PuttyGen or PuTTY to generate private key.  If you are using an SSH private key, make sure you copy the key from your SSH private key file and paste that key into the connection details.
 
-**Note**: Don't manually enter or edit the key.
+  **Note**: Don't manually enter or edit the key.
 
 * If you are using ISE (Integration Service Environment), you may have [one or more blocked ports](https://docs.microsoft.com/azure/logic-apps/connect-virtual-network-vnet-isolated-environment#check-network-ports)
 
