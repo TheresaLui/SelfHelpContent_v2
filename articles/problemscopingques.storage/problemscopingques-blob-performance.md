@@ -13,6 +13,7 @@
 # Blob and ADLS performance issue
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Performance issue on blob scoping question",
     "fileAttachmentHint": "",
@@ -38,7 +39,7 @@
                 }
             ],
             "required": true
-        },        
+            },        
         {
             "id": "issue_nature",
             "order": 2,
@@ -58,10 +59,10 @@
                 {
                     "value": "dont_know_answer",
                     "text": "None of the above"
-                }              
+                    }              
             ],
             "required": true
-        },           
+            },           
         {
             "id": "problem_start_time",
             "order": 5,
@@ -69,7 +70,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local start time of the most recent occurrence",
             "required": true
-        },
+            },
         {
             "id": "problem_end_time",
             "order": 6,
@@ -77,7 +78,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local end time of the most recent occurrence. Enter current time if the performance issue is still continuing",
             "required": true
-        },
+            },
         {
             "id": "request_id",
             "order": 9,
@@ -87,7 +88,7 @@
             "watermarkText": "Request ID of failed operation ending with 000000",
             "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
             "required": false
-        },
+            },
         {
             "id": "error_code_dropdown",
             "order": 12,
@@ -122,7 +123,7 @@
                 }
             ],
             "required": false
-        },
+            },
         {
             "id": "blob_container",
             "order": 15,
@@ -135,16 +136,19 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "None of the above"
             },
-            "defualtDropdownOptions": [
+            "DropdownOptions": [
                 {
                     "value": "NoBlobContainer",
                     "text": "Not specific to a blob container"
                 }
             ],
             "required": false
-        },
+            },
         {
             "id": "blob_path",
             "order": 16,
