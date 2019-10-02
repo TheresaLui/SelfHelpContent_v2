@@ -22,8 +22,6 @@
 There is Service interruption/outage with Databricks Service.
 <!--/issueDescription-->
 
-
-
 # Recommended Steps
 
 * Please refer to recommended action link of insights to know about current status and RCA
