@@ -19,5 +19,5 @@
 # We ran diagnostics on your resource and found the following issue
 
 <!--issueDescription-->
-There is Service interruption/outage with Databricks Service. Please refer to recommended action link of insights to know about current status and RCA
+There is Service interruption/outage with Databricks Service. Please refer to recommended action link of insights to know about current status and RCA.
 <!--/issueDescription-->
