@@ -18,12 +18,12 @@
 
 ## **Recommended Steps**
 
-* For setting up IP-based firewall rules, refer to this document [Azure SQL Data Warehouse IP firewall rules](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure?toc=/azure/sql-data-warehouse/toc.json&bc=/azure/sql-data-warehouse/breadcrumb/toc.json).
-* For setting up virtual network private link, refer to this document [Private Link for Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview).
-* For Polybase connectivity from Azure SQL Data Warehouse to Azure Storage under firewalls or virtual network, refer to [this](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview#connecting-from-an-azure-sql-data-warehouse-to-azure-storage-using-polybase) document.
-* For virtual network service endpoints, refer to this document [Use virtual network service endpoints for database servers](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?toc=/azure/sql-data-warehouse/toc.json&bc=/azure/sql-data-warehouse/breadcrumb/toc.json).
-* For details on Azure SQL Data Warehouse connectivity architecture, refer to this document [Azure SQL Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture).
-* For details on Network Security Groups, refer to this document [Security groups](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags).
+* For setting up IP-based firewall rules, refer to this document [Azure SQL Data Warehouse IP firewall rules](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure?toc=/azure/sql-data-warehouse/toc.json&bc=/azure/sql-data-warehouse/breadcrumb/toc.json)
+* For setting up virtual network private link, refer to this document [Private Link for Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview)
+* For Polybase connectivity from Azure SQL Data Warehouse to Azure Storage under firewalls or virtual network, refer to [this](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview#connecting-from-an-azure-sql-data-warehouse-to-azure-storage-using-polybase) document
+* For virtual network service endpoints, refer to [Use virtual network service endpoints for database servers](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?toc=/azure/sql-data-warehouse/toc.json&bc=/azure/sql-data-warehouse/breadcrumb/toc.json)
+* For details on Azure SQL Data Warehouse connectivity architecture, refer to [Azure SQL Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture)
+* For details on Network Security Groups, refer to this [Security groups](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags) document
 
 ## **Recommended Documents**
 
