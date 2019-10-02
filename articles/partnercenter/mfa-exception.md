@@ -26,4 +26,4 @@ Before submitting a request for technical exception, please review all the docum
 
 * [Mandating MFA for your partner tenant](https://partner.microsoft.com/resources/collection/partner-security-requirements)
 * [Technical exception to Partner Center mandating MFA](https://docs.microsoft.com/partner-center/partner-security-requirements)
-*
+
