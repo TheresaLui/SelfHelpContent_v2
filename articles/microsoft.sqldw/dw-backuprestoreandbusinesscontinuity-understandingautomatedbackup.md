@@ -28,4 +28,4 @@ Snapshots are not taken when the data warehouse is paused. If a snapshot is take
 ## **Recommended Documents**
 
 * [More details about backup and restore in SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-points)
-* [How to create restore points](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-restore-points)
+* [How to create restore points](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-points)
