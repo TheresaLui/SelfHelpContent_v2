@@ -40,13 +40,13 @@
             "id": "mfa_exchange",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Select "yes" if this issue is related to the use of Exchange Online PowerShell to manage customer resources, and Exchange Online PowerShell does not support MFA.",
+            "displayLabel": "Select 'yes' if this issue is related to the use of Exchange Online PowerShell to manage customer resources, and Exchange Online PowerShell does not support MFA.",
             "watermarkText": "Issue with Exchange Online PowerShell",
             "dropdownOptions": [
                 {
                     "value": "Yes",
                     "text": "Yes"
-                }
+                },
                 {
                     "value": "No",
                     "text": "No"
@@ -58,13 +58,13 @@
             "id": "mfa_thirdparty",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Select "yes" if the issue is related to the use of 3rd party MFA solution, which cannot be configured to convey to Azure Active Directory that MFA verification has been completed.",
+            "displayLabel": "Select 'yes' if the issue is related to the use of 3rd party MFA solution, which cannot be configured to convey to Azure Active Directory that MFA verification has been completed.",
             "watermarkText": "Isuse related to third party",
             "dropdownOptions": [
                 {
                     "value": "Yes",
                     "text": "Yes"
-                }
+                },
                 {
                     "value": "No",
                     "text": "No"
@@ -83,7 +83,7 @@
             "id": "mfa_thirdparty",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Microsoft does not recommend suppressing MFA verification for partner-related scenarios as it increases the security risk to both the partner and associated customers. Select "yes" to indicate that you understand the risk. ",
+            "displayLabel": "Microsoft does not recommend suppressing MFA verification for partner-related scenarios as it increases the security risk to both the partner and associated customers. Select 'yes' to indicate that you understand the risk. ",
             "watermarkText": "Agree to risks for suppressing MFA",
             "dropdownOptions": [
                 {
