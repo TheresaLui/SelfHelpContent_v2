@@ -14,7 +14,7 @@
     cloudEnvironments="public"
 />
 
-# **Resource Manager Throttling Help**
+# Resource Manager Throttling Help
 
 For each Azure subscription and tenant, Resource Manager allows up to 12,000 read requests per hour and 1,200 write requests per hour.
 
@@ -36,5 +36,5 @@ See [Resource Manager Throttling- Remaining Requests](https://docs.microsoft.com
 ## **Recommended Documents**
 
 - For a complete PowerShell example, see [Check Resource Manager Limits for a Subscription](https://github.com/Microsoft/csa-misc-utils/tree/master/psh-GetArmLimitsViaAPI).
-- For more information about limits and quotas, see [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/eazure/azure-subscription-service-limits).
+- For more information about limits and quotas, see [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits).
 - To learn about handling asynchronous REST requests, see [Track asynchronous Azure operations](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-async-operations).
