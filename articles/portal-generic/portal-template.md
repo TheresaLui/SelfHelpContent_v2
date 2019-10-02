@@ -14,18 +14,16 @@
 	articleId="9a769e67-a458-488f-b3f3-8ed0298efacb"
 />
 
-## Recommended Help
-
-* [Resolve errors for invalid template](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-invalid-template-errors)
 # Help with resolving ARM Template Deployment Issues
 
 Below are some quick steps to resolve common Azure template deployment errors.
 
 ## **Recommended Steps**
 
+* [Resolve errors for invalid template](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-invalid-template-errors)
 * [Troubleshoot common Azure deployment errors with Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors)
 
-## Error Codes
+### Error Codes
 
 There are two types of errors you can receive:
 
@@ -46,21 +44,8 @@ Select the message for more details. You see an **InvalidTemplateDeployment** er
 
 When the operation passes validation, but fails during deployment, you get a deployment error.
 
-To see deployment error codes and messages with PowerShell, use:
-
-```azurepowershell-interactive
-
-(Get-AzResourceGroupDeploymentOperation -DeploymentName exampledeployment -ResourceGroupName examplegroup).Properties.statusMessage
-
-```
-
-To see deployment error codes and messages with Azure CLI, use:
-
-```azurecli-interactive
-
-az group deployment operation list --name exampledeployment -g examplegroup --query "[*].properties.statusMessage"
-
-```
+* To see deployment error codes and messages with PowerShell, use `(Get-AzResourceGroupDeploymentOperation -DeploymentName exampledeployment -ResourceGroupName examplegroup).Properties.statusMessage`
+* To see deployment error codes and messages with Azure CLI, use `az group deployment operation list --name exampledeployment -g examplegroup --query "[*].properties.statusMessage"`
 
 In the portal, select the notification. You will see more details about the deployment. Select the option to find more information about the error.
 
