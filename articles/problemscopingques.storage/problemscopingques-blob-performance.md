@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Performance issue on blob"
 	description="Performance issue on blob and adls scoping question"
-	authors="AngshumaNayakMSFT"
+	authors="annayak"
     ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602726,32602727,32612602,32612604"
@@ -149,21 +149,11 @@
         {
             "id": "problem_description",
             "order": 20,
-            "visibility": "issue_nature == Reporting an ongoing performance issue || issue_nature == Need root cuase for a resolved performance issue",
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details like error message or exception stack",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "problem_description_advisory",
-            "order": 21,
-            "visibility": "problem_type == Advisory",
-            "controlType": "multilinetextbox",
-            "displayLabel": "Provide details of your advisory ask",
-            "required": true,
-            "useAsAdditionalDetails": true
-        },
+        },        
         {
             "id": "learn_more_text",
             "order": 25,
