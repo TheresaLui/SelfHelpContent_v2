@@ -21,7 +21,5 @@
 
 # Service interruption
 
-## **Recommended Documents**
-
 * Please refer to recommended action link of insights to know about current status and RCA
 
