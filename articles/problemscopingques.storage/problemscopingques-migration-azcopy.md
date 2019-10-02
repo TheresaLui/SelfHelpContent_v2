@@ -101,7 +101,7 @@
                     "text": "Don't know"
                 }
             ],
-            "required": true,
+            "required": false,
 	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
