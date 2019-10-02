@@ -19,12 +19,12 @@
 # We ran diagnostics on your resource and found the following issue
 
 <!--issueDescription-->
-There is ongoing outage with Databricks Service.
+There is Service interruption/outage with Databricks Service.
 <!--/issueDescription-->
 
 
 
-# Service interruption
+# Recommended Steps
 
 * Please refer to recommended action link of insights to know about current status and RCA
 
