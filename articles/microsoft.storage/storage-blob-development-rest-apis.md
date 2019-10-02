@@ -16,7 +16,7 @@
 
 # How to develop with REST APIs
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Azure Storage Services REST API Reference](https://docs.microsoft.com/rest/api/storageservices/)<br>
 - [Azure Storage Resource Provider REST API Reference](https://docs.microsoft.com/rest/api/storagerp/)<br>
