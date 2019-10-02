@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-* Please refer to mentioned ICM to know current status and RCA about ongoing issue.
+* Please refer to mentioned ICM to know current status and RCA
 
