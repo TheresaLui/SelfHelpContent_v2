@@ -23,7 +23,10 @@ Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does
 <!--/issueDescription-->
 
 ## **Recommended Steps**
- Storage data tiering to hot, cool, or archive is only supported in General Purpose v2 (GPv2) and Blob storage accounts and only available for block blobs. 
+
+Storage data tiering to hot, cool, or archive is only supported in General Purpose v2 (GPv2) and Blob storage accounts and only available for block blobs. 
+
+Convert from ZRS to LRS/GRS - Live migration from ZRS to LRS, GRS or RA-GRS is not supported. You will need to manually move the data to a new or an existing storage account.
 
 ### Account level settings
 
@@ -31,14 +34,12 @@ Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does
 * Account Redundancy – LRS, ZRS (ZRS does not support Archive tier), GRS, GZRS, RA-GRS, RA-GZRS (RA-GZRS does not support Archive tier)
 * Account Default Tier – Hot, Cool (Archive not available at the as a default account tier)
 
-
 ### Individual blob level settings 
 
-* With replication option LRS/GRS/RA-GRS - All three access tiers hot, cool and archive can be set.
-* With replication option ZRS/GZRS/RA-GZRS - Only hot and cool access tiers can be set.
-
+* With replication option LRS/GRS/RA-GRS - All three access tiers hot, cool and archive can be set
+* With replication option ZRS/GZRS/RA-GZRS - Only hot and cool access tiers can be set
  
- Please change to a supported account type or replication option to use your preferred access tier. 
+Please change to a supported account type or replication option to use your preferred access tier. 
 
 ## **Recommended Documents**
 
@@ -46,4 +47,4 @@ Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does
 * [Upgrade to a General-purpose v2 storage account](https://docs.microsoft.com/azure/storage/common/storage-account-upgrade)
 * [Blob Storage Accounts](https://docs.microsoft.com/azure/storage/common/storage-account-overview#blob-storage-accounts)
 * [General-purpose v2 Accounts](https://docs.microsoft.com/azure/storage/common/storage-account-overview#general-purpose-v2-accounts)
-* Convert from ZRS to LRS/GRS - Live migration from ZRS to LRS, GRS or RA-GRS is not supported. You will need to manually move the data to a new or an existing storage account.
+
