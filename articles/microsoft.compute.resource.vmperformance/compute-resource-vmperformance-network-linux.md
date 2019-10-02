@@ -9,7 +9,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32628277"
 	resourceTags="linux, redhat, Ubuntu"
-	productPesIds="16342,15571,15797,16454"
+	productPesIds="16342,15571,15797,16454,16470"
 	cloudEnvironments="public"
 	articleId="b72e0592-b8dc-4d5c-a67d-504d8630b742"
 />
