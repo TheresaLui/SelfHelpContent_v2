@@ -31,6 +31,10 @@
                 {
                     "value": "Advisory",
                     "text": "Advisory"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "None of the above"
                 }
             ],
             "required": true
@@ -50,7 +54,11 @@
                 {
                     "value": "Issue_Resolved",
                     "text": "Need root cause for a resolved performance issue"
-                }
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "None of the above"
+                }              
             ],
             "required": true
         },           
@@ -129,7 +137,7 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
             },
-            "dropdownOptions": [
+            "defualtDropdownOptions": [
                 {
                     "value": "NoBlobContainer",
                     "text": "Not specific to a blob container"
