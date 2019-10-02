@@ -1,4 +1,5 @@
 <properties
+        pageTitle="Databricks Service Outage"
 	description="Diagnose and resolve issues with Databricks Service"
 	infoBubbleText="Diagnose and resolve issues with Databricks Service"
 	service="microsoft.databricks"
