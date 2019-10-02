@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-* Please refer to mentioned ICM to know current status and RCA
+* Please refer to recommended action link of insights to know about current status and RCA
 
