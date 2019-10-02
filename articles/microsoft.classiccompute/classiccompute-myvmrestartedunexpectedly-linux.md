@@ -7,7 +7,7 @@
     ms.author="scotro"
     displayOrder="8"
     selfHelpType="resource"
-    supportTopicIds="32593740,32628269,32628280,32628287"
+    supportTopicIds="32628269,32628280,32628287"
     resourceTags="linux,redhat,ubuntu"
     productPesIds="15571,16342,15797,16454,16470"
     cloudEnvironments="public"
