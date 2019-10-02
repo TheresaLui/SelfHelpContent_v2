@@ -7,7 +7,7 @@
 	ms.author="nsarang"
 	displayOrder="15"
 	selfHelpType="generic"
-	supportTopicIds="32677655,32677703,32677702,32677704,32677701,32677649,32677680,32677678,32677713"
+	supportTopicIds="32677702,32677713,32677702"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
