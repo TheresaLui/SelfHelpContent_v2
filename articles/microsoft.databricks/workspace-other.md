@@ -22,5 +22,5 @@
 * [How to Assign a Single Public IP for VNet-Injected Workspaces Using Azure Firewall](https://kb.azuredatabricks.net/cloud/azure-vnet-single-ip.html)
 * Deployment of workspace through ARM Templates fails if you use existing resource group name as a managed resource group. Always ensure [Managed Resource group](https://docs.microsoft.com/azure/managed-applications/overview#managed-resource-group) in ARM template doesn't already exist within the subscription
 * It is not possible to deploy two workspaces with same managed resource group name. If you try to create second workspace with the same managed resource group, it will fail also puts first workspace inconsistent state.
-* While deploying workspace though ARM Template, you can’t have Managed Resource Group Name as Existing Resource Group where workspace is present
+* While deploying workspace through ARM Template, you can’t have Managed Resource Group Name as Existing Resource Group where workspace is present
 * Please avoid having any special characters (- or _) as the first or last character in workspace name. Maximum length for Managed resource group Name: 90 characters. Workspace creation will fail due to invalid characters. 
