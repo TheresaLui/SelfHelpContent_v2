@@ -1,6 +1,6 @@
 <properties
-       pageTitle="Submit technical enforcement exception"
-       description="Submit technical enforcement exception"
+       pageTitle="Request for MFA exception"
+       description="Request for MFA exception"
        authors="brentserbus"
        ms.author="brserbus"
        selfHelpType="problemScopingQuestions"
@@ -17,58 +17,82 @@
     "$schema": "SelfHelpContent",
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Submit technical enforcement exception",
-    "fileAttachmentHint": "For interface isues include the screen shot or the error. If API problems provide request/response payload files.",
+    "title": "Request for MFA exception",
+    "fileAttachmentHint": "Upload any supporting files that may help us understand the technical issue.",
     "formElements": [
              {
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description of the technical issues for your exception request.",
-            "useAsAdditionalDetails": true,
-            "required": true
-             },
-             {
-            "id": "problem_start_time",
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did your issue begin",
-            "required": true
-             },
-             {
-            "id": "mfa_challenged",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "I use Exchange Online PowerShell to manage my customer tenants, and Exchange Online PowerShell does not support MFA.",
-            "watermarkText": "I use Exchange Online PowerShell to manage my customer tenants, and Exchange Online PowerShell does not support MFA",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-                ],
-            "required": false
-             },
-	    {
-            "id": "problem_mfarepro",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "If problems with MFA please provide steps to reproduce the issue, including detailed error codes if applicable.",
+            "displayLabel": "Description of the technical issue for technical exception. Where applicable, please include details on how to reproduce the issue and actual error message encountered.",
             "useAsAdditionalDetails": true,
             "required": true
              },
 	    {
             "id": "problem_mfaimpact",
-            "order": 5,
+            "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please describe the overall impact if exception is not approved.",
+            "displayLabel": "Please describe impact if issue is not resolved.",
             "useAsAdditionalDetails": true,
             "required": true
              },
+             {
+            "id": "mfa_exchange",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Select "yes" if this issue is related to the use of Exchange Online PowerShell to manage customer resources, and Exchange Online PowerShell does not support MFA.",
+            "watermarkText": "Issue with Exchange Online PowerShell",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                }
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+                ],
+            "required": true
+             },
+             {
+            "id": "mfa_thirdparty",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Select "yes" if the issue is related to the use of 3rd party MFA solution, which cannot be configured to convey to Azure Active Directory that MFA verification has been completed.",
+            "watermarkText": "Isuse related to third party",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                }
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+                ],
+            "required": true
+             },
+             {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did your issue begin",
+            "required": true
+             },
+             {
+            "id": "mfa_thirdparty",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Microsoft does not recommend suppressing MFA verification for partner-related scenarios as it increases the security risk to both the partner and associated customers. Select "yes" to indicate that you understand the risk. ",
+            "watermarkText": "Agree to risks for suppressing MFA",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                }
+                ],
+            "required": true
+             }
     ]
 }
 ---
