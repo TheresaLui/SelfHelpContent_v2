@@ -16,7 +16,10 @@
 	articleId="078C7927-3E0E-4E25-868F-C68CBC170EBA"
 />
 
-# We ran diagnostics on your resource and found the following issue
+<!--issueDescription-->
+There is ongoing outage with Databricks Service.
+<!--/issueDescription-->
+
 
 
 # Service interruption
