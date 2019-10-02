@@ -16,7 +16,7 @@
 
 # Migration and Move/Move resources between regions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to use Azure Site Recovery to move resources between regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-migrate)<br>
 * [Move resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)<br>
