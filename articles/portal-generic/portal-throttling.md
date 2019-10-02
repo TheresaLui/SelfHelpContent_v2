@@ -7,14 +7,14 @@
     ms.author="rithorn"
     displayorder=""
     selfHelpType="generic"
-    articleId=""need
+    articleId="portal-throttling"
     diagnosticScenario=""
-    supportTopicIds=""need
-    productPesIds=""need
+    supportTopicIds="32637531"
+    productPesIds="15739"
     cloudEnvironments="public"
 />
 
-## **Resource Manager Throttling**
+# **Resource Manager Throttling Help**
 
 For each Azure subscription and tenant, Resource Manager allows up to 12,000 read requests per hour and 1,200 write requests per hour.
 
