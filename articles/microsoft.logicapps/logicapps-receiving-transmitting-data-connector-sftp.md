@@ -20,19 +20,17 @@ SFTP is a network protocol that provides file access, file transfer, and file ma
 
 ## **Recommended Steps**
 
-* The IP addresses that Azure Logic Apps uses for incoming and outgoing calls depend on the region where your logic app exists.
+* The IP addresses that Azure Logic Apps uses for incoming and outgoing calls depend on the region where your logic app exists:
 
-  [Inbound IP Addresses – Logic Apps service only](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config#inbound)
+    * [Inbound IP Addresses – Logic Apps service only](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config#inbound)
+    * [Outbound IP address – Logic Apps service & managed connectors](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config#outbound)
 
-  [Outbound IP address – Logic Apps service & managed connectors](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config#outbound)
+* SFTP connector supports private key formats – use tools such as PuttyGen or PuTTY to generate private key. If you are using an SSH private key, make sure you copy the key from your SSH private key file and paste that key into the connection details.
 
-* SFTP connector supports private key formats – use tools such as PuttyGen or PuTTY to generate private key.  If you are using an SSH private key, make sure you copy the key from your SSH private key file and paste that key into the connection details.
-
-  **Note**: Don't manually enter or edit the key.
+**Note**: Don't manually enter or edit the key.
 
 * If you are using ISE (Integration Service Environment), you may have [one or more blocked ports](https://docs.microsoft.com/azure/logic-apps/connect-virtual-network-vnet-isolated-environment#check-network-ports)
-
-* The connector may return an "[HTTP 404 error](https://docs.microsoft.com/connectors/sftp/)", if a file is being deleted or renamed on server after it was transmitted.  
+* The connector may return an "[HTTP 404 error](https://docs.microsoft.com/connectors/sftp/)", if a file is being deleted or renamed on server after it was transmitted
 
 ## **Recommended Documents**
 
