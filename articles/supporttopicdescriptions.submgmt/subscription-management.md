@@ -163,7 +163,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     {
       "id": "8d9e7207-7de3-2d4b-cfeb-0ee26bb41ccb",
       "longDescription": "",
-      "shortDescription": "Questions on ownership, scope & portal related issues while managing Reserved Instance. For Billing issues, please select Billing topic",
+      "shortDescription": "Questions on ownership, scope & portal related issues while managing Reserved Instance. For Billing issues, please select Billing issue type",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
