@@ -1,24 +1,29 @@
 <properties
-    pageTitle="Security, Privacy and Compliance-Auditing"
-    description="Security, Privacy and Compliance-Auditing"
+    pageTitle="Security, Privacy and Compliance-Firewall Rules"
+    description="Security, Privacy and Compliance-Firewall Rules"
     service="microsoft.sql"
     resource="servers"
     authors="saltug,mlee3gsd"
     ms.author="saltug,martinle"
-    supportTopicIds="32635185"
+    supportTopicIds="32635199"
     productPesIds="15818"
     displayOrder="81"
     selfHelpType="generic"
     resourceTags="datawarehouse"
-    articleId="dw-securityprivacyandcompliance-auditing.md"
+    articleId="dw-securityprivacyandcompliance-firewallrules.md"
     cloudEnvironments="public"
 />
 
-# Troubleshooting Auditing
+# Troubleshooting Firewall rules
 
 ## **Recommended Steps**
 
-* For getting started with auditing, refer to [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/) document.
+* For setting up IP-based firewall rules, refer to this document [Azure SQL Data Warehouse IP firewall rules](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure?toc=/azure/sql-data-warehouse/toc.json&bc=/azure/sql-data-warehouse/breadcrumb/toc.json).
+* For setting up virtual network private link, refer to this document [Private Link for Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview).
+* For Polybase connectivity from Azure SQL Data Warehouse to Azure Storage under firewalls or virtual network, refer to [this](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview#connecting-from-an-azure-sql-data-warehouse-to-azure-storage-using-polybase) document.
+* For virtual network service endpoints, refer to this document [Use virtual network service endpoints for database servers](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?toc=/azure/sql-data-warehouse/toc.json&bc=/azure/sql-data-warehouse/breadcrumb/toc.json).
+* For details on Azure SQL Data Warehouse connectivity architecture, refer to this document [Azure SQL Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture).
+For details on Network Security Groups, refer to this document [Security groups](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags).
 
 ## **Recommended Documents**
 
