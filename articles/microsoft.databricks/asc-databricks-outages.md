@@ -8,7 +8,7 @@
 	ms.author="nsarang"
 	displayOrder=""
 	selfHelpType="rca"
-	supportTopicIds="32677702,32677713"
+	supportTopicIds="32677733,32677655,32677703,32677701,32677702,32677713"
 	diagnosticScenario="DatabricksNotificationInsight"
 	resourceTags=""
 	productPesIds="16432"
