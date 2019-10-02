@@ -17,9 +17,7 @@
 />
 
 # We ran diagnostics on your resource and found the following issue
-<!--issueDescription-->
-Cluster unable to start/scale due to insufficient number of cores within the subscription. Requested Cores: <!--$AdditionalRequestCores-->[AdditionalRequestCores]<!--/$AdditionalRequestCores-->. 
-<!--/issueDescription-->
+
 
 # Service interruption
 
