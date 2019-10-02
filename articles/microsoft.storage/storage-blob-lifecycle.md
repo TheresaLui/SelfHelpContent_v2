@@ -16,7 +16,8 @@
 
 # Blob storage lifecycle
 
-## **Recommended documents**
+## **Recommended Documents**
+
 - [Managing the Azure Blob lifecycle](https://docs.microsoft.com/azure/storage/common/storage-lifecycle-managment-concepts)<br>
 - [Storage account types that support blob lifecycle](https://docs.microsoft.com/azure/storage/common/storage-lifecycle-managment-concepts#storage-account-support)<br>
 - [Add or remove lifecycle policies](https://docs.microsoft.com/azure/storage/common/storage-lifecycle-managment-concepts#add-or-remove-policies)<br>
