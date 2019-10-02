@@ -38,7 +38,7 @@
         {
             "id": "issue_nature",
             "order": 2,
-            "visibility": "problem_type == Issue ",
+            "visibility": "problem_type == Issue",
             "controlType": "dropdown",
             "displayLabel": "Is it ongoing or happened in past?",
             "watermarkText": "Choose whether it's currently ongoing or happend in past and resolved",
@@ -149,8 +149,18 @@
         {
             "id": "problem_description",
             "order": 20,
+            "visibility": "issue_nature == Reporting an ongoing performance issue || issue_nature == Need root cuase for a resolved performance issue",
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide any additional details",
+            "displayLabel": "Provide any additional details like error message or exception stack",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+        {
+            "id": "problem_description_advisory",
+            "order": 21,
+            "visibility": "problem_type == Advisory",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide details of your advisory ask",
             "required": true,
             "useAsAdditionalDetails": true
         },
