@@ -14,7 +14,7 @@
 	articleId="9a769e67-a458-488f-b3f3-8ed0298efacb"
 />
 
-## **Recommended Help**
+## Recommended Help
 
 * [Resolve errors for invalid template](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-invalid-template-errors)
 # Help with resolving ARM Template Deployment Issues

@@ -25,16 +25,16 @@ If your requests come from more than one security principal, your limit across t
 When you reach the limit, you will receive the **HTTP status code 429 Too many requests** response.
 
 > [!TIP]
-> Resource Graph sets its own limit and reset rate. For more information, see [Throttle in Azure Resource Graph](https://docs.microsoft.com/en-us/azure/governance/resource-graph/overview#throttling).
+> Resource Graph sets its own limit and reset rate. For more information, see [Throttle in Azure Resource Graph](https://docs.microsoft.com/azure/governance/resource-graph/overview#throttling).
 
 ## **Recommended Steps**
 
 You can determine the number of remaining requests by examining response headers. 
 
-See [Resource Manager Throttling- Remaining Requests](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-request-limits#remaining-requests) for details on how to view your remaining requests using headers via C#, PowerShell, CLI, or API.  
+See [Resource Manager Throttling- Remaining Requests](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-request-limits#remaining-requests) for details on how to view your remaining requests using headers via C#, PowerShell, CLI, or API.  
 
 ## **Recommended Documents**
 
 - For a complete PowerShell example, see [Check Resource Manager Limits for a Subscription](https://github.com/Microsoft/csa-misc-utils/tree/master/psh-GetArmLimitsViaAPI).
-- For more information about limits and quotas, see [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits).
-- To learn about handling asynchronous REST requests, see [Track asynchronous Azure operations](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-async-operations).
+- For more information about limits and quotas, see [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/eazure/azure-subscription-service-limits).
+- To learn about handling asynchronous REST requests, see [Track asynchronous Azure operations](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-async-operations).
