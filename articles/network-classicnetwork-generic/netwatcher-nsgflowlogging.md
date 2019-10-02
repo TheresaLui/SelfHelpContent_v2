@@ -21,13 +21,13 @@
 
 ## **Recommended Steps**
 
-### I could not enable NSG Flow Logs
+### **I could not enable NSG Flow Logs**
 
 * "Microsoft.Insights" resource provider is not registered
 
 If you received an *AuthorizationFailed* or a *GatewayAuthenticationFailed* error, you might have not enabled the Microsoft Insights resource provider on your subscription. Please [follow the instructions](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#register-insights-provider) to enable the Microsoft Insights provider.
 
-### I have enabled NSG Flow Logs but do not see data in my storage account
+### **I have enabled NSG Flow Logs but do not see data in my storage account**
 
 * **Service Endpoints exist on your VNet**
 

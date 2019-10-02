@@ -187,7 +187,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "309d05f3-88af-7d92-3efd-662f59501cdf",
-      "shortDescription": "Cannot fail back to the previous primary storage account? Use this support topic to solve sucn issues",
+      "shortDescription": "Cannot fail back to the previous primary storage account? Use this support topic to solve such issues",
       "category": "Account Failover",
       "searchTags": "failover, disaster recovery, fail back,",
       "useInDiagnoseAndSolve": ""

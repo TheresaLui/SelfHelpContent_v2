@@ -7,7 +7,7 @@
 	ms.author="chengxin"
     displayOrder="540"
     selfHelpType="generic"
-    supportTopicIds="32640001"
+    supportTopicIds="32684527"
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
