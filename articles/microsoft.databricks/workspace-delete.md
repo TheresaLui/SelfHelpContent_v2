@@ -1,4 +1,4 @@
-<properties
+roperties
 	pageTitle="Diagnose and resolve issues with Workspace delete"
 	description="Diagnose and resolve issues with Workspace delete"
 	service="microsoft.databricks"
@@ -18,4 +18,11 @@
 
 ## **Recommended Steps**
 
+* Steps to delete workspace:
+     * Login to portal and navigate to Databricks Workspace that needs to be deleted
+     * Click on Managed Resource Group 
+     * Click 'delete' to delete Managed Resource Group, after confirming there are no [locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#managed-applications-and-locks)
+     * Once Managed Resource group deletion is successful, proceed with deleting workspace
+     
+     
 * Cleanup of workspace is an asynchronous process and takes about 5-10 minutes to clean up cluster resources like VNET, Virtual Machines, storage and NSG.  If you just initiated it, please check after 5-10 minutes.
