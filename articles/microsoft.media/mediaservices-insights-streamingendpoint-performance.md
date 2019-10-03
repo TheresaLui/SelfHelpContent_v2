@@ -17,7 +17,7 @@
 
 # Streaming endpoint performance guidance
 
-Our internal service telemetry detected that your streaming endpoint(s) under your Azure Media Services account **<!--$AmsAccountName--> AmsAccountName <!--/$AmsAccountName-->** had performance issues from <!--$StartTime--> **StartTime** <!--$StartTime--> to <!--$EndTime--> **EndTime** <!--$EndTime--> (UTC) due to high traffic or heavy processing.
+Our internal service telemetry detected that your streaming endpoint(s) under your Azure Media Services account **<!--$amsAccountName--> amsAccountName <!--/$amsAccountName-->** had performance issues from <!--$startTime--> **startTime** <!--$startTime--> to <!--$endTime--> **endTime** <!--$endTime--> (UTC) due to high traffic or heavy processing.
 
 <!--issueDescription-->
 **Standard Streaming Endpoint**
