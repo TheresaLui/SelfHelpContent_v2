@@ -65,7 +65,7 @@
             },           
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 3,
             "visibility": "issue_nature == Reporting an ongoing performance issue || issue_nature == Need root cuase for a resolved performance issue",
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local start time of the most recent occurrence",
@@ -73,7 +73,7 @@
             },
         {
             "id": "problem_end_time",
-            "order": 6,
+            "order": 4,
             "visibility": "issue_nature == Need root cuase for a resolved performance issue",
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local end time of the most recent occurrence. Enter current time if the performance issue is still continuing",
@@ -81,7 +81,7 @@
             },
         {
             "id": "request_id",
-            "order": 9,
+            "order": 5,
             "visibility": "issue_nature == Reporting an ongoing performance issue || issue_nature == Need root cuase for a resolved performance issue",
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
@@ -91,7 +91,7 @@
             },
         {
             "id": "error_code_dropdown",
-            "order": 12,
+            "order": 6,
             "visibility": "issue_nature == Reporting an ongoing performance issue || issue_nature == Need root cuase for a resolved performance issue",
             "controlType": "dropdown",
             "displayLabel": "Error code",
@@ -126,7 +126,7 @@
             },
         {
             "id": "blob_container",
-            "order": 15,
+            "order": 7,
             "visibility": "issue_nature == Reporting an ongoing performance issue || issue_nature == Need root cuase for a resolved performance issue",
             "controlType": "dropdown",
             "displayLabel": "Blob Container",
@@ -140,6 +140,7 @@
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "None of the above"
+                }
             },
             "DropdownOptions": [
                 {
@@ -147,20 +148,20 @@
                     "text": "Not specific to a blob container"
                 }
             ],
-            "required": true
-            },
+            "required": false
+        },
         {
             "id": "blob_path",
-            "order": 16,
+            "order": 8,
             "visibility": "issue_nature == Reporting an ongoing performance issue || issue_nature == Need root cuase for a resolved performance issue",
             "controlType": "textbox",
             "displayLabel": "Blob path",
             "watermarkText": "Blob name or path if specific to a blob",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 20,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details like error message or exception stack",
             "required": true,
@@ -168,7 +169,7 @@
         },        
         {
             "id": "learn_more_text",
-            "order": 25,
+            "order": 10,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot performance issues."
         }
