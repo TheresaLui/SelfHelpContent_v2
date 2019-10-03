@@ -3,7 +3,7 @@
 	description="Storage File Sync scoping question"
 	authors="Passaree"
     ms.author="passap"
-	articleId="StorageScoping_file_sync"
+	articleId="StorageScoping_file_sync_tiering"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32675711,32675712,32675713,32675714"
 	productPesIds="16460"
