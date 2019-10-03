@@ -87,7 +87,7 @@
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
             "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-            "required": false
+            "required": true
             },
         {
             "id": "error_code_dropdown",
@@ -122,7 +122,7 @@
                     "text": "Not listed above  "
                 }
             ],
-            "required": false
+            "required": true
             },
         {
             "id": "blob_container",
@@ -147,7 +147,7 @@
                     "text": "Not specific to a blob container"
                 }
             ],
-            "required": false
+            "required": true
             },
         {
             "id": "blob_path",
@@ -156,7 +156,7 @@
             "controlType": "textbox",
             "displayLabel": "Blob path",
             "watermarkText": "Blob name or path if specific to a blob",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
