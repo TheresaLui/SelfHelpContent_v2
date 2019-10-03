@@ -37,9 +37,9 @@ Check if CDN is enabled. If not, enable CDN. If enabled already, enable origin s
 
 First check if CDN is enabled. If not, enable CDN. If enabled already, enable origin shield and request consolidation at CDN. If changing the CDN configuration doesn't help, the customer should increase streaming units based on the bandwidth usage data. 
 
-A relative rare situation is that the customer streams too many assets at the same time on the same streaming endpoint, it will help the playback experience if customer distributes the assets into different streaming endpoints.
+It is also possible that the customer is streaming too many assets at the same time on the same streaming endpoint. It will help the playback experience if the customer distributes the assets into different streaming endpoints.
 
-Monitor your streaming bandwidth with Azure Monitor, and increase the number of streaming units for every 200Mbps traffic you expect to serve. For more information, see these articles:
+The customer should monitor their streaming bandwidth with Azure Monitor, and increase the number of streaming units for every 200-Mbps traffic they expect to serve. For more information, see these articles:
 
 - [Monitor Media Services metrics](https://docs.microsoft.com/azure/media-services/latest/media-services-metrics-howto)
 - [Streaming Endpoint metrics](https://docs.microsoft.com/azure/media-services/latest/media-services-metrics-diagnostic-logs#streaming-endpoint)
