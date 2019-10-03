@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Operation is failed because subscription is in registration process.
+# Operation failed because subscription is in registration process.
 
 <!--issueDescription-->
 
