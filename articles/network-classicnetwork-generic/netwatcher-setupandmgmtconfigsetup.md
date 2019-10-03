@@ -18,3 +18,9 @@
 ## **Recommended documents**
 
 [Create a Network Watcher instance with portal, PowerShell, Azure CLI or REST API](https://docs.microsoft.com/azure/network-watcher/network-watcher-create)
+
+Also see:
+* [Network Watcher Overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)
+* [Network Watcher Pricing](https://azure.microsoft.com/en-in/pricing/details/network-watcher/)
+
+In case, you have issues with a specific product like NSG Flow Logs, Packet Capture, etc., please go back and choose the appropriate topic to see more specific help content.
