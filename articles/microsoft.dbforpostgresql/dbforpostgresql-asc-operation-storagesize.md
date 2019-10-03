@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Create or update PostgreSQL server is failed because the input storage size does not meet our requirement.
+# Create or update PostgreSQL server failed because the input storage size does not meet requirements.
 
 <!--issueDescription-->
 
