@@ -82,7 +82,7 @@
 	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
 	{
-            "id": "azcopy_command",
+            "id": "azcopy_command_needhelp",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Do you have questions on AzCopy command",
