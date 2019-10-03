@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Operation on PostgreSQL is failed because server is busy with other operations.
+# Operation on PostgreSQL failed because server is busy with other operations.
 
 <!--issueDescription-->
 
