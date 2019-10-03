@@ -31,7 +31,7 @@ If you received an *AuthorizationFailed* or a *GatewayAuthenticationFailed* erro
 
 * **Setup time**
 
-NSG Flow Logs may take up to 5 minutes to appear in your storage account (if configured correctly). A PT1J.json will appear which can be accessed [as described here](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-portal#download-flow-log). 
+NSG Flow Logs may take up to 5 minutes to appear in your storage account (if configured correctly). A PT1J.json will appear which can be accessed [as described here](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#download-flow-log). 
 
 * **Service Endpoints exist on your VNet**
 
