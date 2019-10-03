@@ -22,7 +22,7 @@ Our internal service telemetry detected that your streaming endpoint(s) under yo
 <!--issueDescription-->
 **Standard Streaming Endpoint**
 
-A Standard Streaming Endpoint is suitable for most streaming workloads, and it is able to auto scale automatically when outbound bandwidth increases. However, auto scale may not catch up if the speed of workload increases. This could cause the 503 status code (Service Unavailable) or 500 status code (Internal Server Error) with TIMEOUT error to be returned by the streaming endpoint(s).
+A Standard Streaming Endpoint is suitable for most streaming workloads, and it is able to auto scale automatically when outbound bandwidth increases. However, the auto scale may not react fast enough if the speed of workload increases rapidly. This could cause the 503 status code (Service Unavailable) or 500 status code (Internal Server Error) with TIMEOUT error to be returned by the streaming endpoint(s).
 
 **Premium Streaming Endpoint**
 
