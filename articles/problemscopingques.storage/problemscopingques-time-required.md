@@ -2,6 +2,7 @@
 	pageTitle="Storage issue with date time"
 	description="Storage issue with date time scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602737"
 	productPesIds="16459"
@@ -12,7 +13,7 @@
 # Storage issue with date time
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,"resourceRequired": true,
     "title": "Datetime required scoping question",
     "fileAttachmentHint": "",
     "formElements": [
@@ -26,9 +27,9 @@
         {
             "id": "problem_description",
             "order": 2,
-            "controlType": "multilinetextbox",
+            "controlType":"multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],
