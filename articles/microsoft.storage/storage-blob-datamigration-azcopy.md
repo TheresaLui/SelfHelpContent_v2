@@ -13,7 +13,7 @@
 	supportTopicIds="32630512"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,Mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Blob Data Migration with AzCopy
