@@ -21,7 +21,7 @@
 <!--issueDescription-->
 |Standard Streaming Endpoint|Premium Streaming Endpoint|
 |---|---|
-|A Standard Streaming Endpoint is suitable for most streaming workloads, and it is able to auto scale automatically when outbound bandwidth increases. However, auto scale may not catch up if the speed of workload increases. This could cause status code 502 (Service Unavailable) could be returned by the streaming endpoint.|A Premium Streaming Endpoint is recommended for professional usage. It provides 200-Mbps bandwidth per streaming unit, the customer controls the number of streaming units they use. The current streaming units may not be enough to deal with large volume of workload, a status code 502 (Service Unavailable) could be returned by the streaming endpoint.|
+|A Standard Streaming Endpoint is suitable for most streaming workloads, and it is able to auto scale automatically when outbound bandwidth increases. However, auto scale may not catch up if the speed of workload increases. This could cause status code 502 (Service Unavailable) to be returned by the streaming endpoint.|A Premium Streaming Endpoint is recommended for professional usage. It provides 200-Mbps bandwidth per streaming unit, the customer controls the number of streaming units they use. The current streaming units may not be enough to deal with large volume of workload, a status code 502 (Service Unavailable) could be returned by the streaming endpoint.|
 <!--/issueDescription-->
 
 ## **Recommended Steps**
