@@ -7,12 +7,13 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602749,32602755,32602756,32602767,32602769"
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
 # Storage File Sync scoping question
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Storage File Sync scoping question",
     "fileAttachmentHint": "",
