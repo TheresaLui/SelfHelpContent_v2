@@ -59,7 +59,7 @@
                 {
                     "value": "dont_know_answer",
                     "text": "None of the above"
-                    }              
+                }              
             ],
             "required": true
             },           
@@ -118,8 +118,8 @@
                     "text": "HTTP 503"
                 },
                 {
-                    "value": "other",
-                    "text": "Not listed above  "
+                    "value": "dont_know_answer",
+                    "text": "None of the above"
                 }
             ],
             "required": true
