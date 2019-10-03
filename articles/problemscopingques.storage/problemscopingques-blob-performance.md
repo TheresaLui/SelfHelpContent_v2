@@ -36,10 +36,10 @@
                 {
                     "value": "dont_know_answer",
                     "text": "None of the above"
-                }
-            ],
+                    }
+                ],
             "required": true
-            },        
+        },        
         {
             "id": "issue_nature",
             "order": 2,
@@ -62,7 +62,7 @@
                 }              
             ],
             "required": true
-            },           
+        },           
         {
             "id": "problem_start_time",
             "order": 3,
@@ -70,7 +70,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local start time of the most recent occurrence",
             "required": true
-            },
+        },
         {
             "id": "problem_end_time",
             "order": 4,
@@ -78,7 +78,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local end time of the most recent occurrence. Enter current time if the performance issue is still continuing",
             "required": true
-            },
+        },
         {
             "id": "request_id",
             "order": 5,
@@ -88,7 +88,7 @@
             "watermarkText": "Request ID of failed operation ending with 000000",
             "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
             "required": true
-            },
+        },
         {
             "id": "error_code_dropdown",
             "order": 6,
@@ -123,7 +123,7 @@
                 }
             ],
             "required": true
-            },
+        },
         {
             "id": "blob_container",
             "order": 7,
