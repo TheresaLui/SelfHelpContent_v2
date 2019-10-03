@@ -1,4 +1,4 @@
-roperties
+<properties
 	pageTitle="Diagnose and resolve issues with Workspace delete"
 	description="Diagnose and resolve issues with Workspace delete"
 	service="microsoft.databricks"
