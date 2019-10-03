@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Operation on PostgreSQL is failed because the backend is not ready to perform it.
+# Operation on PostgreSQL failed because the backend is not ready to perform it.
 
 <!--issueDescription-->
 
