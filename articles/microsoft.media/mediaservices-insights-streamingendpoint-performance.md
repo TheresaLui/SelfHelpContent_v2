@@ -32,7 +32,7 @@ A Premium Streaming Endpoint is recommended for professional usage. It provides 
 
 **Standard Streaming Endpoint**
 
-First check if CDN is enabled. If not, enable CDN. If enabled already, enable origin shield and request consolidation at CDN. If changing the CDN configuration doesn't help, the customer should move to the premium streaming endpoint.
+Check if CDN is enabled. If not, enable CDN. If enabled already, enable origin shield and request consolidation at CDN. If changing the CDN configuration doesn't help, the customer should move to the premium streaming endpoint.
 
 **Premium Streaming Endpoint**
 
