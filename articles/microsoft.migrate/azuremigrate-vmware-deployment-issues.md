@@ -30,11 +30,23 @@ The appliance should have Internet connectivity (either directly or via a proxy)
 
 Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://aka.ms/migrate/selfhelp/appliancevmware/azureperms).
 
+### **I am unable to see the list of customer subscriptions in the Subscriptions drop-down, when logged in using my CSP credentials on the appliance**
+
+Currently, listing of the customer subscriptions managed by a CSP partner is not supported. To register the appliance with an Azure Migrate project in a customer subscription, you need to log in with Azure user account from the customer's tenant to see their subscription(s) in the drop-down.
+
 ## Issues in adding vCenter Server
 
 ### **I am unable to connect to vCenter Server due to incorrect credentials or insufficient permissions**
 
 Verify the credentials provided for vCenter Server. You’ll need a read-only account to access the vCenter Server managing the VMs you want to discover.
+
+### **I am unable to add multiple vCenter servers on the appliance configuration manager**
+
+Currently, addition of multiple vCenter servers to a single appliance is not supported. There is a one-to-one relation between appliance and a vCenter server. To discover multiple vCenter servers, you'll need to deploy multiple appliances. You can register multiple appliances to the same Azure Migrate project. [Learn more](https://docs.microsoft.com/en-us/azure/migrate/scale-vmware-assessment#planning-limits) on how you can discover multiple vCenter servers.
+
+### **I am unable to change the vCenter server details after starting the discovery using the appliance**
+
+After starting the discovery using the appliance, you cannot change the vCenter server details. To discover another vCenter server, you'll need to deploy a new appliance.
 
 ## Issues after hitting 'Save and start discovery'
 

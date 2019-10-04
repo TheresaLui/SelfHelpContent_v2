@@ -31,6 +31,10 @@ The appliance should have Internet connectivity (either directly or via a proxy)
 
 Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://aka.ms/migrate/selfhelp/appliancehyperv/azureperms).
 
+### **I am unable to see the list of customer subscriptions in the Subscriptions drop-down, when logged in using my CSP credentials on the appliance**
+
+Currently, listing of the customer subscriptions managed by a CSP partner is not supported. To register the appliance with an Azure Migrate project in a customer subscription, you need to log in with Azure user account from the customer's tenant to see their subscription(s) in the drop-down.
+
 ## Issues in adding Hyper-V hosts
 
 ### **I am unable to connect to the Hyper-V host/cluster due to incorrect credentials or insufficient permissions**
