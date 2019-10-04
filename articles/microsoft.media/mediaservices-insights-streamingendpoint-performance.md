@@ -16,10 +16,10 @@
 />
 
 # Streaming endpoint performance guidance
-
-Our internal service telemetry detected that the customer's streaming endpoint(s) under the Azure Media Services account **<!--$amsAccountName--> amsAccountName <!--/$amsAccountName-->** had performance issues from  **<!--$startTime--> startTime <!--/$startTime-->** to **<!--$endTime--> endTime <!--/$endTime-->** (UTC) due to high traffic or heavy processing.
-
 <!--issueDescription-->
+Our internal service telemetry detected that the customer's streaming endpoint(s) under the Azure Media Services account **<!--$amsAccountName--> amsAccountName <!--/$amsAccountName-->** had performance issues from  **<!--$startTime--> startTime <!--/$startTime-->** to **<!--$endTime--> endTime <!--/$endTime-->** (UTC) due to high traffic or heavy processing.
+<!--/issueDescription-->
+
 **Standard Streaming Endpoint**
 
 A Standard Streaming Endpoint is suitable for most streaming workloads, and it is able to auto scale automatically when outbound bandwidth increases. However, the auto scale may not react fast enough if the speed of workload increases rapidly. This could cause the 503 status code (Service Unavailable) or 500 status code (Internal Server Error) with TIMEOUT error to be returned by the streaming endpoint(s).
@@ -27,7 +27,7 @@ A Standard Streaming Endpoint is suitable for most streaming workloads, and it i
 **Premium Streaming Endpoint**
 
 A Premium Streaming Endpoint is recommended for professional usage. It provides 200-Mbps bandwidth per streaming unit, the customer controls the number of streaming units they use. The current streaming units may not be enough to deal with large volume of workload. The 503 status code (Service Unavailable) or 500 status code (Internal Server Error) with TIMEOUT error  could be returned by the streaming endpoint(s).
-<!--/issueDescription-->
+
 
 ## **Recommended Steps**
 
