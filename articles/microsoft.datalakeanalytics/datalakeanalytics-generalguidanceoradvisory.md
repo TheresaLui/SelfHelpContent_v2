@@ -6,7 +6,7 @@
 	ms.author="guyhay"
 	authoralias="guyhay"
 	authors="guyhay"
-	displayOrder="11"
+	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32680880"
 	resourceTags=""
@@ -16,7 +16,7 @@
 />
 
 # General guidance or advisory
-The top three issues customers create support tickets agaisnt ADLA are:
+The top three support incident types that customers create support tickets for ADLA are:
 
 * Difficulties using the Azure Portal 
 * A U-SQL job failed
