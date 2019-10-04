@@ -16,7 +16,7 @@
     cloudEnvironments="public"
 />
 
-# Server is facing high IO Throtle
+# Server is facing high IO Throttle
 
 <!--issueDescription-->
 Thank you for contacting Microsoft support about your performance issues with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your IO throttle is above 100 for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. This means there are storage issues.
@@ -29,4 +29,4 @@ Thank you for contacting Microsoft support about your performance issues with yo
 ## **Recommended Documents**
 
 * [Troubleshoot common connectivity issues to Azure Databases for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-troubleshoot-common-connection-issues)<br>
-* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)
+* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)

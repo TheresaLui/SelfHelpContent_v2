@@ -30,7 +30,7 @@ Thank you for contacting Microsoft support about your performance issues with yo
 
 ## **Recommended Documents**
 
-* [Performance best practices for using Azure Database for PostgreSQL](https://azure.microsoft.com/en-us/blog/performance-best-practices-for-using-azure-database-for-postgresql/)<br>
-* [Performance Troubleshooting Basics on Azure Database for PostgreSQL] (https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Performance-Troubleshooting-Basics-on-Azure-Database-for/ba-p/819227) <br>
-* [Performance troubleshooting using new Azure Database for PostgreSQL features](https://azure.microsoft.com/en-us/blog/performance-troubleshooting-using-new-azure-database-for-postgresql-features/)
+* [Performance best practices for using Azure Database for PostgreSQL](https://azure.microsoft.com/blog/performance-best-practices-for-using-azure-database-for-postgresql/)<br>
+* [Performance Troubleshooting Basics on Azure Database for PostgreSQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Performance-Troubleshooting-Basics-on-Azure-Database-for/ba-p/819227) <br>
+* [Performance troubleshooting using new Azure Database for PostgreSQL features](https://azure.microsoft.com/blog/performance-troubleshooting-using-new-azure-database-for-postgresql-features/)
 * [Azure Database for PostgreSQL documentation](https://docs.microsoft.com/azure/postgresql/)
