@@ -17,14 +17,14 @@
 
 # U-SQL jobs failing
 
-U-SQLjobs can fail for a number of reasons.  Common reasons include: 
+U-SQL jobs can fail for a number of reasons.  Common reasons include: 
 
 * Transient outages of the services such as DNS, Networking, ADLS that ADLA depends on
 * Changes to the ACLs of the ADLS files consumed in the job
 * Changing data size may cause data skew or storage throttling
-* Changing data-distribution across partitions may cause errors or unoptimized execution of jobs
+* Changing data-distribution across partitions may cause errors or unoptimized execution of U-SQL jobs
 * Improvements to the U-SQL compiler and optimizer may cause existing optimizer hints to become outdated 
-* Note that jobs that fail with error type "SYSTEM" are not charged 
+* Note that U-SQL jobs that fail with error type "SYSTEM" are not charged 
 
 
 ## **Recommended Steps**
@@ -35,7 +35,7 @@ U-SQLjobs can fail for a number of reasons.  Common reasons include:
 ## **Recommended Documents**
 
 * [Use Job Browser and Job View for Azure Data Lake Analytics](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-view-jobs)<br>
-* [Monitor jobs in Azure Data Lake Analytics using the Azure Portal](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-monitor-and-troubleshoot-jobs-tutorial)<br>
+* [Monitor U-SQL jobs in Azure Data Lake Analytics using the Azure Portal](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-monitor-and-troubleshoot-jobs-tutorial)<br>
 * [Azure Data Lake Analytics pricing FAQ](https://azure.microsoft.com/pricing/details/data-lake-analytics/)<br>
 * [ADLS Gen1 - Best practices for using Azure Data Lake Store Gen1](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-best-practices)<br>
 * [ADLS Gen1 - Performance and scale considerations](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-best-practices#performance-and-scale-considerations)<br>

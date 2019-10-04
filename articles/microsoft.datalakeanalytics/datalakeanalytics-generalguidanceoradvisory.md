@@ -6,7 +6,7 @@
 	ms.author="guyhay"
 	authoralias="guyhay"
 	authors="guyhay"
-	displayOrder="12"
+	displayOrder="11"
 	selfHelpType="resource"
 	supportTopicIds="32680880"
 	resourceTags=""
@@ -16,7 +16,7 @@
 />
 
 # General guidance or advisory
-The top three issues customers create support tickets againt ADLA are:
+The top three issues customers create support tickets agaisnt ADLA are:
 
 * Difficulties using the Azure Portal 
 * A U-SQL job failed
@@ -25,7 +25,7 @@ The top three issues customers create support tickets againt ADLA are:
 ## **Recommended Steps**
 
 1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
-2. Understand the error that caused the job to fail  while submission by using the Job Browser in Visual Studio or the Job management tab for the ADLA account in the Azure Portal<br>
+2. Understand the error that caused the job to fail during job submission by using the Job Browser in Visual Studio or the Job management tab for the ADLA account in the Azure Portal<br>
 
 ## **Recommended Documents**
 
