@@ -17,6 +17,7 @@
 
 # Installing Azure Data Lake Studio within Visual Studio
 
+The most productive way to develop U-SQL scripts is by using the Data Lake Tools for Visual Studio.
 
 ## **Recommended Documents**
 
