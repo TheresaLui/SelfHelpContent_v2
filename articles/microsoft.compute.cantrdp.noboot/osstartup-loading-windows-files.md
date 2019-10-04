@@ -25,4 +25,4 @@ You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute
 
 ## **Recommended Steps**
 
-Please follow the instructions provided in the article [Azure VM shows “Getting ready”, “Getting Windows ready” on startup](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-vm-boot-configure-update)
+Please follow the instructions provided in the article [Azure VM shows Getting ready or Getting Windows ready on startup](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-vm-boot-configure-update)
