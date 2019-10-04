@@ -1,12 +1,12 @@
 <properties
     pageTitle="Getting ready VM boot error"
-    description="Virtual machine failed to boot because it is stuck at Getting Windows ready screen"
-    infoBubbleText="A boot error 'Getting Windows ready' has been found for your virtual machine."
+    description="Virtual machine failed to boot because it is stuck at Getting ready screen"
+    infoBubbleText="A boot error 'Getting ready' has been found for your virtual machine."
     resource="virtualmachines"
     authors="timbasham"
     ms.author="tibasham"
     displayOrder=""
-    articleId="OSStartUp-GETTING_WINDOWS_READY"
+    articleId="OSStartUp-GETTING_READY"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
@@ -15,13 +15,13 @@
     cloudEnvironments="public"
 />
 
-# VM Boot Error - Getting Windows ready
+# VM Boot Error - Getting ready
 
 <!--issueDescription-->
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because it is applying Windows updates, or roles/features.
 <!--/issueDescription-->
 
-You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the text **Getting Windows ready Don't turn off your computer**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the text **Getting ready**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 
 ## **Recommended Steps**
 
