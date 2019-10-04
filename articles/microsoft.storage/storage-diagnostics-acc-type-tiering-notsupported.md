@@ -19,7 +19,6 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 <!--issueDescription-->
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does not support access tiers as it is a **<!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind-->** account. 
-
 <!--/issueDescription-->
 
 ## **Recommended Steps**

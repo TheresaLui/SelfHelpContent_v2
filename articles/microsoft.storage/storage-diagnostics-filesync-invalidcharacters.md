@@ -20,7 +20,8 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 <!--issueDescription-->
 File Sync failed to upload **<!--$TotalFileCount-->[TotalFileCount]<!--/$TotalFileCount-->** file(s) as they contain one or more unsupported characters for server endpoints under the Storage Sync Service **<!--$StorageSyncServiceName-->[StorageSyncServiceName]<!--/$StorageSyncServiceName-->**. Below is the distribution of files with unsupported characters per server endpoint:<br> <!--$ServerEndpointList-->[ServerEndpointList]<!--/$ServerEndpointList-->
-<br>
+<!--/issueDescription-->
+
 For these files to sync, you must remove or rename the files with unsupported characters. 
 See [this document](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cportal#how-do-i-see-if-there-are-specific-files-or-folders-that-are-not-syncing) for details on unsupported characters and how to identify the files.
-<!--/issueDescription-->
+
