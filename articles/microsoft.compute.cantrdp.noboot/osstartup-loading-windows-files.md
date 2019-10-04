@@ -1,7 +1,7 @@
 <properties
     pageTitle="Getting ready VM boot error"
-    description="Virtual machine failed to boot because it is stuck at Getting ready screen"
-    infoBubbleText="A boot error 'Getting ready' has been found for your virtual machine."
+    description="Virtual machine failed to boot because it is stuck at Getting Windows ready screen"
+    infoBubbleText="A boot error 'Getting Windows ready' has been found for your virtual machine."
     resource="virtualmachines"
     authors="timbasham"
     ms.author="tibasham"
