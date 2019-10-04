@@ -12,7 +12,7 @@ diagnosticScenario="Storage account cannot failover due to sync not finished"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Storage account cannot failover due to sync not finished

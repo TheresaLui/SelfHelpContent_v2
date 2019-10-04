@@ -12,7 +12,7 @@ diagnosticScenario="Migrate data with right version of AzCopy"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Transfer data with AzCopy v10

@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="storage"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled due to a scalability limit being exceeded

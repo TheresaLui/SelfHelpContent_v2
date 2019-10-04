@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # File open handles limit exceeded on <!--$FileType-->[FileType]<!--/$FileType-->

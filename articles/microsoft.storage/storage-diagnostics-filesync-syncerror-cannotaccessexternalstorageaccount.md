@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # File Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ErrorString-->  : Sync cannot access the Azure File Share specified in the Cloud Endpoint.

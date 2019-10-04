@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # **File Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ErrorString-->  : A connection with the service could not be established.**

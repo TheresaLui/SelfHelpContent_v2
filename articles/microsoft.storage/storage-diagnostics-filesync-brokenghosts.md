@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # File Sync failed to upload **<!--$TotalFileCount-->[TotalFileCount]<!--/$TotalFileCount-->** broken tiered file(s)

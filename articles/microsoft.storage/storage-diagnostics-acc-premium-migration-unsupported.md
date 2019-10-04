@@ -11,7 +11,7 @@ diagnosticScenario="Premium storage account only supports one service type"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # <!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind--> storage account only supports <!--$SupportedServices-->[SupportedServices]<!--/$SupportedServices-->

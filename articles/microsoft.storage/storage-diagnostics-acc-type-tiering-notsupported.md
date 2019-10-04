@@ -12,7 +12,7 @@ diagnosticScenario="Access tiers is not supported on this storage account"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Access tiers is not supported on this storage account

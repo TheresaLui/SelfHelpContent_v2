@@ -11,7 +11,7 @@ diagnosticScenario="Storage issues when Storage Firewalls is enabled"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Storage issues when Storage Firewalls is enabled
