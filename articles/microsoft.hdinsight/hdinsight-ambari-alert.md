@@ -7,7 +7,7 @@
     ms.author="mimig"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32636446, 32636449, 32636457, 32636462, 32636468, 32636478, 32636493, 32636499, 32636418"
+    supportTopicIds="32636446, 32636449, 32636457, 32636462, 32636468, 32636478, 32636493, 32636499"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
