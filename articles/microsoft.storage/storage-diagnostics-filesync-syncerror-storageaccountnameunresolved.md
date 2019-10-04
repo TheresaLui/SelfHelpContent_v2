@@ -24,6 +24,6 @@ Azure File Sync failed on Server Endpoint **<!--$ServerEndpointName-->[ServerEnd
 
 ## **Recommended Steps**
 
-1. Make sure the Storage Account **<!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->** still exists.<br>
+1. Make sure the Storage Account **<!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->** still exists
 2. In the Azure portal under the Storage Account, go to the 'Access Control (IAM)' tab and verify the Storage Sync Service role has access to the Storage Account. The scope for 'Hybrid File Sync Service' must be set to 'This Resource'.
 
