@@ -17,7 +17,7 @@
 
 # U-SQL jobs failing
 
-U-SQL jobs can fail for a number of reasons.  Common reasons include: 
+U-SQLjobs can fail for a number of reasons.  Common reasons include: 
 
 * Transient outages of the services such as DNS, Networking, ADLS that ADLA depends on
 * Changes to the ACLs of the ADLS files consumed in the job
@@ -30,7 +30,7 @@ U-SQL jobs can fail for a number of reasons.  Common reasons include:
 ## **Recommended Steps**
 
 1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
-2. Understand the error that caused the job to fail error by using the Job Browser in Visual Studio or the Azure Portal<br>
+2. Understand the error that caused the job to fail by using the Job Browser in Visual Studio or the Azure Portal and the <br>
 
 ## **Recommended Documents**
 
