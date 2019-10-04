@@ -17,7 +17,7 @@
 
 # Streaming endpoint performance guidance
 
-Our internal service telemetry detected that your streaming endpoint(s) under your Azure Media Services account **<!--$amsAccountName--> amsAccountName <!--/$amsAccountName-->** had performance issues from  **<!--$startTime--> startTime <!--/$startTime-->** to **<!--$endTime--> endTime <!--/$endTime-->** (UTC) due to high traffic or heavy processing.
+Our internal service telemetry detected that the customer's streaming endpoint(s) under the Azure Media Services account **<!--$amsAccountName--> amsAccountName <!--/$amsAccountName-->** had performance issues from  **<!--$startTime--> startTime <!--/$startTime-->** to **<!--$endTime--> endTime <!--/$endTime-->** (UTC) due to high traffic or heavy processing.
 
 <!--issueDescription-->
 **Standard Streaming Endpoint**
@@ -37,7 +37,7 @@ Check if CDN is enabled. If not, enable CDN. If enabled already, enable origin s
 
 **Premium Streaming Endpoint**
 
-First check if CDN is enabled. If not, enable CDN. If enabled already, enable origin shield and request consolidation at CDN. If changing the CDN configuration doesn't help, the customer should increase streaming units based on the bandwidth usage data. 
+Check if CDN is enabled. If not, enable CDN. If enabled already, enable origin shield and request consolidation at CDN. If changing the CDN configuration doesn't help, the customer should increase streaming units based on the bandwidth usage data. 
 
 It is also possible that the customer is streaming too many assets at the same time on the same streaming endpoint. It will help the playback experience if the customer distributes the assets into different streaming endpoints.
 
