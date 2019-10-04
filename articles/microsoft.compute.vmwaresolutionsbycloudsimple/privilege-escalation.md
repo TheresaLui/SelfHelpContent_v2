@@ -19,4 +19,7 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to escalation, de-escalation, extension of escalated privileges, insufficient privileges on vCenter of my Private Cloud">
+
 * [Privilege Escalation](https://docs.microsoft.com/azure/vmware-cloudsimple/escalate-private-cloud-privileges#escalate-privileges)<br>
+</span>

@@ -20,6 +20,7 @@
 
 * If you experience slow query or load performance, ensure you have allocated enough memory. Refer to the following documentation for [guidance](https://docs.microsoft.com/azure/sql-data-warehouse/resource-classes-for-workload-management#example-code-for-finding-the-best-resource-class) around resource classes and selecting the appropriate one.
 * You can also check to see which resources a request is waiting for by visiting the following [documentation](https://docs.microsoft.com/azure/sql-data-warehouse/analyze-your-workload)
+* Internal DMS errors related to columnstore compression exceeding the remaining memory can be addressed by [increasing the resource class](https://docs.microsoft.com/azure/sql-data-warehouse/resource-classes-for-workload-management#change-a-users-resource-class)
 
 ## **Recommended Documents**
 

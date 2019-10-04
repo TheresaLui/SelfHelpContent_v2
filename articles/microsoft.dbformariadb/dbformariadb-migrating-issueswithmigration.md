@@ -22,7 +22,7 @@ Most migration problems can be solved by working through the recommended steps.
 
 ## **Recommended Steps**
 
-* If you are migrating using dump and restore, or data-in-replication and encounter problems, familiarize yourself with [Migrate your MariaDB database to Azure Database for MariaDb using dump and restore](https://docs.microsoft.com/azure/mariadb/howto-migrate-dump-restore/) how-to
+* If you are migrating using dump & restore and encounter problems, familiarize yourself with [Migrate your MariaDB database to Azure Database for MariaDb using dump and restore](https://docs.microsoft.com/azure/mariadb/howto-migrate-dump-restore/) how-to
 * If you are using dump and restore:
 
   * Make sure to use database dumps when you are migrating the entire databases
@@ -33,5 +33,4 @@ Most migration problems can be solved by working through the recommended steps.
 ## **Recommended Documents**
 
 * [Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb)<br>
-* [Data-in Replication in Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-data-in-replication/)<br>
 * [Migrate MariaDB using dump and restore](https://docs.microsoft.com/azure/mariadb/howto-migrate-dump-restore/)

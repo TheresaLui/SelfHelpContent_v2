@@ -7,12 +7,13 @@
 	articleId="StorageScoping_table_Security"
 	supportTopicIds="32602775"
 	productPesIds="16462"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
 # Table Security Issue
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Security issue on table scoping question",
     "fileAttachmentHint": "",

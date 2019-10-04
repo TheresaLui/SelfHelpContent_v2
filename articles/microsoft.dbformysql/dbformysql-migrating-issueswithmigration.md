@@ -23,7 +23,7 @@ Most migration problems can be solved by working through the recommended steps.
 ## **Recommended Steps**
 
 * If you are evaluating different migration options, consult our [Azure Database Migration Guide](https://datamigration.microsoft.com/)
-* If you are migrating yourself (e.g. using dump and restore, or data-in-replication) and encounter problems, consider using the [Data Migration Service](https://azure.microsoft.com/services/database-migration/)
+* If you are migrating yourself (e.g. using dump and restore) and encounter problems, consider using the [Data Migration Service](https://azure.microsoft.com/services/database-migration/)
 * If you are using the Data Migration Service and experience problems, work through the [step-by-step tutorials for Azure Database for MySQL](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online):
 
   * Address issues with [online migration configuration](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#online-migration-configuration)
@@ -43,5 +43,4 @@ Most migration problems can be solved by working through the recommended steps.
 * [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql)<br>
 * [Azure Database Migration Guide](https://datamigration.microsoft.com/)<br>
 * [Data Migration Service](https://azure.microsoft.com/services/database-migration/)<br>
-* [Data-in Replication in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-data-in-replication/)<br>
 * [Migrate MySQL using dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore/)
