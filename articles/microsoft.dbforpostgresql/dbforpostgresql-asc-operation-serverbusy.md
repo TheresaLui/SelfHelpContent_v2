@@ -28,7 +28,7 @@ Thank you for contacting Microsoft support team. During our investigation we fou
 
 * If you are using Azure portal, please check the server "Activity log" menu and make sure your previous operation succeeded and try your operation again.
 * If you are using Azure CLI, you can use the following command to get the state of your server:
-	az postgres server show --resource-group <resource group name> -name <server name> --subscription <subscription id>
+	az postgres server show --resource-group <resource group name> --name <server name> --subscription <subscription id>
 and wait for the "userVisibleState" to be in ready state: 
 	"userVisibleState": "Ready"
 
