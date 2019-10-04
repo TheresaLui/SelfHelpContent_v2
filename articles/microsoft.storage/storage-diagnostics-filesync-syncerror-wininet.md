@@ -24,8 +24,8 @@ Azure File Sync failed on Server Endpoint **<!--$ServerEndpointName-->[ServerEnd
 
 ## **Recommended Steps**
 
-1. Check to make sure the server **<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->** is online.<br>
-2. Verify the service 'FileSyncSvc.exe' is not blocked by a [Firewall](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy) on your server.<br>
-3. Verify [port 443](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy#ports) is open to outgoing connections.
+1. Check to make sure the server **<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->** is online
+2. Verify the service 'FileSyncSvc.exe' is not blocked by a [Firewall](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy) on your server
+3. Verify [port 443](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy#ports) is open to outgoing connections
 <br>
 
