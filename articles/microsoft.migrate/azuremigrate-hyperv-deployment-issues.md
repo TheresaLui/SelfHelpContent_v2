@@ -23,13 +23,13 @@
 
 ### **I am getting an error in the Internet prerequisite check on the appliance**
 
-The appliance should have Internet connectivity (either directly or via a proxy). Ensure that you are able to connect to the URLs listed [here](https://aka.ms/migrate/selfhelp/appliancehyperv/urls). If whitelisting is required, please ensure you whitelist all the URLs. 
+The appliance should have Internet connectivity (either directly or via a proxy). Ensure that you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-hyper-v#assessment-appliance-url-access). If whitelisting is required, please ensure you whitelist all the URLs. 
 
 ## Issues in registering the appliance with Azure Migrate
 
 ### **I am unable to register the appliance to Azure Migrate due to insufficient permissions on the subscription** 
 
-Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://aka.ms/migrate/selfhelp/appliancehyperv/azureperms).
+Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#azure-permissions).
 
 ### **I am unable to see the list of customer subscriptions in the Subscriptions drop-down, when logged in using my CSP credentials on the appliance**
 
@@ -43,7 +43,7 @@ Verify the credentials provided for Hyper-V host/cluster. The local or domain us
 
 ### **I am facing WinRM errors while validating Hyper-V hosts/clusters**
 
-Execute 'winrm qc' and 'Enable-PSRemoting' commands using PowerShell as an administrator on the Hyper-V hosts to be discovered. Ensure that WinRM ports 5985 (HTTP) and 5986 (HTTPS) are open. You can also do this by running the [Hyper-V prerequisites configuration script](https://aka.ms/migrate/selfhelp/appliancehyperv/script).
+Execute 'winrm qc' and 'Enable-PSRemoting' commands using PowerShell as an administrator on the Hyper-V hosts to be discovered. Ensure that WinRM ports 5985 (HTTP) and 5986 (HTTPS) are open. You can also do this by running the [Hyper-V prerequisites configuration script](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#hyper-v-prerequisites-configuration-script).
 
 ### **I am getting an error that the host name(s) in the cluster cannot be resolved**
 
@@ -53,7 +53,7 @@ Hyper-V Hosts in a cluster may not be reachable due to a name resolution issue. 
 
 ### **I am unable to initiate discovery due to insufficient AAD privileges**
 
-Ensure that you have the required [permissions](https://aka.ms/migrate/selfhelp/appliancehyperv/azureperms) to create and manage AAD application in Azure. The user that you use should have the "Application Developer" role or user role with 'User can register applications' allowed at the tenant level.
+Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#azure-permissions) to create and manage AAD application in Azure. The user that you use should have the "Application Developer" role or user role with 'User can register applications' allowed at the tenant level.
 
 ### **I am unable to initiate discovery due to errors related to AAD application operation failure**
 

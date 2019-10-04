@@ -22,13 +22,13 @@
 
 ### **I am getting an error in the Internet prerequisite check on the appliance**
 
-The appliance should have Internet connectivity (either directly or via a proxy). Ensure you are able to connect to the URLs listed [here](https://aka.ms/migrate/selfhelp/appliancevmware/urls). If whitelisting is required, please ensure you whitelist all the URLs.
+The appliance should have Internet connectivity (either directly or via a proxy). Ensure you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#assessment-url-access-requirements). If whitelisting is required, please ensure you whitelist all the URLs.
 
 ## Issues in registering the appliance with Azure Migrate:
 
 ### **I am unable to register the appliance to Azure Migrate due to insufficient permissions on the subscription** 
 
-Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://aka.ms/migrate/selfhelp/appliancevmware/azureperms).
+Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure).
 
 ### **I am unable to see the list of customer subscriptions in the Subscriptions drop-down, when logged in using my CSP credentials on the appliance**
 
@@ -42,7 +42,7 @@ Verify the credentials provided for vCenter Server. You’ll need a read-only ac
 
 ### **I am unable to add multiple vCenter servers on the appliance configuration manager**
 
-Currently, addition of multiple vCenter servers to a single appliance is not supported. There is a one-to-one relation between appliance and a vCenter server. To discover multiple vCenter servers, you'll need to deploy multiple appliances. You can register multiple appliances to the same Azure Migrate project. [Learn more](https://docs.microsoft.com/en-us/azure/migrate/scale-vmware-assessment#planning-limits) on how you can discover multiple vCenter servers.
+Currently, addition of multiple vCenter servers to a single appliance is not supported. There is a one-to-one relation between appliance and a vCenter server. To discover multiple vCenter servers, you'll need to deploy multiple appliances. You can register multiple appliances to the same Azure Migrate project. [Learn more](https://docs.microsoft.com/azure/migrate/scale-vmware-assessment#planning-limits) on how you can discover multiple vCenter servers.
 
 ### **I am unable to change the vCenter server details after starting the discovery using the appliance**
 
@@ -52,7 +52,7 @@ After starting the discovery using the appliance, you cannot change the vCenter 
 
 ### **I am unable to initiate discovery due to insufficient AAD privileges**
 
-Ensure that you have the required [permissions](https://aka.ms/migrate/selfhelp/appliancevmware/azureperms) to create and manage AAD Applications in Azure. You should have "Application Developer" role or user role with "User can register applications" allowed at the tenant level.
+Ensure that you have the required [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to create and manage AAD Applications in Azure. You should have "Application Developer" role or user role with "User can register applications" allowed at the tenant level.
 
 ### **I am unable to initiate discovery due to errors related to AAD Application operation failure**
 
