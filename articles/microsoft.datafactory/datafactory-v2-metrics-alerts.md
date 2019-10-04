@@ -20,13 +20,13 @@
 
 There are 2 ways to raise alerts for Azure Data Factory.
 
-1. Raise alerts within Data Factory <br>
+1. Raise alerts within Data Factory:
 
     1. This allows users to monitor activities within _one_ factory <br>
     1. You can set up the alerts from your Data Factory UI <br>
     1. Document: [Set Up Alerts](https://docs.microsoft.com/azure/data-factory/monitor-visually#alerts)
 
-1. Raise alerts through Azure Monitor <br>
+1. Raise alerts through Azure Monitor:
 
     1. This allows you to monitor activities across _multiple_ factories <br>
     1. You need to integrate with Azure Monitor to utilize the features <br>
@@ -41,7 +41,7 @@ There are 2 ways to raise alerts for Azure Data Factory.
   * [Gantt Views](https://docs.microsoft.com/azure/data-factory/monitor-visually#gantt-views) <br>
   * [Alerts](https://docs.microsoft.com/azure/data-factory/monitor-visually#alerts) <br>
 
-* Monitor with Azure Monitor [Document](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor), including following sections <br>
+* Monitor with Azure Monitor [Document](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor), including following sections: 
 
   * [Logs and Event Schema](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor#schema-of-logs-and-events) <br>
   * [Integration with Azure Monitor and Log Analytics](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor#monitor-data-factory-metrics-with-azure-monitor) <br>
