@@ -16,10 +16,12 @@
 	cloudEnvironments="public"
 />
 
-
 # Common issues with NSG Flow Logs
 
 ## **Recommended Steps**
+
+Important Note: Due to an ongoing issue, NSG Flow Logs are not automatically deleted from Blob storage based on retention policy settings.
+The retention feature has been temporarily disabled and users are expected to manually delete flow logs. [Read more here](https://docs.microsoft.com/azure/network-watcher/network-watcher-delete-nsg-flow-log-blobs).
 
 ### **I could not enable NSG Flow Logs**
 
@@ -31,7 +33,7 @@ If you received an *AuthorizationFailed* or a *GatewayAuthenticationFailed* erro
 
 * **Setup time**
 
-NSG Flow Logs may take up to 5 minutes to appear in your storage account (if configured correctly). A PT1J.json will appear which can be accessed [as described here](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#download-flow-log). 
+NSG Flow Logs may take up to 5 minutes to appear in your storage account (if configured correctly). A PT1H.json will appear which can be accessed [as described here](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#download-flow-log).
 
 * **Service Endpoints exist on your VNet**
 
