@@ -16,14 +16,14 @@
 
 # configurationandsetup/howtocreaterulesinanexistingnsg
 
-[Azure Network Watcher](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview) provides tools to monitor, diagnose, view metrics, and enable or disable logs for resources in an Azure virtual network.
+[Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview) provides tools to monitor, diagnose, view metrics, and enable or disable logs for resources in an Azure virtual network.
 
 ## **Recommended steps**
-1. Organize you network resources with [Network Security Groups (NSGs).](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview).
-2. Filter traffic coming in and out of your NSG with [Security Rules.](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview#security-rules) on your NSGs.
-3. View the Security Rules applied to a an existing Virtual Machine with [Effective Security Rules](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-security-group-view-overview).
-4. Log all the traffic going in and out of your NSG with [NSG Flow Logs.](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview).
-5. Capture traffic on individuals Virtual Machines with [Packet Capture.](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-packet-capture-overview).
+1. Organize you network resources with [Network Security Groups (NSGs).](https://docs.microsoft.com/azure/virtual-network/security-overview).
+2. Filter traffic coming in and out of your NSG with [Security Rules.](https://docs.microsoft.com/azure/virtual-network/security-overview#security-rules) on your NSGs.
+3. View the Security Rules applied to a an existing Virtual Machine with [Effective Security Rules](https://docs.microsoft.com/azure/network-watcher/network-watcher-security-group-view-overview).
+4. Log all the traffic going in and out of your NSG with [NSG Flow Logs.](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview).
+5. Capture traffic on individuals Virtual Machines with [Packet Capture.](https://docs.microsoft.com/azure/network-watcher/network-watcher-packet-capture-overview).
 
 In case you are already using Network Watcher tools like NSG Flow Logs, Packet Capture, etc. and have issues/questions about the same, please select the correct topic as below for more detailed help.
 Azure Portal > Help & Support > Technical > Select your subscription > Select "All services" >
