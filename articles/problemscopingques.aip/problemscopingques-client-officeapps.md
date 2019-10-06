@@ -45,7 +45,7 @@
                 "order": 3,
 				"visibility": "client_type == Azure Information Protection Classic Client",
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? Please view the Info Balloon for more details",
+                "displayLabel": "What version are you using? View the Info Balloon on the right for more details",
 				"infoBalloonText": "Verify that you use a supported version <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-version-release-history#servicing-information-and-timelines'>Here</a>",
                 "required": true
                 },{
@@ -53,7 +53,7 @@
                 "order": 4,
 				"visibility": "client_type == Azure Information Protection Unified Labeling Client",
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? Please view the Info Balloon for more details",
+                "displayLabel": "What version are you using? View the Info Balloon on the right for more details",
 				"infoBalloonText": "Verify that you use a supported version <a href='https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history'>Here</a>",
                 "required": true
                 },{
