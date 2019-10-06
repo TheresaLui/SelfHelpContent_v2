@@ -43,8 +43,16 @@
                 },{
                 "id": "version_number",
                 "order": 3,
+				"visibility": "client_type == Azure Information Protection Classic Client",
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? You can get the latest version [here](https://www.microsoft.com/download/details.aspx?id=53018)",
+                "displayLabel": "What version are you using? Verify that you use a supported version <a href='https://docs.microsoft.com/en-us/azure/information-protection/rms-client/client-version-release-history#servicing-information-and-timelines'>Here</a>",
+                "required": true
+                },{
+                "id": "version_number_ul",
+                "order": 4,
+				"visibility": "client_type == Azure Information Protection Unified Labeling Client",
+                "controlType": "textbox",
+                "displayLabel": "What version are you using? Verify that you use a supported version <a href='https://docs.microsoft.com/en-us/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history'>Here</a>",
                 "required": true
                 },{
                     "id": "sccmigrate",
