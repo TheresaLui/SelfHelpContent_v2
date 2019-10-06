@@ -3,7 +3,7 @@
 	description="My issue is not listed"
 	service="microsoft.servermanagement"
 	resource="nodes"
-	authors="danielleemsft"
+	authors="daniellee-msft"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""

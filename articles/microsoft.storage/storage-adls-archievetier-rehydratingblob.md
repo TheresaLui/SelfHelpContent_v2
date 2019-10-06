@@ -7,13 +7,13 @@
 	authors="ramMSFT"
 	ms.author="raprasad"
 	displayOrder=""
-	articleId=""
+	articleId="06462c52-54b5-4556-8348-37f90341785f"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32612595"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Data Lake Gen2 blob archiving

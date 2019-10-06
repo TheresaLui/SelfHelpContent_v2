@@ -5,6 +5,7 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"
+ms.author="passap"
 displayOrder=""
 articleId="Storagev2insights_acctmgmt_replicationChangeIssueDueToMigration"
 diagnosticScenario="Replication type change during account migration"
@@ -12,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Cannot change Storage Account replication type due to system maintenance

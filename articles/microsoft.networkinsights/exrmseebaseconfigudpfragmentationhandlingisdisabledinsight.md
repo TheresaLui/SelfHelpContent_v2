@@ -17,11 +17,12 @@
  />
 
 # UDP Fragmentation is not Enabled
-
+<!--/issueDescription-->
 A device-wide configuration used for communication between the MSEE and the Gateway Tenants (GWTs) is missing. This will cause communication to fail, including datapath and BGP.
 
 '**<!--$Message-->[Message]<!--/$Message-->**' <br>
 MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Issue or guidance with Logic Apps"
-	description="Issue or guidance with Logic Apps"
-	service=""
-	resource=""
-	authors="ScottAzure"
-	ms.author="aaronmax"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32588741, 32588753, 32588756, 32588752, 32588759, 32588769, 32588750, 32588757, 32588768, 32588740, 32588755, 32588758, 32588760, 32588762, 32588765, 32588751, 32588754, 32588761, 32588763, 32588764, 32588766, 32588767, 32588748, 32588749"
-	resourceTags=""
-	productPesIds="15791"
-	cloudEnvironments="public"
-	articleId="f7517214-4e34-48f3-9ce4-3f84fb92275e"
+    pageTitle="Diagnose and resolve issues with Azure with Logic Apps"
+    description="Diagnose and resolve issues with Azure with Logic Apps"
+    service=""
+    resource=""
+    authors="ScottAzure"
+    ms.author="aaronmax"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32588741,32588753,32588756,32588759,32588750,32588757,32588768,32588740,32588765,32588764,32588748"
+    resourceTags=""
+    productPesIds="15791"
+    cloudEnvironments="public"
+    articleId="f7517214-4e34-48f3-9ce4-3f84fb92275e"
 />
 
-# Issue or guidance with Logic Apps
+# Diagnose and resolve issues with Azure with Logic Apps
 
 4 out of 5 customers resolved their Logic Apps issues using the documents below.<br>
 

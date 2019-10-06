@@ -13,11 +13,11 @@
 	supportTopicIds="32612596"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Data Lake Gen2 Storage Development File Storage events
 
 ## **Recommended Documents**
 
-* [Azure Data Lake Storage Gen2 Known Issues - Events](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#azure-event-grid/)<br>
+* [Azure Data Lake Storage Gen2  currently doesn't support Blob events (Azure Event Grid)](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#azure-event-grid/)<br>

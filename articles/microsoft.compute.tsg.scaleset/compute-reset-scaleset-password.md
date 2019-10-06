@@ -3,21 +3,22 @@
     description="How do I reset the password or ssh key on my scale set VMs"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    authors="gatneil"
+    authors="scottAzure"
+    ms.author="scotro"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
     cloudEnvironments="public, MoonCake"
-	articleId="a3d775e6-285d-4c78-86ab-4c098fca5145"
+    articleId="a3d775e6-285d-4c78-86ab-4c098fca5145"
 />
 
 # How do I reset the password or ssh key on my scale set VMs
 
 To reset the password or ssh key used to authenticate to your scale set VMs, you must use either the VMAccessAgent extension (for Windows-based scale sets) or the VMAccessForLinux extension (for Linux-based scale sets).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 For more information, refer to [this document](https://docs.microsoft.com/azure/virtual-machines/linux/using-vmaccess-extension) that describes how to use the VMAccessForLinux extension for Linux-based scale sets. For Windows-based scale sets, here is sample powershell code:
 

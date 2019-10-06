@@ -5,6 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="sadiehenry"
+    ms.author="sahenry"
     displayOrder="1"
     articleId="IAM_SSPR_User_Not_Homed_In_Tenant"
     selfHelpType="diagnostics"
@@ -16,5 +17,10 @@
 />
 
 # Insufficient licensing for password change and reset
+<!--/issueDescription-->
+Your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> does not have the licensing needed for password change and reset.
+<!--/issueDescription-->
 
-We have determined that your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> does not have the licensing needed for password change and reset. Please review the [password reset licensing requirements](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-licensing) to determine which licenses you need.
+## **Recommended Steps**
+
+* Review the [password reset licensing requirements](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-licensing) to determine which licenses you need

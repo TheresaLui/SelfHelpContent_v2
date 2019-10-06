@@ -15,17 +15,17 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
- 
+
 # **Customer Prefixes Missing From VNet Gateway Adjacency Table**
 
-**ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' 
+<!--/issueDescription-->
 
-**MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' 
+* **ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
+* **MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'
+* **VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**'
+* **VnetID:** '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
 
-**VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**' 
-
-**VnetID:** '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**' 
-
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -35,4 +35,5 @@
 + **Note:** Set customer expectations that downtime is expected during a Gateway Reset operation
 
 ## **Recommended Documents**
+
 * [Verify ExpressRoute Connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview)

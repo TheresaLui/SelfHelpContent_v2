@@ -17,5 +17,11 @@
 />
 
 # User is not registered for self-service password reset
+<!--/issueDescription-->
+User <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has not registered for self-service password reset.
+<!--/issueDescription-->
 
-We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant: <!--$TenantId-->[TenantId]<!--/$TenantId--> has not registered for self-service password reset. If <!--$UserId-->[UserId]<!--/$UserId--> is able to sign in, they can go to [aka.ms/ssprsetup](https://aka.ms/ssprsetup) to register for self-service password reset. If <!--$UserId-->[UserId]<!--/$UserId--> is not able to sign in, an administrator will need to reset this user's password for them.  
+## **Recommended Steps**
+
+* If <!--$UserId-->[UserId]<!--/$UserId--> is able to sign in, they can go to [aka.ms/ssprsetup](https://aka.ms/ssprsetup) to register for self-service password reset
+* If <!--$UserId-->[UserId]<!--/$UserId--> is not able to sign in, an administrator will need to reset this user's password for them

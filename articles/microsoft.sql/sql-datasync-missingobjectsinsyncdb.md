@@ -10,14 +10,17 @@
 	articleId="sql_datasync_missingobjectsinsyncdb"
 	diagnosticScenario="SqlDataSync"
 	selfHelpType="diagnostics"
-	supportTopicIds="32574329"
+	supportTopicIds="32630455"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
-# We ran diagnostics on your resource and found an issue
 
-<!--issueDescription-->
+# Data Sync related objects are missing from Sync Metadata database
+
+## We ran diagnostics on your resource and found an issue
+
+<!--issueDescription-->  
 We were able to detect that Data Sync related objects are missing from Sync Metadata database. Data Sync cannot run without these objects. The error message **<!--$SyncDBErrorMessage--> SyncDBErrorMessage <!--/$SyncDBErrorMessage-->** was detected on the sync metadata database <!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->/<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->.
 <!--/issueDescription-->
 
@@ -29,8 +32,7 @@ In case you are aware that the objects were removed from your database, please p
 
 If you are unsure about the missing objects, run the PowerShell script below from either Windows PowerShell or Azure Cloud Shell and share the results with us. You will need to fill the SyncDbUser and the SyncDbPassword parameters. This script will check the missing objects from Sync Metadata Database. Based on the missing objects, we will provide you an action plan.
 
-```powershell
-
+```
 $parameters = @{    
     SyncDbServer = '<!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->.database.windows.net'
     SyncDbDatabase = '<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->'
@@ -38,10 +40,11 @@ $parameters = @{
     SyncDbPassword = ''
 }
 
-$scriptUrlBase = 'https://raw.githubusercontent.com/vitomaz-msft/DataSyncHealthChecker/master/Data%20Sync%20Health%20Checker.ps1'
+$scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/AzureSQLDataSyncHealthChecker/master/AzureSQLDataSyncHealthChecker.ps1'
 Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase)).Content)) -ArgumentList $parameters
-
+#end
 ```
 
 ### Disclaimers
+
 These scripts are copyright Microsoft Corporations and are provided as samples. They are not part of any Azure service and are not covered by any SLA or other Azure-related agreements. They are provided as-is with no warranties express or implied. Microsoft takes no responsibility for the use of the scripts or the accuracy of this document. Familiarize yourself with the scripts before using them.

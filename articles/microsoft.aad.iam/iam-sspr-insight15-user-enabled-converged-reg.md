@@ -17,4 +17,6 @@
 />
 
 # User is enabled for converged MFA/SSPR registration
-We have determined that <!--$UserId-->[UserId]<!--/$UserId--> is enabled to register their security info in a single experience. They may not see security questions when they are registering security info during sign in. To learn more about how the registration experience works and how your policies affect what a user sees, go to [aka.ms/securityinfodocs](https://aka.ms/securityinfodocs).
+<!--/issueDescription-->
+We have determined that <!--$UserId-->[UserId]<!--/$UserId--> is enabled to register their security info in a single experience. They may not see security questions when they are registering security info during sign in.
+<!--/issueDescription-->

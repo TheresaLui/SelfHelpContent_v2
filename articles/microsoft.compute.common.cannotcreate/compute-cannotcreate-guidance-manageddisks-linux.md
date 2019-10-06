@@ -21,6 +21,8 @@
 ## **Recommended Documents**
 
 * [Learn more about Managed Disks ](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview)<br>
+* [Create copy of VHD stored as a managed disk using snapshots in Linux](https://docs.microsoft.com/azure/virtual-machines/linux/snapshot-copy-managed-disk)<br>
+* [How to generalize and capture a Linux virtual machine using the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 * [Convert VMs in Availability Set to use Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/manage-availability#use-managed-disks-for-vms-in-an-availability-set)<br>
 * [Convert a Linux virtual machine from unmanaged disks to Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/convert-unmanaged-to-managed-disks)<br>
 * [Understanding pricing and billing of Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview#pricing-and-billing)

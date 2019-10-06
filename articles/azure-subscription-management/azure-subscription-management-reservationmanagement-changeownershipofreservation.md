@@ -2,9 +2,10 @@
 	pageTitle="change ownership of reservation"
 	description="change ownership of reservation"
 	service="azure-subscription-management"
-	resource="azure-subscription-management"
+	resource="subscription-management"
 	authors="prdasneo"
-	displayOrder=""
+	ms.author="prdasneo"
+	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32593231"
 	resourceTags=""
@@ -15,21 +16,35 @@
 
 # Change ownership of reservation
 
-**How is a reserved instance purchase billed?**
+## **Recommended Steps**
 
-The reserved instance purchase is charged to the payment method tied to the subscription.  The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an [enterprise agreement](https://azure.microsoft.com/offers/enterprise-agreement-support/) (offer number: MS-AZR-0017P) or [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) (offer number: MS-AZR-0003P). For an enterprise subscription, the charges are deducted from the enrollment's monetary commitment balance or charged as overage. For Pay-As-You-Go subscription, the charges are billed to the credit card or invoice payment method on the subscription. <br>
+Once Azure Reservation has been purchased, you might need to apply the reservation to a different subscription, change who can manage the reservation, or change the scope of the reservation. You could also split a reservation into two reservations to apply some of the instances you bought to another subscription.
 
-To Learn more, see [Understanding the application of reserved instances billing benefit.](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
+### Add or change users who can manage a reservation
 
+You can delegate management of a reservation by adding people to roles on the reservation. By default, the person that bought the reservation and the account administrator have the Owner role on the reservation.<br>
 
-## **Recommended documents**
+1. Sign in to the [Azure portal](https://portal.azure.com/)
+2. Select **All Services > Reservation** to list reservations that you have access to
+3. Select the reservation that you want to delegate access to other users
+4. Select **Access control (IAM)**
+5. Select **Add role assignment > Role > Owner**. Or, if you want to give limited access, select a different role.<br>
+6. Type the email address of the user you want to add as owner
+7. Select the user, and then select **Save**
 
-* [Save money on virtual machines with Azure Reserved Instances](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)<br>
-* [Prepay for Virtual Machines with reserved instances](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)<br>
-* [Understand how the reserved instance discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
-* [Understand reserved instance usage for your Pay-As-You-Go subscription](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage)<br>
-* [Understand reserved instance usage for your Enterprise enrollment](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage-ea)<br>
-* [Windows software costs not included with reserved instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs)<br>
-* [Manage reserved instances](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance)<br>
-* [Manage Microsoft Azure reservations on behalf of your customers](https://docs.microsoft.com/partner-center/azure-reservations-manage)<br>
-* [Reserved instances in Partner Center Cloud Solution Provider (CSP) program](https://docs.microsoft.com/partner-center/azure-reservations)<br>
+Learn more: [Manage Reservations](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance) <br>
+
+The Enterprise Administrator can transfer ownership of subscriptions within an enrollment. To learn more see [Transfer Account Ownership](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription) in the EA portal.<br>
+
+## **Recommended Documents**
+
+* [Subscription Ownership transfer](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
+* [Save money on virtual machines with Azure Reserved Instances](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
+* [Prepay for Virtual Machines with reserved instances](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)
+* [Understand how the reserved instance discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)
+* [Understand reserved instance usage for your Pay-As-You-Go subscription](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage)
+* [Understand reserved instance usage for your Enterprise enrollment](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage-ea)
+* [Windows software costs not included with reserved instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs)
+* [Manage reserved instances](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance)
+* [Manage Microsoft Azure reservations on behalf of your customers](https://docs.microsoft.com/partner-center/azure-reservations-manage)
+* [Reserved instances in Partner Center Cloud Solution Provider (CSP) program](https://docs.microsoft.com/partner-center/azure-reservations)

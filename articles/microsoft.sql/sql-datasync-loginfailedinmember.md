@@ -17,8 +17,9 @@
 />
 # We ran diagnostics on your resource and found an issue
 
-<!--issueDescription-->
+<!--issueDescription-->  
 We were able to detect a login failure in the following Azure Member Database(s):<br>
+<br>
 **<!--$LoginFailedAzureMemberList--> LoginFailedAzureMemberList <!--/$LoginFailedAzureMemberList-->**
 <!--/issueDescription-->
 
