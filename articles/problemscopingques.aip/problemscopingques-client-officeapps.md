@@ -44,7 +44,7 @@
                 "id": "version_number",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? You can get the latest version at https://www.microsoft.com/download/details.aspx?id=53018",
+                "displayLabel": "What version are you using? You can get the latest version [here](https://www.microsoft.com/download/details.aspx?id=53018)",
                 "required": true
                 },{
                     "id": "sccmigrate",
