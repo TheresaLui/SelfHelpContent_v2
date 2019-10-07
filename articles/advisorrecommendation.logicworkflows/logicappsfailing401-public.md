@@ -39,7 +39,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/LA-failing401",
   "description": "Resolve trigger authentication failure in Logic Apps for uninterrupted operation",
-  "longDescription": "We have detected that some of your Logic Apps have a trigger that has been consistently failing due to an HTTP 401 response. This typically indicates an authentication problem where the Logic App trigger is unauthorized to access the designated API endpoint. Please ensure that the username/password or other credential value is correct.",
+  "longDescription": "Your logic app is consistently failing because the trigger doesn't have the authorization to access the specified API. To restore the connection, check or update your credentials and then try authorizing again.",
   "potentialBenefits": "Allow Logic App to start running by avoiding trigger failures",
   "actions": [
     {

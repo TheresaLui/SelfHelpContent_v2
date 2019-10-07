@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Replicate Azure Stack VMs to Azure"
-    description="Replicate Azure Stack VMs to Azure"
+    pageTitle="Replicate Azure Stack VM to Azure"
+    description="Replicate Azure Stack VM to Azure"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="TobyTu"

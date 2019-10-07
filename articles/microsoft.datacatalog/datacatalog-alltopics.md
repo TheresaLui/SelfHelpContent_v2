@@ -19,5 +19,5 @@
 ## **Recommended Documents**
 
 - [Azure Data Catalog FAQs](https://docs.microsoft.com/azure/data-catalog/data-catalog-frequently-asked-questions) 
-- [Enable forms authentication in Azure Active Directory global authentication policy for signing in to the data source registration tool](https://docs.microsoft.com/azure/data-catalog/troubleshoot-policy-configuration)
+- [Troubleshooting Azure Data Catalog](https://docs.microsoft.com/azure/data-catalog/troubleshoot-policy-configuration)
 

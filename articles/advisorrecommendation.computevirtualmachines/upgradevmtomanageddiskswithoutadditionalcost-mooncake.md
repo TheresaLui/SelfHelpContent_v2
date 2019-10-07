@@ -47,7 +47,7 @@
       "actionId": "0a52c8b8-5200-443f-9e04-2d233162451b",
       "description": "Upgrade VM to Managed Disks at no additional cost",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/migrate_to_md"
+      "documentLink": "https://aka.ms/migrate_to_md_cn"
     }
   ],
   "resourceMetadata": {

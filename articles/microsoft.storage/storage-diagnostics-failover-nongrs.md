@@ -12,7 +12,7 @@ diagnosticScenario="NonGRS account cannot failover"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Non-GRS account cannot failover

@@ -10,7 +10,7 @@
     supportTopicIds="32640646"
     resourceTags=""
     productPesIds="16572"
-    cloudEnvironments="public"
+    cloudEnvironments="public,mooncake,fairfax"
 	articleId="virtualwan-connection-site-hub"
 />
 

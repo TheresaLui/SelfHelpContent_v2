@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Azure backup server backup is taking longer",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure backup server backup is taking longer",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_Type",
@@ -39,14 +44,15 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "mab_version",
             "order": 2,
             "visibility": "null",
             "controlType": "textbox",
-            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\\\Help\\\\About",
+            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\Help\\About",
             "displayLabel": "What is the software version of Microsoft Azure Backup Server?",
             "watermarkText": "ex. version 12.0.332.0.",
             "required": false
@@ -93,7 +99,8 @@
             "visibility": "null",
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

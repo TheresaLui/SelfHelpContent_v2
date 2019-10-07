@@ -7,12 +7,13 @@
 	articleId="StorageScoping_queue_Security"
 	supportTopicIds="32602775"
 	productPesIds="16461"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
 # Queue Security Issue
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Security issue on queue scoping question",
     "fileAttachmentHint": "",
