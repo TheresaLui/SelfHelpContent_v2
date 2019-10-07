@@ -31,7 +31,7 @@ There are several ways to reduce costs of using Application Insights, all of whi
 
 **How do I change the daily cap?**<br>
 
-From the Application Insights Usage and estimated costs page, there is a “Daily cap” option. Here you can enter any value up to 1000 GB/day. Learn more about setting the daily cap.<br>
+From the Application Insights Usage and estimated costs page, there is a “Daily cap” option. Here you can enter any value up to 1000 GB/day. [Learn more](https://go.microsoft.com/fwlink/?linkid=832795) about setting the daily cap.<br>
 
 **How can I get a daily cap above the maximum level?**<br>
 
