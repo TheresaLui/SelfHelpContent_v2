@@ -42,3 +42,4 @@ If you need more than 1000 GB/day, send an email to AIDataCap@microsoft.com with
 
 * [Azure Monitor Pricing](https://azure.microsoft.com/pricing/details/monitor/)
 * [Manage Pricing](https://docs.microsoft.com/azure/azure-monitor/app/pricing)
+* [Azure Cost Analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
