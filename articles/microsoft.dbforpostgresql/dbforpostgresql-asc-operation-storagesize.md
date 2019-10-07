@@ -19,9 +19,7 @@
 # Create or update PostgreSQL server is failed because the input storage size does not meet our requirement.
 
 <!--issueDescription-->
-
 Thank you for contacting Microsoft support team. During our investigation we found that your storage size does not meet the requirement of your PostgreSQL pricing tier.
-
 <!--/issueDescription-->
 
 ## **Recommended Steps**

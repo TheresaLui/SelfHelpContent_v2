@@ -19,9 +19,7 @@
 # Operation on PostgreSQL is failed because server is busy with other operations.
 
 <!--issueDescription-->
-
 Thank you for contacting Microsoft support team. During our investigation we found that your operation on PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> is failed because your server is currently busy with other operations. Please wait for the server to be in ready state and retry your operation.
-
 <!--/issueDescription-->
 
 ## **Recommended Steps**

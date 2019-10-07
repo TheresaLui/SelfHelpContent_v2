@@ -19,9 +19,7 @@
 # Operation on PostgreSQL is failed because  server version, editio, hardware generation, number of vcores or storage size are not set correctly.
 
 <!--issueDescription-->
-
 Thank you for contacting Microsoft support team. During our investigation we found that your operation on PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> is failed because <!--$ErrorDetails-->ErrorDetails<!--/$ErrorDetails-->.
-
 <!--/issueDescription-->
 
 ## **Recommended Steps**

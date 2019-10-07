@@ -19,9 +19,7 @@
 # Service object assignment failed because of an ongoing capacity issue.
 
 <!--issueDescription-->
-
 Thank you for contacting Microsoft support team. During our investigation we found that there is an ongoing backend issue in this region. The issue has been forwarded to engineering team for resolution.
-
 <!--/issueDescription-->
 
 ## **Recommended Steps**

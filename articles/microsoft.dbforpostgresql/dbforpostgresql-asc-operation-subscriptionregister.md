@@ -19,9 +19,7 @@
 # Operation is failed because subscription is in registration process.
 
 <!--issueDescription-->
-
 Thank you for contacting Microsoft support team. During our investigation we found that your operation failed because your subscription is still in registration process. 
-
 <!--/issueDescription-->
 
 ## **Recommended Steps**
