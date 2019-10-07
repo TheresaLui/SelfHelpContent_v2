@@ -19,16 +19,16 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 <!--issueDescription-->
 Specified blob does not support access tiers due to the following reason(s):
 
-*<!--$displayMessage-->[displayMessage]<!--/$displayMessage--> 
+* <!--$displayMessage-->[displayMessage]<!--/$displayMessage--> 
  
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Storage data tiering to hot, cool, or archive is only available for block blobs.
- * Block blob with lease - The lease needs to be broken first before changing the access tier
- * Page blob - These can't be moved to a different tier
- * Append blob - These can't be moved to a different tier  
+* Storage data tiering to hot, cool, or archive is only available for block blobs
+* Block blob with lease - The lease needs to be broken first before changing the access tier
+* Page blob - These can't be moved to a different tier
+* Append blob - These can't be moved to a different tier  
 
 ## **Recommended Documents**
 
