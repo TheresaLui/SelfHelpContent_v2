@@ -25,7 +25,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
             "required": true
-        },              
+        },
         {
             "id": "error_code_dropdown",
             "order": 2,
@@ -86,7 +86,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],
