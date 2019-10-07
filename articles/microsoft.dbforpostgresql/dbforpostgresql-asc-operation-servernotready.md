@@ -19,7 +19,7 @@
 # Operation on PostgreSQL failed because the backend is not ready to perform it.
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support team. During our investigation we found that your operation on PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> is timed out because the backend is not ready to perform it. Please wait for the server to be in ready state and retry your operation.
+Thank you for contacting Microsoft support team. We have detected that your operation on PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> is timed out because the backend is not ready to perform it. Please wait for the server to be in ready state and retry your operation.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
