@@ -22,6 +22,7 @@ Azure Stack cloud operators monitor and manage the storage capacity of their Azu
 
 - [Overview of Azure Stack capacity planning](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planning-overview)
 - [Azure Stack Capacity Planner](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planner)
+- [Azure Stack memory](https://docs.microsoft.com/azure-stack/operator/azure-stack-capacity-planning-compute#azure-stack-memory)
 - [Monitoring shares](https://docs.microsoft.com/azure-stack/operator/azure-stack-manage-storage-shares#monitor-shares)
 - [Manage available space](https://docs.microsoft.com/azure-stack/operator/azure-stack-manage-storage-shares#manage-available-space)
 - [Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences)

@@ -27,6 +27,7 @@ Query performance issues can have many different root causes. Work through the r
   * [Performance Recommendations](https://docs.microsoft.com/azure/postgresql/concepts-performance-recommendations)
 
 * Ensure you have the right set of indexes created for your queries
+* Make sure that there are no deadlocks in the concurrent queries
 * Monitor the resource consumption of your server. If compute, memory or IO is the limiting factor, consider scaling up the resource that you are limited on.
 * Only retrieve the columns you really need instead of using 'SELECT *'
 

@@ -54,16 +54,128 @@
             "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
           },
-	   {
-            "id": "problem_start_time",
+	  {
+            "id": "azcopy_version",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Version of AzCopy you are using",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "AzCopy_above10.1",
+                    "text": "v10.1.0 and above"
+                },
+                {
+                    "value": "AzCopy_10_10.0.9",
+                    "text": "v10.0.0 - 10.0.9"
+                },
+                {
+                    "value": "AzCopy_below8.1",
+                    "text": "v8.1 and below"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+	{
+            "id": "azcopy_command_needhelp",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have questions on AzCopy command",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "yes"
+                },
+                {
+                    "value": "no",
+                    "text": "no"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+            "required": false,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "azcopy_performance",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Are you experiencing any performance issue with the copy operations",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "no",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "error_code",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Did you receive any error code? ",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "error400",
+                    "text": "400 - Bad Request"
+                },
+                {
+                    "value": "error401",
+                    "text": "401 – Unauthorized"
+                },
+                {
+                    "value": "error403",
+                    "text": "403 – Forbidden"
+                },
+                {
+                    "value": "error404",
+                    "text": "404 - Resource not found (Authentication)"
+                },
+                {
+                    "value": "error409",
+                    "text": "409 - Conflict"
+                },
+                {
+                    "value": "error412",
+                    "text": "412 – Precondition failed"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": false,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "problem_start_time",
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

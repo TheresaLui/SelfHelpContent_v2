@@ -17,7 +17,15 @@
 
 ## **Recommended Documents**
 
-* [Azure HDInsight Accelerated Writes for Apache HBase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes)
-* [Troubleshoot Apache HBase by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/apache-troubleshoot-hbase)
-* [Troubleshooting: How to fix timeout issue with ‘hbase hbck’ command when fixing region assignments](https://hdinsight.github.io/hbase/hbase-hbck-timeout.html)
-* [Troubleshooting: The restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed.html)
+* [Server-side configuration tuning](https://docs.microsoft.com/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues#server-side-config-tunings) to improve performance
+
+* Did you know that Writes to Hbase would be 4 to 10x faster with our Accelerated Writes feature for Apache HBase in Azure HDInsight? Accelerated Writes uses Azure premium SSD managed disks to improve performance of the Apache HBase Write Ahead Log (WAL). To learn more about it please follow [Azure HDInsight Accelerated Writes for Apache HBase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes)
+
+* Use [Premium Block Blob Storage Account](https://azure.microsoft.com/blog/azure-premium-block-blob-storage-is-now-generally-available) as your remote storage to gain significant improvement in read operations. This option is possible only if Write Ahead Logs feature is enabled.
+
+* [Troubleshoot Apache HBase performance issues on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues#server-side-config-tunings)
+
+### Troubleshooting specific scenario
+
+* [Timeouts with 'hbase hbck' command in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/hbase-troubleshoot-timeouts-hbase-hbck)
+* [Restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed.html)

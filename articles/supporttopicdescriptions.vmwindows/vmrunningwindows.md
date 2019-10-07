@@ -802,7 +802,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "fd32c173-79fe-462d-bfff-aeef92800055",
-            "shortDescription": "Issues where I need help diagnosing the virtual machine restart",
+            "shortDescription": "Look into actions and events that can cause VMs to reboot and understand how to avoid unexpected reboots",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -830,7 +830,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
-            "shortDescription": "Covers issues related unexpected restarts of your VM on Azure due to an OS update or guest OS on the machine",
+            "shortDescription": "VMs might sometimes restart without the user intitiating the operation - this could be due to factors such as an OS update or a guest OS on the machine",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"

@@ -16,7 +16,9 @@
 
 # Azure Resource Graph - Throttling Errors
 
-This support request will be filed for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in:
+*If you're hitting issues regarding Microsoft Graph API, please create your support request under "Azure Active Directory App Integration and Development" service, and choose Graph API as your problem type.*
+
+This support request will be created for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in the following ways:
 
 * Azure Portal Search, "All Resources" view, and "Resource Graph Explorer" 
 * Azure CLI with the command `az graph query`
