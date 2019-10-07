@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Security issue on blob"
-	description="Security issue on blob scoping question"
+	pageTitle="Authentication issue"
+	description="Authentication issue for storage blob,datalake,tables and queues scoping question"
 	authors="AngshumanNayakMSFT"
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_all_authentication"
 	supportTopicIds="32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32679298,32679299,32679297,32680501"
 	productPesIds="15629,16459,16462,16461,16598"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
 # Authentication Issue
