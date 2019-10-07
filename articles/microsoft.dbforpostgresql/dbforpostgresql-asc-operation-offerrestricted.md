@@ -19,7 +19,7 @@
 # This subscription is restricted from provisioning PostgreSQL servers in this region
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support team. Your subscription is restricted from provisioning PostgreSQL servers in this region. The issue has been sent to our Service and subscription limits (quotas) team for resolution.
+Thank you for contacting Microsoft support team. Your subscription is restricted from provisioning Azure Database for PostgreSQL servers in this region. The issue has been sent to our Service and subscription limits (quotas) team for resolution.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

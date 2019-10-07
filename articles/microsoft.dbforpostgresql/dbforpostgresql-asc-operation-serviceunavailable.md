@@ -19,7 +19,7 @@
 # Our service is not available in this region because the region is locked down.
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support team. Our service is currently not available in this region.
+Thank you for contacting Microsoft support team. Azure Database for PostgreSQL service is currently not available in this region.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
