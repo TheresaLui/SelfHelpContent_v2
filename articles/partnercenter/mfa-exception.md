@@ -18,9 +18,11 @@
 />
 
 # Request for MFA exception
-Starting October, partners will be required to complete MFA verification for specific partner-related scenarios. Partners can request for technical exception to suppress MFA verification if they are encountering issues with Microsoft Online Services and there are no feasible solution or workaround.
+Partner Center is mandating partners to complete MFA verification for specific partner-related scenarios. Partners can request for technical exception to suppress MFA verification if they are encountering issues with Microsoft Online Services and there are no feasible solution or workaround.
 
-Before submitting a request for technical exception, please review all the documents listed below to understand what partner-related scenarios will trigger MFA verification, what constitutes a valid reason for technical exception, and information required when submitting an exception.
+Before submitting a request for technical exception, please review all the documents listed below to understand what partner-related scenarios will trigger MFA verification, what constitutes a valid reason for technical exception, and information required when submitting an exception. After which, click ‘Yes’ below to proceed with submitting an exception request.
+
+After the request is submitted, Microsoft will provide a response within 3 business days.
 
 ## **Recommended Documents**
 
