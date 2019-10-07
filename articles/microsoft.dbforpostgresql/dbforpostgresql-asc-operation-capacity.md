@@ -23,7 +23,7 @@ Thank you for contacting Microsoft support team. During our investigation we fou
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Please use other nearby datacenters if possible.
+Please use other nearby regions if possible.
 
 ## **Recommended Documents**
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
