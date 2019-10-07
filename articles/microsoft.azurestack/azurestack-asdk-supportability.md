@@ -20,7 +20,7 @@ Thank you for your interest in Azure Stack. As outlined in [What is the ASDK](ht
 
 ## **Recommended Steps**
 
-* If you are experiencing an issue that is not already documented, check the [Azure Stack MSDN Forum](https://social.msdn.microsoft.com/Forums/home?forum=azurestack) for further assistance and information
+* If you are experiencing an issue that is not already documented, check the [Azure Stack MSDN Forum](https://social.msdn.microsoft.com/Forums/home?forum=azurestack) for further assistance and information<br>
 * If you are interested in purchasing Azure Stack, see [Buying Azure Stack](https://azure.microsoft.com/overview/azure-stack/how-to-buy/)
 
 ## ASDK documentation
@@ -30,7 +30,7 @@ Thank you for your interest in Azure Stack. As outlined in [What is the ASDK](ht
 
 ## **Recommended Documents**
 
-* [ASDK Troubleshooting](https://docs.microsoft.com/azure-stack/asdk/asdk-troubleshooting)
-* [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting) provides common troubleshooting information and Known Issues for Azure Stack Dev Kit<br>
+* [ASDK Troubleshooting](https://docs.microsoft.com/azure-stack/asdk/asdk-troubleshooting)<br>
+* [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting) provides common troubleshooting information and known issues for the ASDK<br>
 * [ASDK Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-asdk-release-notes) includes known issues for current released build<br>
 * [Azure Stack White Paper](https://azure.microsoft.com/resources/azure-stack-an-extension-of-azure/) is the official Azure Stack documentation, outlining road map and supportability statements
