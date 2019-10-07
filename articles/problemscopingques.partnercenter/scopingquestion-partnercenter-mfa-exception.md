@@ -33,7 +33,7 @@
                 {
                     "value": "Yes",
                     "text": "Yes"
-                }, 
+                },
 		{
 		    "value": "dont_know_answer",
 		    "text": "Don't Know"
@@ -55,7 +55,7 @@
                 {
                     "value": "Yes",
                     "text": "Yes"
-                }, 
+                },
 		{
 		    "value": "dont_know_answer",
 		    "text": "Don't Know"
@@ -95,7 +95,7 @@
                 {
                     "value": "Yes",
                     "text": "Yes"
-                }, 
+                },
 		{
 		    "value": "dont_know_answer",
 		    "text": "Don't Know"
