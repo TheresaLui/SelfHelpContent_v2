@@ -7,7 +7,7 @@
 	supportTopicIds="32629563"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_scanner_powershell"
+    articleId="scoping_scanner_labels_not_as_expected"
 	schemaVersion="1"
 />
 # Can't apply this label
