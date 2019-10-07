@@ -1,10 +1,11 @@
 <properties
 	pageTitle="configurationandsetup/howtocreaterulesinanexistingnsg"
 	description="configurationandsetup/howtocreaterulesinanexistingnsg"
+	infoBubbleText="Common Solutions Template"
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="damendo"
-	authors="damendo"
+	ms.author="damendo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32584257"
