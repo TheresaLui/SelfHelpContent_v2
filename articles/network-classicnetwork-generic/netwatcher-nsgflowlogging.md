@@ -20,8 +20,7 @@
 
 ## **Recommended Steps**
 
-Important Note: Due to an ongoing issue, NSG Flow Logs are not automatically deleted from Blob storage based on retention policy settings.
-The retention feature has been temporarily disabled and users are expected to manually delete flow logs. [Read more here](https://docs.microsoft.com/azure/network-watcher/network-watcher-delete-nsg-flow-log-blobs).
+Important Note: Due to an ongoing issue, NSG Flow Logs are not automatically deleted from Blob storage based on retention policy settings. The retention feature has been temporarily disabled and users are expected to manually delete flow logs. [Read more here](https://docs.microsoft.com/azure/network-watcher/network-watcher-delete-nsg-flow-log-blobs).
 
 ### **I could not enable NSG Flow Logs**
 
