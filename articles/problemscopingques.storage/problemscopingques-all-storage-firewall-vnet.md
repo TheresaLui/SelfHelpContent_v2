@@ -18,7 +18,8 @@
     "title": "Storage Firewall and VNet scoping question",
     "fileAttachmentHint": "",
     "formElements": [
-         { "id": "problem_start_time",
+         { 
+          "id": "problem_start_time",
           "order": 1,
           "controlType": "datetimepicker",
           "displayLabel": "Local start time of the latest occurrence",
