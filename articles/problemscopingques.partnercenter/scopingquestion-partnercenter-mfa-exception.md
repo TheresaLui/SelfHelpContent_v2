@@ -27,13 +27,17 @@
             "displayLabel": "Select 'yes' if this issue is related to the use of Exchange Online PowerShell to manage customer resources, and Exchange Online PowerShell does not support MFA.",
             "dropdownOptions": [
                 {
-                    "value": "NO",
+                    "value": "No",
                     "text": "No"
                 },
                 {
                     "value": "Yes",
                     "text": "Yes"
-                }
+                }, 
+		{
+		    "value": "dont_know_answer",
+		    "text": "Don't Know"
+		}
                 ],
             "required": true
              },
@@ -51,7 +55,11 @@
                 {
                     "value": "Yes",
                     "text": "Yes"
-                }
+                }, 
+		{
+		    "value": "dont_know_answer",
+		    "text": "Don't Know"
+		}
                 ],
             "required": true
              },
@@ -68,7 +76,6 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe impact if issue is not resolved.",
-            "useAsAdditionalDetails": true,
             "required": true
              },
              {
@@ -88,7 +95,11 @@
                 {
                     "value": "Yes",
                     "text": "Yes"
-                }
+                }, 
+		{
+		    "value": "dont_know_answer",
+		    "text": "Don't Know"
+		}
                 ],
             "required": true
              }
