@@ -19,7 +19,7 @@
 # Given edition or sku is not supported in this region
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support team. Your server edition or sku is not supported in this region.
+Thank you for contacting Microsoft support team. Your requested server edition or sku is not supported in this region.
 <!--/issueDescription-->
 ## **Recommended Steps**
 

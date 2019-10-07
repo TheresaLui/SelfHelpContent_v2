@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Operation on PostgreSQL is failed because server is busy with other operations.
+# Operation on PostgreSQL failed because server is busy with other operations.
 
 <!--issueDescription-->
 Thank you for contacting Microsoft support team. During our investigation we found that your operation on PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> is failed because your server is currently busy with other operations. Please wait for the server to be in ready state and retry your operation.
@@ -24,9 +24,9 @@ Thank you for contacting Microsoft support team. During our investigation we fou
 
 ## **Recommended Steps**
 
-* If you are using Azure portal, please check the server "Activity log" menu and make sure your previous operation is succeeded and try your operation again.
+* If you are using Azure portal, please check the server "Activity log" menu and make sure your previous operation succeeded and try your operation again.
 * If you are using Azure CLI, you can use the following command to get the state of your server:
-	az postgres server show --resource-group <resource group name> -name <server name> --subscription <subscription id>
+	az postgres server show --resource-group <resource group name> --name <server name> --subscription <subscription id>
 and wait for the "userVisibleState" to be in ready state: 
 	"userVisibleState": "Ready"
 
