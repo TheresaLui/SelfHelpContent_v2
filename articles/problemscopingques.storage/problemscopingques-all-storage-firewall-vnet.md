@@ -18,12 +18,11 @@
     "title": "Storage Firewall and VNet scoping question",
     "fileAttachmentHint": "",
     "formElements": [
-         {
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "Local start time of the latest occurrence",
-            "required": true
+         { "id": "problem_start_time",
+          "order": 1,
+          "controlType": "datetimepicker",
+          "displayLabel": "Local start time of the latest occurrence",
+          "required": true
         },              
         {
             "id": "error_code_dropdown",
@@ -66,7 +65,7 @@
                 },
                 {
                     "value": "other",
-                    "text": "Not listed above  "
+                    "text": "Not listed above"
                 }
             ],
             "required": false
