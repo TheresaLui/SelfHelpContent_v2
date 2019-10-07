@@ -79,7 +79,7 @@
             "required": true
              },
              {
-            "id": "mfa_thirdparty",
+            "id": "mfa_suppress",
             "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Microsoft does not recommend suppressing MFA verification for partner-related scenarios as it increases the security risk to both the partner and associated customers. Select 'yes' to indicate that you understand the risk. ",
