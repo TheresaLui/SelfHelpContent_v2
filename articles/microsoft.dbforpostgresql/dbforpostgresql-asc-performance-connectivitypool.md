@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Customer not using a Connection Pool to connect to the server"
-    description="Customer not using a Connection Pool to connect to the server"
-	infoBubbleText="Customer's client is not using connection pool. See details on the right"
+    pageTitle="High percentage of short-lived connections"
+    description="High percentage of short-lived connections"
+	infoBubbleText="Customer has high percentage of short-lived connections. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"
     authors="danielcarbajal"
