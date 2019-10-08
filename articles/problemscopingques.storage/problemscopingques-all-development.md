@@ -28,7 +28,7 @@
 	 {
 	 "value": "Issue",
 	 "text": "Troubleshoot a development/coding/scripting issue"
-         },
+	 },
 	 { 
          "value": "Advisory",
 	 "text": "Need advisory guidance on development/coding/scripting issue"
