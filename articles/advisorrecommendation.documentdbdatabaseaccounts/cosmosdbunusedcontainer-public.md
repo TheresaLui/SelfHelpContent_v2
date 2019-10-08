@@ -52,7 +52,6 @@
       "actionId": "50b42ebc-bdb6-491d-86ce-63d14eb3cd32",
       "description": "Verify that geo-replications are being used",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/cosmosdb/geo-replication"
     }
   ],
   "resourceMetadata": {
