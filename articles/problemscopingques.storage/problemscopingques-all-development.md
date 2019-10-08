@@ -26,20 +26,20 @@
          "displayLabel":"How would you want us to help you?",
          "watermarkText":"Choose a problem area",
          "dropdownOptions":[
-	 {
-	 "value": "Issue",
-	 "text": "Troubleshoot a development/coding/scripting issue"
-	 },
-	 { 
-         "value": "Advisory",
-	 "text": "Need advisory guidance on development/coding/scripting issue"
-	 },
-	 {
-	 "value": "dont_know_answer",
-	 "text": "None of the above"
-	 }
-	 ],
-	 "required": true
+     {
+     "value": "Issue",
+     "text": "Troubleshoot a development/coding/scripting issue"
+     },
+     {
+     "value": "Advisory",
+     "text": "Need advisory guidance on development/coding/scripting issue"
+     },
+     {
+     "value": "dont_know_answer",
+     "text": "None of the above"
+     }
+     ],
+     "required": true
         },
         {
             "id": "problem_start_time",
