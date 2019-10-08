@@ -16,7 +16,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Development issue on account management,blob,adlsgen2,table and queues scoping question",
+    "title": "Development issue on account management, blob, adlsgen2, table and queues scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {
