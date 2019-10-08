@@ -6,7 +6,7 @@
 	  authors="JRMayberry"
 	  ms.author="rimayber"
 	  displayOrder=""
-	  selfHelpType="TSG_Description"
+	  selfHelpType="TSG_Content"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
