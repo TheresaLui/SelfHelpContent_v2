@@ -15,7 +15,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "00c14add-2aef-4bb4-a3bd-5759096d4417",
   "dataSourceMetadata": {
-    "streamNamespace": "https://xstore.kusto.windows.net').database('xstore').StorageAdvisorMDHDDtoPremiumForPerformancePublic",
+    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').StorageAdvisorMDHDDtoPremiumForPerformancePublic",
     "dataSource": "Kusto",
     "refreshInterval": "1.00:00:00"
   },
