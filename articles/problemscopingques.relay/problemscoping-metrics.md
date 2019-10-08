@@ -2,7 +2,7 @@
 pageTitle="Monitoring and Metrics Issues"
 description="Monitoring and Metrics Issues"
 service="microsoft.relay"
-resource="connectivityissues"
+resource="monitoringissues"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""

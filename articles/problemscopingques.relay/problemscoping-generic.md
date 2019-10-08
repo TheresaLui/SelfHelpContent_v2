@@ -1,8 +1,8 @@
 <properties
 pageTitle="General Advisory Questions"
 description="General Advisory Questions"
-service="microsoft.eventhubs"
-resource="connectivityissues"
+service="microsoft.relay"
+resource="generalquestions"
 authors="mksuni"
 ms.author="mksuni"
 displayOrder=""
