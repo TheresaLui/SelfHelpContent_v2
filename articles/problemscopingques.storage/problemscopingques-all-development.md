@@ -31,7 +31,7 @@
               },
               { 
                     "value": "Advisory",
-                    "text": "Need advisory guidance on development/coding/scripting issue "
+                    "text": "Need advisory guidance on development/coding/scripting issue"
               },
               { 
                    "value": "dont_know_answer",
