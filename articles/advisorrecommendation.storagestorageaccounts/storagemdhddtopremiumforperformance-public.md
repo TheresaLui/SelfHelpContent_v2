@@ -33,11 +33,10 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "ingestionClientIdentities": [],
   "version": 1,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#premium-ssd",
   "description": "Convert Managed Disks from Standard HDD to Premium SSD For Performance",
-  "longDescription": "We’ve noticed your Standard HDD disk is approaching performance targets. Premium SSD disks are recommended for IO-intensive workloads because of the low latency and high availability provided. Give your disk performance a boost by upgrading your Standard HDD disk to Premium SSD disk. Upgrading requires a VM reboot, which will take three to five minutes.",
+  "longDescription": "We have noticed your Standard HDD disk is approaching performance targets. Premium SSD disks are recommended for IO-intensive workloads because of the low latency and high availability provided. Give your disk performance a boost by upgrading your Standard HDD disk to Premium SSD disk. Upgrading requires a VM reboot, which will take three to five minutes.",
   "potentialBenefits": "Give your disk performance a boost using Premium SSD disks.",
   "actions": [
    {
@@ -51,14 +50,15 @@
     "action": {
       "actionId": "98be5cee-a61c-47bc-b063-0a00eac1b5be",
       "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
-      "metadata": {resourceId},
+      "extensionName": "Microsoft_Azure_Storage",
+      "bladeName": "StorageAccountBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      },
       "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage"
     }
   },
   "displayLabel": "Convert Managed Disks to Premium SSD",
-  "tip": "Upgrade your Standard HDD disks to Premium SSD disks by following our instructions for the Azure portal, PowerShell, or CLI.",
-  "testData": ""
+  "tip": "Upgrade your Standard HDD disks to Premium SSD disks by following our instructions for the Azure portal, PowerShell, or CLI."
 }
 ---
