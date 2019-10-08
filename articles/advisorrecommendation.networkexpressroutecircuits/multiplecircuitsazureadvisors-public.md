@@ -7,7 +7,8 @@ articleId = "70f87e66-9b2d-4bfa-ae38-1d7d74837689_Public"
 selfHelpType = "advisorRecommendationMetadata"
 cloudEnvironments = "Public" 
 />
-#Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency 
+#Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency
+---
 {
     "recommendationOfferingId": "7269b88e-b638-4ba5-a55e-5632365dd938",
     "recommendationOfferingName": "ExpressRoute",
@@ -61,3 +62,4 @@ cloudEnvironments = "Public"
     "displayLabel": "Implement multiple ExpressRoute circuits in your Virtual Network for cross-premises resiliency",
     "additionalColumns": []
 }
+---
