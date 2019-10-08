@@ -21,11 +21,11 @@
     "formElements": [
         { "id": "problem_type",
          "order": 1,
-         "controlType": "dropdown",
-         "displayLabel": "How would you want us to help you?",
-         "watermarkText": "Choose a problem area",
-         "dropdownOptions": [ 
-              { 
+         "controlType":"dropdown",
+         "displayLabel":"How would you want us to help you?",
+         "watermarkText":"Choose a problem area",
+         "dropdownOptions":[
+             { 
                     "value": "Issue",
                     "text": "Troubleshoot a development/coding/scripting issue"
               },
