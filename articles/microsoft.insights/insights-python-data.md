@@ -5,7 +5,7 @@
     resource="components"
     authors="lzchen"
     ms.author="lechin"
-    articleId="insights_python"
+    articleId="insights_python_data"
     displayOrder="1126"
     selfHelpType="resource"
     cloudEnvironments="public"
