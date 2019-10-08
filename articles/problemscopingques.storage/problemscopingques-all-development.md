@@ -44,7 +44,7 @@
             "order": 2,
             "visibility": "problem_type == Issue"
             "controlType": "datetimepicker",
-            "displayLabel": "Appoximate local time of the latest error occurrence",
+            "displayLabel": "Appoximate local time of the most recent error occurrence",
             "required": true
         },
         {
