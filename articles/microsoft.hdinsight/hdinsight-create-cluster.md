@@ -18,9 +18,9 @@
 
 ## **Recommended Steps**
 
-**Potential intermittent or transient issuse**
+**Potential intermittent or transient issuses**
 
-*Some errors are transient and your request may succeed if you retry creation after 15 minutes of the failed attempt. If after retrying your request, you still receive an error and are not able to address the issue, note the timeframe in which the error occurred and file a support request in a timely manner. By providing a timeframe and filing a support ticket within a few days of an event, support is more likely to be able to review logs to determine the root cause of the error as logs are only available for a specific amount of time.
+Some errors are transient and your request may succeed if you retry creation after 15 minutes of the failed attempt. If after retrying your request, you still receive an error and are not able to address the issue, note the timeframe in which the error occurred and file a support request in a timely manner. By providing a timeframe and filing a support ticket within a few days of an event, support is more likely to be able to review logs to determine the root cause of the error as logs are only available for a specific amount of time.
 
 **Error: Conflict (HTTP Status Code: 409)**
 
