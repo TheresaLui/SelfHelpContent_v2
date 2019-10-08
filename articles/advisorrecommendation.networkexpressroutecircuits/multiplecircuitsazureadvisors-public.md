@@ -46,7 +46,7 @@ cloudEnvironments = "Public"
         "actionId": "b16992d0-878d-4dcb-af94-b19913e2cb2f",
         "description": "Link additional circuits to your ExpressRoute Gateway",
         "actionType": "Document",
-        "documentLink": "https://aka.ms/ERLinkMultipleCircuits"
+        "documentLink": "https://docs.microsoft.com/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager"
     }],
     "resourceMetadata": {
         "action": {
