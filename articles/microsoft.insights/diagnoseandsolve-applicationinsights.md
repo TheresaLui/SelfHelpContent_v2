@@ -106,7 +106,7 @@ cloudEnvironments="public"
 			"searchTags": "missing data, no data, empty, blank, python",
 			"supportTopicId": "32681426",
 			"commonSolutionArticleId": "insights_python_data"
-		},
+		}
 	],
 	"troubleshootingTools": []
 }
