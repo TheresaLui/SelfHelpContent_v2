@@ -19,7 +19,8 @@
     "title": "Development issue on account management,blob,adlsgen2,table and queues scoping question",
     "fileAttachmentHint": "",
     "formElements": [
-        { "id": "problem_type",
+        {
+         "id": "problem_type",
          "order": 1,
          "controlType":"dropdown",
          "displayLabel":"How would you want us to help you?",
