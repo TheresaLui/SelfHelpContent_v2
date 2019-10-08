@@ -21,7 +21,7 @@ Azure Stack has the ability to change the size of your VM based on the needs for
 ## **Recommended Steps**
 
 - Review supported [VM sizes for Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-vm-sizes)<br>
- After you create a virtual machine (VM), you can scale the VM up or down by using steps to [resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)<br>
+* After you create a virtual machine (VM), you can scale the VM up or down by using steps to [resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)<br>
 - If you have an existing VM, but you want to swap the disk for a backup disk or another OS disk, you can [change the OS disk used by an Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap)<br>
 - A VM can only be added to one availability set when it is created, but you can [change the availability set for a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/change-availability-set) on Azure Stack using Azure PowerShell<br>
 - When you redeploy a VM, it moves the VM to a new node within the Azure Stack infrastructure and all your configuration options and associated resources are retained, see steps to redeploy a [Linux](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-linux) or [Windows](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows) VM <br>
