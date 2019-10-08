@@ -32,7 +32,7 @@ Solution: After deleting a cluster or encountering this error, wait 30-60 minute
 
 Cause: The conditional access policy or MFA is being applied to the user. Since interactive authentication is not supported yet, the user or the cluster needs to be exempted from MFA / Conditional access. If you choose to exempt the cluster (IP address based exemption policy), then make sure that the AD ServiceEndpoints are enabled for that vnet.
 
-Solution: Use conditional access policy and exempt the HDInisght clusters from MFA 
+Solution: Use conditional access policy and exempt the HDInsight clusters from MFA 
 
 [More information common authentication issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/domain-joined/domain-joined-authentication-issues#interaction_required)
 
