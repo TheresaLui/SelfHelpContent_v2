@@ -36,7 +36,7 @@ Solution: Use conditional access policy and exempt the HDInsight clusters from M
 
 [More information common authentication issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/domain-joined/domain-joined-authentication-issues#interaction_required)
 
-### A service outage
+**A service outage**
 
 * Check [Azure Status](https://status.azure.com/status) for any potential outages or service issues
 
