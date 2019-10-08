@@ -10,8 +10,9 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
-# Authentication Issue
+# Development and Coding Issues
 ---
+
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
@@ -42,7 +43,7 @@
         {
             "id": "problem_start_time",
             "order": 2,
-            "visibility": "problem_type == Issue"
+            "visibility": "problem_type == Issue",
             "controlType": "datetimepicker",
             "displayLabel": "Appoximate local time of the most recent error occurrence",
             "required": true
@@ -50,7 +51,7 @@
         {
             "id": "error_code_dropdown",
             "order": 3,
-            "visibility": "problem_type == Issue"
+            "visibility": "problem_type == Issue",
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error received for the failed operation",
@@ -125,7 +126,7 @@
         {
             "id": "request_id",
             "order": 4,
-            "visibility": "problem_type == Issue"
+            "visibility": "problem_type == Issue",
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
