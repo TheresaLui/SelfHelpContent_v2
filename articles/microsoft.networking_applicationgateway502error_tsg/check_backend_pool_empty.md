@@ -6,12 +6,12 @@
 	  authors="JRMayberry"
 	  ms.author="rimayber"
 	  displayOrder=""
-	  selfHelpType="TSG_Description"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="public"
-	articleId="f1b32390-c392-4dd1-9455-1e28a3710193"
+	  selfHelpType="TSG_Content"
+          supportTopicIds=""
+          resourceTags=""
+          productPesIds=""
+          cloudEnvironments="public"
+	  articleId="f1b32390-c392-4dd1-9455-1e28a3710193"
 />
 
 
