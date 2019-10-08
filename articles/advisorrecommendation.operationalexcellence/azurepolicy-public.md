@@ -22,7 +22,7 @@
 	"recommendationImpact": "Low",
 	"recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
 	"recommendationFriendlyName": "AzurePolicy",
-	"recommendationMetadataState": "Active",
+	"recommendationMetadataState": "Disabled",
 	"portalFeatures": [],
 	"owner": {
 		"email": "cga-sup@microsoft.com",
