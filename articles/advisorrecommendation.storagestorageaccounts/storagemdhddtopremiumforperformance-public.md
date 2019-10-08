@@ -35,7 +35,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disks-types#premium-ssd",
+  "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#premium-ssd",
   "description": "Convert Managed Disks from Standard HDD to Premium SSD For Performance",
   "longDescription": "We’ve noticed your Standard HDD disk is approaching performance targets. Premium SSD disks are recommended for IO-intensive workloads because of the low latency and high availability provided. Give your disk performance a boost by upgrading your Standard HDD disk to Premium SSD disk. Upgrading requires a VM reboot, which will take three to five minutes.",
   "potentialBenefits": "Give your disk performance a boost using Premium SSD disks.",
@@ -44,7 +44,7 @@
       "actionId": "27e5f4f3-2b65-4b94-8268-a15a49b0fbce",
       "description": "Convert Managed Disks to Premium SSD",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/convert-disk-storage"
+      "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage"
     }
   ],
   "resourceMetadata": {
@@ -54,7 +54,7 @@
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {resourceId},
-      "documentLink": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/convert-disk-storage"
+      "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage"
     }
   },
   "displayLabel": "Convert Managed Disks to Premium SSD",
