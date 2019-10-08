@@ -88,6 +88,12 @@
             "displayLabel": "Provide any additional details",
             "required": true,
             "useAsAdditionalDetails": true
+        },
+        {
+            "id": "learn_more_text",
+            "order": 7,
+            "controlType": "infoblock",
+            "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> issues."
         }
     ],
     "$schema": "SelfHelpContent"
