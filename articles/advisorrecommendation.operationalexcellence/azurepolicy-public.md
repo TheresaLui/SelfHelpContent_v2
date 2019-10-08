@@ -36,7 +36,7 @@
 	"ingestionClientIdentities": [ "8d7ef949-acae-4519-88ea-426d131ba6ab" ],
 	"recommendationTimeToLive": 86400,
 	"version": 2.0,
-	"learnMoreLink": "https://aka.ms/azurepolicy",
+	"learnMoreLink": "https://docs.microsoft.com/azure/governance/policy/overview",
 	"description": "Configure Azure Policy over your Azure resources",
 	"longDescription": "Configure Azure Policy over your Azure resources to stay compliant with your coporate standards and service level agreements.",
 	"potentialBenefits": "Stay compliant with your coporate standards and service level agreements",
@@ -45,7 +45,7 @@
 			"actionId": "e10b9c32-5af9-40cd-9b04-caca22bad08d",
 			"description": "Create Azure Policy",
 			"actionType": "Document",
-			"documentLink": "https://aka.ms/azurepolicy"
+			"documentLink": "https://docs.microsoft.com/azure/governance/policy/overview"
 		}
 	],
 	"resourceMetadata": {
