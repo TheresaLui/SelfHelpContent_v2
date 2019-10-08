@@ -10,7 +10,7 @@
     selfHelpType="resource"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds=""
+    supportTopicIds="32681426"
 />
 # Configuring OpenCensus Python
 
