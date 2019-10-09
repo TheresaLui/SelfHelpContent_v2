@@ -2,17 +2,17 @@
 	pageTitle="Consumption and usage APIs"
 	description="Providing users with information about usage APIs"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
     authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="95831635-3f61-4cfb-957f-c9fc5f40eb46"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32454868"
+	supportTopicIds="32688681"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
 />
 
@@ -22,11 +22,11 @@ Microsoft Enterprise Azure customers can get usage and billing information throu
 
 ### Available APIs
 
-**Balance and Summary:** The [Balance and Summary API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-balance-summary) provides a monthly summary of information about balances, new purchases, Azure Marketplace service charges, adjustments, and overage charges. For more information, see [Reporting APIs for Enterprise customers - Balance and Summary](https://docs.microsoft.com/rest/api/billing/enterprise/billing-enterprise-api-balance-summary). <br>
-**Usage Detail:** The [Usage Detail API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail) provides a daily breakdown of consumed quantities and estimated charges by an enrollment. The result also includes information about instances, meters, and departments. You can query the API by billing period or by a specified start and end date. For more information, see [Reporting APIs for Enterprise customers - Usage Details](https://docs.microsoft.com/rest/api/billing/enterprise/billing-enterprise-api-usage-detail). <br>
-**Marketplace Store Charge:** The [Marketplace Store Charge API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-marketplace-storecharge) returns usage-based marketplace charges, broken down day for the specified billing period or start and end dates. For more information, see [Reporting APIs for Enterprise customers - Marketplace Store Charge](https://docs.microsoft.com/rest/api/billing/enterprise/billing-enterprise-api-marketplace-storecharge). <br>
-**Price Sheet:** The [Price Sheet API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-pricesheet) provides the applicable rate for each meter for an enrollment and billing period. For more information, see [Reporting APIs for Enterprise customers - Price Sheet](https://docs.microsoft.com/rest/api/billing/enterprise/billing-enterprise-api-pricesheet). <br>
-**Billing Periods:** The [Billing Periods API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-billing-periods) returns a list of billing periods that have consumption data for an enrollment in reverse chronological order. Each period contains a property pointing to the API route for the four sets of data, BalanceSummary, UsageDetails, Marketplace Charges, and PriceSheet. For more information, see [Reporting APIs for Enterprise customers - Billing Periods](https://docs.microsoft.com/rest/api/billing/enterprise/billing-enterprise-api-billing-periods). <br>
+* **Balance and Summary:** The [Balance and Summary API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-balance-summary) provides a monthly summary of information about balances, new purchases, Azure Marketplace service charges, adjustments, and overage charges
+* **Usage Detail:** The [Usage Detail API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail) provides a daily breakdown of consumed quantities and estimated charges by an enrollment. The result also includes information about instances, meters, and departments. You can query the API by billing period or by a specified start and end date. 
+* **Marketplace Store Charge:** The [Marketplace Store Charge API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-marketplace-storecharge) returns usage-based marketplace charges, broken down day for the specified billing period or start and end dates
+* **Price Sheet:** The [Price Sheet API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-pricesheet) provides the applicable rate for each meter for an enrollment and billing period
+* **Billing Periods:** The [Billing Periods API](https://docs.microsoft.com/azure/billing/billing-enterprise-api-billing-periods) returns a list of billing periods that have consumption data for an enrollment in reverse chronological order. Each period contains a property pointing to the API route for the four sets of data, BalanceSummary, UsageDetails, Marketplace Charges, and PriceSheet.
 
 ### Enable API data access
 
@@ -60,11 +60,10 @@ The preceding steps give API access key holders with access to cost and pricing 
 As you use Azure Enterprise REST APIs, you might encounter any of the following common issues.
 
 - You might try to use an API key that doesn't have the correct authorization type. API keys are generated by:
-
   - Enterprise Administrator
   - Department Administrator (DA)
   - Account Owner (AO)
-
+  
 - A key generated by the EA admin gives access to all information for that enrollment. A read-only EA admin can't generate an API key.
 - A key generated by a DA or AO doesn't provide access to balance, charge, and price sheet information
 - An API key expires every six months. If expired, you need to regenerate it.
