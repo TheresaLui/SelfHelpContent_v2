@@ -16,12 +16,18 @@
 
 # nwsetupandmgmt/networkwatcherconfigandsetup
 
+NOTE: In case, you have issues with a specific product like NSG Flow Logs, Packet Capture, Connection Monitor, etc., please go back and choose the appropriate topic to see more specific help content.
+
 ## **Recommended documents**
 
-[Create a Network Watcher instance with portal, PowerShell, Azure CLI or REST API](https://docs.microsoft.com/azure/network-watcher/network-watcher-create)
+* How do I enable Network Watcher?
+	* You can enable Network Watcher at a subscription level using [this link](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-create#create-a-network-watcher-in-the-portal)
+	* Network Watcher needs to enabled only once per subscription per region to get access to the service.
+* I cannot enable Network Watcher
+	* Before using Network Watcher please [check availability](https://azure.microsoft.com/en-in/global-infrastructure/services/?products=network-watcher) in your region
+
 
 Also see:
+* [Create a Network Watcher instance with portal, PowerShell, Azure CLI or REST API](https://docs.microsoft.com/azure/network-watcher/network-watcher-create)
 * [Network Watcher Overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)
 * [Network Watcher Pricing](https://azure.microsoft.com/pricing/details/network-watcher/)
-
-In case, you have issues with a specific product like NSG Flow Logs, Packet Capture, etc., please go back and choose the appropriate topic to see more specific help content.
