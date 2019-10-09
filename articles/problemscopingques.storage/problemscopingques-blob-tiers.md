@@ -10,7 +10,7 @@
 	schemaVersion="1"
 	articleId="4B46FE3E-420A-4916-B059-A6C939025930"
 />
-# Storage block blob tiers
+# Storage Access Tiers
 ---
 {
     "subscriptionRequired": true,
