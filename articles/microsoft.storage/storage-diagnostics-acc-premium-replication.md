@@ -11,7 +11,7 @@ diagnosticScenario="Premium storage account only supports LRS replication type"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Premium storage account only supports LRS replication type

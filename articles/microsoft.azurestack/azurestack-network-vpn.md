@@ -32,6 +32,7 @@ Ensure that you enable [site-to-site (S2S) protocols ](https://docs.microsoft.co
 ## **Recommended Documents**
 
 * [Connect Azure Stack to Azure using VPN](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn)
-* [About VPN gateway for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-vpn-gateway-about-vpn-gateways)
+* [VPN gateway settings for Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-vpn-gateway-settings#vpn-gateway-settings)
+* [IPSec/IKE parameters for Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-vpn-gateway-settings#ipsecike-parameters)
 * [VPN gateway configuration settings for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-vpn-gateway-settings)
 * [About VPN devices and IPsec/IKE parameters for Site-to-Site VPN Gateway connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices)
