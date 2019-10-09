@@ -19,6 +19,7 @@
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
 HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high CPU usage on the headnode.
+CPU Percent Used Memory <!--$PercentUsedMemory-->[PercentUsedMemory]<!--/$PercentUsedMemory-->
 <!--issueDescription-->
 ## Problem
 
@@ -31,5 +32,3 @@ In order to reduce stress on the head node, please update the Spark applications
 1. Identify the Spark applications running in client mode. The top resource consumers are listed below for reference.
 1. Update the [Spark application deployment](https://spark.apache.org/docs/latest/submitting-applications.html#launching-applications-with-spark-submit) to use cluster mode by explicitly stating 'deploy-mode cluster' 
 
-## Applications running in client mode 
-CPU Used Memory <!--$PercentUsedMemory-->[PercentUsedMemory]<!--/$PercentUsedMemory-->
