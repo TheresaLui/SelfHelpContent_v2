@@ -18,16 +18,16 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-The workspace <!--$ResourceName-->ResourceName<!--/$ResourceName--> has been throttled at least <!--$ThrottledRequests-->ThrottledRequests<!--/$ThrottledRequests--> times for <!--$OperationName-->OperationName<!--/$OperationName--> during cluster autoscale (Scale up and Scale down).
+The workspace **<!--$ResourceName-->ResourceName<!--/$ResourceName-->** has been throttled at least **<!--$ThrottledRequests-->ThrottledRequests<!--/$ThrottledRequests-->** times, while performing '<!--$OperationName-->OperationName<!--/$OperationName-->' during cluster autoscale (Scale up and Scale down).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Service Throttling happens if you have exceeded subscription limits for <!--$OperationName-->OperationName<!--/$OperationName-->:
+Operations : **'<!--$OperationName-->OperationName<!--/$OperationName-->'** has exceeded subscription limits.
 
-* Identify list of ARM API failures from Azure Support Center -> Resource Explorer's Event Tab. Databricks Control plane makes continuous retries in case of failures (VM Creation/Deletion)
+* Identify list of ARM API failures from Azure Support Center -> Resource Explorer's Event Tab
 * Please ask Customer to stop all the jobs and wait until all jobs are stopped
-* Restart Jobs freshly from the beginning
+* Restart Jobs
 
 ## **Recommended Documents**
 

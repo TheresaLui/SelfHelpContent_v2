@@ -7,7 +7,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32636444,32681541"
+    supportTopicIds="32681541"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
@@ -20,7 +20,7 @@
 
 ### Permissions issues
 
-* If you are using Azure Data Lake Storage Gen2 and receive the error **AmbariClusterCreationFailedErrorCode - Internal server error occurred while processing the request. Please retry the request or contact support.**, open the Azure portal, go to your Storage account, and under Access Control (IAM) ensure that the **Storage Blob Data Contributor** or the **Storage Blob Data Owner** role has Assigned access to the **User assigned managed identity** for the subscription. See [Set up permissions for the managed identity on the Data Lake Storage Gen2 account](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account) for detailed instructions.
+* If you are using Azure Data Lake Storage Gen2 and receive the error **The Managed Identity does not have permissions on the storage account. Please verify that 'Storage Blob Data Owner' role is assigned to the Managed Identity for the storage account**, open the Azure portal, go to your Storage account, and under Access Control (IAM) ensure that the **Storage Blob Data Contributor** or the **Storage Blob Data Owner** role has Assigned access to the **User assigned managed identity** for the subscription. See [Set up permissions for the managed identity on the Data Lake Storage Gen2 account](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account) for detailed instructions.
 * If you are using [Azure Data Lake Storage Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store), understand that it is not supported for HBASE clusters, and is not supported in HDI version 4.0
 * If you are using Azure Storage, ensure that the storage account name is valid during the cluster creation
 * A subscription-based Azure policy is in place, denying the creation of public IPs. HDInsight cluster creation requires two public IPs.
@@ -62,6 +62,7 @@ The following policies often impact cluster creation:
 
 ## **Recommended Documents**
 
+* [Creating or Deleting HDInsight Clusters FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#creating-or-deleting-hdinsight-clusters)
 * [Extend Azure HDInsight using an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)<br>
 * [Use Azure Data Lake Storage Gen2 with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2)<br>
 * [Use Azure storage with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)<br>

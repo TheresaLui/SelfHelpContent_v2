@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Entitlement Check and Other Issues",
     "fileAttachmentHint": "",
     "formElements": [

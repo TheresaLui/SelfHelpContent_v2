@@ -13,7 +13,7 @@
 	supportTopicIds="32411835"
 	resourceTags="linux"
 	productPesIds="15571"
-	cloudEnvironments="public"
+	cloudEnvironments="public,mooncake"
 />
 
 # Diagnostics on your Linux Virtual machine found a boot error
@@ -36,12 +36,11 @@ Microsoft Azure has concluded an investigation of your virtual machine. We ident
 
 	* View and verify the contents of the fstab file `cat /etc/fstab`
 	* Run `blkid` and compare the names and UUIDs of the partitions on this VM with the entries in your fstab file
-	* Edit the fstab file to remove or comment out using a # any incorrect entries using your favorite text editor, for example:
-`nano /etc/fstab` or `vi /etc/fstab`
-	* Validate that updates and test the syntax before initiating a reboot `$ sudo mount -a`
+	* Edit the `fstab` file to remove or comment out (with `#` symbol) any incorrect entries using your favorite text editor, for example: `nano /etc/fstab` or `vi /etc/fstab`
+	* Before initiating a reboot, validate changes to `fstab` and check the syntax is correct by running `$ sudo mount -a`
 	* Reboot the VM and test SSH access
 
-3. In case serial console cannot be accessed, please follow the steps in the article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue.
+3. In case serial console cannot be accessed, please follow the steps in the article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue
 
 ## **Recommended Documents**
 
