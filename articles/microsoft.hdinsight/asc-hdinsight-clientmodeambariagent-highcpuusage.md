@@ -4,7 +4,7 @@
     infoBubbleText="Found recent cluster failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="ravichitturi"
+    authors="ravi"
     ms.author="v-ravikc"
     displayOrder=""
     articleId="Hdi_ClientModeAgentCpuUsage"
