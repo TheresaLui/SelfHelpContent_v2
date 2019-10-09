@@ -18,7 +18,9 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-For database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->, based on the verbatim (Provided error message), we found that following could be the possible issues. <!--$CustomerReadySolutions-->CustomerReadySolutions<!--/$CustomerReadySolutions-->
+For database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->, based on the verbatim (Provided error message), we found that following could be the possible issues. 
+
+<!--$CustomerReadySolutions-->CustomerReadySolutions<!--/$CustomerReadySolutions-->
 <!--/issueDescription-->
 
 <br>
