@@ -28,21 +28,21 @@ schemaVersion="1"
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-        },         
+        },
        {
             "id": "problem_alerts",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What alerts are your trying to create",
             "required": false
-        },  
+        },
        {
             "id": "problem_metrics",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": " Are you trying to create metrics or alerts on Hybrid Connections",
             "required": false
-        },  
+        },
         {
             "id": "problem_description",
             "order": 4,

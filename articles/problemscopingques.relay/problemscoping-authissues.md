@@ -89,7 +89,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "What is the SDK and SDK version that you are using ?",
             "required": false
-        },  
+        },
        {
             "id": "problem_token",
             "order": 6,

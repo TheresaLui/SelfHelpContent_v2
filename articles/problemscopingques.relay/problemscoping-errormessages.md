@@ -1,6 +1,6 @@
 <properties
 pageTitle="Errors and Issues"
-description=""
+description="Errors and Issues"
 service="microsoft.relay"
 resource="errorMessageTypes"
 authors="mksuni"
@@ -70,7 +70,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Please specific the SDK client library you are using and the version number?",
             "watermarkText": "Clients used by the application and their version number",
-            "required": false            
+            "required": false
         },
         {
             "id": "problem_description",

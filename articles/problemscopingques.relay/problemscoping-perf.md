@@ -14,7 +14,7 @@ cloudEnvironments="public"
 articleId="relay-latency"
 schemaVersion="1"
 />
-# Performance issues 
+# Performance issues
 ---
 {
     "subscriptionRequired": true,
