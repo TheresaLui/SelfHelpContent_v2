@@ -20,7 +20,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 <!--issueDescription-->
 The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be <!--$AttemptedOperationPastTense-->[AttemptedOperationPastTense]<!--/$AttemptedOperationPastTense--> because it contains one or more data disk(s) that are attached to a Virtual Machine (VM).
-<!--issueDescription-->
+<!--/issueDescription-->
 
 ## **Recommended Steps** 
 
