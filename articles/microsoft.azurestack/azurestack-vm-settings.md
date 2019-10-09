@@ -35,3 +35,4 @@ Azure Stack has the ability to change the size of your VM based on the needs for
 - [Considerations for using virtual machines in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-vm-considerations)<br>
 - [Virtual machine memory allocation and placement on Azure Stack](https://azure.microsoft.com/blog/virtual-machine-memory-allocation-and-placement-on-azure-stack/)<br>
 - [Azure VM disk FAQ](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks)
+
