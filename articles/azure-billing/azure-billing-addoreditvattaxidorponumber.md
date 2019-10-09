@@ -30,7 +30,7 @@ To add or update Tax ID, visit [Profile in Azure Account Center](https://porta
 
   1. Login into **Billing** portal, select the **Subscription** that needs to be edited
   2. On Subscription page select **Change Payment Method** and select **Edit Payment method**. Enter in PO Number and select **Next**
-  3. This will take the you back to the initial Choose payment method page. Select the check at the bottom to **save** changes
+  3. This will take the you back to the initial Choose payment method page. Select the check at the bottom to **save** changes.
 
 * For EA Admins & EA Customers 
 
@@ -45,15 +45,15 @@ Users should add a VAT ID to their account during the initial purchase and accou
 
 ### **Edit Profile/Company Information**
 
-  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Profile** button. Select the **Edit** details button, and then update the Profile information
+  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Profile** button. Select the **Edit** details button, and then update the Profile information.
   2. Update the necessary information and select **Complete**<br>
   
 Note: If there is no tax information added to your profile, it won't be reflected on the Azure invoice. Once the tax information and company details have been added, they would start reflecting on the next billing cycle invoice copies.
 
 ### **Add/Update Billing Information**
 
-  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile).Select the **Subscriptions** button and select the one that needs to be updated
-  2. Click on **Manage payment methods** and then select **Edit** next to the payment instrument. Update the required details on the billing address field. Click **Save**<br>
+  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Subscriptions** button and select the one that needs to be updated.
+  2. Click on **Manage payment methods** and then select **Edit** next to the payment instrument. Update the required details on the billing address field. Click **Save**.
   
 Note: The existing invoices will be unable to show the updated Billing information, however all the future invoices will reflect the change
 
