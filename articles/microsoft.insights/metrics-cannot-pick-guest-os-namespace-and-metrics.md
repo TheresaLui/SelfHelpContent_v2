@@ -30,7 +30,7 @@ By default, Guest OS metrics are stored in Azure Storage account, which you pick
  If you don't see **Guest OS** namespace and metrics in metrics explorer:
 
 * Confirm that [Azure Diagnostic Extension](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-overview) is enabled and configured to collect metrics. NOTE: You cannot use [Log Analytics agent](https://docs.microsoft.com/azure/azure-monitor/platform/agents-overview#log-analytics-agent) (also referred to as the Microsoft Monitoring Agent, or "MMA") to send **Guest OS** into a storage account.
-* Ensure that **Microsoft.Insights** resource provider is [registered for your subscription](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot#microsoftinsights-resource-provider-isnt-registered-for-your-subscription).
+* Ensure that **Microsoft.Insights** resource provider is [registered for your subscription](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot#microsoftinsights-resource-provider-isnt-registered-for-your-subscription)
 * Verify that storage account isn't protected by the firewall. Azure portal needs access to storage account in order to retrieve metrics data and plot the charts.
 * Use the [Azure storage explorer](https://azure.microsoft.com/features/storage-explorer/) to validate that metrics are flowing into the storage account. If metrics aren't collected, follow the [Azure Diagnostics Extension troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting#metric-data-doesnt-appear-in-the-azure-portal).
 
