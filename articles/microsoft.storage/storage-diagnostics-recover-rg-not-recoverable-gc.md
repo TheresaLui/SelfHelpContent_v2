@@ -16,8 +16,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to recover deleted Resource Group
-
+<!--issueDescription-->
 Microsoft Azure sincerely apologizes that we are unable to recover **<!--$ResourceGroupName-->[ResourceGroupName]<!--/$ResourceGroupName-->** Resource Group that was deleted on **<!--$DeletionTime-->[DeletionTime]<!--/$DeletionTime-->**.
+<!--/issueDescription-->
 
 As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. The deleted Resource Group and all its content was cleaned up after deletion and is no longer recoverable by Azure.<br>
 

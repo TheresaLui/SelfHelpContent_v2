@@ -15,7 +15,7 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Resource group recovery results
+# <!--issueDescription-->Recover storage account(s) in deleted Resource Group<!--/issueDescription-->
 
 Microsoft Azure team completed storage account recovery process in Resource Group **<!--$ResourceGroupName-->[ResourceGroupName]<!--/$ResourceGroupName-->** that was deleted on **<!--$DeletionTime-->[DeletionTime]<!--/$DeletionTime-->** with the following results:
 

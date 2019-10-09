@@ -17,7 +17,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 # Unable to recover Blob Container
 <!--issueDescription-->
-Microsoft Azure sincerely apologizes that we are unable to recover the following deleted blob container(s).
+Microsoft Azure sincerely apologizes that we are unable to recover deleted blob container(s).
 <!--/issueDescription-->
 
 ### Blob container(s) does not exist

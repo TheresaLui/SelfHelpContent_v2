@@ -17,7 +17,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 # Unable to recover Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->**
 
-Microsoft Azure sincerely apologizes that we are unable to recover the Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** and all its content was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
+<!--issueDescription-->
+Microsoft Azure sincerely apologizes that we are unable to recover the Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** and all its content was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo-->
+<!--/issueDescription-->
 
 As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This Blob Container and all its content was cleaned up after deletion and is no longer recoverable by Azure.<br>
 

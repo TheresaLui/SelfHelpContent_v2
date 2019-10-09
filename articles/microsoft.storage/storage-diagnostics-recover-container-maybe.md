@@ -16,6 +16,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 # Blob Container may be recoverable
 
+<!--issueDescription-->Deleted blob container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->**  might be recoverable.
+<!--/issueDescription-->
+
 ## Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** recovered
 
 We were able to successfully recover Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** that was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
