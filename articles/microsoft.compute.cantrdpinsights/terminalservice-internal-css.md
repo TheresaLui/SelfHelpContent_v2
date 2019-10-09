@@ -1,10 +1,11 @@
 <properties
 pageTitle="Terminal Service"
-description="Terminal Service not running"
-infoBubbleText="Terminal Service not running"
+description="Terminal Service not running, this service is required to be running for RDP connectivity to the VM"
+infoBubbleText="Terminal Service not running this will impact RDP connectivity to the VM"
 service="microsoft.compute"
 resource="virtualmachines"
-authors="manavis"
+authors="timbasham"
+ms.author="tibasham"
 displayOrder=""
 articleId="vmhealthsignal_4c4d26e0-293f-435b-83fe-3ac0169d6cdf"
 diagnosticScenario="Terminal Services"
@@ -34,9 +35,10 @@ We have investigated and identified that the Terminal Service is not running on 
 Set-Service -Name TermService -StartupType Manual -status Running
   ```
   * If using PsExec, please run the below command and specify the admin account user name and enter the password when prompted.
+
   ```
   PsExec \\<<DIP>> -u "<<userName>>" -s cmd
-REG add "HKLM\SYSTEM\CurrentControlSet\Services\TermService" /v Start /t REG_DWORD /d 3 /f
+  REG add "HKLM\SYSTEM\CurrentControlSet\Services\TermService" /v Start /t REG_DWORD /d 3 /f
   ```
 5. Alternatively you can run the command below using [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
 ```
