@@ -11,7 +11,7 @@ diagnosticScenario="Blob is not recoverable without soft delete"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to recover deleted blob because soft delete is not enabled

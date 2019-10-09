@@ -11,7 +11,7 @@ diagnosticScenario="Account cannot be created because deleted account with the s
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Deleted blob is recoverable until **<!--$RecoveryTime-->[RecoveryTime]<!--/$RecoveryTime-->**

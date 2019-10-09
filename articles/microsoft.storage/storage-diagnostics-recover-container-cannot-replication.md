@@ -12,7 +12,7 @@ diagnosticScenario="Storage blob container is not recoverable due to storage acc
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to recover blob container(s) in storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to its replication type

@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more snapshot(s)

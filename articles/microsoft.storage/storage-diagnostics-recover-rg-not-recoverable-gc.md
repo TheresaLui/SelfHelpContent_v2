@@ -12,7 +12,7 @@ diagnosticScenario="Resource Group recovery - unable to recover"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to recover deleted Resource Group

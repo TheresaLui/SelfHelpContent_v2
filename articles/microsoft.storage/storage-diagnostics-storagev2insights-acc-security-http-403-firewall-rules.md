@@ -12,7 +12,7 @@ diagnosticScenario="Storage issues with Storage Firewalls enabled"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Connectivity issues with Storage Firewalls enabled

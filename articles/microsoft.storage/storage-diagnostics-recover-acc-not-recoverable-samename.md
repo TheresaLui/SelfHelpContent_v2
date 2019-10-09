@@ -11,7 +11,7 @@ diagnosticScenario="Storage Blob Container is not recoverable due to GC"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to recover storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**

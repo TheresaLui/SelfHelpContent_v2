@@ -12,7 +12,7 @@ diagnosticScenario="Storage account recovery with multiple results"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Resource group recovery results

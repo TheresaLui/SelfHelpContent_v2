@@ -12,7 +12,7 @@ diagnosticScenario="Some storage blob container(s) might be recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 # Blob Container may be recoverable
 

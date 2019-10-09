@@ -11,7 +11,7 @@ diagnosticScenario="Account cannot be deleted because it was not successfully cr
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to delete storage account that was not successfully created

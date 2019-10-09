@@ -11,7 +11,7 @@ diagnosticScenario="Account cannot be created because deleted account with the s
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to create storage account with the same name as recently deleted account

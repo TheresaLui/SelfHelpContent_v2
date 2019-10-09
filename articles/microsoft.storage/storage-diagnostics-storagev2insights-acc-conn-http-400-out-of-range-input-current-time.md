@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # One or more parameters in the storage request was out of range

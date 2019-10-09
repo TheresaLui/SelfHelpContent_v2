@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Connections to storage account endpoint were blocked due to Null oAuth token

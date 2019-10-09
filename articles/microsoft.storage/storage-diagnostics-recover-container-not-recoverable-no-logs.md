@@ -12,7 +12,7 @@ diagnosticScenario="Storage Blob Container(s) is not recoverable since no deleti
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to recover Blob Container

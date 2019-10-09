@@ -11,7 +11,7 @@ diagnosticScenario="Account cannot be created due to a platform issue that is no
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to create storage account due to a platform issue
