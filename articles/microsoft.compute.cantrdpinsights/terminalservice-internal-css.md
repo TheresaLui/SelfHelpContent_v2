@@ -31,6 +31,7 @@ We have investigated and identified that the Terminal Service is not running on 
 3. So to enable the terminal service and start it, connect to the VM from another VM in the same virtual network via [remote powershell](https://docs.microsoft.com/azure/virtual-machines/windows/winrm) or using [PsExec](https://docs.microsoft.com/sysinternals/downloads/pstools)
 4. The start mode of the term service needs to be changed to manual (the OS default setting) and the service needs to be started.
   * If connected through remote powershell, please run the below command to mitigate the issue and to check if the service has started.
+
   ```
 Set-Service -Name TermService -StartupType Manual -status Running
   ```
@@ -41,6 +42,7 @@ Set-Service -Name TermService -StartupType Manual -status Running
   REG add "HKLM\SYSTEM\CurrentControlSet\Services\TermService" /v Start /t REG_DWORD /d 3 /f
   ```
 5. Alternatively you can run the command below using [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
+
 ```
 Set-Service -Name TermService -StartupType Manual -status Running
 ```
