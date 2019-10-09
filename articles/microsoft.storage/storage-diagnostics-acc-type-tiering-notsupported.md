@@ -12,14 +12,13 @@ diagnosticScenario="Access tiers is not supported on this storage account"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Access tiers is not supported on this storage account
 
 <!--issueDescription-->
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** does not support access tiers as it is a **<!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind-->** account. 
-
 <!--/issueDescription-->
 
 ## **Recommended Steps**

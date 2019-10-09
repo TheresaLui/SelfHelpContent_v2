@@ -19,3 +19,4 @@
 ## **Recommended Documents**
 
 * [Use Apache Zeppelin notebooks with Apache Spark cluster on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-zeppelin-notebook)
+* [FAQ:Azure HDInsight Security and Certificates](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#security-and-certificates)

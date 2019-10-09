@@ -5,6 +5,7 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"
+ms.author="passap"
 displayOrder=""
 articleId="Storagev2insights_unableToDelete_file_openHandles"
 diagnosticScenario="Open file handles prevents file deletion"
@@ -12,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Unable to delete <!--$FileType-->[FileType]<!--/$FileType--> due to open handles
