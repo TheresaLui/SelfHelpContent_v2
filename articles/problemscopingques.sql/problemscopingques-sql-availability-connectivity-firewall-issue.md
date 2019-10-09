@@ -46,7 +46,7 @@
       "order": 10,
       "controlType": "textbox",
       "displayLabel": "Your Client IP Address",
-      "watermarkText": "Enter the Firewall IP Address which you are receiving in the Error.",
+      "watermarkText": "Enter the public IP address. Ex. 167.2.2.2",
       "required": true,
       "useAsAdditionalDetails": true,
       "diagnosticInputRequiredClients": "Portal, ASC"
