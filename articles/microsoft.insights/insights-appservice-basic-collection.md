@@ -3,14 +3,13 @@
     description="Explain the current state of App Services integration"
     service="microsoft.insights"
     resource="components"
-    authors="rajrang"
+    authors="rajkumar-rangaraj"
     ms.author="rajrang"
     articleId="insights_appservice_basic_collection"
-    displayOrder="99"
-    selfHelpType="generic"
+    displayOrder=""
+    selfHelpType="diagnoseandsolve"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32602209"
  />
  
 # How do I enable Application Insights for an App Service in Recommended Collection level?
