@@ -55,7 +55,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide the exact error message , timestamp, tracking ID, and call-stack",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],

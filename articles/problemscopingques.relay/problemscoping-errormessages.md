@@ -18,6 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired":true,
     "title": "Error messages",
     "fileAttachmentHint": "",
     "formElements": [
@@ -54,8 +55,7 @@ schemaVersion="1"
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
-            "required": false,
-            "useAsAdditionalDetails": false
+            "required": false
         },
        {
             "id": "problem_firewall",
@@ -78,7 +78,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": false,
             "hints": [
                 {
