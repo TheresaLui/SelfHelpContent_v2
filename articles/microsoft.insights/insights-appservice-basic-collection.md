@@ -15,7 +15,7 @@
  
 # How do I enable Application Insights for an App Service in Recommended Collection level?
 
-You're using an App Service with Application Insights which has Basic Collection level. Basic collection level offers essential single-instance APM capabilities. To gain full APM visibity with correlation across boundaries switch collect mode to Recommended. Please follow the steps in the Recommended Documents section below.<br>
+You're using an App Service with Application Insights which has Basic Collection level. Basic collection level offers essential single-instance APM capabilities. To gain full APM visibity with correlation across boundaries switch collection mode to Recommended. Please follow the steps in the Recommended Documents section below.<br>
 
 ## **Recommended Steps**
 
