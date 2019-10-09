@@ -19,8 +19,10 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more snapshot(s)
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more snapshot(s). In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first [delete the following snapshot(s)](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots#delete-snapshots): <br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more snapshot(s):
 
 <!--$SnapshotList-->[SnapshotList]<!--/$SnapshotList-->
 
 <!--/issueDescription-->
+
+In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first [delete the snapshot(s) listed above](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots#delete-snapshots).

@@ -19,8 +19,8 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more active lease(s)
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because there are one or more active lease(s) associated with it. You must first [break the lease(s)](https://azure.microsoft.com/updates/support-for-blob-storage-lease-management-from-azure-portal/) of resources listed below before deleting the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->.<br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because there are one or more active lease(s) associated with it.<!--/issueDescription--> You must first [break the lease(s)](https://azure.microsoft.com/updates/support-for-blob-storage-lease-management-from-azure-portal/) of resources listed below before deleting the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->.<br>
 
 <!--$LeasedResourcesList-->[LeasedResourcesList]<!--/$LeasedResourcesList-->
 
-<!--/issueDescription-->
+

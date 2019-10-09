@@ -17,6 +17,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 # Resource group recover
 
+<!--issueDescription--><!--/issueDescription-->
 ## Another account with the same name must be deleted before recovery
 
 Microsoft Azure team cannot recover deleted storage account(s) in Resource Group **<!--$ResourceGroupName-->[ResourceGroupName]<!--/$ResourceGroupName-->** that was deleted on **<!--$DeletionTime-->[DeletionTime]<!--/$DeletionTime-->** because another account with the same name has since been created:<br>

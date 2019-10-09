@@ -26,6 +26,8 @@ Only the following IPs or VNet/subnet are allowed to access storage account:<br>
 **<!--$Allowed_IPs-->[Allowed_IPs]<!--/$Allowed_IPs-->**
 
 Sample list of client IPs for which the requests were blocked:<br>**<!--$IP_RequestUrl-->[IP_RequestUrl]<!--/$IP_RequestUrl-->** <br><br>
+<!--/issueDescription-->
+
 There may be more client IPs for which requests were blocked. To get the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
 ## **Recommended Steps**
@@ -42,4 +44,4 @@ There may be more client IPs for which requests were blocked. To get the exhaust
 3. For clients behind a proxy, the exception should be made for the [public IP](http://www.whatsmyip.org/) of the proxy server.
 4. A general recommendation is to enable [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging) to trace requests, analyze usage trends, and diagnose issues with your storage account.
 
-<!--/issueDescription-->
+

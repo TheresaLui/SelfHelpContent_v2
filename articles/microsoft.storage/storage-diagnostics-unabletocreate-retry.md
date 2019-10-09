@@ -17,10 +17,11 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 # Unable to create storage account due to a platform issue
 
-<!--issueDescription-->
+
 ## Provisioning State = Succeeded
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** has already been created.
 ___
 ## Provisioning State = Creating or Deleting
+<!--issueDescription-->
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be created due to a platform issue. The issue is now resolved and you can retry account creation.
 <!--/issueDescription-->
