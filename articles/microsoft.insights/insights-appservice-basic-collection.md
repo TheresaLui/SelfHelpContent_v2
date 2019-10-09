@@ -19,7 +19,7 @@ You're using an App Service with Application Insights there has been a recent ch
 
 ## **Recommended Steps**
 
-**To modify Application Insights for Recommended Collection level **<br>
+**To modify Application Insights for Recommended Collection level**<br>
 
 1. Navigate to the App Service
 2. Select Application Insights in the Azure control panel for your app service
