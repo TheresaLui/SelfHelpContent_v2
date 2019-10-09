@@ -61,6 +61,6 @@ cloudEnvironments = "Public"
     },
     "displayLabel": "Implement multiple ExpressRoute circuits in your Virtual Network for cross-premises resiliency",
     "additionalColumns": [],
-    "testData": "4bffbb15-d414-4874-a2e4-c548c6d45e2a,/subscriptions/4bffbb15-d414-4874-a2e4-c548c6d45e2a"
+    "testData": "4bffbb15-d414-4874-a2e4-c548c6d45e2a,/subscriptions/4bffbb15-d414-4874-a2e4-c548c6d45e2a/resourceGroups/ASH-Cust10/providers/Microsoft.Network/virtualNetworkGateways/ASH-Cust10-VNet01-gw-er"
 }
 ---
