@@ -10,12 +10,12 @@
 	schemaVersion="1"
 	articleId="6B24CFBF-A6D2-4B0B-9A66-020664EF9408"
 />
-# Error When Connecting to my Database
+# Scoping questions for My database was reported as unavailable (Resource Health)
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Resource Health Scoping Questions",
     "fileAttachmentHint": "",
     "formElements": [
@@ -83,13 +83,32 @@
             "watermarkText": "On the Basics tab, please ensure you selected a server, database or elastic pool in the Resource dropdown so we know what resource you need assistance with.  Add any additional details that may help us troubleshoot your issue."
         },
         {
-		      "id": "sqlexception_received_on_client",
-			    "order": 2000,
-			    "controlType": "multilinetextbox",
-    			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
-		    	"required": false,
-			    "visibility": true
-	    }
+            "id": "sqlexception_received_on_client",
+            "order": 2000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing.Complete          callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+            "required": false,
+            "visibility": true
+        },
+        {
+            "id": "database_name",
+            "order": 3000,
+            "controlType": "dropdown",
+            "displayLabel": "Please provide the database name for which you are creating a support ticket. If multiple databases are affected, select one of the affected databases to start an investigation",
+            "required": false,
+            "infoBalloonText": "Which of these databases are you filing a ticket for?",
+            "dynamicDropdownOptions": {
+                        "uri": "{resourceId}/databases?api-version=2017-10-01-preview",
+                        "jTokenPath": "value",
+                        "textProperty": "name",
+                        "valueProperty": "id",
+                        "textPropertyRegex": null,
+                        "defaultDropdownOptions": {
+                                        "value": "dont_know_answer",
+                                        "text": "Don't know/None of these"
+                                    }
+            }
+        }
     ]
 }
 ---

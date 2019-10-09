@@ -18,50 +18,44 @@
 
 ## **Recommended Steps**
 
-### Permissions issues
+**Potential intermittent or transient issuses**
 
-* If you are using Azure Data Lake Storage Gen2 and receive the error **The Managed Identity does not have permissions on the storage account. Please verify that 'Storage Blob Data Owner' role is assigned to the Managed Identity for the storage account**, open the Azure portal, go to your Storage account, and under Access Control (IAM) ensure that the **Storage Blob Data Contributor** or the **Storage Blob Data Owner** role has Assigned access to the **User assigned managed identity** for the subscription. See [Set up permissions for the managed identity on the Data Lake Storage Gen2 account](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#set-up-permissions-for-the-managed-identity-on-the-data-lake-storage-gen2-account) for detailed instructions.
-* If you are using [Azure Data Lake Storage Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store), understand that it is not supported for HBASE clusters, and is not supported in HDI version 4.0
-* If you are using Azure Storage, ensure that the storage account name is valid during the cluster creation
-* A subscription-based Azure policy is in place, denying the creation of public IPs. HDInsight cluster creation requires two public IPs.
+Some errors are transient and your request may succeed if you retry creation after 15 minutes of the failed attempt. If after retrying your request, you still receive an error and are not able to address the issue, note the timeframe in which the error occurred and file a support request in a timely manner. By providing a timeframe and filing a support ticket within a few days of an event, support is more likely to be able to review logs to determine the root cause of the error as logs are only available for a specific amount of time.
 
-The following policies often impact cluster creation:
+**Error: Conflict (HTTP Status Code: 409)**
 
-  * Policies preventing the creation of IP Address & Load balancers within the subscription<br>
-  * Policy preventing the creation of a storage account<br>
-  * Policy preventing the deletion of networking resources (IP Address /Load Balancers)
+Cause: You deleted a cluster and are attempting to recreate it with the same name before the operation completed.
 
-### The customer has a firewall on their VNET, and Storage accounts rules which deny traffic
+Solution: After deleting a cluster or encountering this error, wait 30-60 minutes before recreating a cluster with the same name.
 
-* You must always allow traffic from the following IP addresses:
+**Error: interaction_required**
 
-    * 168.61.49.99
-    * 23.99.5.239
-    * 168.61.48.131
-    * 138.91.141.162
+Cause: The conditional access policy or MFA is being applied to the user. Since interactive authentication is not supported yet, the user or the cluster needs to be exempted from MFA / Conditional access. If you choose to exempt the cluster (IP address based exemption policy), then make sure that the AD ServiceEndpoints are enabled for that vnet.
 
-* These IP addresses Destination must be set at **\*:433** and a Direction of "Inbound"
-* If your cluster is in a specific region, add the respective source IP, which is listed in the following [link](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#hdinsight-ip)
-* If you are using either Express Route or your own custom DNS server, please follow [this link](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#multinet)
+Solution: Use conditional access policy and exempt the HDInsight clusters from MFA 
 
-### Resources have locks which impact cluster creation
+[More information common authentication issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/domain-joined/domain-joined-authentication-issues#interaction_required)
 
-* Please ensure that there are no [locks on your VNET or Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources)
-
-### The customer is using an unsupported version of HDI and/or Apache Hadoop Component
-
-* Please ensure that you are using a [supported HDI version](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#supported-hdinsight-versions) AND [Apache Hadoop Component version](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#apache-hadoop-components-available-with-different-hdinsight-versions)
-
-### The Storage Account name is violating Storage Account name restrictions
-
-* Storage Account names cannot be more than 24 characters and Storage account name cannot contain a special character. These restrictions also apply to the default container name in the storage account.
-
-### A service outage
+**A service outage**
 
 * Check [Azure Status](https://status.azure.com/status) for any potential outages or service issues
 
+**Azure Data Lake Storage Gen 1 and HBASE**
+
+* If you are using [Azure Data Lake Storage Gen 1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store), understand that it is not supported for HBASE clusters, and is not supported in HDI version 4.0
+
+**The customer is using an unsupported version of HDI and/or Apache Hadoop Component**
+
+* Please ensure that you are using a [supported HDI version](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#supported-hdinsight-versions) AND [Apache Hadoop Component version](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#apache-hadoop-components-available-with-different-hdinsight-versions)
+
+**The Storage Account name is violating Storage Account name restrictions**
+
+* Storage Account names cannot be more than 24 characters and Storage account name cannot contain a special character. These restrictions also apply to the default container name in the storage account.
+
+
 ## **Recommended Documents**
 
+* [Creating or Deleting HDInsight Clusters FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#creating-or-deleting-hdinsight-clusters)
 * [Extend Azure HDInsight using an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)<br>
 * [Use Azure Data Lake Storage Gen2 with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2)<br>
 * [Use Azure storage with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)<br>

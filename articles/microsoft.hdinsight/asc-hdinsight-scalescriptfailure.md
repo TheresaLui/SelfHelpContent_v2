@@ -30,3 +30,6 @@ In order to scale up, the persisted script needs to be demoted so it does not ru
 1. To ensure that custom scripts work throughout the lifetime of the cluster, the [best practice](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-script-actions-linux#bPS2) is to store these scripts in the default storage account associated with the cluster. If this storage account is used, then there is no need to use a SAS key.
 1. If you want to use a different storage account with a SAS key, then the script needs to be added again with a new SAS key. Keep in mind that this can fail again if the cluster is scaled up after the key expires.
 
+## **Recommended Documents**
+
+* [Storage shared access signatures (SAS) overview](https://docs.microsoft.com/azure/storage/common/storage-sas-overview)

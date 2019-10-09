@@ -41,6 +41,7 @@ You can also setup a scheduled [Runbook within Azure Automation](https://docs.mi
 
 ## **Recommended Documents**
 
+* [What can I do when cluster provisioning fails because of a capacity issue?](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#what-can-i-do-when-cluster-provisioning-fails-because-of-a-capacity-issue)
 * [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/)
 * [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/)
 * [Start a runbook in Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks)

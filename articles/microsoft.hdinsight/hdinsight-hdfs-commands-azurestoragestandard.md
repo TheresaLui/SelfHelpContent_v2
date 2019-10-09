@@ -21,3 +21,4 @@
 * [Use Azure storage with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)
 * [Use Azure Storage Shared Access Signatures to restrict access to data in HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-storage-sharedaccesssignature-permissions)
 * [Troubleshoot Apache Hadoop HDFS by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hdfs)
+* [Storage FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#storage)

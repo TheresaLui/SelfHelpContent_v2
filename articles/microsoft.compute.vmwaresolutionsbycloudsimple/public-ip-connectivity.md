@@ -25,5 +25,12 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to creation and association of a Public IP address to a private IP address">
+
 * [Public IP address](https://docs.microsoft.com/azure/vmware-cloudsimple/public-ips)<br>
+</span>
+
+<span title="Problems related to creation and association of a Public IP address to a private IP address">
+
 * [Firewall Rules](https://docs.microsoft.com/azure/vmware-cloudsimple/firewall#firewall-rules)<br>
+</span>

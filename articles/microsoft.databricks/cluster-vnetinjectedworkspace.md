@@ -19,4 +19,5 @@
 ## **Recommended Documents**
 
 * [How to Assign a Single Public IP for VNet-Injected Workspaces Using Azure Firewall](https://kb.azuredatabricks.net/cloud/azure-vnet-single-ip.html#how-to-assign-a-single-public-ip-for-vnet-injected-workspaces-using-azure-firewall)
+* [Virtual Network Peering](https://docs.azuredatabricks.net/administration-guide/cloud-configurations/azure/vnet-peering.html)
 * [Instances unreachable](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html#instances-unreachable)
