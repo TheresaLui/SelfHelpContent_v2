@@ -42,6 +42,16 @@
       "watermarkText": "On the Basics tab, please ensure you selected a server, database or elastic pool in the Resource dropdown so we know what resource you need assistance with.  Add any additional details that may help us troubleshoot your issue."
     },
 		{
+      "id": "client_address",
+      "order": 10,
+      "controlType": "textbox",
+      "displayLabel": "Your Client IP Address",
+      "watermarkText": "Enter the Firewall IP Address which you are receiving in the Error.",
+      "required": true,
+      "useAsAdditionalDetails": true,
+      "diagnosticInputRequiredClients": "Portal, ASC"
+    },
+		{
 			"id": "sqlexception_received_on_client",
 			"order": 2000,
 			"controlType": "multilinetextbox",
@@ -69,16 +79,6 @@
           "text": "Don't know/None of these"
         }
       }
-    },
-    {
-      "id": "client_address",
-      "order": 10,
-      "controlType": "textbox",
-      "displayLabel": "Your Client IP Address",
-      "watermarkText": "Enter the Firewall IP Address which you are receiving in the Error.",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "diagnosticInputRequiredClients": "Portal, ASC"
     }
   ]
 }
