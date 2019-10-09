@@ -19,7 +19,7 @@ schemaVersion="1"
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Monitoring and Metrics Issues"
+    "title": "Monitoring and Metrics Issues",
     "fileAttachmentHint": "",
     "formElements": [
         {

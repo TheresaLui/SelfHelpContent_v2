@@ -79,7 +79,7 @@ schemaVersion="1"
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Issue description."

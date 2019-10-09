@@ -9,9 +9,9 @@ displayOrder=""
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32684536,32684539"
 resourceTags=""
-productPesIds="16125"
+productPesIds="16123"
 cloudEnvironments="public"
-articleId="eh-connectivity"
+articleId="relay-generic"
 schemaVersion="1"
 />
 # General Advisory Questions
@@ -28,7 +28,7 @@ schemaVersion="1"
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-        },      
+        }, 
         {
             "id": "problem_description",
             "order": 2,

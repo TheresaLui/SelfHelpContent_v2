@@ -19,6 +19,7 @@ schemaVersion="1"
 {
     "subscriptionRequired": true,
     "title": "Unexpected Service behavior or Errors",
+    "resourceRequired": true,
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -33,21 +34,21 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_client",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What Client are your using with this resource",
-            "required": true
+            "required": false
         },
       {
             "id": "problem_sdk",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Which SDK are you using and please provide the SDK version as well",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
