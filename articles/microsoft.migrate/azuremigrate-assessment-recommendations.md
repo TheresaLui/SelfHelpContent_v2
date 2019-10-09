@@ -17,13 +17,17 @@
 
 ## **Recommended Steps**
 
-### **I am unable to specify Enterprise Agreement (EA) as an Azure offer in the assessment properties?**
+### **Why is performance data missing for some VMs in my assessment report?**
 
-Azure Migrate: Server Assessment currently does not support Enterprise Agreement (EA) based pricing. The workaround is to use ‘Pay-As-You-Go’ as the Azure offer and use the ‘Discount’ property to specify any custom discount that you receive. Support for EA pricing is on our roadmap and will be enabled in the near future. [Learn more about how you can customize an assessment](https://aka.ms/migrate/selfhelp/eapricing).
+The above issue is listed when the Azure Migrate appliance cannot collect performance data for the on-premises VMs. This can happen if:
+
+- The VMs are powered off for the duration for which you are creating the assessment (last one day/one week/one month) as the appliance cannot collect performance data for a VM, when it is powered off.
+- If only memory counters are missing and you are trying to assess Hyper-V VMs, check if you have dynamic memory enabled on these VMs. There is a known issue currently due to which Azure Migrate appliance cannot collect memory utilization for VMs which do not have dynamic memory enabled. Note that the issue is only there for Hyper-V VMs and not there for VMware VMs. If any of the performance counters are missing, Azure Migrate: Server Assessment falls back to the allocated cores/memory and recommends a VM size accordingly.
+- Outbound connections from the appliance on ports 5671 and 5672 is not being allowed.
 
 ### **Why does Server Assessment mark my Linux VMs 'Conditionally ready'. Is there anything I need to do to fix this?**
 
-There is a known gap in Server Assessment where it is unable to detect the minor version of the Linux OS installed on the on-premises VMs (for example, for RHEL 6.10, currently Server Assessment only detects RHEL 6 as the OS version). Since Azure endorses only specific versions of Linux, the Linux VMs are currently marked as conditionally ready in Server Assessment. We are working on this issue and this gap will be fixed in future. Meanwhile, you can manually ensure if the Linux OS running on the on-premises VM is endorsed in Azure by reviewing the [Azure Linux support documentation.](https://aka.ms/migrate/selfhost/azureendorseddistros). Once you have verified the endorsed distro, you can ignore this warning.
+There is a known gap in Server Assessment where it is unable to detect the minor version of the Linux OS installed on the on-premises VMs (for example, for RHEL 6.10, currently Server Assessment only detects RHEL 6 as the OS version). Since Azure endorses only specific versions of Linux, the Linux VMs are currently marked as conditionally ready in Server Assessment. We are working on this issue and this gap will be fixed in future. Meanwhile, you can manually ensure if the Linux OS running on the on-premises VM is endorsed in Azure by reviewing the [Azure Linux support documentation.](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros). Once you have verified the endorsed distro, you can ignore this warning.
 
 ### **The VM SKU recommended by Server Assessment has more number of cores and a larger memory size than what is allocated on-premises. Why is that so?**
 
@@ -54,3 +58,7 @@ These properties are only applicable for 'Performance-based' sizing. Server Asse
 - When you create an assessment in Server Assessment, based on the performance duration and performance history percentile value, the representative utilization value is identified. For example, if the performance history is 1 week and percentile utilization is 95th, Azure Migrate will sort all the 10-minute sample points for the last one week in ascending order and then select the 95th percentile as the representative value.
 
     The 95th percentile value ensures that you are ignoring any outliers, which may be included if you pick the 99th percentile. If you want to pick the peak usage for the period and do not want to miss any outliers, you should select 99th percentile as the percentile utilization.
+
+### **Why is my VM marked not ready with 'One or more unsuitable disks'?**
+
+The above values are listed when Azure Migrate detects an on-premises VM with disks that require high IOPS(greater than 20,000) which probably could not be met by non-ultra-disks. Currently, Azure Migrate currently does not support Ultra disks.
