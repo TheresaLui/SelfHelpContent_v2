@@ -19,6 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Connections to storage account endpoint were blocked due to VNet Service Endpoint Policy rules 
 <!--issueDescription-->
 Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**. The current **VNET service endpoint policy** on the subnet, where the traffic originated doesn't allow connecting to this storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.
+<!--/issueDescription-->
 
 Only the following subnets have **VNet endpoint policy** that allows access to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.
 
@@ -26,7 +27,6 @@ Only the following subnets have **VNet endpoint policy** that allows access to t
 
 Sample list of requests were blocked:
 **<!--$IP_RequestUrl-->[IP_RequestUrl]<!--/$IP_RequestUrl-->**
-<!--/issueDescription-->
 
 There may be additional client IPs for which requests were blocked. To view the complete list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 

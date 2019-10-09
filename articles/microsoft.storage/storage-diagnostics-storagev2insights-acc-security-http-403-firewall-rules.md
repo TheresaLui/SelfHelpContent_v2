@@ -17,15 +17,18 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 # Connectivity issues with Storage Firewalls enabled
 
-<!--issueDescription-->
 We have detected that [Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security) is configured on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.
 
+<!--issueDescription-->
 Between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** UTC and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** UTC certain connections to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked. The current **firewall** rule on the storage account doesn't allow traffic originating from those IP addresses.
 
-Only the following IPs or VNet/subnet are allowed to access storage account:<br> 
+Only the following IPs or VNet/subnet are allowed to access storage account:
+
 **<!--$Allowed_IPs-->[Allowed_IPs]<!--/$Allowed_IPs-->**
 
-Sample list of client IPs for which the requests were blocked:<br>**<!--$IP_RequestUrl-->[IP_RequestUrl]<!--/$IP_RequestUrl-->** <br><br>
+Sample list of client IPs for which the requests were blocked:
+
+**<!--$IP_RequestUrl-->[IP_RequestUrl]<!--/$IP_RequestUrl-->**
 <!--/issueDescription-->
 
 There may be more client IPs for which requests were blocked. To get the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).

@@ -15,7 +15,8 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 # Blob Container may be recoverable
-<!--issueDescription-->Deleted blob container(s) in storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_ might be recoverable.<!--/issueDescription-->
+<!--issueDescription-->Deleted blob container(s) in storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_ might be recoverable.
+<!--/issueDescription-->
 
 ### Blob Container(s) recovered
 
