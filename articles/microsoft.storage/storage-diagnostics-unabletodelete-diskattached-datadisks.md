@@ -21,8 +21,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 <!--issueDescription-->
 The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> cannot be deleted because it contains one or more data disk(s) that are attached to a Virtual Machine (VM):
 
-<!--$DataDiskWithVMList-->[DataDiskWithVMList]<!--/$DataDiskWithVMList--> <br>
-
+<!--$DataDiskWithVMList-->[DataDiskWithVMList]<!--/$DataDiskWithVMList-->
 <!--/issueDescription-->
 
  Please [detach the following data disk(s) from its VM](https://docs.microsoft.com/azure/lab-services/devtest-lab-attach-detach-data-disk#detach-a-data-disk) before deleting the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->.

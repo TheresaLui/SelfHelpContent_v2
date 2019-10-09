@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to Office 365 Import Service
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains data added by _Office 365 PST Import service_. The Network upload option was selected for the O365 Import service which created **ingestdata** blob container. This container is used as a temporarily location for the PST files before they are ingested to your _Office_ organization. The container will be automatically cleaned up 30 days after the most recent PST file has been uploaded after which it can be deleted.
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains data added by **Office 365 PST Import service**. The Network upload option was selected for the O365 Import service which created **ingestdata** blob container. This container is used as a temporarily location for the PST files before they are ingested to your **Office** organization. The container will be automatically cleaned up 30 days after the most recent PST file has been uploaded after which it can be deleted.
 <!--/issueDescription--> 
 
 For more information, see [Office 365 Import Service](https://docs.microsoft.com/office365/securitycompliance/importing-pst-files-to-office-365).

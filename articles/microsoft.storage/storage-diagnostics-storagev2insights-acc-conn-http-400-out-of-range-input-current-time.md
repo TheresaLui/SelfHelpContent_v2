@@ -18,7 +18,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 # One or more parameters in the storage request was out of range
 <!--issueDescription-->
-We found recently an **_OutOfRangeInput_** error (caused when one of the request parameter is out of range) at **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** which may be of interest. Unfortunately, we couldn't find any requests resulting in **_OutOfRangeInput_** for the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**. Either the time period provided was incorrect, or it's beyond the retention period of storage logs.
+We found recently an **OutOfRangeInput** error (caused when one of the request parameter is out of range) at **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** which may be of interest. Unfortunately, we couldn't find any requests resulting in **OutOfRangeInput** for the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**. Either the time period provided was incorrect, or it's beyond the retention period of storage logs.
 
 Sample list of requests that failed:
 
