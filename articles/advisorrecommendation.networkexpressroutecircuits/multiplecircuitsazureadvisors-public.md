@@ -1,6 +1,6 @@
 <properties
-pageTitle = "Implement multiple ExpressRoute circuits in your Virtual Network for cross-premises resiliency"
-description = "Implement multiple ExpressRoute circuits in your Virtual Network for cross-premises resiliency"
+pageTitle = "Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency"
+description = "Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency"
 authors = "aadevteam"
 ms.author = "aadevteam"
 articleId = "70f87e66-9b2d-4bfa-ae38-1d7d74837689_Public"
@@ -39,9 +39,9 @@ cloudEnvironments = "Public"
     "recommendationTimeToLive": 86400,
     "version": 1.0,
     "learnMoreLink": "https://docs.microsoft.com/azure/expressroute/designing-for-high-availability-with-expressroute",
-    "description": "Implement multiple ExpressRoute circuits in your Virtual Network for cross-premises resiliency",
-    "longDescription": "We have detected that your ExpressRoute gateway only has 1 ExpressRoute circuit associated to it. Connect 1 ore more additional circuits to your gateway to ensure peering location redudancy and resiliency",
-    "potentialBenefits": "Resiliency",
+    "description": "Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency",
+    "longDescription": "We have detected that your ExpressRoute gateway only has 1 ExpressRoute circuit associated to it. Connect 1 or more additional circuits to your gateway to ensure peering location redundancy and resiliency",
+    "potentialBenefits": "Improve resiliency in case of ExpressRoute peering location failure",
     "actions": [{
         "actionId": "b16992d0-878d-4dcb-af94-b19913e2cb2f",
         "description": "Link additional circuits to your ExpressRoute Gateway",
@@ -59,7 +59,7 @@ cloudEnvironments = "Public"
             }
         }
     },
-    "displayLabel": "Implement multiple ExpressRoute circuits in your Virtual Network for cross-premises resiliency",
+    "displayLabel": "Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency",
     "additionalColumns": [],
     "testData": "4bffbb15-d414-4874-a2e4-c548c6d45e2a,/subscriptions/4bffbb15-d414-4874-a2e4-c548c6d45e2a/resourceGroups/ASH-Cust10/providers/Microsoft.Network/virtualNetworkGateways/ASH-Cust10-VNet01-gw-er"
 }
