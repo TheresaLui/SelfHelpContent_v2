@@ -10,7 +10,7 @@
     articleId="Hdi_ClientModeAgentCpuUsage"
     diagnosticScenario="HDInsightClientModeAmbariAgentHighCpuUsageInsight"
     selfHelpType="rca"
-    supportTopicIds="32628998, 32629139, 32629144, 32636495, 32636496, 32636497, 32636498"
+    supportTopicIds="32636495, 32636496, 32636497, 32636498"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, mooncake, blackforest, fairfax"
@@ -31,5 +31,5 @@ In order to reduce stress on the head node, please update the Spark applications
 1. Identify the Spark applications running in client mode. The top resource consumers are listed below for reference.
 1. Update the [Spark application deployment](https://spark.apache.org/docs/latest/submitting-applications.html#launching-applications-with-spark-submit) to use cluster mode by explicitly stating 'deploy-mode cluster' 
 
-## Applications running in client mode
-<!--$Parameters-->[Parameters]<!--/$Parameters-->
+## Applications running in client mode 
+CPU Used Memory <!--$PercentUsedMemory-->[PercentUsedMemory]<!--/$PercentUsedMemory-->
