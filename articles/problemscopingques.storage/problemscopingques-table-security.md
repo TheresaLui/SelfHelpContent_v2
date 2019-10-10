@@ -4,7 +4,7 @@
 	authors="AngshumanNayakMSFT"
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="StorageScoping_Table_Connectivity_Security"
+	articleId="StorageScoping_table_Security"
 	supportTopicIds="32602775,32602776"
 	productPesIds="16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
