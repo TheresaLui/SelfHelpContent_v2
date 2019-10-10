@@ -17,12 +17,12 @@ cloudEnvironments="public"
 />
 # The runbook failed because there are a mixture of AzureRm and AzureAz cmdlets in the runbook
 
-## **The runbook, <!--$RunbookName-->[Runbook Name]<!--/$RunbookName-->, failed because there are a mixture of AzureRm and AzureAz cmdlets in the runbook.**
-
 <!--issueDescription-->
 We have investigated and identified that your runbook, <!--$RunbookName-->[Runbook Name]<!--/$RunbookName-->, failed <!--$FailedJobs-->[Failed Jobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[Time Range]<!--/$TimeRange--> days prior to support case creation. The most likely cause of the failure is because the runbook is using both Azure  Rm and AzureAz cmdlets.
 
 The most recent failure of <!--$RunbookName-->[Runbook Name]<!--/$RunbookName--> is job Id, <!--$JobId-->[job Id]<!--/$JobId-->. It failed at line <!--$ScriptLineNumber-->[Script Line Number]<!--/$ScriptLineNumber--> in the <!--$Cmdlet-->[cmdlet name]<!--/$Cmdlet--> cmdlet in the PowerShell module, <!--$Module-->[module]<!--/$Module--> <!--$Version-->[version number]<!--/$Version-->  The exception we detected is a <!--$Category-->[category]<!--/$Category--> exception. There are also both AzureRm and AzureAz modules loaded in the sandbox execution environment. This normally indicates that the runbook contains both AzureRm and AzureAz cmdlets.
+<!--issueDescription-->
+
 ## **Recommended Steps**
 
 To avoid runbook failures the runbook must either use all AzureAz cmdlets or use all AzureRm cmdlets. Our recommendation is to upgrade all AzureRm cmdlets in the runbook to the equivalent AzureAz cmdlets.
