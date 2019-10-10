@@ -54,7 +54,7 @@
             "watermarkText": "Enter storage account name",
 	    "dropdownOptions": [
                 {
-                    "value": "to_new_resourcegroup_of_same_subscription,
+                    "value": "to_new_resourcegroup_of_same_subscription",
                     "text": "To different resource group within same subscription"
                 },
 		 {
@@ -62,6 +62,14 @@
                     "text": "To a different subscription"
                 }
 	],
+            "required": true
+        },{
+            "id": "subscription_id",
+            "visibility": "storage_account_to == other_subscription",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Destination subscription id",
+            "watermarkText": "subscription id",
             "required": true
         },{
             "id": "problem_start_time",
