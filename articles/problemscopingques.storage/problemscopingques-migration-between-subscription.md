@@ -57,6 +57,7 @@
                     "value": "AzCopy_above10.1",
                     "text": "v10.1.0 and above"
                 }
+	],
             "required": true
         },{
             "id": "problem_start_time",
