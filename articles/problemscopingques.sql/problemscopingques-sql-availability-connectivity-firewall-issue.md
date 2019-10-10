@@ -1,38 +1,38 @@
 <properties
-	pageTitle="Scoping questions to configure or use Azure Active Directory authentication"
-	description="Scoping questions to capture more details about Azure Active Directory authentication issue."
+	pageTitle="Scoping questions for Firewall rules and related issues"
+	description="Scoping questions to capture more details about firewall configuration issue."
 	authors="keithelm"
-	ms.author="keithelm,muruga,emlisa,swbhartims,vimahadi"
+	ms.author="keithelm,muruga,emlisa,swbharti,vimahadi"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630414, 32630460"
+	supportTopicIds="32630423"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
-	articleId="217152B3-3A59-4441-8B67-B20B2DE5CD95"
+	articleId="1BBD6149-205A-42C1-A193-7B2C571FFFA6"
 />
-# Scoping questions for Configure or use Azure Active Directory authentication
+# Scoping questions for Firewall Errors
 ---
 {
   "$schema": "SelfHelpContent",
   "resourceRequired": true,
   "subscriptionRequired": true,
-  "title": "Resource Health Scoping Questions",
+  "title": "Scoping questions for Firewall rules and related issues",
   "fileAttachmentHint": "",
 	"diagnosticCard": {
-	  "title": "Configure or use Azure Active Directory authentication Scoping Questions",
-	  "description": "These diagnostics will check for errors that might have happened while configuring or using Azure Active Directory",
+	  "title": "Scoping questions for Firewall rules and related issues",
+	  "description": "These diagnostics will check for errors with the Database Firewall Rules",
 	  "insightNotAvailableText": "We did not find any issues."
 	},
   "formElements": [
-    {
-      "id": "problem_start_time",
-      "order": 1,
-      "controlType": "datetimepicker",
-      "displayLabel": "Unavailability start time",
-      "infoBalloonText": "Please provide the start time of the most recent occurrence of unavailability.",
-      "required": true
-    },
-    {
+		{
+			"id": "problem_start_time",
+			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "Unavailability start time",
+			"infoBalloonText": "Please provide the start time of the most recent occurrence of unavailability.",
+			"required": true
+		},
+		{
       "id": "problem_description",
       "order": 2,
       "controlType": "multilinetextbox",
@@ -41,18 +41,28 @@
       "useAsAdditionalDetails": true,
       "watermarkText": "On the Basics tab, please ensure you selected a server, database or elastic pool in the Resource dropdown so we know what resource you need assistance with.  Add any additional details that may help us troubleshoot your issue."
     },
-    {
-      "id": "sqlexception_received_on_client",
-      "order": 3,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
-      "required": false,
-      "visibility": true,
-      "diagnosticInputRequiredClients": "Portal"
+		{
+      "id": "client_address",
+      "order": 10,
+      "controlType": "textbox",
+      "displayLabel": "Your Client IP Address",
+      "watermarkText": "Enter the public IP address. Ex. 167.2.2.2",
+      "required": true,
+      "useAsAdditionalDetails": true,
+      "diagnosticInputRequiredClients": "Portal, ASC"
     },
-    {
+		{
+			"id": "sqlexception_received_on_client",
+			"order": 2000,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+			"required": false,
+			"visibility": true,
+			"diagnosticInputRequiredClients": "Portal"
+		},
+		{
       "id": "database_name",
-      "order": 4,
+      "order": 3000,
       "controlType": "dropdown",
       "displayLabel": "Please provide the database name for which you are creating a support ticket. If multiple databases are affected, select one of the affected databases to start an investigation",
       "required": false,
