@@ -2,17 +2,17 @@
 	pageTitle="Transfer an enterprise enrollment to a new enrollment"
 	description="Providing information for users to transfer an enterprise enrollment to a new enrollment"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="c1b45095-ac0a-4711-8176-c032ee3603a0"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615297"
+	supportTopicIds="32688696"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
 />
 
@@ -65,4 +65,3 @@ Other points to keep in mind before an enrollment transfer:
 - [Change account owner](https://docs.microsoft.com/azure/billing/billing-ea-portal-administration#change-account-owner)
 - [Subscription transfer effects](https://docs.microsoft.com/azure/billing/billing-ea-portal-administration#subscription-transfer-effects)
 - [Overage offset by customers](https://docs.microsoft.com/azure/billing/billing-ea-portal-enrollment-invoices#overage-offset-by-customers)
-- [Transfer pay as you go subscription to EA subscription](https://docs.microsoft.com/azure/billing/billing-ea-portal-get-started#transfer-pay-as-you-go-subscription-to-ea-subscription)
