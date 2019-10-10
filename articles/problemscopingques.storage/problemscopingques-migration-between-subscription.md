@@ -54,8 +54,16 @@
             "watermarkText": "Enter storage account name",
 	    "dropdownOptions": [
                 {
-                    "value": "AzCopy_above10.1",
-                    "text": "v10.1.0 and above"
+                    "value": "to_new_resourcegroup_of_same_subscription,
+                    "text": "To different resource group within same subscription"
+                },
+		 {
+                    "value": "other_subscription",
+                    "text": "To a different subscription"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "From a different subscription, external source or not applicable"
                 }
 	],
             "required": true
