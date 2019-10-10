@@ -25,7 +25,7 @@ Azure Site Recovery service "tmansvc" on Process Server is unable to communicate
 
 - Verify that the master target server is up and running
 - Login to Process Server as an administrator and restart the tmansvc service
-- Verify that the Process Server is [healthy](https://aka.ms/check_PS_health)
+- Verify that the Process Server is [healthy](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#check-process-server-health)
 - If issue persists, Check following logs on the Process Server for error details:
 
     ```
