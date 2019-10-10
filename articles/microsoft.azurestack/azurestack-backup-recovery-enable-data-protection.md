@@ -20,9 +20,9 @@
 
 Enable data protection for Windows based IaaS VMs using application, volume, and OS level protection with Azure Backup Server. 
 
-* [Install Azure Backup Server on Azure Stack](https://docs.microsoft.com/en-us/azure/backup/backup-mabs-install-azure-stack)
+* [Install Azure Backup Server on Azure Stack](https://docs.microsoft.com/azure/backup/backup-mabs-install-azure-stack)
 
 ## **Recommended Documents**
 
-* [Protect VMs deployed on Azure Stack](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-manage-vm-protect)
+* [Protect VMs deployed on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-manage-vm-protect)
 * [Considerations for business continuity and disaster recovery](http://aka.ms/azurestackbcdrconsiderationswp)
