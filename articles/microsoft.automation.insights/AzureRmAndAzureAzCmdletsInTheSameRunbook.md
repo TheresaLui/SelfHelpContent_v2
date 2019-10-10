@@ -21,7 +21,7 @@ cloudEnvironments="public"
 We have investigated and identified that your runbook, <!--$RunbookName-->[Runbook Name]<!--/$RunbookName-->, failed <!--$FailedJobs-->[Failed Jobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[Time Range]<!--/$TimeRange--> days prior to support case creation. The most likely cause of the failure is because the runbook is using both Azure  Rm and AzureAz cmdlets.
 
 The most recent failure of <!--$RunbookName-->[Runbook Name]<!--/$RunbookName--> is job Id, <!--$JobId-->[job Id]<!--/$JobId-->. It failed at line <!--$ScriptLineNumber-->[Script Line Number]<!--/$ScriptLineNumber--> in the <!--$Cmdlet-->[cmdlet name]<!--/$Cmdlet--> cmdlet in the PowerShell module, <!--$Module-->[module]<!--/$Module--> <!--$Version-->[version number]<!--/$Version-->  The exception we detected is a <!--$Category-->[category]<!--/$Category--> exception. There are also both AzureRm and AzureAz modules loaded in the sandbox execution environment. This normally indicates that the runbook contains both AzureRm and AzureAz cmdlets.
-<!--issueDescription-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
