@@ -44,7 +44,7 @@
             "controlType": "textbox",
             "displayLabel": "Source storage account name",
             "watermarkText": "storage account name",
-            "required": false
+            "required": true
         }, {
             "id": "storage_account_to",
             "visibility": "true",
@@ -60,6 +60,10 @@
 		 {
                     "value": "other_subscription",
                     "text": "To a different subscription"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not applicable"
                 }
 	],
             "required": true
