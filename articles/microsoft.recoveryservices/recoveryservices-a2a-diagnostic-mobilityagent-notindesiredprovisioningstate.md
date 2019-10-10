@@ -7,7 +7,7 @@
 	authors="genlin"
 	ms.author="asgang"
 	displayOrder=""
-	articleId="AzureVmIsNotInDesiredProvisioningState"
+	articleId="ASR_A2A_EnableReplicationFailure_AzureVmIsNotInDesiredProvisioningState"
 	diagnosticScenario="AzureVmIsNotInDesiredProvisioningState"
 	selfHelpType="Diagnostics"
 	supportTopicIds=""
@@ -18,8 +18,12 @@
 
 # Enable replication failed as virtual machine is not in desired state
 <!--issueDescription-->
-Failed to enable replication, because the virtual machine is not in a state to replicate. To resolve this issue, make sure that the virtual machine provisioning state is **Succeeded**, and then retry the operation. If the provisioning state is **Updating**, check if there are any ongoing operations on the virtual machine, and wait for them to complete, and then retry the replication.
+We have detected that the virtual machine is not in desired state that causes the replication fails to enable.
 <!--/issueDescription-->
+
+## **Recommended Steps**
+
+To resolve this issue, restart the virtual machine, and then retry the operation. If the provisioning state is **Updating**, check if there are any ongoing operations on the virtual machine, and wait for them to complete, and then retry the replication.
 
 ## **Recommended Documents**
 

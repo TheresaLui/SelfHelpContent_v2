@@ -27,9 +27,9 @@ The installation of mobility service failed with error **A2AMobilityServiceConfi
 
 * If you are using Azure Network security group (NSG) rules or firewall proxy to control outbound network connectivity on the virtual machine, make sure that you allow communication to Office 365 IP ranges. To do this by using NSG, follow these steps: 
     
-    1. Create an outbound rule
-    2. Select **[service tag](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags)** as the **Destination**, and then select **AzureActiveDirectory** as the **Destination service tag**
-    3. Allow access from any ports
+    1. Create an outbound rule.
+    2. Select **[service tag](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags)** as the **Destination**, and then select **AzureActiveDirectory** as the **Destination service tag**.
+    3. Allow access from any ports.
 
 * The virtual machine that behinds standard Internal loadblancer will face this problem because NAT outbound connectivity not available. For more information, see [Outbound NAT for internal Standard Load Balancer scenarios](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-rules-overview#outbound-nat-for-internal-standard-load-balancer-scenarios).
 
