@@ -63,14 +63,6 @@
             ],
             "required": true
         },{
-            "id": "subscription_id",
-            "visibility": "storage_account_to == other_subscription",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Destination subscription id",
-            "watermarkText": "subscription id",
-            "required": true
-        },{
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
