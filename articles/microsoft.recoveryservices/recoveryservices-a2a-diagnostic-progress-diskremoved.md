@@ -1,7 +1,7 @@
 <properties
     pageTitle="A replicating disk on the source virtual machine cannot be found"
     description="Microsoft Azure has information regarding your issue"
-    infoBubbleText="A replicating disk on the source virtual machine is removed."
+    infoBubbleText="A replicating disk on the source virtual machine is removed. Please see details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="asgang"

@@ -1,7 +1,7 @@
 <properties
     pageTitle="Fail to access the cache storage account"
     description="Fail to access the cache storage account"
-    infoBubbleText="Site recovery Mobility Service on the source virtual machine is not able to access to the cache storage account."
+    infoBubbleText="Site recovery Mobility Service on the source virtual machine is not able to access to the cache storage account. Please see details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="genlin"

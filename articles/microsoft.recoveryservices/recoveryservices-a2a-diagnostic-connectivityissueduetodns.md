@@ -7,7 +7,7 @@
 	authors="asgang"
 	ms.author="asgang"
 	displayOrder=""
-	articleId="ASR_A2A_MobilityAgentConfigurationFailure_DNSConnectionFailure"
+	articleId="vmnotconnectingduetodnsissue"
 	diagnosticScenario="ASRA2AMobilityAgentConfiguratorFailure"
 	selfHelpType="Diagnostics"
 	supportTopicIds=""

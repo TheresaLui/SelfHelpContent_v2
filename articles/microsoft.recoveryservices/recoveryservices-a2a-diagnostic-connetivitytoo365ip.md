@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Microsoft Azure has information regarding your issue"
 	description="Microsoft Azure has information regarding your issue"
-	infoBubbleText="Microsoft Azure has information regarding your issue. Please see details to the right."
+	infoBubbleText="Microsoft Azure has information regarding your issue. Please see details on the right."
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="asgang"
