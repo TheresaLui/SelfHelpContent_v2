@@ -63,14 +63,22 @@
             ],
             "required": true
         },{
-            "id": "problem_start_time",
+            "id": "subscription_id",
+            "visibility": "storage_account_to == other_subscription",
             "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Destination subscription id",
+            "watermarkText": "subscription id",
+            "required": true
+        },{
+            "id": "problem_start_time",
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },{
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
