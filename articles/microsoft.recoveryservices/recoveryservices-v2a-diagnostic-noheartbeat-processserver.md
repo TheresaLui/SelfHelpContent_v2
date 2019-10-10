@@ -1,0 +1,40 @@
+<properties
+    pageTitle="Process Server is unable to communicate with Configuration Server"
+    description="Process Server is unable to communicate with Configuration Server"
+    infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
+    service="microsoft.recoveryservices"
+    resource="vaults"
+    authors="ramamill, TobyTu"
+    ms.author="ramamill"
+    displayOrder=""
+    articleId="ASR_V2A_ReplicationNotProgressing_NoHeartbeatFromProcessServer"
+    diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
+    selfHelpType="Diagnostics"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds="16370"
+    cloudEnvironments="Public"
+/>
+
+# Process Server is unable to communicate with Configuration Server
+<!--issueDescription-->
+Azure Site Recovery service "tmansvc" on Process Server is unable to communicate with Configuration Server. For healthy DR operations, connectivity is necessary between all Site Recovery components.
+<!--/issueDescription-->
+
+## **Recommended Steps**
+
+- Verify that the master target server is up and running
+- Login to Process Server as an administrator and restart the tmansvc service
+- Verify that the Process Server is [healthy](https://aka.ms/check_PS_health)
+- If issue persists, Check following logs on the Process Server for error details:
+
+    ```
+    C:\ProgramData\ASR\home\svsystems\eventmanager*log
+    and
+    C:\ProgramData\ASR\home\svsystems\monitor_protection*.log
+    ```
+
+## **Recommended Documents**
+
+- Learn more about [troubleshooting](https://aka.ms/troubleshoot_PS_connectivity) application or crash consistency point generation failures
+- Learn more about [monitoring requirements](https://aka.ms/ASR_monistor_PS_health) to avoid such issues in the future
