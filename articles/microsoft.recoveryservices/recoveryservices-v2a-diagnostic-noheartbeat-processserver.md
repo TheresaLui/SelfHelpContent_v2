@@ -4,7 +4,7 @@
     infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
-    authors="ramamill, TobyTu"
+    authors="TobyTu"
     ms.author="ramamill"
     displayOrder=""
     articleId="ASR_V2A_ReplicationNotProgressing_NoHeartbeatFromProcessServer"
