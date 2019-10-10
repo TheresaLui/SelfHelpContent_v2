@@ -14,7 +14,7 @@
     articleId="abdc2tg3-706d-401c-b984-f993c12f1e9f"
 />
 
-# Replicate Azure Stack VMs to Azure
+# Replicate Azure Stack VMs to Azure using Azure Site Recovery
 
 ## **Recommended Steps**
 
@@ -30,4 +30,5 @@ To replicate Azure Stack VMs to Azure, follow these steps:
 ## **Recommended Documents**
 
 * [Replicate Azure Stack VMs to Azure](https://docs.microsoft.com/azure/site-recovery/azure-stack-site-recovery)
-* [Protecting applications and data on Azure Stack](https://azure.microsoft.com/blog/protecting-applications-and-data-on-azure-stack/)
+* [Protect VMs deployed on Azure Stack](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-manage-vm-protect)
+* [Considerations for business continuity and disaster recovery](http://aka.ms/azurestackbcdrconsiderationswp)
