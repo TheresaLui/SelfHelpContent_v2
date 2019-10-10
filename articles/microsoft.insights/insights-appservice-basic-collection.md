@@ -25,4 +25,5 @@ You're using an App Service with Application Insights which has Basic Collection
 3. Toggle Collection level switch from Basic to Recommended
 
 ## **Recommended Documents**
-[Enabling Application Insights in an App Service](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps)<br>
+
+* [Enabling Application Insights in an App Service](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps)<br>
