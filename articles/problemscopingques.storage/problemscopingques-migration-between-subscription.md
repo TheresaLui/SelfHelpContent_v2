@@ -60,10 +60,6 @@
 		 {
                     "value": "other_subscription",
                     "text": "To a different subscription"
-                },
-		{
-                    "value": "dont_know_answer",
-                    "text": "From a different subscription, external source or not applicable"
                 }
 	],
             "required": true
