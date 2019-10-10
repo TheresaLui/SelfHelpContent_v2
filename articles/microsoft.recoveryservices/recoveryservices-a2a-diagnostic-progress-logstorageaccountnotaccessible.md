@@ -7,7 +7,7 @@
     authors="genlin"
     ms.author="asgang,genli"
     displayOrder=""
-    articleId="Azure_To_Azure_Replication"
+    articleId="ASR_A2A_ReplicationNotProgressing_LogStorageAccountNotAccessible"
     diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
