@@ -47,6 +47,7 @@
             "required": false
         },{
             "id": "storage_account_to",
+	    "visibility": "true",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Destination storage account",
