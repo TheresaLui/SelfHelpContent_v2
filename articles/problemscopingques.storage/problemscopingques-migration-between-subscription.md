@@ -45,31 +45,13 @@
             "displayLabel": "Source storage account name",
             "watermarkText": "storage account name",
             "required": false
-        },{
+        }, {
             "id": "storage_account_to",
-	    "visibility": "true",
+            "visibility": "true",
             "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Destination storage account",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "to_new_resourcegroup_of_same_subscription,
-                    "text": "To different resource group within same subscription"
-                },
-		 {
-                    "value": "other_subscription",
-                    "text": "To a different subscription"
-                }
-            ],
-            "required": true
-        },{
-            "id": "subscription_id",
-            "visibility": "storage_account_to == other_subscription",
-            "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Destination subscription id",
-            "watermarkText": "subscription id",
+            "displayLabel": "Destination storage account",
+            "watermarkText": "Enter storage account name",
             "required": true
         },{
             "id": "problem_start_time",
