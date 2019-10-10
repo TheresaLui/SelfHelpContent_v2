@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Microsoft Azure has information regarding your issue"
-    description="Microsoft Azure has information regarding your issue"
-    infoBubbleText="Microsoft Azure has information regarding your issue."
+    pageTitle="Fail to access the cache storage account"
+    description="Fail to access the cache storage account"
+    infoBubbleText="Site recovery Mobility Service on the source virtual machine is not able to access to the cache storage account."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="genlin"

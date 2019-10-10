@@ -1,7 +1,7 @@
 <properties
     pageTitle="A replicating disk on the source virtual machine cannot be found"
     description="Microsoft Azure has information regarding your issue"
-    infoBubbleText="Microsoft Azure has information regarding your issue."
+    infoBubbleText="A replicating disk on the source virtual machine is removed."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="asgang"
@@ -18,9 +18,9 @@
 
 # Replication status is critical because a replicating disk on the source virtual machine is removed
 <!--issueDescription-->
-We detected that a replicating disk on the source virtual machine is removed.
+We detected that a replicating disk on the source virtual machine is removed. This causes the replication stops working.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-If you remove a replicating disk from the resource virtual machine, the replication will stop working. You must disable and enable replication to resolve the issue.
+If you remove a replicating disk from the source virtual machine, you must disable and enable replication.
