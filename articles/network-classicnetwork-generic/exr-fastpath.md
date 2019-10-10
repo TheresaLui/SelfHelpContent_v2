@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-[About ExpressRoute FastPath](https://docs.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#fastpath)
+* [About ExpressRoute FastPath](https://docs.microsoft.com/azure/expressroute/expressroute-about-virtual-network-gateways#fastpath)
