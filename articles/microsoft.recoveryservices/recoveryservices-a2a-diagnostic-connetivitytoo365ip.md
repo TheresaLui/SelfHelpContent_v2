@@ -8,7 +8,7 @@
 	ms.author="asgang,genli"
 	displayOrder=""
 	articleId="vmnotconnectingtoO365IPs"
-	diagnosticScenario="vmnotconnectingtoO365IPs"
+	diagnosticScenario="ASRA2AMobilityAgentConfiguratorFailure"
 	selfHelpType="Diagnostics"
 	supportTopicIds=""
 	resourceTags=""

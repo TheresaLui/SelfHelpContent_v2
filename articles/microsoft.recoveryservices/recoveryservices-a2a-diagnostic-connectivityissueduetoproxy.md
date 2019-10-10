@@ -8,7 +8,7 @@
 	ms.author="asgang,genli"
 	displayOrder=""
 	articleId="vmnotconnectingduetoProxy"
-	diagnosticScenario="vmnotconnectingduetoProxy"
+	diagnosticScenario="ASRA2AMobilityAgentConfiguratorFailure"
 	selfHelpType="Diagnostics"
 	supportTopicIds=""
 	resourceTags=""
