@@ -46,14 +46,6 @@
             "watermarkText": "storage account name",
             "required": false
         },{
-            "id": "storage_account_from_other",
-            "visibility": "storage_account_from == dont_know_answer",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Source storage account name",
-            "watermarkText": "storage account name",
-            "required": false
-        },{
             "id": "storage_account_to",
             "order": 3,
             "controlType": "dropdown",
