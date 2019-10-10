@@ -32,4 +32,4 @@ Mobility agent on your virtual machine is unable to communicate with Configurati
 
 ## **Recommended Documents**
 
-- Learn more about [troubleshooting](https://aka.ms/troubleshoot_PS_connectivity) application or crash consistency point generation failures
+- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures

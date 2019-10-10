@@ -29,5 +29,5 @@ For healthy DR operations, connectivity is necessary between all Site Recovery c
 
 ## **Recommended Documents**
 
-- Learn more about [troubleshooting](https://aka.ms/troubleshoot_PS_connectivity) application or crash consistency point generation failures
-- Learn more about [monitoring requirements](https://aka.ms/ASR_monistor_PS_health) to avoid such issues in the future
+- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures
+- Learn more about [monitoring requirements](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-monitor-process-server#monitor-process-server-health) to avoid such issues in the future
