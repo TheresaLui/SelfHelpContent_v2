@@ -23,18 +23,15 @@ Azure Site Recovery service "tmansvc" on Process Server is unable to communicate
 
 ## **Recommended Steps**
 
-- Verify that the master target server is up and running
-- Login to Process Server as an administrator and restart the tmansvc service
-- Verify that the Process Server is [healthy](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#check-process-server-health)
+- Verify that the master target server is up and running.
+- Login to Process Server as an administrator and restart the tmansvc service.
+- Verify that the Process Server is [healthy](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#check-process-server-health).
 - If issue persists, Check following logs on the Process Server for error details:
 
-    ```
-    C:\ProgramData\ASR\home\svsystems\eventmanager*log
-    and
-    C:\ProgramData\ASR\home\svsystems\monitor_protection*.log
-    ```
+  - C:\ProgramData\ASR\home\svsystems\eventmanager*log
+  - C:\ProgramData\ASR\home\svsystems\monitor_protection*.log
 
 ## **Recommended Documents**
 
-- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures
-- Learn more about [monitoring requirements](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-monitor-process-server#monitor-process-server-health) to avoid such issues in the future
+- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures.
+- Learn more about [monitoring requirements](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-monitor-process-server#monitor-process-server-health) to avoid such issues in the future.

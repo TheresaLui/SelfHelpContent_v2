@@ -23,11 +23,11 @@ For healthy DR operations, connectivity is necessary between all Site Recovery c
 
 ## **Recommended Steps**
 
-- Verify that the master target server is up and running
-- Login to master target server as an administrator and restart the Svagents (InMage Scout VX Agent) service
-- If the issue persists, check the log at `C:\ProgramData\ASR\agent\svagents*log` for error details
+- Verify that the master target server is up and running.
+- Login to master target server as an administrator and restart the Svagents (InMage Scout VX Agent) service.
+- If the issue persists, check the log at "C:\ProgramData\ASR\agent\svagents*log" for error details.
 
 ## **Recommended Documents**
 
-- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures
-- Learn more about [monitoring requirements](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-monitor-process-server#monitor-process-server-health) to avoid such issues in the future
+- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures.
+- Learn more about [monitoring requirements](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-monitor-process-server#monitor-process-server-health) to avoid such issues in the future.

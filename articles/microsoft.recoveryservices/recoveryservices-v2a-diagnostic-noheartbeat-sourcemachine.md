@@ -23,13 +23,13 @@ Mobility agent on your virtual machine is unable to communicate with Configurati
 
 ## **Recommended Steps**
 
-- Verify that your virtual machine is is up and running
+- Verify that your virtual machine is is up and running.
 - Login to the machine as an administrator and restart the services:
 
   - Svagents (InMage Scout VX Agent)
   - InMage Scout Application Service
-- If the issue persists, check the log at `C:\Program Files (X86)\Microsoft Azure Site Recovery\agent\svagents*log` for error details
+- If the issue persists, check the log at "C:\Program Files (X86)\Microsoft Azure Site Recovery\agent\svagents*log" for error details.
 
 ## **Recommended Documents**
 
-- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures
+- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures.
