@@ -8,7 +8,7 @@
 	ms.author="asgang"
 	displayOrder=""
 	articleId="ASR_A2A_EnableReplicationFailure_AzureVmIsNotInDesiredProvisioningState"
-	diagnosticScenario="AzureVmIsNotInDesiredProvisioningState"
+	diagnosticScenario="ASRA2AMgmtFailures"
 	selfHelpType="Diagnostics"
 	supportTopicIds=""
 	resourceTags=""
