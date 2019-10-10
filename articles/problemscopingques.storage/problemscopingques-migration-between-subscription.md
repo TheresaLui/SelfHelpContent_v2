@@ -49,9 +49,14 @@
             "id": "storage_account_to",
             "visibility": "true",
             "order": 3,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Destination storage account",
             "watermarkText": "Enter storage account name",
+	    "dropdownOptions": [
+                {
+                    "value": "AzCopy_above10.1",
+                    "text": "v10.1.0 and above"
+                }
             "required": true
         },{
             "id": "problem_start_time",
