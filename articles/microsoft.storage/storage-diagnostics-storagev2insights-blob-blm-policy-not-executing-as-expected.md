@@ -24,9 +24,9 @@ We have detected that Lifecycle Management couldn't affect some or any blobs due
 
 ## **Recommended Steps**
 
-For successful execution of Lifecycle Management policies on the storage account, refer the following execution and rule criterias to make modifications.
+For successful execution of Lifecycle Management policies on the storage account, refer the following execution and rule criteria to make modifications.
 
-* New or updated policy - It could take from 24 to 48 hours for executing a new policy. We recommend waiting upto 48 hours to see the first batch of data transition.
+* New or updated policy - It could take from 24 to 48 hours for executing a new policy. We recommend waiting up to 48 hours to see the first batch of data transition.
 * Wildcard character '_*_' - This doesn't mean _'matches one or more occurrences of any character'_. The character '_*_' is a valid character in a blob name in Azure Storage. Hence, if added in a rule it means match the blobs with '_*_' in the blob name.
 * Wildcard character '?' - This doesn't mean _'match a single occurrence of any character'_. The character '?' is a valid character in a blob name in Azure Storage. Hence, if added in a rule it means match the blobs with '?' in the blob name.
 * prefixMatch with '!=' - The prefixMatch rules only consider positive(=) logical comparison.
