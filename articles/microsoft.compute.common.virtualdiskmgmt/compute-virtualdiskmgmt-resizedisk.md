@@ -22,6 +22,7 @@
 
 * [How to expand the OS disk of a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)<br>
 * [Expand data disks for a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resizing-data-disks)<br>
+* [Downsizing or shrinking a VM disk is not supported](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks)<br>
 * [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)<br>
 * [Convert between Standard and Premium storage for a disk](https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage)<br>
 * [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#supported-vms)<br>

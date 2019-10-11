@@ -25,7 +25,7 @@ The top three support incident types that customers create support tickets for A
 ## **Recommended Steps**
 
 1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
-2. Understand the error that caused the job to fail during job submission by using the Job Browser in Visual Studio or the Job management tab for the ADLA account in the Azure Portal<br>
+2. Understand the error that caused the job to fail by using the Job Browser in Visual Studio or the Job management tab for the ADLA account in the Azure Portal<br>
 
 ## **Recommended Documents**
 

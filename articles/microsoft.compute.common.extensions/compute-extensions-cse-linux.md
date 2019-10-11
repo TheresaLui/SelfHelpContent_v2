@@ -18,6 +18,10 @@
 
 4 out of 5 customers resolved their extension issue using the guides listed below.<br>
 
+A new version of Custom Script Extension is available at [GitHub CSE for Linux](https://github.com/Azure/custom-script-extension-linux). The new v2.0 version offers better reliability and wider Linux distro support.<br>
+
+Please consider switching your new deployments to use the new version (Microsoft.Azure.Extensions.CustomScript) instead. The new version is intended to be a drop-in replacement. Therefore, the migration is as easy as changing the name and version, you do not need to change your extension configuration.<br>
+
 ## **Recommended Steps**
 
 Review the following [*Tips and Tricks*](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#tips-and-tricks):

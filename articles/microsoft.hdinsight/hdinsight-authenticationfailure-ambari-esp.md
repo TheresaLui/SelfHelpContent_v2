@@ -19,3 +19,4 @@
 ## **Recommended Documents**
 
 * [Use Enterprise Security Package in HDInsight](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-architecture)
+* [FAQ:Azure HDInsight Security and Certificates](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#security-and-certificates)
