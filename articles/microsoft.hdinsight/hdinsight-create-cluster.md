@@ -46,7 +46,7 @@ Solution: Use a conditional access policy and exempt the HDInsight clusters from
 
 * Ensure that you are using a [supported version of HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#supported-hdinsight-versions) AND a supported [Apache Hadoop Component version](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#apache-hadoop-components-available-with-different-hdinsight-versions).
 
-**The Storage account name is violating Storage Account name restrictions**
+**The Storage account name is violating Storage account name restrictions**
 
 * Storage account names cannot be more than 24 characters, must use numbers and lower-case letters only, and cannot contain special characters. These restrictions also apply to the default container name in the Storage account. For more information, see [Resolve errors for storage account names](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors).
 
