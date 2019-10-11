@@ -18,10 +18,10 @@
 
 ## **Recommended Steps**
 
-* Steps to delete workspace:
+* Follow the below steps to resolve the error ```<subscription id> does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/delete over scope``` :
      * Login to portal and navigate to Databricks Workspace that needs to be deleted
      * Click on Managed Resource Group 
-     * Click 'delete' to delete Managed Resource Group, after confirming there are no [locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#managed-applications-and-locks)
+     * If there are no [locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#managed-applications-and-locks), click 'delete'
      * Once Managed Resource group deletion is successful, proceed with deleting workspace
      
      
