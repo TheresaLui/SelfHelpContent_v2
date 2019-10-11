@@ -816,7 +816,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "03bac894-54fc-6fa1-df23-bbf21eace375",
-            "shortDescription": "",
+            "shortDescription": "Resolve concerns dealing with direct upload",
             "category": "Management",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
