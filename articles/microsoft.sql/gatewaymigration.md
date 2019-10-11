@@ -19,16 +19,24 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Between <!--$StartTime-->StartTime<!--/$StartTime--> UTC and <!--$EndTime-->EndTime<!--/$EndTime--> UTC, server <!--$ServerName-->ServerName<!--/$ServerName--> was unreachable, and issue is related to recent migration of traffic connections to newer gateways in this region. This migration will change the public IP address that DNS resolves for database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.
+As part of Azure infrastructure improvements we upgraded some of our clusters to newer hardware across all regions. Server <!--$ServerName-->ServerName<!--/$ServerName--> was a part of this migration. This migration will change the public IP address that DNS resolves for your SQL Database. You must have received email communications related to this migration dated September 13th, 2019.
 
-For further information, please refer to the documentation present in the link below.
+## You will be impacted:
+*  If you have not hard coded the new IP addresses as the documentation below.
+*  If you have subnets using Microsoft.SQL as a Service Endpoint but unable to communicate the source IP of SQL.
+
+## You will not be impacted if you have:
+*  Redirection as the connection policy.
+*  Connections to SQL Database from inside Azure and using Service Tags. 
+
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Retry connecting to the database after a few minutes
-* Ensure that you do not have any outgoing firewall rules restrictions in your environment
+* Update your outgoing firewall rules (on your client machine and/or network) to include the newer IP addresses. Refer the link below for new IP addresses.
 
 ## **Recommended Documents**
 
-* [Gateway Migration to new hardwares](https://docs.microsoft.com/azure/sql-database/sql-database-gateway-migration)
+* [Gateway Migration to new hardware ](https://docs.microsoft.com/azure/sql-database/sql-database-gateway-migration)
+* [Connection policy for Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture#connection-policy)
+* [Azure SQL Database gateway IP Addresses](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture#azure-sql-database-gateway-ip-addresses)
