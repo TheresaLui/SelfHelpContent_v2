@@ -33,4 +33,4 @@ You can easily capture all of the most common log files from a Service Fabric no
 ## **Recommended Documents**
 
 * [Monitor and diagnose services in a local machine development setup](https://docs.azure.cn/service-fabric/service-fabric-diagnostics-how-to-monitor-and-diagnose-services-locally/) for how to configure ETW traces in your application
-* [Debug your Service Fabric application by using Visual Studio](https://docs.azure.cn/service-fabric/service-fabric-debugging-your-application/) for how to use Visual Studio to debug and view ETW traces for a remote Service Fabric app
+* [Debug your Service Fabric application by using Visual Studio](https://docs.azure.cn/service-fabric/service-fabric-debugging-your-application/) for how to use Visual Studio to debug and view ETW traces for remote Service Fabric apps
