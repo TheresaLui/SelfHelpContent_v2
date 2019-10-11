@@ -26,4 +26,4 @@ This scenario addresses backup and restore of resource providers installed on Az
 
 ## **Recommended Documents**
 
-* [Considerations for business continuity and disaster recovery](http://aka.ms/azurestackbcdrconsiderationswp)
+* [Considerations for business continuity and disaster recovery](https://azure.microsoft.com/resources/azure-stack-considerations-for-business-continuity-and-disaster-recovery/)
