@@ -815,6 +815,13 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
+            "id": "03bac894-54fc-6fa1-df23-bbf21eace375",
+            "shortDescription": "",
+            "category": "Management",
+            "searchTags": "xyz",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
             "id": "ee1b9d5c-c229-5771-00cd-4ab0a351650f",
             "shortDescription": "Issue with installing Windows Update or updating Windows for the virtual machine",
             "category": "Management",
