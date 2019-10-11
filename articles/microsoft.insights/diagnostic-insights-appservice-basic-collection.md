@@ -5,7 +5,7 @@
     resource="components"
     authors="rajkumar-rangaraj"
     ms.author="rajrang"
-    articleId="insights_appservice_basic_collection"
+    articleId="diagnostic_insights_appservice_basic_collection"
     displayOrder=""
     selfHelpType="diagnoseandsolve"
     cloudEnvironments="public"
