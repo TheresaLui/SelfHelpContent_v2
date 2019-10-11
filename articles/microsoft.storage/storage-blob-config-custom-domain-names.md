@@ -11,7 +11,7 @@
     supportTopicIds="32602723"
     resourceTags=""
     productPesIds="16459"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # How to configure a custom domain name

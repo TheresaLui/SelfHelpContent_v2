@@ -13,12 +13,12 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Failed Transactions
-
+<!--issueDescription-->
 Failed transactions have been detected for **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**:
 
 **<!--$AADescription-->[AADescription]<!--/$AADescription-->**
-
+<!--/issueDescription-->
