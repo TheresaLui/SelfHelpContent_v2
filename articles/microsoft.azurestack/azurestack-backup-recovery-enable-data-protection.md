@@ -25,4 +25,4 @@ Enable data protection for Windows based IaaS VMs using application, volume, and
 ## **Recommended Documents**
 
 * [Protect VMs deployed on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-manage-vm-protect)
-* [Considerations for business continuity and disaster recovery](http://aka.ms/azurestackbcdrconsiderationswp)
+* [Considerations for business continuity and disaster recovery](https://azure.microsoft.com/resources/azure-stack-considerations-for-business-continuity-and-disaster-recovery/)
