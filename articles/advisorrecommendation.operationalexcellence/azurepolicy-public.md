@@ -19,7 +19,7 @@
 		"dataSource": "SAS"
 	},
 	"recommendationCategory": "HighAvailability",
-	"recommendationImpact": "Low",
+	"recommendationImpact": "High",
 	"recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
 	"recommendationFriendlyName": "AzurePolicy",
 	"recommendationMetadataState": "Disabled",
