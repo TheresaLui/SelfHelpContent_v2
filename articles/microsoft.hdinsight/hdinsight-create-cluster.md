@@ -18,9 +18,9 @@
 
 ## **Recommended Steps**
 
-**Potential intermittent or transient issuses**
+**Potential intermittent or transient issues**
 
-Some errors are transient and your request may succeed if you retry creation after 15 minutes of the failed attempt. If after retrying your request, you still receive an error and are not able to address the issue, note the timeframe in which the error occurred and file a support request in a timely manner. By providing a timeframe and filing a support ticket within a few days of an event, support is more likely to be able to review logs to determine the root cause of the error as logs are only available for a specific amount of time.
+Some errors are transient and your request may succeed if you retry creation after 15 minutes of the failed attempt. If after retrying your request, you still receive an error and are not able to address the issue, note the time frame in which the error occurred and file a support request in a timely manner. By providing a time frame and filing a support ticket within a few days of an event, support is more likely to be able to review logs to determine the root cause of the error as logs are only available for a specific amount of time.
 
 **Error: Conflict (HTTP Status Code: 409)**
 
@@ -32,7 +32,7 @@ Solution: After deleting a cluster or encountering this error, wait 30-60 minute
 
 Cause: The conditional access or multi-factor authentication (MFA) policy is being applied to the user. Since interactive authentication is not supported yet, the user or the cluster needs to be exempted from the conditional access or MFA policies. If you choose to exempt the cluster (by using  an IP address based exemption policy), then make sure that the Active Directory service endpoints are enabled for that Virtual Network (VNet).
 
-Solution: Use a conditional access policy and exempt the HDInsight clusters from MFA. Fpr more information, see [interaction_required](https://docs.microsoft.com/azure/hdinsight/domain-joined/domain-joined-authentication-issues#interaction_required).
+Solution: Use a conditional access policy and exempt the HDInsight clusters from MFA. For more information, see [interaction_required](https://docs.microsoft.com/azure/hdinsight/domain-joined/domain-joined-authentication-issues#interaction_required).
 
 **A service outage**
 
@@ -48,7 +48,7 @@ Solution: Use a conditional access policy and exempt the HDInsight clusters from
 
 **The Storage account name is violating Storage account name restrictions**
 
-* Storage account names cannot be more than 24 characters, must use numbers and lower-case letters only, and cannot contain special characters. These restrictions also apply to the default container name in the Storage account. For more information, see [Resolve errors for storage account names](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors).
+* Storage account names cannot be more than 24 characters, must use numbers and lowercase letters only, and cannot contain special characters. These restrictions also apply to the default container name in the Storage account. For more information, see [Resolve errors for storage account names](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors).
 
 
 ## **Recommended Documents**
