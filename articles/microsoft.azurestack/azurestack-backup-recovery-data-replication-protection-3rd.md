@@ -18,9 +18,9 @@
 
 ## **Recommended Steps**
 
-* The Azure Stack team is engaged with multiple partners to ensure that their third-party solutions work on Azure Stack. For more information see [Azure Stack IaaS - protect your stuff](https://azure.microsoft.com/blog/azure-stack-iaas-part-four/). Full list of supported partners listed in the [Azure Stack Datacenter Integration Partner Ecosystem](http://aka.ms/azurestackbcdrpartners) datasheet. 
+* The Azure Stack team is engaged with multiple partners to ensure that their third-party solutions work on Azure Stack. For more information see [Azure Stack IaaS - protect your stuff](https://azure.microsoft.com/blog/azure-stack-iaas-part-four/). Full list of supported partners listed in the [Azure Stack Datacenter Integration Partner Ecosystem](https://azure.microsoft.com/resources/azure-stack-datacenter-integration-partners/) datasheet. 
 
 ## **Recommended Documents**
 
 * [Protect VMs deployed on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-manage-vm-protect)
-* [Considerations for business continuity and disaster recovery](http://aka.ms/azurestackbcdrconsiderationswp)
+* [Considerations for business continuity and disaster recovery](https://azure.microsoft.com/resources/azure-stack-considerations-for-business-continuity-and-disaster-recovery/)
