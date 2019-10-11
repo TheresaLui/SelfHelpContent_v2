@@ -7,7 +7,7 @@
     ms.author="mquian"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629252, 32629254"
+    supportTopicIds="32629254"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
