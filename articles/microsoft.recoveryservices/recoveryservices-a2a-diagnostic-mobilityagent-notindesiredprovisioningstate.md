@@ -1,14 +1,14 @@
 <properties
 	pageTitle="Microsoft Azure has information regarding your issue"
 	description="Microsoft Azure has information regarding your issue"
-	infoBubbleText="Microsoft Azure has information regarding your issue. Please see details to the right."
+	infoBubbleText="Microsoft Azure has information regarding your issue. Please see details on the right."
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="genlin"
 	ms.author="asgang"
 	displayOrder=""
-	articleId="AzureVmIsNotInDesiredProvisioningState"
-	diagnosticScenario="AzureVmIsNotInDesiredProvisioningState"
+	articleId="ASR_A2A_EnableReplicationFailure_AzureVmIsNotInDesiredProvisioningState"
+	diagnosticScenario="ASRA2AMgmtFailures"
 	selfHelpType="Diagnostics"
 	supportTopicIds=""
 	resourceTags=""
@@ -18,8 +18,12 @@
 
 # Enable replication failed as virtual machine is not in desired state
 <!--issueDescription-->
-Failed to enable replication, because the virtual machine is not in a state to replicate. To resolve this issue, make sure that the virtual machine provisioning state is **Succeeded**, and then retry the operation. If the provisioning state is **Updating**, check if there are any ongoing operations on the virtual machine, and wait for them to complete, and then retry the replication.
+Fail to enable replication because the virtual machine is not running.
 <!--/issueDescription-->
+
+## **Recommended Steps**
+
+To resolve this issue, restart the virtual machine, and then retry the operation. If the provisioning state is **Updating**, check if there are any ongoing operations on the virtual machine, and wait for them to complete, and then retry the replication.
 
 ## **Recommended Documents**
 
