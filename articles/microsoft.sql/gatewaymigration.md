@@ -21,6 +21,8 @@
 <!--issueDescription-->
 As part of Azure infrastructure improvements we upgraded some of our clusters to newer hardware across all regions. Server <!--$ServerName-->ServerName<!--/$ServerName--> was a part of this migration. This migration will change the public IP address that DNS resolves for your SQL Database. You must have received email communications related to this migration dated September 13th, 2019.
 
+<!--/issueDescription-->
+
 You will be impacted:
 1. If you have not hard coded the new IP addresses as the documentation below.
 2. If you have subnets using Microsoft.SQL as a Service Endpoint but unable to communicate the source IP of SQL.
@@ -29,7 +31,6 @@ You will not be impacted if you have:
 1. Redirection as the connection policy.
 2. Connections to SQL Database from inside Azure and using Service Tags. 
 
-<!--/issueDescription-->
 
 ## **Recommended Steps**
 
