@@ -29,7 +29,8 @@ To resolve this issue, follow these steps:
 2. If the error still occurs, set proxy only for the Site Recovery Mobility service. To do this, you can provide the proxy details in ProxyInfo.conf that is located at **/usr/local/InMage/config/** for Linux VM, or **C:\ProgramData\Microsoft Azure Site Recovery\Config** for Windows VM.
 3. The ProxyInfo.conf should have the proxy settings in the following INI format. The Mobility service supports only un-authenticated proxies:
 
-        [proxy]
-        Address=http://1.2.3.4
-        Port=567
-	
+```
+[proxy]
+Address=http://1.2.3.4
+Port=567
+```	

@@ -23,7 +23,7 @@ The installation of Mobility agent has failed because the connection cannot be e
 
 ## **Recommended Steps**
 
-Azure Site Recovery required access to [Site Recovery IP ranges](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking#outbound-connectivity-for-ip-address-ranges) depending on the region. Make sure that required ip ranges are accessible from the virtual machine. To configure NSG rules for a VM to replicate., see [Example NSG configuration](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking#example-nsg-configuration).
+Azure Site Recovery required access to [Site Recovery IP ranges](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking#outbound-connectivity-for-ip-address-ranges) depending on the region. Make sure that required ip ranges are accessible from the virtual machine. To configure NSG rules for a VM to replicate, see [Example NSG configuration](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking#example-nsg-configuration).
 
 ## **Recommended Documents**
 

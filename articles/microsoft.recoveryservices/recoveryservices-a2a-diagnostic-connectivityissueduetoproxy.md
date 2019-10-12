@@ -40,8 +40,8 @@ The installation of Mobility service has failed with error **A2AMobilityServiceC
 	Address=<proxy server url>
 	Port=<port number>
 	```
-3. Azure Site Recovery Mobility Service agent supports only un-authenticated proxies. 
-4. Refer [article](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-network-connectivity#issue-4-a2a-replication-failed-when-the-network-traffic-goes-through-on-premises-proxy-server-151072)to resolve the issue.
+3. Azure Site Recovery Mobility Service agent supports only un-authenticated proxies
+4. Refer to this troubleshooting [article](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-network-connectivity#issue-4-a2a-replication-failed-when-the-network-traffic-goes-through-on-premises-proxy-server-151072) to resolve the issue
 
 ## **Recommended Documents**
 
