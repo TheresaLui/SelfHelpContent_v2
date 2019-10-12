@@ -1,37 +1,38 @@
 <properties
-pageTitle="Access tiers is not supported on this blob type"
-description="Access tiers is not supported on this blob type"
+pageTitle="Rehydrated blobs from archive access tier will automatically get transitioned  back to archive tier due to Lifecycle Management Policy"
+description="Rehydrated blobs from archive access tier will automatically get transitioned  back to archive tier due to Lifecycle Management Policy"
 infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="annayak"
 ms.author="annayak"
 displayOrder=""
-articleId="storage_diagnostics_storagev2insights_blob_storage_access_tiers_blob_type_not_supported"
-diagnosticScenario="Access tiers is not supported on this blob type"
+articleId="storage_diagnostics_storagev2insights_blob_storage_access_tiers_rehyrated_blob_conflict_blm_policy"
+diagnosticScenario="Blob rehyration potential conflict with BLM policy"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Access tiers is not supported on this blob type
-<!--issueDescription-->
-Specified blob does not support access tiers due to the following reason(s):
+# Rehydrated blobs from archive access tier will automatically get transistioned back to archive tier due to Lifecycle Management Policy set on storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName-->"
 
-* <!--$displayMessage-->[displayMessage]<!--/$displayMessage--> 
- 
+<!--issueDescription-->
+Rehydrated blobs from archive access tier will automatically get transistioned back to archive tier due to Lifecycle Management Policy set on storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName-->. Below are the potential rehydration conflicts with the rule filters set in the current policy.
+
+<!--$displayMessage-->[displayMessage]<!--/$displayMessage-->
+
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Storage data tiering to hot, cool, or archive is only available for block blobs
-* Block blob with lease - The lease needs to be broken first before changing the access tier
-* Page blob - These can't be moved to a different tier
-* Append blob - These can't be moved to a different tier  
+You can take one of more of these steps to overcome the conflict and prevent the rehydrated blob getting transitioned back to archive access tier.
+
+* Modify the Rule Filters or Actions in the Lifecycle Management Policy on the storage account.
+* Disable the Lifecycle Management Policy on the storage account.
+* Copy an archived blob to an online tier in another storage account or a different container in same storage account. Make sure the other container is not covered by the policy.
 
 ## **Recommended Documents**
 
- * [Storage accounts that support tiering](https://docs.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers#storage-accounts-that-support-tiering)
- * [Blob Lease](https://docs.microsoft.com/rest/api/storageservices/lease-blob#request-headers)
- 
+ * [Rule Filters and Actions in the Lifecycle Management Policy](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts#rule-filters)
+ * [Copy an archived blob to an online tier](https://docs.microsoft.com/azure/storage/blobs/storage-blob-rehydration#copy-an-archived-blob-to-an-online-tier)
