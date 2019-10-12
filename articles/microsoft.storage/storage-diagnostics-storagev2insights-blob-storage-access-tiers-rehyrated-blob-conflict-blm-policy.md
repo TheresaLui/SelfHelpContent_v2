@@ -15,7 +15,7 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Rehydrated blobs from archive access tier will automatically get transistioned back to archive tier due to Lifecycle Management Policy set on storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName-->"
+# Rehydrated blobs from archive access tier will automatically get transitioned back to archive tier due to Lifecycle Management Policy set on storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName-->"
 
 <!--issueDescription-->
 Rehydrated blobs from archive access tier will automatically get transistioned back to archive tier due to Lifecycle Management Policy set on storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName-->. Below are the potential rehydration conflicts with the rule filters set in the current policy.
