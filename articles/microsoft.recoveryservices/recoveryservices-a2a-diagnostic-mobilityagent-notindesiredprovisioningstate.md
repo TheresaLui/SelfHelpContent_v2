@@ -18,7 +18,7 @@
 
 # Enable replication failed as virtual machine is not in desired state
 <!--issueDescription-->
-We have detected that the virtual machine is not in desired state that causes the replication fails to enable.
+Fail to enable replication because the virtual machine is not running.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

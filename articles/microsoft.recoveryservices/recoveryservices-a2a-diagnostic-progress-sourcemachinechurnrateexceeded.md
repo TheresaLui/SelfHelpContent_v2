@@ -23,9 +23,9 @@ The Replication status is critical because the disk data change rate on the sour
 
 ## **Recommended Steps**
 
-1. Check [Azure Site Recovery Limit](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#azure-site-recovery-limits).
-2. [Identify the disk that](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#solution) is churning at higher than supported rate.
-3. Exclude the disk that causes a high data-change rate, or upgrade the disk to higher tier if it is possible.
+1. Check [Azure Site Recovery Limit](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#azure-site-recovery-limits)
+2. [Identify the disk that](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#solution) is churning at higher than supported rate
+3. Exclude the disk that causes a high data-change rate, or upgrade the disk to higher tier if it is possible
 
 If you cannot remove the disk or the higher tier disk still cannot resolve the issue, the machine cannot be replicated using Azure Site Recovery.
 
