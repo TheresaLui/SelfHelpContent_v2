@@ -22,4 +22,4 @@ Storage Analytics logs detailed information about successful and failed requests
 Storage Analytics logging is not enabled by default for your storage account. You can enable it in the Azure portal or programmatically via the REST API or the client library. You can also use the Get Blob Service Properties, Get Queue Service Properties, and Get Table Service Properties operations to enable Storage Analytics for each service.
 <!--/issueDescription-->
 
-Please refer to [Storage Analytics](https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics) for more information. If Storage analytics log does not resolve the issues, please contact customer support.
+Please refer to [Storage Analytics](https://docs.microsoft.com/azure/storage/common/storage-analytics) for more information. If Storage analytics log does not resolve the issues, please contact customer support.
