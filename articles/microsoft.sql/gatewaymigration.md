@@ -23,18 +23,16 @@ As part of Azure infrastructure improvements we upgraded some of our clusters to
 
 <!--/issueDescription-->
 
-You will be impacted:
-1. If you have not hard coded the new IP addresses as the documentation below.
-2. If you have subnets using Microsoft.SQL as a Service Endpoint but unable to communicate the source IP of SQL.
+If you are experiencing connectivity issues, it could be related to this migration. Please ensure that:
+1. You have updated any outgoing firewall rules (on your client machine and/or network) to include the newer IP addresses
 
-You will not be impacted if you have:
-1. Redirection as the connection policy.
-2. Connections to SQL Database from inside Azure and using Service Tags. 
-
+2. You have updated your Network Security Groups (NSGs) to include the newer IP address, if you are using Microsoft.SQL as a Service Endpoint.
 
 ## **Recommended Steps**
 
-Update your outgoing firewall rules (on your client machine and/or network) to include the newer IP addresses. Refer the link below for new IP addresses.
+1. Ensure that you do not have any hard coded IP addresses in your outgoing firewall rules or any other outbound network restrictions in your environment.
+
+2. Ensure to include the newer IP addresses to your NSGs, as per the documentation below.
 
 ## **Recommended Documents**
 
