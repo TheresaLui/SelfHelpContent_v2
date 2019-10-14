@@ -11,12 +11,15 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
-	articleId="keyvault-howother"
+	articleId="keyvault-howother2"
 />
 
 # How to Perform Key Vault actions
 ## **Recommended Steps**
 
+* [Key Vault Get Started](https://docs.microsoft.com/azure/key-vault/key-vault-overview)
+* [About Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)
+* [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)
 * [Developer's Guide](https://docs.microsoft.com/azure/key-vault/key-vault-developers-guide)
 
 ### **Troubleshooting**

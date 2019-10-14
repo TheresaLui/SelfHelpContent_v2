@@ -12,7 +12,7 @@ diagnosticScenario="Specialized storage account only supports one service type"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Upgrade scenario not supported for storage account type

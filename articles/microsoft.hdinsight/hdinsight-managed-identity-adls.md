@@ -50,3 +50,4 @@ If you are creating a cluster with ADLS Gen2 through Azure CLI, use our [sample 
 ## **Recommended Documents**
 
 * [Use Azure Data Lake Storage Gen2 with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#use-the-azure-portal)
+* [HDInsight storage FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#storage)

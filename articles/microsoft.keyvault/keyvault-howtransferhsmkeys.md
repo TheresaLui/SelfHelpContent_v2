@@ -5,7 +5,7 @@
 	resource="vaults"
 	authors="jlichwa"
 	ms.author="jalichwa"
-	displayOrder="1"
+	displayOrder="3"
 	selfHelpType="generic"
 	supportTopicIds="32596884"
 	resourceTags="optional"
