@@ -21,5 +21,5 @@
 * [Common causes of Relay Timeout errors](https://docs.microsoft.com/azure/service-bus-relay/relay-exceptions#timeoutexception)<br>
 * [Relay exceptions explained](https://docs.microsoft.com/azure/service-bus-relay/relay-exceptions)<br>
 * [Azure service status site](https://azure.microsoft.com/status/)<br>
-* [Check if you can find the answer in our FAQ section!](https://docs.microsoft.com/azure/service-bus-relay/relay-faq)<br>
-* [Check if TCPing works for Relay?](https://www.elifulkerson.com/projects/tcping.php)
+* [Check if you can find the answer in our FAQ section](https://docs.microsoft.com/azure/service-bus-relay/relay-faq)<br>
+* [Check if TCPing works for Relay](https://www.elifulkerson.com/projects/tcping.php)
