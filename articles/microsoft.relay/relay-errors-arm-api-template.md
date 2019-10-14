@@ -19,4 +19,4 @@
 ## **Recommended Documents**
 
 * [Azure Relay Management APIs](https://docs.microsoft.com/rest/api/relay/)<br>
-* [Azure Relay available resourec types](https://docs.microsoft.com/azure/templates/microsoft.relay/allversions)<br>
+* [Azure Relay available resource types](https://docs.microsoft.com/azure/templates/microsoft.relay/allversions)<br>
