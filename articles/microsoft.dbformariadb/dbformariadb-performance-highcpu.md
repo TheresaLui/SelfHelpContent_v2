@@ -28,7 +28,7 @@ Thank you for contacting Microsoft support about your performance issues with yo
 
 ## **Recommended Documents**
 
-* [Performance Recommendations in Azure Database for MariaDB](https://docs.microsoft.com/en-us/azure/mariadb/concepts-performance-recommendations)<br>
-* [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/en-us/azure/mariadb/howto-troubleshoot-common-connection-issues)
-* [Query Performance Insight in Azure Database for MariaDB](https://docs.microsoft.com/en-us/azure/mariadb/concepts-query-performance-insight)
+* [Performance Recommendations in Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/concepts-performance-recommendations)<br>
+* [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-troubleshoot-common-connection-issues)
+* [Query Performance Insight in Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/concepts-query-performance-insight)
 * [Azure Database for MariaDB documentation](https://docs.microsoft.com/azure/mariadb/)

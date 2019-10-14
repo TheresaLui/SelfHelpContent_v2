@@ -26,5 +26,5 @@ Consider using a connection pool between your application and MariaDB server to 
 
 ## **Recommended Documents**
 
-* [Learn more about why we recommend connection pooling](https://docs.azure.cn/en-us/mysql-database-on-azure/mysql-database-connection-pool#-)<br>
-* [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/en-us/azure/mariadb/howto-troubleshoot-common-connection-issues)
+* [Learn more about why we recommend connection pooling](https://docs.azure.cn/mysql-database-on-azure/mysql-database-connection-pool#-)<br>
+* [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-troubleshoot-common-connection-issues)
