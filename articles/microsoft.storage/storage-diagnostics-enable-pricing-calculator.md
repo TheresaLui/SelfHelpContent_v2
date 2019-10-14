@@ -21,4 +21,4 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 If you have questions about cost, please use Azure Calculator , where you have to provide the information according to you utilization and you will get the estimation cost. This will provide the clear overview for the charges on your account.
 <!--/issueDescription-->
 
-Please refer to [Transfer data with AzCopy v10](https://azure.microsoft.com/pricing/calculator/) for more information. If pricing calculator does not resolve the issues, please contact customer support.
+Please refer to [Azure Calculator](https://azure.microsoft.com/pricing/calculator/) for more information. If pricing calculator does not resolve the issues, please contact customer support.
