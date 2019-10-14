@@ -18,7 +18,7 @@
 ## **Recommended Steps**
 
 * [Add/Import Secrets to Key Vault using CLI](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2#adding-a-key-secret-or-certificate-to-the-key-vault)<br>
-* [CLI Developer Guide for Importing Keys](https://docs.microsoft.com/en-us/cli/azure/keyvault/key?view=azure-cli-latest#az-keyvault-key-import) <br>
+* [CLI Developer Guide for Importing Keys](https://docs.microsoft.com/cli/azure/keyvault/key?view=azure-cli-latest#az-keyvault-key-import) <br>
 
 ### **Troubleshooting**
 
