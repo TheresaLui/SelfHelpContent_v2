@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Orcas Mariadb server is facing high IO throttle"
-    description="Orcas Mariadb server is facing high IO throttle"
+    pageTitle="Orcas MariaDB server is facing high IO throttle"
+    description="Orcas MariaDB server is facing high IO throttle"
     infoBubbleText="Server is facing high IO throttle. See details on the right"
     service="microsoft.dbformariadb"
     resource="dbformariadb"
@@ -8,7 +8,7 @@
     ms.author="conwan"
     displayOrder="100"
     articleId="dbformariadb-performance-xiooperation"
-    diagnosticScenario="OrcasMariadbXIOThrottle"
+    diagnosticScenario="OrcasMariaDBXIOThrottle"
     selfHelpType="rca"
     resourceTags="servers, databases"
     cloudEnvironments="public"
@@ -17,7 +17,7 @@
 # Server is facing high IO Throttle
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your performance issues with your Mariadb server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your IO throttle is above 100 for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. This means there are storage issues.
+Thank you for contacting Microsoft support about your performance issues with your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your IO throttle is above 100 for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. This means there are storage issues.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -27,7 +27,7 @@ Thank you for contacting Microsoft support about your performance issues with yo
 
 ## **Recommended Documents**
 
-* [Performance Recommendations in Azure Database for Mariadb](https://docs.microsoft.com/en-us/azure/mariadb/concepts-performance-recommendations)<br>
-* [Troubleshoot common connectivity issues to Azure Databases for Mariadb](https://docs.microsoft.com/en-us/azure/mariadb/howto-troubleshoot-common-connection-issues)
-* [Query Performance Insight in Azure Database for Mariadb](https://docs.microsoft.com/en-us/azure/mariadb/concepts-query-performance-insight)
-* [Azure Database for Mariadb documentation](https://docs.microsoft.com/azure/mariadb/)
+* [Performance Recommendations in Azure Database for MariaDB](https://docs.microsoft.com/en-us/azure/mariadb/concepts-performance-recommendations)<br>
+* [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/en-us/azure/mariadb/howto-troubleshoot-common-connection-issues)
+* [Query Performance Insight in Azure Database for MariaDB](https://docs.microsoft.com/en-us/azure/mariadb/concepts-query-performance-insight)
+* [Azure Database for MariaDB documentation](https://docs.microsoft.com/azure/mariadb/)
