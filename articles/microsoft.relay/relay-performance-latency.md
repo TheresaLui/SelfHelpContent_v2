@@ -19,4 +19,4 @@
 ## **Recommended Documents**
 
 * [How to calculate TCP throughput for long distance WAN links](http://bradhedlund.com/2008/12/19/how-to-calculate-tcp-throughput-for-long-distance-links/)<br>
-* [Check if TCPing works for Relay?](https://www.elifulkerson.com/projects/tcping.php)
+* [Check if TCPing works for Relay](https://www.elifulkerson.com/projects/tcping.php)
