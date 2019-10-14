@@ -27,7 +27,6 @@ Thank you for contacting Microsoft support about your performance issues with yo
 
 ## **Recommended Documents**
 
-* [Performance Recommendations in Azure Database for MySQL](https://docs.microsoft.com/en-us/azure/mysql/concepts-performance-recommendations)<br>
-* [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/en-us/azure/mysql/howto-troubleshoot-common-connection-issues)
-* [Query Performance Insight in Azure Database for MySQL](https://docs.microsoft.com/en-us/azure/mysql/concepts-query-performance-insight)
-* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
+* [Reaching storage limits](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers)
+* [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)<br>
+* [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL)
