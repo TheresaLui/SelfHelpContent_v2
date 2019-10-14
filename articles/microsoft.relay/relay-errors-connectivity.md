@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-* [Which Ports should I open for Relay communication?](https://docs.microsoft.com/azure/service-bus-relay/relay-port-settings)<br>
+* [Which Ports should I open for Relay communication](https://docs.microsoft.com/azure/service-bus-relay/relay-port-settings)<br>
 * [Azure service status site](https://azure.microsoft.com/status/)<br>
 * [Check if you can find the answer in our FAQ section](https://docs.microsoft.com/azure/service-bus-relay/relay-faq)<br>
-* [Check if TCPing works for Relay?](https://www.elifulkerson.com/projects/tcping.php)
+* [Check if TCPing works for Relay](https://www.elifulkerson.com/projects/tcping.php)
