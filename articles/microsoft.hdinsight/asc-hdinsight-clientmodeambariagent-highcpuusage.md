@@ -20,6 +20,8 @@
 <!--issueDescription-->
 HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high CPU usage on the headnode.
 CPU Percent Used Memory <!--$PercentUsedMemory-->[PercentUsedMemory]<!--/$PercentUsedMemory-->
+Application Id <!--$ApplicationId-->[ApplicationId]<!--/$ApplicationId-->
+
 <!--/issueDescription-->
 ## Problem
 
