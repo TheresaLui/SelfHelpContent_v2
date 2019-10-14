@@ -19,7 +19,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-As part of Azure infrastructure improvements we upgraded some of our clusters to newer hardware across all regions. Server <!--$ServerName-->ServerName<!--/$ServerName--> was a part of this migration. This migration will change the public IP address that DNS resolves for your SQL Database. You must have received email communications related to this migration dated September 13th, 2019.
+As part of Azure infrastructure improvements, we upgraded some of our clusters to newer hardware across all regions. Server <!--$ServerName-->ServerName<!--/$ServerName--> was a part of this migration. This migration will change the public IP address that DNS resolves for your SQL Database. You must have received email communications related to this migration dated September 13th, 2019.
 
 <!--/issueDescription-->
 
@@ -30,7 +30,7 @@ If you are experiencing connectivity issues, it could be related to this migrati
 
 ## **Recommended Steps**
 
-1. Ensure that you do not have any hard coded IP addresses in your outgoing firewall rules or any other outbound network restrictions in your environment.
+1. Ensure that you do not have any hard-coded IP addresses in your outgoing firewall rules or any other outbound network restrictions in your environment.
 
 2. Ensure to include the newer IP addresses to your NSGs, as per the documentation below.
 
