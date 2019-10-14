@@ -1,20 +1,27 @@
 <properties
-    pageTitle="Where's my data?"
-    description="Where's my data?"
-    infoBubbleText="Some suggestions have been found to help solve your missing data issue quicker."
-    service="microsoft.insights"
-    resource="components"
-    authors="mcosner"
-    ms.author="mcosner"
-    selfHelpType="generic"
-    articleId="appinsights-missing-ingestion-data"
-    diagnosticScenario=""
-    productPesIds="15693"
-    supportTopicIds="32602225"
-    cloudEnvironments="public"
- />
+pageTitle="Where's my data?"
+description="Where's my data?"
+infoBubbleText="Some suggestions have been found to help solve your missing data issue quicker."
+service="microsoft.insights"
+resource="components"
+authors="debugthings"
+ms.author="jamdavi"
+displayOrder=""
+articleId="diagnostic-missing-ingestion-data"
+diagnosticScenario="ApplicationInsightsMissingDataDiagnostic"
+selfHelpType="diagnostics"
+supportTopicIds="32602225"
+resourceTags=""
+productPesIds="15693"
+cloudEnvironments="public"
+/>
 
 # Where's my data?
+
+## **No data found in the time range**
+<!--issueDescription-->
+Our diagnostic has detected that the configured application(s) have not sent any data to the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. This is an indication that there is a configuration issue with your application and you should follow the troubleshooting steps below to correct your issue.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -24,7 +31,7 @@ If you've configured your application to send data to Application Insights but a
 2. If you *used to see data but don't anymore*, validate that a deployment has not modified or removed Application Insights configuration or dependencies. If you have configured your application to send data through Status Monitor and web published, ensure you do not select the "delete existing files" option during publish.
 3. If you *see data for a pre-production/development environment but not your production environment*, ensure that you have [configured your firewall to allow traffic through the ports required](https://docs.microsoft.com/azure/application-insights/app-insights-ip-addresses) for Application Insights to send data. In addition, if your instrumentation key is set programmatically or through a configuration file, validate that these values are correct.
 
-If none of these steps resolve your issue, there are more detailed checklists to follow below depending on which SDK or method of application instrumentation you are using.
+If none of these steps resolve your issue, there are more detailed checklists to follow in the links below depending on which SDK or method of application instrumentation you are using.
 
 ## **Recommended Documents**
 

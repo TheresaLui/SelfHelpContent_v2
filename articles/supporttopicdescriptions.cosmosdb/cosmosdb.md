@@ -586,7 +586,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "06381622-6ea9-ab75-3b2c-86567db997ef",
-      "shortDescription": "How to manage Azure Cosmos DB or update Azure Cosmos DB configuration or monitor Azure Cosmos DB through Azure Portal",
+      "shortDescription": "You can monitor your Azure Cosmos DB accounts in the Azure portal. For each Azure Cosmos DB account, a full suite of metrics is available to monitor throughput, storage, availability, latency, and consistency",
       "longDescription": "",
       "category": "Performance",
       "searchTags": "",
@@ -594,7 +594,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "499fe381-76ad-5796-05e8-44274fb41403",
-      "shortDescription": "How manage  Azure Cosmos DB or update Azure Cosmos DB configuration or monitor Azure Cosmos DB through Azure Portal",
+      "shortDescription": "How to manage  Azure Cosmos DB or update Azure Cosmos DB configuration or monitor Azure Cosmos DB through Azure Portal",
       "longDescription": "",
       "category": "APIs",
       "searchTags": "",
