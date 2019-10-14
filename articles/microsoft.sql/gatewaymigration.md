@@ -10,9 +10,9 @@
   articleId="GatewayMigration_257E0082-CAC5-4934-812E-AC8DA79D9318"
   diagnosticScenario="crc_sqldb_connectivity"
   selfHelpType="diagnostics"
-  supportTopicIds="32630429"
+  supportTopicIds="32630429, 32635195"
   resourceTags=""
-  productPesIds="13491"
+  productPesIds="13491, 15818"
   cloudEnvironments="public"
 />
 
