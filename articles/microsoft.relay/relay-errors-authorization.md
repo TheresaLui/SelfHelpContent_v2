@@ -19,4 +19,4 @@
 ## **Recommended Documents**
 
 * [Relay Authorization and Authentication](https://docs.microsoft.com/azure/service-bus-relay/relay-authentication-and-authorization)<br>
-* [How to create a SAS token for cliens to authenticate to the Relay service](https://docs.microsoft.com/azure/service-bus-relay/relay-authentication-and-authorization#shared-access-signature-authentication)
+* [How to create a SAS token for clients to authenticate to the Relay service](https://docs.microsoft.com/azure/service-bus-relay/relay-authentication-and-authorization#shared-access-signature-authentication)
