@@ -72,7 +72,7 @@
                     "text": "HTTP 503"
                 },
                 {
-                    "value": "other",
+                    "value": "dont_know_answer",
                     "text": "Not listed above"
                 }
             ],
