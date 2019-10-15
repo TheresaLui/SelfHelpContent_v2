@@ -30,7 +30,7 @@ Use the SQL Server resource provider adapter to offer SQL databases as a service
 
 ## **Recommended Documents**
 
-* [SQL Server VM images in the Marketplace](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-sql-resource-provider-hosting-servers#sql-server-virtual-machine-images)
+* [SQL Server VM images in the Marketplace](https://docs.microsoft.com/azure-stack/operator/azure-stack-sql-resource-provider-hosting-servers#sql-server-virtual-machine-images)
 * [Offer services](https://docs.microsoft.com/azure-stack/operator/azure-stack-offer-services-overview)
 * [Offer highly available SQL databases](https://docs.microsoft.com/azure-stack/operator/azure-stack-tutorial-sql)
 * [Add a standalone hosting SQL server](https://docs.microsoft.com/azure-stack/operator/azure-stack-sql-resource-provider-hosting-servers#provide-capacity-by-connecting-to-a-standalone-hosting-sql-server)
