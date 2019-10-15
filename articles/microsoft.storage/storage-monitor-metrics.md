@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-- [Azure Storage metrics in Azure Monitor](https://docs.microsoft.com/en-us/azure/storage/common/storage-metrics-in-azure-monitor)
+- [Azure Storage metrics in Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-metrics-in-azure-monitor)
