@@ -17,7 +17,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').StorageAdvisorMDHDDtoPremiumForPerformancePublic",
     "dataSource": "Kusto",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "00:12.00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
