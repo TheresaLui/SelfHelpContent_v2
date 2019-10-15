@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15629,16459,16460,16598,16462,16461"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
-	articleId="deb34d55-39cf-4209-aef5-ad569c3b8291"
+	articleId="8a2fca0f-172c-4678-97cf-d4ef83ccec4c"
 />
 
 # Issues with using Alerts for Metric or Activity Logs
