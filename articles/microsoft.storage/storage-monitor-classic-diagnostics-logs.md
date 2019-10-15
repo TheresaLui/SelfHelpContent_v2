@@ -14,7 +14,7 @@
 	articleId="b5515402-f2a3-4ba5-9353-536054202db0"
 />
 
-# Issues with Diagnostic logs
+# Issues with diagnostic logs
 
 ## **Recommended Documents**
 
