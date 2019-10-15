@@ -14,7 +14,7 @@
 	articleId="deb34d55-39cf-4209-aef5-ad569c3b8291"
 />
 
-# Issues with using Alerts for Metric or Activity Logs
+# Issues with using Alerts for Metric or Activity logs
 
 ## **Recommended Documents**
 
