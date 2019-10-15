@@ -18,5 +18,8 @@
 
 ## **Recommended Documents**
 
+* The supported way to enable WASBS is to first create a storage account with secure transfer enabled flag, then use it to create an HDInsight cluster. Please find detailed steps [here](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-with-secure-transfer-storage)
+* [Common problems regarding to WASBS](https://hdinsight.github.io/hdfs/wasbs-common-problems-regarding-to-wasbs.html#common-problems-regarding-to-wasbs)
 * [Use Azure storage with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)
 * [Use Azure Storage Shared Access Signatures to restrict access to data in HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-storage-sharedaccesssignature-permissions)
+* [FAQ:Azure HDInsight Security and Certificates](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#security-and-certificates)

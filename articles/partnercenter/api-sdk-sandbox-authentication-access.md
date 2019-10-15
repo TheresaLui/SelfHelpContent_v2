@@ -24,5 +24,5 @@ Reference information about how Partner Center API and SDK authentication work a
 ## **Recommended Documents**
 
 * [Set up API access in Partner Center](https://docs.microsoft.com/partner-center/develop/set-up-api-access-in-partner-center) 
-* [Partner Center authentication](https://docs.microsoft.com/partner-center/develop/test-and-debug#troubleshooting-tips-for-common-rest-problems)
+* [Partner Center authentication](https://docs.microsoft.com/partner-center/develop/partner-center-authentication)
 	 

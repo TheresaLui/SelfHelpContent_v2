@@ -6,16 +6,17 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630425"
 	productPesIds="13491"
-	cloudEnvironments="Public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-backuprestore-georestore-db"
 />
 # Error when trying to geo-restore
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-    "formElements": [
+	"$schema": "SelfHelpContent",
+	"resourceRequired": false,
+	"subscriptionRequired": false,
+	"formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -80,7 +81,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide the full error you are receiving. If available,please attach any relevant screenshots and scripts that you have used."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

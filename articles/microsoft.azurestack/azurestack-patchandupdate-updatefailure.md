@@ -24,15 +24,16 @@ Each release of Microsoft software updates is bundled as a single update package
 
 ## **Recommended Steps**
 
-1. Review all known issues regarding Update specific issues
+1. For ongoing updates, you can monitor the progress of the update with the instructions outlined in [Monitor updates in Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-monitor)
+2. Review all known issues regarding Update specific issues:
 
-* [1907 Known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1907) and [1907 Update process](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1907#update-process)<br>
-* [1906 Known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1906) and [1906 Update process](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1906#update-process)<br>
-* [1905 Known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1905) and [1905 Update process](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1905#update-process)<br>
-* [1904 Known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1904) and [1904 Update process](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1904#update-process)
+    * [1907 Known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1907) and [1907 Update process](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1907#update-process)<br>
+    * [1906 Known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1906) and [1906 Update process](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1906#update-process)<br>
+    * [1905 Known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1905) and [1905 Update process](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1905#update-process)<br>
+    * [1904 Known issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1904) and [1904 Update process](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-known-issues-1904#update-process)
 
-2. Review the checklist for [update-related activities for Azure Stack operators](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#during-azure-stack-update) when preparing to apply an update to Azure Stack
-3. If resuming a previously failed update, run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) and resolve any identified issues before resuming using steps outlined in [Resume Azure Stack update using PowerShell](https://docs.microsoft.com/azure-stack/operator/azure-stack-monitor-update#resume-a-failed-update-operation)
+3. Review the checklist for [update-related activities for Azure Stack operators](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-checklist#during-azure-stack-update) when preparing to apply an update to Azure Stack
+4. If resuming a previously failed update, run [Test-AzureStack](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) and resolve any identified issues before resuming using steps outlined in [Resume Azure Stack update using PowerShell](https://docs.microsoft.com/azure-stack/operator/azure-stack-monitor-update#resume-a-failed-update-operation)
 
 ## **Recommended Documents**
 

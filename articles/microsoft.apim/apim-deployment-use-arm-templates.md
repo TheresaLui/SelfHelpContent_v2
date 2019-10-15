@@ -15,12 +15,12 @@
 
 # Deploy Azure API Management using ARM Templates
 
+**Note**: For faster resolution, check that you have API Management resource in your Portal. If no resource exists and the issue does not involve an instance of an API Management Service, consider a different product that aligns better to your issue.
+
+API Management is a way to create consistent and modern API gateways for existing back-end services. You can use Azure API Management to take any backend and launch a full-fledged API program based on it.
+
 ## **Recommended Documents**
 
 - [Azure APIM Quick Start Template](https://github.com/Azure/azure-quickstart-templates/tree/master/101-azure-api-management-create)
 - [Create an API Management instance and all sub resources using template](https://azure.microsoft.com/resources/templates/201-api-management-create-all-resources/)
 - [Microsoft.ApiManagement resource types](https://docs.microsoft.com/azure/templates/microsoft.apimanagement/allversions)
-
-
-
-

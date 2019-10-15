@@ -18,7 +18,8 @@
 
 ## **Recommended Steps**
 
-First, [compile the configuration locally ](https://docs.microsoft.com/powershell/dsc/configurations/configurations#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation. 
+* First, [compile the configuration locally ](https://docs.microsoft.com/powershell/dsc/configurations/configurations#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation
+* Second, [collect diagnostic logs](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#steps-to-troubleshoot-desired-state-configuration-dsc)
 
 ### Import-DSC Resource needs to be on new line
 
@@ -26,16 +27,16 @@ First, [compile the configuration locally ](https://docs.microsoft.com/powershel
 
 ### Using composite resources
 
-* Composite resources have specific syntax. Review [the overview documentation for Composite Resources ](https://docs.microsoft.com/powershell/dsc/resources/authoringresourcecomposite)
+* Composite resources have specific syntax. Review [the overview documentation for Composite Resources ](https://docs.microsoft.com/powershell/dsc/resources/authoringresourcecomposite).
 * The [CompositeResource package on PowerShell Gallery](https://www.powershellgallery.com/packages/compositeresource/) can help create new composite resources
 
 ### Using custom resources in State Configuration
 
-* Ensure your [module is uploaded to Azure Automation](https://docs.microsoft.com/azure/automation/shared-resources/modules) and the version is consistent with any local testing you have done.
+* Ensure your [module is uploaded to Azure Automation](https://docs.microsoft.com/azure/automation/shared-resources/modules) and the version is consistent with any local testing you have done
 
 ### Review any errors from the compilation job
 
-* Follow the instructions in ["Viewing a compilation job"](https://docs.microsoft.com/azure/automation/automation-dsc-getting-started#viewing-a-compilation-job) to see error messages emitted by the configuration.
+* Follow the instructions in ["Viewing a compilation job"](https://docs.microsoft.com/azure/automation/automation-dsc-getting-started#viewing-a-compilation-job) to see error messages emitted by the configuration
 
 ### No node configurations were produced after compilation
 

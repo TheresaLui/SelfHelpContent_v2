@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32642184,32599924,32642191"
+    supportTopicIds="32642184,32599924,32642191,32612529"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
@@ -19,6 +19,8 @@
 This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
 
 ## **Recommended Steps**
+
+First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
 
 ### **Desired automation account, region, or Log Analytics workspace is greyed out**
 
@@ -82,7 +84,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Updating machines across different tenants**
 
-* If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
+* If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant).
 
 
 ## **Recommended Documents**

@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Troubleshooting Azure-SSIS IR Management - Customized Setup Issues"
+	pageTitle="Azure-SSIS IR Customized Setup Issues"
 	description="Troubleshooting Azure-SSIS IR Management - Customized Setup Issues"
 	service="microsoft.datafactory"
 	resource="factories"
 	authors="chinadragon0515"
 	ms.author="dashe"
 	articleId="datafactory-newtree-ssis-ir-management-customized-setup.md"
-	displayOrder="8"
+	displayOrder="10"
 	selfHelpType="resource"
 	supportTopicIds="32680894"
 	resourceTags=""
@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Troubleshooting Azure-SSIS IR Management - Customized Setup Issues
+# Azure-SSIS IR Customized Setup Issues
 
 The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
 
