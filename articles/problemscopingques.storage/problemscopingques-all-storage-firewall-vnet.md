@@ -22,7 +22,7 @@
         "title": "Firewall & VNet Issues Troubleshooter",
         "description": "If you are reporting about an issue please help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a support ticket.",
         "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
-    }
+    },
     "formElements": [
         {
             "id": "problem_start_time",
