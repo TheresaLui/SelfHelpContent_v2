@@ -18,7 +18,7 @@ cloudEnvironments = "Public"
         "schemaVersion": 1.0,
         "streamNamespace": "cluster('https://aznw.kusto.windows.net').database('AznwCosmos').AzureAdvisorOnly1ERCircuit",
         "dataSource": "Kusto",
-        "refreshInterval": "1.00:00:00"
+        "refreshInterval": "0.12:00:00"
     },
     "recommendationCategory": "HighAvailability",
     "recommendationImpact": "Medium",
