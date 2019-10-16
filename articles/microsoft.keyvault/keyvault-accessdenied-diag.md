@@ -6,7 +6,7 @@
 	authors="jlichwa"
 	ms.author="jalichwa"
 	displayOrder="14"
-	selfHelpType="diagnostics"
+	selfHelpType="resource"
 	supportTopicIds="32375285,32596881,32596883,32596883,32375288"
 	resourceTags="optional"
 	productPesIds="15657"
@@ -16,10 +16,6 @@
 
 # Access Denied Exception
 
-## **Access Denied Exception**
-<!--issueDescription-->
- Unauthorized access, access denied, forbidden, or similar error occurred on Key Vault
-<!--/issueDescription-->
 ## **Recommended Steps**
 
 1. Check if there is access granted to key vault by looking in Key Vault Access Policies.
