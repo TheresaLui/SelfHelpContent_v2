@@ -6,7 +6,7 @@
 	authors="mrcarter8"
 	ms.author="mcarter"
 	selfHelpType="resource"
-	displayOrder="5"
+	displayOrder="8"
 	supportTopicIds="32681387"
 	resourceTags=""
 	productPesIds="15568"
