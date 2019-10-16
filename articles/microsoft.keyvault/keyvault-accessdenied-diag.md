@@ -11,10 +11,15 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
-	articleId="a0b57fdd-c29c-4a60-8b54-7a78da171846"
+	articleId="keyvault-accessdenied-diag"
 />
 
 # Access Denied Exception
+
+## **Access Denied Exception**
+<!--issueDescription-->
+ Unauthorized access, access denied, forbidden, or similar error occurred on Key Vault
+<!--/issueDescription-->
 ## **Recommended Steps**
 
 1. Check if there is access granted to key vault by looking in Key Vault Access Policies.
@@ -23,4 +28,4 @@
 ## **Recommended Documents**
 
 * [Provide Key Vault authentication with access control policy](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)<br>
-* [Provice Key Vault authentication with managed identity](https://docs.microsoft.com/en-us/azure/key-vault/managed-identity)<br>
+* [Provide Key Vault authentication with managed identity](https://docs.microsoft.com/azure/key-vault/managed-identity)<br>
