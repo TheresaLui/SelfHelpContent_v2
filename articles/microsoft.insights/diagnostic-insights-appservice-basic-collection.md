@@ -22,9 +22,9 @@ Our diagnostic has detected that the data has come from following SDK versions <
 
 * Adds CPU, memory, and I/O usage trends.
 * Correlates micro-services across request/dependency boundaries.
-Collects usage trends, and enables correlation from availability results to transactions.
-Collects exceptions unhandled by the host process.
-Improves APM metrics accuracy under load, when sampling is used.
+* Collects usage trends, and enables correlation from availability results to transactions.
+* Collects exceptions unhandled by the host process.
+* Improves APM metrics accuracy under load, when sampling is used.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
