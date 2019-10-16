@@ -7,7 +7,7 @@
 	ms.author="jalichwa"
 	displayOrder="14"
 	selfHelpType="resource"
-	supportTopicIds="32375285,32596881,32596883,32596883,32375288"
+	supportTopicIds="32375285,32596881,32596883,32375288"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
