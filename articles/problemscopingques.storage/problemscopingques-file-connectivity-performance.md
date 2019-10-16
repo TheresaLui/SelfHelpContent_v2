@@ -28,7 +28,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": false,
+            "required": true,
             "diagnosticInputRequiredClients": "ASC"
         },
         {

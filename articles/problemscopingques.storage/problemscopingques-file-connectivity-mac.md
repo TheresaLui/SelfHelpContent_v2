@@ -68,7 +68,7 @@
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": false,
+            "required": true,
             "diagnosticInputRequiredClients": "ASC"
         }
     ],
