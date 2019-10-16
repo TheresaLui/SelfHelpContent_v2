@@ -35,7 +35,7 @@ Our diagnostic has detected that the data has come from following SDK versions <
 
 1. Navigate to the App Service
 2. Select Application Insights in the Azure control panel for your app service
-3.  Toggle Collection level switch from Basic to Recommended
+3. Toggle Collection level switch from Basic to Recommended
 
 ## **Recommended Documents**
 
