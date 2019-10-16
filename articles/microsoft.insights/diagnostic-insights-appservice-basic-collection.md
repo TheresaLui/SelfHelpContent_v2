@@ -16,7 +16,9 @@
     supportTopicIds="32602209"
  />
  
-## **How do I enable Application Insights for an App Service in Recommended Collection level?**
+# How do I enable Application Insights for an App Service in Recommended Collection level?
+## **Basic level collection in Azure App Service**
+
 <!--issueDescription-->
 Our diagnostic has detected that the data has come from following SDK versions <!--$SDKTYPE-->[SDKTYPE]<!--/$SDKTYPE--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. Application Insights Basic collection level is enabled in <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList-->. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides these additional  capabilities.
 
