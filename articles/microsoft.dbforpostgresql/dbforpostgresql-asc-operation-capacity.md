@@ -26,5 +26,6 @@ Thank you for contacting Microsoft support team. We have detected that there is 
 Please use other nearby regions if possible.
 
 ## **Recommended Documents**
+* [Azure Region Map](https://map.buildazure.com/)
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
-* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
+* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-us/home?forum=AzureDatabaseforPostgreSQL)

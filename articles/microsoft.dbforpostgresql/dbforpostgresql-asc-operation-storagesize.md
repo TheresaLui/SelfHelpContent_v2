@@ -28,5 +28,5 @@ Please find the storage limits of your pricing tier from [Pricing tiers in Azure
 
 ## **Recommended Documents**
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
-* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
+* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-us/home?forum=AzureDatabaseforPostgreSQL)
 * [Pricing tiers in Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers)
