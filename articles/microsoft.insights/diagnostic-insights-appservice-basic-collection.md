@@ -20,14 +20,14 @@
 ## **Basic level collection in Azure App Service**
 
 <!--issueDescription-->
-Our diagnostic has detected that the data has come from following SDK versions <!--$SDKTYPE-->[SDKTYPE]<!--/$SDKTYPE--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. Application Insights Basic collection level is enabled in <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList-->. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides these additional  capabilities.
-
-* Adds CPU, memory, and I/O usage trends.
-* Correlates micro-services across request/dependency boundaries.
-* Collects usage trends, and enables correlation from availability results to transactions.
-* Collects exceptions unhandled by the host process.
-* Improves APM metrics accuracy under load, when sampling is used.
+Our diagnostic has detected that the data has come from following SDK versions <!--$SDKTYPE-->[SDKTYPE]<!--/$SDKTYPE--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. Application Insights Basic collection level is enabled in <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList-->. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides the additional capabilities seen below.
 <!--/issueDescription-->
+
+* Adds CPU, memory, and I/O usage trends
+* Correlates micro-services across request/dependency boundaries
+* Collects usage trends, and enables correlation from availability results to transactions
+* Collects exceptions unhandled by the host process
+* Improves APM metrics accuracy under load, when sampling is used
 
 ## **Recommended Steps**
 
