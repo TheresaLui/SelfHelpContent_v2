@@ -13,8 +13,8 @@
 # CosmosDB SDK General Questions
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB SDK General Questions",
     "fileAttachmentHint": "Attach any related screenshots or information",
     "formElements": [

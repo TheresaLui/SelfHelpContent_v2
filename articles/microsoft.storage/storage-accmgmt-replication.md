@@ -10,7 +10,7 @@
 	supportTopicIds="32602702"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="commonSoln_replication"
 />
 

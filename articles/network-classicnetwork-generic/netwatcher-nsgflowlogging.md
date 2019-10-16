@@ -16,18 +16,23 @@
 	cloudEnvironments="public"
 />
 
-
 # Common issues with NSG Flow Logs
 
 ## **Recommended Steps**
 
-### I could not enable NSG Flow Logs
+Important Note: Due to an ongoing issue, NSG Flow Logs are not automatically deleted from Blob storage based on retention policy settings. The retention feature has been temporarily disabled and users are expected to manually delete flow logs. [Read more here](https://docs.microsoft.com/azure/network-watcher/network-watcher-delete-nsg-flow-log-blobs).
+
+### **I could not enable NSG Flow Logs**
 
 * "Microsoft.Insights" resource provider is not registered
 
 If you received an *AuthorizationFailed* or a *GatewayAuthenticationFailed* error, you might have not enabled the Microsoft Insights resource provider on your subscription. Please [follow the instructions](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#register-insights-provider) to enable the Microsoft Insights provider.
 
-### I have enabled NSG Flow Logs but do not see data in my storage account
+### **I have enabled NSG Flow Logs but do not see data in my storage account**
+
+* **Setup time**
+
+NSG Flow Logs may take up to 5 minutes to appear in your storage account (if configured correctly). A PT1H.json will appear which can be accessed [as described here](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#download-flow-log).
 
 * **Service Endpoints exist on your VNet**
 
@@ -54,7 +59,7 @@ There are two ways to fix this:
 
 You can check the storage logs after a few minutes, you should see an updated TimeStamp or a new JSON file created.
 
-* **Disable NSG flow logs**
+* Disable NSG flow logs
 
 If the Microsoft.Storage service endpoints are a must, you will have to disable NSG Flow Logs.
 

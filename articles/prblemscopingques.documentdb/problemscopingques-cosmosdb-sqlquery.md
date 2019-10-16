@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636818,32636795,32636821,32681012"
+	supportTopicIds="32636818,32636795,32636821,32681012,32681470,32684529"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -13,8 +13,8 @@
 # CosmosDB SQL Query Issue
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "CosmosDB SQL Query Issue",
     "fileAttachmentHint": "",
     "formElements": [

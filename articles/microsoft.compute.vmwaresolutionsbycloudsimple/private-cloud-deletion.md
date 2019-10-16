@@ -19,5 +19,12 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to deletion of Private Cloud on your CloudSimple service">
+
 * [Delete a Private Cloud](https://docs.microsoft.com/azure/vmware-cloudsimple/delete-private-cloud)<br>
+</span>
+
+<span title="Problems related to deletion of Private Cloud on your CloudSimple service">
+
 * [View list of Private Clouds](https://docs.microsoft.com/azure/vmware-cloudsimple/manage-private-cloud)
+</span>
