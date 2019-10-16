@@ -17,8 +17,6 @@
  />
  
 ## **How do I enable Application Insights for an App Service in Recommended Collection level?**
-We've identified that the **{ComponentName}** Application Insights resource has data from following SDK versions {SDKTYPE} **{Time}**. This has been identified {CountOfBasicModeSDK} **{AppServiceList}** enabled in Basic level.\r\n\r\n Basic level is a subset of the full Application Insights and offers only single-instance Application Performance Management (APM) capabilities. It collects requests and dependencies, but it won't correlate traces from multiple services. It doesn't capture an unhandled exception by the host process.
-
 <!--issueDescription-->
 Our diagnostic has detected that the data has come from following SDK versions <!--$SDKTYPE-->[SDKTYPE]<!--/$SDKTYPE--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList--> enabled in Basic level. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides these additonal capabilities.
 
