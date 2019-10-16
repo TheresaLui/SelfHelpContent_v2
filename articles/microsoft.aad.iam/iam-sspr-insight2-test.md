@@ -18,6 +18,6 @@
 
 # User is not homed in your tenant
 <!--/issueDescription-->
-This is a test insight. [Test blade](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel)
+This is a test insight. [Test blade](data-blade:Microsoft_AAD_IAM.IdentityDiagnosticsFrameBlade)
 <!--/issueDescription-->
 
