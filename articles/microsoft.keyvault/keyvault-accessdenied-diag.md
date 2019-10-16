@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-1. Check if there is access granted to key vault by looking in Key Vault Access Policies.
+1. Check if access has been granted to key vault by looking in Key Vault Access Policies
 2. Grant access to Key Vault using MSI or Service Principal
 
 ## **Recommended Documents**
