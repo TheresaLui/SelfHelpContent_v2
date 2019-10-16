@@ -1,15 +1,19 @@
 <properties 
     pageTitle="How do I enable Application Insights for an App Service in Recommended Collection level?"
     description="Explain the current state of App Services integration"
+    infoBubbleText="Some suggestions have been found to help solve your missing data issue quicker."
     service="microsoft.insights"
     resource="components"
     authors="rajkumar-rangaraj"
     ms.author="rajrang"
     articleId="diagnostic_insights_appservice_basic_collection"
+    diagnosticScenario="ApplicationInsightsDefaultModeEnablementDiagnostic"
     displayOrder=""
-    selfHelpType="diagnoseandsolve"
+    selfHelpType="diagnostics"
     cloudEnvironments="public"
+    resourceTags=""
     productPesIds="15693" 
+    supportTopicIds="32602209"
  />
  
 # How do I enable Application Insights for an App Service in Recommended Collection level?
