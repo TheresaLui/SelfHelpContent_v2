@@ -1,7 +1,7 @@
 <properties 
     pageTitle="How do I enable Application Insights for an App Service in Recommended Collection level?"
     description="Explain the current state of App Services integration"
-    infoBubbleText="Some suggestions have been found to help solve your missing data issue quicker."
+    infoBubbleText="Some suggestions have been found to help solve your missing data quicker."
     service="microsoft.insights"
     resource="components"
     authors="rajkumar-rangaraj"
@@ -18,7 +18,7 @@
  
 ## **How do I enable Application Insights for an App Service in Recommended Collection level?**
 <!--issueDescription-->
-Our diagnostic has detected that the data has come from following SDK versions <!--$SDKTYPE-->[SDKTYPE]<!--/$SDKTYPE--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList--> enabled in Basic level. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides these additional  capabilities.
+Our diagnostic has detected that the data has come from following SDK versions <!--$SDKTYPE-->[SDKTYPE]<!--/$SDKTYPE--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. Application Insights Basic collection level is enabled in <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList-->. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides these additional  capabilities.
 
 * Adds CPU, memory, and I/O usage trends.
 * Correlates micro-services across request/dependency boundaries.
@@ -38,3 +38,4 @@ Our diagnostic has detected that the data has come from following SDK versions <
 ## **Recommended Documents**
 
 * [Enabling Application Insights in an App Service](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps)<br>
+* [SDK Version](https://github.com/microsoft/ApplicationInsights-Home/blob/master/EndpointSpecs/SDK-VERSIONS.md)
