@@ -20,8 +20,8 @@
 <!--issueDescription-->
 Our diagnostic has detected that the data has come from following SDK versions <!--$SDKTYPE-->[SDKTYPE]<!--/$SDKTYPE--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList--> enabled in Basic level. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides these additonal capabilities.
 
-Adds CPU, memory, and I/O usage trends.
-Correlates micro-services across request/dependency boundaries.
+* Adds CPU, memory, and I/O usage trends.
+* Correlates micro-services across request/dependency boundaries.
 Collects usage trends, and enables correlation from availability results to transactions.
 Collects exceptions unhandled by the host process.
 Improves APM metrics accuracy under load, when sampling is used.
