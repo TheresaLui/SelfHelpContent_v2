@@ -8,9 +8,9 @@
     ms.author="mcosner"
     selfHelpType="generic"
     articleId="appinsights-missing-ingestion-data"
-    diagnosticScenario="ApplicationInsightsMissingDataDiagnostic"
+    diagnosticScenario=""
     productPesIds="15693"
-    supportTopicIds="32402629,32402626,32602225"
+    supportTopicIds="32602225"
     cloudEnvironments="public"
  />
 

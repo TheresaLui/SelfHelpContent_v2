@@ -6,7 +6,7 @@
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="2"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32606435"
 	resourceTags=""
 	productPesIds="16160"
@@ -24,7 +24,7 @@
 
 ### **I want to get more information about the malicious traffic in my environment**
 
-* Please raise a support ticket with Azure Security Center to know more about the data 
+* Please raise a support ticket with Azure Security Center to know more about the data
 
 ### **I want to block NSG from allowing malicious traffic in my environment**
 

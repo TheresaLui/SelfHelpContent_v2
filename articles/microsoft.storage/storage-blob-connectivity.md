@@ -7,10 +7,10 @@
 	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602710,32602725,32602728"
+	supportTopicIds="32602725,32602728"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="8a31eced-24b8-4bb8-959c-942ee038b006"
 />
 

@@ -33,7 +33,8 @@ Most users are able to resolve their issue using the steps below.
 * Cannot scale up the master server when a replica exists, or cannot scale down a replica:
 
     * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
-    * The Azure Monitor auto-scale feature is not supported in Azure Database for MariaDB
+
+* The Azure Monitor auto-scale feature is not supported in Azure Database for MariaDB
 
 ## **Recommended Documents**
 
