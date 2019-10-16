@@ -13,7 +13,7 @@
 	supportTopicIds="32612602"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Data Lake Gen2 Storage Performance High Latency Troubleshooting

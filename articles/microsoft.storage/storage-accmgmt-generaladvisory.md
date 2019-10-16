@@ -13,7 +13,7 @@
 	supportTopicIds="32602884"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public,Mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Storage account management General Advisory
