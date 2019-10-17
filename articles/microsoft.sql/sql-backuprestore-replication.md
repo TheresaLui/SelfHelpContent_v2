@@ -9,7 +9,7 @@
 	displayOrder="4"
 	articleId="Microsoft.sql.sql-backuprestore-replication"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32630458"
 	resourceTags="servers, databases"
 	productPesIds="13491"
