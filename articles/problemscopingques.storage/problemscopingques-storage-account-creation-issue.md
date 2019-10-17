@@ -37,7 +37,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message received",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_start_time",

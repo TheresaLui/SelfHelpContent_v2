@@ -61,15 +61,22 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
+            "id": "error_message",
             "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error message received",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local time of the last deletion attempt",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

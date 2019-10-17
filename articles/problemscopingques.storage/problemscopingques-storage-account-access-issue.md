@@ -23,14 +23,14 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message received",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time of most recent occurrence",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",

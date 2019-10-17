@@ -94,15 +94,15 @@
             "visibility": "service_type != account",
             "controlType": "textbox",
             "displayLabel": "Path of object to recover",
-            "watermarkText": "https://myaccount.blob.core.windows.net/myblob  ",
-            "required": true,
+            "watermarkText": "https://myaccount.blob.core.windows.net/myblob",
+            "required": true
         },
         {
             "id": "problem_start_time",
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local time object was deleted",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
