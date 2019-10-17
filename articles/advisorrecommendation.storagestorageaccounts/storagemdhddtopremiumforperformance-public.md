@@ -59,6 +59,7 @@
     }
   },
   "displayLabel": "Convert Managed Disks to Premium SSD",
+  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Compute/",
   "tip": "Upgrade your Standard HDD disks to Premium SSD disks by following our instructions for the Azure portal, PowerShell, or CLI."
 }
 ---
