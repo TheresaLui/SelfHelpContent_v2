@@ -29,7 +29,6 @@ Many issues with Hybrid Workers are caused by connectivity problems. Run [the "T
 
 * See the [hybrid runbook worker troubleshooting guide under "Runbook execution fails"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#runbook-execution-fails)
 
-
 ### **No certificate was found in the certificate store**
 
 * To resolve this issue, follow the ["No Certificate was Found" section of the Hybrid Worker troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#no-cert-found)
@@ -39,7 +38,13 @@ Many issues with Hybrid Workers are caused by connectivity problems. Run [the "T
 * You can avoid using a RunAs account with a Hybrid Worker by using Managed Identities
 * For more details, see [Managed Identities for Azure Resources](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks#managed-identities-for-azure-resources)
 
-### Error: "Machine is already registered to a different account"
+### **Differences between Hybrid Runbook Worker and Azure sandbox**
+
+* Azure sandbox has [several internal cmdlets which are not available in the Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/shared-resources/modules#internal-cmdlets)
+* When running in a hybrid runbook worker, you can use the equivalent [AzureRM](https://docs.microsoft.com/powershell/module/azurerm.automation/) or [Az](https://docs.microsoft.com/powershell/module/az.automation) cmdlets
+* Hybrid Worker does not have access to your Automation account modules. [See "Install PowerShell modules"](https://docs.microsoft.com/azure/automation/automation-windows-hrw-install#5-install-powershell-modules)
+
+### **Error: "Machine is already registered to a different account"**
 
 * Follow the troubleshooting guide for ["Unable to add a Hybrid Runbook Worker"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#already-registered)
 

@@ -18,10 +18,10 @@
 
 ## **Recommended Steps**
 
-The most common reason for an index not being deleted will happen when making the call from the API as opposed to from the portal. If this is the case, it is important to make note of the HTTP response that comes back from the call as this gives the best indication as to why it failed. Common reasons for this include:
+If you were unable to delete an index using an API call rather than directly from the portal, the response 's HTTP status code and message will often give a good indication as to why the call failed. Common reasons for this failure include:
 
-* Using a Query API key as opposed to an Admin API Key (which is required for this action)
-* Incorrectly formed API request
+* Using a Query API key as opposed to the required Admin API Key
+* Incorrectly formed API request 
 * The Index was previously deleted
 * The service is currently unavailable.  You must have 2 or more replicas to ensure an availability SLA.
 

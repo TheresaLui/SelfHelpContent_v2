@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602696,32630512"
 	productPesIds="15629,16459"
-	cloudEnvironments="public,MoonCake,FairFax"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="321513E7-1346-42C6-A5BC-2D43DA486F20"
 />
@@ -81,9 +81,32 @@
             "required": true,
 	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
+	{
+            "id": "azcopy_command_needhelp",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have questions on AzCopy command",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "yes"
+                },
+                {
+                    "value": "no",
+                    "text": "no"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+            "required": false,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
         {
             "id": "azcopy_performance",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Are you experiencing any performance issue with the copy operations",
             "watermarkText": "Choose an option",
@@ -106,7 +129,7 @@
         },
         {
             "id": "error_code",
-            "order": 5,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Did you receive any error code? ",
             "watermarkText": "Choose an option",
@@ -145,14 +168,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

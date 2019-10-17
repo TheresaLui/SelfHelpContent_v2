@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32565835"
 	resourceTags=""
-	productPesIds="15571,16470"
+	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
 	articleId="b6280349-a73f-4f10-b78e-aaa228a629f9"
 />
