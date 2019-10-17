@@ -23,7 +23,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StandardSSDForNonPremVM",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "owner": {
     "email": "lisson@microsoft.com",
     "icm": {
