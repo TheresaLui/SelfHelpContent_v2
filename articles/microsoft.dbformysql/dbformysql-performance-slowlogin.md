@@ -24,7 +24,7 @@ Thank you for contacting Microsoft support about your performance issues with yo
 
 * Monitor the resource consumption of your server. If you are maxing out IO, memory or compute resources, scale up the resource that you are limited on.
 * If your client is hosted in an Azure VM, use accelerated networking for lowest connection latency. Please see the recommended documents section. 
-* In order to avoid overhead for establishing new connections, consider using a [connection pooler between your application and MySQL server](https://docs.azure.cn/mysql-database-on-azure/mysql-database-connection-pool#-)
+* In order to avoid overhead for establishing new connections, consider using a connection pooler between your application and MySQL server
 * If you are connecting from the Azure Kubernetes Service, review the [Develop with Azure Kubernetes Service](https://docs.microsoft.com/azure/mysql/concepts-aks) documentation
 
 ## **Recommended Documents**
