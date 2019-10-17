@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Problems with credential validation while configuring Workday to AD User Provisioning"
-	description="Problems with credential validation while configuring Workday to AD User Provisioning"
-	infoBubbleText="Problems with credential validation while configuring Workday to AD User Provisioning"
+	pageTitle="Problems while configuring Workday to AD User Provisioning service"
+	description="Problems while configuring Workday to AD User Provisioning service"
+	infoBubbleText="Problems while configuring Workday to AD User Provisioning service"
 	service="microsoft.activedirectory"
 	resource="activedirectory"
 	authors="cmmdesai"
 	ms.author="chmutali"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32629800"
+	supportTopicIds="32684510"
 	productPesIds="16666"
-	articleId="8d591007-b403-4b63-9f3e-451f17322ef4"
+	articleId="4f779b64-8c57-4471-bd22-3f3312f46702"
 	cloudEnvironments="Public"
 />
 
-# Problems with credential validation while configuring Workday to AD User Provisioning
+# Problem configuring the provisioning service
 
 In order for automated user provisioning to work, Azure AD requires valid credentials that allow it to connect to Workday Web Services API. Further the *Test Connection* button on the **Workday to AD User Provisioning app** also validates if it is able to connect to the Azure AD Connect Provisioning Agent associated with the AD Domain. If the Azure portal is returning an error upon saving the credentials, then follow the recommended steps below.
 
