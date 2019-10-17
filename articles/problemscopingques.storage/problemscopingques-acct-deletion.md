@@ -17,11 +17,6 @@
     "resourceRequired": true,
     "title": "Issue deleting storage account",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Why am I unable to delete this storage account?",
-        "description": "Our account deletion troubleshooter can help you identify and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect anything that will prevent your storage account deletion. Please ensure the selected storage account in the previous blade is the one with deletion issue."
-    },
     "formElements": [
         {
             "id": "error_message",
