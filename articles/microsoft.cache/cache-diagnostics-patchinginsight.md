@@ -31,3 +31,7 @@ The Azure Cache for Redis service regularly performs maintenance to update your 
 1. [Schedule updates](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-administration#schedule-updates) for a maintenance window to reduce impact on your system.
 1. Test your system's resiliency to connection breaks using a [reboot](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-administration#reboot) to simulate a patch.
 1. Enable [persistence](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-premium-persistence) or periodically [export](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-import-export-data) your Cache's data to further prevent data loss.
+
+## **Recommended Documents**
+
+* [Failover and patching - Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-failover)
