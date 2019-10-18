@@ -27,7 +27,7 @@ To learn more about configuring inputs in Azure Stream Analytics job, see the re
 
 
 ## **Recommended Documents**
-
+* [Maximum number of inputs in a job](https://docs.microsoft.com/azure/azure-subscription-service-limits#stream-analytics-limits)
 * [Different types of streaming data input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-inputs)
 * [Different types of reference data input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-use-reference-data)
 * [How to use Azure SQL DB as reference data input](https://docs.microsoft.com/azure/stream-analytics/sql-reference-data)
