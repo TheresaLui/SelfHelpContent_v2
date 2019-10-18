@@ -22,7 +22,7 @@ This article will help for issues where machines are enrolled in Update Manageme
 
 ### **Update run returns status "Failed"**
 
-* Follow the troubleshooting guide for ["Update run returns status "Failed"](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#scenario-update-run-returns-status-failed)
+* Follow the troubleshooting guide for ["Update run returns status 'Failed'"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#scenario-update-run-returns-status-failed)
 
 ### **I know updates are available, but they don't show as needed on my machines**
 

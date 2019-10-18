@@ -44,7 +44,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Update run returns status "Failed"**
 
-* Follow the troubleshooting guide for ["Update run returns status "Failed"](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#scenario-update-run-returns-status-failed)
+* Follow the troubleshooting guide for ["Update run returns status 'Failed'"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#scenario-update-run-returns-status-failed)
 
 
 ### **KB2267602 is consistently  missing**
