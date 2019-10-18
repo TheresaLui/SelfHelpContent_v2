@@ -22,7 +22,7 @@ cloudEnvironments="public"
 <!--issueDescription-->
 We have examined the Update Management solution on your machines and detected that while attempting to assess updates, the Windows Update Agent encountered errors on at least one machine. This indicates a problem with Windows Update configuration. This can be verified by attempting to run Windows Update manually on the impacted machines.
 
-<!--$MachinesWithExceptions-->[Machines with exceptions]<!--/$MachinesWithExceptions-->
+<!--$machinesWithHresultsTable-->[machinesWithHresultsTable]<!--/$machinesWithHresultsTable-->
 <!--/issueDescription-->
 
 ## **Recommended Steps**
