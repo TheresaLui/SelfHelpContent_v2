@@ -26,7 +26,7 @@ This article will help you migrate your Update Management account or VMs to anot
 
 ### **Move machine from Update Management**
 
-* First, unenroll machines from Update Management, follow the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
+* First, unenroll machines from Update Management. Follow the instructions at ["Clean up resources"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#clean-up-resources)
 * Then, onboard machines to a different account by following the instructions at ["Onboard machines"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#enable-solutions)
 
 ### **Desired automation account, region, or Log Analytics workspace is greyed out**
