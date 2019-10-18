@@ -32,7 +32,7 @@ Review the following table for potential solutions or actions to take:
 |Exception  |Resolution or Action  |
 |---------|---------|
 |`Exception from HRESULT: 0x……C`     | Search the relevant error code in [Windows update error code list](https://support.microsoft.com/help/938205/windows-update-error-code-list) to find additional details on the cause of the exception.        |
-|`0x8024402C`</br>`0x8024401C`</br>`0x8024402F`      | These errors are network connectivity issues. Make sure that your machine has the proper network connectivity to Update Management. See the section on [network planning](../automation-update-management.md#ports) for a list of ports and addresses that are required.        |
+|`0x8024402C`</br>`0x8024401C`</br>`0x8024402F`      | These errors are network connectivity issues. Make sure that your machine has the proper network connectivity to Update Management. See the section on [network planning](https://docs.microsoft.com/azure/automation/automation-update-management#ports) for a list of ports and addresses that are required.        |
 |`0x8024001E`| The update operation did not complete because the service or system was shutting down.|
 |`0x8024002E`| Windows Update service is disabled.|
 |`0x8024402C`     | If you are using a WSUS server, make sure the registry values for `WUServer` and `WUStatusServer` under the registry key `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate` have the correct WSUS server.        |
@@ -44,4 +44,4 @@ If the above list doesn’t include the HResult from your machine, please check 
 
 ## **Recommended Documents**
 
-* [Troubleshooting HResult exceptions](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#hresult)
+* [Troubleshooting HResult exceptions](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
