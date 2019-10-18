@@ -31,5 +31,5 @@ Most users are able to resolve their portal issues using the steps below.
 ## **Recommended Documents**
 
 * [Azure CLI for MySQL](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)
-* [Azure Database for MySQL](https://azure.microsoft.com/services/MySQL/)
+* [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
 * [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL)
