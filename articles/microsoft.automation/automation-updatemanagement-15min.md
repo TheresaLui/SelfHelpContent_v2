@@ -35,14 +35,13 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 ### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already enrolled into Update Management
-* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine.
+* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
 
 ### **Machine shows as "not assessed"**
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
 * Follow the troubleshooting guide for ["Machines don't show up in the portal"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
-
 
 ## **Recommended Documents**
 
