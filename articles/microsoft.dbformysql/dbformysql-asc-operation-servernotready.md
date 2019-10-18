@@ -24,14 +24,13 @@ Thank you for contacting Microsoft support team. We have detected that your oper
 
 ## **Recommended Steps**
 
-* If you are using Azure portal, please check the server "Activity log" menu and make sure your previous operation is succeeded and try your operation again.
-* If you are using Azure CLI, you can use the following command to get the state of your server:
-	az mysql server show --resource-group <resource group name> -name <server name> --subscription <subscription id>
-and wait for the "userVisibleState" to be in ready state: 
-	"userVisibleState": "Ready"
-* If you are using ARM template, please make sure you execute your operations in serial. (If deployment order is not specified, the Resource Manager deploys them in parallel.)  See how to [Define the order for deploying resources in Azure Resource Manager Templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-define-dependencies).
+* If you are using Azure portal, please check the server "Activity log" menu and make sure your previous operation succeeded and try your operation again
+* If you are using Azure CLI, you can use `az mysql server show --resource-group <resource group name> --name <server name> --subscription <subscription id>` to get the state of your server	
+* Wait for "userVisibleState" to read "Ready"
+* If you are using ARM template, please make sure you execute your operations in serial. If deployment order is not specified, the Resource Manager deploys them in parallel. See how to [Define the order for deploying resources in Azure Resource Manager Templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-define-dependencies).
 
 ## **Recommended Documents**
+
 * [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
 * [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-us/home?forum=AzureDatabaseforMySQL)
 * [Azure CLI for MySQL](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)
