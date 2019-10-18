@@ -24,13 +24,12 @@ Thank you for contacting Microsoft support team. We have detected that your oper
 
 ## **Recommended Steps**
 
-* If you are using Azure portal, please check the server "Activity log" menu and make sure your previous operation succeeded and try your operation again.
-* If you are using Azure CLI, you can use the following command to get the state of your server:
-	az mariadb server show --resource-group <resource group name> --name <server name> --subscription <subscription id>
-and wait for the "userVisibleState" to be in ready state: 
-	"userVisibleState": "Ready"
+* If you are using Azure portal, please check the server "Activity log" menu and make sure your previous operation succeeded and try your operation again
+* If you are using Azure CLI, you can use `az mariadb server show --resource-group <resource group name> --name <server name> --subscription <subscription id>` to get the state of your server
+* Wait for "userVisibleState" to read "Ready"
 
 ## **Recommended Documents**
+
 * [Azure Database for MariaDB](https://azure.microsoft.com/services/mariadb/)
 * [MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums/en-us/home?forum=AzureDatabaseforMariaDB)
 * [Azure CLI for MariaDB](https://docs.microsoft.com/cli/azure/mariadb?view=azure-cli-latest)
