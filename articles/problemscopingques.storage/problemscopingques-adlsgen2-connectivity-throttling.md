@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Blob connectivity and other blob service errors"
-	description="Blob connectivity and other blob service errors scoping question"
-	authors="Passaree"
-	ms.author="passap"
+	pageTitle="ADLSGen2 connectivity throttling errors"
+	description="ADLSGen2 connectivity throttling errors scoping questions"
+	authors="Annayak"
+	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="StorageScoping_blob_connectivity_otherErrors"
-	supportTopicIds="32602728,32612605"
-	productPesIds="16459,16598"
-	cloudEnvironments="public"
+	articleId="StorageScoping_adlsgen2_connectivity_throttling"
+	supportTopicIds="32612611"
+	productPesIds="16598"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
-# Blob connectivity and other blob service errors
+# Data Lake Storage Gen2 Throttling Issues
 ---
 {
     "resourceRequired": true,
-    "title": "Blob connectivity and other blob service errors scoping question",
+    "title": "Connectivity issue on adlsgen2 scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -99,7 +99,7 @@
             "required": false
         },
         {
-            "id": "request_id",
+            "id": "adlsgen2_connectivity_throttling_request_id",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
@@ -143,6 +143,12 @@
             "displayLabel": "Provide any additional details",
             "required": true,
             "useAsAdditionalDetails": true
+        },
+        {
+            "id": "learn_more_text",
+            "order": 7,
+            "controlType": "infoblock",
+            "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> performance issues."
         }
     ],
     "$schema": "SelfHelpContent"
