@@ -15,6 +15,7 @@
 ---
 {
     "$schema": "SelfHelpContent",
+		"subscriptionRequired": true,
 		"resourceRequired": false,
     "title": "Issues with NSG Flow Logs",
     "formElements": [
@@ -25,7 +26,6 @@
 					"displayLabel": "When did the problem start?",
 					"required": true
 			},
-
 			{
             "id": "nsgq1",
             "visibility": "true",   
@@ -34,13 +34,13 @@
             "displayLabel": "Select your problem type",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
-                    "value": "Configuration/Setup issue",
+                    "value": "config_setup_issue",
                     "text": "Could not enable NSG Flow Logs"
                 },{
-                    "value": "Data missing",
+                    "value": "data_missing",
                     "text": "Not seeing flow log data in storage"
                 },{
-                    "value": "Other issue",
+                    "value": "dont_know_answer",
                     "text": "Other issue"
                 }
 								],
@@ -49,43 +49,32 @@
 				{
             "id": "nsgq2",
             "order": 3,
-						"visibility": "nsgq1 == Configuration/Setup issue",
+						"visibility": "nsgq1 == config_setup_issue",
             "controlType": "multilinetextbox",
-            "displayLabel": "Issue description",
-            "required": true,
-            "useAsAdditionalDetails": true,
-						"hints": [{
-            "text": "Please paste entire error received when enabling flow logs"
-        							},
-    				]
+            "displayLabel": "Please paste entire error received when enabling flow logs",
+            "required": true
         },
 				{
 						"id": "nsgq3",
 						"order": 4,
-						"visibility": "nsgq1 == Data missing",
+						"visibility": "nsgq1 == data_missing",
 						"controlType": "multilinetextbox",
-						"displayLabel": "Issue description",
-						"required": true,
-						"useAsAdditionalDetails": true,
-						"hints": [{
-            "text": "Please provide NSG(s) affected, Storage account id, and recent changes made if any."
-        							},
-    				]
-
+						"displayLabel": "Please provide NSG(s) affected, Storage account id, and any recent changes made",
+						"required": true
 				},
 				{
 						"id": "problem_description",
 						"order": 1000,
-						"visibility": "nsgq1 == Other issue",
 						"controlType": "multilinetextbox",
 						"displayLabel": "Issue description.",
 						"required": false,
 						"useAsAdditionalDetails": true,
 						"hints": [{
-						"text": "Please provide details more details like NSGs, subnets, etc. to enable faster resolution."
-											},
+						"text": "Please provide any other details that could be useful."
+											}
 						]
 				}
 
     ]
 }
+---
