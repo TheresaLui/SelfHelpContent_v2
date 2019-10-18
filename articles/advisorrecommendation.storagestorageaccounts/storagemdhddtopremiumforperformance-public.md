@@ -7,7 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# Migrate to Premium to increase performance
+# Convert Standard HDD to Premium SSD for Performance
 ---
 {
   "recommendationOfferingId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
@@ -41,7 +41,7 @@
   "actions": [
    {
       "actionId": "27e5f4f3-2b65-4b94-8268-a15a49b0fbce",
-      "description": "Convert Managed Disks to Premium SSD",
+      "description": "Convert Standard HDD to Premium SSD for Performance",
       "actionType": "Document",
       "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage"
     }
@@ -58,8 +58,8 @@
       "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage"
     }
   },
-  "displayLabel": "Convert Managed Disks to Premium SSD",
-  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/storageAccounts/xdataanalyticscentralus",
+  "displayLabel": "Convert Standard HDD to Premium SSD for Performance",
+  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/",
   "tip": "Upgrade your Standard HDD disks to Premium SSD disks by following our instructions for the Azure portal, PowerShell, or CLI."
 }
 ---
