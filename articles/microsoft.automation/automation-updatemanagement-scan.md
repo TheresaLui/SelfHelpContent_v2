@@ -20,7 +20,7 @@ This article will help with assessing available updates and installing updates u
 
 ## **Recommended Steps**
 
-First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
+* Try running the Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues) or [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues
 
 ### **I know updates are available, but they don't show as needed on my machines**
 
@@ -37,9 +37,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 ### **Machine shows as "not assessed"**
 
-Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
-
-* Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 
 ### **Update run returns status "Failed"**
@@ -47,7 +45,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 * Follow the troubleshooting guide for ["Update run returns status 'Failed'"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#scenario-update-run-returns-status-failed)
 
 
-### **KB2267602 is consistently  missing**
+### **KB2267602 is consistently shown as missing**
 
 * KB2267602 is the [Windows Defender definition update](https://www.microsoft.com/wdsi/definitions). It is updated daily.
 
