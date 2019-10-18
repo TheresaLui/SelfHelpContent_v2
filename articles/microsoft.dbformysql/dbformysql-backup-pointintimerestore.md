@@ -25,6 +25,7 @@ Azure Database for MySQL supports point-in-time restore to any point within the 
 * If you are trying to restore to a point in time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again
 * The point in time restore duration depends on your database size and the transaction log size from last full backup. The SLA of restore time is 12 hours.
 * [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
+* If you want to backup Azure Database for MySQL to a Blob storage, please refer to [Backup Azure Database for MySQL to a Blob Storage](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Backup-Azure-Database-for-MySQL-to-a-Blob-Storage/ba-p/803830)
 
 ## **Recommended Documents**
 
