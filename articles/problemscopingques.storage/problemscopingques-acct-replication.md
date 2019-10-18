@@ -25,7 +25,7 @@
     "formElements": [
         {
             "id": "new_replication",
-            "order": 1,
+            "order": 0,
             "controlType": "dropdown",
             "displayLabel": "New replication type",
             "watermarkText": "Choose an option",
@@ -61,6 +61,13 @@
             ],
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "error_message",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error message received",
+            "required": false
         },
         {
             "id": "problem_description",
