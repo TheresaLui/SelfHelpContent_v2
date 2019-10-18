@@ -28,7 +28,7 @@
 			},
 			{
             "id": "nsgq1",
-            "visibility": "true",   
+            "visibility": "true",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select your problem type",
@@ -67,7 +67,7 @@
 						"order": 1000,
 						"controlType": "multilinetextbox",
 						"displayLabel": "Issue description.",
-						"required": false,
+						"required": true,
 						"useAsAdditionalDetails": true,
 						"hints": [{
 						"text": "Please provide any other details that could be useful."
