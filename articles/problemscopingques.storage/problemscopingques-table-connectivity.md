@@ -1,21 +1,21 @@
 <properties
-	pageTitle="ADLSGen2 connectivity throttling errors"
-	description="ADLSGen2 connectivity throttling errors scoping questions"
-	authors="Annayak"
-	ms.author="Annayak"
+	pageTitle="Connectivity issue for storage table"
+	description="Connectivity issue for storage table scoping question"
+	authors="AngshumanNayakMSFT"
+	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="StorageScoping_adlsgen2_connectivity"
-	supportTopicIds="32612601,32612605,32612612"
-	productPesIds="16598"
+	articleId="StorageScoping_table_Connectivity"
+	supportTopicIds="32602776"
+	productPesIds="16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
-# Data Lake Storage Gen2 Connectivity Issues
+# Table Connectivity Issues
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Connectivity issue on adlsgen2 scoping question",
+    "title": "Connectivity and Security issue on table scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -100,7 +100,7 @@
             "required": false
         },
         {
-            "id": "request_id",
+            "id": "table_connectivity_request_id",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
@@ -109,39 +109,8 @@
             "required": false
         },
         {
-            "id": "blob_container",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Blob Container",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
-                "jTokenPath": "value",
-                "textProperty": "id",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": { "value": "dont_know_answer",
-                "text": "None of the above"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "NoBlobContainer",
-                    "text": "Not specific to a blob container"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "blob_path",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Blob path",
-            "watermarkText": "Blob name or path if specific to a blob",
-            "required": false
-        },
-        {
             "id": "problem_description",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -149,7 +118,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 7,
+            "order": 5,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> performance issues."
         }

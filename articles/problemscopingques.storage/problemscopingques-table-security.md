@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Connectivity and Security issue for storage table"
-	description="Connectivity and Security issue for storage table scoping question"
+	pageTitle="Security issue for storage table"
+	description="Security issue for storage table scoping questions"
 	authors="AngshumanNayakMSFT"
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_table_Security"
-	supportTopicIds="32602775,32602776"
+	supportTopicIds="32602775"
 	productPesIds="16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
-# Table Connectivity and Security Issues
+# Table Security Issues
 ---
 {
     "subscriptionRequired": true,

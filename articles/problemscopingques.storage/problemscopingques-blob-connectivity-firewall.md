@@ -13,6 +13,7 @@
 # Blob connectivity firewall errors
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Blob connectivity firewall errors scoping question",
     "fileAttachmentHint": "",
@@ -118,7 +119,9 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": { "value": "dont_know_answer",
+                "text": "None of the above"
             },
             "dropdownOptions": [
                 {

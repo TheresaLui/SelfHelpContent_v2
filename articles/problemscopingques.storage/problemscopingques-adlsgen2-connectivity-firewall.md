@@ -13,6 +13,7 @@
 # Data Lake Storage Gen2 Firewall Connectivity Issue
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Connectivity issue on adlsgen2 scoping question",
     "fileAttachmentHint": "",
@@ -118,7 +119,9 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": { "value": "dont_know_answer",
+                "text": "None of the above"
             },
             "dropdownOptions": [
                 {
