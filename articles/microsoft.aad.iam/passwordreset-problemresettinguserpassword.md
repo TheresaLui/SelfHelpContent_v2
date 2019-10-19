@@ -15,6 +15,11 @@
     "resourceRequired": false,
     "title": "Problem with password management user-initiated",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with password management user-initiated",
+        "description": "Our Self-Service Password Reset Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "correlationId",
@@ -45,10 +50,11 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "userNameOrId",
@@ -65,7 +71,8 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
