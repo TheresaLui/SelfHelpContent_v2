@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Blob connectivity throttling errors"
 	description="Blob connectivity throttling errors scoping questions"
-	authors="Passaree"
-	ms.author="passap"
+	authors="Annayak"
+	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_blob_connectivity_throttling"
 	supportTopicIds="32602734"
@@ -13,6 +13,7 @@
 # Blob connectivity throttling errors
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Blob connectivity throttling errors scoping question",
     "fileAttachmentHint": "",

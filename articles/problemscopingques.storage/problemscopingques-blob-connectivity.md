@@ -13,6 +13,7 @@
 # Blob Connectivity Issue
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Connectivity issue on blob scoping question",
     "fileAttachmentHint": "",
