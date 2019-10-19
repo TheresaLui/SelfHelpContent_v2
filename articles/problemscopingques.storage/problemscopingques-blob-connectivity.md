@@ -118,7 +118,10 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": { "value": "dont_know_answer",
+                "text": "None of the above"
+                }
             },
             "dropdownOptions": [
                 {
