@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Blob connectivity throttling errors"
-	description="Blob connectivity throttling errors scoping questions"
+	pageTitle="ADLSGen2 connectivity throttling errors"
+	description="ADLSGen2 connectivity firewall errors scoping questions"
 	authors="Annayak"
 	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="StorageScoping_blob_connectivity"
-	supportTopicIds="32602725,32602735"
-	productPesIds="16459"
+	articleId="StorageScoping_adlsgen2_connectivity_firewall"
+	supportTopicIds="32688882"
+	productPesIds="16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
-# Blob Connectivity Issue
+# Data Lake Storage Gen2 Firewall Connectivity Issue
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Connectivity issue on blob scoping question",
+    "title": "Connectivity issue on adlsgen2 scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -100,7 +100,7 @@
             "required": false
         },
         {
-            "id": "request_id",
+            "id": "adlsgen2_firewall_vnet_request_id",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",

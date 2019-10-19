@@ -4,18 +4,18 @@
 	authors="Annayak"
 	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
-	articleId="StorageScoping_blob_connectivity"
-	supportTopicIds="32602725,32602735"
+	articleId="StorageScoping_blob_connectivity_throttling"
+	supportTopicIds="32602734"
 	productPesIds="16459"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
-# Blob Connectivity Issue
+# Blob connectivity throttling errors
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Connectivity issue on blob scoping question",
+    "title": "Blob connectivity throttling errors scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -100,7 +100,7 @@
             "required": false
         },
         {
-            "id": "request_id",
+            "id": "blob_connectivity_throttling_request_id",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
@@ -147,12 +147,6 @@
             "displayLabel": "Provide any additional details",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 7,
-            "controlType": "infoblock",
-            "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> performance issues."
         }
     ],
     "$schema": "SelfHelpContent"
