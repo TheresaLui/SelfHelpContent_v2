@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-* [Diagnostic logging](https://docs.microsoft.com/en-us/azure/cosmos-db/logging/)
+* [Diagnostic logging](https://docs.microsoft.com/azure/cosmos-db/logging/)
