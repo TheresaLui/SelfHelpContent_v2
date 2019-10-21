@@ -26,3 +26,7 @@ Azure Cosmos DB resources are charged based on the storage consumed(GB) and the 
 * [Azure Cosmos DB pricing](https://azure.microsoft.com/pricing/details/cosmos-db/)
 * [Estimate Request Units and Data Storage](https://www.documentdb.com/capacityplanner)
 * [Estimating throughput needs](https://docs.microsoft.com/azure/cosmos-db/request-units#estimating-throughput-needs)
+
+## **Frequently Asked Questions**
+
+* [Billing and Pricing FAQs](https://azure.microsoft.com/pricing/details/cosmos-db/#faqs)
