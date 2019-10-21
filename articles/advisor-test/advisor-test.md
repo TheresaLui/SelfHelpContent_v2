@@ -35,7 +35,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/aa_servicehealthalert_action",
   "description": "Create an Azure service health alert",
   "longDescription": "Service health alerts help you stay notified when Azure service issues affect you. Create a service health alert for the regions and services that you care about.",
