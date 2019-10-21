@@ -20,7 +20,7 @@
 
 Databases on managed instance can be created or dropped using T-SQL, API, PowerShell or Azure Portal.
 
-When database is in a [restoring state](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups), it cannot be dropped using T-SQL. If you need to drop a database while it is restoring (e.g. for example it takes an excessive amount of time to restore), this would only be possible using PowerShell, see [Remove-AzSqlInstanceDatabase](https://docs.microsoft.com/en-us/powershell/module/az.sql/remove-azsqlinstancedatabase?view=azps-2.8.0#examples) example.
+When database is in a [restoring state](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups), it cannot be dropped using T-SQL. If you need to drop a database while it is restoring (e.g. for example it takes an excessive amount of time to restore), this would only be possible using PowerShell, see [Remove-AzSqlInstanceDatabase](https://docs.microsoft.com/powershell/module/az.sql/remove-azsqlinstancedatabase?view=azps-2.8.0#examples) example.
 
 ## **Recommended Steps**
 
