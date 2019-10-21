@@ -45,6 +45,13 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "searchTags": "sas,token,access denied,unable to access,authenticate,authorize,403",
       "useInDiagnoseAndSolve": ""
     },
+        {
+      "id": "3c5a9f5b-c30f-56f2-5a53-1fed5c45e591",
+      "shortDescription": "Issues using the policy to transition your data to the appropriate access tiers or expire at the end of the data's lifecycle",
+      "category": "",
+      "searchTags": "",
+      "useInDiagnoseAndSolve": ""
+    },
     {
       "id": "5b03a792-037b-9962-ef13-5c71a55fc5d2",
       "shortDescription": "Issues using Azure AD ( RBAC & OAuth) to access blob storage such as access denied errors or connectivity failures  ",
