@@ -18,7 +18,7 @@
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
-  "recommendationCategory": "HighAvailability",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "ServiceHealthAlert",
