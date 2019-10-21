@@ -27,7 +27,7 @@ Azure Database for MySQL supports point-in-time restore to any point within the 
     * "Got error 1 from storage engine Operation failed with exitcode 1", please refer to solution for issue 3.
     * "You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)Operation failed with exitcode 1", please refer to solution for issue 2.
     * "Table storage engine for 'mytable' doesn't have this option Operation failed with exitcode 1", please refer to solution 4.
-* In Azure Database for MySQL, you cannot modify the "mysql.user" table. If you want to export MySQL users and privileges, please refer to [Export and import MySQL users and privileges to Azure Database for MySQL] (https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Export-and-import-MySQL-users-and-privileges-to-Azure-Database/ba-p/916995)
+* In Azure Database for MySQL, you cannot modify the "mysql.user" table. If you want to export MySQL users and privileges, please refer to [Export and import MySQL users and privileges to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Export-and-import-MySQL-users-and-privileges-to-Azure-Database/ba-p/916995)
 * Ensure that you try to restore to a point in time that is within your configured retention period. Note that we do not backfill the backups if you increase the retention period.
 * If you are trying to restore to a point in time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again
 * The point in time restore duration depends on your database size and the transaction log size from last full backup. The SLA of restore time is 12 hours.
