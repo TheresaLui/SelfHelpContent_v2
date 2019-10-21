@@ -26,4 +26,5 @@ Consider using a connection pool between your application and MySQL server to op
 
 ## **Recommended Documents**
 
+* [Access databases by using connection pooling](https://docs.microsoft.com/azure/mysql/concepts-connectivity#access-databases-by-using-connection-pooling-recommended)
 * [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)
