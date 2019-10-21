@@ -1,0 +1,24 @@
+﻿<properties
+	pageTitle="Asymmetric Routing with VPN Gateway"
+	description=""
+	service="microsoft.network"
+	resource="vpnGateways"
+	authors="JRMayberry"
+	ms.author="rimayber"
+	displayOrder=""
+	selfHelpType="TSG_Content"
+	supportTopicIds="32591158,32584882,32584881"
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+	articleId="3acf22fa-846f-4d1c-8142-83d58d2caa82"
+/>
+
+## **Asymmetric Routing with VPN Gateway**
+
+* The connectivity issues can be due to Asymmetric routing when multiple network paths exist from On-Prem to Internet and if an on-prem stateful firewall is dropping the incoming traffic from Azure.
+* More details on Asymmetric routing is documented at the link below
+
+### Public Links
+
+1. https://docs.microsoft.com/en-us/azure/expressroute/expressroute-asymmetric-routing

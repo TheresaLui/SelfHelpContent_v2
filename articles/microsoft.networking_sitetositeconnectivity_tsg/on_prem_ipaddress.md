@@ -1,0 +1,19 @@
+<properties
+	pageTitle="Correct On Prem IP Address"
+	description=""
+	service="microsoft.network"
+	resource="vpnGateways"
+	authors="JRMayberry"
+	ms.author="rimayber"
+	displayOrder=""
+	selfHelpType="TSG_Content"
+	supportTopicIds="32591158,32584882,32584881"
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+	articleId="2531a3ff-aea4-4eec-9c70-82e66d38ab90"
+/>
+
+### **Correct On Prem IP Address**
+
+* Please have the customer correct the IP Address configuration and try again

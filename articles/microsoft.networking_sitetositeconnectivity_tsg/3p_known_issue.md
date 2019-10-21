@@ -1,0 +1,19 @@
+<properties
+	pageTitle="Known Issue with 3rd Party Device"
+	description=""
+	service="microsoft.network"
+	resource="vpnGateways"
+	authors="JRMayberry"
+	ms.author="rimayber"
+	displayOrder=""
+	selfHelpType="TSG_Content"
+	supportTopicIds="32591158,32584882,32584881"
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+	articleId="026019a6-54e1-46f9-b97a-04a5971b3ecb"
+/>
+
+### **Known Issue with 3rd Party Device**
+
+* Please have the customer use a configuration that does not have any known issues and work with the 3rd party vendor to resolve the issue

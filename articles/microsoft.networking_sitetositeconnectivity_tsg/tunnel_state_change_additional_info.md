@@ -1,0 +1,17 @@
+<properties
+	pageTitle="Tunnel state change additional info"
+	description=""
+	service="microsoft.network"
+	resource="vpnGateways"
+	authors="JRMayberry"
+	ms.author="rimayber"
+	displayOrder=""
+	selfHelpType="TSG_Content"
+	supportTopicIds="32591158,32584882,32584881"
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+	articleId="f1e4722e-0cb3-4d75-aa43-f4cabbc577f6"
+/>
+
+* **Note**: If the tunnel continues to stay down, you may want to click 'Start Over' and choose “VPN doesnt connect or never connected” scenario.
