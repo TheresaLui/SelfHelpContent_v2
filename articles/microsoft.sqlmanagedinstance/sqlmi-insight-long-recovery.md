@@ -30,4 +30,4 @@ Recovery operation is a database process that occurs when a database first resta
 
 Depending on the size of transactions to rollback, this activity takes time proportional to the size of the active transactions. Once this recovery operation is complete, your database(s) <!--$affectedDatabases-->affectedDatabases<!--/$affectedDatabases--> should become available.
 
-Just wait for REDO to complete the scan and make the database available again.
+Wait for REDO to complete the scan and make the database available again.
