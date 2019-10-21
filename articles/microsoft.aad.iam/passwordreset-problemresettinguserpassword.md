@@ -67,7 +67,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
