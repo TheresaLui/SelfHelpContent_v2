@@ -20,7 +20,7 @@
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StorageAccountScaleTarget",
