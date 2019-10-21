@@ -59,7 +59,7 @@
     }
   },
   "displayLabel": "Convert Standard HDD to Premium SSD for better performance",
-  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/",
+  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/",
   "tip": "Upgrade your Standard HDD disks to Premium SSD disks by following our instructions for the Azure portal, PowerShell, or CLI."
 }
 ---

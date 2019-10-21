@@ -59,7 +59,7 @@
     }
   },
   "displayLabel": "Upgrade to Standard SSD Disks for consistent and improved performance",
-  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/",
+  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Compute/",
   "tip": "Upgrade to Standard SSD Disks for consistent and improved performance by following our instructions for the Azure portal, PowerShell, or CLI."
 }
 ---
