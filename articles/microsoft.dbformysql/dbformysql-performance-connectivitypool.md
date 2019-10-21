@@ -22,8 +22,9 @@ Thank you for contacting Microsoft support about your performance issues with yo
 
 ## **Recommended Steps**
 
-Consider using a connection pool between your application and MySQL server to optimize connection management. A connection pooler will reuse connections instead of opening new ones.
+Consider using a connection pool between your application and MySQL server to optimize connection management. A [connection pooler](https://docs.microsoft.com/azure/mysql/concepts-connectivity#access-databases-by-using-connection-pooling-recommended) will reuse connections instead of opening new ones.
 
 ## **Recommended Documents**
 
+* [Access databases by using connection pooling](https://docs.microsoft.com/azure/mysql/concepts-connectivity#access-databases-by-using-connection-pooling-recommended)
 * [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)
