@@ -35,7 +35,7 @@
 
 * Check if you have the [required permissions](https://docs.microsoft.com/azure/network-watcher/required-rbac-permissions) to start a Connection Monitor. The account you log into Azure with must be assigned to either the Owner, Contributor, or Network contributor built-in roles, or assigned to a custom role that is assigned the actions listed for each Network Watcher capability. 
 
-### **Graph not rendering***
+### **Graph not rendering**
 
 * Check whether data is being recorded for your Connection Monitor. To verify, go to Azure Monitor >> Metrics and select your subscription, resource group, and resource type as Connection Monitors. Choose your Connection Monitor resource and metric to see is chart is generated in Azure Monitor. If chart is not generated, no data is being recorded for your Connection Monitor. In that case, check if your source VM is up, if Network Watcher extension is installed in the source VM, and if Connection Monitor topology is showing any issues for source or any other hop.
 
