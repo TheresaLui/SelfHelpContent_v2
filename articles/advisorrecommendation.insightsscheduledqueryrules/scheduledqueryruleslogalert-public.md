@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "08:00:00"
   },
-  "recommendationCategory": "HighAvailability",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Insights/ScheduledQueryRules",
   "recommendationFriendlyName": "ScheduledQueryRulesLogAlert",
