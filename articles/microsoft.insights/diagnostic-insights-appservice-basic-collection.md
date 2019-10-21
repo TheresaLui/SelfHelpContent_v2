@@ -20,7 +20,7 @@
 ## **Basic level collection in Azure App Service**
 
 <!--issueDescription-->
-Our diagnostic has detected that the data has come from following SDK versions <!--$SDKTYPE-->[SDKTYPE]<!--/$SDKTYPE--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. Application Insights Basic collection level is enabled in <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList-->. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides the additional capabilities seen below.
+Our diagnostic has detected that the data has come from following SDK versions <!--$ApplicationInsightSDKType-->[ApplicationInsightSDKType]<!--/$ApplicationInsightSDKType--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. Application Insights Basic collection level is enabled in <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList-->. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides the additional capabilities seen below.
 <!--/issueDescription-->
 
 * Adds CPU, memory, and I/O usage trends
