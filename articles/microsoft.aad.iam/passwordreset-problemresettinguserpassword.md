@@ -56,7 +56,7 @@
             "numberOfLines": 0
         },
         {
-            "id": "UserId",
+            "id": "userNameOrId",
             "visibility": null,
             "order": 3,
             "controlType": "textbox",
@@ -67,7 +67,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
