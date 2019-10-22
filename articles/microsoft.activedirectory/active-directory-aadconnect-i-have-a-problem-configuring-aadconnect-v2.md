@@ -23,7 +23,7 @@
   * [You have a problem configuring attribute filtering](#problem-with-configuring-attribute-filtering)
   * [You have a problem configuring the UPNs (user names) of my users](#problem-with-configuring-UPNs)
 	
-  * [You have a problem configuring synchronization cycles](#problem-with-sync-cyle-configuration)
+  * [You have a problem configuring synchronization cycles](#problem-with-sync-cycle-configuration)
 
 ### Problem with configuring attribute filtering
 Configuring attribute filtering is an advanced feature. We strongly advise you review the **Recommended Documents** before making any changes to the synchronization rules. Any changes in filtering or scoping may result in the deletion of objects in your target directory.
