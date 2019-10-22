@@ -25,6 +25,7 @@ List of [CountAppIDs] ApplicationIds. Note: We are displaying top 10 Application
 Application Id <!--$ApplicationId-->[ApplicationId]<!--/$ApplicationId-->
 
 <!--/issueDescription-->
+
 ## Problem
 
 <!--issueDescription-->
