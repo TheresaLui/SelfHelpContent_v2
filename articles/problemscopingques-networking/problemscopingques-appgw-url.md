@@ -24,7 +24,7 @@ supportTopicIds="32436964,32582829,32582830,32582826,32582827,32565735,32565736,
             "controlType": "textbox",
             "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
             "watermarkText": "Example:http://contoso.com or http://contoso.com:8080",
-            "required": true,
+            "required": true
         },
 				{
             "id": "sku_version",
