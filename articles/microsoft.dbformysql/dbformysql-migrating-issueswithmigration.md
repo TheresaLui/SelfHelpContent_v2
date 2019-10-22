@@ -22,6 +22,13 @@ Most migration problems can be solved by working through the recommended steps.
 
 ## **Recommended Steps**
 
+* In Azure Database for MySQL, you cannot modify the "mysql.user" table. If you want to export MySQL users and privileges, please refer to [Export and import MySQL users and privileges to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Export-and-import-MySQL-users-and-privileges-to-Azure-Database/ba-p/916995)
+* If you get the below error while restoring the server, please refer to [Tips and Tricks in using mysqldump and mysql restore to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Tips-and-Tricks-in-using-mysqldump-and-mysql-restore-to-Azure/ba-p/916912)
+
+    * "Access denied; you need (at least one of) the SUPER privilege(s) for this operation", please refer to solution for issue 1.
+    * "Got error 1 from storage engine Operation failed with exitcode 1", please refer to solution for issue 3.
+    * "You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)Operation failed with exitcode 1", please refer to solution for issue 2.
+    * "Table storage engine for 'mytable' doesn't have this option Operation failed with exitcode 1", please refer to solution 4.
 * If you are evaluating different migration options, consult our [Azure Database Migration Guide](https://datamigration.microsoft.com/)
 * If you are migrating yourself (e.g. using dump and restore) and encounter problems, consider using the [Data Migration Service](https://azure.microsoft.com/services/database-migration/)
 * If you are using the Data Migration Service and experience problems, work through the [step-by-step tutorials for Azure Database for MySQL](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online):
@@ -30,16 +37,6 @@ Most migration problems can be solved by working through the recommended steps.
   * Address [datatype limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#datatype-limitations)
   * Address [LOB limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#lob-limitations)
   * Address [other common issues](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#other-limitations)
-
-* In Azure Database for MySQL, you cannot modify the "mysql.user" table. If you want to export MySQL users and privileges, please refer to [Export and import MySQL users and privileges to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Export-and-import-MySQL-users-and-privileges-to-Azure-Database/ba-p/916995)
-
-* If you get the below error while restoring the server, please refer to [Tips and Tricks in using mysqldump and mysql restore to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Tips-and-Tricks-in-using-mysqldump-and-mysql-restore-to-Azure/ba-p/916912)
-
-    * "Access denied; you need (at least one of) the SUPER privilege(s) for this operation", please refer to solution for issue 1.
-    * "Got error 1 from storage engine Operation failed with exitcode 1", please refer to solution for issue 3.
-    * "You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)Operation failed with exitcode 1", please refer to solution for issue 2.
-    * "Table storage engine for 'mytable' doesn't have this option Operation failed with exitcode 1", please refer to solution 4.
-
 * If you are using dump and restore:
 
   * Make sure to use database dumps when you are migrating the entire databases
