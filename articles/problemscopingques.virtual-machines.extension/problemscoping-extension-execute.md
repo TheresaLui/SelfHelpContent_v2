@@ -13,6 +13,7 @@
 # Agent and extensions
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "My extension is not running correctly",
     "fileAttachmentHint": "",
@@ -26,8 +27,33 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "extension_execute",
+            "id": "vm_extension",
             "order": 2,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Select all the applicable extensions you are having issue with",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceId}/extensions?api-version=2019-03-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of extensions.",
+                    "text": "Unable to retrieve list of extensions."
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "extension_execute",
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What extension are you trying to execute?",
             "required": false,
@@ -35,7 +61,7 @@
         },
         {
             "id": "extension_agentinstalled",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Do you have the latest Azure VM Agent installed?",
             "watermarkText": "Choose an option",
@@ -57,7 +83,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -65,7 +91,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
