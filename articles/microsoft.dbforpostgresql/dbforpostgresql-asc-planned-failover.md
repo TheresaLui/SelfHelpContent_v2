@@ -30,4 +30,4 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 
-[PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)
+[PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)

@@ -18,12 +18,12 @@
 # Can't connect PostgreSQL database server because wrong password entered
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that <!--$Count-->Count<!--/$Count--> connection attempts to fail due to wrong password entered between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. Please review the activity logs in the portal to see the history of password changes if the changes are made by you. If you keep seeing the errors, please consider resetting the password and retry the connection using the most updated password.
+Thank you for contacting Microsoft support about your connection issues to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that <!--$Count-->Count<!--/$Count--> connection attempts to fail due to wrong password entered between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. Please review the activity logs in the portal to see the password change history if the change made by you. If you keep seeing the errors, please consider resetting the password and retry the connection using the most updated password.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Please make sure to use the most recent password to login 
+* Please make sure to use the most updated password to login. 
 
 ## **Recommended Documents**
 
