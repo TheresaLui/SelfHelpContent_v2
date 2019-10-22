@@ -29,7 +29,7 @@
 * Our service attempted to provision the user and it failed. For these scenarios, review the troubleshooting and recommendations tab of the provisioning logs:
 
 	* A required attribute on the user might be missing in Azure Active Directory or does not match the format required by the third party application. For example the Country attribute on a user might be set to United States when it should be US. 
-    * The attribute is a referential attribute that does not yet exist in the target application. A referential attribute  
+    * The attribute is a referential attribute that does not yet exist in the target application. A referential attribute is an attribute that points to another object, e.g. a user that is a member of a group. The user's ID would be in the member attribute of the group, but can only be processed if the user object it points to already exists.
 
 ## **Recommended Documents**
 
