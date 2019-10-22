@@ -20,7 +20,7 @@ supportTopicIds="32582825,32582828,32640605,32639115"
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Application Gateway Access URL",
-        "description": "Use our Application Gateway Troubleshooter to help you troubleshoot and solve your problem.",
+        "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
     },
     "formElements": [
@@ -33,7 +33,7 @@ supportTopicIds="32582825,32582828,32640605,32639115"
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },
-		{
+				{
             "id": "sku_version",
             "order": 2,
             "controlType": "dropdown",

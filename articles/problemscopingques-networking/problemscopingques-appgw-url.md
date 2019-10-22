@@ -26,7 +26,7 @@ supportTopicIds="32436964,32582829,32582830,32582826,32582827,32565735,32565736,
             "watermarkText": "Example:http://contoso.com or http://contoso.com:8080",
             "required": true,
         },
-		{
+				{
             "id": "sku_version",
             "order": 2,
             "controlType": "dropdown",
