@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Create an Azure service health alert"
+    pageTitle="Create an Azure service health alert "
     description="Create an Azure service health alert"
     authors="aadevteam"
     ms.author="aadevteam"
