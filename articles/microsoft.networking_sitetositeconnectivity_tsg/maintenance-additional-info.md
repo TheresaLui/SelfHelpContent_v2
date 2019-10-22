@@ -14,7 +14,7 @@
 	articleId="e9f4fe7b-02f9-4d92-806c-e8d1e2a61165"
 />
 
-## **How to check if customer initiated reset**
+**How to check if customer initiated reset**
 
 * To see if it was a customer initiated reset
 * Look for ResetVirtualNetworkGatewayOperation during that time in NRP > FrontendOperationEtwEvent using the link below

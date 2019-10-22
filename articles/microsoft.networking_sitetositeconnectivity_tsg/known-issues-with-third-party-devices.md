@@ -14,7 +14,7 @@
 	articleId="5bd4da4e-437c-4a12-9142-f0119dfefa2e"
 />
 
-## **How to check for known issues with third party devices**
+**How to check for known issues with third party devices**
 
 * Check if the symptoms matches with any of the known 3rd party issues documented at the link below
 

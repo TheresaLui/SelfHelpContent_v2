@@ -14,6 +14,6 @@
 	articleId="3b6ba4ee-78cf-4147-93ab-d39ae5d59613"
 />
 
-### **IP Address Incorrect**
+**IP Address Incorrect**
 
 * Please have the customer correct their IP Address configuration and try again

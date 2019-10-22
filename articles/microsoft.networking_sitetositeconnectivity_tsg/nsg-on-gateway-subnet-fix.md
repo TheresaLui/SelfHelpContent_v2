@@ -14,7 +14,7 @@
 	articleId="50f999b7-9c52-406e-85a5-e306291fd10d"
 />
 
-## Update NSG on Gateway subnet
+**Update NSG on Gateway subnet**
 
 * To resolve this issue, add the GatewayManager tag on the subnet
 * This will apply the necessary NSG rules to allow traffic

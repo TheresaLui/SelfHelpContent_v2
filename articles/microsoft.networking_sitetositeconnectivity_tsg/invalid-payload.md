@@ -14,7 +14,7 @@
 	articleId="442ec0c5-1f4f-486c-ac41-39ec57bf9668"
 />
 
-## **Invalid Payload**
+**Invalid Payload**
 
 * The IPsec security association failed to get established because the payload sent by the on-prem device is either malformed, or configured in a way not supported by the Azure Gateway.
 * Identify from IKElogsTable if there is more detail about the malformed packet

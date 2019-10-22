@@ -14,6 +14,6 @@
 	articleId="90b1090f-9ce2-4d1d-8408-e818b8566eed"
 />
 
-## **Security Association Limitation**
+**Security Association Limitation**
 
 * This is a hard limit and can not be adjusted. Please ask the customer to narrow their use of subnets or to not use traffic selectors.

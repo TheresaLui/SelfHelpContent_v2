@@ -14,6 +14,6 @@
 	articleId="083a1d3b-284d-4414-8510-9687b6aedd6a"
 />
 
-### **Incorrect IKE Parameter**
+**Incorrect IKE Parameter**
 
 * Identify from the IKELogsTable the incorrect parameter and have the parameter corrected

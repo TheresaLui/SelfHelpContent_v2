@@ -14,6 +14,6 @@
 	articleId="e29d5d68-7ac6-4aec-8bd0-61dd55298776"
 />
 
-# Update NSG on gateway subnet
+**Update NSG on gateway subnet**
 
 * In order to remediate this issue, enable the GatewayManager tag for this subnet

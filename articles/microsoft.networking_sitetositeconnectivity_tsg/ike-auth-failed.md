@@ -14,6 +14,6 @@
 	articleId="d9a8c5d7-61fd-47a3-9c54-66bc3c4c52d5"
 />
 
-### **Preshared Key Error**
+**Preshared Key Error**
 
 * Verify that the Pre-shared key configured on the on-prem device matches the one configured on the Azure side.

@@ -14,7 +14,7 @@
 	articleId="83086d28-3201-49a5-a264-6a1ee30f7b2c"
 />
 
-## **VPN Gateway vendor escalation**
+**VPN Gateway vendor escalation**
 
 * You've reached a point in this TSG where you need assistance from the vendor in order to further diagnose this issue.
 * Please contact the vendor in order to diagnose this issue further

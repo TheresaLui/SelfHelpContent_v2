@@ -14,7 +14,7 @@
 	articleId="2b96812f-70a5-4de7-856f-e5ec13e8a4ec"
 />
 
-## **How to collect Brooklyn Diagnostics for Policy Based VPN**
+**How to collect Brooklyn Diagnostics for Policy Based VPN**
 
 * It is possible to check quickly logs in ASC under the "Brooklyn Diagnostics" tab.
 * Once you have collected the traces, review the WFPdiag.txt log and identify the error that causes the issue.

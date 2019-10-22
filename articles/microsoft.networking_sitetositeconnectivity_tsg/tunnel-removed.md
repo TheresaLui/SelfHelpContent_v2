@@ -14,7 +14,7 @@
 	articleId="4db9d269-749b-4b3c-91fa-c0b5d13daba0"
 />
 
-### **Tunnel Removed**
+**Tunnel Removed**
 
 * The customer has deleted the connection object or local network gateway.
 * The VPN gateway disconnected by design.

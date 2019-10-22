@@ -14,7 +14,7 @@
 	articleId="3e47e472-0094-4674-b701-dbf335f85c1f"
 />
 
-## **Site Connectivity Action Flag**
+**Site Connectivity Action Flag**
 
 * The SiteConnectivityAction flag is set to Disconnect.
 * Change it to Connect per the below link

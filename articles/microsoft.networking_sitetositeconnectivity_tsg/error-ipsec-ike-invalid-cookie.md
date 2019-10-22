@@ -14,7 +14,7 @@
 	articleId="012a20bb-3533-40cd-9e94-56c55f885576"
 />
 
-### **IKE Cookies Are Invalid**
+**IKE Cookies Are Invalid**
 
 * IKE cookies are invalid.
 * The on-prem device is sending incorrect IPsec cookies.

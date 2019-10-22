@@ -14,6 +14,6 @@
 	articleId="cbb1a5a3-04b0-4a6e-b60c-009136b16033"
 />
 
-## **Site-to-site VPN connectivity issues**
+**Site-to-site VPN connectivity issues**
 
 This troubleshooter will guide you to find the root cause and resolution for customers experiencing Site-to-site VPN connectivity issues using Azure VPN Gateway.

@@ -14,7 +14,7 @@
 	articleId="2cdc0734-97bd-417d-acbe-dbb6cbd9c07a"
 />
 
-## **Can not determine error**
+**Can not determine error**
 
 * As the gateway is healthy and successfully responds to DIP probes, but it wasn’t possible to collect diagnostics, we can not determine what is the error causing the IPsec issue because of lack of data.
 * This can happen in the following situations:

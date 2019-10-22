@@ -14,7 +14,7 @@
 	articleId="c7ce79a1-b8da-4055-a25f-17f027920608"
 />
 
-## **VPN Gateway escalation path**
+**VPN Gateway escalation path**
 
 ### Standard Escalation
 

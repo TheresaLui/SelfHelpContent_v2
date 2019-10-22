@@ -14,7 +14,7 @@
 	articleId="7223b7a3-e982-43de-a303-6b747ccd9af0"
 />
 
-## **IKE SA Deleted Error**
+**IKE SA Deleted Error**
 
 * We were in a process of re-establishing a Security Association, but the on-prem device sent a Delete before we were able to complete the rekey.
 * Identify from IKElogsTable if there is more detail about the malformed packet

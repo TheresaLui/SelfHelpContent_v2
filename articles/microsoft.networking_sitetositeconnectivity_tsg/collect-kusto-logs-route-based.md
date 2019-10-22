@@ -14,7 +14,7 @@
 	articleId="e5fa153c-17a6-473c-8b12-2482e52be78d"
 />
 
-## **How to check Brooklyn Diagnostic Logs for Route Based VPN**
+**How to check Brooklyn Diagnostic Logs for Route Based VPN**
 
 * Utilize the “Visual Debugging” available in ASC on VPN Gateway resource. Most of the issues may be evident from these dashboards.
 * Diagnostic logs (IkeLogsTable, TunnelEvents, SeamlessTunnelServiceTraceTable) are available in ASC under the “Brooklyn Logs” tab.

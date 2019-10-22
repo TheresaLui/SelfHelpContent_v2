@@ -14,7 +14,7 @@
 	articleId="503eb388-0e15-49bb-aa85-3f9a288d2ba1"
 />
 
-## **How to check if customer is using a supported device**
+**How to check if customer is using a supported device**
 
 Please ensure that the peer device is running with the recommended configuration and minimum OS version, as per our documentation (link below)
 If the peer device is not on the list of validated devices, or does not meet the minimum OS version, the support will be on a best effort basis, and the customer may still have to engage device vendor for further investigation based on our findings.

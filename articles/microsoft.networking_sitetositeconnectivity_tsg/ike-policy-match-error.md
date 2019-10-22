@@ -14,7 +14,7 @@
 	articleId="8c954922-249b-48a3-aa02-98c545dd26d3"
 />
 
-## **IKE Policy Match Error**
+**IKE Policy Match Error**
 
  IKE Policy Mismatch error means that one or more of the IPsec parameters offered by Azure gateway is not supported by the on-prem device, or that one or more of the IPsec parameters offered by the on-prem device is not supported by the Azure gateway.
 

@@ -14,7 +14,7 @@
 	articleId="e434a646-fae3-4a57-b59d-848142a12b1f"
 />
 
-## **Invalid DH Group**
+**Invalid DH Group**
 
 * With default settings, Azure VPN gateways only support DHgroup2.
 * With custom IPsec policies, we can support multiple (see link below)

@@ -14,4 +14,4 @@
 	articleId="f1e4722e-0cb3-4d75-aa43-f4cabbc577f6"
 />
 
-* **Note**: If the tunnel continues to stay down, you may want to click 'Start Over' and choose “VPN doesnt connect or never connected” scenario.
+**Note**: If the tunnel continues to stay down, you may want to click 'Start Over' and choose “VPN doesnt connect or never connected” scenario.
