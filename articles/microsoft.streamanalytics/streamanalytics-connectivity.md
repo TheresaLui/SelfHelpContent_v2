@@ -26,6 +26,9 @@ If this or other issues persists, you can learn how to troubleshoot by reading t
 
 ## **Recommended Documents**
 
+* [Configuring streaming input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-inputs)
+* [Configuring reference data input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-use-reference-data)
+* [Configuring output](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-outputs)
 * [Troubleshoot input connections](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input)
 * [Troubleshoot output connections](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output)
 * [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
