@@ -31,6 +31,13 @@ Most migration problems can be solved by working through the recommended steps.
   * Address [LOB limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#lob-limitations)
   * Address [other common issues](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#other-limitations)
 
+* If you get the below error while restoring the server, please refer to [Tips and Tricks in using mysqldump and mysql restore to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Tips-and-Tricks-in-using-mysqldump-and-mysql-restore-to-Azure/ba-p/916912)
+
+    * "Access denied; you need (at least one of) the SUPER privilege(s) for this operation", please refer to solution for issue 1.
+    * "Got error 1 from storage engine Operation failed with exitcode 1", please refer to solution for issue 3.
+    * "You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)Operation failed with exitcode 1", please refer to solution for issue 2.
+    * "Table storage engine for 'mytable' doesn't have this option Operation failed with exitcode 1", please refer to solution 4.
+
 * If you are using dump and restore:
 
   * Make sure to use database dumps when you are migrating the entire databases
