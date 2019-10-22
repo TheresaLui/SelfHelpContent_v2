@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Use of traffic selectors"
-	description=""
+	description="Use of traffic selectors"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

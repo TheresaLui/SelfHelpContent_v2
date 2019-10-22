@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Asymmetric Routing with VPN Gateway"
-	description=""
+	description="Asymmetric Routing with VPN Gateway"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Config Doesnt Match"
-	description=""
+	description="Config Doesnt Match"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Update NSG on Gateway subnet"
-	description=""
+	description="Update NSG on Gateway subnet"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

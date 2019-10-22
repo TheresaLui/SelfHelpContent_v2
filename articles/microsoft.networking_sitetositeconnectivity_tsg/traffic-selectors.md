@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Check for the Use of traffic selectors"
-	description=""
+	description="Check for the Use of traffic selectors"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

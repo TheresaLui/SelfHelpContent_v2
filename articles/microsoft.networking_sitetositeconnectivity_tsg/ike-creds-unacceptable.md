@@ -1,6 +1,6 @@
 <properties
 	pageTitle="IKE Creds Unacceptable"
-	description=""
+	description="IKE Creds Unacceptable"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

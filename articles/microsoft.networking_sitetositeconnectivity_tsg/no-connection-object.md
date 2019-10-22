@@ -1,6 +1,6 @@
 <properties
 	pageTitle="No Connection Object"
-	description=""
+	description="No Connection Object"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

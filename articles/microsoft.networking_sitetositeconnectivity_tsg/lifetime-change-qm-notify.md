@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Lifetime change QM Notify"
-	description=""
+	description="Lifetime change QM Notify"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

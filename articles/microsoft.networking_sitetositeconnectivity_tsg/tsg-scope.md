@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="TSG Scope"
-	description=""
+	description="TSG Scope"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

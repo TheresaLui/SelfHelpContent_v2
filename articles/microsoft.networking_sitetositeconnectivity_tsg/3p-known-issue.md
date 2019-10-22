@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Known Issue with 3rd Party Device"
-	description=""
+	description="Known Issue with 3rd Party Device"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

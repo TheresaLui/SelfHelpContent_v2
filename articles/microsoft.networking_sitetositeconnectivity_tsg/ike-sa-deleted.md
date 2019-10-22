@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="IKE SA Deleted Error "
-	description=""
+	pageTitle="IKE SA Deleted Error"
+	description="IKE SA Deleted Error"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

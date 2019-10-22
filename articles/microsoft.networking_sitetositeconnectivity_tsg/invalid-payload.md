@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Invalid Payload"
-	description=""
+	description="Invalid Payload"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

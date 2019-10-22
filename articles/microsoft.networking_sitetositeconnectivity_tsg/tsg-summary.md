@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="TSG Summary: Site-to-site VPN connectivity issues"
-	description=""
+	description="TSG Summary: Site-to-site VPN connectivity issues"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

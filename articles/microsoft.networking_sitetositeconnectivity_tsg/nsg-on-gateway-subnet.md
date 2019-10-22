@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Check whether there is an NSG on the gateway subnet"
-	description=""
+	description="Check whether there is an NSG on the gateway subnet"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

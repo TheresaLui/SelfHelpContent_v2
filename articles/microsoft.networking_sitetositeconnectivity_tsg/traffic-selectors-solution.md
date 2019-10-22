@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Correct Traffic Selectors"
-	description=""
+	description="Correct Traffic Selectors"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

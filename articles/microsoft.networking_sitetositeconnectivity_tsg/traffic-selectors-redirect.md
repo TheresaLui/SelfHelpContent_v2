@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Check for traffic selector misconfiguration"
-	description=""
+	description="Check for traffic selector misconfiguration"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

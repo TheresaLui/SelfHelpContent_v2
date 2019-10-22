@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Check Brooklyn Diagnostic Logs for Route Based VPN"
-	description=""
+	description="Check Brooklyn Diagnostic Logs for Route Based VPN"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Check Gateway Ping Task Errors"
-	description=""
+	description="Check Gateway Ping Task Errors"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Incorrect IKE Parameter"
-	description=""
+	description="Incorrect IKE Parameter"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

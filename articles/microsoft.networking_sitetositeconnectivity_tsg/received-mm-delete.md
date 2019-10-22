@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Received MM Delete"
-	description=""
+	description="Received MM Delete"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

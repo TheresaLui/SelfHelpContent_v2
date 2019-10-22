@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Check if the failure was a planned maintenance using the Tunnel Events Table"
-	description=""
+	description="Check if the failure was a planned maintenance using the Tunnel Events Table"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

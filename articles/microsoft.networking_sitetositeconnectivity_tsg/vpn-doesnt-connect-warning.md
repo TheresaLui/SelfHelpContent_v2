@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="How to check if customer must use a supported device"
-	description=""
+	description="How to check if customer must use a supported device"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

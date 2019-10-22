@@ -1,6 +1,6 @@
 <properties
 	pageTitle="IKE Cookies Are Invalid"
-	description=""
+	description="IKE Cookies Are Invalid"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

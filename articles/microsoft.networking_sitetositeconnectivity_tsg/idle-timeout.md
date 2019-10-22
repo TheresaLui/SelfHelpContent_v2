@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Idle Timeout"
-	description=""
+	description="Idle Timeout"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

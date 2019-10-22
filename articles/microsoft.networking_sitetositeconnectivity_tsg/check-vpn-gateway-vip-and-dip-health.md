@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Check VPN Gateway DIP and VIP health"
-	description=""
+	description="Check VPN Gateway DIP and VIP health"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

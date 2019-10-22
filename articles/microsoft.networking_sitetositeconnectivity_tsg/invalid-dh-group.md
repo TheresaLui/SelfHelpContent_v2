@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Invalid DH Group"
-	description=""
+	description="Invalid DH Group"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

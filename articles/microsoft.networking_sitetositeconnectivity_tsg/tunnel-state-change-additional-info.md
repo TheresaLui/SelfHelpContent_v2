@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Tunnel state change additional info"
-	description=""
+	description="Tunnel state change additional info"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

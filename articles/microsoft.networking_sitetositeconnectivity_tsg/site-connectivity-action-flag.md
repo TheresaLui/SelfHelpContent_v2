@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="Site Connectivity Action Flag "
-	description=""
+	pageTitle="Site Connectivity Action Flag"
+	description="Site Connectivity Action Flag"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="IKE Version Mismatch"
-	description=""
+	description="IKE Version Mismatch"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

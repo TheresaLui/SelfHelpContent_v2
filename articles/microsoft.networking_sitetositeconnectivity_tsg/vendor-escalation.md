@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="VPN Gateway vendor escalation"
-	description=""
+	description="VPN Gateway vendor escalation"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Gateway not sending IPsec traffic"
-	description=""
+	description="Gateway not sending IPsec traffic"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="IKE Payload is Invalid"
-	description=""
+	description="IKE Payload is Invalid"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

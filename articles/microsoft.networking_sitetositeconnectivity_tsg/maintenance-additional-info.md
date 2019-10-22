@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Check if customer initiated reset"
-	description=""
+	description="Check if customer initiated reset"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

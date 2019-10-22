@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Check for known issues with third party devices"
-	description=""
+	description="Check for known issues with third party devices"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="How to collect Brooklyn Diagnostics for Policy Based VPN*"
-	description=""
+	pageTitle="How to collect Brooklyn Diagnostics for Policy Based VPN"
+	description="How to collect Brooklyn Diagnostics for Policy Based VPN"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

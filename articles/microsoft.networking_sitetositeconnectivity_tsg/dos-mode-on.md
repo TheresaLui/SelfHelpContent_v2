@@ -1,6 +1,6 @@
 <properties
 	pageTitle="DOS Mode On"
-	description=""
+	description="DOS Mode On"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

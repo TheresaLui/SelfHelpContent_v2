@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="Can not determine error "
-	description=""
+	pageTitle="Can not determine error"
+	description="Can not determine error"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

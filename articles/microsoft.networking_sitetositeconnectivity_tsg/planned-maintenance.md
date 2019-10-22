@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Planned Maintenance"
-	description=""
+	description="Planned Maintenance"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

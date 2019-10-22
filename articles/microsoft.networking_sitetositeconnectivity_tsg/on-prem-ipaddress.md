@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Correct On Prem IP Address"
-	description=""
+	description="Correct On Prem IP Address"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

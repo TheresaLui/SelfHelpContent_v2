@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Preshared Key Error"
-	description=""
+	description="Preshared Key Error"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

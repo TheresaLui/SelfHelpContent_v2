@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="VPN Gateway Escalation Path"
-	description=""
+	description="VPN Gateway Escalation Path"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

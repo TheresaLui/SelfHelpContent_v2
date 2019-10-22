@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Check if customer is exceeding the maximum number of Security Associations"
-	description=""
+	description="Check if customer is exceeding the maximum number of Security Associations"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

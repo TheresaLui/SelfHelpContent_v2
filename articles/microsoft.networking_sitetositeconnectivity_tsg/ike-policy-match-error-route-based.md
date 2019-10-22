@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="IKE Policy match error (Route Based)"
-	description=""
+	description="IKE Policy match error (Route Based)"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

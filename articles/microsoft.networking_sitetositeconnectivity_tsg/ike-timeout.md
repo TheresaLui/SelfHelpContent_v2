@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="IKE Timeout"
-	description=""
+	description="IKE Timeout"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

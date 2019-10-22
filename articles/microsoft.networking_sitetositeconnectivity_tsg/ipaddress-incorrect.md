@@ -1,6 +1,6 @@
 <properties
 	pageTitle="IP Address Incorrect"
-	description=""
+	description="IP Address Incorrect"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

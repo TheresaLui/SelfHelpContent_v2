@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Tunnel Removed"
-	description=""
+	description="Tunnel Removed"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Customer Initiated Reset"
-	description=""
+	description="Customer Initiated Reset"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

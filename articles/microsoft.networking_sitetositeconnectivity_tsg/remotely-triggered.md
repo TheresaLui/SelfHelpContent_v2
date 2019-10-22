@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Remotely Triggered Disconnect"
-	description=""
+	description="Remotely Triggered Disconnect"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

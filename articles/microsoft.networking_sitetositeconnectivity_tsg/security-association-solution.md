@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Security Association Limitation"
-	description=""
+	description="Security Association Limitation"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"

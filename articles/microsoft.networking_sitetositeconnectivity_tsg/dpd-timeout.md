@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="DPD Timeout"
-	description=""
+	description="DPD Timeout"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"
