@@ -20,9 +20,9 @@
 
 ## **Recommended Steps**
 
-In case if **Invoke-HcsSetupWizard** command is failing while validating DNS with message *Could not validate the DNS server. Ensure you have entered a valid DNS server, the server is reachable and UDP 53 is open for outbound communication* and you have already validated the DNS IP address as communicated in the message and still facing the same issue, please bypass validation by using the command **Invoke-HcsSetupWizard -BypassValidation 1** to successfully run the setup wizard.
+If the `Invoke-HcsSetupWizard` command is failing while validating DNS with message *Could not validate the DNS server. Ensure you have entered a valid DNS server, the server is reachable and UDP 53 is open for outbound communication* and you have already validated the DNS IP address as communicated in the message and are still facing the same issue, please bypass validation by using the command `Invoke-HcsSetupWizard -BypassValidation 1` to successfully run the setup wizard.
 
 ## **Recommended Documents**
 
-[Deploy your on-premises StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deployment-walkthrough-u2)<br>
+* [Deploy your on-premises StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deployment-walkthrough-u2)<br>
 
