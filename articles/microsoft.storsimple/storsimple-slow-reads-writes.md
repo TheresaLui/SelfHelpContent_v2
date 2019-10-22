@@ -35,7 +35,7 @@ Recommendations for configuring Host, StorSimple and Network to address performa
 - Ensure that a dedicated cloud bandwidth of at least 40Mbps is available to StorSimple device. 
 
 **Network**
-- [Ensure that cloud IPs *Cloud enabled interfaces and controller fixed IPs on StorSimple* are configured based on ports and URL best practices.](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-8000-system-requirements#networking-requirements-for-your-storsimple-device)
+- [Ensure that cloud IPs *Cloud enabled interfaces and controller fixed IPs on StorSimple* are configured based on ports and URL best practices.](https://docs.microsoft.com/azure/storsimple/storsimple-8000-system-requirements#networking-requirements-for-your-storsimple-device)
 - Ensure that cloud bandwidth available to StorSimple is 40Mbps or more and is dedicated to the device in case of shared internet link.
 
 
