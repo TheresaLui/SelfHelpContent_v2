@@ -31,6 +31,8 @@ Most migration problems can be solved by working through the recommended steps.
   * Address [LOB limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#lob-limitations)
   * Address [other common issues](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#other-limitations)
 
+* In Azure Database for MySQL, you cannot modify the "mysql.user" table. If you want to export MySQL users and privileges, please refer to [Export and import MySQL users and privileges to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Export-and-import-MySQL-users-and-privileges-to-Azure-Database/ba-p/916995)
+
 * If you get the below error while restoring the server, please refer to [Tips and Tricks in using mysqldump and mysql restore to Azure Database for MySQL](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Tips-and-Tricks-in-using-mysqldump-and-mysql-restore-to-Azure/ba-p/916912)
 
     * "Access denied; you need (at least one of) the SUPER privilege(s) for this operation", please refer to solution for issue 1.
