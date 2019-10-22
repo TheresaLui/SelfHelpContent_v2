@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Scoping questions for Application Gateway issues for Connectivity/4xx error"
-	description="Scoping questions for Application Gateway issues for Connectivity/4xx error"
+	pageTitle="Application Gateway URL"
+	description="Application Gateway URL"
 	authors="abshamsft"
 	ms.author="absha"
 	selfHelpType="problemScopingQuestions"
-supportTopicIds="32639113"
+supportTopicIds="32582825,32582828,32640605,32639115"
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	schemaVersion="1"
-	articleId="scoping-question-connectivity-4xx-error"
+	articleId="scoping-question-for-insights"
 />
 
 # Application Gateway URL
@@ -18,6 +18,11 @@ supportTopicIds="32639113"
 	"resourceRequired": true,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Application Gateway Access URL",
+        "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
+    },
     "formElements": [
         {
             "id": "ApplicationGatewayAccessURL",
@@ -25,22 +30,23 @@ supportTopicIds="32639113"
             "controlType": "textbox",
             "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
             "watermarkText": "Example:http://contoso.com or http://contoso.com:8080",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
-        {
-            "id": "bypass_appgtw_check",
+				{
+            "id": "sku_version",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Did you receive a 4xx response on accessing the backend directly by bypassing the Application Gateway?",
+            "displayLabel": "What is the SKU version of your Application Gateway?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Yes",
-                    "text": "Yes"
+                    "value": "v1_SKU",
+                    "text": "V1 SKU"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "v2_SKU",
+                    "text": "V2 SKU"
                 },
 				{
                     "value": "dont_know_answer",
@@ -49,7 +55,7 @@ supportTopicIds="32639113"
             ],
             "required": true
         },
-		{
+        {
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
