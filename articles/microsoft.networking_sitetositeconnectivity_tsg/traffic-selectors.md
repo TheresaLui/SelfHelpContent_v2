@@ -14,7 +14,7 @@
 	articleId="7c48e111-ce99-4ebd-a199-d8be7c87b946"
 />
 
-**How to check for the Use of traffic selectors**
+# How to check for the Use of traffic selectors
 
 * In this scenario, there are Traffic Selectors in place that are only allowing connectivity to certain subnets and not to others.
 * Notice that usage of such limited traffic selectors may not prevent the VPN tunnel from correctly establishing, but will only block traffic from flowing.

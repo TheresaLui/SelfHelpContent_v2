@@ -14,7 +14,7 @@
 	articleId="87dfe0de-862f-46ad-833b-661ed44faaae"
 />
 
-**How to check if customer is exceeding the maximum number of Security Associations**
+# How to check if customer is exceeding the maximum number of Security Associations
 
 * Azure VPN gateway limit of 200 subnet SA pairs.
 * Calculate the # of Azure Vnet subnets multiplied times the # of local subnets defined in 'local network gateway' object is greater than 200 the customer will see sporadic subnets disconnecting

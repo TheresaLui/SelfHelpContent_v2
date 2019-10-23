@@ -14,7 +14,7 @@
 	articleId="dbb2ca02-516d-4b60-a0f6-e7c2e3e69b92"
 />
 
-**IKE Creds Unacceptable**
+# IKE Creds Unacceptable
 
 * The customer has changed the Pre-shared key either on the Azure or the on-prem side.
 * This caused the tunnel to go down.

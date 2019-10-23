@@ -14,6 +14,6 @@
 	articleId="63b40586-8ce9-4541-a61b-e81971001dbd"
 />
 
-**No Connection Object**
+# No Connection Object
 
 * Please have the customer create a connection object and try again

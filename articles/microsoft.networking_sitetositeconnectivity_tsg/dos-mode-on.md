@@ -14,7 +14,7 @@
 	articleId="bd4fa36d-b15b-4dd4-861b-e41e6647be89"
 />
 
-**DOS Mode On**
+# DOS Mode On
 
 * The IPsec stack on the Windows OS is in DoS mode - it will stop accepting connection attempts.
 * This happens when there are more than 500 outstanding (incomplete) security associations.

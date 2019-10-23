@@ -14,6 +14,6 @@
 	articleId="3bea98df-7867-4a83-9e07-4c4fc85421f6"
 />
 
-**Customer Initiated Reset**
+# Customer Initiated Reset
 
 * Please inform the customer that this was a customer initiated reset

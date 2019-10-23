@@ -14,11 +14,12 @@
 	articleId="bfffa3c0-fb07-4a00-8341-3885edb8d7d8"
 />
 
-**How to check whether there is an NSG on the gateway subnet**
+# How to check whether there is an NSG on the gateway subnet
 
 * NSG and UDR can affect the control plane operations between Gateway Manger and Gateway Tenants. 
 * This may also result in Gateway going to failed state which will block any new operations. This can also affect other resources like Connections, Local Network Gateway going into failed state.  
 * ASC has an insight that will flag if an NSG is applied on the VPN Gateway subnet
 
-Public Links:
-1. https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview#default-route
+## Public Links
+
+1. https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview#default-route

@@ -14,7 +14,7 @@
 	articleId="b2e69f4c-6bd6-48e9-bca3-5b25074dfaac"
 />
 
-**Incorrect IKE Parameter**
+# Incorrect IKE Parameter
 
 * The customer must use a supported device.
 * Identify from the IKELogsTable the incorrect parameter and have the customer fix the parameter on their side, if their device supports it.

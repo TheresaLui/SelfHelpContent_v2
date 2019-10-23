@@ -14,6 +14,6 @@
 	articleId="e01fc4a7-d9ef-43ed-ae66-c8eed9e59a7b"
 />
 
-**Customer device is not responding**
+# Customer device is not responding
 
 * Please have the customer diagnose their unreachable gateway issues and try again

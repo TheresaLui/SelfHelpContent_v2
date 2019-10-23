@@ -14,7 +14,7 @@
 	articleId="322f351f-83ee-4f54-b06a-a6c4197abc62"
 />
 
-**Lifetime change QM Notify**
+# Lifetime change QM Notify
 
 * The on-prem device is trying to change a connection parameter after the Main Mode is already established.
 * This is not supported by our gateway.

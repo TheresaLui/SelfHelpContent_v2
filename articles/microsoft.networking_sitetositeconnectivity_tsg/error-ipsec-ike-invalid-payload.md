@@ -14,7 +14,7 @@
 	articleId="4c64e0b4-fe08-45af-a99b-11ea0d087abe"
 />
 
-**IKE Payload is Invalid**
+# IKE Payload is Invalid
 
 * IKE payload is invalid.
 * The on-prem device is sending an incorrect IKE payload.

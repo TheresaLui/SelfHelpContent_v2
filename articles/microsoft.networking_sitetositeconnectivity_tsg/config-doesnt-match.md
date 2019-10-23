@@ -14,6 +14,6 @@
 	articleId="1c3bbfeb-6fee-4f0b-a2da-b372edcd23e0"
 />
 
-**Config Doesnt Match**
+# Config Doesnt Match
 
 * Please have the customer configure their device according to our published VPN scripts

@@ -14,6 +14,6 @@
 	articleId="38fddc70-6a4c-4a04-8fbd-23959ccf0bf9"
 />
 
-**Remotely Triggered Disconnect**
+# Remotely Triggered Disconnect
 
 * The customers on-prem device has sent a disconnect. You can get further proof by reviewing the IkeLogsTable at the time of the disconnection. Inform the customer that the disconnection was caused by the on-prem device.

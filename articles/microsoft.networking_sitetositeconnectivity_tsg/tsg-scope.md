@@ -14,7 +14,7 @@
 	articleId="4567f996-a284-405e-905b-e1e060ec94e0"
 />
 
-**TSG Scope**
+# TSG Scope
 
 This TSG covers scenarios for the following support topics:
 

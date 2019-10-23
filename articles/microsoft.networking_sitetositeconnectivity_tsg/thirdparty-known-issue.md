@@ -14,6 +14,6 @@
 	articleId="026019a6-54e1-46f9-b97a-04a5971b3ecb"
 />
 
-**Known Issue with 3rd Party Device**
+# Known Issue with 3rd Party Device
 
 * Please have the customer use a configuration that does not have any known issues and work with the 3rd party vendor to resolve the issue

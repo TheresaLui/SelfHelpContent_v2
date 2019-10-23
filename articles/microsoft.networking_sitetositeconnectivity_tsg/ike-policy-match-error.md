@@ -14,7 +14,7 @@
 	articleId="8c954922-249b-48a3-aa02-98c545dd26d3"
 />
 
-**IKE Policy Match Error**
+# IKE Policy Match Error
 
  IKE Policy Mismatch error means that one or more of the IPsec parameters offered by Azure gateway is not supported by the on-prem device, or that one or more of the IPsec parameters offered by the on-prem device is not supported by the Azure gateway.
 
@@ -22,6 +22,6 @@
 * Verify that the virtual network address range and on-prem network (local gateway) subnets match exactly on both the Azure Gateway configuration and the on-prem device configuration.
 * Verify that the customer’s device is in the list of supported VPN devices and that its configuration matches the one linked in the official documentation
 
-### Public Links
+## Public Links
 
-1. https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpn-devices
+1. https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices

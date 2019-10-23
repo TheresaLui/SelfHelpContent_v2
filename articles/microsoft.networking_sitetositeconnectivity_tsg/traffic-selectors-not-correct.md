@@ -14,7 +14,7 @@
 	articleId="04b7f460-a968-475a-a930-78674566267f"
 />
 
-**Use of traffic selectors**
+# Use of traffic selectors
 
 * If narrow traffic selectors aren't being used, it means that the Azure VPN Gateway is configured to use 0.0.0.0/0 <-> 0.0.0.0/0 traffic selectors.
 * However, the on-prem device may still narrow down the Traffic Selectors
