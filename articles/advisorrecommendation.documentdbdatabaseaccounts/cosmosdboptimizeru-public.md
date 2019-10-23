@@ -30,7 +30,7 @@
   "owner": {
     "email": "aoaft@microsoft.com",
     "icm": {
-      "routingId": "AROTOOLBOX\AROToolboxDevTeam",
+      "routingId": "AROTOOLBOX\\AROToolboxDevTeam",
       "service": "Azure Optimization Automation",
       "team": "Azure Optimization Automation"
     },
