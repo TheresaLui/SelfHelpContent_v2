@@ -22,7 +22,7 @@ This article will help you remove your machines from Update Management
 
 ### **Remove machine from Update Management**
 
-* To unenroll a machine from Update Management, follow the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
+* To unenroll a machine from Update Management, Follow the instructions at ["Clean up resources"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#clean-up-resources)
 
 ## **Recommended Documents**
 

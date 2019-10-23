@@ -18,13 +18,21 @@
 
 ## **Recommended Steps**
 
-**Error: The deployment would exceed the quota of '800'**
+**Error: Code\":\"DeploymentQuotaExceeded\",\"Message\":\"Creating the deployment 'subDeployment-XX-XXXXXXXXXXXXXXXXXXXXXXXXXXXX' would exceed the quota of '800''**
 
 Azure has a quota limit of 800 deployments per resource group. Quotas are applied per resource group, subscriptions, accounts, and other scopes. For example, your subscription may be configured to limit the number of cores for a region. If you attempt to deploy a virtual machine with more cores than the permitted amount, you receive an error stating the quota has been exceeded.
 
-To resolve this issue, delete the deployments that are no longer needed by using Azure portal, CLI, or PowerShell. For more information, see [Resolve errors for resource quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors).
+Solution:
 
-**Error: the maximum node exceeded the available cores in this region**
+1. Login to portal and click on HDInsights Clusters
+2. Select your Cluster and on the Overview,  Tab Select the Resource Group Associated with that Cluster
+3. Once you are in your Resource Group Select 'Deployments' 
+4. Select and delete the deployments that are no longer needed
+
+
+For more information, see [Resolve errors for resource quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors).
+
+**Error: The maximum node exceeded the available cores in this region**
 
 Your subscription may be configured to limit the number of cores for a region. If you attempt to deploy a resource with more cores than the permitted amount, you receive an error stating the quota has been exceeded.
 

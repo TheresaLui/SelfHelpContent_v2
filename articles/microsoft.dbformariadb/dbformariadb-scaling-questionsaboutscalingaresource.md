@@ -34,6 +34,10 @@ Most users are able to resolve their issue using the steps below.
 
     * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
 
+* Scaling fails with error "Service is temporarily busy and the operation cannot be performed. Please try again later":
+
+    * Try to scale the server again after a few minutes have passed
+
 * The Azure Monitor auto-scale feature is not supported in Azure Database for MariaDB
 
 ## **Recommended Documents**

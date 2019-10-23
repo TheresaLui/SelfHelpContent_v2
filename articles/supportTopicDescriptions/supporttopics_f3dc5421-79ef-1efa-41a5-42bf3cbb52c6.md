@@ -67,7 +67,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     {
       "id": "af2fbc5e-032d-514b-c9e0-18cfb5b1c6eb",
       "longDescription": "",
-      "shortDescription": "Questions or need assistance with purchasing a susbscription or signup or upgrade related issues",
+      "shortDescription": "Questions or need assistance with purchasing a subscription or signup or upgrade related issues",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -219,7 +219,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     {
       "id": "dd84a6a1-88e5-c59f-4683-fd728d17f267",
       "longDescription": "",
-      "shortDescription": "Questions or need assistance with purchasing a susbscription or signup or upgrade related issues",
+      "shortDescription": "Questions or need assistance with purchasing a subscription or signup or upgrade related issues",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""

@@ -16,7 +16,6 @@
 ---
 
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "SQL DW Gen2 upgrade from Gen1",
@@ -26,7 +25,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
+            "displayLabel": "When did the problem start?",
             "required": true
         },
         {
