@@ -452,35 +452,35 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "773b125f-f9a8-f282-abe3-051d8ffe0f26",
-            "shortDescription": " ",
+            "shortDescription": "General questions specific to Guest OS not booting, not covered by the support topics above",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "08e5ecaa-db9a-f0c3-880e-8b19993c5693",
-            "shortDescription": " ",
+            "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided.",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "e677e41f-3296-1eef-cce6-5f4418dd9a15",
-            "shortDescription": " ",
+            "shortDescription": "Covers issues where updates were applied to the Guest OS that resulted in the Guest OS no longer successfully booting.",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "fac9b6c8-5fe8-1380-aac2-beca088aa4f9",
-            "shortDescription": " ",
+            "shortDescription": "Covers issues where the Guest OS is in a continuous reboot loop and unable complete booting to a usable state.",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "5aed3921-4198-0d81-c999-f9c878ac00c8",
-            "shortDescription": " ",
+            "shortDescription": "Covers issues where the Guest OS of the VM is crashing, or failing to boot to a usable state.",
             "category": "Connectivity",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
