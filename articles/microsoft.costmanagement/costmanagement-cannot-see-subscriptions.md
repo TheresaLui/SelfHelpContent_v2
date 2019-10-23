@@ -6,9 +6,9 @@
 	authors="flanakin"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32615276"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="22c146db-3d2c-4a4c-a15b-2a0e5435b52a"
 />
