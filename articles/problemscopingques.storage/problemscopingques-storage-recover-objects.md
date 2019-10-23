@@ -26,6 +26,10 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
+                    "value": "rg",
+                    "text": "Resource group"
+                },
+                {
                     "value": "account",
                     "text": "Storage account"
                 },
