@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 Your backup operation will fail with *UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup* if the Azure VM Guest Agent is not in **Ready** state. To resolve this issue: 
--  Open *Azure Portal > VM > Settings > Properties blade > agent status* and check if it is **Ready**. If not check whether the *Windows Azure Guest Agent* service is running in the VM services (services.msc). Try to restart the *Windows Azure Guest Agent* service and retry the backup operation (try an ad-hoc backup). For steps to restart the agent, see [Windows VMs](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-but-unresponsive-for-windows-vms) or [Linux VMs](https://docs.microsoft.com/azure/virtual-machines/linux/update-agent).
+-  Open *Azure Portal > VM > Settings > Properties blade > agent status* and check if it is **Ready**. If not check whether the *Windows Azure Guest Agent* service is running in the VM services (using services.msc). Try to restart the *Windows Azure Guest Agent* service and retry the backup operation (try an ad-hoc backup). For steps to restart the agent, see [Windows VMs](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-but-unresponsive-for-windows-vms) or [Linux VMs](https://docs.microsoft.com/azure/virtual-machines/linux/update-agent).
 -  If *Windows Azure Guest Agent* service does not restart, then [download](https://go.microsoft.com/fwlink/?LinkID=394789&clcid=0x409), reinstall the agent, ensure it is in **Ready** state and retry the backup operation. 
 
 ## **Recommended Documents**
