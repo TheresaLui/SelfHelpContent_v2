@@ -5,6 +5,7 @@
 	description="Cost by resource"
 	displayOrder="1"
 	authors="flanakin"
+	ms.author="micflan"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
 	resource="query"
@@ -38,10 +39,10 @@ If you see $0 (in your appropriate currency), consider the following:
   This will resolve itself at the start of the next billing term.
 
 
-## Recommended documents
+## **Recommended documents**
 
-* [Explore and analyze costs with cost analysis](https://aka.ms/costanalysis/docs)
-* [Query API for rich reporting](https://aka.ms/costanalysis/api)
-* [UsageDetails API for all cost and usage data](https://aka.ms/costmgmt/usagedetails)
-* [Understanding and working with scopes](https://aka.ms/costmgmt/scopes)
-* [Understanding cost and usage data](https://aka.ms/costmgmt/data)
+* [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
+* [Query API for rich reporting](https://docs.microsoft.com/rest/api/cost-management/query)
+* [UsageDetails API for all cost and usage data](https://docs.microsoft.com/rest/api/consumption/usagedetails/list)
+* [Understanding and working with scopes](https://docs.microsoft.com/azure/cost-management/understand-work-scopes)
+* [Understanding cost and usage data](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data)
