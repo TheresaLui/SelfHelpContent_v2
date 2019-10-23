@@ -26,12 +26,20 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
+                    "value": "rg",
+                    "text": "Resource group"
+                },
+                {
                     "value": "account",
                     "text": "Storage account"
                 },
                 {
                     "value": "blob_container",
                     "text": "Blob container"
+                },
+                {
+                    "value": "disk",
+                    "text": "Disk"
                 },
                 {
                     "value": "blob",
@@ -59,7 +67,7 @@
         {
             "id": "justification",
             "order": 1,
-            "visibility": "service_type == (blob||table||file_share) ",
+            "visibility": "service_type == (disk||blob||table||file_share) ",
             "controlType": "multilinetextbox",
             "displayLabel": "Impact of deleted data for your business",
             "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
