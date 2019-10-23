@@ -22,14 +22,14 @@
 			"id": "run_diagnostics_analyzer",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Troubleshoot your issue at aka.ms/adfsdiagnostics. This automated tool checks common AD FS issues and provides support engineers with your ADFS information, reducing time spent collecting data for your case and help resolving the case faster.",
+			"displayLabel": "Troubleshoot your issue at adfshelp.com/DiagnosticsAnalyzer/Analyze. This automated tool checks common AD FS issues and provides support engineers with your ADFS information, reducing time spent collecting data for your case and help resolving the case faster.",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
-					"text": "Yes, I ran the tool and submitted the information to support."
+					"text": "Yes, I ran the tool and submitted the diagnostics results to support through AD FS Help."
 				}, {
 					"value": "No",
-					"text": "No, I prefer support to collect the data within the case."
+					"text": "No, support will collect my diagnostics results in the case."
 				}, {
 					"value": "dont_know_answer",
 					"text": "Don't Know"
