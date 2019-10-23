@@ -29,7 +29,7 @@ cloudEnvironments = "Public"
     "owner": {
         "email": "ExRPM@microsoft.com",
         "icm": {
-            "routingId": "MDM://AzureAdvisor",
+            "routingId": "AIMS://ExpressRoute",
             "service": "Cloudnet",
             "team": "ExpressRoute"
         },
