@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management-usage",
     "fileAttachmentHint": "",
     "formElements": [
@@ -103,7 +103,7 @@
             },
             "dropdownOptions": [
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Please enter the Reservation ID below"
                 }
             ],
@@ -114,7 +114,7 @@
         {
             "id": "reservationorderid_details",
             "order": 3,
-            "visibility": "Reservationid == Other",
+            "visibility": "Reservationid == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",

@@ -10,15 +10,16 @@
     articleId="Hdi_Crud_InsufficientCores"
     diagnosticScenario="HDInsightInsufficientNumberOfCoresInsight"
     selfHelpType="rca"
-    supportTopicIds="32636423,32636444,32636492"
+    supportTopicIds="32681543, 32681537"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 The available number of cores required to create or scale a resource for a subscription is less than required <!--$Details-->[Details]<!--/$Details--> 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

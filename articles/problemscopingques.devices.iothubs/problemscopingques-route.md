@@ -87,15 +87,16 @@
       "id": "problem_description",
       "order": 6,
       "controlType": "multilinetextbox",
-      "displayLabel": "Details and error logs",
-      "watermarkText": "Provide additional information and logs",
+      "displayLabel": "Description",
+      "watermarkText": "Provide additional information about your issue",
       "required": true,
       "useAsAdditionalDetails": true,
-      "hints": [{
-          "text": "Error logs with timestamp (indicate timezone or UTC)"
+      "hints": [
+        {
+          "text": "Description of the issue and repro steps"
         },
         {
-          "text": "Any other details"
+          "text": "Error logs with timestamp (indicate timezone or UTC)"
         }
       ]
     }

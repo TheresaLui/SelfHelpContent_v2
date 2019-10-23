@@ -6,13 +6,13 @@
 	authors="balaksms"
 	ms.author="balaks"
 	selfHelpType="resource"
-	supportTopicIds="32636799,32636811"
+	supportTopicIds="32636799,32636811,32684530"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-portal-metrics"
 	displayOrder="262"
-	category="Portal and Monitoring"
+	category="Monitoring"
 />
 
 

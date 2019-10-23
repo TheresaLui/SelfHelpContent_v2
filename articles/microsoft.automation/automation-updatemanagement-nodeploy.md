@@ -22,7 +22,7 @@ This article will help you understand when and why updates are installed.
 
 ### **Machines update without an update deployment**
 
-* If machines are receiving updates without an update deployment, please see the note under ["Install Updates" of the Update Management overview document](https://docs.microsoft.com/azure/automation/automation-update-management#install-updates).
+* See the troubleshooting guide ["Scenario: Updates install without a deployment"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#updates-nodeployment)
 
 
 ## **Recommended Documents**

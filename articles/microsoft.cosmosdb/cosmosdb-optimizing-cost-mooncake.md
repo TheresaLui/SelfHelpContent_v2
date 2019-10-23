@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="MoonCake"
 	articleId="cosmosdb-optimizing-cost-mooncake"
 	displayOrder="47"
 	category="General Advisory"

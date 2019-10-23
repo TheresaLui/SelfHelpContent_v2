@@ -24,6 +24,7 @@ Firewall rules need to be configured to be able to access your Azure Database fo
 * If you are using VNets ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal)
 * If you are trying to connect to your server from other azure PaaS offerings, you must toggle the **Allow access to Azure services** option to *on*
 * If you are using a Basic tier server, note that VNet service endpoints are not supported
+* If the server's IP appears to be public and you can ping or connect using telnet, connections to the Azure Database for MySQL server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture).
 
 ## **Recommended Documents**
 

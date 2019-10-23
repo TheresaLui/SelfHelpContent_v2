@@ -12,11 +12,11 @@
     articleId="a15f057d-9001-8910-a98a-dfaf3843dc2f"
 />
 
-# Azure Security Center Regulatory Compliance Common Solutions
+# Azure Security Center Regulatory Compliance Common Solutions 
 
 ## Common Regulatory Compliance issues
 
-### Supported Azure Security Center Regulatory Compliance Standards
+**Supported Azure Security Center Regulatory Compliance Standards**
 
 ASC Regulatory Compliance currently only supports the following Compliance Standards:
 
@@ -27,13 +27,13 @@ ASC Regulatory Compliance currently only supports the following Compliance Stand
 
 Additional standards will be reflected in the dashboard as it develops.
 
-### On Security Center CIS regulatory compliance some assessments appear grayed out
+**On Security Center CIS regulatory compliance some assessments appear grayed out**
 
 Select a tab for a compliance standard that is relevant to you. You will see the list of all controls for that standard. For the applicable controls, you can view the details of passing and failing assessments associated with that control. Some controls are grayed out. These controls do not have any Security Center assessments associated with them. [See here for more information](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard#assess-your-regulatory-compliance).
 
 **Note**: Customizations within the Regulatory Compliance blade is not supported. Example: Customer received the PCI DSS 3.2 report for the whole subscription. The customer would like to download PCI-DSS 3.2 report only for a selected resource group. It is not possible to modify the value of certain CCEID to match your companies standard.
 
-### I made the suggested changed based on the recommendation, yet it is not being reflected in the dashboard
+**I made the suggested changed based on the recommendation, yet it is not being reflected in the dashboard**
 
 After you take action to resolve recommendations, please await 12 hours to see the impact on your compliance data. Assessments are run approximately every 12 hours, so you will see the impact on your compliance data only after the assessments run.
 

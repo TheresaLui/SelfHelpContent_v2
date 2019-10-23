@@ -13,7 +13,7 @@
 	supportTopicIds="32612612"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Data Lake Gen2 Storage Connectivity timeout issues
