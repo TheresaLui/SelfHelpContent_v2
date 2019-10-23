@@ -17,8 +17,7 @@
 # Diagnose and resolve issues with Windows Azure ProvisioningStateFailed
 
 ## **Recommended Steps**
-If your backup operation fails with *UserErrorVmProvisioningStateFailed - The VM is in failed provisioning state*, this could be due to one 
-of the extension status might be in **Provisioning failed** state. To resolve this issue:
+If your backup operation fails with *UserErrorVmProvisioningStateFailed - The VM is in failed provisioning state*, this could be due to one of the extension status might be in **Provisioning failed** state. To resolve this issue:
 
 - Ensure the Virtual machine is in Running state
 - Open *Azure Portal > VM > Settings > extensions >* and ensure all extension's status are in **Provisioning succeeded** state. If you notice **Provisioning failed** state, then remove that **Provisioning failed** extension and try restarting the virtual machine.
