@@ -4,9 +4,10 @@
 	service="microsoft.costmanagement"
 	resource="costmanagement"
 	authors="flanakin"
+	ms.author="micflan"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32615276"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
@@ -15,7 +16,8 @@
 
 # Why don't I see my subscriptions in Cost Management?
 
-Azure Cost Management supports pay-as-you-go (PAYG), Enterprise Agreement (EA), and Microsoft Customer Agreement subscriptions. Cloud Solution Provider (CSP) subscriptions that are part of a Microsoft Customer Agreement supported by partners are also supported.  only supported as part of the 
+Azure Cost Management supports pay-as-you-go (PAYG), Enterprise Agreement (EA), and Microsoft Customer Agreement subscriptions. 
+Cloud Solution Provider (CSP) subscriptions that are part of a Microsoft Customer Agreement supported by partners are also supported. 
 
 The following are coming soon:
 
