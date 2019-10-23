@@ -26,7 +26,7 @@ sorted from most to least expensive within the date range (defaults to the curre
 To see the individual meters for a specific resource, apply a resource filter and group by meter.
 
 
-## Recommended documents
+## **Recommended documents**
 
 * [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
 * [Query API for rich reporting](https://docs.microsoft.com/rest/api/cost-management/query)
