@@ -172,6 +172,20 @@ cloudEnvironments = "public,BlackForest, Fairfax, MoonCake"
             "useInDiagnoseAndSolve": ""
         },
         {
+            "id": "9cc2bc2c-e067-4931-ac5e-155e1d53999c",
+            "shortDescription": "Errors due to extension failures putting the VM into a failed provisioning state",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": ""
+        },
+        {
+            "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
+            "shortDescription": "Issues with VM agent which is resposible for functional aspects of deploying and managing Azure VMs",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": ""
+        },
+        {
             "id": "f53b0b53-ee00-ad7f-1279-8bd4d85df1e3",
             "shortDescription": "",
             "category": "",

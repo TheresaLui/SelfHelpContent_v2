@@ -1,20 +1,33 @@
 <properties 
     pageTitle="How do I enable Application Insights for an App Service in Recommended Collection level?"
     description="Explain the current state of App Services integration"
+    infoBubbleText="Some suggestions have been found to help solve your missing data quicker."
     service="microsoft.insights"
     resource="components"
     authors="rajkumar-rangaraj"
     ms.author="rajrang"
     articleId="diagnostic_insights_appservice_basic_collection"
+    diagnosticScenario="ApplicationInsightsDefaultModeEnablementDiagnostic"
     displayOrder=""
-    selfHelpType="diagnoseandsolve"
+    selfHelpType="diagnostics"
     cloudEnvironments="public"
+    resourceTags=""
     productPesIds="15693" 
+    supportTopicIds="32602209"
  />
  
 # How do I enable Application Insights for an App Service in Recommended Collection level?
+## **Basic level collection in Azure App Service**
 
-You're using an App Service with Application Insights which has Basic Collection level. Basic collection level offers essential single-instance APM capabilities. To gain full APM visibity with correlation across boundaries switch collection mode to Recommended. Please follow the steps in the Recommended Documents section below.<br>
+<!--issueDescription-->
+Our diagnostic has detected that the data has come from following SDK versions <!--$ApplicationInsightSDKType-->[ApplicationInsightSDKType]<!--/$ApplicationInsightSDKType--> for the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> <!--$Time-->[Time]<!--/$Time-->. Application Insights Basic collection level is enabled in <!--$CountOfBasicModeSDK-->[CountOfBasicModeSDK]<!--/$CountOfBasicModeSDK--> <!--$AppServiceList-->[AppServiceList]<!--/$AppServiceList-->. .NET Basic collection level offers essential single-instance APM capabilities. Switching to .NET Recommended collection level provides the additional capabilities seen below.
+<!--/issueDescription-->
+
+* Adds CPU, memory, and I/O usage trends
+* Correlates micro-services across request/dependency boundaries
+* Collects usage trends, and enables correlation from availability results to transactions
+* Collects exceptions unhandled by the host process
+* Improves APM metrics accuracy under load, when sampling is used
 
 ## **Recommended Steps**
 
@@ -27,3 +40,4 @@ You're using an App Service with Application Insights which has Basic Collection
 ## **Recommended Documents**
 
 * [Enabling Application Insights in an App Service](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps)<br>
+* [SDK Version](https://github.com/microsoft/ApplicationInsights-Home/blob/master/EndpointSpecs/SDK-VERSIONS.md)
