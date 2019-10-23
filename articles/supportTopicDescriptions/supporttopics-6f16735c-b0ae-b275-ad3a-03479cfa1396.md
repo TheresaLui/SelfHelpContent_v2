@@ -676,14 +676,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "f8c2e1e4-fa16-52f7-5569-10c956934600",
-            "shortDescription": " ",
+            "shortDescription": "Covers issues with Network Watcher extension,
             "category": "Deployment",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "5a105230-54e6-b09a-5667-764d781026a1",
-            "shortDescription": " ",
+            "shortDescription": "Covers issues with NVIDIA GPU driver extension",
             "category": "Deployment",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
@@ -844,7 +844,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "4d78b174-3203-a3ac-9e08-41fb35de6354",
-            "shortDescription": "",
+            "shortDescription": "Request an increase in vCPU (cores) quota for a targetted region or a specific VM series when your current limits have run out",
+            "category": "",
+            "searchTags": "xyz",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "4df7c88d-2c5a-27de-fc0e-87a7493fed69",
+            "shortDescription": "Covers issues related to the VM guest agent",
             "category": "",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
