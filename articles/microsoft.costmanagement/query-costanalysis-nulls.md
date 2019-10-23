@@ -5,6 +5,7 @@
 	description="Not applicable and nulls"
 	displayOrder="2"
 	authors="flanakin"
+	ms.author="micflan"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
 	resource="query"
@@ -32,10 +33,10 @@ These are typically for classic resources. If you see "Others" as the last item 
 it represents all the remaining groups that aren't shown. Switch to the table view and set granularity to **None** to view all groups.
 
 
-## Recommended documents
+## **Recommended documents**
 
-* [Explore and analyze costs with cost analysis](https://aka.ms/costanalysis/docs)
-* [Query API for rich reporting](https://aka.ms/costanalysis/api)
-* [UsageDetails API for all cost and usage data](https://aka.ms/costmgmt/usagedetails)
-* [Understanding and working with scopes](https://aka.ms/costmgmt/scopes)
-* [Understanding cost and usage data](https://aka.ms/costmgmt/data)
+* [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
+* [Query API for rich reporting](https://docs.microsoft.com/rest/api/cost-management/query)
+* [UsageDetails API for all cost and usage data](https://docs.microsoft.com/rest/api/consumption/usagedetails/list)
+* [Understanding and working with scopes](https://docs.microsoft.com/azure/cost-management/understand-work-scopes)
+* [Understanding cost and usage data](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data)
