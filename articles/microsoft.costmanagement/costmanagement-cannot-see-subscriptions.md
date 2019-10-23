@@ -3,7 +3,7 @@
 	description="can't see subscriptions"
 	service="microsoft.costmanagement"
 	resource="costmanagement"
-	authors="woodbridge"
+	authors="flanakin"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -15,22 +15,13 @@
 
 # Why don't I see my subscriptions in Cost Management?
 
-Cost Management currently supports Enterprise Agreement (EA) subscriptions.
+Azure Cost Management supports pay-as-you-go (PAYG), Enterprise Agreement (EA), and Microsoft Customer Agreement subscriptions. Cloud Solution Provider (CSP) subscriptions that are part of a Microsoft Customer Agreement supported by partners are also supported.  only supported as part of the 
 
 The following are coming soon:
 
-* Azure Active Directory
-* Azure in Open
-* BizSpark
-* CSP
-* Dev/test
-* DreamSpark
-* Free and trial
-* Internal
-* Partner Network
-* Pay as you go
-* Prepay
+* Sponsorship
+* CSP (not part of Microsoft Customer Agreement)
 
 ## **Recommended documents**
 
-* [Azure Cost Management documentation](https://docs.microsoft.com/azure/cost-management/)
+* [Supported Microsoft Azure offers](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#supported-microsoft-azure-offers)
