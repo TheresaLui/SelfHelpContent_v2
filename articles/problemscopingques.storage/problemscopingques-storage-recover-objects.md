@@ -34,6 +34,10 @@
                     "text": "Blob container"
                 },
                 {
+                    "value": "disk",
+                    "text": "Disk"
+                },
+                {
                     "value": "blob",
                     "text": "Blob"
                 },
@@ -59,7 +63,7 @@
         {
             "id": "justification",
             "order": 1,
-            "visibility": "service_type == (blob||table||file_share) ",
+            "visibility": "service_type == (disk||blob||table||file_share) ",
             "controlType": "multilinetextbox",
             "displayLabel": "Impact of deleted data for your business",
             "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
