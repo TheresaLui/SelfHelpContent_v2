@@ -5,6 +5,7 @@
 	description="Cost by resource"
 	displayOrder="1"
 	authors="flanakin"
+	ms.author="micflan"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
 	resource="query"
