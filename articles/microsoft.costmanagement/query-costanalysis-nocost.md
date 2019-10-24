@@ -1,8 +1,8 @@
 <properties
 	articleId="query-costanalysis-nocost"
-	articleTags="costanalysis,views"
+	articleTags="data"
 	pageTitle="Why am I seeing no cost (e.g. $0)?"
-	description="Cost by resource"
+	description="No cost"
 	displayOrder="4"
 	authors="flanakin"
 	ms.author="micflan"
