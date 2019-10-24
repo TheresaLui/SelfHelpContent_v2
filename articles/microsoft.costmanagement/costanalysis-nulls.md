@@ -17,7 +17,7 @@
 
 # Why am I seeing "not applicable", "unassigned", "$system", or "others"?
 
-## **Recommended steps**
+## **Recommended Steps**
 
 "Not applicable" is shown when a value is empty. Here are a few reasons you might see "not applicable" or other unexpected values:
 
@@ -58,7 +58,7 @@ Services that are global or not deployed to a specific Azure region, like Market
 
 The table will be sorted from the highest cost to the lowest.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
 * [Query API for rich reporting](https://docs.microsoft.com/rest/api/cost-management/query)
