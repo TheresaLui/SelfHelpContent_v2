@@ -29,6 +29,7 @@ Azure Database for MariaDB allows you to configure parameters at a server level 
 * In the service, a gateway is used to redirect the connections to server instances. After the connection is established, the MariaDB client displays the version of MariaDB set in the gateway, not the actual version running on your MariaDB server instance. To determine the version of your MariaDB server instance, use the `SELECT VERSION();` command at the MariaDB prompt. See [more details](https://docs.microsoft.com/azure/mariadb/concepts-supported-versions).
 * Plugin installation is not supported.
 * If you want to migrate the database to Azure, check the [migration instruction](https://docs.microsoft.com/azure/mariadb/howto-migrate-dump-restore/).
+* To change session level parameter in MariaDB for each new connection you can set it through init_connect. Refer to the [server parameter setting](https://docs.microsoft.com/azure/mariadb/howto-server-parameters) how-to.
 
 ## **Recommended Documents**
 
