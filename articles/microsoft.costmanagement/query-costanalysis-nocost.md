@@ -3,7 +3,7 @@
 	articleTags="data"
 	pageTitle="Why am I seeing no cost (e.g. $0)?"
 	description="No cost"
-	displayOrder="4"
+	displayOrder="3"
 	authors="flanakin"
 	ms.author="micflan"
 	selfHelpType="resource"
