@@ -17,7 +17,7 @@
 
 # Why am I seeing no cost (e.g. $0)?
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If you see $0 (in your appropriate currency), consider the following:
 
@@ -43,7 +43,7 @@ Cost analysis aggregates all costs. If there's a refund, you may see the sum of 
 
 When an indirect EA partner changes within the middle of a billing term, access to costs will be disabled for the remainder of that billing term. This will resolve itself at the start of the next billing term.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
 * [Query API for rich reporting](https://docs.microsoft.com/rest/api/cost-management/query)
