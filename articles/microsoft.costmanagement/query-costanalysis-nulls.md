@@ -1,6 +1,6 @@
 <properties
 	articleId="query-costanalysis-nulls"
-	articleTags="costanalysis,views"
+	articleTags="costanalysis"
 	pageTitle="Why am I seeing not applicable, unassigned, or others?"
 	description="Not applicable and nulls"
 	displayOrder="3"
