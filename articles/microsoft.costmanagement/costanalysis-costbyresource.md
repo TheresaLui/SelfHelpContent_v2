@@ -20,14 +20,14 @@
 Azure Cost Management offers 5 built-in views to serve as a starting point for you to understand and analyze costs. 
 Use the **Cost by resource** view to see costs broken down by each resource, sorted from most to least expensive within the date range (defaults to the current billing period).
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. Open the view menu (between the scope and date pills)
 2. Select **Cost by resource**
 3. To see the individual meters for a specific resource, apply a resource filter and group by meter
 4. To view a previous period, click the date pill and select a different date range
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
 * [Query API for rich reporting](https://docs.microsoft.com/rest/api/cost-management/query)
