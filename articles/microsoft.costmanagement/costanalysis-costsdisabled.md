@@ -27,7 +27,7 @@ When costs are enabled for subscription users, access to costs is determined by 
 
 Whether you are using an EA or MCA account, all cost visibility settings are recommended to be enabled to ensure everyone within the organization is aware of the fiscal impact they're making with their cloud architecture choices and has an opportunity to optimize them.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To enable access to cost and pricing information within the organization, a billing account or billing profile owner must complete the following steps:
 
@@ -37,7 +37,7 @@ To enable access to cost and pricing information within the organization, a bill
 4. Go to **Policies**
 5. Enable each of the "view charges" options to ensure everyone can see costs
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Explore and analyze costs with cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
 * [Query API for rich reporting](https://docs.microsoft.com/rest/api/cost-management/query)
