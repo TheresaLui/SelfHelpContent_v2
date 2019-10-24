@@ -1,10 +1,10 @@
 <properties
-	pageTitle="Scoping questions for Application Gateway issues for Connectivity/502 error"
-	description="Scoping questions for Application Gateway issues for Connectivity/502 error"
+	pageTitle="Scoping questions for Application Gateway issues for =502 and Connectivity/502 error"
+	description="Scoping questions for Application Gateway issues for 502 and Connectivity/502 error"
 	authors="abshamsft"
 	ms.author="absha"
 	selfHelpType="problemScopingQuestions"
-supportTopicIds="32573483"
+supportTopicIds="32573483,32680993"
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	schemaVersion="1"
@@ -20,7 +20,7 @@ supportTopicIds="32573483"
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Application Gateway Access URL",
-        "description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
     },
     "formElements": [
@@ -56,16 +56,38 @@ supportTopicIds="32573483"
             ],
             "required": true
         },
+				{
+            "id": "sku_version",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What is the SKU version of your Application Gateway?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "v1_SKU",
+                    "text": "V1 SKU"
+                },
+                {
+                    "value": "v2_SKU",
+                    "text": "V2 SKU"
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+            "required": true
+        },
 		{
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Details of the issue.",
@@ -74,7 +96,7 @@ supportTopicIds="32573483"
         },
         {
             "id": "learn_more_text",
-            "order": 5,
+            "order": 6,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
         }

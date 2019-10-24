@@ -21,6 +21,7 @@ Regional outages aren't uncommon, and Azure Cosmos DB makes sure your database i
 
 For FAQ on RTO and RPO, guarantees during regional failures across consistency levels and number of regions, and how to configure your applications for high availability, see [Building highly available applications](https://docs.microsoft.com/azure/cosmos-db/high-availability#building-highly-available-applications).
 
+Customers can achieve an RTO of zero by enabling multiple-region writes (multi-master) on their Cosmos accounts using SQL-API with a small change to the Cosmos connection policy in your applications. To configure multiple-region writes for your account see, [Configure multiple write-regions](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#configure-multiple-write-regions). For details on changes to your application see, [Configure multi-master in your applications](https://docs.microsoft.com/azure/cosmos-db/how-to-multi-master).
 
 ## **Recommended Steps**
 

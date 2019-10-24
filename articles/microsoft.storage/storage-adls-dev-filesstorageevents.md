@@ -13,7 +13,7 @@
 	supportTopicIds="32612596"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Data Lake Gen2 Storage Development File Storage events

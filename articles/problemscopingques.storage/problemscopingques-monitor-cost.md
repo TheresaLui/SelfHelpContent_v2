@@ -4,9 +4,9 @@
 	authors="Sijia"
         ms.author="siz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681644,32681663"
+	supportTopicIds="32681644,32681663,32681643,32681419,32681424,32681650"
 	productPesIds="15629,16459,16460,16461,16462,16598"
-	cloudEnvironments="public,MoonCake,FairFax"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="c449c5cc-78a3-4ef0-88a0-3c4622437a24"
 />
