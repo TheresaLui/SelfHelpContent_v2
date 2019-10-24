@@ -11,7 +11,7 @@
 ---
 { "recommendationOfferingId": "c3c3299d-ee34-4610-844d-3782d691a7fe", "recommendationOfferingName": "Azure Advisor", "$schema": "AdvisorRecommendation", "recommendationTypeId": "56089005-f16c-4b41-ba0d-2eb3549292d5", "dataSourceMetadata": { "schemaVersion": 2.0, "dataSource": "SAS" }, "recommendationCategory": "OperationalExcellence", "recommendationImpact": "Medium", "recommendationResourceType": "Microsoft.Subscriptions/subscriptions", "recommendationFriendlyName": "AllowedVirtualMachineSkuPolicy", "recommendationMetadataState": "Active", "portalFeatures": [], "owner": { "email": "cga-sup@microsoft.com", "icm": { "routingId": "MDM://CGAAdvisorRecommendations", "service": "CGA Data Science", "team": "CGAAdvisorRecommendations" }, "serviceTreeId": "0dbc6a29-122a-4ab5-8070-5868a2bcd57b" }, "ingestionClientIdentities": [ "397d7011-8a0c-4165-a3f5-8d4e5f2e676d" ], "recommendationTimeToLive": 86400, "version": 2.0, "learnMoreLink":"https://docs.microsoft.com/azure/governance/policy/overview",
   "description": "Enforce 'Allowed virtual machine SKUs' using Azure Policy",
-  "longDescription": "This policy enables you to specify a set of virtual machine SKUs that your organization can deploy.",
+  "longDescription": "Azure Policy is a service in Azure that you use to create, assign, and manage policies. These policies enforce different rules and effects over your resources. This policy enables you to specify a set of virtual machine SKUs that your organization can deploy.",
   "potentialBenefits": "This specific policy restricts the virtual machine SKUs that your organization can deploy.","actions": [
     {
       "actionId": "fed5602b-707c-4944-aac9-b779e0154bfd",
