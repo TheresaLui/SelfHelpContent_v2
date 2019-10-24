@@ -3,7 +3,7 @@
 	articleTags="costanalysis,views"
 	pageTitle="Why am I seeing no cost (e.g. $0)?"
 	description="Cost by resource"
-	displayOrder="1"
+	displayOrder="4"
 	authors="flanakin"
 	ms.author="micflan"
 	selfHelpType="resource"
