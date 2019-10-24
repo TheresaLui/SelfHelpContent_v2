@@ -3,7 +3,7 @@
 	articleTags="costanalysis,data"
 	pageTitle="Why am I seeing not applicable, unassigned, or others?"
 	description="Not applicable and nulls"
-	displayOrder="3"
+	displayOrder="2"
 	authors="flanakin"
 	ms.author="micflan"
 	selfHelpType="resource"
