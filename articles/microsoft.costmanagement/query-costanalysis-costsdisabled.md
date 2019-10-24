@@ -3,7 +3,7 @@
 	articleTags="access"
 	pageTitle="What does costs are disabled for your organization mean?"
 	description="Cost by resource"
-	displayOrder="1"
+	displayOrder="2"
 	authors="flanakin"
 	ms.author="micflan"
 	selfHelpType="resource"
