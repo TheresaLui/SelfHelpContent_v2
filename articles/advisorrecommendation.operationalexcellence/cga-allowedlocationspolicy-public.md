@@ -5,8 +5,7 @@
     ms.author="aadevteam"
     articleId="6d395b56-af36-4f01-a814-f8ba08e49c26_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-/>
+    cloudEnvironments="Public"/>
 # Enforce 'Allowed locations' using Azure Policy
 ---
 {
