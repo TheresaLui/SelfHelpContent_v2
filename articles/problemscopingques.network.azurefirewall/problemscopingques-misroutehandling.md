@@ -36,7 +36,7 @@
                 }
             ],
             "required": true
-        },
+        }
         {
             "id": "is_it_deployed",
             "order": 2,
