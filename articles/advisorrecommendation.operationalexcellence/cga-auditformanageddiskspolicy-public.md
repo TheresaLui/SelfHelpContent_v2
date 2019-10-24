@@ -5,8 +5,7 @@
     ms.author="aadevteam"
     articleId="142bcb82-aa8d-44e8-98d4-2b39125f2322_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-/>
+    cloudEnvironments="Public"/>
 # Enforce 'Audit VMs that do not use managed disk' using Azure Policy
 ---
 {
