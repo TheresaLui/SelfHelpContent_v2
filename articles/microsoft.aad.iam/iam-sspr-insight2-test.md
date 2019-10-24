@@ -18,6 +18,6 @@
 
 # This is a test insight
 <!--/issueDescription-->
-This is a test insight. [Test blade here](data-blade:Microsoft_AAD_IAM.IdentityDiagnosticsFrameBlade)
+This is a test insight. [Test blade here](data-blade:Microsoft_AAD_IAM.DomainsListBlade)
 <!--/issueDescription-->
 
