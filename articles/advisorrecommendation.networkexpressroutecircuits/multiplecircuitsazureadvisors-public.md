@@ -16,7 +16,7 @@ cloudEnvironments = "Public"
     "recommendationTypeId": "70f87e66-9b2d-4bfa-ae38-1d7d74837689",
     "dataSourceMetadata": {
         "schemaVersion": 1.0,
-        "streamNamespace": "cluster('https://aznw.kusto.windows.net').database('AznwCosmos').AzureAdvisorOnly1ERCircuit",
+        "streamNamespace": "cluster('aznw.kusto.windows.net').database('aznwcosmos').AzureAdvisorOnly1ERCircuit",
         "dataSource": "Kusto",
         "refreshInterval": "0.12:00:00"
     },
