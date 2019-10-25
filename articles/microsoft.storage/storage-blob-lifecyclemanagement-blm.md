@@ -18,7 +18,7 @@ articleId="Troubleshoot_and_resolve_Blob_Lifecycle_Management_issues"
 
 ## **Recommended Steps**
 
-Most customers resolved their Blob Lifecycle Management issue, on their own, using the steps below.
+Most customers resolved their Blob Lifecycle Management issue on their own, using the steps below.
 
 ### **Lifecycle Management doesn't execute when Storage Firewall is enabled without "Trusted Services" selected**
 
@@ -40,6 +40,8 @@ For successful execution of Lifecycle Management policies on the storage account
 2. Wildcard character '_*_' - This doesn't mean _'matches one or more occurrences of any character'_. The character '_*_' is a valid character in a blob name in Azure Storage. Hence, if added in a rule it means match the blobs with '_*_' in the blob name.
 3. Wildcard character '?' - This doesn't mean _'match a single occurrence of any character'_. The character '?' is a valid character in a blob name in Azure Storage. Hence, if added in a rule it means match the blobs with '?' in the blob name.
 4. prefixMatch with '!=' - The prefixMatch rules only consider positive(=) logical comparison. Therefore negative(!=) logical comparison are ignored.
+
+## **Recommended Documents**
 
 - [Naming and Referencing Blobs](https://docs.microsoft.com/rest/api/storageservices/naming-and-referencing-containers--blobs--and-metadata#blob-names)
 - [Policy Rule Filters](https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts#rule-filters)
