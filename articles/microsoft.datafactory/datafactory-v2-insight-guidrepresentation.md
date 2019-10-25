@@ -26,6 +26,11 @@ Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> 
 
 ## **Recommended Steps**
 
-Refer to the links below to mitigate this issue.
+In MongoDB connection string, add option "uuidRepresentation=standard".
+
+## **Recommended Documents**
+
+For more information on this error please follow our troubleshooting doc:
 
 * [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-the-guidrepresentation-for-the-reader-is-csharplegacy)
+* [MongoDB Connection String](https://docs.microsoft.com/en-us/azure/data-factory/connector-mongodb#linked-service-properties)

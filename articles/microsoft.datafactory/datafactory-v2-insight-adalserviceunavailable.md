@@ -26,6 +26,10 @@ Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> 
 
 ## **Recommended Steps**
 
-Refer to the links below to mitigate this issue.
+Rerun the copy activity after several minutes.
+
+## **Recommended Documents**
+
+For more information on this error please follow our troubleshooting doc:
 
 * [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-failed-to-get-access-token-by-using-service-principal-adal-error-service_unavailable)

@@ -26,6 +26,11 @@ Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> 
 
 ## **Recommended Steps**
 
-Refer to the links below to mitigate this issue.
+If you use Insert as write behavior, set Upsert as write behavior.
+If you use Upsert as write behavior and you set another unique key to the container, make sure each document has different value for defined unique key.
+
+## **Recommended Documents**
+
+For more information on this error please follow our troubleshooting doc:
 
 * [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-unique-index-constraint-violation)

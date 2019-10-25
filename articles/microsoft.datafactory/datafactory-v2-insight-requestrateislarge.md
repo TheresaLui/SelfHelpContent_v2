@@ -26,6 +26,10 @@ Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> 
 
 ## **Recommended Steps**
 
-Refer to the links below to mitigate this issue.
+In copy activity sink, reduce the 'Write batch size' value (default value is 10000).
+
+## **Recommended Documents**
+
+For more information on this error please follow our troubleshooting doc:
 
 * [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-request-rate-is-large)

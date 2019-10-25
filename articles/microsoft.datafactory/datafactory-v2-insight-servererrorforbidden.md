@@ -26,6 +26,10 @@ Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> 
 
 ## **Recommended Steps**
 
-Refer to the links below to mitigate this issue.
+Grant corresponding permissions on all the folders and subfolders you need to copy.
+
+## **Recommended Documents**
+
+For more information on this error please follow our troubleshooting doc:
 
 * [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage)
