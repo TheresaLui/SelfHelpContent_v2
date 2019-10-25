@@ -4,7 +4,7 @@
 	authors="chez-charlie"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32637153, 32629437, 32629441, 32637149, 32637150, 32629446, 32629439, 32629484, 32629521, 32637152, 32680901, 32680902, 32680903, 32629526"
+    supportTopicIds="32629437, 32629441, 32637149, 32637150, 32629446, 32629439, 32629484, 32629521, 32637152, 32680901, 32680902, 32680903, 32629526"
 	productPesIds="15613"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -21,8 +21,24 @@
     "fileAttachmentHint": "Please attach JSON definition of your pipelines",
     "formElements": [
         {
-            "id": "df_version",
+            "id": "problem_description",
             "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please briefly describe the issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Is it a new issue or regression?"
+                },
+                {
+                    "text": "Is the issue intermittent or persistent?"
+                }
+            ]
+        },
+        {
+            "id": "df_version",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Which Version of Data Factory are you using?",
             "watermarkText": "Choose Data Factory Version",
@@ -44,21 +60,21 @@
         },
         {
             "id": "factory_name",
-            "order": 7,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Name of the data factory",
             "required": false
         },
         {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 9,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
