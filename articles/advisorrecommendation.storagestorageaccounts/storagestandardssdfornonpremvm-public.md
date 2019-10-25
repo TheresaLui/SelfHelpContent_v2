@@ -36,7 +36,7 @@
   "version": 1,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#standard-ssd",
   "description": "Upgrade to Standard SSD Disks for consistent and improved performance",
-  "longDescription": "Because you are running IaaS virtual machine workloads on Standard HDD managed disks, we wanted to let you know that a Standard SSD disk option is now available for all Azure VM types. Standard SSD disks are a cost-effective storage option optimized for enterprise workloads that need consistent performance. Upgrade your disk configuration today for improved latency, reliability, and availability.",
+  "longDescription": "Because you are running IaaS virtual machine workloads on Standard HDD managed disks, we wanted to let you know that a Standard SSD disk option is now available for all Azure VM types. Standard SSD disks are a cost-effective storage option optimized for enterprise workloads that need consistent performance. Upgrade your disk configuration today for improved latency, reliability, and availability. Upgrading requires a VM reboot, which will take three to five minutes.",
   "potentialBenefits": "Improve disk latency, reliability, and availability using Standard SSD disks.",
   "actions": [
    {
