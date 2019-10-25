@@ -20,8 +20,11 @@
 
 <!--issueDescription-->
 HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high CPU usage on the headnode.
+
 CPU Percent Used Memory <!--$PercentUsedMemory-->[PercentUsedMemory]<!--/$PercentUsedMemory-->
+
 List of [CountAppIDs] ApplicationIds. Note: We are displaying top 10 ApplicationIds if there are more than 10 records.
+
 Application Id <!--$ApplicationId-->[ApplicationId]<!--/$ApplicationId-->
 
 <!--/issueDescription-->
