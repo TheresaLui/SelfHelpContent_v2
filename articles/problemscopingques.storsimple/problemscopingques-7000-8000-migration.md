@@ -13,7 +13,7 @@
 # Scoping for 700-8000 Migration
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired: true,
     "subscriptionRequired": true,
     "title": "7000-8000 Migration",
     "fileAttachmentHint": "",
