@@ -32,4 +32,4 @@ In copy activity sink, reduce the 'Write batch size' value (default value is 100
 
 For more information on this error please follow our troubleshooting doc:
 
-* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-request-rate-is-large)
+* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#error-message-request-rate-is-large)

@@ -32,4 +32,4 @@ Please reduce column width to be less than 1 MB.  Or use bulk insert approach by
 
 For more information on this error please follow our troubleshooting doc:
 
-* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-java-exception-messagehdfsbridgecreaterecordreader)
+* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#error-message-java-exception-messagehdfsbridgecreaterecordreader)

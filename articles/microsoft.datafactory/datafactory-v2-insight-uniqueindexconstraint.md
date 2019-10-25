@@ -33,4 +33,4 @@ If you use Upsert as write behavior and you set another unique key to the contai
 
 For more information on this error please follow our troubleshooting doc:
 
-* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-unique-index-constraint-violation)
+* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#error-message-unique-index-constraint-violation)

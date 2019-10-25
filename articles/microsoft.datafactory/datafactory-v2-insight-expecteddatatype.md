@@ -32,4 +32,4 @@ In Copy activity sink, under Polybase settings, set "use type default" option to
 
 For more information on this error please follow our troubleshooting doc:
 
-* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-expected-data-type-decimalxx-offending-value)
+* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#error-message-expected-data-type-decimalxx-offending-value)

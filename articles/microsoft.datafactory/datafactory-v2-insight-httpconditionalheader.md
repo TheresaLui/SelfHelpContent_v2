@@ -32,4 +32,4 @@ Run the same query in SSMS and check if you see the same result. If yes, open a 
 
 For more information on this error please follow our troubleshooting doc:
 
-* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-the-condition-specified-using-http-conditional-headers-is-not-met)
+* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#error-message-the-condition-specified-using-http-conditional-headers-is-not-met)

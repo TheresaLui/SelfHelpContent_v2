@@ -32,4 +32,4 @@ Rerun the copy activity after several minutes.
 
 For more information on this error please follow our troubleshooting doc:
 
-* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-failed-to-get-access-token-by-using-service-principal-adal-error-service_unavailable)
+* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#error-message-failed-to-get-access-token-by-using-service-principal-adal-error-service_unavailable)

@@ -34,4 +34,4 @@ Solution 2: Decrease writeBatchSize to smaller value (such as 1000) and set para
 
 For more information on this error please follow our troubleshooting doc:
 
-* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#error-message-request-size-is-too-large)
+* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#error-message-request-size-is-too-large)
