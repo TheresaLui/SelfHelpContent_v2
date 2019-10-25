@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide)
+* [Troubleshoot Azure Data Factory Connectors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide)
