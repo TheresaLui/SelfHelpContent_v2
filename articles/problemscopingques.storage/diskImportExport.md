@@ -1,16 +1,16 @@
 <properties
 	pageTitle="Scoping Questions for Disk Import/Export"
 	description="Scoping Questions for Disk Import/Export"
-	authors="anushasubramanian"
-	ms.author="ansubram"
+	authors="ansubram"
+	ms.author="anushasubramanian"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32603552"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="3263910012"
+	articleId="diskImportExport"
 />
-# Data Box issues
+# Disk Import/Export issues
 ---
 {
     "resourceRequired": false,
@@ -41,12 +41,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         },
-        {
-            "id": "learn_more_text",
-            "order": 700,
-            "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/azure/databox/data-box-faq'>Learn more</a> about Azure Data Box"
-        }
 	],
 	"$schema": "SelfHelpContent"
 }
