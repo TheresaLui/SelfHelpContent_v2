@@ -28,7 +28,7 @@
         {
             "id": "job_name",
             "order": 2,
-            "controlType": "singlelinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Please enter the job name",
             "required": true
         },
@@ -40,7 +40,7 @@
             "watermarkText": "Please provide the details regarding the issue and and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
+        }
 	],
 	"$schema": "SelfHelpContent"
 }
