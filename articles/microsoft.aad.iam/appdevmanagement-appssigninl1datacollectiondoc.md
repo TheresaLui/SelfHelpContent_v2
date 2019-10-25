@@ -128,7 +128,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
@@ -161,7 +162,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2
+            "numberOfLines": 2,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "userNameOrId",
