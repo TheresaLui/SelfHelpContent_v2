@@ -112,8 +112,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "correlationId",
@@ -129,8 +128,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "timestamp",
@@ -146,8 +144,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "appNameOrId",
@@ -163,8 +160,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 2
         },
         {
             "id": "userNameOrId",
