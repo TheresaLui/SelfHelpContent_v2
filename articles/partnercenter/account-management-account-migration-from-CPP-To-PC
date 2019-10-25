@@ -10,9 +10,9 @@
 	articleId="account_management_accountmigrationfromCPPtoPC"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32689326"
 	clientIds='partnercenter'
-	resourceTags="csp"
+	resourceTags="marketplace"
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
@@ -23,5 +23,5 @@ Information about Account migration from CPP to PC.
 
 ## **Recommended Documents**
 
-* [Are you moving your publisher from CPP to PC?](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/create-account#publishers-moving-from-cpp)
+* [Need help with migrating your publisher account from CPP to PC?](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/create-account#publishers-moving-from-cpp)
 
