@@ -34,20 +34,20 @@
 ## **Recommended Documents**
 
 1. Pipeline Execution and Triggers [Document](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers), including following sections: <br>
-    * [On-demand Manual Execution](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#manual-execution-on-demand)
-    * [Schedule Trigger](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#schedule-trigger) triggers pipelines on a wall-clock schedule
-    * [Tumbling Window Trigger](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#tumbling-window-trigger) fires periodically and retains state
-    * [Event-based Trigger](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#event-based-trigger) responds to an event in Azure Blob Storage
-    * __Please read__ Schedule Trigger versus Tumbling Window Trigger [Comparison](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#trigger-type-comparison)
+    * [On-demand Manual Execution](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#manual-execution-on-demand) <br>
+    * [Schedule Trigger](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#schedule-trigger) triggers pipelines on a wall-clock schedule <br>
+    * [Tumbling Window Trigger](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#tumbling-window-trigger) fires periodically and retains state <br>
+    * [Event-based Trigger](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#event-based-trigger) responds to an event in Azure Blob Storage <br>
+    * __Please read__ Schedule Trigger versus Tumbling Window Trigger [Comparison](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#trigger-type-comparison) <br>
 
 1. Create Triggers: <br>
-    * Create a Schedule Trigger [Tutorial](https://docs.microsoft.com/azure/data-factory/how-to-create-schedule-trigger)
-    * Create a Tumbling Window [Tutorial](https://docs.microsoft.com/azure/data-factory/how-to-create-tumbling-window-trigger)
-    * Create an Event-based Trigger [Tutorial](https://docs.microsoft.com/azure/data-factory/how-to-create-event-trigger)
+    * Create a Schedule Trigger [Tutorial](https://docs.microsoft.com/azure/data-factory/how-to-create-schedule-trigger) <br>
+    * Create a Tumbling Window [Tutorial](https://docs.microsoft.com/azure/data-factory/how-to-create-tumbling-window-trigger) <br>
+    * Create an Event-based Trigger [Tutorial](https://docs.microsoft.com/azure/data-factory/how-to-create-event-trigger) <br>
 
-1. Tumbling Window Dependency [Document](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency), including following sections:
-    * [Scenarios and Examples](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#usage-scenarios-and-examples)
-    * Create dependency in UI [Screenshot](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#create-a-dependency-in-the-data-factory-ui)
-    * Tumbling Window Dependency [Properties](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#tumbling-window-dependency-properties)
-    * Self Dependency [Properties](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#tumbling-window-self-dependency-properties)
+1. Tumbling Window Dependency [Document](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency), including following sections: <br>
+    * [Scenarios and Examples](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#usage-scenarios-and-examples) <br>
+    * Create dependency in UI [Screenshot](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#create-a-dependency-in-the-data-factory-ui) <br>
+    * Tumbling Window Dependency [Properties](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#tumbling-window-dependency-properties) <br>
+    * Self Dependency [Properties](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#tumbling-window-self-dependency-properties) <br>
     * Monitor Dependencies [Experience](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency#monitor-dependencies)
