@@ -1,24 +1,24 @@
 <properties
-	pageTitle="Azure Data Movement general issue info"
-	description="Scoping questions to gather Azure Data Movement general issue information"
-	authors="sheldonfeng"
-	ms.author="shelfeng"
+	pageTitle="Azure Data Factory Generic Scoping Questions"
+	description="Scoping questions to Distinguish V1 versus V2"
+	authors="chez-charlie"
+	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32637153, 32629540, 32680904, 32680905, 32680906"
+    supportTopicIds="32629437, 32629441, 32637149, 32637150, 32629446, 32629439, 32629484, 32629521, 32637152, 32680901, 32680902, 32680903, 32629526"
 	productPesIds="15613"
 	cloudEnvironments="public"
 	schemaVersion="1"
-    articleId="add0db11-c89e-4110-8cee-bba530732c9d"
+    articleId="46507f35-8fd9-48ec-8d09-c3d93ce3ed02"
 />
 
-# Azure Data Movement Issue
+# Azure Data Factory Issue
 
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Azure Data Movement general issue info",
-    "fileAttachmentHint": "Please attach JSON code for dataset, linked service and screen shots to help us triage your problem faster",
+    "title": "Azure Data Factory Issue",
+    "fileAttachmentHint": "Please attach JSON definition of your pipelines",
     "formElements": [
         {
             "id": "problem_description",
@@ -37,44 +37,8 @@
             ]
         },
         {
-            "id": "error_message",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What error message do you see?",
-            "required": false
-        },
-        {
-            "id": "ir_type",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Which type of integration runtime are you using?",
-            "watermarkText": "Choose an IR type",
-            "dropdownOptions": [
-                {
-                    "value": "Azure IR",
-                    "text": "Azure IR"
-                },
-                {
-                    "value": "Self-hosted IR",
-                    "text": "Self-hosted IR"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not applicable"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "sample_run_ids",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
-            "required": false
-        },
-        {
             "id": "df_version",
-            "order": 5,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Which Version of Data Factory are you using?",
             "watermarkText": "Choose Data Factory Version",
@@ -92,18 +56,25 @@
                     "text": "Not applicable"
                 }
             ],
+            "required": true
+        },
+        {
+            "id": "factory_name",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Name of the data factory",
             "required": false
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 7,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
