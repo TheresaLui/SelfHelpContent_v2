@@ -38,14 +38,12 @@ If you receive any of the above errors when creating a new data share or receivi
 3. Click Add
 4. Add yourself in as owner
 
-In the case of adding a dataset from a SQL Server, you must run a script which creates a new user in the database for the Data Share MSI. 
+In the case of adding a dataset from a SQL Server, you must run a script which creates a new user in the database for the Data Share MSI:
  
-create user [datashareaccountname] from external provider; exec sp_addrolemember db_owner, [datashareaccountname];
+`create user [datashareaccountname] from external provider; exec sp_addrolemember db_owner, [datashareaccountname];`
  
 Note that the [datashareaccountname] must be the same name as your Data Share resource. 
  
-
-
 ### Resources have locks which impact account creation
 
 * Please ensure that there are no [locks on your Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources)
