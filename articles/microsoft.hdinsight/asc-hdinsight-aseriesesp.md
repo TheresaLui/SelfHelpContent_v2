@@ -18,17 +18,15 @@
 
 # We ran diagnostics on your resource and found an issue
 
-## Problem
 <!--issueDescription-->
-HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> creation is failing for A-series headnode size VM for Enterprise Security Package
-
+HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> creation is failing for A-series headnode size VM for Enterprise Security Package.
 <!--/issueDescription-->
 
-## **Recommended Step**
+## **Recommended Steps**
 
- Create a cluster with Head node VM size D13_V2 or above.
+* Create a cluster with Head node VM size D13_V2 or above
  
  
 ## **Recommended Documents**
 
-[Virtual machine sizes](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters#virtual-machine-sizes)
+* [Virtual machine sizes](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters#virtual-machine-sizes)
