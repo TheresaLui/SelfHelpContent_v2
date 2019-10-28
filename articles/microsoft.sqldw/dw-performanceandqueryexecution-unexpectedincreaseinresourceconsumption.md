@@ -23,7 +23,7 @@
 ## **Recommended Documents**
 
 * [Workload management with resource classes in Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/resource-classes-for-workload-management)
-* [Memory and concurrency limits for Azure SQL Data Warehouse](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/memory-and-concurrency-limits)
-* [Performance tuning with result set caching](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/performance-tuning-result-set-caching)
+* [Memory and concurrency limits for Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/memory-and-concurrency-limits)
+* [Performance tuning with result set caching](https://docs.microsoft.com/azure/sql-data-warehouse/performance-tuning-result-set-caching)
 * [Performance tuning with ordered clustered columnstore index](https://docs.microsoft.com/azure/sql-data-warehouse/performance-tuning-ordered-cci)
 * [Performance tuning with materialized views](https://docs.microsoft.com/azure/sql-data-warehouse/performance-tuning-materialized-views)
