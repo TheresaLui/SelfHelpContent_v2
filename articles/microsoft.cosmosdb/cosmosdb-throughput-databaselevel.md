@@ -32,10 +32,10 @@ When you provision containers with shared database offering<br>
 
 <br>
 
-**Migration from Dedicated throughput collection to Shared throughput**
+**Migration from Dedicated throughput collection to Shared throughput**<br>
 We do not have out of the box support for migration of the dedicated throughput collection to shared throughput and vice-versa. To switch from dedicated throughput mode to shared throughput mode (and vice versa) after the container is created, you have to create a new container and migrate the data to the new container. You can migrate the data by using the ADF or tools based on change feed processor library.<br>
 <br>
-**Per Collection Minimum RUs**
+**Per Collection Minimum RUs**<br>
 The minimum throughput on a shared throughput database depends on the total number of containers that you have ever created in a shared throughput database, measured at 100 RUs per container.
 
 ## **Recommended Documents**
