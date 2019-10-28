@@ -18,4 +18,4 @@
 
 ## **Recommended Steps**
 
-To understand backup and restore functionality in SQL DW, see this [article](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore)
+* [Backup and restore functionality in SQL DW](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore)
