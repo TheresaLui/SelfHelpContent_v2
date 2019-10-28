@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-other"
-	displayOrder="240"
+	displayOrder="244"
 	category="Throughput and Scaling"
 />
 
