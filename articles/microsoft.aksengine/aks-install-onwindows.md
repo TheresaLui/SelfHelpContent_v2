@@ -1,0 +1,35 @@
+<properties
+    pageTitle="Issues installing AKS Engine on Linux"
+    description="Issues installing AKS Engine on Linux"
+    service="microsoft.aksengine"
+    resource="aksengine"
+    authors="dewitthMSFT"
+    ms.author="dewitth"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="zzzz"
+    resourceTags=""
+    productPesIds="16963"
+    cloudEnvironments="public"
+    articleId="aks-install-onlinux"
+/>
+
+# Issues installing AKS Engine on Linux
+
+## **Recommended Steps**
+
+1. Ensure your Cloud Operator has a supported AKS Engine version available in your Marketplace. For more information review the [Prerequisites for the AKS Engine](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-set-up#prerequisites-for-the-aks-engine)
+
+2. If your installation method is failing, try the the [steps for a disconnected environment](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-deploy-linux#install-in-a-disconnected-environment)
+
+
+### **Known Issues**
+
+You must specify a supported Kubernetes version with the --version parameter when running the get-akse command. Link to the [supported versions](https://github.com/Azure/aks-engine/blob/master/docs/topics/azure-stack.md#supported-kubernetes-versions)
+
+
+## **Recommended Documents**
+
+* [Troubleshoot the AKS Engine on Azure Stack](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-troubleshoot)
+* [AKS troubleshooting](https://docs.microsoft.com/en-us/azure/aks/troubleshooting)
+
