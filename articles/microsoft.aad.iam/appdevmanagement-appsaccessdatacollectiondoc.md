@@ -4,7 +4,7 @@
     authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570263"
-    productPesIds="14785,16575"
+    productPesIds="16575"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="5c787abf-d198-4bc4-a2f9-4c940c70d8b1"
@@ -17,6 +17,11 @@
     "resourceRequired": false,
     "title": "Active Directory application access issue",
     "fileAttachmentHint": null,
+	"diagnosticCard": {
+        "title": "Active Directory application access issue",
+        "description": "Our Self-Service Enterprise App Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "whichUser",
@@ -33,7 +38,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem",
@@ -101,7 +107,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2
+            "numberOfLines": 2,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
@@ -125,7 +132,8 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+			"diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"

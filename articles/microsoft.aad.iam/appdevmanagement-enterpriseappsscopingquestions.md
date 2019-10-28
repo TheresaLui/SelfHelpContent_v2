@@ -19,7 +19,7 @@
     "title": "Active Directory application sign in L1 issue",
     "fileAttachmentHint": null,
 	"diagnosticCard": {
-        "title": "Azure Active Directory Applications Issues",
+        "title": "Active Directory application sign in L1 issue",
         "description": "Our Self-Service Enterprise App Troubleshooter can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
     },

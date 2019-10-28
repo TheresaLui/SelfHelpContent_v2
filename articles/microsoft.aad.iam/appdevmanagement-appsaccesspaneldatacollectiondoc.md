@@ -4,7 +4,7 @@
     authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570265"
-    productPesIds="14785,16575"
+    productPesIds="16575"
     cloudEnvironments="public"
     schemaVersion="1"
     articleID="59f008b6-1525-48d0-aded-235559b387b3"
@@ -17,6 +17,11 @@
     "resourceRequired": false,
     "title": "Active Directory application access panel issue",
     "fileAttachmentHint": null,
+	"diagnosticCard": {
+        "title": "Active Directory application access panel issue",
+        "description": "Our Self-Service Enterprise App Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "whichUser",
@@ -33,7 +38,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem",
@@ -101,7 +107,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2
+            "numberOfLines": 2,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
@@ -125,7 +132,8 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+			"diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"
