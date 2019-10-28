@@ -3,8 +3,8 @@
     description="Issues installing AKS Engine on Linux"
     service="microsoft.aksengine"
     resource="aksengine"
-    authors="dewitthMSFT"
-    ms.author="dewitth"
+    authors="justinha"
+    ms.author="justinha"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="zzzz"
@@ -25,5 +25,5 @@ Thank you for your interest in installing AKS Engine on Azure Stack Development 
 
 ## **Recommended Documents**
 
-* [Troubleshoot the AKS Engine on Azure Stack](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-troubleshoot)
-* [AKS troubleshooting](https://docs.microsoft.com/en-us/azure/aks/troubleshooting)
+* [Troubleshoot the AKS Engine on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-troubleshoot)
+* [AKS troubleshooting](https://docs.microsoft.com/azure/aks/troubleshooting)
