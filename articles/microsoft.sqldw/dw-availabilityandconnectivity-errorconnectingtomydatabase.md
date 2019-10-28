@@ -52,7 +52,7 @@ If you are having issues with a client tool, please ensure you have the latest v
 
 * ### **Check for the latest drivers**
 
-    Check to see that you are using the latest version of the tool and drivers to connect to your SQL Data Warehouse.  [Click here for additional information](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity#check-for-the-latest-drivers).
+    Check to see that you are using the latest version of the tool and drivers to connect to your SQL Data Warehouse. [Here](https://docs.microsoft.com/sql/connect/jdbc/system-requirements-for-the-jdbc-driver?view=sql-server-2017) are the system requirements for JDBC driver.  [Click here for additional information](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity#check-for-the-latest-drivers).
 
 * ### **Check your connection string**
 
