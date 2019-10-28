@@ -21,6 +21,8 @@
 
 Microsoft support teams can only address issues that occur when loading the script. Any errors during the execution of custom scripts is outside the scope of a support ticket. Please use our forums or other channels for troubleshooting errors which occur during the execution of custom scripts.
 
+[Custom Script Actions Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting)
+
 **Adding an additional service to an existing cluster**
 
 Microsoft can only support additional applications that are part the cluster creation process. For any additional applications/services outside of the cluster creation process, please contact that application/service provider for support.

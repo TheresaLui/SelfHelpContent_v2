@@ -45,6 +45,13 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "searchTags": "sas,token,access denied,unable to access,authenticate,authorize,403",
       "useInDiagnoseAndSolve": ""
     },
+        {
+      "id": "3c5a9f5b-c30f-56f2-5a53-1fed5c45e591",
+      "shortDescription": "Issues using the policy to transition your data to the appropriate access tiers or expire at the end of the data's lifecycle",
+      "category": "",
+      "searchTags": "",
+      "useInDiagnoseAndSolve": ""
+    },
     {
       "id": "5b03a792-037b-9962-ef13-5c71a55fc5d2",
       "shortDescription": "Issues using Azure AD ( RBAC & OAuth) to access blob storage such as access denied errors or connectivity failures  ",
@@ -360,11 +367,25 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "searchTags": "slow data transfer,latency,throttling,high response time,slow speed,slow,low throughput,performance,",
       "useInDiagnoseAndSolve": "TRUE"
     },
+        {
+      "id": "1c15768a-6232-e5d6-e7b8-4abf950bd705",
+      "shortDescription": "Issues related to connecting to your storage after turning on firewall rules",
+      "category": "Performance",
+      "searchTags": "slow data transfer,latency,throttling,high response time,slow speed,slow,low throughput,performance,",
+      "useInDiagnoseAndSolve": "TRUE"
+    },
     {
       "id": "dbeadbbe-6d56-ce28-bda7-f6b77f86193e",
       "shortDescription": "Issues where blob storage operations are taking longer than expected to complete ",
       "category": "Performance",
       "searchTags": "slow data transfer,latency,throttling,high response time,slow speed,slow,storage account performance,account throttling,",
+      "useInDiagnoseAndSolve": "TRUE"
+    },
+        {
+      "id": "694bea6a-8e96-8414-da8d-180fe914645b",
+      "shortDescription": "Azure Blob storage lifecycle management offers a rich, rule-based policy for GPv2 and Blob storage accounts",
+      "category": "Management",
+      "searchTags": "",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
