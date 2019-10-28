@@ -17,6 +17,8 @@
 
 ## **Recommended Documents**
 
+Following are the recommended documents for failovergroups and geo-replication related issues.
+
 ### **Failover Groups**
 
 * [Auto-failover groups](https://docs.microsoft.com/azure/sql-database/sql-database-auto-failover-group?WT.mc_id=pid:13491:sid:32630408/)<br>
