@@ -1,14 +1,14 @@
 <properties
     pageTitle="Active Directory application sign in L1 issue"
     description="appssigninl1datacollectiondoc"
-    authors="ashish-009"
-	ms.author="asbh"
+    authors="hsku"
+	ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32570955,32596851,32596848,32596856,32596837,32570275,32570259,32570274,32596862,32615379,32615388,32615397,32615424,32596867,32615381,32615390,32615398,32447987,32596842,32596872"
-    productPesIds="16575,16579"
+    supportTopicIds="32268132"
+    productPesIds="14785"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="f394c94f-4550-4d6c-87ec-84a57305bfcd"
+    articleId="b9d2d149-19ca-4855-b4a8-5fa1bdee0358"
     />
 
 # Active Directory application sign in L1 issue
@@ -18,6 +18,11 @@
     "resourceRequired": false,
     "title": "Active Directory application sign in L1 issue",
     "fileAttachmentHint": null,
+	"diagnosticCard": {
+        "title": "Azure Active Directory Applications Issues",
+        "description": "Our Self-Service Enterprise App Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -90,7 +95,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "getCorrelationId",
@@ -122,7 +128,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
@@ -138,7 +145,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "appNameOrId",
@@ -154,7 +162,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2
+            "numberOfLines": 2,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "userNameOrId",
@@ -170,7 +179,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
