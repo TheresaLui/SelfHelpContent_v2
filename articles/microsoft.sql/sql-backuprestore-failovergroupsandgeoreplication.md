@@ -10,17 +10,18 @@
 	supportTopicIds="32688669"
 	productPesIds="13491"
 	cloudEnvironments="public"
-	articleId="7686180f-5d50-40bc-9765-f93baf9ea0f1"
+	articleId="sql-selfhelp-solutions-backuprestore-failovergroupsandgeoreplication"
 />
 
+## **Recommended Steps**
 
-## **Failover Groups**
+### **Failover Groups**
 
 * [Auto-failover groups](https://docs.microsoft.com/azure/sql-database/sql-database-auto-failover-group?WT.mc_id=pid:13491:sid:32630408/)<br>
 * [Failover group operations](https://docs.microsoft.com/rest/api/sql/failovergroups?WT.mc_id=pid:13491:sid:32630408/)
 
 
-## **Geo-Replication**
+### **Geo-Replication**
 
 * [Create readable secondary databases using active geo-replication](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32630424/)<br>
 * [Configure active geo-replication in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication-portal?WT.mc_id=pid:13491:sid:32630424/)<br>
