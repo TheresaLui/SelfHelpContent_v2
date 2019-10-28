@@ -10,7 +10,7 @@
 	supportTopicIds="32688669"
 	productPesIds="13491"
 	cloudEnvironments="public"
-	articleId="sql-selfhelp-solutions-backuprestore-failovergroupsandgeoreplication"
+	articleId="f39fd2ea-00d9-4c05-a271-35611754ad1c"
 />
 
 # Backup/restore/failovergroupsandgeoreplication
