@@ -4,7 +4,7 @@
     authors="hsku"
 	ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32268132, 32570263"
+    supportTopicIds="32268132,32570263,32570265,32570275,32570260,32570274,32570259"
     productPesIds="16575"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -96,7 +96,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "getCorrelationId",
@@ -129,7 +129,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
@@ -146,7 +146,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "appNameOrId",
@@ -163,7 +163,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "userNameOrId",
@@ -180,7 +180,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
