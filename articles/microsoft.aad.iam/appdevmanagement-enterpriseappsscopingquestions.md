@@ -4,7 +4,7 @@
     authors="hsku"
 	ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32268132,32570263,32570265,32570275,32570260,32570274,32570259"
+    supportTopicIds="32268132,32570275,32570274,32570259"
     productPesIds="16575"
     cloudEnvironments="public"
     schemaVersion="1"
