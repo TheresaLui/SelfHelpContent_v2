@@ -6,11 +6,12 @@
     authors="rodejo"
     ms.author="RobdeJong"
     displayOrder="3221"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32684512"
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
+    articleId="395b20a5-49b1-46cf-a404-f2c3bce8b402"
 />
 
 # I have a problem installing Azure AD Connect sync

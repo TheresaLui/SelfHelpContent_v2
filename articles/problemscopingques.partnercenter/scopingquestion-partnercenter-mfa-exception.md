@@ -46,7 +46,6 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select 'yes' if the issue is related to the use of 3rd party MFA solution, which cannot be configured to convey to Azure Active Directory that MFA verification has been completed.",
-            "watermarkText": "Isuse related to third party",
             "dropdownOptions": [
                 {
                     "value": "No",
@@ -90,7 +89,6 @@
             "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Microsoft does not recommend suppressing MFA verification for partner-related scenarios as it increases the security risk to both the partner and associated customers. Select 'yes' to indicate that you understand the risk. ",
-            "watermarkText": "Agree to risks for suppressing MFA",
             "dropdownOptions": [
                 {
                     "value": "Yes",
