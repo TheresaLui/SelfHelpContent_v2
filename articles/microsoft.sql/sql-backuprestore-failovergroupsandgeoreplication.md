@@ -13,7 +13,7 @@
 	articleId="sql-selfhelp-solutions-backuprestore-failovergroupsandgeoreplication"
 />
 
-## **Recommended Steps**
+## **Recommended Documents**
 
 ### **Failover Groups**
 
