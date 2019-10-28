@@ -26,7 +26,7 @@
 
 * [Dynamics 365 licensing](https://partner.microsoft.com/resources/collection/microsoft-dynamics-365)
 * [Office 365 product documentation](https://docs.microsoft.com/office/)
-* [Microsoft 365 product documentation](https://docs.microsoft.com/microsoft-365/)
+* [Microsoft 365 product documentation](https://partner.microsoft.com/en-US/resources/collection/microsoft-dynamics-365#/)
 * [Azure Pricing](https://azure.microsoft.com/pricing/)
 * [Azure Products](https://docs.microsoft.com/azure/#pivot=products)
 * [Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers)
