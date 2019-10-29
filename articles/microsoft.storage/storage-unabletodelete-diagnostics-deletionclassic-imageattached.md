@@ -5,6 +5,7 @@ infoBubbleText="Storage account has an image for an active VM. See details on th
 service="microsoft.storage"
 resource="storage"
 authors="divka78"
+ms.author="passap"
 displayOrder=""
 articleId="storagedeletionclassic_imageattached"
 diagnosticScenario="Classic Image exists"
@@ -12,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32602694"
 resourceTags="windows"
 productPesIds="15629"
-cloudEnvironments="public"
+cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 />
 
 # **Classic Image exists**
