@@ -25,7 +25,7 @@ Following are the recommended documents for failovergroups and geo-replication r
 * [Failover group operations](https://docs.microsoft.com/rest/api/sql/failovergroups?WT.mc_id=pid:13491:sid:32630408/)
 
 
-### **Geo-Replication**
+### **Geo-Replianuragcation**
 
 Test test
 * [Create readable secondary databases using active geo-replication](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32630424/)<br>
