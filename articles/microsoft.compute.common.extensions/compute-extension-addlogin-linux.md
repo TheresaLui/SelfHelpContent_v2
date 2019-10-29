@@ -1,7 +1,6 @@
 <properties
 	description="Azure Active Directory Login extension issue"
 	pageTitle="Azure Active Directory Login extension issue"
-	description="Azure Active Directory Login extension issue"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -24,7 +23,7 @@
 * Learn how to configure managed identities on VMs:<br>
 	*	[Portal](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/qs-configure-portal-windows-vm)<br>
 	* [CLI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/qs-configure-cli-windows-vm)<br>
-	* [Powershell](https://docs.microsoft.com/azure/active-directory/anaged-identities-azure-resources/qs-configure-powershell-windows-vm)<br>
+	* [Powershell](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/qs-configure-powershell-windows-vm)<br>
 	* [ARM Template](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/qs-configure-template-windows-vm)<br>
 	* [REST](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/qs-configure-rest-vm)
 
