@@ -25,4 +25,4 @@
 * [Tutorial: integrate Functions with an Azure virtual network](https://docs.microsoft.com/azure/azure-functions/functions-create-vnet)
 * [Integrate your app with an Azure Virtual Network](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet)
 * [Azure Functions premium plan](https://github.com/Azure/Azure-Functions/blob/master/functions-premium-plan/overview.md)
-* [How to Azure Function App with Hybrid Connection](https://blogs.msdn.microsoft.com/benjaminperkins/2018/05/16/how-to-azure-function-app-with-hybrid-connection/)
+* [Connecting Azure Function to an Azure VM in a VNET using Hybrid Connection Manager](https://blogs.msdn.microsoft.com/benjaminperkins/2018/05/16/how-to-azure-function-app-with-hybrid-connection/)

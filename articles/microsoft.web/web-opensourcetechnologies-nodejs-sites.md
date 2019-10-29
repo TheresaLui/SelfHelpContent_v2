@@ -3,7 +3,8 @@
 	description="open source technologies/node.js"
 	service="microsoft.web"
 	resource="sites"
-	authors="shrahman"
+	authors="cts-shrahman, cts-shrahman"
+    ms.author="shrahman,toan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32444082"
@@ -42,5 +43,5 @@ Development Questions: <br>
 [Running Meanjs on Azure App Services](https://prmadi.com/running-mean-js-app-on-azure-app-services/)<br>
 [Running Angularjs App on Azure App Services](https://prmadi.com/running-angular2-app-on-azure-app-services-with-ci-cd/)<br>
 [Running Ghost Blog on Azure App Services](https://prmadi.com/ghost-blog-on-azure-app-services)<br>
-[Running Parse Server on Azure App Services](https://prmadi.com/parse-on-azure/)<br>
+[Running Parse Server on Azure App Services](https://prashanthmadi.github.io/2017/02/15/parse-on-azure-new.html)<br>
 [Running React + nodejs on Azure App Services](https://blogs.msdn.microsoft.com/reactjsnodejsazure/2017/08/01/reactjs-nodejs-express-azure-web-app/)
