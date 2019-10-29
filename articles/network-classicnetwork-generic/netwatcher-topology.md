@@ -22,7 +22,7 @@ The Topology view in Network Watcher shows you the resources in your virtual net
 
 ## **Recommended Steps**
 
-* Read the [Topology overview](https://docs.microsoft.com/en-us/azure/network-watcher/view-network-topology).
+* Read the [Topology overview](https://docs.microsoft.com/azure/network-watcher/view-network-topology).
 
 ### **I can't see all my resources in the Topology view**
 
@@ -30,4 +30,4 @@ Topology view only works at the **resource group** and **virtual network** level
 
 ### **I get a "User does not have permission to perform topology action" error**
 
-Request permission from the owner of your subscription. You need to have the [networkWatcher/Topology permission](https://docs.microsoft.com/en-us/azure/network-watcher/required-rbac-permissions#topology). This is not available with the current `Reader` role and you may have to create a custom role in case you do not want to provide `Contributor` or higher access.
+Request permission from the owner of your subscription. You need to have the [networkWatcher/Topology permission](https://docs.microsoft.com/azure/network-watcher/required-rbac-permissions#topology). This is not available with the current `Reader` role and you may have to create a custom role in case you do not want to provide `Contributor` or higher access.
