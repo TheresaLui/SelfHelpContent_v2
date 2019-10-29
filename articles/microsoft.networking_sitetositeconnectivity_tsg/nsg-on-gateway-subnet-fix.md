@@ -24,5 +24,5 @@
 
 ## **Recommended Documents**
 
-* https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsub
-* https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags
+* [VPN Gateway Settings](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsub)
+* [Virtual Network Security Overview](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags)
