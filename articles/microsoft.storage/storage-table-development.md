@@ -13,7 +13,7 @@
 	supportTopicIds="32602772"
 	resourceTags=""
 	productPesIds="16462"
-	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
+	cloudEnvironments="public,Mooncake"
 />
 
 # Development with Azure Queue
