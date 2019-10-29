@@ -14,7 +14,7 @@
 	articleId="95b93b3e-58bf-4011-bbb0-4afa9a40e0b9"
 />
 
-# Diagnose and resolve conenctivity issues to storage resources
+# Diagnose and resolve connectivity issues to storage resources
 
 ## **Recommended Steps**
 
