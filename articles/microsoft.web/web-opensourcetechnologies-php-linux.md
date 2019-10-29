@@ -11,12 +11,17 @@
 	resourceTags=""
 	productPesIds="16170"
 	cloudEnvironments="public, MoonCake"
-	articleId="79e2485e-e2f1-4463-b498-b9e53c03a85b"
+	articleId="dbb1c512-edb7-423b-bae2-773141c09246"
 />
 
 # open source technologies/php
 
 ## **Recommended documents**
 
-[PHP Troubleshooting Guide for Common Errors](https://blogs.msdn.microsoft.com/appserviceteam/2016/09/14/php-troubleshooting-guide-for-common-errors/)<br>
+Configuration: <br>
+[Azure App Service Linux - Adding PHP Extensions](https://azureossd.github.io/2019/01/29/azure-app-service-linux-adding-php-extensions/)<br>
+[Azure App Service Linux - Update PHP Settings ](https://azureossd.github.io/2019/01/29/azure-app-service-linux-update-php-settings/)<br>
+<br>
+Troubleshooting <br>
+[PHP Troubleshooting Guide for Common Errors](https://azure.github.io/AppService/2016/09/14/PHP-troubleshooting-guide-for-common-errors.html)<br>
 [PHP Error Log on Azure Website](https://azureossd.github.io/2015/04/15/info-about-php-fatal-error-and-error-log-on-azure-website/)<br>

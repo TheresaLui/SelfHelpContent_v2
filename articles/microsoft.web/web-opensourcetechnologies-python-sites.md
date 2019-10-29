@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake"
-	articleId="dbb1c512-edb7-423b-bae2-773141c09246"
+	articleId="25c3877c-0482-4695-8640-d26dbddac347"
 />
 
 # open source technologies/python
