@@ -18,8 +18,8 @@
 
 ## **Recommended Steps**
 
-* The IPsec stack on the Windows OS is in DoS mode - it will stop accepting connection attempts.
-* This happens when there are more than 500 outstanding (incomplete) security associations.
-* This usually happens when the on-prem device has an issue and starts creating a security association, Azure starts replying, but the on-prem device stops responding.
-* Resetting the Azure VPN gateway will NOT help because after the reset, the on-prem device will still create Incomplete SAs.
-* The mitigation will involve a reboot of the on-prem device.
+* The IPsec stack on the Windows OS is in DoS mode - it will stop accepting connection attempts
+* This happens when there are more than 500 outstanding (incomplete) security associations
+* This usually happens when the on-prem device has an issue and starts creating a security association, Azure starts replying, but the on-prem device stops responding
+* Resetting the Azure VPN gateway will NOT help because after the reset, the on-prem device will still create Incomplete SAs
+* The mitigation will involve a reboot of the on-prem device
