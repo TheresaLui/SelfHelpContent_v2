@@ -19,8 +19,8 @@
 ## **Recommended Steps**
 
 * Utilize the "Visual Debugging" available in ASC on VPN Gateway resource. Most of the issues may be evident from these dashboards.
-* Diagnostic logs (IkeLogsTable, TunnelEvents, SeamlessTunnelServiceTraceTable) are available in ASC under the "Brooklyn Logs" tab.
-* You can also collect Gateway Diagnostics in ASC from the "Diagnostics" tab.
+* Diagnostic logs (IkeLogsTable, TunnelEvents, SeamlessTunnelServiceTraceTable) are available in ASC under the "Brooklyn Logs" tab
+* You can also collect Gateway Diagnostics in ASC from the "Diagnostics" tab
 * In some scenarios you may be required to collect these logs and diagnostics manually. In such scenarios, use the alternative steps link provided below.
 
 ## **Recommended Documents**
