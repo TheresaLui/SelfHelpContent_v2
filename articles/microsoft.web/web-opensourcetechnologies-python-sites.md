@@ -28,12 +28,12 @@
 	
 **Deployment**
 
-* [Install Python Modules on Azure App Services](https://prashanthmadi.github.io/2016/12/09-install-python-modules-on-azure-app-services-new.html)
+* [Install Python Modules on Azure App Services](https://prashanthmadi.github.io/2016/12/09/install-python-modules-on-azure-app-services-new.html)
 	
 **Development**
 
 * [Running Django App with HttpPlatformHandler in Azure App Services (Windows)](https://prashanthmadi.github.io/2016/11/15/django-app-with-httpplatformhandler-in-azure-app-services-windows-new.html)
-* [Running Flask App with HttpPlatformHandler in Azure App Services(Windows)](https://prashanthmadi.github.io/blob/master/_posts/2017/02/12/running-flask-app-with-httpplatformhandler-in-azure-app-services-new.markdown)
+* [Running Flask App with HttpPlatformHandler in Azure App Services(Windows)](https://prashanthmadi.github.io/2017/02/12/running-flask-app-with-httpplatformhandler-in-azure-app-services-new.html)
 * [Running Flask App in Azure App Services(Linux)](https://prashanthmadi.github.io/2017/02/12/running-flask-app-with-httpplatformhandler-in-azure-app-services-new.html)
 * [Running Python Web job on Azure App Services using non-default python version](https://prashanthmadi.github.io/2016/11/30/running-python-webjob-on-azure-app-services-using-non-default-python-version-new.html)
 * [Running Python Code on Azure Functions App]()
