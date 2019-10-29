@@ -16,6 +16,10 @@
 
 # Diagnose and resolve conenctivity issues to storage resources
 
+## **Recommended Steps**
+
+* If you are using Service principal and oauth for authenticating storage, please add AAD service endpoint to both subnets
+
 ## **Recommended Documents**
 
 * [Network Configuration of Azure Data Lake Storage Gen1 Causes ADLException: Error getting info for file](https://kb.azuredatabricks.net/cloud/azure-vnet-gen1-issue.html#problem-network-configuration-of-azure-data-lake-storage-gen1-causes-adlexception-error-getting-info-for-file)
