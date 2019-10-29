@@ -8,7 +8,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="diskImportExport1"
+	articleId="diskImportExport"
 />
 # Disk Import/Export issues
 ---
