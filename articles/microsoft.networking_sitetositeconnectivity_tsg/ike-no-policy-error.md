@@ -23,8 +23,8 @@ The Azure VPN gateway is not initiating IKE traffic and/or is not responding at 
 * The IP address of the on-prem device may be incorrect. Fix the IP address.
 * The customer might have not created a connection object. Create one.
 * The SiteConnectivityAction flag is set to Disconnect. Change it to Connect using the link below.
-* The customer might have configured everything correctly, but the gateway tenant may still miss to be properly configured.
+* The customer might have configured everything correctly, but the gateway tenant may still miss to be properly configured
 
 ## **Recommended Documents**
 
-* https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki?pageId=134283&&anchor=siteconnectivityaction-flag-set-to-disconnect
+* [Change SiteConnectivityAction flag to Connect](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki?pageId=134283&&anchor=siteconnectivityaction-flag-set-to-disconnect)
