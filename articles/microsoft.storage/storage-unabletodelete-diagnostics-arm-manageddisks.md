@@ -5,7 +5,6 @@ infoBubbleText="A running VM is attached to the disk. See details on the right."
 service="microsoft.storage"
 resource="storage"
 authors="divka78"
-ms.author="passap"
 displayOrder=""
 articleId="storagedeletionarm_manageddisk"
 diagnosticScenario="Classic Image exists"
@@ -13,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32602694"
 resourceTags="windows"
 productPesIds="15629"
-cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="public, MoonCake"
 />
 
 # **Running VM attached**

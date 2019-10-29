@@ -5,7 +5,6 @@ infoBubbleText="Storage account has a disk for an active VM. See details on the 
 service="microsoft.storage"
 resource="storage"
 authors="divka78"
-ms.author="passap"
 displayOrder=""
 articleId="storagedeletionclassic_diskattached"
 diagnosticScenario="Classic Disk exists"
@@ -13,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32602694"
 resourceTags="windows"
 productPesIds="15629"
-cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="public"
 />
 
 # **Classic Disk exists**
