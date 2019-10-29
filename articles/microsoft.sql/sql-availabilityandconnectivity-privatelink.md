@@ -10,7 +10,7 @@
 	supportTopicIds="32688848"
 	productPesIds="13491"
 	cloudEnvironments="public"
-	articleId="sqldb-selfhelp-solutions-availability and connectivity/privatelink"
+	articleId="sqldb-selfhelp-solutions-availabilityandconnectivity-privatelink"
 />
 
 # availability and connectivity/privatelink
