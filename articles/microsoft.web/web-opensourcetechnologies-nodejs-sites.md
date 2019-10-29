@@ -30,18 +30,18 @@ Addressing Slow Performance: <br>
 <br>
 Deployment Errors: <br>
 Check for error in deployment logs available at D:\home\site\deployment <br>
- - Instructions to [install native modules](https://prmadi.com/installing-native-nodejs-moduleson-azure-app-services-during-git-deployment/) <br>
- - For general questions on how to [run different tasks during deployment](https://prmadi.com/azure-custom-deployment/) <br>
+ - Instructions to [install native modules](https://prashanthmadi.github.io/2017/02/10/installing-native-nodejs-moduleson-azure-app-services-during-git-deployment-new.html) <br>
+ - For general questions on how to [run different tasks during deployment](https://prashanthmadi.github.io/2016/07/31/azure-custom-deployment-new.html) <br>
 
 Development Questions: <br>
- - [Nodejs App request Architecture](https://prmadi.com/nodejs-app-architecture-azure-app-services-windows/) <br>
- - [Nodejs and NPM Versions](https://prmadi.com/nodejs-npm-versions-azure-webaps/) <br>
+ - [Nodejs App request Architecture](https://prashanthmadi.github.io/2016/11/07/nodejs-app-architecture-azure-app-services-windows-new.html)  <br>
+ - [Nodejs and NPM Versions](https://prashanthmadi.github.io/2016/07/25/nodejs-npm-versions-azure-webaps-new.html) <br>
 
  Step-by-Step instructions for 
 
 [Running Sample Nodejs App on Azure App Services](https://blogs.msdn.microsoft.com/azureossds/2016/04/18/sample-nodejs-app-on-azure-app-services/)<br>
-[Running Meanjs on Azure App Services](https://prmadi.com/running-mean-js-app-on-azure-app-services/)<br>
-[Running Angularjs App on Azure App Services](https://prmadi.com/running-angular2-app-on-azure-app-services-with-ci-cd/)<br>
-[Running Ghost Blog on Azure App Services](https://prmadi.com/ghost-blog-on-azure-app-services)<br>
+[Running Meanjs on Azure App Services](https://prashanthmadi.github.io/2017/01/13/running-mean-js-app-on-azure-app-services-new.html)
+* [Running Angularjs App on Azure App Services](https://prashanthmadi.github.io/2017/01/13/running-angular2-app-on-azure-app-services-with-ci-cd-new.html)
+* [Running Ghost Blog on Azure App Services](https://prashanthmadi.github.io/2017/02/15/parse-on-azure-new.html)<br>
 [Running Parse Server on Azure App Services](https://prashanthmadi.github.io/2017/02/15/parse-on-azure-new.html)<br>
 [Running React + nodejs on Azure App Services](https://blogs.msdn.microsoft.com/reactjsnodejsazure/2017/08/01/reactjs-nodejs-express-azure-web-app/)
