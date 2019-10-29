@@ -16,7 +16,7 @@
 
 # IKE Cookies Are Invalid
 
-## Recommended Steps
+## **Recommended Steps**
 
 * IKE cookies are invalid.
 * The on-prem device is sending incorrect IPsec cookies.

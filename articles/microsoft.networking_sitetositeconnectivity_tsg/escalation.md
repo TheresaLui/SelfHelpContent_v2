@@ -16,7 +16,7 @@
 
 # VPN Gateway escalation path
 
-## Recommended Steps
+## **Recommended Steps**
 
 ## Standard Escalation
 
@@ -33,6 +33,6 @@
 * Provide the channel the "TSG History" from the TSG History button to help expedite the escalation process
 * Additionally, use the feedback button below to capture and improvements to the TSG
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Teams Channel for VPN Gateway](https://teams.microsoft.com/l/channel/19%3ae06ed20fd027444d88ae863541ab1c51%40thread.skype/VPN%2520%28S2S%2520and%2520P2S%29?groupId=c3e00ac7-3f76-4350-ba3b-e335a6bbbe21&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47)

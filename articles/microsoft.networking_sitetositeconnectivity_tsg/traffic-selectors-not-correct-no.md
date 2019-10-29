@@ -16,7 +16,7 @@
 
 # Use of traffic selectors
 
-## Recommended Steps
+## **Recommended Steps**
 
 * If narrow traffic selectors are being used, it means that the Azure VPN Gateway is configured to use narrow traffic selectors between the virtual network address space and the local network gateway address space.
 * Review IkeLogs/ SeamlessTunnelServiceTraceTable in ASC or Jarvis/Kusto from the time of the issue to see which side is using traffic selectors.

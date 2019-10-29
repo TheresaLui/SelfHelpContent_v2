@@ -16,7 +16,7 @@
 
 # DPD Timeout
 
-## Recommended Steps
+## **Recommended Steps**
 
 * The connection was closed due to dead peer detection.
 * DPD packets sent by the azure gateway are not being responded.

@@ -16,6 +16,6 @@
 
 # No Connection Object
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Please have the customer create a connection object and try again

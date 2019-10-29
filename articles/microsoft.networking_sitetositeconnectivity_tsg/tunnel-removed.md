@@ -16,7 +16,7 @@
 
 # Tunnel Removed
 
-## Recommended Steps
+## **Recommended Steps**
 
 * The customer has deleted the connection object or local network gateway.
 * The VPN gateway disconnected by design.

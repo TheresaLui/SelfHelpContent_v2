@@ -16,6 +16,6 @@
 
 # Update NSG on gateway subnet
 
-## Recommended Steps
+## **Recommended Steps**
 
 * In order to remediate this issue, enable the GatewayManager tag for this subnet

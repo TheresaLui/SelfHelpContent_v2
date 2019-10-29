@@ -16,7 +16,7 @@
 
 # How to collect Brooklyn Diagnostics for Policy Based VPN
 
-## Recommended Steps
+## **Recommended Steps**
 
 * It is possible to check quickly logs in ASC under the "Brooklyn Diagnostics" tab.
 * Once you have collected the traces, review the WFPdiag.txt log and identify the error that causes the issue.
@@ -24,6 +24,6 @@
 * In some scenarios, you may be required to collect these logs and diagnostics more manually.
 * In those scenarios only, use the link below:
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [How to Azure Gateway diagnostics](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki?pagePath=%2FAzure%20VPN%2FHow%20To%2FAzure%20Gateway%20Diagnostics&pageId=134103&wikiVersion=GBmaster)

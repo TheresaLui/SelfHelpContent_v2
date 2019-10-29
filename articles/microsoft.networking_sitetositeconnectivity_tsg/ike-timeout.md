@@ -16,7 +16,7 @@
 
 # IKE Timeout
 
-## Recommended Steps
+## **Recommended Steps**
 
 Remote site is unreachable.
 
@@ -25,6 +25,6 @@ Remote site is unreachable.
 * The connectivity issues can be due to Asymmetric routing when multiple network paths exist from On-Prem to Internet and if an on-prem stateful firewall is dropping the incoming traffic from Azure. More details on Asymmetric routing is documented at the link below
 * If we have logs/traces from the on-prem device showing that the device is receiving our traffic and correctly responding, the issue may be within the Azure infrastructure - but outside the VPN gateway scope.
 
-## Recommend Documents
+## **Recommended Documents**
 
 * https://docs.microsoft.com/azure/expressroute/expressroute-asymmetric-routing

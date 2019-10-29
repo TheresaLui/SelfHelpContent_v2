@@ -16,6 +16,6 @@
 
 # Config Does Not Match
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Please have the customer configure their device according to our published VPN scripts

@@ -16,7 +16,7 @@
 
 # How to check for traffic selector misconfiguration
 
-## Recommended Steps
+## **Recommended Steps**
 
 * In this scenario, there are Traffic Selectors in place that are only allowing connectivity to certain subnets and not to others.
 * Notice that usage of such limited traffic selectors may not prevent the VPN tunnel from correctly establishing, but will only block traffic from flowing.

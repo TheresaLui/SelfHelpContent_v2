@@ -16,6 +16,6 @@
 
 # Customer Initiated Reset
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Please inform the customer that this was a customer initiated reset

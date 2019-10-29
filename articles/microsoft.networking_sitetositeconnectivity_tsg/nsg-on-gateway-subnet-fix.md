@@ -16,13 +16,13 @@
 
 # Update NSG on Gateway subnet
 
-## Recommended Steps
+## **Recommended Steps**
 
 * To resolve this issue, add the GatewayManager tag on the subnet
 * This will apply the necessary NSG rules to allow traffic
 * Alternatively, you may remove the NSG from the Gateway subnet to isolate the issue.
 
-## Recommended Documents
+## **Recommended Documents**
 
 * https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsub
 * https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags

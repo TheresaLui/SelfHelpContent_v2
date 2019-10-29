@@ -16,7 +16,7 @@
 
 # Idle Timeout
 
-## Recommended Steps
+## **Recommended Steps**
 
 * By design, if there is no traffic sent into the tunnel, the Policy Based Gateway will drop the connection after 5 minutes of inactivity.
 * Review the wfpdiag.txt during the issue.

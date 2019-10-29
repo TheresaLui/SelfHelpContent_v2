@@ -16,7 +16,7 @@
 
 # IKE Payload is Invalid
 
-## Recommended Steps
+## **Recommended Steps**
 
 * IKE payload is invalid.
 * The on-prem device is sending an incorrect IKE payload.

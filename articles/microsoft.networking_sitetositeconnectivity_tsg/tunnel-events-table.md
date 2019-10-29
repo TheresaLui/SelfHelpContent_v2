@@ -16,7 +16,7 @@
 
 # How to check if the failure was a planned maintenance using the Tunnel Events Table
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Identify when the disconnection happened by reviewing the output of TunnelEventsTable or the Tenant Tunnel Stats from ASC Visual Debugging.
 * Identify a "TunnelStateChangedToDisconnected" event.

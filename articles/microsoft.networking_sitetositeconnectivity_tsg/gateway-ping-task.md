@@ -16,7 +16,7 @@
 
 # How to Check Gateway Ping Task Errors
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Check if the issue is caused by gateway ping task.
 * In this case, QMSAs are formed for each subnet pair in order to keep the SA active from getting timed-out after a period of 5 mins idle time.

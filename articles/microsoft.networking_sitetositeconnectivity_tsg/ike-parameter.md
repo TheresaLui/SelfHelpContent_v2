@@ -16,6 +16,6 @@
 
 # Incorrect IKE Parameter
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Identify from the IKELogsTable the incorrect parameter and have the parameter corrected

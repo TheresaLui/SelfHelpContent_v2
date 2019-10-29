@@ -16,7 +16,7 @@
 
 # Lifetime change QM Notify
 
-## Recommended Steps
+## **Recommended Steps**
 
 * The on-prem device is trying to change a connection parameter after the Main Mode is already established.
 * This is not supported by our gateway.

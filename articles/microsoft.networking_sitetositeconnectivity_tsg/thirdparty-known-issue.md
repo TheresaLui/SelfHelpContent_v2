@@ -16,6 +16,6 @@
 
 # Known Issue with 3rd Party Device
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Please have the customer use a configuration that does not have any known issues and work with the 3rd party vendor to resolve the issue

@@ -16,7 +16,7 @@
 
 # VPN Gateway vendor escalation
 
-## Recommended Steps
+## **Recommended Steps**
 
 * You've reached a point in this TSG where you need assistance from the vendor in order to further diagnose this issue.
 * Please contact the vendor in order to diagnose this issue further
