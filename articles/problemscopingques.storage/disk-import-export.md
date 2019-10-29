@@ -13,8 +13,8 @@
 # Disk Import/Export issues
 ---
 {
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Disk Import/Export issues",
     "fileAttachmentHint": "",
     "formElements": [
@@ -28,9 +28,21 @@
         {
             "id": "job_name",
             "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Please enter the job name",
-            "required": true
+            "controlType": "dropdown",
+            "displayLabel": "Please select the job name",
+            "required": true,
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+           	 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.ImportExport/jobs?api-version=2016-11-01",
+            	"jTokenPath": "value",
+            	"textProperty": "name",
+            	"valueProperty": "id",
+            	"textPropertyRegex": "[^/]+$",
+            	"defaultDropdownOptions": {
+                	"value": "dont_know_answer",
+                	"text": "Other, don't know or not applicable"
+            	}
+        }
         },
         {
             "id": "problem_description",
