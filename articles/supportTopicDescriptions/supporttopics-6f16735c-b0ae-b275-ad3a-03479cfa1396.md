@@ -676,7 +676,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "f8c2e1e4-fa16-52f7-5569-10c956934600",
-            "shortDescription": "Covers issues with Network Watcher extension,
+            "shortDescription": "Covers issues with Network Watcher extension",
             "category": "Deployment",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
