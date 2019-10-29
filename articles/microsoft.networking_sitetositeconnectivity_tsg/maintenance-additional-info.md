@@ -23,4 +23,4 @@
 
 ## **Recommended Documents**
 
-1. https://jarvis-west.dc.ad.msft.net/E0A7E039
+* [Jarvis Log Search](https://jarvis-west.dc.ad.msft.net/E0A7E039)
