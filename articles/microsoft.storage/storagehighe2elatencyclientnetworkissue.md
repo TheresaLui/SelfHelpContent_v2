@@ -12,7 +12,7 @@ diagnosticScenario="High E2E Latency due to client side network issues"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="public"
 />
 
 # High E2E Latency caused due to client side network issues
