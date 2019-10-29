@@ -26,5 +26,5 @@
 
 ## **Recommended Documents**
 
-* https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices
-* https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript
+* [VPN Gateways](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices)
+* [VPN Gateway Downloads](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript)
