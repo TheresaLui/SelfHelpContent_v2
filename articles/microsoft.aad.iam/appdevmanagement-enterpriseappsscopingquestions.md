@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Active Directory application sign in L1 issue"
-    description="appssigninl1datacollectiondoc"
+    pageTitle="Active Directory application issue"
+    description="appsproblemscoppingdoc"
     authors="hsku"
 	ms.author="hsku"
     selfHelpType="problemScopingQuestions"
@@ -11,15 +11,15 @@
     articleId="b9d2d149-19ca-4855-b4a8-5fa1bdee0358"
     />
 
-# Active Directory application sign in L1 issue
+# Active Directory application issue
 
 ---
 {
     "resourceRequired": false,
-    "title": "Active Directory application sign in L1 issue",
+    "title": "Active Directory Application Diagnose",
     "fileAttachmentHint": null,
 	"diagnosticCard": {
-        "title": "Active Directory application sign in L1 issue",
+        "title": "Active Directory Application Diagnose",
         "description": "Our Self-Service Enterprise App Troubleshooter can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
     },
