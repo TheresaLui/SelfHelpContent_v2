@@ -18,18 +18,20 @@
 
 ## **Recommended Steps**
 
-## Standard Escalation
+### Standard Escalation
 
-* If you have reached this step, it means that something which is supposed to work in a certain way, doesn’t work because of an issue on the Azure side.
-* The escalation process is as usual raising the issue on teams and get help from the Technical Advisors.
-* TA must determine if we got to this point because we didn’t properly follow the TSG and should have checked something else, or may determine this is an issue that requires an ICM, where EEE/PG should be involved.
+* If you have reached this step, it means that something which is supposed to work in a certain way, doesn’t work because of an issue on the Azure side
+* The escalation process is as usual raising the issue on teams and get help from the Technical Advisors
+* TA must determine if we got to this point because we didn’t properly follow the TSG and should have checked something else, or may determine this is an issue that requires an ICM, where EEE/PG should be involved
 
-## Expedited Escalation
+### Expedited Escalation
 
 * For fastest escalation support, use the Teams Channel for VPN Gateway
-* Click the link below to be taken to the Teams Channel. Use Ava to notify the available SMEs for assistance, For example:
+* Click the link below to be taken to the Teams Channel. Use Ava to notify the available SMEs for assistance, for example:
+
   * ava case SR number
   * (Use'@' to invoke Ava)
+
 * Provide the channel the "TSG History" from the TSG History button to help expedite the escalation process
 * Additionally, use the feedback button below to capture and improvements to the TSG
 
