@@ -16,4 +16,6 @@
 
 # Correct Traffic Selectors
 
+## Recommended Steps
+
 * Please have the customer correct the traffic selector subnets to match on both sides

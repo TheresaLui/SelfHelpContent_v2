@@ -16,5 +16,7 @@
 
 # IKE Version Mismatch
 
+## Recommended Steps
+
 * If the customer is running Policy Based Gateways, verify that the on-prem device is configured to use IKEv1.
 * If instead this is a Route Based Gateways, verify that the onprem device is configured to use IKEv2.

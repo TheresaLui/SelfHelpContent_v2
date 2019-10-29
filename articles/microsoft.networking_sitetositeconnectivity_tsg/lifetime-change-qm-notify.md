@@ -16,6 +16,8 @@
 
 # Lifetime change QM Notify
 
+## Recommended Steps
+
 * The on-prem device is trying to change a connection parameter after the Main Mode is already established.
 * This is not supported by our gateway.
 * The customer needs to fix their on-prem device to establish the IPsec session directly with the final settings we want to use.

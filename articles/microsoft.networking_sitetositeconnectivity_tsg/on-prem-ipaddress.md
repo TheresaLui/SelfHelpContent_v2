@@ -16,4 +16,6 @@
 
 # Correct On Prem IP Address
 
+## Recommended Steps
+
 * Please have the customer correct the IP Address configuration and try again

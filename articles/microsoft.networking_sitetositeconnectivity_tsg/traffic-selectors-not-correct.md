@@ -16,6 +16,8 @@
 
 # Use of traffic selectors
 
+## Recommended Steps
+
 * If narrow traffic selectors aren't being used, it means that the Azure VPN Gateway is configured to use 0.0.0.0/0 <-> 0.0.0.0/0 traffic selectors.
 * However, the on-prem device may still narrow down the Traffic Selectors
 * Review IkeLogs/ SeamlessTunnelServiceTraceTable in ASC or Jarvis/Kusto from the time of the issue to see which side is using traffic selectors.

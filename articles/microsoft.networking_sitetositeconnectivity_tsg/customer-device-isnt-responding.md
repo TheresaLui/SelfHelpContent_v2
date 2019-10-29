@@ -16,4 +16,6 @@
 
 # Customer device is not responding
 
+## Recommended Steps
+
 * Please have the customer diagnose their unreachable gateway issues and try again

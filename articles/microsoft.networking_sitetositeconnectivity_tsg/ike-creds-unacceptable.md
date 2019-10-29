@@ -16,6 +16,8 @@
 
 # IKE Creds Unacceptable
 
+## Recommended Steps
+
 * The customer has changed the Pre-shared key either on the Azure or the on-prem side.
 * This caused the tunnel to go down.
 * Advise customer to change the Pre-shared key so that it matches on both sides

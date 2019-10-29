@@ -16,8 +16,10 @@
 
 # How to check for known issues with third party devices
 
+## Recommended Steps
+
 * Check if the symptoms matches with any of the known 3rd party issues documented at the link below
 
-## Private Links
+## Recommended Documents
 
-1. https://www.csssupportwiki.com/index.php/curated:Azure_Networking_-_VPN_Connection_Unreliable#Issues_with_3rd_party_devices
+* https://www.csssupportwiki.com/index.php/curated:Azure_Networking_-_VPN_Connection_Unreliable#Issues_with_3rd_party_devices

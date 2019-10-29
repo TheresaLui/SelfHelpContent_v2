@@ -16,6 +16,8 @@
 
 # IKE Payload is Invalid
 
+## Recommended Steps
+
 * IKE payload is invalid.
 * The on-prem device is sending an incorrect IKE payload.
 * Tell customer to engage the third-party device vendor

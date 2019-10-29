@@ -16,6 +16,8 @@
 
 # Planned Maintenance
 
+## Recommended Steps
+
 * Please remember that our gateways would trigger a failover proactively for every Host maintenance event and this is a new change to reduce the over all downtime.  Traditionally we were depending on SLB time-out to trigger the failover which introduced more delays.
 * Inform the customer the Disconnection is caused by planned maintenance.
   

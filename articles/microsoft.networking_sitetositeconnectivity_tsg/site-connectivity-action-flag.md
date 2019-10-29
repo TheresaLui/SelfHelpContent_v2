@@ -16,9 +16,11 @@
 
 # Site Connectivity Action Flag
 
+## Recommended Steps
+
 * The SiteConnectivityAction flag is set to Disconnect.
 * Change it to Connect per the below link
 
-## Private Links
+## Recommended Documents
 
-1. https://www.csssupportwiki.com/index.php/curated:Azure_Networking_-_VPN_Down#SiteConnectivityAction_flag_set_to_Disconnect
+* https://www.csssupportwiki.com/index.php/curated:Azure_Networking_-_VPN_Down#SiteConnectivityAction_flag_set_to_Disconnect

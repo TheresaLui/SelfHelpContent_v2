@@ -16,6 +16,8 @@
 
 # DOS Mode On
 
+## Recommended Steps
+
 * The IPsec stack on the Windows OS is in DoS mode - it will stop accepting connection attempts.
 * This happens when there are more than 500 outstanding (incomplete) security associations.
 * This usually happens when the on-prem device has an issue and starts creating a security association, Azure starts replying, but the on-prem device stops responding.

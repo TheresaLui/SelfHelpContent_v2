@@ -16,9 +16,11 @@
 
 # How to check if customer initiated reset
 
+## Recommended Steps
+
 * To see if it was a customer initiated reset
 * Look for ResetVirtualNetworkGatewayOperation during that time in NRP > FrontendOperationEtwEvent using the link below
 
-## Private Links
+## Recommended Documents
 
 1. https://jarvis-west.dc.ad.msft.net/E0A7E039

@@ -16,6 +16,8 @@
 
 # DPD Timeout
 
+## Recommended Steps
+
 * The connection was closed due to dead peer detection.
 * DPD packets sent by the azure gateway are not being responded.
 * Collect traces on the on-prem device

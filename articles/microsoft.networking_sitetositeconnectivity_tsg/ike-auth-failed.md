@@ -16,4 +16,6 @@
 
 # Preshared Key Error
 
+## Recommended Steps
+
 * Verify that the Pre-shared key configured on the on-prem device matches the one configured on the Azure side.

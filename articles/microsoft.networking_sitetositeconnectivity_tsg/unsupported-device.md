@@ -16,5 +16,7 @@
 
 # Incorrect IKE Parameter
 
+## Recommended Steps
+
 * The customer must use a supported device.
 * Identify from the IKELogsTable the incorrect parameter and have the customer fix the parameter on their side, if their device supports it.

@@ -16,4 +16,6 @@
 
 # Security Association Limitation
 
+## Recommended Steps
+
 * This is a hard limit and can not be adjusted. Please ask the customer to narrow their use of subnets or to not use traffic selectors.

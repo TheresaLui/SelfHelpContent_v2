@@ -16,4 +16,6 @@
 
 # IP Address Incorrect
 
+## Recommended Steps
+
 * Please have the customer correct their IP Address configuration and try again

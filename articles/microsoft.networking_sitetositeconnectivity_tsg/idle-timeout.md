@@ -16,6 +16,8 @@
 
 # Idle Timeout
 
+## Recommended Steps
+
 * By design, if there is no traffic sent into the tunnel, the Policy Based Gateway will drop the connection after 5 minutes of inactivity.
 * Review the wfpdiag.txt during the issue.
 * When you see the sequence: Received Expire Notification -> Deleting QM its the driver on the VPN gateway initiating the QM Delete after 5 minutes idle timeout (dont be misled by the received wording in the log, this isnt received from on-premises)

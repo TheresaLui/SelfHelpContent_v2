@@ -16,4 +16,6 @@
 
 # Remotely Triggered Disconnect
 
+## Recommended Steps
+
 * The customers on-prem device has sent a disconnect. You can get further proof by reviewing the IkeLogsTable at the time of the disconnection. Inform the customer that the disconnection was caused by the on-prem device.
