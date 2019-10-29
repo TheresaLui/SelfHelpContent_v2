@@ -13,7 +13,7 @@
 	supportTopicIds="32602773"
 	resourceTags=""
 	productPesIds="16462"
-	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
+	cloudEnvironments="public,Mooncake"
 />
 
 # How to find the right data migration method
