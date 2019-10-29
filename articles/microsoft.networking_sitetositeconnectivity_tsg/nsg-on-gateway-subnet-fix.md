@@ -18,7 +18,7 @@
 
 * To resolve this issue, add the GatewayManager tag on the subnet
 * This will apply the necessary NSG rules to allow traffic
-* Alternatively, you may remove the NSG from the Gateway subent to isolate the issue.
+* Alternatively, you may remove the NSG from the Gateway subnet to isolate the issue.
 
 ## Public Links
 

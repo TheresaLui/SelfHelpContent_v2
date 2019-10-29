@@ -17,7 +17,7 @@
 # How to check if the failure was a planned maintenance using the Tunnel Events Table
 
 * Identify when the disconnection happened by reviewing the output of TunnelEventsTable or the Tenant Tunnel Stats from ASC Visual Debugging.
-* Identify a “TunnelStateChangedToDisconnected” event.
+* Identify a "TunnelStateChangedToDisconnected" event.
 * Identify the values of IsPlannedFailover and TunnelStateChangeReason columns.
-* If **isPlannedFailover = true** this normally indicates maintenance, or that the customer intentionally executed a Gateway Reset. In both these circumstances, the TunnelStateChangeReason should be either of “GlobalStandbyChanged”, “StandbyChanged”, “Locally Triggered” or “DPD timed out”.
+* If **isPlannedFailover = true** this normally indicates maintenance, or that the customer intentionally executed a Gateway Reset. In both these circumstances, the TunnelStateChangeReason should be either of "GlobalStandbyChanged", "StandbyChanged", "Locally Triggered" or "DPD timed out".
 * If **isPlannedFailover = false** the disconnection happened because of an issue or intentional configuration change (not maintenance).

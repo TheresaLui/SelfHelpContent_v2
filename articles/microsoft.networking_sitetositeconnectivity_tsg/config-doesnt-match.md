@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Config Doesnt Match"
-	description="Config Doesnt Match"
+	pageTitle="Config Does Not Match"
+	description="Config Does Not Match"
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="JRMayberry"
@@ -14,6 +14,6 @@
 	articleId="1c3bbfeb-6fee-4f0b-a2da-b372edcd23e0"
 />
 
-# Config Doesnt Match
+# Config Does Not Match
 
 * Please have the customer configure their device according to our published VPN scripts

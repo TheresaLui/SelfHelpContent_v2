@@ -16,4 +16,4 @@
 
 # Received MM Delete
 
-* The on-prem device has deleted the security association causing the Tunnel to go down. Tell customer to investigate their on-prem device. 
+* The on-prem device has deleted the security association causing the Tunnel to go down. Tell customer to investigate their on-prem device.

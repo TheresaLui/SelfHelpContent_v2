@@ -16,7 +16,7 @@
 
 # Gateway not sending IPsec traffic
 
-The Azure VPN gateway is not initiating IKE traffic and/or is not responding at all to the on-prem device connection attempts. In this scenario, the issue is that the gateway tenant is not configured to connect to this specific on-prem device (in some circumstances, this could cause the gateway to load the “default” policy that uses Certificate authentication rather than PSK – this is a good pointer in the logs). Reasons for this may include:
+The Azure VPN gateway is not initiating IKE traffic and/or is not responding at all to the on-prem device connection attempts. In this scenario, the issue is that the gateway tenant is not configured to connect to this specific on-prem device (in some circumstances, this could cause the gateway to load the "default" policy that uses Certificate authentication rather than PSK – this is a good pointer in the logs). Reasons for this may include:
 
 * The IP address of the on-prem device may be incorrect. Fix the IP address.
 * The customer might have not created a connection object. Create one.
