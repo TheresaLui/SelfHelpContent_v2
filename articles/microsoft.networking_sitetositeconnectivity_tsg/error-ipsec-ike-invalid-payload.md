@@ -18,8 +18,9 @@
 
 ## **Recommended Steps**
 
-* IKE payload is invalid.
-* The on-prem device is sending an incorrect IKE payload.
+* IKE payload is invalid
+* The on-prem device is sending an incorrect IKE payload
 * Tell customer to engage the third-party device vendor
 * When Azure is initiator, and if the peer only accepts narrow traffic selectors, the following message will be logged in IkeLogsTable/TunnelInsightsEventTable **Invalid payload received**
-  * To fix this, please configure narrow Traffic Selectors on Azure VPN Gateway
+
+	* To fix this, please configure narrow Traffic Selectors on Azure VPN Gateway
