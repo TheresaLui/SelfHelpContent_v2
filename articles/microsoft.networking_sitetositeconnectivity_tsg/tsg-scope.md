@@ -22,6 +22,8 @@ This TSG covers scenarios for the following support topics:
 * Routing Azure Virtual Networks V3\VPN Gateway\VPN tunnel is down or never connected
 * Routing Azure Virtual Networks V3\VPN Gateway\Unable to connect to VM or application via established VPN tunnel
 
+## **Recommended Steps**
+
 **If your case is incorrectly marked for these support topics (mis-routed), please:**
 
 * Enter the case number below and click Submit
