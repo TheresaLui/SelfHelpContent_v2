@@ -29,15 +29,13 @@ When you provision containers with shared database offering:
 
 - If you create a database named (MyDB) with a provisioned throughput of 10K RU/s <br>
 - If you provision 25 containers under (MyDB), then all the containers are grouped into a partition set. At any point of time, if you are using only one container from the database, then it can use a maximum of 10K RU/s (D)<br>
-- When you provision 26th container, a new partition set is created and the throughput is split equally between both the partition sets. So at any point of time, if you are using only one container from the database it can use a maximum of 5K RU/s (D/2). Because there are two partition sets, the throughput shareability factor is split into D/2. <br>
-<br>
+- When you provision 26th container, a new partition set is created and the throughput is split equally between both the partition sets. At any point of time, if you are using only one container from the database, it can use a maximum of 5K RU/s (D/2). Because there are two partition sets, the throughput shareability factor is split into D/2. <br>
 
 ![throughput visual](https://docs.microsoft.com/azure/cosmos-db/media/set-throughput/database-level-throughput-shareability-factor.png)
 
 ### Migration from Dedicated throughput collection to Shared throughput
 
 We do not have out of the box support for migration of the dedicated throughput collection to shared throughput and vice-versa. To switch from dedicated throughput mode to shared throughput mode (and vice versa) after the container is created, you have to create a new container and migrate the data to the new container. You can migrate the data by using the ADF or tools based on change feed processor library.<br>
-<br>
 
 ### Per Collection Minimum RUs
 
