@@ -1,6 +1,6 @@
 <properties
-description="Azure Active Directory Login extension issue"
-pageTitle="Azure Active Directory Login extension issue"
+	description="Azure Active Directory Login extension issue"
+	pageTitle="Azure Active Directory Login extension issue"
 	description="Azure Active Directory Login extension issue"
 	service="microsoft.compute"
 	resource="virtualmachines"
