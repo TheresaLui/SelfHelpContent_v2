@@ -4,12 +4,13 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602762"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="21436305-8ddd-44f2-b3cc-9cba908ac0da"
 />
 
