@@ -17,4 +17,4 @@
 
 ## **Recommended Documents**
 
-* [Private Link](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-private-endpoint-overview#test-connectivity-to-sql-database-from-an-azure-vm-in-same-virtual-network-vnet)<br>
+* [Private Link](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview#test-connectivity-to-sql-database-from-an-azure-vm-in-same-virtual-network-vnet)<br>
