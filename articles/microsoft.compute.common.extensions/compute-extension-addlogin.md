@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32684010,32684011,32684012,32684013,32684014"
+	supportTopicIds="32684014"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
