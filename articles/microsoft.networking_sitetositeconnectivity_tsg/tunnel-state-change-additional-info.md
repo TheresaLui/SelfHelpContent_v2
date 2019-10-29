@@ -18,4 +18,4 @@
 
 ## **Recommended Steps**
 
-* **Note**: If the tunnel continues to stay down, you may want to click 'Start Over' and choose "VPN doesnt connect or never connected" scenario.
+* **Note**: If the tunnel continues to stay down, you may want to click 'Start Over' and choose "VPN doesnt connect or never connected" scenario
