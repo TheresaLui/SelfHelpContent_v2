@@ -10,7 +10,7 @@
 	supportTopicIds="32640631"
 	resourceTags=""
 	productPesIds="16469"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppPerfLowThroughput"
 />
 
