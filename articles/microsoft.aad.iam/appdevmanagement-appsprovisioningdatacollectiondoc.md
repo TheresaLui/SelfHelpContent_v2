@@ -18,11 +18,6 @@
     "resourceRequired": false,
     "title": "Active Directory application provisioning issue",
     "fileAttachmentHint": null,
-	"diagnosticCard": {
-        "title": "Active Directory application provisioning issue",
-        "description": "Our Self-Service Enterprise App Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
-    },
     "formElements": [
         {
             "id": "userNameOrId",
@@ -39,8 +34,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "timestamp",
@@ -57,8 +51,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "appNameOrId",
@@ -75,8 +68,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 2
         },
         {
             "id": "problem",

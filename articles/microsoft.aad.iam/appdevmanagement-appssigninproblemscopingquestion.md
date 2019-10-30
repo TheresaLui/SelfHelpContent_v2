@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Active Directory application issue"
-    description="appsproblemscoppingdoc"
+    pageTitle="Active Directory Application sign In Issue"
+    description="appssigninproblemscopingquestion"
     authors="hsku"
 	ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32268132,32570275,32570274,32570259"
+    supportTopicIds="32570259"
     productPesIds="16575"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="b9d2d149-19ca-4855-b4a8-5fa1bdee0358"
     />
 
-# Active Directory application issue
+# Active Directory Application sign In Issue
 
 ---
 {
     "resourceRequired": false,
-    "title": "Active Directory Application Diagnose",
+    "title": "Active Directory Application sign In Issue",
     "fileAttachmentHint": null,
 	"diagnosticCard": {
-        "title": "Active Directory Application Diagnose",
-        "description": "Our Self-Service Enterprise App Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
+        "title": "Active Directory Application sign In Issue",
+        "description": "Our Self-Service Active Directory Application sign In Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
         {

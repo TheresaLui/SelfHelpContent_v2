@@ -17,11 +17,6 @@
     "resourceRequired": false,
     "title": "Active Directory application access panel issue",
     "fileAttachmentHint": null,
-	"diagnosticCard": {
-        "title": "Active Directory application access panel issue",
-        "description": "Our Self-Service Enterprise App Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs. See our manual troubleshooting steps below to troubleshoot your problem."
-    },
     "formElements": [
         {
             "id": "whichUser",
@@ -38,8 +33,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "problem",
@@ -107,8 +101,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2,
-			"diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 2
         },
         {
             "id": "problem_description",
@@ -132,8 +125,7 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-			"diagnosticInputRequiredClients": "Portal"
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
