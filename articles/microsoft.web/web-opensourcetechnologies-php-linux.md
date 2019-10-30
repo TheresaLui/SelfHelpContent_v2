@@ -16,12 +16,14 @@
 
 # open source technologies/php
 
-## **Recommended documents**
+## **Recommended Documents**
 
-Configuration: <br>
-[Azure App Service Linux - Adding PHP Extensions](https://azureossd.github.io/2019/01/29/azure-app-service-linux-adding-php-extensions/)<br>
-[Azure App Service Linux - Update PHP Settings ](https://azureossd.github.io/2019/01/29/azure-app-service-linux-update-php-settings/)<br>
-<br>
-Troubleshooting <br>
-[PHP Troubleshooting Guide for Common Errors](https://azure.github.io/AppService/2016/09/14/PHP-troubleshooting-guide-for-common-errors.html)<br>
-[PHP Error Log on Azure Website](https://azureossd.github.io/2015/04/15/info-about-php-fatal-error-and-error-log-on-azure-website/)<br>
+**Configuration**
+
+* [Azure App Service Linux - Adding PHP Extensions](https://azureossd.github.io/2019/01/29/azure-app-service-linux-adding-php-extensions/)
+* [Azure App Service Linux - Update PHP Settings ](https://azureossd.github.io/2019/01/29/azure-app-service-linux-update-php-settings/)
+
+**Troubleshooting**
+
+* [PHP Troubleshooting Guide for Common Errors](https://azure.github.io/AppService/2016/09/14/PHP-troubleshooting-guide-for-common-errors.html)
+* [PHP Error Log on Azure Website](https://azureossd.github.io/2015/04/15/info-about-php-fatal-error-and-error-log-on-azure-website/)<br>
