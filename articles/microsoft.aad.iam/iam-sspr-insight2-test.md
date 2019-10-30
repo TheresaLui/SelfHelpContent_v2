@@ -16,7 +16,7 @@
     cloudEnvironments="public"
 />
 
-# Case Creation Insight Demo
+# Case Creation Insight Blade Link Demo
 <!--/issueDescription-->
 There is no issue detected for domains. [Please check all your domains here](data-blade:Microsoft_AAD_IAM.DomainsListBlade.Domains)
 <!--/issueDescription-->
