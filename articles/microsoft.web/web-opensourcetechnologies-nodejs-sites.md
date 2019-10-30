@@ -36,8 +36,8 @@
 
 * Development Questions: 
 
- - [Nodejs App request Architecture](https://prashanthmadi.github.io/2016/11/07/nodejs-app-architecture-azure-app-services-windows-new.html)  <br>
- - [Nodejs and NPM Versions](https://prashanthmadi.github.io/2016/07/25/nodejs-npm-versions-azure-webaps-new.html) <br>
+	* [Nodejs App request Architecture](https://prashanthmadi.github.io/2016/11/07/nodejs-app-architecture-azure-app-services-windows-new.html)
+	* [Nodejs and NPM Versions](https://prashanthmadi.github.io/2016/07/25/nodejs-npm-versions-azure-webaps-new.html)
 
 ## **Recommended Documents**
 
