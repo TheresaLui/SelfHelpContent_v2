@@ -5,7 +5,7 @@
     resource="factories"
     authors="shelfeng"
     ms.author="shelfeng"
-    displayOrder="5"
+    displayOrder="16"
     selfHelpType="resource"
     supportTopicIds="32629461"
     resourceTags=""
