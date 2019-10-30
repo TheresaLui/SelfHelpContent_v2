@@ -8,7 +8,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="18b06d30-478c-4950-b3bc-5ed2dfecdd7d"
+         articleId="f2bf8fdc-5f56-486d-9f2a-8770371e3d8d"
 />
 # Scoping questions for SAP Hana backup performance
 ---
