@@ -934,8 +934,8 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
-            "id": "",
-            "shortDescription": "bc6dcea4-b6da-cd06-7ab1-1ddfb603eaee",
+            "id": "bc6dcea4-b6da-cd06-7ab1-1ddfb603eaee",
+            "shortDescription": " ",
             "category": "",
             "searchTags": "xyz",
             "useInDiagnoseAndSolve": "FALSE"
