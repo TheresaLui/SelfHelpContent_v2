@@ -15,7 +15,7 @@
 
 # Application Gateway - General Guidance or Advisory
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Tutorial: Deploying an Application Gateway Ingress Controller](https://azure.github.io/application-gateway-kubernetes-ingress/tutorial/)<br>
 * [Troubleshooting Ingress Controller issues](https://azure.github.io/application-gateway-kubernetes-ingress/troubleshooting/)
