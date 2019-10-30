@@ -1,7 +1,7 @@
 <properties
     pageTitle="HDInsight CRUD failure with invalid VM SKU"
     description="HDInsight CRUD failure with invalid VM SKU"
-    infoBubbleText="Found recent invalid vm sku error. See details on the right."
+    infoBubbleText="Found recent invalid vm SKU error. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
@@ -18,12 +18,12 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-There is a problem creating HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> because there is an invalid virtual machine sku.
+There is a problem creating HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> because there is an invalid virtual machine SKU.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Please update the virtual machine sku to one of the skus mentioned here : <!--$ErrorDescription-->[ErrorDescription]<!--/$ErrorDescription--> 
+* Please update the virtual machine SKU to one of the SKUs mentioned here : <!--$ErrorDescription-->[ErrorDescription]<!--/$ErrorDescription--> 
 
 ## **Recommended Documents**
 
