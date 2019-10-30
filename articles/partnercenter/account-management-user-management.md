@@ -23,7 +23,7 @@ Information about Partner Center Account User management
 
 ## **Recommended Documents**
 
-* [How to manage users in Partner Center](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/manage-account#manage-users)
+* [How to manage users in Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account#manage-users)
 
 
 

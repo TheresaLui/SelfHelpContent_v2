@@ -23,7 +23,7 @@ Information about Partner Center Account Registration
 
 ## **Recommended Documents**
 
-* [How to enrol in the Commercial marketplace program](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/create-account)
+* [How to enrol in the Commercial marketplace program](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-account)
 
 
 

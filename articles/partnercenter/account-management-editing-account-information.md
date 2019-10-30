@@ -23,7 +23,7 @@ Manage Account Information
 
 ## **Recommended Documents**
 
-* [Manage your Account Information](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/manage-account)
+* [Manage your Account Information](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account)
 
 
 

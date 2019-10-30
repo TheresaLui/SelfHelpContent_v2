@@ -23,6 +23,6 @@ Information about Bank and Tax profiles
 
 ## **Recommended Documents**
 
-* [Configure your Bank and Tax profiles](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/manage-account#financial-details)
+* [Configure your Bank and Tax profiles](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account#financial-details)
 
 

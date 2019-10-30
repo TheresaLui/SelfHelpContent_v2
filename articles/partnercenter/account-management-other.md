@@ -23,6 +23,6 @@ Other topics related to account management
 
 ## **Recommended Documents**
 
-* [Learn about the Microsoft Partner Network program](https://docs.microsoft.com/en-us/partner-center/join-a-partner-program)
+* [Learn about the Microsoft Partner Network program](https://docs.microsoft.com/partner-center/join-a-partner-program)
 
 

@@ -23,5 +23,5 @@ Information about Account migration from CPP to PC.
 
 ## **Recommended Documents**
 
-* [Need help with migrating your publisher account from CPP to PC?](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/create-account#publishers-moving-from-cpp)
+* [Need help with migrating your publisher account from CPP to PC?](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-account#publishers-moving-from-cpp)
 
