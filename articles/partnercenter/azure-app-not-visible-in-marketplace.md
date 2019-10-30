@@ -10,7 +10,7 @@
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType=""
-	supportTopicIds="32689329"
+	supportTopicIds="32689398"
 	resourceTags=""
 	productPesIds="15960"
 	cloudEnvironments="public"
