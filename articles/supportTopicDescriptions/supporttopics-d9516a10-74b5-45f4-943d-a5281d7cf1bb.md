@@ -242,7 +242,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
     {
       "id": "4d2e2c03-38ca-6f87-4bad-7a6b35fa9da7",
-      "shortDescription": "Query is resulting in an error and failing to execute,
+      "shortDescription": "Query is resulting in an error and failing to execute",
       "longDescription": "",
       "category": "Core (SQL)",
       "searchTags": "sql query",
