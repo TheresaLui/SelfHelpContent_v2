@@ -15,7 +15,7 @@
 
 # Application Gateway - Connectivity
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to Use WebSockets](https://azure.github.io/application-gateway-kubernetes-ingress/how-tos/websockets/)<br>
 * [How to Enable Azure CNI (Advanced Networking)](https://docs.microsoft.com/azure/aks/configure-azure-cni#configure-networking---cli)
