@@ -15,7 +15,7 @@
 
 # Application Gateway - Configuration and Setup
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Supported Annotations and their Usages](https://azure.github.io/application-gateway-kubernetes-ingress/annotations/)<br>
 * [How to Support Multiple Namespaces](https://azure.github.io/application-gateway-kubernetes-ingress/features/multiple-namespaces/)<br>
