@@ -18,14 +18,13 @@
 
 ## **Recommended Steps**
 
-1. Ensure your Cloud Operator has a supported AKS Engine version available in your Marketplace. For more information review the [Prerequisites for the AKS Engine](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-set-up#prerequisites-for-the-aks-engine)
+1. Ensure your Cloud Operator has a supported AKS Engine version available in your Marketplace. For more information review the [Prerequisites for the AKS Engine](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-set-up#prerequisites-for-the-aks-engine).
 
 2. If your installation method is failing, try the the [steps for a disconnected environment](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-deploy-linux#install-in-a-disconnected-environment)
 
-
 ### **Known Issues**
 
-You must specify a supported Kubernetes version with the --version parameter when running the get-akse command. Link to the [supported versions](https://github.com/Azure/aks-engine/blob/master/docs/topics/azure-stack.md#supported-kubernetes-versions)
+You must specify a [supported Kubernetes version](https://github.com/Azure/aks-engine/blob/master/docs/topics/azure-stack.md#supported-kubernetes-versions) with the `--version` parameter when running the `get-akse` command.
 
 
 ## **Recommended Documents**
