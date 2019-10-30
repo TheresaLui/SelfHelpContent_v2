@@ -1,9 +1,10 @@
 <properties
 	pageTitle="Scoping questions for Issue with Azure purchase"
 	description="Scoping questions for Subscription Management/Issue with Azure purchase"
-	authors="AlexKuriatnyk"
+	authors="prdasneo"
+	ms.author="prdasneo"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454924,32549154,32549157,32549161,32549160,32454931,32549155,32549158,32549162,32549159"
+   supportTopicIds="32632948"
 	productPesIds="15660"
 	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
@@ -13,34 +14,59 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Purchase Issues - Azure Subscriptions",
+    "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_description",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date",
+            "required": true
+        },
+	{
+            "id": "subscription_details",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "",
+            "required": true
+        },
+	{
+            "id": "phonenumber_details",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Phone number used during purchase",
+            "watermarkText": "Provide the Phone number used during purchase",
+            "required": false
+        },
+	{
+            "id": "emailid_details",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Email address used during purchase",
+            "watermarkText": "Provide the Email address used during purchase",
+            "required": false
+        },
+	{
+            "id": "error_details",
+            "order": 5,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Issue description"
-                },
-                {
-                    "text": "Phone number used during sign-up"
-                },
-                {
-                    "text": "Email address used during sign-up"
-                }
-            ]
+            "displayLabel": "Error Message (if any)",
+            "watermarkText": "",
+            "required": false
         },
         {
-            "id": "problem_start_time",
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem start time",
+            "id": "problem_description",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Issue description",
+            "watermarkText": "Provide any additional information about your issue",
             "required": true
-        }
-    ]
+	    }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

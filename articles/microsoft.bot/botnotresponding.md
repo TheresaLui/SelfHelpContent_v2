@@ -7,7 +7,7 @@
 	ms.author="arturl,saziz"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds="32630656, 32630660, 32630669, 32630673, 32630681, 32630687"
+	supportTopicIds="32688621"
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
@@ -17,6 +17,8 @@
 # My bot is not responding or times out
 
 Timeout errors usually manifest themselves as HTTP GatewayTimeout errors (504). This happens when the bot fails to respond to the Bot Framework within 15 seconds. 
+
+[The bottroubleshooter community tool](https://github.com/BotBuilderCommunity/botbuilder-community-tools/tree/master/bottroubleshooter) can help identify certain issues. Please download the troubleshooter and follow the guidance as detailed in there.
 
 ## **Recommended Steps**
 

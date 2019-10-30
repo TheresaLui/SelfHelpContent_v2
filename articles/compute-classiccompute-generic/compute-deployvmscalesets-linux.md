@@ -2,8 +2,9 @@
 	pageTitle="configuration and setup/deploy vm scale sets (linux)"
 	description="configuration and setup/deploy vm scale sets (linux)"
 	service="microsoft.compute"
-	resource="virtualmachines"
+	resource="virtualmachinescalesets"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32539972"
@@ -15,10 +16,10 @@
 
 # Configuration and Setup/Deploy VM Scale Sets (Linux)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Review the steps to automatically scale machines](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-linux-autoscale?toc=%2fazure%2fmonitoring-and-diagnostics%2ftoc.json)<br>
-* [Troubleshooting autoscale with Virtual Machine Scale Sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-troubleshoot)
+* [Troubleshooting autoscale with Virtual Machine Scale Sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-troubleshoot)<br>
 * [Frequently asked questions for scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json#frequently-asked-questions-for-scale-sets)<br>
 * [Additional frequently asked questions for scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
 * [Overview of Virtual Machine Scale Sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>

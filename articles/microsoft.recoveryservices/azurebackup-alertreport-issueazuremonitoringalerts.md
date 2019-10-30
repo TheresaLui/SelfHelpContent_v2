@@ -16,10 +16,9 @@
 
 # Issue with Azure Monitoring alerts 
 
-## **Recommended Steps**
-
-* Review your [Azure Monitoring Alert rules](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-response) for invalid entries
-
 ## **Recommended Documents**
 
-* [Azure Monitoring Alerts Overview](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview)
+- [Azure Monitoring Alerts Overview](https://aka.ms/Azure-MonitorAlerts-Overview)<br>
+- [Log alert not received](https://aka.ms/AB-Alert-Tshooting) (or [was disabled](https://aka.ms/AB-Alerts-Disabled))<br>
+- [Log alerts received with delays](https://aka.ms/AB-Alerts-Delay)<br>
+- [How to Create, view, and manage log alerts](https://aka.ms/AB-Alerts-Howto)

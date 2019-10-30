@@ -7,13 +7,13 @@
 	authors="ramMSFT"
 	ms.author="raprasad"
 	displayOrder=""
-	articleId=""
+	articleId="11be96ee-ff0a-4a73-8808-4440dced4307"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32612594"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Data Lake Gen2 rehydrating a blob

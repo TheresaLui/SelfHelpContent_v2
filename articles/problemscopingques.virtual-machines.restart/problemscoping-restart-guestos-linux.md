@@ -13,63 +13,70 @@
 # VM Restart
 ---
 {
-                "resourceRequired": true,
-                "title": "My guest OS is causing restarts",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "resourceRequired": true,
+    "title": "My guest OS is causing restarts",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "restart_storage",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Are your VMs using Standard Storage or Premium Storage?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                  "id": "restart_storage",
-                  "order": 1,
-                  "controlType": "dropdown",
-                  "displayLabel": "Are your VMs using Standard Storage or Premium Storage?",
-                  "watermarkText": "Choose an option",
-                  "dropdownOptions": [{
                     "value": "Standard Storage",
                     "text": "Standard Storage"
-                    },{
-                      "value": "Premium Storage",
-                      "text": "Premium Storage"
-                      },{
-                        "value": "I do not know",
-                        "text": "I do not know"
-                      }
-                      ],
-                      "required": false
-                  },{
-                      "id": "machinetype",
-                      "order": 2,
-                      "controlType": "dropdown",
-                      "displayLabel": "Which machine version are you running?",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [
-                      {
-                        "value": "Ubuntu",
-                        "text": "Ubuntu"
-                      },
-                      {
-                        "value": "Redhat",
-                        "text": "Redhat"
-                      },
-                      {
-                        "value": "Other",
-                        "text": "Other"
-                      }
-                      ],
-                      "required": false
-                  },{
-                  "id": "problem_description",
-                  "order": 3,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 4,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
+                },
+                {
+                    "value": "Premium Storage",
+                    "text": "Premium Storage"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "machinetype",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Which machine version are you running?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Ubuntu",
+                    "text": "Ubuntu"
+                },
+                {
+                    "value": "Redhat",
+                    "text": "Redhat"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -13,46 +13,71 @@
 # Start or Stop My VM
 ---
 {
-                "resourceRequired": true,
-                "title": "I am unable to resize my VM",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "subscriptionRequired": true,
+    "resourceRequired": true,
+    "title": "I am unable to resize my VM",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "startstop_size",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the size of the VM you are trying to deploy?",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "startstop_isinscaleset",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Are you deploying your VM in a scale set?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                  "id": "startstop_size",
-                  "order": 1,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "What is the size of the VM you are trying to deploy?",
-                  "required": false,
-                  "useAsAdditionalDetails": true
-                  },{
-                    "id": "startstop_isinscaleset",
-                    "order": 2,
-                    "controlType": "dropdown",
-                    "displayLabel": "Are you deploying your VM in a scale set?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [{
-                      "value": "Yes",
-                      "text": "Yes"
-                      },{
-                        "value": "No",
-                        "text": "No"
-                        }
-                        ],
-                        "required": false
-                  },{
-                  "id": "problem_description",
-                  "order": 3,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": false,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 4,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "startstop_inportal",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Did you have problem resizing in portal?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

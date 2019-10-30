@@ -16,25 +16,36 @@
 
 # Alert and Report How-to and general questions
 
+## **Recommended Steps**
+
+- To configure alert and notification on successful backup jobs use query [all successful backup jobs](https://aka.ms/BKP-Alerts-AllSuccessfulJobs) while defining [alert condition](https://aka.ms/backup-Alert-condition) in Log Analytics <br>
+- You can also use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for Azure VMs. Please read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs
+
 ## **Recommended Documents**
 
-**Azure Backup Agent Alert**
+**Azure Backup Monitoring and Reporting using Power BI**
 
-- [What conditions prevent sending email alerts even though notifications are configured?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#situations-where-email-isnt-sent-even-if-notifications-are-configured)<br>
-- [Configure email notification on successful backup jobs](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#using-activity-logs-to-get-notifications-for-successful-backups)<br>
-- [What alert types are available for Azure Virtual Machine backup?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#what-alert-types-are-available-for-azure-iaas-vm-backup)<br>
-- [What are the limitations on Azure Virtual Machine Activity Log Alerts or email notification on successful backup jobs?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#limitations-on-alerts)<br>
-- [Configure email notifications for backup alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#configure-notifications)<br>
+- [Configure backup report using Power BI](https://aka.ms/AB-backupReorts)
+- [Supported scenarios](https://aka.ms/BKP-PowerBIReport-SupportedScenarios) and [prerequisites](https://aka.ms/BKP-PowerBIReport-Prerequisites) to configure Azure Backup Power BI report
+- [View backup reports in Power BI](https://aka.ms/View-PowerBI-Report)
+- [Frequently asked questions for Power BI reporting](https://aka.ms/BKP-PowerBIReport-FAQs)
+- [Common issues while configuring Azure Backup Power BI report](https://aka.ms/BKP-PowerBIReport-Tshooting)
 
-**Azure Virtual Machine Backup Alert**
+**Monitor backup Jobs and Alerts in Recovery Services vault**
 
-- [What conditions prevent sending email alerts even though notifications are configured?](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#frequently-asked-questions)<br>
-- [My jobs and/or alerts from the Azure Backup Agent do not appear in the portal](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#troubleshooting-monitoring-issues)<br>
-- [When a backup job fails, how long does it take to raise an alert?](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#frequently-asked-questions)<br>
-- [Configure email notifications for Backup Alerts](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#configuring-notifications-for-alerts)<br>
-- [What alert types are available for Azure Backup Agent?](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#alerts)<br>
+- [Monitor Azure Backup Jobs in Recovery Services vault](https://aka.ms/Monitor-JobsAlert-RSV)
+- [Monitor Backup Alerts in Recovery Services vault](https://aka.ms/AB-AA4e56k)
+- [What are the scenarios where Backup Alerts are generated?](https://aka.ms/BKP-RSVAlert-Scenarios)
+- [What are the exceptions when a Backup Alert is not raised on backup failure?](https://aka.ms/BKP-RSVAlert-Exceptions)
+- [Azure Backup solutions for which Backup Alerts can be monitored in Recovery Services vault](https://aka.ms/BKP-RSVAlert-SupportedSolutions)
+- [What types of Backup Alerts are available in Recovery Services vault?](https://aka.ms/RSV-Alert-Types)
+- [Configure email notifications for Backup Alerts through Recovery Services vault](https://aka.ms/Configure-Notification-RSV)
 
-**Azure Backup Report**
+**Monitor backup Jobs and create Alerts/Notifications using Log Analytics**<br>
 
-- [Configure Azure Backup Power BI report](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#configure-storage-account-for-reports)<br>
-- [Power BI report Frequently Asked Questions](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#frequently-asked-questions)
+Log Analytics currently supports Azure VM backups, MAB Agent, and System Center DPM. For more information, refer to this [article](https://aka.ms/Create-Alert-LA).
+
+- [Create alerts using Log Analytics](https://aka.ms/Create-Alert-LA)
+- [Configure notifications for alerts generated using Log Analytics](https://aka.ms/BKP-LA-Notification)
+- [Monitor Azure Backup using Log Analytics](https://aka.ms/Monitor-Backup-LA)
+- [Data pumping frequency to Log Analytics](https://aka.ms/BKP-LA-DataFrequency)<br>

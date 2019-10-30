@@ -18,7 +18,7 @@
 <!--issueDescription-->
 At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your HDInsight cluster:
 
-External connectivity to your HDInsight cluster is currently not working. If you have configured your cluster to block external connections, you can ignore this. If not, we are working to automatically restore this functionality for your cluster. 
+External connectivity to your HDInsight cluster is currently not working. If you have configured your cluster to block external connections, you can ignore this.
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.

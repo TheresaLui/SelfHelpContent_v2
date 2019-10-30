@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Backup of Windows Azure virtual machine fails"
-	description="Top issues causing Windows Azure virtual machine backup failures"
+	pageTitle="Diagnose and resolve issues with Windows Azure virtual machine backup"
+	description="Diagnose and resolve issues with Windows Azure virtual machine backup"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
@@ -14,24 +14,24 @@
 	articleId="79088548-2aa6-44f1-8f3c-25df1e8e92bf"
 />
 
-# Backup of Windows Azure Virtual Machine fails
+# Diagnose and resolve issues with Windows Azure virtual machine backup
 
 ## **Recommended Steps**
 
-- [Ensure your Windows VM agent is up to date before troubleshooting further](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows#manual-installation) <br>
-- [Ensure there is connectivity between VM and Azure Storage endpoints](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access) <br>
-- [For Snapshot extension issues, uninstall extensions to force reload & retry backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) <br>
-- [OS Versions older than Windows Server 2008 R2 are not supported for Backup](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#before-you-start)
+- [Ensure your Windows VM agent is up to date before troubleshooting further](https://aka.ms/AB-AA4ecqu) <br>
+- [Ensure there is connectivity between VM and Azure Storage endpoints](https://aka.ms/AB-AA4ecqj) <br>
+- [For Snapshot extension issues, uninstall extensions to force reload & retry backup](https://aka.ms/AB-AA4e56b) <br>
+- [OS Versions older than Windows Server 2008 R2 are not supported for Backup](https://aka.ms/AA4evhu)
 
 ## **Recommended Documents**
 
-- [UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#UserErrorGuestAgentStatusUnavailable-vm-agent-unable-to-communicate-with-azure-backup) <br>
-- [UserErrorStandardSSDNotSupported - Currently Azure Backup does not support Standard SSD disks](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorstandardssdnotsupported---currently-azure-backup-does-not-support-standard-ssd-disks) <br>
-- [UserErrorBackupOperationInProgress/SystemBackupOperationInProgress - Unable to initiate backup as another backup operation is currently in progress](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorbackupoperationinprogress---unable-to-initiate-backup-as-another-backup-operation-is-currently-in-progress) <br>
-- [UserErrorUnsupportedDiskSize - Currently Azure Backup does not support disk sizes greater than 1023GB](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorunsupporteddisksize---currently-azure-backup-does-not-support-disk-sizes-greater-than-1023gb) <br>
-- [ExtensionSnapshotFailedNoNetwork - Snapshot operation failed due to no network connectivity on the virtual machine](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#ExtensionSnapshotFailedNoNetwork-snapshot-operation-failed-due-to-no-network-connectivity-on-the-virtual-machine) <br>
-- [GuestAgentSnapshotTaskStatusError - Could not communicate with the VM agent for snapshot status](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#guestagentsnapshottaskstatuserror---could-not-communicate-with-the-vm-agent-for-snapshot-status) <br>
-- [UserErrorRpCollectionLimitReached - The Restore Point collection max limit has reached](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorrpcollectionlimitreached---the-restore-point-collection-max-limit-has-reached) <br>
-- [UserErrorKeyvaultPermissionNotConfigured - Backup doesn't have sufficient permissions to the key vault for backup of encrypted VMs](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#troubleshooting-errors) <br>
-- [ExtentionOperationFailed - VMSnapshot extension operation failed](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#ExtentionOperationFailed-vmsnapshot-extension-operation-failed) <br>
-- [BackUpOperationFailed / BackUpOperationFailedV2 - Backup fails, with an internal error](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#backupoperationfailed--backupoperationfailedv2---backup-fails-with-an-internal-error) <br>
+- [UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup](https://aka.ms/AB-AA4ecq8) <br>
+- [UserErrorStandardSSDNotSupported - Currently Azure Backup does not support Standard SSD disks](https://aka.ms/AB-AA4ecqd) <br>
+- [UserErrorBackupOperationInProgress/SystemBackupOperationInProgress - Unable to initiate backup as another backup operation is currently in progress](https://aka.ms/AB-AA4e56y) <br>
+- [UserErrorUnsupportedDiskSize - Currently Azure Backup does not support disk sizes greater than 4095GB](https://aka.ms/AB-AA4ecqf) <br>
+- [ExtensionSnapshotFailedNoNetwork - Snapshot operation failed due to no network connectivity on the virtual machine](https://aka.ms/AB-AA4ecqk) <br>
+- [GuestAgentSnapshotTaskStatusError - Could not communicate with the VM agent for snapshot status](https://aka.ms/AB-AA4e56x) <br>
+- [UserErrorRpCollectionLimitReached - The Restore Point collection max limit has reached](https://aka.ms/AB-AA4e56l) <br>
+- [UserErrorKeyvaultPermissionNotConfigured - Backup doesn't have sufficient permissions to the key vault for backup of encrypted VMs](https://aka.ms/AB-AA4e56m) <br>
+- [ExtentionOperationFailed - VMSnapshot extension operation failed](https://aka.ms/AB-AA4e56c) <br>
+- [BackUpOperationFailed / BackUpOperationFailedV2 - Backup fails, with an internal error](https://aka.ms/AB-AA4ecqe) <br>

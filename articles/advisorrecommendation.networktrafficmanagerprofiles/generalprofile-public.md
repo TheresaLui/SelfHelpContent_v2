@@ -1,0 +1,72 @@
+<properties
+    pageTitle="Add at least one more endpoint to the profile, preferably in another Azure region"
+    description="Add at least one more endpoint to the profile, preferably in another Azure region"
+    authors="aadevteam"
+    ms.author="aadevteam"
+    articleId="6cd70072-c45c-4716-bf7b-b35c18e46e72_Public"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Public"
+/>
+# Add at least one more endpoint to the profile, preferably in another Azure region
+---
+{
+  "recommendationOfferingId": "9264a786-286a-41e2-b8aa-4210461010a4",
+  "recommendationOfferingName": "Traffic Manager",
+  "$schema": "AdvisorRecommendation",
+  "recommendationTypeId": "6cd70072-c45c-4716-bf7b-b35c18e46e72",
+  "dataSourceMetadata": {
+    "schemaVersion": 1.0,
+    "streamNamespace": "Public.Production.Watm.Advisor.GeneralEndpoints",
+    "dataSource": "Cosmos",
+    "refreshInterval": "1.00:00:00"
+  },
+  "recommendationCategory": "HighAvailability",
+  "recommendationImpact": "Medium",
+  "recommendationResourceType": "Microsoft.Network/trafficmanagerprofiles",
+  "recommendationFriendlyName": "GeneralProfile",
+  "recommendationMetadataState": "Active",
+  "portalFeatures": [],
+  "owner": {
+    "email": "aadevteam@microsoft.com",
+    "icm": {
+      "routingId": "MDM://AzureAdvisor",
+      "service": "Azure Advisor",
+      "team": "Azure Advisor"
+    },
+    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+  },
+  "ingestionClientIdentities": [],
+  "recommendationTimeToLive": 86400,
+  "version": 1.0,
+  "learnMoreLink": "https://aka.ms/AA1o0x4",
+  "description": "Add at least one more endpoint to the profile, preferably in another Azure region",
+  "longDescription": "Profiles should have more than one endpoint to ensure availability if one of the endpoints fails. It is also recommended that endpoints be in different regions.",
+  "potentialBenefits": "Improve resiliency by allowing failover",
+  "actions": [
+    {
+      "actionId": "c05c5214-5e3b-45eb-b811-4cd98157b9d4",
+      "description": "Add another endpoint for failover",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}",
+        "menuid": "endpoints"
+      }
+    }
+  ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "1f5147e8-3437-4537-975b-3d32aae47ae2",
+      "actionType": "Blade",
+      "extensionName": "Microsoft_Azure_Network",
+      "bladeName": "TrafficManagerBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  },
+  "displayLabel": "Add Endpoint",
+  "additionalColumns": []
+}
+---

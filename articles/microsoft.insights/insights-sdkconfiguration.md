@@ -10,7 +10,7 @@
     selfHelpType="resource"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32602224"
+    supportTopicIds="32602224, 32602223"
  />
  
 # How do I configure my SDK?
@@ -21,6 +21,8 @@
 2. Follow the getting started document for your version of the SDK
 3. Start over with a fresh install and compare the differences
 4. Review your config file with a specific topic below
+
+## **Recommended Documents**
 
 ### **.NET Configuration Topics**<br>
 

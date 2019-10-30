@@ -7,13 +7,13 @@
 	authors="ramMSFT"
 	ms.author="raprasad"
 	displayOrder=""
-	articleId=""
+	articleId="03dab20e-6c78-4d63-ba95-ace95e8be2d1"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32612599"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Data Lake Gen2 custom domain names

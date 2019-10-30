@@ -16,10 +16,13 @@
 
 # Issue with moving vault
 
+## **Recommended Steps**
+
+- Recovery Services vaults configured to use with Azure Site Recovery cannot be moved<br>
+
 ## **Recommended Documents**
 
-- [Before moving vault check prerequisites required for moving a vault](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#why-is-the-size-of-the-data-transferred-to-the-recovery-services-vault-smaller-than-the-data-selected-for-backup)<br>
-- Recovery Services vaults configured to use with Azure Site Recovery cannot be moved<br>
-- [You can also use powershell to move a vault](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-powershell-to-move-a-vault)<br>
-- [How do I move a vault between subscriptions?](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-a-recovery-services-vault-to-a-different-subscription)<br>
-- [How do I move a vault between Resource Groups?](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-a-recovery-services-vault-to-different-resource-group)<br>
+- [Prerequisites for moving a vault](https://aka.ms/AB-prerequisites-move-vault)<br>
+- [Use PowerShell to move a vault](https://aka.ms/AB-powershell-to-move-a-vault)<br>
+- [Move a vault between subscriptions](https://aka.ms/AB-move-a-rsv-to-a-different-subscription)<br>
+- [Move a vault between Resource Groups](https://aka.ms/AB-move-a-rsv-to-different-resource-group)<br>
