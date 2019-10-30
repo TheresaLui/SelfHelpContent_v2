@@ -72,7 +72,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the SID for this SAP instance",
             "required": false
-        },        
+        },
         {
             "id": "jobID_Name",
             "order": 6,
