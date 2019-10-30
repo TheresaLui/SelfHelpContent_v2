@@ -16,16 +16,12 @@
 
 # Issues adding AKS Base image to Azure Stack Marketplace
 
+
 ## **Recommended Steps**
 
-1. Ensure your Cloud Operator has a supported AKS Engine version available in your Marketplace. For more information review the [Prerequisites for the AKS Engine](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-set-up#prerequisites-for-the-aks-engine)
+1. Follow the steps to [add the Azure Kubernetes Services (AKS) Engine prerequisites to the Azure Stack Marketplace](https://docs.microsoft.com/azure-stack/operator/azure-stack-aks-engine).
 
-2. If your installation method is failing, try the the [steps for a disconnected environment](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-deploy-linux#install-in-a-disconnected-environment)
-
-
-### **Known Issues**
-
-You must specify a supported Kubernetes version with the --version parameter when running the get-akse command. Link to the [supported versions](https://github.com/Azure/aks-engine/blob/master/docs/topics/azure-stack.md#supported-kubernetes-versions)
+2. The AKS Engine version depends on a specific image version that you can make available in your Azure Stack. To check the AKS Engine versions and corresponding Kubernetes version, see [Supported Kubernetes Versions](https://github.com/Azure/aks-engine/blob/master/docs/topics/azure-stack.md#supported-kubernetes-versions).
 
 
 ## **Recommended Documents**
