@@ -1,6 +1,6 @@
 <properties
-    pageTitle="This is a test insight"
-    description="This is a test insight"
+    pageTitle="Case Creation Insight Blade Link Demo"
+    description="a test insight for test and internal demo blade link purpose"
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
@@ -16,8 +16,8 @@
     cloudEnvironments="public"
 />
 
-# This is a test insight
+# Case Creation Insight Demo
 <!--/issueDescription-->
-This is a test insight. [Test blade here](data-blade:Microsoft_AAD_IAM.DomainsListBlade.Domains)
+There is no issue detected for domains. [Please check all your domains here](data-blade:Microsoft_AAD_IAM.DomainsListBlade.Domains)
 <!--/issueDescription-->
 
