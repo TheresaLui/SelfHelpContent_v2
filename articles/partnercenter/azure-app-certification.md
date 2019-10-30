@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# <-- This is the title of the article. It is not displayed in the portal, however, an **H1** header is a required part of every article. -->
+# Azure applications - certification
 
 The Microsoft Review step of the publishing process represents an extensive review of your offer and its associated technical assets (especially the Azure Resource Manager template).  Issues are typically represented as pull request (PR) links.
 

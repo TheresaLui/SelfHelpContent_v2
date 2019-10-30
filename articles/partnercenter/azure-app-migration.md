@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# <-- This is the title of the article. It is not displayed in the portal, however, an **H1** header is a required part of every article. -->
+# Azure applications - migration
 
 The migration of Azure application offers from Cloud Partner Portal to Partner Center will take place during November and December 2019.  
 
