@@ -16,7 +16,7 @@
 
 # Configuration and Management/Accessing app using SSH
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [To use SSH, your Docker image needs special sauce](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ssh-support#ssh-support-with-custom-docker-images)
 * [SSH support for Azure App Service on Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ssh-support)<br>
