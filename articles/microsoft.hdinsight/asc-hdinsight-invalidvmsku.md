@@ -27,5 +27,5 @@ There is a problem creating HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsN
 
 ## **Recommended Documents**
 
-* [Azure HDInsight G-series VMs deprecation](https://azure.microsoft.com/en-us/updates/azure-hdinsight-g-series-deprecation-plan/)
+* [Azure HDInsight G-series VMs deprecation](https://azure.microsoft.com/updates/azure-hdinsight-g-series-deprecation-plan/)
  
