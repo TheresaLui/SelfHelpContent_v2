@@ -20,9 +20,9 @@
 
 Most users are able to resolve their issues with managed services offer preview using the steps below.
 
-## **Azure Managed Services Recommended Resources**
+## **Recommended Documents**
 
-* [Azure Managed Services documentation](https://docs.microsoft.com/en-us/azure/lighthouse/concepts/managed-services-offers)
-* [Publish a managed services offer to Azure Marketplace](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/publish-managed-services-offers)
-* [Azure Lighthouse overview](https://docs.microsoft.com/en-us/azure/lighthouse/overview)
+* [Azure Managed Services documentation](https://docs.microsoft.com/azure/lighthouse/concepts/managed-services-offers)
+* [Publish a managed services offer to Azure Marketplace](https://docs.microsoft.com/azure/lighthouse/how-to/publish-managed-services-offers)
+* [Azure Lighthouse overview](https://docs.microsoft.com/azure/lighthouse/overview)
 * [View answers from the community in the official Microsoft AppSource and Azure Marketplace partner forum](https://www.microsoftpartnercommunity.com/t5/Microsoft-AppSource-and-Azure/bd-p/2222)

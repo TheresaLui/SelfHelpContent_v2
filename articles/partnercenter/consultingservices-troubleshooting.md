@@ -20,7 +20,7 @@
 
 Most users are able to resolve their issues with consulting services offers using the steps below.
 
-## **Azure Marketplace and AppSource Consulting Services Recommended Resources**
+## **Recommended Documents**
 
-* [Consulting Services for Azure Marketplace and AppSource documentation](https://docs.microsoft.com/en-us/azure/marketplace/consulting-services)
+* [Consulting Services for Azure Marketplace and AppSource documentation](https://docs.microsoft.com/azure/marketplace/consulting-services)
 * [View answers from the community in the official Microsoft AppSource and Azure Marketplace partner forum](https://www.microsoftpartnercommunity.com/t5/Microsoft-AppSource-and-Azure/bd-p/2222)

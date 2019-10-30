@@ -20,11 +20,11 @@
 
 Most users are able to resolve their issues with Power BI App offers using the steps below.
 
-## **Power BI App Recommended Resources**
+## **Recommended Documents**
 
-* [Power BI App offer overview](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)
-* [Power BI App offer prerequisites](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/power-bi/cpp-prerequisites)
-* [Steps to creating a Power BI app offer](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/power-bi/cpp-create-offer)
-* [Steps to publishing a Power BI app offer](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)
-* [Steps to updating an existing Power BI app offer](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)
+* [Power BI App offer overview](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)
+* [Power BI App offer prerequisites](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-prerequisites)
+* [Steps to creating a Power BI app offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-create-offer)
+* [Steps to publishing a Power BI app offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)
+* [Steps to updating an existing Power BI app offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)
 * [View answers from the community in the official Microsoft AppSource and Azure Marketplace partner forum](https://www.microsoftpartnercommunity.com/t5/Microsoft-AppSource-and-Azure/bd-p/2222)
