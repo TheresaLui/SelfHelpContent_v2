@@ -18,7 +18,7 @@
 
 # Azure Marketplace and AppSource Consulting Services Offer Troubleshooting
 
-Most users are able to resolve their issues with consulting services offers using the steps below.
+Most users are able to resolve their issues with consulting services offers using the documents below.
 
 ## **Recommended Documents**
 

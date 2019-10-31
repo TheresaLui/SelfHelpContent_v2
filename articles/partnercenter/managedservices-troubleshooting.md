@@ -18,7 +18,7 @@
 
 # Azure Managed Services Offer Preview Troubleshooting
 
-Most users are able to resolve their issues with managed services offer preview using the steps below.
+Most users are able to resolve their issues with managed services offer preview using the documents below.
 
 ## **Recommended Documents**
 

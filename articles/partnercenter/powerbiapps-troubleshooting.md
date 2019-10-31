@@ -18,7 +18,7 @@
 
 # Power BI App Offer Troubleshooting
 
-Most users are able to resolve their issues with Power BI App offers using the steps below.
+Most users are able to resolve their issues with Power BI App offers using the documents below.
 
 ## **Recommended Documents**
 
