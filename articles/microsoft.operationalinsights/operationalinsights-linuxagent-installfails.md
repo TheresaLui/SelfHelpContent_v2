@@ -14,7 +14,7 @@
 	articleId="2c537456-ed05-4843-8290-6a71eddc1825"
 />
 
-# Linux Agent/Installation fails
+# Linux Agent/Installation fails 
 
 ## **Recommended steps**
 To resolve common installation failures, try one or more of the following methods:

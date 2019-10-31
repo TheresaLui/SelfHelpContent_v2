@@ -14,7 +14,7 @@
   ArticleId="hdinsight-hive-authorizationfailure-mooncake"
 />
 
-# Authorization failure 
+# Authorization failure
 
 ## **Recommended Documents**
 

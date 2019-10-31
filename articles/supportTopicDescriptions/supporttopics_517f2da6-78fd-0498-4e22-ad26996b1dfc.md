@@ -439,7 +439,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "13317528-9ad5-fa15-c5c7-898cfaddd700",
-      "shortDescription": "Questions and clarifications on getting charged for a cancelled service",
+      "shortDescription": "Questions on a particular charge on your invoice",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
@@ -453,7 +453,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     },
     {
       "id": "5c3e2a5f-619a-335b-b5ab-9dec9537d66b",
-      "shortDescription": "Questions on a particular charge on your invoice",
+      "shortDescription": "Questions and clarifications on getting charged for a cancelled service",
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": ""
