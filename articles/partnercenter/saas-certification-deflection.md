@@ -22,8 +22,8 @@ If your offer is failing in certification, the following resources can help you 
 
 ## **Recommended Steps**
 
-1. Open the certification failure report shared in email or accessible from the offer overview publishing status in Partner Center.
-2. Review the [certification policy and guidance for the applicable policy failures](https://docs.microsoft.com/legal/marketplace/certification-policies) to resolve any issues.
+1. Open the certification failure report shared in email or accessible from the offer overview publishing status in Partner Center
+2. Review the [certification policy and guidance for the applicable policy failures](https://docs.microsoft.com/legal/marketplace/certification-policies) to resolve any issues
 3. Make adjustments to your offer in Partner Center according to the policy recommendation. This can touch any part of your offer related to the policy failure.
 4. Re-publish your SaaS offer in Partner Center to resubmit your changes for certification. If needed, provide additional details in "Notes for certification" on the review and publish page during publishing.
 
