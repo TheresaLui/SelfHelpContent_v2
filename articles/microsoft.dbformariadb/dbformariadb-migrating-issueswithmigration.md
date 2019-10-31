@@ -26,7 +26,7 @@ Most migration problems can be solved by working through the recommended steps.
 * If you are using dump and restore:
 
   * Make sure to use database dumps when you are migrating the entire databases
-  * If you encountered the "MySQL server has gone away" error, increase the value of the `max_allowed_packet` parameter in portal first and then add the `max_allowed_packet` parameter in your mysqldump command: `$ mysqldump --max-allowed-packet=1234567899 -u root -p testdb > testdb_backup.sql`
+  * If you encountered the "MySQL server has gone away" error, increase the value of the *max_allowed_packet* parameter to higher value (like *1234567899*) in portal first and then add the *max_allowed_packet* parameter in your mysqldump command: *$ mysqldump --max-allowed-packet=1234567899 -u root -p testdb > testdb_backup.sql*
   * Make sure all tables in the database use the InnoDB storage engine when loading data into Azure Database for MariaDB
   * To avoid any compatibility issues, ensure the same version of MariaDB is used on the source and destination systems when dumping databases
 
