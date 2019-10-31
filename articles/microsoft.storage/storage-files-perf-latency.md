@@ -16,7 +16,7 @@
 
 # Troubleshooting Azure File latency issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [FAQ for Files scale and performance](https://docs.microsoft.com/azure/storage/files/storage-files-faq#scale-and-performance)
 
