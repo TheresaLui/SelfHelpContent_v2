@@ -61,7 +61,7 @@
 			"id": "permissions",
 			"order": 4,
 			"controlType": "dropdown",
-            "infoBalloonText": "Check the <a href='https://aka.ms/hanabkpprerequisites'>permissions</a>",
+            "infoBalloonText": "Info: <a href='https://aka.ms/hanabkpprerequisites'>Learn more</a> about the required permissions</a>",
 			"displayLabel": "Are all the right permissions set?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{

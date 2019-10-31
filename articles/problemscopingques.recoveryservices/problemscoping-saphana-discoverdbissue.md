@@ -71,7 +71,7 @@
             "id": "discoverdb_Script",
             "order": 5,
             "controlType": "dropdown",
-            "infoBalloonText": "Download the script from <a href='https://aka.ms/scriptforpermsonhana>here</a>",
+            "infoBalloonText": "Info: The script can be found<a href='https://aka.ms/scriptforpermsonhana>here</a>",
             "displayLabel": "Have you run the script available on the Discover DB pane?",
             "dropdownOptions": [
                 {
