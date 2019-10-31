@@ -20,6 +20,8 @@
 
 The migration of Azure application offers from Cloud Partner Portal to Partner Center will take place during November and December 2019.  
 
+## **Recommended Steps**
+
 During the migration:
 * Your customers will still be able to find and acquire your Azure application offers (solution templates and managed applications)
 * Your offers will be in the same state in Partner Center as they were in Cloud Partner Portal (draft, preview, live)

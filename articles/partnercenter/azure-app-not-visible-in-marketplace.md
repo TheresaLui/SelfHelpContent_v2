@@ -10,7 +10,7 @@
 	articleId="marketplace_azure_app_deployment_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689329"
+	supportTopicIds="32689398"
 	resourceTags="marketplace"
 	productPesIds="15960"
 	cloudEnvironments="public"
