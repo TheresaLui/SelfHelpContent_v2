@@ -10,7 +10,7 @@
 	articleId="marketplace_migration_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689413"
+	supportTopicIds="32689413,32689380"
 	resourceTags="marketplace"
 	productPesIds="15960"
 	cloudEnvironments="public"
@@ -28,5 +28,4 @@ If you are experiencing any issues with your offer migrating from Cloud Partner 
 
 ## **Recommended Documents**
 * [Account migration from Cloud Partner Portal to Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/account-migration-from-cpp-to-pc)
-* [How to manage your Commercial Marketplace account in Partner Center
-](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account)
+* [How to manage your Commercial Marketplace account in Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account)
