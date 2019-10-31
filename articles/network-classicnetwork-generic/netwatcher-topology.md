@@ -22,7 +22,7 @@ The Topology view in Network Watcher shows you the resources in your virtual net
 
 ## **Recommended Steps**
 
-* Read the [Topology overview](https://docs.microsoft.com/azure/network-watcher/view-network-topology).
+* Read the [Topology overview](https://docs.microsoft.com/azure/network-watcher/view-network-topology)
 
 ### **I can't see all my resources in the Topology view**
 
