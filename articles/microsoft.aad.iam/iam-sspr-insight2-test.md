@@ -7,7 +7,7 @@
     ms.author="sahenry"
     authors="sadiehenry"
     displayOrder="1"
-    articleId="testInsightArticle"
+    articleId="f48e992c-3de2-4f43-ae91-e494d39abbac"
     selfHelpType="diagnostics"
     diagnosticScenario="health_diagnostic"
     supportTopicIds=""
@@ -18,6 +18,6 @@
 
 # Case Creation Insight Blade Link Demo
 <!--/issueDescription-->
-There is no issue detected for domains. [Please check all your domains here.](data-blade:Microsoft_AAD_IAM.DomainsListBlade.Domains)
+There is no issue detected for domains. [Please check all your domains here](data-blade:Microsoft_AAD_IAM.DomainsListBlade.Domains)
 <!--/issueDescription-->
 
