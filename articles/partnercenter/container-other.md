@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Azure application other issues"
-	description="Frequently asked general issues with Azure applications"
-	infoBubbleText="Resources to help troubleshoot general issues with Azure applications"
+	pageTitle="Container other issues"
+	description="Frequently asked general issues with Container offers"
+	infoBubbleText=""
 	service="partnercenter"
-	resource="marketplace"
-	authors="msjogarrig"
-	ms.author="jogarrig"
+	resource=""
+	authors=""
+	ms.author=""
 	displayOrder=""
-	articleId="marketplace_azure_app_deployment_issues"
+	articleId=""
 	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32689427"
-	resourceTags="marketplace"
+	selfHelpType=""
+	supportTopicIds="32689430"
+	resourceTags=""
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
 
-# Azure applications - other issues
+# Containers - other issues
 
 ## **Recommended Documents**
 

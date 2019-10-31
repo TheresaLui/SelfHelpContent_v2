@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure application preview issues"
-	description="Frequent issues with Azure application previews"
+	pageTitle="Offer preview issues"
+	description="Frequent issues with offer previews"
 	infoBubbleText=""
 	service="partnercenter"
 	resource=""
@@ -10,13 +10,13 @@
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType=""
-	supportTopicIds="32689414"
+	supportTopicIds="32689414,32689416"
 	resourceTags=""
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
 
-# Azure applications - preview
+# IaaS offers - preview
 
 ## **Recommended Steps**
 
