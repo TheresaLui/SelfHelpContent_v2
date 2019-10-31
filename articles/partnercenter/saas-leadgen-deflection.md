@@ -21,9 +21,9 @@
 If experiencing issues setting up, receiving, or managing leads from your listing offer, the following resources can help understand what actions to take.
 
 ## **Recommended Steps**
-1. Verify you have [connected lead management in your offer](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer#connect-lead-management).
-2. Review the [common set of lead configuration errors](https://docs.microsoft.com/azure/marketplace/lead-management-for-cloud-marketplace#common-lead-configuration-errors-during-publishing-on-cloud-partner-portal) to see if you are experiencing similar issues.
-3. If still experiencing abnormal behaviors with a correct configuration, create a support ticket with details on the issue you are experiencing.
+1. Verify you have [connected lead management in your offer](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer#connect-lead-management)
+2. Review the [common set of lead configuration errors](https://docs.microsoft.com/azure/marketplace/lead-management-for-cloud-marketplace#common-lead-configuration-errors-during-publishing-on-cloud-partner-portal) to see if you are experiencing similar issues
+3. If still experiencing abnormal behaviors with a correct configuration, create a support ticket with details on the issue you are experiencing
 
 
 ## **Recommended Documents**
