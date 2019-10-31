@@ -13,8 +13,8 @@
 # Disk Import/Export issues
 ---
 {
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Disk Import/Export issues",
     "fileAttachmentHint": "",
     "formElements": [
@@ -37,7 +37,7 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue and and any other relevant information",
+            "watermarkText": "Please provide the details regarding the issue and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }

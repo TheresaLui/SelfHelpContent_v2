@@ -35,7 +35,7 @@
             "id": "vm_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "VM name whether the Object ID of the MSI Service principal is added",
+            "displayLabel": "VM Name where the Object ID of the MSI Service principal is added",
             "required": false
         },
         {

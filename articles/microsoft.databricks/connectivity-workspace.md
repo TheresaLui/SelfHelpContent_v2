@@ -18,7 +18,9 @@
 
 ## **Recommended Documents**
 
-* [Instances unreachable](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html#instances-unreachable)
+* [Workspace Permissions](https://docs.azuredatabricks.net/administration-guide/access-control/workspace-acl.html#workspace-permissions)
+* [Deploy Azure Databricks in your Azure Virtual Network (VNet Injection)](https://docs.azuredatabricks.net/administration-guide/cloud-configurations/azure/vnet-inject.html)
 * [Virtual Network Peering](https://docs.azuredatabricks.net/administration-guide/cloud-configurations/azure/vnet-peering.html)
+* [Instances unreachable](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html#instances-unreachable)
 * By default, all users can create and modify workspace objects. However, if administrator enables workspace access control, individual permissions determine a user’s abilities. Workspace Access Control is only available in the Premium SKU. Enabling Workspace Access Control will allow users to control who can view, edit, and run notebooks in their workspace. 
 If you have this enabled, please give the required permissions as needed: [Workspace Permissions](https://docs.azuredatabricks.net/administration-guide/admin-settings/workspace-acl.html#workspace-permissions)

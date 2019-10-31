@@ -7,7 +7,7 @@
     ms.author="desarkar"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32675618"
+    supportTopicIds="32675618, 32675622"
     resourceTags=""
     productPesIds="16762"
     cloudEnvironments="public"
@@ -26,10 +26,7 @@ Permissions issues may apply if you are facing any of these error messages durin
 * Error: Authorization Failed
 * Error: Role assignment to storage account
 * Error: 1 datasets were not added because you do not have the required permissions to share 
-
-```
-Caller does not have write privileges on resource: [subscriptions/]
-```
+* Error: `Caller does not have write privileges on resource: [subscriptions/]`
 	
 If you receive any of the above errors when creating a new data share or receiving a new data share, it is because there are insufficient permissions to the storage account. The permission required is "Microsoft.Authorization/role assignments/write", which exists in the storage owner role or can be assigned to a custom role. Even if you created the Storage account, it does NOT automatically make you the owner of the storage account. Follow these steps to grant yourself owner of the storage account. Alternatively, a custom role can be created with this permission that you can add yourself in to:
 	
