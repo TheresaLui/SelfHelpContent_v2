@@ -1,20 +1,21 @@
 <properties
 	pageTitle="Container offer not visible in marketplace"
 	description="Frequent issues with container offers not being visible"
-	infoBubbleText=""
+	infoBubbleText="Resources to help troubleshoot visibility issues with Container offers"
 	service="partnercenter"
-	resource=""
-	authors=""
-	ms.author=""
+	resource="marketplace"
+	authors="msjogarrig"
+	ms.author="jogarrig"
 	displayOrder=""
-	articleId=""
+	articleId="marketplace_azure_app_migration_issues"
 	diagnosticScenario=""
-	selfHelpType=""
+	selfHelpType="generic"	
 	supportTopicIds="32689400"
-	resourceTags=""
+	resourceTags="marketplace"
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
+
 
 # Azure applications - visibility
 
