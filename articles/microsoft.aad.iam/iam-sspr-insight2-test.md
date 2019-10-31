@@ -7,7 +7,7 @@
     ms.author="sahenry"
     authors="sadiehenry"
     displayOrder="1"
-    articleId="f48e992c-3de2-4f43-ae91-e494d39abbad"
+    articleId="testInsightArticle"
     selfHelpType="diagnostics"
     diagnosticScenario="health_diagnostic"
     supportTopicIds=""
