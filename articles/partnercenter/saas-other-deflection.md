@@ -30,5 +30,5 @@ For other miscellaneous SaaS issues, the following resources may help finding a 
 * [Overview of the Commercial Marketplace portal in Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-overview)
 * [Create a new SaaS offer](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
 * [Example marketplace offer listing](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer#example-marketplace-offer-listing)
-* [Update an existing offer in the Commercial Marketplace](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/update-existing-offer)
+* [Update an existing offer in the Commercial Marketplace](https://docs.microsoft.com/azure/marketplace/partner-center-portal/update-existing-offer)
 

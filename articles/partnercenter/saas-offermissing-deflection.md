@@ -7,7 +7,7 @@
 	authors="garrett-o"
 	ms.author="gaor"
 	displayOrder=""
-	articleId="marketplace_migration_failures"
+	articleId="marketplace_offermissing_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32689407"
@@ -23,7 +23,7 @@ While publishing your offer, the information you provide during publishing will 
 ## **Recommended Steps**
 1. Review the [unique customer requirements for the respective storefronts](https://docs.microsoft.com/azure/marketplace/comparing-appsource-azure-marketplace)
 2. Verify your offer is using the appropriate [publishing options](https://docs.microsoft.com/azure/marketplace/determine-your-listing-type) matching your desired destination
-3. If desired, make updates to your offer such as changing the selected Category and Industry in Properties to adjust the targeted audience. Be sure to re-pulish your offer in Partner Center for these changes to take effect.
+3. If desired, make updates to your offer such as changing the selected Category and Industry in Properties to adjust the targeted audience. Be sure to re-publish your offer in Partner Center for these changes to take effect.
 
 
 ## **Recommended Documents**
