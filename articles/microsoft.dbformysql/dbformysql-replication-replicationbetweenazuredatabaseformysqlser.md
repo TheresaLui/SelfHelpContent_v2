@@ -26,7 +26,7 @@ The read replica feature allows you to replicate data from an Azure Database for
 
 * **Issue**: Monitor replication lag
 
-    *  The **Replica Lag** metric is available on replica servers to monitor the lag in seconds. This metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric. Alerts can be configured on this metric through Azure Monitor. 
+    *  The **Replica Lag** metric is available on replica servers to monitor the lag in seconds. This metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric. Alerts can be configured on this metric through Azure Monitor.
 
 ## **Recommended Documents**
 
