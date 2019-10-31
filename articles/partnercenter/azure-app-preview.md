@@ -26,9 +26,7 @@
 
 ## **Recommended Steps**
 
-
-1. When viewing an offer that is published only to the Preview step, make sure you are logged into the Azure portal with an Azure subscription that is included in your Preview audience.
-
+When viewing an offer that is published only to the Preview step, make sure you are logged into the Azure portal with an Azure subscription that is included in your Preview audience.
 
 Note that it can take up to 4 hours for the Preview offer to be visible in the marketplace after the Preview publishing step has completed.
 
