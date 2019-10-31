@@ -7,7 +7,7 @@
 	authors="msjogarrig"
 	ms.author="jogarrig"
 	displayOrder=""
-	articleId="marketplace_azure_app_migration_issues"
+	articleId="marketplace_container_certification_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32689333"

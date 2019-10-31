@@ -18,19 +18,16 @@
 
 # Azure applications - certification
 
-The Microsoft Review step of the publishing process represents an extensive review of your offer and its associated technical assets (especially the Azure Resource Manager template). Issues are typically represented as pull request (PR) links.
+The Microsoft Review step of the publishing process represents an extensive review of your offer and its associated technical assets (especially the Azure Resource Manager template).  Issues are typically represented as pull request (PR) links.
 
 Please note that the Microsoft Review step can take **7-14 days**. 
 
 Also, there are two distinct actions underneath the Microsoft Review step:
 
-* Validating content:
-
-    * This is an automated step. You may see a "Content validation completed" message while the offer is still waiting for the Microsoft Review step.  
-    
-* Microsoft Review:
-
-	* This is a manual step. Your offer may be waiting for this step for several days after the previous automated step completes.
+* Validating content
+    * This is an automated step.  You may see a "Content validation completed" message while the offer is still waiting for the Microsoft Review step.  
+* Microsoft Review
+	* This is a manual step.  Your offer may be waiting for this step for several days after the previous automated step completes.
 
 ## **Recommended Documents**
 

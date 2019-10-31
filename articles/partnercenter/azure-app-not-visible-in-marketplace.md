@@ -7,7 +7,7 @@
 	authors="msjogarrig"
 	ms.author="jogarrig"
 	displayOrder=""
-	articleId="marketplace_azure_app_deployment_issues"
+	articleId="marketplace_azure_app_visibility_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32689398"
