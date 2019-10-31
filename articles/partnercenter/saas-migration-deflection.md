@@ -28,5 +28,4 @@ If you are experiencing any issues with your offer migrating from Cloud Partner 
 
 ## **Recommended Documents**
 * [Account migration from Cloud Partner Portal to Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/account-migration-from-cpp-to-pc)
-* [How to manage your Commercial Marketplace account in Partner Center
-](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account)
+* [How to manage your Commercial Marketplace account in Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account)
