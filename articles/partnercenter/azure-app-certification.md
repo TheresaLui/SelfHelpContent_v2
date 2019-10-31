@@ -31,4 +31,4 @@ Also, there are two distinct actions underneath the Microsoft Review step:
 
 ## **Recommended Documents**
 
-* [How to access pull requests in the Azure DevOps system](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/azure-applications/cpp-handling-review-feedback)
+* [How to access pull requests in the Azure DevOps system](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/azure-applications/cpp-handling-review-feedback)

@@ -16,7 +16,6 @@
 	cloudEnvironments="public"
 />
 
-
 # Azure applications - visibility
 
 ## **Recommended Steps**

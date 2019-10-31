@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-1. If your offer has [private Plans](https://docs.microsoft.com/en-us/azure/marketplace/private-offers), make sure that you are logged into the Azure portal with an Azure subscription that is included in the audience of who can see the Plan.  
+1. If your offer has [private Plans](https://docs.microsoft.com/azure/marketplace/private-offers), make sure that you are logged into the Azure portal with an Azure subscription that is included in the audience of who can see the Plan.  
 2. If your offer includes a solution template, make sure that you haven't configured the solution template Plan to be hidden.
 3. If you are trying to view an offer that is published only to the Preview step, make sure you are logged into the Azure portal with an Azure subscription that is included in your Preview audience.
 

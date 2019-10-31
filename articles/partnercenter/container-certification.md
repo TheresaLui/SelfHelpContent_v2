@@ -22,5 +22,5 @@ During the certification publishing step, the Container offer is analyzed by the
 
 ## **Recommended Documents**
 
-* [Container publishing prerequisites](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/containers/cpp-prerequisites)
-* [Prepare your container technical assets](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/containers/cpp-create-technical-assets)
+* [Container publishing prerequisites](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/containers/cpp-prerequisites)
+* [Prepare your container technical assets](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/containers/cpp-create-technical-assets)
