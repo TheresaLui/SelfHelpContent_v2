@@ -10,7 +10,7 @@
 	articleId="marketplace_migration_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689413"
+	supportTopicIds="32689413,32689380"
 	resourceTags="marketplace"
 	productPesIds="15960"
 	cloudEnvironments="public"
