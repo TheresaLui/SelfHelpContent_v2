@@ -22,5 +22,5 @@ Most users are able to resolve their issues with virtual machine offers using th
 
 ## **Recommended Documents**
 
-* [Virtual machine offer documentation](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/virtual-machine/cpp-virtual-machine-offer)
+* [Virtual machine offer documentation](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/virtual-machine/cpp-virtual-machine-offer)
 * [View answers from the community in the official Microsoft AppSource and Azure Marketplace partner forum](https://www.microsoftpartnercommunity.com/t5/Microsoft-AppSource-and-Azure/bd-p/2222)

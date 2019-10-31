@@ -22,5 +22,5 @@ Most users are able to resolve their issues with IoT Edge module offers using th
 
 ## **Recommended Documents**
 
-* [IoT Edge module offer documentation](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/iot-edge-module/cpp-offer-process-parts)
+* [IoT Edge module offer documentation](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/iot-edge-module/cpp-offer-process-parts)
 * [View answers from the community in the official Microsoft AppSource and Azure Marketplace partner forum](https://www.microsoftpartnercommunity.com/t5/Microsoft-AppSource-and-Azure/bd-p/2222)
