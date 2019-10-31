@@ -17,8 +17,9 @@
 
 # Unexpected multi-factor authentication behavior
 
-## **Recommended steps**
+## **Recommended Steps**
 
+* If you are new to Azure or recently created a new Azure AD directory and are unexpectedly getting prompted for MFA, you might be experiencing [Azure AD security defaults](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-security-defaults), Azure's new secure-by-default behavior. To resolve your issues, please see the links below.
 * [YouTube video: How to get started with Azure MFA the right way](https://www.youtube.com/watch?v=x7W3vjpF8y4&t=4s)
 * [Get a step-by-step MFA deployment plan](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
 
