@@ -23,9 +23,11 @@ The migration of Azure application offers from Cloud Partner Portal to Partner C
 ## **Recommended Steps**
 
 During the migration:
+
 * Your customers will still be able to find and acquire your Azure application offers (solution templates and managed applications)
 * Your offers will be in the same state in Partner Center as they were in Cloud Partner Portal (draft, preview, live)
 
 After the migration:
+
 * Your Azure application offers will still be visible in Cloud Partner Portal, but read-only
 * You'll manage your Azure application offers in Partner Center
