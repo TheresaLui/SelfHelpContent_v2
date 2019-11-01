@@ -17,8 +17,7 @@
 
 ## **Recommended steps**
 ### All users can't sign-in using AD FS from an external network.
-Use this [troubleshooting guide](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/1183c7fd-7489-4957-a30c-ab497ee85657) if users are not able to
-authenticate using AD FS from outside corpnet. This would usually include authentications occuring via the Web Application Proxy (WAP).
+Use this [troubleshooting guide](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/1183c7fd-7489-4957-a30c-ab497ee85657) if users are not able to authenticate using AD FS from outside corpnet. This would usually include authentications occurring via the Web Application Proxy (WAP).
 
 ### The proxy trust between Web Application Proxy (WAP) and Active Directory Federation Service (AD FS) server is broken
 This [troubleshooting workflow](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/da33a6cd-166b-4fca-863a-73aec904c3fd) helps to resolve issues with proxy trust configuration with AD FS. Use this workflow if you are seeing problems with your Web Application Proxy (WAP) trust configuration.
