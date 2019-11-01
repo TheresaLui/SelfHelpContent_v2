@@ -28,5 +28,5 @@ This [troubleshooting workflow](https://adfshelp.microsoft.com/TroubleshootingGu
 2. View our [AD FS Troubleshooting - WIA Guide](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-iwa) to troubleshoot possible issues.
 3. If users are seeing unexpected NTLM or forms based authentication prompts, use this [workflow](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/e4d46600-59a9-4202-8fe7-7436fd56c486) to troubleshoot such issues.
 
-### Configure Smart Cart Authentication:
+### Configure Smart Card Authentication:
 View our [documentation](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication) for assistance configuring certificate authentication.
