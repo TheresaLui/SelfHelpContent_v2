@@ -13,7 +13,7 @@
 	supportTopicIds="32613320"
 	resourceTags=""
 	productPesIds="16462"
-	cloudEnvironments="public,Mooncake"
+	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
 />
 
 # Azure Table Storage General Advisory
