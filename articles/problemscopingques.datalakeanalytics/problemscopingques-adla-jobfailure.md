@@ -41,26 +41,26 @@
             "required": true
         },
         {
-            "id": "job_name",
+            "id": "failed_job_name",
             "order": 140,
             "controlType": "textbox",
-            "displayLabel": "Job name",
+            "displayLabel": "Failed job name",
             "watermarkText": "Please provide the job name for the job that failed",
             "required": false
         },
         {
-            "id": "job_url",
+            "id": "failed_job_url",
             "order": 150,
             "controlType": "textbox",
-            "displayLabel": "Job URL",
+            "displayLabel": "Failed job URL",
             "watermarkText": "Please provide the job URL for the job that failed",
             "required": false
         },
         {
-            "id": "job_url",
+            "id": "successful_job_url",
             "order": 160,
             "controlType": "textbox",
-            "displayLabel": "Job URL",
+            "displayLabel": "Prior successful job URL",
             "watermarkText": "Please provide the job URL for a previous job that succeeded",
             "required": false
         },
