@@ -25,7 +25,7 @@
 
 ## **Recommended Documents**
 - [Account Lockout Troubleshooting Guide](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/a73d5843-9939-4c03-80a1-adcbbf3ccec8)
-- [AD FS Extranet Smart Lockout Documenation](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)<br>
+- [AD FS Extranet Smart Lockout Documentation](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)<br>
 - [Password Spray Protection](https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/ad-fs-password-protection)<br>
 - [General AD FS Help](https://adfshelp.microsoft.com/)<br>
 - [Azure AD Connect Health for AD FS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)
