@@ -9,9 +9,9 @@
 	displayOrder="100"
 	articleId="dbformysql-access-denied"
 	diagnosticScenario="OrcasMySQLAccessDenied"
-    selfHelpType="rca"
-    resourceTags="servers, databases"
-    cloudEnvironments="public"
+	selfHelpType="rca"
+	resourceTags="servers, databases"
+	cloudEnvironments="public"
 />
 # Can't connect MySQL database server because Access Denied
 

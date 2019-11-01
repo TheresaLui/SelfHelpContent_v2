@@ -9,9 +9,9 @@
 	displayOrder="100"
 	articleId="dbformariadb-access-denied"
 	diagnosticScenario="OrcasMariaDBAccessDenied"
-    selfHelpType="rca"
-    resourceTags="servers, databases"
-    cloudEnvironments="public"
+	selfHelpType="rca"
+	resourceTags="servers, databases"
+	cloudEnvironments="public"
 />
 # Can't connect MariaDB database server because Access Denied
 

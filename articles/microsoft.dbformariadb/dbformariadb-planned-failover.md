@@ -9,9 +9,9 @@
 	displayOrder="100"
 	articleId="dbformariadb-planned-failover"
 	diagnosticScenario="OrcasMariaDBPlannedFailOver"
-    selfHelpType="rca"
-    resourceTags="servers, databases"
-    cloudEnvironments="public"
+	selfHelpType="rca"
+	resourceTags="servers, databases"
+	cloudEnvironments="public"
 />
 # Can't connect MariaDB database server
 

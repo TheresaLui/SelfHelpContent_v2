@@ -9,9 +9,9 @@
 	displayOrder="100"
 	articleId="dbformysql-unplanned-failover"
 	diagnosticScenario="OrcasMySQLUnplannedFailOver"
-    selfHelpType="rca"
-    resourceTags="servers, databases"
-    cloudEnvironments="public"
+	selfHelpType="rca"
+	resourceTags="servers, databases"
+	cloudEnvironments="public"
 />
 # Can't connect MySQL database server
 
