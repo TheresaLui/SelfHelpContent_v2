@@ -61,8 +61,8 @@
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
-            ],
-        },        
+            ]
+        },
         {
             "id": "database_Name",
             "order": 3,

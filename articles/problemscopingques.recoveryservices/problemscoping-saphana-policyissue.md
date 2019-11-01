@@ -17,11 +17,6 @@
     "subscriptionRequired": true,
     "title": "Cannot add or modify backup policy",
     "fileAttachmentHint": "",
-      "diagnosticCard": {
-        "title": "Cannot add or modify backup policy",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "problem_start_time",
