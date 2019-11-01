@@ -61,9 +61,10 @@
             "order": 160,
             "controlType": "textbox",
             "displayLabel": "Job URL",
-            "watermarkText": "Please provide the job URL for a previous job that suceeded",
+            "watermarkText": "Please provide the job URL for a previous job that succeeded",
             "required": false
-        },{
+        },
+        {
             "id": "usql_script",
             "order": 170,
             "controlType": "multilinetextbox",
