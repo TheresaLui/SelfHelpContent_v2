@@ -57,8 +57,15 @@
             "required": false
         },
         {
-            "id": "usql_script",
+            "id": "job_url",
             "order": 160,
+            "controlType": "textbox",
+            "displayLabel": "Job URL",
+            "watermarkText": "Please provide the job URL for a previous job that suceeded",
+            "required": false
+        },{
+            "id": "usql_script",
+            "order": 170,
             "controlType": "multilinetextbox",
             "displayLabel": "U-SQL script",
             "watermarkText": "Please provide the U-SQL script for the job that failed",
@@ -91,7 +98,7 @@
             "order": 500,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error message text if available, and any other relevant information",
+            "watermarkText": "Please provide the detailed symptoms including the full error message text if available, job graph for both the failed and previous sucessful job, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }
