@@ -19,7 +19,7 @@
 
 # Azure plan earned credits
 
-Resources and infromation about partner earned credit.
+Resources and information about partner earned credit.
 
 ## **Recommended Documents**
 
