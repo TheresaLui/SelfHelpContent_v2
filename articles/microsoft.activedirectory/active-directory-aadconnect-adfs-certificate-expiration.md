@@ -19,9 +19,9 @@
 
 * Use our [AD FS Certificate Troubleshooting Guide](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/3828f87c-72b4-4b99-bbcf-fdf74268874c). This workflow helps to provide guidance on how to deploy new certificates as well as troubleshoot problems with existing certificates. It covers both Active Directory Federation Service (AD FS) and Web Application Proxy (WAP) servers. 
 
-* To update the SSL Certificate, visit the [documentation instructions](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-certificates-ad-fs-wap).
+* To update the SSL Certificate, visit the [documentation instructions](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-certificates-ad-fs-wap).
 
-* For help configuring token-signing/token-decrypting certificates, view our [documentation](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/configure-ts-td-certs-ad-fs).
+* For help configuring token-signing/token-decrypting certificates, view our [documentation](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ts-td-certs-ad-fs).
 
 
 If your certificate has expired, try the following steps:
