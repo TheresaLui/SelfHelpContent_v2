@@ -10,7 +10,7 @@
 	supportTopicIds=" 32602743"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="Unable to delete file in an Azure file share"
 />
 
