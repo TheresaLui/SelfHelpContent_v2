@@ -8,7 +8,7 @@
 	ms.author="janeng"
 	displayOrder="100"
 	articleId="dbforpostgresql-asc-connectivity-outofconnections"
-	diagnosticScenario="OrcasPostgresOutofConnections"
+	diagnosticScenario="OrcasPostgresOutofConnectionsInsightV2TroubleShooter"
 	selfHelpType="rca"
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
