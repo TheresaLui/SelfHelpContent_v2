@@ -31,11 +31,11 @@
 
 	Ensure SQL Server Agent service is Started and Running. SQL Server Managed Backup to Microsoft Azure requires SQL Server Agent to be running on the instance to perform backup operations. 
 
-	You may want to set SQL Server Agent to run automatically on Windows startup. You can also ensure that [SQL Server Agent is set to restart SQL services automatically](https://docs.microsoft.com/en-us/previous-versions/technet-magazine/gg313742(v=msdn.10)) in case they stop unexpectedly.  
+	You may want to set SQL Server Agent to run automatically on Windows startup. You can also ensure that [SQL Server Agent is set to restart SQL services automatically]<a>https://docs.microsoft.com/en-us/previous-versions/technet-magazine/gg313742(v=msdn.10)</a> in case they stop unexpectedly.  
 
 * **Backup status alerts**
 
-	You can enable e-mail notifications to receive backup errors and warnings. See [Enable and Configure Notification for Health Status](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/enable-sql-server-managed-backup-to-microsoft-azure?view=sql-server-2017&tabs=azure-cli#enable-managed-backup-to-azure).
+	You can enable email notifications to receive backup errors and warnings. See [Enable and Configure Notification for Health Status](https://docs.microsoft.com/sql/relational-databases/backup-restore/enable-sql-server-managed-backup-to-microsoft-azure?view=sql-server-2017&tabs=azure-cli#enable-managed-backup-to-azure).
 
 * **Backup for databases larger than 1 TB**
 
