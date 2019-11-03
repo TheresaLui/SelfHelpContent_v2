@@ -16,7 +16,7 @@
     cloudEnvironments="public, mooncake, blackforest, fairfax"
 />
 
-## **Recommended Steps**
+# We ran diagnostics on your resource and found the following issue
 
 <!--issueDescription-->
 HDFS is running out of space for the following host(s): <!--$Hosts-->[Hosts]<!--/$Hosts--> in the cluster
