@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure plan earned credits"
-	description="Azure plan earned credits"
+	pageTitle="Partner earned credit for services managed (Azure)"
+	description="Partner earned credit for services managed (Azure)"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -17,9 +17,9 @@
 	cloudEnvironments="public"
 />
 
-# Azure plan earned credits
+# Partner earned credit for services managed (Azure)
 
-Resources and information about partner earned credit.
+Resources and information about partner earned credit for managed services in Azure.
 
 ## **Recommended Documents**
 
