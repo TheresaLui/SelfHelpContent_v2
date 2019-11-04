@@ -19,8 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync server endpoint deletion failed due to error **ECS\_E\_MGMT\_SERVER\_JOB\_EXPIRED**
 
 <!--issueDescription-->
-Server endpoint deletion failed under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ECS\_E\_MGMT\_SERVER\_JOB\_EXPIRED** (error code: **-2134347757** or **0x80c87013**). This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.
-<!--/issueDescription-->
+Server endpoint deletion failed under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ECS\_E\_MGMT\_SERVER\_JOB\_EXPIRED** (error code: **-2134347757** or **0x80c87013**). This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<!--/issueDescription-->
 
 This error occurs if the server is offline or doesn't have network connectivity. If the server is no longer available, unregister the server in the portal which will delete the server endpoints. 
 
