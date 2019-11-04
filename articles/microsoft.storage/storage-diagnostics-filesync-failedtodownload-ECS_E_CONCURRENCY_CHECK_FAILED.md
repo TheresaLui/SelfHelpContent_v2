@@ -27,3 +27,7 @@ This issue occurs because the file has changed, but the file change has not yet 
 ## **Recommended steps**
 
 No action is required. The file will sync once the change is detected.
+
+## **Recommended Documents**
+
+[How do I see if there are specific files or folders that are not syncing?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#how-do-i-see-if-there-are-specific-files-or-folders-that-are-not-syncing)

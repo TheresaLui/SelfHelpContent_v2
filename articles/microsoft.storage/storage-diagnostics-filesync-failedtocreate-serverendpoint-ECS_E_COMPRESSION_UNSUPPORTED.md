@@ -31,3 +31,8 @@ Decompress the System Volume Information folder. If the System Volume Informatio
 2. Run the following command from an elevated command prompt to launch a command prompt running under the system account: PsExec.exe -i -s -d cmd
 3. From the command prompt running under the system account, type the following commands and hit enter:
     >cd /d "drive letter:\System Volume
+
+## **Recommended Documents**
+
+- [Sync group management](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
+- [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec)

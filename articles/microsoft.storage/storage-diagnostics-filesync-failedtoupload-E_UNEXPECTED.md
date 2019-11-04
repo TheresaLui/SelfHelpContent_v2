@@ -28,3 +28,6 @@ This issue occurs because the file cannot be synced due to an unexpected error.
 
 No action is required. If this error persists for longer than a day, please file a support ticket.
 
+## **Recommended Documents**
+
+[How do I see if there are specific files or folders that are not syncing?](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#how-do-i-see-if-there-are-specific-files-or-folders-that-are-not-syncing)
