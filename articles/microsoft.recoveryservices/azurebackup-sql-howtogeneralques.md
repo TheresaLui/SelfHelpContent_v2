@@ -18,16 +18,17 @@
 
 ## **Recommended Documents**
 
-- Supported [Azure geos](https://aka.ms/AB-AA4dp5m), [Operating Systems](https://aka.ms/AB-AA4dp5m), and [SQL Server versions](https://aka.ms/AB-AA4dp5m) for SQL server in Azure VM backup
+* Supported [Azure geos](https://aka.ms/AB-AA4dp5m), [Operating Systems](https://aka.ms/AB-AA4dp5m), and [SQL Server versions](https://aka.ms/AB-AA4dp5m) for SQL server in Azure VM backup
 * [Prerequisites for SQL server in Azure VM backup](https://aka.ms/AA4dqho)
 * [Prerequisites before triggering a restore](https://aka.ms/AB-AA4dwub)
-* [Public preview limitations](https://aka.ms/AB-AA4dp5s)
+* [Limitations](https://aka.ms/AB-AA4dp5s)
 * [Network connectivity requirement](https://aka.ms/AB-AA4dp5t)
 * How to: 
-	* [Backup SQL database?](https://aka.ms/AA4dy7j)
-	* [Restore a SQL database?](https://aka.ms/AA4dqi5)<br>
-	* [How to monitor backup jobs?](https://aka.ms/AB-AA4dwuf)<br>
-	* [How to stop protection for a SQL server database?](https://aka.ms/AB-AA4dp5o)<br>
-	* [How to Unregister a SQL server instance?](https://aka.ms/AB-AA4dp5r)
 
-* [FAQs](https://aka.ms/AB-AA4dwuc))
+	* [Backup SQL database](https://aka.ms/AA4dy7j)
+	* [Restore a SQL database](https://aka.ms/AA4dqi5)<br>
+	* [Monitor backup jobs](https://aka.ms/AB-AA4dwuf)<br>
+	* [Stop protection for a SQL server database](https://aka.ms/AB-AA4dp5o)<br>
+	* [Unregister a SQL server instance](https://aka.ms/AB-AA4dp5r)
+
+* [FAQs](https://aka.ms/AB-AA4dwuc)

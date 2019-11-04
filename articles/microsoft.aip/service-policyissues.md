@@ -16,7 +16,11 @@
 
 # Azure Information Protection service - policy issues
 
-If you still experience the issue after reviewing the documentation below, please take a screenshot of the problem and attach the screenshot to this ticket.
+## **Recommended Steps**
+
+1. Check if you are using scoped policies which aren't configured properly: [How to configure the Azure Information Protection policy for specific users by using scoped policies](https://docs.microsoft.com/azure/information-protection/configure-policy-scope)
+
+2. If you still experience the issue after reviewing the documentation below, please take a screenshot of the problem and attach the screenshot to this ticket.
 
 ## **Recommended Documents**
 

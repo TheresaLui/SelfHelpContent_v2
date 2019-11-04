@@ -20,6 +20,6 @@
  
 <div>
   Your tenant has no mobile device management (MDM) enrolled devices with Intune. If you want to enroll and manage your devices through Intune MDM, choose the desired platform below for further instructions. If you are using a third party MDM or only App Protection features no action may be needed <br/>
- <br/>For further information on enrolling devices please review the documentation <a href="https://docs.microsoft.com/intune/device-enrollment">here</a>.<br/>
+ <br/>For further information on enrolling devices, please review the documentation <a href="https://docs.microsoft.com/intune/device-enrollment" target="_blank">here</a>.<br/>
   <br/>
 </div>

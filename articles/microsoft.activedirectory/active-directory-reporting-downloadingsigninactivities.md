@@ -4,6 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="dhanyahk"
+    ms.author="curtand"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32615410"
@@ -13,16 +14,12 @@
     	articleId="0f9c8c7c-56c4-46b7-9f6e-a23f54f076eb"
 />
 
-# Azure AD Sign-in logs
+# Problem downloading sign-in activities
 
-## **Recommended steps**
+## **Recommended Steps**
 
-### **Troubleshooting download issues**
+- If you don't see all the sign-ins for the date range you selected, please note that you can download up to 250K rows (sorted by most recent) of sign-ins from Azure portal
 
-* If you don't see all the sign-ins for the date range you selected, you can download up to 5000 rows (sorted by most recent) of sign-ins from the Azure portal.<br>
-* If you want to download more, open the Sign-ins blade and select the **Script** option to download a PowerShell script that can give you the results in .csv format
+## **Recommended Documents**
 
-## **Recommended documents**
-
-* [Sign-ins activities download](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-sign-ins#download-sign-in-activities)  
-
+- [Sign-ins activities download](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-sign-ins#download-sign-in-activities)  

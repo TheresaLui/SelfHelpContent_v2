@@ -17,7 +17,7 @@
 />
 # We ran diagnostics on your resource and found an issue
 
-<!--issueDescription-->
+<!--issueDescription-->  
 We were able to detect the following on-premises agent(s) offline:<br>
 **<!--$OnPremAgentOfflineList--> OnPremAgentOfflineList <!--/$OnPremAgentOfflineList-->**
 <!--/issueDescription-->

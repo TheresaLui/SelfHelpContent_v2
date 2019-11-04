@@ -5,6 +5,7 @@ infoBubbleText="Update run failed because a scan was unable to complete. See det
 service="microsoft.automation"
 resource="automationaccounts"
 authors="georgewallace"
+ms.author="gwallace"
 displayOrder=""
 articleId="Update_AE3E2A15-F80C-4034-AA00-08E04F72ACFF"
 diagnosticScenario="AAUpdateRunFailedInsights"
@@ -13,12 +14,17 @@ supportTopicIds="32599861,32599878,32599924,32599864,32599866,32599868,32599870,
 productPesIds="15607"
 cloudEnvironments="public"
 />
+
 # Microsoft Monitoring Agent needs to be upgraded
 
+<!--/issueDescription-->
 We have detected that an update run has failed to query Windows Update for the patches in an update deployment. Without being able to query Windows Update, we can not determine what patches are needed to be installed.
+<!--/issueDescription-->
 
-## Recommended action
+## **Recommended Steps**
 
-You can search for the HRESULT <!--$HRESULTCode-->[HRESULTCode]<!--/$HRESULTCode--> in the [Windows Update error code list](https://support.microsoft.com/help/938205/windows-update-error-code-list) to find the description of the failure. This description provides insight into the possible problem with updates.
+* Search for the HRESULT <!--$HRESULTCode-->[HRESULTCode]<!--/$HRESULTCode--> in the [Windows Update error code list](https://support.microsoft.com/help/938205/windows-update-error-code-list) to find the description of the failure. This description provides insight into the possible problem with updates.
 
-To learn more on how to be notified on the status of an update deployment in the future by using Azure Monitor, see [Configure alerts for update deployments](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management#configure-alerts)
+## **Recommended Documents**
+
+* [Configure alerts for update deployments](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management#configure-alerts)

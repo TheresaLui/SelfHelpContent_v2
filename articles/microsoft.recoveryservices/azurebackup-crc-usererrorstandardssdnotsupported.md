@@ -16,16 +16,12 @@
 	cloudEnvironments="public"
 />
 
-# UserErrorStandardSSDNotSupported
+# Error UserErrorStandardSSDNotSupported
 
 <!--issueDescription-->
-We found that you are using Standrd SSD disk for this **<!--$DatasouceName-->DatasouceName<!--/$DatasouceName-->** VM. However, Azure Backup currently does not support Standard SSD disks for vaults that are not upgraded to Azure VM Backup stack v2. 
+We found that you are using Standard SSD disk for the VM.
 <!--/issueDescription-->
 
-## **Recommended Steps**
-
-To verify and upgrade this **<!--$VaultName-->VaultName<!--/$VaultName-->** vault to Azure VM Backup Stack V2, see this [article](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2). <br>
-Make sure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#considerations-before-upgrade) section.
-
 ## **Recommended Documents**
-Review the [benefits](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2), including the ability to backup disks up to 4TB. 
+
+To resolve this issue, ensure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-instant-restore-capability#feature-considerations) and [benefits]https://docs.microsoft.com/azure/backup/backup-instant-restore-capability#feature-considerations) section.

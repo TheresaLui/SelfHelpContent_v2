@@ -32,6 +32,10 @@
                 {
                     "text": "No",
                     "value": "ADFSNotDeployed"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -58,6 +62,10 @@
                 {
                     "text": "Server 2012 R2",
                     "value": "version2012R2"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -84,6 +92,10 @@
                 {
                     "text": "No",
                     "value": "SingleDomainFederation"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -151,6 +163,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

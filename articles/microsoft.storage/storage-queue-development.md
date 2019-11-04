@@ -7,13 +7,13 @@
 	authors="raprasad"
 	ms.author="raprasad"
 	displayOrder=""
-	articleId=""
+	articleId="d2b45a85-a545-4e20-93e6-9c6adf24d5fc"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32602772"
 	resourceTags=""
 	productPesIds="16461"
-	cloudEnvironments="public,Mooncake"
+	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
 />
 
 # Development with Azure Queue

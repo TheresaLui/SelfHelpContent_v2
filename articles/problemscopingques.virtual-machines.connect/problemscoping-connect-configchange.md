@@ -10,9 +10,10 @@
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0014"
 />
-# Connect to a VM
+# Connect to a VM 
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "My configuration change impacted connectivity",
     "fileAttachmentHint": "",
@@ -88,8 +89,38 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "connect_ifnew",
+            "id": "isadmin",
             "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Is this the built-in administrator account?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "name_useraccount",
+            "order": 6,
+            "visibility": "isadmin == No || isadmin == I do not know",
+            "controlType": "textbox",
+            "displayLabel": "What is the name of the user account trying to login?",
+            "required": false
+        },
+        {
+            "id": "connect_ifnew",
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Is this VM new to Azure?",
             "watermarkText": "Choose an option",
@@ -111,7 +142,7 @@
         },
         {
             "id": "connect_from",
-            "order": 6,
+            "order": 8,
             "visibility": "connect_ifnew == Yes",
             "controlType": "dropdown",
             "displayLabel": "Where is the VM from?",
@@ -128,13 +159,17 @@
                 {
                     "value": "From another cloud provider",
                     "text": "From another cloud provider"
+                },
+                {
+                        "value": "Azure Marketplace",
+                        "text": "Azure Marketplace"
                 }
             ],
             "required": false
         },
         {
             "id": "connect_howmigrated",
-            "order": 7,
+            "order": 9,
             "visibility": "connect_from == On premise || connect_from == From another cloud provider",
             "controlType": "dropdown",
             "displayLabel": "How was this machine migrated?",
@@ -161,7 +196,7 @@
         },
         {
             "id": "connect_wasoncloud",
-            "order": 8,
+            "order": 10,
             "visibility": "connect_from == On premise",
             "controlType": "dropdown",
             "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
@@ -180,7 +215,7 @@
         },
         {
             "id": "connect_ifbackup",
-            "order": 9,
+            "order": 11,
             "controlType": "dropdown",
             "displayLabel": "Was this VM recovered from backup?",
             "watermarkText": "Choose an option",
@@ -202,7 +237,7 @@
         },
         {
             "id": "connect_ifinternet",
-            "order": 10,
+            "order": 12,
             "controlType": "dropdown",
             "displayLabel": "Do you have connectivity issues from/to this VM?",
             "watermarkText": "Choose an option",
@@ -220,7 +255,7 @@
         },
         {
             "id": "connect_internetissue",
-            "order": 11,
+            "order": 13,
             "visibility": "connect_ifinternet == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is the problem you are having?",
@@ -251,7 +286,7 @@
         },
         {
             "id": "problem_description",
-            "order": 12,
+            "order": 14,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -259,11 +294,12 @@
         },
         {
             "id": "problem_start_time",
-            "order": 13,
+            "order": 15,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

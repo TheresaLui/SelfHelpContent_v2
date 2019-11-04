@@ -1,20 +1,20 @@
 <properties  
-              pageTitle="My configuration change impacted connectivity"
-              description="My configuration change impacted connectivity"
+              pageTitle="My configuration change impacted Azure VM connectivity"
+              description="My configuration change impacted Azure VM connectivity"
               service=""
               resource=""
               authors="ScottAzure,timbasham"
               ms.author="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
-              supportTopicIds="32615530"
+              supportTopicIds="32615530,32639644"
               resourceTags=""
-              productPesIds="14749"
+              productPesIds="14749,14745"
               cloudEnvironments="public"
 	articleId="b53b4761-a678-45ea-8869-24973e5a6678"
 />
 
-# My configuration change impacted connectivity
+# My configuration change impacted Azure VM connectivity
 
 4 out of 5 customers resolved their VM connectivity issue using the steps below.<br>
 
@@ -37,9 +37,9 @@
    * [VM guest network card has a static IP assigned](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-static-ip)<br>
    * [VM guest network cable disconnected (Windows 10 or Windows Server 2016)](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-driver-netvsc)<br>
    * [Network Security Group misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nsg-problem)
-  
+
 ### **Common guest OS firewall issues**
-  
+
 * [Guest OS firewall is blocking all inbound traffic](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic)<br>
 * [Guest OS firewall is misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-misconfigured)<br>
 * [How to disable the guest OS firewall](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/disable-guest-os-firewall-windows)<br>
@@ -55,4 +55,3 @@
   * [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
   * [How to reset the Remote Desktop service or its login password in a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/reset-rdp)<br>
   * [Reset local Windows password for Azure VM offline](https://docs.microsoft.com/azure/virtual-machines/windows/reset-local-password-without-agent)<br>
-

@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="azurestack-network-load-balancers"
+    articleId="b98cb657-d25f-4445-a5a4-bfb14de1e04e"
 />
 
 # Azure Stack Load Balancer for User Environment

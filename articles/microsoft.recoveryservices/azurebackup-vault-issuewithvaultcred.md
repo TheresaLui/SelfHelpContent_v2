@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-- [Invalid vault credentials provided: The file is either corrupted or does not have the latest credentials associated with recovery services (ID: 34513)](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#invalid-vault-credentials-provided)<br>
-- [How long are the vault credentials valid after download?](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#when-configuring-the-azure-backup-agent-i-am-prompted-to-enter-the-vault-credentials-do-vault-credentials-expire)<br>
-- [The vault credentials provided are different from the vault the server is registered](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#the-vault-credentials-provided-are-different-from-the-vault-the-server-is-registered)<br>
-- [Unable or Failed to download the vault credentials file](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#unable-to-download-vault-credential-file)
+- [Invalid vault credentials provided: The file is either corrupted or does not have the latest credentials associated with recovery services (ID: 34513)](https://aka.ms/AB-AA4dwts)<br>
+- [How long are the vault credentials valid after download?](https://aka.ms/AB-vault-credentials-expire)<br>
+- [The vault credentials provided are different from the vault the server is registered](https://aka.ms/AB-server-is-registered)<br>
+- [Unable or Failed to download the vault credentials file](https://aka.ms/AAB-unable-to-download-vault-credential-file)

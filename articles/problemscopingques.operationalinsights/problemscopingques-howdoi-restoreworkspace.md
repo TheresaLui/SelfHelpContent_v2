@@ -38,7 +38,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "What is the workspace Id of the deleted workspace?",
             "watermarkText": "e.g. 12345678-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -50,6 +50,7 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

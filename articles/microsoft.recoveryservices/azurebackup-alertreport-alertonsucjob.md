@@ -16,9 +16,11 @@
 
 # Email notification on succeeded backup jobs
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-**Note**: Alerts are designed for failure scenarios. Currently there is NO support for notification on successful backups.<br>
+- [Create alerts using Log Analytics](https://aka.ms/Create-Alert-LA)
+- [Configure notifications for alerts generated using Log Analytics](https://aka.ms/BKP-LA-Notification)
+- To configure alert and notification on successful backup jobs, use query [all successful backup jobs](https://aka.ms/BKP-Alerts-AllSuccessfulJobs) while defining [alert condition](https://aka.ms/backup-Alert-condition) in Log Analytics <br>
+- You can also use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for Azure VMs. Please read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs.
 
-  - For Azure Virtual Machine backups, you can [use activity logs to get notifications as a workaround](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#using-activity-logs-to-get-notifications-for-successful-backups)
-  - MARS agent (files & folder backup) does not support notification on successful backups, and there are no recommended workarounds
+**Note:** Log Analytics currently supports Azure VM backups, MAB Agent, and System Center DPM. For more information, refer to this [article](https://aka.ms/Create-Alert-LA).

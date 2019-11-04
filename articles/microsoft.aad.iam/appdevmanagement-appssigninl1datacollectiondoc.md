@@ -142,7 +142,7 @@
         },
         {
             "id": "appNameOrId",
-            "visibility": "hasErrorData==no",
+            "visibility": "null",
             "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Application name or Application ID experiencing this problem?",
@@ -196,6 +196,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

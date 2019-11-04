@@ -19,6 +19,10 @@
 ## **Recommended Steps**
 
 * If the **Custom Permissions**" option is not available in the Azure Information Protection client, verify that the policy setting [**Make the custom permissions option available for users**](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-settings) is enabled
+* Information regarding configuring **Custom Permissions** can be found at [Make the custom permissions options available or unavailable to users](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-customizations#make-the-custom-permissions-options-available-or-unavailable-to-users)
+* Information regarding **User Defined Permissions** can be found at [To configure a label for protection settings](https://docs.microsoft.com/azure/information-protection/configure-policy-protection#to-configure-a-label-for-protection-settings)
+* If you are having issues with Address Book which isn't opening, review [Configure a prompt when a program accesses an address book by using the Outlook object model](https://support.microsoft.com/help/926512/information-for-administrators-about-e-mail-security-settings-in-outlo)
+* If you are looking for information regarding sending protected content to external recipients, review [How do I send a protected email to a Gmail or Hotmail account?](https://docs.microsoft.com/azure/information-protection/faqs-rms#how-do-i-send-a-protected-email-to-a-gmail-or-hotmail-account)
 * If you still experience the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
@@ -30,6 +34,7 @@
 
 ## **Recommended Documents**
 
+* [Configuring usage rights for Azure Rights Management](https://docs.microsoft.com/azure/information-protection/configure-usage-rights)<br>
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>

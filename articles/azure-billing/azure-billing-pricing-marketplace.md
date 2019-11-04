@@ -1,6 +1,6 @@
 <properties
-	pageTitle="marketplace"
-	description="marketplace"
+	pageTitle="Help me understand when I will be charged"
+	description="Help me understand when I will be charged"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -14,35 +14,48 @@
 	articleId="pricing-marketplace"
 />
 
-# marketplace
+# Help me understand when I will be charged
 
 
-### **Azure Marketplace**
+### **Help me understand when I will be charged**
 
-Azure Marketplace is an online application and services marketplace. Customers (mostly IT pros and developers) can discover, try and buy cloud software solutions built on Azure or built for Azure. Learn more [here](https://azuremarketplace.microsoft.com/marketplace/)
+The anniversary day is the day of the month you purchased the subscription. The invoice is generated on the anniversary date and 10 days later the credit card is charged. Invoice customers need to pay using Wire transfer/check and the details for payment is available on your monthly invoice.<br>
+For example, if you purchased the subscription on January 15th, the anniversary day will be the 15th of each month when the invoice is generated and 10 days later the card is charged.<br>
 
-### **Pricing for Azure Marketplace subscriptions**
+### **Understand charges on an Azure free account**
 
-Pricing varies based on product types and publisher specifications. Pricing models include: **BYOL Model, Free, Free Software Trial, Usage-Based, Monthly Fee**
+Azure free trial account is only for 1 month and once it is upgraded to pay-g there will be 12 month free services. The Azure free account includes free access to the most popular Azure products for 12 months, $200 credit to spend for the first 30 days of sign up, and access to more than 25 products that are always free. If you are seeing a charge, it is likely possible that it is not one of the listed products that are available monthly, for free.<br>
+Note, you would need to upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) after the first 30 days in order to continue using the Free Account for the remaining 11 months and you would not be charged if you stayed within the free service limits.<br>
+[Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)
 
-Learn more on these models and Azure Marketplace in general: [ Marketplace FAQs](https://azure.microsoft.com/marketplace/faq/) <br>
+### **Understand charges on Azure for Students account**
 
-Learn more on Billing for Marketplace service charges: [Understand Marketplace service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges) <br>
+Azure for Students gets you started with $100 in Azure credits to be used within the first 12 months plus select [free services](https://azure.microsoft.com/free/students/#free-products-section) (subject to change) without requiring a credit card at sign-up. If you are seeing a charge or unable to deploy a new service, it is likely you have used up your credits or it is outside the available free services. <br>
+[Azure for students -FAQ](https://azure.microsoft.com/free/free-account-students-faq/)
 
-Learn more on Offer specific pricing details: [Azure Pricing](https://azure.microsoft.com/pricing/) <br>
+### **Re-enable the subscription**
 
-_Note:_ except for monthly fees, Azure usage charges are applicable to all pricing models unless otherwise stated.<br>
+Your subscription might be disabled if the monthly credits on your subscription is used up. It will be re-activated when the credits are set back in the next billing cycle. If your subscription is disabled, check 
 
+* If you have spending limit enabled or if you have deployed any third-party services. If so, please go ahead and remove the spending limit or delete/remove the service. Once the spending limit is removed, clear browser cache, cookies or use in-private browser to login to Azure portal to verify the subscription status, **or**
+* Wait until the next billing cycle when new credits would be added and the subscription would be automatically enabled, **or**
+* If you have a [Free Trial](https://azure.microsoft.com/free/) or an [Azure for Students Starter](https://azure.microsoft.com/offers/ms-azr-0144p/) subscription, you can upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) in the Azure portal: [Upgrade subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
+
+### **How to determine the resources accruing costs**
+
+* Log into the Azure portal.  Click on **Cost Management and billing**
+* Click on the subscription to see the resource and their associated cost
+
+Refer [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) before any resource is created which gives an idea about the cost.<br>
+
+Learn more on [how charges are processed](https://docs.microsoft.com/azure/devops/organizations/billing/billing-faq?view=azure-devops#how-charges-are-processed) for Azure DevOps<br>
 
 ## **Recommended Documents**
 
-* Azure Subscriptions: [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/)
-* Azure Services: [Azure products](https://azure.microsoft.com/services/)
-* [Azure pricing calculator.](https://azure.microsoft.com/pricing/calculator/)
-* [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
-* [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
-* [Azure Free Trial FAQ](https://azure.microsoft.com/pricing/free-trial-faq/)
-* [Upgrade free subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription/)
-* [Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)
-* [Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://partner.microsoft.com/membership/core-benefits#Core%20benefits)
-* [Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)
+* [Understand your Microsoft Azure Bill](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)
+* [Understand charges on your Microsoft Customer Agreement Invoice](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill)
+* [Understand usage terms in Azure usage and charges file](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
+* [Understand terms on Microsoft Azure invoice](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
+* [Prevent unexpected charges with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)
+* [Full list of Azure offers and the availability of the spending limit](https://azure.microsoft.com/support/legal/offer-details/)
+* [Azure billing for external service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)
