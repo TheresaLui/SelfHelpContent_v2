@@ -16,12 +16,6 @@
 	cloudEnvironments="public"
 />
 
-	supportTopicIds="32689427"
-	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
-/>
-
 # IaaS offers - preview
 
 ## **Recommended Steps**
