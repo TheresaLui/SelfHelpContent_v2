@@ -19,10 +19,11 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to create cloud endpoint - file share in use by a different cloud endpoint
 
 <!--issueDescription-->
-Cloud endpoint creation failed for sync group(s) under the Storage Sync Service resource _**<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->**_ due to error: **The specified Azure file share is already in use by a different cloud endpoint**. This error occurred between _<!--$startTime-->[startTime]<!--/$startTime-->_ and _<!--$endTime-->[endTime]<!--/$endTime-->_.
+Cloud endpoint creation failed for sync group(s) under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error: **The specified Azure file share is already in use by a different cloud endpoint**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.
 <!--/issueDescription-->
 
 Please refer to [Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management) for more details on this error.
+
 
 ## **Recommended steps**
 

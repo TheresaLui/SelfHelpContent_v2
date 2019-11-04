@@ -34,5 +34,5 @@ Decompress the System Volume Information folder. If the System Volume Informatio
 
 ## **Recommended Documents**
 
-- [Sync group management](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
+- [Sync group management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
 - [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec)
