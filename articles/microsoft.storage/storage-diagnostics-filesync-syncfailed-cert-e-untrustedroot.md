@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed error - CERT_E_UNTRUSTEDROOT
 
 <!--issueDescription-->
-Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **CERT\_E\_UNTRUSTEDROOT** (error code **0x800b0109** or **-2146762487**). This error occurred between _<!--$startTime-->[startTime]<!--/$startTime-->_ and _<!--$endTime-->[endTime]<!--/$endTime-->_.
+Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **CERT\_E\_UNTRUSTEDROOT** (error code **0x800b0109** or **-2146762487**). This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.
 
 This error can happen if your organization is using an SSL terminating proxy or if a malicious entity is intercepting the traffic between your server and the Azure File Sync service.
 
