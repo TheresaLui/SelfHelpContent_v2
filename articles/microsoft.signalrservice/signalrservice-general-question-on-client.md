@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Document on SignalR clients](https://docs.microsoft.com/en-us/aspnet/core/signalr/client-features?view=aspnetcore-3.0)
+* [Document on SignalR clients](https://docs.microsoft.com/aspnet/core/signalr/client-features?view=aspnetcore-3.0)
