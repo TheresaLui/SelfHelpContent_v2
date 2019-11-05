@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for providing us with your on-premise device configuration. We’ve reviewed your configuration and determined it does not meet the configuration standards that Microsoft has published for on-premise VPN devices that connect to Azure VPN Gateway. Please review the configuration standards Microsoft has published, correct any variations and attempt to establish a VPN Gateway connection.
+Thank you for providing us with your on-premise device configuration. We've reviewed your configuration and determined it does not meet the configuration standards that Microsoft has published for on-premise VPN devices that connect to Azure VPN Gateway. Please review the configuration standards Microsoft has published, correct any variations and attempt to establish a VPN Gateway connection.
 
 Please let us know if this does or does not correct the connectivity issue.
 

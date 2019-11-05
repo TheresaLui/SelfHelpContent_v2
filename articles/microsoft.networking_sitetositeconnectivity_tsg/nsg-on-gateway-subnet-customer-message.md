@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’ve reviewed the logs and diagnostics available to us and have determined that your issue is due to an NSG on the gateway subnet. To resolve this issue, please add the tag “GatewayManager” on VPN Gateway Subnet. This will apply the necessary NSG rules that will allow traffic required for the VPN Gateway. Alternatively, you may remove the NSG from the gateway subnet.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We've reviewed the logs and diagnostics available to us and have determined that your issue is due to an NSG on the gateway subnet. To resolve this issue, please add the tag "GatewayManager" on VPN Gateway Subnet. This will apply the necessary NSG rules that will allow traffic required for the VPN Gateway. Alternatively, you may remove the NSG from the gateway subnet.
 
 Best regards,
 <!--/issueDescription-->

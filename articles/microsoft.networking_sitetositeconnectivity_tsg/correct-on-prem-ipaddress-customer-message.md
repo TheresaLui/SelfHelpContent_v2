@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your connectivity issue with Azure VPN Gateway. Through the troubleshooting process we’ve determined that the on-premise IP Address that is attempting to connect to the VPN Gateway does not match the IP Address VPN Gateway is expecting a connection from. Please correct this issue by correcting the on-premise IP Address or configuring Azure VPN Gateway to accept the correct IP Address. 
+Thank you for contacting us about your connectivity issue with Azure VPN Gateway. Through the troubleshooting process we've determined that the on-premise IP Address that is attempting to connect to the VPN Gateway does not match the IP Address VPN Gateway is expecting a connection from. Please correct this issue by correcting the on-premise IP Address or configuring Azure VPN Gateway to accept the correct IP Address. 
 
 Please let us know if this does or does not correct the connectivity issue.
 

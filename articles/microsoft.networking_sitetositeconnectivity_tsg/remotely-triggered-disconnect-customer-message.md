@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us regarding your Azure VPN Gateway connectivity issue. We’ve reviewed the logs and diagnostics available to us and have determined that the VPN tunnel was disconnected due to your on-premise device initiating a reset/disconnect. If you have any further questions about then please get back in touch with us.
+Thank you for contacting us regarding your Azure VPN Gateway connectivity issue. We've reviewed the logs and diagnostics available to us and have determined that the VPN tunnel was disconnected due to your on-premise device initiating a reset/disconnect. If you have any further questions about then please get back in touch with us.
 
 Best regards,
 <!--/issueDescription-->

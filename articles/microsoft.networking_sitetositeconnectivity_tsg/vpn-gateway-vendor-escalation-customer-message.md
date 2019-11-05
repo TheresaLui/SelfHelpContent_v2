@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issues. We’ve reached a point in the troubleshooting process where it is necessary to engage your on-premise device vendor to further diagnose the issue. Please engage your device vendor so we can continue further the troubleshooting process.
+Thank you for contacting us about your Azure VPN Gateway connectivity issues. We've reached a point in the troubleshooting process where it is necessary to engage your on-premise device vendor to further diagnose the issue. Please engage your device vendor so we can continue further the troubleshooting process.
 
 Best regards,
 <!--/issueDescription-->

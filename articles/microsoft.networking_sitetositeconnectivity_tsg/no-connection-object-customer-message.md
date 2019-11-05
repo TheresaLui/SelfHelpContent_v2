@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’ve reviewed the logs and diagnostics available to us and have determined that your connectivity issue is the result of the VPN Gateway connection object being deleted or never being created. A connection object is required to establish VPN Connectivity. Please configure a connection object in order to establish VPN connectivity.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We've reviewed the logs and diagnostics available to us and have determined that your connectivity issue is the result of the VPN Gateway connection object being deleted or never being created. A connection object is required to establish VPN Connectivity. Please configure a connection object in order to establish VPN connectivity.
 
 Best regards,
 <!--/issueDescription-->

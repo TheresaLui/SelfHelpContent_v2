@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. Through troubleshooting, we’ve determined that your on-premise device IP address is attempting to establish a VPN tunnel from an IP address that does not match the IP address that VPN Gateway is expecting. Please correct this issue by either fixing your on-premise configuration so the VPN tunnel is sourced from the expected IP address or change the configuration in Azure to match the actual IP address that is establishing the connection.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. Through troubleshooting, we've determined that your on-premise device IP address is attempting to establish a VPN tunnel from an IP address that does not match the IP address that VPN Gateway is expecting. Please correct this issue by either fixing your on-premise configuration so the VPN tunnel is sourced from the expected IP address or change the configuration in Azure to match the actual IP address that is establishing the connection.
 
 Best regards,
 <!--/issueDescription-->

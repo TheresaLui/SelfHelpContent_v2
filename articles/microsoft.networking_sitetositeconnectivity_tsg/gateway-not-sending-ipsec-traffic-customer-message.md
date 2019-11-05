@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issues. Through troubleshooting, we’ve determined that the connectivity issues are a result of potential misconfigurations with the Azure VPN Gateway as it relates to its configuration about your on-premise gateway. Please verify your configuration and ensure you have a connection object configurated, that the on-premise IP address is correctly configured and verify that your connection is not set to “Disconnect”.  
+Thank you for contacting us about your Azure VPN Gateway connectivity issues. Through troubleshooting, we've determined that the connectivity issues are a result of potential misconfigurations with the Azure VPN Gateway as it relates to its configuration about your on-premise gateway. Please verify your configuration and ensure you have a connection object configurated, that the on-premise IP address is correctly configured and verify that your connection is not set to "Disconnect".  
 
 Please let us know if correcting these configurations fixes your connectivity issues.  
 

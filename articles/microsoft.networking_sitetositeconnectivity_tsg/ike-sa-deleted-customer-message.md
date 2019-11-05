@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’ve reviewed the logs and diagnostics available to us and have determined that the on-premise device stopped the process of establishing a Security Association during the IKE re-key process. This can happen for a number of reasons, but as a first step, please ensure you are using a supported device and ensure that device is configured according to the VPN Device Scripts that Azure publishes for supported devices.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We've reviewed the logs and diagnostics available to us and have determined that the on-premise device stopped the process of establishing a Security Association during the IKE re-key process. This can happen for a number of reasons, but as a first step, please ensure you are using a supported device and ensure that device is configured according to the VPN Device Scripts that Azure publishes for supported devices.
 
 Best regards,
 <!--/issueDescription-->

@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’ve reviewed the logs and diagnostics available to us and have determined that your connectivity issue is the result of the VPN Gateway connection object being deleted. The connection object can only be deleted by someone with access to your Azure configuration, most likely be someone within your organization. When the connection object is deleted, then the VPN Gateway, by design, will disconnect any active tunnel. Please re-configure a connection object in order to establish VPN connectivity.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We've reviewed the logs and diagnostics available to us and have determined that your connectivity issue is the result of the VPN Gateway connection object being deleted. The connection object can only be deleted by someone with access to your Azure configuration, most likely be someone within your organization. When the connection object is deleted, then the VPN Gateway, by design, will disconnect any active tunnel. Please re-configure a connection object in order to establish VPN connectivity.
 
 Best regards,
 <!--/issueDescription-->

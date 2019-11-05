@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’re reviewed the logs and diagnostics available to us and have determined that your connectivity is the result of narrow traffic selectors. Traffic selectors are a VPN configuration that only allows certain subnets to talk to other subnets. Traffic selectors can be configured on either the Azure VPN Gateway or on the on-premise VPN device. In order to resolve your connectivity issues, the traffic selectors must be configured to allow the subnets that require connectivity. Additionally, traffic selector configuration must match on both sides of the VPN connection.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We're reviewed the logs and diagnostics available to us and have determined that your connectivity is the result of narrow traffic selectors. Traffic selectors are a VPN configuration that only allows certain subnets to talk to other subnets. Traffic selectors can be configured on either the Azure VPN Gateway or on the on-premise VPN device. In order to resolve your connectivity issues, the traffic selectors must be configured to allow the subnets that require connectivity. Additionally, traffic selector configuration must match on both sides of the VPN connection.
 
 Best regards,
 <!--/issueDescription-->

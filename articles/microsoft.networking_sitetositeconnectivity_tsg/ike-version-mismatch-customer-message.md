@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us regarding your Azure VPN Gateway connectivity issues. We’ve reviewed the logs and diagnostics available to us and have determined that your connectivity issue is due to an IKE version mismatch. If you are using a Policy Based Gateway, then please configure your gateway for IKEv1. If you’re using a Route Based Gateway, please configure your gateway for IKEv2. If your connectivity issues persist after making these changes, then please contact us to troubleshoot further.
+Thank you for contacting us regarding your Azure VPN Gateway connectivity issues. We've reviewed the logs and diagnostics available to us and have determined that your connectivity issue is due to an IKE version mismatch. If you are using a Policy Based Gateway, then please configure your gateway for IKEv1. If you're using a Route Based Gateway, please configure your gateway for IKEv2. If your connectivity issues persist after making these changes, then please contact us to troubleshoot further.
 
 Best regards,
 <!--/issueDescription-->

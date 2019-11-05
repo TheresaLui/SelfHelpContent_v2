@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’ve reviewed the logs and diagnostics available to us and have determined that the connectivity issue is due to your on-premise device using an incompatible DH group. With default settings, Azure VPN Gateways only support DH Group 2. It is possible to configure custom IPSec policies, however, we recommend configuring your on-premise device to match the Azure VPN Gateway IPSec policies.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We've reviewed the logs and diagnostics available to us and have determined that the connectivity issue is due to your on-premise device using an incompatible DH group. With default settings, Azure VPN Gateways only support DH Group 2. It is possible to configure custom IPSec policies, however, we recommend configuring your on-premise device to match the Azure VPN Gateway IPSec policies.
 
 Best regards,
 <!--/issueDescription-->

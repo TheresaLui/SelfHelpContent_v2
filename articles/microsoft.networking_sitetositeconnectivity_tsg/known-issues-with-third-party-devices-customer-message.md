@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting  us about your Azure VPN Gateway connectivity issue. Through our troubleshooting process, we’ve determined that you’re using a third party on-premise device that is either unsupported or has known known compatibility issues with Azure. Please adjust your on-premise device to work in a way that is supported and compatible with Azure – this may require using a different device type or working with your third party on-premise device vendor to resolve the configuration.
+Thank you for contacting  us about your Azure VPN Gateway connectivity issue. Through our troubleshooting process, we've determined that you're using a third party on-premise device that is either unsupported or has known known compatibility issues with Azure. Please adjust your on-premise device to work in a way that is supported and compatible with Azure – this may require using a different device type or working with your third party on-premise device vendor to resolve the configuration.
 
 Best regards,
 <!--/issueDescription-->

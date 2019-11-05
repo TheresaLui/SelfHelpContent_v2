@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’ve reviewed the logs and diagnostics available to us and have determined that your connectivity issue is due to an incorrect IKE parameter originating from your on-premise VPN device. Please correct your on-premise device configuration to resolve this issue. Please let us know if correcting this configuration resolves your connectivity issues.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We've reviewed the logs and diagnostics available to us and have determined that your connectivity issue is due to an incorrect IKE parameter originating from your on-premise VPN device. Please correct your on-premise device configuration to resolve this issue. Please let us know if correcting this configuration resolves your connectivity issues.
 
 Best regards,
 <!--/issueDescription-->

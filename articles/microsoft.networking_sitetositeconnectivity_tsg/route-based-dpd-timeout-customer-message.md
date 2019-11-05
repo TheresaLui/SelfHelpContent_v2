@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your VPN Gateway issue. We’ve looked at the diagnostic information we have available and have determined that the connectivity issue was due to your on-premise VPN device not responding to Azure VPN Gateway Dead-Peer-Detection requests. These requests are meant to ensure the remote, on-premise VPN device is available and can maintain an active tunnel. Our diagnostic logs indicate your on-premise device stopped responding to Dead-Peer-Detection (DPD) requests. The next step in troubleshooting is to determine if you have logs from your on-premise device showing it was correctly responding to DPD requests. This will help us further diagnose the root cause of this issue.
+Thank you for contacting us about your VPN Gateway issue. We've looked at the diagnostic information we have available and have determined that the connectivity issue was due to your on-premise VPN device not responding to Azure VPN Gateway Dead-Peer-Detection requests. These requests are meant to ensure the remote, on-premise VPN device is available and can maintain an active tunnel. Our diagnostic logs indicate your on-premise device stopped responding to Dead-Peer-Detection (DPD) requests. The next step in troubleshooting is to determine if you have logs from your on-premise device showing it was correctly responding to DPD requests. This will help us further diagnose the root cause of this issue.
 
 Best Regards,
 <!--/issueDescription-->

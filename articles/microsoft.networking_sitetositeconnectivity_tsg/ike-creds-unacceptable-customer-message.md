@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’ve reviewed all of the logs and diagnostics we have available and we’ve determined that your connectivity issue is due to pre-shared key mismatch either on the Azure or on the on-premise side. Please reconfigure your pre-shared key to match on both sides and this should correct your connectivity issue.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We've reviewed all of the logs and diagnostics we have available and we've determined that your connectivity issue is due to pre-shared key mismatch either on the Azure or on the on-premise side. Please reconfigure your pre-shared key to match on both sides and this should correct your connectivity issue.
 
 Best regards,
 <!--/issueDescription-->

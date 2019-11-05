@@ -19,7 +19,7 @@ cloudEnvironments="Public" />
 
 <!--issueDescription-->
 Dear customer,
-Your VPN Gateway is currently healthy and is responding to our health checks. Unfortunately, we don’t have any further diagnostics available to further diagnose the issue and cannot provide a root cause as a result. In order to best diagnose the error, we need traces from the gateway during the time of the incident. As this incident was in the past, these traces are not available.
+Your VPN Gateway is currently healthy and is responding to our health checks. Unfortunately, we don't have any further diagnostics available to further diagnose the issue and cannot provide a root cause as a result. In order to best diagnose the error, we need traces from the gateway during the time of the incident. As this incident was in the past, these traces are not available.
 
 Please contact support if you experience this issue again in the future.
 

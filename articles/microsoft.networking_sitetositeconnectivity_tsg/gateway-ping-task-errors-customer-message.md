@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your VPN Gateway connectivity issues. We’ve checked diagnostic logs for your VPN device and have determined this issue is a result of your on-premise VPN device not properly handling “Gateway Ping Tasks” which are meant to prevent the VPN connection from timing out after a five minute idle period. One option for remediation is to disable the “Gateway Ping Task” on the Azure VPN Gateway or you can consider remediation options for your on-premise VPN device.
+Thank you for contacting us about your VPN Gateway connectivity issues. We've checked diagnostic logs for your VPN device and have determined this issue is a result of your on-premise VPN device not properly handling "Gateway Ping Tasks" which are meant to prevent the VPN connection from timing out after a five minute idle period. One option for remediation is to disable the "Gateway Ping Task" on the Azure VPN Gateway or you can consider remediation options for your on-premise VPN device.
 
 Best Regards,
 <!--/issueDescription-->

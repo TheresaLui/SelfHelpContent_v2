@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your VPN Gateway connectivtiy issue. We’ve reviewed the diagnostics we have available to us and have determined the connectivity issue is caused by the on-premise VPN device sending invalid IKE Cookies. IKE Cookies are a normal part of the IKE process to improve security of IKE. Please engage your on-premise device vendor to troubleshoot and diagnose this issue further.
+Thank you for contacting us about your VPN Gateway connectivtiy issue. We've reviewed the diagnostics we have available to us and have determined the connectivity issue is caused by the on-premise VPN device sending invalid IKE Cookies. IKE Cookies are a normal part of the IKE process to improve security of IKE. Please engage your on-premise device vendor to troubleshoot and diagnose this issue further.
 
 Best Regards,
 <!--/issueDescription-->

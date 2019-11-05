@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your Azure VPN Gateway connectivity issue. We’ve reviewed the logs and diagnostics available to us and have determined that your on-premise device is sending an incorrect IKE payload. Our suggestion at this time is to contact your third party on-premise device vendor to correct its IKE payload settings.
+Thank you for contacting us about your Azure VPN Gateway connectivity issue. We've reviewed the logs and diagnostics available to us and have determined that your on-premise device is sending an incorrect IKE payload. Our suggestion at this time is to contact your third party on-premise device vendor to correct its IKE payload settings.
 
 Best regards,
 <!--/issueDescription-->

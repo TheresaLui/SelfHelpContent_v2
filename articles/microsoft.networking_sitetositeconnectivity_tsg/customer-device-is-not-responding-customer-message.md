@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your VPN Gateway connectivity issue. Through our troubleshooting process we’ve determined that your on-premise VPN device is not responding to connection attempts from Azure’s VPN Gateway. Please investigate the cause of this issue and correct any issues in your environment that is preventing the VPN Gateway’s connections.
+Thank you for contacting us about your VPN Gateway connectivity issue. Through our troubleshooting process we've determined that your on-premise VPN device is not responding to connection attempts from Azure's VPN Gateway. Please investigate the cause of this issue and correct any issues in your environment that is preventing the VPN Gateway's connections.
 
 Best Regards,
 <!--/issueDescription-->

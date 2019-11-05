@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your VPN Gateway connectivity issue. We’ve reviewed diagnostic logs we have available to us and have determined that the VPN connectivity issue was the result of an idle timeout between the VPN Gateway and the on-premise VPN device. This happens normally if no traffic has been sent over the VPN tunnel between the VPN Gateway and on-premise VPN device.  
+Thank you for contacting us about your VPN Gateway connectivity issue. We've reviewed diagnostic logs we have available to us and have determined that the VPN connectivity issue was the result of an idle timeout between the VPN Gateway and the on-premise VPN device. This happens normally if no traffic has been sent over the VPN tunnel between the VPN Gateway and on-premise VPN device.  
 
 Best Regards,
 <!--/issueDescription-->

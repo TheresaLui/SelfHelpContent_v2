@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about the VPN Gateway connectivity issues that you’ve experienced. We’ve investigated logs for the device and our conclusion is that these connectivity issues were a result of a customer initiated reset (A VPN Gateway reset was initiated by someone within your organization). 
+Thank you for contacting us about the VPN Gateway connectivity issues that you've experienced. We've investigated logs for the device and our conclusion is that these connectivity issues were a result of a customer initiated reset (A VPN Gateway reset was initiated by someone within your organization). 
 
 If you believe this is incorrect or require further information about this reset, please let us know.
 

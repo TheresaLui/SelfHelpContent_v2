@@ -20,7 +20,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us regarding your VPN Gateway connectivity issue. If you’re concerned about a sustained outage, we can perform a “gateway reset” which may immediately resolve the issue. While this may resolve your issue, it may mean we can not diagnose or root cause the issue further. If you’d like to immediately reset your VPN Gateway, then you can do via the Azure Portal or by using the following PowerShell command.
+Thank you for contacting us regarding your VPN Gateway connectivity issue. If you're concerned about a sustained outage, we can perform a "gateway reset" which may immediately resolve the issue. While this may resolve your issue, it may mean we can not diagnose or root cause the issue further. If you'd like to immediately reset your VPN Gateway, then you can do via the Azure Portal or by using the following PowerShell command.
 
 Reset-AzureVNetGateway -VNetname <name>
 
