@@ -39,6 +39,7 @@ If your CRM system is not explicitly supported in the list above, you have the f
 6. Make sure the connection to the lead destination stays up-to-date so that you don’t lose any leads, so make sure you update these connections in Partner Center whenever something has changed on your CRM.
 
 **Frequently asked questions**
+
 1. I am having issues connecting my offer to my Dynamics 365 CRM system.
 * Make sure you have followed all the instructions documented [here](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-lead-management-instructions-dynamics)
 * Make sure you have the lead writer solution successfully installed in your Dynamics CRM system. You may need your CRM admin's help.
@@ -52,21 +53,25 @@ If you have followed all the above steps and are still having trouble:
 * Choose a different way to receive leads. You can create an Azure table to store leads and then export the data to your CRM system or you can use Microsoft Flow to send an email when a lead is generated.
 
 2. My CRM system is not explicitly supported. How do I get leads? 
+
 You can create an Azure table to store leads and then export the data to your CRM system or you can use Microsoft Flow to send an email when a lead is generated.
 
 3. I have received an email that a customer is interested in my offer but I don't have their contact information. 
+
 The customer's contact information can be found in the lead destination configured for the offer (Dynamics, Salesforce, Azure table, etc.). If you don't know the configured lead destination, reach out to someone in your company that may know.
 
 4. I am not able to filter marketplace leads based on my CRM's country codes.
+
 Country field values for marketplace leads are open ended and are not provided via country codes. The customer can provide any value for this field. Please look at other ways to achieve your desired outcome.
 
 5. How do I know if the connection to my lead destination is correct?
+
 You have the option to validate your connection while setting up the configuration in Partner Center. Click the "validate" button and you will see if the connection is correct.
 
 ## **Recommended Documents**
 
 * [Lead Management Overview](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-get-customer-leads)
-* [Other frequently asked questions(https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-get-customer-leads#leads-frequently-asked-questions)
+* [Other frequently asked questions](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-get-customer-leads#leads-frequently-asked-questions)
 * [Instructions for Dynamics 365 for Customer Engagement](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-lead-management-instructions-dynamics)
 * [Instructions for Marketo CRM](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-lead-management-instructions-marketo)
 * [Instructions for Salesforce CRM](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-lead-management-instructions-salesforce)
