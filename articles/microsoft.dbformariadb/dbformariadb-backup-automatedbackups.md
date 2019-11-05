@@ -16,7 +16,7 @@
 
 # Backups and restore options for Azure Database for MariaDB
 
-Azure Database for MariaDB automatically takes backups of your server. The backups are used to support our point-in-time restore feature. Users do not have access to the backups and cannot change the timing of when backups are taken. The default retention period for backups is 7 days and can be increased to 35 days.
+Azure Database for MariaDB automatically takes backups of your server. The backups are used to support our point-in-time restore feature. Users do not have access to the backups and cannot change the timing of when backups are taken. Generally, full backups occur weekly, differential backups occur twice a day, and transaction log backups occur every five minutes. The default retention period for backups is 7 days and can be increased to 35 days.
 
 ## **Recommended Steps**
 

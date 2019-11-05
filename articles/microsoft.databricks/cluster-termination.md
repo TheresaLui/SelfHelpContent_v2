@@ -20,8 +20,8 @@
 
 * By design, clusters which are idle for 30 days will be automatically deleted. To avoid this, you can pin them which will not allow the cluster deletion. More information:
 
-    * [Pin a Cluster](https://docs.azuredatabricks.net/user-guide/clusters/pin.html#pin-a-cluster)
-    * [Delete a cluster](https://docs.azuredatabricks.net/user-guide/clusters/delete.html)
+    * [Pin a Cluster](https://docs.azuredatabricks.net/clusters/clusters-manage.html#pin-a-cluster)
+    * [Delete a cluster](https://docs.azuredatabricks.net/clusters/clusters-manage.html#delete-a-cluster)
     
 * For details on who deleted the cluster, please check [cluster event log](https://docs.databricks.com/user-guide/clusters/event-log.html#cluster-event-log)
 
