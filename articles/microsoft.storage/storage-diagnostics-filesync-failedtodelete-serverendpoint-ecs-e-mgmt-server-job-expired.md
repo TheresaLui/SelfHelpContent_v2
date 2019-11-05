@@ -20,8 +20,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 <!--issueDescription-->
 Server endpoint deletion failed under the Storage Sync Service resource _<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->_ due to error **"MgmtServerJobExpired" (Error code: -2134347757 or 0x80c87013)**. This error occurred between _<!--$startTime-->[startTime]<!--/$startTime-->_ and _<!--$endTime-->[endTime]<!--/$endTime-->_.
+<!--/issueDescription-->
 
-This error occurs if the server is offline or doesn't have network connectivity. If the server is no longer available, unregister the server in the portal which will delete the server endpoints.<!--/issueDescription--> Please refer to **Server endpoint deletion fails, with this error: "MgmtServerJobExpired" (Error code: -2134347757 or 0x80c87013)** section in [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347757) for more details on this error.
+This error occurs if the server is offline or doesn't have network connectivity. If the server is no longer available, unregister the server in the portal which will delete the server endpoints. Please refer to **Server endpoint deletion fails, with this error: "MgmtServerJobExpired" (Error code: -2134347757 or 0x80c87013)** section in [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347757) for more details on this error.
 
 ## **Recommended steps**
 
