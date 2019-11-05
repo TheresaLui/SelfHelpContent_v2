@@ -21,6 +21,6 @@
  
 ## **Recommended Documents**
 
-* [Adding a new customer](https://docs.microsoft.com/en-us/partner-center/add-a-new-customer)
-* [Managing customer accounts](https://docs.microsoft.com/en-us/partner-center/customer-accounts)
+* [Adding a new customer](https://docs.microsoft.com/partner-center/add-a-new-customer)
+* [Managing customer accounts](https://docs.microsoft.com/partner-center/customer-accounts)
 * [Update a customers account information](https://docs.microsoft.com/partner-center/update-customer-account-info)
