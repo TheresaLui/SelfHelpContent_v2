@@ -30,7 +30,7 @@ When you create a private endpoint for a storage service in your VNet, a consent
 * [User requesting is owner or has permission on the account](https://docs.microsoft.com/azure/private-link/private-endpoint-overview#access-to-a-private-link-resource-using-approval-workflow) - If the user requesting the creation of the private endpoint is also an owner of the storage account, this consent request is automatically approved.
 * [User requesting is not the owner or doesn't have permission on the account](https://docs.microsoft.com/azure/private-link/private-endpoint-overview#access-to-a-private-link-resource-using-approval-workflow) - An approval workflow will be initiated. The private endpoint and subsequent private endpoint connection will be created in a "Pending" state. The private link resource owner is responsible to approve the connection. After it's approved, the private endpoint is enabled to send traffic normally, as shown in the following approval workflow diagram.
 
-### **Manage Private Endpoint Conenctions**
+### **Manage Private Endpoint Connections**
 
 * [Manage a Private Endpoint connection](https://docs.microsoft.com/azure/private-link/manage-private-endpoint)
 * [Manage Private Endpoint Connections on Azure PaaS resources](https://docs.microsoft.com/azure/private-link/manage-private-endpoint#manage-private-endpoint-connections-on-azure-paas-resources)
