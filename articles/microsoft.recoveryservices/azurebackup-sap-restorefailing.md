@@ -14,7 +14,7 @@
 	articleId="269720f8-523e-42f0-a577-8af0e987abb5"
 />
 
-# Diagnose and resolve issues withSAP HANA Restore is failing  
+# Diagnose and resolve issues with SAP HANA Restore is failing  
 ## **Recommended Steps**
 - [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://go.microsoft.com/fwlink/?linkid=2109508) 
 - [UserErrorOperationFailedHanaDatabaseIsOffline – Ensure HANA database is online](https://go.microsoft.com/fwlink/?linkid=2109408)
