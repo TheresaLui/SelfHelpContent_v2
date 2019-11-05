@@ -7,10 +7,10 @@
 	authors="sffamily"
 	ms.author="zhshang"
 	displayOrder="1"
-	articleId="signalrservice-integration-my-issue-is-not-listed"
+	articleId="signalrservice-sdk-my-issue-is-not-listed"
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds="32683995"
+	supportTopicIds="32684001"
 	resourceTags=""
 	productPesIds="16477"
 	cloudEnvironments="public,Mooncake,Fairfax"
@@ -23,7 +23,8 @@ For errors and exceptions, please check the recommended doc first for troublesho
 ## **Recommended Documents**
 
 * [Troubleshooting guide](https://github.com/Azure/azure-signalr/blob/dev/docs/tsg.md)
-* [Azure SignalR Service documentation](https://docs.microsoft.com/azure/azure-signalr)
+* [SDK source codes on GitHub](https://github.com/Azure/azure-signalr)
+* [Management SDK doc](https://github.com/Azure/azure-signalr/blob/dev/docs/management-sdk-guide.md)
 
 ## **Channels to get helps**
 
