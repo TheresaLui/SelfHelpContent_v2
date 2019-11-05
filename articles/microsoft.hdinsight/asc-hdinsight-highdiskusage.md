@@ -32,6 +32,7 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 * Setting the properties:
 	1. yarn.nodemanager.localizer.cache.target-size-mb=2048 
 	1. yarn.nodemanager.localizer.cache.cleanup.interval-ms=300000
+	
 	Refer to the [document](https://hortonworks.com/blog/resource-localization-in-yarn-deep-dive/) for more details.	
 
 ## Nodes with high disk usage
