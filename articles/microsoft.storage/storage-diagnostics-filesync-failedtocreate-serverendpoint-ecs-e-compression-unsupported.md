@@ -16,7 +16,7 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Azure File Sync failed to create server endpoint creation failed due to error ECS\_E\_COMPRESSION\_UNSUPPORTED
+# Azure File Sync failed to create server endpoint creation failed due to error ECS_E_COMPRESSION_UNSUPPORTED
 
 <!--issueDescription-->
 Server endpoint creation failed under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **"MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)**. <!--/issueDescription--> This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.
