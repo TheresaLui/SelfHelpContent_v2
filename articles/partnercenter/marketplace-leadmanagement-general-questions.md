@@ -38,7 +38,7 @@ If your CRM system is not explicitly supported in the list above, you have the f
 5. After validating the connection to the lead destination is successful, publish the offer in Partner Center. When you are viewing the offer before you go live (preview version of your offer), you can also test your lead connection by trying to acquire the offer yourself in the preview environment.
 6. Make sure the connection to the lead destination stays up-to-date so that you don’t lose any leads, so make sure you update these connections in Partner Center whenever something has changed on your CRM.
 
-## **Frequently asked questions**
+**Frequently asked questions**
 1. I am having issues connecting my offer to my Dynamics 365 CRM system.
 * Make sure you have followed all the instructions documented [here](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-lead-management-instructions-dynamics)
 * Make sure you have the lead writer solution successfully installed in your Dynamics CRM system. You may need your CRM admin's help.
