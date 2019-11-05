@@ -19,15 +19,15 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to create server endpoint creation failed due to error ECS\_E\_COMPRESSION\_UNSUPPORTED
 
 <!--issueDescription-->
-Server endpoint creation failed under the Storage Sync Service resource <!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName--> due to error ECS\E\COMPRESSION\UNSUPPORTED (error code: -2134347507 or 0x80c8710d). <!--/issueDescription--> This error occurred between <!--$startTime-->[startTime]<!--/$startTime--> and <!--$endTime-->[endTime]<!--/$endTime-->.
-
+Server endpoint creation failed under the Storage Sync Service resource <!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName--> due to error ECS_E_COMPRESSION_UNSUPPORTED (error code: -2134347507 or 0x80c8710d). <!--/issueDescription--> This error occurred between <!--$startTime-->[startTime]<!--/$startTime--> and <!--$endTime-->[endTime]<!--/$endTime-->.
 
 This error occurs because Azure File Sync does not support server endpoints on volumes which have a compressed System Volume Information folder.
 
+Please refer to **Server endpoint creation fails, with this error: "MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)** section in [Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507) for more details on this error.
 
 ## **Recommended steps**
 
-Decompress the System Volume Information folder. If the System Volume Information folder is the only folder compressed on the volume, perform the following steps:
+To resolve this issue, decompress the System Volume Information folder. If the System Volume Information folder is the only folder compressed on the volume, perform the following steps:
 1. Download [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec) tool.
 2. Run the following command from an elevated command prompt to launch a command prompt running under the system account: PsExec.exe -i -s -d cmd
 3. From the command prompt running under the system account, type the following commands and hit enter:
@@ -35,5 +35,5 @@ Decompress the System Volume Information folder. If the System Volume Informatio
 
 ## **Recommended Documents**
 
-- [Sync group management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
+- [Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
 - [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec)
