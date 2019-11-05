@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to download file(s) due to error _**ECS\_E\_CONCURRENCY\_CHECK\_FAILED**_
 
 <!--issueDescription-->
-Azure File Sync failed to download file(s) for one or more server endpoints under the Storage Sync Service resource *<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->* due to error **ECS_E_CONCURRENCY_CHECK_FAILED (error code: 0x80c8031d or -2134375651)**. This error occurred between *<!--$startTime-->[startTime]<!--/$startTime-->* and *<!--$endTime-->[endTime]<!--/$endTime-->*.
+Azure File Sync failed to download file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ECS_E_CONCURRENCY_CHECK_FAILED (error code: 0x80c8031d or -2134375651)**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.
 
 This issue occurs because the file has changed, but the file change has not yet been detected by sync.
 <!--/issueDescription-->
