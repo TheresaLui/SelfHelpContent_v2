@@ -15,6 +15,10 @@
 
 # Management/Manage an instance of SQL Server
 
+> Consider creating this support request under the service "SQL Server in VM - Windows" for better support engagement.
+<br/>
+<br/>
+
 ## **Recommended documents**
 * [Overview of SQL Server on Azure Virtual Machines](https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/)<br>
 * [SQL Server on Azure Virtual Machines FAQ](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-iaas-faq)<br>
