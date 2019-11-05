@@ -19,7 +19,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to upload file(s) due to error _**E\_UNEXPECTED**_
 
 <!--issueDescription-->
-Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **E\_UNEXPECTED** (error code: **0x8000ffff** or **-2147418113**). This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br><br>This issue occurs because the file cannot be synced due to an unexpected error.
+Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **E\_UNEXPECTED** (error code: **0x8000ffff** or **-2147418113**). This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.
+
+This issue occurs because the file cannot be synced due to an unexpected error.
 <!--/issueDescription-->
 
 ## **Recommended steps**

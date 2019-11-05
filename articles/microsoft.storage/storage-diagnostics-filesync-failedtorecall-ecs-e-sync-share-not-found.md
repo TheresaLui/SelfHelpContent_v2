@@ -19,9 +19,10 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to recall file(s) due to error _**ECS\_E\_SYNC\_SHARE\_NOT\_FOUND**_
 
 <!--issueDescription-->
-Azure File Sync failed to recall file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ECS\_E\_SYNC\_SHARE\_NOT\_FOUND** (error code: 0x80c80037 or -2134376393). This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<!--/issueDescription-->
+Azure File Sync failed to recall file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ECS_E_SYNC_SHARE_NOT_FOUND** (error code: 0x80c80037 or -2134376393). This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.
 
 This issue occurs if the tiered file was not recalled prior to deleting a server endpoint.
+<!--/issueDescription-->
 
 ## **Recommended steps**
 
@@ -39,10 +40,9 @@ If the above conditions are not met, restoring access is not possible as these t
 - When tiered files are not accessible on the server, the full file should still be accessible if you access the Azure file share directly.
 - To prevent orphaned tiered files in the future, follow the steps documented in [Remove a server endpoint](https://docs.microsoft.com/azure/storage/files/storage-sync-files-server-endpoint#remove-a-server-endpoint) when deleting a server endpoint.
 
-<a id="remove-orphaned"></a>**How to remove orphaned tiered files** 
+**How to remove orphaned tiered files** 
 
 *Option 1: Delete the orphaned tiered files*
-
 This option deletes the orphaned tiered files on the Windows Server but requires removing the server endpoint if it exists due to recreation after 30 days or is connected to a different sync group. File conflicts will occur if files are updated on the Windows Server or Azure file share before the server endpoint is recreated.
 
 *Option 2: Mount the Azure file share and copy the files locally that are orphaned on the server*
