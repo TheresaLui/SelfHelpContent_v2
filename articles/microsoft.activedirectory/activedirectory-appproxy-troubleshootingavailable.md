@@ -17,7 +17,7 @@
 />
 
 # Troubleshooting available for Application Proxy
-<!--/issueDescription-->
+<!--issueDescription-->
 
 We have determined that you have not yet tried out the troubleshooting tool available for Application Proxy. This tool diagnoses potential configuration issues and provides you on the spot resolution guidance.
 
