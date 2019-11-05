@@ -10,7 +10,7 @@
 	articleId="partnercenter_co-sell help and how-to"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32639668"
+	supportTopicIds="32639668, 32689358, 32689359, 32689360"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
