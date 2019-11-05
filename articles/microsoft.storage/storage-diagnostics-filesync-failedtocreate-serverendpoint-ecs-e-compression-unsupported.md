@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to create server endpoint creation failed due to error ECS\_E\_COMPRESSION\_UNSUPPORTED
 
 <!--issueDescription-->
-Server endpoint creation failed under the Storage Sync Service resource <!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName--> due to error **ECS\_E\_COMPRESSION\_UNSUPPORTED** (error code: -2134347507 or 0x80c8710d). This error occurred between <!--$startTime-->[startTime]<!--/$startTime--> and <!--$endTime-->[endTime]<!--/$endTime-->.
+Server endpoint creation failed under the Storage Sync Service resource <!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName--> due to error ECS\_E\_COMPRESSION\_UNSUPPORTED (error code: -2134347507 or 0x80c8710d). This error occurred between <!--$startTime-->[startTime]<!--/$startTime--> and <!--$endTime-->[endTime]<!--/$endTime-->.
 <!--/issueDescription-->
 
 This error occurs because Azure File Sync does not support server endpoints on volumes which have a compressed System Volume Information folder.
