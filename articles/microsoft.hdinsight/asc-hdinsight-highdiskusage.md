@@ -24,9 +24,15 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 
 ## **Recommended Steps**
 
+* Cleaning the unwanted files:
 1. [SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix) into the node
 1. Run `du -h --max-depth=1 / | sort -h`
 1. Clean up the largest files that you placed there
+
+* Setting the properties:
+1. yarn.nodemanager.localizer.cache.target-size-mb=2048 
+1. yarn.nodemanager.localizer.cache.cleanup.interval-ms=300000
+	Refer to the [document](https://hortonworks.com/blog/resource-localization-in-yarn-deep-dive/) for more details.
 
 ## Nodes with high disk usage
 
