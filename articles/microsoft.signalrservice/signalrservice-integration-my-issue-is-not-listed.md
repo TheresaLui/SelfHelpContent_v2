@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder=""
+	displayOrder="53"
 	articleId="signalrservice-integration-my-issue-is-not-listed"
 	diagnosticScenario=""
 	selfHelpType="resource"

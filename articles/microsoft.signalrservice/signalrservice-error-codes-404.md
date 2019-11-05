@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder=""
+	displayOrder="34"
 	articleId="signalrservice-error-codes-404"
 	diagnosticScenario=""
 	selfHelpType="resource"

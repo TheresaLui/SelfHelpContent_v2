@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder=""
+	displayOrder="36"
 	articleId="signalrservice-error-my-issue-is-not-listed"
 	diagnosticScenario=""
 	selfHelpType="resource"

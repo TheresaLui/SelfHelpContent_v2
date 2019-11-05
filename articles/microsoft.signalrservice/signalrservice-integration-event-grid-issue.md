@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder="1"
+	displayOrder="52"
 	articleId="signalrservice-integration-event-grid-issue"
 	diagnosticScenario=""
 	selfHelpType="resource"

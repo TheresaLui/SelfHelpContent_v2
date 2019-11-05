@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder=""
+	displayOrder="33"
 	articleId="signalrservice-error-codes-401"
 	diagnosticScenario=""
 	selfHelpType="resource"

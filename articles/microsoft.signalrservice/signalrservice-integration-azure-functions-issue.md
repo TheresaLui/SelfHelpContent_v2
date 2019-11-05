@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder="1"
+	displayOrder="51"
 	articleId="signalrservice-integration-azure-functions-issue"
 	diagnosticScenario=""
 	selfHelpType="resource"
