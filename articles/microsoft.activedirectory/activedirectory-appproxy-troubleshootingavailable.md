@@ -18,8 +18,10 @@
 
 # Troubleshooting available for Application Proxy
 <!--/issueDescription-->
+
 We have determined that you have not yet tried out the troubleshooting tool available for Application Proxy. This tool diagnoses potential configuration issues and provides you on the spot resolution guidance.
 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -31,4 +33,4 @@ To use the troubleshooting tool:
 
 ## **Recommended Documents**
 
-* [Tutorial: Add an on-premises application for remote access through Application Proxy in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-applicationr)
+* [Tutorial: Add an on-premises application for remote access through Application Proxy in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application)
