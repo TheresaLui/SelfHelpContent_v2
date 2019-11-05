@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder="1"
+	displayOrder=""
 	articleId="signalrservice-error-my-issue-is-not-listed"
 	diagnosticScenario=""
 	selfHelpType="resource"
@@ -25,7 +25,7 @@ For errors and exceptions, please check the recommended doc first for troublesho
 * [Troubleshooting guide](https://github.com/Azure/azure-signalr/blob/dev/docs/tsg.md)
 * [Azure SignalR Service documentation](https://docs.microsoft.com/azure/azure-signalr)
 
-## **Channels to get helps**
+**Channels to get helps**
 
 In addition you can get help for many common problems from the following channels:
 

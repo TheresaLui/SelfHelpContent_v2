@@ -6,7 +6,7 @@
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder="1"
+	displayOrder=""
 	articleId="signalrservice-sdk-my-issue-is-not-listed"
 	diagnosticScenario=""
 	selfHelpType="resource"
@@ -26,7 +26,7 @@ For errors and exceptions, please check the recommended doc first for troublesho
 * [SDK source codes on GitHub](https://github.com/Azure/azure-signalr)
 * [Management SDK doc](https://github.com/Azure/azure-signalr/blob/dev/docs/management-sdk-guide.md)
 
-## **Channels to get helps**
+**Channels to get helps**
 
 In addition you can get help for many common problems from the following channels:
 
