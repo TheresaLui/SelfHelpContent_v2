@@ -19,9 +19,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to create server endpoint creation failed due to error ECS\_E\_COMPRESSION\_UNSUPPORTED
 
 <!--issueDescription-->
-Server endpoint creation failed under the Storage Sync Service resource <!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName--> due to error **"MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)**. <!--/issueDescription--> This error occurred between <!--$startTime-->[startTime]<!--/$startTime--> and <!--$endTime-->[endTime]<!--/$endTime-->.
+Server endpoint creation failed under the Storage Sync Service resource _**<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->**_ due to error **"MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)**. <!--/issueDescription--> This error occurred between _<!--$startTime-->[startTime]<!--/$startTime-->_ and _<!--$endTime-->[endTime]<!--/$endTime-->_.
 
-This error occurs because Azure File Sync does not support server endpoints on volumes which have a compressed System Volume Information folder. Please refer to **Server endpoint creation fails, with this error: "MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)** section in [Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507) for more details on this error.
+This error occurs because Azure File Sync does not support server endpoints on volumes which have a compressed System Volume Information folder.<!--/issueDescription--> Please refer to **Server endpoint creation fails, with this error: "MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)** section in [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507) for more details on this error.
 
 ## **Recommended steps**
 
@@ -33,5 +33,5 @@ To resolve this issue, decompress the System Volume Information folder. If the S
 
 ## **Recommended Documents**
 
-- [Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
 - [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec)
