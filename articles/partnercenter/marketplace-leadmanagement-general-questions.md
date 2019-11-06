@@ -37,7 +37,7 @@ FAQs and resources for lead management configuration for offers in the commercia
 3. Connect your offer to the lead destination while publishing the offer to the marketplace in Partner Center. See the documentation linked in step 1 for how to do this.
 4. Confirm the connection to the lead destination is set up properly. You can do so by clicking the "Validate" button available in the window where you are configuring the connection to your lead management destination in Partner Center. 
 5. After validating the connection to the lead destination is successful, publish the offer in Partner Center. When you are viewing the offer before you go live (preview version of your offer), you can also test your lead connection by trying to acquire the offer yourself in the preview environment.
-6. Make sure the connection to the lead destination stays up-to-date so that you don’t lose any leads, so make sure you update these connections in Partner Center whenever something has changed on your CRM.
+6. Make sure the connection to the lead destination stays up-to-date so that you don’t lose any leads. Thus, ensure you update these connections in Partner Center whenever something has changed on your CRM.
 
 **Frequently asked questions**
 
@@ -46,9 +46,9 @@ FAQs and resources for lead management configuration for offers in the commercia
 **I am having issues connecting my offer to my Dynamics 365 CRM system.**
 * Make sure you have followed all the instructions documented [here](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-lead-management-instructions-dynamics)
 * Make sure you have the lead writer solution successfully installed in your Dynamics CRM system. You may need your CRM admin's help.
-* Make sure the lead writer solution has been granted the right permissions in your Dynamics CRM system.
+* Make sure the lead writer solution has been granted the right permissions in your Dynamics CRM system
 * If you are using Office 365 for authentication, verify that the password is not expired. Also, make sure that multi-factor authentication is not required.
-* Make sure that if you updated your lead management configuration settings that you re-published the offer with the updates in Partner Center. The configuration changes will not take effect until you re-publish the offer.
+* Make sure you re-publish the offer in Partner Center to make any lead configuration changes take effect. The configuration changes will not take effect until you re-publish the offer.
 
 If you have followed all the above steps and are still having trouble:
 * Re-download the [lead writer solution](https://mpsapiprodwus.blob.core.windows.net/documentation/MicrosoftMarketplacesLeadIntegrationSolution_1_0_0_0_target_CRM_6.1_managed.zip) and re-install it in your Dynamics CRM.
