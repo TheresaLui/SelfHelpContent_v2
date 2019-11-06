@@ -13,8 +13,8 @@
 # Question about attract Traffic to secure virtual Hub (Routing)
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Attract Traffic to secure virtual Hub (Routing)",
     "fileAttachmentHint": "",
     "formElements": [

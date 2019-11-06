@@ -13,8 +13,8 @@
 # Question about secure Virtual Hub Management
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Secure Virtual Hub Management",
     "fileAttachmentHint": "",
     "formElements": [

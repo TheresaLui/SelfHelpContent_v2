@@ -13,8 +13,8 @@
 # Question about Third Party Network Security as a Service Integration
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Third Party Network Security as a Service Integration",
     "fileAttachmentHint": "",
     "formElements": [

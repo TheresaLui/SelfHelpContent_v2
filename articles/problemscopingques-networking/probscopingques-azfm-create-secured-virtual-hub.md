@@ -13,8 +13,8 @@
 # Question about creating a secured virtual Hub
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Creating a secured virtual Hub",
     "fileAttachmentHint": "",
     "formElements": [

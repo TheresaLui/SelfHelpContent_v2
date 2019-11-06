@@ -13,8 +13,8 @@
 # Question about securing an existing virtual WAN Hub
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Securing an existing virtual WAN Hub",
     "fileAttachmentHint": "",
     "formElements": [

@@ -13,60 +13,24 @@
 # Configure DDoS mitigation flow logs
 ---
 {
-    "subscriptionRequired": false,
     "resourceRequired": false,
-    "title": "Creating an Azure Firewall Policy",
+    "subscriptionRequired": false,
+    "title": "Configure DDoS mitigation flow logs",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "azure_firewall",
+            "id": "public_ip",
             "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Is this about Azure Firewall Management using Azure Firewall Manager?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": true
+            "controlType": "textbox",
+            "displayLabel": "What is the public IP you want to configure?",
+            "watermarkText": "Enter the public IP address. Example: 13.0.1.2",
+            "required": false
         },
         {
-            "id": "virtual_hub",
+            "id": "under_attack",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Is Azure Firewall deployed in a Secured Virtual Hub?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "partner_integration",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Is this about a Trusted Security Partner integration with Azure Firewall Manager?",
+            "displayLabel": "Is the public IP you are trying to configure under attack?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -86,16 +50,17 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide additional information about your issue",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
         }

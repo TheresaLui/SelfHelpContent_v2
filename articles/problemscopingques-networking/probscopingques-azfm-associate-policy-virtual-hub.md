@@ -13,8 +13,8 @@
 # Question about associating Azure Firewall Policy with Virtual Hub
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Associating Azure Firewall Policy with Virtual Hub",
     "fileAttachmentHint": "",
     "formElements": [
