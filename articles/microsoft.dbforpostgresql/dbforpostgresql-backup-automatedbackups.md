@@ -14,9 +14,9 @@
     articleId="8d101db0-cc7c-4c31-a9da-3f85bf9c063d"
 />
 
-# Automated backups 
+# Automated backups
 
-Azure Database for PostgreSQL automatically takes backups of your server. The backups are used to support the point-in-time and geo restore features. Users do not have direct access to the backups and cannot change the timing of when backups are taken. The default retention period for backups is 7 days and can be increased to 35 days.
+Azure Database for PostgreSQL automatically takes backups of your server. The backups are used to support the point-in-time and geo restore features. Users do not have direct access to the backups and cannot change the timing of when backups are taken. Generally, full backups occur weekly, differential backups occur twice a day, and transaction log backups occur every five minutes. The default retention period for backups is 7 days and can be increased to 35 days.
 
 You can choose to take a dump of a database on your server using [pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore).
 
