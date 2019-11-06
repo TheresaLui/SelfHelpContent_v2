@@ -16,7 +16,8 @@
 
 # When the SAP HANA backup has performance issues follow these troubleshooting steps 
 ## **Recommended Steps**
-- [Verify the pre-requisites](https://go.microsoft.com/fwlink/?linkid=2109326)
+- [Verify the prerequisites](https://go.microsoft.com/fwlink/?linkid=2109326)
+
 ## **Recommended Documents**
 - [Frequently asked questions](https://go.microsoft.com/fwlink/?linkid=2109520)
 - [Troubleshooting issues related to SAP HANA backup in Azure](https://go.microsoft.com/fwlink/?linkid=2109521)
