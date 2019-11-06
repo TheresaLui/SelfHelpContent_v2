@@ -14,9 +14,9 @@
 	articleId="e810763a-06e4-4795-9294-4e7a013cb934"
 />
 
-# Diagnose and resolve issues with unable to discover DB 
+# When Azure Backup is unable to discovery DB with SAP HANA then follow these troubleshooting steps  
 ## **Recommended Steps**
-- If a VM isn't listed as expected, check whether it's already backed up in a vault.
+- If a VM isn't listed as expected, check whether it's already backed up in a vault
 - [How to discover the HANA databases](https://go.microsoft.com/fwlink/?linkid=2109511)
 ## **Recommended Documents**
 - [Frequently asked questions](https://go.microsoft.com/fwlink/?linkid=2109520)
