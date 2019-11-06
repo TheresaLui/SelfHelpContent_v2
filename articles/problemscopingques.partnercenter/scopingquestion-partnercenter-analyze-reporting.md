@@ -1,43 +1,44 @@
 <properties
-       pageTitle="CSP analyze and reporting"
-       description="CSP analyze and reporting"
-       authors="brentserbus"
-       ms.author="brserbus"
-       selfHelpType="problemScopingQuestions"
-       supportTopicIds="32635633"
-       productPesIds="15960"
-       cloudEnvironments="public"
-       schemaVersion="1"
-       articleId="problemscopingques-partnercenterreporting"
-       clientIds="partnercenter"
+	pageTitle="CSP analyze and reporting"
+	description="CSP analyze and reporting"
+	authors="brentserbus"
+	ms.author="brserbus"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32635633"
+	productPesIds="15960"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId="problemscopingques_partnercenter_reporting"
+	clientIds="partnercenter"
 />
-# PC Sample
+# CSP analyze and reporting
 ---
 {
-    "$schema": "SelfHelpContent",
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Questions about CSP analyze and reporting",
     "fileAttachmentHint": "Attach a file or screenshot that shows your question or issue.",
     "formElements": [
-             {
+        {
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional information about the problem.",
-            "useAsAdditionalDetails": true,
-            "required": true
-             },
-             {
+            "displayLabel": "Details",
+            "watermarkText": "Please provide additional information about the problem.",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When did your issue begin?",
+            "displayLabel": "Start Time",
+            "watermarkText": "When did your issue begin?",
             "required": true
-             },
-	    {
+        },
+	{
             "id": "csp_reporting",
-            "order": 5,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What kind of reporting issue are you seeing?",
             "watermarkText": "What kind of reporting issue are you seeing?",
@@ -68,7 +69,8 @@
                 }
                 ],
             "required": false
-             }
-    ]
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
