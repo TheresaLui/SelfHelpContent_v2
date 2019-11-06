@@ -18,6 +18,8 @@
 
 # <-- D365 offer deployment deflection -->
 
+Most users are able to resolve their deployment issues using the links below.
+
 ## **Recommended Documents**
 
 * [Dynamics CE applications Offer Publishing Guide](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-customer-engagement-offer#supplemental-content)

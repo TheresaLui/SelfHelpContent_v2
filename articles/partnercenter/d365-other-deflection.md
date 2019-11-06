@@ -7,7 +7,7 @@
 	authors="rigonz-msft"
 	ms.author="rigonz"
 	displayOrder=""
-	articleId="marketplace_d365offer_offers"
+	articleId="marketplace_d365offer_other"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32689431, 32689433, 32689434"
@@ -16,7 +16,9 @@
 	cloudEnvironments="public"
 />
 
-# <-- D365 offer deployment deflection -->
+# <-- D365 offer other issues deflection -->
+
+Most users are able to resolve their issue using the links below.
 
 ## **Recommended Documents**
 
