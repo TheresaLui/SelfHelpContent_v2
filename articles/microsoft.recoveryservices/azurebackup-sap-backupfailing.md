@@ -14,7 +14,7 @@
 	articleId="8914d3eb-ef72-48b6-aa76-e80246b99342"
 />
 
-#  When the SAP HANA has backup issue follow these troubleshooting steps
+#  When backup of SAP HANA fails follow these troubleshooting steps listed by error code
 ## **Recommended Steps**
 - [HanaBackupOperationFailed – Backup operation failed](https://go.microsoft.com/fwlink/?linkid=2109506)
 - [UserErrorHANAPODoesNotSupportBackupType – Backup type not supported](https://go.microsoft.com/fwlink/?linkid=2109506)
