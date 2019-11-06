@@ -18,6 +18,8 @@
 />
 
 # Add products to a customer
+
+Below are useful resources related to adding products to customers in partner center.
  
 ## **Recommended Documents**
 
