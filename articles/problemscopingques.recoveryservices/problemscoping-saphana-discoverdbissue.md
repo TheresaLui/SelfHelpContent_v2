@@ -1,24 +1,24 @@
 <properties
-         pageTitle="Scoping questions for SAP HANA scheduled backup failure"
-         description="Scoping questions for SAP Hana scheduled backup failure"
+         pageTitle="Scoping questions for unable to discover DB"
+         description="Scoping questions for unable to discover DB"
          authors="akanase-ot"
          ms.author="akkanase"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds=""
+         supportTopicIds="32690770"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="e38f8bb3-ce3f-45df-9640-658b7fe57244"
+         articleId="f46fb4c2-0e25-4574-9aa0-1bb65c696543"
 />
-# Questions SAP HANA scheduled backup failure
+# Questions for unable to discover DB
 ---
 {
 	"resourceRequired": true,
 	"subscriptionRequired": true,
-	"title": "SAP HANA scheduled backup failure",
+	"title": "Unable to discover DB",
 	"fileAttachmentHint": "",
 	"diagnosticCard": {
-		"title": "SAP HANA scheduled backup failure",
+		"title": "Unable to discover DB",
 		"description": "These diagnostics will check for errors.",
 		"insightNotAvailableText": "We didn't find any problems"
 	},
@@ -50,20 +50,28 @@
 			"required": false
 		},
 		{
-			"id": "sap_version",
+			"id": "sql_version",
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "What is the SAP HANA version and edition?",
 			"watermarkText": "ex. SAP HANA 2.0 SPS04",
+			"required": false,
+			"diagnosticInputRequiredClients": "Portal"
+		},
+		{
+			"id": "database_Name",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "Provide the name(s) of the databases you are unable to discover:",
+			"watermarkText": "Enter database name(s) separated by comma",
 			"required": false
 		},
 		{
-			"id": "permissions",
-			"order": 4,
+			"id": "discoverdb_Script",
+			"order": 5,
 			"controlType": "dropdown",
-            "infoBalloonText": "Info: Learn more about the required permissions",
-			"displayLabel": "Are all the right permissions set?",
-			"watermarkText": "Select",
+			"infoBalloonText": "Info: The script can be foundhere",
+			"displayLabel": "Have you run the script available on the Discover DB pane?",
 			"dropdownOptions": [{
 					"value": "Yes",
 					"text": "Yes"
@@ -74,98 +82,62 @@
 				},
 				{
 					"value": "dont_know_answer",
-					"text": "Don’t know"
-				}
-			],
-			"required": false
-		},
-		{
-			"id": "database_Name",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "Provide the name(s) of the databases whose scheduled backup is failing?",
-			"watermarkText": "Enter database name(s) comma separated",
-			"required": false
-		},
-		{
-			"id": "backup_Type",
-			"order": 6,
-			"controlType": "dropdown",
-			"displayLabel": "Is the failure happening during Full/Log/Differential backup?",
-			"watermarkText": "Select",
-			"dropdownOptions": [{
-					"value": "Full backup",
-					"text": "Full backup"
-				},
-				{
-					"value": "Log backup",
-					"text": "Log backup"
-				},
-				{
-					"value": "Differential backup",
-					"text": "Differential backup"
-				},
-				{
-					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
 				}
 			],
-			"required": false
-		},
-		{
-			"id": "jobID_Name",
-			"order": 7,
-			"controlType": "textbox",
-			"displayLabel": "Enter the failed backup job Activity ID",
-			"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-			"required": false
-		},
-		{
-			"id": "error_code",
-			"order": 8,
-			"controlType": "textbox",
-			"displayLabel": "Provide the error code that are you seeing:",
-			"watermarkText": "Example: UserErrorSQLPODoesNotExist",
-			"required": false
-		},
-		{
-			"id": "basic_troubleshooting_multiselect",
-			"order": 9,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Select the troubleshooting steps you have performed:",
-			"dropdownOptions": [{
-					"value": "Machine has Internet connectivity",
-					"text": "Machine has Internet connectivity"
-				},
-				{
-					"value": "NSG/ Proxy is configured and required URLs are whitelisted",
-					"text": "NSG/ Proxy is configured and required URLs are whitelisted"
-				},
-				{
-					"value": "SAP HANA system has required permission for backup",
-					"text": "SAP HANA system has required permission for backup"
-				},
-				{
-					"value": "dont_know_answer",
-					"text": "Other, don't know or not applicable"
-				}
-			],
-			"required": false
-		},
-		{
-			"id": "problem_start_time",
-			"order": 10,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
 		},
 		{
+			"id": "error_message",
+			"order": 6,
+			"controlType": "textbox",
+			"displayLabel": "Provide the error message if you are seeing:",
+			"watermarkText": "Copy and paste the error message details",
+			"required": false
+		},
+		{
+			"id": "basic_troubleshooting_multiselect",
+			"order": 7,
+			"controlType": "multiselectdropdown",
+			"displayLabel": "Select the troubleshooting steps that you have performed:",
+			"dropdownOptions": [{
+					"value": "Checked OS version is supported for backup",
+					"text": "Checked OS version is supported for backup"
+				},
+				{
+					"value": "Checked SAP HANA version and edition are supported for backup",
+					"text": "Checked SAP HANA version and edition are supported for backup"
+				},
+				{
+					"value": "Checked the Machine has Internet connectivity",
+					"text": "Checked the Machine has Internet connectivity"
+				},
+				{
+					"value": "Checked the SAP HANA system has required permission for backup",
+					"text": "Checked the SAP HANA system has required permission for backup"
+				},
+				{
+					"value": "dont_know_answer",
+					"text": "Other, don't know or not applicable"
+				}
+			],
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal"
+		},
+		{
+			"id": "problem_start_time",
+			"order": 8,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		},
+		{
 			"id": "problem_description",
-			"order": 11,
+			"order": 9,
 			"controlType": "multilinetextbox",
 			"useAsAdditionalDetails": true,
-			"displayLabel": "Additional details",
+			"displayLabel": "Additional details:",
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"hints": []
