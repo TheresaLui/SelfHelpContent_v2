@@ -1,6 +1,6 @@
 <properties
-	pageTitle=" SAP HANA How-to and general questions "
-	description=" SAP HANA How-to and general questions "
+	pageTitle="SAP HANA How-to and general questions"
+	description="SAP HANA How-to and general questions"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
@@ -16,7 +16,8 @@
 
 #  SAP common questions about backing up Azure VMs with the Azure Backup service
 ## **Recommended Steps**
-- [Back up an SAP HANA database to Azure](https://go.microsoft.com/fwlink/?linkid=2109291)
+- [How to configure SAP HANA DB to Azure](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database#configure-backup)
+- [How to backup SAP HANA DB to Azure](https://go.microsoft.com/fwlink/?linkid=2109291)
 ## **Recommended Documents**
 - [Frequently asked questions](https://go.microsoft.com/fwlink/?linkid=2109520)
 - [Troubleshooting issues related to SAP HANA backup in Azure](https://go.microsoft.com/fwlink/?linkid=2109521)
