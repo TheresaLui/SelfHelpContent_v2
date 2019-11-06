@@ -29,7 +29,7 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 	1. Run `du -h --max-depth=1 / | sort -h`
 	1. Clean up the largest files that you placed there
 
-* Setting the properties:
+* Setting the properties in Ambari dashboard:
 	1. yarn.nodemanager.localizer.cache.target-size-mb=2048 
 	1. yarn.nodemanager.localizer.cache.cleanup.interval-ms=300000
 	
