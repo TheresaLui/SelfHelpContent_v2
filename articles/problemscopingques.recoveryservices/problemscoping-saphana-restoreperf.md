@@ -1,24 +1,24 @@
 <properties
-         pageTitle="Scoping questions for unable to discover VM"
-         description="Scoping questions for unable to discover VM"
+         pageTitle="Scoping questions for SAP HANA restore performance"
+         description="Scoping questions for SAP HANA restore performance"
          authors="akanase-ot"
          ms.author="akkanase"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32690769"
+         supportTopicIds="32690773"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="75b25de5-3e57-44a7-bf88-0e6a4a569208"
+         articleId="18073927-df0d-4aef-9a0c-4c925fa2a168"
 />
-# Questions for unable to discover VM
+# Questions SAP HANA restore performance
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Unable to discover VM",
+    "title": "SAP HANA restore performance",
     "fileAttachmentHint": "",
-      "diagnosticCard": {
-        "title": "Unable to discover VM",
+    "diagnosticCard": {
+        "title": "SAP HANA restore performance",
         "description": "These diagnostics will check for errors.",
         "insightNotAvailableText": "We didn't find any problems"
     },
@@ -43,50 +43,27 @@
             "required": false
         },
         {
-            "id": "os_version",
+            "id": "database_Name",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "What is the OS version of the machine?",
-            "watermarkText": "ex. Windows Server 2012 R2",
+            "displayLabel": "Provide the name(s) of the databases whose restore is slow?",
+            "watermarkText": "Enter database name(s) comma separated",
             "required": false
         },
         {
-            "id": "sap_version",
+            "id": "restore_Type",
             "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "What is the SAP HANA version and edition?",
-            "watermarkText": "ex. SAP HANA 2.0 SPS04",
-            "required": false
-        },
-        {
-            "id": "error_message",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Provide the error message if you are seeing:",
-            "watermarkText": "Copy and paste the error message details",
-            "required": false
-        },
-        {
-            "id": "basic_troubleshooting_multiselect",
-            "order": 5,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Select the troubleshooting steps that you have performed:",
+            "controlType": "dropdown",
+            "displayLabel": "Which type of restore are you performing?",
+            "watermarkText": "Select",
             "dropdownOptions": [
                 {
-                    "value": "Checked OS version is supported for backup",
-                    "text": "Checked OS version is supported for backup"
+                    "value": "Alternate Location",
+                    "text": "Alternate Location"
                 },
                 {
-                    "value": "Checked SAP HANA version and edition are supported for backup",
-                    "text": "Checked SAP HANA version and edition are supported for backup"
-                },
-                {
-                    "value": "Checked the Machine has Internet connectivity",
-                    "text": "Checked the Machine has Internet connectivity"
-                },
-                {
-                    "value": "Checked the SAP HANA system has required permission for backup",
-                    "text": "Checked the SAP HANA system has required permission for backup"
+                    "value": "Overwrite DB",
+                    "text": "Overwrite DB"
                 },
                 {
                     "value": "dont_know_answer",
@@ -97,18 +74,57 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "problem_start_time",
+            "id": "restore_Type1",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Which restore is taking longer than expected? ?",
+            "watermarkText": "Select",
+            "dropdownOptions": [
+                {
+                    "value": "Logs (Point in Time) restore operation",
+                    "text": "Logs (Point in Time) restore operation"
+                },
+                {
+                    "value": "Full & Differential restore operation",
+                    "text": "Full & Differential restore operation"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "jobID_Name",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Enter the long running job activity ID:",
+            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
+            "required": false
+        },
+        {
+            "id": "job_Running_Time",
             "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Since how long the job is running?",
+            "watermarkText": "Enter time in hours ex. 18hrs",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details:",
+            "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": []
