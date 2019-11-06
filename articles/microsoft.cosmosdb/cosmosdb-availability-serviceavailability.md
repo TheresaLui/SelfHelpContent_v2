@@ -9,7 +9,7 @@
 	supportTopicIds="32681470"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-availability-serviceavailability"
 	displayOrder="68"
 	category="Core (SQL)"

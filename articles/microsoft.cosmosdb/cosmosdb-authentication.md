@@ -9,7 +9,7 @@
 	supportTopicIds="32636770"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-authentication"
 	displayOrder="60"
 	category="Core (SQL)"

@@ -9,7 +9,7 @@
 	supportTopicIds="32636791,32636806,32636826"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-billing-pricing"
 	displayOrder="100"
 	category="Billing and Pricing"
