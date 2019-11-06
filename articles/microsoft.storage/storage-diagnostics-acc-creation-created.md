@@ -18,7 +18,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Storage account was successfully created
 <!--issueDescription-->
 
-Storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_ was successfully created at _<!--$IssueTime-->[IssueTime]<!--/$IssueTime-->_.
+Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was successfully created at **<!--$IssueTime-->[IssueTime]<!--/$IssueTime-->**.
 
 Any access issue to this storage account could caused by security restrictions. Please ensure you have permission to access this storage account. 
 <!--/issueDescription-->
