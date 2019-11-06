@@ -14,8 +14,7 @@
 	articleId="b1a8678e-227b-4df6-933e-bb0e6e75df75"
 />
 
-# Diagnose and resolve issues with SAP HANA Backup is taking longer than expected
-
+# When the SAP HANA backup has performance issues follow these troubleshooting steps 
 ## **Recommended Steps**
 - [Verify the pre-requisites](https://go.microsoft.com/fwlink/?linkid=2109326)
 ## **Recommended Documents**
