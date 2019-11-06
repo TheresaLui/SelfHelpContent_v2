@@ -3,7 +3,7 @@
     description="Create an Azure Premium Storage alert"
     authors="xyh1" 
     ms.author="hux"
-    articleId="c6ac1f03-bd58-4421-9522-23cffb64d8e1_Public"
+    articleId="7393910d-8cca-4b4b-957c-f53d79a5cd70_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
@@ -37,7 +37,6 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/PremBlob",
   "description": "Use Premium Blobs for block blob storage",
   "longDescription": "Your storage account has high transaction rates per GB of block blob data stored. Use Premium Block Blob instead of Standard blobs storage accounts for workloads that require fast storage response times and/or high transaction rates and potentially save on storage costs.",
   "potentialBenefits": "Block Blob storage performance boost with the low Azure transaction prices.",
@@ -64,6 +63,6 @@
   "displayLabel": "Use Premium Blobs",
   "additionalColumns": [],
   "tip": "You can use Premium Blobs on high transaction blobs to boost performance.",
-  "learnMoreLink": "https://aka.ms/PremBlob"
+  "learnMoreLink": "https://aka.ms/usePremiumBlob",
   "testData": "8267c76e-43b7-4492-9475-cb555239c2f7,/subscriptions/8267c76e-43b7-4492-9475-cb555239c2f7/resourceGroups/mmmm/providers/Microsoft.Storage/storageAccounts/advisortest"
 }
