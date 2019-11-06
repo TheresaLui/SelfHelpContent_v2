@@ -14,7 +14,7 @@
 	articleId="7c988a1e-e496-4db8-8b69-c459e711a975"
 />
 
-#  SAP HANA How-to and general questions 
+#  SAP common questions about backing up Azure VMs with the Azure Backup service
 ## **Recommended Steps**
 - [Back up an SAP HANA database to Azure](https://go.microsoft.com/fwlink/?linkid=2109291)
 ## **Recommended Documents**
