@@ -39,9 +39,7 @@
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal",
   "description": "Utilize Lifecycle Management to transition older block blobs to a cooler tier.",
-  "longDescription": "Detailed Description 
-                    Your Storage account has few block blob transactions with a high number of blobs that have been created at least 28 days ago.  
-                    Use Lifecycle Management rules to tier your data to Cool or Archive and decrease your storage costs while retaining your data in Azure Blob storage for application compatibility.",
+  "longDescription": "Your Storage account has few block blob transactions with a high number of blobs that have been created at least 28 days ago. Use Lifecycle Management rules to tier your data to Cool or Archive and decrease your storage costs while retaining your data in Azure Blob storage for application compatibility.",
   "potentialBenefits": "Decrease your storage costs by migrating older block blobs to lower priced storage cost tiers such as Cool or Archive.",
   "actions": [
     {

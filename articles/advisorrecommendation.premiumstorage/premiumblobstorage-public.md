@@ -39,8 +39,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/PremBlob",
   "description": "Use Premium Blobs for block blob storage",
-  "longDescription": "Your storage account has high transaction rates per GB of block blob data stored. 
-                     Use Premium Block Blob instead of Standard blobs storage accounts for workloads that require fast storage response times and/or high transaction rates and potentially save on storage costs.",
+  "longDescription": "Your storage account has high transaction rates per GB of block blob data stored. Use Premium Block Blob instead of Standard blobs storage accounts for workloads that require fast storage response times and/or high transaction rates and potentially save on storage costs.",
   "potentialBenefits": "Block Blob storage performance boost with the low Azure transaction prices.",
   "actions": [
     {
