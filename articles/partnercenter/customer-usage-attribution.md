@@ -18,6 +18,8 @@
 />
 
 # Customer usage attribution
+
+Many issues for customer usage attribution can be found in the below documentation.
  
 ## **Recommended Documents**
 
