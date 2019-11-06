@@ -18,7 +18,7 @@
 # VM Boot Error - Grub Rescue
 
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because has entered Grub Resuce.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because has entered Grub Rescue.
 <!--/issueDescription-->
 
 You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the text **grub rescue**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
