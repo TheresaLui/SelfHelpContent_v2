@@ -16,7 +16,7 @@
   "recommendationTypeId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('Xstore').azurestorageadvisorusepremiumblob", 
+    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('Xstore').azurestorageadvisorusepremiumblob",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -46,7 +46,7 @@
       "description": "Use Premium Blobs for block blob storage",
       "actionType": "Document",
       "extensionName": "Microsoft_Azure_Monitoring",
-      "documentLink": "https://aka.ms/usePremiumBlob",
+      "documentLink": "https://aka.ms/usePremiumBlob"
     }
   ],
   "resourceMetadata": {
@@ -56,7 +56,7 @@
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "id": "{resourceId}",
+        "id": "{resourceId}"
       }
     }
   },
@@ -66,3 +66,4 @@
   "learnMoreLink": "https://aka.ms/usePremiumBlob",
   "testData": "8267c76e-43b7-4492-9475-cb555239c2f7,/subscriptions/8267c76e-43b7-4492-9475-cb555239c2f7/resourceGroups/mmmm/providers/Microsoft.Storage/storageAccounts/advisortest"
 }
+---

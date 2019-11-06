@@ -22,7 +22,7 @@
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Storage/storageAccounts/",
+  "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "LifecycleManagement",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
@@ -70,3 +70,4 @@
   "learnMoreLink": "https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal",
   "testData": "8267c76e-43b7-4492-9475-cb555239c2f7,/subscriptions/8267c76e-43b7-4492-9475-cb555239c2f7/resourceGroups/mmmm/providers/Microsoft.Storage/storageAccounts/advisortest"
 }
+---
