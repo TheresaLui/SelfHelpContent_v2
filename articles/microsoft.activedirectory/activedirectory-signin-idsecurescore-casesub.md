@@ -17,5 +17,5 @@
 
 ## **Recommended documents**
 
-* [What is Identity Secure Score?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/identity-secure-score)
+* [What is Identity Secure Score?](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)
 * [How Secure Score Works](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score#HowWorks)
