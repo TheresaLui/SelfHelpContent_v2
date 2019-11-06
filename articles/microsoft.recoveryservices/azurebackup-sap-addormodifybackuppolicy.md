@@ -14,10 +14,9 @@
 	articleId="6382c71f-90e8-4fd7-810c-03c35b01bdb9"
 />
 
-# Diagnose and resolve issues with SAP HANA cannot add or modify backup policy
-
-## **Recommended Steps**
-- [Troubleshooting issues related to SAP HANA backup in Azure](https://go.microsoft.com/fwlink/?linkid=2109521)
+# When the SAP HANA backup policy configuration has issue follow these troubleshooting steps   
+## **Recommended Steps** 
+- [verify the prerqistes](https://go.microsoft.com/fwlink/?linkid=2109326)
 - [Back up an SAP HANA database to Azure](https://go.microsoft.com/fwlink/?linkid=2109291)
 ## **Recommended Documents**
 - [Configure/enable SAP backup](https://go.microsoft.com/fwlink/?linkid=2110346)
