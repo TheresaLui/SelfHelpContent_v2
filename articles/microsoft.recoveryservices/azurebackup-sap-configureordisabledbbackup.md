@@ -14,7 +14,7 @@
 	articleId="74a0286f5-efae-403b-9acf-b7e9008eb9e2"
 />
 
-# When the SAP HANA backup configure or disable DB backup failing follow these troubleshooting steps
+# When the SAP HANA configuration or disable DB backup fails follow these troubleshooting steps
 
 ## **Recommended Steps**
 - [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://go.microsoft.com/fwlink/?linkid=2109508) 
