@@ -21,7 +21,8 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 <!--issueDescription-->
 Server endpoint creation failed under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **"MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)**. <!--/issueDescription--> This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.
 
-This error occurs because Azure File Sync does not support server endpoints on volumes which have a compressed System Volume Information folder.<!--/issueDescription--> Please refer to **Server endpoint creation fails, with this error: "MgmtServerJobFailed" (Error code: -2134347507 or 0x80c8710d)** section in [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507) for more details on this error.
+This error occurs because Azure File Sync does not support server endpoints on volumes which have a compressed System Volume Information folder.
+<!--/issueDescription-->
 
 ## **Recommended steps**
 

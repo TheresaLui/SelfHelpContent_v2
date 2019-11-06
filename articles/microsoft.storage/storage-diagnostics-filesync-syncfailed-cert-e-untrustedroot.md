@@ -44,4 +44,4 @@ By setting this registry value, the Azure File Sync agent will accept any locall
 
 
 ## **Recommended Documents**
-[Troubleshoot sync error - CERT\_E\_UNTRUSTEDROOT (error code 0x800b0109 or -2146762487)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2146762487)
+[Troubleshoot sync error - CERT_E_UNTRUSTEDROOT (error code 0x800b0109 or -2146762487)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2146762487)
