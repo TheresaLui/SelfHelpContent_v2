@@ -16,10 +16,10 @@
 
 # When the SAP HANA backup policy configuration has issue follow these troubleshooting steps   
 ## **Recommended Steps** 
-- [verify the prerqistes](https://go.microsoft.com/fwlink/?linkid=2109326)
-- [Back up an SAP HANA database to Azure](https://go.microsoft.com/fwlink/?linkid=2109291)
+- [Verify the prerequisites](https://go.microsoft.com/fwlink/?linkid=2109326)
+- [Backup an SAP HANA database to Azure](https://go.microsoft.com/fwlink/?linkid=2109291)
 ## **Recommended Documents**
-- [Configure/enable SAP backup](https://go.microsoft.com/fwlink/?linkid=2110346)
+- [Configure/enable SAP HANA backup](https://go.microsoft.com/fwlink/?linkid=2110346)
 - [Frequently asked questions](https://go.microsoft.com/fwlink/?linkid=2109520)
 
 
