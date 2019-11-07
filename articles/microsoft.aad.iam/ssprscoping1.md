@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": false,
-    "title": "Problem with password management administrator-initiated",
+    "title": "Problem with password management",
     "fileAttachmentHint": null,
 	"diagnosticCard": {	
         "title": "Problem with password management administrator-initiated",
