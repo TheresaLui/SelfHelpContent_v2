@@ -96,7 +96,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "getCorrelationId",
@@ -129,7 +129,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
@@ -146,7 +146,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "appNameOrId",
@@ -179,7 +179,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
