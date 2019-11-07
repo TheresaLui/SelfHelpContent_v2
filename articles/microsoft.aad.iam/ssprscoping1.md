@@ -2,7 +2,7 @@
     pageTitle="Administrator-initiated password reset" 
 	description="Password Management/Administrator-initiated password reset" 
 	authors="sahenry" 
-    ms.author="sahenry"
+        ms.author="sahenry"
 	selfHelpType="problemScopingQuestions" 
 	supportTopicIds="32045781" 
 	productPesIds="16579" 
@@ -14,12 +14,13 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Problem with password management",
     "fileAttachmentHint": null,
-	"diagnosticCard": {	
+    "diagnosticCard": {
         "title": "Problem with password management administrator-initiated",
-        "description": "Our self-service password reset troubleshooter can help you troubleshoot and solve your problem.",	
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."	
+        "description": "Our self-service password reset troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
         {
