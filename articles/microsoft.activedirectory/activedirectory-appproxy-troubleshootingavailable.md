@@ -28,8 +28,8 @@ We have determined that you have not yet tried out the troubleshooting tool avai
 To use the troubleshooting tool:
 
 1. From your Azure AD tenant, on the **Azure portal** under **Azure Active Directory**, select **Enterprise Applications**
-2. From the **Enterprise Applications** page, search for and select the application you would like to test the configuration of.
-3. Navigate to the **Application Proxy** page, select **Test Application** at the top of the page to the run the tool and generate a report with resolution guidance.
+2. From the **Enterprise Applications** page, search for and select the application you would like to test the configuration of
+3. Navigate to the **Application Proxy** page, select **Test Application** at the top of the page to the run the tool and generate a report with resolution guidance
 
 ## **Recommended Documents**
 
