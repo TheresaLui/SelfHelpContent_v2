@@ -15,7 +15,6 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "96d733d8-6d43-4340-ba9a-c7bbdef18f62",
   "dataSourceMetadata": {
-    "schemaVersion": 1.0,
     "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('Xstore').azurestorageadvisorusedlm",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
