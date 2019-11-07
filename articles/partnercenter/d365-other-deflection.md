@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# <-- D365 offer other issues deflection -->
+# D365 offer other issues deflection
 
 Most users are able to resolve their issue using the links below.
 

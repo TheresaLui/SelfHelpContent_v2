@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# <-- D365 offer deployment deflection -->
+# D365 offer deployment deflection
 
 Most users are able to resolve their deployment issues using the links below.
 

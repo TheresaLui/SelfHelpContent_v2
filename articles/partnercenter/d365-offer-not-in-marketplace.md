@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# <-- D365 offer missing deflection -->
+# D365 offer missing deflection
 
 Offers in the "Preview" state will not be visible until you review the offer and select **Go-live** on the offer overview page.
 

@@ -19,8 +19,8 @@
 # Co-sell help and how-to 
 
 ## **Recommended Steps**
-
-- For more information on the Co-sell program and becoming Co-sell ready, contact Cosell@microsoft.com
+Most users are able to find the information they are looking for in the links below.
+For more information on the Co-sell program and becoming Co-sell ready, contact Cosell@microsoft.com
 
 ## **Recommended Documents**
 
