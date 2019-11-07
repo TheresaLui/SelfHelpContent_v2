@@ -17,9 +17,10 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
+    "subscriptionRequired": false,
     "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
     "fileAttachmentHint": null,
-	"diagnosticCard": {
+    "diagnosticCard": {
         "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
         "description": "Our mfa troubleshooter can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
