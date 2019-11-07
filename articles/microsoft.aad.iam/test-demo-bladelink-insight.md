@@ -17,7 +17,8 @@
 />
 
 # Case Creation Insight Blade Link Demo
+## Test Demo Insight
 <!--/issueDescription-->
-Did not find any issue for domains. [Please check domains here](data-blade:Microsoft_AAD_IAM.DomainsListBlade.Domains)
+Did not find any issue for domains. [Please check domains here](data-blade:Microsoft_AAD_IAM.DomainsListBlade.Domains;data-blade-uri:{$domain}/#blade/Microsoft_AAD_IAM/Domains)
 <!--/issueDescription-->
 

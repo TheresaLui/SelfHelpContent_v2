@@ -33,7 +33,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -50,7 +49,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -67,7 +65,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -86,10 +83,17 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": null,
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
             "numberOfLines": 3
+        },
+		{
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"

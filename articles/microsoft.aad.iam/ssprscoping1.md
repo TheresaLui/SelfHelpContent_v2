@@ -2,7 +2,7 @@
     pageTitle="Administrator-initiated password reset" 
 	description="Password Management/Administrator-initiated password reset" 
 	authors="sahenry" 
-        ms.author="sahenry"
+    ms.author="sahenry"
 	selfHelpType="problemScopingQuestions" 
 	supportTopicIds="32045781" 
 	productPesIds="16579" 
@@ -27,7 +27,7 @@
             "id": "problem_description",
             "visibility": null,
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "What is the username of the admin who is resetting the user's password?",
             "content": null,
             "watermarkText": "For example 'sarah@contoso.com'",
@@ -51,7 +51,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -69,7 +68,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -86,7 +84,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
