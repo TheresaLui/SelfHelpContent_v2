@@ -8,7 +8,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="mfa-insight1-datacollection"
+    articleId="mfa-verificationandunexpectedbehavior-datacollection"
     />
 
 # Azure Active Directory Sign-In and Multi-Factor Authentication
