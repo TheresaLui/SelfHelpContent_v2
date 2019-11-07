@@ -55,7 +55,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
