@@ -16,6 +16,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
     "fileAttachmentHint": null,
     "formElements": [
