@@ -27,11 +27,11 @@ This error occurs if the Azure file share is already in use by another cloud end
 ## **Recommended steps**
 
 If the share is not being used by a cloud endpoint, complete the following steps to clear the Azure File Sync metadata on the Azure file share:
-> [!Warning]  
+
 > Deleting the metadata on a share in use by a cloud endpoint will cause Azure File Sync operations to fail.
-1. In the Azure portal, go to your Azure file share. 
-2. Right-click the Azure file share, and then select Edit metadata.
-3. Right-click SyncService, and then select Delete.
+1. In the Azure portal, go to your Azure file share
+2. Right-click the Azure file share, and then select Edit metadata
+3. Right-click SyncService, and then select Delete
 
 ## **Recommended Documents**
 

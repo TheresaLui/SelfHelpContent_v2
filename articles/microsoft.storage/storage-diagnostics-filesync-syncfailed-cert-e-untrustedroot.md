@@ -28,13 +28,13 @@ If you are certain that this is expected (because your organization is using an 
 
 ## **Recommended steps**
 
-1. Create the SkipVerifyingPinnedRootCertificate registry value.
+1. Create the SkipVerifyingPinnedRootCertificate registry value
 
     ```powershell
     New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Azure\StorageSync -Name SkipVerifyingPinnedRootCertificate -PropertyType DWORD -Value 1
     ```
 
-2. Restart the sync service on the registered server.
+2. Restart the sync service on the registered server
 
     ```powershell
     Restart-Service -Name FileSyncSvc -Force

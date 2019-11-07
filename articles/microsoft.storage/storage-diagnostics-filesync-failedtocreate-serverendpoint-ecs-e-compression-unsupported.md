@@ -27,8 +27,9 @@ This error occurs because Azure File Sync does not support server endpoints on v
 ## **Recommended steps**
 
 To resolve this issue, decompress the System Volume Information folder. If the System Volume Information folder is the only folder compressed on the volume, perform the following steps:
-1. Download [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec) tool.
-2. Run the following command from an elevated command prompt to launch a command prompt running under the system account: PsExec.exe -i -s -d cmd
+1. Download [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec) tool
+2. Run the following command from an elevated command prompt to launch a command prompt running under the system account:
+    >PsExec.exe -i -s -d cmd
 3. From the command prompt running under the system account, type the following commands and hit enter:
     >cd /d "drive letter:\System Volume
 
