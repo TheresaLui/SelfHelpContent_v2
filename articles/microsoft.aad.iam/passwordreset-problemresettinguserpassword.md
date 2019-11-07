@@ -16,7 +16,7 @@
     "title": "Problem with password management user-initiated",
     "fileAttachmentHint": null,
 	"diagnosticCard": {	
-        "title": "Problem with password management user-initiated",
+        "title": "Problem with password management",
         "description": "Our self-service password reset troubleshooter can help you troubleshoot and solve your problem.",	
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."	
     },
