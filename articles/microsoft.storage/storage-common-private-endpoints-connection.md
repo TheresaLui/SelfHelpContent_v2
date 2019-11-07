@@ -29,7 +29,7 @@ Below are the common scenarios seen when customers reported that connections to 
 
 * [Only a Private Endpoint in an approved state can send traffic to storage service](https://docs.microsoft.com/azure/private-link/private-endpoint-overview#access-to-a-private-link-resource-using-approval-workflow) - If the user requesting the creation of the private endpoint is also an owner of the storage account, this consent request is automatically approved. Otherwise, the private link resource owner has to approve the private endpoint connection. Once approved the corresponding private endpoint will be enabled to send traffic to the private link resource.
 
-* [Make sure you have appropriate DNS config in place](https://docs.microsoft.com/azure/storage/common/storage-private-endpoints#dns-changes-for-private-endpoints) - An improper DNS configuration would lead to name resolution failures.
+* [Make sure you have appropriate DNS config in place](https://docs.microsoft.com/azure/storage/common/storage-private-endpoints#dns-changes-for-private-endpoints) - An improper DNS configuration would lead to name resolution failures
     ```
 	If you're using a custom or on-premises DNS server, you should use the 'privatelink' subdomain of the storage service to configure DNS resource records for the private endpoints.
    ```
