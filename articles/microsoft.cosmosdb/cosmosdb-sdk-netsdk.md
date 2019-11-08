@@ -16,6 +16,7 @@
 />
 
 # Introduction to Azure Cosmos DB .NET SDK
+Most users are able to resolve their .Net SDK case using the steps below.
 
 ## **Recommended Steps**
 * Upgrade to the latest version of the [.NET SDK](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB/) from Nuget.org for fixes and improvements

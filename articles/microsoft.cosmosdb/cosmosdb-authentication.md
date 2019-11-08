@@ -16,6 +16,7 @@
 />
 
 # Authentication in Azure Cosmos DB
+Most users are able to resolve their Authentication case using the steps below.
 
 ## **Recommended Steps**
 

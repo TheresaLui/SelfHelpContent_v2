@@ -16,6 +16,7 @@
 />
 
 # Pricing in Azure Cosmos DB
+Most users are able to resolve their Billing and Pricing case using the steps below.
 
 ## **Recommended Steps**
 

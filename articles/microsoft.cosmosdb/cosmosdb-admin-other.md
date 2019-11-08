@@ -16,6 +16,7 @@
 />
 
 # Azure Cosmos DB Administration Other Topics
+Most users are able to resolve their Administration case using the steps below.
 
 ## **Recommended Documents**
 

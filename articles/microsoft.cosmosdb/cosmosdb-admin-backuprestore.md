@@ -16,6 +16,7 @@
 />
 
 # Backup and restore
+Most users are able to resolve their Backup and Restore case using the steps below.
 
 ## **Recommended Steps**
 

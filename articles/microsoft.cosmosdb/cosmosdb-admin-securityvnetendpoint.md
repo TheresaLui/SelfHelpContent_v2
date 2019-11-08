@@ -16,6 +16,8 @@
 />
 
 # Connection failure after VNet service endpoint configuration
+Most users are able to resolve their security and VNet case using the steps below.
+
 
 ## **Recommended Steps**
 
