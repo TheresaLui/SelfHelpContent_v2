@@ -7,10 +7,10 @@
 	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602750,32602757, 32629551"
+	supportTopicIds="32602750,32602757,32629551"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="039606c4-dad6-4318-afd4-dee464071b09"
 />
 
