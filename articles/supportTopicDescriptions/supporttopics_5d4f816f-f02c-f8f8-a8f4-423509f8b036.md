@@ -29,37 +29,42 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Issues related to authentication or authorizing to queue storage not covered by other problem subtypes",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": "Issues related to authentication or authorizing to queue storage not covered by other problem subtypes"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "012777e0-7cdd-374c-b8ef-7e8c3f89a0df",
       "shortDescription": "Issues using storage keys to access queue storage such as access denied errors or connectivity failures",
       "category": "Authentication & Authorization",
-      "searchTags": "storage key,access denied,unable to access,shared key,authenticate,authorize,403"
+      "searchTags": "storage key,access denied,unable to access,shared key,authenticate,authorize,403",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "c4ca73ec-4d55-b509-9b25-9e38fb977bde",
       "shortDescription": "Issues using SAS token to access queue storage such as access denied errors or connectivity failures",
       "category": "Authentication & Authorization",
-      "searchTags": "sas,token,access denied,unable to access,authenticate,authorize,403"
+      "searchTags": "sas,token,access denied,unable to access,authenticate,authorize,403",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "0aa6d1af-84ee-ebd3-393f-20323d9e0cbb",
       "shortDescription": "Issues using Azure AD ( RBAC & OAuth) to access queue storage such as access denied errors or connectivity failures  ",
       "category": "Authentication & Authorization",
-      "searchTags": "rbac,oauth,aad,azure ad,access denied,unable to access,authenticate,authorize,403"
+      "searchTags": "rbac,oauth,aad,azure ad,access denied,unable to access,authenticate,authorize,403",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "6b651b05-bbc2-bfae-d378-b83ed039c2c6",
       "shortDescription": "Issues using Anonymous access (no authentication) to queue storage resulting in access denied or connectivity failures ",
       "category": "Authentication & Authorization",
-      "searchTags": "anonymous,access denied,authenticate,authorize,403"
+      "searchTags": "anonymous,access denied,authenticate,authorize,403",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "f8839ce6-f9a3-be39-a519-ba032581b5ff",
       "shortDescription": "Issues connecting to queue storage such as timeouts, throttling, dropped connections, etc",
       "category": "Connectivity",
-      "searchTags": "throttling, 503,503 server busy,500,500 timeout,intermittent connectivity,connectivity issue,unable to connect to queue storage,"
+      "searchTags": "throttling, 503,503 server busy,500,500 timeout,intermittent connectivity,connectivity issue,unable to connect to queue storage,",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "4128d478-6c28-d9e9-8c22-cfd581e21c0f",
