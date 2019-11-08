@@ -8,7 +8,7 @@
 	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602701,32642178"
+	supportTopicIds="32602701,32642178,32688873"
 	resourceTags="recovery"
 	productPesIds="15629,16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
