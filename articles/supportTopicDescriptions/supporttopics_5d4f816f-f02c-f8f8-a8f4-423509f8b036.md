@@ -66,7 +66,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": ""
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "c9769360-1523-21a7-3346-2e03eb330dd4",
@@ -79,49 +79,49 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": ""
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "72edad2f-960d-421b-9365-161f93756fd3",
       "shortDescription": "",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": ""
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "926b6dcf-58e3-cee4-2a62-7696fb0391ff",
       "shortDescription": "",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": ""
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "5b1f373a-cacc-22d6-3843-359e9ebcd27a",
       "shortDescription": "",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": ""
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "d82f846a-6074-62a5-c452-f1896cbc5590",
       "shortDescription": "",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": ""
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "f9b61bf7-b8c6-424c-ff30-c8f906479fad",
       "shortDescription": "",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": ""
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "729b0597-9460-1f0a-0ba5-b743aad027c4",
       "shortDescription": "",
       "category": "",
       "searchTags": "",
-      "useInDiagnoseAndSolve": ""
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "228c8671-4a50-f295-a488-2ae5c1707044",
