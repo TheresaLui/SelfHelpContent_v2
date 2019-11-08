@@ -55,7 +55,7 @@
             "numberOfLines": 0
         },
         {
-            "id": "userNameOrId",
+            "id": "userId",
             "visibility": null,
             "order": 3,
             "controlType": "textbox",
