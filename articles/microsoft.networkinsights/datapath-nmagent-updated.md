@@ -14,7 +14,7 @@ supportTopicIds=""
 cloudEnvironments="Public"
 />
 
-If you have verified that the customer's impact is due to NMAgent update — by comparing the impact time with the NMAgent update times — please adapt the root cause statement below:
+If you have verified that the customer's impact is primarily due to NMAgent update, please adapt the root cause statement below:
 
 # We ran diagnostics on your VM and found an issue
 
