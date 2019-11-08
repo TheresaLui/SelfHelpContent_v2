@@ -37,12 +37,12 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "description": "Utilize Lifecycle Management to transition older block blobs to a cooler tier.",
-  "longDescription": "Your Storage account has few block blob transactions with a high number of blobs that have been created at least 28 days ago. Use Lifecycle Management rules to tier your data to Cool or Archive and decrease your storage costs while retaining your data in Azure Blob storage for application compatibility.",
-  "potentialBenefits": "Decrease your storage costs by migrating older block blobs to lower priced storage cost tiers such as Cool or Archive.",
+  "longDescription": "One or more of your storage accounts has a high number of block blobs that have been created at least 28 days ago with few transactions performed. Use Lifecycle Management rules to tier your data to Cool or Archive to optimize your storage costs while retaining your data in Azure Blob storage for application compatibility.",
+  "potentialBenefits": "Optimize your storage costs by migrating older block blobs to lower priced storage cost tiers like Cool or Archive.",
   "actions": [
     {
       "actionId": "2ee0f24a-9747-49e4-b4d0-cf929b48bdfe",
-      "description": "Utilize Lifecycle Management to transition older block blobs to a cooler tier.",
+      "description": "Migrate data objects to a cooler tier using Data Lifecycle Management feature.",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -63,9 +63,9 @@
       }
     }
   },
-  "displayLabel": "Use Lifecycle Management",
+  "displayLabel": "Create Lifecycle Management rules",
   "additionalColumns": [],
-  "tip": "You can use Lifecycle Management to move block blobs with low transations to cooler tiers and decrease your storage costs.",
+  "tip": "You can use Lifecycle Management to move block blobs with low transations to cooler tiers and optimize your storage costs.",
   "learnMoreLink": "https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal",
   "testData": "8267c76e-43b7-4492-9475-cb555239c2f7,/subscriptions/8267c76e-43b7-4492-9475-cb555239c2f7/resourceGroups/mmmm/providers/Microsoft.Storage/storageAccounts/advisortest"
 }
