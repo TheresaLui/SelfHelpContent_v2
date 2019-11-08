@@ -16,8 +16,6 @@
 
 ## How to check if a port is listening and OS firewall is open
 
-## Description
-
 In order for a network computer (or Azure VM) to respond to a particular network request, it must be listening on a specific port and the OS firewall must allow access.  This guide will show you how to do so on both the Windows and Linux operating systems.
 
 ## **Recommended Steps**
@@ -46,9 +44,7 @@ tcp6       0      0 :::22                   :::*                    LISTEN      
 
 Again, we can see that the application is running on IPv4 and IPv6.
 
-## Verify the OS firewall is allowing traffic
-
-### Windows
+### Windows Verify the OS firewall is allowing traffic
 
 1. Disable the firewall
 
@@ -62,7 +58,7 @@ netsh advfirewall set  currentprofile state off
    3. Sort the 'Action' column twice to show the 'Block' values at the top
    4. For each of the the 'Block' rules, review the 'Local Port' column or and the 'Program' column to identify any blocking rules for the customer port or application
 
-### Linux
+### Linux Verify the OS firewall is allowing traffic
 
 1. Disable the firewall
 

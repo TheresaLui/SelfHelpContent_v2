@@ -16,4 +16,6 @@
 
 # Customer Traceroute
 
+## **Recommended Steps**
+
 * Have the customer perform a traceroute and ensure there is a network path to the customer VIP

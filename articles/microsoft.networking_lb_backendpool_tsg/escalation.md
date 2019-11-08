@@ -16,6 +16,8 @@
 
 # Escalation Path
 
+## **Recommended Steps**
+
 * If the backend pool contains Network Virtual Appliances (NVAs) reference this [NVA TSG](https://aka.ms/anpnvawiki) for additional troubleshooting steps.
 * Please follow TA/EEE escalation path to get further support for this case.
 
