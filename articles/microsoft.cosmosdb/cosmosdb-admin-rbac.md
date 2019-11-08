@@ -9,7 +9,7 @@
     supportTopicIds="32681006"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
     articleId="cosmosdb-admin-rbac"
     displayOrder="26"
     category="Administration"

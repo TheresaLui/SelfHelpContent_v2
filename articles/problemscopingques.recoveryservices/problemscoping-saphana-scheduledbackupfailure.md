@@ -61,6 +61,7 @@
 			"id": "permissions",
 			"order": 4,
 			"controlType": "dropdown",
+            "infoBalloonText": "Info: Learn more about the required permissions",
 			"displayLabel": "Are all the right permissions set?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
