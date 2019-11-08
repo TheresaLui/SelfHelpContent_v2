@@ -14,20 +14,14 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false,
-    "title": "Problem with password management",
+    "title": "Problem with password management administrator-initiated",
     "fileAttachmentHint": null,
-    "diagnosticCard": {
-        "title": "Problem with password management administrator-initiated",
-        "description": "Our self-service password reset troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
-    },
     "formElements": [
         {
             "id": "problem_description",
             "visibility": null,
             "order": 1,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "What is the username of the admin who is resetting the user's password?",
             "content": null,
             "watermarkText": "For example 'sarah@contoso.com'",
@@ -51,11 +45,11 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
+            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-	    "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "timestamp",
@@ -68,6 +62,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
+            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -84,6 +79,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
+            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
