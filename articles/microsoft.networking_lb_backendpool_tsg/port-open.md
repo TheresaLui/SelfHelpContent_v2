@@ -14,7 +14,7 @@
 	articleId="3e0e741d-d045-4442-bcb5-54e1c69f068d"
 />
 
-## How to check if a port is listening and OS firewall is open
+# How to check if a port is listening and OS firewall is open
 
 In order for a network computer (or Azure VM) to respond to a particular network request, it must be listening on a specific port and the OS firewall must allow access.  This guide will show you how to do so on both the Windows and Linux operating systems.
 
