@@ -14,7 +14,7 @@
 	articleId="039606c4-dad6-4318-afd4-dee464071b09"
 />
 
-# Securing an Azure file share 
+# Securing an Azure file share
 
 ## **Recommended Documents**    
 
