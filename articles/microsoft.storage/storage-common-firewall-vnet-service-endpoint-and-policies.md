@@ -12,7 +12,7 @@
 	productPesIds="15629,16459,16461,16462,16598"
 	resourceTags=""
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
-	articleId="2e1253fe-1a0a-4e87-98fb-757e7b33df75"
+	articleId="storage_common_firewall_vnet_service_endpoint_and_policies"
 />
 
 # Troubleshoot and resolve VNet Service Endpoint issue with Azure Storage
