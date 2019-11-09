@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Orcas PostgreSQL server is facing high Memory usage"
-    description="Orcas PostgreSQL server is facing high Memory usage"
-	infoBubbleText="Server is facing high Memory usage. See details on the right"
+    pageTitle="PostgreSQL server is facing high memory usage"
+    description="PostgreSQL server is facing high memory usage"
+	infoBubbleText="Server is facing high memory usage. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"
     authors="danielcarbajal"
@@ -16,17 +16,17 @@
     cloudEnvironments="public"
 />
 
-# Server is facing high Memory usage
+# Server is facing high memory usage
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your performance issues with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your Memory usage percent was above <!--$MemoryThreshold-->MemoryThreshold<!--/$MemoryThreshold-->% for <!--$Count-->Count<!--/$Count--> period(s). These are the top five in duration: <!--$Periods-->Periods<!--/$Periods-->. High Memory usage percent could be due to multiple causes.
+Thank you for contacting Microsoft support about your performance issues with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your memory usage percent was above <!--$MemoryThreshold-->MemoryThreshold<!--/$MemoryThreshold-->% in <!--$Count-->Count<!--/$Count--> instance(s). The longest durations of high memory utilization were at: <!--$Periods-->Periods<!--/$Periods-->. High memory usage percent could be due to multiple causes.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Review *Memory percent* in the Metrics window of the portal. If Memory spikes correlate with times when you increased your query workload, consider scaling up vCores to increase compute.
-* Compare *Active Connections* and *Memory percent* side-by-side in the Metrics window. If your active connections increases correlate with Memory spikes, consider using a [connection pooler between your application and Postgres server](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Not-all-Postgres-connection-pooling-is-equal/ba-p/825717). A pooler like [pgBouncer](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Steps-to-install-and-setup-PgBouncer-connection-pooling-proxy/ba-p/730555) would help optimize connection management.
-* Use the intelligent performance features for additional insights. For more information, visit the [Monitoring overview document](https://docs.microsoft.com/azure/postgresql/concepts-monitoring)
+* Review *Memory percent* in the Metrics window of the portal. If memory spikes correlate with times when you increased your query workload, consider scaling up vCores to increase compute. You can also consider using the Memory Optimized tier, if you don't already. Memory Optimized provides more memory per core.
+* Compare *Active Connections* and *Memory percent* side-by-side in the Metrics window. If your active connections increases correlate with memory spikes, consider using a [connection pooler between your application and Postgres server](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Not-all-Postgres-connection-pooling-is-equal/ba-p/825717). A pooler like [pgBouncer](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Steps-to-install-and-setup-PgBouncer-connection-pooling-proxy/ba-p/730555) would help optimize connection management.
+* Use the Intelligent Performance features for additional insights. For more information, visit the [Monitoring overview document](https://docs.microsoft.com/azure/postgresql/concepts-monitoring)
 
 ## **Recommended Documents**
 

@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Orcas PostgreSQL server is facing slow login issues"
-    description="Orcas PostgreSQL server is facing slow login issues"
+    pageTitle="PostgreSQL server is facing slow login issues"
+    description="PostgreSQL server is facing slow login issues"
 	infoBubbleText="Server is facing slow login issues. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"

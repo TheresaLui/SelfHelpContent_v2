@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Orcas PostgreSQL server is facing high IO throttle"
-    description="Orcas PostgreSQL server is facing high IO throttle"
+    pageTitle="PostgreSQL server is facing high IO throttle"
+    description="PostgreSQL server is facing high IO throttle"
 	infoBubbleText="Server is facing high IO throttle. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"
