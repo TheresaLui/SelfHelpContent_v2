@@ -9,7 +9,7 @@
 	supportTopicIds="32636824,32675641"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-admin-azurecli-powershell"
 	displayOrder="21"
 	category="Administration"

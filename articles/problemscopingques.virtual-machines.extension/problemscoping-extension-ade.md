@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628258"
+                supportTopicIds="32628258,32682691,32682693,32682697,32682698,32682690,32682689,32682688,32682696,32682695,32682692,32682694"
                 productPesIds="14749,15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
@@ -174,7 +174,7 @@
             "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {

@@ -9,13 +9,14 @@
 	supportTopicIds="32636803"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-admin-other"
-	displayOrder="25"
+	displayOrder="28"
 	category="Administration"
 />
 
 # Azure Cosmos DB Administration Other Topics
+Most users are able to resolve their Administration case using the steps below.
 
 ## **Recommended Documents**
 
