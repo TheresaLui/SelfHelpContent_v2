@@ -10,7 +10,7 @@
 	articleId="falsealert-log"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629643, 32612427"
+	supportTopicIds="32629643, 32612427, 32629642"
 	resourceTags=""
 	productPesIds="15454, 15725"
 	cloudEnvironments="public, fairfax"
