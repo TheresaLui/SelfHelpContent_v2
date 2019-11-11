@@ -3,8 +3,8 @@
     description="V2 - Pipeline Error or Trigger Failure - Missing Trigger Runs and Pipeline Runs Common Solutions"
     service=""
     resource=""
-	authors="chez-charlie"
-	ms.author="chez"
+    authors="chez-charlie"
+    ms.author="chez"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32637151, 32680902, 32680903"
@@ -30,6 +30,8 @@
 1. Please be aware of the difference between _Schedule_ and _Tumbling Window_ triggers. See [Trigger Type Comparison](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#trigger-type-comparison) for detailed comparison <br>
 
 1. Please refer to this [document](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency), if you want to create dependency for a tumbling window trigger <br>
+
+1. Event-based Trigger allows users to ignore _zero-byte blob. For steps to create such trigger, please refer to [Create an Event-based Trigger](https://docs.microsoft.com/azure/data-factory/how-to-create-event-trigger) <br>
 
 ## **Recommended Documents**
 
