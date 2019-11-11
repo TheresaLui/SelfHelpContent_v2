@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Orcas MySQL Server Login Failed with Access Denied"
 	description="RCA - Login Failed with Access Denied"
-	infoBubbleText="Login Failed with Access Denied detected"
+	infoBubbleText="Login Failed with Access Denied detected. See details on the right"
 	service="microsoft.dbformysql"
 	resource="dbformysql"
 	authors="congwang"
@@ -21,9 +21,9 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 ## **Recommended Steps**
 
-An Access denied error can have many causes. Often the problem is related to the MySQL accounts that the server permits client programs to use when connecting. See the following document for better understanding.
+An Access denied error can have many causes. Often the problem is related to the MySQL accounts that the server permits client programs to use when connecting. Mostly is because See the following document for better understanding.
 
 ## **Recommended Documents**
 
-* [Access Control and Account Management](https://dev.mysql.com/doc/refman/5.6/access-control.html)
+* [Access Control and Account Management](https://dev.mysql.com/doc/refman/5.6/en/access-control.html)
 * [Troubleshooting Problems Connecting to MySQL ](https://dev.mysql.com/doc/refman/5.6/en/problems-connecting.html)

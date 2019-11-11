@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Orcas MariaDB Server unplanned failover"
 	description="RCA - Server unplanned failover"
-	infoBubbleText="Server unplanned failover detected"
+	infoBubbleText="Server unplanned failover detected. See details on the right"
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
 	authors="congwang"
