@@ -20,7 +20,7 @@
     "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "Medium",   
+  "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "PremiumBlobStorageAccount",
   "recommendationMetadataState": "Active",
@@ -45,7 +45,7 @@
       "description": "Use premium performance block blob storage",
       "actionType": "Document",
       "extensionName": "Microsoft_Azure_Monitoring",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal"
+      "documentLink": "https://docs.microsoft.com/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal"
     }
   ],
   "resourceMetadata": {
