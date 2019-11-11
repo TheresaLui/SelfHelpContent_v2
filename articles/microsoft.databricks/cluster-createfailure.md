@@ -19,16 +19,13 @@
 ## **Recommended Steps**
 
 * If you are getting [error for resource quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors) you can increase quota by following these steps:
-
     * Go to [subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
     * Select the subscription that needs an increased quota
     * Select Usage + quotas
     * In the upper right corner, select Request increase
     * Fill in the forms for the type of quota you need to increase
-
 * To check current resources, please navigate to: Azure Portal under your subscription --> Usage + quotas
-
-
+* If your Azure Databricks workspace is deployed to your own virtual network (VNet), you can use custom routes, also known as user-defined routes (UDR), to ensure that network traffic is routed correctly for your workspace. For example, if you connect the virtual network to your on-premises network, traffic may be routed through the on-premises network and unable to reach the Azure Databricks control plane. Please use [User-defined routes](https://docs.azuredatabricks.net/administration-guide/cloud-configurations/azure/udr.html) to solve this problem 
 * If clusters are idle for a period of 30 days then they will be automatically deleted. To avoid this, you can pin them which will not allow for the cluster deletion. More information:
 
 	* [Pin a Cluster](https://docs.azuredatabricks.net/clusters/clusters-manage.html#pin-a-cluster)
@@ -36,6 +33,6 @@
 	
 ## **Recommended Documents**
 
+* [Deploy Azure Databricks in your Azure Virtual Network (VNet Injection)](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject)
 * [Cluster Failed to Launch](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html)
-
 * How to resolve [Error: The subscription is not registered to use namespace 'Microsoft.Compute'](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-register-provider-errors)
