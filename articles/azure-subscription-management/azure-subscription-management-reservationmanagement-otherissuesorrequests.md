@@ -7,7 +7,7 @@
 	ms.author="prdasneo"
 	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32593233"
+	supportTopicIds="32690276"
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
