@@ -48,3 +48,6 @@ You must create and configure the DNS server before installing HDInsight in the 
 **Additional Information**
 
 If you are having technical issues with cluster creation, select **Create** instead of **Other Customization**. Also, if you are running into issues while trying to scale a cluster, please select **Scale** instead of **Other Customization**. Both **Create** and **Scale** will provide better solutions and applicable diagnostics.
+## **Recommended Documents**
+* [Azure HDInsight: Frequently asked questions](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq)
+

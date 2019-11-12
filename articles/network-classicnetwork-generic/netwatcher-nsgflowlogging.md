@@ -9,25 +9,30 @@
 	displayOrder="2"
 	articleId="23f8d822-ea47-49a0-8638-95e9d8d1113f"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32606424"
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
 />
 
-
 # Common issues with NSG Flow Logs
 
 ## **Recommended Steps**
 
-### I could not enable NSG Flow Logs
+Important Note: Due to an ongoing issue, NSG Flow Logs are not automatically deleted from Blob storage based on retention policy settings. The retention feature has been temporarily disabled and users are expected to manually delete flow logs. [Read more here](https://docs.microsoft.com/azure/network-watcher/network-watcher-delete-nsg-flow-log-blobs).
+
+### **I could not enable NSG Flow Logs**
 
 * "Microsoft.Insights" resource provider is not registered
 
 If you received an *AuthorizationFailed* or a *GatewayAuthenticationFailed* error, you might have not enabled the Microsoft Insights resource provider on your subscription. Please [follow the instructions](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#register-insights-provider) to enable the Microsoft Insights provider.
 
-### I have enabled NSG Flow Logs but do not see data in my storage account
+### **I have enabled NSG Flow Logs but do not see data in my storage account**
+
+* **Setup time**
+
+NSG Flow Logs may take up to 5 minutes to appear in your storage account (if configured correctly). A PT1H.json will appear which can be accessed [as described here](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#download-flow-log).
 
 * **Service Endpoints exist on your VNet**
 
@@ -35,7 +40,7 @@ NSG Flow Logs does not work on NSGs with [Service endpoints](https://docs.micros
 
 There are two ways to fix this:
 
-1.  Re-configure NSG flow logs to emit to Azure Storage account without VNET endpoints (Internal:How? Awaiting response from CSS)
+1.  Re-configure NSG flow logs to emit to Azure Storage account without VNET endpoints
 
 * Find subnets with endpoints:
 
@@ -45,16 +50,16 @@ There are two ways to fix this:
 	- Click on the Virtual Network containing the Service Endpoints
 	- Select **Service endpoints** under **Settings** from the left pane
 	- Make a note of the subnets where **Microsoft.Storage** is enabled
-	
+
 * Disabling service endpoints:
-		
+
 	- Continuing from above, select **Subnets** under **Settings** from the left pane
 	* Click on the subnet containing the Service Endpoints
 	- In the **Service endpoints** section, under **Services**, uncheck **Microsoft.Storage**
 
 You can check the storage logs after a few minutes, you should see an updated TimeStamp or a new JSON file created.
 
-* **Disable NSG flow logs**
+* Disable NSG flow logs
 
 If the Microsoft.Storage service endpoints are a must, you will have to disable NSG Flow Logs.
 

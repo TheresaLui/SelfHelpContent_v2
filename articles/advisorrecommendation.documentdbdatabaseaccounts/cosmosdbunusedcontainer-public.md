@@ -24,6 +24,7 @@
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBOptimizeUnusedContainer",
   "recommendationMetadataState": "Active",
+  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "aoaft@microsoft.com",

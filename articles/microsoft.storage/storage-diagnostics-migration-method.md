@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Find Data migration solution
@@ -24,4 +24,4 @@ There is a Data Transfer feature in Azure portal that provides recommendations o
 
 ## **Recommended Steps**
 
-* Check the [Data transfer feature in Azure portal](<!--$DataMigrationBladeUri-->[DataMigrationBladeUri]<!--/$DataMigrationBladeUri-->) to get recommendations on data migration solutions
+* Check the <a href="<!--$DataMigrationBladeUri-->[DataMigrationBladeUri]<!--/$DataMigrationBladeUri-->">Data transfer feature in Azure portal </a> to get recommendations on data migration solutions

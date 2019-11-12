@@ -6,7 +6,7 @@
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="7"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32606433"
 	resourceTags="optional"
 	productPesIds="16160"
@@ -51,7 +51,7 @@ NetworkMonitoring
 ```
 
 * It takes NPM about 30 mins to start showing data after initial setup <br>
-* Check circuit and peering metrics in Azure Monitor to see if circuit and peering are receiving any data. If there is no data in NPM and in Azure monitor, reach out to the Express Route team. 
+* Check circuit and peering metrics in Azure Monitor to see if circuit and peering are receiving any data. If there is no data in NPM and in Azure monitor, reach out to the Express Route team.
 
 
 ## **Recommended Documents**

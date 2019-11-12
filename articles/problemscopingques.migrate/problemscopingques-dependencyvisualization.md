@@ -21,15 +21,24 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "assessment_name",
             "order": 1,
+            "visibility": "null",
+            "controlType": "textbox",
+            "displayLabel": "Provide the name of the assessment in which you are facing issue.",
+            "watermarkText": "E.g. MyContosoAssessment",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

@@ -19,4 +19,7 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to creation of a VLAN or a subnet on your Private Cloud">
+
 * [Public IP Address](https://docs.microsoft.com/azure/vmware-cloudsimple/public-ips)<br>
+</span>

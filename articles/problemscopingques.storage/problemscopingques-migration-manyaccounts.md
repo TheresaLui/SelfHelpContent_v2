@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32634987,32605567"
 	productPesIds="15629"
-	cloudEnvironments="public,MoonCake,FairFax"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="ED05B7F3-35E8-4F28-B3A3-FBFF20E2B301"
 />

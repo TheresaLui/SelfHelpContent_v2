@@ -24,6 +24,7 @@
 * If you are using a virtual network (vnet), ensure that the service endpoints are correctly configured for the Postgres server and the client. This can be done using the [Azure portal](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-portal) or the [Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-cli/)
 * If you are using a Basic tier server, note that VNet service endpoints are not supported.
 * If you are trying to connect to your server from an Azure PaaS service that doesn't have a static IP and doesn't support virtual networks, you can turn on [Allow access to Azure services](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules#connecting-from-azure). Turning this on opens the firewall to all Azure IPs.
+* If the server's IP appears to be public and you can ping or connect using telnet, connections to the Azure Database for PostgreSQL server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/postgresql/concepts-connectivity-architecture).
 
 ## **Recommended Documents**
 

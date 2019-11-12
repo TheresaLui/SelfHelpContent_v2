@@ -13,7 +13,7 @@
 	supportTopicIds="32631232"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Account Failover Advisory

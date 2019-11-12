@@ -19,6 +19,10 @@ This article will discuss specific deployment failures that can occur with DSC t
 
 ## **Recommended Steps**
 
+### **Sample ARM template**
+
+* To deploy DSC with ARM templates, see [Onboarding Machines for Management](https://docs.microsoft.com/azure/automation/automation-dsc-onboarding#azure-resource-manager-templates)
+
 ### **DSC and VMSS**
 
 * To deploy DSC with VMSS, consult the sample template ["VMSS Configuration managed by Azure Automation"](https://azure.microsoft.com/resources/templates/201-vmss-automation-dsc/)

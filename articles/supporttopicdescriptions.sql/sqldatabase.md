@@ -134,7 +134,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
 			"useInDiagnoseAndSolve": ""
 		},
 		{
-			"id": "082b2da9-a5c0-11f5-357b-3d00439faa5e",
+			"id": "d3428ae5-4e1e-7ad2-327e-b6898422830d",
 			"longDescription": "",
 			"shortDescription": "Mechanisms, policies, and procedures that enable your business to continue operating in the face of disruption",
 			"searchTags": "",
@@ -142,7 +142,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
 			"useInDiagnoseAndSolve": ""
 		},
 		{
-			"id": "d3428ae5-4e1e-7ad2-327e-b6898422830d",
+			"id": "082b2da9-a5c0-11f5-357b-3d00439faa5e",
 			"longDescription": "",
 			"shortDescription": "Questions or issues creating a transactionally consistent copy of an existing Azure SQL database",
 			"searchTags": "",

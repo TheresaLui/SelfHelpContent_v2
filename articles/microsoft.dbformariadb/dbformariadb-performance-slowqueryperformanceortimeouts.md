@@ -28,8 +28,9 @@ Query performance issues can have many different root causes. Work through the r
   * [Performance Recommendations](https://docs.microsoft.com/azure/mariadb/concepts-performance-recommendations)
 
 * Assure you have the right set of indexes created for your queries
+* Make sure that there are no deadlocks in the concurrent queries
 * Monitor the resource consumption of your server. If you max out either I/O or compute resources, increase scale up the resource that you are limited on.
-* Only retrieve the columns you really need instead of using *select \**
+* Only retrieve the columns you really need instead of using `select \*`
 
 ## **Recommended Documents**
 

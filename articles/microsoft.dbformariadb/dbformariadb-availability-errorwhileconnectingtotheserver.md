@@ -24,7 +24,7 @@ Persistent connection issues when connecting to Azure Databases for MariaDB can 
 * If you are using VNets, ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mariadb/howto-manage-vnet-portal). Note that the Basic tier does not support VNet service endpoints.
 * Follow [connection recommendations](https://docs.microsoft.com/azure/mariadb/connect-workbench) on computers hosting your client programs
 * Fix [incorrect connection strings](https://docs.microsoft.com/azure/mariadb/howto-connection-string) in your application
-* Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mariadb/concepts-ssl-connection-security)
+* Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mariadb/howto-configure-ssl)
 * Review the [supported client driver list](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) and ensure you are using a driver that is supported
 * Make sure the user you are using has the appropriate permissions
 

@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Create Azure Cosmos DB resources using ARM template, PowerShell, Azure CLI or C# application"
+	pageTitle="Create Azure Cosmos DB resources using ARM template, PowerShell, Azure CLI or CSharp application"
 	description="Troubleshoot CosmosDB PowerShell or Azure CLI related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"

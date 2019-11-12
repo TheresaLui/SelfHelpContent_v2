@@ -6,7 +6,7 @@
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="1"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32606425"
 	resourceTags="optional"
 	productPesIds="16160"

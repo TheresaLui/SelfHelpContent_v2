@@ -10,9 +10,9 @@
 	articleId="Microsoft.sql.sql-backuprestore-replication"
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32630458"
 	resourceTags="servers, databases"
-	productPesIds=""
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 

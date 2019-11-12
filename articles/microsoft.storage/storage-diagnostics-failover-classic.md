@@ -12,7 +12,7 @@ diagnosticScenario="Classic account cannot failover"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Classic account cannot failover

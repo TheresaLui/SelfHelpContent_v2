@@ -4,9 +4,9 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602759,32602770,32602761,32602762"
+	supportTopicIds="32602761,32602762"
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="f55638b4-3688-4399-a0f6-dd6ef04717c9"
 />
