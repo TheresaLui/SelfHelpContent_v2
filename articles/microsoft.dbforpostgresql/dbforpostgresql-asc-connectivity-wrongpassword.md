@@ -23,7 +23,7 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 ## **Recommended Steps**
 
-* Please make sure to use the most updated password to login. 
+* Please make sure to use the most updated password to log in
 
 ## **Recommended Documents**
 
