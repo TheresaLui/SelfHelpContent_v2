@@ -2,6 +2,7 @@
     pageTitle="VM boot error"
     description="Virtual machine failed to boot because it couldn't initialize Windows"
     infoBubbleText="A boot error 'Please wait for the Local Session Manager' has been found for your virtual machine. The operating system is corrupted and you'll need to restart your machine."
+    service="microsoft.compute"
     resource="virtualmachines"
     authors="jasonbandrew,timbasham"
     authorAlias="v-jasoan"

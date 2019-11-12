@@ -2,6 +2,7 @@
     pageTitle="Getting ready VM boot error"
     description="Virtual machine failed to boot because it is stuck at Getting Windows ready screen"
     infoBubbleText="A boot error 'Getting Windows ready' has been found for your virtual machine."
+    service="microsoft.compute"
     resource="virtualmachines"
     authors="timbasham"
     ms.author="tibasham"

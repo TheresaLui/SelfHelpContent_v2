@@ -2,6 +2,7 @@
     pageTitle="Linux VM boots to Grub Rescue"
     description="Your Linux Virtual Machine has failed to boot and is currently in Grub Rescue."
     infoBubbleText="Your Linux Virtual Machine has failed to boot and is currently in Grub Rescue."
+    service="microsoft.compute"
     resource="virtualmachines"
     authors="timbasham"
     ms.author="tibasham"

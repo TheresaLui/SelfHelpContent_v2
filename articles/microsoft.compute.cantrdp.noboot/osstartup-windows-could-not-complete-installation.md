@@ -2,7 +2,7 @@
     pageTitle="VM boot error"
     description="Virtual machine failed to process Windows Updates during installation"
     infoBubbleText="A boot error has been found. See details on the right."
-     service="microsoft.compute"
+    service="microsoft.compute"
     resource="virtualmachines"
     authors="jasonbandrew"
     ms.author="v-jasoan"
