@@ -1,4 +1,4 @@
-properties
+<properties
 	pageTitle="Diagnose and resolve issues with connectivity to workspace"
 	description="Diagnose and resolve issues with connectivity to Workspace"
 	service="microsoft.databricks"
@@ -29,6 +29,3 @@ properties
 ### **Troubleshooting Errors**
 
 * [How to resolve error: Instances unreachable](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html#instances-unreachable)
-
-
-
