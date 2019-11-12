@@ -16,12 +16,12 @@
 
 # Cannot access newly created account
 
-Check if your new storage account is accessible via DNS lookup by running the following command-line in your command prompt:
-> nslookup [myStorageAccount].blob.core.windows.net
+Check if your new storage account is accessible via DNS lookup by running the following command-line in your command prompt: `nslookup [myStorageAccount].blob.core.windows.net`
 
-If the result returned a valid external name and IP address, the storage account is successfully created and is accessible through [Azure CLI](https://docs.microsoft.com/cli/azure/storage?view=azure-cli-latest), [PowerShell](https://docs.microsoft.com/powershell/module/storage/?view=win10-ps) and [Rest API](https://docs.microsoft.com/rest/api/storageservices/).   
+If the result returned a valid external name and IP address, the storage account is successfully created and is accessible through [Azure CLI](https://docs.microsoft.com/cli/azure/storage?view=azure-cli-latest), [PowerShell](https://docs.microsoft.com/powershell/module/storage/?view=win10-ps), and [Rest API](https://docs.microsoft.com/rest/api/storageservices/).   
 
 ## **Recommended Documents**
+
 - [Azure Storage CLI](https://docs.microsoft.com/cli/azure/storage?view=azure-cli-latest)
 - [Azure Storage PowerShell](https://docs.microsoft.com/powershell/module/storage/?view=win10-ps)
 - [Azure Storage Rest API](https://docs.microsoft.com/rest/api/storageservices/)
