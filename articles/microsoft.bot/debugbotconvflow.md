@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My bot is not responding or times out"
-	description="My bot is not responding or times out"
+	pageTitle="Debug issues with bot conversation flow or logic"
+	description="Debug issues with bot conversation flow or logic"
 	service="Microsoft.BotService"
 	resource="botServices"
 	authors="jwiley84,jiruss,dandriscoll,meetshamir"
