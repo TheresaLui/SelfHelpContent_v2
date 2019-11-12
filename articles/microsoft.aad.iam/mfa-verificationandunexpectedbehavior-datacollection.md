@@ -1,14 +1,14 @@
 <properties
     pageTitle="Azure Active Directory Sign-In and Multi-Factor Authentication"
     description="appssigninl1datacollectiondoc"
-    authors="arupela"
-    ms.author="arupela"
+    authors="hsku"
+    ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615515,32615516,32615400"
+    supportTopicIds="32615519,32630265"
     productPesIds="16579"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="mfa-insight1-datacollection"
+    articleId="mfa-verificationandunexpectedbehavior-datacollection"
     />
 
 # Azure Active Directory Sign-In and Multi-Factor Authentication
@@ -19,6 +19,11 @@
     "subscriptionRequired": false,
     "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
+        "description": "Our mfa troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -91,7 +96,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "getCorrelationId",
@@ -123,7 +129,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
@@ -139,7 +146,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "appNameOrId",
@@ -158,7 +166,7 @@
             "numberOfLines": 2
         },
         {
-            "id": "userNameOrId",
+            "id": "userId",
             "visibility": null,
             "order": 9,
             "controlType": "textbox",
@@ -171,7 +179,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
