@@ -28,13 +28,9 @@ The <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--$StartT
 
 ## **Recommended Documents**
 
-<<<<<<< HEAD
 [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 
 [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
 
 [Handling transient connectivity errors for Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/azure/postgresql/concepts-connectivity)
-=======
-* [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
-* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
->>>>>>> origin/master
+
