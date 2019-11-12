@@ -20,9 +20,9 @@
 
 When an App Service Certificate was marked as fraud, you will see the error “Your certificate has been flagged for possible fraud. The request is currently under review." If the certificate is marked as Fraud and has not been resolved after 24 hours, then follow the steps below:
 
-	1. Go to App Service certificate in Azure portal
-	2. Click on Certificate Configuration -> Step 2 : Verify -> Domain Verification
-	3. Click on Email Instructions which will send an email to GoDaddy to resolve the issue
+1. Go to App Service certificate in Azure portal
+2. Click on Certificate Configuration -> Step 2 : Verify -> Domain Verification
+3. Click on Email Instructions which will send an email to GoDaddy to resolve the issue
 
 ## **Recommended Documents**
 
