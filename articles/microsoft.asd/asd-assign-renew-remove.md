@@ -3,7 +3,8 @@
 	description="ASD/Assigning-Renewing-Removing Domain"
 	service="microsoft.asd"
 	resource="asd"
-	authors="shrahman"
+	authors="cts-shrahman, cristhianu"
+    ms.author="shrahman,curibe"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32604401"
@@ -17,9 +18,14 @@
 
 ## **Recommended documents**
 
-* [Add domain to Web App](https://docs.microsoft.com/azure/app-service/custom-dns-web-site-buydomains-web-app#assign-hostnames-to-web-app) 
+* [Assign host names to an Azure App Service Web App](https://docs.microsoft.com/azure/app-service/manage-custom-dns-buy-domain#assign-hostnames-to-app)
 * [Manage Custom DNS records](https://docs.microsoft.com/azure/app-service/custom-dns-web-site-buydomains-web-app#manage-custom-dns-records)
-* [Check you DNS propagation](https://dnschecker.org/) 
+* [Check you DNS propagation](https://dnschecker.org/)
 * [Troubleshooting Azure DNS resolution error](https://docs.microsoft.com/azure/dns/dns-troubleshoot#i-cant-resolve-my-dns-record)
 * [Troubleshooting GoDaddy DNS resolution error](https://www.godaddy.com/help/fixing-dns-issues-for-new-hosting-accounts-8415)
- 
+
+* [Renew Domain](https://docs.microsoft.com/azure/app-service/manage-custom-dns-buy-domain#renew-the-domain)
+
+	Note: The Renew domain button is only active until 90 days before the domain’s expiration.
+
+	If you renewed your domain less than 24 hours ago, please note that it can take up to 24 hours to receive an email notification. 
