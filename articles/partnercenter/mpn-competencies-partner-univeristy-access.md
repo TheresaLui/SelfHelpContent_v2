@@ -19,7 +19,7 @@
 
 # MPN - Issue with Partner University access
 
-Resources providing knowledge on issues with Partner University access are given below
+Resources providing knowledge on issues with Partner University access are given below.
 
 
 ## **Recommended Documents**
