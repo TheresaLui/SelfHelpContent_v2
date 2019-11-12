@@ -18,12 +18,11 @@
 
 ## **Recommended Steps**
 
-* To restore an accidentally deleted Azure App Service Domain:
-* If within 30 days from deletion date: <br>
-You can buy the same domain again on Azure portal under the same subscription (make sure you type the exact domain name in search text box). You will not be charged again for this domain. Please make sure you complete this by day 30 since the deletion.
-* If after 30 days from deletion date: <br>
-Continue creating a support ticket and provide the exact date and time (with time zone) of the deletion.
+To restore an accidentally deleted Azure App Service Domain:
 
-## **Recommended documents**
+* If within 30 days from deletion date: You can buy the same domain again on Azure portal under the same subscription (make sure you type the exact domain name in search text box). You will not be charged again for this domain. Please make sure you complete this by day 30 since the deletion.
+* If after 30 days from deletion date: Continue creating a support ticket and provide the exact date and time (with time zone) of the deletion.
 
-[More Information](https://docs.microsoft.com/azure/app-service/troubleshoot-domain-ssl-certificates#you-need-to-restore-a-deleted-domain) 
+## **Recommended Documents**
+
+* [More Information](https://docs.microsoft.com/azure/app-service/troubleshoot-domain-ssl-certificates#you-need-to-restore-a-deleted-domain) 
