@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure plan customer migration"
-	description="Azure plan customer migration"
+	pageTitle="Transition your customers to Azure plan"
+	description="Transition your customers to Azure plan"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -17,7 +17,7 @@
 	cloudEnvironments="public"
 />
 
-# Azure plan customer migration
+# Transition your customers to Azure plan
 
 Resources for transitioning your customers to Azure plan.
 

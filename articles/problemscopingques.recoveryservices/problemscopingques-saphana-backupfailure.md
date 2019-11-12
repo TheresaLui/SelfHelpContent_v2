@@ -4,7 +4,7 @@
          authors="akanase-ot"
          ms.author="akkanase"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds=""
+         supportTopicIds="32690765"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
@@ -61,6 +61,7 @@
 			"id": "permissions",
 			"order": 4,
 			"controlType": "dropdown",
+            "infoBalloonText": "Info: Learn more about the required permissions",
 			"displayLabel": "Are all the right permissions set?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{

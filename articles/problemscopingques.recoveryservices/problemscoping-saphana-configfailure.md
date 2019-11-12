@@ -4,7 +4,7 @@
          authors="akanase-ot"
 	     ms.author="akkanase"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds=""
+         supportTopicIds="32690768"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"

@@ -3,7 +3,8 @@
 	description="Management/Manage an instance of SQL Server"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="scottazure,vadeveka"
+	ms.author="vadeveka"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411820"
@@ -14,6 +15,8 @@
 />
 
 # Management/Manage an instance of SQL Server
+
+Most users are able to address their SQL manageability questions using the documentation listed below. If you are facing an issue with a particular manageability feature such as auto-patching, auto-backup or SQL IaaS extension, please create this support request under the service "SQL Server in VM - Windows" for better support engagement.
 
 ## **Recommended documents**
 * [Overview of SQL Server on Azure Virtual Machines](https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/)<br>

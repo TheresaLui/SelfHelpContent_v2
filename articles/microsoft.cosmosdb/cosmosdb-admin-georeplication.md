@@ -9,7 +9,7 @@
 	supportTopicIds="32636794"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-admin-georeplication"
 	displayOrder="22"
 	category="Administration"
