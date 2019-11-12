@@ -16,6 +16,8 @@
 
 # Azure AAD DS authentication over SMB
 
+Most users are able to resolve their Azure AAD DS authentication over SMB issue using the steps below.
+
 ## **Recommended Steps**    
 Ensure that the following steps are completed to enable AAD DS Authentication feature on your storage account:
 1. Have you ran through the [prerequisites to enable Azure AD DS authentication over SMB](https://docs.microsoft.com/azure/storage/files/storage-files-active-directory-enable#prerequisites)?

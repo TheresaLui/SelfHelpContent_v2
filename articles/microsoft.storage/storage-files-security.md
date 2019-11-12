@@ -15,6 +15,8 @@
 />
 # Securing an Azure file share
 
+Most users are able to resolve their files security issue using one of the documents below.
+
 ## **Recommended Documents**    
 
 - [Azure Storage security guide](https://docs.microsoft.com/azure/storage/common/storage-security-guide?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)<br>
