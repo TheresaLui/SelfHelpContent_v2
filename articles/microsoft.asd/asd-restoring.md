@@ -1,6 +1,6 @@
 <properties
-	pageTitle="ASD/Restoring an Accidently Deleted Domain"
-	description="ASD/Restoring an Accidently Deleted Domain"
+	pageTitle="ASD/Restoring an Accidentally Deleted Domain"
+	description="ASD/Restoring an Accidentally Deleted Domain"
 	service="microsoft.asd"
 	resource="asd"
 	authors="cts-shrahman, cristhianu"
@@ -14,7 +14,7 @@
 	articleId="6c750bf3-9761-44f7-9a1a-66207a7c29b4"
 />
 
-# ASD/Restoring an Accidently Deleted Domain
+# ASD/Restoring an Accidentally Deleted Domain
 
 ## **Recommended Steps**
 
