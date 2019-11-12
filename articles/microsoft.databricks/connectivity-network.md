@@ -16,9 +16,9 @@
 
 # Diagnose and resolve connectivity issues with network configuration
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-* [How to deploy Azure Databricks in your virtual network](https://docs.microsoft.com/azure/azure-databricks/vnet-injection)
+* [Deploy Azure Databricks in your Azure Virtual Network (VNet Injection)](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject)
 * [A technical overview of Azure Databricks](https://azure.microsoft.com/blog/a-technical-overview-of-azure-databricks/)
 * [How to assign a Single Public IP for VNet-Injected Workspaces Using Azure Firewall](https://kb.azuredatabricks.net/cloud/azure-vnet-single-ip.html)
 * [Virtual Network Peering](https://docs.azuredatabricks.net/administration-guide/cloud-configurations/azure/vnet-peering.html)
