@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628278"
+                supportTopicIds="32628278,32674480,32674479,32674478,32674481"
                 productPesIds="14749,15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
@@ -13,6 +13,7 @@
 # Agent and extensions
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "My issue or extension isn’t listed above",
     "fileAttachmentHint": "",
@@ -26,8 +27,33 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "extension_configure",
+            "id": "vm_extension",
             "order": 2,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Select all the applicable extensions you are having issue with",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceId}/extensions?api-version=2019-03-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of extensions.",
+                    "text": "Unable to retrieve list of extensions."
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "extension_configure",
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What extension are you trying to configure?",
             "required": false,
@@ -35,7 +61,7 @@
         },
         {
             "id": "extension_operation",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What operation are you trying to do?",
             "watermarkText": "Choose an option",
@@ -65,7 +91,7 @@
         },
         {
             "id": "extension_agentinstalled",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Do you have the latest Azure VM Agent installed?",
             "watermarkText": "Choose an option",
@@ -87,15 +113,15 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

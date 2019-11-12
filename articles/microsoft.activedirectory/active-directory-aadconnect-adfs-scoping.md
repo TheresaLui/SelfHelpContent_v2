@@ -14,7 +14,7 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "resourceRequired": false,
 	"title": "AD FS Scoping Questions",
 	"fileAttachmentHint": "",
@@ -22,14 +22,14 @@
 			"id": "run_diagnostics_analyzer",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Navigate to adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze and run the Diagnostics Analyzer tool. Has the information been saved and uploaded to support by selecting the “Save Diagnostics” checkbox? This will reduce time spent troubleshooting your case.",
+			"displayLabel": "Troubleshoot your issue at adfshelp.com/DiagnosticsAnalyzer/Analyze. This automated tool checks common AD FS issues and provides support engineers with your ADFS information, reducing time spent collecting data for your case and help resolving the case faster.",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
-					"text": "Yes"
+					"text": "Yes, I ran the tool and submitted the diagnostics results to support through AD FS Help."
 				}, {
 					"value": "No",
-					"text": "No"
+					"text": "No, support will collect my diagnostics results in the case."
 				}, {
 					"value": "dont_know_answer",
 					"text": "Don't Know"
@@ -61,3 +61,4 @@
 		}
 	]
 }
+---

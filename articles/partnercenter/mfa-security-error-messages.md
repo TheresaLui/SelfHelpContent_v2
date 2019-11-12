@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Partner Center MFA Security Error Messages"
-	description="Partner Center MFA Security Error Messages"
+	pageTitle="Getting started and troubleshooting Secure App Model"
+	description="Getting started and troubleshooting Secure App Model"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -17,7 +17,7 @@
 	cloudEnvironments="public"
 />
 
-# Implement partner security requirements to safeguard your business
+# Getting started and troubleshooting Secure App Model
 
 Resource materials related to implementing partner security requirements immediately to safeguard your business. 
 
@@ -25,7 +25,7 @@ Resource materials related to implementing partner security requirements immedia
 
 * [Partner security requirements portal](https://partner.microsoft.com/resources/collection/partner-security-requirements)
 * [Partner Security Requirements](https://docs.microsoft.com/partner-center/partner-security-requirements)
-* [Partner Security Requirements FAQ](https://assetsprod.microsoft.com/security-requirements-faq.pdf)
+* [Partner Security Requirements FAQ](https://docs.microsoft.com/partner-center/partner-security-requirements-faq)
 
 
 

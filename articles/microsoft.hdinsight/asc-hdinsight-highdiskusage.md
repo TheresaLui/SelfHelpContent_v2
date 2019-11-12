@@ -10,10 +10,10 @@
     articleId="Hdi_HighDiskUsage"
     diagnosticScenario="HDInsightDiskUsageInsight"
     selfHelpType="rca"
-    supportTopicIds="32628986, 32629091, 32636430"
+    supportTopicIds="32636428"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # We ran diagnostics on your resource and found an issue
@@ -37,6 +37,10 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 	
 	Refer to the [document](https://hortonworks.com/blog/resource-localization-in-yarn-deep-dive/) for more details.	
 
-## Nodes with high disk usage
+### Nodes with high disk usage
 
 <!--$NodeInformation-->[NodeInformation]<!--/$NodeInformation-->
+
+## **Recommended Documents**
+
+* [Cluster node out of disk space](https://hdinsight.github.io/ClusterManagement/cluster-node-out-of-disk-space.html#cluster-node-out-of-disk-space)

@@ -23,7 +23,9 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Steps**
 
 * Make sure that the server name is globally unique
+* Currently, minor and major version upgrades aren't supported. For example, upgrading from MySQL 5.6 to MySQL 5.7 isn't supported. If you'd like to upgrade from 5.6 to 5.7, take a [dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore) it to a server that was created with the new engine version.
 * If you are using the portal, review the [Manage an Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-create-manage-server-portal) how-to
+
 * If you are using Azure CLI:
 
   * Make sure you are signed-in to the correct using **az login**

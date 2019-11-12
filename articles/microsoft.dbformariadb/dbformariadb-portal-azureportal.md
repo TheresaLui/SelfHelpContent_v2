@@ -31,6 +31,8 @@ Azure Database for MariaDB is a managed service that you use to run, manage, and
   * Monitoring your server, review [Monitor Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-alert-metric/)
   * Enabling storage auto-grow, review [Enable auto grow in Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-auto-grow-storage-portal/)
   * Setting up Advanced Threat Protection, review [Advanced Threat Protection in Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-database-threat-protection-portal/)
+  * Moving a server across resource groups or subscriptions, review [Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
+
 
 * Check the issue is not caused by browser cache. Please use a different browser or a different client machine. If you don't have other browsers, please try InPrivate session in Edge or incognito session in Chrome.
 

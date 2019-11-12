@@ -9,7 +9,7 @@
     supportTopicIds="32681007"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
     articleId="cosmosdb-admin-arm-activity-log"
     displayOrder="27"
     category="Administration"

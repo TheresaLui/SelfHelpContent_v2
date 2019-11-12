@@ -4,9 +4,9 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602701,32642178"
-	productPesIds="15629,16459"
-	cloudEnvironments="public"
+	supportTopicIds="32642178,32602701"
+	productPesIds="16459,15629"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="2165ec52-93b8-4bad-bf52-2b24b8f186cf"
 />
@@ -39,34 +39,8 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "storage_account_type",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Deployment model",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "ARM",
-                    "text": "Resource Manager (ARM)"
-                },
-                {
-                    "value": "Classic",
-                    "text": "Classic"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "storage_account_region",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Region of Storage Account",
-            "watermarkText": "Region",
-            "required": false
-        },
-        {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Date and time that the account was deleted",
             "required": true,
@@ -74,17 +48,11 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 7,
-            "controlType": "infoblock",
-            "content": "You can follow our <a href='https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data'>best practices for protecting your data</a> to ensure that your deleted data will be recoverable in the future."
         }
     ],
     "$schema": "SelfHelpContent"

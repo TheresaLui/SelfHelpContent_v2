@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Create Azure Cosmos DB resources using ARM template, PowerShell, Azure CLI or C# application"
+	pageTitle="Create Azure Cosmos DB resources using ARM template, PowerShell, Azure CLI or CSharp application"
 	description="Troubleshoot CosmosDB PowerShell or Azure CLI related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
@@ -9,7 +9,7 @@
 	supportTopicIds="32636824,32675641"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-admin-azurecli-powershell"
 	displayOrder="21"
 	category="Administration"
