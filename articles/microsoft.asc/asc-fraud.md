@@ -3,7 +3,8 @@
 	description="ASC/Pending Verification for Fraud Protection"
 	service="microsoft.asc"
 	resource="asc"
-	authors="shrahman"
+	ms.author="shrahman"
+	authors="cts-shrahman"
 	displayOrder="6"
 	selfHelpType="generic"
 	supportTopicIds="32604396"
@@ -15,12 +16,14 @@
 
 # ASC/Pending Verification for Fraud Protection
 
-## **Recommended documents**
+## **Recommended Steps**
 
-When an App Service Certificate was marked as fraud, you will see this error “Your certificate has been flagged for possible fraud. The request is currently under review." If the certificate is marked as Fraud and has not been resolved after 24 hours then follow the steps below :
-1.	Go to App Service certificate in Azure portal
-2.	Click on Certificate Configuration -> Step 2 : Verify -> Domain Verification
-3.	Click on Email Instructions which will send an email to GoDaddy to resolve the issue
+When an App Service Certificate was marked as fraud, you will see the error “Your certificate has been flagged for possible fraud. The request is currently under review." If the certificate is marked as Fraud and has not been resolved after 24 hours, then follow the steps below:
 
-For information, please review: 
+	1. Go to App Service certificate in Azure portal
+	2. Click on Certificate Configuration -> Step 2 : Verify -> Domain Verification
+	3. Click on Email Instructions which will send an email to GoDaddy to resolve the issue
+
+## **Recommended Documents**
+
 * [My App Service certificate is flagged for fraud. How do I resolve this?](https://azure.github.io/AppService/2017/07/24/FAQ-SSL-certificates-for-Web-Apps-and-App-Service-Certificates#my-app-service-certificate-is-flagged-for-fraud-how-do-i-resolve-this) 
