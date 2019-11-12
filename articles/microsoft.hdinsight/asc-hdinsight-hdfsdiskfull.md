@@ -23,6 +23,8 @@ HDFS is running out of space for the following host(s): <!--$Hosts-->[Hosts]<!--
 <!--/issueDescription-->
 	
 
-## **Recommended Documents**
+## **Recommended Steps**
+
+Please follow the steps given in the document:
 
 * [HDFS gets full in Azure HDInsight with many Hive temporary files](https://blogs.msdn.microsoft.com/bigdatasupport/2016/08/15/hdfs-gets-full-in-azure-hdinsight-with-many-hive-temporary-files/)
