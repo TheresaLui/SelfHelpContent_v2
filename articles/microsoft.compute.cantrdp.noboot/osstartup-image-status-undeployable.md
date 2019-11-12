@@ -34,7 +34,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VmSeria
     3. List all the partitions on the disk using `list partition` and select the partition to check with `sel <PARTITION ID>`. Typically, System Managed partitions are around 350Mb in size.
     4. Check the status of the partition to verify that it's Active using `detail partition`
     5. Check for the "Active" flag. If the partition is not active, change the state with `active`
-    6. To validate the changes where done properly, re-run `detail partition`. Type `Exit` when ready.
+    6. To validate the changes were done properly, re-run `detail partition`. Type `Exit` when ready.
 
  4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition. The Windows partition contains a folder named "Windows," and this partition is larger than the others. The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 
