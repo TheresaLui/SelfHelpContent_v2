@@ -19,6 +19,11 @@
     "subscriptionRequired": false,
     "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
+        "description": "Our mfa troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -91,7 +96,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "getCorrelationId",
@@ -123,7 +129,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
@@ -139,7 +146,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "appNameOrId",
@@ -171,7 +179,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

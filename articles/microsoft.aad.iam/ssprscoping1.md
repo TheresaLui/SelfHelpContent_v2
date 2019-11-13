@@ -16,7 +16,12 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Problem with password management",
-    "fileAttachmentHint": null
+    "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with password management administrator-initiated",
+        "description": "Our self-service password reset troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "problem_description",
@@ -49,7 +54,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
