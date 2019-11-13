@@ -3,11 +3,11 @@
 	 authors="hsku" 
 	 ms.author="hsku"
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32615416" 
+	 supportTopicIds="32615432" 
 	 productPesIds="16579" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
-	 articleId="c0816905-886c-41cc-acab-516a43988111"
+	 articleId="fae4f8fc-ccc5-40a6-80f0-dfee2c026c5a"
 /> 
 # Problem with user-initiated password reset 
 ---
@@ -16,11 +16,6 @@
     "subscriptionRequired": false,
     "title": "Problem with password management user-initiated",
     "fileAttachmentHint": null,
-    "diagnosticCard": {
-        "title": "Problem with password management",
-        "description": "Our self-service password reset troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
-    },
     "formElements": [
         {
             "id": "correlationId",
@@ -68,8 +63,7 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "problem_description",
