@@ -18,20 +18,20 @@
 
 ## **Recommended Steps**
 
-1. Pipelines and triggers have a _many-to-many_ relationship <br>
+1. Pipelines and triggers have a _many-to-many_ relationship:
+
     * A pipeline can be kicked off by multiple triggers
     * A trigger can kick off multiple pipelines simultaneously
 
-1. There are 3 types of triggers available in Azure Data Factory <br>
+1. There are 3 types of triggers available in Azure Data Factory:
+
     * Schedule Trigger: trigger that invokes pipelines on a wall-clock schedule
     * Tumbling Window trigger: trigger that operates on a periodic interval, while also _retaining state_
     * Event-based trigger: trigger that responds to an event
 
-1. Please be aware of the difference between _Schedule_ and _Tumbling Window_ triggers. See [Trigger Type Comparison](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#trigger-type-comparison) for detailed comparison <br>
-
-1. Please refer to this [document](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency), if you want to create dependency for a tumbling window trigger <br>
-
-1. Event-based Trigger allows users to ignore _zero-byte blob. For steps to create such trigger, please refer to [Create an Event-based Trigger](https://docs.microsoft.com/azure/data-factory/how-to-create-event-trigger) <br>
+1. Please be aware of the difference between _Schedule_ and _Tumbling Window_ triggers. See [Trigger Type Comparison](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#trigger-type-comparison) for detailed comparison.
+1. Please refer to this [document](https://docs.microsoft.com/azure/data-factory/tumbling-window-trigger-dependency) if you want to create dependency for a tumbling window trigger 
+1. Event-based Trigger allows users to ignore _zero-byte blob. For steps to create such trigger, please refer to [Create an Event-based Trigger](https://docs.microsoft.com/azure/data-factory/how-to-create-event-trigger).
 
 ## **Recommended Documents**
 
