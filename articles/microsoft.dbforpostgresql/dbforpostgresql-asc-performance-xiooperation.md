@@ -25,7 +25,7 @@ Thank you for contacting Microsoft support about your performance issues with yo
 ## **Recommended Steps**
 
 * Consider increasing IOPS by scaling storage size. You can increase the storage in the [Azure Portal](https://portal.azure.com) by clicking on the "Pricing Tier" and then scale up the storage as per your requirement.
-* You can also enable [Auto-Grow feature](https://docs.microsoft.com/azure/postgresql/howto-auto-grow-storage-portal), to avoid this issue in the future.
+* You can also enable [Auto-Grow feature](https://docs.microsoft.com/azure/postgresql/howto-auto-grow-storage-portal), to avoid this issue in the future
 
 ## **Recommended Documents**
 
