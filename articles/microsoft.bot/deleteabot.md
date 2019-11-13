@@ -16,7 +16,7 @@
 
 # Delete a bot
 
-There are two ways to delete a bot on Azure: one is directly deleteing the resource on the Azure portal and the other is by making use of the Azure CLI.
+There are two ways to delete a bot on Azure: one is directly deleting the resource on the Azure portal and the other is by making use of the Azure CLI.
 
 ## Delete a bot on the Azure Portal
 
@@ -33,7 +33,7 @@ Note: If you have created a new Resource Group under which the particular bot is
 
 ## Delete a bot using Azure CLI
 
-The Azure command-line interface (CLI) is Microsoft's cross-platform command-line experience for managing Azure resources. Refer to [this](https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest) documentation for more information about the use of Azure CLI.
+The Azure command-line interface (CLI) is Microsoft's cross-platform command-line experience for managing Azure resources. Refer to [this](https://docs.microsoft.com/cli/azure/bot?view=azure-cli-latest) documentation for more information about the use of Azure CLI.
 
 To delete an existing bot, use the following command:
 
@@ -57,3 +57,7 @@ The optional parameters are:
 ### --subscription
 
 Name or ID of subscription. You can configure the default subscription using az account set -s NAME_OR_ID.
+
+## **Recommended Documents**
+
+* [Bot FAQs](https://docs.microsoft.com/azure/bot-service/bot-service-resources-bot-framework-faq?view=azure-bot-service-4.0)
