@@ -1,22 +1,22 @@
 <properties
 	pageTitle="Latency"
-	description="Latency for SignalR Service"
+	description="Latency"
 	infoBubbleText=""
 	service="microsoft.signalrservice"
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder="1"
-	articleId="signalrservice-latency"
+	displayOrder="25"
+	articleId="signalrservice-connection-latency"
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds="32608607,32608625,32608616"
+	supportTopicIds="32683972"
 	resourceTags=""
 	productPesIds="16477"
-	cloudEnvironments="public"
+	cloudEnvironments="public,Mooncake,Fairfax"
 />
 
-# Service Outage
+# Experiencing latency
 
 ## **Recommended Documents**
 

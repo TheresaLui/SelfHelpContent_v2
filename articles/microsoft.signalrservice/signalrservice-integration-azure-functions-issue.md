@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Azure Functions binding not working"
-	description="Azure Functions binding not working"
+	pageTitle="Azure Functions integration not working"
+	description="Azure Functions integration not working"
 	infoBubbleText=""
 	service="microsoft.signalrservice"
 	resource="signalr"
 	authors="sffamily"
 	ms.author="zhshang"
-	displayOrder="1"
-	articleId="signalrservice-azure-functions-binding-not-working"
+	displayOrder="51"
+	articleId="signalrservice-integration-azure-functions-issue"
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds="32608594"
+	supportTopicIds="32683974"
 	resourceTags=""
 	productPesIds="16477"
-	cloudEnvironments="public"
+	cloudEnvironments="public,Mooncake,Fairfax"
 />
 
-# Service Outage
+# Azure Functions integration issue
 
 ## **Recommended Documents**
 
