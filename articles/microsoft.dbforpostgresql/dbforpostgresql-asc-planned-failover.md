@@ -15,7 +15,7 @@
 	productPesIds="16222"
 	cloudEnvironments="public"
 />
-# Can't connect PostgreSQL database server
+# Can't connect PostgreSQL database server: planned failover
 
 <!--issueDescription-->
 The server <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--$StartTime-->StartTime<!--/$StartTime-->. The server restarted because planned failover due to <!--$RCA-->RCA<!--/$RCA-->.
@@ -33,4 +33,6 @@ The server <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--
 [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
 
 [Handling transient connectivity errors for Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/azure/postgresql/concepts-connectivity)
+
+[High availability](ttps://docs.microsoft.com/azure/postgresql/concepts-high-availability)
 
