@@ -53,4 +53,4 @@ _http://localhost: **port number** /api/messages_
 
 ## **Recommended Documents**
 
-* [Troubleshoot bots](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-general-problems?view=azure-bot-service-4.0)
+* [How to troubleshoot bots](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-general-problems?view=azure-bot-service-4.0)
