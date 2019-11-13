@@ -7,7 +7,7 @@
 	 productPesIds="16579" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
-	 articleId="c0816905-886c-41cc-acab-516a43988111"
+	 articleId="fae4f8fc-ccc5-40a6-80f0-dfee2c026c5a"
 /> 
 # Problem with user-initiated password reset 
 ---
