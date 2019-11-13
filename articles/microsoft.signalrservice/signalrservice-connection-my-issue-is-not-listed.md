@@ -23,18 +23,13 @@ For errors and exceptions, please check the recommended doc first for troublesho
 ## **Recommended Documents**
 
 * [Troubleshooting guide](https://github.com/Azure/azure-signalr/blob/dev/docs/tsg.md)
-* [documentation for connection and message](https://docs.microsoft.com/azure/azure-signalr/signalr-concept-messages-and-connections)
+* [Documentation for connections and messages](https://docs.microsoft.com/azure/azure-signalr/signalr-concept-messages-and-connections)
 
-**Channels to get helps**
-
-In addition you can get help for many common problems from the following channels:
+### Additional Assistance
 
 * Create issue or question on [GitHub repository](https://github.com/azure/azure-signalr/issues)
 * Browse [Azure SignalR Service documentation](https://docs.microsoft.com/azure/azure-signalr/)
-
-##
-
 * Get answers from Azure experts through [Azure Forums](https://azure.microsoft.com/support/forums/)
-* Connect with [@AzureSupport](https://twitter.com/azuresupport) – the official Microsoft Azure account for improving customer experience by connecting the Azure community to the right resources: answers, support, and experts.
+* Connect with [@AzureSupport](https://twitter.com/azuresupport) – the official Microsoft Azure account for improving customer experience by connecting the Azure community to the right resources: answers, support, and experts
 * Check the [Service health](data-blade:hubsextension.serviceshealthblade) of Azure
 * Browse [Azure documentation](https://azure.microsoft.com/documentation/)
