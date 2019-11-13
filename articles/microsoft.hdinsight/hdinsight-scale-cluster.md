@@ -53,5 +53,5 @@ To temporarily disable Operations Management Suite (OMS) follow steps below:
 ## **Recommended Documents**
 
 * [Scale HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)
-* [Automatically scale Azure HDInsight clusters (preview)](https://docs.microsoft.com/azure/hdinsight/hdinsight-autoscale-clusters?toc=%2F%2Fazure%2Fhdinsight%2Fhadoop%2FTOC.json&bc=%2F%2Fazure%2Fbread%2Ftoc.json)
+* [Custom Script Actions Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting)
 * [FAQ:Creating or deleting HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#creating-or-deleting-hdinsight-clusters)

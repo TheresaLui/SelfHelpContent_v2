@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* Follow the below steps to resolve the error "<subscription id> does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/delete over scope":
+* Follow the below steps to resolve the error `<subscription id> does not have authorization to perform action Microsoft.Resources/subscriptions/resourcegroups/delete over scope` :
 	
      * Login to portal and navigate to Databricks Workspace that needs to be deleted
      * Click on Managed Resource Group 

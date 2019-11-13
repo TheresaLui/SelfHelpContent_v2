@@ -36,7 +36,7 @@
             "id": "aadcredential",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Have you kinited or logged in using AAD credential?",
+            "displayLabel": "Have you tried kinit command or logged in using AAD credential?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

@@ -19,12 +19,22 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "service_type",
+            "id": "warning_same_name",
             "order": 0,
+            "controlType": "infoblock",
+            "content": "WARNING: Do not recreate storage object with the same name while we attempt to recover it."
+        },
+        {
+            "id": "service_type",
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Type of storage object to recover",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
+                {
+                    "value": "rg",
+                    "text": "Resource group"
+                },
                 {
                     "value": "account",
                     "text": "Storage account"
@@ -32,6 +42,10 @@
                 {
                     "value": "blob_container",
                     "text": "Blob container"
+                },
+                {
+                    "value": "disk",
+                    "text": "Disk"
                 },
                 {
                     "value": "blob",
@@ -58,8 +72,8 @@
         },
         {
             "id": "justification",
-            "order": 1,
-            "visibility": "service_type == (blob||table||file_share) ",
+            "order": 2,
+            "visibility": "service_type == (disk||blob||table||file_share)",
             "controlType": "multilinetextbox",
             "displayLabel": "Impact of deleted data for your business",
             "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
@@ -67,7 +81,7 @@
         },
         {
             "id": "Backup method",
-            "order": 2,
+            "order": 3,
             "visibility": "service_type == file",
             "controlType": "dropdown",
             "displayLabel": "Backup method",
@@ -90,23 +104,32 @@
         },
         {
             "id": "object_path",
-            "order": 3,
-            "visibility": "service_type != account",
+            "order": 4,
+            "visibility": "service_type == disk || service_type == blob || service_type == table|| service_type == file",
             "controlType": "textbox",
             "displayLabel": "Path of object to recover",
-            "watermarkText": "https://myaccount.blob.core.windows.net/myblob",
+            "watermarkText": "https:/{accountname}.{objectType}.core.windows.net/{objectPath}",
             "required": true
         },
         {
+            "id": "object_name",
+            "order": 5,
+            "visibility": "service_type == account|| service_type == rg|| service_type == blob_container|| service_type == file_share",
+            "controlType": "textbox",
+            "displayLabel": "Name of object to recover",
+            "watermarkText": "objectname1;objectname2;objectname3",
+            "required": false
+        },
+        {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local time object was deleted",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

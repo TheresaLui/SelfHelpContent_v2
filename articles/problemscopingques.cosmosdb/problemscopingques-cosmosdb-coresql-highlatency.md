@@ -16,7 +16,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "CosmosDB Database and Collection Info",
-    "fileAttachmentHint": "Please attach exception if available.",
+    "fileAttachmentHint": "Please attach exception or diagnostic string if available.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -80,6 +80,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Preferred Location",
+			"infoBalloonText": "<a href='https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.connectionpolicy.preferredlocations'>Cosmos DB article</a> -PreferredLocations Property",
             "required": false
         },
 		{
@@ -87,13 +88,41 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Client Location",
+			"infoBalloonText": "The country region the client application is running",
             "required": false
         },
 		{
             "id": "requestkind_name",
             "order": 8,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Request kind",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Create",
+                    "text": "Create"
+                },
+                {
+                    "value": "Read",
+                    "text": "Read"
+                },
+                {
+                    "value": "Replace",
+                    "text": "Replace"
+                },
+                {
+                    "value": "Upsert",
+                    "text": "Upsert"
+                },
+                {
+                    "value": "Delete",
+                    "text": "Delete"
+                },
+                {
+                    "value": "Query",
+                    "text": "Query"
+                }
+            ],
             "required": false
         },
         {
@@ -101,6 +130,7 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue that you are facing",
+			"infoBalloonText": "<a href='https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.resourceresponsebase.requestdiagnosticsstring'>Cosmos DB article</a> -RequestDiagnosticsString Property",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

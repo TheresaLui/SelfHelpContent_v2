@@ -1,6 +1,6 @@
 <properties
-	pageTitle="availability and performance other for standard for microsoft"
-	description="availability and performance other for standard for microsoft"
+	pageTitle="availability and performance for the standard for microsoft/other"
+	description="availability and performance for the standard for microsoft/other"
 	service="microsoft.cdn"
 	resource="profiles"
 	authors="karenha"
@@ -14,7 +14,7 @@
 	articleId="availability and performance other for standard for microsoft"
 />
 
-# Availability and Performance
+# Availability and performance for the standard for Microsoft/other
 
 
 ## **Recommended Documents**
