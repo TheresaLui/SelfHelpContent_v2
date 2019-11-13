@@ -31,7 +31,7 @@ Your investigation into risk will typically start with the Identity Protection d
 
 The following documents can help answer some of the most common questions in this category:
 
-* [How To: Investigate risky users and sign-ins]https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk)
+* [How To: Investigate risky users and sign-ins](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk)
 * [Identity Protection Overview](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
 * [Types of Risk](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-risks)
 * [How Identity Protection detects risk](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection#risk-detection-and-remediation)
