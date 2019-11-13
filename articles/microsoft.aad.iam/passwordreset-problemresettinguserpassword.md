@@ -13,8 +13,14 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Problem with password management user-initiated",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with password management",
+        "description": "Our self-service password reset troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "correlationId",
@@ -27,7 +33,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -44,14 +49,13 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
-            "id": "userNameOrId",
+            "id": "userId",
             "visibility": null,
             "order": 3,
             "controlType": "textbox",
@@ -61,11 +65,11 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
@@ -79,10 +83,17 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": null,
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
             "numberOfLines": 3
+        },
+		{
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"
