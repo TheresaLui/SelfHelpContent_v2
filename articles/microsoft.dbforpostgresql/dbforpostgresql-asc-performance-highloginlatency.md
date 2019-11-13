@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Orcas PostgreSQL server is facing slow login issues"
-    description="Orcas PostgreSQL server is facing slow login issues"
+    pageTitle="PostgreSQL server is facing slow login issues"
+    description="PostgreSQL server is facing slow login issues"
 	infoBubbleText="Server is facing slow login issues. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"
@@ -10,7 +10,7 @@
 	articleId="dbforpostgresql-asc-performance-highloginlatency"
 	diagnosticScenario="OrcasPostgresSlowLogin"
     selfHelpType="rca"
-    supportTopicIds="32640027"
+    supportTopicIds="32639985,32639986,32639987,32640019,32640025,32640026,32640027"
     resourceTags="windows, linux"
     productPesIds="16222"
     cloudEnvironments="public"
