@@ -21,7 +21,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> has detected run failures.  One possible cause is that the Service Token Server (STS) owned by Azure Active Directory is not unavailable.
+Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> has detected run failures.  One possible cause is that the Service Token Server (STS) owned by Azure Active Directory is not available.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
