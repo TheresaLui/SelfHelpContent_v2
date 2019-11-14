@@ -1,7 +1,7 @@
 <properties
     pageTitle="Provision the optimal amount of Request Units for Azure Cosmos DB"
     description="Provision the optimal amount of Request Units for Azure Cosmos DB"
-    authors="joaldaba"
+    authors="raldaba"
     ms.author="aoaft"
     articleId="8b993855-1b3f-4392-8860-6ed4f5afd8a7_Public"
     selfHelpType="advisorRecommendationMetadata"
