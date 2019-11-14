@@ -31,7 +31,7 @@ Learn more on how to [Create budget alerts for a filter](https://docs.microsoft.
 
 Learn more on how to [Remove/Manage spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Cloudyn Overview](https://docs.microsoft.com/azure/cost-management/overview)<br>
 * [Pricing](https://azure.microsoft.com/pricing/details/cost-management)<br>
