@@ -18,18 +18,15 @@
 
 Cloudyn helps forecast future spending using historical usage and spending data. Cloudyn reports can be used to view all cost projection data.
 
-## Prerequisites:
+### Prerequisites:
 
-  * You must have an Azure account.
-  * You must have either a trial registration or paid subscription for Cloudyn.
+  * You must have an Azure account
+  * You must have either a trial registration or paid subscription for Cloudyn
 
-Learn more on how to [Manage budgets](https://docs.microsoft.com/azure/cost-management/manage-budgets)<br>
-
-Learn more on how to [Forecast spending](https://docs.microsoft.com/azure/cost-management/tutorial-forecast-spending)
-
-Learn more on how to [Create budget alerts for a filter](https://docs.microsoft.com/azure/cost-management/manage-budgets#create-budget-alerts-for-a-filter)
-
-Learn more on how to [Remove/Manage spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
+* Learn more on how to [Manage budgets](https://docs.microsoft.com/azure/cost-management/manage-budgets)<br>
+* Learn more on how to [Forecast spending](https://docs.microsoft.com/azure/cost-management/tutorial-forecast-spending)
+* Learn more on how to [Create budget alerts for a filter](https://docs.microsoft.com/azure/cost-management/manage-budgets#create-budget-alerts-for-a-filter)
+* Learn more on how to [Remove/Manage spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
 
 ## **Recommended Documents**
 
