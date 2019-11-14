@@ -22,15 +22,14 @@ Discrepancy between Cloudyn data and Azure billing data is expected. This is bec
 
 Some other reasons for the discrepancy:
 
-* CSP billing cycle may start anywhere during the month. Cloudyn’s month is always from the 1st of the month until the last month day (inclusive)
-* CSP closes the cost calculation at some point during the last month day. So the monthly bill will always include some leftovers from the previous month and will always miss some cost from the end of the billing month. Cloudyn always calculates full day usage since at the time of Cloudyn’s calculation full usage data is already available.
+* CSP billing cycle may start anywhere during the month. Cloudyn’s month is always from the 1st of the month until the last month day (inclusive).
+* CSP closes the cost calculation at some point during the last month day, so the monthly bill will always include some leftovers from the previous month and will always miss some cost from the end of the billing month. Cloudyn always calculates full day usage since at the time of Cloudyn’s calculation full usage data is already available.
 * Partner Center presents costs according to CSP’s time zone. Cloudyn always calculates daily costs in UTC time.
 * CSP may be charged in local currency. Cloudyn will always calculate costs in USD and the pricing differences may be more than the exchange rate differences. Usually Cloudyn’s cost estimation is within 1-1.5% of the total monthly cost.
 
-**Note**: If the EA number has changed, you will need to update the same in Cloudyn as well else you might not be able to see the data in Cloudyn reports
+**Note**: If the EA number has changed, you will need to update the same in Cloudyn as well else you might not be able to see the data in Cloudyn reports.
 
-Additionally refer to the [FAQ: How to resolve apparent billing discrepancies between an Azure bill and Cloudyn reports](https://social.msdn.microsoft.com/Forums/azure/en-US/780bb6d5-99da-487f-96bb-849a83b45add/faq-how-to-resolve-apparent-billing-discrepancies-between-an-azure-bill-and-cloudyn-reports?forum=Cloudyn) to help troubleshoot your issue
-
+Refer to the [FAQ: How to resolve apparent billing discrepancies between an Azure bill and Cloudyn reports](https://social.msdn.microsoft.com/Forums/azure/en-US/780bb6d5-99da-487f-96bb-849a83b45add/faq-how-to-resolve-apparent-billing-discrepancies-between-an-azure-bill-and-cloudyn-reports?forum=Cloudyn) to help troubleshoot your issue.
 
 ## **Recommended Documents**
 
