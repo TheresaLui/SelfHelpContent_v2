@@ -18,8 +18,8 @@
 
 ### Prerequisites
 
-1. Download and install the Bot Framework Emulator
-2. Download and install Visual Studio Code or Visual Studio (Community Edition or above)
+1. [Download and install the Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases)
+2. [Download and install Visual Studio Code or Visual Studio (Community Edition or above)](https://code.visualstudio.com/Download)
 
 ### Debug a JavaScript bot using breakpoints in Visual Studio Code
 
