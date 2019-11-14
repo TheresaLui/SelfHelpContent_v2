@@ -4,6 +4,7 @@
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.authors="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32615289"
@@ -21,5 +22,4 @@
 * [Cloudyn Overview](https://docs.microsoft.com/azure/cost-management/overview)<br>
 * [Cloudyn pricing](https://azure.microsoft.com/pricing/details/cost-management)<br>
 * [Cloudyn regional availability](https://azure.microsoft.com/global-infrastructure/services/)<br>
-* [Register for a Trial](https://trial.cloudyn.com/)<br>
 * [Cloudyn Training videos](https://docs.microsoft.com/azure/cost-management/ref-videos)<br>
