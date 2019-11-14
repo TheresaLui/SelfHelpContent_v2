@@ -122,7 +122,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Example: UserErrorSQLPODoesNotExist",
+            "watermarkText": "Example: UserErrorHanaUnsupportedOperation",
             "required": false
         },
         {
