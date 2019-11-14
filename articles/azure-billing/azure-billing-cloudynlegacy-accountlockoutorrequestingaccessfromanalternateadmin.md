@@ -4,6 +4,7 @@
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32615279"
@@ -36,7 +37,7 @@ Learn more:
 
 All free trial users can refer to [Cloudyn MSDN forum](https://social.msdn.microsoft.com/Forums/home?forum=Cloudyn) or [Cloudyn Azure docs](https://docs.microsoft.com/azure/cost-management/overview)
 
-**Note**: Cloudyn is retired and migrated to Azure Cost Management for all the EA and Web-Direct customers. All customers who were not using Cloudyn has been suspended and **can not be activated anymore**, the only option they have is to switch to Azure Cost Management.<br>
+**Note**: Cloudyn is retired and migrated to Azure Cost Management for all the EA and Web-Direct customers. All customers who were not using Cloudyn has been suspended and **cannot be activated anymore**, the only option they have is to switch to Azure Cost Management.<br>
  
 Azure Cost Management (ACM) is a cost management solution integrated natively into Azure which offers similar functionality to Cloudyn. It helps organizations analyze costs, create and manage budgets, export data, and review and act on optimization recommendations to save money.<br>
  
