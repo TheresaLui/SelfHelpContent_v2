@@ -22,8 +22,8 @@ To use Cloudyn you must have an Azure account and either a trial registration or
 * **User:** Intended for end users to view reports and create reports using the access they have to entity data. 
 
 Learn more:<br>
-[How to add multiple accounts and entities to an existing Cloudyn subscription](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsocial.msdn.microsoft.com%2FForums%2Fen-US%2F6245ebd8-643c-4061-b167-01e7b6ea0ca1%2Ffaq-how-to-add-additional-entities-and-accounts-to-an-existing-cloudyn-subscription%3Fforum%3DCloudyn&data=02%7C01%7Cv-adchi%40microsoft.com%7C38db3ba29a1b446ddbdd08d72f918173%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637030174332184510&sdata=N9qN33pLErlATM%2F3kwkYCNbVgFf1LinruwausO1V5ys%3D&reserved=0)<br>
-[How to enable additional users to access Cloudyn (and resolve account lockout issues)](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsocial.msdn.microsoft.com%2FForums%2Fen-US%2F30afd40c-2a1d-44a7-b8d3-bc788ce36229%2Ffaq-how-to-enable-an-azure-user-to-use-cloudyn-when-you-receive-an-alert-requesting-to-allow-access%3Fforum%3DCloudyn&data=02%7C01%7Cv-adchi%40microsoft.com%7C38db3ba29a1b446ddbdd08d72f918173%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637030174332194504&sdata=nzTB%2F53VOWDzSmSx%2FG3lePv%2BQcFkHL6ehqJtYl%2FEPnk%3D&reserved=0)<br>
+[How to add multiple accounts and entities to an existing Cloudyn subscription]https://social.msdn.microsoft.com/Forums/en-US/6245ebd8-643c-4061-b167-01e7b6ea0ca1/faq-how-to-add-multiple-accounts-and-entities-to-an-existing-cloudyn-subscription?forum=Cloudyn)<br>
+[How to enable additional users to access Cloudyn (and resolve account lockout issues)](https://social.msdn.microsoft.com/Forums/en-US/30afd40c-2a1d-44a7-b8d3-bc788ce36229/faq-how-to-enable-additional-azure-users-to-use-cloudyn-and-resolve-account-lockout-issues?forum=Cloudyn)<br>
 
 **Reasons for cost discrepancy between CSP and Cloudyn**<br>
 
@@ -39,7 +39,7 @@ There are some more reasons for cost discrepancy for CSP accounts in Cloudyn por
 Learn more: [FAQ: How to resolve apparent billing discrepancies between an Azure bill and Cloudyn reports](https://social.msdn.microsoft.com/Forums/azure/en-US/780bb6d5-99da-487f-96bb-849a83b45add/faq-how-to-resolve-apparent-billing-discrepancies-between-an-azure-bill-and-cloudyn-reports?forum=Cloudyn)
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * How to [Assign access to Cloudyn data](https://docs.microsoft.com/azure/cost-management/tutorial-user-access)
 * [Video: Adding Users to Cloudyn](https://youtu.be/Nzn7GLahx30)<br>
