@@ -26,10 +26,13 @@ Learn more on how to [Manage budgets](https://docs.microsoft.com/azure/cost-mana
 
 Learn more on how to [Forecast spending](https://docs.microsoft.com/azure/cost-management/tutorial-forecast-spending)
 
+Learn more on how to [Create budget alerts for a filter](https://docs.microsoft.com/azure/cost-management/manage-budgets#create-budget-alerts-for-a-filter)
+
+Learn more on how to [Remove/Manage spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
+
 ## **Recommended documents**
 
 * [Cloudyn Overview](https://docs.microsoft.com/azure/cost-management/overview)<br>
 * [Pricing](https://azure.microsoft.com/pricing/details/cost-management)<br>
 * [Cloudyn regional availability](https://azure.microsoft.com/global-infrastructure/services/)<br>
-* [Register for a Trial](https://trial.cloudyn.com/)<br>
 * [Cloudyn Training videos](https://docs.microsoft.com/azure/cost-management/ref-videos)<br>
