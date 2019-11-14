@@ -66,7 +66,7 @@
   "displayLabel": "Create Lifecycle Management rules",
   "additionalColumns": [],
   "tip": "You can use Lifecycle Management to move block blobs with low transations to cooler tiers and optimize your storage costs.",
-  "learnMoreLink": "https://docs.microsoft.com/azure/storage/blobs/storage-blob-performance-tiers",
+  "learnMoreLink": "https://docs.microsoft.com/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal",
   "testData": "8267c76e-43b7-4492-9475-cb555239c2f7,/subscriptions/8267c76e-43b7-4492-9475-cb555239c2f7/resourceGroups/mmmm/providers/Microsoft.Storage/storageAccounts/advisortest"
 }
 ---
