@@ -43,8 +43,8 @@ Azure Cost Management (ACM) is a cost management solution integrated natively in
  
 Transitioning from  Cloudyn system to Azure Cost Management is straightforward. Follow the steps below to help transition:
 
-* Go through the [How to Transition from Cloudyn to Azure Cost Management](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FuZK6sJpy7Mk&data=02%7C01%7CPaul.Broadbent%40provident.co.uk%7C5b8a1d2b5c784a5ecd4908d736229666%7C1f3665faf16448a29631751be35d4b41%7C0%7C0%7C637037394487539384&sdata=KPNtsCY4wC2Iun10R0eWxMTX8V04OMFzbOmoqPWOyNc%3D&reserved=0) video guide
-* If you still have questions, please review the Azure Cost Management Overview, the [Azure Cost Management documentation page](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fcost-management%2F&data=02%7C01%7CPaul.Broadbent%40provident.co.uk%7C5b8a1d2b5c784a5ecd4908d736229666%7C1f3665faf16448a29631751be35d4b41%7C0%7C0%7C637037394487539384&sdata=WpuO8mvebRIz1ZsY4JDjTv9tzHssuYV8YnhjBWiOEk8%3D&reserved=0) and [Cost Management videos](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLLasX02E8BPBJW49E5_sHgbgvztb4oz6D&data=02%7C01%7CPaul.Broadbent%40provident.co.uk%7C5b8a1d2b5c784a5ecd4908d736229666%7C1f3665faf16448a29631751be35d4b41%7C0%7C0%7C637037394487549383&sdata=N8rewYdo3T8WpGqDTl3HJMFIQQPnfMo2m4q4szLGRZo%3D&reserved=0)
+* Go through the [How to Transition from Cloudyn to Azure Cost Management](https://www.youtube.com/watch?v=uZK6sJpy7Mk&feature=youtu.be) video guide
+* If you still have questions, please review the Azure Cost Management Overview, the [Azure Cost Management documentation page]https://docs.microsoft.com/azure/cost-management/) and [Cost Management videos](https://www.youtube.com/playlist?list=PLLasX02E8BPBJW49E5_sHgbgvztb4oz6D)
 
 ## **Recommended Documents**
 
