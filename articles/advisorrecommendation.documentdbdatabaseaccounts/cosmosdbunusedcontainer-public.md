@@ -39,7 +39,7 @@
     "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
     "db97364d-48bf-4567-af34-e0843d0ee0af",
     "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe",
-	"9c14bff5-1bda-4de6-a74f-4c3caa370570"
+    "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
