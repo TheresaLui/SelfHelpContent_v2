@@ -29,7 +29,7 @@
             "id": "correlation_id",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Correlation ID of the failed event",
+            "displayLabel": "Correlation ID of the failed deployment",
             "required": false
         },
         {
