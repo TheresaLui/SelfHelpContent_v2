@@ -16,7 +16,7 @@
 
 # Help with Dashboards or Reports
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Understanding Cloudyn cost management reports](https://docs.microsoft.com/azure/cost-management/understanding-cost-reports)<br>
 * [FAQ: How to enable and use Cloudyn sizing optimization recommendations](https://social.msdn.microsoft.com/Forums/en-US/083911dc-efd3-4dcb-bf80-f4741e8b3422/faq-how-to-enable-and-use-cloudyn-sizing-optimization-recommendations?forum=Cloudyn)
