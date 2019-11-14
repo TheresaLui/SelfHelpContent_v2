@@ -22,4 +22,6 @@ Microsoft Azure has concluded an investigation of your delete operation against 
  <br>
 <!--/issueDescription-->
 
-For more information on troubleshooting this issue, [Cannot Delete Storage Account Container](https://docs.microsoft.com/azure/storage/storage-cannot-delete-storage-account-container-vhd)
+## **Recommended Documents**
+
+* For more information on troubleshooting this issue, review [Cannot Delete Storage Account Container](https://docs.microsoft.com/azure/storage/storage-cannot-delete-storage-account-container-vhd)
