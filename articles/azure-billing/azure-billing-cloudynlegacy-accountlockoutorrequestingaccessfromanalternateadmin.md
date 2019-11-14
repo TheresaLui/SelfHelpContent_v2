@@ -41,8 +41,8 @@ All free trial users can refer to [Cloudyn MSDN forum](https://social.msdn.micro
 
 ### Azure Cost Management
  
-Azure Cost Management (ACM) is a cost management solution integrated natively into Azure which offers similar functionality to Cloudyn. It helps organizations analyze costs, create and manage budgets, export data, and review and act on optimization recommendations to save money.<br>
- 
+Azure Cost Management (ACM) is a cost management solution integrated natively into Azure which offers similar functionality to Cloudyn. It helps organizations analyze costs, create and manage budgets, export data, and review and act on optimization recommendations to save money. 
+
 Transitioning from Cloudyn system to Azure Cost Management is straightforward. Follow the steps below to help transition:
 
 * Go through the [How to Transition from Cloudyn to Azure Cost Management](https://www.youtube.com/watch?v=uZK6sJpy7Mk&feature=youtu.be) video guide
