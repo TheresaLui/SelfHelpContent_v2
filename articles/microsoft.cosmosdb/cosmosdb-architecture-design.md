@@ -9,7 +9,7 @@
 	supportTopicIds="32636768"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-architecture-design"
 	displayOrder="41"
 	category="General Advisory"

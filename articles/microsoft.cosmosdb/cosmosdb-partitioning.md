@@ -6,7 +6,7 @@
 	authors="rnagpal"
 	ms.author="rnagpal"
 	selfHelpType="resource"
-	supportTopicIds="32636816,32636786,32636814"
+	supportTopicIds="32636816"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"

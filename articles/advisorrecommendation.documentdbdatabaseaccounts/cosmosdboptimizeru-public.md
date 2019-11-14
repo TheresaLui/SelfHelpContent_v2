@@ -16,9 +16,9 @@
   "recommendationTypeId": "8b993855-1b3f-4392-8860-6ed4f5afd8a7",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "Microsoft.Cloud.AzureCosmosDBRecommendationsTableProd",
-    "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').GetAcdbThroughputAzureAdvisorRecs",
+    "dataSource": "Kusto",
+    "refreshInterval": "0.08:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Low",
@@ -28,13 +28,13 @@
   "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "aoaft@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AROTOOLBOX\\AROToolboxDevTeam",
+      "service": "Azure Optimization Automation",
+      "team": "Azure Optimization Automation"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "a3db6cf3-640c-4340-8381-108d31853b7f"
   },
   "ingestionClientIdentities": [
     "6c75c76c-7792-4dd0-8e85-ad598f14bc93",

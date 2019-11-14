@@ -18,10 +18,9 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-For database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->, based on the verbatim (Provided error message), we found that following could be the possible issues. 
-
-<!--$CustomerReadySolutions-->CustomerReadySolutions<!--/$CustomerReadySolutions-->
+Database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is experiencing issues. Upon reviewing the error messaging, the issue could be resolved by following one of the recommended solutions below. 
 <!--/issueDescription-->
 
-<br>
-<!--$CustomerReadySolutions2-->CustomerReadySolutions2<!--/$CustomerReadySolutions2-->
+## **Recommended Steps**
+
+<!--$CustomerReadySolutions-->CustomerReadySolutions<!--/$CustomerReadySolutions-->

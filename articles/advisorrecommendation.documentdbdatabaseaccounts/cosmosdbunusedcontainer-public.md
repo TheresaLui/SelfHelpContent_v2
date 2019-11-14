@@ -54,7 +54,6 @@
       "actionType": "Document",
       "documentLink": "https://aka.ms/cosmosdb/geo-replication"
     }
-
   ],
   "resourceMetadata": {
     "action": {

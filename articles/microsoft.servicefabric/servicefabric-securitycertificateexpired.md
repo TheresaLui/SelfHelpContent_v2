@@ -19,7 +19,7 @@
 ## **Recommended Documents**
 
 ### How to articles<br>
-* [How to renew an expiring cluster certificate](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-rollover-cert-cn)<br>
+* [How to renew an expiring cluster certificate](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security-update-certs-azure#add-a-secondary-cluster-certificate-using-the-portal)<br>
 * [How to use a script to fix a SF cluster with an already expired certificate](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Fix%20Expired%20Cluster%20Certificate%20Automated%20Script.md)<br>
 * [How to manually recover a cluster with an already expired certificate](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Fix%20Expired%20Cluster%20Certificate%20Manual%20Steps.md)<br>
 * [How to create a new self-signed certificate](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Create%20a%20New%20Self%20Signed%20Certificate.md)<br>

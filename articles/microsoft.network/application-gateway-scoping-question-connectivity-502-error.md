@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Scoping questions for Application Gateway issues for Connectivity/502 error"
-	description="Scoping questions for Application Gateway issues for Connectivity/502 error"
+	pageTitle="Scoping questions for Application Gateway issues for =502 and Connectivity/502 error"
+	description="Scoping questions for Application Gateway issues for 502 and Connectivity/502 error"
 	authors="abshamsft"
 	ms.author="absha"
 	selfHelpType="problemScopingQuestions"
@@ -20,7 +20,7 @@ supportTopicIds="32573483,32680993"
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Application Gateway Access URL",
-        "description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
     },
     "formElements": [

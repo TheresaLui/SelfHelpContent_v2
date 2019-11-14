@@ -2,7 +2,7 @@
     pageTitle="VM boot error"
     description="Virtual machine failed to process Windows Updates during installation"
     infoBubbleText="A boot error has been found. See details on the right."
-     service="microsoft.compute"
+    service="microsoft.compute"
     resource="virtualmachines"
     authors="jasonbandrew"
     ms.author="v-jasoan"
@@ -19,12 +19,12 @@
 # VM Boot Error
 
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operation system.
-
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code 'An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart'.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operating system.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VmSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code 'An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart'.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 
 1. [Stop the VM and create a snapshot](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager)
 2. Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/blob/master/VMRecovery/ResourceManager/New-AzureRMRescueVM.ps1)
@@ -47,8 +47,7 @@ bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} displayorder
 
 ```
 C:\Users\azureadmin>bcdedit /store f:\boot\bcd /set {bootmgr} displayorder {05d0826e-19a2-4380-968f-4b45f971812d}
-The element data type specified is not recognized, or does not apply to the
-specified entry.
+The element data type specified is not recognized, or does not apply to the specified entry.
 Run "bcdedit /?" for command line assistance.
 ```
 
