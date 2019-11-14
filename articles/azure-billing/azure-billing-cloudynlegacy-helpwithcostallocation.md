@@ -18,14 +18,13 @@
 
 Cloudyn provides usage and costs data so that you can track trends, detect inefficiencies and even create alerts. You can either download the data or review it using the Cloudyn dashboards and reports.
 
-## Prerequisites
+### Prerequisites
 
-* You must have an Azure account.
-* You must have either a trial registration or paid subscription for Cloudyn.
+* You must have an Azure account
+* You must have either a trial registration or paid subscription for Cloudyn
+* Refer to [Review usage and Costs](https://docs.microsoft.com/azure/cost-management/tutorial-review-usage)
 
-Refer [Review usage and Costs](https://docs.microsoft.com/azure/cost-management/tutorial-review-usage)
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Manage costs by using Cloudyn](https://docs.microsoft.com/azure/cost-management/tutorial-manage-costs)<br>
 * [Video: Defining a Cost Allocation Model in Cloudyn](https://www.youtube.com/watch?v=FJzof_agKHY&feature=youtu.be)<br>
