@@ -16,7 +16,7 @@
 
 # Azure Files Snapshots  
 
-## **Recommended documents**    
+## **Recommended Documents**    
 
 - [Overview of share snapshots for Azure Files](https://docs.microsoft.com/azure/storage/files/storage-snapshots-files)<br>
 - [Share snapshots FAQ](https://docs.microsoft.com/azure/storage/files/storage-files-faq#share-snapshots)
