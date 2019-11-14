@@ -16,14 +16,15 @@
 
 # Help with User Management
 
-To use Cloudyn you must have an Azure account and either a trial registration or paid subscription for Cloudyn.There two types of access:
+To use Cloudyn you must have an Azure account and either a trial registration or paid subscription for Cloudyn. There two types of access:
 
-* **Admin:** Allows a user unrestricted use of all functions in the Cloudyn portal, including: user management, recipient lists management and root entity access to all entity data.
-* **User:** Intended for end users to view reports and create reports using the access they have to entity data. 
+* **Admin:** Allows a user unrestricted use of all functions in the Cloudyn portal, including: user management, recipient lists management and root entity access to all entity data
+* **User:** Intended for end users to view reports and create reports using the access they have to entity data
 
-Learn more:<br>
-[How to add multiple accounts and entities to an existing Cloudyn subscription]https://social.msdn.microsoft.com/Forums/en-US/6245ebd8-643c-4061-b167-01e7b6ea0ca1/faq-how-to-add-multiple-accounts-and-entities-to-an-existing-cloudyn-subscription?forum=Cloudyn)<br>
-[How to enable additional users to access Cloudyn (and resolve account lockout issues)](https://social.msdn.microsoft.com/Forums/en-US/30afd40c-2a1d-44a7-b8d3-bc788ce36229/faq-how-to-enable-additional-azure-users-to-use-cloudyn-and-resolve-account-lockout-issues?forum=Cloudyn)<br>
+Learn more:
+
+* [How to add multiple accounts and entities to an existing Cloudyn subscription]https://social.msdn.microsoft.com/Forums/en-US/6245ebd8-643c-4061-b167-01e7b6ea0ca1/faq-how-to-add-multiple-accounts-and-entities-to-an-existing-cloudyn-subscription?forum=Cloudyn)
+* [How to enable additional users to access Cloudyn (and resolve account lockout issues)](https://social.msdn.microsoft.com/Forums/en-US/30afd40c-2a1d-44a7-b8d3-bc788ce36229/faq-how-to-enable-additional-azure-users-to-use-cloudyn-and-resolve-account-lockout-issues?forum=Cloudyn)<br>
 
 **Reasons for cost discrepancy between CSP and Cloudyn**<br>
 
@@ -32,7 +33,7 @@ There will be some difference in cost for CSP subscription in Cloudyn portal. In
 There are some more reasons for cost discrepancy for CSP accounts in Cloudyn portal:
 
 * CSP billing cycle may start anywhere during the month. Cloudyn’s month is always from the 1st of the month until the last month day (inclusive).
-* CSP closes the cost calculation at some point during the last month day. So the monthly bill will always include some leftovers from the previous month and will always miss some cost from the end of the billing month. Cloudyn always calculates full day usage since at the time of Cloudyn’s calculation full usage data is already available.
+* CSP closes the cost calculation at some point during the last month day, so the monthly bill will always include some leftovers from the previous month and will always miss some cost from the end of the billing month. Cloudyn always calculates full day usage since at the time of Cloudyn’s calculation full usage data is already available.
 * Partner Center presents costs according to CSP’s time zone. Cloudyn always calculates daily costs in UTC time.
 * CSP may be charged in local currency. Cloudyn will always calculate costs in USD and the pricing differences may be more than the exchange rate differences.
 
