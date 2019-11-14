@@ -24,7 +24,7 @@ Learn more: [FAQ: How to restore the connection between Cloudyn and Azure when y
 Learn more: [FAQ: How to activate 'un-activated' accounts with ARM credentials to view Azure usage data in Cloudyn](https://social.msdn.microsoft.com/Forums/en-US/3eeba735-b118-4b7c-82a9-837a1fce5403/faq-how-to160activate-quotunactivatedquot-accounts-with-arm-credentials-to-view-azure-usage?forum=Cloudyn)<br>
 Learn more: [FAQ: Cloudyn Data Refresh Timelines](https://social.msdn.microsoft.com/Forums/azure/en-US/69f33ff4-a781-437e-ab5b-68f73e2af7fc/faq-cloudyn-data-refresh-timelines?forum=Cloudyn)<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Register an Azure Enterprise Agreement and view cost data](https://docs.microsoft.com/azure/cost-management/quick-register-ea)<br>
 * [Video: How to Find Your EA Enrollment ID and API Key for use in Cloudyn](https://youtu.be/u_phLs_udig)<br>
