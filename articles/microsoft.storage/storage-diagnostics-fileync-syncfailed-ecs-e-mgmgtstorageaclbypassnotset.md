@@ -18,7 +18,7 @@
 
 # Azure File Sync failed error - ECS_E_MGMT_STORAGEACLSBYPASSNOTSET
 <!--issueDescription-->
-Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **error code: **0x80c83096** or **-2134364010**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs if the firewall and virtual network settings are enabled on the storage account and the “Allow trusted Microsoft services to access this storage account” exception is not checked.<br/><br/>
+Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: **0x80c83096** or **-2134364010**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs if the firewall and virtual network settings are enabled on the storage account and the **Allow trusted Microsoft services to access this storage accoun** exception is not checked.<br/><br/>
 <!--/issueDescription-->
 
 ## **Recommended steps**
