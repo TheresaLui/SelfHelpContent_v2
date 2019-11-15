@@ -13,6 +13,8 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="1C1B5100-DF66-4A9C-8CBA-979D2B10D8C2"
 />
+# Managing my bot settings
+
 ## **Recommended Steps**
 
 ### **Managing my bot settings**
