@@ -7,7 +7,7 @@
 	ms.author="v-micric,jaws,stgum,saziz"
 	displayOrder="103"
 	selfHelpType="resource"
-	supportTopicIds="32688661"
+	supportTopicIds="32688661,32688636,32688637"
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
