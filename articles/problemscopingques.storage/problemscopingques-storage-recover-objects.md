@@ -225,17 +225,9 @@
         {
             "id": "problem_start_time",
             "order": 16,
-            "visibility": "recovery_option != by_container_name && recovery_option != by_time_period",
+            "visibility": "recovery_option != by_container_name",
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate time when data was deleted",
-            "required": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 17,
-            "visibility": "recovery_option == by_time_period",
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate time when data was deleted",
+            "displayLabel": "Local start time when data was deleted",
             "required": true
         },
         {
@@ -243,7 +235,7 @@
             "order": 18,
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "End time",
+            "displayLabel": "Local end time when data was deleted",
             "required": true
         },
         {
