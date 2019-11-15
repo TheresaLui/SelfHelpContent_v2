@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Deploy your C# bot using Visual Studio"
-	description="Deploy your C# bot using Visual Studio"
+	pageTitle="Deploy your bot using Visual Studio"
+	description="Deploy your bot using Visual Studio"
 	service="Microsoft.BotService"
 	resource="botServices"
 	authors="meetshamir"
