@@ -16,8 +16,7 @@
 # Troubleshoot continuous deployment
 
 ## **Recommended Steps**
-​
-### **Getting continuous deployment working​**
+### **Getting continuous deployment working**
 * Your bot must be deployed to Azure and you must have a App Service to be able to configure continuous deployment.​
 * Ensure your repository has the [correct files](https://docs.microsoft.com/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#prepare-your-repository).​
 * Ensure your repository is working as expected. ​
@@ -25,7 +24,7 @@
 * Ensure logged in and shows correct account/org​
 * If you are not seeing any values in drop-downs (org/repo/branch) when configuring your connection, refresh the browser.​
 ​
-### **Application no longer deploying​**
+### **Application no longer deploying**
 * Check for errors showing in the App Service's Deployment Center​
   * If so, review to understand what is now failing​
 * Check to make sure the remote repository is still available ​
@@ -36,7 +35,7 @@
 * If that works, then it is an issue with the Configuration within the initial App Service. ​
  * Follow directions [here](https://docs.microsoft.com/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#disable-continuous-deployment) to disconnect and disable Continuous Deployment​
  * Reconnect to repository to [re-enable continuous deployment](https://docs.microsoft.com/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#continuous-deployment-using-github).​
-​​
-## Recommended Documents​
-​* [Deploy your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0)​
+
+## **Recommended Documents**
+* [Deploy your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0)​
 * [Set up continuous deployment](https://docs.microsoft.com/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0)​
