@@ -155,7 +155,7 @@
             "order": 8,
             "visibility": "recovery_option != by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate local time the Container was deleted",
+            "displayLabel": "Approximate local time the object was deleted",
             "required": false
         },
         {
@@ -202,7 +202,7 @@
         {
             "id": "problem_start_time",
             "order": 12,
-            "visibility": "service_type != blob_container || recovery_option == by_time_period",
+            "visibility": "recovery_option != by_container_name",
             "controlType": "datetimepicker",
             "displayLabel": "Start time",
             "required": true
