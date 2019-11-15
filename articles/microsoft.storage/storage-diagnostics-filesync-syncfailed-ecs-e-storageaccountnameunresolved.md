@@ -1,0 +1,32 @@
+<properties
+	pageTitle="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
+	description="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
+    infoBubbleText="See details on the right"
+	service="microsoft.storage"
+	resource="storageaccounts"
+	authors="passaree"
+	ms.author="passap"
+	displayOrder=""
+    articleId="FileSync_FailedError_ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
+    diagnosticScenario="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
+    selfHelpType="diagnostics"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+/>
+
+# Azure File Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED
+<!--issueDescription-->
+Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c83060 or -2134364064)**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs when the storage account name used could not be resolved.<br/><br/>
+<!--/issueDescription-->
+
+
+## **Recommended steps**
+1. Check that you can resolve the storage DNS name from the server.
+
+    ```powershell
+    Test-NetConnection -ComputerName <storage-account-name>.file.core.windows.net -Port 443
+    ```
+2. [Verify the storage account exists.](#troubleshoot-storage-account)
+3. [Verify the firewall and virtual network settings on the storage account are configured properly (if enabled)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal#configure-firewall-and-virtual-network-settings)
