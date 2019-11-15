@@ -12,7 +12,7 @@
     resourceTags=""
     productPesIds="16348"
     cloudEnvironments="public"
-    articleId="75vc1276-2a3f-4d0d-96c5-b2e8886483e6"
+    articleId="75vc1276-2a3f-4d0d-96c5-b2e8886483eb"
 />
 
 # Deployment issues with Azure Migrate appliance for physical server assessment
