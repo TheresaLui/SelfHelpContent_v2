@@ -6,7 +6,7 @@
 	authors="deborahc"
 	ms.author="dech"
 	selfHelpType="resource"
-	supportTopicIds="32681013"
+	supportTopicIds="32688846"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
@@ -15,7 +15,7 @@
 	category="Portal"
 />
 
-# I am getting an error when browsing data through Azure Cosmos DB Data Explorer or Metrics
+# I am getting an error using Azure Cosmos DB Data Explorer, Metrics, or Notebooks
 
 ## **Recommended Steps**
 
@@ -41,7 +41,7 @@
 - Scenario: You are seeing throttling (429) in Metrics, but the **Max consumed RU/s per partition key range** chart shows you are not exceeding the provisioned throughput on your database or container:
 
     -  By default, the Azure Cosmos DB client SDKs for SQL API handle 429s by retrying up to 9 times or 30 seconds. These 429s may never be surfaced to your application, but will still be reflected in the portal metrics.
-    - Stored procedures with heavy read or query operation may result in 429s, but may not show as exceeding the provisioned RU in the database or container.
+    - Stored procedures with heavy read or query operation may result in 429s, but may not show as exceeding the provisioned RU in the database or container
     - As a [best practice](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs), stored procedures should be used for write operations that require ACID transactions against a single partition key value. Perform read and query operations using the client SDKs for best performance and RU utilization.
 
 **Metrics show throttling (429) at account level, but no throttles for individual databases or containers** 
@@ -69,9 +69,16 @@
 
 * By default, the Data Explorer returns query results in pages, with up to 100 results per page. To view additional pages of results, select the **"Load more"** button under the results tab. You can adjust the maximum number of results per page in the Data Explorer **Settings** tab. 
 
+### **Unable to create account with notebooks, or enable notebooks on an existing account**
+
+* Built-in notebooks for Azure Cosmos DB are currently available in the following Azure regions: Australia East, East US, East US 2, North Europe, South Central US, Southeast Asia, UK South, West Europe and West US 2
+* To use notebooks, create a new account with notebooks or enable notebooks on an existing account in one of these regions
+
 ## **Recommended Documents**
 
 * Review [Get started with Azure Cosmos DB MongoDB API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction#how-to-get-started) for building MongoDB API applications
 * [Virtual Networks](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
 * [Firewalls](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
 * [Stored procedures, triggers, UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)
+* [Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
+* [How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)

@@ -21,7 +21,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Web/sites",
   "recommendationFriendlyName": "AppServicePerf",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

@@ -13,7 +13,7 @@
 	supportTopicIds="32631234"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Account Failover Cannot Perform

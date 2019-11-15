@@ -22,3 +22,4 @@
 * [Common problems regarding to WASBS](https://hdinsight.github.io/hdfs/wasbs-common-problems-regarding-to-wasbs.html#common-problems-regarding-to-wasbs)
 * [Use Azure storage with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)
 * [Use Azure Storage Shared Access Signatures to restrict access to data in HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-storage-sharedaccesssignature-permissions)
+* [FAQ:Azure HDInsight Security and Certificates](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#security-and-certificates)

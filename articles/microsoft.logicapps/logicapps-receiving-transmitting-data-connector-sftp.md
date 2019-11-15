@@ -16,17 +16,27 @@
 
 # Receiving or Transmitting data through a specific Connector - SFTP
 
-Connect to SFTP servers you can access from the internet so you can work with your files and folders.
+SFTP is a network protocol that provides file access, file transfer, and file management over any reliable data stream.
 
-* [Monitor, create, and manage SFTP files by using Azure Logic Apps](https://docs.microsoft.com/azure/connectors/connectors-create-api-sftp)<br>
-* [SFTP Trigger Example](https://docs.microsoft.com/azure/connectors/connectors-create-api-sftp#examples)<br>
-* [SFTP Action Example](https://docs.microsoft.com/azure/connectors/connectors-create-api-sftp#examples)
+## **Recommended Steps**
+
+* The IP addresses that Azure Logic Apps uses for incoming and outgoing calls depend on the region where your logic app exists:
+
+    * [Inbound IP Addresses – Logic Apps service only](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config#inbound)
+    * [Outbound IP address – Logic Apps service & managed connectors](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config#outbound)
+
+* SFTP connector supports private key formats – use tools such as PuttyGen or PuTTY to generate private key. If you are using an SSH private key, make sure you copy the key from your SSH private key file and paste that key into the connection details.
+
+**Note**: Don't manually enter or edit the key.
+
+* If you are using ISE (Integration Service Environment), you may have [one or more blocked ports](https://docs.microsoft.com/azure/logic-apps/connect-virtual-network-vnet-isolated-environment#check-network-ports)
+* The connector may return an "[HTTP 404 error](https://docs.microsoft.com/connectors/sftp/)", if a file is being deleted or renamed on server after it was transmitted
 
 ## **Recommended Documents**
 
-Connectors provide quick access from Azure Logic Apps to events, data, and actions across other apps, services, systems, protocols, and platforms. By using connectors in your logic apps, you expand the capabilities for your cloud and on-premises apps to perform tasks with the data that you create and already have.
-
-* [Connectors for Azure Logic Apps](https://docs.microsoft.com/azure/connectors/apis-list)<br>
-* [Connectors](https://docs.microsoft.com/connectors/)<br>
-* [For Azure Logic Apps questions, visit the Azure Logic Apps forum](https://social.msdn.microsoft.com/forums/home?forum=azurelogicapps)<br>
-* [To submit or vote on feature ideas, visit the Logic Apps feedback page](https://feedback.azure.com/forums/287593-logic-apps)
+* [Prerequisites](https://docs.microsoft.com/azure/connectors/connectors-create-api-sftp#prerequisites)<br>
+* [Limits](https://docs.microsoft.com/azure/connectors/connectors-create-api-sftp#limits)<br>
+* [SFTP Trigger Example](https://docs.microsoft.com/azure/connectors/connectors-create-api-sftp#examples)<br>
+* [SFTP Action Example](https://docs.microsoft.com/azure/connectors/connectors-create-api-sftp#examples)<br>
+* [Configure Azure Storage firewalls and virtual networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)<br>
+* [Connect to Azure virtual networks from Azure Logic Apps by using an integration service environment (ISE)](https://docs.microsoft.com/azure/logic-apps/connect-virtual-network-vnet-isolated-environment)

@@ -20,11 +20,11 @@
 
 If a physical disk fails, you should replace it as soon as possible.
 
-Actual disk replacement steps will vary based on your original equipment manufacturer (OEM) hardware vendor. See your vendor's field replaceable unit (FRU) documentation for detailed steps that are specific to your system.
+Actual disk replacement steps will vary based on your original equipment manufacturer (OEM) hardware vendor. Before contacting Microsoft Customer Support Service, see your vendor's field replaceable unit (FRU) documentation for detailed steps that are specific to your system.
 
-1. When a physical disk fails in Azure Stack, you will receive an alert that tells you that connectivity has been lost to a physical disk
-2. [Review disk alert information](https://docs.microsoft.com/azure-stack/operator/azure-stack-replace-disk#review-disk-alert-information). When a disk fails, you receive an alert that tells you that connectivity has been lost to a physical disk.
-3. [Replace the disk](https://docs.microsoft.com/azure-stack/operator/azure-stack-replace-disk#replace-the-disk). Follow your OEM hardware vendor's FRU instructions for actual disk replacement.
+1. When a physical disk fails in Azure Stack, an alert says that connectivity has been lost to a physical disk
+2. You can get the scale unit node and physical slot location from the [disk alert information](https://docs.microsoft.com/azure-stack/operator/azure-stack-replace-disk#review-disk-alert-information)
+3. Follow your OEM hardware vendor's FRU instructions to [replace the disk](https://docs.microsoft.com/azure-stack/operator/azure-stack-replace-disk#replace-the-disk)
 
 ## **Recommended Documents**
 

@@ -30,7 +30,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Email ID you are trying to add",
-            "watermarkText": "Provide the email ID you is trying to add",
+            "watermarkText": "Provide the email ID you are trying to add",
             "required": true
         },
         {

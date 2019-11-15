@@ -9,7 +9,7 @@
 	supportTopicIds="32636809"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-advisory-other"
 	displayOrder="40"
 	category="General Advisory"

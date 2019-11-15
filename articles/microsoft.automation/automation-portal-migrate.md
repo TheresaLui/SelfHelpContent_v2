@@ -23,6 +23,10 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 See the document ["Move your automation account to another subscription"](https://docs.microsoft.com/azure/automation/how-to/move-account)
 
+### **"Classic RunAs account is about to expire"**
+
+See the document ["Manage Azure Automation Run-As account"](https://docs.microsoft.com/azure/automation/manage-runas-account). If you are not using Classic resources it is safe to [delete the AzureClassicRunAsCertificate resource](https://docs.microsoft.com/azure/automation/manage-runas-account#delete-a-run-as-or-classic-run-as-account).  
+
 
 ## **Recommended Documents**
 

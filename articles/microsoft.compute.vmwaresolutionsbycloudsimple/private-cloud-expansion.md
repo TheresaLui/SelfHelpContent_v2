@@ -19,4 +19,8 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to expansion of a Private Cloud by creating a new cluster or expanding an existing cluster on your CloudSimple service">
+
 * [Expand a Private Cloud](https://docs.microsoft.com/azure/vmware-cloudsimple/expand-private-cloud)<br>
+</span>
+

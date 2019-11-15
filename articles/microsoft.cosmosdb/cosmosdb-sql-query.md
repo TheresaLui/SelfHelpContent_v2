@@ -6,7 +6,7 @@
 	authors="ginamr"
 	ms.author="girobins"
 	selfHelpType="generic"
-	supportTopicIds="32636818, 32636821, 32681012"
+	supportTopicIds="32636818, 32636821, 32681012, 32684529"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
@@ -64,9 +64,25 @@ Here is the list of string functions that can utilize the index:
     
   * STARTSWITH(str_expr, str_expr) 
   * LEFT(str_expr, num_expr) = str_expr 
-  * SUBSTRING(str_expr, num_expr, num_expr) = str_expr, but only if first num_expr is 0 
+  * SUBSTRING(str_expr, num_expr, num_expr) = str_expr, but only if first num_expr is 0
 
 For more system function details see [System Functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-system-functions).
+
+### Add composite indexes
+
+The following queries can be optimized with a composite index:
+ * Queries with a filter as well as an ORDER BY clause
+ * Queries with filters on multiple properties
+ 
+ For example, consider the below SQL query:
+ 
+ ```
+ SELECT * FROM c WHERE c.name = "John" ORDER BY c.timestamp asc
+ ```
+ 
+This query has a filter on name and also has an ORDER BY clause. If you create a composite index for (name asc, timestamp asc) and name is included in the ORDER BY clause, the RU charge will decrease significantly.
+
+For more details about composite indexes see [Composite Indexes](https://docs.microsoft.com/azure/cosmos-db/index-policy#composite-indexes).
 
 ## **Recommended Documents**
 

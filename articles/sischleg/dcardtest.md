@@ -19,7 +19,7 @@
     "diagnosticCard": {
         "title": "TITLE",
         "description": "DESCRIPTION",
-        "insightNotAvailableText": "INSIGHTNOTAVAILBALETEXT"
+        "insightNotAvailableText": "INSIGHTNOTAVAILBALETEXT-change"
     },
     "formElements": [
         {

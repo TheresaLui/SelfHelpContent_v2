@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32642184,32599924,32642191"
+    supportTopicIds="32642184,32599924,32642191,32612529"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
@@ -16,7 +16,8 @@
 
 # Resolve Update Management issues with Azure Automation
 
-This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
+This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution. 
+For general questions about Update Management scenarios, see [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)
 
 ## **Recommended Steps**
 
@@ -50,17 +51,18 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Remove machine from Update Management**
 
-* To unenroll a machine from Update Management, follow the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
+* To unenroll a machine from Update Management, Follow the instructions at ["Clean up resources"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#clean-up-resources)
 
 ### **Machines don't install updates**
 
 * Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
-* If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management).
+* If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Clean up resources"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#clean-up-resources)
 
 ### **"No computers match the Update deployment target specification" error received**
 
 * You may see this error if machines are offline when the deployment occurs. Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
-* Review the steps to creating a dynamic deployment, especially the note about permissions, in ["Using Dynamic Groups"](https://docs.microsoft.com/azure/automation/automation-update-management#using-dynamic-groups)
+* Review the steps to creating a dynamic deployment, especially the note about permissions, in ["Use Dynamic Groups"](https://docs.microsoft.com/azure/automation/automation-update-management-groups)
+
 
 ### **"You have requested to create an update configuration on a machine that is not registered for Update Management"**
 
@@ -84,7 +86,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Updating machines across different tenants**
 
-* If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
+* If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant).
 
 
 ## **Recommended Documents**

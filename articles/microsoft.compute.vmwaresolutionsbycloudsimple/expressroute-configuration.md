@@ -18,5 +18,12 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to ExpressRoute connection between on-premises and CloudSimple network">
+
 * [On-premises Network Connection using ExpressRoute](https://docs.microsoft.com/azure/vmware-cloudsimple/on-premises-connection/)<br>
+</span>
+
+<span title="Problems related to ExpressRoute connection between on-premises and CloudSimple network">
+
 * [Azure Virtual Network Connection using ExpressRoute](https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection/)<br>
+</span>

@@ -28,6 +28,17 @@
 
 ## **Recommended Documents**
 
+<span title="Problems related to inbound traffic through a Public IP address to an application in CloudSimple Private Cloud">
+
 * [Public IP address](https://docs.microsoft.com/azure/vmware-cloudsimple/public-ips)<br>
+</span>
+
+<span title="Problems related to inbound traffic through a Public IP address to an application in CloudSimple Private Cloud">
+
 * [Firewall Rules](https://docs.microsoft.com/azure/vmware-cloudsimple/firewall#firewall-rules)<br>
+</span>
+
+<span title="Problems related to inbound traffic through a Public IP address to an application in CloudSimple Private Cloud">
+
 * [VLANs/Subnets](https://docs.microsoft.com/azure/vmware-cloudsimple/create-vlan-subnet)<br>
+</span>

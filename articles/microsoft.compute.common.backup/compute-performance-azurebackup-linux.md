@@ -10,7 +10,7 @@
 	supportTopicIds="32565496"
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public,mooncake"
 	articleId="fce07854-8ea1-438f-b4be-ca31d438689b"
 />
 

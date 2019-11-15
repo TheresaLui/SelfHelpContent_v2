@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+<span title="Problems related to VMware VM performance on my Private Cloud">
+
 * Check vCenter events for a disconnected or not responsive ESXi host
 * Check vSAN Health tests for vSAN resync'ing components
 * Check vSAN Performance stats for high congestion or I/O that is persistently higher than total disks I/O
@@ -30,3 +32,5 @@
 * Ensure that Memory Trimming feature is disabled on I/O intensive virtual machines that are not memory intensive
 * Check for active On-demand virus scan activities in the virtual machine
 * If using SQL Server, check for optimization tips
+
+</span>

@@ -4,7 +4,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="TobyTu"
-    ms.author="jaserano"
+    ms.author="deeptivu"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32636437"
@@ -18,4 +18,6 @@
 
 ## **Recommended Documents**
 
+* Currently, in Azure HDInsight, Grafana is supported with Hbase and Interactive Query cluster types
+* [Access Grafana in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/hdinsight-grafana)
 * [Authorize users for Apache Ambari Views](https://docs.microsoft.com/azure/hdinsight/hdinsight-authorize-users-to-ambari)

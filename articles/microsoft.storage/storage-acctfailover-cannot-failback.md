@@ -13,7 +13,7 @@
 	supportTopicIds="32631233"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Account Failover Cannot Fail Back Storage Account

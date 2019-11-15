@@ -6,7 +6,7 @@
 	authors="rnagpal"
 	ms.author="rnagpal"
 	selfHelpType="resource"
-	supportTopicIds="32636774,32636775"
+	supportTopicIds="32636774,32636775,32684532"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
@@ -21,9 +21,10 @@ Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos DB 
 
 ## **Recommended Steps**
 
-To learn more about Change Feed, see the following recommended documents:
+To learn more about Change Feed, see the following recommended documents.
 
 ## **Recommended Documents**
+
 * [Change feed in Azure Cosmos DB - overview](https://docs.microsoft.com/azure/cosmos-db/change-feed)
 * [Reading Azure Cosmos DB change feed](https://docs.microsoft.com/azure/cosmos-db/read-change-feed)
 * [Change feed processor in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/change-feed-processor)
