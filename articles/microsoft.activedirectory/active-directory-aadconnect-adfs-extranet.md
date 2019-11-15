@@ -10,7 +10,7 @@
     resourceTags=""
 	productPesIds="16579"
     cloudEnvironments="public"
-    	articleId=""
+    	articleId="c0bae8c1-80c1-42ba-af0b-b4a5fffb8b9b"
 />
 
 # Problem with authentication ONLY from the extranet
