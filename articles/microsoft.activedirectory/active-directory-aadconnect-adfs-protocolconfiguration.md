@@ -16,10 +16,13 @@
 
 # Help configuring an application with OAuth, OIDC, WS-FED, or SAML
 
-## **Recommended steps**
+## **Recommended Steps**
+
 ### OAuth or OpenID Connect Help
-1. For help with OAuth or OpenID Connect concepts, view the following [information](https://docs.microsoft.com/windows-server/identity/ad-fs/development/ad-fs-openid-connect-oauth-concepts).
-2. For OAuth/OIDC scenario walkthroughs and samples, view the [documentation for OAuth Scenarios and Samples](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-openid-connect-oauth-flows-scenarios).
+
+1. For help with OAuth or OpenID Connect concepts, view the following [information](https://docs.microsoft.com/windows-server/identity/ad-fs/development/ad-fs-openid-connect-oauth-concepts)
+2. For OAuth/OIDC scenario walkthroughs and samples, view the [documentation for OAuth Scenarios and Samples](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-openid-connect-oauth-flows-scenarios)
 
 ### SAML/ WS-Fed Help
-1. For help creating a relying party trust with SAML / WS-Fed, view the following [documentation](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/create-a-relying-party-trust).
+
+1. For help creating a relying party trust with SAML / WS-Fed, view the following [documentation](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/create-a-relying-party-trust)
