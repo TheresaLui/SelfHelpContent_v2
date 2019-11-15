@@ -22,7 +22,11 @@ Always make sure you are running the latest version of the [Azure Cosmos DB Exte
 
 ### Triggers
 
-Azure Cosmos DB supports two types of triggers:  
+**Note:**  Registered triggers don't run automatically when their corresponding operations (create / delete / replace / update) happen. They have to be explicitly called when executing these operations.
+
+<br>
+
+Azure Cosmos DB supports two types of triggers
 
 **Pre-triggers** 
 
@@ -35,18 +39,6 @@ Azure Cosmos DB provides triggers that can be invoked by performing an operation
 [How to run post-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)  
 Similar to pre-triggers, post-triggers, are also associated with an operation on an Azure Cosmos item and they don’t require any input parameters. They run after the operation has completed and have access to the response message that is sent to the client. For examples, see How to write triggers article.
 <br>
-
-<table border="1" cellpadding="0" cellspacing="0" valign="top" style='direction:ltr;
- border-collapse:collapse;border-style:solid;border-color:#ffffff;border-width:
- 1pt' title="" summary="">
- <tr>
-  <td style='border-style:solid;border-color:#000000;border-width:1pt;
-  background-color:#e2daf1;vertical-align:top;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
-  <p style='margin:0in;font-family:Calibri;font-size:14.0pt;color:#000000'>Note</p>
-  Registered triggers don't run automatically when their corresponding operations (create / delete / replace / update) happen. They have to be explicitly called when executing these operations
-  </td>
- </tr>
-</table>
 
 
 ## Function not receiving any or partial set of changes
