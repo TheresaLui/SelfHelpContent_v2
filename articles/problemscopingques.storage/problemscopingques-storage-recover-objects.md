@@ -19,14 +19,8 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "warning_same_name",
-            "order": 0,
-            "controlType": "infoblock",
-            "content": "WARNING: Do not recreate storage object with the same name while we attempt to recover it."
-        },
-        {
             "id": "service_type",
-            "order": 1,
+            "order": 0,
             "controlType": "dropdown",
             "displayLabel": "Type of storage object to recover",
             "watermarkText": "Choose an option",
@@ -71,17 +65,102 @@
             "required": true
         },
         {
-            "id": "justification",
+            "id": "resource_group_name",
             "order": 2,
-            "visibility": "service_type == (disk||blob||table||file_share)",
+            "visibility":"service_type == rg",
+            "controlType": "textbox",
+            "displayLabel": "Name of the deleted resource group",
+            "watermarkText": "ResourceGroupName",
+            "required": true
+        },
+        {
+            "id":"recovery_type",
+            "order":3,
+            "visibility":"service_type == rg",
+            "controlType":"dropdown",
+            "displayLabel":"We can only attempt to recover deleted stroage accounts in this Resource Group. Do you want us to attempt to recover them?",
+            "watermarkText":"Choose an option",
+            "dropdownOptions":[
+                {
+                    "value":"yes",
+                    "text":"Yes, attempt to recover all storage accounts in resource group above"
+                },
+                {
+                    "value":"some_accounts",
+                    "text":"Only attempt to recover some storage accounts in resource group above"
+                },
+                {
+                    "value":"no",
+                    "text":"No, I do not want to recover any storage accounts"
+                },
+                {
+                    "value":"dont_know_answer",
+                    "text":"Other, don't know or not applicable"
+                }
+            ],
+            "required":true
+        },
+        {
+            "id":"storage_account_name",
+            "order":4,
+            "visibility":"service_type == account || recovery_type == some_accounts",
+            "controlType":"textbox",
+            "displayLabel":"Name of the deleted storage account to recover",
+            "watermarkText":"accountname1;accountname2;accountname3",
+            "required":true
+        },
+        {
+            "id":"recovery_option",
+            "order":5,
+            "visibility":"service_type == blob_container",
+            "controlType":"dropdown",
+            "displayLabel":"Recovery Option",
+            "watermarkText":"Choose an option",
+            "dropdownOptions":[
+                {
+                    "value":"by_container_name",
+                    "text":"Recover by container name"
+                },
+                {
+                    "value":"by_time_period",
+                    "text":"Recover by deleted time period"
+                },
+                {
+                    "value":"dont_know_answer",
+                    "text":"Other, don't know or not applicable"
+                }
+            ],
+            "required":true
+        },
+        {
+            "id": "blob_container",
+            "order": 6,
+            "visibility": "recovery_option == by_container_name",
+            "controlType": "textbox",
+            "displayLabel": "Name of Container to recover",
+            "watermarkText": "container1;container2;container3",
+            "required": true
+        },
+        {
+            "id": "justification",
+            "order": 7,
+            "visibility": "service_type == disk||service_type == blob||service_type == table||service_type == file_share) ",
             "controlType": "multilinetextbox",
             "displayLabel": "Impact of deleted data for your business",
             "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
             "required": false
         },
         {
+            "id": "problem_approx_time",
+            "order": 8,
+            "visibility": "recovery_option != by_time_period",
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate local time the Container was deleted",
+            "required": false
+        },
+        {
             "id": "Backup method",
-            "order": 3,
+            "order": 9,
             "visibility": "service_type == file",
             "controlType": "dropdown",
             "displayLabel": "Backup method",
@@ -104,32 +183,41 @@
         },
         {
             "id": "object_path",
-            "order": 4,
-            "visibility": "service_type == disk || service_type == blob || service_type == table|| service_type == file",
+            "order": 10,
+            "visibility": "service_type == file || service_type == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Path of object to recover",
-            "watermarkText": "https:/{accountname}.{objectType}.core.windows.net/{objectPath}",
+            "watermarkText": "https://myaccount.file.core.windows.net/myfile",
             "required": true
         },
         {
-            "id": "object_name",
-            "order": 5,
-            "visibility": "service_type == account|| service_type == rg|| service_type == blob_container|| service_type == file_share",
-            "controlType": "textbox",
-            "displayLabel": "Name of object to recover",
-            "watermarkText": "objectname1;objectname2;objectname3",
-            "required": false
+            "id":"blob_path",
+            "order":11,
+            "visibility":"service_type == blob || service_type == disk",
+            "controlType":"textbox",
+            "displayLabel":"Blob or disk path",
+            "watermarkText": "https://myaccount.blob.core.windows.net/myblob",
+            "required":true
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 12,
+            "visibility": "service_type != blob_container || recovery_option == by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate local time object was deleted",
+            "displayLabel": "Start time",
+            "required": true
+        },
+        {
+            "id": "problem_end_time",
+            "order": 13,
+            "visibility": "recovery_option == by_time_period",
+            "controlType": "datetimepicker",
+            "displayLabel": "End time",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 15,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -139,3 +227,4 @@
     "$schema": "SelfHelpContent"
 }
 ---
+       
