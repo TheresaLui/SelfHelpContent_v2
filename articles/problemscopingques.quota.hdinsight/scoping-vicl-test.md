@@ -24,14 +24,22 @@
             "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
-            "id": "test",
+            "id": "test0",
             "order": 1,
             "controlType": "numerictextbox",
-            "displayLabel": "Test",
+            "displayLabel": "Test0",
             "required": true,
             "min": -10,
             "max": 10,
             "numberType": "integer"
+        },
+        {
+            "id": "test1",
+            "order": w,
+            "controlType": "textbox",
+            "displayLabel": "Test1",
+            "required": true,
+            "regex": "ab*c"                        
         }
     ],
     "$schema": "SelfHelpContent"
