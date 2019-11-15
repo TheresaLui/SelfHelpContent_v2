@@ -135,7 +135,7 @@
         {
             "id": "blob_container",
             "order": 6,
-            "visibility": "recovery_option == by_container_name",
+            "visibility": "service_type == blob_container && recovery_option == by_container_name",
             "controlType": "textbox",
             "displayLabel": "Name of Container to recover",
             "watermarkText": "container1;container2;container3",
@@ -217,7 +217,7 @@
         {
             "id": "problem_approx_time",
             "order": 16,
-            "visibility": "recovery_option != by_time_period",
+            "visibility": "service_type == blob_container && recovery_option != by_time_period",
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local time the object was deleted",
             "required": false
@@ -225,7 +225,7 @@
         {
             "id": "problem_start_time",
             "order": 17,
-            "visibility": "recovery_option != by_container_name",
+            "visibility": "service_type != blob_container || (service_type == blob_container && recovery_option == by_time_period)",
             "controlType": "datetimepicker",
             "displayLabel": "Local start time when data was deleted",
             "required": true
