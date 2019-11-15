@@ -103,7 +103,7 @@
         {
             "id":"storage_account_name",
             "order":4,
-            "visibility":"service_type == account || recovery_type == some_accounts",
+            "visibility":"service_type == account && (service_type == rg || recovery_type == some_accounts)",
             "controlType":"textbox",
             "displayLabel":"Name of the deleted storage account to recover",
             "watermarkText":"accountname1;accountname2;accountname3",
@@ -140,14 +140,6 @@
             "displayLabel": "Name of Container to recover",
             "watermarkText": "container1;container2;container3",
             "required": true
-        },
-        {
-            "id": "problem_approx_time",
-            "order": 8,
-            "visibility": "recovery_option != by_time_period",
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate local time the object was deleted",
-            "required": false
         },
         {
             "id": "object_path",
@@ -223,8 +215,16 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
+            "id": "problem_approx_time",
             "order": 16,
+            "visibility": "recovery_option != by_time_period",
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate local time the object was deleted",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 17,
             "visibility": "recovery_option != by_container_name",
             "controlType": "datetimepicker",
             "displayLabel": "Local start time when data was deleted",
