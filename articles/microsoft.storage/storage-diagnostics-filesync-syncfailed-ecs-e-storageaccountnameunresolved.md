@@ -3,7 +3,7 @@
 	description="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
     infoBubbleText="See details on the right"
 	service="microsoft.storage"
-	resource="storageaccounts"
+	resource="storage"
 	authors="passaree"
 	ms.author="passap"
 	displayOrder=""
