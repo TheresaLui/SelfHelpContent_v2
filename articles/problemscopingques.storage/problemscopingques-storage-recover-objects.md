@@ -142,43 +142,11 @@
             "required": true
         },
         {
-            "id": "justification",
-            "order": 7,
-            "visibility": "service_type == disk||service_type == blob||service_type == table||service_type == file_share) ",
-            "controlType": "multilinetextbox",
-            "displayLabel": "Impact of deleted data for your business",
-            "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
-            "required": false
-        },
-        {
             "id": "problem_approx_time",
             "order": 8,
             "visibility": "recovery_option != by_time_period",
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local time the object was deleted",
-            "required": false
-        },
-        {
-            "id": "Backup method",
-            "order": 9,
-            "visibility": "service_type == file",
-            "controlType": "dropdown",
-            "displayLabel": "Backup method",
-            "watermarkText": "It is not possible to recover deleted Azure Files without backup",
-                        "dropdownOptions": [
-                {
-                    "value": "snapshots",
-                    "text": "Snapshots"
-                },
-                {
-                    "value": "azure_backup",
-                    "text": "Azure Backup"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or not listed above"
-                }
-            ],
             "required": false
         },
         {
@@ -200,16 +168,79 @@
             "required":true
         },
         {
-            "id": "problem_start_time",
+            "id": "Backup method",
             "order": 12,
-            "visibility": "recovery_option != by_container_name",
+            "visibility": "service_type == file",
+            "controlType": "dropdown",
+            "displayLabel": "Backup method",
+            "watermarkText": "It is not possible to recover deleted Azure Files without backup",
+                        "dropdownOptions": [
+                {
+                    "value": "snapshots",
+                    "text": "Snapshots"
+                },
+                {
+                    "value": "azure_backup",
+                    "text": "Azure Backup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "data_type",
+            "order": 14,
+            "visibility": "service_type == disk||service_type == blob||service_type == table)",
+            "controlType": "dropdown",
+            "displayLabel": "Type of data",
+            "watermarkText": "It is not possible to recover deleted Azure Files without backup",
+                        "dropdownOptions": [
+                {
+                    "value": "production",
+                    "text": "Production data"
+                },
+                {
+                    "value": "test",
+                    "text": "Test data"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "justification",
+            "order": 15,
+            "visibility": "service_type == disk||service_type == blob||service_type == table) ",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Impact of deleted data for your business",
+            "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 16,
+            "visibility": "recovery_option != by_container_name && recovery_option != by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Start time",
+            "displayLabel": "Approximate time when data was deleted",
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 17,
+            "visibility": "recovery_option == by_time_period",
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when data was deleted",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 13,
+            "order": 18,
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
             "displayLabel": "End time",
@@ -217,7 +248,7 @@
         },
         {
             "id": "problem_description",
-            "order": 15,
+            "order": 19,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
