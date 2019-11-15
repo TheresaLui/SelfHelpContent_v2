@@ -10,7 +10,7 @@
     resourceTags=""
 	productPesIds="16579"
     cloudEnvironments="public"
-    	articleId=""
+    	articleId="8fe71a43-0175-436a-b351-29bcf585f596"
 />
 
 # Help configuring an application with OAuth, OIDC, WS-FED, or SAML
