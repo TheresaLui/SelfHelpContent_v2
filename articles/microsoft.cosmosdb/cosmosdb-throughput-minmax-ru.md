@@ -25,10 +25,12 @@ The following image shows the high-level idea of RUs:
 ![throughput visual](https://docs.microsoft.com/azure/cosmos-db/media/request-units/request-units.png)  
 
 <br> 
-To manage and plan capacity, Azure Cosmos DB ensures that the number of RUs for a given database operation over a given dataset is deterministic. You can examine the response header to track the number of RUs that are consumed by any database operation. When you understand the factors that affect RU charges and your application's throughput requirements, you can run your application cost effectively.<br> 
-    
+To manage and plan capacity, Azure Cosmos DB ensures that the number of RUs for a given database operation over a given dataset is deterministic. You can examine the response header to track the number of RUs that are consumed by any database operation. When you understand the factors that affect RU charges and your application's throughput requirements, you can run your application cost effectively.
+<br>  
+  
 You provision the number of RUs for your application on a per-second basis in increments of 100 RUs per second. To scale the provisioned throughput for your application, you can increase or decrease the number of RUs at any time. You can scale in increments or decrements of 100 RUs. You can make your changes either programmatically or by using the Azure portal. You are billed on an hourly basis.
   
+<br> 
 You can provision throughput at two distinct granularities - 
 - Containers: For more information, see [Provision throughput on an Azure Cosmos container](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-container-throughput)
 This article explains how to provision throughput on a container (collection, graph, or table) in Azure Cosmos DB. You can provision throughput on a single container, or provision throughput on a database and share it among the containers within the database.
@@ -49,9 +51,3 @@ When estimating the number of RUs per second to provision, use this article to c
 
 * [Optimize query cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-queries#evaluate-request-unit-charge-for-a-query)
 Azure Cosmos DB offers a rich set of database operations including relational and hierarchical queries that operate on the items within a container. The cost associated with each of these operations varies based on the CPU, IO, and memory required to complete the operation. Instead of thinking about and managing hardware resources, you can think of a request unit (RU) as a single measure for the resources required to perform various database operations to serve a request. This article describes how to evaluate request unit charges for a query and optimize the query in terms of performance and cost.
-
-Queries in Azure Cosmos DB are typically ordered from fastest/most efficient to slower/less efficient in terms of throughput as follows:
-- GET operation on a single partition key and item key.
-- Query with a filter clause within a single partition key.
-- Query without an equality or range filter clause on any property.
-- Query without filters.
