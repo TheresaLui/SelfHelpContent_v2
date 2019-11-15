@@ -19,7 +19,7 @@
 ​
 ### **Getting continuous deployment working​**
 * Your bot must be deployed to Azure and you must have a App Service to be able to configure continuous deployment.​
-* Ensure your repository has the [correct files](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#prepare-your-repository).​
+* Ensure your repository has the [correct files](https://docs.microsoft.com/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#prepare-your-repository).​
 * Ensure your repository is working as expected. ​
   * Using Azure DevOps or GitHub, your repository will have a .git folder and at least one branch.​
 * Ensure logged in and shows correct account/org​
@@ -34,9 +34,9 @@
 * Click on sync button to attempt a new synchronization. ​
 * To isolate where the issue might be, you may consider creating a new App Service and configure deployment from there.​
 * If that works, then it is an issue with the Configuration within the initial App Service. ​
- * Follow directions [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#disable-continuous-deployment) to disconnect and disable Continuous Deployment​
- * Reconnect to repository to [reenable continous deployment](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#continuous-deployment-using-github).​
+ * Follow directions [here](https://docs.microsoft.com/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#disable-continuous-deployment) to disconnect and disable Continuous Deployment​
+ * Reconnect to repository to [re-enable continuous deployment](https://docs.microsoft.com/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0#continuous-deployment-using-github).​
 ​​
 ## Recommended Documents​
-​* [Deploy your bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0)​
-* [Set up continuous deployment](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0)​
+​* [Deploy your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0)​
+* [Set up continuous deployment](https://docs.microsoft.com/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0)​
