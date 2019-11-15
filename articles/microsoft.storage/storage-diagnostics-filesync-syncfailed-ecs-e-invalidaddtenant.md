@@ -19,6 +19,7 @@
 # Azure File Sync failed error - ECS_E_INVALID_AAD_TENANT
 <!--issueDescription-->
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c83088 or -2134364024**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because Azure File Sync does not currently support moving the subscription to a different Azure Active Directory tenant.<br/><br/>
+<!--/issueDescription-->
 
 ## **Recommended steps**
 To resolve this issue, perform one of the following options:
