@@ -62,3 +62,7 @@ These properties are only applicable for 'Performance-based' sizing. Server Asse
 ### **Why is my VM marked not ready with 'One or more unsuitable disks'?**
 
 The above values are listed when Azure Migrate detects an on-premises VM with disks that require high IOPS(greater than 20,000) which probably could not be met by non-ultra-disks. Currently, Azure Migrate currently does not support Ultra disks.
+
+### Can I perform an application-based assessment using Server Assessment? 
+
+No, currently Server Assessment offers only machine-level assessments for lift-and-shift migrations. However, you can run assessment of web applications and databases using the other [tools available in Azure Migrate](https://docs.microsoft.com/azure/migrate/migrate-services-overview#azure-tool-integration).
