@@ -146,8 +146,8 @@
             "order": 7,
             "visibility": "service_type == file_share || service_type == table",
             "controlType": "textbox",
-            "displayLabel": "Name of Container to recover",
-            "watermarkText": "container1;container2;container3",
+            "displayLabel": "Name of object to recover",
+            "watermarkText": "objectname1;objectname2;objectname3",
             "required": true
         },
         {
@@ -236,7 +236,7 @@
             "order": 17,
             "visibility": "service_type != blob_container || recovery_option == by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Local start time when data was deleted",
+            "displayLabel": "Local start time when object was deleted",
             "required": true
         },
         {
@@ -244,7 +244,7 @@
             "order": 18,
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Local end time when data was deleted",
+            "displayLabel": "Local end time when object was deleted",
             "required": true
         },
         {
