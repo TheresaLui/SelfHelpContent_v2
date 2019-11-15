@@ -7,12 +7,13 @@
 	ms.author="v-kydela,snandan,andreo,saziz"
 	displayOrder="104"
 	selfHelpType="resource"
-	supportTopicIds="32688614"
+	supportTopicIds="32688652"
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="1C1B5100-DF66-4A9C-8CBA-979D2B10D8C2"
 />
+## **Recommended Steps**
 
 # Managing my bot settings
 
@@ -21,7 +22,7 @@ In most cases, your bot will have two types of settings:
 1. Your bot's **channel registration settings** are used by the Bot Framework's channel connector services to allow your bot to communicate with the chat client applications associated with various channels
 1. Your bot's **app configuration settings** are used by the bot itself to determine its own behavior like any other app would, and they can contain useful strings like keys and passwords
 
-## **Managing Channel Registration Settings**
+# Managing Channel Registration Settings
 
 In your **bot resource** in the Azure portal there are two blades where you can configure the way your bot connects to channels: the **Channels** blade and the **Settings** blade.
 
