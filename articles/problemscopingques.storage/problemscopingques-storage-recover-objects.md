@@ -137,7 +137,7 @@
             "order": 6,
             "visibility": "service_type == blob_container && recovery_option == by_container_name",
             "controlType": "textbox",
-            "displayLabel": "Name of Container to recover",
+            "displayLabel": "Name of container to recover",
             "watermarkText": "container1;container2;container3",
             "required": true
         },
@@ -197,7 +197,7 @@
             "visibility": "service_type == disk||service_type == blob||service_type == table)",
             "controlType": "dropdown",
             "displayLabel": "Type of data",
-            "watermarkText": "It is not possible to recover deleted Azure Files without backup",
+            "watermarkText": "Type of data you wish to recover",
                         "dropdownOptions": [
                 {
                     "value": "production",
@@ -242,7 +242,7 @@
         {
             "id": "problem_end_time",
             "order": 18,
-            "visibility": "recovery_option == by_time_period",
+            "visibility": "service_type == blob_container && recovery_option == by_time_period",
             "controlType": "datetimepicker",
             "displayLabel": "Local end time when object was deleted",
             "required": true
