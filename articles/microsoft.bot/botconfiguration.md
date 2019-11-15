@@ -40,15 +40,13 @@ All apps have app configuration settings so these settings are not necessarily b
 
 The way you access your app configuration settings may depend on the types of Azure resources you create. The two types of bot resources available to you are [Web App Bot](https://docs.microsoft.com/azure/bot-service/abs-quickstart) and [Bot Channels Registration](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration).
 
-> [!NOTE]
-> Functions Bot resources are deprecated and can no longer be created. Microsoft Healthcare Bot resources can be created but they serve a specialized purpose that is beyond the scope of this document.
+**Note**: Functions Bot resources are deprecated and can no longer be created. Microsoft Healthcare Bot resources can be created but they serve a specialized purpose that is beyond the scope of this document.
 
 ![Bot resources](https://i.stack.imgur.com/JvjgD.png)
 
 These two bot resource types are almost the same. The idea behind a Web App Bot resource is that your bot is expected to be deployed to an app service in Azure which needs an app service plan, so creating a Web App Bot resource actually creates a whole set of resources. The only difference the individual Web App Bot resource has from a Bot Channels Registration resource is that a Web App Bot resource has three extra blades, and those are used to access the app service that the bot resource is connected to.
 
-> [!NOTE]
-> Azure determines what app service corresponds to your bot resource only by reading the messaging endpoint in your bot resource's Settings blade. If you edit the messaging endpoint so that it doesn't point to an Azure app service domain then you will be unable to access an app service resource through your bot resource. This also means you can edit the messaging endpoint to connect your bot resource to a different app service resource from the one it was originally connected to.
+**Note**: Azure determines what app service corresponds to your bot resource only by reading the messaging endpoint in your bot resource's Settings blade. If you edit the messaging endpoint so that it doesn't point to an Azure app service domain then you will be unable to access an app service resource through your bot resource. This also means you can edit the messaging endpoint to connect your bot resource to a different app service resource from the one it was originally connected to.
 
 ![Build](https://i.stack.imgur.com/55H8U.png)
 
@@ -67,7 +65,7 @@ If you cannot access your app configuration settings through a Web App Bot resou
 1. Check to make sure your bot's messaging endpoint contains your app service's domain
 1. If your app service has been deleted, create a new app service resource and edit your bot's messaging endpoint so that it contains the new app service's domain
 
-If you're cannot make edits to Azure resources:
+If you cannot make edits to Azure resources:
 
 1. Make sure you have the necessary permissions with respect to RBAC (role-based access control)
 
