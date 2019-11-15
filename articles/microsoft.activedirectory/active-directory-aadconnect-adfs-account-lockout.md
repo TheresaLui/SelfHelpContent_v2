@@ -16,14 +16,13 @@
 
 # Account Lockout
 
-* If you are experiencing an account lockout and need remediation assistance, use the [Account Lockout Troubleshooting Guide](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/a73d5843-9939-4c03-80a1-adcbbf3ccec8).
-
-* If you have Extranet Smart Lockout configured, and are still seeing lockouts, check that ESL is configured correctly with our [Diagnostic Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze).
-
+* If you are experiencing an account lockout and need remediation assistance, use the [Account Lockout Troubleshooting Guide](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/a73d5843-9939-4c03-80a1-adcbbf3ccec8)
+* If you have Extranet Smart Lockout configured, and are still seeing lockouts, check that ESL is configured correctly with our [Diagnostic Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze)
 * For instructions on configuring ESL, visit [ADFS extranet lockout or an extranet smart lockout](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)
 
 
 ## **Recommended Documents**
+
 - [Account Lockout Troubleshooting Guide](https://adfshelp.microsoft.com/TroubleshootingGuides/Workflow/a73d5843-9939-4c03-80a1-adcbbf3ccec8)
 - [AD FS Extranet Smart Lockout Documentation](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)<br>
 - [Password Spray Protection](https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/ad-fs-password-protection)<br>
