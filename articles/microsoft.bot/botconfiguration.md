@@ -15,14 +15,14 @@
 />
 ## **Recommended Steps**
 
-# Managing my bot settings
+# **Managing my bot settings**
 
 In most cases, your bot will have two types of settings:
 
 1. Your bot's **channel registration settings** are used by the Bot Framework's channel connector services to allow your bot to communicate with the chat client applications associated with various channels
 1. Your bot's **app configuration settings** are used by the bot itself to determine its own behavior like any other app would, and they can contain useful strings like keys and passwords
 
-# Managing Channel Registration Settings
+# **Managing Channel Registration Settings**
 
 In your **bot resource** in the Azure portal there are two blades where you can configure the way your bot connects to channels: the **Channels** blade and the **Settings** blade.
 
@@ -32,7 +32,7 @@ The Channels blade allows you to decide which channels your bot is connected to 
 
 The Settings blade allows you to configure channel-independent bot settings, like the messaging endpoint that channels use to send activities to your bot. If you want to enable [user authentication](https://docs.microsoft.com/azure/bot-service/bot-builder-authentication) with your bot then OAuth connections can also be configured here. See [this document](https://docs.microsoft.com/azure/bot-service/bot-service-manage-settings) for more information.
 
-## **Managing App Configuration Settings**
+# **Managing App Configuration Settings**
 
 All apps have app configuration settings so these settings are not necessarily bot-specific, though bots do often rely on these settings to authenticate themselves and access external services for example. An app will generally keep its configuration settings somewhere in its source code files, though the specifics will depend on things like programming languages and frameworks. [ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/configuration) for example has a variety of possible configuration providers, though it often stores configuration settings in a file called appsettings.json. While you can choose to manage your app configuration settings only in your source code, if your app is deployed to Azure then you can manage them in the Azure portal as well.
 
@@ -58,7 +58,7 @@ The **Configuration** blade is used to access your actual app configuration sett
 
 If you're using a Bot Channels Registration resource instead of a Web App Bot resource then these blades won't be available even if your messaging endpoint corresponds to an Azure app service. However, you can still access the app configuration settings by navigating to your app service resource outside of your Bot Channels Registration resource, and you can always edit the configuration directly in your bot code even if your bot code isn't deployed to Azure. Ultimately you get to decide what goes in your app configuration settings because they relate entirely to how you code your app.
 
-## **Troubleshooting Configuration Problems**
+# **Troubleshooting Configuration Problems**
 
 If you cannot access your app configuration settings through a Web App Bot resource:
 
