@@ -80,4 +80,4 @@ If you're having other problems in the Azure portal:
 
 - [Manage a bot](https://docs.microsoft.com/azure/bot-service/bot-service-manage-overview)
 - [Troubleshoot bot configuration issues](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-bot-configuration)
-- [Troubleshooting Bot Framework authentication](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-authentication-problems)////////
+- [Troubleshooting Bot Framework authentication](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-authentication-problems)
