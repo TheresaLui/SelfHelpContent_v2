@@ -8,7 +8,7 @@
                 productPesIds="15621"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0036"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830fa1136"
 />
 # Deploy a VM
 ---
