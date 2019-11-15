@@ -44,7 +44,7 @@
   "potentialBenefits": "Ensure optimal performance and high availability through best practices",
   "actions": [
     {
-      "actionId": "b92530c0-75c9-4398-a099-3d97a9760a69", //How do we register the action
+      "actionId": "b92530c0-75c9-4398-a099-3d97a9760a69",
       "description": "Set/increase maxfragmentationmemory-reserved",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
