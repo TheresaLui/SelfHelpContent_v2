@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	articleId="1C1B5100-DF66-4A9C-8CBA-979D2B10D8C2"
+	articleId="AE0A4AB8-9453-421C-95BA-53019D458903"
 />
 # Deploy your C# bot using Visual Studio
 
