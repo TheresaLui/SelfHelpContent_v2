@@ -18,7 +18,7 @@
 
 # Azure File Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND
 <!--issueDescription-->
-Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **error code: 0x80c83079 or -2134364039**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the server endpoint deletion failed and the endpoint is now in a partially deleted state.<br/><br/>
+Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c83079 or -2134364039**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the server endpoint deletion failed and the endpoint is now in a partially deleted state.<br/><br/>
 <!--/issueDescription-->
 
 ## **Recommended steps**
