@@ -3,8 +3,8 @@
 	description="Configure Azure Cosmos DB Triggers"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="rnagpal"
-	ms.author="rnagpal"
+	authors="jimsch"
+	ms.author="jimsch"
 	selfHelpType="resource"
 	supportTopicIds="32636793"
 	resourceTags=""
@@ -17,9 +17,37 @@
 
 # Azure Functions trigger for Cosmos DB
 
-## Prerequisites
-
+## Recommended Steps
 Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies).
+
+### Triggers
+
+Azure Cosmos DB supports two types of triggers:  
+
+**Pre-triggers** 
+
+[How to run pre-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers)   
+Azure Cosmos DB provides triggers that can be invoked by performing an operation on an Azure Cosmos item. For example, you can specify a pre-trigger when you are creating an item. In this case, the pre-trigger will run before the item is created. Pre-triggers cannot have any input parameters. If necessary, the request object can be used to update the document body from original request. When triggers are registered, users can specify the operations that it can run with. If a trigger was created with TriggerOperation.Create, this means using the trigger in a replace operation will not be permitted. For examples, see How to write triggers article.
+<br>
+
+**Post-triggers**  
+
+[How to run post-triggers](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)  
+Similar to pre-triggers, post-triggers, are also associated with an operation on an Azure Cosmos item and they don’t require any input parameters. They run after the operation has completed and have access to the response message that is sent to the client. For examples, see How to write triggers article.
+<br>
+
+<table border="1" cellpadding="0" cellspacing="0" valign="top" style='direction:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#ffffff;border-width:
+ 1pt' title="" summary="">
+ <tr>
+  <td style='border-style:solid;border-color:#000000;border-width:1pt;
+  background-color:#e2daf1;vertical-align:top;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style='margin:0in;font-family:Calibri;font-size:14.0pt;color:#000000'>Note</p>
+  Registered triggers don't run automatically when their corresponding operations (create / delete / replace / update) happen. They have to be explicitly called when executing these operations
+  </td>
+ </tr>
+</table>
+
 
 ## Function not receiving any or partial set of changes
 
@@ -57,7 +85,22 @@ The rate at which the changes are delivered to your Function depends greatly on 
 
 ## **Recommended Documents**
 
-* [Introduction](https://docs.microsoft.com/azure/cosmos-db/change-feed)
-* [How to configure and read the Azure Cosmos DB Trigger logs](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)
-* [Create multiple Azure Cosmos DB Triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-create-multiple-cosmos-db-triggers)
-* [Diagnose and troubleshoot issues when using Azure Cosmos DB Trigger in Azure Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions)
+
+
+
+* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)  
+Azure Cosmos DB provides language-integrated, transactional execution of JavaScript. When using the SQL API in Azure Cosmos DB, you can write stored procedures, triggers, and user-defined functions (UDFs) in the JavaScript language. You can write your logic in JavaScript that executed inside the database engine. You can create and execute triggers, stored procedures, and UDFs by using Azure portal, the JavaScript language integrated query API in Azure Cosmos DB or the Cosmos DB SQL API client SDKs.
+
+
+* [How to register and use stored procedures, triggers, and user-defined functions in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs)  
+The SQL API in Azure Cosmos DB supports registering and invoking stored procedures, triggers, and user-defined functions (UDFs) written in JavaScript. You can use the SQL API .NET, .NET Core, Java, JavaScript, Node.js, or Python SDKs to register and invoke the stored procedures. Once you have defined one or more stored procedures, triggers, and user-defined functions, you can load and view them in the Azure portal by using Data Explorer.
+
+
+* [How to configure and read the Azure Cosmos DB Trigger logs](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)  
+This article describes how you can configure your Azure Functions environment to send the Azure Functions trigger for Cosmos DB logs to your configured monitoring solution.
+
+* [Create multiple Azure Cosmos DB Triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-create-multiple-cosmos-db-triggers)  
+This article describes how you can configure multiple Azure Functions triggers for Cosmos DB to work in parallel and independently react to changes.
+
+* [Diagnose and troubleshoot issues when using Azure Cosmos DB Trigger in Azure Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions)  
+This article covers common issues, workarounds, and diagnostic steps, when you use the Azure Functions trigger for Cosmos DB.
