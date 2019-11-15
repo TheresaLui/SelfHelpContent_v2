@@ -46,13 +46,12 @@ Cosmos DB provides several metrics in the Azure Portal to help monitor the healt
     - Instead, identify which client is issuing these operations and consider implementing a backoff policy to send these requests at a lower rate
 
 
-
 ## **Recommended Documents**
 
 * [Monitoring and debugging with metrics in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/use-metrics)  
- Azure Cosmos DB provides metrics for throughput, storage, consistency, availability, and latency. The Azure portal provides an aggregated view of these metrics. You can also view Azure Cosmos DB metrics from Azure Monitor API.
 
+	Azure Cosmos DB provides metrics for throughput, storage, consistency, availability, and latency. The Azure portal provides an aggregated view of these metrics. You can also view Azure Cosmos DB metrics from Azure Monitor API.
 
 * [Monitor Cosmos DB with alerts](https://docs.microsoft.com/azure/cosmos-db/monitor-accounts)  
-You can monitor your Azure Cosmos DB accounts in the Azure portal. For each Azure Cosmos DB account, a full suite of metrics is available to monitor throughput, storage, availability, latency, and consistency.
-Metrics can be reviewed on the Account page, the new Metrics page, or in Azure Monitor.
+
+	You can monitor your Azure Cosmos DB accounts in the Azure portal. For each Azure Cosmos DB account, a full suite of metrics is available to monitor throughput, storage, availability, latency, and consistency. Metrics can be reviewed on the Account page, the new Metrics page, or in Azure Monitor.
