@@ -6,7 +6,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="resource"
-	supportTopicIds="32636793"
+	supportTopicIds="32636793,32688843"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
