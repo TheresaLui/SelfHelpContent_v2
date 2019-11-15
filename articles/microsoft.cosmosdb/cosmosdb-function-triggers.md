@@ -9,7 +9,7 @@
 	supportTopicIds="32636793,32688843"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-function-triggers"
 	displayOrder="123"
 	category="Tools and Connectors"
@@ -32,7 +32,7 @@ Azure Cosmos DB provides triggers that can be invoked by performing an operation
 
 **Post-triggers**  
 
-[How to run post-triggers](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)  
+[How to run post-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)  
 Similar to pre-triggers, post-triggers, are also associated with an operation on an Azure Cosmos item and they don’t require any input parameters. They run after the operation has completed and have access to the response message that is sent to the client. For examples, see How to write triggers article.
 <br>
 
