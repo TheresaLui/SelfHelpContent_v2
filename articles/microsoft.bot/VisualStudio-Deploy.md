@@ -13,7 +13,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="AE0A4AB8-9453-421C-95BA-53019D458903"
 />
-# Deploy your C# bot using Visual Studio
+# Deploy your bot using Visual Studio
 
 ## **Recommended Steps**
 > Note: This topic is for the latest release of the SDK (v4). 
