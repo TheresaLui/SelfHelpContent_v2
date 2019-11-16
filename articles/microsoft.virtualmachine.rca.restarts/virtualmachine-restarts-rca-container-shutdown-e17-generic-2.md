@@ -4,7 +4,7 @@
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="jozende"
+	authors="jozender"
 	ms.author="jozender"
 	displayOrder=""
 	articleId="UnexpectedReboot_E17Generic"
