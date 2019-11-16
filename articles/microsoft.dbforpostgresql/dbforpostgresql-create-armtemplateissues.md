@@ -22,14 +22,15 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-* To familiarize yourself with Azure Resource Manager templates, create a sample template by clicking on **Export Template** in the portal for an existing Azure Database for PostgreSQL server
 * If your deployment is failing:
-  * Make sure your the server name is globally unique
+  * If you are creating a new server, make sure your the server name is globally unique
+  * If you are deploying multiple number of Firewall rules, Virtual Network rules, server parameters or databases in server, make sure you are deploying it in any order serially. By default, the resources are deployed in parallel. Familiarize yourself with [Sample ARM templates](https://github.com/Azure/azure-postgresql/tree/master/arm-templates)
   * Required parameters are set and valid. See the [Azure Database for PostgreSQL REST API](https://docs.microsoft.com/rest/api/postgresql) to understand the valid values of the parameters.
 * Poll the status of the operation after you issue the request. Most operations are asynchronous and can take a few minutes to complete.
 
 ## **Recommended Documents**
 
-* [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/)<br>
-* [Rest API for PostgreSQL](https://docs.microsoft.com/rest/api/postgresql/#)<br>
-* [Resource types and versions](https://docs.microsoft.com/azure/templates/microsoft.dbforpostgresql/allversions)
+* [Deploy multiple number of Firewall rules, Virtual Network rules, server parameters or databases in server](https://github.com/Azure/azure-postgresql/tree/master/arm-templates/ExampleWithMultipleServerProperties)<br>
+* [Create databases in Azure Database for PostgreSQL](https://github.com/Azure/azure-postgresql/tree/master/arm-templates/ExampleWithDatabase)<br>
+* [Create Azure Database for PostgreSQL with multiple firewall rules](https://github.com/Azure/azure-postgresql/tree/master/arm-templates/ExampleWithFirewallRule)<br>
+* [Deploy Azure Database for PostgreSQL with CanNotDelete lock](https://github.com/Azure/azure-postgresql/tree/master/arm-templates/ExampleWithLocks)
