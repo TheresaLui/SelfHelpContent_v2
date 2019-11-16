@@ -20,7 +20,7 @@
 
 ## **Recommended Documents**
 
-* [Access the Serial console of your VM directly](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId)<br>
+* [Access the Serial console of your VM directly](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId)<br>
 * [Understand how to use Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)<br>
 * [Prerequisites for Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#prerequisites)<br>
 * [Get started with Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#get-started-with-the-serial-console)<br>
