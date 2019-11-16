@@ -35,7 +35,7 @@
         },
         {
             "id": "test1",
-            "order": w,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Test1",
             "required": true,
