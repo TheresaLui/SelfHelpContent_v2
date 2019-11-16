@@ -42,7 +42,7 @@
   "description": "Avaliability may be impacted due to high memory fragmentation. Please consider setting maxfragmentationmemory-reserved",
   "longDescription": "Avaliability may be impacted due to high memory fragmentation. Please consider setting maxfragmentationmemory-reserved",
   "potentialBenefits": "Ensure optimal performance and high availability through best practices",
-  "testData":[cabd7983-99cd-4ec6-b92c-2b10e52c2f58,/subscriptions/cabd7983-99cd-4ec6-b92c-2b10e52c2f58],
+  "testData":/subscriptions/cabd7983-99cd-4ec6-b92c-2b10e52c2f58,
   "actions": [
     {
       "actionId": "b92530c0-75c9-4398-a099-3d97a9760a69",
