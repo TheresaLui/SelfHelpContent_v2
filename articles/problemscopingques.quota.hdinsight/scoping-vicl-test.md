@@ -46,9 +46,8 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Test1",
-            "required": true                       
+            "required": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
