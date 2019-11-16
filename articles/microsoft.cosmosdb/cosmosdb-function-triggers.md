@@ -22,7 +22,7 @@ Always make sure you are running the latest version of the [Azure Cosmos DB Exte
 
 ### Triggers
 
-**Note:**  Registered triggers don't run automatically when their corresponding operations (create / delete / replace / update) happen. They have to be explicitly called when executing these operations.
+**Note:**  Registered triggers do not run automatically when their corresponding operations (create / delete / replace / update) happen. They have to be explicitly called when executing these operations.
 <br>
 
 Azure Cosmos DB supports two types of triggers
