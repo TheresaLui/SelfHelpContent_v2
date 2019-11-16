@@ -29,7 +29,7 @@ No SAS token auth failures were found for **<!--$ResourceName-->[ResourceName]<!
 
 Storage requests using SAS to authenticate should pass a valid unexpired token with right permissions to perform the intended operation.
 
-Please look at the reason above and modify the SAS token accordindly. Below are some documents that might assist you.
+Please look at the reason above and modify the SAS token accordingly. Below are some documents that might assist you.
 
    * [SAS error codes](https://docs.microsoft.com/rest/api/storageservices/sas-error-codes)
    * [Create an account SAS](https://docs.microsoft.com/rest/api/storageservices/create-account-sas)
