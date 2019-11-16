@@ -89,7 +89,7 @@ Verify that your Azure Cosmos account's [Firewall configuration](https://docs.mi
 <br>
 
 * [Create multiple Azure Cosmos DB Triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-create-multiple-cosmos-db-triggers)
-* <br>This article describes how you can configure multiple Azure Functions triggers for Cosmos DB to work in parallel and independently react to changes.
+<br>This article describes how you can configure multiple Azure Functions triggers for Cosmos DB to work in parallel and independently react to changes.
 <br>
 
 * [Diagnose and troubleshoot issues when using Azure Cosmos DB Trigger in Azure Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions)<br>
