@@ -24,7 +24,6 @@
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
             "required": true
         },
         {
@@ -37,7 +36,7 @@
         {
             "id": "test0",
             "order": 3,
-            "controlType": "numerictextbox",
+            "controlType": "textbox",
             "displayLabel": "Test0",
             "required": true
         },
