@@ -18,7 +18,7 @@
 # Azure Functions trigger for Cosmos DB
 
 ## Recommended Steps
-*Important: Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies).
+* Important: Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies).
 
 **Triggers**
 <br>
