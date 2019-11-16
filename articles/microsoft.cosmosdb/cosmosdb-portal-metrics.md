@@ -19,11 +19,11 @@
 # Monitor Cosmos DB metrics
 <br>Cosmos DB provides several metrics in the Azure Portal to help monitor the health of your Cosmos DB account including request volume, throughput utilization, and increase in storage growth.
 
-## **Recommended Steps**
+## Recommended Steps
 
 **Metrics show throttling (429) but chart shows consumed throughput doesn't exceed provisioned throughput** 
 <br>
-- Scenario: You are seeing throttling (429) in Metrics, but the Max consumed RU/s per partition key range chart shows you are not exceeding the provisioned throughput on your database or container:
+- Scenario: You are seeing throttling (429) in Metrics, but the Max consumed RU/s per partition key range chart shows you are not exceeding the provisioned throughput on your database or container
 
     -  By default, the Azure Cosmos DB client SDKs for SQL API handle 429s by retrying up to 9 times or 30 seconds. These 429s may never be surfaced to your application, but will still be reflected in the portal metrics.
     - Stored procedures with heavy read or query operation may result in 429s, but may not show as exceeding the provisioned RU in the database or container
@@ -31,14 +31,14 @@
 
 **Metrics show throttling (429) at account level, but no throttles for individual databases or containers**
 <br>
-- Scenario: You are seeing throttles (429) when viewing the metrics at the account level (when Database(s) and Container(s) are filtered to ALL), but not seeing 429s when filtered to any individual database or container:
+- Scenario: You are seeing throttles (429) when viewing the metrics at the account level (when Database(s) and Container(s) are filtered to ALL), but not seeing 429s when filtered to any individual database or container
 
     - When performing a high volume of operations on resources using the RID identifier that result in 429s (as opposed to id property), these 429 will not appear when Metrics are filtered to the resource
     - To have these 429s appear in Metrics, use the id property when performing these operations
 
 **Metadata throttling**
 <br>
-- Scenario: You are seeing high rate of throttling (429) in the System metrics tab, and want to know the cause:
+- Scenario: You are seeing high rate of throttling (429) in the System metrics tab, and want to know the cause
 
     - Metadata throttling can occur when you are performing a high volume of CRUD operations on databases or containers, such as listing databases/containers or querying for offers to see the current provisioned throughput
     - Increasing the RU of the database or container will have no impact and is not recommended

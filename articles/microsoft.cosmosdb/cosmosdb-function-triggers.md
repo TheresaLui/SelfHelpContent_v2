@@ -18,22 +18,24 @@
 # Azure Functions trigger for Cosmos DB
 
 ## Recommended Steps
-Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies).
+**Important:** Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies).
 
-### Triggers
-
-**Note:**  Registered triggers do not run automatically when their corresponding operations (create / delete / replace / update) happen. They have to be explicitly called when executing these operations.
+**Triggers**
+<br>
+*Note:*  Registered triggers do not run automatically when their corresponding operations (create / delete / replace / update) happen. They have to be explicitly called when executing these operations.
 <br>
 
 Azure Cosmos DB supports two types of triggers
 
-**Pre-triggers** 
+**Pre-triggers**
+<br>
 
 [How to run pre-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers)   
 Azure Cosmos DB provides triggers that can be invoked by performing an operation on an Azure Cosmos item. For example, you can specify a pre-trigger when you are creating an item. In this case, the pre-trigger will run before the item is created. Pre-triggers cannot have any input parameters. If necessary, the request object can be used to update the document body from original request. When triggers are registered, users can specify the operations that it can run with. If a trigger was created with TriggerOperation.Create, this means using the trigger in a replace operation will not be permitted. For examples, see How to write triggers article.
 <br>
 
-**Post-triggers**  
+**Post-triggers**
+<br>
 
 [How to run post-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)  
 Similar to pre-triggers, post-triggers, are also associated with an operation on an Azure Cosmos item and they don’t require any input parameters. They run after the operation has completed and have access to the response message that is sent to the client. For examples, see How to write triggers article.
@@ -43,33 +45,31 @@ Similar to pre-triggers, post-triggers, are also associated with an operation on
 **Function not receiving any or partial set of changes**
 
 **Availability**
-<br>The Azure Functions trigger for Cosmos DB currently reads the Change Feed through the **Core (SQL) API**, that means that Mongo, Cassandra, and Table accounts are not yet supported.
+<br>The Azure Functions trigger for Cosmos DB currently reads the Change Feed through the *Core (SQL) API*, that means that Mongo, Cassandra, and Table accounts are not yet supported.
 <br>
 
 **Connectivity**
-<br>
-
-Verify that your Azure Cosmos account's [Firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) has Azure datacenters enabled or the Virtual Network your Function App is associated with (in case you are working with [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)), whitelisted.
+<br>Verify that your Azure Cosmos account's [Firewall configuration](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall) has Azure datacenters enabled or the Virtual Network your Function App is associated with (in case you are working with [App Service or Premium Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#hosting-plan-support)), whitelisted.
 <br>
 
 **Error handling**
-<br>The Azure Functions trigger for Cosmos DB, by default, **won't retry** a batch of changes if there was an unhandled exception during your code execution. This means that, if not handled correctly, when a batch of changes is received by your Function, execution can be stopping and inherently losing part of the batch. Make sure your Function's code has try/catch blocks, especially within any loop, to make sure that any failure in processing one document, does not exit the loop.
+<br>The Azure Functions trigger for Cosmos DB, by default, *won't retry* a batch of changes if there was an unhandled exception during your code execution. This means that, if not handled correctly, when a batch of changes is received by your Function, execution can be stopping and inherently losing part of the batch. Make sure your Function's code has try/catch blocks, especially within any loop, to make sure that any failure in processing one document, does not exit the loop.
 <br>
 
 **Multiplicity**
-<br>The most common scenario, once connectivity and availability problems have been ruled out, is having multiple Azure Functions listening to the **same Monitored Collection** and using the **same Lease Collection**. When two or more Triggers share the same monitored and lease collection, the locking and load balancing algorithm will probably let one of them own the leases, while leaving the other Function out. This is expected, as these configurations should not be duplicated in multiple Triggers.
+<br>The most common scenario, once connectivity and availability problems have been ruled out, is having multiple Azure Functions listening to the *same Monitored Collection* and using the *same Lease Collection*. When two or more Triggers share the same monitored and lease collection, the locking and load balancing algorithm will probably let one of them own the leases, while leaving the other Function out. This is expected, as these configurations should not be duplicated in multiple Triggers.
 <br>
 * If you want multiple Triggers to work independently, listening for changes in the same Monitored Collection, and also share the same Lease Collection for cost optimizations, you need to [configure them with different Prefixes](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs).
-* If you are unsure or don't know about extra Azure Functions running but you know how many Azure Function App instances you have running, you can inspect your Lease Collection and count the number of lease documents within, the distinct values of the **Owner** property in them should be equal to the number of instances of your Function App. If there are more Owners than the known Azure Function App instances, it means that these extra owners are the one "stealing" the changes. In that case, you can mitigate the situation by [configuring a different Prefix](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs).
+* If you are unsure or don't know about extra Azure Functions running but you know how many Azure Function App instances you have running, you can inspect your Lease Collection and count the number of lease documents within, the distinct values of the *Owner* property in them should be equal to the number of instances of your Function App. If there are more Owners than the known Azure Function App instances, it means that these extra owners are the one "stealing" the changes. In that case, you can mitigate the situation by [configuring a different Prefix](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs).
 <br>
 
 **Delay in receiving changes**
 <br>The rate at which the changes are delivered to your Function depends greatly on the speed at which your Function processes each batch. If the rate at which the changes are happening in the Monitored Collection is greater than the rate at which your Function processes them, there will be an increasing lag.
 <br>
 1. Is your Azure Function deployed in the same region as your Azure Cosmos account? For optimal network latency, both the Azure Function and your Azure Cosmos account should be colocated in the same Azure region.
-2. Are the changes happening in your Azure Cosmos container continuous or sporadic? If it's the latter, there could be some delay between the changes being stored and the Azure Function picking them up. This is because internally, when the trigger checks for changes in your Azure Cosmos container and finds none pending to be read, it will sleep for a configurable amount of time (5 seconds, by default) before checking for new changes (to avoid high RU consumption). You can configure this sleep time through the **FeedPollDelay/feedPollDelay** setting in the [configuration](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2#trigger---configuration) of your trigger (the value is expected to be in milliseconds).
+2. Are the changes happening in your Azure Cosmos container continuous or sporadic? If it's the latter, there could be some delay between the changes being stored and the Azure Function picking them up. This is because internally, when the trigger checks for changes in your Azure Cosmos container and finds none pending to be read, it will sleep for a configurable amount of time (5 seconds, by default) before checking for new changes (to avoid high RU consumption). You can configure this sleep time through the *FeedPollDelay/feedPollDelay* setting in the [configuration](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2#trigger---configuration) of your trigger (the value is expected to be in milliseconds).
 3. Your Azure Cosmos container might be [rate-limited](https://docs.microsoft.com/azure/cosmos-db/request-units)
-4. You can use the **PreferredLocations** attribute in your trigger to specify a comma-separated list of Azure regions to define a custom preferred connection order
+4. You can use the *PreferredLocations* attribute in your trigger to specify a comma-separated list of Azure regions to define a custom preferred connection order
 5. If working on App Service/Premium Plan, you can increase the number of instances or the size of the instances to accommodate your compute/processing needs
 6. Try and optimize the Function to do as few things as possible to reduce execution time, you can always apply a Fan-Out pattern for any lengthy operation
 <br>
@@ -81,7 +81,7 @@ Verify that your Azure Cosmos account's [Firewall configuration](https://docs.mi
 <br>
 
 * [How to register and use stored procedures, triggers, and user-defined functions in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs)
-<br>The SQL API in Azure Cosmos DB supports registering and invoking stored procedures, triggers, and user-defined functions (UDFs) written in JavaScript. You can use the SQL API .NET, .NET Core, Java, JavaScript, Node.js, or Python SDKs to register and invoke the stored procedures. Once you have defined one or more stored procedures, triggers, and user-defined functions, you can load and view them in the Azure portal by using Data Explorer.  
+<br>The SQL API in Azure Cosmos DB supports registering and invoking stored procedures, triggers, and user-defined functions (UDFs) written in JavaScript. You can use the SQL API .NET, .NET Core, Java, JavaScript, Node.js, or Python SDKs to register and invoke the stored procedures. Once you have defined one or more stored procedures, triggers, and user-defined functions, you can load and view them in the Azure portal by using Data Explorer.
 <br>
 
 * [How to configure and read the Azure Cosmos DB Trigger logs](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)
@@ -92,5 +92,5 @@ Verify that your Azure Cosmos account's [Firewall configuration](https://docs.mi
 <br>This article describes how you can configure multiple Azure Functions triggers for Cosmos DB to work in parallel and independently react to changes.
 <br>
 
-* [Diagnose and troubleshoot issues when using Azure Cosmos DB Trigger in Azure Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions)<br>
-This article covers common issues, workarounds, and diagnostic steps, when you use the Azure Functions trigger for Cosmos DB.
+* [Diagnose and troubleshoot issues when using Azure Cosmos DB Trigger in Azure Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions)
+<br>This article covers common issues, workarounds, and diagnostic steps, when you use the Azure Functions trigger for Cosmos DB.
