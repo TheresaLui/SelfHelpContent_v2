@@ -14,7 +14,6 @@
 	resourceTags="windows, linux"
 	productPesIds="14749"
 	cloudEnvironments="public"
-	articleId="b4fdeb8c-24f5-4b86-8dce-7815a258336a"
 />
 # We ran diagnostics on your resource and found an issue
 
