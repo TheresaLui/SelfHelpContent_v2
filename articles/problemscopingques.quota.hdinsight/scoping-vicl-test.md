@@ -38,14 +38,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Test0",
-            "required": true
+            "required": false
         },
         {
             "id": "test1",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Test1",
-            "required": true
+            "required": false
         }
     ]
 }
