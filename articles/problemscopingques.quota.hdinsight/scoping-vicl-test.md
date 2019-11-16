@@ -24,6 +24,7 @@
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
