@@ -18,28 +18,35 @@
     "resourceRequired": false,
     "title": "Troubleshoot custom image deployment failures",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-            "title": "Virtual machine deployment diagnostics",
-            "description": "These diagnostics will check for details about your selected deployment failure.",
-            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
-            "id": "test0",
+            "id": "problem_description",
             "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+        {
+            "id": "test0",
+            "order": 3,
             "controlType": "numerictextbox",
             "displayLabel": "Test0",
-            "required": true,
-            "min": -10,
-            "max": 10,
-            "numberType": "integer"
+            "required": true
         },
         {
             "id": "test1",
-            "order": 2,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Test1",
-            "required": true,
-            "regex": "ab*c"                        
+            "required": true                       
         }
     ],
     "$schema": "SelfHelpContent"
