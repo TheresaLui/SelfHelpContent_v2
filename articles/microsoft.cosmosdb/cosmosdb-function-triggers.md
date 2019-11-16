@@ -18,7 +18,7 @@
 # Azure Functions trigger for Cosmos DB
 
 ## Recommended Steps
-**Important:** Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies).
+*Important: Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies).
 
 **Triggers**
 <br>
@@ -27,22 +27,19 @@
 
 Azure Cosmos DB supports two types of triggers
 
-**Pre-triggers**
-<br>
-
-[How to run pre-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers)   
+* Pre-triggers
+<br>[How to run pre-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#pre-triggers)   
 Azure Cosmos DB provides triggers that can be invoked by performing an operation on an Azure Cosmos item. For example, you can specify a pre-trigger when you are creating an item. In this case, the pre-trigger will run before the item is created. Pre-triggers cannot have any input parameters. If necessary, the request object can be used to update the document body from original request. When triggers are registered, users can specify the operations that it can run with. If a trigger was created with TriggerOperation.Create, this means using the trigger in a replace operation will not be permitted. For examples, see How to write triggers article.
 <br>
 
-**Post-triggers**
+* Post-triggers
+<br>[How to run post-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)  
+Similar to pre-triggers, post-triggers, are also associated with an operation on an Azure Cosmos item and they do not require any input parameters. They run after the operation has completed and have access to the response message that is sent to the client. For examples, see How to write triggers article.
 <br>
 
-[How to run post-triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers)  
-Similar to pre-triggers, post-triggers, are also associated with an operation on an Azure Cosmos item and they don’t require any input parameters. They run after the operation has completed and have access to the response message that is sent to the client. For examples, see How to write triggers article.
-<br>
 
+**Function not receiving any or partial set of changes**  
 
-**Function not receiving any or partial set of changes**
 
 **Availability**
 <br>The Azure Functions trigger for Cosmos DB currently reads the Change Feed through the *Core (SQL) API*, that means that Mongo, Cassandra, and Table accounts are not yet supported.
