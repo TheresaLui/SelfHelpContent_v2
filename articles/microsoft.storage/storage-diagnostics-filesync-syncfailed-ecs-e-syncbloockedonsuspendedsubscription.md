@@ -22,5 +22,5 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 <!--/issueDescription-->
 
 ## **Recommended Documents**
-See [Why is my Azure subscription disabled and how do I reactivate it?](https://docs.microsoft.com/en-us/azure/billing/billing-subscription-become-disable) for more information.
+See [Why is my Azure subscription disabled and how do I reactivate it?](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable) for more information.
 
