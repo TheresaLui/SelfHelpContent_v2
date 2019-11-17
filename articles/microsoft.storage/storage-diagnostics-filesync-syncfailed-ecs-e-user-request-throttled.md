@@ -3,7 +3,7 @@
 	description="Sync failed error - user request throttled"
     infoBubbleText="See details on the right"
 	service="microsoft.storage"
-	resource="storageaccounts"
+	resource="storage"
 	authors="passaree"
 	ms.author="passap"
 	displayOrder=""
