@@ -8,14 +8,14 @@
     ms.author="vitalyg"
     selfHelpType="generic"
     articleId="need-help-writing-log-queries"
-    productPesIds="15693"
-    supportTopicIds="32602208"
+    productPesIds="16250"
+    supportTopicIds="32684768"
     cloudEnvironments="public"
  />
 
 # <-- need-help-writing-log-queries -->
 
-## I am new to Log Analytics and need help writing a query or My query doesn’t produce the expected result
+You experience one of the following issues: **I am new to Log Analytics and need help writing a query** or **My query doesn’t produce the expected result**
 
 ## **Recommended Steps**
 
