@@ -16,7 +16,7 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Azure File Sync failed error - JET_errWriteConflict
+# Azure File Sync failed error - JET_ErrWriteConflict
 <!--issueDescription-->
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code 0x8e5e044e or -1906441138**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs when there is a problem with the internal database used by Azure File Sync.<br/><br/>
 <!--/issueDescription-->
