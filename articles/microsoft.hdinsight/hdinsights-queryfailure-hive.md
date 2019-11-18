@@ -16,7 +16,7 @@
 
 # Azure HDInsight Hive Troubleshooting
 
-## ***Recommended Steps***
+## **Recommended Steps**
 ### **Troubleshooting**
 
 * Job failures/long running jobs could be caused due to insufficient resources on the cluster for yarn to allocate containers for already executing applications. We recommend to retry the job when sufficient resources are available. You can check Ambari for 
