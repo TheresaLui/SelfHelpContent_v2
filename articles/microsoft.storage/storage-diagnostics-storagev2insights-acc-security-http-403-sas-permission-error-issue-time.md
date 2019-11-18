@@ -18,10 +18,15 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 # Connections to storage account endpoint were blocked due to SAS token failures
 <!--issueDescription-->
-Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** as the SAS token presented was not valid to perform the operation.   **<br><br> Sample list of blocked requests with failure reason:<br>** <!--$SampleRequestTable-->[SampleRequestTable]<!--/$SampleRequestTable-->
+Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** as the SAS token presented was not valid to perform the operation. 
+
+**Sample list of blocked requests with failure reason:**
+
+<!--$SampleRequestTable-->[SampleRequestTable]<!--/$SampleRequestTable-->
+
 <!--/issueDescription-->
 
-Note:- There may be more client IPs for which requests were blocked. To view the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
+**Note**: There may be more client IPs for which requests were blocked. To view the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
 ## **Recommended Steps**
 
@@ -29,7 +34,9 @@ Storage requests using SAS to authenticate should pass a valid unexpired token w
 
 Please look at the reason above and modify the SAS token accordingly. Below are some documents that might assist you.
 
-   * [SAS error codes](https://docs.microsoft.com/rest/api/storageservices/sas-error-codes)
-   * [Create an account SAS](https://docs.microsoft.com/rest/api/storageservices/create-account-sas)
-   * [Create a service SAS](https://docs.microsoft.com/rest/api/storageservices/create-service-sas)
+## **Recommended Documents** 
+
+* [SAS error codes](https://docs.microsoft.com/rest/api/storageservices/sas-error-codes)
+* [Create an account SAS](https://docs.microsoft.com/rest/api/storageservices/create-account-sas)
+* [Create a service SAS](https://docs.microsoft.com/rest/api/storageservices/create-service-sas)
 
