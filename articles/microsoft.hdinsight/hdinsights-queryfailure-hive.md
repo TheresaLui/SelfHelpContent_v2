@@ -17,11 +17,12 @@
 # Azure HDInsight Hive Troubleshooting
 
 ## **Recommended Steps**
+
 ### **Troubleshooting**
 
 * Job failures/long running jobs could be caused due to insufficient resources on the cluster for yarn to allocate containers for already executing applications. We recommend to retry the job when sufficient resources are available. You can check Ambari for 
-available resources by following article [here](https://docs.microsoft.com/azure/hdinsight/hdinsight-changing-configs-via-ambari#apache-hive-optimization)
-* Check out [Apache Hive Optimization](https://docs.microsoft.com/azure/hdinsight/hdinsight-changing-configs-via-ambari#apache-hive-optimization) for configuration options like  vectorization, parallel execution etc. which will optimize your Apache Hive performance.
+available resources by following article [here](https://docs.microsoft.com/azure/hdinsight/hdinsight-changing-configs-via-ambari#apache-hive-optimization).
+* Check out [Apache Hive Optimization](https://docs.microsoft.com/azure/hdinsight/hdinsight-changing-configs-via-ambari#apache-hive-optimization) for configuration options like vectorization, parallel execution, and more which will optimize your Apache Hive performance
 * [How to resolve poor performance in Apache Hive LLAP queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/interactive-query-troubleshoot-query-performance)
 * [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
 * [How to resolve Out of Memory error?](https://hdinsight.github.io/hive/hive-join-oom.html)
