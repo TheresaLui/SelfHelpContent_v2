@@ -70,7 +70,7 @@
 			"id": "discoverdb_Script",
 			"order": 5,
 			"controlType": "dropdown",
-			"infoBalloonText": "Info: The script can be foundhere",
+			"infoBalloonText": "Info: The script can be found here",
 			"displayLabel": "Have you run the script available on the Discover DB pane?",
 			"dropdownOptions": [{
 					"value": "Yes",
