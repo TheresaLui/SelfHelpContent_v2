@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* If you're using a custom script action, review the logs associated with the script action to investigate whether they may be causing a problem. For more information on reviewing logs, see [Troubleshooting](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting).
+* If you're using a custom script action, review the logs associated with the script action to investigate whether they may be causing a problem. For more information on reviewing logs, see [Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting).
 * If you made customizations to your cluster by installing additional libraries or modifying configurations or .jar files, your changes may have impacted the health and performance of the cluster. You may want to undo your modifications, or create a new cluster and test each modification as you go.
 * If you are having issues with Ambari, try restarting it using the following command:
 
