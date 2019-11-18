@@ -19,3 +19,4 @@
 ## **Recommended Documents**
 
 * [Manage HDInsight clusters by using the Apache Ambari Web UI: Cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#cluster)
+* [Use Azure Monitor logs to monitor HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-oms-log-analytics-tutorial)
