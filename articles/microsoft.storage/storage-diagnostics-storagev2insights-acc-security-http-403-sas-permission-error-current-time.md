@@ -26,6 +26,7 @@ It's possible that there were no SAS auth failures during the time provided or i
 **Sample list of blocked requests with failure reason**
 
 <!--$SampleRequestTable-->[SampleRequestTable]<!--/$SampleRequestTable-->
+
 <!--/issueDescription-->
 
 **Note**: There may be additional client IPs for which requests were blocked. To get the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
