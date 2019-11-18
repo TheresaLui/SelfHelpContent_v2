@@ -16,7 +16,7 @@
     cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Azure File Sync failed error - JET_errLogDiskFull 
+# Azure File Sync failed error - JET_Error_Log_Disk_Full 
 <!--issueDescription-->
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x8e5e0211 or -1906441711**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the volume has filled up. This error commonly occurs because files outside the server endpoint are using up space on the volume.<br/><br/>
 <!--/issueDescription-->
