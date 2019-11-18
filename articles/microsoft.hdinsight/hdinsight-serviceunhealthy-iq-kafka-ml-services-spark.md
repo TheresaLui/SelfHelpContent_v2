@@ -22,7 +22,7 @@
 * If you made customizations to your cluster by installing additional libraries or modifying configurations or .jar files, your changes may have impacted the health and performance of the cluster. You may want to undo your modifications, or create a new cluster and test each modification as you go.
 * If you are having issues with Ambari, try restarting it using the following command:
 
-   `sudo systemctl restart ambari-server`
+  sudo systemctl restart ambari-server
 
 * If you're trying to reach links in the Ambari UI that are not exposed to the internet, such as JobTracker, you must [create an SSH tunnel with HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-linux-ambari-ssh-tunnel).
 
