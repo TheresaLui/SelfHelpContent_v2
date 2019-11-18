@@ -18,6 +18,5 @@
 
 ## **Recommended Steps**
 
-* Learn how to [Authorize users for Apache Ambari Views](https://docs.microsoft.com/azure/hdinsight/hdinsight-authorize-users-to-ambari).
-
-* If you receive the error "403 - Forbidden: Access is denied.You do not have permission to view this directory or page using the credentials that you supplied." refresh your internet browser cache and try loading the Ambari web page again.
+* Learn how to [Authorize users for Apache Ambari Views](https://docs.microsoft.com/azure/hdinsight/hdinsight-authorize-users-to-ambari)
+* If you receive the error "403 - Forbidden: Access is denied. You do not have permission to view this directory or page using the credentials that you supplied." refresh your internet browser cache and try loading the Ambari web page again
