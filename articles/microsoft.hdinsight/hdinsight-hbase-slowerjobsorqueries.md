@@ -5,7 +5,7 @@
     resource="clusters"
     authors="ramakoni1"
     ms.author="deeptivu"
-    displayOrder=""
+    displayOrder="12"
     selfHelpType="resource"
     supportTopicIds="32636451"
     resourceTags=""
