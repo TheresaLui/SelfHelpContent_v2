@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to upload file(s) due to error _**ECS_E_SYNC_ITEM_SKIP**_
 
 <!--issueDescription-->
-Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **storageSyncServiceName** due to **error code: 0x80c80205 or -2134375931**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs because the file was skipped but will be synced during the next sync session.<br/><br/>
+Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c80205 or -2134375931**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs because the file was skipped but will be synced during the next sync session.<br/><br/>
 <!--/issueDescription-->
 
 
