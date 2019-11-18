@@ -18,7 +18,7 @@
 
 Most users are able to address their SQL manageability questions using the documentation listed below. 
 
-**If you are facing an issue with a particular manageability feature such as licensing, backup or SQL administration**, please create this support request under the service "SQL Server in VM - Windows" for better support engagement.
+**If you are facing an issue with a particular manageability feature such as SQL licensing, backup or administration**, please create this support request under the service "SQL Server in VM - Windows" for better support engagement.
 
 ## **Recommended documents**
 * [Overview of SQL Server on Azure Virtual Machines](https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/)<br>
