@@ -35,7 +35,7 @@ Note that Microsoft Support teams can offer support only for the following situa
 * Issues or errors that occur when loading a custom script. Any errors that occur during the execution of custom scripts are outside the scope of a support ticket.
 * Applications and libraries that are part the default cluster creation process.
 
-## Recommended documents
+## **Recommended documents**
 
 * [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
