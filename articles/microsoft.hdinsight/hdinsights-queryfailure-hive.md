@@ -16,17 +16,18 @@
 
 # Azure HDInsight Hive Troubleshooting
 
-## **Recommended Documents**
+### **Troubleshooting**
+
+* Job failures/long running jobs could be caused due to insufficient resources on the cluster for yarn to allocate containers for already executing applications. We recommend to retry the job when sufficient resources are available. You can check Ambari for 
+available resources by following article [here](https://docs.microsoft.com/azure/hdinsight/hdinsight-changing-configs-via-ambari#apache-hive-optimization)
+* Check out [Apache Hive Optimization](https://docs.microsoft.com/azure/hdinsight/hdinsight-changing-configs-via-ambari#apache-hive-optimization) for configuration options like  vectorization, parallel execution etc. which will optimize your Apache Hive performance.
+* [How to resolve poor performance in Apache Hive LLAP queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/interactive-query-troubleshoot-query-performance)
+* [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
+* [How to resolve Out of Memory error?](https://hdinsight.github.io/hive/hive-join-oom.html)
+
+## **Configuration**
 
 * [Scheduling Hive queries](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive#scheduling-hive-queries)
 * [Use Apache Hive to query Apache Hbase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-tutorial-get-started-linux#use-apache-hive-to-query-apache-hbase)
-* [Configure Apache Hive policies in HDInsight with Enterprise Security Package](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-run-hive)
+* [Configure Apache Hive ranger policies to restrict access to Hive tables](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-run-hive)
 * [Run Apache Hive queries using the Data Lake tools for Visual Studio](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-use-hive-visual-studio)
-
-### **Troubleshooting**
-
-* [Troubleshoot a slow or failing job on a HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
-* [Optimize Apache Hive queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
-* [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
-* [Improve Hive query performance](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive#improve-hive-query-performance)
-* [Why do some joins in Hive give an Out of Memory error?](https://hdinsight.github.io/hive/hive-join-oom.html)
