@@ -26,4 +26,5 @@
 ### Troubleshooting specific scenarios
 
 * If you are using the hbase hbck command and get timeout errors, see [Timeouts with 'hbase hbck' command in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/hbase-troubleshoot-timeouts-hbase-hbck).
+
 * If your restart operation fails, see [Restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed.html).
