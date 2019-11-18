@@ -1,24 +1,24 @@
 <properties
-pageTitle="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
-description="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
-infoBubbleText="See details on the right"
-service="microsoft.storage"
-resource="storage"
-authors="passaree"
-ms.author="passap"
-displayOrder=""
-articleId="FileSync_FailedError_ECS_E_AUTH_IDENTITY_NOT_FOUND"
-diagnosticScenario="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
-selfHelpType="diagnostics"
-supportTopicIds=""
-resourceTags=""
-productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	pageTitle="Sync failed error - JET_errLogDiskFull "
+	description="Sync failed error - JET_errLogDiskFull"
+    infoBubbleText="See details on the right"
+	service="microsoft.storage"
+	resource="storage"
+	authors="passaree"
+	ms.author="passap"
+	displayOrder=""
+    articleId="FileSync_FailedError_JET_errLogDiskFull"
+    diagnosticScenario="Sync failed error - JET_errLogDiskFull "
+    selfHelpType="diagnostics"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Azure File Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND
+# Azure File Sync failed error - JET_errLogDiskFull 
 <!--issueDescription-->
-Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **error code: 0x8e5e0211 or -1906441711**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the volume has filled up. This error commonly occurs because files outside the server endpoint are using up space on the volume.<br/><br/>
+Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x8e5e0211 or -1906441711**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the volume has filled up. This error commonly occurs because files outside the server endpoint are using up space on the volume.<br/><br/>
 <!--/issueDescription-->
 
 ## **Recommended steps**
