@@ -29,7 +29,7 @@ The following steps may help you troubleshoot issues when a service running on H
   sudo systemctl restart ambari-server
 
 
-* If jobs on the cluster are running slow or failing, follow the steps in [Troubleshoot a slow or failing job on a HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster).
+* If jobs on the cluster are running slow or failing, follow the steps in [Troubleshoot a slow or failing job](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster).
 
 Note that Microsoft Support teams can offer support only for the following situations:
 * Issues or errors that occur when loading a custom script. Any errors that occur during the execution of custom scripts are outside the scope of a support ticket.
