@@ -26,7 +26,7 @@ available resources by following article [here](https://docs.microsoft.com/azure
 * [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
 * [How to resolve Out of Memory error?](https://hdinsight.github.io/hive/hive-join-oom.html)
 
-## **Configuration**
+### **Configuration**
 
 * [Scheduling Hive queries](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive#scheduling-hive-queries)
 * [Use Apache Hive to query Apache Hbase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-tutorial-get-started-linux#use-apache-hive-to-query-apache-hbase)
