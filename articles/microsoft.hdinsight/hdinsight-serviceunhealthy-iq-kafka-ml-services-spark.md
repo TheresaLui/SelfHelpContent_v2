@@ -22,9 +22,9 @@ The following steps may help you troubleshoot issues when a service running on H
 
 * If you made customizations to your cluster by installing additional libraries, modifying configurations or .jar files, your changes may have impacted the health and performance of the cluster. You may want to undo your modifications, or create a new cluster and test each modification as you go.
 
-* If you're using a custom script action, review the logs associated with the script action to investigate whether they may be causing a problem. For more information on reviewing logs, see [Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting).
+* If you're using a custom script action, review the logs associated with the script action to investigate whether they may be causing a problem. For more information, see [Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting).
 
-* If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues), or try restarting Ambari using the following command:
+* If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues), or try restarting Ambari using the following command:
 
   sudo systemctl restart ambari-server
 
