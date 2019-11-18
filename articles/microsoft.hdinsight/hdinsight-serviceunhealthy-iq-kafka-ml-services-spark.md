@@ -21,20 +21,15 @@
 The following steps may help you troubleshoot issues when a service running on HDInsight is down, won't start, or doesn't work as expected:
 
 * If you made customizations to your cluster by installing additional libraries, modifying configurations or .jar files, your changes may have impacted the health and performance of the cluster. You may want to undo your modifications, or create a new cluster and test each modification as you go.
-
 * If you're using a custom script action, review the logs associated with the script action to investigate whether they may be causing a problem. For more information, see [Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting).
-
-* If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues), or try restarting Ambari using the following command:
-
-  sudo systemctl restart ambari-server
-
-
-* If jobs on the cluster are running slow or failing, follow the steps in [Troubleshoot a slow or failing job](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster).
+* If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues), or try restarting Ambari using the following command: `sudo systemctl restart ambari-server`
+* If jobs on the cluster are running slow or failing, follow the steps in [Troubleshoot a slow or failing job](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 
 Note that Microsoft Support teams can offer support only for the following situations:
-* Issues or errors that occur when loading a custom script. Any errors that occur during the execution of custom scripts are outside the scope of a support ticket.
-* Applications and libraries that are part the default cluster creation process.
 
-## **Recommended documents**
+* Issues or errors that occur when loading a custom script. Any errors that occur during the execution of custom scripts are outside the scope of a support ticket.
+* Applications and libraries that are part the default cluster creation process
+
+## **Recommended Documents**
 
 * [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
