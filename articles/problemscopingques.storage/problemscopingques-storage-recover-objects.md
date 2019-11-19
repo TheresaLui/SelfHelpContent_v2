@@ -69,7 +69,7 @@
             "order": 2,
             "visibility":"service_type == rg",
             "controlType": "textbox",
-            "displayLabel": "Name of the deleted resource group",
+            "displayLabel": "Name of the deleted resource group"
             "watermarkText": "ResourceGroupName",
             "required": true
         },
@@ -224,19 +224,10 @@
             "required": false
         },
         {
-            "id": "problem_approx_time",
-            "order": 16,
-            "visibility": "service_type == blob_container",
-            "controlType": "datetimepicker",
-            "displayLabel": "Local start time when object was deleted",
-            "required": false
-        },
-        {
             "id": "problem_start_time",
             "order": 17,
-            "visibility": "service_type != blob_container",
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate local time when object was deleted",
+            "displayLabel": "Local start time when object was deleted",
             "required": true
         },
         {
