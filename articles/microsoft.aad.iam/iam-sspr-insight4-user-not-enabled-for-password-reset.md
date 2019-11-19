@@ -25,8 +25,8 @@ Administrators in your Azure AD have not enabled <!--$UserId-->[UserId]<!--/$Use
 
 To enable <!--$UserId-->[UserId]<!--/$UserId--> for self-service password reset:
 
-1. Navigate to the **Azure Active Directory** page in the Azure portal. Then select **Password reset** and **Properties**.
-2. In the section for **Self Service Password Reset Enabled**, choose **Selected**, and select a group in which <!--$UserId-->[UserId]<!--/$UserId--> is a member. Or choose **All** to enable self-service password reset for all users in your Azure AD. 
+1. Navigate to the **Azure Active Directory** page in the Azure portal, then select **Password reset** and **Properties**
+2. In the section for **Self Service Password Reset Enabled**, choose **Selected**, and select a group in which <!--$UserId-->[UserId]<!--/$UserId--> is a member or choose **All** to enable self-service password reset for all users in your Azure AD
 
 ## **Recommended Documents**
 
