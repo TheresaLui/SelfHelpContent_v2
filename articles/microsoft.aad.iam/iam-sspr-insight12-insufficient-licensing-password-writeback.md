@@ -17,7 +17,7 @@
 />
 
 # Insufficient licensing for password writeback
-<!--/issueDescription-->
+<!--issueDescription-->
 Your Azure AD does not have licenses required to use the password writeback capabilities of Azure AD. <!--$UserId-->[UserId]<!--/$UserId--> is a synchronized into Azure AD from your Windows Server AD.
 
 In order for that user to change their password from the cloud, you must obtain the required licenses and enable password writeback for your Azure AD.

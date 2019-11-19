@@ -17,7 +17,7 @@
 />
 
 # User is an administrator
-<!--/issueDescription-->
+<!--issueDescription-->
 <!--$UserId-->[UserId]<!--/$UserId--> is an administrator of this Azure AD. An Azure AD administrator must pass a two-gate password reset process in order to reset their own forgotten password. Administrators cannot use security questions to reset their own password. If you are testing your self-service password reset policy, conduct that testing with a user who is not an Azure AD administrator.
 <!--/issueDescription-->
 

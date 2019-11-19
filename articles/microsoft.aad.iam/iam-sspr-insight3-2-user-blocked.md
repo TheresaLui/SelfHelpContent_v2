@@ -17,7 +17,7 @@
 />
 
 # User is blocked
-<!--/issueDescription-->
+<!--issueDescription-->
 Administrators in your Azure AD have not enabled <!--$UserId-->[UserId]<!--/$UserId--> to reset their own forgotten password.
 <!--/issueDescription-->
 

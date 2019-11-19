@@ -17,7 +17,7 @@
 />
 
 # Security questions are not enabled for password reset
-<!--/issueDescription-->
+<!--issueDescription-->
 Administrators of your Azure AD have not enabled security questions as an allowed method for a user to reset their forgotten password.
 <!--/issueDescription-->
 

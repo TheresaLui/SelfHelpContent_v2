@@ -17,7 +17,7 @@
 />
 
 # Self-service password reset not enabled
-<!--/issueDescription-->
+<!--issueDescription-->
 Administrators of your Azure AD have not enabled self-service password reset for your users. Users who are not assigned to an administrator role in Azure AD cannot reset their own forgotten passwords.
 <!--/issueDescription-->
 

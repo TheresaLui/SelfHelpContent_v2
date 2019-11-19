@@ -17,7 +17,7 @@
 />
 
 # Password Writeback is Not Working
-<!--/issueDescription-->
+<!--issueDescription-->
 <!--$UserId-->[UserId]<!--/$UserId-->  is not able to change or reset their password because password writeback is not currently working in your Azure AD.
 <!--/issueDescription-->
 
