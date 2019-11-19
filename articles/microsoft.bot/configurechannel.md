@@ -19,7 +19,7 @@
 
 You can connect your bot to different channels by accessing the Channels blade in your bot resource:
 
-![Channels blade](https://docs.microsoft.com/en-us/azure/bot-service/media/channels/connect-to-channels.png?view=azure-bot-service-4.0)
+![Channels blade](https://docs.microsoft.com/azure/bot-service/media/channels/connect-to-channels.png?view=azure-bot-service-4.0)
 
 ### **Troubleshooting Channel Configuration Problems**
 
@@ -32,10 +32,10 @@ When you click on a channel to configure it in your Channels blade...
 
 * If the frame for the channel loads but it says you're not authorized to configure that channel for your bot, this could mean the owner of your Azure directory needs to give you permission to use that channel. This can happen with the Cortana channel.
 
-* For other problems that are related to a specific channel, you can find channel-specific information for each channel in the [Azure Bot Service Documentation](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0) under How-To > Manage > Channels. The configuration page for each channel in the Channels blade in the Azure portal also links directly to that channel's document.
+* For other problems that are related to a specific channel, you can find channel-specific information for each channel in the [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0) under How-To > Manage > Channels. The configuration page for each channel in the Channels blade in the Azure portal also links directly to that channel's document.
 
 ## **Recommended Documents**
 
-* [Connect a bot to channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels)
-* [Troubleshoot bot configuration issues](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-troubleshoot-bot-configuration)
+* [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels)
+* [Troubleshoot bot configuration issues](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-bot-configuration)
 * [Managing my bot settings](https://github.com/meetshamir/SelfHelpContent/blob/master/articles/microsoft.bot/Kyle%20-%20Managing%20my%20bot%20configuration%20(settings).md)
