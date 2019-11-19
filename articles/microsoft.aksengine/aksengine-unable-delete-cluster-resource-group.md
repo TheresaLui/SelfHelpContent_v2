@@ -23,6 +23,6 @@ To delete the cluster itself, use the **az group** delete command to delete the 
 az group delete --name myResourceGroup --yes --no-wait
 ```
 
-## *Recommended documents**
+## **Recommended Documents**
 
 [Cleanup resources](https://docs.microsoft.com/azure/aks/use-multiple-node-pools#clean-up-resources)
