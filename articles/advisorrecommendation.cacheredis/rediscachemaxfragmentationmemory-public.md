@@ -1,8 +1,8 @@
 <properties
     pageTitle="Availability may be impacted from high memory fragmentation. Increase the value of your fragmentation memory reservation to avoid potential impact."
     description="Availability may be impacted from high memory fragmentation. Increase the value of your fragmentation memory reservation to avoid potential impact."
-    authors="AzureCacheFT"
-    ms.author="AzureCacheFT"
+    authors="suryaren"
+    ms.author="suryaren"
     articleId="7c380315-6ad9-4fb2-8930-a8aeb1d6241b_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
@@ -40,7 +40,7 @@
   "version": 1.0,
   "learnMoreLink": "http://aka.ms/redis/recommendations/memory-policies",
   "description": "Availability may be impacted from high memory fragmentation. Increase the value of your fragmentation memory reservation to avoid potential impact.",
-  "longDescription": "Avaliability may be impacted due to high memory fragmentation. Please consider setting maxfragmentationmemory-reserved",
+  "longDescription": "Reservation of memory for fragmentation helps in reducing the cache failures. Memory fragmentation can happen due to several reasons, more documentation is available at https://redis.io/topics/memory-optimization. It is recommended to set atleast 5% of maxmemory for fragmentation purposes. Reservation can be set via maxfragmentationmemory-reserved setting under advanced settings.",
   "potentialBenefits": "Avoid availability incidents when your cache has high memory fragmentation",
   "testData":"cabd7983-99cd-4ec6-b92c-2b10e52c2f58,/subscriptions/cabd7983-99cd-4ec6-b92c-2b10e52c2f58/resourceGroups/Investigate-Redis/providers/Microsoft.Cache/Redis/test123",
   "actions": [
