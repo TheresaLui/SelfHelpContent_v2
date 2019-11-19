@@ -51,7 +51,7 @@
 	{
             "id": "taxid_details1",
             "order": 2,
-	    "visibility": "offertype_details == No","offertype_details == "dont_know_answer",
+	    "visibility": "offertype_details == No",
             "controlType": "textbox",
             "displayLabel": "VAT, TAX ID or PO Number",
             "watermarkText": "Provide your VAT, TAX ID or PO Number",
