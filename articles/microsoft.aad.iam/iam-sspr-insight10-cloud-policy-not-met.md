@@ -17,8 +17,9 @@
 />
 
 # User did not meet cloud password policy
-<!--/issueDescription-->
+<!--issueDescription-->
 While attempting to change their password, <!--$UserId-->[UserId]<!--/$UserId--> tried to select a password that doesn’t meet Microsoft’s password requirements for cloud users.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
