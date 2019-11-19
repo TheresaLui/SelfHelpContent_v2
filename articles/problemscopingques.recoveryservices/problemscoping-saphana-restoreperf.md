@@ -77,7 +77,7 @@
             "id": "restore_Type1",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Which restore is taking longer than expected? ?",
+            "displayLabel": "Which restore is taking longer than expected?",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {

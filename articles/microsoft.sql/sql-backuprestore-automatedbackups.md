@@ -31,8 +31,7 @@ SQL Database automatically creates database backups that can be used to restore 
 
 * [You can change the backup retention period](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630409/#how-to-change-the-pitr-backup-retention-period) for a database to 7, 14, 21, 28, or 35 days via the Azure Portal, PowerShell, or the REST API:
 
-	* The default retention period for Standard and Premium databases is 35 days (5 weeks)
-	* The default retention period for Basic and vCore-based databases is 7 days
+	* The default retention period for databases is 7 days
 
 * You cannot view a list of automated backups:
 

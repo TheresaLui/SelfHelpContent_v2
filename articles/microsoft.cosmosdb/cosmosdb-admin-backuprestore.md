@@ -9,13 +9,14 @@
 	supportTopicIds="32636805, 32636825"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-admin-backuprestore"
 	displayOrder="1"
 	category="CosmosDB Backup and Restore"
 />
 
 # Backup and restore
+Most users are able to resolve their Backup and Restore case using the steps below.
 
 ## **Recommended Steps**
 
