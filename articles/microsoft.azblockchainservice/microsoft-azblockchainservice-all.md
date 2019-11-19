@@ -20,9 +20,9 @@
 
 ### Important
 
-**Azure Blockchain Workbench** is currently in public preview. For more information, see Supplemental Terms of Use for Microsoft Azure Previews. Azure Blockchain Workbench is provided without a service level agreement. Use the Azure Blockchain forum for support
+**Azure Blockchain Workbench** is currently in public preview. For more information, see Supplemental Terms of Use for Microsoft Azure Previews. Azure Blockchain Workbench is provided without a service level agreement. Use the Azure Blockchain forum for support.
 
-* [What is Azure Blockchain Workbench?](https://docs.microsoft.com/azure/blockchain/workbench/overview).
+* [What is Azure Blockchain Workbench?](https://docs.microsoft.com/azure/blockchain/workbench/overview)
 
 ## **Recommended Documents**
 
