@@ -25,9 +25,7 @@ You can connect your bot to different channels by accessing the Channels blade i
 
 When you click on a channel to configure it in your Channels blade:
 
-* If you see the error message "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable."
-
-	This is currently a bug with the Direct Line Speech channel that some users encounter. Unfortunately there is not a mitigation at this time other than to try a different Azure account.
+* If you see the error message "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.", this is currently a bug with the Direct Line Speech channel that some users encounter. Unfortunately there is not a mitigation at this time other than to try a different Azure account.
 
 * If the frame for the channel loads but it says you're not authorized to configure that channel for your bot, this could mean the owner of your Azure directory needs to give you permission to use that channel. This can happen with the Cortana channel.
 
