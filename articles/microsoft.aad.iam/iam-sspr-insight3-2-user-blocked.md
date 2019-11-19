@@ -18,9 +18,16 @@
 
 # User is blocked
 <!--/issueDescription-->
-We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has been blocked from signing into the tenant. The password for this user cannot be changed or reset until their account is unblocked.
+Administrators in your Azure AD have not enabled <!--$UserId-->[UserId]<!--/$UserId--> to reset their own forgotten password.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
+To enable <!--$UserId-->[UserId]<!--/$UserId--> for self-service password reset:
+
+1. Navigate to the **Azure Active Directory** page in the Azure portal. Then select **Password reset** and **Properties**.
+2. In the section for **Self Service Password Reset Enabled**, choose **Selected**, and select a group in which <!--$UserId-->[UserId]<!--/$UserId--> is a member. Or choose **All** to enable self-service password reset for all users in your Azure AD..
+
+## **Recommended Documents**
 
 * To unblock this user, follow the instructions listed in [this article](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-unblock-user)
