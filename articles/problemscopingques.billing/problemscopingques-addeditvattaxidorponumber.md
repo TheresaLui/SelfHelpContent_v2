@@ -25,15 +25,134 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
+	{
+	 "id": "taxexempt_details",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Requesting tax exempt?",
+            "watermarkText": "Requesting tax exempt?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other"
+                }
+            ],
+            "required": true
+	},	
         {
-            "id": "taxid_details",
+            "id": "taxid_details1",
             "order": 2,
+	    "visibility": "offertype_details == Other" || "offertype_details == No",
             "controlType": "textbox",
             "displayLabel": "VAT, TAX ID or PO Number",
             "watermarkText": "Provide your VAT, TAX ID or PO Number",
             "required": true
         },
-        {
+	{
+            "id": "taxexempt_details2",
+            "order": 5,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": " Provide the Country",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details3",
+            "order": 6,
+            "visibility": "offertype_details == Yes",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Seller (MS) Name/Address",
+            "required": true
+        },
+	{
+            "id": "taxexempt_details4",
+            "order": 7,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Customer (Tax Payer) Full Legal Name",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details5",
+            "order": 8,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Signature and/or effective date of exemption",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details6",
+            "order": 9,
+            "visibility": "offertype_details == Yes",
+            "controlType": "multilinetextbox",
+            "displayLabel": "State(s) the certificate is applicable to",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details7",
+            "order": 10,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Customer (Tax Payer) Number",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details8",
+            "order": 11,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Reason for exemption",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details9",
+            "order": 12,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Type of Property/Service being purchased",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details10",
+            "order": 11,
+            "visibility": "offertype_details == Yes",
+            "controlType": "multilinetextbox",
+            "displayLabel": "If certificate is applicable for all current and future transactions or just the current transaction",
+            "required": false
+	   },
+	   {
+            "id": "taxexempt_details11",
+            "order": 13,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Signature",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details12",
+            "order": 14,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Title",
+            "required": false
+        },
+	{
+            "id": "taxexempt_details13",
+            "order": 15,
+            "visibility": "offertype_details == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Printed name of the signature",
+            "required": false
+        },
+	{
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
