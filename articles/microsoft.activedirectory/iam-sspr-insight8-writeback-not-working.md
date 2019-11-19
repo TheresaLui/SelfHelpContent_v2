@@ -18,15 +18,15 @@
 
 # Password Writeback is Not Working
 <!--issueDescription-->
-<!--$UserId-->[UserId]<!--/$UserId-->  is not able to change or reset their password because password writeback is not currently working in your Azure AD.
+<!--$UserId-->[UserId]<!--/$UserId--> is not able to change or reset their password because password writeback is not currently working in your Azure AD.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 To check the status of password writeback in your Azure AD:
 
-1. Navigate to the *Azure Active Directory* page in the Azure portal. Then select *Password reset*.
-2. Select *On-premises integration* to see the status of password writeback capabilities for your Azure AD.
+1. Navigate to the *Azure Active Directory* page in the Azure portal, then select *Password reset*
+2. Select *On-premises integration* to see the status of password writeback capabilities for your Azure AD
 
 To troubleshoot and fix this issue, follow the [password writeback troubleshooting guide](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-troubleshoot#troubleshoot-password-writeback).
 
