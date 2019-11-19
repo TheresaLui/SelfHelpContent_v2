@@ -19,4 +19,4 @@ AKS engine is used to upgrade the cluster originally [deployed with the tool](ht
 
 ## **Recommended Steps**
 
-Verify the [supported upgrade versions](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-upgrade?view=azs-1908#steps-to-upgrade).
+* Verify the [supported upgrade versions](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-upgrade?view=azs-1908#steps-to-upgrade)
