@@ -25,8 +25,8 @@ Administrators of your Azure AD have not enabled self-service password reset for
 
 To enable self-service password reset for non-administrative users:
 
-1. Navigate to the **Azure Active Directory** page in the Azure portal. Then select **Password reset** and **Properties**.
-2. In the section for **Self Service Password Reset Enabled**, choose **Selected** or **All**.
+1. Navigate to the **Azure Active Directory** page in the Azure portal, then select **Password reset** and **Properties**
+2. In the section for **Self Service Password Reset Enabled**, choose **Selected** or **All**
 
 ## **Recommended Documents**
 
