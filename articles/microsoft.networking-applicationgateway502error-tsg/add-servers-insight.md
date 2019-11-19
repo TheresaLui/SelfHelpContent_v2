@@ -18,5 +18,5 @@ cloudEnvironments="Public" />
 # Application Gateway 502 Error: Add Servers Insight
 
 <!--issueDescription-->
-Backend Address Pool is empty. If the backend pool is empty and there is no server to forward the request, Application Gateway returns HTTP 502 to the client. To resolve this, add servers to the backend pool.
+Backend Address Pool is empty. If the backend pool is empty and there is no server to forward the request, Application Gateway returns HTTP 502 to the client. <br>To resolve this, add servers to the backend pool.
 <!--/issueDescription-->
