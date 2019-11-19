@@ -22,9 +22,9 @@ Blob recovery is only possible under the following conditions.  Please check if:
 
 1.	This is a critical production data
 2.	A new blob with the same name has not been re-created 
-3.	Blob was deleted in the last:
-	a) 7 days for standard storage
-	b) 3 days for premium storage
+3.	Blob was deleted in the last:<br>
+	a) 7 days for standard storage<br>
+	b) 3 days for premium storage<br>
 
 **Note:** As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. Recovery is a best-effort process, this blob may not be recoverable even when all conditions above are true.<br>
 
