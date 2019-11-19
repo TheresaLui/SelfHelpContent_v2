@@ -51,11 +51,11 @@
 	{
             "id": "taxid_details1",
             "order": 2,
-	    "visibility": "offertype_details == No",
+	    "visibility": "offertype_details == No","offertype_details == "dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "VAT, TAX ID or PO Number",
             "watermarkText": "Provide your VAT, TAX ID or PO Number",
-            "required": true
+            "required": false
         },
 	{
             "id": "taxexempt_details2",
@@ -63,7 +63,7 @@
             "visibility": "offertype_details == Yes",
             "controlType": "textbox",
             "displayLabel": " Provide the Country",
-            "required": false
+            "required": true
         },
 	{
             "id": "taxexempt_details3",
@@ -79,7 +79,7 @@
             "visibility": "offertype_details == Yes",
             "controlType": "textbox",
             "displayLabel": "Customer (Tax Payer) Full Legal Name",
-            "required": false
+            "required": true
         },
 	{
             "id": "taxexempt_details5",
