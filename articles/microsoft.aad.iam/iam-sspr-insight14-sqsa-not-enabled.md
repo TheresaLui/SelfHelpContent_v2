@@ -25,9 +25,9 @@ Administrators of your Azure AD have not enabled security questions as an allowe
 
 To enable security questions:
 
-1. Navigate to the **Azure Active Directory** page in the Azure portal. Then select **Password reset** and **Authentication methods**.
-2. Select the checkbox to enable **Security questions**.
-3. Configure the security questions that will be available for end users to reset their forgotten passwords, and click **Save**.
+1. Navigate to the **Azure Active Directory** page in the Azure portal, then select **Password reset** and **Authentication methods**
+2. Select the checkbox to enable **Security questions**
+3. Configure the security questions that will be available for end users to reset their forgotten passwords, and click **Save**
 
 
 ## **Recommended Documents**
