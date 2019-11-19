@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Add Edit VAT TAX ID or PO Number",
     "fileAttachmentHint": "",
     "formElements": [
