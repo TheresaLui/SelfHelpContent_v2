@@ -69,7 +69,7 @@
             "order": 2,
             "visibility":"service_type == rg",
             "controlType": "textbox",
-            "displayLabel": "Name of the deleted resource group"
+            "displayLabel": "Name of the deleted resource group",
             "watermarkText": "ResourceGroupName",
             "required": true
         },
