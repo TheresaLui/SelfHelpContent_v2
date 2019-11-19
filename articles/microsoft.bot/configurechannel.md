@@ -38,4 +38,4 @@ When you click on a channel to configure it in your Channels blade...
 
 * [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels)
 * [Troubleshoot bot configuration issues](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-bot-configuration)
-* [Managing my bot settings](https://github.com/meetshamir/SelfHelpContent/blob/master/articles/microsoft.bot/Kyle%20-%20Managing%20my%20bot%20configuration%20(settings).md)
+
