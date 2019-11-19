@@ -23,7 +23,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Problem Start Date",
-            "required": true
+	    "required": true
         },
 	{
 	 "id": "taxexempt_details",
@@ -43,11 +43,11 @@
 		{
                     "value": "dont_know_answer",
                     "text": "Other"
-                }
-            ],
-            "required": true
-	},	
-        {
+		 }
+		],
+		"required": true
+		},
+	{
             "id": "taxid_details1",
             "order": 2,
 	    "visibility": "offertype_details == No",
@@ -122,7 +122,7 @@
         },
 	{
             "id": "taxexempt_details10",
-            "order": 11,
+            "order": 13,
             "visibility": "offertype_details == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "If certificate is applicable for all current and future transactions or just the current transaction",
@@ -130,7 +130,7 @@
 	   },
 	   {
             "id": "taxexempt_details11",
-            "order": 13,
+            "order": 14,
             "visibility": "offertype_details == Yes",
             "controlType": "textbox",
             "displayLabel": "Signature",
@@ -138,7 +138,7 @@
         },
 	{
             "id": "taxexempt_details12",
-            "order": 14,
+            "order": 15,
             "visibility": "offertype_details == Yes",
             "controlType": "textbox",
             "displayLabel": "Title",
@@ -146,7 +146,7 @@
         },
 	{
             "id": "taxexempt_details13",
-            "order": 15,
+            "order": 16,
             "visibility": "offertype_details == Yes",
             "controlType": "textbox",
             "displayLabel": "Printed name of the signature",
