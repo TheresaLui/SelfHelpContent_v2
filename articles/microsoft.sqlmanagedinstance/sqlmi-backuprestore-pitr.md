@@ -27,7 +27,7 @@ Managed Instance takes [automatic backups](https://docs.microsoft.com/azure/sql-
 
 ### Automatic Backups
 
-- If you want to check your backup storage cost, use [Azure Subsctiption Cost Analysis](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups#storage-costs)
+- If you want to check your backup storage cost, use [Azure Subscription Cost Analysis](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups#storage-costs)
 - If you want to monitor automatic backup requests, [create an XEvent session](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases#monitor-progress-with-xevent) that traces **sqlserver.backup_restore_progress_trace** event
 - If you want to verify that recent automatic backups are completed, look at the error log or use [Azure Data Studio Managed instance extension](https://docs.microsoft.com/sql/azure-data-studio/azure-sql-managed-instance-extension#logs)
 - If you want to track the progress of the ongoing automatic backup use [T-SQL to query Dynamic Management views](https://docs.microsoft.com/sql/t-sql/statements/restore-statements-transact-sql?view=azuresqldb-mi-current#restore-mi-database-progress)
