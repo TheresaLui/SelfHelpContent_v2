@@ -9,7 +9,7 @@
 	supportTopicIds="32688846"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-portal-dxseerror"
 	displayOrder="80"
 	category="Portal"
@@ -28,11 +28,16 @@
 * If VNET is enabled, navigate to the "Firewall and virtual networks" pane and ensure:
 
 	1. The setting "Allow access from Azure Portal" is enabled
-	1. If you are accessing the Portal from outside the VNET and want to view data, you will need to add your current IP Address to the Firewall. If you are within the VNET, only step 1 is required. 
+	<br>
+	![throughput visual](https://docs.microsoft.com/azure/cosmos-db/media/how-to-configure-firewall/enable-azure-portal.png)  
 
+	<br>
+
+	2. If you are accessing the Portal from outside the VNET and want to view data, you will need to add your current IP Address to the Firewall. If you are within the VNET, only step 1 is required. 
 	If you have followed these steps and receive a 403 "Unable to proceed with the request. Please check the authorization claims to ensure the required permissions to process the request" error, please contact us for support and provide the ActivityId of the message. The ActivityId can be found in the yellow notification bar at the bottom of the Data Explorer screen. 
 
 * If you do not have permission to view or change VNET/Firewall settings for your account, contact your Cosmos account owner to enable the above
+
 
 ### **Metrics**
 
@@ -40,9 +45,9 @@
 
 - Scenario: You are seeing throttling (429) in Metrics, but the **Max consumed RU/s per partition key range** chart shows you are not exceeding the provisioned throughput on your database or container:
 
-    -  By default, the Azure Cosmos DB client SDKs for SQL API handle 429s by retrying up to 9 times or 30 seconds. These 429s may never be surfaced to your application, but will still be reflected in the portal metrics.
-    - Stored procedures with heavy read or query operation may result in 429s, but may not show as exceeding the provisioned RU in the database or container
-    - As a [best practice](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs), stored procedures should be used for write operations that require ACID transactions against a single partition key value. Perform read and query operations using the client SDKs for best performance and RU utilization.
+    1. By default, the Azure Cosmos DB client SDKs for SQL API handle 429s by retrying up to 9 times or 30 seconds. These 429s may never be surfaced to your application, but will still be reflected in the portal metrics.
+    2. Stored procedures with heavy read or query operation may result in 429s, but may not show as exceeding the provisioned RU in the database or container
+    3. As a [best practice](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs), stored procedures should be used for write operations that require ACID transactions against a single partition key value. Perform read and query operations using the client SDKs for best performance and RU utilization.
 
 **Metrics show throttling (429) at account level, but no throttles for individual databases or containers** 
 
@@ -74,11 +79,25 @@
 * Built-in notebooks for Azure Cosmos DB are currently available in the following Azure regions: Australia East, East US, East US 2, North Europe, South Central US, Southeast Asia, UK South, West Europe and West US 2
 * To use notebooks, create a new account with notebooks or enable notebooks on an existing account in one of these regions
 
-## **Recommended Documents**
+## **Recommended Documents**  
 
-* Review [Get started with Azure Cosmos DB MongoDB API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction#how-to-get-started) for building MongoDB API applications
-* [Virtual Networks](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
-* [Firewalls](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
-* [Stored procedures, triggers, UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)
-* [Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
-* [How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
+
+
+[Virtual Networks](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
+<br>You can configure Azure Cosmos DB accounts to allow access from only a specific subnet of an Azure virtual network. 
+
+[How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
+<br>Learn how you can set an IP firewall on the Azure Cosmos DB account using the following
+* From the Azure portal
+* Declaratively by using an Azure Resource Manager template
+* Programmatically through the Azure CLI or Azure PowerShell by updating the ipRangeFilter property
+
+[Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)  
+Azure Cosmos DB provides language-integrated, transactional execution of JavaScript. When using the SQL API in Azure Cosmos DB, you can write stored procedures, triggers, and user-defined functions (UDFs) in the JavaScript language. You can write your logic in JavaScript that executed inside the database engine. You can create and execute triggers, stored procedures, and UDFs by using Azure portal, the JavaScript language integrated query API in Azure Cosmos DB or the Cosmos DB SQL API client SDKs.
+<br>
+
+[Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
+<br>This article describes how to enable this feature for your Azure Cosmos DB account.  
+
+[How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
+<br>This article describes how to use built-in notebook commands and features to do common operations.
