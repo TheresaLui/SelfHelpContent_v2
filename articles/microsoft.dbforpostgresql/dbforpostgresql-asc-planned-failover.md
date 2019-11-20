@@ -24,7 +24,7 @@ The server <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--
 ## **Recommended Steps**
 
 1. In most of the cases, errors like the above are transient in nature and your database server will come back online automatically. Please try to reconnect to your server to see if the server is back online. 
-2. You can also look at the Resource Health Check to see the current state of your server. 
+2. You can also look at the Resource Health Check to see the current state of your server.
 
 ## **Recommended Documents**
 
