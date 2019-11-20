@@ -4,7 +4,7 @@
 	service="Microsoft.BotService"
 	resource="botServices"
 	authors="arturl,meetshamir"
-	ms.author="v-thdurn,snandan,dandris,arturl,saziz,"
+	ms.author="v-thdurn,snandan,dandris,arturl,saziz"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds="32688621"
