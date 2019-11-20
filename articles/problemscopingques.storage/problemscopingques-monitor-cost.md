@@ -39,7 +39,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": false
         },
 	  {
             "id": "container_level_capacity",
@@ -61,7 +61,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": false
         },
 	{
             "id": "log_retention",
@@ -83,7 +83,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": false
         },
 	{
             "id": "audit_action",
@@ -105,7 +105,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
