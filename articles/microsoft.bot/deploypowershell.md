@@ -16,9 +16,9 @@
 # Deploy using PowerShell
 
 ## **Recommended Steps**
-Deploying using PowerShell is not the recommended approach. We recommend making use of the [Bot Framework's CLI](https://github.com/microsoft/botframework-cli/blob/master/README.md)
 
+Deploying using PowerShell is not the recommended approach. We recommend making use of the [Bot Framework's CLI](https://github.com/microsoft/botframework-cli/blob/master/README.md).
 
 ## **Recommended Documents**
 
-[Deploy your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0&tabs=csharp)
+* [Deploy your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0&tabs=csharp)
