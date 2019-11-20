@@ -60,19 +60,20 @@ If you want to extend access to any Azure service that's not part of the virtual
 
 ## **Recommended Documents**
 
-* [How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
+[How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
 <br>
 Learn how you can set an IP firewall on the Azure Cosmos DB account using the following
+<br>
 - From the Azure portal
 - Declaratively by using an Azure Resource Manager template
 - Programmatically through the Azure CLI or Azure PowerShell by updating the ipRangeFilter property
 
 
-* [Frequently Asked Questions: How to configure access from virtual networks (VNet)](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
+[Frequently Asked Questions: How to configure access from virtual networks (VNet)](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
 <br>
 This article describes how to configure a virtual network service endpoint for an Azure Cosmos DB account, and provides answers to frequently asked questions.
 
 
-* [IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/firewall-support)
+[IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/firewall-support)
 <br>
 This article provides an IP access control overview
