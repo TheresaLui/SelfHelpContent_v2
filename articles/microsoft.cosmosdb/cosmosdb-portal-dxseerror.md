@@ -26,8 +26,7 @@
 
 * If you are not able to view your data including databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account
 * If VNET is enabled, navigate to the "Firewall and virtual networks" pane and ensure:
-<br>
-- The setting "Allow access from Azure Portal" is enabled
+<br>The setting "Allow access from Azure Portal" is enabled
 <br>
 ![throughput visual](https://docs.microsoft.com/azure/cosmos-db/media/how-to-configure-firewall/enable-azure-portal.png)  
 
