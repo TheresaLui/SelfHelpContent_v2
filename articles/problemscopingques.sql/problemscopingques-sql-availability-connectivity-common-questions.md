@@ -50,7 +50,6 @@
 			"displayLabel": "Choose an option that best describes your AAD issue.",
 			"required": true,
 			"infoBalloonText": "AAD Issue category",
-			"diagnosticInputRequiredClients": "Portal, ASC",
 			"dropdownOptions": [
 					{
 							"text": "Logging using AAD",
@@ -66,7 +65,7 @@
 					},
 					{
 							"text": "Other AAD issues",
-							"value": "AADOthers"
+							"value": "dont_know_answer"
 					}
 			],
 			"dynamicDropdownOptions": null,
