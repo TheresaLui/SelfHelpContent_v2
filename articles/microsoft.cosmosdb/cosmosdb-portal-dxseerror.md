@@ -32,8 +32,8 @@ If you are not able to view your data including databases, containers, items (do
 
 <br>
 
-If you are accessing the Portal from outside the VNET and want to view data, you will need to add your current IP Address to the Firewall. If you are within the VNET, only setting *Allow access from Azure Portal* is required
-<br>
+If you are accessing the Portal from outside the VNET and want to view data, you will need to add your current IP Address to the Firewall. If you are within the VNET, only setting *Allow access from Azure Portal* is required.  
+
 If you have followed these steps and receive a 403 "Unable to proceed with the request. Please check the authorization claims to ensure the required permissions to process the request" error, please contact us for support and provide the ActivityId of the message. The ActivityId can be found in the yellow notification bar at the bottom of the Data Explorer screen. 
 
 **Note** If you do not have permission to view or change VNET/Firewall settings for your account, contact your Cosmos account owner to enable the above
@@ -81,7 +81,11 @@ If you have followed these steps and receive a 403 "Unable to proceed with the r
 
 ## **Recommended Documents**  
 
+[Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
+<br>This article describes how to enable this feature for your Azure Cosmos DB account.  
 
+[How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
+<br>This article describes how to use built-in notebook commands and features to do common operations.  
 
 [Virtual Networks](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
 <br>You can configure Azure Cosmos DB accounts to allow access from only a specific subnet of an Azure virtual network. 
@@ -90,14 +94,9 @@ If you have followed these steps and receive a 403 "Unable to proceed with the r
 <br>Learn how you can set an IP firewall on the Azure Cosmos DB account using the following
 * From the Azure portal
 * Declaratively by using an Azure Resource Manager template
-* Programmatically through the Azure CLI or Azure PowerShell by updating the ipRangeFilter property
+* Programmatically through the Azure CLI or Azure PowerShell by updating the ipRangeFilter property  
 
 [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)  
 Azure Cosmos DB provides language-integrated, transactional execution of JavaScript. When using the SQL API in Azure Cosmos DB, you can write stored procedures, triggers, and user-defined functions (UDFs) in the JavaScript language. You can write your logic in JavaScript that executed inside the database engine. You can create and execute triggers, stored procedures, and UDFs by using Azure portal, the JavaScript language integrated query API in Azure Cosmos DB or the Cosmos DB SQL API client SDKs.
-<br>
 
-[Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
-<br>This article describes how to enable this feature for your Azure Cosmos DB account.  
 
-[How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
-<br>This article describes how to use built-in notebook commands and features to do common operations.
