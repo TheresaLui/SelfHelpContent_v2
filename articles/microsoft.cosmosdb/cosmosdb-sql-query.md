@@ -6,7 +6,7 @@
 	authors="ginamr"
 	ms.author="girobins"
 	selfHelpType="generic"
-	supportTopicIds="32636818, 32636821, 32681012, 32684529, 32688838, 32688839, 32688840, 32688841, 32688842, 32688845"
+	supportTopicIds="32636818, 32636821, 32681012, 32684529, 32688838, 32688839, 32688840, 32688841, 32688842, 32688844, 32688845"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
@@ -17,13 +17,13 @@
 
 # SQL queries for Azure Cosmos DB
 
-## **Recommended Steps**
+##Recommended Steps
 
 For optimal query performance, follow the steps from the [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance) article.
 
 The most common issues and workarounds are detailed below. 
 
-### Tune Query Feed Options Parameters 
+**Tune Query Feed Options Parameters**  
 
 Query performance can be tuned via the request's [Feed Options](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.feedoptions?view=azure-dotnet) Parameters. Try setting the below options:
 
@@ -33,7 +33,7 @@ Query performance can be tuned via the request's [Feed Options](https://docs.mic
 
 When comparing performance of different values, try values such as 2, 4, 8, 16, and others.
 
-### Read all results from continuations
+**Read all results from continuations**  
 
 If you think you are not getting all the results, make sure to drain the continuation fully. In other words, keep reading results while the continuation token has more documents to yield.
 
@@ -43,20 +43,20 @@ Fully draining can be achieved with either of the following patterns:
   * Continue processing while query has more results
 
     `
-    // using AsDocumentQuery you get access to whether or not the query HasMoreResults
-    // If it does, just call ExecuteNextAsync until there are no more results
-    // No need to supply a continuation token here as the server keeps track of progress
-    var query = client.CreateDocumentQuery<Family>(collectionLink, options).AsDocumentQuery();
-    while (query.HasMoreResults)
-    {
-        foreach (Family family in await query.ExecuteNextAsync())
-        {
-            families.Add(family);
-        }
-    }
+    // using AsDocumentQuery you get access to whether or not the query HasMoreResults  
+    // If it does, just call ExecuteNextAsync until there are no more results  
+    // No need to supply a continuation token here as the server keeps track of progress  
+    var query = client.CreateDocumentQuery<Family>(collectionLink, options).AsDocumentQuery();  
+    while (query.HasMoreResults)  
+    {  
+        foreach (Family family in await query.ExecuteNextAsync())  
+        {  
+            families.Add(family);  
+        }  
+    }  
     `
 
-### Choose system functions that utilize index
+**Choose system functions that utilize index**  
 
 If the expression can be translated into a range of string values, then it can utilize the index; otherwise, it cannot. 
 
@@ -68,7 +68,7 @@ Here is the list of string functions that can utilize the index:
 
 For more system function details see [System Functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-system-functions).
 
-### Add composite indexes
+**Add composite indexes**  
 
 The following queries can be optimized with a composite index:
  * Queries with a filter as well as an ORDER BY clause
@@ -82,7 +82,7 @@ This query has a filter on name and also has an ORDER BY clause. If you create a
 
 For more details about composite indexes see [Composite Indexes](https://docs.microsoft.com/azure/cosmos-db/index-policy#composite-indexes).
 
-## **Recommended Documents**
+##Recommended Documents
 
 Please refer to documents below on how to get execution statistics and tune your queries:
 
