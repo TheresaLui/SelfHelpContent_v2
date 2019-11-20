@@ -19,7 +19,7 @@
   "title": "Database isn't listed in Azure portal",
   "fileAttachmentHint": "",
 	"diagnosticCard": {
-	  "title": "Database or elastic pool isn't listed in Azure portal Scoping Questions",
+	  "title": "Database or elastic pool isn't listed in Azure portal scoping questions",
 	  "description": "These diagnostics will check for errors with the Database or Elastic Pool",
 	  "insightNotAvailableText": "We did not find any issues."
 	},

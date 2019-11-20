@@ -16,7 +16,7 @@
   "$schema": "SelfHelpContent",
   "resourceRequired": true,
   "subscriptionRequired": true,
-  "title": "Scoping questions for Firewall rules and related issues",
+  "title": "Firewall errors related scoping questions",
   "fileAttachmentHint": "",
 	"diagnosticCard": {
 	  "title": "Scoping questions for Firewall rules and related issues",

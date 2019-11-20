@@ -1,10 +1,10 @@
 <properties
-	pageTitle="availability and connectivity/Configure or use Azure Active Directory authentication"
-	description="availability and connectivity/Configure or use Azure Active Directory authentication"
+	pageTitle="availability and connectivity/Configure or use Azure Active Directory (AAD) authentication"
+	description="availability and connectivity/Configure or use Azure Active Directory (AAD) authentication"
 	service="microsoft.sql"
 	resource="servers"
-	authors="emlisa"
-    ms.author="emlisa"
+	authors="subbuk,VMMicrosoft"
+  ms.author="subbuk,vimahadi"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630414"
@@ -13,7 +13,7 @@
 	articleId="5588022b-a7f5-459a-a238-bf6b26db52b4"
 />
 
-# availability and connectivity/Configure or use Azure Active Directory authentication
+# availability and connectivity/Configure or use Azure Active Directory (AAD) authentication
 
 ## **Recommended Steps**
 

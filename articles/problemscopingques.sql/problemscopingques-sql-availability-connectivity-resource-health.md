@@ -16,10 +16,10 @@
   "$schema": "SelfHelpContent",
   "resourceRequired": true,
   "subscriptionRequired": true,
-  "title": "Resource Health Scoping Questions",
+  "title": "Resource Health scoping questions",
   "fileAttachmentHint": "",
 	"diagnosticCard": {
-	  "title": "Resource Health Scoping Questions",
+	  "title": "Resource Health scoping questions",
 	  "description": "These diagnostics will check for errors and issues with Resource Health",
 	  "insightNotAvailableText": "We did not find any issues."
 	},
