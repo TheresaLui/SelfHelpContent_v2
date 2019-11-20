@@ -34,7 +34,8 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID or job ID of the add or register operation",
-            "watermarkText": "Click on the VM in the replicated items list, view and paste the error code shown for the VM(s)",
+            "watermarkText": "Enter in the error ID or job ID",
+            "infoBalloonText": "Click on the VM in the replicated items list, view and paste the error code shown for the VM(s)",
             "required": false
         },
         {
@@ -78,7 +79,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "watermarkText": "Enter local time",
+            "watermarkText": "Enter in local time",
             "required": true
         },
         {

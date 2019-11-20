@@ -33,7 +33,8 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID of the process server",
-            "watermarkText": "Open a new tab, navigate to Recovery Services Vault, paste the error code seen for the process server in the overview blade",
+            "watermarkText": "Enter in the error ID",
+            "infoBalloonText": "Open a new tab, Open a new tab, navigate to Recovery Services Vault, paste the error code seen for the process server in the overview blade",
             "required": false
         },
         {
@@ -109,7 +110,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "watermarkText": "Enter local time",
+            "watermarkText": "Enter in local time",
             "required": true
         },
         {

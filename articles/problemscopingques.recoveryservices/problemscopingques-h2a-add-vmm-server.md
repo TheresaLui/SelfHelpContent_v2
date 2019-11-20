@@ -85,7 +85,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "watermarkText": "Enter local time",
+            "watermarkText": "Enter in local time",
             "required": true
         },
         {

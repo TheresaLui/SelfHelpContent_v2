@@ -33,7 +33,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID or job ID of the add or register operation",
-            "watermarkText": "",
+            "watermarkText": "Enter in the error or job ID",
             "required": false
         },
         {
@@ -97,7 +97,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "watermarkText": "Enter local time",
+            "watermarkText": "Enter in local time",
             "required": true
         },
         {

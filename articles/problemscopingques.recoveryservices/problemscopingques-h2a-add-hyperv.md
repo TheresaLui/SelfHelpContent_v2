@@ -33,7 +33,8 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID or job ID of the add or register operation",
-            "watermarkText": "Open a new tab, navigate to Recovery Services Vault, click on Jobs & paste error or job id of failed job",
+            "watermarkText": "Enter in the error ID or job ID",
+            "infoBalloonText": "Open a new tab, navigate to Recovery Services Vault, click on Jobs & paste error or job ID of failed job",
             "required": false
         },
         {
@@ -85,7 +86,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "watermarkText": "Enter local time",
+            "watermarkText": "Enter in local time",
             "required": true
         },
         {

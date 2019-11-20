@@ -32,7 +32,8 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID or job ID of the failback operation",
-            "watermarkText": "Open a new tab, navigate to Recovery Services Vault, click on Jobs & paste error or job id of failed failback job",
+            "watermarkText": "Enter in the error or job ID",
+            "infoBalloonText": "Open a new tab, navigate to Recovery Services Vault, click on Jobs & paste error or job ID of failed failback job",
             "required": false
         },
         {
@@ -112,7 +113,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "watermarkText": "Enter local time",
+            "watermarkText": "Enter in local time",
             "required": true
         },
         {

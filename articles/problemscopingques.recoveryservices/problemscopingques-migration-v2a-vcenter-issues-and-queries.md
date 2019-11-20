@@ -34,7 +34,8 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID associated to vCenter seen on the Azure portal",
-            "watermarkText": "Open a new tab, navigate to Recovery Services Vault, paste the error code seen for vCenter in the overview blade",
+            "watermarkText": "Enter in the error ID",
+            "infoBalloonText": "Open a new tab, navigate to Recovery Services Vault, paste the error code seen for vCenter in the overview blade",
             "required": false
         },
         {
@@ -106,7 +107,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "watermarkText": "Enter local time",
+            "watermarkText": "Enter in local time",
             "required": true
         },
         {
