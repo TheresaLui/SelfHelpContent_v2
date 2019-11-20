@@ -111,8 +111,30 @@
         }
 			],
 			"dynamicDropdownOptions": null,
-			"diagnosticInputRequiredClients": "Portal"
+			"diagnosticInputRequiredClients": "Portal",
+			"visibility": "aad_issue_type == AADLogin"
 		},
+		{
+			"id": "aad_is_service_principal",
+			"order": 3000,
+			"controlType": "dropdown",
+			"displayLabel": "Are you logged in as a Service Principal?",
+			"required": false,
+			"infoBalloonText": "Indicate if you are logged in as a service principal?",
+			"dropdownOptions": [
+				{
+					"text": "Yes",
+					"value": "Yes"
+				},
+				{
+					"text": "No",
+					"value": "No"
+				}
+			],
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal",
+			"visibility": "aad_issue_type == AADCreateUser"
+		}
   ]
 }
 ---
