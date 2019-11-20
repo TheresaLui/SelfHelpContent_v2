@@ -116,7 +116,7 @@
 		},
 		{
 			"id": "aad_is_service_principal",
-			"order": 3000,
+			"order": 4000,
 			"controlType": "dropdown",
 			"displayLabel": "Are you logged in as a Service Principal?",
 			"required": false,
