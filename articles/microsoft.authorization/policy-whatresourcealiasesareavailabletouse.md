@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
-    articleId=""
+    articleId="02605244-09e4-4555-903e-b1a3fef6ead7"
 />
 
 # Azure Policy - What resource aliases are available to use in Policy

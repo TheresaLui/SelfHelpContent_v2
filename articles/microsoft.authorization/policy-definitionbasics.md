@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
-    articleId=""
+    articleId="7fbc954e-e95a-42dc-9e26-cd7d852bf570"
 />
 
 # Azure Policy - Policy definition basics

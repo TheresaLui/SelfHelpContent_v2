@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
-    articleId=""
+    articleId="42135ac9-a02b-4e84-9a70-b5d9b5dcaf22"
 />
 
 # Azure Policy - Joining Preview

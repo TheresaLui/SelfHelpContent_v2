@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
-    articleId=""
+    articleId="6a0680da-ed3f-412c-bb93-30e00cfd477c"
 />
 
 # Azure Policy - Policy assignment basics

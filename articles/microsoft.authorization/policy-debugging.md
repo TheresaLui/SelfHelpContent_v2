@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
-    articleId=""
+    articleId="6f03b016-2cf1-4766-b87d-b56e23a2ffb7"
 />
 
 # Azure Policy - Policy Debugging
