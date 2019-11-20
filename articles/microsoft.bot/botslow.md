@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
   1. Make sure your bot's service code has had time to warm up. If the bot is slow only when initially contacting it, and the bot is hosted on an Azure Web App, consider setting the AlwaysOn option (Note: this could increase the cost of running the bot)
-  2. Use the Bot Framework Emulator to connect to your bot's endpoint to see if the problem occurs when talking directly to the bot.
+  2. Use the Bot Framework Emulator to connect to your bot's endpoint to see if the problem occurs when talking directly to the bot
   3. Analyze your bot's behavior and see whether the slowness is due to inefficient external calls or queries, or perform high memory/CPU work
   4. If the bot is receiving large volume of traffic, consider scaling it out (Note: this could increase the cost of running the bot)
   5. If your bot is using Direct Line, changing the client to use Web Sockets will improve performance slightly (50-200ms)
