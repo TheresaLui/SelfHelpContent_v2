@@ -219,6 +219,28 @@
 			"visibility": "aad_issue_type == AADCreateUser"
 		},
 		{
+			"id": "aad_powershell_cli_usage",
+			"order": 4200,
+			"controlType": "dropdown",
+			"displayLabel": "Have you tried using PowerShell or CLI in addition to the Portal interface?",
+			"required": false,
+			"watermarkText": "Yes / No",
+			"infoBalloonText": "Indicate if you have tried using PowerShell or CLI in addition to the Portal interface?",
+			"dropdownOptions": [
+				{
+					"text": "Yes",
+					"value": "Yes"
+				},
+				{
+					"text": "No",
+					"value": "No"
+				}
+			],
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal",
+			"visibility": "aad_issue_type == AADSetupAdmin"
+		},
+		{
 			"id": "aad_setupadmin_issue_type",
 			"order": 4100,
 			"controlType": "dropdown",
