@@ -84,7 +84,7 @@
 			"id": "aad_user_type",
 			"order": 3000,
 			"controlType": "dropdown",
-			"displayLabel": "Choose the type of user that you are using to log in",
+			"displayLabel": "Choose the type of AAD user",
 			"required": true,
 			"watermarkText": "AAD User Types",
 			"infoBalloonText": "AAD User Types",
@@ -112,7 +112,7 @@
 			],
 			"dynamicDropdownOptions": null,
 			"diagnosticInputRequiredClients": "Portal",
-			"visibility": "aad_issue_type == AADLogin"
+			"visibility": "aad_issue_type == AADLogin || aad_issue_type == AADCreateUser"
 		},
 		{
 			"id": "aad_is_service_principal",
