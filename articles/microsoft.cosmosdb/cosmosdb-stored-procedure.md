@@ -3,8 +3,8 @@
 	description="Stored Procedure programming"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="rnagpal"
-	ms.author="rnagpal"
+	authors="mkolt"
+	ms.author="mkolt"
 	selfHelpType="resource"
 	supportTopicIds="32636829"
 	resourceTags=""
@@ -17,7 +17,9 @@
 
 # Troubleshooting stored procedures
 
-## **General Guidelines**
+## **Recommended Steps**
+
+### **General Guidelines**
 
 * Stored procedures are recommended for scenarios that need bulk operations or for scenarios that require transactions. Besides, stored procedures are recommended for write operations. You may run into RU bottlenecks if you use stored procedures for read-only operations.
   * Ideally, stored procedure should do maximum write operations and minimal read and compute operations.
@@ -45,7 +47,7 @@
 * You can debug stored procedures locally using the [Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator) or by adding `console.log()` statements and enabling [Enable Script Logging RequestOption in .NET](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.requestoptions.enablescriptlogging?view=azure-dotnet) or [Enable Script Logging RequestOption in Java](https://docs.microsoft.com/java/api/com.microsoft.azure.documentdb.requestoptions.setscriptloggingenabled?view=azure-java-stable#com_microsoft_azure_documentdb_RequestOptions_setScriptLoggingEnabled_boolean_) via RequestOptions.
   * The limit for log size created by console.log() is 8KB.
 
-## **Frequently Asked Questions**
+### **Frequently Asked Questions**
 
 * Which JavaScript version is used to run server-side scripts?
   It is ES6 with support for ES7 `async await` feature.
@@ -121,7 +123,7 @@
 
   See above, **General Guidelines** section, note about `x-ms-substatus`.
 
-## **Recommended Steps**
+### **Troubleshooting Steps**
 
 The information below is targeted toward specific issues.
 
@@ -149,6 +151,9 @@ The information below is targeted toward specific issues.
 
 ## **Recommended Documents**
 
-* [Cosmos DB Server-side JavaScript API](https://azure.github.io/azure-cosmosdb-js-server/)
-* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)
-* [Server-side script samples](https://github.com/Azure/azure-cosmos-dotnet-v2/tree/fd036405a7de6b8bc4c9fdbc6872b09f9b6e2bf3/samples/code-samples/ServerSideScripts)
+* [Cosmos DB Server-side JavaScript API](https://azure.github.io/azure-cosmosdb-js-server/)<br/>
+This contains reference documentation for server-side scripting API.
+* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)<br/>
+Azure Cosmos DB provides language-integrated, transactional execution of JavaScript. When using the SQL API in Azure Cosmos DB, you can write stored procedures, triggers, and user-defined functions (UDFs) in the JavaScript language. You can write your logic in JavaScript that executed inside the database engine. You can create and execute triggers, stored procedures, and UDFs by using Azure portal, the JavaScript language integrated query API in Azure Cosmos DB or the Cosmos DB SQL API client SDKs.
+* [Server-side script samples](https://github.com/Azure/azure-cosmos-dotnet-v2/tree/fd036405a7de6b8bc4c9fdbc6872b09f9b6e2bf3/samples/code-samples/ServerSideScripts)<br/>
+This contains a variety of sample code snippets and applications built using Azure Cosmos DB and the .NET SDK and server-side scripts written in JavaScript. These samples demonstrate how to use the .NET Client SDK to interact with stored procedures, triggers, and user-defined functions that run on the server-side in the Azure Cosmos DB service.
