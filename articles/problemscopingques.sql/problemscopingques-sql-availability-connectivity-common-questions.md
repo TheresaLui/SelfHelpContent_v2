@@ -88,6 +88,7 @@
 			"infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
 			"required": true,
 			"visibility": "aad_issue_type == AADLogin",
+			"diagnosticInputRequiredClients": "Portal",
 			"content": null,
 			"maxLength": 0,
 			"useAsAdditionalDetails": false,
