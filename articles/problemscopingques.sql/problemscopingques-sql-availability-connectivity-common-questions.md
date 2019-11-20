@@ -84,7 +84,7 @@
 			"id": "aad_login_conditional_errors",
 			"order": 2100,
 			"controlType": "textbox",
-			"displayLabel": "Are the login errors conditional? Ex. Only from certain IPs / Only using Username and Password / Single Sign On (SSO) / Multi Factor Authentication (MFA)",
+			"displayLabel": "Are the login errors conditional? Ex. Only from certain IPs or only when using username and password, or when using Single Sign On (SSO) or when using Multi Factor Authentication (MFA)",
 			"infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
 			"required": true,
 			"visibility": "aad_issue_type == AADLogin",
@@ -95,10 +95,10 @@
 			"numberOfLines": 0
 		},
 		{
-			"id": "aad_user_type",
+			"id": "aad_user_type_login",
 			"order": 3000,
 			"controlType": "dropdown",
-			"displayLabel": "Choose the type of AAD user",
+			"displayLabel": "Choose the type of AAD user that is trying to login",
 			"required": true,
 			"watermarkText": "AAD User Types",
 			"infoBalloonText": "AAD User Types",
@@ -126,7 +126,41 @@
 			],
 			"dynamicDropdownOptions": null,
 			"diagnosticInputRequiredClients": "Portal",
-			"visibility": "aad_issue_type == AADLogin || aad_issue_type == AADCreateUser"
+			"visibility": "aad_issue_type == AADLogin"
+		},
+		{
+			"id": "aad_user_type_create",
+			"order": 3100,
+			"controlType": "dropdown",
+			"displayLabel": "Choose the type of AAD user that you are trying to create",
+			"required": true,
+			"watermarkText": "AAD User Types",
+			"infoBalloonText": "AAD User Types",
+			"dropdownOptions": [
+				{
+					"text": "Service Principal",
+					"value": "AADUserServicePrincipal"
+				},
+				{
+					"text": "Outlook / Office 365 Group",
+					"value": "AADUserOutlookOffice365Group"
+				},
+				{
+					"text": "Guest User",
+					"value": "AADUserGuest"
+				},
+				{
+					"text": "Native User",
+					"value": "AADUserNative"
+				},
+				{
+          "text": "Other",
+          "value": "dont_know_answer"
+        }
+			],
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal",
+			"visibility": "aad_issue_type == AADCreateUser"
 		},
 		{
 			"id": "aad_is_service_principal",
