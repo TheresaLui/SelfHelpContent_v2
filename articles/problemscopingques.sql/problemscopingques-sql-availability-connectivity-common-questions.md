@@ -48,7 +48,7 @@
       "controlType": "dropdown",
       "displayLabel": "Choose an option that best describes your AAD issue.",
       "required": true,
-			"watermarkText": "Common AAD issue Categories",
+			"watermarkText": "Common AAD issue categories",
       "infoBalloonText": "AAD Issue category",
       "dropdownOptions": [
         {
@@ -87,7 +87,7 @@
 			"displayLabel": "Are the login errors conditional? Ex. Only from certain IPs or only when using username and password, or when using Single Sign On (SSO) or when using Multi Factor Authentication (MFA)",
 			"infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
 			"required": true,
-			"visibility": "aad_issue_type == AADLogin",
+			"visibility": "aad_issue_type == AADLogin || aad_issue_type == AADSetupAdmin",
 			"diagnosticInputRequiredClients": "Portal",
 			"content": null,
 			"maxLength": 0,
@@ -163,6 +163,40 @@
 			"visibility": "aad_issue_type == AADCreateUser"
 		},
 		{
+			"id": "aad_user_type_setadmin",
+			"order": 3200,
+			"controlType": "dropdown",
+			"displayLabel": "Choose the type of AAD user that you want to set as an Admin",
+			"required": true,
+			"watermarkText": "AAD User Types",
+			"infoBalloonText": "AAD User Types",
+			"dropdownOptions": [
+				{
+					"text": "Service Principal",
+					"value": "AADUserServicePrincipal"
+				},
+				{
+					"text": "Outlook / Office 365 Group",
+					"value": "AADUserOutlookOffice365Group"
+				},
+				{
+					"text": "Guest User",
+					"value": "AADUserGuest"
+				},
+				{
+					"text": "Native User",
+					"value": "AADUserNative"
+				},
+				{
+          "text": "Other",
+          "value": "dont_know_answer"
+        }
+			],
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal",
+			"visibility": "aad_issue_type == AADSetupAdmin"
+		},
+		{
 			"id": "aad_is_service_principal",
 			"order": 4000,
 			"controlType": "dropdown",
@@ -182,7 +216,36 @@
 			"dynamicDropdownOptions": null,
 			"diagnosticInputRequiredClients": "Portal",
 			"visibility": "aad_issue_type == AADCreateUser"
-		}
+		},
+		{
+			"id": "aad_setupadmin_issue_type",
+			"order": 4100,
+			"controlType": "dropdown",
+			"displayLabel": "Choose the description that best describes the issue that you are facing while setting up the AAD Admin.",
+			"required": true,
+			"infoBalloonText": "Common AAD Admin setup issues",
+			"dropdownOptions": [
+				{
+					"text": "The AAD Object does not appear in the Azure Portal blade",
+					"value": "Does_Not_Appear"
+				},
+				{
+					"text": "The AAD Object appears in the portal blade but is greyed out",
+					"value": "Appears_But_Is_Greyed_Out"
+				},
+				{
+					"text": "When I try to Execution Query Timeout the PowerShell / CLI command it times out",
+					"value": "CLI_Times_Out"
+				},
+				{
+					"text": "My problem is not listed here",
+					"value": "dont_know_answer"
+				}
+			],
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal",
+			"visibility": "aad_issue_type == AADSetupAdmin"
+		}		
   ]
 }
 ---
