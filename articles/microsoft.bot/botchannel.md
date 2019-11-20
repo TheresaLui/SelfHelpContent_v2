@@ -32,7 +32,7 @@
 * [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels)
 * [Implement channel-specific functionality](https://docs.microsoft.com/azure/bot-service/bot-builder-channeldata?view=azure-bot-service-4.0)
 * First Party Channel Availability: 
-  * [Azure]() - Azure Bot Service, Azure portal, App Service, Cognitive Services, etc.
+  * [Azure](https://status.azure.com/status) - Azure Bot Service, Azure portal, App Service, Cognitive Services, etc.
   * [Microsoft Teams](https://docs.microsoft.com/microsoftteams/service-health)
   * [Skype](https://support.skype.com/en/status/)
 * Third Party Channel Availability:
