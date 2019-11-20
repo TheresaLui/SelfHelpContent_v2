@@ -40,8 +40,8 @@
   "version": 1.0,
   "learnMoreLink": "http://aka.ms/redis/recommendations/memory-policies",
   "description": "Availability may be impacted from high memory fragmentation. Increase the value of your fragmentation memory reservation to avoid potential impact.",
-  "longDescription": "Fragmentation and memory pressure can cause availability incidents during a failover or management operations. Increasing reservation of memory for fragmentation 
-  helps in reducing the cache failures when running under high memory pressure. Memory for fragmentation can be increased via maxfragmentationmemory-reserved setting available 
+  "longDescription": "Fragmentation and memory pressure can cause availability incidents during a failover or management operations. Increasing reservation of memory for fragmentation
+  helps in reducing the cache failures when running under high memory pressure. Memory for fragmentation can be increased via maxfragmentationmemory-reserved setting available
   in advanced settings blade.",
   "potentialBenefits": "Avoid availability incidents when your cache has high memory fragmentation",
   "testData":"cabd7983-99cd-4ec6-b92c-2b10e52c2f58,/subscriptions/cabd7983-99cd-4ec6-b92c-2b10e52c2f58/resourceGroups/Investigate-Redis/providers/Microsoft.Cache/Redis/test123",
