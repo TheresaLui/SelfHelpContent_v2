@@ -33,7 +33,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID or job ID of the add or register operation",
-            "watermarkText": "",
+            "watermarkText": "Enter in the error ID or job ID",
             "required": false
         },
         {
