@@ -27,72 +27,72 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "id": "f4749c13-77e9-0e5f-c876-3479513c8f8a",
       "shortDescription": "Issues related to configuring ExpressRoute features",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; feature",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute; configure; feature",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "876b158c-28b8-3c55-eb25-84238e83e6ad",
       "shortDescription": "Configure ExpressRoute to enable hybrid connectivity from on-premises to private and public Microsoft services",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity; hybrid",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute; configure; connectivity; hybrid",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "8fede79d-b4b6-5060-6cd1-1bb536072d8b",
       "shortDescription": "ExpressRoute Direct represents a physical port pair that is used to create logical ExpressRoute circuits",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity; port",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute; configure; connectivity; port",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "ae410b54-ccdd-86ae-a312-54eb9eec8f40",
       "shortDescription": "Configure an ExpressRoute Gateway to enable connectivity between on-premises and a Virtual Network in Azure",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity; on-premises",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute; configure; connectivity; on-premises",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "c8e4e34a-486b-a66b-6e96-3dd6348182d0",
       "shortDescription": "Configure Global reach to enable connectivity between two ExpressRoute circuits",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute; configure; connectivity",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "5743f36c-bc30-8099-cbe8-e0c4791c8ece",
-      "shortDescription": "Create Private and Microsoft peerings to enable layer-3 connectivity between on-premises and public/private Microsoft services",
+      "shortDescription": "Create Private and Microsoft peerings to enable layer-3 connectivity between on-premises and public or private Microsoft services",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity; peering; layer 3",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute; connectivity; peering; layer 3",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "be2a5419-0708-6642-df1f-43c3783aed59",
       "shortDescription": "Enable FastPath to improve the data path performance between your on-premises network and your virtual network",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity; FastPath",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute; connectivity; FastPath",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "8eaac35e-9124-dc3b-38c7-3d4ec4ee318e",
       "shortDescription": "Set up NPM for ExpressRoute",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity; NPM",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute;  NPM",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "5bd657a6-cb0d-20e4-9f31-87f87574a3f7",
       "shortDescription": "Resolve errors related to CLI, Portal, PowerShell or other tools",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity; CLI; Portal; PowerShell",
+      "category": "Configuration",
+      "searchTags": "ExpressRoute; CLI; Portal; PowerShell",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -100,7 +100,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Issues related to ExpressRoute Performance",
       "longDescription": "",
       "category": "Performance",
-      "searchTags": "configure; connectivity; performance",
+      "searchTags": "ExpressRoute; connectivity; performance",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -108,7 +108,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Resolve errors related to connectivity between Azure private and public services",
       "longDescription": "",
       "category": "Connectivity",
-      "searchTags": "configure; connectivity; private; public",
+      "searchTags": "ExpressRoute; connectivity; private; public",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -116,7 +116,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "NPM monitors network performance over ExpressRoute circuits that are configured to use private or Microsoft peering",
       "longDescription": "",
       "category": "Connectivity",
-      "searchTags": "configure; connectivity; peering",
+      "searchTags": "ExpressRoute; connectivity; Performance; peering",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -124,7 +124,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Resolve connectivity issues related to Azure private, public or Dynamics 365 services, via private or Microsoft peering",
       "longDescription": "",
       "category": "Connectivity",
-      "searchTags": "configure; connectivity; private; public; Dynamics 365",
+      "searchTags": "ExpressRoute; connectivity; private; public; Dynamics 365",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -132,15 +132,15 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Resolve issues related to connectivity to Office 365 services over Microsoft peering",
       "longDescription": "",
       "category": "Connectivity",
-      "searchTags": "configure; connectivity; Office 365; peering",
+      "searchTags": "ExpressRoute; connectivity; Office 365; peering",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "d645fedd-0929-e562-e4df-8a83166ec966",
-      "shortDescription": "Issues related to deprovisioning different kinds of ExpressRoute features",
+      "shortDescription": "Issues related to de-provisioning different kinds of ExpressRoute features",
       "longDescription": "",
       "category": "Management",
-      "searchTags": "configure; connectivity; de-provision",
+      "searchTags": "ExpressRoute; connectivity; de-provision",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -148,15 +148,15 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Issues related to deleting an ExpressRoute circuit",
       "longDescription": "",
       "category": "Management",
-      "searchTags": "configure; connectivity; delete",
+      "searchTags": "ExpressRoute circuit; connectivity; delete",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "4493af2a-e701-4326-7785-562eadbbb2fe",
-      "shortDescription": "Issues relating to deleting an ExpressRoute Direct port pair",
+      "shortDescription": "Issues related to deleting an ExpressRoute Direct port pair",
       "longDescription": "",
       "category": "Management",
-      "searchTags": "configure; connectivity; port; delete",
+      "searchTags": "ExpressRoute; port pair; delete",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -164,7 +164,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Issues related to deleting an ExpressRoute Virtual Network Gateway",
       "longDescription": "",
       "category": "Management",
-      "searchTags": "configure; connectivity; delete; gateway",
+      "searchTags": "ExpressRoute; delete; gateway",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -172,7 +172,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Issues related to deleting a Global Reach connection",
       "longDescription": "",
       "category": "Management",
-      "searchTags": "configure; connectivity; delete; reach",
+      "searchTags": "ExpressRoute; delete; Global Reach connection",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -180,7 +180,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Issues related to deleting Microsoft, private or public peering",
       "longDescription": "",
       "category": "Management",
-      "searchTags": "configure; connectivity; delete; peering",
+      "searchTags": "ExpressRoute; public peering; delete; private peering; Microsoft peering",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -188,7 +188,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Issues related to deleting FastPath configuration",
       "longDescription": "",
       "category": "Management",
-      "searchTags": "configure; connectivity; delete; FastPath",
+      "searchTags": "ExpressRoute; delete; FastPath",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -196,7 +196,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Issues related to ExpressRoute Partners or Providers",
       "longDescription": "",
       "category": "Management",
-      "searchTags": "configure; connectivity; partner",
+      "searchTags": "ExpressRoute; partner; providers",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -204,7 +204,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Guidance on ExpressRoute planning and design",
       "longDescription": "",
       "category": "Guidance",
-      "searchTags": "configure; connectivity",
+      "searchTags": "ExpressRoute; planning; design",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -212,7 +212,7 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Guidance on network architecture and design for accessing private Azure services via private peering",
       "longDescription": "",
       "category": "Guidance",
-      "searchTags": "configure; connectivity; peering",
+      "searchTags": "ExpressRoute; network architecture; private; private peering",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
@@ -220,15 +220,15 @@ cloudEnvironments= "public,BlackForest,Fairfax, MoonCake"
       "shortDescription": "Guidance on network architecture and design for accessing Microsoft public services via Microsoft peering",
       "longDescription": "",
       "category": "Guidance",
-      "searchTags": "configure; connectivity; peering",
+      "searchTags": "ExpressRoute; network architecture; connectivity; peering",
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
       "id": "cd0bce80-f830-81f2-8ea6-b5ee643f6f17",
       "shortDescription": "Issues related to BGP support for Network Virtual Appliances via ExpressRoute Gateway",
       "longDescription": "",
-      "category": "Configuration and Setup",
-      "searchTags": "configure; connectivity; BGP",
+      "category": "Management",
+      "searchTags": "ExpressRoute; configure; connectivity; BGP",
       "useInDiagnoseAndSolve": "TRUE"
     }
   ],
