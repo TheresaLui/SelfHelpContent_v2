@@ -21,18 +21,17 @@
   "fileAttachmentHint": "",
   "diagnosticCard": {
     "title": "Azure Active Directory (AAD) authentication scoping questions",
-    "description": "",
-    "insightNotAvailableText": "We did not find any issues."
+    "description": "Scoping questions to capture more details about Azure Active Directory (AAD) authentication issue.",
+    "insightNotAvailableText": "We did not find any issues with your AAD configuration."
   },
   "formElements": [
     {
       "id": "problem_start_time",
       "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "Unavailability start time",
-      "infoBalloonText": "Please provide the start time of the most recent occurrence of unavailability.",
-      "required": true,
-			"diagnosticInputRequiredClients": "Portal"
+      "displayLabel": "Start Time of the AAD Issue",
+      "infoBalloonText": "Please provide the start time of the most recent occurrence of AAD Issue.",
+      "required": true
     },
     {
       "id": "problem_description",
@@ -41,15 +40,15 @@
       "displayLabel": "Additional context to help us solve your issue.",
       "required": true,
       "useAsAdditionalDetails": true,
-      "watermarkText": "On the Basics tab, please ensure you selected a server, database or elastic pool in the Resource dropdown so we know what resource you need assistance with.  Add any additional details that may help us troubleshoot your issue.",
-			"diagnosticInputRequiredClients": "Portal"
+      "watermarkText": "On the basics tab, please ensure that you have selected a server, database or an elastic pool in the resource dropdown. This will let us know the resource that you need assistance with. Please provide any additional details that may help us troubleshoot your issue."
     },
     {
       "id": "aad_issue_type",
-      "order": 3,
+      "order": 10,
       "controlType": "dropdown",
       "displayLabel": "Choose an option that best describes your AAD issue.",
       "required": true,
+			"watermarkText": "Common AAD issue Categories",
       "infoBalloonText": "AAD Issue category",
       "dropdownOptions": [
         {
@@ -74,7 +73,7 @@
     },
     {
       "id": "sqlexception_received_on_client",
-      "order": 4,
+      "order": 2000,
       "controlType": "multilinetextbox",
       "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
       "required": false,
@@ -83,7 +82,7 @@
     },
     {
       "id": "database_name",
-      "order": 5,
+      "order": 3000,
       "controlType": "dropdown",
       "displayLabel": "If you are creating this support request from the SQL Server (and not from a database), choose the impacted database. Note: The dropdown will state 'Response not found' if you are creating this support request from database.",
       "required": false,
