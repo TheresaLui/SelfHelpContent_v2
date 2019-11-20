@@ -19,7 +19,7 @@
 
 ##
 
-##Recommended Steps
+##**Recommended Steps**
 **Review VNet Frequently asked questions**
 [Review frequently asked questions about configuring access from virtual networks](https://docs.microsoft.com/azure/cosmos-db/vnet-service-endpoint)  
 
@@ -60,7 +60,7 @@ If you want to extend access to any Azure service that's not part of the virtual
 
 ##
 
-##Recommended Documents
+##**Recommended Documents**
 
 [How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
 <br>

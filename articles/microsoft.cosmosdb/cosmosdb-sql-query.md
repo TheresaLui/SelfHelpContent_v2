@@ -17,7 +17,7 @@
 
 # SQL queries for Azure Cosmos DB
 
-##Recommended Steps
+##**Recommended Steps**
 
 For optimal query performance, follow the steps from the [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance) article.
 
@@ -82,7 +82,7 @@ This query has a filter on name and also has an ORDER BY clause. If you create a
 
 For more details about composite indexes see [Composite Indexes](https://docs.microsoft.com/azure/cosmos-db/index-policy#composite-indexes).
 
-##Recommended Documents
+##**Recommended Documents**
 
 Please refer to documents below on how to get execution statistics and tune your queries:
 
