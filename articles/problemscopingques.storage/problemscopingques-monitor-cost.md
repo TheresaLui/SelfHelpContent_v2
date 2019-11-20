@@ -4,7 +4,7 @@
 	authors="Sijia"
         ms.author="siz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681644,32681663,32681643,32681419,32681424,32681650"
+	supportTopicIds="32681644,32681663,32681643,32681419,32681424,32681650,32681423,32681422,32681425"
 	productPesIds="15629,16459,16460,16461,16462,16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
@@ -41,16 +41,82 @@
             ],
             "required": true
         },
+	  {
+            "id": "container_level_capacity",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Capacity level capacity question",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "no",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "log_retention",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Log retention question",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "no",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "audit_action",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Audit action related question",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "no",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
