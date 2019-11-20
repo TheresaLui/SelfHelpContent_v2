@@ -139,7 +139,7 @@
       "id": "aad_login_conditional_errors",
       "order": 2100,
       "controlType": "textbox",
-      "displayLabel": "Are the login errors conditional? <br> Ex. Only from certain IPs / Only using Username and Password / Single Sign On (SSO) / Multi Factor Authentication (MFA)",
+      "displayLabel": "Are the login errors conditional? Ex. Only from certain IPs / Only using Username and Password / Single Sign On (SSO) / Multi Factor Authentication (MFA)",
       "infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
       "required": true,
 			"visibility": "aad_issue_type == AADLogin",
