@@ -24,6 +24,7 @@
 **Can't access your Cosmos DB account from the Azure Portal**
 <br>
 * If you can't access your Cosmos DB account from the Azure Portal after enabling IP firewall or adding your account to a virtual network, make sure to tick the "Allow access from Azure Portal" checkbox on the "Firewall and virtual networks" section  
+![throughput visual](https://docs.microsoft.com/azure/cosmos-db/media/how-to-configure-firewall/enable-azure-portal.png)  
 
 **Can I "Accept connections from within public Azure datacenters" when service endpoint access is enabled for Azure Cosmos DB?**
 <br>
@@ -32,7 +33,8 @@
 **The Option 'Accept connection from within public Azure datacenters' is not selected**
 <br>
 [Cosmos DB Article: Allow requests from global Azure datacenters or other sources within Azure](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)
-* Adding 0.0.0.0 as a whitelisted IP does not allow access for any other IP ranges to your Azure Cosmos DB account.  
+* The 0.0.0.0 address restricts requests to your Azure Cosmos DB account from Azure datacenter IP range. This setting does not allow access for any other IP ranges to your Azure Cosmos DB account.  
+
 
 
 **If you are having connectivity issues with your Cosmos DB account with IP firewall enabled**
