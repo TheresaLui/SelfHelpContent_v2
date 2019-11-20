@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [Policy for AKU](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks#opt-in-for-preview)
+* [Policy for AKS](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks#opt-in-for-preview)
