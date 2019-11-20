@@ -24,4 +24,4 @@ Server endpoint creation failed under the Storage Sync Service resource  **<!--$
 
 ## **Recommended Documents**
 
-[Azure File Sync scale targets](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets#azure-file-sync-scale-targets). 
+For more information, see [Azure File Sync scale targets](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets#azure-file-sync-scale-targets). 
