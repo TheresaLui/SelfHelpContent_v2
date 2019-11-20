@@ -27,27 +27,27 @@
 
 **Connectivity issues with IP firewall enabled**
 <br>
-If you are having Connectivity issues to your Cosmos DB account, you may have not added your IP address or IP address ranges in your account's firewall and virtual networks settings. To configure IP policy-based access control, you must provide the set of IP addresses or IP address ranges in CIDR form to be included as the allowed list of client IPs for a given database account. Note that changes in firewall rules can take up to 15 minutes to apply.
+* If you are having Connectivity issues to your Cosmos DB account, you may have not added your IP address or IP address ranges in your account's firewall and virtual networks settings. 
+- To configure IP policy-based access control, you must provide the set of IP addresses or IP address ranges in CIDR form to be included as the allowed list of client IPs for a given database account. Note that changes in firewall rules can take up to 15 minutes to apply.
 <br>
-If you want to extend access to any Azure service, tick the "Accept connections from within public Azure datacenters" checkbox on the "Firewall and virtual networks" section  
+* If you want to extend access to any Azure service, tick the "Accept connections from within public Azure datacenters" checkbox on the "Firewall and virtual networks" section  
 
 
 **Connectivity issues with a virtual network (VNet)**
 <br>
-If you are having connectivity issues while accessing Cosmos DB through a virtual network (VNet).  When using subnets, you have to
-Enable [Service Endpoints](https://docs.microsoft.com/azure/cosmos-db/vnet-service-endpoint) on the subnet
+* If you are having connectivity issues while accessing Cosmos DB through a virtual network (VNet).  When using subnets, you have to Enable [Service Endpoints](https://docs.microsoft.com/azure/cosmos-db/vnet-service-endpoint) on the subnet
 <br>
-Make sure that the apps or services trying to connect to your Cosmos DB instance sit in the same virtual network and subnet as the Cosmos DB instance  
+* Make sure that the apps or services trying to connect to your Cosmos DB instance sit in the same virtual network and subnet as the Cosmos DB instance  
 <br>
-If you want to extend access to any Azure service that's not part of the virtual network, tick the "Accept connections from within public Azure datacenters" checkbox on the "Firewall and virtual networks" section.  
+* If you want to extend access to any Azure service that's not part of the virtual network, tick the "Accept connections from within public Azure datacenters" checkbox on the "Firewall and virtual networks" section.  
 
 **Accept connections from within public Azure datacenters**
 [Cosmos DB Article: Allow requests from global Azure datacenters or other sources within Azure](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)
-* Can I "Accept connections from within public Azure datacenters" when service endpoint access is enabled for Azure Cosmos DB?
-<br>This is required only when you want your Azure Cosmos DB account to be accessed by other Azure first party services like Azure Data factory, Azure Cognitive Search or any service that is deployed in given Azure region.  
-* The Option 'Accept connection from within public Azure datacenters' becomes un-selected.
-<br>
-The 0.0.0.0 address restricts requests to your Azure Cosmos DB account from Azure datacenter IP range. This setting does not allow access for any other IP ranges to your Azure Cosmos DB account.  Remove the 0.0.0.0 address.  
+* Can I *Accept connections from within public Azure datacenters* when service endpoint access is enabled for Azure Cosmos DB?
+- This is required only when you want your Azure Cosmos DB account to be accessed by other Azure first party services like Azure Data factory, Azure Cognitive Search or any service that is deployed in given Azure region.  
+
+* The Option *Accept connection from within public Azure datacenters* becomes un-selected.
+- The 0.0.0.0 address restricts requests to your Azure Cosmos DB account from Azure datacenter IP range. This setting does not allow access for any other IP ranges to your Azure Cosmos DB account.  Remove the 0.0.0.0 address.  
 
 
 
