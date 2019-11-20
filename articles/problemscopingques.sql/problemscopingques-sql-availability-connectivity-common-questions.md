@@ -132,7 +132,7 @@
 			"id": "aad_user_type_create",
 			"order": 3100,
 			"controlType": "dropdown",
-			"displayLabel": "Choose the type of AAD user that you are trying to create",
+			"displayLabel": "Choose the type of AAD user that you are creating",
 			"required": true,
 			"watermarkText": "AAD User Types",
 			"infoBalloonText": "AAD User Types",
@@ -202,6 +202,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "Are you logged in as a Service Principal?",
 			"required": false,
+			"watermarkText": "Yes / No",
 			"infoBalloonText": "Indicate if you are logged in as a service principal?",
 			"dropdownOptions": [
 				{
@@ -223,6 +224,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "Choose the description that best describes the issue that you are facing while setting up the AAD Admin.",
 			"required": true,
+			"watermarkText": "Common AAD Admin setup issues",
 			"infoBalloonText": "Common AAD Admin setup issues",
 			"dropdownOptions": [
 				{
