@@ -22,7 +22,7 @@ The Direct Line and Web Chat channels transmit these errors back to client softw
 
 The cause of this failure is typically within the bot's source code, a configuration error (such as an incorrect endpoint), or a transient problem such as a networking failure.
 
-(Note: a bot can successfully acknowledge the HTTP request without sending a reply. If the bot is accepting requests but is not responding, that problem must be debugged within the bot's conversational logic.)
+**Note**: a bot can successfully acknowledge the HTTP request without sending a reply. If the bot is accepting requests but is not responding, that problem must be debugged within the bot's conversational logic.
 
 ## **Recommended Steps**
 
