@@ -42,7 +42,7 @@ Fully draining can be achieved with either of the following patterns:
   * Continue processing results while continuation is not empty
   * Continue processing while query has more results
 
-    `
+```
     // using AsDocumentQuery you get access to whether or not the query HasMoreResults  
     // If it does, just call ExecuteNextAsync until there are no more results  
     // No need to supply a continuation token here as the server keeps track of progress  
@@ -54,7 +54,7 @@ Fully draining can be achieved with either of the following patterns:
             families.Add(family);  
         }  
     }  
-    `
+```
 
 **Choose system functions that utilize index**  
 
@@ -86,11 +86,11 @@ For more details about composite indexes see [Composite Indexes](https://docs.mi
 
 Please refer to documents below on how to get execution statistics and tune your queries:
 
-[Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
+* [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
 <br>
 This article covers how to identify, diagnose, and troubleshoot Azure Cosmos DB SQL query issues. In order to achieve optimal performance for Azure Cosmos DB queries 
 
-[Tuning query performance with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-api-sql-query-metrics)
+* [Tuning query performance with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-api-sql-query-metrics)
 <br>
 This article provides the following information for developers
 <br>
@@ -99,10 +99,10 @@ This article provides the following information for developers
 - Tips and best practices for query performance
 - Examples of how to utilize SQL execution statistics to debug query performance  
 
-[Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
+* [Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 <br>
 if you're asking "How can I improve my database performance?" consider reading this article  
 
-[Get SQL query execution metrics using .NET SDK](https://docs.microsoft.com/azure/cosmos-db/profile-sql-api-query)
+* [Get SQL query execution metrics using .NET SDK](https://docs.microsoft.com/azure/cosmos-db/profile-sql-api-query)
 <br>
 This article presents how to profile SQL query performance on Azure Cosmos DB. This profiling can be done using QueryMetrics retrieved from the .NET SDK and is detailed here
