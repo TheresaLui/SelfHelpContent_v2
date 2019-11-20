@@ -7,7 +7,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636046"
+    supportTopicIds="32636046,32688711,32688712"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
