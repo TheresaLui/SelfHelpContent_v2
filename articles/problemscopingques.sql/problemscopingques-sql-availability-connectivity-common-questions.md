@@ -52,7 +52,8 @@
 							"value": "AADOthers"
 					}
 			],
-			"dynamicDropdownOptions": null
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal"
 		},
     {
       "id": "sqlexception_received_on_client",
