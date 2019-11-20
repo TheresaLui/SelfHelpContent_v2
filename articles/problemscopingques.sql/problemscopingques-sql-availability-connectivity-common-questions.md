@@ -77,29 +77,42 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
       "required": false,
-      "visibility": "aad_issue_type == AADLogin || aad_issue_type == AADCreateUser || aad_issue_type == AADOthers",
+      "visibility": "aad_issue_type == AADLogin || aad_issue_type == AADCreateUser || aad_issue_type == dont_know_answer",
       "diagnosticInputRequiredClients": "Portal"
     },
-    {
-      "id": "database_name",
-      "order": 3000,
-      "controlType": "dropdown",
-      "displayLabel": "If you are creating this support request from the SQL Server (and not from a database), choose the impacted database. Note: The dropdown will state 'Response not found' if you are creating this support request from database.",
-      "required": false,
-      "infoBalloonText": "Which of these databases are you filing a support ticket for?",
-      "diagnosticInputRequiredClients": "Portal, ASC",
-      "dynamicDropdownOptions": {
-        "uri": "{resourceId}/databases?api-version=2017-10-01-preview",
-        "jTokenPath": "value",
-        "textProperty": "name",
-        "valueProperty": "id",
-        "textPropertyRegex": null,
-        "defaultDropdownOptions": {
-          "value": "dont_know_answer",
-          "text": "Don't know / None of these"
+		{
+			"id": "aad_user_type",
+			"order": 3000,
+			"controlType": "dropdown",
+			"displayLabel": "Choose the type of user that you are using to log in",
+			"required": true,
+			"watermarkText": "AAD User Types",
+			"infoBalloonText": "AAD User Types",
+			"dropdownOptions": [
+				{
+					"text": "Service Principal",
+					"value": "AADUserServicePrincipal"
+				},
+				{
+					"text": "Outlook / Office 365 Group",
+					"value": "AADUserOutlookOffice365Group"
+				},
+				{
+					"text": "Guest User",
+					"value": "AADUserGuest"
+				},
+				{
+					"text": "Native User",
+					"value": "AADUserNative"
+				},
+				{
+          "text": "Other",
+          "value": "dont_know_answer"
         }
-      }
-    }
+			],
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal"
+		},
   ]
 }
 ---
