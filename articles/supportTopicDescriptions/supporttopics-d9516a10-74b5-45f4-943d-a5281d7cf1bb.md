@@ -146,7 +146,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
     {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
-      "shortDescription": "Unable to reduce/increase the RU beyond a certain limit",
+      "shortDescription": "Issues regarding setting min or max RU limits",
       "longDescription": "",
       "category": "Throughput",
       "searchTags": "min ru, max ru, ru limit",
