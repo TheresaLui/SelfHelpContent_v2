@@ -43,10 +43,10 @@ If you are having connectivity issues while accessing Cosmos DB through a virtua
 **Accept connections from within public Azure datacenters**
 [Cosmos DB Article: Allow requests from global Azure datacenters or other sources within Azure](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-global-azure-datacenters-or-other-sources-within-azure)
 Can I *Accept connections from within public Azure datacenters* when service endpoint access is enabled for Azure Cosmos DB?
-<br>* This is required only when you want your Azure Cosmos DB account to be accessed by other Azure first party services like Azure Data factory, Azure Cognitive Search or any service that is deployed in given Azure region.  
+* This is required only when you want your Azure Cosmos DB account to be accessed by other Azure first party services like Azure Data factory, Azure Cognitive Search or any service that is deployed in given Azure region.  
 
 The Option *Accept connection from within public Azure datacenters* becomes un-selected.
-<br>* The 0.0.0.0 address restricts requests to your Azure Cosmos DB account from Azure datacenter IP range. This setting does not allow access for any other IP ranges to your Azure Cosmos DB account.  Remove the 0.0.0.0 address.  
+* The 0.0.0.0 address restricts requests to your Azure Cosmos DB account from Azure datacenter IP range. This setting does not allow access for any other IP ranges to your Azure Cosmos DB account.  Remove the 0.0.0.0 address.  
 
 
 
