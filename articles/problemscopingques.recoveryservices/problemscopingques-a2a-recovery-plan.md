@@ -1,30 +1,30 @@
 <properties
-         pageTitle="Scoping questions for VMM server addition failure"
-         description="Scoping questions for VMM server addition failure"
-         authors="ashishgangwar, TobyTu"
-	     ms.author="asgang"
+         pageTitle="Scoping questions for recovery plans"
+         description="Scoping questions for recovery plans"
+         authors="TobyTu"
+         ms.author="aaronmax"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32634432"
+         supportTopicIds="32574721"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId="881fcef2-0569-437b-bcda-0eede66b5dd1"
+         articleId="q2ade905-df87-4222-9534-98223c9c0527"
 />
 
-# Add or Register a VMM Server
+# Recovery plans
 ---
 {
     "$schema": "SelfHelpContent",
      "subscriptionRequired": true,
      "resourceRequired": true,
-    "title": "Add or Register a VMM Server",
+    "title": "Recovery plans",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "vmm_name",
+            "id": "plan_name",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide name of the VMM server that you are having issues with",
+            "displayLabel": "Provide name of the recovery plan",
             "watermarkText": "Enter name(s) to scope down quickly",
             "required": true
         },
@@ -32,28 +32,40 @@
             "id": "error_id",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Provide error ID or job ID of the add or register operation",
-            "watermarkText": "",
+            "displayLabel": "Provide error ID or job ID of the failed operation",
+            "watermarkText": "Open a new tab, navigate to Recovery Services Vault, click on Jobs & paste error or job id of failed re-protect job",
             "required": false
         },
         {
             "id": "trouble_action",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "I am trying to install the provider on the VMM, but",
+            "displayLabel": "I am trying to re-protect, but",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "The provider is not executing",
-                    "text": "The provider is not executing"
+                    "value": "I am unable to create a recovery plan",
+                    "text": "I am unable to create a recovery plan"
                 },
                 {
-                    "value": "The installation fails",
-                    "text": "The installation fails"
+                    "value": "I am unable to add a group to my recovery plan",
+                    "text": "I am unable to add a group to my recovery plan"
                 },
                 {
-                    "value": "The VMM is not showing on the portal",
-                    "text": "The VMM is not showing on the portal"
+                    "value": "I am unable to add a script to my recovery plan",
+                    "text": "I am unable to add a script to my recovery plan"
+                },
+                {
+                    "value": "I am unable to add a manual action to my recovery plan",
+                    "text": "I am unable to add a manual action to my recovery plan"
+                },
+                {
+                    "value": "I am unable to perform a test failover using my recovery plan",
+                    "text": "I am unable to perform a test failover using my recovery plan"
+                },
+                {
+                    "value": "I am unable to perform a failover using my recovery plan",
+                    "text": "I am unable to perform a failover using my recovery plan"
                 },
                 {
                     "value": "dont_know_answer",
@@ -70,8 +82,16 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Prepare on-premises Hyper-V servers",
-                    "text": "Prepare on-premises Hyper-V servers"
+                    "value": "About recovery plans",
+                    "text": "About recovery plans"
+                },
+                {
+                    "value": "Create/customize recovery plans",
+                    "text": "Create or customize recovery plans"
+                },
+                {
+                    "value": "Add Azure Automation runbooks to recovery plans",
+                    "text": "Add Azure Automation runbooks to recovery plans"
                 },
                 {
                     "value": "dont_know_answer",

@@ -1,30 +1,30 @@
 <properties
-         pageTitle="Scoping questions for VMM server addition failure"
-         description="Scoping questions for VMM server addition failure"
-         authors="ashishgangwar, TobyTu"
-	     ms.author="asgang"
+         pageTitle="Scoping questions for add or register a Hyper-V Server"
+         description="Scoping questions for add or register a Hyper-V Server"
+         authors="TobyTu"
+         ms.author="aaronmax"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32634432"
+         supportTopicIds="32536385"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId="881fcef2-0569-437b-bcda-0eede66b5dd1"
+         articleId="q2ade909-df87-4222-9534-98223c9c0527"
 />
 
-# Add or Register a VMM Server
+# Add or register a Hyper-V Server
 ---
 {
     "$schema": "SelfHelpContent",
      "subscriptionRequired": true,
      "resourceRequired": true,
-    "title": "Add or Register a VMM Server",
+    "title": "Add or register a Hyper-V Server",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "vmm_name",
+            "id": "host_name",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide name of the VMM server that you are having issues with",
+            "displayLabel": "Provide name of the Hyper-V host you are trying to add",
             "watermarkText": "Enter name(s) to scope down quickly",
             "required": true
         },
@@ -33,27 +33,23 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID or job ID of the add or register operation",
-            "watermarkText": "",
+            "watermarkText": "Open a new tab, navigate to Recovery Services Vault, click on Jobs & paste error or job id of failed job",
             "required": false
         },
         {
             "id": "trouble_action",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "I am trying to install the provider on the VMM, but",
+            "displayLabel": "I am trying to register a new Hyper-V host, but",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "The provider is not executing",
-                    "text": "The provider is not executing"
+                    "value": "I am unable to install the provider on the Hyper-V host",
+                    "text": "I am unable to install the provider on the Hyper-V host"
                 },
                 {
-                    "value": "The installation fails",
-                    "text": "The installation fails"
-                },
-                {
-                    "value": "The VMM is not showing on the portal",
-                    "text": "The VMM is not showing on the portal"
+                    "value": "I am unable to see the Host after installing the provider",
+                    "text": "I am unable to see the Host after installing the provider"
                 },
                 {
                     "value": "dont_know_answer",
@@ -70,8 +66,12 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Prepare on-premises Hyper-V servers",
-                    "text": "Prepare on-premises Hyper-V servers"
+                    "value": "Prepare on-premises Hyper-V servers for disaster recovery to Azure",
+                    "text": "Prepare on-premises Hyper-V servers for disaster recovery to Azure"
+                },
+                {
+                    "value": "Troubleshoot Hyper-V to Azure replication and failover",
+                    "text": "Troubleshoot Hyper-V to Azure replication and failover"
                 },
                 {
                     "value": "dont_know_answer",

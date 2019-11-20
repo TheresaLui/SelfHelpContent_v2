@@ -1,31 +1,31 @@
 <properties
-         pageTitle="Scoping questions for VMM server addition failure"
-         description="Scoping questions for VMM server addition failure"
-         authors="ashishgangwar, TobyTu"
-	     ms.author="asgang"
+         pageTitle="Scoping questions for System Center VMM to System Center VMM"
+         description="Scoping questions for System Center VMM to System Center VMM"
+         authors="TobyTu"
+         ms.author="aaronmax"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32634432"
+         supportTopicIds="32634430"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId="881fcef2-0569-437b-bcda-0eede66b5dd1"
+         articleId="q2ade912-df87-4222-9534-98223c9c0527"
 />
 
-# Add or Register a VMM Server
+# System Center VMM to System Center VMM
 ---
 {
     "$schema": "SelfHelpContent",
      "subscriptionRequired": true,
      "resourceRequired": true,
-    "title": "Add or Register a VMM Server",
+    "title": "System Center VMM to System Center VMM",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "vmm_name",
+            "id": "issue_summary",
             "order": 1,
-            "controlType": "textbox",
-            "displayLabel": "Provide name of the VMM server that you are having issues with",
-            "watermarkText": "Enter name(s) to scope down quickly",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide a summary of the issue you are having with site to site replication using VMM",
+            "watermarkText": "Enter a summary of the issue",
             "required": true
         },
         {
@@ -40,20 +40,24 @@
             "id": "trouble_action",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "I am trying to install the provider on the VMM, but",
+            "displayLabel": "I am having issue with",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "The provider is not executing",
-                    "text": "The provider is not executing"
+                    "value": "Registering VMM",
+                    "text": "Registering VMM"
                 },
                 {
-                    "value": "The installation fails",
-                    "text": "The installation fails"
+                    "value": "Enabling replication",
+                    "text": "Enabling replication"
                 },
                 {
-                    "value": "The VMM is not showing on the portal",
-                    "text": "The VMM is not showing on the portal"
+                    "value": "Failover",
+                    "text": "Failover"
+                },
+                {
+                    "value": "Failback",
+                    "text": "Failback"
                 },
                 {
                     "value": "dont_know_answer",
@@ -70,8 +74,16 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Prepare on-premises Hyper-V servers",
-                    "text": "Prepare on-premises Hyper-V servers"
+                    "value": "Support matrix for disaster recovery of Hyper-V VMs to a secondary site",
+                    "text": "Support matrix for disaster recovery of Hyper-V VMs to a secondary site"
+                },
+                {
+                    "value": "Set up logical networks in the VMM fabric",
+                    "text": "Set up logical networks in the VMM fabric"
+                },
+                {
+                    "value": "Fail over VMs and physical servers",
+                    "text": "Fail over VMs and physical servers"
                 },
                 {
                     "value": "dont_know_answer",
