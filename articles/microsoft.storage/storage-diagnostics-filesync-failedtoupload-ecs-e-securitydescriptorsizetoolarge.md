@@ -20,7 +20,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 <!--issueDescription-->
 
-Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c80243 or -2134375869**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs because the file cannot be synced because the security descriptor size exceeds the 64 KiB limit.<br/><br/>
+Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c80243 or -2134375869**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs when the file cannot be synced because the security descriptor size exceeds the 64 KiB limit.<br/><br/>
 <!--/issueDescription-->
 
 
