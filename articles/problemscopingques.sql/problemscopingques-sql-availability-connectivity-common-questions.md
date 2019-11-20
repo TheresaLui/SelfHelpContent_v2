@@ -76,7 +76,7 @@
       "order": 2000,
       "controlType": "multilinetextbox",
       "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
-      "required": false,
+      "required": true,
       "visibility": "aad_issue_type == AADLogin || aad_issue_type == AADCreateUser || aad_issue_type == dont_know_answer",
       "diagnosticInputRequiredClients": "Portal"
     },
@@ -84,10 +84,10 @@
 			"id": "aad_login_conditional_errors",
 			"order": 2100,
 			"controlType": "textbox",
-			"displayLabel": "Are the login errors conditional? Ex. Only from certain IPs or only when using username and password, or when using Single Sign On (SSO) or when using Multi Factor Authentication (MFA)",
+			"displayLabel": "Are the login failures conditional? Ex. Only from certain IPs or only when using username and password, or when using Single Sign On (SSO) or when using Multi Factor Authentication (MFA)",
 			"infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
 			"required": true,
-			"visibility": "aad_issue_type == AADLogin || aad_issue_type == AADSetupAdmin",
+			"visibility": "aad_issue_type == AADLogin",
 			"diagnosticInputRequiredClients": "Portal",
 			"content": null,
 			"maxLength": 0,
@@ -247,6 +247,28 @@
 			"dynamicDropdownOptions": null,
 			"diagnosticInputRequiredClients": "Portal",
 			"visibility": "aad_issue_type == AADSetupAdmin"
+		},
+		{
+			"id": "aad_other_setupadmin_login",
+			"order": 5000,
+			"controlType": "dropdown",
+			"displayLabel": "Have you already set up an AAD Admin and successfully connected to the SQL Server?",
+			"required": false,
+			"watermarkText": "Yes / No",
+			"infoBalloonText": "Indicate if you have already set up an AAD Admin and successfully connected to the SQL Server?",
+			"dropdownOptions": [
+				{
+					"text": "Yes",
+					"value": "Yes"
+				},
+				{
+					"text": "No",
+					"value": "No"
+				}
+			],
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal",
+			"visibility": "aad_issue_type == dont_know_answer"
 		}		
   ]
 }
