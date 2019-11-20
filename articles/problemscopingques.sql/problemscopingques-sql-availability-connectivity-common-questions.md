@@ -27,8 +27,25 @@
   },
   "formElements": [
 		{
+		 "id": "problem_start_time",
+		 "order": 1,
+		 "controlType": "datetimepicker",
+		 "displayLabel": "Unavailability start time",
+		 "infoBalloonText": "Please provide the start time of the most recent occurrence of unavailability.",
+		 "required": true
+		},
+		{
+		 "id": "problem_description",
+		 "order": 2,
+		 "controlType": "multilinetextbox",
+		 "displayLabel": "Additional context to help us solve your issue.",
+		 "required": true,
+		 "useAsAdditionalDetails": true,
+		 "watermarkText": "On the Basics tab, please ensure you selected a server, database or elastic pool in the Resource dropdown so we know what resource you need assistance with.  Add any additional details that may help us troubleshoot your issue."
+		},
+		{
 			"id": "aad_issue_type",
-			"order": 1,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Choose an option that best describes your AAD issue.",
 			"required": true,
@@ -57,7 +74,7 @@
 		},
     {
       "id": "sqlexception_received_on_client",
-      "order": 2,
+      "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
       "required": false,
@@ -66,7 +83,7 @@
     },
     {
       "id": "database_name",
-      "order": 3,
+      "order": 5,
       "controlType": "dropdown",
       "displayLabel": "If you are creating this support request from the SQL Server (and not from a database), choose the impacted database. Note: The dropdown will state 'Response not found' if you are creating this support request from database.",
       "required": false,
