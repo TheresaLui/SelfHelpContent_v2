@@ -41,6 +41,10 @@
                 {
                     "value": "audit_action",
                     "text": "Action audit question"
+                },
+		 {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
                 }
             ],
             "required": true
