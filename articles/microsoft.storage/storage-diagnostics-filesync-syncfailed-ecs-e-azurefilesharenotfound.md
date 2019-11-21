@@ -23,7 +23,21 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 
 ## **Recommended steps**
 To troubleshoot:
-1. [Verify the storage account exists.](#troubleshoot-storage-account)
-2. [Ensure the Azure file share exists.](#troubleshoot-azure-file-share)
+ Verify the storage account exists by perfoming the following steps
+
+1. Navigate to the sync group within the Storage Sync Service.
+2. Select the cloud endpoint within the sync group.
+3. Note the Azure file share name in the opened pane.
+4. Select the linked storage account. If this link fails, the referenced storage account has been removed.
+   
+
+Ensure the Azure file share exists by perfoming the following steps
+
+1. Click **Overview** on the left-hand table of contents to return to the main storage account page.
+2. Select **Files** to view the list of file shares.
+3. Verify the file share referenced by the cloud endpoint appears in the list of file shares (you should have noted this in step 1 above).
 
 If the Azure file share was deleted, you need to create a new file share and then recreate the sync group. 
+
+## **Recommended Documents**
+For more information, see [Common Troubleshooting Steps](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#common-troubleshooting-steps)
