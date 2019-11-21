@@ -6,7 +6,7 @@
 	authors="ginamr"
 	ms.author="girobins"
 	selfHelpType="generic"
-	supportTopicIds="32636818, 32636821, 32681012, 32688839, 32688840, 32688841, 32688842, 32688844, 32688845"
+	supportTopicIds="32636818, 32636821, 32681012, 32688839, 32688840, 32688841, 32688842, 32688845"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
@@ -105,4 +105,7 @@ if you're asking "How can I improve my database performance?" consider reading t
 
 * [Get SQL query execution metrics using .NET SDK](https://docs.microsoft.com/azure/cosmos-db/profile-sql-api-query)
 <br>
-This article presents how to profile SQL query performance on Azure Cosmos DB. This profiling can be done using QueryMetrics retrieved from the .NET SDK and is detailed here
+This article presents how to profile SQL query performance on Azure Cosmos DB. This profiling can be done using QueryMetrics retrieved from the .NET SDK and is detailed here  
+
+* [Indexing in Azure Cosmos DB - Overview](https://docs.microsoft.com/azure/cosmos-db/index-overview)
+<br>The goal of this article is to explain how Azure Cosmos DB indexes data and how it uses indexes to improve query performance. It is recommended to go through this section before exploring how to customize indexing policies.  
