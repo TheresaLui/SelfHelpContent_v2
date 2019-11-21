@@ -15,7 +15,7 @@
 
 # I have a problem accessing kube dashboard
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot the AKS Engine on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-troubleshoot)<br>
 * [Access the Kubernetes Dashboard in Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-solution-template-kubernetes-dashboard)
