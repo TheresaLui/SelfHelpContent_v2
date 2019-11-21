@@ -88,14 +88,6 @@ Please refer to documents below on how to get execution statistics and tune your
 
 * [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
 * [Tuning query performance with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-api-sql-query-metrics)
-<br>
-This article provides the following information for developers:
-<br>
-	- High-level details on how Azure Cosmos DB's SQL query execution works
-	- Details on query request and response headers, and client SDK options
-	- Tips and best practices for query performance
-	- Examples of how to utilize SQL execution statistics to debug query performance  
-
 * [Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 * [Get SQL query execution metrics using .NET SDK](https://docs.microsoft.com/azure/cosmos-db/profile-sql-api-query)
 * [Indexing in Azure Cosmos DB - Overview](https://docs.microsoft.com/azure/cosmos-db/index-overview)
