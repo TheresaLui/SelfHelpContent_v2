@@ -4,13 +4,13 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="andikshi"
-  ms.author="andikshi"
+	ms.author="andikshi"
 	displayOrder="3"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32688667"
 	productPesIds="13491"
 	cloudEnvironments="public"
-    resourceTags="servers, databases"
+	resourceTags="servers, databases"
 	articleId="sqldb-selfhelp-solutions-backuprestore-automatedbackups"
 />
 
@@ -28,6 +28,11 @@ SQL Database automatically creates database backups that can be used to restore 
 	* Transaction log backups are generally taken every 5-10 minutes
 	* Differential database backups generally occur every 12 hours
 	* Full database backups are created once a week
+
+* There are [storage costs](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630409#storage-costs) associated for backups retained for vCore databases. The backup cost depends on the size of the database, the rate of change and the configured retention period. The backup storage amount equal to the database size is provided at no extra charge. The [pricing page](https://azure.microsoft.com/pricing/details/sql-database/single/) can be used to find region specific pricing and more details.
+
+	* You can gain more insight into the storage space used by viewing the backup [metrics](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported?WT.mc_id=pid:13491:sid:32630409#microsoftsqlserversdatabases) for your database. Large diff/log backup storage sizes indicate a high rate of change of data while large full backup storage sizes indicate a large amount of data.
+	* Typically to reduce backup storage costs you will reduce the backup retention period
 
 * [You can change the backup retention period](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630409/#how-to-change-the-pitr-backup-retention-period) for a database to 7, 14, 21, 28, or 35 days via the Azure Portal, PowerShell, or the REST API:
 
