@@ -23,8 +23,6 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 
 
 ## **Recommended steps**
-This error occurs because the certificate used for authentication is not found.
-
 To resolve this issue, perform the following steps:
 
 1. Verify Azure File Sync agent version 4.0.1.0 or later is installed.
