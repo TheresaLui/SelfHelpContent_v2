@@ -1,5 +1,5 @@
 <properties
-pageTitle="Sync failed error - WININET_E_NAME_NOT_RESOLVED "
+pageTitle="Sync failed error - WININET_E_NAME_NOT_RESOLVED"
 description="Sync failed error - WININET_E_NAME_NOT_RESOLVED"
 infoBubbleText="See details on the right"
 service="microsoft.storage"
