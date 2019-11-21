@@ -27,7 +27,7 @@ The cause of this failure is typically within the bot's source code, a configura
 ## **Recommended Steps**
 
 1. Use the [bottroubleshooter community tool](https://github.com/BotBuilderCommunity/botbuilder-community-tools/tree/master/bottroubleshooter) to analyze the bot's configuration and look for obvious errors
-2. Use the [Bot Framework emulator] to connect directly to the bot's cloud endpoint to see if it functions properly
+2. Use the [Bot Framework emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) to connect directly to the bot's cloud endpoint to see if it functions properly
 3. If the problem only occurs when the bot is first starting, and the bot is hosted on an Azure Web App, consider enabling the AlwaysOn option (Note: this might increase the cost of running the bot)
 4. Enable Application Insights and connect it to both the bot's source code and its Bot Service registration in Azure to log any exceptions that may be occurring within the bot: [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net), [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)
 5. To view Application Insights logs, navigate to AppInsights blade, then click "All App service settings", then "Application Insights" button and then "View Application Insights data", then "Analytics" button
