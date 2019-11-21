@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error - COR_E_EXCEPTION"
-	description="Sync failed error - COR_E_EXCEPTION"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storage"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_COR_E_EXCEPTION"
-    diagnosticScenario="Sync failed error - COR_E_EXCEPTION"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error - COR_E_EXCEPTION"
+description="Sync failed error - COR_E_EXCEPTION"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_COR_E_EXCEPTION"
+diagnosticScenario="Sync failed error - COR_E_EXCEPTION"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - COR_E_EXCEPTION
@@ -22,4 +22,4 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 <!--/issueDescription-->
 
 ## **Recommended steps**
-If this error persists for several hours, please file an ICM ticket.
+No action is required.If this error persists for several hours, please file an ICM ticket.
