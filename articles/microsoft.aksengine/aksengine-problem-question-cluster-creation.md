@@ -15,6 +15,6 @@
 
 # I have a problem or question related to Cluster Creation
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Update the API model](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-deploy-cluster?view=azs-1908#update-the-api-model)
+* [Update the API model](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-deploy-cluster?view=azs-1908#update-the-api-model)
