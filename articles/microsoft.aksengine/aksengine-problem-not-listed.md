@@ -15,6 +15,6 @@
 
 # My problem is not listed above
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[AKS Engine - What is the AKS Engine on Azure Stack?](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-1908)
+* [AKS Engine - What is the AKS Engine on Azure Stack?](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-1908)
