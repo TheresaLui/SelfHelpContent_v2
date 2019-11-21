@@ -15,6 +15,6 @@
 
 # I see nodes in a NotReady state
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Troubleshoot the AKS Engine on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-troubleshoot)
