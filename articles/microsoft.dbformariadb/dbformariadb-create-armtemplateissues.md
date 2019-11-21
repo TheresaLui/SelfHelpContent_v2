@@ -32,5 +32,5 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Documents**
 
 * [Create databases in Azure Database for MariaDB](https://github.com/Azure/azure-mariadb/tree/master/arm-templates/ExampleWithDatabase)<br>
-* [Deploy Azure Database for MySQL with CanNotDelete lock](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithLocks)<br>
+* [Deploy Azure Database for MariaDB with CanNotDelete lock](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithLocks)<br>
 * [Create Azure Database for MariaDB with multiple firewall rules](https://github.com/Azure/azure-mariadb/tree/master/arm-templates/ExampleWithFirewallRule)
