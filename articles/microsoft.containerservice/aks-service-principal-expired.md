@@ -1,7 +1,7 @@
 <properties
     pageTitle="Update AKS Service Principal"
     description="Update AKS Service Principal"
-    authors="jopears" 
+    authors="jakepearson" 
     ms.author="jopears"
     articleId="aks-update-service-principal"
     selfHelpType="advisorRecommendationMetadata"
@@ -44,11 +44,12 @@
       "actionId": "9daffb0d-5a5a-4c13-9fba-5153733c6788",
       "description": "Update Service Principal`",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/aks/update-credentials"
-    },
+      "documentLink": "https://docs.microsoft.com/azure/aks/update-credentials"
+    }
   ],
   "resourceMetadata": {},
   "displayLabel": "Update Service Principal",
   "additionalColumns": [],
+	"learnMoreLink": "https://docs.microsoft.com/azure/aks/update-credentials"
 }
 ---
