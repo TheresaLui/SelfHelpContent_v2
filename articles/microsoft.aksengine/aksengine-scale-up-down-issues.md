@@ -15,6 +15,6 @@
 
 # Scale up or down issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshoot the AKS Engine on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-troubleshoot)
+* [Troubleshoot the AKS Engine on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-troubleshoot)
