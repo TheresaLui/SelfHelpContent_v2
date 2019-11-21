@@ -16,8 +16,13 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Monitoring Help me understand metrics",
+    "title": "Monitoring advisory questions",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Need advisory on Monitoring related questions?",
+        "description": "Our Monitor Advisory troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure the information provided is accurate and in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+	},
     "formElements": [
         {
             "id": "monitor_advisory",
@@ -47,7 +52,8 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
