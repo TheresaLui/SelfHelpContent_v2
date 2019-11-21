@@ -33,4 +33,4 @@ Most users are able to resolve their issue using the steps below.
 
 * [Create databases in Azure Database for MySQL](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithDatabase)<br>
 * [Create Azure Database for MySQL with multiple firewall rules](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithFirewallRule)<br>
-* [Enable auto grow on Azure Database for MySQL](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithVirtualNetworkRules)
+* [Create Azure Database for MySQL with virtual network rules](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithVirtualNetworkRules)
