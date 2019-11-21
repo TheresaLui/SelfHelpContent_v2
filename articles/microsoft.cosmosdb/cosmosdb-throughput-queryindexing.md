@@ -20,11 +20,11 @@
 
 ## **Recommended Steps**   
 
-**Not able to update the default indexing policy on a restored collection**
+* Not able to update the default indexing policy on a restored collection
 <br>There is a *_self* parameter which is not getting updated with the new collectionid. This can happen while the new collection is getting created.  Once the collection create has succeeded, the *_self* tag would be populated.
 
 
-**Saving changes to my indexing policy in portal appear to do nothing**  
+* Saving changes to my indexing policy in portal appear to do nothing  
 <br>The poperties *kind*, *dataType*, and *precision* are no longer necessary to explicitly set and you can omit them from your indexing policy. [Indexing policy examples](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy#indexing-policy-examples)  
 
 

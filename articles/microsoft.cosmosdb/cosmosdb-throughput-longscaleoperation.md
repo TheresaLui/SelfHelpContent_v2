@@ -48,5 +48,5 @@ Azure Cosmos DB currently only supports scale up operation. It is typically a lo
 * Azure Cosmos databases  
 
 
-* [Partition and scale in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data)
+[Partition and scale in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data)
 This article explains physical and logical partitions in Azure Cosmos DB. It also discusses best practices for scaling and partitioning.

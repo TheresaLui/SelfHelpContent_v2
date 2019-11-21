@@ -40,7 +40,7 @@ The authorization token expired.
 * 403 is also returned during a POST to create a resource when the resource quota has been reached. An example of this is when trying to add documents to a collection that has reached its provisioned storage.
 * 403 can also be returned when a stored procedure, trigger, or UDF has been flagged for high resource usage and blocked from execution.
 * 403 forbidden error is returned when the firewall rules configured on your Azure Cosmos DB account block your request. Any requests originating from machines outside the allowed list will receive a 403 response. 
-* 403.3 – This status code is returned for write requests during the manual failover operation. This status code is used as redirection code by drivers to forward the writes to new write region. Direct REST client must perform GET on DatabaseAccount to identify the current write region and forward the write request to that endpoint.  
+* 403.3 This status code is returned for write requests during the manual failover operation. This status code is used as redirection code by drivers to forward the writes to new write region. Direct REST client must perform GET on DatabaseAccount to identify the current write region and forward the write request to that endpoint.  
 
 **429 Too Many Request**
 <br>The collection has exceeded the provisioned throughput limit. Retry the request after the server specified retry after duration. 
@@ -53,9 +53,7 @@ The authorization token expired.
 ## **Recommended Documents**
 
 [How can I improve my database performance?](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
-<br>How a client connects to Azure Cosmos DB has important implications on performance, especially in terms of observed client-side latency. There are two key configuration settings available for configuring client Connection Policy – the connection mode and the connection protocol.
-* Gateway mode
-* Direct mode  
+<br>How a client connects to Azure Cosmos DB has important implications on performance, especially in terms of observed client-side latency. There are two key configuration settings available for configuring client Connection Policy, the connection mode and the connection protocol.  
 
 
 [FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
