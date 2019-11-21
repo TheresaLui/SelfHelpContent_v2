@@ -19,7 +19,7 @@
 # Database Inaccessible due to Azure Key Vault configuration
 
 ## We ran diagnostics on your resource and found an issue
-<!-- issueDescription -->
+<!--issueDescription-->
 Your database **<!--$DatabaseName--> DatabaseName <!--/$DatabaseName-->** is in the "Inaccessible" state. To resolve this issue, restore access to the key required by the server's transparent data encryption configuration.
 <!--/issueDescription-->
 
