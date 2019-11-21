@@ -1,20 +1,20 @@
 <properties
-    pageTitle="Resolve issues related to activating a Windows license in Azure"
-    description="Resolve issues related to activating a Windows license in Azure"
+    pageTitle="Cannot activate my Windows VM"
+    description="Cannot activate my Windows VM"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="ScottAzure"
     ms.author="scotro"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32570109,32570108"
+    supportTopicIds="32690778,32690779,32690780,32690781,32690782,32690783"
     resourceTags=""
     productPesIds="14749"
     cloudEnvironments="public"
-	articleId="61587838-b6ce-47fe-b6ee-f9ed9bc02120"
+    articleId="0e4cade2-509a-40c5-853e-5a6980461ca3"
 />
 
-# Resolve issues related to activating a Windows license in Azure
+# Cannot activate my Windows VM
 
 4 out of 5 customers resolved their VM Windows Activation issue using the steps below.
 
