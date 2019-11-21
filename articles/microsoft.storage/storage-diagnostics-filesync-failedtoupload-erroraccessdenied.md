@@ -16,7 +16,7 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Azure File Sync failed to upload file(s) due to error _**ERROR_ACCESS_DENIED**_
+# Azure File Sync failed to upload file(s) due to error _**ACCESS_DENIED**_
 
 <!--issueDescription-->
 Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80070005 or -2147024891**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs because the file has a delete pending state.<br/><br/>
