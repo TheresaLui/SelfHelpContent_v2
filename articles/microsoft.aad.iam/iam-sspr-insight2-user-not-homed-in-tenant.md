@@ -18,7 +18,7 @@
 
 # User is not homed in your tenant
 <!--issueDescription-->
-<!--$UserId-->[UserId]<!--/$UserId--> is not homed in your Azure AD. Consequently, you cannot change or reset their password.
+User <!--$UserId-->[UserId]<!--/$UserId--> is not homed in your Azure AD. Consequently, you cannot change or reset their password.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
