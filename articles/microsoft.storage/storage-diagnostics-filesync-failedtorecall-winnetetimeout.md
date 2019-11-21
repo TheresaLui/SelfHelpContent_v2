@@ -23,7 +23,7 @@ Azure File Sync failed to recall file(s) for one or more server endpoints under 
 <!--/issueDescription-->
 
 ## **Recommended steps**
-To resolve this issue, perform the following steps::
+To troubleshoot this error, perform the following steps:
 
 1. Verify the Windows service `FileSyncSvc.exe` is not blocked by your firewall.
 2. Verify that port 443 is open to outgoing connections to the Azure File Sync service. You can do this with the `Test-NetConnection` cmdlet. The URL for the `<azure-file-sync-endpoint>` placeholder below can found in the [Azure File Sync proxy and firewall settings](../articles/storage/files/storage-sync-files-firewall-and-proxy.md#firewall) document. 
