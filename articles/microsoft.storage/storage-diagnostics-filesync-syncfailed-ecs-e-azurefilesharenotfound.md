@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error - ECS_E_AZURE_FILE_SHARE_NOT_FOUND"
-	description="Sync failed error - ECS_E_AZURE_FILE_SHARE_NOT_FOUND"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storage"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_ECS_E_AZURE_FILE_SHARE_NOT_FOUND"
-    diagnosticScenario="Sync failed error - ECS_E_AZURE_FILE_SHARE_NOT_FOUND"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error - ECS_E_AZURE_FILE_SHARE_NOT_FOUND"
+description="Sync failed error - ECS_E_AZURE_FILE_SHARE_NOT_FOUND"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_ECS_E_AZURE_FILE_SHARE_NOT_FOUND"
+diagnosticScenario="Sync failed error - ECS_E_AZURE_FILE_SHARE_NOT_FOUND"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - ECS_E_AZURE_FILE_SHARE_NOT_FOUND
@@ -22,15 +22,15 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 <!--/issueDescription-->
 
 ## **Recommended steps**
-To troubleshoot
+To troubleshoot:
 
-Verify the storage account exists by perfoming the following steps:
+Verify the storage account exists by performing the following steps:
 1. Navigate to the sync group within the Storage Sync Service.
 2. Select the cloud endpoint within the sync group.
 3. Note the Azure file share name in the opened pane.
 4. Select the linked storage account. If this link fails, the referenced storage account has been removed.
    
-Ensure the Azure file share exists by perfoming the following steps:
+Ensure the Azure file share exists by performing the following steps:
 1. Click **Overview** on the left-hand table of contents to return to the main storage account page.
 2. Select **Files** to view the list of file shares.
 3. Verify the file share referenced by the cloud endpoint appears in the list of file shares (you should have noted this in step 1 above).
