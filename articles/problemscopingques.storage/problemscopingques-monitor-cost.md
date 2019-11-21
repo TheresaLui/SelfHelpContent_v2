@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Monitor cost question"
-	description="Questions about cost"
+	pageTitle="Advisory questions"
+	description="Advisory questions"
 	authors="Sijia"
         ms.author="siz"
 	selfHelpType="problemScopingQuestions"
@@ -11,7 +11,7 @@
 	articleId="c449c5cc-78a3-4ef0-88a0-3c4622437a24"
 />
 
-# Monitoring - Help me understand metrics
+# Monitoring - Advisory questions
 ---
 {
     "subscriptionRequired": true,
@@ -20,103 +20,41 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "monitor_cost",
+            "id": "monitor_advisory",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Monitor cost related question",
+            "displayLabel": "Monitor advisory question",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "yes",
-                    "text": "Yes"
+                    "value": "cost_question",
+                    "text": "Cost related question"
                 },
                 {
-                    "value": "no",
-                    "text": "No"
+                    "value": "container_capacity",
+                    "text": "Container capacity question"
                 },
                 {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or not listed above"
+                    "value": "log_retention",
+                    "text": "Log retention question"
+                },
+                {
+                    "value": "audit_action",
+                    "text": "Action audit question"
                 }
             ],
-            "required": false
-        },
-	  {
-            "id": "container_level_capacity",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Capacity level capacity question",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "no",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or not listed above"
-                }
-            ],
-            "required": false
-        },
-	{
-            "id": "log_retention",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Log retention question",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "no",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or not listed above"
-                }
-            ],
-            "required": false
-        },
-	{
-            "id": "audit_action",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Audit action related question",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "no",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or not listed above"
-                }
-            ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
