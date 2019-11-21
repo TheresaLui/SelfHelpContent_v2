@@ -16,7 +16,7 @@
 
 # Migration and Move/Move resources between subscriptions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Services that **can be moved** between subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources?#services-that-can-be-moved)<br>
 * [Services that **cannot be moved** between subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources?#services-that-cannot-be-moved)<br>
