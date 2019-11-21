@@ -24,6 +24,15 @@ Azure has a quota limit of 800 deployments per resource group. Scale deployments
 1. From the portal, sign into the portal and navigate to your resource group
 1. Select **Deployments** from the resource group. If this count shows that it has reached the limit, delete old deployments to fix the issue. You can safely delete all deployments that are "X" days old. "X" can be 30 or so based on how frequent deployments happen in this resource group.
 
+**Issues with A-Series VMs**
+
+1. **Error:** VM size '<A-series VM>' provided in the request is invalid or not supported for role '<node type>'. Valid values are: <list of supported VMs>
+    
+1. **Cause:** New A-series virtual machines cannot be used as headnodes for Enterprise Security Clusters. Existing A-series virtual machines used as headnodes on Enterprise Security Clusters cannot be scaled up or down, or have applications added to them.
+
+1. **Solution:** Select a virtual machine from the list of supported VMs in the error message. 
+
+
 **Operations Management Suite (OMS) is enabled and blocking the ability to scale**
 
 Customers have experienced issues with scale-up operations failing during an OMS script installation. This is a known issue. If you have OMS enabled, please disable OMS temporarily, scale-up the cluster, then re-enable OMS.
