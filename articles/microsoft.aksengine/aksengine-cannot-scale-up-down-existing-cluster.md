@@ -19,4 +19,4 @@ AKS-Engine scale command is used to increase or decrease the number of nodes in 
 
 ## **Recommended Documents**
 
-[Scale a cluster](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-scale?view=azs-1908#scale-a-cluster)
+* [Scale a cluster](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-scale?view=azs-1908#scale-a-cluster)
