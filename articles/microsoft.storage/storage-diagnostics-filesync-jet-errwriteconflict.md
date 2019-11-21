@@ -22,4 +22,4 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 <!--/issueDescription-->
 
 ## **Recommended steps**
- If this error persists for several hours, please file an ICM ticket.
+No action is required. If this error persists for several hours, please file an ICM ticket.
