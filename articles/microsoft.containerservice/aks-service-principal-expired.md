@@ -53,6 +53,7 @@
 		"actionId": "6646a29d-5714-4c9a-a226-9ea94fc1de8a",
 		"actionType": "Blade",
 		"bladeName": "OverviewBlade",
+		"extensionName": "HubsExtension",
 		"metadata": {
         "id": "{resourceId}"
       }
