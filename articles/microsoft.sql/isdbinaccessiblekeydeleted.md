@@ -22,7 +22,7 @@
 <!--issueDescription-->
 Your database **<!--$DatabaseName--> DatabaseName <!--/$DatabaseName-->** is in the "Inaccessible" state due to the key in Azure Key Vault being deleted. To resolve this issue, restore the key required by the server's transparent data encryption configuration.
 
-The deleted key has URI <!--AzureKeyVaultUri-->AzureKeyVaultUri<!--/$AzureKeyVaultUri-->
+The deleted key has URI <!--$AzureKeyVaultUri-->AzureKeyVaultUri<!--/$AzureKeyVaultUri-->
 <!--/issueDescription-->
 
 ## Inaccessible Database State

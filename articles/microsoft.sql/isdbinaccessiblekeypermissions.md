@@ -22,7 +22,7 @@
 <!--issueDescription-->
 Your database **<!--$DatabaseName--> DatabaseName <!--/$DatabaseName-->** is in the "Inaccessible" state due to permissions to the key in Azure Key Vault being revoked. To resolve this issue, restore the permissions required to access the key.
 
-The key has URI <!--AzureKeyVaultUri-->AzureKeyVaultUri<!--/$AzureKeyVaultUri-->
+The key has URI <!--$AzureKeyVaultUri-->AzureKeyVaultUri<!--/$AzureKeyVaultUri-->
 <!--/issueDescription-->
 
 ## Inaccessible Database State
