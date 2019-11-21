@@ -16,25 +16,6 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Azure File Sync failed error - WININET_E_TIMEOUT
- 
-<!--issueDescripti<properties
-pageTitle="Sync failed error - WININET_E_TIMEOUT"
-description="Sync failed error - WININET_E_TIMEOUT"
-infoBubbleText="See details on the right"
-service="microsoft.storage"
-resource="storage"
-authors="passaree"
-ms.author="passap"
-displayOrder=""
-articleId="FileSync_FailedError_WININET_E_TIMEOUT"
-diagnosticScenario="Sync failed error - WININET_E_TIMEOUT"
-selfHelpType="diagnostics"
-supportTopicIds=""
-resourceTags=""
-productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
-/>
 
 # Azure File Sync failed error - WININET_E_TIMEOUT
  
