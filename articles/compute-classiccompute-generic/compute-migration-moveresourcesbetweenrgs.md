@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570115"
@@ -13,7 +14,7 @@
 	articleId="2122c85a-020d-43d2-8d9c-fb329e5921d9"
 />
 
-# Migration and Move/Move resources between subscriptions
+# Migration and Move/Move resources between resource groups
 
 ## **Recommended documents**
 

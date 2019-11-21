@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Migration and Move/Move resources between resource groups"
-	description="Migration and Move/Move resources between resource groups"
+	pageTitle="Migration and Move/Move resources between VNETs"
+	description="Migration and Move/Move resources between VNETs"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -14,7 +14,7 @@
 	articleId="9d19e169-4bb8-4caf-93df-895be07d2937"
 />
 
-# Migration and Move/Move resources between resource groups
+# Migration and Move/Move resources between VNETs
 
 4 out of 5 customers resolved their issue using the guides listed below.<br>
 
