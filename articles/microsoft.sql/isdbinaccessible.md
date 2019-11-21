@@ -1,9 +1,10 @@
 <properties
 	pageTitle="Database in the inaccessible state"
 	description="Database in the inaccessible state"
+	infoBubbleText="Database is in the inaccessible state"
 	service="microsoft.sql"
 	resource="servers"
-	authors="niogg"
+	authors="nikolasoggMSFT"
 	ms.author="niogg"
 	displayOrder=""
 	articleId="IsDBInaccessible_DCA4DB29-A73E-44A2-9C76-D8B70ACB5AD1"
@@ -24,7 +25,7 @@ Your database **<!--$DatabaseName--> DatabaseName <!--/$DatabaseName-->** is in 
 <!--/issueDescription-->
 
 ## Inaccessible Database State
-When transparent data encryption (TDE) is configured to use a customer-managed key, continuous access to the TDE protector is required for the database to stay online. When the server loses access to the customer-managed TDE protector in Azure Key Vault (AKV), in up to 10 minutes the database will start denying all external user connections and the database state will become “Inaccessible”. The only action allowed on the database in the “Inaccessible” state is to make it accessible again after restoring access to the key or dropping the database if that is the intent.
+When transparent data encryption (TDE) is configured to use a customer-managed key, continuous access to the TDE protector is required for the database to stay online. When the server loses access to the customer-managed TDE protector in Azure Key Vault (AKV), in up to 10 minutes the database will start denying all external user connections and the database state will become "Inaccessible". The only action allowed on the database in the "Inaccessible" state is to make it accessible again after restoring access to the key or dropping the database if that is the intent.
 
 After access to the key is restored, taking database back online requires additional steps, which may vary based on the time elapsed without access to the key and the size of the database.
 
@@ -44,9 +45,9 @@ Key access can be lost for multiple reasons, common reasons are:
     * Ensure that the APPId still exists in the AAD Tenant.
 
 
-Additional causes and solutions can be found [here](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/troubleshoot-tde?view=azuresqldb-current).
+Additional causes and solutions can be found [here](https://docs.microsoft.com/sql/relational-databases/security/encryption/troubleshoot-tde?view=azuresqldb-current).
 
 ## **Recommended Documents**
-* [**Inaccessible TDE Protector**](https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-byok-azure-sql#inaccessible-tde-protector): Additional information about the inaccessible state
-* [**Common errors for transparent data encryption with customer-managed keys in Azure Key Vault**](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/troubleshoot-tde?view=azuresqldb-current): Additional causes and mitigations for an inaccessible database
+* [**Inaccessible TDE Protector**](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql#inaccessible-tde-protector): Additional information about the inaccessible state
+* [**Common errors for transparent data encryption with customer-managed keys in Azure Key Vault**](https://docs.microsoft.com/sql/relational-databases/security/encryption/troubleshoot-tde?view=azuresqldb-current): Additional causes and mitigations for an inaccessible database
 
