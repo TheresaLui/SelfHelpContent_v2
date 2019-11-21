@@ -8,7 +8,7 @@
 	productPesIds="16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
-	articleId="c449c5cc-78a3-4ef0-88a0-3c4622437a24"
+	articleId="01f3daeb-839b-4302-b37e-e8dc32ef447e"
 />
 
 # Monitoring - Advisory questions
