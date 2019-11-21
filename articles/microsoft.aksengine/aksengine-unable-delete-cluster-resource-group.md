@@ -15,7 +15,7 @@
 
 # I am unable to delete a Cluster or Resource Group
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To delete the cluster itself, use the **az group** delete command to delete the AKS resource group:
 
@@ -25,4 +25,4 @@ az group delete --name myResourceGroup --yes --no-wait
 
 ## **Recommended Documents**
 
-[Cleanup resources](https://docs.microsoft.com/azure/aks/use-multiple-node-pools#clean-up-resources)
+* [Cleanup resources](https://docs.microsoft.com/azure/aks/use-multiple-node-pools#clean-up-resources)
