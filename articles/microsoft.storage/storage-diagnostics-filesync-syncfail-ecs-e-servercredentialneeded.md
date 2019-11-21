@@ -22,6 +22,6 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 <!--/issueDescription-->
 
 ## **Recommended steps**
-Verify the server time is correct. If the server is running in a virtual machine, verify the time on the virtualization host is correct.
+Verify the server time is correct. If the server is running in a virtual machine, verify the time on the virtual host is correct.
 
 
