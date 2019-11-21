@@ -16,7 +16,7 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Azure File Sync failed error - ERROR_ACCESS_DENIED
+# Azure File Sync failed error - ACCESS_DENIED
 
 <!--issueDescription-->
 
