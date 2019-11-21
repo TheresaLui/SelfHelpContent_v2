@@ -87,24 +87,15 @@ For more details about composite indexes see [Composite Indexes](https://docs.mi
 Please refer to documents below on how to get execution statistics and tune your queries:
 
 * [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
-<br>
-This article covers how to identify, diagnose, and troubleshoot Azure Cosmos DB SQL query issues. In order to achieve optimal performance for Azure Cosmos DB queries 
-
 * [Tuning query performance with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-api-sql-query-metrics)
 <br>
-This article provides the following information for developers
+This article provides the following information for developers:
 <br>
-- High-level details on how Azure Cosmos DB's SQL query execution works
-- Details on query request and response headers, and client SDK options
-- Tips and best practices for query performance
-- Examples of how to utilize SQL execution statistics to debug query performance  
+	- High-level details on how Azure Cosmos DB's SQL query execution works
+	- Details on query request and response headers, and client SDK options
+	- Tips and best practices for query performance
+	- Examples of how to utilize SQL execution statistics to debug query performance  
 
 * [Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
-<br>
-if you're asking "How can I improve my database performance?" consider reading this article  
-
 * [Get SQL query execution metrics using .NET SDK](https://docs.microsoft.com/azure/cosmos-db/profile-sql-api-query)
-<br>This article presents how to profile SQL query performance on Azure Cosmos DB. This profiling can be done using QueryMetrics retrieved from the .NET SDK and is detailed here  
-
 * [Indexing in Azure Cosmos DB - Overview](https://docs.microsoft.com/azure/cosmos-db/index-overview)
-<br>The goal of this article is to explain how Azure Cosmos DB indexes data and how it uses indexes to improve query performance. It is recommended to go through this section before exploring how to customize indexing policies.  
