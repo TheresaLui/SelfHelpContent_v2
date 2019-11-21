@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Database in the inaccessible state"
 	description="Database in the inaccessible state"
-	infoBubbleText="Database is in the inaccessible state"
+	infoBubbleText="Database is in the inaccessible state. See recommended actions on the right."
 	service="microsoft.sql"
 	resource="servers"
 	authors="nikolasoggMSFT"
@@ -10,12 +10,11 @@
 	articleId="IsDBInaccessible_DCA4DB29-A73E-44A2-9C76-D8B70ACB5AD1"
 	diagnosticScenario=""
 	selfHelpType="rca"
-	supportTopicIds="32630405,32630429,32630438,32637230"
+	supportTopicIds="32630405, 32630429, 32630438, 32637230"
 	resourceTags=""
-	productPesIds="13491,16259"
+	productPesIds="13491, 16259"
 	cloudEnvironments="public"
 />
-
 
 # Database Inaccessible due to Azure Key Vault configuration
 
