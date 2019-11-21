@@ -26,7 +26,7 @@ Azure has a quota limit of 800 deployments per resource group. Scale deployments
 
 **Issues with A-Series VMs**
 
-1. **Error:** VM size '<A-series VM>' provided in the request is invalid or not supported for role '<node type>'. Valid values are: <list of supported VMs>
+1. **Error:** VM size *A-series VM* provided in the request is invalid or not supported for role *node type*. Valid values are: *list of supported VMs*
     
 1. **Cause:** New A-series virtual machines cannot be used as headnodes for Enterprise Security Clusters. Existing A-series virtual machines used as headnodes on Enterprise Security Clusters cannot be scaled up or down, or have applications added to them.
 
