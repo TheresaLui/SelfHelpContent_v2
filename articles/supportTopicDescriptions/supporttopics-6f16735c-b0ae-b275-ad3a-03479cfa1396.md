@@ -25,7 +25,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     "SupportTopics": [
         {
             "id": "4fc9f99b-00f8-a3ca-cd9e-0c4648ce1d90",
-            "shortDescription": "Other issues related to backing up or restoring your Azure virtual machine not listed above using Azure Backup",
+            "shortDescription": "Other issues related to using Azure Backup to back up or restore your Azure virtual machine, not listed above",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -39,14 +39,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "5dd4e579-22b4-ee21-ee22-6b027061b157",
-            "shortDescription": "Requests to help with configuring backups for your Azure virtual machine using Azure Backup",
+            "shortDescription": "Requests for help with configuring backups for your Azure virtual machine using Azure Backup",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "2abbb2fc-32d4-402c-6d5d-e7a28a7dc95e",
-            "shortDescription": "The length of time it takes to restore your VM is taking longer than expected using Azure Backup",
+            "shortDescription": "The length of time it takes to restore your VM with Azure Backup is taking longer than expected",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -95,7 +95,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "92c2396d-b703-973f-1bca-2eea9425b21a",
-            "shortDescription": "Resolve issues not covered by other support topics and related to connecting via RDP or SSH",
+            "shortDescription": "Resolve issues related to connecting via RDP or SSH not covered by other support topics",
             "category": "Connectivity",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -368,7 +368,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "cd0edcee-79fe-4f6a-5fa8-7ffe6d9e6a5c",
-            "shortDescription": "Using Azure Scheduled Events to give your virtual machine to to prepare for scheduled maintenance",
+            "shortDescription": "Using Azure Scheduled Events to prepare your virtual machine for scheduled maintenance",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -431,7 +431,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "1135e3d0-20e2-aec5-4ef0-55fd3dae2d58",
-            "shortDescription": "Assistance with migrating IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)",
+            "shortDescription": "Assistance migrating IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
