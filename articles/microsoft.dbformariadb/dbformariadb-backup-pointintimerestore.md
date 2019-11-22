@@ -18,7 +18,7 @@
 
 Azure Database for MariaDB supports point-in-time restore to any point within the configured backup retention period for a server. The restore operation will create a new server side-by-side with the old server. In-place restores and restoring individual databases within a server are not supported.
 
-The default retention period is 7 days and can be increased to 35 days. The backups required to support this functionality are taken automatically. Because transaction log backups are taking every 5 minutes, restore to a point in time within the last 5 minutes might only be available 5 minutes after the point in time you want to restore to.
+The default retention period is 7 days and can be increased to 35 days. The backups required to support this functionality are taken automatically and users do not have access to the backups. As transaction log backups are taken every 5 minutes, you may need to wait 5 minutes before you're able to restore to a specific point-in-time within a 5 minute interval.
 
 ## **Recommended Steps**
 
