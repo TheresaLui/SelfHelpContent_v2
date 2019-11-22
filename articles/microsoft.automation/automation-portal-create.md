@@ -24,7 +24,7 @@ The Automation Account is used to host a variety of services, from runbooks to U
 * This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all). This page also includes information about planned future availability.
 * Note that Automation Accounts can manage resources in any region, regardless of the region the account is created in.
 
-### I am having trouble selecting a Log Analytics workspace
+### **I am having trouble selecting a Log Analytics workspace**
 
 * When enabling solutions, only certain regions are supported for linking a Log Analytics workspace and an Automation Account. See ["Enable Solutions" for the supported region mappings](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#enable-solutions)
 
@@ -45,7 +45,7 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 * See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)
 
-### "Unable to register Automation Resource Provider"
+### **"Unable to register Automation Resource Provider"**
 
 * See ["Unable to register Automation Resource Provider"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#rp-register)
 
