@@ -201,7 +201,7 @@
 			"order": 4000,
 			"controlType": "dropdown",
 			"displayLabel": "Are you logged in as a Service Principal?",
-			"required": false,
+			"required": true,
 			"watermarkText": "Yes / No",
 			"infoBalloonText": "Indicate if you are logged in as a service principal?",
 			"dropdownOptions": [
@@ -211,7 +211,7 @@
 				},
 				{
 					"text": "No",
-					"value": "No"
+					"value": "dont_know_answer"
 				}
 			],
 			"dynamicDropdownOptions": null,
@@ -223,7 +223,7 @@
 			"order": 4200,
 			"controlType": "dropdown",
 			"displayLabel": "Have you tried using PowerShell or CLI in addition to the Portal interface?",
-			"required": false,
+			"required": true,
 			"watermarkText": "Yes / No",
 			"infoBalloonText": "Indicate if you have tried using PowerShell or CLI in addition to the Portal interface?",
 			"dropdownOptions": [
@@ -233,7 +233,7 @@
 				},
 				{
 					"text": "No",
-					"value": "No"
+					"value": "dont_know_answer"
 				}
 			],
 			"dynamicDropdownOptions": null,
@@ -275,7 +275,7 @@
 			"order": 5000,
 			"controlType": "dropdown",
 			"displayLabel": "Have you already set up an AAD Admin and successfully connected to the SQL Server?",
-			"required": false,
+			"required": true,
 			"watermarkText": "Yes / No",
 			"infoBalloonText": "Indicate if you have already set up an AAD Admin and successfully connected to the SQL Server?",
 			"dropdownOptions": [
@@ -285,7 +285,7 @@
 				},
 				{
 					"text": "No",
-					"value": "No"
+					"value": "dont_know_answer"
 				}
 			],
 			"dynamicDropdownOptions": null,
