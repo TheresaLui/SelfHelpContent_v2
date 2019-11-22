@@ -1,32 +1,31 @@
 <properties
-         pageTitle="Scoping questions for Hyper-V VM resynchronization failure"
-         description="Scoping questions for Hyper-V VM  resynchronization failure"
-         authors="ashishgangwar, TobyTu"
-	     ms.author="asgang"
+         pageTitle="Scoping questions for System Center VMM to System Center VMM"
+         description="Scoping questions for System Center VMM to System Center VMM"
+         authors="TobyTu"
+         ms.author="aaronmax"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32680620"
+         supportTopicIds="32634430"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId="9249efab-1e0d-401c-aa50-6dd5fee36857"
+         articleId="q2ade912-df87-4222-9534-98223c9c0527"
 />
 
-# Questions Hyper-V VM resynchronization failure
-
+# System Center VMM to System Center VMM
 ---
 {
     "$schema": "SelfHelpContent",
      "subscriptionRequired": true,
      "resourceRequired": true,
-    "title": "Resynchronization required for VM",
+    "title": "System Center VMM to System Center VMM",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "vm_name",
+            "id": "issue_summary",
             "order": 1,
-            "controlType": "textbox",
-            "displayLabel": "Provide name of the VM you are facing issues with",
-            "watermarkText": "Enter name(s) to scope down quickly",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide a summary of the issue you are having with site to site replication using VMM",
+            "watermarkText": "Enter a summary of the issue",
             "required": true
         },
         {
@@ -34,20 +33,31 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Provide error ID or job ID of the add or register operation",
-            "watermarkText": "Enter in the error ID or job ID",
-            "infoBalloonText": "Click on the VM in the replicated items list, view and paste the error code shown for the VM(s)",
+            "watermarkText": "Enter in the error or job ID",
             "required": false
         },
         {
             "id": "trouble_action",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "I had been protecting the VM successfully, but",
+            "displayLabel": "I am having issue with",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "The VM is marked as critical with resynchronization required error",
-                    "text": "The VM is marked as critical with resynchronization required error"
+                    "value": "Registering VMM",
+                    "text": "Registering VMM"
+                },
+                {
+                    "value": "Enabling replication",
+                    "text": "Enabling replication"
+                },
+                {
+                    "value": "Failover",
+                    "text": "Failover"
+                },
+                {
+                    "value": "Failback",
+                    "text": "Failback"
                 },
                 {
                     "value": "dont_know_answer",
@@ -64,8 +74,16 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Troubleshoot Hyper-V to Azure replication and failover",
-                    "text": "Troubleshoot Hyper-V to Azure replication and failover"
+                    "value": "Support matrix for disaster recovery of Hyper-V VMs to a secondary site",
+                    "text": "Support matrix for disaster recovery of Hyper-V VMs to a secondary site"
+                },
+                {
+                    "value": "Set up logical networks in the VMM fabric",
+                    "text": "Set up logical networks in the VMM fabric"
+                },
+                {
+                    "value": "Fail over VMs and physical servers",
+                    "text": "Fail over VMs and physical servers"
                 },
                 {
                     "value": "dont_know_answer",

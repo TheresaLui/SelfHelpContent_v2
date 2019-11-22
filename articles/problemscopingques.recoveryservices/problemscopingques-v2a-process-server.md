@@ -1,73 +1,72 @@
 <properties
-         pageTitle="Scoping questions for reprotect VMware VM after failover"
-         description="Scoping questions for reprotect VMware VM after failover"
-         authors="ashishgangwar, TobyTu"
-	     ms.author="asgang"
+         pageTitle="Scoping questions for Process server deployment and issues"
+         description="Scoping questions for Process server deployment and issues"
+         authors="TobyTu"
+         ms.author="aaronmax"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32536447"
+         supportTopicIds="32536429"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId="379e6c2e-980b-45a3-a272-b88b13e39d08"
+         articleId="q2ade903-df87-4222-9534-98223c9c0527"
 />
 
-# Reprotect VM after failover
-
+# Process server deployment and issues
 ---
 {
     "$schema": "SelfHelpContent",
      "subscriptionRequired": true,
      "resourceRequired": true,
-    "title": "Reprotect VM after failover",
+    "title": "Process server deployment and issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "vm_name",
+            "id": "server_name",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide name of the VM to re-protect",
-            "watermarkText": "Enter name(s) to scope down quickly",
+            "displayLabel": "Provide name of the process server you are facing issues with",
+            "watermarkText": "Enter name of process server",
             "required": true
         },
         {
             "id": "error_id",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Provide error ID or job ID of the re-protect operation",
-            "watermarkText": "Enter in the error or job ID",
-            "infoBalloonText": "Open a new tab, navigate to Recovery Services Vault, click on Jobs & paste error or job ID of failed re-protect job",
+            "displayLabel": "Provide error ID of the process server",
+            "watermarkText": "Enter in the error ID",
+            "infoBalloonText": "Open a new tab, Open a new tab, navigate to Recovery Services Vault, paste the error code seen for the process server in the overview blade",
             "required": false
         },
         {
             "id": "trouble_action",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "I am trying to re-protect, but",
+            "displayLabel": "Choose the action you are having trouble with",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "I am unable to select data store for re-protect",
-                    "text": "I am unable to select data store for re-protect"
+                    "value": "My process server is unhealthy after upgrade",
+                    "text": "My process server is unhealthy after upgrade"
                 },
                 {
-                    "value": "I am unable to select master target server",
-                    "text": "I am unable to select master target server"
+                    "value": "Unable to setup a new process server",
+                    "text": "Unable to setup a new process server"
                 },
                 {
-                    "value": "I am unable to set up process server in Azure",
-                    "text": "I am unable to set up process server in Azure"
+                    "value": "Process server is not connected to ASR services",
+                    "text": "Process server is not connected to ASR services"
                 },
                 {
-                    "value": "I am not able to boot or see all disks after failback",
-                    "text": "I am not able to boot or see all disks after failback"
+                    "value": "Process server is in a critical state",
+                    "text": "Process server is in a critical state"
                 },
                 {
-                    "value": "My original vCenter is not available",
-                    "text": "My original vCenter is not available"
+                    "value": "Unable to select process server during enable replication",
+                    "text": "Unable to select process server during enable replication"
                 },
                 {
-                    "value": "My original configuration server is not available",
-                    "text": "My original configuration server is not available"
+                    "value": "Switch/load balance process server",
+                    "text": "Switch or load balance process server"
                 },
                 {
                     "value": "dont_know_answer",
