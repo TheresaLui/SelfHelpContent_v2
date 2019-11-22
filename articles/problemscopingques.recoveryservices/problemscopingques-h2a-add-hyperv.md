@@ -1,31 +1,30 @@
 <properties
-         pageTitle="Scoping questions for Hyper-V VM resynchronization failure"
-         description="Scoping questions for Hyper-V VM  resynchronization failure"
-         authors="ashishgangwar, TobyTu"
-	     ms.author="asgang"
+         pageTitle="Scoping questions for add or register a Hyper-V Server"
+         description="Scoping questions for add or register a Hyper-V Server"
+         authors="TobyTu"
+         ms.author="aaronmax"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32680620"
+         supportTopicIds="32536385"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	     articleId="9249efab-1e0d-401c-aa50-6dd5fee36857"
+         articleId="q2ade909-df87-4222-9534-98223c9c0527"
 />
 
-# Questions Hyper-V VM resynchronization failure
-
+# Add or register a Hyper-V Server
 ---
 {
     "$schema": "SelfHelpContent",
      "subscriptionRequired": true,
      "resourceRequired": true,
-    "title": "Resynchronization required for VM",
+    "title": "Add or register a Hyper-V Server",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "vm_name",
+            "id": "host_name",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Provide name of the VM you are facing issues with",
+            "displayLabel": "Provide name of the Hyper-V host you are trying to add",
             "watermarkText": "Enter name(s) to scope down quickly",
             "required": true
         },
@@ -35,19 +34,23 @@
             "controlType": "textbox",
             "displayLabel": "Provide error ID or job ID of the add or register operation",
             "watermarkText": "Enter in the error ID or job ID",
-            "infoBalloonText": "Click on the VM in the replicated items list, view and paste the error code shown for the VM(s)",
+            "infoBalloonText": "Open a new tab, navigate to Recovery Services Vault, click on Jobs & paste error or job ID of failed job",
             "required": false
         },
         {
             "id": "trouble_action",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "I had been protecting the VM successfully, but",
+            "displayLabel": "I am trying to register a new Hyper-V host, but",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "The VM is marked as critical with resynchronization required error",
-                    "text": "The VM is marked as critical with resynchronization required error"
+                    "value": "I am unable to install the provider on the Hyper-V host",
+                    "text": "I am unable to install the provider on the Hyper-V host"
+                },
+                {
+                    "value": "I am unable to see the Host after installing the provider",
+                    "text": "I am unable to see the Host after installing the provider"
                 },
                 {
                     "value": "dont_know_answer",
@@ -63,6 +66,10 @@
             "displayLabel": "I have gone through steps provided in the following articles",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
+                {
+                    "value": "Prepare on-premises Hyper-V servers for disaster recovery to Azure",
+                    "text": "Prepare on-premises Hyper-V servers for disaster recovery to Azure"
+                },
                 {
                     "value": "Troubleshoot Hyper-V to Azure replication and failover",
                     "text": "Troubleshoot Hyper-V to Azure replication and failover"

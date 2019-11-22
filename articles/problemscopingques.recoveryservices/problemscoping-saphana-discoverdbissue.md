@@ -55,9 +55,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the SAP HANA version and edition?",
 			"watermarkText": "ex. SAP HANA 2.0 SPS04",
-			"required": false,
-			"diagnosticInputRequiredClients": "Portal"
-		},
+			"required": false		},
 		{
 			"id": "database_Name",
 			"order": 4,
@@ -72,6 +70,7 @@
 			"controlType": "dropdown",
 			"infoBalloonText": "Info: The script can be found here",
 			"displayLabel": "Have you run the script available on the Discover DB pane?",
+			"watermarkText": "Select",
 			"dropdownOptions": [{
 					"value": "Yes",
 					"text": "Yes"
@@ -85,8 +84,8 @@
 					"text": "Other, don't know or not applicable"
 				}
 			],
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": false,
+	 		"diagnosticInputRequiredClients": "Portal"
 		},
 		{
 			"id": "error_message",
@@ -122,16 +121,15 @@
 					"text": "Other, don't know or not applicable"
 				}
 			],
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": false,
+ 			"diagnosticInputRequiredClients": "Portal"
 		},
 		{
 			"id": "problem_start_time",
 			"order": 8,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": true
-		},
+			"required": false		},
 		{
 			"id": "problem_description",
 			"order": 9,
