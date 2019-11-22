@@ -17,6 +17,6 @@
 
 ## **Recommended Documents**
 
-* [Supported Annotations and their Usages](https://azure.github.io/application-gateway-kubernetes-ingress/annotations/)<br>
-* [How to Support Multiple Namespaces](https://azure.github.io/application-gateway-kubernetes-ingress/features/multiple-namespaces/)<br>
-* [How to Use Private IPs for Internal Routing](https://azure.github.io/application-gateway-kubernetes-ingress/features/private-ip/)
+* [Supported Ingress Controller annotations and their usages](https://docs.microsoft.com/azure/application-gateway/ingress-controller-annotations)<br>
+* [Enable multiple namespace support](https://docs.microsoft.com/azure/application-gateway/ingress-controller-multiple-namespace-support)<br>
+* [Use private IPs for internal routing](https://docs.microsoft.com/azure/application-gateway/ingress-controller-private-ip)

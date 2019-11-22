@@ -16,7 +16,8 @@
 
 # How to develop with CLI
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)<br>
 - [Azure CLI Commands](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest)
+- [Azure Blob Storage CLI Commands](https://docs.microsoft.com/cli/azure/storage/blob?view=azure-cli-latest)

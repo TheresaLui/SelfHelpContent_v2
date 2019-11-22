@@ -10,7 +10,7 @@
 	articleId="account_management_accountmigrationfromCPPtoPC"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689326"
+	supportTopicIds="32689326, 32689410, 32689411, 32689412"
 	clientIds='partnercenter'
 	resourceTags="marketplace"
 	productPesIds="15960"
