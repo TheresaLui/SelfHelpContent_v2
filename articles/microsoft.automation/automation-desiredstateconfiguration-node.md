@@ -39,8 +39,8 @@
 
 ### Checking error logs
 
-* See "Using xDscDiagnostics to Analyze DSC Logs" for information on how to collect logs Support will need to help you with your case
-* You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/dsc/troubleshooting/troubleshooting#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
+* See ["Using xDscDiagnostics to Analyze DSC Logs"](https://docs.microsoft.com/powershell/scripting/dsc/troubleshooting/troubleshooting?view=powershell-5.1#using-xdscdiagnostics-to-analyze-dsc-logs) for information on how to collect logs Support will need to help you with your case
+* You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/scripting/dsc/troubleshooting/troubleshooting?view=powershell-5.1#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
 
 ### Import-DscResource: Could not find the module
 
