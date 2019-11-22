@@ -25,8 +25,7 @@
 **Unable to view data, stored procedures, UDFs, or triggers in Data Explorer** 
 If you are not able to view your data including databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account
 * If VNET is enabled, navigate to the "Firewall and virtual networks" pane and ensure:
-
-	* The setting *Allow access from Azure Portal* is enabled
+<br>The setting *Allow access from Azure Portal* is enabled
 	
 ![throughput visual](https://docs.microsoft.com/azure/cosmos-db/media/how-to-configure-firewall/enable-azure-portal.png)  
 
@@ -78,12 +77,22 @@ If you have followed these steps and receive a 403 "Unable to proceed with the r
 
 ## **Recommended Documents**  
 
-* [Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
-* [How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
-* [Virtual Networks](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
-* [How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
-* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)  
+[Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
+<br>This article describes how to enable this feature for your Azure Cosmos DB account.  
 
-Azure Cosmos DB provides language-integrated, transactional execution of JavaScript. When using the SQL API in Azure Cosmos DB, you can write stored procedures, triggers, and user-defined functions (UDFs) in the JavaScript language. You can write your logic in JavaScript that executed inside the database engine. You can create and execute triggers, stored procedures, and UDFs by using Azure portal, the JavaScript language integrated query API in Azure Cosmos DB or the Cosmos DB SQL API client SDKs.
+[How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
+<br>This article describes how to use built-in notebook commands and features to do common operations.  
+
+[Virtual Networks](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
+<br>You can configure Azure Cosmos DB accounts to allow access from only a specific subnet of an Azure virtual network.   
+
+[How to configure IP firewall in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-firewall)
+<br>Learn how you can set an IP firewall on the Azure Cosmos DB account using the following: 
+* From the Azure portal 
+* Declaratively by using an Azure Resource Manager template 
+* Programmatically through the Azure CLI or Azure PowerShell by updating the ipRangeFilter property  
+
+[Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)
+<br>Azure Cosmos DB provides language-integrated, transactional execution of JavaScript. When using the SQL API in Azure Cosmos DB, you can write stored procedures, triggers, and user-defined functions (UDFs) in the JavaScript language. You can write your logic in JavaScript that executed inside the database engine. You can create and execute triggers, stored procedures, and UDFs by using Azure portal, the JavaScript language integrated query API in Azure Cosmos DB or the Cosmos DB SQL API client SDKs.
 
 
