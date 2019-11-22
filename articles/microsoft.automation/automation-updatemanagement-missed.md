@@ -75,6 +75,10 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 * Some updates can be dependent on other required updates. If a required update needs a reboot, and "Never reboot" is selected, the required update will not finish installing and any dependent updates will not be able to install until the next update deployment.
 
+### **Updates for other Microsoft products**
+
+* By default, Windows Update provides updates only for Windows. To change this behavior, see [Enable updates for other Microsoft products](https://docs.microsoft.com/azure/automation/automation-configure-windows-update#enable-updates-for-other-microsoft-products)
+
 
 ## **Recommended Documents**
 
