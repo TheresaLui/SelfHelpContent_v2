@@ -49,7 +49,7 @@ This article will help with assessing available updates and installing updates u
 
 * KB2267602 is the [Windows Defender definition update](https://www.microsoft.com/wdsi/definitions). It is updated daily.
 
-### Installing updates by classification on Linux
+### **Installing updates by classification on Linux**
 
 * Deploying updates to Linux by classification ("Critical and security updates") has important caveats, especially for CentOS. These [limitations are documented on the Update Management overview page](https://docs.microsoft.com/azure/automation/automation-update-management#linux-2)
 

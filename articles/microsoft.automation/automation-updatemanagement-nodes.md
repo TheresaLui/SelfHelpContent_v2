@@ -52,9 +52,9 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
   * Option 2) (Recommended) [Disable Scope Configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#all-available-and-future-machines) and register all machines in the workspace for Update Management
 
 
-  ### **Using Update Management with SCCM/SCOM**
+### **Using Update Management with SCCM/SCOM**
 
-  * Refer to ["Integrate System Center with Update Management"](https://docs.microsoft.com/azure/automation/oms-solution-updatemgmt-sccmintegration)
+ * Refer to ["Integrate System Center with Update Management"](https://docs.microsoft.com/azure/automation/oms-solution-updatemgmt-sccmintegration)
 
 ## **Recommended Documents**
 

@@ -27,7 +27,7 @@ This article will discuss specific deployment failures that can occur with DSC t
 
 * To deploy DSC with VMSS, consult the sample template ["VMSS Configuration managed by Azure Automation"](https://azure.microsoft.com/resources/templates/201-vmss-automation-dsc/)
 
-### Import-DscResource: Could not find the module
+### **Import-DscResource: Could not find the module**
 
 * You must upload modules included in your DSC configuration to the automation account. See [Adding required DSC resources to Pull Sever](https://docs.microsoft.com/azure/automation/automation-dsc-cd-chocolatey#step-3-adding-required-dsc-resources-to-the-pull-server)
 
