@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
-	articleId="6e869b56-8838-4e40-9f56-2556d3900b6d"
+	articleId="servicefabric-clusternodesstuckindisablingstate"
 />
 
 # Nodes are stuck in disabling state
