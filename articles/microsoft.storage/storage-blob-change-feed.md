@@ -21,4 +21,4 @@
 - [Preview Limitation](https://docs.microsoft.com/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal#conditions-and-known-issues-preview)
 - [How to register your subscription](https://docs.microsoft.com/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal#register-your-subscription-preview)
 - [How to use Change Feed Processor library to process Change Feed logs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-change-feed-how-to)
-- [When should I use Blob Storage Events vs Change Feed](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal)
+- [When should I use Blob Storage Events vs Change Feed](https://docs.microsoft.com/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal)
