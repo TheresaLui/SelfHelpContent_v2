@@ -41,6 +41,7 @@ These documents will help you with common problems related to Automation Account
 ### **Source Control sync job fails**
 
 * Job logs for source control sync failures are detailed in [the "Syncing" section of the Source Control Integration document](https://docs.microsoft.com/azure/automation/source-control-integration#syncing)
+* Ensure you have [the latest version of the AzureRm modules](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) in your Automation account.
 
 ### **Auto-sync hasn't started**
 
