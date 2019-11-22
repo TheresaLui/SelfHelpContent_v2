@@ -30,29 +30,29 @@
 
 ## **Recommended Steps**
 
-**No backups were found to restore the database to the point in time \<time\> (UTC). Please contact support to restore the database.**
+* **No backups were found to restore the database to the point in time \<time\> (UTC). Please contact support to restore the database.**
 
-* If the exact point in time requested is not necessary you can attempt to restore to a later point in time, particularly if the requested time is close to database creation time.
-* When databases are configured for [active geo-replication](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32688668) only the geo-primary database generates backups. If the requested database was geo-secondary during the requested point in time you can attempt the restore from the geo-primary database.
+  * If the exact point in time requested is not necessary you can attempt to restore to a later point in time, particularly if the requested time is close to database creation time.
+  * When databases are configured for [active geo-replication](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32688668) only the geo-primary database generates backups. If the requested database was geo-secondary during the requested point in time you can attempt the restore from the geo-primary database.
 
-**Database '\<database name\>' already exists. Choose a different database name.**
+* **Database '\<database name\>' already exists. Choose a different database name.**
 
-* Restoring a database does not replace the existing source database. You can, however, rename the original and restored databases.
+  * Restoring a database does not replace the existing source database. You can, however, rename the original and restored databases.
 
-**The restored database is too large for \<target edition\> edition. Please specify a target edition with sufficient storage.**
+* **The restored database is too large for \<target edition\> edition. Please specify a target edition with sufficient storage.**
 
-* If you do not explicitly specify a target service objective the restored database will take the service objective that the source database currently is. This may not support the size of the source database at the requested point in time and you will need to explicitly specify a target service objective that does.
-* If you are specifying a target service objective that should support the database size you can first attempt the restore to a higher service objective and scale the database down after restore has completed.
+  * If you do not explicitly specify a target service objective the restored database will take the service objective that the source database currently is. This may not support the size of the source database at the requested point in time and you will need to explicitly specify a target service objective that does.
+  * If you are specifying a target service objective that should support the database size you can first attempt the restore to a higher service objective and scale the database down after restore has completed.
 
-**No error but restore is taking longer than expected**
+* **No error but restore is taking longer than expected**
 
-* Restore operations are resource intensive and are a size of data operation. To get better performance it is possible to restore to a higher service objective and scale the the database down after restore has completed.
-* If you are restoring into an elastic pool you will get the best performance if you limit the number of concurrent restores into the same pool.
+  * Restore operations are resource intensive and are a size of data operation. To get better performance it is possible to restore to a higher service objective and scale the the database down after restore has completed.
+  * If you are restoring into an elastic pool you will get the best performance if you limit the number of concurrent restores into the same pool.
 
-**I want to restore an existing .bak file**
+* **I want to restore an existing .bak file**
 
-* Single Azure SQL databases and elastic pools do not allow restoring from provided .bak files. The recommendation is to use [.bacpac files for importing](https://docs.microsoft.com/azure/sql-database/sql-database-export?WT.mc_id=pid:13491:sid:32688668).
-* Azure SQL Database Managed instance does support [native restore](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore?WT.mc_id=pid:13491:sid:32688668) from .bak files
+  * Single Azure SQL databases and elastic pools do not allow restoring from provided .bak files. The recommendation is to use [.bacpac files for importing](https://docs.microsoft.com/azure/sql-database/sql-database-export?WT.mc_id=pid:13491:sid:32688668).
+  * Azure SQL Database Managed instance does support [native restore](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore?WT.mc_id=pid:13491:sid:32688668) from .bak files
 
 ## **Recommended Documents**
 
