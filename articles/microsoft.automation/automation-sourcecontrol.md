@@ -32,11 +32,11 @@ These documents will help you with common problems related to Automation Account
 
 ### **Error when setting up Source Control**
 
-* Errors during the creation process tend to indicate permissions issues. See [Personal access token permissions](https://docs.microsoft.com/azure/automation/source-control-integration#personal-access-token-permissions)
+* Errors during the creation process tend to indicate permissions issues. See [Personal access token permissions](https://docs.microsoft.com/azure/automation/source-control-integration#personal-access-token-permissions).
 
 ### **Strange characters appear after integrating with Source Control**
 
-* Strange characters are often a symptom of bad encoding. For more information, see ["Common Causes of Encoding Issues"](https://docs.microsoft.com/azure/automation/source-control-integration#encoding)
+* Strange characters are often a symptom of bad encoding. For more information, see ["Common Causes of Encoding Issues"](https://docs.microsoft.com/azure/automation/source-control-integration#encoding).
 
 ### **Source Control sync job fails**
 
@@ -45,7 +45,7 @@ These documents will help you with common problems related to Automation Account
 
 ### **Auto-sync hasn't started**
 
-* Source Control Auto-Sync doesn't start until the repository has recieved a new commit. 
+* Source Control Auto-Sync doesn't start until the repository has received a new commit. 
 
 ## **Recommended Documents**
 
