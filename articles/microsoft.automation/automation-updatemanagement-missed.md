@@ -74,6 +74,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 ### **Updates aren't installing while "Never reboot" is selected"**
 
 * Some updates can be dependent on other required updates. If a required update needs a reboot, and "Never reboot" is selected, the required update will not finish installing and any dependent updates will not be able to install until the next update deployment.
+* Updates can also be skipped once the maintenance window is exceeded. See ["The scheduled update failed with a MaintenanceWindowExceeded error"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#mw-exceeded). 
 
 ### **Updates for other Microsoft products**
 
