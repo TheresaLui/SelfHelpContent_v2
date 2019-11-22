@@ -33,7 +33,6 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 * If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 
 
-
 ### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already enrolled into Update Management
@@ -51,6 +50,11 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
   * Option 1) [Update the scope configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) to add the desired machines
   * Option 2) (Recommended) [Disable Scope Configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#all-available-and-future-machines) and register all machines in the workspace for Update Management
+
+
+### **Using Update Management with SCCM/SCOM**
+
+ * Refer to ["Integrate System Center with Update Management"](https://docs.microsoft.com/azure/automation/oms-solution-updatemgmt-sccmintegration)
 
 ## **Recommended Documents**
 
