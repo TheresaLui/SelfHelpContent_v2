@@ -39,7 +39,7 @@ Azure Cosmos DB currently only supports scale up operation. It is typically a lo
 [Request unit calculator](https://www.documentdb.com/capacityplanner)
 <br>The request unit calculator offers you a quick estimate of the workload cost on Cosmos DB.  
 
-[Set and get throughput for Azure Cosmos DB containers and database](https://docs.microsoft.com/azure/cosmos-db/set-throughput)  
+[Set and get throughput for Azure Cosmos DB containers and database](https://docs.microsoft.com/azure/cosmos-db/set-throughput)
 <br>This article describes how you can provision throughput at two granularities
 * Azure Cosmos containers
 * Azure Cosmos databases  

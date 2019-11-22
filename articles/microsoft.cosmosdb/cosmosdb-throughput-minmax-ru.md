@@ -39,11 +39,11 @@ This article explains how to provision throughput on a database in Azure Cosmos 
 
 ## **Recommended Documents**
 
-[Request Units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)  
+[Request Units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
 <br>With Azure Cosmos DB, you pay for the throughput you provision and the storage you consume on an hourly basis. Throughput must be provisioned to ensure that sufficient system resources are available for your Azure Cosmos database at all times. You need enough resources to meet or exceed the Azure Cosmos DB SLAs.  
 
-[Request Unit Factors](https://docs.microsoft.com/azure/cosmos-db/request-units#request-unit-considerations)   
+[Request Unit Factors](https://docs.microsoft.com/azure/cosmos-db/request-units#request-unit-considerations)
 <br>When estimating the number of RUs per second to provision, use this article to consider factors that impact RUs.  
 
-[Optimize query cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-queries#evaluate-request-unit-charge-for-a-query)  
+[Optimize query cost in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/optimize-cost-queries#evaluate-request-unit-charge-for-a-query)
 <br>Azure Cosmos DB offers a rich set of database operations including relational and hierarchical queries that operate on the items within a container. The cost associated with each of these operations varies based on the CPU, IO, and memory required to complete the operation. Instead of thinking about and managing hardware resources, you can think of a request unit (RU) as a single measure for the resources required to perform various database operations to serve a request. This article describes how to evaluate request unit charges for a query and optimize the query in terms of performance and cost.
