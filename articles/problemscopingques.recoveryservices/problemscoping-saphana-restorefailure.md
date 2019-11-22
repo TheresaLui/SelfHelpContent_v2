@@ -61,7 +61,8 @@
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
-            ]
+            ],
+            "required": false
         },
         {
             "id": "database_Name",
@@ -91,8 +92,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "restore_Type1",
@@ -114,8 +114,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "error_message",
@@ -167,7 +166,7 @@
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
