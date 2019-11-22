@@ -65,6 +65,10 @@ This article will help with assessing available updates and installing updates u
 
 * Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
+### **Update Management dashboard shows incorrect data**
+
+* This can occur if you have exceeded your Log Analytics pricing tier. See the [Log Analytics pricing documentation](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#changing-pricing-tier) for assistance in diagnosing and resolving this problem.. 
+
 
 ## **Recommended Documents**
 
