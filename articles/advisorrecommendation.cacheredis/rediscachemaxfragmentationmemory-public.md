@@ -1,13 +1,13 @@
 <properties
-    pageTitle="Availability may be impacted from high memory fragmentation. Increase the value of your fragmentation memory reservation to avoid potential impact."
-    description="Availability may be impacted from high memory fragmentation. Increase the value of your fragmentation memory reservation to avoid potential impact."
+    pageTitle="Availability may be impacted from high memory fragmentation. Increase fragmentation memory reservation to avoid potential impact."
+    description="Availability may be impacted from high memory fragmentation. Increase fragmentation memory reservation to avoid potential impact."
     authors="suryaren"
     ms.author="suryaren"
     articleId="7c380315-6ad9-4fb2-8930-a8aeb1d6241b_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# Availability may be impacted from high memory fragmentation. Increase the value of your fragmentation memory reservation to avoid potential impact.
+# Availability may be impacted from high memory fragmentation. Increase fragmentation memory reservation to avoid potential impact.
 ---
 {
   "recommendationOfferingId": "36d1891e-40d0-4dc5-bd43-ad946173dcd0",
@@ -39,10 +39,8 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "http://aka.ms/redis/recommendations/memory-policies",
-  "description": "Availability may be impacted from high memory fragmentation. Increase the value of your fragmentation memory reservation to avoid potential impact.",
-  "longDescription": "Fragmentation and memory pressure can cause availability incidents during a failover or management operations. Increasing reservation of memory for fragmentation
-  helps in reducing the cache failures when running under high memory pressure. Memory for fragmentation can be increased via maxfragmentationmemory-reserved setting available
-  in advanced settings blade.",
+  "description": "Availability may be impacted from high memory fragmentation. Increase fragmentation memory reservation to avoid potential impact.",
+  "longDescription": "Fragmentation and memory pressure can cause availability incidents during a failover or management operations. Increasing reservation of memory for fragmentation helps in reducing the cache failures when running under high memory pressure. Memory for fragmentation can be increased via maxfragmentationmemory-reserved setting available in advanced settings blade.",
   "potentialBenefits": "Avoid availability incidents when your cache has high memory fragmentation",
   "testData":"cabd7983-99cd-4ec6-b92c-2b10e52c2f58,/subscriptions/cabd7983-99cd-4ec6-b92c-2b10e52c2f58/resourceGroups/Investigate-Redis/providers/Microsoft.Cache/Redis/test123",
   "actions": [
@@ -69,8 +67,8 @@
       }
     }
   },
-  "displayLabel": "Avoid availability incidents from high memory fragmentation by increasing the value of your fragmentation memory reservation",
+  "displayLabel": "Avoid availability incidents from high memory fragmentation by increasing fragmentation memory reservation",
   "additionalColumns": [],
-  "tip": "You can avoid availability incidents by increasing the value of your fragmentation memory reservation"
+  "tip": "You can avoid availability incidents by increasing fragmentation memory reservation"
 }
 ---
