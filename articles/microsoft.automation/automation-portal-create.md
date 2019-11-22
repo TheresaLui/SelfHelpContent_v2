@@ -45,6 +45,10 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 * See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)
 
+### "Unable to register Automation Resource Provider"
+
+* See ["Unable to register Automation Resource Provider"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#rp-register)
+
 
 ## **Recommended Documents**
 
