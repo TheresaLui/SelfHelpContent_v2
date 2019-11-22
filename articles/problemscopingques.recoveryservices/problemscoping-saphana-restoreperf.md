@@ -70,7 +70,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -93,7 +93,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -117,7 +117,7 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

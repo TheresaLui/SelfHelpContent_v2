@@ -71,6 +71,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Provide the SID for this SAP instance",
+            "watermarkText": "Ex. HX1",
             "required": false
         },
         {
@@ -116,14 +117,14 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
