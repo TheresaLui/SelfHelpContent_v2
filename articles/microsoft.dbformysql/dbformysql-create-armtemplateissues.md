@@ -25,13 +25,12 @@ Most users are able to resolve their issue using the steps below.
 * If your deployment is failing:
 
   * If you are creating a new server, make sure your the server name is globally unique
-  * If you are deploying or updating multiple server attributes which includes firewall rules, Virtual Network rules, server parameters or databases for a given server, make sure you are deploying these serially, in any order. By default, ARM deploys resources in parallel and a deployment may fail if configured in parallel. Familiarize yourself with [Sample ARM templates](https://github.com/Azure/azure-mysql/tree/master/arm-templates)
+  * If you are deploying or updating multiple server attributes which includes firewall rules, Virtual Network rules, server parameters or databases for a given server, make sure you are deploying these serially, in any order. By default, ARM deploys resources in parallel and a deployment may fail if configured in parallel. Familiarize yourself with [Sample ARM templates](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithMultipleServerProperties).
   * Required parameters are set and valid. See the [Provisioning Azure Database for MySQL using ARM templates](https://docs.microsoft.com/azure/mysql/tutorial-provision-mysql-server-using-azure-resource-manager-templates#create-an-azure-database-for-mysql-server-with-vnet-service-endpoint-using-azure-resource-manager-template) to understand the valid values of the parameters.
 * Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete.
 
 ## **Recommended Documents**
 
-* [Deploy multiple properties of a server including Firewall rules, Virtual Network rules, server parameters or databases](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithMultipleServerProperties)<br>
 * [Create databases in Azure Database for MySQL](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithDatabase)<br>
 * [Create Azure Database for MySQL with multiple firewall rules](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithFirewallRule)<br>
-* [Enable auto grow on Azure Database for MySQL](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithVirtualNetworkRules)
+* [Create Azure Database for MySQL with virtual network rules](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithVirtualNetworkRules)
