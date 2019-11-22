@@ -92,6 +92,10 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 * This can occur if you have exceeded your Log Analytics pricing tier. See the [Log Analytics pricing documentation](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#changing-pricing-tier) for assistance in diagnosing and resolving this problem.. 
 
+### **Machines reboot unexpectedly**
+
+* See ["Configre Reboot Settings"](https://docs.microsoft.com/azure/automation/automation-configure-windows-update#configure-reboot-settings)
+
 
 ## **Recommended Documents**
 
