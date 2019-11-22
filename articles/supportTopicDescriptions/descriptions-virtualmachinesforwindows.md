@@ -939,6 +939,62 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "category": "",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "",
+            "shortDescription": " ",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "44e1bd26-fbd8-a7f9-f8de-8a2b47ccb27e",
+            "shortDescription": "Troubleshoot issues with activating Windows for a virtual machine running in Azure",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "ebd329a3-fb2f-0895-7d80-e944994bcfab",
+            "shortDescription": "Requesting help with activating Windows for a machine has never been activated before",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "5c13b65d-2d3c-a335-d7a0-fac839d34d2b",
+            "shortDescription": "Covers issues where Windows was previously activated and now isn't"
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "f55ae157-8eae-55e0-db62-d976220c3b4b",
+            "shortDescription": "Covers issues where Windows reported a specific activation error",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "e587028f-8d91-4c0f-a265-b1f08a6d22cf",
+            "shortDescription": "Covers issues where Windows activation is having issues due to Express Route configuration",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "1ceb0742-9626-0670-452f-e853aa789deb",
+            "shortDescription": "Covers issues where the activation key or license is not working properly",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "d36debab-2411-5fcc-6fcc-f28b5a18a804",
+            "shortDescription": "Covers issues when the KMS Windows Server is located on-premises",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
         }
     ],
     "$schema": "SelfHelpContent"
