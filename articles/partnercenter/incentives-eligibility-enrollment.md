@@ -23,6 +23,7 @@ These resources explain eligibility, policy and how to enroll in the incentives 
 
 ## **Recommended Documents**
 
+* [How to add incentive users or admins in Partner Center](https://support.microsoft.com/help/3011450/how-to-add-incentive-users-or-admins-in-partner-center)
 * [Partner Incentives is now on Partner Center](https://docs.microsoft.com/partner-center/partner-incentives-is-now-on-partner-center)
 * [Enroll in the program](https://support.microsoft.com/help/2938751/enroll-in-the-program)
 * [Partner Eligibility Requirements in Cloud Solutions Provider (CSP) Program](https://support.microsoft.com/help/3192802/incentive-eligibility-requirements-in-csp-program)
