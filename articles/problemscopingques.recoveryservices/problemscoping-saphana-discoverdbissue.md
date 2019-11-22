@@ -85,7 +85,7 @@
 				}
 			],
 			"required": false,
-	 		"diagnosticInputRequiredClients": "Portal"		
+	 		"diagnosticInputRequiredClients": "Portal"
 		},
 		{
 			"id": "error_message",
@@ -122,7 +122,7 @@
 				}
 			],
 			"required": false,
- 			"diagnosticInputRequiredClients": "Portal"			
+ 			"diagnosticInputRequiredClients": "Portal"
 		},
 		{
 			"id": "problem_start_time",
