@@ -55,9 +55,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the SAP HANA version and edition?",
 			"watermarkText": "ex. SAP HANA 2.0 SPS04",
-			"required": false,
-			"diagnosticInputRequiredClients": "Portal"
-		},
+			"required": false		},
 		{
 			"id": "database_Name",
 			"order": 4,
@@ -86,7 +84,8 @@
 					"text": "Other, don't know or not applicable"
 				}
 			],
-			"required": false
+			"required": false,
+	 		"diagnosticInputRequiredClients": "Portal"		
 		},
 		{
 			"id": "error_message",
@@ -122,15 +121,15 @@
 					"text": "Other, don't know or not applicable"
 				}
 			],
-			"required": false
+			"required": false,
+ 			"diagnosticInputRequiredClients": "Portal"			
 		},
 		{
 			"id": "problem_start_time",
 			"order": 8,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
-		},
+			"required": false		},
 		{
 			"id": "problem_description",
 			"order": 9,

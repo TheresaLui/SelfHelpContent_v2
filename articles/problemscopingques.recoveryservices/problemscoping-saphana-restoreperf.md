@@ -70,7 +70,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "restore_Type1",
@@ -92,7 +93,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
