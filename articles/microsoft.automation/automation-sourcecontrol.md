@@ -28,6 +28,7 @@ These documents will help you with common problems related to Automation Account
 
 * If you have multiple accounts, be sure you are logged into the correct account
 * You can try logging in directly to [https://app.vssps.visualstudio.com/](https://app.vssps.visualstudio.com/) to ensure you are logged into the correct account
+* You can also try using [the PowerShell cmdlets to configure source control](https://docs.microsoft.com/azure/automation/source-control-integration#configure-source-control---powershell)
 
 ### **Error when setting up Source Control**
 
