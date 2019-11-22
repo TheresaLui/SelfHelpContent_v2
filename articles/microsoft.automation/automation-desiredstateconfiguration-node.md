@@ -44,7 +44,7 @@
 
 ### Import-DscResource: Could not find the module
 
-* You must upload modules included in your DSC configuration to the automation account. See [Adding required DSC resources to Pull Sever](https://docs.microsoft.com/azure/automation/automation-dsc-cd-chocolatey#step-3-adding-required-dsc-resources-to-the-pull-server).
+* You must upload modules included in your DSC configuration to the automation account. See [Adding required DSC resources to Pull Server](https://docs.microsoft.com/azure/automation/automation-dsc-cd-chocolatey#step-3-adding-required-dsc-resources-to-the-pull-server).
 
 ### DSC and VMSS
 
