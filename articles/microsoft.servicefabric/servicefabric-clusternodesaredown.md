@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
-	articleId="19e1fa7e-c328-4634-84be-653cc539bdd0"
+	articleId="servicefabric-clusternodesaredown"
 />
 
 # Nodes are down
