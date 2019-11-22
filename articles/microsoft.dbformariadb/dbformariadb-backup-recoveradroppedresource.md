@@ -20,7 +20,7 @@ Azure Database for MariaDB generally does not support restoring dropped servers.
 
 ## **Recommended Steps**
 
-* If you accidentally dropped a server, immediately issue a point-in-time restore request using our [REST API](https://docs.microsoft.com/rest/api/mariadb/servers/create#create-a-database-as-a-point-in-time-restore) to a point in time just before the time the server was dropped
+* If you accidentally dropped a server, immediately issue a point-in-time restore request using our [REST API](https://docs.microsoft.com/rest/api/mariadb/servers/create#create-a-database-as-a-point-in-time-restore) to a point in time just before the time the server was dropped. You can issue this request within 7 days of accidentally dropping a server. This may enable you to recover the deleted server.
 
 ## **Recommended Documents**
 

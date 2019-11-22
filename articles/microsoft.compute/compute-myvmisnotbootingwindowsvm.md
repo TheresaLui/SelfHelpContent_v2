@@ -46,4 +46,4 @@ If your Windows virtual machine (VM) is not booting and you are unsure of the ca
 ## **Recommended Documents**
 
 * [Review the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
-* Access the [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM and verify it is running.
+* Access the [Serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) of your VM and verify it is running.
