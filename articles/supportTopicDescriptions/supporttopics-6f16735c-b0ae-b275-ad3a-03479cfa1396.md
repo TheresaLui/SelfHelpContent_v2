@@ -963,7 +963,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "5c13b65d-2d3c-a335-d7a0-fac839d34d2b",
-            "shortDescription": "Covers issues where Windows was previously activated and now isn't"
+            "shortDescription": "Covers issues where Windows was previously activated and now isn't",
             "category": "",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
