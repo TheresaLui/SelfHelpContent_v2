@@ -1,24 +1,20 @@
 <properties
-	pageTitle="cluster/deploymentordeletion"
-	description="cluster/deploymentordeletion"
+	pageTitle="cluster/creation"
+	description="cluster/creation"
 	service="microsoft.servicefabric"
 	resource="clusters"
 	authors="ChiragPavecha"
 	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32608945"
+	supportTopicIds="32690994"
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
 	articleId="a5eaf9ea-059a-45b1-b685-bc78706cf440"
 />
 
-# Cluster Deployment or Deletion
-
-## Resolution to previous ImageBuilder process issue for Service Fabric Linux clusters
-
-As of Service Fabric runtime version 6.4.644 for Linux clusters, a previous issue with the ImageBuilder process has been resolved. This issue had required the addition of a custom script extension to the Azure Resource Manager template. This custom script extension can now be removed for clusters running Service Fabric runtime version 6.4.6444+. Please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/04/17/resolution-to-previous-imagebuilder-process-issue-for-service-fabric-linux-clusters/) for more information.
+# Cluster Deployment or Creation
 
 ## **Recommended Documents**
 
