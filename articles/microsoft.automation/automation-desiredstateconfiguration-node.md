@@ -39,12 +39,12 @@
 
 ### Checking error logs
 
-* See ["Using xDscDiagnostics to Analyze DSC Logs"](https://docs.microsoft.com/powershell/scripting/dsc/troubleshooting/troubleshooting?view=powershell-5.1#using-xdscdiagnostics-to-analyze-dsc-logs) for information on how to collect logs Support will need to help you with your case
+* See ["Using xDscDiagnostics to Analyze DSC Logs"](https://docs.microsoft.com/powershell/scripting/dsc/troubleshooting/troubleshooting?view=powershell-5.1#using-xdscdiagnostics-to-analyze-dsc-logs) for information on how to collect logs Support will need to help you with your case.
 * You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/scripting/dsc/troubleshooting/troubleshooting?view=powershell-5.1#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
 
 ### Import-DscResource: Could not find the module
 
-* You must upload modules included in your DSC configuration to the automation account. See [Adding required DSC resources to Pull Sever](https://docs.microsoft.com/azure/automation/automation-dsc-cd-chocolatey#step-3-adding-required-dsc-resources-to-the-pull-server)
+* You must upload modules included in your DSC configuration to the automation account. See [Adding required DSC resources to Pull Sever](https://docs.microsoft.com/azure/automation/automation-dsc-cd-chocolatey#step-3-adding-required-dsc-resources-to-the-pull-server).
 
 ### DSC and VMSS
 
