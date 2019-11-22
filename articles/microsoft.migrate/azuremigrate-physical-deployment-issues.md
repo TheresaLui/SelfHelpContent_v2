@@ -8,7 +8,7 @@
     ms.author="vibansa"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="123456"
+    supportTopicIds="32691005"
     resourceTags=""
     productPesIds="16348"
     cloudEnvironments="public"
