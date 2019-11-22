@@ -16,7 +16,7 @@
 
 # application/developmentrelated
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Service Fabric Code Samples](https://azure.microsoft.com/resources/samples/?service=service-fabric&sort=0)<br>
 * [Azure PowerShell samples](https://docs.microsoft.com/azure/service-fabric/service-fabric-powershell-samples)<br>
