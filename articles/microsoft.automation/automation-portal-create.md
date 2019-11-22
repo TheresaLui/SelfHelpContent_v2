@@ -21,7 +21,8 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 ### **I want to know what regions Automation Accounts are available in**
 
-* This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all). This page also includes information about planned future availability
+* This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all). This page also includes information about planned future availability.
+* Note that Automation Accounts can manage resources in any region, regardless of the region the account is created in.
 
 ### I am having trouble selecting a Log Analytics workspace
 
@@ -39,6 +40,10 @@ The Automation Account is used to host a variety of services, from runbooks to U
 ### **Managing permissions and access**
 
 * See the document ["Role based access control in Azure Automation"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control)
+
+### **I want to start/stop VMs on a schedule**
+
+* See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)
 
 
 ## **Recommended Documents**
