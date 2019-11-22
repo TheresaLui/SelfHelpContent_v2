@@ -36,6 +36,10 @@ The Automation Account is used to host a variety of services, from runbooks to U
 * RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions. You might also see the message "You do not have permissions to create…"
 * See the ["Unable to Update or Create RunAs account"section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
 
+### **Managing permissions and access**
+
+* See the document ["Role based access control in Azure Automation"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control)
+
 
 ## **Recommended Documents**
 
