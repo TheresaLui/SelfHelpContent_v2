@@ -29,6 +29,10 @@ In order to manage RunAs accounts, you will need permissions as listed at ["Perm
 
 * After your RunAs certificate expires, you will have to delete it and create a new one by following the instructions for ["Delete and recreate an Azure RunAs account"](https://docs.microsoft.com/azure/automation/manage-runas-account#delete-a-run-as-or-classic-run-as-account)
 
+### I want to start/stop VMs
+
+* See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management) for information on permissions needed to create RunAs accounts related to the Start/Stop solution
+
 
 ## **Recommended Documents**
 
