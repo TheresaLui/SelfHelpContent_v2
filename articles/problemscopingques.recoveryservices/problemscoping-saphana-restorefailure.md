@@ -93,7 +93,6 @@
             ],
             "required": false,
             "diagnosticInputRequiredClients": "Portal"
-        
         },
         {
             "id": "restore_Type1",
