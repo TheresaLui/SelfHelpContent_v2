@@ -39,7 +39,7 @@ Customers can achieve an RTO of zero by enabling multiple-region writes (multi-m
 <br>Distributed databases that rely on replication for high availability, low latency, or both must make tradeoffs. The tradeoffs are between read consistency vs. availability, latency, and throughput.
 <br>This article discribes the differences in these trade offs.  
 
-[multi-region accounts](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account)
+[Multi-region accounts](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account)
 <br>This article describes how to manage various tasks on an Azure Cosmos account using the Azure portal, Azure PowerShell, Azure CLI, and Azure Resource Manager templates.  
 
 [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
