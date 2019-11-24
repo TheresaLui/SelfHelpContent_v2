@@ -31,6 +31,7 @@ Azure Cosmos DB automatically takes a backup of your database every 4 hours and 
 
 ### **Performaing a restore**
 Microsoft can only do a copy of a Cosmos DB account within the same subscription and resource group. It is not possible to restore the database to a new subscription. If you need a copy of your data in a new subscription, please use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/)  
+
 The restore process always creates a new Azure Cosmos account to hold the restored data. The name of the new account, if not specified, will have the format <Azure_Cosmos_account_original_name>-restored1. The last digit is incremented if multiple restores are attempted. You can not restore data to a pre-created Azure Cosmos account.  
 
 
@@ -50,7 +51,7 @@ Typical Guidelines:
 
 ### **Managing your own backups**
 We have some suggestions for how you can clone your Cosmos DB to another Resource Group or even to the same RG to manage your own backups:
-* You can use data [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/), with the Azure Cosmos DB Data Migration tool you can easily migrate data to Azure Cosmos DB. The Azure Cosmos DB Data Migration tool is an open source solution.
+* You can use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/). With the Azure Cosmos DB Data Migration tool you can easily migrate data to Azure Cosmos DB. The Azure Cosmos DB Data Migration tool is an open source solution.
 * You can use Azure Data Factory (ADF), using ADF you can copy data from Azure Cosmos DB (SQL API) to another Azure Cosmos DB (SQL API)  
 
 

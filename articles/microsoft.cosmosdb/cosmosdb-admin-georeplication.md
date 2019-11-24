@@ -25,9 +25,9 @@ Customers can achieve an RTO of zero by enabling multiple-region writes (multi-m
 
 ## **Recommended Steps**
 
-* For single-region write accounts, you can test HA by [triggering a manual failover](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#manual-failover)
+* For single-region write accounts, you can test High Availability by [triggering a manual failover](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#manual-failover)
 
-* For multi-region write accounts, you can test HA by [adding and removing a region dynamically](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#addremove-regions-from-your-database-account)  
+* For multi-region write accounts, you can test High Availability by [adding and removing a region dynamically](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#addremove-regions-from-your-database-account)  
 
 
 ## **Recommended Documents**
