@@ -50,6 +50,12 @@ As a multi-tenant service, the operation has gone over the client's memory allot
 
 ## **Recommended Documents**  
 
+[Azure Cosmos DB's API for MongoDB (3.6 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
+<br>The Azure Cosmos DB's API for MongoDB is compatible with MongoDB server version 3.6 by default for new accounts. The supported operators and any limitations or exceptions are listed in this articl. Any client driver that understands these protocols should be able to connect to Azure Cosmos DB's API for MongoDB.  
+
+[Azure Cosmos DB's API for MongoDB (3.2 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support)
+<br>This article covers MongoDB version 3.2. The supported operators and any limitations or exceptions are listed in this article.  
+
 [Connect a MongoDB application to Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/connect-mongodb-account)
 <br>Learn how to connect your MongoDB app to an Azure Cosmos DB by using a MongoDB connection string. You can then use an Azure Cosmos database as the data store for your MongoDB app.
 <br>This tutorial provides two ways to retrieve connection string information:
