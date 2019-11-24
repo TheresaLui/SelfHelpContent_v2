@@ -48,8 +48,7 @@ Typical Guidelines
 ### **Managing your own backups**
 <br>We have 3 suggestions for you to clone your Cosmos DB to another Resource Group or even to the same to manage your own backups:
 * You can use data [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/), with the Azure Cosmos DB Data Migration tool you can easily migrate data to Azure Cosmos DB. The Azure Cosmos DB Data Migration tool is an open source solution.
-* You can use Azure Data Factory (ADF), using ADF you can copy data from Azure Cosmos DB (SQL API) to another Azure Cosmos DB (SQL API)
-* You can also use the [CosmicCLone tool](https://github.com/Microsoft/CosmicClone) where you can take a clone/backup with data/stored procedures/triggers/udf, etc.  
+* You can use Azure Data Factory (ADF), using ADF you can copy data from Azure Cosmos DB (SQL API) to another Azure Cosmos DB (SQL API)  
 
 ### **Reducing need for backups**
 <br>Your Cosmos DB account may not require backup/restore for disaster recovery. Azure Cosmos DB provides [High availability with Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/high-availability) to transparently replicate your data across all the Azure regions associated with your Cosmos account
