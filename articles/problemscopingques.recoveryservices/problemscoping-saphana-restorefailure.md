@@ -137,7 +137,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 8,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Info: <a href="https://docs.microsoft.com/en-us/azure/backup/sap-hana-backup-support-matrix#scenario-support">Learn more</a> about the scenarios we support",
+            "infoBalloonText": "Info: <a href="https://docs.microsoft.com/azure/backup/sap-hana-backup-support-matrix#scenario-support">Learn more</a> about the scenarios we support",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {
