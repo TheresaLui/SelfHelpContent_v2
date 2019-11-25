@@ -99,6 +99,7 @@
 			"id": "basic_troubleshooting_multiselect",
 			"order": 7,
 			"controlType": "multiselectdropdown",
+            "infoBalloonText": "Info: <a href="https://docs.microsoft.com/en-us/azure/backup/sap-hana-backup-support-matrix#scenario-support">Learn more</a> about the scenarios we support",
 			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
 					"value": "Checked OS version is supported for backup",
