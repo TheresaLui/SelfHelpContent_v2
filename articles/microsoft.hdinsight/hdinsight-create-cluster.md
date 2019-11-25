@@ -22,6 +22,14 @@
 
 Some errors are transient and your request may succeed if you retry creation after 15 minutes of the failed attempt. If after retrying your request, you still receive an error and are not able to address the issue, note the time frame in which the error occurred and file a support request in a timely manner. By providing a time frame and filing a support ticket within a few days of an event, support is more likely to be able to review logs to determine the root cause of the error as logs are only available for a specific amount of time.
 
+**Issues with A2 VMs**
+
+1. **Error:** VM size *A2 VM* provided in the request is invalid or not supported for role *node type*. Valid values are: *list of supported VMs*
+
+1. **Cause:** A2-series virtual machines cannot be used as headnodes for ESP clusters due to not having enough capacity for handling Apache Ranger and other security related resource consumptions. Existing clusters with A2-series virtual machines used as headnodes can still be working and scaled up or down, or have edge nodes added to them.
+
+1. **Solution:** Select a virtual machine from the list of supported VMs in the error message. 
+
 **Error: Conflict (HTTP Status Code: 409)**
 
 Cause: You deleted a cluster and are attempting to recreate it with the same name before the delete operation completed.
