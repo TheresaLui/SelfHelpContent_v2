@@ -44,16 +44,17 @@
   * The simplest way to achieve this serialization is to use `async await` wrapper (see example below) and throw  when `isAccepted` is false.
   * Each CRUD call is asynchronous. After a call is made, based on tge result of the call, all further processing depending should be done from the callback.
   * Avoid infinite loops and excessive CPU consumption in between CRUD calls.
-* You can debug stored procedures locally using the [Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator) or by adding `console.log()` statements and enabling [Enable Script Logging RequestOption in .NET](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.requestoptions.enablescriptlogging?view=azure-dotnet) or [Enable Script Logging RequestOption in Java](https://docs.microsoft.com/java/api/com.microsoft.azure.documentdb.requestoptions.setscriptloggingenabled?view=azure-java-stable#com_microsoft_azure_documentdb_RequestOptions_setScriptLoggingEnabled_boolean_) via RequestOptions.
+* You can debug stored procedures locally by using the [Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator) or by adding `console.log()` statements and enabling [Enable Script Logging RequestOption in .NET](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.requestoptions.enablescriptlogging?view=azure-dotnet) or [Enable Script Logging RequestOption in Java](https://docs.microsoft.com/java/api/com.microsoft.azure.documentdb.requestoptions.setscriptloggingenabled?view=azure-java-stable#com_microsoft_azure_documentdb_RequestOptions_setScriptLoggingEnabled_boolean_) via RequestOptions.
   * The limit for log size created by console.log() is 8KB.
 
 ### **Frequently Asked Questions**
 
-* Which JavaScript version is used to run server-side scripts?
+* Which JavaScript version is used to run the server-side scripts?
   It is ES6 with support for ES7 `async await` feature.
 * Is it possible to use `async await` JavaScript feature?
 
-  Yes. Note that current Server-side scripting API is callback based but it is possible to write a small async wrapper on top of current API and use it with async await. Using `await` makes source code much simpler and easier to write. The example below demonstrates how to do that:
+  Yes. Note that the current server-side scripting API is callback based but it is possible to write a small async wrapper on top of current API and use it with async await. Using `await` makes source code much simpler and easier to write. The example below demonstrates how to do that:
+
 ```javascript
 	function async_sample(continuation) {
 		const ERROR_CODE = { NotAccepted: 429 };
@@ -108,6 +109,7 @@
 		main().catch(err => getContext().abort(err));
 	}
 ```
+
 * When using promises, how to abort script transaction?
   Use `getContext().abort()` API like this:
   ```javascript
