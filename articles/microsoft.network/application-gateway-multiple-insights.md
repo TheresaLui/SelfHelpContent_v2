@@ -22,4 +22,4 @@ We ran diagnostic checks on your resource **<!--$ImpactedResource-->[ImpactedRes
 
  <!--$failedCheckList-->[failedChecklist]<!--/$failedCheckList-->
 
-<!--issueDescription-->
+<!--/issueDescription-->
