@@ -19,12 +19,12 @@
 * **How do I change to a different edition of the SQL Server in an Azure VM?**
 
 	1. Customers can change their edition of SQL Server by using setup media that contains their desired edition of SQL Server as listed in the self-help below. See [Change edition of a SQL Server VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-change-edition) for steps to upgrade or downgrade edition. While downgrading edition you must ensure you are not using any feature that is available only on the higher edition.
-	2. Once the edition has been changed, remember to use the Azure portal to modify the edition property of the SQL VM to accurately reflect billing for the VM.
+	2. Once the edition has been changed, remember to use the Azure portal to modify the edition property of the SQL VM to accurately reflect billing for the VM
 
 * **How do I upgrade the version of SQL server in an Azure VM?**
 
 	1. Customers can upgrade their version of SQL Server by using setup media that contains their desired version of SQL Server as listed in the self-help below. See [Upgrade SQL Server Using the Installation Wizard](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server-using-the-installation-wizard-setup) for steps to upgrade the version.
-	2. Note that if the upgraded edition is different from the previous setting, you will need to [change edition of the SQL Server VM in Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-change-edition) to accurately billing for the SQL VM. 
+	2. Note that if the upgraded edition is different from the previous setting, you will need to [change edition of the SQL Server VM in Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-change-edition) to accurately billing for the SQL VM
 	
 * **Can I remove SQL Server completely from a SQL VM?**
 
@@ -35,10 +35,10 @@
 	Customers who have [Software Assurance](https://www.microsoft.com/Licensing/licensing-programs/software-assurance-overview) and have access to [Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx) can obtain the installation media from the Center.
 
 	Alternately, you can use the setup media from a marketplace SQL Server VM image that has the desired version and edition. The following steps explain how to do this: 
-	1. Either use an existing SQL Server VM, or deploy a SQL Server VM from the Azure marketplace that has the desired edition of SQL Server.
-	2. RDP into this new SQL Server VM and navigate to where the SQL Server setup media is: `C:\SQLServerFull`.
-	3. Copy over the directory to the intended VM and launch setup.exe.
-	4. If you created a new VM to obtain the media, remember to delete it to avoid the billing costs. 	
+	1. Either use an existing SQL Server VM, or deploy a SQL Server VM from the Azure marketplace that has the desired edition of SQL Server
+	2. RDP into this new SQL Server VM and navigate to where the SQL Server setup media is: `C:\SQLServerFull`
+	3. Copy over the directory to the intended VM and launch setup.exe
+	4. If you created a new VM to obtain the media, remember to delete it to avoid the billing costs
 	
 
 ##  **Recommended Documents**
