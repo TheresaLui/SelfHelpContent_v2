@@ -43,7 +43,7 @@ Customers can achieve an RTO of zero by enabling multiple-region writes (multi-m
 <br>This article describes how to manage various tasks on an Azure Cosmos account using the Azure portal, Azure PowerShell, Azure CLI, and Azure Resource Manager templates.  
 
 [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
-<br>This article describes the Key benefits of global distribution
+<br>This article describes the Key benefits of global distribution:
 * Build global active-active apps
 * Highly responsive apps
 * Highly available apps

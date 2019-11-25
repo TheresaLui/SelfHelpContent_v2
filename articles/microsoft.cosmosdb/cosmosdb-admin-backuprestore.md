@@ -22,15 +22,15 @@ Most users are able to resolve their Backup and Restore case using the steps bel
 
 ### **Data backup retention**
 Azure Cosmos DB automatically takes a backup of your database every 4 hours and at any point of time, only the latest 2 backups are stored. However, if the container or database is deleted, Azure Cosmos DB retains the existing snapshots of a given container or database for 30 days.
-<br>We do have the option to increase the backups retention duration to help you customize.
-<br>There are some limits for the backups:
+<br>We do have the option to increase the backups retention duration to help you customize.  
+There are some limits for the backups:
 * Backup can not be retained for more than 30 days
 * The number of backups can not be more than 25 at the same time
 * The minimum backup interval is 1 hour  
 
 
 ### **Performing a restore**
-Microsoft can only do a copy of a Cosmos DB account within the same subscription and resource group. It is not possible to restore the database to a new subscription. If you need a copy of your data in a new subscription, please use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/)  
+Microsoft can only do a copy of a Cosmos DB account within the same subscription and resource group. It is not possible to restore the database to a new subscription. If you need a copy of your data in a new subscription, please use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/).  
 
 The restore process always creates a new Azure Cosmos account to hold the restored data. The name of the new account, if not specified, will have the format <Azure_Cosmos_account_original_name>-restored1. The last digit is incremented if multiple restores are attempted. You can not restore data to a pre-created Azure Cosmos account.  
 
@@ -45,7 +45,7 @@ There is no SLA for a restore timelines.
 Typical Guidelines: 
 * Once initiated the minimum restore time is approximately 10 minutes
 * For 1 TB the approximate restore time could be 4 hours or more  
-**Note**:  NO SLA guarantee. The above times are an estimate.  
+**Note**:  There is no SLA guarantee. The above times are an estimate.  
 
  
 
@@ -66,11 +66,11 @@ Your Cosmos DB account may not require backup/restore for disaster recovery. Azu
 [Azure Cosmos DB backup and restore process and policy](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore)
 <br>This article describes how Azure Cosmos DB performs data backup.  
 
-[multi-region accounts](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account)
+[Multi-region accounts](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account)
 <br>This article describes how to manage various tasks on an Azure Cosmos account using the Azure portal, Azure PowerShell, Azure CLI, and Azure Resource Manager templates.  
 
 [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
-<br>This article describes the Key benefits of global distribution
+<br>This article describes the Key benefits of global distribution:
 * Build global active-active apps
 * Highly responsive apps
 * Highly available apps
