@@ -6,7 +6,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="resource"
-	supportTopicIds="32684529"
+	supportTopicIds="32636795,32681012,32684529"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
@@ -21,12 +21,12 @@
 ## **Recommended Steps**   
 
 * Not able to update the default indexing policy on a restored collection
-<br>There is a _self parameter which is not getting updated with the new collectionid. This can happen while the new collection is getting created.  Once the collection create has succeeded, the _self tag would be populated.
+<br>There is a *_self* parameter which is not getting updated with the new *collectionid*. This can happen while the new collection is getting created.  Once the collection create has succeeded, the _self tag would be populated.
 
 * Saving changes to my indexing policy in portal appear to do nothing
-<br>The poperties *kind*, *dataType*, and *precision* are no longer necessary to explicitly set and you can omit them from your indexing policy. [Indexing policy examples](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy#indexing-policy-examples)  
+<br>The properties *kind*, *dataType*, and *precision* are no longer necessary to explicitly set and you can omit them from your indexing policy. [Indexing policy examples](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy#indexing-policy-examples)  
 
-* Slow Perforance Issues
+* Slow Performance Issues
 <br>Ensure all JSON paths used in queries are included in the index policy for faster reads
 <br>Exclude paths not used in queries for more performant writes  
 
