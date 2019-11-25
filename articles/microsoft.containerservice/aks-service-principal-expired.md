@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
-  "recommendationCategory": "Security",
+  "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.ContainerService/managedClusters",
   "recommendationFriendlyName": "UpdateServicePrincipal",
