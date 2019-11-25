@@ -29,7 +29,7 @@ Azure Cosmos DB automatically takes a backup of your database every 4 hours and 
 * The minimum backup interval is 1 hour  
 
 
-### **Performaing a restore**
+### **Performing a restore**
 Microsoft can only do a copy of a Cosmos DB account within the same subscription and resource group. It is not possible to restore the database to a new subscription. If you need a copy of your data in a new subscription, please use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/)  
 
 The restore process always creates a new Azure Cosmos account to hold the restored data. The name of the new account, if not specified, will have the format <Azure_Cosmos_account_original_name>-restored1. The last digit is incremented if multiple restores are attempted. You can not restore data to a pre-created Azure Cosmos account.  

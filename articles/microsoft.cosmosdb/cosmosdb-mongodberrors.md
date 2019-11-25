@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 ### **Client connection errors and socket timeout**
-Mongo client drivers use "connection pooling". Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection. On the server side, Inactive/Idle TCP connections which are idle for more than 30 minutes are automatically closed down by the Azure Cosmos DB Mongo server.  
+Mongo client drivers use "connection pooling". Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection. On the server side, Inactive/Idle TCP connections which are idle for more than 30 minutes are automatically closed by the Azure Cosmos DB Mongo server.  
 Mongo drivers are unaware of when connections are torn down by the server and reuse of torn down connections by new requests causes socket/connection exceptions.  
 Clients can handle this in two ways:
 * Retry/reconnect on connection/socket exceptions
@@ -33,10 +33,10 @@ Some of the queries including aggregations require a large amount of processing.
 While executing a query using the Mongo API for CosmosDB, the request might timeout when there is large amount of data to be processed. Increasing the collection throughput would help mitigate this issue. You can also evaluate if the queries can be optimized further by making effective use of the index.  
 If you are wanting to delete large amounts of data without impacting RU:
 * Consider using TTL (Based on Timestamp) [Expire data with Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-time-to-live)
-* Use Cursor/Batchsize to perform the delete. You can fetch a single document at a time and delete it through a loop. This would help you to slowly delete without impacting your production application
+* Use Cursor/Batch size to perform the delete. You can fetch a single document at a time and delete it through a loop. This would help you to slowly delete without impacting your production application
 
 ### **MongoDB wire version issues**
-The older versions of MongoDB drivers are unable to detect the Azure Cosmos account's name in the connection strings.  To correct, append *appName=@accountName@* at the end of your Cosmos DB's API for MongoDB connection string, where accountName is your Cosmos DB account name.  
+The older versions of MongoDB drivers are unable to detect the Azure Cosmos account's name in the connection strings.  To correct, append *appName=@accountName@* at the end of your Cosmos DB's API for MongoDB connection string, where *accountName* is your Cosmos DB account name.  
 
 ### **ExceededMemoryLimit**
 As a multi-tenant service, if you receive this error it means the operation has gone over the client's memory allotment.  
@@ -57,7 +57,7 @@ Steps to correct:
 [Connect a MongoDB application to Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/connect-mongodb-account)
 <br>Learn how to connect your MongoDB app to an Azure Cosmos DB by using a MongoDB connection string. You can then use an Azure Cosmos database as the data store for your MongoDB app.
 <br>This tutorial provides two ways to retrieve connection string information:
-* The quickstart method, for use with .NET, Node.js, MongoDB Shell, Java, and Python drivers
+* The quick start method, for use with .NET, Node.js, MongoDB Shell, Java, and Python drivers
 * The custom connection string method, for use with other drivers  
 
 [Use Robo 3T with Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-robomongo)
