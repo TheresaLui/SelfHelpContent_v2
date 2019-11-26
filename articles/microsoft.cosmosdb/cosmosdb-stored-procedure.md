@@ -111,7 +111,7 @@
 ```
 
 * When using promises, how to abort script transaction?
-  Use `getContext().abort()` API like this:
+  Use *getContext().abort()* API like this:
 ```
   getContext().abort(new Error("my exception"));
 ```
