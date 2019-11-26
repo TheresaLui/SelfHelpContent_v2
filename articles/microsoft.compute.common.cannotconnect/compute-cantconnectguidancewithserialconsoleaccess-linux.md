@@ -3,8 +3,8 @@
               description="I need guidance with Serial console access"
               service=""
               resource=""
-              authors="scottAzure"
-              ms.author="scotro"
+              authors="timbasham"
+              ms.author="tibasham"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615528"
@@ -29,6 +29,7 @@
 
 **Additional Documents**<br>
 
+* [Proactive Grub configuration for Serial Console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-grub-proactive-configuration)<br>
 * [Common scenarios for accessing Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#common-scenarios-for-accessing-the-serial-console)<br>
 * [Serial console Linux distro availability](https://azure.microsoft.com/blog/virtual-machine-serial-console-access/)<br>
 * [Linux on distributions endorsed by Azure](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console#serial-console-linux-distro-availability)
