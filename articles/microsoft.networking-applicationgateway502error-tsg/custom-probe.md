@@ -14,7 +14,7 @@
 	articleId="82af8570-2d65-4710-847a-7de2e1617468"
 />
 
-**How to check if there is a custom probe configured:**
+# How to check if there is a custom probe configured:
 
 Check the custom probe (Backend HTTP Settings --> HTTP Setting --> Probe) settings based on the error that you got in the backend health status
 1. TCP Connect error: This error means that a TCP session could not be established. Check the port on HTTP settings and verify if you can connect to the server on the port or if any NSG/UDR is affecting the traffic.
