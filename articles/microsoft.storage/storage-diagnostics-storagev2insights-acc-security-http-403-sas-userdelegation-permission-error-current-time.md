@@ -21,7 +21,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 No __user delegation SAS__ token auth failures were found for **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** around the issue time **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**.
 
-It's possible that there were no __user delegation SAS__ auth failures during the time provided or it's beyond the retention period of storage logs. If the time period was not correct, please rerun the insight with the correct time.<br> However, some **user delegationSAS token** auth failures were found for the current time **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** that might be of interest.
+It's possible that there were no __user delegation SAS__ auth failures during the time provided or it's beyond the retention period of storage logs. If the time period was not correct, please rerun the insight with the correct time.<br> However, some __user delegation SAS token__ auth failures were found for the current time **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** that might be of interest.
 
 **Sample list of blocked requests with failure reason**
 
