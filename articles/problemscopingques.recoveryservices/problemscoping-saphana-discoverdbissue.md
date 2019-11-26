@@ -68,7 +68,7 @@
 			"id": "discoverdb_Script",
 			"order": 5,
 			"controlType": "dropdown",
-			"infoBalloonText": "Info: The script can be found here",
+			"infoBalloonText": "Info: The script can be found <a href='https://aka.ms/scriptforpermsonhana'>here</a>",
 			"displayLabel": "Have you run the script available on the Discover DB pane?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
