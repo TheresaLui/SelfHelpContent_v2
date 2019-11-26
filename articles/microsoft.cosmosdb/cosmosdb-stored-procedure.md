@@ -55,7 +55,7 @@
 
   Yes. Note that the current server-side scripting API is callback based but it is possible to write a small async wrapper on top of current API and use it with async await. Using `await` makes source code much simpler and easier to write. The example below demonstrates how to do that:
 
-```javascript
+```
 	function async_sample(continuation) {
 		const ERROR_CODE = { NotAccepted: 429 };
 
@@ -112,9 +112,9 @@
 
 * When using promises, how to abort script transaction?
   Use `getContext().abort()` API like this:
-  ```javascript
+```
   getContext().abort(new Error("my exception"));
-  ```
+```
 * How to use console.log?
 
   See above, **General Guidelines** section.
