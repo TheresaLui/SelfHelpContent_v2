@@ -16,7 +16,7 @@
 
 # I need guidance with Serial console access
 
-4 out of 5 customers resolved their VM Serial console access issue using the below steps.<br>
+4 out of 5 customers resolved their VM Serial console access issue using the links below.<br>
 
 ## **Recommended Documents**
 
