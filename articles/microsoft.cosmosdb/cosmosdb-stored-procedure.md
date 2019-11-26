@@ -112,9 +112,11 @@
 
 * When using promises, how to abort script transaction?
   Use *getContext().abort()* API like this:
+
 ```
-  getContext().abort(new Error("my exception"));
+getContext().abort(new Error("my exception"));
 ```
+
 * How to use console.log?
 
   See above, **General Guidelines** section.
