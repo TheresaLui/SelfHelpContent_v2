@@ -18,6 +18,6 @@ cloudEnvironments="Public" />
 # Application Gateway 502 Error: Custom Probe Insight
 
 <!--issueDescription-->
-Server’s response does not match the custom probe configuration. Access the server directly with the settings mentioned in the custom probe and edit the hostname, path and match parameters to appropriate values. 
+Server response does not match the custom probe configuration. Access the server directly with the settings mentioned in the custom probe and edit the hostname, path and match parameters to appropriate values. 
 For example, if probe path is configured as "/path/” and if there is no directory in the server called “path”, the probe will fail as the server returns a 404 Page Not Found error. In that case, edit the path to the right value where the server can return a healthy response.
 <!--/issueDescription-->
