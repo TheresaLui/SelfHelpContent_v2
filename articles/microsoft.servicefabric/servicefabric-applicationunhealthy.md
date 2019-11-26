@@ -3,7 +3,8 @@
 	description="application/unhealthy"
 	service="microsoft.servicefabric"
 	resource="clusters"
-	authors="chiragpa"
+	authors="ChiragPavecha"
+	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32690987"
@@ -15,7 +16,7 @@
 
 # application/unhealthy
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot your local development cluster setup](https://docs.microsoft.com/azure/service-fabric/service-fabric-troubleshoot-local-cluster-setup)<br>
 * [Application Monitoring](https://docs.microsoft.com/azure/service-fabric/service-fabric-diagnostics-overview#application-monitoring)<br>
