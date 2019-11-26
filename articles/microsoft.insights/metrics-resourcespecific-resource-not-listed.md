@@ -19,9 +19,9 @@ A detailed list of metrics for each Azure Service can be found [here](https://do
 
 ## **Recommended Steps**
 
-1. Navigate to the [List of Supported Metrics]((https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported)).
-1. Find, the resource type that you are interested in (use the right navigation menu, or **Ctrl+F** in browser to search)
-1. Review the descriptions, dimensions, and metadata for the metrics that resource type exposes.
+1. Navigate to the [List of Supported Metrics](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported)
+1. Find the resource type that you are interested in (use the right navigation menu, or **Ctrl+F** in browser to search)
+1. Review the descriptions, dimensions, and metadata for the metrics that resource type exposes
 
 ## **Recommended Documents**
 
