@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Database in the inaccessible state - Key Deleted"
+	pageTitle="Database in the inaccessible state - Key or Key Vault Deleted"
 	description="Database in the inaccessible state due to the AKV key or key vault being deleted"
 	infoBubbleText="Database is in the inaccessible state due to the key or key vault being deleted. See recommended actions on the right."
 	service="microsoft.sql"
@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Database Inaccessible due to Azure Key Vault configuration - Key Deleted
+# Database Inaccessible due to Azure Key Vault configuration - Key or Key Vault Deleted
 
 ## We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
