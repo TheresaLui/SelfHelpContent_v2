@@ -10,6 +10,7 @@
     selfHelpType="generic"
     supportTopicIds="32684768"
     productPesIds="16250"
+    cloudEnvironments="public,fairfax,mooncake"
 />
 
 # <-- metrics-for-resource-type-other -->
