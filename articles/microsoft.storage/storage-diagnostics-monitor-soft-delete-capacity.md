@@ -15,7 +15,7 @@ productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
-# Transfer data with AzCopy v10
+# Soft delete capacity caused Storage capacity spike
 
 <!--issueDescription-->
 Storage capacity spike may due to soft delete capacity. If you have soft delete enabled and there are a lot of delete operations happened recently, you may have high capacity caused by soft delete. You can configure the amount of time soft deleted data is recoverable before it is permanently expired.
