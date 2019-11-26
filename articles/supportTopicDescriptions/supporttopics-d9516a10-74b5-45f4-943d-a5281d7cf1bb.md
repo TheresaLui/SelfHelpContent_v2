@@ -34,7 +34,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
     {
       "id": "5d796926-9097-ca55-3e36-5389266c8a14",
-      "shortDescription": "Request to perform a restore drill or restore a deleted Azure Cosmos DB account/database/container",
+      "shortDescription": "Request to restore a deleted Azure Cosmos DB account/database/container or perform a restore test",
       "longDescription": "",
       "category": "Backup and Restore",
       "searchTags": "backup, restore",
@@ -138,15 +138,15 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
     {
       "id": "7d91ee0e-0c06-d5c8-c1b1-4c1eac14f382",
-      "shortDescription": "Observing request rate too large errors",
+      "shortDescription": "Issues regarding request rate too large errors",
       "longDescription": "",
       "category": "Throughput",
-      "searchTags": "throttle, throttling, request rate too large",
+      "searchTags": "throttle, throttling, 429, request rate too large",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
-      "shortDescription": "Unable to reduce/increase the RU beyond a certain limit",
+      "shortDescription": "Issues regarding setting min or max RU limits",
       "longDescription": "",
       "category": "Throughput",
       "searchTags": "min ru, max ru, ru limit",
@@ -157,7 +157,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "shortDescription": "Question or issue in setting up shared throughput",
       "longDescription": "",
       "category": "Throughput",
-      "searchTags": "",
+      "searchTags": "shared, throughput, database",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -298,7 +298,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
     {
       "id": "866600f1-7ecf-985a-3e2f-254618877215",
-      "shortDescription": "How to with Azure Cosmos DB Mongo API including Data Migration",
+      "shortDescription": "Questions on Azure Cosmos DB Mongo API or Mongo data migration",
       "longDescription": "",
       "category": "MongoDB",
       "searchTags": "mongo, mongodb",
@@ -354,7 +354,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
     {
       "id": "8c0dda50-d6f6-6014-18dd-2fe98d6fd420",
-      "shortDescription": "Mongo command is failing with error or returning incorrect result or generating exceptions",
+      "shortDescription": "Mongo command is failing with error or returning unexpected result or generating exceptions",
       "longDescription": "",
       "category": "MongoDB",
       "searchTags": "mongo, mongodb",
@@ -418,7 +418,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
      {
       "id": "c96bcbe6-b699-31a0-50c5-23d6929d3b0b",
-      "shortDescription": "CQL command is failing with error or returning incorrect result or generating exceptions",
+      "shortDescription": "CQL command is failing with error or returning unexpected result or generating exceptions",
       "longDescription": "",
       "category": "Cassandra",
       "searchTags": "cassandra",
@@ -522,7 +522,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
     {
       "id": "1a1e2a2b-ee61-b1fa-f230-57fb94694e04",
-      "shortDescription": "Gremlin command is failing with error or returning incorrect result or generating exceptions",
+      "shortDescription": "Gremlin command is failing with an error, returning an unexpected result, or generating exceptions",
       "longDescription": "",
       "category": "Gremlin",
       "searchTags": "gremlin, error",
@@ -642,7 +642,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
     },
     {
       "id": "f5406ba1-bc93-b5e8-ac90-c6f09569a61d",
-      "shortDescription": "SDK is throwing an error or returning incorrect result",
+      "shortDescription": "SDK is throwing an error or returning an unexpected result",
       "longDescription": "",
       "category": "SDK (SQL API)",
       "searchTags": "sdk",

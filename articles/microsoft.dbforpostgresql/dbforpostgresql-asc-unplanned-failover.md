@@ -18,7 +18,7 @@
 # Can't connect PostgreSQL database server: unplanned failover
 
 <!--issueDescription-->
-The server <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--$StartTime-->StartTime<!--/$StartTime-->. The server restarted because of an unplanned failover due to <!--$RCA-->RCA<!--/$RCA-->.
+The server <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC). The server restarted because of an unplanned failover due to <!--$RCA-->RCA<!--/$RCA-->.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
@@ -27,3 +27,4 @@ The server <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--
 * [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)
 * [Handling transient connectivity errors for Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/azure/postgresql/concepts-connectivity)
 * [High availability](ttps://docs.microsoft.com/azure/postgresql/concepts-high-availability)
+
