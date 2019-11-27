@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="6a0f54a0-705c-4cc9-a28f-bf43e5a3611c"
 />
-#Performance Issues
+# Performance Issues
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,

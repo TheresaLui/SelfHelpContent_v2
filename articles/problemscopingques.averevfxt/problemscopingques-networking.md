@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="ecb447e7-b08d-4b58-984a-5fbd814ac661"
 />
-#Problems with Avere vFXT Networking
+# Problems with Avere vFXT Networking
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,

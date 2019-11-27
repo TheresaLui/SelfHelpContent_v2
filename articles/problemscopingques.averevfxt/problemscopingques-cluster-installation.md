@@ -8,9 +8,9 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="55d7aac8-78d9-4461-93a3-90a95df32bf6"
 />
-#Problems installing and configuring Avere vFXT
+# Problems installing and configuring Avere vFXT
 ---
 
 {

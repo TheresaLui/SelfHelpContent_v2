@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="c6e12a7c-434d-4243-a2c9-a9b5cfd7c8d2"
 />
-#Avere vFXT Documentation Request
+# Avere vFXT Documentation Request
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,

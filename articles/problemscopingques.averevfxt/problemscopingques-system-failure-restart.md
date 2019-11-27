@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="50d10e1e-9167-483c-935b-f12448375f8a"
 />
-#Problems involving a system failure or service restart.
+# Problems involving a system failure or service restart.
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,

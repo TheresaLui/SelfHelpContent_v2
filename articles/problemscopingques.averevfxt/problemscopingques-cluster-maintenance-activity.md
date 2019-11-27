@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="4cae1311-9ee9-4f2d-b92f-18e830048420"
 />
-#Problems related to cluster maintenance activities.
+# Problems related to cluster maintenance activities.
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,

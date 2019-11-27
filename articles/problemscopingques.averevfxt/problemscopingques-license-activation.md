@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="6717d922-bce8-47e3-9c14-bd88912dcbde"
 />
-#License Activation Request
+# License Activation Request
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,

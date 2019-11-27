@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="10116f6e-d5b3-4015-a9bf-f4feafb2e411"
 />
-#Problems with SMB Configuration
+# Problems with SMB Configuration
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,

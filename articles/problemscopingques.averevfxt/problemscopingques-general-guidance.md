@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="ee8abaf6-85e2-416e-b05e-62b1f5d65319"
 />
-#General Guidance or Advisory
+# General Guidance or Advisory
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,

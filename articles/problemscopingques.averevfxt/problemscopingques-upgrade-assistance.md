@@ -8,11 +8,10 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="99351f36-63b1-45ee-bb58-b21654f802f2"
 />
-#Upgrade Assistance Request
+# Upgrade Assistance Request
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,
