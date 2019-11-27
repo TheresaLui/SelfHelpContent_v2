@@ -16,7 +16,7 @@
 
 # Cannot connect to my VM
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the links below.<br>
 
 ## **Recommended Documents**
 
@@ -26,6 +26,7 @@
 * [Azure Serial Console for Linux](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console#accessing-serial-console-for-linux)<br>
 * [How to reset local Linux password on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/linux/reset-password)<br>
 * [How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)
+* [Troubleshooting a Linux VM that is using LVM and is not booting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/chroot-logical-volume-manager)
 
 ### **Recommended Service**<br>
 

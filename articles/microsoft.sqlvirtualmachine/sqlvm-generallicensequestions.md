@@ -52,6 +52,15 @@
 
 	Yes. If you deployed SQL Server from your own media and installed the SQL IaaS extension you can register your SQL Server VM with the resource provider to get the manageability benefits provided by the SQL IaaS extension.
 
+* **Where can I find the license key to use for installing SSRS or SSAS 2017+ in an Azure VM?**
+
+	If you already have a SQL Server VM with Standard or Enterprise edition created from Azure Marketplace, you can launch setup.exe from `C:\SQLServerFull`, copy the product key that appears in the install process and exit the installer. You can then apply the key during SSRS or SSAS installation. 
+
+* **How can I determine the license type of my SqlVirtualMachine resources?**
+
+	You can use the following Powershell command:  
+	`(Get-AzureRmResource -ResourceName <vm_name> -ResourceGroupName <resource_group> -ResourceType 'Microsoft.SqlVirtualMachine/SqlVirtualMachines').Properties | Format-List;`
+
 
 ##  **Recommended Documents**
 

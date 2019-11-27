@@ -1,9 +1,9 @@
 <properties pageTitle="User-initiated password reset" 
 	 description="Password Management/User-initiated password reset" 
-	 authors="sahenry" 
-	 ms.author="sahenry"
+	 authors="hsku" 
+	 ms.author="hsku"
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32615416,32615432" 
+	 supportTopicIds="32615416" 
 	 productPesIds="16579" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
@@ -69,7 +69,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-	    "diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

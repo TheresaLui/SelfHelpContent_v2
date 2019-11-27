@@ -71,6 +71,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Provide the SID for this SAP instance",
+            "watermarkText": "Ex. HX1",
             "required": false
         },
         {
@@ -93,6 +94,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 8,
             "controlType": "multiselectdropdown",
+            "infoBalloonText": "Info: <a href='https://docs.microsoft.com/azure/backup/sap-hana-backup-support-matrix#scenario-support'>Learn more</a> about the scenarios we support",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -116,14 +118,14 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
