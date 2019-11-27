@@ -22,11 +22,11 @@ Most users are able to resolve their .Net SDK case using the steps below.
 ## **Recommended Steps**
 
 ### **Use latest SDK versions and singleton client**
-<br>Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
+Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
 <br>Cosmos SDK's are thread safe, ensure singleton client. 
 
 ### **Known Issues and Solutions**
-<br>Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:
+Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:
 	* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
 	* [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
 	* [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
@@ -36,7 +36,7 @@ Most users are able to resolve their .Net SDK case using the steps below.
 ### **Common Errors**  
   
 ### **403 Forbidden**
-<br>The authorization token expired:  
+The authorization token expired:  
 
 * 403 is also returned during a POST to create a resource when the resource quota has been reached. An example of this is when trying to add documents to a collection that has reached its provisioned storage.
 * 403 can also be returned when a stored procedure, trigger, or UDF has been flagged for high resource usage and blocked from execution
@@ -44,29 +44,29 @@ Most users are able to resolve their .Net SDK case using the steps below.
 * 403.3 This status code is returned for write requests during the manual failover operation. This status code is used as redirection code by drivers to forward the writes to new write region. Direct REST client must perform GET on DatabaseAccount to identify the current write region and forward the write request to that endpoint.  
 
 ### **429 Too Many Request**
-<br>The collection has exceeded the provisioned throughput limit. Retry the request after the server specified retry after duration.
+The collection has exceeded the provisioned throughput limit. Retry the request after the server specified retry after duration.
 <br>For more information, see [Handle rate limiting/request rate too large](https://docs.microsoft.com/azure/cosmos-db/performance-tips#throughput) and [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units).
 
 
 ### **Invalid characters in Resource.Id _rid Property**
-<br>Get request returns a bad request error may be given if the resource Id , _rid , property contains invalid characters.  
+Get request returns a bad request error may be given if the resource Id , _rid , property contains invalid characters.  
 * The following characters are restricted and cannot be used in the Id property: */*, *\\*, *?*, *#* 
 * Please see reference [Resource.Id Property](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.resource.id?view=azure-dotnet#remarks)
 
 
 ### **Date header doesn't conform to the required format**
-<br>The Cosmos DB SDK has a dependency on joda-time lib 2.9.9.  Reference the Maven Artifact: [Java SDK for SQL API of Microsoft Azure Cosmos DB](https://mvnrepository.com/artifact/com.microsoft.azure/azure-documentdb/2.4.4). 
+The Cosmos DB SDK has a dependency on joda-time lib 2.9.9.  Reference the Maven Artifact: [Java SDK for SQL API of Microsoft Azure Cosmos DB](https://mvnrepository.com/artifact/com.microsoft.azure/azure-documentdb/2.4.4). 
 If you are using an older version of joda-time < 2.9.9 (maybe as a transitive dependency by another dependency) You may encounter this issue.
 * Verify you are using the correct version of joda-time and explicitly setting the dependency for joda-time 2.9.9 will resolve the issue  
 
 
 ### **The read session is not available for the input session token**
-<br>You receive an exception *The read session is not available for the input session token*
+You receive an exception *The read session is not available for the input session token*
 * You need to upgrade your SDK version  
 
 
 ### **Intermittent 503 errors service is unavailable**
-<br>This can be caused by creating a new client and connection for each call to Cosmos DB which results in resource starvation. 
+This can be caused by creating a new client and connection for each call to Cosmos DB which results in resource starvation. 
 * Altering your code to use a singleton client should resolve the issue  
 
 

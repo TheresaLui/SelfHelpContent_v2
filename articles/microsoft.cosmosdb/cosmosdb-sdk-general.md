@@ -15,24 +15,24 @@
 	category="SDK Issues" 
 />
 
-# Introduction to Azure Cosmos DB SDK  
+# Introduction to Azure Cosmos DB SDK
 Most users are able to resolve their .Net SDK case using the steps below.
 
 ## **Recommended Steps**  
 
 ### **Use latest SDK versions and singleton client**
-<br>Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
+Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
 <br>Cosmos SDKs are thread safe, ensure singleton client. 
 
 ### **Known Issues and Solutions**
-<br>Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:
+Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:
 	* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
 	* [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
 	* [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
 	* [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
 
 ### **Issues with Bulk Delete**
-<br>Performance issue while deleting documents in Cosmos DB.
+Performance issue while deleting documents in Cosmos DB.
 * Restructuring the code to query the partition ids and fetch all the documents in that partition which meet your criteria. Then run the delete on all the matching documents within that partition. This will avoid the cross partition queries and the performance will improve. 
 * Also please see [Usage of Bulk support](https://github.com/Azure/azure-cosmos-dotnet-v3/tree/master/Microsoft.Azure.Cosmos.Samples/Usage/BulkSupport)
 
