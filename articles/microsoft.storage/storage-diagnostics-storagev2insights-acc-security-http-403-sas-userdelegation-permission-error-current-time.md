@@ -33,16 +33,18 @@ It's possible that there were no __user delegation SAS__ auth failures during th
 
 ## **Recommended Steps**
 
-Storage requests using __user delegation SAS__ to authenticate should pass a valid unexpired token with right permissions to perform the intended operation.
+Storage requests using __user delegation SAS__ to authenticate should pass a valid, unexpired token with right permissions to perform the intended operation.
 
 Please look at the reason above and modify the SAS token accordingly.
 
 ## **Recommended Documents**
 
 * [SAS error codes](https://docs.microsoft.com/rest/api/storageservices/sas-error-codes)
-* Create a user delegation SAS
+* Create a user delegation SAS:
+
   * [REST API](https://docs.microsoft.com/rest/api/storageservices/create-user-delegation-sas)
   * [PowerShell](https://docs.microsoft.com/azure/storage/blobs/storage-blob-user-delegation-sas-create-powershell)
   * [Azure CLI](https://docs.microsoft.com/azure/storage/blobs/storage-blob-user-delegation-sas-create-cli)
   * [.NET](https://docs.microsoft.com/azure/storage/blobs/storage-blob-user-delegation-sas-create-dotnet)
+
 * [User delegation key](https://docs.microsoft.com/rest/api/storageservices/get-user-delegation-key#authorization)
