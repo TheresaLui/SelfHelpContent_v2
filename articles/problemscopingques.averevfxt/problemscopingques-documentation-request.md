@@ -15,15 +15,14 @@
 {
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "diagnosticCard": {
-        "title": "Avere OS Version",
-        "description": "Provide the Avere OS version that is running.",
+    "title": "Avere vFXT Documentaiton Request",
+    "formElements": [{
         "id": "avere_os_version",
         "order": 1,
         "controlType": "textbox",
         "displayLabel": "Avere OS Version",
         "watermarkText": "Version Number",
         "required": false
-    }
+    }]
 }
 ---

@@ -15,35 +15,28 @@
 {
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "diagnosticCard": {
-        "title": "Avere vFXT Cluster Name",
-        "description": "Provide the Avere OS version that is running.",
+    "title": "Problems involving a system failure or service restart",
+    "formElements": [{
         "id": "avere_cluster_name",
         "order": 1,
         "controlType": "textbox",
         "displayLabel": "Avere vFXT Cluster Name",
         "watermarkText": "Cluster Name",
         "required": false
-    }
-    "diagnosticCard": {
-        "title": "Avere OS Version",
-        "description": "Provide the Avere OS version that is running.",
+    }, {
         "id": "avere_os_version",
         "order": 2,
         "controlType": "textbox",
         "displayLabel": "Avere OS Version",
         "watermarkText": "Version Number",
         "required": false
-    }
-    "diagnosticCard": {
-        "title": "Alert Text",
-        "description": "Alert text from the management interface regarding the failure.",
+    }, {
         "id": "avere_alert_text",
         "order": 3,
         "controlType": "multilinetextbox",
         "displayLabel": "Alert Text",
         "watermarkText": "Alert text from management interface",
         "required": false
-    }
+    }]
 }
 ---

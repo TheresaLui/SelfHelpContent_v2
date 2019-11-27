@@ -12,29 +12,31 @@
 />
 # Problems with client access to Avere vFXT cluster.
 ---
-
 {
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "diagnosticCard": {
-        "title": "Avere vFXT Cluster Name",
-        "description": "Provide the Avere OS version that is running.",
+    "title": "Problems with client access to Avere vFXT cluster",
+    "formElements": [{
         "id": "avere_cluster_name",
         "order": 1,
         "controlType": "textbox",
         "displayLabel": "Avere vFXT Cluster Name",
         "watermarkText": "Cluster Name",
         "required": false
-    }
-    "diagnosticCard": {
-        "title": "Avere OS Version",
-        "description": "Provide the Avere OS version that is running.",
+    }, {
         "id": "avere_os_version",
         "order": 2,
         "controlType": "textbox",
         "displayLabel": "Avere OS Version",
         "watermarkText": "Version Number",
         "required": false
-    }
+    }, {
+        "id": "avere_client_name_or_ip",
+        "order": 3,
+        "controlType": "textbox",
+        "displayLabel": "Client Name or IP Address",
+        "watermarkText": "Name or IP Address",
+        "required": false
+    }]
 }
 ---
