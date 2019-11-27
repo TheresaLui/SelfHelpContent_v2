@@ -36,7 +36,7 @@
             "id": "getCloudShellCheck",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Does this operation failed through Cloud Shell as well?",
+            "displayLabel": "Does this operation fail through Cloud Shell as well?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
