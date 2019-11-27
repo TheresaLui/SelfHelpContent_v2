@@ -24,5 +24,6 @@ Please contact your Azure Marketplace publisher for all technical product suppor
 
 ## **Recommended Documents**
 
+* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-deployment-new-vm-linux)<br>
 * [Resolve errors for resource quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors)<br>
 * [Understanding SkuNotAvailable - Some SKU series are unavailable for the selected subscription for this region](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)
