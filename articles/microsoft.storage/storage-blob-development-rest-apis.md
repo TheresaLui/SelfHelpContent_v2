@@ -34,7 +34,7 @@ The Azure Storage Import-Export REST API defines operations to manage import/exp
 The Azure Storage Services REST API defines operations to manage Blob, Queue, Table, and File services
 - [Azure Storage Services REST API Reference](https://docs.microsoft.com/rest/api/storageservices/)<br>
 
-### **Troubleshooting REST APIs for Azure Blob Storage **
+### **Troubleshooting REST APIs for Azure Blob Storage**
 
 - [Common REST API Error Code Reference](https://docs.microsoft.com/rest/api/storageservices/)<br>
 - [Blob Service Error Code Reference](https://docs.microsoft.com/rest/api/storageservices/)<br>
