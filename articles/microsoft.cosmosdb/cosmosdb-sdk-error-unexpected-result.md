@@ -25,7 +25,7 @@ Most users are able to resolve their .Net SDK case using the steps below.
 Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
 <br>Cosmos SDK's are thread safe, ensure singleton client. 
 
-## **Known Issues and Solutions**  
+### **Known Issues and Solutions**  
 Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:
 	* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
 	* [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
