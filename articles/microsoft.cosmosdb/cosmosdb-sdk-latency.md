@@ -27,7 +27,7 @@ Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL AP
 * .NET V2 SDK DocumentClient [ConnectionPolicy.PreferredLocations](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.connectionpolicy.preferredlocations?view=azure-dotnet)
 * .NET V3 SDK CosmosClient [CosmosClientOptions.ApplicationRegion](https://docs.microsoft.com/dotnet/api/microsoft.azure.cosmos.cosmosclientoptions.applicationregion?view=azure-dotnet)  
 
-Additional latency and performance tips include:
+Additional latency and performance tips include:  
 * Use [Direct/Tcp as connectivty mode](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking)
 * Include client into Cosmos account VNET 
 * For Azure functions, use non-consumption plan 

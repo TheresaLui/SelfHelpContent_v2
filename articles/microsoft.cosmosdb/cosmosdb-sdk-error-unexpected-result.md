@@ -23,19 +23,19 @@ Most users are able to resolve their .Net SDK case using the steps below.
 
 ### **Use latest SDK versions and singleton client**
 Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
-<br>Cosmos SDK's are thread safe, ensure singleton client. 
+<br>Please ensure you are using singleton client. 
 
 ### **Known Issues and Solutions**
-Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:
-	* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
-	* [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
-	* [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
-	* [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
+Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:  
+* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
+* [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
+* [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
+* [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
 
 
 ### **Common Errors**  
   
-### **403 Forbidden**
+### **403 Forbidden**  
 The authorization token expired:  
 
 * 403 is also returned during a POST to create a resource when the resource quota has been reached. An example of this is when trying to add documents to a collection that has reached its provisioned storage.
@@ -43,18 +43,18 @@ The authorization token expired:
 * 403 forbidden error is returned when the firewall rules configured on your Azure Cosmos DB account block your request. Any requests originating from machines outside the allowed list will receive a 403 response. 
 * 403.3 This status code is returned for write requests during the manual failover operation. This status code is used as redirection code by drivers to forward the writes to new write region. Direct REST client must perform GET on DatabaseAccount to identify the current write region and forward the write request to that endpoint.  
 
-### **429 Too Many Request**
+### **429 Too Many Requests**  
 The collection has exceeded the provisioned throughput limit. Retry the request after the server specified retry after duration.
 <br>For more information, see [Handle rate limiting/request rate too large](https://docs.microsoft.com/azure/cosmos-db/performance-tips#throughput) and [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units).
 
 
-### **Invalid characters in Resource.Id _rid Property**
+### **Invalid characters in Resource.Id _rid Property**  
 Get request returns a bad request error may be given if the resource Id , _rid , property contains invalid characters.  
 * The following characters are restricted and cannot be used in the Id property: */*, *\\*, *?*, *#* 
 * Please see reference [Resource.Id Property](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.resource.id?view=azure-dotnet#remarks)
 
 
-### **Date header doesn't conform to the required format**
+### **Date header doesn't conform to the required format**  
 The Cosmos DB SDK has a dependency on joda-time lib 2.9.9.  Reference the Maven Artifact: [Java SDK for SQL API of Microsoft Azure Cosmos DB](https://mvnrepository.com/artifact/com.microsoft.azure/azure-documentdb/2.4.4). 
 If you are using an older version of joda-time < 2.9.9 (maybe as a transitive dependency by another dependency) You may encounter this issue.
 * Verify you are using the correct version of joda-time and explicitly setting the dependency for joda-time 2.9.9 will resolve the issue  
