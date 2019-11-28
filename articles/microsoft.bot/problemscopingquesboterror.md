@@ -102,49 +102,7 @@
             ],
             "required": true
         },
-		{
-            "id": "intermittent_dropdown",
-            "order": 7,
-            "controlType": "dropdown",
-            "displayLabel": "Is the issue reproducible at will or occuring all the time?",
-            "watermarkText": "Choose an option",
-            "infoBalloonText": "Choose No if you can't reproduce the issue at will",
-            "dropdownOptions": [
-                {
-                    "value": "NotIntermittent_Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "NotIntermittent_No",
-                    "text": "No"
-                }
-			],
-			"required": false
-        },
-		{
-            "id": "howcreated_dropdown",
-            "order": 8,
-            "controlType": "dropdown",
-            "displayLabel": "How did you create the bot?",
-            "watermarkText": "Choose an option",
-            "infoBalloonText": "Choose the method you used to create the bot",
-            "dropdownOptions": [
-                {
-                    "value": "howcreated_Portal",
-                    "text": "Azure Portal Template"
-                },
-                {
-                    "value": "howcreated_SDK",
-                    "text": "Bot Framework SDK"
-                },
-				{
-                    "value": "howcreated_other",
-                    "text": "Other"
-                }
-			],
-			"required": false
-        },
-		{
+	{
             "id": "sdk_dropdown",
             "order": 5,
             "controlType": "dropdown",
@@ -197,6 +155,48 @@
                 }
 			],
 			"required": true
+        },
+		{
+            "id": "intermittent_dropdown",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Is the issue reproducible at will or occuring all the time?",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Choose No if you can't reproduce the issue at will",
+            "dropdownOptions": [
+                {
+                    "value": "NotIntermittent_Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "NotIntermittent_No",
+                    "text": "No"
+                }
+			],
+			"required": false
+        },
+		{
+            "id": "howcreated_dropdown",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "How did you create the bot?",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Choose the method you used to create the bot",
+            "dropdownOptions": [
+                {
+                    "value": "howcreated_Portal",
+                    "text": "Azure Portal Template"
+                },
+                {
+                    "value": "howcreated_SDK",
+                    "text": "Bot Framework SDK"
+                },
+				{
+                    "value": "howcreated_other",
+                    "text": "Other"
+                }
+			],
+			"required": false
         },
         {
             "id": "problem_description",
