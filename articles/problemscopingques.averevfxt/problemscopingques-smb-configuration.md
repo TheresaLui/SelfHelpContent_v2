@@ -13,7 +13,7 @@
 # Problems with SMB Configuration
 ---
 {
-    "$schema": "SelfHelpContent",    
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Problems with SMB Configuration",
@@ -38,7 +38,7 @@
         "displayLabel": "Description",
         "watermarkText": "Provide additional information about your issue",
         "required": true,
-        "useAsAdditionalDetails": true        
+        "useAsAdditionalDetails": true
     }, {
         "id": "problem_start_time",
         "order": 4,

@@ -45,7 +45,7 @@
         "displayLabel": "Description",
         "watermarkText": "Provide additional information about your issue",
         "required": true,
-        "useAsAdditionalDetails": true        
+        "useAsAdditionalDetails": true
     }, {
         "id": "problem_start_time",
         "order": 5,
