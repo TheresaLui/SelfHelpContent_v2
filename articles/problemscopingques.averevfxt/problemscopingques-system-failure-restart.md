@@ -38,6 +38,13 @@
         "displayLabel": "Alert Text",
         "watermarkText": "Alert text from management interface",
         "required": false
+    }, {
+        "id": "problem_description",
+        "order": 4,
+        "controlType": "multilinetextbox",
+        "displayLabel": "Description",
+        "watermarkText": "Provide additional information about your issue",
+        "required": true
     }]
 }
 ---

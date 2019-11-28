@@ -38,6 +38,13 @@
         "displayLabel": "Client Name or IP Address",
         "watermarkText": "Name or IP Address",
         "required": false
+    }, {
+        "id": "problem_description",
+        "order": 4,
+        "controlType": "multilinetextbox",
+        "displayLabel": "Description",
+        "watermarkText": "Provide additional information about your issue",
+        "required": true
     }]
 }
 ---

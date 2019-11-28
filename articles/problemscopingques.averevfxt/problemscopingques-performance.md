@@ -47,6 +47,13 @@
         "watermarkText": "Describe Changes",
         "required": false,
         "useAsAdditionalDetails": false
+    }, {
+        "id": "problem_description",
+        "order": 5,
+        "controlType": "multilinetextbox",
+        "displayLabel": "Description",
+        "watermarkText": "Provide additional information about your issue",
+        "required": true
     }]
 }
 ---

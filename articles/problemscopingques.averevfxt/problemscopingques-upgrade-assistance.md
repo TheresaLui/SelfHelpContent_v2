@@ -45,6 +45,13 @@
         "displayLabel": "Upgrade Date and Time",
         "watermarkText": "Date and Time",
         "required": false
+    }, {
+        "id": "problem_description",
+        "order": 5,
+        "controlType": "multilinetextbox",
+        "displayLabel": "Description",
+        "watermarkText": "Provide additional information about your issue",
+        "required": true
     }]
 }
 ---

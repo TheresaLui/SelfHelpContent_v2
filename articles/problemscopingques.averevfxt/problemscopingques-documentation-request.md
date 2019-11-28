@@ -24,6 +24,13 @@
         "displayLabel": "Avere OS Version",
         "watermarkText": "Version Number",
         "required": false
+    }, {
+        "id": "problem_description",
+        "order": 2,
+        "controlType": "multilinetextbox",
+        "displayLabel": "Description",
+        "watermarkText": "Provide additional information about your issue",
+        "required": true
     }]
 }
 ---
