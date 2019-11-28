@@ -38,6 +38,12 @@
         "displayLabel": "Description",
         "watermarkText": "Provide additional information about your issue",
         "required": true
+    }, {
+        "id": "problem_start_time",
+        "order": 4,
+        "controlType": "datetimepicker",
+        "displayLabel": "When did the problem start?",
+        "required": true
     }]
 }
 ---
