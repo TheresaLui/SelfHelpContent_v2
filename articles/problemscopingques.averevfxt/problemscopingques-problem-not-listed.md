@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Avere vFXT Problem Not Listed"
-	description="My is not listed"
+	description="My problem is not listed"
 	authors="jbut"
 	ms.author="jebutl"
 	selfHelpType="problemScopingQuestions"
@@ -8,33 +8,42 @@
 	productPesIds="16506"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="8823dd45-57af-4dc1-8eaf-801f08edd3a8"
 />
-#My problem is not listed
+# My problem is not listed
 ---
-
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "diagnosticCard": {
-        "title": "Avere vFXT Cluster Name",
-        "description": "Provide the Avere OS version that is running.",
+    "title": "My problem is not listed",
+    "formElements": [{
         "id": "avere_cluster_name",
         "order": 1,
         "controlType": "textbox",
         "displayLabel": "Avere vFXT Cluster Name",
         "watermarkText": "Cluster Name",
         "required": false
-    }
-    "diagnosticCard": {
-        "title": "Avere OS Version",
-        "description": "Provide the Avere OS version that is running.",
+    }, {
         "id": "avere_os_version",
         "order": 2,
         "controlType": "textbox",
         "displayLabel": "Avere OS Version",
         "watermarkText": "Version Number",
         "required": false
-    }
+    }, {
+        "id": "problem_description",
+        "order": 3,
+        "controlType": "multilinetextbox",
+        "displayLabel": "Description",
+        "watermarkText": "Provide additional information about your issue",
+        "required": true
+    }, {
+        "id": "problem_start_time",
+        "order": 4,
+        "controlType": "datetimepicker",
+        "displayLabel": "When did the problem start?",
+        "required": true
+    }]
 }
 ---
