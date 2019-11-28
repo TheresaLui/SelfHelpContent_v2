@@ -18,10 +18,9 @@
 
 ## **Recommended Steps**
 
-### **I want to add more than 2 disks. But, in the template, I see columns only for 2 disks.**
+### **I want to add more than 2 disks, but I see columns for only 2 disks in the template.**
 
 Disk details can be added for up to 8 disks. You can add details for more disks by adding columns in the template. [Learn more](https://docs.microsoft.com/azure/migrate/tutorial-assess-import#add-multiple-disks) about how you can add more than 2 disks in the CSV.
-
 
 ### **How can I delete the imported servers?**
 
