@@ -36,7 +36,7 @@
         "order": 3,
         "controlType": "multilinetextbox",
         "displayLabel": "Expected Performance",
-        "watermarkText": "Describe Expected Performance",
+        "watermarkText": "Describe expected performance",
         "required": false,
         "useAsAdditionalDetails": false
     }, {
@@ -44,7 +44,7 @@
         "order": 4,
         "controlType": "multilinetextbox",
         "displayLabel": "Changes to Deployment",
-        "watermarkText": "Describe Changes",
+        "watermarkText": "Describe any recent changes that you made to your deployment or environment that may be responsible for the performance issues.",
         "required": false,
         "useAsAdditionalDetails": false
     }, {

@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "title": "Avere vFXT Documentaiton Request",
+    "title": "Avere vFXT Documentation Request",
     "formElements": [{
         "id": "avere_os_version",
         "order": 1,
