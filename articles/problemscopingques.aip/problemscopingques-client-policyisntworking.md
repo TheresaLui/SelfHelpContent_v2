@@ -111,9 +111,9 @@
                     "required": false
                 },{
                     "id": "checkrightclick",
-                    "order": 8,
+                    "order": 9,
                     "controlType": "dropdown",
-                    "displayLabel": "Were you able to replicate this issue using Right Click -> Classify and Protect",
+                    "displayLabel": "Were you able to replicate this issue using Right Click - Classify and Protect",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
