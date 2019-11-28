@@ -36,10 +36,11 @@
 
 	Alternately, you can use the setup media from a marketplace SQL Server VM image that has the desired version and edition. The following steps explain how to do this: 
 	1. Either use an existing SQL Server VM, or deploy a SQL Server VM from the Azure marketplace that has the desired edition of SQL Server
-	2. RDP into this new SQL Server VM and navigate to where the SQL Server setup media is: `C:\SQLServerFull`
+	2. RDP into this new SQL Server VM and navigate to where the SQL Server setup media is: ***C:\SQLServerFull***
 	3. Copy over the directory to the intended VM and launch setup.exe
 	4. If you created a new VM to obtain the media, remember to delete it to avoid the billing costs
-	
+
+	Another alternative is to download the SQL evaluation edition on your VM and use the product key form a marketplace SQL Server VM image that has the desired version and edition. To get the product key, you can launch setup.exe from ***C:\SQLServerFull*** on the Azure VM that has desired edition and version, copy the product key that appears in the install process and exit the installer. 
 
 ##  **Recommended Documents**
 
