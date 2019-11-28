@@ -13,6 +13,7 @@
 # Problems with SMB Configuration
 ---
 {
+    "$schema": "SelfHelpContent",    
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Problems with SMB Configuration",

@@ -13,6 +13,7 @@
 # Problems with client access to Avere vFXT cluster.
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Problems with client access to Avere vFXT cluster",

@@ -13,6 +13,7 @@
 # General Guidance or Advisory
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "General Guidance or Advisory",

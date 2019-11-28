@@ -13,6 +13,7 @@
 # Problems involving a system failure or service restart.
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Problems involving a system failure or service restart",

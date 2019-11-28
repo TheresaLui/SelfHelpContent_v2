@@ -13,6 +13,7 @@
 # Avere vFXT Documentation Request
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Avere vFXT Documentaiton Request",

@@ -13,6 +13,7 @@
 # Performance Issues
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Performance Issues",
@@ -36,14 +37,16 @@
         "controlType": "multilinetextbox",
         "displayLabel": "Expected Performance",
         "watermarkText": "Describe Expected Performance",
-        "required": false
+        "required": false,
+        "useAsAdditionalDetails": true
     }, {
         "id": "avere_env_changes",
         "order": 4,
         "controlType": "multilinetextbox",
         "displayLabel": "Changes to Deployment",
         "watermarkText": "Describe Changes",
-        "required": false
+        "required": false,
+        "useAsAdditionalDetails": false
     }]
 }
 ---

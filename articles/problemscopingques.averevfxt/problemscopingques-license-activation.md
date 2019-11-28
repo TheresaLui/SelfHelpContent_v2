@@ -13,6 +13,7 @@
 # License Activation Request
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "License Activation Request",

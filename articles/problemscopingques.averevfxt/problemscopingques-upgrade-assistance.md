@@ -13,6 +13,7 @@
 # Upgrade Assistance Request
 ---
 {
+    "$schema": "SelfHelpContent",    
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Upgrade Assistance Request",

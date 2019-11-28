@@ -13,6 +13,7 @@
 # Problems with cluster management
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Problems with cluster management",

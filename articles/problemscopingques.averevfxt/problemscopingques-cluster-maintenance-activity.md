@@ -13,6 +13,7 @@
 # Problems related to cluster maintenance activities.
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Problems related to cluster maintenance activities",

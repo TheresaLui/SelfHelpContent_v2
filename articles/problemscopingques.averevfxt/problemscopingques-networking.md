@@ -13,6 +13,7 @@
 # Problems with Avere vFXT Networking
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Problems with Avere vFXT Networking",

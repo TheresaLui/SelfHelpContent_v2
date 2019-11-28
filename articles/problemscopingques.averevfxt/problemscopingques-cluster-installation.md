@@ -13,6 +13,7 @@
 # Problems installing and configuring Avere vFXT
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "Problems installing and configuring Avere vFXT",
