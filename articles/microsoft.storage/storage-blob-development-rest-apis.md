@@ -24,10 +24,13 @@ Most customers resolved their REST API related issues with Blob Storage on their
 
 * The Blob Service REST API defines operations against the storage account, containers, and blobs
 [Azure Blob Services REST API Reference](https://docs.microsoft.com/rest/api/storageservices/blob-service-rest-api)<br>
+
 * The Storage Resource Provider REST API defines operations to manage storage account and keys programmatically
 [Azure Storage Resource Provider REST API Reference](https://docs.microsoft.com/rest/api/storagerp/)<br>
+
 * The Azure Storage Import-Export REST API defines operations to manage import/export jobs to transfer data to or from Blob storage
 [Azure Storage Import-Export REST API Reference](https://docs.microsoft.com/rest/api/storageimportexport/)<br>
+
 * The Azure Storage Services REST API defines operations to manage Blob, Queue, Table, and File services
 [Azure Storage Services REST API Reference](https://docs.microsoft.com/rest/api/storageservices/)<br>
 

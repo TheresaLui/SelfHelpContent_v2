@@ -54,7 +54,7 @@
 
 * **Where can I find the license key to use for installing SSRS or SSAS 2017+ in an Azure VM?**
 
-	If you already have a SQL Server VM with Standard or Enterprise edition created from Azure Marketplace, you can launch setup.exe from `C:\SQLServerFull`, copy the product key that appears in the install process and exit the installer. You can then apply the key during SSRS or SSAS installation. 
+	If you already have a SQL Server VM with Standard or Enterprise edition created from Azure Marketplace, you can launch setup.exe from ***C:\SQLServerFull***, copy the product key that appears in the install process and exit the installer. You can then apply the key during SSRS or SSAS installation. 
 
 * **How can I determine the license type of my SqlVirtualMachine resources?**
 
@@ -65,3 +65,4 @@
 ##  **Recommended Documents**
 
 * [Frequently asked questions for SQL Server running on Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq)
+* [Pricing guidance for Azure SQL Server VMs](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-pricing-guidance)
