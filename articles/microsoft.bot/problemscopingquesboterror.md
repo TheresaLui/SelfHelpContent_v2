@@ -104,7 +104,7 @@
         },
 		{
             "id": "intermittent_dropdown",
-            "order": 4,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Is the issue reproducible at will or occuring all the time?",
             "watermarkText": "Choose an option",
@@ -123,7 +123,7 @@
         },
 		{
             "id": "howcreated_dropdown",
-            "order": 5,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "How did you create the bot?",
             "watermarkText": "Choose an option",
@@ -146,7 +146,7 @@
         },
 		{
             "id": "sdk_dropdown",
-            "order": 6,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "What version of SDK is the bot running on?",
             "watermarkText": "Choose an option",
@@ -169,7 +169,7 @@
         },
 		{
             "id": "language_dropdown",
-            "order": 7,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "What language of SDK are you using?",
             "watermarkText": "Choose an option",
