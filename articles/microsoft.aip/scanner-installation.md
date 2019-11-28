@@ -16,7 +16,7 @@
 
 # Azure Information Protection - Scanner Installation
 
-If you are upgrading and not performing a clean installation, please make sure you have followed the guidelines for [upgrading the Azure Information Protection scanner]( https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner).
+If you are upgrading and not performing a clean installation, please make sure you have followed the guidelines for [upgrading the Azure Information Protection scanner]( https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner) and for unified labeling client check [upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner).
 
 If An alternate configuration is needed for any of the below reasons, please follow [deploy the scanner with alternative configurations](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#deploying-the-scanner-with-alternative-configurations): 
 
