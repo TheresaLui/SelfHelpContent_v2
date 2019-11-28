@@ -37,7 +37,8 @@
         "controlType": "multilinetextbox",
         "displayLabel": "Description",
         "watermarkText": "Provide additional information about your issue",
-        "required": true
+        "required": true,
+        "useAsAdditionalDetails": true
     }, {
         "id": "problem_start_time",
         "order": 4,

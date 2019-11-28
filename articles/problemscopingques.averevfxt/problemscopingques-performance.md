@@ -38,7 +38,7 @@
         "displayLabel": "Expected Performance",
         "watermarkText": "Describe Expected Performance",
         "required": false,
-        "useAsAdditionalDetails": true
+        "useAsAdditionalDetails": false
     }, {
         "id": "avere_env_changes",
         "order": 4,
@@ -53,7 +53,8 @@
         "controlType": "multilinetextbox",
         "displayLabel": "Description",
         "watermarkText": "Provide additional information about your issue",
-        "required": true
+        "required": true,
+        "useAsAdditionalDetails": true
     }, {
         "id": "problem_start_time",
         "order": 6,
