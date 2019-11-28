@@ -25,6 +25,6 @@ Disk details can be added for up to 8 disks. You can add details for more disks 
 
 ### **How can I delete the imported servers?**
 
-Currently, deleting adding servers is not feasible. You can overwrite a server by importing another entry with the same server name. 
+Currently, deleting servers is not feasible. You can overwrite a server by importing another entry with the same server name. 
 
 
