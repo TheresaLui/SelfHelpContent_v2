@@ -30,7 +30,7 @@ In order to determine what's potentially wrong, view the dashboard alerts and co
 
 ## **Moving data to the vFXT cluster**
 
-The Avere vFXT is designed to manage very large datasets.  One of the big challenges is getting all data copied into a new filesystem.  [Moving data to the vFXT cluster - parallel data ingest](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-data-ingest) provides a variety of techniques for speeding up this task.
+The Avere vFXT is designed to manage very large datasets.  One of the big challenges is getting all data copied into a new filesystem.  [Moving data to the vFXT cluster - parallel data ingest](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-data-ingest) provides a variety of techniques for speeding up this task.
 
 ## **Workload Properties**
 
@@ -44,7 +44,7 @@ How much of your data set fits in the Avere cache?  If you have a workload that 
 
 ## **Setting up Support Uploads**
 
-In order to diagnose performance problems, it is very helpful to have support uploads enabled.  Support uploads provide Microsoft Support with detailed telemetry regarding Avere vFXT cluster performance.  Please see [Enable support updates](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-enable-support) for more information on this.
+In order to diagnose performance problems, it is very helpful to have support uploads enabled.  Support uploads provide Microsoft Support with detailed telemetry regarding Avere vFXT cluster performance.  Please see [Enable support updates](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-enable-support) for more information on this.
 
 ## **Uploading a Support Bundle**
 
@@ -64,4 +64,4 @@ It is very useful to have a baseline test to reproduce the performance problems 
 ## **Recommended Documents**
 
 1. [Vdbench - measuring HPC cache or vFXT performance](https://github.com/Azure/Avere/blob/master/docs/vdbench.md)
-2. [Cluster tuning](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-tuning)
+2. [Cluster tuning](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-tuning)

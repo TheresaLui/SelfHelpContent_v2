@@ -26,19 +26,19 @@ All Avere vFXT nodes are pingable.  You may test network connectivity by running
 
 ## **Resource Groups and Network Infrastructure**
 
-This [Resource group and network infrastructure](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy-plan#resource-group-and-network-infrastructure) article describes that a resource group needs to be created for the Avere vFXT, but you can use existing VNets and subnets.
+This [Resource group and network infrastructure](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy-plan#resource-group-and-network-infrastructure) article describes that a resource group needs to be created for the Avere vFXT, but you can use existing VNets and subnets.
 
 ## **IP Address requirements**
 
-Avere vFXT clusters require a number of IP addresses. [IP address requirements](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy-plan#ip-address-requirements) describes the different types of IP address ranges required to deplay an Avere vFXT cluster.
+Avere vFXT clusters require a number of IP addresses. [IP address requirements](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy-plan#ip-address-requirements) describes the different types of IP address ranges required to deplay an Avere vFXT cluster.
 
 ## **Cluster Access**
 
-This [Cluster access](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-deploy-plan#cluster-access) describes how to access the vFXT cluster.
+This [Cluster access](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-deploy-plan#cluster-access) describes how to access the vFXT cluster.
 
 ## **DNS Configuration**
 
-The Avere vFXT depends on round-robin DNS to provide load-balanced DNS access to clients. [Avere cluster DNS Configuration](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-configure-dns) describes how to set this up.
+The Avere vFXT depends on round-robin DNS to provide load-balanced DNS access to clients. [Avere cluster DNS Configuration](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-configure-dns) describes how to set this up.
 
 ## **Recommended Documents**
 

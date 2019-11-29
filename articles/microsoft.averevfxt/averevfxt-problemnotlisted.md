@@ -58,9 +58,9 @@ Sometimes it is helpful to restart services in order to resolve issues. A servic
 
 You may find documentation for the Avere vFXT on the Microsoft documentation site.  The following links provide key resources:
 
-* [Avere vFXT for Azure Documentation](https://docs.microsoft.com/en-us/azure/avere-vfxt/)
-* [Prepare to create the Avere vFXT](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-prereqs)
-* [Avere vFXT for Azure FAQ](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-faq)
+* [Avere vFXT for Azure Documentation](https://docs.microsoft.com/azure/avere-vfxt/)
+* [Prepare to create the Avere vFXT](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-prereqs)
+* [Avere vFXT for Azure FAQ](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-faq)
 * [Avere Legacy Documentation](https://azure.github.io/Avere/)
 * [Avere Configuration Guide](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/ops_conf_index.html)
 * [Avere Dashboard Guide](https://azure.github.io/Avere/legacy/dashboard/4_7/html/ops_dashboard_index.html)
