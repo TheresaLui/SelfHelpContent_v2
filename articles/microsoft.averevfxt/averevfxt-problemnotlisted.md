@@ -18,7 +18,7 @@
 
 The following advice may help with the problem that you're experiencing.
 
-## **Key Actions**
+## Key Actions
 
 Here are some key actions to take:
 
@@ -37,14 +37,7 @@ Finally, uploading a support bundle also involves accessing the Avere Control Pa
 3. Provide an optional comment to indicate what information is being gathered.
 4. Click the "Upload Information" button.
 
-## **Recommended Documents**
-
-* [Viewing System Performance](https://azure.github.io/Avere/legacy/dashboard/4_7/html/dash_performance_graph.html)
-* [Monitoring Conditions and Alerts](https://azure.github.io/Avere/legacy/dashboard/4_7/html/dash_conditions_alerts.html)
-* [Using the Avere Control Panel Support Tab](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/support_overview.html#general-information-upload)
-* [Configuring Cluster Support](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/gui_support.html)
-
-## **Restarting Services**
+## Restarting Services
 
 Sometimes it is helpful to restart services in order to resolve issues. A service restart may resolve issues when file system operations are not completing. You may restart services via the following steps:
 
@@ -54,10 +47,14 @@ Sometimes it is helpful to restart services in order to resolve issues. A servic
 
 [Restart Services Instructions](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/gui_system_maintenance.html) provides more details on restarting services.
 
-## **Key Documentation Links**
+## **Recommended Documents**
 
 You may find documentation for the Avere vFXT on the Microsoft documentation site.  The following links provide key resources:
 
+* [Viewing System Performance](https://azure.github.io/Avere/legacy/dashboard/4_7/html/dash_performance_graph.html)
+* [Monitoring Conditions and Alerts](https://azure.github.io/Avere/legacy/dashboard/4_7/html/dash_conditions_alerts.html)
+* [Using the Avere Control Panel Support Tab](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/support_overview.html#general-information-upload)
+* [Configuring Cluster Support](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/gui_support.html)
 * [Avere vFXT for Azure Documentation](https://docs.microsoft.com/azure/avere-vfxt/)
 * [Prepare to create the Avere vFXT](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-prereqs)
 * [Avere vFXT for Azure FAQ](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-faq)

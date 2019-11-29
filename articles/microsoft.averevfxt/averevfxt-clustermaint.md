@@ -18,7 +18,7 @@
 
 The following advice may help you perform cluster maintenance activities.
 
-## **Key Considerations for Cluster Maintenance**
+## Key Considerations for Cluster Maintenance
 
 Here are some key things to consider before performing cluster maintenance. First, does the activity require pre-planning? In most cases, these activities will need to be planned. Regardless how minor the activity is, there is typically some impact on the ability for clients to access data.
 
@@ -26,7 +26,7 @@ You should determine the estimated timeframe for the activity. This timeframe wi
 
 Common cluster maintenance activities include: software upgrades, restarting services, and rebooting nodes.
 
-## **Software Upgrades**
+## Software Upgrades
 
 You may download the software via a URL provided by Microsoft Support, or you may visit our support [portal](https://averesystems.force.com/support/) to select and download a software package.
 

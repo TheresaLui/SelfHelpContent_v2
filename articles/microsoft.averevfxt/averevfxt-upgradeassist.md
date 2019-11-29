@@ -18,7 +18,7 @@
 
 The following article provides simple steps for upgrading an Avere vFXT cluster.
 
-## **Upgrade Process**
+## Upgrade Process
 
 You may download the software via a URL provided by Microsoft Support, or you may visit our support [portal](https://averesystems.force.com/support/) to select and download a software package.
 

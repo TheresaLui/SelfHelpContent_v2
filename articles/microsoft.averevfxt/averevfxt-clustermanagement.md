@@ -18,7 +18,7 @@
 
 The following tips may help you resolve cluster management issues.
 
-## **Important Considerations**
+## Important Considerations
 
 Cluster management involves all the activities after the system is initially setup.  This covers a broad range of issues.  Here are some key actions to take:
 
