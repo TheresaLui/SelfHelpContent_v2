@@ -23,7 +23,7 @@
         "controlType": "textbox",
         "displayLabel": "Avere vFXT Cluster Name",
         "watermarkText": "Cluster Name",
-        "required": false
+        "required": true
     }, {
         "id": "avere_os_version",
         "order": 2,
