@@ -20,15 +20,15 @@ Many SMB (Server Message Block) configuration issues will be addressed by these 
 
 SMB configuration is a complex topic, but some of the following items may help you resolve your issues.
 
-## FXT Admin SMB ACLs Guide
+## *FXT Admin SMB ACLs Guide*
 
 The [FXT Admin SMB ACLs Guide](https://azure.github.io/Avere/legacy/pdf/avere_fxt_admin_smb_acl_guide-2016.pdf) provides detailed information regarding configuring your system for use with a volume that provides ACL-based (Access Control List) security.
 
-## Active Directory Administrator Guide
+## *Active Directory Administrator Guide*
 
 The [Active Directory Administrator Guide to Avere FXT Deployment](https://azure.github.io/Avere/legacy/pdf/ADAdminCIFSACLsGuide_20140716.pdf) covers information that is necessary for Active Directory admins to successfully deploy and Avere vFXT cluster in their environment.
 
-## NetApp Storage Admin Guide
+## *NetApp Storage Admin Guide*
 
 If you have a NetApp core filer, then the [NetApp Storage Admin SMB/CIFS ACLs Guide](https://azure.github.io/Avere/legacy/pdf/avere_netapp_admin_smb_acl_guide-2016.pdf) provides detailed information on adding a NetApp volume to your namespace and providing SMB access to that volume.
 

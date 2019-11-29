@@ -18,7 +18,7 @@
 
 The following information helps to make license activations a quick and efficient process.
 
-## Key Information
+## *Key Information*
 
 In order to provide a license for a feature, we need a Licensing ID.  Licensing ID's are unique to each cluster, and your resulting license key will depend on this licensing ID.  You will find the Cluster License ID under the Cluster -> Licenses section of the Avere Control Panel.
 

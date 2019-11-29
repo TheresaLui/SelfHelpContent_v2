@@ -18,11 +18,11 @@
 
 Many system failure or service start issues may be solved by the following actions.
 
-## High Availability (HA)
+## *High Availability (HA)*
 
 If an Avere vFXT node fails, the high availability (HA) protection will ensure that another node takes over for that failed node.  A common scenario involves transient failures.  A node may experience a failure event, and the node's HA partner (secondary) node will take over for that temporarily failed nodes.  After the failed node recovers, the services will return to the original node.  Although client impact will be transiently impacted, the system should automatically recover. You should wait 10-20 minutes to determine if the system automatically recovers.
 
-## Dashboard Alerts and Conditions
+## *Dashboard Alerts and Conditions*
 
 When an Avere vFXT experiences a failure, the failure events will be logged via the Avere Control Panel alerts and conditions panes.  This view provides a stream of events that you can watch during a failure event.
 
@@ -30,7 +30,7 @@ You may check for alerts and/or conditions by navigating to the main page of the
 
 [Monitoring Conditions and Alerts](https://azure.github.io/Avere/legacy/dashboard/4_7/html/dash_conditions_alerts.html) provides more details.
 
-## Uploading a Support Bundle
+## *Uploading a Support Bundle*
 
 Uploading a support bundle also involves accessing the Avere Control Panel. It is important to note that the support bundle will only be uploaded to Microsoft Support if you've taken the steps to configure support uploads. Follow these steps:
 
@@ -41,7 +41,7 @@ Uploading a support bundle also involves accessing the Avere Control Panel. It i
 
 [General Information Upload](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/support_overview.html#general-information-upload) describes the Support Bundle upload process in more detail.
 
-## Uploading a Core File
+## *Uploading a Core File*
 
 Sometimes when file system services go offline, a process core file is written on the failing node. You may upload a core file by navigating to the Support tab on the Avere Control Panel.  From this page, go to the "Core dump management" section.  [Core Dump Management](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/support_overview.html#core-dump-management) provides more detail on uploading core files.
 

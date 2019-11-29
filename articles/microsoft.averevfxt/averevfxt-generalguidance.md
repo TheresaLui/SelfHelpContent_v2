@@ -8,7 +8,7 @@
     articleId="averevfxt-generalguidance"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32626105"
+    supportTopicIds="32626105,32609691"
     resourceTags=""
     productPesIds="16506"
     cloudEnvironments="public"
@@ -18,7 +18,7 @@
 
 The following advice may help with the problem that you're experiencing.
 
-## Key Actions
+## *Key Actions*
 
 Here are some key actions to take:
 
@@ -37,7 +37,7 @@ Finally, uploading a support bundle also involves accessing the Avere Control Pa
 3. Provide an optional comment to indicate what information is being gathered.
 4. Click the "Upload Information" button.
 
-## Restarting Services
+## *Restarting Services*
 
 Sometimes it is helpful to restart services in order to resolve issues. A service restart may resolve issues when file system operations are not completing. You may restart services via the following steps:
 
