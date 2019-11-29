@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-Most customers resolve their SDK or Client library related queries with Blob Storage on their own, using the links below.<br>
+Most customers resolve their SDK or Client library related queries with Blob Storage on their own, using the links below.
 The below links provide steps to create a sample project for common blob storage operations along with code samples on GitHub.<br>  
 
 
