@@ -18,7 +18,7 @@
 
 All of the key Avere vFXT documentation resources are found online.
 
-## **Key Documentation Links**
+## Key Documentation Links
 
 You may find documentation for the Avere vFXT on the Microsoft documentation site.  The following links provide key resources:
 
