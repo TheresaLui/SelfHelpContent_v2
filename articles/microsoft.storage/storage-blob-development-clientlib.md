@@ -35,7 +35,7 @@ The below links provide steps to create a sample project for common blob storage
 - [Code Samples](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/storage/azure-storage-blob/samples)<br>
 
 ### **Azure Blob Storage for JavaScript** 
-- [Quickstart for Javascript](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-nodejs/)<br>
+- [Quickstart for JavaScript](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-nodejs/)<br>
 - [Code Samples](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/storage/storage-blob/samples)<br>
 
 ### **Azure Blob Storage for Go** 
@@ -45,5 +45,5 @@ The below links provide steps to create a sample project for common blob storage
 - [Quickstart for Ruby](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-ruby/)<br>
 
 ### **Azure Blob Storage for PHP** 
-- [Quickstart for PHP](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-php/)<br>
+- [Quickstart for PHP](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-php/)<br>
 
