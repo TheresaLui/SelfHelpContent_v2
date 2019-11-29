@@ -16,7 +16,7 @@
 
 # Avere vFXT Cluster Maintenance Activities
 
-The following advice may help you perform cluster maintance activities.
+The following advice may help you perform cluster maintenance activities.
 
 ## **Key Considerations for Cluster Maintenance**
 
@@ -28,7 +28,7 @@ Common cluster maintenance activities include: software upgrades, restarting ser
 
 ## **Software Upgrades**
 
-You may download the software via a URL provided by Mirosoft Support, or you may visit our support [portal](https://averesystems.force.com/support/) to select and download a software package.
+You may download the software via a URL provided by Microsoft Support, or you may visit our support [portal](https://averesystems.force.com/support/) to select and download a software package.
 
 Please follow the following steps to upgrade your cluster:
 

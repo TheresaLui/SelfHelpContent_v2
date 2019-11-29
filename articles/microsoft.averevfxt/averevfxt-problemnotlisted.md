@@ -24,11 +24,11 @@ Here are some key actions to take:
 
 1. Check the Avere Control Panel Dashboard for alerts and/or conditions.
 2. Check the Dashboard graphs and note the time period of problems.
-3. Upload a Support Bundle from the Support Pae of the Avere Control Panel.
+3. Upload a Support Bundle from the Support Page of the Avere Control Panel.
 
 You may check for alerts and/or conditions by navigating to the main page of the Avere Control Panel.  The conditions and alerts appear in tabs below the main graph.
 
-Similarily, you may also check the Dashboard graphs by navigating to the main page of the Avere Control Panel.
+Similarly, you may also check the Dashboard graphs by navigating to the main page of the Avere Control Panel.
 
 Finally, uploading a support bundle also involves accessing the Avere Control Panel. It is important to note, that the support bundle will only be uploaded to Microsoft Support if you've taken the steps to configure support uploads. Follow these steps:
 

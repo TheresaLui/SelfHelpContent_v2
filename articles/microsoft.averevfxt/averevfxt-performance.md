@@ -20,7 +20,7 @@ The following actions and considerations may help to address Avere vFXT performa
 
 ## **Introduction**
 
-Performance problems can arise for many reasons.  This informance may help you sort out the root cause for the issues that you're seeing.
+Performance problems can arise for many reasons.  This information may help you sort out the root cause for the issues that you're seeing.
 
 ## **Conditions on the Avere Control Panel Dashboard**
 
@@ -32,7 +32,7 @@ In order to determine what's potentially wrong, view the dashboard alerts and co
 
 The Avere vFXT is designed to manage very large datasets.  One of the big challenges is getting all data copied into a new filesystem.  [Moving data to the vFXT cluster - parallel data ingest](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-data-ingest) provides a variety of techniques for speeding up this task.
 
-## **Workload Properies**
+## **Workload Properties**
 
 Performance is largely a function of the workload that is being applied to an Avere vFXT cluster.  It is important to try to determine if the workload is from a single client and is single-threaded. By single-threaded, we mean a workload that involves a single process sending a single stream of operations to the file system server.  For example, a single invocation of a command like `ls` would send a series of file system operations, mainly READDIR+ for NFS, to a server to list directory contents.  On the other hand, one may invoke 10 copies of the `ls` program in parallel to quickly list different parts of a directory tree.  This would result in multiple streams of file system operations.  In general, single-stream workloads are bound by file system latency. A quick way of improving performance would be to make the workload more parallel or multi-threaded/multi-process.
 

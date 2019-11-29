@@ -16,7 +16,7 @@
 
 # Avere vFXT SMB Configuration Issues
 
-Many SMB (Server Message Block) configurtion issues will be addressed by these topics.
+Many SMB (Server Message Block) configuration issues will be addressed by these topics.
 
 ## **Introduction**
 
@@ -26,7 +26,7 @@ SMB configuration is a complex topic, but some of the following items may help y
 
 The [FXT Admin SMB ACLs Guide](https://azure.github.io/Avere/legacy/pdf/avere_fxt_admin_smb_acl_guide-2016.pdf) provides detailed information regarding configuring your system for use with a volume that provides ACL-based (Access Control List) security.
 
-## **Adcitve Directory Administrator Guide**
+## **Active Directory Administrator Guide**
 
 The [Active Directory Administrator Guide to Avere FXT Deployment](https://azure.github.io/Avere/legacy/pdf/ADAdminCIFSACLsGuide_20140716.pdf) covers information that is necessary for Active Directory admins to successfully deploy and Avere vFXT cluster in their environment.
 
