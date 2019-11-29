@@ -22,7 +22,7 @@ Please consider the following information when dealing with a network connectivi
 
 First, if this is a problem that involves clients accessing the Avere vFXT cluster, please re-categorize this issue under the "Client Access Issues" support topic.
 
-All Avere vFXT nodes are pingable.  You may test network connectivity by running the `ping` command in order to determine if network interfaces are responding.  Sometimes it is helpful to debug a Linux VM in the VNet and subnet that contains the Avere vFXT cluster.  You may also benefit by testing connectivity from your on-premises network by sourcing `ping` packets from a machine on that network.
+All Avere vFXT nodes are pingable.  You may test network connectivity by running the *ping* command in order to determine if network interfaces are responding.  Sometimes it is helpful to debug a Linux VM in the VNet and subnet that contains the Avere vFXT cluster.  You may also benefit by testing connectivity from your on-premises network by sourcing *ping* packets from a machine on that network.
 
 ## *Resource Groups and Network Infrastructure*
 

@@ -20,7 +20,7 @@ Many system failure or service start issues may be solved by the following actio
 
 ## *High Availability (HA)*
 
-If an Avere vFXT node fails, the high availability (HA) protection will ensure that another node takes over for that failed node.  A common scenario involves transient failures.  A node may experience a failure event, and the node's HA partner (secondary) node will take over for that temporarily failed nodes.  After the failed node recovers, the services will return to the original node.  Although client impact will be transiently impacted, the system should automatically recover. You should wait 10-20 minutes to determine if the system automatically recovers.
+If an Avere vFXT node fails, the high availability (HA) protection will ensure that another node takes over for that failed node.  A common scenario involves transient failures.  A node may experience a failure event, and the node's HA partner (secondary) node will take over for that temporarily failed nodes.  After the failed node recovers, the services will return to the original node.  Although clients will be transiently impacted, the system should automatically recover. You should wait 10-20 minutes to determine if the system automatically recovers.
 
 ## *Dashboard Alerts and Conditions*
 
@@ -40,6 +40,8 @@ Uploading a support bundle also involves accessing the Avere Control Panel. It i
 4. Click the "Upload Information" button.
 
 [General Information Upload](https://azure.github.io/Avere/legacy/ops_guide/4_7/html/support_overview.html#general-information-upload) describes the Support Bundle upload process in more detail.
+
+Please see [Enable support updates](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-enable-support) for details on enabling support uploads.
 
 ## *Uploading a Core File*
 

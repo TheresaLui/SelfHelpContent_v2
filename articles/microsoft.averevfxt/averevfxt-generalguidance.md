@@ -37,6 +37,8 @@ Finally, uploading a support bundle also involves accessing the Avere Control Pa
 3. Provide an optional comment to indicate what information is being gathered.
 4. Click the "Upload Information" button.
 
+Please see [Enable support updates](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-enable-support) for details on enabling support uploads.
+
 ## *Restarting Services*
 
 Sometimes it is helpful to restart services in order to resolve issues. A service restart may resolve issues when file system operations are not completing. You may restart services via the following steps:

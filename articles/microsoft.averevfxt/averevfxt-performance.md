@@ -34,13 +34,13 @@ The Avere vFXT is designed to manage very large datasets.  One of the big challe
 
 ## *Workload Properties*
 
-Performance is largely a function of the workload that is being applied to an Avere vFXT cluster.  It is important to try to determine if the workload is from a single client and is single-threaded. By single-threaded, we mean a workload that involves a single process sending a single stream of operations to the file system server.  For example, a single invocation of a command like `ls` would send a series of file system operations, mainly READDIR+ for NFS, to a server to list directory contents.  On the other hand, one may invoke 10 copies of the `ls` program in parallel to quickly list different parts of a directory tree.  This would result in multiple streams of file system operations.  In general, single-stream workloads are bound by file system latency. A quick way of improving performance would be to make the workload more parallel or multi-threaded/multi-process.
+Performance is largely a function of the workload that is being applied to an Avere vFXT cluster.  It is important to try to determine if the workload is from a single client and is single-threaded. By single-threaded, we mean a workload that involves a single process sending a single stream of operations to the file system server.  For example, a single invocation of a command like *ls* would send a series of file system operations, mainly READDIR+ for NFS, to a server to list directory contents.  On the other hand, one may invoke 10 copies of the *ls* program in parallel to quickly list different parts of a directory tree.  This would result in multiple streams of file system operations.  In general, single-stream workloads are bound by file system latency. A quick way of improving performance would be to make the workload more parallel or multi-threaded/multi-process.
 
 In addition to using multiple processes on a single client, you may enlist multiple clients in your application.  Multiple clients bring more network and CPU resources to accomplish a task. If you think you're experiencing a single-client bottleneck, adding a client may be a good way to determine if you can get more throughput by adding clients.
 
 ## *Ability to Cache Data*
 
-How much of your data set fits in the Avere cache?  If you have a workload that accesses a very large amount of data, then you may have limited performance due to cache misses.  You can determine your cache hit rates by examining the system dashboard on the Avere Control Panel.  Any access to the core filers will result in decreased performance levels.  If you notice cache misses, it may help to increase the number of nodes in your Avere vFXT cluster or increase the size of the disks attached to the Avere vFXT nodes.  [Viewing System Performance](https://azure.github.io/Avere/legacy/dashboard/4_7/html/dash_performance_graph.html) provides additional information regarding monitoring performance via the dashboard.
+How much of your data set fits in the Avere cache?  If you have a workload that accesses a very large amount of data, then you may have limited performance due to cache misses.  You can determine your cache hit rates by examining the system dashboard on the Avere Control Panel.  Any access to the core filers will result in decreased performance levels.  If you notice cache misses, it may help to increase the number of nodes in your Avere vFXT cluster or increase the size of the disks attached to the Avere vFXT nodes.  [Viewing System Performance](https://azure.github.io/Avere/legacy/dashboard/4_7/html/dash_performance_graph.html) provides additional information regarding monitoring performance via the dashboard.  [Manage the Avere vFXT cluster](https://docs.microsoft.com/en-us/azure/avere-vfxt/avere-vfxt-manage-cluster) describes how to add nodes using the *vfxt.py* utility.
 
 ## *Setting up Support Uploads*
 
@@ -56,6 +56,8 @@ Uploading a support bundle also involves accessing the Avere Control Panel. It i
 2. Go to the General information upload section and select the "Support bundle" mode.
 3. Provide an optional comment to indicate what information is being gathered.
 4. Click the "Upload Information" button.
+
+Please see [Enable support updates](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-enable-support) for details on enabling support uploads.
 
 ## *Reproducing Problems and Baselining Performance*
 

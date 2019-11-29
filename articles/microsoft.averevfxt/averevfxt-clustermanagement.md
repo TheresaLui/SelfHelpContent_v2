@@ -37,6 +37,8 @@ Finally, uploading a support bundle also involves accessing the Avere Control Pa
 3. Provide an optional comment to indicate what information is being gathered.
 4. Click the "Upload Information" button.
 
+Please see [Enable support updates](https://docs.microsoft.com/azure/avere-vfxt/avere-vfxt-enable-support) for details on enabling support uploads.
+
 ## **Recommended Documents**
 
 * [Viewing System Performance](https://azure.github.io/Avere/legacy/dashboard/4_7/html/dash_performance_graph.html)
