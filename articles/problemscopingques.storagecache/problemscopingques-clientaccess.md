@@ -54,7 +54,7 @@
             "valuePropertyRegex": "^+$",
             "defaultDropdownOptions": {
                 "value": "dont_know_answer",
-                "text": "Other, Don't Know or Not Applicable {replaceWithParentValue} {subscriptionid}"
+                "text": "Other, Don't Know or Not Applicable"
             }
         }
     }, {
