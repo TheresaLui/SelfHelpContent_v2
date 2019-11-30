@@ -43,7 +43,7 @@
         "watermarkText": "Choose an option",
         "required": false,
         "dynamicDropdownOptions": {
-            "uri": "{resourcename}/storageTargets?api-version=2019-11-01",
+            "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorageCache/caches/{resourcename}/storageTargets?api-version=2019-11-01",
             "jTokenPath": "value",
             "textProperty": "name",
             "valueProperty": "id",
