@@ -36,40 +36,22 @@
             }
         }
     }, {
-        "id": "hpc_cache_storage_target",
-        "order": 2,
-        "controlType": "dropdown",
-        "displayLabel": "Please select the storage target that you're trying to access",
-        "watermarkText": "Choose an option",
-        "required": false,
-        "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorageCache/caches/{resourcename}/storageTargets?api-version=2019-11-01",
-            "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
-            "textPropertyRegex": "[^/]+$",
-            "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Other, Don't Know or Not Applicable"
-            }
-        }
-    }, {
         "id": "avere_client_name_or_ip",
-        "order": 3,
+        "order": 2,
         "controlType": "textbox",
         "displayLabel": "Client Name or IP Address",
         "watermarkText": "Name or IP Address",
         "required": false
     }, {
         "id": "avere_client_os",
-        "order": 4,
+        "order": 3,
         "controlType": "textbox",
         "displayLabel": "Client OS Type and Version",
         "watermarkText": "Client OS Type and Version",
         "required": false
     }, {
         "id": "avere_client_ever_worked",
-        "order": 5,
+        "order": 4,
         "controlType": "dropdown",
         "displayLabel": "Has this client ever been able to access the system?",
         "watermarkText": "Choose an option",
@@ -83,7 +65,7 @@
         }]
     }, {
         "id": "problem_description",
-        "order": 6,
+        "order": 5,
         "controlType": "multilinetextbox",
         "displayLabel": "Description",
         "watermarkText": "Provide additional information about your issue",
@@ -91,7 +73,7 @@
         "useAsAdditionalDetails": true
     }, {
         "id": "problem_start_time",
-        "order": 7,
+        "order": 6,
         "controlType": "datetimepicker",
         "displayLabel": "When did the problem start?",
         "required": true
