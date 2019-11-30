@@ -16,7 +16,7 @@
 />
 
 # Manage an Azure Cosmos account
-Most users are able to resolve their Account provisioning or managment case using the steps below.
+Most users are able to resolve their Account provisioning or management case using the steps below.
 
 ## **Recommended Steps**
 
