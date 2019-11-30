@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": false,
+    "resourceRequired": true,
     "title": "Client Access Issues",
     "formElements": [{
         "id": "hpc_cache_id",
