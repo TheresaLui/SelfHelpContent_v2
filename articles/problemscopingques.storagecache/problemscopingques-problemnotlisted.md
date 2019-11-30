@@ -14,7 +14,7 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "General Guidance or Advisory",
     "formElements": [{
@@ -23,13 +23,14 @@
         "controlType": "dropdown",
         "displayLabel": "Please select the HPC Cache that you have questions about",
         "watermarkText": "Choose an option",
+        "required": false,
         "dynamicDropdownOptions": {
             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.StorageCache/caches?api-version=2019-11-01",
             "jTokenPath": "value",
             "textProperty": "name",
             "valueProperty": "id",
             "textPropertyRegex": "[^/]+$",
-            "defaultDrowdownOptions": {
+            "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, Don't Know or Not Applicable"
             }
