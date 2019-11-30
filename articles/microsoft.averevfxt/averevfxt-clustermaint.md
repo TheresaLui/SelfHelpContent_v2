@@ -55,9 +55,9 @@ You can reset your password in the Avere Control Panel by following these instru
 
 Sometimes it is helpful to restart services in order to resolve issues. You may restart services via the following steps:
 
-1. Navigate to the Administration -> System Maintenance section of the Avere Control Panel.
-2. Determine whether you want to perform a high-availability (HA) restart or a non-HA restart.  An HA restart minimizes the disruption to clients, but it may extend the overall amount of time that the operation will run.  A non-HA restart is useful if you're not concerned about the impact on clients.  HA restarts will restart services on one node at a time.
-3. Click the "Restart cluster" button.
+1. Navigate to the Administration -> System Maintenance section of the Avere Control Panel
+2. Determine whether you want to perform a high-availability (HA) restart or a non-HA restart. An HA restart minimizes the disruption to clients, but it may extend the overall amount of time that the operation will run. A non-HA restart is useful if you're not concerned about the impact on clients. HA restarts will restart services on one node at a time.
+3. Click the "Restart cluster" button
 
 ## *Rebooting Nodes*
 
@@ -65,9 +65,9 @@ Rebooting nodes is a way to completely restart our system.  Rebooting is a more 
 
 In order to reboot, do the following:
 
-1. Navigate to the Administration -> System Maintenance section of the Avere Control Panel.
-2. Determine whether you want to perform a high-availability (HA) restart or a non-HA reboot.  An HA reboot minimizes the disruption to clients, but it may extend the overall amount of time that the operation will run.  A non-HA reboot is useful if you're not concerned about the impact on clients.  HA reboots will reboot one node at a time.
-3. Click the "Reboot cluster" button.
+1. Navigate to the Administration -> System Maintenance section of the Avere Control Panel
+2. Determine whether you want to perform a high-availability (HA) restart or a non-HA reboot. An HA reboot minimizes the disruption to clients, but it may extend the overall amount of time that the operation will run. A non-HA reboot is useful if you're not concerned about the impact on clients. HA reboots will reboot one node at a time.
+3. Click the "Reboot cluster" button
 
 ## **Recommended Documents**
 
