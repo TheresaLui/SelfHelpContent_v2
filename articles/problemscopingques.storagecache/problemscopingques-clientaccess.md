@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Client Access Issues",
     "formElements": [{
         "id": "hpc_cache_id",
@@ -45,13 +45,13 @@
         "visibility": "hpc_cache_id != null && hpc_cache_id != dont_know_answer",
         "dynamicDropdownOptions": {
             "dependsOn": "hpc_cache_id",
-            "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorageCache/caches/{replaceWithParentValue}/storageTargets?api-version=2019-11-01",
+            "uri": "{replaceWithParentValue}/storageTargets?api-version=2019-11-01",
             "jTokenPath": "value",
             "textProperty": "name",
             "textTemplate": "{name}",
             "valueProperty": "id",
             "textPropertyRegex": "[^/]+$",
-            "valuePropertyRegex": "[^/]+$",
+            "valuePropertyRegex": "^+$",
             "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, Don't Know or Not Applicable {replaceWithParentValue} {subscriptionid}"
