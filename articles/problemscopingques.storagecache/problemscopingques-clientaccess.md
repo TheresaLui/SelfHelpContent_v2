@@ -39,7 +39,7 @@
         "id": "hpc_cache_storage_target",
         "order": 2,
         "controlType": "dropdown",
-        "displayLabel": "Please select the storage target that you're trying to access - {replaceWithParentValue}",
+        "displayLabel": "Please select the storage target that you're trying to access - {subscriptionid}",
         "watermarkText": "Choose an option",
         "required": false,
         "visibility": "hpc_cache_id != null && hpc_cache_id != dont_know_answer",
@@ -53,7 +53,7 @@
             "valuePropertyRegex": "[^/]+$",
             "defaultDropdownOptions": {
                 "value": "dont_know_answer",
-                "text": "Other, Don't Know or Not Applicable"
+                "text": "Other, Don't Know or Not Applicable {replaceWithParentValue} {subscriptionid}"
             }
         }
     }, {
