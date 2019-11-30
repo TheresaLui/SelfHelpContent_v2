@@ -29,7 +29,7 @@
             "textProperty": "name",
             "valueProperty": "id",
             "textPropertyRegex": "[^/]+$",
-            defaultDrowdownOptions": {
+            "defaultDrowdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, Don't Know or Not Applicable"
             }
