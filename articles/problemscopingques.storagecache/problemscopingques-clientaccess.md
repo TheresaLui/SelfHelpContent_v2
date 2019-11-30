@@ -48,6 +48,7 @@
             "uri": "{replaceWithParentValue}/storageTargets?api-version=2019-11-01",
             "jTokenPath": "value",
             "textProperty": "name",
+            "textTemplate": "{name}",
             "valueProperty": "id",
             "textPropertyRegex": "[^/]+$",
             "valuePropertyRegex": "[^/]+$",
