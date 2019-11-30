@@ -30,7 +30,6 @@
             "textProperty": "name",
             "valueProperty": "id",
             "textPropertyRegex": "[^/]+$",
-            "valuePropertyRegex": "[^/]+$",
             "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, Don't Know or Not Applicable"
@@ -40,10 +39,10 @@
         "id": "hpc_cache_storage_target",
         "order": 2,
         "controlType": "dropdown",
-        "displayLabel": "Please select the storage target that you're trying to access",
+        "displayLabel": "Please select the storage target that you're trying to access - {replaceWithParentValue}",
         "watermarkText": "Choose an option",
         "required": false,
-        "visibility": "hpc_cache_id != null",
+        "visibility": "hpc_cache_id != null && hpc_cache_id != dont_know_answer",
         "dynamicDropdownOptions": {
             "dependsOn": "hpc_cache_id",
             "uri": "{replaceWithParentValue}/storageTargets?api-version=2019-11-01",
