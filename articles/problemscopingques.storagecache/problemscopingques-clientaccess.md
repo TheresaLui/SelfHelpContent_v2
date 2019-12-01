@@ -58,22 +58,63 @@
             }
         }
     }, {
-        "id": "avere_client_name_or_ip",
+        "id": "hpc_cache_client_rg",
         "order": 3,
+        "controlType": "dropdown",
+        "displayLabel": "Please select the resource group for the client",
+        "watermarkText": "Choose an option",
+        "required": false,
+        "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2019-05-01",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": "[^/]+$",
+            "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, Don't Know or Not Applicable"
+            }
+        }
+    }, {
+        "id": "hpc_cache_client_id",
+        "order": 4,
+        "controlType": "dropdown",
+        "displayLabel": "Please select the problematic client",
+        "watermarkText": "Choose an option",
+        "required": false,
+        "visibility": "hpc_cache_client_rg != null && hpc_cache_client_rg != dont_know_answer",
+        "dynamicDropdownOptions": {
+            "dependsOn": "hpc_cache_client_rg",
+            "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2019-07-01",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "textTemplate": "{name}",
+            "valueProperty": "id",
+            "textPropertyRegex": "[^/]+$",
+            "valuePropertyRegex": "[^/]+$",
+            "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, Don't Know or Not Applicable"
+            }
+        }
+    }, {
+        "id": "avere_client_name_or_ip",
+        "order": 5,
         "controlType": "textbox",
         "displayLabel": "Client Name or IP Address",
         "watermarkText": "Name or IP Address",
-        "required": false
+        "required": false,
+        "visibility": "hpc_cache_client_id == null"
     }, {
         "id": "avere_client_os",
-        "order": 4,
+        "order": 6,
         "controlType": "textbox",
         "displayLabel": "Client OS Type and Version",
         "watermarkText": "Client OS Type and Version",
         "required": false
     }, {
         "id": "avere_client_ever_worked",
-        "order": 5,
+        "order": 7,
         "controlType": "dropdown",
         "displayLabel": "Has this client ever been able to access the system?",
         "watermarkText": "Choose an option",
@@ -87,7 +128,7 @@
         }]
     }, {
         "id": "problem_description",
-        "order": 6,
+        "order": 8,
         "controlType": "multilinetextbox",
         "displayLabel": "Description",
         "watermarkText": "Provide additional information about your issue",
@@ -95,7 +136,7 @@
         "useAsAdditionalDetails": true
     }, {
         "id": "problem_start_time",
-        "order": 7,
+        "order": 9,
         "controlType": "datetimepicker",
         "displayLabel": "When did the problem start?",
         "required": true
