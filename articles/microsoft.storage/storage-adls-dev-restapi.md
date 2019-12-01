@@ -30,8 +30,7 @@ Most customers resolve their REST API related issues with Azure Data Lake Gen2 S
 
 * [Data Lake Gen2 Programming Interface is only partially supported](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-upgrade?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#programming-interfaces)<br>
 
-
-### **Additional Recommended Documents ** 
+### **Additional Recommended Documents** 
 
 * [Generate client libraries for accessing RESTful web services using Azure AutoRest](https://github.com/Azure/AutoRest)<br>
 * [Azure Data Lake Storage REST API Swagger specification to generate client library](https://raw.githubusercontent.com/Azure/azure-rest-api-specs/master/specification/storage/data-plane/Microsoft.StorageDataLake/stable/2018-11-09/DataLakeStorage.json)<br>
