@@ -16,7 +16,7 @@
 />
 
 # Manage an Azure Cosmos account
-Most users are able to resolve their Account provisioning or management case using the steps below.
+Most users are able to resolve their Account provisioning or management issue using the steps below.
 
 ## **Recommended Steps**
 
@@ -67,4 +67,7 @@ The below recommended documents describes how to manage various tasks on an Azur
 <br>This article includes links to sample Azure CLI scripts for Azure Cosmos DB SQL (Core) API.  
 
 [PowerShell samples for Azure Cosmos DB SQL (Core) API](https://docs.microsoft.com/azure/cosmos-db/powershell-samples-sql)
-<br>This article includes samples to commonly used Azure PowerShell scripts for Azure Cosmos DB for SQL (Core) API.
+<br>This article includes samples to commonly used Azure PowerShell scripts for Azure Cosmos DB for SQL (Core) API.  
+
+[Azure Lock Management](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources)
+<br>As an administrator, you may need to lock a subscription, resource group, or resource to prevent other users in your organization from accidentally deleting or modifying critical resources. This article covers how to enable locks in the Portal and the intent for each lock type.
