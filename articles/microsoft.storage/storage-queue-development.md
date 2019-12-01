@@ -22,13 +22,13 @@
 
 Most customers resolved their development related issues with Azure Queue Storage on their own, using the links below.
 
-### **Getting Started with REST APIs for Azure Queue Storage** 
+### **Get Started with REST APIs for Azure Queue Storage** 
 
 * The Queue Service REST API defines operations for working with message queues
 [Azure Queue Services REST API Reference](https://docs.microsoft.com/rest/api/storageservices/queue-service-rest-api)<br>
 
 
-### **Getting Started with Client SDKs for Azure Queue Storage** 
+### **Get Started with Client SDKs for Azure Queue Storage** 
 
 * [Get started with Azure Queue Storage using .NET](https://docs.microsoft.com/azure/storage/queues/storage-dotnet-how-to-use-queues/)<br>
 * [Get Started with Azure Queue Storage using Java](https://docs.microsoft.com/azure/storage/queues/storage-java-how-to-use-queue-storage/)<br>
@@ -38,10 +38,10 @@ Most customers resolved their development related issues with Azure Queue Storag
 * [Get Started with Azure Queue Storage using Python](https://docs.microsoft.com/azure/storage/queues/storage-python-how-to-use-queue-storage/)<br>
 * [Get started with Azure Queue Storage using Ruby](https://docs.microsoft.com/azure/storage/queues/storage-ruby-how-to-use-queue-storage/)<br>
 
-### **Getting Started with Powershell for Azure Queue Storage** 
+### **Get Started with Powershell for Azure Queue Storage** 
 
 * [Get Started with Azure Queue Storage using Powershell](https://docs.microsoft.com/azure/storage/queues/storage-powershell-how-to-use-queues/)<br>
 
-### **Getting Started with Azure Command Line Interface (CLI) for Azure Queue Storage** 
+### **Get Started with Azure Command Line Interface (CLI) for Azure Queue Storage** 
 
 * [Get Started with Azure Queue Storage using Azure Command Line Interface (CLI)](https://docs.microsoft.com/cli/azure/storage/queue?view=azure-cli-latest)<br>
