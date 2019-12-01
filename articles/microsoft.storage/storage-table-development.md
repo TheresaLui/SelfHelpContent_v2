@@ -30,7 +30,7 @@ Most customers resolved their development related issues with Azure Table Storag
 ### **Get Started with Client SDKs for Azure Table Storage** 
 
 * [Develop with Azure Table Storage](https://docs.microsoft.com/azure/cosmos-db/table-support?toc=2Fazure%2Fstorage%2Ftables%2FTOC.json&bc=2Fazure%2Fbread%2Ftoc.json#developing-with-azure-table-storage)<br>
-* [Develop with Azure Cosmos DB Table API vs Azure Table Storage](https://docs.microsoft.com/azure/cosmos-db/table-support?toc=2Fazure%2Fstorage%2Ftables%2FTOC.json&bc=2Fazure%2Fbread%2Ftoc.json)<br>
+* [Azure Cosmos DB Table API vs Azure Table Storage API](https://docs.microsoft.com/azure/cosmos-db/table-support?toc=2Fazure%2Fstorage%2Ftables%2FTOC.json&bc=2Fazure%2Fbread%2Ftoc.json)<br>
 
 
 ### **Get Started with Powershell for Azure Table Storage** 
