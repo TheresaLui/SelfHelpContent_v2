@@ -4,8 +4,8 @@
 	infoBubbleText=""
 	service="microsoft.storage"
 	resource="datalakestoragegen2"
-	authors="ramMSFT"
-	ms.author="raprasad"
+	authors="kartikshah9"
+	ms.author="kashah"
 	displayOrder=""
 	articleId="36bc28e6-83f3-408b-9c80-730c5571e516"
 	diagnosticScenario=""
@@ -19,6 +19,9 @@
 # Azure Data Lake Gen2 Client Library SDK
 
 ## **Recommended Documents**
+
+Most customers resolve their SDK or Client library related queries with Azure Data Lake Storage Gen2 on their own, using the links below. 
+
 
 * [Azure Data Lake Storage Gen 2 Known issues](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues/)<br>
 * [Data Lake Gen2 Programming Interface is only partially supported](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-upgrade?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#programming-interfaces)<br>
