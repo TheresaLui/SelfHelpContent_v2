@@ -104,7 +104,7 @@
         "displayLabel": "Client Name or IP Address",
         "watermarkText": "Name or IP Address",
         "required": false,
-        "visibility": "hpc_cache_client_id == null || hpc_cache_client_id != dont_know_answer"
+        "visibility": "hpc_cache_client_id == dont_know_answer || hpc_cache_client_id == null"
     }, {
         "id": "avere_client_os",
         "order": 6,
