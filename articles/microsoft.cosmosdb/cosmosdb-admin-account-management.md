@@ -20,10 +20,11 @@ Most users are able to resolve their Account provisioning or management case usi
 
 ## **Recommended Steps**
 
-### **Not able to remove a region**  
+### **Not able to remove or add a region**  
 If you are not able to remove a region in your database account please consider the following solutions:  
 * In a single-region write mode, you cannot remove the write region. You must fail over to a different region before you can delete the current write region. [Perform manual failover on an Azure Cosmos account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#manual-failover).
 * In a multi-region write mode, you can add or remove any region, if you have at least one region.
+* You cannot change another account property while adding or removing a region. To remedy, change the other account properties first, then retry the region change. You can compare property values by exporting the account to a template and compare currently property values from those set by your template, including tags.
 
 
 ### **Not able to delete an account**  
@@ -35,7 +36,8 @@ If after attempting to delete an account, you observe that nothing seems to happ
 ### **Not able to delete a resource group**  
 If you are not able to delete a resource group, please consider the following solutions:  
 * Verify if there is a *lock* on an account located in the resource group that is preventing it from being deleted. You can verify this by navigating to the *Account* blade, selecting the account, and then view *Locks*.
-* You also may have a lock on an additional item located within the resource group.  It is recommended to review the items for any enabled *Delete Locks*. 
+* Verify if you have a *delete lock* enabled on your resource group. You can verify this by navigating to the *Resource Group* blade, select the resource where the account is located, and then view *Locks*.
+* You also may have a lock on an additional items located within the resource group.  It is recommended to review the items for any enabled *Delete Locks*. 
 
 
 
@@ -54,7 +56,7 @@ The below recommended documents describes how to manage various tasks on an Azur
 
 
 [Azure Resource Manager templates for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/resource-manager-samples)
-<br>This article include links to Azure Resource Manager templates for Azure Cosmos DB:
+<br>This article includes links to Azure Resource Manager templates for Azure Cosmos DB:
 * SQL (Core) API
 * MongoDB API
 * Cassandra API
@@ -65,4 +67,4 @@ The below recommended documents describes how to manage various tasks on an Azur
 <br>This article includes links to sample Azure CLI scripts for Azure Cosmos DB SQL (Core) API.  
 
 [PowerShell samples for Azure Cosmos DB SQL (Core) API](https://docs.microsoft.com/azure/cosmos-db/powershell-samples-sql)
-<br>This article includes links to commonly used Azure PowerShell scripts for Azure Cosmos DB for SQL (Core) API.
+<br>This article includes samples to commonly used Azure PowerShell scripts for Azure Cosmos DB for SQL (Core) API.
