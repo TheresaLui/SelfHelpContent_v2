@@ -23,18 +23,15 @@ Features or query operators added in MongoDB version 3.4, including aggregation 
 
 ## **Recommended Steps**  
 
-
-### **Count query cannot run on multiple shards**  
-This error is thrown on legacy MongoDB version 3.2 accounts when running a CRUD (create, Read, Update, Delete) command against a sharded collection and the shard key value is not specified in the command.  This issue is fixed for new Mongo accounts on 3.6.  
-If you are experiencing this issue and unable to migrate to 3.6, please consider the following solution:
-* Use a combination of Cursor and find to get the required count. Example, for every shard key value from the cursor, modify the find command to contain the shard key field and its value.
-
 ### **Encountering an Unsupported Command**  
 * Consider Migration to [MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
 * Review and enable preview feature via the Azure Portal, for example, Mongo Aggregation Pipeline, or Mongo 3.4 compatibility
 * Rewrite query minus the unsupported operator, with client-side logic when required  
 
-
+### **Count query cannot run on multiple shards**  
+This error is thrown on legacy MongoDB version 3.2 accounts when running a CRUD (create, Read, Update, Delete) command against a sharded collection and the shard key value is not specified in the command.  This issue is fixed for new Mongo accounts on 3.6.  
+If you are experiencing this issue and unable to migrate to 3.6, please consider the following solution:
+* Use a combination of Cursor and find to get the required count. Example, for every shard key value from the cursor, modify the find command to contain the shard key field and its value.
 
 
 ## **Recommended Documents**  
