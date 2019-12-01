@@ -61,7 +61,7 @@
         "id": "hpc_cache_client_rg",
         "order": 3,
         "controlType": "dropdown",
-        "displayLabel": "Please select the resource group for the client",
+        "displayLabel": "Please select the resource group for the problematic client",
         "watermarkText": "Choose an option",
         "required": false,
         "dynamicDropdownOptions": {
@@ -104,7 +104,7 @@
         "displayLabel": "Client Name or IP Address",
         "watermarkText": "Name or IP Address",
         "required": false,
-        "visibility": "hpc_cache_client_id == null"
+        "visibility": "hpc_cache_client_id == null && hpc_cache_client_id != dont_know_answer"
     }, {
         "id": "avere_client_os",
         "order": 6,
