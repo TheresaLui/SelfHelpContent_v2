@@ -20,7 +20,7 @@
 Most users are able to resolve their Monitoring Alert issue following the recommended steps and reading the recommended documents provided below.  
 
 
-## Recommended Steps  
+## **Recommended Steps**  
 
 ### **Setting up an Alert for RU consumption**  
 Please note that you can monitor the RU consumption from Azure portal.  You can do this by navigating to your Cosmos DB account, open the alerts blade and you can setup metric or activity log alerts to send you notifications if the consumption has reached a certain limit.  
