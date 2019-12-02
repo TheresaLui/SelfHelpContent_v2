@@ -24,3 +24,7 @@ Azure File Sync failed to download file(s) for one or more server endpoints unde
 
 ## **Recommended Steps**
 To resolve this issue, free up space on the volume by moving files to a different volume, or increasing the size of the volume the server endpoint is on.
+
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
