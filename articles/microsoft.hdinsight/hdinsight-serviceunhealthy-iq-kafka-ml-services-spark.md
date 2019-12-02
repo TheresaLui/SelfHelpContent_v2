@@ -24,7 +24,7 @@ The following steps may help you troubleshoot issues when a service running on H
 * If you're using a custom script action, review the logs associated with the script action to investigate whether they may be causing a problem. For more information, see [Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting).
 * If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues), or try restarting Ambari using the following command: sudo systemctl restart ambari-server
 * If jobs on the cluster are running slow or failing, follow the steps in [Troubleshoot a slow or failing job](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster).
-* If you recently enabled secure storage transfer and get the error "The account being accessed does not support http" you need to disable secure storage transfer, or make additional configuration changes as described in [Enable WASBS in HDInsight clusters](https://hdinsight.github.io/hdfs/wasbs-common-problems-regarding-to-wasbs.html).
+* If you recently enabled secure transfer on your Storage account and get the error "The account being accessed does not support http" you need to disable secure transfer, or make additional configuration changes as described in [Enable WASBS in HDInsight clusters](https://hdinsight.github.io/hdfs/wasbs-common-problems-regarding-to-wasbs.html).
 
 Note that Microsoft Support teams can offer support only for the following situations:
 
