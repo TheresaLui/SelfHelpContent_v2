@@ -29,4 +29,5 @@ Refer to [Azure Latency Test](http://www.azurespeed.com) to test your network la
 ## **Recommended Documents**
 
 [Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
+
 [Azure Latency Test](http://www.azurespeed.com)
