@@ -24,3 +24,7 @@ Server endpoint creation failed under the Storage Sync Service resource  **<!--$
 
 ## **Recommended steps**
  Verify the server endpoint path specified is a locally attached NTFS volume. Note: Azure File Sync does not support mapped drives as a server endpoint path.
+ 
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
