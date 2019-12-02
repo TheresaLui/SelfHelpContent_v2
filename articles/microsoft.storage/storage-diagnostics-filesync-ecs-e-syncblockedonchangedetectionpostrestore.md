@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error - SYNC_BLOCKED_ON_CHANGE_DETECTION_POST_RESTORE"
-	description="Sync failed error - user request throttled"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storage"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_SYNC_BLOCKED_ON_CHANGE_DETECTION_POST_RESTORE"
-    diagnosticScenario="Sync failed error - SYNC_BLOCKED_ON_CHANGE_DETECTION_POST_RESTORE"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error - SYNC_BLOCKED_ON_CHANGE_DETECTION_POST_RESTORE"
+description="Sync failed error - user request throttled"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_SYNC_BLOCKED_ON_CHANGE_DETECTION_POST_RESTORE"
+diagnosticScenario="Sync failed error - SYNC_BLOCKED_ON_CHANGE_DETECTION_POST_RESTORE"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - SYNC_BLOCKED_ON_CHANGE_DETECTION_POST_RESTORE
@@ -24,3 +24,6 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 ## **Recommended steps**
 No action is required. Sync will resume once change detection completes.
 
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
