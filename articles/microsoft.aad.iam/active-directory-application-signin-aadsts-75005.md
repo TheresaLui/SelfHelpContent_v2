@@ -1,0 +1,28 @@
+<properties
+    pageTitle="Enterprise Application - Config issue preventing user sign-in"
+    description="Enterprise Application - Config issue preventing user sign-in"
+    infoBubbleText="See details on the right"
+    service="microsoft.activedirectory"
+    resource=""
+    authors="luleon"
+    ms.author="luleon"
+    displayOrder="1"
+    articleId="Application_SignIn_ADSTS_75005"
+	diagnosticScenario="EnterpriseApps"
+    selfHelpType="diagnostics"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="public"
+/>
+
+# Configuration Issue Preventing User Sign-In
+<!--issueDescription-->
+Azure AD doesn’t support the SAML request sent by the application for single sign-on. Some common issues are: 
+  * Missing required fields in the SAML request 
+  * SAML request encoded method 
+<!--/issueDescription-->
+
+## **Recommended Steps**
+
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#not-a-valid-saml-request).
