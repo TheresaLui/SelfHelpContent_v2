@@ -22,7 +22,7 @@ The user has not been granted access to the application in Azure AD.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Follow the steps documented [here](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#user-not-assigned-a-role).
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#user-not-assigned-a-role).
 
 ### SAML request sent by you:			
 <!--$SAMLRequestFormat-->[SAMLRequestFormat]<!--/$SAMLRequestFormat-->
