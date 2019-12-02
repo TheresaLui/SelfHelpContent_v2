@@ -53,6 +53,8 @@
 [Monitoring and debugging with metrics in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/use-metrics)
 <br>Azure Cosmos DB provides metrics for throughput, storage, consistency, availability, and latency. The Azure portal provides an aggregated view of these metrics. You can also view Azure Cosmos DB metrics from Azure Monitor API.  
 
+[Azure Cosmos DB monitoring data reference](https://docs.microsoft.com/azure/cosmos-db/monitor-cosmos-db-reference)
+<br>This article provides a reference of log and metric data collected to analyze the performance and availability of Azure Cosmos DB.   
 
 [Monitor Cosmos DB with alerts](https://docs.microsoft.com/azure/cosmos-db/monitor-accounts)
 <br>You can monitor your Azure Cosmos DB accounts in the Azure portal. For each Azure Cosmos DB account, a full suite of metrics is available to monitor throughput, storage, availability, latency, and consistency. Metrics can be reviewed on the Account page, the new Metrics page, or in Azure Monitor.
