@@ -43,7 +43,7 @@
   "actions": [
     {
       "actionId": "9daffb0d-5a5a-4c13-9fba-5153733c6788",
-      "description": "Update Service Principal`",
+      "description": "Update Service Principal",
       "actionType": "Document",
       "documentLink": "https://docs.microsoft.com/azure/aks/update-credentials"
     }
@@ -52,7 +52,7 @@
 		"action": {
 		"actionId": "6646a29d-5714-4c9a-a226-9ea94fc1de8a",
 		"actionType": "Blade",
-		"bladeName": "OverviewBlade",
+		"bladeName": "ResourceMenuBlade",
 		"extensionName": "HubsExtension",
 		"metadata": {
         "id": "{resourceId}"
