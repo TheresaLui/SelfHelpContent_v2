@@ -24,5 +24,9 @@ Azure File Sync failed to recall file(s) for one or more server endpoints under 
 
 ## **Recommended steps**
 No action required. If the error persists for several hours, please open a support case.
-
 Refer to [Azure Latency Test](http://www.azurespeed.com) to test your network latency and speed to the datacenter hosting your storage account.
+
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
+[Azure Latency Test](http://www.azurespeed.com)
