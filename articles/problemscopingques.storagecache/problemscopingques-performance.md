@@ -136,13 +136,7 @@
         "watermarkText": "Describe your workload as best as possible",
         "required": true,
         "useAsAdditionalDetails": false,
-        "hints": [{
-            "text": "Is it read-heavy, write-heavy, a mix of read and write, or metadata heavy?"
-        }, {
-            "text": "Approximately how large is the data set that is being accessed?"
-        }, {
-            "text": "Are the files generally small or large?"
-        }]
+        "infoBalloonText": "Is it read-heavy, write-heavy, a mix of read and write, or metadata heavy? Approximately how large is the data set that is being accessed? Are the files generally small or large?"
     }, {
         "id": "problem_description",
         "order": 9,
