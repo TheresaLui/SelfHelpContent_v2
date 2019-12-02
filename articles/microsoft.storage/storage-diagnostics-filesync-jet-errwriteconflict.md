@@ -22,7 +22,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 <!--/issueDescription-->
 
 ## **Recommended steps**
-No action is required. If this error persists for several hours, create asupport request.
+No action is required. If this error persists for several hours, create a support request.
 
 ## **Recommended Documents**
 
