@@ -133,19 +133,21 @@
         "order": 8,
         "controlType": "multilinetextbox",
         "displayLabel": "Workload Description",
-        "watermarkText": "Provide a description of your workload",
+        "watermarkText": "Describe your workload as best as possible",
         "required": true,
         "useAsAdditionalDetails": false,
         "hints": [{
-            "text": "Workload description."
+            "text": "Is it read-heavy, write-heavy, a mix of read and write, or metadata heavy?"
         }, {
-            "text": "Describe the workload as best as possible.  Is it read-heavy, write-heave, a mix of read and write, or metadata heavy?  Approximately how large is the data set that is being accessed?  Are the files generall small or large?"
+            "text": "Approximately how large is the data set that is being accessed?"
+        }, {
+            "text": "Are the files generally small or large?"
         }]
     }, {
         "id": "problem_description",
         "order": 9,
         "controlType": "multilinetextbox",
-        "displayLabel": "Description",
+        "displayLabel": "Additional Details",
         "watermarkText": "Provide additional information about your issue",
         "required": true,
         "useAsAdditionalDetails": true
