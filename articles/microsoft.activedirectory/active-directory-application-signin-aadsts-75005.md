@@ -19,8 +19,8 @@
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
 Azure AD doesn’t support the SAML request sent by the application for single sign-on. Some common issues are: 
-  * Missing required fields in the SAML request 
-  * SAML request encoded method 
+  1. Missing required fields in the SAML request 
+  2. SAML request encoded method 
 <!--/issueDescription-->
 
 ## **Recommended Steps**

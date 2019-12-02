@@ -22,7 +22,7 @@
 
 **How do I enable combined security info registration for self-service password reset and Multi-Factor Authentication?**
 
-To learn more about combined security info registration and how to enable it for your users, see this article:  [Combined registration for SSPR and MFA - Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-registration-mfa-sspr-combined) 
+To learn more about combined security info registration and how to enable it for your users, see this article:  [Combined registration for SSPR and MFA - Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined) 
 
 **How do I require my users to register for self-service password reset?**
 To require users to register when they sign in, follow the steps in this article: [How password reset works: Registration](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-howitworks#registration)
