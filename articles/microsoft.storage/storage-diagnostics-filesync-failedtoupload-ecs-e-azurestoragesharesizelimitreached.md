@@ -36,7 +36,9 @@ If the share is full and a quota is not set, one possible way of fixing this iss
 
 ## **Recommended Documents**
 [current limits for an Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)
+
 [maximum size of the Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)
+
 [Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
 
 
