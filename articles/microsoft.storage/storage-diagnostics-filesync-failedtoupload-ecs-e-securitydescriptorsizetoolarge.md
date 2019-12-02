@@ -26,3 +26,7 @@ Azure File Sync failed to upload file(s) for one or more server endpoints under 
 
 ## **Recommended steps**
 To resolve this issue, remove access control entries (ACE) on the file to reduce the security descriptor size.
+
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
