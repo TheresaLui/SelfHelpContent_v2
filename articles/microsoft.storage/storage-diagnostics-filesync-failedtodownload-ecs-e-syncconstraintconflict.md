@@ -27,5 +27,9 @@ Azure File Sync failed to download file(s) for one or more server endpoints unde
 
 No action is required.This item will sync after the dependent changes are synced.
 
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
+
 
 
