@@ -29,7 +29,7 @@
     "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
+      "service": "Azure Advisor"
       "team": "Azure Advisor"
     },
     "serviceTreeId": "e58a942f-58e5-49c3-9798-cbd6819f5cc0"
@@ -37,7 +37,7 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "description": "Use premium performance block blob storage",
-  "longDescription": "One or more of your storage account has a high transaction rate per GB of block blob data stored. Use premium performance block blob storage instead of standard performance storage for your workloads that require fast storage response times and/or high transaction rates and potentially save on storage costs.",
+  "longDescription": "One or more of your storage accounts has a high transaction rate per GB of block blob data stored. Use premium performance block blob storage instead of standard performance storage for your workloads that require fast storage response times and/or high transaction rates and potentially save on storage costs.",
   "potentialBenefits": "Block blob storage performance boost with the lowest Azure transaction prices.",
   "actions": [
     {
