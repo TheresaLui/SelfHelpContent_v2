@@ -20,18 +20,18 @@
 
 If you were having issues performing a search query using the Azure Cognitive Search REST API, the following outlines the most common reasons for issue:
 
-* Using a Query API key as opposed to the required [Admin API](https://docs.microsoft.com/en-us/azure/search/search-security-overview#index-access) Key in the header request
-* Forgetting to add the [api-version](https://docs.microsoft.com/en-us/azure/search/search-api-versions) to the search request
+* Using a Query API key as opposed to the required [Admin API](https://docs.microsoft.com/azure/search/search-security-overview#index-access) Key in the header request
+* Forgetting to add the [api-version](https://docs.microsoft.com/azure/search/search-api-versions) to the search request
 
-Often the response 's [HTTP status code](https://docs.microsoft.com/en-us/rest/api/searchservice/http-status-codes) and message will give a good indication as to why the call failed
+Often the response 's [HTTP status code](https://docs.microsoft.com/rest/api/searchservice/http-status-codes) and message will give a good indication as to why the call failed
 
 It is also important to understand how Azure Cognitive Search leverages the request to perform the search.  For more details on this, please see [Anatomy of a search request
-](https://docs.microsoft.com/en-us/azure/search/search-lucene-query-architecture)
+](https://docs.microsoft.com/azure/search/search-lucene-query-architecture)
 
 ## **Recommended Documents**
 
-* [Send your first query]https://docs.microsoft.com/en-us/azure/search/search-query-simple-examples
-* [Anatomy of a search request](https://docs.microsoft.com/en-us/azure/search/search-lucene-query-architecture)
-* [Admin API](https://docs.microsoft.com/en-us/azure/search/search-security-overview#index-access) Key in the header request
-* [API Version](https://docs.microsoft.com/en-us/azure/search/search-api-versions) to the search request
-* [HTTP status codes](https://docs.microsoft.com/en-us/rest/api/searchservice/http-status-codes)
+* [Send your first query](https://docs.microsoft.com/azure/search/search-query-simple-examples)
+* [Anatomy of a search request](https://docs.microsoft.com/azure/search/search-lucene-query-architecture)
+* [Admin API](https://docs.microsoft.com/azure/search/search-security-overview#index-access) Key in the header request
+* [API Version](https://docs.microsoft.com/azure/search/search-api-versions) to the search request
+* [HTTP status codes](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)
