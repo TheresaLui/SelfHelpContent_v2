@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error - ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
-	description="Sync failed error - ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storage"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
-    diagnosticScenario="Sync failed error - ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error - ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
+description="Sync failed error - ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
+diagnosticScenario="Sync failed error - ECS_E_NOT_ENOUGH_LOCAL_STORAGE"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - ECS_E_NOT_ENOUGH_LOCAL_STORAGE
@@ -23,3 +23,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 
 ## **Recommended steps**
 To resolve this issue, free up space on the volume by adding additional server endpoints, moving files to a different volume, or increasing the size of the volume the server endpoint is on.
+
+## **Recommended Documents**
+
+ [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
