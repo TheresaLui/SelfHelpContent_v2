@@ -1,7 +1,7 @@
 <properties
     pageTitle="Update AKS Service Principal"
     description="Update AKS Service Principal"
-    authors="jakepearson" 
+    authors="jakepearson"
     ms.author="jopears"
     articleId="aks-update-service-principal"
     selfHelpType="advisorRecommendationMetadata"
@@ -52,7 +52,7 @@
     "action": {
     "actionId": "6646a29d-5714-4c9a-a226-9ea94fc1de8a",
     "actionType": "Blade",
-    "bladeName": "ResourceMenuBlade", 
+    "bladeName": "ResourceMenuBlade",
     "extensionName": "HubsExtension",
     "metadata": {
         "id": "{resourceId}"
