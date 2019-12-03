@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error - ECS_E_STORAGE_ACCOUNT_FAILED_OVER"
-	description="Sync failed error - ECS_E_STORAGE_ACCOUNT_FAILED_OVER"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storageaccounts"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_ECS_E_STORAGE_ACCOUNT_FAILED_OVER"
-    diagnosticScenario="Sync failed error - ECS_E_STORAGE_ACCOUNT_FAILED_OVER"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error - ECS_E_STORAGE_ACCOUNT_FAILED_OVER"
+description="Sync failed error - ECS_E_STORAGE_ACCOUNT_FAILED_OVER"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storageaccounts"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_ECS_E_STORAGE_ACCOUNT_FAILED_OVER"
+diagnosticScenario="Sync failed error - ECS_E_STORAGE_ACCOUNT_FAILED_OVER"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - ECS_E_STORAGE_ACCOUNT_FAILED_OVER
@@ -23,3 +23,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 
 ## **Recommended steps**
 To resolve this issue, move the storage account to the primary region.
+
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
