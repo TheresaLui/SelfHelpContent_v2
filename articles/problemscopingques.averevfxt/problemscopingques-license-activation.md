@@ -23,7 +23,7 @@
         "controlType": "textbox",
         "displayLabel": "Avere vFXT Cluster Name",
         "watermarkText": "Cluster Name",
-        "required": false
+        "required": true
     }, {
         "id": "avere_os_version",
         "order": 2,
@@ -32,8 +32,15 @@
         "watermarkText": "Version Number",
         "required": false
     }, {
-        "id": "problem_description",
+        "id": "avere_licensing_id",
         "order": 3,
+        "controlType": "textbox",
+        "displayLabel": "Avere Licensing ID",
+        "watermarkText": "Licensing UUID",
+        "required": false
+    }, {
+        "id": "problem_description",
+        "order": 4,
         "controlType": "multilinetextbox",
         "displayLabel": "Description",
         "watermarkText": "Provide additional information about your issue",
@@ -41,7 +48,7 @@
         "useAsAdditionalDetails": true
     }, {
         "id": "problem_start_time",
-        "order": 4,
+        "order": 5,
         "controlType": "datetimepicker",
         "displayLabel": "When did the problem start?",
         "required": true
