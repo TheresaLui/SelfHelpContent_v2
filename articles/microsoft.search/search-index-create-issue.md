@@ -36,3 +36,4 @@ In the event that the issue happened in the portal, some common reasons include:
 
 * [Azure Search Create index via REST](https://docs.microsoft.com/rest/api/searchservice/create-index) 
 * [Azure Search HTTP Response Codes](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)
+

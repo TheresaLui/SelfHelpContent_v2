@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Search Index/Issue deleting an index"
-	description="Issue deleting an Azure Search index"
+	description="Issue deleting an Azure Cognitive Search index"
 	service="microsoft.search"
 	resource="searchservices"
 	authors="liamca"
@@ -29,3 +29,4 @@ If you were unable to delete an index using an API call rather than directly fro
 
 * [Azure Search Delete index via REST](https://docs.microsoft.com/rest/api/searchservice/delete-index) 
 * [Azure Search HTTP Response Codes](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)
+

@@ -34,5 +34,6 @@ Using this information, you can either create an index with a preferred schema u
 * [How to create a basic index](https://docs.microsoft.com/azure/search/search-what-is-an-index)
 * [Azure Search Create index via Portal](https://docs.microsoft.com/azure/search/search-create-index-portal) 
 * [Azure Search Create index via REST](https://docs.microsoft.com/rest/api/searchservice/create-index) 
-* [Azure Search Create index via .NET](https://docs.microsoft.com/azure/search/search-get-started-dotnet) 
+* [Azure Search Create index via .NET](https://docs.microsoft.com/azure/search/search-get-started-dotnet)
+
 
