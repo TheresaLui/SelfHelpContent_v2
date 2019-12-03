@@ -24,3 +24,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 
 ## **Recommended steps**
 No action is required. This error will auto-resolve when the Azure File Sync service is available again.
+
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
