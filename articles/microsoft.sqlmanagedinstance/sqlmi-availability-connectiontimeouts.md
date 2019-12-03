@@ -22,3 +22,8 @@
 
 - Check if firewalls are open
 - Check if routing is configured properly
+
+## ** Recommended Documents **
+- [Troubleshooting connectivity issues and other errors with Microsoft Azure SQL Database](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database)
+- [Working with SQL Database connection issues and transient errors](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues)
+- [Planning for Azure maintenance events in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-planned-maintenance)
