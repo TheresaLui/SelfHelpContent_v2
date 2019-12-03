@@ -43,9 +43,6 @@ To resolve this issue, perform the following steps:
     
 4. Contact your network administrator for additional assistance troubleshooting network connectivity.
 
-on-->
-Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80072ee2 or -2147012894**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error can occur whenever the Azure File Sync service is inaccessible from the server.<br/><br/>
-
 
 ## **Recommended Documents**
 
