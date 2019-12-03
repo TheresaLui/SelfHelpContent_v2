@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
-	description="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storage"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
-    diagnosticScenario="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
+description="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
+diagnosticScenario="Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - ECS_E_STORAGE_ACCOUNT_NAME_UNRESOLVED
@@ -30,3 +30,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
     ```
 2. [Verify the storage account exists.](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#common-troubleshooting-steps)
 3. [Verify the firewall and virtual network settings on the storage account are configured properly (if enabled)](https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal#configure-firewall-and-virtual-network-settings)
+
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
