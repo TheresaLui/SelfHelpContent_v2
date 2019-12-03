@@ -7,18 +7,20 @@
     ms.author="blehr"
 	displayOrder=""
 	selfHelpType="generic"
+    articleId="peering-service-telemetry"
 	supportTopicIds="32689971"
 	resourceTags=""
 	productPesIds="16931"
 	cloudEnvironments="public,fairfax,mooncake"
-	articleId=""
 />
+
+# Issues relating to Peering Service Telemetry
 
 ## **Recommended steps**
 ## To resolve the most common issues, try one or more of the following methods.
 ## Possibly to be added
 
 ## **Recommended documents**
-- [Azure Peering Service Connection Telemetry (Preview)](https://docs.microsoft.com/en-us/azure/peering-service/connection-telemetry)
-- [Understanding Azure Peering Service Connection Telemetry (Preview)](https://docs.microsoft.com/en-us/azure/peering-service/measure-connection-telemetry)
-- [What is Azure Peering Service? (Preview)](https://docs.microsoft.com/en-us/azure/peering-service/about)
+- [Azure Peering Service Connection Telemetry (Preview)](https://docs.microsoft.com/azure/peering-service/connection-telemetry)
+- [Understanding Azure Peering Service Connection Telemetry (Preview)](https://docs.microsoft.com/azure/peering-service/measure-connection-telemetry)
+- [What is Azure Peering Service? (Preview)](https://docs.microsoft.com/azure/peering-service/about)
