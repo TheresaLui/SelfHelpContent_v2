@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
-	description="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storage"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_ECS_E_AUTH_IDENTITY_NOT_FOUND"
-    diagnosticScenario="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
+description="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_ECS_E_AUTH_IDENTITY_NOT_FOUND"
+diagnosticScenario="Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - ECS_E_AUTH_IDENTITY_NOT_FOUND
@@ -23,3 +23,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 
 ## **Recommended steps**
 To resolve this issue, retry deleting the server endpoint.
+
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
