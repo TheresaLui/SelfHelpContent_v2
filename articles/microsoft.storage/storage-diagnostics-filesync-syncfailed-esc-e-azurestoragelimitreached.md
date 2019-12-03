@@ -34,5 +34,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 If the share is full and a quota is not set, one possible way of fixing this issue is to make each subfolder of the current server endpoint into its own server endpoint in their own separate sync groups. This way each subfolder will sync to individual Azure file shares.
 
 ## **Recommended Documents**
-For more information, see the [current limits for an Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets).
+- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+ - [Current limits for an Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)
+ - [Maximum size of the Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)
 
