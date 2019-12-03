@@ -7,7 +7,7 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_Localhost"
+    articleId="Application_SignIn_ADSTS_Reply_Url_Missing"
 	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -18,9 +18,14 @@
 
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
-Azure AD is sending the sign-in token to an incorrect endpoint (127.0.0.1). 
+This application has multiple reply URLs, and no default reply URL has been configured. IDP initiated sign in requires a default URL to be configured so that the SAML response can be sent to the right endpoint.  
 <!--/issueDescription-->
 
 
 ## **Recommended Steps**
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-non-gallery#azure-ad-is-sending-the-token-to-an-incorrect-endpoint).
+
+Configure a default reply URL for this application. To do this: 
+
+1. Open the enterprise application in the Azure Portal, and select **Single sign-on**, and then **SAML**
+2. Edit the **Basic SAML configuration**
+3. In the **Reply URL** section, select one of the reply URLs to be the default, and save the configuration change

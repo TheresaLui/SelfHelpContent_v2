@@ -7,7 +7,7 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_Localhost"
+    articleId="Application_SignIn_ADSTS_Active_Certificate_Expired"
 	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -18,9 +18,11 @@
 
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
-Azure AD is sending the sign-in token to an incorrect endpoint (127.0.0.1). 
+The certificate used to sign the SAML token is expired. Renew the expired certificate to avoid interruption in the service. Azure AD will continue signing the SAML token with the expired certificate but the application may not validate it. 
 <!--/issueDescription-->
 
 
 ## **Recommended Steps**
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-non-gallery#azure-ad-is-sending-the-token-to-an-incorrect-endpoint).
+
+To renew a certificate, follow the instructions [here](https://docs.microsoft.com/azure/active-directory/manage-apps/manage-certificates-for-federated-single-sign-on#customize-the-expiration-date-for-your-federation-certificate-and-roll-it-over-to-a-new-certificate).
+   

@@ -7,8 +7,8 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_50003"
-    diagnosticScenario="EnterpriseApps"
+    articleId="Application_SignIn_ADSTS_User_Not_Granted_Access"
+	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -18,9 +18,8 @@
 
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
-Azure AD doesn’t recognize the certificate configured for the application. Activate the existing certificate or create a new one. 
+The user has not been granted access to the application in Azure AD. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#certificate-or-key-not-configured). 
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#user-not-assigned-a-role).

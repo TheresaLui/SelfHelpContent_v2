@@ -7,7 +7,7 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_50003"
+    articleId="Application_SignIn_ADSTS_Disabled_For_Users"
     diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -18,9 +18,8 @@
 
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
-Azure AD doesn’t recognize the certificate configured for the application. Activate the existing certificate or create a new one. 
+Your <!--$AppDisplayName-->[AppDisplayName]<!--/$AppDisplayName--> is disabled for users to sign-in.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#certificate-or-key-not-configured). 
+To enable the application, follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/disable-user-sign-in-portal).

@@ -7,8 +7,8 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_50003"
-    diagnosticScenario="EnterpriseApps"
+    articleId="Application_SignIn_ADSTS_Incorrect_Endpoint_Localhost"
+	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -18,9 +18,9 @@
 
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
-Azure AD doesn’t recognize the certificate configured for the application. Activate the existing certificate or create a new one. 
+Azure AD is sending the sign-in token to an incorrect endpoint (127.0.0.1). 
 <!--/issueDescription-->
 
-## **Recommended Steps**
 
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#certificate-or-key-not-configured). 
+## **Recommended Steps**
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-non-gallery#azure-ad-is-sending-the-token-to-an-incorrect-endpoint).

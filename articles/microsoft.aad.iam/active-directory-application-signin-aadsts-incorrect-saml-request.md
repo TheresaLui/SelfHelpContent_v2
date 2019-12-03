@@ -7,8 +7,8 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_50003"
-    diagnosticScenario="EnterpriseApps"
+    articleId="Application_SignIn_ADSTS_Incorrect_SAML_Request"
+	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -18,9 +18,14 @@
 
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
-Azure AD doesn’t recognize the certificate configured for the application. Activate the existing certificate or create a new one. 
+Azure AD doesn’t support the SAML request sent by the application for single sign-on. 
 <!--/issueDescription-->
+
+Some common issues are: 
+  1. Missing required fields in the SAML request 
+   
+  2. SAML request encoded method 
 
 ## **Recommended Steps**
 
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#certificate-or-key-not-configured). 
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#not-a-valid-saml-request).

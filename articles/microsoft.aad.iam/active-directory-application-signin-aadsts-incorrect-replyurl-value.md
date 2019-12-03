@@ -7,7 +7,7 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_50003"
+    articleId="Application_SignIn_ADSTS_Incorrect_ReplyUrl_Value"
     diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -16,11 +16,10 @@
     cloudEnvironments="public"
 />
 
-# Configuration Issue Preventing User Sign-In
+# Configuration issue preventing user sign-in
 <!--issueDescription-->
-Azure AD doesn’t recognize the certificate configured for the application. Activate the existing certificate or create a new one. 
+The AssertionConsumerServiceURL value in the SAML request doesn't match the Reply URL value or pattern configured in Azure AD. The AssertionConsumerServiceURL value in the SAML request is the URL you see in the error. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#certificate-or-key-not-configured). 
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#the-reply-address-does-not-match-the-reply-addresses-configured-for-the-application).

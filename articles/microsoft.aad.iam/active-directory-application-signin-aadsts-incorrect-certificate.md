@@ -7,7 +7,7 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_50003"
+    articleId="Application_SignIn_ADSTS_Incorrect_Certificate"
     diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""

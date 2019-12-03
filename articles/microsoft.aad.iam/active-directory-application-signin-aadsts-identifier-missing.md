@@ -7,7 +7,7 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_70001"
+    articleId="Application_SignIn_ADSTS_Identifier_Missing"
 	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -26,8 +26,6 @@ This application has multiple Identifiers (Entity IDs), and no default Identifie
 
 Configure a default reply URL for this application. To do this: 
 
-1. Open the enterprise application in the Azure Portal, and select **Single sign-on**, and then **SAML**.  
-   
-2. Edit the **Basic SAML configuration**. 
-   
-3. In the **Identifier (Entity ID) section**, select one of the Identifiers (Entity IDs) to be the default, and save the configuration change. 
+1. Open the enterprise application in the Azure Portal, and select **Single sign-on**, and then **SAML**   
+2. Edit the **Basic SAML configuration**
+3. In the **Identifier (Entity ID) section**, select one of the Identifiers (Entity IDs) to be the default, and save the configuration change

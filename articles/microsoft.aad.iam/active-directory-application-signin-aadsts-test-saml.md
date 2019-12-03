@@ -7,7 +7,7 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_50105"
+    articleId="Application_SignIn_ADSTS_Test_SAML"
 	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -16,10 +16,12 @@
     cloudEnvironments="public"
 />
 
-# Configuration Issue Preventing User Sign-In
+# Informational: Test SAML Enterprise Application 
 <!--issueDescription-->
-The user has not been granted access to the application in Azure AD. 
+Microsoft recommends using the testing experience available when configuring single sign-on for a pre-integrated application. 
+
+ Using the testing experience, you will get diagnosis for the problem and in many scenarios, you can fix the problem using the experience. 
 <!--/issueDescription-->
 
-## **Recommended Steps**
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#user-not-assigned-a-role).
+To learn more, follow the instructions [here](https://docs.microsoft.com/azure/active-directory/develop/howto-v1-debug-saml-sso-issues).
+   
