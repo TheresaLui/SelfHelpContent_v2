@@ -26,7 +26,7 @@
   "recommendationFriendlyName": "UpdateServicePrincipal",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
-	"potentialBenefits": "Your cluster will work correctly",
+  "potentialBenefits": "Your cluster will work correctly",
   "owner": {
     "email": "jopears@microsoft.com",
     "icm": {
@@ -49,16 +49,16 @@
     }
   ],
   "resourceMetadata": {
-		"action": {
-		"actionId": "6646a29d-5714-4c9a-a226-9ea94fc1de8a",
-		"actionType": "Blade",
-		"bladeName": "ResourceMenuBlade",
-		"extensionName": "HubsExtension",
-		"metadata": {
+    "action": {
+    "actionId": "6646a29d-5714-4c9a-a226-9ea94fc1de8a",
+    "actionType": "Blade",
+    "bladeName": "ResourceMenuBlade", 
+    "extensionName": "HubsExtension",
+    "metadata": {
         "id": "{resourceId}"
       }
     }
-	},
+  },
   "displayLabel": "Update Service Principal",
   "additionalColumns": [],
   "learnMoreLink": "https://docs.microsoft.com/azure/aks/update-credentials"
