@@ -61,6 +61,6 @@
 	},
   "displayLabel": "Update Service Principal",
   "additionalColumns": [],
-	"learnMoreLink": "https://docs.microsoft.com/azure/aks/update-credentials"
+  "learnMoreLink": "https://docs.microsoft.com/azure/aks/update-credentials"
 }
 ---
