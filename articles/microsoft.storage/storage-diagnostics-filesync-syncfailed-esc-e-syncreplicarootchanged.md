@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error -ECS_E_SYNC_REPLICA_ROOT_CHANGED"
-	description="Sync failed error - ECS_E_SYNC_REPLICA_ROOT_CHANGED"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storage"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_ECS_E_SYNC_REPLICA_ROOT_CHANGED"
-    diagnosticScenario="Sync failed error - ECS_E_SYNC_REPLICA_ROOT_CHANGED"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error -ECS_E_SYNC_REPLICA_ROOT_CHANGED"
+description="Sync failed error - ECS_E_SYNC_REPLICA_ROOT_CHANGED"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_ECS_E_SYNC_REPLICA_ROOT_CHANGED"
+diagnosticScenario="Sync failed error - ECS_E_SYNC_REPLICA_ROOT_CHANGED"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - ECS_E_SYNC_REPLICA_ROOT_CHANGED
@@ -29,3 +29,8 @@ To resolve this issue, delete and recreate the sync group by performing the foll
 3. Delete the sync group.
 4. If cloud tiering was enabled on a server endpoint, delete the orphaned tiered files on the server by performing the steps documented in the [Tiered files are not accessible on the server after deleting a server endpoint](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#tiered-files-are-not-accessible-on-the-server-after-deleting-a-server-endpoint) section.
 5. Recreate the sync group.
+
+## **Recommended Documents**
+
+- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+- [Tiered files are not accessible on the server after deleting a server endpoint](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#tiered-files-are-not-accessible-on-the-server-after-deleting-a-server-endpoint) 
