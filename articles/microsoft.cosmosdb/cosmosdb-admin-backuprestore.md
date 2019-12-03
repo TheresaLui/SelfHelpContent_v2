@@ -6,7 +6,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="resource"
-	supportTopicIds="32636805, 32636825"
+	supportTopicIds="32636805,32636825,32692543"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
