@@ -39,7 +39,7 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "description": "Update cluster's service principal",
-  "longDescription": "This cluster's service principal is expired and the cluster will not be healthy until the SP is updated",
+  "longDescription": "This cluster's service principal is expired and the cluster will not be healthy until the service principal is updated",
   "actions": [
     {
       "actionId": "9daffb0d-5a5a-4c13-9fba-5153733c6788",
