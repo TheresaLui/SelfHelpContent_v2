@@ -18,12 +18,12 @@
 
 ## **Recommended Steps**
 
-If you were unable to delete an index using an API call rather than directly from the portal, the response 's HTTP status code and message will often give a good indication as to why the call failed. Common reasons for this failure include:
+If you were unable to delete an index using an API call rather than directly from the portal, the response's HTTP status code and message will often give a good indication as to why the call failed. Common reasons for this failure include:
 
 * Using a Query API key as opposed to the required Admin API Key
 * Incorrectly formed API request 
 * The Index was previously deleted
-* The service is currently unavailable.  You must have 2 or more replicas to ensure an availability SLA.
+* The service is currently unavailable. You must have 2 or more replicas to ensure an availability SLA.
 
 ## **Recommended Documents**
 
