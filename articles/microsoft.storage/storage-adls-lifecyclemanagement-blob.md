@@ -20,6 +20,6 @@
 
 ## **Recommended Documents**
 
-* [ADLS Gen2 support for lifecycle management is in preview](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#api-interoperability/)
+* [ADLS Gen2 support for lifecycle management, with limitations, is in preview](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#api-interoperability/)
 * [Sign-up for preview access](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2EUNXd_ZNJCq_eDwZGaF5VURjFLTDRGS0Q4VVZCRFY5MUVaTVJDTkROMi4u)
 <br>
