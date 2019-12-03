@@ -23,3 +23,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 
 ## **Recommended steps**
 To resolve this issue, verify the path exists, is on a local NTFS volume, and is not a reparse point or existing server endpoint.
+
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
