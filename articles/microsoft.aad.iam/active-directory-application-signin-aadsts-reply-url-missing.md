@@ -26,8 +26,6 @@ This application has multiple reply URLs, and no default reply URL has been conf
 
 Configure a default reply URL for this application. To do this: 
 
-1. Open the enterprise application in the Azure Portal, and select **Single sign-on**, and then **SAML**.  
-
-2. Edit the **Basic SAML configuration**. 
-
-3. In the **Reply URL** section, select one of the reply URLs to be the default, and save the configuration change.
+1. Open the enterprise application in the Azure Portal, and select **Single sign-on**, and then **SAML**
+2. Edit the **Basic SAML configuration**
+3. In the **Reply URL** section, select one of the reply URLs to be the default, and save the configuration change
