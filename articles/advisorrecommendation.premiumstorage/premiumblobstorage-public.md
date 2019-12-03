@@ -29,7 +29,7 @@
     "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor"
+      "service": "Azure Advisor",
       "team": "Azure Advisor"
     },
     "serviceTreeId": "e58a942f-58e5-49c3-9798-cbd6819f5cc0"
