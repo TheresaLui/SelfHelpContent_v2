@@ -41,6 +41,8 @@ To troubleshoot this error, perform the following steps:
     
 4. Contact your network administrator for additional assistance troubleshooting network connectivity.
 
+Refer to [Azure Latency Test](http://www.azurespeed.com) to test your network latency and speed to the datacenter hosting your storage account.
 
 ## **Recommended Documents**
-Refer to [Azure Latency Test](http://www.azurespeed.com) to test your network latency and speed to the datacenter hosting your storage account.
+
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
