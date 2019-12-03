@@ -66,3 +66,7 @@ To resolve this issue, perform the following steps::
     
 4. Contact your network administrator for additional assistance troubleshooting network connectivity.
 
+## **Recommended Documents**
+
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+
