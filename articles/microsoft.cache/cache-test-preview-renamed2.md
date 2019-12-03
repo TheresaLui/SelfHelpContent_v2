@@ -14,7 +14,7 @@
 	articleId="678d4224-8f17-4de6-8b77-4b24ba9bc1f7-111"
 />
 
-# My app is getting connectivity errors change
+# My app is getting connectivity errors change1
 
 ## **Recommended steps**
 To resolve the most common issues, try one or more of the following methods.
