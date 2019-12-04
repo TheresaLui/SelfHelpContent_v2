@@ -15,6 +15,7 @@
 />
 
 # When the SAP HANA backup has performance issues follow these troubleshooting steps 
+Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
 ## **Recommended Steps**
 - [Verify the prerequisites](https://go.microsoft.com/fwlink/?linkid=2109326)
 
