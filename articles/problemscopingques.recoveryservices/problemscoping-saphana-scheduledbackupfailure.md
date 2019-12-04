@@ -125,6 +125,7 @@
 			"order": 8,
 			"controlType": "textbox",
 			"displayLabel": "Provide the error code that are you seeing:",
+            "infoBalloonText": "Please provide the error code that you are seeing in <a href='https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts'>Backup alerts</a>.",			
 			"watermarkText": "Example: UserErrorHanaUnsupportedOperation",
 			"required": false
 		},
