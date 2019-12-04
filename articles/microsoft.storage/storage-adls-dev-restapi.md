@@ -24,7 +24,7 @@ Most customers resolve their REST API related issues with Azure Data Lake Gen2 S
 
 ### **Getting Started with REST APIs for Azure Data Lake Gen2 Storage** 
 
-* The Azure Data Lake Gen2 Storage APIs allows interaction with Azure Blob storage through file system interface [Azure Data Lake Storage Gen2 REST API Reference](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2/)<br>
+* [Azure Data Lake Storage Gen2 REST API Reference](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2/)<br>
 
 ### **Known Limitations with REST APIs for Azure Data Lake Gen2 Storage** 
 

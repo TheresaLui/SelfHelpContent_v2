@@ -22,7 +22,5 @@
 
 Most customers resolve their Powershell related issues with Azure Data Lake Gen2 Storage on their own, using the links below.
 
-* [Create a Data Lake Gen2 account using PowerShell](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#create-an-account-using-powershell/)<br>
-* [Data Lake Gen2 Programming Interface is only partially supported](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-upgrade?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#programming-interfaces)<br>
-* [Generate client libraries for accessing RESTful web services using Azure AutoRest](https://github.com/Azure/AutoRest)<br>
-* [Azure Data Lake Storage REST API Swagger specification to generate client library](https://raw.githubusercontent.com/Azure/azure-rest-api-specs/master/specification/storage/data-plane/Microsoft.StorageDataLake/stable/2018-11-09/DataLakeStorage.json)<br>
+* [Azure Data Lake Gen2 Storage Powershell Cmdlets](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-powershell)<br>
+* [Azure Storage PowerShell Cmdlets](https://docs.microsoft.com/powershell/module/azurerm.storage/?view=azurermps-6.11.0#storage)<br>
