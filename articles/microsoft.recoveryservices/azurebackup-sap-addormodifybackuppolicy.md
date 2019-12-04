@@ -14,7 +14,8 @@
 	articleId="6382c71f-90e8-4fd7-810c-03c35b01bdb9"
 />
 
-# When the SAP HANA backup policy configuration has issue follow these troubleshooting steps   
+# When the SAP HANA backup policy configuration has issue follow these troubleshooting steps 
+Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
 ## **Recommended Steps** 
 - [Verify the prerequisites](https://go.microsoft.com/fwlink/?linkid=2109326)
 - [Backup an SAP HANA database to Azure](https://go.microsoft.com/fwlink/?linkid=2109291)
