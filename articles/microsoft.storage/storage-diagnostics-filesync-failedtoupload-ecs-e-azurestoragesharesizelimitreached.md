@@ -35,11 +35,8 @@ Azure File Sync failed to upload file(s) for one or more server endpoints under 
 If the share is full and a quota is not set, one possible way of fixing this issue is to make each subfolder of the current server endpoint into its own server endpoint in their own separate sync groups. This way each subfolder will sync to individual Azure file shares.
 
 ## **Recommended Documents**
-[current limits for an Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)
-
-[maximum size of the Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)
-
-[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
-
+- [current limits for an Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)
+- [maximum size of the Azure file share](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)
+- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
 
 
