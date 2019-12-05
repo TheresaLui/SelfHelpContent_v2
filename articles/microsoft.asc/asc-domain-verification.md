@@ -1,0 +1,30 @@
+<properties
+	pageTitle="ASC/Domain Verification taking too long or not completing"
+	description="ASC/Domain Verification taking too long or not completing"
+	service="microsoft.asc"
+	resource="asc"
+	authors="shrahman"
+	displayOrder="6"
+	selfHelpType="generic"
+	supportTopicIds="32690925"
+	resourceTags=""
+	productPesIds="16512"
+	cloudEnvironments="public"
+	articleId="fdccae2e-f103-4a82-be97-33f6cc3a7658"
+/>
+
+# ASC/Domain Verification taking too long or not completing
+
+## **Recommended steps**
+
+ In order to acquire an ASC, you need to verify that you own the domain included in the request. <br>
+ * Click on this button to open the Domain Verification window. 
+ * At the top, you would see a Domain Verification Token which is a randomly generated identifier that helps in the verification process. 
+ 
+ There three ways to validates domain ownership:
+
+1. HTML file: Host an HTML file at the root of the webserver hosting the domain
+2. DNS TXT record: Create a TXT record for the root domain.
+3. Email: Click on the verification link included in the mail sent to the Email addresses associated with the domain. <br>
+
+For more details about each option, please see the following [blog](https://azure.microsoft.com/blog/internals-of-app-service-certificate/).

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="ASD/Assigning-Renewing-Removing Domain"
-	description="ASD/Assigning-Renewing-Removing Domain"
+	pageTitle="ASD/Assigning Domain"
+	description="ASD/Assigning Domain"
 	service="microsoft.asd"
 	resource="asd"
 	authors="cts-shrahman, cristhianu"
@@ -14,7 +14,7 @@
 	articleId="40c6640a-37bc-4f38-b765-7f43b3d3ac24"
 />
 
-# ASD/Assigning-Renewing-Removing Domain
+# ASD/Assigning Domain
 
 ## **Recommended documents**
 
@@ -24,8 +24,3 @@
 * [Troubleshooting Azure DNS resolution error](https://docs.microsoft.com/azure/dns/dns-troubleshoot#i-cant-resolve-my-dns-record)
 * [Troubleshooting GoDaddy DNS resolution error](https://www.godaddy.com/help/fixing-dns-issues-for-new-hosting-accounts-8415)
 
-* [Renew Domain](https://docs.microsoft.com/azure/app-service/manage-custom-dns-buy-domain#renew-the-domain)
-
-	Note: The Renew domain button is only active until 90 days before the domain’s expiration.
-
-	If you renewed your domain less than 24 hours ago, please note that it can take up to 24 hours to receive an email notification. 
