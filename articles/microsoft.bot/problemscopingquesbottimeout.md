@@ -124,7 +124,7 @@
                 },
                 {
                     "value": "channel_other",
-                    "text": "Other error not listed"
+                    "text": "Other channel(s)"
                 },
                 {
                     "value": "dont_know_answer",
