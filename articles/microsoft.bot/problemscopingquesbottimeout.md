@@ -50,13 +50,9 @@
                 {
                     "value": "Timeout_nomessage",
                     "text": "No, the bot doesn't respond"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "channel_dropdown",
