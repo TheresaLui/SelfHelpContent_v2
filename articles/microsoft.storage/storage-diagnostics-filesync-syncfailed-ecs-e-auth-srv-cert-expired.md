@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Sync failed error - ECS_E_AUTH_SRV_CERT_EXPIRED "
-	description="Sync failed error - ECS_E_AUTH_SRV_CERT_EXPIRED"
-    infoBubbleText="See details on the right"
-	service="microsoft.storage"
-	resource="storage"
-	authors="passaree"
-	ms.author="passap"
-	displayOrder=""
-    articleId="FileSync_FailedError_ECS_E_AUTH_SRV_CERT_EXPIRED"
-    diagnosticScenario="Sync failed error - ECS_E_AUTH_SRV_CERT_EXPIRED"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
-    resourceTags=""
-    productPesIds=""
-    cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+pageTitle="Sync failed error - ECS_E_AUTH_SRV_CERT_EXPIRED "
+description="Sync failed error - ECS_E_AUTH_SRV_CERT_EXPIRED"
+infoBubbleText="See details on the right"
+service="microsoft.storage"
+resource="storage"
+authors="passaree"
+ms.author="passap"
+displayOrder=""
+articleId="FileSync_FailedError_ECS_E_AUTH_SRV_CERT_EXPIRED"
+diagnosticScenario="Sync failed error - ECS_E_AUTH_SRV_CERT_EXPIRED"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags=""
+productPesIds=""
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Azure File Sync failed error - ECS_E_AUTH_SRV_CERT_EXPIRED
@@ -36,5 +36,4 @@ If the client authentication certificate is expired, perform the following steps
     ```
     
 ## **Recommended Documents**
-
-[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
