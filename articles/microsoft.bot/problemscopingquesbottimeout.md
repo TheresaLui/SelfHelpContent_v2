@@ -60,7 +60,7 @@
         },
         {
             "id": "channel_dropdown",
-            "order": 3,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "Which channel(s) are you seeing the issue?",
             "watermarkText": "Choose an option",
