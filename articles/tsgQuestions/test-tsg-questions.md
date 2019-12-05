@@ -1,6 +1,6 @@
 <properties
          pageTitle="TSG questions for ASC"
-         description="Troubleshooter questions with radio button"
+         description="Troubleshooter questions with  radio button"
          authors="akankshajsh"
          ms.author="akjoshi"
          selfHelpType="TSG_Questions"
