@@ -195,13 +195,7 @@
                 {
                     "value": "sdk_v4",
                     "text": "Version 4"
-                },
-				{
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
                 }
-			],
-			"required": true
         },
 		{
             "id": "language_dropdown",
