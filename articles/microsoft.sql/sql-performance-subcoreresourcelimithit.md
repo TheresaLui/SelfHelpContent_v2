@@ -28,5 +28,5 @@ Recommend upgrading the database to a higher service tier **<!--$TargetSlo-->Tar
 
 ## **Recommended Documents**
 
-* [Resource Limits for Sub-core Tiers](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-* [Resource Limits for vCore Purchasing Model](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vcore-resource-limits-single-databases)
+* [Resource Limits for Sub-core Tiers](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
+* [Resource Limits for vCore Purchasing Model](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases)
