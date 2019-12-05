@@ -21,7 +21,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup-->  had degraded performance between <!--$startTime-->startTime<!--/$startTime--> and <!--$endTime-->endTime<!--/$endTime--> due to defect in plan cache.
+Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> had degraded performance between <!--$startTime-->startTime<!--/$startTime--> and <!--$endTime-->endTime<!--/$endTime--> due to defect in plan cache.
 
 SQL Managed Instance team recently detected a defect in plan caching logic for internal, system queries which causes plans for internal queries to pile up and deteriorate caching performance over time for Bound Trees, Object Plans and SQL Plans cache stores. According to the spinlock stats and high query compile CPU time that we noticed on your instance, there is a big chance that this plan cache defect is a root cause of the performance degradation you are facing.
 
@@ -29,7 +29,7 @@ Engineers are working on a fix for this issue and it will be deployed with the n
 
 <!--/issueDescription-->
 
-## Recommended Steps
+## **Recommended Steps**
 
 To mitigate the issue with minimal impact to your workload, we propose creating a periodic task that would clean up internal plans from abovementioned caches.
 
