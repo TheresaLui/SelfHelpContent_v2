@@ -16,20 +16,29 @@
 
 # Azure Stack Deployment Failure
 
+Before deployment starts, there are some [minimum requirements](https://docs.microsoft.com/azure-stack/operator/deployment-networking#deployment-requirements) that can be validated by your OEM to ensure deployment completes successfully, including
+* Certificates
+* Azure subscription
+* Required Internet access and endpoints
+* DNS
+* NTP
+
 ## **Recommended Steps**
 
-Azure Stack Operator - determine the health and status of your system using the validation tool [Test-AzureStack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test).  See bullet point 4 below.  The validation tool lets you run a series of  system-level tests and basic cloud scenarios that provide you an insight to the current state, cloud infrastructure [tests available](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test#tests-available). 
-
-1. If you experience a failure during installation, you can restart the deployment from the failed step by using the -Rerun option of the deployment script
-2. Check for issues in the [Known issues: Deployment](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting#deployment) article
-3. Check Azure Stack [Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence) to check any late breaking changes or known issues that may be causing your installation failure
-4. For a partially-completed deployment, validate the status of your Azure Stack by [running **Test-AzureStack**](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) from the privileged endpoint
+1. Use the Azure Stack Readiness Checker tool ([AzsReadinessChecker](https://aka.ms/AzsReadinessChecker)) to validate that your Azure subscription is ready to use with Azure Stack before you begin an Azure Stack deployment
+2. Ensure that the customer network permits all inbound and outbound [ports and protocols used by Azure Stack endpoints](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints)
+    * Azure Stack supports only transparent proxy servers, and [SSL traffic interception is not supported](https://docs.microsoft.com/azure-stack/operator/azure-stack-firewall#ssl-interception
+) and can lead to service failures when accessing endpoints
+3. Check Azure Stack [Release Notes](https://docs.microsoft.com/azure-stack/operator/release-notes) for any late breaking changes or known issues that may be causing your installation failure
+4. For a partially-completed deployment, validate the status of your Azure Stack by running the [Test-AzureStack validation tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) from the privileged endpoint
 5. Check Azure Stack logs using the [Azure Stack log collection tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#log-collection-tool)
+6. After deployment completes, follow steps for [Post-deployment datacenter integration](https://docs.microsoft.com/azure-stack/operator/azure-stack-customer-journey#post-deployment)
 
 ## **Recommended Documents**
 
 * [Azure connected Azure Stack deployment decisions](https://docs.microsoft.com/azure/azure-stack/azure-stack-connected-deployment)<br>
 * [Azure disconnected Azure Stack deployment decisions](https://docs.microsoft.com/azure/azure-stack/azure-stack-disconnected-deployment)<br>
+* [Network integration planning for Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-network)<br>
 * [About deployment network traffic](https://docs.microsoft.com/azure/azure-stack/deployment-networking)<br>
 * [Microsoft Azure Stack troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting)<br>
 * [Azure Stack servicing policy](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
