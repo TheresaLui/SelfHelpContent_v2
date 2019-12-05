@@ -101,6 +101,84 @@
                 }
             ],
             "required": true
+        },{
+            "id": "channel_dropdown",
+            "order": 4,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Which channel(s) are you seeing the issue?",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Select the channel(s) that you see the issue with. You can select multiple channels or select all channels if the issue is occuring regardless of the channel",
+            "dropdownOptions": [
+                {
+                    "value": "channel_all",
+                    "text": "All channels"
+                },
+                {
+                    "value": "channel_1",
+                    "text": "Direct Line"
+                },
+                {
+                    "value": "channel_2",
+                    "text": "Web Chat"
+                },
+                {
+                    "value": "channel_3",
+                    "text": "Teams"
+                },
+				{
+                    "value": "channel_4",
+                    "text": "Cortana"
+                },
+				{
+                    "value": "channel_5",
+                    "text": "Email"
+                },
+				{
+                    "value": "channel_6",
+                    "text": "Facebook"
+                },
+				{
+                    "value": "channel_7",
+                    "text": "Kik"
+                },
+				{
+                    "value": "channel_8",
+                    "text": "Skype"
+                },
+				{
+                    "value": "channel_9",
+                    "text": "Skype for Business"
+                },
+				{
+                    "value": "channel_9",
+                    "text": "LINE"
+                },
+				{
+                    "value": "channel_10",
+                    "text": "Slack"
+                },
+				{
+                    "value": "channel_11",
+                    "text": "Telegram"
+                },
+				{
+                    "value": "channel_12",
+                    "text": "Twilio"
+                },
+				{
+                    "value": "channel_13",
+                    "text": "WeChat"
+                },
+                {
+                    "value": "channel_other",
+                    "text": "Other channel(s)"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
+                }
+            ],
+            "required": true
         },
 	{
             "id": "sdk_dropdown",
