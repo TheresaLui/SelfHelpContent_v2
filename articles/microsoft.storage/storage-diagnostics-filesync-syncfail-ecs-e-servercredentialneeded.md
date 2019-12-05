@@ -25,7 +25,5 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 Verify the server time is correct. If the server is running in a virtual machine, verify the time on the virtual host is correct.
 
 ## **Recommended Documents**
-
-[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
-
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
 
