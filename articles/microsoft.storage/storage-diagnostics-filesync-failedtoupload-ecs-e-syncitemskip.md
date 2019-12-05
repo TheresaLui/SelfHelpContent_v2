@@ -26,6 +26,7 @@ Azure File Sync failed to upload file(s) for one or more server endpoints under 
 ## **Recommended steps**
 No action is required. The file will be synced during the next sync session.
 
-
+## **Recommended Documents**
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
 
 
