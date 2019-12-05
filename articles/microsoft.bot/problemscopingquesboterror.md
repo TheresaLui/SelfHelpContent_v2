@@ -101,7 +101,8 @@
                 }
             ],
             "required": true
-        },{
+        },
+	{
             "id": "channel_dropdown",
             "order": 4,
             "controlType": "multiselectdropdown",
@@ -196,6 +197,8 @@
                     "value": "sdk_v4",
                     "text": "Version 4"
                 }
+		],
+		"required": false
         },
 		{
             "id": "language_dropdown",
