@@ -16,12 +16,15 @@
 
 # Azure Stack Deployment Failure
 
-Before deployment starts, there are some [minimum requirements](https://docs.microsoft.com/azure-stack/operator/deployment-networking#deployment-requirements) that can be validated by your OEM to ensure deployment completes successfully, including
+Before deployment starts, there are some [minimum requirements](https://docs.microsoft.com/azure-stack/operator/deployment-networking#deployment-requirements) that can be validated by your OEM to ensure deployment completes successfully, including-
+
 * Certificates
 * Azure subscription
 * Required Internet access and endpoints
 * DNS
 * NTP
+
+**Please note:** If your deployment issue is related to an add-on resource provider like AppServices, SQL or MySQL, please go back and choose the corresponding topic under *Add-on Resource Providers and Marketplace*.
 
 ## **Recommended Steps**
 
