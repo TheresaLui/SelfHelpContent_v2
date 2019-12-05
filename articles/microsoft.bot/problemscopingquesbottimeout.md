@@ -60,7 +60,7 @@
             "controlType": "multiselectdropdown",
             "displayLabel": "Which channel(s) are you seeing the issue?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "For errors encountered during creating or deploying a bot or during configuration, or when the bot works on some channels and fails on others,  please go back and select the appropriate categories",
+            "infoBalloonText": "Select the channel(s) that you see the issue with. You can select multiple channels or select all channels if the issue is occuring regardless of the channel",
             "dropdownOptions": [
                 {
                     "value": "channel_all",
