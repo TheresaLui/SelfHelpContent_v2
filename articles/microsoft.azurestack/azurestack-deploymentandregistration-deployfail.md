@@ -28,7 +28,7 @@ Before deployment starts, there are some [minimum requirements](https://docs.mic
 
 ## **Recommended Steps**
 
-1. Use the Azure Stack Readiness Checker tool ([AzsReadinessChecker](https://aka.ms/AzsReadinessChecker)) to validate that your Azure subscription is ready to use with Azure Stack before you begin an Azure Stack deployment
+1. Use the Azure Stack Readiness Checker tool ([AzsReadinessChecker](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-registration)) to validate that your Azure subscription is ready to use with Azure Stack before you begin an Azure Stack deployment
 2. Ensure that the customer network permits all inbound and outbound [ports and protocols used by Azure Stack endpoints](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints)
     * Azure Stack supports only transparent proxy servers, and [SSL traffic interception is not supported](https://docs.microsoft.com/azure-stack/operator/azure-stack-firewall#ssl-interception
 ) and can lead to service failures when accessing endpoints
