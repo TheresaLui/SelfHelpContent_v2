@@ -146,10 +146,6 @@
                     "text": "Python"
                 },
 				{
-                    "value": "language_Java",
-                    "text": "Java"
-                },
-				{
                     "value": "dont_know_answer",
                     "text": "I don't know"
                 }
