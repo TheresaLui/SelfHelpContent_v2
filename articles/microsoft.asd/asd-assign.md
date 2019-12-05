@@ -16,11 +16,10 @@
 
 # ASD/Assigning Domain
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Assign host names to an Azure App Service Web App](https://docs.microsoft.com/azure/app-service/manage-custom-dns-buy-domain#assign-hostnames-to-app)
 * [Manage Custom DNS records](https://docs.microsoft.com/azure/app-service/custom-dns-web-site-buydomains-web-app#manage-custom-dns-records)
-* [Check you DNS propagation](https://dnschecker.org/)
+* [Check your DNS propagation](https://dnschecker.org/)
 * [Troubleshooting Azure DNS resolution error](https://docs.microsoft.com/azure/dns/dns-troubleshoot#i-cant-resolve-my-dns-record)
 * [Troubleshooting GoDaddy DNS resolution error](https://www.godaddy.com/help/fixing-dns-issues-for-new-hosting-accounts-8415)
-
