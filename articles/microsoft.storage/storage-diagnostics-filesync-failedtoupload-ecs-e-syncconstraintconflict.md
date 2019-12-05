@@ -28,4 +28,8 @@ Azure File Sync failed to upload file(s) for one or more server endpoints under 
 No action is required.This item will sync after the dependent changes are synced.
 
 
+## **Recommended Documents**
+[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+
+
 
