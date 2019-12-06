@@ -240,6 +240,22 @@
 			],
 			"required": false
         },
+	{
+            "id": "repo_dropdown",
+            "order": 10,
+            "controlType": "dropdown",
+            "displayLabel": "Can the issue be reproduced locally",
+            "watermarkText": "Choose an option",
+	    "dropdownOptions": [
+                {
+                    "value": "repo_yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "repo_no",
+                    "text": "No"
+                }
+        },
         {
             "id": "problem_description",
             "order": 1000,
