@@ -19,14 +19,14 @@
 # We ran diagnostics on your resource and found resource limits hit.
 
 <!--issueDescription-->
-Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** is currently using the sub-core service tier **<!--$Slo-->Slo<!--/$Slo-->** and hitting the resource limit in **<!--$Resources-->Resources<!--/$Resources-->**.
+Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** is currently using a service tier that provide less than one vCore (CPU), **<!--$Slo-->Slo<!--/$Slo-->**, and the database is hitting resource limits in **<!--$Resources-->Resources<!--/$Resources-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Recommend upgrading the database to a higher service tier **<!--$TargetSlo-->TargetSlo<!--/$TargetSlo-->**, or tuning the queries/reducing the workload demands.
+We recommend upgrading the database to a higher service tier **<!--$TargetSlo-->TargetSlo<!--/$TargetSlo-->**, or alternatively, tuning the queries or reducing the overall workload demands.
 
 ## **Recommended Documents**
 
-* [Resource Limits for Sub-core Tiers](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-* [Resource Limits for vCore Purchasing Model](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases)
+* [Resource limits for single databases using the DTU purchasing model](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
+* [Resource limits for vCore purchasing model](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases)
