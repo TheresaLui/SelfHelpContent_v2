@@ -98,7 +98,7 @@
       "id": "aad_login_aid",
       "order": 2500,
       "controlType": "textbox",
-      "displayLabel": "Please enter your Application Id (AppId)",
+      "displayLabel": "Please enter your Application Id (AppID)",
       "infoBalloonText": "Please enter your Application Id if you know it.",
       "required": false,
       "visibility": "aad_issue_type == AADLogin",
@@ -107,6 +107,116 @@
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
     },
+		{
+			"id": "aad_login_oid",
+			"order": 2510,
+			"controlType": "textbox",
+			"displayLabel": "Please enter your Object Id (OID)",
+			"infoBalloonText": "Please enter your Object Id if you know it.",
+			"required": false,
+			"visibility": "aad_issue_type == AADLogin",
+			"content": null,
+			"maxLength": 0,
+			"useAsAdditionalDetails": false,
+			"numberOfLines": 0
+		},
+		{
+			"id": "aad_login_sid",
+			"order": 2520,
+			"controlType": "textbox",
+			"displayLabel": "Please enter your Security Id (SID)",
+			"infoBalloonText": "Please enter your Security Id if you know it.",
+			"required": false,
+			"visibility": "aad_issue_type == AADLogin",
+			"content": null,
+			"maxLength": 0,
+			"useAsAdditionalDetails": false,
+			"numberOfLines": 0
+		},
+		{
+      "id": "add_login_tool",
+      "order": 2600,
+      "controlType": "dropdown",
+      "displayLabel": "Which tool are you using to connect to the Azure SQL DB?",
+      "required": false,
+      "dropdownOptions": [
+        {
+          "text": "SSMS",
+          "value": "ConnectingToolSSMS"
+        },
+        {
+          "text": "Query Editor",
+          "value": "ConnectingToolQueryEditor"
+        },
+        {
+          "text": "SSDT",
+          "value": "ConnectingToolSSDT"
+        },
+        {
+          "text": ".NET",
+          "value": "ConnectingToolDotNet"
+        },
+        {
+          "text": "Other",
+          "value": "dont_know_answer"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "visibility": "aad_issue_type == AADLogin"
+    },
+		{
+			"id": "aad_login_tool_other",
+			"order": 2610,
+			"controlType": "textbox",
+			"displayLabel": "Please enter the tool that you are using to connect to the Azure SQL DB.",
+			"infoBalloonText": "If you are using any other tool apart from the ones listed above, please type in the tool name.",
+			"required": true,
+			"visibility": "add_login_tool == dont_know_answer",
+			"content": null,
+			"maxLength": 0,
+			"useAsAdditionalDetails": false,
+			"numberOfLines": 0
+		},
+		{
+      "id": "aad_login_driver",
+      "order": 2700,
+      "controlType": "dropdown",
+      "displayLabel": "What driver are you using to connect to the Azure SQL DB?",
+      "required": false,
+      "dropdownOptions": [
+        {
+          "text": "JDBC",
+          "value": "ConnectingDriverJDBC"
+        },
+        {
+          "text": "ODBC",
+          "value": "ConnectingDriverODBC"
+        },
+        {
+          "text": "Python",
+          "value": "ConnectingDriverPython"
+        },
+        {
+          "text": "Other",
+          "value": "dont_know_answer"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "visibility": "aad_issue_type == AADLogin"
+    },
+		{
+			"id": "aad_login_driver_other",
+			"order": 2710,
+			"controlType": "textbox",
+			"displayLabel": "Please enter the driver that you are using to connect to the Azure SQL DB.",
+			"infoBalloonText": "If you are using any other driver apart from the ones listed above, please type in the driver name and version.",
+			"required": true,
+			"visibility": "aad_login_driver == dont_know_answer",
+			"content": null,
+			"maxLength": 0,
+			"useAsAdditionalDetails": false,
+			"numberOfLines": 0
+		},
     {
       "id": "aad_user_type_login",
       "order": 3000,
