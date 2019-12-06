@@ -241,7 +241,7 @@
                     "text": "I don't know"
                 }
 			],
-			"required": true
+			"required": false
         },
 		{
             "id": "howcreated_dropdown",
