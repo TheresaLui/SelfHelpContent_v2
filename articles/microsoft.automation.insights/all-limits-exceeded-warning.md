@@ -15,7 +15,7 @@ resourceTags="windows"
 productPesIds="15607"
 cloudEnvironments="public"
 />
-Warning Runbooks failed because they exceeded either memory, socket, or time limits
+# Warning Runbooks failed because they exceeded either memory, socket, or time limits
 
 <!--issueDescription-->
 We have investigated and identified that runbooks have failed because they exceeded either the maximum memory, sockets, or time limits allowed in the Azure Automation execution environment during the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation.
@@ -29,7 +29,7 @@ These <!--$MemoryCount-->[number of runbooks]<!--/$MemoryCount--> runbooks excee
 
 <!--$SocketFailures-->[table of socket failure runbooks]<!--/$SocketFailures-->
 
-</br>These <!--$TimeLimitCount-->[number of runbooks]<!--/$TimeLimitCount--> runbooks exceeded the <!--$TimeLimit-->[TimeLimit]<!--/$TimeLimit--> min time limit.
+</br>These <!--$TimeLimitCount-->[number of runbooks]<!--/$TimeLimitCount--> runbooks exceeded the <!--$TimeLimit-->[TimeLimit]<!--/$TimeLimit--> minute time limit.
 
 <!--$TimeLimitFailures-->[table of time limit failure runbooks]<!--/$TimeLimitFailures-->
 
