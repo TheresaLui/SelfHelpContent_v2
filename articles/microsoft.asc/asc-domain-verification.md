@@ -3,14 +3,15 @@
 	description="ASC/Domain Verification taking too long or not completing"
 	service="microsoft.asc"
 	resource="asc"
-	authors="shrahman"
+	authors="cts-shrahman, cristhianu"
+    ms.author="shrahman,curibe"
 	displayOrder="6"
 	selfHelpType="generic"
 	supportTopicIds="32690925"
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
-	articleId="fdccae2e-f103-4a82-be97-33f6cc3a7658"
+	articleId="eeb97967-9e08-47fc-8fd2-a9052fa10290"
 />
 
 # ASC/Domain Verification taking too long or not completing
