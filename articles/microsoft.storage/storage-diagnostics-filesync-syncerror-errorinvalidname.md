@@ -27,6 +27,5 @@ To resolve this issue, see the [Unsupported Characters](https://docs.microsoft.c
 
 
 ## **Recommended Documents**
-
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
 - [Unsupported Characters](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#handling-unsupported-characters)
