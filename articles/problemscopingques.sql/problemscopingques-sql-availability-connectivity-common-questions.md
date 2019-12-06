@@ -95,6 +95,20 @@
 			"numberOfLines": 0
 		},
 		{
+			"id": "aad_login_aid",
+			"order": 2500,
+			"controlType": "textbox",
+			"displayLabel": "Please enter your Application Id (AppId)",
+			"infoBalloonText": "Please enter your Application Id if you know it.",
+			"required": false,
+			"visibility": "aad_issue_type == AADLogin",
+			"diagnosticInputRequiredClients": "",
+			"content": null,
+			"maxLength": 0,
+			"useAsAdditionalDetails": false,
+			"numberOfLines": 0
+		},
+		{
 			"id": "aad_user_type_login",
 			"order": 3000,
 			"controlType": "dropdown",
