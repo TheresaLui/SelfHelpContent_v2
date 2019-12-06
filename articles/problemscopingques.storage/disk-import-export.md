@@ -28,28 +28,16 @@
         {
             "id": "job_name",
             "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Please select the job name",
-            "required": true,
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-           	 "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.ImportExport/jobs?api-version=2016-11-01",
-            	"jTokenPath": "value",
-            	"textProperty": "name",
-            	"valueProperty": "id",
-            	"textPropertyRegex": "[^/]+$",
-            	"defaultDropdownOptions": {
-                	"value": "dont_know_answer",
-                	"text": "Other, don't know or not applicable"
-            	}
-        }
+            "controlType": "textbox",
+            "displayLabel": "Please enter the job name",
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue and and any other relevant information",
+            "watermarkText": "Please provide the details regarding the issue and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }

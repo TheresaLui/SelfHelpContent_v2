@@ -6,7 +6,7 @@
 	authors="olignat"
 	ms.author="olignat"
 	selfHelpType="resource"
-	supportTopicIds="32675638"
+	supportTopicIds="32675638,32684531"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"

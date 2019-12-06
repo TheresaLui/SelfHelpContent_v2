@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) and open a CMD instance to query the current status.<br>
+Use [Serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) and open a CMD instance to query the current status.<br>
 
 1. Query the firewall rules using any of the following methods:
 

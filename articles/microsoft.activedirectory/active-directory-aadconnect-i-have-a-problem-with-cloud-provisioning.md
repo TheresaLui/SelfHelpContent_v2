@@ -19,10 +19,10 @@
 
 Some common areas to troubleshoot include the agent installation and the log files.
 
-* Agent installation - Verify that the agent has been installed correctly and is communicating with Azure AD. Please follow this link to [troubleshoot the agent installation](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-cloud-prov-tshoot#agent-installation)
-* Log files - Please follow these steps to[ gather log files to help troubleshoot cloud provisioning](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-cloud-prov-tshoot#log-files)
+* Verify that the agent has been installed correctly and is communicating with Azure AD. Please follow this link to [troubleshoot the agent installation](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-troubleshoot#agent-installation).
+* Please follow these steps to [gather log files to help troubleshoot cloud provisioning](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-troubleshoot#log-files)
 
 ## **Recommended Documents**
 
-[Troubleshoot cloud provisioning](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-cloud-prov-tshoot)
+* [Troubleshoot cloud provisioning](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-troubleshoot)
 

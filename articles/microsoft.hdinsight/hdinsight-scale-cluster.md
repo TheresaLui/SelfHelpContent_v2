@@ -24,6 +24,7 @@ Azure has a quota limit of 800 deployments per resource group. Scale deployments
 1. From the portal, sign into the portal and navigate to your resource group
 1. Select **Deployments** from the resource group. If this count shows that it has reached the limit, delete old deployments to fix the issue. You can safely delete all deployments that are "X" days old. "X" can be 30 or so based on how frequent deployments happen in this resource group.
 
+
 **Operations Management Suite (OMS) is enabled and blocking the ability to scale**
 
 Customers have experienced issues with scale-up operations failing during an OMS script installation. This is a known issue. If you have OMS enabled, please disable OMS temporarily, scale-up the cluster, then re-enable OMS.
@@ -53,5 +54,5 @@ To temporarily disable Operations Management Suite (OMS) follow steps below:
 ## **Recommended Documents**
 
 * [Scale HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-scaling-best-practices)
-* [Automatically scale Azure HDInsight clusters (preview)](https://docs.microsoft.com/azure/hdinsight/hdinsight-autoscale-clusters?toc=%2F%2Fazure%2Fhdinsight%2Fhadoop%2FTOC.json&bc=%2F%2Fazure%2Fbread%2Ftoc.json)
+* [Custom Script Actions Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting)
 * [FAQ:Creating or deleting HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#creating-or-deleting-hdinsight-clusters)

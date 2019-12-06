@@ -24,7 +24,7 @@ We have investigated and detected that the self-signed certificate associated wi
 
 ## **Recommended Steps**
 
-* To restore connectivity to the VM via RDP, please try the below steps via PowerShell using the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole)
+* To restore connectivity to the VM via RDP, please try the below steps via PowerShell using the [serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole)
 * If you’re unfamiliar with the serial console or would like additional information, please refer to our [user guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console)
 
 ##### From the Serial Console:
