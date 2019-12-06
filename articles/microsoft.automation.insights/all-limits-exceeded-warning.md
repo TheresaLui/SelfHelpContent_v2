@@ -29,7 +29,7 @@ These <!--$MemoryCount-->[number of runbooks]<!--/$MemoryCount--> runbooks excee
 
 <!--$SocketFailures-->[table of socket failure runbooks]<!--/$SocketFailures-->
 
-</br>These <!--$TimeLimitCount-->[number of runbooks]<!--/$TimeLimitCount--> runbooks exceeded the <!--$TimeLimitLimit-->[TimeLimit]<!--/$TimeLimit--> min time limit.
+</br>These <!--$TimeLimitCount-->[number of runbooks]<!--/$TimeLimitCount--> runbooks exceeded the <!--$TimeLimit-->[TimeLimit]<!--/$TimeLimit--> min time limit.
 
 <!--$TimeLimitFailures-->[table of time limit failure runbooks]<!--/$TimeLimitFailures-->
 
