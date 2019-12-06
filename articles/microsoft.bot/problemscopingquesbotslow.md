@@ -4,7 +4,7 @@
 	authors="meetshamir"
 	ms.author="saziz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32688621"
+	supportTopicIds="32689883"
 	productPesIds="16152"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
