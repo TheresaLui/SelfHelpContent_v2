@@ -16,7 +16,7 @@
 
 # Azure Stack Deployment Failure
 
-Before deployment starts, there are some [minimum requirements](https://docs.microsoft.com/azure-stack/operator/deployment-networking#deployment-requirements) that can be validated by your OEM to ensure deployment completes successfully, including-
+Before deployment starts, there are some [minimum requirements](https://docs.microsoft.com/azure-stack/operator/deployment-networking#deployment-requirements) that can be validated by your OEM to ensure deployment completes successfully, including:
 
 * Certificates
 * Azure subscription
