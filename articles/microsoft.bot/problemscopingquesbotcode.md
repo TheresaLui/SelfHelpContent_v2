@@ -215,8 +215,7 @@
                     "value": "dont_know_answer",
                     "text": "I don't know"
                 }
-			],
-			"required": true
+			]
         },
 		{
             "id": "howcreated_dropdown",
