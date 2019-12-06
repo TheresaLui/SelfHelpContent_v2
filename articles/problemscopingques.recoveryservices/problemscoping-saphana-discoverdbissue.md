@@ -68,7 +68,7 @@
 			"id": "discoverdb_Script",
 			"order": 5,
 			"controlType": "dropdown",
-			"infoBalloonText": "Info: The script can be found here",
+			"infoBalloonText": "Info: The script can be found <a href='https://download.microsoft.com/download/B/2/E/B2E01EF8-C247-42A6-BCC7-E45B78F20C99/msawb-plugin-config-com-sap-hana.sh'>here</a>",
 			"displayLabel": "Have you run the script available on the Discover DB pane?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
