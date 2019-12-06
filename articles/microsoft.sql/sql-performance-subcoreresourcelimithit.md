@@ -19,7 +19,7 @@
 # We ran diagnostics on your resource and found resource limits hit.
 
 <!--issueDescription-->
-Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** is currently using the sub-core service tier **<!--$Slo-->Slo<!--/$Slo-->** and hitting the resource limit in **<!--$Category-->Category<!--/$Category-->**.
+Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** is currently using the sub-core service tier **<!--$Slo-->Slo<!--/$Slo-->** and hitting the resource limit in **<!--$Resources-->Resources<!--/$Resources-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
