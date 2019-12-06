@@ -29,4 +29,4 @@ We recommend upgrading the database to a higher service tier **<!--$TargetSlo-->
 ## **Recommended Documents**
 
 * [Resource limits for single databases using the DTU purchasing model](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-* [Resource Limits for vCore Purchasing Model](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases)
+* [Resource limits for vCore purchasing model](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases)
