@@ -25,11 +25,11 @@ These <!--$MemoryCount-->[number of runbooks]<!--/$MemoryCount--> runbooks excee
 <!--$MemoryFailures-->[table of memory failure runbooks]<!--/$MemoryFailures-->
 
 
-</br>These <!--$SocketCount-->[number of runbooks]<!--/$SocketCount--> runbooks exceeded the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> socket limit.
+<br>These <!--$SocketCount-->[number of runbooks]<!--/$SocketCount--> runbooks exceeded the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> socket limit.
 
 <!--$SocketFailures-->[table of socket failure runbooks]<!--/$SocketFailures-->
 
-</br>These <!--$TimeLimitCount-->[number of runbooks]<!--/$TimeLimitCount--> runbooks exceeded the <!--$TimeLimit-->[TimeLimit]<!--/$TimeLimit--> minute time limit.
+<br>These <!--$TimeLimitCount-->[number of runbooks]<!--/$TimeLimitCount--> runbooks exceeded the <!--$TimeLimit-->[TimeLimit]<!--/$TimeLimit--> minute time limit.
 
 <!--$TimeLimitFailures-->[table of time limit failure runbooks]<!--/$TimeLimitFailures-->
 
