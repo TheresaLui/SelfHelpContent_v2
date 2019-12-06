@@ -67,7 +67,7 @@
         },
         {
             "id": "peak_dropdown",
-            "order": 7,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Does the issue happen only during peak hours?",
             "watermarkText": "Choose an option",
@@ -86,7 +86,7 @@
         },
         {
             "id": "channel_dropdown",
-            "order": 3,
+            "order": 9,
             "controlType": "multiselectdropdown",
             "displayLabel": "Which channel(s) are you seeing the issue?",
             "watermarkText": "Choose an option",
