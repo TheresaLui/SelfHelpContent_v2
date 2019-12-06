@@ -255,6 +255,7 @@
                     "value": "repo_no",
                     "text": "No"
                 }
+		]
         },
         {
             "id": "problem_description",
