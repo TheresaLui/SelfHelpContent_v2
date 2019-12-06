@@ -17,7 +17,7 @@
 
 The metrics API is hosted behind the [Azure Resource Manager APIs](https://docs.microsoft.com/azure/azure-resource-manager). As a result, the metrics API is subject to the throttling limits as dictated by Azure Resource Manager. If you are calling the metric API very frequently, or are querying for metrics for many resources, you may run the risk of being throttled. Unfortunately, these throttling limits cannot be configured or raised on a per customer or subscription basis. The following diagram shows how throttling is applied as a request goes from the user to Azure Resource Manager and the resource provider:
 
-![request throttling](https://docs.microsoft.com/en-us/azure/azure-resource-manager/media/resource-manager-request-limits/request-throttling.svg)
+![request throttling](https://docs.microsoft.com/azure/azure-resource-manager/media/resource-manager-request-limits/request-throttling.svg)
 
 ## **Recommended Steps**
 
