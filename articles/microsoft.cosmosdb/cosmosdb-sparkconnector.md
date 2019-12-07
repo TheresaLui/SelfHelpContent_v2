@@ -5,7 +5,7 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas, arramac"
    	ms.author="bharathb, arramac"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32636828"
 	resourceTags=""
 	productPesIds="15585"
