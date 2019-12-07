@@ -107,33 +107,33 @@
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
     },
-		{
-			"id": "aad_login_oid",
-			"order": 2510,
-			"controlType": "textbox",
-			"displayLabel": "Please enter your Object Id (OID)",
-			"infoBalloonText": "Please enter your Object Id if you know it.",
-			"required": false,
-			"visibility": "aad_issue_type == AADLogin",
-			"content": null,
-			"maxLength": 0,
-			"useAsAdditionalDetails": false,
-			"numberOfLines": 0
-		},
-		{
-			"id": "aad_login_sid",
-			"order": 2520,
-			"controlType": "textbox",
-			"displayLabel": "Please enter your Security Id (SID)",
-			"infoBalloonText": "Please enter your Security Id if you know it.",
-			"required": false,
-			"visibility": "aad_issue_type == AADLogin",
-			"content": null,
-			"maxLength": 0,
-			"useAsAdditionalDetails": false,
-			"numberOfLines": 0
-		},
-		{
+    {
+      "id": "aad_login_oid",
+      "order": 2510,
+      "controlType": "textbox",
+      "displayLabel": "Please enter your Object Id (OID)",
+      "infoBalloonText": "Please enter your Object Id if you know it.",
+      "required": false,
+      "visibility": "aad_issue_type == AADLogin",
+      "content": null,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
+      "id": "aad_login_sid",
+      "order": 2520,
+      "controlType": "textbox",
+      "displayLabel": "Please enter your Security Id (SID)",
+      "infoBalloonText": "Please enter your Security Id if you know it.",
+      "required": false,
+      "visibility": "aad_issue_type == AADLogin",
+      "content": null,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
       "id": "add_login_tool",
       "order": 2600,
       "controlType": "dropdown",
@@ -164,20 +164,20 @@
       "dynamicDropdownOptions": null,
       "visibility": "aad_issue_type == AADLogin"
     },
-		{
-			"id": "aad_login_tool_other",
-			"order": 2610,
-			"controlType": "textbox",
-			"displayLabel": "Please enter the tool that you are using to connect to the Azure SQL DB.",
-			"infoBalloonText": "If you are using any other tool apart from the ones listed above, please type in the tool name.",
-			"required": true,
-			"visibility": "add_login_tool == dont_know_answer",
-			"content": null,
-			"maxLength": 0,
-			"useAsAdditionalDetails": false,
-			"numberOfLines": 0
-		},
-		{
+    {
+      "id": "aad_login_tool_other",
+      "order": 2610,
+      "controlType": "textbox",
+      "displayLabel": "Please enter the tool that you are using to connect to the Azure SQL DB.",
+      "infoBalloonText": "If you are using any other tool apart from the ones listed above, please type in the tool name.",
+      "required": true,
+      "visibility": "add_login_tool == dont_know_answer",
+      "content": null,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
       "id": "aad_login_driver",
       "order": 2700,
       "controlType": "dropdown",
@@ -204,20 +204,20 @@
       "dynamicDropdownOptions": null,
       "visibility": "aad_issue_type == AADLogin"
     },
-		{
-			"id": "aad_login_driver_other",
-			"order": 2710,
-			"controlType": "textbox",
-			"displayLabel": "Please enter the driver that you are using to connect to the Azure SQL DB.",
-			"infoBalloonText": "If you are using any other driver apart from the ones listed above, please type in the driver name and version.",
-			"required": true,
-			"visibility": "aad_login_driver == dont_know_answer",
-			"content": null,
-			"maxLength": 0,
-			"useAsAdditionalDetails": false,
-			"numberOfLines": 0
-		},
-		{
+    {
+      "id": "aad_login_driver_other",
+      "order": 2710,
+      "controlType": "textbox",
+      "displayLabel": "Please enter the driver that you are using to connect to the Azure SQL DB.",
+      "infoBalloonText": "If you are using any other driver apart from the ones listed above, please type in the driver name and version.",
+      "required": true,
+      "visibility": "aad_login_driver == dont_know_answer",
+      "content": null,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
       "id": "aad_login_login_as_admin",
       "order": 2800,
       "controlType": "dropdown",
@@ -236,25 +236,25 @@
       "dynamicDropdownOptions": null,
       "visibility": "aad_issue_type == AADLogin"
     },
-		{
-			"id": "aad_login_check_non_master_database",
-			"order": 2800,
-			"controlType": "dropdown",
-			"displayLabel": "By default the database is "master". Are you logging into the correct database?",
-			"required": false,
-			"dropdownOptions": [
-				{
-					"text": "Yes",
-					"value": "Yes"
-				},
-				{
-					"text": "No",
-					"value": "No"
-				}
-			],
-			"dynamicDropdownOptions": null,
-			"visibility": "aad_issue_type == AADLogin"
-		},
+    {
+      "id": "aad_login_check_non_master_database",
+      "order": 2800,
+      "controlType": "dropdown",
+      "displayLabel": "By default the database is \"master\". Are you logging into the correct database?",
+      "required": false,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "Yes"
+        },
+        {
+          "text": "No",
+          "value": "No"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "visibility": "aad_issue_type == AADLogin"
+    },
     {
       "id": "aad_user_type_login",
       "order": 3000,
@@ -323,69 +323,69 @@
       "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADCreateUser"
     },
-		{
+    {
       "id": "aad_user_type_currently_signed_in",
       "order": 3500,
       "controlType": "dropdown",
       "displayLabel": "What is the user type that you are currently signed in as?",
       "required": false,
-			"dropdownOptions": [
-				{
-					"text": "Service Principal",
-					"value": "AADUserServicePrincipal"
-				},
-				{
-					"text": "Outlook / Office 365 Group",
-					"value": "AADUserOutlookOffice365Group"
-				},
-				{
-					"text": "Guest User",
-					"value": "AADUserGuest"
-				},
-				{
-					"text": "Native User",
-					"value": "AADUserNative"
-				},
-				{
-					"text": "Other",
-					"value": "dont_know_answer"
-				}
-			],
+      "dropdownOptions": [
+        {
+          "text": "Service Principal",
+          "value": "AADUserServicePrincipal"
+        },
+        {
+          "text": "Outlook / Office 365 Group",
+          "value": "AADUserOutlookOffice365Group"
+        },
+        {
+          "text": "Guest User",
+          "value": "AADUserGuest"
+        },
+        {
+          "text": "Native User",
+          "value": "AADUserNative"
+        },
+        {
+          "text": "Other",
+          "value": "dont_know_answer"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "visibility": "aad_issue_type == AADCreateUser"
     },
-		{
-			"id": "aad_login_conditional_errors_optional",
-			"order": 3600,
-			"controlType": "textbox",
-			"displayLabel": "Are the login failures conditional? Ex. Only from certain IPs or only when using username and password, or when using Single Sign On (SSO) or when using Multi Factor Authentication (MFA)",
-			"infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
-			"required": false,
-			"visibility": "aad_issue_type == AADCreateUser",
-			"content": null,
-			"maxLength": 0,
-			"useAsAdditionalDetails": false,
-			"numberOfLines": 0
-		},
-		{
-			"id": "aad_admin_already_set_up",
-			"order": 3700,
-			"controlType": "dropdown",
-			"displayLabel": "Have you already set up an AAD Admin for your SQL Server?",
-			"required": false,
-			"dropdownOptions": [
-				{
-					"text": "Yes",
-					"value": "Yes"
-				},
-				{
-					"text": "No",
-					"value": "No"
-				}
-			],
-			"dynamicDropdownOptions": null,
-			"visibility": "aad_issue_type == AADCreateUser"
-		},
+    {
+      "id": "aad_login_conditional_errors_optional",
+      "order": 3600,
+      "controlType": "textbox",
+      "displayLabel": "Are the login failures conditional? Ex. Only from certain IPs or only when using username and password, or when using Single Sign On (SSO) or when using Multi Factor Authentication (MFA)",
+      "infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
+      "required": false,
+      "visibility": "aad_issue_type == AADCreateUser",
+      "content": null,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
+      "id": "aad_admin_already_set_up",
+      "order": 3700,
+      "controlType": "dropdown",
+      "displayLabel": "Have you already set up an AAD Admin for your SQL Server?",
+      "required": false,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "Yes"
+        },
+        {
+          "text": "No",
+          "value": "No"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "visibility": "aad_issue_type == AADCreateUser"
+    },
     {
       "id": "aad_user_type_setadmin",
       "order": 3200,
