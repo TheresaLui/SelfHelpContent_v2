@@ -16,7 +16,7 @@
 # <-- metrics-export-or-query-rest-api -->
 
 When you are making REST API calls for metrics, you may receive one the following error messages or indications of a problem: 
-* “Authorization Failed” error message
+* "Authorization Failed" error message
 * "This subscription is not registered with the Microsoft.Insights resource provider" error message
 * Metric does not exist (the Bad Request response code is returned)
 * No metrics data is returned
@@ -41,9 +41,9 @@ To query for metrics using REST API it is necessary to register *Microsoft.Insig
 **Metric does not exist** (the Bad Request response code is returned)
 
 When querying for metrics for a resource, it is important to note there are two name properties (“MetricName” and “MetricDisplayName”) for each metric. The REST API query  should be using the “MetricName” (and NOT the MetricDisplayName) property. 
-1. Navigate to the [list of supported metrics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/metrics-supported) and ensure you are querying using the correct metric name. 
+1. Navigate to the [list of supported metrics](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported) and ensure you are querying using the correct metric name. 
 1. Alternatively, query for all metric definitions for a metric first, by using the [metric definitions api](https://docs.microsoft.com/rest/api/monitor/metricdefinitions/list)
-1. If you are querying for a custom metric, ensure you have specified both, the correct metric namespace, and metric name in your query parameters. Review the [metric REST API](https://docs.microsoft.com/en-us/rest/api/monitor/metrics/list) to verify that you are setting these properties correctly. 
+1. If you are querying for a custom metric, ensure you have specified both, the correct metric namespace, and metric name in your query parameters. Review the [metric REST API](https://docs.microsoft.com/rest/api/monitor/metrics/list) to verify that you are setting these properties correctly. 
 
 **No metrics data is returned**
 
