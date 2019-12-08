@@ -26,7 +26,7 @@ When you are making REST API calls for metrics, you may receive one the followin
 
 **Authentication Failed** error message
 
-This error is returned when the user or the application querying for metrics on the resource does not have sufficient permissions to perform the “metrics read” action. In Azure, access to metrics is controlled by [role-based access control (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview). The user or service account querying for metrics must be a member of [monitoring reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-reader), [monitoring contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-contributor), or [contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) to explore metrics for any resource.
+This error is returned when the user or the application querying for metrics on the resource does not have sufficient permissions to perform the "metrics read" action. In Azure, access to metrics is controlled by [role-based access control (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview). The user or service account querying for metrics must be a member of [monitoring reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-reader), [monitoring contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-contributor), or [contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) to explore metrics for any resource.
 
 1. Review how to [grant a user access to Azure resources using RBAC and the Azure portal](https://docs.microsoft.com/azure/role-based-access-control/quickstart-assign-role-user-portal)
 1. Add user or application service principal account to the   [monitoring reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-reader), [monitoring contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-contributor), or [contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) roles. 
@@ -40,7 +40,7 @@ To query for metrics using REST API it is necessary to register *Microsoft.Insig
 
 **Metric does not exist** (the Bad Request response code is returned)
 
-When querying for metrics for a resource, it is important to note there are two name properties (“MetricName” and “MetricDisplayName”) for each metric. The REST API query  should be using the “MetricName” (and NOT the MetricDisplayName) property. 
+When querying for metrics for a resource, it is important to note there are two name properties ("MetricName" and "MetricDisplayName") for each metric. The REST API query  should be using the "MetricName" (and NOT the MetricDisplayName) property. 
 1. Navigate to the [list of supported metrics](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported) and ensure you are querying using the correct metric name. 
 1. Alternatively, query for all metric definitions for a metric first, by using the [metric definitions api](https://docs.microsoft.com/rest/api/monitor/metricdefinitions/list)
 1. If you are querying for a custom metric, ensure you have specified both, the correct metric namespace, and metric name in your query parameters. Review the [metric REST API](https://docs.microsoft.com/rest/api/monitor/metrics/list) to verify that you are setting these properties correctly. 
@@ -60,7 +60,7 @@ When  metrics API call returns no data at all:
 
 **Other issues with the REST API calls that return the Bad Request response code**
 
-The metrics REST API has parameters for specifying the time range, dimension filters, aggregation types, and sort order. An incorrect value in any of these parameters will result in a “Bad Requests” response code. To learn about the expected format of each parameter, review the [Metric Definitions REST API specification](https://docs.microsoft.com/rest/api/monitor/metricdefinitions/list), [Metrics REST API specification](https://docs.microsoft.com/rest/api/monitor/metrics/list) and [Azure Monitoring REST API walkthrough](https://docs.microsoft.com/azure/azure-monitor/platform/rest-api-walkthrough).
+The metrics REST API has parameters for specifying the time range, dimension filters, aggregation types, and sort order. An incorrect value in any of these parameters will result in a "Bad Requests" response code. To learn about the expected format of each parameter, review the [Metric Definitions REST API specification](https://docs.microsoft.com/rest/api/monitor/metricdefinitions/list), [Metrics REST API specification](https://docs.microsoft.com/rest/api/monitor/metrics/list) and [Azure Monitoring REST API walkthrough](https://docs.microsoft.com/azure/azure-monitor/platform/rest-api-walkthrough).
 
 ## **Recommended Documents**
 * [Azure role-based access control (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview)
