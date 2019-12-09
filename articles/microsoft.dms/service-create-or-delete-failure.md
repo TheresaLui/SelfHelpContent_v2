@@ -68,6 +68,18 @@ availability by region: https://azure.microsoft.com/global-infrastructure/servic
 
 * [Add, change, or delete a virtual network subnet](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet)
 
+**Error:**
+* *"here"*<br>
+
+### **Recommended Steps** 
+
+* The
+
+### **Recommended Documents**
+
+* Li
+
+
 ## Delete Service Errors
 
 **Error:** 
