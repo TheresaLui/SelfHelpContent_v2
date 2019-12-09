@@ -941,13 +941,6 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
-            "id": "",
-            "shortDescription": " ",
-            "category": "",
-            "searchTags": "",
-            "useInDiagnoseAndSolve": "FALSE"
-        },
-        {
             "id": "44e1bd26-fbd8-a7f9-f8de-8a2b47ccb27e",
             "shortDescription": "Troubleshoot issues with activating Windows for a virtual machine running in Azure",
             "category": "",
