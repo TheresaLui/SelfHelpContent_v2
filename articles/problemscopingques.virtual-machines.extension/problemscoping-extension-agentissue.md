@@ -1,16 +1,16 @@
 <properties
-                pageTitle="Virtual Machine Extensions not operating correctly"
-                description="Virtual Machines Extensions not operating correctly"
+                pageTitle="VM Guest Agent issue (crash, hung, not upgrading, or not connecting)"
+                description="VM Guest Agent issue (crash, hung, not upgrading, or not connecting)"
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628278,32674480,32674479,32674478,32674481"
+                supportTopicIds="32689203"
                 productPesIds="14749,15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0049"
+                articleId="299e5964-a726-47f3-9722-829ffb6d360f"
 />
-# Agent and extensions
+# VM Guest Agent issue (crash, hung, not upgrading, or not connecting)
 ---
 {
     "subscriptionRequired": true,
