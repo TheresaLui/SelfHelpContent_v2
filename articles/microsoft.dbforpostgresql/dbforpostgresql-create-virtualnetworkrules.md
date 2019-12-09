@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Troubleshooting VNet connectivity issues"
+    pageTitle="Troubleshooting VNet connectivity issues"  
     description="Troubleshooting VNet connectivity issues"
     service="microsoft.dbforpostgresql"
     resource="servers"

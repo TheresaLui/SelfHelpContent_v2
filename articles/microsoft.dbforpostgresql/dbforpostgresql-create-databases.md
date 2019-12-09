@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Creating and managing databases in Azure Database for PostgreSQL"
+    pageTitle="Creating and managing databases in Azure Database for PostgreSQL"  
     description="Creating and managing databases in Azure Database for PostgreSQL"
     service="microsoft.dbforpostgresql"
     resource="servers"
