@@ -20,7 +20,7 @@
 
  In order to acquire an ASC, you need to verify that you own the domain included in the request:
  
- * Click on this button to open the Domain Verification window
+ * Click on the "Verify" button to open the Domain Verification window
  * At the top, you would see a Domain Verification Token which is a randomly generated identifier that helps in the verification process
  
  There three ways to validates domain ownership:
