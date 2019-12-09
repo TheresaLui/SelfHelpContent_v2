@@ -16,7 +16,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "MARS backup failure",
-    "fileAttachmentHint": "Please upload all CBEngine log files located at C:\\Program Files\\Microsoft Azure Recovery Services Agent\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
+    "fileAttachmentHint": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
      "diagnosticCard": {
         "title": "MARS backup failure",
         "description": "These diagnostics will check for errors.",
@@ -94,6 +94,10 @@
                     "text": "5-10% free volume space is available on scratch folder location"
                 },
                 {
+                    "value": "A valid security PIN is entered",
+                    "text": "A valid security PIN is entered"
+                },
+                {
                     "value": "If antivirus is running, then exclusion rules are used",
                     "text": "If antivirus is running, then exclusion rules are used"
                 },
@@ -121,7 +125,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -130,7 +134,7 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Please provide the ResourceId:",
-            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },

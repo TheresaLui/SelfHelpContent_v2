@@ -36,7 +36,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 ### **"No computers match the Update deployment target specification" error received**
 
 * You may see this error if machines are offline when the deployment occurs. Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs).
-* Review the steps to creating a dynamic deployment, especially the note about permissions, in ["Using Dynamic Groups"](https://docs.microsoft.com/azure/automation/automation-update-management#using-dynamic-groups)
+* Review the steps to creating a dynamic deployment, especially the note about permissions, in ["Use Dynamic Groups"](https://docs.microsoft.com/azure/automation/automation-update-management-groups)
 
 ### **"You have requested to create an update configuration on a machine that is not registered for Update Management"**
 

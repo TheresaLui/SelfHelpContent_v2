@@ -6,7 +6,7 @@
 	authors="chinadragon0515"
 	ms.author="dashe"
 	articleId="datafactory-newtree-ssis-ir-management-general-start-stop.md"
-	displayOrder="8"
+	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32680895"
 	resourceTags=""
@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Troubleshooting Azure-SSIS IR Management - General start and stop Issues
+# Azure-SSIS IR General start and stop Issues
 
 The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
 

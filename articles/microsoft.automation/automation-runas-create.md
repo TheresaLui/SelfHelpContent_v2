@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32635007,32635009"
+    supportTopicIds="32635009"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -26,7 +26,11 @@ In order to manage RunAs accounts, you will need permissions as listed at ["Perm
 * RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions
 * You might also see the message "You do not have permissions to create…"
 * See the ["Unable to Update or Create RunAs account" section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
+* Cloud Solution Provider (CSP) customers should see the note at [Manage Azure Automation RunAs accounts](https://docs.microsoft.com/azure/automation/manage-runas-account)
 
+### I want to start/stop VMs
+
+* See [Start/Stop VMs during off-hours](https://docs.microsoft.com/azure/automation/automation-solution-vm-management) for information on permissions needed to create RunAs accounts related to the Start/Stop solution
 
 ## **Recommended Documents**
 

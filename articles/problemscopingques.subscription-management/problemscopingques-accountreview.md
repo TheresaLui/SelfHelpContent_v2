@@ -46,7 +46,7 @@
       "id": "student_details1",
       "order": 3,
       "controlType": "dropdown",
-      "displayLabel": "Are you a student, employee, or individual?",
+      "displayLabel": "Are you a Student, Employee, or Individual?",
       "watermarkText": "",
       "dropdownOptions": [
         {

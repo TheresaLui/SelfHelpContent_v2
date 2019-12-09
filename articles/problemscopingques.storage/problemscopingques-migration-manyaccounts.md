@@ -1,29 +1,55 @@
 <properties
-	pageTitle="How to choose data migration solution"
-	description="How to choose data migration solution"
+	pageTitle="Migrate to ZRS, GZRS, RA-GZRS"
+	description="Migrate to ZRS, GZRS, RA-GZRS"
 	authors="Passaree"
-    ms.author="passap"
+        ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32634987,32605567"
+	supportTopicIds="32605567"
 	productPesIds="15629"
-	cloudEnvironments="public,MoonCake,FairFax"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="ED05B7F3-35E8-4F28-B3A3-FBFF20E2B301"
 />
 
-# Storage migration between Storage Accounts
+# Migrate to ZRS, GZRS, RA-GZRS
 ---
 {
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
     "formElements": [
-        {
-            "id": "storage_account",
+         {
+            "id": "target_replication_type",
             "order": 1,
-            "controlType": "textbox",
-            "displayLabel": "Storage accounts to migrate",
+            "controlType": "dropdown",
+            "displayLabel": "Target replication type",
+ 	    "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "zrs",
+                    "text": "To ZRS"
+                },
+		 {
+                    "value": "gzrs",
+                    "text": "To GZRS"
+                },
+		 {
+                    "value": "ragzrs",
+                    "text": "To RA-ZRS"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "No"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "storage_account_from",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Storage accounts from",
             "watermarkText": "AccountName1;AccountName2;AccountName3",
             "required": true
         },

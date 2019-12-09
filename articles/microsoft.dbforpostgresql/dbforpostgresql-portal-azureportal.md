@@ -31,6 +31,7 @@ If you are having problems:
 * monitoring your server, review [Monitor Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-alert-on-metric/)
 * enabling storage auto-grow, review [Enable auto grow in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-auto-grow-storage-portal/)
 * setting up Advanced Threat Protection, review [Advanced Threat Protection in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-database-threat-protection-portal/)
+  * moving a server across resource groups or subscriptions, review [Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 
 ## **Recommended Documents**
 

@@ -45,6 +45,10 @@ Master servers can be deleted from the [Azure portal](https://docs.microsoft.com
 
 Deleting a master server stops replication to all replica servers and deletes the master server itself. Replica servers become standalone servers that now support both read and writes.
 
+### **Server parameters**
+
+To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas. Refer to [documentation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters) for the list of parameters that are locked.
+
 ## **Recommended Documents**
 
 * [Create and manage read replicas in the portal](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal)

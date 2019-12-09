@@ -27,6 +27,7 @@ Azure Database for PostgreSQL management operations can be performed using REST 
 
 * Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete.
 * Attempting to delete a component by removing its mention from the ARM template ('complete mode deletion') is not supported. See [this document](https://docs.microsoft.com/azure/azure-resource-manager/complete-mode-deletion) for more information.
+* To move a server across resource groups or subscriptions, review [Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 
 ## **Recommended Documents**
 

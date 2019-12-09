@@ -1,10 +1,10 @@
 <properties
-                pageTitle="Management"
-                description="Management"
+                pageTitle="My instance was restarted or stopped unexpectedly"
+                description="My instance was restarted or stopped unexpectedly"
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32641073"
+                supportTopicIds="32641079"
                 productPesIds="16080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
@@ -15,7 +15,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Cannot start or stop my instances",
+    "title": "My instance was restarted or stopped unexpectedly",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -27,56 +27,8 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "startstop_operation",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "What operation are you trying to do?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Start",
-                    "text": "Start"
-                },
-                {
-                    "value": "Stop",
-                    "text": "Stop"
-                },
-                {
-                    "value": "Delete",
-                    "text": "Delete"
-                },
-                {
-                    "value": "Restart",
-                    "text": "Restart"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "startstop_previous",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Has this operation worked previously for this VMSS?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "I do not know",
-                    "text": "I do not know"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "startstop_config",
-            "order": 4,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What was your configuration change prior to the issue starting?",
             "watermarkText": "Choose an option",
@@ -110,7 +62,7 @@
         },
         {
             "id": "startstop_config_other",
-            "order": 5,
+            "order": 3,
             "visibility": "startstop_config == Other",
             "controlType": "multilinetextbox",
             "displayLabel": "Please specify your configuration change prior to the issue starting.",
@@ -119,7 +71,7 @@
         },
         {
             "id": "startstop_ifnew",
-            "order": 6,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is this VMSS new to Azure?",
             "watermarkText": "Choose an option",
@@ -141,7 +93,7 @@
         },
         {
             "id": "startstop_ifbackup",
-            "order": 7,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Was this VMSS recovered from backup?",
             "watermarkText": "Choose an option",
@@ -163,7 +115,7 @@
         },
         {
             "id": "startstop_ifinternet",
-            "order": 8,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Do you have Internet connectivity issues from this VMSS?",
             "watermarkText": "Choose an option",
@@ -181,7 +133,7 @@
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -189,7 +141,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

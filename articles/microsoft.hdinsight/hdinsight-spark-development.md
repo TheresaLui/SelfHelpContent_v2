@@ -1,4 +1,4 @@
-<Properties
+<properties
     pageTitle="Spark application configuration"
     description="Spark application configuration"
     service="microsoft.hdinsight"

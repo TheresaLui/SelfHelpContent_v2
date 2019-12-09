@@ -8,7 +8,7 @@
         selfHelpType="ProblemScopingQuestions"
         supportTopicIds="32630450"
         productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
         schemaVersion="1"
 />
 

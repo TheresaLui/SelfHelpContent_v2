@@ -2,11 +2,11 @@
 	pageTitle="Error submitting a job"
 	description="Error submitting a job"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay,v-anukar"
 	authoralias="guyhay,v-anukar"
 	authors="guyhay,v-anukar"
-	displayOrder="1"
+	displayOrder="17"
 	selfHelpType="resource"
 	supportTopicIds="32680648"
 	resourceTags=""
@@ -21,7 +21,7 @@
 ## **Recommended Steps**
 
 1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
-2. Understand the error that caused the job to error out while submission by using the Job Browser in Visual Studio or the Azure Portal<br>
+2. Understand the error that caused the job submission to fail by using the Job Browser in Visual Studio or the Azure Portal<br>
 
 ## **Recommended Documents**
 

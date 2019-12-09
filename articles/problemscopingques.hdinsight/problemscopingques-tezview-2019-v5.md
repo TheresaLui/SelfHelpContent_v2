@@ -159,7 +159,7 @@
             "id": "tardyresponse",
             "order": 400,
             "controlType": "dropdown",
-            "displayLabel": "Is the issue regarding to targy response?",
+            "displayLabel": "Is the issue regarding to tardy response?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

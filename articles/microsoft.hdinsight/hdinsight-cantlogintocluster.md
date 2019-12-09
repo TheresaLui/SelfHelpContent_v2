@@ -26,3 +26,4 @@ To resolve common issues, try one or more of the following steps. Keep in mind t
 ## **Recommended Documents**
 
 * [Manage clusters in the portal - Change login password](https://azure.microsoft.com/documentation/articles/hdinsight-administer-use-portal-linux/#change-passwords)<br>
+* [Connect to HDInsight (Apache Hadoop) using SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix)<br>

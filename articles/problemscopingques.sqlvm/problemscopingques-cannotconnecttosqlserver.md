@@ -1,9 +1,9 @@
-<properties pageTitle="Cannot connect to SQL Server"
+﻿<properties pageTitle="Cannot connect to SQL Server"
 	 description="Cannot connect to SQL Server"
 	 authors="yareyes"
-     ms.author="yareyes"
+	 ms.author="yareyes"
 	 selfHelpType="problemScopingQuestions"
-	 supportTopicIds="32633497"
+	 supportTopicIds="32639651,32639652,32639650"
 	 productPesIds="14745"
 	 cloudEnvironments="public"
 	 schemaVersion="1"
@@ -12,7 +12,9 @@
 # Cannot connect to SQL Server
 ---
 {
+    "$schema": "SelfHelpContent",
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Cannot connect to SQL Server",
     "fileAttachmentHint": null,
     "formElements": [
@@ -134,7 +136,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

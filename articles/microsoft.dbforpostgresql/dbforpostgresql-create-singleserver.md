@@ -23,6 +23,7 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Steps**
 
 * Make sure that the server name is globally unique
+* Automatic major version upgrade is not supported. For example, there is not an automatic upgrade from PostgreSQL 9.5 to PostgreSQL 9.6. To upgrade to the next major version, create a [database dump and restore](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore) to a server that was created with the new engine version.
 * If you are using the portal, review the [Manage an Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-portal) how-to
 * If you are using Azure CLI:
 

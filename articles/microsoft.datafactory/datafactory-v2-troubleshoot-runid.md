@@ -7,7 +7,7 @@
     ms.author="samirans"
     displayOrder="4"
     selfHelpType="resource"
-    supportTopicIds="32629472,32629492,32637151"
+    supportTopicIds="32629492"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public"

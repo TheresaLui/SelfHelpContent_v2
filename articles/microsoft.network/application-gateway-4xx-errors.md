@@ -5,7 +5,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder="22"
+    displayOrder="32"
 	selfHelpType="resource"
     articleId="application-gateway-4xx-error"
  	resourceTags=""

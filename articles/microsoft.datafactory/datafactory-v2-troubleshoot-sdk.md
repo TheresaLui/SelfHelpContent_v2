@@ -5,7 +5,7 @@
     resource="factories"
     authors="samiranshah"
     ms.author="samirans"
-    displayOrder="8"
+    displayOrder="1"
     selfHelpType="resource"
     supportTopicIds="32629521"
     resourceTags=""

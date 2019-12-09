@@ -20,6 +20,10 @@ Long term retention backups are currently not natively supported by the service.
 
 Native support for long term retention backups is currently being worked on by the Azure engineering team.
 
+## **Recommended Steps**
+
+* If you want to export the MariaDB database, review the [How-to export MariaDB database using PHPMyAdmin](https://docs.microsoft.com/azure/mariadb/howto-migrate-dump-restore#export-using-phpmyadmin)
+
 ## **Recommended Documents**
 
 * [Azure Database for MariaDB business continuity overview](https://docs.microsoft.com/azure/mariadb/concepts-business-continuity)<br>

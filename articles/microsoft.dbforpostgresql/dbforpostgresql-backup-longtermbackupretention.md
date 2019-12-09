@@ -20,8 +20,13 @@ Long term retention of backups (longer than 35 days) are currently not natively 
 
 Native support for long term retention backups is currently being worked on by the Azure engineering team.
 
+## **Recommended Steps**
+
+* If you want to export the PostgreSQL database, review the [How-to export PostgreSQL database using pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-export-and-import)
+
 ## **Recommended Documents**
 
 * [Azure Database for PostgreSQL business continuity overview](https://docs.microsoft.com/azure/postgresql/concepts-business-continuity)<br>
 * [Azure Database for PostgreSQL backup and restore concepts](https://docs.microsoft.com/azure/postgresql/concepts-backup)<br>
-* [Migrate your PostgreSQL database using dump and restore](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore)
+* [Migrate your PostgreSQL database using dump and restore](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore)<br>
+* [How-to export PostgreSQL database using pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-export-and-import)

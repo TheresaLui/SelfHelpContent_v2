@@ -15,7 +15,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Move Services to Another Subscription",
     "fileAttachmentHint": "",
     "formElements": [
