@@ -19,7 +19,7 @@
 # We ran diagnostics on your resource and found resource limits hit.
 
 <!--issueDescription-->
-Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** is currently using a service tier that provide less than one vCore (CPU), **<!--$Slo-->Slo<!--/$Slo-->**, and the database is hitting resource limits in **<!--$Resources-->Resources<!--/$Resources-->**.
+Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** is currently using a service tier that provides less than one vCore (CPU), **<!--$Slo-->Slo<!--/$Slo-->**, and the database is hitting resource limits in **<!--$Resources-->Resources<!--/$Resources-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
