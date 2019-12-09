@@ -388,7 +388,7 @@
     },
     {
       "id": "aad_user_type_setadmin",
-      "order": 3200,
+      "order": 4000,
       "controlType": "dropdown",
       "displayLabel": "Choose the type of AAD user that you want to set as an Admin",
       "required": true,
@@ -422,7 +422,7 @@
     },
     {
       "id": "aad_is_service_principal",
-      "order": 4000,
+      "order": 4100,
       "controlType": "dropdown",
       "displayLabel": "Are you logged in as a Service Principal?",
       "required": true,
@@ -444,7 +444,7 @@
     },
     {
       "id": "aad_powershell_cli_usage",
-      "order": 4200,
+      "order": 4300,
       "controlType": "dropdown",
       "displayLabel": "Have you tried using PowerShell or CLI in addition to the Portal interface?",
       "required": true,
@@ -466,7 +466,7 @@
     },
     {
       "id": "aad_setupadmin_issue_type",
-      "order": 4100,
+      "order": 4200,
       "controlType": "dropdown",
       "displayLabel": "Choose the description that best describes the issue that you are facing while setting up the AAD Admin.",
       "required": true,
