@@ -16,11 +16,8 @@
 
 # ASD/Renewing-Removing Domain
 
-## **Recommended documents**
+## **Recommended Documents**
 
+* [Renew your Domain](https://docs.microsoft.com/azure/app-service/manage-custom-dns-buy-domain#renew-the-domain)
 
-* [Renew Domain](https://docs.microsoft.com/azure/app-service/manage-custom-dns-buy-domain#renew-the-domain)
-
-Note: The Renew domain button is only active until 90 days before the domain’s expiration.
-
-If you renewed your domain less than 24 hours ago, please note that it can take up to 24 hours to receive an email notification. 
+Note: The Renew domain button is only active until 90 days before the domain’s expiration. If you renewed your domain less than 24 hours ago, please note that it can take up to 24 hours to receive an email notification. 
