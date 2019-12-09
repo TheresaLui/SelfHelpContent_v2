@@ -1,8 +1,8 @@
 <properties
 description = "Support topic description for Virtual Machine running Windows"
 pageTitle = "Support topic description for VM running Windows"
-authors = "akankshajsh"
-ms.author = "akjoshi"
+authors = "scottAzure"
+ms.author = "scotro"
 icmTeam="icmteam"
 icmService="icmservice"
 feedbackEmail="email"
