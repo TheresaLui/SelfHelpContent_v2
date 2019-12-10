@@ -81,25 +81,67 @@
       "diagnosticInputRequiredClients": "Portal"
     },
     {
-      "id": "aad_login_conditional_errors",
+      "id": "aad_are_failures_conditional",
       "order": 2100,
-      "controlType": "textbox",
-      "displayLabel": "Are the login failures conditional? Ex. Only from certain IPs or only when using username and password, or when using Single Sign On (SSO) or when using Multi Factor Authentication (MFA)",
-      "infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
+      "controlType": "dropdown",
+      "displayLabel": "Are the AAD failures conditional?",
       "required": true,
-      "visibility": "aad_issue_type == AADLogin",
+      "watermarkText": "Yes / No",
+      "infoBalloonText": "Indicate if the errors are persistent or happening only on certain conditions are met.",
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "Yes"
+        },
+        {
+          "text": "No",
+          "value": "dont_know_answer"
+        }
+      ],
+      "dynamicDropdownOptions": null,
       "diagnosticInputRequiredClients": "Portal",
-      "content": null,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
+      "visibility": "aad_issue_type == AADCreateUser"
+    },
+    {
+      "id": "aad_conditional_failures",
+      "order": 2110,
+      "controlType": "dropdown",
+      "displayLabel": "Please choose an option that best describes the condition when the failures occur.",
+      "required": true,
+      "watermarkText": "Conditional failure options",
+      "infoBalloonText": "",
+      "dropdownOptions": [
+        {
+          "text": "Only from certain IPs",
+          "value": "ConditionalFailuresOnlyCertainIPs"
+        },
+        {
+          "text": "Only when using username and password",
+          "value": "ConditionalFailuresOnlyUserNamePassword"
+        },
+        {
+          "text": "When using Single Sign On (SSO)",
+          "value": "ConditionalFailuresSSO"
+        },
+        {
+          "text": "When using Multi Factor Authentication (MFA)",
+          "value": "ConditionalFailuresMFA"
+        },
+        {
+          "text": "Other",
+          "value": "dont_know_answer"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "diagnosticInputRequiredClients": "Portal",
+      "visibility": "aad_issue_type == AADCreateUser && aad_are_failures_conditional == Yes"
     },
     {
       "id": "aad_login_aid",
       "order": 2500,
       "controlType": "textbox",
       "displayLabel": "Please enter your Application Id (AppID)",
-      "infoBalloonText": "Please enter your Application Id if you know it.",
+      "infoBalloonText": "Please enter your Application Id if you know it. Ex. '00000002-0000-0000-c000-000000000000'",
       "required": false,
       "visibility": "aad_issue_type == AADLogin",
       "content": null,
@@ -112,7 +154,7 @@
       "order": 2510,
       "controlType": "textbox",
       "displayLabel": "Please enter your Object Id (OID)",
-      "infoBalloonText": "Please enter your Object Id if you know it.",
+      "infoBalloonText": "Please enter your Object Id if you know it. Ex. '40b79501-b343-44ed-9ce7-da4c8cc7353f'",
       "required": false,
       "visibility": "aad_issue_type == AADLogin",
       "content": null,
@@ -169,7 +211,7 @@
       "order": 2610,
       "controlType": "textbox",
       "displayLabel": "Please enter the tool that you are using to connect to the Azure SQL DB.",
-      "infoBalloonText": "If you are using any other tool apart from the ones listed above, please type in the tool name.",
+      "infoBalloonText": "If you are using client tool(s) other than the ones listed above, please type in the tool name.",
       "required": true,
       "visibility": "add_login_tool == dont_know_answer",
       "content": null,
@@ -209,7 +251,7 @@
       "order": 2710,
       "controlType": "textbox",
       "displayLabel": "Please enter the driver that you are using to connect to the Azure SQL DB.",
-      "infoBalloonText": "If you are using any other driver apart from the ones listed above, please type in the driver name and version.",
+      "infoBalloonText": "If you are using driver(s) other than the ones listed above, please type in the driver name and version.",
       "required": true,
       "visibility": "aad_login_driver == dont_know_answer",
       "content": null,
@@ -327,8 +369,8 @@
       "id": "aad_user_type_currently_signed_in",
       "order": 3500,
       "controlType": "dropdown",
-      "displayLabel": "What is the user type that you are currently signed in as?",
-      "required": false,
+      "displayLabel": "Choose the type of AAD user that you are currently signed in as?",
+      "required": true,
       "dropdownOptions": [
         {
           "text": "Service Principal",
@@ -355,17 +397,60 @@
       "visibility": "aad_issue_type == AADCreateUser"
     },
     {
-      "id": "aad_login_conditional_errors_optional",
+      "id": "aad_are_failures_conditional_optional",
       "order": 3600,
-      "controlType": "textbox",
-      "displayLabel": "Are the login failures conditional? Ex. Only from certain IPs or only when using username and password, or when using Single Sign On (SSO) or when using Multi Factor Authentication (MFA)",
-      "infoBalloonText": "Please describe the circumstances in which you are facing login errors.",
+      "controlType": "dropdown",
+      "displayLabel": "Are the AAD failures conditional?",
       "required": false,
-      "visibility": "aad_issue_type == AADCreateUser",
-      "content": null,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
+      "watermarkText": "Yes / No",
+      "infoBalloonText": "Indicate if the errors are persistent or happening only on certain conditions are met.",
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "Yes"
+        },
+        {
+          "text": "No",
+          "value": "dont_know_answer"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "diagnosticInputRequiredClients": "Portal",
+      "visibility": "aad_issue_type == AADCreateUser"
+    },
+    {
+      "id": "aad_conditional_failures_optional",
+      "order": 3610,
+      "controlType": "dropdown",
+      "displayLabel": "Please choose an option that best describes the condition when the failures occur.",
+      "required": false,
+      "watermarkText": "Conditional failure options",
+      "infoBalloonText": "",
+      "dropdownOptions": [
+        {
+          "text": "Only from certain IPs",
+          "value": "ConditionalFailuresOnlyCertainIPs"
+        },
+        {
+          "text": "Only when using username and password",
+          "value": "ConditionalFailuresOnlyUserNamePassword"
+        },
+        {
+          "text": "When using Single Sign On (SSO)",
+          "value": "ConditionalFailuresSSO"
+        },
+        {
+          "text": "When using Multi Factor Authentication (MFA)",
+          "value": "ConditionalFailuresMFA"
+        },
+        {
+          "text": "Other",
+          "value": "dont_know_answer"
+        }
+      ],
+      "dynamicDropdownOptions": null,
+      "diagnosticInputRequiredClients": "Portal",
+      "visibility": "aad_issue_type == AADCreateUser && aad_are_failures_conditional_optional == Yes"
     },
     {
       "id": "aad_admin_already_set_up",
@@ -421,28 +506,6 @@
       "visibility": "aad_issue_type == AADSetupAdmin"
     },
     {
-      "id": "aad_is_service_principal",
-      "order": 4100,
-      "controlType": "dropdown",
-      "displayLabel": "Are you logged in as a Service Principal?",
-      "required": true,
-      "watermarkText": "Yes / No",
-      "infoBalloonText": "Indicate if you are logged in as a service principal?",
-      "dropdownOptions": [
-        {
-          "text": "Yes",
-          "value": "Yes"
-        },
-        {
-          "text": "No",
-          "value": "dont_know_answer"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
-      "visibility": "aad_issue_type == AADCreateUser"
-    },
-    {
       "id": "aad_powershell_cli_usage",
       "order": 4300,
       "controlType": "dropdown",
@@ -482,7 +545,7 @@
           "value": "Appears_But_Is_Greyed_Out"
         },
         {
-          "text": "When I try to Execution Query Timeout the PowerShell / CLI command it times out",
+          "text": "When I try to execute the query, the PowerShell / CLI command times out",
           "value": "CLI_Times_Out"
         },
         {
