@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Manage or use Windows Server and Windows Client licenses in Azure, including Hybrid Use Benefit",
     "fileAttachmentHint": "",
     "formElements": [
