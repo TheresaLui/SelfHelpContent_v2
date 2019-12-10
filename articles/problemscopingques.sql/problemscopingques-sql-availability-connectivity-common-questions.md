@@ -280,7 +280,7 @@
     },
     {
       "id": "aad_login_check_non_master_database",
-      "order": 2800,
+      "order": 2900,
       "controlType": "dropdown",
       "displayLabel": "By default the database is \"master\". Are you logging into the correct database?",
       "required": false,
