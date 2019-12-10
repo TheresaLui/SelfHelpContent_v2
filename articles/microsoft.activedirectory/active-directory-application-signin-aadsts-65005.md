@@ -22,4 +22,4 @@ The Issuer attribute sent from the application to Azure AD in the SAML request d
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#application-not-found-in-directory).
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#misconfigured-application).
