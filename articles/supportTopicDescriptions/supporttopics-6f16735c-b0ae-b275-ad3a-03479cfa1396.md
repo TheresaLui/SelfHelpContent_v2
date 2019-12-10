@@ -1,8 +1,8 @@
 <properties
 description = "Support topic description for Virtual Machine running Windows"
 pageTitle = "Support topic description for VM running Windows"
-authors = "akankshajsh"
-ms.author = "akjoshi"
+authors = "scottAzure"
+ms.author = "scotro"
 icmTeam="icmteam"
 icmService="icmservice"
 feedbackEmail="email"
@@ -935,13 +935,6 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "bc6dcea4-b6da-cd06-7ab1-1ddfb603eaee",
-            "shortDescription": " ",
-            "category": "",
-            "searchTags": "",
-            "useInDiagnoseAndSolve": "FALSE"
-        },
-        {
-            "id": "",
             "shortDescription": " ",
             "category": "",
             "searchTags": "",
