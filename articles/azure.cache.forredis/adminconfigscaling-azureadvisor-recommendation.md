@@ -3,7 +3,7 @@
 	description="Azure Advisor recommendation"
 	service="microsoft.cache"
 	resource=""
-	authors="JohnnyAzure"
+	authors="johnnygetHub"
 	ms.author="johnnyc"
 	displayOrder=""
 	selfHelpType="generic"
@@ -20,10 +20,10 @@
 
 ## **Recommended Documents**
 
-* [Best practices for Azure Cache for Redis](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-best-practices)<br>
-* [Azure Cache for Redis description](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview)<br>
-* [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
-* [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
-* [Troubleshoot Azure Cache for Redis timeouts](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
-* [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
+* [Best practices for Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
+* [Azure Cache for Redis description](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-overview)<br>
+* [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
+* [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
+* [Troubleshoot Azure Cache for Redis timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
+* [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
 
