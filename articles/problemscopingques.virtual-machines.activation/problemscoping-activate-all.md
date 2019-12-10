@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Issues that are related to activating a Windows license in Azure",
     "fileAttachmentHint": "",
     "formElements": [
