@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Manage or use a cluster in Azure",
     "fileAttachmentHint": "",
     "formElements": [
