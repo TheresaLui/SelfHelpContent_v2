@@ -57,7 +57,7 @@ There are times when the metrics API will return a response with no data at all.
 
 When  metrics API call returns no data at all: 
 
-1. Ensure you are time range is no larger than 30 days
+1. Ensure the time range of your query is no larger than 30 days
 1. Ensure you are not querying for metric data older than 93 days
 1. Ensure your resource should have been emitting data during the given time range. Try expanding your time range to a time you expected data to be emitted and validate if you see data.
 1. To confirm that the resource has any metric data, try plotting a metric chart for the same metric and resource by using [Azure Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-getting-started)
