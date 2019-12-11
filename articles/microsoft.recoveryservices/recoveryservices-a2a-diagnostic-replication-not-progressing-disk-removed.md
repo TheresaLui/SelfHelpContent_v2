@@ -1,11 +1,11 @@
 <properties
-    pageTitle="Replication is not progressing as disk is removed on Source Machine"
-    description="Replication status is critical because a replicating disk on Source Machine is removed."
-    infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
+    pageTitle="A replicating disk on the source virtual machine cannot be found"
+    description="Microsoft Azure has information regarding your issue"
+    infoBubbleText="A replicating disk on the source virtual machine is removed. Please see details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
-    authors="TobyTu"
-    ms.author="aaronmax"
+    authors="asgang"
+    ms.author="asgang,genli,TobyTu"
     displayOrder=""
     articleId="ASR_A2A_ReplicationNotProgressing_DiskRemoved"
     diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
@@ -16,10 +16,9 @@
     cloudEnvironments="Public"
 />
 
-# Replication is not progressing as disk is removed
-
+# Replication status is critical because a replicating disk on the source virtual machine is removed
 <!--issueDescription-->
-Replication status is critical because a replicating disk on the Source Machine is removed.
+We detected that a replicating disk on the source virtual machine is removed. This causes the replication stops working.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
