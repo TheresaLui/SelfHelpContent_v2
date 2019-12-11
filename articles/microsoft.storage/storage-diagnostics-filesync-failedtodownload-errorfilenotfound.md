@@ -23,10 +23,10 @@ Azure File Sync failed to download file(s) for one or more server endpoints unde
 <!--/issueDescription-->
 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 No action is required. Sync will stop reporting this error once change detection detects the file was deleted.
 
 ## **Recommended Documents**
 
-[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
