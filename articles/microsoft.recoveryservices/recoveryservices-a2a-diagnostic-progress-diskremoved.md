@@ -8,7 +8,7 @@
     ms.author="asgang,genli,TobyTu"
     displayOrder=""
     articleId="ASR_A2A_ReplicationNotProgressing_DiskRemoved"
-    diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
+    diagnosticScenario="ASRA2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
     resourceTags=""
