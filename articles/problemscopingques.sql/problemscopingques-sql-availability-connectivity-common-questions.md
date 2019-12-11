@@ -508,7 +508,7 @@
       "id": "aad_powershell_cli_usage",
       "order": 4100,
       "controlType": "dropdown",
-      "displayLabel": "Have you tried using PowerShell or CLI in addition to the Portal interface?",
+      "displayLabel": "Have you tried using PowerShell or CLI in addition to the Azure Portal interface?",
       "required": true,
       "watermarkText": "Yes / No",
       "infoBalloonText": "Indicate if you have tried using PowerShell or CLI in addition to the Portal interface?",
