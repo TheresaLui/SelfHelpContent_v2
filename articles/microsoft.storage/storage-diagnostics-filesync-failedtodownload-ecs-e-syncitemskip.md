@@ -22,10 +22,10 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Azure File Sync failed to download file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c80205 or -2134375931**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs because the file was skipped but will be synced during the next sync session.<br/><br/>
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
 No action is required. The file will be synced during the next sync session.
 
 ## **Recommended Documents**
 
-[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
