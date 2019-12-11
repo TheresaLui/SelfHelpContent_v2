@@ -23,7 +23,7 @@ Azure File Sync failed to download file(s) for one or more server endpoints unde
 <!--/issueDescription-->
 
 
-## **Recommended steps**
+## **Recommended Steps**
 To resolve this issue, see the [Unsupported Characters](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#handling-unsupported-characters) section in the Troubleshooting guide for details on handling unsupported characters and how to identify the files.
 
 ## **Recommended Documents**
