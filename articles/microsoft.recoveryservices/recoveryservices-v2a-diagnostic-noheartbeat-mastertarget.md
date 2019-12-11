@@ -26,7 +26,7 @@ Replication status is critical because agent on Master Target is not able to con
 
 Verify the heartbeat from Master Target. To do that, follow these steps:
 
-1. Verify the Master Target machine is up and running.
-2. Login to Master Target with administrator privileges.
-3. Verify that the service **svagents** is running. And then, start or restart the service.
-4. On the Master Target, check the following log for any errors in "C:\\ProgramData\\ASR\\agent\\svagents*log".
+1. Verify the Master Target machine is up and running
+2. Login to Master Target with administrator privileges
+3. Verify that the service **svagents** is running, then start or restart the service
+4. On the Master Target, check the following log for any errors in "C:\\ProgramData\\ASR\\agent\\svagents*log"
