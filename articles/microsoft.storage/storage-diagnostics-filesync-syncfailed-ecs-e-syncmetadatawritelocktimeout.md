@@ -27,5 +27,4 @@ No action is required. If this error persists for longer than a day, create a su
 
 
 ## **Recommended Documents**
-
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
