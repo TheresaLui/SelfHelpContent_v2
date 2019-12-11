@@ -5,7 +5,7 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
 	ms.author="bharathb"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32636819"
 	resourceTags=""
 	productPesIds="15585"
@@ -24,10 +24,10 @@ In order to achieve the best performance for Azure Cosmos DB MongoDB API, there 
 * Increase parallelism on the client whenever possible
 * Use singleton Azure Cosmos DB client for the lifetime of your application
 * Exclude unused paths from indexing for faster writes
-* Design for smaller documents for higher throughput 
+* Design for smaller documents for higher throughput
 
 
-### **Deleting large amounts of data** 
+### **Deleting large amounts of data**
 If you are wanting to delete large amounts of data without impacting RU:
 * Consider using TTL (Based on Timestamp) [Expire data with Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-time-to-live)
 * Use Cursor/Batch size to perform the delete. You can fetch a single document at a time and delete it through a loop. This would help you to slowly delete without impacting your production application.
@@ -40,6 +40,5 @@ If you are wanting to delete large amounts of data without impacting RU:
 [Azure Cosmos DB's API for MongoDB (3.2 version): supported features and syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support)
 <br>This article covers MongoDB version 3.2. The supported operators and any limitations or exceptions are listed in this article.  
 
-[Performance tips for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/performance-tips) 
+[Performance tips for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 <br>This article describes how you can improve your database performance.
-

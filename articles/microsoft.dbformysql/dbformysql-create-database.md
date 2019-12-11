@@ -2,7 +2,7 @@
     pageTitle="Creating, scaling, and deleting an Azure Database for MySQL server"
     description="Creating, scaling, and deleting an Azure Database for MySQL server"
     service="microsoft.dbformysql"
-    resource="servers"
+    resource="servers" 
 	authors="Xin-Cheng"
 	ms.author="chengxin"
     displayOrder="460"

@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
 
 Your API Management service is down due to an unknown reason. 
 <!--/issueDescription-->
