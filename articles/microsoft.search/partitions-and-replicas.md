@@ -6,7 +6,7 @@
 	authors="cynotebo"
 	ms.author="cynotebo"
 	selfHelpType="resource"
-	displayOrder="12"	
+	displayOrder="22"	
 	supportTopicIds="32681352"
 	resourceTags=""
 	productPesIds="15568"
@@ -24,6 +24,6 @@ If you are having troubles adding or removing partitions and replicas in your Az
 2.	Have not exceeded the [storage limits](https://docs.microsoft.com/azure/search/search-limits-quotas-capacity) of the current Search service tier (SKU).  You can easily review this during the scale operation as the formula at the bottom of the Scale page indicates how many search units are being utilized.
 3.	Have allowed adequate time for the scaling operation to complete.  Changes in capacity take several hours to complete and cannot be cancelled one the process has started.  
 
-## **Recommended Document**
+## **Recommended Documents**
 
 * [Scale up partitions and replicas to add capacity for query index workloads in Azure Cognitive Search](https://docs.microsoft.com/azure/search/search-capacity-planning)
