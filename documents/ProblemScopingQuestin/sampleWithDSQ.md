@@ -103,7 +103,7 @@
 		      "id": "sqlexception_received_on_client",
 			    "order": 2000,
 			    "controlType": "multilinetextbox",
-    			"displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
+    			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
 		    	"required": true,
 			    "visibility": true
 	    }
