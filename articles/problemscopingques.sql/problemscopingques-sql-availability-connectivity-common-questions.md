@@ -369,7 +369,7 @@
       "id": "aad_user_type_currently_signed_in",
       "order": 3200,
       "controlType": "dropdown",
-      "displayLabel": "Choose the type of AAD user that you are currently signed in as?",
+      "displayLabel": "Choose the type of AAD user that you are currently signed in as",
       "required": true,
       "dropdownOptions": [
         {
