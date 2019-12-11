@@ -28,9 +28,9 @@ Typically, the service administrator can use the following steps to add the logi
 3. If the corresponding name is disabled, enable it with `Alter login (User name) enable`
 4. If the SQL login user name does not exist, create it by using SSMS. To do this, follow these steps:<br>
 
-	a. Double-click **Security** to expand it
-	b. Right-click **Logins**, and then select **New login**
-	c. In the generated script with placeholders, you can edit and run the following SQL query:<br>
+	* Double-click **Security** to expand it
+	* Right-click **Logins**, and then select **New login**
+	* In the generated script with placeholders, you can edit and run the following SQL query:<br>
 	
 ```
 CREATE LOGIN (SQL_login_name, sysname, login_name)
