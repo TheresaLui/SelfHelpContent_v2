@@ -24,9 +24,9 @@
 2. [Ensure that your StorSimple device has a dedicated 40 Mbps or more bandwidth available at all times](https://docs.microsoft.com/azure/storsimple/storsimple-8000-system-requirements#networking-best-practices)<br>
 3. Backups are failing but there are no alerts to indicate that backups have failed. This could happen due to the possibility that the job scheduler is unable to schedule the backup job as the active controller is up and running for a very long time. The issue can be resolved by following below process to perform a controller failover.
 
-	Controller failover procedure
+### Controller failover procedure
 
-   Make sure that all hardware components are shown in healthy status in Azure Portal. If not, please resolve the failure alerts before proceeding with the failover. Perform a controller failover by restarting the active controller by following the below steps.
+Make sure that all hardware components are shown in healthy status in Azure Portal. If not, please resolve the failure alerts before proceeding with the failover. Perform a controller failover by restarting the active controller by following the below steps.
  
 - [Login into the active Controller using PowerShell or serial console](https://docs.microsoft.com/azure/storsimple/storsimple-8000-windows-powershell-administration#connect-remotely-to-storsimple-using-windows-powershell-for-storsimple)<br>
 - To restart a controller, at the prompt type: Restart-HcsController. This restarts the controller that you are connected to. When you restart the active controller, it fails over to the passive controller before the restart. Restarting a device is not disruptive to connected initiators, assuming the passive controller is available. If a passive controller is not available or turned off, then restarting the active controller may result in the disruption of service and downtime.
