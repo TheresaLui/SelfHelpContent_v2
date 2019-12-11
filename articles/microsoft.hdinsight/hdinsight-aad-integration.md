@@ -28,13 +28,11 @@ This error may occur because too many operations are in progress. To resolve the
 
 **Error: FailedToConnectWithClusterErrorCode**
  
-If you use network security groups or user defined routes to control inbound traffic to your HDInsight cluster, you must ensure that your cluster can communicate with critical Azure health and management services. For more information, see [HDInsight management IP addresses](https://docs.microsoft.com/azure/HDInsight/HDInsight-management-ip-addresses
-).
+If you use network security groups or user defined routes to control inbound traffic to your HDInsight cluster, you must ensure that your cluster can communicate with critical Azure health and management services. For more information, see [HDInsight management IP addresses](https://docs.microsoft.com/azure/HDInsight/HDInsight-management-ip-addresses).
 
 **Certificate Issues**
 
-Make sure that your SSL Certificate is not expired.For more information, see [Refresh the HDInsight certificate for Data Lake Storage Gen1 access](https://docs.microsoft.com/azure/HDInsight/HDInsight-hadoop-use-data-lake-store#refresh-the-HDInsight-certificate-for-data-lake-storage-gen1-access
-).
+Make sure that your SSL Certificate is not expired.For more information, see [Refresh the HDInsight certificate for Data Lake Storage Gen1 access](https://docs.microsoft.com/azure/HDInsight/HDInsight-hadoop-use-data-lake-store#refresh-the-HDInsight-certificate-for-data-lake-storage-gen1-access).
 
 **Permissions**
 
@@ -45,7 +43,7 @@ You can use trusted IP addresses or Conditional Access to disable MFA for specif
 **Invalid Network Configuration**
 
 * Due to having an invalid network configuration, the Azure AD Domain Services Sync Agent cannot reach customer's domain on TCP\443. This will cause cluster deployment failures.
-* Solution:  [Follow Documentation](https://docs.microsoft.com/azure/active-directory-domain-services/synchronization).
+* Solution:  [Follow Documentation](https://docs.microsoft.com/azure/active-directory-domain-services/synchronization)
 
 **Additional Information**
 
