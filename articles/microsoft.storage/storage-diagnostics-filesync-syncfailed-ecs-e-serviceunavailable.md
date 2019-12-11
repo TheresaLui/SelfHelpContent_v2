@@ -22,9 +22,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c8004b or -2134376373**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the Azure File Sync service is unavailable. 
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 No action is required. This error will auto-resolve when the Azure File Sync service is available again.
 
 ## **Recommended Documents**
 
-[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
