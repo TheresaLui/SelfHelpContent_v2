@@ -7,7 +7,7 @@
     authors="TobyTu"
     ms.author="aaronmax"
     displayOrder=""
-    articleId="ASR_V2A_ReplicationNotProgressing_NoHeartbeatFromSourceMachine"
+    articleId="ASR_A2A_ReplicationNotProgressing_NoHeartbeatFromSourceMachine"
     diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
