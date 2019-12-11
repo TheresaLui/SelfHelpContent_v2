@@ -21,14 +21,14 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c83078 or -2134364040**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the certificate used for authentication is expired.<br/><br/>
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 To confirm the certificate is expired, perform the following steps:  
-1. Open the Certificates MMC snap-in, select Computer Account and navigate to Certificates (Local Computer)\Personal\Certificates.
-2. Check if the client authentication certificate is expired.
+1. Open the Certificates MMC snap-in, select Computer Account and navigate to Certificates (Local Computer)\Personal\Certificates
+2. Check if the client authentication certificate is expired
 
 If the client authentication certificate is expired, perform the following steps to resolve the issue:
 
-1. Verify Azure File Sync agent version 4.0.1.0 or later is installed.
+1. Verify Azure File Sync agent version 4.0.1.0 or later is installed
 2. Run the following PowerShell command on the server:
 
     ```powershell
@@ -36,4 +36,4 @@ If the client authentication certificate is expired, perform the following steps
     ```
     
 ## **Recommended Documents**
-[Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
+- [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
