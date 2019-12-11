@@ -25,4 +25,4 @@
 
 **Zeppelin notebooks**
 
-* [Use Apache Zeppelin notebooks with Apache Spark cluster on Azure HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-zeppelin-notebook)
+* [Use Apache Zeppelin notebooks with Apache Spark cluster on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-zeppelin-notebook)
