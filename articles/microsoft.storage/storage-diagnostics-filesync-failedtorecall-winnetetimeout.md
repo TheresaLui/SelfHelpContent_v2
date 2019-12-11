@@ -22,30 +22,24 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Azure File Sync failed to recall file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80072ee2 or -2147012894**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error can occur whenever the Azure File Sync service is inaccessible from the server.
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 To troubleshoot this error, perform the following steps:
 
-1. Verify the Windows service `FileSyncSvc.exe` is not blocked by your firewall.
-2. Verify that port 443 is open to outgoing connections to the Azure File Sync service. You can do this with the `Test-NetConnection` cmdlet. The URL for the `<azure-file-sync-endpoint>` placeholder below can found in the [Azure File Sync proxy and firewall settings](../articles/storage/files/storage-sync-files-firewall-and-proxy.md#firewall) document. 
+1. Verify the Windows service `FileSyncSvc.exe` is not blocked by your firewall
+2. Verify that port 443 is open to outgoing connections to the Azure File Sync service. You can do this with the `Test-NetConnection` cmdlet. The URL for the `<azure-file-sync-endpoint>` placeholder below can found in the [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall) document. 
 
     ```powershell
     Test-NetConnection -ComputerName <azure-file-sync-endpoint> -Port 443
     ```
 
-3. Ensure that the proxy configuration is set as anticipated. This can be done with the `Get-StorageSyncProxyConfiguration` cmdlet. More information on configuring the proxy configuration for Azure File Sync can be found in the [Azure File Sync proxy and firewall settings](../articles/storage/files/storage-sync-files-firewall-and-proxy.md#firewall).
-
-    ```powershell
-    $agentPath = "C:\Program Files\Azure\StorageSyncAgent"
-    Import-Module "$agentPath\StorageSync.Management.ServerCmdlets.dll"
-    Get-StorageSyncProxyConfiguration
-    ```
-    
-4. Contact your network administrator for additional assistance troubleshooting network connectivity.
+3. Ensure that the proxy configuration is set as anticipated. This can be done with the `Get-StorageSyncProxyConfiguration` cmdlet. More information on configuring the proxy configuration for Azure File Sync can be found in the [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall).
+  
+4. Contact your network administrator for additional assistance troubleshooting network connectivity
 
 Refer to [Azure Latency Test](http://www.azurespeed.com) to test your network latency and speed to the datacenter hosting your storage account.
 
 ## **Recommended Documents**
 
-- [Azure File Sync proxy and firewall settings](../articles/storage/files/storage-sync-files-firewall-and-proxy.md#firewall)
+- [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall)
 - [Azure Latency Test](http://www.azurespeed.com)
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
