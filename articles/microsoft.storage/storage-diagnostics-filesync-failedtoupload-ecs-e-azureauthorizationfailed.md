@@ -23,15 +23,15 @@ Azure File Sync failed to upload file(s) for one or more server endpoints under 
 <!--/issueDescription-->
 
 
-## **Recommended steps**
+## **Recommended Steps**
 To resolve this issue, add the Server IP address or virtual network by performing the following steps:
 
-1. From the Azure portal, navigate to the storage account you want to secure.
-1. Select the **Firewalls and virtual networks** button on the left menu.
-1. Select **Selected networks** under **Allow access from**.
-1. Make sure your servers IP or virtual network is listed under the appropriate section.
-1. Make sure **Allow trusted Microsoft services to access this storage account** is checked.
-1. Select **Save** to save your settings.
+1. From the Azure portal, navigate to the storage account you want to secure
+1. Select the **Firewalls and virtual networks** button on the left menu
+1. Select **Selected networks** under **Allow access from**
+1. Make sure your servers IP or virtual network is listed under the appropriate section
+1. Make sure **Allow trusted Microsoft services to access this storage account** is checked
+1. Select **Save** to save your settings
 
 ## **Recommended Documents**
 - [Configure firewall and virtual network settings](https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal#configure-firewall-and-virtual-network-settings)
