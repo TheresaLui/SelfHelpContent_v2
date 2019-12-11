@@ -100,7 +100,7 @@
       ],
       "dynamicDropdownOptions": null,
       "diagnosticInputRequiredClients": "Portal",
-      "visibility": "aad_issue_type == AADCreateUser"
+      "visibility": "aad_issue_type == AADLogin"
     },
     {
       "id": "aad_conditional_failures",
@@ -134,7 +134,7 @@
       ],
       "dynamicDropdownOptions": null,
       "diagnosticInputRequiredClients": "Portal",
-      "visibility": "aad_issue_type == AADCreateUser && aad_are_failures_conditional == Yes"
+      "visibility": "aad_issue_type == AADLogin && aad_are_failures_conditional == Yes"
     },
     {
       "id": "aad_login_aid",
@@ -415,7 +415,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADCreateUser"
     },
     {
@@ -449,7 +448,6 @@
         }
       ],
       "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADCreateUser && aad_are_failures_conditional_optional == Yes"
     },
     {
