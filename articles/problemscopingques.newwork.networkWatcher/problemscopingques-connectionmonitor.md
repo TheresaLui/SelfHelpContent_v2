@@ -84,7 +84,7 @@
 				"jTokenPath": "value",
 				"textProperty": "name",
 				"ValueProperty": "resourceID",
-				"defaultDropdownOptions": [ 
+				"defaultDropdownOptions":  
                     {
 					"value": "cm_not_created",
 					"text": "Unable to create Connection Monitor"
@@ -92,7 +92,7 @@
                     { "value": "all_cm",
 					"text": "All Connection Monitors"
                     }
-                  ]
+                  
 				}
         },
           {
