@@ -23,6 +23,7 @@ Portal may show the following message on the SQL VM resource:
 The extension may occasionally encounter issues during its workflow resulting in a bad state. Un-installing and installing the extension should address this issue.
 
 You can execute the following commands in PowerShell to re-install the extension. 
+
 ```
 Remove-AzVMSqlServerExtension -ResourceGroupName "<ResourceGroupName>" -VMName "<VMName>" -Name "SqlIaasExtension" 
 
