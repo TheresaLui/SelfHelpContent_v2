@@ -42,6 +42,11 @@ Only tenant administrators have the privileges to enable Azure Active Directory 
 
 You can use trusted IP addresses or Conditional Access to disable MFA for specific users when they are accessing the HDInsight cluster virtual network IP range. If you are using Conditional Access, make sure that AD service endpoint in enabled on the HDInsight virtual network. If the cluster storage is Azure Blob Storage, do not disable MFA.
 
+**Invalid Network Configuration**
+
+* Due to having an invalid network configuration, the Azure AD Domain Services Sync Agent cannot reach customer's domain on TCP\443. This will cause cluster deployment failures.
+* Solution:  [Follow Documentation](https://docs.microsoft.com/azure/active-directory-domain-services/synchronization).
+
 **Additional Information**
 
 - Azure Active Directory Domain Service must be deployed in an Azure Resource Manager based virtual network. Classic virtual networks are not supported for Azure Active Directory Domain Service. For more information, see [Networking considerations](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds#networking-considerations).
