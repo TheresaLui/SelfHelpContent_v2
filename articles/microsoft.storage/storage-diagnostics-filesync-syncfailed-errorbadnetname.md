@@ -22,7 +22,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80070043 or -2147942467**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs if the tiered file was not recalled prior to deleting a server endpoint.<br/><br/>
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 Restoring access to your tiered files is possible if the following conditions are met:
 - Server endpoint was deleted within past 30 days
 - Cloud endpoint was not deleted 
