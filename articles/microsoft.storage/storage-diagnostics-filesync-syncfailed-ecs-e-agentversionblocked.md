@@ -22,7 +22,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80C8306B or -2134364053**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs if the Azure File Sync agent version installed on the server is not supported.<br/><br/>
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 To resolve this issue, [upgrade](https://docs.microsoft.com/azure/storage/files/storage-files-release-notes#upgrade-paths) to a [supported agent version](https://docs.microsoft.com/azure/storage/files/storage-files-release-notes#supported-versions)
 
 ## **Recommended Documents**
