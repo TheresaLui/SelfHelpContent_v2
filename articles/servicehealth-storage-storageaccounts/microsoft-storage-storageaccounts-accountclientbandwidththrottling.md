@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your storage account:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your storage account resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
 This Storage Account was throttled on bandwidth because it exceeded its Azure Storage scalability limits. 
 <!--/issueDescription-->
