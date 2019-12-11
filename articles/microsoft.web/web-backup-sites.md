@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-* [Troubleshooting Backup Issues - common errors and fixes](https://blogs.msdn.microsoft.com/appserviceteam/2018/01/02/my-backups-are-failing/)
-* [Backup a Web App - Requirements, Restrictions and More](https://azure.microsoft.com/documentation/articles/web-sites-backup/)
+* [Troubleshooting Backup Issues - common errors and fixes](https://azure.github.io/AppService/2018/01/02/My-Backups-are-failing,-Let's-open-a-support-ticket.html)
+* [Backup a Web App - Requirements, Restrictions and More](https://docs.microsoft.com/azure/app-service/manage-backup)
 * [How to Restore a Web App](https://azure.microsoft.com/documentation/articles/web-sites-restore/)
-* [How to exclude files from the backup process and choosing to backup only what is needed](http://zainrizvi.io/blog/creating-partial-backups-of-your-site-with-azure-web-apps/)
+* [How to exclude files from the backup process and choosing to backup only what is needed](https://docs.microsoft.com/azure/app-service/manage-backup#exclude-files-from-your-backup)

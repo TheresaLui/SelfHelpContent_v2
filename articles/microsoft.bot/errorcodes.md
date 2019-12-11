@@ -7,7 +7,7 @@
 	ms.author="v-danava,jiruss,dandris,saziz"
 	displayOrder="107"
 	selfHelpType="resource"
-	supportTopicIds="32688623"
+	supportTopicIds="32688623,32688619"
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"

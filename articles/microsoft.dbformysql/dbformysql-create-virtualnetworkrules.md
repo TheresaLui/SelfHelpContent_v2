@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Managing VNet service endpoints in Azure Database for MySQL"
+    pageTitle="Managing VNet service endpoints in Azure Database for MySQL"  
     description="Managing VNet service endpoints in Azure Database for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
