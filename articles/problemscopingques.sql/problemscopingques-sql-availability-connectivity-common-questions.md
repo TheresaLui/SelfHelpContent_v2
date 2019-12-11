@@ -80,9 +80,43 @@
       "visibility": "aad_issue_type == AADLogin || aad_issue_type == AADCreateUser || aad_issue_type == dont_know_answer",
       "diagnosticInputRequiredClients": "Portal"
     },
+		{
+			"id": "aad_user_type_login",
+			"order": 2100,
+			"controlType": "dropdown",
+			"displayLabel": "Choose the type of AAD user that is trying to login",
+			"required": true,
+			"watermarkText": "AAD User Types",
+			"infoBalloonText": "AAD User Types",
+			"dropdownOptions": [
+				{
+					"text": "Service Principal",
+					"value": "AADUserServicePrincipal"
+				},
+				{
+					"text": "Outlook / Office 365 Group",
+					"value": "AADUserOutlookOffice365Group"
+				},
+				{
+					"text": "Guest User",
+					"value": "AADUserGuest"
+				},
+				{
+					"text": "Native User",
+					"value": "AADUserNative"
+				},
+				{
+					"text": "Other",
+					"value": "dont_know_answer"
+				}
+			],
+			"dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal",
+			"visibility": "aad_issue_type == AADLogin"
+		},
     {
       "id": "aad_are_failures_conditional",
-      "order": 2100,
+      "order": 2200,
       "controlType": "dropdown",
       "displayLabel": "Are the AAD failures conditional?",
       "required": true,
@@ -104,7 +138,7 @@
     },
     {
       "id": "aad_conditional_failures",
-      "order": 2110,
+      "order": 2210,
       "controlType": "dropdown",
       "displayLabel": "Please choose an option that best describes the condition when the failures occur.",
       "required": true,
@@ -298,40 +332,6 @@
       "visibility": "aad_issue_type == AADLogin"
     },
     {
-      "id": "aad_user_type_login",
-      "order": 3000,
-      "controlType": "dropdown",
-      "displayLabel": "Choose the type of AAD user that is trying to login",
-      "required": true,
-      "watermarkText": "AAD User Types",
-      "infoBalloonText": "AAD User Types",
-      "dropdownOptions": [
-        {
-          "text": "Service Principal",
-          "value": "AADUserServicePrincipal"
-        },
-        {
-          "text": "Outlook / Office 365 Group",
-          "value": "AADUserOutlookOffice365Group"
-        },
-        {
-          "text": "Guest User",
-          "value": "AADUserGuest"
-        },
-        {
-          "text": "Native User",
-          "value": "AADUserNative"
-        },
-        {
-          "text": "Other",
-          "value": "dont_know_answer"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "diagnosticInputRequiredClients": "Portal",
-      "visibility": "aad_issue_type == AADLogin"
-    },
-    {
       "id": "aad_user_type_create",
       "order": 3100,
       "controlType": "dropdown",
@@ -367,7 +367,7 @@
     },
     {
       "id": "aad_user_type_currently_signed_in",
-      "order": 3500,
+      "order": 3200,
       "controlType": "dropdown",
       "displayLabel": "Choose the type of AAD user that you are currently signed in as?",
       "required": true,
@@ -394,11 +394,12 @@
         }
       ],
       "dynamicDropdownOptions": null,
+			"diagnosticInputRequiredClients": "Portal",
       "visibility": "aad_issue_type == AADCreateUser"
     },
     {
       "id": "aad_are_failures_conditional_optional",
-      "order": 3600,
+      "order": 3500,
       "controlType": "dropdown",
       "displayLabel": "Are the AAD failures conditional?",
       "required": false,
@@ -419,7 +420,7 @@
     },
     {
       "id": "aad_conditional_failures_optional",
-      "order": 3610,
+      "order": 3510,
       "controlType": "dropdown",
       "displayLabel": "Please choose an option that best describes the condition when the failures occur.",
       "required": false,
@@ -452,7 +453,7 @@
     },
     {
       "id": "aad_admin_already_set_up",
-      "order": 3700,
+      "order": 3600,
       "controlType": "dropdown",
       "displayLabel": "Have you already set up an AAD Admin for your SQL Server?",
       "required": false,
@@ -505,7 +506,7 @@
     },
     {
       "id": "aad_powershell_cli_usage",
-      "order": 4300,
+      "order": 4100,
       "controlType": "dropdown",
       "displayLabel": "Have you tried using PowerShell or CLI in addition to the Portal interface?",
       "required": true,
