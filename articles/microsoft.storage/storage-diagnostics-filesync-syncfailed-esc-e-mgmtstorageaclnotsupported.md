@@ -22,7 +22,7 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 <!--/issueDescription-->
 
 
-## **Recommended steps**
+## **Recommended Steps**
 To resolve this issue, verify the firewall and virtual network settings on the storage account are configured properly. 
 
 ## **Recommended Documents**
