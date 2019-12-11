@@ -25,4 +25,4 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
  No action is required. Sync will resume when change detection completes.
 
  ## **Recommended Documents**
-[Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
+- [Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
