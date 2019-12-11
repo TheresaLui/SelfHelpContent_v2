@@ -23,7 +23,7 @@ Azure File Sync failed to upload file(s) for one or more server endpoints under 
 <!--/issueDescription-->
 
 
-## **Recommended steps**
+## **Recommended Steps**
 To resolve this issue, decrypt the file and use a supported encryption solution. For a list of support solutions, see [Encryption solutions](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning#encryption-solutions) section in the planning guide.
 
 ## **Recommended Documents**
