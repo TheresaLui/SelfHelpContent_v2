@@ -6,7 +6,7 @@
 	authors="cynotebo"
 	ms.author="cynotebo"
 	selfHelpType="resource"
-	displayOrder="1"	
+	displayOrder="3"	
 	supportTopicIds="32681355"
 	resourceTags=""
 	productPesIds="15568"
