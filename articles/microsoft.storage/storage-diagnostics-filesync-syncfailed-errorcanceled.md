@@ -22,7 +22,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->**due to **error code: 0x800704c7 or -2147023673**. This error occurred between  **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs if the sync session is cancelled due to a server restart or a VSS snapshot was created to sync files with open handles.<br/><br/>
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 No action is required. If this error persists for longer than a day, please file an ICM ticket.
 
 ## **Recommended Documents**
