@@ -1,0 +1,26 @@
+<properties
+	pageTitle="Enable replication failed as machine's disk was previously protected"
+	description="Failed to enable replication because the replica of disk is already exists"
+	infoBubbleText="Microsoft Azure has information regarding your issue. Please see details on the right."
+	service="microsoft.recoveryservices"
+	resource="vaults"
+	authors="genlin"
+	ms.author="asgang"
+	displayOrder=""
+	articleId="ASR_A2A_EnableReplicationFailure_ReplicaManagedDiskExists"
+	diagnosticScenario="ASRA2AMgmtFailures"
+	selfHelpType="Diagnostics"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds="16370"
+	cloudEnvironments="Public"
+/>
+
+# Enable replication failed as machine's disk was previously protected
+<!--issueDescription-->
+Failed to enable replication for the machine <!--$vmname-->[vmname]<!--/$vmname--> with error 150161. This problem can occur if the virtual machine was previously protected, and when replication was disabled. However, the replica disk was not cleaned.
+<!--/issueDescription-->
+
+## **Recommended Steps**
+
+To resolve this issue, delete the replica disk that identified in the error message and the try to enable replication again.
