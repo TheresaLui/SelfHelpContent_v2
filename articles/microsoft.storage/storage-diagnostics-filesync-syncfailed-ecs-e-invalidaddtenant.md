@@ -21,7 +21,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c83088 or -2134364024**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because Azure File Sync does not currently support moving the subscription to a different Azure Active Directory tenant.<br/><br/>
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 To resolve this issue, perform one of the following options:
 
 - **Option 1 (recommended)**: Move the subscription back to the original Azure Active Directory tenant
