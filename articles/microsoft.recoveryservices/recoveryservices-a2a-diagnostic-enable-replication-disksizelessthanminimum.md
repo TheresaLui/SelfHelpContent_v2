@@ -16,13 +16,15 @@
 	cloudEnvironments="Public"
 />
 
-# Enable replication failed as machine's disk size is not meet the requirement
+# Enable replication failed as virtual machine's disk size is not meet the requirement
 <!--issueDescription-->
-Failed to enable replication for the machine <!--$vmname-->[vmname]<!--/$vmname--> with error 28109. This issue can occur if the disk size of the machine is smaller than the minimum size required, or the disk type is unsupported such as BitLocker encrypted disk.
+Failed to enable replication for the virtual machine <!--$vmname-->[vmname]<!--/$vmname--> with error 28109. This problem can occur if the disk size is smaller than the minimum size required, or the disk type is unsupported such as BitLocker encrypted disk.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-- Make sure that the disk size of the machine is larger than 1 GB. To resize the disk size for an Azure virtual machine, see [How to expand the disk of a virtual machine
+To resolve the issue, follow these steps:
+
+1. Make sure that the disk size of the virtual machine is larger than 1 GB. To resize the disk size, see [How to expand the disk of a virtual machine
 ](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resize-a-managed-disk).
-- Remove the BitLocker encrypted disk or turn off the encryption.
+2. Remove the BitLocker encrypted disk or turn off the encryption.
