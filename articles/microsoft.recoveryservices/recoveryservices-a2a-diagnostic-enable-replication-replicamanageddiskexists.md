@@ -18,7 +18,7 @@
 
 # Enable replication failed as virtual machine's disk was previously protected
 <!--issueDescription-->
-Failed to enable replication for the virtual machine <!--$vmname-->[vmname]<!--/$vmname--> with error 150161. This problem can occur if the virtual machine was previously protected, and when replication was disabled. However, the replica disk was not cleaned.
+Failed to enable replication for the virtual machine <!--$vmname-->[vmname]<!--/$vmname--> with error 150161. This problem can occur if the virtual machine was previously protected, and the replica disk was not cleaned when the replication was disabled.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
