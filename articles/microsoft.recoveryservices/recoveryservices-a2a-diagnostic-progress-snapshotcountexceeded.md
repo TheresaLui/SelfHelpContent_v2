@@ -7,7 +7,7 @@
     authors="genlin"
     ms.author="aaronmax"
     displayOrder=""
-    articleId="ASR_ReplicationNotProgressing_DiskSessionNotProcessing"
+    articleId="ASR_ReplicationNotProgressing_SnapshotCountExceeded"
     diagnosticScenario="ASRA2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
