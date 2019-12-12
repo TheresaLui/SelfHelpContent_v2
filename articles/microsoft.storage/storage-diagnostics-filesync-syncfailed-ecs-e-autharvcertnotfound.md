@@ -26,11 +26,8 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 To resolve this issue, perform the following steps:
 
 1. Verify Azure File Sync agent version 4.0.1.0 or later is installed
-2. Run the following PowerShell command on the server:
-
-    ```powershell
-    Reset-AzStorageSyncServerCertificate -ResourceGroupName <string> -StorageSyncServiceName <string>
-    ```
+2. Run the following PowerShell command on the server: `Reset-AzStorageSyncServerCertificate -ResourceGroupName <string> -StorageSyncServiceName <string>`
 
 ## **Recommended Documents**
+
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
