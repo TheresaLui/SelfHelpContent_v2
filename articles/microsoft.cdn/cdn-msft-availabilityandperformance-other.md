@@ -3,7 +3,7 @@
 	description="availability and performance other"
 	service="microsoft.cdn"
 	resource="profiles"
-	authors="karenha"
+	authors="karenha,mdgattuso"
 	ms.author="karenha,magattus"
 	displayOrder=""
 	selfHelpType="generic"
