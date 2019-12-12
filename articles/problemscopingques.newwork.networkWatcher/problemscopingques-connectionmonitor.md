@@ -11,8 +11,7 @@
 	articleId="ad021338-109f-4290-a45e-asgard"
 />
 # Connection Monitor Scoping Questions
----
-{   
+--- {   
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
@@ -22,10 +21,10 @@
             "id": "region_id",
             "order": 1,
             "controlType": "dropdown",
-			"required": true,
+	    "required": true,
             "displayLabel": "REQUIRED: Please choose the region in which you were trying to create/have created Connection Monitor",
             "watermarkText": "Choose a region",
-			"dynamicDropdownOptions": {
+	        "dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
 				"jTokenPath": "value",
 				"textProperty": "displayName",
@@ -34,12 +33,11 @@
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
 					}
-				}
-		},
+				},
         {
             "id": "operation",
             "order": 2,
-            "controlType": "dropdown",	
+            "controlType": "dropdown",
             "displayLabel": "REQUIRED: Please choose the operation you wanted to perform",
 			"required": true,
 			"dropdownOptions": [
@@ -70,7 +68,12 @@
 				{
 				"value": "See a Connection Monitor by name",
 				"text": "See a Connection Monitor by name"
-				} ]	
+				},
+				{
+				"value": "dont_know_answer",
+				"text": "Other, don't know or not applicable"
+				}
+			]	
         },
         {
             "id": "resource_id",
@@ -142,6 +145,7 @@
             "watermarkText": "Provide additional information about your issue including error messages.",
             "required": true
         }
+      }
     ]
 }
 ---
