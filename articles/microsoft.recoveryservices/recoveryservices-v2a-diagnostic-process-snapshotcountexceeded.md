@@ -7,7 +7,7 @@
     authors="genlin"
     ms.author="aaronmax"
     displayOrder=""
-    articleId="ASR_A2A_ReplicationNotProgressing_SourceMachineChurnRateExceeded"
+    articleId="ASR_ReplicationNotProgressing_SnapshotCountExceeded"
     diagnosticScenario="ASRA2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
