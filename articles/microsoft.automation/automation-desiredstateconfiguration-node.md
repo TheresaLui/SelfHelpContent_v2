@@ -19,6 +19,7 @@
 ## **Recommended Steps**
 
 * For issues on a machine, [collect diagnostic logs](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#steps-to-troubleshoot-desired-state-configuration-dsc)
+* Test
 
 ### "Provisioning failed"
 
