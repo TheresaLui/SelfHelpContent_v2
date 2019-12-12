@@ -28,7 +28,7 @@ If you want to move your Azure Cognitive Search service to a new subscription yo
 4. The account moving the resources has the following permissions:
 
 	* **Microsoft.Resources/subscriptions/resourceGroups/moveResources/action** on the source resource group
-    	* **Microsoft.Resources/subscriptions/resourceGroups/write** on the destination resource group
+	* **Microsoft.Resources/subscriptions/resourceGroups/write** on the destination resource group
 	
 5. If moving between subscriptions, ensure that the Azure Cognitive Search resource and all its dependent resources are located in the same Resource Group and are being moved together
 6. Use the [validate move](https://docs.microsoft.com/rest/api/resources/resources/validatemoveresources) operation to test your move scenario without actually moving the resources.  This operation will check if the move will succeed.
