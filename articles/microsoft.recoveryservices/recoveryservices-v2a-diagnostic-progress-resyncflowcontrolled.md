@@ -1,6 +1,6 @@
 <properties
-    pageTitle="The Site recovery process Server is not uploaded from last 60 minutes"
-    description="Replication status is critical because the replication data on Process Server is not uploaded from last 60 minutes."
+    pageTitle="Azure Recovery Services agent failed to upload replication data"
+    description="Initial replication of VM is stuck as MARS is failing to upload replication data to Azure"
     infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
@@ -16,15 +16,11 @@
     cloudEnvironments="Public"
 />
 
-# Replication status is critical because the Process Server is not uploaded from last 60 minutes
+# Replication status is critical because Azure Recovery Services failed to upload replication data
 <!--issueDescription-->
-We detect that the replication status is critical because replication data on Process Server is not uploaded from last 60 minutes.
+We detect that the replication is not progressing because **Microsoft Azure Recovery Services Agent** service failed to upload replication data.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve the problem, follow these steps:
-
-1. Check MARS agent logs for any upload errors.
-2. Check the ASR service svagents is running. If not start/restart the service
-3. Check the network connectivity to the Azure storage from the Process Server.
+To resolve the problem,  make sure that the **Microsoft Azure Recovery Services Agent** service is not blocked by antivirus program or firewall in the virtual machine.

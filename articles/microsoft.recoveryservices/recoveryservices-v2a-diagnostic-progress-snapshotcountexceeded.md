@@ -8,7 +8,7 @@
     ms.author="aaronmax"
     displayOrder=""
     articleId="ASR_ReplicationNotProgressing_SnapshotCountExceeded"
-    diagnosticScenario="ASRA2AReplicationNotProgressingHealthIssues"
+    diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
     resourceTags=""

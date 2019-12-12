@@ -1,6 +1,6 @@
 <properties
-    pageTitle="The Site recovery process Server is not uploaded from last 60 minutes"
-    description="Replication status is critical because the replication data on Process Server is not uploaded from last 60 minutes."
+    pageTitle="A few of the sessions for the VM are not processing from last 2 hours."
+    description="Replication status is critical because A few of the sessions for the VM are not processing from last 2 hours."
     infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
@@ -16,15 +16,11 @@
     cloudEnvironments="Public"
 />
 
-# Replication status is critical because the Process Server is not uploaded from last 60 minutes
+# Replication status is critical because a disk in the virtual machine is not replicating from last 2 hours
 <!--issueDescription-->
-We detect that the replication status is critical because replication data on Process Server is not uploaded from last 60 minutes.
+We detect that the replication status is critical because a disk in the virtual machine is not replicating from last 2 hours.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve the problem, follow these steps:
-
-1. Check MARS agent logs for any upload errors.
-2. Check the ASR service svagents is running. If not start/restart the service
-3. Check the network connectivity to the Azure storage from the Process Server.
+Please contact Azure support to resolve the issue.
