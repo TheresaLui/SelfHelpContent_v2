@@ -27,13 +27,13 @@ Sync failed for one or more server endpoints under the Storage Sync Service reso
 To resolve this issue, perform the following steps:
 
 1. Verify the Windows service `FileSyncSvc.exe` is not blocked by your firewall.
-2. Verify that port 443 is open to outgoing connections to the Azure File Sync service. You can do this with the `Test-NetConnection` cmdlet. The URL for the `<azure-file-sync-endpoint>` placeholder below can found in the [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall) document. 
+2. Verify that port 443 is open to outgoing connections to the Azure File Sync service. You can do this with the `Test-NetConnection` cmdlet. The URL for the `<azure-file-sync-endpoint>` placeholder below can found in the [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall) document. 
 
     ```powershell
     Test-NetConnection -ComputerName <azure-file-sync-endpoint> -Port 443
     ```
 
-3. Ensure that the proxy configuration is set as anticipated. This can be done with the `Get-StorageSyncProxyConfiguration` cmdlet. More information on configuring the proxy configuration for Azure File Sync can be found in the [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall).
+3. Ensure that the proxy configuration is set as anticipated. This can be done with the `Get-StorageSyncProxyConfiguration` cmdlet. More information on configuring the proxy configuration for Azure File Sync can be found in the [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall).
 
     
 4. Contact your network administrator for additional assistance troubleshooting network connectivity.
@@ -42,5 +42,5 @@ To resolve this issue, perform the following steps:
 ## **Recommended Documents**
 
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
-- [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall)
+- [Azure File Sync proxy and firewall settings](https://docs.microsoft.com/azure/storage/files/storage-sync-files-firewall-and-proxy#firewall)
 
