@@ -23,7 +23,7 @@
 
 ### Import-DSC Resource needs to be on new line
 
-* If importing multiple DSC resources, [list each Import-DscResource statement on a new line](https://docs.microsoft.com/owershell/scripting/dsc/configurations/import-dscresource?view=powershell-5.1)
+* If importing multiple DSC resources, [list each Import-DscResource statement on a new line](https://docs.microsoft.com/powershell/scripting/dsc/configurations/import-dscresource?view=powershell-5.1)
 
 ### Using composite resources
 
