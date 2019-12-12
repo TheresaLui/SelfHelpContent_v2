@@ -21,8 +21,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c8300f or -2134364145**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because change detection is in progress on the Azure file share.<br/><br/>
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
  No action is required. Sync will resume when change detection completes.
 
  ## **Recommended Documents**
+ 
 - [Troubleshoot Azure File Sync - Sync Group Management](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#sync-group-management)
