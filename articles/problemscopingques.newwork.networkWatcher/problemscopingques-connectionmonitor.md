@@ -1,27 +1,31 @@
-<properties
-	pageTitle="Connection Monitor"
-	description="Connection Monitor"
-	authors="vinynigam"
-	ms.author="vinynigam"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32606420"
-	productPesIds="16160"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="ad021338-109f-4290-a45e-asgard"
+<properties 
+    pageTitle="Connection Monitor" 
+    description="Connection Monitor" 
+    authors="vinynigam" 
+    ms.author="vinynigam" 
+    selfHelpType="problemScopingQuestions" 
+    supportTopicIds="32606420" 
+    productPesIds="16160" 
+    cloudEnvironments="public" 
+    schemaVersion="1" 
+    articleId="ad021338-109f-4290-a45e-asgard"
 />
+
 # Connection Monitor Scoping Questions
---- {   
+
+--- 
+{   
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Error while using Connection Monitor",
     "fileAttachmentHint": "",
-    "formElements": [ {
+    "formElements": [ 
+     {
             "id": "region_id",
             "order": 1,
             "controlType": "dropdown",
-	    "required": true,
+	        "required": true,
             "displayLabel": "REQUIRED: Please choose the region in which you were trying to create/have created Connection Monitor",
             "watermarkText": "Choose a region",
 	        "dynamicDropdownOptions": {
@@ -33,7 +37,8 @@
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
 					}
-				},
+				}
+        },
         {
             "id": "operation",
             "order": 2,
@@ -91,7 +96,7 @@
                     {
 					"value": "cm_not_created",
 					"text": "Unable to create Connection Monitor"
-					}, 
+					}
 				}
         },
           {
@@ -145,7 +150,6 @@
             "watermarkText": "Provide additional information about your issue including error messages.",
             "required": true
         }
-      }
     ]
 }
 ---
