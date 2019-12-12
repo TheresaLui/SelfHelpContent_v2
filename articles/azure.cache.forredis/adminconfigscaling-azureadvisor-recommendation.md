@@ -16,7 +16,7 @@
 
 # Azure Advisor recommendation
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+4 out of 5 customers resolved their Azure Cache for Redis issue using the below documents.<br>
 
 ## **Recommended Documents**
 
@@ -25,5 +25,5 @@
 * [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
 * [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
 * [Troubleshoot Azure Cache for Redis timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
-* [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
+* [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)
 
