@@ -1,6 +1,6 @@
 <properties
-	pageTitle="availability and performance for the standard for microsoft/other"
-	description="availability and performance for the standard for microsoft/other"
+	pageTitle="availability and performance other"
+	description="availability and performance other"
 	service="microsoft.cdn"
 	resource="profiles"
 	authors="karenha"
@@ -9,12 +9,12 @@
 	selfHelpType="generic"
 	supportTopicIds="32605815"
 	resourceTags=""
-	productPesIds="16531"
+	productPesIds="16975"
 	cloudEnvironments="public,fairfax,mooncake"
-	articleId="availability and performance other for standard for microsoft"
+	articleId="availability and performance other"
 />
 
-# Availability and performance for the standard for Microsoft/other
+# Availability and performance 
 
 
 ## **Recommended Documents**
