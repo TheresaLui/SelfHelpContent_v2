@@ -26,9 +26,9 @@ When you enable replication for a Azure VM, it fails with error "Task execution 
 
 Verify the site recovery extension status on the VM and retry the operation.
 
-- For a VM running Windows OS, try restarting Windows Azure guest agent service in the VM.
-- For a VM running Linux OS, try restarting Linux Azure guest agent service and ensure that the agent version is the latest version.
+- For a VM running Windows OS, try restarting Windows Azure guest agent service in the VM
+- For a VM running Linux OS, try restarting Linux Azure guest agent service and ensure that the agent version is the latest version
 
 ## **Recommended Documents**
 
-- Fore more information, see [Troubleshoot issues with the Azure Site Recovery agent](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#azure-site-recovery-extension-time-out).
+- For more information, see [Troubleshoot issues with the Azure Site Recovery agent](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#azure-site-recovery-extension-time-out)

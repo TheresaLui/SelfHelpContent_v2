@@ -26,7 +26,7 @@ Replication status is critical because the Azure Site Recovery(ASR) agent's data
 
 Verify the data tracking module status. To do that, follow these steps:
 
-1. Login to Source Machine as user root.
-2. Verify the Linux kernel version (ex: # uname -r) is supported by the currently installed ASR Mobility Service version.
-3. Upgrade to the latest Mobility Service version that [supports for the kernel](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#replicated-machine-operating-systems) if required.
-4. On the Source Machine, check the following log for any errors in "/var/log/svagents*log".
+1. Login to Source Machine as user root
+2. Verify the Linux kernel version (ex: # uname -r) is supported by the currently installed ASR Mobility Service version
+3. Upgrade to the latest Mobility Service version that [supports for the kernel](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#replicated-machine-operating-systems) if required
+4. On the Source Machine, check the following log for any errors in "/var/log/svagents*log"

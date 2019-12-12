@@ -26,9 +26,9 @@ When you enable replication for a Azure VM, it fails with error "Task execution 
 
 Verify the Azure VM agent status is Ready. To do that, follow these steps:
 
-- In Azure portal, go to the VM that is experiencing this failure.
-- Select **Settings**, select **Properties**, then select **Agent status**.
+- In Azure portal, go to the VM that is experiencing this failure
+- Select **Settings**, select **Properties**, then select **Agent status**
 
 ## **Recommended Documents**
 
-- Fore more information, see [Troubleshoot issues with the Azure Site Recovery agent](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#protection-fails-because-the-vm-agent-is-unresponsive).
+- For more information, see [Troubleshoot issues with the Azure Site Recovery agent](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#protection-fails-because-the-vm-agent-is-unresponsive)

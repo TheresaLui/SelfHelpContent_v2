@@ -26,10 +26,10 @@ Replication status is critical because Azure Site Recovery(ASR) Mobility Service
 
 Verify the log storage in Azure is accessible from Source Machine. To do that, follow these steps:
 
-1. Login to Source Machine with administrator privileges on Windows OS or as user root on Linux OS.
-2. Check if the log storage account is accessible by using tools like [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) and the network latencies in uploading the data is good.
-3. Work with the network team to resolve any network issues.
+1. Login to Source Machine with administrator privileges on Windows OS or as user root on Linux OS
+2. Check if the log storage account is accessible by using tools like [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) and the network latencies in uploading the data is good
+3. Work with the network team to resolve any network issues
 4. On the Source Machine, check the following log for any errors:
 
-    - **Windows**: C:\\Program Files (x86)\\Microsoft Azure Site Recovery\\agent\\svagents*log.  
-    - **Linux**: /var/log/svagents*log.
+    - **Windows**: C:\\Program Files (x86)\\Microsoft Azure Site Recovery\\agent\\svagents*log
+    - **Linux**: /var/log/svagents*log

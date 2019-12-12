@@ -28,10 +28,10 @@ Azure Site Recovery is not able to create a failed over virtual machine in Azure
 
 Verify the volume encryption is enabled in target Key Vault. To do that, follow these steps:
 
-- In Azure portal, locate the target Key Vault.
-- In the vault, select **Access polices**.
-- If **Azure Disk Encryption for volume encryption** is not checked, check it and save the changes.
+- In Azure portal, locate the target Key Vault
+- In the vault, select **Access polices**
+- If **Azure Disk Encryption for volume encryption** is not checked, check it and save the changes
 
 ## **Recommended Documents**
 
-- For more information, see [Troubleshoot failover to Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28031).
+- For more information, see [Troubleshoot failover to Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28031)

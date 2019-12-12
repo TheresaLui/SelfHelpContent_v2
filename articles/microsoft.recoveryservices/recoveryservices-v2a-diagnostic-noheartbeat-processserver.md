@@ -26,13 +26,13 @@ Replication status is critical because the Azure Site Recovery service on Proces
 
 Verify the heartbeat from Process Server. To do that, follow these steps:
 
-1. Verify the Process Server machine is up and running.
-2. Login to Process Server with administrator privileges.
-3. Verify that the service **tmansvc** is running. And then, start or restart the service.
+1. Verify the Process Server machine is up and running
+2. Login to Process Server with administrator privileges
+3. Verify that the service **tmansvc** is running, then start or restart the service
 4. On the Process Server, check the following logs for any errors:
 
-    - C:\\ProgramData\\ASR\\home\\svsystems\\eventmanager*log.
-    - C:\\ProgramData\\ASR\\home\\svsystems\\monitor_protection*.log.
+    - C:\\ProgramData\\ASR\\home\\svsystems\\eventmanager*log
+    - C:\\ProgramData\\ASR\\home\\svsystems\\monitor_protection*.log
 
 ## **Recommended Documents**
 
