@@ -78,7 +78,7 @@
             "controlType": "dropdown",
 			"required": true,
             "displayLabel": "REQUIRED: Please choose the CM resource with the error. If you were unable to create a CM, choose Not Created",
-            "watermarkText": "If you were unable to create a CM, choose Not Created.If the issue is with all your connection monitors, choose All Connection Monitors",
+            "watermarkText": "If you were unable to create a CM, choose Not Created.",
 			"dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
 				"jTokenPath": "value",
@@ -88,11 +88,7 @@
                     {
 					"value": "cm_not_created",
 					"text": "Unable to create Connection Monitor"
-					},
-                    { "value": "all_cm",
-					"text": "All Connection Monitors"
-                    }
-                  
+					}, 
 				}
         },
           {
