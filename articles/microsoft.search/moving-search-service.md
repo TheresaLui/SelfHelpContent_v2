@@ -22,14 +22,16 @@ It is important to note that both the source group and the target group are lock
 
 If you want to move your Azure Cognitive Search service to a new subscription you will want to ensure that:
 
-1.	You have reviewed the [Checklist](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources) before moving resources.
-2.	Both the source and destination subscriptions are active.
-3.	Both the source and destination subscriptions must exist with the same [Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/quickstart-create-new-tenant).
-4.	The account moving the resources has the following permissions:
-    * a.	**Microsoft.Resources/subscriptions/resourceGroups/moveResources/action** on the source resource group.
-    * b.	**Microsoft.Resources/subscriptions/resourceGroups/write** on the destination resource group.
-5.	If moving between subscriptions, ensure that the Azure Cognitive Search resource and all its dependent resources are located in the same Resource Group and are being moved together.
-6.	Use the [validate move](https://docs.microsoft.com/rest/api/resources/resources/validatemoveresources) operation to test your move scenario without actually moving the resources.  This operation will check if the move will succeed.
+1. You have reviewed the [Checklist](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources) before moving resources
+2. Both the source and destination subscriptions are active
+3. Both the source and destination subscriptions must exist with the same [Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/quickstart-create-new-tenant)
+4. The account moving the resources has the following permissions:
+
+	* **Microsoft.Resources/subscriptions/resourceGroups/moveResources/action** on the source resource group
+    	* **Microsoft.Resources/subscriptions/resourceGroups/write** on the destination resource group
+	
+5. If moving between subscriptions, ensure that the Azure Cognitive Search resource and all its dependent resources are located in the same Resource Group and are being moved together
+6. Use the [validate move](https://docs.microsoft.com/rest/api/resources/resources/validatemoveresources) operation to test your move scenario without actually moving the resources.  This operation will check if the move will succeed.
 
 ## **Recommended Documents**
 
