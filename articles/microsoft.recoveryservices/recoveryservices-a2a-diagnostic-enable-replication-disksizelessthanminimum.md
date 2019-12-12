@@ -25,6 +25,5 @@ Failed to enable replication for the virtual machine <!--$vmname-->[vmname]<!--/
 
 To resolve the issue, follow these steps:
 
-1. Make sure that the disk size of the virtual machine is larger than 1 GB. To resize the disk size, see [How to expand the disk of a virtual machine
-](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resize-a-managed-disk).
-2. Remove the BitLocker encrypted disk or turn off the encryption.
+1. Make sure that the disk size of the virtual machine is larger than 1 GB. To resize the disk size, see [How to expand the disk of a virtual machine](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resize-a-managed-disk).
+2. Remove the BitLocker encrypted disk or turn off the encryption
