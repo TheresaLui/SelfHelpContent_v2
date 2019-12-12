@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Replication is not progressing as Process Server is not reachable"
-    description="Replication status is critical because ASR agent on Source Machine is not able to connect to Process Server."
+    pageTitle="The number of snapshots count have exceeded the limit"
+    description="Replication status is critical because the number of snapshot count have exceeded the limit."
     infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
@@ -16,23 +16,12 @@
     cloudEnvironments="Public"
 />
 
-# Replication is not progressing as Process Server is not reachable
+# Replication status is critical because the maximum number of snapshots is reached
 
 <!--issueDescription-->
-Replication status is critical because Azure Site Recovery agent on Source Machine is not able to connect to Process Server.
+The Replication is not progressing because the maximum number of snapshots is reached.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Verify the network connectivity from source VM to Process Server. To do that, follow these steps:
-
-1. Verify the Process Server machine is up and running
-2. Login to Process Server with administrator privileges
-3. Verify that the service **cxprocessserver** is running, then start or restart the service
-4. Login to source VM with administrator (root user on Linux OS) privileges
-5. Run **cxpsclient** tool to check network connectivity: cxpsclient -i <Process_Server_IP> -l 9443 -v 2
-6. On the Process Server, check the following log for any errors "C:\\ProgramData\\ASR\\home\\svsystems\\transport\\log\\cxps*log"
-
-## **Recommended Documents**
-
-- [Troubleshoot VMware-to-Azure VM replication issues](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication)
+Please wait for some time for Site recovery service to delete the old snapshots in order to resume replication. If issue still occurs, please contact Azure support.

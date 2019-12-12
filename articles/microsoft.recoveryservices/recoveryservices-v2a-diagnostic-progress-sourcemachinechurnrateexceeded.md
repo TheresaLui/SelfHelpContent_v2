@@ -1,13 +1,13 @@
 <properties
-    pageTitle="The Site recovery process Server is not uploaded from last 60 minutes"
-    description="Replication status is critical because the replication data on Process Server is not uploaded from last 60 minutes."
-    infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
+    pageTitle="Date churn rate on source virtual machine exceeded supported limits"
+    description="Date churn rate on source virtual machine exceeded supported limits"
+    infoBubbleText="The disk data change rate on the source virtual machine exceeded supported limits. Please see details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
-    authors="genlin"
+    authors="asgang"
     ms.author="asgang,genli"
     displayOrder=""
-    articleId="V2A_ReplicationNotProgressing_SourceMachineChurnRateExceeded"
+    articleId="ASR_V2A_ReplicationNotProgressing_SourceMachineChurnRateExceeded"
     diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
@@ -16,15 +16,19 @@
     cloudEnvironments="Public"
 />
 
-# Replication status is critical because the Process Server is not uploaded from last 60 minutes
+# Date churn rate on source virtual machine exceeded supported limits
 <!--issueDescription-->
-We detect that the replication status is critical because replication data on Process Server is not uploaded from last 60 minutes.
+The Replication status is critical because the disk data change rate on the source virtual machine exceeded supported limits. Azure Site Recovery has limits on data change rate, based on the type of disk.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To resolve the problem, follow these steps:
+1. Check [Azure Site Recovery Limit](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#azure-site-recovery-limits)
+2. [Identify the disk that](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#solution) is churning at higher than supported rate
+3. Exclude the disk that causes a high data-change rate, or upgrade the disk to higher tier if it is possible
 
-1. Check MARS agent logs for any upload errors.
-2. Check the ASR service svagents is running. If not start/restart the service
-3. Check the network connectivity to the Azure storage from the Process Server.
+If you cannot remove the disk or the higher tier disk still cannot resolve the issue, the machine cannot be replicated using Azure Site Recovery.
+
+## **Recommended Documents**
+
+* [High data change rate on the source virtual machine](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#high-data-change-rate-on-the-source-virtal-machine)
