@@ -26,7 +26,7 @@ Container recovery is only possible under the following conditions. Please check
    * [Geo-redundant storage (GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs)
    * [Read-access geo-redundant storage (RA-GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage)
    * [Geo-zone-redundant storage (GZRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-gzrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) <br>
-3. A new container with the same name has not been created.
+3. A new container with the same name has not been created
 
 **Note:** As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that the data deleted by our customer is eventually overwritten. Recovery is a best-effort process, this container may not be recoverable even when all conditions above are true.
 
