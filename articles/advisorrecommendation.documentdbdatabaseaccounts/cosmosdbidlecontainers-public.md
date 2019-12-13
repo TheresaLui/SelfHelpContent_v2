@@ -7,13 +7,16 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# Sample title
+# Consider taking action on your idle Azure Cosmos DB containers
 ---
 {
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a4255ba5-b07e-45ae-99ca-25e6c2079e3c",
+  "dataSourceMetadata": {
+    "dataSource": "SAS"
+  },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Low",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
