@@ -48,7 +48,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],
