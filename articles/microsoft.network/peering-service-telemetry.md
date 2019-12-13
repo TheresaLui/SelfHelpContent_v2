@@ -10,7 +10,7 @@
     articleId="peering-service-telemetry"
 	supportTopicIds="32689971"
 	resourceTags=""
-	productPesIds="16931"
+	productPesIds="16932"
 	cloudEnvironments="public,fairfax,mooncake"
 />
 

@@ -10,7 +10,7 @@
     articleId="peering-service-configuration"
 	supportTopicIds="32689967"
 	resourceTags=""
-	productPesIds="16931"
+	productPesIds="16932"
 	cloudEnvironments="public,fairfax,mooncake"
 />
 

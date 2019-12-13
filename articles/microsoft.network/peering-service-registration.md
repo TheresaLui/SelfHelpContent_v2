@@ -10,7 +10,7 @@
     articleId="peering-service-registration"
 	supportTopicIds="32689970"
 	resourceTags=""
-	productPesIds="16931"
+	productPesIds="16932"
 	cloudEnvironments="public,fairfax,mooncake"
 />
 
