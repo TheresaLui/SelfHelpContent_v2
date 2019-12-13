@@ -46,6 +46,11 @@ Solution: Use a conditional access policy and exempt the HDInsight clusters from
 
 * Check [Azure Status](https://status.azure.com/status) for any potential outages or service issues.
 
+**Invalid Network Configuration**
+
+* Due to having an invalid network configuration, the Azure AD Domain Services Sync Agent cannot reach customer's domain on TCP\443. This will cause cluster deployment failures.
+* Solution:  [Follow Documentation](https://docs.microsoft.com/azure/active-directory-domain-services/synchronization).
+
 **Azure Data Lake Storage Gen 1 and HBASE**
 
 * If you are using [Azure Data Lake Storage Gen1](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store), understand that it is not supported for HBASE clusters, and is not supported in HDInsight version 4.0

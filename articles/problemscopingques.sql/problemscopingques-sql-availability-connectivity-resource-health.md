@@ -16,10 +16,10 @@
   "$schema": "SelfHelpContent",
   "resourceRequired": true,
   "subscriptionRequired": true,
-  "title": "Resource Health Scoping Questions",
+  "title": "Resource Health scoping questions",
   "fileAttachmentHint": "",
 	"diagnosticCard": {
-	  "title": "Resource Health Scoping Questions",
+	  "title": "Resource Health scoping questions",
 	  "description": "These diagnostics will check for errors and issues with Resource Health",
 	  "insightNotAvailableText": "We did not find any issues."
 	},
@@ -91,7 +91,7 @@
       "id": "sqlexception_received_on_client",
       "order": 2000,
       "controlType": "multilinetextbox",
-      "displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+      "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
       "required": false,
       "visibility": true,
       "diagnosticInputRequiredClients": "Portal"

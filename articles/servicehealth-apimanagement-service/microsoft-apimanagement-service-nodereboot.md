@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime-->startTime<!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime-->startTime<!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
 
 The cloud service that powers your API Management instance is being rebooted. A reboot of the API Management's underlying cloud service is most likely triggered by an automatic upgrade.
 <!--/issueDescription-->
