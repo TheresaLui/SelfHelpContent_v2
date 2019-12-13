@@ -7,7 +7,7 @@
     ms.author="emlisa"
     authorAlias="emlisa"
 	displayOrder="28"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
