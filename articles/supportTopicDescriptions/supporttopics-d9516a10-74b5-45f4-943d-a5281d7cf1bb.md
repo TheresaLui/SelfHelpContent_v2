@@ -40,6 +40,14 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "searchTags": "backup, restore",
       "useInDiagnoseAndSolve": "true"
     },
+	{
+      "id": "32fcb788-23bc-4ba2-d791-990ca98d02d7",
+      "shortDescription": "How to migrate data to Azure Cosmos DB, estimate the throughput needs and optimize migration",
+      "longDescription": "",
+      "category": "Backup and Restore",
+      "searchTags": "migration, data migration, data ingestion",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "41bc06c8-9fce-9aec-143d-95c138a89c3c",
       "shortDescription": "Any configuration requests related to backup and restore",
@@ -168,9 +176,33 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "searchTags": "scaling, throughput",
       "useInDiagnoseAndSolve": "true"
     },
-    {
+	{
+      "id": "4b3bfd7d-7dbe-3eba-1261-6ffb0063ef0e",
+      "shortDescription": "Issues using Autopilot mode to instantly scale workload on containers and databases",
+      "longDescription": "",
+      "category": "Throughput",
+      "searchTags": "scaling, throughput, autopilot, autoscale",
+      "useInDiagnoseAndSolve": "true"
+    },
+	{
+      "id": "73be4f4b-40e2-8bf2-1755-8e13081d1e1e",
+      "shortDescription": "Connections to Azure Cosmos DB are timing out, or application is getting service unavailable exceptions",
+      "longDescription": "",
+      "category": "Throughput",
+      "searchTags": "connectivity, availability",
+      "useInDiagnoseAndSolve": "true"
+    },
+	{
+      "id": "a37e0716-eb5d-3181-01f8-c9c84308c544",
+      "shortDescription": "Monitor your Azure Cosmos DB account using Metrics in Azure Portal",
+      "longDescription": "",
+      "category": "Throughput",
+      "searchTags": "monitoring, metrics",
+      "useInDiagnoseAndSolve": "true"
+    },
+	{
       "id": "d16a7a67-2415-f9be-842f-761833fd7daa",
-      "shortDescription": "Query and Indexing",
+      "shortDescription": "Unable to customize index, index creation is not taking effect, rebuilding index and query is not using index",
       "longDescription": "",
       "category": "Throughput",
       "searchTags": "query, indexing",
@@ -465,14 +497,6 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "037499a8-596c-dd3d-7139-771906c07cd9",
-      "shortDescription": "How to get started with Cosmos DB Gremlin, samples for using gremlin with Cosmos DB",
-      "longDescription": "",
-      "category": "Gremlin",
-      "searchTags": "gremlin getting started, samples",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
       "id": "e403071c-6daa-8737-4e64-1c2ab7fd9192",
       "shortDescription": "Issues or questions related to limits enforced by Azure Cosmos DB Gremlin",
       "longDescription": "",
@@ -494,22 +518,6 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "longDescription": "",
       "category": "Gremlin",
       "searchTags": "gremlin, performance, high ru, throttling",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "e35f6e40-1ef4-a769-0b9b-d346e67f767c",
-      "shortDescription": "Questions or issues with response header returned by Azure Cosmos DB Gremlin API",
-      "longDescription": "",
-      "category": "Gremlin",
-      "searchTags": "gremlin, response headers",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "743771fb-e776-bcc2-07c9-86cf70de4c31",
-      "shortDescription": "Question or issues with system properties with Azure Cosmos DB Gremlin API",
-      "longDescription": "",
-      "category": "Gremlin",
-      "searchTags": "gremlin, system properties",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -774,6 +782,14 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "longDescription": "",
       "category": "Billing and Pricing",
       "searchTags": "billing, pricing, high charge",
+      "useInDiagnoseAndSolve": "true"
+    },
+	{
+      "id": "b88dfc2f-a571-09d3-42e4-dab22d9b46a6",
+      "shortDescription": "Information about Reserved Instance offer",
+      "longDescription": "",
+      "category": "Billing and Pricing",
+      "searchTags": "reserved instance, RI, pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
