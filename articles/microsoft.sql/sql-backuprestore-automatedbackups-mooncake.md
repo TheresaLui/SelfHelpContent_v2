@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 	resourceTags="servers, databases"
-	articleId="sqldb-selfhelp-solutions-backuprestore-automatedbackups"
+	articleId="sqldb-selfhelp-solutions-backuprestore-automatedbackups-mooncake"
 />
 
 # Issues with SQL Database backup, restore, automated backups or point in time restore

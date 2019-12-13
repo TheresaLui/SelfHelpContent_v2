@@ -10,7 +10,7 @@
 	supportTopicIds="32688668"
 	productPesIds="13491"
 	cloudEnvironments="public"
-	articleId="f39fd2ea-00d9-4c05-a271-35611754ad1c"
+	articleId="f39fd2ea-00d9-4c05-a271-35611754ad1c-mooncake"
 />
 
 # backup/restore/restore
