@@ -34,7 +34,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms",
+  "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms",
   "description": "Enable Accelerated Networking to improve network performance and latency",
   "longDescription": "When customer deployments with VM resources are disabled with AN can cause latency to the overall deployment where these instances are created. Create an alert for the regions and VM resources that you care about to receive actionable alters with recommendations.",
   "potentialBenefits": "Improves performance throughput while reducing latency and jitter",
@@ -63,9 +63,9 @@
       }
     }
   },
-  "displayLabel": " Enable Accelerated Networking to improve network performance and latency",
+  "displayLabel":"Enable Accelerated Networking to improve network performance and latency",
   "additionalColumns": [],
-  "testData": "/3cef96b2-cfcf-471e-87cf-b9d38a6d5b9a,/subscriptions/014e7430-fd92-4579-9119-e861d926508a/resourceGroups/laxmanrb-BLAPrdApp27-rg/providers/Microsoft.Compute/virtualMachines/cx3vm-ds5v2-1”,
- "tip": " Enable Accelerated Networking to improve network performance and latency."
+  "testData":"/3cef96b2-cfcf-471e-87cf-b9d38a6d5b9a,/subscriptions/014e7430-fd92-4579-9119-e861d926508a/resourceGroups/laxmanrb-BLAPrdApp27-rg/providers/Microsoft.Compute/virtualMachines/cx3vm-ds5v2-1",
+ "tip": "Enable Accelerated Networking to improve network performance and latency."
 }
 ---
