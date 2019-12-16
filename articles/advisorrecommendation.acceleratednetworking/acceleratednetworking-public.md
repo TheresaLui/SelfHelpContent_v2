@@ -46,9 +46,8 @@
       "extensionName": "HubExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "id": "{resourceId}"
-	"menuid": "{enableAN}"
-
+        "id": "{resourceId}",
+	"menuid": "enableAN"
       }
     }
   ],
