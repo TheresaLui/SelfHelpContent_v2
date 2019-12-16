@@ -30,7 +30,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Description:",
+            "displayLabel": "Additional details:",
             "watermarkText": "Provide description about your issue",
             "required": true,
             "hints": []

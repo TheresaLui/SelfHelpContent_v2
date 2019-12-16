@@ -3,8 +3,8 @@
 	description="How to develop with CLI"
 	service="microsoft.storage"
 	resource="storage"
-	authors="passaree"
-	ms.author="passap"
+	authors="kashah"
+	ms.author="kashah"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602718"
@@ -18,6 +18,8 @@
 
 ## **Recommended Documents**
 
+Most customers resolve their Azure Command-Line Interface(CLI) related issues with Blob Storage on their own, using the links below.
+
+- [Azure Blob Storage CLI Commands](https://docs.microsoft.com/cli/azure/storage/blob?view=azure-cli-latest)<br>
+- [Azure Storage CLI Commands](https://docs.microsoft.com/cli/azure/storage?view=azure-cli-latest)<br>
 - [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)<br>
-- [Azure CLI Commands](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest)
-- [Azure Blob Storage CLI Commands](https://docs.microsoft.com/cli/azure/storage/blob?view=azure-cli-latest)

@@ -24,6 +24,7 @@ Azure has a quota limit of 800 deployments per resource group. Scale deployments
 1. From the portal, sign into the portal and navigate to your resource group
 1. Select **Deployments** from the resource group. If this count shows that it has reached the limit, delete old deployments to fix the issue. You can safely delete all deployments that are "X" days old. "X" can be 30 or so based on how frequent deployments happen in this resource group.
 
+
 **Operations Management Suite (OMS) is enabled and blocking the ability to scale**
 
 Customers have experienced issues with scale-up operations failing during an OMS script installation. This is a known issue. If you have OMS enabled, please disable OMS temporarily, scale-up the cluster, then re-enable OMS.
@@ -39,6 +40,7 @@ To temporarily disable Operations Management Suite (OMS) follow steps below:
 **Additional Information**
 
 * HDInsight does not allow you to upgrade worker node disk sizes on a running cluster. Currently, you must choose the disk size when the cluster is created. HDInsight clusters are designed to be easily dropped and re-created.
+* Once a cluster is deployed, customer’s cannot increase or decrease the diskspace of the nodes. Customer’s can free up logs or free data on mount to get more disk space.
 * It is recommended that you scale down HDInsight to a minimum of three worker nodes. For Kafka, you cannot scale down the worker nodes.
 * Scaling your HDInsight is not possible via ARM templates. You can scale your cluster using five different methods:
 

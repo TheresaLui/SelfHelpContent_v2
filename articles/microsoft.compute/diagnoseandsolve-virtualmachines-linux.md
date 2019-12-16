@@ -3,8 +3,8 @@ pageTitle="Top common problems for compute"
 description="Menu based workflow document for top compute problems"        
 service="microsoft.compute"
 resource="virtualmachines"
-authors="gansmore"
-ms.author="ganesh.more"
+authors="gansmore,summertgu"
+ms.author="ganesh.more,tiag"
 displayOrder=""
 articleId="0f103d3a-dc19-45af-b25d-de8338e002ce"
 selfHelpType="diagnoseandsolve"
@@ -584,7 +584,7 @@ cloudEnvironments="public"
       "type": "tool",
       "bladeLink": {
         "extensionName": "Microsoft_Azure_Compute",
-        "bladeName": "SerialConsoleBlade",
+        "bladeName": "VmSerialConsoleValidationBlade",
         "parameters": [
           {
             "name": "id",

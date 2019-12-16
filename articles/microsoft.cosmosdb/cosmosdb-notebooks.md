@@ -5,11 +5,11 @@
 	resource="databaseAccounts"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32688847"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-notebooks"
 	displayOrder="91"
 	category="Azure Cosmos DB - Notebooks"
@@ -19,7 +19,7 @@
 
 **Problem**
 
-Unable to create account with notebooks, or enable notebooks on an existing account
+Unable to create account with notebooks, or enable notebooks on an existing account.
 
 ## **Recommended Steps**
 
@@ -27,9 +27,10 @@ Built-in notebooks for Azure Cosmos DB are currently available in the following 
 
 To use notebooks, create a new account with notebooks or enable notebooks on an existing account in one of these regions.
 
+### **Recommended Documents**  
 
-### **Recommended Documents**
+[Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
+<br>This article describes how to enable this feature for your Azure Cosmos DB account.  
 
-* [How to Enable notebooks for Azure Cosmos DB accounts](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
-* [Use built-in notebook commands and features in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
-
+[How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
+<br>This article describes how to use built-in notebook commands and features to do common operations.
