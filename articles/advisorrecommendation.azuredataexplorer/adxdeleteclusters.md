@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Detect unused/empty Azure Data Explorer (ADX) clusters."
-    description="Detect unused/empty Azure Data Explorer (ADX) clusters."
+    pageTitle="Detect unused or empty Azure Data Explorer (ADX) clusters."
+    description="Detect unused or empty Azure Data Explorer (ADX) clusters."
     authors="raldaba"
     ms.author="aoaft"
     articleId="d9c2f871-904e-4907-8572-0a33b0651f01_Public"
@@ -46,7 +46,7 @@
   "version": 1.0,
   "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
   "description": "Unused/Empty Azure Data Explorer clusters",
-  "longDescription": "This recommendation surfaces all Azure Data Explorer clusters which were provisioned more than 10 days ago from this recommendation generated date and found either completely empty or with no activity. The recommended action is to validate and consider deleting the empty\unused Azure Data Explorer clusters.",
+  "longDescription": "This recommendation surfaces all Azure Data Explorer clusters which were provisioned more than 10 days ago from this recommendation generated date and found either completely empty or with no activity. The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
   "potentialBenefits": "Optimize Azure spend",
   "actions": [
     {
