@@ -14,7 +14,7 @@
   "recommendationTypeId": "3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4",
   "dataSourceMetadata": {
     "streamNamespace": "cluster ('https://vmainsight.kusto.windows.net').database('vmaexpdb').AzureAdvisorForANcapableVMs",
-    "dataSource": "kusto",
+    "dataSource":"kusto",
     "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "Performance",
