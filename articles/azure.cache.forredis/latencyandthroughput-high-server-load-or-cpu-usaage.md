@@ -1,6 +1,6 @@
 <properties
 	pageTitle="High server load or CPU usage with Azure Cache For Redis"
-	description="AHigh server load or CPU usage with Azure Cache For Redis"
+	description="High server load or CPU usage with Azure Cache For Redis"
 	service="microsoft.cache"
 	resource=""
 	authors="johnnygetHub"
@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32690913"
 	resourceTags=""
-	productPesIds=""14783"
+	productPesIds="14783"
 	cloudEnvironments="public"
 	articleId="9566adb5-02cf-4f1e-84f8-35981ddf10f6"
 />

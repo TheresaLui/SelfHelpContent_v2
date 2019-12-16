@@ -14,7 +14,7 @@
 	articleId="eb547396-c894-4092-8f73-d0c3084b7b66"
 />
 
-#High latency with Azure Cache For Redis
+# High latency with Azure Cache For Redis
 
 4 out of 5 customers resolved their Azure Cache For Redis issue using the below documents.<br>
 

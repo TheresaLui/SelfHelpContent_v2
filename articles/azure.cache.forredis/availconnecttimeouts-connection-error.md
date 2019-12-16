@@ -22,7 +22,7 @@
 
 * [Troubleshooting timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
 * [VNET FAQ](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-premium-vnet#azure-cache-for-redis-vnet-faq)<br>
-* [Best practices for Azure Cache for Redis](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-best-practices)<br>
+* [Best practices for Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
 * [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
 * [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
 * [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)
