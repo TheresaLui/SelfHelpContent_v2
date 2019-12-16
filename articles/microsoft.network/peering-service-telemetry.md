@@ -16,11 +16,8 @@
 
 # Issues relating to Peering Service Telemetry
 
-## **Recommended steps**
-## To resolve the most common issues, try one or more of the following methods.
-## Possibly to be added
+## **Recommended Documents**
 
-## **Recommended documents**
 - [Azure Peering Service Connection Telemetry (Preview)](https://docs.microsoft.com/azure/peering-service/connection-telemetry)
 - [Understanding Azure Peering Service Connection Telemetry (Preview)](https://docs.microsoft.com/azure/peering-service/measure-connection-telemetry)
 - [What is Azure Peering Service? (Preview)](https://docs.microsoft.com/azure/peering-service/about)
