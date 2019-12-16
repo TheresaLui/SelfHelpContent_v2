@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-Most customers resolved their questions about metrics on their own with the documents below.
+Most customers resolved their questions about metrics on their own with the links below.
 
 - [Azure Storage metrics in Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-metrics-in-azure-monitor):
 
