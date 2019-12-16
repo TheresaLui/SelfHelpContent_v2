@@ -26,7 +26,7 @@ Replication status is critical because Azure Site Recovery agent on Source Machi
 
 Verify the heartbeat for Source Machine. To do that, follow these steps:
 
-1. Verify the Source Machine is up and running.
-2. Login to Source Machine with administrator privileges.
-3. Verify that the service **svagents** and **InMage Scout Application Service** are running and then start or restart the services.
-4. On the Source Machine, check the following log for any errors in C:\\Program Files (x86)\\Microsoft Azure Site Recovery\\agent\\svagents*log.
+1. Verify the Source Machine is up and running
+2. Login to Source Machine with administrator privileges
+3. Verify that the service **svagents** and **InMage Scout Application Service** are running and then start or restart the services
+4. On the Source Machine, check the following log for any errors in C:\\Program Files (x86)\\Microsoft Azure Site Recovery\\agent\\svagents*log
