@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Managing firewall rules for Azure Database for PostgreSQL"
+    pageTitle="Managing firewall rules for Azure Database for PostgreSQL"  
     description="Managing firewall rules for Azure Database for PostgreSQL"
     service="microsoft.dbforpostgresql"
     resource="servers"

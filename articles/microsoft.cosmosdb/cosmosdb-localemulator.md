@@ -5,7 +5,7 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32675642"
 	resourceTags=""
 	productPesIds="15585"

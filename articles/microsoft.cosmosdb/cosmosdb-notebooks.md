@@ -5,7 +5,7 @@
 	resource="databaseAccounts"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32688847"
 	resourceTags=""
 	productPesIds="15585"
@@ -29,5 +29,8 @@ To use notebooks, create a new account with notebooks or enable notebooks on an 
 
 ### **Recommended Documents**  
 
-* [Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
-* [How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
+[Enable built-in notebooks](https://docs.microsoft.com/azure/cosmos-db/enable-notebooks)
+<br>This article describes how to enable this feature for your Azure Cosmos DB account.  
+
+[How to use notebook features](https://docs.microsoft.com/azure/cosmos-db/use-notebook-features-and-commands)
+<br>This article describes how to use built-in notebook commands and features to do common operations.

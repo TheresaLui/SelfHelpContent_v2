@@ -1,8 +1,8 @@
 <properties
 description = "Support topic description for Virtual Machine running Windows"
 pageTitle = "Support topic description for VM running Windows"
-authors = "akankshajsh"
-ms.author = "akjoshi"
+authors = "scottAzure"
+ms.author = "scotro"
 icmTeam="icmteam"
 icmService="icmservice"
 feedbackEmail="email"
@@ -25,7 +25,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
     "SupportTopics": [
         {
             "id": "4fc9f99b-00f8-a3ca-cd9e-0c4648ce1d90",
-            "shortDescription": "Other issues related to backing up or restoring your Azure virtual machine not listed above using Azure Backup",
+            "shortDescription": "Other issues related to using Azure Backup to back up or restore your Azure virtual machine, not listed above",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -39,14 +39,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "5dd4e579-22b4-ee21-ee22-6b027061b157",
-            "shortDescription": "Requests to help with configuring backups for your Azure virtual machine using Azure Backup",
+            "shortDescription": "Requests for help with configuring backups for your Azure virtual machine using Azure Backup",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
             "id": "2abbb2fc-32d4-402c-6d5d-e7a28a7dc95e",
-            "shortDescription": "The length of time it takes to restore your VM is taking longer than expected using Azure Backup",
+            "shortDescription": "The length of time it takes to restore your VM with Azure Backup is taking longer than expected",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -95,7 +95,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "92c2396d-b703-973f-1bca-2eea9425b21a",
-            "shortDescription": "Resolve issues not covered by other support topics and related to connecting via RDP or SSH",
+            "shortDescription": "Resolve issues related to connecting via RDP or SSH not covered by other support topics",
             "category": "Connectivity",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -368,7 +368,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "cd0edcee-79fe-4f6a-5fa8-7ffe6d9e6a5c",
-            "shortDescription": "Using Azure Scheduled Events to give your virtual machine to to prepare for scheduled maintenance",
+            "shortDescription": "Using Azure Scheduled Events to prepare your virtual machine for scheduled maintenance",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -431,7 +431,7 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         },
         {
             "id": "1135e3d0-20e2-aec5-4ef0-55fd3dae2d58",
-            "shortDescription": "Assistance with migrating IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)",
+            "shortDescription": "Assistance migrating IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)",
             "category": "Management",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
@@ -936,6 +936,55 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
         {
             "id": "bc6dcea4-b6da-cd06-7ab1-1ddfb603eaee",
             "shortDescription": " ",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "44e1bd26-fbd8-a7f9-f8de-8a2b47ccb27e",
+            "shortDescription": "Troubleshoot issues with activating Windows for a virtual machine running in Azure",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "ebd329a3-fb2f-0895-7d80-e944994bcfab",
+            "shortDescription": "Requesting help with activating Windows for a machine has never been activated before",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "5c13b65d-2d3c-a335-d7a0-fac839d34d2b",
+            "shortDescription": "Covers issues where Windows was previously activated and now isn't",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "f55ae157-8eae-55e0-db62-d976220c3b4b",
+            "shortDescription": "Covers issues where Windows reported a specific activation error",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "e587028f-8d91-4c0f-a265-b1f08a6d22cf",
+            "shortDescription": "Covers issues where Windows activation is having issues due to Express Route configuration",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "1ceb0742-9626-0670-452f-e853aa789deb",
+            "shortDescription": "Covers issues where the activation key or license is not working properly",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "d36debab-2411-5fcc-6fcc-f28b5a18a804",
+            "shortDescription": "Covers issues when the KMS Windows Server is located on-premises",
             "category": "",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"

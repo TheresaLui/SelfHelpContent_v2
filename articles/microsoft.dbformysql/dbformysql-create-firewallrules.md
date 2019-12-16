@@ -1,6 +1,6 @@
 <properties
     pageTitle="Managing firewall rules for Azure Database for MySQL"
-    description="Managing firewall rules for Azure Database for MySQL"
+    description="Managing firewall rules for Azure Database for MySQL"  
     service="microsoft.dbformysql"
     resource="servers"
     authors="jan-eng"

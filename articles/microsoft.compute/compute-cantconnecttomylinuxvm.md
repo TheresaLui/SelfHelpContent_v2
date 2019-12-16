@@ -37,3 +37,4 @@ To resolve common issues, try one or more of the following:
 
 * [Detailed troubleshooting of SSH errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-ssh-connection) <br>
 * [Automate Linux VM Customization Tasks using Custom Script Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension/)
+* [Troubleshooting a Linux VM that is using LVM and is not booting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/chroot-logical-volume-manager)

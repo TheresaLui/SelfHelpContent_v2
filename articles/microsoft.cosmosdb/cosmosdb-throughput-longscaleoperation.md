@@ -4,8 +4,8 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="kennthhz"
-	ms.author="haozhag, padmaa"
-	selfHelpType="resource"
+	ms.author="jimsch"
+	selfHelpType="generic"
 	supportTopicIds="32636798"
 	resourceTags=""
 	productPesIds="15585"
@@ -17,9 +17,9 @@
 
 # Azure Cosmos DB about long running scale operations
 
-**How long will my scale operation take?**
+**How long will my scale operation take?**  
 
-Azure Cosmos DB currently only supports scale up operation. It is typically a long running operation. You can use below table to estimate how long it will take.
+Azure Cosmos DB currently only supports scale up operation. It is typically a long running operation. You can use below table to estimate how long it will take.  
 
 **Note**: Minimum Throughput - **Scale Factor** - *Estimated Duration*
 
@@ -33,7 +33,16 @@ Azure Cosmos DB currently only supports scale up operation. It is typically a lo
 
 ## **Recommended Documents**
 
-* [Request units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
-* [Request unit calculator](https://www.documentdb.com/capacityplanner)
-* [Set and get throughput for Azure Cosmos DB containers and database](https://docs.microsoft.com/azure/cosmos-db/set-throughput)
-* [Partition and scale in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data)
+[Request units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
+<br>This article defines how request units (RU) is calculated and steps you need to ensure there are enough resources to meet or exceed the Azure Cosmos DB SLAs.  
+
+[Request unit calculator](https://www.documentdb.com/capacityplanner)
+<br>The request unit calculator offers you a quick estimate of the workload cost on Cosmos DB.  
+
+[Set and get throughput for Azure Cosmos DB containers and database](https://docs.microsoft.com/azure/cosmos-db/set-throughput)
+<br>This article describes how you can provision throughput at two granularities
+* Azure Cosmos containers
+* Azure Cosmos databases  
+
+[Partition and scale in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data)
+<br>This article explains physical and logical partitions in Azure Cosmos DB. It also discusses best practices for scaling and partitioning.
