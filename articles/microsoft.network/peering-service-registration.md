@@ -16,11 +16,8 @@
 
 # Issues relating to registration/modification of Peering Service prefixes
 
-## **Recommended steps**
-## To resolve the most common issues, try one or more of the following methods.
-## Possibly to be added
+## **Recommended Documents**
 
-## **Recommended documents**
 - [What is Azure Peering Service? (Preview)](https://docs.microsoft.com/azure/peering-service/about)
 - [Connections in Azure Peering Service (Preview)](https://docs.microsoft.com/azure/peering-service/connection)
 - [Use Azure Portal to Register for Azure Peering Service (Preview)](https://docs.microsoft.com/azure/peering-service/azure-portal)
