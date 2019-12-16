@@ -20,7 +20,7 @@ Azure Database for PostgreSQL generally does not support restoring a deleted ser
 
 ## **Recommended Steps**
 
-* If you accidentally drop a server, immediately issue a point-in-time restore request using our [REST API](https://docs.microsoft.com/rest/api/postgresql/servers/create#create-a-database-as-a-point-in-time-restore) to a point in time just before the time the server was dropped. This may enable you to recover the deleted server.
+* If you accidentally drop a server, immediately issue a point-in-time restore request using our [REST API](https://docs.microsoft.com/rest/api/postgresql/servers/create#create-a-database-as-a-point-in-time-restore) to a point in time just before the time the server was dropped. You can issue this request within 7 days of accidentally dropping a server. This may enable you to recover the deleted server.
 
 ## **Recommended Documents**
 

@@ -61,7 +61,7 @@
 			"id": "permissions",
 			"order": 4,
 			"controlType": "dropdown",
-            "infoBalloonText": "Info: Learn more about the required permissions",
+            "infoBalloonText": "Info: <a href='https://docs.microsoft.com/azure/backup/tutorial-backup-sap-hana-db#setting-up-permissions'>Learn more</a> about the required permissions",
 			"displayLabel": "Are all the right permissions set?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
@@ -125,13 +125,15 @@
 			"order": 8,
 			"controlType": "textbox",
 			"displayLabel": "Provide the error code that are you seeing:",
-			"watermarkText": "Example: UserErrorSQLPODoesNotExist",
+			"infoBalloonText": "Please provide the error code that you are seeing in <a href='https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts'>Backup alerts</a>.",
+			"watermarkText": "Example: UserErrorHanaUnsupportedOperation",
 			"required": false
 		},
 		{
 			"id": "basic_troubleshooting_multiselect",
 			"order": 9,
 			"controlType": "multiselectdropdown",
+            "infoBalloonText": "Info: <a href='https://docs.microsoft.com/azure/backup/sap-hana-backup-support-matrix#scenario-support/'>Learn more</a> about the scenarios we support",
 			"displayLabel": "Select the troubleshooting steps you have performed:",
 			"dropdownOptions": [{
 					"value": "Machine has Internet connectivity",
