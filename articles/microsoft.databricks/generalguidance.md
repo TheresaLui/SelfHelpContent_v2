@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-* **Workspace Creation Issues:**
+* **Cluster Creation Issues:**
      * If you are getting [error for resource quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors) you can increase quota by following these steps:
        * Go to [subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
        * Select the subscription that needs an increased quota
