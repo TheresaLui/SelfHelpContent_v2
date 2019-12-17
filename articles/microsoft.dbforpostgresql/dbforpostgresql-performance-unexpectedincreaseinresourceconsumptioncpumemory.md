@@ -16,7 +16,7 @@
 
 # Troubleshooting unexpected increase in resource consumption
 
-Increase in resource consumption can be a result of an explicit user action or changes in the workload.
+Increase in resource consumption can be a result of an explicit user action or changes in the workload. Sometimes increased CPU utilization can also be caused by an issue with PostgreSQL internal processes, such as autovacuum not running as expected.
 
 ## **Recommended Steps**
 
@@ -24,7 +24,9 @@ Increase in resource consumption can be a result of an explicit user action or c
 * Adjust the pricing tier commensurate to the increase in the workload
 * Check if there are any schema changes, for example whether an index was dropped
 * Ensure that the table statistics are up to date
+* Review when your tables were last vacuumed and tune threshold parameters (see documentation below)
 
 ## **Recommended Documents**
 
 * [Performance Recommendations in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-performance-recommendations)
+* [Optimize autovacuum on Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/azure/postgresql/howto-optimize-autovacuum)
