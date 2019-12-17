@@ -54,8 +54,8 @@
                     "text": "Latency"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
