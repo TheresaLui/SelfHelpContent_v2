@@ -14,7 +14,7 @@
  
 # Issues adding or configuring applications in Azure Active Directory
 
-## **Recommended Steps**
+## **Recommended Documents**
 
 ### Help with configuring single sign-on or problem signing to an Azure AD enterprise application
 
