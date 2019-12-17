@@ -16,7 +16,7 @@
 
 # Configure ExpressRoute Peerings
 
-Note : Azure public peering has been deprecated, and is not available for new ExpressRoute circuits. New Circuits support Microsoft peering and private peering.
+Note: Azure public peering has been deprecated, and is not available for new ExpressRoute circuits. New Circuits support Microsoft peering and private peering.
 
 You can configure Azure private and/ or Microsoft peering for an ExpressRoute circuit in any order you choose.
 
