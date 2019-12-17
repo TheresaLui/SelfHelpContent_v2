@@ -55,7 +55,7 @@
             "id": "P2S_authentication",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Select the tunnel type",
+            "displayLabel": "Select the authentication type",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
