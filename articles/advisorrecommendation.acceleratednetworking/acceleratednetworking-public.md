@@ -43,8 +43,8 @@
       "actionId": "e0efec31-2bed-4168-a8d2-58ca3cd5a1ff",
       "description": " Enable Accelerated Networking to improve network performance and latency ",
       "actionType": "Blade",
-      "extensionName": "HubExtension",
-      "bladeName": "ResourceMenuBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "Microsoft.Compute/virtualMachines",
       "metadata": {
         "id": "{resourceId}",
 	"menuid": "enableAN"
@@ -55,8 +55,8 @@
     "action": {
       "actionId": "03aae5ac-6787-42d0-ba66-8d51380035eb",
       "actionType": "Blade",
-      "extensionName": "HubExtension",
-      "bladeName": "ResourceMenuBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "Microsoft.Compute/virtualMachines",
       "metadata": {
         "id": "{resourceId}"
       }
