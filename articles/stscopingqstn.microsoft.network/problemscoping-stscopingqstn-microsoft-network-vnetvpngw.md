@@ -3,7 +3,7 @@
    description="Scoping questions for VPN Gateway Issues under VNet ticket path"
    authors="radwiv"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32584874,32584876,32584878,32584880,32584881,32584882"
+   supportTopicIds="32584874,32584876,32584880,32584881,32584882"
    productPesIds="15526"
    cloudEnvironments="public, MoonCake"
    schemaVersion="1"
