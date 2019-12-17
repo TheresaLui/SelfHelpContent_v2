@@ -5,8 +5,8 @@
  	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
 	articleid="vpngwperformance"
-	supportTopicIds="32591147"
-	productPesIds="16094"
+	supportTopicIds="32591147,32584880"
+	productPesIds="16094,15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 />
