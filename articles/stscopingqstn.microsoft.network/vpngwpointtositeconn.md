@@ -9,7 +9,7 @@
 	productPesIds="16094,15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
-	subscriptionrequired=false
+	subscriptionrequired="false"
 />
 # Point-to-Site VPN connectivity issues information
 ---
