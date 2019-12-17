@@ -2,6 +2,7 @@
    pageTitle="Scoping questions for VPN Gateway Issues under VNet ticket path"
    description="Scoping questions for VPN Gateway Issues under VNet ticket path"
    authors="radwiv"
+ 	ms.author="radwiv"
    selfHelpType="problemScopingQuestions"
    supportTopicIds="32584876,32584881"
    productPesIds="15526"
