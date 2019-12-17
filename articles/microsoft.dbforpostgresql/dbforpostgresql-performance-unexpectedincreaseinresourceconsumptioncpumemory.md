@@ -29,4 +29,4 @@ Increase in resource consumption can be a result of an explicit user action or c
 ## **Recommended Documents**
 
 * [Performance Recommendations in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-performance-recommendations)
-* [Optimize autovacuum on Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/en-us/azure/postgresql/howto-optimize-autovacuum)
+* [Optimize autovacuum on Azure Database for PostgreSQL - Single Server](https://docs.microsoft.com/azure/postgresql/howto-optimize-autovacuum)
