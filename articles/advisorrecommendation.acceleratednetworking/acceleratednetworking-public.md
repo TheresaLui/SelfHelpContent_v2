@@ -64,7 +64,7 @@
   },
   "displayLabel":"Enable Accelerated Networking to improve network performance and latency",
   "additionalColumns": [],
-  "testData":"/3cef96b2-cfcf-471e-87cf-b9d38a6d5b9a,/subscriptions/014e7430-fd92-4579-9119-e861d926508a/resourceGroups/laxmanrb-BLAPrdApp27-rg/providers/Microsoft.Compute/virtualMachines/cx3vm-ds5v2-1",
+  "testData":"014e7430-fd92-4579-9119-e861d926508a,/subscriptions/014e7430-fd92-4579-9119-e861d926508a/resourceGroups/laxmanrb-BLAPrdApp27-rg/providers/Microsoft.Compute/virtualMachines/cx3vm-ds5v2-1",
  "tip": "Enable Accelerated Networking to improve network performance and latency."
 }
 ---
