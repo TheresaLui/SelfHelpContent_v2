@@ -7,7 +7,7 @@
 	authors="vadeveka"
 	ms.author="vadeveka"
 	displayOrder=""
-	articleId="microsoft.sqlvirtualmachine/sql administration/database"
+	articleId="sqlvirtualmachine-sql administration-database"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32633501"
@@ -26,5 +26,5 @@ Most users are able to resolve their database administration issues using the re
 * [Shrink SQL Server file](https://docs.microsoft.com/sql/relational-databases/databases/shrink-a-file)
 * [Manage the size of the transaction log file](https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file)
 * [SQL Server Replication](https://docs.microsoft.com/sql/relational-databases/replication/sql-server-replication)
-* [SQL Server IaaS and Licensing FAQ](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq) 
+* [SQL Server IaaS and Licensing FAQ](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq) 
 
