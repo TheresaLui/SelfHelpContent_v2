@@ -5,8 +5,8 @@
 	authors="radwiv"
         ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32591156"
-	productPesIds="16094"
+	supportTopicIds="32591156,32584878"
+	productPesIds="16094,15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 />
