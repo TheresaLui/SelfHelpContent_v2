@@ -3,9 +3,9 @@
    description="Scoping questions for VPN Gateway Issues under VNet ticket path"
    authors="radwiv"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32584876,32584881,32584882"
+   supportTopicIds="32584876,32584881"
    productPesIds="15526"
-   cloudEnvironments="public, MoonCake"
+   cloudEnvironments="public, MoonCake, fairfax, Blackforest"
    schemaVersion="1"
    articleId="fb9dcbb1-f15b-4f2b-b9f4-913cac1534a3"
 />
