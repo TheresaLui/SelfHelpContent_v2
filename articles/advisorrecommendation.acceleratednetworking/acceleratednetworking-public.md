@@ -7,7 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# Enable Accelerated Networking to improve network performance and latency
+# Enable Accelerated Networking to improve network performance and latency 
 ---
 {
   "$schema": "AdvisorRecommendation",
