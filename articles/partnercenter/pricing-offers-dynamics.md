@@ -25,7 +25,7 @@ Partner Center support does not field general licensing questions. Dynamics Fulf
 
 - Check if the product offering you bought is eligible to Dual Use rights as per [Microsoft Dynamics 365 Licensing Guide section Dual Use Rights](https://download.microsoft.com/download/9/6/7/96706B15-1CBE-47B7-AB9E-6BC31A377BBB/Dynamics 365 Licensing Guide - Dec 2019.pdf)
 - Check if customer's profile is showing in [PSBC](https://businesscenter.mbs.microsoft.com/) "PartnerSource Business Center" with full details. Ensure the Customer Professional contact set up correctly, the Partner info shows correctly and the on-prem license keys can be downloaded from PSBC. Note: it might take up to 48 hours for PSBC to sync after the D365 order is placed on Partner Center 
-- For support please [Log Ticket with Order Management](https://mbs2.microsoft.com/Support/OperationsIncidents.aspx?Mode=Create) via [PartnerSource](https://mbs.microsoft.com/partnersource/northamerica/home).
+- For support please [Log Ticket with Order Management](https://mbs2.microsoft.com/Support/OperationsIncidents.aspx?Mode=Create) via [PartnerSource](https://mbs.microsoft.com/partnersource/).
 - Alternatively, you may contact support via email at these addresses: 1. Americas – mbsorder@microsoft.com 2. EMEA – mbsquery@microsoft.com 3. Asia – mbslques@microsoft.com 
 
 
