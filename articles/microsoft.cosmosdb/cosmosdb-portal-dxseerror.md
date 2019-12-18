@@ -37,8 +37,8 @@
 <br>By default, the Data Explorer returns query results in pages, with up to 100 results per page. To view additional pages of results, select the **"Load more"** button under the results tab. You can adjust the maximum number of results per page in the Data Explorer **Settings** tab.  
 
 
-**Unable to view data, stored procedures, UDFs, or triggers in Data Explorer** 
-If you are not able to view your data including databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account
+**Unable to view data, stored procedures, UDFs, or triggers in Data Explorer**
+<br>If you are not able to view your data including databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account
 * If VNET is enabled, navigate to the "Firewall and virtual networks" pane and ensure:
 <br>The setting *Allow access from Azure Portal* is enabled
 	
