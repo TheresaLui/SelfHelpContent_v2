@@ -10,7 +10,7 @@
 	articleId="33b8c974-1903-49eb-8185-0887d92bae0f"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629661, 32612456, 32613003, 32629660"
+	supportTopicIds="32629661, 32613003, 32629660"
 	resourceTags=""
 	productPesIds="15454, 15725, 15693"
 	cloudEnvironments="public, fairfax"
