@@ -6,6 +6,7 @@
          selfHelpType="TSG_Questions"
          productPesIds="15922"
          cloudEnvironments="public"
+         troubleshooterId="troubleshooterId"
          schemaVersion="1"
          articleId="tsg-questions-for-application-gateway"
 />
