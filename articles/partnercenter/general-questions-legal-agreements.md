@@ -24,6 +24,6 @@ Information and resources about CSP legal agreements and compliance.
 ## **Recommended Documents**
 
 * [Microsoft Partner Agreement for CSP partners](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)
-* [Microsoft Cloud Agreement customer acceptance confirmation Frequently Asked Questions](https://docs.microsoft.com/partner-center/confirm-consent-faq)
+* [Microsoft Cloud Agreement customer acceptance confirmation Frequently Asked Questions](https://docs.microsoft.com/partner-center/confirm-consent)
 * [Microsoft Cloud Agreements by region and language](https://docs.microsoft.com/partner-center/agreements)
 * [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
