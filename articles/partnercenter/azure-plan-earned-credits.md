@@ -26,7 +26,3 @@ Resources and information about partner earned credit for managed services in Az
 * [Partner earned credit overview](https://docs.microsoft.com/partner-center/partner-earned-credit)
 * [Details about how the partner earned credit is determined](https://docs.microsoft.com/partner-center/partner-earned-credit-explanation)
 
- 
-
-
-
