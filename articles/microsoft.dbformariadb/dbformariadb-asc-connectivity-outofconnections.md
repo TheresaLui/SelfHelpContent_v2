@@ -4,7 +4,7 @@
 	infoBubbleText="Server is running Out of Connections. See details on the right"
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
-	authors="Cong Wang"
+	authors="congwang"
 	ms.author="conwan"
 	displayOrder="100"
 	articleId="dbformariadb-asc-connectivity-outofconnections"

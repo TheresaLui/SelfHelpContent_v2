@@ -4,7 +4,7 @@
 	infoBubbleText="Orcas MariaDB Server Storage Over Threshold. See details on the right"
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
-	authors="Cong Wang"
+	authors="congwang"
 	ms.author="conwan"
 	displayOrder="100"
 	articleId="dbformariadb-asc-storage-overthreshold"

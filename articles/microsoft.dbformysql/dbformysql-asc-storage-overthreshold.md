@@ -4,7 +4,7 @@
 	infoBubbleText="Orcas MySQL Server Storage Over Threshold. See details on the right"
 	service="microsoft.dbformysql"
 	resource="dbformysql"
-	authors="Cong Wang"
+	authors="congwang"
 	ms.author="conwan"
 	displayOrder="100"
 	articleId="dbformysql-asc-storage-overthreshold"
