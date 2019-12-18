@@ -22,7 +22,7 @@ Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos DB 
 ## **Recommended Steps**
 
 ### **Stored procedure cannot insert due to partition key mismatch**
-*CancelationToken* parameter in *ExecuteStoredProcedureAsync* should be given as the 3rd parameter. If it is not in the expected order, the payload will be incorrect.  
+*CancellationToken* parameter in *ExecuteStoredProcedureAsync* should be given as the 3rd parameter. If it is not in the expected order, the payload will be incorrect.  
 
 
 
