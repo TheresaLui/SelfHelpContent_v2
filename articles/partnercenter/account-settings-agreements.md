@@ -11,7 +11,7 @@
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32692612"
-	clientIds='partnercenter'
+	clientIds="partnercenter"
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
@@ -27,7 +27,3 @@ New Microsoft Partner Agreement for Cloud Solution Provider program and other im
 * [Microsoft Partner Agreement for CSP partners](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)
 * [New Microsoft Partner Agreement for Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/new-microsoft-cloud-agreement-csp#/)
 * [Indirect Reseller onboarding for Microsoft Partner Agreement in CSP program](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/)
-
-
-
-
