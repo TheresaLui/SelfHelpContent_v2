@@ -80,7 +80,7 @@ For more information, see [Handle rate limiting/request rate too large](https://
 
 
 **Stored procedure cannot insert due to partition key mismatch**
-<br>CancelationToken parameter in ExecuteStoredProcedureAsync should be given as the 3rd parameter. If it is not the payload will be incorrect.  
+<br>CancellationToken parameter in ExecuteStoredProcedureAsync should be given as the 3rd parameter. If it is not the payload will be incorrect.  
 
 
 **Error - Cross partition query is required but disabled. Please set x-ms-documentdb-query-enablecrosspartition to true, specify x-ms-documentdb-partitionkey, or revise your query to avoid this exception.**
