@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Dynamics fulfilment"
-	description="Dynamics fulfilment"
+	pageTitle="Dynamics fulfillment"
+	description="Dynamics fulfillment"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -17,9 +17,9 @@
 	cloudEnvironments="public"
 />
 
-# Dynamics fulfilment
+# Dynamics fulfillment
 
-Partner Center support does not field general licensing questions. Dynamics Fulfilment questions can be found by leveraging the following resources. 
+Partner Center support does not field general licensing questions. Dynamics Fulfillment questions can be found by leveraging the following resources. 
 
 ## **Recommended Steps** 
 
