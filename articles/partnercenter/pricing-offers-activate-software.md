@@ -19,7 +19,7 @@
 
 # Help with downloading or activating customer software
 
-Doucments related to how to manage and activate software after you purchase it.
+Documents related to how to manage and activate software after you purchase it.
 
 ## **Recommended Documents**
 
