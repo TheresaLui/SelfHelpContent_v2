@@ -26,7 +26,7 @@ Most users are able to resolve the errors on SQL Virtual Machine resource in Azu
 
 * **SQL virtual machine management operations are disabled because SQL extension cannot be found or might not be installed properly on the virtual machine.**
 
-  The SQL IaaS extension may occasionally encounter issues during its workflow resulting in a bad state. Un-installing and installing the extension should address this issue. 
+  The SQL IaaS extension may occasionally encounter issues during its workflow resulting in a bad state. Uninstalling and installing the extension should address this issue. 
 
   You can execute the following commands in PowerShell to re-install the extension:
 
