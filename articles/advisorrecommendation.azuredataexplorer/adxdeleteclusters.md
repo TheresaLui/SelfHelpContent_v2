@@ -53,7 +53,7 @@
       "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",
       "description": "Consider deleting empty or unused clusters",
       "actionType": "Blade",
-	  "extensionName": "HubsExtension"
+	  "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
