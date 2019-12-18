@@ -52,8 +52,12 @@
     {
       "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",
       "description": "Consider deleting empty or unused clusters",
-      "actionType": "Document",
-      "documentLink": "https://azure.microsoft.com/pricing/details/data-explorer/"
+      "actionType": "Blade",
+	  "extensionName": "HubsExtension"
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
     }
   ],
   "resourceMetadata": {
@@ -70,7 +74,7 @@
   "displayLabel": "Consider deleting empty or unused clusters",
   "additionalColumns": [
     {
-      "name": "InstanceCount",
+      "name": "instanceCount",
       "title": "Instance Count"
     }
   ],
