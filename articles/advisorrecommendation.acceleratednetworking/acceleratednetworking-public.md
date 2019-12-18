@@ -18,8 +18,8 @@
     "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
+  "recommendationImpact": "Medium",
+  "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "AccelNetConfiguration",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
@@ -44,7 +44,7 @@
       "description": " Enable Accelerated Networking to improve network performance and latency ",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
-      "bladeName": "Microsoft.Compute/virtualMachines",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
 	"menuid": "enableAN"
@@ -56,7 +56,7 @@
       "actionId": "03aae5ac-6787-42d0-ba66-8d51380035eb",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
-      "bladeName": "Microsoft.Compute/virtualMachines",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }
