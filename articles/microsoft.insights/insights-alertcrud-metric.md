@@ -4,8 +4,8 @@
 	infoBubbleText=""
 	service="microsoft.insights"
 	resource="metricalerts"
-	authors="snehithm"
-	ms.author="snmuvva"
+	authors="harelbr"
+	ms.author="harelbr"
 	displayOrder="8"
 	articleId="insights-alertcrud-metric"
 	diagnosticScenario=""
@@ -24,15 +24,21 @@
 
 If you are running into issues creating/updating or deleting metric alerts the following steps may help resolve the issue.
 
-1. If you are looking for alerts on guest metrics on virtual machines, ensure you have set up diagnostic setting to send data to Azure Monitor sink.
+1. If you are looking to alert on guest metrics on virtual machines, ensure you have set up diagnostic setting to send data to Azure Monitor sink.
     * [For Windows VMs](https://docs.microsoft.com/azure/azure-monitor/platform/collect-custom-metrics-guestos-resource-manager-vm)
     * [For Linux VMs](https://docs.microsoft.com/azure/azure-monitor/platform/collect-custom-metrics-linux-telegraf)
 
+**Note:** If you configured the guest metrics to be collected into a Log Analytics workspace, these metrics will appear under the Log Analytics workspace resource. Follow the steps to [configure a metric alert for logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#configuring-metric-alert-for-logs).
+
 2. If you cannot find metrics for a resource type, [check if the resource type is supported with metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time).
 
-3. Review if you have appropriate permissions. To create/update/delete metric alerts
-    * you should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) or
-    * you should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/metricAlerts
+3. If you are looking to alert on [specific dimension values of a metric](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#using-dimensions), but cannot find these values, please note the following:
+- It might take a few minutes for the dimension values to appear under the **Dimension values** list.
+- The displayed dimension values are based on metric data collected in the last 3 days.
+
+4. Review if you have appropriate permissions. To create/update/delete metric alerts:
+    * You should have been assigned a built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
+    * You should have been assigned a [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/metricAlerts
 
 ## **Recommended Documents**
 
