@@ -31,7 +31,7 @@ A good practice is to always backup all the source code/configuration files in a
 ### Steps to Redeploy the Bot
 
 If you have deleted your bot on Azure accidentally, you can still redeploy your most updated bot code downloaded on your local machine or from a repo. If you have your files on an online file storage, then you can download your bot files to your local machine for redeployment.
-Refer to the link bellow for the steps to deploy your bot to Azure.
+Refer to the link below for the steps to deploy your bot to Azure.
 
 ## **Recommended Documents**
 [Deploy your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0&tabs=csharp)
