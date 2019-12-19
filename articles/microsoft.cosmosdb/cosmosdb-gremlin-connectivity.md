@@ -21,8 +21,6 @@ Most users are able to resolve their Cosmos DB Gremlin connectivity issues using
 
 ## **Recommended Steps**
 
-Open source Gremlin client drivers were initially designed to connect with individual servers. When they encounter a connectivity issues they mark the server as unavailable internally. This behavior presents a problem for Cosmos DB Graph database because behind a single host name your account.gremlin.cosmos.azure.com there is a virtual IP address of a load balancer that routes traffic within a cluster of computers. Connectivity failure to a single node in the cluster should not render entire VIP unavailable, but it does, for Gremlin client drivers.  
-
 ### **Gremlin.Net.Driver.Exceptions.ServerUnavailableException**  
 If you are failing to connect and receiving a *Gremlin.Net.Driver.Exceptions.ServerUnavailableException* repeatedly, you may be using an older version of Gremlin Client (for example, 3.4.0.0).  
 
@@ -40,8 +38,11 @@ The Cosmos DB SDK has a dependency on joda-time lib 2.9.9.  Reference the Maven 
 **Solution:** Verify you are using the correct version of joda-time and explicitly setting the dependency for joda-time 2.9.9 will resolve the issue  
 
 ### **Other Common Connectivity problems**
-.NET: *Gremlin.Net.Driver.Exceptions.ServerUnavailableException:* No connection to the server available which most likely means that the server is completely unavailable.
-<br>.Java: *TimeoutException:* Timed-out waiting for connection on your account.gremlin.cosmos.azure.com - possibly unavailable.
+Open source Gremlin client drivers were initially designed to connect with individual servers. When they encounter a connectivity issues they mark the server as unavailable internally. This behavior presents a problem for Cosmos DB Graph database because behind a single host name your account.gremlin.cosmos.azure.com there is a virtual IP address of a load balancer that routes traffic within a cluster of computers. Connectivity failure to a single node in the cluster should not render entire VIP unavailable, but it does, for Gremlin client drivers.  
+
+**Manifestations of this problem:**  
+* .NET: *Gremlin.Net.Driver.Exceptions.ServerUnavailableException:* No connection to the server available which most likely means that the server is completely unavailable.
+* .Java: *TimeoutException:* Timed-out waiting for connection on your account.gremlin.cosmos.azure.com - possibly unavailable.
 
 **Connection Termination:**
 * Connection was idle for over an hour and there was no traffic on it other than keep-alive messages. To reclaim resources Cosmos DB will close such connections.  
