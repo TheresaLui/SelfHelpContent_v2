@@ -23,33 +23,36 @@ Most users are able to resolve their Cosmos DB Gremlin connectivity issues using
 
 Open source Gremlin client drivers were initially designed to connect with individual servers. When they encounter a connectivity issues they mark the server as unavailable internally. This behavior presents a problem for Cosmos DB Graph database because behind a single host name your account.gremlin.cosmos.azure.com there is a virtual IP address of a load balancer that routes traffic within a cluster of computers. Connectivity failure to a single node in the cluster should not render entire VIP unavailable, but it does, for Gremlin client drivers.  
 
-**Date header doesn't conform to the required format**
-<br>The Cosmos DB SDK has a dependency on joda-time lib 2.9.9.  Reference the Maven Artifact: [Java SDK for SQL API of Microsoft Azure Cosmos DB](https://mvnrepository.com/artifact/com.microsoft.azure/azure-documentdb/2.4.4). 
-<br>If you are using an older version of joda-time < 2.9.9 (maybe as a transitive dependency by another dependency) You may encounter this issue.
-* Verify you are using the correct version of joda-time and explicitly setting the dependency for joda-time 2.9.9 will resolve the issue  
+### **Gremlin.Net.Driver.Exceptions.ServerUnavailableException**  
+If you are failing to connect and receiving a *Gremlin.Net.Driver.Exceptions.ServerUnavailableException* repeatedly, you may be using an older version of Gremlin Client (for example, 3.4.0.0).  
 
-**Gremlin.Net.Driver.Exceptions.ServerUnavailableException**  
-<br>If you are failing to connect and receiving a *Gremlin.Net.Driver.Exceptions.ServerUnavailableException* repeatedly, you may be using an older version of Gremlin Client (for example, 3.4.0.0). Upgrading to Gremlin .NET 3.4.2 or greater would probably resolve this issue. 
+**Solution:** Upgrading to Gremlin .NET 3.4.2 or greater would probably resolve this issue. 
 
-**404 (NotFound) status code. NotFoundException**
-<br>Compute layer caches the storage client by the collection name (e.g. "testGraph"). The cached client, however, identifies the collection by its resource id *rid*. This can result in compute requests that are issued after a collection recreate trying to use a cached client with the deleted collection's Rid. The storage layer cannot find the deleted collection, so returns a 404 (NotFound) status code. We forward this status code to the user, resulting in the observed NotFoundException.
-<br>**Solution:** Please cycle the collection name when deleting and re-creating a collection (e.g. "testGraph1", "testGraph2", "testGraph3", . . . ).  
+### **404 (NotFound) status code. NotFoundException**
+Compute layer caches the storage client by the collection name (e.g. "testGraph"). The cached client, however, identifies the collection by its resource id *rid*. This can result in compute requests that are issued after a collection recreate trying to use a cached client with the deleted collection's Rid. The storage layer cannot find the deleted collection, so returns a 404 (NotFound) status code. We forward this status code to the user, resulting in the observed NotFoundException.  
 
-**Other Common Connectivity problems:**
-* .NET: *Gremlin.Net.Driver.Exceptions.ServerUnavailableException:* No connection to the server available which most likely means that the server is completely unavailable
-* .Java: *TimeoutException:* Timed-out waiting for connection on your account.gremlin.cosmos.azure.com - possibly unavailable  
+**Solution:** Please cycle the collection name when deleting and re-creating a collection (e.g. "testGraph1", "testGraph2", "testGraph3", . . . ).  
+
+### **Date header doesn't conform to the required format**
+The Cosmos DB SDK has a dependency on joda-time lib 2.9.9.  Reference the Maven Artifact: [Java SDK for SQL API of Microsoft Azure Cosmos DB](https://mvnrepository.com/artifact/com.microsoft.azure/azure-documentdb/2.4.4). 
+<br>If you are using an older version of joda-time < 2.9.9 (maybe as a transitive dependency by another dependency) You may encounter this issue.  
+
+**Solution:** Verify you are using the correct version of joda-time and explicitly setting the dependency for joda-time 2.9.9 will resolve the issue  
+
+### **Other Common Connectivity problems**
+.NET: *Gremlin.Net.Driver.Exceptions.ServerUnavailableException:* No connection to the server available which most likely means that the server is completely unavailable.
+<br>.Java: *TimeoutException:* Timed-out waiting for connection on your account.gremlin.cosmos.azure.com - possibly unavailable.
 
 **Connection Termination:**
 * Connection was idle for over an hour and there was no traffic on it other than keep-alive messages. To reclaim resources Cosmos DB will close such connections.  
 * Upgrade of Cosmos DB Graph database. Upgrade is rolling through the cluster and customer may experience intermittent connection failures as nodes are shut down and brought back up.
-* Firewall rules, IP filter or VNET configuration on account was changed. In this event Cosmos DB Graph will terminate connections that are no longer allowed under new configuration.
+* Firewall rules, IP filter or VNET configuration on account was changed. In this event Cosmos DB Graph will terminate connections that are no longer allowed under new configuration.  
 
-**Solution:**  
-Whenever client application encounters connection failure the right course of action is to retry. At no point in time is the entire Cosmos DB Graph cluster down so retrying a failed connection is the recommended action.
+**Solution:** Whenever client application encounters connection failure the right course of action is to retry. At no point in time is the entire Cosmos DB Graph cluster down so retrying a failed connection is the recommended action.
 
 For **Java** clients, it is recommended to override the default retry strategy with a custom one. This custom strategy should avoid invalidating a host when a single connection fails.
 
-`
+```
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Random;
@@ -131,11 +134,11 @@ final class StickyLoadBalancingStrategy implements LoadBalancingStrategy {
 		this.hosts.remove(host);
 	}
 }
-`
+```
 
 To use sticky strategy please include the following snippet into your source code:
 
-`
+```
 Cluster.Builder builder = Cluster.build();
 //
 // Configure builder as you normally would
@@ -148,8 +151,7 @@ builder.loadBalancingStrategy(new StickyLoadBalancingStrategy());
 // Create a cluster and a client driver for a given cluster
 Cluster cluster = builder.create();
 Client client = cluster.connect();
-
-`
+```
 
 ## **Recommended Documents**  
 
