@@ -68,11 +68,11 @@
   "displayLabel": "Decrease provisioned throughput or delete your idle Azure Cosmos DB containers",
   "additionalColumns": [
     {
-      "name": "DatabaseName",
+      "name": "databaseName",
       "title": "Database Name"
     },
     {
-      "name": "CollectionName",
+      "name": "collectionName",
       "title": "Collection Name"
     }
   ],
