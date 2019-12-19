@@ -18,6 +18,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # ADLS Gen2 cost analysis
 
 <!--issueDescription-->
-If you want to export cost analysis for ADLS Gen 2 Storage Account, we suggest you to try export it into another storage account (non ADLS storage account) and you will be able to export the cost analysis <!--/issueDescription-->
+If you want to export cost analysis for ADLS Gen 2 Storage Account, we suggest you to try export it into another storage account (non ADLS storage account) and you will be able to export the cost analysis.
+<!--/issueDescription-->
 
 Please refer to [Create and manage exported data](https://docs.microsoft.com/azure/cost-management/tutorial-export-acm-data) for more information. 
