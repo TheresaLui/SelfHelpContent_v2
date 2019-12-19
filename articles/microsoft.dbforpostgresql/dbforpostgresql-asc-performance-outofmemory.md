@@ -24,7 +24,7 @@ The server <!--$ServerName-->ServerName<!--/$ServerName--> has total <!--$Count-
 
 ## **Recommended Steps**
 
-* Please suggest customer either to increase the overall RAM on the machine itself by upgrading to a larger instance OR to decrease the amount of memory that *work_mem* uses.
+* Please suggest customer either to increase the overall RAM on the machine itself by upgrading to a larger instance OR to decrease the amount of memory that *work_mem* uses
 * If customers have a number of short running queries that run very frequently and perform simple lookups and joins then maintaining a lower *work_mem* is ideal, in this case customers get diminishing returns by allowing it to be significantly higher because it is simply unused. If workload of customers is relatively few active queries at a time that are doing very complex sorts and joins then granting more memory to prevent things from spilling can give customer great returns.
 
 ## **Recommended Documents**
