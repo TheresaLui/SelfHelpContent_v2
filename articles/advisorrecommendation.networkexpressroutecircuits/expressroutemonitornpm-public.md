@@ -38,7 +38,7 @@ cloudEnvironments = "Public"
     "ingestionClientIdentities": [],
     "recommendationTimeToLive": 86400,
     "version": 1.0,
-    "learnMoreLink": "https://docs.microsoft.com/en-us/azure/expressroute/how-to-npm",
+    "learnMoreLink": "https://docs.microsoft.com/azure/expressroute/how-to-npm",
     "description": "Implement ExpressRoute Monitor on Network Performance Monitor for end-to-end monitoring of your ExpressRoute circuit",
     "longDescription": "We have detected that your ExpressRoute circuit is not currently being monitored by ExpressRoute Monitor on Network Performanec Monitor. ExpressRoute monitor provides end-to-end monitoring capabilities including: Loss, latency, and performance from on-premises to Azure and Azure to on-premises",
     "potentialBenefits": "Improve time-to-detect and time-to-mitigate issues in your network and provide insights on your network path via ExpressRoute",
@@ -46,7 +46,7 @@ cloudEnvironments = "Public"
         "actionId": "9c629e6d-20d8-410e-9de2-8e7656329656",
         "description": "Configure ExpressRoute Monitor on NPM",
         "actionType": "Document",
-        "documentLink": "https://docs.microsoft.com/en-us/azure/expressroute/how-to-npm"
+        "documentLink": "https://docs.microsoft.com/azure/expressroute/how-to-npm"
     }],
     "resourceMetadata": {
         "action": {
