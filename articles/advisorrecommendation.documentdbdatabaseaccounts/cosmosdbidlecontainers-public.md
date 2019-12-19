@@ -25,9 +25,9 @@
   "owner": {
     "email": "cosmosdbpm@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "MDM://AzureCosmosDBOps",
+      "service": "Azure Cosmos DB",
+      "team": "Azure Cosmos DB Ops"
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
@@ -65,7 +65,7 @@
       }
     }
   },
-  "displayLabel": "Decrease provisioned throughput or delete your unused Azure Cosmos DB containers",
+  "displayLabel": "Decrease provisioned throughput or delete your idle Azure Cosmos DB containers",
   "additionalColumns": [
     {
       "name": "DatabaseName",
