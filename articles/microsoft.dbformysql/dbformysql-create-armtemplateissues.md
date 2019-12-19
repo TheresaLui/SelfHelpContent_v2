@@ -2,7 +2,7 @@
     pageTitle="Manage the Azure Database for MySQL using ARM Templates"
     description="ARM template issues for the Azure Database for MySQL"
     service="microsoft.dbformysql"
-    resource="servers"
+    resource="servers" 
     authors="kummanish"
     ms.author="manishku"
     displayOrder="240"

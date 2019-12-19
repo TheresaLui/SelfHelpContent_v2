@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32411818"
+                supportTopicIds="32674541"
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Manage or use a cluster in Azure",
     "fileAttachmentHint": "",
     "formElements": [

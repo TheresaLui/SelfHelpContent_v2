@@ -3,7 +3,7 @@
     description="Managing VNet service endpoints in Azure Database for MariaDB"
     service="microsoft.dbformariadb"
     resource="servers"
-    authors="ajlam"
+    authors="ajlam" 
     ms.author="andrela"
     displayOrder="220"
     selfHelpType="generic"

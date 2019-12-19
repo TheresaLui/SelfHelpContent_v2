@@ -16,8 +16,12 @@
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
+
 # Return or refund software subscriptions
+
+Below are resources for how to manage software subscriptions.
 
 ## **Recommended Documents**
 
-* **[Sell software subscriptions through CSP](https://docs.microsoft.com/partner-center/csp-software-subscriptions)**
+* [How to cancel a software purchase](https://docs.microsoft.com/partner-center/csp-software-subscriptions#cancel-a-purchase)
+* [Sell software subscriptions through CSP](https://docs.microsoft.com/partner-center/csp-software-subscriptions)

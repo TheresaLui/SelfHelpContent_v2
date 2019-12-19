@@ -14,7 +14,8 @@
 	articleId="76b5d5a2-97dc-4a82-b57e-8d418e71aa0f"
 />
 
-# When Azure Backup is unable to discovery VM with SAP HANA then follow these troubleshooting steps  
+# When Azure Backup is unable to discovery VM with SAP HANA then follow these troubleshooting steps
+Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
 ## **Recommended Steps**
 - Ensure the VM is not configured in another vault
 - [How to discover the HANA databases](https://go.microsoft.com/fwlink/?linkid=2109511)

@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Manage Azure Database for PostgreSQL using ARM Templates"
+    pageTitle="Manage Azure Database for PostgreSQL using ARM Templates"  
     description="Manage Azure Database for PostgreSQL using ARM Templates"
     service="microsoft.dbforpostgresql"
     resource="servers"
