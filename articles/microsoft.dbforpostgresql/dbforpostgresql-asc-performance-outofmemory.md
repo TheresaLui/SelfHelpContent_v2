@@ -16,7 +16,7 @@
     cloudEnvironments="public"
 />
 
-# Server is facing high memory usage
+# Server is facing out of memory errors
 
 <!--issueDescription-->
 The server <!--$ServerName-->ServerName<!--/$ServerName--> has total <!--$Count-->Count<!--/$Count--> Out of Memory errors from <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) to <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) .
