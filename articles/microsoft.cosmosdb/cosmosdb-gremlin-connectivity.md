@@ -41,8 +41,8 @@ The Cosmos DB SDK has a dependency on joda-time lib 2.9.9.  Reference the Maven 
 Open source Gremlin client drivers were initially designed to connect with individual servers. When they encounter a connectivity issues they mark the server as unavailable internally. This behavior presents a problem for Cosmos DB Graph database because behind a single host name your account.gremlin.cosmos.azure.com there is a virtual IP address of a load balancer that routes traffic within a cluster of computers. Connectivity failure to a single node in the cluster should not render entire VIP unavailable, but it does, for Gremlin client drivers.  
 
 **Manifestations of this problem:**  
-* .NET: *Gremlin.Net.Driver.Exceptions.ServerUnavailableException:* No connection to the server available which most likely means that the server is completely unavailable.
-* .Java: *TimeoutException:* Timed-out waiting for connection on your account.gremlin.cosmos.azure.com - possibly unavailable.
+* .NET: **Gremlin.Net.Driver.Exceptions.ServerUnavailableException:** No connection to the server available which most likely means that the server is completely unavailable.
+* .Java: **TimeoutException:** Timed-out waiting for connection on your account.gremlin.cosmos.azure.com - possibly unavailable.
 
 **Connection Termination:**
 * Connection was idle for over an hour and there was no traffic on it other than keep-alive messages. To reclaim resources Cosmos DB will close such connections.  
