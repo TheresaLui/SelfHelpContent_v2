@@ -16,7 +16,7 @@ cloudEnvironments = "Public"
     "recommendationTypeId": "17454550-1543-4068-bdaf-f3ed7cdd3d86",
     "dataSourceMetadata": {
         "schemaVersion": 1.0,
-        "streamNamespace": "cluster('https://aznw.kusto.windows.net').database('AznwCosmos').AzureAdvisorOnly1ERCircuit",
+        "streamNamespace": "cluster('https://aznw.kusto.windows.net').database('AznwCosmos').AzureAdvisorNpmExR",
         "dataSource": "Kusto",
         "refreshInterval": "1.00:00:00"
     },
@@ -60,7 +60,6 @@ cloudEnvironments = "Public"
         }
     },
     "displayLabel": "Implement ExpressRoute Monitor on Network Performance Monitor for end-to-end monitoring of your ExpressRoute circuit",
-    "additionalColumns": [],
-    "testData": "4bffbb15-d414-4874-a2e4-c548c6d45e2a,/subscriptions/4bffbb15-d414-4874-a2e4-c548c6d45e2a/resourceGroups/SEA-Cust10/providers/Microsoft.Network/expressRouteCircuits/SEA-Cust10-ER"
+    "additionalColumns": []
 }
 ---
