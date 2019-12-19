@@ -21,7 +21,7 @@ Most users are able to resolve their Cosmos DB Gremlin connectivity issues using
 
 ## **Recommended Steps**
 
-Open source Gremlin client drivers were initially designed to connect with individual servers. When they encounter a connectivity issues they mark the server as unavailable internally. This behavior presents a problem for Cosmos DB Graph database because behind a single host name youraccount.gremlin.cosmos.azure.com there is a virtual IP address of a load balancer that routes traffic within a cluster of computers. Connectivity failure to a single node in the cluster should not render entire VIP unavailable, but it does, for Gremlin client drivers.  
+Open source Gremlin client drivers were initially designed to connect with individual servers. When they encounter a connectivity issues they mark the server as unavailable internally. This behavior presents a problem for Cosmos DB Graph database because behind a single host name your account.gremlin.cosmos.azure.com there is a virtual IP address of a load balancer that routes traffic within a cluster of computers. Connectivity failure to a single node in the cluster should not render entire VIP unavailable, but it does, for Gremlin client drivers.  
 
 **Date header doesn't conform to the required format**
 <br>The Cosmos DB SDK has a dependency on joda-time lib 2.9.9.  Reference the Maven Artifact: [Java SDK for SQL API of Microsoft Azure Cosmos DB](https://mvnrepository.com/artifact/com.microsoft.azure/azure-documentdb/2.4.4). 
@@ -32,12 +32,12 @@ Open source Gremlin client drivers were initially designed to connect with indiv
 <br>If you are failing to connect and receiving a *Gremlin.Net.Driver.Exceptions.ServerUnavailableException* repeatedly, you may be using an older version of Gremlin Client (for example, 3.4.0.0). Upgrading to Gremlin .NET 3.4.2 or greater would probably resolve this issue. 
 
 **404 (NotFound) status code. NotFoundException**
-<br>Compute layer caches the storage client by the collection name (e.g. "testGraph"). The cached client, however, identifies the collection by its resource id *rid*. This can result in compute requests that are issued after a collection re-create trying to use a cached client with the deleted collection's Rid. The storage layer cannot find the deleted collection, so returns a 404 (NotFound) status code. We forward this status code to the user, resulting in the observed NotFoundException.
+<br>Compute layer caches the storage client by the collection name (e.g. "testGraph"). The cached client, however, identifies the collection by its resource id *rid*. This can result in compute requests that are issued after a collection recreate trying to use a cached client with the deleted collection's Rid. The storage layer cannot find the deleted collection, so returns a 404 (NotFound) status code. We forward this status code to the user, resulting in the observed NotFoundException.
 <br>**Solution:** Please cycle the collection name when deleting and re-creating a collection (e.g. "testGraph1", "testGraph2", "testGraph3", . . . ).  
 
 **Other Common Connectivity problems:**
 * .NET: *Gremlin.Net.Driver.Exceptions.ServerUnavailableException:* No connection to the server available which most likely means that the server is completely unavailable
-* .Java: *TimeoutException:* Timed-out waiting for connection on youraccount.gremlin.cosmos.azure.com - possibly unavailable  
+* .Java: *TimeoutException:* Timed-out waiting for connection on your account.gremlin.cosmos.azure.com - possibly unavailable  
 
 **Connection Termination:**
 * Connection was idle for over an hour and there was no traffic on it other than keep-alive messages. To reclaim resources Cosmos DB will close such connections.  

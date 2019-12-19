@@ -50,7 +50,7 @@
   * The return value (*isAccepted*) of each CRUD or Query call from within stored procedure, must be checked. See [Stored procedure sample using IsAccepted](https://github.com/Azure/azure-cosmos-dotnet-v2/blob/fd036405a7de6b8bc4c9fdbc6872b09f9b6e2bf3/samples/code-samples/ServerSideScripts/JS/BulkImport.js#L50-L58) for a sample that breaks up and resumes execution using this pattern.
   * All CRUD calls in the stored procedures must be serialized in a way that each next CRUD call must be done from the previous CRUD callback
   * The simplest way to achieve this serialization is to use *async await* wrapper (see example below) and throw  when *isAccepted* is false
-  * Each CRUD call is asynchronous. After a call is made, based on tge result of the call, all further processing depending should be done from the callback.
+  * Each CRUD call is asynchronous. After a call is made, based on the result of the call, all further processing depending should be done from the callback.
   * Avoid infinite loops and excessive CPU consumption in between CRUD calls
   
 * You can debug stored procedures locally by using the [Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator) or by adding *console.log()* statements and enabling [Enable Script Logging RequestOption in .NET](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.requestoptions.enablescriptlogging?view=azure-dotnet) or [Enable Script Logging RequestOption in Java](https://docs.microsoft.com/java/api/com.microsoft.azure.documentdb.requestoptions.setscriptloggingenabled?view=azure-java-stable#com_microsoft_azure_documentdb_RequestOptions_setScriptLoggingEnabled_boolean_) via RequestOptions
