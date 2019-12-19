@@ -5,17 +5,19 @@
 	resource="databaseAccounts"
 	authors="balaksms"
 	ms.author="balaks"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32636764"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-admin-securityvnetendpoint"
 	displayOrder="24"
 	category="Administration"
 />
 
 # Connection failure after VNet service endpoint configuration
+Most users are able to resolve their security and VNet case using the steps below.
+
 
 ## **Recommended Steps**
 

@@ -18,9 +18,9 @@
 
 ## **Recommended Steps**
 
-* To [increase quota](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors), please follow the steps:
+* To [increase quota](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests), please follow the steps:
 
-    * Go to subscriptions [here](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
+    * Go to [subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
     * Select the subscription that needs an increased quota
     * Select Usage + quotas
     * In the upper right corner, select Request increase

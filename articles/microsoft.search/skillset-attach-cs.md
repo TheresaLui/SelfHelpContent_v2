@@ -6,7 +6,7 @@
 	authors="luiscabrer"
 	ms.author="luisca"
 	selfHelpType="resource"
-	displayOrder="5"
+	displayOrder="1"
 	supportTopicIds="32681353"
 	resourceTags=""
 	productPesIds="15568"

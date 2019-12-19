@@ -18,4 +18,6 @@
 
 ## **Recommended Documents**
 
+* Search the [Knowledge Base](https://kb.azuredatabricks.net/index.html) for guidance on resolving errors and setup issues 
+* If you have a question about how Databricks works, please check how to guides at [Azure Databricks Documentation](https://docs.microsoft.com/azure/databricks/getting-started/training-faq)
 * [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/)

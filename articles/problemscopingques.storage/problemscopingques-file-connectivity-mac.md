@@ -29,8 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "File Share or File path",
             "watermarkText": "'FileShare' or 'FileShare/FileName'",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false,
+            "diagnosticInputRequiredClients": "ASC"
         },
         {
             "id": "os_version",
@@ -52,7 +52,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {

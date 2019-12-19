@@ -23,11 +23,10 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 ## **Recommended Steps**
 
-1. Check the connection string to confirm you have correctly entered the password for this server.
-2. Consider changing the password and reattempting to connect using the new password.
+1. Check the connection string to confirm you have correctly entered the password for this server
+2. Consider changing the password and reattempting to connect using the new password
 
 ## **Recommended Documents**
 
-[Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
-
-[PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)
+* [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
+* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)
