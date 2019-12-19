@@ -16,7 +16,7 @@
 
 # Diagnose and resolve Virtual Machine performance issues
 
-Performance issues might be caused by cpu, memory, storage, network, sizing or a combination of these factors.
+Performance issues might be caused by CPU, memory, storage, network, sizing or a combination of these factors.
 
 This document provides information for each of these categories.
 
