@@ -47,7 +47,7 @@
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
-	"menuid": "enableAN"
+	"menuid": "networking"
       }
     }
   ],
