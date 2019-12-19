@@ -6,7 +6,6 @@
     authors="ChiragPavecha"
     ms.author="chiragpa"
     displayOrder=""
-    articleId="batch-jobs-and-tasks-jobschedules"
     selfHelpType="generic"
     supportTopicIds="32635067,32635071,32635090,32635089"
     resourceTags=""
