@@ -73,7 +73,7 @@
     },
     {
       "name": "collectionName",
-      "title": "Collection Name"
+      "title": "Container Name"
     }
   ],
   "costSavingInfo": "*You can save up to the stated amount if you delete the container(s), not accounting for any discount that may apply to your account."
