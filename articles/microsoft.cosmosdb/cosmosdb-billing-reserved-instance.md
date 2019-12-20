@@ -32,6 +32,7 @@ To purchase a reservation, you must:
 
 Azure Cosmos DB Reserved Capacity can be scoped to a single subscription, a single resource group, or shared across an entire Azure enrollment. You can change the reservation scope at any time. You can pay upfront or monthly for Azure Cosmos DB Reserved Capacity.  
 
+## **Recommended Documents**   
 
 [Optimize cost with reserved capacity in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity)
 <br>Azure Cosmos DB reserved capacity helps you save money by committing to a reservation for Azure Cosmos DB resources for either one year or three years. With Azure Cosmos DB reserved capacity, you can get a discount on the throughput provisioned for Cosmos DB resources. Examples of resources are databases and containers (tables, collections, and graphs).  
