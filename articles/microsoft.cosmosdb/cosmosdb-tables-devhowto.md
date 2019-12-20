@@ -56,7 +56,7 @@ If you need to migrate data to Azure table or export to a json file.
 Solution:
 * We recommend migrating data from Cosmos Table API using [Data Migration Tool](https://docs.microsoft.com/azure/cosmos-db/table-import#data-migration-tool)
 * sample to migrate data from Cosmos Table API to a JSON file
-`
+```
 dt /s:AzureTable 
 /s.ConnectionString:DefaultEndpointsProtocol=https;
 AccountName=<Azure Table storage account name>;
@@ -67,7 +67,7 @@ TableEndpoint=https://<Azure Table storage account name>.documents.azure.com;
 /t:JsonFile 
 /t.File:C:<json file directory on local machine> 
 /t.Overwrite
-` 
+```
 
 
 
