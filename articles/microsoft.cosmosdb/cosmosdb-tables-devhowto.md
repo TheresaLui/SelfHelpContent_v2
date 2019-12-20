@@ -25,35 +25,35 @@ Most users are able to resolve their Azure Cosmos DB Table issue using the steps
 Applications written for Azure Table storage can migrate to Azure Cosmos DB by using the Table API.
 
 To get started:
+
 * Replace your connection string to connect to an Azure Cosmos DB account created with the Table API.
 * Make sure to use the latest version of your Azure Table Storage driver or SDK; if your application is running on .NET, we recommend to use the [Azure Cosmos DB Table .NET Standard SDK](https://docs.microsoft.com/azure/cosmos-db/table-sdk-dotnet-standard).
 * Get familiar with Azure Cosmos DB's provisioned throughput model and evaluate how many [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units) your application might need.
 
 Then, learn about the premium capabilities you can leverage:
+
 * Automatic secondary indexing: all columns get automatically indexed by default
-* [Global distribution](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally): tables can be replicated to any Azure datacenter to ensure low latency and high availability  
+* [Global distribution](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally): tables can be replicated to any Azure datacenter to ensure low latency and high availability
 
+### **Changing throughput in Table api using .net sdk**
 
-**Changing throughput in Table api using .net sdk**
-<br>If you are having troubles changing the throughput using .net sdk, be sure you have updated your SDK. [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet)  
+If you are having troubles changing the throughput using .net sdk, be sure you have updated your SDK. [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet)  
 
-**Solution:**
+Solution:
 * Sample code to change the throughput in table api using .net sdk [Easier APIs for scaling throughput](https://azure.microsoft.com/blog/new-for-developers-azure-cosmos-db-net-sdk-v3-now-available/).
 * *ReplaceThroughputAsync* property [Container.ReplaceThroughputAsync](https://docs.microsoft.com/dotnet/api/microsoft.azure.cosmos.container.replacethroughputasync?view=azure-dotnet)  
 
 
-**Not able to create a Table via Portal**
-<br>If you are having troubles with Table API table creation via Portal.  
-
-**Solution:**
+### **Not able to create a Table via Portal**
+If you are having troubles with Table API table creation via Portal.  
+Solution:
 * You can create table using SDK  *client.GetTableReference("OperationResults").CreateIfNotExists()*  
 
 
+### **Exporting to a json file or Migrating data**
+If you need to migrate data to Azure table or export to a json file.  
 
-**Exporting to a json file or Migrating data**
-<br>If you need to migrate data to Azure table or export to a json file.  
-
-**Solution:**
+Solution:
 * We recommend migrating data from Cosmos Table API using [Data Migration Tool](https://docs.microsoft.com/azure/cosmos-db/table-import#data-migration-tool)
 * sample to migrate data from Cosmos Table API to a JSON file
 `
