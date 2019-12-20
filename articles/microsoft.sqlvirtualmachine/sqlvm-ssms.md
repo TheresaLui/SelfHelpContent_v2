@@ -19,8 +19,9 @@
 # tools and portal/sql server management studio
 
 * **Cannot find dreplay.exe for Distributed Replay functionality**
-Starting with version 18.0, DReplay.exe is no longer installed with SSMS. Refer [Install Distributed Replay
-](https://docs.microsoft.com/sql/tools/distributed-replay/install-distributed-replay-overview) for standalone installation.
+
+  Starting with version 18.0, DReplay.exe is no longer installed with SSMS. You can [install Distributed Replay
+](https://docs.microsoft.com/sql/tools/distributed-replay/install-distributed-replay-overview) separately.
 
 ## **Recommended Documents**
 
