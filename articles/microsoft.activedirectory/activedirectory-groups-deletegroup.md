@@ -3,7 +3,7 @@
     description="Deleting a group"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="krbain"
+    authors="yukarppa"
     selfHelpType="generic"
     supportTopicIds="32615372"
     productPesIds="16578"
