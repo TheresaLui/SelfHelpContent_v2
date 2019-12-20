@@ -787,6 +787,13 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
+            "id": "2dafb8e0-c8e0-bacc-5ff0-42635d6c2491",
+            "shortDescription": "Assistance with issues encountered when trying to resize a virtual machine",
+            "category": "Performance",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
             "id": "ad87fcbe-dbe1-5757-c644-b5511f27f5c4",
             "shortDescription": "Disk throughput is lower than expected for the virtual machine",
             "category": "Management",

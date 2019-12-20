@@ -17,4 +17,5 @@
 # Jobs and tasks - Job preparation and job release
 
 ## **Recommended Documents**
-* [Job preparation or release tasks](https://docs.microsoft.com/azure/batch/batch-job-prep-release)
+* [Job preparation or release tasks](https://docs.microsoft.com/azure/batch/batch-job-prep-release)<br>
+* [Common errors while submitting a Job or Task](https://docs.microsoft.com/azure/batch/batch-job-task-error-checking)
