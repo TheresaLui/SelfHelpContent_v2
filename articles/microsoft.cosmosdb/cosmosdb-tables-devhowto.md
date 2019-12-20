@@ -9,7 +9,7 @@
 	supportTopicIds="32636750"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"	
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-tables-devhowto"
 	displayOrder="300"
 	category="Azure Table"
@@ -20,7 +20,7 @@ Most users are able to resolve their Azure Cosmos DB Table issue using the steps
 
 ## **Recommended Steps**  
 
-### **Devloping applications with Azure Cosmos DB Table API**
+### **Developing applications with Azure Cosmos DB Table API**
 
 Applications written for Azure Table storage can migrate to Azure Cosmos DB by using the Table API.
 
@@ -58,7 +58,7 @@ If you need to migrate data to Azure table or export to a json file.
 **Solution:**
 * We recommend migrating data from Cosmos Table API using [Data Migration Tool](https://docs.microsoft.com/azure/cosmos-db/table-import#data-migration-tool)
 * sample to migrate data from Cosmos Table API to a JSON file
-```
+`
 dt /s:AzureTable 
 /s.ConnectionString:DefaultEndpointsProtocol=https;
 AccountName=<Azure Table storage account name>;
@@ -69,7 +69,7 @@ TableEndpoint=https://<Azure Table storage account name>.documents.azure.com;
 /t:JsonFile 
 /t.File:C:<json file directory on local machine> 
 /t.Overwrite
-```  
+` 
 
 
 
