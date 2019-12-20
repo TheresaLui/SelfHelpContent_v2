@@ -3,7 +3,7 @@
     description="Group expiration"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="krbain"
+    ms.authors="yukarppa"
     selfHelpType="generic"
     supportTopicIds="32615385"
     productPesIds="16578"
