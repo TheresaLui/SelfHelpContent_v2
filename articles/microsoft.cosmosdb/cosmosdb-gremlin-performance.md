@@ -15,7 +15,7 @@
 	category="Gremlin (Graph)"
 />
 # Gremlin - Performance
-Most users are able to resolve their Gremlin Perfromance issue using the steps below.  
+Most users are able to resolve their Gremlin Performance issue using the steps below.  
 
 
 ## **Recommended Steps**  
