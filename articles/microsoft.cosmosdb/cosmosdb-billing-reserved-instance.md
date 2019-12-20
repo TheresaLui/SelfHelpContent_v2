@@ -23,7 +23,7 @@ Most users are able to resolve their Reserved Instance issue using the steps bel
 
 ## **Recommended Steps**   
 
-Reserved Instance (RI), also referred to as Reserved Capacity, can be a great way to reduce your Azure Cosmos DB bill. Savings for Azure Cosmos DB Reserved Capacity are outlined in the [Azure Cosmos DB pricing page](https://azure.microsoft.com/pricing/details/cosmos-db/). You can aslo follow [these steps](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity#buy-azure-cosmos-db-reserved-capacity) to purchase an Azure Cosmos DB Reserved Capacity reservation. You’ll also see Azure Cosmos DB Reserved Capacity size recommendations on this page as well as estimated discount amounts.  
+Reserved Instance (RI), also referred to as Reserved Capacity, can be a great way to reduce your Azure Cosmos DB bill. Savings for Azure Cosmos DB Reserved Capacity are outlined in the [Azure Cosmos DB pricing page](https://azure.microsoft.com/pricing/details/cosmos-db/). You can aslo follow [these steps](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity#buy-azure-cosmos-db-reserved-capacity) to purchase an Azure Cosmos DB Reserved Capacity reservation. You will also see Azure Cosmos DB Reserved Capacity size recommendations on this page as well as estimated discount amounts.  
 
 To purchase a reservation, you must: 
 * You must be in the Owner role for at least one Enterprise or individual subscription with pay-as-you-go rates
