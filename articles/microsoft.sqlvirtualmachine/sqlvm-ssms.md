@@ -25,5 +25,5 @@
 
 ## **Recommended Documents**
 
-* [Recent fixes issued for SSMS](https://docs.microsoft.com/en-us/sql/ssms/release-notes-ssms)
+* [Recent fixes issued for SSMS](https://docs.microsoft.com/sql/ssms/release-notes-ssms)
 * [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)
