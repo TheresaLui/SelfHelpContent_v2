@@ -20,7 +20,7 @@
 2. Configuring and using the expiration policy for Office 365 groups requires an Azure AD Premium license.<br>
 3. Currently only one expiration policy can be configured for Office 365 groups on a tenant.<br>
 4. Only Global administrators, Group admnistrator, User administrators, and the owner of the group are able to renew a group.<br>
-5. If an Office 365 group is expired, it is deleted and can only be restored up to 30 days before permanent deletion occurs. Once permanently deleted, the group can no longer be restored. Learn more about restoring groups [here](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-restore-deleted).<br>
+5. If an Office 365 group is expired, it is deleted and can only be restored up to 30 days before permanent deletion occurs. Once permanently deleted, the group can no longer be restored. Learn more about restoring groups [here](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted).<br>
 
 **Activity-based automatic renewal**<br>
 User activities from SharePoint, Outlook and Teams can trigger group automatic renewal. Activities are checked at 35 days before a group expires. If there is activity during the current group lifecycle, the group will be automatcially renewed and email notification won't be sent out to group owners.
