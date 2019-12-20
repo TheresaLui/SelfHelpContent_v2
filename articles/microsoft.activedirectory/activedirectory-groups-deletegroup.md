@@ -22,7 +22,7 @@
 **Restore a deleted group**<br>
 1. If an Office 365 group is deleted, it can only be restored up to 30 days before permanent deletion occurs. Once permanently deleted, the group can no longer be restored. Learn more about restoring groups [here](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-restore-azure-portal).<br>
 2. This functionality is not supported for security groups and distribution groups.<br>
-3. Ensure you are authorized to restore an Office 365 group, only Global administrators, User account administrators, Intune service administrators, Partner Tier1 or Tier2 support and the owner of the group are able to restore a group.<br>
+3. Ensure you are authorized to restore an Office 365 group, Global administrators, Group administrator, User account administrators, Intune service administrators, Partner Tier1 or Tier2 support and the owner of the group are able to restore a group.<br>
 4. When a dynamic group is deleted and restored, it is seen as a new group and re-populated according to the rule. This process might take up to 24 hours.<br>
 
 ## **Recommended documents**
