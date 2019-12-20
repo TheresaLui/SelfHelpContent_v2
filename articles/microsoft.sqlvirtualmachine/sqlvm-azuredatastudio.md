@@ -18,4 +18,8 @@
 
 # tools and portal/azure data studio
 
-Most users are able to resolve the issues with Azure Data Studio using the recommended [documentation](https://docs.microsoft.com/sql/azure-data-studio).
+Most users are able to resolve the issues with Azure Data Studio using the recommended documents listed below.
+
+## **Recommended Documents**
+
+* [Azure Data Studio](https://docs.microsoft.com/sql/azure-data-studio)
