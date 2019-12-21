@@ -76,8 +76,20 @@
     {
       "name": "instanceCount",
       "title": "Instance Count"
+    },
+	{
+      "name": "region",
+      "title": "Region"
+    },
+	{
+      "name": "vmSku",
+      "title": "VM SKU"
+    },
+	{
+      "name": "recGeneratedOn,
+      "title": "Generated On"
     }
   ],
-  "costSavingInfo": "Cost savings are estimated for a month in USD"
+  "costSavingInfo": "Cost savings are estimated for a year in USD"
 }
 ---
