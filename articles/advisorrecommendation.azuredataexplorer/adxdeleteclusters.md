@@ -86,7 +86,7 @@
       "title": "VM SKU"
     },
 	{
-      "name": "recGeneratedOn,
+      "name": "recGeneratedOn",
       "title": "Generated On"
     }
   ],
