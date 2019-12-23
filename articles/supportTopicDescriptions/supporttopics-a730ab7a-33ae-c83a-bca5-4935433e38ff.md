@@ -162,6 +162,174 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
 		"category": "Windows Containers",
 		"searchTags": "",
 		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "6241c566-3019-f3da-d46d-16e50ea8f0b5",
+		"shortDescription": "Covers issues related to the application running on the Service Fabric cluster",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "5d7d7d19-d5b6-7aa1-f407-07129383406e",
+		"shortDescription": "Issues when you are trying to deploy a new or update an existing application",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "b236e895-416b-b97f-1f86-f00fe0e257ee",
+		"shortDescription": "Troubleshoot problems that happened during an application upgrade like failed, stuck, taking long time etc.",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "bb766dec-bcee-abce-b514-4c08549f5821",
+		"shortDescription": "Issues when your existing application is throwing exceptions",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "c7a1c859-8c63-cd10-fbf5-382632624a29",
+		"shortDescription": "Issues such as can't connect to SF explorer, warnings/errors in SF explorer etc.",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "0e2b88f0-c082-6919-06f6-11f692f0a234",
+		"shortDescription": "Issue when you have problems connecting to a service endpoint",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "8f36b681-fe62-35ad-5279-baed4ce38df2",
+		"shortDescription": "Issues with configuring or working of Patch Orchestration Application",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "5af0e8c5-d394-0ba1-6083-99cfded1f26f",
+		"shortDescription": "Troubleshoot issue when your application is not working as expected or is not available",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "c4509932-3aff-1743-c618-176e599393bd",
+		"shortDescription": "Assistance needed while developing an application such as HowTo or best practices",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "61b8f072-507a-dbed-ee0b-6774fa9c47aa",
+		"shortDescription": "Assistance needed to delete an application or service which is stuck in deleting state",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "394ee6ac-ee41-7be3-40e0-5c905c2ecc31",
+		"shortDescription": "Choose this when none of the above option represent your issue",
+		"category": "Issues related to the Application",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "412db075-f7f1-9dfb-c261-c27a7034f637",
+		"shortDescription": "Covers issues with you Cluster and its nodes including their health, CRUD and management operations",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "a67ed282-4039-47c0-4fc4-b998893e6f75",
+		"shortDescription": "Issues when your cluster state shows as ",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "f787c416-9092-097b-1e05-9c251aef3adb",
+		"shortDescription": "Issues while or after upgrading the Cluster runtime version(for e.g. version 1 to version 2)",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "d5690ce5-a96b-4f84-4136-b0d10c9ba253",
+		"shortDescription": "Troubleshoot why your cluster nodes are down or in error state",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "9b4463be-13de-1222-7185-282548a89eff",
+		"shortDescription": "Issue when your cluster nodes seems hang and not coming online",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "a1dbe8ee-524c-65b0-4e6b-f6553be468a8",
+		"shortDescription": "Report issues when your cluster seems to be stuck when you initiated a config update but it never completes",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "6b78447b-f327-0204-7ada-2c15143ff8eb",
+		"shortDescription": "Scenarios when you initiate a cluster deployment and it fails or questions related to cluster deployment",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "2628e00c-ec0f-a1ff-9d23-b569d7a633a1",
+		"shortDescription": "Troubleshoot issues when your cluster is completely down and is inaccessible",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "3f17eed1-a7a4-d139-ed77-ce4c66bed981",
+		"shortDescription": "Issues when the nodes of your cluster are complaining about low disk space",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "a7c8ce8b-31d8-1b8d-b83b-35eeaed36a9c",
+		"shortDescription": "Assistance needed to modify the manifest settings of an existing cluster",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "152a4c1d-6081-1fd0-0728-702026b61cf7",
+		"shortDescription": "Issues while or after the manual or auto scale up or down operation on your cluster",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "00b739f8-0383-6514-c053-954b5941a650",
+		"shortDescription": "Scenarios when you are not able to remove a node from the cluster or delete the entire cluster",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
+	},
+	{
+		"id": "045d3e98-7e22-627e-8cdb-2f76e373d6db",
+		"shortDescription": "Choose this when none of the above option represent your issue",
+		"category": "Issues related to the Cluster",
+		"searchTags": "",
+		"useInDiagnoseAndSolve": ""
 	}
 ],
   "$schema": "SelfHelpContent"

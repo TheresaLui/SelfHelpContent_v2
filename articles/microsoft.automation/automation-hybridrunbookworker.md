@@ -48,6 +48,10 @@ Many issues with Hybrid Workers are caused by connectivity problems. Run [the "T
 
 * Follow the troubleshooting guide for ["Unable to add a Hybrid Runbook Worker"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#already-registered)
 
+### **Can't start or schedule runbook**
+
+* Ensure your runbook [is in the Published state](https://docs.microsoft.com/azure/automation/manage-runbooks#publish-a-runbook).
+
 
 ## **Recommended Documents**
 

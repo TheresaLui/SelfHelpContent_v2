@@ -5,22 +5,22 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32675633"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-gremlin-limits"
 	displayOrder="182"
 	category="Gremlin (Graph)"
 />
-# Gremlin - Limits
+# Azure Cosmos DB Gremlin limits
+Most users are able to resolve their Gremlin Limits issue using the steps below.
 
-Cosmos DB Gremlin API is built on top of Cosmos DB infrastructure therefore all Limits in [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits) apply. 
+## **Recommended Steps** 
+Cosmos DB Gremlin API is built on top of Cosmos DB infrastructure therefore all Limits in [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits) apply.  
 
-### **Azure Cosmos DB Gremlin limits**
-
-When Gremlin limit is reached, traversal is terminated with ***x-ms-status-code*** = 429 that indicates throttling error.
+When Gremlin limit is reached, traversal is terminated with ***x-ms-status-code*** = 429 that indicates throttling error.  
 
 **Resource**	| **Default limit** | **Explanation**
 --- | --- | ---
@@ -36,4 +36,5 @@ When Gremlin limit is reached, traversal is terminated with ***x-ms-status-code*
 
 ## **Recommended Documents**
 
-* [Limits in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits)
+[Limits in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits)
+<br>This article provides an overview of the default quotas offered to different resources in the Azure Cosmos DB.

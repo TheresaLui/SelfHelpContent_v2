@@ -24,14 +24,6 @@ Azure has a quota limit of 800 deployments per resource group. Scale deployments
 1. From the portal, sign into the portal and navigate to your resource group
 1. Select **Deployments** from the resource group. If this count shows that it has reached the limit, delete old deployments to fix the issue. You can safely delete all deployments that are "X" days old. "X" can be 30 or so based on how frequent deployments happen in this resource group.
 
-**Issues with A-Series VMs**
-
-1. **Error:** VM size *A-series VM* provided in the request is invalid or not supported for role *node type*. Valid values are: *list of supported VMs*
-    
-1. **Cause:** New A-series virtual machines cannot be used as headnodes for Enterprise Security Clusters. Existing A-series virtual machines used as headnodes on Enterprise Security Clusters cannot be scaled up or down, or have applications added to them.
-
-1. **Solution:** Select a virtual machine from the list of supported VMs in the error message. 
-
 
 **Operations Management Suite (OMS) is enabled and blocking the ability to scale**
 
@@ -48,6 +40,7 @@ To temporarily disable Operations Management Suite (OMS) follow steps below:
 **Additional Information**
 
 * HDInsight does not allow you to upgrade worker node disk sizes on a running cluster. Currently, you must choose the disk size when the cluster is created. HDInsight clusters are designed to be easily dropped and re-created.
+* Once a cluster is deployed, customer’s cannot increase or decrease the diskspace of the nodes. Customer’s can free up logs or free data on mount to get more disk space.
 * It is recommended that you scale down HDInsight to a minimum of three worker nodes. For Kafka, you cannot scale down the worker nodes.
 * Scaling your HDInsight is not possible via ARM templates. You can scale your cluster using five different methods:
 

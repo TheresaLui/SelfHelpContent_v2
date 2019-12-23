@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Server is paused. Resume the server to make it available."
-    description="Server is paused. Resume the server to make it available."
-    infoBubbleText="Server is paused. Resume the server to make it available."
+    pageTitle="Server is paused. Resume the server to make it available. Server is paused. Resume the server to make it available."
+    description="Server is paused. Resume the server to make it available. Server is paused. Resume the server to make it available."
+    infoBubbleText="Server is paused. Resume the server to make it available. Server is paused. Resume the server to make it available."
     service="Microsoft.AnalysisServices"
     resource="servers"
     authors="stephbaron"
@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Analysis Services server:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Azure Analysis Service resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
 Server is paused. Resume the server to make it available. 
 <!--/issueDescription-->

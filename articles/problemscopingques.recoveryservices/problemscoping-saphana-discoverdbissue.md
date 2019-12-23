@@ -55,9 +55,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the SAP HANA version and edition?",
 			"watermarkText": "ex. SAP HANA 2.0 SPS04",
-			"required": false,
-			"diagnosticInputRequiredClients": "Portal"
-		},
+			"required": false		},
 		{
 			"id": "database_Name",
 			"order": 4,
@@ -70,8 +68,9 @@
 			"id": "discoverdb_Script",
 			"order": 5,
 			"controlType": "dropdown",
-			"infoBalloonText": "Info: The script can be found here",
+			"infoBalloonText": "Info: The script can be found <a href='https://download.microsoft.com/download/B/2/E/B2E01EF8-C247-42A6-BCC7-E45B78F20C99/msawb-plugin-config-com-sap-hana.sh'>here</a>",
 			"displayLabel": "Have you run the script available on the Discover DB pane?",
+			"watermarkText": "Select",
 			"dropdownOptions": [{
 					"value": "Yes",
 					"text": "Yes"
@@ -85,8 +84,8 @@
 					"text": "Other, don't know or not applicable"
 				}
 			],
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": false,
+	 		"diagnosticInputRequiredClients": "Portal"
 		},
 		{
 			"id": "error_message",
@@ -100,6 +99,7 @@
 			"id": "basic_troubleshooting_multiselect",
 			"order": 7,
 			"controlType": "multiselectdropdown",
+            "infoBalloonText": "Info: <a href='https://docs.microsoft.com/azure/backup/sap-hana-backup-support-matrix#scenario-support'>Learn more</a> about the scenarios we support",
 			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
 					"value": "Checked OS version is supported for backup",
@@ -122,16 +122,15 @@
 					"text": "Other, don't know or not applicable"
 				}
 			],
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": false,
+ 			"diagnosticInputRequiredClients": "Portal"
 		},
 		{
 			"id": "problem_start_time",
 			"order": 8,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": true
-		},
+			"required": false		},
 		{
 			"id": "problem_description",
 			"order": 9,

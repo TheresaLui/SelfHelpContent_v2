@@ -24,6 +24,10 @@ This article will help for issues where machines are enrolled in Update Manageme
 
 * Follow the troubleshooting guide for ["Update run returns status 'Failed'"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#scenario-update-run-returns-status-failed)
 
+### **"Exception: Job was suspended"**
+
+* Run [the Update Agent troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline)
+
 ### **I know updates are available, but they don't show as needed on my machines**
 
 * This often happens if machines are configured to get updates from WSUS/SCCM, but WSUS/SCCM have not approved the updates
@@ -70,6 +74,11 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 ### **Updates aren't installing while "Never reboot" is selected"**
 
 * Some updates can be dependent on other required updates. If a required update needs a reboot, and "Never reboot" is selected, the required update will not finish installing and any dependent updates will not be able to install until the next update deployment.
+* Updates can also be skipped once the maintenance window is exceeded. See ["The scheduled update failed with a MaintenanceWindowExceeded error"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#mw-exceeded). 
+
+### **Updates for other Microsoft products**
+
+* By default, Windows Update provides updates only for Windows. To change this behavior, see [Enable updates for other Microsoft products](https://docs.microsoft.com/azure/automation/automation-configure-windows-update#enable-updates-for-other-microsoft-products)
 
 
 ## **Recommended Documents**

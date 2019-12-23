@@ -110,6 +110,23 @@
                     ],
                     "required": false
                 },{
+                    "id": "checkrightclick",
+                    "order": 9,
+                    "controlType": "dropdown",
+                    "displayLabel": "Were you able to replicate this issue using Right Click - Classify and Protect",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
                     "id": "problem_description",
                     "order": 1,
                     "controlType": "multilinetextbox",

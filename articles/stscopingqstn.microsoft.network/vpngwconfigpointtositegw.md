@@ -26,8 +26,34 @@
             "required": true
         },
         {
+            "id": "P2S_authentication",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Select the tunnel type",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Azure Active Directory",
+                    "text": "Azure Active Directory"
+                },
+                {
+                    "value": "RADIUS",
+                    "text": "RADIUS"
+                },
+                {
+                    "value": "Certificate",
+                    "text": "Certificate"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+	{
             "id": "problem_description",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "required": true,

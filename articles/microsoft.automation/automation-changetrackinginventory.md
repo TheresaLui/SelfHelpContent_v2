@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+You can run the [offline version of the Agent Registration script](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) to find more detailed troubleshooting on prerequisites for the Change Tracking and Inventory. Although this script performs some checks related to Update Management, most requirements are the same for Change Tracking and Inventory. 
+
 ### I am unable to onboard machines onto Change Tracking and Inventory
 
 * Please review the [onboarding troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
