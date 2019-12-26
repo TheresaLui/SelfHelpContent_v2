@@ -1,6 +1,7 @@
 <properties
     pageTitle="Push installation of mobility agent fails as root account is not provided in Linux VM"
     description="Push installation of mobility agent fails as root account is not provided in Linux VMs"
+    infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="TobyTu"

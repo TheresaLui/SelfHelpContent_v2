@@ -2,6 +2,7 @@
     pageTitle="Push installation of mobility agent fails as login service not running"
     description="Push installation fails as login service is not running on the source machine to process the login request from process server."
     service="microsoft.recoveryservices"
+    infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     resource="vaults"
     authors="TobyTu"
     ms.author="aaronmax"

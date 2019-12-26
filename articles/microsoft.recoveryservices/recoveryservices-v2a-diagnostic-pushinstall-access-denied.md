@@ -1,6 +1,7 @@
 <properties
     pageTitle="Push installation of mobility agent fails with Access Denied"
     description="Push installation of mobility agent fails due to insufficient privileges while copying the mobility agent software to source machine."
+    infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="TobyTu"

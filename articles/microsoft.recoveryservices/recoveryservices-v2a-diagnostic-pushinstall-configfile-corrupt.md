@@ -1,6 +1,7 @@
 <properties
     pageTitle="Push installation of mobility agent fails due to configuration file corruption"
     description="Registration of mobility agent with configuration server has failed because the platform value is set to NULL."
+    infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="TobyTu"

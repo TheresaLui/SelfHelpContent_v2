@@ -1,6 +1,7 @@
 <properties
     pageTitle="Push installation fails because login is disabled on source machine"
     description="Push installation of mobility agent fails because login is disabled on source machine while copying the mobility agent software to the source machine."
+    infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="TobyTu"
