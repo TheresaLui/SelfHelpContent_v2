@@ -6,7 +6,7 @@
     authors="csunilkumar"
     ms.author="sunilkc"
     displayOrder="1"
-    selfHelpType="Generic"
+    selfHelpType="resource"
     supportTopicIds="32636484"
     resourceTags=""
     productPesIds="15078"
