@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-[Manage Azure HDInsight clusters using .NET, Python, or Java](https://azure.microsoft.com/blog/manage-azure-hdinsight-clusters-using-net-python-or-java/)
+* [Manage Azure HDInsight clusters using .NET, Python, or Java](https://azure.microsoft.com/blog/manage-azure-hdinsight-clusters-using-net-python-or-java/)
 
 **.NET SDK**
 
