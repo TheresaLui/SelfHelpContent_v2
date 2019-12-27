@@ -33,4 +33,4 @@
 
 **Java SDK**
 
-* [HDInsight SDK for Java](https://docs.microsoft.com/en-us/java/api/overview/azure/hdinsight?view=azure-java-preview)
+* [HDInsight SDK for Java](https://docs.microsoft.com/java/api/overview/azure/hdinsight?view=azure-java-preview)
