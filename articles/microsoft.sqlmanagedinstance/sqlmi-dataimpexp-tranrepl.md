@@ -38,5 +38,5 @@ If you are experiencing some issues with transactional replication, the followin
 
 ## **Recommended Documents**
 
-- [Transactional replication](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transactional-replication).
+- [Transactional replication](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transactional-replication)
 - [Configure transactional replication in Managed Instance](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance)
