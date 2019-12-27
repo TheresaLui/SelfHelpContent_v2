@@ -26,8 +26,8 @@ The registration of the mobility agent with a configuration server fails because
 
 Uninstall the mobility agent from source machine and perform a fresh installation. If the uninstallation fails, follow these steps:
 
-- Open the file Installation_Directory/uninstall.sh and comment out the call to the StopServices function .
-- Open the file Installation_Directory/Vx/bin/uninstall and comment out the call to the stop_services function .
-- Open the file Installation_Directory/Fx/uninstall and comment out the complete section that's trying to stop the Fx service.
-- Uninstall the mobility agent.
-- Reboot the system and try to install the agent again.
+- Open the file Installation_Directory/uninstall.sh and comment out the call to the StopServices function
+- Open the file Installation_Directory/Vx/bin/uninstall and comment out the call to the stop_services function
+- Open the file Installation_Directory/Fx/uninstall and comment out the complete section that's trying to stop the Fx service
+- Uninstall the mobility agent
+- Reboot the system and try to install the agent again
