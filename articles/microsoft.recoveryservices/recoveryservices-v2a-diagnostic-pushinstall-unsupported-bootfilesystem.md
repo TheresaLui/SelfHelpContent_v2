@@ -19,7 +19,7 @@
 # Push Installation of Mobility agent fails because of unsupported boot file system
 
 <!--issueDescription-->
-Push installation fails because the source machine has unsupported boot file system. Before version 9.20 about Azure Site Recovery(ASR) components, configuration of boot on a Logical Volume Manager device is not unsupported. For more information, see [Volume manager](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#linux-file-systemsguest-storage).
+Push installation fails because the source machine has unsupported boot file system. Before version 9.20 about Azure Site Recovery(ASR) components, configuration of boot on a Logical Volume Manager device is not unsupported.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
