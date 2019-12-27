@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure HDInsight client tool issue: HDinsight SDK"
-    description="Azure HDInsight client tool issue: HDinsight SDK"
+    pageTitle="Azure HDInsight client tool issue: HDInsight SDK"
+    description="Azure HDInsight client tool issue: HDInsight SDK"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="TobyTu"
@@ -14,7 +14,7 @@
     articleId="70a28266-d0e8-4054-a131-a3fc497ef1fb"
 />
 
-# Azure HDInsight client tool issue: HDinsight SDK
+# Azure HDInsight client tool issue: HDInsight SDK
 
 ## **Recommended Documents**
 
