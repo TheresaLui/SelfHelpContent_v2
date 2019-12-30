@@ -55,8 +55,38 @@
             "required": true
         },
         {
-            "id": "gatewayorscript",
+            "id": "hdfs-ls-work",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Does hdfs dfs -ls / work?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "hdfs-error",
+            "order": 5,
+            "visibility": "hdfs-ls-work == No",
+            "controlType": "textbox",
+            "displayLabel": "hdfs dfs -ls error message",
+            "required": false
+        },
+        {
+            "id": "gatewayorscript",
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Have you logged in to Ambari through the gateway or run the RegisterKerbTicketAndOAuth.sh script?",
             "watermarkText": "Choose an option",
