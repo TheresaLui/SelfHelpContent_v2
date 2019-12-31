@@ -30,11 +30,11 @@ Currently Static Website doesn't support Azure AD authentication.There is no opt
 
 ### **How to use custom domain with Static Website?**
 
-Currently the way to configure [**custom domain**](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-custom-domain#enable-custom-domain-and-ssl) with Static Website is to use [**Azure CDN**](https://docs.microsoft.com/azure/storage/blobs/storage-https-custom-domain-cdn). CDN provides consistent low latencies to your website from anywhere in the world. While CDN comes at an additonal cost we have made it a compelling option with the removal of storage egress cost.
+Currently the way to configure [**custom domain**](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-custom-domain#enable-custom-domain-and-ssl) with Static Website is to use [**Azure CDN**](https://docs.microsoft.com/azure/storage/blobs/storage-https-custom-domain-cdn). CDN provides consistent low latencies to your website from anywhere in the world. While CDN comes at an additional cost we have made it a compelling option with the removal of storage egress cost.
 
 ### **How to use custom SSL certificate with Static Website?**
 
-Currently the way to configure [**custom SSL**](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-custom-domain#enable-custom-domain-and-ssl) certificate with Static Website is to use [**Azure CDN**](https://docs.microsoft.com/azure/storage/blobs/storage-https-custom-domain-cdn). CDN provides consistent low latencies to your website from anywhere in the world. While CDN comes at an additonal cost, we have made it a compelling option with the removal of storage egress cost.
+Currently the way to configure [**custom SSL**](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-custom-domain#enable-custom-domain-and-ssl) certificate with Static Website is to use [**Azure CDN**](https://docs.microsoft.com/azure/storage/blobs/storage-https-custom-domain-cdn). CDN provides consistent low latencies to your website from anywhere in the world. While CDN comes at an additional cost, we have made it a compelling option with the removal of storage egress cost.
 
 ### **How to add Custom headers and rules with Static Website?**
 
