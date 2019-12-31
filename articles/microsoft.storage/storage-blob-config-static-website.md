@@ -16,7 +16,7 @@
 
 # Troubleshoot and resolve issues with Azure Static Websites
 
-## **Recommended Solutions**
+## **Recommended Steps**
 
 Most customers resolved their Static Website issues, on their own, using the steps below.
 
