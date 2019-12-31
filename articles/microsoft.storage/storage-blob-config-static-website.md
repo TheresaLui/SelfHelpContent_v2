@@ -26,7 +26,7 @@ The storage account has a built in [**firewall**](https://docs.microsoft.com/azu
 
 ### **Does Static Website support Azure AD?**
 
-Currently Static Website doesn't support Azure AD authentication.There is no option to use social IDPs like Google Auth or Facebook using OpenID.
+Currently Static Website doesn't support Azure AD authentication. There is no option to use social IDPs like Google Auth or Facebook using OpenID.
 
 ### **How to use custom domain with Static Website?**
 
