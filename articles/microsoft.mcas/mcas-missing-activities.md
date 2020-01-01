@@ -13,7 +13,7 @@
 	supportTopicIds="32574672"
 	resourceTags=""
 	productPesIds="16031"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # Missing activities in the activity log
