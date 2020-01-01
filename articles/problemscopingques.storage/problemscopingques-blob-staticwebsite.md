@@ -22,7 +22,7 @@
 			"visibility": "null",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "What problem can I help with?",
+			"displayLabel": "Select the problem type",
 			"watermarkText": "Choose a problem",
 			"dropdownOptions": [{
 					"value": "Firewall_Support",
@@ -30,7 +30,7 @@
 				},
 				{
 					"value": "AzureAD_Support",
-					"text": "Does Static Website support Azure AD?"
+					"text": "Does Static Website support Azure AD authenticatio?"
 				},
 				{
 					"value": "CustomDomain_Support",
@@ -42,11 +42,11 @@
 				},
 				{
 					"value": "CustomHeaders_Support",
-					"text": "How to add Custom headers and rules with Static Website?"
+					"text": "How to add custom headers and rules with Static Website?"
 				},
 				{
 					"value": "Redirection_Error",
-					"text": "Why is Root not redirecting to the page set for \"index document name\" ?"
+					"text": "Why is site root not redirecting to the page set for \"index document name\" ?"
 				},
 				{
 					"value": "Troubleshoot_Error",
@@ -54,7 +54,7 @@
 				},
 				{
 					"value": "dont_know_answer",
-					"text": "I have advisory question"
+					"text": "I have some other issue"
 				}
 			],
 			"required": true
@@ -62,7 +62,7 @@
 		{
 			"id": "error_code_dropdown",
 			"order": 2,
-			"visibility": "commonIssues == Troubleshoot_Error",
+			"visibility": "common_issues == Troubleshoot_Error",
 			"controlType": "dropdown",
 			"displayLabel": "Http Error code",
 			"watermarkText": "HTTP error of failed operation",
@@ -106,14 +106,14 @@
 			"visibility": "error_code_dropdown == dont_know_answer",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Description",
+			"displayLabel": "Error code or message",
 			"watermarkText": "Provide the error code you received.",
 			"required": true
 		},
 		{
 			"id": "request_id",
 			"order": 4,
-			"visibility": "commonIssues == Troubleshoot_Error",
+			"visibility": "common_issues == Troubleshoot_Error",
 			"controlType": "textbox",
 			"displayLabel": "Storage server Request ID",
 			"watermarkText": "Request ID of failed operation ending with 000000",
