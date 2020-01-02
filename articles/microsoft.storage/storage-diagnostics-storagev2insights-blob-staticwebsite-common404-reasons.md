@@ -18,12 +18,13 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Why am I getting 404 from Static Website?
 
 <!--issueDescription-->
-Below are the very common causes of getting HTTP 404 error with Static Website.
+Please see the Recommended Steps to resolve HTTP 404 errors with Static Website.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Some of the common causes of getting an HTTP 404 error are as below
-- Use the web endpoint like https://myaccount.z5.web.core.windows.net/index.html endpoint instead of the blob endpoint https://myaccount.blob.core.windows.net/$web/index.html . </br> You can find the actual endpoint on the Azure portal.</br>
-- For Static Website file names along with extensions are case sensitive even though served over HTTP, therefore index.html != Index.html.
-- CDN endpoint might take time to provision. Please wait till 90 mins after you provisioned new CDN for the propagation to happen.
+Some of the common causes of getting an HTTP 404 error are as below:
+
+- Use a web endpoint such as *https://myaccount.z5.web.core.windows.net/index.html* instead of a blob endpoint like *https://myaccount.blob.core.windows.net/$web/index.html*. You can find the actual endpoint on the Azure portal.
+- For Static Website file names along with extensions are case sensitive even though served over HTTP, therefore index.html != Index.html
+- CDN endpoint might take time to provision. Please wait 90 mins after you provisioned new CDN for the propagation to happen.
