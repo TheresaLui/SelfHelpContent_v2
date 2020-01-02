@@ -18,5 +18,9 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # How to use custom SSL certificate with Static Website?
 
 <!--issueDescription-->
-Currently the way to configure **[custom SSL](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-custom-domain#enable-custom-domain-and-ssl)** certificate with Static Website is to use **[Azure CDN](https://docs.microsoft.com/azure/storage/blobs/storage-https-custom-domain-cdn)**. CDN provides consistent low latencies to your website from anywhere in the world.</br> While CDN comes at an additional cost, we have made it a compelling option with the removal of storage egress cost.
+There is no direct support for custom SSL ceritificates with Static Website. However, the below steps will help achieve the same using CDN.
 <!--/issueDescription-->
+
+## **Recommended Steps**
+
+Currently the way to configure **[custom SSL](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-custom-domain#enable-custom-domain-and-ssl)** certificate with Static Website is to use **[Azure CDN](https://docs.microsoft.com/azure/storage/blobs/storage-https-custom-domain-cdn)**. CDN provides consistent low latencies to your website from anywhere in the world.</br> While CDN comes at an additional cost, we have made it a compelling option with the removal of storage egress cost.

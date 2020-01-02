@@ -18,5 +18,6 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Why is Root not redirecting to the page set for "index document name"?
 
 <!--issueDescription-->
-Ensure the name and extension as set in the file name on portal is the exact same of the file in the $web container including case sensitivity. For Static Website file names along with extensions are case sensitive even though served over HTTP, therefore index.html != Index.html.
+Ensure the name and extension as set in the file name on portal is the exact same of the file in the $web container including case sensitivity.</br> For Static Website file names along with extensions are case sensitive even though served over HTTP, therefore index.html != Index.html.
 <!--/issueDescription-->
+
