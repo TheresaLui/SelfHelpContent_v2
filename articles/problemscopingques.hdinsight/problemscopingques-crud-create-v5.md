@@ -16,7 +16,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "HDInsight CRUD Issue",
-    "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
+    "fileAttachmentHint": "Please provide the ARM template and the exact command, or the PowerShell script used to create the cluster, if applicable",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -71,7 +71,7 @@
             "order": 110,
             "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
-            "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
+            "watermarkText": "If the previous occurrence was resolved, please share how it was resolved",
             "required": false
         },
         {
