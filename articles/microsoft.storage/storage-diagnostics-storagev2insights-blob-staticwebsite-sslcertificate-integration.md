@@ -18,7 +18,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # How to use custom SSL certificate with Static Website?
 
 <!--issueDescription-->
-There is no direct support for custom SSL ceritificates with Static Website. However, the below steps will help achieve the same using CDN.
+There is no direct support for custom SSL certificates with Static Website. However, the below steps will help achieve the same using CDN.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

@@ -23,4 +23,4 @@ No Static Website currently doesn't support Azure AD authentication.
 
 ## **Recommended Steps**
 
-Currently Static Website doesn't support **[Azure AD](https://docs.microsoft.com/azure/storage/common/storage-auth-aad)** authentication even though the blob endpoint does. The web endpoint could be publically accessed by anonymously by anyone connected to the internet.</br>Static website also doesn't support use of social IDPs like Google Auth or Facebook using OpenID Connect.
+Currently Static Website doesn't support **[Azure AD](https://docs.microsoft.com/azure/storage/common/storage-auth-aad)** authentication even though the blob endpoint does. The web endpoint could be publicly accessed by anonymously by anyone connected to the internet.</br>Static website also doesn't support use of social IDPs like Google Auth or Facebook using OpenID Connect.
