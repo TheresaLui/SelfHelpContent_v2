@@ -22,7 +22,7 @@
 
 * [Memory pressure on Redis server](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server#memory-pressure-on-redis-server)<br>
 * [Long-running commands](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server#long-running-commands)<br>
-* [Sever-side bandwidth limitation](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server#server-side-bandwidth-limitation)<br>
+* [Server-side bandwidth limitation](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server#server-side-bandwidth-limitation)<br>
 * [Best practices for Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
 * [Azure Cache for Redis description](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-overview)<br>
 * [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)
