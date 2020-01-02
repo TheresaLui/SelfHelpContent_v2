@@ -5,7 +5,7 @@
 	authors="shravanmn, csunilkumar, lisaliu"
 	ms.author="shravan, sunilkc, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636438, 32636507, 32636444, 32681541, 32681543, 32681542, 32681541"
+	supportTopicIds="32636438, 32636507, 32681543, 32681542, 32681541"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
