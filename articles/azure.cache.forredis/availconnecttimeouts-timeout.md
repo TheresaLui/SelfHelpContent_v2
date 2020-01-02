@@ -22,7 +22,7 @@
 
 * [Troubleshoot Azure Cache for Redis timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
 * [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
-* [Sever-side bandwidth limitation](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server#server-side-bandwidth-limitation)<br>
+* [Server-side bandwidth limitation](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server#server-side-bandwidth-limitation)<br>
 * [Best practices for Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
 * [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
 * [Azure Cache for Redis description](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-overview)
