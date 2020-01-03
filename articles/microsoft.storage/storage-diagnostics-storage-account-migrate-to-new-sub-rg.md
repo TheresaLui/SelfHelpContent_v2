@@ -24,4 +24,4 @@ Below is the pre-validation result for storage account **<!--$StorageAccountName
 
 Moving resources to a new resource group or subscription can be achieved in many ways, you can use the Azure portal, Azure PowerShell, Azure CLI, or the REST API to move resources. 
 
-There are some important steps to do before moving a resource. By verifying these conditions, you can avoid errors. [Checklist before moving resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#checklist-before-moving-resources)
+There are some important steps to do before moving a resource. By verifying these conditions, you can avoid errors. Review this [checklist before moving resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#checklist-before-moving-resources).
