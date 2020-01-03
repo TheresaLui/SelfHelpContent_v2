@@ -16,14 +16,15 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Connectivity issues with Storage Firewalls enabled
+<!--issueDescription-->
+We have detected that minimum TLS Version 1.2 is configured on the storage account and that led to connection rejections from clients usign a lower TLS version.
+<!--/issueDescription-->
 
-We have detected that **[Minimum TLS Version 1.2](https://docs.microsoft.com/azure/storage/common/storage-security-tls)** is configured on the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.
-
-Between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** UTC and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** UTC some connections to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were rejected. The **TLS version** used for these connections is lower than currently permitted on the storage account. At current time, only connections using **TLS 1.2 version** or higher are allowed to access the storage account, so any client trying to connect with a lower version of TLS will be rejected. You can validate the minimum TLS version setting on the Azure Portal.</br>
+Between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** UTC and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** UTC some connections to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were rejected. The **TLS version** used for these connections is lower than currently permitted on the storage account. At current time, only connections using **[Minimum TLS Version 1.2](https://docs.microsoft.com/azure/storage/common/storage-security-tls)** or higher are allowed to access the storage account, so any client trying to connect with a lower version of TLS will be rejected. You can validate the minimum TLS version setting on the Azure Portal.</br>
 
 **List of sample connections that were rejected:**
 
-<!--$Failed_Requests_Table-->[Failed_Requests_Table]<!--/$Failed_Requests_Table-->
+**<!--$Failed_Requests_Table-->[Failed_Requests_Table]<!--/$Failed_Requests_Table-->**
 
 There may be more connections which were rejected. To get the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
