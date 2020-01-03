@@ -18,6 +18,6 @@
 
 ## **Recommended Documents**
 
+* [Troubleshooting Ambari Metrics](https://community.hortonworks.com/content/supportkb/208353/troubleshooting-ambari-metrics-ams.html)
 * [Manage HDInsight clusters by using the Apache Ambari Web UI: Cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#cluster)
-
 * [Use Azure Monitor logs to monitor HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-oms-log-analytics-tutorial)
