@@ -10,7 +10,7 @@
 	supportTopicIds="32633527"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 	articleId="sqlvm-performance"
 />
 

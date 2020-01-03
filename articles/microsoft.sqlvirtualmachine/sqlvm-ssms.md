@@ -13,7 +13,7 @@
 	supportTopicIds="32633518"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 />
 
 # tools and portal/sql server management studio

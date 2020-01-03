@@ -13,7 +13,7 @@
 	supportTopicIds="32639652"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 />
 
 # cannot connect to sql server/alwayson or fci

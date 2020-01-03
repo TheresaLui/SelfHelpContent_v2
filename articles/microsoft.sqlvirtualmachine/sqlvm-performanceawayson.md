@@ -13,7 +13,7 @@
 	supportTopicIds="32633490"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax,mooncake"
+	cloudEnvironments="public,fairfax"
 />
 
 # performance/alwayson
