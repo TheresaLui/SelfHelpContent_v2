@@ -24,7 +24,7 @@ Between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** UTC and **<!--$EndTim
 
 **List of sample connections that were rejected:**
 
-**<!--$Failed_Requests_Table-->[Failed_Requests_Table]<!--/$Failed_Requests_Table-->**
+<!--$FailedRequestsTable-->[FailedRequestsTable]<!--/$FailedRequestsTable-->
 
 There may be more connections which were rejected. To get the exhaustive list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
