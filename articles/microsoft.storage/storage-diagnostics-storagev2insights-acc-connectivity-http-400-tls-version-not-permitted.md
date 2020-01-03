@@ -32,7 +32,7 @@ There may be more connections which were rejected. To get the exhaustive list, r
 
 1. For the client to negotiate TLS 1.2, the OS and the Application Framework used by the application need to support TLS 1.2. Please refer below to make the necessary changes:
 
-   * [Enable secure TLS for Azure Storage client](https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls)
+   * [Enable secure TLS for Azure Storage client](https://docs.microsoft.com/azure/storage/common/storage-security-tls)
    * [Enable TLS 1.2 in .NET client](https://docs.microsoft.com/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client)
    * [Enable TLS 1.2 in PowerShell client](https://docs.microsoft.com/azure/storage/common/storage-security-tls#enable-tls-12-in-powershell-client)
 
