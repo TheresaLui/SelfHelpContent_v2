@@ -1,7 +1,7 @@
 <properties
 pageTitle="Migrate to ZRS, GZRS, RA-GZRS"
 description="Migrate to ZRS, GZRS, RA-GZRS"
-infoBubbleText=""
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="Sijia"
