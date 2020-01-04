@@ -10,7 +10,7 @@
 	articleId="sqlvirtualmachine-performance-alwayson"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32633490"
+	supportTopicIds="32633490,32633489"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
