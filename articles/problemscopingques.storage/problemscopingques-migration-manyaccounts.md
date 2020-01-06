@@ -36,7 +36,7 @@
                 },
 		 {
                     "value": "ragzrs",
-                    "text": "To RA-ZRS"
+                    "text": "To RA-GZRS"
                 },
                 {
                     "value": "dont_know_answer",
