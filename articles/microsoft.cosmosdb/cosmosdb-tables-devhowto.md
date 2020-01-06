@@ -40,7 +40,7 @@ Then, learn about the premium capabilities you can leverage:
 If you are having troubles changing throughput using the .NET SDK, make sure to update it to the latest version [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet)  
 
 Solution:
-* Sample code to change the throughput in table api using .net sdk [Easier APIs for scaling throughput](https://azure.microsoft.com/blog/new-for-developers-azure-cosmos-db-net-sdk-v3-now-available/).
+* Sample code to change the throughput in table api using .NET SDK [Easier APIs for scaling throughput](https://azure.microsoft.com/blog/new-for-developers-azure-cosmos-db-net-sdk-v3-now-available/).
 
 
 
@@ -55,7 +55,7 @@ If you need to migrate data to Azure table or export to a json file.
 
 Solution:
 * We recommend migrating data from Cosmos Table API using [Data Migration Tool](https://docs.microsoft.com/azure/cosmos-db/table-import#data-migration-tool)
-* sample to migrate data from Cosmos Table API to a JSON file
+* Sample below to migrate data from Cosmos Table API to a JSON file  
 
 ```
 dt /s:AzureTable 
