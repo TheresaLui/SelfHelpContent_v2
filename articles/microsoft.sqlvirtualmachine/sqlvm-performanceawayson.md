@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-While running SQL Server in Azure Virtual Machines, we recommend that you continue using the same database performance [tuning options](https://docs.microsoft.com/azure/sql-database/sql-database-performance-guidance) that are applicable to SQL Server in on-premises server environment. However, the performance of a relational database in a public cloud depends on many factors such as the size of a virtual machine, and the configuration of the data disks. Please follow the [performance guidelines for SQL in Azure VM.](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance)
+While running SQL Server in Azure Virtual Machines, we recommend that you continue using the same database performance [tuning options](https://docs.microsoft.com/azure/sql-database/sql-database-performance-guidance) that are applicable to SQL Server in on-premises server environment. However, the performance of a relational database in a public cloud depends on many factors such as the size of a virtual machine, and the configuration of the data disks. Please follow the [performance guidelines for SQL in Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance).
 
 ## **Recommended Documents**
 
