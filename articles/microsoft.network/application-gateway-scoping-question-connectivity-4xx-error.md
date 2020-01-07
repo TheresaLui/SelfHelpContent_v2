@@ -18,6 +18,11 @@ supportTopicIds="32639113"
 	"resourceRequired": true,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
+	"diagnosticCard": {
+        "title": "Application Gateway Access URL",
+        "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
+    },
     "formElements": [
         {
             "id": "ApplicationGatewayAccessURL",
