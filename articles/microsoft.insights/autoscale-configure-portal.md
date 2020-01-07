@@ -20,7 +20,7 @@ You can use Azure Monitor autoscale with Virtual Machine Scale Sets, Cloud Servi
 ## **Recommended Steps**
 
 1. Verify that you are configuring autoscale for a resource type that supports autoscale (Virtual Machine Scale Sets, Cloud Services, App Service - Web Apps, or API Management services)
-1. Review the walkthrough that explains [how to configure Autoscale via the Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-get-started).
+1. Review the walkthrough that explains [how to configure Autoscale via the Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-get-started)
 1. Review the [troubleshooting guide for Azure Monitor autoscale](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-troubleshoot)
 
 ## **Recommended Documents**
