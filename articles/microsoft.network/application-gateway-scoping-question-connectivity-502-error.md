@@ -28,14 +28,33 @@ supportTopicIds="32573483,32680993"
             "id": "ApplicationGatewayAccessURL",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
-            "watermarkText": "Example:http://contoso.com or http://contoso.com:8080",
+            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format domainNameOrIPAddress:portNumber/urlPath. Port number is not required if you are using standard ports 80 and 443.",
+            "watermarkText": "Example:http://contoso.com/abc or http://contoso.com:8080/abc",
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },
+		{
+            "id": "ApplicationGatewayAccessProtocol",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Protocol",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "http",
+                    "text": "http"
+                },
+                {
+                    "value": "https",
+                    "text": "https"
+                }
+            ],
+            "required": true,
+			"diagnosticInputRequiredClients": "Portal"
+        },
         {
             "id": "backend_health",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are there any unhealthy backends?",
 			"infoBalloonText": "Use <a href='https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal'>Backend health</a> to view the health status of each backend",
@@ -58,7 +77,7 @@ supportTopicIds="32573483,32680993"
         },
 				{
             "id": "sku_version",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the SKU version of your Application Gateway?",
             "watermarkText": "Choose an option",
@@ -80,14 +99,14 @@ supportTopicIds="32573483,32680993"
         },
 		{
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Details of the issue.",
@@ -96,7 +115,7 @@ supportTopicIds="32573483,32680993"
         },
         {
             "id": "learn_more_text",
-            "order": 6,
+            "order": 7,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
         }
