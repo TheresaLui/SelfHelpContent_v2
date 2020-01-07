@@ -52,7 +52,7 @@
       "metadata": {
         "id": "{resourceId}"
       },
-      "condition": "applicationGatewayActionType == 2"
+      "condition": "applicationGatewayActionType == \"2\""
     },
     {
       "actionId": "e0b4d800-09e0-4aaa-925e-02c8f5fdfdf4",
@@ -63,7 +63,7 @@
       "metadata": {
         "id": "{resourceId}"
       },
-      "condition": "applicationGatewayActionType == 3"
+      "condition": "applicationGatewayActionType == \"3\""
     },
     {
       "actionId": "118b2801-008e-461a-bf6e-078820b4159a",
@@ -74,7 +74,7 @@
       "metadata": {
         "id": "{resourceId}"
       },
-      "condition": "applicationGatewayActionType == 1"
+      "condition": "applicationGatewayActionType == \"1\""
     }
   ],
   "resourceMetadata": {
