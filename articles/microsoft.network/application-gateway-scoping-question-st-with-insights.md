@@ -49,7 +49,6 @@ supportTopicIds="32582825,32582828,32640605,32639115"
                     "text": "https"
                 }
             ],
-            "required": true,
 			"diagnosticInputRequiredClients": "Portal"
         },
 		{
