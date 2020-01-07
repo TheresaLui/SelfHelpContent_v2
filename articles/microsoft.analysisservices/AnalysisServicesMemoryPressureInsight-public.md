@@ -29,6 +29,6 @@ We have identified there is memory pressure on your server which can impact your
 
 ## **Recommended Documents**
 
-* [Azure Analysis Services pricing](https://azure.microsoft.com/en-us/pricing/details/analysis-services/)
+* [Azure Analysis Services pricing](https://azure.microsoft.com/pricing/details/analysis-services/)
 
 
