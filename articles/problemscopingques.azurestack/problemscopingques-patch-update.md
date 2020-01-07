@@ -4,7 +4,7 @@
     authors="genlin"
     ms.author="prchint"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32663933,32629240"
+    supportTopicIds="32663933,32629240,32688665,32688666"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -72,6 +72,10 @@
             "displayLabel": "Pre-update patch level",
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
+                {
+                    "value": "1910",
+                    "text": "1910"
+                },
                 {
                     "value": "1908",
                     "text": "1908"

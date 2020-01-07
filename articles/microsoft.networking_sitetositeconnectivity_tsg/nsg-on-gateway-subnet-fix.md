@@ -21,6 +21,7 @@
 * To resolve this issue, add the GatewayManager tag on the subnet
 * This will apply the necessary NSG rules to allow traffic
 * Alternatively, you may remove the NSG from the Gateway subnet to isolate the issue.
+* If the steps above did not resolve the issue, please restart the TSG and select the "VPN doesnt connect" path
 
 ## **Recommended Documents**
 

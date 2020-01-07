@@ -16,7 +16,7 @@
 
 # Backups and restore options for Azure Database for MariaDB
 
-Geo-redundant backups can be configured at the time an Azure Database for MariaDB server is created. If configured, the last known good backup is geo-redundantly store and a new server can be created in a different Azure region. Geo-restore does not allow you to chose a point in time, but rather always restores to the last known good state.
+Geo-redundant backups can be configured at the time an Azure Database for MariaDB server is created. If configured, the last known good backup is geo-redundantly store and a new server can be created in a different Azure region. Geo-restore does not allow you to chose a point in time, but rather always restores to the last known good state. Restoring individual databases within a server is not supported.
 
 ## **Recommended Steps**
 

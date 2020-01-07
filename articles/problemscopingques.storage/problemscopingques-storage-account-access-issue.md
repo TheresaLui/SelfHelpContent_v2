@@ -19,6 +19,13 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
+            "id": "storage_account_name",
+            "order": 0,
+            "controlType": "textbox",
+            "displayLabel": "Name of storage account with access issue",
+            "required": false
+        },
+        {
             "id": "error_message",
             "order": 2,
             "controlType": "multilinetextbox",

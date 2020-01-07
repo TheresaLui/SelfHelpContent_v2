@@ -7,9 +7,9 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32642184,32599924,32642191,32612529"
+    supportTopicIds="32642184,32599924,32642191,32612529,32633803,32633804"
     resourceTags=""
-    productPesIds="15607,15725"
+    productPesIds="15607,15725,14749,15571,15797,16454,16470"
     cloudEnvironments="public"
     articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
 />
@@ -17,7 +17,7 @@
 # Resolve Update Management issues with Azure Automation
 
 This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution. 
-For general questions about Update Management scenarios, see [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)
+For general questions about Update Management scenarios, see [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management).
 
 ## **Recommended Steps**
 
@@ -41,7 +41,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 ### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already enrolled into Update Management
-* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine.
+* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
 
 ### **Machine shows as "not assessed"**
 
@@ -87,6 +87,14 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 ### **Updating machines across different tenants**
 
 * If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant).
+
+### **"A failure occurred either while preparing the deployment or during deployment"**
+
+* This can occur if you have exceeded your Log Analytics pricing tier. See the [Log Analytics pricing documentation](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#changing-pricing-tier) for assistance in diagnosing and resolving this problem.. 
+
+### **Machines reboot unexpectedly**
+
+* See ["Configure Reboot Settings"](https://docs.microsoft.com/azure/automation/automation-configure-windows-update#configure-reboot-settings)
 
 
 ## **Recommended Documents**

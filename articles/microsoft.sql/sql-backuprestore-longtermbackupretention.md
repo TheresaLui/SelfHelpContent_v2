@@ -6,7 +6,7 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder="4"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32630432"
 	productPesIds="13491"
 	cloudEnvironments="public"

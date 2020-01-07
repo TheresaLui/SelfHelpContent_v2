@@ -16,7 +16,7 @@ cloudEnvironments="public"
 />
 
 # High E2E Latency caused due to client side network issues
-<!--/issueDescription-->
+<!--issueDescription-->
 We observed that at **<!--$Timeframe-->[Timeframe]<!--/$Timeframe-->** the operation **<!--$Operation-->[Operation]<!--/$Operation-->** on the **<!--$RequestURL-->[RequestURL]<!--/$RequestURL-->** by the **<!--$UserAgent-->[UserAgent]<!--/$UserAgent-->** caused a Network Error. The Total E2E latency is **<!--$TimeInMS-->[TimeInMS]<!--/$TimeInMS-->**. We observed **<!--$ReadWriteLatency-->[ReadWriteLatency]<!--/$ReadWriteLatency-->** latency and NetworkDisconnect error from our Server Logs for **<!--$Optype-->[Optype]<!--/$Optype-->**, which indicates that Storage was unable to **<!--$ReadFromWriteTo-->[ReadFromWriteTo]<!--/$ReadFromWriteTo-->** the client due to client side network issues causing the error.
 <!--/issueDescription-->
 

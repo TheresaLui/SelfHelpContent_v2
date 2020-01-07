@@ -26,4 +26,4 @@
 * Review NetVMA status for the gateway at the time of the issue:
 
   * If NetVMA shows suspicious behavior, the issue may be within the Azure infrastructure - but outside the VPN gateway scope.  Go to escalate.
-  * If NetVMA doesn’t show suspicious activity, this might have been a short network glitch for which we can’t provide further RCA. Inform the customer that DPD timed out because of network issues Go to Pending customer.
+  * If NetVMA doesn’t show suspicious activity, this might have been a short network glitch for which we can’t provide further RCA. Inform the customer that DPD timed out because of network issues. Go to Pending customer.

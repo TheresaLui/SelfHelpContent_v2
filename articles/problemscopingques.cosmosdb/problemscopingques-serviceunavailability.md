@@ -4,7 +4,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636776,32636777,32681008"
+	supportTopicIds="32636776,32636777,32681008,32681470,32692541"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
