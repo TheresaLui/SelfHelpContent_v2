@@ -995,6 +995,13 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "category": "",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "082217f4-bed0-6b03-12c1-173ed77cb03b",
+            "shortDescription": "Covers issues with in-place upgrades for Microsoft Windows operating systems",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "False"
         }
     ],
     "$schema": "SelfHelpContent"
