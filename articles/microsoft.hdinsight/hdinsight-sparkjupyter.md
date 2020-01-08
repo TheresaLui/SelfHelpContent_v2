@@ -5,7 +5,7 @@
     resource="clusters"
     authors="csunilkumar"
     ms.author="sunilkc"
-    displayOrder="1"
+    displayOrder=""
     selfHelpType="resource"
     supportTopicIds="32636484"
     resourceTags=""
