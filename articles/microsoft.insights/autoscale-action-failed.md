@@ -40,7 +40,7 @@ Error Message | Reason and recommendations
 Error Message | Reason and recommendations
 --------------|--------------------------
 "Storage usage quota exceeded. Cannot update or delete a server farm. Please make sure your file system storage is below the limit of the target pricing tier." | This message indicates that autoscale is hitting the App services quotas. Please review the [per-SKU disk storage quotas](https://azure.microsoft.com/pricing/details/app-service/plans/). Remove the unused files and website content to lower your aggregate disk usage so that it stays within the “Disk Space” limits or switch to a service plan with higher limits.
-"Multiple workers are not allowed for *(resource name)* serverfarm with In-App MySql site *(site name)*." | The In-App MySql feature is only supported on single instance app service plans.  Learn about the In-App MySql feature and limitations at [Announcing MySQL in-app for Web Apps](https://azure.github.io/AppService/2016/08/18/Announcing-MySQL-in-app-for-Web-Apps-(Windows).html).
+"Multiple workers are not allowed for *(resource name)* serverfarm with In-App MySql site *(site name)*." | The In-App MySql feature is only supported on single instance app service plans.  Learn about the In-App MySql feature and limitations at [Announcing MySQL in-app for Web Apps](https://aka.ms/mysql-in-app).
 
 ## **Recommended Documents**
 
