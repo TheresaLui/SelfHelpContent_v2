@@ -9,9 +9,9 @@
     articleId="b8319a48-eb00-4df4-b621-f01f1d2c9117"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32615422"
+    supportTopicIds="32690723"
     resourceTags=""
-    productPesIds="16578"
+    productPesIds="16986"
     cloudEnvironments="public"
 />
 
