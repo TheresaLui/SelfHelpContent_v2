@@ -6,7 +6,7 @@
 	resource="userassignedidentities"
 	authors="arluca"
 	ms.author="arluca"
-	displayOrder="1"
+	displayOrder="4"
 	articleId="7b3ccea4-678e-4f80-9256-56fdef4512f3"
 	diagnosticScenario=""
 	selfHelpType="resource"
