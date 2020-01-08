@@ -6,7 +6,7 @@
 	resource="userassignedidentities"
 	authors="arluca"
 	ms.author="arluca"
-	displayOrder="1"
+	displayOrder="2"
 	articleId="Problem-acquiring-tokens-for-managed-identity"
 	diagnosticScenario=""
 	selfHelpType="resource"
