@@ -25,7 +25,6 @@
 * [Azure HDInsight SDK for .NET](https://docs.microsoft.com/dotnet/api/overview/azure/hdinsight?view=azure-dotnet#hdinsight-net-management-sdk-3x-preview)
 * [Run MapReduce jobs using HDInsight .NET SDK](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-use-mapreduce-dotnet-sdk)
 * [Manage Apache Hadoop clusters in HDInsight by using .NET SDK](https://docs.microsoft.com/azure/hdinsight/hdinsight-administer-use-dotnet-sdk)
-* [Run Apache Pig jobs using the .NET SDK for Apache Hadoop in HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-use-pig-dotnet-sdk)
 
 **Python SDK**
 
