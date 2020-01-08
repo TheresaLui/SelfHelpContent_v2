@@ -24,15 +24,15 @@ For issues related to managing a user-assigned managed identity:
 
 If you are unable to create a user-assigned managed identity:
 
-- Esure that you have sufficent permissions. At minimum, you need to have been granted "Managed Identity Contributor" role assignment, in order to create/delete user-assigned managed identities.
+- Ensure that you have sufficient permissions. At minimum, you need to have been granted "Managed Identity Contributor" role assignment, in order to create/delete user-assigned managed identities.
 
 If you are unable to add a user-assigned managed identity to a resource:
 
-- Ensure that you have sufficent permission. At minimum, you need to have been granted "Managed Identity Operator" as well as write permissions over the resource.
+- Ensure that you have sufficient permission. At minimum, you need to have been granted "Managed Identity Operator" as well as write permissions over the resource.
 
 If you are unable to create role assignments for the managed identity:
 
-- Ensure that you have sufficient permissions to manage Azure RBAC role assignments. You either need to have been granted User Access Administrator or Owner permissions over the resoruce, that you want to grant access to. 
+- Ensure that you have sufficient permissions to manage Azure RBAC role assignments. You either need to have been granted User Access Administrator or Owner permissions over the resource, that you want to grant access to. 
 
 ## **Recommended Documents**
 
