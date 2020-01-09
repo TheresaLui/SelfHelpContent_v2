@@ -37,7 +37,7 @@ supportTopicIds="32573483,32680993"
             "id": "ApplicationGatewayAccessProtocol",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Please provide Protocol you are using to access Appplication Gateway,
+            "displayLabel": "Please provide Protocol you are using to access Appplication Gateway",
             "watermarkText": "Choose an option from http/https",
             "dropdownOptions": [
                 {
