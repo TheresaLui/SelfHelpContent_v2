@@ -16,7 +16,7 @@
 
 # ASC/HowTo
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How can I use my App Service certificate in any Azure service](https://blogs.msdn.microsoft.com/appserviceteam/2017/02/24/creating-a-local-pfx-copy-of-app-service-certificate/)
 * [How can I move the app service certificate to another subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
