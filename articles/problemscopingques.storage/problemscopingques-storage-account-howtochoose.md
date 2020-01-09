@@ -52,7 +52,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": true
         },
         {
             "id": "data_size",
