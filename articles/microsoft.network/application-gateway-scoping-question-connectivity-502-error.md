@@ -38,7 +38,7 @@ supportTopicIds="32573483,32680993"
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Protocol (http/https)",
-            "watermarkText": "Please provide Protocol (http or https) you are using to access Appplication Gateway",
+            "watermarkText": "Please provide Protocol you are using to access Appplication Gateway",
             "dropdownOptions": [
                 {
                     "value": "http",
