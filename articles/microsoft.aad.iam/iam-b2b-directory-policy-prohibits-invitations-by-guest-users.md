@@ -18,7 +18,7 @@
 
 # Directory policy prohibits invitations by guest users
 <!--issueDescription-->
-User <!--$UserId-->[UserId]<!--/$UserId--> is a guest in your Azure AD. B2B settings in your Azure AD do not authorize guests to invite other guests.​
+User <!--$UserId-->[UserId]<!--/$UserId--> is a guest in your Azure AD. B2B settings in your Azure AD do not authorize guests to invite other guests.<br>
 For more information, [read about B2B settings](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 <!--/issueDescription-->
 
