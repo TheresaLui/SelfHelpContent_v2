@@ -16,12 +16,17 @@
 	cloudEnvironments="public"
 />
 
-# We ran diagnostics on your Microsoft Intune subscription and found an issue.  Microsoft Intune has detected a user enrollment failure for <!--$FailureUPN-->[FailureUPN]<!--/$FailureUPN-->.  Please review the steps below to resolve.
+# We ran diagnostics on your Microsoft Intune subscription and found an issue.
 
 <div>
-<br/>User <!--$FailureUPN-->[FailureUPN]<!--/$FailureUPN--> experienced an enrollment error on <!--$FailureDate-->[FailureDate]<!--/$FailureDate--><br/> 
-<br/>Enrollment failed with the error: <!--$FailureDescription-->[FailureDescription]<!--/$FailureDescription--><br/>
-<br/>Enrollment failure details: <!--$FailureDetails-->[FailureDetails]<!--/$FailureDetails--><br/>
-<br/>How to resolve this enrollment failure: <!--$FailureRemediation-->[FailureRemediation]<!--/$FailureRemediation--><br/>
-<br/>To review further enrollment failures for this user please use the <a href="https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/troubleshooting" target="_blank">Intune Troubleshooting blade</a>.<br/>
-</div>
+Microsoft Intune has detected a user enrollment failure for <!--$FailureUPN-->[FailureUPN]<!--/$FailureUPN-->. Please review the steps below to resolve:
+<br/>
+User <!--$FailureUPN-->[FailureUPN]<!--/$FailureUPN--> experienced an enrollment error on <!--$FailureDate-->[FailureDate]<!--/$FailureDate-->
+<br/>
+Enrollment failed with the error: <!--$FailureDescription-->[FailureDescription]<!--/$FailureDescription-->
+<br/>
+Enrollment failure details: <!--$FailureDetails-->[FailureDetails]<!--/$FailureDetails-->
+<br/>
+How to resolve this enrollment failure: <!--$FailureRemediation-->[FailureRemediation]<!--/$FailureRemediation-->
+<br/>
+To review further enrollment failures for this user please use the <a href="https://go.microsoft.com/fwlink/?linkid=2113020" target="_blank">Intune Troubleshooting blade</a>.

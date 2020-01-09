@@ -5,7 +5,7 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32675638,32684531"
 	resourceTags=""
 	productPesIds="15585"

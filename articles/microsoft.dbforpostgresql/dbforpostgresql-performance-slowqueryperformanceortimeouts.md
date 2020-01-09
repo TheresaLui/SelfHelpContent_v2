@@ -30,6 +30,7 @@ Query performance issues can have many different root causes. Work through the r
 * Make sure that there are no deadlocks in the concurrent queries
 * Monitor the resource consumption of your server. If compute, memory or IO is the limiting factor, consider scaling up the resource that you are limited on.
 * Only retrieve the columns you really need instead of using 'SELECT *'
+* Double-check your logging settings, including parameters like log_statement_stats, log_statement, log_min_duration, and pg_stat_statements.track. High levels of logging impact performance.
 
 ## **Recommended Documents**
 

@@ -1,8 +1,8 @@
 <properties
 description = "Support topic description for Virtual Machine running Windows"
 pageTitle = "Support topic description for VM running Windows"
-authors = "akankshajsh"
-ms.author = "akjoshi"
+authors = "scottAzure"
+ms.author = "scotro"
 icmTeam="icmteam"
 icmService="icmservice"
 feedbackEmail="email"
@@ -787,6 +787,13 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
+            "id": "2dafb8e0-c8e0-bacc-5ff0-42635d6c2491",
+            "shortDescription": "Assistance with issues encountered when trying to resize a virtual machine",
+            "category": "Performance",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
             "id": "ad87fcbe-dbe1-5757-c644-b5511f27f5c4",
             "shortDescription": "Disk throughput is lower than expected for the virtual machine",
             "category": "Management",
@@ -941,13 +948,6 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "useInDiagnoseAndSolve": "FALSE"
         },
         {
-            "id": "",
-            "shortDescription": " ",
-            "category": "",
-            "searchTags": "",
-            "useInDiagnoseAndSolve": "FALSE"
-        },
-        {
             "id": "44e1bd26-fbd8-a7f9-f8de-8a2b47ccb27e",
             "shortDescription": "Troubleshoot issues with activating Windows for a virtual machine running in Azure",
             "category": "",
@@ -995,6 +995,13 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
             "category": "",
             "searchTags": "",
             "useInDiagnoseAndSolve": "FALSE"
+        },
+        {
+            "id": "082217f4-bed0-6b03-12c1-173ed77cb03b",
+            "shortDescription": "Covers issues with in-place upgrades for Microsoft Windows operating systems",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": "False"
         }
     ],
     "$schema": "SelfHelpContent"

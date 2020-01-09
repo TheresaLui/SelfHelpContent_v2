@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
 
 We are sorry, your API Management service is unavailable. We're working to automatically recover your API Management service and to determine the source of the problem. No additional action is required from you at this time.
 <!--/issueDescription-->
