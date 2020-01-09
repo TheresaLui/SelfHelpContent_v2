@@ -67,7 +67,7 @@
       }
     }
   },
-  "displayLabel": "Avoid availability incidents from high memory fragmentation by increasing fragmentation memory reservation",
+  "displayLabel": "Increase fragmentation memory reservation",
   "additionalColumns": [],
   "tip": "You can avoid availability incidents by increasing fragmentation memory reservation"
 }
