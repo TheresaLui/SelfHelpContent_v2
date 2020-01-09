@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Advisory questions - table"
+	pageTitle="Advisory questions - queue"
 	description="Advisory questions"
 	authors="Sijia"
         ms.author="siz"
