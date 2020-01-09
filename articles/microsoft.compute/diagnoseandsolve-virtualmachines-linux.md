@@ -587,7 +587,7 @@ cloudEnvironments="public"
         "bladeName": "VmSerialConsoleValidationBlade",
         "parameters": [
           {
-            "name": "id",
+            "name": "resourceId",
             "value": "$resourceId"
           }
         ]
