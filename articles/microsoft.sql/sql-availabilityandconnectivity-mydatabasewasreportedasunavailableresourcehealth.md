@@ -4,13 +4,12 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-  ms.author="emlisa"
-	displayOrder="8"
+  	ms.author="emlisa"
+	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630438"
 	productPesIds="13491"
-	cloudEnvironments="public"
-    resourceTags="servers, databases"
+	cloudEnvironments="public,blackForest,fairfax"
 	articleId="ec03f2ee-fbd5-4879-9f4f-73b76f7f22d4"
 />
 
