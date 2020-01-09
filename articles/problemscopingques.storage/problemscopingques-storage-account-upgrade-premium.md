@@ -20,7 +20,7 @@
             "id": "premium_tier",
             "order": 0,
             "controlType": "dropdown",
-            "displayLabel": "Premium storage type",
+            "displayLabel": "Premium storage type to upgrade to",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
