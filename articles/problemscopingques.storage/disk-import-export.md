@@ -4,7 +4,7 @@
 	authors="ansubram"
 	ms.author="anushasubramanian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32603552","32603553", "32603550"
+	supportTopicIds="32603552,32603553,32603550"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
