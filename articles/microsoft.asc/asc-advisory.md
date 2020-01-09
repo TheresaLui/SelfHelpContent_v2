@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
-	articleId="79216103-930d-4f84-a2f6-80046335a5f3"
+	articleId="f2075fac-d58f-47d6-9edf-65802c9f1c60"
 />
 
 # ASC/HowTo
