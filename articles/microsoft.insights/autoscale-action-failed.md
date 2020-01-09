@@ -24,23 +24,24 @@ There are several reasons why Azure autoscale action may be failing. You can use
 
 **If the Autoscale setting is for a Virtual Machine Scale Set (VMSS):**
 
-|Error Message | Reason or recommendations|
-|--------------|--------------------------|
-|Resource is disabled and therefore marked as read only | Please check the Azure Policy set on your VMSS. If there is a read-only Policy, Autoscale service will not be able to scale your resource. Note that it may take several minutes for the autoscale to pick up recent changes to the policy.|
+| Error | Reason |
+|-------|--------|
+|"Resource is disabled and therefore marked as read only" | Please check the Azure Policy set on your VMSS. If there is a read-only Policy, Autoscale service will not be able to scale your resource. Note that it may take several minutes for the autoscale to pick up recent changes to the policy.|
 |"Operation results in exceeding quota limits of Core. Maximum allowed: *value*", "Operation results in exceeding quota limits of standardNVPromoFamily Cores. Maximum allowed: *value*" or "Operation results in exceeding quota limits of standardDv2Family Core" | You have reached the quota limits for the number of CPU cores. Review the default quota and request an increase as outlined in [Standard quota: Increase limits by VM series](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests#request-a-standard-quota-increase-from-the-help--support-pane).|
 |"VMSS updates are not allowed while there is a Rolling Upgrade in progress" | This message indicates that the VMSS is updating, which is an expected state of scale action. Autoscale will continue to monitor the status and will try to trigger the action again when updates are completed, if the scale action conditions still match.|
 
 **If the Autoscale setting is for Cloud Services:**
 
-|Error Message | Reason and recommendations|
-|--------------|---------------------------|
+| Error | Reason |
+|-------|--------|
+
 |"Operation threw an exception: The remote server returned an unexpected response: (409) Conflict." | Please file a support request against the Autoscale service. Include the error message along with resource name and resource group of the target resource.|
 |"Operation threw an exception: The remote server returned an unexpected response: (400) Bad Request." | Please file a support request against the Autoscale service. Include the error message along with resource name and resource group of the target resource.|
 
 **If the Autoscale setting is for App service server farms:**
 
-|Error Message | Reason and recommendations|
-|--------------|---------------------------|
+| Error | Reason |
+|-------|--------|
 |"Storage usage quota exceeded. Cannot update or delete a server farm. Please make sure your file system storage is below the limit of the target pricing tier." | This message indicates that autoscale is hitting the App services quotas. Please review the [per-SKU disk storage quotas](https://azure.microsoft.com/pricing/details/app-service/plans/). Remove the unused files and website content to lower your aggregate disk usage so that it stays within the "Disk Space" limits or switch to a service plan with higher limits.|
 |"Multiple workers are not allowed for *(resource name)* serverfarm with In-App MySql site *(site name)*." | The In-App MySql feature is only supported on single instance app service plans.  Learn about the In-App MySql feature and limitations at [Announcing MySQL in-app for Web Apps](https://azure.github.io/AppService/2016/08/18/Announcing-MySQL-in-app-for-Web-Apps-%28Windows%29.html).|
 
