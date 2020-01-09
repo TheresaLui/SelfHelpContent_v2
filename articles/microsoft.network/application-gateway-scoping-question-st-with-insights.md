@@ -37,8 +37,8 @@ supportTopicIds="32582825,32582828,32640605,32639115"
             "id": "ApplicationGatewayAccessProtocol",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Protocol",
-            "watermarkText": "Choose an option",
+            "displayLabel": "Protocol (http/https)",
+            "watermarkText": "Choose an option from http/https",
             "dropdownOptions": [
                 {
                     "value": "http",
@@ -47,8 +47,13 @@ supportTopicIds="32582825,32582828,32640605,32639115"
                 {
                     "value": "https",
                     "text": "https"
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
+			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
         },
 		{
