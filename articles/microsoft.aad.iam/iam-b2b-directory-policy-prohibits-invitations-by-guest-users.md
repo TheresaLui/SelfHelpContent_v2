@@ -23,4 +23,4 @@ User <!--$UserId-->[UserId]<!--/$UserId--> is a guest in your Azure AD. B2B sett
 
 ## **Recommended Steps**
 
-* For more information, [read about B2B settings](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+* For more information, [read about B2B settings](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)
