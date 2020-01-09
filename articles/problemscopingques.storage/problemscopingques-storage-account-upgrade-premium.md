@@ -13,6 +13,8 @@
 # Upgrade to premium storage 
 ---
 {
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "formElements": [
         {
             "id": "premium_tier",
