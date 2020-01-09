@@ -34,7 +34,6 @@ There are several reasons why Azure autoscale action may be failing. You can use
 
 | Error | Reason |
 |-------|--------|
-
 |"Operation threw an exception: The remote server returned an unexpected response: (409) Conflict." | Please file a support request against the Autoscale service. Include the error message along with resource name and resource group of the target resource.|
 |"Operation threw an exception: The remote server returned an unexpected response: (400) Bad Request." | Please file a support request against the Autoscale service. Include the error message along with resource name and resource group of the target resource.|
 
