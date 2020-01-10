@@ -35,7 +35,8 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms",
-  "description": "We have detected that Accelerated Networking is not enabled on VM resources in your existing deployment that may be capable of supporting this feature. If your VM OS image supports Accelerated Networking as detailed in the documentation, make sure to enable this free feature on these VMs to maximize the performance and latency of your networking workloads in cloud",
+  "description": "Enable Accelerated Networking to improve network performance and latency",
+  "longDescription": "We have detected that Accelerated Networking is not enabled on VM resources in your existing deployment that may be capable of supporting this feature. If your VM OS image supports Accelerated Networking as detailed in the documentation, make sure to enable this free feature on these VMs to maximize the performance and latency of your networking workloads in cloud",
   "potentialBenefits": "Improves performance throughput while reducing latency and jitter",
   "actions": [
     {
