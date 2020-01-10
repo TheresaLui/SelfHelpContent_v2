@@ -11,7 +11,7 @@
 	supportTopicIds="32633513"
 	resourceTags="WindowsSQL"
 	productPesIds="14745, 16342"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 />
 
 # vm management/provisioning and templates

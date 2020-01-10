@@ -4,7 +4,7 @@
 	authors="Passaree"
         ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32605567"
+	supportTopicIds="32605567,32691090"
 	productPesIds="15629"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
@@ -24,19 +24,19 @@
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Target replication type",
- 	    "watermarkText": "Choose an option",
+ 	        "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "zrs",
                     "text": "To ZRS"
                 },
-		 {
+		        {
                     "value": "gzrs",
                     "text": "To GZRS"
                 },
-		 {
+		        {
                     "value": "ragzrs",
-                    "text": "To RA-ZRS"
+                    "text": "To RA-GZRS"
                 },
                 {
                     "value": "dont_know_answer",
