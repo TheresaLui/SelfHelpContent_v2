@@ -18,6 +18,11 @@
     "resourceRequired": false,
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Want to check Replication Eligibility?",
+        "description": "Check replication eligibility before proceed",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with the replication. Please ensure the information provided is accurate and in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
          {
             "id": "target_replication_type",
@@ -43,7 +48,8 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
 	{
             "id": "storage_account_from",
@@ -51,7 +57,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Storage accounts from",
             "watermarkText": "AccountName1;AccountName2;AccountName3",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
