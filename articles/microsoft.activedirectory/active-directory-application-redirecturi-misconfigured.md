@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I receive an error related to the reply url, for instance Invalid or Misconfigured Redirect (Reply) URI"
-	description="TI receive an error related to the reply url."
+	pageTitle="I receive an error related to the reply url"
+	description="I receive an error related to the reply url."
 	infoBubbleText="Found recent login failures. See details on the right."
 	service="microsoft.aad"
 	resource="MICROSOFT_AAD_IAM"
