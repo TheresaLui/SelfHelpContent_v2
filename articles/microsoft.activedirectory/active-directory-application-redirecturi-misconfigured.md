@@ -1,22 +1,20 @@
 <properties
- pageTitle="I receive an error related to the reply url, for instance Invalid or Misconfigured Redirect (Reply) URI"
- description="I receive an error related to the reply url"
- infoBubbleText="Found recent login failures. See details on the right."
- service="microsoft.aad"
- resource="Microsoft_AAD_IAM"
- authors="jmprieur"
- ms.author="jmprieur"
- articleId="active-directory-application-redirecturi-misconfigured"
- diagnosticScenario="MisconfiguredRedirectUri"
- displayOrder=""
- selfHelpType="generic"
- supportTopicIds="32570266,32596845,32596846,32596844,32570262,32596835,32596874,32570261,32596864,32596861"
- resourceTags="appdev"
- productPesIds="16575"
- cloudEnvironments="public"
- articleId="8045922a-1bc4-47de-8f2d-6bb1886f1b6a"
+	pageTitle="I receive an error related to the reply url, for instance Invalid or Misconfigured Redirect (Reply) URI"
+	description="TI receive an error related to the reply url."
+	infoBubbleText="Found recent login failures. See details on the right."
+	service="microsoft.aad"
+	resource="MICROSOFT_AAD_IAM"
+	authors="jmprieur"
+	ms.author="jmprieur"
+	articleId="active-directory-application-redirecturi-misconfigured"
+	diagnosticScenario="MisconfiguredRedirectUri"
+	selfHelpType="generic"
+	supportTopicIds="32570266,32596845,32596846,32596844,32570262,32596835,32596874,32570261,32596864,32596861"
+	resourceTags="appdev"
+	productPesIds="16575"
+	cloudEnvironments="public"
+	articleId="8045922a-1bc4-47de-8f2d-6bb1886f1b6a"
 />
-
 # I received an error related to the reply url
 
 Redirect URI / reply URLs are the URL where the Microsoft identity platform is allowed to send back tokens that your app requested. Both expressions are interchangeable
