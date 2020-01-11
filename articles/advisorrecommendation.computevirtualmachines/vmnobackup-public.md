@@ -75,7 +75,7 @@
   "legacyDataLoader": {
     "className": "Microsoft.Azure.Advisor.Common.DataLoaders.VmNoBackupResourceDataParser",
     "assemblyName": "Microsoft.Azure.Advisor.Common"
-  }
+  },
   "tip": "You can enable virtual machine backup to protect your data from corruption or accidental deletion."
 }
 ---
