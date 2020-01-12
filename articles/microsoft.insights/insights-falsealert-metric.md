@@ -44,6 +44,9 @@ If they are not what you want, edit the rule to match what you want.
     - **Aggregation** in the metric chart is the same as the **Aggregation type** in your alert rule.
     - **Time granularity** is set to be same as the **Aggregation granularity (period)** in your alert rule and not set to automatic.
 
+5. If the alert rule fires new alerts, while existing fired alerts that monitor the same criteria are still unresolved, check if the alert rule has been configured with the *autoMitigate* property set to **false** (this property can only be configured via REST/PowerShell/CLI). In such case, the alert rule will not auto-resolve fired alerts, and will not require a fired alert to be resolved before firing again.
+
+
 ## **Recommended Documents**
 
 - [How to view/edit metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric)
