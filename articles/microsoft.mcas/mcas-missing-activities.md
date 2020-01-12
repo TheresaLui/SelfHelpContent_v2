@@ -34,4 +34,4 @@ Most users are able to resolve missing activities issues using the steps below.
 * [Connecting Office 365](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
 * [Troubleshooting app connector error messages](https://docs.microsoft.com/cloud-app-security/troubleshooting-api-connectors-using-error-messages)
 
-[!INCLUDE [Open a support ticket](includes/unresolved.md)]
+If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.

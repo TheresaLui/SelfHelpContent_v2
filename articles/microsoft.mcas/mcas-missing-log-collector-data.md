@@ -51,4 +51,4 @@ Most users are able to resolve log collector issues using the steps below.
 
     - Check that the log file you are uploading matches the sample you uploaded to Cloud App Security. For more information the format for log files, see [Using traffic logs for Cloud Discovery](https://docs.microsoft.com/cloud-app-security/create-snapshot-cloud-discovery-reports#using-traffic-logs-for-cloud-discovery-).
 
-[!INCLUDE [Open a support ticket](includes/unresolved.md)]
+If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
