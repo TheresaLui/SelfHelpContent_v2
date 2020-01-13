@@ -20,9 +20,10 @@
 
 Most users are able to resolve missing Microsoft Defender Advanced Threat Protection (ATP) data issues using the steps below.
 
-## Troubleshooting
+## **Recommended Steps**
 
-1. If you recently enabled the Microsoft Defender ATP integration, make sure that sufficient time has passed for traffic information to be collected. It takes up to two hours after you enable the integration for the data to show up in Cloud App Security.
-1. If your endpoint devices are behind a forward proxy, the volume of traffic won't be visible to Microsoft Defender ATP and hence will not be included in Cloud Discovery reports.
+1. Make sure that sufficient time has passed for traffic information to be collected. If you recently enabled the Microsoft Defender ATP integration, it takes up to two hours for the data to show up in Cloud App Security.
+
+1. Make sure your endpoint devices are not behind a forward proxy. Traffic from endpoint devices behind a forward proxy is not visible to Microsoft Defender ATP and therefore will not be included in Cloud Discovery reports.
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
