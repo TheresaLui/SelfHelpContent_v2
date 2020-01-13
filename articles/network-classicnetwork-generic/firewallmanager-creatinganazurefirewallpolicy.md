@@ -10,7 +10,7 @@
     supportTopicIds="32690525"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments=""
+    cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="creating-an-azure-firewall-policy"
 />
 # Create an Azure Firewall Policy
