@@ -10,7 +10,7 @@
     supportTopicIds="32690528"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="Public,Fairfaix,Blackforest,Mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="securing-an-existing-virtual-WAN-hub"
 />
 # Securing an Existing Virtual WAN Hub
