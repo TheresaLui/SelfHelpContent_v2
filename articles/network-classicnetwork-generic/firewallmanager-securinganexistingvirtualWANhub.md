@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Securing an existing virtual WAN hub"
-    description="Securing an existing virtual WAN hub"
+    pageTitle="Securing an existing virtual Wide Area Network hub"
+    description="Securing an existing virtual Wide Area Network hub"
     service="microsoft.network"
     resource=""
     authors="sujamiya"
@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
-	articleId="securing-an-existing-virtual-WAN-hub"
+	articleId="securing-an-existing-virtual-Wide-Area-Network-hub"
 />
 # Securing an Existing Virtual WAN Hub
 
