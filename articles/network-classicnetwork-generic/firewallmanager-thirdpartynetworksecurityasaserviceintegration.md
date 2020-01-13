@@ -10,7 +10,7 @@
     supportTopicIds="32690529"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="Public, Fairfaix, Blackforest, Mooncake"
+    cloudEnvironments="public,fairfaix,blackforest,mooncake"
 	articleId="third-party-network-security-as-a-service-integration"
 />
 # Third Party Network Security as a Service Integration
