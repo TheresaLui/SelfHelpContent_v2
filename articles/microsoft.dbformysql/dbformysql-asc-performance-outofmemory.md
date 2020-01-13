@@ -28,6 +28,6 @@ During our investigation we found that your server <!--$ServerName-->ServerName<
 
 ## **Recommended Documents**
 
-* [Pricing tiers - Azure Database for MySQL](https://docs.microsoft.com/en-us/azure/mysql/concepts-pricing-tiers)<br>
+* [Pricing tiers - Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers)<br>
 * [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL) <br>
 * [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
