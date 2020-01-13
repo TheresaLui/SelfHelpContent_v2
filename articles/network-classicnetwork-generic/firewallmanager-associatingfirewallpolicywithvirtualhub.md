@@ -11,13 +11,13 @@
     resourceTags=""
     productPesIds="16922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
-	articleId="third-party-network-security-as-a-service-integration"
+	articleId="associating-azure-firewall-policy-with-virtual-hub"
 />
 # Associating Azure Firewall Policy with Virtual Hub
 
 ## **Recommended Documents**
 
-* What is a [secured virtual hub?] (https://docs.microsoft.com/azure/firewall-manager/secured-virtual-hub)
+* What is a [secured virtual hub?](https://docs.microsoft.com/azure/firewall-manager/secured-virtual-hub)
 * Learn how to associate firewall policy with your hub in [Azure Firewall Manager Portal tutorial](https://docs.microsoft.com/azure/firewall-manager/secure-cloud-network)
 * Learn how [Azure Firewall Manager uses Azure Firewall Policy](https://docs.microsoft.com/azure/firewall-manager/overview)
 * Learn about Azure Firewall Policy in the [general deployment process overview](https://docs.microsoft.com/azure/firewall-manager/deployment-overview)
