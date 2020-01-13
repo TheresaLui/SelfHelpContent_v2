@@ -17,6 +17,6 @@
 
 ## **Recommended Documents**
 
-* What are trusted security partners? (https://docs.microsoft.com/azure/firewall-manager/trusted-security-partners)
+* What are [trusted security partners](https://docs.microsoft.com/azure/firewall-manager/trusted-security-partners)?
 * Learn about third-party security-as-a-service in the [Azure Firewall Manager overview](https://docs.microsoft.com/azure/firewall-manager/overview)
 * Learn where third-party security-as-a-service fits in the [general deployment process overview](https://docs.microsoft.com/azure/firewall-manager/overview)
