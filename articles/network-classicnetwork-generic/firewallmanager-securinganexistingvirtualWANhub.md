@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
-	articleId="securing-an-existing-virtual-Wide-Area-Network-hub"
+	articleId="securing-an-existing-virtual-wide-area-network-hub"
 />
 # Securing an Existing Virtual WAN Hub
 
