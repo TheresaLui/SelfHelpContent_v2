@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32689193"
 	resourceTags=""
-	productPesIds="16954,16955,16956,,16575"
+	productPesIds="16954,16955,16956,16575"
 	cloudEnvironments="public"
-	articleId="757bafde-f257-47fe-9114-2b24c5bf4ac9"
+	articleId="1ab76fd2-7673-4011-b9fe-8ac1335f260c"
 />
 
 # Microsoft Graph querying or provisioning issues
