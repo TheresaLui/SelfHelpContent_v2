@@ -18,4 +18,4 @@
 ## **Recommended Documents**
 
 * Learn about [secured virtual hub](https://docs.microsoft.com/azure/firewall-manager/secured-virtual-hub)
-* Create a secured virtual hub in the [Azure Firewall Manager Portal tutorial] (https://docs.microsoft.com/azure/firewall-manager/secure-cloud-network)
+* Create a secured virtual hub in the [Azure Firewall Manager Portal tutorial](https://docs.microsoft.com/azure/firewall-manager/secure-cloud-network)
