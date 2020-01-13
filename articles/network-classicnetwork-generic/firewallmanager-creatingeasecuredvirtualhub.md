@@ -10,7 +10,7 @@
     supportTopicIds="32690524"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments=""
+    cloudEnvironments="public,fairfax,mooncake,blackforest"
     articleId="creating-a-secured-virtual-hub"
 />
 # Creating a Secured Virtual Hub
