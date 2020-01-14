@@ -42,7 +42,7 @@ If you have verified that the customer's impact is primarily due to a Network Vi
   - Supported image versions (customer should upgrade to these):
     * 9.0.4 and higher
 
-# We ran diagnostics on your VM instance and found an issue. 
+## We ran diagnostics on your VM instance and found an issue. 
 
 The VM with ID {VmId}, of version {VmVersion}, does not have the network drivers necessary to support Accelerated Networking on Azure's latest ConnectX-4 hardware. This may impact performance. Our partners have updated their Network Virtual Appliance (NVA) images to work with the latest hardware, and have published the updated images to Azure Marketplace. 
 
