@@ -22,22 +22,22 @@ Most users are able to resolve log collector issues using the steps below.
 
 ## **Recommended Steps**
 
-1. Check that your log collector is set up correctly.
+### Check that your log collector is set up correctly
 
-    1. Make sure you are using one of the operating systems supported by Cloud App Security: [Docker for Windows](https://docs.microsoft.com/cloud-app-security/discovery-docker-windows), [Linux on premise](https://docs.microsoft.com/cloud-app-security/discovery-docker-ubuntu), [Docker for Linux on Azure](https://docs.microsoft.com/cloud-app-security/discovery-docker-ubuntu-azure)
-    1. Verify that the host machine has sufficient:
-        - Disk space: 250 GB
-        - CPU: 2
-        - RAM: 4 GB
-    1. For Windows log collectors only – Verify that virtualization on the operating system enabled with Hyper-V?
+1. Make sure you are using one of the operating systems supported by Cloud App Security: [Docker for Windows](https://docs.microsoft.com/cloud-app-security/discovery-docker-windows), [Linux on premise](https://docs.microsoft.com/cloud-app-security/discovery-docker-ubuntu), [Docker for Linux on Azure](https://docs.microsoft.com/cloud-app-security/discovery-docker-ubuntu-azure)
+1. Verify that the host machine has sufficient capacity:
+    - Disk space: 250 GB
+    - CPU: 2
+    - RAM: 4 GB
+1. For Windows log collectors only – Verify that virtualization on the operating system enabled with Hyper-V?
 
-1. Check that your network is set up correctly.
+### Check that your network is set up correctly
 
-    1. Verify that you allowed the log collector to:
-        - Receive inbound FTP and Syslog traffic
-        - Initiate outbound traffic to the portal (for example `contoso.cloudappsecurity.com`) on port 443
-        - Initiate outbound traffic to the Azure blob storage on port 443? For more information, see [Log collector network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector).
-    1. For log collectors not using a proxy server - Verify that you allowed HTTP connections to `http://ocsp.msocsp.com/` and `http://ocsp.digicert.com/` on port 80?
+1. Verify that the log collector has permissions to:
+    - Receive inbound FTP and Syslog traffic
+    - Initiate outbound traffic to the portal (for example `contoso.cloudappsecurity.com`) on port 443
+    - Initiate outbound traffic to the Azure blob storage on port 443? For more information, see [Log collector network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector).
+1. For log collectors not using a proxy server - Verify that you allowed HTTP connections to `http://ocsp.msocsp.com/` and `http://ocsp.digicert.com/` on port 80?
 
 ## Troubleshooting
 
