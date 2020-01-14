@@ -15,7 +15,7 @@
 />
 
 # Batch account  - quotas
-**Important:** Only quotas for Batch account pool, job count, and number of Batch accounts in a subscription can be raised via request from this category. For _core_ quota, create a ticket for issue type: "Service and subscription limits (quota)" > Quota Type: "Batch" and provide the desired number of cores by virtual machine size.
+**Important:** This type of support request should only be used for technical issues and questions about Batch quotas. Using this type of support request for quota changes will likely result in a delay in processing the changes. To request changes to Batch quotas please return to the ‘Basics’ section and select the ‘Issue type’ of "Service and subscription limits (quotas)". Further information about Batch quotas is available in the recommended documents below.
 
 ## **Recommended Documents**
 * [Creating a Batch account in the Azure Portal](https://docs.microsoft.com/azure/batch/batch-account-create-portal)<br>
