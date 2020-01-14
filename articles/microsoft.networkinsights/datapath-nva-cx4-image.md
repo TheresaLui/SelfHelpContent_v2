@@ -14,15 +14,33 @@ supportTopicIds=""
 cloudEnvironments="Public"
 />
 
+# VM image may need to be updated
+
 If you have verified that the customer's impact is primarily due to a Network Virtual Appliance (NVA) image with outdated drivers, please adapt the root cause statement below. Please also double-check that the customer's VM version is in the list of unsupported images.
 
-**NVA image publisher**|**Unsupported image versions**|**Supported image versions (customer should upgrade to these)**
-:-----:|:-----:|:-----:
-Cisco (Cisco-csr-1000v)|16.10.220190622, 16.10.120190108, 16.9.220181121|16.12.120190816 and higher
-Barracudanetworks (Barracuda-ng-firewall)|8.0.0047501, 8.0.0047503|8.0.0047504 and higher
-Arista-networks (vEos-router)|4.21.0, 4.21.3, 4.22.0|4.22.10 and higher
-Paloaltonetworks (VM-Series)|9.0.1|9.0.4 and higher
++ Cisco (Cisco-csr-1000v):
+  - Unsupported image versions:
+    * 16.10.220190622, 16.10.120190108, 16.9.220181121
+  - Supported image versions (customer should upgrade to these):
+    * 16.12.120190816 and higher
 
++ Barracudanetworks (Barracuda-ng-firewall):
+  - Unsupported image versions:
+    * 8.0.0047501, 8.0.0047503
+  - Supported image versions (customer should upgrade to these):
+    * 8.0.0047504 and higher
+
++ Arista-networks (vEos-router):
+  - Unsupported image versions:
+    * 4.21.0, 4.21.3, 4.22.0
+  - Supported image versions (customer should upgrade to these):
+    * 4.22.10 and higher
+
++ Paloaltonetworks (VM-Series):
+  - Unsupported image versions:
+    * 9.0.1
+  - Supported image versions (customer should upgrade to these):
+    * 9.0.4 and higher
 
 # We ran diagnostics on your VM instance and found an issue. 
 
@@ -30,6 +48,6 @@ The VM with ID {VmId}, of version {VmVersion}, does not have the network drivers
 
 We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To avoid any impact to your current deployments, please upgrade your VM to the latest version in Azure Marketplace. Older VM versions are not affected.
