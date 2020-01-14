@@ -13,6 +13,7 @@
 # Video Indexer common questions for support
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Video Indexer common questions for support",
@@ -38,8 +39,8 @@
                 {
                     "value": "no",
                     "text": "No"
-                },
-            }
+                }
+            ],
             "required": true
         },
         {
@@ -140,20 +141,19 @@
             "required": false
         },
 {
-            "id": "problem_description", //This is a required value
+            "id": "problem_description", 
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Provide details about the scenario and issues that you ran into with the Video Indexer. Be sure to note if this worked previously and suddenly stopped working."
                 }
             ]
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

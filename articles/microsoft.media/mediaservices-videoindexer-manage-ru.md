@@ -5,6 +5,7 @@
 	service="microsoft.media"
 	resource="mediaservices"
     authors="ReutAmior"
+    ms.author="t-reutam"
     displayOrder="1"
     articleId="mediaservices-videoindexer-manage-ru"
     diagnosticScenario=""
@@ -23,7 +24,7 @@ A Media Services account is associated with a Reserved Unit Type, which determin
 ## Auto-scaling Reserved Units in Video Indexer
 Video Indexer offers an option to automatically scale reserved units. This way, you can allocate the maximum number of RUs and be sure that Video Indexer stops/starts RUs automatically. With this option, you don't pay extra money for idle time but also do not wait for indexing jobs to complete a long time when the indexing load is high.
 
-## Recommended steps
+## **Recommended steps**
 
 ### Use the auto-scale option in Video Indexer
 If auto-scaling is not turned on in your account:
@@ -33,9 +34,9 @@ If auto-scaling is not turned on in your account:
 ### Create a service request to increase the Reserved Units quota
 If you have already reached the default limit of Reserved Units (10 S3 units), create a service request to increase it.  Learn how to open a support ticket in the link below.
 
-## Recommended documents
-* [How to create a service request to increase RUs quota](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quota-errors#solution)
-* [Auto-scale reserved units in Video Indexer](https://docs.microsoft.com/en-gb/azure/media-services/video-indexer/manage-account-connected-to-azure#auto-scale-reserved-units)
-* [Scaling Media Processing overview](https://docs.microsoft.com/en-in/azure/media-services/previous/media-services-scale-media-processing-overview)
-* [Change the reserved unit type](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-portal-scale-media-processing)
+## **Recommended documents**
+* [How to create a service request to increase RUs quota](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors#solution)
+* [Auto-scale reserved units in Video Indexer](https://docs.microsoft.com/azure/media-services/video-indexer/manage-account-connected-to-azure#auto-scale-reserved-units)
+* [Scaling Media Processing overview](https://docs.microsoft.com/azure/media-services/previous/media-services-scale-media-processing-overview)
+* [Change the reserved unit type](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-scale-media-processing)
 * [Scale media processing with CLI](https://docs.microsoft.com/azure/media-services/latest/media-reserved-units-cli-how-to)

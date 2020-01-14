@@ -13,6 +13,7 @@
 # Using Video Indexer's API
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Using Video Indexer's API",
@@ -30,16 +31,15 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Are you still experiencing the issue?",
-            "dropdownOptions": [
-                {
+            "dropdownOptions": [{
                     "value": "yes",
                     "text": "Yes"
                 },
                 {
                     "value": "no",
                     "text": "No"
-                },
-            }
+                }
+            ],
             "required": true
         },
         {
@@ -136,7 +136,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the HTTP response header?",
-            "watermarkText": "Please provide the “x-ms-request-id”",
+            "watermarkText": "Please provide the |x-ms-request-id|",
             "required": false
         },
         {
@@ -148,20 +148,19 @@
             "required": false
         },
 {
-            "id": "problem_description", //This is a required value
+            "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Provide details about the scenario and issues that you ran into with the Video Indexer. Be sure to note if this worked previously and suddenly stopped working."
                 }
             ]
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

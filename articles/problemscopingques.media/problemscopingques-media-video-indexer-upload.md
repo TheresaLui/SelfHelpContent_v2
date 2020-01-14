@@ -13,6 +13,7 @@
 # Uploading a video to Video Indexer
 ---
 {
+   "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Uploading a video to Video Indexer",
@@ -38,8 +39,8 @@
                 {
                     "value": "no",
                     "text": "No"
-                },
-            }
+                }
+            ],
             "required": true
         },
         {
@@ -154,8 +155,8 @@
                 {
                     "value": "no",
                     "text": "No"
-                },
-            }
+                }
+            ],
             "required": true
         },
         {
@@ -167,13 +168,13 @@
             "required": false
         },
 {
-            "id": "problem_description", //This is a required value
+            "id": "problem_description", 
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Please provide more details about the issue."
