@@ -23,8 +23,8 @@ During our investigation we found that your server <!--$ServerName-->ServerName<
 ## **Recommended Steps**
 
 * Review *Memory percent* in the Metrics window of the portal. If Memory spikes correlate with times when you increased your query workload, consider scaling up vCores to increase memory.
-* Consider reducing innodb_buffer_pool_size to release some memory for queries to allocate more.
-* Use the intelligent performance features for additional insights. For more information, visit the  [Monitoring overview document](https://docs.microsoft.com/azure/mariadb/concepts-monitoring)
+* Consider reducing innodb_buffer_pool_size to release some memory for queries to allocate more
+* Use the intelligent performance features for additional insights. For more information, review the [Monitoring overview](https://docs.microsoft.com/azure/mariadb/concepts-monitoring).
 
 ## **Recommended Documents**
 
