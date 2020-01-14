@@ -15,7 +15,7 @@
 />
 
 # Azure Automation - State Configuration (DSC) - Problem Compiling a Configuration
-Test upload
+
 ## **Recommended Steps**
 
 * First, [compile the configuration locally ](https://docs.microsoft.com/powershell/scripting/dsc/configurations/configurations?view=powershell-5.1#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation
