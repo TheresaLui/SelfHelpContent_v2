@@ -18,6 +18,6 @@
 Most users are able to resolve their issue using the following documents:
 
 ## **Recommended Documents**
-[Troubleshooting CDN endpoints returning 404 statuses](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-endpoint/)<br>
-[CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)<br>
-[Advanced HTTP Reports](https://azure.microsoft.com/documentation/articles/cdn-advanced-http-reports/)
+* [Troubleshooting CDN endpoints returning 404 statuses](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-endpoint/)<br>
+* [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)<br>
+* [Advanced HTTP Reports](https://azure.microsoft.com/documentation/articles/cdn-advanced-http-reports/)

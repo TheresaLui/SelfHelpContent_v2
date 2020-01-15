@@ -18,7 +18,7 @@
 Most users are able to resolve their issue using the following documents:
 
 ## **Recommended Documents**
-[CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)<br>
-[CDN POP Locations](https://azure.microsoft.com/documentation/articles/cdn-pop-locations/)<br>
-[Sever Header Details](https://my.edgecast.com/uploads/ubers/1/docs/webhelp/w/CDNHelpCenter/Content/Reference/POP_Listing.htm)<br>
-[Download the WGET tool for Troubleshooting](http://gnuwin32.sourceforge.net/packages/wget.htm)
+* [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)<br>
+* [CDN POP Locations](https://azure.microsoft.com/documentation/articles/cdn-pop-locations/)<br>
+* [Sever Header Details](https://my.edgecast.com/uploads/ubers/1/docs/webhelp/w/CDNHelpCenter/Content/Reference/POP_Listing.htm)<br>
+* [Download the WGET tool for Troubleshooting](http://gnuwin32.sourceforge.net/packages/wget.htm)

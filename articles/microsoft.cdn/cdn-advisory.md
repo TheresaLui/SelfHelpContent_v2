@@ -18,6 +18,6 @@
 Most users are able to resolve their issue using the following documents:
 
 ## **Recommended Documents**
-[How to Use CDN](https://azure.microsoft.com/documentation/articles/cdn-how-to-use-cdn/)<br>
-[How to Create a new CDN Endpoint](https://azure.microsoft.com/documentation/articles/cdn-create-new-endpoint/)<br>
-[CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)
+* [How to Use CDN](https://azure.microsoft.com/documentation/articles/cdn-how-to-use-cdn/)<br>
+* [How to Create a new CDN Endpoint](https://azure.microsoft.com/documentation/articles/cdn-create-new-endpoint/)<br>
+* [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)

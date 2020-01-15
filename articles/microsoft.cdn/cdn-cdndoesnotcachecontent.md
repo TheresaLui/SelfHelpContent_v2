@@ -18,6 +18,6 @@
 Most users are able to resolve their issue using the following documents:
 
 ## **Recommended Documents**
-[How to Manage Expiration of Blob Content in the Azure Content Delivery Network (CDN)](https://azure.microsoft.com/documentation/articles/cdn-manage-expiration-of-blob-content/)<br>
-[How to Manage Expiration of Cloud Service Content in the Azure Content Delivery Network (CDN)](https://azure.microsoft.com/documentation/articles/cdn-manage-expiration-of-cloud-service-content/)<br>
-[CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)
+* [How to Manage Expiration of Blob Content in the Azure Content Delivery Network (CDN)](https://azure.microsoft.com/documentation/articles/cdn-manage-expiration-of-blob-content/)<br>
+* [How to Manage Expiration of Cloud Service Content in the Azure Content Delivery Network (CDN)](https://azure.microsoft.com/documentation/articles/cdn-manage-expiration-of-cloud-service-content/)<br>
+* [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)

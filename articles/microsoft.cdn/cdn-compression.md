@@ -17,5 +17,5 @@
 Most users are able to resolve their issue using the following documents:
 
 ## **Recommended Documents**
-[Compression Troubleshooting](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-compression/)<br>
-[CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)
+* [Compression Troubleshooting](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-compression/)<br>
+* [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)

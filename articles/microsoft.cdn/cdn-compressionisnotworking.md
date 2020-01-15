@@ -18,5 +18,5 @@
 Most users are able to resolve their issue using the following documents:
 
 ## **Recommended Documents**
-[Troubleshooting CDN file compression](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-compression)<br>
-[Improve Performance by Compressing files](https://azure.microsoft.com/documentation/articles/cdn-improve-performance/)
+* [Troubleshooting CDN file compression](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-compression)<br>
+* [Improve Performance by Compressing files](https://azure.microsoft.com/documentation/articles/cdn-improve-performance/)
