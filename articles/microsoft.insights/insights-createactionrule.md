@@ -18,10 +18,10 @@
 
 ## **Recommended Steps**
 
-1. Ensure you have the appropriate permissions to author the action rule. Usually, you would use the ["Monitoring Contributor"](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#monitoring-contributor) built-in role.
+1. Ensure you have the appropriate permissions to author the action rule. Usually, you would use the ["Monitoring Contributor"](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-contributor) built-in role.
 2. Verify all the parameters are set correctly.
 
 ## **Recommended Documents**
 
-[Configuring an action rule](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-action-rules) <br>
-[Create an action rule using PowerShell](https://docs.microsoft.com/en-us/powershell/module/az.alertsmanagement/Set-AzActionRule)
+[Configuring an action rule](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules) <br>
+[Create an action rule using PowerShell](https://docs.microsoft.com/powershell/module/az.alertsmanagement/Set-AzActionRule)
