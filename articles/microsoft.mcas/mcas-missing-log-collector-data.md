@@ -35,11 +35,11 @@ Most users are able to resolve log collector issues using the steps below.
 
 1. Verify that the log collector has permissions to:
     - Receive inbound FTP and Syslog traffic
-    - Initiate outbound traffic to the portal (for example `contoso.cloudappsecurity.com`) on port 443
+    - Initiate outbound traffic to the portal (for example *contoso\.cloudappsecurity\.com*) on port 443
     - Initiate outbound traffic to the Azure blob storage on port 443? For more information, see [Log collector network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector).
-1. For log collectors not using a proxy server - Verify that you allowed HTTP connections to `http://ocsp.msocsp.com/` and `http://ocsp.digicert.com/` on port 80?
+1. For log collectors not using a proxy server - Verify that you allowed HTTP connections to *http\:\/\/ocsp\.msocsp\.com\/* and *http\:\/\/ocsp.digicert.com\/* on port 80?
 
-## Troubleshooting
+**Troubleshooting**
 
 1. Are you having an issue uploading log files?
 
