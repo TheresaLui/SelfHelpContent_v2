@@ -15,8 +15,8 @@
 />
 
 # configuration/https and ssl configuration
+Most users are able to resolve their issue using the following documents:
 
-
-## **Recommended documents**
+## **Recommended Documents**
 [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)<br>
 [Download the WGET tool for Troubleshooting](http://gnuwin32.sourceforge.net/packages/wget.htm)

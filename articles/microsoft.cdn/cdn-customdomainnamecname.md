@@ -15,8 +15,8 @@
 />
 
 # configuration/custom domain name (cname)
+Most users are able to resolve their issue using the following documents:
 
-
-## **Recommended documents**
+## **Recommended Documents**
 [How to map Custom Domain to Content Delivery Network (CDN) endpoint](https://azure.microsoft.com/documentation/articles/cdn-map-content-to-custom-domain/)<br>
 [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)

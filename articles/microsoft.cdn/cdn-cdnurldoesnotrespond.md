@@ -15,8 +15,8 @@
 />
 
 # availability and performance/cdn url does not respond
+Most users are able to resolve their issue using the following documents:
 
-
-## **Recommended documents**
+## **Recommended Documents**
 [404 error Troubleshooting](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-endpoint/)<br>
 [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)

@@ -15,7 +15,7 @@
 />
 
 # management portal/cdn option is not available in portal
+Most users are able to resolve their issue using the following documents:
 
-
-## **Recommended documents**
+## **Recommended Documents**
 [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)

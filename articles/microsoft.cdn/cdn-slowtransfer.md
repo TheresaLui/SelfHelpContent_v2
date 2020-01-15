@@ -15,9 +15,9 @@
 />
 
 # availability and performance/slow transfer
+Most users are able to resolve their issue using the following documents:
 
-
-## **Recommended documents**
+## **Recommended Documents**
 [Improve Performance by Compressing Files](https://azure.microsoft.com/documentation/articles/cdn-improve-performance/)<br>
 [Analyze edge node performance in Microsoft Azure CDN](https://azure.microsoft.com/documentation/articles/cdn-edge-performance/)<br>
 [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)
