@@ -39,6 +39,10 @@
                 {
                     "value": "no",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
                 }
             ],
             "required": true
@@ -55,7 +59,7 @@
             "id": "region",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "You can find the account location in the Video Indexer portal under Settings->Account->Account region",
+            "infoBalloonText": "You can find your account location in the Video Indexer portal under the Settings page in the Account tab",
             "displayLabel": "Please select the Account region",
             "watermarkText": "Select the Account region",
             "dropdownOptions": [
@@ -138,7 +142,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is your Video ID?",
             "watermarkText": "Please provide the video ID.",
-            "required": true
+            "required": false
         },
         {
             "id": "public",
@@ -181,7 +185,6 @@
                 }
             ]
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

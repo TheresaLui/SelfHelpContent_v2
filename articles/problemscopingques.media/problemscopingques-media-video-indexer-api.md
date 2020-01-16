@@ -4,7 +4,7 @@
     authors="ReutAmior"
     ms.author="ReutAmior"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32606547, 32606550, 32606561, 32606563, 32606574"
+    supportTopicIds="32606550, 32606561, 32606563, 32606574"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer"
     cloudEnvironments="public"
@@ -38,6 +38,10 @@
                 {
                     "value": "no",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
                 }
             ],
             "required": true
@@ -119,7 +123,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is your Video Indexer Account ID?",
             "watermarkText": "Please provide the Video Indexer account ID.",
-            "infoBalloonText": "You can find your account ID in the Video Indexer portal under Settings->Account->Account ID",
+            "infoBalloonText": "You can find your account ID in the Video Indexer portal under the Settings page in the Account tab",
             "required": true
         },
         {
@@ -147,7 +151,7 @@
             "watermarkText": "Please provide a Trace ID (if you have one).",
             "required": false
         },
-{
+        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
