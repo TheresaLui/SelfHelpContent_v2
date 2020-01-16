@@ -58,7 +58,7 @@
             "id": "region",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "You can find the account location in the Video Indexer portal under Settings->Account->Account region",
+            "infoBalloonText": "You can find the account location in the Video Indexer portal under Settings-Account-Account region",
             "displayLabel": "Please select the Account region",
             "watermarkText": "Select the Account region",
             "dropdownOptions": [
