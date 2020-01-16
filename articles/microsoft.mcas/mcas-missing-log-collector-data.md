@@ -10,7 +10,7 @@
 	articleId="mcas-cloud-discovery-data"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32574680, 32574681, 32574656, 32574665, 32574659, 32574661, 32574667, 32574671"
+	supportTopicIds="32574680, 32574681, 32574656, 32574665, 32574659, 32574661, 32574667"
 	resourceTags=""
 	productPesIds="16031"
 	cloudEnvironments="public"
@@ -35,15 +35,9 @@ Most users are able to resolve log collector issues using the steps below.
 
 1. Verify that the log collector has permissions to:
     - Receive inbound FTP and Syslog traffic
-<<<<<<< HEAD
     - Initiate outbound traffic to the portal (for example *contoso\.cloudappsecurity\.com*) on port 443
     - Initiate outbound traffic to the Azure blob storage on port 443? For more information, see [Log collector network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector).
-1. For log collectors not using a proxy server - Verify that you allowed HTTP connections to *http\:\/\/ocsp\.msocsp\.com\/* and *http\:\/\/ocsp.digicert.com\/* on port 80?
-=======
-    - Initiate outbound traffic to the portal (for example `contoso.cloudappsecurity.com`) on port 443
-    - Initiate outbound traffic to the Azure blob storage on port 443. For more information, see [Log collector network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector).
-1. For log collectors not using a proxy server - Verify that you allowed HTTP connections to `http://ocsp.msocsp.com/` and `http://ocsp.digicert.com/` on port 80
->>>>>>> 94f246f89ce5a199a8d096ca979a7940bd526160
+1. For log collectors not using a proxy server - Verify that you allowed HTTP connections to *http\:\/\/ocsp\.msocsp\.com\/* and *http\:\/\/ocsp.digicert.com\/* on port 80
 
 **Troubleshooting**
 
