@@ -22,7 +22,7 @@ Most users are able to resolve log collector issues using the steps below.
 
 ## **Recommended Steps**
 
-**Check that your log collector is set up correctly**
+Check that your log collector is set up correctly
 
 1. Make sure you are using one of the operating systems supported by Cloud App Security: [Docker for Windows](https://docs.microsoft.com/cloud-app-security/discovery-docker-windows), [Linux on premise](https://docs.microsoft.com/cloud-app-security/discovery-docker-ubuntu), [Docker for Linux on Azure](https://docs.microsoft.com/cloud-app-security/discovery-docker-ubuntu-azure)
 1. Verify that the host machine has sufficient capacity:
@@ -31,7 +31,7 @@ Most users are able to resolve log collector issues using the steps below.
     - RAM: 4 GB
 1. For Windows log collectors only: verify that virtualization on the operating system enabled with Hyper-V
 
-**Check that your network is set up correctly**
+Check that your network is set up correctly
 
 1. Verify that the log collector has permissions to:
     - Receive inbound FTP and Syslog traffic
