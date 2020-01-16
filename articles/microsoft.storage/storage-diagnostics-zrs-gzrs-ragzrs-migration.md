@@ -23,4 +23,4 @@ Below is the pre-validation result for storage account(s) **<!--$SourceAccounts-
 
 ## **Recommended Steps** 
 
-Please check [the latest supported regions and restrictions on live migration](<a href="<!--$Link-->[Link]<!--/$Link-->">)
+Please check the <a href="<!--$Link-->[Link]<!--/$Link-->">current supported regions and constraints for live migration</a>
