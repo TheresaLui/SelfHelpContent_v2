@@ -50,7 +50,7 @@ The compliance dashboard surfaces security assessments and recommendations as th
 ## **Recommended Documents**
 
 * [Azure Security Center Compliance Dashboard](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard)<br>
-* [Azure Decurity Center Using Custom Security Policies] (https://docs.microsoft.com/azure/security-center/custom-security-policies)
+* [Azure Security Center Using Custom Security Policies](https://docs.microsoft.com/azure/security-center/custom-security-policies)
 <br>
 * [Azure Security Center Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
 
