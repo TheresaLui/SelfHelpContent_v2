@@ -20,6 +20,11 @@ Most users are able to resolve their Throughput Autopilot issue using the steps 
 
 ## **Recommended Steps**  
 
+### **Can't find option to enable Autopilot?**  
+Autopilot has been registered for all users. The option to use auto pilot will be available when creating a new container.
+
+
+### **FAQ**
 **Is Autopilot supported on shared throughput databases?**
 <br>Yes, autopilot is supported on provisioned collections as well as shared throughput database collections. Customer needs to choose the autopilot option at the time of database creation when using shared throughput.  
  
@@ -28,9 +33,6 @@ Most users are able to resolve their Throughput Autopilot issue using the steps 
  
 **Is there a CLI / SDK support for creating containers / database with autopilot mode?**
 <br>In the public preview currently the only supported way to create autopilot containers is via portal. SDK and CLI support will be added soon.  
- 
-**Can autopilot be enabled on an existing container / database?**
-<br>Currently this functionality is only available for new containers / databases.  
  
 **Portal only shows 4 max throughput values, how can I specify a different max throughput value?**
 <br>In the public preview max throughput can be selected from a predefined list of values. In future we will allow letting user specify any arbitrary max throughput value and the autopilot feature will ensure that the container can scale between 0.1max to max.  
