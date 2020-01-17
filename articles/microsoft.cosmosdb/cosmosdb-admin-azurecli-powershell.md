@@ -33,7 +33,7 @@ You can create and manage all Azure Cosmos DB resources (across all APIs) from a
 
 
 ### **Feature update not available using ARM template**  
-**Symptom:** Your ARM template works when initially provisioning a Cosmos DB with the features enabled, but it doesn’t work when trying to enable the features after the cosmos DB has been provisioned for the first time.  
+**Symptom:** Your ARM template works when initially provisioning a Cosmos DB with the features enabled, but it does not work when trying to enable the features after the cosmos DB has been provisioned for the first time.  
 **Solution:** Current behavior is feature updates are not available thru ARM template. Please use the portal to manually set it or create an account with the preview feature enabled.
 
 ### **Unable to create a collection with unique key from Azure CLI**  

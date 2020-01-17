@@ -84,7 +84,7 @@ For more information, see [Handle rate limiting/request rate too large](https://
 
 
 **Using UpsertItem**
-If *sys_id* is different for the item that is being used in the *upsert* call, then it will create a new item even if the *id* is same. Uniqueness of an item depends on *id* + *partitionkey* together.  Please see [UpsertItem documentation](https://docs.microsoft.com/python/api/azure-cosmos/azure.cosmos.cosmos_client.cosmosclient?view=azure-python#upsertitem-database-or-container-link--document--options-none-).
+<br>If *sys_id* is different for the item that is being used in the *upsert* call, then it will create a new item even if the *id* is same. Uniqueness of an item depends on *id* + *partitionkey* together.  Please see [UpsertItem documentation](https://docs.microsoft.com/python/api/azure-cosmos/azure.cosmos.cosmos_client.cosmosclient?view=azure-python#upsertitem-database-or-container-link--document--options-none-).
 
 
 **Error - Cross partition query is required but disabled. Please set x-ms-documentdb-query-enablecrosspartition to true, specify x-ms-documentdb-partitionkey, or revise your query to avoid this exception.**

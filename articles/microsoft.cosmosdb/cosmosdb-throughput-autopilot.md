@@ -47,13 +47,13 @@ Autopilot has been registered for all users. The option to use auto pilot will b
 * 500,000 RU/s  - **5 TB**  
 
 **Is autopilot supported on all APIs?**
-<br>Yes autopilot is supported on all the APIs – SQL , Mongo, Cassandra, Gremlin, Tables  
+<br>Yes autopilot is supported on all the APIs: SQL , Mongo, Cassandra, Gremlin, Tables  
  
 **Can autopilot be disabled on a container / database?**
 <br>Yes we allow customer to move the autopilot container to a manually provisioned containers. But migrating back to autopilot is not allowed.  
  
 **How much delay does autopilot have in reacting to a spike in traffic or traffic coming down?**
-<br>Autopilot is instantaneous in providing capacity within the RU range of 0.1 * max – max. Both the scale up and scale down are instantaneous. Billing is done at a hourly granularity where the max RUs in that billing windows is considered.
+<br>Autopilot is instantaneous in providing capacity within the RU range of 0.1 * max and max. Both the scale up and scale down are instantaneous. Billing is done at a hourly granularity where the max RUs in that billing windows is considered.
  
 **Is autopilot supported with multi-master accounts?**
 <br>Yes 
