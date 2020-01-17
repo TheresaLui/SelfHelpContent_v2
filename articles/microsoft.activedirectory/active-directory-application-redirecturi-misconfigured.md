@@ -6,7 +6,6 @@
 	resource="MICROSOFT_AAD_IAM"
 	authors="jmprieur"
 	ms.author="jmprieur"
-	articleId="active-directory-application-redirecturi-misconfigured"
 	diagnosticScenario="MisconfiguredRedirectUri"
 	selfHelpType="generic"
 	supportTopicIds="32570266,32596845,32596846,32596844,32570262,32596835,32596874,32570261,32596864,32596861"
