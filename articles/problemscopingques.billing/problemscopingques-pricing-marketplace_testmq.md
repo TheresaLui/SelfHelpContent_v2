@@ -1,0 +1,54 @@
+<properties
+	pageTitle="Help me understand when I will be charged"
+	description="Help me understand when I will be charged"
+	articleId="pricing-marketplacescopingquestions"
+	ms.author="prdasneo"
+	authors="prdasneo"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32632932, 32680676"
+	productPesIds="15659"
+	cloudEnvironments="public"
+	schemaVersion="1"
+/>
+
+# Pricing -Help me understand when I will be charged
+---
+{
+    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "title": "Help me understand when I will be charged",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "visibility": null,
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date subscription required",
+            "required": true
+        },
+        {
+            "id": "subscriptionid_details",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID required testing",
+            "watermarkText": "Provide your Subscription id",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide details about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Describe your problem, providing as much detail as possible."
+                }
+            ]
+        }
+    ],
+    "$schema": "SelfHelpContent"
+}
+---
