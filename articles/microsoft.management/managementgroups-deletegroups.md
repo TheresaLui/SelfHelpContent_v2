@@ -5,7 +5,7 @@
 	resource="managementgroups"
 	authors="rthorn17"
 	ms.author="rithorn"
-	articleId=""
+	articleId="managementgroups-deletegroups"
 	selfHelpType="generic"
 	supportTopicIds="32609538"
 	productPesIds="16530"

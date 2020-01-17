@@ -5,9 +5,9 @@
 	resource="managementgroups"
 	authors="rthorn17"
 	ms.author="rithorn"
-	articleId=""
+	articleId="managementgroups-problemwithsubscriptions"
 	selfHelpType="generic"
-	supportTopicIds="32609547, 32609537, 32609536"
+	supportTopicIds="32609547, 32609537, 32609536, 32609534, 32609540, 32609544, 32626109"
 	productPesIds="16530"
 	cloudEnvironments="public, fairfax, mooncake"
 />

@@ -5,9 +5,9 @@
 	resource="managementgroups"
 	authors="rthorn17"
 	ms.author="rithorn"
-	articleId=""
+	articleId="managementgroups-rbac"
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32609543,32609546,32609548,32609549,32609550 "
 	productPesIds="16530"
 	cloudEnvironments="public, fairfax, mooncake"
 />
