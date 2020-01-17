@@ -24,12 +24,12 @@ You can create and manage all Azure Cosmos DB resources (across all APIs) from a
 
 ### **Questions About the apiVersion specified in the CosmosDB ARM template**  
 
-**Question:** I am creating CosomosDB with ARM template. The ARM template specified at the time of creation is manually followed by *apiVersion: 2015-04-08*, but when you download and check the template after creation, It had become a new date *example: 2019-08-01*. Is it a specification?
+**Question:** I am creating CosmosDB with ARM template. The ARM template specified at the time of creation is manually followed by *apiVersion: 2015-04-08*, but when you download and check the template after creation, It had become a new date *example: 2019-08-01*. Is it a specification?
 - Yes, API version is not a resource-related version of Cosmos DB account, but is the version of the API used when deploying. When you download a template from the Azure portal, it is output by default with the latest API version date *example: 2019-08-01*.  
 
 
-**Question:** If you specify a date *example: 2019-08-01*, are there any changes to the configuration and settings of the CosomosDB database account created by the difference in API versions?
-- If you specify *example: 2019-08-01*, there is no change in the configuration and settings of the CosomosDB database account created by the difference in API version. However, if the API version is *2019-08-01* and *2015-04-08*, the format of the database and the JSON file used when creating the container is different. When creating a database or container using a different API version pleasse refer to the documentation [2019-08-01](https://docs.microsoft.com/azure/templates/microsoft.documentdb/2019-08-01/databaseaccounts)  and [2015-04-08](https://docs.microsoft.com/azure/templates/microsoft.documentdb/2015-04-08/databaseaccounts).  
+**Question:** If you specify a date *example: 2019-08-01*, are there any changes to the configuration and settings of the CosmosDB database account created by the difference in API versions?
+- If you specify *example: 2019-08-01*, there is no change in the configuration and settings of the CosmosDB database account created by the difference in API version. However, if the API version is *2019-08-01* and *2015-04-08*, the format of the database and the JSON file used when creating the container is different. When creating a database or container using a different API version please refer to the documentation [2019-08-01](https://docs.microsoft.com/azure/templates/microsoft.documentdb/2019-08-01/databaseaccounts)  and [2015-04-08](https://docs.microsoft.com/azure/templates/microsoft.documentdb/2015-04-08/databaseaccounts).  
 
 
 ### **Feature update not available using ARM template**  
