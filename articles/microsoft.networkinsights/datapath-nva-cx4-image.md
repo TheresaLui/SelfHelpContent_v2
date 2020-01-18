@@ -19,28 +19,20 @@ cloudEnvironments="Public"
 If you have verified that the customer's impact is primarily due to a Network Virtual Appliance (NVA) image with outdated drivers, please adapt the root cause statement below. Please also double-check that the customer's VM version is in the list of unsupported images.
 
 + Cisco (Cisco-csr-1000v):
-  - Unsupported image versions:
-    * 16.10.220190622, 16.10.120190108, 16.9.220181121
-  - Supported image versions (customer should upgrade to these):
-    * 16.12.120190816 and higher
+  - Unsupported image versions: 16.10.220190622, 16.10.120190108, 16.9.220181121
+  - Supported image versions (customer should upgrade to these): 16.12.120190816 and higher
 
 + Barracudanetworks (Barracuda-ng-firewall):
-  - Unsupported image versions:
-    * 8.0.0047501, 8.0.0047503
-  - Supported image versions (customer should upgrade to these):
-    * 8.0.0047504 and higher
+  - Unsupported image versions: 8.0.0047501, 8.0.0047503
+  - Supported image versions (customer should upgrade to these): 8.0.0047504 and higher
 
 + Arista-networks (vEos-router):
-  - Unsupported image versions:
-    * 4.21.0, 4.21.3, 4.22.0
-  - Supported image versions (customer should upgrade to these):
-    * 4.22.10 and higher
+  - Unsupported image versions: 4.21.0, 4.21.3, 4.22.0
+  - Supported image versions (customer should upgrade to these): 4.22.10 and higher
 
 + Paloaltonetworks (VM-Series):
-  - Unsupported image versions:
-    * 9.0.1
-  - Supported image versions (customer should upgrade to these):
-    * 9.0.4 and higher
+  - Unsupported image versions: 9.0.1
+  - Supported image versions (customer should upgrade to these): 9.0.4 and higher
 
 ## We ran diagnostics on your VM instance and found an issue. 
 
