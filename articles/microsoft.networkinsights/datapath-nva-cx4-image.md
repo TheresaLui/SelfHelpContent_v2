@@ -11,7 +11,7 @@ articleId="AccelNetNvaCx4Insight"
 diagnosticScenario="AccelNetNvaCx4Insight"
 selfHelpType="resource"
 supportTopicIds=""
-cloudEnvironments="Public"
+cloudEnvironments="public,fairfax,blackforest,mooncake"
 />
 
 # VM image may need to be updated
