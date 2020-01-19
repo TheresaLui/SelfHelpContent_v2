@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Missing activities in the activity log"
-	description="Missing activities in the activity log"
+	pageTitle="I can't see my activities in the activity log"
+	description="I can't see my activities in the activity log"
 	infoBubbleText=""
 	service="microsoft.mcas"
 	resource=""
@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Missing activities in the activity log
+# I can't see my activities in the activity log
 
 Most users are able to resolve missing activities issues using the steps below.
 
@@ -25,7 +25,6 @@ Most users are able to resolve missing activities issues using the steps below.
 1. Check if you are using a *scoped deployment* to filter out activities performed by members of certain user groups: [How to include or exclude user groups in Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/scoped-deployment#include-or-exclude-user-groups)
 1. Make sure you enabled auditing in Office 365: [How to connect Office 365 to Cloud App security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security#how-to-connect-office-365-to-cloud-app-security)
 1. Check that the app connector is in a healthy state: In Cloud App Security, go to **Settings** > **App connectors**
-1. If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket
 
 ## **Recommended Documents**
 
@@ -34,3 +33,5 @@ Most users are able to resolve missing activities issues using the steps below.
 * [Investigating activities](https://docs.microsoft.com/cloud-app-security/activity-filters)
 * [Connecting Office 365](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
 * [Troubleshooting app connector error messages](https://docs.microsoft.com/cloud-app-security/troubleshooting-api-connectors-using-error-messages)
+
+If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.

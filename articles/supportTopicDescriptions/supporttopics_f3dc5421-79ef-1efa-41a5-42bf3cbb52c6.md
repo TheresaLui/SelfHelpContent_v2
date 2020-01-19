@@ -1,22 +1,17 @@
 <properties
-description = "Support topic description for Subscription Management"
-pageTitle = "Support topic description for Subscription Management"
-authors = "akankshajsh"
-ms.author = "akjoshi"
-icmTeam="icmteam"
-icmService="icmservice"
-feedbackEmail="prdasneo@microsoft.com"
-productPesIds = "f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
-selfHelpType = "supportTopicDescription"
-articleId = "Subscription-management-supportopicdescription"
-cloudEnvironments = "public,BlackForest,Fairfax, MoonCake" 
-/>
-
-
-  # Support topic description for Subscription Management
-
+  pagetitle="Support topic description for Subscription Management"
+  description="Support topic description for Subscription Management"
+  authors="akankshajsh"
+  ms.author="akjoshi"
+  selfhelptype="SupportTopicDescription"
+  productpesids="f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
+  cloudenvironments="public, blackforest, fairfax, mooncake"
+  articleid="subscription-management-supportopicdescription"
+  icmteam="icmteam"
+  icmservice="icmservice"
+  feedbackemail="prdasneo@microsoft.com" />
+# Support Topic Descriptions for f3dc5421-79ef-1efa-41a5-42bf3cbb52c6
 ---
-
 {
   "shortDescription": "Questions or issues related to managing your subscriptions, offers, access or sign-up",
   "longDescription": "",

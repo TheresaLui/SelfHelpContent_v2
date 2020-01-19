@@ -26,4 +26,4 @@ Resource Health determines the health of your SQL resource by examining the succ
 ## **Recommended Documents**
 
 * [Use Resource Health to troubleshoot connectivity for Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-resource-health?WT.mc_id=pid:13491:sid:32630438/)<br>
-* [Troubleshoot, diagnose, and prevent SQL connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues?WT.mc_id=pid:13491:sid:32630438/)<br>
+* [Troubleshoot, diagnose, and prevent SQL connection errors](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32630438/)<br>
