@@ -303,6 +303,14 @@ cloudEnvironments = "public,BlackForest,Fairfax, MoonCake"
       "category": "",
       "searchTags": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8c32e501-32d0-237b-54d4-6eeeaa60a41c",
+      "longDescription": "",
+      "shortDescription": "Questions around a specific security or privacy disclosure",
+      "category": "",
+      "searchTags": "",
+      "useInDiagnoseAndSolve": "true"
     }
   ],
   "$schema": "SelfHelpContent"
