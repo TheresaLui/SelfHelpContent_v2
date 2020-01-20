@@ -124,7 +124,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is your Video Indexer Account ID?",
             "watermarkText": "Please provide the Video Indexer account ID.",
-            "infoBalloonText": "You can find your account ID in the Video Indexer portal under Settings->Account->Account ID",
+            "infoBalloonText": "You can find your account ID in the Video Indexer portal under the Settings page in the Account tab",
             "required": true
         },
         {
@@ -159,6 +159,10 @@
                 {
                     "value": "no",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
                 }
             ],
             "required": true
@@ -172,7 +176,7 @@
             "required": false
         },
 {
-            "id": "problem_description", 
+            "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
