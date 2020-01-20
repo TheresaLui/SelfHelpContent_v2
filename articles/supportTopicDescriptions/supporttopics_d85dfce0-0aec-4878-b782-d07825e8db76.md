@@ -1,7 +1,7 @@
 <properties
 description = "Support topic description for Azure Application Gateway"
 pageTitle = "Support topic description for Azure Application Gateway"
-authors = "surmb"
+authors = "surajmb"
 ms.author = "surmb"
 icmTeam="Application Gateway"
 icmService="Application Gateway"
