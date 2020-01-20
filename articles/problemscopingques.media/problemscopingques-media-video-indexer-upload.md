@@ -124,6 +124,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is your Video Indexer Account ID?",
             "watermarkText": "Please provide the Video Indexer account ID.",
+
             "infoBalloonText": "You can find your account ID in the Video Indexer portal under the Settings page in the Account tab",
             "required": true
         },
