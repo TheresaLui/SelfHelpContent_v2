@@ -33,4 +33,4 @@ $SupportRequestIDS<br>
 We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.
 
 ### Additional Information:
-[For more information regarding Microsoft Policy](https://aka.ms/privacyinfo)
+[For more information regarding Microsoft Policy](https://privacy.microsoft.com)
