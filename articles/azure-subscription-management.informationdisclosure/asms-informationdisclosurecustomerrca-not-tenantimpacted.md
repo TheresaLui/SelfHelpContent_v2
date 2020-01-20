@@ -7,7 +7,7 @@
 	authors="scottAzure"
 	ms.author="scotro"
 	displayOrder=""
-	articleId="asms-informationdisclosure-nottenantimpacted"
+	articleId="asms-informationdisclosure-notimpacted"
 	diagnosticScenario="xxxx"
 	selfHelpType="rca"
 	supportTopicIds=""
