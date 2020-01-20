@@ -8,7 +8,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	articleId="asms-informationdisclosure"
-	diagnosticScenario=xxxx"
+	diagnosticScenario="xxxx"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
