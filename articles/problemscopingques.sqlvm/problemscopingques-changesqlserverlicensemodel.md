@@ -63,10 +63,6 @@
                 },
                 {
                     "text": "No",
-                    "value": "No"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
                     "value": "dont_know_answer"
                 }
             ],
