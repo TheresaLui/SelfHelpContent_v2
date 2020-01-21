@@ -16,5 +16,4 @@
 
 ## **Recommended Documents**
 
-* [Adaptive Application Support Common Solutions](https://github.com/Azure/SelfHelpContent/blob/master/articles/stscopingqstn.security-center/security-center-adaptive-application-support.md)<br>
 * [Adaptive application controls](https://docs.microsoft.com/azure/security-center/security-center-adaptive-application)
