@@ -1,15 +1,15 @@
 <properties
-    pagetitle="Support topic descriptions for Azure HDinsight"
-    description="Support topic descriptions for Azure HDInsight"
-    authors="mimig1"
-    ms.author="mimig"
-    selfhelptype="SupportTopicDescription"
-    productPesIds="15078"
-    selfHelpType="supportTopicDescription"
-    articleId="hdinsight-supportopicdescription"
-    cloudEnvironments="public, blackforest, fairfax, mooncake"
-    service="microsoft.hdinsight"
-    resource="clusters"
+  pagetitle="Support topic descriptions for Azure HDinsight"
+  description="Support topic descriptions for Azure HDInsight"
+  authors="mimig1"
+  ms.author="mimig"
+  selfhelptype="SupportTopicDescription"
+  productPesIds="15078"
+  selfHelpType="supportTopicDescription"
+  articleId="hdinsight-supportopicdescription"
+  cloudEnvironments="public, blackforest, fairfax, mooncake"
+  service="microsoft.hdinsight"
+  resource="clusters"
 />
 # Support topic descriptions for Azure HDInsight
 ---
