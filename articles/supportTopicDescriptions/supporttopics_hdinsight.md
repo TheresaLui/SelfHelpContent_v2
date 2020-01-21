@@ -10,7 +10,9 @@
   cloudEnvironments="public, blackforest, fairfax, mooncake"
   service="microsoft.hdinsight"
   resource="clusters"
-/>
+  icmteam="icmteam"
+  icmservice="icmservice"
+  feedbackemail="mimig@microsoft.com" />
 # Support topic descriptions for Azure HDInsight
 ---
 {
