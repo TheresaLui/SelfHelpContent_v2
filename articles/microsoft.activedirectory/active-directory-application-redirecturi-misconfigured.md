@@ -8,7 +8,7 @@
 	ms.author="jmprieur"
 	diagnosticScenario="MisconfiguredRedirectUri"
 	selfHelpType="generic"
-	supportTopicIds="32570266,32596845,32596846,32596844,32570262,32596835,32596874,32570261,32596864,32596861"
+	supportTopicIds="32596845,32596846,32596844,32570262,32596835,32596874,32570261,32596864,32596861"
 	resourceTags="appdev"
 	productPesIds="16575"
 	cloudEnvironments="public"
