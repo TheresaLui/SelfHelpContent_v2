@@ -1,37 +1,34 @@
 <properties
-  pagetitle="Support topic descriptions for Azure HDinsight"
+  pagetitle="Support topic descriptions for Azure HDInsight"
   description="Support topic descriptions for Azure HDInsight"
   authors="mimig1"
   ms.author="mimig"
   selfhelptype="SupportTopicDescription"
-  productPesIds="15078"
-  selfHelpType="supportTopicDescription"
-  articleId="hdinsight-supportopicdescription"
-  cloudEnvironments="public, blackforest, fairfax, mooncake"
-  service="microsoft.hdinsight"
-  resource="clusters"
+  productpesids="98134488-9bd9-db12-619c-06636d1ee55e"
+  cloudenvironments="public, blackforest, fairfax, mooncake"
+  articleid="bot-service-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="mimig@microsoft.com" />
+  feedbackemail="botsupport@microsoft.com" />
 # Support topic descriptions for Azure HDInsight
 ---
 {
-    "$schema": "SelfHelpContent",
-    "shortDescription": "Issues with Azure HDInsight",
-    "longDescription": "Common issues users encounter with Azure HDInsight",
-    "productLink1": "https://docs.microsoft.com/en-us/azure/hdinsight/",
-    "productLinkName1": null,
-    "productLink2": "https://docs.microsoft.com/en-us/azure/hdinsight/",
-    "productLinkName2": null,
-    "productLink3": "",
-    "productLinkName3": null,
-    "supportTopics": [
+  "$schema": "SelfHelpContent",
+  "shortDescription": "Issues with Azure HDInsight",
+  "longDescription": "Common issues users encounter with Azure HDInsight",
+  "productLink1": "https://docs.microsoft.com/en-us/azure/hdinsight/",
+  "productLinkName1": null,
+  "productLink2": "https://docs.microsoft.com/en-us/azure/hdinsight/",
+  "productLinkName2": null,
+  "productLink3": "",
+  "productLinkName3": null,
+  "supportTopics": [
         {
             "id": 32636418,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI.",
             "searchTags": "",
-            "category": "",                                         
+            "category": "",
             "useInDiagnoseAndSolve": "true"
         },
         {
@@ -796,3 +793,4 @@
         }
     ]
 }
+---
