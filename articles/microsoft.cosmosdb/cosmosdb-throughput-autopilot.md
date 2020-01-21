@@ -20,6 +20,11 @@ Most users are able to resolve their Throughput Autopilot issue using the steps 
 
 ## **Recommended Steps**  
 
+### **Can't find option to enable Autopilot?**  
+Autopilot has been registered for all users. The option to use auto pilot will be available when creating a new container.
+
+
+### **FAQ**
 **Is Autopilot supported on shared throughput databases?**
 <br>Yes, autopilot is supported on provisioned collections as well as shared throughput database collections. Customer needs to choose the autopilot option at the time of database creation when using shared throughput.  
  
@@ -28,9 +33,6 @@ Most users are able to resolve their Throughput Autopilot issue using the steps 
  
 **Is there a CLI / SDK support for creating containers / database with autopilot mode?**
 <br>In the public preview currently the only supported way to create autopilot containers is via portal. SDK and CLI support will be added soon.  
- 
-**Can autopilot be enabled on an existing container / database?**
-<br>Currently this functionality is only available for new containers / databases.  
  
 **Portal only shows 4 max throughput values, how can I specify a different max throughput value?**
 <br>In the public preview max throughput can be selected from a predefined list of values. In future we will allow letting user specify any arbitrary max throughput value and the autopilot feature will ensure that the container can scale between 0.1max to max.  
@@ -45,13 +47,13 @@ Most users are able to resolve their Throughput Autopilot issue using the steps 
 * 500,000 RU/s  - **5 TB**  
 
 **Is autopilot supported on all APIs?**
-<br>Yes autopilot is supported on all the APIs – SQL , Mongo, Cassandra, Gremlin, Tables  
+<br>Yes autopilot is supported on all the APIs: SQL , Mongo, Cassandra, Gremlin, Tables  
  
 **Can autopilot be disabled on a container / database?**
 <br>Yes we allow customer to move the autopilot container to a manually provisioned containers. But migrating back to autopilot is not allowed.  
  
 **How much delay does autopilot have in reacting to a spike in traffic or traffic coming down?**
-<br>Autopilot is instantaneous in providing capacity within the RU range of 0.1 * max – max. Both the scale up and scale down are instantaneous. Billing is done at a hourly granularity where the max RUs in that billing windows is considered.
+<br>Autopilot is instantaneous in providing capacity within the RU range of 0.1 * max and max. Both the scale up and scale down are instantaneous. Billing is done at a hourly granularity where the max RUs in that billing windows is considered.
  
 **Is autopilot supported with multi-master accounts?**
 <br>Yes 
