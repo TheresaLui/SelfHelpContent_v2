@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "licensing/changing sql licensing model",
     "formElements": [
         {
