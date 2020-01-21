@@ -16,6 +16,7 @@
 # Support topic descriptions for Azure HDInsight
 ---
 {
+    "$schema": "SelfHelpContent",
     "shortDescription": "Issues with Azure HDInsight",
     "longDescription": "Common issues users encounter with Azure HDInsight",
     "productLink1": "https://docs.microsoft.com/en-us/azure/hdinsight/",
