@@ -4,21 +4,21 @@
   authors="mimig1"
   ms.author="mimig"
   selfhelptype="SupportTopicDescription"
-  productpesids="98134488-9bd9-db12-619c-06636d1ee55e"
+  productpesids="15078"
   cloudenvironments="public, blackforest, fairfax, mooncake"
-  articleid="bot-service-supporttopicdescription"
+  articleid="hdinsight-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="botsupport@microsoft.com" />
+  feedbackemail="mimig@microsoft.com" />
 # Support topic descriptions for Azure HDInsight
 ---
 {
   "$schema": "SelfHelpContent",
   "shortDescription": "Issues with Azure HDInsight",
   "longDescription": "Common issues users encounter with Azure HDInsight",
-  "productLink1": "https://docs.microsoft.com/en-us/azure/hdinsight/",
+  "productLink1": "https://docs.microsoft.com/azure/hdinsight/",
   "productLinkName1": null,
-  "productLink2": "https://docs.microsoft.com/en-us/azure/hdinsight/",
+  "productLink2": "https://docs.microsoft.com/azure/hdinsight/",
   "productLinkName2": null,
   "productLink3": "",
   "productLinkName3": null,
