@@ -1,8 +1,8 @@
 <properties 
     pageTitle="licensing/changing sql licensing model"
     description="licensing/changing sql licensing model"
-    authors="devva001"
-    ms.author="devva001"
+    authors="vadeveka"
+    ms.author="vadeveka"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32633500"
     productPesIds="14745"
