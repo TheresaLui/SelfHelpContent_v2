@@ -22,7 +22,8 @@ To request access for Just in Time (JIT), you need these permissions:
 * Contributor
 * Security Admin
 * Custom role:
-  * For the least permissive access, a custom role can be defined to allow only JIT Access request, while denying any other involvement in the subscription.
+
+  * For the least permissive access, a custom role can be defined to allow only JIT Access request, while denying any other involvement in the subscription
   * Custom roles definitions are described at [Manage virtual machine access using just-in-time](https://docs.microsoft.com/azure/security-center/security-center-just-in-time#permissions-needed-to-configure-and-use-jit)
 
 If you comply with all of the above, and still receive an error in the Activity Log, please continue creating the support request (providing the Activity Log JSON) and describe whether the request was initiated from the Security Center portal or from the virtual machine (VM) connect button.
@@ -107,8 +108,8 @@ The ASC recommendation *Just-In-Time network access control should be applied on
 For a VM to be eligible for JIT:
 
 * The subscription must be under Standard Pricing Tier. See [Pricing Page](https://azure.microsoft.com/pricing/details/security-center/) for more information.<br>
-* The VM is deployed through ARM. Classic VMs are not supported.<br>
-* NSG must exist on either VM or its subnet.
+* The VM is deployed through ARM. Classic VMs are not supported
+* NSG must exist on either VM or its subnet
 
 ## **Recommended Documents**
 
