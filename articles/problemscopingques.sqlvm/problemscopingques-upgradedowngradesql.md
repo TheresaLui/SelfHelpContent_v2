@@ -13,6 +13,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Upgrade-downgrade SQL Server Version/Edition",
     "fileAttachmentHint": null,
     "formElements": [
