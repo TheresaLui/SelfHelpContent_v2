@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_rca-vmmarketplaceinvalidinput-purchase-info-does-not-match"
 	diagnosticScenario="DeploymentFailure"

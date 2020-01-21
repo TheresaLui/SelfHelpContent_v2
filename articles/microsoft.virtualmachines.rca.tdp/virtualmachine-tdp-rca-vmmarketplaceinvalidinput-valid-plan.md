@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_rca-vmmarketplaceinvalidinput-valid-plan"
 	diagnosticScenario="DeploymentFailure"
@@ -49,4 +50,3 @@ To learn more about deploying an image with Marketplace terms and plan informato
 
 * To understand how to configure Marketplace plan information correctly,  [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#view-plan-properties) and [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#view-plan-properties)<br>
 * Learn more about how to set Marketplace plan information [via the ARM API](https://docs.microsoft.com/rest/api/compute/virtualmachines/createorupdate#plan)
-
