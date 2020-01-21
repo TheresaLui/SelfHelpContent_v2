@@ -32,19 +32,6 @@ If you received an *AuthorizationFailed* or a *GatewayAuthenticationFailed* erro
 
 NSG Flow Logs may take up to 5 minutes to appear in your storage account (if configured correctly). A PT1H.json will appear which can be accessed [as described here](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal#download-flow-log).
 
-* **Service Endpoints exist on your VNet**
-
-NSG Flow Logs does not work on NSGs with [Service endpoints](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview) enabled. If you had Service Endpoints on your Vnet or have recently added one, NSG Flow Log data will stop being captured.
-
-See [How do I use NSG Flow Logs with Service Endpoints?](https://docs.microsoft.com/azure/network-watcher/frequently-asked-questions#how-do-i-use-nsg-flow-logs-with-service-endpoints) for help.
-
-* **Storage account is behind a firewall**
-
-NSG Flow Logs cannot write to storage accounts behind a firewall. This issue is resolved by allowing "All networks" to access the storage account.
-
-See [How do I disable the firewall on my storage account?](https://docs.microsoft.com/azure/network-watcher/frequently-asked-questions#how-do-i-disable-the--firewall-on-my-storage-account) for help.
-
-
 * **No Traffic on your NSGs**
 
 Sometimes you will not see logs because your VMs are not active or there are upstream filters at an App Gateway or other devices that are blocking traffic to your NSGs.

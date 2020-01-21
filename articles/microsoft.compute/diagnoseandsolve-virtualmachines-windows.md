@@ -589,6 +589,10 @@ cloudEnvironments="public"
           {
             "name": "id",
             "value": "$resourceId"
+          },
+          {
+            "name": "resourceId",
+            "value": "$resourceId"
           }
         ]
       }
@@ -695,6 +699,10 @@ cloudEnvironments="public"
         "bladeName": "PerformanceDiagnosticsBlade",
         "parameters": [
           {
+            "name": "id",
+            "value": "$resourceId"
+          },
+	  {
             "name": "resourceId",
             "value": "$resourceId"
           }
