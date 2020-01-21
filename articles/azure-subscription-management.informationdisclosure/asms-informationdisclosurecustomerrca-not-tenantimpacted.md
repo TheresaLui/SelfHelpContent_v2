@@ -22,6 +22,10 @@
 
 Microsoft was notified of and mitigated an issue that was the result of a misconfigured network security group’s security rules which enabled the customer support database to be accessible to the internet.<br>
 
+<!--issueDescription-->
+Our internal scans have not identified that your support case data associated with your tenant or subscription was within the potentially exposed support information.<br>
+<!--/issueDescription-->
+
 We are notifying impacted customers via an email sent to Azure Active Directory (AAD) Global Admin(s), Technical Contact and or Account Admins and have notified affected subscriptions via [Service Health](https://docs.microsoft.com/azure/service-health/). If you did not receive a notification from one of these channels, then you are not affected by this issue.<br>
 
 If you are unsure, we recommend confirming with your **Global Admin** or **Tenant Contact** on your Tenant, or **Account Admin** on this subscription if they have been notified.<br>
