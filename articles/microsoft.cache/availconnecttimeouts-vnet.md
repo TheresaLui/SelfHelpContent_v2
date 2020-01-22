@@ -3,8 +3,8 @@
 	description="VNETs with Azure Cache For Redis"
 	service="microsoft.cache"
 	resource=""
-	authors="johnnygetHub"
-	ms.author="johnnyc"
+	authors="asasine"
+	ms.author="adsasine"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32690921"
@@ -16,7 +16,7 @@
 
 # VNETs with Azure Cache For Redis
 
-4 out of 5 customers resolved their Azure Cache For Redis issue using the below documents.<br>
+Azure Cache for Redis offers increased network security through virtual network support. Virtual networks allow your to isolate your cache endpoint from the internet.
 
 ## **Recommended Documents**
 
