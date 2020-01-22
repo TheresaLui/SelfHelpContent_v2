@@ -24,10 +24,6 @@ Microsoft was notified of and mitigated an issue that was the result of a miscon
 
 <!--issueDescription-->
 Our internal scans have identified that some support case data associated with your tenant or subscription was within the potentially exposed support information.<br>
-
-Based on your subscription ID, the following are the affected the Support Requests IDs that were exposed in this incident:<br>
-
-$SupportRequestIDS<br>
 <!--/issueDescription-->
 
 We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.
