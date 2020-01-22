@@ -18,7 +18,7 @@
 
 # Have I been impacted by an Information Disclosure?
 
-## We detected that some of your information was exposed
+## We detected that some of your information was exposed.
 
 Microsoft was notified of and mitigated an issue that was the result of a misconfigured network security group’s security rules which enabled an internal database used for support case analytics to be accessible to the internet.<br>
 
