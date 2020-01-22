@@ -23,7 +23,7 @@
 Be sure to validate that the [aliases](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition#find-the-property-alias) is correct and [effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects) are as expected.
 We do have some [policy known issues](https://github.com/Azure/azure-policy#known-issues), please be sure to take those into consideration when writing a custom policy.
 When troubleshooting a policy definition, it is important to have a deployed resource that you expect to compliant and one to be non-compliant. This way you can validate both cases.
-We always recommend starting with an “Audit” policy to get an assessment of where your environment is before having a strict enforcement.
+We always recommend starting with an "Audit" policy to get an assessment of where your environment is before having a strict enforcement.
 A good way to test your policy without effecting your environment is to use [Enforcement Mode](https://docs.microsoft.com/azure/governance/policy/concepts/assignment-structure#enforcement-mode) set to DoNotEnforce or Disabled at assignment time.
 
 * **You can get a list of policy samples in our documentation, Azure-policy GitHub Repo and Community Policy repo.**

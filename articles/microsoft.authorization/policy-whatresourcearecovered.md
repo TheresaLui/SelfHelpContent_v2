@@ -29,8 +29,8 @@ If an alias does not exist, create a support ticket.
 
 * **Is this a issue with Resource Remediation?**
 
-You can “auto-correct” resources using Azure Policy’s [remediate resources](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
-The [DeployIfNotExists](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources) effect cannot auto-remediate for delete. If you wish to have a “cannot delete” behavior, please use [resource locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources).
+You can "auto-correct" resources using Azure Policy’s [remediate resources](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
+The [DeployIfNotExists](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources) effect cannot auto-remediate for delete. If you wish to have a "cannot delete" behavior, please use [resource locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources).
 You can get a list of policy samples in [our documentation](https://docs.microsoft.com/azure/governance/policy/samples/allowed-locations), [Azure-policy GitHub Repo](https://github.com/Azure/azure-policy) and [Community Policy repo](https://github.com/Azure/Community-Policy). 
 
 ## **Recommended Documents**

@@ -18,15 +18,15 @@
 
 ## **Recommended Steps**
 
-**Is this a policy assignment issue?**
+* **Is this a policy assignment issue?**
 
 Please allow up to 30 minutes for a [policy assignment](https://docs.microsoft.com/azure/governance/policy/concepts/assignment-structure) to take into effect. You can log out and log back in which will trigger a cache refresh for a policy assignment to take into effect. You can assign a policy using the [Azure Portal](https://docs.microsoft.com/azure/governance/policy/assign-policy-portal), [PowerShell](https://docs.microsoft.com/azure/governance/policy/assign-policy-powershell), [Azure CLI](https://docs.microsoft.com/azure/governance/policy/assign-policy-azurecli) and [Azure Resource Manager template](https://docs.microsoft.com/azure/governance/policy/assign-policy-template).
 
-**Is this a parameter issue?**
+* **Is this a parameter issue?**
 
-Parameters within a policy assignment gives the values to those defined in the definition. More information about parameters can be found [here](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#parameters). To understand compliance results of a parameter better, please refer to this [documentation](https://docs.microsoft.com/en-us/azure/governance/policy/how-to/determine-non-compliance#compliance-details).
+Parameters within a policy assignment gives the values to those defined in the definition. More information about parameters can be found [here](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#parameters). To understand compliance results of a parameter better, please refer to this [documentation](https://docs.microsoft.com/azure/governance/policy/how-to/determine-non-compliance#compliance-details).
 
-**Is this a issue with assigning the policy definition cross-subscriptions?**
+* **Is this a issue with assigning the policy definition cross-subscriptions?**
 
 You can only assign policy definitions to a given scope or its children. For example, if you have Subscription A and B, policies defined in A can only be applied to A and resource groups/resources below. You cannot apply the definition to B. In order to assign definitions cross subscriptions, create the definition at a Management Group Level. For information on management groups, please refer [here](https://docs.microsoft.com/azure/governance/management-groups/overview).
 
