@@ -20,7 +20,9 @@
 
 ## We detected that information was not exposed
 
-Microsoft was notified of and mitigated an issue that was the result of a misconfigured network security group’s security rules which enabled the customer support database to be accessible to the internet.<br>
+Microsoft was notified of and mitigated an issue that was the result of a misconfigured network security group’s security rules which enabled an internal database used for support case analytics to be accessible to the internet.<br>
+
+Our analysis of the support information indicates that specific personal or organizational identifiable information related to your support case was potentially visible.<br>
 
 <!--issueDescription-->
 Our internal scans have not identified that your support case data associated with your tenant or subscription was within the potentially exposed support information.<br>
