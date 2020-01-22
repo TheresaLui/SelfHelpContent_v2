@@ -1,9 +1,9 @@
 <properties
     pageTitle="Use Ephemeral OS Disk VMs for more performance"
-    description="For frequent reimage operations, prefer IaaS VMs with Ephemeral OS Disk"
+    description="For frequent Reimage operations, prefer IaaS VMs with Ephemeral OS Disk option"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="9768be7c-ad70-4870-af7b-e814000a5743_Public"
+    articleId="6bd863c0-af9a-4426-bf9d-26a0ee94d4d7_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
@@ -11,15 +11,15 @@
 ---
 {
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "9768be7c-ad70-4870-af7b-e814000a5743",
+  "recommendationTypeId": "6bd863c0-af9a-4426-bf9d-26a0ee94d4d7",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://azcrp.kusto.windows.net').database('crp_allprod').EphemeralCreateVmStats",
+    "streamNamespace": "cluster('https://azcrp.kusto.windows.net').database('crp_allprod').DeleteTestFunction",
     "dataSource": "Kusto",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Compute/availabilitySets",
+  "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "EphemeralOsDisk",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
@@ -34,35 +34,21 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsku",
+  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/ephemeral-os-disks",
   "description": "Use Ephemeral OS Disk VMs for more performance",
-  "longDescription": "For frequent reimage operations, prefer IaaS VMs with Ephemeral OS Disk.",
-  "potentialBenefits": "Get notified when Azure finds it can optimize your VMs performance",
+  "longDescription": "For frequent Reimage operations, prefer IaaS VMs with Ephemeral OS Disk option",
+  "potentialBenefits": "This will improve VM Reimage duration to a great extend(around one half of duration taken by IaaS VM)",
   "actions": [
     {
-      "actionId": "f8db3c62-8ed7-48ea-b313-83c7224a5c47",
-      "description": "Create an Azure service health alert",
-      "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Monitoring",
-      "bladeName": "CreateVNextAlertRuleBlade",
-      "metadata": {
-        "ruleInputs": {
-          "signals": [
-            {
-              "subscription": "{subscriptionId}",
-              "signalType": "ServiceHealth",
-              "targetService": [],
-              "region": [],
-              "type": []
-            }
-          ]
-        }
-      }
+      "actionId": "20444076-b272-4435-ab58-c6f961255e11",
+      "description": "Transfer to using Ephemeral OS Disk",
+      "actionType": "Document",
+      "documentLink": "{externalLink}"
     }
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "da0fc147-5d91-4469-800a-3b621d41a8b2",
+      "actionId": "492cb098-5ab6-4f69-aaf8-67478a2f5429",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -71,13 +57,9 @@
       }
     }
   },
-  "displayLabel": "Create an Azure service health alert",
+  "displayLabel": "Use Ephemeral OS Disk",
   "additionalColumns": [],
-  "supportedSDKLanguages":[
-      ".Net",
-      "Java"
-  ]
-  "testData": "658c8950-e79d-4704-a903-1df66ba90258,/subscriptions/658c8950-e79d-4704-a903-1df66ba90258",
-  "tip": "You can create a service health alert to get notified when an Azure service issue affects you."
+  "testData": "9ff53016-3d9d-4e40-94b0-873871ac1b07,/subscriptions/9ff53016-3d9d-4e40-94b0-873871ac1b07/resourceGroups/TestEphmVmssRG-1/providers/Microsoft.Compute/virtualMachines/vmssteste_2",
+  "tip": "This will improve VM Reimage duration to a great extend(around one half of duration taken by IaaS VM)"
 }
 ---
