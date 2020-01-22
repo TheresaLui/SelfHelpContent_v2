@@ -4,7 +4,7 @@
 	authors="Sijia"
   ms.author="siz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681650,32681655"
+	supportTopicIds="32681650"
 	productPesIds="16460"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
@@ -55,16 +55,51 @@
             "required": true,
 	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
+	{
+            "id": "metrics_help",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Which metrics do you need help with",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "capacity",
+                    "text": "Capacity"
+                },
+                {
+                    "value": "availability",
+                    "text": "Availability"
+                },
+                {
+                    "value": "bandwidth",
+                    "text": "Bandwidth"
+                },
+		{
+                    "value": "latency",
+                    "text": ":Latency"
+                },
+		{
+                    "value": "transactions",
+                    "text": ":Transactions"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
