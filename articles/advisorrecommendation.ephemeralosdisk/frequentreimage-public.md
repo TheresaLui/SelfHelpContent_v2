@@ -34,7 +34,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/ephemeral-os-disks",
+  "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/ephemeral-os-disks",
   "description": "Use Ephemeral OS Disk VMs for more performance",
   "longDescription": "For frequent Reimage operations, prefer IaaS VMs with Ephemeral OS Disk option",
   "potentialBenefits": "This will improve VM Reimage duration to a great extend(around one half of duration taken by IaaS VM)",
@@ -59,7 +59,7 @@
   },
   "displayLabel": "Use Ephemeral OS Disk",
   "additionalColumns": [],
-  "testData": "9ff53016-3d9d-4e40-94b0-873871ac1b07,/subscriptions/9ff53016-3d9d-4e40-94b0-873871ac1b07/resourceGroups/TestEphmVmssRG-1/providers/Microsoft.Compute/virtualMachines/vmssteste_0",
+  "testData": "9ff53016-3d9d-4e40-94b0-873871ac1b07,/subscriptions/9ff53016-3d9d-4e40-94b0-873871ac1b07/resourceGroups/TestEphmVmssRG-1/providers/Microsoft.Compute/virtualMachines/vmssteste_0"	,
   "tip": "This will improve VM Reimage duration to a great extend(around one half of duration taken by IaaS VM)"
 }
 ---
