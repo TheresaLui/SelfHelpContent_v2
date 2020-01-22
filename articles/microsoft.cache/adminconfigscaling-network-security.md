@@ -5,7 +5,7 @@
 	resource="redis"
 	authors="asasine"
 	ms.author="adsasine"
-	displayOrder="12"
+	displayOrder="13"
 	selfHelpType="resource"
 	supportTopicIds="32690915"
 	resourceTags=""
