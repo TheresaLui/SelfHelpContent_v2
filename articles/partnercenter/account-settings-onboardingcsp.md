@@ -28,4 +28,3 @@ Documents related to onboarding to Cloud Solution Provider (CSP).
 * [Verify your account information](https://docs.microsoft.com/partner-center/verification-responses)
 * [New Microsoft Partner Agreement for Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/new-microsoft-cloud-agreement-csp#/)
 * [Overview to Cloud Solution Provider program](https://partner.microsoft.com/membership/cloud-solution-provider)
-
