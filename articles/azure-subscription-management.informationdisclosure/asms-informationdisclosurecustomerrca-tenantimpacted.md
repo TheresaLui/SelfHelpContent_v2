@@ -26,7 +26,7 @@ Microsoft was notified of and mitigated an issue that was the result of a miscon
 Our analysis of the support information indicates that specific personal or organizational identifiable information related to your support case was potentially visible.<br>
 <!--/issueDescription-->
 
-We recommend opening a support case to obtain the data that was exposed and reach out to your privacy professional to review the Information and provide guidance on your impact
+We recommend opening a support case to obtain the data that was exposed and reach out to your privacy professional to review the Information and provide guidance on your impact.
 
 We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.
 
