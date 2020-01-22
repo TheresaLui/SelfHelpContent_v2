@@ -1,28 +1,28 @@
 <properties
-	pageTitle="Data Loss with Azure Cache For Redis"
-	description="Data Loss with Azure Cache For Redis"
+	pageTitle="Diagnostic logs with Azure Cache for Redis"
+	description="Diagnostic logs with Azure Cache for Redis"
 	service="microsoft.cache"
 	resource=""
 	authors="johnnygetHub"
 	ms.author="johnnyc"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32690909"
+	supportTopicIds="32690910"
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
-	articleId="d9763801-01a0-449a-baf7-48af8bb288ee"
+	articleId="820d10c4-4455-4341-91be-c1d4a49d08b7"
 />
 
-# Data Loss with Azure Cache For Redis
+# Diagnostic logs with Azure Cache for Redis
 
-4 out of 5 customers resolved their Azure Cache For Redis issue using the below documents.<br>
+4 out of 5 customers resolved their Azure Cache for Redis issue using the below documents.<br>
 
 ## **Recommended Documents**
 
-* [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
 * [Best practices for Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
 * [Azure Cache for Redis description](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-overview)<br>
 * [Troubleshoot Azure Cache for Redis server-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
 * [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
-* [Troubleshoot Azure Cache for Redis timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)
+* [Troubleshoot Azure Cache for Redis timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
+* [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)

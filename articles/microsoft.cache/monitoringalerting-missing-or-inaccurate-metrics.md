@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Azure Advisor recommendation"
-	description="Azure Advisor recommendation"
+	pageTitle="Missing or inaccurate metrics with Azure Cache for Redis"
+	description="Missing or inaccurate metrics with Azure Cache for Redis"
 	service="microsoft.cache"
 	resource=""
 	authors="johnnygetHub"
 	ms.author="johnnyc"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32690904"
+	supportTopicIds="32690914"
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
-	articleId="dddd3e3e-0c0f-4dad-8c35-d989be56d96f"
+	articleId="b7b5f6ac-3701-4b11-b64b-a26bec857a0d"
 />
 
-# Azure Advisor recommendation
+# Missing or inaccurate metrics with Azure Cache for Redis
 
 4 out of 5 customers resolved their Azure Cache for Redis issue using the below documents.<br>
 
@@ -26,4 +26,3 @@
 * [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
 * [Troubleshoot Azure Cache for Redis timeouts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-timeouts)<br>
 * [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)
-

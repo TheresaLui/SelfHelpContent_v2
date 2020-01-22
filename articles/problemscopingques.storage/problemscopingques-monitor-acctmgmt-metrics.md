@@ -1,17 +1,17 @@
 <properties
-	pageTitle="Advisory questions - Blob, ADLS Gen2 - excluding metrics ST"
-	description="Advisory questions"
+	pageTitle="Account Management Monitoring metrics and advisory questions"
+	description="Account Management Monitoring metrics and advisory questions"
 	authors="Sijia"
-        ms.author="siz"
+  ms.author="siz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681424,32681422,32681425,32681657"
-	productPesIds="16459,16598"
+	supportTopicIds="32681644,32681663"
+	productPesIds="15629"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
-	articleId="c449c5cc-78a3-4ef0-88a0-3c4622437a24"
+	articleId="ce6db5c8-dca5-4f18-8208-32191fb8eab2"
 />
 
-# Monitoring - Advisory questions
+# Account Management Monitoring metrics and advisory questions
 ---
 {
     "subscriptionRequired": true,
@@ -36,10 +36,6 @@
                     "text": "Cost related question"
                 },
                 {
-                    "value": "container_capacity",
-                    "text": "Container capacity question"
-                },
-                {
                     "value": "log_retention",
                     "text": "Log retention question"
                 },
@@ -47,7 +43,42 @@
                     "value": "audit_action",
                     "text": "Action audit question"
                 },
-		 {
+		            {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "metrics_help",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Which metrics do you need help with",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "capacity",
+                    "text": "Capacity"
+                },
+                {
+                    "value": "availability",
+                    "text": "Availability"
+                },
+                {
+                    "value": "bandwidth",
+                    "text": "Bandwidth"
+                },
+		            {
+                    "value": "latency",
+                    "text": "Latency"
+                },
+		            {
+                    "value": "transactions",
+                    "text": "Transactions"
+                },
+		            {
                     "value": "dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
@@ -57,14 +88,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order":32,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
