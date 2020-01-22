@@ -72,11 +72,11 @@
                 },
 		            {
                     "value": "latency",
-                    "text": ":Latency"
+                    "text": "Latency"
                 },
 		            {
                     "value": "transactions",
-                    "text": ":Transactions"
+                    "text": "Transactions"
                 },
 		            {
                     "value": "dont_know_answer",
@@ -84,7 +84,7 @@
                 }
             ],
             "required": true,
-	          "diagnosticInputRequiredClients": "Portal,ASC"
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
