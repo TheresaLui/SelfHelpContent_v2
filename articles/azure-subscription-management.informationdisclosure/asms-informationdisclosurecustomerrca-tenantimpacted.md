@@ -18,15 +18,15 @@
 
 # Have I been impacted by an Information Disclosure?
 
-## We detected that some of your information was exposed
+## We detected that some of your information was exposed.
 
 Microsoft was notified of and mitigated an issue that was the result of a misconfigured network security group’s security rules which enabled an internal database used for support case analytics to be accessible to the internet.<br>
 
-Our analysis of the support information indicates that specific personal or organizational identifiable information related to your support case was potentially visible.<br>
-
 <!--issueDescription-->
-Our internal scans have identified that some support case data associated with your tenant or subscription was within the potentially exposed support information.<br>
+Our analysis of the support information indicates that specific personal or organizational identifiable information related to your support case was potentially visible.<br>
 <!--/issueDescription-->
+
+We recommend opening a support case to obtain the data that was exposed and reach out to your privacy professional to review the Information and provide guidance on your impact.
 
 We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.
 
