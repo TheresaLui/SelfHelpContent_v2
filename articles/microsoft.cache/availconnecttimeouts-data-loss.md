@@ -6,7 +6,7 @@
 	authors="asasine"
 	ms.author="adsasine"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32690909"
 	resourceTags=""
 	productPesIds="14783"
