@@ -2,7 +2,7 @@
 	pageTitle="Azure Advisor recommendation"
 	description="Azure Advisor recommendation"
 	service="microsoft.cache"
-	resource=""
+	resource="redis"
 	authors="asasine"
 	ms.author="adsasine"
 	displayOrder=""

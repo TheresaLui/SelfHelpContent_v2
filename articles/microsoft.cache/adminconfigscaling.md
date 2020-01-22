@@ -2,7 +2,7 @@
 	pageTitle="Administration, Configuration, and Scaling problems with Azure Cache for Redis"
 	description="Administration, Configuration, and Scaling problems with Azure Cache for Redis"
 	service="microsoft.cache"
-	resource=""
+	resource="redis"
 	authors="asasine"
 	ms.author="adsasine"
 	displayOrder=""

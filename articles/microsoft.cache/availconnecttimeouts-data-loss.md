@@ -2,7 +2,7 @@
 	pageTitle="Data Loss with Azure Cache For Redis"
 	description="Data Loss with Azure Cache For Redis"
 	service="microsoft.cache"
-	resource=""
+	resource="redis"
 	authors="asasine"
 	ms.author="adsasine"
 	displayOrder=""
