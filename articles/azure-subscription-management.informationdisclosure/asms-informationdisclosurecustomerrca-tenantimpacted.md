@@ -8,7 +8,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	articleId="asms-informationdisclosure-impacted"
-	diagnosticScenario="xxxx"
+	diagnosticScenario="YolkaPositiveInsight"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
