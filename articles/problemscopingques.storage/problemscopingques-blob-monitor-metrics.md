@@ -74,15 +74,15 @@
                     "value": "bandwidth",
                     "text": "Bandwidth"
                 },
-		            {
+		{
                     "value": "latency",
-                    "text": ":Latency"
+                    "text": "Latency"
                 },
-		            {
+		{
                     "value": "transactions",
-                    "text": ":Transactions"
+                    "text": "Transactions"
                 },
-		            {
+		{
                     "value": "dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
