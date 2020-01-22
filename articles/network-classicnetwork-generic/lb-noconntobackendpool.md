@@ -10,13 +10,13 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds="16098"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="8deb7553-0965-45d3-a66d-895655a50a6b"
 />
 
 # Azure Load Balancer backend pool connection issues
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 * Load balanced endpoints may not respond if the configure VMs for load balancing are detected as down
 * For Load Balancer Standard, an extensive set of metrics is available to check the health and status of Load Balancer resource. Please check the [Load Balancer metrics and Diagnostics](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics) to learn about the common troubleshooting guidance.<br>

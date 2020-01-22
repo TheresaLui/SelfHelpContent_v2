@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32688667"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax"
 	resourceTags="servers, databases"
 	articleId="sqldb-selfhelp-solutions-backuprestore-automatedbackups"
 />

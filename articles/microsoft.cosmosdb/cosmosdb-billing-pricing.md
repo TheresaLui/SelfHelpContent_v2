@@ -6,7 +6,7 @@
 	authors="rnagpal"
 	ms.author="rnagpal"
 	selfHelpType="generic"
-	supportTopicIds="32636791,32636806,32636826,32692544"
+	supportTopicIds="32636791,32636806,32636826"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake"

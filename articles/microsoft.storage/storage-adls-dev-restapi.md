@@ -29,6 +29,5 @@ Most customers resolve their REST API related issues with Azure Data Lake Gen2 S
 ### **Known Limitations with REST APIs for Azure Data Lake Gen2 Storage** 
 
 * [Azure Data Lake Storage Gen 2 Known issues](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues/)<br>
-* [Data Lake Gen2 Programming Interface is only partially supported](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-upgrade?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#programming-interfaces)<br>
 
 

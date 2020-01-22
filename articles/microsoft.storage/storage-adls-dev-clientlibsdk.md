@@ -38,9 +38,13 @@ Most customers resolve their SDK or Client library related queries with Azure Da
 * [Code Samples](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/storage/azure-storage-file-datalake/samples)<br>
 
 
+### **Azure Blob Storage for JavaScript** 
+- [Quickstart for JavaScript](https://www.npmjs.com/package/@azure/storage-file-datalake/v/12.0.0-preview.6/)<br>
+- [Code Samples](https://www.npmjs.com/package/@azure/storage-file-datalake/v/12.0.0-preview.6/)<br>
+
+
 ### **Azure Data Lake Gen2 Storage Known Limitations** 
 
 * [Azure Data Lake Storage Gen 2 Known issues](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues/)<br>
-* [Data Lake Gen2 Programming Interface is only partially supported](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-upgrade?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#programming-interfaces)<br>
 
 

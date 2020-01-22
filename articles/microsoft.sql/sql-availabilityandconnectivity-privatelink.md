@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32688848"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="sqldb-selfhelp-solutions-availabilityandconnectivity-privatelink"
 />
 

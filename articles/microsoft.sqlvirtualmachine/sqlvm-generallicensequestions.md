@@ -11,7 +11,7 @@
 	supportTopicIds="32633507"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 />
 
 # licensing/general questions

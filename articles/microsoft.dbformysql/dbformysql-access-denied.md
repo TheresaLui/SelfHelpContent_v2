@@ -21,7 +21,7 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 ## **Recommended Steps**
 
-An Access denied error can have many causes. Often the problem is related to the MySQL accounts that the server permits client programs to use when connecting. Mostly is because See the following document for better understanding.
+An Access denied error can have many causes. Often the problem is related to the MySQL accounts that the server permits client programs to use when connecting. Please check your recently account changes in MySQL. See the following document for better understanding.
 
 ## **Recommended Documents**
 
