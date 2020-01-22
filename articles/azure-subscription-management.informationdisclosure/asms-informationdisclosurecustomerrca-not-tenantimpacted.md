@@ -35,4 +35,4 @@ If you are unsure, we recommend confirming with your **Global Admin** or **Tenan
 We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.<br>
 
 ### Additional Information:
-* [For more information regarding Microsoft Policy](https://privacy.microsoft.com)
+* [For more information regarding Microsoft Privacy Policy](https://privacy.microsoft.com)
