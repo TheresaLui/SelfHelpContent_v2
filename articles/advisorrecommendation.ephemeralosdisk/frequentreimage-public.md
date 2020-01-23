@@ -15,7 +15,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://azcrp.kusto.windows.net').database('crp_allprod').DeleteTestFunction",
     "dataSource": "Kusto",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "0.23:55:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
