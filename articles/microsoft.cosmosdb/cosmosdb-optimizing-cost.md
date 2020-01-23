@@ -52,7 +52,7 @@ Azure Cosmos DB resources are charged based on the storage consumed(GB) and the 
 <br>Provisioned throughput with single write region costs $0.008/hour per 100 RU/s and provisioned throughput with multiple writable regions costs $0.016/per hour per 100 RU/s.   
 
 [Optimize cost with reserved capacity in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity)
-<br>Azure Cosmos DB reserved capacity can significantly reduce your Cosmos DB costs—up to 65 percent on regular prices with a one-year or three-year upfront commitment. Reserved capacity provides a billing discount and doesn't affect the runtime state of your Azure Cosmos DB resources.  
+<br>Azure Cosmos DB reserved capacity can significantly reduce your Cosmos DB costs up to 65 percent on regular prices with a one-year or three-year upfront commitment. Reserved capacity provides a billing discount and does not affect the runtime state of your Azure Cosmos DB resources.  
 
 [Create Azure Cosmos containers and databases in autopilot mode (Preview)](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autopilot)
 <br>Azure Cosmos DB allows you to provision throughput on your containers in either manual or autopilot mode. This article describes the benefits and use cases of autopilot mode. In addition to manual provisioning of throughput, you can now configure Azure cosmos containers in autopilot mode. Azure Cosmos containers and databases configured in autopilot mode will automatically and instantly scale the provisioned throughput based on your application needs without compromising the SLAs.  

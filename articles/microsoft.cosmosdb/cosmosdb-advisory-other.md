@@ -31,8 +31,8 @@ For additional information please see [Microsoft.Features](https://docs.microsof
 Azure Cosmos DB automatically takes a backup of your database every 4 hours and at any point of time, only the latest 2 backups are stored. However, if the container or database is deleted, Azure Cosmos DB retains the existing snapshots of a given container or database for 30 days.
 <br>We do have the option to increase the backups retention duration to help you customize.  
 There are some limits for the backups:
-* Backup can not be retained for more than 30 days
-* The number of backups can not be more than 25 at the same time
+* Backups cannot be retained for more than 30 days
+* The number of backups cannot be more than 25 at the same time
 * The minimum backup interval is 1 hour  
 
 
