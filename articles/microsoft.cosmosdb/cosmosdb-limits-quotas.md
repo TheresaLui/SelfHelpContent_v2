@@ -17,7 +17,7 @@
 
 # Limits in Azure Cosmos DB
 
-The below recommended document provides an overview of the limits in the Azure Cosmos DB service.
+The below recommended document provides an overview of the limits in the Azure Cosmos DB service. Most users are able to resolve their Limits case using the steps below.
 
 ## **Recommended Steps**
 
