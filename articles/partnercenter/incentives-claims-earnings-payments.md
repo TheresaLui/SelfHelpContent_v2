@@ -23,9 +23,9 @@ These resources explain how to view details of your past, pending, and upcoming 
 
 ## **Recommended Documents**
 
-* [Incentives co-op claims overview](https://docs.microsoft.com/en-us/partner-center/claims-overview)
-* [Create and manage an incentives claim](https://docs.microsoft.com/en-us/partner-center/create-incentives-claims)
-* [Core requirements for incentives co-op claims](https://docs.microsoft.com/en-us/partner-center/core-requirements)
+* [Incentives co-op claims overview](https://docs.microsoft.com/partner-center/claims-overview)
+* [Create and manage an incentives claim](https://docs.microsoft.com/partner-center/create-incentives-claims)
+* [Core requirements for incentives co-op claims](https://docs.microsoft.com/partner-center/core-requirements)
 * [Enroll in the program](https://support.microsoft.com/help/2938751/enroll-in-the-program)
 
 * [View your Incentives payments information](https://docs.microsoft.com/partner-center/understand-incentive-payouts)
