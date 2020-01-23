@@ -32,7 +32,7 @@ We are notifying impacted customers via an email sent to Azure Active Director
 
 If you are unsure, we recommend confirming with your **Global Admin** or **Tenant Contact** on your Tenant, or **Account Admin** on this subscription if they have been notified.<br>
 
-We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.
+We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.<br>
 
 ### Additional Information:
-[For more information regarding Microsoft Policy](https://privacy.microsoft.com)
+* [For more information regarding Microsoft Privacy Policy](https://privacy.microsoft.com)
