@@ -38,6 +38,7 @@ In the text box that shows the deployment to be submitted, search for "propertie
   "properties.desired": {
     "properties.desired": {
 ```
+
 ## **Recommended Steps**
 
 A recent change in the portal UI changed how module twin properties are set in a deployment. There is now a `Module Twin Property` field and `Module Twin Property Content` field.
@@ -57,6 +58,7 @@ change
     }
 }
 ```
+
 to 
 
 ```json
