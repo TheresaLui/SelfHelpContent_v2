@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32630454"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax"
     resourceTags="servers, databases"
 	articleId="7d57d34f-58d4-4f40-99e2-0dc8e40ab2b4"
 />

@@ -45,8 +45,8 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
-  "description": "Unused/Empty Azure Data Explorer clusters",
-  "longDescription": "This recommendation surfaces all Azure Data Explorer clusters which were provisioned more than 10 days ago from this recommendation generated date and found either completely empty or with no activity. The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
+  "description": "(PREVIEW) Unused/Empty Azure Data Explorer clusters",
+  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which were provisioned more than 10 days ago from this recommendation generated date and found either completely empty or with no activity. The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
   "potentialBenefits": "Optimize Azure spend",
   "actions": [
     {
@@ -76,8 +76,20 @@
     {
       "name": "instanceCount",
       "title": "Instance Count"
+    },
+	{
+      "name": "region",
+      "title": "Region"
+    },
+	{
+      "name": "vmSku",
+      "title": "VM SKU"
+    },
+	{
+      "name": "recGeneratedOn",
+      "title": "Generated On"
     }
   ],
-  "costSavingInfo": "Cost savings are estimated for a month in USD"
+  "costSavingInfo": "Cost savings are estimated for a year in USD"
 }
 ---

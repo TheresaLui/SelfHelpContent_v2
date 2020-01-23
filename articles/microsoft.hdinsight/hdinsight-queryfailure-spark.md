@@ -31,6 +31,7 @@
 * [Use extended Apache Spark History Server to debug and diagnose Apache Spark applications](https://docs.microsoft.com/azure/hdinsight/spark/apache-azure-spark-history-server)
 * [Debug Apache Spark applications locally or remotely on an HDInsight cluster with Azure Toolkit for IntelliJ through SSH](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-intellij-tool-debug-remotely-through-ssh)
 * [Apache Spark jobs run slowly when the Azure storage container contains many files](https://hdinsight.github.io/spark/spark-job-slowness-when-destination-folder-has-too-many-files)
+* [Known timeout issue with Anaconda version 4.7.11 and 4.7.12](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-python-package-installation#known-issue)
 
 ### **Solutions to common errors encountered**
 
