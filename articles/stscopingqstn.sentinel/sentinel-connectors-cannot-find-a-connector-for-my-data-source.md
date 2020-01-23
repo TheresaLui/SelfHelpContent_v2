@@ -16,6 +16,8 @@
 
 # Cannot find a connector for my data source
 
-Cannot find a connector for my data source
+If you need help finding a connector for your data source, the article [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) provides information about:
 
-- [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources)
+- [Data connection methods](https://docs.microsoft.com/azure/sentinel/connect-data-sources#data-connection-methods)
+- [Agent connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#agent-connection-options)
+- [Map data types with Azure Sentinel connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#map-data-types-with-azure-sentinel-connection-options)

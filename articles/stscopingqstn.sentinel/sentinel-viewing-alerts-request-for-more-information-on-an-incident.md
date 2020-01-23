@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Request for more information on an incident"
-    description="Request for more information on an incident"
+    pageTitle="How to investigate an incident"
+    description="How to investigate an incident"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,8 +14,9 @@
     articleId="sentinel-viewing-alerts-request-for-more-information-on-an-incident"
 />
 
-# Request for more information on an incident
+# How to investigate an incident
 
-Request for more information on an incident
+If you need help investigating an incident, the tutorial about how to [Investigate incidents with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases) provides information about:
 
-- [Investigate cases](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases)
+- [How to investigate incidents](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases#how-to-investigate-incidents)
+- [Use the investigation graph to deep dive](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases#use-the-investigation-graph-to-deep-dive)

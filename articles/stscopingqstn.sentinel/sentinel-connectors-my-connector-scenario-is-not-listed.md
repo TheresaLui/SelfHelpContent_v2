@@ -16,6 +16,8 @@
 
 # My connector scenario is not listed
 
-My connector scenario is not listed
+If you need help understanding why your connector scenario is not listed, the article [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) provides information about:
 
-- [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources)
+- [Data connection methods](https://docs.microsoft.com/azure/sentinel/connect-data-sources#data-connection-methods)
+- [Agent connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#agent-connection-options)
+- [Map data types with Azure Sentinel connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#map-data-types-with-azure-sentinel-connection-options)

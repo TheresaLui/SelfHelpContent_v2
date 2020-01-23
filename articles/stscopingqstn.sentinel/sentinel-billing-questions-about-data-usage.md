@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Questions about data usage"
-    description="Questions about data usage"
+    pageTitle="Understanding more about data usage"
+    description="Understanding more about data usage"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,10 +14,6 @@
     articleId="sentinel-billing-questions-about-data-usage"
 />
 
-# Questions about data usage
+# Understanding more about data usage
 
-Questions about data usage
-
-- [Azure sentinel](https://azure.microsoft.com/pricing/details/azure-sentinel/)
-
-- [Calculator](https://azure.microsoft.com/pricing/calculator/)
+If you want to better understand how data usage affects you, the article [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/) explains how the Azure Sentinel pricing model works and you can also use the [Calculator](https://azure.microsoft.com/pricing/calculator/) provided to better estimate your future costs

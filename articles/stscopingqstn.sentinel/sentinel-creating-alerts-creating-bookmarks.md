@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Creating Bookmarks"
-    description="Creating Bookmarks"
+    pageTitle="Trouble creating bookmarks"
+    description="Trouble creating bookmarks"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,8 +14,12 @@
     articleId="sentinel-creating-alerts-creating-bookmarks"
 />
 
-# Creating Bookmarks
+# Trouble creating bookmarks
 
-Creating Bookmarks
+If you need help creating bookmarks, the article [Keep track of data during hunting with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/bookmarks) provides information about:
 
-- [Bookmarks](https://docs.microsoft.com/azure/sentinel/bookmarks)
+- [Add a bookmark](https://docs.microsoft.com/azure/sentinel/bookmarks#add-a-bookmark)
+- [View and update bookmarks](https://docs.microsoft.com/azure/sentinel/bookmarks#view-and-update-bookmarks)
+- [Add bookmarks to a new or existing incident](https://docs.microsoft.com/azure/sentinel/bookmarks#add-bookmarks-to-a-new-or-existing-incident)
+- [View bookmarked data in logs](https://docs.microsoft.com/azure/sentinel/bookmarks#view-bookmarked-data-in-logs)
+- [Delete a bookmark](https://docs.microsoft.com/azure/sentinel/bookmarks#view-bookmarked-data-in-logs)

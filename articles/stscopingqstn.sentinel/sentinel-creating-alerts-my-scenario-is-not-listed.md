@@ -16,6 +16,7 @@
 
 # My scenario is not listed
 
-My scenario is not listed
+If you need help figuring out why your scenario is not listed, the tutorial about how to [Detect threats out-of-the-box](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in) provides information about: 
 
-- [Tutorial detect threats built in](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom)
+- [About out-of-the-box detections](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in#about-out-of-the-box-detections)
+- [Use out-of-the-box detections](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in#use-out-of-the-box-detections)

@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Questions about workbook customization"
-    description="Questions about workbook customization"
+    pageTitle="How do I customize workbooks"
+    description="How do I customize workbooks"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,8 +14,9 @@
     articleId="sentinel-displaying-data-questions-about-workbook-customization"
 />
 
-# Questions about workbook customization
+# How do I customize workbooks
 
-Questions about workbook customization
+If you need help customizing your workbooks, the article [How to query logs from Azure Monitor for VMs](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search) provides information about: 
 
-- [VM insights log search](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search)
+- [Map records](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search#map-records)
+- [Sample log searches](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search#sample-log-searches)

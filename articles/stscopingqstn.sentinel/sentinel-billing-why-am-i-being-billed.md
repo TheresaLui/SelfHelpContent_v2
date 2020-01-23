@@ -16,6 +16,4 @@
 
 # Why am I being billed
 
-Why am I being billed
-
-- [Pricing details](https://azure.microsoft.com/pricing/details/azure-sentinel/)
+If you want to better understand why you are being billed, the article [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/) provides information about Azure Sentinel related billing

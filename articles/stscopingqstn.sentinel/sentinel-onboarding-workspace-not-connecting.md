@@ -16,8 +16,13 @@
 
 # Workspace not connecting
 
-Workspace not connecting
+If you need help understanding why your workspace is not connecting, the article [On-board Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard) provides information about:
 
-- [Quickstart onboarding](https://docs.microsoft.com/azure/sentinel/quickstart-onboard)
+- [Enable Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard#enable-azure-sentinel)
+- [Connect data sources](https://docs.microsoft.com/azure/sentinel/quickstart-onboard#connect-data-sources)
 
-- [Roles](https://docs.microsoft.com/azure/sentinel/roles)
+and the article [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions) provides information about: 
+
+- [Roles and allowed actions](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions)
+- [Building custom RBAC roles](https://docs.microsoft.com/azure/sentinel/roles#building-custom-rbac-roles)
+- [Advanced RBAC on the data you store in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#advanced-rbac-on-the-data-you-store-in-azure-sentinel)
