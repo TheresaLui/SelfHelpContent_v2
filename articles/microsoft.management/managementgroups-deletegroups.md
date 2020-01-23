@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32609538"
 	productPesIds="16530"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public,fairfax,mooncake"
 />
 
 # Management group delete troubleshooting

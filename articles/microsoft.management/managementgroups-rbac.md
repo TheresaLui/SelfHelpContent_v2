@@ -9,14 +9,14 @@
 	selfHelpType="generic"
 	supportTopicIds="32609543,32609546,32609548,32609549,32609550 "
 	productPesIds="16530"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public,fairfax,mooncake"
 />
 
 # Management group troubleshooting Role Based Access Control (RBAC) Permissions
 
 ## Management groups Role Based Access Control (RBAC) troubleshooting
 
-Management groups are a hierarchial structure of groups that allow you to build a tree of inherited RBAC permissions. Having multiple tiers of inheritance can cause confusion and sometimes issues.  To help troubleshoot these items, we have listed some of the common issues reported with management group and RBAC Accesses.  
+Management groups are a hierarchical structure of groups that allow you to build a tree of inherited RBAC permissions. Having multiple tiers of inheritance can cause confusion and sometimes issues.  To help troubleshoot these items, we have listed some of the common issues reported with management group and RBAC Accesses.  
 
 - [I can't move or having trouble moving a subscription/ management group](#recommended-steps)
 - [What are inherited accesses and why is there someone able to see my resources](#inherited-access)
