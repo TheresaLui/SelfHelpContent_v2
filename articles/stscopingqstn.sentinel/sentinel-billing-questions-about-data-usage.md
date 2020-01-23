@@ -18,8 +18,6 @@
 
 Questions about data usage
 
-## **Recommended Documents**
+- [Azure sentinel](https://azure.microsoft.com/pricing/details/azure-sentinel/)
 
-- [Azure sentinel](https://azure.microsoft.com/en-us/pricing/details/azure-sentinel/)
-
-- [Calculator](https://azure.microsoft.com/en-us/pricing/calculator/)
+- [Calculator](https://azure.microsoft.com/pricing/calculator/)

@@ -18,8 +18,6 @@
 
 Alert or Incident is not triggering as expected
 
-## **Recommended Documents**
+- [Tutorial detect threats built in](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in)
 
-- [Tutorial detect threats built in](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-detect-threats-built-in)
-
-- [Tutorial detect threats custom](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-detect-threats-custom)
+- [Tutorial detect threats custom](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom)

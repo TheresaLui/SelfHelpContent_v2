@@ -18,6 +18,4 @@
 
 Enabling and configuring connectors
 
-## **Recommended Documents**
-
-- [Connect data sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
+- [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources)

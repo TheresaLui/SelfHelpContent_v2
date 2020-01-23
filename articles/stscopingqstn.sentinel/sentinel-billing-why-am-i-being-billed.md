@@ -18,6 +18,4 @@
 
 Why am I being billed
 
-## **Recommended Documents**
-
-MISSING
+- [Pricing details](https://azure.microsoft.com/pricing/details/azure-sentinel/)

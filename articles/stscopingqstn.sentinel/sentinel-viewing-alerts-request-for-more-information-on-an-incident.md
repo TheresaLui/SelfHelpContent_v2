@@ -18,6 +18,4 @@
 
 Request for more information on an incident
 
-## **Recommended Documents**
-
-- [Investigate cases](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-investigate-cases)
+- [Investigate cases](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases)

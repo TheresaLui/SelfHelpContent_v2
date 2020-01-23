@@ -18,6 +18,4 @@
 
 My scenario is not listed
 
-## **Recommended Documents**
-
-- [Quickstart onboarding](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)
+- [Quickstart onboarding](https://docs.microsoft.com/azure/sentinel/quickstart-onboard)

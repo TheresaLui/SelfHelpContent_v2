@@ -18,8 +18,6 @@
 
 Workspace not connecting
 
-## **Recommended Documents**
+- [Quickstart onboarding](https://docs.microsoft.com/azure/sentinel/quickstart-onboard)
 
-- [Quickstart onboarding](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)
-
-- [Roles](https://docs.microsoft.com/en-us/azure/sentinel/roles)
+- [Roles](https://docs.microsoft.com/azure/sentinel/roles)

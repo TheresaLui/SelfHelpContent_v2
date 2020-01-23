@@ -18,6 +18,4 @@
 
 Questions about alert rule best practices
 
-## **Recommended Documents**
-
-- [Tutorial detect threats custom](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-detect-threats-custom)
+- [Tutorial detect threats custom](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom)

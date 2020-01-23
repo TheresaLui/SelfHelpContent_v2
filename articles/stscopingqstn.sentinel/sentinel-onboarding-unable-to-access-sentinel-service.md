@@ -18,6 +18,4 @@
 
 Unable to access Sentinel service
 
-## **Recommended Documents**
-
-- [Roles](https://docs.microsoft.com/en-us/azure/sentinel/roles)
+- [Roles](https://docs.microsoft.com/azure/sentinel/roles)

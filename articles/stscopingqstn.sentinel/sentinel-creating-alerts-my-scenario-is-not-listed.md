@@ -18,6 +18,4 @@
 
 My scenario is not listed
 
-## **Recommended Documents**
-
-MISSING
+- [Tutorial detect threats built in](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom)

@@ -18,6 +18,4 @@
 
 My scenario is not listed
 
-## **Recommended Documents**
-
-- [Fusion](https://docs.microsoft.com/en-us/azure/sentinel/fusion)
+- [Fusion](https://docs.microsoft.com/azure/sentinel/fusion)

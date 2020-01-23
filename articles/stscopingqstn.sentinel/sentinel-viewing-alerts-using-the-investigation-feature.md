@@ -18,6 +18,4 @@
 
 Using the Investigation feature
 
-## **Recommended Documents**
-
-- [Tutorial investigate cases](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-investigate-cases#use-the-investigation-graph-to-deep-dive)
+- [Tutorial investigate cases](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases#use-the-investigation-graph-to-deep-dive)

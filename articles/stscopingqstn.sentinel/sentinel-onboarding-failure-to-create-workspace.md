@@ -18,6 +18,4 @@
 
 Failure to create workspace
 
-## **Recommended Documents**
-
-- [Quick create workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace)
+- [Quick create workspace](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)

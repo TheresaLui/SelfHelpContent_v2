@@ -18,6 +18,4 @@
 
 Unable to create an alert rule
 
-## **Recommended Documents**
-
-- [Roles and allowed actions](https://docs.microsoft.com/en-us/azure/sentinel/roles#roles-and-allowed-actions)
+- [Roles and allowed actions](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions)

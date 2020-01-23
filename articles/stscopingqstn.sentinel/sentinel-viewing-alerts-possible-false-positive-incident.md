@@ -18,6 +18,4 @@
 
 Possible false-positive incident
 
-## **Recommended Documents**
-
-MISSING
+- [Tutorial detect threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom)

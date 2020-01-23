@@ -18,6 +18,4 @@
 
 General question about my bill
 
-## **Recommended Documents**
-
-MISSING
+- [Pricing details](https://azure.microsoft.com/pricing/details/azure-sentinel/)

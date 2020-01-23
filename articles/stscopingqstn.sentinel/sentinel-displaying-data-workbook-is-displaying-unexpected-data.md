@@ -18,6 +18,4 @@
 
 Workbook is displaying unexpected data
 
-## **Recommended Documents**
-
-MISSING
+- [Use built-in workbooks](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#use-built-in-workbooks)

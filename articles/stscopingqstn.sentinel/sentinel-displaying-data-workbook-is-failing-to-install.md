@@ -18,8 +18,6 @@
 
 Workbook is failing to install
 
-## **Recommended Documents**
+- [Roles](https://docs.microsoft.com/azure/sentinel/roles)
 
-- [Roles](https://docs.microsoft.com/en-us/azure/sentinel/roles)
-
-- [VM insights workbooks](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/vminsights-workbooks)
+- [VM insights workbooks](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks)

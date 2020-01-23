@@ -18,6 +18,4 @@
 
 Creating Threat Hunting Queries
 
-## **Recommended Documents**
-
-- [Hunting](https://docs.microsoft.com/en-us/azure/sentinel/hunting)
+- [Hunting](https://docs.microsoft.com/azure/sentinel/hunting)

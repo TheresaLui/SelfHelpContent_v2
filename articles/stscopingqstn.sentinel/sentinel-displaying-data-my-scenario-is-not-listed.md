@@ -18,6 +18,4 @@
 
 My scenario is not listed
 
-## **Recommended Documents**
-
-- [VM insights overview](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/vminsights-overview)
+- [VM insights overview](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview)

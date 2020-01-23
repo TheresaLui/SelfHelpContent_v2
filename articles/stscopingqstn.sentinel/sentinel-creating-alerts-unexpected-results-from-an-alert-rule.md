@@ -18,6 +18,4 @@
 
 Unexpected results from an alert rule
 
-## **Recommended Documents**
-
-- [Tutorial monitor your data](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-monitor-your-data)
+- [Tutorial monitor your data](https://docs.microsoft.com/azure/sentinel/tutorial-monitor-your-data)

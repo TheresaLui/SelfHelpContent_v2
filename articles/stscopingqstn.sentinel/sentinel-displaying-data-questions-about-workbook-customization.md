@@ -18,6 +18,4 @@
 
 Questions about workbook customization
 
-## **Recommended Documents**
-
-- [VM insights log search](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/vminsights-log-search)
+- [VM insights log search](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search)

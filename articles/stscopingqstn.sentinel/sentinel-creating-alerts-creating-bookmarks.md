@@ -18,6 +18,4 @@
 
 Creating Bookmarks
 
-## **Recommended Documents**
-
-- [Bookmarks](https://docs.microsoft.com/en-us/azure/sentinel/bookmarks)
+- [Bookmarks](https://docs.microsoft.com/azure/sentinel/bookmarks)

@@ -18,6 +18,4 @@
 
 Creating or troubleshooting Playbooks
 
-## **Recommended Documents**
-
-- [Tutorial respond threats playbook](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-respond-threats-playbook)
+- [Tutorial respond threats playbook](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook)

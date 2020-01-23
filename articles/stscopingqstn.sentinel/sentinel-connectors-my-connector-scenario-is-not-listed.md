@@ -18,6 +18,4 @@
 
 My connector scenario is not listed
 
-## **Recommended Documents**
-
-- [Connect data sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
+- [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources)

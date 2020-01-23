@@ -18,6 +18,4 @@
 
 Unable to use Log Search
 
-## **Recommended Documents**
-
-- [Roles permissions security](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/roles-permissions-security)
+- [Roles permissions security](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security)
