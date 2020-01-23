@@ -25,7 +25,7 @@ Look for the specific limit or quota threshold and the appropriate way to raise 
 
 ### **Document size cannot exceed 2 MB**  
 Cosmos DB has a per document size limit of 2MB [Azure Cosmos DB Per-item limits.](https://docs.microsoft.com/azure/cosmos-db/concepts-limits#per-item-limits)  
-**Solution:** If your requirements need to exceed this, ti is recommended to split the document into multiple sub-documents and create a new field to link them together.  When retrieving, you would use a query to retrieve all documents that are linked together.  
+**Solution:** If your requirements need to exceed this, it is recommended to split the document into multiple sub-documents and create a new field to link them together.  When retrieving, you would use a query to retrieve all documents that are linked together.  
 
 
 
