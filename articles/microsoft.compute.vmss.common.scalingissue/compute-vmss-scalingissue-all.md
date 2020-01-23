@@ -18,6 +18,18 @@
 
 4 out of 5 customers resolved their VMSS issue using the below documents.<br>
 
+## Autoscale Best Practices
+
+* [Ensure the maximum and minimum values are different and have an adequate margin between them](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#ensure-the-maximum-and-minimum-values-are-different-and-have-an-adequate-margin-between-them)
+* [Manual scaling is reset by autoscale min and max](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#manual-scaling-is-reset-by-autoscale-min-and-max)
+* [Choose the appropriate statistic for your diagnostics metric](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#choose-the-appropriate-statistic-for-your-diagnostics-metric)
+* [Choose the thresholds carefully for all metric types](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#choose-the-thresholds-carefully-for-all-metric-types)
+* [Considerations for scaling threshold values for special metrics](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#considerations-for-scaling-threshold-values-for-special-metrics)
+* [Considerations for scaling when multiple profiles are configured in an autoscale setting](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#considerations-for-scaling-when-multiple-profiles-are-configured-in-an-autoscale-setting)
+* [Considerations for scaling when multiple rules are configured in a profile](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#considerations-for-scaling-when-multiple-rules-are-configured-in-a-profile)
+* [Always select a safe default instance count](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#always-select-a-safe-default-instance-count)
+* [Configure autoscale notifications](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-best-practices#configure-autoscale-notifications)
+
 ## **Recommended Documents**
 
 * [Frequently Asked Questions (FAQ) for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
