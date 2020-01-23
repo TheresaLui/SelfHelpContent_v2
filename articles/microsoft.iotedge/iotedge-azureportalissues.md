@@ -23,3 +23,42 @@ If you see a cloud image with a single blue raindrop, this happens when partiall
 1. Try clearing browser cache and cookies, then refresh the page
 1. Try restarting the browser
 
+# "An error occurred while submitting. Please try again." on Deployment creation
+
+You create a new deployment, the validations passes, but you see: "An error occurred while submitting. Please try again."
+
+In the text box that shows the deployment to be submitted, search for "properties.desired". If you see one or more module with duplicate "properties.desired" fields, that is the source of the error.
+
+*Example*
+```json
+"ModuleA": {
+  "properties.desired": {
+    "properties.desired": {
+```
+## **Recommended Steps**
+
+A recent change in the portal UI changed how module twin properties are set in a deployment. There is now a `Module Twin Property` field and `Module Twin Property Content` field.
+
+1. Select the "Modules" tab.
+1. Select the Module which had duplicate "properties.desired".
+1. Set "properties.desired" in `Module Twin Property` field.
+1. Remove "properties.desired" from `Module Twin Property Content` field. Example:
+
+change
+```json
+{
+  "properties.desired": {
+    "property1": "value1",
+    "property2": "value2"
+    }
+}
+```
+to 
+```json
+{
+  "property1": "value1",
+  "property2": "value2"
+}
+```
+
+Now you should be able to create the Deployment.
