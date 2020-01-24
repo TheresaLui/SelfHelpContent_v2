@@ -38,7 +38,7 @@ Most users are able to resolve their issue using the steps below.
 
 * Server's IP appears to be public and you can ping or connect using telnet:
 
-  * Connections to the Azure Database for MySQL server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mariadb/concepts-firewall-rules.
+  * Connections to the Azure Database for PostgreSQL server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules.
 
 ## **Recommended Documents**
 
