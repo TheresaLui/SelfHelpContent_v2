@@ -29,7 +29,7 @@ The _version.py file on the cluster was updated to 5.x.x instead of 4.4.x.##.
 
 **Solution**
 
-If you create a new Jupyter notebook and receive on of the following errors, do the following:
+If you create a new Jupyter notebook and receive on of the errors listed above, do the following:
 
 1. Open Ambari in a web browser by going to https://CLUSTERNAME.azurehdinsight.net, where CLUSTERNAME is the name of your cluster.
 1. In Ambari, on the left menu, click **Jupyter**, then on **Service Actions**, click **Stop**.
