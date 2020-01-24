@@ -25,8 +25,4 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Steps**
 
-* To restore access to the VM, follow the steps in the [VM is stuck on shutdown - Restarting]() troubleshooting guide
-
-## **Recommended Documents**
-
-
+* To restore access to the VM, follow the steps in the [VM is stuck on shutdown - Restarting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot-windows) troubleshooting guide
