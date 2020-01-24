@@ -39,12 +39,12 @@ In the text box that shows the deployment to be submitted, search for "propertie
     "properties.desired": {
 ```
 
-A recent change in the portal UI changed how module twin properties are set in a deployment. There is now a `Module Twin Property` field and `Module Twin Property Content` field.
+A recent change in the portal UI changed how module twin properties are set in a deployment. There is now a "Module Twin Property" field and "Module Twin Property Content" field.
 
 1. Select the "Modules" tab.
 1. Select the Module which had duplicate "properties.desired".
-1. Check that the correct value is set `Module Twin Property` field.
-1. Remove "properties.desired" from `Module Twin Property Content` field. Example:
+1. Check that the correct value is set "Module Twin Property" field.
+1. Remove "properties.desired" from "Module Twin Property Content" field. Example:
 
 *❌Incorrect*
 
