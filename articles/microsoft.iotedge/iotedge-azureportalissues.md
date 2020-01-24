@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-### Cloud image with a single blue raindrop
+### **Cloud image with a single blue raindrop**
 
 If you see a cloud image with a single blue raindrop, this happens when partially cached version of page is being rendered in the browser. 
 
@@ -25,7 +25,7 @@ If you see a cloud image with a single blue raindrop, this happens when partiall
 1. Try clearing browser cache and cookies, then refresh the page
 1. Try restarting the browser
 
-### "An error occurred while submitting. Please try again." on Deployment creation
+### **"An error occurred while submitting. Please try again." on Deployment creation**
 
 You create a new deployment, the validations passes, but you see: "An error occurred while submitting. Please try again."
 
