@@ -29,11 +29,11 @@ The _version.py file on the cluster was updated to 5.x.x instead of 4.4.x.##.
 
 **Solution**
 
-If you create a new Jupyter notebook and receive on of the errors listed above, do the following:
+If you create a new Jupyter notebook and receive one of the errors listed above, do the following:
 
 1. Open Ambari in a web browser by going to https://CLUSTERNAME.azurehdinsight.net, where CLUSTERNAME is the name of your cluster.
 1. In Ambari, on the left menu, click **Jupyter**, then on **Service Actions**, click **Stop**.
-1. ssh into the cluster headnode where jupyter service is running.
+1. ssh into the cluster headnode where the Jupyter service is running.
 1. Open the following file /usr/bin/anaconda/lib/python2.7/site-packages/nbformat/_version.py in sudo mode.
 1. The existing entry should show something similar to the following: 
 
