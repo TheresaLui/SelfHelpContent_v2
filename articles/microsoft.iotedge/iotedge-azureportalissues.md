@@ -31,7 +31,7 @@ You create a new deployment, the validations passes, but you see: "An error occu
 
 In the text box that shows the deployment to be submitted, search for "properties.desired". If you see one or more module with duplicate "properties.desired" fields, that is the source of the error.
 
-*:x: Example of the problem*
+*❌Example of the problem*
 
 ```
 "ModuleA": {
@@ -46,7 +46,7 @@ A recent change in the portal UI changed how module twin properties are set in a
 1. Check that the correct value is set `Module Twin Property` field.
 1. Remove "properties.desired" from `Module Twin Property Content` field. Example:
 
-*:x: Incorrect*
+*❌Incorrect*
 
 ```
 {
@@ -57,7 +57,7 @@ A recent change in the portal UI changed how module twin properties are set in a
 }
 ```
 
-*:white_check_mark: Correct*
+*✅Correct*
 
 ```
 {
