@@ -13,9 +13,15 @@
 # Deploy a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "I need guidance deploying with managed disks",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine deployment diagnostics",
+            "description": "These diagnostics will check for details about your selected deployment failure.",
+            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
             "id": "resourceGroup",
@@ -40,7 +46,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "correlationId",
@@ -59,7 +66,8 @@
                     "value": "Deployment failure not found.",
                     "text": "Deployment failure not found."
                 },
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "valuePropertyRegex": "[^/]+$"
             },
             "dropdownOptions": [
                 {
@@ -68,7 +76,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "deployment_item",
@@ -153,6 +162,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

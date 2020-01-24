@@ -262,7 +262,8 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
 

@@ -15,18 +15,22 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
- 
-# **ExpressRoute NAT Translation Count is Too High**
 
-'**<!--$Message--> [Message] <!--/$Message-->**'  </br>
-ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>
-MSEE: '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' </br>
-VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
- 
+# **ExpressRoute NAT Translation Count is Too High**
+<!--/issueDescription-->
+
+* '**<!--$Message--> [Message] <!--/$Message-->**'  </br>
+* ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>
+* MSEE: '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' </br>
+* VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
+
+<!--/issueDescription-->
+
 ## **Recommended Steps**
 
 * Use the **Run Show Command** Jarvis Actions operation to run: **'sh ip nat statistics'** on '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'  to obtain NAT counters
 
 
 ## **Recommended Documents**
+
 * [ExpressRoute NAT requirements](https://docs.microsoft.com/azure/expressroute/expressroute-nat)

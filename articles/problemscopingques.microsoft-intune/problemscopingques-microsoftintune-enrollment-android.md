@@ -212,6 +212,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

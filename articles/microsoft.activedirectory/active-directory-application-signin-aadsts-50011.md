@@ -4,8 +4,8 @@
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
-    authors="asbh"
-    ms.author="asbh"
+    authors="luleon"
+    ms.author="luleon"
     displayOrder="1"
     articleId="Application_SignIn_ADSTS_50011"
     diagnosticScenario="EnterpriseApps"
@@ -17,16 +17,9 @@
 />
 
 # Configuration issue preventing user sign-in
+<!--issueDescription-->
+The AssertionConsumerServiceURL value in the SAML request doesn't match the Reply URL value or pattern configured in Azure AD. The AssertionConsumerServiceURL value in the SAML request is the URL you see in the error. 
+<!--/issueDescription-->
 
-The Authentication request (SAML request) that you are sending does not have the correct reply URL. This will prevent any user from accessing this application.
-
-In order to enable user sign-in for this application, please follow the steps below:
-
-1. Sign in to the [Azure Portal](https://portal.azure.com/) as a global administrator (or any role with permissions to manage this application)
-2. Select **Azure Active Directory** and go the "Enterprise applications" blade. Search for the application for which you want to enable federated single sign-on.
-3. Click on the application name to open it, then click "Single Sign-On" in the application's left-hand navigation menu
-4. Within the Basic SAML Configuration, click the edit pencil and update or enter the appropriate Reply URL (Assertion Consumer Service URL), then click Save
-
-Your application should now be available for user sign-in.
-
-For more information on common application-related issues, please refer to the following document: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/$AppSignInErrorHelpPage-->
+## **Recommended Steps**
+Follow the steps documented [here](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery#the-reply-address-does-not-match-the-reply-addresses-configured-for-the-application).

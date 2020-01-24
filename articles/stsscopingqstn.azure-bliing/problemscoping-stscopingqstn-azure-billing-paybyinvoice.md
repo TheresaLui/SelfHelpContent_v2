@@ -25,9 +25,9 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": [
-		{
-		    "text": "Enter the following information"
-		},
+                {
+                    "text": "Enter the following information"
+                },
                 {
                     "text": "Company name"
                 },
@@ -46,6 +46,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

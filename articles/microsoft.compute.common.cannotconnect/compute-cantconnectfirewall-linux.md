@@ -1,17 +1,17 @@
 <properties  
-              pageTitle="Troubleshoot my VM firewall"
-              description="Troubleshoot my VM firewall"
-              service=""
-              resource=""
-              authors="scottAzure,timbasham"
-              ms.author="scotro,tibasham"
-              displayOrder=""
-              selfHelpType="generic"
-              supportTopicIds="32615534"
-              resourceTags=""
-              productPesIds="15571,15797,16454,16470"
-              cloudEnvironments="public"
-              articleId="9300d912-0a92-4150-b9e2-e7c2461f54a9"
+    pageTitle="Troubleshoot my VM firewall"
+    description="Troubleshoot my VM firewall"
+    service=""
+    resource=""
+    authors="scottAzure,timbasham"
+    ms.author="scotro,tibasham"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32615534,32639648"
+    resourceTags=""
+    productPesIds="15571,15797,16454,16470,16342"
+    cloudEnvironments="public"
+    articleId="9300d912-0a92-4150-b9e2-e7c2461f54a9"
 />
 
 # Troubleshoot my VM firewall
@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-* Use the [Serial Console blade](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) to gain access to your VM and edit firewall rules
+* Use the [Serial Console blade](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) to gain access to your VM and edit firewall rules
 
 ## **Recommended Documents**
 

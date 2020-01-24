@@ -21,3 +21,6 @@ Azure Stream Analytics jobs can be easily created from Azure Portal. To learn mo
 ## **Recommended Documents**
 
 * [Create a job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal#create-a-stream-analytics-job)<br>
+* [List of supported streaming input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-inputs)
+* [List of supported reference data input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-use-reference-data)
+* [List of supported outputs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-outputs)

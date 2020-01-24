@@ -5,8 +5,8 @@
 	authors="radwiv"
         ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32591158"
-	productPesIds="16094"
+	supportTopicIds="32591158,32584882"
+	productPesIds="16094,15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 />
@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Site-to-site connectivity issues",
     "fileAttachmentHint": "Upload your VPN configuration file. Make sure you edit or remove any pre-shared keys or secrets from the file",
     "formElements": [
@@ -120,8 +121,8 @@
                     "text": "WatchGuard"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -154,8 +155,8 @@
                     "text": "Latency"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -164,7 +165,7 @@
             "id": "source_dest_IP_address",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide source and destination IP addresses (on-premise and/or VNet IP addresses)",
+            "displayLabel": "Provide source and destination IP addresses (on-premises and/or VNet IP addresses)",
             "required": false,
             "useAsAdditionalDetails": false
         },
@@ -172,9 +173,9 @@
             "id": "onprem_config_script",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Did you use on-premise device configuration script?",
+            "displayLabel": "Did you use on-premises device configuration script?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "See <a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript'> here</a> for downloading on-premise device configuration script.",
+            "infoBalloonText": "See <a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript'> here</a> for downloading on-premises device configuration script.",
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -207,6 +208,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -7,13 +7,13 @@
 	authors="raprasad"
 	ms.author="raprasad"
 	displayOrder=""
-	articleId=""
+	articleId="5e0d7e9b-f7f7-4545-b8cf-a8dbb2a118e8"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32602884"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public,Mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Storage account management General Advisory

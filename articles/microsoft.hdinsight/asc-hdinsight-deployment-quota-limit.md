@@ -10,15 +10,16 @@
     articleId="Hdi_Crud_ExceededDeploymentQuota"
     diagnosticScenario="HDInsightExceededDeploymentQuotaInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629125, 32629032"
+    supportTopicIds="32681543"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 You have reached the limit on the maximum number of deployments allowed per resource group. Current deployment quota is <!--$DeploymentQuota-->[DeploymentQuota]<!--/$DeploymentQuota-->. Please delete deployments that are no longer needed from the deployment history of resource group '<!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup-->' to resolve the issue. 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -32,19 +33,15 @@ You can clean up the deployment history using one of the following methods:
 
 ### Delete deployments using PowerShell
 
-1. Open PowerShell
-2. Login to the subscription and run the following:
-
-```
-Get-AzureRmResourceGroupDeployment -ResourceGroupName <!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup--> |  Where-Object {$_.DeploymentName -like "*parentdeployment*" -or $_.DeploymentName -like "*subdeployment*"} | Where-Object {$_.Timestamp -lt (get-date).AddDays(-5)} | Where-Object {$_.ProvisioningState -like "Succeeded"} | Remove-AzureRmResourceGroupDeployment -ResourceGroupName <!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup--> -Name { $_.DeploymentName } -ErrorAction SilentlyContinue
-```
+Refer to the [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/) documentation.
 
 ### Periodic deletion using Runbook
 
-You can also setup a scheduled [Runbook within Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks) to execute a PowerShell script to periodically clean out the stored Resource Group Deployments. Refer to the [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/) documentation for more information.
+You can also setup a scheduled [Runbook within Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks) to execute a PowerShell script to periodically clean out the stored Resource Group Deployments.
 
 ## **Recommended Documents**
 
+* [What can I do when cluster provisioning fails because of a capacity issue?](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#what-can-i-do-when-cluster-provisioning-fails-because-of-a-capacity-issue)
 * [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/)
 * [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/)
 * [Start a runbook in Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks)

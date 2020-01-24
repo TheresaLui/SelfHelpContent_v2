@@ -5,7 +5,7 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635179, 32635209, 32635226, 32635227, 32635228, 32635229, 32635230, 32635231"
+	supportTopicIds="32635179, 32635209"
 	productPesIds="15818"
 	displayOrder="40"
 	selfHelpType="resource"

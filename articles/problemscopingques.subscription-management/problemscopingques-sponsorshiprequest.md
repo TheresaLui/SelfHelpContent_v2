@@ -53,7 +53,7 @@
             "controlType": "textbox",
             "displayLabel": " Provide the email ID approved for sponsorship",
             "watermarkText": "Provide the email ID approved for sponsorship",
-            "required": true
+            "required": false
         },
         {
             "id": "sponsorship_details2",
@@ -71,7 +71,7 @@
             "controlType": "datetimepicker",
             "displayLabel": " Start Date of the sponsorship",
             "watermarkText": "Provide the start date of the sponsorship",
-            "required": true
+            "required": false
         },
         {
             "id": "sponsorship_details4",
@@ -80,7 +80,7 @@
             "controlType": "datetimepicker",
             "displayLabel": " End Date of the sponsorship",
             "watermarkText": "Provide the end date of the sponsorship",
-            "required": true
+            "required": false
         },
         {
             "id": "sponsorship_details5",
@@ -89,7 +89,7 @@
             "controlType": "textbox",
             "displayLabel": " Total monetary credit of the Sponsorship offered",
             "watermarkText": "Provide the total monetary credit of the Sponsorship offered",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -112,8 +112,9 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details (if any)",
             "watermarkText": "Provide additional details (if any)",
-            "required": true
+            "required": false
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

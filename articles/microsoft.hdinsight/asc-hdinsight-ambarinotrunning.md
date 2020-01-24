@@ -1,7 +1,7 @@
 <properties
     ms.author="v-anreg"
     pageTitle="Ambari service not running"
-    description="AmbariPortalIssue"
+    description="Ambari Service Issue"
     infoBubbleText="Ambari service is not running. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
@@ -10,17 +10,18 @@
     articleId="Hdi_Ambari_ServerNotRunning"
     diagnosticScenario="HDInsightAmbariServerNotRunningInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32628984, 32629005, 32629006"
+    supportTopicIds="32636419"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Ambari Service is not running
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is not running Ambari server.
-Ambari server has to run on the **headnodehost** to display any metrics.
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is not running Ambari server. Ambari server has to run on the **headnodehost** to display any metrics.
 <!--/issueDescription-->
 
 In an HDInsight cluster, the **headnodehost** is the default headnode on which Ambari server is started. All Ambari agents in the cluster will send heartbeats to the **headnodehost**.
@@ -31,7 +32,7 @@ Since the **headnodehost** is not running Ambari server, it cannot display the c
 1. You can connect to Ambari service using Secure Shell (SSH): `ssh \<clustername>\-ssh.azurehdinsight.net`
 2. Run the following command to open host file /etc/host on one of the headnodes using Vi: `vi /etc/hosts/`
 3. Look up for the headnode which has **headnodehost** mentioned next to it to verify that this headnode is the active node <br>
-4. Run the following command to start Ambari service on the **headnodehost**: `sudo ambari-server start`
+4. Run the following command to start Ambari service on the **headnodehost**: `sudo systemctl start ambari-server`
 
 ## **Recommended Documents**
 

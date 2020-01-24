@@ -186,6 +186,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

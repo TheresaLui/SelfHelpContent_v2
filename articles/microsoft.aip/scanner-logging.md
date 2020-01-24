@@ -29,6 +29,7 @@
 * [Change the local logging level for the scanner](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-customizations#change-the-local-logging-level)<br>
 * [Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
 * [Run a discovery cycle and view reports for the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#run-a-discovery-cycle-and-view-reports-for-the-scanner)<br>
+* [Central reporting for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/reports-aip)<br>
 * [Install-AIPScanner Overview](https://docs.microsoft.com/powershell/module/azureinformationprotection/install-aipscanner?view=azureipps)<br>
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)

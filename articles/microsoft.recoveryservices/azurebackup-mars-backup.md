@@ -26,3 +26,13 @@
 - [Scheduled backup fails, but manual backup works](https://aka.ms/ScheduledBackupFailManualWorks) <br>
 - Ensure your OS has the latest updates <br>
 - [Troubleshooting common Azure Backup agent issues](https://aka.ms/AB-AA4dp4y)
+
+## **Recommended Documents**
+
+- [Invalid vault credentials provided](https://aka.ms/AB-AA4dwts)<br>
+- [Failed to download the vault credential file](https://aka.ms/AAB-unable-to-download-vault-credential-file)<br>
+- [The Microsoft Azure Recovery Service Agent was unable to connect to Microsoft Azure Backup](https://aka.ms/AB-AA4dy33)<br>
+- [(407) Proxy Authentication Required](https://aka.ms/AB-AA4dy33)<br>
+- [Failed to set the encryption key for secure backup](https://aka.ms/AB-AA4dp56)<br>
+- [Activation did not succeed completely but the encryption passphrase was saved to the following file](https://aka.ms/AB-AA4dp56)<br>
+- [Encryption passphrase not correctly configured](https://aka.ms/AB-AA4dwto)

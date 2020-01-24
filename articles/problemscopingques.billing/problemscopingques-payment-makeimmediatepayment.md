@@ -27,11 +27,10 @@
         },
         {
             "id": "subscriptionid_details",
-            "order": 2,
+            "order": 7,
             "controlType": "textbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription ID",
+            "watermarkText": "Provide your Subscription id",
             "required": true
         },
         {
@@ -63,7 +62,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Invoice ID related to the issue",
             "watermarkText": "Provide your Invoice ID related to the issue",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -74,6 +73,7 @@
             "watermarkText": "Provide the reason for immediate payment",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

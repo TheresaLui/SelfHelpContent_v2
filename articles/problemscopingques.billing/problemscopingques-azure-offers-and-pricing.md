@@ -13,38 +13,40 @@
 # Azure Offers and Pricing
 ---
 {
-	"resourceRequired": false,
-	"title": "Azure Offers and Pricing",
-	"fileAttachmentHint": "",
-	"formElements": [
-  {
-      "id": "problem_start_time",
-      "visibility": null,
-      "order": 1,
-      "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-  },
-  {
-			"id": "problem_description",
-			"order": 2,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide details about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Describe your problem, providing as much detail as possible."
-				}
-			]
-		}
-	]
+    "resourceRequired": false,
+    "title": "Azure Offers and Pricing",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "visibility": null,
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide details about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Describe your problem, providing as much detail as possible."
+                }
+            ]
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

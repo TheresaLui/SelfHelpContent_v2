@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -40,6 +41,10 @@
                     "text": "SQL database"
                 },
                 {
+                    "value": "Cosmos DB",
+                    "text": "Cosmos DB"
+                },
+                {
                     "value": "SUSE Software",
                     "text": "SUSE Software"
                 },
@@ -51,35 +56,88 @@
             "required": true
         },
         {
-            "id": "reservationorderid_details",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Reservation Order ID",
-            "watermarkText": "Provide your Reservation Order id",
+            "id": "reservationOrderId",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Reservation Order ID",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
+                "jTokenPath": "value",
+                "textProperty": "properties.displayName,name",
+                "textTemplate": "{properties.displayName} : {name}",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of reservations",
+                    "text": "Unable to retrieve list of reservations"
+                }
+            ],
+            "useAsAdditionalDetails": false,
             "required": true
         },
         {
-            "id": "reservationid_details",
-            "order": 4,
+            "id": "Reservationid",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Reservation ID",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/providers/Microsoft.Capacity/reservationOrders/{replaceWithParentValue}/reservations?api-version=2017-11-01",
+                "jTokenPath": "value",
+                "dependsOn": "reservationOrderId",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+		"valuePropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Other",
+                    "text": "Please enter the Reservation ID below"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true,
+            "visibility": "reservationOrderId != null"
+        },
+        {
+            "id": "reservationorderid_details",
+            "order": 3,
+            "visibility": "Reservationid == Other",
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-	    "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide any additional information about your issue",
             "required": true,
             "hints": [
                 {
-                    "text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
+                    "text": "Returns and exchanges can be done via self-service option directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
+                },
+                {
+                    "text": "Learn more - <a href='https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund'>Self-service exchanges and refunds for azure reservations</a>."
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

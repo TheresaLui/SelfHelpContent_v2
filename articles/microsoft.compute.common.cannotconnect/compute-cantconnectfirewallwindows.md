@@ -1,17 +1,17 @@
 <properties  
-              pageTitle="Troubleshoot my VM firewall"
-              description="Troubleshoot my VM firewall"
-              service=""
-              resource=""
-              authors="scottAzure,timbasham"
-              ms.author="scotro,tibasham"
-              displayOrder=""
-              selfHelpType="generic"
-              supportTopicIds="32615534"
-              resourceTags=""
-              productPesIds="14749"
-              cloudEnvironments="public"
-	articleId="72a1d281-9123-421c-9cf6-90fed2618648"
+    pageTitle="Troubleshoot my VM firewall"
+    description="Troubleshoot my VM firewall"
+    service=""
+    resource=""
+    authors="scottAzure,timbasham"
+    ms.author="scotro,tibasham"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32615534,32639648"
+    resourceTags=""
+    productPesIds="14749,14745"
+    cloudEnvironments="public"
+    articleId="72a1d281-9123-421c-9cf6-90fed2618648"
 />
 
 # Troubleshoot my VM firewall
@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) and open a CMD instance to query the current status.<br>
+Use [Serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) and open a CMD instance to query the current status.<br>
 
 1. Query the firewall rules using any of the following methods:
 

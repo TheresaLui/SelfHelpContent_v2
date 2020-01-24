@@ -12,12 +12,13 @@ diagnosticScenario="NonGRS account cannot failover"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 />
 
 # Non-GRS account cannot failover
 
 <!--issueDescription-->
 Account failover is supported for new and existing Azure Resource Manager storage accounts that are configured for RA-GRS and GRS. Storage accounts may be general-purpose v1 (GPv1), general-purpose v2 (GPv2), or Blob storage accounts.  
-To understand the implications of account failover and learn more about the feature, please see [Disaster recovery and account failover in Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance).
 <!--/issueDescription-->
+
+To understand the implications of account failover and learn more about the feature, please see [Disaster recovery and account failover in Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance).

@@ -26,3 +26,4 @@
 * [Understanding the schema and parameters](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-linux#extension-schema)<br>
 * [Overview of Azure Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)<br>
 * [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux#azure-portal)
+* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)

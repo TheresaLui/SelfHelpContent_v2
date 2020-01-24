@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Unable to establish connection to server."
-    description="Unable to establish connection to server."
-    infoBubbleText="Unable to establish connection to server."
+    pageTitle="Unable to establish connection to server. Unable to establish connection to server."
+    description="Unable to establish connection to server. Unable to establish connection to server."
+    infoBubbleText="Unable to establish connection to server. Unable to establish connection to server."
     service="Microsoft.AnalysisServices"
     resource="servers"
     authors="stephbaron"
@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Analysis Services server:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Azure Analysis Service resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
 Unable to establish connection to server. 
 <!--/issueDescription-->

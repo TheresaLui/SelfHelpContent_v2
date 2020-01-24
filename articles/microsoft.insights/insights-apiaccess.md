@@ -5,7 +5,7 @@
     resource="components"
     authors="debugthings"
     ms.author="jamdavi"
-    articleId="insights_commuinitysdk"
+    articleId="5bcae984-826e-4880-b0eb-7498f98d76be"
     displayOrder="103"
     selfHelpType="resource"
     cloudEnvironments="public"

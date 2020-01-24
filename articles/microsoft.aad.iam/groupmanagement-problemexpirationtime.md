@@ -30,7 +30,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
@@ -91,7 +91,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
@@ -129,6 +129,7 @@
             "useAsAdditionalDetails": true,
             "numberOfLines": 0
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

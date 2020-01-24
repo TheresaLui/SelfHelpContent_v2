@@ -13,47 +13,52 @@
 # Citrix VM
 ---
 {
-                "resourceRequired": true,
+                "subscriptionRequired": true,
+                "resourceRequired": false,
                 "fileAttachmentHint": "",
                 "formElements": [
+        {
+            "id": "citrixcase",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have a support case with Citrix?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                      "id": "citrixcase",
-                      "order": 1,
-                      "controlType": "dropdown",
-                      "displayLabel": "Do you have a support case with Citrix?",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [
-                          {
-                              "value": "Yes",
-                              "text": "Yes"
-                          },
-                          {
-                              "value": "No",
-                              "text": "No"
-                          }
-                      ],
-                      "required": false
-                  },{
-                  "id": "citrixcase_id",
-                  "order": 2,
-                  "visibility": "citrixcase == Yes",
-                  "controlType": "textbox",
-                  "displayLabel": "Citrix support case number",
-                  "required": true
-                  },{
-                  "id": "problem_description",
-                  "order": 3,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 4,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "citrixcase_id",
+            "order": 2,
+            "visibility": "citrixcase == Yes",
+            "controlType": "textbox",
+            "displayLabel": "Citrix support case number",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

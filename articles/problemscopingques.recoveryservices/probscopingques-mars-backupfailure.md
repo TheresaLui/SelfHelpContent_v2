@@ -14,8 +14,14 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "MARS backup failure",
     "fileAttachmentHint": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
+     "diagnosticCard": {
+        "title": "MARS backup failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -31,7 +37,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": false
         },
         {
             "id": "backup_type",
@@ -53,20 +59,22 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Copy and paste error message text from failed job details dialog in Microsoft Azure Backup agent",
-            "required": true
+            "displayLabel": "Provide the error message that you are seeing:",
+            "watermarkText": "Copy and paste error message text from console",
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
+            "infoBalloonText": "Check Microsoft Azure Recovery Services Agent <a href='https://aka.ms/AB-MARS-troubleshoot'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {
@@ -86,6 +94,10 @@
                     "text": "5-10% free volume space is available on scratch folder location"
                 },
                 {
+                    "value": "A valid security PIN is entered",
+                    "text": "A valid security PIN is entered"
+                },
+                {
                     "value": "If antivirus is running, then exclusion rules are used",
                     "text": "If antivirus is running, then exclusion rules are used"
                 },
@@ -98,8 +110,8 @@
                     "text": "Unsupported drives are excluded from backup"
                 },
                 {
-                    "value": "Unsupported files are excluded from backup",
-                    "text": "Unsupported files are excluded from backup"
+                    "value": "Files with unsupported attributes are excluded from backup",
+                    "text": "Files with unsupported attributes are excluded from backup"
                 },
                 {
                     "value": "dont_know_answer",
@@ -113,7 +125,8 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "watermarkText": "Paste MachineId here",
             "required": false
         },
         {
@@ -121,7 +134,8 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Please provide the ResourceId:",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "watermarkText": "Paste ResourceId here",
             "required": false
         },
         {
@@ -136,15 +150,12 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Basic troubleshooting",
+            "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "hints": [
-                {
-                    "text": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-types-of-drives-can-i-back-up-files-and-folders-from-br'>unsupported drives</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr'>unsupported files.</a>"
-                }
-            ]
+            "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

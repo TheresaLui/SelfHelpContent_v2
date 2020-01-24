@@ -45,7 +45,7 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-                {
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -58,6 +58,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

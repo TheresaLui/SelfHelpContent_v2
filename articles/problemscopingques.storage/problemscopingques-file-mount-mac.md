@@ -2,20 +2,36 @@
 	pageTitle="Storage File Share mounting issues - macOS"
 	description="Storage File Share mounting issues - macOS"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602764"
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="0f8503fd-60ef-4e40-a968-9ee7a6922f33"
 />
 # Storage File Share mounting issues - macOS
 ---
 {
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Storage File Share mounting issues - macOS",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "What caused my Azure Files mount issue on MacOS?",
+        "description": "Our Azure Files mount troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure that File Share or File Path provided is in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
+        {
+            "id": "file_share_or_path",
+            "order": 0,
+            "controlType": "textbox",
+            "displayLabel": "File Share or File path",
+            "watermarkText": "'FileShare' or 'FileShare/FileName'",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
         {
             "id": "os_version",
             "order": 1,
@@ -36,14 +52,15 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
@@ -53,6 +70,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

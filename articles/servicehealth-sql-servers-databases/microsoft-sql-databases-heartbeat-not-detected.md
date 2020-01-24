@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your database:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your SQL database resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->::
 
 We are sorry, your SQL data warehouse has a connection issue with its distributions. 
 <!--/issueDescription-->

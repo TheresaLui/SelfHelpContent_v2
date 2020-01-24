@@ -17,10 +17,17 @@
 />
 
 # User is not enabled for self-service password reset
- 
- We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has not been enabled for self-service password reset. To enable <!--$UserId-->[UserId]<!--/$UserId--> for self-service password reset, do the following: 
+<!--issueDescription-->
+Administrators in your Azure AD have not enabled <!--$UserId-->[UserId]<!--/$UserId--> to reset their own forgotten password.
+<!--/issueDescription-->
 
-1. From your Azure AD tenant, on the **Azure portal** under **Azure Active Directory**, select **Password reset**.
-2. From the **Properties** page, under the option **Self Service Password Reset Enabled**, choose **Selected** and select a group that <!--$UserId-->[UserId]<!--/$UserId--> is a member of, or choose **All** to enable self-service password reset for all users in your tenant.
- 
-For more guidance on configuring self-service password reset, review the [Quickstart for self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/quickstart-sspr).
+## **Recommended Steps**
+
+To enable <!--$UserId-->[UserId]<!--/$UserId--> for self-service password reset:
+
+1. Navigate to the **Azure Active Directory** page in the Azure portal, then select **Password reset** and **Properties**
+2. In the section for **Self Service Password Reset Enabled**, choose **Selected**, and select a group in which <!--$UserId-->[UserId]<!--/$UserId--> is a member or choose **All** to enable self-service password reset for all users in your Azure AD
+
+## **Recommended Documents**
+
+* [Quickstart for self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/quickstart-sspr)

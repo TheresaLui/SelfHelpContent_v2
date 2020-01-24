@@ -8,10 +8,10 @@
 	ms.author="chmutali"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32629806"
+	supportTopicIds="32684504"
 	productPesIds="16666"
 	articleId="8d591007-b405-4b63-9f3e-451f17322ef4"
-	CloudEnvironments="Public"
+	cloudEnvironments="Public"
 />
 
 # Troubleshooting quarantine issues with Workday provisioning

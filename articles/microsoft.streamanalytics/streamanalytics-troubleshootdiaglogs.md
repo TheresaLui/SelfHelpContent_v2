@@ -5,7 +5,7 @@
 	service="microsoft.streamanalytics"
 	resource="streamingjobs"
 	authors="sidramadoss"
-	articleId="streamanalytics-troubleshootdiaglogs"
+	articleId="020cf230-8e69-45a1-8c82-fbd1aae8a258"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32628776"

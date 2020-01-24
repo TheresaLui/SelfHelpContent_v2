@@ -5,6 +5,7 @@ infoBubbleText="Issues with your Application Gateway were detected. See details 
 service="microsoft.network"
 resource="ApplicationGateway"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder="10"
 articleId="AppGwNoFrontendPortFoundInsight"
 diagnosticScenario="AppGwNoFrontendPortFoundInsight"
@@ -14,11 +15,14 @@ resourceTags="windows"
 productPesIds="15922"
 cloudEnvironments="Public"
 />
+
 # Microsoft Azure has identified that your Application Gateway is missing a frontend port
+
 <!--issueDescription-->
 We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has no Frontend Port configured.
-<!--/issueDescription--> 
-## **Steps to resolve**
+<!--/issueDescription-->
+
+## **Recommended Steps**
 
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**

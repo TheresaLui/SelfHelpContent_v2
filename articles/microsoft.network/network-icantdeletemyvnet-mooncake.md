@@ -5,7 +5,7 @@
     resource="virtualnetworks"
     authors="anavin"
     ms.author="anavin"
-    displayOrder="1"
+    displayOrder="18"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
@@ -25,4 +25,4 @@ To resolve most common issues, try one or more of the following steps:
 
 ## **Recommended Documents**
 
-* [Troubleshooting: Failed to delete a virtual network](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-cannot-delete-vnet)<br>
+* [Troubleshooting: Failed to delete a virtual network](https://docs.azure.cn/virtual-network/virtual-network-troubleshoot-cannot-delete-vnet)
