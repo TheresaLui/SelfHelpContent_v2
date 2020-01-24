@@ -11,7 +11,7 @@
 	supportTopicIds="32631882"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # How to troubleshoot blobfuse mount issues

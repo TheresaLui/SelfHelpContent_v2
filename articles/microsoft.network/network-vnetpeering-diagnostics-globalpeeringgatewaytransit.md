@@ -19,7 +19,8 @@ cloudEnvironments="Public"
 # We ran connectivity diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Microsoft Azure has identified virtual network peering <!--$VirtualNetworkPeering-->VirtualNetworkPeering<!--/$VirtualNetworkPeering--> has the "Use Remote Gateway" property enabled. As this a globally peered link, this is not currently supported. Use VNet-to-VNet via VPN Gateway in order to connect these virtual networks. 
+Microsoft Azure has identified virtual network peering <!--$VirtualNetworkPeering-->VirtualNetworkPeering<!--/$VirtualNetworkPeering--> has the "Use Remote Gateway" property enabled. As this a globally peered link, this is not currently supported. Use VNet-to-VNet via VPN Gateway in order to connect these virtual networks.
+<!--issueDescription-->
 
 ## **Recommended Documents**
 

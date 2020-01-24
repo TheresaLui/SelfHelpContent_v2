@@ -13,7 +13,7 @@
 	supportTopicIds="32612597"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Azure Data Lake Gen2 Storage cannot delete filesystem

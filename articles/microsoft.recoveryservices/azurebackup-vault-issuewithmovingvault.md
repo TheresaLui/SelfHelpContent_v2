@@ -22,8 +22,7 @@
 
 ## **Recommended Documents**
 
-- [Prerequisites for moving a vault](https://aka.ms/AB-smaller-data-backup)<br>
+- [Prerequisites for moving a vault](https://aka.ms/AB-prerequisites-move-vault)<br>
 - [Use PowerShell to move a vault](https://aka.ms/AB-powershell-to-move-a-vault)<br>
 - [Move a vault between subscriptions](https://aka.ms/AB-move-a-rsv-to-a-different-subscription)<br>
 - [Move a vault between Resource Groups](https://aka.ms/AB-move-a-rsv-to-different-resource-group)<br>
-

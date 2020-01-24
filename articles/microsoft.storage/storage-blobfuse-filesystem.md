@@ -11,7 +11,7 @@
 	supportTopicIds="32631883"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # How to troubleshoot blobfuse file system issues

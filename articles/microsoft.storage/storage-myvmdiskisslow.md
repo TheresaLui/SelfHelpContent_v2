@@ -1,6 +1,6 @@
 <properties
 	pageTitle="My VM/Disk is slow"
-	description="My VM/Disk is slow"
+	description="Diagnose and mitigate VM performance issues"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="kasparks,anandhms"

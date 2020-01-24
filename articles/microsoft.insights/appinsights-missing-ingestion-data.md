@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="Where's my data?"
     description="Where's my data?"
     infoBubbleText="Some suggestions have been found to help solve your missing data issue quicker."
@@ -6,14 +6,14 @@
     resource="components"
     authors="mcosner"
     ms.author="mcosner"
-    selfHelpType="diagnostics"
+    selfHelpType="generic"
     articleId="appinsights-missing-ingestion-data"
-    diagnosticScenario="ApplicationInsightsMissingDataDiagnostic"
+    diagnosticScenario=""
     productPesIds="15693"
-    supportTopicIds="32402629,32402626,32602225"
+    supportTopicIds="32602225"
     cloudEnvironments="public"
  />
- 
+
 # Where's my data?
 
 ## **Recommended Steps**

@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Resolve issues with an unexpected VM restart"
-	description="Resolve issues with an unexpected VM restart"
-	service="microsoft.compute"
-	resource="virtualmachines"
-	authors="ScottAzure"
-	ms.author="scotro"
-	displayOrder="65"
-	selfHelpType="resource"
-	supportTopicIds="32628269,32628280,32628287,32633528"
-	resourceTags="windows, windowsSQL"
-	productPesIds="14749,14745"
-	cloudEnvironments="public"
+    pageTitle="Resolve issues with an unexpected VM restart"
+    description="Resolve issues with an unexpected VM restart"
+    service="microsoft.compute"
+    resource="virtualmachines"
+    authors="ScottAzure"
+    ms.author="scotro"
+    displayOrder="65"
+    selfHelpType="resource"
+    supportTopicIds="32628269,32628280,32628287,32633528"
+    resourceTags="windows, windowsSQL"
+    productPesIds="14749,14745"
+    cloudEnvironments="public"
 	articleId="64c0a2f3-0fe4-4eed-a2d2-3218f58cde19"
 />
 
@@ -20,10 +20,13 @@
 
 ## **Recommended Steps**
 
-1. Review the below documents in this article to understand the different possible scenarios<br>
-2. Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://azure.microsoft.com/status/history/) for outages
-3. [Understand more about Resource Health Center](https://docs.microsoft.com/azure/resource-health/resource-health-overview) and using [Resource Health blade](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for any impactful events specific for your VM<br>
-4. [Understand more about Audit logs](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) and using [Audit and Activity Log blade](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId)
+**[Azure Resource Health](https://docs.microsoft.com/azure/resource-health/resource-health-overview)** helps you diagnose and get support when an Azure service problem affects your resources. It informs you about the current and past health of your resources, and it provides technical support to help you mitigate problems. <br>
+
+Where **[Azure Status](https://status.azure.com/)** informs you about service problems that affect a broad set of Azure customers, **[Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId)** gives you a personalized dashboard of the health of your resources. Resource Health shows you all the times your resources were unavailable in the past because of Azure service problems.
+
+1. Review [Resource Health blade](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for any impactful events specific for your VM<br>
+2. Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://azure.microsoft.com/status/history/) for outages<br>
+3. [Understand more about Audit logs](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) and using [Audit and Activity Log blade](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId)
 
 ## **Recommended Documents**
 
@@ -34,7 +37,7 @@ If the host server cannot reboot for any reason or detects a specific issue asso
 * [Host server faults](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#host-server-faults)<br>
 * [Auto-recovery actions](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#auto-recovery)<br>
 * [Unplanned maintenance](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#unplanned-maintenance)<br>
-* [Storage-related forced shutdowns](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#storage-related-force)<br>
+* [Storage-related forced shutdowns](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#storage-related-force)
 
 **User-initiated reboot or shutdown actions**
 
@@ -51,10 +54,10 @@ To understand what Azure planned maintenance is and how it can affect the availa
 * [Planned maintenance for VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/planned-maintenance)<br>
 * [How to schedule planned maintenance on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/planned-maintenance)<br>
 * [Understanding memory-preserving updates](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#memory-preserving-updates)<br>
-* [Use Azure redeploy functionality to transfer virtual machines to a new Azure node](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows)<br>
+* [Use Azure redeploy functionality to transfer virtual machines to a new Azure node](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows)
 
 **Issues or actions from within the VM**<br>
 
 * [Understanding more about VM crashes](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#vm-crashes)<br>
 * [Understand Windows Update and Azure Security update installation](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#azure-security-center-and-windows-update)<br>
-* [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)
+* [Diagnose & recover from boot failures after a restart](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics)

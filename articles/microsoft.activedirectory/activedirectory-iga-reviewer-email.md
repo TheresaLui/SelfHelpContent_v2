@@ -1,5 +1,5 @@
 <properties
-	pageTitle="I created a review, but the reviewer did not receive an email regarding the required action."
+	pageTitle="I created a review, but the reviewer did not receive an email regarding the required action"
 	description="After creating a review, the reviewer doesn't receive an email"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_ERM"
@@ -14,7 +14,7 @@
 	articleId="958025bf-da79-48d8-99ec-79dc335420d8"
 />
 
-# I created a review, but the reviewer did not receive an email regarding the required action.
+# I created a review, but the reviewer did not receive an email regarding the required action
 
 If the reviewer didn't receive the email, it is possible that his/her email address was not populated correctly in Azure AD. If the reviewer still hasn't received the email, he or she can find all pending access reviews via the MyApps portal.
 

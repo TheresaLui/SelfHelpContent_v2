@@ -5,17 +5,18 @@
     service="microsoft.insights"
     resource="components"
     authors="dhaval24"
+    ms.author="dhdoshi"
     articleId="insights_javasdk"
     diagnosticScenario="ApplicationInsightsJavaSDK"
     displayOrder="6"
     selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32402632"
+    supportTopicIds="32402632, 32632984"
  />
 # I am having problems with my Java SDK data
 
-## **Recommended steps**
+## **Recommended Steps**
 
 The most common types of issues are related to the configuration of the SDK, or a network configuration issue such as a proxy or firewall. Here is a list of recommended items to review to ensure your application is configured correctly. Our [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot) has a list of the most common concerts with problems using the Java SDK.
 
@@ -27,23 +28,27 @@ The most common types of issues are related to the configuration of the SDK, or 
 
 **Spring Boot Starter:** We recently released the [Spring Boot Starter](https://docs.microsoft.com/java/azure/spring-framework/configure-spring-boot-java-applicationinsights?view=azure-java-stable) for Application Insights that will help simplify the process of instrumenting your Spring Boot applications.
 
-**Please provide following information to help the team investigate issue**
+**Please provide following information to help the team investigate issue:**
 
 1.	Describe the actual behavior
 2.	Describe the expected behavior
 3.	What SDK version are you using? 
 4.	What kind of application it is: 
-  *	SpringBoot (Along with framework version) - > If yes -> Are they using ApplicationInsights SpringBoot Starter -> If yes which version of starter?
-  *	Traditional Spring MVC (With version)
-  *	J2EE (with version for servlet specifically)
+
+    * SpringBoot (Along with framework version) - > If yes -> Are they using ApplicationInsights SpringBoot Starter -> If yes which version of starter?
+    * Traditional Spring MVC (With version)
+    * J2EE (with version for servlet specifically)
+
 5.	What version of Java SDK customer is using?
 6.	Provide iKey and subscription ID and duration since issue started
 7.	Provide [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk)
 
-**Known issues**<br>
-SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine loses connectivity
+### Known Issues
+
+* SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine loses connectivity
 
 ## **Recommended Documents**
-[Getting Started](https://docs.microsoft.com/azure/application-insights/app-insights-java-quick-start?toc=/azure/azure-monitor/toc.json)<br>
-[Java SDK GitHub](https://github.com/Microsoft/ApplicationInsights-Java)<br>
-[Troubleshooting](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot?toc=/azure/azure-monitor/toc.json)
+
+* [Getting Started](https://docs.microsoft.com/azure/application-insights/app-insights-java-quick-start?toc=/azure/azure-monitor/toc.json)<br>
+* [Java SDK GitHub](https://github.com/Microsoft/ApplicationInsights-Java)<br>
+* [Troubleshooting](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot?toc=/azure/azure-monitor/toc.json)

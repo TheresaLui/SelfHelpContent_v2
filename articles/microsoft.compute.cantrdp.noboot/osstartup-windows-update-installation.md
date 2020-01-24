@@ -4,7 +4,8 @@
     infoBubbleText="A boot error has been found. See details on the right."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="ram-kakani"
+    authors="jasonbandrew"
+    ms.author="v-jasoan"
     displayOrder=""
     articleId="OSStartUp-WINDOWS_UPDATE_INSTALLATION"
     diagnosticScenario="booterror"
@@ -17,7 +18,7 @@
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine**
+
 We have investigated and identified that your VM is currently in an inaccessible state because a Windows Update installation is in progress. The issue occurs when a there are a high number of pending updates to be installed.<br>
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause. .<br>

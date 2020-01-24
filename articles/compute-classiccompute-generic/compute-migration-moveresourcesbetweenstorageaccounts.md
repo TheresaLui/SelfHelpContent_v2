@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570116"
@@ -15,7 +16,7 @@
 
 # Move resources between storage accounts
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Move resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)<br>
 * [Move a **Windows** VM to another Azure subscription or resource group](https://docs.microsoft.com/azure/virtual-machines/windows/move-vm)<br>

@@ -5,7 +5,7 @@
 	resource="virtualmachines"
 	authors="tabrezm,timbasham"
 	ms.author="tibasham"
-	displayOrder=""
+	displayOrder="31"
 	selfHelpType="tools"
 	supportTopicIds=""
 	resourceTags="windows"

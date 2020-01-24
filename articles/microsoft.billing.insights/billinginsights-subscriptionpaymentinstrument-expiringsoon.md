@@ -5,6 +5,7 @@
 	service="azure-billing"
 	resource="billing"
 	authors="qianz-msft"
+	ms.author="qianz"
 	displayOrder=""
 	articleId="SubsPIExpiringSoon_35EC1178-BCA8-4EC2-A868-C3D17A309F85"
 	diagnosticScenario="PIExpirationInsight"
@@ -15,17 +16,19 @@
 	cloudEnvironments="public"
 />
 
-# Subscription payment instrument is expiring soon.
+# Subscription payment instrument is expiring soon
 
+<!--/issueDescription-->
 The payment instrument, {PIDescription}, associated with the subscription {SubscriptionId} is expiring soon. If this payment instrument expires, we won't be able to process payment for future invoices and services may be suspended.
+<!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
-To update your existing payment instrument or add a new one, the account owner should perform the following steps in [Account Center](https://account.windowsazure.com/Subscriptions).
+To update your existing payment instrument or add a new one, the account owner should perform the following steps in [Account Center](https://account.windowsazure.com/Subscriptions):
 
-* Sign in to [Account Center](https://account.windowsazure.com/Subscriptions) as the account administrator.
-* Select a subscription.
-* On the right side of the page, select **Manage payment methods**.
-* Select "+" to add a new credit or debit card, or select "Edit" to update the details of your existing card.
-* Enter credit or debit card details.
-* Select **Save**.
+* Sign in to [Account Center](https://account.windowsazure.com/Subscriptions) as the account administrator
+* Select a subscription
+* On the right side of the page, select **Manage payment methods**
+* Select "+" to add a new credit or debit card, or select "Edit" to update the details of your existing card
+* Enter credit or debit card details
+* Select **Save**

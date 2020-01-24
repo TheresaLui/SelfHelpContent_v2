@@ -7,7 +7,7 @@
     ms.author="v-anukar"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629066"
+    supportTopicIds="32636490"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
@@ -18,4 +18,5 @@
 
 ## **Recommended Documents**
 
-* [Configure APACHE Hive policies](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-run-hive)<br>
+* [Configure APACHE Hive policies](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-run-hive)
+* [Configure Apache Kafka policies in HDInsight with Enterprise Security Package](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-run-kafka)

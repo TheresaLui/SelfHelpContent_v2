@@ -18,9 +18,6 @@
 
 ## **Recommended Documents**
 
-- [Overview of how the Azure Site Recovery service helps you to migrate machines](https://docs.microsoft.com/azure/site-recovery/migrate-overview)
-- [Best practices for costing and sizing workloads migrated to Azure](https://docs.microsoft.com/azure/migrate/migrate-best-practices-costs)
-- [Migration tool suggestions](https://docs.microsoft.com/azure/migrate/how-to-get-migration-tool)
-- [Powershell scripts to perform migration of servers at scale](https://docs.microsoft.com/azure/migrate/how-to-migrate-at-scale)
-- [Azure Site Recovery pricing](https://azure.microsoft.com/pricing/details/site-recovery/)
-- [Azure Migrate - Frequently Asked Questions](https://docs.microsoft.com/azure/migrate/resources-faq)
+- [Move Azure VMs to another region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-migrate)
+- [Move Azure VMs into Availability Zones](https://docs.microsoft.com/azure/site-recovery/move-azure-vms-avset-azone)
+- [Move Azure VMs between Azure Government and Public regions](https://docs.microsoft.com/azure/site-recovery/region-move-cross-geos)

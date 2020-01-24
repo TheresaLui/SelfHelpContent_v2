@@ -10,7 +10,7 @@
 	supportTopicIds="32633526"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 	articleId="d10943a4-3283-4e70-8982-e08aea9096e3"
 />
 
@@ -18,7 +18,9 @@
 
 ## **Recommended Steps**
 
-Use Azure Backup to protect the data for on-premises servers, virtual machines, virtualized workloads, SQL server, SharePoint server, and more. Learn how to back up and restore your data with our [quickstarts, tutorials and samples](https://docs.microsoft.com/azure/backup/).
+Use Azure Backup to protect the data for on-premises servers, virtual machines, virtualized workloads, SQL server, SharePoint server, and more. Learn how to back up and restore your data with our [quickstarts, tutorials and samples.](https://docs.microsoft.com/azure/backup/).
+
+You can troubleshoot errors encountered while using Azure Backup with [Troubleshoot Azure virtual machine backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot).
 
 ## **Recommended Documents**
 

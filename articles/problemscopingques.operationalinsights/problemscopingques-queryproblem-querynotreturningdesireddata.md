@@ -17,7 +17,7 @@ schemaVersion="1"
 {
     "resourceRequired": true,
     "title": "Query not returning desired data ",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please attach or paste in the query and expected results",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -61,14 +61,8 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "attachment",
-            "order": 3,
-            "controlType": "infoblock",
-            "content": "Please attach or paste in the query and expected results"
-        },
-        {
             "id": "problem_description",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -76,6 +70,7 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

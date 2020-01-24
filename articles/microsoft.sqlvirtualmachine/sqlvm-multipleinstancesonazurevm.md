@@ -11,7 +11,7 @@
 	supportTopicIds="32633511"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 />
 
 # how to/multiple instances on azure vm

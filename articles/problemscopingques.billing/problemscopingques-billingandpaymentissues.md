@@ -4,7 +4,7 @@
     ms.author="prdasneo"
     authors="prdasneo"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32454856,32632936"
+    supportTopicIds="32632936"
     productPesIds="15659"
     articleId="b4b6273d-558e-4f2d-ab00-36a830ea4354"
     cloudEnvironments="public"
@@ -27,11 +27,10 @@
         },
         {
             "id": "subscriptionid_details",
-            "order": 2,
+            "order": 7,
             "controlType": "textbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription ID",
+            "watermarkText": "Provide your Subscription id",
             "required": true
         },
         {
@@ -63,7 +62,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Invoice ID related to the issue",
             "watermarkText": "Provide your Invoice ID related to the issue",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -74,6 +73,7 @@
             "watermarkText": "Provide any notifications received regarding billing and payment issues",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

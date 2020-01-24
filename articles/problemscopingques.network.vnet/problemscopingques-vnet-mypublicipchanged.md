@@ -39,8 +39,8 @@
                 }
             ],
             "required": false
-          },
-            {
+        },
+        {
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
@@ -55,7 +55,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
-
 ---

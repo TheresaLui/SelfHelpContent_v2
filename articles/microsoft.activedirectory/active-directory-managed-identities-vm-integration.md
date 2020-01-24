@@ -7,7 +7,7 @@
 	authors="arluca"
 	ms.author="arluca"
 	displayOrder="1"
-	articleId="user-assigned managed identity integration with VM/VMSS"
+	articleId="user-assigned managed identity integration with VM-VMSS"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds="32632153"

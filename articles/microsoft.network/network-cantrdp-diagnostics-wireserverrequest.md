@@ -5,6 +5,7 @@ infoBubbleText="Issues with network traffic routing were detected. See details o
 service="microsoft.network"
 resource="virtualnetworks"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder=""
 articleId="CantRDP_WireServerRequest"
 diagnosticScenario="WireServerRequest"

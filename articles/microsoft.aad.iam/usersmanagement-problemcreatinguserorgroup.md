@@ -1,53 +1,25 @@
 <properties
-    pageTitle="Problem creating a user or group"
-    description="problemcreatinguserorgroup"
+    pageTitle="Problem creating a group"
+    description="problemcreatinggroup"
     authors="anupnadigm"
+    ms.author="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32586792"
-    productPesIds="14785,16578,16575"
+    productPesIds="16578"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="ea6a7744-1273-4571-b351-90f5938a0e51"
     />
 
-# Problem creating a user or group
+# Problem creating a group
 
 ---
 {
     "resourceRequired": false,
-    "title": "Problem creating a user or group",
+    "subscriptionRequired": false,
+    "title": "Problem creating a group",
     "fileAttachmentHint": "Screenshot of problem",
     "formElements": [
-        {
-            "id": "resourceType",
-            "visibility": null,
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Is the problem creating a user or a group?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "User",
-                    "value": "user"
-                },
-                {
-                    "text": "Group",
-                    "value": "group"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
         {
             "id": "notB2b",
             "visibility": null,
@@ -59,7 +31,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -89,7 +60,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -106,7 +76,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -140,7 +109,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -157,7 +125,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -174,8 +141,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -197,6 +163,7 @@
             "useAsAdditionalDetails": true,
             "numberOfLines": 0
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -1,12 +1,12 @@
 <properties
-	pageTitle="I can’t access my shares."
-	description="I can’t access my shares."
+	pageTitle="I can’t access my shares"
+	description="I can’t access my shares"
 	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
 	authors="anoobbacker"
 	ms.author="anbacker"
 	authoralias="anbacker"
-	displayOrder="3"
+	displayOrder="40"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="DataBoxEdge,DataBoxGateway"
@@ -31,4 +31,5 @@ If you are experiencing share access issues, try the following:
 
 ## **Recommended Documents**
 
+* [Troubleshoot your Azure Data Box Edge issues](https://docs.microsoft.com/azure/databox-online/data-box-edge-troubleshoot)
 * [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)

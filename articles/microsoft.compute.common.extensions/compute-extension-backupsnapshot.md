@@ -22,7 +22,8 @@
 
 * [Overview of VM Snapshot Windows extension for Azure Backup](https://docs.microsoft.com/azure/virtual-machines/extensions/vmsnapshot-windows)<br>
 * [Understanding how to troubleshoot Azure Virtual Machine backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
-* [Troubleshoot Azure Backup failure: Snapshot VM sub task timed out](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)
+* [Troubleshoot Azure Backup failure: Snapshot VM sub task timed out](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)<br>
+* [How to troubleshoot Azure Extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
 
 **Additional Information**<br>
 

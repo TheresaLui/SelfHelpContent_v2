@@ -4,8 +4,9 @@
 	service="microsoft.databricks"
 	resource="workspaces"
 	authors="bprakash"
+	ms.author="bprakash"
 	displayOrder="7"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32612197"
 	resourceTags=""
 	productPesIds="16432"
@@ -15,12 +16,14 @@
 
 # Azure Databricks Documentation
 
-## **Recommended steps**
+## **Recommended Steps**
+
 For information on Azure Databricks, please review the following documentation:
 
-1. [Azure Databricks documenation](https://docs.azuredatabricks.net/)
-2. [Azure Databricks pricing](https://azure.microsoft.com/pricing/details/databricks/) 
+* [Azure Databricks documenation](https://docs.azuredatabricks.net/)
+* [Azure Databricks pricing](https://azure.microsoft.com/pricing/details/databricks/) 
 
-## **Recommended documents**
-1. [Release Notes](https://docs.azuredatabricks.net/release-notes/index.html)
+## **Recommended Documents**
+
+* [Release Notes](https://docs.azuredatabricks.net/release-notes/index.html)
 

@@ -66,6 +66,10 @@
                 {
                     "value": "From another cloud provider",
                     "text": "From another cloud provider"
+                },
+                {
+                        "value": "Azure Marketplace",
+                        "text": "Azure Marketplace"
                 }
             ],
             "required": false
@@ -124,20 +128,24 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Windows 7/Windows server 2008r2",
-                    "text": "Windows 7/Windows server 2008r2"
+                    "value": "Windows 7/Windows Server 2008R2",
+                    "text": "Windows 7/Windows Server 2008R2"
                 },
                 {
-                    "value": "Windows 8/Windows server 2012",
-                    "text": "Windows 8/Windows server 2012"
+                    "value": "Windows 8/Windows Server 2012",
+                    "text": "Windows 8/Windows Server 2012"
                 },
                 {
-                    "value": "Windows 8.1/Windows server 2012r2",
-                    "text": "Windows 8.1/Windows server 2012r2"
+                    "value": "Windows 8.1/Windows Server 2012R2",
+                    "text": "Windows 8.1/Windows Server 2012R2"
                 },
                 {
-                    "value": "Windows 10/Windows server 2016",
-                    "text": "Windows 10/Windows server 2016"
+                    "value": "Windows 10/Windows Server 2016",
+                    "text": "Windows 10/Windows Server 2016"
+                },
+                {
+                    "value": "Windows 10/Windows Server 2019",
+                    "text": "Windows 10/Windows Server 2019"
                 },
                 {
                     "value": "Android or iOS",
@@ -251,6 +259,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

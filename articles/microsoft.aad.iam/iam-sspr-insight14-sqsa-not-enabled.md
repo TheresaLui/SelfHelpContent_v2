@@ -17,10 +17,19 @@
 />
 
 # Security questions are not enabled for password reset
+<!--issueDescription-->
+Administrators of your Azure AD have not enabled security questions as an allowed method for a user to reset their forgotten password.
+<!--/issueDescription-->
 
- We have determined that security questions are not enabled for password reset in your tenant: <!--$TenantId-->[TenantId]<!--/$TenantId-->. To enable security questions, do the following:
+## **Recommended Steps**
 
-1. From your Azure AD tenant, on the **Azure portal** under **Azure Active Directory**, select **Password reset**
-2. From the **Authentication methods** page, select **Security questions**, and then choose **Save**
- 
-For more guidance on configuring self-service password reset, review the [Quickstart for self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/quickstart-sspr).
+To enable security questions:
+
+1. Navigate to the **Azure Active Directory** page in the Azure portal, then select **Password reset** and **Authentication methods**
+2. Select the checkbox to enable **Security questions**
+3. Configure the security questions that will be available for end users to reset their forgotten passwords, and click **Save**
+
+
+## **Recommended Documents**
+
+* [Quickstart for self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/quickstart-sspr)
