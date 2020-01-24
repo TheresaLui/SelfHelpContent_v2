@@ -8,7 +8,7 @@
     productPesIds="16098"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="700961cc-d014-4545-be70-2069dc2e00ff"
+    articleId="700961cc-d014-4545-be70-2069dc2e0106"
 />
 
 # Private Link - configuration 
@@ -71,7 +71,7 @@
         },
         {
             "id": "config_goals",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Please select the operation that you need help with",
             "watermarkText": "Choose an option",
@@ -87,13 +87,17 @@
                 {
                     "value": "Manage Private Endpoint connections to an existing Private Link Service",
                     "text": "Manage Private Endpoint connections to an existing Private Link Service"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": true
         },
         {
             "id": "pls_client",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please select your Private Link Service client",
             "watermarkText": "Choose an option",
@@ -107,7 +111,7 @@
         },
         {
             "id": "slb_sku",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Please select your Azure Software Load Balancer SKU",
             "watermarkText": "Choose an option",

@@ -8,7 +8,7 @@
     productPesIds="16098"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="700961cc-d014-4545-be70-2069dc2e00ff"
+    articleId="700961cc-d014-4545-be70-2069dc2e0104"
 />
 
 # Private Endpoint - Overview 

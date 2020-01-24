@@ -8,7 +8,7 @@
     productPesIds="16098"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="700961cc-d014-4545-be70-2069dc2e00ff"
+    articleId="700961cc-d014-4545-be70-2069dc2e0101"
 />
 
 # Private Endpoint - configuration 
@@ -71,7 +71,7 @@
         },
         {
             "id": "config_goals",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Please select the operation that you need help with",
             "watermarkText": "Choose an option",
@@ -83,13 +83,17 @@
                 {
                     "value": "Update the existing Private Endpoint",
                     "text": "Update the existing Private Endpoint"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": true
         },
         {
             "id": "source_location",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please select the source from where you are accessing Private Endpoint",
             "watermarkText": "Choose an option",
@@ -115,7 +119,7 @@
         },
         {
             "id": "dns_usage",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Please select the type of DNS usage",
             "watermarkText": "Choose an option",
