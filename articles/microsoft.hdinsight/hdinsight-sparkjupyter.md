@@ -37,11 +37,11 @@ If you create a new Jupyter notebook and receive one of the errors listed above,
 1. Open the following file /usr/bin/anaconda/lib/python2.7/site-packages/nbformat/_version.py in sudo mode
 1. The existing entry should show something similar to the following: 
 
-    version_info = (5, 0, 3)
+    `version_info = (5, 0, 3)`
 
     Modify the entry to: 
     
-    version_info = (4, 4, 0)
+    `version_info = (4, 4, 0)`
 
 1. Save the file
 1. Go back to Ambari, and in **Service Actions**, click **Restart All**
