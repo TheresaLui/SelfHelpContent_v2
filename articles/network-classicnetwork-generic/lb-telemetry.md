@@ -24,4 +24,4 @@ Did you know: 8 of 10 "Configure Load Balancer metrics" issues were resolved usi
 * [Azure Monitor logs for public Basic Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log)
 * [How to create an Azure Monitor alert rule](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview#create-an-alert-rule)
 * [Load Balancer supported metrics](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported#microsoftnetworkloadbalancers)
-* [Exportable metrics via Diagnostics settings] (https://docs.microsoft.com/en-us/azure/azure-monitor/platform/metrics-supported-export-diagnostic-settings)
+* [Exportable metrics via Diagnostics settings](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported-export-diagnostic-settings)
