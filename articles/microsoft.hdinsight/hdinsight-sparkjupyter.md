@@ -21,7 +21,7 @@ As of January 24, 2020, there is an active issue in which you may receive an err
 **Errors**
 
 * ValueError: Cannot convert notebook to v5 because that version doesn't exist
-* Error loading notebook An unknown error occurred while loading this notebook. This version can load notebook formats v4 or earlier
+* Error loading notebook An unknown error occurred while loading this notebook. This version can load notebook formats v4 or earlier.
 
 **Cause** 
 
@@ -31,10 +31,10 @@ The _version.py file on the cluster was updated to 5.x.x instead of 4.4.x.##.
 
 If you create a new Jupyter notebook and receive one of the errors listed above, do the following:
 
-1. Open Ambari in a web browser by going to https://CLUSTERNAME.azurehdinsight.net, where CLUSTERNAME is the name of your cluster.
-1. In Ambari, on the left menu, click **Jupyter**, then on **Service Actions**, click **Stop**.
-1. ssh into the cluster headnode where the Jupyter service is running.
-1. Open the following file /usr/bin/anaconda/lib/python2.7/site-packages/nbformat/_version.py in sudo mode.
+1. Open Ambari in a web browser by going to https://CLUSTERNAME.azurehdinsight.net, where CLUSTERNAME is the name of your cluster
+1. In Ambari, on the left menu, click **Jupyter**, then on **Service Actions**, click **Stop**
+1. ssh into the cluster headnode where the Jupyter service is running
+1. Open the following file /usr/bin/anaconda/lib/python2.7/site-packages/nbformat/_version.py in sudo mode
 1. The existing entry should show something similar to the following: 
 
     version_info = (5, 0, 3)
@@ -42,8 +42,9 @@ If you create a new Jupyter notebook and receive one of the errors listed above,
     Modify the entry to: 
     
     version_info = (4, 4, 0)
-1. Save the file.
-1. Go back to Ambari, and in **Service Actions**, click **Restart All**.
+
+1. Save the file
+1. Go back to Ambari, and in **Service Actions**, click **Restart All**
 
 ## **Recommended Documents**
 
