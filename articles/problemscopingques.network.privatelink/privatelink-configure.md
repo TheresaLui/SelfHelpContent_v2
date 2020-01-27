@@ -96,20 +96,6 @@
             "required": true
         },
         {
-            "id": "pls_client",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Please select your Private Link Service client",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "slb_sku",
             "order": 4,
             "controlType": "dropdown",
