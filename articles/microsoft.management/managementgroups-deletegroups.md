@@ -22,33 +22,39 @@ A management group is permanently delete when the action is performed. This mean
 
 ### Check if there are any children of the management group  
 
-1. Go to the subscription, or child management group, you are trying to delete and see what children it has.
+Go to the subscription, or child management group, you are trying to delete and see what children it has.
 
-   1. **Portal**
-           1. Navigate to the management group service page (Main Menu -> All Services -> Management groups)
-           1. Search for the management group you are trying to delete.
-           1. Select the group name.
-           1. Select details.
-           1. The list shown should be empty. If not you need to move those items to another location prior to deleting.
-   1. **PowerShell**
-           1. In the PowerShell command window, enter the command **Get-AzManagementGroup -GroupName [MG ID] -expand**  
-           1. The **Children** parameter should have an empty array. If not you need to move those items to another location prior to deletion. 
+**Portal**
+
+1. Navigate to the management group service page (Main Menu -> All Services -> Management groups)
+1. Search for the management group you are trying to delete.
+1. Select the group name.
+1. Select details
+1. The list shown should be empty. If not you need to move those items to another location prior to deleting
+
+**PowerShell**
+
+1. In the PowerShell command window, enter the command **Get-AzManagementGroup -GroupName [MG ID] -expand**  
+1. The **Children** parameter should have an empty array. If not you need to move those items to another location prior to deletion. 
 
 ### Check user access on the management group
 
-1. Go to the subscription, or child management group, you are trying to delete and see what permissions you have.
+Go to the subscription, or child management group, you are trying to delete and see what permissions you have.
 
-    1. **Portal**
-            1. Navigate to the management group service page (Main Menu -> All Services -> Management groups)
-            1. Search for the management group you are trying to delete.
-            1. Select the group name.
-            1. Select details.
-	    1. Select **Access Control (IAM)**
-	    1. Select **Role Assignments** tab
-	    1. Check your logged in user's permissions for management group delete permissions
-   1. **PowerShell**
-            1. In the PowerShell command window, enter the command **Get-AzRoleAssignment -scope "/providers/microsoft.management/managementgroups/[mgid]"**
-	    1. Check your logged in user's permissions for management group delete permissions  
+**Portal**
+
+1. Navigate to the management group service page (Main Menu -> All Services -> Management groups)
+1. Search for the management group you are trying to delete
+1. Select the group name
+1. Select details
+1. Select **Access Control (IAM)**
+1. Select **Role Assignments** tab
+1. Check your logged in user's permissions for management group delete permissions
+
+**PowerShell**
+
+1. In the PowerShell command window, enter the command **Get-AzRoleAssignment -scope "/providers/microsoft.management/managementgroups/[mgid]"**
+1. Check your logged in user's permissions for management group delete permissions  
 
  For more information see, [How to change, delete, or manage your management groups](https://docs.microsoft.com/azure/governance/management-groups/manage#moving-management-groups-and-subscriptions).
 

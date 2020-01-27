@@ -36,12 +36,12 @@ A majority of issues when moving a subscription/ management group have to do wit
 1. Check the current parent management group of the subscription or management group you are trying to move for your permissions.
 
     1. To move a subscription or management group, **you need to have write access on the current parent management group.**  You should have "Owner", "Contributor", "Management Group Contributor" roles or equivalent custom role on the group.  
-	1. **Exception**: If the current parent management group is the root management group of the hierarchy, the service will not check this permission as this is the default location.  
+	1. **Exception**: If the current parent management group is the root management group of the hierarchy, the service will not check this permission as this is the default location  
 
 1. Check the target parent management group you are trying to move the subscription or management group to for your permissions.
 
     1. To move a subscription or management group, **you need to have write access on the target parent management group.**  You should have "Owner", "Contributor", "Management Group Contributor" roles or equivalent custom role on the group.
-	1. **Exception**: If the target parent management group is the root management group of the hierarchy, the service will not check this permission as this is the default location.
+	1. **Exception**: If the target parent management group is the root management group of the hierarchy, the service will not check this permission as this is the default location
 
 With these three permissions being true, you will be able to move the subscription or management group between different management groups. For more information see, [How to change, delete, or manage your management groups](https://docs.microsoft.com/azure/governance/management-groups/manage#moving-management-groups-and-subscriptions).
 
@@ -54,11 +54,11 @@ With this inheritance also comes the risk that heightened privileges can be assi
 To check who has inherited access to your resource and where it is assigned:
 
 - Login to the Azure portal
-- Navigate to the management group, subscription, resource group, or resource detail page.
-- Select the **Access control (IAM)** on the left navigation menu.
-- Select the **Role Assignment** tab.
-- Under the **Scope** column, any role assignment listed **Management group (Inherited)** is an inherited role assignment.
-- Hovering your mouse over the link **Management group (Inherited)** lets you see the hierarchy path where the assignment has been inherited from.
+- Navigate to the management group, subscription, resource group, or resource detail page
+- Select the **Access control (IAM)** on the left navigation menu
+- Select the **Role Assignment** tab
+- Under the **Scope** column, any role assignment listed **Management group (Inherited)** is an inherited role assignment
+- Hovering your mouse over the link **Management group (Inherited)** lets you see the hierarchy path where the assignment has been inherited from
 
 ## The subscription or management group is not listed
 
@@ -68,15 +68,15 @@ When working within the Azure portal, the dropdowns will only show you the items
 
 If you are having trouble finding the subscription you just moved under a management group, there are a couple steps you can do to find out what happened.  
 
-1. Check the notifications section in the portal to see if there was a failure. If the process of moving the subscription failed, you will see an error in the notifications.
-    1. You can find the notifications window in the upper right hand corner of the Azure portal with the icon of a bell.  
-1. Check the default subscription filter to make sure the subscription you are looking for is enabled in the views.
-    1.  You can find the Directory + subscription filter window in the upper right hand corner of the Azure portal with the icon of a notebook with the filter icon on top of it.
-1. Check your permission on the new management group and the subscription itself. While you needed the proper permissions to move the subscription there could have been changes to the role assignments since then. See [Recommended Steps](#recommended-steps) on how to check your permissions.  
-1. Was the move done within the last 30 minutes?
-    1. If so, there could be a user token issue that is preventing the subscription from showing within the Azure portal.  Trying refreshing the browser and/or logging in and out of the Azure portal.  This will renew the user token.
-	1. If you are on the management group pages within the Azure portal, select the refresh button on the table to refresh the table.
-	1. It could be possible there is a data latency issue with the replications. If you don't see the subscription after 30 minutes then proceed submitting a support request for help.  
+- Check the notifications section in the portal to see if there was a failure. If the process of moving the subscription failed, you will see an error in the notifications
+  - You can find the notifications window in the upper right hand corner of the Azure portal with the icon of a bell  
+- Check the default subscription filter to make sure the subscription you are looking for is enabled in the views
+  - You can find the Directory + subscription filter window in the upper right hand corner of the Azure portal with the icon of a notebook with the filter icon on top of it
+- Check your permission on the new management group and the subscription itself. While you needed the proper permissions to move the subscription there could have been changes to the role assignments since then. See [Recommended Steps](#recommended-steps) on how to check your permissions  
+- Was the move done within the last 30 minutes?
+  - If so, there could be a user token issue that is preventing the subscription from showing within the Azure portal.  Trying refreshing the browser and/or logging in and out of the Azure portal.  This will renew the user token
+  - If you are on the management group pages within the Azure portal, select the refresh button on the table to refresh the table
+  - It could be possible there is a data latency issue with the replications. If you don't see the subscription after 30 minutes then proceed submitting a support request for help 
 
 ## How to regain access to a management group
 
