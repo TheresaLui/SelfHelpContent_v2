@@ -25,7 +25,7 @@ Most users are able to resolve their issue using the steps below.
 * If you cannot connect after setting up a firewall rule for your client:
 
   * Make sure your security credentials are valid in case you are seeing the authentication errors
-  * Validate that the firewall on the client allows outbound traffic on the required ports
+  * Validate that the firewall on the client allows outbound traffic on the required port (5432) and [IPs](https://docs.microsoft.com/azure/postgresql/concepts-connectivity-architecture). 
   * If you client does not have a static IP address, your IP address might not be covered by the firewall rule
 
 * There may be as much as a five-minute delay for changes to the Azure Database for PostgreSQL server firewall configuration to take effect. Confirm your rule was added and re-try to connect after at least five minutes.
