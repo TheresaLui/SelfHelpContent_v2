@@ -55,6 +55,10 @@
                     "value": "channel_2",
                     "text": "Web Chat"
                 },
+		{
+                    "value": "channel_14",
+                    "text": "Direct Line Speech"
+                },
                 {
                     "value": "channel_3",
                     "text": "Teams"
