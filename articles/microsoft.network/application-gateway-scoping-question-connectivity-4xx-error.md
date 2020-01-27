@@ -18,19 +18,20 @@ supportTopicIds="32639113"
 	"resourceRequired": true,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
-	"diagnosticCard": {
-        "title": "Application Gateway Access URL",
-        "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
+    "diagnosticCard": {
+            "title": "Application Gateway Access URL",
+            "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
+            "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
     },
     "formElements": [
         {
             "id": "ApplicationGatewayAccessURL",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format domainNameOrIPAddress:portNumber/urlPath. Port number is not required if you are using standard ports 80 and 443.",
-            "watermarkText": "Example:http://contoso.com/abc or http://contoso.com:8080/abc",
-            "required": true
+            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
+            "watermarkText": "Example:http://contoso.com or http://contoso.com:8080",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
 		{
             "id": "ApplicationGatewayAccessProtocol",
