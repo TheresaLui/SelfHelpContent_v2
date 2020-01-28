@@ -10,7 +10,7 @@
 	supportTopicIds="32593229"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="d6753434-706e-45f3-a11d-fbbfe7107dd2"
 />
 
