@@ -32,7 +32,7 @@ For existing accounts a support ticket to update is required and the update will
 
 
 ### **Cosmos DB Mongo DB 3.6 New Features**  
-Please see [Mongo DB 3.6 Supported Features and Syntax] (https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36)
+Please see [Mongo DB 3.6 Supported Features and Syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
 * Support for new commands/aggregation stages added in v3
 * Support for ChangeStream  (ChangeFeed via changestream)
 * Support for Compound indexes
@@ -55,7 +55,7 @@ Please see [Mongo DB 3.6 Supported Features and Syntax] (https://docs.microsoft.
 
 ## **Recommended Documents**
 
-[Azure Cosmos DB Mongo DB 3.6 Feature Support](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36)
+[Azure Cosmos DB Mongo DB 3.6 Feature Support](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
 <br>Azure Cosmos DB API for MongoDB (3.6 version) supported features and syntax
 
 
