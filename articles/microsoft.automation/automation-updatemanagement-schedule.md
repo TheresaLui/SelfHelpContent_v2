@@ -45,6 +45,9 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
   * Option 1) [Update the scope configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) to add the desired machines
   * Option 2) (Recommended) [Disable Scope Configuration](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#all-available-and-future-machines) and register all machines in the workspace for Update Management
 
+### **No saved searches appear**
+
+* Saved searches must be saved as computer groups to appear. See [Computer Groups in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/computer-groups#log-query)
 
 ## **Recommended Documents**
 
