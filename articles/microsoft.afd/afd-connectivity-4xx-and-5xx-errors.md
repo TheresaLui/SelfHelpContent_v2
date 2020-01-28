@@ -7,7 +7,7 @@
     ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32614238"
+    supportTopicIds="32614238,32614254"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"

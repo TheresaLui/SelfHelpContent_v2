@@ -5,11 +5,11 @@
 	resource="databaseAccounts"
 	authors="jimsch"
 	ms.author="jimsch"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32636786"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-Databaselevel"
 	displayOrder="243"
 	category="Throughput and Scaling"
@@ -17,7 +17,9 @@
 
 # Database level throughput
 
-### Throughput distribution in database level offer
+## **Recommended Steps**
+
+### **Throughput distribution in database level offer**
 
 When you provision containers with shared database offering:
 
@@ -33,11 +35,11 @@ When you provision containers with shared database offering:
 
 ![throughput visual](https://docs.microsoft.com/azure/cosmos-db/media/set-throughput/database-level-throughput-shareability-factor.png)
 
-### Migration from Dedicated throughput collection to Shared throughput
+### **Migration from Dedicated throughput collection to Shared throughput**
 
 We do not have out of the box support for migration of the dedicated throughput collection to shared throughput and vice-versa. To switch from dedicated throughput mode to shared throughput mode (and vice versa) after the container is created, you have to create a new container and migrate the data to the new container. You can migrate the data by using the ADF or tools based on change feed processor library.<br>
 
-### Per Collection Minimum RUs
+### **Per Collection Minimum RUs**
 
 The minimum throughput on a shared throughput database depends on the total number of containers that you have ever created in a shared throughput database, measured at 100 RUs per container.
 

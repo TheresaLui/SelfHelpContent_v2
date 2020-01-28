@@ -17,5 +17,5 @@
 
 ## **Recommended Documents**
 
-* [Tutorial: Deploying an Application Gateway Ingress Controller](https://azure.github.io/application-gateway-kubernetes-ingress/tutorial/)<br>
-* [Troubleshooting Ingress Controller issues](https://azure.github.io/application-gateway-kubernetes-ingress/troubleshooting/)
+* [Expose an AKS service over HTTP/HTTPS](https://docs.microsoft.com/azure/application-gateway/ingress-controller-expose-service-over-http-https)<br>
+* [Troubleshoot Ingress Controller issues](https://docs.microsoft.com/azure/application-gateway/ingress-controller-troubleshoot)

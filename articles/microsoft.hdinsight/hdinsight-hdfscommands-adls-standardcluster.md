@@ -19,5 +19,6 @@
 ## **Recommended Documents**
 
 * [Azure Blob File System driver for Haddop](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-abfs-driver)
+* [Refresh the HDInsight certificate for Data Lake Storage Gen1 access](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store#refresh-the-hdinsight-certificate-for-data-lake-storage-gen1-access)
 * [Use the Azure Data Lake Storage Gen2 URI](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction-abfs-uri)
 * [Storage FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#storage)
