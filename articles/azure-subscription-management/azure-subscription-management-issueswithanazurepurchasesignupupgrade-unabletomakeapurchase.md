@@ -10,7 +10,7 @@
 	supportTopicIds="32632948"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="issueswithpurchasesignuporupgrade-unabletopurchase"
 />
 
@@ -32,7 +32,7 @@ Learn more : [Products available monthly for free under Azure free account](http
 
 **Encountering browser issues  (Browser hangs, keeps spinning, does not load, etc.)**<br>
 
-**Note**: You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://azure.microsoft.com/status/history/)<br>
+**Note**: You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://status.azure.com/status/history/)<br>
 
 **Page hangs in the loading status**<br>
 If your internet browser page hangs, try each of the following steps until you can get to the Azure portal.
