@@ -42,6 +42,11 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 * This error occurs when a machine is already enrolled into Update Management
 * A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
+* Follow the steps in ["Machine is already registered to a different account" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#machine-already-registered)
+
+### **The VM reports to another workspace..."**
+
+* Follow the steps in ["Machine is already registered to a different account" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#machine-already-registered)
 
 ### **Machine shows as "not assessed"**
 
