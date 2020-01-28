@@ -12,7 +12,7 @@
 	supportTopicIds="32574333"
 	resourceTags="servers, databases"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 # We ran diagnostics on your resource and found an ongoing scale issue.
 
