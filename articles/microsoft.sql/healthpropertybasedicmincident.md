@@ -13,7 +13,7 @@
 	    supportTopicIds="31980414"
 	    resourceTags=""
 	    productPesIds="13491"
-	    cloudEnvironments="public"
+	    cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 
 # Database connectivity: Health property generated IcM incident
