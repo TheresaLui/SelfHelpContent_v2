@@ -13,7 +13,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "dc045941-8e65-437b-992b-1f0acd28bb6e",
   "dataSourceMetadata": {
-    "schemaVersion": 1.0,
+    "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
@@ -31,8 +31,8 @@
     },
     "serviceTreeId": "12345678-9012-3456-7890-123456789012"
   },
-  "ingestionClientIdentities": [“00000000-0000-0000-0000-000000000001", ”00000000-0000-0000-0000-000000000002"],
-  "version": 1.0,
+  "ingestionClientIdentities": ["https://testblobaadreccoram.blob.core.windows.net/testblobaad-1?sv=2019-02-02&ss=b&srt=sco&sp=rwdlac&se=2020-02-04T18:57:47Z&st=2020-01-28T10:57:47Z&spr=https&sig=XQcGerVhoMRMZpxD0efvz5eXba4IvO1%2BmoFk8SqnOV8%3D"],
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/ephemeral-os-disks",
   "description": "(V2)Use Ephemeral OS Disk VMs for more performance",
   "longDescription": "(V2)For frequent Reimage operations, prefer IaaS VMs with Ephemeral OS Disk option",
