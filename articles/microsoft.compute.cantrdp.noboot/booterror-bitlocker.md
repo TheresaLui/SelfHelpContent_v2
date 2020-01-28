@@ -29,4 +29,4 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Documents**
 
-* [Azure Disk Encryption extension](https://docs.microsoft.com/azure/security/azure-security-disk-encryption)
+* [Azure Disk Encryption extension](https://docs.microsoft.com/azure/security/fundamentals/azure-disk-encryption-vms-vmss)
