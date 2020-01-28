@@ -4,7 +4,7 @@
 	infoBubbleText="Analyzing Automated ML Experiments"
 	service="microsoft.machinelearning.automl"
 	resource="automl"
-	authors="anumamah"
+	authors="Aniththa"
 	ms.author="anumamah"
 	supportTopicIds="32690835"
 	productPesIds="16644"
