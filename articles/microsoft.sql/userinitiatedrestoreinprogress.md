@@ -5,7 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="aamalvea"
-    ms.author=aamalvea"
+    ms.author="aamalvea"
 	displayOrder=""
 	articleId="UserInitiatedRestoreInProgress_83B4C1D4-8429-4EC2-BD3E-5C8963AD869A"
 	diagnosticScenario=""
