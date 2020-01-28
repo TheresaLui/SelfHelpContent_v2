@@ -2,7 +2,7 @@
 	pageTitle="Analyzing Automated ML Experiments"
 	description="Analyzing Automated ML Experiments"
 	infoBubbleText="Analyzing Automated ML Experiments"
-	service="microsoft.azuremachinelearning.aml-automl"
+	service="microsoft.machinelearning.automl"
 	resource="automl"
 	authors="anumamah"
 	ms.author="anumamah"
