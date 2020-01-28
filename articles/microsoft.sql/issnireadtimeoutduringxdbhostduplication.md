@@ -5,7 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="aamalvea"
-    ms.authors="aamalvea"
+    ms.author="aamalvea"
 	displayOrder=""
 	articleId="IsSniReadTimeoutDuringXdbhostDuplication_8BDA22D6-4005-4359-94E6-D3C636CE99C6"
 	diagnosticScenario=""
