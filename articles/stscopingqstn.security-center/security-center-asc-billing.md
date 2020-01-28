@@ -5,7 +5,7 @@
     ms.author="kawilson"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32693222, 32693233, 32693245, 32693252"
+    supportTopicIds="32693233, 32693245, 32693252"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
