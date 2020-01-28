@@ -49,6 +49,12 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 * Saved searches must be saved as computer groups to appear. See [Computer Groups in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/computer-groups#log-query)
 
+### **Scheduled deployment doesn't occur**
+
+* Check the "Start time" field on the [schedule settings](https://docs.microsoft.com/azure/automation/manage-update-multi#schedule-an-update-deployment). The schedule doesn't start firing until the start time has passed.
+* Check the "Recurrence" field to ensure the schedule is correctly configured. The options are the same as described in the [Azure Automation Schedules](https://docs.microsoft.com/azure/automation/shared-resources/schedules) document.
+* Check the "Set Expiration" and "Expires" fields to ensure the schedule has not expired. 
+
 ## **Recommended Documents**
 
 * [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
