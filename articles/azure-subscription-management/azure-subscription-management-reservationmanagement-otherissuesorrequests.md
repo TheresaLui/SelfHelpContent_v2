@@ -48,7 +48,7 @@ You might be unable to see the Reserved Instances due to a missing RBAC role tha
 7. Select the user, and then select **Save**<br>
 Learn more: [Manage Reservations](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance)<br>
 
-The Enterprise Administrator can transfer ownership of subscriptions within an enrollment. To learn more see [Transfer Account Ownership in the EA portal](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription).
+The Enterprise Administrator can transfer ownership of subscriptions within an enrollment. To learn more see [Transfer Account Ownership in the EA portal](https://docs.microsoft.com/azure/cost-management-billing/manage/ea-portal-administration#transfer-an-enterprise-account-to-a-new-enrollment).
 
 ### Troubleshoot Browser issues (Browser hangs, keeps spinning, does not load, etc.)
 
