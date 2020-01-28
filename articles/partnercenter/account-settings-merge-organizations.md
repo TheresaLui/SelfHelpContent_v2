@@ -19,7 +19,7 @@
 
 # Account settings - Merge organizations
 
-Guidance on how to do an Account Merge
+Guidance on how to do an Account Merge can be found below.
 
 ## **Recommended Documents**
 
