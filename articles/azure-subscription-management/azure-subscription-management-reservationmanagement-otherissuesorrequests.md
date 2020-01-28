@@ -10,7 +10,7 @@
 	supportTopicIds="32593233"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="08b1aa47-f908-41af-b3eb-37c6e45d3dcd"
 />
 
@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-**Check if you are impacted by an outage**: [Azure Health Status](https://status.azure.com/status)<br>
+**Check if you are impacted by an outage**: [Azure Health Status](https://status.azure.com/status/history/)<br>
 
 ### Self-service exchanges and refunds for Azure Reservations
 
