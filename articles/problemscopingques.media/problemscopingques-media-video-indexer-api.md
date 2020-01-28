@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32606550, 32606561, 32606563, 32606574"
     productPesIds="16535"
-    articleId="problemscopingques-video-indexer"
+    articleId="problemscopingques-video-indexer-api"
     cloudEnvironments="public"
     schemaVersion="1"
 />
