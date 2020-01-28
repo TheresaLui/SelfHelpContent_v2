@@ -26,7 +26,7 @@ Autopilot has been registered for all users. Autopilot can only be enabled while
 - Support for CLI and SDK is not yet available
 - Support to enable autopilot mode on existing containers and databases is not yet available
 
-### **I am trying to create the tables programatically using ARM templates and cannot find the context for autopilot setting**
+### **I am trying to create the tables programmatically using ARM templates and cannot find the context for autopilot setting**
 - Support for CLI and SDK is not yet available
 
 

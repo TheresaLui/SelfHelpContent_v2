@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure CosmosDB Cassandra authentication"
-	description="Troubleshoot Azure CosmosDB Cassandra authentication issues"
+	pageTitle="Azure Cosmos DB Cassandra authentication"
+	description="Troubleshoot Azure Cosmos DB Cassandra authentication issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="jimsch"
@@ -15,7 +15,7 @@
 	category="Cassandra"
 />
 
-# Azure CosmosDB Cassandra authentication
+# Azure Cosmos DB Cassandra authentication
 
 Most users are able to resolve their Cosmos DB Cassandra authentication using the steps below. 
 
