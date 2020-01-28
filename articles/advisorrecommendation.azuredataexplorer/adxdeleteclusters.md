@@ -21,7 +21,7 @@
     "refreshInterval": "0.08:00:00"
   },
   "recommendationCategory": "Cost",
-  "recommendationImpact": "Low",
+  "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/clusters",
   "recommendationFriendlyName": "ADX Unused cluster",
   "recommendationMetadataState": "Active",
