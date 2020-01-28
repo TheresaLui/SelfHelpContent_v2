@@ -10,8 +10,8 @@
     diagnosticScenario=""
     selfHelpType="generic"
     supportTopicIds="32690723"
-    resourceTags=""
     productPesIds="16986"
+    resourceTags=""
     cloudEnvironments="Public"
 />
 
