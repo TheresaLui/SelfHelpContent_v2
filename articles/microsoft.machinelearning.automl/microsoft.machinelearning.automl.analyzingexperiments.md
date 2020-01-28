@@ -9,6 +9,8 @@
 	supportTopicIds="32690835"
 	productPesIds="16644"
 	cloudEnvironments="Public"
+	articleId="microsoft.machinelearning.automl.analyzingexperiments"
+	selfHelpType="generic"
 />
 
 # Analyzing Automated ML Experiments
@@ -17,6 +19,7 @@ In this article, you learn how to view and understand automated ML experiments.
 
 
 ## **Recommended Documents**
+
 * [Select your experiment type](https://docs.microsoft.com/azure/machine-learning/how-to-manage-runs)
 * [Compute to run experiment](https://docs.microsoft.com/azure/machine-learning/how-to-manage-runs)
 * [Understand automated machine learning results](https://docs.microsoft.com/azure/machine-learning/how-to-understand-automated-ml)
