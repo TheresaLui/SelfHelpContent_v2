@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Analyzing Automated ML Experiments"
+	description="Analyzing Automated ML Experiments"
+	infoBubbleText="Analyzing Automated ML Experiments"
+	service="microsoft.machinelearning.automl"
+	resource="automl"
+	authors="anumamah"
+	ms.author="anumamah"
+	supportTopicIds="32690835"
+	productPesIds="16644"
+	cloudEnvironments="Public"
+/>
+
 # Analyzing Automated ML Experiments
 
 In this article, you learn how to view and understand automated ML experiments.
