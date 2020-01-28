@@ -37,7 +37,8 @@ There are two main ways logs can be consumed: .log files or Azure diagnostic log
   * You can download logs to store them for longer in your preferred location
   
 *Azure Monitor diagnostic logging*
-Alternatively, you can use Azure Monitor Diagnostic settings to send logs in JSON format to a storage account, Event Hub, or Azure Monitor logs for longer term storage and analysis
+
+Alternatively, you can use Azure Monitor Diagnostic settings to send logs in JSON format to a storage account, Event Hub, or Azure Monitor logs for longer term storage and analysis.
 * Learn how to configure this feature in the Azure Database for PostgreSQL [logs document](https://docs.microsoft.com/azure/postgresql/concepts-server-logs)
   * This feature is only available in the General Purpose and Memory Optimized pricing tiers
 
