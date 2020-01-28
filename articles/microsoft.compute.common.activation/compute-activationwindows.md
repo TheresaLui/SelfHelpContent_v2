@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-Generally, Azure VM activation issues occur if the Windows VM is not configured by using the appropriate KMS client setup key, or the Windows VM has a connectivity problem to the Azure KMS service (**kms.core.windows.net, port 1668**).<br>
+Generally, Azure VM activation issues occur if the Windows VM is not configured by using the appropriate KMS client setup key, or the Windows VM has a connectivity problem to the Azure KMS service (**kms.core.windows.net, port 1688**).<br>
 
 ### You are using the Azure KMS Service and VM is not configured correctly
 
