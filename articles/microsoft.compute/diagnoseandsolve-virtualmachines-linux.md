@@ -587,10 +587,6 @@ cloudEnvironments="public"
         "bladeName": "VmSerialConsoleValidationBlade",
         "parameters": [
           {
-            "name": "id",
-            "value": "$resourceId"
-          },
-          {
             "name": "resourceId",
             "value": "$resourceId"
           }
@@ -609,7 +605,7 @@ cloudEnvironments="public"
         "bladeName": "SerialConsoleLogBladeViewModel",
         "parameters": [
           {
-            "name": "id",
+            "name": "resourceId",
             "value": "$resourceId"
           }
         ]
