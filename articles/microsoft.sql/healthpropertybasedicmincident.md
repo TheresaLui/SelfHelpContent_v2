@@ -21,7 +21,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-There is an existing IcM incident open for this database <i><!--$DatabaseName-->DatabaseName<!--/$DatabaseName--></i> on server <i><!--$ServerName-->ServerName<!--/$ServerName--></i>.
+There is an existing IcM incident open for this database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.
 <!--/issueDescription-->
 
 Please review the related incident(s) for: 
