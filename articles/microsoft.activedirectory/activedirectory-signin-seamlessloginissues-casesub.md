@@ -18,4 +18,5 @@
 
 ## **Recommended Documents**
 
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://aka.ms/MicrosoftSameSiteGuidance)
 * [Troubleshoot Azure AD Seamless Single Sign-on](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso-faq)
