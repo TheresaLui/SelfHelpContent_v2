@@ -18,7 +18,7 @@
     "resourceRequired": true,
     "title": "Performance issue on table scoping question",
     "fileAttachmentHint": "",
-    "formElements": 
+    "formElements":
 	[{
         "id": "problem_type",
         "order": 1,
@@ -36,7 +36,7 @@
             "text": "None of the above"
         }],
         "required": true
-    }, 
+    },
 	{
         "id": "issue_nature",
         "order": 2,
@@ -105,7 +105,7 @@
             "text": "None of the above"
         }],
         "required": true
-    }, 
+    },
 	{
         "id": "table_name",
         "order": 7,
@@ -121,8 +121,7 @@
         "displayLabel": "Provide details of your advisory ask. For troubleshooting issues provide additional details like error message or exception stack",
         "required": true,
         "useAsAdditionalDetails": true
-    } 
-
+    }
 	],
  }
 ---
