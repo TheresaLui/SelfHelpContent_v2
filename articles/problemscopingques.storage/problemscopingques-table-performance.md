@@ -13,8 +13,6 @@
 
 # Performance issue on table
 
----
-
 { 
 "subscriptionRequired": true,
     "resourceRequired": true,
@@ -129,4 +127,4 @@
     "$schema": "SelfHelpContent"
 
  }
----
+
