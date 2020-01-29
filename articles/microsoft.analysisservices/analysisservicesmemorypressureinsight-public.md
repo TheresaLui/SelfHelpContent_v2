@@ -23,9 +23,10 @@ There is memory consumption higher than **<!--$MemoryLimitHigh-->MemoryLim
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 We have identified there is memory pressure on your server which can impact your query and processing performance. We recommend scaling up to a higher tier to improve your performance.
 
-1. Please review the [Azure Analysis Services pricing](https://azure.microsoft.com/pricing/details/analysis-services/) page for more details on Tiers and Memory Limits. 
+Please review the [Azure Analysis Services pricing](https://azure.microsoft.com/pricing/details/analysis-services/) page for more details on Tiers and Memory Limits.
 
 ## **Recommended Documents**
 
