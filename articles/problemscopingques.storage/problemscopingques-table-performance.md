@@ -11,8 +11,9 @@
 	articleId="cb9c0899-36e8-4fa6-bc1e-142271c7743e"
 />
 
-# Performance issue on table
 
+# Performance issue on table
+---
 { 
 "subscriptionRequired": true,
     "resourceRequired": true,
@@ -36,7 +37,8 @@
             "text": "None of the above"
         }],
         "required": true
-    }, {
+    }, 
+	{
         "id": "issue_nature",
         "order": 2,
         "visibility": "problem_type == Issue",
@@ -127,4 +129,4 @@
     "$schema": "SelfHelpContent"
 
  }
-
+---
