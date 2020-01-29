@@ -62,7 +62,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 ### **Machines don't install updates**
 
 * Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
-* If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Clean up resources"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#clean-up-resources)
+* See the ["Failed to Start" troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#failed-to-start)
 
 ### **"No computers match the Update deployment target specification" error received**
 
