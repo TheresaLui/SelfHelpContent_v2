@@ -21,4 +21,4 @@ The standard run profile configuration has been modified. Details: <!--$IssueDet
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Modifying the standard run profile configuration may severely impact the performance of the sync engine. Please avoid making this kind of changes.
+Modifying the standard run profile configuration may severely impact the performance of the sync engine. Please avoid making this kind of change.
