@@ -34,6 +34,10 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 * If you recieve the error **"You have requested to create an update configuration on a machine that is not registered for Update Management"**, you may need to [follow step 2 for images that were cloned](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#resolution-2) 
 * Ensure you have the correct permissions to create deployments, especially Contributor access on any Azure VMs you are trying to manage, by referencing the ["Update Management"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) section of the Automation RBAC documentation
 
+### ** Error editing an existing deployment**
+
+* If you see a grey cloud icon when opening an existing update deployment, [the underlying schedule might have been deleted](https://docs.microsoft.com/azure/automation/manage-update-multi#schedule-an-update-deployment). You will need to recreate the deployment. 
+
 ### **"No computers match the Update deployment target specification" error received**
 
 * You may see this error if machines are offline when the deployment occurs. Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs).
