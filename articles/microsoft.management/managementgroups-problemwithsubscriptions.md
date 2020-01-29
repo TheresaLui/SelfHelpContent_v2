@@ -18,7 +18,7 @@ Here are a some common issues you might experience with subscriptions and manage
 
 - [I received a generic error saying something went wrong and to contact support](#generic-error-when-something-went-wrong)
 - [The management group or subscription I want to move is not listed in the dropdown](#The-subscription-or-management-group-is-not-listed)
-- [I can't see the subscription that I just moved under a management group](#I-can't-see-the-subscription-that-I-just-moved)
+- [I can't see the subscription that I just moved under a management group](#I-cannot-see-the-subscription-that-I-just-moved)
 - [Issues with Resource Groups?](#issues-with-Resource-Groups)
 
 ## Generic error when something went wrong
@@ -44,7 +44,7 @@ With these three permissions being true, you will be able to move the subscripti
 
 When working within the Azure portal, the dropdowns will only show you the items you are able to move. This is to help avoid any errors as the service only will present the items with the proper permissions. If you are not seeing the proper items in the dropdowns, check your permissions on the subscriptions or management groups. For help see [Recommended Steps](#recommended-steps) on how to check your permissions.  
 
-## I can't see the subscription that I just moved
+## I cannot see the subscription that I just moved
 
 If you are having trouble finding the subscription you just moved under a management group, there are a couple steps you can do to find out what happened:
 
