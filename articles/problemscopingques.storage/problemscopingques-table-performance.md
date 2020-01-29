@@ -122,6 +122,6 @@
         "required": true,
         "useAsAdditionalDetails": true
     }
-	],
+	]
  }
 ---
