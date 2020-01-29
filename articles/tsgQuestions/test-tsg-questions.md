@@ -1,5 +1,5 @@
 <properties
-         pageTitle="TSG questions for ASC"
+         pageTitle="TSG questions"
          description="Troubleshooter questions with radio button"
          authors="akankshajsh"
          ms.author="akjoshi"
