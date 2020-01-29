@@ -11,6 +11,8 @@
 	articleId="cb9c0899-36e8-4fa6-bc1e-142271c7743e"
 />
 
+# Performance issue on table
+
 ---
 
 { 
