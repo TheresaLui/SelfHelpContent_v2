@@ -26,6 +26,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 * Investigate runbook [error streams](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#runbook-output) for specific messages and compare them to the errors below
 * [Update the Azure PowerShell](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) modules in your Automation Account to the latest version
 * Ensure you are using the RunAs service principal with the -ServicePrincipal parameter on any Azure resources. Using credentials within the Azure Automation sandbox may lead to authentication failures. 
+* If you are having issues with a specific cmdlet, you may find more relevant information with the service you are trying to use through the cmdlet. For example, New-AzAnalysisServicesServer issues might end up with the Analysis Services team. 
 
 ### "Command not recognized"
 
