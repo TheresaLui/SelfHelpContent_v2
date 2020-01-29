@@ -52,6 +52,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
+* If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 * Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 ### **Remove machine from Update Management**
