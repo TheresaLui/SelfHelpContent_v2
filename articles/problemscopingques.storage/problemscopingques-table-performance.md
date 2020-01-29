@@ -2,7 +2,7 @@
 	pageTitle="Performance issue on table"
 	description="Performance issue on table"
 	authors="kartikshah9"
-    ms.author="kashah"
+    	ms.author="kashah"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602885"
 	productPesIds="16462"
@@ -10,12 +10,11 @@
 	schemaVersion="1"
 	articleId="cb9c0899-36e8-4fa6-bc1e-142271c7743e"
 />
-
-
 # Performance issue on table
 ---
-{ 
-"subscriptionRequired": true,
+{
+	"$schema": "SelfHelpContent",
+	"subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Performance issue on table scoping question",
     "fileAttachmentHint": "",
@@ -107,7 +106,6 @@
         }],
         "required": true
     }, 
-	 
 	{
         "id": "table_name",
         "order": 7,
@@ -126,6 +124,5 @@
     } 
 
 	],
-    "$schema": "SelfHelpContent"
  }
 ---
