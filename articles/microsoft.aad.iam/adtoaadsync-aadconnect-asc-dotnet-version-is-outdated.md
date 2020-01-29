@@ -1,7 +1,7 @@
 <properties
-pageTitle="Detected AADConnect server(s) running .net version < 4.7.2"
-	description="Detected AADConnect server(s) running .net version < 4.7.2"
-	infoBubbleText="Detected AADConnect server(s) running .net version < 4.7.2"
+pageTitle="Detected AADConnect server(s) running .net version less than 4.7.2"
+	description="Detected AADConnect server(s) running .net version less than 4.7.2"
+	infoBubbleText="Detected AADConnect server(s) running .net version less than 4.7.2"
 	service="microsoft.aad.iam"
 	resource="aadconnect"
 	authors="rodejo"
