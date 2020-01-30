@@ -38,12 +38,16 @@ If you create a new Jupyter notebook and receive one of the errors listed above,
 1. Check the value of version_info
 1. If the value of version_info is set to: 
 
+   `
    version_info = (5, 0, 3)
-       
+   `
+   
    Then modify the entry to: 
 
+   `
    version_info = (4, 4, 0)
-        
+   `
+   
    And save the file
 
    If version_info is already set to (4, 4, 0), then continue to the next step as only Ambari needs to be restarted, no additional changes are needed.
