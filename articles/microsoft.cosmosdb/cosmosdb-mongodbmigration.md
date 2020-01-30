@@ -28,27 +28,10 @@ To migrate data from MongoDB to an Azure Cosmos DB account for use with the API 
 
 ### **Updating Mongo DB 3.2 to 3.6**  
 All new accounts provisioned using Azure Portal will have the option to provision with server version 3.6.  
-For existing accounts a support ticket to update is required and the update will change the server version. While generally 3.6 is compatible with 3.2, it is recommended a customer provision a new account through the portal and select the Mongo DB server version 3.6 try it out with their application on a dev or qa instance before considering updating the account backing any production workload.  
+For existing accounts a support ticket to update is required and the update will change the server version. While generally 3.6 is compatible with 3.2, it is recommended a customer provision a new account through the portal and select the Mongo DB server version 3.6 to try it out with their application on a dev or qa instance before considering updating the account backing any production workload.  
 
-
-### **Cosmos DB Mongo DB 3.6 New Features**  
-Please see [Mongo DB 3.6 Supported Features and Syntax](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
-* Support for new commands/aggregation stages added in v3
-* Support for ChangeStream  (ChangeFeed via changestream)
-* Support for Compound indexes
-* Support for unsharded collections in databases with throughput
-* Support for cross-partition UPDATE/DELETE/COUNT
-* Support for cross-partition ORDERBY
-* Support for aggregate pushdown for Count
-* Support for SKIP/LIMIT pushdown
-* Support for GROUPBY pushdown for supported queries
-* The 40 MB limit is only removed on server version 3.6. It is recommended the customer create a new account on server version 3.6, or request we update this existing account to server version 3.6. 
- 
-**Changes from v3.2**  
-* Mongo collections will only have *_id* index by default vs auto-indexing (as with Mongo v3.2 stack)
-* Mongo service will not retry on 429s (Mongo v3.2 stack did 10 retries before returning RateLimiting error to client)
-* Per request timeout is increased from 15 seconds to 30 seconds
-* Idle connection timeout is increased from 30 minutes to 5 hours 
+### **Using 3.2 and 3.6**
+Upgrading to 3.6 does not mean you have to stop using 3.2 style change feed. All features of 3.2 continue to be supported in 3.6, even the 3.2 endpoint will remain operational for certain client applications you wish to keep on 3.2 for longer than others. The 3.6 update does not move or alter the data as it is at the API and not the storage layer.  
 
 
 
