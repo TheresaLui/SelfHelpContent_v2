@@ -16,7 +16,7 @@
 
 # You got unexpected results from an alert rule
 
-If you need help understanding why you got unexpected results from an alert rule, see the tutorial [Visualize and monitor your data](https://docs.microsoft.com/azure/sentinel/tutorial-monitor-your-data) for information about:
+If you need help understanding why you got unexpected results from an alert rule, see the tutorial [Visualize and monitor your data](https://docs.microsoft.com/azure/sentinel/tutorial-monitor-your-data).
 
 ## **Recommended Documents**
 
