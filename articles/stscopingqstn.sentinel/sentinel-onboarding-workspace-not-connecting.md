@@ -24,7 +24,7 @@ If you need help understanding why your workspace is not connecting, see [On-boa
 - [Connecting data sources](https://docs.microsoft.com/azure/sentinel/quickstart-onboard#connect-data-sources)
 
 and see [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions) for information about: 
-
+<br/><br/>
 
 - [Roles and allowed actions](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions)
 - [Building custom RBAC roles](https://docs.microsoft.com/azure/sentinel/roles#building-custom-rbac-roles)
