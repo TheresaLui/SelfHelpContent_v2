@@ -16,4 +16,6 @@
 
 # Understand your bill
 
+## **Recommended Documents**
+
 To better understand your bill, see [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/) for information about Azure Sentinel related billing.

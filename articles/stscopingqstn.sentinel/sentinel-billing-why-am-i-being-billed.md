@@ -16,4 +16,6 @@
 
 # Why are you being billed
 
+## **Recommended Documents**
+
 To better understand why you are being billed, see [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/) for information about Azure Sentinel related billing.

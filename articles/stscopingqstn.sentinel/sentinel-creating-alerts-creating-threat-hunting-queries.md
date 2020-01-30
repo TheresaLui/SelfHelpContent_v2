@@ -18,6 +18,8 @@
 
 If you need help creating threat hunting queries, see [Hunt for threats with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/hunting) for information about:
 
+## **Recommended Documents**
+
 - [Getting started hunting](https://docs.microsoft.com/azure/sentinel/hunting#get-started-hunting)
 - [Query languages](https://docs.microsoft.com/azure/sentinel/hunting#query-language)
 - [Sample queries](https://docs.microsoft.com/azure/sentinel/hunting#sample-query)

@@ -18,6 +18,8 @@
 
 If you need help creating bookmarks, see [Keep track of data during hunting with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/bookmarks) for information about:
 
+## **Recommended Documents**
+
 - [How to add a bookmark](https://docs.microsoft.com/azure/sentinel/bookmarks#add-a-bookmark)
 - [How to view and update bookmarks](https://docs.microsoft.com/azure/sentinel/bookmarks#view-and-update-bookmarks)
 - [How to add bookmarks to a new or existing incident](https://docs.microsoft.com/azure/sentinel/bookmarks#add-bookmarks-to-a-new-or-existing-incident)

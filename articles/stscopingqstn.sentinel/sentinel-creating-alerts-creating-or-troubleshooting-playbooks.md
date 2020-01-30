@@ -18,6 +18,8 @@
 
 If you need help creating or troubleshooting playbooks, see the tutorial [Set up automated threat responses in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook) for information about:
 
+## **Recommended Documents**
+
 - [Creating a security Playbook](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook#create-a-security-playbook)
 - [How to run a security Playbook](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook#how-to-run-a-security-playbook)
 - [Automating threat responses](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook#automate-threat-responses)

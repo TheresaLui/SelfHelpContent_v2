@@ -18,6 +18,8 @@
 
 If you need help enabling and configuring connectors, see [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) for information about:
 
+## **Recommended Documents**
+
 - [Data connection methods](https://docs.microsoft.com/azure/sentinel/connect-data-sources#data-connection-methods)
 - [Agent connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#agent-connection-options)
 - [How to map data types with Azure Sentinel connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#map-data-types-with-azure-sentinel-connection-options)
