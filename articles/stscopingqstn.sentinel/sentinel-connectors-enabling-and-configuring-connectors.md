@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Enabling and configuring connectors"
-    description="Enabling and configuring connectors"
+    pageTitle="Enable and configure connectors"
+    description="Enable and configure connectors"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,10 +14,10 @@
     articleId="sentinel-connectors-enabling-and-configuring-connectors"
 />
 
-# Enabling and configuring connectors
+# Enable and configure connectors
 
-If you need help enabling and configuring connectors, the article [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) provides information about:
+If you need help enabling and configuring connectors, see [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) for information about:
 
 - [Data connection methods](https://docs.microsoft.com/azure/sentinel/connect-data-sources#data-connection-methods)
 - [Agent connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#agent-connection-options)
-- [Map data types with Azure Sentinel connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#map-data-types-with-azure-sentinel-connection-options)
+- [How to map data types with Azure Sentinel connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#map-data-types-with-azure-sentinel-connection-options)

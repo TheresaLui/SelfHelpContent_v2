@@ -16,7 +16,7 @@
 
 # Unable to use log search
 
-If you need help using log search, the article [Roles, permissions, and security in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security) provides information about: 
+If you need help using log search, see [Roles, permissions, and security in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security) for information about: 
 
 - [Built-in monitoring roles](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#built-in-monitoring-roles)
 - [Monitoring permissions and custom RBAC roles](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles)

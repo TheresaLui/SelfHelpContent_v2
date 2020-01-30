@@ -1,6 +1,6 @@
 <properties
-    pageTitle="My connector is not showing data"
-    description="My connector is not showing data"
+    pageTitle="Your connector is not showing data"
+    description="Your connector is not showing data"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,9 +14,9 @@
     articleId="sentinel-connectors-connector-is-not-showing-data"
 />
 
-# My connector is not showing data
+# Your connector is not showing data
 
-If you need help understanding why your connector is not showing data, the article [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) provides information about:
+If you need help understanding why your connector is not showing data, see [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) for information about:
 
 - [Data connection methods](https://docs.microsoft.com/azure/sentinel/connect-data-sources#data-connection-methods)
 - [Agent connection options](https://docs.microsoft.com/azure/sentinel/connect-data-sources#agent-connection-options)

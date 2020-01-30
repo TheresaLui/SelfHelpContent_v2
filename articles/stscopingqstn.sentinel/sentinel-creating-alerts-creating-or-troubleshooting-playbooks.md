@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Creating or troubleshooting playbooks"
-    description="Creating or troubleshooting playbooks"
+    pageTitle="Create or troubleshoot playbooks"
+    description="Create or troubleshoot playbooks"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,10 +14,10 @@
     articleId="sentinel-creating-alerts-creating-or-troubleshooting-playbooks"
 />
 
-# Creating or troubleshooting playbooks
+# Create or troubleshoot playbooks
 
-If you need help creating or troubleshooting playbooks, the tutorial about how to [Set up automated threat responses in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook) provides information about:
+If you need help creating or troubleshooting playbooks, see the tutorial [Set up automated threat responses in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook) for information about:
 
-- [Create a security Playbook](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook#create-a-security-playbook)
+- [Creating a security Playbook](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook#create-a-security-playbook)
 - [How to run a security Playbook](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook#how-to-run-a-security-playbook)
-- [Automate threat responses](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook#automate-threat-responses)
+- [Automating threat responses](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook#automate-threat-responses)

@@ -1,6 +1,6 @@
 <properties
-    pageTitle="What are the alert rule best practices"
-    description="What are the alert rule best practices"
+    pageTitle="What are alert rule best practices"
+    description="What are alert rule best practices"
     service=""
     resource=""
     authors="AmirKe"
@@ -16,6 +16,6 @@
 
 # What are the alert rule best practices
 
-If you want to learn more about what are the alert rule best practices, the tutorial about how to [Create custom analytic rules to detect suspicious threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom) provides information about:
+To learn more about the alert rule best practices, see the tutorial [Create custom analytic rules to detect suspicious threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom) for information about:
 
-- [Create custom analytic rules](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom#create-custom-analytic-rules)
+- [Creating custom analytic rules](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom#create-custom-analytic-rules)

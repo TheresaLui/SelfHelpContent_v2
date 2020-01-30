@@ -16,10 +16,10 @@
 
 # Workbook is displaying unexpected data
 
-If you need help understanding data displayed in workbooks, the article [Get started with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility) provides information about: 
+If you need help understanding the data displayed in workbooks, see [Get started with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility) for information about: 
 
-- [Get visualization](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#get-visualization)
-- [Use built-in workbooks](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#use-built-in-workbooks)
-- [Create new workbooks](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#create-new-workbooks)
+- [Getting visualization](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#get-visualization)
+- [Using built-in workbooks](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#use-built-in-workbooks)
+- [Creating new workbooks](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#create-new-workbooks)
 - [New workbook examples](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#new-workbook-examples)
-- [Create new detections](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#create-new-detections)
+- [Creating new detections](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility#create-new-detections)

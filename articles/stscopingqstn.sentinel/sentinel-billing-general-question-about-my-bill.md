@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Understanding my bill"
-    description="Understanding my bill"
+    pageTitle="Understand your bill"
+    description="Understand your bill"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,6 +14,6 @@
     articleId="sentinel-billing-general-question-about-my-bill"
 />
 
-# Understanding my bill
+# Understand your bill
 
-If you want to better understand your bill, the article [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/) provides information about Azure Sentinel related billing
+To better understand your bill, see [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/) for information about Azure Sentinel related billing.

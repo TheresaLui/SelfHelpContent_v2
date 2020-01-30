@@ -16,6 +16,6 @@
 
 # Failure to create workspace
 
-If you need help figuring out why a workspace is failing to create, the aritcle [Create a Log Analytics workspace in the Azure portal](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) provides information about:
+If you need help figuring out why your workspace failed to be created, see [Create a Log Analytics workspace in the Azure portal](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) for information about:
 
-- [Create a workspace](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace#create-a-workspace)
+- [Creating a workspace](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace#create-a-workspace)

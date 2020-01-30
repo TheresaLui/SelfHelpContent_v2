@@ -1,6 +1,6 @@
 <properties
-    pageTitle="My scenario is not listed"
-    description="My scenario is not listed"
+    pageTitle="Your scenario is not listed"
+    description="Your scenario is not listed"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,9 +14,9 @@
     articleId="sentinel-creating-alerts-my-scenario-is-not-listed"
 />
 
-# My scenario is not listed
+# Your scenario is not listed
 
-If you need help figuring out why your scenario is not listed, the tutorial about how to [Detect threats out-of-the-box](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in) provides information about: 
+If you need help figuring out why your scenario is not listed, see the tutorial [Detect threats out-of-the-box](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in) for information about: 
 
-- [About out-of-the-box detections](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in#about-out-of-the-box-detections)
-- [Use out-of-the-box detections](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in#use-out-of-the-box-detections)
+- [Out-of-the-box detections](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in#about-out-of-the-box-detections)
+- [Using out-of-the-box detections](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in#use-out-of-the-box-detections)

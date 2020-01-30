@@ -16,7 +16,7 @@
 
 # How to investigate an incident
 
-If you need help investigating an incident, the tutorial about how to [Investigate incidents with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases) provides information about:
+If you need help investigating an incident, see the tutorial [Investigate incidents with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases) for information about:
 
 - [How to investigate incidents](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases#how-to-investigate-incidents)
-- [Use the investigation graph to deep dive](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases#use-the-investigation-graph-to-deep-dive)
+- [Using the investigation graph to deep dive](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases#use-the-investigation-graph-to-deep-dive)

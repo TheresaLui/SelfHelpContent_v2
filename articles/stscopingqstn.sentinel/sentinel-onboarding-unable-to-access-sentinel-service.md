@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Unable to access Sentinel service"
-    description="Unable to access Sentinel service"
+    pageTitle="Unable to access the Azure Sentinel service"
+    description="Unable to access the Azure Sentinel service"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,9 +14,9 @@
     articleId="sentinel-onboarding-unable-to-access-sentinel-service"
 />
 
-# Unable to access Sentinel service
+# Unable to access the Azure Sentinel service
 
-If you need help figuring out why you are unable to access Sentinel, the article [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions) provides information about: 
+If you need help figuring out why you are unable to access Azure Sentinel, see [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions) for information about: 
 
 - [Roles and allowed actions](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions)
 - [Building custom RBAC roles](https://docs.microsoft.com/azure/sentinel/roles#building-custom-rbac-roles)

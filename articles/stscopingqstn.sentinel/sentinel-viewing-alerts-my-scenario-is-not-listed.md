@@ -1,6 +1,6 @@
 <properties
-    pageTitle="My scenario is not listed"
-    description="My scenario is not listed"
+    pageTitle="Your scenario is not listed"
+    description="Your scenario is not listed"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,9 +14,9 @@
     articleId="sentinel-viewing-alerts-my-scenario-is-not-listed"
 />
 
-# My scenario is not listed
+# Your scenario is not listed
 
-If you need help figuring out why your scenario is not listed, the article [Advanced multistage attack detection in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/fusion) provides information about:
+If you need help figuring out why your scenario is not listed, see [Advanced multistage attack detection in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/fusion) for information about:
 
 - [Configuration for advanced multistage attack detection](https://docs.microsoft.com/azure/sentinel/fusion#configuration-for-advanced-multistage-attack-detection)
 - [Scenarios supported for advanced multistage attack detection](https://docs.microsoft.com/azure/sentinel/fusion#scenarios-supported-for-advanced-multistage-attack-detection)

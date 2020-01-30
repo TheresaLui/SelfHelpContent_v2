@@ -1,6 +1,6 @@
 <properties
-    pageTitle="My scenario is not listed"
-    description="My scenario is not listed"
+    pageTitle="Your scenario is not listed"
+    description="Your scenario is not listed"
     service=""
     resource=""
     authors="AmirKe"
@@ -14,9 +14,9 @@
     articleId="sentinel-onboarding-my-scenario-is-not-listed"
 />
 
-# My scenario is not listed
+# Your scenario is not listed
 
-If you need help figuring out why your scenario is not listed, the article [On-board Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard) provides information about:
+If you need help figuring out why your scenario is not listed, see [On-board Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard) for information about:
 
-- [Enable Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard#enable-azure-sentinel)
-- [Connect data sources](https://docs.microsoft.com/azure/sentinel/quickstart-onboard#connect-data-sources)
+- [Enabling Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard#enable-azure-sentinel)
+- [Connecting data sources](https://docs.microsoft.com/azure/sentinel/quickstart-onboard#connect-data-sources)
