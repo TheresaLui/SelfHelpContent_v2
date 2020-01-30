@@ -16,7 +16,7 @@
 
 # Unable to create an alert rule
 
-If you need help creating an alert rule, see [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions) for information about: 
+If you need help creating an alert rule, see [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions).
 
 ## **Recommended Documents**
 
