@@ -16,7 +16,7 @@
 
 # Your scenario is not listed
 
-If you need help figuring out why your scenario is not listed, see [What is Azure Monitor for VMs](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview) for information about: 
+If you need help figuring out why your scenario is not listed, see [What is Azure Monitor for VMs](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview).
 
 ## **Recommended Documents**
 
