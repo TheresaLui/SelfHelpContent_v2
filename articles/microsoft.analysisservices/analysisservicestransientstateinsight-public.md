@@ -1,7 +1,7 @@
 <properties
 	pageTitle="A server is stuck in a transient state"
 	description="Transient State"
-	infoBubbleText="A server is unresponsive or stuck in a transient state"
+	infoBubbleText="A server is unresponsive or stuck in a transient state. See details on the right."
 	service="microsoft.analysisservices"
 	resource="servers"
 	authors="brspie"
