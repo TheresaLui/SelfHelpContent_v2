@@ -24,5 +24,5 @@ We have identified that the server **<!--$ServerName-->ServerName<!--/$ServerNam
 
 ## **Recommended Steps**
 
-1. For quicker resolution, we recommend restarting the server.
+For quicker resolution, we recommend restarting the server.
 
