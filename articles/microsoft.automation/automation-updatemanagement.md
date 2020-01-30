@@ -41,7 +41,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 * For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
 * Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
 
-### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
+### **"The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already enrolled into Update Management
 * A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
