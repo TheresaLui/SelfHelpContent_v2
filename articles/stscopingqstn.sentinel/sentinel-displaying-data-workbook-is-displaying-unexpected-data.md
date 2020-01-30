@@ -16,7 +16,7 @@
 
 # Workbook is displaying unexpected data
 
-If you need help understanding the data displayed in workbooks, see [Get started with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility) for information about: 
+If you need help understanding the data displayed in workbooks, see [Get started with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-get-visibility).
 
 ## **Recommended Documents**
 
