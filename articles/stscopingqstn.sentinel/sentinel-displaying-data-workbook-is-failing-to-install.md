@@ -26,6 +26,7 @@ If you need help understanding why a workbook is failing to install, see [Permis
 
 and see [Create interactive reports Azure Monitor for VMs with workbooks](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks) for information about: 
 
+
 - [Starting with a template or saved workbook](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks#starting-with-a-template-or-saved-workbook)
 - [Editing workbook sections](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks#editing-workbook-sections)
 - [Adding text and Markdown sections](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks#adding-text-and-markdown-sections)
