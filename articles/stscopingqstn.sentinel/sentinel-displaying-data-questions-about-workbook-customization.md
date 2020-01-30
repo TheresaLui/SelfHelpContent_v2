@@ -16,7 +16,7 @@
 
 # How can you customize workbooks
 
-If you need help customizing your workbooks, see [How to query logs from Azure Monitor for VMs](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search) for information about: 
+If you need help customizing your workbooks, see [How to query logs from Azure Monitor for VMs](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search).
 
 ## **Recommended Documents**
 
