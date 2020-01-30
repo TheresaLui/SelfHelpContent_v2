@@ -25,4 +25,5 @@ If you need help creating an alert rule, see [Detect threats out-of-the-box](htt
 
 and the tutorial about how to [Create custom analytic rules to detect suspicious threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom) for information about:
 
+
 - [Creating custom analytic rules](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom#create-custom-analytic-rules)
