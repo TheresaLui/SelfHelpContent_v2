@@ -16,7 +16,7 @@
 
 # Investigating threats in Azure Sentinel
 
-If you need help using the investigation feature, see [Investigate incidents with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases) for information about:
+If you need help using the investigation feature, see [Investigate incidents with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases).
 
 ## **Recommended Documents**
 
