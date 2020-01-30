@@ -24,6 +24,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 ### **Permissions needed to enable and use Update Management**
 
+* You may receive the message "... does not have permission to perform action Microsoft.Compute/virtualMachines/write" if you do not have permissions on the VMs you wish to deploy updates on
 * Review ["Role-Based Access Control"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management)
 
 ### **Desired automation account, region, or Log Analytics workspace is greyed out**
