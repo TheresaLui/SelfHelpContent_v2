@@ -20,5 +20,5 @@ In this article, you learn how to resolve automated machine learning related use
 
 ## **Recommended Documents**
 
-* [Create, explore, and deploy automated machine learning experiments with Azure Machine Learning studio](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-portal-experiments)
-* [What is automated machine learning?](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-mls)
+* [Create, explore, and deploy automated machine learning experiments with Azure Machine Learning studio](https://docs.microsoft.com/azure/machine-learning/how-to-create-portal-experiments)
+* [What is automated machine learning?](https://docs.microsoft.com/azure/machine-learning/concept-automated-mls)
