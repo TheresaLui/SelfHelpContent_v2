@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-To better understand how data use affects you, see [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/) for more information on how the Azure Sentinel pricing model works. YOu can also use the [Calculator](https://azure.microsoft.com/pricing/calculator/) provided to better estimate your future costs.
+To better understand how data use affects you, see [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/) for more information on how the Azure Sentinel pricing model works. You can also use the [Calculator](https://azure.microsoft.com/pricing/calculator/) provided to better estimate your future costs.
