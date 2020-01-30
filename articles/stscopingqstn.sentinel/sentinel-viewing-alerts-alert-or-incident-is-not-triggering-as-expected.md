@@ -24,6 +24,6 @@ If you need help understanding why an alert or incident is not triggering the ex
 - [Using out-of-the-box detections](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-built-in#use-out-of-the-box-detections)
 
 and the tutorial [Create custom analytic rules to detect suspicious threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom) for information about:
-
+<br/><br/>
 
 - [Creating custom analytic rules](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom#create-custom-analytic-rules)
