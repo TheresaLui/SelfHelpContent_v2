@@ -16,7 +16,7 @@
 
 # What are the alert rule best practices
 
-To learn more about the alert rule best practices, see the tutorial [Create custom analytic rules to detect suspicious threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom) for information about:
+To learn more about the alert rule best practices, see the tutorial [Create custom analytic rules to detect suspicious threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom).
 
 ## **Recommended Documents**
 
