@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+### [I am seeing trouble signing in to application(s) using Chrome browser only.](https://aka.ms/MicrosoftSameSiteGuidance)
+
 ### **Password reset link is not working**
 
 Currently, the combined "Sign-up or Sign-in policy" has a limitation that prevents your users from being able to reset their password from the login page. Azure AD B2C will return an error to your application when a user clicks on the password reset link. There are two different mechanisms to implement password reset in this case:
