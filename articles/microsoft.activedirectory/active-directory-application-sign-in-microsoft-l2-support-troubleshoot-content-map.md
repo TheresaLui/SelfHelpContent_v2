@@ -17,4 +17,5 @@
 
 The following documents can help you to resolve some of the most common issues in this category.
 
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://aka.ms/MicrosoftSameSiteGuidance)
 * [I can't sign in to a Microsoft application](https://docs.microsoft.com/azure/active-directory/application-sign-in-problem-first-party-microsoft/?WT.mc_id=UI_AAD_Apps_Sign_In_Support_L2_MicrosoftApp)
