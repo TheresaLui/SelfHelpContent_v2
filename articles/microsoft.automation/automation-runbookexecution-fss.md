@@ -33,6 +33,7 @@ There are several reasons why a runbook may be suspended or failed:
 * [Job Statuses](https://docs.microsoft.com/azure/automation/automation-runbook-execution#job-statuses) defines runbook statuses and some possible causes
 * [Add additional output](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#message-streams) to the runbook to identify what happens before the runbook is suspended
 * [Handle any exceptions](https://docs.microsoft.com/azure/automation/automation-runbook-execution#handling-exceptions) that are thrown by your job
+  * You may want to retry when certain exceptions, such as WebSocket exceptions, occur in order to prevent transient network failures from causing your runbook to fail. 
 
 ### Job was tried three times but it failed 
 
