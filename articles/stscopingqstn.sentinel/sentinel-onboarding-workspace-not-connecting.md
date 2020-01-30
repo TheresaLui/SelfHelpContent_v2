@@ -25,6 +25,7 @@ If you need help understanding why your workspace is not connecting, see [On-boa
 
 and see [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions) for information about: 
 
+
 - [Roles and allowed actions](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions)
 - [Building custom RBAC roles](https://docs.microsoft.com/azure/sentinel/roles#building-custom-rbac-roles)
 - [Advanced RBAC on the data you store in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#advanced-rbac-on-the-data-you-store-in-azure-sentinel)
