@@ -132,13 +132,13 @@
       "longDescription": null,
       "shortDescription": "Issue with extensions not covered by other topics above",
       "searchTags": "",
-      "category": "Deployment",
+      "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
       "id": "14b1d04c-90d1-a0ad-8bfc-d98666f39d30",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Issue with data driver or file system not being available after encryption",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -218,7 +218,7 @@
     {
       "id": "397fe3e8-5101-d675-e61a-babcc02ff874",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Covers issues that are not listed above and are related to Azure Disk Encryption",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -234,7 +234,7 @@
     {
       "id": "3cd0b841-0192-fcb7-f056-cccdb669cd4a",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Covers scenarios where the operating system or image does not support Azure Disk Encryption",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -330,7 +330,7 @@
     {
       "id": "501cfa71-4c26-0615-c60e-c800d605e049",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Covers issues with the VM Access (enablevmaccess) extension",
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -464,14 +464,6 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
-      "id": "6a87c6f5-ed3b-7a16-776d-a6a635b01fcf",
-      "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "Deployment",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
       "id": "6c8b2a76-0250-e93c-ca70-263729a68761",
       "longDescription": null,
       "shortDescription": "Creating or configuring a Windows failover cluster for a virtual machine running in Azure",
@@ -514,7 +506,7 @@
     {
       "id": "77622630-5414-5a0b-15b2-84be742163e5",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Covers guidance with Azure Key Vault configuration, permissions, or keys issues",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -610,7 +602,7 @@
     {
       "id": "8be087ad-d9b0-fbd1-aebe-c4b3bf9c2e0e",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Assistance with encryption failures related to pre-requirements not being met",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -658,7 +650,7 @@
     {
       "id": "98745d3a-6d4f-30a7-a3c9-8ad002a95560",
       "longDescription": null,
-      "shortDescription": "Assitance with a security advisory or vulnerabilities for a virtual machine",
+      "shortDescription": "Assistance with a security advisory or vulnerabilities for a virtual machine",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -738,7 +730,7 @@
     {
       "id": "af1c1222-ca4f-b128-741b-f54511d64201",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Resolve issues with unlocking an encrypted VM for troubleshooting reasons",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -754,7 +746,7 @@
     {
       "id": "af987d76-3ad6-c91a-5050-24712c6edc1f",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -810,7 +802,7 @@
     {
       "id": "bc6dcea4-b6da-cd06-7ab1-1ddfb603eaee",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Assistance when the VM is not reachable immediately after enabling encryption",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -1084,7 +1076,23 @@
       "longDescription": null,
       "shortDescription": "Covers issues with Network Watcher extension",
       "searchTags": "",
-      "category": "Deployment",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "0969c3f5-eae0-7620-93c2-609254bcac83",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Azure Active Directory Login extension",
+      "searchTags": "",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "0ff542fa-5338-ba24-2e2d-00200b837667",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Azure Custom Script (CSE) extension using Managed Identity extension",
+      "searchTags": "",
+      "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -1106,7 +1114,7 @@
     {
       "id": "fabe7798-6447-21d1-eec1-ff516a8b2716",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Covers issues with decrypting a virtual disk",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -1125,14 +1133,6 @@
       "shortDescription": "Request a root cause investigation for a security issue with a virtual machine in Azure",
       "searchTags": "",
       "category": "Management",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
-      "id": "fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
-      "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
