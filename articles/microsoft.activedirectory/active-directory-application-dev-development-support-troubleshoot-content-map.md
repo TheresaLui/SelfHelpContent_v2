@@ -19,7 +19,7 @@ Below you will find help and links for the most common problems when building Az
 
 <br>
 
-**[I am seeing trouble signing in to application(s) using Chrome browser only.](https://aka.ms/MicrosoftSameSiteGuidance)**
+**[I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)**
 
 **I don't know how to configure my application**
 
