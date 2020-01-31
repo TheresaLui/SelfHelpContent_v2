@@ -20,10 +20,10 @@ In this article, you learn how to consume your automated ML models as web servic
 
 ## **Recommended Documents**
 
-* [Consume an Azure ML model deployed as a web service](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service)
-* [Call the service with C#](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service#call-the-service-c)
-* [Call the service with Go](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service#call-the-service-go)
-* [Call the service with Java](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service#call-the-service-java)
-* [Call the service with Python](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service#call-the-service-python)
-* [Consume the service from Power BI](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service#consume-the-service-from-power-bi)
-* [Tutorial: Build an AML pipeline for batch scoring](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-pipeline-batch-scoring-classification)
+* [Consume an Azure ML model deployed as a web service](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service)
+* [Call the service with C#](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#call-the-service-c)
+* [Call the service with Go](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#call-the-service-go)
+* [Call the service with Java](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#call-the-service-java)
+* [Call the service with Python](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#call-the-service-python)
+* [Consume the service from Power BI](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#consume-the-service-from-power-bi)
+* [Tutorial: Build an AML pipeline for batch scoring](https://docs.microsoft.com/azure/machine-learning/tutorial-pipeline-batch-scoring-classification)
