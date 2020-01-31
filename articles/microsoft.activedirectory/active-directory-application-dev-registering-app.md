@@ -19,7 +19,7 @@ Below you will find help and links for the most common problems when building Az
 
 **I don't know how to register or manage my application**
 
-  * [I am seeing trouble signing in to application(s) using Chrome browser only.](https://aka.ms/MicrosoftSameSiteGuidance)
+  * [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
   * [I don’t know how to integrate my application with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad)
   * [I don’t know how to update my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#updating-an-application)
   * [I don’t know how to remove my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#removing-an-application)
