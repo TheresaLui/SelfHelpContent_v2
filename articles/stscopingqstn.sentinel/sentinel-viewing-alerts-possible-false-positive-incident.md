@@ -16,7 +16,7 @@
 
 # Possible false-positive incident
 
-If you need help determining if an incident is a false-positive, see the tutorial [Create custom analytic rules to detect suspicious threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom) for information about:
+If you need help determining if an incident is a false-positive, see the tutorial [Create custom analytic rules to detect suspicious threats](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom).
 
 ## **Recommended Documents**
 
