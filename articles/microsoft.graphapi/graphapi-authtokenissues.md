@@ -44,4 +44,4 @@ For more information, see [Authentication and authorization error codes](https:/
 
 ## **Recommended Documents**
 
-### [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
