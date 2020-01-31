@@ -14,7 +14,7 @@
 
 # Issues that are related to signing in to Microsoft applications
 
-## **Recommended documents**
+## **Recommended Documents**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
