@@ -30,7 +30,7 @@ This article will help with the built-in Update Management Troubleshooting
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
-*  Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 * If you see an error code like "Exception from HRESULT 0x...", see the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 
 ## **Recommended Documents**
