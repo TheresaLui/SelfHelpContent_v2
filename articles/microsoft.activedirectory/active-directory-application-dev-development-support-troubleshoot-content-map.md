@@ -14,9 +14,11 @@
 
 # Problems developing my application
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 Below you will find help and links for the most common problems when building Azure Active Directory apps.  We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
+
+## **Recommended Documents**
 
 * **[I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)**
 * [I don't know how to change the token lifetime defaults for my application](https://docs.microsoft.com/azure/active-directory/application-dev-registration-config-change-token-lifetime-how-to/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
