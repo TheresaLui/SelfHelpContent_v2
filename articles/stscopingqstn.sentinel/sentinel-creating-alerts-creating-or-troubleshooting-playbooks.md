@@ -16,7 +16,7 @@
 
 # Create or troubleshoot playbooks
 
-If you need help creating or troubleshooting playbooks, see the tutorial [Set up automated threat responses in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook) for information about:
+If you need help creating or troubleshooting playbooks, see the tutorial [Set up automated threat responses in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook).
 
 ## **Recommended Documents**
 

@@ -16,7 +16,7 @@
 
 # Trouble creating bookmarks
 
-If you need help creating bookmarks, see [Keep track of data during hunting with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/bookmarks) for information about:
+If you need help creating bookmarks, see [Keep track of data during hunting with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/bookmarks).
 
 ## **Recommended Documents**
 

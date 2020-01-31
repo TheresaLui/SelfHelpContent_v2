@@ -16,7 +16,7 @@
 
 # Enable and configure connectors
 
-If you need help enabling and configuring connectors, see [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) for information about:
+If you need help enabling and configuring connectors, see [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources).
 
 ## **Recommended Documents**
 
