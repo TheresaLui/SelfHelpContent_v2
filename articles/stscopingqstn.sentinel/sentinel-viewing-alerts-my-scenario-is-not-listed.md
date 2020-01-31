@@ -16,7 +16,7 @@
 
 # Your scenario is not listed
 
-If you need help figuring out why your scenario is not listed, see [Advanced multistage attack detection in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/fusion) for information about:
+If you need help figuring out why your scenario is not listed, see [Advanced multistage attack detection in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/fusion).
 
 ## **Recommended Documents**
 
