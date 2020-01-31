@@ -16,7 +16,7 @@
 
 # Your scenario is not listed
 
-If you need help figuring out why your scenario is not listed, see [On-board Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard) for information about:
+If you need help figuring out why your scenario is not listed, see [On-board Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard).
 
 ## **Recommended Documents**
 
