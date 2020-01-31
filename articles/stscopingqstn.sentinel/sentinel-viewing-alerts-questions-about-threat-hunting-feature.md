@@ -16,7 +16,7 @@
 
 # What is threat hunting and how does it work?
 
-If you need help understanding what threat hunting is and how it works, see [Hunt for threats with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/hunting) for information about:
+If you need help understanding what threat hunting is and how it works, see [Hunt for threats with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/hunting).
 
 ## **Recommended Documents**
 
