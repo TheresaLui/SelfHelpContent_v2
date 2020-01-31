@@ -50,7 +50,7 @@
     {
       "id": "08e5ecaa-db9a-f0c3-880e-8b19993c5693",
       "longDescription": null,
-      "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided.",
+      "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
       "searchTags": "",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
@@ -194,7 +194,7 @@
     {
       "id": "32e9eab8-0dfe-2ee6-aa44-226df969736c",
       "longDescription": null,
-      "shortDescription": "Issues when resizing, attaching/detaching or performing other tasks on a virtual disk",
+      "shortDescription": "Issues when resizing, attaching/detaching, or performing other tasks on a virtual disk",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -226,7 +226,7 @@
     {
       "id": "3bbbcb43-c3a5-64eb-eb73-f8b254e36d32",
       "longDescription": null,
-      "shortDescription": "Covers issues related to configuration of a failover cluster, RDS or disk encryption for a VM running in Azure",
+      "shortDescription": "Covers issues related to configuration of a failover cluster, RDS, or disk encryption for a VM running in Azure",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -282,7 +282,7 @@
     {
       "id": "4c8242d3-5e7c-8369-d5fb-95c4cd3de057",
       "longDescription": null,
-      "shortDescription": "Troubleshoot issues that can affect a Windows VM's performance such as high usage of CPU, disk space or memory",
+      "shortDescription": "Troubleshoot issues that can affect a Windows VM's performance such as high usage of CPU, disk space, or memory",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -322,7 +322,7 @@
     {
       "id": "4fc9f99b-00f8-a3ca-cd9e-0c4648ce1d90",
       "longDescription": null,
-      "shortDescription": "Other issues related to using Azure Backup to back up or restore your Azure virtual machine, not listed above",
+      "shortDescription": "Other issues related to using Azure Backup to back up or restore your Azure virtual machine that are not listed above",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
