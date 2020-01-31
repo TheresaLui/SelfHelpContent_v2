@@ -16,7 +16,7 @@
 
 # Your connector scenario is not listed
 
-If you need help understanding why your connector scenario is not listed, see [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources) for information about:
+If you need help understanding why your connector scenario is not listed, see [Connect data sources](https://docs.microsoft.com/azure/sentinel/connect-data-sources).
 
 ## **Recommended Documents**
 
