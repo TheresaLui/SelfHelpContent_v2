@@ -7,7 +7,7 @@
   ms.author="marwa"
   selfHelpType="generic"
   supportTopicIds="32570261"
-  productPesIds="14785,16575"
+  productPesIds="16575"
   cloudEnvironments="public"
  	articleId="5c2cb674-d2dd-4874-87ac-a18593340dbe"
 />
