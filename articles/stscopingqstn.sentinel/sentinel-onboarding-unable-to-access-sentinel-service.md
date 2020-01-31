@@ -16,7 +16,7 @@
 
 # Unable to access the Azure Sentinel service
 
-If you need help figuring out why you are unable to access Azure Sentinel, see [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions) for information about: 
+If you need help figuring out why you are unable to access Azure Sentinel, see [Permissions in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#roles-and-allowed-actions).
 
 ## **Recommended Documents**
 
