@@ -25,5 +25,5 @@
 
 ## **Recommended documents**
 
-* [I am seeing trouble signing in to application(s) using Chrome browser only](https://aka.ms/MicrosoftSameSiteGuidance)
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
 * [How it works: Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)
