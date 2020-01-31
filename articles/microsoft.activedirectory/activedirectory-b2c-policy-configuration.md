@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-### [I am seeing trouble signing in to application(s) using Chrome browser only.](https://aka.ms/MicrosoftSameSiteGuidance)
+### [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
 
 ### **Password reset link is not working**
 
