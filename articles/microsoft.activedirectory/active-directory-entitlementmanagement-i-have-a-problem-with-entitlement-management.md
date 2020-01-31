@@ -7,7 +7,7 @@
     ms.author="rodejo"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds=32692567""
+    supportTopicIds="32692567"
     resourceTags=""
     productPesIds="16577"
     cloudEnvironments="public"
