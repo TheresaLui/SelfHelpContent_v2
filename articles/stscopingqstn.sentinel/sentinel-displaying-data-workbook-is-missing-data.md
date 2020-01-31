@@ -16,7 +16,7 @@
 
 # Workbook is missing data
 
-If you need help understanding why a workbook may be missing data, see the tutorial [Visualize and monitor your data](https://docs.microsoft.com/azure/sentinel/tutorial-monitor-your-data) for information about:
+If you need help understanding why a workbook may be missing data, see the tutorial [Visualize and monitor your data](https://docs.microsoft.com/azure/sentinel/tutorial-monitor-your-data).
 
 ## **Recommended Documents**
 
