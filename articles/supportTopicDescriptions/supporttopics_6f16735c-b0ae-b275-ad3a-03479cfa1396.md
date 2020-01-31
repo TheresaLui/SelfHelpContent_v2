@@ -138,7 +138,7 @@
     {
       "id": "14b1d04c-90d1-a0ad-8bfc-d98666f39d30",
       "longDescription": null,
-      "shortDescription": "Issue with data driver or file system not being available after encryption",
+      "shortDescription": "Issue with data drive or file system not being available after encryption",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
