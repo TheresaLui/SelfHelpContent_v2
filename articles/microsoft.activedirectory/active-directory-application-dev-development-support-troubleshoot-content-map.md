@@ -3,7 +3,7 @@
   description="Problems developing my application"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="ajamess"
+  authors="marwaIDCxP"
   selfHelpType="generic"
   supportTopicIds="32570261"
   productPesIds="14785,16575"
