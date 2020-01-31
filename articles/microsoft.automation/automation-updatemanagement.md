@@ -82,7 +82,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Machines update without an update deployment**
 
-* If machines are receiving updates without an update deployment, please see the note under ["Install Updates" of the Update Management overview document](https://docs.microsoft.com/azure/automation/automation-update-management#install-updates).
+*See ["Updates are installed without a deployment"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#updates-nodeployment).
 
 ### **I know updates are available, but they don't show as needed on my machines**
 
