@@ -10,10 +10,10 @@
 	articleId="migration-projectconfig-errors"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32673570,32673578,32673579,32673599,32673586,32673590,32673600"
+	supportTopicIds="32673570,32673578,32673599,32673586,32673590,32673600"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax"
 />
 
 # Migration Project and Activity Configuration
