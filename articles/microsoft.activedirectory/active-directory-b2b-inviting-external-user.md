@@ -8,9 +8,9 @@
     selfHelpType="generic"
     supportTopicIds="32615387"
     resourceTags=""
-    productPesIds="16580"
+    productPesIds="16578"
     cloudEnvironments="public"
-    	articleId="4842840f-6b7b-4777-97fa-9a002272a33f"
+    articleId="4842840f-6b7b-4777-97fa-9a002272a33f"
 />
 
 # Problem inviting an external user
@@ -22,6 +22,6 @@
 ## **Recommended documents**
 
 * [Azure AD B2B documentation](https://docs.microsoft.com/azure/active-directory/b2b/)
-
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
 
  
