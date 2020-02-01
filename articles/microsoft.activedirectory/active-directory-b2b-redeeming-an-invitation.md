@@ -4,11 +4,12 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="marialai"
+    ms.author="marwa"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32615429"
     resourceTags=""
-    productPesIds="16580"
+    productPesIds="16578"
     cloudEnvironments="public"
     	articleId="1f52c6d5-cfce-4d14-8b87-c1023bac3bea"
 />
@@ -23,5 +24,6 @@
 
 ## **Recommended documents**
 
+* [I am seeing trouble signing in to application(s) **using Chrome browser only**](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
 * [Redeeming a B2B invitation](https://docs.microsoft.com/azure/active-directory/b2b/redemption-experience)<br>
 * [Azure AD B2B documentation](https://docs.microsoft.com/azure/active-directory/b2b/)
