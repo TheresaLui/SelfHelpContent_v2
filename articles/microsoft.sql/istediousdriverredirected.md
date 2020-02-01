@@ -12,7 +12,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
     	ms.author="aamalvea"
 />
 

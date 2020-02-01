@@ -10,7 +10,7 @@
 	supportTopicIds="32632932"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="pricing-marketplace"
 />
 
@@ -53,7 +53,7 @@ Learn more on [how charges are processed](https://docs.microsoft.com/azure/devop
 ## **Recommended Documents**
 
 * [Understand your Microsoft Azure Bill](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)
-* [Understand charges on your Microsoft Customer Agreement Invoice](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill)
+* [Understand charges on your Microsoft Customer Agreement Invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill)
 * [Understand usage terms in Azure usage and charges file](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 * [Understand terms on Microsoft Azure invoice](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
 * [Prevent unexpected charges with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)
