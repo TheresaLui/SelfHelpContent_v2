@@ -6,7 +6,7 @@
     service="microsoft.machinelearning.automl"
     resource="automl"
     authors="Cesar De la Torre"
-    ms.author="cesardl"
+    ms.author="CESARDELATORRE"
     supportTopicIds="32690884"
     productPesIds="16644"
     cloudEnvironments="Public"
