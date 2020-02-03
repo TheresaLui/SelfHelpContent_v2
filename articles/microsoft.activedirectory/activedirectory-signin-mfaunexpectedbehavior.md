@@ -23,7 +23,7 @@
 * [YouTube video: How to get started with Azure MFA the right way](https://www.youtube.com/watch?v=x7W3vjpF8y4&t=4s)
 * [Get a step-by-step MFA deployment plan](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
 * [How it works: Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)
