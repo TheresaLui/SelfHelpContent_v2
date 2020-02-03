@@ -20,7 +20,7 @@ Most users are able to resolve their Cassandra API performance issue using the s
 
 ## **Recommended Steps**
 
-### **Found a high number of operations that are inserting or updating large documents in collection**
+### **High number of operations that are inserting or updating large documents in collection**
 
 * Use smaller documents over larger ones
 <br>Writing a 1kb document = 5 RUs, 4kb document = 7 RUs, 64kb document = 48 RUs. Therefore, use smaller documents when possible. If your data can be subdivided into parts that are updated independently, consider breaking it up into smaller documents.

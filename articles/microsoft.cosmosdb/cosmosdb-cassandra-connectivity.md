@@ -59,7 +59,7 @@ const client = new cassandra.Client({ contactPoints: ['USERNAME.cassandra.cosmos
 [Quickstart: Build a Cassandra app with .NET SDK and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-dotnet)
 <br>This quickstart shows how to use .NET and the Azure Cosmos DB Cassandra API to build a profile app by cloning an example from GitHub.  
 
-[Quickstart: Build a Java app to manage Azure Cosmos DB Cassandra API data ](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-java)
+[Quickstart: Build a Java app to manage Azure Cosmos DB Cassandra API data](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-java)
 <br>This quickstart shows how to use Java and the Azure Cosmos DB Cassandra API to build a profile app by cloning an example from GitHub.  
 
 [Quickstart: Build a Cassandra app with Node.js SDK and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-nodejs)

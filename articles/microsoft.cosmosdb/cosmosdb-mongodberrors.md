@@ -34,7 +34,7 @@ Tear down TCP connections at the client
 Some of the queries including aggregations require a large amount of processing. If the collection's throughput is not enough, you will see these errors. You can confirm this by going to the *Metrics* blade and selecting the *Throughput* tab for your collection. You can also evaluate if the queries can be optimized further by making effective use of the index.  
 
 ### **Request timeout errors**
-While executing a query using the Mongo API for CosmosDB, the request might timeout when there is large amount of data to be processed. Increasing the collection throughput would help mitigate this issue. You can also evaluate if the queries can be optimized further by making effective use of the index.  
+While executing a query using the Mongo API for Cosmos DB, the request might timeout when there is large amount of data to be processed. Increasing the collection throughput would help mitigate this issue. You can also evaluate if the queries can be optimized further by making effective use of the index.  
 If you are wanting to delete large amounts of data without impacting RU:
 * Consider using TTL (Based on Timestamp): [Expire data with Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-time-to-live)
 * Use Cursor/Batch size to perform the delete. You can fetch a single document at a time and delete it through a loop. This would help you to slowly delete without impacting your production application.
