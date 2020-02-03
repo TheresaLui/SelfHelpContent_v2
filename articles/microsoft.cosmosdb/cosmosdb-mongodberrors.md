@@ -21,10 +21,14 @@
 ### **Client connection errors and socket timeout**  
 Mongo client drivers use "connection pooling". Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection. On the server side, Inactive/Idle TCP connections which are idle for more than 30 minutes are automatically closed by the Azure Cosmos DB Mongo server.  
 Mongo drivers are unaware of when connections are torn down by the server and reuse of torn down connections by new requests causes socket/connection exceptions.  
-Clients can handle this in two ways:
-* Retry/reconnect on connection/socket exceptions
-<br>To avoid connectivity messages, you may want to change the connection string to set maxConnectionIdleTime to 1-2 minutes. Example: add the *maxIdleTimeMS=120000* at the end of your connection string
-* Configure the client to tear down TCP connections before Cosmos DB does  
+Retry/reconnect on connection/socket exceptions. 
+
+To avoid connectivity messages, you may want to change the connection string to set maxConnectionIdleTime to 1-2 minutes.  
+**Mongo driver** configure *maxIdleTimeMS=120000* 
+*Node.JS** configure *socketTimeoutMS=120000*, *autoReconnect* = true, *keepAlive* = true, *keepAliveInitialDelay* = 3 minutes
+
+Tear down TCP connections at the client
+* Configure the client to tear down TCP connections before Cosmos DB does
 
 ### **Request rate exceeded errors**
 Some of the queries including aggregations require a large amount of processing. If the collection's throughput is not enough, you will see these errors. You can confirm this by going to the *Metrics* blade and selecting the *Throughput* tab for your collection. You can also evaluate if the queries can be optimized further by making effective use of the index.  
