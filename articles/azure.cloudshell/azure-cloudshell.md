@@ -15,9 +15,9 @@
 />
 
 # Before continuing to create a case, ask yourself 
-# Is the Problem with Cloud Shell or the underlying Service. For example, Cloud Shell is throwing an Error
-# or Cloud Shell doesn't work with a particular Browser. If the problem is not specific to Cloud Shell
-# Please open a case with the respective technology.
+Is the Problem with Cloud Shell or the underlying Service. For example, Cloud Shell is throwing an Error<br>
+or Cloud Shell doesn't work with a particular Browser, then continue to open a case here. If the problem <br>
+is not specific to Cloud Shell Please open a case with the respective technology.<br>
 
 
 
