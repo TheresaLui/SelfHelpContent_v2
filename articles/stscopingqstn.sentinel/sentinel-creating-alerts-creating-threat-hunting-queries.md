@@ -16,7 +16,7 @@
 
 # Create threat hunting queries
 
-If you need help creating threat hunting queries, see [Hunt for threats with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/hunting) for information about:
+If you need help creating threat hunting queries, see [Hunt for threats with Azure Sentinel](https://docs.microsoft.com/azure/sentinel/hunting).
 
 ## **Recommended Documents**
 

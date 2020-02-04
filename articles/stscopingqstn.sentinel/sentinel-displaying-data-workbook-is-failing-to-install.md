@@ -24,6 +24,11 @@ If you need help understanding why a workbook is failing to install, see [Permis
 - [Building custom RBAC roles](https://docs.microsoft.com/azure/sentinel/roles#building-custom-rbac-roles)
 - [Advanced RBAC on the data you store in Azure Sentinel](https://docs.microsoft.com/azure/sentinel/roles#advanced-rbac-on-the-data-you-store-in-azure-sentinel)
 * [Create interactive reports Azure Monitor for VMs with workbooks](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks) 
+
+and see [Create interactive reports Azure Monitor for VMs with workbooks](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks).
+
+## **Recommended Documents**
+
 - [Starting with a template or saved workbook](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks#starting-with-a-template-or-saved-workbook)
 - [Editing workbook sections](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks#editing-workbook-sections)
 - [Adding text and Markdown sections](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-workbooks#adding-text-and-markdown-sections)
