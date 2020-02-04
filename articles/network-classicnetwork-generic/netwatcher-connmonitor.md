@@ -57,13 +57,13 @@
 
 ### **Unable to see my on-premise host in the list of sources**
 
-* Check if Log Analytics agent is installed in your on-premise host, is linked to a Log Analytics workspace and thatyou have access to the workspace
+* Check if Log Analytics agent is installed in your on-premise host, is linked to a Log Analytics workspace and that you have access to the workspace
 
-### **Unable to see my Azure VM in the list of destnations**
+### **Unable to see my Azure VM in the list of destinations**
 
-* Check if you have chosen on-premise host as a source in your test group. The baility for on-premise hosts to ping Azure VMs is currently not available. 
+* Check if you have chosen on-premise host as a source in your test group. The ability for on-premise hosts to ping Azure VMs is currently not available. 
 
-### **Can I customise the workspace in which I want to sendmy monitoring data**
+### **Can I customize the workspace in which I want to store network monitoring data**
 
 * You can provide the custom workspace by unchecking "Use workspace created by connection monitor(default)". Just select the subscription and region to see the workspaces that you have access to in the list.
 
@@ -79,9 +79,9 @@
 
 * Yes you can use powershell and CLI to create / update Connection Monitor
 
-### **Does Connection Monitor(Preview)support IPv6**We are having facing limited flexibility and overview of the current NPM solution. For example you can’t label subnets so you can easily see which IP ranges correspond with what subnet in the subnet status overview, auto-refresh behaviour unpredictable, little flexibility changing graph time range, no option to change Y scale, no manual threshold for “health Events” (it happens often that when you open the dashboard the status is red but after reresh it is fine because of small hickups), error messages when you are not contributor when new objects were found, etc. NPM just looks very old compared with the new Azure Monitor graphs. To summarize: the overall user experience is pretty lacking and we would love to see a new incarnation of it!  
+### **Does Connection Monitor(Preview)support IPv6**
 
-* Yes Connection Monitor(Preview) support IPv6**
+* Yes Connection Monitor(Preview) supports IPv6**
 
 ### **How is Checks Failed % calculated for a test**
 * If HTTP is selected, the service calculates the number of HTTP responses that returned a response code to determine the checks failed %.  To calculate RTT we measure the time taken to receive the response of a HTTP call. 
