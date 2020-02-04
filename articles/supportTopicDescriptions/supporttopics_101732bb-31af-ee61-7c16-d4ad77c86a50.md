@@ -25,7 +25,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
   "productLink3": "<a href='https://docs.microsoft.com/azure/application-gateway/application-gateway-autoscaling-zone-redundant'>Application Gateway V2 SKU</a>",
   "SupportTopics": [
     {
-      "id": "32436964",
+      "id": "51c18a5b-d8f6-94eb-8689-2b9a39651b30",
       "shortDescription": "Covers general guidance and advisory queries related to Application Gateway. You can also choose this option when none of the support topics represent your issue",
       "longDescription": "Covers general guidance and advisory queries related to Application Gateway. You can also choose this option when none of the support topics represent your issue",
       "category": "Advisory",
@@ -33,7 +33,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32436960",
+      "id": "71ae3ae6-136d-7b24-2700-8a6ad2d6758f",
       "shortDescription": "Covers issues related to Application Gateway configuration and setup",
       "longDescription": "Covers issues related to Application Gateway configuration and setup",
       "category": "configuration",
@@ -41,7 +41,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32582825",
+      "id": "61ed0641-287d-b39f-f714-da8a7cbee8d0",
       "shortDescription": "Covers issues related to Application Gateway End-to-End SSL configuration",
       "longDescription": "Covers issues related to Application Gateway End-to-End SSL configuration",
       "category": "Configuration",
@@ -49,7 +49,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32582826",
+      "id": "43b75410-6798-1488-6d0a-c122aa1fea0c",
       "shortDescription": "Covers issues related to Application Gateway health probe configuration. This includes probe matching conditions and other probe parameters",
       "longDescription": "Covers issues related to Application Gateway health probe configuration. This includes probe matching conditions and other probe parameters",
       "category": "Configuration",
@@ -57,7 +57,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32582827",
+      "id": "095f93e3-0584-1b5e-bf05-af682671dc69",
       "shortDescription": "Covers issues related to Application Gateway multi-site hosting configuration. This includes multi-site listener, routing rule configuration, etc.",
       "longDescription": "Covers issues related to Application Gateway multi-site hosting configuration. This includes multi-site listener, routing rule configuration, etc.",
       "category": "Configuration",
@@ -65,7 +65,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32582828",
+      "id": "a5376da4-86ae-2b8d-b01e-2c377bcb450e",
       "shortDescription": "Covers issues related to Application Gateway SSL offload/SSL termination configuration",
       "longDescription": "Covers issues related to Application Gateway SSL offload/SSL termination configuration",
       "category": "Configuration",
@@ -73,7 +73,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32582829",
+      "id": "49dcf760-aceb-82f6-8db9-9fc266eed1ae",
       "shortDescription": "Covers issues related to Application Gateway SSL Policy configuration. This includes TLS version, predefined or custom cipher suites configuration, etc.",
       "longDescription": "Covers issues related to Application Gateway SSL Policy configuration. This includes TLS version, predefined or custom cipher suites configuration, etc.",
       "category": "Configuration",
@@ -81,7 +81,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32582830",
+      "id": "44eedea3-3b05-472e-1fd3-a2c96f285c7d",
       "shortDescription": "Covers issues related to Application Gateway URL path-based routing configuration (path-based rules)",
       "longDescription": "Covers issues related to Application Gateway URL path-based routing configuration (path-based rules)",
       "category": "Configuration",
@@ -89,7 +89,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639109",
+      "id": "0ffafd9e-f169-970b-779d-f8a8c2a393d7",
       "shortDescription": "Covers issues related to SSL certificate or authentication or trusted root certificate configuration in Application Gateway",
       "longDescription": "Covers issues related to SSL certificate or authentication or trusted root certificate configuration in Application Gateway",
       "category": "Configuration",
@@ -97,7 +97,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639110",
+      "id": "fe5cb5de-4e0b-d792-ef78-3f6e1636c21a",
       "shortDescription": "Covers issues related to Application Gateway resource in a Failed provisioning state",
       "longDescription": "Covers issues related to Application Gateway resource in a Failed provisioning state",
       "category": "Configuration",
@@ -105,7 +105,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639111",
+      "id": "8465e398-fe29-fefa-ebba-cdee2574cd4e",
       "shortDescription": "Covers issues related to Application Gateway custom error page configuration",
       "longDescription": "Covers issues related to Application Gateway custom error page configuration",
       "category": "Configuration",
@@ -113,7 +113,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639112",
+      "id": "65dc7add-8fa1-314c-d363-0f51586cffa3",
       "shortDescription": "Covers issues related to Application Gateway redirection configuration. This includes listener, external target redirection rule configuration",
       "longDescription": "Covers issues related to Application Gateway redirection configuration. This includes listener, external target redirection rule configuration",
       "category": "Configuration",
@@ -121,7 +121,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32640602",
+      "id": "087c9258-25f8-40a0-9dbd-cb000e2b1da3",
       "shortDescription": "Covers issues related to Application Gateway and App Service integration. This includes configuring Web Apps as backend servers",
       "longDescription": "Covers issues related to Application Gateway and App Service integration. This includes configuring Web Apps as backend servers",
       "category": "Configuration",
@@ -129,7 +129,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32640603",
+      "id": "fa2b8642-b871-d6f2-e796-42f39216704e",
       "shortDescription": "Covers issues related to Application Gateway diagnostics configuration which includes logs and metrics",
       "longDescription": "Covers issues related to Application Gateway diagnostics configuration which includes logs and metrics",
       "category": "Configuration",
@@ -137,7 +137,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32674895",
+      "id": "9013655b-306f-d8c9-798b-9cd0e2072358",
       "shortDescription": "Covers issues related to Application Gateway header rewrite configuration. This includes request and response header rewrite rules",
       "longDescription": "Covers issues related to Application Gateway header rewrite configuration. This includes request and response header rewrite rules",
       "category": "Configuration",
@@ -145,7 +145,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32674896",
+      "id": "5f840c79-ae00-e1d7-2fa2-2c83f90141e7",
       "shortDescription": "Covers issues related to Application Gateway V1 to V2 SKU migration",
       "longDescription": "Covers issues related to Application Gateway V1 to V2 SKU migration",
       "category": "Configuration",
@@ -153,7 +153,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32436961",
+      "id": "1c56f35d-73e4-cda6-b00b-7a133e39196b",
       "shortDescription": "Covers issues related to Connectivity to Application Gateway including connection timed out, 4xx errors, etc.",
       "longDescription": "Covers issues related to Connectivity to Application Gateway including connection timed out, 4xx errors, etc.",
       "category": "Connectivity",
@@ -161,7 +161,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32573483",
+      "id": "76c81c5d-800c-6121-bdf1-fd8ceb7aee1f",
       "shortDescription": "Covers issues where the user gets HTTP 502 Bad Gateway error when accessing the Application Gateway",
       "longDescription": "Covers issues where the user gets HTTP 502 Bad Gateway error when accessing the Application Gateway",
       "category": "Connectivity",
@@ -169,7 +169,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639113",
+      "id": "18b7ec3c-040e-f63c-beff-1188d881ddca",
       "shortDescription": "Covers issues where the user gets a HTTP 4xx error when accessing the Application Gateway. This includes 401, 404, 405, etc.",
       "longDescription": "Covers issues where the user gets a HTTP 4xx error when accessing the Application Gateway. This includes 401, 404, 405, etc.",
       "category": "Connectivity",
@@ -177,7 +177,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639114",
+      "id": "6dce433d-1c79-b738-bd5f-96e25600127e",
       "shortDescription": "Covers issues where the user gets a Connection Timed Out error when accessing the Application Gateway",
       "longDescription": "Covers issues where the user gets a Connection Timed Out error when accessing the Application Gateway",
       "category": "Connectivity",
@@ -185,7 +185,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639115",
+      "id": "b13299dd-066e-30ff-9b3a-addf00b2a2af",
       "shortDescription": "Covers issues where the user gets a Too Many Redirects error when accessing the Application Gateway",
       "longDescription": "Covers issues where the user gets a Too Many Redirects error when accessing the Application Gateway",
       "category": "Connectivity",
@@ -193,7 +193,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639116",
+      "id": "5335313e-a524-8e68-de75-9080f933997b",
       "shortDescription": "Covers issues where the user gets an Unknown status in Backend health section of Application Gateway",
       "longDescription": "Covers issues where the user gets an Unknown status in Backend health section of Application Gateway",
       "category": "Connectivity",
@@ -201,7 +201,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639117",
+      "id": "8a3b37d8-5354-d17f-b70f-68bbdf2871e3",
       "shortDescription": "Covers issues related to Application Gateway WebSocket connectivity",
       "longDescription": "Covers issues related to Application Gateway WebSocket connectivity",
       "category": "Connectivity",
@@ -209,7 +209,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32436962",
+      "id": "82697465-2215-1c84-7e0e-99ce0bef405b",
       "shortDescription": "Covers issues related to performance of Application Gateway. This includes, latency, high utilization, low throughput, autoscaling, etc.",
       "longDescription": "Covers issues related to performance of Application Gateway. This includes, latency, high utilization, low throughput, autoscaling, etc.",
       "category": "Performance",
@@ -217,7 +217,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32680756",
+      "id": "c3e44f73-1463-7c8f-005c-23f3a0794a3f",
       "shortDescription": "Covers issues where any configuration update on the Application Gateway resource takes longer than expected to complete and fails",
       "longDescription": "Covers issues where any configuration update on the Application Gateway resource takes longer than expected to complete and fails",
       "category": "Performance",
@@ -225,7 +225,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32680757",
+      "id": "c42b2dbf-fc31-1d9e-3356-20aa94cca5ba",
       "shortDescription": "Covers issues where user requests are taking longer than expected to get a response (high latency) when accessing Application Gateway",
       "longDescription": "Covers issues where user requests are taking longer than expected to get a response (high latency) when accessing Application Gateway",
       "category": "Performance",
@@ -233,7 +233,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32680758",
+      "id": "d7173c84-ff08-b6a6-2f7a-0447fac15952",
       "shortDescription": "Covers issues where users receive 502 Bad Gateway error intermittently when accessing the Application Gateway",
       "longDescription": "Covers issues where users receive 502 Bad Gateway error intermittently when accessing the Application Gateway",
       "category": "Performance",
@@ -241,7 +241,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32680759",
+      "id": "0246abef-6243-380e-d147-a8d908829d76",
       "shortDescription": "Covers issues where related to performance monitoring of Application Gateway resource. This includes monitoring using metrics, logs, etc.",
       "longDescription": "Covers issues where related to performance monitoring of Application Gateway resource. This includes monitoring using metrics, logs, etc.",
       "category": "Performance",
@@ -249,7 +249,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32565734",
+      "id": "f0f59ef1-dcf6-08d0-6169-fd737f889baf",
       "shortDescription": "Covers issues related to Web Application Firewall in Application Gateway",
       "longDescription": "Covers issues related to Web Application Firewall in Application Gateway",
       "category": "WAF",
@@ -257,7 +257,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32565735",
+      "id": "0506441f-8ca0-ef07-5ab5-ce31301f6d28",
       "shortDescription": "Covers issues related to analyzing allowed or blocked requests in Application Gateway WAF",
       "longDescription": "Covers issues related to analyzing allowed or blocked requests in Application Gateway WAF",
       "category": "WAF",
@@ -265,7 +265,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32565736",
+      "id": "336e9c3c-4c03-0eff-0bbf-cc245bb845fb",
       "shortDescription": "Covers issues related to Web Application Firewall configuration in Application Gateway",
       "longDescription": "Covers issues related to Web Application Firewall configuration in Application Gateway",
       "category": "WAF",
@@ -273,7 +273,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32582833",
+      "id": "c7789b3e-5810-09e4-852b-18c0c1a3e2a4",
       "shortDescription": "Covers issues related to disabling/enabling rules or false positives in Application Gateway WAF",
       "longDescription": "Covers issues related to disabling/enabling rules or false positives in Application Gateway WAF",
       "category": "WAF",
@@ -281,7 +281,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32639118",
+      "id": "e04f813e-7872-f37e-33b7-5854a5497b3f",
       "shortDescription": "Covers issues related to exclusions and global parameters in Application Gateway WAF",
       "longDescription": "Covers issues related to exclusions and global parameters in Application Gateway WAF",
       "category": "WAF",
@@ -289,7 +289,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32691039",
+      "id": "80ea40a5-caae-244b-b779-a6e8c9212416",
       "shortDescription": "Covers issues related to per-site policy in Application Gateway WAF",
       "longDescription": "Covers issues related to per-site policy in Application Gateway WAF",
       "category": "WAF",
@@ -297,7 +297,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32691040",
+      "id": "7c7aa8ac-ce3d-e127-0619-eb8d27dc2486",
       "shortDescription": "Covers issues related to IP reputation (bot mitigation) in Application Gateway WAF",
       "longDescription": "Covers issues related to IP reputation (bot mitigation) in Application Gateway WAF",
       "category": "WAF",
@@ -305,7 +305,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32640604",
+      "id": "ed156cf9-5f3c-57a9-168d-cc4c5b6f7b53",
       "shortDescription": "Covers issues related to HTTP request routing in Application Gateway",
       "longDescription": "Covers issues related to HTTP request routing in Application Gateway",
       "category": "Routing",
@@ -313,7 +313,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32640605",
+      "id": "0aea7290-5e10-63cb-c549-009a6fb7104a",
       "shortDescription": "Covers routing issues related to Cookie Based Affinity in Application Gateway. This includes unexpected behavior affinity behavior",
       "longDescription": "Covers routing issues related to Cookie Based Affinity in Application Gateway. This includes unexpected behavior affinity behavior",
       "category": "Routing",
@@ -321,7 +321,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32640606",
+      "id": "dfb074b9-9078-cdb8-3e45-18781a09587f",
       "shortDescription": "Covers routing issues related to custom error pages in Application Gateway",
       "longDescription": "Covers routing issues related to custom error pages in Application Gateway",
       "category": "Routing",
@@ -329,7 +329,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32641400",
+      "id": "8d5a15a6-2e27-0a36-161f-1c54b4cb2c5b",
       "shortDescription": "Covers routing issues related to header rewrite in Application Gateway",
       "longDescription": "Covers routing issues related to header rewrite in Application Gateway",
       "category": "Routing",
@@ -337,7 +337,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32640607",
+      "id": "d61a1c3d-21e0-d1be-4a2f-5687c3478e3f",
       "shortDescription": "Covers routing issues related to URL path-based request routing in Application Gateway. This includes unexpected path-based routing behavior",
       "longDescription": "Covers routing issues related to URL path-based request routing in Application Gateway. This includes unexpected path-based routing behavior",
       "category": "Routing",
@@ -345,7 +345,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32640608",
+      "id": "aadec35c-e80f-fff6-86ce-4f4f35e2776c",
       "shortDescription": "Covers routing issues related to redirection in Application Gateway. This includes unexpected redirection behavior",
       "longDescription": "Covers routing issues related to redirection in Application Gateway. This includes unexpected redirection behavior",
       "category": "Routing",
@@ -353,7 +353,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32680993",
+      "id": "be87bc4e-6fdb-7223-e7c3-75517666bad3",
       "shortDescription": "Covers issues where the user gets HTTP 502 Bad Gateway error when accessing the Application Gateway",
       "longDescription": "Covers issues where the user gets HTTP 502 Bad Gateway error when accessing the Application Gateway",
       "category": "Connectivity",
@@ -361,7 +361,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32684006",
+      "id": "138b1f46-5e44-1767-63c5-34acbab216b4",
       "shortDescription": "Covers issues related to Application Gateway Ingress Controller for Azure Kubernetes Services",
       "longDescription": "Covers issues related to Application Gateway Ingress Controller for Azure Kubernetes Services",
       "category": "AGIC",
@@ -369,7 +369,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32684007",
+      "id": "e466a7c5-e8b7-3cac-d42e-d12ffb544385",
       "shortDescription": "Covers issues related to Application Gateway Ingress Controller configuration for AKS",
       "longDescription": "Covers issues related to Application Gateway Ingress Controller configuration for AKS",
       "category": "AGIC",
@@ -377,7 +377,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32684008",
+      "id": "8c1d71e5-013e-92d1-9b25-00e5d368d249",
       "shortDescription": "Covers connectivity issues related to Application Gateway Ingress Controller for AKS",
       "longDescription": "Covers connectivity issues related to Application Gateway Ingress Controller for AKS",
       "category": "AGIC",
@@ -385,7 +385,7 @@ cloudEnvironments = "public,BlackForest,Fairfax,MoonCake"
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
-      "id": "32684009",
+      "id": "3c4a2ba0-3b7c-f862-994f-5b2536bee988",
       "shortDescription": "Covers general guidance and advisory queries related to Application Gateway Ingress Controller for AKS",
       "longDescription": "Covers general guidance and advisory queries related to Application Gateway Ingress Controller for AKS",
       "category": "AGIC",
