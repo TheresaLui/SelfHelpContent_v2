@@ -17,12 +17,10 @@
 
 The workflow is similar no matter where you deploy your model:
 
-1. [Register](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#registermodel) the model.
-1. [Prepare](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#prepare-to-deploy) to deploy. (Specify assets, usage, compute target.)
-1. [Deploy](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#deploy-to-target) the model to the compute target.
-1. [Test](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service) the deployed model, also called a web service.
-
-
+1. [Register](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#registermodel) the model
+1. [Prepare](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#prepare-to-deploy) to deploy. Specify assets, usage, compute target.
+1. [Deploy](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#deploy-to-target) the model to the compute target
+1. [Test](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service) the deployed model, also called a web service
 
 ## **Recommended Documents**
 
