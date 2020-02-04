@@ -37,7 +37,7 @@
 
 <B>Version of the database not supported when connecting to source</B>
 * Cause: The version of the source database configured for migration is not supported by DMS yet. As newer versions of Mongo DB are released, 
-they are tested with DMS to ensure compatibility before they are supported as valid sources. 
+they are tested with DMS to ensure compatibility and DMS is updated before they are supported as valid sources. 
 * Workaround: In order to proceed with the migration before such update, export the databases/collections to Azure storage and use the <b>"Data from Azure storage"</b> 
 option for source configuration as described [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#specify-source-details).
 
