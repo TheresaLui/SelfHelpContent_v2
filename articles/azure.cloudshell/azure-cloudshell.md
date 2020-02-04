@@ -14,12 +14,12 @@
 	articleId="503fac72-f932-4dc4-987e-7421f726aeee"
 />
 
-# Before continuing to create a case, ask yourself 
-Is the Problem with Cloud Shell or the underlying Service. For example, Cloud Shell is throwing an Error<br>
-or Cloud Shell doesn't work with a particular Browser, then continue to open a case here. If the problem <br>
-is not specific to Cloud Shell Please open a case with the respective technology.<br>
+# Azure Cloud Shell Issues
 
+Before continuing to create a case, ask yourself:
 
+* Is the Problem with Cloud Shell or the underlying Service? For example, if Cloud Shell is throwing an Error or Cloud Shell doesn't work with a particular Browser, then continue to open a case. 
+* If the problem is not specific to Cloud Shell, please open a case with the respective technology
 
 ## **Recommended Documents**
 
