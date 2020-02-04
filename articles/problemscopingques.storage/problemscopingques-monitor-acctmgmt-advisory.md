@@ -4,7 +4,7 @@
 	authors="Sijia"
         ms.author="siz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32681644,32681658,32681663,32681664,32681665"
+	supportTopicIds="32681658,32681664,32681665"
 	productPesIds="15629"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
