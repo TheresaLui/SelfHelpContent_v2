@@ -408,6 +408,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "93ee5e82-133c-842f-57fc-a18e959f7939",
+      "longDescription": null,
+      "shortDescription": "Assistance with deleting a resource group in Azure",
+      "searchTags": "",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
       "id": "5f941c9f-e41a-2d35-7719-2f2f0bc72408",
       "longDescription": null,
       "shortDescription": "Covers issues with the Azure Disk Encryption extension",
@@ -749,6 +757,38 @@
       "shortDescription": "Request assistance with activating Windows for a virtual machine running in Azure",
       "searchTags": "",
       "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "7894368f-87ed-8e4b-df9a-4b2f8fa19e71",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
+      "searchTags": "",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "588be50a-ee0e-8d07-0135-8dde3ee4bb56",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
+      "searchTags": "",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "46dcb332-b7aa-e73a-12b2-28d207c8b9b7",
+      "longDescription": null,
+      "shortDescription": "My issue is specific to configuration and setup of the VM and is not listed above",
+      "searchTags": "",
+      "category": "",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "168ae047-62a7-4dfc-1fea-f24ae6644b2c",
+      "longDescription": null,
+      "shortDescription": "My issue is specific to management of the VM and is not listed above",
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
