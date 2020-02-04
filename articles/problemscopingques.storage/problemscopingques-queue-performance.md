@@ -8,7 +8,7 @@
 	productPesIds="16461"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
-	articleId="cb9c0899-36e8-4fa6-bc1e-142271c7743e"
+	articleId="c3546c6d-ca17-4469-b00a-5a84d061d33d"
 />
 # Performance issue on table
 ---
