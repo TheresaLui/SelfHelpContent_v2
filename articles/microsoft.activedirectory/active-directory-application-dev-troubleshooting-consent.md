@@ -6,7 +6,7 @@
   authors="lnalepa"
   selfHelpType="generic"
   supportTopicIds="32596874"
-  productPesIds="14785,16575"
+  productPesIds="14785"
   cloudEnvironments="public"
  	articleId="614761d8-81dd-4ab2-b232-322c2ed12598"
 />
