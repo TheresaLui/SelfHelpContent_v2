@@ -20,7 +20,7 @@ cloudEnvironments="public"
 
 ## **Your application has reached its quota**
 <!--issueDescription-->
-Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> has reached its daily cap <!--$Time-->[Time]<!--/$Time-->. To fix this you should increase your [daily cap](https://docs.microsoft.com/azure/azure-monitor/app/pricing)
+Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> has reached its daily cap <!--$Time-->[Time]<!--/$Time-->. To fix this you should increase your daily cap.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
