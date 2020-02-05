@@ -1,6 +1,6 @@
 <properties
   pageTitle="Problems troubleshooting consent"
-  description="Problems troublshooting consent"
+  description="Problems troubleshooting consent"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
   authors="lnalepa"
