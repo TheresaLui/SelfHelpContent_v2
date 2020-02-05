@@ -20,10 +20,6 @@ Redirect URI/reply URLs (both expressions are interchangeable) are the URL used 
 
 ## **Recommended Steps**
 
-* [I don't know how to register a redirect URI for my app](#i-don-t-know-how-to-register-the-right-redirect-uri-reply-url-for-my-app)
-* [I've deployed my web application and now I get a reply url mismatch message](#i-ve-deployed-my-web-application-and-when-i-test-the-deployed-app--I-get-a-reply-url-mismatch-message)
-* [I registered too many redirect URIs already](#i-can-t-register-enough-reply-urls)
-
 ### I don't know how to register the right redirect URI / reply URL for my app
 
 When you sign in with the application you are developing, if the sign-in dialog displays `AADSTS50011: The reply url specified in the request does not match the reply urls configured for the application <your app ID>`, you'll need to add to your application registration, the redirect URI that your code used in the token request to the Microsoft identity platform.
