@@ -8,7 +8,7 @@
 	ms.author="jmprieur"
 	diagnosticScenario="MisconfiguredRedirectUri"
 	selfHelpType="generic"
-	supportTopicIds="32570261"
+	supportTopicIds="32596861"
 	resourceTags="appdev"
 	productPesIds="16575"
 	CloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
