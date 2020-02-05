@@ -12,7 +12,7 @@ resourceTags="linux, ubuntu, redhat, suse"
 productPesIds="15571"
 cloudEnvironments="public"
 />
-# Diagnose and solve v2 test article for linux
+# Diagnose and solve v2 test article for linux 
 ---
 {
   "$schema": "SelfHelpContent",
