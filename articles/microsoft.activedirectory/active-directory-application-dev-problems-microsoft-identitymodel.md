@@ -10,7 +10,7 @@
     supportTopicIds="32596874"
     resourceTags=""
     productPesIds="16575"
-    cloudEnvironments="public"
+    CloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="cb6ca4c1-d40b-44fc-bfd9-46dea8773765"
 />
 
@@ -20,7 +20,7 @@
 
 ### How can I enable debugging in my ASP.NET or ASP.NET Core Web app or Web API?
 
-To debug ASP.NET Core apps, you need to enable the [developer exception page](https://docs.microsoft.com/aspnet/core/fundamentals/error-handling#developer-exception-page), and also review [error handling in ASP.NET Core]()
+To debug ASP.NET Core apps, you need to enable the [developer exception page](https://docs.microsoft.com/aspnet/core/fundamentals/error-handling#developer-exception-page), and also review [error handling in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/error-handling)
 See also:
 
 * [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/environments)
@@ -34,8 +34,8 @@ In order to see all the information provided in the exceptions, you will need to
 ### How do I debug the middleware events in my ASP.NET Core Web app / API?
 
 You can debug middleware events in:
-- Web apps, by subscribing to the OpenID Connect middleware events. See, example code on how to do that in: [OpenIdConnectMiddlewareDiagnostics](https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/blob/db7f74fd7e65bab9d21092ac1b98a00803e5ceb2/Microsoft.Identity.Web/Resource/OpenIdConnectMiddlewareDiagnostics.cs)
-- Web APIs, by subscribing to the OpenID Connect middleware events. See, example code on how to do that in: [JwtBearerMiddlewareDiagnostics](https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/blob/db7f74fd7e65bab9d21092ac1b98a00803e5ceb2/Microsoft.Identity.Web/Resource/JwtBearerMiddlewareDiagnostics.cs)
+- Web apps, by subscribing to the OpenID Connect middleware events. See example code on how to do that in: [OpenIdConnectMiddlewareDiagnostics](https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/blob/db7f74fd7e65bab9d21092ac1b98a00803e5ceb2/Microsoft.Identity.Web/Resource/OpenIdConnectMiddlewareDiagnostics.cs)
+- Web APIs, by subscribing to the OpenID Connect middleware events. See example code on how to do that in: [JwtBearerMiddlewareDiagnostics](https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/blob/db7f74fd7e65bab9d21092ac1b98a00803e5ceb2/Microsoft.Identity.Web/Resource/JwtBearerMiddlewareDiagnostics.cs)
 
 ## **Recommended Documents**
 
