@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
-	articleId="compute-virtualdiskmgmt-attachdetach"
+	articleId="d43073c5-75dc-4c03-b04a-aa4c56e765a8"
 />
 
 # Resolving issues with VM Disk Management
