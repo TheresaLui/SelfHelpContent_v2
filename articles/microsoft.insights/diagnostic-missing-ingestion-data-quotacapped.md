@@ -27,7 +27,7 @@ Our diagnostic has detected that the Application Insights resource with name <!-
 
 The daily cap is a cost saving tool. Hitting the daily cap is often associated with organic growth of your application traffic. You should review your data to see if this is an expected increase and plan for more data usage. The best option is to increase your daily cap, but you should make sure you understand your data usage before increasing this value as it will increase your cost. If you do not want to increase your costs you should consider sampling.
 
-* [Increase your daily cap](data-blade:Microsoft_Azure_Insights.DailyCapBlade.ComponentId.$resourceId)
+* [Increase your daily cap](https://docs.microsoft.com/azure/azure-monitor/app/pricing)
 * Enable or configure [sampling](https://docs.microsoft.com/azure/azure-monitor/app/sampling#ingestion-sampling) to reduce traffic
  
 
