@@ -16,7 +16,7 @@
 
 # Connection Monitor
 
-## **Connection Monitor - Recommended Steps**
+## **Recommended Steps**
 
 ### **Internal Server Error while trying to create Connection Monitor**
 
@@ -70,18 +70,18 @@
 ### **What is a connection monitor, test group and test**
 
 * Connection Monitor Resource – Region specific Azure resource. All the entities mentioned below are properties of a Connection Monitor resource.
-* Endpoints – All sources and destinations that participate in connectivity checks are called as endpoints. Examples of endpoint – Azure VMs, On Premise agents, URLs, IPs 
-* Test Configuration – Each test configuration is protocol specific. Based on the protocol chosen, you can define port, thresholds, test frequency and other parameters
-* Test Group – Each test group contains source endpoints, destination endpoints and test configurations. Each Connection Monitor can contain more than one test groups
-* Test – Combination of a source endpoint, destination endpoint and test configuration make one test. This is the lowest level at which monitoring data (checks failed % and RTT) is available
+* Endpoints – All sources and destinations that participate in connectivity checks are called as endpoints. Examples of endpoint – Azure VMs, On Premise agents, URLs, IPs.
+* Test Configuration – Each test configuration is protocol specific. Based on the protocol chosen, you can define port, thresholds, test frequency and other parameters.
+* Test Group – Each test group contains source endpoints, destination endpoints and test configurations. Each Connection Monitor can contain more than one test groups.
+* Test – Combination of a source endpoint, destination endpoint and test configuration make one test. This is the lowest level at which monitoring data (checks failed % and RTT) is available.
 
 ### **Is Powershell/CLI available for Connection Monitor(Preview)**
 
-* Yes you can use powershell and CLI to create / update Connection Monitor
+* Yes, you can use powershell and CLI to create / update Connection Monitor
 
 ### **Does Connection Monitor(Preview)support IPv6**
 
-* Yes Connection Monitor(Preview) supports IPv6**
+* Yes, Connection Monitor(Preview) supports IPv6**
 
 ### **How is Checks Failed % calculated for a test**
 * If HTTP is selected, the service calculates the number of HTTP responses that returned a response code to determine the checks failed %.  To calculate RTT we measure the time taken to receive the response of a HTTP call. 
@@ -107,7 +107,7 @@
 
 ### **Deleted Connection Monitor still showing up in the dashboard**
 
-* The dashboard loads data for a time duration in the UI, hence the Connection Monitor might be showing up.This should disappear in about 5 minutes
+* The dashboard loads data for a time duration in the UI, hence the Connection Monitor might be showing up. This should disappear in about 5 minutes
 
 ## **Recommended Documents**
 
