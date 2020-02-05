@@ -8,9 +8,10 @@
 	ms.author="jmprieur"
 	diagnosticScenario="MisconfiguredRedirectUri"
 	selfHelpType="generic"
-	supportTopicIds="32596874,32570261"
+	supportTopicIds="32570261"
 	resourceTags="appdev"
 	productPesIds="16575"
+	CloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="active-directory-application-redirecturi-misconfigured"
 />
 # I received an error related to the reply url
