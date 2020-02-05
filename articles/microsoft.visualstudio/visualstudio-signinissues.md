@@ -26,7 +26,7 @@ As a first step in resolving any connectivity issues with Azure DevOps, complete
 2. Delete the cookies in your browser. To delete cookies in most browsers, press Ctrl+Shift+Del.
 3. Open Internet Explorer and delete the browser cookies. The Visual Studio IDE uses Internet Explorer cookies.
 4. Close all browsers and close the Visual Studio IDE.
-5. Use a private browser session to retry the connection. If the issue is with the Visual Studio IDE, remove the connection, and then readd it.<br>
+5. Use a private browser session to retry the connection. If the issue is with the Visual Studio IDE, remove the connection, and then re add it.<br>
 
 ## **Recommended Documents**
 
