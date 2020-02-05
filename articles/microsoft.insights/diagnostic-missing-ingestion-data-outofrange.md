@@ -19,9 +19,8 @@ cloudEnvironments="public"
 # Where's my data?
 
 ## **Your application sent data that is out of the acceptable date range**
-
 <!--issueDescription-->
-Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> has sent **data that is out of range** <!--$Time-->[Time]<!--/$Time-->. This is an indication that your application was offline for a long period of time and sent data that was too old to be ingested. It can also mean that you are using an older version of the SDK that has issues when it loses connection to the internet.
+Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> has sent data that is out of range <!--$Time-->[Time]<!--/$Time-->. This is an indication that your application was offline for a long period of time and sent data that was too old to be ingested. It can also mean that you are using an older version of the SDK that has issues when it loses connection to the internet.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

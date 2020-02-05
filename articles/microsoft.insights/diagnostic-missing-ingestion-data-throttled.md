@@ -19,9 +19,8 @@ cloudEnvironments="public"
 # Where's my data?
 
 ## **Your application was throttled**
-
 <!--issueDescription-->
-Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> was **throttled** <!--$Time-->[Time]<!--/$Time-->. This is an indication that your application was sending data at a higher rate than allowed by the Application Insights ingestion endpoints.
+Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> was throttled <!--$Time-->[Time]<!--/$Time-->. This is an indication that your application was sending data at a higher rate than allowed by the Application Insights ingestion endpoints.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

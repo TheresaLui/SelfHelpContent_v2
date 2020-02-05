@@ -19,9 +19,8 @@ cloudEnvironments="public"
 # Where's my data?
 
 ## **Your application sent invalid telemetry**
-
 <!--issueDescription-->
-Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> has sent **invalid telemetry** <!--$Time-->[Time]<!--/$Time-->. This is an indication that your application either has some type of data corruption while sending the telemetry or you are using an SDK that is not part of our [supported languages, frameworks, and platforms](https://docs.microsoft.com/azure/azure-monitor/app/platforms).
+Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> has sent invalid telemetry <!--$Time-->[Time]<!--/$Time-->. This is an indication that your application either has some type of data corruption while sending the telemetry or you are using an SDK that is not part of our [supported languages, frameworks, and platforms](https://docs.microsoft.com/azure/azure-monitor/app/platforms).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
