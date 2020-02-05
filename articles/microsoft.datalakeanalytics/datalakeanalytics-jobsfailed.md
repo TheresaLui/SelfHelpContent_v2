@@ -30,7 +30,7 @@ U-SQL jobs can fail for a number of reasons.  Common reasons include:
 ## **Recommended Steps**
 
 1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
-2. Understand the error that caused the job to fail by using the Job Browser in Visual Studio or the Azure Portal and the <br>
+2. Understand the error that caused the job to fail by using the Job Browser in Visual Studio or the the Job management tab for the ADLA account in the Azure Portal<br>
 
 ## **Recommended Documents**
 

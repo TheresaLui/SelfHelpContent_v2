@@ -22,6 +22,7 @@ Stream Analytics guarantees at-least-once delivery of events. Even if you job st
 
 ## **Recommended Documents**
 
+* [Understanding and dealing with input and output data errors](https://docs.microsoft.com/azure/stream-analytics/data-errors)
 * [Debug using activity logs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#debugging-using-activity-logs)
 * [Debug using diagnostic logs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#send-diagnostics-to-log-analytics)
 * [How does Stream Analytics handle errors and retries when writing to Azure Functions?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-with-azure-functions#error-handling-and-retries)

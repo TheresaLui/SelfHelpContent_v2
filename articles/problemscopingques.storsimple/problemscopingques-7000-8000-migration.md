@@ -10,7 +10,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Scoping for 700-8000 Migration
+# Scoping for 7000-8000 Migration
 ---
 {
     "resourceRequired": true,

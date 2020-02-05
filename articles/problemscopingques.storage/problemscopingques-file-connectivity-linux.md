@@ -29,8 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "File Share or File path",
             "watermarkText": "'FileShare' or 'FileShare/FileName'",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false,
+            "diagnosticInputRequiredClients": "ASC"
         },
         {
             "id": "os_version",
@@ -100,7 +100,7 @@
                     "text": "Other - provide Linux kernel version below"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
@@ -136,7 +136,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false,
+            "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
@@ -192,8 +192,7 @@
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "problem_description",

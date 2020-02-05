@@ -2,17 +2,17 @@
 	pageTitle="Enterprise portal functionality"
 	description="Providing users with information about the enterprise portal."
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="09385143-18df-4482-94aa-92a65538acd2"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32599494"
+	supportTopicIds="32688683"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
 />
 
@@ -20,7 +20,7 @@
 
 ### Microsoft Azure EA portal
 
-The Azure EA portal is an online management portal that helps you manage the cost for your Azure EA services. You use it to create an Azure EA hierarchy including departments, accounts, and subscriptions. You also use it to reconcile the costs of your consumed services, download usage reports, and view price lists. And, you create API keys for your enrollment.
+The Azure EA portal is an online management portal that helps you manage the cost for your Azure EA services. You use it to create an Azure EA hierarchy including departments, accounts, and subscriptions. You also use it to reconcile the costs of your consumed services, download usage reports, and view price lists, as well as create API keys for your enrollment.
 
 ## **Recommended Documents**
 

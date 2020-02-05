@@ -2,17 +2,17 @@
 	pageTitle="Update notification settings"
 	description="Providing user with information about updating notification settings"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="b4e24ff4-6731-4da2-a8c6-944ce4556a4b"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615283"
+	supportTopicIds="32688698"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
 />
 
@@ -44,7 +44,8 @@ Partner Administrators can manage the frequency that they receive usage notifica
 
 If a notification isn't received by a user, verify that the user's notification settings are correct with the following steps:
 
-1. Sign in to the Azure EA portal as a Partner Administrator1. Click **Manage** and then click the **Partner** tab
+1. Sign in to the Azure EA portal as a Partner Administrator
+1. Click **Manage** and then click the **Partner** tab
 1. View the list of administrators under the **Administrator** section
 1. To edit notification preferences, hover over the appropriate administrator and click the pencil symbol
 1. Up the notification frequency and lifecycle notifications as needed

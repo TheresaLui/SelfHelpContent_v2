@@ -16,7 +16,10 @@
 
 # How to develop with PowerShell
 
-## **Recommended documents**
+## **Recommended Documents**
 
+Most customers resolve their Powershell related issues with Blob Storage on their own, using the links below.
+
+- [Azure Storage PowerShell Cmdlets](https://docs.microsoft.com/powershell/module/azurerm.storage/?view=azurermps-6.11.0#storage)<br>
 - [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps?view=azurermps-6.11.0)<br>
-- [Azure Storage PowerShell Cmdlets](https://docs.microsoft.com/powershell/module/azurerm.storage/?view=azurermps-6.11.0#storage)
+
