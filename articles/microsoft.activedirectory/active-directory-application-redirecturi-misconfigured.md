@@ -12,7 +12,7 @@
 	resourceTags="appdev"
 	productPesIds="16575"
 	cloudEnvironments="public"
-	articleId="8045922a-1bc4-47de-8f2d-6bb1886f1b6a"
+	articleId="active-directory-application-redirecturi-misconfigured"
 />
 # I received an error related to the reply url
 
