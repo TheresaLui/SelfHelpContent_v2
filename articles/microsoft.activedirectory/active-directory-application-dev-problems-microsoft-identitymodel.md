@@ -7,9 +7,9 @@
     ms.author="jmprieur"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32596874"
     resourceTags=""
-    productPesIds=""
+    productPesIds="16575"
     cloudEnvironments="public"
     articleId="cb6ca4c1-d40b-44fc-bfd9-46dea8773765"
 />
