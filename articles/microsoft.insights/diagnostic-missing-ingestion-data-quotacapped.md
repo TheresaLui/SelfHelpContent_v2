@@ -20,7 +20,7 @@ cloudEnvironments="public"
 
 ## **Your application has reached its quota**
 <!--issueDescription-->
-Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> has **reached its daily cap** <!--$Time-->[Time]<!--/$Time-->. To fix this you should increase your [daily cap](data-blade:Microsoft_Azure_Insights.DailyCapBlade.ComponentId.$resourceId).
+Our diagnostic has detected that the Application Insights resource with name <!--$ComponentName-->[ComponentName]<!--/$ComponentName--> and instrumentation key <!--$InstrumentationKey-->[InstrumentationKey]<!--/$InstrumentationKey--> has **reached its daily cap** <!--$Time-->[Time]<!--/$Time-->. To fix this you should increase your [daily cap](https://docs.microsoft.com/azure/azure-monitor/app/pricing)
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -33,5 +33,6 @@ The daily cap is a cost saving tool. Hitting the daily cap is often associated w
 
 ## **Recommended Documents**
 
+* [Manage usage and costs](https://docs.microsoft.com/azure/azure-monitor/app/pricing)<br>
 * [Sampling in Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/sampling#ingestion-sampling)<br>
 * [Filter telemetry with a Telemetry Processor](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#filtering)
