@@ -19,3 +19,4 @@
 ## **Recommended Documents**
 
 * [Troubleshoot Apache HBase by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/apache-troubleshoot-hbase)
+* [Refresh the HDInsight certificate for Data Lake Storage Gen1 access](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store?toc=/azure/hdinsight/hadoop/TOC.json&bc=/azure/bread/toc.json#refresh-the-hdinsight-certificate-for-data-lake-storage-gen1-access)
