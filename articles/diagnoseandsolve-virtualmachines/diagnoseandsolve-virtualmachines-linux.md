@@ -12,7 +12,7 @@ resourceTags="linux, ubuntu, redhat, suse"
 productPesIds="15571"
 cloudEnvironments="public"
 />
-# Diagnose and solve v2 test article for linux 
+# Diagnose and solve v2 test article for linux
 ---
 {
   "$schema": "SelfHelpContent",
@@ -186,14 +186,14 @@ cloudEnvironments="public"
       "supportTopicId": "32628284",
       "commonSolutionArticleId": "0c333e4e-a865-4822-84b4-0c8eba727ffe",
       "symptomId": "CannotRdpAzurePortalInsight"
-    },    
+    },
     {
       "id": "Help_with_VM_Sizing",
       "title": Help with VM Sizing",
-      "description": "Guidance on VM sizing and troubleshooting resize issues ",
+      "description": "Guidance on VM sizing and troubleshooting resize issues",
       "category": "Management",
-      "searchTags": "resize,size,throughput, performance",
-      "supportTopicId": "",
+      "searchTags": "resize, size, throughput, performance",
+      "supportTopicId": "fff",
       "subProblems": [
         {
           "id": "Guidance_for_better_VM_sizing_and_throughput",
@@ -201,7 +201,7 @@ cloudEnvironments="public"
           "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
           "supportTopicId": "32632142",
           "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
-          "symptomId": ""
+          "symptomId": "fff"
         },
         {
           "id": "Unable_to_resize_my_VM",
@@ -209,7 +209,7 @@ cloudEnvironments="public"
           "description": "Unable to resize Azure VMs",
           "supportTopicId": "32632142",
           "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
-          "symptomId": ""
+          "symptomId": "ff"
         }
       ]
     },
