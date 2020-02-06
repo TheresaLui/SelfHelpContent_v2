@@ -7,7 +7,7 @@
 	authors="jozender"
 	ms.author="jozender"
 	displayOrder=""
-	articleId="UnexpectedVMReboot_0C6D008F-AFC1-41A1-9A54-0C64C109064F"
+	articleId="UnexpectedVMReboot_14a0aa18-5da1-45f1-88dc-c6f0f6a5ff99"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds="32411816"
