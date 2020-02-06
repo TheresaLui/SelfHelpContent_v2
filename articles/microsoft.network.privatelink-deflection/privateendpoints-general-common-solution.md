@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="722d2f21-85d2-42e8-99fb-d944c9d98006"
 	diagnosticScenario=""
-	selfHelpType="general"
+	selfHelpType="generic"
 	supportTopicIds="32681483"
 	resourceTags=""
 	productPesIds="16843"
