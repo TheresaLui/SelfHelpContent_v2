@@ -188,7 +188,7 @@ cloudEnvironments="public"
       "symptomId": "CannotRdpAzurePortalInsight"
     },
     {
-      "id": "Help_with_VM_Sizing",
+      "id": "Help_with_VM_Sizing_Top",
       "title": Help with VM Sizing",
       "description": "Guidance on VM sizing and troubleshooting resize issues",
       "category": "Management",
