@@ -189,13 +189,32 @@ cloudEnvironments="public"
     },
     {
       "id": "Help_with_VM_Sizing_Top",
-      "title": Help with VM Sizing",
+      "title": "Help with VM Sizing",
       "description": "Guidance on VM sizing and troubleshooting resize issues",
       "category": "Management",
       "searchTags": "resize, size, throughput, performance",
       "supportTopicId": "32632142",
       "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
       "symptomId": ""
+    },
+      "subProblems": [
+        {
+          "id": "Guidance_for_better_VM_sizing_and_throughput",
+          "title": "Guidance for better VM sizing and throughput",
+          "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
+          "supportTopicId": "32632142",
+          "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
+          "symptomId": ""
+        },
+        {
+          "id": "Unable_to_resize_my_VM",
+          "title": "Unable to resize my VM",
+          "description": "Unable to resize Azure VMs",
+          "supportTopicId": "32632142",
+          "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
+          "symptomId": ""
+        }
+      ]
     },
     {
       "id": "Cannot_Start_or_Stop_VM",
