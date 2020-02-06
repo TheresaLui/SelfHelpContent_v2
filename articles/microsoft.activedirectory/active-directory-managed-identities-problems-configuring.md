@@ -22,10 +22,8 @@ For issues related to configuring managed identity on a resource:
 
 ## **Recommended Steps**
 
-- To enable system-assigned managed identity, you need write permissions over the resource. 
-For example, for virtual machines you need Microsoft.Compute/virtualMachines/write. This action is included in resource specific built-in roles like Virtual Machine Contributor.
-
-- To add a user-assigned managed identity to a resource, you need both write permissions over the resource and Managed Identity Operator permissions over the managed identity. 
+- To enable system-assigned managed identity, you need write permissions over the resource. For example, for virtual machines you need Microsoft.Compute/virtualMachines/write. This action is included in resource specific built-in roles like Virtual Machine Contributor.
+- To add a user-assigned managed identity to a resource, you need both write permissions over the resource and Managed Identity Operator permissions over the managed identity
 
 ## **Recommended Documents**
 
