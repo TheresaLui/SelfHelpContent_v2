@@ -200,7 +200,7 @@ cloudEnvironments="public"
           "title": "Guidance for better VM sizing and throughput",
           "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
           "supportTopicId": "32632142",
-          "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
+          "commonSolutionArticleId": "6c90898f-7758-42e3-97bf-d85745fe6c08",
           "symptomId": ""
         },
         {
@@ -208,7 +208,7 @@ cloudEnvironments="public"
           "title": "Unable to resize my VM",
           "description": "Unable to resize Azure VMs",
           "supportTopicId": "32632142",
-          "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
+          "commonSolutionArticleId": "6c90898f-7758-42e3-97bf-d85745fe6c08",
           "symptomId": ""
         }
       ]
