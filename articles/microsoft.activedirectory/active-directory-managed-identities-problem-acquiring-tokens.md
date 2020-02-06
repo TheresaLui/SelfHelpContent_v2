@@ -12,7 +12,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32690728"
 	resourceTags=""
-	productPesIds="16986"
+	productPesIds="16985"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
