@@ -23,4 +23,4 @@ Azure Private Endpoint is a network interface that connects you privately and se
 ## **Recommended Documents**
 
 * [Azure Private Endpoint overview](https://docs.microsoft.com/azure/private-link/private-endpoint-overview)
-* [Create a Private Link service using the Azure portal](https://docs.microsoft.com/en-us/azure/private-link/create-private-link-service-portal)
+* [Create a Private Link service using the Azure portal](https://docs.microsoft.com/azure/private-link/create-private-link-service-portal)
