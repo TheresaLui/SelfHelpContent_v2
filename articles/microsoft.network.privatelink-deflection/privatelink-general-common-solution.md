@@ -12,7 +12,7 @@
 
 # What is Private Link Service?
 
-Azure Private Link service is the reference to your own service that is powered by Azure Private Link. The service or resource that is operating behind Azure Load Balancer can be enabled for Private Link access. Consumers of your service can access the service privately from their own VNets. 
+Azure Private Link service is the reference to your own service that is powered by Azure Private Link. The service or resource that is operating behind Azure Load Balancer can be enabled for Private Link access. Consumers of your service can access the service privately from their own virtual network. 
 
 ## **Recommended Documents**
 
