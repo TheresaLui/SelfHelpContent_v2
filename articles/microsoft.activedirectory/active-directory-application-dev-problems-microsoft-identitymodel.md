@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-### How can I enable debugging in my ASP.NET or ASP.NET Core Web app or Web API?
+### **How can I enable debugging in my ASP.NET or ASP.NET Core Web app or Web API?**
 
 To debug ASP.NET Core apps, you need to enable the [developer exception page](https://docs.microsoft.com/aspnet/core/fundamentals/error-handling#developer-exception-page), and also review [error handling in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/error-handling)
 See also:
@@ -26,12 +26,12 @@ See also:
 * [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/environments)
 * [Debug ASP.NET or ASP.NET Core apps in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications?view=vs-2019)
 
-### How can I enable PII in my ASP.NET Core Web app / API?
+### **How can I enable PII in my ASP.NET Core Web app / API?**
 
 By default, we do not include any potential PII (personally identifiable information) in the Microsoft.IdentityModel exceptions, in order to be compliant with GDPR.
 In order to see all the information provided in the exceptions, you will need to set `IdentityModelEventSource.ShowPII` to `true`.
 
-### How do I debug the middleware events in my ASP.NET Core Web app / API?
+### **How do I debug the middleware events in my ASP.NET Core Web app / API?**
 
 You can debug middleware events in:
 - Web apps, by subscribing to the OpenID Connect middleware events. See example code on how to do that in: [OpenIdConnectMiddlewareDiagnostics](https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/blob/db7f74fd7e65bab9d21092ac1b98a00803e5ceb2/Microsoft.Identity.Web/Resource/OpenIdConnectMiddlewareDiagnostics.cs)
