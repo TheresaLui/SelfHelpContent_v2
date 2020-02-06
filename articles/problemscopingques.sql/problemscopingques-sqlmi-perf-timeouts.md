@@ -1,12 +1,12 @@
 <properties
-	articleId="problemscopingques-sqlmi-database-name"
+	articleId="problemscopingques-sqlmi-perf-timeouts"
 	pageTitle="SQL Database Managed Instance"
-	description="Scoping questions to capture managed instance database name"
+	description="Scoping questions to capture managed instance issues with timeouts in performance"
 	authors="vitomaz-msft,MladjoA"
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637257,32637254,32637306,32637313"
+	supportTopicIds="32637296"
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
@@ -29,9 +29,9 @@
         },
         {
             "id": "database_name",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Database name?",
+            "displayLabel": "What database is having issues?",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "{resourceid}/databases?api-version=2017-03-01-preview",
@@ -51,6 +51,15 @@
                 }
             ],
             "required": false
+        },
+        {
+            "id": "problem_details",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": false,
+            "displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
+            "watermarkText": "Provide additional information about your query performance and timeouts.",
+            "required": true
         },
         {
             "id": "problem_description",
