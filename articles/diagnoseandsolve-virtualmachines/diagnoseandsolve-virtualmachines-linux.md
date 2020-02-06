@@ -193,7 +193,7 @@ cloudEnvironments="public"
       "description": "Guidance on VM sizing and troubleshooting resize issues",
       "category": "Management",
       "searchTags": "resize, size, throughput, performance",
-      "supportTopicId": "fff",
+      "supportTopicId": "",
       "subProblems": [
         {
           "id": "Guidance_for_better_VM_sizing_and_throughput",
@@ -201,7 +201,7 @@ cloudEnvironments="public"
           "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
           "supportTopicId": "32632142",
           "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
-          "symptomId": "fff"
+          "symptomId": "DeploymentFailuresAzurePortalInsight"
         },
         {
           "id": "Unable_to_resize_my_VM",
@@ -209,7 +209,7 @@ cloudEnvironments="public"
           "description": "Unable to resize Azure VMs",
           "supportTopicId": "32632142",
           "commonSolutionArticleId": "d2152bb1-ed42-4865-bc62-9f391603ea92",
-          "symptomId": "ff"
+          "symptomId": "DeploymentFailuresAzurePortalInsight"
         }
       ]
     },
