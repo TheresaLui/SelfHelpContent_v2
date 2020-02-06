@@ -4,7 +4,7 @@
 	authors="rdhillon"
 	ms.author="rdhillon"
 	articleId="722d2f21-85d2-42e8-99fb-d944c9d98002"
-	selfHelpType="general"
+	selfHelpType="generic"
 	supportTopicIds="32681484"
 	productPesIds="16843"
 	cloudEnvironments="public"
