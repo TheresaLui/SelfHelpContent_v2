@@ -7,7 +7,7 @@
 	authors="rdhillon,malop"
 	ms.author="rdhillon,malop"
 	displayOrder=""
-	articleId=""
+	articleId="722d2f21-85d2-42e8-99fb-d944c9d98001"
 	diagnosticScenario=""
 	selfHelpType="configure"
 	supportTopicIds="32681485"
