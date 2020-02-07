@@ -22,5 +22,5 @@
 
 **AMD GPU Driver Extension for Linux:**
 
-* [Overview](https://docs.microsoft.com/en-us/azure/virtual-machines/Linux/sizes-gpu)<br>
-* [Basic specs, storage capacities, and disk details](https://docs.microsoft.com/en-us/azure/virtual-machines/Linux/sizes-gpu#nvv4-series-preview--1)
+* [Overview](https://docs.microsoft.com/azure/virtual-machines/Linux/sizes-gpu)<br>
+* [Basic specs, storage capacities, and disk details](https://docs.microsoft.com/azure/virtual-machines/Linux/sizes-gpu#nvv4-series-preview--1)

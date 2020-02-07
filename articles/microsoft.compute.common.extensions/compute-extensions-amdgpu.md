@@ -23,5 +23,5 @@
 **AMD GPU Driver Extension for Windows:**
 
 * [Installation of AMD GPU Drivers on N-series](https://docs.microsoft.com/azure/virtual-machines/windows/n-series-amd-driver-setup)<br>
-* [Overview](https://docs.microsoft.com/en-us/azure/virtual-machines/Linux/sizes-gpu)<br>
-* [Basic specs, storage capacities, and disk details](https://docs.microsoft.com/en-us/azure/virtual-machines/Linux/sizes-gpu#nvv4-series-preview--1)
+* [Overview](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-gpu)<br>
+* [Basic specs, storage capacities, and disk details](https://docs.microsoft.com/azure/virtual-machines/windows/sizes-gpu#nvv4-series-preview--1)
