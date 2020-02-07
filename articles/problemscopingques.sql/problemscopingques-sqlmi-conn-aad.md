@@ -201,7 +201,7 @@
             "id": "add_login_tool",
             "order": 2600,
             "controlType": "dropdown",
-            "displayLabel": "Which tool are you using to connect to the Azure SQL DB?",
+            "displayLabel": "Which tool are you using to connect to the Managed Instance?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -232,7 +232,7 @@
             "id": "aad_login_tool_other",
             "order": 2610,
             "controlType": "textbox",
-            "displayLabel": "Please enter the tool that you are using to connect to the Azure SQL DB.",
+            "displayLabel": "Please enter the tool that you are using to connect to the Managed Instance.",
             "infoBalloonText": "If you are using client tool(s) other than the ones listed above, please type in the tool name.",
             "required": true,
             "visibility": "add_login_tool == dont_know_answer",
@@ -245,7 +245,7 @@
             "id": "aad_login_driver",
             "order": 2700,
             "controlType": "dropdown",
-            "displayLabel": "What driver are you using to connect to the Azure SQL DB?",
+            "displayLabel": "What driver are you using to connect to the Managed Instance?",
             "required": false,
             "dropdownOptions": [
                 {
@@ -272,7 +272,7 @@
             "id": "aad_login_driver_other",
             "order": 2710,
             "controlType": "textbox",
-            "displayLabel": "Please enter the driver that you are using to connect to the Azure SQL DB.",
+            "displayLabel": "Please enter the driver that you are using to connect to the Managed Instance.",
             "infoBalloonText": "If you are using driver(s) other than the ones listed above, please type in the driver name and version.",
             "required": true,
             "visibility": "aad_login_driver == dont_know_answer",
