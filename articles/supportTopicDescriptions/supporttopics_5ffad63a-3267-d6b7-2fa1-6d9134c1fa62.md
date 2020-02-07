@@ -24,7 +24,7 @@
   "productLinkName3": null,
   "supportTopics": [
         {
-            "id": 32636418,
+            "id": 6c0f1b9a-c2ef-0342-2244-d3e09ea981f1,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI.",
             "searchTags": "",
@@ -32,7 +32,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636446,
+            "id": 7743f77b-1455-2015-ef81-2cfe5aba9a06,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI on a Hadoop cluster.",
             "searchTags": "",
@@ -40,7 +40,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636449,
+            "id": 1d9ea821-2c4e-421f-22df-0360cfeeb63e,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI on an Hbase cluster.",
             "searchTags": "",
@@ -48,7 +48,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636457,
+            "id": d1da3f40-3ae3-c26a-afe8-c0db5bbe87a8,
             "longDescription": "",
             "shortDescription": "Responding to Hive alerts in the Ambari UI.",
             "searchTags": "",
@@ -56,7 +56,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636462,
+            "id": ed2cb61b-84cf-7f8d-f6eb-94c4d398e459,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI on an Interactive Query cluster.",
             "searchTags": "",
@@ -64,7 +64,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636468,
+            "id": 75850825-febb-ece7-a8f2-9d8268f79a13,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI on a Kafka cluster.",
             "searchTags": "",
@@ -72,7 +72,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636478,
+            "id": 3fe81b99-7d19-c77b-1519-a014c1677b0f,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI on an ML Services cluster.",
             "searchTags": "",
@@ -80,7 +80,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636493,
+            "id": 29e13a59-f798-2463-b94f-4b8753d52bcc,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI on a Spark cluster.",
             "searchTags": "",
@@ -88,7 +88,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636499,
+            "id": 2113606f-6338-de5c-38ef-84a0d34b5f3d,
             "longDescription": "",
             "shortDescription": "Responding to alerts in Ambari UI on a Storm cluster.",
             "searchTags": "",
@@ -96,7 +96,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636419,
+            "id": 42f78762-e23c-1ccb-b181-cfb1f9784dc8,
             "longDescription": "",
             "shortDescription": "Unable to access the Ambari UI.",
             "searchTags": "",
@@ -104,7 +104,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636420,
+            "id": 4f57a596-bf86-a56a-1355-f3a3995c4338,
             "longDescription": "",
             "shortDescription": "Unable to login or connect to resources.",
             "searchTags": "",
@@ -112,7 +112,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636436,
+            "id": d318b876-9ce8-dd94-c104-18ca4b6acf1c,
             "longDescription": "",
             "shortDescription": "Unable to login or connect to Ambari from an ESP cluster.",
             "searchTags": "",
@@ -120,7 +120,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636437,
+            "id": f944778a-1680-45bf-f04b-454f697a6fc8,
             "longDescription": "",
             "shortDescription": "Unable to login or connect to Ambari.",
             "searchTags": "",
@@ -128,7 +128,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636482,
+            "id": d8a4d18d-8a21-37c2-6753-974eeea2d9bb,
             "longDescription": "",
             "shortDescription": "Unable to login or connect to a notebook from an ESP cluster.",
             "searchTags": "",
@@ -136,7 +136,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636483,
+            "id": b80f6dca-525e-5957-6539-47d966552c3e,
             "longDescription": "",
             "shortDescription": "Unable to login or connect to a notebook.",
             "searchTags": "",
@@ -144,7 +144,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636486,
+            "id": 41716d00-4f68-6ae5-2a65-b5c70841d180,
             "longDescription": "",
             "shortDescription": "Unable to login or connect to using ODBC or JDBC from an ESP cluster.",
             "searchTags": "",
@@ -152,7 +152,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636487,
+            "id": f2e6b053-4d59-59c5-2e02-6ce309025938,
             "longDescription": "",
             "shortDescription": "Unable to login or connect using ODBC or JDBC.",
             "searchTags": "",
@@ -160,7 +160,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636489,
+            "id": 7f2d608a-1ec0-3294-957a-1d30128777d5,
             "longDescription": "",
             "shortDescription": "Unable to login or connect to Ranger from an ESP cluster.",
             "searchTags": "",
@@ -168,7 +168,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636421,
+            "id": 4781afdc-ae62-4fd0-84f0-049fb33ffca9,
             "longDescription": "",
             "shortDescription": "Unable to access resources when using Apache Ranger on an ESP cluster.",
             "searchTags": "",
@@ -176,7 +176,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636490,
+            "id": b3bd9ff7-22b4-cf10-b9d3-ba5fca3dc655,
             "longDescription": "",
             "shortDescription": "Audit logs are missing from Apache Ranger.",
             "searchTags": "",
@@ -184,7 +184,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636491,
+            "id": d2249b78-e1b9-fe6b-ed16-7cb30a8f9f23,
             "longDescription": "",
             "shortDescription": "Unable to enforce policies when using Apache Ranger.",
             "searchTags": "",
@@ -192,7 +192,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636422,
+            "id": fbf8c19f-d51c-547a-db6b-1169dee3333b,
             "longDescription": "",
             "shortDescription": "Unable to use client tools.",
             "searchTags": "",
@@ -200,7 +200,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636442,
+            "id": 4d02d8aa-bb81-363a-c60f-b4c6f3644719,
             "longDescription": "",
             "shortDescription": "Unexpected behavior or issues with connectivity, performance with Beeline.",
             "searchTags": "",
@@ -208,7 +208,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636455,
+            "id": 3f2fb4e4-d752-70e7-9f91-b972e5dd6ec5,
             "longDescription": "",
             "shortDescription": "Unexpected behavior or issue with connectivity, performance withthe HDInsight SDK. ",
             "searchTags": "",
@@ -216,7 +216,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636461,
+            "id": 59943458-6c38-bb5f-3243-f1738c2995eb,
             "longDescription": "",
             "shortDescription": "Unexpected behavior or issues with connectivity, performance with Hive.",
             "searchTags": "",
@@ -224,7 +224,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636484,
+            "id": 8d708f6f-341a-8893-6423-fe438f697032,
             "longDescription": "",
             "shortDescription": "Unexpected behavior or issues with connectivity or performance for Zeppelin or Jupyter notebooks.",
             "searchTags": "",
@@ -232,7 +232,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636485,
+            "id": af01cbca-343c-6fc3-a5a0-19c281d81e92,
             "longDescription": "",
             "shortDescription": "Unexpected behavior or issue with connectivity or performance with ODBC or JDBC.",
             "searchTags": "",
@@ -240,7 +240,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636505,
+            "id": 39fcf31b-bfae-9ef7-f399-9bddc39a648f,
             "longDescription": "",
             "shortDescription": "Unexpected behavior or issues with connectivity, performance with Tez.",
             "searchTags": "",
@@ -248,7 +248,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636423,
+            "id": c18ca0f9-2e03-d5e0-4c3a-f7c6819ab1c0,
             "longDescription": "",
             "shortDescription": "Issues creating an HDInsight cluster.",
             "searchTags": "",
@@ -256,7 +256,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636507,
+            "id": 5aebadb3-c9fd-f408-e74a-fbffc8ea2069,
             "longDescription": "",
             "shortDescription": "Unable to create HDInsight cluster in a VNET.",
             "searchTags": "",
@@ -264,7 +264,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32681543,
+            "id": 70f90d43-dedf-eadf-71c8-f9bb3de8c39c,
             "longDescription": "",
             "shortDescription": "Unable create cluster due to insufficient number of cores or quota limit.",
             "searchTags": "",
@@ -272,7 +272,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32681542,
+            "id": e19060d9-7553-ca74-c396-60e3c4a4d9c0,
             "longDescription": "",
             "shortDescription": "Unable to create cluster due to Azure Policy.",
             "searchTags": "",
@@ -280,7 +280,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636439,
+            "id": 409204fc-1fef-7a49-c41a-cc713f6ae79c,
             "longDescription": "",
             "shortDescription": "Unable create cluster with Data Lake Storage Gen2 or managed identity permissions issue.",
             "searchTags": "",
@@ -288,7 +288,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636438,
+            "id": f5a9b425-9d72-65e0-2501-e6e2cf407cb8,
             "longDescription": "",
             "shortDescription": "Unable to create ESP clusters using Azure Active Directory.",
             "searchTags": "",
@@ -296,7 +296,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636488,
+            "id": 7af032eb-7b6f-f9cf-8fae-b86eee8f4b6b,
             "longDescription": "",
             "shortDescription": "Issues with Custom Script actions or installing third party application.",
             "searchTags": "",
@@ -304,7 +304,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32681541,
+            "id": 5d5a0ca9-1600-456f-e513-d1bf0d573a06,
             "longDescription": "",
             "shortDescription": "Any other cluster creation issues.",
             "searchTags": "",
@@ -312,7 +312,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32681536,
+            "id": a3a2f4e1-a81f-293a-d774-6b0a529f84da,
             "longDescription": "",
             "shortDescription": "Unable to delete a cluster.",
             "searchTags": "",
@@ -320,7 +320,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636424,
+            "id": 168e3c6e-8111-6d5b-1f10-3de024169936,
             "longDescription": "",
             "shortDescription": "Any issues that are not listed above.",
             "searchTags": "",
@@ -328,7 +328,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636425,
+            "id": 6ab612d9-629c-4985-91f4-e0780b491d64,
             "longDescription": "",
             "shortDescription": "Unable to use hdfs commands.",
             "searchTags": "",
@@ -336,7 +336,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636434,
+            "id": 250828ce-32dc-197a-ffc5-0e818094bee7,
             "longDescription": "",
             "shortDescription": "Unable to work with ADFS Gen1 or Gen2 via hdfs in an ESP cluster.",
             "searchTags": "",
@@ -344,7 +344,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636435,
+            "id": e83c778a-864b-d6f2-5d3e-2dc0738275bf,
             "longDescription": "",
             "shortDescription": "Unable to work with ADFS Gen1 or Gen2 via hdfs. ",
             "searchTags": "",
@@ -352,7 +352,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636441,
+            "id": 07a299a7-f6c7-b25e-73c5-37b151b32a0f,
             "longDescription": "",
             "shortDescription": "Unable to work with Storage account via hdfs.",
             "searchTags": "",
@@ -360,7 +360,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636508,
+            "id": 80ab6985-4a2a-86c3-f55d-5c76cc4e5e12,
             "longDescription": "",
             "shortDescription": "Unable to work with Storage Blob account via hdfs in an ESP cluster.",
             "searchTags": "",
@@ -368,7 +368,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636426,
+            "id": 56b8eda5-f28e-a462-210c-7ae7a94d6845,
             "longDescription": "",
             "shortDescription": "Unable to configure or use monitoring on the Azure Portal",
             "searchTags": "",
@@ -376,7 +376,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636440,
+            "id": 183503f9-fb64-5224-1e9d-14f307af922a,
             "longDescription": "",
             "shortDescription": "Unable to enable Azure Monitor or Log Analytics on a cluster.",
             "searchTags": "",
@@ -384,7 +384,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636443,
+            "id": dd2e3f09-6153-87fb-9392-af1fd9e4aab2,
             "longDescription": "",
             "shortDescription": "Issue with the Metrics tab for a cluster in the Azure portal. ",
             "searchTags": "",
@@ -392,7 +392,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636456,
+            "id": 5875919e-e6c9-6e98-1b57-2d1c04e4b30e,
             "longDescription": "",
             "shortDescription": "Issue with one of the monitoring solutions available in the Azure portal.",
             "searchTags": "",
@@ -400,7 +400,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636427,
+            "id": 90098c5f-f89e-06b3-607e-4d180e35b3b3,
             "longDescription": "",
             "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed.",
             "searchTags": "",
@@ -408,7 +408,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636447,
+            "id": f995486d-3391-f76b-9ecc-5c0ce890e038,
             "longDescription": "",
             "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for a Hadoop cluster.",
             "searchTags": "",
@@ -416,7 +416,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636450,
+            "id": 6dfcf67f-3b03-4f9c-6ebf-295dac346299,
             "longDescription": "",
             "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for a n Hbase cluster.",
             "searchTags": "",
@@ -424,7 +424,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636463,
+            "id": eadd4c39-c3d6-32b2-e4de-86a25b120cd0,
             "longDescription": "",
             "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for an Interactive Query cluster.",
             "searchTags": "",
@@ -432,7 +432,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636469,
+            "id": ef3f076b-361f-8689-ed0a-edf50a86c13d,
             "longDescription": "",
             "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for a Kafka cluster.",
             "searchTags": "",
@@ -440,7 +440,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636479,
+            "id": 7ba16a26-78e2-93b4-428b-d62988cde06e,
             "longDescription": "",
             "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for a ML Services cluster.",
             "searchTags": "",
@@ -448,7 +448,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636494,
+            "id": 7ae2b7e2-02b7-466e-2986-8f256c3c0cc8,
             "longDescription": "",
             "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for a Spark cluster.",
             "searchTags": "",
@@ -456,7 +456,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636500,
+            "id": 5834fa70-440d-9a61-77b1-08d5d03907ad,
             "longDescription": "",
             "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for a Storm cluster.",
             "searchTags": "",
@@ -464,7 +464,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636428,
+            "id": 74753603-439a-6a3a-0b6b-4eff953387b0,
             "longDescription": "",
             "shortDescription": "Queries or jobs are running slower than before.",
             "searchTags": "",
@@ -472,7 +472,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636451,
+            "id": 548480d6-1bf0-bb14-54cf-f70d01e8d8b3,
             "longDescription": "",
             "shortDescription": "Queries or jobs are running slower than before on an Hbase cluster.",
             "searchTags": "",
@@ -480,7 +480,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636458,
+            "id": a214c4a4-f06d-eb3b-537b-20f7292730a3,
             "longDescription": "",
             "shortDescription": "Hive queries or jobs are running slower than before on a Hive cluster.",
             "searchTags": "",
@@ -488,7 +488,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636464,
+            "id": 040726b7-adf5-ab47-760d-e0f554860a06,
             "longDescription": "",
             "shortDescription": "Queries or jobs are running slower than before on an Interactive Query cluster.",
             "searchTags": "",
@@ -496,7 +496,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636470,
+            "id": db564e7e-27c8-8556-370c-3bbacca567fc,
             "longDescription": "",
             "shortDescription": "Queries or jobs are running slower than before on a Kafka cluster.",
             "searchTags": "",
@@ -504,7 +504,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636475,
+            "id": 87522725-801c-3a15-6e24-651ae27da661,
             "longDescription": "",
             "shortDescription": "MapReduce, Pig, Sqoop or Oozie queries or jobs are running slower than before.",
             "searchTags": "",
@@ -512,7 +512,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636495,
+            "id": 08e2dd28-92a8-0c3e-1c67-2963bcb7397a,
             "longDescription": "",
             "shortDescription": "Queries or jobs are running slower than before on a Spark cluster.",
             "searchTags": "",
@@ -520,7 +520,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636501,
+            "id": de37e552-00db-8012-592b-285571751c2d,
             "longDescription": "",
             "shortDescription": "Queries or jobs are running slower than before on a Storm cluster.",
             "searchTags": "",
@@ -528,7 +528,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636429,
+            "id": 6d5b56f5-2994-dd48-9db5-71665a08afde,
             "longDescription": "",
             "shortDescription": "Unable to complete jobs or queries.",
             "searchTags": "",
@@ -536,7 +536,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636452,
+            "id": 566cc30c-8a5b-992b-e261-932f5af4e404,
             "longDescription": "",
             "shortDescription": "Unable to complete jobs or queries on an Hbase cluster.",
             "searchTags": "",
@@ -544,7 +544,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636459,
+            "id": c1f1b08a-434d-143d-97da-dae2a81cf802,
             "longDescription": "",
             "shortDescription": "Unable to complete Hive jobs or queries.",
             "searchTags": "",
@@ -552,7 +552,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636465,
+            "id": c4b7915b-090d-c90c-3096-dd29ebf4ce2a,
             "longDescription": "",
             "shortDescription": "Unable to complete jobs or queries on an Interactive Query cluster.",
             "searchTags": "",
@@ -560,7 +560,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636471,
+            "id": 1904f02b-2744-9c0f-15e7-d2f7f7e48152,
             "longDescription": "",
             "shortDescription": "Unable to complete jobs or queries on a Kafka cluster.",
             "searchTags": "",
@@ -568,7 +568,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636476,
+            "id": ae941fa4-84b0-041f-e545-a38c30cde1a0,
             "longDescription": "",
             "shortDescription": "Unable to complete MapReduce, Pig, Sqoop,or Oozie jobs.",
             "searchTags": "",
@@ -576,7 +576,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636496,
+            "id": ab0224d4-973b-6ce2-4e7f-2967f3ebe280,
             "longDescription": "",
             "shortDescription": "Unable to complete jobs or queries on a Spark cluster.",
             "searchTags": "",
@@ -584,7 +584,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636502,
+            "id": a8d66f4c-2925-261e-21a1-099d41b11a22,
             "longDescription": "",
             "shortDescription": "Unable to complete jobs or queries on a Storm cluster.",
             "searchTags": "",
@@ -592,7 +592,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32681537,
+            "id": d42f23c1-424a-1b3f-adbd-774fd55b0a79,
             "longDescription": "",
             "shortDescription": "Cannot scale up, down, or autoscale.",
             "searchTags": "",
@@ -600,7 +600,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32681538,
+            "id": 86d5e267-144f-61ce-14e9-497547b5a58d,
             "longDescription": "",
             "shortDescription": "Autoscale is not working as expected to scale up or down.",
             "searchTags": "",
@@ -608,7 +608,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32681539,
+            "id": 3c365bc2-ddfe-9363-376e-369c7736776c,
             "longDescription": "",
             "shortDescription": "Cannot scale down. Not autoscale related.",
             "searchTags": "",
@@ -616,7 +616,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32681540,
+            "id": f98fd5da-fdc3-0737-8e6a-dffc7251cae1,
             "longDescription": "",
             "shortDescription": "Cannot scale up. Not autoscale related.",
             "searchTags": "",
@@ -624,7 +624,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636430,
+            "id": d9ba803b-138f-60fc-401e-75fe3f59a717,
             "longDescription": "",
             "shortDescription": "Unable to connect, service is down, or reboot needed.",
             "searchTags": "",
@@ -632,7 +632,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636448,
+            "id": b103d20a-6dad-26b3-78f1-a0c2816ccbf0,
             "longDescription": "",
             "shortDescription": "Unable to connect to one or more services (Hive, Pig, Sqoop, or Ambari), service is down, or reboot needed on a Hadoop cluster.",
             "searchTags": "",
@@ -640,7 +640,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636453,
+            "id": 08501691-b9bb-28ad-147f-6c44e4255f61,
             "longDescription": "",
             "shortDescription": "Unable to connect, service is down, or reboot needed on an Hbase cluster.",
             "searchTags": "",
@@ -648,7 +648,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636466,
+            "id": b731b6be-0dd5-803e-a602-ce1949461b60,
             "longDescription": "",
             "shortDescription": "Unable to connect to one or more services (Hiveserver2, Sqoop, or Ambari), service is down, or reboot needed on an Interactive Query cluster.",
             "searchTags": "",
@@ -656,7 +656,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636472,
+            "id": 924e3b53-3ffe-fe4e-5f74-4293fc4783c8,
             "longDescription": "",
             "shortDescription": "Unable to connect to Kafka broker, service is down, or reboot needed on a Kafka cluster.",
             "searchTags": "",
@@ -664,7 +664,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636480,
+            "id": 4385a512-5b71-6361-bd0e-3c641905d746,
             "longDescription": "",
             "shortDescription": "Unable to connect, service is down, or reboot needed on an ML Services cluster.",
             "searchTags": "",
@@ -672,7 +672,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636497,
+            "id": d30cef71-2fa8-f933-476f-45b947e573e4,
             "longDescription": "",
             "shortDescription": "Unable to connect to one or more services (Spark, Jupyter, Zeppelin, Hive,Sqoop, or Ambari), service is down, or reboot needed on a Spark cluster.",
             "searchTags": "",
@@ -680,7 +680,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636503,
+            "id": 4e3fa7a0-51ef-4e54-cbee-75ffc88791cb,
             "longDescription": "",
             "shortDescription": "Unable to connect, service is down, or reboot needed on a Storm cluster.",
             "searchTags": "",
@@ -688,7 +688,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636431,
+            "id": 8bf650e8-197a-7adb-4319-919954d63cde,
             "longDescription": "",
             "shortDescription": "Not able to reset cluster or ssh password ",
             "searchTags": "",
@@ -696,7 +696,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636432,
+            "id": 986e81a6-e503-80be-6031-09ff60561f1e,
             "longDescription": "",
             "shortDescription": "Jobs or queries return unexpected results.",
             "searchTags": "",
@@ -704,7 +704,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636454,
+            "id": 776d82ff-00d0-1036-a575-28af58b15592,
             "longDescription": "",
             "shortDescription": "Jobs or queries return unexpected results on an Hbase cluster.",
             "searchTags": "",
@@ -712,7 +712,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636460,
+            "id": c7372d00-fd95-e2e6-0fae-b23a1a16b06f,
             "longDescription": "",
             "shortDescription": "Hive jobs or queries return unexpected results on an Hive cluster.",
             "searchTags": "",
@@ -720,7 +720,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636467,
+            "id": 7e34274c-fea5-becc-e002-9a989b133177,
             "longDescription": "",
             "shortDescription": "Jobs or queries return unexpected results on an Interactive Query cluster.",
             "searchTags": "",
@@ -728,7 +728,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636473,
+            "id": baa8fc15-2ad8-384d-e71f-de6dadea01cf,
             "longDescription": "",
             "shortDescription": "Jobs or queries return unexpected results on a Kafka cluster.",
             "searchTags": "",
@@ -736,7 +736,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636477,
+            "id": 0ecb9a53-d62c-58de-ca36-aaa68c424f6b,
             "longDescription": "",
             "shortDescription": "MapReduce, Pig, Sqoop or Oozie jobs or queries return unexpected results.",
             "searchTags": "",
@@ -744,7 +744,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636498,
+            "id": 4433c436-31d0-def3-7060-a8050d49c682,
             "longDescription": "",
             "shortDescription": "Jobs or queries return unexpected results on a Spark cluster.",
             "searchTags": "",
@@ -752,7 +752,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636504,
+            "id": e36602b7-cecd-5d83-2d9a-5ec0aebbeb77,
             "longDescription": "",
             "shortDescription": "Jobs or queries return unexpected results on a Storm cluster.",
             "searchTags": "",
@@ -760,7 +760,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636433,
+            "id": 3a31a733-2255-732f-1807-9d3508d6f370,
             "longDescription": "",
             "shortDescription": "Nodes are down, lost heartbeat, or cannot connect.",
             "searchTags": "",
@@ -768,7 +768,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636474,
+            "id": 8f77d0d8-66ea-4731-63e5-34f06153b5cf,
             "longDescription": "",
             "shortDescription": "Cannot connect to head, zookeeper, worker, or edge nodes.",
             "searchTags": "",
@@ -776,7 +776,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636481,
+            "id": bb27e2e2-aa6e-3412-7db3-344b7b93b32f,
             "longDescription": "",
             "shortDescription": "Head node or worker nodes not responding.",
             "searchTags": "",
@@ -784,7 +784,7 @@
             "useInDiagnoseAndSolve": "true"
         },
         {
-            "id": 32636506,
+            "id": 6f540bab-24ce-b0d9-f0f8-ee597b1b5fc1,
             "longDescription": "",
             "shortDescription": "Unable to log into nodes via SSH.",
             "searchTags": "",
