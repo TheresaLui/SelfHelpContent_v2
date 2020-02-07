@@ -37,6 +37,13 @@
             "useAsAdditionalDetails": false
         },
         {
+            "id": "latest_restore",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Latest time you started the restore?",
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
