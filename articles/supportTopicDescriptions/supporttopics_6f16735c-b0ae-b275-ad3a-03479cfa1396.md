@@ -376,6 +376,22 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "62e3cd36-8683-2540-7b90-7a890e8560f2",
+      "longDescription": null,
+      "shortDescription": "Covers issues with AMD GPU driver extension",
+      "searchTags": "",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "	fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
+      "searchTags": "",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
       "id": "5aed3921-4198-0d81-c999-f9c878ac00c8",
       "longDescription": null,
       "shortDescription": "Covers issues where the Guest OS of the VM is crashing, or failing to boot to a usable state.",
