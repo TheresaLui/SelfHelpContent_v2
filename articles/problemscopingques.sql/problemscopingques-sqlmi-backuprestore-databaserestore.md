@@ -30,7 +30,7 @@
         {
             "id": "error_code",
             "order": 2,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Error code or error message?",
             "watermarkText": "Provide the error code or error message",
             "required": false,
