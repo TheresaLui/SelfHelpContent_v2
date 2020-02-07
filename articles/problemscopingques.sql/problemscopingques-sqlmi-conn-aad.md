@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-sqlmi-conn-timeouts"
+	articleId="problemscopingques-sqlmi-conn-aad"
 	pageTitle="SQL Database Managed Instance"
 	description="Scoping questions to capture managed instance connection timeouts"
 	authors="vitomaz-msft,MladjoA"
@@ -15,15 +15,8 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": true,
-    "subscriptionRequired": true,
-    "title": "Azure Active Directory (AAD) authentication scoping questions",
-    "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Azure Active Directory (AAD) authentication scoping questions",
-        "description": "Scoping questions to capture more details about Azure Active Directory (AAD) authentication issue.",
-        "insightNotAvailableText": "We did not find any issues with your AAD configuration."
-    },
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "formElements": [
         {
             "id": "problem_start_time",
