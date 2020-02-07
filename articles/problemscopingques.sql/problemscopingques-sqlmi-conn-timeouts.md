@@ -90,20 +90,20 @@
             "displayLabel": "Please provide additional context for the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
+            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application."
         },
         {
             "id": "sqlexception_received_on_client",
             "order": 20,
             "controlType": "multilinetextbox",
             "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
-            "required": true
+            "required": false
         },
         {
             "id": "driver_name",
             "order": 30,
             "controlType": "dropdown",
-            "displayLabel": "Driver or tool you are experiencing issues with?",
+            "displayLabel": "Driver or tool you are using?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
