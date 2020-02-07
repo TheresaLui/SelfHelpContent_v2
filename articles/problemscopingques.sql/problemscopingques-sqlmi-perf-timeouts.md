@@ -59,7 +59,7 @@
             "useAsAdditionalDetails": false,
             "displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
             "watermarkText": "",
-            "required": true
+            "required": false
         },
         {
             "id": "impact",
@@ -80,13 +80,13 @@
                     "text": "Unsure"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "latest_occurrence",
             "order": 5,
             "controlType": "datetimepicker",
-            "displayLabel": "Latest occurrence of the issue timestamp (in UTC preferably)",
+            "displayLabel": "Latest occurrence of the issue?",
             "required": false
         },
         {
