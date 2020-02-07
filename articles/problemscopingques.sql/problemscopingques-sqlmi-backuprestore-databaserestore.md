@@ -38,7 +38,7 @@
         },
         {
             "id": "latest_restore",
-            "order": 1,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "Latest time you started the restore?",
             "required": false
