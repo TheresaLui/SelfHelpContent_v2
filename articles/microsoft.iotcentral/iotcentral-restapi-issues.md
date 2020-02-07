@@ -17,4 +17,4 @@
 
 ## **Recommended Documents**
 
-* [Azure IoT Central REST API reference](https://docs.microsoft.com/en-us/rest/api/iotcentral/)
+* [Azure IoT Central REST API reference](https://docs.microsoft.com/rest/api/iotcentral/)
