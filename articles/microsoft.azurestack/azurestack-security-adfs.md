@@ -20,7 +20,7 @@ Azure Stack supports AD FS in connected and disconnected scenarios. In disconnec
 
 ## **Recommended Steps**
 
-1. Integrate Azure Stack with existing [Active Directory Federation Services and Graph](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-integrate-identity#active-directory-federation-services-and-graph)
+1. Integrate Azure Stack with existing [Active Directory Federation Services and Graph](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-identity#active-directory-federation-services-and-graph)
 2. [Add Azure Stack users in AD FS](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-users-adfs) for authentication with Azure Stack
 3. If non-interactive logins are needed for a [common scenario that requires a service principal (SPN)](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-identity#spn-creation), follow steps to [Create service principal for AD FS](https://docs.microsoft.com/azure/azure-stack/azure-stack-create-service-principals)
 
