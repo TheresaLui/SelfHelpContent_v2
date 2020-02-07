@@ -1,15 +1,15 @@
 <properties
-  pagetitle="Support topic descriptions for Azure HDInsight"
-  description="Support topic descriptions for Azure HDInsight"
-  authors="mimig1"
-  ms.author="mimig"
-  selfhelptype="SupportTopicDescription"
-  productpesids="15078"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
-  articleid="hdinsight-supporttopicdescription"
+  description="Support topic metadata for Azure HDInsight"
+  pageTitle="Support topic metadata for Azure HDInsight"
+  authors="mimig"
+  ms.author="mimig1"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="mimig@microsoft.com" />
+  feedbackemail="mimig@microsoft.com"
+  productpesids="5ffad63a-3267-d6b7-2fa1-6d9134c1fa62"
+  selfhelptype="supportTopicDescription"
+  articleid="hdinsight-supporttopicdescription"
+  cloudenvironments="public, blackforest, fairfax, mooncake" />
 # Support topic descriptions for Azure HDInsight
 ---
 {
