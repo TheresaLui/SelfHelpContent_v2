@@ -17,9 +17,8 @@
 />
 # We ran diagnostics on your resource and found an issue
 
-<!--issueDescription-->
 ## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
-
+<!--issueDescription-->
 We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. During this incident, a top of rack (ToR) network router connecting a single rack of servers reloaded after experiencing a hardware failure. This caused temporary IO transaction timeouts between the physical host node where your VM was running and the Azure Storage services where your Virtual Hard Disks (VHDs) reside, resulting in an **Azure initiated temporary VM shutdown**.
  <!--/issueDescription-->
 
