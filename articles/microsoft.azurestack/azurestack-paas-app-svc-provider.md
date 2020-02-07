@@ -42,3 +42,5 @@ Use Azure Stack marketplace items to [deploy App Service for Azure Stack in a hi
 * [Update Azure App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-update)
 * [Update Azure App Service offline](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-update-offline)
 * [Scale infrastructure and worker roles in App Service](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-add-worker-roles)
+* [Use API version profiles](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-version-profiles?view=azs-1910)
+
