@@ -58,8 +58,36 @@
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": false,
             "displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
-            "watermarkText": "Provide additional information about your query performance and timeouts.",
+            "watermarkText": "",
             "required": true
+        },
+        {
+            "id": "impact",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Is every execution of the query impacted?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Unsure"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "latest_occurrence",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "Latest occurrence of the issue timestamp (in UTC preferably)",
+            "required": false
         },
         {
             "id": "problem_description",
