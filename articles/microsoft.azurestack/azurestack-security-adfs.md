@@ -30,3 +30,4 @@ Azure Stack supports AD FS in connected and disconnected scenarios. In disconnec
 * [Overview of identity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-identity-overview)
 * [Identity architecture for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-identity-architecture)
 * [Multi-tenancy in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-enable-multitenancy)
+* [Validate AD FS](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-adfs)
