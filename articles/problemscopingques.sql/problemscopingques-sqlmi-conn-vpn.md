@@ -1,7 +1,7 @@
 <properties
 	articleId="problemscopingques-sqlmi-conn-vpn"
 	pageTitle="SQL Database Managed Instance"
-	description="Scoping questions to vnet or express route driver related issues"
+	description="Scoping questions to vpn or express route driver related issues"
 	authors="vitomaz-msft,MladjoA"
 	authoralias="vitomaz"
 	ms.author="vitomaz"
