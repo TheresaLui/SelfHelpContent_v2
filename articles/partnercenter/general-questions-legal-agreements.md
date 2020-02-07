@@ -37,8 +37,6 @@ As of January 31, 2020, all partners in the Cloud Solution Provider program shou
 1. [Onboard to Partner Center](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp#/) as an Indirect Reseller and accept the Microsoft Partner Agreement as part of the onboarding process.
 2. If you have previously onboarded to Partner Center as an Indirect Reseller, accept the Microsoft Partner Agreement on the [Partner Center dashboard page](https://partner.microsoft.com/pcv/dashboard/overview) using Global Admin credentials. You can confirm if the Microsoft Partner Agreement has already been signed from [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) Program Info.
 
-Please note: As part of onboarding to Partner Center there is a requirement for your account to be linked to a location MPNID rather than a v-org MPNID that you may previously have used to associate POR. You do not need to take any other action in relation to this location MPNID. 
-
 ## **Recommended Documents**
 
 * [Microsoft Partner Agreement for CSP partners](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)
