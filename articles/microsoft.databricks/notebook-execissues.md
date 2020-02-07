@@ -20,3 +20,10 @@
 
 * [Common Errors in Notebooks](https://kb.databricks.com/notebooks/common-errors-in-notebooks.html)
 * [Cannot Run Notebook Commands After Canceling Streaming Cell](https://kb.databricks.com/notebooks/streaming-notebook-stuck.html)
+* To [increase quota limits](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests), please follow the steps:
+
+    * Go to [subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
+    * Select the subscription that needs an increased quota
+    * Select Usage + quotas
+    * In the upper right corner, select Request increase
+    * Fill in the forms for the type of quota you need to increase
