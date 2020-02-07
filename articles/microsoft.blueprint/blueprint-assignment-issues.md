@@ -28,7 +28,7 @@ Most users are able to resolve their blueprint assignment issue using the steps 
 
 ## **Recommended Documents**
 
-* [Stages of a blueprint assignment](https://docs.microsoft.com//azure/governance/blueprints/concepts/deployment-stages)
-* [Using parametes with a blueprint](https://docs.microsoft.com/en-us/azure/governance/blueprints/concepts/parameters)
-* [Deploying blueprints in a specific sequence](https://docs.microsoft.com/en-us/azure/governance/blueprints/concepts/sequencing-order)
-* [Resource locking in blueprints](https://docs.microsoft.com/en-us/azure/governance/blueprints/concepts/resource-locking)
+* [Stages of a blueprint assignment](https://docs.microsoft.com/azure/governance/blueprints/concepts/deployment-stages)
+* [Using parameters with a blueprint](https://docs.microsoft.com/azure/governance/blueprints/concepts/parameters)
+* [Deploying blueprints in a specific sequence](https://docs.microsoft.com/azure/governance/blueprints/concepts/sequencing-order)
+* [Resource locking in blueprints](https://docs.microsoft.com/azure/governance/blueprints/concepts/resource-locking)
