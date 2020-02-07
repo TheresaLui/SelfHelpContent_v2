@@ -37,6 +37,52 @@
             "required": false
         },
         {
+            "id": "source",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Where are you trying to connect from?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "same_vnet",
+                    "text": "Application inside the same VNet"
+                },
+                {
+                    "value": "vnet_peering_same_region",
+                    "text": "Application in a different VNet, using Azure Virtual Network peering, both in same region"
+                },
+                {
+                    "value": "vnet_peering_different_region",
+                    "text": "Application in a different VNet, using Azure Virtual Network peering, in different regions"
+                },
+                {
+                    "value": "vnet_gateway",
+                    "text": "Application in a different VNet, using VNet-to-VNet VPN gateway"
+                },
+                {
+                    "value": "on_prem_site_to_site",
+                    "text": "On-premises application, using Site-to-Site VPN connection"
+                },
+                {
+                    "value": "on_prem_point_to_site",
+                    "text": "On-premises application, using Point-to-Site VPN connection"
+                },
+                {
+                    "value": "on_prem_expressroute",
+                    "text": "On-premises application, using ExpressRoute connection"
+                },
+                {
+                    "value": "public_endpoint",
+                    "text": "Using Public Endpoint"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "dont_know_answer"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "error_dropdown",
             "order": 5,
             "controlType": "dropdown",
