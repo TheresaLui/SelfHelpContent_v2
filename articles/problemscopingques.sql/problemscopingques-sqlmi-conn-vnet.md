@@ -70,7 +70,7 @@
             "required": false
         },
         {
-            "id": "source",
+            "id": "source_details",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Details about the source",
