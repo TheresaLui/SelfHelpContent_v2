@@ -7,11 +7,11 @@
     ms.author="v-kiwel"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32689740"
+    supportTopicIds="32689782"
     resourceTags=""
     productPesIds="16919"
     cloudEnvironments="public"
-    articleId="6fdabc33-b517-15ee-b9bf-d64dd9af3297"
+    articleId="fa65742d-6e14-cbd8-389f-96c299b907a9"
 />
 
 # API Errors and Exceptions
