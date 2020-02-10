@@ -19,10 +19,10 @@
 # Error CBPDiskFull
 
 <!--issueDescription-->
-We have identified that your restore operation failed because of selected destination volume does not have free space.
+We have identified that your restore operation failed because the selected destination volume does not have free space.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Ensure the destination volume has sufficient free space. 
-* Ensure the staging area in the selected volume has sufficient free space.
+* Ensure the destination volume has sufficient free space
+* Ensure the staging area in the selected volume has sufficient free space
