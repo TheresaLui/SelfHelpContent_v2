@@ -24,8 +24,8 @@ We have identified that your backup operation is stuck or failed in the metadata
 
 ## **Recommended Steps**
 
-* If you notice an ongoing backup (that is stuck), then try cancelling the job.
-* Ensure there is enough space for shadow storage and free disk space.
+* If you notice an ongoing backup appears stuck, then try cancelling the job
+* Ensure there is enough space for shadow storage and free disk space
 * Restart the MARS agent
-* Disable the short names in the system using *fsutil 8dot3name set 1* from command and then retry the backup operation.
-* Wait for the next schedule backup to trigger.
+* Disable the short names in the system using `fsutil 8dot3name set 1` from the command prompt and then retry the backup operation
+* Wait for the next schedule backup to trigger
