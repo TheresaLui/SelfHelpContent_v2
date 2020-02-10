@@ -4,7 +4,7 @@
 	service="microsoft.network"
 	resource="trafficmanagerprofiles"
 	authors="aashu, mattmccreesh"
-	ms.authors="aashu, mamccree"
+	ms.author="aashu, mamccree"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32452808"
