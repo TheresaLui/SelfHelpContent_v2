@@ -22,4 +22,4 @@
 
 * [If you are using Azure AD Domain Services, begin with these general troubleshooting steps](https://docs.microsoft.com/azure/active-directory-domain-services/troubleshoot)<br>
 * [If your domain is on a separate virtual network than the virtual network that you have access to, you may need to work with your network administrators to configure virtual network peering](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)<br>
-* [Verify and troubleshoot ExpressRoute connectivity](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
+* [Verify and troubleshoot ExpressRoute connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
