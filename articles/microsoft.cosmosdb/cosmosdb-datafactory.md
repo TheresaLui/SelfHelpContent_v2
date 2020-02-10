@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Data Factory connector"
-	description="Azure Data Factory connector"
+	description="Troubleshoot Azure Cosmos DB Azure Data Factory connector"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
@@ -11,6 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-datafactory"
+	displayOrder="122"
+	category="Tools and Connectors"
 />
 
 # Azure Data Factory connector

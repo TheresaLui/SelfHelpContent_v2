@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for issue moving vault"
          description="Scoping questions for issue moving vault"
-         authors="srinathv"
+         authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632781"
@@ -17,6 +17,11 @@
     "subscriptionRequired": true,
     "title": "Issue moving vault",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "Issue moving vault",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "error_message",
@@ -66,14 +71,16 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

@@ -22,7 +22,10 @@ To resolve common issues, try one or more of the following steps. Keep in mind t
  
  1. To reset the cluster login password, use the "Reset Credential" button in the [SSH + Cluster login](data-blade:Microsoft_Azure_HDInsight.LinuxLoginSettingBlade) tab
  2. For Linux clusters, if you cannot recall your SSH credentials, you can [reset the credentials within the Ambari UI](https://azure.microsoft.com/documentation/articles/hdinsight-administer-use-portal-linux/#change-passwords)
+ 
+Please ensure that there are no port blocks on ports 22 and 23. In order to SSH into a cluster these ports needs to be accessible. For more information [click here](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix).
 
 ## **Recommended Documents**
 
 * [Manage clusters in the portal - Change login password](https://azure.microsoft.com/documentation/articles/hdinsight-administer-use-portal-linux/#change-passwords)<br>
+* [Connect to HDInsight (Apache Hadoop) using SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix)<br>

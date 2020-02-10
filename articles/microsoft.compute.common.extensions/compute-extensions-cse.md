@@ -41,4 +41,5 @@ Review the following [*Tips and Tricks*](https://docs.microsoft.com/azure/virtua
 * [FAQ for common issues and tips](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#tips-and-tricks)<br>
 * [Understanding the schema and parameters](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema)<br>
 * [Overview of Azure Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)<br>
-* [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows#azure-portal)
+* [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows#azure-portal)<br>
+* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)

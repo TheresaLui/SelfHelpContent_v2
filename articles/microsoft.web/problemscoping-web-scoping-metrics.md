@@ -29,7 +29,7 @@
                     "text": "Which metric is not being shown or is incorrect?"
                 },
                 {
-                    "text": "Is the metric only missing for a specific \\"Time range\\" view (i.e past hour, past 24 hours etc.)?"
+                    "text": "Is the metric only missing for a specific \"Time range\" view (i.e past hour, past 24 hours etc.)?"
                 }
             ]
         },

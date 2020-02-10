@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32640605"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
  />
 
 # Session affinity issues with Application Gateway

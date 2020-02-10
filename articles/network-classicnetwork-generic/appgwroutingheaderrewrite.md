@@ -10,7 +10,7 @@
 	supportTopicIds="32641400"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="routing-header-rewrite"
 />
 

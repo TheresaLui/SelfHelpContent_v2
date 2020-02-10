@@ -11,7 +11,7 @@
 	supportTopicIds="32639220"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="9603FCBD-3B97-406B-9348-BCD4A5DC374E"
 />
 

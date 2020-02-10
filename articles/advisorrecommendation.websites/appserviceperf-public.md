@@ -21,7 +21,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Web/sites",
   "recommendationFriendlyName": "AppServicePerf",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
@@ -39,7 +39,14 @@
   "description": "Follow App Service Advisor recommendations",
   "longDescription": "Follow the recommendations from App Service Advisor.",
   "potentialBenefits": "Improved reliability and performance",
-  "actions": [],
+  "actions": [
+    {
+      "actionId": "8e1bee12-a724-4724-b414-1be72c7fb12f",
+      "actionType": "Document",
+      "description": "Follow the recommendations from App Service Advisor.",
+      "documentLink": "https://aka.ms/appservicerec_learnmore"
+    }
+  ],
   "resourceMetadata": {
     "action": {
       "actionId": "5776a411-0804-4f1c-a4d5-cbca569db79b",

@@ -10,8 +10,8 @@
 	selfHelpType="generic"
 	supportTopicIds="32633513"
 	resourceTags="WindowsSQL"
-	productPesIds="14745"
-	cloudEnvironments="public"
+	productPesIds="14745, 16342"
+	cloudEnvironments="public,fairfax"
 />
 
 # vm management/provisioning and templates

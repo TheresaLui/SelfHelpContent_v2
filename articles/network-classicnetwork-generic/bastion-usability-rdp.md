@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* You can [read](https://docs.microsoft.com/azure/bastion/bastion-vm-manage#copy-and-paste-text) the product documentation on how to copy-paste from local device to/from remote session using Azure Bastion.
+* You can [read](https://docs.microsoft.com/azure/bastion/bastion-vm-copy-paste) the product documentation on how to copy-paste from local device to/from remote session using Azure Bastion.

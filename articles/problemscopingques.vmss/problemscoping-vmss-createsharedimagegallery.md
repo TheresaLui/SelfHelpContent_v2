@@ -13,6 +13,7 @@
 # Config and Setup
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Unable to Create Shared Gallery, Image Definition or Image Version",
     "fileAttachmentHint": "",

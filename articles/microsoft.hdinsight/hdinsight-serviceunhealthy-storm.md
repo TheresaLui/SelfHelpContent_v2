@@ -26,3 +26,4 @@ Storm binaries are located at `/usr/hdp/current/storm-client`. Storm Log4J confi
 * [Storm Binaries location](https://hdinsight.github.io/storm/storm-binaries-location.html)
 * [Storm Log4J Configuration location](https://hdinsight.github.io/storm/storm-log4j-configuration.html)
 * [Storm EventHub Spout binaries](https://hdinsight.github.io/storm/storm-eventhub-spout-landing.html)
+* [Ambari agent heartbeat lost Alert](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)

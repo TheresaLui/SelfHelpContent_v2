@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Your resource may be impacted by a resource health event"
-	description="Your resource may be impacted by a resource health event"
-	infoBubbleText="Your resource may be impacted by a resource health event"
+	pageTitle="Your resource was impacted by a resource health event"
+	description="Your resource was impacted by a resource health event"
+	infoBubbleText="Your resource was impacted by a resource health event"
 	service="microsoft.resourcehealth"
 	resource="resourcehealth"
 	authors="stephbaron"
@@ -13,8 +13,8 @@
 	articleTags="healthannotation_genericrhevent"
 />
 
-# Your Azure resource may be impacted by a resource health event
-At <!--$startTime-->startTime<!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
+# Your Azure resource was impacted by a resource health event
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime-->startTime<!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
 <!--$Summary-->Summary<!--/$Summary-->
 

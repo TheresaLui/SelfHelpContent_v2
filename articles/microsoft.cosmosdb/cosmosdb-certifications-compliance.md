@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Compliance in Azure Cosmos DB"
-	description="Compliance in Azure Cosmos DB"
+	description="Troubleshoot Azure Cosmos DB Compliance issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
@@ -11,6 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-certifications-compliance"
+	displayOrder="160"
+	category="Security"
 />
 
 # Compliance in Azure Cosmos DB

@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Improve your Cache and application performance when running with many connected clients"
+    pageTitle="Improve your  Cache and application performance when running with many connected clients"
     description="Improve your Cache and application performance when running with many connected clients"
     authors="aadevteam"
     ms.author="aadevteam"

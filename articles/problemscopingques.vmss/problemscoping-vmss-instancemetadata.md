@@ -13,6 +13,7 @@
 # Management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Instance Metadata Service",
     "fileAttachmentHint": "",

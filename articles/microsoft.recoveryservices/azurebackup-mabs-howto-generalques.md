@@ -29,4 +29,4 @@
 	* [SharePoint](https://docs.microsoft.com/azure/backup/backup-azure-backup-sharepoint-mabs)
 
 * [Recover data from Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-alternate-dpm-server)
-* [Frequently asked questions about Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#azure-backup-server-and-system-center-data-protection-manager)
+* [Frequently asked questions about Azure Backup Server](https://aka.ms/AB-FAQ-DPM)

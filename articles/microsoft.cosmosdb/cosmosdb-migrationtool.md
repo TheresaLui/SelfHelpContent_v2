@@ -11,6 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-migrationtool"
+	displayOrder="124"
+	category="Tools and Connectors"
 />
 # Data Migration tool
 

@@ -53,7 +53,7 @@ $parameters = @{
     # set MemberUseWindowsAuthentication to $true in case you wish to use integrated Windows authentication (MemberUser and MemberPassword will be ignored)
     MemberUseWindowsAuthentication = $false
 }
- 
+
 $scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/AzureSQLDataSyncHealthChecker/master'
 Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLDataSyncHealthChecker.ps1')).Content)) -ArgumentList $parameters
 #end

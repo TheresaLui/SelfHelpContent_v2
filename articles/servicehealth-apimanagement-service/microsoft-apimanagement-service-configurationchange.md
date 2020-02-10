@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
 
 A configuration change is currently being applied to your API Management instance. A user-requested configuration change (e.g. setting up custom domains, virtual networks, moving resources or applying custom settings) is being applied and it requires restarting your instances.
 <!--/issueDescription-->

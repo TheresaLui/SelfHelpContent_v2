@@ -22,9 +22,6 @@
 We have identified that your backup operation failed because the disk backup replica is either invalid or missing.
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Recommended Document**
 
-To resolve the issue, try the following:
-
-* [Manually perform a consistency check on data source and retry backup operation](https://docs.microsoft.com/previous-versions/system-center/data-protection-manager-2006/cc161279%28v%3dtechnet.10%29)
-* Create a disk recovery point and retry backup operation
+To resolve the issue, refer to this [article](https://aka.ms/CBPSourceSnapshotFailedReplicaMissingOrInvalid).

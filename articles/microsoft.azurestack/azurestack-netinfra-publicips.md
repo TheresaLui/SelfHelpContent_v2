@@ -32,4 +32,5 @@ To add public IPs to your Azure Stack environment, follow these steps:
 
 * [Networking Considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
 * [View Public IP Address Consumption in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-viewing-public-ip-address-consumption)
+* [REST API to list Public IP Addresses](https://docs.microsoft.com/rest/api/azurestack/publicipaddresses/list)
 * [Add Public IP Addresses to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-ips)

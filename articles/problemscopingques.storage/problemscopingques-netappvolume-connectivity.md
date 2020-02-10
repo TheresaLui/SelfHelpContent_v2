@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640618"
 	productPesIds="16469"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 />
 # NetApp volume connectivity issue
@@ -97,6 +97,7 @@
                 "textProperty": "name",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
+		"valuePropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "Other or none of the above"

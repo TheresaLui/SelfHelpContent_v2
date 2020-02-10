@@ -5,8 +5,8 @@
  	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
 	articleid="vpngwperformance"
-	supportTopicIds="32591147"
-	productPesIds="16094"
+	supportTopicIds="32591147,32584880"
+	productPesIds="16094,15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 />
@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Performance",
     "fileAttachmentHint": "Upload your VPN configuration file. Make sure you edit or remove any pre-shared keys or secrets from the file",
     "formElements": [
@@ -52,8 +53,8 @@
                     "text": "Latency"
                 },
                 {
-                    "value": "Others",
-                    "text": "Others"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -101,7 +102,7 @@
                     "text": "Issue description"
                 },
                 {
-                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \\"Cisco ASA 5505 OS version 8.3\\")"
+                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"
                 }
             ]
         }

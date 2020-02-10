@@ -52,7 +52,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 **Errors about "TypeData"**
 
-* If you are recieving errors about TypeData, you are running a PowerShell Workflow with modules that do not support Workflow. You need to change the runbook type to PowerShell. See ["Runbook types" for more details. ](https://docs.microsoft.com/azure/automation/automation-runbook-types#powershell-runbooks)
+* If you are receiving errors about TypeData, you are running a PowerShell Workflow with modules that do not support Workflow. You need to change the runbook type to PowerShell. See ["Runbook types" for more details](https://docs.microsoft.com/azure/automation/automation-runbook-types#powershell-runbooks).
 
 ## **Recommended Documents**
 

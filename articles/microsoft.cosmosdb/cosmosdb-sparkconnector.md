@@ -11,6 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-sparkconnector"
+	displayOrder="126"
+	category="Tools and Connectors"
 />
 # Azure Cosmos DB Spark Connector
 

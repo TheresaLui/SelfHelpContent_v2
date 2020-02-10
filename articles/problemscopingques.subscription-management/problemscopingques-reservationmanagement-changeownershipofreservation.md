@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -95,6 +95,7 @@
                 "textProperty": "name",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
+		"valuePropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
@@ -113,7 +114,7 @@
         {
             "id": "reservationorderid_details",
             "order": 5,
-            "visibility": "Reservationid == Other",
+            "visibility": "Reservationid == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",

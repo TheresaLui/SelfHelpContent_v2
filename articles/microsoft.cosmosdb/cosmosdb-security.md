@@ -11,6 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-security"
+	displayOrder="161"
+	category="Security"
 />
 
 # Compliance in Azure Cosmos DB

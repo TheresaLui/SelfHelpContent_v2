@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Cosmos DB bulk executor library"
-	description="Azure Cosmos DB bulk executor library"
+	description="Troubleshoot Azure Cosmos DB bulk executor library"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
@@ -11,6 +11,8 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	articleId="cosmosdb-bulkexecutor"
+	displayOrder="120"
+	category="Tools and Connectors"
 />
 
 # Azure Cosmos DB bulk executor library

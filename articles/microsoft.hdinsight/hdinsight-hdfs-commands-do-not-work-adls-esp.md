@@ -4,7 +4,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="TobyTu"
-    ms.author="jaserano"
+    ms.author="deeptivu"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32636434"
@@ -19,3 +19,5 @@
 ## **Recommended Documents**
 
 * [Troubleshoot Apache Hadoop HDFS by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hdfs)
+* [FAQ:Azure HDInsight Security and Certificates](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#security-and-certificates)
+* [Powershell code to refresh the HDInsight certificate for Data Lake Storage Gen1 access](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store?toc=/azure/hdinsight/hadoop/TOC.json&bc=/azure/bread/toc.json#refresh-the-hdinsight-certificate-for-data-lake-storage-gen1-access)

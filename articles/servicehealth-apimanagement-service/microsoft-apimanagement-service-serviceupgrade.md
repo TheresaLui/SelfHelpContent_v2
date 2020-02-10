@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your API Management service:
 
 Your API Management service is being upgraded to a newer version. API Management regularly upgrades all services with the latest features. Your service is down due to the upgrade operation.
 <!--/issueDescription-->

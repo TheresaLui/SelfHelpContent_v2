@@ -49,7 +49,7 @@ cloudEnvironments=""
 			"searchTags": "searchTag1, searchTag2, searchTag3",
 			"supportTopicId": "32628284",
 			"commonSolutionArticleId": "0c333e4e-a865-4822-84b4-0c8eba727ffe",
-			"symptomId": "cannotrdpazureportalinsight2
+			"symptomId": "cannotrdpazureportalinsight2"
 		}		
 	],
 	"troubleshootingTools": [{			        				        

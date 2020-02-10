@@ -7,7 +7,7 @@
     ms.author="scotro"
     displayOrder="2"
     selfHelpType="resource"
-    supportTopicIds="32615531,32615526,32633498,32639640"
+    supportTopicIds="32615531,32615526,32639640"
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="16470,15797,15571,16454,16342"
     cloudEnvironments="public"
@@ -37,5 +37,5 @@ To resolve common issues, try one or more of the following methods:<br>
 
 ## **Recommended Documents**
 
-* [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors)<br>
+* [Detailed troubleshooting of SSH errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-ssh-connection)<br>
 * [Automate Linux VM Customization Tasks using Custom Script Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension)

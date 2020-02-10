@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32642180"
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="3EB210D0-F208-463E-9A67-4357829706A9"
 />
@@ -29,8 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "File Share or File path",
             "watermarkText": "'FileShare' or 'FileShare/FileName'",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false,
+            "diagnosticInputRequiredClients": "ASC"
         },
         {
             "id": "os_version",
@@ -52,7 +52,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {

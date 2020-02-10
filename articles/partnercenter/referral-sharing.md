@@ -18,6 +18,11 @@
 />
 # Co-sell referral sharing
 
+## **Recommended Steps**
+
+- For more information on the Co-sell program and becoming Co-sell ready, contact Cosell@microsoft.com
+
 ## **Recommended Documents**
 
+* [Co-sell with Microsoft](https://docs.microsoft.com/partner-center/co-sell-with-microsoft)
 * [Get Co-Sell ready](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)

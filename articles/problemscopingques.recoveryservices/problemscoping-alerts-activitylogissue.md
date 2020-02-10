@@ -16,6 +16,11 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Issue with Activity Log alerts",
+     "diagnosticCard": {
+        "title": "Issue with Activity Log alerts",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "fileAttachmentHint": "Please attach the screenshot of Activity log alert screen filtered with timespan",
     "formElements": [
 		{
@@ -46,7 +51,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

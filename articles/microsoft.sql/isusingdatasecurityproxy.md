@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 # Database connectivity issue due to auditing enabled secured connections
 
@@ -26,4 +26,3 @@ The secured connection strings were only used for databases with Table Auditing 
 ## **Recommended Documents**
 
 * [Blob Storage Auditing](https://docs.microsoft.com/azure/sql-database/sql-database-auditing)
-* [Table Auditing (Deprecated feature)](https://docs.microsoft.com/azure/sql-database/sql-database-auditing-and-dynamic-data-masking-downlevel-clients)

@@ -20,10 +20,9 @@ Customers with Azure Stack environments connected to the internet will automatic
 
 ## **Recommended Steps**
 
-1. Check the release notes for the specific update package, listed under [Update Package Release Cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
-2. For disconnected environments, follow the steps to [Update Azure Stack by downloading the package](https://docs.microsoft.com/azure/azure-stack/azure-stack-apply-updates#update-azure-stack-by-downloading-the-package)
-3. If the update is marked as *Not Recognized*, try removing the update and retry steps to download and import the update again
-4. If a update is still *Not Recognized* after a retry, continue to open a support case
+1. Check the release notes any known issues for the specific update package, listed under [Update Package Release Cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
+2. If the update is marked as *Not Recognized*, try manually importing the update package with the [Import and install updates instructions](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-prepare-package?view=azs-1908#import-and-install-updates). If you have already attempted manually importing the update package delete the blob container from your previous attempt before reimporting the package.
+3. If a update is still *Not Recognized* after a retry, continue to open a support case
 
 ## **Recommended Documents**
 

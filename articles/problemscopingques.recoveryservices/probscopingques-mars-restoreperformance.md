@@ -14,8 +14,14 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "MARS restore performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "MARS restore performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -23,7 +29,8 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "restore_type",
@@ -67,7 +74,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "job_time",
@@ -81,7 +89,7 @@
             "id": "learn_more_text",
             "order": 5,
             "controlType": "infoblock",
-            "content": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+            "content": "Please upload all CBEngine log files located at C:\\Program Files\\Microsoft Azure Recovery Services Agent\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
         },
         {
             "id": "problem_description",

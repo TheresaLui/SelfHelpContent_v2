@@ -13,11 +13,11 @@
 # Management
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
-    "title": "Azure Metadata Service (Scheduled Events)",
-    "fileAttachmentHint": "",
-    "formElements": [
+                "subscriptionRequired": true,
+                "resourceRequired": false,
+                "title": "Azure Metadata Service (Scheduled Events)",
+                "fileAttachmentHint": "",
+                "formElements": [
         {
             "id": "citrixcase",
             "order": 1,

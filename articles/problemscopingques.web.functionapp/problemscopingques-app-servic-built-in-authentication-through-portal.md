@@ -15,6 +15,7 @@
 {
     "resourceRequired": false,
     "title": "App Service Built-in Authentication through Portal",
+    "subscriptionRequired": true,
     "fileAttachmentHint": "Please attach any relevant logs/screenshots",
     "formElements": [
         {

@@ -25,4 +25,5 @@
 * [Installing the extension in your VM](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-the-extension-in-your-vm)<br>
 * [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
 * [Installing and configuring LAD 3.0 via CLI](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-and-configuring-lad-30-via-cli)<br>
-* [Use monitoring and diagnostics with Azure Resource Manager templates](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-template)
+* [Use monitoring and diagnostics with Azure Resource Manager templates](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-template)<br>
+* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
