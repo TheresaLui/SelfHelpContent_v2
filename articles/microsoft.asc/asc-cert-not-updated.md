@@ -16,6 +16,6 @@
 
 # ASC/Renewing-Rekeying
 
-## **Recommended steps**
+## **Recommended Steps**
 
-After renewing or rekeying an App Service certificate, there will be a sync operation which will automatically update the hostname bindings for the certificate in App Service without causing any downtime to your apps within 48 hours
+After renewing or rekeying an App Service certificate, there will be a sync operation to update the hostname bindings within 48 hours. This will not cause any downtime to your apps.

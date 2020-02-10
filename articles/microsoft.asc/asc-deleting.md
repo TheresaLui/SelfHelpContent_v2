@@ -16,8 +16,10 @@
 
 # ASC/Deleting
 
-## **Recommended steps**
+## **Recommended Steps**
+
 If you are unable to delete your certificate due to a lock:
-1. Please open your certificate 
-2. Look under "Settings" on the left and you will see a "Locks" icon. 
-3. Please click to open the Locks blade. There you can remove the lock to the certificate. 
+
+1. Open your certificate 
+2. Look under "Settings" on the left and you will see a "Locks" icon
+3. Click to open the Locks blade. There you can remove the lock to the certificate. 
