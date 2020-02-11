@@ -24,4 +24,4 @@ We have identified that your job was successfully cancelled since you triggered 
 
 ## **Recommended Steps**
 
-Rerun the operation
+* Rerun the operation
