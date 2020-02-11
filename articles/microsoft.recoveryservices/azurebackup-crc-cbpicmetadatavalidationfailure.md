@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Error CBPFilePathIsNonexistent
+# Error CBPIcMetadataValidationFailure
 
 <!--issueDescription-->
 We have identified that your backup operation is stuck or failed in the metadata phase while verifying integrity check. 
