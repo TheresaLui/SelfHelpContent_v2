@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-## **Error UserErrorJobSuccessfullyCancelled**
+# **Error UserErrorJobSuccessfullyCancelled**
 
 We have identified that your job was successfully cancelled since you triggered a cancel operation. 
 
