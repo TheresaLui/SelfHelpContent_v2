@@ -3,8 +3,8 @@
 	description="No outbound connectivity from Backend Pool"
 	service="microsoft.network"
 	resource="loadbalancers"
-	authors="anavinahar"
-	ms.authors="anavin"
+	authors="spacest"
+  ms.author="mariliu"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32637533"
@@ -13,6 +13,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="lb-outbound"
 />
+
 
 # Troubleshoot outbound connectivity from Backend Pool
 
