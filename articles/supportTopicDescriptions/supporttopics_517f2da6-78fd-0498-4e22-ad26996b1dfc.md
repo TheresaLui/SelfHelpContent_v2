@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -266,9 +266,9 @@
     {
       "id": "6bb902c6-b903-0b03-f17f-37ca5ce605c2",
       "longDescription": null,
-      "shortDescription": "Issues setting up cost alerts or encountering system errors",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected data, other than costs, displayed in ACM or PBI",
+      "searchTags": "Cost Management;Unexpected data",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
