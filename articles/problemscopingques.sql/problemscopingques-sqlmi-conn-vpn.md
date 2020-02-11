@@ -31,40 +31,28 @@
             "id": "source",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Where are you trying to connect from?",
+            "displayLabel": "Where is your application/tool trying to connect from?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "same_vnet",
-                    "text": "Application inside the same VNet"
+                    "text": "The same VNet hosting Managed Instance"
                 },
                 {
-                    "value": "vnet_peering_same_region",
-                    "text": "Application in a different VNet, using Azure Virtual Network peering, both in same region"
+                    "value": "vnet_same_region",
+                    "text": "Another VNet in the same region"
                 },
                 {
-                    "value": "vnet_peering_different_region",
-                    "text": "Application in a different VNet, using Azure Virtual Network peering, in different regions"
+                    "value": "vnet_another_region",
+                    "text": "VNet in another region"
                 },
                 {
-                    "value": "vnet_gateway",
-                    "text": "Application in a different VNet, using VNet-to-VNet VPN gateway"
+                    "value": "onprem",
+                    "text": "On-premises"
                 },
                 {
-                    "value": "on_prem_site_to_site",
-                    "text": "On-premises application, using Site-to-Site VPN connection"
-                },
-                {
-                    "value": "on_prem_point_to_site",
-                    "text": "On-premises application, using Point-to-Site VPN connection"
-                },
-                {
-                    "value": "on_prem_expressroute",
-                    "text": "On-premises application, using ExpressRoute connection"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "dont_know_answer"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
@@ -75,6 +63,56 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Details about the source",
             "watermarkText": "If applicable, please provide the Subscription Id, VNet name, Subnet name and/or any other relevant information",
+            "required": false
+        },
+        {
+            "id": "source_details_same_vnet",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "How is source location connected with VNet hosting Managed Instance?",
+            "watermarkText": "Choose an otion",
+            "visibility": "source == vnet_same_region || source == vnet_another_region || source == dont_know_answer",
+            "dropdownOptions": [
+                {
+                    "value": "peering",
+                    "text": "VNet peering"
+                },
+                {
+                    "value": "gateway",
+                    "text": "VNet-to-VNet VPN gateway"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "source_details_onprem",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "How is source location connected with VNet hosting Managed Instance?",
+            "watermarkText": "Choose an otion",
+            "visibility": "source == vnet_same_region || source == vnet_another_region || source == dont_know_answer",
+            "dropdownOptions": [
+                {
+                    "value": "site2site",
+                    "text": "Site-to-Site VPN connection"
+                },
+                {
+                    "value": "point2site",
+                    "text": "Point-to-Site VPN connection"
+                },
+                {
+                    "value": "express_route",
+                    "text": "Express Route connection"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
             "required": false
         },
         {
