@@ -18,7 +18,9 @@
 
 # **Error UserErrorJobSuccessfullyCancelled**
 
+<!--issueDescription-->
 We have identified that your job was successfully cancelled since you triggered a cancel operation. 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
