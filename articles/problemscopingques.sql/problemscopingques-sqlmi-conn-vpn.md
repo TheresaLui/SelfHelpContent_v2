@@ -94,7 +94,7 @@
             "controlType": "dropdown",
             "displayLabel": "How is source location connected with VNet hosting Managed Instance?",
             "watermarkText": "Choose an otion",
-            "visibility": "source == vnet_same_region || source == vnet_another_region || source == dont_know_answer",
+            "visibility": "source == onprem || source == dont_know_answer",
             "dropdownOptions": [
                 {
                     "value": "site2site",
