@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -306,9 +306,9 @@
     {
       "id": "76ea362a-2219-833b-d371-d91738e4e31a",
       "longDescription": null,
-      "shortDescription": "Questions on discrepancy between cost and data reported in ACM versus other resources in Cloud providers’ portals",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on costs that change unexpectedly or are not displayed at expected time",
+      "searchTags": "Cost Management",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
