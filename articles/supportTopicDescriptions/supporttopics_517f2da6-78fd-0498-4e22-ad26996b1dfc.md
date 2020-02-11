@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -429,6 +429,14 @@
       "shortDescription": "",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cff282e6-4e7b-2958-af63-320cff7dcbab",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with utilization of reserved instance",
+      "searchTags": "Reservation;RI;Reserved Instance",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
