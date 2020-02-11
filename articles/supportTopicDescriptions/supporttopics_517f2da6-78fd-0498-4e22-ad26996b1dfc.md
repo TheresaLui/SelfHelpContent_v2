@@ -362,9 +362,9 @@
     {
       "id": "9bc71cda-662c-0336-aee7-6f556d7c0fd2",
       "longDescription": null,
-      "shortDescription": "Questions on how to setup budget via API and possible configurations",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or errors encountered with programmatic access to cost management data",
+      "searchTags": "Cost Management;API;Forecast",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
