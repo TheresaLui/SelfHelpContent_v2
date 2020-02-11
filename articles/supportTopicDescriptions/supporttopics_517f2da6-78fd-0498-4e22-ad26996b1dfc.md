@@ -378,9 +378,9 @@
     {
       "id": "a7096926-dcd0-2504-ba61-a40ec81b9566",
       "longDescription": null,
-      "shortDescription": "Errors encountered while setting up scheduled reports or exports",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions regarding export related errors or files not exported as expected",
+      "searchTags": "Cost Management;exports",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
