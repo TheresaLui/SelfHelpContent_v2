@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to recall file(s) due to error **ECS_E_AZURE_RESOURCE_NOT_FOUND**
 
 <!--issueDescription-->
-Azure File Sync failed to recall file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ECS\_E\_AZURE\_RESOURCE\_NOT\_FOUND (error code: 0x80c86002 or -2134351870)**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the file is not accessible in the Azure file share..<br/><br/>
+Azure File Sync failed to recall file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **(error code: 0x80c86002 or -2134351870)**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the file is not accessible in the Azure file share..<br/><br/>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
