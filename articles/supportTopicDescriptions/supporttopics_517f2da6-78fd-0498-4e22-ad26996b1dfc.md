@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -498,9 +498,9 @@
     {
       "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
       "longDescription": null,
-      "shortDescription": "Questions or need help understanding the usage data being reported for the RI deployment",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Need assistance due to unable to purchase or questions on purchase for Reserved Instance only",
+      "searchTags": "Reservation;Reserved Instance;RI",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
