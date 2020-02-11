@@ -346,9 +346,9 @@
     {
       "id": "9359c605-5360-f754-2195-99e1f42a598b",
       "longDescription": null,
-      "shortDescription": " Issues with reports functionality in UI or scope picker freezing",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected costs displayed in Cost Analysis or in PowerBI reports",
+      "searchTags": "Cost Management;Cost analysis;Unexpected costs;Power BI",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
