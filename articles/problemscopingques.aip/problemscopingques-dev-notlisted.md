@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32727953"
     productPesIds="14997"
-    cloudEnvironments="Public"
+	cloudEnvironments="public, blackForest, mooncake, fairfax"
     articleId="scoping_dev_notlisted"
 	schemaVersion="1"
 />

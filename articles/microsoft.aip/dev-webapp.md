@@ -11,7 +11,7 @@
 	supportTopicIds="32727980"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, mooncake, fairfax"
 />
 
 # Microsoft Information Protection - Development - Web app MIP SDK
