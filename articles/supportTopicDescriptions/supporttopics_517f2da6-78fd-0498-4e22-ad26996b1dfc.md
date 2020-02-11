@@ -154,9 +154,9 @@
     {
       "id": "44114011-6a66-e902-c00f-e419b6b4509f",
       "longDescription": null,
-      "shortDescription": "Questions on why access to view/configure data in ACM is not available",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions regarding access related errors for all customers having appropriate roles and for EA customers with AO, DA views enabled in EA portal",
+      "searchTags": "Cost Management;access",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
