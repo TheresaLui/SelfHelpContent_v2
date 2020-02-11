@@ -298,9 +298,9 @@
     {
       "id": "750bbf33-ccd8-21b8-03be-db99ca762450",
       "longDescription": null,
-      "shortDescription": "Other setup issues, not covered in specific setup issues listed above",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on setting up the AWS connector or discrepancies in AWS costs displayed in ACM",
+      "searchTags": "Cost Management;AWS",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
