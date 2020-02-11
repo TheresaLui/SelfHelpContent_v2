@@ -43,8 +43,8 @@
       "id": "057f6615-3650-5370-57b2-e1a64af3b037",
       "longDescription": null,
       "shortDescription": "Questions or issues with cancellations, exchanges or refunds related to Reserved Instances only",
-      "searchTags": "",
-      "category": "",
+      "searchTags": "Reserved Instance;RI;RI exchange;RI cancel",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
