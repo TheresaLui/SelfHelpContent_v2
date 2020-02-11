@@ -31,6 +31,8 @@ You can find links to troubleshoot/open support tickets with ISVs in the table b
     Turbonomic | [Link](https://aka.ms/migrate/turbonomic-support-ticket)
     UnifyCloud | [Link](https://aka.ms/migrate/unifycloud-support-ticket) 
     Carbonite  | [Link](https://aka.ms/migrate/carbonite-support-ticket) 
+    Rackware   | mailto: support@rackwareinc.com
+    Lakeside   | [Link](https://go.microsoft.com/fwlink/?linkid=2118054) 
 
 
 ### **My Azure Migrate project creation fails with a deployment failed error.**  
