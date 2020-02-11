@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -154,9 +154,9 @@
     {
       "id": "44114011-6a66-e902-c00f-e419b6b4509f",
       "longDescription": null,
-      "shortDescription": "Questions on why access to view/configure data in ACM is not available",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions regarding access related errors for all customers having appropriate roles and for EA customers with AO, DA views enabled in EA portal",
+      "searchTags": "Cost Management;access",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
