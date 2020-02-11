@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "2e0fee7a-50d4-86cf-64d7-8164358a0fe5",
+      "longDescription": "",
+      "shortDescription": "Having trouble purchasing an App Service Domain",
+      "searchTags": "purchase;domain",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b8bd022-c023-3bf4-0a71-50501dedd0a3",
       "longDescription": "",
       "shortDescription": "Issues or questions while trying to assign your Azure App Service Domain to your Azure App Service Web App",
