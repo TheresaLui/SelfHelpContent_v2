@@ -1,8 +1,8 @@
 <properties
     pageTitle="Scale the storage limit for PostgreSQL server"
     description="Scale the storage limit for PostgreSQL server"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="manishku"
+    ms.author="kummanish"
     articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
@@ -25,11 +25,11 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "orcasql-livesite@service.microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://AZURE OSS DATABASES/Open Source RDBMS",
+      "service": "Azure OSS Databases",
+      "team": "Open Source RDBMS (Project OrcaSQL)"
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },

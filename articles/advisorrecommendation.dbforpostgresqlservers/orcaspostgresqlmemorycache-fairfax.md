@@ -1,11 +1,11 @@
 <properties
     pageTitle="Move your PostgreSQL server to Memory Optimized SKU"
     description="Move your PostgreSQL server to Memory Optimized SKU"
-    authors="manishku"
-    ms.author="kummanish"
-    articleId="47b11ec4-7950-43a1-b6b5-f051f812bd34_Public"
+    authors="aadevteam"
+    ms.author="aadevteam"
+    articleId="47b11ec4-7950-43a1-b6b5-f051f812bd34_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Move your PostgreSQL server to Memory Optimized SKU
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by caching more data in memory",
   "actions": [
     {
-      "actionId": "f1a6a31b-47db-454c-821d-0952035a14a6",
+      "actionId": "bc25df34-5de6-4168-823d-36bf25d7b0ff",
       "description": "Increase your server's memory by scaling to a higher memory SKU",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "85cc74a8-2b5f-4e9f-9387-81c959eab6b8",
+      "actionId": "9f0696dc-10ae-43b1-9d36-5dc7b18ce086",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

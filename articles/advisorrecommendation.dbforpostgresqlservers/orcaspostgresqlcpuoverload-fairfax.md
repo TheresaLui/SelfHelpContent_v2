@@ -1,19 +1,19 @@
 <properties
-    pageTitle="Move your PostgreSQL server to Memory Optimized SKU"
-    description="Move your PostgreSQL server to Memory Optimized SKU"
+    pageTitle="Increase the PostgreSQL server vCores"
+    description="Increase the PostgreSQL server vCores"
     authors="manishku"
     ms.author="kummanish"
-    articleId="47b11ec4-7950-43a1-b6b5-f051f812bd34_Public"
+    articleId="38500a53-575d-44b7-8f29-6cd534137438_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Move your PostgreSQL server to Memory Optimized SKU
+# Increase the PostgreSQL server vCores
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "47b11ec4-7950-43a1-b6b5-f051f812bd34",
+  "recommendationTypeId": "38500a53-575d-44b7-8f29-6cd534137438",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
@@ -21,7 +21,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForPostgresql/servers",
-  "recommendationFriendlyName": "OrcasPostgreSqlMemoryCache",
+  "recommendationFriendlyName": "OrcasPostgreSqlCpuOverload",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -39,13 +39,13 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/postgresqlpricing",
-  "description": "Move your PostgreSQL server to Memory Optimized SKU",
-  "longDescription": "Our internal telemetry shows that there is high churn in the buffer pool for this server which can result in slower query performance and increased IOPS. To improve performance, please review your workload queries to identify opportunities to minimize memory consumed.  If no such opportunity found, then we recommend moving to higher SKU with more memory or increase storage size to get more IOPS.",
-  "potentialBenefits": "Improve query performance by caching more data in memory",
+  "description": "Increase the PostgreSQL server vCores",
+  "longDescription": "Our internal telemetry shows that the CPU has been running under high utilization for an extended period of time over the last 7 days. High CPU utilization may lead to slow query performance. To improve performance, we recommend moving to a larger compute size.",
+  "potentialBenefits": "Improve query performance by reducing CPU pressure",
   "actions": [
     {
-      "actionId": "f1a6a31b-47db-454c-821d-0952035a14a6",
-      "description": "Increase your server's memory by scaling to a higher memory SKU",
+      "actionId": "0d030a4e-cc56-4d33-b796-667eb722a284",
+      "description": "Increase your server's CPU vCores",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "85cc74a8-2b5f-4e9f-9387-81c959eab6b8",
+      "actionId": "be37f88a-d22d-48be-94df-c435e7b481a1",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,8 +66,8 @@
       }
     }
   },
-  "displayLabel": "Move your PostgreSQL server to Memory Optimized SKU",
+  "displayLabel": "Increase the PostgreSQL server vCores",
   "additionalColumns": [],
-  "tip": "You can improve the query performance of your PostgreSQL database by moving your server to a Memory Optimized SKU."
+  "tip": "You can improve the query performance of your PostgreSQL database by increasing the server vCores."
 }
 ---
