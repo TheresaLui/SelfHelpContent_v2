@@ -3,9 +3,9 @@
     description="Scale the storage limit for MySQL server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="c0576597-4910-48b5-9828-5b3a99190b82_Public"
+    articleId="c0576597-4910-48b5-9828-5b3a99190b82_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Scale the storage limit for MySQL server
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by allocating larger storage for the server",
   "actions": [
     {
-      "actionId": "4ac97246-dbf9-4e90-a688-d4d6bfe90a30",
+      "actionId": "dc57dc34-f236-4ff1-a023-a22eac3acd15",
       "description": "Increase Storage for your MySQL Server",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "98fd94e3-420b-4d87-99b7-7289905a25dd",
+      "actionId": "6b099cdb-c4bc-4109-b18e-6865e86164a3",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

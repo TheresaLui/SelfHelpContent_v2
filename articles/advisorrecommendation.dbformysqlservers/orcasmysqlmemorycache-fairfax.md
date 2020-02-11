@@ -3,9 +3,9 @@
     description="Move your MySQL server to Memory Optimized SKU"
     authors="manishku"
     ms.author="kummanish"
-    articleId="74aa92b7-9c42-4640-9b1b-8ab645c86a00_Public"
+    articleId="74aa92b7-9c42-4640-9b1b-8ab645c86a00_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Move your MySQL server to Memory Optimized SKU
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by caching more data in memory",
   "actions": [
     {
-      "actionId": "6b56064e-adb1-4b7c-8ab0-4501d9ff20be",
+      "actionId": "e104a356-aa5e-4c27-8bf6-7f8feb2df338",
       "description": "Increase your server's memory by scaling to a higher memory SKU",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "e90b101f-b8fe-4092-9755-df544e623a48",
+      "actionId": "c4d353e5-b213-4b8d-8cf3-027de51d6874",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

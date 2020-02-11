@@ -3,9 +3,9 @@
     description="Add a MySQL Read Replica server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="1efe9592-f5ae-4167-97d7-63e973821fca_Public"
+    articleId="1efe9592-f5ae-4167-97d7-63e973821fca_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Add a MySQL Read Replica server
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by scaling out reads",
   "actions": [
     {
-      "actionId": "0a4b344f-6f5d-4bba-aacd-34fa2b93e162",
+      "actionId": "8a065928-2c09-43bc-ae58-adb5158355a1",
       "description": "Scale out your read workload by adding a replica",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
@@ -56,7 +56,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "da1c1d4b-7157-4dd6-bc50-4ee1eda3c66a",
+      "actionId": "46bec029-e649-41f4-af8d-b85e39f4abf9",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

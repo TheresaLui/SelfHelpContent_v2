@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Scale the storage limit for MySQL server"
-    description="Scale the storage limit for MySQL server"
+    pageTitle="Scale the MySQL server to higher SKU"
+    description="Scale the MySQL server to higher SKU"
     authors="manishku"
     ms.author="kummanish"
-    articleId="c0576597-4910-48b5-9828-5b3a99190b82_Public"
+    articleId="944611b9-0357-4272-a9ac-a97a65932599_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Scale the storage limit for MySQL server
+# Scale the MySQL server to higher SKU
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "c0576597-4910-48b5-9828-5b3a99190b82",
+  "recommendationTypeId": "944611b9-0357-4272-a9ac-a97a65932599",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "High",
+  "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMysql/servers",
-  "recommendationFriendlyName": "OrcasMySQLStorageLimit",
+  "recommendationFriendlyName": "OrcasMySQLConcurrentConnection",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,14 +38,14 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/mysqlstoragelimits",
-  "description": "Scale the storage limit for MySQL server",
-  "longDescription": "Our internal telemetry shows that the server may be constrained because it is approaching limits for the currently provisioned storage values. This may result in degraded performance or in the server being moved to read-only mode. To ensure continued performance, we recommend increasing the provisioned storage amount or turning ON the \"Auto-Growth\" feature for automatic storage increases",
-  "potentialBenefits": "Improve query performance by allocating larger storage for the server",
+  "learnMoreLink": "https://aka.ms/mysqlconnectionlimits",
+  "description": "Scale the MySQL server to higher SKU",
+  "longDescription": "Our internal telemetry shows that the server may be unable to support the connection requests because of the maximum supported connections for the given SKU. This may result in a large number of failed connections requests which adversly affect the the performance. To improve performance, we recommend to move to higher memory SKU by increasing vCore or switching to Memory-Optimized SKUs.",
+  "potentialBenefits": "Improve query performance by allowing more concurrent connections",
   "actions": [
     {
-      "actionId": "4ac97246-dbf9-4e90-a688-d4d6bfe90a30",
-      "description": "Increase Storage for your MySQL Server",
+      "actionId": "f0a3db95-7969-417e-914d-ea356aadd87c",
+      "description": "Increase vCores or switch to Memory Optimized pricing tier",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "98fd94e3-420b-4d87-99b7-7289905a25dd",
+      "actionId": "b70559be-d8c1-4120-ac8a-893b6ae72c84",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,7 +66,8 @@
       }
     }
   },
-  "displayLabel": "Increase the Server Storage limit",
-  "additionalColumns": []
+  "displayLabel": "Scale the MySQL server to higher SKU",
+  "additionalColumns": [],
+  "tip": "You can improve the query performance of your MySQL database by scaling your server to a higher SKU."
 }
 ---
