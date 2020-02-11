@@ -35,7 +35,7 @@
 ## **Recommended Documents**
 
 * [How to onboard customer & gather-tenant-and-subscription-details](https://docs.microsoft.com/azure/lighthouse/how-to/onboard-customer#gather-tenant-and-subscription-details)
-* [Create an Azure resource manager template](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer#create-an-azure-resource-manager-template)
+* [Create an Azure resource manager template](https://docs.microsoft.com/azure/lighthouse/how-to/onboard-customer#create-an-azure-resource-manager-template)
 * [Deploy the Azure resource manager template](https://docs.microsoft.com/azure/lighthouse/how-to/onboard-customer#deploy-the-azure-resource-manager-templates)
 * [Sample repo for Azure resource manager template](https://github.com/Azure/Azure-Lighthouse-samples/)
 

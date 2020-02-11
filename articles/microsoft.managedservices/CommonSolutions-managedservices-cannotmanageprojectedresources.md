@@ -29,9 +29,9 @@
 	-  Customers can remove delegation from their tenant. Remember: Delegation must be done by a non-guest account in the customer?s tenant which has the Owner built-in role for the subscription being onboarded
 
 - **Can't deploy policy to customers?**
-	- As a service provider, you may have onboarded multiple customer tenants for Azure delegated resource management. Azure Lighthouse allows service providers to perform operations at scale across several tenants at once, making management tasks more efficient. [This](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/policy-at-scale) topic shows you how to use Azure Policy to deploy a policy definition and policy assignment across multiple tenants using PowerShell commands.
+	- As a service provider, you may have onboarded multiple customer tenants for Azure delegated resource management. Azure Lighthouse allows service providers to perform operations at scale across several tenants at once, making management tasks more efficient. [This](https://docs.microsoft.com/azure/lighthouse/how-to/policy-at-scale) topic shows you how to use Azure Policy to deploy a policy definition and policy assignment across multiple tenants using PowerShell commands.
 
 ## **Recommended Documents**
 
 * [Remove access to a delegation](https://docs.microsoft.com/azure/lighthouse/how-to/onboard-customer#remove-access-to-a-delegation)
-* [How to deploy policy at scale](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/policy-at-scale)
+* [How to deploy policy at scale](https://docs.microsoft.com/azure/lighthouse/how-to/policy-at-scale)

@@ -26,9 +26,9 @@
 2. Check the global directory filter.
 3. Find more information here: 
 	* [View and manage customers](https://docs.microsoft.com/azure/lighthouse/how-to/view-manage-customers)
-	*  [View and manage service providers](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/view-manage-service-providers)
+	*  [View and manage service providers](https://docs.microsoft.com/azure/lighthouse/how-to/view-manage-service-providers)
 
 
 ## **Recommended Documents**
 * [View and manage customers](https://docs.microsoft.com/azure/lighthouse/how-to/view-manage-customers)
-* [View and manage service providers](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/view-manage-service-providers)
+* [View and manage service providers](https://docs.microsoft.com/azure/lighthouse/how-to/view-manage-service-providers)
