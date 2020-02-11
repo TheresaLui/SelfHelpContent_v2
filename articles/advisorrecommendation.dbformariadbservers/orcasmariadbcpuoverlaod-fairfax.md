@@ -1,11 +1,11 @@
 <properties
     pageTitle="Increase the MariaDB server vCores"
     description="Increase the MariaDB server vCores"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Public"
+    authors="manishku"
+    ms.author="kummanish"
+    articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Increase the MariaDB server vCores
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by reducing CPU pressure",
   "actions": [
     {
-      "actionId": "4de59571-e8e6-42bd-ab1a-a7968a3ebb0b",
+      "actionId": "1286c84f-266f-43ff-9773-4eb1f0a027c9",
       "description": "Increase your server's CPU vCores",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "c470c0e3-f249-4932-845e-30ed80e7de2b",
+      "actionId": "055ea9a1-6af1-4a0d-92c7-83e493489772",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

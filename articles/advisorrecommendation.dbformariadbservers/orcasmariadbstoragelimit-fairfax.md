@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Increase the MariaDB server vCores"
-    description="Increase the MariaDB server vCores"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Public"
+    pageTitle="Scale the storage limit for MariaDB server"
+    description="Scale the storage limit for MariaDB server"
+    authors="manishku"
+    ms.author="kummanish"
+    articleId="dc791c8d-a74e-4b3e-b7f1-40793399ecd6_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Increase the MariaDB server vCores
+# Scale the storage limit for MariaDB server
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "a5f888e3-8cf4-4491-b2ba-b120e14eb7ce",
+  "recommendationTypeId": "dc791c8d-a74e-4b3e-b7f1-40793399ecd6",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "Medium",
+  "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.DbForMariadb/servers",
-  "recommendationFriendlyName": "OrcasMariaDbCpuOverlaod",
+  "recommendationFriendlyName": "OrcasMariaDbStorageLimit",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,14 +38,14 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/mariadbpricing",
-  "description": "Increase the MariaDB server vCores",
-  "longDescription": "Our internal telemetry shows that the CPU has been running under high utilization for an extended period of time over the last 7 days. High CPU utilization may lead to slow query performance. To improve performance, we recommend moving to a larger compute size.",
-  "potentialBenefits": "Improve query performance by reducing CPU pressure",
+  "learnMoreLink": "https://aka.ms/mariadbstoragelimits",
+  "description": "Scale the storage limit for MariaDB server",
+  "longDescription": "Our internal telemetry shows that the server may be constrained because it is approaching limits for the currently provisioned storage values. This may result in degraded performance or in the server being moved to read-only mode. To ensure continued performance, we recommend increasing the provisioned storage amount or turning ON the \"Auto-Growth\" feature for automatic storage increases",
+  "potentialBenefits": "Improve query performance by allocating larger storage for the server",
   "actions": [
     {
-      "actionId": "4de59571-e8e6-42bd-ab1a-a7968a3ebb0b",
-      "description": "Increase your server's CPU vCores",
+      "actionId": "c66446e9-d62b-4a1c-849a-7cdfd7d752d1",
+      "description": "Increase Storage for your MariaDB Server",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "c470c0e3-f249-4932-845e-30ed80e7de2b",
+      "actionId": "b00ad8dd-8ed1-4572-9ad5-bab8d4e167fb",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,8 +66,7 @@
       }
     }
   },
-  "displayLabel": "Increase the MariaDB server vCores",
-  "additionalColumns": [],
-  "tip": "You can improve the query performance of your MariaDB database by increasing the server vCores."
+  "displayLabel": "Increase the Server Storage limit",
+  "additionalColumns": []
 }
 ---
