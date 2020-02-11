@@ -21,10 +21,26 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "2e0fee7a-50d4-86cf-64d7-8164358a0fe5",
+      "longDescription": "",
+      "shortDescription": "Having trouble purchasing an App Service Domain",
+      "searchTags": "purchase;domain",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4dad03ca-787f-fdc6-bbd7-640e141e23e5",
       "longDescription": "",
       "shortDescription": "Issues or questions about transferring your domain from or to another DNS registrar from or to Azure App Service Domain.",
       "searchTags": "transfer;DNS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8b8bd022-c023-3bf4-0a71-50501dedd0a3",
+      "longDescription": "",
+      "shortDescription": "Issues or questions while trying to assign your Azure App Service Domain to your Azure App Service Web App",
+      "searchTags": "assign;domain",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     }
