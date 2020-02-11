@@ -10,7 +10,7 @@
 	supportTopicIds="32727932"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Onboard_Client_Install"
 />
 
