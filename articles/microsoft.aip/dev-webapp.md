@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Microsoft Information Protection SDK - SDK Install
+# Microsoft Information Protection - Development - Web app MIP SDK
 
 ## **Recommended Documents**
 
