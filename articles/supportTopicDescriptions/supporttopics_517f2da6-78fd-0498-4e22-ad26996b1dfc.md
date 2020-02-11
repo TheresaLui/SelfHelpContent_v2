@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -378,9 +378,9 @@
     {
       "id": "a7096926-dcd0-2504-ba61-a40ec81b9566",
       "longDescription": null,
-      "shortDescription": "Errors encountered while setting up scheduled reports or exports",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions regarding export related errors or files not exported as expected",
+      "searchTags": "Cost Management;exports",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
