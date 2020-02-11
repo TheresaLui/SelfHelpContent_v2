@@ -21,6 +21,6 @@
 ## **Recommended Documents**
 
 
-* [Quickstart for ADLS Gen2 Quick Query](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quick-query?branch=pr-en-us-95851)<br>
-* [.NET and ADLS Gen2 Quick Query](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quick-query-how-to-dotnet?branch=pr-en-us-95851)<br>
+* [Quickstart for ADLS Gen2 Quick Query](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)<br>
+* [.NET and ADLS Gen2 Quick Query](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)<br>
 
