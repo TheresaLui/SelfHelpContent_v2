@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -338,10 +338,10 @@
     {
       "id": "9159711c-9fcc-f727-c69e-778405723652",
       "longDescription": null,
-      "shortDescription": "Questions on usage data availability via API and possible configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Other issues, not covered in specific issues listed above",
+      "searchTags": "Cost Management",
+      "category": "Cost Management",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "9359c605-5360-f754-2195-99e1f42a598b",
