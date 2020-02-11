@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -43,8 +43,8 @@
       "id": "057f6615-3650-5370-57b2-e1a64af3b037",
       "longDescription": null,
       "shortDescription": "Questions or issues with cancellations, exchanges or refunds related to Reserved Instances only",
-      "searchTags": "",
-      "category": "",
+      "searchTags": "Reserved Instance;RI;RI exchange;RI cancel",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
