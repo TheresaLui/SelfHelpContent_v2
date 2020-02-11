@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Azure Information Client - Installing, Onboarding, or Decommissioning - AIP Client Installation"
-	description="Azure Information Client - Installing, Onboarding, or Decommissioning - AIP Client Installation"
+	pageTitle="Azure Information Client - Installation issues"
+	description="Azure Information Client - Installation issues"
 	service="microsoft.aip"
 	resource="aip"
-	authors="orbarak-ms"
-	ms.author="orbarak"
+	authors="nihendle"
+	ms.author="nihendle, orbarak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32727932"
+	supportTopicIds="32584352"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
-	articleId="MIP_Client_Install"
+	articleId="0d30f2ba-7532-4734-8b03-3cc06c602ce9"
 />
 
-# Azure Information Protection client - Installing, Onboarding, or Decommissioning - AIP Client Installation
+# Azure Information Protection client - installation issues
 
 ## **Recommended Steps**
 
