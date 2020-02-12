@@ -24,7 +24,6 @@
     },
 	"formElements": [{
 			"id": "common_issues",
-			"visibility": "null",
 			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "Select the problem type",
