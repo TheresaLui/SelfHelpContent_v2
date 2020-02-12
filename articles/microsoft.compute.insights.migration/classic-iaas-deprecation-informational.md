@@ -16,16 +16,14 @@
     cloudEnvironments="public,fairfax"
 />
 
-# Classic IaaS VM Deprecation & Migration
+# Migrate your IaaS resources to Azure Resource Manager by 3/1/2023
 
 <!--issueDescription-->
-We have detected that you have classic IaaS VMs in Azure Service Manager (ASM). In 2014, we launched IaaS on Azure Resource Manager (ARM), and have been enhancing capabilities ever since. Because it replaces IaaS resources from ASM, classic IaaS VMs will be retired on 3/1/2023. 
+We have detected that you have classic IaaS VMs in Azure Service Manager (ASM). In 2014, we launched IaaS on Azure Resource Manager (ARM), and have been enhancing capabilities ever since, ARM replaces IaaS resources from ASM, classic IaaS VMs will be retired on 3/1/2023. About 95% of Azure customers are already enjoying the benefits and capabilities of ARM, we recommend you start planning your migration today. 
 <!--/issueDescription-->
 
 ### **How does this affect me?** 
-Beginning 3/1/2023, you will no longer be able to start any Classic IaaS VMs using ASM. Any remaining Classic IaaS VMs in a running or stopped-allocated state will be moved to a stopped-deallocated state. 
-
-We will not immediately delete any remaining classic IaaS VMs. After 3/1/2023, we will notify remaining subscriptions who have not migrated their resources about our timelines to delete remaining Classic IaaS VMs. 
+Beginning 3/1/2023, you will no longer be able to start any Classic IaaS VMs using ASM. Any remaining Classic IaaS VMs in a running or stopped-allocated state will be moved to a stopped-deallocated state.  
 
 The following Azure services and functionality will **NOT** be impacted by this retirement: 
 * Cloud Services
@@ -34,8 +32,7 @@ The following Azure services and functionality will **NOT** be impacted by this 
 
 ## **Recommended Steps**
  
-You should start planning the migration of your existing Classic IaaS VMs from ASM to ARM using our [platform supported migration](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-overview).
-
+You should start planning the migration of your existing Classic IaaS VMs from ASM to ARM today. For more information please see our [classic IaaS VM deprecation](https://aka.ms/classic-vm-deprecation) documentation.
 
 ## **Recommended Documents**
 
