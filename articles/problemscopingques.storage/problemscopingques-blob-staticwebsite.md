@@ -35,7 +35,7 @@
 				},
 				{
 					"value": "AzureAD_Support",
-					"text": "Does Static Website support Azure AD authenticatio?"
+					"text": "Does Static Website support Azure AD authentication?"
 				},
 				{
 					"value": "CustomDomain_Support",
@@ -132,6 +132,7 @@
 		{
 			"id": "problem_start_time",
 			"order": 100,
+			"visibility": "common_issues == Troubleshoot_Error",
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": true,
