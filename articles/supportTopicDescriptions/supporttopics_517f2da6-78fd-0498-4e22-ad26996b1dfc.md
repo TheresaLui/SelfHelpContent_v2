@@ -498,9 +498,9 @@
     {
       "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
       "longDescription": null,
-      "shortDescription": "Questions or need help understanding the usage data being reported for the RI deployment",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Unable to purchase or questions on purchase for Reserved Instance only",
+      "searchTags": "Reservation;Reserved Instance;RI",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
