@@ -15,7 +15,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "9d7196d1-2d7c-4316-820f-7374a4ddf250",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_SkewStat(1)",
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_DataSkew",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -35,10 +35,6 @@
     },
     "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
-  "ingestionClientIdentities": [
-    "b580d7a3-ef03-4330-913e-85a879b27bff",
-    "d75d178b-baf7-43a2-8e98-49ba49ac7b2e"
-  ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
   "learnMoreLink": "https://aka.ms/learnmoredataskew",
