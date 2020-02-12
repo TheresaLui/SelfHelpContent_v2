@@ -498,7 +498,7 @@
     {
       "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
       "longDescription": null,
-      "shortDescription": "Need assistance due to unable to purchase or questions on purchase for Reserved Instance only",
+      "shortDescription": "Unable to purchase or questions on purchase for Reserved Instance only",
       "searchTags": "Reservation;Reserved Instance;RI",
       "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
