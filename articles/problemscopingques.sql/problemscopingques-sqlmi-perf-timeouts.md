@@ -28,8 +28,37 @@
             "required": true
         },
         {
-            "id": "database_name",
+            "id": "problem_start_time",
             "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Latest occurrence of the issue?",
+            "required": true
+        },
+        {
+            "id": "frequency",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Can you reproduce this performance issue consistently?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "consistently",
+                    "text": "Yes, consistently"
+                },
+                {
+                    "value": "randomly",
+                    "text": "No, randomly"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "database_name",
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "What database is having issues?",
             "watermarkText": "Choose an option",
@@ -53,40 +82,68 @@
             "required": false
         },
         {
-            "id": "problem_details",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": false,
-            "displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
-            "watermarkText": "",
-            "required": false
-        },
-        {
-            "id": "impact",
-            "order": 4,
+            "id": "other_databases",
+            "order": 21,
             "controlType": "dropdown",
-            "displayLabel": "Is every execution of the query impacted?",
+            "displayLabel": "Is the same problem experienced on other databases?",
+            "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Yes",
+                    "value": "other_databases_yes",
                     "text": "Yes"
                 },
                 {
-                    "value": "No",
+                    "value": "other_databases_no",
                     "text": "No"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Unsure"
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
         },
         {
-            "id": "latest_occurrence",
-            "order": 5,
-            "controlType": "datetimepicker",
-            "displayLabel": "Latest occurrence of the issue?",
+            "id": "comparison",
+            "order": 22,
+            "controlType": "dropdown",
+            "displayLabel": "What is your point of comparison?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "slower_than_before",
+                    "text": "It is slower than it typically is"
+                },
+                {
+                    "value": "slower_than_other_azure",
+                    "text": "It is slower than another database server on Azure"
+                },
+                {
+                    "value": "slower_from_vnet",
+                    "text": "It is slower when connection is from VNET"
+                },
+                {
+                    "value": "slower_from_non_azure",
+                    "text": "It is slower than server on Non-Azure cloud Environment"
+                },
+                {
+                    "value": "slower_from_onprem",
+                    "text": "It is slower than database server running on VM/Locally"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "query_hash",
+            "order": 30,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": false,
+            "displayLabel": "Do you know the Query Hash of the affected query(s)?",
+            "watermarkText": "",
             "required": false
         },
         {
