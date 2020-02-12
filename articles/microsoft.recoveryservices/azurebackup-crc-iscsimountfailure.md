@@ -23,5 +23,6 @@ We have identified that your files and folders restore operation failed because 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-- Open iSCSI initiator check if Target > Status is shown as Connected (note: sometimes it might show connected but the status could be inactive).
+
+- Open iSCSI initiator and check if Target > Status is shown as Connected (note: sometimes it might show connected but the status could be inactive)
 - To resolve this issue, disconnect the target and retry the restore operation
