@@ -514,9 +514,9 @@
     {
       "id": "fb851540-8284-7777-9d25-ffbfe5ec8eb8",
       "longDescription": null,
-      "shortDescription": "Questions on any other Reserved Instance related issues not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with reserved instance usage",
+      "searchTags": "Reserved Instance;Reservation;RI",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     }
   ]
