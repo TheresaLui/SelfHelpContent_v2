@@ -22,6 +22,6 @@
 
 Agentless dependency analysis is available in a limited preview currently. Please subscribe at [Agentless Dependency Analysis](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR35qjpJOBF1MmO4OLvbG-VVUM1UzOVAzVTY2MlM1NE5WMlJXSUhCTkRMOC4u) to get access.
 
-### **My subscription is whitelisted but I still don't see the Add/Remove server tab to enable the dependency.How do I proceed?**
+### **My subscription is whitelisted but I still don't see the Add/Remove server tab to enable the dependency. How do I proceed?**
 
 Please ensure that you use the URL provided in the email. Agentless dependency is still in private preview, and the feature is not accessible using the standard "portal.azure.com" URL.
