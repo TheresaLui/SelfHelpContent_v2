@@ -20,6 +20,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 <!--issueDescription-->
 Azure File Sync failed to recall file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ERROR\_NETWORK\_BUSY (error code: 0x80070036 or -2147024842)**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs due to a network issue.<br/><br/>
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 If the error persists, check network connectivity to the Azure file share.
