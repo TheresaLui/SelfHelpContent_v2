@@ -23,5 +23,6 @@ We have identified that your backup operation failed because the MARS agent was 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+
 - Verify your network [connectivity](https://docs.microsoft.com/azure/backup/backup-configure-vault#verify-internet-access)
-- If you are using antivirus software then it can interfere with communication and backup. Follow [these](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) steps troubleshoot and resolve
+- If you are using antivirus software then it can interfere with communication and backup. Follow [these](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) steps to troubleshoot and resolve.
