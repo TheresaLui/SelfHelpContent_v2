@@ -15,7 +15,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "14b28bdb-b83d-4f55-a516-44d4152f1f2b",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').",
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_IncreaseCacheCapacity",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
