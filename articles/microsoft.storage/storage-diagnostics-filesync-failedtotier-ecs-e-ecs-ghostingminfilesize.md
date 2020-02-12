@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to recall file(s) due to error **ECS_E_GHOSTING_MIN_FILE_SIZE**
 
 <!--issueDescription-->
-Azure File Sync failed to tier file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ECS\_E\_GHOSTING\_MIN_FILE\_SIZE \(error code: 0x80c80261 or -2134375839\).** This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs when the file size is less than the supported size.<br/><br/>
+Azure File Sync failed to tier file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **error code: 0x80c80261 or -2134375839.** This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs when the file size is less than the supported size.<br/><br/>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
