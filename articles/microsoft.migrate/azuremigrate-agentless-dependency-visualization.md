@@ -1,6 +1,6 @@
 <properties 
     pageTitle="Agentless Dependency Visualization"
-    description="Issues and guidance regarding agentless dependency visualization feature in Azure Migrate: Server Assessment"
+    description="Issues and guidance regarding Agentless Dependency analysis feature in Azure Migrate: Server Assessment"
     service="microsoft.migrate"
     resource="migrateprojects"
     authors="rashi-ms"
