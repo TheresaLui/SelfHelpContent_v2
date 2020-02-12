@@ -23,4 +23,5 @@ We have identified that your HANA DB backup operation failed because of permissi
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-- Ensure AZUREWLBACKUPHANAUSER is present in the HANA system with required roles and permissions as specified in this [article](https://docs.microsoft.com/azure/backup/tutorial-backup-sap-hana-db#setting-up-permissions).  
+
+- Ensure AZUREWLBACKUPHANAUSER is present in the HANA system with [required roles and permissions](https://docs.microsoft.com/azure/backup/tutorial-backup-sap-hana-db#setting-up-permissions)
