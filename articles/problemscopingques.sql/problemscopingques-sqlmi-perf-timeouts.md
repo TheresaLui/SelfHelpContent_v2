@@ -28,7 +28,7 @@
             "required": true
         },
         {
-            "id": "problem_start_time",
+            "id": "latest_occurrence",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Latest occurrence of the issue?",
