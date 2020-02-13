@@ -10,7 +10,7 @@
 	articleId="mcas-cloud-discovery-data"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32728969, 32728970"
+	supportTopicIds="32728969, 32728972"
 	resourceTags=""
 	productPesIds="16031"
 	cloudEnvironments="public"
