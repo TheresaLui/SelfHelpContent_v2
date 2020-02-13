@@ -1,7 +1,7 @@
 <properties
 	pageTitle="My experiment won't run or runs slowly"
 	description="My experiment won't run or runs slowly"
-	infoBubbleText="Common Solutions Template"
+	infoBubbleText="My experiment won't run or runs slowly"
 	service="microsoft.machinelearning"
 	resource="designer"
 	authors="luzhang06"
