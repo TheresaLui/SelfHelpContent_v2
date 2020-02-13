@@ -4,7 +4,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="v-miegge"
-    ms.author="Jasmine.Serano"
+    ms.author="jaserano"
     displayOrder=""
     articleId="44469f33-c07e-4566-a098-2268afdebd8a"
     supportTopicIds="32636497"
