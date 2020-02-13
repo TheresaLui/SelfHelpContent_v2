@@ -20,7 +20,7 @@
 	 "diagnosticCard": {
         "title": " Static Website Troubleshooter",
         "description": "Help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a case.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please provide a sample blob path with this issue and ensure that it is in the approved format as suggested in the watermark."
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure you provided the correct issue time and ServerRequestId."
     },
 	"formElements": [{
 			"id": "common_issues",
@@ -34,7 +34,7 @@
 				},
 				{
 					"value": "AzureAD_Support",
-					"text": "Does Static Website support Azure AD authenticatio?"
+					"text": "Does Static Website support Azure AD authentication?"
 				},
 				{
 					"value": "CustomDomain_Support",
@@ -131,6 +131,7 @@
 		{
 			"id": "problem_start_time",
 			"order": 100,
+			"visibility": "common_issues == Troubleshoot_Error",
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": true,
