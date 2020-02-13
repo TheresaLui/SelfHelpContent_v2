@@ -1,3 +1,17 @@
+<properties 
+    pageTitle="Kernel Disconnect Error in Integrated Notebooks"
+    description="Kernel Disconnect Error in Integrated Notebooks"
+    service="microsoft.machinelearning"
+    resource="commitmentPlans"
+    authors="hustcrystal"
+    displayOrder="1"
+    selfHelpType="resource"
+    supportTopicIds="32690895"
+    resourceTags=""
+    productPesIds="16644"
+    cloudEnvironments="public"
+/>
+
 # Kernel Disconnect Error in Integrated Notebooks
 
 ## Background
@@ -6,5 +20,5 @@
 - How to mitigate this problem and the eventual resolution
 
 ## Mitigation & Resolution
-- Workaround 1: Use Jupyter from the NBVM/CI instead
-- Workaround 2: Try restarting the NBVM/CI and then rerunning the notebook
+- Workaround 1: Use Jupyter from the Compute Instance/Notebook VM instead
+- Workaround 2: Try restarting the Compute Instance/Notebook VM and then rerunning the notebook
