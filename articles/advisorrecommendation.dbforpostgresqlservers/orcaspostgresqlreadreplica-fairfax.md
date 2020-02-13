@@ -3,9 +3,9 @@
     description="Add a PostgreSQL Read Replica server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="8fd46c9b-5ba1-4133-8a5d-dfc61e1195b1_Public"
+    articleId="8fd46c9b-5ba1-4133-8a5d-dfc61e1195b1_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Add a PostgreSQL Read Replica server
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by scaling out reads",
   "actions": [
     {
-      "actionId": "e2e1c6bb-02ce-4802-b9e2-ef0b5f76f0e5",
+      "actionId": "eea28ada-6362-4597-9872-7855e354fc14",
       "description": "Scale out your read workload by adding a replica",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
@@ -56,7 +56,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "dafdd626-6791-440f-9476-0dc14eca131e",
+      "actionId": "447a0a3f-c23c-4d03-aa82-7409e668fdef",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

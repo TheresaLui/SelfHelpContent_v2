@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Scale the storage limit for PostgreSQL server"
-    description="Scale the storage limit for PostgreSQL server"
+    pageTitle="Increase the PostgreSQL server vCores"
+    description="Increase the PostgreSQL server vCores"
     authors="manishku"
     ms.author="kummanish"
-    articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_Public"
+    articleId="38500a53-575d-44b7-8f29-6cd534137438_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Scale the storage limit for PostgreSQL server
+# Increase the PostgreSQL server vCores
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "ae2b8ab9-f6b9-4531-ba04-44f00880dc18",
+  "recommendationTypeId": "38500a53-575d-44b7-8f29-6cd534137438",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "High",
+  "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForPostgresql/servers",
-  "recommendationFriendlyName": "OrcasPostgreSqlStorageLimit",
+  "recommendationFriendlyName": "OrcasPostgreSqlCpuOverload",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,14 +38,14 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/postgresqlstoragelimits",
-  "description": "Scale the storage limit for PostgreSQL server",
-  "longDescription": "Our internal telemetry shows that the server may be constrained because it is approaching limits for the currently provisioned storage values. This may result in degraded performance or in the server being moved to read-only mode. To ensure continued performance, we recommend increasing the provisioned storage amount or turning ON the \"Auto-Growth\" feature for automatic storage increases",
-  "potentialBenefits": "Improve query performance by allocating larger storage for the server",
+  "learnMoreLink": "https://aka.ms/postgresqlpricing",
+  "description": "Increase the PostgreSQL server vCores",
+  "longDescription": "Our internal telemetry shows that the CPU has been running under high utilization for an extended period of time over the last 7 days. High CPU utilization may lead to slow query performance. To improve performance, we recommend moving to a larger compute size.",
+  "potentialBenefits": "Improve query performance by reducing CPU pressure",
   "actions": [
     {
-      "actionId": "19a7904f-735a-4b72-9942-842428c4b366",
-      "description": "Increase Storage for your PostgreSQL Server",
+      "actionId": "0d030a4e-cc56-4d33-b796-667eb722a284",
+      "description": "Increase your server's CPU vCores",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "cdc95f47-b264-400c-b32a-da8a4720250c",
+      "actionId": "be37f88a-d22d-48be-94df-c435e7b481a1",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,7 +66,8 @@
       }
     }
   },
-  "displayLabel": "Increase the Server Storage limit",
-  "additionalColumns": []
+  "displayLabel": "Increase the PostgreSQL server vCores",
+  "additionalColumns": [],
+  "tip": "You can improve the query performance of your PostgreSQL database by increasing the server vCores."
 }
 ---

@@ -3,9 +3,9 @@
     description="Increase the server work_mem to avoid excessive disk spilling"
     authors="manishku"
     ms.author="kummanish"
-    articleId="2613de4e-b3d7-11e9-a2a3-2a2ae2dbcce4"
+    articleId="2613de4e-b3d7-11e9-a2a3-2a2ae2dbcce4_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Increase the server work_mem to avoid excessive disk spilling
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by allocating more work_mem for the sort or hash operations thus avoiding unnecessary disk read and write.",
   "actions": [
     {
-      "actionId": "d32bb2b0-b3e0-11e9-a2a3-2a2ae2dbcce4",
+      "actionId": "884b40b9-328f-4144-9c8e-f0934b5a8ed2",
       "description": "Increase value of Server Parameter: work_mem",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
@@ -56,7 +56,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "5d8c188f-a0de-4fb3-a27a-c30663faa9be",
+      "actionId": "55d2305e-bf86-4369-8780-18405708feb7",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
