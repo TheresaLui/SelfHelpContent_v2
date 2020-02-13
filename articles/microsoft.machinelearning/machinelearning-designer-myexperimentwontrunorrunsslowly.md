@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32690867"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public"
 />
 
 # My experiment won't run or runs slowly
