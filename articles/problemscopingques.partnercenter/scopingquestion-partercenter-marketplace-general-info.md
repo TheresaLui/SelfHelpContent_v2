@@ -5,7 +5,7 @@
        ms.author="brserbus"
        selfHelpType="problemScopingQuestions"
        supportTopicIds="32728223,32728079"
-       productPesIds="15960"
+       productPesIds="17006"
        cloudEnvironments="public"
        schemaVersion="1"
        articleId="problemscopingques_partnercenter_marketplace_general" 
