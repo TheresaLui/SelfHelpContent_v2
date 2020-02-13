@@ -85,6 +85,10 @@
                 {
                     "value": "Virtual machine offer",
                     "text": "Virtual machine offer"
+                },
+                {
+                    "value": "Not sure",
+                    "text": "dont_know_answer"
                 }
                 ],
             "required": true
