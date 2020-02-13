@@ -1,19 +1,19 @@
 <properties
-    pageTitle="Add a MySQL Read Replica server"
-    description="Add a MySQL Read Replica server"
+    pageTitle="Increase the MySQL server vCores"
+    description="Increase the MySQL server vCores"
     authors="manishku"
     ms.author="kummanish"
-    articleId="1efe9592-f5ae-4167-97d7-63e973821fca_Public"
+    articleId="0fb3f293-899e-458a-81cc-ad263dd89629_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Add a MySQL Read Replica server
+# Increase the MySQL server vCores
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "1efe9592-f5ae-4167-97d7-63e973821fca",
+  "recommendationTypeId": "0fb3f293-899e-458a-81cc-ad263dd89629",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
@@ -21,7 +21,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMysql/servers",
-  "recommendationFriendlyName": "OrcasMySQLReadReplica",
+  "recommendationFriendlyName": "OrcasMySQLCpuOverload",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,25 +38,26 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/mysqlreadreplica",
-  "description": "Add a MySQL Read Replica server",
-  "longDescription": "Our internal telemetry shows that you may have a read intensive workload running, which results in resource contention for this server. This may lead to slow query performance for the server. To improve performance, we recommend you add a read replica, and offload some of your read workloads to the replica.",
-  "potentialBenefits": "Improve query performance by scaling out reads",
+  "learnMoreLink": "https://aka.ms/mysqlpricing",
+  "description": "Increase the MySQL server vCores",
+  "longDescription": "Our internal telemetry shows that the CPU has been running under high utilization for an extended period of time over the last 7 days. High CPU utilization may lead to slow query performance. To improve performance, we recommend moving to a larger compute size.",
+  "potentialBenefits": "Improve query performance by reducing CPU pressure",
   "actions": [
     {
-      "actionId": "0a4b344f-6f5d-4bba-aacd-34fa2b93e162",
-      "description": "Scale out your read workload by adding a replica",
+      "actionId": "813557f1-01a2-4ff2-b14b-a75551bbb47b",
+      "description": "Increase your server's CPU vCores",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
-      "bladeName": "MySqlServerReplicationBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "resourceId": "{resourceId}"
+        "id": "{resourceId}",
+        "menuid": "pricingTier"
       }
     }
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "da1c1d4b-7157-4dd6-bc50-4ee1eda3c66a",
+      "actionId": "1d4d26d1-b17c-481d-9e91-8c0ae3e6201a",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -65,8 +66,8 @@
       }
     }
   },
-  "displayLabel": "Add a MySQL Read Replica",
+  "displayLabel": "Increase the MySQL server vCores",
   "additionalColumns": [],
-  "tip": "You can improve the query performance of your MySQL database my adding a Read Replica server."
+  "tip": "You can improve the query performance of your MySQL database by increasing the server vCores."
 }
 ---

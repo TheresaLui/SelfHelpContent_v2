@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Increase the MySQL server vCores"
-    description="Increase the MySQL server vCores"
+    pageTitle="Scale the storage limit for MySQL server"
+    description="Scale the storage limit for MySQL server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="0fb3f293-899e-458a-81cc-ad263dd89629_Public"
+    articleId="c0576597-4910-48b5-9828-5b3a99190b82_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Increase the MySQL server vCores
+# Scale the storage limit for MySQL server
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "0fb3f293-899e-458a-81cc-ad263dd89629",
+  "recommendationTypeId": "c0576597-4910-48b5-9828-5b3a99190b82",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "Medium",
+  "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.DbForMysql/servers",
-  "recommendationFriendlyName": "OrcasMySQLCpuOverload",
+  "recommendationFriendlyName": "OrcasMySQLStorageLimit",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,14 +38,14 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/mysqlpricing",
-  "description": "Increase the MySQL server vCores",
-  "longDescription": "Our internal telemetry shows that the CPU has been running under high utilization for an extended period of time over the last 7 days. High CPU utilization may lead to slow query performance. To improve performance, we recommend moving to a larger compute size.",
-  "potentialBenefits": "Improve query performance by reducing CPU pressure",
+  "learnMoreLink": "https://aka.ms/mysqlstoragelimits",
+  "description": "Scale the storage limit for MySQL server",
+  "longDescription": "Our internal telemetry shows that the server may be constrained because it is approaching limits for the currently provisioned storage values. This may result in degraded performance or in the server being moved to read-only mode. To ensure continued performance, we recommend increasing the provisioned storage amount or turning ON the \"Auto-Growth\" feature for automatic storage increases",
+  "potentialBenefits": "Improve query performance by allocating larger storage for the server",
   "actions": [
     {
-      "actionId": "3c335a9a-5949-4f32-897b-b8e37da070a3",
-      "description": "Increase your server's CPU vCores",
+      "actionId": "dc57dc34-f236-4ff1-a023-a22eac3acd15",
+      "description": "Increase Storage for your MySQL Server",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "6ef84d00-7a1c-4616-93d6-e625b4b88ec9",
+      "actionId": "6b099cdb-c4bc-4109-b18e-6865e86164a3",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,8 +66,7 @@
       }
     }
   },
-  "displayLabel": "Increase the MySQL server vCores",
-  "additionalColumns": [],
-  "tip": "You can improve the query performance of your MySQL database by increasing the server vCores."
+  "displayLabel": "Increase the Server Storage limit",
+  "additionalColumns": []
 }
 ---
