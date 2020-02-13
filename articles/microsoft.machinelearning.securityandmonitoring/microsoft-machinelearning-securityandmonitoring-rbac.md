@@ -4,8 +4,8 @@
 	infoBubbleText="Role based access (RBAC) for workspace resources"
 	service="microsoft.machinelearning"
 	resource="machinelearning"
-	authors="johwu"
-	ms.author="johnwu0604"
+	authors="johnwu0604"
+	ms.author="johwu"
 	supportTopicIds="32690879"
 	productPesIds="16644"
 	cloudEnvironments="Public"
@@ -23,23 +23,23 @@ An Azure Machine Learning workspace is an Azure resource. Like other Azure resou
 | **Contributor** | View, create, edit, or delete (where applicable) assets in a workspace. For example, contributors can create an experiment, create or attach a compute cluster, submit a run, and deploy a web service. |
 | **Owner** | Full access to the workspace, including the ability to view, create, edit, or delete (where applicable) assets in a workspace. Additionally, you can change role assignments. |
 
-## Manage workspace access
+## Recommended Steps
 
 If you're an owner of a workspace, you can add and remove roles for the workspace. You can also assign roles to users. Use the following links to discover how to manage access:
 
-- [Azure portal UI](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)
-- [PowerShell](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-powershell)
-- [Azure CLI](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-cli)
-- [REST API](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-rest)
-- [Azure Resource Manager templates](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-template)
+- [Azure portal UI](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)
+- [PowerShell](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-powershell)
+- [Azure CLI](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-cli)
+- [REST API](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-rest)
+- [Azure Resource Manager templates](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-template)
 
 
-If the built-in roles are insufficient, you can create custom roles. See the [following article](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles) to learn more.
+If the built-in roles are insufficient, you can create custom roles. See the [following article](https://docs.microsoft.com/azure/role-based-access-control/custom-roles) to learn more.
 
 ## Additional Resources
 
 Here is a list of additional resources which may be helpful:
 
-* [Manage access to Azure Machine Learning workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-assign-roles)
-* [Built-in roles for Azure resources](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
-* [Resource provider operations](https://docs.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations#microsoftmachinelearningservices)
+* [Manage access to Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
+* [Built-in roles for Azure resources](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)
+* [Resource provider operations](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftmachinelearningservices)
