@@ -20,7 +20,7 @@ In this article, you will learn how to create and edit Azure ML versioned pipeli
 
 ## **Recommended Documents**
 
-* [Create a versioned pipeline endpoint [Python SDK]](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#create-a-versioned-pipeline-endpoint)
-* [Submit a job to a versioned pipeline endpoint [Python SDK]](https://docs.microsoft.com/azure/machine-learning/how-to-schedule-pipelines#create-a-time-based-schedule)
+* [Create a versioned pipeline endpoint - Python SDK](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#create-a-versioned-pipeline-endpoint)
+* [Submit a job to a versioned pipeline endpoint - Python SDK](https://docs.microsoft.com/azure/machine-learning/how-to-schedule-pipelines#create-a-time-based-schedule)
 * [Use versioned pipeline endpoints in the studio](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#use-published-pipelines-in-the-studio)
-* [Disable a versioned pipeline endpoint [Python SDK]](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#disable-a-published-pipeline)
+* [Disable a versioned pipeline endpoint - Python SDK](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#disable-a-published-pipeline)
