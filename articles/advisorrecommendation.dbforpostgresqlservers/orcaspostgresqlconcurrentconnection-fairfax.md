@@ -3,9 +3,9 @@
     description="Scale the PostgreSQL server to higher SKU"
     authors="manishku"
     ms.author="kummanish"
-    articleId="bd109fe8-a2cf-415a-adcb-5e9f9fc1d3c0_Public"
+    articleId="bd109fe8-a2cf-415a-adcb-5e9f9fc1d3c0_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Scale the PostgreSQL server to higher SKU
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by allowing more concurrent connections",
   "actions": [
     {
-      "actionId": "88a05a9c-c157-489c-9ab1-7ccd4844e4b4",
+      "actionId": "5f7b1e08-edfe-420e-9240-8fd0d88b9d28",
       "description": "Increase vCores or switch to Memory Optimized pricing tier",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "5d8c188f-a0de-4fb3-a27a-c30663faa9be",
+      "actionId": "30f0ddb6-e1d6-4102-b2f2-8e1cad01b678",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
