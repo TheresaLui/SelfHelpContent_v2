@@ -91,7 +91,7 @@
                     "text": "dont_know_answer"
                 }
                 ],
-            "required": true
+            "required": false
         },
 
         {
