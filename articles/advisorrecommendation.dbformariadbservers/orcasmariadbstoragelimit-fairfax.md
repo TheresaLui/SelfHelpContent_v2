@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Scale the storage limit for PostgreSQL server"
-    description="Scale the storage limit for PostgreSQL server"
+    pageTitle="Scale the storage limit for MariaDB server"
+    description="Scale the storage limit for MariaDB server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_Public"
+    articleId="dc791c8d-a74e-4b3e-b7f1-40793399ecd6_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Scale the storage limit for PostgreSQL server
+# Scale the storage limit for MariaDB server
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "ae2b8ab9-f6b9-4531-ba04-44f00880dc18",
+  "recommendationTypeId": "dc791c8d-a74e-4b3e-b7f1-40793399ecd6",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.DbForPostgresql/servers",
-  "recommendationFriendlyName": "OrcasPostgreSqlStorageLimit",
+  "recommendationResourceType": "Microsoft.DbForMariadb/servers",
+  "recommendationFriendlyName": "OrcasMariaDbStorageLimit",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,14 +38,14 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/postgresqlstoragelimits",
-  "description": "Scale the storage limit for PostgreSQL server",
+  "learnMoreLink": "https://aka.ms/mariadbstoragelimits",
+  "description": "Scale the storage limit for MariaDB server",
   "longDescription": "Our internal telemetry shows that the server may be constrained because it is approaching limits for the currently provisioned storage values. This may result in degraded performance or in the server being moved to read-only mode. To ensure continued performance, we recommend increasing the provisioned storage amount or turning ON the \"Auto-Growth\" feature for automatic storage increases",
   "potentialBenefits": "Improve query performance by allocating larger storage for the server",
   "actions": [
     {
-      "actionId": "19a7904f-735a-4b72-9942-842428c4b366",
-      "description": "Increase Storage for your PostgreSQL Server",
+      "actionId": "c66446e9-d62b-4a1c-849a-7cdfd7d752d1",
+      "description": "Increase Storage for your MariaDB Server",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "cdc95f47-b264-400c-b32a-da8a4720250c",
+      "actionId": "b00ad8dd-8ed1-4572-9ad5-bab8d4e167fb",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

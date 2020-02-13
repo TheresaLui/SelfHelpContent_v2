@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Scale the storage limit for PostgreSQL server"
-    description="Scale the storage limit for PostgreSQL server"
+    pageTitle="Scale the storage limit for MySQL server"
+    description="Scale the storage limit for MySQL server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_Public"
+    articleId="c0576597-4910-48b5-9828-5b3a99190b82_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Scale the storage limit for PostgreSQL server
+# Scale the storage limit for MySQL server
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "ae2b8ab9-f6b9-4531-ba04-44f00880dc18",
+  "recommendationTypeId": "c0576597-4910-48b5-9828-5b3a99190b82",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.DbForPostgresql/servers",
-  "recommendationFriendlyName": "OrcasPostgreSqlStorageLimit",
+  "recommendationResourceType": "Microsoft.DbForMysql/servers",
+  "recommendationFriendlyName": "OrcasMySQLStorageLimit",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,14 +38,14 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/postgresqlstoragelimits",
-  "description": "Scale the storage limit for PostgreSQL server",
+  "learnMoreLink": "https://aka.ms/mysqlstoragelimits",
+  "description": "Scale the storage limit for MySQL server",
   "longDescription": "Our internal telemetry shows that the server may be constrained because it is approaching limits for the currently provisioned storage values. This may result in degraded performance or in the server being moved to read-only mode. To ensure continued performance, we recommend increasing the provisioned storage amount or turning ON the \"Auto-Growth\" feature for automatic storage increases",
   "potentialBenefits": "Improve query performance by allocating larger storage for the server",
   "actions": [
     {
-      "actionId": "19a7904f-735a-4b72-9942-842428c4b366",
-      "description": "Increase Storage for your PostgreSQL Server",
+      "actionId": "dc57dc34-f236-4ff1-a023-a22eac3acd15",
+      "description": "Increase Storage for your MySQL Server",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "cdc95f47-b264-400c-b32a-da8a4720250c",
+      "actionId": "6b099cdb-c4bc-4109-b18e-6865e86164a3",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

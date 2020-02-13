@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Move your MariaDB server to Memory Optimzed SKU"
-    description="Move your MariaDB server to Memory Optimzed SKU"
+    pageTitle="Move your PostgreSQL server to Memory Optimized SKU"
+    description="Move your PostgreSQL server to Memory Optimized SKU"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Public"
+    articleId="47b11ec4-7950-43a1-b6b5-f051f812bd34_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Move your MariaDB server to Memory Optimzed SKU
+# Move your PostgreSQL server to Memory Optimized SKU
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "a092afdb-6f20-4b42-8d8f-423ac8d71a3f",
+  "recommendationTypeId": "47b11ec4-7950-43a1-b6b5-f051f812bd34",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.DbForMariadb/servers",
-  "recommendationFriendlyName": "OrcasMariaDbMemoryCache",
+  "recommendationResourceType": "Microsoft.DbForPostgresql/servers",
+  "recommendationFriendlyName": "OrcasPostgreSqlMemoryCache",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,13 +38,13 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/mariadbpricing",
-  "description": "Move your MariaDB server to Memory Optimzed SKU",
+  "learnMoreLink": "https://aka.ms/postgresqlpricing",
+  "description": "Move your PostgreSQL server to Memory Optimized SKU",
   "longDescription": "Our internal telemetry shows that there is high churn in the buffer pool for this server which can result in slower query performance and increased IOPS. To improve performance, please review your workload queries to identify opportunities to minimize memory consumed.  If no such opportunity found, then we recommend moving to higher SKU with more memory or increase storage size to get more IOPS.",
   "potentialBenefits": "Improve query performance by caching more data in memory",
   "actions": [
     {
-      "actionId": "a3072c31-1a16-4b6c-bacc-d36e874e7d96",
+      "actionId": "bc25df34-5de6-4168-823d-36bf25d7b0ff",
       "description": "Increase your server's memory by scaling to a higher memory SKU",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "7cdc480e-34ba-4835-96d9-16479238756c",
+      "actionId": "9f0696dc-10ae-43b1-9d36-5dc7b18ce086",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,8 +66,8 @@
       }
     }
   },
-  "displayLabel": "Move your MariaDB server to Memory Optimzed SKU",
+  "displayLabel": "Move your PostgreSQL server to Memory Optimized SKU",
   "additionalColumns": [],
-  "tip": "You can improve the query performance of your MariaDB database by moving your server to a Memory Optimized SKU."
+  "tip": "You can improve the query performance of your PostgreSQL database by moving your server to a Memory Optimized SKU."
 }
 ---

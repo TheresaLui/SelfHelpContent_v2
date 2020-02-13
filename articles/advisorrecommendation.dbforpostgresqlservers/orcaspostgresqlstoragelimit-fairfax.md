@@ -3,9 +3,9 @@
     description="Scale the storage limit for PostgreSQL server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_Public"
+    articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Scale the storage limit for PostgreSQL server
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by allocating larger storage for the server",
   "actions": [
     {
-      "actionId": "19a7904f-735a-4b72-9942-842428c4b366",
+      "actionId": "69ccac4b-7822-414a-b67e-60a79b098380",
       "description": "Increase Storage for your PostgreSQL Server",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "cdc95f47-b264-400c-b32a-da8a4720250c",
+      "actionId": "28c70448-56d0-4ebc-b83e-9af7e0dd3b05",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

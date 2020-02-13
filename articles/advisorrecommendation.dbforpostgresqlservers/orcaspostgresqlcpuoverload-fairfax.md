@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Scale the MariaDB server to higher SKU"
-    description="Scale the MariaDB server to higher SKU"
+    pageTitle="Increase the PostgreSQL server vCores"
+    description="Increase the PostgreSQL server vCores"
     authors="manishku"
     ms.author="kummanish"
-    articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_Public"
+    articleId="38500a53-575d-44b7-8f29-6cd534137438_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Scale the MariaDB server to higher SKU
+# Increase the PostgreSQL server vCores
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "860d2d5d-7934-4ccb-a34a-577adf3022a6",
+  "recommendationTypeId": "38500a53-575d-44b7-8f29-6cd534137438",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.DbForMariadb/servers",
-  "recommendationFriendlyName": "OrcasMariaDbConcurrentConnection",
+  "recommendationResourceType": "Microsoft.DbForPostgresql/servers",
+  "recommendationFriendlyName": "OrcasPostgreSqlCpuOverload",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,14 +38,14 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/mariadbconnectionlimits",
-  "description": "Scale the MariaDB server to higher SKU",
-  "longDescription": "Our internal telemetry shows that the server may be unable to support the connection requests because of the maximum supported connections for the given SKU. This may result in a large number of failed connections requests which adversly affect the the performance. To improve performance, we recommend to move to higher memory SKU by increasing vCore or switching to Memory-Optimized SKUs.",
-  "potentialBenefits": "Improve query performance by allowing more concurrent connections",
+  "learnMoreLink": "https://aka.ms/postgresqlpricing",
+  "description": "Increase the PostgreSQL server vCores",
+  "longDescription": "Our internal telemetry shows that the CPU has been running under high utilization for an extended period of time over the last 7 days. High CPU utilization may lead to slow query performance. To improve performance, we recommend moving to a larger compute size.",
+  "potentialBenefits": "Improve query performance by reducing CPU pressure",
   "actions": [
     {
-      "actionId": "52a9676b-3f94-4df6-af8c-61ca6b9e1476",
-      "description": "Increase vCores or switch to Memory Optimized pricing tier",
+      "actionId": "0d030a4e-cc56-4d33-b796-667eb722a284",
+      "description": "Increase your server's CPU vCores",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "b5f62703-b922-40e7-8cc9-d620f524f73e",
+      "actionId": "be37f88a-d22d-48be-94df-c435e7b481a1",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,8 +66,8 @@
       }
     }
   },
-  "displayLabel": "Scale the MariaDB server to higher SKU",
+  "displayLabel": "Increase the PostgreSQL server vCores",
   "additionalColumns": [],
-  "tip": "You can improve the query performance of your MariaDB database by scaling your server to a higher SKU."
+  "tip": "You can improve the query performance of your PostgreSQL database by increasing the server vCores."
 }
 ---

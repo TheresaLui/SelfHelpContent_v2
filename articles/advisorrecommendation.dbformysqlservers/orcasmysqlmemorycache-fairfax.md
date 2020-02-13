@@ -1,27 +1,27 @@
 <properties
-    pageTitle="Move your MariaDB server to Memory Optimzed SKU"
-    description="Move your MariaDB server to Memory Optimzed SKU"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Public"
+    pageTitle="Move your MySQL server to Memory Optimized SKU"
+    description="Move your MySQL server to Memory Optimized SKU"
+    authors="manishku"
+    ms.author="kummanish"
+    articleId="74aa92b7-9c42-4640-9b1b-8ab645c86a00_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Move your MariaDB server to Memory Optimzed SKU
+# Move your MySQL server to Memory Optimized SKU
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "a092afdb-6f20-4b42-8d8f-423ac8d71a3f",
+  "recommendationTypeId": "74aa92b7-9c42-4640-9b1b-8ab645c86a00",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.DbForMariadb/servers",
-  "recommendationFriendlyName": "OrcasMariaDbMemoryCache",
+  "recommendationResourceType": "Microsoft.DbForMysql/servers",
+  "recommendationFriendlyName": "OrcasMySQLMemoryCache",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -38,13 +38,13 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/mariadbpricing",
-  "description": "Move your MariaDB server to Memory Optimzed SKU",
+  "learnMoreLink": "https://aka.ms/mysqlpricing",
+  "description": "Move your MySQL server to Memory Optimized SKU",
   "longDescription": "Our internal telemetry shows that there is high churn in the buffer pool for this server which can result in slower query performance and increased IOPS. To improve performance, please review your workload queries to identify opportunities to minimize memory consumed.  If no such opportunity found, then we recommend moving to higher SKU with more memory or increase storage size to get more IOPS.",
   "potentialBenefits": "Improve query performance by caching more data in memory",
   "actions": [
     {
-      "actionId": "a3072c31-1a16-4b6c-bacc-d36e874e7d96",
+      "actionId": "e104a356-aa5e-4c27-8bf6-7f8feb2df338",
       "description": "Increase your server's memory by scaling to a higher memory SKU",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "7cdc480e-34ba-4835-96d9-16479238756c",
+      "actionId": "c4d353e5-b213-4b8d-8cf3-027de51d6874",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,8 +66,8 @@
       }
     }
   },
-  "displayLabel": "Move your MariaDB server to Memory Optimzed SKU",
+  "displayLabel": "Move your MySQL server to Memory Optimized SKU",
   "additionalColumns": [],
-  "tip": "You can improve the query performance of your MariaDB database by moving your server to a Memory Optimized SKU."
+  "tip": "You can improve the query performance of your MySQL database by moving your server to a Memory Optimized SKU."
 }
 ---

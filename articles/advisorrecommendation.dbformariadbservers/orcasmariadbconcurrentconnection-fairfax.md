@@ -3,9 +3,9 @@
     description="Scale the MariaDB server to higher SKU"
     authors="manishku"
     ms.author="kummanish"
-    articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_Public"
+    articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Scale the MariaDB server to higher SKU
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by allowing more concurrent connections",
   "actions": [
     {
-      "actionId": "52a9676b-3f94-4df6-af8c-61ca6b9e1476",
+      "actionId": "827d16b5-5dd3-4f18-9122-64f9471724ff",
       "description": "Increase vCores or switch to Memory Optimized pricing tier",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "b5f62703-b922-40e7-8cc9-d620f524f73e",
+      "actionId": "54840dc7-cf7f-4845-9b59-63d37353fb76",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
