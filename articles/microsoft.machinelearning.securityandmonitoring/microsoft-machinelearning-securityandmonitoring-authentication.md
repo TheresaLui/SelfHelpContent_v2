@@ -15,7 +15,7 @@
 
 # Authentication Issues With Scoring Endpoint
 
-## Recommended Steps
+## **Recommended Steps**
 
 ### For Key-based Authentication
 

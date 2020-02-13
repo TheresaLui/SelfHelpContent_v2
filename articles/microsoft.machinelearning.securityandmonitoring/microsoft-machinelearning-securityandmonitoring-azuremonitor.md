@@ -17,7 +17,7 @@
 
 Azure Machine Learning logs monitoring data using Azure Monitor, which is a full stack monitoring service in Azure. Azure Machine Learning collects the same kinds of monitoring data as other Azure resources, which are described in [Monitoring data from Azure resources](https://docs.microsoft.com/azure/azure-monitor/insights/monitor-azure-resource#monitoring-data). 
 
-## Recommended Steps
+## **Recommended Steps**
 
 Below are steps for common tasks you might want accomplish using Azure Monitor.
 

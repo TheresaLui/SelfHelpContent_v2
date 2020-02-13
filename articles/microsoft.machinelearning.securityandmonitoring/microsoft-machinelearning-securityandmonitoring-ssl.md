@@ -15,7 +15,7 @@
 
 # SSL setup for ACI or AKS
 
-## Recommended Steps
+## **Recommended Steps**
 
 The general process to secure a web service using SSL is as follows:
 
