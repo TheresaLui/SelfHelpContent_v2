@@ -1,5 +1,5 @@
 <properties
-	pageTitle="<Enter the step title>"
+	pageTitle="VNet Peering TSG"
 	description="<Brief Description of the step>"
 	service="<service provider>"
 	resource="<resource type>"
