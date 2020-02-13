@@ -96,7 +96,7 @@
             "controlType": "textbox",
             "displayLabel": "Please provide the publisher name.",
             "watermarkText": "Please provide the publisher name.",
-            "required": true
+            "required": false
         },
         {
             "id": "pc_isv_publisher_id",
