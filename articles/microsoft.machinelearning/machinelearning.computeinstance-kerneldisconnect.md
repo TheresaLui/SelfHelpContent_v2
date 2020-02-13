@@ -1,15 +1,17 @@
 <properties 
-    pageTitle="Kernel Disconnect Error in Integrated Notebooks"
+    pageTitle="kernel-disconnect-error-in-integrated-notebooks"
     description="Kernel Disconnect Error in Integrated Notebooks"
     service="microsoft.machinelearning"
-    resource="commitmentPlans"
+    resource="computeinstance"
     authors="hustcrystal"
+    ms.author="chrjia, femi.olukoya"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds="32690895"
     resourceTags=""
     productPesIds="16644"
     cloudEnvironments="public"
+    articleId="microsoft.machinelearning.computeinstance.kerneldisconnect"
 />
 
 # Kernel Disconnect Error in Integrated Notebooks
