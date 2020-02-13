@@ -258,7 +258,7 @@
         {
             "id": "5aebadb3-c9fd-f408-e74a-fbffc8ea2069",
             "longDescription": "",
-            "shortDescription": "Unable to create HDInsight cluster in a VNET.",
+            "shortDescription": "Any other cluster creation issues.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -306,7 +306,7 @@
         {
             "id": "5d5a0ca9-1600-456f-e513-d1bf0d573a06",
             "longDescription": "",
-            "shortDescription": "Any other cluster creation issues.",
+            "shortDescription": "Unable to create HDInsight cluster in a VNET.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -418,7 +418,7 @@
         {
             "id": "6dfcf67f-3b03-4f9c-6ebf-295dac346299",
             "longDescription": "",
-            "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for a n Hbase cluster.",
+            "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for an Hbase cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
