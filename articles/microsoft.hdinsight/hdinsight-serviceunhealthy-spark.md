@@ -6,13 +6,12 @@
     authors="v-miegge"
     ms.author="jaserano"
     selfhelptype="generic"
-    displayOrder=""
     articleId="44469f33-c07e-4566-a098-2268afdebd8a"
     supportTopicIds="32636497"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
- />
+/>
 
 # Service Unhealthy, Spark Update 2.7
 
