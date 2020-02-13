@@ -314,9 +314,9 @@
     {
       "id": "ffb0cf6f-406c-a1d5-5e08-15c027d764bc",
       "longDescription": "",
-      "shortDescription": "Need assistance with an error in the portal when trying to manage Reserved Instance",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or issues with purchasing or managing a Reservation (RI)",
+      "searchTags": "Reservation;Reserved Instance;RI",
+      "category": "Reservation Management",
       "useInDiagnoseAndSolve": "true"
     }
   ]
