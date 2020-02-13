@@ -1,16 +1,17 @@
 <properties
-    pageTitle="Service Unhealthy Spark Update"
-    description="Service Unhealthy Spark Update"
+    pageTitle="Azure HDInsight: Service Unhealthy"
+    description="Azure HDInsight: Service Unhealthy"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="v-miegge"
-    ms.author="jaserano"
-    selfhelptype="generic"
-    articleId="44469f33-c07e-4566-a098-2268afdebd8a"
-    supportTopicIds="32636497"
+    ms.author="deeptivu"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32636466,32636472,32636480"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
+    articleId="f10eed21-c120-4722-bfad-1b46217cae9d"
 />
 
 # Service Unhealthy, Spark Update 2.7
