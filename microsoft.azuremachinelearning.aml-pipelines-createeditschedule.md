@@ -20,7 +20,7 @@ In this article, you will learn how to create and edit Azure ML pipeline schedul
 
 ## **Recommended Documents**
 
-* [Create a schedule [Python SDK]](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-schedule-pipelines#create-a-schedule)
-* [Create a time-based schedule [Python SDK]](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-schedule-pipelines#create-a-time-based-schedule)
-* [Create a change-based schedule [Python SDK]](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-schedule-pipelines#create-a-change-based-schedule)
-* [View and manage your pipeline schedules](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-schedule-pipelines#view-your-scheduled-pipelines)
+* [Create a schedule [Python SDK]](https://docs.microsoft.com/azure/machine-learning/how-to-schedule-pipelines#create-a-schedule)
+* [Create a time-based schedule [Python SDK]](https://docs.microsoft.com/azure/machine-learning/how-to-schedule-pipelines#create-a-time-based-schedule)
+* [Create a change-based schedule [Python SDK]](https://docs.microsoft.com/azure/machine-learning/how-to-schedule-pipelines#create-a-change-based-schedule)
+* [View and manage your pipeline schedules](https://docs.microsoft.com/azure/machine-learning/how-to-schedule-pipelines#view-your-scheduled-pipelines)
