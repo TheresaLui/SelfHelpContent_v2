@@ -20,7 +20,7 @@ Most users are able to resolve this issue using the steps below.
 ## **Recommended Steps**
 
 1. If the pipeline is running, you cannot drag and drop new modules into the canvas or edit existing ones.
-2. When you are connecting modules, make sure you see a cross "+" on the port then connect it with highlighted port(s) in blue.
+2. When you are connecting modules, make sure you see a cross **+** on the port then connect it with highlighted port(s) in blue.
 
 ## **Recommended Documents**
 

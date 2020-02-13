@@ -17,4 +17,4 @@
 
 ## **Recommended Steps**
 
-1. File an issue by clicking the smiling face on top right corner of Azure Machine Learning studio with “including screenshot” checked on. Our engineering team will investigate.
+1. File an issue by clicking the smiling face on top right corner of Azure Machine Learning studio with **including screenshot** checked on. Our engineering team will investigate.
