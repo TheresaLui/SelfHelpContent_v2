@@ -21,5 +21,5 @@ In this article, you will learn how to retrieve logs, snapshots, and other outpu
 ## **Recommended Documents**
 
 * [Where to find logs, snapshots, and outputs in the studio UI](https://docs.microsoft.com/azure/machine-learning/how-to-debug-pipelines#debugging-scripts-from-remote-context)
-* [Logging options and behavior [Python SDK]](https://docs.microsoft.com/azure/machine-learning/how-to-debug-pipelines#logging-options-and-behavior)
+* [Logging options and behavior - Python SDK](https://docs.microsoft.com/azure/machine-learning/how-to-debug-pipelines#logging-options-and-behavior)
 * [Where to find logs and outputs in the designer UI](https://docs.microsoft.com/azure/machine-learning/how-to-debug-pipelines#debug-and-troubleshoot-in-azure-machine-learning-designer-preview)
