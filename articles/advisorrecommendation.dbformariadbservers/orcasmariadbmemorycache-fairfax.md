@@ -1,11 +1,11 @@
 <properties
     pageTitle="Move your MariaDB server to Memory Optimzed SKU"
     description="Move your MariaDB server to Memory Optimzed SKU"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Public"
+    authors="manishku"
+    ms.author="kummanish"
+    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Move your MariaDB server to Memory Optimzed SKU
 ---
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve query performance by caching more data in memory",
   "actions": [
     {
-      "actionId": "a3072c31-1a16-4b6c-bacc-d36e874e7d96",
+      "actionId": "f5ff3c1e-c227-4068-97af-d95059f8a3c0",
       "description": "Increase your server's memory by scaling to a higher memory SKU",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "7cdc480e-34ba-4835-96d9-16479238756c",
+      "actionId": "8a31f3b1-261c-44da-a889-0c1423bd3627",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

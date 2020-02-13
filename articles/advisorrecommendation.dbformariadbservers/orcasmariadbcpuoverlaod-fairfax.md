@@ -1,19 +1,19 @@
 <properties
-    pageTitle="Move your MariaDB server to Memory Optimzed SKU"
-    description="Move your MariaDB server to Memory Optimzed SKU"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Public"
+    pageTitle="Increase the MariaDB server vCores"
+    description="Increase the MariaDB server vCores"
+    authors="manishku"
+    ms.author="kummanish"
+    articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Move your MariaDB server to Memory Optimzed SKU
+# Increase the MariaDB server vCores
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "a092afdb-6f20-4b42-8d8f-423ac8d71a3f",
+  "recommendationTypeId": "a5f888e3-8cf4-4491-b2ba-b120e14eb7ce",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "dataSource": "SAS"
@@ -21,7 +21,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMariadb/servers",
-  "recommendationFriendlyName": "OrcasMariaDbMemoryCache",
+  "recommendationFriendlyName": "OrcasMariaDbCpuOverlaod",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -39,13 +39,13 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/mariadbpricing",
-  "description": "Move your MariaDB server to Memory Optimzed SKU",
-  "longDescription": "Our internal telemetry shows that there is high churn in the buffer pool for this server which can result in slower query performance and increased IOPS. To improve performance, please review your workload queries to identify opportunities to minimize memory consumed.  If no such opportunity found, then we recommend moving to higher SKU with more memory or increase storage size to get more IOPS.",
-  "potentialBenefits": "Improve query performance by caching more data in memory",
+  "description": "Increase the MariaDB server vCores",
+  "longDescription": "Our internal telemetry shows that the CPU has been running under high utilization for an extended period of time over the last 7 days. High CPU utilization may lead to slow query performance. To improve performance, we recommend moving to a larger compute size.",
+  "potentialBenefits": "Improve query performance by reducing CPU pressure",
   "actions": [
     {
-      "actionId": "a3072c31-1a16-4b6c-bacc-d36e874e7d96",
-      "description": "Increase your server's memory by scaling to a higher memory SKU",
+      "actionId": "1286c84f-266f-43ff-9773-4eb1f0a027c9",
+      "description": "Increase your server's CPU vCores",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "7cdc480e-34ba-4835-96d9-16479238756c",
+      "actionId": "055ea9a1-6af1-4a0d-92c7-83e493489772",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,8 +66,8 @@
       }
     }
   },
-  "displayLabel": "Move your MariaDB server to Memory Optimzed SKU",
+  "displayLabel": "Increase the MariaDB server vCores",
   "additionalColumns": [],
-  "tip": "You can improve the query performance of your MariaDB database by moving your server to a Memory Optimized SKU."
+  "tip": "You can improve the query performance of your MariaDB database by increasing the server vCores."
 }
 ---
