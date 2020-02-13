@@ -14,7 +14,7 @@
 	cloudEnvironments="Public"
 />
 
-# **My experiment won't run or runs slowly**
+# My experiment won't run or runs slowly
 
 Most users are able to resolve this issue using the steps below.
 
