@@ -338,7 +338,7 @@
     {
       "id": "9159711c-9fcc-f727-c69e-778405723652",
       "longDescription": null,
-      "shortDescription": "Other issues, not covered in specific issues listed above",
+      "shortDescription": "Other issues not covered in specific issues listed above",
       "searchTags": "Cost Management",
       "category": "Cost Management",
       "useInDiagnoseAndSolve": "false"
