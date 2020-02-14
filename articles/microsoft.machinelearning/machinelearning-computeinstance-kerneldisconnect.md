@@ -20,6 +20,7 @@
 - This affects primarily the UI and Notebooks
 - How to mitigate this problem and the eventual resolution
 
-## **Recommended steps**
+## **Recommended Steps**
+
 - Workaround 1: Use Jupyter from the Compute Instance/Notebook VM instead
 - Workaround 2: Try restarting the Compute Instance/Notebook VM and then rerunning the notebook
