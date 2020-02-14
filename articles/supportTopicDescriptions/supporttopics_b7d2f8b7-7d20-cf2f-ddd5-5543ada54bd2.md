@@ -21,6 +21,10 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "2a970c41-16e7-3b38-2ba1-48e2437ff2a1",
+      "longDescription": "",
+      "shortDescription": "Need help restoring an App Service Domain that has been deleted",
+      "searchTags": "restore;domain;deleted",
       "id": "2e0fee7a-50d4-86cf-64d7-8164358a0fe5",
       "longDescription": "",
       "shortDescription": "Having trouble purchasing an App Service Domain",
