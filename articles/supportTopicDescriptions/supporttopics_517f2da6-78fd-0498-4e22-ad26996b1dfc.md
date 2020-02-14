@@ -432,6 +432,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cff282e6-4e7b-2958-af63-320cff7dcbab",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with utilization of reserved instance",
+      "searchTags": "Reservation;RI;Reserved Instance",
+      "category": "Reserved Instance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d0f16bf7-e011-3f3b-1c26-3147f84e0896",
       "longDescription": null,
       "shortDescription": "Questions on understanding the information on the invoice and the usage report",
