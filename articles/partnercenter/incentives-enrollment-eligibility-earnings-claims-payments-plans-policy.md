@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="partnercenter"
 	resource="PartnerCenter_Incentives"
-	authors="samboo,kimnich"
+	authors="Kim-Davis"
 	ms.author="sabo"
 	displayOrder=""
 	articleId="Incentives_General"
