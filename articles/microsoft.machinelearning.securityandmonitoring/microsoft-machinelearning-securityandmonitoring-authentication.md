@@ -27,6 +27,7 @@ Key-based authentication generates static bearer-type authentication keys that d
 The following is an example of creating an ACI deployment configuration with key-based auth enabled.
 
 ```python
+
 from azureml.core.webservice import AciWebservice
 
 aci_config = AciWebservice.deploy_configuration(cpu_cores=1,
@@ -37,6 +38,7 @@ aci_config = AciWebservice.deploy_configuration(cpu_cores=1,
 Then you can use the custom ACI configuration in deployment using the `Model` class.
 
 ```python
+
 from azureml.core.model import Model, InferenceConfig
 
 
@@ -53,6 +55,7 @@ aci_service.wait_for_deployment(True)
 To consume the web service, use `aci_service.get_keys()` to fetch the key and set this in the authorization header.
 
 ```python
+
 import requests
 import json
 
@@ -69,6 +72,7 @@ response = requests.post(aci_service.scoring_uri, data=test_sample, headers=head
 To regenerate a key, use the `regen_key()` function and pass either **Primary** or **Secondary**.
 
 ```python
+
 aci_service.regen_key('Primary')
 # or
 aci_service.regen_key('Secondary')
@@ -86,6 +90,7 @@ To control token authentication, use the `token_auth_enabled` parameter when you
 The following is an example of creating an AKS deployment configuration with token-based auth enabled.
 
 ```python
+
 from azureml.core.webservice import AksWebservice
 
 aks_config = AksWebservice.deploy_configuration(cpu_cores=1,
@@ -96,6 +101,7 @@ aks_config = AksWebservice.deploy_configuration(cpu_cores=1,
 Then you can use the custom AKS configuration in deployment using the `Model` class.
 
 ```python
+
 from azureml.core.model import Model, InferenceConfig
 
 
@@ -113,6 +119,7 @@ To consume the web service, use the `aks_service.get_access_token()` method to r
 
 
 ```python
+
 import requests
 import json
 
