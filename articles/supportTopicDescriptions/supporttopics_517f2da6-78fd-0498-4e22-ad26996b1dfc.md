@@ -338,10 +338,10 @@
     {
       "id": "9159711c-9fcc-f727-c69e-778405723652",
       "longDescription": null,
-      "shortDescription": "Questions on usage data availability via API and possible configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Other issues not covered in specific issues listed above",
+      "searchTags": "Cost Management",
+      "category": "Cost Management",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "9359c605-5360-f754-2195-99e1f42a598b",
