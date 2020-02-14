@@ -3,9 +3,9 @@
     description="Convert tables to replicated tables with SQL Data Warehouse"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="293984cf-b551-461f-b22d-9659ebd09a4f_Public"
+    articleId="293984cf-b551-461f-b22d-9659ebd09a4f_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
 # Convert tables to replicated tables with SQL Data Warehouse
 ---
@@ -15,8 +15,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "293984cf-b551-461f-b22d-9659ebd09a4f",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_ReplicatedTable",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
@@ -33,10 +35,6 @@
     },
     "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
-  "ingestionClientIdentities": [
-    "b580d7a3-ef03-4330-913e-85a879b27bff",
-    "d75d178b-baf7-43a2-8e98-49ba49ac7b2e"
-  ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/learnmorereplicatedtables",

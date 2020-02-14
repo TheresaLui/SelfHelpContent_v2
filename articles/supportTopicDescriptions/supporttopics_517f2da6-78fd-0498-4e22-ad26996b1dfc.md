@@ -194,9 +194,9 @@
     {
       "id": "4f8c94bd-0ef0-52b2-1714-7dd131b166fd",
       "longDescription": null,
-      "shortDescription": "Questions on cost alerts e-mails not being delivered or action group tasks not being triggered",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected alerts, budget related errors or unclear forecasted cost",
+      "searchTags": "Cost Management;Forecast;Unexpected alerts",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -258,17 +258,17 @@
     {
       "id": "69103c54-633a-058d-a66b-6ab02c9c806e",
       "longDescription": null,
-      "shortDescription": "Questions or need help with pricing for Reserved Instances",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or issues with billing or reservation discount for Windows and SQL",
+      "searchTags": "Reserved Instance;RI;Reservation;Reservation discount",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "6bb902c6-b903-0b03-f17f-37ca5ce605c2",
       "longDescription": null,
-      "shortDescription": "Issues setting up cost alerts or encountering system errors",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected data, other than costs, displayed in ACM or PBI",
+      "searchTags": "Cost Management;Unexpected data",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -338,10 +338,10 @@
     {
       "id": "9159711c-9fcc-f727-c69e-778405723652",
       "longDescription": null,
-      "shortDescription": "Questions on usage data availability via API and possible configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Other issues not covered in specific issues listed above",
+      "searchTags": "Cost Management",
+      "category": "Cost Management",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "9359c605-5360-f754-2195-99e1f42a598b",
@@ -429,6 +429,14 @@
       "shortDescription": "",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cff282e6-4e7b-2958-af63-320cff7dcbab",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with utilization of reserved instance",
+      "searchTags": "Reservation;RI;Reserved Instance",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
