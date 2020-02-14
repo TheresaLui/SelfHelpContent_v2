@@ -21,10 +21,11 @@
 Most users are able to delegate resources using the steps below.
 
 ## **Recommended Steps**
-- **Can't delegate resources to a service provider?**
-	- Delegation must be done by a non-guest account in the customer?s tenant which has the Owner built-in role for the subscription being onboarded (or which contains the resource groups that are being onboarded).
-  - To see all users who can delegate the subscription, a user in the customer's tenant can select the subscription in the Azure portal, open Access control (IAM), and view all users with the Owner role.
 
+**Can't delegate resources to a service provider?**
+
+- Delegation must be done by a non-guest account in the customer's tenant which has the Owner built-in role for the subscription being onboarded (or which contains the resource groups that are being onboarded)
+  - To see all users who can delegate the subscription, a user in the customer's tenant can select the subscription in the Azure portal, open Access control (IAM), and view all users with the Owner role
 
 ## **Recommended Documents**
 
