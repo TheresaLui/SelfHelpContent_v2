@@ -13,7 +13,6 @@
  	articleId="microsoft.machinelearning.portal.workspace-setup"
 />
 
-
 # Create and manage Azure Machine Learning workspaces in the Azure portal
 
 In this article, you will learn how to create and manage Azure Machine Learning workspaces in the Azure portal
