@@ -10,7 +10,7 @@
     resourceTags=""
     productPesIds="15570"
     cloudEnvironments="public"
- 	articleId="microsoft.machinelearning.portal.workspace-setup"
+ 	articleId="microsoft.machinelearning.portal.workspaceupgrade"
 />
 # Upgrade to Enterprise edition in the Azure portal
 
