@@ -4,10 +4,11 @@
     service="microsoft.machinelearning"
     resource="ws20"
     authors="lanta"
+    ms.author="lanta"
     selfHelpType="generic"
-    supportTopicIds="32690831"
+    supportTopicIds="32321879"
     resourceTags=""
-    productPesIds="16644"
+    productPesIds="15570"
     cloudEnvironments="public"
  	articleId="microsoft.machinelearning.portal.workspace-setup"
 />
@@ -20,4 +21,4 @@ In this article, you will learn how to upgrade to Enterprise edition in the Azur
 
 ## **Recommended Documents**
 
-* [Create a workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace#upgrade)
+* [Create a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace#upgrade)
