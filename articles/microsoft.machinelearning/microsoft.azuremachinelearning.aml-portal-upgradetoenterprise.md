@@ -12,11 +12,9 @@
     cloudEnvironments="public"
  	articleId="microsoft.machinelearning.portal.workspace-setup"
 />
-
 # Upgrade to Enterprise edition in the Azure portal
 
 In this article, you will learn how to upgrade to Enterprise edition in the Azure portal
-
 
 ## **Recommended Documents**
 
