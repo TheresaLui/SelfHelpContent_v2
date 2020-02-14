@@ -194,9 +194,9 @@
     {
       "id": "4f8c94bd-0ef0-52b2-1714-7dd131b166fd",
       "longDescription": null,
-      "shortDescription": "Questions on cost alerts e-mails not being delivered or action group tasks not being triggered",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected alerts, budget related errors or unclear forecasted cost",
+      "searchTags": "Cost Management;Forecast;Unexpected alerts",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
