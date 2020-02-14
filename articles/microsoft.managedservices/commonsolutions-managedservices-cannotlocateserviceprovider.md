@@ -22,23 +22,16 @@ Most users are able to locate service provider IDs using the steps below.
 
 ## **Recommended Steps**
 
-- **Can't find subscription or Tenant ID values?**
+### **Can't find subscription or Tenant ID values?**
 
-	- **Azure portal**
+- **Azure portal**
 Your tenant ID can be seen by hovering over your account name on the upper right-hand side of the Azure portal, or by selecting Switch directory. To select and copy your tenant ID, search for "Azure Active Directory" from within the portal, then select Properties and copy the value shown in the Directory ID field. To find the ID of a subscription in the customer tenant, search for "Subscriptions" and then select the appropriate subscription ID.
 
-  - **PowerShell**
-Log in first with Connect-AzAccount if you're not using Cloud Shell.
+- **PowerShell**
+Log in first with Connect-AzAccount if you're not using Cloud Shell : `Select-AzSubscription <subscriptionId>`
 
-	`Select-AzSubscription <subscriptionId>`
-
-  - **Azure CLI**
-Log in first with az login if you're not using Cloud Shell.
-
-	`az account set --subscription <subscriptionId/name>`
-    
-    `az account show`
-    
+- **Azure CLI**
+Log in first with az login if you're not using Cloud Shell: `az account set --subscription <subscriptionId/name>` `az account show`
     
 ## **Recommended Documents**
 
