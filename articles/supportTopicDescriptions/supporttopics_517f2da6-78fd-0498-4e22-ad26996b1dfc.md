@@ -258,9 +258,9 @@
     {
       "id": "69103c54-633a-058d-a66b-6ab02c9c806e",
       "longDescription": null,
-      "shortDescription": "Questions or need help with pricing for Reserved Instances",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or issues with billing or reservation discount for Windows and SQL",
+      "searchTags": "Reserved Instance;RI;Reservation;Reservation discount",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
