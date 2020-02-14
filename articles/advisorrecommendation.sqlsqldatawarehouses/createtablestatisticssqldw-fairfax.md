@@ -1,27 +1,29 @@
 <properties
-    pageTitle="Update statistics on table columns"
-    description="Update statistics on table columns"
+    pageTitle="Create statistics on table columns"
+    description="Create statistics on table columns"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="01dea77b-3ca4-4583-9b09-88f5a8fd5857_Public"
+    articleId="ef14bcc2-41a5-41f6-bca8-10764cfbdee0_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Update statistics on table columns
+# Create statistics on table columns
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
   "recommendationOfferingName": "SQL Data Warehouse",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "01dea77b-3ca4-4583-9b09-88f5a8fd5857",
+  "recommendationTypeId": "ef14bcc2-41a5-41f6-bca8-10764cfbdee0",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_CreateTableStatistics",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Sql/sqlDataWarehouses",
-  "recommendationFriendlyName": "UpdateTableStatisticsSqlDW",
+  "recommendationFriendlyName": "CreateTableStatisticsSqlDW",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -33,22 +35,18 @@
     },
     "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
-  "ingestionClientIdentities": [
-    "b580d7a3-ef03-4330-913e-85a879b27bff",
-    "d75d178b-baf7-43a2-8e98-49ba49ac7b2e"
-  ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
   "learnMoreLink": "https://aka.ms/learnmorestatistics",
-  "description": "Update statistics on table columns",
-  "longDescription": "We have detected that you do not have up-to-date table statistics which may be impacting query performance. The query optimizer uses up-to-date statistics to estimate the cardinality or number of rows in the query result which enables the query optimizer to create a high quality query plan.",
+  "description": "Create statistics on table columns",
+  "longDescription": "We have detected that you are missing table statistics which may be impacting query performance. The query optimizer uses statistics to estimate the cardinality or number of rows in the query result which enables the query optimizer to create a high quality query plan.",
   "potentialBenefits": "Increase query performance",
   "actions": [
     {
-      "actionId": "ead27582-9549-42f3-881d-c21c2d3b2a12",
-      "description": "Update table statistics",
+      "actionId": "469d0013-633e-4205-bc75-15c14ce40a9d",
+      "description": "Create table statistics",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/actionsupdatestatistics"
+      "documentLink": "https://aka.ms/actionscreatestatistics"
     },
     {
       "actionId": "4a3d2be3-bc2c-4b7c-a97f-2de8d4e4cfad",
@@ -64,7 +62,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "06687182-7041-4cb3-a13c-30c5b6754dcf",
+      "actionId": "16892249-c758-4ae3-8cba-fd5412fa1b7c",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
       "bladeName": "DataWarehouseBlade",
@@ -73,7 +71,7 @@
       }
     }
   },
-  "displayLabel": "Update table statistics",
+  "displayLabel": "Create table statistics",
   "additionalColumns": [
     {
       "name": "impactedTableCount",
