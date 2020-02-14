@@ -37,5 +37,3 @@ If you are enabled, you would have received an invitation via email. If you have
 ### How can I get access to the agentless dependency analysis feature?
 
 Please submit a request at https://aka.ms/appmapping.
-
-
