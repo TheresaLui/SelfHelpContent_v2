@@ -1,6 +1,6 @@
 <properties
     pageTitle="Classic IaaS Deprecation Information"
-    description="Your subscription contains classic IaaS resources that should be migrated to ARM."
+    description="Your subscription contains classic IaaS VM resources that should be migrated to ARM."
     infoBubbleText="Your subscription contains classic IaaS resources that should be migrated to ARM."
     service="microsoft.compute"
     resource="virtualmachines"
@@ -32,7 +32,7 @@ The following Azure services and functionality will **NOT** be impacted by this 
 
 ## **Recommended Steps**
  
-You should start planning the migration of your existing Classic IaaS VMs from ASM to ARM today. For more information please see our [classic IaaS VM deprecation](https://aka.ms/classic-vm-deprecation) documentation.
+You should start planning the migration of your existing Classic IaaS VMs from ASM to ARM today. For more information please see our [classic IaaS VM deprecation](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-plan) documentation.
 
 ## **Recommended Documents**
 
