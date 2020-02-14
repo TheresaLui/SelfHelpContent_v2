@@ -1,27 +1,29 @@
 <properties
-    pageTitle="Scale up or update resource class to reduce tempdb contention with SQL Data Warehouse"
-    description="Scale up or update resource class to reduce tempdb contention with SQL Data Warehouse"
+    pageTitle="Scale up to optimize cache utilization with SQL Data Warehouse"
+    description="Scale up to optimize cache utilization with SQL Data Warehouse"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="33e515fe-354c-4016-a0f7-c4d6585aea61_Public"
+    articleId="14b28bdb-b83d-4f55-a516-44d4152f1f2b_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Scale up or update resource class to reduce tempdb contention with SQL Data Warehouse
+# Scale up to optimize cache utilization with SQL Data Warehouse
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
   "recommendationOfferingName": "SQL Data Warehouse",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "33e515fe-354c-4016-a0f7-c4d6585aea61",
+  "recommendationTypeId": "14b28bdb-b83d-4f55-a516-44d4152f1f2b",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_IncreaseCacheCapacity",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Sql/sqlDataWarehouses",
-  "recommendationFriendlyName": "SqlDwReduceTempdbContention",
+  "recommendationFriendlyName": "SqlDwIncreaseCacheCapacity",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -33,20 +35,16 @@
     },
     "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
-  "ingestionClientIdentities": [
-    "b580d7a3-ef03-4330-913e-85a879b27bff",
-    "d75d178b-baf7-43a2-8e98-49ba49ac7b2e"
-  ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/learnmoretempdb",
-  "description": "Scale up or update resource class to reduce tempdb contention with SQL Data Warehouse",
-  "longDescription": "We have detected that you had high tempdb utilization which can impact the performance of your workload.",
+  "learnMoreLink": "https://aka.ms/learnmoreadaptivecache",
+  "description": "Scale up to optimize cache utilization with SQL Data Warehouse",
+  "longDescription": "We have detected that you had high cache used percentage with a low hit percentage. This indicates high cache eviction which can impact the performance of your workload.",
   "potentialBenefits": "Increase query performance",
   "actions": [
     {
-      "actionId": "31fe9531-8528-484f-8c54-76f68d7d7f9f",
-      "description": "Scale your data warehouse or increase resource classes for your workload",
+      "actionId": "23f523a2-3556-4a0d-9ffc-bdab83ec26f3",
+      "description": "Scale your data warehouse",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
       "bladeName": "ScaleDataWarehouseBlade",
@@ -57,7 +55,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "893107b9-b2c3-42b7-9ba2-b14ac02ff185",
+      "actionId": "cec5dc51-4d6d-4f63-bd4d-510970a7b702",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
       "bladeName": "DataWarehouseBlade",
@@ -66,8 +64,8 @@
       }
     }
   },
-  "displayLabel": "Reduce Tempdb Contention",
+  "displayLabel": "Increase Cache Capacity",
   "additionalColumns": [],
-  "tip": "You can improve your SQL Data Warehouse query performance by scaling up or updating your resource class to reduce tempdb contention."
+  "tip": "You can improve your SQL Data Warehouse query performance by scaling up to optimize cache utilization."
 }
 ---

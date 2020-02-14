@@ -1,27 +1,29 @@
 <properties
-    pageTitle="Update statistics on table columns"
-    description="Update statistics on table columns"
+    pageTitle="Remove data skew to increase query performance"
+    description="Remove data skew to increase query performance"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="01dea77b-3ca4-4583-9b09-88f5a8fd5857_Public"
+    articleId="9d7196d1-2d7c-4316-820f-7374a4ddf250_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 />
-# Update statistics on table columns
+# Remove data skew to increase query performance
 ---
 {
   "recommendationOfferingId": "36bdbad1-7a98-45b6-bba9-5de8c197f991",
   "recommendationOfferingName": "SQL Data Warehouse",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "01dea77b-3ca4-4583-9b09-88f5a8fd5857",
+  "recommendationTypeId": "9d7196d1-2d7c-4316-820f-7374a4ddf250",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_DataSkew",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Sql/sqlDataWarehouses",
-  "recommendationFriendlyName": "UpdateTableStatisticsSqlDW",
+  "recommendationFriendlyName": "DataSkewSqlDW",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -33,22 +35,18 @@
     },
     "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
-  "ingestionClientIdentities": [
-    "b580d7a3-ef03-4330-913e-85a879b27bff",
-    "d75d178b-baf7-43a2-8e98-49ba49ac7b2e"
-  ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://aka.ms/learnmorestatistics",
-  "description": "Update statistics on table columns",
-  "longDescription": "We have detected that you do not have up-to-date table statistics which may be impacting query performance. The query optimizer uses up-to-date statistics to estimate the cardinality or number of rows in the query result which enables the query optimizer to create a high quality query plan.",
+  "learnMoreLink": "https://aka.ms/learnmoredataskew",
+  "description": "Remove data skew to increase query performance",
+  "longDescription": "We have detected distribution data skew greater than 15%. This can cause costly performance bottlenecks.",
   "potentialBenefits": "Increase query performance",
   "actions": [
     {
-      "actionId": "ead27582-9549-42f3-881d-c21c2d3b2a12",
-      "description": "Update table statistics",
+      "actionId": "6b60034d-49e3-457b-891d-0967e1f5e2d7",
+      "description": "Redistribute your data and revisit your table distribution key selections",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/actionsupdatestatistics"
+      "documentLink": "https://aka.ms/actionsdataskew"
     },
     {
       "actionId": "4a3d2be3-bc2c-4b7c-a97f-2de8d4e4cfad",
@@ -64,7 +62,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "06687182-7041-4cb3-a13c-30c5b6754dcf",
+      "actionId": "2e9c45a5-3161-47b9-a0f8-13693b9b8a30",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
       "bladeName": "DataWarehouseBlade",
@@ -73,7 +71,7 @@
       }
     }
   },
-  "displayLabel": "Update table statistics",
+  "displayLabel": "Remove data skew",
   "additionalColumns": [
     {
       "name": "impactedTableCount",
@@ -82,3 +80,4 @@
   ]
 }
 ---
+
