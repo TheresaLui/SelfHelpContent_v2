@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Service Unhealthy Spark Update"
-    description="Service Unhealthy Spark Update"
+    pageTitle="Service Unhealthy Spark Update 2.7"
+    description="Service Unhealthy Spark Update 2.7"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="v-miegge"
