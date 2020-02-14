@@ -18,7 +18,7 @@
 
 # Other issues
 
-"Most users are able to resolve any other issues with Lighthouse using the documentation below"
+Most users are able to resolve any other issues with Lighthouse using the documentation below.
 
 ## **Recommended Documents**
 - [Azure Lighthouse documentation](https://docs.microsoft.com/azure/lighthouse/)

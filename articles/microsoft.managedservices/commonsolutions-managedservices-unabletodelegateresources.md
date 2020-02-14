@@ -18,7 +18,7 @@
 
 # Unable to delegate resources
 
-"Most users are able to delegate resources using the steps below"
+Most users are able to delegate resources using the steps below.
 
 ## **Recommended Steps**
 - **Can't delegate resources to a service provider?**

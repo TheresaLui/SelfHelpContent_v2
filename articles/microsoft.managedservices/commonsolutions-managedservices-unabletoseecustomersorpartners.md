@@ -18,7 +18,7 @@
 
 # Unable to see customers or partners
 
-"Most users are able to view customers or partners with Lighthouse using the steps below"
+Most users are able to view customers or partners with Lighthouse using the steps below.
 
 ## **Recommended Steps**
 

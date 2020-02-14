@@ -18,7 +18,7 @@
 
 # General Guidance or Advisory
 
-"Most users are able to resolve their issues by following the below general guidance & advisory"
+Most users are able to resolve their issues by following the below general guidance & advisory.
 
 
 ## **Recommended Documents**

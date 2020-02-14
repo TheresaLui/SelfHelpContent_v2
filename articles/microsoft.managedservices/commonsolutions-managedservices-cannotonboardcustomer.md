@@ -18,7 +18,7 @@
 
 # Cannot onboard customer
 
-"Most users are able to resolve their customer onboarding to Lighthouse issue using the steps below"
+Most users are able to resolve their customer onboarding to Lighthouse issue using the steps below.
 
 ## **Recommended Steps**
 
