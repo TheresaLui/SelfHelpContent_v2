@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="Create and manage Azure Machine Learning workspaces in the Azure portal"
     description="Create and manage Azure Machine Learning workspaces in the Azure portal"
     service="microsoft.machinelearning"
