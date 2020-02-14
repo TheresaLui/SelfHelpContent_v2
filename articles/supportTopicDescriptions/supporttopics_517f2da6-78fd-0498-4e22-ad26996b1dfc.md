@@ -266,9 +266,9 @@
     {
       "id": "6bb902c6-b903-0b03-f17f-37ca5ce605c2",
       "longDescription": null,
-      "shortDescription": "Issues setting up cost alerts or encountering system errors",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected data, other than costs, displayed in ACM or PBI",
+      "searchTags": "Cost Management;Unexpected data",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
