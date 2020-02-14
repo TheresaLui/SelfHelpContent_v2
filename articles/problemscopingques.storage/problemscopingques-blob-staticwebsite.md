@@ -17,9 +17,13 @@
 	"resourceRequired": true,
 	"title": "Static Website Issues",
 	"fileAttachmentHint": "",
+	 "diagnosticCard": {
+        "title": " Static Website Troubleshooter",
+        "description": "Help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a case.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure you provided the correct issue time and ServerRequestId."
+    },
 	"formElements": [{
 			"id": "common_issues",
-			"visibility": "null",
 			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "Select the problem type",
@@ -30,7 +34,7 @@
 				},
 				{
 					"value": "AzureAD_Support",
-					"text": "Does Static Website support Azure AD authenticatio?"
+					"text": "Does Static Website support Azure AD authentication?"
 				},
 				{
 					"value": "CustomDomain_Support",
@@ -57,7 +61,8 @@
 					"text": "I have some other issue"
 				}
 			],
-			"required": true
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal,ASC"
 		},
 		{
 			"id": "error_code_dropdown",
@@ -99,7 +104,8 @@
 					"text": "Other Error"
 				}
 			],
-			"required": true
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal,ASC"
 		},
 		{
 			"id": "other_error_code",
@@ -108,7 +114,8 @@
 			"controlType": "textbox",
 			"displayLabel": "Error code or message",
 			"watermarkText": "Provide the error code you received.",
-			"required": true
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal,ASC"
 		},
 		{
 			"id": "request_id",
@@ -118,14 +125,17 @@
 			"displayLabel": "Storage server Request ID",
 			"watermarkText": "Request ID of failed operation ending with 000000",
 			"textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-			"required": false
+			"required": false,
+			"diagnosticInputRequiredClients": "Portal,ASC"
 		},
 		{
 			"id": "problem_start_time",
 			"order": 100,
+			"visibility": "common_issues == Troubleshoot_Error",
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
-			"required": true
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal,ASC"
 		},
 		{
 			"id": "problem_description",

@@ -38,6 +38,7 @@ This article will help with assessing available updates and installing updates u
 ### **Machine shows as "not assessed"**
 
 * Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 
 
 ### **Update run returns status "Failed"**

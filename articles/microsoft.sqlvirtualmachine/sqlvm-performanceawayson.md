@@ -24,8 +24,8 @@ While running SQL Server in Azure Virtual Machines, we recommend that you contin
 
 ## **Recommended Documents**
 
-* [Performance best practices for SQL VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance/)<br>
-* [Storage configuration guidelines for SQL VM](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2018/09/25/storage-configuration-guidelines-for-sql-server-on-azure-vm/)
 * [Monitor performance for AlwaysOn availability groups](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/monitor-performance-for-always-on-availability-groups)
 * [Troubleshooting availability group performance](https://blogs.msdn.microsoft.com/psssql/2018/04/05/lesson-learned-from-an-availability-group-performance-case/)
+* [Performance best practices for SQL VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance/)<br>
+* [Storage configuration guidelines for SQL VM](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2018/09/25/storage-configuration-guidelines-for-sql-server-on-azure-vm/)
 * [OS best practice configurations for SQL Server](https://blogs.msdn.microsoft.com/docast/2018/02/01/operating-system-best-practice-configurations-for-sql-server/)
