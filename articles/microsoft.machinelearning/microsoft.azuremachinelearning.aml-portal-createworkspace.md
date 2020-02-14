@@ -10,7 +10,7 @@
     resourceTags=""
     productPesIds="15570"
     cloudEnvironments="public"
- 	articleId="microsoft.machinelearning.portal.workspace-setup"
+ 	articleId="microsoft.machinelearning.portal.workspacesetup"
 />
 
 # Create and manage Azure Machine Learning workspaces in the Azure portal
