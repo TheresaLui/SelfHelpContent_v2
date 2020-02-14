@@ -19,7 +19,18 @@
 
 Here is a list of resources which may be helpful:
 
-* [Azure machine learning documentation](https://docs.microsoft.com/azure/machine-learning/)
+**Security and Monitoring**
+* [Enterprise security for Azure MAchine Learning](https://docs.microsoft.com/azure/machine-learning/concept-enterprise-security)
+* [Manage users and roles](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
+* [Use virtual networks](https://docs.microsoft.com/azure/machine-learning/how-to-enable-virtual-network)
+* [Secure web services with SSL](https://docs.microsoft.com/azure/machine-learning/how-to-secure-web-service)
+* [Use AAD identity in AKS deployments](https://docs.microsoft.com/azure/machine-learning/how-to-use-azure-ad-identity)
+* [Regenerate storage access keys](https://docs.microsoft.com/azure/machine-learning/how-to-change-storage-access-key)
+* [Set up athentication](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
+* [Monitor Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/monitor-azure-machine-learning)
+
+**General Azure Machine Learning**
+* [Azure Machine Learning documentation](https://docs.microsoft.com/azure/machine-learning/)
 * [Python SDK reference](https://docs.microsoft.com/python/api/overview/azureml-sdk/?view=azure-ml-py)
 * [CLI reference](https://docs.microsoft.com/azure/machine-learning/reference-azure-machine-learning-cli)
 * [REST API reference](https://docs.microsoft.com/rest/api/azureml/)

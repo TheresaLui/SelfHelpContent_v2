@@ -23,6 +23,8 @@ An Azure Machine Learning workspace is an Azure resource. Like other Azure resou
 | **Contributor** | View, create, edit, or delete (where applicable) assets in a workspace. For example, contributors can create an experiment, create or attach a compute cluster, submit a run, and deploy a web service. |
 | **Owner** | Full access to the workspace, including the ability to view, create, edit, or delete (where applicable) assets in a workspace. Additionally, you can change role assignments. |
 
+If the built-in roles are insufficient, you can create custom roles. See the [following article](https://docs.microsoft.com/azure/role-based-access-control/custom-roles) to learn more.
+
 ## **Recommended Steps**
 
 If you're an owner of a workspace, you can add and remove roles for the workspace. You can also assign roles to users. Use the following links to discover how to manage access:
@@ -32,9 +34,6 @@ If you're an owner of a workspace, you can add and remove roles for the workspac
 - [Azure CLI](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-cli)
 - [REST API](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-rest)
 - [Azure Resource Manager templates](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-template)
-
-
-If the built-in roles are insufficient, you can create custom roles. See the [following article](https://docs.microsoft.com/azure/role-based-access-control/custom-roles) to learn more.
 
 ## Additional Resources
 
