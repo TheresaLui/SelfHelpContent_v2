@@ -4,10 +4,11 @@
     service="microsoft.machinelearning"
     resource="ws20"
     authors="lanta"
+    ms.author="lanta"
     selfHelpType="generic"
-    supportTopicIds="32690831"
+    supportTopicIds="32321879"
     resourceTags=""
-    productPesIds="16644"
+    productPesIds="15570"
     cloudEnvironments="public"
  	articleId="microsoft.machinelearning.portal.workspace-setup"
 />
@@ -19,13 +20,13 @@ In this article, you will learn how to create and manage Azure Machine Learning 
 
 ## **Recommended Steps**
 
-* [Create a workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace#create-a-workspace)
-* [Download a configuration file to be used in your notebook](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace#download-a-configuration-file)
-* [Find a workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace#view)
-* [Delete a worksapce](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace#delete-a-workspace)
-* [Clean up resources](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace#clean-up-resources)
-* [Troubleshooting] (https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace#troubleshooting)
+* [Create a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace#create-a-workspace)
+* [Download a configuration file to be used in your notebook](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace#download-a-configuration-file)
+* [Find a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace#view)
+* [Delete a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace#delete-a-workspace)
+* [Clean up resources](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace#clean-up-resources)
+* [Troubleshooting](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace#troubleshooting)
 
 ## **Recommended Documents**
 
-* [What is an Azure Machine Learning workspace] (https://docs.microsoft.com/en-us/azure/machine-learning/concept-workspace)
+* [What is an Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
