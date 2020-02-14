@@ -17,7 +17,7 @@
 	cloudEnvironments="public"
 />
 
-# Parnter Center Incentives: Enrollment, eligibility, earnings, claims, payments, plans, and policy
+# Partner Center Incentives: Enrollment, eligibility, earnings, claims, payments, plans, and policy
 
 ## **Recommended Documents**
 These resources explain enrollment, eligibility, earnings, claims, payments, plans, and policy for incentives programs in Partner Center.
@@ -30,10 +30,10 @@ These resources explain enrollment, eligibility, earnings, claims, payments, pla
 
 
 ### **Enrollment**
-* [How to Enroll in Incentives programs in Partner Center](https://support.microsoft.com/help/4490451/)
+* [How to enroll in Incentives programs in Partner Center](https://support.microsoft.com/help/4490451/)
 * [I'm unable to find the Incentives program in Partner Center](https://support.microsoft.com/help/4526987)
-* [Managing Bank and Tax profiles in Partner Center](https://support.microsoft.com/help/4524534)
-* [Partner Eligibility Requirements in Cloud Solutions Provider (CSP) Program](https://support.microsoft.com/help/3192802/incentive-eligibility-requirements-in-csp-program)
+* [Managing bank and tax profiles in Partner Center](https://support.microsoft.com/help/4524534)
+* [Partner eligibility requirements in Cloud Solutions Provider (CSP) Program](https://support.microsoft.com/help/3192802/incentive-eligibility-requirements-in-csp-program)
 * [How to become eligible for Microsoft Azure Incentives Program](https://support.microsoft.com/help/3073460/can-i-join-the-microsoft-azure-incentives-program)
 
 
@@ -42,15 +42,15 @@ These resources explain enrollment, eligibility, earnings, claims, payments, pla
 
 
 ### **Earnings**
-* [Incorrect or Missing Earnings](https://support.microsoft.com/help/4534675)
+* [Incorrect or missing earnings](https://support.microsoft.com/help/4534675)
 * [Understanding transaction and payment status'](https://support.microsoft.com/help/4534675)
 * [Opening CSV transaction files in in Excel internationally](https://support.office.com/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba)
 * [Modifying regional settings to improve CSV delimiting accuracy in Excel](https://support.office.com/article/Change-the-Windows-regional-settings-to-modify-the-appearance-of-some-data-types-EDF41006-F6E2-4360-BC1B-30E9E8A54989)
 
 
 ### **Claims & Plans**
-* [How to submit a co-op claims](https://support.microsoft.com/help/4024368/)
-* [Understanding Earnings/Payments discrepencies][https://support.microsoft.com/help/4534675)
+* [How to submit co-op claims](https://support.microsoft.com/help/4024368/)
+* [Understanding earnings/payments discrepancies][https://support.microsoft.com/help/4534675)
 * [Checking the status of a claim](https://support.microsoft.com/help/4524526)
 * [Understanding Claim submission deadlines](https://support.microsoft.com/help/2969974/)
 * [OSA Claims FAQ](https://support.microsoft.com/help/4491739/frequently-asked-question-on-osa-claim)
