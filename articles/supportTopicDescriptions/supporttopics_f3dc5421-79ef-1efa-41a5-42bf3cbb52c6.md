@@ -58,9 +58,9 @@
     {
       "id": "54c53f6c-69cd-1c4b-9356-4655b3ba29a3",
       "longDescription": "",
-      "shortDescription": "Question or request to change the ownership of an existing Reserved Instance ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Need assistance with managing access for Reservations",
+      "searchTags": "Reservation;Reserved Instance;RI",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -256,14 +256,6 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "dd2cac6b-d99a-aa60-c36e-aff6a772a433",
-      "longDescription": "",
-      "shortDescription": "Questions or need assistance with applying new reservations to an existing resource",
-      "searchTags": "RI;Reserved Instance;Reservation",
-      "category": "Reserved Instance",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
       "id": "dd84a6a1-88e5-c59f-4683-fd728d17f267",
       "longDescription": "",
       "shortDescription": "Questions or need assistance with purchasing a subscription or signup or upgrade related issues",
@@ -314,11 +306,10 @@
     {
       "id": "ffb0cf6f-406c-a1d5-5e08-15c027d764bc",
       "longDescription": "",
-      "shortDescription": "Questions or issues with purchasing or managing a Reservation (RI)",
-      "searchTags": "Reservation;Reserved Instance;RI",
-      "category": "Reservation Management",
+      "shortDescription": "Need assistance with an error in the portal when trying to manage Reserved Instance",
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "true"
     }
   ]
-}
 ---
