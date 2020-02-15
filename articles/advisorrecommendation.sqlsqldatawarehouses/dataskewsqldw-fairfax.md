@@ -18,7 +18,7 @@
     "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').dw_advisor_DataSkew",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
-    "refreshInterval": "00:10:00"
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
