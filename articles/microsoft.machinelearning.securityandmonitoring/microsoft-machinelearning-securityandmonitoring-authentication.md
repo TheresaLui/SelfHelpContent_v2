@@ -70,7 +70,9 @@ To regenerate a key, use the `regen_key()` function and pass either **Primary** 
 
 ```
 aci_service.regen_key('Primary')
-## or
+```
+or
+```
 aci_service.regen_key('Secondary')
 ```
 
