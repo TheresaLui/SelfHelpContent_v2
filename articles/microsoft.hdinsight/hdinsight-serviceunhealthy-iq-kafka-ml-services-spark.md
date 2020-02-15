@@ -7,7 +7,7 @@
     ms.author="deeptivu"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636466,32636472,32636480,32636497"
+    supportTopicIds="32636466,32636472,32636480"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"

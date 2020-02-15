@@ -87,11 +87,11 @@
                     "text": "Virtual machine offer"
                 },
                 {
-                    "value": "Not sure",
-                    "text": "dont_know_answer"
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
                 }
                 ],
-            "required": false
+            "required": true
         },
 
         {
