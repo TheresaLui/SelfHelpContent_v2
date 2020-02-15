@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="Authentication Issues With Scoring Endpoint"
 	description="Authentication Issues With Scoring Endpoint"
