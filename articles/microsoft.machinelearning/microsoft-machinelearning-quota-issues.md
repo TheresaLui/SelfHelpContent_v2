@@ -27,4 +27,3 @@ This helps users to understand quota, view usage and increase the quota for vari
 * [Learn how to view your all-up subscription quota](https://docs.microsoft.com/azure/virtual-machines/windows/quotas)
 * [Learn how to view your Azure Machine Learning quota](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#view-your-usage-and-quotas)
 * [Understand how workspace level quotas work](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#workspace-level-quota)
-* [Learn more about setting up your VNet for managed compute](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network#compute)
