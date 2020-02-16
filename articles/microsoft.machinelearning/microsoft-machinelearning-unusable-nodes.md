@@ -14,7 +14,7 @@
 
 # When clusters or instances have unusable nodes
 
-This helps users diagnose unusable nodes in a training cluster or when the compute instance goes into an unusable state at the time of creation. This article does not help if your compute instance goes into unusalbe state after stopping and starting the instance again. Please create a technical support ticket in that case.
+This helps users diagnose unusable nodes in a training cluster or when the compute instance goes into an unusable state at the time of creation. This article does not help if your compute instance goes into unusable state after stopping and starting the instance again. Please create a technical support ticket in that case.
 
 ## **Recommended Steps**
 
