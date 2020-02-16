@@ -7,11 +7,11 @@
 	ms.author="orbarak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32584330"
+	supportTopicIds="32727936"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
-	articleId="e814fd5d-9e33-43dc-871b-7cb3c3c952a8"
+	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	articleId="configpolicy_automatic"
 />
 
 # Azure Information Protection client - Creating and configuring Labels and Policies - Automatic classification not behaving as expected"
