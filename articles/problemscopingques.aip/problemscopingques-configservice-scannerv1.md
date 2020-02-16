@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Information Client - Scanner Installation"
-	description="Azure Information Client - Scanner Installation"
+	pageTitle="Azure Information Client - Configuring the Service - AIP Scanner Classic"
+	description="Azure Information Client - Configuring the Service - AIP Scanner Classic"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
@@ -15,7 +15,7 @@
 {
 				"$schema": "SelfHelpContent",
                 "resourceRequired": false,
-                "title": "Installation",
+                "title": "Configuring the Service - AIP Scanner Classic",
 				"subscriptionRequired": false,
                 "fileAttachmentHint": "Export AIP logs Using Protect/Sensitivity button - Help and Feedback - Export Logs",
                 "formElements": [
