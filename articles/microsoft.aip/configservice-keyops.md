@@ -1,28 +1,26 @@
 <properties
-	pageTitle="Azure Information Service - Key Management Education"
-	description="Azure Information Service - Key Management Education"
+	pageTitle="Azure Information Service - Configuring the Service - Key Operations"
+	description="Azure Information Service - Configuring the Service - Key Operations"
 	service="microsoft.aip"
 	resource="aip"
 	authors="orbarak-ms"
 	ms.author="orbarak"
-	articleId="Key_MGMT_Education"
+	articleId="ConfigService_KeyOps"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32584340"
+	supportTopicIds="32727948"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, mooncake, fairfax"
 />
 
-# Azure Information Protection service - Key Management Education
+# Azure Information Service - Configuring the Service - Key Operations
 
 ## **Recommended Documents**
 
 * [Planning and implementing your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key)<br>
+* [Microsoft-managed: Tenant key life cycle operations](https://docs.microsoft.com/azure/information-protection/operations-microsoft-managed-tenant-key)<br>
+* [How to prepare an Azure Information Protection “Cloud Exit” plan](https://techcommunity.microsoft.com/t5/azure-information-protection/how-to-prepare-an-azure-information-protection-cloud-exit-plan/ba-p/382631)<br>
 * [Operations for your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/operations-tenant-key)<br>
 * [How does Azure RMS work? Under the hood](https://docs.microsoft.com/azure/information-protection/how-does-it-work)<br>
-* [Microsoft-managed: Tenant key life cycle operations](https://docs.microsoft.com/azure/information-protection/operations-microsoft-managed-tenant-key)<br>
-* [How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
-* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
-* [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
+
