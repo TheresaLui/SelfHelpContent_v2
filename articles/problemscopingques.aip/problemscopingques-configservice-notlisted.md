@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Information Service - Education"
-	description="Azure Information Service - Education"
+	pageTitle="Azure Information Service - Configuring the Service - My configuration scenario is not listed"
+	description="Azure Information Service - Configuring the Service - My configuration scenario is not listed"
 	authors="orbarak-ms"
 	ms.author="orbarak"
     selfHelpType="problemScopingQuestions"
