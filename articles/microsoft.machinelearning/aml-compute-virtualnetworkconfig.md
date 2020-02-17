@@ -3,15 +3,15 @@
 	description="Azure machine learning compute clusters and compute instances virtual network configuration"
 	infoBubbleText="Azure machine learning compute clusters and compute instances virtual network configuration"
 	service="microsoft.machinelearning"
-	resource="compute"
+	resource="Microsoft.MachineLearningServices/workspaces/computes"
 	authors="vijetajo"
 	ms.author="vijetaj"
 	displayOrder="1"
-	articleId="machinelearning-aml-compute-virtualnetworkconfig"
+	articleId="microsoft-machinelearning-aml-compute-virtualnetworkconfig.md"
 	selfHelpType="generic"
 	supportTopicIds="32690864"
 	productPesIds="16644"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, mooncake"
 />
 
 # Azure machine learning compute clusters and compute instance virtual network configuration
