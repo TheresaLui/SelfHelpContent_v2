@@ -49,7 +49,7 @@ az extension add -n azure-cli-ml
 
 As an alternative to installing the SDK or CLI locally, an Azure Machine Learning compute instance can be used instead. Compute instances are fully-managed cloud-based workstations designed for data scientists and comes with both the Python SDK and CLI pre-installed. Additionally, these instances also come pre-installed with common machine learning libraries such as PyTorch and Tensorflow. 
 
-For more infomation, see the following [document](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance).
+For more information, see the following [document](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance).
 
 ## Additional Resources
 
