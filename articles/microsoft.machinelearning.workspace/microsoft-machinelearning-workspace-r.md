@@ -15,6 +15,8 @@
 
 # R SDK issues
 
+## **Recommended Steps**
+
 If you are experiencing issues with the Azure Machine Learning R SDK, here is a list of additional resources which may be helpful:
 
 * [Create first experiment using Azure Machine Learning R SDK](https://docs.microsoft.com/azure/machine-learning/tutorial-1st-r-experiment)
