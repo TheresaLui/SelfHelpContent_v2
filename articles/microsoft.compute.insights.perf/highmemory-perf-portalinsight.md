@@ -21,7 +21,7 @@
 ## **Do you know there were several High Memory Pressure instances on this <!--$vmname-->[vmname]<!--/$vmname--> in last 24 hrs?**
 
 <!--issueDescription-->
-Our diagnostics show there were several instances where Average Memory Pressure on this VM was above 100%.
+Our diagnostics show there were several instances where Average Memory Pressure on this VM was above 100% over the last 24 hours.
 <!--/issueDescription-->
 
 **What can cause Memory Pressure on a VM?**
