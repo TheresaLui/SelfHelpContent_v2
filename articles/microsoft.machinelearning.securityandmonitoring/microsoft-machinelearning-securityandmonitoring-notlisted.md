@@ -15,7 +15,7 @@
 
 # My issue is not listed here
 
-## **Recommended Steps**
+## **Recommended Documents**
 
 Here is a list of resources which may be helpful:
 
