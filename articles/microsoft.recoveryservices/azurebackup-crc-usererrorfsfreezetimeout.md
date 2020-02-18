@@ -22,6 +22,6 @@
 We have identified that your backup operation failed because the VM failed to freeze one or more mount-points of the VM to take a file-system consistent snapshot. 
 <!--/issueDescription-->
 
-## **Recommended Documents**
+## **Recommended Steps**
 
-- To resolve the UserErrorFsFreezeFailed issue, please refer to the [documentation](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#usererrorfsfreezefailed---failed-to-freeze-one-or-more-mount-points-of-the-vm-to-take-a-file-system-consistent-snapshot) and retry your operation.
+- To resolve the UserErrorFsFreezeFailed issue, please refer to the [documentation](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#usererrorfsfreezefailed---failed-to-freeze-one-or-more-mount-points-of-the-vm-to-take-a-file-system-consistent-snapshot) and retry your operation
