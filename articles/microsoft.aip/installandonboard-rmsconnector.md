@@ -24,7 +24,7 @@
 	* [Exchange 2013 and 2016](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#exchange-2016-or-exchange-2013-registry-settings)
 	* [Exchange 2010](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#exchange-2010-registry-settings)
 
-	3. Review the steps to [configure a SharePoint server to use the connector](https://docs.microsoft.com/azure/information-protection/configure-servers-rms-connector#configuring-a-sharepoint-server-to-use-the-connector)<br>
+3. Review the steps to [configure a SharePoint server to use the connector](https://docs.microsoft.com/azure/information-protection/configure-servers-rms-connector#configuring-a-sharepoint-server-to-use-the-connector)<br>
 4. Review and update (if necessary) your [SharePoint 2016 or SharePoint 2013 registry settings](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#sharepoint-2016-or-sharepoint-2013-registry-settings)<br>
 
 ### Potential Issues
