@@ -10,7 +10,7 @@
 	articleId="mcas-mdatp-data"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32574669,32574671"
+	supportTopicIds="32728990"
 	resourceTags=""
 	productPesIds="16031"
 	cloudEnvironments="public"
