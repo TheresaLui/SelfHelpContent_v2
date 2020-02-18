@@ -31,7 +31,7 @@
 
 ### Admin cannot enable IRM in SharePoint
 
-1. Check the SharePoint Admin UI to ensure the server is configured with the “Use this RMS server” and it is pointed manually to the Connector URL (not to the Microsoft RMS URL)
+1. Check the SharePoint Admin UI to ensure the server is configured with the "Use this RMS server" and it is pointed manually to the Connector URL (not to the Microsoft RMS URL)
 2. If using SharePoint 2013, check the MSIPC version in the SharePoint server - it must be 2.1 or later
 3. Check event logs in each connector server. If there are no 1002 events it may indicate a problem with the DNS pointer or with load balancing. Try to access the RMS URLs from a web browser in an Exchange server as specified in the registry entries as above - https://connectorURL/_wmcs/licensing. If you see an IIS error, it is OK. If you don’t get a response, most likely a DNS, IP, or load balancing error is occurring. Also check if SSL is correctly specified in the registry and if it is being used if it is working.
 4. **Event 2001** indicates that the server is not authorized to use the connector. The identity utilized by SharePoint to utilize the connector is not listed in the Connector Authorizations list. Open the Connector administration tool and check if the service account utilized by the SharePoint Global Administration service is explicitly authorized or if one, and only one, group containing this account is authorized. If SharePoint is NOT configured to use a service account (which is the best practice) then the computer account (SERVERNAME$) or a group containing it needs to be authorized.<br>
