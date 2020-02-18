@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="0c555506-0009-4f81-b38f-7f6abc8b1026"
 />
 
 # Publishing a Web App to an ASE

@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"
+	articleId="bcafe3cc-2e04-4fc5-a352-e62dd714a044"
 />
 
 # Cluster Creation Fails With InvalidNetworkSecurityGroupSecurityRules or InvalidNetworkConfigurationErrorCode

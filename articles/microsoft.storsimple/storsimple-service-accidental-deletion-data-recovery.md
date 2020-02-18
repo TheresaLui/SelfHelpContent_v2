@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15438"
 	cloudEnvironments="public"
+	articleId="de6ea199-2c4d-43d0-97b8-7874282b981f"
 />
 
 # Accidental deletion and data recovery

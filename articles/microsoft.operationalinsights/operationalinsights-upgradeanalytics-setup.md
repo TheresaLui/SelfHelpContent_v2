@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="f882a798-043e-4520-8b27-1ac52794ecc1"
 />
 
 # upgradeanalytics-setup

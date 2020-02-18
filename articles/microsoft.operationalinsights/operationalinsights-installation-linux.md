@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="cd068d68-dd4f-45ba-b28e-70afff7ac51c"
 />
 
 # installation-linux

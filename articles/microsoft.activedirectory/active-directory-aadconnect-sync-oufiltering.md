@@ -10,6 +10,7 @@
     resourceTags="userandgroups_overview, userandgroups_user, userandgroups_group"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="f6ba0966-136a-42e7-a17e-7f49f69bf886"
 />
 
 # Synchronization issue with OU-based (Organizational Unit) filtering

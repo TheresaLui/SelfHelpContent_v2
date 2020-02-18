@@ -10,6 +10,7 @@
 	resourceTags="device_enrollment_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="fd0ee168-b96a-493f-8a41-098cd5b87315"
 />
 
 # What does "device cap reached" mean?

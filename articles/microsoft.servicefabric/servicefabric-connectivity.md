@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="c698e9bf-96fc-4ac3-91a0-36d5d44b51ca"
 />
 
 # application/connectivity

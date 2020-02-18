@@ -8,8 +8,9 @@
     selfHelpType="generic"
     supportTopicIds="32596850"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="14785,16578"
     cloudEnvironments="public"
+	articleId="ca67522e-d5a6-4e4b-af04-c9e7d417e1a9"
 />
 
 # Problems with on-premises AD device registrations to Azure AD (Hybrid Azure AD join)

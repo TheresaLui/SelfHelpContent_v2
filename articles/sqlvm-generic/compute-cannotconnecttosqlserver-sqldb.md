@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="a81c7356-f780-4844-aa3f-86bed0a8d823"
 />
 
 # connectivity/cannot connect to a SQL Server

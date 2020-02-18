@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="a16a2e51-4cf3-4e25-a999-c298d20dcb00"
 />
 
 # I need help with moving data in and out of my Data Lake Store

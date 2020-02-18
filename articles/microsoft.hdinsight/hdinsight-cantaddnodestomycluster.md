@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
+	articleId="4d6df0bf-6790-4a29-b4b9-9ffa817ec197"
 />
 
 # I can't add nodes to my cluster

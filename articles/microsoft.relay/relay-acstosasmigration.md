@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16123"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="3c4941d8-3312-419e-8e30-fa62367779fa"
 />
 
 # ACS to SAS migration

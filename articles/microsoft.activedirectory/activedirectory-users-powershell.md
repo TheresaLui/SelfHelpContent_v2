@@ -8,7 +8,8 @@
     supportTopicIds="32586798"
     productPesIds="14785"
     cloudEnvironments="public"
-    />
+    	articleId="e1a07487-c87f-4fa3-ac08-a5531fab9cdf"
+/>
 
 
 # Problem using PowerShell to manage users in Azure AD

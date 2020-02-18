@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="5e64da70-bf20-498d-9c1c-07ad635d266c"
 />
 
 # configuration and setup/import/export service: technical issues

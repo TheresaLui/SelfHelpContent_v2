@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="3562324a-9840-467d-a2f4-f931cd3eaf0e"
 />
 
 # activating rights management for office 365

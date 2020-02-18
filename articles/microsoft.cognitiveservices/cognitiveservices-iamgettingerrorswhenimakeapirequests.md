@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="6440fc53-0700-4dfe-ad10-f5879462c30e"
 />
 
 # I am getting 403/429 errors when I make API requests

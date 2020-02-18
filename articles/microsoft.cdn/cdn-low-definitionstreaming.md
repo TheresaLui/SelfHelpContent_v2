@@ -3,17 +3,19 @@
 	description="availability and performance/low-definition streaming"
 	service="microsoft.cdn"
 	resource="profiles"
-	authors="aashu"
+	authors="mdgattuso"
+	ms.author="magattus"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32302792"
 	resourceTags=""
-	productPesIds="15528"
+	productPesIds="16975"
 	cloudEnvironments="public"
+	articleId="c8f953a7-66b6-4c69-8a4d-eb580fb22890"
 />
 
 # availability and performance/low-definition streaming
+Most users are able to resolve their issue using the following documents:
 
-
-## **Recommended documents**
-[CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)
+## **Recommended Documents**
+* [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)

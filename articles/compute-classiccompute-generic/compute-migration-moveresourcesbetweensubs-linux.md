@@ -4,17 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570117"
-	resourceTags="linux"
-	productPesIds="15571,15797"
+	resourceTags=""
+	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
+	articleId="d36ee8e9-abf1-454e-9115-b0413eea5195"
 />
 
 # Migration and Move/Move resources between subscriptions
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Services that **can be moved** between subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources?#services-that-can-be-moved)<br>
 * [Services that **cannot be moved** between subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources?#services-that-cannot-be-moved)<br>

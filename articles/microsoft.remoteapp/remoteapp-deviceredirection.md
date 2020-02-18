@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="6b833690-6ce7-41cf-8d44-624e4c36bd60"
 />
 
 # user experience/device redirection

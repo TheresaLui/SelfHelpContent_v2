@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16478"
 	cloudEnvironments="public"
+	articleId="ffec6649-fad3-40bc-b233-444daa633943"
 />
 
 # Azure CycleCloud

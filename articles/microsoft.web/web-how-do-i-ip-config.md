@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="c4c47148-71e9-4882-8eed-a6c522f7b4a4"
 />
 # Questions on IP Configuration
 ## **Recommended documents** 

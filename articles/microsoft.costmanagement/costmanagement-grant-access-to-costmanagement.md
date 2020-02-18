@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="b1d5b92d-4144-4fb4-a6b8-487fa4ac927d"
 />
 
 # How can I grant access to Cost Management?

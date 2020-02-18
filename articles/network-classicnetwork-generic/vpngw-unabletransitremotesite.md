@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16094"
 	cloudEnvironments="public"
+	articleId="66bf3f32-4f47-43fa-94ff-101ed9f02f86"
 />
 
 # Unable to transit to remote site

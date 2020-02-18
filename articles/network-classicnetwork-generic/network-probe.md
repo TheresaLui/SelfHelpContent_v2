@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="f29a7f33-d37e-4084-9538-e747ee6183d6"
 />
 
 # probe

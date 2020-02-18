@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785"
     cloudEnvironments="public"
- />
+ 	articleId="0270f149-9996-41d5-88fe-2ef918d176e8"
+/>
 
 # Issues managing licenses using PowerShell
 

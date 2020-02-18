@@ -8,7 +8,8 @@
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="public"
- />
+ 	articleId="d76aa3c6-0e07-4cbe-b420-7007cd993250"
+/>
 # I can’t create a new user in my Azure AD
 
 ## **Recommended steps**

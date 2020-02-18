@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="468dc227-750a-4d4e-838f-12ea4bb0beb5"
 />
 
 # I have configured federation with Azure AD using AD FS but sign-in is failing

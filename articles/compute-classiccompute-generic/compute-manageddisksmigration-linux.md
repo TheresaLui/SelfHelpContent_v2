@@ -4,16 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565835"
-	resourceTags="linux, redhat"
-	productPesIds="15571"
+	resourceTags=""
+	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
+	articleId="b6280349-a73f-4f10-b78e-aaa228a629f9"
 />
+
 # Management/Managed disks migration
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Frequently Asked Questions managed disks](https://docs.microsoft.com/azure/storage/storage-faq-for-disks?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>
 * [Review the Azure Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>

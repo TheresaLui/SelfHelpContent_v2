@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="0d53d3aa-c3d1-48df-b4c2-5dae1b8b4701"
 />
 
 # Problems with ASE/ASE is unavailable or unhealthy

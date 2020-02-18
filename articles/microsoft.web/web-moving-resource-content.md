@@ -9,6 +9,7 @@
 	supportTopicIds="32581619"
 	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
+	articleId="4f1406d4-1767-4650-8ff5-2a61d013989b"
 />
 
 # Moving resources

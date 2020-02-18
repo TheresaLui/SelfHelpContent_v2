@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="c3206276-847f-493c-a54e-629cbc1b583c"
 />
 
 # ASE Down\Multiple Web Apps Affected

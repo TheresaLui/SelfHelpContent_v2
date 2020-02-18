@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="d4ba26f6-9bb3-49b0-8951-0437284d3bcf"
 />
 
 # I can't connect to services deployed in my VNet

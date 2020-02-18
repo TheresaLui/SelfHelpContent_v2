@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="KristinaNeyens"
     displayOrder=""
-    articleId="exrprefixmissingcoreroutersdiag"
+    articleId="ExRCoreRouterPrefixesAreMissingInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32539943, 32539944, 32539963"
     resourceTags="windows"

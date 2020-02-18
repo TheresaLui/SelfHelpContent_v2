@@ -3,18 +3,21 @@
 	description="My CDN endpoint is returning 404 errors"
 	service="microsoft.cdn"
 	resource="profiles"
-	authors="kasparks"
+	authors="mdgattuso"
+	ms.author="magattus"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
-    resourceTags="cdnakamai, cdnverizon"
-	productPesIds="15528"
+    resourceTags=""
+	productPesIds="16975"
 	cloudEnvironments="public"
+	articleId="cb3e6619-e713-4018-b457-c0c759e2cb01"
 />
 
 # My CDN endpoint is returning 404 errors
+Most users are able to resolve their issue using the following documents:
 
-## **Recommended documents**
-[Troubleshooting CDN endpoints returning 404 statuses](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-endpoint/)<br>
-[CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)<br>
-[Advanced HTTP Reports](https://azure.microsoft.com/documentation/articles/cdn-advanced-http-reports/)
+## **Recommended Documents**
+* [Troubleshooting CDN endpoints returning 404 statuses](https://azure.microsoft.com/documentation/articles/cdn-troubleshoot-endpoint/)<br>
+* [CDN Best Practices](https://azure.microsoft.com/documentation/articles/best-practices-cdn/)<br>
+* [Advanced HTTP Reports](https://azure.microsoft.com/documentation/articles/cdn-advanced-http-reports/)

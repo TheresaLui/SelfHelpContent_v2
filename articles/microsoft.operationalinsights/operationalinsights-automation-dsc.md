@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="0f6f7bcc-fbe0-4e31-b926-b8e55a4f5c46"
 />
 
 # automation-dsc

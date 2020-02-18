@@ -6,9 +6,10 @@
   authors="ajamess"
   selfHelpType="generic"
   supportTopicIds="32570265"
-  productPesIds="14785"
+  productPesIds="14785,16575"
   cloudEnvironments="public"
- />
+ 	articleId="917c651f-21a1-48b8-ba82-ce67330d9b64"
+/>
 
 # Problems using the application access panel website or mobile application
 

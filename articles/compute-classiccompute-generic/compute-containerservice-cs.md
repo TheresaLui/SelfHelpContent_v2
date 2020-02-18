@@ -10,6 +10,7 @@
 	resourceTags="linux"
 	productPesIds="16035"
 	cloudEnvironments="public"
+	articleId="c01c285a-97d1-4d16-8511-d5c35463c7fa"
 />
 
 # Container Service

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="b2774cab-a48b-44be-af1d-b0f898a25807"
 />
 
 # Setting Up Groups

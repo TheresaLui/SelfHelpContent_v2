@@ -10,6 +10,7 @@
 	resourceTags=""	
 	productPesIds="16123"
 	cloudEnvironments="MoonCake" 
+	articleId="2fa37316-947c-483a-b1e6-3272628ecb8c"
 />
 
 # How do I know if I have any active listeners?

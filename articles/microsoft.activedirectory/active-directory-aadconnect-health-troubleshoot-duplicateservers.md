@@ -7,6 +7,7 @@
 	displayOrder="300"
 	selfHelpType="resource"
 	cloudEnvironments="public"
+	articleId="6fb849ef-d956-4b12-b16e-570cce273b4d"
 />
 # Duplicate servers in the portal
 

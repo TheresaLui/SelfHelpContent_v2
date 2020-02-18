@@ -9,7 +9,8 @@
     supportTopicIds=""
     productPesIds=""
     resourceTags=""​
-    cloudEnvironments="public"
+    cloudEnvironments="public"    
+	articleId="b68670a4-91c6-44e3-bc10-3d97f0f9fc01"
 />
 
 # How do I import or export a DNS zone file?

@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16355"
     cloudEnvironments="public"
+	articleId="30efa594-5a7b-4d85-aa7e-954530accae6"
 />
 # Configure metrics, logs and alerting
 ## **Recommended documents**

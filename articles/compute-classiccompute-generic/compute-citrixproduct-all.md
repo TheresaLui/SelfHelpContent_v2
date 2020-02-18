@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16215"
 	cloudEnvironments="public"
+	articleId="7477e71a-a637-4e4a-8a77-9d5abf6dd6a7"
 />
 
 # Citrix Help

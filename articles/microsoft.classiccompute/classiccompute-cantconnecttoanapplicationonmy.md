@@ -10,7 +10,8 @@
     productPesIds="14749"
     resourceTags="windows, linux, WindowsSQL, redhat"
 	cloudEnvironments="public"	 
- />
+ 	articleId="57217dbb-3800-492d-8615-8250b02a87ea"
+/>
 
 # I can't connect to an application on my VM
 

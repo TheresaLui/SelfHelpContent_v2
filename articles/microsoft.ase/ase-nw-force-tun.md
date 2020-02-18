@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="01908760-dde5-4e70-85c2-58f462c216e8"
 />
 
 # ssl\Configuring Force-Tunneling

@@ -8,7 +8,8 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
+ 	articleId="d2e076c0-e95d-4c83-9a24-4abd5bf827fc"
+/>
 
 # Problems with users registering for password reset
 

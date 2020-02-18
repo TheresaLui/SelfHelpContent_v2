@@ -7,6 +7,7 @@
 	selfHelpType="resource"
 	displayOrder="200"
 	cloudEnvironments="public"
+	articleId="8de5601a-c38c-49a0-b4fc-5e5ddde86f41"
 />
 
 # Users are unable to sign in to the Azure AD Domain Services managed domain

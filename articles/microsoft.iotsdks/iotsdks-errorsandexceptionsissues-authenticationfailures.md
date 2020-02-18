@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="8c040980-97a6-47c2-af5e-7268a162141d"
 />
 
 # Authentication failures 

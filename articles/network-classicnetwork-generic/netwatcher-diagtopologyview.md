@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="6f8e99eb-3ece-49aa-8297-80ea70e1084e"
 />
 
 # diagnostictools/topologyview

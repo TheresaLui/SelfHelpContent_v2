@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="a50b7ad6-dbbc-49d5-89b8-c49e0c2435bb"
 />
 
 # create and manage vpn gateway, connection, routing

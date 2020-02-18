@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="ceda8716-ad7b-481e-b5c2-4edfa31ab36d"
 />
 
 # windowsperformancecounters-overview

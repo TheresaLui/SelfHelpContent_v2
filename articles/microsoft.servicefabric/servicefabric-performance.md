@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="3e67ad80-05f7-4a9f-9130-4aa0a5d18a65"
 />
 
 # cluster/performance

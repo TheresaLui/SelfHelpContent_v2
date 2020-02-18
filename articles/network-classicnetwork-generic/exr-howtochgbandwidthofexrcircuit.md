@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="af2c3148-ac6c-4001-b66d-d205c449ca16"
 />
 
 # management/how to change bandwidth of an expressroutecircuit

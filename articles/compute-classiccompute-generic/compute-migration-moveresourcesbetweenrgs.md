@@ -4,17 +4,19 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570115"
 	resourceTags="windows"
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="2122c85a-020d-43d2-8d9c-fb329e5921d9"
 />
 
-# Migration and Move/Move resources between subscriptions
+# Migration and Move/Move resources between resource groups
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Move resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)<br>
 * [Move a **Windows** VM to another Azure subscription or resource group](https://docs.microsoft.com/azure/virtual-machines/windows/move-vm)<br>

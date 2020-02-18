@@ -11,6 +11,7 @@
 	resourceTags="devices_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="a8ccf136-f5e8-4ff6-9947-d8d24775378a"
 />
 
 # I cannot see some settings here

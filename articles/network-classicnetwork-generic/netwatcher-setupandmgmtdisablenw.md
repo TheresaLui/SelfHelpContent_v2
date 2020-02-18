@@ -10,6 +10,7 @@ description="nwsetupandmgmt/disablenw"
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="73f823ac-a1d3-4480-af88-3d877c7e8bf8"
 />
 
 # nwsetupandmgmt/disablenw

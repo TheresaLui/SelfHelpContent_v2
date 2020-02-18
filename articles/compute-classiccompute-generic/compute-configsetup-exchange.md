@@ -10,6 +10,7 @@
 	resourceTags="Windows"
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="6b856c24-72b1-4b5a-85d0-83787d92a6c1"
 />
 
 # Configuration and Setup/Configure an Exchange Server

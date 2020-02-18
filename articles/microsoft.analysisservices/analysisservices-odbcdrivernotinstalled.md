@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="cbe9788f-19df-445f-b03a-6b72d21d188d"
 />
 
 # 'Driver' property doesn't correspond to an installed ODBC driver

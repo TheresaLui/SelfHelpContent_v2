@@ -10,6 +10,7 @@
 	productPesIds=""
 	supportToicIds =""
 	cloudEnvironments="public"
+	articleId="65901f72-e361-4509-8bbe-cac626247bc9"
 />
 
 # I am getting 'Internal server' error

@@ -11,6 +11,7 @@
 	resourceTags="devices_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="f565efc4-40a0-421c-9a99-ce25f41cd278"
 />
 
 # Why can I not search by owner or other properties?

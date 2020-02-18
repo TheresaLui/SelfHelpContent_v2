@@ -4,17 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570111,32570112,32570113"
 	resourceTags=""
-	productPesIds="15571,14749"
+	productPesIds="15571,14749,16470,15797,16454"
 	cloudEnvironments="public"
+	articleId="45bcb82b-358b-409c-b017-b63174f191ad"
 />
 
 # Migration and Move/Migrate resources using Azure Site Recovery
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Learn more about Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview)
 * [Learn more about Azure Site Recovery Migration](https://docs.microsoft.com/azure/site-recovery/migrate-overview)<br>

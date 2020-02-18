@@ -8,8 +8,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32570973"
 	resourceTags=""
-	productPesIds="14785"
+	productPesIds="16580"
 	cloudEnvironments="public"
+	articleId="a6e46422-dbda-428a-a1c1-6d17c0353f5b"
 />
 
 # Business to Consumer (B2C)
@@ -25,8 +26,7 @@ If you have a feature you would like to see, vote for it on [UserVoice](https://
 
 
 ## **Recommended documents**
-
 * [How to delete my B2C tenant](https://support.microsoft.com/help/3112170/-cannot-delete-error-when-you-try-to-delete-a-b2c-directory-in-azure-ad)
-* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
+* [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)<br>
+* [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)<br>
 * [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)

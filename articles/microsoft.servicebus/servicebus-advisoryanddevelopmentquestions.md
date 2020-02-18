@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="858e95f4-bb13-4192-b87a-c8b915c11a0b"
 />
 
 # advisory and development questions

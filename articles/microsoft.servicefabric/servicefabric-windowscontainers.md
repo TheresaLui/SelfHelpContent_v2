@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="d959997a-d619-4393-841c-440921f1cd68"
 />
 
 # oncontainersservicefabric

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16125"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="8d8bfff7-e8f2-483d-979b-c775d01ccd92"
 />
 
 # namespace management

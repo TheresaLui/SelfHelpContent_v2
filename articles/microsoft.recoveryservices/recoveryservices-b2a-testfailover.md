@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="adb2554b-39d8-4f4d-9d86-6879e1914848"
 />
 
 # Run a test failover in Site recovery - Hyper-V to Azure

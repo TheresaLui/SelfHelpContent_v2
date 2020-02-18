@@ -8,7 +8,8 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
+ 	articleId="80e45cf7-81d0-4efc-905c-65147bd56f10"
+/>
 # Gather the right information for communicating my problem to Microsoft
 ## **Recommended steps**
 If you still need help troubleshooting, we are here for you. You can either open a support case, or get in touch with your account management team to reach out to us directly. We'd love to hear from you!

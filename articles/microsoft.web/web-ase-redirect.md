@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="cc17f244-4b5a-48ef-9794-f93a85c3adbe"
 />
 
 # Problems with ASE

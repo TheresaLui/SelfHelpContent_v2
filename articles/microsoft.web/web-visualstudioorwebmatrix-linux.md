@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16170, 16333"
 	cloudEnvironments="public"
+	articleId="074520f2-d2f3-4062-9d09-6df9460d3775"
 />
 
 # Visual studio

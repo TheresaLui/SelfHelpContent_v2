@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="7eecdef1-376d-43ae-90a6-5295a179a12b"
 />
 
 # Manage PCs with Software Agent - Remote Assistance

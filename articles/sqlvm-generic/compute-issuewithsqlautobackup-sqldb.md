@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="f53b9102-dbeb-4951-b5d2-461bb6c3144b"
 />
 
 # connectivity/issue with SQL Auto Backup

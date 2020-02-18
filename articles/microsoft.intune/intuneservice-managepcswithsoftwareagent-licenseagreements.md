@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="faa5afcb-6122-4f5d-b56a-30865507b319"
 />
 
 # Manage PCs with Software Agent - License Agreements

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public"
+	articleId="c0ca52f9-6015-44ec-bed4-9d1606233011"
 />
 
 # Bot App Development Issues

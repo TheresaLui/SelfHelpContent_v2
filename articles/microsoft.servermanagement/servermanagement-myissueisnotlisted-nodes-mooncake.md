@@ -1,21 +1,27 @@
 <properties
-	pageTitle="My issue is not listed"
-	description="My issue is not listed"
-	service="microsoft.servermanagement"
-	resource="nodes"
-	authors="danielleemsft"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
-	issueNotListed="true"
+    pageTitle="My issue is not listed"
+    description="My issue is not listed"
+    service="microsoft.servermanagement"
+    resource="nodes"
+    authors="daniellee-msft"
+    ms.author="jol"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
+    issueNotListed="true"
+	articleId="bca5d61f-4bd8-4c83-848b-9b2b4d4f1b82"
 />
 
 # My issue is not listed
 
-##
-Please reach out to us if you have questions or feedback on Server management tools
+## **Recommended Steps**
 
-* Send feature requests and bug reports to [UserVoice](https://aka.ms/smt-engage)
-* Visit our [blog](https://aka.ms/smt-blog) for news, updates and documentation
+You can get help for many common problems from the Microsoft community or exploring the following channels:
+
+* Browse [Azure Operation Guidance](https://docs.azure.cn/articles/azure-operations-guide/) to get help for common questions or problems
+* Get answers from Azure experts through [Azure Forums](https://social.msdn.microsoft.com/Forums/zh-CN/home?forum=windowsazurezhchs)
+* Check the [Help + Support](data-blade:Microsoft_Azure_Support.HelpAndSupportBlade)
+* Check the [Service health](data-blade:hubsextension.serviceshealthblade) of Azure
+* Browse [Azure documentation](https://docs.azure.cn/)

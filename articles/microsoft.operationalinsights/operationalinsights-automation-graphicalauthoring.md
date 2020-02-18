@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="6e1282e9-a8a8-4d24-8a3b-240fc8e604e2"
 />
 
 # automation-graphicalauthoring

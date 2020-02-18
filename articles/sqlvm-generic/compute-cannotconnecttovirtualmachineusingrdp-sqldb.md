@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="56597673-495f-4129-9050-042b7ea9eb27"
 />
 
 # connectivity/cannot connect to virtual machine using rdp

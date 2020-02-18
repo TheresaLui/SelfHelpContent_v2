@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="4fc33cbb-8388-4672-9dbe-21b849511981"
 />
 
 # connectivity/issue with sql auto patching

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="09638433-121b-4a82-ae64-00ca2bd39037"
 />
 
 # Manage Devices - Restart Device

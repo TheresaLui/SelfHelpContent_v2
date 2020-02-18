@@ -10,7 +10,8 @@
     resourceTags="userandgroups_user,companyRelationships_overview"
     productPesIds=""
     cloudEnvironments="public"
-    />
+    	articleId="2ad24e45-9aab-47bd-84ff-153bffcff8b4"
+/>
 
 # B2B collaboration: My users want to leave the org they were invited to
  

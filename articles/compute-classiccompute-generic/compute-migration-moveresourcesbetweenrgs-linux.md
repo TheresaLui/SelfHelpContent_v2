@@ -4,17 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570115"
-	resourceTags="linux"
-	productPesIds="15571,15797"
+	resourceTags=""
+	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
+	articleId="0d4dfc6e-b9cd-40b0-bf48-178144b00239"
 />
 
 # Migration and Move/Move resources between resource groups
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Move resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)<br>
 * [Move a **Linux** VM to another Azure subscription or resource group](https://docs.microsoft.com/azure/virtual-machines/linux/move-vm)<br>

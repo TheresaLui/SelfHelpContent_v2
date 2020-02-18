@@ -10,6 +10,7 @@
 	resourceTags="devicecompliance_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="de0945af-6602-488e-8972-c13d588a3264"
 />
 
 # A BitLocker-encrypted Windows 10 device shows as not compliant in Intune.

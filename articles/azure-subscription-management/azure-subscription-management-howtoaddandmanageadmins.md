@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="d3965c5b-d527-4c28-880c-20a381813e5b"
 />
 
 # how to add and manage admins

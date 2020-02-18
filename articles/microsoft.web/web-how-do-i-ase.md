@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="ce07d030-1bb9-4b90-a426-1e486ec7fd28"
 />
 # Questions on creating and managing ASE
 ## **Recommended documents**

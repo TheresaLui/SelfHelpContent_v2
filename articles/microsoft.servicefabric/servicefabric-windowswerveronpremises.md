@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public, MoonCake"
+	articleId="ff44e7a2-73f6-4f2a-bbc9-1fa9f81a321f"
 />
 
 # Service Fabric Windows Server On-Premises

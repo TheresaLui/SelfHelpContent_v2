@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="53038703-6985-4015-a312-634d9f03a594"
 />
 
 # configuration and management/scaling

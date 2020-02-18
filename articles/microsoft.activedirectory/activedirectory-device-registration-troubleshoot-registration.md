@@ -10,6 +10,7 @@
     resourceTags="AzureADDeviceRegistration_Registration"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="d6000833-7d8b-4213-9774-63d79131397a"
 />
 
 # Problems with device registrations and managing devices in Azure AD

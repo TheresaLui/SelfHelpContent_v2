@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="707b59bf-3644-4c13-a9c3-4fc4e77cdee9"
 />
 
 # errors and exceptions/can't create or delete topics, queues

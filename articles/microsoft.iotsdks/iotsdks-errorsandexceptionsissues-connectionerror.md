@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="4a4059ef-0efb-4e9a-ae46-485c65fe4a68"
 />
 
 # Connection error issues

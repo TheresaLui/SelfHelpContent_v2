@@ -7,6 +7,7 @@
 	selfHelpType="resource"
 	displayOrder="100"
 	cloudEnvironments="public"
+	articleId="98090820-b0db-4cc4-8b81-86eb937e4cf2"
 />
 
 # Unable to enable Azure AD Domain Services for your Azure AD Directory
