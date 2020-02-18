@@ -20,7 +20,7 @@
 
 * [Planning and implementing your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key)<br>
 * [Microsoft-managed: Tenant key life cycle operations](https://docs.microsoft.com/azure/information-protection/operations-microsoft-managed-tenant-key)<br>
-* [How to prepare an Azure Information Protection “Cloud Exit” plan](https://techcommunity.microsoft.com/t5/azure-information-protection/how-to-prepare-an-azure-information-protection-cloud-exit-plan/ba-p/382631)<br>
+* [How to prepare an Azure Information Protection "Cloud Exit" plan](https://techcommunity.microsoft.com/t5/azure-information-protection/how-to-prepare-an-azure-information-protection-cloud-exit-plan/ba-p/382631)<br>
 * [Operations for your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/operations-tenant-key)<br>
 * [How does Azure RMS work? Under the hood](https://docs.microsoft.com/azure/information-protection/how-does-it-work)<br>
 
