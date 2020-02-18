@@ -2,7 +2,7 @@
 	pageTitle="VNet Peering TSG"
 	description="VNet Peering Scope Check"
 	service="microsoft.network"
-	resource="virtualnetwork"
+	resource="virtualNetwork"
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
