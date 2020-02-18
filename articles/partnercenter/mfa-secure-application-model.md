@@ -31,7 +31,7 @@ Resource materials related to implementing partner security requirements immedia
 - [What should I know about security defaults?](https://docs.microsoft.com/partner-center/partner-security-requirements#security-defaults) 
 - [How do I transition from Baseline policy to security defaults?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#enabling-security-defaults)
 - Security defaults do not meet my needs, what [options](https://docs.microsoft.com/partner-center/partner-security-requirements#actions-that-you-need-to-take) can I consider? 
-- I enabled Baseline polices, why has my MFA metric is suddenly dropped from 100%?
+- I enabled Baseline policies, why has my MFA metric is suddenly dropped from 100%?
 
 Effective February 29, 2020, Azure Active Directory (Azure AD) ["baseline" policies will be removed](https://docs.microsoft.com/azure/active-directory/fundamentals/whats-new#replacement-of-baseline-policies-with-security-defaults) and replaced with ["security defaults"](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), a more comprehensive set of protection policies for you and your customers. Security defaults in Azure AD can help protect your organization from common security attacks with preconfigured settings.
 
