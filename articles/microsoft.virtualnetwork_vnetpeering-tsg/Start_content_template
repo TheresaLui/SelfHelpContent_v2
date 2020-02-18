@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VNet Peering TSG"
-	description="VNet Peering TSG"
+	description="VNet Peering Scope Check"
 	service="microsoft.network"
 	resource="virtualnetwork"
 	authors="chadmath"
