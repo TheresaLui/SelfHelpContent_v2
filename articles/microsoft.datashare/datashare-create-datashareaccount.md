@@ -35,7 +35,7 @@ If you receive any of the above errors when creating a new data share or receivi
 3. Click Add
 4. Add yourself in as owner
 
-In the case of adding a dataset from a SQL Server, you must run a script which creates a new user in the database for the Data Share MSI:
+In the case of adding a dataset from a SQL Server, you must run a script which creates a new user in the database for the Data Share MSI. Note that you must be logged in as an AAD Admin via Query Editor (preview) to run this script.
  
 `create user [datashareaccountname] from external provider; exec sp_addrolemember db_owner, [datashareaccountname];`
  

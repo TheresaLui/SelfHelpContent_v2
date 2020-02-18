@@ -15,7 +15,7 @@
 	cloudEnvironments="public,fairfax"
 />
 
-# Why am I seeing "not applicable", "unassigned", "$system", or "others"?
+# Why am I seeing not applicable, unassigned, $system, or others?
 
 ## **Recommended Steps**
 

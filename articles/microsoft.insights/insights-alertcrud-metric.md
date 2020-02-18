@@ -24,7 +24,7 @@
 
 If you are running into issues creating/updating or deleting metric alerts the following steps may help resolve the issue.
 
-1. If you are looking to alert on guest metrics on virtual machines, ensure you have set up diagnostic setting to send data to Azure Monitor sink:
+1. If you are looking to alert on guest metrics on virtual machines (e.g. memory, disk space), ensure you have set up diagnostic settings to send data to an Azure Monitor sink:
 
     * [For Windows VMs](https://docs.microsoft.com/azure/azure-monitor/platform/collect-custom-metrics-guestos-resource-manager-vm)
     * [For Linux VMs](https://docs.microsoft.com/azure/azure-monitor/platform/collect-custom-metrics-linux-telegraf)
@@ -40,7 +40,14 @@ If you are running into issues creating/updating or deleting metric alerts the f
 
 4. If you are looking to add, edit or delete tags, currently metric alert rules only support adding tags when creating a new alert rule from PowerShell or via an ARM template. Editing, removing or adding tags to an existing alert rule is currently not supported.
 
-5. Review if you have appropriate permissions. To create/update/delete metric alerts:
+5. When deleting an Azure resource, associated metric alert rules aren't deleted automatically.
+To delete alert rules associated to a resource that has already been deleted:
+	- Open the resource group in which the deleted resource was defined
+	- In the list displaying the resources, check the **Show hidden types** checkbox
+	- Filter the list by Type == **microsoft.insights/metricalerts**
+	- Check the relevant metric alert rules and select **Delete**
+
+6. Review if you have appropriate permissions. To create/update/delete metric alerts:
 
     * You should have been assigned a built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
     * You should have been assigned a [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/metricAlerts
