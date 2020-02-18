@@ -41,7 +41,7 @@ pip install --upgrade azureml-sdk[explain,automl]
 For a list of all the optional components, see the following [table](https://docs.microsoft.com/python/api/overview/azureml-sdk/install?view=azure-ml-py#advanced-install-extras).
 
 
-## Additional Resources
+## **Recommended Documents**
 
 Here is a list of additional resources which may be helpful:
 

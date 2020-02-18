@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-## Azure Machine Learning Python SDK
+### **Azure Machine Learning Python SDK**
 
 To create a workspace using the Python SDK:
 
@@ -43,7 +43,7 @@ workspace = Workspace.get(name='<WORKSPACE-NAME>',
 
 Once access has be granted to the workspace, use any of the existing methods to manage and configure it. Refer to the following [documentation](https://docs.microsoft.com/python/api/azureml-core/azureml.core.workspace.workspace?view=azure-ml-py) for additional reference.
 
-## Azure Machine Learning CLI
+### **Azure Machine Learning CLI**
 
 To create a workspace using the CLI:
 
@@ -59,7 +59,7 @@ az ml workspace list
 
 Once the workspace has been created or workspace details have been retrieved, use the other existing CLI commands to manage and configure it. Refer to the following [documentation](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/ml/workspace?view=azure-cli-latest) for additional reference.
 
-## Additional Resources
+## **Recommended Documents**
 
 Here is a list of additional resources which may be helpful:
 

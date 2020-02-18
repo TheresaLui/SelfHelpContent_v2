@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-## Azure Machine Learning Python SDK
+### **Azure Machine Learning Python SDK**
 
 To install the default packages, run the following command.
 
@@ -35,7 +35,7 @@ pip install --upgrade azureml-sdk[explain,automl]
 
 For a list of all the optional components, see the following [table](https://docs.microsoft.com/python/api/overview/azureml-sdk/install?view=azure-ml-py#advanced-install-extras).
 
-## Azure Machine Learning CLI
+### **Azure Machine Learning CLI**
 
 To use the Azure Machine Learning CLI, the Azure CLI must first be installed. Follow the instructions [here](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest) to do so.
 
@@ -45,13 +45,13 @@ Once the Azure CLI has been installed, the Machine Learning extension can be ins
 az extension add -n azure-cli-ml
 ```
 
-## Compute Instance 
+### **Compute Instance**
 
 As an alternative to installing the SDK or CLI locally, an Azure Machine Learning compute instance can be used instead. Compute instances are fully-managed cloud-based workstations designed for data scientists and comes with both the Python SDK and CLI pre-installed. Additionally, these instances also come pre-installed with common machine learning libraries such as PyTorch and Tensorflow. 
 
 For more information, see the following [document](https://docs.microsoft.com/azure/machine-learning/concept-compute-instance).
 
-## Additional Resources
+## **Recommended Documents**
 
 Here is a list of additional resources which may be helpful:
 
