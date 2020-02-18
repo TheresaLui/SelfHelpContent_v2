@@ -17,8 +17,9 @@
 
 ## **Recommended documents**
 
-*	[What is the Microsoft Authenticator app?](https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-auth-app-overview)
+* [What is the Microsoft Authenticator app?](https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-auth-app-overview)
 * [Sign in to your accounts using the Microsoft Authenticator app](https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-auth-app-sign-in)
 
 ## **Recommended Video**
-*	[11 minute YouTube video: Password-less Auth using Azure AD](https://www.youtube.com/watch?v=YFvAbr-Qsm4&feature=youtu.be)
+
+* [11 minute YouTube video: Password-less Auth using Azure AD](https://www.youtube.com/watch?v=YFvAbr-Qsm4&feature=youtu.be)
