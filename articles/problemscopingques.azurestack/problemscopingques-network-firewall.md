@@ -182,7 +182,7 @@
         {
             "id": "Subscription_name",
             "order": 7,
-             "visibility": "tenant_all_single == Single tenant",
+            "visibility": "tenant_all_single == Single tenant",
             "controlType": "textbox",
             "displayLabel": "Tenant ID",
             "watermarkText": "ID of the tenant",
@@ -210,7 +210,7 @@
         {
             "id": "rg_vnet_name",
             "order": 9,
-              "visibility": "check_firewall == Yes",
+            "visibility": "check_firewall == Yes",
             "controlType": "textbox",
             "displayLabel": " What is the name of resource group or virtual network?",
             "watermarkText": "Name of the resource group or virtual network",
@@ -259,7 +259,7 @@
         },
         {
             "id": "connected_deployment",
-            "visibility": "build_2002 == Yes",            
+            "visibility": "build_2002 == Yes",
             "order": 14,
             "controlType": "dropdown",
             "displayLabel": "Can you connect to the internet?",
@@ -274,7 +274,7 @@
         },
         {
             "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",            
+            "visibility": "connected_deployment == Yes",
             "order": 15,
             "controlType": "textbox",
             "displayLabel": "Learn how to <a href='https://review.docs.microsoft.com/en-us/azure-stack/operator/azure-stack-find-cloud-id?view=azs-2002&branch=release-2002'>find the Cloud Stamp ID</a>",
