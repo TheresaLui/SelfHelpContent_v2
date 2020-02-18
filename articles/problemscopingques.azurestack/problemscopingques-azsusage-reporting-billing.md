@@ -17,7 +17,7 @@
   "subscriptionRequired": true,
   "resourceRequired": false,
   "title": "Azure Stack usage reporting and billing questions",
-  "fileAttachmentHint": "Upload the usage detail files from Azure and the local usage report. Use the following script <a href='https://aka.ms/azurestackusagesummary'>Azure Stack Usage Summary</a>. To help the support agent identify your issue, please also collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
+  "fileAttachmentHint": "Upload the usage detail files from Azure and the local usage report. Use the following script <a href='https://github.com/Azure/AzureStack-Tools/blob/master/Usage/Usagesummary.ps1'>Azure Stack Usage Summary</a>. To help the support agent identify your issue, please also collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
   "formElements": [{
             "id": "hardware_partner",
             "order": 1,
@@ -72,6 +72,10 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
+                {
+                    "value": "1910",
+                    "text": "1910"
+                },
                 {
                     "value": "1908",
                     "text": "1908"

@@ -50,19 +50,10 @@
             "required": true
         },
         {
-            "id": "problem_approx_time",
-            "order": 3,
-            "visibility": "recovery_option != by_time_period",
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate local time the Container was deleted",
-            "required": false
-        },
-        {
             "id": "problem_start_time",
-            "order": 4,
-            "visibility": "recovery_option == by_time_period",
+            "order": 3,
             "controlType": "datetimepicker",
-            "displayLabel": "Start time",
+            "displayLabel": "Local start time when container was deleted",
             "required": true
         },
         {
@@ -70,7 +61,7 @@
             "order": 5,
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "End time",
+            "displayLabel": "Local end time when container was deleted",
             "required": true
         },
         {

@@ -17,4 +17,5 @@
 # Jobs and tasks - Task dependencies
 
 ## **Recommended Documents**
-* [Using Batch task dependencies](https://docs.microsoft.com/azure/batch/batch-task-dependencies)
+* [Using Batch task dependencies](https://docs.microsoft.com/azure/batch/batch-task-dependencies)<br>
+* [Common errors while submitting a Job or Task](https://docs.microsoft.com/azure/batch/batch-job-task-error-checking)

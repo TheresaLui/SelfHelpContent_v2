@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
-	articleId="compute-virtualdiskmgmt-attachdetach-linux"
+	articleId="3cef1f67-f2f8-4a0e-887b-6a9aa09fcf27"
 />
 
 # Resolving issues with VM Disk Management

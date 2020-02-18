@@ -94,15 +94,37 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
+            "id": "df_version",
             "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Which Version of Data Factory are you using?",
+            "watermarkText": "Choose Data Factory Version",
+            "dropdownOptions": [
+                {
+                    "value": "V2",
+                    "text": "V2"
+                },
+                {
+                    "value": "V1",
+                    "text": "V1"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 9,
+            "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false

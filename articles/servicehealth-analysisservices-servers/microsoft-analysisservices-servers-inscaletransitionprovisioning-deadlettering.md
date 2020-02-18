@@ -16,7 +16,7 @@
 # Your resource was impacted by a resource health event
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Analysis Services server:
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Azure Analysis Service resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
 An unexpected error has occurred. Please contact customer support. 
 <!--/issueDescription-->

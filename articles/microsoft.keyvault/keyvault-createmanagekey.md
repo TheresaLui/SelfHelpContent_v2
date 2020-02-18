@@ -17,8 +17,10 @@
 # How to Create and Manage Keys
 ## **Recommended Steps**
 
-* [Key Vault Getting Started Guide](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
-* [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
+* [Adding key, secret, certificate using CLI](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2#adding-a-key-secret-or-certificate-to-the-key-vault)
+* [Add Secrets to Key Vault with Azure Portal](https://docs.microsoft.com/azure/key-vault/quick-create-portal#add-a-secret-to-key-vault)
+* [Add Secrets to Key Vault with .NET](https://docs.microsoft.com/azure/key-vault/quick-create-net#save-a-secret)
+
 
 **Troubleshooting**
 
@@ -32,5 +34,5 @@
 
 ## **Recommended Documents**
 
-* [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)
-* [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
+* [Adding key, secret, certificate using CLI](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2#adding-a-key-secret-or-certificate-to-the-key-vault)
+* [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/quick-create-powershell)
