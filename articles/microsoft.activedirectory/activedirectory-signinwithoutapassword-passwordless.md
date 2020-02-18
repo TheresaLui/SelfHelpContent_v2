@@ -16,7 +16,7 @@
 
 # Passwordless (Microsoft Authenticator)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [What is the Microsoft Authenticator app?](https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-auth-app-overview)
 * [Sign in to your accounts using the Microsoft Authenticator app](https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-auth-app-sign-in)
