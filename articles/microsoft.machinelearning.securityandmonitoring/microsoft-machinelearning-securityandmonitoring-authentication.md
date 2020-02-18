@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-### For Key-based Authentication
+### **For Key-based Authentication**
 
 Key-based authentication generates static bearer-type authentication keys that do not need to be refreshed. 
 
@@ -74,7 +74,7 @@ aci_service.regen_key('Primary')
 aci_service.regen_key('Secondary')
 ```
 
-### For Token-based Authentication
+### **For Token-based Authentication**
 
 Token-based authentication requires users to present an Azure Machine Learning JSON Web Token to the web service to access it. The token expires after a specified time-frame and needs to be refreshed to continue making calls.
 

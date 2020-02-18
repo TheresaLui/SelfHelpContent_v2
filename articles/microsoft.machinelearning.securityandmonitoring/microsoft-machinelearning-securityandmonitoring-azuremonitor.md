@@ -21,7 +21,7 @@ Azure Machine Learning logs monitoring data using Azure Monitor, which is a full
 
 Below are steps for common tasks you might want accomplish using Azure Monitor.
 
-### Metrics
+### **Metrics**
 
 To analyze metrics such as CPU/GPU utilization, proceed with the following steps:
 
@@ -31,7 +31,7 @@ To analyze metrics such as CPU/GPU utilization, proceed with the following steps
 
 For additional support on using the metrics explorer, check out the following [article](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-getting-started)
 
-### Alerts
+### **Alerts**
 
 To access and create alerts, proceed with the following steps:
 
