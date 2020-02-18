@@ -19,15 +19,14 @@
 
 The general process to secure a web service using SSL is as follows:
 
-1. Get a domain name.
-2. Get a digital certificate.
-3. Deploy or update the web service with SSL enabled.
-4. Update your DNS to point to the web service.
+1. Get a domain name
+2. Get a digital certificate
+3. Deploy or update the web service with SSL enabled
+4. Update your DNS to point to the web service
 
 The [following article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-web-service) covers this process in depth.
 
-
-## Additional Resources
+## **Recommended Documents**
 
 Here is a list of additional resources which may be helpful:
 
