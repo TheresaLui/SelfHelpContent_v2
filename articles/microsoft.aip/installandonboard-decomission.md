@@ -7,7 +7,7 @@
 	ms.author="orbarak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32727956"
+	supportTopicIds="32727967"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
