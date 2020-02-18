@@ -21,10 +21,10 @@
 
 Key-based authentication generates static bearer-type authentication keys that do not need to be refreshed. 
 
-* Key-based authentication is **enabled by default** when you deploy to Azure Kubernetes Service.
-* Key-based authentication is **disabled by default** when you deploy to Azure Container Instances, but you can enable it by setting `auth_enabled=True` when creating the ACI web-service.
+* Key-based authentication is **enabled by default** when you deploy to Azure Kubernetes Service
+* Key-based authentication is **disabled by default** when you deploy to Azure Container Instances, but you can enable it by setting `auth_enabled=True` when creating the ACI web-service
 
-The following is an example of creating an ACI deployment configuration with key-based auth enabled.
+The following is an example of creating an ACI deployment configuration with key-based auth enabled:
 
 ```
 from azureml.core.webservice import AciWebservice
@@ -34,11 +34,10 @@ aci_config = AciWebservice.deploy_configuration(cpu_cores=1,
                                                 auth_enable=True)									
 ```
 
-Then you can use the custom ACI configuration in deployment using the `Model` class.
+Then you can use the custom ACI configuration in deployment using the `Model` class:
 
 ```
 from azureml.core.model import Model, InferenceConfig
-
 
 inference_config = InferenceConfig(entry_script='score.py',
                                    environment=myenv)
@@ -49,8 +48,7 @@ aci_service = Model.deploy(workspace=ws,
 						   deployment_config=aci_config)
 aci_service.wait_for_deployment(True)
 ```
-
-To consume the web service, use `aci_service.get_keys()` to fetch the key and set this in the authorization header.
+To consume the web service, use `aci_service.get_keys()` to fetch the key and set this in the authorization header:
 
 ```
 import requests
@@ -66,7 +64,7 @@ test_sample = json.dumps({'data': [
 
 response = requests.post(aci_service.scoring_uri, data=test_sample, headers=headers)
 ```
-To regenerate a key, use the `regen_key()` function and pass either **Primary** or **Secondary**.
+To regenerate a key, use the `regen_key()` function and pass either **Primary** or **Secondary**:
 
 ```
 aci_service.regen_key('Primary')
@@ -80,12 +78,12 @@ aci_service.regen_key('Secondary')
 
 Token-based authentication requires users to present an Azure Machine Learning JSON Web Token to the web service to access it. The token expires after a specified time-frame and needs to be refreshed to continue making calls.
 
-* Token authentication is **disabled by default** when you deploy to Azure Kubernetes Service.
-* Token authentication **isn't supported** when you deploy to Azure Container Instances.
+* Token authentication is **disabled by default** when you deploy to Azure Kubernetes Service
+* Token authentication **isn't supported** when you deploy to Azure Container Instances
 
 To control token authentication, use the `token_auth_enabled` parameter when you create or update a deployment.
 
-The following is an example of creating an AKS deployment configuration with token-based auth enabled.
+The following is an example of creating an AKS deployment configuration with token-based auth enabled:
 
 ```
 from azureml.core.webservice import AksWebservice
@@ -95,11 +93,10 @@ aks_config = AksWebservice.deploy_configuration(cpu_cores=1,
                                                 token_auth_enabled=True)
 ```
 
-Then you can use the custom AKS configuration in deployment using the `Model` class.
+Then you can use the custom AKS configuration in deployment using the `Model` class:
 
 ```
 from azureml.core.model import Model, InferenceConfig
-
 
 inference_config = InferenceConfig(entry_script='score.py',
                                    environment=myenv)
@@ -111,8 +108,7 @@ aks_service = Model.deploy(workspace=ws,
 aks_service.wait_for_deployment(True)
 ```
 
-To consume the web service, use the `aks_service.get_access_token()` method to retrieve a JSON Web Token (JWT) and set this in the authorization header.
-
+To consume the web service, use the `aks_service.get_access_token()` method to retrieve a JSON Web Token (JWT) and set this in the authorization header:
 
 ```
 import requests
@@ -131,9 +127,9 @@ test_sample = json.dumps({'data': [
 response = requests.post(aks_service.scoring_uri, data=test_sample, headers=headers)
 ```
 
-You'll need to request a new token after the token's `refresh_by` time. 
+You'll need to request a new token after the token's `refresh_by` time.
 
-## Additional Resources
+## **Recommended Documents**
 
 Here is a list of additional resources which may be helpful:
 
