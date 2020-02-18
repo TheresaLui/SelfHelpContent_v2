@@ -20,13 +20,13 @@
 
 * [Windows Hello for Business](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification)
 * [Windows Hello for Business Videos](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-videos)
-* [Windows Hello for Business Deployment Guide](https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-deployment-guide)
-* [Hybrid Windows Hello for Business Provisioning](https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-provision)
-* [Windows Hello biometrics in the enterprise](https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-biometrics-in-enterprise)
+* [Windows Hello for Business Deployment Guide](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-deployment-guide)
+* [Hybrid Windows Hello for Business Provisioning](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-provision)
+* [Windows Hello biometrics in the enterprise](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-biometrics-in-enterprise)
 
 **Windows 10 Authentication (using PIN or Gesture)**
-* [Why a PIN is better than a password](https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-why-pin-is-better-than-password)
-* [Windows Hello errors during PIN creation](https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-errors-during-pin-creation)
+* [Why a PIN is better than a password](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-why-pin-is-better-than-password)
+* [Windows Hello errors during PIN creation](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-errors-during-pin-creation)
 
 
 
