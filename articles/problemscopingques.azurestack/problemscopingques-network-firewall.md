@@ -165,7 +165,7 @@
             "id": "tenant_all_single",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Does the issue occur in a specific tenant or all tenants? ",
+            "displayLabel": "Does the issue occur in a specific tenant or all tenants?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -193,7 +193,7 @@
             "order": 8,
             "controlType": "dropdown",
             "visibility": "tenant_all_single == Single tenant",
-            "displayLabel": "Does the issue occur in a certain resource group or virtual network? ",
+            "displayLabel": "Does the issue occur in a certain resource group or virtual network?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -213,10 +213,10 @@
               "visibility": "check_firewall == Yes",
             "controlType": "textbox",
             "displayLabel": " What is the name of resource group or virtual network?",
-            "watermarkText": "Name of the resource group or virtual network ",
+            "watermarkText": "Name of the resource group or virtual network",
             "required": false
         },
-    {
+        {
           "id": "has_worked",
             "order": 10,
             "controlType": "dropdown",
@@ -242,6 +242,58 @@
             "displayLabel": "What is the error message?",
            "watermarkText": "Provide the error message you received if any",
              "required": true
+        },
+        {
+            "id": "build_2002",
+            "order": 13,
+            "controlType": "dropdown",
+            "displayLabel": "Are you running version 2002?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                },{
+                    "value": "No",
+                    "text": "No"
+            "required": true
+        },
+        {
+            "id": "connected_deployment",
+            "visibility": "build_2002 == Yes",            
+            "order": 14,
+            "controlType": "dropdown",
+            "displayLabel": "Can you connect to the internet?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                },{
+                    "value": "No",
+                    "text": "No"
+            "required": true
+        },
+        {
+            "id": "cloud_id",
+            "visibility": "connected_deployment == Yes",            
+            "order": 15,
+            "controlType": "textbox",
+            "displayLabel": "Learn how to <a href='https://aka.ms/findcloudid'>find the Cloud Stamp ID</a>",
+            "watermarkText": "Enter the Stamp Cloud ID",
+            "required": true
+        },
+        {
+            "id": "enable_proactive_log_collection",
+            "order": 16,
+            "controlType": "dropdown",
+            "displayLabel": "Have you <a href='https://aka.ms/proactivelogging'>enabled proactive log collection</a>?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                },{
+                    "value": "No",
+                    "text": "No",
+            "required": false
         },
         {
             "id": "problem_start_time",
