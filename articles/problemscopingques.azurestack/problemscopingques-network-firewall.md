@@ -277,7 +277,7 @@
             "visibility": "connected_deployment == Yes",            
             "order": 15,
             "controlType": "textbox",
-            "displayLabel": "Learn how to <a href='https://aka.ms/findcloudid'>find the Cloud Stamp ID</a>",
+            "displayLabel": "Learn how to <a href='https://review.docs.microsoft.com/en-us/azure-stack/operator/azure-stack-find-cloud-id?view=azs-2002&branch=release-2002'>find the Cloud Stamp ID</a>",
             "watermarkText": "Enter the Stamp Cloud ID",
             "required": true
         },
@@ -285,7 +285,7 @@
             "id": "enable_proactive_log_collection",
             "order": 16,
             "controlType": "dropdown",
-            "displayLabel": "Have you <a href='https://aka.ms/proactivelogging'>enabled proactive log collection</a>?",
+            "displayLabel": "Have you <a href='https://review.docs.microsoft.com/en-us/azure-stack/operator/azure-stack-configure-automatic-diagnostic-log-collection-tzl?view=azs-2002&branch=release-2002'>enabled proactive log collection</a>?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
