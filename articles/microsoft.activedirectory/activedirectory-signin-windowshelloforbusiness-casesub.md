@@ -16,7 +16,7 @@
 
 # Windows Hello for Business
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Windows Hello for Business](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification)
 * [Windows Hello for Business Videos](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-videos)
