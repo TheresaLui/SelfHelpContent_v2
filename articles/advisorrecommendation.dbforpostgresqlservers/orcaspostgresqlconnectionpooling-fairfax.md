@@ -40,7 +40,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/azure_postgresql_connection_pooling",
   "description": "Improve PostgreSQL connection management",
-  "longDescription": "Our internal telemetry indicates that your PostgreSQL server may not be managing connections efficiently. This may result in unnecessary resource consumption and reduced query performance. To improve connection management, we recommend that you reduce the number of short-lived connections and eliminate unnecessary idle connections. This can be done by configuring a server side connection-pooler, such as PgBouncer.",
+  "longDescription": "Our internal telemetry indicates that your PostgreSQL server may not be managing connections efficiently. This may result in unnecessary resource consumption and overall higher application latency. To improve connection management, we recommend that you reduce the number of short-lived connections and eliminate unnecessary idle connections. This can be done by configuring a server side connection-pooler, such as PgBouncer.",
   "potentialBenefits": "Improve query performance by reducing overhead associated with short-lived and idle database connections",
   "actions": [
     {
