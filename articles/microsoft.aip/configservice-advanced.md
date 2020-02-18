@@ -5,6 +5,7 @@
 	resource="aip"
 	authors="orbarak-ms"
 	ms.author="orbarak"
+	articleId="ConfigService_Advanced"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32727931"
