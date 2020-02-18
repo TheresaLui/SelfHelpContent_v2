@@ -13,7 +13,7 @@
 	supportTopicIds="32630407"
 	resourceTags="missingAuditing"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 
 # Missing Auditing Data

@@ -11,7 +11,7 @@
 	supportTopicIds="32633525"
 	resourceTags="windowsSQL"
 	productPesIds="16342"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 />
 
 # sql administration/upgrade or downgrade a SQL edition

@@ -12,7 +12,7 @@
 	selfHelpType="diagnostics"
 	supportTopicIds="32411835"
 	resourceTags="linux"
-	productPesIds="15571"
+	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public,mooncake"
 />
 
@@ -25,7 +25,7 @@ Microsoft Azure has concluded an investigation of your  virtual machine. We iden
 
 To recover the virtual machine, follow these steps:
 
-1. Access [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
+1. Access [serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
 
 2. If the VM is configured, press M for manual recovery to enter single user mode or login as root.  If the VM is not configured, reboot the VM using the Azure portal while holding down the ESC key.  If you are presented with a grub prompt enter ‘c’ for command prompt.
 

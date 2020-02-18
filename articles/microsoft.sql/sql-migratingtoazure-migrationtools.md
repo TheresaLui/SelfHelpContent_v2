@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32630433"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="3236870f-0cd0-4a2a-b143-873b049241d2"
 />
 

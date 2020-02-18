@@ -29,7 +29,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "diagnosticInputRequiredClients": "ASC"
         },
         {
             "id": "file_share_or_path",

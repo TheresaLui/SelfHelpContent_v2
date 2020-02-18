@@ -25,7 +25,7 @@ The [sign-in risk policy](https://docs.microsoft.com/azure/active-directory/iden
 The following documents can help answer some of the most common questions in this category:
 
 * [How To: Configure risk policies](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-configure-risk-policies)
-* [Identity Protection notifications](https://docs.microsoft.com/azure/active-directory/identity-protection/notifications)
+* [Identity Protection notifications](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-notifications)
 * [Quickstart: Configure named locations in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-configure-named-locations)
 * [5 minute YouTube video: Identity Protection Overview](https://youtu.be/1REQYdZ6364)
 * [4 minute YouTube video: How to deploy Identity Protection](https://youtu.be/zEsbbik-BTE)

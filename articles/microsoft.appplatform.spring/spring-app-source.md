@@ -23,11 +23,13 @@ When you deploy your application package thought [Azure CLI](https://docs.micros
 
 If the polling is interrupted, you can still use the following command to fetch the build and deployment logs:
 
-`az asc app show-deploy-log -n <app-name>`
+`az spring-cloud app show-deploy-log -n <app-name>`
+
+However, please note that one Azure Spring Cloud service instance can only trigger one build job for one source package at one time. For more information about the deployment, please refer to [Tutorial: Prepare a Java Spring app for deployment](https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-prepare-app-deployment).
 
 ## **Recommended Documents**
 
-* Azure Spring Cloud Getting Started Guide: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/README.md`
-* Azure Spring Cloud Troubleshooting Guide: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/troubleshooting.md`
-* Azure Spring Cloud FAQ: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/faq.md`
-* Azure Spring Cloud Deployment: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/deploy-an-app.md`
+* [Quickstart: Launch a Java Spring app on Azure using the Azure portal](https://docs.microsoft.com/azure/spring-cloud/spring-cloud-quickstart-launch-app-portal)
+* [Tutorial: Prepare a Java Spring app for deployment](https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-prepare-app-deployment)
+* [FAQ for Azure Spring Cloud](https://docs.microsoft.com/azure/spring-cloud/spring-cloud-faq)
+* [Troubleshooting guidance](https://docs.microsoft.com/azure/spring-cloud/spring-cloud-troubleshoot)

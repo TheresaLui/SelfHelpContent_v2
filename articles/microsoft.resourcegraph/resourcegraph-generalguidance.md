@@ -18,6 +18,8 @@
 
 *If you're hitting issues regarding Microsoft Graph API, please create your support request under "Azure Active Directory App Integration and Development" service, and choose Graph API as your problem type.*
 
+*If you're hitting issues with [Azure Resource Explorer](https://resources.azure.com), please submit a GitHub issue [here](https://github.com/projectkudu/AzureResourceExplorer/issues).*
+
 This support request will be created for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in the following ways:
 
 * Azure Portal Search, "All Resources" view, and "Resource Graph Explorer"

@@ -1,6 +1,6 @@
 <properties
     pageTitle="Managing firewall rules for Azure Database for MySQL"
-    description="Managing firewall rules for Azure Database for MySQL"
+    description="Managing firewall rules for Azure Database for MySQL"  
     service="microsoft.dbformysql"
     resource="servers"
     authors="jan-eng"
@@ -34,6 +34,11 @@ Most users are able to resolve their issue using the steps below.
   * Make sure you are signed-in to the correct using **az login**
   * Ensure you are using the correct subscription, in case you have more than one
   * Specify all required parameters in **az mysql server firewall-rule** with valid values. Review the [Azure CLI MySQL firewall rule](https://docs.microsoft.com/cli/azure/mysql/server/firewall-rule?view=azure-cli-latest) documentation for valid parameters.
+
+* If you are deploying firewall rules using ARM templates:
+
+  * Familiarize yourself with [Create Azure Database for MySQL with multiple firewall rules](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithFirewallRule) ARM template
+  * If you are deploying or updating multiple server attributes which includes firewall rules, Virtual Network rules, server parameters or databases for a given server, make sure you are deploying these serially, in any order. By default, ARM deploys resources in parallel and a deployment may fail if configured in parallel. Familiarize yourself with [Sample ARM templates](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithMultipleServerProperties).
 
 ## **Recommended Documents**
 

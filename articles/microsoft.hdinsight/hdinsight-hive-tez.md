@@ -25,3 +25,4 @@
 * [How do I download Tez Directed Acyclic Graph (DAG) data from HDInsight cluster?](https://hdinsight.github.io/hive/hive-tez-dag-data-download.html)
 * [How do I analyze Tez Directed Acyclic Graph (DAG) critical path on HDInsight cluster?](https://hdinsight.github.io/hive/hive-tez-dag-critical-path.html)
 * [Why does Ambari Tez View load very slowly?](https://hdinsight.github.io/hive/tez-view-poor-performance.html)
+* [Hive FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#hive)

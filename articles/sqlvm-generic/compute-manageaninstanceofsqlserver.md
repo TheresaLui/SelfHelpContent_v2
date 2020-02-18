@@ -3,7 +3,8 @@
 	description="Management/Manage an instance of SQL Server"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="scottazure,vadeveka"
+	ms.author="vadeveka"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411820"
@@ -15,7 +16,12 @@
 
 # Management/Manage an instance of SQL Server
 
-## **Recommended documents**
+Most users are able to address their SQL manageability questions using the documentation listed below. 
+
+**If you are facing an issue with a particular manageability feature such as SQL licensing, backup or administration**, please create a support request under the service "SQL Server in VM - Windows" for better support engagement.
+
+## **Recommended Documents**
+
 * [Overview of SQL Server on Azure Virtual Machines](https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/)<br>
 * [SQL Server on Azure Virtual Machines FAQ](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-iaas-faq)<br>
 * [Understand and configure high availability and disaster recovery for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-high-availability-dr)<br>

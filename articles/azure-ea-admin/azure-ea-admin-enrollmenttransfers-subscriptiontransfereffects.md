@@ -2,17 +2,17 @@
 	pageTitle="Subscription transfer effects"
 	description="Providing user with information about subscription transfer effects"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
     authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="84025713-8bfa-4a09-ba72-e76cfb885b36"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615298"
+	supportTopicIds="32688693"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
 />
 
@@ -30,14 +30,14 @@ If the subscription is transferred to an account in a different Azure AD tenant,
 
 - [Management certificates](https://docs.microsoft.com/azure/cloud-services/cloud-services-certs-create) that grant the user admin rights to subscription resources
 - Access keys for services such as [Storage](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
-- Remote Access credentials for services like Azure Virtual Machines
+- Remote Access credentials for services such as Azure Virtual Machines
 
-If the recipient needs to restrict access to their Azure resources, they should consider updating any settings associated with the service. Most resources are be updated by using the following steps:
+If the recipient needs to restrict access to their Azure resources, they should consider updating any secrets associated with the service. Most resources are be updated by using the following steps:
 
 1. Sign in to the [Azure portal](https://portal.azure.com/)
 1. On the Hub menu, select **All resources**
 1. Select the resource
-1. On the resource page, click **Settings** to view and update existing settings
+1. On the resource page, click **Settings** to view and update existing secrets
 
 ## **Recommended Documents**
 
@@ -45,4 +45,3 @@ If the recipient needs to restrict access to their Azure resources, they should 
 - [Transfer enterprise enrollment to a new one](https://docs.microsoft.com/azure/billing/billing-ea-portal-administration#transfer-enterprise-enrollment-to-a-new-one)
 - [Change account owner](https://docs.microsoft.com/azure/billing/billing-ea-portal-administration#change-account-owner)
 - [Azure EA portal administration](https://docs.microsoft.com/azure/billing/billing-ea-portal-administration)
-- [Transfer pay as you go subscription to EA subscription](https://docs.microsoft.com/azure/billing/billing-ea-portal-get-started#transfer-pay-as-you-go-subscription-to-ea-subscription)
