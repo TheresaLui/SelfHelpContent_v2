@@ -17,7 +17,16 @@
 
 ## **Recommended Steps**
 
-If you are experiencing issues with the Python SDK, make you have the latest version installed.
+If you are experiencing issues with the Python SDK, make sure you have the [latest version](https://pypi.org/project/azureml-sdk/) installed.
+
+To check the currently installed version:
+
+```
+import azureml.core
+print(azureml.core.VERSION)
+```
+
+Should an upgrade be needed, run the following command:
 
 ```
 pip install --upgrade azureml-sdk
