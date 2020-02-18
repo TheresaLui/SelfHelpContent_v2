@@ -17,11 +17,9 @@
 
 An Azure Machine Learning workspace is an Azure resource. Like other Azure resources, when a new Azure Machine Learning workspace is created, it comes with three default roles. 
 
-| Role | Access level |
-| --- | --- |
-| **Reader** | Read-only actions in the workspace. Readers can list and view assets in a workspace, but can't create or update these assets. |
-| **Contributor** | View, create, edit, or delete (where applicable) assets in a workspace. For example, contributors can create an experiment, create or attach a compute cluster, submit a run, and deploy a web service. |
-| **Owner** | Full access to the workspace, including the ability to view, create, edit, or delete (where applicable) assets in a workspace. Additionally, you can change role assignments. |
+1. **Reader**: Read-only actions in the workspace. Readers can list and view assets in a workspace, but can't create or update these assets.
+2. **Contributor**: View, create, edit, or delete (where applicable) assets in a workspace. For example, contributors can create an experiment, create or attach a compute cluster, submit a run, and deploy a web service.
+3. **Owner**: Full access to the workspace, including the ability to view, create, edit, or delete (where applicable) assets in a workspace. Additionally, you can change role assignments.
 
 If the built-in roles are insufficient, you can create custom roles. See the [following article](https://docs.microsoft.com/azure/role-based-access-control/custom-roles) to learn more.
 
@@ -35,7 +33,7 @@ If you're an owner of a workspace, you can add and remove roles for the workspac
 - [REST API](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-rest)
 - [Azure Resource Manager templates](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-template)
 
-## Additional Resources
+## **Recommended Documents**
 
 Here is a list of additional resources which may be helpful:
 

@@ -25,24 +25,23 @@ Below are steps for common tasks you might want accomplish using Azure Monitor.
 
 To analyze metrics such as CPU/GPU utilization, proceed with the following steps:
 
-1. Go to your **Azure Machine Learning** resource in [https://portal.azure.com/](https://portal.azure.com/).
-2. On the left panel, scroll down to the **Monitoring** section in a click **Metrics**.
-3. Add the metrics that you want to see.
+1. Go to your **Azure Machine Learning** resource in [https://portal.azure.com/](https://portal.azure.com/)
+2. On the left panel, scroll down to the **Monitoring** section in a click **Metrics**
+3. Add the metrics that you want to see
 
-For additional support on using the metrics explorer, check out the following [article](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-getting-started)
+For additional support on using the metrics explorer, check out the following [article](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-getting-started).
 
 ### **Alerts**
 
 To access and create alerts, proceed with the following steps:
 
-1. Go to your **Azure Machine Learning** resource in [https://portal.azure.com/](https://portal.azure.com/).
-2. On the left panel, scroll down to the **Monitoring** section in a click **Alerts**.
+1. Go to your **Azure Machine Learning** resource in [https://portal.azure.com/](https://portal.azure.com/)
+2. On the left panel, scroll down to the **Monitoring** section in a click **Alerts**
 3. Create, view, and/or edit your alerts
 
-For additional support on managing alerts, check out the following [article](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric)
+For additional support on managing alerts, check out the following [article](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric).
 
-
-## Additional Resources
+## **Recommended Documents**
 
 Here is a list of additional resources which may be helpful:
 

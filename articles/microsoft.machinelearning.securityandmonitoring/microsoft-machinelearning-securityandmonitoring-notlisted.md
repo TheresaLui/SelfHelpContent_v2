@@ -15,7 +15,7 @@
 
 # My issue is not listed here
 
-## **Recommended Steps**
+## **Recommended Documents**
 
 Here is a list of resources which may be helpful:
 
@@ -26,7 +26,7 @@ Here is a list of resources which may be helpful:
 * [Secure web services with SSL](https://docs.microsoft.com/azure/machine-learning/how-to-secure-web-service)
 * [Use AAD identity in AKS deployments](https://docs.microsoft.com/azure/machine-learning/how-to-use-azure-ad-identity)
 * [Regenerate storage access keys](https://docs.microsoft.com/azure/machine-learning/how-to-change-storage-access-key)
-* [Set up athentication](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
+* [Set up authentication](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
 * [Monitor Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/monitor-azure-machine-learning)
 
 **General Azure Machine Learning**
