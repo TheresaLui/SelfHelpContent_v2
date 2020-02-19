@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # The virtual machine is not running

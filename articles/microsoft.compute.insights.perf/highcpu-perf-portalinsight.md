@@ -21,7 +21,7 @@
 ## **Do you know there were several High CPU instances on this <!--$vmname-->[vmname]<!--/$vmname--> in last 24 hrs?**
 
 <!--issueDescription-->
-Our diagnostics show there were several instances where Average Max CPU on this VM was above 90%.
+Our diagnostics show there were several instances where Average Max CPU counter on this VM was above 90% (10 minute time window) over the last 24 hours.
 <!--/issueDescription-->
 
 **What can cause CPU spike on a VM?**
