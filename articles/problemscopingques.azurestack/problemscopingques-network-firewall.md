@@ -178,6 +178,7 @@
                 }
             ],
             "required": false
+            "infoBalloonText": "Choose All tenants if all tenants has=ve been impacted"
         },
         {
             "id": "Subscription_name",
