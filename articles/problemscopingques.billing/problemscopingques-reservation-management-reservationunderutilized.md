@@ -1,14 +1,14 @@
 <properties
-articleId="Reservation Management-problemscopingques-reservation underutilized"
-pageTitle="Reservation Management-reservation underutilized"
-description="Reservation Management-reservation underutilized"
-authors="prdasneo"
-ms.author="prdasneo"
-selfHelpType="problemScopingQuestions"
-supportTopicIds="32690275"
-productPesIds="15659"
-cloudEnvironments="public, Mooncake, Fairfax"
-schemaVersion="1"
+	articleId="Reservation Management-problemscopingques-reservation underutilized"
+	pageTitle="Reservation Management-reservation underutilized"
+	description="Reservation Management-reservation underutilized"
+	authors="prdasneo"
+	ms.author="prdasneo"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32690275"
+	productPesIds="15659"
+	cloudEnvironments="public, Mooncake, Fairfax, Backforest"
+	schemaVersion="1"
 />
 # Reservation Management-reservation underutilized
 ---
@@ -143,8 +143,8 @@ schemaVersion="1"
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide any additional information about your issue",
-            "required": true           
-        }
+            "required": true
+	    }
     ],
     "$schema": "SelfHelpContent"
 }
