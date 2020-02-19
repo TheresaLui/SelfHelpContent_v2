@@ -33,7 +33,7 @@ For example, the following command installs the SDK with the `explain` and `auto
 pip install --upgrade azureml-sdk[explain,automl]
 ```
 
-For a list of all the optional components, see the following [table](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/install?view=azure-ml-py#advanced-install-extras).
+For a list of all the optional components, see the following [table](https://docs.microsoft.com/python/api/overview/azure/ml/install?view=azure-ml-py#advanced-install-extras).
 
 ### **Azure Machine Learning CLI**
 
@@ -55,7 +55,7 @@ For more information, see the following [document](https://docs.microsoft.com/az
 
 Here is a list of additional resources which may be helpful:
 
-* [Azure Machine Learning Python SDK install guide](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/install?view=azure-ml-py)
+* [Azure Machine Learning Python SDK install guide](https://docs.microsoft.com/python/api/overview/azure/ml/install?view=azure-ml-py)
 * [Azure Machine Learning Python SDK reference docs](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)
 * [Azure Machine Learning CLI overview](https://docs.microsoft.com/azure/machine-learning/reference-azure-machine-learning-cli)
 * [Azure Machine Learning CLI reference docs](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/?view=azure-cli-latest)
