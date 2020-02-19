@@ -177,8 +177,7 @@
                     "text": "Single tenant"
                 }
             ],
-            "required": false
-            "infoBalloonText": "Choose All tenants if all tenants have been impacted"
+            "required": false,
         },
         {
             "id": "Subscription_name",
@@ -187,7 +186,7 @@
             "controlType": "textbox",
             "displayLabel": "Tenant ID",
             "watermarkText": "ID of the tenant",
-            "required": false
+            "required": false,
         },
         {
           "id": "check_firewall",
@@ -206,7 +205,7 @@
                     "text": "No"
                 }
             ],
-            "required": false
+            "required": false,
         },
         {
             "id": "rg_vnet_name",
@@ -215,7 +214,7 @@
             "controlType": "textbox",
             "displayLabel": " What is the name of resource group or virtual network?",
             "watermarkText": "Name of the resource group or virtual network",
-            "required": false
+            "required": false,
         },
         {
           "id": "has_worked",
@@ -233,7 +232,7 @@
                     "text": "No"
                 }
             ],
-            "required": false
+            "required": false,
         },
         {
             "id": "error_message",
@@ -241,8 +240,8 @@
             "visibility": "has_worked == No",
             "controlType": "textbox",
             "displayLabel": "What is the error message?",
-           "watermarkText": "Provide the error message you received if any",
-             "required": true
+            "watermarkText": "Provide the error message you received if any",
+            "required": true,
         },
         {
             "id": "build_2002",
@@ -256,7 +255,7 @@
                 },{
                     "value": "No",
                     "text": "No"
-            "required": true
+            "required": true,
         },
         {
             "id": "connected_deployment",
@@ -271,7 +270,7 @@
                 },{
                     "value": "No",
                     "text": "No"
-            "required": true
+            "required": true,
         },
         {
             "id": "cloud_id",
@@ -280,7 +279,7 @@
             "controlType": "textbox",
             "displayLabel": "Learn how to <a href='https://review.docs.microsoft.com/en-us/azure-stack/operator/azure-stack-find-cloud-id?view=azs-2002&branch=release-2002'>find the Cloud Stamp ID</a>",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "required": true
+            "required": true,
         },
         {
             "id": "enable_proactive_log_collection",
@@ -294,14 +293,14 @@
                 },{
                     "value": "No",
                     "text": "No",
-            "required": false
+            "required": false,
         },
         {
             "id": "problem_start_time",
             "order": 900,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true
+            "required": true,
         },
         {
             "id": "problem_description",
@@ -310,7 +309,7 @@
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "useAsAdditionalDetails": true,
-            "required": true
+            "required": true,
         }
     ],
     "$schema": "SelfHelpContent"
