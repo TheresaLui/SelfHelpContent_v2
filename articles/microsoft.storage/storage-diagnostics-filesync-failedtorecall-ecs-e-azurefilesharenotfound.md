@@ -24,7 +24,7 @@ Azure File Sync failed to recall file(s) for one or more server endpoints under 
 
 ## **Recommended Steps**
 To resolve this issue, Ensure Azure File Sync has access to the storage account by performing the following steps in azure portal:
-# [Portal](#tab/azure-portal)
+
 1. Click **Access control (IAM)** on the left-hand table of contents.
 1. Click the **Role assignments** tab to the list the users and applications (*service principals*) that have access to your storage account.
 1. Verify **Hybrid File Sync Service** appears in the list with the **Reader and Data Access** role. 
