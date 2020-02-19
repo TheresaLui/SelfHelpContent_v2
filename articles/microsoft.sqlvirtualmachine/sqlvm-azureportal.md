@@ -13,7 +13,7 @@
 	supportTopicIds="32633494"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 />
 
 # tools and portal/azure portal

@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
-	articleId="compute-virtualdiskmgmt-resizedisk"
+	articleId="6c90898f-7758-42e3-97bf-d85745fe6c08"
 />
 
 # Resolving issues with VM Disk Management

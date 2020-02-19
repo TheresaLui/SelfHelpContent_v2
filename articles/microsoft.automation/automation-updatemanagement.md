@@ -23,6 +23,9 @@ For general questions about Update Management scenarios, see [Update Management 
 
 First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
 
+### **Prerequsites for Update Management**
+* The [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management) covers [supported clients](https://docs.microsoft.com/azure/automation/automation-update-management#clients), [required permissions](https://docs.microsoft.com/azure/automation/automation-update-management#permissions), and [network requirements ](https://docs.microsoft.com/azure/automation/automation-update-management#ports)
+
 ### **Desired automation account, region, or Log Analytics workspace is greyed out**
 
 * Only certain regions are supported for linking Log Analytics and Automation Accounts, which is required for Update Management. See the ["Workspace Mappings"](https://docs.microsoft.com/azure/automation/how-to/region-mappings) document for the full list of supported regions.
@@ -38,15 +41,21 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 * For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
 * Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
 
-### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
+### **"The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already enrolled into Update Management
 * A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
+* Follow the steps in ["Machine is already registered to a different account" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#machine-already-registered)
+
+### **The VM reports to another workspace..."**
+
+* Follow the steps in ["Machine is already registered to a different account" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#machine-already-registered)
 
 ### **Machine shows as "not assessed"**
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
+* If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 * Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 ### **Remove machine from Update Management**
@@ -55,8 +64,8 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Machines don't install updates**
 
-* Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
-* If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Clean up resources"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#clean-up-resources)
+* Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide for Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult). For Linux, see the [documentation allowing access to repositories](https://docs.microsoft.com/azure/automation/automation-update-management#linux). 
+* See the ["Failed to Start" troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#failed-to-start)
 
 ### **"No computers match the Update deployment target specification" error received**
 
@@ -73,7 +82,7 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Machines update without an update deployment**
 
-* If machines are receiving updates without an update deployment, please see the note under ["Install Updates" of the Update Management overview document](https://docs.microsoft.com/azure/automation/automation-update-management#install-updates).
+*See ["Updates are installed without a deployment"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#updates-nodeployment).
 
 ### **I know updates are available, but they don't show as needed on my machines**
 
