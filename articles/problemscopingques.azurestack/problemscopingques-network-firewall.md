@@ -151,11 +151,11 @@
             "dropdownOptions": [
                 {
                     "value": "Yes",
-                    "text": "Yes"
+                    "text": "Yes",
                 },
                 {
                     "value": "No",
-                    "text": "No"
+                    "text": "No",
                 }
             ],
             "required": false,
@@ -170,11 +170,11 @@
             "dropdownOptions": [
                 {
                     "value": "All tenants",
-                    "text": "All tenants"
+                    "text": "All tenants",
                 },
                 {
                     "value": "Single tenant",
-                    "text": "Single tenant"
+                    "text": "Single tenant",
                 }
             ],
             "required": false
@@ -198,11 +198,11 @@
             "dropdownOptions": [
                 {
                     "value": "Yes",
-                    "text": "Yes"
+                    "text": "Yes",
                 },
                 {
                     "value": "No",
-                    "text": "No"
+                    "text": "No",
                 }
             ],
             "required": false
@@ -225,11 +225,11 @@
             "dropdownOptions": [
                 {
                     "value": "Yes",
-                    "text": "Yes"
+                    "text": "Yes",
                 },
                 {
                     "value": "No",
-                    "text": "No"
+                    "text": "No",
                 }
             ],
             "required": false
@@ -240,8 +240,8 @@
             "visibility": "has_worked == No",
             "controlType": "textbox",
             "displayLabel": "What is the error message?",
-           "watermarkText": "Provide the error message you received if any",
-             "required": true
+            "watermarkText": "Provide the error message you received if any",
+            "required": true
         },
         {
             "id": "build_2002",
@@ -251,10 +251,10 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
-                    "text": "Yes"
+                    "text": "Yes",
                 },{
                     "value": "No",
-                    "text": "No"
+                    "text": "No",
             "required": true
         },
         {
@@ -266,10 +266,10 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
-                    "text": "Yes"
+                    "text": "Yes",
                 },{
                     "value": "No",
-                    "text": "No"
+                    "text": "No",
             "required": true
         },
         {
@@ -289,7 +289,7 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
-                    "text": "Yes"
+                    "text": "Yes",
                 },{
                     "value": "No",
                     "text": "No",
