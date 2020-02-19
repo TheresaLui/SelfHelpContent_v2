@@ -48,6 +48,7 @@ aci_service = Model.deploy(workspace=ws,
 						   deployment_config=aci_config)
 aci_service.wait_for_deployment(True)
 ```
+
 To consume the web service, use `aci_service.get_keys()` to fetch the key and set this in the authorization header:
 
 ```
@@ -64,15 +65,10 @@ test_sample = json.dumps({'data': [
 
 response = requests.post(aci_service.scoring_uri, data=test_sample, headers=headers)
 ```
+
 To regenerate a key, use the `regen_key()` function and pass either **Primary** or **Secondary**:
 
-```
-aci_service.regen_key('Primary')
-```
-or
-```
-aci_service.regen_key('Secondary')
-```
+`aci_service.regen_key('Primary')` or `aci_service.regen_key('Secondary')`
 
 ### **For Token-based Authentication**
 
