@@ -255,6 +255,7 @@
                 },{
                     "value": "No",
                     "text": "No",
+                  }  
             "required": true
         },
         {
@@ -270,6 +271,7 @@
                 },{
                     "value": "No",
                     "text": "No",
+                  }
             "required": true
         },
         {
@@ -293,6 +295,7 @@
                 },{
                     "value": "No",
                     "text": "No",
+                  }  
             "required": false
         },
         {
