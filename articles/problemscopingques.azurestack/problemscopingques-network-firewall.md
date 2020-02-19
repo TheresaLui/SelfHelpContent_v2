@@ -155,7 +155,7 @@
                 },
                 {
                     "value": "No",
-                    "text": "No",
+                    "text": "No"
                 }
             ],
             "required": false,
@@ -174,7 +174,7 @@
                 },
                 {
                     "value": "Single tenant",
-                    "text": "Single tenant",
+                    "text": "Single tenant"
                 }
             ],
             "required": false
@@ -198,11 +198,11 @@
             "dropdownOptions": [
                 {
                     "value": "Yes",
-                    "text": "Yes",
+                    "text": "Yes"
                 },
                 {
                     "value": "No",
-                    "text": "No",
+                    "text": "No"
                 }
             ],
             "required": false
@@ -225,11 +225,11 @@
             "dropdownOptions": [
                 {
                     "value": "Yes",
-                    "text": "Yes",
+                    "text": "Yes"
                 },
                 {
                     "value": "No",
-                    "text": "No",
+                    "text": "No"
                 }
             ],
             "required": false
@@ -251,10 +251,10 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
-                    "text": "Yes",
+                    "text": "Yes"
                 },{
                     "value": "No",
-                    "text": "No",
+                    "text": "No"
                   }  
             "required": true
         },
@@ -267,10 +267,10 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
-                    "text": "Yes",
+                    "text": "Yes"
                 },{
                     "value": "No",
-                    "text": "No",
+                    "text": "No"
                   }
             "required": true
         },
@@ -291,10 +291,10 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
-                    "text": "Yes",
+                    "text": "Yes"
                 },{
                     "value": "No",
-                    "text": "No",
+                    "text": "No"
                   }  
             "required": false
         },
