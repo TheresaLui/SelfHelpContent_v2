@@ -136,4 +136,4 @@ Here is a list of additional resources which may be helpful:
 * [Where and how to deploy](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where)
 * [Setup authentication for Azure Machine Learning resources and workflows](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
 * [Consume an Azure Machine Learning model deployed as a web service](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service)
-* [Azure Machine Learning SDK documentation](https://docs.microsoft.com/python/api/overview/azureml-sdk/?view=azure-ml-py)
+* [Azure Machine Learning SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)

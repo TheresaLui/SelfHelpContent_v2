@@ -38,12 +38,12 @@ The SDK also contains several optional components (`extras`) that will only be i
 pip install --upgrade azureml-sdk[explain,automl]
 ```
 
-For a list of all the optional components, see the following [table](https://docs.microsoft.com/python/api/overview/azureml-sdk/install?view=azure-ml-py#advanced-install-extras).
+For a list of all the optional components, see the following [table](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/install?view=azure-ml-py&viewFallbackFrom=azure-ml-py#advanced-install-extras).
 
 
 ## **Recommended Documents**
 
 Here is a list of additional resources which may be helpful:
 
-* [Install Azure Machine Learning Python SDK](https://docs.microsoft.com/python/api/overview/azureml-sdk/install?view=azure-ml-py)
-* [Azure Machine Learning Python SDK reference docs](https://docs.microsoft.com/python/api/overview/azureml-sdk/?view=azure-ml-py)
+* [Install Azure Machine Learning Python SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/install?view=azure-ml-py)
+* [Azure Machine Learning Python SDK reference docs](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)

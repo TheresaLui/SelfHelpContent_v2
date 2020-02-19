@@ -64,6 +64,6 @@ Once the workspace has been created or workspace details have been retrieved, us
 Here is a list of additional resources which may be helpful:
 
 * [What is an Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/concept-workspace)
-* [Azure Machine Learning Python SDK reference docs](https://docs.microsoft.com/python/api/overview/azureml-sdk/?view=azure-ml-py)
+* [Azure Machine Learning Python SDK reference docs](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)
 * [Create and manage workspace using Azure CLI](https://docs.microsoft.com/azure/machine-learning/how-to-manage-workspace-cli)
 * [Azure Machine Learning CLI reference docs](https://docs.microsoft.com/cli/azure/ext/azure-cli-ml/?view=azure-cli-latest)
