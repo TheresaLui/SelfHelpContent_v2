@@ -14,6 +14,10 @@
 	articleId="f19125d0-6031-47ed-b63f-26fd7c8ad960"
 />
 
+# Migration and Move/Guidance regarding retirement of Classic IAAS resources (ASM)
+
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## Migrate your IaaS resources to Azure Resource Manager by March 1, 2023
 
 In 2014, we launched IaaS on Azure Resource Manager, and have been enhancing capabilities ever since. Because it replaces IaaS resources from Azure Service Manager (ASM), we have started a 3 year retirement process for classic VMs beginning February 24th, 2020 and ending on March 1, 2023.<br>
