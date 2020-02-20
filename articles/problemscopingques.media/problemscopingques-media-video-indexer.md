@@ -1,7 +1,7 @@
 <properties
     pageTitle="Video Indexer common questions for support"
     description="Video Indexer common questions for support"
-    authors="ReutAmior"
+    authors="t-reutam"
     ms.author="ReutAmior"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32606552, 32606554, 32606567, 32606556, 32606569, 32606562, 32606555, 32606559, 32606558, 32606572, 32606551, 32606553, 32606557, 32606564, 32606566, 32606568, 32606570, 32606573, 32606560, 32606565"
