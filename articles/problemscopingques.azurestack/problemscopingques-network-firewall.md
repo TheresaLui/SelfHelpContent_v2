@@ -297,9 +297,9 @@
             "visibility": "connected_deployment == Yes",
             "order": 15,
             "controlType": "textbox",
-            "displayLabel": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find the Cloud Stamp ID</a>",
+            "displayLabel": "Enter your the Cloud Stamp ID",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "See how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>Find your Cloud ID</a>",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find your Cloud ID</a>",
             "required": true
         },
         {
