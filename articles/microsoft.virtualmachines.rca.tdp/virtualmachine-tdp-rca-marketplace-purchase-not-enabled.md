@@ -41,7 +41,7 @@ After the new Azure Marketplace subscriptions are activated under your Azure EA 
 
 ## **Recommended Documents**
 
-- [Get started with the Azure Enterprise portal](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/ea-portal-get-started)<br>
+- [Get started with the Azure Enterprise portal](https://docs.microsoft.com/azure/cost-management-billing/manage/ea-portal-get-started)<br>
 - [Find Windows VM images in the Azure Marketplace with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage)<br>
 - [Find Linux VM images in the Azure Marketplace with the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage)<br>
 - [Marketplace FAQs](https://docs.microsoft.com/azure/marketplace/marketplace-faq-publisher-guide)
