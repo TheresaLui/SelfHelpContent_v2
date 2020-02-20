@@ -16,13 +16,13 @@
 
 # Deleting an Azure Migrate Project and associated artifacts
 
-## **Recommended steps**  
+## **Recommended Steps**  
 
 ### **Deleting an Azure Migrate project**
 
 To delete an Azure Migrate project and its associated resources including sites, recovery services vaults, migrate vaults, key vaults, assessment projects etc, go to "Resource groups" page on the Azure portal, select the resource group where the migrate project was created and select "Show hidden types". Then select the migrate project and its associated resources as shown in the table below and delete them. Alternatively, if the resource group is exclusively used by the migrate project and its associated resources, you can delete the entire resource group. Note that the table presents an exhaustive list of all resource types created for all scenarios (discovery, assessment and migration). You will only find the resources that were created for your scenario in the resource group.
 
-### Resources created for servers on VMware or physical servers [Resource (Type)]:
+### Resources created for servers on VMware or physical servers [Resource (Type)]
 
 - "Appliancename"kv (Key vault)
 - "Appliancename"site (Microsoft.OffAzure/VMwareSites)
@@ -36,7 +36,7 @@ To delete an Azure Migrate project and its associated resources including sites,
 - migrateapplikv* (Key vault)
 - migrateapplisbns16041 (Service Bus Namespace)
 
-### Resources created for servers on Hyper-V [Resource (Type)]:
+### Resources created for servers on Hyper-V [Resource (Type)]
 
 - "ProjectName" (Microsoft.Migrate/migrateprojects)
 - "ProjectName"project (Microsoft.Migrate/assessmentProjects)
