@@ -36,6 +36,7 @@
 1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
 2. Zip all the contents under the MSIP folder
 3. Save the logs to your choice of location, and attach them to your service request
+4. You can also use [Export-AIPLogs -OnBehalfOf](https://docs.microsoft.com/powershell/module/azureinformationprotection/export-aiplogs?view=azureipps)
 
 ## **Recommended Documents**
 
