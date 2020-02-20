@@ -1,7 +1,7 @@
 <properties
     pageTitle="Using Video Indexer's API"
     description="Using Video Indexer's API"
-    authors="ReutAmior"
+    authors="t-reutam"
     ms.author="ReutAmior"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32606550, 32606561, 32606563, 32606574"
