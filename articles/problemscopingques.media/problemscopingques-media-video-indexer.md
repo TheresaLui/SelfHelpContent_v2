@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Video Indexer common questions for support",
     "fileAttachmentHint": "",
     "formElements": [

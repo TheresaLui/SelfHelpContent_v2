@@ -16,11 +16,12 @@
 	productPesIds="17005"
 	cloudEnvironments="public"
 />
-
 # Partner Center Incentives: Enrollment, eligibility, earnings, payments, and policy
+
 
 ## **Recommended Documents**
 These resources explain enrollment, eligibility, earnings, payments, and policy for incentives programs in Partner Center.
+
 
 
 ### **Getting Started with Incentives in Partner Center**
