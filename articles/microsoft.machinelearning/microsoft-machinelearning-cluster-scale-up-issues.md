@@ -18,9 +18,9 @@ This helps users diagnose some common issues they might be facing when their clu
 
 ## **Recommended Steps**
 
-1. Check if you have enough quota by going to the "Quotas + Usages" section in your workspace for the region you are experiencing this issue in. It is possible that you don't have sufficient quota for that VMsize
+1. Check if you have enough quota by going to the "Quotas + Usages" section in your workspace for the region you are experiencing this issue in. It is possible that you don't have sufficient quota for that VMsize.
 2. Check if you have an error on the compute by clicking on the Information icon on the portal or by calling the get_status() method in the SDK
-3. Check to see if there is capacity in the Azure region that you are trying to create this compute in. It is possible that either the region is out of capacity or your VMsize is not supported in that region
+3. Check to see if there is capacity in the Azure region that you are trying to create this compute in. It is possible that either the region is out of capacity or your VMsize is not supported in that region.
 4. Check to see if there are any network setup issues that are preventing Azure to connect with the node. For example your NSG or firewall rules could be preventing the nodes to scale up.
 
 ## **Recommended Documents**
