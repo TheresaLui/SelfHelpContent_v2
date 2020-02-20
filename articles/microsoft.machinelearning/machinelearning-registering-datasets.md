@@ -3,7 +3,7 @@
     description="Creating or registering datasets"
     service="microsoft.machinelearning"
     resource="dataset"
-    authors="xunwan"
+    authors="SturgeonMi"
     ms.author="xunwan"
     selfHelpType="generic"
     supportTopicIds="32690849"
@@ -17,4 +17,4 @@
 
 ## **Recommended Documents**
 
-* [How to create or register datasets](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-register-datasets)<br>
+* [How to create or register datasets](https://docs.microsoft.com/azure/machine-learning/how-to-create-register-datasets)<br>
