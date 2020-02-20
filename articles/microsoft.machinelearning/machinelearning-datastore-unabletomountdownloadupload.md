@@ -15,7 +15,7 @@
 
 # Unable to mount, download, upload to a datastore
 
-After retriving a datastore from the workspace, if you are unable to mount, download, or upload to the datastores, follow the steps below to diagnose and resolve the issue. 
+After retrieving a datastore from the workspace, if you are unable to mount, download, or upload to the datastores, follow the steps below to diagnose and resolve the issue. 
 
 ## **Recommended Steps**
 

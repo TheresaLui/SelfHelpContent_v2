@@ -15,7 +15,7 @@
 
 # Accessing datasets in ML experiments
 
-Most users are able to learn how to accesss datasets using the steps below
+Most users are able to learn how to access datasets using the steps below
 
 ## **Recommended Steps**
 
