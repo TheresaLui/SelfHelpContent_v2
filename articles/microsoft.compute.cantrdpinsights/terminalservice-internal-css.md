@@ -24,7 +24,7 @@ We have investigated and identified that the Terminal Service is not running on 
 
 ## **Recommended Steps**
 
-Before proceeding further please ensure to take a back up of the OS Disk. This will help if a rollback is required.
+Before proceeding further please ensure to take a backup of the OS Disk. This will help if a rollback is required.
 
  * For managed disk VMs: [Create a managed snapshot](https://docs.microsoft.com/azure/virtual-machines/windows/snapshot-copy-managed-disk)
  * For unmanaged disk VMs: [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm)
