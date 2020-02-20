@@ -27,4 +27,4 @@ This helps users diagnose some common issues they might be facing when their clu
 
 * [Learn how to view your quota](https://docs.microsoft.com/azure/machine-learning/how-to-manage-quotas#view-your-usage-and-quotas)
 * [View supported regions for various VMsizes](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines)
-* [Learn more about setting up your VNet for managed compute](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network#compute)
+* [Learn more about setting up your VNet for managed compute](https://docs.microsoft.com/azure/machine-learning/how-to-enable-virtual-network#compute)
