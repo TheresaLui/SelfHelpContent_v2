@@ -269,7 +269,7 @@
                     "text": "Don't know"
                 }
             ],
-            "infoBalloonText": "See steps to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>Determine the Current Version</a>",
+            "infoBalloonText": "See steps to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current version</a>",
             "required": true
         },
         {
@@ -277,7 +277,7 @@
             "visibility": "build_2002 == Yes",
             "order": 14,
             "controlType": "dropdown",
-            "displayLabel": "Can you connect to the internet?",
+            "displayLabel": "Can Azure Stack connect to Azure?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
