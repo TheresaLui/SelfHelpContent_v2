@@ -162,7 +162,7 @@
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },
         {
-            "id": "tenant_all_single",
+            "id": "tenant_single",
             "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Does the issue occur in a specific tenant or all tenants?",
@@ -175,6 +175,9 @@
                 {
                     "value": "Single tenant",
                     "text": "Single tenant"
+                },{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": false
@@ -182,7 +185,7 @@
         {
             "id": "Subscription_name",
             "order": 7,
-            "visibility": "tenant_all_single == Single tenant",
+            "visibility": "tenant_single == Single tenant",
             "controlType": "textbox",
             "displayLabel": "Tenant ID",
             "watermarkText": "ID of the tenant",
@@ -192,7 +195,7 @@
           "id": "check_firewall",
             "order": 8,
             "controlType": "dropdown",
-            "visibility": "tenant_all_single == Single tenant",
+            "visibility": "tenant_single == Single tenant",
             "displayLabel": "Does the issue occur in a certain resource group or virtual network?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
@@ -203,6 +206,9 @@
                 {
                     "value": "No",
                     "text": "No"
+                },{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": false
