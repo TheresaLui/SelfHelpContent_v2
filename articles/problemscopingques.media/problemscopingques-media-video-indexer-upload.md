@@ -1,7 +1,7 @@
 <properties
     pageTitle="Uploading a video to Video Indexer"
     description="Uploading a video to Video Indexer"
-    authors="ReutAmior"
+    authors="t-reutam"
     ms.author="ReutAmior"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32606571"
