@@ -5,7 +5,7 @@
 	resource="aip"
 	authors="orbarak-ms"
 	ms.author="orbarak"
-	articleID="reportingandanalysis_adminlogs"
+	articleID="reportingandanalysis_configazurermslogs"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32727940"
