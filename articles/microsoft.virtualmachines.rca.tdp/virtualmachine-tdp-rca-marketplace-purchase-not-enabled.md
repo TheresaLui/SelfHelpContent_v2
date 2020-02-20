@@ -37,7 +37,7 @@ The account owner can now purchase any Azure Marketplace services that were prev
 
 After the new Azure Marketplace subscriptions are activated under your Azure EA enrollment, cancel the Azure Marketplace services that were created in the Pay-As-You-Go environment. This step is critical so that your Azure Marketplace subscriptions do not fall into a bad state when your Pay-As-You-Go payment instrument expires.<br>
 
-* If you have an Azure Enterprise account, you can enable the purchase directly in the [Microsoft Azure Enterprise Portal](https://ea.azure.com/)<br>
+**If you have an Azure Enterprise account**, you can enable the purchase directly in the [Microsoft Azure Enterprise Portal](https://ea.azure.com/)<br>
 
 ## **Recommended Documents**
 
