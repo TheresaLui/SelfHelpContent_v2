@@ -84,7 +84,7 @@
                 },
                 {
                     "value": "West Europe",
-                    "text": "Mozilla Firefox 42 or higher"
+                    "text": "West Europe"
                 },
                 {
                     "value": "Japan East",
