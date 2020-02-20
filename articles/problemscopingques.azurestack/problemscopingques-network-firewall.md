@@ -170,7 +170,7 @@
             "dropdownOptions": [
                 {
                     "value": "All tenants",
-                    "text": "All tenants",
+                    "text": "All tenants"
                 },
                 {
                     "value": "Single tenant",
@@ -256,6 +256,7 @@
                     "value": "No",
                     "text": "No"
                   }  
+            ],
             "required": true
         },
         {
@@ -273,6 +274,7 @@
                     "text": "No"
                   }
             "required": true
+            ],
         },
         {
             "id": "cloud_id",
@@ -296,6 +298,7 @@
                     "value": "No",
                     "text": "No"
                   }  
+            ],
             "required": false
         },
         {
