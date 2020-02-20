@@ -21,7 +21,7 @@ After retrieving a datastore from the workspace, if you are unable to mount, dow
 
 1. Check the type of your datastore. You can do so by running the following code:
 
-```python
+```
 datastore = workspace.datastores['YourDatastoreName']
 print(datastore)
 ```
