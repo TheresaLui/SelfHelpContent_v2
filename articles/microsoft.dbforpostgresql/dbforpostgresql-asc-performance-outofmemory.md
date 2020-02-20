@@ -13,7 +13,7 @@
     supportTopicIds="32639985,32639986,32639987,32640019,32640025,32640026,32640027"
     resourceTags="windows, linux"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Server is facing out of memory errors
