@@ -131,7 +131,7 @@
             "displayLabel": "Current Build Number",
             "watermarkText": "Example: 1.1903.0.35",
             "required": false,
-            "infoBalloonText": "Includes hotfixes. See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>"
+            "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
             "id": "region_name",
