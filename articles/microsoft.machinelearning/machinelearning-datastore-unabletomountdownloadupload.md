@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="Unable to mount, download, upload to a datastore"
 	description="Unable to mount, download, upload to a datastore"
@@ -11,7 +10,7 @@
 	resourceTags=""
 	productPesIds="16644"
 	cloudEnvironments="Public"
-	articleID="machinelearning-datastore-unabletomountdownloadupload"
+	articleid="machinelearning-datastore-unabletomountdownloadupload"
 />
 
 # Unable to mount, download, upload to a datastore
