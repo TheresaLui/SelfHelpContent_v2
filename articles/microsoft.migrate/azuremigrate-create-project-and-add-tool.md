@@ -18,7 +18,7 @@
 
 ### **Do I need to pay for Azure Migrate and the non-Microsoft ISV tools that I plan to use?**
 
-Azure Migrate and the in-built Server Assessment, Server Migration tools are available at [no additional charge](https://azure.microsoft.com/pricing/details/azure-migrate). However, you may incur charges for other non-Microsoft/ISV assessment and migration tools you use while using Azure Migrate. 
+Azure Migrate and the in-built Server Assessment, Server Migration tools are available at [no additional charge](https://azure.microsoft.com/pricing/details/azure-migrate). However, you may incur charges for other non-Microsoft/ISV assessment and migration tools you use while using Azure Migrate.
 
 ### **I don't see a particular geography when creating the Azure Migrate project**
   
@@ -61,7 +61,6 @@ To delete an Azure Migrate project and its associated resources including sites,
 - migrateapplikv* (Key vault)
 - migrateapplisbns16041 (Service Bus Namespace)
 
-
 ### Resources created for servers on Hyper-V [Resource (Type)]:
 
 - "ProjectName" (Microsoft.Migrate/migrateprojects)
@@ -70,4 +69,4 @@ To delete an Azure Migrate project and its associated resources including sites,
 - HyperV*site (Microsoft.OffAzure/HyperVSites)
 - "ProjectName"-MigrateVault-* (Recovery Services vault)
 
-For more details please have a look at the article [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-delete-project).
+For more details around project deletion please have a look at the article [here](https://docs.microsoft.com/azure/migrate/how-to-delete-project).
