@@ -289,7 +289,7 @@
                     "text": "Don't know"
                 }
             ],
-            "infoBalloonText": "See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>"
+            "infoBalloonText": "See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>",
             "required": true
         },
         {
@@ -299,7 +299,7 @@
             "controlType": "textbox",
             "displayLabel": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find the Cloud Stamp ID</a>",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "See how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>Find your Cloud ID</a>"
+            "infoBalloonText": "See how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>Find your Cloud ID</a>",
             "required": true
         },
         {
