@@ -15,7 +15,7 @@
 {
    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Uploading a video to Video Indexer",
     "fileAttachmentHint": "",
     "formElements": [
