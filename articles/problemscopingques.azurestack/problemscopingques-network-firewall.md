@@ -151,7 +151,7 @@
             "dropdownOptions": [
                 {
                     "value": "Yes",
-                    "text": "Yes",
+                    "text": "Yes"
                 },
                 {
                     "value": "No",
