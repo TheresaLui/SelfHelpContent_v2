@@ -13,7 +13,7 @@
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public"
 />
 # Can't connect to Postgres server: incorrect password
 

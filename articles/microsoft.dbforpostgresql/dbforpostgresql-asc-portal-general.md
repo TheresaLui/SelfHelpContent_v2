@@ -13,7 +13,7 @@
 	supportTopicIds="32639971"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public"
 />
 
 # Having trouble with Azure Portal
