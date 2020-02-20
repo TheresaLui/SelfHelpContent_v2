@@ -26,7 +26,8 @@ We have investigated and identified that the Netlogon service is not running on 
 ## **Recommended Steps**
 To resolve the issue, please try the steps below using the Azure virtual machine serial console.  If you are unfamiliar with the serial console or would like additional information, please refer to the user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
 
-#### From the console: ####
+### From the console
+
   * Query the state of the service by executing `sc query Netlogon`
   * If the service is stopped, try starting the service by executing `sc start Netlogon`
   * If the service is hung with a status starting or stopping, try to stop the service `sc stop Netlogon` and start it again using `sc start Netlogon`
