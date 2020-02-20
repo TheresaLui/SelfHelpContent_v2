@@ -4,7 +4,7 @@
 	authors="Passaree"
         ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32605567"
+	supportTopicIds="32605567,32691090"
 	productPesIds="15629"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
@@ -18,23 +18,28 @@
     "resourceRequired": false,
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Want to check Replication Eligibility?",
+        "description": "Check replication eligibility before proceed",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with the replication. Please ensure the information provided is accurate and in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
          {
             "id": "target_replication_type",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Target replication type",
- 	    "watermarkText": "Choose an option",
+ 	        "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "zrs",
                     "text": "To ZRS"
                 },
-		 {
+		        {
                     "value": "gzrs",
                     "text": "To GZRS"
                 },
-		 {
+		        {
                     "value": "ragzrs",
                     "text": "To RA-GZRS"
                 },
@@ -43,7 +48,8 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
 	{
             "id": "storage_account_from",
@@ -51,7 +57,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Storage accounts from",
             "watermarkText": "AccountName1;AccountName2;AccountName3",
-            "required": true
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",

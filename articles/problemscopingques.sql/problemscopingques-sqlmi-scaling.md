@@ -54,6 +54,13 @@
             "required": false
         },
         {
+            "id": "error_message",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What error message (if any) are you getting?",
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",

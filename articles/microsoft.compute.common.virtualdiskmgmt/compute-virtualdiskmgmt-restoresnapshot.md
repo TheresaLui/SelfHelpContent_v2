@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
-	articleId="compute-virtualdiskmgmt-restoresnapshot"
+	articleId="139e0b4c-3609-4472-930e-e61306f5818e"
 />
 
 # Resolving issues with VM Disk Management
