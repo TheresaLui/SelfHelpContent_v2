@@ -273,8 +273,8 @@
                     "value": "No",
                     "text": "No"
                   }
-            "required": true
             ],
+            "required": true
         },
         {
             "id": "cloud_id",
