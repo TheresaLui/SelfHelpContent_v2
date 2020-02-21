@@ -7,7 +7,7 @@
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder=""
-	articleId="UnexpectedVMReboot_Node_Reboot_Hardware_Disk_Failure"
+	articleId="UnexpectedVMReboot_Node_Reboot_Hardware_CPU_Failure"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds="32411816"
