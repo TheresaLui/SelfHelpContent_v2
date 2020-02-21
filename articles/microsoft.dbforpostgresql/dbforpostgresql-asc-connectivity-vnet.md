@@ -17,7 +17,7 @@
 # Can't connect PostgreSQL database server because of VNET
 
 <!--issueDescription-->
-There are <!--$Count-->Count<!--/$Count--> connection attempts to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> because of VNET. Virtual Network (VNET) service endpoints and rules extend the private address space of a Virtual Network to your Azure Database for PostgreSQL server.
+There are <!--$Count-->Count<!--/$Count--> connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> during period of <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of VNET. Virtual Network (VNET) service endpoints and rules extend the private address space of a Virtual Network to your Azure Database for PostgreSQL server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

@@ -18,7 +18,7 @@
 # Can't connect PostgreSQL database server: planned failover
 
 <!--issueDescription-->
-The server <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC). The server restarted because of a planned failover due to <!--$RCA-->RCA<!--/$RCA-->.
+Your server <!--$ServerName-->ServerName<!--/$ServerName--> was down at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to planned failover with due to <!--$RCA-->RCA<!--/$RCA-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

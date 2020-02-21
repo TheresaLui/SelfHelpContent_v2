@@ -18,7 +18,7 @@
 # Can't connect PostgreSQL database server: unplanned failover
 
 <!--issueDescription-->
-The server <!--$ServerName-->ServerName<!--/$ServerName--> was restarted at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC). The server restarted because of an unplanned failover due to <!--$RCA-->RCA<!--/$RCA-->.
+Your server <!--$ServerName-->ServerName<!--/$ServerName--> was down at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to unplanned failover with due to <!--$RCA-->RCA<!--/$RCA-->.
 <!--/issueDescription-->
 
 ## **Recommended Documents**

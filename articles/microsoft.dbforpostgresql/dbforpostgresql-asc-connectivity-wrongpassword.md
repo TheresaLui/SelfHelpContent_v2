@@ -18,7 +18,7 @@
 # Can't connect to Postgres server: incorrect password
 
 <!--issueDescription-->
-There have been <!--$Count-->Count<!--/$Count--> connection attempts to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> failed between <!--$StartTime-->StartTime<!--/$StartTime--> (UTC) and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC) due to incorrect password entered. 
+There are <!--$Count-->Count<!--/$Count--> failed password authentication to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> during the period of <!--$StartTime-->StartTime<!--/$StartTime--> (UTC) and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). 
 <!--/issueDescription-->
 
 ## **Recommended Steps**

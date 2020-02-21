@@ -17,7 +17,7 @@
 # Can't connect PostgreSQL database server because of VNET
 
 <!--issueDescription-->
-There have been <!--$Count-->Count<!--/$Count--> connection attempts to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> failed between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> because of firewall rules. Firewall rules need to be configured to enable access to your Azure Database for PostgreSQL server.
+There are <!--$Count-->Count<!--/$Count--> connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> failed during the period of <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of firewall rules. Firewall rules need to be configured to enable access to your Azure Database for PostgreSQL server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
