@@ -16,3 +16,9 @@
 # Issues with logging metrics
 
 ## **Recommended Documents**
+If you encounter a "Metric Document is too large" error when logging a metric:
+* [link]()
+
+If you are experiencing any additional issues with logging metrics during training, here is a list of additional resources which may be helpful:
+* [Logging and monitoring run metrics in Azure ML](https://docs.microsoft.com/azure/machine-learning/how-to-track-experiments)
+* [Tracking metrics with MLFlow API](https://docs.microsoft.com/azure/machine-learning/how-to-use-mlflow)
