@@ -6,7 +6,7 @@
 	resource="trainingandexperimentation"
 	authors="mx-iao"
 	ms.author="minxia"
-	supportTopicIds="32690854"
+	supportTopicIds="32690868"
 	productPesIds="16644"
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.trainingandexperimentation.runningexperiments"
