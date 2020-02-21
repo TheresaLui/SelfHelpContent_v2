@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 # Azure File Sync failed error - ECS_E_STORAGE_ACCOUNT_LOCKED 
 <!--issueDescription-->
-Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c83092 or -2134364014**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the storage account has a read-only resource lock.<br/><br/>
+Sync failed for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c83092 or -2134364014**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs because the storage account has a read-only [resource lock](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources).<br/><br/>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
