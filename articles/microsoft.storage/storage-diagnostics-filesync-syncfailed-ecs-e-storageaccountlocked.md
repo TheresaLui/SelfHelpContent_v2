@@ -28,5 +28,5 @@ To resolve this issue, remove the read-only resource lock on the storage account
 ## **Recommended Documents**
 
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
-- [resource lock](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources)
+- [Resource lock](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources)
 
