@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Cost Managment - AWS connector issue"
-	description="Azure Cost Managment - AWS connector issue"
+	pageTitle="Azure Cost Management - AWS connector issue"
+	description="Azure Cost Management - AWS connector issue"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -26,7 +26,7 @@ There are two ways to get permissions to access AWS linked accounts costs:
 	* Get access to the management group that has the AWS Linked accounts
 	* Have someone give you permission to the AWS linked account
 
-By default, the AWS connector creator is the owner of all the objects that the connector created. Including, the AWS consolidated account and the AWS linked account.In order to be able to Verify the connector settings you will need at least a contributor role, reader can not Verify connector settings
+By default, the AWS connector creator is the owner of all the objects that the connector created. Including, the AWS consolidated account and the AWS linked account.In order to be able to Verify the connector settings you will need at least a contributor role, reader cannot Verify connector settings
 
 * **Collection failed with AssumeRole**<br>
 **Error code**: FailedToAssumeRole<br>
