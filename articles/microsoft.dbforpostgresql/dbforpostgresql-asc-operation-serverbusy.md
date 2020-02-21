@@ -31,6 +31,7 @@ and wait for the "userVisibleState" to be in ready state:
 	`"userVisibleState": "Ready"`
 
 ## **Recommended Documents**
+
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 * [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-us/home?forum=AzureDatabaseforPostgreSQL)
 * [Azure CLI for PostgreSQL](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest)

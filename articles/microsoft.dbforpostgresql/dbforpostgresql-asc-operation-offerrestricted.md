@@ -24,7 +24,7 @@ Thank you for contacting Microsoft support team. Your subscription is restrict
 
 ## **Recommended Steps**
 
-Please try other nearby regions.
+* Please try other nearby regions.
 
 ## **Recommended Documents**
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)

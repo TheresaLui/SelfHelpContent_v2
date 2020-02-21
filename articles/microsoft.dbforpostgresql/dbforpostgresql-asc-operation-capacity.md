@@ -23,7 +23,7 @@ Thank you for contacting Microsoft support team. We have detected that there is 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Please use other nearby regions if possible.
+* Please use other nearby regions if possible.
 
 ## **Recommended Documents**
 * [Azure Region Map](https://map.buildazure.com/)

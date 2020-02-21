@@ -22,8 +22,8 @@ Thank you for contacting Microsoft support about your connection issues with Azu
 
 ## **Recommended Steps**
 
-1. To fix this issue, please ensure SSL is configured correctly on the server. You can refer to [this article](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security) for assistance with configuring your client applications to connect to Azure Database for PostgreSQL using SSL. You can download application libraries and connection instructions for many common languages [here](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries).
-2. You can also obtain system-generated connection strings for common application libraries by navigating to your database server in the [Azure Portal](https://portal.azure.com) and click on the "**Connection Strings**" blade.
+* To fix this issue, please ensure SSL is configured correctly on the server. You can refer to [this article](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security) for assistance with configuring your client applications to connect to Azure Database for PostgreSQL using SSL. You can download application libraries and connection instructions for many common languages [here](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries).
+* You can also obtain system-generated connection strings for common application libraries by navigating to your database server in the [Azure Portal](https://portal.azure.com) and click on the "**Connection Strings**" blade.
 
 ## **Recommended Documents**
 
