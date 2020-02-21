@@ -33,3 +33,8 @@ available resources by following article [here](https://docs.microsoft.com/azure
 * [Use Apache Hive to query Apache Hbase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-tutorial-get-started-linux#use-apache-hive-to-query-apache-hbase)
 * [Configure Apache Hive ranger policies to restrict access to Hive tables](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-run-hive)
 * [Run Apache Hive queries using the Data Lake tools for Visual Studio](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-use-hive-visual-studio)
+
+## **Recommended Documents**
+
+* [Refresh the HDInsight certificate for Data Lake Storage Gen1 access](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store?toc=/azure/hdinsight/hadoop/TOC.json&bc=/azure/bread/toc.json#refresh-the-hdinsight-certificate-for-data-lake-storage-gen1-access)
+

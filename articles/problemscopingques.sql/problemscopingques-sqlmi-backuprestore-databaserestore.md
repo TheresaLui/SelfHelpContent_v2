@@ -30,11 +30,18 @@
         {
             "id": "error_code",
             "order": 2,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Error code or error message?",
             "watermarkText": "Provide the error code or error message",
             "required": false,
             "useAsAdditionalDetails": false
+        },
+        {
+            "id": "latest_restore",
+            "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "Latest time you started the restore?",
+            "required": false
         },
         {
             "id": "problem_description",
