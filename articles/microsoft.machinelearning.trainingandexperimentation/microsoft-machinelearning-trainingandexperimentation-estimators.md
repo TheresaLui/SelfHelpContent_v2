@@ -16,5 +16,10 @@
 # Issues with estimators
 
 ## **Recommended Documents**
-
-
+If you are experiencing any issues with using estimators for training, here are some additional resources:
+* [Training with estimators](https://docs.microsoft.com/azure/machine-learning/how-to-train-ml-models?view=azure-ml-py)
+* [Training with scikit-learn](https://docs.microsoft.com/azure/machine-learning/how-to-train-scikit-learn?view=azure-ml-py)
+* [Training with TensorFlow](https://docs.microsoft.com/azure/machine-learning/how-to-train-tensorflow?view=azure-ml-py)
+* [Training with Keras](https://docs.microsoft.com/azure/machine-learning/how-to-train-keras?view=azure-ml-py)
+* [Training with PyTorch](https://docs.microsoft.com/azure/machine-learning/how-to-train-pytorch?view=azure-ml-py)
+* [Training with Chainer](https://docs.microsoft.com/azure/machine-learning/how-to-train-chainer?view=azure-ml-py)
