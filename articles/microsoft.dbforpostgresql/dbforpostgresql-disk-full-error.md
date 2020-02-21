@@ -13,7 +13,7 @@
 	supportTopicIds="32628458, 32628418"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # PostgreSQL server marked read-only because server storage is full
