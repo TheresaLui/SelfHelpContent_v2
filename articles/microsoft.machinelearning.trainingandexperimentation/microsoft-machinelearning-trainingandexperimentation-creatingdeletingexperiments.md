@@ -16,7 +16,7 @@
 # Unable to create or delete an experiment
 ## **Recommended Steps**
 ### Experiment creation
-When creating an experiment, you must provide an experiment name. The name must be 3-36 characters, start with a letter or a number, and can only contain letters, numbers, underscores, and dashes. For more information, see [here](https://docs.microsoft.com/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py)
+When creating an experiment, you must provide an experiment name. The name must be 3-36 characters, start with a letter or a number, and can only contain letters, numbers, underscores, and dashes. For more information, see [here](https://docs.microsoft.com/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py).
 
 ### Experiment deletion
 Permanent deletion of experiments or runs is currently not supported in Azure ML. Archiving of experiments is supported. For more information, see [here - link]().
