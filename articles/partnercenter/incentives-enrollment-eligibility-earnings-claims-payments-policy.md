@@ -22,7 +22,6 @@
 ## **Recommended Documents**
 These resources explain enrollment, eligibility, earnings, claims, payments, and policy for incentives programs in Partner Center.
 
-
 ### **Getting Started with Incentives in Partner Center**
 * [How to check your Incentive roles in Partner Center](https://support.microsoft.com/help/4534700)
 * [I need help finding my global admin](https://support.microsoft.com/help/4534519)
@@ -37,7 +36,7 @@ These resources explain enrollment, eligibility, earnings, claims, payments, and
 
 ### **Earnings**
 * [Incorrect or missing Earnings](https://support.microsoft.com/help/4534675)
-* [Understanding transaction and payment status'](https://support.microsoft.com/help/4534675)
+* [Understanding transaction and payment statuses](https://support.microsoft.com/help/4534675)
 * [Opening CSV transaction files in in Excel internationally](https://support.office.com/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba)
 * [Modifying regional settings to improve CSV delimiting accuracy in Excel](https://support.office.com/article/Change-the-Windows-regional-settings-to-modify-the-appearance-of-some-data-types-EDF41006-F6E2-4360-BC1B-30E9E8A54989)
 
