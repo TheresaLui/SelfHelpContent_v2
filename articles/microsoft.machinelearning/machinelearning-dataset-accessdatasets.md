@@ -20,8 +20,8 @@ Most users are able to learn how to access datasets using the steps below
 ## **Recommended Steps**
 
 1. Decide how you want to create your machine learning experiments. You can authorize a machine learning experiments via Notebooks for a code-first experience, or via Automated ML and Designer UI.
-2. If you are creating experiments via Notebooks, learn [how to train with datasets](https://docs.microsoft.com/azure/machine-learning/how-to-train-with-datasets).
-3. If you are creating experiments via Automated ML UI, go to https://ml.azure.com, select **Automated ML** under **Author** to get started. Learn more [here](https://docs.microsoft.com/azure/machine-learning/how-to-create-portal-experiments).
+2. If you are creating experiments via Notebooks, learn [how to train with datasets](https://docs.microsoft.com/azure/machine-learning/how-to-train-with-datasets)
+3. If you are creating experiments via Automated ML UI, go to https://ml.azure.com, select **Automated ML** under **Author** to get started. Learn more [here](https://docs.microsoft.com/azure/machine-learning/how-to-create-portal-experiments)
 4. If you are creating experiments via Designer UI, go to https://ml.azure.com, select **Designer** under **Author** to get started. Learn more [here](https://docs.microsoft.com/azure/machine-learning/concept-designer).
 
 ## **Recommended Documents**
