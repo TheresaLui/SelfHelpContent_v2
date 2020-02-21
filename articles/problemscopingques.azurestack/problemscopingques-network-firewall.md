@@ -138,8 +138,38 @@
             "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
         },
         {
-            "id": "region_name",
+            "id": "connected_deployment",
+            "visibility": "patch_level == 2002",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Can Azure Stack Hub connect to Azure?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                },{
+                    "value": "No",
+                    "text": "No"
+                },{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "cloud_id",
+            "visibility": "connected_deployment == Yes",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Enter your the Cloud Stamp ID",
+            "watermarkText": "Enter the Stamp Cloud ID",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find your Cloud ID</a>",
+            "required": true
+        },
+        {
+            "id": "region_name",
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -148,7 +178,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 5,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -167,7 +197,7 @@
         },
         {
             "id": "tenant_single",
-            "order": 6,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Does the issue occur in a specific tenant or all tenants?",
             "watermarkText": "Choose an option",
@@ -188,7 +218,7 @@
         },
         {
             "id": "Subscription_name",
-            "order": 7,
+            "order": 9,
             "visibility": "tenant_single == Single tenant",
             "controlType": "textbox",
             "displayLabel": "Tenant ID",
@@ -197,7 +227,7 @@
         },
         {
           "id": "check_firewall",
-            "order": 8,
+            "order": 10,
             "controlType": "dropdown",
             "visibility": "tenant_single == Single tenant",
             "displayLabel": "Does the issue occur in a certain resource group or virtual network?",
@@ -219,7 +249,7 @@
         },
         {
             "id": "rg_vnet_name",
-            "order": 9,
+            "order": 11,
             "visibility": "check_firewall == Yes",
             "controlType": "textbox",
             "displayLabel": " What is the name of resource group or virtual network?",
@@ -228,7 +258,7 @@
         },
         {
           "id": "has_worked",
-            "order": 10,
+            "order": 12,
             "controlType": "dropdown",
             "displayLabel": "Has this ever worked?",
             "watermarkText": "Choose an option",
@@ -249,41 +279,11 @@
         },
         {
             "id": "error_message",
-            "order": 12,
+            "order": 13,
             "visibility": "has_worked == No",
             "controlType": "textbox",
             "displayLabel": "What is the error message?",
             "watermarkText": "Provide the error message you received if any",
-            "required": true
-        },
-        {
-            "id": "connected_deployment",
-            "visibility": "patch_level == 2002",
-            "order": 14,
-            "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack Hub connect to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "cloud_id",
-            "visibility": "connected_deployment == Yes",
-            "order": 15,
-            "controlType": "textbox",
-            "displayLabel": "Enter your the Cloud Stamp ID",
-            "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find your Cloud ID</a>",
             "required": true
         },
         {
