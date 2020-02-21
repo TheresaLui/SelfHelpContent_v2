@@ -70,8 +70,12 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
+            "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
             "dropdownOptions": [
+                {
+                    "value": "2002",
+                    "text": "2002"
+                },
                 {
                     "value": "1910",
                     "text": "1910"
@@ -253,31 +257,11 @@
             "required": true
         },
         {
-            "id": "build_2002",
-            "order": 13,
-            "controlType": "dropdown",
-            "displayLabel": "Are you running version 2002?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                },{
-                    "value": "No",
-                    "text": "No"
-                },{
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
-                }
-            ],
-            "infoBalloonText": "See steps to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current version</a>",
-            "required": true
-        },
-        {
             "id": "connected_deployment",
-            "visibility": "build_2002 == Yes",
+            "visibility": "patch_level == 2002",
             "order": 14,
             "controlType": "dropdown",
-            "displayLabel": "Can Azure Stack connect to Azure?",
+            "displayLabel": "Can Azure Stack Hub connect to Azure?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "Yes",
