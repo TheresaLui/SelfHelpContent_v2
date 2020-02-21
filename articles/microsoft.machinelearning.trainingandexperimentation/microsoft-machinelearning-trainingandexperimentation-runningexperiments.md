@@ -16,5 +16,9 @@
 # Issues with running experiments
 
 ## **Recommended Documents**
+For possible errors you may encounter during training, see the following resources:
+* [ModuleError - link]()
+* [NameError or AttributeError - link]()
 
-
+If you are experiencing any additional issues with submitting and monitoring the runs in your experiments, here is an additional resource with may be helpful:
+* [Start, monitor, and cancel training runs](https://docs.microsoft.com/azure/machine-learning/how-to-manage-runs)
