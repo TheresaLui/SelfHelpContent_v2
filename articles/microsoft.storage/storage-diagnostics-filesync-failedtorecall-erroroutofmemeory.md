@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to recall file(s) due to error **ERROR_OUTOFMEMORY**
 
 <!--issueDescription-->
-Azure File Sync failed to recall file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ERROR\_OUTOFMEMORY (error code: 0x8007000e or -2147024882)**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs due to insuffceint memory.<br/><br/>
+Azure File Sync failed to recall file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to error **ERROR\_OUTOFMEMORY (error code: 0x8007000e or -2147024882)**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs due to insufficeint memory.<br/><br/>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
