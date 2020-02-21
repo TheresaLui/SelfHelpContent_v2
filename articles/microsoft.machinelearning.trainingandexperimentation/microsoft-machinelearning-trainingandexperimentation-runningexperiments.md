@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Distributed training issues"
-	description="Distributed training issues"
-	infoBubbleText="Distributed training issues"
+	pageTitle="Issues with running experiments"
+	description="Issues with running experiments"
+	infoBubbleText="Issues with running experiments"
 	service="microsoft.machinelearning"
 	resource="trainingandexperimentation"
 	authors="mx-iao"
@@ -9,11 +9,11 @@
 	supportTopicIds="32690854"
 	productPesIds="16644"
 	cloudEnvironments="Public"
-	articleId="microsoft.machinelearning.trainingandexperimentation.distributedtraining"
+	articleId="microsoft.machinelearning.trainingandexperimentation.runningexperiments"
 	selfHelpType="generic"
 />
 
-# Distributed training issues
+# Issues with running experiments
 
 ## **Recommended Documents**
 
