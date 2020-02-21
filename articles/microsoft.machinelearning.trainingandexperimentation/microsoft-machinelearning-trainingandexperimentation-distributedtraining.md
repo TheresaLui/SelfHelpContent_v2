@@ -16,3 +16,13 @@
 # Distributed training issues
 
 ## **Recommended Documents**
+If you have a question regarding SR-IOV availability on NCv3 machines in AmlCompute for improved distributed training performance:
+* [link]()
+
+If you encounter a "Horovod has been shut down" issue error when doing distributed training with Horovod for PyTorch or TensorFlow:
+* [link]()
+
+If you are experiencing any additional issues with distributed training in Azure ML, here is a list of additional resources which may be helpful:
+* [Reference architecture of distributed training of deep learning models in Azure ML](https://docs.microsoft.com/azure/architecture/reference-architectures/ai/training-deep-learning)
+* [Distributed training with TensorFlow](https://docs.microsoft.com/azure/machine-learning/how-to-train-tensorflow#distributed-training)
+* [Distributed training with PyTorch](https://docs.microsoft.com/azure/machine-learning/how-to-train-pytorch#distributed-training)
