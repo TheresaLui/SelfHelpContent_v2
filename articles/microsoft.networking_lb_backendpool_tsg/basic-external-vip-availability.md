@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* Run the jarvis query at the link below. Enter the MUX tenant name and the LB VIP as inputs. (They can be found by click on TSG History box)
+* Run the jarvis query at the link below. Enter the MUX tenant name and the LB VIP as inputs.
 * You will get a graphic back showing the bytes passing through the LB
 
 ## **Recommended Documents**
