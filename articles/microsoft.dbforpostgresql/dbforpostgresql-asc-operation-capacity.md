@@ -13,7 +13,7 @@
 	supportTopicIds="32639966, 32639980, 32639988, 32639998, 32640024, 32640028"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # Service object assignment failed because of an ongoing capacity issue.
@@ -23,7 +23,7 @@ Thank you for contacting Microsoft support team. We have detected that there is 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Please use other nearby regions if possible.
+* Please use other nearby regions if possible.
 
 ## **Recommended Documents**
 * [Azure Region Map](https://map.buildazure.com/)
