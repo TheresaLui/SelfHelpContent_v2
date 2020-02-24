@@ -23,7 +23,7 @@ Azure File Sync failed to recall file(s) for one or more server endpoints under 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-No action required. If the error persists, investigate which application or kernel-mode driver is exhausting system resources.
+If the error persists, investigate which application or kernel-mode driver is exhausting system resources.
 
 ## **Recommended Documents**
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
