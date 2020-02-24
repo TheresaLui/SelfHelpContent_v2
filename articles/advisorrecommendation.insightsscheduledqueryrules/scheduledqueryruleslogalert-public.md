@@ -1,8 +1,8 @@
 <properties
     pageTitle="Repair your log alert rule"
     description="Repair your log alert rule"
-    authors="lsateam"
-    ms.author="lsateam"
+    authors="aadevteam"
+    ms.author="aadevteam"
     articleId="2b5eac39-9f50-4d8d-bc9b-1e1e07c5c37e_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
