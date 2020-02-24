@@ -25,13 +25,13 @@
   "recommendationFriendlyName": "CosmosDbPartitionedCollections",
   "recommendationMetadataState": "Active",
   "owner": {
-    "email": "rnagpal@microsoft.com",
+    "email": "cosmosnotifications@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "mdm://azureadvisor/CosmosDB",
+      "service": "Azure Cosmos DB",
+      "team": "Supportability"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/cosmosdb/choose-partitionkey",
