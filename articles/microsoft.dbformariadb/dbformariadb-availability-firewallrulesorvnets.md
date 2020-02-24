@@ -32,5 +32,7 @@ Firewall rules need to be configured to be able to access your Azure Database fo
 * [Use Virtual Network service endpoints and rules for Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/concepts-data-access-security-vnet/)<br>
 * [Configure a VNET connection using Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-manage-vnet-cli/)<br>
 * [Configure a VNET connection using Portal](https://docs.microsoft.com/azure/mariadb/howto-manage-vnet-portal/)<br>
+* [Point to site connectivity using VNet service endpoints](https://techcommunity.microsoft.com/t5/azure-database-for-mariadb/secure-connectivity-from-on-premise-to-azure-database-for/ba-p/1003983)<br>
+* [Point to site connectivity using Private Link](https://techcommunity.microsoft.com/t5/azure-database-for-mariadb/using-private-link-and-point-to-site-gateway-for-secure-on/ba-p/1109010)<br>
 * [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-troubleshoot-common-connection-issues)<br>
 * [Connecting to MariaDB Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mariadb/tutorial-design-database-using-portal/)
