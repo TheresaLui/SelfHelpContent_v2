@@ -1,8 +1,8 @@
 <properties
     pageTitle="Repair your log alert rule"
     description="Repair your log alert rule"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="lsateam"
+    ms.author="lsateam"
     articleId="2b5eac39-9f50-4d8d-bc9b-1e1e07c5c37e_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
@@ -27,11 +27,11 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "lsateam@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://LogAlertsFlow",
+      "service": "Azure Log Search Alerts",
+      "team": "Log Search Alerts (Scheduled Query Rules) On Call"
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },
