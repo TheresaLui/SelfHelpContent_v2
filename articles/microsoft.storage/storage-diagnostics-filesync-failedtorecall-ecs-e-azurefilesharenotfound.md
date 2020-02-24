@@ -23,19 +23,19 @@ Azure File Sync failed to recall file(s) for one or more server endpoints under 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue, Ensure Azure File Sync has access to the storage account by performing the following steps in azure portal:
+To resolve this issue, Ensure Azure File Sync has access to the storage account by performing the following steps in Azure portal:
 
-1. Click **Access control (IAM)** on the left-hand table of contents.
-1. Click the **Role assignments** tab to the list the users and applications (*service principals*) that have access to your storage account.
-1. Verify **Hybrid File Sync Service** appears in the list with the **Reader and Data Access** role. 
+1. Click **Access control (IAM)** on the left-hand table of contents
+1. Click the **Role assignments** tab to the list the users and applications (*service principals*) that have access to your storage account
+1. Verify **Hybrid File Sync Service** appears in the list with the **Reader and Data Access** role
 
 	If **Hybrid File Sync Service** does not appear in the list, perform the following steps:
 
-	- Click **Add**.
-	- In the **Role** field, select **Reader and Data Access**.
-	- In the **Select** field, type **Hybrid File Sync Service**, select the role and click **Save**.
-
+	- Click **Add**
+	- In the **Role** field, select **Reader and Data Access**
+	- In the **Select** field, type **Hybrid File Sync Service**, select the role and click **Save**
 
 ## **Recommended Documents**
+
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
 - [Azure File Sync has access to the storage account](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#troubleshoot-rbac)
