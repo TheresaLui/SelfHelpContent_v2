@@ -16,7 +16,9 @@
 
 # Diagnose and resolve job failures
 
-## **Troubleshooting**
+## **Recommended Steps**
+
+### **Troubleshooting**
 
 * [Cluster Timeout](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#cluster-timeout) for Error Messages:
 ````
