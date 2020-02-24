@@ -34,7 +34,7 @@ If you are running into issues creating/updating metric alerts using Azure Resou
 
 	- You can only select one value per dimension within each criterion
 	- You cannot use "\*" as a dimension value
-	- When metrics that are configured in diffrent criterions support the same dimension, then a configured dimension value must be explicitly set in the same way for all of those metrics (see an example [here](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-create-templates#template-for-a-static-threshold-metric-alert-that-monitors-multiple-criteria))
+	- When metrics that are configured in different criterions support the same dimension, then a configured dimension value must be explicitly set in the same way for all of those metrics (see an example [here](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-create-templates#template-for-a-static-threshold-metric-alert-that-monitors-multiple-criteria))
 
 6. Review if you have appropriate permissions. To create/update/delete metric alerts:
 
