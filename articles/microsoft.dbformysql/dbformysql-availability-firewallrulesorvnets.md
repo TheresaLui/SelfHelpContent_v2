@@ -33,7 +33,7 @@ Firewall rules need to be configured to be able to access your Azure Database fo
 * [Use Virtual Network service endpoints and rules for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-vnet/)<br>
 * [Configure a VNET connection using Azure CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli/)<br>
 * [Configure a VNET connection using Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)<br>
-* [Configure a Private link using Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-cli)<br>
-* [Configure a Private link using Portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)<br>
+* [Point to site connectivity using VNet service endpoints](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/secure-connectivity-from-on-premise-to-azure-database-for-mysql/ba-p/793905)<br>
+* [Point to site connectivity using Private Link](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/using-private-link-and-point-to-site-gateway-for-secure-on/ba-p/1108953)<br>
 * [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)<br>
 * [Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)

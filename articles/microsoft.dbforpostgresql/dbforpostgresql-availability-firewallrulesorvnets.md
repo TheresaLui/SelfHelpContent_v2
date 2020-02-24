@@ -36,4 +36,6 @@
 * [Configure a Private link using Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-configure-privatelink-cli/)<br>
 * [Configure a Private link using Portal](https://docs.microsoft.com/azure/postgresql/howto-configure-privatelink-portal/)<br>
 * [Troubleshoot common connectivity issues to Azure Databases for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-troubleshoot-common-connection-issues)<br>
+* [Point to site connectivity using VNet service endpoints](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/securing-connectivity-to-azure-database-for-postgresql/ba-p/789591)<br>
+* [Point to site connectivity using Private Link](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/using-private-link-and-point-to-site-gateway-for-secure-on/ba-p/1108165)<br>
 * [Tutorial: Creating and connecting to Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-portal/)
