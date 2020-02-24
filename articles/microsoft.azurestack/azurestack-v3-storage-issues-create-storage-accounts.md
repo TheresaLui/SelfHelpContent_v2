@@ -25,3 +25,4 @@ Storage accounts in Azure Stack include Blob and Table services, and the unique 
 - [Create a block blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blob-create-account-block-blob)
 - [Manage storage account settings in the Azure portal](https://docs.microsoft.com/azure/storage/common/storage-account-manage)
 - [Upgrade to a General-purpose v2 storage account](https://docs.microsoft.com/azure/storage/common/storage-account-upgrade)
+- [Storage quota in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-quota-types#storage-quota-types)

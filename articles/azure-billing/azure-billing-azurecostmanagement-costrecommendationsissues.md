@@ -1,19 +1,20 @@
 <properties
-	pageTitle="advisor recommendations issues"
-	description="advisor recommendations issues"
+	pageTitle="advisor recommendations issues- cost recommendations"
+	description="advisor recommendations issues- cost recommendations"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32615280"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="bd7f307d-4c87-4fb5-a47a-5ebd8d85be3b"
 />
 
-# Advisor Recommendations Issues
+# Cost Recommendations
 
 Azure Cost Management works with Azure Advisor to provide cost optimization recommendations
 
@@ -38,8 +39,6 @@ Learn how to [Verify the action](https://docs.microsoft.com/azure/cost-managemen
 
 * [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
 * [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
-* [Explore and analyze costs with Cost Analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
-* [Advisor recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations)<br>
-* [Azure Cost Management - Pricing](https://azure.microsoft.com/pricing/details/cost-management/)<br>
-* [Azure Cost Management REST API](https://docs.microsoft.com/rest/api/cost-management/)<br>
-* [Azure Consumption REST API](https://docs.microsoft.com/rest/api/consumption/)<br>
+* [View recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#view-cost-optimization-recommendations)>br>
+* [Act on recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#act-on-a-recommendation)<br>
+* [Verify the action](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#verify-the-action)<br>

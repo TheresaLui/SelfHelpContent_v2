@@ -13,7 +13,7 @@
 	supportTopicIds="32639966, 32639980, 32639988, 32639998, 32640024, 32640028"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
 # This subscription is restricted from provisioning PostgreSQL servers in this region
@@ -24,7 +24,7 @@ Thank you for contacting Microsoft support team. Your subscription is restrict
 
 ## **Recommended Steps**
 
-Please try other nearby regions.
+* Please try other nearby regions.
 
 ## **Recommended Documents**
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
