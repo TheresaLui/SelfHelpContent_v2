@@ -20,8 +20,8 @@
 
 To check the cores available to the cluster, do the following steps:
 
-1. Navigate to the **Overview** page for the HDInsight cluster. 
-2. On the left menu, click **Quota limits**.
+1. Navigate to the **Overview** page for the HDInsight cluster
+2. On the left menu, click **Quota limits**
 
    The page displays the number of cores in use, the number of available cores, and the total cores.
 
@@ -31,10 +31,10 @@ Azure has a quota limit of 800 deployments per resource group. Quotas are applie
 
 Solution:
 
-1. In the Azure portal, navigate to the HDInsight overview page for the cluster.
-2. Click the resource group link.
-3. On the Resource Group page, on the left menu, click **Deployments**.
-4. Select and delete the deployments that are no longer needed.
+1. In the Azure portal, navigate to the HDInsight overview page for the cluster
+2. Click the resource group link
+3. On the Resource Group page, on the left menu, click **Deployments**
+4. Select and delete the deployments that are no longer needed
 
 For more information, see [Resolve errors for resource quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors).
 
