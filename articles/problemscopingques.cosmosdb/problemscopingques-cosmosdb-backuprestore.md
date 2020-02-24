@@ -74,7 +74,7 @@
 		{
             "id": "restore_point",
             "order": 6,
-			"visibility": "request_type == Restore a database or collection",
+			"visibility": "request_type == Restore of a database or collection",
 			"controlType": "datetimepicker",
 			"displayLabel": "Restore point",
 			"infoBalloonText": "Please enter your desired restore point in your local time. This form will automatically convert your entered time value to UTC when submitted.",
