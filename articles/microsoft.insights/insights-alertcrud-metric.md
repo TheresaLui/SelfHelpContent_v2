@@ -31,9 +31,9 @@ If you are running into issues creating/updating or deleting metric alerts the f
 
 **Note:** If you configured the guest metrics to be collected into a Log Analytics workspace, these metrics will appear under the Log Analytics workspace resource. Follow the steps to [configure a metric alert for logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#configuring-metric-alert-for-logs).
 
-2. If you cannot find metrics for a resource type, [check if the resource type is supported with metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time).
+2. If you cannot find metrics for a resource type, [check if the resource type is supported with metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time)
 
-3. If you are looking to alert on a custom metric, make sure that the metric is already being reported, as you cannot define an alert rule on a custom metric that doesn't yet exist.
+3. If you are looking to alert on a custom metric, make sure that the metric is already being reported, as you cannot define an alert rule on a custom metric that doesn't yet exist
 
 4. If you are looking to alert on [specific dimension values of a metric](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#using-dimensions), but cannot find these values, please note the following:
 
@@ -42,8 +42,8 @@ If you are running into issues creating/updating or deleting metric alerts the f
 
 5. If you are looking to add, edit or delete tags, currently metric alert rules only support adding tags when creating a new alert rule from PowerShell or via an ARM template. Editing, removing or adding tags to an existing alert rule is currently not supported.
 
-6. When deleting an Azure resource, associated metric alert rules aren't deleted automatically.
-To delete alert rules associated to a resource that has already been deleted:
+6. When deleting an Azure resource, associated metric alert rules aren't deleted automatically. To delete alert rules associated to a resource that has already been deleted:
+
 	- Open the resource group in which the deleted resource was defined
 	- In the list displaying the resources, check the **Show hidden types** checkbox
 	- Filter the list by Type == **microsoft.insights/metricalerts**
