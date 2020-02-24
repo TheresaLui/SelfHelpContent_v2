@@ -27,7 +27,7 @@
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
     "icm": {
-      "routingId": "mdm://azureadvisor/CosmosDB",
+      "routingId": "mdm://adspartner/CosmosDb",
       "service": "Azure Cosmos DB",
       "team": "Supportability"
     },
