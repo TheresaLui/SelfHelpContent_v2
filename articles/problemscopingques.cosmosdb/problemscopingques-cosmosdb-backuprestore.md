@@ -52,7 +52,7 @@
             "order": 3,
 			"visibility": "request_type == Restore of deleted or corrupted data",
 			"controlType": "datetimepicker",
-			"displayLabel": "Restore point",
+			"displayLabel": "Restore point of your data (Required)",
 			"infoBalloonText": "Please enter your desired restore point in your local time. This form will automatically convert your entered time value to UTC when submitted.",
 			"required": true
         },
