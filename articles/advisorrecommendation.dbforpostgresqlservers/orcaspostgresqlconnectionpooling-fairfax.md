@@ -50,16 +50,16 @@
       "documentLink": "https://aka.ms/azure_postgresql_pgbouncer"
     }
   ],
-  "resourceMetadata": { 
-    "action": { 
-      "actionId": "9f0696dc-10ae-43b1-9d36-5dc7b18ce086", 
-      "actionType": "Blade", 
-      "extensionName": "HubsExtension", 
-      "bladeName": "ResourceMenuBlade", 
-      "metadata": { 
-        "id": "{resourceId}" 
-      } 
-    } 
+  "resourceMetadata": {
+    "action": {
+      "actionId": "9f0696dc-10ae-43b1-9d36-5dc7b18ce086",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
   },
   "displayLabel": "Improve PostgreSQL connection management",
   "additionalColumns": [],
