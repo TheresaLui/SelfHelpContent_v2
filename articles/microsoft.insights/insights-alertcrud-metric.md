@@ -31,23 +31,25 @@ If you are running into issues creating/updating or deleting metric alerts the f
 
 **Note:** If you configured the guest metrics to be collected into a Log Analytics workspace, these metrics will appear under the Log Analytics workspace resource. Follow the steps to [configure a metric alert for logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#configuring-metric-alert-for-logs).
 
-2. If you cannot find metrics for a resource type, [check if the resource type is supported with metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time)
+2. If you cannot find metrics for a resource type, [check if the resource type is supported with metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time).
 
-3. If you are looking to alert on [specific dimension values of a metric](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#using-dimensions), but cannot find these values, please note the following:
+3. If you are looking to alert on a custom metric, make sure that the metric is already being reported, as you cannot define an alert rule on a custom metric that doesn't yet exist.
+
+4. If you are looking to alert on [specific dimension values of a metric](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#using-dimensions), but cannot find these values, please note the following:
 
 	- It might take a few minutes for the dimension values to appear under the **Dimension values** list
 	- The displayed dimension values are based on metric data collected in the last 3 days
 
-4. If you are looking to add, edit or delete tags, currently metric alert rules only support adding tags when creating a new alert rule from PowerShell or via an ARM template. Editing, removing or adding tags to an existing alert rule is currently not supported.
+5. If you are looking to add, edit or delete tags, currently metric alert rules only support adding tags when creating a new alert rule from PowerShell or via an ARM template. Editing, removing or adding tags to an existing alert rule is currently not supported.
 
-5. When deleting an Azure resource, associated metric alert rules aren't deleted automatically.
+6. When deleting an Azure resource, associated metric alert rules aren't deleted automatically.
 To delete alert rules associated to a resource that has already been deleted:
 	- Open the resource group in which the deleted resource was defined
 	- In the list displaying the resources, check the **Show hidden types** checkbox
 	- Filter the list by Type == **microsoft.insights/metricalerts**
 	- Check the relevant metric alert rules and select **Delete**
 
-6. Review if you have appropriate permissions. To create/update/delete metric alerts:
+7. Review if you have appropriate permissions. To create/update/delete metric alerts:
 
     * You should have been assigned a built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
     * You should have been assigned a [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/metricAlerts
