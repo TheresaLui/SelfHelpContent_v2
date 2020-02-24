@@ -7,7 +7,7 @@
     ms.author="manishku"
     displayOrder="220"
     selfHelpType="generic"
-    supportTopicIds="32640097"
+    supportTopicIds="32640785"
     resourceTags="servers, databases"
     productPesIds="16221"
     cloudEnvironments="public"
@@ -23,7 +23,7 @@ Private Link allows you to connect to various PaaS services in Azure via a priva
 * Ensure that the Azure Database for MySQL uses the General Purpose or Memory optimized tier. The Basic tier does not support Private link.
 * If you are using the portal, review the [Configure a Private link using Portal](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal) how-to
 * If you are using the Azure CLI, review the [Configure a Private link using Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-cli) how-to
-* Use cases for [Private link for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link.md#use-cases-of-private-link-for-azure-database-for-mysql).
+* Use cases for [Private link for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link#use-cases-of-private-link-for-azure-database-for-mysql).
 
 ## **Recommended Documents**
 

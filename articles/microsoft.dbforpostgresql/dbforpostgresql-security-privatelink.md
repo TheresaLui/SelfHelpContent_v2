@@ -7,7 +7,7 @@
     ms.author="manishku"
     displayOrder="220"
     selfHelpType="generic"
-    supportTopicIds="32640097"
+    supportTopicIds="32640357"
     resourceTags="servers, databases"
     productPesIds="16222"
     cloudEnvironments="public"
