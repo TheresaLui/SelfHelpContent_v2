@@ -23,16 +23,16 @@ Azure File Sync failed to recall file(s) for one or more server endpoints under 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue, add the Server IP address or virtual network by performing the following the steps in the azure portal:
+To resolve this issue, add the Server IP address or virtual network by performing the following the steps in the Azure portal:
 
-1. From the Azure portal, navigate to the storage account you want to secure.
-1. Select the **Firewalls and virtual networks** button on the left menu.
-1. Select **Selected networks** under **Allow access from**.
-1. Make sure your servers IP or virtual network is listed under the appropriate section.
-1. Make sure **Allow trusted Microsoft services to access this storage account** is checked.
-1. Select **Save** to save your settings.
-
+1. From the Azure portal, navigate to the storage account you want to secure
+1. Select the **Firewalls and virtual networks** button on the left menu
+1. Select **Selected networks** under **Allow access from**
+1. Make sure your servers IP or virtual network is listed under the appropriate section
+1. Make sure **Allow trusted Microsoft services to access this storage account** is checked
+1. Select **Save** to save your settings
 
 ## **Recommended Documents**
+
 - [Troubleshoot Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#-2134347507)
 - [Configure firewall and virtual network settings](https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal#configure-firewall-and-virtual-network-settings)
