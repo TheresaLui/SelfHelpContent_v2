@@ -21,10 +21,10 @@ Firewall rules need to be configured to be able to access your Azure Database fo
 ## **Recommended Steps**
 
 * Make sure you have the right [firewall settings](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) in place by to allow the desired access to your server. You can either specify a single IP addresses or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal), the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-cli), and our [REST API](https://docs.microsoft.com/rest/api/mysql/).
-* If you are using VNets ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal).
-* If you are using Private Link ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal).
+* If you are using VNets ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal)
+* If you are using Private Link ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/mysql/howto-configure-privatelink-portal)
 * If you are trying to connect to your server from other azure PaaS offerings, you must toggle the **Allow access to Azure services** option to *on*
-* If you are using a Basic tier server, note that VNet service endpoints and [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link) are not supported.
+* If you are using a Basic tier server, note that VNet service endpoints and [Private Link](https://docs.microsoft.com/azure/mysql/concepts-data-access-security-private-link) are not supported
 * If the server's IP appears to be public and you can ping or connect using telnet, connections to the Azure Database for MySQL server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture).
 
 ## **Recommended Documents**
