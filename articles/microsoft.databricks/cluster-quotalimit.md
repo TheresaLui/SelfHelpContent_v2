@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* To [increase quota](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests), please follow the steps:
+* To expedite the process to increase quota, please follow the steps:
 
     * Go to [subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
     * Select the subscription that needs an increased quota
