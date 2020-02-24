@@ -52,10 +52,10 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "",
-      "actionType": "",
-      "extensionName": "",
-      "bladeName": "",
+      "actionId": "9f0696dc-10ae-43b1-9d36-5dc7b18ce086",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }
