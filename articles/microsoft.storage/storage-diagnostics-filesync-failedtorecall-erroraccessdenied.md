@@ -23,7 +23,7 @@ Azure File Sync failed to recall file(s) for one or more server endpoints under 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue, add the Server IP address or virtual network by perfoming the following the steps in the azure portal:
+To resolve this issue, add the Server IP address or virtual network by performing the following the steps in the azure portal:
 
 1. From the Azure portal, navigate to the storage account you want to secure.
 1. Select the **Firewalls and virtual networks** button on the left menu.
