@@ -58,7 +58,7 @@
         {
             "id": "database_name",
 			"order": 4,
-			"visibility": "request_type == Restore a database or collection",
+			"visibility": "request_type == Restore of a database or collection",
 			"controlType": "textbox",
 			"displayLabel": "Database to restore",
 			"required": true
@@ -66,7 +66,7 @@
         {
             "id": "collection_name",
 			"order": 5,
-			"visibility": "request_type == Restore a database or collection",
+			"visibility": "request_type == Restore of a database or collection",
 			"controlType": "textbox",
 			"displayLabel": "Collections to restore (semicolon separated)",
 			"required": true
