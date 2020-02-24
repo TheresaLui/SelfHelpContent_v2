@@ -16,7 +16,7 @@
   "recommendationTypeId": "2b5eac39-9f50-4d8d-bc9b-1e1e07c5c37e",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://almonprodff.usgovvirginia.kusto.usgovcloudapi.net').database('LogSearchRule').AdvisorRecommendations"
+    "streamNamespace": "cluster('https://almonprodff.usgovvirginia.kusto.usgovcloudapi.net').database('LogSearchRule').AdvisorRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "08:00:00"
   },
