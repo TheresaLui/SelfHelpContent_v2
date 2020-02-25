@@ -84,7 +84,7 @@
       "longDescription": null,
       "shortDescription": "Issue while taking backup using Azure files",
       "searchTags": "Backup",
-      "category": "backup",
+      "category": "Backup",
       "useInDiagnoseAndSolve": "false"
     },
     {
