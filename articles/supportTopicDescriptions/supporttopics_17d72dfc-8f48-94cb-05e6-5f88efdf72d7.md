@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -670,6 +670,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb9be940-28b3-2199-e166-29a94f3da25f",
+      "longDescription": "",
+      "shortDescription": "HANA database restore operation is stuck in progress or took too long to complete",
+      "searchTags": "PIT;Logs;Time taking;Stuck;Failing",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fcfbccab-ae1d-eede-1342-ea7c9020e469",
