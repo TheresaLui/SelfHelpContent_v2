@@ -43,6 +43,6 @@ If you manually kill or stop the process, it might result in the change feed pro
 <br>Apache Spark Connector for Azure Cosmos DB.  
 
 [Azure Cosmos DB Spark Connector configuration references](https://github.com/Azure/azure-cosmosdb-spark/wiki/Configuration-references)
-<br>Description of the available configurations of the Cosmso DB Spark Connector.  
+<br>Description of the available configurations of the Cosmos DB Spark Connector.  
 
 
