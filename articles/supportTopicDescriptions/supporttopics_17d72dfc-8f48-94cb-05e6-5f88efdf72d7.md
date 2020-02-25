@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -398,6 +398,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "95c36c0c-9fad-f13d-d32e-301ee4b0434a",
+      "longDescription": "",
+      "shortDescription": "Issue with discovering the SAP HANA database",
+      "searchTags": "Discovery;Pre-registration issue",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "968e3686-112a-b861-716c-ca441c1ca1de",
