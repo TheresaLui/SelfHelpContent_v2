@@ -8,7 +8,7 @@
 	authoralias="anbacker"
 	displayOrder="50"
 	selfHelpType="resource"
-	supportTopicIds="32614304"
+	supportTopicIds="32614304, 32635434, 32635435"
 	resourceTags="DataBoxEdge"
 	productPesIds="16597"
 	cloudEnvironments="public"
