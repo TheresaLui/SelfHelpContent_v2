@@ -8,9 +8,9 @@
     authoralias="anbacker"
     displayOrder="100"
     selfHelpType="resource"
-    supportTopicIds=""
+    supportTopicIds="32614302, 32614299"
     resourceTags="DataBoxGateway"
-    productPesIds=""
+    productPesIds="16597"
     cloudEnvironments="public"
     articleId="509748b1-ef31-4bd3-b227-049de0b4ee6a"
 />
