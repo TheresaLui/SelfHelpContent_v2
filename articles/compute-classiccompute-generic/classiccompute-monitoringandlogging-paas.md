@@ -17,6 +17,7 @@
 
 ## **Recommended documents**
 
+* [Retirement of Classic monitoring and alerting platform](https://docs.microsoft.com/azure/azure-monitor/platform/monitoring-classic-retirement#retirement-of-classic-monitoring-and-alerting-platform)<br>
 * [Troubleshooting guidance on Azure Diagnostics](https://docs.microsoft.com/azure/monitoring-and-diagnostics/azure-diagnostics-troubleshooting)<br>
 * [How to configure monitoring for Cloud Services and receive alerts](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-monitor/)<br>
 * [Activity Logs in the new portal](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs)<br>
