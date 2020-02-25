@@ -33,7 +33,7 @@
       "service": "Azure Log Search Alerts",
       "team": "Log Search Alerts (Scheduled Query Rules) On Call"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "6b503797-6dcf-4f37-861f-a76db539a823"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
