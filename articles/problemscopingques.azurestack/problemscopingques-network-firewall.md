@@ -89,38 +89,6 @@
                     "text": "1907"
                 },
                 {
-                    "value": "1906",
-                    "text": "1906"
-                },
-                {
-                    "value": "1905",
-                    "text": "1905"
-                },
-                {
-                    "value": "1904",
-                    "text": "1904"
-                },
-                {
-                    "value": "1903",
-                    "text": "1903"
-                },
-                {
-                    "value": "1902",
-                    "text": "1902"
-                },
-                {
-                    "value": "1901",
-                    "text": "1901"
-                },
-                {
-                    "value": "1811",
-                    "text": "1811"
-                },
-                {
-                    "value": "1809",
-                    "text": "1809"
-                },
-                {
                     "value": "Other",
                     "text": "Other"
                 }
@@ -152,7 +120,7 @@
                     "text": "No"
                 },{
                     "value": "dont_know_answer",
-                    "text": "Don't know"
+                    "text": "Unsure"
                 }
             ],
             "required": true
@@ -211,7 +179,7 @@
                     "text": "Single tenant"
                 },{
                     "value": "dont_know_answer",
-                    "text": "Don't know"
+                    "text": "Unsure"
                 }
             ],
             "required": false
@@ -242,7 +210,7 @@
                     "text": "No"
                 },{
                     "value": "dont_know_answer",
-                    "text": "Don't know"
+                    "text": "Unsure"
                 }
             ],
             "required": false
@@ -272,7 +240,7 @@
                     "text": "No"
                 },{
                     "value": "dont_know_answer",
-                    "text": "Don't know"
+                    "text": "Unsure"
                 }
             ],
             "required": false
