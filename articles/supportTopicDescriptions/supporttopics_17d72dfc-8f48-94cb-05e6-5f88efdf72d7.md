@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, v-kraku"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -82,10 +82,10 @@
     {
       "id": "141e378a-1466-bbca-cbf0-43c82f7982d7",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue while taking backup using Azure files",
+      "searchTags": "Backup",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "1621a0b2-d93a-9327-b149-de9c05ce34f5",
