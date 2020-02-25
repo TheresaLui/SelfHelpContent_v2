@@ -200,6 +200,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4a0ef628-bece-80ac-d542-220b1f5940f0",
+      "longDescription": "",
+      "shortDescription": "Issue while taking backup of SAP HANA database in Azure VM",
+      "searchTags": "SAP HANA ;backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
       "longDescription": null,
       "shortDescription": "Issues specific to Azure Backup Service while protecting Azure Virtual Machine",
