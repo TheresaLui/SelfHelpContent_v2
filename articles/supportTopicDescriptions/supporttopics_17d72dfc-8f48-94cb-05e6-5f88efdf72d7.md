@@ -664,6 +664,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f5413101-ad2e-7e9f-5603-0367389bcf7f",
+      "longDescription": "",
+      "shortDescription": "SAP HANA database backup",
+      "searchTags": "SAP HANA",
+      "category": "SAP",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f6bf4d86-7e89-48f3-0b43-da0d067d7fef",
       "longDescription": null,
       "shortDescription": "Issue while restoring System State backup from Azure using MARS Agent",
