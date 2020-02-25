@@ -7,7 +7,7 @@
          productPesIds="15922"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="F2143039-B7F0-436B-B120-3C721FF0F4ED"
+         articleId="f2143039-b7F0-436b-b120-3c721ff0f4ed"
 />
 # TSG Workflow Questions
 ---
