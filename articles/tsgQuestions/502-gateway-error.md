@@ -1,13 +1,13 @@
 <properties
          pageTitle="TSG Workflow Questions - 502 Gateway Error"
-         description="Troubleshoot 502 Gateway Error issues."
+         description="Troubleshoot 502 Gateway Error issues"
          authors="seanj-ms"
          ms.author="seanj"
          selfHelpType="TSG_Questions"
          productPesIds="15922"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="d88f3f43-0cc3-4143-aced-c4820b56e8ec"
+         articleId="D88F3F43-0CC3-4143-ACED-C4820B56E8EC"
 />
 # TSG V2 Workflow Questions Test
 ---

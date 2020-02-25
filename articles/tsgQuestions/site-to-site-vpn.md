@@ -1,13 +1,13 @@
 <properties
          pageTitle="TSG Workflow Questions - Site-to-Site-VPN"
-         description="Troubleshoot site-to-site VPN issues."
+         description="Troubleshoot site-to-site VPN issues"
          authors="seanj-ms"
          ms.author="seanj"
          selfHelpType="TSG_Questions"
          productPesIds="15922"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="f2143039-b7F0-436b-b120-3c721ff0f4ed"
+         articleId="F2143039-B7F0-436B-B120-3C721FF0F4ED"
 />
 # TSG Workflow Questions
 ---
