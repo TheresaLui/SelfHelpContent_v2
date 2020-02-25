@@ -424,6 +424,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95c36c0c-9fad-f13d-d32e-301ee4b0434a",
+      "longDescription": "",
+      "shortDescription": "Issue with discovering the SAP HANA database",
+      "searchTags": "Discovery;Pre-registration issue",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "968e3686-112a-b861-716c-ca441c1ca1de",
       "longDescription": null,
       "shortDescription": "Performance issue while doing restore",
