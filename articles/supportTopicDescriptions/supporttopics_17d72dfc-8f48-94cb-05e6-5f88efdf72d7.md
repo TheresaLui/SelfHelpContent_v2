@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -110,6 +110,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1a72b00f-016c-493d-1caa-a70aa40f24b7",
+      "longDescription": "",
+      "shortDescription": "Issue with associating or modifying policy associated with a SAP HANA database",
+      "searchTags": "Edit policy;Change policy",
+      "category": "Configure",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "22f343c7-9fae-5a39-5d4b-7a143a93beb6",
