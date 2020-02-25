@@ -16,7 +16,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Problem with Pods",
-    "fileAttachmentHint": "Output of **kubectl get pods -o wide** and **kubectl describe pod <<podname>>** would be helpful with the investigation",
+    "fileAttachmentHint": "Output of **kubectl get pods -o wide** and **kubectl describe pod yourpodname** would be helpful with the investigation",
     "formElements": [
         {
             "id": "problem_start_time",
