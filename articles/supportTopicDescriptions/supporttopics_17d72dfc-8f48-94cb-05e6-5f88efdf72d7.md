@@ -736,6 +736,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fb9be940-28b3-2199-e166-29a94f3da25f",
+      "longDescription": "",
+      "shortDescription": "HANA database restore operation is stuck in progress or took too long to complete",
+      "searchTags": "PIT;Logs;Time taking;Stuck;Failing",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fcfbccab-ae1d-eede-1342-ea7c9020e469",
       "longDescription": null,
       "shortDescription": "Issue while restoring SQL Server database",
