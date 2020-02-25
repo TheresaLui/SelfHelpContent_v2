@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -146,10 +146,10 @@
     {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue undeleting items in soft deleted state",
+      "searchTags": "Soft delete;undelete",
+      "category": "Vault",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "345e1c89-9409-88f9-528e-594576216ed5",
