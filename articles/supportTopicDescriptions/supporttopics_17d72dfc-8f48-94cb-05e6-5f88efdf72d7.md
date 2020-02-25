@@ -72,6 +72,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0fa367fe-2f1d-157c-a27f-46db83437cd2",
+      "longDescription": "",
+      "shortDescription": "Issue with restore of SAP HANA database",
+      "searchTags": "PIT;Failing;Restore",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "11859079-51bb-684c-5cd5-574000986ffc",
       "longDescription": null,
       "shortDescription": "Solve issues causing dropped or terminated connections to data lake storage",
