@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -142,6 +142,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
+      "longDescription": "",
+      "shortDescription": "Issue with configuring backup for a SAP HANA database",
+      "searchTags": "Timeout;Stop protection",
+      "category": "Configure",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
