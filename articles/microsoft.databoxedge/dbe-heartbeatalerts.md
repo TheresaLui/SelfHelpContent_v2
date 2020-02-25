@@ -8,9 +8,9 @@
 	authoralias="anbacker"
 	displayOrder="80"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32635438,32614306, 32614301"
 	resourceTags="DataBoxEdge"
-	productPesIds=""
+	productPesIds="16597"
 	cloudEnvironments="public"
 	articleId="3201a5e5-95ac-4c18-a810-fa03d9c2ad64"
 />
