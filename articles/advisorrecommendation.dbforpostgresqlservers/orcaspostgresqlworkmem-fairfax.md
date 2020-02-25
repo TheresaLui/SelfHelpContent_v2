@@ -15,8 +15,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "e2fa79e2-b3e0-11e9-a2a3-2a2ae2dbcce4",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetPostgreSqlWorkMemRecommendations",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
