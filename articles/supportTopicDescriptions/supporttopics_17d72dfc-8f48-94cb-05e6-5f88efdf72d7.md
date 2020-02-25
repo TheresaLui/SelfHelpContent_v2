@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -274,9 +274,9 @@
     {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
       "longDescription": null,
-      "shortDescription": "Issues with VM agent which is resposible for functional aspects of deploying and managing Azure VMs",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues with VM agent which is responsible for functional aspects of deploying and managing Azure VMs",
+      "searchTags": "backup;failed;agent",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
