@@ -3,7 +3,7 @@
   pageTitle="Support topic metadata for Azure HDInsight"
   authors="mimig"
   ms.author="mimig1"
-  icmteam="icmteam1"
+  icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="mimig@microsoft.com"
   productpesids="5ffad63a-3267-d6b7-2fa1-6d9134c1fa62"
