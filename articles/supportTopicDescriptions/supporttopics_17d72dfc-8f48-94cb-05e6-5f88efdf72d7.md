@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -662,6 +662,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f5413101-ad2e-7e9f-5603-0367389bcf7f",
+      "longDescription": "",
+      "shortDescription": "SAP HANA database backup",
+      "searchTags": "SAP HANA",
+      "category": "SAP",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "f6bf4d86-7e89-48f3-0b43-da0d067d7fef",
