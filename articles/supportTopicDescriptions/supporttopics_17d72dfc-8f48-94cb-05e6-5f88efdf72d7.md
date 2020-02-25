@@ -192,6 +192,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3f1a599a-e8be-1ef7-5d38-7016f8093c31",
+      "longDescription": "",
+      "shortDescription": "Issue with discovering the SAP HANA instance",
+      "searchTags": "Pre-registration script;System key;Discovery",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "412bbd3b-d2a8-cd79-b614-5dec72dab528",
       "longDescription": null,
       "shortDescription": "",
