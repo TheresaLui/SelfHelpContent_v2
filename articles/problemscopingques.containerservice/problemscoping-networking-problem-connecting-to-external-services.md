@@ -46,7 +46,7 @@
                 {
                     "value": "No",
                     "text": "No"
-                },
+                }
             ],
             "infoBalloonText": "You must have enough <a href='https://docs.microsoft.com/azure/aks/load-balancer-standard#required-quota-for-customizing-allocatedoutboundports'>outbound IP capacity</a> based on the number of your node VMs and desired allocated outbound ports.",
             "required": false
@@ -65,7 +65,7 @@
                 {
                     "value": "No",
                     "text": "No"
-                },
+                }
             ],
             "infoBalloonText": "Check the list of <a href='https://docs.microsoft.com/azure/aks/limit-egress-traffic#required-ports-and-addresses-for-aks-clusters'>required ports</a> for AKS cluster.",
             "required": false
