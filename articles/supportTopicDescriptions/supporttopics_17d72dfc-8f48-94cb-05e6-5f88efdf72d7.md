@@ -152,6 +152,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
+      "longDescription": "",
+      "shortDescription": "Issue with configuring backup for a SAP HANA database",
+      "searchTags": "Timeout;Stop protection",
+      "category": "Configure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
       "longDescription": null,
       "shortDescription": "",
