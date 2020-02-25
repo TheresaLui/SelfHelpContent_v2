@@ -1,6 +1,6 @@
 <properties
          pageTitle="TSG Workflow Questions - No connectivity to backend pool"
-         description="Troubleshoot backend pool issues."
+         description="Troubleshoot backend pool issues"
          authors="seanj-ms"
          ms.author="seanj"
          selfHelpType="TSG_Questions"
