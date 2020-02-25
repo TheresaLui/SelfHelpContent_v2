@@ -1,6 +1,6 @@
 <properties
-         pageTitle="V2 Workflow Questions Test"
-         description="Ensure that a V2 workflow can use this content"
+         pageTitle="TSG Workflow Questions - 502 Gateway Error"
+         description="Troubleshoot 502 Gateway Error issues"
          authors="seanj-ms"
          ms.author="seanj"
          selfHelpType="TSG_Questions"
@@ -17,7 +17,7 @@
             "id": "cc74431c-174a-45c6-93f8-7985291eb567",
             "order": 1,
             "controlType": "radioButtonGroup",
-            "displayLabel": "v2-Test - Is the backend pool empty?",
+            "displayLabel": "Is the backend pool empty?",
             "radioButtonOptions": [
                 {
                     "value": "Yes",
@@ -34,7 +34,7 @@
             "id": "e0587a42-0e33-4d3b-ba91-66600bb3c90c",
             "order": 2,
             "controlType": "radioButtonGroup",
-            "displayLabel": "v2-Test - Are all the backend servers unhealthy?",
+            "displayLabel": "Are all the backend servers unhealthy?",
             "radioButtonOptions": [
                 {
                     "value": "Yes",
@@ -51,7 +51,7 @@
             "id": "20e27905-6a8c-4003-9ff7-bc8bfd9957e9",
             "order": 3,
             "controlType": "radioButtonGroup",
-            "displayLabel": "v2-Test - What is the SSL related error?",
+            "displayLabel": "What is the SSL related error?",
             "radioButtonOptions": [
                 {
                     "value": "V1 SKU: Backend Server Certificate needs to be whitelisted in Application Gateway",
@@ -92,7 +92,7 @@
             "id": "6eceee09-c605-4bda-8334-37f08840bcaa",
             "order": 4,
             "controlType": "radioButtonGroup",
-            "displayLabel": "v2-Test - Is there a custom probe configured for the HTTP Setting?",
+            "displayLabel": "Is there a custom probe configured for the HTTP Setting?",
             "radioButtonOptions": [
                 {
                     "value": "Yes",
