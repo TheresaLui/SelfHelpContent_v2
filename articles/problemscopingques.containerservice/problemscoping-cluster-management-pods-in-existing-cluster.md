@@ -53,7 +53,7 @@
                 {
                     "value": "No",
                     "text": "No"
-                },
+                }
             ],
             "infoBalloonText": "Check the list of <a href='https://docs.microsoft.com/azure/aks/limit-egress-traffic#required-ports-and-addresses-for-aks-clusters'>required ports</a> for AKS cluster.",
             "required": false
