@@ -19,8 +19,8 @@
 
 Most users are able to resolve their Power BI connector issue using the steps below. 
 
-### **PowerBI Desktop not connecting to Cosmos DB**  
-You may be using table api which is not yet supported with the powerbi desktop. Try to use the SQL API / Gremlin API to connect to Power BI.
+### **Power BI Desktop not connecting to Cosmos DB**  
+You may be using Table API which is not yet supported with the Power BI desktop. Try to use the SQL API / Gremlin API to connect to Power BI.
 
 
 ## **Recommended Documents**  

@@ -27,12 +27,12 @@ Having a high configuration value for your *spark.cassandra.output.concurrent.wr
 ### **Request rate too large**
 If you are Receiving a Request rate too large error, consider increasing the configs for *query_maxretryattemptsonthrottledrequests* or *query_maxretrywaittimeinseconds*.  
 
-## **Spark unable to use full provisioned RUs**
+### **Spark unable to use full provisioned RUs**
 If your Spark job is unable to use your full provisioned RUs, review your partition key for hot spots, and tune the number of cores/executors to match the provisioned throughput (executor per 5-10k RU as a thumb rule), and review the data sort order for ordering skews (you may need to shuffle).  
 
 
-## **What is the safe way to kill CosmosDB ChangeFeed Spark Streaming**
-If you manually kill or stop the process, it might result in the change feed process to crash in the middle and the check point file would have the details of the last successful complete (previous successful process). When you run the next job, change feed might send part of the data again till the point where it crashed. So, it would be better to handle on the client side to reprocess the data (or clean the duplicate data) based on the information from the checkpoint file. The new job will pick up from the point of the last checkpoint file. It would be based on the file system and on the spark job if the file that it is writing to will be closed safely. There is no data loss with the manual kills and restarting. 
+###**What is the safe way to kill CosmosDB ChangeFeed Spark Streaming**
+If you manually kill or stop the process, it might result in the change feed process to crash in the middle and the checkpoint file would have the details of the last successful complete (previous successful process). When you run the next job, change feed might send part of the data again till the point where it crashed. So, it would be better to handle on the client side to reprocess the data (or clean the duplicate data) based on the information from the checkpoint file. The new job will pick up from the point of the last checkpoint file. It would be based on the file system and on the spark job if the file that it is writing to will be closed safely. There is no data loss with the manual kills and restarting. 
 
 ## **Recommended Documents**  
 
@@ -43,6 +43,6 @@ If you manually kill or stop the process, it might result in the change feed pro
 <br>Apache Spark Connector for Azure Cosmos DB.  
 
 [Azure Cosmos DB Spark Connector configuration references](https://github.com/Azure/azure-cosmosdb-spark/wiki/Configuration-references)
-<br>Description of the available configurations of the CosmsoDB Spark Connector.  
+<br>Description of the available configurations of the Cosmso DB Spark Connector.  
 
 
