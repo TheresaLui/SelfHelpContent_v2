@@ -46,7 +46,7 @@
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
             "required": true
-        }        
+        }
     ],
     "$schema": "SelfHelpContent"
 }
