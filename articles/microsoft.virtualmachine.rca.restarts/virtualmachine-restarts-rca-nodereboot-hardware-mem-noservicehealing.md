@@ -26,7 +26,7 @@ The host node reboot was triggered by our Azure monitoring systems that detected
 The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 - Azure is continually working to make improvements to pre-production hardware screening.
 - Improvements to failure prediction telemetry and models.
-- Improvements to memory failure handling to reduce or avoid impact to customers.<br>
+- Improvements to memory failure handling to reduce or avoid impact to customers.<br> 
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
 
