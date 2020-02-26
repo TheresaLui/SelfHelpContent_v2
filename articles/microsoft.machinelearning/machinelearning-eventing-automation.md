@@ -19,5 +19,5 @@
 ## **Recommended steps**
 Follow the documentation to set up eventing & automation around Azure ML scenarios:
 
-* EventGrid: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-event-grid 
-* Azure DevOps: https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/azure-machine-learning?context=azure%2Fmachine-learning%2Fservice%2Fcontext%2Fml-context&view=azure-devops&tabs=yaml
+* EventGrid: https://docs.microsoft.com/azure/machine-learning/how-to-use-event-grid 
+* Azure DevOps: https://docs.microsoft.com/azure/devops/pipelines/targets/azure-machine-learning?context=azure%2Fmachine-learning%2Fservice%2Fcontext%2Fml-context&view=azure-devops&tabs=yaml
