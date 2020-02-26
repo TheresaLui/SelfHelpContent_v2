@@ -4,7 +4,7 @@
     authors="akucer"
     ms.author="akucer"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32632122, 32632093, 32632098, 32632110, 32632078, 32632089, 32632115, 32632113, 32632095, 32632130, 32632076, 32632112, 32632097, 32632088, 32632104, 32632118, 32729543, 32729544, 32729545, 32729547, 32729549, 32632079. 32729551. 32632127, 32632101"
+    supportTopicIds="32632122, 32632093, 32632098, 32632110, 32632078, 32632089, 32632115, 32632113, 32632095, 32632130, 32632076, 32632112, 32632097, 32632088, 32632104, 32632118, 32729543, 32729544, 32729545, 32729547, 32729549, 32632079, 32729551, 32632127, 32632101"
     productPesIds="14885"
     articleId="problemscopingques-ams-common"
     cloudEnvironments="public"
@@ -57,6 +57,7 @@
                 {
                     "value": "v2",
                     "text": "v2"
+                },
                 {
                     "value": "v3",
                     "text": "v3"
@@ -75,7 +76,7 @@
             "displayLabel": "Scenario details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": true
         },
     ],
     "$schema": "SelfHelpContent"
