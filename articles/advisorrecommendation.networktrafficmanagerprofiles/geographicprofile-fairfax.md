@@ -16,7 +16,7 @@
   "recommendationTypeId": "0bbe0a49-3c63-49d3-ab4a-aa24198f03f7",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Public.Production.Watm.Advisor.GeoEndpoints",
+    "streamNamespace": "Fairfax.Production.Watm.Advisor.GeoEndpoints",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },

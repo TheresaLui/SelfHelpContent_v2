@@ -16,7 +16,7 @@
   "recommendationTypeId": "b020ff96-37bf-4a64-8bd5-2bfb3fdf3f87",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Public.Production.Watm.Advisor.FastFailoverTTL",
+    "streamNamespace": "Fairfax.Production.Watm.Advisor.FastFailoverTTL",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
