@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
+      "longDescription": "",
+      "shortDescription": "You received the (unknown MySQL server host) error",
+      "searchTags": "unknown mysql server host;Database is currently unavailable;unavailable",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a1f3e0ec-c33b-9950-8221-81fd2e25ed37",
       "longDescription": "",
       "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
