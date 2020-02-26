@@ -16,6 +16,8 @@
 
 # Migration and Move/Move resources between subscriptions
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Documents**
 
 * [Services that **can be moved** between subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources?#services-that-can-be-moved)<br>

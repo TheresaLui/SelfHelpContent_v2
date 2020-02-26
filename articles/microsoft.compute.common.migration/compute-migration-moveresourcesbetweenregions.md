@@ -16,6 +16,8 @@
 
 # Migration and Move/Move resources between regions
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Documents**
 
 * [How to use Azure Site Recovery to move resources between regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-migrate)<br>

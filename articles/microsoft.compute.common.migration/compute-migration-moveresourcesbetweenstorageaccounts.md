@@ -16,6 +16,8 @@
 
 # Move resources between storage accounts
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Documents**
 
 * [Move resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)<br>

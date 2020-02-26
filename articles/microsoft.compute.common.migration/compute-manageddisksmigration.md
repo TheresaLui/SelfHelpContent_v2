@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565835"
@@ -15,7 +16,9 @@
 
 # Management/Managed disks migration
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Frequently Asked Questions managed disks](https://docs.microsoft.com/azure/storage/storage-faq-for-disks?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review the Azure Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
