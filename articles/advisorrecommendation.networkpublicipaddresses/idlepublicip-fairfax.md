@@ -3,7 +3,7 @@
     description="Delete Public IP address not associated to a running Azure resource"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="1b4dd958-c202-47af-af97-99bfc98376a5_Public"
+    articleId="1b4dd958-c202-47af-af97-99bfc98376a5_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
 />
