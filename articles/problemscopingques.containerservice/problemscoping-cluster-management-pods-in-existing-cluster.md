@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32683762"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-pods-in-existing-cluster"
 />
