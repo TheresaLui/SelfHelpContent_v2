@@ -38,3 +38,4 @@ If you plan to use a firewall, and access the cluster from outside on certai
 * [Connectivity and Virtual Networks FAQ](https://docs.microsoft.com/en-au/azure/hdinsight/hdinsight-faq#connectivity-and-virtual-networks)
 * [VNET and Networking](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
 * [Connect HDInsight to your on-premises network](https://docs.microsoft.com/azure/hdinsight/connect-on-premises-network#configure-the-virtual-network-to-use-the-custom-dns-server)
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
