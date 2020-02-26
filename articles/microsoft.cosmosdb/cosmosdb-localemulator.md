@@ -30,7 +30,7 @@ By using the Azure Cosmos DB Emulator, you can develop and test your application
 
 ## **Recommended Documents**
 
-[Download MSI](https://aka.ms/cosmosdb-emulator)
+[Download MSI](https://docs.microsoft.com/azure/cosmos-db/local-emulator#installation)
 <br> Download the emulator  
 
 [Docker Hub link](https://hub.docker.com/r/microsoft/azure-cosmosdb-emulator)

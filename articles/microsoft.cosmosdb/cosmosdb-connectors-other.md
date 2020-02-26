@@ -22,9 +22,9 @@ Most users are able to resolve their Connectors issue using the steps below.
 ## **Recommended Steps**  
 
 ### **Issues with Data explorer access for Cosmos DB**  
-Please check your firewall rules.  If you have recently updated your firewall, the rule may be take upto 24 hours to be applied.  
+Please check your firewall rules.  If you have recently updated your firewall, the rule may be take up to 24 hours to be applied.  
 
-### **Problem activating Auto Pilot feature in Cosmos DB**  
+### **Problem activating Autopilot feature in Cosmos DB**  
 Autopilot has been registered for all users. Autopilot can only be enabled while creating new databases and containers from the Azure Portal.
 * Support for CLI and SDK is not yet available
 * Support to enable autopilot mode on existing containers and databases is not yet available

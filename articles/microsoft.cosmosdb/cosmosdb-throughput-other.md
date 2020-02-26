@@ -47,7 +47,7 @@ You can have several options to change the throughput for your collections or da
 * [Azure CLI](https://docs.microsoft.com/cli/azure/cosmosdb/collection?view=azure-cli-latest#az-cosmosdb-collection-show)
 * [.NET SDK](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-database-throughput#provision-throughput-using-net-sdk)
 * [Offers](https://docs.microsoft.com/rest/api/cosmos-db/offers)
-* You can also change to use [Autopilot](https://docs.microsoft.com/en-us/azure/cosmos-db/provision-throughput-autopilot)
+* You can also change to use [Autopilot](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autopilot)
 
 
 ## **Recommended Documents**
