@@ -6,7 +6,7 @@
     articleId="0db76759-6d22-4262-93f0-2f989ba2b58e_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Farifax"
+    cloudEnvironments="Fairfax"
 />
 # Add or move one endpoint to another Azure region
 ---
