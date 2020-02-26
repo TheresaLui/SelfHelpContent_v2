@@ -27,6 +27,14 @@
       "searchTags": "issues while connecting;issues connecting;connectivity;vnet;vm",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a1f3e0ec-c33b-9950-8221-81fd2e25ed37",
+      "longDescription": "",
+      "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
+      "searchTags": "Availability;Connectivity;Availability and Connectivity",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
