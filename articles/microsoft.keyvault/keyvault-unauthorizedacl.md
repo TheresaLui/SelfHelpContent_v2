@@ -1,0 +1,31 @@
+<properties
+	pageTitle="Key Vault recommendations"
+	description="Key Vault recommendations are available"
+	infoBubbleText="You have Key Vault recommendations available"
+	service="microsoft.keyvault"
+	resource="vault"
+	authors="osmuller"
+	ms.author="osmuller"
+	displayOrder=""
+	articleId="keyvault-unauthorizedacl"
+	diagnosticScenario="keyvault-recommendations"
+	selfHelpType="Diagnostics"
+    supportTopicIds=""
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+
+# You have Key Vault recommendations
+
+<!--issueDescription-->
+The key vault '<!--$Vault-->[Vault]<!--/$Vault-->' has denied access to a user or application in the time range you have selected because the user or application did not have sufficient key vault access policy permissions to perform an operation on the key vault. 
+<!--/issueDescription-->
+
+## **Recommended Steps**
+
+1. Please ask the owner of this key vault to grant the correct permissions in the key vault access policies to this user or application. 
+2. If you are unsure what permissions must be granted to enable access or what operations were affected, please enable diagnostic logs on this key vault and look at the log entries or use Azure Monitor to examine any failed requests. 
+Refer to the following documents to help set up logging and use Azure Monitor. 
+* [Azure monitor key vault](https://https://docs.microsoft.com/en-us/azure/azure-monitor/insights/azure-key-vault)
+* [Azure key vault logging](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-logging)
