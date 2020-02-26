@@ -12,4 +12,4 @@
 
 # Virtual Network Peering Troubleshooting Guide
 
-This troubleshooter will guide you to find the root cause and resolution for VNet Peering connecitivity or configuration issues
+This troubleshooter will guide you to find the root cause and resolution for VNet Peering connectivity or configuration issues
