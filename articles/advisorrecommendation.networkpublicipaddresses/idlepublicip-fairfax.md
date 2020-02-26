@@ -16,7 +16,7 @@
   "recommendationTypeId": "1b4dd958-c202-47af-af97-99bfc98376a5",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "AzureAdvisor.IdlePublicIpV2_Public",
+    "streamNamespace": "AzureAdvisor.IdlePublicIpV2_Fairfax",
     "dataSource": "Cosmos",
     "refreshInterval": "01:00:00"
   },
