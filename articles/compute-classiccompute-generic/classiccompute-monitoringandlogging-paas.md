@@ -16,7 +16,7 @@
 
 # worker role (paas)/configuration and management/monitoring and logging
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Retirement of Classic monitoring and alerting platform](https://docs.microsoft.com/azure/azure-monitor/platform/monitoring-classic-retirement#retirement-of-classic-monitoring-and-alerting-platform)<br>
 * [Troubleshooting guidance on Azure Diagnostics](https://docs.microsoft.com/azure/monitoring-and-diagnostics/azure-diagnostics-troubleshooting)<br>
