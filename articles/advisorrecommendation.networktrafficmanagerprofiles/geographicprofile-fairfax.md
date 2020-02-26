@@ -5,6 +5,7 @@
     ms.author="mamccree"
     articleId="0bbe0a49-3c63-49d3-ab4a-aa24198f03f7_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
+    productPesIds="15400"
     cloudEnvironments="Fairfax"
 />
 # Add an endpoint configured to "All (World)"

@@ -5,6 +5,7 @@
     ms.author="aadevteam"
     articleId="b020ff96-37bf-4a64-8bd5-2bfb3fdf3f87_Public"
     selfHelpType="advisorRecommendationMetadata"
+    productPesIds="15400"
     cloudEnvironments="Public"
 />
 # Configure DNS Time to Live to 20 seconds

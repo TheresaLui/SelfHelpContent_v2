@@ -5,6 +5,7 @@
     ms.author="mamccree"
     articleId="6cd70072-c45c-4716-bf7b-b35c18e46e72_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
+    productPesIds="15400"
     cloudEnvironments="Farifax"
 />
 # Add at least one more endpoint to the profile, preferably in another Azure region
