@@ -7,7 +7,7 @@
     ms.author="jordane"
     displayOrder="1"
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32690825"
     resourceTags=""
     productPesIds="16644"
     cloudEnvironments="public"
