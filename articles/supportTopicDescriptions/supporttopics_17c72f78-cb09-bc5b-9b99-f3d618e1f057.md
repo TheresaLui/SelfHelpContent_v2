@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "3a67bd4f-0f8f-c1c3-b576-cc3881d16093",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation",
+      "searchTags": "issues while connecting;issues connecting;connectivity;vnet;vm",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a1f3e0ec-c33b-9950-8221-81fd2e25ed37",
       "longDescription": "",
       "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",

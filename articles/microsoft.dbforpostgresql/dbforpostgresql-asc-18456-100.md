@@ -4,7 +4,8 @@
 	infoBubbleText="Found recent connection failure. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
-	authors="janeng"
+	ms.author="janeng"
+	authors="jan-eng"
 	displayOrder="100"
 	articleId="dbforpostgresql-asc-18456-100"
 	diagnosticScenario="OrcasPostgresSSLNotSpecified"
@@ -17,7 +18,7 @@
 # Can't connect PostgreSQL database server because of SSL connection errors
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues with Azure Database for PostgreSQL. During our investigation we determined that connections to your database server are failing because the server was configured to require an SSL connection and connection attempts to the server were made without SSL enabled on the connections.
+There have been failed connections to your database server because the server was configured to require an SSL connection and connection attempts to the server were made without SSL enabled on the connections.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
