@@ -4,13 +4,13 @@
 	infoBubbleText=""
 	service="microsoft.storage"
 	resource="datalakestoragegen2"
-	authors="kartikshah9"
-	ms.author="kashah"
+	authors="annayak"
+	ms.author="annayak"
 	displayOrder=""
-	articleId="b2c988c7-a4ea-4438-8ad2-dc54a2a46b8b"
+	articleId="bedf199d-542b-43d5-a378-0dfdca3e9a88"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32612591"
+	supportTopicIds="32731237"
 	resourceTags=""
 	productPesIds="16598"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
@@ -22,12 +22,12 @@
 
 Most customers resolve their queries related to Access Control Lists on Files and Directories with Azure Data Lake Storage Gen2 on their own, using the links below.<br>
 
-### **Access Control Lists (ACLs) for Data Lake Storage Gen2** 
+### **Access Control Lists (ACLs) for Data Lake Storage Gen2**
 
 * [Overview of Access Control Lists for Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)<br>
 * [Common Questions on ACLs in Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#common-questions-about-acls-in-data-lake-storage-gen2)<br>
 
-### **Manage Access Control Lists (ACLs) for Data Lake Storage Gen2** 
+### **Manage Access Control Lists (ACLs) for Data Lake Storage Gen2**
 
 * [Manage ACLs using Java](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-java#manage-a-directory-acl)<br>
 * [Manage ACLs using .NET](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-dotnet)<br>
