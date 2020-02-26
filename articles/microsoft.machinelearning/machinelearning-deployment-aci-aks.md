@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds="32690855"
     resourceTags=""
-    productPesIds=""
+    productPesIds="16644"
     cloudEnvironments="public"
 />
 
@@ -18,5 +18,5 @@
 ## **Recommended steps**
 Follow the documentation to deploy a model to the following compute targets:
 
-* AKS: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service
-* ACI: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-container-instance
+* AKS: https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-kubernetes-service
+* ACI: https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-container-instance
