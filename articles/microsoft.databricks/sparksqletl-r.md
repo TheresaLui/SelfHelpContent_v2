@@ -26,3 +26,4 @@
 * [Fix the Version of R Packages](https://kb.azuredatabricks.net/r/pin-r-packages.html)
 * [How To Parallelize R Code with gapply](https://kb.azuredatabricks.net/r/sparkr-gapply.html)
 * [How To Parallelize R Code with spark.lapply](https://kb.azuredatabricks.net/r/sparkr-lapply.html)
+* Note that R is not supported with Table Access Control

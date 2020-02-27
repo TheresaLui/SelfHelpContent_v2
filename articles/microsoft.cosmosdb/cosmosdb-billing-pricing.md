@@ -3,10 +3,10 @@
 	description="Troubleshoot Azure Cosmos DB Billing and Pricing issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="rnagpal"
-	ms.author="rnagpal"
+	authors="jimsch"
+	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636791,32636806,32636826,32692544"
+	supportTopicIds="32636791,32636806,32636826"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
@@ -25,7 +25,7 @@ Azure Cosmos DB resources are charged based on the storage consumed(GB) and the 
 ## **Recommended Documents**  
 
 [Azure Cosmos DB pricing](https://azure.microsoft.com/pricing/details/cosmos-db/)
-<br>This article provides Azure CosmosDB Price and Cost estimation, and how cost are calculated.  
+<br>This article provides Azure Cosmos DB Price and Cost estimation, and how cost are calculated.  
 
 [Estimate Request Units and Data Storage](https://www.documentdb.com/capacityplanner)
 <br>Calculator to assist you in estimating your account configured capacity.

@@ -10,7 +10,7 @@
 	supportTopicIds="32633516"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 	articleId="bc8b4aab-73b3-415d-9222-61a3e5d69386"
 />
 

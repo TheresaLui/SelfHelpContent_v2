@@ -7,7 +7,7 @@
 	ms.author="raprasad"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602700,32602736,32602737"
+	supportTopicIds="32602700,32602736"
 	resourceTags=""
 	productPesIds="15629,16459"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"

@@ -17,5 +17,7 @@
 # Diagnose and resolve issues with Databricks access control
 
 ## **Recommended Documents**
-
+* [Secrets](https://docs.microsoft.com/azure/databricks/security/secrets/secrets)
+* [Create an Azure Key Vault-backed secret scope](https://docs.microsoft.com/azure/databricks/security/secrets/secret-scopes#--create-an-azure-key-vault-backed-secret-scope)
+* [Azure Databricks Access Control](https://docs.azuredatabricks.net/administration-guide/admin-settings/index.html#manage-access-control)
 * [Cannot Read Azure Databricks Objects Stored in DBFS Root Directory](https://kb.azuredatabricks.net/dbfs/dbfs-root-permissions.html)

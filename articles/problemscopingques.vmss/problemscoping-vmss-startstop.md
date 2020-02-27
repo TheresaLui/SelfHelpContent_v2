@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32641079"
+                supportTopicIds="32641073"
                 productPesIds="16080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
@@ -132,8 +132,75 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "startstop_issue",
             "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "What is the issue you are experiencing?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Unexpected restart of the VMs",
+                    "text": "Unexpected restart of the VMs"
+                },
+                {
+                    "value": "Unresponsiveness of the VMs",
+                    "text": "Unresponsiveness of the VMs"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "startstop_ifone",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Did the issue affected one VM or all the instances of the VMSS?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "One VM",
+                    "text": "One VM"
+                },
+                {
+                    "value": "All the instances",
+                    "text": "All the instances"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "startstop_single_vm",
+            "order": 9,
+            "visibility": "startstop_ifone == One VM",
+            "controlType": "textbox",
+            "displayLabel": "Please specify the affected instance.",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "startstop_rca_fix",
+            "order": 10,
+            "controlType": "dropdown",
+            "displayLabel": "Are you requesting a fix or an RCA?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "RCA",
+                    "text": "RCA"
+                },
+                {
+                    "value": "Fix",
+                    "text": "Fix"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 11,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -141,7 +208,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 12,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
