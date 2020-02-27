@@ -32,7 +32,7 @@
 **Other Issues:**
 * [What is Azure Blockchain Service](https://docs.microsoft.com/azure/blockchain/service/overview)<br>
 * [Quickstart: Create an Azure Blockchain Service blockchain member using the Azure portal](https://docs.microsoft.com/azure/blockchain/service/create-member)<br>
-* [Tutorial: Create, build, and deploy smart contracts on Azure Blockchain Service](https://docs.microsoft.com/azure/blockchain/service/send-transactio)<br>
+* [Tutorial: Create, build, and deploy smart contracts on Azure Blockchain Service](https://docs.microsoft.com/azure/blockchain/service/send-transaction)<br>
 * [Azure Blockchain Service development overview](https://docs.microsoft.com/azure/blockchain/service/develop)<br>
 * [Azure Blockchain Service documentation](https://docs.microsoft.com/azure/blockchain/service/index)<br>
 * [Azure Blockchain documentation](https://docs.microsoft.com/azure/blockchain/)
