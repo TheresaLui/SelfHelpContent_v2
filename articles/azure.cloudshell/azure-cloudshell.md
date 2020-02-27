@@ -12,6 +12,7 @@
 	productPesIds="16304"
 	cloudEnvironments="public, Fairfax"
 	articleId="503fac72-f932-4dc4-987e-7421f726aeee"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Cloud Shell Issues

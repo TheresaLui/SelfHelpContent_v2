@@ -13,6 +13,7 @@ pageTitle="DirectorySynchronization is disabled for tenant"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # DirectorySynchronization is disabled for tenant

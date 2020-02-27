@@ -9,6 +9,7 @@
   productPesIds="14785"
   cloudEnvironments="public"
  	articleId="ca8ff658-1ec1-44b9-85a3-edcd5d520c6c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Problems configuring conditional access to one of my applications

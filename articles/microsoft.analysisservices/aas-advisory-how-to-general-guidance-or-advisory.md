@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="a9973b71-c65d-6d90-ea28-a0eada1e62a8"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Azure Analysis Services Documentation

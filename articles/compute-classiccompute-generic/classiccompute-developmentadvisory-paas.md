@@ -11,6 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="3de401bd-042d-4109-a0d1-f6ce26b1163c"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/development/advisory

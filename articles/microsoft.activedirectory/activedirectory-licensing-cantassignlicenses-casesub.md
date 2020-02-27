@@ -12,6 +12,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
  	articleId="a80b47b3-fdc3-4933-b1f9-31fab817fe04"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # I can't assign licenses to a user

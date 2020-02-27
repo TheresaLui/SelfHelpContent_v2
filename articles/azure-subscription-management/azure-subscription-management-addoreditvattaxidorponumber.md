@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="53a3671e-e7e2-4af9-b703-58681bd232e3"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Add or edit VAT, Tax ID, or PO number for your Azure Subscription

@@ -11,6 +11,7 @@
 	productPesIds="15571,15797"
 	cloudEnvironments="public, Fairfax"
 	articleId="6229b1e3-4adb-491b-aed4-db1778e4a78b"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Performance/Performance issues that are related to SAP HANA large instances

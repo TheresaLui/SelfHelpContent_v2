@@ -11,6 +11,7 @@
     productPesIds="14785,16578"
     cloudEnvironments="public"
     	articleId="02aafe9c-3938-489b-9481-ca8ffb1813ec"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # I still have other problems deleting my Azure AD tenant

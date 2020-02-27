@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="reserved instance- unable to understand usage"
+	ownershipId="ASMS_Billing"
 />
 
 # Reserved Instance- Which resource (VM, etc.) consumed the reservation

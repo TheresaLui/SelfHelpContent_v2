@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="139d33b8-e7d5-44e6-9e31-f58369e66d57"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Resolve issues signing in or accessing your Azure subscriptions

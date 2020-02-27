@@ -13,6 +13,7 @@ pageTitle="Device Writeback OU is not in sync scope"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Device Writeback OU is not in sync scope

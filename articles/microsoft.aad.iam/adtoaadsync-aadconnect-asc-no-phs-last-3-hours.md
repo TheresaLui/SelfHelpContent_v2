@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AAD Connect server(s) did not sync passwords in the last 3 hours

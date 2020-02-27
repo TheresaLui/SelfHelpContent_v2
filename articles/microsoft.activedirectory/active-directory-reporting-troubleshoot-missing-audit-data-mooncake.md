@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-reporting-troubleshoot-missing-audit-data-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can’t find actions performed in Azure Active Directory in the activity logs

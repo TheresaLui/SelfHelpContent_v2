@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-add-resource-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Why can't I add a certain resource to an access package or catalog?

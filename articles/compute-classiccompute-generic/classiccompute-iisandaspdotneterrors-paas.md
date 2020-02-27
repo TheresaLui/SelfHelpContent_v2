@@ -11,6 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="9f6486ee-d334-4711-9fe3-2903ab1bd421"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/application and service availability/iis and asp.net errors

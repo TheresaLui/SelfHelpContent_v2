@@ -9,6 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  	articleId="da73114e-feeb-4a44-9d7d-2bbaac131c50"
+	ownershipId="AzureIdentity_User"
 />
 # I don't think I have the correct permissions, firewall rules, or connection settings for password writeback
 

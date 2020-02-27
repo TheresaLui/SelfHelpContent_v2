@@ -12,6 +12,7 @@
     productPesIds="16611"
     cloudEnvironments="public, Fairfax"
 	articleId="2a4a8edf-ad4c-45cd-90c2-2e11d3c5d5f4"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Failover Performance
