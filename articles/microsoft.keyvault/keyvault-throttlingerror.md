@@ -24,7 +24,7 @@ The key vault '<!--$Vault-->Vault<!--/$Vault-->' was throttled. This occurs when
 
 ## **Recommended Documents**
 
-Please use the following documents to help reduce the number of requests your application makes to  key vault and understand the current Key Vault service limits
+Please use the following documents to help reduce the number of requests your application makes to key vault and understand the current Key Vault service limits:
 
 * [Azure key vault throttling guidelines](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)
 * [Azure key vault service limits](https://docs.microsoft.com/azure/key-vault/key-vault-service-limits)
