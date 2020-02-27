@@ -94,7 +94,7 @@
                     "value": "Unable to retrieve list of resource providers",
                     "text": "Unable to retrieve list of resources providers"
                 }
-            ],
+            ]
 
         },
         {
@@ -122,7 +122,7 @@
                     "value": "Unable to retrieve list of resources",
                     "text": "Unable to retrieve list of resources"
                 }
-            ],
+            ]
 
         },
         {
