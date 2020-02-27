@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	ownershipId="ASMS_Billing"
 />
 
 # Subscription payment instrument has expired

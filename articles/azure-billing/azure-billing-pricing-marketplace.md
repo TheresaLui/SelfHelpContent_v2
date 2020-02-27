@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="pricing-marketplace"
+	ownershipId="ASMS_Billing"
 />
 
 # Help me understand when I will be charged

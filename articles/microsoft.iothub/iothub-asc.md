@@ -11,6 +11,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="412dfc49-ed54-4e1e-8f09-64bfac530af6s"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Issues with Azure Security Center and IoT Hub 

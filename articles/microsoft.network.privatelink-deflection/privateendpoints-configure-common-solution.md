@@ -13,7 +13,7 @@
 	supportTopicIds="32681485"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # How to configure Private Endpoint?

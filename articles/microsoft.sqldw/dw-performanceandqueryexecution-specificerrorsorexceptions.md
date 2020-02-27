@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-performanceandqueryexecution-specificerrorsorexceptions.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Specific errors or exceptions

@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="32f0e973-4d2a-4254-ad49-c384658e6cf6"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to upgrade Azure AD Connect to the latest version

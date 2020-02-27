@@ -11,6 +11,7 @@
 	productPesIds="14785"
 	cloudEnvironments="public"
 	articleId="eeffab18-bba1-43f2-adc3-01f32b2ffeb8"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 

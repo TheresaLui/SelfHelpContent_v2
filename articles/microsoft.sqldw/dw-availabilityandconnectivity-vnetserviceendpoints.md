@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-vnetserviceendpoints.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # VNET service endpoints
 

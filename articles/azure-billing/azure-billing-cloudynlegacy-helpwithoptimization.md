@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="5e0c0459-c3a7-4eaa-b60f-35249f952be4"
+	ownershipId="ASMS_Billing"
 />
 
 # Help with Optimization

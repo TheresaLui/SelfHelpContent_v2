@@ -12,6 +12,7 @@
     productPesIds="14785"
     cloudEnvironments="public"
     	articleId="30121a54-a847-4274-a3ff-825f47d81d65"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Receiving error about domain configured on another tenant  

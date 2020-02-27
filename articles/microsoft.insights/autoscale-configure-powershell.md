@@ -11,6 +11,7 @@
     supportTopicIds="32683742"
     productPesIds="15527"
     cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- autoscale-configure-powershell -->

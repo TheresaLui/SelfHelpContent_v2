@@ -12,7 +12,7 @@
     supportTopicIds="32539943, 32586802, 32539944"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  />
 # Microsoft Azure is unable to automatically validate your Public Prefix
 <!--/issueDescription-->

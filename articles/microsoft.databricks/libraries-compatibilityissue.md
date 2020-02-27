@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="171610b6-aa2c-4b63-a017-65a5b58f7c88"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve library compatibility issues

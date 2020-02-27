@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds="32584249"
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax"
 />
 
 # We ran connectivity diagnostics on your resource and found an issue

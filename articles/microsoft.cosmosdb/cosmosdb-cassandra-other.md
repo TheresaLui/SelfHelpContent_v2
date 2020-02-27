@@ -13,6 +13,7 @@
 	articleId="cosmosdb-cassandra-other"
 	displayOrder="144"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Apache Cassandra features Supported by Azure Cosmos DB Cassandra API

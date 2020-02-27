@@ -11,6 +11,7 @@
 	productPesIds="16284"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="a7004257-edf5-43e3-b8a5-4ba249917bf1"
+	ownershipId="AzureIot_IotCentral"
 />
 
 # How-to development questions using REST APIs

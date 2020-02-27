@@ -11,7 +11,8 @@
     supportTopicIds="32635070"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Jobs and tasks - Creating tasks

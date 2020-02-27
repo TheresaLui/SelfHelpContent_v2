@@ -13,6 +13,7 @@
 	articleId="cosmosdb-cassandra-migration"
 	displayOrder="143"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Migrate data to Azure Cosmos DB Cassandra API

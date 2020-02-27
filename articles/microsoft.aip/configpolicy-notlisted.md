@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="configpolicy_policiesnotexpected"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection Protection - Creating and configuring Labels and Policies - My scenario is not listed"

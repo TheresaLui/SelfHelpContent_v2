@@ -11,6 +11,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="f2f4370a-61e8-4bd7-b19f-33b34d78d112"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # azure subscriptions

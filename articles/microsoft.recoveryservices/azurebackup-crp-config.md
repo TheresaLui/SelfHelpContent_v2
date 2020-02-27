@@ -11,7 +11,7 @@
 	resourceTags="windows,linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454,14749"
 	articleId="8add52e9-c225-4d86-be81-e1175203382b"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	/>
 
 # Azure Backup - I am having issues configuring or enabling backup

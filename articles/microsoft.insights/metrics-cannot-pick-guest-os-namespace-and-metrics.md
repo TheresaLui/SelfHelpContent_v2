@@ -13,6 +13,7 @@
     resourceTags=""
     productPesIds="16250"
     cloudEnvironments="public,fairfax"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-cannot-pick-guest-os-namespace-and-metrics -->

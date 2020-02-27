@@ -8,7 +8,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
      articleId="aa2fdaba-eb64-4593-bf36-ae4f4a212c8c"
-    />
+    	ownershipId="AzureIdentity_B2B"
+/>
 
 # Problem with dynamic groups
 

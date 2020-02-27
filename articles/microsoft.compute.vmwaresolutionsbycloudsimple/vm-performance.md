@@ -12,6 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="a691d75f-9dcb-43cc-94d9-7d5a2260ecc4"    
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting virtual machine performance 

@@ -10,8 +10,9 @@
 	supportTopicIds="32689203"
 	resourceTags=""
 	productPesIds="14749,15797,15571,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="f3b7bd6c-49b1-4f0f-b8fc-b85b3970bca8"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # VM Guest Agent issue (crash, hung, not upgrading, or not connecting)

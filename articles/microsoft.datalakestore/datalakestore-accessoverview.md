@@ -12,6 +12,7 @@
 	productPesIds="15879"
 	cloudEnvironments="public"
 	articleId="Access overview in ADLS Gen1"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
 
 # Access overview in ADLS Gen1

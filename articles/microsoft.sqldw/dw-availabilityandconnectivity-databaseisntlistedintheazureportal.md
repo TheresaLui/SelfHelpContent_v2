@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-databaseisntlistedintheazureportal.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Database isn't listed in the Azure portal
 

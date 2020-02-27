@@ -13,6 +13,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="eb21c147-ac6d-4ffd-bf59-2270722cbf21"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # I can't activate my device

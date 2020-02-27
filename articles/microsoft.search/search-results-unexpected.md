@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-results-unexpected"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Understanding how Azure Cognitive Search ranks search results

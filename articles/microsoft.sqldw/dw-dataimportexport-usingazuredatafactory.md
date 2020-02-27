@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-dataimportexport-usingazuredatafactory.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Using Azure Data Factory
 

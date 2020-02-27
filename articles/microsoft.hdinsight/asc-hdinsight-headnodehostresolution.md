@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_HDInsight"
 />
 
 # <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> not all nodes are pointing to the same headnodehost

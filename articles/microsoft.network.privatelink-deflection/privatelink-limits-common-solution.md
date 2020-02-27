@@ -13,7 +13,7 @@
 	supportTopicIds="32681490"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # What are the subscription limits associated with Private Link Service?

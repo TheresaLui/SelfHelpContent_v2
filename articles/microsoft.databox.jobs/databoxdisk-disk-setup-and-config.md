@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public"
 	articleId="6a032e80-868d-40bd-8df4-fc7a1e242268"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box Disk Setup and Configuration

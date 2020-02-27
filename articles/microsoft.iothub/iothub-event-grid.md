@@ -11,6 +11,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="a2e5f84a-864c-42e2-8b3e-dae0c5ef0cd1"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Issues with Event Grid and IoT Hub

@@ -13,6 +13,7 @@
 	articleId="cosmosdb-cassandra-authentication"
 	displayOrder="140"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Cassandra authentication

@@ -13,6 +13,7 @@
 	articleId="cosmosdb-stored-procedure"
 	displayOrder="66"
 	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Troubleshooting stored procedures  

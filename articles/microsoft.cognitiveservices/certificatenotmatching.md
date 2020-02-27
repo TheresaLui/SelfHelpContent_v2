@@ -11,6 +11,7 @@
         productPesIds="16121"
         cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
         articleId="6c452c93-a5fd-4bbb-b205-75d6750f02d7"
+	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # User Verification! Hostname in certificate didn’t match

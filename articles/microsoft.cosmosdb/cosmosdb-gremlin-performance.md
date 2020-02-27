@@ -13,6 +13,7 @@
 	articleId="cosmosdb-gremlin-performance"
 	displayOrder="184"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Gremlin - Performance
 Most users are able to resolve their Gremlin Performance issue using the steps below.  

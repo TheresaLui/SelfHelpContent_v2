@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="f99eaa64-e651-4ad3-9da7-53d32d3b92a9"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to set up Azure AD Connect sync

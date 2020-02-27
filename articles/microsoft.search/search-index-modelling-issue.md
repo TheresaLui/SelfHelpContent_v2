@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-modelling-issue"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # How to model an Azure Search Index with a preferred schema

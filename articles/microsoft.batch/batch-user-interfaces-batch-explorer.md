@@ -11,7 +11,8 @@
     supportTopicIds="32635063"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_AzureBatch"
 />
 
 # User interfaces - Batch Explorer

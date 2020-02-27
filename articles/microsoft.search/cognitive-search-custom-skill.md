@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="cognitve-search-custom-skill"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Issue getting a custom skill to work with Cognitive Search
 

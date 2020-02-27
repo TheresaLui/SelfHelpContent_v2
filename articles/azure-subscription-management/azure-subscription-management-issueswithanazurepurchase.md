@@ -11,6 +11,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="60f86c6b-cebc-4f05-84f4-38e5de2c68b6"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # issues with an azure purchase

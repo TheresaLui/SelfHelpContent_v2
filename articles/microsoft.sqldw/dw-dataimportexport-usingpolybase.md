@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-dataimportexport-usingpolybase.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Using Polybase
 

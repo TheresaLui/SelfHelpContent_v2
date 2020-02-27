@@ -10,7 +10,7 @@
     supportTopicIds="32684546"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="relay-how-do-i-questions-relay-client-libraries"
 />
 

@@ -11,7 +11,7 @@
 	supportTopicIds="32628761,32628760"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ms.author="sidram"
 />
 

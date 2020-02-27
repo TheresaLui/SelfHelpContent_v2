@@ -12,6 +12,7 @@
 	productPesIds="16668"
 	cloudEnvironments="public"
 	articleId="7f200c7e-6530-4e2e-bd46-f0ca9e7978d9"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # GitHub Security and Support Issues

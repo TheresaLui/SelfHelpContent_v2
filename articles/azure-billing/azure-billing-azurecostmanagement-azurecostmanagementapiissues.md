@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="5a3c8fec-59d4-4d8b-a95f-8526cc35494d"
+	ownershipId="ASMS_Billing"
 />
 
 # Azure Cost Management API Issues

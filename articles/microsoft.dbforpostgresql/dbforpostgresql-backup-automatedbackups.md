@@ -10,8 +10,9 @@
     supportTopicIds="32639968"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="8d101db0-cc7c-4c31-a9da-3f85bf9c063d"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Automated backups
