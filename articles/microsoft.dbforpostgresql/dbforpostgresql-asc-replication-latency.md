@@ -12,7 +12,7 @@
     selfHelpType="rca"
     resourceTags="windows, linux"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # High replication latency

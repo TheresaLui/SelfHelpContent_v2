@@ -10,7 +10,7 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633395,32633409,32633400,32633396"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="service-bus-error-msg"
 schemaVersion="1"
 />
