@@ -11,7 +11,7 @@
     supportTopicIds="32635094"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Pools and nodes - Low priority nodes

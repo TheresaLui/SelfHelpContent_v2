@@ -11,7 +11,7 @@
     supportTopicIds="32635084"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Batch account  - quotas

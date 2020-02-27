@@ -11,7 +11,7 @@
     supportTopicIds="32636040"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Monitoring and Diagnostics - Log events

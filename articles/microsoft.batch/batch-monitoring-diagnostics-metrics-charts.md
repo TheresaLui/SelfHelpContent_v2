@@ -11,7 +11,7 @@
     supportTopicIds="32636041"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Monitoring and Diagnostics - Metrics data and charts

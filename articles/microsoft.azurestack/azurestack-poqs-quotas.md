@@ -10,7 +10,7 @@
     supportTopicIds="32629249"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-poqs-quotas"
 />
 # Manage Quotas on Azure Stack

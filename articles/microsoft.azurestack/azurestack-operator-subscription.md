@@ -10,7 +10,7 @@
     supportTopicIds="32629263"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-operator-subscription"
 />
 
