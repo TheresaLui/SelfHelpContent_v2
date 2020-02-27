@@ -16,7 +16,7 @@
 
 # How do I register models in the workspace?
 
-## **Recommended steps**
+## **Recommended Documents**
 Follow the documentation to register and manage machine learning models.
 
 Model Registration: https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#registermodel
