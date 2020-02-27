@@ -10,7 +10,7 @@
 	displayOrder="2"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="search-issuewiththedotnetsdk"
 />
 

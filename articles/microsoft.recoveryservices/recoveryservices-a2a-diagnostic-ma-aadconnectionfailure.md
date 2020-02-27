@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, Fairfax"
 />
 
 # Mobility service Configuration failed due to AAD connectivity issue

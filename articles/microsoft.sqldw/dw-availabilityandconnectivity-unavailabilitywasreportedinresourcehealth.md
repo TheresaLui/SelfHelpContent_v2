@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags=""
     articleId="dw-availabilityandconnectivity-unavailabilitywasreportedinresourcehealth.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Unavailability was reported in Resource Health

@@ -13,7 +13,7 @@
 	supportTopicIds="32606424"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Common issues with NSG Flow Logs

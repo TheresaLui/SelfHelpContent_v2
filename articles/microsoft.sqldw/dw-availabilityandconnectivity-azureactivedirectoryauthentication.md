@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-azureactivedirectoryauthentication.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Azure Active Directory Authentication
 

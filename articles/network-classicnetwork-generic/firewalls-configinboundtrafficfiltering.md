@@ -10,7 +10,7 @@
     supportTopicIds="32628806"
     resourceTags=""
     productPesIds="16556"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="581761a9-8c9a-4a50-b395-0417fb4863a5"
 />
 # Setup routing

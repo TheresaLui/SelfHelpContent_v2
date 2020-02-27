@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="azure-blob-datasource"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Issue indexing an Azure Blob data source
 

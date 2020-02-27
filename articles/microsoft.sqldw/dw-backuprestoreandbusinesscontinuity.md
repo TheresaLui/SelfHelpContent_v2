@@ -11,7 +11,7 @@
     selfHelpType="resource"
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # How to recover from a backup and data protection

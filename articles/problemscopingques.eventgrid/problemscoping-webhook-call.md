@@ -10,7 +10,7 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32583166"
 resourceTags=""
 productPesIds="16263"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="eg-call-webhook"
 schemaVersion="1"
 />

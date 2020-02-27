@@ -10,7 +10,7 @@
     supportTopicIds="32675800"
     resourceTags=""
     productPesIds="15480"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="exr-fastpath"
 />
 

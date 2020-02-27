@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
     articleId="skillset-create"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Issue creating or editing a skillset

@@ -10,7 +10,7 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32583165"
 resourceTags=""
 productPesIds="16263"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="eg-arm-ps-issues"
 schemaVersion="1"
 />

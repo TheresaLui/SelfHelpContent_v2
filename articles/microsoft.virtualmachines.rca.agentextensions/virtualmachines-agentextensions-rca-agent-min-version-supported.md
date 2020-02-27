@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32411845"
 resourceTags=""
 productPesIds="14749,15797,15571"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 />
 
 # The installed Azure VM Agent is below the minimum supported version

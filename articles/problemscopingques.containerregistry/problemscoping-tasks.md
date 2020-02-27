@@ -7,7 +7,7 @@ ms.author="nathana"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32680724,32680732,32680733,32680734"
 productPesIds="16213"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="problemscoping-tasks"
 schemaVersion="1"
 />

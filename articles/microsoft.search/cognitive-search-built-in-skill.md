@@ -10,7 +10,7 @@
 	displayOrder="34"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="cognitive-search-built-in-skill"
 />
 
