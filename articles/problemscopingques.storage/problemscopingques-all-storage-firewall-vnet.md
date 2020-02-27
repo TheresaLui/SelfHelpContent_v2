@@ -74,7 +74,7 @@
             "order": 5,
             "visibility": "resourceGroup_list != null",
             "controlType": "dropdown",
-            "displayLabel": "Select the name of the source",
+            "displayLabel": "Select the type of resoure",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceGroup_list",
