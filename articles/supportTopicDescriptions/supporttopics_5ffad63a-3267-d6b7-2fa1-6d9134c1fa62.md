@@ -21,7 +21,7 @@
   "productLink2": "https://docs.microsoft.com/azure/hdinsight/",
   "productLinkName2": null,
   "productLink3": "",
-  "productLinkName3": null,
+  "productLinkName3": null, 
   "supportTopics": [
         {
             "id": "6c0f1b9a-c2ef-0342-2244-d3e09ea981f1",
