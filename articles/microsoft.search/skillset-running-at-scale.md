@@ -10,7 +10,7 @@
 	displayOrder="35"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="skillset-running-at-scale"
 />
 

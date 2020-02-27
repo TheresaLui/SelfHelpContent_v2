@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-create-issue"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Issue creating an index

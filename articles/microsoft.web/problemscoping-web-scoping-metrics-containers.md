@@ -7,7 +7,7 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581617"
 	productPesIds="16333"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax"
    schemaVersion="1"
    articleId="bf000ecb-9268-4834-bb7f-6eced0867dea"
 />

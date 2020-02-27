@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-cannotscalehigherorlower.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Cannot scale higher or lower
 

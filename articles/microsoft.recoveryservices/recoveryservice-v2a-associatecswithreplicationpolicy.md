@@ -9,7 +9,7 @@
 	supportTopicIds="32536445"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="060dc550-73cf-4cc8-8417-af9e3bf63e0b"
 />
 # Associate Configuration Server to replication policy

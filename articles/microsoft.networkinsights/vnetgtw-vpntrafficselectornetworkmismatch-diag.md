@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds="32591144, 32591145,32591158,32591149,32591152,32591155"
 resourceTags="windows"
 productPesIds="16094"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax"
 />
 
 # Microsoft Azure has detected an IPsec/IKE traffic selectors mismatch on your VPN connection

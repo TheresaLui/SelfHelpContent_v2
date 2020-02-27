@@ -10,7 +10,7 @@
 	displayOrder="37"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="indexer-cosmos-db-issue"
 />
 

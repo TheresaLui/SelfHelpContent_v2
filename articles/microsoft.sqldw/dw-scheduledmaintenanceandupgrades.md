@@ -11,7 +11,7 @@
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-scheduledmaintenanceandupgrades"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # How to manage and troubleshoot Scheduled Maintenance and upgrades
 

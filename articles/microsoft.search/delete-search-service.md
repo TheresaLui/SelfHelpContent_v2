@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="delete-search-service"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Issue deleting a search service

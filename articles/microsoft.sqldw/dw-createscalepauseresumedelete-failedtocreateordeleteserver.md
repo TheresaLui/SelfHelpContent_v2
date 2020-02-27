@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-failedtocreateordeleteserver.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Failed to create or delete server
 

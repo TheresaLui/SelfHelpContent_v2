@@ -10,7 +10,7 @@
     supportTopicIds="32684536"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="relay-general-guidance-advisory"
 />
 

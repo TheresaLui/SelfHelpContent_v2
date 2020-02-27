@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags=""
     articleId="dw-dataimportexport-usingazuredatalake.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Using Azure Data Lake

@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-regionunavailablefordwcreation.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Region unavailable for Data Warehouse creation
 

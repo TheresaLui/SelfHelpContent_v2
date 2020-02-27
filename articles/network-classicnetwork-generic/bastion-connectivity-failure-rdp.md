@@ -10,7 +10,7 @@
     supportTopicIds="32641417"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="bastion-connectivity-failure-rdp"
 />
 

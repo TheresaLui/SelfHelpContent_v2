@@ -10,7 +10,7 @@
 	supportTopicIds="32539947"
 	resourceTags=""
 	productPesIds="15480"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="exr-performance"
 />
 

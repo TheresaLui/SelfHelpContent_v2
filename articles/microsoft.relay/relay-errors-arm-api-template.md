@@ -10,7 +10,7 @@
     supportTopicIds="32684539"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="relay-errors-arm-api-template"
 />
 

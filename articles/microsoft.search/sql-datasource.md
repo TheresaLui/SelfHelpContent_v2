@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="sql-datasource"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Issue indexing a SQL data source

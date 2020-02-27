@@ -11,7 +11,7 @@
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-diagnoseandsolve-checkversion.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Check your SQL Data Warehouse version and Release Notes
 

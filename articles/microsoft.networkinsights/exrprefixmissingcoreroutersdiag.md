@@ -11,7 +11,7 @@
     supportTopicIds="32539943, 32539944, 32539963"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  />
 # Microsoft Azure has identified an issue regarding the Microsoft Edge device
  
