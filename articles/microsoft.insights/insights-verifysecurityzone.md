@@ -9,6 +9,7 @@
 	productPesIds="15693"
 	cloudEnvironments="public, Fairfax"
 	articleId="8d518f7c-fbc9-48c9-81c4-6288c85fd089"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # I need to verify my security zone

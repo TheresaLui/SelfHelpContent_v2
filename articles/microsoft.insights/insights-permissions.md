@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402604, 32602220"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # What permissions are needed for Application Insights?
 

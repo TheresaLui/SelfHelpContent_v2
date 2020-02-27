@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Our service is not available in this region because the region is locked down.

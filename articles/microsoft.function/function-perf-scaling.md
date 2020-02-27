@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="4caa4f97-234f-4302-a13a-59c16da11dca"
+	ownershipId="Compute_AppService"
 />
 
 #  Performance/Functions scaling issues

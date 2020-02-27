@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="0ee7baad-c799-4826-b08b-47d56bb1d9ba"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsights HDFS Commands do not work - Azure Storage in Standard Cluster

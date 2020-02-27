@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="7a6c959f-0671-48c4-9435-8051e7298f9d"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Point-in-time restore

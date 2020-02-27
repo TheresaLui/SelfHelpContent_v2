@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="6428cfa2-9135-430c-8f96-96c8768e01d1"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Server not available

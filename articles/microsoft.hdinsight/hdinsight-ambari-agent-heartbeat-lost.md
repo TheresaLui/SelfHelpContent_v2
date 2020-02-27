@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-ambari-agent-heartbeat-lost"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Ambari Agent Heartbeat Lost
  

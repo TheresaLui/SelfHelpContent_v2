@@ -12,6 +12,7 @@
 	supportTopicIds="32641407"
 	productPesIds="15454"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I received an unexpected notification

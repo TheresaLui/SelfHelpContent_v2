@@ -13,6 +13,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-error-submitting-a-job"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Error submitting a ADLA job

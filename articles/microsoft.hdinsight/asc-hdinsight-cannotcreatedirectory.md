@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue

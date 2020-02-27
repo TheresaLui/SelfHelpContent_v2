@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-tsguide"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsights Troubleshooting Guide
 

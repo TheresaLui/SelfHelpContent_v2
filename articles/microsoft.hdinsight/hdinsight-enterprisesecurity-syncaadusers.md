@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
 	articleId="20d81e93-6b07-43c3-ba48-647dd3d0048b"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Synchronize Azure Active Directory users to an HDInsight cluster

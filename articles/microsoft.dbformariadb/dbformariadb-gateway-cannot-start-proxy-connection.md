@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16617"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Gateway can't start proxy connection to host

@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Create or update MySQL server failed because the input storage size does not meet requirements.

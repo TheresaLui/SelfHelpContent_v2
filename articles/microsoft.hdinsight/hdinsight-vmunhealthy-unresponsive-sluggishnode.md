@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-vmunhealthy_responsive_sluggishnode"
+	ownershipId="AzureData_HDInsight"
 />
 # Unresponsive or sluggish node in a cluster
 

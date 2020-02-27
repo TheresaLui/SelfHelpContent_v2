@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="0aeed8a0-d32b-4f92-a363-7637e3b5694e"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Migration tools for Azure Database for MariaDB

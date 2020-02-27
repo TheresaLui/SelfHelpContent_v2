@@ -13,6 +13,7 @@
 	articleId="cosmosdb-throughput-queryindexing"
 	displayOrder="246"
 	category="Throughput and Scaling"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Query and Indexing

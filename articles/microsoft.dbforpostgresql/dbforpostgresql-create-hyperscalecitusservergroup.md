@@ -12,7 +12,8 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="1a759b4c-6fc4-4ce7-b997-98db94ff069d"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Creating a Hyperscale (Citus) server group
 

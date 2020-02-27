@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16307"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Configuration info for migrating from MySQL to Azure Database for MySQL using online migration and errors you may encounter while migration

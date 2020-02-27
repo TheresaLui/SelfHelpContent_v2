@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="48a86109-e938-4adf-8030-3b7548e3e838"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Enable or disable replication support

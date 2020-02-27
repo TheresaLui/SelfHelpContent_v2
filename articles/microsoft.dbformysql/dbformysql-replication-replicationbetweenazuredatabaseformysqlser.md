@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="fde891c7-83d3-4ce3-bf27-10fcac81ce84"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Read replicas in Azure Database for MySQL

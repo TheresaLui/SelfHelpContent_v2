@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="97d8ae39-61c1-4046-b1bb-f64f37742a9c"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Connecting to Azure Databases for PostgreSQL

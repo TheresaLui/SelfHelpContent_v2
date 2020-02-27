@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602216,32632995"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I need help using powershell to automate my Application Insights deployments
 

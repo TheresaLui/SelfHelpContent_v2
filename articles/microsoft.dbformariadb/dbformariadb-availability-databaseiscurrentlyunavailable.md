@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="b6543926-97c4-479c-8443-e42a2011c7db"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Error: Server not available

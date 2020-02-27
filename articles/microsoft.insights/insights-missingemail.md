@@ -12,7 +12,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32546625,32613002,32629552"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I should have received email for an alert
 

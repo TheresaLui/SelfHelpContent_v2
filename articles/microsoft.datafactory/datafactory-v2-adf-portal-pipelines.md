@@ -12,6 +12,7 @@
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax"
 	articleId="2c1079e1-3001-4df4-a908-6dc90fb0cbfe"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 Monitor and Manage - ADF Portal/Pipelines

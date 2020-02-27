@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="a9de5714-95a8-4000-a954-99340a094c53"
+	ownershipId="Compute_AppService"
 />
 
 # Deploying Function Apps/Visual Studio

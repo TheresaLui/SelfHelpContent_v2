@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="MoonCake, Fairfax"
 	articleId="a53099e6-974e-4cfe-8a0c-92949362cbd8"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Hive Queries are Slow

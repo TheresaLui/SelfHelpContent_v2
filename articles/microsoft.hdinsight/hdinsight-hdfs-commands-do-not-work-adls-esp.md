@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="fe94f714-8472-4510-8b07-b1cbbe1d922a"
+	ownershipId="AzureData_HDInsight"
 />
 
 # HDFS commands do not work: ADLS Gen1, ADLS Gen2 in cluster with Enterprise Security Package

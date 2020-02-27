@@ -12,6 +12,7 @@
     productPesIds="16762"
     cloudEnvironments="public, Fairfax"
     articleId="datashare-create-datashareaccount"
+	ownershipId="AzureData_DataShare"
 />
 
 # Create Data Share Account

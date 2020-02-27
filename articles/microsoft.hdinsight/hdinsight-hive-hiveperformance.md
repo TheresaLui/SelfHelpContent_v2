@@ -11,7 +11,8 @@
   resourceTags=""
   productPesIds="15078"
   cloudEnvironments="public, Fairfax"
-  ArticleId="f77498d9-e276-4fe3-bcc1-e78f2a97f813"/>
+  ArticleId="f77498d9-e276-4fe3-bcc1-e78f2a97f813"	ownershipId="AzureData_HDInsight"
+/>
 
 # Hive Performance
 

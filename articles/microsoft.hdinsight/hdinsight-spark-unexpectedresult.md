@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public,MoonCake, Fairfax"
 	articleId="5439eff7-79f0-4817-ae46-f580367db1db"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Spark Unexpected Results

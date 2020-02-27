@@ -11,6 +11,7 @@
     productPesIds="15693"
     supportTopicIds="32632991"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
 # How do I investigate errors with my application?

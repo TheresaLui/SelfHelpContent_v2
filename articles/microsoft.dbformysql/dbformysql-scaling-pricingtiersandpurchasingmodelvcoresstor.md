@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="a7d92580-c82b-45ac-84bc-c44c799ac0a9"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Pricing tiers and purchasing model in Azure Database for MySQL

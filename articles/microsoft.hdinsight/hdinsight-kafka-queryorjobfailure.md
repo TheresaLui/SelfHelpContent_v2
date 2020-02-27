@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-kafka-queryjob-failure"
+	ownershipId="AzureData_HDInsight"
 />
 # Apache Kafka: Query or Job Failure
 

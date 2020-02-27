@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Continuous Integration and Delivery with Git Repository Integration

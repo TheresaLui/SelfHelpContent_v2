@@ -11,6 +11,7 @@
     productPesIds="15693"
     supportTopicIds="32546624"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
 # Data latency

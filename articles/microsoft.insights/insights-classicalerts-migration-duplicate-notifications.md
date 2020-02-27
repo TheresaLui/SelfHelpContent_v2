@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # Migration tool general issues

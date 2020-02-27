@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Self-Hosted Integration Runtime fails to copy data to/from an on-premises data store

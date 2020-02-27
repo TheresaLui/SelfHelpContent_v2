@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Supported Data Store and File Format in Copy Activity

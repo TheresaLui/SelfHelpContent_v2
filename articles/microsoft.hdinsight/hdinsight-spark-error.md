@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="94707938-9b6f-4d8a-a78a-de57c2879a5c"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Spark Application Failed with OutOfMemoryError

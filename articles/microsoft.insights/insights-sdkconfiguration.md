@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602224, 32602223"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # How do I configure my SDK?
 

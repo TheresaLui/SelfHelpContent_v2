@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsight cluster contains deny outbound rule within Network Security Group
 

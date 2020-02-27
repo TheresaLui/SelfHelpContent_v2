@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602214, 32632982, 32632983"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I have questions about my bill with Application Insights
 

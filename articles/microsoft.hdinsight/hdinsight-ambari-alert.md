@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-ambari-alert"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight: Ambari Alerts

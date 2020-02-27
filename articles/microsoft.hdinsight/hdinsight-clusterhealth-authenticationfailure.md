@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-clusterhealth-authenticationfailure"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Cluster Health: Authetication Failure
  

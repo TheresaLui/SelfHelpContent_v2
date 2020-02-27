@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-storm-error-failure"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Storm Troubleshooting

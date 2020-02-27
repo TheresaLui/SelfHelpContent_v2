@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16617"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # This subscription is restricted from provisioning MariaDB servers in this region

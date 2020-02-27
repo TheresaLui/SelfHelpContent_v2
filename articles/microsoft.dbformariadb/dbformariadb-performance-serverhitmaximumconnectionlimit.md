@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="ceaae45b-62e8-4c63-b68f-8660e3bce04d"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Troubleshooting maximum connection limit in Azure Database for MariaDB

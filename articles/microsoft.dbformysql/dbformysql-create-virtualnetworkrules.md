@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="62501419-052f-4574-bfca-0e75ed50141f"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Managing VNet service endpoints in Azure Database for MySQL

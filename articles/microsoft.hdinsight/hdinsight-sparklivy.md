@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-sparklivy"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Livy REST interface for interactive with Apache Spark clusters in Azure HDInsight
  

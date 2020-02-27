@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16307"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # <-- Errors when connecting to source databases for migration --> 

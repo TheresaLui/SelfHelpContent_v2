@@ -12,7 +12,8 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="e4163dda-50db-4176-bf65-0bc5bdeae459"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Connection limits
 

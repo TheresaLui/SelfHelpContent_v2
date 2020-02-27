@@ -11,6 +11,7 @@
     productPesIds="15078"
     cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="bcafe3cc-2e04-4fc5-a352-e62dd714a044"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Cluster Creation Fails With InvalidNetworkSecurityGroupSecurityRules or InvalidNetworkConfigurationErrorCode

@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32629553"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I am having problems with the Status Monitor
 

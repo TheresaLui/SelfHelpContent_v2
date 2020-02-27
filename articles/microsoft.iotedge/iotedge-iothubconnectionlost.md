@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="a52ed011-0356-41b1-965f-f640bb3b89cf"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Loses connection to IoT Hub over time

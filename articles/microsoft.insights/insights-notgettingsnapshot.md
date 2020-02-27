@@ -11,6 +11,7 @@
     productPesIds="15693"
     cloudEnvironments="public, Fairfax"
  	articleId="b2e734f4-0b96-4819-9bcf-6bc27eadce02"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # I am not getting debug snapshots
 

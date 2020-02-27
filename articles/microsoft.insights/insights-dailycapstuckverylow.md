@@ -11,6 +11,7 @@
     productPesIds="15693"
     cloudEnvironments="public, Fairfax"
  	articleId="082059a6-4e48-4a0d-82c9-76ef72be7ad6"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # I can't raise my daily cap above 0.0323 GB/day
 

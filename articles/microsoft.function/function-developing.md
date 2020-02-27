@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="a0ecfa74-3365-44fe-84a1-241166cad7e3"
+	ownershipId="Compute_AppService"
 />
 
 # Developing Functions

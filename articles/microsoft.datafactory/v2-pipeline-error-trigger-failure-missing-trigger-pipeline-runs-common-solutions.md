@@ -12,6 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="1dfb6b88-8649-4922-b085-0bd2017e72a2"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Triggers

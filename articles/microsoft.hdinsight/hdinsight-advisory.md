@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-advisory"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsights General Guidance/Advisory 
 

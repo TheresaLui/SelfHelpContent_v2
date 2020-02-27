@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="4126db33-cb6c-4f67-89e2-fd910f441c80"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsights issue with diagnostics or metrics on azure portal - Azure Log Analytics integration

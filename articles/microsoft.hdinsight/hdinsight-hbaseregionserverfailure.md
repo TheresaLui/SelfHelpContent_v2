@@ -11,6 +11,7 @@
     productPesIds="15078"
     cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="5815b294-cb5e-4d93-9733-d839e1fc04f0"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Restart operation on HBase Region Server fails to complete

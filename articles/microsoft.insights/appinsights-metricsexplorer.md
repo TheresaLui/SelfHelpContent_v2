@@ -11,7 +11,8 @@
     productPesIds="15693"
     supportTopicIds="32602208"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # Metrics Explorer
 

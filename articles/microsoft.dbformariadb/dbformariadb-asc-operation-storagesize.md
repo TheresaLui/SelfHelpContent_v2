@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16617"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Create or update MariaDB server failed because the input storage size does not meet requirements.

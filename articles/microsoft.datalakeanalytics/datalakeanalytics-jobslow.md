@@ -13,6 +13,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-job-started-to-run-slow"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # U-SQL jobs started to run slow

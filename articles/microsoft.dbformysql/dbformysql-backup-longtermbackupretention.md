@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="be30fc87-a22e-47e3-b1b5-7a80dc1b3a12"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Backups and restore options for Azure Database for MySQL

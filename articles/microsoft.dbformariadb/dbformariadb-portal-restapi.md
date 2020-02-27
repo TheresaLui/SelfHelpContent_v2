@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="2f78c24d-a4f8-4e7d-a4d6-72cb8a66f01a"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Using Azure REST APIs for Azure Database for MariaDB

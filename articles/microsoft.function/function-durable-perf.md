@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="a5e0dcc7-d166-47f3-8e36-da5b1457e561"
+	ownershipId="Compute_AppService"
 />
 
 # Durable Functions/Performance

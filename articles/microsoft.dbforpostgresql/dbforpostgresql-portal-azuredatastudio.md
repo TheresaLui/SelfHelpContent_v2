@@ -12,7 +12,8 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="6fcc25a7-fe2b-4582-b4b0-9923c49c4160"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Azure Data Studio
 

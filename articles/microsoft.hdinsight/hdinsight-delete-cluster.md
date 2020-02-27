@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-delete-cluster"
+	ownershipId="AzureData_HDInsight"
 />
 # Common Solutions to HDInsight Delete Issues
 

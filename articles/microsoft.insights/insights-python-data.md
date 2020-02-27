@@ -11,6 +11,7 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds=""
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # No data or Partial data with OpenCensus Python
 

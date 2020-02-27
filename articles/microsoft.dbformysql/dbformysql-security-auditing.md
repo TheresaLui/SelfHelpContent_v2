@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="1086df0a-65e8-428f-8e7d-4ef9b9a19924"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Auditing capabilities in Azure Database for MySQL

@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="5c994644-095a-4bd2-b30e-8c7105018185"
+	ownershipId="Compute_AppService"
 />
 
 # Creating Function Apps

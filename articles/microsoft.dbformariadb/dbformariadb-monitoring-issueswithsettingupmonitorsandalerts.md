@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="6f0029a5-2086-461d-b0f6-dfd76741b844"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Issues with setting up monitors and alerts

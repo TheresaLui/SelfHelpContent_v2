@@ -11,7 +11,8 @@
   resourceTags=""
   productPesIds="15078"
   cloudEnvironments="public, Fairfax"
-  ArticleId="a985627a-f1b7-4c99-87e9-a285d6f3bf1b"/>
+  ArticleId="a985627a-f1b7-4c99-87e9-a285d6f3bf1b"	ownershipId="AzureData_HDInsight"
+/>
 
 # WebHCat 
 

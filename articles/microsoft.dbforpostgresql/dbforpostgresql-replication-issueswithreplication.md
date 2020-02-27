@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="eda18367-7c0b-450c-a021-c35fe2b121d7"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Issues with replication

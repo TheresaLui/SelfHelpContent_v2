@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-vmunhealthy-lostnetworkconnectivity"
+	ownershipId="AzureData_HDInsight"
 />
 # Lost connectivity between nodes
 

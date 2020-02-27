@@ -11,6 +11,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="c26a9fa4-ac7f-4f01-859b-1a1cab045656"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Twin query failing or giving wrong results

@@ -13,6 +13,7 @@
 	productPesIds="15659"
 	supportTopicIds="32615286"
 	cloudEnvironments="public,fairfax"
+	ownershipId="ASMS_Billing"
 />
 
 # What does "costs are disabled for your organization" mean?

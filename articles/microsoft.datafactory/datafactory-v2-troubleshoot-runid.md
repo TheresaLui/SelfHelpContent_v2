@@ -12,6 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="DataFactoryRunIdTroubleshooter"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory Pipeline and Trigger Run

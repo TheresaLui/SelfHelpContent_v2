@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="45cdfb72-3367-4436-8d35-e260171f6332"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Authentication Failure: ODBC or JDBC connecting to cluster with Enterprise Security Package

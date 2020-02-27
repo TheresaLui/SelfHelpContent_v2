@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="4b87dfd3-880f-45e4-8c17-95d85007095f"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Using Azure CLI for Azure Database for MariaDB

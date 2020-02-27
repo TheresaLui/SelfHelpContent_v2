@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16617"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Operation failed because subscription is in registration process.

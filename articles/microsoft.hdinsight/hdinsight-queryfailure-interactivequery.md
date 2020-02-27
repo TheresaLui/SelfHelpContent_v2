@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="cbc180e5-cb47-4b36-a294-f08b97e02421"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Interactive Query Troubleshooting

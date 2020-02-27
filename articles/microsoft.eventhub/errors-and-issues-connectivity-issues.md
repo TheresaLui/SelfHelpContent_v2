@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="e55a6359-45b9-4e1d-b998-617f727d3588"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am getting connectivity issues

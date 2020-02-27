@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602213"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # How do I setup the Application Insights API?
 

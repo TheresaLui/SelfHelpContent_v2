@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-scale-cluster"
+	ownershipId="AzureData_HDInsight"
 />
 # Scale HDInsight Cluster
 

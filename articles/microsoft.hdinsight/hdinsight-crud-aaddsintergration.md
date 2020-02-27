@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-crud-aaddsintergration"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Creating, Deleting, & Scaling HDInsight/Azure Active Directory Domain Services Integration
  

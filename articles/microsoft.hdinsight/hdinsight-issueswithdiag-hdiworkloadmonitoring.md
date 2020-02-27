@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-hdiworkloadmonitoring"
+	ownershipId="AzureData_HDInsight"
 />
 #  HDInsight workload monitoring solution
 

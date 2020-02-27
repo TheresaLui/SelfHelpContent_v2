@@ -13,6 +13,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="fab328ef-fae8-462f-9759-56b0b07fc155"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Pipeline Error or Trigger Failure -  Rerun and Cancel Runs Common Solutions

@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsihgt-esp-vnet"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Enterprise Security: VNET and Networking
 

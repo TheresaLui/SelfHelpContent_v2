@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16307"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Troubleshooting top common errors when running a migration activity  

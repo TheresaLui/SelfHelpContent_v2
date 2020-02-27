@@ -11,6 +11,7 @@
     productPesIds="15693"
     cloudEnvironments="public, Fairfax"
  	articleId="d8446387-6f41-4550-bf36-440a264956a7"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # I want to get started writing application analytics queries
 

@@ -11,6 +11,7 @@
     productPesIds="15078"
     cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="1d5b3e23-d2d7-4fea-bdad-d3b8bc0faed6"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Unable to connect to Apache Phoenix

@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-cluster-health-other"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Cluster Health
  

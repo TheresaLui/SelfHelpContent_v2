@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax" 
     articleId="5c807c9b-3605-4ec4-8942-feed80629bc0"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Manage the Azure Database for MariaDB using ARM Templates

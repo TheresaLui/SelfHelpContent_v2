@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My subscription is marked as "Not Ready for migration"

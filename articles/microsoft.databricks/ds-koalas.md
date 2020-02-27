@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="df9b0543-1f0c-4de0-a524-6ffc9b7d31ff"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Koalas

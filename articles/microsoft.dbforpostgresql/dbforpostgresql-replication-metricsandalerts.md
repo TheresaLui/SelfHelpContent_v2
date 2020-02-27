@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="fba936eb-4442-45b7-b086-a4b6b912d5ac"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Monitoring replication

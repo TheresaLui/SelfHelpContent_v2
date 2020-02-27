@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="b78c03f1-15b7-44e1-b96c-e8211b4ddb8c"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Create and delete read replicas

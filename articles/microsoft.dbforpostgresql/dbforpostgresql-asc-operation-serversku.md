@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Operation on PostgreSQL failed because a property is incorrectly set.

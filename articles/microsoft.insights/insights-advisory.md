@@ -12,6 +12,7 @@
 	productPesIds="15693"
 	supportTopicIds="32452725"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # General Guidance or Advisory

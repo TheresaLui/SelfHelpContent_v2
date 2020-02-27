@@ -12,6 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="DataFactoryCopyTroubleshooter"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory Copy Failures

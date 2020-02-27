@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="f01689ce-10a2-4860-9f41-1f8ab5e3d22a"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring Function Apps/Custom Domain

@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="6067320d-3cd3-4f10-874e-1ab970b383cd"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshooting login performance in Azure Database for MySQL

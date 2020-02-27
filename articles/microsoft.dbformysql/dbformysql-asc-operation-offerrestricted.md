@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # This subscription is restricted from provisioning MySQL servers in this region

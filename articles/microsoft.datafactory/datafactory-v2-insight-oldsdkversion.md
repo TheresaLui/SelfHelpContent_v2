@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory detected old SDK versions

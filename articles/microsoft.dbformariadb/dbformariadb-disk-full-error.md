@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16617"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Orcas MariaDB Server marked read-only because the server storage is full

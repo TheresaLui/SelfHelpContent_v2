@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="88446272-9153-45e5-b441-f6aea505a6c0"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot and resolve connectivity (timeout) issues

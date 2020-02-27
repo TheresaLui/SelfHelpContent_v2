@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="b5be5bfd-a1ee-4796-b71b-809985fdad96"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Monitoring Azure Database for PostgreSQL servers
