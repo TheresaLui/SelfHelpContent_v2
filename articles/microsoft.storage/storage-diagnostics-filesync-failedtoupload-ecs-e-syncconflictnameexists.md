@@ -19,7 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 # Azure File Sync failed to upload file(s) due to error _**ECS_E_SYNC_CONFLICT_NAME_EXISTS**_
 
 <!--issueDescription-->
-Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c80200 or -2134375936**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs because the file cannot be synced because the maximum number of conflict files has been reached.Azure File Sync supports 100 conflict files per file.<br/><br/>
+Azure File Sync failed to upload file(s) for one or more server endpoints under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code: 0x80c80200 or -2134375936**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This issue occurs because the maximum number of conflict files has been reached.Azure File Sync supports 100 conflict files per file.<br/><br/>
 <!--/issueDescription-->
 
 
