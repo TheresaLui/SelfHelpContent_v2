@@ -266,7 +266,7 @@
         {
             "id": "70f90d43-dedf-eadf-71c8-f9bb3de8c39c",
             "longDescription": "",
-            "shortDescription": "Unable create cluster due to insufficient number of cores or quota limit.",
+            "shortDescription": "Unable to create cluster due to Azure Policy.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -274,7 +274,7 @@
         {
             "id": "e19060d9-7553-ca74-c396-60e3c4a4d9c0",
             "longDescription": "",
-            "shortDescription": "Unable to create cluster due to Azure Policy.",
+            "shortDescription": "Unable create cluster due to insufficient number of cores or quota limit.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -282,7 +282,7 @@
         {
             "id": "409204fc-1fef-7a49-c41a-cc713f6ae79c",
             "longDescription": "",
-            "shortDescription": "Unable create cluster with Data Lake Storage Gen2 or managed identity permissions issue.",
+            "shortDescription": "Unable to create ESP clusters using Azure Active Directory.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -290,7 +290,7 @@
         {
             "id": "f5a9b425-9d72-65e0-2501-e6e2cf407cb8",
             "longDescription": "",
-            "shortDescription": "Unable to create ESP clusters using Azure Active Directory.",
+            "shortDescription": "Unable create cluster with Data Lake Storage Gen2 or managed identity permissions issue.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
