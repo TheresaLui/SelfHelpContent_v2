@@ -70,6 +70,34 @@
 
         },
         {
+            "id": "ResourceName",
+            "order": 5,
+            "visibility": "resourceGroup != null",
+            "controlType": "dropdown",
+            "displayLabel": "Provide the name of the source",
+            "watermarkText": "Filter by name",
+            "dynamicDropdownOptions": {
+                "dependsOn": "resourceGroup",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/resources?api-version=2019-10-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+		"valuePropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other or none of the above"
+                }
+            },
+            "DropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of resources",
+                    "text": "Unable to retrieve list of resources"
+                }
+            ],
+            "required": true
+        },
+        {
             "id": "problem_start_time",
             "order": 100,
             "controlType": "datetimepicker",
