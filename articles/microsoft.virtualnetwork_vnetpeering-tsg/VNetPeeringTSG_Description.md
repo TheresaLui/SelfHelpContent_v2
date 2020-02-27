@@ -1,6 +1,6 @@
 <properties
-	pageTitle="VNet Peering Troubleshooting Guide"
-	description="VNet Peering Troubleshooting Guide"
+	pageTitle="vnetpeeringtroubleshootingguide"
+	description="vnetpeeringtroubleshootingguide"
 	service="microsoft.network"
 	resource="virtualnetwork"
 	authors="chadmath"
