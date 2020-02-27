@@ -1,28 +1,28 @@
 <properties
-                pageTitle="Cluster Management/Scaling"
-                description="Cluster Management/Scaling"
+                pageTitle="Cluster Management/Problem with Pods in existing cluster"
+                description="Cluster Management/Problem with Pods in existing cluster"
                 authors="ChiragPavecha"
                 ms.author="chiragpa"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32637211,32683760"
+                supportTopicIds="32683762"
                 productPesIds="16450"
                 cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
-                articleId="problemscoping-cluster-management-scaling"
+                articleId="problemscoping-cluster-management-pods-in-existing-cluster"
 />
-# Cluster scaling
+# Problem with Pods in existing cluster
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Cluster scaling",
-    "fileAttachmentHint": "",
+    "title": "Problem with Pods",
+    "fileAttachmentHint": "Output of **kubectl get pods -o wide** and **kubectl describe pod yourpodname** would be helpful with the investigation",
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
+            "displayLabel": "When was the last time you experienced this issue?",
             "required": true
         },
         {
@@ -33,29 +33,29 @@
             "required": false
         },
         {
-            "id": "getHowPerform",
+            "id": "getPodName",
             "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Mention the Pod name you have problem with, if known",
+            "required": false
+        },
+        {
+            "id": "getPortSettings",
+            "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "How are you trying to scale the cluster?",
+            "displayLabel": "Have you configured the required port for AKS cluster?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Azure Portal",
-                    "text": "Azure Portal"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "CLI",
-                    "text": "CLI"
-                },
-                {
-                    "value": "Power Shell",
-                    "text": "Power Shell"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
+                    "value": "No",
+                    "text": "No"
                 }
             ],
+            "infoBalloonText": "Check the list of <a href='https://docs.microsoft.com/azure/aks/limit-egress-traffic#required-ports-and-addresses-for-aks-clusters'>required ports</a> for AKS cluster.",
             "required": false
         },
         {
