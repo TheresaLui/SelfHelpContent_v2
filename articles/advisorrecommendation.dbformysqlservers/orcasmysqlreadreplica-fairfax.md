@@ -6,6 +6,7 @@
     articleId="1efe9592-f5ae-4167-97d7-63e973821fca_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Add a MySQL Read Replica server
 ---

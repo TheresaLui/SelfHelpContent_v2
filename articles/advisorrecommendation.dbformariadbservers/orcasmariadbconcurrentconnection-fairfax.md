@@ -6,6 +6,7 @@
     articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Scale the MariaDB server to higher SKU
 ---

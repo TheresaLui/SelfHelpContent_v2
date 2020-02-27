@@ -6,6 +6,7 @@
     articleId="bd109fe8-a2cf-415a-adcb-5e9f9fc1d3c0_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scale the PostgreSQL server to higher SKU
 ---
