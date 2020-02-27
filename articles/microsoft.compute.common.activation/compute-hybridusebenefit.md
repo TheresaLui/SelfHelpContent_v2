@@ -12,6 +12,7 @@
     productPesIds="14749"
     cloudEnvironments="public, Fairfax"
     articleId="831fbfcf-d4db-41a4-963c-4f042af03838"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Cannot activate my Windows VM

@@ -12,6 +12,7 @@
 	productPesIds="15797,15571,16454,16470,14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="2236ec74-baac-4f7a-b22c-ab66cbf79740"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Active Directory Login extension issue

@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="151ad047-7354-4f8c-baa6-8e96276d82ff"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Configuration - My issue is not listed above

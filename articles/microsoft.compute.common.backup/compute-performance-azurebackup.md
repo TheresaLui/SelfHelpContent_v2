@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public,mooncake, Fairfax"
 	articleId="ed51288a-454c-449f-9994-e21afa0932ba"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Resolve issues with Azure Backup Performance

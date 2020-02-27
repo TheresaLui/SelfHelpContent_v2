@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="b0380479-ed1b-4df3-b708-e3ebefc4deeb"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # My VM will not start after a configuration change

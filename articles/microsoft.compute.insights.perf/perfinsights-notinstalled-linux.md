@@ -14,6 +14,7 @@
     resourceTags="linux"
     productPesIds="15571,15797,16454,16470,16342"
     cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Perfinsights tool could help you diagnose key performance issues on this VM?

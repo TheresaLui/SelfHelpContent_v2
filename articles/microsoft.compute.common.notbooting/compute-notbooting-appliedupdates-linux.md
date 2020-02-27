@@ -12,6 +12,7 @@
     productPesIds="15571,15797,16454,16470,16342"
     cloudEnvironments="public, Fairfax"
     articleId="23af658c-b6fd-42ea-ace7-0db4f8ff31d4"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My Linux VM is not booting after applying updates

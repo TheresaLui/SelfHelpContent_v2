@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="7e4888c2-f97b-4aaf-9d67-6e8ff5fbdfb4"
+	ownershipId="Compute_APIManagement"
 />
 
 # Deploy Azure API Management using ARM Templates

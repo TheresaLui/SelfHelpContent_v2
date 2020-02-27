@@ -11,6 +11,7 @@
 	selfHelpType="diagnoseandsolve"
 	productPesIds="15585"
 	cloudEnvironments="public"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Top common problems in Azure Cosmos DB account
 ---

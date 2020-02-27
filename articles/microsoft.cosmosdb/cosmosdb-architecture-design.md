@@ -13,6 +13,7 @@
 	articleId="cosmosdb-architecture-design"
 	displayOrder="41"
 	category="General Advisory"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB - Architecture and design

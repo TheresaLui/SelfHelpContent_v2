@@ -13,6 +13,7 @@
 	articleId="cosmosdb-mongodbauthentication"
 	displayOrder="221"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # MongoDB - Authentication
 

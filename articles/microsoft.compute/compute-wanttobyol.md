@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="7391ae21-6965-4075-a717-827f4613153a"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # I want to use my own SQL Server license in Azure VM

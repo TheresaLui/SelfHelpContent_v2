@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
 	articleId="fe241b8a-80a3-46d6-9bb5-350ae05fc4d6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack CSP Billing and Usage

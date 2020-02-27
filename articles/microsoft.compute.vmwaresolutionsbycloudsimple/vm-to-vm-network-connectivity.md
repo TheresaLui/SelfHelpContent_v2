@@ -12,6 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="34600d96-683e-4909-84e6-a87d888f9cb9"    
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting network connectivity between VMs 

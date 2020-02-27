@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
 	articleId="fbf1c295-d499-4593-bfa9-c41bf607f19c"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Expired or Expiring Run As Accounts 

@@ -12,6 +12,7 @@
 	productPesIds="16513"
 	cloudEnvironments="public, Fairfax"
 	articleId="9a89a7d1-3862-484b-b8ed-90e034b6a0c7"
+	ownershipId="Compute_AppService"
 />
 
 # ASD/Transfer Domains

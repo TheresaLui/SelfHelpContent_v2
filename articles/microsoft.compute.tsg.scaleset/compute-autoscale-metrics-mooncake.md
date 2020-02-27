@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="MoonCake"
     articleId="compute-autoscale-metrics-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # What metrics can I use to autoscale my scale set

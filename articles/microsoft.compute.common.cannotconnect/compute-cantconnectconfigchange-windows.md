@@ -12,6 +12,7 @@
               productPesIds="14749,14745"
               cloudEnvironments="public, Fairfax"
 	articleId="b53b4761-a678-45ea-8869-24973e5a6678"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # My configuration change impacted Azure VM connectivity

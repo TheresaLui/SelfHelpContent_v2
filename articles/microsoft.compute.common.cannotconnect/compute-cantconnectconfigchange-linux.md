@@ -12,6 +12,7 @@
               productPesIds="15571,15797,16454,16470,16342"
               cloudEnvironments="public, Fairfax"
               articleId="64d6c5db-c7b8-4895-bfcc-010ad6155ba4"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My configuration change impacted connectivity

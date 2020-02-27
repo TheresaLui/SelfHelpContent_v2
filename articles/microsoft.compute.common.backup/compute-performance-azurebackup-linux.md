@@ -12,6 +12,7 @@
 	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public,mooncake, Fairfax"
 	articleId="fce07854-8ea1-438f-b4be-ca31d438689b"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Backup - Performance

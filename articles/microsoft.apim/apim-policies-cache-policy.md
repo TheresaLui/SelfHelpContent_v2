@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="be7203fc-966c-4a48-b0f9-8c537163b65a"
+	ownershipId="Compute_APIManagement"
 />
 
 # Caching policies

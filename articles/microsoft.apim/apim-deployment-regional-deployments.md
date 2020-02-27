@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="6c4d8990-56cc-4584-ab55-62ec1120fb88"
+	ownershipId="Compute_APIManagement"
 />
 
 # Deploy Azure API Management to multiple Azure regions

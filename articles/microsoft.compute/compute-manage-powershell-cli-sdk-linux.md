@@ -12,6 +12,7 @@
     productPesIds="15571,16454,16470,15797"
     cloudEnvironments="public, Fairfax"
     articleId="compute-manage-powershell-cli-sdk-linux"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve issues using Azure CLI, PowerShell, or SDK

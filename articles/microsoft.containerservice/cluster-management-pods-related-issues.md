@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="cluster-management-pods-related-issues"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

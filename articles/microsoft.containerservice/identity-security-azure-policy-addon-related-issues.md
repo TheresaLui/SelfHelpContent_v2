@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="identity-security-azure-policy-addon-related-issues"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

@@ -12,6 +12,7 @@
 	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="f4b36484-b9e9-4024-8ca1-3f56024eea91"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I received a disk related error

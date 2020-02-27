@@ -12,6 +12,7 @@
 	productPesIds="16975"
 	cloudEnvironments="public, Fairfax"
 	articleId="c3ddfee8-4a69-4fce-9575-81182c2bb277"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # configuration/custom domain name (cname)

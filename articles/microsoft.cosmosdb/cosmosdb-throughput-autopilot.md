@@ -13,6 +13,7 @@
 	articleId="cosmosdb-throughput-autopilot"
 	displayOrder="247"
 	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Throughput Autopilot 

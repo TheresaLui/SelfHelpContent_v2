@@ -12,6 +12,7 @@
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public, Fairfax"
 	articleId="3cef1f67-f2f8-4a0e-887b-6a9aa09fcf27"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolving issues with VM Disk Management

@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
 	articleId="164e8d47-b5be-41b4-99df-6058f60bd770"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Using Hybrid Runbook Worker with RunAs

@@ -12,6 +12,7 @@
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public, Fairfax"
 	articleId="165e9160-a06b-4279-873b-5faa1cefbcba"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # Diagnose and resolve Linux Virtual Machine Storage performance issues

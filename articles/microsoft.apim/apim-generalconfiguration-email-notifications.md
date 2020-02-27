@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="ad157085-2d71-4e91-aded-bcd39b391a0e"
+	ownershipId="Compute_APIManagement"
 />
 
 # Notifications and email templates in Azure API Management

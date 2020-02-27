@@ -12,6 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax"
     articleId="f77c4d7d-6738-46fb-afea-07b627a597b6"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # My Windows VM is not booting for reconnection

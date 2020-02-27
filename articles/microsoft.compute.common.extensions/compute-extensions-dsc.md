@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="f5523bca-7725-4d82-b461-6ae3962da477"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Azure Desired State Configuration (DSC) extension issue

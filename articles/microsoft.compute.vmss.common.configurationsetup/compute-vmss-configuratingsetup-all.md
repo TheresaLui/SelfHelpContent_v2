@@ -12,6 +12,7 @@
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax"
 	articleId="7b65a947-687f-4706-a7d5-c729a4850a5e"
+	ownershipId="Compute_VirtualMachineScaleSets"
 />
 
 # Configuration and Setup

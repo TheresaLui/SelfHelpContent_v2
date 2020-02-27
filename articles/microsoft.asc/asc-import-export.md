@@ -12,6 +12,7 @@
 	productPesIds="16512"
 	cloudEnvironments="public, Fairfax"
 	articleId="4ad65834-59f8-4cc1-b1e3-4bdc840d6245"
+	ownershipId="Compute_AppService"
 />
 
 # ASC/Importing-Exporting App Service Certificates

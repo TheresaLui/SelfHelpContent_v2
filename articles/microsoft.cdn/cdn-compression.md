@@ -11,6 +11,7 @@
 	productPesIds="16975"
 	cloudEnvironments="public, Fairfax"
 	articleId="1c3a24b9-bfea-4bbf-bc81-a560453a369e"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # configuration/compression

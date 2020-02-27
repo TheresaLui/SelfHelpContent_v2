@@ -12,6 +12,7 @@
     productPesIds="15607,15725"
     cloudEnvironments="public, Fairfax"
     articleId="bad97f5e-f660-4295-a360-df54b1784a65"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Machines not listed

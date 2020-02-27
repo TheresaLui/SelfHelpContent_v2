@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-alerts-codeintegrity"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Code Integrity

@@ -12,6 +12,7 @@
     resourceTags=""
     productPesIds="16506"
     cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Avere vFXT Client Access Issues

@@ -12,6 +12,7 @@
 	productPesIds="16975"
 	cloudEnvironments="public, Fairfax"
 	articleId="8c1979e3-771b-445b-8477-1f43455b1eba"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # management portal/error message from portal

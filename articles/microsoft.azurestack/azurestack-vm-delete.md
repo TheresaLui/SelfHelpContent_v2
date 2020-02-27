@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-delete"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Virtual Machine Deletion Issues

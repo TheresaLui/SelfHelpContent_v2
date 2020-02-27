@@ -13,6 +13,7 @@
 	articleId="cosmosdb-mongodb-aggregationpipeline"
 	displayOrder="220"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # MongoDB - Aggregation pipeline
