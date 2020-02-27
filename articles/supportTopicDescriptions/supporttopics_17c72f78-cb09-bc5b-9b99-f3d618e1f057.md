@@ -21,6 +21,46 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
+      "longDescription": "",
+      "shortDescription": "You received the unknown MySQL server host error",
+      "searchTags": "unknown MySQL server host;Database is currently unavailable;Availability;connectivity",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3a67bd4f-0f8f-c1c3-b576-cc3881d16093",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation",
+      "searchTags": "issues while connecting;issues connecting;connectivity;vnet;vm",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
+      "longDescription": "",
+      "shortDescription": "You received the (unknown MySQL server host) error",
+      "searchTags": "unknown mysql server host;Database is currently unavailable;unavailable",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a1f3e0ec-c33b-9950-8221-81fd2e25ed37",
+      "longDescription": "",
+      "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
+      "searchTags": "Availability;Connectivity;Availability and Connectivity",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bb9c4681-a691-f485-f019-dcf0cdc2fc65",
+      "longDescription": "",
+      "shortDescription": "Your existing connections to the server have been dropped unexpectedly",
+      "searchTags": "connection dropped;connectivity;connection issue;existing connections;dropped unexpectedly",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c7f8958f-a998-bc26-c19e-5bbe50f2ffbe",
       "longDescription": "",
       "shortDescription": "You are experiencing persistent or intermittent connection issues",

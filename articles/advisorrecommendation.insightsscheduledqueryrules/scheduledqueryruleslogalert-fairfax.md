@@ -7,7 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
 />
-# Repair your log alert rule
+# Repair your log alert rule Fairfax
 ---
 {
   "recommendationOfferingId": "ee5716b5-e6fd-480a-9396-0343b023dfa5",
