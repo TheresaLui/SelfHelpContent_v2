@@ -47,7 +47,7 @@
                 }
             ],
             "required": true
-        }
+        },
         {
 
            "id": "resourceGroup",
@@ -67,7 +67,7 @@
                     "text": "Other or none of the above"
                 }
 
-        }
+        },
         {
             "id": "problem_start_time",
             "order": 100,
