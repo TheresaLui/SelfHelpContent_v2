@@ -10,7 +10,7 @@
     supportTopicIds="32640161,32640162"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="compute-manage-powershell-cli-sdk"
 />
 

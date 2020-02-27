@@ -10,7 +10,7 @@
     diagnosticScenario="ApplicationInsightsDotNetSDK"
     displayOrder="6"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402631, 32632986, 32632987"
  />

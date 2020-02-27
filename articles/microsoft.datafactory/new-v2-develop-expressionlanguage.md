@@ -10,7 +10,7 @@
 	supportTopicIds="32629484"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Expressions and Functions

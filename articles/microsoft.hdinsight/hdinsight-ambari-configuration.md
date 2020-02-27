@@ -10,7 +10,7 @@
     supportTopicIds="32629024"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-ambari-configuration"
 />
 # Azure HDInsight: Ambari Configuration

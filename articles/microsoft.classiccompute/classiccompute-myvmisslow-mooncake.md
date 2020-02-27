@@ -9,7 +9,7 @@
 	supportTopicIds="32411877"
 	resourceTags="windows, linux, windowsSQL, redhat"
 	productPesIds="14749"
-	cloudEnvironments="MoonCake"
+	cloudEnvironments="MoonCake, Fairfax"
 	articleId="81e4675c-6cdd-4ffc-ab56-afec54522eb3"
 />
 

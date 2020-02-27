@@ -13,7 +13,7 @@
 	supportTopicIds="32681418"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # My subscription is marked as "Not Ready for migration"

@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15693"
 	supportTopicIds="32452725"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # General Guidance or Advisory

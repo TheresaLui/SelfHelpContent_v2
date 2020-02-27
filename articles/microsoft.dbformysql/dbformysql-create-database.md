@@ -10,7 +10,7 @@
     supportTopicIds="32684526"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="585C3BAD-C062-42E6-8BA2-7173BE1383B4"
 />
 

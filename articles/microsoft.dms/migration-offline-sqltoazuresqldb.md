@@ -13,7 +13,7 @@
 	supportTopicIds="32673577"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Troubleshooting errors while migrating to Azure SQLDB

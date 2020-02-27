@@ -13,7 +13,7 @@
 	supportTopicIds="32436961,32573483,32582834"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # We have detected a potential issue with a path-based rule configured on your Application Gateway

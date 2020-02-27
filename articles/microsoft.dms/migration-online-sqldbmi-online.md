@@ -13,7 +13,7 @@
 	supportTopicIds="32673579"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Information on setting up database migration to Azure SQL Database Managed Instance in online mode

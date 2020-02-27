@@ -13,7 +13,7 @@
 	supportTopicIds="32673608"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Troubleshooting errors while creating or deleting Database Migration Service instance

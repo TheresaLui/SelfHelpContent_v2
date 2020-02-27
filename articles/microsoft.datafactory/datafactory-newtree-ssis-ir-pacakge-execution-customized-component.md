@@ -11,7 +11,7 @@
 	supportTopicIds="32680897"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Execute SSIS Package - Customized Components Issues

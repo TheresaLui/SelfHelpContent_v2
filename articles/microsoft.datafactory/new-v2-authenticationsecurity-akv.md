@@ -10,7 +10,7 @@
 	supportTopicIds="32629445"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Store Credential in Azure Key Vault

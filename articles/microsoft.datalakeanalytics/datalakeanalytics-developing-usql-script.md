@@ -11,7 +11,7 @@
 	supportTopicIds="32680644"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-developing-a-U-SQL-script"
 />
 

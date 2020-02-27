@@ -13,7 +13,7 @@
 	supportTopicIds="32630725"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # I am having issues with Service Health Alerts

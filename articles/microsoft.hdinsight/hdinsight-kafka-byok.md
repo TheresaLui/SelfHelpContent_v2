@@ -10,7 +10,7 @@
     supportTopicIds="32629038"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-kafka-byok"
 />
 # Azure HDInsight Kafka BYOK: How to configure Bring Your Own Key encryption for Data at Rest

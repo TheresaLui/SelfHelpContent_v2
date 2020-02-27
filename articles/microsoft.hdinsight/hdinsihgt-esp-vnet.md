@@ -10,7 +10,7 @@
     supportTopicIds="32629161"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsihgt-esp-vnet"
 />
 # Azure HDInsight Enterprise Security: VNET and Networking

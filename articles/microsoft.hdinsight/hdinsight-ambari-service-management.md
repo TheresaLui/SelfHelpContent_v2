@@ -10,7 +10,7 @@
     supportTopicIds="32629130"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-ambari-service-management"
 />
 # Azure HDInsight: Ambari Service Management

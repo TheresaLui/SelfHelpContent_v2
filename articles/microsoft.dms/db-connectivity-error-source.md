@@ -13,7 +13,7 @@
 	supportTopicIds="32673582"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # <-- Errors when connecting to source databases for migration --> 

@@ -10,7 +10,7 @@
     supportTopicIds="32636453"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="f18d50b6-ccf5-407b-9b49-3c59bfa0eaec"
 />
 # Restart operation on HBase

@@ -11,7 +11,7 @@
 	supportTopicIds="32680650"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-job-started-to-fail-with-error"
 />
 

@@ -10,7 +10,7 @@
     supportTopicIds="32636456"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-hdiworkloadmonitoring"
 />
 #  HDInsight workload monitoring solution

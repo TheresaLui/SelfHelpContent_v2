@@ -10,7 +10,7 @@
     supportTopicIds="32636471"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-kafka-queryjob-failure"
 />
 # Apache Kafka: Query or Job Failure

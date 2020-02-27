@@ -10,7 +10,7 @@
     supportTopicIds="32681536"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-delete-cluster"
 />
 # Common Solutions to HDInsight Delete Issues

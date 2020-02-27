@@ -11,7 +11,7 @@
 	supportTopicIds="32680652"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-job-started-to-run-slow"
 />
 

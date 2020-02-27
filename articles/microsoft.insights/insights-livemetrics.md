@@ -8,7 +8,7 @@
     articleId="insights_livemetrics"
     displayOrder="100"
     selfHelpType="resource"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602207"
  />

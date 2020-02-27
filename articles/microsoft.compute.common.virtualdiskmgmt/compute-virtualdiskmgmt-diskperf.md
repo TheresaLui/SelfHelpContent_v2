@@ -10,7 +10,7 @@
 	supportTopicIds="32640592"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="compute-virtualdiskmgmt-diskperf"
 />
 

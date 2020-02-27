@@ -10,7 +10,7 @@
     supportTopicIds="32636424"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-advisory"
 />
 # HDInsights General Guidance/Advisory 

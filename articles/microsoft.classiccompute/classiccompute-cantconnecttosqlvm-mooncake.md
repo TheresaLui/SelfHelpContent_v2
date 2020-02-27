@@ -10,7 +10,7 @@
     supportTopicIds=""
     resourceTags="WindowsSQL"
     productPesIds="14749"
-    cloudEnvironments="MoonCake"
+    cloudEnvironments="MoonCake, Fairfax"
 	articleId="f3316dfd-d01e-496d-afc3-41618f6155a9"
 />
 

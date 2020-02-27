@@ -13,7 +13,7 @@
 	supportTopicIds="32673597"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Troubleshooting migration failures 

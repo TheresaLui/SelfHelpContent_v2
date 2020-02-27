@@ -11,7 +11,7 @@
 	supportTopicIds="32680894"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure-SSIS IR Customized Setup Issues

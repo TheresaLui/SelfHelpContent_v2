@@ -13,7 +13,7 @@
 	supportTopicIds="32673610,32673594,32673584"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Troubleshooting top common errors when running a migration activity  

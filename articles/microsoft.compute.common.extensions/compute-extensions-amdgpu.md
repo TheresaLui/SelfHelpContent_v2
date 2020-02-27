@@ -10,7 +10,7 @@
 	supportTopicIds="32729669"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="e44d4aa4-883c-446b-8eb5-d0b7c42ae142"
 />
 

@@ -13,7 +13,7 @@
 	supportTopicIds="32411835"
 	resourceTags="linux"
 	productPesIds="15571,15797,16454,16470"
-	cloudEnvironments="public,mooncake"
+	cloudEnvironments="public,mooncake, Fairfax"
 />
 
 # Diagnostics on your Linux Virtual machine found a boot error

@@ -10,7 +10,7 @@
     supportTopicIds="32636447,32636450,32636463,32636469,32636479,32636494,32636500"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-ambari-metrics"
 />
 

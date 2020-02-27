@@ -10,7 +10,7 @@
     supportTopicIds="32675750"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azure-migrate-asm-arm-move"
 />
 

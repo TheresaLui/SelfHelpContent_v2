@@ -13,7 +13,7 @@
 	supportTopicIds="32629468"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Understand and Tune Performance of Copy Activity

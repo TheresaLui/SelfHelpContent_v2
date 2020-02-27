@@ -10,7 +10,7 @@
     supportTopicIds="32636454"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-hbase-unexpectedresults"
 />
 # Troubleshooting unexpected results with Hbase

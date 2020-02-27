@@ -13,7 +13,7 @@
 	supportTopicIds="32681488"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # My Azure Private Link connectivity is not working

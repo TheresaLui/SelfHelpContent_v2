@@ -13,7 +13,7 @@
 	supportTopicIds="32681487"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # My Azure Private Endpoint connectivity is not working

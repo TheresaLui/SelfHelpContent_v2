@@ -10,7 +10,7 @@
     supportTopicIds="32636481"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-vmunhealthy_responsive_sluggishnode"
 />
 # Unresponsive or sluggish node in a cluster

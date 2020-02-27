@@ -10,7 +10,7 @@
     diagnosticScenario="SmartDetection"
     displayOrder="7"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32613001"
  />

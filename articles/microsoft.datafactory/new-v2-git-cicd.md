@@ -10,7 +10,7 @@
 	supportTopicIds="32629448"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Continuous Integration and Delivery with Git Repository Integration

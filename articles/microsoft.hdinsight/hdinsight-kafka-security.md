@@ -10,7 +10,7 @@
     supportTopicIds="32629128"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-kafka-security"
 />
 # Azure HDInsight: How to configure security for your Kafka cluster

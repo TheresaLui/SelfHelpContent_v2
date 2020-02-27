@@ -10,7 +10,7 @@
     supportTopicIds="32629019"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-kafka-configuration-networking"
 />
 # Azure HDInsight Kafka: Configuration and Networking

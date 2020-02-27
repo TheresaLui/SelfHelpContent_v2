@@ -11,7 +11,7 @@
 	supportTopicIds="32680648"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-error-submitting-a-job"
 />
 

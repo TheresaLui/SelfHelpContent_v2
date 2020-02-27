@@ -9,7 +9,7 @@
 	selfHelpType="resource"
 	productPesIds="15940"
    	supportTopicIds="32680642"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
    	articleId="datalakeanalytics-adjust-quota-limits"
 	/>
 

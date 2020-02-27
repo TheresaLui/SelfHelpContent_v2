@@ -10,7 +10,7 @@
     articleId="need-help-writing-log-queries"
     productPesIds="15693"
     supportTopicIds="32729602, 32729595"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  />
 
 # <-- need-help-writing-log-queries -->

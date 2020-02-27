@@ -8,7 +8,7 @@
     ms.author="jamdavi"
     articleId="insights_issuenotlisted"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402641"
  />

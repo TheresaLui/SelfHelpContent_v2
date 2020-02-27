@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32411835"
 resourceTags="windows"
 productPesIds="14749"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 />
 
 # Network Store Interface (NSI) Service is not running

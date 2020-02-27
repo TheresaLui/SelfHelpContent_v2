@@ -10,7 +10,7 @@
     supportTopicIds="32636477"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-unexpectedresults-mapreduce-pig-oozie-sqoop"
 />
 # Troubleshooting unexpected results with MapReduce, Pig, Sqoop or Oozie

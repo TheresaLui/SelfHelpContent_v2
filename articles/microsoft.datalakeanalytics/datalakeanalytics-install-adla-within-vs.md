@@ -11,7 +11,7 @@
 	supportTopicIds="32680649"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-install-ADLAwithinVS"
 />
 

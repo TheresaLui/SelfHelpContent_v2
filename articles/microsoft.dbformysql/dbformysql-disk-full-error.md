@@ -13,7 +13,7 @@
 	supportTopicIds="32628367, 32628369"
 	resourceTags="windows, linux"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Orcas MySQL Server marked read-only because the server storage is full

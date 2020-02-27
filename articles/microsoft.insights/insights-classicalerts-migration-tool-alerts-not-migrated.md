@@ -13,7 +13,7 @@
 	supportTopicIds="32681416"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Why are some of my classic alerts not migrated

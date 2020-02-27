@@ -9,7 +9,7 @@
     articleId="activitylog-export-portal"
     productPesIds="16251"
     supportTopicIds="32684688"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  />
 
 # <-- configuring-export-portal -->

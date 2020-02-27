@@ -8,7 +8,7 @@
     articleId="insights_permissions"
     displayOrder="105"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402604, 32602220"
  />

@@ -13,7 +13,7 @@
 	supportTopicIds="32629470"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Supported Data Store and File Format in Copy Activity

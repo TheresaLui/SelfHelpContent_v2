@@ -10,7 +10,7 @@
 	supportTopicIds="32628268"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="3d66057d-3c6b-4d12-9241-09830bfd7083"
 />
 

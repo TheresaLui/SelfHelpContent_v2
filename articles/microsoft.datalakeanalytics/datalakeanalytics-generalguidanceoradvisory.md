@@ -11,7 +11,7 @@
 	supportTopicIds="32680880"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-general-guidance-or-advisory"
 />
 

@@ -8,7 +8,7 @@
     articleId="insights-billing"
     displayOrder="98"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602214, 32632982, 32632983"
  />

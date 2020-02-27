@@ -10,7 +10,7 @@
     supportTopicIds="32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, mooncake"
+    cloudEnvironments="public, mooncake, Fairfax"
     articleId="bfa4e56c-3fbc-461d-a7d5-1e485b42932b"
 />
 # Azure HDInsight: Virtual Network

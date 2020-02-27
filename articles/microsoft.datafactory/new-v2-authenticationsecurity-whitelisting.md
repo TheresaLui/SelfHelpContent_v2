@@ -10,7 +10,7 @@
 	supportTopicIds="32629493"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # IP Whitelisting and Firewall Configurations for Self-hosted Integration Runtime

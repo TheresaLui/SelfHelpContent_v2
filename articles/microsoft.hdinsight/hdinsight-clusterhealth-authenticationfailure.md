@@ -10,7 +10,7 @@
     supportTopicIds="32629010"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-clusterhealth-authenticationfailure"
 />
 # Azure HDInsight Cluster Health: Authetication Failure
