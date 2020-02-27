@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ab5bc630-d56d-ee3e-8dd8-73d70358c4b9",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing a performance or query execution issue.",
+      "searchTags": "performance;execution;query performance;server perfromance;database performance",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb9c4681-a691-f485-f019-dcf0cdc2fc65",
       "longDescription": "",
       "shortDescription": "Your existing connections to the server have been dropped unexpectedly",
