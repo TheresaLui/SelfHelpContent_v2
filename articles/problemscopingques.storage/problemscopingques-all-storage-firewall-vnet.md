@@ -78,7 +78,7 @@
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceGroup_list",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Resources?api-version=2019-10-01",
+                "uri": "/subscriptions/{subscriptionId}/providers?api-version=2019-10-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
