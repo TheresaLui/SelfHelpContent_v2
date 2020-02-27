@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
+      "longDescription": "",
+      "shortDescription": "You received the unknown MySQL server host error",
+      "searchTags": "unknown MySQL server host;Database is currently unavailable;Availability;connectivity",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3a67bd4f-0f8f-c1c3-b576-cc3881d16093",
       "longDescription": "",
       "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation",
