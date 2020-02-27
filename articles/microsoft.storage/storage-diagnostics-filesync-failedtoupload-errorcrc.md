@@ -28,7 +28,7 @@ To resolve this issue,
 
 1. Remove tiered files that are orphaned by performing the steps in [Tiered files are not accessible on the server after deleting a server endpoint](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#tiered-files-are-not-accessible-on-the-server-after-deleting-a-server-endpoint)
 
-2. If the error continues to occur after removing oprhaned tiered files, run [chkdsk](https://docs.microsoft.com/windows-server/administration/windows-commands/chkdsk) on the volume
+2. If the error continues to occur after removing orphaned tiered files, run [chkdsk](https://docs.microsoft.com/windows-server/administration/windows-commands/chkdsk) on the volume
 
 
 
