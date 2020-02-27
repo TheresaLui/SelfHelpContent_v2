@@ -29,5 +29,5 @@ Thank you for contacting Microsoft support about your replication latency issues
 
 ## **Recommended Documents**
 
-* [Monitoring Replication]( https://docs.microsoft.com/en-us/azure/postgresql/concepts-read-replicas#monitor-replication)
+* [Monitoring Replication]( https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#monitor-replication)
 

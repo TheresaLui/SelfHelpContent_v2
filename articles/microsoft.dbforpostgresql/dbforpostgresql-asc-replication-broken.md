@@ -4,8 +4,8 @@
 	infoBubbleText="Server is facing replication broken issue. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"
-    authors="danielcarbajal"
-    ms.author="dacarbaj"
+    authors="conwan"
+    ms.author="conwan"
     displayOrder="100"
 	articleId="dbforpostgresql-asc-replication-broken"
 	diagnosticScenario="OrcasPostgresReplicationBroken"
@@ -29,4 +29,4 @@ Thank you for contacting Microsoft support about your broken streaming replicati
 
 ## **Recommended Documents**
 
-* [Monitoring Replication]( https://docs.microsoft.com/en-us/azure/postgresql/concepts-read-replicas#monitor-replication)
+* [Monitoring Replication]( https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#monitor-replication)
