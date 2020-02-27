@@ -9,6 +9,7 @@
     resourceTags="Azure_RBAC"
     cloudEnvironments="public"
     	articleId="8bc25c45-f8e0-4630-bdc1-123da5078d4e"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to view and manage Azure resources

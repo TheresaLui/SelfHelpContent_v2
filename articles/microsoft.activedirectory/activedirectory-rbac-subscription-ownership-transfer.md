@@ -9,6 +9,7 @@
     resourceTags="Azure_RBAC"
     cloudEnvironments="public"
     	articleId="301cb828-36d2-4ce6-a8f0-6c862cbdc7ce"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to transfer ownership of a subscription

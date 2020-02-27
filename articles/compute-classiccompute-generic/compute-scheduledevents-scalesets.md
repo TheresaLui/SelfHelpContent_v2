@@ -12,6 +12,7 @@
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax"
 	articleId="0eeeaa57-b643-4fad-abf0-cedd3e72646c"
+	ownershipId="Compute_VirtualMachineScaleSets"
 />
 
 # Management/Scheduled events

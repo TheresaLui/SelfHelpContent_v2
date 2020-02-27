@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     articleId="55351c2e-f9be-4047-a074-4d72b0543391"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 # I am not getting any AADConnect Health notification emails
 

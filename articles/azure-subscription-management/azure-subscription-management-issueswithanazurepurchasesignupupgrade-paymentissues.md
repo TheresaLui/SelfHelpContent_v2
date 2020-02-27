@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	articleId="issueswithpurchasesignuporupgrade-payment issues"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Purchase,signup or upgrade - payment issues

@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Blackforest, Fairfax, Mooncake"
 	articleId="9af7896e-f094-4405-8449-c79778dcf15b1"
+	ownershipId="ASMS_Billing"
 />
 
 # Cost Management - cost data issues

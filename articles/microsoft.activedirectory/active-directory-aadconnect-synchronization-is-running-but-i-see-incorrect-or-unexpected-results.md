@@ -12,7 +12,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
+/>
 
 # Synchronization is running but I see incorrect or unexpected results
 

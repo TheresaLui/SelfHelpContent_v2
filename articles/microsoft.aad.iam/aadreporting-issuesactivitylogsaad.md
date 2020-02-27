@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 	articleId="a06c1654-9643-40e6-80ca-da96c5ccf148"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Problem with Activity logs in Azure AD 
 ---

@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="0d30f2ba-7532-4734-8b03-3cc06c602ce9"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - installation issues

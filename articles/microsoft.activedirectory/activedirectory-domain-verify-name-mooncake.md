@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-domain-verify-name-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can't verify my domain name even though I added it to Azure AD

@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="Service_FCI"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - FCI

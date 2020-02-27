@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # RMS Connector - Exchange
