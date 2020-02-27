@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
     articleId="263c6c22-46dc-4b5f-b696-74deec325e18"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Azure Databricks common solutions

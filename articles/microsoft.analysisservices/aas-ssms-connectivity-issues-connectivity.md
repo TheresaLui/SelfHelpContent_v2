@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="512b6e32-bd21-9fd1-c1fc-9cc4a85c6aa3"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # How to uninstall SQL Server Management Studio

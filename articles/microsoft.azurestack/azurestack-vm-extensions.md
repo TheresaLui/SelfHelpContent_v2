@@ -10,8 +10,9 @@
     supportTopicIds="32663915,32663916"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-extensions"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack virtual machine (VM) extensions

@@ -13,6 +13,7 @@
     articleId="cosmosdb-admin-arm-activity-log"
     displayOrder="27"
     category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Resource Manager (ARM) Deployments

@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="mfa-verificationandunexpectedbehavior-datacollection"
-    />
+    	ownershipId="AzureIdentity_SignIn"
+/>
 
 # Azure Active Directory Sign-In and Multi-Factor Authentication
 

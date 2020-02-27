@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="compute-myvmrestartedunexpectedly-linux-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve issues with an unexpected Linux VM restart

@@ -10,7 +10,7 @@
 	supportTopicIds="32690994"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-clusterdeploymentorcreation"
 />
 

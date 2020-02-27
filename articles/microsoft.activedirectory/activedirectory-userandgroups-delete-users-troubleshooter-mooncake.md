@@ -10,6 +10,7 @@
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="MoonCake"
  	articleId="activedirectory-userandgroups-delete-users-troubleshooter-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 # I can’t delete a user from my directory
 

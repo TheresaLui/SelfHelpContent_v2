@@ -13,7 +13,7 @@
 	supportTopicIds="32681489"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # What are the limits associated with Private Endpoint?

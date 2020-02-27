@@ -10,8 +10,9 @@
     supportTopicIds="32629209"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-netinfra-dns"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Infrastructure DNS Integration

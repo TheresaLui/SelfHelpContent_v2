@@ -9,7 +9,7 @@
 	supportTopicIds="32589278"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="60f598ba-4f06-45fb-9c54-6c4873facabb"
 />
 # Questions on VNET, Hybrid Connections, or Traffic Manager

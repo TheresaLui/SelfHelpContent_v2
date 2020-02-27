@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="BD530EDF-4297-4D04-80C7-F164F0F358AB"
+	ownershipId="Compute_BotService"
 />
 # Cannot configure a channel
 ---

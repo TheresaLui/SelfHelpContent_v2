@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="91e1b156-c83b-c9e3-e635-f1f8026ee29e"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Azure Analysis Services scale-out

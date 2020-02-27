@@ -12,7 +12,8 @@
     productPesIds="16577"
     cloudEnvironments="public"
 	articleId="2c6fef6a-4d9d-4380-8808-758d80d17814"
-    />
+    	ownershipId="AzureIdentity_IdentityDiagnostics"
+/>
 
 # Azure AD Sign-in logs
 

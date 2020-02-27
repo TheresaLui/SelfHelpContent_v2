@@ -13,6 +13,7 @@
 	articleId="cosmosdb-gremlin-import"
 	displayOrder="181"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Gremlin - Import
 

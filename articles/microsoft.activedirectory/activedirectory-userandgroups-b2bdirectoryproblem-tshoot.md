@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
     	articleId="b849da30-980b-4833-aab2-c5ac698ce8a5"
+	ownershipId="AzureIdentity_User"
 />
 
 # B2B collaboration: Can't add an invited user to the directory

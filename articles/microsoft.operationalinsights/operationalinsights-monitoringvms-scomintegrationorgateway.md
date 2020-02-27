@@ -14,7 +14,7 @@ selfHelpType="generic"
 supportTopicIds="32633006"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax"
 />
 
 # SCOM and Log Analytics integration issues

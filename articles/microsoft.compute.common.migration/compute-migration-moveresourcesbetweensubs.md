@@ -10,11 +10,14 @@
 	supportTopicIds="32570117"
 	resourceTags="windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="395f1a5d-a871-4860-a897-221e95f2bb93"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Migration and Move/Move resources between subscriptions
+
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
 ## **Recommended Documents**
 

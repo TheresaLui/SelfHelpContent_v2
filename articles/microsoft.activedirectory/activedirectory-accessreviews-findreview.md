@@ -11,6 +11,7 @@
 	productPesIds="16577"
 	cloudEnvironments="public"
 	articleId="c8ec2252-fc2a-484b-a983-1d1c4a03c974"
+	ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
 # End users cannot locate a pending review in the access panel.

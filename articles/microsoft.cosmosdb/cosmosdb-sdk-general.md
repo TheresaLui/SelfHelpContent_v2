@@ -13,6 +13,7 @@
 	articleId="cosmosdb-sdk-general" 
 	displayOrder="290" 
 	category="SDK Issues" 
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Introduction to Azure Cosmos DB SDK  

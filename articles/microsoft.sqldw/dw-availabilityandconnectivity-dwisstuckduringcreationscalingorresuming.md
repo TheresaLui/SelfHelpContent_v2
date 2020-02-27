@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-dwisstuckduringcreationscalingorresuming.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Data Warehouse is stuck during creation, scaling, or resuming
 

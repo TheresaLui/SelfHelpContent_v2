@@ -13,6 +13,7 @@ pageTitle="Export to Active Directory failed"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Export to Active Directory failed

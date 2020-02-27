@@ -10,8 +10,9 @@
     supportTopicIds="32629245"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-operator-adminportal"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Administrator Portal

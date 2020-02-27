@@ -12,6 +12,7 @@
 	productPesIds="16952,16953,16954,16955,16956,16575"
 	cloudEnvironments="public"
 	articleId="0ba3c716-5514-4e79-b7cc-9c0b3095dfe0"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Microsoft Graph authorization errors

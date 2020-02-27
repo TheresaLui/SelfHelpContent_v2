@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="87d8cf82-0387-f7b4-0750-2e75107109fe"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Automating Azure Analysis Services processing with Azure Functions

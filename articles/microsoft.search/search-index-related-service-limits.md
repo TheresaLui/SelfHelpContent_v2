@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-related-service-limits"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Question about Azure Cognitive Search service limits

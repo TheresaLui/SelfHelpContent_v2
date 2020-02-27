@@ -11,7 +11,7 @@
     selfHelpType="resource"
     resourceTags="datawarehouse"
     articleId="dw-portalandclienttools.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Using portal and client tools

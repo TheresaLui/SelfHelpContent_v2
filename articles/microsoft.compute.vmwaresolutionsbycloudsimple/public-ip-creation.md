@@ -12,6 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="50880251-6362-494a-aff3-fd516d531019"    
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting public IP allocation 

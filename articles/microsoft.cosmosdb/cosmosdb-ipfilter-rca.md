@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # IP Blocked by Firewall
 

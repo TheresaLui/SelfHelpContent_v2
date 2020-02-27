@@ -12,6 +12,7 @@
     selfHelpType="rca"
     resourceTags="servers, databases"
     cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Server is facing high CPU usage

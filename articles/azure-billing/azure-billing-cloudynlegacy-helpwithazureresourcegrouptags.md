@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="7a5bad69-9ec4-4480-b827-cc691ec8b8ad"
+	ownershipId="ASMS_Billing"
 />
 
 # Help with Azure Resource Group Tags

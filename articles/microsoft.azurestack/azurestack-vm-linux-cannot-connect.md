@@ -10,8 +10,9 @@
     supportTopicIds="32663889"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="6f641910-1001-4135-b8d1-85ab25fa1503"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Linux VM connectivity issues

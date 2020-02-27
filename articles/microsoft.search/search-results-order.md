@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-results-order"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # My search results are not in correct order

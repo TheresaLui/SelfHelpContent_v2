@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-scheduledmaintenanceandupgrades-upgradetogen2"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Upgrading to Gen2

@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="635b660f-911e-4568-aab6-82ca7126648b"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve execution issues

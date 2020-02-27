@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="db6b56a4-b9ea-4636-8c61-18c8834a1155"
+	ownershipId="AzureMessaging_Common"
 />
 
 # My problem is not listed above

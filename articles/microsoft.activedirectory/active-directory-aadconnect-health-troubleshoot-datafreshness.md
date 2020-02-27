@@ -10,6 +10,7 @@
 	supportTopicIds="32629813,32629814"
 	cloudEnvironments="public"
 	articleId="c1c9b1fb-3fbb-461f-9949-23fa9ce31e04"
+	ownershipId="Identity_AuthReach_HybridAuth_ADFS"
 />
 # Troubleshoot Health service data not up to date alert in Azure AD Connect Health
 

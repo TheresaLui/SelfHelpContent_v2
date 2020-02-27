@@ -11,7 +11,8 @@
     supportTopicIds="32635088"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Jobs and tasks - Task resource files or output files

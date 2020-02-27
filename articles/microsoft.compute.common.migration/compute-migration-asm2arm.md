@@ -10,8 +10,9 @@
 	supportTopicIds="32513964"
 	resourceTags=""
 	productPesIds="14749,16348"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="06336d96-d8aa-471e-a610-6f96c2416763"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Migration and Move/Migrate IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)

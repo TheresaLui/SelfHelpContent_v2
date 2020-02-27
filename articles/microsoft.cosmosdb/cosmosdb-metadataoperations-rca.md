@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # We ran diagnostics on your resource and found an issue

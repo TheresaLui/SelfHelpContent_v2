@@ -13,6 +13,7 @@
 	articleId="cosmosdb-sdk-latency"
 	displayOrder="281"
 	category="SDK Issues"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 #  Azure Cosmos DB SQL API high latency issues  

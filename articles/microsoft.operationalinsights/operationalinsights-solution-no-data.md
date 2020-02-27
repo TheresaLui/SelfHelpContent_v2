@@ -12,7 +12,7 @@
     supportTopicIds="32592241, 32592228, 32592242, 32592268"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # A solution has been added to this workspace which has not received data

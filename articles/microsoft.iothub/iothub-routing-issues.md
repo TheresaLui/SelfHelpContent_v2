@@ -11,6 +11,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="8bb9a0cc-e06a-4e76-bca5-3e703c4ab16a"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Issues with IoT Hub routing

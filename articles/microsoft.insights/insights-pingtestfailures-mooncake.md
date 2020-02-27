@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
  	articleId="insights-pingtestfailures-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # My web test is intermittently failing with a protocol violation error
 

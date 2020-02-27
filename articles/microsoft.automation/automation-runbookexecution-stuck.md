@@ -10,8 +10,9 @@
     supportTopicIds="32628013"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="51343bcc-ad63-4e52-aeaf-e0e0188cd049"
+	ownershipId="Compute_Automation"
 />
 
 # Runbook Job Stuck in Azure Automation

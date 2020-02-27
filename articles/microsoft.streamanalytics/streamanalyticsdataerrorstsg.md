@@ -13,7 +13,7 @@
 	supportTopicIds="32628786,32357228"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Stream Analytics Job output sink is potentially slow

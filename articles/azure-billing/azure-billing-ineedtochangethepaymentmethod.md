@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="ddfec062-54cd-4d7a-a2f1-e7c446516e26"
+	ownershipId="ASMS_Billing"
 />
 
 # I need to change the payment method

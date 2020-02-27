@@ -11,6 +11,7 @@
     productPesIds="14785"
     cloudEnvironments="public"
 	articleId="71d56275-e677-406c-8620-ecba24720494"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I have trouble configuring / managing federation with AD FS

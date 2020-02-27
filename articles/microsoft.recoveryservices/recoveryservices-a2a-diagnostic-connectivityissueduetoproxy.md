@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, Fairfax"
 />
 
 # Your virtual machine is not able to access "login.microsoftonline.com" due to invalid proxy. 

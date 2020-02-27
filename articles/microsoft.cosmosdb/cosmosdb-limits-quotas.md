@@ -13,6 +13,7 @@
 	articleId="cosmosdb-limits-quotas"
 	displayOrder="200"
 	category="Limits and quotas"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Limits in Azure Cosmos DB

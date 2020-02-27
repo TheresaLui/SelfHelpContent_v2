@@ -10,7 +10,7 @@
 	displayOrder="36"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="indexer-create-issue"
 />
 

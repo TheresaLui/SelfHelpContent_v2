@@ -10,7 +10,7 @@
     supportTopicIds="32675670"
     resourceTags=""
     productPesIds="16556"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="c0c91d65-1022-45d9-9b34-f9cf8fdca419"
 />
 # Configure, set up, or manage multiple Public IPs

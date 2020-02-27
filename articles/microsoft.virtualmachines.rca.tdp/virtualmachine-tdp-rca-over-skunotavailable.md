@@ -13,7 +13,7 @@
 	supportTopicIds="32411844"
 	resourceTags="windows, linux"
 	productPesIds="14749,15571"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # We ran diagnostics on your resource and found an issue
 

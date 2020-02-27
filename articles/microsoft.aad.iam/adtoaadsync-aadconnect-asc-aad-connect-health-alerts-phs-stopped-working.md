@@ -13,6 +13,7 @@ pageTitle="Password Hash Synchronization has stopped working"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Password Hash Synchronization has stopped working

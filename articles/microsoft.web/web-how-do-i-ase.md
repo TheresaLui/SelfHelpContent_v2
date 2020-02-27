@@ -9,7 +9,7 @@
 	supportTopicIds="32589275"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="ce07d030-1bb9-4b90-a426-1e486ec7fd28"
 />
 # Questions on creating and managing ASE

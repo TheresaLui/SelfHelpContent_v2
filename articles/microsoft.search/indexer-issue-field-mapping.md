@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="indexer-field-mapping"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Issue with indexer field mapping
 
