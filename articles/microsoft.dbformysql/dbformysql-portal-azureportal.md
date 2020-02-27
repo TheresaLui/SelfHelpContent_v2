@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="dc501f13-9441-4f1b-936f-4f399e5eea5d"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Azure Portal

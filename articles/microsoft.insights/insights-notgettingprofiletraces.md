@@ -11,6 +11,7 @@
     supportTopicIds="32602204"
     cloudEnvironments="public, Fairfax"
  	articleId="05d43415-414c-4ea2-be1c-90cc41e48e22"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # I am not getting profiler traces
 

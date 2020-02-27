@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="70a28266-d0e8-4054-a131-a3fc497ef1fb"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight client tool issue: HDInsight SDK

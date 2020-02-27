@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
     articleId="32639199"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box - Data copy and validation issues

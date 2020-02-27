@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="60f1c555-13b4-4099-a4e4-188e66b17f59"
+	ownershipId="Compute_AppService"
 />
 
 # Moving a Function App

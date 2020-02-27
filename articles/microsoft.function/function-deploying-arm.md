@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="63fc3d1c-ebc2-4927-8b22-fd720b4737c5"
+	ownershipId="Compute_AppService"
 />
 
 # Deploying Function Apps/ARM Templates

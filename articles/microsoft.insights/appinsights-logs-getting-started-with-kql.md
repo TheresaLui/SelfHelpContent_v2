@@ -11,7 +11,8 @@
     productPesIds="15693"
     supportTopicIds="32729602, 32729595"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 
 # <-- need-help-writing-log-queries -->
 

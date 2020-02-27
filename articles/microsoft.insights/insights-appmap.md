@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602206"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # How do I troubleshoot the Application Map?
 

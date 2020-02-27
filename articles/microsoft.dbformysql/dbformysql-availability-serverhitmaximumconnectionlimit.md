@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="064e5cc6-7e43-4a21-810c-49d92c4834d0"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Connection issues to Azure Databases for MySQL

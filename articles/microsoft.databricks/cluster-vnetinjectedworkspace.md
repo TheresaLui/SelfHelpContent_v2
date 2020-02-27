@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="a87a5e09-90f1-4c5d-a77b-5ea9a3436bc9"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Databricks cluster creation in a VNET injected workspace

@@ -14,6 +14,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="078C7927-3E0E-4E25-868F-C68CBC170EBA"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # We ran diagnostics on your resource and found the following issue

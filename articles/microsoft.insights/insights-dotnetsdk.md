@@ -13,7 +13,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402631, 32632986, 32632987"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # I am having problems with my .NET SDK
 
 ## **Recommended Steps**

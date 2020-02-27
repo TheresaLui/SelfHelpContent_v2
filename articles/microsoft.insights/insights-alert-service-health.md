@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I am having issues with Service Health Alerts

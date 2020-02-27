@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="4fcc0f1f-ce80-414d-bab3-33fb8303122d"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Monitoring replication

@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="6145858c-683d-49dd-b4c8-f10f2d2a2f3c"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Server parameter not listed

@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="ccbe95b1-927f-4e7b-a108-d15114886d8f"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Using Azure CLI for Azure Database for PostgreSQL

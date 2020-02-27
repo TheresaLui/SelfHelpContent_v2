@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="5bc897a5-e5e8-4e3a-8380-a9b717dd7117"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve security issues

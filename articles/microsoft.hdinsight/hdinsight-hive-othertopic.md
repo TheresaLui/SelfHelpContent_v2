@@ -11,7 +11,8 @@
   resourceTags=""
   productPesIds="15078"
   cloudEnvironments="public, Fairfax"
-  ArticleId="c308c637-bf59-4c2d-bbb9-69156b44c0f4"/>
+  ArticleId="c308c637-bf59-4c2d-bbb9-69156b44c0f4"	ownershipId="AzureData_HDInsight"
+/>
 
 # Hive Other topic 
 

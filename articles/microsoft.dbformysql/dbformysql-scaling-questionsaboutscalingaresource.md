@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="d980b014-1500-4f79-a025-03717b4576da"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Scaling Azure Database for MySQL servers

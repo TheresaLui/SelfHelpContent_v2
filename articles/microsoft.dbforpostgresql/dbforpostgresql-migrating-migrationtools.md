@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="887f10ae-022c-4d47-aa08-e8d26697f858"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Migration tools for Azure Database for PostgreSQL

@@ -12,6 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="8c727d6a-a637-4401-a801-cafb122d252c"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Monitor and Metrics Common Solutions

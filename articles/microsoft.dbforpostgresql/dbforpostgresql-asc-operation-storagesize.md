@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Create or update PostgreSQL server failed because the input storage size does not meet requirements.

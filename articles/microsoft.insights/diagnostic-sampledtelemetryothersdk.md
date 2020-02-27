@@ -14,6 +14,7 @@ supportTopicIds="32602225"
 resourceTags=""
 productPesIds="15693"
 cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # Where's my data?

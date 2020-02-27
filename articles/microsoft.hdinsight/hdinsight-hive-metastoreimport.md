@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="d57eaf78-4d40-4cfc-b8eb-93774b4917d5"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Exporting Hive Metastore and Importing it on Another Cluster

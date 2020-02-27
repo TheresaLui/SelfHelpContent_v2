@@ -12,6 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="8fb98da7-dd79-4248-bf1e-0383abbe5ff5"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Pipeline Activities - HDInsight

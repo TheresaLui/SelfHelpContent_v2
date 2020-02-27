@@ -11,6 +11,7 @@
     supportTopicIds="32684743"
     productPesIds="16250"
     cloudEnvironments="public,fairfax,mooncake,blackforest"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-export-or-query-rest-api -->

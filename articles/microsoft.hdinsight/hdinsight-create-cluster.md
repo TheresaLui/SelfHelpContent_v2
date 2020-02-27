@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-create-cluster"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Create HDInsight Cluster

@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-hbase-unexpectedresults"
+	ownershipId="AzureData_HDInsight"
 />
 # Troubleshooting unexpected results with Hbase
 

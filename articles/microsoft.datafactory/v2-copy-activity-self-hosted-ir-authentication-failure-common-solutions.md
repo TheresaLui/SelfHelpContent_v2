@@ -13,6 +13,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="41212c06-4e6f-4bf4-ab06-c2936485d84e"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Copy Activity and Self-Hosted IR - Authentication Failure Common Solutions

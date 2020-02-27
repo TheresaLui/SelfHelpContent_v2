@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="221c44f3-d906-4638-8d94-7c0b8bb70dea"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsights HDFS commands do not work - WASB in cluster with Enterprise Security Package

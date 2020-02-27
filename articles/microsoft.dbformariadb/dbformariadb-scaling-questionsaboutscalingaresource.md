@@ -12,7 +12,8 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="634e9e51-3804-4776-911d-d90d1cd5a6bc"
-    />
+    	ownershipId="AzureData_AzureDatabaseforMariaDB"
+/>
 
 # Scaling Azure Database for MariaDB servers
 

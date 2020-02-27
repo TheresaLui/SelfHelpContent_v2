@@ -13,6 +13,7 @@
     resourceTags="windows, linux"
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # High replication latency

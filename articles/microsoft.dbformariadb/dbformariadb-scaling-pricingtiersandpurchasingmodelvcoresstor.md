@@ -12,7 +12,8 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="577bba0a-5a45-4405-8a74-84486c1ee5d3"
-    />
+    	ownershipId="AzureData_AzureDatabaseforMariaDB"
+/>
 
 # Pricing tiers and purchasing model in Azure Database for MariaDB
 

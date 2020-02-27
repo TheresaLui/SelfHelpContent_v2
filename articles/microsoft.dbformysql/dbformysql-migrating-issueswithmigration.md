@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="f08de132-b511-4a81-a2f1-ecf5358f8a7a"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Issues with migrating to Azure Database for MySQL

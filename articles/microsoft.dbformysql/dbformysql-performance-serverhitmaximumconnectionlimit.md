@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="eb1a77db-8690-408d-a3a7-4b8ff48edd78"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshooting maximum connection limit in Azure Database for MySQL

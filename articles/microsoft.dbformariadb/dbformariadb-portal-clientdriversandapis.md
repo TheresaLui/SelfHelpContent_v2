@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="aefc1837-c95a-484a-8502-eb9f8b270fed"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Connecting to Azure Databases for MariaDB

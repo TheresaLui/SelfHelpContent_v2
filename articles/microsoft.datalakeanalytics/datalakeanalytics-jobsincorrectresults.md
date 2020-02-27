@@ -13,6 +13,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-Job-started-to-return-incorrect-results"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Job started to return incorrect results

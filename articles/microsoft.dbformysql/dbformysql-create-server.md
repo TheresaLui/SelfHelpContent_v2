@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="6b738e5d-8e6e-4fd3-be60-3522d8a20e4a"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Creating, scaling, and deleting an Azure Database for MySQL server

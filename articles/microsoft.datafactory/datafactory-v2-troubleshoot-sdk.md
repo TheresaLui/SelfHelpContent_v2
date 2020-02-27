@@ -12,6 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="DataFactorySDKTroubleshooter"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Data Factory SDK

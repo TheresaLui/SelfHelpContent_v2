@@ -13,6 +13,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-general-guidance-or-advisory"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # General guidance or advisory

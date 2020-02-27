@@ -12,7 +12,8 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="365b1da4-ae04-4ecd-9503-eea037658c6b"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Data ingestion performance on Hyperscale (Citus)
 

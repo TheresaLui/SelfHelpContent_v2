@@ -12,6 +12,7 @@
 	productPesIds="15693"
 	cloudEnvironments="public, Fairfax"
 	articleId="appinsights-dashboard"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # Azure Portal

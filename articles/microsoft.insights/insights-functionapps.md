@@ -13,7 +13,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32632998"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # How do I setup application insights with my FunctionApp?
 
 ## **Recommended Steps**

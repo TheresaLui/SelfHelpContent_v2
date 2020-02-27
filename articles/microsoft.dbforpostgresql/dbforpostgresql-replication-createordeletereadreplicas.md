@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="9e065390-0a87-42d8-812b-39f24f7d04c7"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Create a replica

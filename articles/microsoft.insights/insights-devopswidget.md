@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602222"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I have questions about using the DevOps Widget
 

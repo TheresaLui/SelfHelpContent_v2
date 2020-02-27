@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="5b92e5bc-2884-4bfc-a87b-bf29933cd0da"
+	ownershipId="Compute_AppService"
 />
 
 # authentication and authorization

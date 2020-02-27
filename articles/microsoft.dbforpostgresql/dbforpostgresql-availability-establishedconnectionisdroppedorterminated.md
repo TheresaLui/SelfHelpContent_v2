@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="2393642e-b8d9-413e-be03-8535589ccc46"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Dropped connections

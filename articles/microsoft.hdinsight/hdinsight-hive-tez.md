@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     ArticleId="71bb13ae-1789-4577-977d-3696d2e65a28"
+	ownershipId="AzureData_HDInsight"
 />
 
 # TEZ

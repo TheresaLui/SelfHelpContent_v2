@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="7ce043ed-e999-4b4e-ba5e-cfe5388cea80"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Managing firewall rules for Azure Database for MariaDB

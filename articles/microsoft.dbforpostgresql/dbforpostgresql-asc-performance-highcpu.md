@@ -14,6 +14,7 @@
     resourceTags="windows, linux"
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Server is facing high CPU usage

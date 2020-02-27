@@ -13,6 +13,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="c4d523c2-86ed-443f-8749-fdb3bff4dd30"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Pipeline Development Issue - Retry and Timeout Common Solutions

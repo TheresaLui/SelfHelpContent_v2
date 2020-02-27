@@ -12,7 +12,8 @@
     productPesIds="15693"
     supportTopicIds="32602225"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 
 # Where's my data?
 

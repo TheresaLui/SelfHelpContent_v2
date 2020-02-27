@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="31a39167-203b-41de-b82a-77d3804db42f"
+	ownershipId="Compute_AppService"
 />
 
 # Portal Issues

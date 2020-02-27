@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402637"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # Unsupported SDKs
 

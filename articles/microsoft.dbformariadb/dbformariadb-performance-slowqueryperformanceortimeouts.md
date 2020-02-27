@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="badb04d0-4b9d-40e2-98db-d746e36302e4"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Troubleshooting query performance in Azure Database for MariaDB

@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="d8c163a8-fd10-4c09-ab5a-cd4ae27d8534"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight client tool issue: Hive View

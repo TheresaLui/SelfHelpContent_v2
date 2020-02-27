@@ -13,6 +13,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-install-ADLAwithinVS"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Installing Azure Data Lake Studio within Visual Studio

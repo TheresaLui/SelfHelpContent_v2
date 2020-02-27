@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="019fae47-0338-4442-b9a4-1e8018c8835d"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Monitoring replication

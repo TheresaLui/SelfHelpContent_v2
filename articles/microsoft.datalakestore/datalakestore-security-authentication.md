@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="0ce36b2a-cb20-433e-b0f8-e1ee62ad54fb"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot my security or access issue - authentication or authorization

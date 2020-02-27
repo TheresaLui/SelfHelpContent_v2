@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-kafka-configuration-networking"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Kafka: Configuration and Networking
 

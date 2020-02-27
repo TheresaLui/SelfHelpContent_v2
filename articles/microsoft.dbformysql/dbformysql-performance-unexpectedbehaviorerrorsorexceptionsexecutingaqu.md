@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="449f5c2d-d791-4b88-b7e1-78ccf5af4a01"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshoot query execution problems in Azure Database for MySQL

@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Having trouble with Azure Portal

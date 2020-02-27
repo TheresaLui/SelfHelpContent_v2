@@ -11,6 +11,7 @@
     productPesIds="15693"
     supportTopicIds="32402638"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
 # Is there a service outage?

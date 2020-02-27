@@ -11,6 +11,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="385d1c82-1018-4195-a6db-d289f75f0ce9"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Azure Databricks collaboration and presence

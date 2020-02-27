@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="603b3799-55da-47d5-ae20-b6500a3cc7b1"
+	ownershipId="Compute_AppService"
 />
 
 #  Availability/Messaging function failed to trigger

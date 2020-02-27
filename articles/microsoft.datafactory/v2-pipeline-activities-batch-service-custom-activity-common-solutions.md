@@ -12,6 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="58f10bd5-ada3-484e-b2b6-a66d55a2226d"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Pipeline Activities - Batch Service (Custom Activity)

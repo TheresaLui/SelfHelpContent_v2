@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public,MoonCake, Fairfax"
     articleId="913102d6-193a-48b4-b259-64fd4927379e"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Hive Performance

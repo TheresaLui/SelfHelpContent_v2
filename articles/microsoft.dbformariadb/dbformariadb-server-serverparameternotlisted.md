@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="a78b942f-009d-4b7b-931a-6cc8c17fff21"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Server parameter not listed

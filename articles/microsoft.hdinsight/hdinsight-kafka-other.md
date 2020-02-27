@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinsight-kafka-other"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Kafka
 

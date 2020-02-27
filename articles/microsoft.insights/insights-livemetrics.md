@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602207"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # Why can I not see Live Metrics?
 

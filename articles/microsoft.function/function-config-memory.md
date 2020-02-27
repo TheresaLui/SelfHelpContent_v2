@@ -11,6 +11,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="39eee39d-75c1-4975-9a55-b573e8d3092e"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring Function Apps/Configuring memory

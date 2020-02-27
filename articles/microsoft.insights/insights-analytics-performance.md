@@ -12,7 +12,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602201"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # I am having performance problems with my Analytics Queries
 
 **Analytics Queries Performance & Failures**<br>

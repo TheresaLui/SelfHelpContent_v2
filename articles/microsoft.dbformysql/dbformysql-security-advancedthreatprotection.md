@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="520c34e1-878d-4125-81d7-5693f4820df2"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Security in Azure Database for MySQL

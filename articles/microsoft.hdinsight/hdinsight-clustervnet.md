@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, mooncake, Fairfax"
     articleId="bfa4e56c-3fbc-461d-a7d5-1e485b42932b"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Virtual Network
 

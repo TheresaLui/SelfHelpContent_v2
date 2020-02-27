@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # PostgreSQL server marked read-only because server storage is full

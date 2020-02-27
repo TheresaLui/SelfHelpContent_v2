@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="fa773e3d-6e0c-4357-8463-654b38c10025"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Replicate data from on-prem or VM to an Azure Database for MySQL server

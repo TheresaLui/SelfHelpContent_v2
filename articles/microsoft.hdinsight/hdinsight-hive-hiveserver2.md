@@ -12,6 +12,7 @@
   productPesIds="15078"
   cloudEnvironments="public, Fairfax"
   ArticleId="b47d28df-b6a9-4eb6-b5c7-a6f595e49636"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Hiveserver2 

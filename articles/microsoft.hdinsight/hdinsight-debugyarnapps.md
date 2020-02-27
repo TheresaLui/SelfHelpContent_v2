@@ -11,6 +11,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
 	articleId="0b0579e2-2fdc-4472-818a-999cbd44f0ea"
+	ownershipId="AzureData_HDInsight"
 />
 
 # I'm having an issues with my YARN application

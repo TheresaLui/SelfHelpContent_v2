@@ -13,7 +13,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32632997"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # How do I investigate errors with the Performance and Failures blade?
 
 ## **Recommended Steps**

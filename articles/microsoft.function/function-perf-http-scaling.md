@@ -12,6 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	articleId="ffd485ff-828e-4d8b-842c-a5a5cc5e873f"
+	ownershipId="Compute_AppService"
 />
 
 #  Performance/HTTP Functions Scaling

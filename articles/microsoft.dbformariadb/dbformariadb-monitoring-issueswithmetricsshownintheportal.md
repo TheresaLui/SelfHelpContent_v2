@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="d29c4a5d-7cd5-4fe0-bec0-eb66f54f575f"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Issues with metrics shown in the portal

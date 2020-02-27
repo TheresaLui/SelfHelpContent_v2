@@ -13,7 +13,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32613001"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 
 # I have questions about Smart Detection
 

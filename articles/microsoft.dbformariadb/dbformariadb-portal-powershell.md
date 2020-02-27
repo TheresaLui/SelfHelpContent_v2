@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="ec2e323e-aa6d-4500-87ba-62409b128919"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Using PowerShell to manage Azure Databases for MariaDB

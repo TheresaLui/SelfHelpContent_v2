@@ -12,6 +12,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="9651a650-909c-4f84-a526-cb7ed6313e0b"
+	ownershipId="AzureData_HDInsight"
 />
 
 # HDInsight cluster deployment issue with Autoscaling

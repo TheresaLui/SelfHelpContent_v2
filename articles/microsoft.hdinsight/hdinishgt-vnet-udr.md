@@ -13,6 +13,7 @@
     productPesIds="15078"
     cloudEnvironments="public, Fairfax"
     articleId="hdinishgt-vnet-udr"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Creating, Deleting, & Scaling HDInsight: Virtual network - user-defined routes
 

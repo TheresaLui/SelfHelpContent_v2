@@ -12,6 +12,7 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="44BF1BBE-80E0-40AC-AA31-ED9519FA3E82"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Creating and managing databases in Azure Database for PostgreSQL

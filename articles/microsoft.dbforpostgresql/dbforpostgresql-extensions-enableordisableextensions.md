@@ -12,7 +12,8 @@
     productPesIds="16222"
     cloudEnvironments="public, Fairfax"
     articleId="61c08d2a-d2e9-4163-bd62-18f200c9ed42"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Enabling PostgreSQL extensions
 

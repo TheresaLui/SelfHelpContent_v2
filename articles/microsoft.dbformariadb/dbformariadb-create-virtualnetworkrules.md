@@ -12,6 +12,7 @@
     productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="954b5c88-d513-435a-b878-0cd6d50f8eba"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Managing VNet service endpoints in Azure Database for MariaDB

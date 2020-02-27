@@ -12,6 +12,7 @@
   productPesIds="15078"
   cloudEnvironments="public, Fairfax"
   ArticleId="11431604-67f0-4c37-9ee5-1f40758262ba"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Hive incorrect results 

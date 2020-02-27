@@ -12,6 +12,7 @@
     productPesIds="16617" 
     cloudEnvironments="public, Fairfax"
     articleId="D2A141B5-9E23-47A4-A8EE-7314AA4A4D51"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Creating, scaling, and deleting an Azure Database for MariaDB server

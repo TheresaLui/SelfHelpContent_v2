@@ -12,6 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="4041ad80-1861-9011-a7a2-828a98325d20"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Mapping Data Flow Common Solutions

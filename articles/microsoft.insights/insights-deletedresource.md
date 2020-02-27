@@ -11,6 +11,7 @@
     supportTopicIds="32632992, 32633000"
     productPesIds="15693"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # I want to undelete an Application Insights resource
 

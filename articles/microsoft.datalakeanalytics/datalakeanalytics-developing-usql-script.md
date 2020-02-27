@@ -13,6 +13,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-developing-a-U-SQL-script"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Developing a U-SQL script

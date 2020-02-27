@@ -12,6 +12,7 @@
     productPesIds="16221"
     cloudEnvironments="public, Fairfax"
     articleId="48b86d06-43de-4a1c-b257-c3e70a159ab4"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Monitoring Azure Database for MySQL servers

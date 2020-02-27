@@ -11,7 +11,8 @@
     cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402633"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # I am having problems with my JavaScript SDK data
 
 ## **Recommended steps**
