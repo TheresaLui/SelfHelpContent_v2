@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32599861,32599878,32599924,32599864,32599866,32599868,32599870,32599903,32599925,32599936,32599937"
 productPesIds="15607"
 cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_Automation"
 />
 
 # Microsoft Monitoring Agent needs to be upgraded

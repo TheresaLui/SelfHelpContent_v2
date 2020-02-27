@@ -12,6 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax"
     articleId="923b40ea-1562-4f11-b0ed-513148c31966"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # My Windows VM is stuck in a reboot loop

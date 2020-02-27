@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="4ab68d82-016c-4c9a-885e-864157f2387a"
+	ownershipId="Compute_APIManagement"
 />
 
 # Product subscriptions management

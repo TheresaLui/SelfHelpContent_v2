@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="e4d9b31f-9aa2-4fcd-bb25-49d67dec5830"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Blob service usage issues

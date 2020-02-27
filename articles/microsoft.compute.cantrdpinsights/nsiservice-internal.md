@@ -13,6 +13,7 @@ supportTopicIds="32411835"
 resourceTags="windows"
 productPesIds="14749"
 cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Network Store Interface (NSI) Service is not running

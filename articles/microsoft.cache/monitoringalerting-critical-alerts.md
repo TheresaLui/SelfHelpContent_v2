@@ -12,6 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="aa50e14e-2b03-47bc-8a31-8d578829b030"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Critical alerts with Azure Cache for Redis

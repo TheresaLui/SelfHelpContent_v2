@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="2b6deeb3-490a-4d18-8a36-83ed65de8451"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # I received a provisioning or deployment timeout error

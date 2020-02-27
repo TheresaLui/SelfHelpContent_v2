@@ -14,7 +14,8 @@
     articleId="420298f8-b3fb-49f2-b359-f7cdf357901c"
     category="connectivity"
     searchTags="cannot connect, can't connect, connectivity, vm, rdp"
- />
+ 	ownershipId="Compute_VirtualMachines"
+/>
 
 # I can't connect to my VM
 

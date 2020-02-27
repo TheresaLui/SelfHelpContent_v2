@@ -13,6 +13,7 @@
 	articleId="cosmosdb-mongo-performance"
 	displayOrder="226"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Performance tips for Azure Cosmos DB MongoDB API

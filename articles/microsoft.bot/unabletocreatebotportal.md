@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="AD915D5F-EC1E-4235-817C-3A4CAA8505BC"
+	ownershipId="Compute_BotService"
 />
 # Unable to create a bot
 

@@ -12,6 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax"
     articleId="36f6066e-7571-4597-a637-94f532c6c498"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # My Windows VM is not starting

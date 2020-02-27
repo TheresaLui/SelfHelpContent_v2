@@ -13,6 +13,7 @@
 	articleId="cosmosdb-throttling"
 	displayOrder="241"
 	category="Throughput and Scaling"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Rate limiting in Azure Cosmos DB

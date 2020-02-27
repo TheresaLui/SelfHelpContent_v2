@@ -12,6 +12,7 @@
     productPesIds="15571,16342,16065,15797,16454,16470"
     cloudEnvironments="public, Mooncake, Fairfax"
     articleId="51356b1f-09f5-4a5b-85f4-dc96cea89c14"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve connection issue with your Linux VM

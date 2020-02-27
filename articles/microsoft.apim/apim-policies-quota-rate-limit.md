@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="5098b113-a3ea-45e1-a94c-91ddc3aa5855"
+	ownershipId="Compute_APIManagement"
 />
 
 # Quota and Rate Limit policies

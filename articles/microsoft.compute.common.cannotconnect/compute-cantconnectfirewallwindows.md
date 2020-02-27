@@ -12,6 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax"
     articleId="72a1d281-9123-421c-9cf6-90fed2618648"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Troubleshoot my VM firewall

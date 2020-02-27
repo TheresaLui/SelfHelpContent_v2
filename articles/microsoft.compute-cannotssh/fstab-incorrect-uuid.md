@@ -14,6 +14,7 @@
 	resourceTags="linux"
 	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public,mooncake, Fairfax"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Diagnostics on your Linux Virtual machine found a boot error

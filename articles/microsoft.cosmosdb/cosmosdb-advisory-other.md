@@ -13,6 +13,7 @@
 	articleId="cosmosdb-advisory-other"
 	displayOrder="40"
 	category="General Advisory"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB - General Advisory

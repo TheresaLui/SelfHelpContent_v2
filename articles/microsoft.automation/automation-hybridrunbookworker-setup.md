@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
 	articleId="700a5b2b-7aec-4816-bb4f-4cd60893b2c3"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Setup Hybrid Runbook Worker

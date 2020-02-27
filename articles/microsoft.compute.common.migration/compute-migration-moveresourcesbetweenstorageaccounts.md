@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="40da4d43-d95d-4037-8f0d-a2ef523e7c3c"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Move resources between storage accounts

@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="MoonCake"
     articleId="compute-reset-scaleset-password-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # How do I reset the password or ssh key on my scale set VMs

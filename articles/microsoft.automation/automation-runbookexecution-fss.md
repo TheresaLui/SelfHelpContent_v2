@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
     articleId="d6370ffa-48c7-48a5-9c4d-0dfd966ce672"
+	ownershipId="Compute_Automation"
 />
 
 # Troubleshoot Runbook Execution in Azure Automation

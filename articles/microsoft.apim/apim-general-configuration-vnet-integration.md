@@ -12,6 +12,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="d8e1b3c1-0a99-41ce-8a9e-6e7f3a06a64d"
+	ownershipId="Compute_APIManagement"
 />
 
 # APIM General Configuration and VNET Integration

@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="d5abe6f3-bf3c-476a-b618-bc7167653783"
+	ownershipId="Compute_APIManagement"
 />
 
 # API Management APIs performance is slow

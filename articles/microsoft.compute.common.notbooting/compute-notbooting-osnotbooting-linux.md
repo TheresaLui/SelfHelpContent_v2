@@ -12,6 +12,7 @@
     productPesIds="15571,15797,16454,16470,16342"
     cloudEnvironments="public, Fairfax"
     articleId="dfa46cbd-abb8-46e1-a56d-7710571dcafb"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My Linux VM is not booting

@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="a9463661-5253-4fbf-86a8-e4b379b1cf1c"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Azure Custom Script (CSE) extension issue

@@ -12,6 +12,7 @@
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public, Fairfax"
 	articleId="3d66057d-3c6b-4d12-9241-09830bfd7083"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # Diagnose and resolve Linux Virtual Machine GPU performance issues

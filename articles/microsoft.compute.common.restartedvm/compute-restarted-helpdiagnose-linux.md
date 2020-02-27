@@ -12,6 +12,7 @@
 	productPesIds="15797,15571,16454,16342,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="aea5b2c8-7393-49a1-b9eb-e32910bc0eaf"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Help diagnose my VM restart issue

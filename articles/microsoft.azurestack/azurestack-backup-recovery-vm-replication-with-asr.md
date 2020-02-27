@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="abdc2tg3-9652-401c-b984-f433c12f1e9f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Enable VM replication with Azure Site Recovery

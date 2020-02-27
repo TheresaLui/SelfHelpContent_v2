@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="80BDAA89-90EB-4C9B-A807-C3B7F7FD359F"
+	ownershipId="Compute_BotService"
 />
 # Managing App registration
 

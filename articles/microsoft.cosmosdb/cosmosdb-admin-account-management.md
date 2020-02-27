@@ -13,6 +13,7 @@
 	articleId="cosmosdb-admin-account-management"
 	displayOrder="20"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Manage an Azure Cosmos account

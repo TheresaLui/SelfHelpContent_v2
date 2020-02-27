@@ -13,6 +13,7 @@ supportTopicIds="32511135, 32411835, 32584250, 32584252"
 resourceTags="windows"
 productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
 cloudEnvironments="Public, Fairfax"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # Root Cause Analysis Summary:
 <!--issueDescription-->

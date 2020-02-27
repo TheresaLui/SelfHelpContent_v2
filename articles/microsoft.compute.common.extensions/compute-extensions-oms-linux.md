@@ -12,6 +12,7 @@
 	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="4c3f9765-562b-492b-9945-ac75d872add3"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Log Analytics (OMS) extension issue

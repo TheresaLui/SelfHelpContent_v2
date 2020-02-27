@@ -11,6 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="5ef27d91-3bc7-4e6a-8b6e-6dc56a722bcd"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # I can't connect to SQL Server Availability Group

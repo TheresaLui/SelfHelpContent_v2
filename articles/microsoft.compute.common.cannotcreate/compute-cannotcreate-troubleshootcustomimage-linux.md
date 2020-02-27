@@ -12,6 +12,7 @@
 	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="226e1a7a-d31d-4501-b094-7033313279b6"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Troubleshoot custom image deployment failures

@@ -11,6 +11,7 @@
 	productPesIds="16533"
 	cloudEnvironments="public, Fairfax"
 	articleId="cec8676f-8b41-43ac-8608-752f9480cf5b"
+	ownershipId="Compute_AppService"
 />
 
 # ASE Down\ASE Marked as Unhealthy or Suspended

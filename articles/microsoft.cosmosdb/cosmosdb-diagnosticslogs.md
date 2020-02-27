@@ -13,6 +13,7 @@
 	articleId="cosmosdb-diagnosticslogs"
 	displayOrder="261"
 	category="Monitoring"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Diagnostic logging in Azure Cosmos DB

@@ -12,6 +12,7 @@
               productPesIds="15571,15797,16454,16470"
               cloudEnvironments="public, Fairfax"
               articleId="509a4ecf-4efc-4ccb-b0bd-262bdc456b8f"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I need guidance with Serial console access

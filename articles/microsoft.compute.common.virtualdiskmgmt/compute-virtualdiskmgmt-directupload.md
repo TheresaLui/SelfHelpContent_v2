@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="compute-virtualdiskmgmt-directupload"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Resolving issues with Managed Disk direct upload

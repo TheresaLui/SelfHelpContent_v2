@@ -12,6 +12,7 @@
 	productPesIds="14749,14745"
 	cloudEnvironments="public, Fairfax"
 	articleId="6f06c7d9-7348-4d15-baf3-b00900fadb8d"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Diagnose and resolve Virtual Machine Network performance issues

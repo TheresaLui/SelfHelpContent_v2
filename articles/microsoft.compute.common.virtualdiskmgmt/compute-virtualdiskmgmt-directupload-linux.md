@@ -12,6 +12,7 @@
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public, Fairfax"
 	articleId="compute-virtualdiskmgmt-directupload-linux"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolving issues with Managed Disk direct upload

@@ -12,6 +12,7 @@
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public, Fairfax"
 	articleId="0d4dfc6e-b9cd-40b0-bf48-178144b00239"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Migration and Move/Move resources between resource groups

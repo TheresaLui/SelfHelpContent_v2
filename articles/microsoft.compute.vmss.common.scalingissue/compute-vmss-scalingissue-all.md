@@ -12,6 +12,7 @@
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax"
 	articleId="83305c9c-1097-4a09-88a6-f6bd85717bf5"
+	ownershipId="Compute_VirtualMachineScaleSets"
 />
 
 # Scaling issue with my scale set

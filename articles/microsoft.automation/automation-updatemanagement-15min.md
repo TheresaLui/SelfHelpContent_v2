@@ -12,6 +12,7 @@
     productPesIds="15607,15725"
     cloudEnvironments="public, Fairfax"
     articleId="26220297-1137-4a58-b966-f1572984c85b"
+	ownershipId="Compute_Automation"
 />
 
 # I enabled Update Management but it says "this can take a few minutes"

@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="compute-virtualdiskmgmt-diskperf"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Resolving issues with VM Disk Management

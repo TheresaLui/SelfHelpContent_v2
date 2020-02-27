@@ -13,6 +13,7 @@
 	articleId="cosmosdb-mongodbmigration"
 	displayOrder="224"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Import MongoDB data into CosmosDB

@@ -12,6 +12,7 @@
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax"
 	articleId="b73d4d1b-f1b4-4ae7-9526-a95853e97f95"
+	ownershipId="Compute_VirtualMachineScaleSets"
 />
 
 # Cannot update my scale set

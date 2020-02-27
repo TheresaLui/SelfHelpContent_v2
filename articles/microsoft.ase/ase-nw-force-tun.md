@@ -11,6 +11,7 @@
 	productPesIds="16533"
 	cloudEnvironments="public, Fairfax"
 	articleId="01908760-dde5-4e70-85c2-58f462c216e8"
+	ownershipId="Compute_AppService"
 />
 
 # ssl\Configuring Force-Tunneling

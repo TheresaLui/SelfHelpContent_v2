@@ -13,6 +13,7 @@
 	articleId="cosmosdb-mongodberrors"
 	displayOrder="223"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # MongoDB - Commonly faced errors
 

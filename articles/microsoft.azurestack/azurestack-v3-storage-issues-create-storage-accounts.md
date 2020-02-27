@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="99f52a95-46cd-4ab1-b4bf-9d199b522d71"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack storage accounts creation issues

@@ -12,6 +12,7 @@
 	productPesIds="14749,14745"
 	cloudEnvironments="public, Fairfax"
 	articleId="26d21b85-4966-4e96-b29e-0866f17f2bf6"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Troubleshoot Windows Update issues

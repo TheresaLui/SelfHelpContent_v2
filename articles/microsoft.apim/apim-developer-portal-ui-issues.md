@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="18d1b134-961c-49dd-9969-6787f342f871"
+	ownershipId="Compute_APIManagement"
 />
 
 # Developer portal UI issues

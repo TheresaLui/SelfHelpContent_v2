@@ -14,6 +14,7 @@
     resourceTags="windows"
     productPesIds="14749"
     cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Virtual machine was started in Safe Mode

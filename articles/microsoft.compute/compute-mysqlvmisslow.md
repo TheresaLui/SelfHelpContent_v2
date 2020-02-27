@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="1210311b-30a5-43ab-8138-65de3b300e06"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # My SQL Server VM is slow

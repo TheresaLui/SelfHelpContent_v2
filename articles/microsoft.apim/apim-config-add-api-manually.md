@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="409e98ff-7d61-49ab-bc12-bb31311d5be7"
+	ownershipId="Compute_APIManagement"
 />
 
 # Add API manually

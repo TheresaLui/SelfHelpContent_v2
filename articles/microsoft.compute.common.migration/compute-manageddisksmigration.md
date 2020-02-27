@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="28f95ead-efb5-4d3b-8e9d-b7eba8171b82"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Management/Managed disks migration

@@ -12,6 +12,7 @@
 	productPesIds="16513"
 	cloudEnvironments="public, Fairfax"
 	articleId="6b62696d-f161-4e39-bc88-40b309822107"
+	ownershipId="Compute_AppService"
 />
 
 # ASD/Advisory

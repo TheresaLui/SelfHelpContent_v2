@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="ff7ff5c7-3314-448c-ad01-0d8809d2caef"
+	ownershipId="Compute_Automation"
 />
 
 # Set up Automation to authenticate to Azure

@@ -12,6 +12,7 @@
     productPesIds="14749"
     cloudEnvironments="MoonCake, Fairfax"
 	articleId="f3316dfd-d01e-496d-afc3-41618f6155a9"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # I can't connect to SQL Server in my VM

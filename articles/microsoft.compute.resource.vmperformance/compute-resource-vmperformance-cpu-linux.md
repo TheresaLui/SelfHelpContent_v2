@@ -12,6 +12,7 @@
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public, Fairfax"
 	articleId="9f6417ef-5d01-4c46-8c46-fc5ad86e3869"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # Diagnose and resolve Linux Virtual Machine CPU performance issues
