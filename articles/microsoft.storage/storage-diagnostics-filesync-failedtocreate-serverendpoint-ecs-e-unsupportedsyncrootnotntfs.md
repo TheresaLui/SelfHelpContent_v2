@@ -22,7 +22,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Server endpoint creation failed under the Storage Sync Service resource  **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code -2134375640 or 0x80c80328**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs if the server endpoint path specified is not an NTFS volume.
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To resolve thsi issue, verify the server endpoint path specified is a locally attached NTFS volume. Note, Azure File Sync does not support mapped drives as a server endpoint path.
 
