@@ -11,7 +11,7 @@
 	supportTopicIds="32584343"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Microsoft Information Protection SDK - Education

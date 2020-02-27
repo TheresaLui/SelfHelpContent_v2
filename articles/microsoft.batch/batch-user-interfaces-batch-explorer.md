@@ -11,7 +11,7 @@
     supportTopicIds="32635063"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # User interfaces - Batch Explorer

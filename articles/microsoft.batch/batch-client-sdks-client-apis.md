@@ -11,7 +11,7 @@
     supportTopicIds="32635064"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Client SDKs - Client APIs

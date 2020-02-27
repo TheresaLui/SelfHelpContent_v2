@@ -11,7 +11,7 @@
 	supportTopicIds="32584342"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # RMS Connector - Education

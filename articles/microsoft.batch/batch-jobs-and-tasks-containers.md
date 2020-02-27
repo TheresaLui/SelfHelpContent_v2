@@ -11,7 +11,7 @@
     supportTopicIds="32635092"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Jobs and tasks - Task containers

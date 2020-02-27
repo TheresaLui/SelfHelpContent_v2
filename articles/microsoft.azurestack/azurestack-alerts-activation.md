@@ -10,7 +10,7 @@
     supportTopicIds="32630572"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-alerts-activation"
 />
 

@@ -11,7 +11,7 @@
 	supportTopicIds="32629560"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure Information Protection - Labels are not being applied as expected

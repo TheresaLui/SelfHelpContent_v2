@@ -11,7 +11,7 @@
 	supportTopicIds="32584345"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # RMS Connector - Exchange

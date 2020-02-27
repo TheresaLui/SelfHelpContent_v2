@@ -10,7 +10,7 @@
     supportTopicIds="32663929"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-security-rbac"
 />
 
