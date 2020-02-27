@@ -11,7 +11,7 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "Service that hosts domain controllers in Azure and manages a domain to lift apps to the cloud.",
+  "shortDescription": "Azure Active Directory Domain Services provides managed domain services such as domain join, group policy, LDAP, Kerberos, NTLM authentication etc. ",
   "longDescription": "",
   "productLink1": "https://docs.microsoft.com/en-us/azure/active-directory-domain-services/index",
   "productLinkName1": "Azure AD Domain Services documentation",
