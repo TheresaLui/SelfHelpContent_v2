@@ -16,7 +16,8 @@
 
 # How do I set up eventing on my ML workspace?
 
-## **Recommended steps**
+## **Recommended Documents**
+
 Follow the documentation to set up eventing & automation around Azure ML scenarios:
 
 * EventGrid: https://docs.microsoft.com/azure/machine-learning/how-to-use-event-grid 
