@@ -42,6 +42,10 @@ Cause: The conditional access or multi-factor authentication (MFA) policy is bei
 
 Solution: Use a conditional access policy and exempt the HDInsight clusters from MFA. For more information, see [interaction_required](https://docs.microsoft.com/azure/hdinsight/domain-joined/domain-joined-authentication-issues#interaction_required).
 
+**Error: HiveMetastoreSchemaInitializationFailedErrorCode**
+
+Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
+
 **A service outage**
 
 * Check [Azure Status](https://status.azure.com/status) for any potential outages or service issues.
