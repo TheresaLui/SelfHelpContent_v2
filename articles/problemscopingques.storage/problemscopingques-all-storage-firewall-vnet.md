@@ -25,8 +25,52 @@
     },
     "formElements": [
         {
-            "id": "problem_start_time",
+
+            "id": "Connection_Topology",
+            "visibility": "null",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Where is the connection source located?",
+            "watermarkText": "Choose the appropriate topology",
+            "dropdownOptions": [
+                {
+                    "value": "On_Azure_Cloud",
+                    "text": "On Azure Cloud"
+                },
+                {
+                    "value": "On_Premise",
+                    "text": "On Premise"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "On Non-Azure Cloud"
+                }
+            ],
+            "required": true
+        }
+        {
+
+           "id": "resourceGroup",
+            "order": 4,
+            "visibility": "Connection_Topology == On_Azure_Cloud",
+            "controlType": "dropdown",
+            "displayLabel": "Provide the Resource Group of the source",
+            "watermarkText": "Filter by name",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other or none of the above"
+                }
+
+        }
+        {
+            "id": "problem_start_time",
+            "order": 100,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
             "required": true,
@@ -34,7 +78,7 @@
         },
         {
             "id": "error_code_dropdown",
-            "order": 2,
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
@@ -81,7 +125,7 @@
         },
         {
             "id": "request_id",
-            "order": 3,
+            "order": 30,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
@@ -91,7 +135,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 40,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -99,7 +143,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 7,
+            "order": 70,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> issues."
         }
