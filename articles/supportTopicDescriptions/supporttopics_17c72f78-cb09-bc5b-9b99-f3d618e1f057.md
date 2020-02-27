@@ -75,6 +75,14 @@
       "searchTags": "Error while connecting to the server;Error;connecting to server",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e33905a1-7fc1-cd80-b21a-3c5dab250e8b",
+      "longDescription": "",
+      "shortDescription": "You received the (too many connections) error message.",
+      "searchTags": "too many connections;error message ;number of connection;connection error;connection limit",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
