@@ -22,7 +22,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 Server endpoint creation failed under the Storage Sync Service resource **<!--$storageSyncServiceName-->[storageSyncServiceName]<!--/$storageSyncServiceName-->** due to **error code -2160590967 or 0x80c80077**. This error occurred between **<!--$startTime-->[startTime]<!--/$startTime-->** and **<!--$endTime-->[endTime]<!--/$endTime-->**.<br/><br/>This error occurs if the server endpoint path contains orphaned tiered files.
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To resolve this issue, 
 
