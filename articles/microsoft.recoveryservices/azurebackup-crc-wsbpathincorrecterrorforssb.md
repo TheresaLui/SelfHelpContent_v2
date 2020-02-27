@@ -1,7 +1,7 @@
 <properties
 	pageTitle="WSBPathIncorrectErrorForSSB"
 	description="WSBPathIncorrectErrorForSSB"
-	infoBubbleText="Failure in parsing the config for the backup extension."
+	infoBubbleText="Windows Server failed to take system state backup because a system writer reported an invalid path."
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
