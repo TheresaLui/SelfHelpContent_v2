@@ -80,7 +80,7 @@
                 "dependsOn": "resourceGroup_list",
                 "uri": "/subscriptions/{subscriptionId}/providers?api-version=2019-10-01",
                 "jTokenPath": "value",
-                "textProperty": "name",
+                "textProperty": "namespace",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
 		"valuePropertyRegex": "[^/]+$",
