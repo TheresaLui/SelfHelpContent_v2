@@ -16,8 +16,7 @@
 
 # How do I deploy to ACI or AKS?
 
-## **Recommended steps**
-Follow the documentation to deploy a model to the following compute targets:
+## **Recommended Documents**
 
-* AKS: https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-kubernetes-service
-* ACI: https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-container-instance
+* [How to deploy AKS](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-kubernetes-service)
+* [How to deploy ACI](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-azure-container-instance)
