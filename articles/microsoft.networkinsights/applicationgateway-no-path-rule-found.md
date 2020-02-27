@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # We have detected a potential issue with a path-based rule configured on your Application Gateway

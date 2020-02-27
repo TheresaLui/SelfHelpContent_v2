@@ -11,6 +11,7 @@
     productPesIds="15922"
     cloudEnvironments="public, Fairfax"
     articleId="ce34067e-61ad-41ca-88b3-8134937b70df"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway - Connectivity

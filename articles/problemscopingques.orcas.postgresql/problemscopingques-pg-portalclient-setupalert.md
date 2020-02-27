@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-portalclient-setupalert"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Portal, Client Tools and APIs - Setting up Monitoring and Alerts
 ---

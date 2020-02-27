@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.trainingandexperimentation.estimators"
 	selfHelpType="generic"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues with estimators

@@ -11,6 +11,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="cd1e113a-bebb-4abf-bce7-4fdaf2916645"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # tools/service fabric explorer

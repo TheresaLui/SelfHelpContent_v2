@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="indexer-service-limits"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue or question on indexer service limits
 

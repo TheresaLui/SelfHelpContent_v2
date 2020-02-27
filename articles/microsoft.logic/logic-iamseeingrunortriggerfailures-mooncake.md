@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="logic-iamseeingrunortriggerfailures-mooncake"
+	ownershipId="Compute_LogicApp"
 />
 
 # I am seeing run or trigger failures

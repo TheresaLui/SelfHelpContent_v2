@@ -12,6 +12,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="6e282189-dfee-4c57-b1ef-3f6cce817e33"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Partner or Provider Related Help

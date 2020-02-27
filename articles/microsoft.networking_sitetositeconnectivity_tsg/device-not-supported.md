@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="246ceea4-d39a-40ae-b844-3b2d10b0b31b"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Device is not supported

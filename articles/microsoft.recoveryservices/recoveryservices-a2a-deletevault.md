@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="408af83e-905f-417d-8792-11b040f75363"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Delete a vault in A2A scenario

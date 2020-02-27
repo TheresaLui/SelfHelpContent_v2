@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="b7ae1f67-4d26-411d-a672-72234962e3f0"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Loopings

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="bfffa3c0-fb07-4a00-8341-3885edb8d7d8"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check whether there is an NSG on the gateway subnet

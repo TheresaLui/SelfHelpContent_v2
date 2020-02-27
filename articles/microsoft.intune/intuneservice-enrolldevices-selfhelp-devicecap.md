@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="fd0ee168-b96a-493f-8a41-098cd5b87315"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # What does "device cap reached" mean?

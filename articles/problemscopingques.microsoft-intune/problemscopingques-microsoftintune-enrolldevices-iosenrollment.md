@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="6a980956-8f4d-45bf-811a-03a30719b024"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Enroll Devices - iOS Enrollment
 ---

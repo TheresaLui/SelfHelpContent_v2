@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-scaleresource-price_purchase"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Scaling a resource - Pricing tiers and purchasing model (vCores, storage, etc.)
 ---

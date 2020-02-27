@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	cloudEnvironments="public, Fairfax"
 	articleId="cognitive-search-built-in-skill"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue with a built-in cognitive skill

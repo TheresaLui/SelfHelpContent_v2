@@ -12,6 +12,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax"
 	articleId="abbda638-0267-4223-b95b-f35e9a35dde1"
+	ownershipId="Compute_AppService"
 />
 
 # availability, performance, and application issues/Availability, Performance, and Application Issues/Web app experiencing high CPU

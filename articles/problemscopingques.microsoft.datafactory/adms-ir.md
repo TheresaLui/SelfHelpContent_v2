@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     articleId="c39fcac9-2658-490f-9888-e78d2b526dee"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Movement Integration Runtime Issue

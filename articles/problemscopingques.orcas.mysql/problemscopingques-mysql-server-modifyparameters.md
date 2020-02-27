@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-server-modify_parameters"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Server Parameters - Modify server parameters
 ---

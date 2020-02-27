@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-auth-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Authorization Issues
 ---

@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="problemscopingquesportaldashboard"
+	ownershipId="Compute_AzurePortal"
 />
 # Questions for Azure Portal Dashboard Issues
 ---

@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # The Virtual Network Gateway has high bandwidth utilization
 <!--issueDescription-->

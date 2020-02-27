@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="379e6c2e-980b-45a3-a272-b88b13e39d08"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Reprotect VM after failover

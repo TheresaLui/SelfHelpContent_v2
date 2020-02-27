@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-backup-restore-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # Application Backup and Restore
 ---

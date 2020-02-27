@@ -13,7 +13,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Microsoft Azure is unable to detect prefixes advertised from the customer edge <br>
 <!--/issueDescription-->
 A peering prefix is part of a BGP route used to advertise network reachability <br>

@@ -13,6 +13,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="operationalinsights-installwindowsagent-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Installation of Windows Agent

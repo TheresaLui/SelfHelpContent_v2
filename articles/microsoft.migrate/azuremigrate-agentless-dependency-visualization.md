@@ -12,6 +12,7 @@
     productPesIds="16348"
     cloudEnvironments="public, Fairfax"
     articleId="b9c6cb48-0995-4ac5-82f1-fa6582eddf77"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Agentless dependency analysis

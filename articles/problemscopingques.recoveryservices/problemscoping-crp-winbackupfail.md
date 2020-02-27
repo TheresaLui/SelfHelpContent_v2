@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	 articleId="950d1291-6069-4bb8-b439-b817f20deccd"
+	ownershipId="Compute_ComputePlatform"
 />
 # Questions Azure VM backup failure for windows
 ---

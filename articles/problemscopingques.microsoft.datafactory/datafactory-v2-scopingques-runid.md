@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="DataFactoryRunIdScopingQues"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory Pipeline and Trigger Run

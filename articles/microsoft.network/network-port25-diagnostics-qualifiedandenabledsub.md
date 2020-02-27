@@ -14,6 +14,7 @@ supportTopicIds="32592839, 32640601"
 resourceTags="windows"
 productPesIds="15526, 15660"
 cloudEnvironments="Public, Fairfax"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # This subscription has been evaluated and enabled to send mail over TCP port 25

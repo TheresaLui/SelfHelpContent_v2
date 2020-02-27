@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="9d6e009a-293a-45ff-839c-1186dca5978f"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Conditions

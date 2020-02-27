@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="c04d7e62-3b60-4eb0-bac3-86067fedf102"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Upgrade Service Not Reachable

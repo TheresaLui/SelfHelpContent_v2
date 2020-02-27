@@ -12,6 +12,7 @@
     productPesIds="16757"
     cloudEnvironments="public, Fairfax"
 	articleId="bastion-connectivity-failure-rdp"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Failure to connect using RDP

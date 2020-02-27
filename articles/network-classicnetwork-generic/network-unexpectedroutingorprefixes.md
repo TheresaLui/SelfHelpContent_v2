@@ -11,6 +11,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="558b7e8d-7cc4-452a-b3e3-2d9f98eb56dc"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # connectivity/unexpected routing or prefixes

@@ -11,6 +11,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax"
 	articleId="66f50279-0554-4182-a96c-b706ef0caddc"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # vpn tunnel is down or never connected

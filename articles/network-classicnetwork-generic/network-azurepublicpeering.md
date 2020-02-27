@@ -11,6 +11,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="7d1ea75a-8efd-48e9-855a-ae4a1290c8a4"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Connectivity/Azure Public Peering

@@ -12,6 +12,7 @@
     productPesIds="16123"
     cloudEnvironments="public, Fairfax"
     articleId="relay-errors-arm-api-template"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Azure Relay

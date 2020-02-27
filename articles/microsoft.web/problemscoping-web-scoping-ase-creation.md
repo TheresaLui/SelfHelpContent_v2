@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="22873c27-8f6c-4cee-82df-e50eaacdc600"
+	ownershipId="Compute_AppService"
 />
 
 # ASE creation

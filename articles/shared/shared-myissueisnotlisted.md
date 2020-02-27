@@ -12,6 +12,7 @@
 	displayOrder=""
 	cloudEnvironments="public, Blackforest, Fairfax"
  	articleId="b59f3b5b-b810-461b-84c5-25d28e49e42e"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # My issue is not listed

@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-performanceandqueryexecution-specificerrorsorexceptions.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Specific errors or exceptions

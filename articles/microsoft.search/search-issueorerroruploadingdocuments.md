@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	cloudEnvironments="public, Fairfax"
 	articleId="07fdc3ea-3445-495a-8ae6-f33ff93a3f37"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue indexing documents using the REST API

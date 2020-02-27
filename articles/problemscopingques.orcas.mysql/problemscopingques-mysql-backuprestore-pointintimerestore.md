@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-backuprestore-pointintime_restore"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Backup, Restore and Business Continuity - Point in Time Restore
 ---

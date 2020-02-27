@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="39034396-bdb0-426d-84e0-c7386d72afd2"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Run a test failover from  Azure to Azure

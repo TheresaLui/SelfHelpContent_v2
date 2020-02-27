@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="sql-datasource"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue indexing a SQL data source

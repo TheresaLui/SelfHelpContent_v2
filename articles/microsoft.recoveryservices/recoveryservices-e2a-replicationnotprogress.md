@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="24c58cd6-d0e3-4665-8ea3-89757767e4c5"
+	ownershipId="Compute_SiteRecovery"
 />
 # Replication not progressing when replicating VMs on Hyper-V hosts managed by SCMM
 

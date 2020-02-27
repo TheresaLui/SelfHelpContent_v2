@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-connectivity-unavailable"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Database Connectivity - Database is currently unavailable
 ---

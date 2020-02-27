@@ -12,6 +12,7 @@
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-availabilityandconnectivity-mydatabasewasreportedasunavailableresourcehealth-mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # SQL Database Resource Health Issues: Unavailability

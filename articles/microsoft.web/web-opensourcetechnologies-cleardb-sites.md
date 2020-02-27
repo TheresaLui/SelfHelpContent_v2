@@ -12,6 +12,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="0c0741c9-00a1-49e2-b642-c7d95423c2d4"
+	ownershipId="Compute_AppService"
 />
 
 # Open Source Technologies/ClearDB

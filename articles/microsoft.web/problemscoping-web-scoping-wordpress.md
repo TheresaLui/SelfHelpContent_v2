@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="746b4c1e-be52-4ad7-8b99-8236841af287"
+	ownershipId="Compute_AppService"
 />
 
 # WordPress

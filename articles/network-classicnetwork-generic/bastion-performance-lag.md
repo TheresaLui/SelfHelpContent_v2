@@ -12,6 +12,7 @@
     productPesIds="16757"
     cloudEnvironments="public, Fairfax"
 	articleId="bastion-performance-lag"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Have a lag while using my RDP or SSH session

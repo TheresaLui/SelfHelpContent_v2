@@ -9,6 +9,7 @@
 	productPesIds="16533"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="Compute_AppService"
 />
 # Developer Portal UI issue
 ---

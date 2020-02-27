@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="9d7bb66b-c9c0-47fa-bbcf-636e88c8c090"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Restore of files and folders with Azure Backup Agent fails

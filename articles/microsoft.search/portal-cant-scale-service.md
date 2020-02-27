@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="portal-cant-scale-service"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issues with Azure Cognitive Search portal search explorer

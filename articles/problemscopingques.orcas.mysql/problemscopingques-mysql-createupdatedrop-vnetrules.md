@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-createupdatedrop-vnet_rules"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Create Update and Drop Resources - Virtual network rules
 ---

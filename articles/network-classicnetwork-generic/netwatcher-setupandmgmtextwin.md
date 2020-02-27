@@ -11,6 +11,7 @@
 	productPesIds="16160"
 	cloudEnvironments="public, Fairfax"
 	articleId="1a4408fc-b132-4d8c-8baa-0f0b78022843"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # configurationandsetup/networkwatcherextensionforwindows

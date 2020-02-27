@@ -11,6 +11,7 @@
 	productPesIds="15791"
 	cloudEnvironments="public, Fairfax"
 	articleId="95c2b444-b2e7-4f64-a77c-139545edc1c8"
+	ownershipId="Compute_LogicApps"
 />
 
 # configuration and management/general configuration and management issues

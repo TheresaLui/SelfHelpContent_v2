@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="skillset-attach-cs"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue attaching cognitive services resource

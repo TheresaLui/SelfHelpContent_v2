@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="a3b5d06a-c424-48ab-8e13-e3441bc0c44f"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Idle Timeout

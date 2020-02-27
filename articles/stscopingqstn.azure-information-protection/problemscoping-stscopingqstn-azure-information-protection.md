@@ -8,6 +8,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="786e215c-4df4-4f87-9f13-daa49b73b0e4"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 #Important
 

@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Fairfax"
     articleId="644cd5e5-d19b-476f-b2e5-4fb1461636b2"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Service Map and Dependency agent Overview

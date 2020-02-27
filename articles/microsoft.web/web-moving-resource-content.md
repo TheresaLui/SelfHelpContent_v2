@@ -10,6 +10,7 @@
 	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public, Fairfax"
 	articleId="4f1406d4-1767-4650-8ff5-2a61d013989b"
+	ownershipId="Compute_AppService"
 />
 
 # Moving resources

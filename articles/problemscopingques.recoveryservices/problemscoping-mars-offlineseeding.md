@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
     	 articleId="15e2bd99-2406-4639-b757-f8517ff0383d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for offline backup or seeding issues
 ---

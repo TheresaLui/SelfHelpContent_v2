@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-migrating-issues"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Migrating to Azure - Issues with migration & Migration tools
 ---

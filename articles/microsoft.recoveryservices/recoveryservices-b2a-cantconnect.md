@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="6262174c-b147-4df1-9e30-94ba7693c0b4"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Unable to connect to VM after failover - Hyper-V to Azure

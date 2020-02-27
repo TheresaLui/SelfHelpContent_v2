@@ -11,6 +11,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="15f58cef-f0a4-4fe8-a5b4-f294fa130154"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # managment/how to de-provision a circuit

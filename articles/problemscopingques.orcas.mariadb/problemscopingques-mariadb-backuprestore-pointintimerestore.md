@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-backuprestore-pointintime_restore"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Backup, Restore and Business Continuity - Point in Time Restore
 ---

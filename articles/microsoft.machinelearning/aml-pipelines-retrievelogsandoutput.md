@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.pipelines.retrievelogsandoutput"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Retrieving logs, snapshots, and other output from Azure ML pipeline steps

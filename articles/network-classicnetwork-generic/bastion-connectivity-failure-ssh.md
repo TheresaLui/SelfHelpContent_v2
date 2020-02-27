@@ -12,6 +12,7 @@
     productPesIds="16757"
     cloudEnvironments="public, Fairfax"
 	articleId="bastion-connectivity-failure-ssh"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Failure to connect using SSH

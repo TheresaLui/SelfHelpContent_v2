@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-backuprestore-recover_droppedresource"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Backup, Restore and Business Continuity - Recover A Dropped Resource
 ---

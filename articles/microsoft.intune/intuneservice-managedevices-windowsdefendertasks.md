@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="ced111e2-91ae-4367-83ff-8783c915eb2c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage Devices - Windows Defender Tasks

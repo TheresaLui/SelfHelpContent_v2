@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="6e992ef9-4cd3-4640-8bf0-e6860e14c5e9"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # IoT Hub - IoT Security Alerts in IoT Hub

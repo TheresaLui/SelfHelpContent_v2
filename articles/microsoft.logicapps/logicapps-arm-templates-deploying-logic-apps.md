@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="06b842dd-fbaf-489c-83d7-abb6a7f0cffd"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Deploying Logic Apps

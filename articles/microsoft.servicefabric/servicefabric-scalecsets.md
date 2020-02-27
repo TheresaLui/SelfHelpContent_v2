@@ -11,6 +11,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="73508495-93d1-42f5-afae-07d5f685d6cd"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # cluster/scalesets

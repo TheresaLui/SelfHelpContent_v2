@@ -13,6 +13,7 @@
     productPesIds="16459"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
     articleId="715f7802-5471-4db4-8a72-c31c1248a015"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Recover deleted Container

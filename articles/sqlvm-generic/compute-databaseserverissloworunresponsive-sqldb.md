@@ -11,6 +11,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public"
 	articleId="4de5ebe0-a2d2-4047-afaa-d8f5b8a4a380"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # performance/database server is slow or unresponsive

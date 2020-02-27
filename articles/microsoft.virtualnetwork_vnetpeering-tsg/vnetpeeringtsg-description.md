@@ -8,6 +8,7 @@
 	selfHelpType="TSG_Description"
 	cloudEnvironments="Public"
 	articleId="d2cea86c-7fca-4acc-8d9b-c07073ff3930"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Virtual Network Peering Troubleshooting Guide

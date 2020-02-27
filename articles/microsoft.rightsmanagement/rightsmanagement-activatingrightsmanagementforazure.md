@@ -11,6 +11,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="b5f47d85-efab-4bb8-9d9b-9637403d3dc2"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # activating rights management for azure

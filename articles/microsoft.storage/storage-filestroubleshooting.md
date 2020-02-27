@@ -12,6 +12,7 @@
     productPesIds="16460"
     cloudEnvironments="public"
     articleId="84a62987-f85c-4757-b671-0d2a30280fba"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure Files issues

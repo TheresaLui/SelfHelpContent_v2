@@ -12,6 +12,7 @@
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-azureactivedirectoryauthentication.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Azure Active Directory Authentication
 

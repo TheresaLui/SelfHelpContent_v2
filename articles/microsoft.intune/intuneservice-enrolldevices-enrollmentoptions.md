@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="c4d23d97-9af7-440a-8f38-532825a4fb13"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Enroll Devices - Enrollment options

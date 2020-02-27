@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16843"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="CloudNet_PrivateLink"
 />
 
 # How to configure Private Endpoint?

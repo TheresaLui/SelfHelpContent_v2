@@ -9,7 +9,8 @@
   articleid="table storage-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="StorageMediaEdge_StorageQueues"
+/>
 # Support Topic Descriptions for 8418caaf-4634-b4c0-d9b6-27c266b6b67b
 ---
 {

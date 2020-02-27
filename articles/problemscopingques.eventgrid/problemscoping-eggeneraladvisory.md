@@ -13,6 +13,7 @@ productPesIds="16263"
 cloudEnvironments="public, Fairfax"
 articleId="eg-issue-not-listed"
 schemaVersion="1"
+	ownershipId="AzureEventGrid_Topics"
 />
 # General Advisory questions
 ---

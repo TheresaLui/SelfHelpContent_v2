@@ -9,6 +9,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="87cabeeb-a572-421d-bc71-5ba6a30a72b4"
+	ownershipId="AzureIot_IotHub"
 />
 # 3rd party MQTT client
 ---

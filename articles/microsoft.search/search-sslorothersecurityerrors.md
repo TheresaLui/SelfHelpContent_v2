@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	cloudEnvironments="public, Fairfax"
 	articleId="search-sslorothersecurityerrors"	
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # SSL or other security errors

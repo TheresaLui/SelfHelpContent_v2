@@ -12,6 +12,7 @@
     productPesIds="16348"
     cloudEnvironments="public, Fairfax"
     articleId="f1a6ef2d-defb-4b92-a779-de3a118e6dd1"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Deploying the replication appliance (Configuration Server)

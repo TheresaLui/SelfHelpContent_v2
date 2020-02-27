@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="700961cc-d014-4545-be70-2069dc2e0106"
+	ownershipId="CloudNet_PrivateLink"
 />
 
 # Private Link - configuration 

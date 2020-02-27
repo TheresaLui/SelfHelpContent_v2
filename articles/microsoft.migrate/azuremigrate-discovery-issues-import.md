@@ -12,6 +12,7 @@
     productPesIds="16348"
     cloudEnvironments="public, Fairfax"
     articleId="3a672f3a-1f25-4ba7-92f8-cecd50db4ebc"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Discovery issues with import

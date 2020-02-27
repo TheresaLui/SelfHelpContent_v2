@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e13d08ec-c294-43c1-a9c3-d20a6eed9c76"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Where can I find out about the weekly updates to Intune?

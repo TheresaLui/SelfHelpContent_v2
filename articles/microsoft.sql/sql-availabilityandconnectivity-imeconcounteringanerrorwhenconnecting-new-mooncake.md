@@ -12,6 +12,7 @@
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-availabilityandconnectivity-imeconcounteringanerrorwhenconnecting-new-mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Diagnose and resolve issues connecting to Azure SQL Database

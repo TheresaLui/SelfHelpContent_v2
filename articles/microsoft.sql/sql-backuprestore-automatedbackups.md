@@ -12,6 +12,7 @@
 	cloudEnvironments="public,blackForest,fairfax"
 	resourceTags="servers, databases"
 	articleId="sqldb-selfhelp-solutions-backuprestore-automatedbackups"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Issues with SQL Database backup, restore, automated backups or point in time restore

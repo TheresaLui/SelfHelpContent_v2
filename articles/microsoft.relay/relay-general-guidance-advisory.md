@@ -12,6 +12,7 @@
     productPesIds="16123"
     cloudEnvironments="public, Fairfax"
     articleId="relay-general-guidance-advisory"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Azure Relay

@@ -12,7 +12,8 @@
 	productPesIds=""
 	supportTopicIds=""
     cloudEnvironments="MoonCake"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Connectivity Issue: Connection Timed out
 

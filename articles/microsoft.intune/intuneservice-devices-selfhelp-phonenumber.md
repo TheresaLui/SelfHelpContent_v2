@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e25af735-a177-4583-b427-65c645583764"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Why are phone numbers not collected from all devices?

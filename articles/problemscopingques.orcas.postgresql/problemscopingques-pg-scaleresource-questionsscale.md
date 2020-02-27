@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-scaleresource-questionsscale"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scaling a resource - Questions about scaling a resource
 ---

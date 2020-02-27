@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="f80d6bac-9689-42d0-85c6-c54745812656"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Intune says that the license type is invalid and/or it cannot recognize the username.

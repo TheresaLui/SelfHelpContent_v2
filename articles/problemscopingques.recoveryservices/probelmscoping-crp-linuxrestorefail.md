@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	       articleId="f9f3db64-ad6e-4cab-9daf-f76a21f401b0"
+	ownershipId="Compute_VirtualMachines"
 />
 # Questions Azure VM Restore failure for Linux 
 ---

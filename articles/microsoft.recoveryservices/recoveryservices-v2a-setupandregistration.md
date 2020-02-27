@@ -12,6 +12,7 @@
     productPesIds="16370"
     cloudEnvironments="public, Fairfax"
     articleId="224ee513-b987-463d-891d-1bc9b154c8b1"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Configuration server issues and queries - VMware/Physical to Azure

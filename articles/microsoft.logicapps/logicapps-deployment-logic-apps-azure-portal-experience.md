@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="7584c67c-31eb-4292-9e49-c837e5169ee1"
+	ownershipId="Compute_LogicApps"
 />
 
 # Deployment Logic Apps and API Connections - Deployment via ARM deployment and the Portal

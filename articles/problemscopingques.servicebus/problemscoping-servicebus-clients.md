@@ -13,6 +13,7 @@ productPesIds="13186"
 cloudEnvironments="public, Fairfax"
 articleId="sb-client-libraries-question"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Questions about service bus client library
 ---

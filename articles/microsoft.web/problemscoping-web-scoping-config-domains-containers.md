@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="9314bc56-da73-49ab-951c-93cba03e0ab4"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring custom domain names

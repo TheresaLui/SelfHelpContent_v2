@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-replication-metrics_alerts"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Replication - Metrics and alerts
 ---

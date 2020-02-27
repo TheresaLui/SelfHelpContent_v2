@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-portalandclienttools-azuredatastudio.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Troubleshooting Azure Data Studio

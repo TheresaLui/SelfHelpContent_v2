@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="279514ca-0ada-4391-8e9a-d3c287111dd9"
+	ownershipId="Compute_SiteRecovery"
 />
 # Fail to enable protection for Hyper-V VM 
 ---

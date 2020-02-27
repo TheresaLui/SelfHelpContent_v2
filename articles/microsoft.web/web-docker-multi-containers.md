@@ -12,6 +12,7 @@
 	productPesIds="16333"
 	cloudEnvironments="public, Fairfax"
     articleId="c6ae5a41-262a-4cbc-ba13-e711c4395d30"
+	ownershipId="Compute_AppService"
 />
 
 # Docker Containers/Multi-containers

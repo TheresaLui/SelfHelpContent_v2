@@ -12,6 +12,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="0504dbbd-eb4f-4f70-b842-b39882e3ea38"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Configure ExpressRoute Peerings

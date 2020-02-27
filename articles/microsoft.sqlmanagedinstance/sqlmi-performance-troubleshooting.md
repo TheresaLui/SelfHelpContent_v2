@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="c4abfa00-1b0f-48cd-adc1-256665fb436b"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Query Performance troubleshooting

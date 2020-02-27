@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-perf-resource_consumption"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Performance and Query Execution - Unexpected increase in resource consumption (CPU, Memory, I/O)
 ---

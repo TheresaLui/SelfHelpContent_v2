@@ -12,6 +12,7 @@
     productPesIds="16922"
     cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="creating-an-azure-firewall-policy"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Create an Azure Firewall Policy
 

@@ -13,6 +13,7 @@ productPesIds="16123"
 cloudEnvironments="public, Fairfax"
 articleId="relay-generic"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # General Advisory Questions
 ---

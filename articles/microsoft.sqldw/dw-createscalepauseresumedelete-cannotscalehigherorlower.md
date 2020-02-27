@@ -12,6 +12,7 @@
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-cannotscalehigherorlower.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Cannot scale higher or lower
 

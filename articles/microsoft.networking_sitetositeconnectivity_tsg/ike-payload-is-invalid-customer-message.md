@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds="32591158,32584882,32584881"
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" />
+cloudEnvironments="Public" 	ownershipId="CloudNet_AzureVPNGateway"
+/>
 
 # Incorrect IKE Payload
 

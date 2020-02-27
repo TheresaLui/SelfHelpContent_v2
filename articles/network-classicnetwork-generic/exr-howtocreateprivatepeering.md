@@ -11,6 +11,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="264edc48-3960-4b11-8378-e47bfed79ac3"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # configuration and setup/how to create and modify azure private peering 

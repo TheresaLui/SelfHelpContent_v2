@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-backuprestore-automated_backups"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Backup, Restore and Business Continuity - Automated backups
 ---

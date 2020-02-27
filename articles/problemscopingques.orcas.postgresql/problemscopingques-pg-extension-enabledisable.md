@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-extension-enabledisable"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Extensions - Enable or disable extensions
 ---

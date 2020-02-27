@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-backuprestore-recover_droppedresource"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Backup, Restore and Business Continuity - Recover A Dropped Resource
 ---

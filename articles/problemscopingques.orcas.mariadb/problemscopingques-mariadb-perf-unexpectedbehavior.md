@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-perf-unexpected_behavior"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Performance and Query Execution - Unexpected behavior, errors or exceptions executing a query
 ---

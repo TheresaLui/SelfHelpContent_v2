@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-replication-metrics_alerts"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Replication - Metrics and alerts
 ---

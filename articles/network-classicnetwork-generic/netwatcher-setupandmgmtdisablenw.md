@@ -11,6 +11,7 @@ description="nwsetupandmgmt/disablenw"
 	productPesIds="16160"
 	cloudEnvironments="public, Fairfax"
 	articleId="73f823ac-a1d3-4480-af88-3d877c7e8bf8"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # nwsetupandmgmt/disablenw

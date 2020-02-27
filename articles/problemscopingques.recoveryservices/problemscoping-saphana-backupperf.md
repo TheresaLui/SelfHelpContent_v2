@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="f2bf8fdc-5f56-486d-9f2a-8770371e3d8d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Scoping questions for SAP Hana backup performance
 ---

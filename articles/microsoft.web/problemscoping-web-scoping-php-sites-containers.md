@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="aff7-4810-9edf-8bbeccf38e7c"
+	ownershipId="Compute_AppService"
 />
 
 # PHP

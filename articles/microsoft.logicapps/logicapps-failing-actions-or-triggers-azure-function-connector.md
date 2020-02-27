@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="3d1c09b6-2aab-40be-ae8b-92fed9e7ffd9"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - Azure Function

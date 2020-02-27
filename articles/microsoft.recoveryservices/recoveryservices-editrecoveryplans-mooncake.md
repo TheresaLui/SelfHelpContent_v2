@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="MoonCake, Fairfax"
 	articleId="e8c19e2b-c938-4db6-8170-15e547762ae6"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # How to migrate virtual machines to Azure

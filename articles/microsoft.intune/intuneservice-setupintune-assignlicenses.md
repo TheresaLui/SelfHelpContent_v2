@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="dd50c53c-4ca6-46fc-bf1e-71e6e53f507d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Setup Intune - Assign Licenses

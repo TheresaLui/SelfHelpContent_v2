@@ -9,6 +9,7 @@
 	productPesIds="16932"
 	cloudEnvironments="public,mooncake,fairfax"
 	schemaVersion="1"
+	ownershipId="Peering_PeeringService"
 />
 
 # Telemetry Scoping Questions

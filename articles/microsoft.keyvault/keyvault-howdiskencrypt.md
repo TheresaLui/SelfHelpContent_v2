@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-howdiskencrypt"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Azure Disk Encryption with Key Vault

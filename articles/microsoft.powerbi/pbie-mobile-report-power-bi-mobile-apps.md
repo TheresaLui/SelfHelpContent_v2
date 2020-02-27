@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="1f3b35e3-5c42-5ddb-795a-4cf67c15f44b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Explore reports in the Power BI mobile apps

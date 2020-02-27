@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="275455e6-9c0f-43fa-9459-b011230d20fd"
+	ownershipId="Compute_AzureMigrate"
 />
 # Count mismatch on Azure Migrate Dashboard
 ---

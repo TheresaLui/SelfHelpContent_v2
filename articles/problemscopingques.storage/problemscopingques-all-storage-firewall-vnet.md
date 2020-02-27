@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="StorageScoping_all_firewall_Vnet"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Storage Firewall and VNet
 

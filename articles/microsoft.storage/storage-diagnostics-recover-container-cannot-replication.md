@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unable to recover blob container(s) in storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to its replication type

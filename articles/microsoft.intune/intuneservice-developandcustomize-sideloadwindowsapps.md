@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="90ec459e-465a-47f1-b890-46d249abbc3f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Develop and Customize - Sideload Windows apps

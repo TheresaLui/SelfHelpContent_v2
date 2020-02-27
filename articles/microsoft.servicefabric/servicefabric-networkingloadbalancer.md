@@ -11,6 +11,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="05992819-da87-43f0-aadb-b125be4b97fd"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # networking/loadbalancer

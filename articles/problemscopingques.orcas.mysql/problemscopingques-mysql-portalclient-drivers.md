@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-portalclient-drivers"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Portal, Client Tools and APIs - Setting up Monitoring and Alerts
 ---

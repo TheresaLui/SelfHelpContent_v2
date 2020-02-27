@@ -9,6 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="95ecdb25-1289-4856-b6eb-e88c44dca6a4"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 # Azure AD Connect questions
 ---

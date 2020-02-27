@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="10f4fd4b-94d7-6ca3-98f2-9b19c2bcb873"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AADSTS50107: Requested federation realm object 

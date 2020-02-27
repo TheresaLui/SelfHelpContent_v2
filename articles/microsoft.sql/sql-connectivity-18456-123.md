@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Login failed - Empty username or password
 

@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="bedca5a5-6531-4071-9fee-271acb7284dd"
+	ownershipId="Compute_SiteRecovery"
 />
 # Replication does not progress in Azure to Azure (A2A) scenario
 

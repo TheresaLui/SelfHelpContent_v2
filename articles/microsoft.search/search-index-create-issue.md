@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="search-index-create-issue"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue creating an index

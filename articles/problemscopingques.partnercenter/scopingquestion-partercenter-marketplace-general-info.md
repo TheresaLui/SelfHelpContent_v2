@@ -10,6 +10,7 @@
        schemaVersion="1"
        articleId="problemscopingques_partnercenter_marketplace_general" 
        clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # PC Sample
 

@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="381f63d2-3eb8-45fd-81cb-7e3e91d73f97"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Enrolling a Windows 10 PC via mobile device management fails with error code 0x80180014 and the following message: "There was a problem. Your organization does not support this version of Windows".

@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-createscalepauseresumedelete.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # How to troubleshoot Create/Scale/Pause/Resume/Delete issues
 

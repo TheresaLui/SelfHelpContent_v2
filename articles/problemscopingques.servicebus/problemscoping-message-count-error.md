@@ -13,6 +13,7 @@ productPesIds="13186"
 cloudEnvironments="public, Fairfax"
 articleId="sb-message-count-issue"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Message Count Issues
 ---

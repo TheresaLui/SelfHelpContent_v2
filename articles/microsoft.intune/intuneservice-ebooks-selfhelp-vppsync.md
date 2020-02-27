@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1d88efbe-e72f-4758-b1ba-04cbe782323a"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # My e-book is not showing up in the Intune portal.

@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     articleId="ff731302-5b98-42fd-98d3-73317cd531a0"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Movement Issue

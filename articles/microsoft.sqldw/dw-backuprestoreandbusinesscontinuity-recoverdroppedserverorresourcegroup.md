@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-recoverdroppedserverorresourcegroup.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Recovering a dropped server

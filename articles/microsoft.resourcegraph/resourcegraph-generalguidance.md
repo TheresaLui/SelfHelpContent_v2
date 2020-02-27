@@ -12,6 +12,7 @@
     productPesIds="16716"
     cloudEnvironments="public, Fairfax"
     articleId="e51ab471-de8f-4c71-b19b-298b7a40d48f"
+	ownershipId="compute_azureresourcegraph"
 />
 
 # Azure Resource Graph - Generic Guidance

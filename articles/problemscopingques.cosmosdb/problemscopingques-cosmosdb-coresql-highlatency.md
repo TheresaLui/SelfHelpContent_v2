@@ -9,6 +9,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 	articleId="71fccbe7-16b1-4933-bd89-33b0eaf2721a"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB Core SQL High Latency Issue
 ---

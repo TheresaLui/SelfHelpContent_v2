@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Upgrade the type of reserved units

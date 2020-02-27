@@ -9,6 +9,7 @@
     articleId="problemscopingques-video-indexer-upload"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
     schemaVersion="1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Uploading a video to Video Indexer
 ---

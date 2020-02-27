@@ -11,6 +11,7 @@
 	supportTopicIds="32640618"
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	ownershipId="AzureNetAppFiles"
 />
 
 # NetApp Files Hit Threshold

@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="d003b00c-ed8e-4da4-bc88-12c6a5eff9eb"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # accounts-addgroups

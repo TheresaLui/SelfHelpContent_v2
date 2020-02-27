@@ -9,6 +9,7 @@
    cloudEnvironments="public,fairfax,blackforest,moonCake"
    schemaVersion="1"
    articleId="e7d714bd-eb61-42d8-8270-df52d8514149"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # VPN Gateway Issues
 ---

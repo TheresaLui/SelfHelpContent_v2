@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="MoonCake"
 	articleId="e723877c-83f3-49fa-81f1-24ad6ec643a1"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure VM Restore Limitations

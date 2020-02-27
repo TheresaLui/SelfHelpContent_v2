@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-security-superuser_access"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Security - I need superuser access
 ---

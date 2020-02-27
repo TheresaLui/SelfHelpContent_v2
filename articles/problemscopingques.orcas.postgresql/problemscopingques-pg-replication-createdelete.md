@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-createdelete"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Replication - Create or delete read replicas
 ---

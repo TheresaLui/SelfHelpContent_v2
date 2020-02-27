@@ -12,6 +12,7 @@
 	productPesIds="15739"
 	cloudEnvironments="public, Fairfax"
 	articleId="ae758523-1cad-47cc-ada2-8ee4d144f7ff"
+	ownershipId="Compute_AzurePortal"
 />
 
 # Azure Portal

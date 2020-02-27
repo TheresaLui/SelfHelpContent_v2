@@ -12,6 +12,7 @@
 	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="ea9de181-a019-4256-98f3-7842e7125113"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Backup - how to and general questions

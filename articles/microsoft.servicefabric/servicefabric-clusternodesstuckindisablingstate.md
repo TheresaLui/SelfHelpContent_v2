@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-clusternodesstuckindisablingstate"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Nodes are stuck in disabling state

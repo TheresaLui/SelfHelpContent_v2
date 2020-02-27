@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="cfeffb98-608e-4d31-a409-56ac7402db0f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # One of my users seems to have too many permissions for the role I've assigned them in Intune.

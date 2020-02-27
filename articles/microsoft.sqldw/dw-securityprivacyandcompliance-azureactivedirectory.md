@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-securityprivacyandcompliance-azureactivedirectory.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Troubleshooting Azure Active Directory Authentication

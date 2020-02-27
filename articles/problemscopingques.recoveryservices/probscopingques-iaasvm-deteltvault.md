@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	    articleId="06d2190a-f0a0-479b-ab9e-48a98b9c9bc3"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions on Deleting the vault  
 ---

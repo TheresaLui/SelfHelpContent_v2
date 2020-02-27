@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="MoonCake, Fairfax"
 	articleId="ea71eda1-8ece-4c47-958f-3c9de25c8200"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Site Recovery (VMware to Azure)/Unable to connect/RDP/SSH to the failed over virtual machine

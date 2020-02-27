@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_azureplan"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Azure plan request
 ---

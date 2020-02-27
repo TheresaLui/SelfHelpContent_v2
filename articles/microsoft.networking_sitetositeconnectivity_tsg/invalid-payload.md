@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="442ec0c5-1f4f-486c-ac41-39ec57bf9668"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Invalid Payload

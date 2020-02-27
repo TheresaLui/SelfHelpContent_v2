@@ -13,6 +13,7 @@ productPesIds="13186"
 cloudEnvironments="public, Fairfax"
 articleId="sb-sku-migration-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Issues with Standard to Premium SKu Migration
 ---

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-perf-unexpected_behavior"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Performance and Query Execution - Unexpected behavior, errors or exceptions executing a query
 ---

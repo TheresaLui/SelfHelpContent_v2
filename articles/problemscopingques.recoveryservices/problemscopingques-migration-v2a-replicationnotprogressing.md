@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="b90a41b2-0813-486c-9513-296f4bfcb416"
+	ownershipId="Compute_SiteRecovery"
 />
 # V2A Replication not progressing
 ---

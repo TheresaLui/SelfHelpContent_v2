@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-asm-api-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Issues with Deprecation of ASM APIs
 ---

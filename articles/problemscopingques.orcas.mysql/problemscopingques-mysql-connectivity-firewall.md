@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-connectivity-firewall"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Connectivity - Firewall rules or VNETs
 ---

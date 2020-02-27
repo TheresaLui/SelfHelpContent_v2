@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="97235620-8c0a-4375-911f-26e95b208bc5"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Intune for Education - Reports

@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="974f2616-5018-4900-b093-b3d24db7e20b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center - Onboarding or Offboarding Agent - Monitoring Agent

@@ -9,6 +9,7 @@
 	productPesIds="16355"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # Configure protection on Virtual Network resource
 ---

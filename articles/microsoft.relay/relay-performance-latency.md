@@ -12,6 +12,7 @@
     productPesIds="16123"
     cloudEnvironments="public, Fairfax"
     articleId="relay-performance-latency"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Azure Relay

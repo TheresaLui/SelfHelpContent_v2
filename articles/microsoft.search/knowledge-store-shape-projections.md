@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="knowledge-store-shape-enrichment"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue shaping enrichment for knowledge store
 

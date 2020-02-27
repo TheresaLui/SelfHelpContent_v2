@@ -9,6 +9,7 @@
     productPesIds="15614"
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
+	ownershipId="Compute_AzureBatch"
 />
 # Application details
 ---

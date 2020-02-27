@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="151371b2-3680-444e-b486-aee15158472c"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Creating a new project and adding a tool

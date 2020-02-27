@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="bb54b8e4-1278-4704-8d10-64df311673b1"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions AFS restore failure
 ---

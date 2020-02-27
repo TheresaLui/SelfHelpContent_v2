@@ -12,6 +12,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax"
 	articleId="c7f04ffd-bfb1-472b-a88d-79299737080c"
+	ownershipId="Compute_AppService"
 />
 
 # deployment/git, github, bitbucket, dropbox

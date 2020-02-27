@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="cognitve-search-custom-skill"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue getting a custom skill to work with Cognitive Search
 

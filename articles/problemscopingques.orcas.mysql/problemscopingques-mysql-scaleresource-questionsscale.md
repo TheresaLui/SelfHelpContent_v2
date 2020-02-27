@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-scaleresource-questions"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Scaling a resource - Questions about scaling a resource
 ---

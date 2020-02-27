@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-perf-select1"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Performance - SELECT 1
 ---

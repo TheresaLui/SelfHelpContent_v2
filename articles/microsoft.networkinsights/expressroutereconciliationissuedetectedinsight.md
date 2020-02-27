@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # ExpressRoute Circuit reconciliation issue detected between NRP and Brooklyn
 <!--/issueDescription-->

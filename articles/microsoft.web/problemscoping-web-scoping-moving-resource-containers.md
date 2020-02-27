@@ -10,6 +10,7 @@
 	cloudEnvironments="public, MoonCake, Fairfax"
    schemaVersion="1"
    articleId="2889-45e0-b6ea-ddb118e38d07"
+	ownershipId="Compute_AppService"
 />
 
 # Moving resources

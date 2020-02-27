@@ -12,6 +12,7 @@
 		productPesIds="15207"
 		cloudEnvironments="public"
 		articleId="3534cf32-a14c-4ba9-83ab-650f9005b548"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Azure Backup SQL Config failures
 

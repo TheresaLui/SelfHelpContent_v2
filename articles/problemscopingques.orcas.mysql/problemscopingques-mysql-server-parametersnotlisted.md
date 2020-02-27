@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-server-parameter_notlisted"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Server Parameters - Server parameter not listed
 ---

@@ -13,6 +13,7 @@
 	productPesIds="15663"
 	cloudEnvironments="public, Fairfax"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Connectivity

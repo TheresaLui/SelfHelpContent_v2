@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-toolsapis-rest_api"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Portal, Client Tools and APIs - Rest API
 ---

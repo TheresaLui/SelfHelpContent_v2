@@ -12,6 +12,7 @@
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-failedtocreateordeletedatabase.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Failed to create or delete database

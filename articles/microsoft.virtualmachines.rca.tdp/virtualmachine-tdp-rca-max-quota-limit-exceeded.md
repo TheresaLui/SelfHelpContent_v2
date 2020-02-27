@@ -16,6 +16,7 @@
 	resourceTags="windows, linux"
 	productPesIds="14749,15571"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # We found a Quota limitation on your subscription

@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Diagnose and resolve Encoding errors for Media Services v3/v2

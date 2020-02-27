@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # **NRP Service Provider Provisioning and Brooklyn Service Provider Provisioning Differ**
 <!--/issueDescription-->

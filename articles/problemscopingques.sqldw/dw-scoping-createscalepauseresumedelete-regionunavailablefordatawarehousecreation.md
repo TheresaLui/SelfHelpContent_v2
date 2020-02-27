@@ -9,6 +9,7 @@
 	productPesIds="15818"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Create, Scale, Pause, Resume, Delete - Region unavailable for Data Warehouse creation
 ---

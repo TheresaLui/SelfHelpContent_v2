@@ -9,6 +9,7 @@
 	productPesIds="16355"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # Under Attack with General Questions or No resource available
 ---

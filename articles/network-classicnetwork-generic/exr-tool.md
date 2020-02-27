@@ -12,6 +12,7 @@
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
     articleId="46f04c4e-3ad9-48a5-83a8-1aaf594dbea2"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # ExpressRoute Tool Resources

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-mornitoring-issuesmetricshown"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Monitoring and Alerting - Issues with metrics shown in the portal
 ---

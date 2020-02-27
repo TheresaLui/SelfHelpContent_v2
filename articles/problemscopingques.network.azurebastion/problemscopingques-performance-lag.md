@@ -9,6 +9,7 @@
 	productPesIds="16757"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureBastion"
 />
 # Have a lag while using my RDP or SSH session
 ---

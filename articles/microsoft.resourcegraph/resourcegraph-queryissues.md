@@ -12,6 +12,7 @@
     productPesIds="16716"
     cloudEnvironments="public, Fairfax"
     articleId="02ae6e43-0aaa-4871-9df6-e9c069fe3edb"
+	ownershipId="compute_azureresourcegraph"
 />
 
 # Azure Resource Graph - Query Issues

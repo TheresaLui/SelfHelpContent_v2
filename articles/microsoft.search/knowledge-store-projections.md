@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="knowledge-store-projection"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue creating a knowledge store projection
 

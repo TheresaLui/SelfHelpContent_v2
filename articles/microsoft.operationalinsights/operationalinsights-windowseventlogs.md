@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="7b9906d2-a3ba-4462-a7a8-9c8d7f0e7074"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # windowseventlogs

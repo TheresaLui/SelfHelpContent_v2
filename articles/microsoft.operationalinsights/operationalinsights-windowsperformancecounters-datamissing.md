@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="65b30f9d-662e-4bf0-a06b-22e8f18e74e3"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # windowsperformancecounters-datamissing

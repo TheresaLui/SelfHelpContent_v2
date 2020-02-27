@@ -12,6 +12,7 @@
     productPesIds="16348"
     cloudEnvironments="public, Fairfax"
     articleId="azure-migrate-asm-arm-move"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Resource move to another subscription

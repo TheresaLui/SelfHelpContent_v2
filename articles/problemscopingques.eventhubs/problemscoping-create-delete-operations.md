@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-create-delete-ops"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Issues with Create or Delete Operations
 ---

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-scaleresource-questions"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scaling a resource - Questions about scaling a resource
 ---

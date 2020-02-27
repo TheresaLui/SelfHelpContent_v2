@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="57463"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Diagnose and troubleshoot VNet Peering issues

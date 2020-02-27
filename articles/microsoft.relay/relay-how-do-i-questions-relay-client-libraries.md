@@ -12,6 +12,7 @@
     productPesIds="16123"
     cloudEnvironments="public, Fairfax"
     articleId="relay-how-do-i-questions-relay-client-libraries"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Azure Relay

@@ -10,6 +10,7 @@ productPesIds="16213"
 cloudEnvironments="public, Fairfax"
 articleId="problemscoping-missing-manifest"
 schemaVersion="1"
+	ownershipId="ContainerRegistry_Runtime"
 />
 # Missing Manifest or Tag
 ---

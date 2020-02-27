@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="c3178863-02c4-4abc-90bc-a296cf55f14c"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Deployment issues with Azure Migrate appliance for VMware

@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="search-index-schema"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue with index data when using the import data wizard
 

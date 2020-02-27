@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="6b342a85-0813-4b4d-b7d0-43639892e013"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions on not able to connect to VM after Failover 
 

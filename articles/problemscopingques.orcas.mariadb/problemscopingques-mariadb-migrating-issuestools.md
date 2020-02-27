@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-migrating-issues"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Migrating to Azure - Issues with migration & Migration tools
 ---

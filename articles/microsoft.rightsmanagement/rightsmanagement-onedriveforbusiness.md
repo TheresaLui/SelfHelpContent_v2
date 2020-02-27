@@ -11,6 +11,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="7583d172-75ed-419c-ae42-f8bf132e9472"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # onedrive for business

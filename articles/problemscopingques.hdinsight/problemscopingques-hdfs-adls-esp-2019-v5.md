@@ -9,6 +9,7 @@
 	productPesIds="15078"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsight HDFS ADLS Gen 1 or 2 in ESP Issue
 ---

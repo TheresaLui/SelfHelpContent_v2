@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-clusternodesaredown"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Nodes are down
