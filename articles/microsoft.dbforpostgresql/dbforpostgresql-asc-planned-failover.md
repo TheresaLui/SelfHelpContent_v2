@@ -18,7 +18,7 @@
 # Can't connect PostgreSQL database server: planned failover
 
 <!--issueDescription-->
-Your server <!--$ServerName-->ServerName<!--/$ServerName--> was down at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to planned failover with due to <!--$RCA-->RCA<!--/$RCA-->.
+Your server <!--$ServerName-->ServerName<!--/$ServerName--> was unavailable starting at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to Azure planned maintenance for <!--$RCA-->RCA<!--/$RCA-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
