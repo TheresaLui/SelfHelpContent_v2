@@ -26,7 +26,7 @@
     "formElements": [
         {
 
-            "id": "Connection_Topology",
+            "id": "connection_topology_dropdown",
             "visibility": "null",
             "order": 1,
             "controlType": "dropdown",
@@ -50,11 +50,11 @@
         },
         {
 
-           "id": "resourceGroup",
+           "id": "resourceGroup_list",
             "order": 4,
-            "visibility": "Connection_Topology == On_Azure_Cloud",
+            "visibility": "connection_topology_dropdown == On_Azure_Cloud",
             "controlType": "dropdown",
-            "displayLabel": "Provide the Resource Group of the source",
+            "displayLabel": "Select the Resource Group of the source",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
@@ -70,15 +70,43 @@
 
         },
         {
-            "id": "ResourceName",
+            "id": "resourceProvider_list",
             "order": 5,
-            "visibility": "resourceGroup != null",
+            "visibility": "resourceGroup_list != null",
             "controlType": "dropdown",
-            "displayLabel": "Provide the name of the source",
+            "displayLabel": "Select the name of the source",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
-                "dependsOn": "resourceGroup",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/resources?api-version=2019-10-01",
+                "dependsOn": "resourceGroup_list",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Resources?api-version=2019-10-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+		"valuePropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other or none of the above"
+                }
+            },
+            "DropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of resource providers",
+                    "text": "Unable to retrieve list of resources providers"
+                }
+            ],
+
+        },
+        {
+            "id": "resourceName_list",
+            "order": 10,
+            "visibility": "resourceProvider_list != null",
+            "controlType": "dropdown",
+            "displayLabel": "Select the name of the source",
+            "watermarkText": "Filter by name",
+            "dynamicDropdownOptions": {
+                "dependsOn": "resourceProvider_list",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceProvider_list}/providers/{replaceWithParentValue}?api-version=2019-10-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
@@ -95,13 +123,13 @@
                     "text": "Unable to retrieve list of resources"
                 }
             ],
-            "required": true
+
         },
         {
             "id": "problem_start_time",
             "order": 100,
             "controlType": "datetimepicker",
-            "displayLabel": "Local start time of the latest occurrence",
+            "displayLabel": "Select time (in local time zone) of the most recent occurrence",
             "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
