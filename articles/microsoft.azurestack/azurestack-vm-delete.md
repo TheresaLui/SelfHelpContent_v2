@@ -10,7 +10,7 @@
     supportTopicIds="32663893,32663894"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-delete"
 />
 

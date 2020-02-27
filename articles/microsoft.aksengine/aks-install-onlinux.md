@@ -10,7 +10,7 @@
     supportTopicIds="32689844"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="aks-install-onlinux"
 />
 

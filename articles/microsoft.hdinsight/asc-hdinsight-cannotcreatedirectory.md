@@ -27,7 +27,7 @@ The following error <!--$Text-->[Text]<!--/$Text--> occurs when the HDInsight cl
 
 In order to mitigate the issue please do the following:
 
-* Ssh to affected node
+* Ssh to affected node <!--$AlertHost-->[AlertHost]<!--/$AlertHost-->
 * Get root user i.e. sudo su
 * Recursively create needed directories
 * Change owner and group for these folders:

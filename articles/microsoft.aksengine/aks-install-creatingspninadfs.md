@@ -10,7 +10,7 @@
     supportTopicIds="32689842"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="aks-install-creatingspninadfs"
 />
 

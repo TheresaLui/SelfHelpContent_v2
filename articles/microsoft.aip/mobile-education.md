@@ -11,7 +11,7 @@
 	supportTopicIds="32584341"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure Information Protection Mobile - Education

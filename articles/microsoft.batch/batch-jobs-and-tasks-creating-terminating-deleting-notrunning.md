@@ -10,7 +10,7 @@
     supportTopicIds="32635067,32635071,32635090,32635089"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="batch-jobs-and-tasks-creating-terminating-deleting-notrunning"
 />
 

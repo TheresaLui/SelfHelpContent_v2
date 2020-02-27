@@ -10,7 +10,7 @@
     supportTopicIds="32629242"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-poqs-plans"
 />
 
