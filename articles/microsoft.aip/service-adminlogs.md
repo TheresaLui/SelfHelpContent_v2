@@ -11,7 +11,7 @@
 	supportTopicIds="32629567"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure Information Protection service - Admin and User Logs

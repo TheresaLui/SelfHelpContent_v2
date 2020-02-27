@@ -11,7 +11,7 @@
 	articleId="Activating_Azure_Information_Protection"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure Information Protection service - activating protection

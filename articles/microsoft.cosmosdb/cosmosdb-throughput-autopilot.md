@@ -20,7 +20,7 @@ Most users are able to resolve their Throughput Autopilot issue using the steps 
 
 ## **Recommended Steps**  
 
-### **Can't find option to enable Autopilot?**  
+### **Cannot find option to enable Autopilot?**  
 Autopilot has been registered for all users. Autopilot can only be enabled while creating new databases and containers from the Azure Portal.
 - Support for CLI and SDK is not yet available
 - Support to enable autopilot mode on existing containers and databases is not yet available

@@ -10,7 +10,7 @@
     supportTopicIds="32629195,32630577"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-patchandupdate-updatefailure"
 />
 

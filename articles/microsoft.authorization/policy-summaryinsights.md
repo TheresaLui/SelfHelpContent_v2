@@ -11,7 +11,7 @@
     selfHelpType="diagnostics"
     supportTopicIds="32636045,32636046,32636050"
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="d6693265-5e4d-4eae-8bc9-e432a4336077"
 />
 

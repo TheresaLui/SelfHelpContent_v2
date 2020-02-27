@@ -11,7 +11,7 @@
     supportTopicIds="32635083"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Client SDKs - Interactive CLIs

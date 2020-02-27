@@ -11,7 +11,7 @@
 	supportTopicIds="32584332"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure Information Protection - AIP Mobile

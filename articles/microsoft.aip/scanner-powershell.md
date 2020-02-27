@@ -11,7 +11,7 @@
 	supportTopicIds="32629563"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure Information Protection - PowerShell issues

@@ -44,3 +44,4 @@ If connection issues last for more than a couple minutes, the root cause may be 
 
 * [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)<br>
 * [Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)
+* [Understanding the connectivity architecture for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture)
