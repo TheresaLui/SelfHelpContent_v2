@@ -6,7 +6,7 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32608941"
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-backup-restore-sf"
 />

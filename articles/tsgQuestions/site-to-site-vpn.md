@@ -5,7 +5,7 @@
          ms.author="seanj"
          selfHelpType="TSG_Questions"
          productPesIds="15922"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="F2143039-B7F0-436B-B120-3C721FF0F4ED"
 />

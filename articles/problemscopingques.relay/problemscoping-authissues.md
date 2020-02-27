@@ -10,7 +10,7 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32684540"
 resourceTags=""
 productPesIds="16123"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="relay-issues"
 schemaVersion="1"
 />
