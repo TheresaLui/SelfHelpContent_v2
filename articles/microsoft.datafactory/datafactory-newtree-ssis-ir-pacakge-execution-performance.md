@@ -12,7 +12,7 @@
 	supportTopicIds="32680900"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Execute SSIS Package - Performance Issues

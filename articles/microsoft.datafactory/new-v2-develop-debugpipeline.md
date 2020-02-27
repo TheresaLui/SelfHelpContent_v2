@@ -10,7 +10,7 @@
 	supportTopicIds="32629483"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Iterative Development and Debugging Experiences

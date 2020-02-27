@@ -10,7 +10,7 @@
     selfHelpType="resource"
     productPesIds="15693"
     supportTopicIds="32632991"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
  
 # How do I investigate errors with my application?

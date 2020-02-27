@@ -13,7 +13,7 @@
 	supportTopicIds="32640117,32640118,32640120"
 	resourceTags="windows, linux"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Orcas MariaDB Server marked read-only because the server storage is full

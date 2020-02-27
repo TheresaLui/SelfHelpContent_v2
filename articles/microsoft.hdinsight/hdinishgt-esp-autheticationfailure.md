@@ -10,7 +10,7 @@
     supportTopicIds="32629011"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinishgt-esp-autheticationfailure"
 />
 # Azure HDInsight ESP: Authetication Failure

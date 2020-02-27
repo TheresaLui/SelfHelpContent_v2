@@ -10,7 +10,7 @@
     supportTopicIds="32629492"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="DataFactoryRunIdTroubleshooter"
 />
 

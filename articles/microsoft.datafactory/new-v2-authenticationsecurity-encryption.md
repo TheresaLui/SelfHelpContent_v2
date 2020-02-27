@@ -10,7 +10,7 @@
 	supportTopicIds="32629477"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Security Considerations for Data Movement

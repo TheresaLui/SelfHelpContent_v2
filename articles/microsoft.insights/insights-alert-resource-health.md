@@ -13,7 +13,7 @@
 	supportTopicIds="32630816"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # I am having issues with Resource Health Alerts

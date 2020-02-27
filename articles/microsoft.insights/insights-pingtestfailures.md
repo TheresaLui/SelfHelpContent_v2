@@ -8,7 +8,7 @@
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds="15693"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  	articleId="62453b8f-3e8c-4ecb-baeb-6ed9489a48cf"
 />
 # My web test is intermittently failing with a protocol violation error

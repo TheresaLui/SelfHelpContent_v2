@@ -13,7 +13,7 @@
 	supportTopicIds="32681414"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # My action doesn’t work after migration (runbook, logic app, or webhook)

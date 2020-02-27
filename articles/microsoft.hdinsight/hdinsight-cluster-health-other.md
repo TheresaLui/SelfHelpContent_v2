@@ -10,7 +10,7 @@
     supportTopicIds="32629101"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-cluster-health-other"
 />
 # Azure HDInsight: Cluster Health

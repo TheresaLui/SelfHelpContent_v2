@@ -10,7 +10,7 @@
     displayOrder="90"
     diagnosticScenario="ApplicationInsightsUnsupportedSDKDiagnostic"
     selfHelpType="diagnostics"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402637"
  />

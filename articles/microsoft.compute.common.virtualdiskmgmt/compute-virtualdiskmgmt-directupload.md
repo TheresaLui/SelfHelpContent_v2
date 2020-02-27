@@ -10,7 +10,7 @@
 	supportTopicIds="32641057"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="compute-virtualdiskmgmt-directupload"
 />
 

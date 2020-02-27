@@ -10,7 +10,7 @@
     supportTopicIds="32675618, 32675622"
     resourceTags=""
     productPesIds="16762"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="datashare-create-datashareaccount"
 />
 

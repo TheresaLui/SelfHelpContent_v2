@@ -13,7 +13,7 @@
 	supportTopicIds="32629463"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Connect to Data Store

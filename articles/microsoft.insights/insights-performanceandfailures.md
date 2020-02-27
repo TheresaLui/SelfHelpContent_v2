@@ -10,7 +10,7 @@
     diagnosticScenario="PerformanceAndFailures"
     displayOrder=""
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32632997"
  />

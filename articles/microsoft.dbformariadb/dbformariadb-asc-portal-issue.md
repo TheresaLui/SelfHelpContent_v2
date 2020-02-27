@@ -13,7 +13,7 @@
 	supportTopicIds="32640115"
 	resourceTags="windows, linux"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Having trouble with Azure Portal

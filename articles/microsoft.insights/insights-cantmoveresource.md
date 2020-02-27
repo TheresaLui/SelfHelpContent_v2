@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds="32609670"
     productPesIds="15693"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  	articleId="8466944f-b85a-44f2-9daa-df7c8d4275c9"
 />
 # I can't move an Application Insights resource

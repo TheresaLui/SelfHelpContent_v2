@@ -11,7 +11,7 @@
     selfHelpType="diagnostics"
     productPesIds="15693"
     supportTopicIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  />
 # I should have received an email for an alert that fired
 

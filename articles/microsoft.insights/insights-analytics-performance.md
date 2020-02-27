@@ -9,7 +9,7 @@
     articleId="insights_analytics_performance"
     displayOrder="92"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602201"
  />

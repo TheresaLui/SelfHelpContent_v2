@@ -10,7 +10,7 @@
     diagnosticScenario="ApplicationInsightsDefaultModeEnablementDiagnostic"
     displayOrder=""
     selfHelpType="diagnostics"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     resourceTags=""
     productPesIds="15693" 
     supportTopicIds="32602209"

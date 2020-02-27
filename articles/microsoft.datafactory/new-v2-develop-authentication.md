@@ -13,7 +13,7 @@
 	supportTopicIds="32629441, 32629535"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Permissions and Azure Roles for Data Factory

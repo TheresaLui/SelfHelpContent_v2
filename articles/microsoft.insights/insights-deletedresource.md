@@ -10,7 +10,7 @@
     selfHelpType="generic"
     supportTopicIds="32632992, 32633000"
     productPesIds="15693"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 # I want to undelete an Application Insights resource
 

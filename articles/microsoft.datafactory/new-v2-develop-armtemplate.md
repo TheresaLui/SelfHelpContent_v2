@@ -10,7 +10,7 @@
 	supportTopicIds="32629439"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Export and Import Resource Manager (ARM) Templates

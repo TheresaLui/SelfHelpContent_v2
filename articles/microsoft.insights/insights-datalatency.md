@@ -10,7 +10,7 @@
     selfHelpType="resource"
     productPesIds="15693"
     supportTopicIds="32546624"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
  
 # Data latency

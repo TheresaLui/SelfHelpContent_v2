@@ -10,7 +10,7 @@
 	supportTopicIds="32629509"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Generate and Retrieve Service Identity for ADF

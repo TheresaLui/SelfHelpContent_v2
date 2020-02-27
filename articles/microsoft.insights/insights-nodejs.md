@@ -9,7 +9,7 @@
     articleId="insights_nodejs"
     displayOrder="1134"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32632985, 32632999"
  />

@@ -10,7 +10,7 @@
 	supportTopicIds="32637154"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Copy Data Tool

@@ -10,7 +10,7 @@
 	supportTopicIds="32629536"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Integration Runtime Express Setup Issue

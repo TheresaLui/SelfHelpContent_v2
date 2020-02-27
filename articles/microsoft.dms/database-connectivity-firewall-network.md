@@ -13,7 +13,7 @@
 	supportTopicIds="32673588"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Errors you may encounter with firewall rules and network configuration 

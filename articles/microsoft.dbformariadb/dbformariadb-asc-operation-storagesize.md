@@ -13,7 +13,7 @@
 	supportTopicIds="32640111, 32640121, 32640134, 32640137, 32640151, 32640159"
 	resourceTags="windows, linux"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Create or update MariaDB server failed because the input storage size does not meet requirements.

@@ -10,7 +10,7 @@
 	supportTopicIds="32629435"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Data Factory Limits

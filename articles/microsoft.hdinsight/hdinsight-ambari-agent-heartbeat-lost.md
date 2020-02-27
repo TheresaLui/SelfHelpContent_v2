@@ -10,7 +10,7 @@
     supportTopicIds="32636433"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-ambari-agent-heartbeat-lost"
 />
 # Azure HDInsight: Ambari Agent Heartbeat Lost

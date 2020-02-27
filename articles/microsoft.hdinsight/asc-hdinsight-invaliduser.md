@@ -13,7 +13,7 @@
     supportTopicIds="32636420"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # We ran diagnostics on your resource and found the following issue

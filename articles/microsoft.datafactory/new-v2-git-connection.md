@@ -10,7 +10,7 @@
 	supportTopicIds="32629453, 32629524, 32629447"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Connect to Git Repository

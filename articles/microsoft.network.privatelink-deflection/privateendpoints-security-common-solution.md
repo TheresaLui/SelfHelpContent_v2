@@ -13,7 +13,7 @@
 	supportTopicIds="32681492"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # What are the network security options I can use with Private Endpoint?

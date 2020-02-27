@@ -10,7 +10,7 @@
   supportTopicIds="32629065"
   resourceTags=""
   productPesIds="15078"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax"
   ArticleId="f77498d9-e276-4fe3-bcc1-e78f2a97f813"/>
 
 # Hive Performance

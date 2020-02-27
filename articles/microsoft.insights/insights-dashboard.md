@@ -10,7 +10,7 @@
 	supportTopicIds="32632996"
 	resourceTags=""
 	productPesIds="15693"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="appinsights-dashboard"
 />
 

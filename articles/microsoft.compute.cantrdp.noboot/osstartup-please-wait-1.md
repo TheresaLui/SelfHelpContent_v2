@@ -14,7 +14,7 @@
     supportTopicIds=""
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # VM Boot Error

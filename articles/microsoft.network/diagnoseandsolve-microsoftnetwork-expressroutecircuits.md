@@ -10,7 +10,7 @@
 	articleId="b93c11c2-949d-48c2-a289-e16b9a8424c7"
 	selfHelpType="diagnoseandsolve"
 	productPesIds="15480"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Top common problems for microsoft.network, expressroutecircuits
 ---

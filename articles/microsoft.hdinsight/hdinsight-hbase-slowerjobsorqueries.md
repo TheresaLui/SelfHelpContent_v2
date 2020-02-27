@@ -10,7 +10,7 @@
     supportTopicIds="32636451"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-slowerjobsorqueries"
 />
 # Slow HBase queries or jobs

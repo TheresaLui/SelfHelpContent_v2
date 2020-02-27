@@ -13,7 +13,7 @@
 	supportTopicIds="32681415"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Migration tool general issues

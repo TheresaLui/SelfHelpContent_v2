@@ -11,7 +11,7 @@
 	supportTopicIds="32680651"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-Job-started-to-return-incorrect-results"
 />
 

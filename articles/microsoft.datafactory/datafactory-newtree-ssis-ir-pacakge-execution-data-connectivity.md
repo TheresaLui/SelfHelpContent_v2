@@ -12,7 +12,7 @@
 	supportTopicIds="32680898"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Execute SSIS Package - Data Connectivity Issues

@@ -10,7 +10,7 @@
     supportTopicIds="32629157"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-CRUD-VNET"
 />
 # Azure HDInsight Creating, Deleting, & Scaling HDInsight: Virtual Network

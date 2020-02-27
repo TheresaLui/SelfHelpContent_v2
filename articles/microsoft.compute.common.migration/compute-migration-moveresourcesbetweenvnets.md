@@ -10,7 +10,7 @@
 	supportTopicIds="32678707"
 	resourceTags="windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="f199d6aa-4778-404c-aa19-2f2ab1fda09b"
 />
 

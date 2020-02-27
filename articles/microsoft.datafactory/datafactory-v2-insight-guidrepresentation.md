@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Copy activity failed due to wrong UUID representation

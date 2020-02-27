@@ -11,7 +11,7 @@
 	supportTopicIds="32680646"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-difficulties-using-adlsdk"
 />
 

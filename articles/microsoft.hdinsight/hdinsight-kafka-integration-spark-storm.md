@@ -10,7 +10,7 @@
     supportTopicIds="32629074"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-kafka-integration-spark-storm"
 />
 # Azure HDInsight Kafka Integration: How to integrate with Spark and Storm

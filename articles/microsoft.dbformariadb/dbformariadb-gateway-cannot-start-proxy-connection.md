@@ -13,7 +13,7 @@
 	supportTopicIds="32640152,32640117,32640118,32640120"
 	resourceTags="windows, linux"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Gateway can't start proxy connection to host

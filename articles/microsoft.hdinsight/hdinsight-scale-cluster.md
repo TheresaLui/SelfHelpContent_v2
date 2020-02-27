@@ -10,7 +10,7 @@
     supportTopicIds="32681540,32681539"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-scale-cluster"
 />
 # Scale HDInsight Cluster

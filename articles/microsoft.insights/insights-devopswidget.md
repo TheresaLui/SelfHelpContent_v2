@@ -8,7 +8,7 @@
     articleId="insights-devopswidget"
     displayOrder="202"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602222"
  />

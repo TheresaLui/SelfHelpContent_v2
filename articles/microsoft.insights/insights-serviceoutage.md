@@ -10,7 +10,7 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32402638"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
  
 # Is there a service outage?

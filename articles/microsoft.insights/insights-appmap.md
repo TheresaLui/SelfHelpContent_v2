@@ -8,7 +8,7 @@
     articleId="insights_appmap"
     displayOrder="104"
     selfHelpType="resource"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602206"
  />

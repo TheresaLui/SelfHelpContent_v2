@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds="32602205"
     productPesIds="15693"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  	articleId="b2e734f4-0b96-4819-9bcf-6bc27eadce02"
 />
 # I am not getting debug snapshots

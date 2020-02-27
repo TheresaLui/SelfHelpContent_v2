@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Data Factory detected dataset name with invalid characters
