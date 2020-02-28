@@ -9,6 +9,7 @@
 	productPesIds="15454"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 # Issues with programmatic interfaces
 ---

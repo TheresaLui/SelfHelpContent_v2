@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-portalandclienttools.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Using portal and client tools

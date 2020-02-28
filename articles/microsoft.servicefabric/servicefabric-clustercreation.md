@@ -11,6 +11,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="f44df89c-1b3e-4276-8c8a-8f6d08740ffe"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # cluster/cluster creation

@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="aa9bbb0f-9466-4d77-af8f-314497c4f007"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Query not returning any or desired data

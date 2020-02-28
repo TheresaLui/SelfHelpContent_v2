@@ -13,6 +13,7 @@ productPesIds="13186"
 cloudEnvironments="public, Fairfax"
 articleId="service-bus-error-msg"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Error Messages realted to Timeout , Connectivity , Create and delete
 ---

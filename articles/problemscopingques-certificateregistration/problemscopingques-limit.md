@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-limit"
+	ownershipId="Compute_AppService"
 />
 # Hitting Subscription Limit of Amount of Certificates Purchased
 ---

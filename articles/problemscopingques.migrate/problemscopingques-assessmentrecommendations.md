@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="5a50e5a6-4466-46c7-83bf-70918fcee374"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Assessment Recommendations

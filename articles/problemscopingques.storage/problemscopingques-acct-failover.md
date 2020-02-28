@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="9BD48974-4A51-4A44-A68C-9BB5E9D8F148"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Storage account failover
 ---

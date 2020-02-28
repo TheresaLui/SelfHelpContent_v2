@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-throughput"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Request to change Throughput unit
 ---

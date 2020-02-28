@@ -10,6 +10,7 @@
 	productPesIds="15804"
 	cloudEnvironments="public, Fairfax"
 	articleId="07ad0c1d-35e4-46b5-b86e-aa71762da811"
+	ownershipId="CloudNet_DNS"
 />
 
 # missing feature

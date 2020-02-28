@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="d35d2d56-e591-489a-8f6a-9c28da0ae6e4"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I assigned an iOS VPP app to my users, but the installation failed.

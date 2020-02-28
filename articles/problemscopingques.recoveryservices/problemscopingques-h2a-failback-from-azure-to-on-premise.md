@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="304ee2b6-672f-4c27-949a-b47abafe5a61"
+	ownershipId="Compute_SiteRecovery"
 />
 # Failback from Azure to on-premises Hyper-V VM
 ---

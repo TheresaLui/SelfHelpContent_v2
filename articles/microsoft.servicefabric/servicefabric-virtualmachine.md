@@ -11,6 +11,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="a92a0250-787f-40d2-a458-00c2eb0d4f7b"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # cluster/virtual machines

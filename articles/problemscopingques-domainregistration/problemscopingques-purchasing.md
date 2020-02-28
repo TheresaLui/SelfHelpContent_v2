@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-purchasing"
+	ownershipId="Compute_AppService"
 />
 # Purchasing
 ---

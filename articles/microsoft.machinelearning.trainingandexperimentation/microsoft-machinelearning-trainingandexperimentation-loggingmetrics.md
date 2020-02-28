@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.trainingandexperimentation.loggingmetrics"
 	selfHelpType="generic"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues with logging metrics

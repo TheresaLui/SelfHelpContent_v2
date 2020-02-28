@@ -13,6 +13,7 @@ productPesIds="13186"
 cloudEnvironments="public, Fairfax"
 articleId="sb-quota-request"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Quota Issues
 ---

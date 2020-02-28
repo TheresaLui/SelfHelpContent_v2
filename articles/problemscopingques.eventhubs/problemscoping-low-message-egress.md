@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-low-message-egress"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Low message egress
 ---

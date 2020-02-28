@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-cluster-arm-template-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # ARM Templates
 ---

@@ -11,6 +11,7 @@
     productPesIds="15922"
     cloudEnvironments="public, Fairfax"
     articleId="5493db87-216a-459c-9abd-9d2d22d446e6"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway - Configuration and Setup

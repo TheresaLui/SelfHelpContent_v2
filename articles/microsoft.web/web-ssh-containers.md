@@ -12,6 +12,7 @@
 	productPesIds="16333"
 	cloudEnvironments="public, Fairfax"
 	articleId="66498862-c0bb-4ce4-97a4-27a52010d01b"
+	ownershipId="Compute_AppService"
 />
 
 # Configuration and Management/Accessing app using SSH

@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="nli05tg3-836d-421c-b919-f924c12f1e9f"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps other security issues

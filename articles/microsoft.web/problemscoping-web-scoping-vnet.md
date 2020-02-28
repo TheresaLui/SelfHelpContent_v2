@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="28446461-8c33-42b3-984e-0d378ea3bbf1"
+	ownershipId="Compute_AppService"
 />
 
 # VNET integration with App Service

@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="8f6f8090-d2f7-4400-841c-b5fc77193adf"
+	ownershipId="Compute_SiteRecovery"
 />
 # H2A resynch required for VM
 

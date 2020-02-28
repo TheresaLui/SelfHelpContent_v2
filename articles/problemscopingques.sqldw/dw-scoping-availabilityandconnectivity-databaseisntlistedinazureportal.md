@@ -9,6 +9,7 @@
 	productPesIds="15818"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Availability and Connectivity - Database isn't listed in Azure portal
 ---

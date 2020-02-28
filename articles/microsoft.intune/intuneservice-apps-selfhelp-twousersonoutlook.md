@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="f0d440ab-acf7-4366-b4d4-151433c3d813"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # When I try to add a second account to an existing Outlook profile in the Outlook mobile app, I receive an error.

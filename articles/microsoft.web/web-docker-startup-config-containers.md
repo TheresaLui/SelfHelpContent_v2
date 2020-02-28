@@ -11,6 +11,7 @@
 	productPesIds="16333"
 	cloudEnvironments="public, Fairfax"
 	articleId="28c4b3b3-5314-49af-9040-125fef444476"
+	ownershipId="Compute_AppService"
 />
 
 # Docker Containers/Docker container startup and configuration

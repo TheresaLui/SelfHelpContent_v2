@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-perf-unexpectedbehavior"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Performance and Query Execution - Unexpected behavior, errors or exceptions executing a query
 ---

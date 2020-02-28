@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="2cc10d49-53d5-4ef9-83a4-85fe332401d4"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Add or Remove Node Types

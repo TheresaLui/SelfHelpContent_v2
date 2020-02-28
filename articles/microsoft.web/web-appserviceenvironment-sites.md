@@ -11,6 +11,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax"
 	articleId="09cc084f-224d-42c4-bb14-0185b9703dac"
+	ownershipId="Compute_AppService"
 />
 
 # app service environment

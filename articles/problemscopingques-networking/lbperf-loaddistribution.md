@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="700961cc-d014-4551-be70-2069dc2e00ff"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # SLB - Load distribution issues

@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="search-results-order"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # My search results are not in correct order

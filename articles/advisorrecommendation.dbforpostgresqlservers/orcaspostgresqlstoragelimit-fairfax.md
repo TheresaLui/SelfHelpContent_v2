@@ -6,6 +6,7 @@
     articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scale the storage limit for PostgreSQL server
 ---

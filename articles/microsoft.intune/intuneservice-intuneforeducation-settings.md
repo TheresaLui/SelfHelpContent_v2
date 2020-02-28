@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="51233b58-a6ae-43ef-a5ec-aafdeb9a1bcd"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Intune for Education - Settings

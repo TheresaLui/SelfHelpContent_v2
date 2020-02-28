@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
         articleId="ddb7ef68-ca90-4454-a6eb-0f04e8e2761d"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Not able to connect to the Azure VM after migration

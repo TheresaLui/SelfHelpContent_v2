@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-connectivity-dropped-errors"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Connectivity - Established connection is dropped or terminated && Error while connecting to the server
 ---

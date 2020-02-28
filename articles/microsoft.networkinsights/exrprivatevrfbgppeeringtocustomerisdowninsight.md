@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Express Route BGP Peering to Customer Edge is Down
 
 ExpressRoute utilizes dual/redundant BGP sessions for each peering (Private, Public, or Microsoft) that the customer has configured. One or more BGP sessions are currently down right now, as shown below:

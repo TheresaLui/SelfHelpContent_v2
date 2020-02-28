@@ -12,6 +12,7 @@
     resourceTags=""
     articleId="dw-dataimportexport-usingazuredatalake.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Using Azure Data Lake

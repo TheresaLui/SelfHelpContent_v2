@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="ED05B7F3-35E8-4F28-B3A3-FBFF20E2B301"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Migrate to ZRS, GZRS, RA-GZRS

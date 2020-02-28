@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="9ea8167d-3372-4fb8-a8a2-f477d77390cd"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check if the traffic is between virtual networks in different regions aka GLOBALLY PEERED

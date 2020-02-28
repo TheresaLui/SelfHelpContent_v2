@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="b2714188-b181-493c-8a4d-1e69e3e4daf6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Security Policy - Enable or Disable security monitoring Common Solutions

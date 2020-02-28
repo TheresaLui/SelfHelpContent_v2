@@ -12,6 +12,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="exr-performance"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # ExpressRoute Performance Issues

@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15663"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Stream Analytics is running without any issues.

@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-perf-query"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Database Performance - Query
 ---

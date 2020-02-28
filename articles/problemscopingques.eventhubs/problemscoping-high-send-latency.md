@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-high-send-latency"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Performance issues due to high send latency
 ---

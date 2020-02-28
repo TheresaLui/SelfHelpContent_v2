@@ -12,6 +12,7 @@
     productPesIds="16757"
     cloudEnvironments="public, Fairfax"
 	articleId="bastion-configure-auditing"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Configure auditing

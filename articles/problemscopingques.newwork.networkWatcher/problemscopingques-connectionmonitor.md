@@ -9,6 +9,7 @@ productPesIds="16160"
 cloudEnvironments="public, Fairfax"
 schemaVersion="1"
 articleId="ad021338-109f-4290-a45e-asgard"
+	ownershipId="CloudNet_NetAnalytics"
 />
 # Connection Monitor Scoping Questions
 ---

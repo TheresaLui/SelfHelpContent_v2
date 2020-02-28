@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax"
 	articleId="bb456da1-8a91-4938-8ab6-2f62e81235bf"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Performance Issue: Slow Connectivity from On-Premises 

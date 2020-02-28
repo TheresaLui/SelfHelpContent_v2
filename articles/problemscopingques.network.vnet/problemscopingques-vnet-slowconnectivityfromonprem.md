@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="7ydr1961cc-d014-45db-be70-2069dc2e00ff"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Slow connection between Virtual Networks

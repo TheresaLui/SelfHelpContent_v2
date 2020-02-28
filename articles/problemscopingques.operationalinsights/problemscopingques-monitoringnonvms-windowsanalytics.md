@@ -10,6 +10,7 @@ supportTopicIds="32612530"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Windows Analytics - Upgrade Readiness, Device Health, Update Compliance

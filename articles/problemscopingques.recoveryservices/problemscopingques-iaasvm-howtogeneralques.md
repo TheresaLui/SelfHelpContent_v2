@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="9d83298f-b441-4541-94bc-3e491f278f6b"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for IAAS VM howto and general quest
 ---

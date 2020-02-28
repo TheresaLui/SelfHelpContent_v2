@@ -12,6 +12,7 @@
 	productPesIds="15791"
 	cloudEnvironments="public, Fairfax"
 	articleId="f7517214-4001-48f3-9ce4-3f84fb92275e"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic App Designer

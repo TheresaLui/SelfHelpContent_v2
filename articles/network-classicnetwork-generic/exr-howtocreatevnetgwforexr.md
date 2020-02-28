@@ -11,6 +11,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="0e67f63f-c1dc-404f-ad9b-8c69bbfa6058"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # configuration and setup/how to create a virtual network gateway for expressroute circuit

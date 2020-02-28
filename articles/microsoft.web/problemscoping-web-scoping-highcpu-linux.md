@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="d65501bd-474a-b467-2c84e613b369"
+	ownershipId="Compute_AppService"
 />
 
 # High CPU usage

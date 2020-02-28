@@ -9,6 +9,7 @@
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b9473d-8527-4f2d-8526-36a830ea0098"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # Azure ExpressRoute Gateway questions
 ---

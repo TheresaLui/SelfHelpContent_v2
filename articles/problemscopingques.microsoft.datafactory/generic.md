@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     articleId="46507f35-8fd9-48ec-8d09-c3d93ce3ed02"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Factory Issue

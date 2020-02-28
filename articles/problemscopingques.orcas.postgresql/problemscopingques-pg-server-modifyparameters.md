@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-server-modifyparameters"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Server Parameters - Modify server parameters
 ---

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-issues"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Replication - Issues to Azure Database for PG
 ---

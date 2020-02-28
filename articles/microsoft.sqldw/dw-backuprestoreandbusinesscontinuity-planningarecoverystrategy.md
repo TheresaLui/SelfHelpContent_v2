@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-planningarecoverystrategy.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Recovery Strategy

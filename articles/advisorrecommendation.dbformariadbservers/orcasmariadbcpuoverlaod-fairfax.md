@@ -6,6 +6,7 @@
     articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Increase the MariaDB server vCores
 ---

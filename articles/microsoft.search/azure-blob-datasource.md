@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="azure-blob-datasource"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue indexing an Azure Blob data source
 

@@ -9,6 +9,7 @@
                 cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-networking-performance-degradation"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Performance Degradation
 ---

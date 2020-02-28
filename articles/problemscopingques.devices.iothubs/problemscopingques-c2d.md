@@ -9,6 +9,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="471990b5-2440-4371-8dc2-f1a4883559c7"
+	ownershipId="AzureIot_IotHub"
 />
 # Can't reach device from IoT Hub
 ---

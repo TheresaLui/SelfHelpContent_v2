@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-scheduledmaintenanceandupgrades"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # How to manage and troubleshoot Scheduled Maintenance and upgrades
 

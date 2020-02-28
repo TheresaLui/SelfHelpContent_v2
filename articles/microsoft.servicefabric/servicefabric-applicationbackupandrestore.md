@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="8c3b1732-d9ec-4dd9-bbe9-23d722436c2b"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # application/backupandrestore

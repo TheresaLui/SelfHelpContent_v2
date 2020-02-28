@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="4adc9ef3-b15e-4bbc-90b6-5642e664cb50"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Site Recovery (VMM to Azure)/Enable Protection

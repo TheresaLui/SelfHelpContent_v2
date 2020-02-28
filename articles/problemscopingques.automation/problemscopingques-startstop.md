@@ -9,6 +9,7 @@
 	productPesIds="15607"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="Compute_Automation"
 />
 # Automation Account
 ---

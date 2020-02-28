@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax"
 	articleId="9e942f7e-79cc-420d-ab9b-7888a035f55f"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # connectivity/cannotconnecttoavirtualmachineusingrdporssh

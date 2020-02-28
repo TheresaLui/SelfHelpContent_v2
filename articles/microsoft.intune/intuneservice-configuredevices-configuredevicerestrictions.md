@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="82c90ca0-5633-4655-b506-98eddfece94a"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Configure Devices - Configure device restrictions

@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppResourceMgmtIssueNotListed"
+	ownershipId="AzureNetAppFiles"
 />
 
 # NetApp Files Resource Management Issue not listed above 

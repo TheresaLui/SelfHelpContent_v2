@@ -10,6 +10,7 @@ supportTopicIds="32612433"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Portal / dashboard not loading or throwing error

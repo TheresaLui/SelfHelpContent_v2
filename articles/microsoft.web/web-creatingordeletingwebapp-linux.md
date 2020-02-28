@@ -11,6 +11,7 @@
 	productPesIds="16170"
 	cloudEnvironments="public, Fairfax"
 	articleId="382f73d5-62ac-4f54-a701-876770c47daf"
+	ownershipId="Compute_AppService"
 />
 
 # configuration and management/creating or deleting web app

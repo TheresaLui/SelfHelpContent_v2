@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public, Fairfax"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # Get network traces and engage resources
 

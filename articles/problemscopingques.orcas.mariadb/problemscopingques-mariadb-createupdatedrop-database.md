@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-createupdatedrop-database"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Create Update and Drop Resources - Databases
 ---

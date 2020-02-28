@@ -10,6 +10,7 @@
 	productPesIds="15804"
 	cloudEnvironments="public, Fairfax"
 	articleId="9886ad4b-3a11-4c4d-8c44-36344a4a9d00"
+	ownershipId="CloudNet_DNS"
 />
 
 # configuration and management of dns zone or record

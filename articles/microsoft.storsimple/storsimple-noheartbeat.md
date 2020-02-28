@@ -14,6 +14,7 @@
 	resourceTags="8000series"
 	productPesIds="15438"	
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Device not sending heartbeat 

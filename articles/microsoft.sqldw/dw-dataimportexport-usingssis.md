@@ -12,6 +12,7 @@
     resourceTags=""
     articleId="dw-dataimportexport-usingssis.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Using SSIS

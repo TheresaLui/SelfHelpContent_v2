@@ -12,6 +12,7 @@
     productPesIds="16757"
     cloudEnvironments="public, Fairfax"
 	articleId="bastion-configure-delete-gateway"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Delete Bastion gateway

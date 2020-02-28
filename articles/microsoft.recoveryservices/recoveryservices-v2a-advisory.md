@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="8e138d77-259b-4372-8b67-8531cbb84afc"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Advisory questions - VMware/Physical to Azure

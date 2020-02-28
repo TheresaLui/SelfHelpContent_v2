@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="c6e12a7c-434d-4243-a2c9-a9b5cfd7c8d2"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Avere vFXT Documentation Request
 ---

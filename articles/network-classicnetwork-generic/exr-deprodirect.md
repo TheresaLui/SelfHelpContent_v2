@@ -12,6 +12,7 @@
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
     articleId="a7a282b0-2115-4922-bfa6-929b0fffb32b"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # De-provisioning Issues - ExpressRoute Direct

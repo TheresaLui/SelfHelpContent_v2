@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="8a829c35-b61d-4a25-9360-7a4f40982586"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Scheduling

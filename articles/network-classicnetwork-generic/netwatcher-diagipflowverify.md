@@ -11,6 +11,7 @@ description="diagnostictools/ipflowverification"
 	productPesIds="16160"
 	cloudEnvironments="public, Fairfax"
 	articleId="e4c40d8a-f6bf-4972-9e32-eb3e1b2e9ce3"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # diagnostictools/ipflowverification

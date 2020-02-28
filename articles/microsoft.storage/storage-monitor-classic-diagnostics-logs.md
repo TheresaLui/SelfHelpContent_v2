@@ -12,6 +12,7 @@
 	productPesIds="15629,16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="b5515402-f2a3-4ba5-9353-536054202db0"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Issues with diagnostic logs

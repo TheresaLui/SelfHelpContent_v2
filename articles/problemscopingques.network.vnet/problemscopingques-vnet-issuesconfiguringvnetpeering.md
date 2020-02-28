@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="13819438614"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # Issues configuring VNet Peering
 ---

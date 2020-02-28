@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="29427fe7-6a8b-46fc-aa6d-8d3fd5176098"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # How-To: Azure SQL Database Management

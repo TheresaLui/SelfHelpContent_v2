@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="642faf03-4cca-4b69-ad56-1396369a025f"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Migrate Hyper-V servers to Azure through Azure Site Recovery services

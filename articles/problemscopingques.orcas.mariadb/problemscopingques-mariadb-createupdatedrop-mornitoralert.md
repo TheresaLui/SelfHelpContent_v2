@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-createupdatedrop-mornitor_alert"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Create Update and Drop Resources - Monitoring and alerts
 ---

@@ -14,6 +14,7 @@ supportTopicIds="32436961,32573483,32582834,32436964,32436960,32582828,32582829,
 resourceTags="windows"
 productPesIds="15922"
 cloudEnvironments="Public, Fairfax"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Microsoft Azure has identified that your Application Gateway is missing a frontend port

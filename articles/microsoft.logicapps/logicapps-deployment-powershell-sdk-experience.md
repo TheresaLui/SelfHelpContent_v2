@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="0cef5404-a743-483c-a66d-68428450dfa0"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - PowerShell and SDK Experience

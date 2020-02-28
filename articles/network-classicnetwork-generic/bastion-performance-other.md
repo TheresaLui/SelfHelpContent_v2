@@ -12,6 +12,7 @@
     productPesIds="16757"
     cloudEnvironments="public, Fairfax"
 	articleId="bastion-performance-other"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Have other performance issues while using my RDP or SSH session

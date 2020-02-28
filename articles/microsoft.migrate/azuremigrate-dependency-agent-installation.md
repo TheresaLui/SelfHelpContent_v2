@@ -12,6 +12,7 @@
     productPesIds="16348"
     cloudEnvironments="public, Fairfax"
     articleId="23107b51-5825-4eba-83ec-d29f6fb21ffc"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Installation of Dependency Agents

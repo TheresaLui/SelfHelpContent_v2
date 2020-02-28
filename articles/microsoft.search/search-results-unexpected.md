@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="search-results-unexpected"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Understanding how Azure Cognitive Search ranks search results

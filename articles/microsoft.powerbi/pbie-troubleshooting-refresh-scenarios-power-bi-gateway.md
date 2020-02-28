@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="707b13ff-455b-6fc8-0658-edea497cb80b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting refresh scenarios

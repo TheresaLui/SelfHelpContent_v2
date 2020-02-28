@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-clusterneedhelpwithconfigurationchange"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Need help with cluster configuration change

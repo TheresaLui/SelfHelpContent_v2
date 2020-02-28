@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="e45ad04c-be9d-4703-ae53-5a5f94b31746"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Migrate machines

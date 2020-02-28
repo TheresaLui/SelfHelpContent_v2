@@ -11,6 +11,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax"
 	articleId="cc17f244-4b5a-48ef-9794-f93a85c3adbe"
+	ownershipId="Compute_AppService"
 />
 
 # Problems with ASE

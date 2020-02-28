@@ -12,6 +12,7 @@
     resourceTags=""
     articleId="dw-availabilityandconnectivity-errorconnectingtomydatabase.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Error connecting to my database

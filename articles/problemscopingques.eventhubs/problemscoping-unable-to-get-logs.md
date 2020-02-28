@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-unable-to-get-logs"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Unable to retrieve diagnostics or log information
 ---

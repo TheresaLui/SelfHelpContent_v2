@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-keyvault"
+	ownershipId="Compute_AppService"
 />
 # Certificate Key Vault Binding/Link
 ---

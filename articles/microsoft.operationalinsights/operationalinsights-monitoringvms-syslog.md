@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="f007d6a8-45ed-46d5-a7bb-a543d07d7393"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Monitoring VMs: Syslog Problems related to Performance Counters on Windows or Linux

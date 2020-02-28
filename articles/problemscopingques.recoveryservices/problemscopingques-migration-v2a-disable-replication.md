@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="3b342a85-0813-4b4d-b7d0-43639892e013"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions for V2A Disable Replication
 

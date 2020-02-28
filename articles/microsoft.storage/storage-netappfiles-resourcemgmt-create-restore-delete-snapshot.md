@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppResourceMgmtCreateRestoreDeleteSnapshot"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Troubleshoot and resolve Create Restore Delete snapshot of NetApp Files 

@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="432ebfbb-6e97-43cb-a74f-ffb12749d8ac"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage PCs with Software Agent - Apps

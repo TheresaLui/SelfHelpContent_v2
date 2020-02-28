@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="a92a1869-ccb8-4951-9844-de3c36b2e52d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage Devices - Remove Devices

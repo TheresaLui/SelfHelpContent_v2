@@ -9,6 +9,7 @@
 	productPesIds="15818"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Data Import, Export (ETL)/Using Azure Data Factory
 ---

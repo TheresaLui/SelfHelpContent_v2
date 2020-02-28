@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-clusterdiskspace"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Cluster nodes running out of disk space

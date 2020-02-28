@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM configuration protection failure 
 ---

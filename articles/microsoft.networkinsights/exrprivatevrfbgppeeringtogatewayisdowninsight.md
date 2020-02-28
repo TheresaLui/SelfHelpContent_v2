@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # ExpressRoute BGP Peering to VNet Gateway is Down
 
 BGP is currently down between the MSEE private peering and the gateway that the customer has deployed in their VNet.

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-createupdatedrop-arm_template"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Create Update and Drop Resources - ARM template issues
 ---

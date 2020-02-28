@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-performanceandqueryexecution.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # How to enhance and troubleshoot query performance and execution

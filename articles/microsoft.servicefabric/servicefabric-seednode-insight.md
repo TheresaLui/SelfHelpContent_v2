@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15842"
     cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Detected one or more missing seed nodes

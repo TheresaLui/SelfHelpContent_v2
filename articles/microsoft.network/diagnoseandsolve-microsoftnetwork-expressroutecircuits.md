@@ -11,6 +11,7 @@
 	selfHelpType="diagnoseandsolve"
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # Top common problems for microsoft.network, expressroutecircuits
 ---

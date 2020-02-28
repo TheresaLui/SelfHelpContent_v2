@@ -11,6 +11,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="19fa4f52-6156-4a4a-840a-9e8853c4b417"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # document tracking

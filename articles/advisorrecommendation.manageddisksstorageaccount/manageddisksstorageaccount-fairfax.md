@@ -6,6 +6,7 @@
     articleId="36c3633b-daac-4e01-af95-11b8c2f4fe20_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Managed disks to prevent disk I/O throttling
 ---

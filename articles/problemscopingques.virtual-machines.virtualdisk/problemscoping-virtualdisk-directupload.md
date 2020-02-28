@@ -9,6 +9,7 @@
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-virtualdisk-directupload"
+	ownershipId="Compute_ComputePlatform"
 />
 # Virtual Disk Management
 ---

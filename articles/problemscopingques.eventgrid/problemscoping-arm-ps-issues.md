@@ -13,6 +13,7 @@ productPesIds="16263"
 cloudEnvironments="public, Fairfax"
 articleId="eg-arm-ps-issues"
 schemaVersion="1"
+	ownershipId="AzureEventGrid_Topics"
 />
 # ARM and PowerShell Issues
 ---

@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-securityprivacyandcompliance.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Security, Privacy and Compliance

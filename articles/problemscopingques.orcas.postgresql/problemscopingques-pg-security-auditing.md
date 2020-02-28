@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-security-auditing"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Security - Auditing
 ---

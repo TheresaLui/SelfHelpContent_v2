@@ -9,6 +9,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="Compute_AppService"
 />
 # Timer trigger function failed to trigger
 ---

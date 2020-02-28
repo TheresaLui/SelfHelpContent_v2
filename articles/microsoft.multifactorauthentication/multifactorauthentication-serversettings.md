@@ -9,6 +9,7 @@
   productPesIds="14947"
   cloudEnvironments="public"
 	articleId="fe5b5c88-ac6b-4b45-a41f-78331bb71952"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # MFA server settings configuration

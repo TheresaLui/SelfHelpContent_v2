@@ -11,6 +11,7 @@
 	productPesIds="14748, 16170"
 	cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="51e6cda1-c3bb-4f47-9b45-aa99879b00f5"
+	ownershipId="Compute_AppService"
 />
 
 # Open Source Technologies/MySQL

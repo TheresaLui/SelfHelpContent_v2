@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-perf-resourceconsumption"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Performance and Query Execution - Unexpected increase in resource consumption (CPU, Memory, I/O)
 ---

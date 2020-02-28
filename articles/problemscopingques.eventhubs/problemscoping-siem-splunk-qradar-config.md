@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-siem-qradar-splunk-config"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Questions on Configuring Qradar, Splunk or SIEM
 ---

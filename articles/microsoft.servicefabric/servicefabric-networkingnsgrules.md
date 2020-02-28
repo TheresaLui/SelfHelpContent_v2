@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="946bbbe3-a6e7-4f21-8db8-b6c44bbb2073"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # networking/nsgrules

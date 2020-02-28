@@ -12,6 +12,7 @@
     productPesIds="16556"
     cloudEnvironments="public, Fairfax"
 	articleId="cd82d87d-0a7a-443f-b0e4-84c6b5f5cc98"
+	ownershipId="CloudNet_AzureFirewall"
 />
 # Configure Hybrid Network Traffic Filtering
 

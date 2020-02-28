@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-importing-exporting"
+	ownershipId="Compute_AppService"
 />
 # Importing/Exporting App Service Certificates
 ---

@@ -12,6 +12,7 @@
 	productPesIds="16598"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="34be1f97-28bb-476c-9dd7-4302579f930a"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # How to find the right data migration method

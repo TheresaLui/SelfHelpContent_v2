@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="66d117ce-0066-4e22-96a9-5a931234316c"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # create drop and manage resources/firewall rules

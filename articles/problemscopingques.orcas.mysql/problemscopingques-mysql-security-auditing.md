@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-security-auditing"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Security - Auditing
 ---

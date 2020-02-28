@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="364b-4dc7-9b67-099847303e2a"
+	ownershipId="Compute_AppService"
 />
 
 # Web app slow

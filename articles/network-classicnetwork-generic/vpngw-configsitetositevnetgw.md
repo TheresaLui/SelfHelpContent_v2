@@ -12,6 +12,7 @@
     productPesIds="16094"
     cloudEnvironments="public, Fairfax"
     articleId="96946134-dccc-4f1b-82fd-925a88e2c37f"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure a Site-to-Site connection
 

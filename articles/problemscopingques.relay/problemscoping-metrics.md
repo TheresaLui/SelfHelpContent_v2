@@ -13,6 +13,7 @@ productPesIds="16123"
 cloudEnvironments="public, Fairfax"
 articleId="relay-monitor"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Monitoring and Metrics Issues
 ---

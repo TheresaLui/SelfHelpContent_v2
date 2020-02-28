@@ -8,6 +8,7 @@
   cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="903e6d9f-d245-4e84-be5e-7d5c6b947da6"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsight CRUD Issues
 ---

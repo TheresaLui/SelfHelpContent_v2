@@ -10,6 +10,7 @@ supportTopicIds="32612497"
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Agent is crashing

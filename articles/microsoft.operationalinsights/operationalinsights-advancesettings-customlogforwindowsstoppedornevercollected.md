@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="bd1c0147-2977-4037-b3ad-715c612bde56"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Custom Logs for Windows - Added but stopped or never collected

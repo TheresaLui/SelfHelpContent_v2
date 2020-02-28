@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="ee44edb9-bc33-4b9e-87f1-9002c93611ef"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Site Recovery (VMware to Azure)/ Process Server deployment and issues.

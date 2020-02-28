@@ -12,6 +12,7 @@
     productPesIds="16370"
     cloudEnvironments="public, Fairfax"
     articleId="85411bcc-e062-4d41-9c4a-a554687b3cc0"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Site Recovery (VMM to Azure)/Add register VMM server

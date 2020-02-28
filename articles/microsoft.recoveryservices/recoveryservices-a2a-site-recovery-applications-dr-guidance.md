@@ -12,6 +12,7 @@
     productPesIds="16370"
     cloudEnvironments="public, Fairfax"
     articleId="8fe18e11-118c-49e6-a8c0-3e4ef4059080"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Advisory Questions - Azure to Azure

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-server-parametersnotlisted"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Server Parameters - Server parameter not listed
 ---

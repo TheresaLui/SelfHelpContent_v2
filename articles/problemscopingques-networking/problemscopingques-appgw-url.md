@@ -9,6 +9,7 @@ supportTopicIds="32436964,32582829,32582830,32582826,32582827,32565735,32565736,
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	schemaVersion="1"
 	articleId="ad021338-109f-4290-a45e-f7be9d73fe26"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Application Gateway URL
 ---

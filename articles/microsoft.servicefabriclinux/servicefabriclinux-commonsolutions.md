@@ -12,6 +12,7 @@ supportTopicIds="32589163,32589164,32589176,32589177,32589178,32589182,32589186,
 	productPesIds="16147"
 	cloudEnvironments="public, Fairfax"
 	articleId="dff903db-a3a3-4260-90ad-b3480e608892"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Service Fabric Linux Common Solutions

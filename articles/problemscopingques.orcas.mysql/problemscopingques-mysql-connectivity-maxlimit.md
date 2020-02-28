@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-connectivity-maxlimit"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Connectivity - Server hit maximum connection limit
 ---

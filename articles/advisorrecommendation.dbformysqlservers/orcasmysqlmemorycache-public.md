@@ -6,6 +6,7 @@
     articleId="74aa92b7-9c42-4640-9b1b-8ab645c86a00_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Move your MySQL server to Memory Optimized SKU
 ---

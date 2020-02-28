@@ -12,7 +12,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Microsoft IPv4 Peering Prefixes are not Advertised
 This is likely failing due to missing route filters.  Many services are accessible through peering configured on an Express Route circuit.  The prefixes related to those services are advertised through Border Gateway Protocol (BGP) session that are established.  A BGP community value is attached to every prefix to identify the service that is offered through the prefix. <br> 
 <br>

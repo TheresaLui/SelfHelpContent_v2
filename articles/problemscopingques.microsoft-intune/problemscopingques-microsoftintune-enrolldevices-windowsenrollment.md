@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="c8209426-b86c-4712-8575-6d2d592226fb"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Enroll Devices - Windows Enrollment
 ---

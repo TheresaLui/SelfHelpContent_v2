@@ -12,6 +12,7 @@
 	productPesIds="16170,16333"
 	cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="39263c39-9ac9-41a5-97bb-44b753878356"
+	ownershipId="Compute_AppService"
 />
 
 # open source technologies/node.js

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-security-firewallrules"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Security - Firewall rules
 ---

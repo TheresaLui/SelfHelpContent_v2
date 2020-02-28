@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-performanceandqueryexecution-queryperformanceandtimeouts.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Query performance and timeouts

@@ -11,6 +11,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax"
 	articleId="52c5dac9-9768-463b-8095-e4c85cba97d8"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # unable to connect to vm or application via established vpn tunnel

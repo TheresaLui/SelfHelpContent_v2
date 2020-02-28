@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="b0f65b5a-5a0d-4979-906d-5f93bfbba4c8"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Configuration Issues
 ---

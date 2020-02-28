@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	articleId="b25f0d4f-e728-487f-a3f3-6770908ce5cd"
+	ownershipId="Compute_VirtualMachines"
 />
 # Questions Azure VM backup failure for Linux 
 ---

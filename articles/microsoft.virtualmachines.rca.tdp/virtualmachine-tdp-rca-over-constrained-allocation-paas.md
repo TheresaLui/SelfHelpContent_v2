@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_CloudServices"
 />
 # We ran diagnostics on your resource and found an issue
 

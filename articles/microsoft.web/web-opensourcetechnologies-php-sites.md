@@ -12,6 +12,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="9e53b2c0-d150-47f6-822c-dc8c3df6d89a"
+	ownershipId="Compute_AppService"
 />
 
 # open source technologies/php

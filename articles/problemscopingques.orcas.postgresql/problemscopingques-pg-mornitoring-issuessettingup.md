@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-mornitoring-issuessettingup"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Monitoring and Alerting - Issues with setting up monitors and alerts
 ---

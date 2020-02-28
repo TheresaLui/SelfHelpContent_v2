@@ -8,6 +8,7 @@
   cloudEnvironments="public"
    schemaVersion="1"
    articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
 

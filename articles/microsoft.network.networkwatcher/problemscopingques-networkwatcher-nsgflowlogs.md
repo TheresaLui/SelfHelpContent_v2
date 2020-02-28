@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="23f8d822-ea47-49a0-8638-95e9d8d1113f"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Issues with NSG Flow Logs

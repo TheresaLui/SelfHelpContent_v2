@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-application-deployment-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # Application Deployment
 ---

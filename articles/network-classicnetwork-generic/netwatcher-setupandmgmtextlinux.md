@@ -11,6 +11,7 @@
 	productPesIds="16160"
 	cloudEnvironments="public, Fairfax"
 	articleId="a2e7c45d-e4d8-4c93-9558-42b5a89deb2d"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # nwsetupandmgmt/networkwatcherextensionforlinux

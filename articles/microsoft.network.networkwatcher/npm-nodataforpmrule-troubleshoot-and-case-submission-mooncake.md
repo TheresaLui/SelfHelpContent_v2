@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="npm-nodataforpmrule-troubleshoot-and-case-submission-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # NPM for Performance Monitor

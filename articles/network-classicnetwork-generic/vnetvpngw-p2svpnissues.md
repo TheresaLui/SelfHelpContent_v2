@@ -11,6 +11,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax"
 	articleId="fbbd16a1-4abf-48c3-a9ca-7834280dc5ae"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # p2s vpn issues

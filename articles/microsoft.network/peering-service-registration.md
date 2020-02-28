@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="16932"
 	cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="Peering_PeeringService"
 />
 
 # Issues relating to registration/modification of Peering Service prefixes

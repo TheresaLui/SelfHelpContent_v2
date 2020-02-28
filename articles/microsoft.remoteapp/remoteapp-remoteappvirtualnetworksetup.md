@@ -11,6 +11,7 @@
 	productPesIds="15540"
 	cloudEnvironments="public"
 	articleId="e8a90643-b49c-4b3e-965a-28b8fbf348a6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # remoteapp deployment/remoteapp virtual network setup

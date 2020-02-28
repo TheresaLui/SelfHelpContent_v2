@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="297edbc3-b55b-418c-a135-6ecbdfbe4953"
+	ownershipId="Compute_SiteRecovery"
 />
 # Hyper-V VM replication does not progress
 ---

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-scaleresource-errors"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Scaling a resource - Errors scaling a resource
 ---

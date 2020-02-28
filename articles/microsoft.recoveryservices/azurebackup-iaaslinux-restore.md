@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="9344f1ee-97c8-459c-8a55-58c514b4d2ef"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Linux VM Restore Limitations

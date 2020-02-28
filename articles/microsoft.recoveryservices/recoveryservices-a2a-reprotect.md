@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="a7ee66ca-fb61-41f7-a8a4-6b2afcd87232"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Reprotecting the Azure VM in the secondary region

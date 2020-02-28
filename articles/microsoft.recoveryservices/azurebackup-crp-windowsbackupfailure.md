@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="dee16e08-9048-4f4e-9afe-b592ce647817"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Azure Backup - Backup is failing for my VM

@@ -12,6 +12,7 @@
     productPesIds="16370"
     cloudEnvironments="public, Fairfax"
     articleId="35e66bb8-2fc0-4006-b001-a3234480e5fe"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Networking concepts for Azure to Azure replication

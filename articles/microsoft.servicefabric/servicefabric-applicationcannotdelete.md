@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-applicationcannotdelete"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # application/Delete Application

@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="d8ccae4d-fff9-418d-8563-29e5a8969a4d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Set device compliance - Create macOS Policy

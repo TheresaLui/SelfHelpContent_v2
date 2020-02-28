@@ -9,6 +9,7 @@
     productPesIds="14947"
     cloudEnvironments="public"
  	articleId="77df23fa-ead5-41f7-82c3-f94677392031"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # MFA Service (Cloud)/Other questions regarding MFA Service (cloud)

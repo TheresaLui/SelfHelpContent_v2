@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-security-threatprotection"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Security - Advanced Threat Protection
 ---

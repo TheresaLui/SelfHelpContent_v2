@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-replication-issues"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Replication - Issues to Azure Database for MySQL
 ---

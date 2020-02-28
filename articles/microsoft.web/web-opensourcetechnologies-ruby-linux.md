@@ -12,6 +12,7 @@
 	productPesIds="16170"
 	cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="63428241-3806-4eaa-8094-ad2128c8995b"
+	ownershipId="Compute_AppService"
 />
 
 # OSS/Ruby on Rails
