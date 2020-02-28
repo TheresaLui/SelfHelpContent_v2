@@ -33,7 +33,7 @@ The following Azure services and functionality will **NOT** be impacted by this 
 
 ## **Recommended Steps**
  
-You should start planning the migration of your existing Classic IaaS VMs from ASM to ARM today. For more information please see our [classic IaaS VM deprecation](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-plan) documentation.
+You should start planning the migration of your existing Classic IaaS VMs from ASM to ARM today. For more information please see our [classic IaaS VM deprecation](https://docs.microsoft.com/azure/virtual-machines/classic-vm-deprecation) documentation.
 
 ## **Recommended Documents**
 
