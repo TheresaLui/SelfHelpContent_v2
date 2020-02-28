@@ -266,7 +266,7 @@
         {
             "id": "70f90d43-dedf-eadf-71c8-f9bb3de8c39c",
             "longDescription": "",
-            "shortDescription": "Unable to create cluster due to an Azure Policy issue.",
+            "shortDescription": "Unable to create a cluster due to an Azure Policy issue.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -274,7 +274,7 @@
         {
             "id": "e19060d9-7553-ca74-c396-60e3c4a4d9c0",
             "longDescription": "",
-            "shortDescription": "Unable create cluster due to insufficient number of cores or quota limit.",
+            "shortDescription": "Unable create a cluster due to an insufficient number of cores or quota limit.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -298,7 +298,7 @@
         {
             "id": "7af032eb-7b6f-f9cf-8fae-b86eee8f4b6b",
             "longDescription": "",
-            "shortDescription": "Issues with Custom Script actions or installing third party application.",
+            "shortDescription": "Issues with Custom Script actions or installing third party applications.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -306,7 +306,7 @@
         {
             "id": "5d5a0ca9-1600-456f-e513-d1bf0d573a06",
             "longDescription": "",
-            "shortDescription": "Unable to create HDInsight cluster in a VNET.",
+            "shortDescription": "Unable to create an HDInsight cluster in a VNET.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -482,7 +482,7 @@
         {
             "id": "a214c4a4-f06d-eb3b-537b-20f7292730a3",
             "longDescription": "",
-            "shortDescription": "Hive queries or jobs are running slower than before on a Hive cluster.",
+            "shortDescription": "Hive queries or jobs are running slower than before.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -714,7 +714,7 @@
         {
             "id": "c7372d00-fd95-e2e6-0fae-b23a1a16b06f",
             "longDescription": "",
-            "shortDescription": "Hive jobs or queries return unexpected results on an Hive cluster.",
+            "shortDescription": "Hive jobs or queries return unexpected results.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
