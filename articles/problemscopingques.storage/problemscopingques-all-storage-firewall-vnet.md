@@ -106,7 +106,7 @@
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceProvider_list",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup_list}/resources?api-version=2019-10-01",
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/ATMtestRG/resources?api-version=2019-10-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
