@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+ ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_rca-subscription-not-authorized-for-image-failure"
 	diagnosticScenario="DeploymentFailure"
