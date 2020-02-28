@@ -11,7 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="ee274e93-1ea2-4eda-a38b-f5484f7a2ddb"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Configure Wifi Settings

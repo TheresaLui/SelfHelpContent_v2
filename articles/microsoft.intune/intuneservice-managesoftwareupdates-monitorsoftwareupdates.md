@@ -11,7 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="d96bbc7d-5c18-45f0-8f3e-2b1a8e54ecd4"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Software Updates - Monitor Software Updates

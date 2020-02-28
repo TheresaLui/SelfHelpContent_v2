@@ -11,7 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
  	articleId="2143ae22-5efa-4c1e-86dc-ab109541a424"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Admin is unable to configure app protection policies.

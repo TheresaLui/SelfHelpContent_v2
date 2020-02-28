@@ -11,7 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.trainingandexperimentation.accessingrunhistory"
 	selfHelpType="generic"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Issues with accessing run history

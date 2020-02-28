@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
 <div>We cannot find the user <!--$UPN-->[UPN]<!--/$UPN-->.  Please confirm you entered the correct user and try again.</div>

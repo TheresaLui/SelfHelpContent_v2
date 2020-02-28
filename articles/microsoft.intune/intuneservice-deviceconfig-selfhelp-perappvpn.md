@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="76eb1ad0-8063-49ff-aa2b-cd1e7a28b175"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # When I configure a custom VPN for iOS, the per-app VPN feature isn't made available.

@@ -11,7 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.trainingandexperimentation.distributedtraining"
 	selfHelpType="generic"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Distributed training issues

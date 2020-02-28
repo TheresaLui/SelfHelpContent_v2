@@ -11,7 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="7eecdef1-376d-43ae-90a6-5295a179a12b"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage PCs with Software Agent - Remote Assistance

@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="70fd0325-aa11-4701-8e46-02b9f22f9db0"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # My devices show as not compliant, even though all devices are enrolled and have compliance policies assigned to them.
