@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-Does the LB traffic traverse through different vnets over vnet peering? If yes, please read the steps below. If no, you can disregard this step and skip it by choosing "Traffic is not globally peered". 
+Check if the LB traffic traverse through different vnets over vnet peering. If that is the case please read the steps below. Otherwise disregard this step and skip it by choosing "Traffic is not globally peered". 
 
 * Check if the vnet peering is between vnets in the same or different regions
 * This can be accomplished by looking at the vnets that are peered in ASC
