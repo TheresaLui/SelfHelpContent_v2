@@ -24,6 +24,7 @@ U-SQL jobs can fail for a number of reasons.  Common reasons include:
 * Changes to the ACLs of the ADLS files consumed in the job
 * Changing data size may cause data skew or storage throttling
 * Changing data-distribution across partitions may cause errors or unoptimized execution of U-SQL jobs
+* Too many table INSERTS without periodic ALTER TABLE REBUILDs [Alter table](https://docs.microsoft.com/u-sql/ddl/tables/alter-table) can lead to job degradation and failure
 * Improvements to the U-SQL compiler and optimizer may cause existing optimizer hints to become outdated 
 * Note that U-SQL jobs that fail with error type "SYSTEM" are not charged 
 
