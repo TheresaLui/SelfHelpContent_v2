@@ -24,4 +24,4 @@ We have identified that your backup operation failed because the VM is unable to
 
 ## **Recommended Steps**
 
-To resolve this issue, refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorcrpreportedusererror---backup-failed-due-to-an-error-for-details-see-job-error-message-details)
+To resolve this issue, refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorcrpreportedusererror---backup-failed-due-to-an-error-for-details-see-job-error-message-details)
