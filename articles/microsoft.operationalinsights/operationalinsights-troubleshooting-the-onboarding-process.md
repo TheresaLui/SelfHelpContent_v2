@@ -15,6 +15,7 @@
 	resourceTags="assessments,on-boarding,troubleshooting"
 	productPesIds="15725"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 #  Troubleshooting Health Check and On-Demand Assessments

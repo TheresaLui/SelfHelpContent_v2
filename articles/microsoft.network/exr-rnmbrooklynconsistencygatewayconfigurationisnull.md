@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # **ExpressRoute Gateway Configuration is Null**
 <!--/issueDescription-->

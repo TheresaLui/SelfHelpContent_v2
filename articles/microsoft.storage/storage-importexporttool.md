@@ -11,6 +11,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public"
 	articleId="21593658-34a6-40b6-b722-0bd2789c59d9"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # I need help with Import/Export Job

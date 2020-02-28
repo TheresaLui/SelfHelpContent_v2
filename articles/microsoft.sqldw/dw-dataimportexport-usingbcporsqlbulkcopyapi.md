@@ -12,6 +12,7 @@
     resourceTags=""
     articleId="dw-dataimportexport-usingbcporsqlbulkcopyapi.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Using bcp or SQLBulkCopy API

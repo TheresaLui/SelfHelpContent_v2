@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16370"
     cloudEnvironments="Public, Fairfax"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Mobility agent fails to register with the configuration server

@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	cloudEnvironments="public, Fairfax"
 	articleId="indexer-cosmos-db-issue"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue indexing data from Azure Cosmos DB

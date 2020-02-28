@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="0c52d3c1-cbcf-4853-ae9c-5bc65202b003"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # connectivity/network connectivity problems

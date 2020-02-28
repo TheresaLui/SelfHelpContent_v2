@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="4d9844b6-7e15-41c3-1dac-3446b8bdcac4"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Power BI Embedded migration tool

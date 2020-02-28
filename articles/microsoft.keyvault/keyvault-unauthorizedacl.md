@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # You have Key Vault recommendations

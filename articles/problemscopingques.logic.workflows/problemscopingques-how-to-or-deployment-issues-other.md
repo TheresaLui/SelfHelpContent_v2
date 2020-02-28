@@ -9,6 +9,7 @@
 	productPesIds="15791"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="Compute_LogicApps"
 />
 # On-Premises Data Gateway
 ---

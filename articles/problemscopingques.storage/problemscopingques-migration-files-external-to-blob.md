@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="b32ffb32-eb2f-4302-8261-212ea82ca36c"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # Transfer data from external sources to Blob storage

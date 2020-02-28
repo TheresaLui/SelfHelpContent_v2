@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="index-delete-issue"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue deleting an index

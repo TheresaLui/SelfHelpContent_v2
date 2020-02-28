@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="710961cc-a064-4550-be70-2069dc2e00ff"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Question about securing an existing virtual WAN Hub
 ---

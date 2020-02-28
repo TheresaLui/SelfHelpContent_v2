@@ -9,6 +9,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 # Azure Data Lake Tools installation issues for Visual Studio
 ---

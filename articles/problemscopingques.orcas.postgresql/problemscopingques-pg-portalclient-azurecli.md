@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-portalclient-azurecli"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Portal, Client Tools and APIs - Azure CLI
 ---

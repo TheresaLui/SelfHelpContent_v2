@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="b2ecdb4d-ff62-4ed2-9a20-29ca8b399640"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Cluster upgrade
 ---

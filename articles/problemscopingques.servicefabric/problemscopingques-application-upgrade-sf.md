@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-application-upgrade-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # Application Upgrade
 ---

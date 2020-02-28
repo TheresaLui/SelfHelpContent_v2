@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16370"
     cloudEnvironments="Public, Fairfax"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Enable replication failed as extension operation is not started

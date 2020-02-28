@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-security-vnet_endpoint"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Security - VNET service endpoints
 ---

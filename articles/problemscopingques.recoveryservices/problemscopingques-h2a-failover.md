@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="c3bbe952-df87-4222-9534-98223c9c0527"
+	ownershipId="Compute_SiteRecovery"
 />
 # Failover and planned failover issues
 ---

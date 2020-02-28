@@ -12,6 +12,7 @@
     productPesIds="16556"
     cloudEnvironments="public, Fairfax"
 	articleId="firewalls-performanceissues"
+	ownershipId="CloudNet_AzureFirewall"
 />
 
 # Generic message for case routing

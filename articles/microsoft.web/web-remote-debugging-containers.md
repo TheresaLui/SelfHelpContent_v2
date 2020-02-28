@@ -11,6 +11,7 @@
 	productPesIds="16333"
 	cloudEnvironments="public, Fairfax"
 	articleId="73a9bee6-dfe2-4bec-8921-1bcd1bf64d1f"
+	ownershipId="Compute_AppService"
 />
 
 

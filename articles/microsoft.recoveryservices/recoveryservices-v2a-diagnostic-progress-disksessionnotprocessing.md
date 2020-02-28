@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16370"
     cloudEnvironments="Public, Fairfax"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Replication status is critical because a disk in the virtual machine is not replicating from last 2 hours

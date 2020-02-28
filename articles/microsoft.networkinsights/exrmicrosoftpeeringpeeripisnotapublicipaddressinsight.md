@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # ExpressRoute Peer IP Address is not a Public IP Address
 <!--/issueDescription-->

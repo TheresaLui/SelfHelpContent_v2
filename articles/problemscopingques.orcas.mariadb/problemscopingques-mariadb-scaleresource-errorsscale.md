@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-scaleresource-errors"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scaling a resource - Errors scaling a resource
 ---

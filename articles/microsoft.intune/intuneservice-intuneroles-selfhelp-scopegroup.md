@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="c7dd7f17-69ff-4283-9412-e326066e123e"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I added a scope group to a role, but users in that role still see other users or devices.

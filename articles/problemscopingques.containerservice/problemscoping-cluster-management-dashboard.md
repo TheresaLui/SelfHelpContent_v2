@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-dashboard"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Dashboard related issues
 ---

@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="b2fd5554-93f9-4a2b-bf96-7347e6d69005"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Migrate VMware/Physical servers to Azure through Azure Site Recovery services

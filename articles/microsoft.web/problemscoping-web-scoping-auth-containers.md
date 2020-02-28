@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="0b0cb739-3aa0-45da-91c5-17e78c0b33b5"
+	ownershipId="Compute_AppService"
 />
 
 # Authentication and authorization

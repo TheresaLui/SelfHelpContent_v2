@@ -12,6 +12,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="e428f83f-2175-43fb-b2c6-383f8d9df88d"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Connectivity to Office 365 Services

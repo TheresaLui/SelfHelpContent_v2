@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-replication-create_delete"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Replication - Create or delete read replicas
 ---

@@ -12,6 +12,7 @@
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-databaseisntlistedintheazureportal.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Database isn't listed in the Azure portal
 

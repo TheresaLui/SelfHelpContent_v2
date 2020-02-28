@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="36040ccc-979b-429c-b861-2bff94c83ff0"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Deploying API Connections

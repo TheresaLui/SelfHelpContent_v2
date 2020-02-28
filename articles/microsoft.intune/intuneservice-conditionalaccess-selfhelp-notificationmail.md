@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="2ee4fe18-e50b-469e-a88c-4a5ec5fdad09"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # A user added an email application to their device, and then received an email stating that their device is not enrolled or not compliant.

@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-clusterproblemwithcustomerdeletion"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Cluster deletion

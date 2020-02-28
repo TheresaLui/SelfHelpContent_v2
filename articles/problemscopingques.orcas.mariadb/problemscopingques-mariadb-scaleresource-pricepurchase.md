@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-scaleresource-price_purchase"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scaling a resource - Pricing tiers and purchasing model (vCores, storage, etc.)
 ---

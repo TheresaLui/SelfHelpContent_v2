@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="db69e7ff-4d73-423a-97ae-b30cee9f0d64"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Storage migration between Storage Accounts
 ---

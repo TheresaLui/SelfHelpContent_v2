@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-createupdatedrop-databases"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Create Update and Drop Resources - Databases
 ---

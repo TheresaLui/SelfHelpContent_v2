@@ -10,6 +10,7 @@
 	cloudEnvironments="public, MoonCake, Fairfax"
    schemaVersion="1"
    articleId="d5830015-9922-4fff-a95e-fe5f07dbe2c2"
+	ownershipId="Compute_AppService"
 />
 
 # Creating or deleting resource

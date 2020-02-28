@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="3aa2dc7f-60ec-4582-809f-162b17b891af"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Azure Active Directory Configuration

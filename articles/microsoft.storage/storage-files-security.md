@@ -12,6 +12,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="039606c4-dad6-4318-afd4-dee464071b09"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Securing an Azure file share
 

@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="0d8eae83-5b5d-4e64-b514-d6635e56918e"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # scomintegration-howtosetup

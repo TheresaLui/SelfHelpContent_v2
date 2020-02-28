@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 # Virtual Machine Connectivity Issue: VMA RCA
 

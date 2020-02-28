@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 		     articleId="a935b82e-d051-46f9-ad37-e74b6886619b"
+	ownershipId="Compute_ComputePlatform"
 />
 # Questions Azure VM Restore failure for Windows
 ---

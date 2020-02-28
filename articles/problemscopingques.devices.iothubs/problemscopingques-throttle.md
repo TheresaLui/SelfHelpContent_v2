@@ -9,6 +9,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="7348b913-2ced-401c-9110-9cda48f6d74c"
+	ownershipId="AzureIot_IotHub"
 />
 # Throttling or quota hit
 ---

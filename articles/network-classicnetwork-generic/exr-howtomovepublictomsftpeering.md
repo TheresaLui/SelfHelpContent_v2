@@ -11,6 +11,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="84011c31-32b9-49f5-914d-042f161b357f"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # How to move from public to Microsoft peering

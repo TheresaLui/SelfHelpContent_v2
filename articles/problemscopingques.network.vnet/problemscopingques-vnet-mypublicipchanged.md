@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="752412"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # My public IP address changed

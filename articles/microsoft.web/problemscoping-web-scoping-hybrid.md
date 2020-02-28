@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="e1e848fd-cac2-4473-81a4-b523796daf93"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring hybrid connections with App Service

@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # **Default Routes Advertised**
 <!--/issueDescription-->
 ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**'

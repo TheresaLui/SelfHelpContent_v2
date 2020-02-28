@@ -14,6 +14,7 @@ supportTopicIds="32436964,32436960,32582828,32582829,32582830,32582825,32582826,
 resourceTags="windows"
 productPesIds="15922"
 cloudEnvironments="Public, Fairfax"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Microsoft Azure has identified an issue with your Application Gateway trusted root certificate
 <!--issueDescription-->

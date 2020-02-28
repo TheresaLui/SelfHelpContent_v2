@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-monitoring-issues_metricshown"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Monitoring and Alerting - Issues with metrics shown in the portal
 ---

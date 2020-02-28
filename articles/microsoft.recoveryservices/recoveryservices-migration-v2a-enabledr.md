@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="33a7ea22-165b-43aa-9e6e-e86009667a6b"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Enable Protection - VMware/Physical to Azure

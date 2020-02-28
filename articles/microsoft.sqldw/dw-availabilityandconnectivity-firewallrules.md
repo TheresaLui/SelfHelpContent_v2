@@ -12,6 +12,7 @@
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-firewallrules.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Firewall rules
 

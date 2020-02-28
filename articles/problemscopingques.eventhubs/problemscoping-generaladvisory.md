@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-issue-not-listed"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # General Advisory questions
 ---

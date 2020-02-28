@@ -11,6 +11,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax"
 	articleId="d826a71a-d2e7-4842-9453-558bd88b0edf"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # configurationandsetup/howtoconfigureafirewallinmyvirtualnetwork

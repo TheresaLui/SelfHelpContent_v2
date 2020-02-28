@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="f97f0be5-e5ba-4d9b-9144-34366acf86aa"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Runs and Triggers History

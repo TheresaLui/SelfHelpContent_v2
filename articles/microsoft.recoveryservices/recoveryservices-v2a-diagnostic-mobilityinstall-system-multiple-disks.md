@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16370"
     cloudEnvironments="Public, Fairfax"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Root file system is laid on multiple disks

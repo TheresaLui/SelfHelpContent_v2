@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="1b123f55-6af8-4a65-812e-b1d98cf3145c"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Configuration and Management

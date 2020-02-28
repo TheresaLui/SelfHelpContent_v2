@@ -12,6 +12,7 @@
 	productPesIds="15739"
 	cloudEnvironments="public, Fairfax"
 	articleId="9a769e67-a458-488f-b3f3-8ed0298efacb"
+	ownershipId="Compute_AzurePortal"
 />
 
 # Help with resolving ARM Template Deployment Issues

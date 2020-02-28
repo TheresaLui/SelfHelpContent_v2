@@ -11,6 +11,7 @@
     cloudEnvironments="Public"
     articleId="microsoft-machinelearning-automl-selectingmodels.md"
     selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # How to select or block algorithms in Azure Automated ML

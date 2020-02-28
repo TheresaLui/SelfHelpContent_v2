@@ -13,6 +13,7 @@ productPesIds="13186"
 cloudEnvironments="public, Fairfax"
 articleId="sb-unexpected-delete-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Queue, Topic or Subscription deleted unexpectedly
 ---

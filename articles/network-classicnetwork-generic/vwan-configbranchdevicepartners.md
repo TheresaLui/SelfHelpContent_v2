@@ -11,6 +11,7 @@
 	productPesIds="16572"
 	cloudEnvironments="public, Fairfax"
 	articleId="b2ed4643-fdc3-4e28-9938-c7fbb71c290f"
+	ownershipId="CloudNet_VirtualWAN"
 />
 
 # Configure a branch device for Partners

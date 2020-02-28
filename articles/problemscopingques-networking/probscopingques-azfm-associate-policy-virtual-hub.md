@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="710961cc-a024-4550-be70-2069dc2e00ff"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Question about associating Azure Firewall Policy with Virtual Hub
 ---

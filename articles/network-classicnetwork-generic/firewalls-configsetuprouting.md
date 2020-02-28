@@ -12,6 +12,7 @@
     productPesIds="16556"
     cloudEnvironments="public, Fairfax"
 	articleId="936e33a1-492a-4297-87f4-4848d8b9cd07"
+	ownershipId="CloudNet_AzureFirewall"
 />
 # Setup routing
 

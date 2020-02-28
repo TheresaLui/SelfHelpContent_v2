@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
         schemaVersion="1"
         articleId="e5b28325-284e-40ce-aa2b-d182995f93ea"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Other General Subscription Questions
 ---

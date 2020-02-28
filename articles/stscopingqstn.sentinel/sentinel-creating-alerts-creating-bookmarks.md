@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-creating-alerts-creating-bookmarks"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Trouble creating bookmarks

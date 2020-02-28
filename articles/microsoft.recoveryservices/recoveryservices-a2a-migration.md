@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="3dbc12ad-8ec8-4815-ab50-bc45deb67dcb"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Queries/Issues during migration of servers to Azure

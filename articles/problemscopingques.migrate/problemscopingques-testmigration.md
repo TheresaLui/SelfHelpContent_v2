@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="114d28f4-3a14-4c48-b338-76f5b223aa1e"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Test Migration

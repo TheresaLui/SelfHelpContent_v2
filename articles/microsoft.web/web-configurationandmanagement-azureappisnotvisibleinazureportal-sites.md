@@ -11,6 +11,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax"
 	articleId="5dc1c835-fc1b-44bc-b0fd-92e35777277e"
+	ownershipId="Compute_AppService"
 />
 
 # configuration and management/azure app is not visible in azure portal

@@ -9,6 +9,7 @@
 	productPesIds="15818"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Backup, Restore and Business Continuity - How-to questions or planning a recovery strategy
 ---

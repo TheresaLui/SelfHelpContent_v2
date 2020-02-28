@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-connectivity-unavailable"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Connectivity - Database is currently unavailable
 ---

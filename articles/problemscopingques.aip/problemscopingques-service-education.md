@@ -9,6 +9,7 @@
     cloudEnvironments="Public, Fairfax"
     articleId="scoping_service_education"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---

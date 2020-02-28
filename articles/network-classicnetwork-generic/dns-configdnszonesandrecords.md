@@ -11,6 +11,7 @@
 	productPesIds="15804"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="ff5614c0-e1fe-4cbe-ab23-3891e7872ca4"
+	ownershipId="CloudNet_DNS"
 />
 
 # configure dns zones and records

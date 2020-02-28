@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="Public, Fairfax"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Your virtual machine is not able to access "login.microsoftonline.com" due to DNS resolution failure

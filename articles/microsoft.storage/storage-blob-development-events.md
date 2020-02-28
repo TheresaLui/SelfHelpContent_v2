@@ -12,6 +12,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="873f1653-25d7-4865-a387-b427c062d37b"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to troubleshoot blob storage events

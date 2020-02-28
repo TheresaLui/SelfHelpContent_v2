@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="69353d19-4a89-8e61-a74482e15"
+	ownershipId="Compute_AppService"
 />
 
 # Backup and Restore

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="logic-mylogicappisnotrunning-mooncake"
+	ownershipId="Compute_LogicApp"
 />
 
 # My Logic App is not running

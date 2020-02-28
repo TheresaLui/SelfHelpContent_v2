@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16370"
     cloudEnvironments="Public, Fairfax"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # The GRUB configuration has the entry for the device which doesn't exist

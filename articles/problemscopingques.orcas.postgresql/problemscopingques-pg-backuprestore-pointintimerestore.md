@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-backuprestore-pointintimerestore"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Backup, Restore and Business Continuity - Point in Time Restore
 ---

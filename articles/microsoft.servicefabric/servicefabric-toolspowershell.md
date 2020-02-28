@@ -11,6 +11,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="4fb984ea-8367-484f-8726-45acf8db3478"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # tools/powershell

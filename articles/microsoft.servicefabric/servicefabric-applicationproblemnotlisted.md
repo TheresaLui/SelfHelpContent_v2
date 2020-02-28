@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-applicationproblemnotlisted"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # application/Problem not listed

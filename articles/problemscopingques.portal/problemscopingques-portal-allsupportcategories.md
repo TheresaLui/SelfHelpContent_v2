@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="e31bdba2-c7ff-48c0-a2b3-d5bbd10ab7e4"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Questions for Azure Portal Issues
 ---

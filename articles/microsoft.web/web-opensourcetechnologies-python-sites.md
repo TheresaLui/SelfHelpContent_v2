@@ -12,6 +12,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="25c3877c-0482-4695-8640-d26dbddac347"
+	ownershipId="Compute_AppService"
 />
 
 # open source technologies/python

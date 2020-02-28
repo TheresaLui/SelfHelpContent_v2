@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # The gateway received a Notify Message with an invalid syntax
 <!--issueDescription-->

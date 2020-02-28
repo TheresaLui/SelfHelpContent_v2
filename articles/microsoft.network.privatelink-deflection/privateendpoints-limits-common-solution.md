@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16843"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="CloudNet_PrivateLink"
 />
 
 # What are the limits associated with Private Endpoint?

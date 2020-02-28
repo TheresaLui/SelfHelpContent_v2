@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="aa4dd4bc-49b1-4de7-a5ea-caceaa1b3563"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for unable to discover DB
 ---

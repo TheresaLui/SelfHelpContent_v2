@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="azure-table-datasource"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue indexing an Azure Table data source
 

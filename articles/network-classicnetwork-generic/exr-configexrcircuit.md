@@ -12,6 +12,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="ef4ae747-6116-4834-93df-d8abb5c77054"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Configure ExpressRoute Circuit

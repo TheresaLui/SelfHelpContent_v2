@@ -9,6 +9,7 @@
 	cloudEnvironments="public, MoonCake"
     schemaVersion="1"
    articleId="ActivationExtensionRequest-problemscopingquestion"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 #  Activation Extension Request
 ---

@@ -12,6 +12,7 @@
     resourceTags=""
     articleId="dw-availabilityandconnectivity-unavailabilitywasreportedinresourcehealth.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Unavailability was reported in Resource Health

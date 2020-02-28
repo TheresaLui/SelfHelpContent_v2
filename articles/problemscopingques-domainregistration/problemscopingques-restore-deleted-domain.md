@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-restore-deleted-domain"
+	ownershipId="Compute_AppService"
 />
 # Restoring an Accidently Deleted Domain
 ---

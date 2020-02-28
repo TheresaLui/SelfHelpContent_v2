@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="oli02tg3-836d-401c-b919-f924c12f1e9f"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps authentication

@@ -9,6 +9,7 @@
 	productPesIds="16460"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File Sync scoping question
 ---

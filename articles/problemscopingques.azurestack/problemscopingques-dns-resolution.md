@@ -9,6 +9,7 @@
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-8526-36a830ea0098"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack DNS resolution questions
 ---

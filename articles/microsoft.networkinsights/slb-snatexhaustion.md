@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # You are exhausting the SNAT ports available to your instances
 <!--issueDescription-->

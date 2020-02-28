@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-unexpectedoutput"
+	ownershipId="AzureData_StreamAnalytics"
 />
 # Unexpected output in Azure Stream Analytics
 ---

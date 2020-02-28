@@ -9,7 +9,8 @@
   articleid="blob-storage-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="Compute_AzureBatch"
+/>
 # Support Topic Descriptions for a2c69e6c-34b6-fc5d-0f35-b496a071c28d
 ---
 {

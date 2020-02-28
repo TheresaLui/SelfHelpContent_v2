@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="6c11de4c-386a-49e6-9b42-c6cee09cb86a"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions for VMware to Azure failover problems
 ---

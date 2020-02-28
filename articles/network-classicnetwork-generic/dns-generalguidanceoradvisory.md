@@ -11,6 +11,7 @@
 	productPesIds="15804"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="12f475ed-9a7e-4d54-9782-40f83070f767"
+	ownershipId="CloudNet_DNS"
 />
 
 # general guidance or advisory

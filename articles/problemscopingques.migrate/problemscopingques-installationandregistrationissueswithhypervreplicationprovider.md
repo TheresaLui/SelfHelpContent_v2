@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="2f0b09b6-7ee1-4f4e-95fa-560d385b0c7b"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Installation and registration issues with Hyper-V replication provider

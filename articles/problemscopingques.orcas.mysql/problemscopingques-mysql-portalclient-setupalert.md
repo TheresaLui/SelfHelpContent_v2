@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-toolsapis-setup_alert"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Portal, Client Tools and APIs - Setting up Monitoring and Alerts
 ---

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="5e5f0e01-3879-45ad-aaf2-f9cefad0fa73"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions How-To and General Issues
 ---

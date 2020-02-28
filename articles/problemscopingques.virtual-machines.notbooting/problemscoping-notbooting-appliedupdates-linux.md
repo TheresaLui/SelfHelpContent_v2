@@ -9,6 +9,7 @@
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="f8a31d01-e426-45b9-ac8e-8b1181488db9"
+	ownershipId="Compute_VirtualMachines"
 />
 # My VM is not booting
 ---

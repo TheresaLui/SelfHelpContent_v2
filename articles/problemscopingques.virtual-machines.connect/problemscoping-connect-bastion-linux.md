@@ -9,6 +9,7 @@
 	cloudEnvironments="Public, Fairfax"
 	schemaVersion="1"
 	articleId="51bd129f-25b0-4252-9ca5-dcf05e7e7774"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Connect to a VM using Azure Bastion

@@ -13,6 +13,7 @@
 	resourceTags="windows"
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 # We ran diagnostics on your VM **<!--$vmname-->[vmname]**<!--/$vmname--> and found a start failure
 <!--issueDescription-->

@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="90bb93d9-b23f-4684-a6bb-a4a395f9f4b9"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - Azure Storage

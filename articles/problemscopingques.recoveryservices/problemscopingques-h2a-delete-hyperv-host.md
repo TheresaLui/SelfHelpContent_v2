@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="c0eb3ade-b5e3-44b5-a952-c587b51f7ca8"
+	ownershipId="Compute_SiteRecovery"
 />
 # Hyper-V server deletion failure
 ---

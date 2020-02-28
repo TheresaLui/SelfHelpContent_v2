@@ -12,6 +12,7 @@
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-regionunavailablefordwcreation.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Region unavailable for Data Warehouse creation
 

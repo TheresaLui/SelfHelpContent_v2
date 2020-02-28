@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="search-index-related-service-limits"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Question about Azure Cognitive Search service limits

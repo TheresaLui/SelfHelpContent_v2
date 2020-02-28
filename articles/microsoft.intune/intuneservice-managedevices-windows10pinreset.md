@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="2338294c-54f5-4c09-b68c-ae2a0d69f961"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Windows 10 pin reset

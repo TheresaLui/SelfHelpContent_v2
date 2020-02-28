@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-security-vnet_endpoint"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Security - VNET service endpoints
 ---

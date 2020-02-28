@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="3561f156-4abd-4450-9a71-792802e50f89"
+	ownershipId="Compute_AppService"
 />
 
 

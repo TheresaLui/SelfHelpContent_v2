@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-replication-create_delete"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Replication - Create or delete read replicas
 ---

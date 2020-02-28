@@ -13,6 +13,7 @@ supportTopicIds="32602694"
 resourceTags="windows"
 productPesIds="15629"
 cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # **Running VM has been detected**

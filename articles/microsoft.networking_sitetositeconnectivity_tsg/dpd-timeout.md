@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="b867d12f-d930-4a9e-b1aa-dff26c23323e"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # DPD Timeout

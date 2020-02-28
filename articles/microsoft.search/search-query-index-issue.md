@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="search-query-index-issue"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Search Issue querying an index using the REST API

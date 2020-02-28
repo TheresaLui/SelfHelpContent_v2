@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-understandingautomatedbackup.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Troubleshooting automated backups

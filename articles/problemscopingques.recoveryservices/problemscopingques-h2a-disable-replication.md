@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="442121ed-583f-4be5-bcc9-5bb3a8088002"
+	ownershipId="Compute_SiteRecovery"
 />
 # Fail to disable replication for Hyper-V VM
 ---

@@ -6,6 +6,7 @@
     articleId="aks-update-service-principal"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Update AKS Service Principal 

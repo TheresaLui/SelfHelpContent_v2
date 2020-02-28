@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Azure File Sync failed to create cloud endpoint - file share in use by a different cloud endpoint

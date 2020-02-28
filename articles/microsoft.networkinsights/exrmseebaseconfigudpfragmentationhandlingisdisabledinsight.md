@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # UDP Fragmentation is not Enabled
 <!--/issueDescription-->

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-backuprestore-automatedbackups"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Backup, Restore and Business Continuity - Automated backups
 ---

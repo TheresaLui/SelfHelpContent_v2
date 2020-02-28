@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="8ccb2fde-6f9f-4e97-b711-4b07ac45db50"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack Marketplace Management - Download issues
 ---

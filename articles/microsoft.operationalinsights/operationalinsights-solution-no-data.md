@@ -13,6 +13,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # A solution has been added to this workspace which has not received data

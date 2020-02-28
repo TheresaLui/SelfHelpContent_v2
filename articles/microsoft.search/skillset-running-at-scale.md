@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	cloudEnvironments="public, Fairfax"
 	articleId="skillset-running-at-scale"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issues with running skillsets at scale

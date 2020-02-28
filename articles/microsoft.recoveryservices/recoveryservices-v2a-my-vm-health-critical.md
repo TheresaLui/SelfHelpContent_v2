@@ -12,6 +12,7 @@
     productPesIds="16370"
     cloudEnvironments="public, Fairfax"
     articleId="91335914-b844-4952-a4b5-ae8098383586"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # VMware/Physical to Azure - My VM health is critical

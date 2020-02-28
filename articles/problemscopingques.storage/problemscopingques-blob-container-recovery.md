@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="c5205999-f0e2-41c5-96d1-b711cd8498c2"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Recover deleted Blob Container
 ---

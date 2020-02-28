@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-scaleresource-errorsscale"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scaling a resource - Errors scaling a resource
 ---

@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="666ae305-e3c9-4c5c-89d5-febc5ce66b79"
+	ownershipId="Compute_SiteRecovery"
 />
 # Failback from Azure to on-premises VMware
 ---

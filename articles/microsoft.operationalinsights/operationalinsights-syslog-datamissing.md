@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="507b28da-2b03-45b9-a759-b5ee94444a95"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # syslog-datamissing

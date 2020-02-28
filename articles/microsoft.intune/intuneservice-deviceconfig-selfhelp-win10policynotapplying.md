@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="18b173a5-4b3a-44bc-a806-09bad3fb2018"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I'm deploying a Windows 10 policy and it's not applying to the device.

@@ -9,6 +9,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 # ADLA Quota and Limits Issues
 ---

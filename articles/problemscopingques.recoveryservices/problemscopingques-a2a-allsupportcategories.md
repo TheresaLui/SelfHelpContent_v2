@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="cfa6fdf9-da07-40a5-9001-bb16fb62daec"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions Azure to Azure disaster recovery
 ---

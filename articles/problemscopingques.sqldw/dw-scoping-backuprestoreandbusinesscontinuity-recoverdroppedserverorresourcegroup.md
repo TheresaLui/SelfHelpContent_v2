@@ -9,6 +9,7 @@
 	productPesIds="15818"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Backup, restore and business continuity - recover dropped server or resource group
 ---

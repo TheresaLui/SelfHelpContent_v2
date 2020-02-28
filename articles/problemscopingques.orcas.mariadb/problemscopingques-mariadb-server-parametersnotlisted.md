@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-server-parameter_notlisted"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Server Parameters - Server parameter not listed
 ---

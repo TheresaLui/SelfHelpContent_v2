@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-security-auditing"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Security - Auditing
 ---

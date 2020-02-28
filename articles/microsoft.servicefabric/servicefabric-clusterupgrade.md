@@ -12,6 +12,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	articleId="f7d8df66-6bd3-4d84-81c8-a2bf560b7dc8"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Cluster Upgrades

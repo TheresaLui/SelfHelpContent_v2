@@ -9,6 +9,7 @@
 	productPesIds="15607,14749,15571,15797,16454,16470"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="Compute_Automation"
 />
 # Update Management
 ---

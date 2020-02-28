@@ -12,6 +12,7 @@
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-failedtocreateordeleteserver.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Failed to create or delete server
 

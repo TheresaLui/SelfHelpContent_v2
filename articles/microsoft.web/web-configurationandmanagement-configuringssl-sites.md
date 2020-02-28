@@ -11,6 +11,7 @@
 	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public, Fairfax"
 	articleId="ba684ee8-706b-4504-b522-b02172165907"
+	ownershipId="Compute_AppService"
 />
 
 # configuration and management/configuring ssl

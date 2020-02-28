@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Common issues with NSG Flow Logs

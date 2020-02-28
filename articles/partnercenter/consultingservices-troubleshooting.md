@@ -14,6 +14,7 @@
 	resourceTags="isv"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Marketplace and AppSource Consulting Services Offer Troubleshooting

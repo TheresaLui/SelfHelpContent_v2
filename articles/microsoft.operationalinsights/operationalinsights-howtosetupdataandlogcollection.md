@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="30e42405-2730-42f9-bd5f-a9575a240525"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Log Collection

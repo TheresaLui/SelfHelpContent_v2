@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-migrating-issuestools"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Migrating to Azure - Issues with migration & Migration tools
 ---

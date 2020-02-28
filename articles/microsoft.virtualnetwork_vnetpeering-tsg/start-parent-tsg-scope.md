@@ -8,6 +8,7 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="Public"
 	articleId="0d77621b-c095-46ca-96c9-e39dadd908f6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Check if this TSG applies to the customer scenario

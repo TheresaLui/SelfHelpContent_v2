@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="cc4f0826-9c81-4fd5-a993-882aabd666fb"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Concurrency

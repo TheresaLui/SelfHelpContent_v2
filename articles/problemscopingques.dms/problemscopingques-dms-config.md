@@ -10,6 +10,7 @@
 	productPesIds="16307"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 # Failure when running a database migration using DMS
 ---

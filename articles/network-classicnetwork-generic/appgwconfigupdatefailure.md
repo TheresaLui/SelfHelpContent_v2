@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="config-update-failure"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configuration Update Failure

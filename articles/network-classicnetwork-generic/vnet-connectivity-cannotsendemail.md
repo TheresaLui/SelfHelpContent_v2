@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax"
 	articleId="1290e2b4-a827-49e8-a222-a8c9f7dbba98"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Troubleshoot issues sending outbound email over port 25

@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-performanceandqueryexecution-monitoringmetricsalerts.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Monitoring, Metrics or Alerts

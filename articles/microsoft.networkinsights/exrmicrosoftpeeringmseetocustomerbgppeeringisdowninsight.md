@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # ExpressRoute BGP Peering from MSEE to Customer Edge is Down
 <!--/issueDescription-->

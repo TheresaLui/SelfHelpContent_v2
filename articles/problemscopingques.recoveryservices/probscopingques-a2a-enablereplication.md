@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="4f18de2d-6ee6-4390-83ae-d79407886e99"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions Azure VM protection failure 
 ---

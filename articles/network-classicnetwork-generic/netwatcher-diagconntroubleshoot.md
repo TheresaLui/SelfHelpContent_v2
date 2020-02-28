@@ -11,6 +11,7 @@ description="diagnostictools/connectiontroubleshoot"
 	productPesIds="16160"
 	cloudEnvironments="public, Fairfax"
 	articleId="fda515b3-8c87-439b-a9aa-be36aba6aaa7"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # diagnostictools/connectiontroubleshoot

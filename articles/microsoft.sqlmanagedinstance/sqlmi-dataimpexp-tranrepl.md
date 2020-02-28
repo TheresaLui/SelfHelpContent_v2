@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="03b89da5-61f4-4bd5-8704-312b1fd649f2"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Transactional replication

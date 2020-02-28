@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="316e8623-d741-9c48-ebcd-80ad0ce4e58c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Do an admin takeover in Office 365

@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-perf-other"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Database Performance - Other
 ---

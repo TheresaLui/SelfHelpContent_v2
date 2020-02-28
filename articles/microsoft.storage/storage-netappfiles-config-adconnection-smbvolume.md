@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppConfigActiveDirectorySMBVolume"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Troubleshoot and resolve issues creating Active Directory connection for SMB volumes 

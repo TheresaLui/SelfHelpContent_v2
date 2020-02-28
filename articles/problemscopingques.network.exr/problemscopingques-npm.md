@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="1cefc7d8-95c4-3000-b8d3-487e67c13690"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # Provide additional IP address information about your issue
 

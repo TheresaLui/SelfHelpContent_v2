@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-toolsapis-azure_portal"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Portal, Client Tools and APIs - Azure Portal
 ---

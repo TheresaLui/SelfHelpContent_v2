@@ -9,6 +9,7 @@
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
     articleId="scoping_installation_migration_scc"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---

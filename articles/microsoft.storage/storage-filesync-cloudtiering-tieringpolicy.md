@@ -12,6 +12,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="812e832a-8f48-4526-bb3c-29760c43c854"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File Sync - Tiering policy not met

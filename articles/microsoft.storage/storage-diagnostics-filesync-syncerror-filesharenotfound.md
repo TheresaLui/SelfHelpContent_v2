@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # File Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ErrorString-->  : File Share not found.

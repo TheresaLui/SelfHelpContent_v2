@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # MSEE Provider Address-To-Customer Address (PA-to-CA) Mapping Not Found
 
 ExpressRoute uses mappings from RNM (Regional Network Manager) for PA-to-CA translation. The mappings are not found in GWM, and need to be refreshed and set.

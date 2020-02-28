@@ -12,6 +12,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="c1e51278-0042-475c-b30a-dbe55d5639c8"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to develop with client library or SDK

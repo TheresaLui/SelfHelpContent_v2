@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-firewall"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Database Connectivity - Firewall rules or VNETs
 ---

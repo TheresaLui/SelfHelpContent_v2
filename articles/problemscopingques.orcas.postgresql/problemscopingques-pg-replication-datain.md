@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-data_in"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Replication - Data-in replication to Azure Database for PG
 ---

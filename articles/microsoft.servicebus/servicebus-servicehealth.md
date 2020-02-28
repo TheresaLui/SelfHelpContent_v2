@@ -12,6 +12,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
 	articleid="7f1aa262-57ad-4e4b-8f90-145fd403b9e9"
+	ownershipId="AzureMessaging_Common"
 />
 
 # unexpected service behavior

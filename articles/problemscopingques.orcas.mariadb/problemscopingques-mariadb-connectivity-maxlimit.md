@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-connectivity-maxlimit"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Database Connectivity - Server hit maximum connection limit
 ---

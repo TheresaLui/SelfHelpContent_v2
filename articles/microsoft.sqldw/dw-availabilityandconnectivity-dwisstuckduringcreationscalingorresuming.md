@@ -12,6 +12,7 @@
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-dwisstuckduringcreationscalingorresuming.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Data Warehouse is stuck during creation, scaling, or resuming
 

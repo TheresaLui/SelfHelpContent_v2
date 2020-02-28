@@ -11,6 +11,7 @@
 	productPesIds="15480"
 	cloudEnvironments="public, Fairfax"
 	articleId="44e06fc8-2f6c-46d7-b7eb-6aa02318abe4"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # connectivity/operating system activation errors

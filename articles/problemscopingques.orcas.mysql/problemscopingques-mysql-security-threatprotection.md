@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-security-threat-protection"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Security - Advanced Threat Protection
 ---

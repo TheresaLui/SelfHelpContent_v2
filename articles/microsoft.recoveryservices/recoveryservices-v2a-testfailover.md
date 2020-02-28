@@ -11,6 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="560f58f3-5fb3-4b4c-bd17-f8fc32bcf523"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Run a test failover in Site recovery - VMware to Azure

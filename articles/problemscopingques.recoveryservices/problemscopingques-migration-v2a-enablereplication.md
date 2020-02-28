@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="7fd2dd45-a2cc-4a69-9e92-57c45dafa5b8"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions Azure site recovery - Vmware to Azure Enable replication
 ---

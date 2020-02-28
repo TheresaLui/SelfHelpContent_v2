@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-identity-spn"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Service Principal related
 ---

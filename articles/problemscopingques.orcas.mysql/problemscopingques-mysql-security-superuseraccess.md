@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-security-superuser_access"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Security - I need superuser access
 ---

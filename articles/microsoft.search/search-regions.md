@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	articleId="search-regions.md"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Azure Cognitive Search is not available in my desired region

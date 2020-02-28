@@ -14,6 +14,7 @@ supportTopicIds="32584253"
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="public, Fairfax"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # We ran diagnostics on your virtual network and found an issue

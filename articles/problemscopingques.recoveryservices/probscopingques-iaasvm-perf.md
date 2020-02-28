@@ -9,6 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	 articleId="7f7a167f-4e34-4592-bbe1-07b539f5fa8e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM backup performance
 ---

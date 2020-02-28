@@ -9,6 +9,7 @@
 	productPesIds="16556"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureFirewall"
 />
 # Azure Firewall Generic
 ---

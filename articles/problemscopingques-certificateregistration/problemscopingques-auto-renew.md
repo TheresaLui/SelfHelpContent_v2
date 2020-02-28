@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-auto-renew"
+	ownershipId="Compute_AppService"
 />
 # Auto-renewal
 ---

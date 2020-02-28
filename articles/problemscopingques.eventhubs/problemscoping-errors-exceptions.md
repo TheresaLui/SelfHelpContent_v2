@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-errorsAndExceptions"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Errors and Exceptions
 ---

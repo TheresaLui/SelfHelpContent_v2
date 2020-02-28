@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="727ce48f-b78e-486b-b922-5e1b90a23cbe"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check the network programming of a VM

@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-monitoring-issues_settingup"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Monitoring and Alerting - Issues with setting up monitors and alerts
 ---

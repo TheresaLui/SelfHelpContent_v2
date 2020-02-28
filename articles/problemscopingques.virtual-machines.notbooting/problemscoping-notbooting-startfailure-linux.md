@@ -9,6 +9,7 @@
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="3b881f6a-2ca9-44e9-bab0-d9aaa2879912"
+	ownershipId="Compute_VirtualMachines"
 />
 # Start My VM
 ---

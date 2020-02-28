@@ -12,6 +12,7 @@
 	productPesIds="15568"
 	cloudEnvironments="public, Fairfax"
 	articleId="indexer-create-issue"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue creating an indexer

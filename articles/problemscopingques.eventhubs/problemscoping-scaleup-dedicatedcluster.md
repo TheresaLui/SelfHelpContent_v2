@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-scale-dedicated-sku-request"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Request to scale up Event Hubs Dedicated Sku
 ---

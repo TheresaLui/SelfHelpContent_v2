@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="d88f8af4-bc8e-459b-b9d4-4f9cbf7c7029"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Develop and Customize - Intune Graph API

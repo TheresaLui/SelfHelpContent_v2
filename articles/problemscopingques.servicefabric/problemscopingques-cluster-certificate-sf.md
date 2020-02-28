@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-cluster-certificate-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # Cluster Certificate
 ---

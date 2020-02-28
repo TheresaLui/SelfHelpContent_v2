@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-iaas-backupperf-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure virtual machine backups are running slow

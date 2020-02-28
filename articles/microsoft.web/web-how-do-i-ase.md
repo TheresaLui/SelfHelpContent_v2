@@ -11,6 +11,7 @@
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax"
 	articleId="ce07d030-1bb9-4b90-a426-1e486ec7fd28"
+	ownershipId="Compute_AppService"
 />
 # Questions on creating and managing ASE
 ## **Recommended documents**

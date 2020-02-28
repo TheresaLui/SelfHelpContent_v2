@@ -11,6 +11,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public"
 	articleId="d090b327-c6d0-4691-8857-10902752036b"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # setup and configuration/failure deploying sql always on ag template

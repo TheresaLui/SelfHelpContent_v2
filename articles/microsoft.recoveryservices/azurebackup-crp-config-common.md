@@ -12,7 +12,8 @@
 	productPesIds="15571,15797,16470,16454,14749"
 	articleId="9ba9becb-d7a2-4b16-b471-3cfd6ed0570a"
 	cloudEnvironments="public, Fairfax"
-	/>
+		ownershipId="Compute_VirtualMachines"
+/>
 
 # Azure Backup - I am having issues configuring or enabling backup
 

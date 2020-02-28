@@ -9,6 +9,7 @@
 	productPesIds="15078"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_HDInsight"
 />
 # HDI Cluster Create Issue related to ADLS Gen2
 ---

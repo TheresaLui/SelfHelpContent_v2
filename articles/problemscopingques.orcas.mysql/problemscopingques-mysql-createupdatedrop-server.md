@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-createupdatedrop-server"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Create Update and Drop Resources - Server
 ---

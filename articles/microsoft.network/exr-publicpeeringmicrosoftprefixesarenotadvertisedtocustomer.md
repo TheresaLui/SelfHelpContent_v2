@@ -14,7 +14,8 @@
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
- />
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # **Microsoft Public Prefixes are Not Advertised from the MSEE to the Customer Edge**
 <!--/issueDescription-->

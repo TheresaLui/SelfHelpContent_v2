@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Azure File Sync failed to upload file(s) due to error _**ECS_E_AZURE_AUTHORIZATION_FAILED**_

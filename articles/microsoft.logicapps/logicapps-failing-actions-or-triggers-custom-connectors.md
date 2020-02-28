@@ -12,6 +12,7 @@
     productPesIds="15791"
     cloudEnvironments="public, Fairfax"
     articleId="cc0056ba-f4ef-4e7f-8a89-07c470eaa6b3"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - Custom Connector

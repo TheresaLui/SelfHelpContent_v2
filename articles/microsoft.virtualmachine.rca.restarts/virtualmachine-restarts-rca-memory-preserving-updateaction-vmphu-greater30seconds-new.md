@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 # Your resource took a little longer to update
 

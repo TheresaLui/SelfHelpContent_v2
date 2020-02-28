@@ -12,6 +12,7 @@
     productPesIds="15480"
     cloudEnvironments="public, Fairfax"
     articleId="exr-fastpath"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # FastPath

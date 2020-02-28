@@ -8,6 +8,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # Cannot Connect to a VM in a peered VNet
 ---

@@ -9,6 +9,7 @@
 	productPesIds="15551"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="Compute_APIManagement"
 />
 # Cannot sign in to Developer Portal
 ---

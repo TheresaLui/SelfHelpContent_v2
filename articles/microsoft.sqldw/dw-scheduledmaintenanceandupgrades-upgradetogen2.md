@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-scheduledmaintenanceandupgrades-upgradetogen2"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Upgrading to Gen2

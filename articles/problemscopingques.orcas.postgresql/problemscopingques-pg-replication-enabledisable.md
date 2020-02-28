@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-enabledisable"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Replication - Enable or disable replication support for PG
 ---

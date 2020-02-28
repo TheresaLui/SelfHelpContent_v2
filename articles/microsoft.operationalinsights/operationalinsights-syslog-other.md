@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="9f07ee92-b03c-4bb3-8938-c57965b34749"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # syslog-other

@@ -12,6 +12,7 @@
     productPesIds="16370"
     cloudEnvironments="public, Fairfax"
     articleId="75242b51-f522-4acb-9ef4-f78c5e87ec25"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Run a test failover in Site recovery - Hyper-V to Azure

@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-performanceandqueryexecution-unexpectedincreaseinresourceconsumption.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Unexpected increase in resource consumption

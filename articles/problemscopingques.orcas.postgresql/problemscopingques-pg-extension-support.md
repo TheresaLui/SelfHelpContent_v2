@@ -9,6 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-extension-support"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Extensions - Request support for new extension
 ---

@@ -13,6 +13,7 @@ productPesIds="16125"
 cloudEnvironments="public, Fairfax"
 articleId="eh-client-libraries-question"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Questions about Event Hubs client library
 ---

@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="fbd7391e-423c-468a-9716-a536279a3d3a"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File share or path scoping question
 ---

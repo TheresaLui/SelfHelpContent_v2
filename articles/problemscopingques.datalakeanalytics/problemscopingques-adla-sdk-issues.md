@@ -9,6 +9,7 @@
 	productPesIds="15940"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 # Difficulties using ADL SDK
 ---

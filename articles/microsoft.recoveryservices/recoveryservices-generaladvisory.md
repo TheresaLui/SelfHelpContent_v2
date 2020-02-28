@@ -12,6 +12,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public, Fairfax"
 	articleId="d335c49e-d501-4d26-a3b5-e7cc63c648fa"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure Site Recovery Advisory Queries

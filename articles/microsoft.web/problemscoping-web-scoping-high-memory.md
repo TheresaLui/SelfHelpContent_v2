@@ -10,6 +10,7 @@
 	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="d3e7d7e1-ccbd-4b55-8191-4539de3408c8"
+	ownershipId="Compute_AppService"
 />
 
 # High memory usage

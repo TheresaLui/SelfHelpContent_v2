@@ -12,6 +12,7 @@
     resourceTags=""
     articleId="dw-dataimportexport-usingazuredatabricks.md"
     cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Using Azure Databricks

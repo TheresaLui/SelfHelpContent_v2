@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public, Fairfax"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # We have detected degraded back-end server health for your Application Gateway
 

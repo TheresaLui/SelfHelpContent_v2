@@ -12,6 +12,7 @@
     productPesIds="16348"
     cloudEnvironments="public, Fairfax"
     articleId="8d7c9ca6-274a-4c0f-ac78-1aa9751d789c"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Performing a test migration
