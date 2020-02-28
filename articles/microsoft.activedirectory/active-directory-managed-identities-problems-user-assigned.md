@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16985"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Problem with user-assigned managed identity

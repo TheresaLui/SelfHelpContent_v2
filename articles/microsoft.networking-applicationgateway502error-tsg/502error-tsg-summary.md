@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="08668f50-a3aa-4bb7-814a-939b3c769990"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # 502 Bad Application Gateway Errors

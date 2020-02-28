@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Your operation <!--$operationName-->[operationName]<!--/$operationName--> has failed
 <!--issueDescription-->

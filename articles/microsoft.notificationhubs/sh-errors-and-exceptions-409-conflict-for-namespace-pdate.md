@@ -11,6 +11,7 @@
 	supportTopicIds="32565578"
 	cloudEnvironments="public"
 	articleId="f1d1e27a-3780-42ec-ba39-1c994e8fd6d3"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Errors and Exceptions/409 Conflict for Namespace Update

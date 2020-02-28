@@ -10,8 +10,9 @@
     supportTopicIds="32629253"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-deployment-registration"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Registration

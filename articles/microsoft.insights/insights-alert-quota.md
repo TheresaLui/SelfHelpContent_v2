@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I want to increase my alerts or action groups quota

@@ -10,8 +10,9 @@
 	supportTopicIds="32628275"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="4f7c908f-4f24-40fd-a575-06d23f7f5e44"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # Diagnose and resolve Linux Virtual Machine Memory performance issues

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="a8e7d7f3-30fb-41af-946e-dcca99cc2dcc"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 **How to check if the problem is due to an SSL-related error:**

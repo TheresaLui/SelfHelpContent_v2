@@ -9,6 +9,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 # Missing parts once the shipment has arrived
 ---

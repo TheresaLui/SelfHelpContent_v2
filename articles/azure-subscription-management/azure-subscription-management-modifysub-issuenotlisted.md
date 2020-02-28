@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	articleId="cancelswitchorreenablesubscriptions-issue not listed"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Cancel Subscription-issue not listed

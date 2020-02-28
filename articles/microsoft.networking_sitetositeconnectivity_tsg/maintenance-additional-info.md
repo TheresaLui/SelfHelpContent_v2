@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e9f4fe7b-02f9-4d92-806c-e8d1e2a61165"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check if customer initiated reset

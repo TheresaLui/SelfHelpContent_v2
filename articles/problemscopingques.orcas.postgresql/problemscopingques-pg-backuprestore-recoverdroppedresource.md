@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640015"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-backuprestore-recoverdroppedresource"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Backup, Restore and Business Continuity - Recover A Dropped Resource
 ---

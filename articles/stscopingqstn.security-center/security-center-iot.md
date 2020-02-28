@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="13004dd1-4fc1-4b43-bfb7-b509cb337586"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # IoT Common Solutions

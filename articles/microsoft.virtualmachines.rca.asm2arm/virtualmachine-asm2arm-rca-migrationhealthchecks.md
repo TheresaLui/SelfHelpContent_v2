@@ -12,7 +12,8 @@
 	supportTopicIds="32513964"
 	resourceTags="windows, linux"
 	productPesIds="14749,15571"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 # We ran diagnostics on your resource and found an issue
 

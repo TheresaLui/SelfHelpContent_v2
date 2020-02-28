@@ -15,6 +15,7 @@ supportTopicIds="32633015"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Advisory or general guidance

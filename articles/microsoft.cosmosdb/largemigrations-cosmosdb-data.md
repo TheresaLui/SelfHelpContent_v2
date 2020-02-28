@@ -13,6 +13,7 @@
 	articleId="cosmosdb-largetbmigrations"
 	displayOrder="45"
 	category="General Advisory"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Large Scale Migrations  
 Most users are able to resolve their Large Scale Migration case using the steps below.

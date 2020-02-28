@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="21d7ffcc-3ebb-4063-8ebf-e28e3bfadbd8"
+	ownershipId="AzureIdentity_User"
 />
 
 # Cannot start Azure AD Connect Synchronization Service

@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more snapshot(s)

@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="52ac74b2-053d-4905-b2d4-f1940fb208c2"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Issue with Backup Alerts (email)
 ---

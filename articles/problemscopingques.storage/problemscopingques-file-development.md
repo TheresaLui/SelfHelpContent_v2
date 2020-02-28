@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="88B341FD-FA67-466D-80FC-EDA8B07BE4DF"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Question or issue with Azure Files development
 ---

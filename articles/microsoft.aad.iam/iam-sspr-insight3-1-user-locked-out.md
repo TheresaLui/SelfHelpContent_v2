@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # User is locked out

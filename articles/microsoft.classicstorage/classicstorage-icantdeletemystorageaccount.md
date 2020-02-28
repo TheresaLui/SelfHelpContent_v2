@@ -11,6 +11,7 @@
 	productPesIds="15629,16459"
 	cloudEnvironments="public"
 	articleId="ebf747e4-307f-4bb3-9c0d-b44f6fc04634"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # I can't delete my classic storage account

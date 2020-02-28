@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="f9a4bd20-01cd-4358-999e-fecb3f0eda25"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # My problem is not listed
 ---

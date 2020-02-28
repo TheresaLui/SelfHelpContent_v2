@@ -14,6 +14,7 @@
 	resourceTags="8000Series"
 	productPesIds="15438"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Power cooling module or battery is in failed or degraded state. 

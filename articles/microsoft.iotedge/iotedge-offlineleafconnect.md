@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="144f0fb6-05c9-42fa-ad82-aaa48e0301fa"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # My IoT Edge gateway device can't connect to downstream devices while offline

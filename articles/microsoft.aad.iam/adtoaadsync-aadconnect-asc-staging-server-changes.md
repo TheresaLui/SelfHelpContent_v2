@@ -13,6 +13,7 @@ pageTitle="Staging server(s) status changed"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Staging server(s) status changed

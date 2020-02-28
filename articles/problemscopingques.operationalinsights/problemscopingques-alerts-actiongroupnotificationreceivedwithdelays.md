@@ -10,6 +10,7 @@ supportTopicIds="32633012"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Alerts/Action Group notification received with delays 

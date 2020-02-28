@@ -9,6 +9,7 @@
 	cloudEnvironments="public, MoonCake"
   schemaVersion="1"
    articleId="port25emailflow-problemscopingquestion"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 #  Port 25 email flow
 ---

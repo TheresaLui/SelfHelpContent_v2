@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-kubectl"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Kubectl issue
 ---

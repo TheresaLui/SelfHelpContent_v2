@@ -6,6 +6,7 @@
     articleId="7c380315-6ad9-4fb2-8930-a8aeb1d6241b_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Availability may be impacted from high memory fragmentation. Increase fragmentation memory reservation to avoid potential impact.
 ---

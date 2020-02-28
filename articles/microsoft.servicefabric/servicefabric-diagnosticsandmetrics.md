@@ -11,6 +11,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="30621a1c-23c8-4617-ac52-27a2c3994027"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # application/diagnostics and metrics

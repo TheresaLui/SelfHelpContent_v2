@@ -13,7 +13,8 @@
 	supportTopicIds="32681487"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="CloudNet_PrivateLink"
 />
 
 # My Azure Private Endpoint connectivity is not working

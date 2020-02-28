@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1f40a10f-d193-435e-b99e-6f34e54e14a1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE Version Mismatch

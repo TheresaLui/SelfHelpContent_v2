@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="dfe33e4f-bc7e-4e84-a72c-69ec5890f28b"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Software Updates - iOS Update Policies

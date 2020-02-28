@@ -12,7 +12,8 @@
 	supportTopicIds="32680899"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Execute SSIS Package - Data Connectivity VNet Issues

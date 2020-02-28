@@ -11,13 +11,14 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.securityandmonitoring.authentication"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Authentication Issues With Scoring Endpoint
 
 ## **Recommended Steps**
 
-### For Key-based Authentication
+### **For Key-based Authentication**
 
 Key-based authentication generates static bearer-type authentication keys that do not need to be refreshed. 
 
@@ -48,6 +49,7 @@ aci_service = Model.deploy(workspace=ws,
 						   deployment_config=aci_config)
 aci_service.wait_for_deployment(True)
 ```
+
 To consume the web service, use `aci_service.get_keys()` to fetch the key and set this in the authorization header:
 
 ```
@@ -64,17 +66,12 @@ test_sample = json.dumps({'data': [
 
 response = requests.post(aci_service.scoring_uri, data=test_sample, headers=headers)
 ```
+
 To regenerate a key, use the `regen_key()` function and pass either **Primary** or **Secondary**:
 
-```
-aci_service.regen_key('Primary')
-```
-or
-```
-aci_service.regen_key('Secondary')
-```
+`aci_service.regen_key('Primary')` or `aci_service.regen_key('Secondary')`
 
-### For Token-based Authentication
+### **For Token-based Authentication**
 
 Token-based authentication requires users to present an Azure Machine Learning JSON Web Token to the web service to access it. The token expires after a specified time-frame and needs to be refreshed to continue making calls.
 
@@ -136,4 +133,4 @@ Here is a list of additional resources which may be helpful:
 * [Where and how to deploy](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where)
 * [Setup authentication for Azure Machine Learning resources and workflows](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
 * [Consume an Azure Machine Learning model deployed as a web service](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service)
-* [Azure Machine Learning SDK documentation](https://docs.microsoft.com/python/api/overview/azureml-sdk/?view=azure-ml-py)
+* [Azure Machine Learning SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)

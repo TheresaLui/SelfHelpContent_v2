@@ -12,6 +12,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="9345d055-93c1-4f7c-8978-627cb70cea3f"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Data Discovery and Classification

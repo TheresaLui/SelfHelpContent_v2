@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="configure-header-rewrite"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Header Rewrite Configuration Issues

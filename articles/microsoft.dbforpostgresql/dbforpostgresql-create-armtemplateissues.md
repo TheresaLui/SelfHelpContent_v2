@@ -10,9 +10,10 @@
     supportTopicIds="32639966"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="b3e8194d-233c-43f3-99cd-9fba9ae792c5"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Manage Azure Database for PostgreSQL using ARM Templates
 

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="328fa10d-a14a-4f64-aa3e-725965687aa9"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I want to configure my ExpressRoute circuit

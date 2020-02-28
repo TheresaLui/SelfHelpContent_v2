@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="97b75a9f-fac8-4123-acb0-aad18592a0c2"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Issue is Not Listed

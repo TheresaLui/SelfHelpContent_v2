@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Application Gateway Pick Host Name Not Set
 <!--issueDescription-->

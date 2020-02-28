@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="eb3814f7-1b6a-4034-877d-888752c62169"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # azurenetworkinganalytics-setup

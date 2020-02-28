@@ -10,6 +10,7 @@ supportTopicIds="32612463"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Agent not reporting data or Heartbeat data missing

@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="1776cd2c-92b4-400e-9277-38ad60f8d03b"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Questions about devices or names not appearing

@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="b43f0825-9006-480d-86a8-a5520821b4f1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # JIT Access request failure

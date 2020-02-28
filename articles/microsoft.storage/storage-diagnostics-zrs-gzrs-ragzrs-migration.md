@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Converting storage account to ZRS/GZRS/RA-GZRS replication

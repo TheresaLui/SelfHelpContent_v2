@@ -13,6 +13,7 @@
     productPesIds="15629,16459"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
     articleId="e6c363fc-ee76-4afb-8278-bbb74b17051e"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Recover deleted storage account

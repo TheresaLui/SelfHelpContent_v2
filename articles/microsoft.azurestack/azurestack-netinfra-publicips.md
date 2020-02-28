@@ -10,8 +10,9 @@
     supportTopicIds="32629189"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-publicips"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Add Public IPs

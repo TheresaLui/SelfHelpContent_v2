@@ -11,6 +11,7 @@
     supportTopicIds="32684756"
     productPesIds="16250"
     cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-api-calls-throttled -->

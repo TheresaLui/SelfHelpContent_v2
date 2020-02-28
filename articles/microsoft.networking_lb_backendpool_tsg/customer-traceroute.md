@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="ceb94c8f-85cf-4cc4-adc9-d2a7ec71e61c"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Customer Traceroute

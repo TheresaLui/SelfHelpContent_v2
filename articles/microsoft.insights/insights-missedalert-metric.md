@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My metric alert doesn't fire when it should have

@@ -6,6 +6,7 @@
     articleId="a1f91337-c953-4791-9517-f170de60bf35_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Follow SQL DB Advisor recommendations
 ---

@@ -14,6 +14,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # cannot connect to sql server/alwayson or fci

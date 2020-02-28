@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="b092995d-6e08-4349-866a-8e07571c5a08"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Monitor Telecom Expenses

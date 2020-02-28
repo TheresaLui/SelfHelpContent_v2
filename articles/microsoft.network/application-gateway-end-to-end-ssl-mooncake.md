@@ -12,7 +12,8 @@
 	productPesIds=""
     supportTopicIds=""
     cloudEnvironments="MoonCake"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # End-to-end SSL issues with Application Gateway
 

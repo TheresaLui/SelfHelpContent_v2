@@ -13,6 +13,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="operationalinsights-howtosetupdataandlogcollection-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Log Collection

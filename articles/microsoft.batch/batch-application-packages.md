@@ -11,7 +11,8 @@
     supportTopicIds="32635050"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Application Packages

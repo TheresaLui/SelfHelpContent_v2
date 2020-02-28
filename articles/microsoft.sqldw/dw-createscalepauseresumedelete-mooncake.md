@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-createscalepauseresumedelete-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # How to troubleshoot Create/Scale/Pause/Resume/Delete issues
 

@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="a75a43bd-34f6-4238-905e-96c82d9ee16b"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # iislogs

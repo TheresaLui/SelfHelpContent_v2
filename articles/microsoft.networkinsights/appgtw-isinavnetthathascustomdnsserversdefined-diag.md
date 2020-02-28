@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Microsoft Azure has identified custom DNS for your Vnet containing your Application Gateway

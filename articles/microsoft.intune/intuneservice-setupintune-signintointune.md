@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="16d4cdd9-e98d-48b8-83d1-c158591dd02e"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Intune - Sign into Intune

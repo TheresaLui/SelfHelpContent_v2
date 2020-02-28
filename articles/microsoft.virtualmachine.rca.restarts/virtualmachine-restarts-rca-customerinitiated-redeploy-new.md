@@ -13,7 +13,8 @@ ms.author="jozender"
 	supportTopicIds="32411816"
 	resourceTags="windows, linux"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 # We ran diagnostics on your resource and found an issue
 

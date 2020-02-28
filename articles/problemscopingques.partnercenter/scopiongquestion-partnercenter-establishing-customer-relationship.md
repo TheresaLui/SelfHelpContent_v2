@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_establishing_customer_relationship"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Establishing Customer Relationship
 ---

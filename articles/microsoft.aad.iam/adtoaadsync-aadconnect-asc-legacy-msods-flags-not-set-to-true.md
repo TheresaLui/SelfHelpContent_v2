@@ -13,6 +13,7 @@ pageTitle="Legacy MSODS flag(s) have their value not set to 'true'"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Legacy MSODS flag(s) have their value not set to "true"

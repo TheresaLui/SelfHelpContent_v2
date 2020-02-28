@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e25af735-a177-4583-b427-65c645583764"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Why are phone numbers not collected from all devices?

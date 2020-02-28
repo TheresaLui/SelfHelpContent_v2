@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15804"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
+	ownershipId="CloudNet_DNS"
 />
 
 # Troubleshooting Performance issues related to DNS resolution

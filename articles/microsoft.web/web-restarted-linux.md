@@ -10,8 +10,9 @@
 	supportTopicIds="32570954"
 	resourceTags=""
 	productPesIds="16170,16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="5b4b0b9e-cc93-4a3d-9d93-fa45c80dc723"
+	ownershipId="Compute_AppService"
 />
 
 # Web app restarted

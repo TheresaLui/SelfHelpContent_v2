@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_reservations_general"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Reservations General Questions
 ---

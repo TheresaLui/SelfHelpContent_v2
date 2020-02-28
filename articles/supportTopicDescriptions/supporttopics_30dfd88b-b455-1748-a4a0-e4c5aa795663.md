@@ -9,7 +9,8 @@
   articleid="files-storage-supporttopic-description"
   icmteam="icmteam2"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="StorageMediaEdge_StorageBlobs"
+/>
 # Support Topic Descriptions for 30dfd88b-b455-1748-a4a0-e4c5aa795663
 ---
 {

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="83086d28-3201-49a5-a264-6a1ee30f7b2c"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # VPN Gateway vendor escalation

@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="df8f4c17-79eb-2172-1bfe-4302046829fc"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Deploy resources with Resource Manager templates and Azure PowerShell

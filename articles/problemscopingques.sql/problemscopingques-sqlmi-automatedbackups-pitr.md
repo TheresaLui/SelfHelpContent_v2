@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problemscopingques-sqlmi-automatedbackups-pitr"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # Error with automated backups or point-in-time restore
 ---

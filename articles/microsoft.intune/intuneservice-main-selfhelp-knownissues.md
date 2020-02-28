@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="52491280-aeaa-4b8d-af78-49cc921fc277"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Is there a list of Intune Issues?

@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Onboard_Scanner_Install_config"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection  - Installing, Onboarding, or Decommissioning - AIP Scanner Installation and Configuration
@@ -36,6 +37,7 @@
 1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
 2. Zip all the contents under the MSIP folder
 3. Save the logs to your choice of location, and attach them to your service request
+4. You can also use [Export-AIPLogs -OnBehalfOf](https://docs.microsoft.com/powershell/module/azureinformationprotection/export-aiplogs?view=azureipps)
 
 ## **Recommended Documents**
 

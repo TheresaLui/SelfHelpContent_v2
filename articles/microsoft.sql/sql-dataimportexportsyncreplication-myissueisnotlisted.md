@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="d16041ea-b8cb-417b-8be4-7f7fd6b70b0d"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # data import, export, sync, replication/my issue is not listed

@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
     articleId="32639205"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Need a shipping label to return my device

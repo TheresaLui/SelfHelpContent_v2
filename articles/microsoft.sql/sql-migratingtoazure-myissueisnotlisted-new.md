@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="49d880b4-b4b9-4c2a-8a74-1cd472c0da4f"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # migrating to Azure/My issue is not listed

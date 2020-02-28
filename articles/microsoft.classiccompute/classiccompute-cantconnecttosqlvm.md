@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="a09421a9-36d7-4620-8154-915a2887faa2"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # I can't connect to SQL Server in my VM

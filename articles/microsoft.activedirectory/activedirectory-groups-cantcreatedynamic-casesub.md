@@ -12,6 +12,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
     	articleId="7f7ae579-3adf-49b1-8c83-64ad1a296d30"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # I can't create and populate a dynamic group

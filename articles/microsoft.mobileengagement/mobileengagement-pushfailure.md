@@ -11,6 +11,7 @@
 	productPesIds="15658"
 	cloudEnvironments="public"
 	articleId="4d9a7c4d-d2b8-4e26-9e93-06995f0195b7"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # push and reach/push failure

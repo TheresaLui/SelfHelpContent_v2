@@ -13,6 +13,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="fb11928a-1782-4618-a046-eb29996ee084"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Windows Agent: Crashing

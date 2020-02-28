@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-howother"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Using Key Vault with Soft Delete

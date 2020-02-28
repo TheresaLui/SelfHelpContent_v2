@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="d10943a4-3283-4e70-8982-e08aea9096e3"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # backup/using azure backup service

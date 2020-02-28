@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="d3dcb634-9a99-4235-867b-326a89997f02"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Create or drop databases

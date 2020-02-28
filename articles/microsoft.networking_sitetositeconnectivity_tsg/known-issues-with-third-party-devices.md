@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="5bd4da4e-437c-4a12-9142-f0119dfefa2e"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check for known issues with third party devices

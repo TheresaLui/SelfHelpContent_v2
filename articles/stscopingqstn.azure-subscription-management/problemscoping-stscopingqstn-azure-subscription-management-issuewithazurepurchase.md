@@ -9,6 +9,7 @@
 	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
    articleId="8297852a-5e4f-41d8-ae24-9e37aaa5714a"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Issue with Azure purchase
 ---

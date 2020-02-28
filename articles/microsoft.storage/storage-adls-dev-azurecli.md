@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16598"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # Azure Data Lake Gen2 Storage Development with AzureCLI

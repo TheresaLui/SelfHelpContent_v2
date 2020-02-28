@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="public"
     articleId="fc37f9b1-3a19-43da-bdcf-0cfdbf0656d6"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Why is my scale set not updating

@@ -13,6 +13,7 @@
     articleId="cosmosdb-admin-rbac"
     displayOrder="26"
     category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Authorization and Role-based access control (RBAC) Topics

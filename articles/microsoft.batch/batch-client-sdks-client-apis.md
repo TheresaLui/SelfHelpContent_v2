@@ -11,7 +11,8 @@
     supportTopicIds="32635064"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Client SDKs - Client APIs
