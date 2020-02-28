@@ -26,7 +26,7 @@
         {
             "id": "6c0f1b9a-c2ef-0342-2244-d3e09ea981f1",
             "longDescription": "",
-            "shortDescription": "Responding to alerts in Ambari UI.",
+            "shortDescription": "Handling heartbeat lost, alerts, and stale alerts in the Ambari UI.",
             "searchTags": "",
             "category": "",
             "useInDiagnoseAndSolve": "true"
@@ -34,7 +34,7 @@
         {
             "id": "7743f77b-1455-2015-ef81-2cfe5aba9a06",
             "longDescription": "",
-            "shortDescription": "Responding to alerts in Ambari UI on a Hadoop cluster.",
+            "shortDescription": "Handling alerts and heartbeat lost for a Hadoop cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -42,7 +42,7 @@
         {
             "id": "1d9ea821-2c4e-421f-22df-0360cfeeb63e",
             "longDescription": "",
-            "shortDescription": "Responding to alerts in Ambari UI on an Hbase cluster.",
+            "shortDescription": "Handling alerts and heartbeat lost for an Hbase cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -58,7 +58,7 @@
         {
             "id": "ed2cb61b-84cf-7f8d-f6eb-94c4d398e459",
             "longDescription": "",
-            "shortDescription": "Responding to alerts in Ambari UI on an Interactive Query cluster.",
+            "shortDescription": "Handling alerts and heartbeat lost for an Interactive Query cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -66,7 +66,7 @@
         {
             "id": "75850825-febb-ece7-a8f2-9d8268f79a13",
             "longDescription": "",
-            "shortDescription": "Responding to alerts in Ambari UI on a Kafka cluster.",
+            "shortDescription": "Handling alerts and heartbeat lost for a Kafka cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -74,7 +74,7 @@
         {
             "id": "3fe81b99-7d19-c77b-1519-a014c1677b0f",
             "longDescription": "",
-            "shortDescription": "Responding to alerts in Ambari UI on an ML Services cluster.",
+            "shortDescription": "Handling alerts and heartbeat lost for an ML Services cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -82,7 +82,7 @@
         {
             "id": "29e13a59-f798-2463-b94f-4b8753d52bcc",
             "longDescription": "",
-            "shortDescription": "Responding to alerts in Ambari UI on a Spark cluster.",
+            "shortDescription": "Handling alerts and heartbeat lost for a Spark cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -90,7 +90,7 @@
         {
             "id": "2113606f-6338-de5c-38ef-84a0d34b5f3d",
             "longDescription": "",
-            "shortDescription": "Responding to alerts in Ambari UI on a Storm cluster.",
+            "shortDescription": "Handling alerts and heartbeat lost for a Storm cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -314,7 +314,7 @@
         {
             "id": "a3a2f4e1-a81f-293a-d774-6b0a529f84da",
             "longDescription": "",
-            "shortDescription": "Unable to delete a cluster.",
+            "shortDescription": "Unable to delete an HDInsight cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
