@@ -42,7 +42,9 @@ Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool
 
 Possible Solution: If you are using user-defined routes (UDRs), you should specify a route and allow outbound traffic from the VNET to the above IPs with the next hop set to "Internet".
 
-Please see the following links for more information [HDInsight Controlling network traffic](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#networktraffic) and [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)
+Please review the following links for more information:
+* [HDInsight Controlling network traffic](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#networktraffic)
+* [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)
 
 ## **Recommended Documents**
 
