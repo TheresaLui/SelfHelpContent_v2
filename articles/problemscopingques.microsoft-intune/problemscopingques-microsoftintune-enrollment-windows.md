@@ -8,7 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="d73b7cb8-224c-4a21-8390-2bcc03b11948"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 # Intune Enrollment Windows
 ---

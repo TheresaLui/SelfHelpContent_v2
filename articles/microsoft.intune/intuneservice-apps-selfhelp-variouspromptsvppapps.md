@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="4ec40f5a-2fa8-462a-bbf7-ad1296c291fa"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Users receive various prompts when they attempt to install VPP apps.

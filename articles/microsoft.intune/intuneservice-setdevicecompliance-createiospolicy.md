@@ -11,7 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="ffe93766-e81a-44b9-98dc-599b0af4d711"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Set device compliance - Create iOS Policy

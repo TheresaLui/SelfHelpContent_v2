@@ -11,7 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="4fa19219-ec91-4595-9ad3-41b3ac33d2a0"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Conditional Access - Create and assign conditional access policy

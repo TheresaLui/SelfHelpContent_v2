@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="ab6f04b3-88e2-4252-b6d7-dbc3a2272478"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # How often does the Intune on-premises Exchange Connector sync?

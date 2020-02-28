@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="5bbe9fb2-19c2-4174-ab39-65dee00e4f2e"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Where can I troubleshoot issues with Intune?

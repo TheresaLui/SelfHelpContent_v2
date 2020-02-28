@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="c9985a19-0be2-4d6d-9776-543eec64299a"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # What are some best practices for setting up and using conditional access?

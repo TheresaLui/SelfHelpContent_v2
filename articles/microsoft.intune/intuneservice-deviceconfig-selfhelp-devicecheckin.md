@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="2ac14ef7-18ab-4156-a3e3-cc05491a9e8e"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Can I change how often my devices check into Intune?

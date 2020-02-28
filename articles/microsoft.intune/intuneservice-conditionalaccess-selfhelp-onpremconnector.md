@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="941d561a-5a61-402c-9659-9fe3052c7be6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # The on-premises Exchange Connector installation keeps failing. 
