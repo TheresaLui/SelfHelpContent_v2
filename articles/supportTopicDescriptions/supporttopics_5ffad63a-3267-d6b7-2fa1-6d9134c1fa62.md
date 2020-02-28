@@ -130,7 +130,7 @@
         {
             "id": "d8a4d18d-8a21-37c2-6753-974eeea2d9bb",
             "longDescription": "",
-            "shortDescription": "Unable to login or connect to a notebook from an ESP cluster.",
+            "shortDescription": "Unable to login or connect to a Jupyter or Zeppelin notebook from an ESP cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -138,7 +138,7 @@
         {
             "id": "b80f6dca-525e-5957-6539-47d966552c3e",
             "longDescription": "",
-            "shortDescription": "Unable to login or connect to a notebook.",
+            "shortDescription": "Unable to login or connect to a Jupyter or Zeppelin notebook.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -146,7 +146,7 @@
         {
             "id": "41716d00-4f68-6ae5-2a65-b5c70841d180",
             "longDescription": "",
-            "shortDescription": "Unable to login or connect to using ODBC or JDBC from an ESP cluster.",
+            "shortDescription": "Unable to login or connect to an ESP cluster using ODBC or JDBC.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -194,7 +194,7 @@
         {
             "id": "fbf8c19f-d51c-547a-db6b-1169dee3333b",
             "longDescription": "",
-            "shortDescription": "Unable to use client tools.",
+            "shortDescription": "Unable to use Notebooks, Hive View, Tez View, ODBC or JDBC, or Beeline.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -202,7 +202,7 @@
         {
             "id": "4d02d8aa-bb81-363a-c60f-b4c6f3644719",
             "longDescription": "",
-            "shortDescription": "Unexpected behavior or issues with connectivity, performance with Beeline.",
+            "shortDescription": "Unexpected behavior or issues with connectivity or performance with Beeline.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -210,7 +210,7 @@
         {
             "id": "3f2fb4e4-d752-70e7-9f91-b972e5dd6ec5",
             "longDescription": "",
-            "shortDescription": "Unexpected behavior or issue with connectivity, performance withthe HDInsight SDK. ",
+            "shortDescription": "Unexpected behavior or issue with connectivity or performance with the HDInsight SDK. ",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -218,7 +218,7 @@
         {
             "id": "59943458-6c38-bb5f-3243-f1738c2995eb",
             "longDescription": "",
-            "shortDescription": "Unexpected behavior or issues with connectivity, performance with Hive.",
+            "shortDescription": "Unexpected behavior or issues with connectivity or performance with Hive.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -250,7 +250,7 @@
         {
             "id": "c18ca0f9-2e03-d5e0-4c3a-f7c6819ab1c0",
             "longDescription": "",
-            "shortDescription": "Issues creating an HDInsight cluster.",
+            "shortDescription": "Unable to create an HDInsight cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -266,7 +266,7 @@
         {
             "id": "70f90d43-dedf-eadf-71c8-f9bb3de8c39c",
             "longDescription": "",
-            "shortDescription": "Unable to create cluster due to Azure Policy.",
+            "shortDescription": "Unable to create cluster due to an Azure Policy issue.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -290,7 +290,7 @@
         {
             "id": "f5a9b425-9d72-65e0-2501-e6e2cf407cb8",
             "longDescription": "",
-            "shortDescription": "Unable create cluster with Data Lake Storage Gen2 or managed identity permissions issue.",
+            "shortDescription": "Unable create a cluster with Data Lake Storage Gen2 or due to a managed identity permissions issue.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -330,7 +330,7 @@
         {
             "id": "6ab612d9-629c-4985-91f4-e0780b491d64",
             "longDescription": "",
-            "shortDescription": "Unable to use hdfs commands.",
+            "shortDescription": "Unable to use Apache Hadoop Distributed File System (hdfs) commands.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -338,7 +338,7 @@
         {
             "id": "250828ce-32dc-197a-ffc5-0e818094bee7",
             "longDescription": "",
-            "shortDescription": "Unable to work with ADFS Gen1 or Gen2 via hdfs in an ESP cluster.",
+            "shortDescription": "Unable to work with Azure Data Lake Storage Gen1 or Gen2 via hdfs in an ESP cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -346,7 +346,7 @@
         {
             "id": "e83c778a-864b-d6f2-5d3e-2dc0738275bf",
             "longDescription": "",
-            "shortDescription": "Unable to work with ADFS Gen1 or Gen2 via hdfs. ",
+            "shortDescription": "Unable to work with Azure Data Lake Storage Gen1 or Gen2 via hdfs. ",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -354,7 +354,7 @@
         {
             "id": "07a299a7-f6c7-b25e-73c5-37b151b32a0f",
             "longDescription": "",
-            "shortDescription": "Unable to work with Storage account via hdfs.",
+            "shortDescription": "Unable to work with a Storage account via hdfs.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -370,7 +370,7 @@
         {
             "id": "56b8eda5-f28e-a462-210c-7ae7a94d6845",
             "longDescription": "",
-            "shortDescription": "Unable to configure or use monitoring on the Azure Portal",
+            "shortDescription": "Problem with using the cluster's Metrics tab, Azure Monitoring, Log Analytics, or any of the monitoring solutions on the Azure Portal.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -378,7 +378,7 @@
         {
             "id": "183503f9-fb64-5224-1e9d-14f307af922a",
             "longDescription": "",
-            "shortDescription": "Unable to enable Azure Monitor or Log Analytics on a cluster.",
+            "shortDescription": "Problem with enabling Azure Monitor or Log Analytics on a cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -386,7 +386,7 @@
         {
             "id": "dd2e3f09-6153-87fb-9392-af1fd9e4aab2",
             "longDescription": "",
-            "shortDescription": "Issue with the Metrics tab for a cluster in the Azure portal. ",
+            "shortDescription": "Problem with the cluster's Metrics tab in the Azure portal. ",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -394,7 +394,7 @@
         {
             "id": "5875919e-e6c9-6e98-1b57-2d1c04e4b30e",
             "longDescription": "",
-            "shortDescription": "Issue with one of the monitoring solutions available in the Azure portal.",
+            "shortDescription": "Problem with one of the monitoring solutions available in the Azure portal.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -442,7 +442,7 @@
         {
             "id": "7ba16a26-78e2-93b4-428b-d62988cde06e",
             "longDescription": "",
-            "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for a ML Services cluster.",
+            "shortDescription": "Ambari or Azure Monitor metrics are not collected or displayed for an ML Services cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -466,7 +466,7 @@
         {
             "id": "74753603-439a-6a3a-0b6b-4eff953387b0",
             "longDescription": "",
-            "shortDescription": "Queries or jobs are running slower than before.",
+            "shortDescription": "Performance issues. Queries or jobs are running slower than before.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -626,7 +626,7 @@
         {
             "id": "d9ba803b-138f-60fc-401e-75fe3f59a717",
             "longDescription": "",
-            "shortDescription": "Unable to connect, service is down, or reboot needed.",
+            "shortDescription": "Unable to connect, service is down, or a node reboot is needed.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -634,7 +634,7 @@
         {
             "id": "b103d20a-6dad-26b3-78f1-a0c2816ccbf0",
             "longDescription": "",
-            "shortDescription": "Unable to connect to one or more services (Hive, Pig, Sqoop, or Ambari), service is down, or reboot needed on a Hadoop cluster.",
+            "shortDescription": "Unable to connect to one or more services (Hive, Pig, Sqoop, or Ambari), service is down, or a reboot is needed on a Hadoop cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -642,7 +642,7 @@
         {
             "id": "08501691-b9bb-28ad-147f-6c44e4255f61",
             "longDescription": "",
-            "shortDescription": "Unable to connect, service is down, or reboot needed on an Hbase cluster.",
+            "shortDescription": "Unable to connect, service is down, or a reboot needed on an Hbase cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -650,7 +650,7 @@
         {
             "id": "b731b6be-0dd5-803e-a602-ce1949461b60",
             "longDescription": "",
-            "shortDescription": "Unable to connect to one or more services (Hiveserver2, Sqoop, or Ambari), service is down, or reboot needed on an Interactive Query cluster.",
+            "shortDescription": "Unable to connect to one or more services (Hiveserver2, Sqoop, or Ambari), service is down, or a reboot is needed on an Interactive Query cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -658,7 +658,7 @@
         {
             "id": "924e3b53-3ffe-fe4e-5f74-4293fc4783c8",
             "longDescription": "",
-            "shortDescription": "Unable to connect to Kafka broker, service is down, or reboot needed on a Kafka cluster.",
+            "shortDescription": "Unable to connect to Kafka broker, service is down, or a reboot is needed on a Kafka cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -666,7 +666,7 @@
         {
             "id": "4385a512-5b71-6361-bd0e-3c641905d746",
             "longDescription": "",
-            "shortDescription": "Unable to connect, service is down, or reboot needed on an ML Services cluster.",
+            "shortDescription": "Unable to connect, service is down, or a reboot is needed on an ML Services cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -674,7 +674,7 @@
         {
             "id": "d30cef71-2fa8-f933-476f-45b947e573e4",
             "longDescription": "",
-            "shortDescription": "Unable to connect to one or more services (Spark, Jupyter, Zeppelin, Hive,Sqoop, or Ambari), service is down, or reboot needed on a Spark cluster.",
+            "shortDescription": "Unable to connect to one or more services (Spark, Jupyter, Zeppelin, Hive,Sqoop, or Ambari), service is down, or a reboot is needed on a Spark cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
@@ -682,7 +682,7 @@
         {
             "id": "4e3fa7a0-51ef-4e54-cbee-75ffc88791cb",
             "longDescription": "",
-            "shortDescription": "Unable to connect, service is down, or reboot needed on a Storm cluster.",
+            "shortDescription": "Unable to connect, service is down, or a reboot is needed on a Storm cluster.",
             "searchTags": "",
             "category": "",                                         
             "useInDiagnoseAndSolve": "true"
