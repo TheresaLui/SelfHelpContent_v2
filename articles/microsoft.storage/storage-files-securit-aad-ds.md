@@ -7,7 +7,7 @@
 	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32689882"
+	supportTopicIds="32629551"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
@@ -17,7 +17,7 @@
 
 # Azure AAD DS authentication over SMB
 
-Most users are able to resolve their Azure AAD DS authentication over SMB issue using the steps below.
+Most users are able to resolve their Azure AD DS authentication over SMB issue using the steps below.
 
 ## **Recommended Steps**    
 Ensure that the following steps are completed to enable AAD DS Authentication feature on your storage account:
