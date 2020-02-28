@@ -18,7 +18,7 @@
 # Error UserErrorCrpReportedUserError 
 
 <!--issueDescription-->
-We have identified that your backup operation failed because the VM is unable to communicate with backup service.
+We have determined that your backup operation failed because the VM is unable to communicate with backup service.
 
 <!--/issueDescription-->
 
