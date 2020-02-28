@@ -12,7 +12,7 @@
 	supportTopicIds="32636792"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	ownershipId="AzureData_AzureCosmosDB"
 />
 # IP Blocked by Firewall
