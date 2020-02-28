@@ -16,10 +16,7 @@
 
 # Azure Cloud Shell Issues
 
-Before continuing to create a case, ask yourself:
-
-* Is the Problem with Cloud Shell or the underlying Service? For example, if Cloud Shell is throwing an error or doesn't work with a particular browser, then continue to open a case.
-* If the problem is not specific to Cloud Shell, please open a case with the respective technology
+Before continuing to create a case, please check if the problem is related to Cloud Shell or the underlying Service? For example, if Cloud Shell is throwing an error or doesn't work with a particular browser, then continue to open a case. If the problem is not specific to Cloud Shell, please open a case with the respective technology
 
 ## **Recommended Documents**
 
