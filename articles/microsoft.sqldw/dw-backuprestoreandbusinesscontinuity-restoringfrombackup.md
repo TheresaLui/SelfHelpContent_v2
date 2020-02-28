@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-restoringfrombackup.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Restoring from backup

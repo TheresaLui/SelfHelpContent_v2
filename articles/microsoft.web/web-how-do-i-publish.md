@@ -9,7 +9,7 @@
 	supportTopicIds="32589282"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="30a2fd9a-a729-4fe3-92ae-9d585beff497"
 />
 # Questions on Publishing code

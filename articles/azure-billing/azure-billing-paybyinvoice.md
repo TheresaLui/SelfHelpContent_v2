@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="d368cadf-356f-4228-a167-d462e681ad80"
+	ownershipId="ASMS_Billing"
 />
 
 # Change the payment method for your Azure Subscription to pay by invoice

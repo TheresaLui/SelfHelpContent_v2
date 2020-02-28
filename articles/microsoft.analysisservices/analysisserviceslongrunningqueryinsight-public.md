@@ -14,13 +14,14 @@
 	resourceTags=""
 	productPesIds="1003281"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 
 # There are long running commands or queries on the server.
 
 <!--issueDescription-->
-There is a long running query/command with a duration greater than **<!--$Duration-->Duration<!--/$Duration--> minutes** on the server. A long running query or command may impact performance in other parts of your server.
+There is a long running query/command with a duration greater than **<!--$Duration-->Duration<!--/$Duration-->** minutes on the server. A long running query or command may impact performance in other parts of your server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

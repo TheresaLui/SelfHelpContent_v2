@@ -10,8 +10,9 @@
     supportTopicIds="32689843"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="aks-install-creatingspninazuread"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues creating SPN in Azure AD

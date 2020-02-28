@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-query-index-issue"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Search Issue querying an index using the REST API

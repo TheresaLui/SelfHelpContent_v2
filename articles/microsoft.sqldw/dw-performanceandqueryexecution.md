@@ -11,7 +11,7 @@
     selfHelpType="resource"
     resourceTags="datawarehouse"
     articleId="dw-performanceandqueryexecution.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # How to enhance and troubleshoot query performance and execution

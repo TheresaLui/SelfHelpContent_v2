@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
 />
 
 # Communication to configuration server fails because FIPS compliance is enabled

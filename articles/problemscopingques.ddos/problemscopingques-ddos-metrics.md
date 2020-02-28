@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640599"
 	productPesIds="16355"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 />
 # Configure metrics

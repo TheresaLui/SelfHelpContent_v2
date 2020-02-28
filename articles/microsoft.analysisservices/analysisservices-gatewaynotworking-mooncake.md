@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="cfa03f85-f608-4ac0-8eff-7a7cefda716b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # On-premises data gateway is not working

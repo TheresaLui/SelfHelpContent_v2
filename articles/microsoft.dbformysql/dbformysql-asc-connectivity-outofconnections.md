@@ -12,6 +12,7 @@
 	selfHelpType="rca"
     resourceTags="servers, databases"
     cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Can't connect MySQL database server because of running out of connections
 

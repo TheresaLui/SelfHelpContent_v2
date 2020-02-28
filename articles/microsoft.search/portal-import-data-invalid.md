@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-schema"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Issue with index data when using the import data wizard
 

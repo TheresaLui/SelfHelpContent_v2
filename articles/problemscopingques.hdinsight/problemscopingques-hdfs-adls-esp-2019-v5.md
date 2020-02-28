@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636434"
 	productPesIds="15078"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 />
 # HDInsight HDFS ADLS Gen 1 or 2 in ESP Issue

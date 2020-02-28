@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="portal-load-issue-rain-cloud"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Issues with Azure Cognitive Search loading the portal (rain cloud icon)

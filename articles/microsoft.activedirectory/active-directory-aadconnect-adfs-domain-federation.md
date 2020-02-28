@@ -12,6 +12,7 @@
 	cloudEnvironments="public"
 	ms.author="billmath"
 	articleId="a203f2aa-c934-419c-8b06-9af9471197f8"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 

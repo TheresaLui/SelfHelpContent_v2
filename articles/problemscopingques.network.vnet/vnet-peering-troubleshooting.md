@@ -6,7 +6,7 @@
 	articleid="cannotconnectVMinapeeredVNET"
 	supportTopicIds="32584249"
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 />
 # Cannot Connect to a VM in a peered VNet

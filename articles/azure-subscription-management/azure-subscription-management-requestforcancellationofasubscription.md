@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="03786352-cd59-4e62-ae27-2aa6921bc009"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Request a cancellation of your Azure subscription

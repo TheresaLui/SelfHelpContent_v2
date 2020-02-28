@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="AE0A4AB8-9453-421C-95BA-53019D458903"
+	ownershipId="Compute_BotService"
 />
 # Deploy your bot using Visual Studio
 

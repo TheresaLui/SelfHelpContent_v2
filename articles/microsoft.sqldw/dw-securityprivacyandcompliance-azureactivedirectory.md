@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-securityprivacyandcompliance-azureactivedirectory.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Troubleshooting Azure Active Directory Authentication

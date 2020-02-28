@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32536408"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="666ae305-e3c9-4c5c-89d5-febc5ce66b79"
 />

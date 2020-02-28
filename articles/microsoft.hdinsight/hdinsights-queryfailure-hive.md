@@ -10,8 +10,9 @@
     supportTopicIds="32636459"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="4099d7f3-cc14-4320-8844-dc389d25ba96"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Hive Troubleshooting

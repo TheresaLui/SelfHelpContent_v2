@@ -10,8 +10,9 @@
     supportTopicIds="32629177"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-general-guidance"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack General Guidance

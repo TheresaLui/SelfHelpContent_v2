@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="unexpectedcharges-chargeforcancelledservice"
+	ownershipId="ASMS_Billing"
 />
 
 # Unexpected Charges-charge for cancelled service

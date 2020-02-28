@@ -10,7 +10,7 @@
 	supportTopicIds="32589283"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="a4e5c7cf-034d-4d51-8bf1-33aff3e22cc5"
 />
 # Questions on Scaling

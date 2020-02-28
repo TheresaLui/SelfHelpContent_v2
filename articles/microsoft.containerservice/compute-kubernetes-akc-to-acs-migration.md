@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="9d979281-9b36-4a0a-ad0b-99023bbf04c9"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # ACS to AKS migration 

@@ -12,13 +12,14 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="bc33791c-7c27-461b-b0d0-989c567e50a7"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Databricks cluster creation due to quota limit
 
 ## **Recommended Steps**
 
-* To [increase quota](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests), please follow the steps:
+* To expedite the process to increase quota, please follow the steps:
 
     * Go to [subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
     * Select the subscription that needs an increased quota

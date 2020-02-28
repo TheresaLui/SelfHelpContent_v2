@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="6f19909d-9bcc-44f5-be02-e7777aba61ee"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # My problem relates to an IoT Edge module

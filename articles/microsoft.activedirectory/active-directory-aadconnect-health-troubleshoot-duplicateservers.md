@@ -8,6 +8,7 @@
 	selfHelpType="resource"
 	cloudEnvironments="public"
 	articleId="6fb849ef-d956-4b12-b16e-570cce273b4d"
+	ownershipId="Identity_AuthReach_HybridAuth_ADFS"
 />
 # Duplicate servers in the portal
 

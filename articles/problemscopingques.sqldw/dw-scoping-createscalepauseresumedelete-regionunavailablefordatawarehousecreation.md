@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635216, 32635217"
 	productPesIds="15818"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 />
 # Create, Scale, Pause, Resume, Delete - Region unavailable for Data Warehouse creation

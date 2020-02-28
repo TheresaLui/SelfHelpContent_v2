@@ -12,6 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="a8eecae4-f2f0-4ae3-9c61-40cc2582d56b"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Windows Hello for Business

@@ -11,6 +11,7 @@
     productPesIds="14785"
     cloudEnvironments="public"
     	articleId="4ac494f9-0a11-4bba-afb0-4ee2253a7e80"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I'm having a problem deleting my Azure AD tenant

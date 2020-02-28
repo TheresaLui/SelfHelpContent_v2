@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
 />
 
 # Enable protection fails because of special characters on source mobility drive

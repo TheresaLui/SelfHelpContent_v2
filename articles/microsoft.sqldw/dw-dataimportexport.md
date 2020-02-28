@@ -11,7 +11,7 @@
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-dataimportexport.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # How to troubleshoot data import and export issues
 

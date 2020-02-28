@@ -9,7 +9,7 @@
     supportTopicIds="32608923"
     resourceTags=""
     productPesIds="16556"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="498c9b08-5e51-4e1d-8207-2c563d150e43"
 />
 # Configure NSG interoperability

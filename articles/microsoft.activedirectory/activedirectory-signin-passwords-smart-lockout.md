@@ -12,7 +12,8 @@
     productPesIds="16579"
     cloudEnvironments="public"
     articleId="29e952b2-6c23-47a3-81ff-4540e447627e"
-     />
+     	ownershipId="AzureIdentity_SignIn"
+/>
 
 # Azure AD Password Protection – Smart lockout
 

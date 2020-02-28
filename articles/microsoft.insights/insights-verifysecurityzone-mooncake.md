@@ -10,6 +10,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="insights-verifysecurityzone-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I need to verify my security zone

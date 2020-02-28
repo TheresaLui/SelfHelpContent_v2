@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
 />
 
 # Push installation of mobility agent fails because logon servers are not available on Source Machine

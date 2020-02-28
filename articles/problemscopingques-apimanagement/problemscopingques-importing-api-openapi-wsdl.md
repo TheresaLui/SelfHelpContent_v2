@@ -7,7 +7,7 @@
 	ms.author="khzayed"
 	selfHelpType="problemScopingQuestions"
 	productPesIds="15551"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 />
 # Importing API (OpenAPI, WSDL, WADL)

@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="reservedinstance-bladeissues"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # reserved instance-blade issues

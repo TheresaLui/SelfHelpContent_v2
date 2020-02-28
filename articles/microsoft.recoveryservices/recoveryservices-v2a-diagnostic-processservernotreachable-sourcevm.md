@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
 />
 
 # Replication is not progressing as Process Server is not reachable

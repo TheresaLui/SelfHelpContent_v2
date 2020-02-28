@@ -10,7 +10,7 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636945"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="eh-auth-issues"
 schemaVersion="1"
 />

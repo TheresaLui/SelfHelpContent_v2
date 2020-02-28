@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-firewallrules.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Firewall rules
 

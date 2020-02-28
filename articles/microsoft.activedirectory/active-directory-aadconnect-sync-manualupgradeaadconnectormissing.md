@@ -12,7 +12,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
+/>
 
 # Manual upgrade: Missing Azure AD connector
 

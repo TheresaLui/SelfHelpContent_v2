@@ -12,6 +12,7 @@
     productPesIds="16456"
     cloudEnvironments="public, MoonCake, fairfax"
     articleId="97726c01-5bc5-40cf-8a04-fe6204ca247d"
+	ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Compliance state and details

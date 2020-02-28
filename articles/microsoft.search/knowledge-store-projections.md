@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="knowledge-store-projection"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # Issue creating a knowledge store projection
 

@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Monetary commitment and unbilled usage

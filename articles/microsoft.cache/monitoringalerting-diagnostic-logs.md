@@ -12,6 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="820d10c4-4455-4341-91be-c1d4a49d08b7"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Diagnostic logs with Azure Cache for Redis

@@ -12,7 +12,7 @@
     supportTopicIds="32539944"
     resourceTags="windows, Express Route"
     productPesIds="15480"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  />
 
 # Microsoft Azure has identified an issue regarding the Microsoft Edge device

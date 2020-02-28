@@ -7,7 +7,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635074"
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
 />
 # Job, Pool, and node details

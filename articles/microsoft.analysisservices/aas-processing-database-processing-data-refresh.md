@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="2d858e77-c8fe-a8b1-399f-862580819414"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Using Analysis Services Tabular data in Power BI Desktop

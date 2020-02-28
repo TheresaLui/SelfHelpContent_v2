@@ -10,7 +10,7 @@
 	supportTopicIds="32574718"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="d92c23fa-f2ad-4403-8bd4-52c3e2bde29d"
 />
 # Replicate Azure VMs from one Azure region to another Azure region using Azure Site Recovery

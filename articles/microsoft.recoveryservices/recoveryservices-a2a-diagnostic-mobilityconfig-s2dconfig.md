@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
 />
 
 # Mobility agent configuration fails because the storage spaces direct is unsupported

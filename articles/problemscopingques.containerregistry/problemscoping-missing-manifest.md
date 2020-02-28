@@ -7,7 +7,7 @@ ms.author="nathana"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32680714"
 productPesIds="16213"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="problemscoping-missing-manifest"
 schemaVersion="1"
 />

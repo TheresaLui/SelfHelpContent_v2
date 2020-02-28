@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-failedtocreateordeletedatabase.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Failed to create or delete database

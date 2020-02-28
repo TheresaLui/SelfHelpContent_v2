@@ -10,7 +10,7 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633405"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="sb-client-libraries-question"
 schemaVersion="1"
 />

@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	articleId="2ab6a0c4-21ea-49f0-a88c-60597e4e38a3"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Change Reservation Owner or Tenant

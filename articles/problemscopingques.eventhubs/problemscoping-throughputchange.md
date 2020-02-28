@@ -10,7 +10,7 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636956"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="eh-throughput"
 schemaVersion="1"
 />

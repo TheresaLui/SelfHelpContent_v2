@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="portal-search-explorer-issues"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Issues with Azure Cognitive Search portal search explorer

@@ -11,7 +11,7 @@
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-createscalepauseresumedelete.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 # How to troubleshoot Create/Scale/Pause/Resume/Delete issues
 

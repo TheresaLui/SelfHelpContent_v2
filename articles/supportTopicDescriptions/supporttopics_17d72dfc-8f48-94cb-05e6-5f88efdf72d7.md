@@ -602,7 +602,7 @@
     {
       "id": "cd167c00-fc25-ae4d-43b1-ac530eb6be1b",
       "longDescription": null,
-      "shortDescription": "Issue during backup to Disk or Tapes (not online backup) ",
+      "shortDescription": "Issue during backup to Disk or Tapes (not online backup) ",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
@@ -650,7 +650,7 @@
     {
       "id": "e2bc8d87-ac15-698b-4521-a8010fa3b7bc",
       "longDescription": null,
-      "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
+      "shortDescription": "Issue while moving Recovery Services Vault across subscriptions or resource group",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"

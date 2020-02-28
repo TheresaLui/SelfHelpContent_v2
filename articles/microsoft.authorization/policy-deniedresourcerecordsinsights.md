@@ -11,8 +11,9 @@
     selfHelpType="diagnostics"
     supportTopicIds="32636045,32636046,32636050"
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="e9802b12-2126-4064-be9c-edf32897515c"
+	ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - One or more Azure Policy evaluation records (deny action) detected

@@ -10,7 +10,7 @@
     supportTopicIds="32641419"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="bastion-performance-lag"
 />
 

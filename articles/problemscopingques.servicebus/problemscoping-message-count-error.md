@@ -10,7 +10,7 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633398"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="sb-message-count-issue"
 schemaVersion="1"
 />

@@ -10,8 +10,9 @@
     supportTopicIds="32629242"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-poqs-plans"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage Plans in Azure Stack

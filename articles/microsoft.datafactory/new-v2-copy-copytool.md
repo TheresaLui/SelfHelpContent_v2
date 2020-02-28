@@ -10,7 +10,8 @@
 	supportTopicIds="32637154"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Copy Data Tool

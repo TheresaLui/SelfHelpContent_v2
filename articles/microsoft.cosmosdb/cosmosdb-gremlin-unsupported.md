@@ -13,6 +13,7 @@
 	articleId="cosmosdb-gremlin-unsupported"
 	displayOrder="187"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Gremlin - Unsupported Features
 

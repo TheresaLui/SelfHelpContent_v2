@@ -12,8 +12,9 @@
 	productPesIds="15659"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="9c58cce1-dcf8-4f7e-a478-a47041597f06"
+	ownershipId="ASMS_Billing"
 />
-azure-billing-azurecostmanagement-costalertsfunctionality.md
+
 # Assistance with Alerts, budgets or forecasted cost functionality
 
 **Why is the Add budget button disabled for me?**<br>
