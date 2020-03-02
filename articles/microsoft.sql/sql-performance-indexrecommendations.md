@@ -29,5 +29,5 @@ Depending on the estimated performance gain, recommendations are categorized as 
 
 ## **Recommended Documents**
 
-* [Performance recommendations for SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-advisor)
-* [Automatic index management in Azure SQL database](https://docs.microsoft.com/en-us/archive/blogs/sqlserverstorageengine/automatic-index-management-in-azure-sql-db)
+* [Performance recommendations for SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-advisor)
+* [Automatic index management in Azure SQL database](https://docs.microsoft.com/archive/blogs/sqlserverstorageengine/automatic-index-management-in-azure-sql-db)
