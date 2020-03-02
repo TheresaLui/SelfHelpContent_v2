@@ -15,14 +15,13 @@
 	productPesIds="16222"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
-# Can't connect PostgreSQL server because of VNET
+# Can't connect to PostgreSQL server because of VNET
 
 <!--issueDescription-->
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of VNET configuration errors. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-* Virtual Network (VNET) service endpoints and rules extend the private address space of a Virtual Network to your Azure Database for PostgreSQL server.
 * If the Azure resources being connected via service endpoints are across two subscriptions, make sure that the two subscriptions are in same Active Directory tenant and both of them have **Microsoft.SQL** resource provider registered
 
 ## **Recommended Documents**

@@ -24,7 +24,7 @@ There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL serv
 ## **Recommended Steps**
 
 * Try to reduce the number of concurrent connections by closing idle connections. We recommend using a connection pooler like [PgBouncer](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/not-all-postgres-connection-pooling-is-equal/ba-p/825717) to manage connections.
-* Ensure you have chosen a compute tier that can support the maximum number of connections required by the application. See the [limits article](https://docs.microsoft.com/azure/postgresql/concepts-limits for more information.
+* Ensure you have chosen a compute tier that can support the maximum number of connections required by the application. See the [limits article](https://docs.microsoft.com/azure/postgresql/concepts-limits) for more information.
 
 ## **Recommended Documents**
 
