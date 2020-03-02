@@ -15,10 +15,10 @@
 	productPesIds="16222"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
-# Can't connect PostgreSQL database server: planned failover
+# Can't connect to PostgreSQL server: planned failover
 
 <!--issueDescription-->
-Your server <!--$ServerName-->ServerName<!--/$ServerName--> was unavailable starting at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to Azure planned maintenance for <!--$RCA-->RCA<!--/$RCA-->.
+Your server <!--$ServerName-->ServerName<!--/$ServerName--> was unavailable starting at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to a planned failover: <!--$RCA-->RCA<!--/$RCA-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

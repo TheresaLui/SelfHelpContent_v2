@@ -15,16 +15,16 @@
 	productPesIds="16222"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
-# Can't connect PostgreSQL database server because of running out connections
+# Can't connect to PostgreSQL server because of maximum connection limit
 
 <!--issueDescription-->
-There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> failed between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because the server was at its [maximum number of connections](https://docs.microsoft.com/azure/postgresql/concepts-limits).
+There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because the server was already at its [maximum number of connections](https://docs.microsoft.com/azure/postgresql/concepts-limits).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 * Try to reduce the number of concurrent connections by closing idle connections. We recommend using a connection pooler like [PgBouncer](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/not-all-postgres-connection-pooling-is-equal/ba-p/825717) to manage connections.
-* Ensure you have chosen a compute tier that can support the maximum number of connections required by the application
+* Ensure you have chosen a compute tier that can support the maximum number of connections required by the application. See the [limits article](https://docs.microsoft.com/azure/postgresql/concepts-limits for more information.
 
 ## **Recommended Documents**
 

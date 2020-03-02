@@ -18,7 +18,7 @@
 # Can't connect to PostgreSQL server because of VNET
 
 <!--issueDescription-->
-PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> is a Basic tier server and does not support virtual network service endpoints. There are <!--$Count-->Count<!--/$Count--> connections to this server between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) as a result.
+PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> is a Basic tier server and does not support virtual network service endpoints. There are <!--$Count-->Count<!--/$Count--> failed connections to this server between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) as a result.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
