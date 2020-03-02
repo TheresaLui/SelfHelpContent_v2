@@ -13,7 +13,7 @@
   "$schema": "SelfHelpContent",
   "shortDescription": "Azure Active Directory Domain Services provides managed domain services such as domain join, group policy, LDAP, Kerberos, NTLM authentication etc. ",
   "longDescription": "",
-  "productLink1": "https://docs.microsoft.com/en-us/azure/active-directory-domain-services/index",
+  "productLink1": "https://docs.microsoft.com/azure/active-directory-domain-services/index",
   "productLinkName1": "Azure AD Domain Services documentation",
   "productLink2": "",
   "productLinkName2": "",
