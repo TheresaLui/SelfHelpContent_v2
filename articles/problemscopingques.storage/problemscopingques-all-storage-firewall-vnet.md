@@ -50,8 +50,112 @@
         },
         {
 
+           "id": "service_provider_selection_dropdown",
+            "order": 5,
+            "visibility": "connection_topology_dropdown == On_Azure_Cloud",
+            "controlType": "dropdown",
+            "displayLabel": "Azure Service",
+            "watermarkText": "Select the Azure Service Type",
+            "dropdownOptions": [
+                {
+                    "value": "cloud_services",
+                    "text": "Cloud Services (Web roles/Worker roles) "
+                },
+                {
+                    "value": "container_services_instances_registries",
+                    "text": "Container Services, Instances and Registries"
+                },
+                {
+                    "value": "databases",
+                    "text": "Databases"
+                },
+                {
+                    "value": "data_and_analytics",
+                    "text": "Data and Analystics "
+                },
+                {
+                    "value": "monitoring_management",
+                    "text": "Monitoring and Management "
+                },
+                {
+                    "value": "networking",
+                    "text": "Networking"
+                },
+                {
+                    "value": "virtual_machine",
+                    "text": "Virtual Machine [including SQL Virtual Manchines]"
+                },
+                {
+                    "value": "virtual_machine_scalesets",
+                    "text": "Virtual Machine Scale Sets"
+                },
+                {
+                    "value": "web_function_mobile_app",
+                    "text": "Web, Function & Mobile App"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not listed above"
+                }
+            ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+
+           "id": "resourcetype_virtualmachine_selection_dropdown",
+            "order": 5,
+            "visibility": "service_provider_selection_dropdown == virtual_machine",
+            "controlType": "dropdown",
+            "displayLabel": "Virtual Machine Type",
+            "watermarkText": "Select the appropriate Virtual Machine Type",
+            "dropdownOptions": [
+                {
+                    "value": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
+                    "text": "ARM Virtual Machines"
+                },
+                {
+                    "value": "MICROSOFT.CLASSICCOMPUTE/VIRTUALMACHINES",
+                    "text": "Classic Virtual Machines"
+                },
+                {
+                    "value": "Microsoft.SqlVirtualMachine/sqlVirtualMachines",
+                    "text": "SQL Virtual Machines"
+                },
+               {
+                    "value": "dont_know_answer",
+                    "text": "Not listed above"
+                }
+            ],
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+
+        {
+
+           "id": "resource_list_virtualmachine",
+            "order": 10,
+            "visibility": "resourcetype_virtualmachine_selection_dropdown != null && resourcetype_virtualmachine_selection_dropdown != dont_know_answer",
+            "controlType": "dropdown",
+            "displayLabel": "Select the connection source",
+            "watermarkText": "Filter by name",
+            "dynamicDropdownOptions": {
+                "uri": "subscriptions/{subscriptionId}/resources?$filter={resourcetype_virtualmachine_selection_dropdown}&api-version=2019-10-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other or none of the above"
+                }
+            }
+
+        },
+        {
+
            "id": "resourceGroup_list",
-            "order": 4,
+            "order": 40,
             "visibility": "connection_topology_dropdown == On_Azure_Cloud",
             "controlType": "dropdown",
             "displayLabel": "Select the Resource Group of the source",
@@ -69,9 +173,10 @@
             }
 
         },
-        {
+
+       {
             "id": "resourceProvider_list",
-            "order": 5,
+            "order": 60,
             "visibility": "resourceGroup_list != null",
             "controlType": "dropdown",
             "displayLabel": "Select the type of resoure",
@@ -99,7 +204,7 @@
         },
         {
             "id": "resourceName_list",
-            "order": 10,
+            "order": 100,
             "visibility": "resourceProvider_list != null",
             "controlType": "dropdown",
             "displayLabel": "Select the name of the source",
@@ -127,7 +232,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 100,
+            "order": 1000,
             "controlType": "datetimepicker",
             "displayLabel": "Select time (in local time zone) of the most recent occurrence",
             "required": true,
@@ -135,7 +240,7 @@
         },
         {
             "id": "error_code_dropdown",
-            "order": 20,
+            "order": 2000,
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
@@ -182,7 +287,7 @@
         },
         {
             "id": "request_id",
-            "order": 30,
+            "order": 3000,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
@@ -192,7 +297,7 @@
         },
         {
             "id": "problem_description",
-            "order": 40,
+            "order": 4000,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -200,7 +305,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 70,
+            "order": 7000,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> issues."
         }
