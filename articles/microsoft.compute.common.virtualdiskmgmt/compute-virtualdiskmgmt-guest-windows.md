@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
-	articleId="d43073c5-75dc-4c03-b04a-aa4c56e765a8"
+	articleId="d5f62cb2-8caa-4b9a-b644-6f3fdf83e4c9"
 />
 
 # Resolving issues with Windows Disk Management

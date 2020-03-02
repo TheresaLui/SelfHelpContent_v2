@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
-	articleId="3cef1f67-f2f8-4a0e-887b-6a9aa09fcf27"
+	articleId="7f38987b-f7e0-4196-aaf6-b1d2e5f484e5"
 />
 
 # Resolving issues with Linux Disk Management
