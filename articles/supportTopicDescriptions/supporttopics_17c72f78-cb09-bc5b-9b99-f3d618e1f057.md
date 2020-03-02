@@ -6,8 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" 	ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
@@ -21,6 +20,14 @@
   "productLink3": null,
   "productLinkName3": null,
   "supportTopics": [
+    {
+      "id": "1066e10f-de7d-fb47-8114-ea398f1a5688",
+      "longDescription": "",
+      "shortDescription": "You have questions about pricing tiers or purchasing model (vCores, storage, etc.)",
+      "searchTags": "pricing tiers;purchasing model;vCores;storage",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
       "longDescription": "",
