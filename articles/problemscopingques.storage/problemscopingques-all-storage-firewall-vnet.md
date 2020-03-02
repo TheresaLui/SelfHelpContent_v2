@@ -140,7 +140,7 @@
             "displayLabel": "Select the connection source",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
-                "uri":"subscriptions/{subscriptionId}/resources?api-version=2019-10-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines",
+                "uri":"subscriptions/{subscriptionId}/resources?api-version=2019-10-01&$filter=resourceType eq Microsoft.Compute/virtualMachines",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
