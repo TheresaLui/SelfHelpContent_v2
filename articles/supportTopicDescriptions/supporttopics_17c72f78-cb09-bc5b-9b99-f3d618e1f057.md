@@ -6,8 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" 	ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
@@ -40,8 +39,8 @@
     {
       "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
       "longDescription": "",
-      "shortDescription": "You received the (unknown MySQL server host) error",
-      "searchTags": "unknown mysql server host;Database is currently unavailable;unavailable",
+      "shortDescription": "You received the (too many connections) error message.",
+      "searchTags": "too many connections;connection limit;connections;maximum connection limit",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
