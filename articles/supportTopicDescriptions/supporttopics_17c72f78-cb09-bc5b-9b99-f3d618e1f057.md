@@ -6,8 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" 	ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
@@ -35,6 +34,14 @@
       "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation",
       "searchTags": "issues while connecting;issues connecting;connectivity;vnet;vm",
       "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6cd55633-0356-3b4a-adbb-1597edbd067a",
+      "longDescription": "",
+      "shortDescription": "You have questions about scaling operations.",
+      "searchTags": "scaling operations",
+      "category": "Scaling a resource",
       "useInDiagnoseAndSolve": "true"
     },
     {
