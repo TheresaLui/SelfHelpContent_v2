@@ -104,7 +104,7 @@
         {
 
            "id": "resourcetype_virtualmachine_selection_dropdown",
-            "order": 5,
+            "order": 6,
             "visibility": "service_provider_selection_dropdown == virtual_machine",
             "controlType": "dropdown",
             "displayLabel": "Virtual Machine Type",
