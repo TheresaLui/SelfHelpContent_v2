@@ -140,7 +140,7 @@
             "displayLabel": "Select the connection source",
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
-                "uri": "subscriptions/{subscriptionId}/resources?$filter={resourcetype_virtualmachine_selection_dropdown}&api-version=2019-10-01",
+                "uri": "subscriptions/{subscriptionId}/resources?$filter=resourceType eq{resourcetype_virtualmachine_selection_dropdown}&api-version=2019-10-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
