@@ -57,7 +57,7 @@
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
-		"menuid": "scale_up" 
+		"menuid": "scale_up"
       }
     }
   ],
