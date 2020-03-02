@@ -6,8 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" 	ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
@@ -35,6 +34,14 @@
       "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation",
       "searchTags": "issues while connecting;issues connecting;connectivity;vnet;vm",
       "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6a81d888-2538-d2cb-10ee-bd7757c1e971",
+      "longDescription": "",
+      "shortDescription": "You are experiencing unexpected behavior, errors or exceptions when executing a query.",
+      "searchTags": "unexpected behavior;errors;exceptions;error while executing a query",
+      "category": "Performance and Query Execution",
       "useInDiagnoseAndSolve": "true"
     },
     {
