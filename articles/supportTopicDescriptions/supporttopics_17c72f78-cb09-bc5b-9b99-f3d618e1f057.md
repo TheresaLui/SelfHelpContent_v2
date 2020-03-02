@@ -6,8 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" 	ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
@@ -21,6 +20,14 @@
   "productLink3": null,
   "productLinkName3": null,
   "supportTopics": [
+    {
+      "id": "17cdafdb-427d-fb6a-c698-2228fc96678a",
+      "longDescription": "",
+      "shortDescription": "Questions about scaling operations or pricing model",
+      "searchTags": "scaling operations;pricing model",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
       "longDescription": "",
