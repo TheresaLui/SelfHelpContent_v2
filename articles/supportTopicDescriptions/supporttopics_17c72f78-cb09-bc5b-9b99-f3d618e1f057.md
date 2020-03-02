@@ -6,8 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" 	ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
@@ -43,6 +42,14 @@
       "shortDescription": "You received the (unknown MySQL server host) error",
       "searchTags": "unknown mysql server host;Database is currently unavailable;unavailable",
       "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a04b8f02-df72-e33a-52ba-c7f209765ca5",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing high network latency while retrieving data from the server",
+      "searchTags": "high network latency;network latency;select latency;latency issue",
+      "category": "Performance and Query Execution",
       "useInDiagnoseAndSolve": "true"
     },
     {
