@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640021"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-server-parametersnotlisted"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Server Parameters - Server parameter not listed
 ---

@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="cdf092bb-b1e9-44a9-bc37-57b7f5181723"
+	ownershipId="Compute_APIManagement"
 />
 
 # SSL/TLS configurations in Azure API Management

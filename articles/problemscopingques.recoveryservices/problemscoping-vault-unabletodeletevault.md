@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 		articleId="e5e2dea8-3a55-4066-b3e2-29b96afa4357"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for unable to delete vault
 ---

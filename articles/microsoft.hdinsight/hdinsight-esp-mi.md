@@ -10,8 +10,9 @@
     supportTopicIds="32629083"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-esp-mi"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Enterprise Security: Managed Identity
 

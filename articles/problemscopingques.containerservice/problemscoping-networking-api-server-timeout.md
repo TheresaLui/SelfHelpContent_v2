@@ -9,6 +9,7 @@
                 cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-networking-api-server-timeout"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # API Server Connectivity and Timeout
 ---

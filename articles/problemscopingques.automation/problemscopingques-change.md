@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599855,32599863,32599865, 32599918"
 	productPesIds="15607"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="Compute_Automation"
 />
 # Change Tracking
 ---

@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="a05e714c-6dbb-45a2-93d7-1516845ee340"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure automation error when processing AS server

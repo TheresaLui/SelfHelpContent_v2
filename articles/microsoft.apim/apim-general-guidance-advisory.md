@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="bad8a332-e350-4807-8c65-038a2a66fc3a"
+	ownershipId="Compute_APIManagement"
 />
 
 # General Guidance or Advisory

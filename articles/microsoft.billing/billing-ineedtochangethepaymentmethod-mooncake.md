@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="billing-ineedtochangethepaymentmethod-mooncake"
+	ownershipId="ASMS_Billing"
 />
 
 # I need to change the payment method

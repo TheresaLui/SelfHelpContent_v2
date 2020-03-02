@@ -9,6 +9,7 @@
 	productPesIds="16459"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Connectivity Issue
 ---

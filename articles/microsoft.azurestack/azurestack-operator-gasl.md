@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-operator-gasl"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Log Collection

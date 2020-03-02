@@ -19,6 +19,15 @@
   "productLinkName2": "",
   "productLink3": "",
   "productLinkName3": "",
-  "supportTopics": []
+  "supportTopics": [
+    {
+      "id": "86d57c6c-df7d-9808-dfcb-9dd1bfe44cff",
+      "longDescription": "",
+      "shortDescription": "Issues while configuring administrative or management features for Azure AD Domain Services ",
+      "searchTags": "Domain Join",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    }
+  ]
 }
 ---

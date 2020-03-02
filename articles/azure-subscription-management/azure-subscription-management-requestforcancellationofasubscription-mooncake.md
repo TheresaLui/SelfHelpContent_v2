@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="request-a-cancellation-of-your-azure-subscription"
+	ownershipId="ASMS_Billing"
 />
 
 # Request a cancellation of your Azure subscription

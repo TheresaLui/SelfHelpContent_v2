@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16572"
 	cloudEnvironments="public,mooncake,fairfax"
+	ownershipId="CloudNet_VirtualWAN"
 />
 
 # Create, Edit, or Delete VPN Site for your Virtual WAN

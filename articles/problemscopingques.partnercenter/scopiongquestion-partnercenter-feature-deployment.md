@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_feature_deployment"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Feature Deployment Questions
 ---

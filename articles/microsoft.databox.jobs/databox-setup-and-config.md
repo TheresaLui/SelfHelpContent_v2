@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
 	articleId="076a7fca-34d9-4ebe-8e69-bd2c192f0a2d"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box setup and configuration

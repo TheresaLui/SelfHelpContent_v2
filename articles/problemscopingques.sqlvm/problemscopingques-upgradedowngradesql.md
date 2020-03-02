@@ -8,6 +8,7 @@
 	 cloudEnvironments="public,fairfax"
 	 schemaVersion="1"
 	 articleId="2fac49be-dd38-4cdf-87b3-fb2e0bf1990b"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # Upgrade-downgrade SQL Server Version/Edition
 ---

@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="abea3942-6908-4302-8148-ce816f6e2e57"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems setting policy that applies to 'all cloud apps'

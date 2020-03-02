@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640018"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-maxlimit"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Database Connectivity - Server hit maximum connection limit
 ---

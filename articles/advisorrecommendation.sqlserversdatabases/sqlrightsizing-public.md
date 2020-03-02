@@ -6,6 +6,7 @@
     articleId="b83241d3-47ba-4603-8d5a-a1b3331e74f4_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Right-size underutilized SQL Databases
 ---

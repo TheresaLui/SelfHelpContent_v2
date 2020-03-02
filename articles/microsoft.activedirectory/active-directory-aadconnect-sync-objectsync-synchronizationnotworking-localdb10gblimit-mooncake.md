@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-aadconnect-sync-objectsync-synchronizationnotworking-localdb10gblimit-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Synchronization Service stops working after LocalDB reaches 10-GB limit

@@ -11,6 +11,7 @@
     productPesIds="16644"
     cloudEnvironments="Public"
  	articleId="machinelearning-datadrift-driftjobtaketoolongtorun"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # How to resolve data drift job take too long to run?

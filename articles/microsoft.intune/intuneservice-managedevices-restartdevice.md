@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="09638433-121b-4a82-ae64-00ca2bd39037"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Restart Device

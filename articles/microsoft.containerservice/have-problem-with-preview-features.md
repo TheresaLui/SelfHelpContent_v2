@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="have-problem-with-preview-features"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

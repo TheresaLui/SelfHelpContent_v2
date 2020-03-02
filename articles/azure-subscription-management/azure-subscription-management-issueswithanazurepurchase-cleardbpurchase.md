@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="165ad219-1c00-4d27-9692-c66437d2fd26"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # cleardb purchase

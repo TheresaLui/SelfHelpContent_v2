@@ -9,6 +9,7 @@
     articleId="virtualwan-problemscopingques-select-vpn-partner"
     cloudEnvironments="public,mooncake,fairfax"
     schemaVersion="1"
+	ownershipId="CloudNet_VirtualWAN"
 />
 # Select VPN Device Partner Configure my On Prem Device 
 ---

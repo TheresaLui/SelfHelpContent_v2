@@ -12,6 +12,7 @@
 	productPesIds="16094"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="12fc7bf4-d5a9-4605-a133-d9d6daadae4a"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Site-to-Site VPN connectivity issues

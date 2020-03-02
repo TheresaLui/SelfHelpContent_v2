@@ -10,7 +10,8 @@
 	supportTopicIds="32629484"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Expressions and Functions

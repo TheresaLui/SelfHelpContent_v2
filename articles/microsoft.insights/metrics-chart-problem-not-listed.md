@@ -13,6 +13,7 @@
     resourceTags=""
     productPesIds="16250"
     cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-chart-problem-not-listed -->

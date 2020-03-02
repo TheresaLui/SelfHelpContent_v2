@@ -8,7 +8,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="4077bf1c-7ac9-4eb2-8a44-152c9f92d9c5"
-    />
+    	ownershipId="AzureIdentity_B2B"
+/>
 
 # Other problems with password reset
 

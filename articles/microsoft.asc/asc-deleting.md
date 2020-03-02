@@ -12,6 +12,7 @@
 	productPesIds="16512"
 	cloudEnvironments="public, Fairfax"
 	articleId="fc925934-4c50-4a81-8e78-f582059e69dc"
+	ownershipId="Compute_AppService"
 />
 
 # ASC/Deleting

@@ -10,6 +10,7 @@
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-rbac-manage-resource-access-assignments-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to assign access to resources in my directory

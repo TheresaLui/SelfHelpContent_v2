@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-addon"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # AddOn related issues
 ---

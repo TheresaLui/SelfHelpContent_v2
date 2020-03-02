@@ -10,8 +10,9 @@
     supportTopicIds="32640112"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="5ca7ea17-094e-404e-96ba-46c8ad45aa9c"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Auditing capabilities in Azure Database for MariaDB

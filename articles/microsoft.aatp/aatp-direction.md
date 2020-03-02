@@ -12,6 +12,7 @@ supportTopicIds="32729025,32729026,32729027,32729028,32729029,32729032,32729030,
 	productPesIds="16264"
 	cloudEnvironments="public"
 	articleId="4d0a34be-66f5-4310-956d-d45645d24cc2"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # direction

@@ -12,6 +12,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="aks-install-withaksbaseubuntuimage"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues with AKS Base Ubuntu Image

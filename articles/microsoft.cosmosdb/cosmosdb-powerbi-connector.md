@@ -13,6 +13,7 @@
 	articleId="cosmosdb-powerbi-connector"
 	displayOrder="125"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Power BI connector

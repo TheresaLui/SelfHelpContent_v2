@@ -10,8 +10,9 @@
 	supportTopicIds="32628286"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="8d3e0818-0feb-4207-a953-b89f19198227"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # My VM is unresponsive to start or stop operations

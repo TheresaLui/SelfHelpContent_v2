@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="92647b9e-7319-47d5-a6c4-1453dfa3e33f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure backup server - Restore Failure
 ---

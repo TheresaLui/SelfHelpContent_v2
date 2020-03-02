@@ -12,6 +12,7 @@
 	productPesIds="16582"
 	cloudEnvironments="public"
 	articleId="a2c00d6a-bc34-4082-ab3a-04e28a603cb3"
+	ownershipId="test_rediscache1"
 />
 
 # Using Profile and Office Container

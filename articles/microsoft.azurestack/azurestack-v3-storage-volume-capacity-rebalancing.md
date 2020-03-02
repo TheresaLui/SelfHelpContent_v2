@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="92d85eb7-cd78-434f-96fe-8292931b29d6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Volume capacity and rebalancing

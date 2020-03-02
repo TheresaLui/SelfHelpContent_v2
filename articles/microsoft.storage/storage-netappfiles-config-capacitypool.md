@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppConfigCreateCapacityPoolOrVolume"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Troubleshoot and resolve issues creating capacity pool or volume for NetApp Files 

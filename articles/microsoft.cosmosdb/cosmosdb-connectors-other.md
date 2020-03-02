@@ -13,6 +13,7 @@
 	articleId="cosmosdb-connectors-other"
 	displayOrder="121"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Cosmos DB connectors

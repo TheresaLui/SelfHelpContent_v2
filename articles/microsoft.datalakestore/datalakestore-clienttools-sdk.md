@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="c5466356-2f11-438d-9294-6fcbbaac305c"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # ADLS Gen1 - Need help with client tools or SDKs

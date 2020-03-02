@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="5ab8e128-ff65-45d6-a0f4-9a4f44cce799"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # sql administration/sql iaas extension

@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="4abffa62-1bf2-49d6-b4f7-5aafbd02a598"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # JIT Policy issue

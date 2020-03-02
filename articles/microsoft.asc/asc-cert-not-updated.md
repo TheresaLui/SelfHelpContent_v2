@@ -12,6 +12,7 @@
 	productPesIds="16512"
 	cloudEnvironments="public, Fairfax"
 	articleId="578ffdca-6a2e-464e-85f0-fa70a6c34106"
+	ownershipId="Compute_AppService"
 />
 
 # ASC/Renewing-Rekeying

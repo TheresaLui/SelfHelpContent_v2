@@ -11,6 +11,7 @@
 	productPesIds="16644"
 	cloudEnvironments="Public"
 	articleid="machinelearning-datastore-unabletomountdownloadupload"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Unable to mount, download, upload to a datastore

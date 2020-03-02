@@ -12,6 +12,7 @@
 	productPesIds="16975"
 	cloudEnvironments="public, Fairfax"
 	articleId="96474219-228b-41db-9643-9d605574b819"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # availability and performance/cdn does not cache content

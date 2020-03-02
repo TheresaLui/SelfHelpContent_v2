@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="867463"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # configurationandsetup/unabletoreachaport

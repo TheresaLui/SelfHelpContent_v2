@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e434a646-fae3-4a57-b59d-848142a12b1f"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Invalid DH Group

@@ -11,6 +11,7 @@
     resourceTags=""​
     cloudEnvironments="public"
 	articleId="ba47e559-bc22-4ed7-b914-2f6f600267ff"
+	ownershipId="CloudNet_DNS"
 />
 
 # How do I specify the ‘service’ and ‘protocol’ for an SRV record?

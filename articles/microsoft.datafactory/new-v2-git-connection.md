@@ -10,7 +10,8 @@
 	supportTopicIds="32629453, 32629524, 32629447"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Connect to Git Repository

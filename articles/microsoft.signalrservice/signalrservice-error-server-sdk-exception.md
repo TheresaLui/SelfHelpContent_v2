@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16477"
 	cloudEnvironments="public,Mooncake,Fairfax"
+	ownershipId="SignalRService_Triage"
 />
 
 # Service SDK exceptions

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="86c8a9e2-be63-48b7-90a2-ca6a37fd5e0c"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I can't connect to my secondary NIC

@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="0737d89c-41cb-471d-b2cb-e76d0de74c5f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Issue with delete or retain backed-up data

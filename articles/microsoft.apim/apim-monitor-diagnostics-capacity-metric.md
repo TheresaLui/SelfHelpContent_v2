@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="f94cadf6-cae6-4f3a-b91b-4b0985fa4afc"
+	ownershipId="Compute_APIManagement"
 />
 
 # Capacity Metric

@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="06d4a338-482d-4265-a7ac-e8220c5f139b"
+	ownershipId="Compute_APIManagement"
 />
 
 # Management API (*.management.azure-api.net)

@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Manage quotas of Channels (v2)/Live Events (v3)

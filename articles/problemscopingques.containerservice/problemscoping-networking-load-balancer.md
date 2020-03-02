@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-networking-load-balancer"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Load balancer
 ---

@@ -12,6 +12,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="9142F58A-99B0-4C8D-88A8-09F0805308E1"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Azure AAD DS authentication over SMB

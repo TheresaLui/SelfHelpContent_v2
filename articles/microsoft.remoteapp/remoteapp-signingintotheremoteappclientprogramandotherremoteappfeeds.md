@@ -11,6 +11,7 @@
 	productPesIds="15540"
 	cloudEnvironments="public"
 	articleId="637d7ae0-e4e2-48be-a414-c371c353b770"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # user experience/signing in to the remoteapp client program and other remoteapp feeds

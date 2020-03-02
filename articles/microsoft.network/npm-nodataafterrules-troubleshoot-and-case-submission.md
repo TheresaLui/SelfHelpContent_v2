@@ -12,6 +12,7 @@
 	productPesIds="16160"
     articleId="npm-nodataafterrules-troubleshoot-and-case-submission-nw"
 	cloudEnvironments="public,fairfax"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # No monitoring data in NPM

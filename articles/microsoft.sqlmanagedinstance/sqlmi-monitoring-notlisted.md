@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="c650c094-9e32-4d16-880b-147dc040e000"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Management and monitoring - My issue is not listed

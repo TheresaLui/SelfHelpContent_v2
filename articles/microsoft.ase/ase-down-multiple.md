@@ -11,6 +11,7 @@
 	productPesIds="16533"
 	cloudEnvironments="public, Fairfax"
 	articleId="c3206276-847f-493c-a54e-629cbc1b583c"
+	ownershipId="Compute_AppService"
 />
 
 # ASE Down\Multiple Web Apps Affected

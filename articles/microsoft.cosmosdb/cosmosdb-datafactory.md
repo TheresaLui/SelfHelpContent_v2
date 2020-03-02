@@ -13,6 +13,7 @@
 	articleId="cosmosdb-datafactory"
 	displayOrder="122"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Data Factory connector  

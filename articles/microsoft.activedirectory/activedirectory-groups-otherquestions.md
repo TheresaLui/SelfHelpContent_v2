@@ -9,6 +9,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
 	articleId="a864c970-4787-4cc0-ad47-ef2c5ac18f7b"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Other questions about managing groups

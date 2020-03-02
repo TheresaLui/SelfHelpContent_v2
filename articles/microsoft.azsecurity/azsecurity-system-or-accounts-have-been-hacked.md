@@ -11,6 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="72bcb23b-67b2-48e2-aa80-9098192045c6"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Suspected Malware, Safety Bulletins, and Security Bulletins/System or accounts have been hacked

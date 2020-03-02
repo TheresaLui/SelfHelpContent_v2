@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1e35ed3b-2cba-4c2e-be2d-18b711794d3e"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # My virtual array doesn't boot up.

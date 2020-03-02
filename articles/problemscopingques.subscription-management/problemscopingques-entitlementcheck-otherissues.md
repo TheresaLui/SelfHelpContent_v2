@@ -9,6 +9,7 @@
 	cloudEnvironments="public, MoonCake"
     schemaVersion="1"
    articleId="EntitlementCheckandOtherIssue-problemscopingquestion"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 #  Entitlement Check and Other Issues
 ---

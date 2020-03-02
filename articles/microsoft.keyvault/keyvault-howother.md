@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-howother2"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to Perform Key Vault actions

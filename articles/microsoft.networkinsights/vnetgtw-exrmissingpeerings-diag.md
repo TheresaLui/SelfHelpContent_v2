@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Peering is missing between the VNet Gateway and the Microsoft Edge Router (MSEE)
 <!--issueDescription-->

@@ -11,6 +11,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="04831295-f292-490a-9018-b2c2350857cb"
+	ownershipId="ASMS_Billing"
 />
 
 # Setup help for CSP Custom Charges

@@ -10,8 +10,9 @@
     supportTopicIds="32673562"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="2b5fd4c3-692c-4b4b-a1c8-b553f15608d2"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Replicate data from on-prem or VM to an Azure Database for MariaDB server

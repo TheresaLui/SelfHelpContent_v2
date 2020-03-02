@@ -12,6 +12,7 @@
 	productPesIds="14745, 16342"
 	cloudEnvironments="public,fairfax"
 	articleId="374e770d-ebfc-4509-9cc5-94147b604acc"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # performance/storage latency

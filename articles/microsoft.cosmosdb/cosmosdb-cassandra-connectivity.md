@@ -13,6 +13,7 @@
 	articleId="cosmosdb-cassandra-connectivity"
 	displayOrder="141"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Unable to connect to Azure Cosmos DB Cassandra API 

@@ -12,6 +12,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
 	articleid="servicebus-howdoi-standard-to-premium-sku"
+	ownershipId="AzureMessaging_Common"
 />
 
 # how do i

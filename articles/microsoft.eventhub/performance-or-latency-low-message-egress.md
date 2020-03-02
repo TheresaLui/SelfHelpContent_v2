@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="e97493f6-6908-4db9-853c-62c6cb4692b9"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am getting Low Message egress

@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Rehydrated blobs from archive access tier will automatically get transitioned back to archive tier due to Lifecycle Management Policy set on storage account <!--$ResourceName-->[ResourceName]<!--/$ResourceName-->"

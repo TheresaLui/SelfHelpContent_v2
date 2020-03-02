@@ -6,6 +6,7 @@
     articleId="3d40e7fa-2ed5-4805-bb00-9c83596b55ad_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Add region to Azure Cosmos DB account
 ---

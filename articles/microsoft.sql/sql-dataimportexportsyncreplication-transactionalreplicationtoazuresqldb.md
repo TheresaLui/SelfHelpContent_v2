@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="3b871e6b-d8d8-4a10-9f46-690779769518"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # REPLICATION

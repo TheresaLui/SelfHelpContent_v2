@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639974"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-unavailable"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Database Connectivity - Database is currently unavailable
 ---

@@ -9,6 +9,7 @@
     productPesIds="14785"
     cloudEnvironments="public"
     	articleId="9a909cbf-5976-4c36-92f5-23195b2fa2c1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 

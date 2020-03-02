@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     	articleId="5988719b-b09d-4b7f-8b0d-aa42c6ed9957"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Configure UPN 

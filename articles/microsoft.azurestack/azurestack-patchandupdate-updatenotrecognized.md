@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-patchandupdate-updatenotrecognized"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Patch and Update Not Recognized

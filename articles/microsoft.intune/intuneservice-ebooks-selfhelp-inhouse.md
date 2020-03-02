@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="a9513e66-5533-4500-ad15-42dc588e0368"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I want to distribute my organization's in-house e-books to iOS devices.

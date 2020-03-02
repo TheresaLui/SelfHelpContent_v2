@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="ef5feb5c-d565-47bb-ae90-ded926ecf0e7"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # I need help troubleshooting Azure File issues

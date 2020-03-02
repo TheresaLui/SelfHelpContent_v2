@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="d9270c0f-db0c-4d21-b39c-f7cb84bedc06"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I can’t connect to a server
