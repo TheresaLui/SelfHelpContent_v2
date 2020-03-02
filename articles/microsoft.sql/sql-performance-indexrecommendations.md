@@ -25,7 +25,7 @@ Our internal service telemetry detected automatic tuning recommendation(s) in th
 
 ## **Recommended Steps**
 
-Depending on the estimated performance gain, recommendations are categorized as high, medium, or low. Consider creating recommended index(es) in the order of their impact (high, medium, low). To apply the recommendation(s), go to Azure portal > All services > SQL databases > Performance recommendations. Note that creating indexes on the table with a large number of rows may take significate amount of time and resource. Please plan ahead to avoid index creation impacting user workload. See the referenced article for more details.
+Depending on the estimated performance gain, recommendations are categorized as high, medium, or low. Consider creating recommended index(es) in the order of their impact (high, medium, low). To apply the recommendation(s), go to Azure portal > All services > SQL databases > Performance recommendations. Note that creating indexes on the table with a large number of rows may take significant amount of time and resource. Please plan ahead to avoid index creation impacting user workload. See the referenced article for more details.
 
 ## **Recommended Documents**
 
