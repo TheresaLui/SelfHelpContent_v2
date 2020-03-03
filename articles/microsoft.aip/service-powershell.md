@@ -10,7 +10,7 @@
 	supportTopicIds="32584371"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="Service_PowerShell_Issues"
 />
 

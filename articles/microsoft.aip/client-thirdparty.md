@@ -11,7 +11,7 @@
 	supportTopicIds="32629565"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure Information Client - Third Party Clients

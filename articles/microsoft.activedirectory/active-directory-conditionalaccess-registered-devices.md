@@ -20,7 +20,7 @@
 
 <!--issueDescription-->
 
-$<!--$DeviceCount-->[DeviceCount]<!--/$DeviceCount--> device(s) have not yet synced with AADConnect, which can affect Conditional Access policies that require them. If a Conditional Access policy that requires one of the listed devices is not working as expected, please wait until the next sync time at <!--$NextSyncTime-->[NextSyncTime]<!--/$NextSyncTime-->.
+<!--$DeviceCount-->[DeviceCount]<!--/$DeviceCount--> device(s) have not yet synced with AADConnect, which can affect Conditional Access policies that require them. If a Conditional Access policy that requires one of the listed devices is not working as expected, please wait until the next sync time at <!--$NextSyncTime-->[NextSyncTime]<!--/$NextSyncTime-->.
 
 <!--/issueDescription-->
 

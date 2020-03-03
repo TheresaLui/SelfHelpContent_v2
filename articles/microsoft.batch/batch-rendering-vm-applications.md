@@ -11,7 +11,7 @@
     supportTopicIds="32635086"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Batch Rendering - VM Applications

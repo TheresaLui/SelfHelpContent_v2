@@ -11,7 +11,7 @@
 	supportTopicIds="32584346"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 />
 
 # Azure Information Protection service - Exchange Online integration

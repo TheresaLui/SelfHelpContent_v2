@@ -11,7 +11,7 @@
     supportTopicIds="32635079"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Pools and nodes - other

@@ -11,7 +11,7 @@
     supportTopicIds="32635052"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Batch Shipyard, AZTK, doAzureParallel

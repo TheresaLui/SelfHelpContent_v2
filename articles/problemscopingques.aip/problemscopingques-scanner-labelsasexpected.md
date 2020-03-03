@@ -7,7 +7,7 @@
 	supportTopicIds="32629560"
     productPesIds="14997"
     cloudEnvironments="Public"
-    articleId="scoping_scanner_labels_not_as_expected"
+    articleId="scoping_scanner_labels_not_as_expected_new"
 	schemaVersion="1"
 />
 # Can't apply this label
@@ -27,8 +27,8 @@
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Azure Information Protection Classic Client",
-                            "text": "Azure Information Protection Classic Client"
+                            "value": "Azure Information Protection client (classic)",
+                            "text": "Azure Information Protection client (classic)"
                         },
                         {
                             "value": "Azure Information Protection Unified Labeling Client",
@@ -49,7 +49,7 @@
                 },{
                     "id": "sccmigrate",
                     "order": 5,
-                    "visibility": "client_type == Azure Information Protection Classic Client",
+                    "visibility": "client_type == Azure Information Protection client (classic)",
                     "controlType": "dropdown",
                     "displayLabel": "Did you activate Unified Labeling in your tenant?",
                     "watermarkText": "Choose an option",

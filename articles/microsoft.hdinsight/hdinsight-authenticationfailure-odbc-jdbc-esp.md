@@ -4,7 +4,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="TobyTu"
-    ms.author="jaserano"
+    ms.author="deeptivu"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32636486"
@@ -19,3 +19,4 @@
 ## **Recommended Documents**
 
 * [Authorize users for Apache Ambari Views](https://docs.microsoft.com/azure/hdinsight/hdinsight-authorize-users-to-ambari)
+* [Connect Excel to Apache Hadoop in Azure HDInsight with the Microsoft Hive ODBC driver](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-connect-excel-hive-odbc-driver)

@@ -10,7 +10,7 @@
     supportTopicIds="32629272"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-patchandupdate-updatenotrecognized"
 />
 
@@ -29,3 +29,4 @@ Customers with Azure Stack environments connected to the internet will automatic
 * [Azure Stack servicing policy - Recent Update](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
 * [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates)
 * [Monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update)
+* [Use REST to get update status](https://docs.microsoft.com/rest/api/azurestack/updates/get#updatestate)

@@ -11,10 +11,11 @@
     supportTopicIds="32635088"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Jobs and tasks - Task resource files or output files
 
 ## **Recommended Documents**
-* [Using Batch task OutputFiles](https://docs.microsoft.com/azure/batch/batch-task-output-files)
+* [Using Batch task OutputFiles](https://docs.microsoft.com/azure/batch/batch-task-output-files)<br>
+* [Common errors while submitting a Job or Task](https://docs.microsoft.com/azure/batch/batch-job-task-error-checking)

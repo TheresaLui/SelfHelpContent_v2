@@ -20,4 +20,5 @@
 
 ## **Recommended Documents**
 
-* **[Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers#what-you-can-sell-through-csp)**
+* [Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers#what-you-can-sell-through-csp)
+* [How Non-profit, GCC and Education offers work in Partner Center](https://docs.microsoft.com/partner-center/get-special-pricing-for-offers)

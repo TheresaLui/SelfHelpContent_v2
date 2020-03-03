@@ -11,7 +11,7 @@
     supportTopicIds="32635085"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 />
 
 # Batch Rendering - Render manager integration
