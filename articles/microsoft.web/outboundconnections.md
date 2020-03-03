@@ -7,7 +7,7 @@
     ms.author="shrahman, shrahman"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32444083"
+	supportTopicIds="32730381"
 	resourceTags=""
 	productPesIds="14748,16333,16170"
 	cloudEnvironments="public, MoonCake"
@@ -34,13 +34,11 @@ HTTP Keep-alive
 * [Node.js v13.9.0 Documentation](https://nodejs.org/api/http.html)  
 
 **Java**<br>
-
 Below are the popular libraries used for JDBC connection pooling which contain examples for how to implement them:
 
 JDBC Connection Pooling
 * [Tomcat 8](https://tomcat.apache.org/tomcat-8.0-doc/jdbc-pool.html)
 * [C3p0](https://github.com/swaldman/c3p0)
-* [HikariCP](https://brettwooldridge.github.io/HikariCP/)
 * [Apache DBCP](https://commons.apache.org/proper/commons-dbcp/)
 
 HTTP Connection Pooling
@@ -57,3 +55,11 @@ Although PHP does not support connection pooling, you can try using persistent d
 * Other data Sources
     - [PHP Connection Management](https://www.php.net/manual/en/pdo.connections.php)
 
+
+**Python** <br>
+Below are some examples for connection pooling with Python. 
+* [MySQL ](https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlconnectionpool-constructor.html)
+* [MongoDB](http://api.mongodb.com/python/2.1/api/pymongo/pool.html)
+* [PostgreSQL](http://initd.org/psycopg/docs/pool.html)
+* [SQL Server](https://docs.sqlalchemy.org/en/13/core/pooling.html) (NOTE: SQLAlchemy can be used with other databases besides MS SQL)
+* [HTTP Keep-alive](http://docs.python-requests.org/en/latest/user/advanced/#keep-alive) (Keep-Alive is automatic when using sessions session-objects).
