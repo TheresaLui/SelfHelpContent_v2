@@ -54,20 +54,22 @@
       "actionId": "2407eac0-6bd3-4f89-9d48-2c5e372a9366",
       "description": "Change your SKU to scale up",
       "actionType": "Blade",
-	  "extensionName": "Microsoft_Azure_Kusto",
-      "bladeName": "ScaleUpBlade",
+	  "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "id": "{resourceId}"
+        "id": "{resourceId}",
+		"menuid": "scale_up"
       }
     },
 	{
       "actionId": "10c9bd8e-e88e-4e42-b1cd-069fa043857e",
       "description": "Change your instance count to scale out",
       "actionType": "Blade",
-	  "extensionName": "Microsoft_Azure_Kusto",
-      "bladeName": "AutoScaleSettingsBlade",
+	  "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "id": "{resourceId}"
+        "id": "{resourceId}",
+		"menuid": "scale_out"
       }
     }
   ],

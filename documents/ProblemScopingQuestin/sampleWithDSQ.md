@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="newGuid"
+	ownershipId=""
 />
 # Error When Connecting to my Database
 ---
