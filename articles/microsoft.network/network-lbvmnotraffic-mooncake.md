@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="2cad50d4-b6fc-4e78-af55-f6630bce7036"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # My Load Balanced VMs are not receiving traffic

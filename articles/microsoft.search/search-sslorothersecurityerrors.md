@@ -10,8 +10,9 @@
 	supportTopicIds="32681387"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="search-sslorothersecurityerrors"	
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # SSL or other security errors

@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="sqlmanagedinstance-perf-gateway-under-cpu-pressure"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Managed Instance - Gateway under high CPU pressure

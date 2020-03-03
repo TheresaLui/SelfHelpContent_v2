@@ -9,10 +9,11 @@
 	supportTopicIds="32636773"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-certifications-compliance"
 	displayOrder="160"
 	category="Security"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Compliance in Azure Cosmos DB

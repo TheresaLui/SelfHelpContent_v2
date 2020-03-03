@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="7dac9352-936d-4a83-be0f-8d957dcc3347"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Problems with the Azure Blob Storage on IoT Edge module

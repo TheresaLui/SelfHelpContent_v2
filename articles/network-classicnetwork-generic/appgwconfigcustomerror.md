@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="configure-customerrorpage"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Custom Error Page

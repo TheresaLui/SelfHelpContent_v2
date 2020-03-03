@@ -10,8 +10,9 @@
     supportTopicIds="32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, mooncake"
+    cloudEnvironments="public, mooncake, Fairfax"
     articleId="bfa4e56c-3fbc-461d-a7d5-1e485b42932b"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Virtual Network
 
@@ -36,6 +37,14 @@ If you plan to use a firewall, and access the cluster from outside on certai
 **Error: HiveMetastoreSchemaInitializationFailedErrorCode**
 
 Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
+
+**Error: Unable to connect to cluster**
+
+Possible Solution: If you are using user-defined routes (UDRs), you should specify a route and allow outbound traffic from the VNET to the above IPs with the next hop set to "Internet".
+
+Please review the following links for more information:
+* [HDInsight Controlling network traffic](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#networktraffic)
+* [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)
 
 ## **Recommended Documents**
 

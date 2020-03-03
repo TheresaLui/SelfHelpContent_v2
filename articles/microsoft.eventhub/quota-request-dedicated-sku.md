@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="39073533-54d5-4f59-b659-0e80c7e0a65e"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Request for Dedicated SKU

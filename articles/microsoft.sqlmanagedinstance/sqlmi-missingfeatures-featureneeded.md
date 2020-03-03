@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
     articleId="84a38bf7-150e-4689-9a7b-67bb132511a5"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # I need the following feature or functionality

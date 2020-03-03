@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
 	articleId="279cadce-7e06-46bf-a70a-f0268a71a9be"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Creating Run As Accounts 

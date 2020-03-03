@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="6a2a33c3-5975-4c72-835f-b279e0cb7368"
+	ownershipId="Compute_APIManagement"
 />
 
 # Managed Service Identity (MSI) and KeyVault

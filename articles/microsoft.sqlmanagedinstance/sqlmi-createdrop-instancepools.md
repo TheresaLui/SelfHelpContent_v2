@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="6c7a079b-439d-4850-a8ea-f7fe24fdf9f9"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Create or drop instance pools

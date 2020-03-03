@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="90771a7a-a1d9-4db9-94a3-cd2be2ac28a8"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - policy issues

@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="2554d191-41e9-4f2c-9fbc-3fa3e809262f"
+	ownershipId="AzureIdentity_User"
 />
 
 # I don’t see the Sign-in Data streaming even though I have configured it through Azure Monitor Diagnostics

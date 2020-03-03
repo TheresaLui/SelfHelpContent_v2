@@ -12,6 +12,7 @@
     productPesIds="15607,15725"
     cloudEnvironments="public, Fairfax"
     articleId="011a511c-8c9b-4df3-8d11-47d2b477f92e"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Agent Not Ready

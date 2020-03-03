@@ -12,6 +12,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="account failover stuck"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Account Failover stuck in process

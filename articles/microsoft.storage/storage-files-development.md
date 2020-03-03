@@ -12,6 +12,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="b7348189-a484-4cad-b5bd-638a432c7ca5"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Develop for Azure Files 

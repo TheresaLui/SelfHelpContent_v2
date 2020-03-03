@@ -12,6 +12,7 @@
     productPesIds="16094"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
     articleId="vpngw-configonpremdevicegen"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure my on-premises VPN device
 

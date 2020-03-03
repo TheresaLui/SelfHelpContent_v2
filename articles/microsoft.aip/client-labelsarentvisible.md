@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="f480647e-f515-4015-ad7d-00796bd773a8"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - labels aren't visible

@@ -11,6 +11,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="25384b93-8211-44cd-9543-0cc61d751b86"
+	ownershipId="ASMS_Billing"
 />
 
 # Help with Cost Model

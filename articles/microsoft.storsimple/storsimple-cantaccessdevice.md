@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="9313f8ab-00db-4b9c-ae55-5278f3c9c08a"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I can’t access my device in File Explorer.

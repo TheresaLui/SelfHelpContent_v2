@@ -9,6 +9,7 @@
     cloudEnvironments="public,fairfax"
     schemaVersion="1"
     articleId="5A4FFD6F-53C2-43F0-9EF3-E63C2A42F285"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # performance/network latency
 ---

@@ -11,6 +11,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="c12d96f4-f352-44d4-87d1-c9cce6119e23"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Reservation Management

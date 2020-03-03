@@ -12,6 +12,7 @@
 	productPesIds="16666"
 	articleId="0869638e-99de-4d1d-b384-7fbb26e1d1e8"
 	cloudEnvironments="Public"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Azure AD user provisioning to SaaS applications - How-To

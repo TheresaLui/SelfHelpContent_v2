@@ -11,6 +11,7 @@
 	cloudEnvironments="public"
 	issueNotListed="true"
 	articleId="38709fca-d902-4ce8-998b-e612b986d0ea"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # My issue is not listed

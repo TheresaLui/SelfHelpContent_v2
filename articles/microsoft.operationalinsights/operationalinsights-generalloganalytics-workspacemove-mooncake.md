@@ -15,6 +15,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="operationalinsights-generalloganalytics-workspacemove-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Move workspace to different subscription or resource group

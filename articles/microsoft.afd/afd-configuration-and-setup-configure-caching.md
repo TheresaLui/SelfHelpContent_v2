@@ -12,6 +12,7 @@
     productPesIds="16611"
     cloudEnvironments="public, Fairfax"
 	articleId="c9e77afb-2a5d-474e-be70-585dc792b54b"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Configure Caching

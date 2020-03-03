@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="5a3f72c4-a182-4df0-8c59-501387bbdbc8"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # adreplicationstatus-error

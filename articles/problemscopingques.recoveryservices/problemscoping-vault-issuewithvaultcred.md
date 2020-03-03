@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="c3a606de-ec65-48ad-840c-c623331d42f0"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for issue with vault credential
 ---

@@ -13,6 +13,7 @@
 	articleId="cosmosdb-connectivity"
 	displayOrder="62"
 	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Connectivity in Azure Cosmos DB  

@@ -14,6 +14,7 @@
     resourceTags="windows"
     productPesIds="14749"
     cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # The virtual machine is not running

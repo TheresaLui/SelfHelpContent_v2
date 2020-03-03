@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="335a7adf-c9a4-4e23-823a-dd50492097b4"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # ADLS Gen1 - recover deleted account

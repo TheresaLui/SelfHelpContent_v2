@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="256fbef0-d601-46f8-b94f-d8c5a4bba860"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Issue with Vault Credentials

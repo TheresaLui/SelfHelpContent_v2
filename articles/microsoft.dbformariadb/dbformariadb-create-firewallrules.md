@@ -10,8 +10,9 @@
     supportTopicIds="32640121"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="d4b60714-37a7-4235-94ae-0efd1bd28fb8"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Managing firewall rules for Azure Database for MariaDB

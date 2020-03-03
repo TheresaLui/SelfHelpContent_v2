@@ -1,4 +1,3 @@
-
 <properties
   pagetitle="SupportTopicDescriptions for b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2"
   description="SupportTopicDescriptions for b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2"
@@ -7,7 +6,8 @@
   selfhelptype="SupportTopicDescription"
   productpesids="b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2" />
+  articleid="supporttopics_b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2" 	ownershipId="Compute_AppService"
+/>
 # Support Topic Descriptions for b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2
 ---
 {
@@ -22,22 +22,26 @@
   "productLinkName3": null,
   "supportTopics": [
     {
-      "id": "39036f1c-b74e-f26d-ed94-bb9e7f542e3e",
-      "longDescription": "",
-      "shortDescription": "Issues or questions about renewing or removing your domain",
-      "searchTags": "renew;remove;domain",
-      "category": "Configuration",
-      "useInDiagnoseAndSolve": "true"
-    }
-  ]
       "id": "2a970c41-16e7-3b38-2ba1-48e2437ff2a1",
       "longDescription": "",
       "shortDescription": "Need help restoring an App Service Domain that has been deleted",
       "searchTags": "restore;domain;deleted",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e0fee7a-50d4-86cf-64d7-8164358a0fe5",
       "longDescription": "",
       "shortDescription": "Having trouble purchasing an App Service Domain",
       "searchTags": "purchase;domain",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "39036f1c-b74e-f26d-ed94-bb9e7f542e3e",
+      "longDescription": "",
+      "shortDescription": "Issues or questions about renewing or removing your domain",
+      "searchTags": "renew;remove;domain",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

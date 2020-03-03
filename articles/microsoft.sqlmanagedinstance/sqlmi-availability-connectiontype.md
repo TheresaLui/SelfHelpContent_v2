@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="12eda0a0-db12-4a0c-be7a-98f50329a6c3"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Connection type (proxy/redirect)

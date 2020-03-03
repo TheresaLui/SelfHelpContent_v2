@@ -12,6 +12,7 @@
 	productPesIds="16668"
 	cloudEnvironments="public"
 	articleId="ceb9c4af-dcdf-4763-96bb-5c62e8e626d2"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # GitHub Collaboration Issues

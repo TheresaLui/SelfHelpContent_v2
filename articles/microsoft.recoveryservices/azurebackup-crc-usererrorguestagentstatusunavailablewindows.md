@@ -13,7 +13,8 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
-  />
+  	ownershipId="StorageMediaEdge_Backup"
+/>
 
 # User Error Guest Agent Status Unavailable: Windows
 

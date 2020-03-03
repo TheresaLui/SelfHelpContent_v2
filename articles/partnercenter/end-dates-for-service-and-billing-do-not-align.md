@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # End dates for service and billing do not align
 

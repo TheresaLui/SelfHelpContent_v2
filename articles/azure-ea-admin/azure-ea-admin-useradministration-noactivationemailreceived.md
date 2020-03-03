@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="16867"
     cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # No activation email received

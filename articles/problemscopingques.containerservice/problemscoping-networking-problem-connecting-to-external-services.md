@@ -9,6 +9,7 @@
                 cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-networking-problem-connecting-to-external-services"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Problems connecting to external services
 ---

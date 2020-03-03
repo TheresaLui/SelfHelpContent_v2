@@ -12,6 +12,7 @@
 	productPesIds="15400"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="5eb8c167-03f3-4e38-9d6a-bb8798b50031"
+	ownershipId="CloudNet_TrafficManager"
 />
 
 # configuration

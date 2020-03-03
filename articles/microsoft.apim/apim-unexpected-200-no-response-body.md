@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="02d0e3de-6ce1-4c51-8795-a45412c005c7"
+	ownershipId="Compute_APIManagement"
 />
 
 # API Management APIs returns 200 with no response body

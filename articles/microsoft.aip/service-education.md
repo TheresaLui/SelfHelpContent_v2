@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="dbd0b723-6dd9-4943-a137-fc90d9f05c10"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - education

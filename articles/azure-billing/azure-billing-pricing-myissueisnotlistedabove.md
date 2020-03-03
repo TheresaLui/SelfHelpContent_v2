@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="pricing-myissueisnotlistedabove"
+	ownershipId="ASMS_Billing"
 />
 
 # Pricing-my issue is not listed above

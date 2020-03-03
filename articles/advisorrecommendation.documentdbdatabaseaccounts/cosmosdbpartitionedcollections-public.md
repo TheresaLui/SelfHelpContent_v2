@@ -6,6 +6,7 @@
     articleId="5b5349fb-b298-41e3-b281-982b7986db67_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB containers with a partition key
 ---

@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Long running operations on Azure Database for PostgreSQL

@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds="32588977"
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" />
+cloudEnvironments="Public" 	ownershipId="CloudNet_LoadBalancer"
+/>
 
 # Support for Basic Load Balancer only exists within the same region
 

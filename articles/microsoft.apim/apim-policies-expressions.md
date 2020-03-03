@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="435ab0dd-a754-4342-acdb-547f3bb86b94"
+	ownershipId="Compute_APIManagement"
 />
 
 # Policy expressions

@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
 	articleId="7520716a-1463-4666-b9d2-60f15be30964"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Updating or Importing Modules

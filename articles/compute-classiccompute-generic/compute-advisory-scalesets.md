@@ -12,6 +12,7 @@
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax"
 	articleId="8a8b1716-445c-490b-9969-d96dd996dee7"
+	ownershipId="Compute_VirtualMachineScaleSets"
 />
 
 # Advisory

@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppVolumeConnectivityIssues"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Troubleshoot and resolve connectivity issues to Azure NetApp Files volumes

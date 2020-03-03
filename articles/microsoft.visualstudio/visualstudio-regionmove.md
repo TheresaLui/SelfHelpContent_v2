@@ -13,6 +13,7 @@
    	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # DevOps Services Region Move

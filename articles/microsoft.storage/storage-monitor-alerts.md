@@ -12,6 +12,7 @@
 	productPesIds="15629,16459,16460,16598,16462,16461"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="8a2fca0f-172c-4678-97cf-d4ef83ccec4c"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Issues with using Alerts for Metric or Activity Logs

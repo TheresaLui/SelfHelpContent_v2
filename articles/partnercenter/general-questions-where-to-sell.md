@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Where, what or to whom can I sell?

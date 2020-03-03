@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="bd5efc9c-70d3-42ff-8bcb-4ee087b3e36f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Why do some devices appear under Azure AD devices but not under All devices?

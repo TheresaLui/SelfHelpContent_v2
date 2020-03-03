@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="08b1aa47-f908-41af-b3eb-37c6e45d3dcd"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Reserved instance - issue not listed

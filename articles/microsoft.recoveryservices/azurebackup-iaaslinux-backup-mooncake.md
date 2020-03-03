@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-iaaslinux-backup-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Backup of Linux Azure Virtual Machine fails

@@ -10,6 +10,7 @@ supportTopicIds="32633007"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Service Map or Dependency agent

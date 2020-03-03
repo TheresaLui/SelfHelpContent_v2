@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # High E2E Latency caused due to client side network issues

@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="c29ef709-edc8-47cd-a465-38a60519adae"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am getting timeout errors

@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-performanceandqueryexecution-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # How to enhance and troubleshoot query performance and execution
 

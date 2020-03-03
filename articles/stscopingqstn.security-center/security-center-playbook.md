@@ -10,6 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
   	articleId="636bcf5f-f79b-463d-a09c-ec626b09d321"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Playbook Common Solutions

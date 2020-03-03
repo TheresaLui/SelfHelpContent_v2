@@ -10,8 +10,9 @@
 	supportTopicIds="32628272"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="a316fb37-cb8c-4b94-bdb1-276b2d90a555"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # I need guidance preparing an image

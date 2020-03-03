@@ -11,6 +11,7 @@
 	supportToicIds =""
 	cloudEnvironments="public"
 	articleId="0fd1aa3f-574c-46ca-92e2-93a57c63cc92"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I don't see any errors but my devices are not receiving pushes

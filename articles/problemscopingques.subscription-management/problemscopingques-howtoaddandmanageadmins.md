@@ -9,6 +9,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # How to Add and Manage Admins

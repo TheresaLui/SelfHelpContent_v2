@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="e12783f2-bdbe-4e61-a19b-7dc5b905bfa1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Geo-restore

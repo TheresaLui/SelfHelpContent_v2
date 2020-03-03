@@ -10,8 +10,9 @@
 	displayOrder="37"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="indexer-cosmos-db-issue"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue indexing data from Azure Cosmos DB

@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="070071ac-c5f1-40ff-8762-e65d8b00fcc2"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage PCs with Software Agent - Retiring

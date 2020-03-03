@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-networking-dns-related"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # DNS related
 ---

@@ -8,6 +8,7 @@
 	 cloudEnvironments="public,fairfax"
 	 schemaVersion="1"
 	 articleId="ed9f7860-2036-402d-8f05-9fed033a6e35"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # SQL Server replication
 ---

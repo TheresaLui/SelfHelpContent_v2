@@ -13,7 +13,8 @@
 	supportTopicIds="32628367"
 	resourceTags="windows, linux"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Can't connect MySQL database server because IP address is not configured in firewall

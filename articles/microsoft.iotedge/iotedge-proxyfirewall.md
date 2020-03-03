@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="1671c60b-06e2-4893-9ae7-ac72c78a4994"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # A proxy or firewall is blocking my IoT Edge device's connection to IoT Hub

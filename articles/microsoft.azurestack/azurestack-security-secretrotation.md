@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-security-secretrotation"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Secret Rotation

@@ -13,6 +13,7 @@
 	productPesIds="16597"
 	cloudEnvironments="public"
 	articleId="d49445ef-f2c7-47b3-b045-4948d6e57c72"
+	ownershipId="StorageMediaEdge_DataBox "
 />
 
 # I can’t access my shares

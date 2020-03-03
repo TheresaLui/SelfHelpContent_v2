@@ -11,6 +11,7 @@
 	supportTopicIds="32565582"
 	cloudEnvironments="public"
 	articleId="db367146-7d6d-4a86-93ab-13c71c93ece2"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Errors and Exceptions/Invalid certificate or credentials

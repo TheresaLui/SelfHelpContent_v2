@@ -11,6 +11,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="400eb205-f017-4bef-83ab-d16697605909"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # cluster/other

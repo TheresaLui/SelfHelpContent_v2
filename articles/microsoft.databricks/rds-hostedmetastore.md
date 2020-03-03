@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="1073b30d-bdb2-4702-a7f1-8a7a0f51cc30"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with hosted metastore

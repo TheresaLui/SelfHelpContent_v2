@@ -10,8 +10,9 @@
     supportTopicIds="32640053"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="996e511f-55ca-4660-80d4-15a2aa76953b"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Connection issues to Azure Databases for MySQL

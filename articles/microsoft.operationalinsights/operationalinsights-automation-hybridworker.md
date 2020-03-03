@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="6c7ca265-01c7-49b6-a46d-1a621c6a8684"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # automation-hybridworker

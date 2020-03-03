@@ -12,6 +12,7 @@
 	productPesIds="16666"
 	articleId="42641575-7bcf-45f9-8234-9d34cdb35d07"
 	cloudEnvironments="Public"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Problem configuring attribute mappings or scoping filters

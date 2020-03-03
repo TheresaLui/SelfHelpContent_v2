@@ -10,6 +10,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # SQL Data Sync
 ---

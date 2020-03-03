@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-iaaswin-restore-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure Windows VM Restore Limitations

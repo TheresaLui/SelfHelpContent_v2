@@ -11,6 +11,7 @@
 	productPesIds="16533"
 	cloudEnvironments="public, Fairfax"
 	articleId="bb03a1f1-7cc4-49ce-bf96-ab1b67a39c9a"
+	ownershipId="Compute_AppService"
 />
 
 # Networking\Configuring NSGs

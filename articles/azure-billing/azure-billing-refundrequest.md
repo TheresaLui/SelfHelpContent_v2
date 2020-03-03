@@ -13,6 +13,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="billing-refundrequest"
+	ownershipId="ASMS_Billing"
 />
 # Refund Request
 

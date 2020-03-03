@@ -11,7 +11,8 @@
 	diagnosticScenario="OrcasMariaDBOutofConnectionsInsightV2TroubleShooter"
 	selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Can't connect MariaDB database server because of running out of connections
 

@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="c5fcdb6c-45d5-4285-a0ed-b680bc4129b2"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Set device compliance - Actions for noncompliance

@@ -14,6 +14,7 @@
 	resourceTags="9000Or1200Series"
 	productPesIds="16161"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Device appears offline in the portal

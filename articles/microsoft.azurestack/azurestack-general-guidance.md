@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-general-guidance"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack General Guidance

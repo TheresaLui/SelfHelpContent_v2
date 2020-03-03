@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="917e26d0-971a-44b3-9c12-da53dacc5c4c"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to Import Existing Keys into a Key Vault

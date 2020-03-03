@@ -9,6 +9,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="f843dcf7-98d9-4cb4-9c7f-d34cb5ab74ed"
+	ownershipId="AzureIot_IotHub"
 />
 # Issues with IoT devices
 ---

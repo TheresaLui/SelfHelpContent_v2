@@ -9,6 +9,7 @@
 	productPesIds="16459,16598,16461,16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Development and Coding Issues
 ---

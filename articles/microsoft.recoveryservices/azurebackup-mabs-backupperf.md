@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="ca7aa619-1bcc-459b-8e04-5873702805fc"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Slow Backup/Restore Performance of Azure Backup Server

@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="03fdbfb8-c8ee-4d59-9075-b0c57c86565a"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # RStudio on Azure Databricks  

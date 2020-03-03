@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454,15725"
 	cloudEnvironments="public, fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I am having issues creating, editing, or deleting log alert rules

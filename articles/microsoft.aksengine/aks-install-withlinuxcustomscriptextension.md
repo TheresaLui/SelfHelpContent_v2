@@ -12,6 +12,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="aks-install-withlinuxcustomscriptextension"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues with Linux Custom Script extension

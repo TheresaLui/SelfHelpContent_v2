@@ -11,6 +11,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="ad41130d-d95e-4827-8636-daf37af99f1e"
+	ownershipId="AzureMessaging_Common"
 />
 
 # errors and exceptions/internal server error

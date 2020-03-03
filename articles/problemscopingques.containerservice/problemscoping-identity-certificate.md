@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-identity-certificate"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Certificate related
 ---

@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="b2a46616-8a19-4a47-acac-e1b357753675"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # keyvault-error

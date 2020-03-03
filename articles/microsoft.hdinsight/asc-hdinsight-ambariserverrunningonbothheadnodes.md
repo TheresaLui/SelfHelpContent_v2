@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Ambari Service is running on both headnodes

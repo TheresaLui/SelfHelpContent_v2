@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="baa7233f-a514-4b71-aa34-096a5f6ab0c5"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Diagnose and resolve issues with Windows Azure ProvisioningStateFailed

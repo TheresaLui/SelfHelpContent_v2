@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="2c6b5f03-abfa-e0fd-2071-b9990ef0bfe3"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Power BI pricing

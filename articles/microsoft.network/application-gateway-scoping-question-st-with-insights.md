@@ -9,6 +9,7 @@
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	schemaVersion="1"
 	articleId="scoping-question-for-insights"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway URL

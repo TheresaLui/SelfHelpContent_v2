@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="10963802-4299-4c3b-a41f-0a507f64fecc"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - PowerShell issues

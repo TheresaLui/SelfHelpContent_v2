@@ -14,6 +14,7 @@
 	resourceTags="missingAuditing"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Missing Auditing Data

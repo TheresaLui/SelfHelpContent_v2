@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-authwithcert"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Azure Key Vault Authentication with Certificate

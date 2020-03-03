@@ -11,6 +11,7 @@ selfHelpType="diagnoseandsolve"
 resourceTags="windows"
 productPesIds="14749"
 cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 # Diagnose and solve v2 test article for windows
 ---
