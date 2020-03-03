@@ -16,7 +16,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Monitoring Issues with Slow Query or Audit Log,
+    "title": "Monitoring Issues with Slow Query or Audit Log",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -60,6 +60,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",
+            "watermarkText": "",
             "required": true,
             "useAsAdditionalDetails": true
         }
