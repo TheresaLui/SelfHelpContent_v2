@@ -20,7 +20,7 @@
 # You have Key Vault recommendations
 
 <!--issueDescription-->
-The key vault has denied access to a user or application because the user or application did not have sufficient key vault access policy permissions to perform an operation on the key vault
+The key vault has denied access to a user or application because the user or application did not have sufficient key vault access policy permissions to perform an operation on the key vault.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
