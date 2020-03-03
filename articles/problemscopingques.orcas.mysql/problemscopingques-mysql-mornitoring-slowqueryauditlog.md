@@ -9,7 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-monitoring-slow_query_audit_log"
-	ownershipId="AzureData_AzureDatabaseforMySQL"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Monitoring and Alerting - Issues with setting up monitors and alerts
 ---

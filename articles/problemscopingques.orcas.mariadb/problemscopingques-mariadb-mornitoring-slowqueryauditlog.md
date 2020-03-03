@@ -9,7 +9,7 @@
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-monitoring-slow_query_audit_log"
-	ownershipId="AzureData_AzureDatabaseforMariaDB"
+    ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Monitoring and Alerting - Issues with setting up monitors and alerts
 ---
