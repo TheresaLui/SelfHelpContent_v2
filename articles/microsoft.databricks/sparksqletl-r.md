@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="c2398469-febb-48fb-ba0e-b11b32fbd44d"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with R

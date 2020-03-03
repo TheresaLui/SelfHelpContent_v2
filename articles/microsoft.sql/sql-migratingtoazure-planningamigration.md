@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="2e421bed-af0a-46d5-8406-e08b946ef00d"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # migrating to azure/planning a migration

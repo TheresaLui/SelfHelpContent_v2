@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="3bea98df-7867-4a83-9e07-4c4fc85421f6"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Customer Initiated Reset

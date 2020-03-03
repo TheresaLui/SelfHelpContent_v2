@@ -12,6 +12,7 @@
 	productPesIds="15438"
 	cloudEnvironments="public"
 	articleId="29ea0e50-a6dc-4980-b012-ed9509cb626c"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Appliance and Cable issues

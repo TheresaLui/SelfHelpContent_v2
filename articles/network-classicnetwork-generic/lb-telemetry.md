@@ -12,6 +12,7 @@
 	productPesIds="16098"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="lb-Telemetry"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Configure Load Balancer metrics

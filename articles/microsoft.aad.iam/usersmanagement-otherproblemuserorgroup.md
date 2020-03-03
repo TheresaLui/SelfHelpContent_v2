@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="3e0776b4-a7da-4b66-8018-2eee9634af9b"
-    />
+    	ownershipId="AzureIdentity_B2B"
+/>
 
 # Other problem with user or group
 

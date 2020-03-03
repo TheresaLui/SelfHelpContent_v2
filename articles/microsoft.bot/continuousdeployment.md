@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="08453FC4-5CD4-480D-ADAE-D98EE49BB381"
+	ownershipId="Compute_BotService"
 />
 # Troubleshoot continuous deployment
 

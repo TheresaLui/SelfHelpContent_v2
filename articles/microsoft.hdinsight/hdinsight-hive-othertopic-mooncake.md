@@ -11,7 +11,8 @@
   resourceTags=""
   productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="hdinsight-hive-othertopic-mooncake"/>
+  ArticleId="hdinsight-hive-othertopic-mooncake"	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Hive Other topic 
 

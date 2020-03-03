@@ -11,7 +11,8 @@
 	supportTopicIds="32680895"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure-SSIS IR General start and stop Issues

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="7c48e111-ce99-4ebd-a199-d8be7c87b946"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check for the Use of traffic selectors

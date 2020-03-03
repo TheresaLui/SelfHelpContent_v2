@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="f152f399-d50f-4180-92fd-a0a7612d3e58"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Issue with Backup Alerts

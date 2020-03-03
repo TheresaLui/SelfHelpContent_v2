@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="howtochangeownershipofmysubscription"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Change ownership of my subscription

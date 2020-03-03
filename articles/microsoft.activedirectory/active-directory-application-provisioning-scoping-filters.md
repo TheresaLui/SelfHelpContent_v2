@@ -12,6 +12,7 @@
 	productPesIds="16666"
 	articleId="639b0be2-d484-4d82-8544-287888df024b"
 	cloudEnvironments="Public"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Problems with configuring scoping filters for user provisioning to an application

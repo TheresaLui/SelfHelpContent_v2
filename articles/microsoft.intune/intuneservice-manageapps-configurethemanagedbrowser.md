@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="e91e7dfb-033f-4859-be75-fa86380b7747"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Configure the managed browser

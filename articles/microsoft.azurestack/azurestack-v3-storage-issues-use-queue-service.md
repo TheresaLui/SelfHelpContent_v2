@@ -10,8 +10,9 @@
     supportTopicIds="32663905"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="fd58152b-f227-4d9b-bc22-330abc455a9d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Table service usage issues

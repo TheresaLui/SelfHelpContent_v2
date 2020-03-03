@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="F8BF1475-F6AD-4B46-BBE0-6EFE638DDC9F"
+	ownershipId="Compute_BotService"
 />
 
 # Debug Bot Conversation

@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="8E4C8F90-2F19-4D7E-921C-990A1358E98D"
+	ownershipId="Compute_BotService"
 />
 # Deploy using PowerShell
 

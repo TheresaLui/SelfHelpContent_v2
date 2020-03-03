@@ -14,6 +14,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="f38ac17f-88a0-438e-99e9-b2185ca65341"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Data retention issue or question

@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="f3c19d7e-d11f-4eba-a7c0-52d4ddb794df"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center – Remediating Recommendations – Exporting recommendations

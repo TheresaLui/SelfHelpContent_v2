@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="I have problem with Windows on AKS"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

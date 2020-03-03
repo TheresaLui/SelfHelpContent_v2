@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="24c6af58-9bfa-4621-a2a6-da64c2d5072c"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # ADLS Gen1 - data is corrupted

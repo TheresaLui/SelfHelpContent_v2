@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
  	articleId="7f1ec5d2-a7fb-4e81-97ae-a1b85881066b"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I can't create or add a new VM

@@ -12,6 +12,7 @@
 	supportTopicIds="32690864"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Azure machine learning compute clusters and compute instance virtual network configuration

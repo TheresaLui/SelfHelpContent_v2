@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="7cfe96c8-08ff-44cc-844b-1dbd74da7989"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot configuration issue - Issue not listed

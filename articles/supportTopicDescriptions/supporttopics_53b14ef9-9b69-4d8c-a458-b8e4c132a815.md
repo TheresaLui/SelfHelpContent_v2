@@ -9,7 +9,8 @@
   articleid="sql-server-in-vm-windows-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="AzureIot_IotTSI"
+/>
 # Support Topic Descriptions for 53b14ef9-9b69-4d8c-a458-b8e4c132a815
 ---
 {

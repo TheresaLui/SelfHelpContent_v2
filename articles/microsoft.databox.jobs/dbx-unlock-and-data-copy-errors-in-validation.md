@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
 	articleId="32639206"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Unable to unlock the Data Box Disk

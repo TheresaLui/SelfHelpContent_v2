@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="ef2146e8-0e56-4e59-b7fa-629446d88d7f"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Managing an Existing Key Vault

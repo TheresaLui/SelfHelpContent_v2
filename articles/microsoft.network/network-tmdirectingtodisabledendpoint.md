@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1fc2c04c-8526-4433-bea4-2b5e8b11adfc"
+	ownershipId="CloudNet_TrafficManager"
 />
 
 # Traffic Manager is directing requests to disabled endpoint

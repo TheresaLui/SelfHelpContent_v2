@@ -6,6 +6,7 @@ ms.author = "aadevteam"
 articleId = "17454550-1543-4068-bdaf-f3ed7cdd3d86_Public"
 selfHelpType = "advisorRecommendationMetadata"
 cloudEnvironments = "Public" 
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # "Implement ExpressRoute Monitor on Network Performance Monitor for end-to-end monitoring of your ExpressRoute circuit"
 ---

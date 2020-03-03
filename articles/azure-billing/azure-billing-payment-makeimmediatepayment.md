@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="payment-makeimmediatepayment"
+	ownershipId="ASMS_Billing"
 />
 
 # make immediate payment

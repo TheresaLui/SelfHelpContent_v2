@@ -12,6 +12,7 @@
     cloudEnvironments="Public"
     articleId="microsoft-machinelearning-automl-submittingexperiments"
     selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 # Submitting experiments in Azure Automated ML
 

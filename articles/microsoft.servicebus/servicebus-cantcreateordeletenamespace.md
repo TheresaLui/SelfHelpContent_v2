@@ -12,6 +12,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="f031f747-a865-4409-8cf8-e9be297abff6"
+	ownershipId="AzureMessaging_Common"
 />
 
 # errors and issues/can't create or delete operation

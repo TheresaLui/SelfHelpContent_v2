@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="19d7f613-2156-47a9-bd84-db8dd2a1cecf"
+	ownershipId="ASMS_Billing"
 />
 
 # I received a past due balance notification

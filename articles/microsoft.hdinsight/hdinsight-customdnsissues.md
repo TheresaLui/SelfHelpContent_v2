@@ -10,8 +10,9 @@
     supportTopicIds="32636488"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax"
     articleId="6a60e737-a15c-44df-8320-273b54797713"
+	ownershipId="AzureData_HDInsight"
 />
 # Common Customization Issues
 

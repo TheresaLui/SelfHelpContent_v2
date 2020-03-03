@@ -6,6 +6,7 @@
     articleId="abb1f687-2d58-4197-8f5b-8882f05c04b8_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Configure auto-renewal for your expiring reservation(s)
 ---

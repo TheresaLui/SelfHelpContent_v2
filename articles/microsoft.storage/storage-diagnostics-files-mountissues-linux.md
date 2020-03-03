@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="linux"
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unsupported Linux version for Azure File

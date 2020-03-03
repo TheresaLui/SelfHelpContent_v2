@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
 	articleId="32639186"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Order creation

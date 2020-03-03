@@ -13,6 +13,7 @@ pageTitle="Installed version of AADConnect is not supported or needs to be upgra
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Installed version of AADConnect needs to be upgraded

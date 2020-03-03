@@ -12,6 +12,7 @@
 	productPesIds="16666"
 	articleId="97866ec6-a7a4-4b36-ab81-eacea79c16dc"
 	cloudEnvironments="Public"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 

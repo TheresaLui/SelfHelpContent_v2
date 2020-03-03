@@ -11,6 +11,7 @@
     productPesIds="14785,16578"
     cloudEnvironments="public"
     	articleId="03ebc4da-70b3-4ba1-8305-f3e4dca10a56"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Synchronizing AD to Azure AD/Installation and upgrade

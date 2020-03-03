@@ -10,8 +10,9 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="13186"
-    cloudEnvironments="MoonCake"
+    cloudEnvironments="MoonCake, Fairfax"
 	articleId="a12ed0eb-48a4-4283-93c5-9da75ff3f923"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am receiving a timeout exception

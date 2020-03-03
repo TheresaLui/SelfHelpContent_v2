@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="c31f26e0-d22e-4cc9-a02f-0401370def63"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Common Failures and Troubleshooting Steps for Application/Service

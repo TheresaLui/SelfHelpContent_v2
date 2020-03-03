@@ -12,6 +12,7 @@
   productPesIds=""
   cloudEnvironments="MoonCake"
   ArticleId="hdinsight-hive-hiveincorrectresults-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Hive incorrect results 

@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Transfer of Azure subscriptions
 Support tickets for this issue should be reported in the Azure portal. To create an Azure support ticket:
@@ -25,7 +26,7 @@ Support tickets for this issue should be reported in the Azure portal. To create
 - In the Support Requests section, select the New request drop-down menu, and then select Microsoft Azure
 - In the Azure portal, select New support request
 - Enter the relevant information for the service request, and then select Submit. For more information about how to fill out the support request, see [How to create Azure support requests](https://docs.microsoft.com/azure/azure-supportability/how-to-create-azure-support-request).
-
+- If the transfer is for a customer who is not currently transacting through a CSP channel, please make the request from the [Azure portal](https://portal.azure.com/).
 
 ## **Recommended Documents**
 

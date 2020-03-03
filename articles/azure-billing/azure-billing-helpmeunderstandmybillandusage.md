@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="2a5f1d81-e6c5-4717-936b-05159943a493"
+	ownershipId="ASMS_Billing"
 />
 
 # Understanding your Azure Subscription billing and usage

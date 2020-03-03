@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Onboard_Install_migrate_to_scc"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection  - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC

@@ -12,6 +12,7 @@
     productPesIds="16922"
     cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="secure-virtual-hub-management"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Secure Virtual Hub Management
 

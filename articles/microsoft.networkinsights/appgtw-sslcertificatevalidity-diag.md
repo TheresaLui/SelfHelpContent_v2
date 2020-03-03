@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Microsoft Azure has identified your Application Gateway listener has no valid SSL certificate configured
 <!--issueDescription-->

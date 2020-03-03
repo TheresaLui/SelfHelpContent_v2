@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Have I been impacted by an Information Disclosure?

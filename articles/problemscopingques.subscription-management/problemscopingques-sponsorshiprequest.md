@@ -9,6 +9,7 @@
 	cloudEnvironments="public, MoonCake"
   schemaVersion="1"
    articleId="SponsorshipRequest-problemscopingquestion"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 #  Sponsorship Request
 ---

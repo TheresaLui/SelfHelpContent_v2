@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="542836b5-d407-4c33-87fc-2957a83f4f26"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Planned Maintenance

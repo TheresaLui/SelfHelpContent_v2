@@ -11,6 +11,7 @@
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="f5cfdd96-9dee-4423-a67b-4f2c77369536"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Unable to connect issues

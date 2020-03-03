@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
  	articleId="0856e310-3554-4133-aeab-3db029d54c89"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # I need to revive a workspace I accidentally deleted

@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="87813b92-2e96-83c9-87ad-e299da3c9091"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Get Power BI Desktop

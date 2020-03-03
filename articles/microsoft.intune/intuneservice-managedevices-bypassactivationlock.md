@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="ebe1f360-6bff-4c82-bcb2-243ad7103a47"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Bypass Activation Lock

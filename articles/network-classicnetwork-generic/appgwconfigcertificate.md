@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="configure-ssl-auth-trustedrootcert"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure SSL and Authentication/Trusted Root Certificates

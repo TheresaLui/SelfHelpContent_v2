@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636955"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="eh-partition-change-request"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Request for Partition change
 ---

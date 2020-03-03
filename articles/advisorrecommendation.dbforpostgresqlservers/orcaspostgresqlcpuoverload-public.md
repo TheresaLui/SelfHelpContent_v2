@@ -6,6 +6,7 @@
     articleId="38500a53-575d-44b7-8f29-6cd534137438_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Increase the PostgreSQL server vCores
 ---

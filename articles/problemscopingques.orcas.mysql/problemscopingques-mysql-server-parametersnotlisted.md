@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640092"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-server-parameter_notlisted"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Server Parameters - Server parameter not listed
 ---

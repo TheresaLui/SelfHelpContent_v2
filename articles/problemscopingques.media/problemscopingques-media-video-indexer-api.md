@@ -9,6 +9,7 @@
     articleId="problemscopingques-video-indexer-api"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
     schemaVersion="1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Using Video Indexer's API
 ---

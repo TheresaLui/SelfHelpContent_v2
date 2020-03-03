@@ -11,6 +11,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
     	articleId="760ef8f7-8b2e-417c-b563-0214d24cbd6f"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Directory eletion problem with removing applications

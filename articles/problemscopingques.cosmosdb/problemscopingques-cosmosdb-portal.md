@@ -9,6 +9,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 	articleId="9a15edbc-1a5a-4e4d-8bd9-1d9e24f56c91"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB Portal Issues
 ---

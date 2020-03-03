@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     articleId="05971907-6ad9-4edd-ab74-63c35d96bf7a"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem configuring AADConnect

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-directory-deletetenantdependenciestshooter-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I'm having a problem deleting my Azure AD tenant

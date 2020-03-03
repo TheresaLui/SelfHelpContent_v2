@@ -10,6 +10,7 @@
     supportTopicIds="32690843"
     productPesIds="16644"
     cloudEnvironments="public, fairfax, mooncake"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # When clusters or instances have unusable nodes

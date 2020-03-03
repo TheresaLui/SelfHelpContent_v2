@@ -11,7 +11,8 @@
     cloudEnvironments="MoonCake"
     productPesIds="" 
     supportTopicIds=""
- />
+ 	ownershipId="ASEP_ContentService_Placeholder"
+/>
  
 # Community-Supported SDKs
 

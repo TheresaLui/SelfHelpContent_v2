@@ -13,6 +13,7 @@
     resourceTags=""
     productPesIds="16250"
     cloudEnvironments="public,fairfax"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-chart-shows-dashed-line -->

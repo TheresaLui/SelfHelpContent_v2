@@ -10,11 +10,14 @@
 	supportTopicIds="32570114"
 	resourceTags="windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="3b7a9ddd-d510-4056-bfd0-e52fcd0f0df3"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Migration and Move/Move resources between regions
+
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
 ## **Recommended Documents**
 

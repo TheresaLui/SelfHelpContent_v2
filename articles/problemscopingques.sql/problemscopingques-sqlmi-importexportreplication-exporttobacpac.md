@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problemscopingques-sqlmi-importexportreplication-exporttobacpac"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # Export from SQL DB MI to BACPAC
 ---

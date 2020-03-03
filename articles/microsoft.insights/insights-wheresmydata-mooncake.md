@@ -11,6 +11,7 @@
     supportTopicIds=""
     cloudEnvironments="MoonCake"
  	articleId="insights-wheresmydata-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
  
 # Where's my data?

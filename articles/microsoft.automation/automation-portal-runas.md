@@ -10,8 +10,9 @@
     supportTopicIds="32635018,32635011,32642189"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="b1d09aaa-7185-44ab-999c-b51d64b77a75"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Run As Accounts

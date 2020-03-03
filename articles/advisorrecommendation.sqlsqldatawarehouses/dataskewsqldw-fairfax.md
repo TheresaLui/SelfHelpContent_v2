@@ -6,6 +6,7 @@
     articleId="9d7196d1-2d7c-4316-820f-7374a4ddf250_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Remove data skew to increase query performance
 ---

@@ -12,6 +12,7 @@
 	productPesIds="16098"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="lb-outbound"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 

@@ -10,8 +10,9 @@
     supportTopicIds="32599904"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="7a6acd2a-6109-49dc-96cd-55c2e9842aa6"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Python Runbook Development

@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640045"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mysql-security-auditing"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Security - Auditing
 ---
