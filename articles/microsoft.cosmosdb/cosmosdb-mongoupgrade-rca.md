@@ -41,8 +41,8 @@ The upgrade process will not provide any service interruptions or downtime. It w
 
    - MongoDB collections will only have the _id property indexed by default
    - Per request timeout is going to be 30 seconds
-   - Idle connection timeout is increased to 5 hours
+   - Recommended time to refresh idle connections is now 30 minutes
 
 3. Action required
 
-   The connection string to the MongoDB service in your application will need to be updated to the following: {GlobalDatabaseAccountName}.mongo.cosmos.azure.com
+   The connection string to the MongoDB service in your application will need to be updated as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `{GlobalDatabaseAccountName}.mongo.cosmos.azure.com` but it might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
