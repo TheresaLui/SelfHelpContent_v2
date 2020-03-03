@@ -8,6 +8,7 @@
 	selfHelpType="TSG_Description"
 	cloudEnvironments="<cloud environments>"
 	articleId="<Unique GUID identifying the Content step>"
+	ownershipId=""
 />
 
 # <Troubleshooter title - Will be presented the user. Example: 502 Bad Application Gateway Errors
