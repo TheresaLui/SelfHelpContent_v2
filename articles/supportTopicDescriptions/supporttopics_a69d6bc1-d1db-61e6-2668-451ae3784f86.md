@@ -21,6 +21,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "6de8b3ec-c22b-fc31-dba0-45ab1e98485b",
+      "longDescription": "",
+      "shortDescription": "Networking setup and configuration with Azure AD Domain Services",
+      "searchTags": "VNet error in Azure AD DS ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "86d57c6c-df7d-9808-dfcb-9dd1bfe44cff",
       "longDescription": "",
       "shortDescription": "Issues while configuring administrative or management features for Azure AD Domain Services ",
