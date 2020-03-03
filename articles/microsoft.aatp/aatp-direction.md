@@ -1,6 +1,6 @@
 <properties
-	pageTitle="avoid misroute, MDATP / Offiice ATP"
-	description="avoid misroute, MDATP / Offiice ATP"
+	pageTitle="avoid misroute, MDATP /Offiice ATP"
+	description="avoid misroute, MDATP /Offiice ATP"
 	service=""
 	resource=""
 	authors="zacohen2"
