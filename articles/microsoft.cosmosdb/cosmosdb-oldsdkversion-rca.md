@@ -12,7 +12,7 @@
 	supportTopicIds="32636763,32636796,32636801,32636775,32636812"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	ownershipId="AzureData_AzureCosmosDB"
 />
 # Old SDK detected
