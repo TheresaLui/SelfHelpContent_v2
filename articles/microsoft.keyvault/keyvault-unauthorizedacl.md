@@ -10,7 +10,7 @@
 	articleId="keyvault-unauthorizedacl"
 	diagnosticScenario="keyvault-recommendations"
 	selfHelpType="Diagnostics"
-    	supportTopicIds="32375283"
+	supportTopicIds="32375283"
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
