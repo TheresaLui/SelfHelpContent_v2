@@ -27,13 +27,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "yinfan@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "mdm://XStore/DataAnalytics",
+      "service": "Xstore",
+      "team": "Xstore/ Data Analytics"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
