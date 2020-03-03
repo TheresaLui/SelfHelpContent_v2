@@ -62,4 +62,3 @@ Below are some examples for connection pooling with Python.
 * [MongoDB](http://api.mongodb.com/python/2.1/api/pymongo/pool.html)
 * [PostgreSQL](http://initd.org/psycopg/docs/pool.html)
 * [SQL Server](https://docs.sqlalchemy.org/en/13/core/pooling.html) (NOTE: SQLAlchemy can be used with other databases besides MS SQL)
-* [HTTP Keep-alive](http://docs.python-requests.org/en/latest/user/advanced/#keep-alive) (Keep-Alive is automatic when using sessions session-objects).
