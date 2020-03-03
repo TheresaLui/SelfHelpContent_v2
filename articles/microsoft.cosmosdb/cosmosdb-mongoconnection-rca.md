@@ -34,7 +34,7 @@ Because CosmosDB is a multi tenant service, we tear down TCP connections which a
 
 To avoid connectivity problems, increase the value of maxConnectionIdleTime property and other properties listed in the nodejs example below
 
-```c#
+```
 MongoClientOptions.Builder optionsBuilder = new MongoClientOptions.Builder();
 optionsBuilder.socketTimeout(10000);
 optionsBuilder.maxConnectionIdleTime(60000);
