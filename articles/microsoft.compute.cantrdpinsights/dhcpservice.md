@@ -28,4 +28,4 @@ We have investigated and determined that your virtual machine (VM) <!--$vmname--
 
 ## **Recommended Documents**
 
-* [Troubleshoot Remote Desktop connections to an Azure virtual machine](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)
+* [Troubleshoot Remote Desktop connections to an Azure virtual machine](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)
