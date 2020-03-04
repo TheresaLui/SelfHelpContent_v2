@@ -1,8 +1,8 @@
 <properties
          pageTitle="Scoping questions for SAP HANA restore failure"
          description="Scoping questions for SAP HANA restore failure"
-         authors="akanase-ot"
-         ms.author="akkanase"
+         authors="akgoyal-ot"
+         ms.author="akgoyal"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32690772"
          productPesIds="15207"
@@ -153,10 +153,6 @@
                 {
                     "value": "Checked the Machine has Internet connectivity",
                     "text": "Checked the Machine has Internet connectivity"
-                },
-                {
-                    "value": "Checked the SAP HANA system has required permission for backup",
-                    "text": "Checked the SAP HANA system has required permission for backup"
                 },
                 {
                     "value": "dont_know_answer",
