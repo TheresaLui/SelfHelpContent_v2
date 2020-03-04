@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5ed02c5b-b621-2957-4a44-41676d462998",
+      "longDescription": "",
+      "shortDescription": "Questions about creating, updating, or deleting servers or server configurations",
+      "searchTags": "creating;updating;deleting",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
