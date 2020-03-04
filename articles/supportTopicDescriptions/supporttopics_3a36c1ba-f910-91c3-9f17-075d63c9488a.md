@@ -35,6 +35,14 @@
       "searchTags": "Delete Subscription ;Move Subscription in AAD",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b193abda-3c53-d80b-590c-1874cfe4c9f3",
+      "longDescription": "",
+      "shortDescription": "Unable to delete Azure AD application registrations or service principals",
+      "searchTags": "Unable to remove AAD App registration ;Delete Service Principles ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
