@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ccd86bd-f9df-c273-d388-8aed88ccd71f",
+      "longDescription": "",
+      "shortDescription": "Problems assigning user based licenses to user objects in the Azure AD portal",
+      "searchTags": "Assigning a license to a user;Assign license to user object in AAD",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4797b0e-0f36-6507-df95-a2ddc63c5026",
       "longDescription": "",
       "shortDescription": "Problems assigning user based licenses to Azure AD groups including group based licensing conflicts or dependencies or processing errors",
