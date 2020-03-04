@@ -42,9 +42,9 @@ If you do NOT see a large number of connections within the VM with 'netstat' com
 
 ## **Recommended Documents**
 
-* [Virtual machine network bandwidth](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-machine-network-throughput)
-* [Add network interfaces to or remove network interfaces from virtual machines](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface-vm)
-* [Azure DDoS Protection Standard overview](https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview)
-* [What is Azure Load Balancer?](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
-* [Security groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
-* [Introduction to flow logging for network security groups](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview)
+* [Virtual machine network bandwidth](https://docs.microsoft.com/azure/virtual-network/virtual-machine-network-throughput)
+* [Add network interfaces to or remove network interfaces from virtual machines](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm)
+* [Azure DDoS Protection Standard overview](https://docs.microsoft.com/azure/virtual-network/ddos-protection-overview)
+* [What is Azure Load Balancer?](https://docs.microsoft.com/azure/load-balancer/load-balancer-overview)
+* [Security groups](https://docs.microsoft.com/azure/virtual-network/security-overview)
+* [Introduction to flow logging for network security groups](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview)
