@@ -3,9 +3,10 @@
     description="Configure your Azure Cosmos DB containers with a partition key"
     authors="rnagpal"
     ms.author="rnagpal"
-    articleId="9d701f42-13e2-4876-9c2c-64c79dbf3651_Fairfax"
+    articleId="5b5349fb-b298-41e3-b281-982b7986db67_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB containers with a partition key
 ---
@@ -13,7 +14,7 @@
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "acac062f-9b64-4634-9406-04de711c4d5d",
+  "recommendationTypeId": "5b5349fb-b298-41e3-b281-982b7986db67",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').FixedCollection",
     "dataSource": "Kusto",
@@ -59,7 +60,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "2834bb4c-5cd1-46fe-b669-eccc67d492c1",
+      "actionId": "2847eab2-874f-45b1-8517-a5e5709ef280",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
