@@ -141,7 +141,7 @@
             "watermarkText": "Filter by name",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourcetype_virtualmachine_selection_dropdown"
-                "uri":"subscriptions/{subscriptionId}/resources?api-version=2019-10-01&$filter=resourceType eq Microsoft.Compute/virtualMachines",
+                "uri":"subscriptions/{subscriptionId}/resources?api-version=2019-10-01&$filter=resourceType%20eq%20'{replaceWithParentValue}'",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
