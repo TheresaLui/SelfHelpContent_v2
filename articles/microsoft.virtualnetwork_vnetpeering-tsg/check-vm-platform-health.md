@@ -22,7 +22,7 @@ The product group has informed us that we do not have a way to go back in time t
 
 ## **Recommended Documents**
 
-* http://aka.ms/netvma
+* https://netvma.trafficmanager.net/
 
 
 
