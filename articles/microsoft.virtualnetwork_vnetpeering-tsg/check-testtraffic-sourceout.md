@@ -9,7 +9,7 @@
 	cloudEnvironments="public"
 	articleId="fc893080-ae65-4691-bab3-33a1bb2cb08e"
 />
-# Check Azure platform nsg & routing from ***source to destination***
+# Check Azure platform nsg & routing from source to destination
 
 Use the 'Test Traffic' utility to check for blocking Network Security Group Rules (NSGs) and Routing Rules **leaving the source** toward the destination.
 
