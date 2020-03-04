@@ -23,6 +23,6 @@ Most users are able to resolve their Azure AD DS authentication over SMB issue u
 Ensure that the following steps are completed to enable AAD DS Authentication feature on your storage account:
 1. Have you ran through the [prerequisites to enable Azure AD DS authentication over SMB](https://docs.microsoft.com/azure/storage/files/storage-files-active-directory-enable#prerequisites)?
 2. Is the virtual machine you used to mount Azure Files using AAD credentials domain joined to AAD DS? 
-3. Have you [granted share level permissin](https://docs.microsoft.com/azure/storage/files/storage-files-active-directory-enable#assign-access-permissions-to-an-identity) to the target user through RBAC?
+3. Have you [granted share level permissions](https://docs.microsoft.com/azure/storage/files/storage-files-active-directory-enable#assign-access-permissions-to-an-identity) to the target user through RBAC?
 4.	Have you [granted file/directory level permissions (NTFS ACLs)](https://docs.microsoft.com/azure/storage/files/storage-files-active-directory-enable#configure-ntfs-permissions-over-smb) to the target user through file explorers or icacls? 
 
