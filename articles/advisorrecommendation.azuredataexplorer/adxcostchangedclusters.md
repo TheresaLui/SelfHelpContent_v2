@@ -23,7 +23,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/clusters",
-  "recommendationFriendlyName": "Right-size cost for ADX cluster",
+  "recommendationFriendlyName": "Right-size ADX clusters for cost",
   "recommendationMetadataState": "Active",
   "recommendationScope": "Internal",
   "portalFeatures": [],
