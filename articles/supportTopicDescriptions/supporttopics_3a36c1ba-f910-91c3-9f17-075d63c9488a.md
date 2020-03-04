@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "773c57a1-085a-b5a8-b43f-ffc3c7bcffb3",
+      "longDescription": "",
+      "shortDescription": "Problems creating or managing Azure resource role based access control assignments",
+      "searchTags": "RBAC issues;Managing RBAC;RBAC assignments",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d97452f-6b8d-0c11-a7d8-d6c6e8d5057f",
       "longDescription": "",
       "shortDescription": "Problems with the classic Azure subscription roles Service Administrator, Account Administrator",
