@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "788e907d-ec0e-3dc0-77d1-879fa4ecc6ce",
+      "longDescription": "",
+      "shortDescription": "You accidentially deleted a server and need assistance recovering it.",
+      "searchTags": "deleted server",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
