@@ -27,6 +27,14 @@
       "searchTags": "AD Custom Domain Names",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3805c1db-1838-344b-df74-9ed8b1341771",
+      "longDescription": "",
+      "shortDescription": "Unable to delete or move a subscription that is currently tied to your Azure AD tenant.",
+      "searchTags": "Delete Subscription ;Move Subscription in AAD",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
