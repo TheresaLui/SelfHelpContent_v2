@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4797b0e-0f36-6507-df95-a2ddc63c5026",
+      "longDescription": "",
+      "shortDescription": "Problems assigning user based licenses to Azure AD groups including group based licensing conflicts or dependencies or processing errors",
+      "searchTags": "Group-based licensing;Licensing conflicts",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b193abda-3c53-d80b-590c-1874cfe4c9f3",
       "longDescription": "",
       "shortDescription": "Unable to delete Azure AD application registrations or service principals",
