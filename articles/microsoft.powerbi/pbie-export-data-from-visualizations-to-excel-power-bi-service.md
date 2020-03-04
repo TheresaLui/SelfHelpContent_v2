@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="bc7e4436-a885-cd83-53af-98e48ea0c063"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Export data from visualizations

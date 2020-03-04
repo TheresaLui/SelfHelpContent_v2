@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="a091dc62-2413-4988-ac75-1760d0cb5b85"
+	ownershipId="ASMS_Billing"
 />
 
 # Setup help for Azure CSP

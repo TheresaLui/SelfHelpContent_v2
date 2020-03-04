@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="78a1e1e4-038e-474b-a9b1-f24d9ca0d41a"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # How to query specific data

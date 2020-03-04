@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="dfe796d1-7da5-f86f-0458-d2b2429413dc"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Connect Excel to an Azure Analysis Services server

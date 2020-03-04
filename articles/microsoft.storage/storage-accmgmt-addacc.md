@@ -12,6 +12,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="56259d76-53c9-43dc-8754-aa04446a4961"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Issues creating a storage account

@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-portalandclienttools-azureportal-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Using the Azure Portal

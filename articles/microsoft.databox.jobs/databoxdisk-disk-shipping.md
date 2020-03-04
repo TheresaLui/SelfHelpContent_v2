@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public"
 	articleId="8b7b47da-ede0-4403-961c-c563e70fa3c4"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box Disk Shipping

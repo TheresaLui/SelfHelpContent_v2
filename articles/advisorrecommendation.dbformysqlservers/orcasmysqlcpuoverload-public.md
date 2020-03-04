@@ -6,6 +6,7 @@
     articleId="0fb3f293-899e-458a-81cc-ad263dd89629_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Increase the MySQL server vCores
 ---

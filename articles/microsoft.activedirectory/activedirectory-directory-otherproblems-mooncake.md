@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-directory-otherproblems-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I still have other problems deleting my Azure AD tenant

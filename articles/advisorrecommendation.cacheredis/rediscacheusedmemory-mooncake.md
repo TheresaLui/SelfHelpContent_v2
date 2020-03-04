@@ -6,6 +6,7 @@
     articleId="16d0cf25-463d-4a20-8f18-d8d71edf92e3_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Improve your Cache and application performance when running with high memory pressure
 ---

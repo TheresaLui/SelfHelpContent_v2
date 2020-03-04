@@ -13,6 +13,7 @@
 	articleId="cosmosdb-cassandra-errorsincorrectresult"
 	displayOrder="142"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Cassandra API - Common errors

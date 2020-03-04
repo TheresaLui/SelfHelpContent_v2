@@ -12,6 +12,7 @@
     productPesIds="16460"
     cloudEnvironments="public,MoonCake,FairFax,BlackForest"
     articleId="F16A06F5-DD5D-42DB-805F-90DDC48198B1"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure Files: Connectivity issue on Windows

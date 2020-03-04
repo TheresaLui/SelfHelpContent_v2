@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Transfer an enterprise enrollment to a new enrollment

@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="3ea09efb-a567-489d-b188-71b42a03bd64"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for MARS Issue with scheduling backup
 ---

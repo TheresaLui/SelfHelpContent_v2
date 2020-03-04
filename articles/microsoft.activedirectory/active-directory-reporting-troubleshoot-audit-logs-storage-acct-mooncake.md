@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-reporting-troubleshoot-audit-logs-storage-acct-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I have configured Azure AD logs to be routed to my storage account and don’t see all the logs

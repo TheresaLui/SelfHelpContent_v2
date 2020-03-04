@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="d61c0252-68c7-42eb-9caf-bc4fc6cec6ec"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Intune - Configure Domains

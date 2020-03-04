@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_update_provider_details"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Update Provider Details
 ---

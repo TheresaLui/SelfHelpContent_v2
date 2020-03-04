@@ -12,6 +12,7 @@
 	productPesIds=""
     articleId="npm-nodataafterrules-troubleshoot-and-case-submission-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # No monitoring data in NPM

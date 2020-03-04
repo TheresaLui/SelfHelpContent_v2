@@ -11,7 +11,8 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-restoringfrombackup.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Restoring from backup

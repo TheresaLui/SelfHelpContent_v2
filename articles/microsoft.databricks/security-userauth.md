@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="71ba028b-6d53-445b-88cf-c0c6b20d4f76"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with User Authentication

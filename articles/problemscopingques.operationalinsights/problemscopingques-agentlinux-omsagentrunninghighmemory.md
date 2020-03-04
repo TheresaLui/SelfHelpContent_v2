@@ -10,6 +10,7 @@ supportTopicIds="32612499"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # OMS agent: Running high memory

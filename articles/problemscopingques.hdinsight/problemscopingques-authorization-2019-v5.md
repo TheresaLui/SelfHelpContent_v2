@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636421, 32636490, 32636491"
 	productPesIds="15078"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsight Authorization Issue
 ---

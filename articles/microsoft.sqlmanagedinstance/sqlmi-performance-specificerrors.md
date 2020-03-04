@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
     articleId="2c2ed2d9-af18-4827-bfea-a8b5928de10d"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Specific errors or exceptions

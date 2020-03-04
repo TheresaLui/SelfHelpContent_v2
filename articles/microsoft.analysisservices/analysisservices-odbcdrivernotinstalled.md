@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="cbe9788f-19df-445f-b03a-6b72d21d188d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # 'Driver' property doesn't correspond to an installed ODBC driver

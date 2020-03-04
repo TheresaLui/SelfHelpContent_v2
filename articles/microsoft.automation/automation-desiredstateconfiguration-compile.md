@@ -10,8 +10,9 @@
     supportTopicIds="32628001"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="2d29a6eb-da07-4c39-a026-5ad589bb53fb"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - State Configuration (DSC) - Problem Compiling a Configuration

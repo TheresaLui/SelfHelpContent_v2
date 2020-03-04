@@ -12,6 +12,7 @@
 	supportTopicIds="32629619,32629626,32629633,32629639,32629645,32629657,32629663,32629676"
 	productPesIds="15454"
 	cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I am having issues with classic metric alerts

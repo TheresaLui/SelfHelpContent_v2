@@ -13,6 +13,7 @@
 	articleId="cosmosdb-availability-serviceavailability"
 	displayOrder="68"
 	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Cosmos DB returns service unavailable
 

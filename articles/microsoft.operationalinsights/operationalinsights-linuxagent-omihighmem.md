@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="430158ab-b890-473d-9eed-211da7503120"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/OMI process issues: Running high memory

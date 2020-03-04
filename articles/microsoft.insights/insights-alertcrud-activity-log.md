@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # Creating, editing, or deleting activity log alert rules

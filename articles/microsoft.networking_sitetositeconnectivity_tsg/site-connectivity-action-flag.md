@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="3e47e472-0094-4674-b701-dbf335f85c1f"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Site Connectivity Action Flag

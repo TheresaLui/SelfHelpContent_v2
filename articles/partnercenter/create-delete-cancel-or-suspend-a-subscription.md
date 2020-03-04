@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Create, delete, cancel, or suspend online services subscriptions
 

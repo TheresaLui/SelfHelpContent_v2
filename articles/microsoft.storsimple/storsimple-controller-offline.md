@@ -14,6 +14,7 @@
 	resourceTags="8000Series"
 	productPesIds="15438"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Controller is offline on the portal 

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="npm-nodataforermrule-troubleshoot-and-case-submission-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # No monitoring data in NPM for Express Route Monitor

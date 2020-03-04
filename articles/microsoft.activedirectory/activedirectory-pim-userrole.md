@@ -12,6 +12,7 @@
 	productPesIds="16577"
 	cloudEnvironments="public"
 	articleId="b64b291b-35e2-4cfa-8925-4dbe26427262"
+	ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
 # Permissions are not granted after activating a role

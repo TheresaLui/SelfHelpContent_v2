@@ -12,6 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="c827ff24-ee9c-4978-8ee3-63f8ef335601"    
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting Private Cloud expansion 

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="083a1d3b-284d-4414-8510-9687b6aedd6a"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Incorrect IKE Parameter

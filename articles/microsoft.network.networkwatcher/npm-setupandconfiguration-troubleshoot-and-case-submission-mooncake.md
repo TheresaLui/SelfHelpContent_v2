@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="npm-setupandconfiguration-troubleshoot-and-case-submission-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Agent Setup and Configuration issues

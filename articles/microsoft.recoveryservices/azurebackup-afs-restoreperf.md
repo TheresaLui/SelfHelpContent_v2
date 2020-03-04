@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="b973e77c-4709-42c6-a5d1-43f3fa4d2e11"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Files Backup Restore Performance

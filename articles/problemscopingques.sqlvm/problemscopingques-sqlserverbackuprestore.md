@@ -8,6 +8,7 @@
 	 cloudEnvironments="public,fairfax"
 	 schemaVersion="1"
 	 articleId="bc1ede95-f07e-43dd-a757-a3162188068c"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # SQL Server Backup Restore
 ---

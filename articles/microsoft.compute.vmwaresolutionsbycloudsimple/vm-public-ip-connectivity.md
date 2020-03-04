@@ -12,6 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="af441601-6699-4716-ad0a-5ecf470e35d4"    
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting public ip address network connectivity 

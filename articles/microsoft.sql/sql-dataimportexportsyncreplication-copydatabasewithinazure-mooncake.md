@@ -12,6 +12,7 @@
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-dataimportexportsyncreplication-copydatabasewithinazure-mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # data import, export, sync, replication/copy database within Azure

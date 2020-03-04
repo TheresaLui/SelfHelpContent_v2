@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="4059fca6-fa08-4be5-8d9f-b31b92652f7b"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Monitor Managed Instance performance with SQL Analytics

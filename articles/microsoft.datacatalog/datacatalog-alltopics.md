@@ -12,6 +12,7 @@
 	productPesIds="16054"
 	cloudEnvironments="public"
 	articleId="d6bdd78b-cd14-4026-9be5-84c4697d3eaa"
+	ownershipId="AzureData_DataCatalog"
 />
 
 # Azure Data Catalog Common Solution

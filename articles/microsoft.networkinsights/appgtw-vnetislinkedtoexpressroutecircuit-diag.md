@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Microsoft Azure has identified Application Gateway exists in a Vnet linked to an ExpressRoute Circuit
 <!--issueDescription-->

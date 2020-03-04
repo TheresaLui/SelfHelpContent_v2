@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="48edeb33-20e6-410c-945d-a23e04d24a16"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Database migration service

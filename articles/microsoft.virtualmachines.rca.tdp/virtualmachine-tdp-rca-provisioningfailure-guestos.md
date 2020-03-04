@@ -14,6 +14,7 @@
 	resourceTags="windows"
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Operating system provisioning timeout failure

@@ -12,6 +12,7 @@
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 	articleId="npm-setupandconfiguration-troubleshoot-and-case-submission"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Agent Setup and Configuration issues

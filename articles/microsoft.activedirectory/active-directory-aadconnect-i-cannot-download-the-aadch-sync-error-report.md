@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     articleId="0b6ff626-15b0-40e4-9cbe-422e5fbea91c"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I cannot download the AADConnect Health sync error report

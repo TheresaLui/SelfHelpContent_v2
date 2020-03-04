@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     	articleId="698a67db-ddf0-42fc-bc61-2d52fd4d278a"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Issues connecting to AD forest

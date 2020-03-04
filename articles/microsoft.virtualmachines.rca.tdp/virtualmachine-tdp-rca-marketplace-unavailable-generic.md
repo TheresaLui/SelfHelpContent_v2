@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="Compute_VirtualMachines"
 />
 # Your Azure Marketplace purchase needs your attention
 

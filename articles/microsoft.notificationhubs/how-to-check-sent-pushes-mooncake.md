@@ -12,6 +12,7 @@
     supportToicIds =""
     cloudEnvironments="MoonCake"
 	articleId="ce5c8d63-68c6-49e8-86df-426c8fd75c6c"
+	ownershipId="AzureMessaging_Common"
 />
 
 # How do I check pushes I have sent?

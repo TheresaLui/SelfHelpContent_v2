@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="1172727d-c1b2-42cb-8ecc-0ad36a9d1574"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Install and Registration failures for Files and Folders backup

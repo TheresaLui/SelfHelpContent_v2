@@ -11,7 +11,8 @@
     diagnosticScenario="ApplicationGatewaySessionAffinity"
     supportTopicIds=""
     cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Session affinity issues with Application Gateway
 We ran several diagnostics on your resource **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->** and have found the below issues because of which you are encountering session affinity issues.

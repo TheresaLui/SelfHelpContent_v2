@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="diskImportExport"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Disk Import/Export issues
 ---

@@ -9,6 +9,7 @@ supportTopicIds="32639113"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	schemaVersion="1"
 	articleId="scoping-question-connectivity-4xx-error"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway URL

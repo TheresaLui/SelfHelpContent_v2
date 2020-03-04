@@ -12,6 +12,7 @@
 	productPesIds="16679"
 	cloudEnvironments="public,mooncake,fairfax,blackforest"
 	articleId="nva-riverbedtech.md"
+	ownershipId="CloudNet_NVA"
 />
 
 # networkvirtualappliance/riverbedtechnology

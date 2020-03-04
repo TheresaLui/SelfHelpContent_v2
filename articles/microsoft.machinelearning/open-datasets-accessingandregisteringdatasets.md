@@ -11,6 +11,7 @@
 	productPesIds="16644"
 	cloudEnvironments="Public"
   articleId="open-datasets-accessingandregisteringdatasets"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Azure Open Datasets: Accessing or registering Open Datasets

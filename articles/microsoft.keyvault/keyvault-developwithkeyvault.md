@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-authcreateserviceprincipal"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Develop with Azure Key Vault

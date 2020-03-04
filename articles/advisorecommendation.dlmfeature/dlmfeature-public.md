@@ -6,6 +6,7 @@
     articleId="700a6195-ddbc-42e9-9341-fa26f2039d96_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Utilize Lifecycle Management 
 ---

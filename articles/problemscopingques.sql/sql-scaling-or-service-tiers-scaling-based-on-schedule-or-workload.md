@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="D3FA08A1-5FF6-4FCC-B7D9-94C7AE055296"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Scaling Based on Schedule or Workload

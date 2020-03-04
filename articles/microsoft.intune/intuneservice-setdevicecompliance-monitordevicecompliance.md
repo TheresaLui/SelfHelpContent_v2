@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="816b5054-4ede-4dba-8962-e02c9e5c3ad0"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Set device compliance - Monitor device compliance

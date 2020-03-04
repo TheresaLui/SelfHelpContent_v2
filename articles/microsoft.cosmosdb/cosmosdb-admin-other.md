@@ -13,6 +13,7 @@
 	articleId="cosmosdb-admin-other"
 	displayOrder="28"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Administration Other Topics

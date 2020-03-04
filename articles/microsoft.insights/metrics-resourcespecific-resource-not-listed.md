@@ -11,6 +11,7 @@
     supportTopicIds="32684760,32684761,32684762,32684763,32684764,32684765,32684766,32684767,32684768,32730384"
     productPesIds="16250"
     cloudEnvironments="public,fairfax,mooncake,blackforest"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-for-resource-type-other -->

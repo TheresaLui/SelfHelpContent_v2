@@ -10,8 +10,9 @@
     supportTopicIds="32629212"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-netinfra-firewall"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Infrastructure Network Firewall

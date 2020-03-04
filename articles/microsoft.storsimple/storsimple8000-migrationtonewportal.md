@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="ca1e2a6b-d82b-435b-995d-57fd6f9fb4e0"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I want to move my StorSimple Device Manager from classic portal

@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="627dab53-d2ea-4306-9b46-a93a32bba7be"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # management/cannotdeletevirtualnetwork

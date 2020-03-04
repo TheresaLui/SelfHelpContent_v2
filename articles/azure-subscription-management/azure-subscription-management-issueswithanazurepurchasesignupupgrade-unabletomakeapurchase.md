@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="issueswithpurchasesignuporupgrade-unabletopurchase"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Purchase,signup or upgrade - unable to unable to make a purchase

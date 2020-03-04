@@ -12,6 +12,7 @@
 	productPesIds="16160"
     articleId="ta-config-and-setup"
 	cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Traffic Analytics - Configuration and Setup

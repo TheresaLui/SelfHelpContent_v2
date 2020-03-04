@@ -13,6 +13,7 @@
 	resourceTags=""
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="storage_common_private_endpoints_creating_deleting"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot issues with creating or deleting Azure Private Endpoints

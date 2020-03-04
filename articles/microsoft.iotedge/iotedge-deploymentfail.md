@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="f9fb9e78-587e-4766-8573-762030330d71"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Deployments aren't getting applied to an IoT Edge device

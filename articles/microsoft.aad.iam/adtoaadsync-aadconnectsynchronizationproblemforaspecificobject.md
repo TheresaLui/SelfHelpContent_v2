@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="cfb77bcc-9d23-4a17-8235-0bdbeede9949"
+	ownershipId="AzureIdentity_B2B"
 /> 
 # AAD Connect synchronization problem for a specific object 
 ---

@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="315df148-75ce-4643-8c53-80a9b631068a"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # create drop and manage resources/my issue is not listed

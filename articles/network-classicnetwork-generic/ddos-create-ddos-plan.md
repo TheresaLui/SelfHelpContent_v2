@@ -12,6 +12,7 @@
     productPesIds="16355"
     cloudEnvironments="public,mooncake,fairfax"
     articleId="ddos-create-ddos-plan"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # General guidance or advisory
 

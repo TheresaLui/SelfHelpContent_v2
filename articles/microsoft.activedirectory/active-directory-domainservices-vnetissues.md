@@ -9,6 +9,7 @@
 	productPesIds="14785,16576"
 	cloudEnvironments="public"
 	articleId="3c8683aa-0d72-42d9-b126-f6446a60354b"
+	ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"
 />
 
 # Virtual Network selection and configuration issue

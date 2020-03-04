@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639995"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-metricsalerts"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Replication - Metrics and alerts
 ---

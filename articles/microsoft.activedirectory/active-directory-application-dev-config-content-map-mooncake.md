@@ -10,6 +10,7 @@
   resourceTags="registeredapps_allapps_button,registeredapps_singleapp_properties,directory_overview"
   displayOrder="46"
  	articleId="active-directory-application-dev-config-content-map-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems configuring or registering my application

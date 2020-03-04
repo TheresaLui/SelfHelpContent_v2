@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="08f1ffcc-f5f0-4b5d-a9f6-13ae1593ee40"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # How do I move my services to another Azure subscription?

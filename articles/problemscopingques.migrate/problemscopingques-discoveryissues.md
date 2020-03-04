@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675749"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="18d94ef5-c8b1-448d-bec0-4a05b0bb88eb"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Discovery issues

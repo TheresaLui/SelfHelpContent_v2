@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 	articleId="7640a487-6f9f-4a3c-9e53-5c75888cc9f2"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Problem with ADFS sign in 
 ---

@@ -11,7 +11,8 @@
     diagnosticScenario="OrcasMariaDBPerfOutofMemory"
     selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Server is facing out of memory errors

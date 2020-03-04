@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="dcc0ea6d-9270-4719-82d0-a395117abb9f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM Restore failure for Windows 
 ---

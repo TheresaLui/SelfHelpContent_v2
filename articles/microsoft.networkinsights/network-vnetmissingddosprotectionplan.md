@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Your virtual network is not associated with a DDoS Protection Standard Plan
 <!--issueDescription-->

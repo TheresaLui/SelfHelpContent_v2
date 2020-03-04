@@ -10,8 +10,9 @@
     supportTopicIds="32642183"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="850c8d7c-5cb0-4932-b7c8-b30e0b36c099"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Creating and Scheduling Update Management Deployments

@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="benefitsofferssponsorshiprequest"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # sponsorship request

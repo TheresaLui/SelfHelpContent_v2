@@ -10,8 +10,9 @@
 	supportTopicIds="32690985"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-clusternodesaredown"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Nodes are down

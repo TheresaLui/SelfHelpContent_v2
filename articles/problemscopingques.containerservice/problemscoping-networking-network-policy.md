@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-networking-network-policy"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Network Policy
 ---

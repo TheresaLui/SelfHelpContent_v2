@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="ad2c4a3d-120a-492f-b9a9-6319954864b0"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Ensure listening port and open NSG to allow source IP

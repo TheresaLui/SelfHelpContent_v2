@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="assistancewithbillorusage-helpmeunderstandmybillandusage"
+	ownershipId="ASMS_Billing"
 />
 
 # help me understand my bill and usage

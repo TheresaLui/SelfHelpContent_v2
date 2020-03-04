@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="2cdc0734-97bd-417d-acbe-dbb6cbd9c07a"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Cannot determine error

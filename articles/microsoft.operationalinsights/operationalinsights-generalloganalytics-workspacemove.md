@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 articleId="b4768e2c-86c7-41d7-9b22-d22709c8b1e5"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Move workspace to different subscription or resource group

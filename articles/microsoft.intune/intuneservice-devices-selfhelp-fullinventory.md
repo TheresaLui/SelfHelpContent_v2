@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="7804e72a-29f0-4135-b937-5474acf8999d"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I am not receiving a full inventory list of applications present on Intune-enrolled Windows devices. Why?

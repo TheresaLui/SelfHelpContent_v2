@@ -10,8 +10,9 @@
     supportTopicIds="32629278"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-tools-sdks"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Software Development Kit (SDK) and Development Tools

@@ -9,8 +9,9 @@
 	supportTopicIds="32569897"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="aa0b9406-4e53-48ee-8d38-9c7e0c4aa58f"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/configuration and management/scaling

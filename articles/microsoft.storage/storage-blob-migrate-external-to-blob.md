@@ -12,6 +12,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="8b923dbf-cebf-4913-86a6-92999b39e2b0"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Transfer data from external sources to blob

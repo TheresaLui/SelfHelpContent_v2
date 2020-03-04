@@ -12,6 +12,7 @@
 	productPesIds="15400"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="5d557c99-d651-4895-be4d-fceab2756a52"
+	ownershipId="CloudNet_TrafficManager"
 />
 
 # real user measurements

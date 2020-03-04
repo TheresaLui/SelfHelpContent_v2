@@ -11,7 +11,8 @@
     diagnosticScenario="OrcasMySQLConnectionPool"
     selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # High percentage of short-lived connections

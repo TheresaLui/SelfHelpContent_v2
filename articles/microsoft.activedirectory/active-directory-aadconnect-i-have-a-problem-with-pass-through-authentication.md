@@ -12,6 +12,7 @@
   productPesIds="16666"
   cloudEnvironments="public"
   articleId="c6546fa2-9f7b-4f75-b3d5-985156272dc2"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem with Azure AD Pass-through Authentication

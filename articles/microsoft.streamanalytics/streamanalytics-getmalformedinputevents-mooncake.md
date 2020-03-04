@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="streamanalytics-getmalformedinputevents-mooncake"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 

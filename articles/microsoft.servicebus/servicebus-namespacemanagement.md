@@ -11,6 +11,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="3d59e455-f84d-46a8-be43-5f57e3ee549e"
+	ownershipId="AzureMessaging_Common"
 />
 
 # errors and exceptions/namespace management

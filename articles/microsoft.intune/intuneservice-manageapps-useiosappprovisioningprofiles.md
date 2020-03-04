@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="8dd833ca-71c7-47b7-8ba7-602b9e7f2b3f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Use iOS app provisioning profiles

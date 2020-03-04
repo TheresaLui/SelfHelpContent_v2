@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="0075b4da-2221-4f08-b065-da82552eb64a"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Notebook-How to

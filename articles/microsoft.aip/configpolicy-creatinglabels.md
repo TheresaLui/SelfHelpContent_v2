@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="configpolicy_creatinglabels"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection - Creating and configuring Labels and Policies - Creating Labels"

@@ -11,6 +11,7 @@
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="f887e380-2f38-44a5-9b1d-75864a95703c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Performance or Throttling issues

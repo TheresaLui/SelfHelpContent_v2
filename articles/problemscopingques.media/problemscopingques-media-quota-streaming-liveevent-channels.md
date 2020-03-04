@@ -9,6 +9,7 @@
     articleId="problemscopingques-quota-streaming-liveevent-channels"
     cloudEnvironments="public"
     schemaVersion="1"
+	ownershipId="StorageMediaEdge_Media"
 />
 # Azure Media Services common questions for quota changes for LiveEvents or Channels
 ---

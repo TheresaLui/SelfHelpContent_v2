@@ -12,6 +12,7 @@
 	productPesIds="16957"
 	cloudEnvironments="public"
 	articleId="26eb6a60-c79d-4945-906a-4fe1806b7eff"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Microsoft Graph Data Connect API issues

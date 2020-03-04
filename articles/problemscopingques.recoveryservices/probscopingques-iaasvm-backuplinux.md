@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="d4e9d379-2bf1-4e83-9939-1850f2d2515e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM backup failure for Linux 
 ---

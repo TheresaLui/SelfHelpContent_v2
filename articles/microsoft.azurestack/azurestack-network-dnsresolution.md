@@ -10,8 +10,9 @@
     supportTopicIds="32629210"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-dnsresolution"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Resolve issues with Azure Stack VM DNS resolution
