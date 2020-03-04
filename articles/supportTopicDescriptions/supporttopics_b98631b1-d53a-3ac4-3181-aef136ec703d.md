@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6221fab0-c4f1-37c5-84f7-fc2af0de1d0a",
+      "longDescription": "",
+      "shortDescription": "You have a problem with AADConnect Health alerts for ADFS",
+      "searchTags": "ADFS ;AAD Connect Health;Connect Health alerts for ADFS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8dd06064-5521-af7d-5ebb-2f2ea231a23c",
       "longDescription": "",
       "shortDescription": "You are using Azure Monitor for Azure AD logs integration and have an issue with it or can not see the logs as expected",
