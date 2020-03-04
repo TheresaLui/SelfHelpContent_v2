@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1c90040a-90b2-3e96-3028-b0d24d9f4fd4",
+      "longDescription": "",
+      "shortDescription": "Problems creating or managing custom Azure resource role definitions via Azure PowerShell or Azure CLI",
+      "searchTags": "Configuring RBAC using PowerShell;Configuring RBAC using CLI;Manage resources role assignments ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "254d8068-689a-d630-1c7e-d32280cec93d",
       "longDescription": "",
       "shortDescription": "Problems related to Azure AD custom domain names",
