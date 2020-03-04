@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8ab73704-5653-586f-b652-39fd4da7a18d",
+      "longDescription": "",
+      "shortDescription": "Problems with delegated Azure AD and Office group management features allowing end user group creation and membership management",
+      "searchTags": "Group Management",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b193abda-3c53-d80b-590c-1874cfe4c9f3",
       "longDescription": "",
       "shortDescription": "Unable to delete Azure AD application registrations or service principals",
