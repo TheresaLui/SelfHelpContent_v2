@@ -59,6 +59,14 @@
       "searchTags": "Unable to remove AAD App registration ;Delete Service Principles ",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ee309b2d-70dd-974b-2653-36ded8e3a6eb",
+      "longDescription": "",
+      "shortDescription": "Problems related to creating user objects in Azure AD",
+      "searchTags": "Create new user in AAD",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
