@@ -9,8 +9,7 @@
   articleid="azure-backup-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 	ownershipId="Compute_AppService"
-/>
+  feedbackemail="email" />
 # Support Topic Descriptions for 17d72dfc-8f48-94cb-05e6-5f88efdf72d7
 ---
 {
@@ -211,10 +210,10 @@
     {
       "id": "412bbd3b-d2a8-cd79-b614-5dec72dab528",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure files",
+      "searchTags": "Backup;Restore",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "442e8b71-0da4-f68c-9943-68da5a2d36b7",
