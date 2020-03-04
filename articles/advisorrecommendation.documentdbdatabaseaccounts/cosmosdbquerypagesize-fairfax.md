@@ -49,7 +49,7 @@
       "name": "CollectionName",
       "title": "Container"
     }
-  ]
+  ],
   "actions": [
     {
       "actionId": "29039a89-7db5-44c6-b8f9-cc2cc021e93d",

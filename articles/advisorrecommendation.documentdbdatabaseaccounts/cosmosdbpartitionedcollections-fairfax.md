@@ -3,7 +3,7 @@
     description="Configure your Azure Cosmos DB containers with a partition key"
     authors="rnagpal"
     ms.author="rnagpal"
-    articleId="5b5349fb-b298-41e3-b281-982b7986db67_Fairfax"
+    articleId="9d701f42-13e2-4876-9c2c-64c79dbf3651_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="AzureData_AzureCosmosDB"
