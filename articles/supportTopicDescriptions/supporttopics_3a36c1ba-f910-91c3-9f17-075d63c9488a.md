@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7d97452f-6b8d-0c11-a7d8-d6c6e8d5057f",
+      "longDescription": "",
+      "shortDescription": "Problems with the classic Azure subscription roles Service Administrator, Account Administrator",
+      "searchTags": "RBAC Service Admin;RBAC Account Admin",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8ab73704-5653-586f-b652-39fd4da7a18d",
       "longDescription": "",
       "shortDescription": "Problems with delegated Azure AD and Office group management features allowing end user group creation and membership management",
