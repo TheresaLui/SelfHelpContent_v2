@@ -21,7 +21,7 @@ A working point-to-site connection is necessary for the customer to reach resour
 
 ## **Recommended Documents**
 
-* [Psping](https://supportability.visualstudio.com/AzureNetworking/_git/AzureNetworking?path=%2FNetworking-Principles%2FPsPing.md&_a=preview&version=GBmaster)
+* [Psping](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/171537/PsPing)
 
 
 
