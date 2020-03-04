@@ -19,4 +19,5 @@
 ## **Recommended Documents**
 Follow the documentation to register and manage machine learning models.
 
-Model Registration: https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#registermodel
+* [How to register and manage machine learning models](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#registermodel)
+* [How to register and deploy an existing model](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-existing-model)
