@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2741b08f-e3dc-f485-02a3-8a8476147884",
+      "longDescription": "",
+      "shortDescription": "Problems related to deleting Azure AD directories and directory objects",
+      "searchTags": "AAD Directories",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3805c1db-1838-344b-df74-9ed8b1341771",
       "longDescription": "",
       "shortDescription": "Unable to delete or move a subscription that is currently tied to your Azure AD tenant.",
