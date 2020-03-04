@@ -21,4 +21,5 @@ API Management is a way to create consistent and modern API gateways for existin
 
 ## **Recommended Documents**
 
+- [Azure API Management developer portal overview](https://docs.microsoft.com/azure/api-management/api-management-howto-developer-portal)
 - [Capture a Trace for troubleshooting Azure Portal issues](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/)
