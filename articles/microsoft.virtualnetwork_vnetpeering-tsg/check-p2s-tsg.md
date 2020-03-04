@@ -16,6 +16,6 @@ The customer is not able to connect from their point-to-site client to resources
 
 ## **Recommended Steps**
 
-1. Resolve the customer's point-to-site connectivity issue to the resources in the VNet that has the VPN point-to-site gateway using the [Point-to-site TSG](https://aka.ms/VpnP2sConnectivityTsg). 
+1. Resolve the customer's point-to-site connectivity issue to the resources in the VNet that has the VPN point-to-site gateway using the [Point-to-site TSG](https://centennialtsg.azurewebsites.net/TSG2/123456). 
 2. Come back to this TSG if needed when the point-to-site issue is resolved
 
