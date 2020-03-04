@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32683758"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-performance-high-cpu-memory"
 />
@@ -46,7 +46,7 @@
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
             "required": true
-        }        
+        }
     ],
     "$schema": "SelfHelpContent"
 }

@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32683757"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-networking-api-server-timeout"
 />
@@ -46,7 +46,7 @@
                 {
                     "value": "No",
                     "text": "No"
-                },
+                }
             ],
             "infoBalloonText": "You can adjust the default <a href='https://docs.microsoft.com/azure/aks/load-balancer-standard#configure-outbound-ports-and-idle-timeout'>timeout value of Public IP</a> which is 4mins for Basic LB",
             "required": false
@@ -65,7 +65,7 @@
                 {
                     "value": "No",
                     "text": "No"
-                },
+                }
             ],
             "infoBalloonText": "Check the list of <a href='https://docs.microsoft.com/azure/aks/limit-egress-traffic#required-ports-and-addresses-for-aks-clusters'>required ports</a> for AKS cluster.",
             "required": false

@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32683762"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-pods-in-existing-cluster"
 />
@@ -16,7 +16,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Problem with Pods",
-    "fileAttachmentHint": "Output of **kubectl get pods -o wide** and **kubectl describe pod <<podname>>** would be helpful with the investigation",
+    "fileAttachmentHint": "Output of **kubectl get pods -o wide** and **kubectl describe pod yourpodname** would be helpful with the investigation",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -53,7 +53,7 @@
                 {
                     "value": "No",
                     "text": "No"
-                },
+                }
             ],
             "infoBalloonText": "Check the list of <a href='https://docs.microsoft.com/azure/aks/limit-egress-traffic#required-ports-and-addresses-for-aks-clusters'>required ports</a> for AKS cluster.",
             "required": false
