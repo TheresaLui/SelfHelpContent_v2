@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8dd06064-5521-af7d-5ebb-2f2ea231a23c",
+      "longDescription": "",
+      "shortDescription": "You are using Azure Monitor for Azure AD logs integration and have an issue with it or can not see the logs as expected",
+      "searchTags": "AAD Monitor Diagnostics;Missing logs in AAD Monitor Diagnostics;Azure Monitor Diagnostics",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b940667a-fb5b-0326-e9e7-ffce2b932211",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for syncing from AAD",
