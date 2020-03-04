@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cbcd4bbb-bc9d-403f-967b-9cb4755a8985",
+      "longDescription": "",
+      "shortDescription": "You have questions about long term retention of backups",
+      "searchTags": "long term retention;long term backup",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e33905a1-7fc1-cd80-b21a-3c5dab250e8b",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
