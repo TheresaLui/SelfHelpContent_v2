@@ -1,18 +1,18 @@
 ﻿<properties
-	pageTitle="TSG Content Step: Check Connectivity Scenario"
-	description="TSG Content Step: Check Connectivity Scenario"
+	pageTitle="TSG Content Step: Customer Scenario out of TSG scope"
+	description="TSG Content Step: Customer Scenario out of TSG scope"
 	service="microsoft.network"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
 	cloudEnvironments="public"
-	articleId="02f28dcb-27ef-4feb-b54a-d00eccd5d16c"
+	articleId="a1b2fcfd-7640-44bc-adc0-74a4c8ce8bc8"
 />
 
-# Check Connectivity Scenario
+# Customer Scenario out of TSG scope
 
-From reviewing the customer verbatim and/or talking with the customer to scope the issue, choose the customer scenario that matches.
+The customer issue is out of scope for this troubleshooting guide. Correct the Support Area Path in ASC and choose to 'Edit and Run Again' in the upper right corner to load relevant insights and TSGs.
 
 
 
