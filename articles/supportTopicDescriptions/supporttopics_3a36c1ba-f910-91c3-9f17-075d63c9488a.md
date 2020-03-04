@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0a16dfec-35c9-9738-73a6-86748bb0a25f",
+      "longDescription": "",
+      "shortDescription": "Problems preventing the deletion of an Azure Active Directory .onmicrosoft.com tenant.",
+      "searchTags": "Deletion of tenant in AAD",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "254d8068-689a-d630-1c7e-d32280cec93d",
       "longDescription": "",
       "shortDescription": "Problems related to Azure AD custom domain names",
