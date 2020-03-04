@@ -20,30 +20,11 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "ad_enabled",
-            "order": 0,
-            "controlType": "dropdown",
-            "displayLabel": "Have you ran the feature enablement steps including creating an AD identity representing your storage account?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "No"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "ran_through_prereq",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Have you ran through the prerequisites in the feature enablement doc?",
             "watermarkText": "Choose an option",
-            "visibility": "aad_ds_enabled == yes",
             "dropdownOptions": [
                 {
                     "value": "yes",
@@ -76,11 +57,31 @@
             "required": true
         },
         {
+            "id": "ad_enabled",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Have you ran the feature enablement steps including creating an AD identity representing your storage account?",
+            "watermarkText": "Choose an option",
+            "visibility": "ad_vm == yes",
+            "dropdownOptions": [
+                {
+                    "value": "yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "No"
+                }
+            ],
+            "required": true
+        },
+        {
             "id": "synced_ad_connect",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Have you synced your AD to Azure AD using Azure AD Connect?",
             "watermarkText": "Choose an option",
+            "visibility": "ad_enabled == yes",
             "dropdownOptions": [
                 {
                     "value": "yes",
@@ -99,7 +100,7 @@
             "controlType": "dropdown",
             "displayLabel": "Have you granted share level permission to the target user through RBAC?",
             "watermarkText": "Choose an option",
-            "visibility": "aad_ds_vm == yes",
+            "visibility": "synced_ad_connect == yes",
             "dropdownOptions": [
                 {
                     "value": "yes",
