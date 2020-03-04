@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "de02e621-d0d8-b6f8-af2e-2c74cef02e78",
+      "longDescription": "",
+      "shortDescription": "Problems recovering lost Azure resource role assignments after subscription is moved to another Azure AD tenant",
+      "searchTags": "RBAC recovery;Missing resource role assignments",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ee309b2d-70dd-974b-2653-36ded8e3a6eb",
       "longDescription": "",
       "shortDescription": "Problems related to creating user objects in Azure AD",
