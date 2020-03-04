@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ccd86bd-f9df-c273-d388-8aed88ccd71f",
+      "longDescription": "",
+      "shortDescription": "Problems assigning user based licenses to user objects in the Azure AD portal",
+      "searchTags": "Assigning a license to a user;Assign license to user object in AAD",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b193abda-3c53-d80b-590c-1874cfe4c9f3",
       "longDescription": "",
       "shortDescription": "Unable to delete Azure AD application registrations or service principals",
