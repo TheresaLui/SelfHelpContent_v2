@@ -1,8 +1,8 @@
 <properties
          pageTitle="Scoping questions for SAP HANA restore failure"
          description="Scoping questions for SAP HANA restore failure"
-         authors="akgoyal-ot"
-         ms.author="akgoyal"
+         authors="akanase-ot"
+         ms.author="akkanase"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32690772"
          productPesIds="15207"
