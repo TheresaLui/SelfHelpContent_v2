@@ -12,6 +12,7 @@
 	productPesIds="14748,16333,16170"
 	cloudEnvironments="public, MoonCake"
 	articleId="60202514-c11c-471e-958e-36b34492ec2a"
+	ownershipId="Compute_AppService
 />
 
 # Outbound network connections from my app are failing
