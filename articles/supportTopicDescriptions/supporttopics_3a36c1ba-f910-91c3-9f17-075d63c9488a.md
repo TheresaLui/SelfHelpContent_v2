@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8f5aa2d5-f30e-a00e-6cb2-e8ee2f9d23f2",
+      "longDescription": "",
+      "shortDescription": "Problems creating a new user in Azure AD, including user profiles and properties issues",
+      "searchTags": "Creating new user;new user in AAD;Add new user in AAD;Add new user profile in AAD ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b193abda-3c53-d80b-590c-1874cfe4c9f3",
       "longDescription": "",
       "shortDescription": "Unable to delete Azure AD application registrations or service principals",
