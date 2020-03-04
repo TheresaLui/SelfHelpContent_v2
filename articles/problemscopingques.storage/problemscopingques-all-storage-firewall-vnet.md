@@ -204,34 +204,6 @@
 
         },
         {
-            "id": "resourceName_list",
-            "order": 100,
-            "visibility": "resourceProvider_list != null",
-            "controlType": "dropdown",
-            "displayLabel": "Select the name of the source",
-            "watermarkText": "Filter by name",
-            "dynamicDropdownOptions": {
-                "dependsOn": "resourceProvider_list",
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/ATMtestRG/resources?api-version=2019-10-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-		"valuePropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other or none of the above"
-                }
-            },
-            "DropdownOptions": [
-                {
-                    "value": "Unable to retrieve list of resources",
-                    "text": "Unable to retrieve list of resources"
-                }
-            ]
-
-        },
-        {
             "id": "problem_start_time",
             "order": 1000,
             "controlType": "datetimepicker",
