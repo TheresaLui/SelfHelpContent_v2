@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public,Fairfax,Mooncake"
 />
 
 # We found an issue with the network interface on this VM
