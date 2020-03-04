@@ -21,9 +21,9 @@ Use the 'Test Traffic' utility to check for blocking Network Security Group Rule
    * Cluster node: Auto Populated by ASC
    * Node Id: Auto Populated by ASC
    * Container Id: Auto Populated by ASC
-   * Source IP: <'Destination' VM private VNet IP address>
+   * Source IP: ***<'Destination' private IP address>
    * Source Port: 55555
-   * Destination IP: <'Source' VM private VNet IP address>
+   * Destination IP: ***<'Source' private IP address>
    * Destination Port: <choose port the customer is testing with: RDP=80; SSH=22; http=80; https=443>
    * Transport Protocol: TCP
 4. Make note of the following: 
