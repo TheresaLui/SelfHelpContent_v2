@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "254d8068-689a-d630-1c7e-d32280cec93d",
+      "longDescription": "",
+      "shortDescription": "Problems related to Azure AD custom domain names",
+      "searchTags": "AD Custom Domain Names",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3805c1db-1838-344b-df74-9ed8b1341771",
       "longDescription": "",
       "shortDescription": "Unable to delete or move a subscription that is currently tied to your Azure AD tenant.",
