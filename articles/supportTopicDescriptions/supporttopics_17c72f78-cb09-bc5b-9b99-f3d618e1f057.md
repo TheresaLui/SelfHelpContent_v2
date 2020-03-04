@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0f466c3a-c77a-24cc-a098-165b4f96c397",
+      "longDescription": "",
+      "shortDescription": "You have questions about the service automated backup capabilities",
+      "searchTags": "backup;automated backup",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
       "longDescription": "",
       "shortDescription": "You received the unknown MySQL server host error",
