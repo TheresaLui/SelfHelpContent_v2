@@ -5,7 +5,7 @@
                 ms.author="ambrahma"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32684016"
-                productPesIds="16221"
+                productPesIds="15621"
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="AzureData_AzureDatabaseforMySQL"
