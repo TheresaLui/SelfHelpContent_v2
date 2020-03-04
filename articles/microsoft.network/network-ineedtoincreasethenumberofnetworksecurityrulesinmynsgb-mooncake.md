@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="fde8c5f7-2c71-4082-b81b-faab13b2cf77"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I need to increase the number of Network Security rules in my NSG.

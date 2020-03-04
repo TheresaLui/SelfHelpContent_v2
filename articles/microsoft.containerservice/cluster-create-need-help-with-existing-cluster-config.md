@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="cluster-create-need-help-with-existing-cluster-config"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

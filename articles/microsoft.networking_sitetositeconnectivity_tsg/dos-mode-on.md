@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="bd4fa36d-b15b-4dd4-861b-e41e6647be89"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # DOS Mode On

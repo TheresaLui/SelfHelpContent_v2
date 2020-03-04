@@ -12,6 +12,7 @@
     productPesIds="16094"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
     articleId="c439cb2c-ac0f-4ab5-97e4-61df6c138ffb"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Configure a Point-to-Site Gateway for Azure VPN

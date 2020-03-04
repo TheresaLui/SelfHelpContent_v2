@@ -12,6 +12,7 @@
     productPesIds="16922"
     cloudEnvironments="public,fairfax,mooncake,blackforest"
     articleId="creating-a-secured-virtual-hub"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Creating a Secured Virtual Hub
 

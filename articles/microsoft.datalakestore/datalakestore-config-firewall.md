@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="0079886b-96b9-4e91-b1fa-640fbc2eec11"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot configuration issue - Issue with firewall settings

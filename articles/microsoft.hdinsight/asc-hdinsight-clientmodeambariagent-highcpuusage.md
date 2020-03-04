@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public, mooncake, blackforest, fairfax"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # We ran diagnostics on your resource and found an issue

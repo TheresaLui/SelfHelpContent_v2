@@ -13,6 +13,7 @@
 	articleId="cosmosdb-gremlin-limits"
 	displayOrder="182"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Azure Cosmos DB Gremlin limits
 Most users are able to resolve their Gremlin Limits issue using the steps below.

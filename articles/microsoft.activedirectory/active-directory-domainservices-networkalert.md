@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="14785,16576"
 	cloudEnvironments="public"
+	ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"
 />
 
 # Network Health Alert for Azure AD Domain Services

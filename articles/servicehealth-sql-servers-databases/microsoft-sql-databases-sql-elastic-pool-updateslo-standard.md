@@ -18,7 +18,7 @@
 <!--issueDescription-->
 <!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your SQL database resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->::
 
-Your database was unavailable due to a scaling operation or service tier change initiated on elastic pool {0}. Currently, Azure shows the downtime for your SQL database resource at a two-minute granularity. The actual downtime is likely less than a minute – average is 2s. 
+Your database was unavailable due to a scaling operation or service tier change initiated on elastic pool. Currently, Azure shows the downtime for your SQL database resource at a two-minute granularity. The actual downtime is likely less than a minute – average is 2s. 
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.

@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="32778701-5d5a-4606-9bb4-e654303cb36e"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Custom logs for Windows - Log data collected but not as expected

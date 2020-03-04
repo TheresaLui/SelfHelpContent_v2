@@ -9,10 +9,11 @@
 	supportTopicIds="32675638,32684531"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-gremlin-unsupported"
 	displayOrder="187"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Gremlin - Unsupported Features
 

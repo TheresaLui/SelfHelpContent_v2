@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="5b936215-dc2e-45df-b66d-d2214ae748a5"
+	ownershipId="AzureIdentity_B2B"
 /> 
 # Problem with Deleting directory other problem 
 ---

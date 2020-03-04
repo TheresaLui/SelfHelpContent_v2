@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     	articleId="fcc20773-d60d-41b9-af21-19e98ab4c7ba"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Installing Azure AD Connect: Issues with Azure AD

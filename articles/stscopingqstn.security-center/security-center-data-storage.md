@@ -10,6 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
 	articleId="6bc4e686-7ff5-4850-80dc-ac874cf2bee5"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Data and Storage Common Solutions

@@ -9,6 +9,7 @@
     productPesIds="14947" 
     cloudEnvironments="public"
     	articleId="ce5997d4-a807-4efc-8c95-28df566f87f0"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
  
 # Installing or configuring extensions for MFA service (cloud)  

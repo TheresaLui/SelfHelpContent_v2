@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16307"
 	cloudEnvironments="public, fairfax"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Migration Project and Activity Configuration

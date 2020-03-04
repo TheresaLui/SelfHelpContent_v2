@@ -11,6 +11,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="f5ffe804-63c0-43d1-a0b8-21ef09428560"
+	ownershipId="ASMS_Billing"
 />
 
 # third party services

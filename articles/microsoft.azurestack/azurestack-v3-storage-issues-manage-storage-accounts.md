@@ -10,8 +10,9 @@
     supportTopicIds="32663903"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="98f7cf90-94ad-4b2e-a03d-daec30be662b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack storage accounts management issues

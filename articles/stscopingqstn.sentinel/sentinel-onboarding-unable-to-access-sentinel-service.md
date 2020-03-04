@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-onboarding-unable-to-access-sentinel-service"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Unable to access the Azure Sentinel service

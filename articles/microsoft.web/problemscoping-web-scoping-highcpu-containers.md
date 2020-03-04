@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32583701"
 	productPesIds="16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
    schemaVersion="1"
    articleId="4146-474a-b467-2c84e613b369"
+	ownershipId="Compute_AppService"
 />
 
 # High CPU usage

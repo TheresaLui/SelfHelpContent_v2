@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="B01011DA-7565-4574-BD0C-35E9C749D8D1"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Issue deleting storage account
 ---

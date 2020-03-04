@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="4189c0da-9531-4c2e-ba4e-c3ec8f78ce35"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Conditional Access - Enforce compliance on Macs managed with Jamf Pro

@@ -11,6 +11,7 @@
     productPesIds="15570"
     cloudEnvironments="public"
  	articleId="microsoft.machinelearning.portal.workspacesetup"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # Create and manage Azure Machine Learning workspaces in the Azure portal

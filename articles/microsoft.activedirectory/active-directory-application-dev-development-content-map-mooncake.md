@@ -10,6 +10,7 @@
   resourceTags="registeredapps_allapps_button, registeredapps_singleapp_properties,directory_overview"
   displayOrder="45"
  	articleId="active-directory-application-dev-development-content-map-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems developing my application

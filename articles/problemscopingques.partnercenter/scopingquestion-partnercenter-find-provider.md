@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_find_provider"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Find Provider
 ---

@@ -11,6 +11,7 @@
 	productPesIds="14947"
 	cloudEnvironments="public"
 	articleId="084c1839-fa5f-4f04-83b8-1cca558142f0"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # server (phonefactor)/my issue is not listed

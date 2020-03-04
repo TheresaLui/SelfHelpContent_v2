@@ -10,6 +10,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="6223d52c-85e8-47c4-b110-1f2064cb5be8"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # My job consumes too many streaming units

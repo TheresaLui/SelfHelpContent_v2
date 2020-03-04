@@ -10,9 +10,10 @@
     supportTopicIds="32640019"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="b1b3e4d7-4361-4646-9c90-eab3079915a7"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Troubleshooting maximum connection limit in Azure Database for PostgreSQL
 

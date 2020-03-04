@@ -9,6 +9,7 @@
    cloudEnvironments="public, MoonCake, fairfax, Blackforest"
    schemaVersion="1"
    articleId="fb9dcbb1-f15b-4f2b-b9f4-913cac1534a3"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # VPN Gateway Issues under Virtual Network ticket path
 ---

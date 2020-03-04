@@ -13,7 +13,8 @@
 	supportTopicIds="32673608"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Troubleshooting errors while creating or deleting Database Migration Service instance

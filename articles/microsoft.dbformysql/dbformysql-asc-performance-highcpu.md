@@ -11,7 +11,8 @@
     diagnosticScenario="OrcasMySQLHighCPU"
     selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Server is facing high CPU usage
@@ -23,8 +24,8 @@ Thank you for contacting Microsoft support about your performance issues with yo
 ## **Recommended Steps**
 
 * Review *CPU percent* in the Metrics window of the portal. If CPU spikes correlate with times when you increased your query workload, consider scaling up vCores to increase compute.
-* Compare *Active Connections* and *CPU percent* side-by-side in the Metrics window. If your active connections increases correlate with CPU spikes, consider using a connection pooler between your application and MySQL server. Connection pooler would help optimize connection management.
-* Use the intelligent performance features for additional insights. For more information, visit the [Monitoring overview document](https://docs.microsoft.com/azure/mysql/concepts-monitoring)
+* Compare *Active Connections* and *CPU percent* side-by-side in the Metrics window. If your increases in active connections correlate with CPU spikes, consider using a connection pooler between your application and MySQL server. Connection pooler would help optimize connection management.
+* Use the Intelligent Performance features for additional insights. For more information, visit the [Performance Recommendations document](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
 
 ## **Recommended Documents**
 

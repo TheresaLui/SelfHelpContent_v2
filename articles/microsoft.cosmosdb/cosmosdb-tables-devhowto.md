@@ -13,6 +13,7 @@
 	articleId="cosmosdb-tables-devhowto"
 	displayOrder="300"
 	category="Azure Table"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Tables 

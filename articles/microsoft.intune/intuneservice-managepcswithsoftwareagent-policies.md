@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="8e841401-d67b-4769-8013-cc56b8d819af"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage PCs with Software Agent - Policies

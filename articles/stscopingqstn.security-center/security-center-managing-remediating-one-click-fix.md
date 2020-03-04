@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="ea513d2b-7808-4e24-82f0-db875422f12e"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center – Remediating recommendations – One-click fix recommendation

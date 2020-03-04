@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error ExtensionFailedVssServiceInBadState
@@ -25,3 +26,4 @@ We have detected that your VSS (Volume Shadow copy Service) service is in an inc
 ## **Recommended Steps**
 
 * Restart the VSS and retry the backup operation
+- To restart the VSS services please refer to the [documentation](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedvsswriterinbadstate---snapshot-operation-failed-because-vss-writers-were-in-a-bad-state)

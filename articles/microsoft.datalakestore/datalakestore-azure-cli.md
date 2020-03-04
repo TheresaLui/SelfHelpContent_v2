@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="80be40da-cadd-4cc6-a4ca-3de968cd9534"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # ADLS Gen1 - Need help with Azure CLI

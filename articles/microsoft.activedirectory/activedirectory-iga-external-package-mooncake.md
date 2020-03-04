@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-external-package-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Why is an external user's access package not being provisioned? 

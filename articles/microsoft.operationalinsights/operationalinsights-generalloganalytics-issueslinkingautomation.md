@@ -14,6 +14,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="a89bf446-83cb-4993-a918-7dbd139cf6d8"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Issues linking Automation account

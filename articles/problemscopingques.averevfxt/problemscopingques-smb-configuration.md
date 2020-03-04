@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="10116f6e-d5b3-4015-a9bf-f4feafb2e411"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Problems with SMB Configuration
 ---

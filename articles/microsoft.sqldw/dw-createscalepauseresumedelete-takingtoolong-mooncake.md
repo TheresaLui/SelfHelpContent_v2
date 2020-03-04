@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-createscalepauseresumedelete-takingtoolong-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Create/Scale/Pause/Resume/Delete database taking too long
 

@@ -10,8 +10,9 @@
     supportTopicIds="32629201"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-alerts-codeintegrity"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Code Integrity

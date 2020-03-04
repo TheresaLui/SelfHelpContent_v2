@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="e903d52b-9d86-8efb-9a66-0202f5586f0d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Guidance for deploying a data gateway for Power BI

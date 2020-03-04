@@ -8,7 +8,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="5c787abf-d198-4bc4-a2f9-4c940c70d8b1"
-    />
+    	ownershipId="AzureIdentity_EnterpriseApps"
+/>
 
 # Active Directory application access issue
 

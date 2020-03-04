@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments=""
 	articleId=""
+	ownershipId=""
 />
 
 # tools

@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="privatedns-cantcreaterecord"
+	ownershipId="CloudNet_DNS"
 />
 
 # I can't create a new DNS record

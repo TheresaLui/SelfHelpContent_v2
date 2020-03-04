@@ -12,6 +12,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="e42d3f43-c7fc-4ae7-884e-3907a47617c0"
+	ownershipId="AzureMessaging_Common"
 />
 
 # errors and exceptions

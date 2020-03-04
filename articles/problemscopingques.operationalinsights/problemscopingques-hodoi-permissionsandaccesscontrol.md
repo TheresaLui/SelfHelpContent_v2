@@ -10,6 +10,7 @@ supportTopicIds="32612439"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Permissions and access control (IAM)

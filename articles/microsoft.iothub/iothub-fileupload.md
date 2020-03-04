@@ -12,6 +12,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="e8c8696f-8eb2-4cc0-9ef8-0269133edfc0"
+	ownershipId="AzureIot_IotHub"
 />
 
 # IoT Hub file upload issues

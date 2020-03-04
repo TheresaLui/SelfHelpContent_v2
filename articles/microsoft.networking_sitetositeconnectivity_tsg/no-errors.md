@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="4eb89748-4cf8-45f5-9b97-3922de8fffde"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # No IKE negotiation packets observed on the logs

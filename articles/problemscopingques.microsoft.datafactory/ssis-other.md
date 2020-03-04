@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
     supportTopicIds="32629549, 32629522"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     articleId="15245096-3EB3-472A-8EBB-B1C5E30EF8C2"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure-SSIS Related Issue

@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32583169"
 resourceTags=""
 productPesIds="16263"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="eg-publisherissues"
 schemaVersion="1"
+	ownershipId="AzureEventGrid_Topics"
 />
 # Publisher issues
 ---

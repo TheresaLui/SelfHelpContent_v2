@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="f404ebf7-c7c6-4933-9547-d6cfcb413c59"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # IoT Hub - IoT Onboarding & Setting

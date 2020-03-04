@@ -12,7 +12,8 @@
     productPesIds="16579"
     cloudEnvironments="public"
     articleId="16cc49d9-a659-4f67-aa2c-c8ff7f702bb6"
-     />
+     	ownershipId="AzureIdentity_SignIn"
+/>
 
 # Risk mitigation (such as password reset and dismissal)
 

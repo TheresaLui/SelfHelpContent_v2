@@ -11,6 +11,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public"
 	articleId="62c817e5-2d9c-4fce-ab94-55491ce7aed5"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # setup and configuration/assistance in setting up sql vm

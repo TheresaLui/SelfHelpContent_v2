@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="90e771d6-e07b-4b7a-a550-5979fcf25d6b"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # sql administration/automated patching

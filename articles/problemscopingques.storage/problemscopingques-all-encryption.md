@@ -9,6 +9,7 @@
 	productPesIds="15629,16459,16598,16460"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Storage Encryption Issues
 ---

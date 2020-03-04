@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="ac52a26c-bb4f-4dc5-bfb1-0bfd0ea9b489"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SQL database restore performance
 ---

@@ -12,6 +12,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="8a31eced-24b8-4bb8-959c-942ee038b006"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Troubleshoot and resolve Azure Blob Storage connectivity errors

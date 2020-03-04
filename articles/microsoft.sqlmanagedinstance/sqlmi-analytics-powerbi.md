@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
     articleId="fce8eb20-3991-47a2-836a-20c66464fd1d"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # PowerBI

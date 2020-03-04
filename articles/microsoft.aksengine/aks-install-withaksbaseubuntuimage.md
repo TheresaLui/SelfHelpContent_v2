@@ -10,8 +10,9 @@
     supportTopicIds="32689846"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="aks-install-withaksbaseubuntuimage"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues with AKS Base Ubuntu Image

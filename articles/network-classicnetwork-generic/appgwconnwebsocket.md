@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="connectivity-web-socket"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Connectivity WebSocket

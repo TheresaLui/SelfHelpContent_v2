@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="unexpectedcharges-myissueisnotlistedabove"
+	ownershipId="ASMS_Billing"
 />
 
 # Unexpected Charges-my issue is not listed above

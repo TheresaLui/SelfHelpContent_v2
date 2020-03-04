@@ -10,8 +10,9 @@
     supportTopicIds="32639981"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="3b2cdd35-8f48-40b3-88de-ea7c22c0bdb7"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Managing firewall rules for Azure Database for PostgreSQL

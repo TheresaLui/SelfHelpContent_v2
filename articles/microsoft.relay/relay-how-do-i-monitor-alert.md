@@ -10,8 +10,9 @@
     supportTopicIds="32684544"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="relay-how-do-i-monitor-alert"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Azure Relay

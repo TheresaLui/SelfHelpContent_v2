@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629483, 32629491"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="BE3D6801-3F87-41BC-ACF9-B9DA8A86C55C"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Factory Pipeline Info

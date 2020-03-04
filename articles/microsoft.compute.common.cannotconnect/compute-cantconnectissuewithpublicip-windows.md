@@ -10,8 +10,9 @@
     supportTopicIds="32615527,32639641"
     resourceTags=""
     productPesIds="14749,14745"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="6ce39c44-2a32-41c2-a8ce-7dedc93e6619"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # I have an issue with my public IP

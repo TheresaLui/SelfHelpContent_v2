@@ -13,6 +13,7 @@
 	articleId="cosmosdb-sdk-error-unexpected-result"
 	displayOrder="284"
 	category="SDK (SQL API) Issues"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # SDK - Error or unexpected result

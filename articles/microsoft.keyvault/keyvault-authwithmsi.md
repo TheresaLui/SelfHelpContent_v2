@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-authwithmsi"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Azure Key Vault Authentication with Managed Service Identity

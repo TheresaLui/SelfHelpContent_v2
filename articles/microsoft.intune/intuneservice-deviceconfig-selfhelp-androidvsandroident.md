@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="374b7a53-b360-4dcc-8488-8bb779af258f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # What is the difference between an Android and Android Enterprise?

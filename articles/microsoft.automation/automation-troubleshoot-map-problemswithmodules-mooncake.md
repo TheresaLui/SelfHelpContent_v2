@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="MoonCake"
 	articleId="automation-troubleshoot-map-problemswithmodules-mooncake"
+	ownershipId="Compute_Automation"
 />
 
 # Problems working with PowerShell modules

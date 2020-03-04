@@ -9,6 +9,7 @@
 	cloudEnvironments="public,MoonCake,FairFax"
 	schemaVersion="1"
 	articleId="055ce476-f2e2-4285-8a03-0b86fbe2ee97"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # Files migration with AzCopy

@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640013"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-scaleresource-pricepurchase"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scaling a resource - Pricing tiers and purchasing model (vCores, storage, etc.)
 ---

@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="5b282ff7-5a29-493b-a40e-4d5be32b8303"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems configuring location-based conditional access

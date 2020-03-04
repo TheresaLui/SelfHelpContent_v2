@@ -12,7 +12,8 @@
     supportTopicIds="32677620"
     resourceTags=""
     productPesIds="16250"
-    cloudEnvironments="public,fairfax,mooncake"
+    cloudEnvironments="public,fairfax,mooncake,blackforest"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-chart-problem-not-listed -->

@@ -10,8 +10,9 @@
     supportTopicIds="32629204"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="56cf3a36-1849-4a3a-9ed1-4836fa1cd85b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Network Devices

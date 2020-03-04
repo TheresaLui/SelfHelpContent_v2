@@ -10,8 +10,9 @@
     supportTopicIds="32629194"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-deployment-failure"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Deployment Failure

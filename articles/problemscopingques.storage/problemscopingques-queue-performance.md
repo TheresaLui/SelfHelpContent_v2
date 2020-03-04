@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="c3546c6d-ca17-4469-b00a-5a84d061d33d"
+	ownershipId="StorageMediaEdge_StorageQueues"
 />
 # Performance issue on table
 ---

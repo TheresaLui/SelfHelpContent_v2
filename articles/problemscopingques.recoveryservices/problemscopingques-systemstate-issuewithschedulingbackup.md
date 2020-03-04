@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="bdb1bfbf-d4fc-4dba-aca7-33cecf8e881f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Configuration - issues with scheduling backup
 ---

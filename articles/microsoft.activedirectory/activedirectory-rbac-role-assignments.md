@@ -13,6 +13,7 @@
     resourceTags=""
     productPesIds="16986"
     cloudEnvironments="public"
+	ownershipId="AzureIdentity_Authorization"
 />
 
 # Azure Active Directory: Problems with RBAC role assignments

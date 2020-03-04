@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="53d77c96-c4cd-4d04-a252-870c216e9ae3"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # wiredata-other

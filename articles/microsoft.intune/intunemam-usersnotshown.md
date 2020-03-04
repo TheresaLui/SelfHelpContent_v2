@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
  	articleId="5ee1a335-5d4a-4b0e-a29c-b99c4f27397c"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # App reporting by user does not show new targeted users for the app protection policy.

@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="6df29dc6-ca96-491c-ba3c-62d093e7ca9c"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # My clone job is not completing.

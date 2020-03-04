@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="65aaaaf4-9552-45d3-8769-4b39f58a0bb5"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Problem with Graph API documentation 
 ---

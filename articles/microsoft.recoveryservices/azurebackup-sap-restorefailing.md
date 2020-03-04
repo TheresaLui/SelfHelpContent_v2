@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="269720f8-523e-42f0-a577-8af0e987abb5"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # When faced with issues during SAP HANA restore follow these troubleshooting steps

@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="b21e6e00-206c-4efc-aeb3-bc9ff01e102b"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # How do I provision HDInsight or Data Lake Analytics with Data Lake Store?

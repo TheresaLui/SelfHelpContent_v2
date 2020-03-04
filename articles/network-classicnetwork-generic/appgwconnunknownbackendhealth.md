@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="unknown-backend-health"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Unknown Backend Health

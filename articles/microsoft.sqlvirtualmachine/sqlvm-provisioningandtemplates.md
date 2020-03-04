@@ -12,6 +12,7 @@
 	resourceTags="WindowsSQL"
 	productPesIds="14745, 16342"
 	cloudEnvironments="public,fairfax"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # vm management/provisioning and templates

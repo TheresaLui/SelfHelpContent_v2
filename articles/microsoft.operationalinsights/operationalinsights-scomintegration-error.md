@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="45a53683-f9cd-44bc-ae13-f845ac918381"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # scomintegration-error

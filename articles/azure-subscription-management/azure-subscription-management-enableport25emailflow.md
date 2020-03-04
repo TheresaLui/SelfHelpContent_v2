@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="requesttoenableport25emailflow"
+	ownershipId="ASMS_SubscriptionManagement"
 />
  
 # Request to enable Port 25 email flow

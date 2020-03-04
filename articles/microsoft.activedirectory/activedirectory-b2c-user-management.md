@@ -12,6 +12,7 @@
 	productPesIds="16580"
 	cloudEnvironments="public"
 	articleId="4ae814d3-0dc5-4987-b830-ec784cc61b03"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Business to Consumer (B2C)

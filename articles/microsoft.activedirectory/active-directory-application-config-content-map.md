@@ -9,6 +9,7 @@
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp,directory_overview"
   displayOrder="107"
  	articleId="345cb024-132f-483f-9286-a7348ef1f8d0"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems adding or configuring applications

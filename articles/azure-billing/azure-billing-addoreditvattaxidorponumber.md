@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="billing-addoreditvattaxidorponumber"
+	ownershipId="ASMS_Billing"
 />
 
 # Add or edit vat tax id or po number

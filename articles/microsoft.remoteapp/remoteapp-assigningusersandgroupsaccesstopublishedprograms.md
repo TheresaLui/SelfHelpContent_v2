@@ -11,6 +11,7 @@
 	productPesIds="15540"
 	cloudEnvironments="public"
 	articleId="9095d0ba-61e7-41a5-9322-92ca15daa904"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # remoteapp deployment/assigning users and groups access to published programs

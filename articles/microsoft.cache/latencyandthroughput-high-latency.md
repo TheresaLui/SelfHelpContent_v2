@@ -12,6 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="eb547396-c894-4092-8f73-d0c3084b7b66"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # High latency with Azure Cache For Redis
