@@ -10,9 +10,10 @@
     supportTopicIds="32636050,32688708,32688711,32688712"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="1d0baad2-c201-4369-9513-233dfa2b6b6b"
     schemaVersion="1"
+	ownershipId="Compute_AzurePolicy"
 />
 # Policy behavior not as expected
 ---

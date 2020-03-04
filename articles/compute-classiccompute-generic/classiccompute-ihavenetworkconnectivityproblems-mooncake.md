@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="b2f9e69c-3690-4733-a6ea-83f06b171bbe"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I have network connectivity problems

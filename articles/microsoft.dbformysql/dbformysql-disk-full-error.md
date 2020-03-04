@@ -13,7 +13,8 @@
 	supportTopicIds="32628367, 32628369"
 	resourceTags="windows, linux"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Orcas MySQL Server marked read-only because the server storage is full

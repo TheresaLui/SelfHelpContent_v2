@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="503eb388-0e15-49bb-aa85-3f9a288d2ba1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check if customer is using a supported device

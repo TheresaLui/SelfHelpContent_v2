@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="d4295119-cb4d-495f-b99f-df8e109b4689"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Delete Virtual Cluster

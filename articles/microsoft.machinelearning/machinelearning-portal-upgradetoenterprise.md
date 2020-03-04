@@ -11,6 +11,7 @@
     productPesIds="15570"
     cloudEnvironments="public"
  	articleId="microsoft.machinelearning.portal.workspaceupgrade"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # Upgrade to Enterprise edition in the Azure portal

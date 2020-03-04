@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-authcreateserviceprincipal2"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Azure Key Vault Create Service Principal

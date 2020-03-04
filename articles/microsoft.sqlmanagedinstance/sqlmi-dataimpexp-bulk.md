@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="1e3d1a25-46c9-4f7b-8298-804e38f4fe2a"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Troubleshoot loading from Azure blob storage

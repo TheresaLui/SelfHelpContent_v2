@@ -12,6 +12,7 @@ supportTopicIds="32612432"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 articleId="043ce96a-9ea9-4d78-a8ce-7336a0fb2799"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Integration Issues: Azure Security Center

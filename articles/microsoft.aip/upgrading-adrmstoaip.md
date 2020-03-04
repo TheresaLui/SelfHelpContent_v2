@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Upgrading_ADRMS_TO_AIP"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection  - Upgrading and Migration -Migrate from AD RMS to AIP

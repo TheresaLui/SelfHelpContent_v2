@@ -10,8 +10,9 @@
     supportTopicIds="32640026"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="89289f69-ddd4-4d91-9c70-06ed05412763"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Troubleshoot query execution problems in Azure Database for PostgreSQL

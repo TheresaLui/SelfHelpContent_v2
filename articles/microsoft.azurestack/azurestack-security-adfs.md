@@ -10,8 +10,9 @@
     supportTopicIds="32629187"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-security-adfs"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack AD FS

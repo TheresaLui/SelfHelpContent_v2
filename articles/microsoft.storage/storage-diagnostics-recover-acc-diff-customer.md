@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Storage Account Recovery

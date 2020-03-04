@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="9c2d334d-d461-4fa5-b93c-9d44a1e0c759"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Request for Throughput Unit Increase or Decrease

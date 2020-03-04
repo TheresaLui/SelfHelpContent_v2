@@ -6,9 +6,10 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32608935, 32608936, 32608945, 32608946, 32608953, 32608955, 32608960, 32608963"
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-cluster-arm-template-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # ARM Templates
 ---

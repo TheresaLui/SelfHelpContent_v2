@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="iothub-directmethod-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # IoT Hub direct method issues  

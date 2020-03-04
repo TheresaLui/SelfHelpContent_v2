@@ -13,6 +13,7 @@
     productPesIds="15725"
     cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 	articleId="dcc77a22-c4f2-4839-853a-c51a13462181"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/OMS agent: Crashing

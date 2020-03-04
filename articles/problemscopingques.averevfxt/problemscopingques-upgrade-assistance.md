@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="99351f36-63b1-45ee-bb58-b21654f802f2"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Upgrade Assistance Request
 ---

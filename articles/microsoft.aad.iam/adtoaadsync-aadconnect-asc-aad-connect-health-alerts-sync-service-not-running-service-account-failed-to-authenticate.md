@@ -13,6 +13,7 @@ pageTitle="Azure AD Connect sync service is not running. The Service account fai
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure AD Connect sync service is not running. The Service account failed to authenticate.

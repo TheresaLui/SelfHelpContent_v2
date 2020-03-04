@@ -15,6 +15,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	  articleId="operationalinsights-generalloganalytics-problemcreatingworkspace-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Problems While Creating Workspace

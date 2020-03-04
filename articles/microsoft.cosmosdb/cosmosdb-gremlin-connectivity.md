@@ -13,6 +13,7 @@
 	articleId="cosmosdb-gremlin-connectivity"
 	displayOrder="188"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Connectivity Issues

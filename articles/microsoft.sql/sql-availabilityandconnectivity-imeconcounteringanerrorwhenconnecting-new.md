@@ -12,6 +12,7 @@
 	cloudEnvironments="public,blackForest,fairfax"
     resourceTags="servers, databases"
 	articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Diagnose and resolve issues connecting to Azure SQL Database

@@ -9,8 +9,9 @@
 	supportTopicIds="32565476"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="78d8ddfd-f265-4a78-ae69-7514b854ee36"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/Deployment/Deployment taking longer

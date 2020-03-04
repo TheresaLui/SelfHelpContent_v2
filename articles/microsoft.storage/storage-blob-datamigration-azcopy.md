@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Blob Data Migration with AzCopy

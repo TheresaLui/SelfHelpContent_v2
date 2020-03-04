@@ -13,6 +13,7 @@ pageTitle="AAD Connect database(s) are running out of space"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AAD Connect database(s) are running out of space

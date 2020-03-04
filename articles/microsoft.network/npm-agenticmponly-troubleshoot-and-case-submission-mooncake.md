@@ -12,6 +12,7 @@
 	productPesIds=""
     articleId="npm-agenticmponly-troubleshoot-and-case-submission-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Node shows supported protocol as ICMP only in the Nodes page

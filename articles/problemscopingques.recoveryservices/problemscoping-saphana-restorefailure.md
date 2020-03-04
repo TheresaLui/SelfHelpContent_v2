@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="cc2bea57-b728-43a9-a8e1-317dfd55ab07"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SAP HANA restore failure
 ---

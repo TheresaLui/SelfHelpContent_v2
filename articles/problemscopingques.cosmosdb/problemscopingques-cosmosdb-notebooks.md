@@ -9,6 +9,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 	articleId="5d7910a2-c285-4b48-a736-2b928d5cc331"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB Notebooks Issues
 ---

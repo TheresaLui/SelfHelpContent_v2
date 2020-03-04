@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # The Active Directory account password has been changed but it has not been updated on the synchronization service AD DS connector

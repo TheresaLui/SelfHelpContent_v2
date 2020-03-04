@@ -12,6 +12,7 @@
 	resourceTags=""
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="storage_common_encryption_tls1.2_enabled"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot issues connecting to Storage service over Azure Private Endpoints

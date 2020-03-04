@@ -10,6 +10,7 @@
 	supportTopicIds="32637306"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # SQL Database Managed Instance
 ---

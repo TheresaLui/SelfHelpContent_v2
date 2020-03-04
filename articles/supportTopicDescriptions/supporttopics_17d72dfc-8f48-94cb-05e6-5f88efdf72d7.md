@@ -2,7 +2,7 @@
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, srinathv"
+  ms.author="akankshajsh, v-kraku"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -160,11 +160,11 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
+      "id": "290d4e28-c993-9f20-bdcb-8a91c163d14e",
       "longDescription": "",
-      "shortDescription": "Issue with configuring backup for a SAP HANA database",
-      "searchTags": "Timeout;Stop protection",
-      "category": "Configure",
+      "shortDescription": "For queries only related to product functionality and supported or unsupported. For failures use other available support topics. ",
+      "searchTags": "Price;How-to-configure;Pre-registration script;Discovery",
+      "category": "Advisory",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -210,10 +210,10 @@
     {
       "id": "412bbd3b-d2a8-cd79-b614-5dec72dab528",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure files",
+      "searchTags": "Backup;Restore",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "442e8b71-0da4-f68c-9943-68da5a2d36b7",

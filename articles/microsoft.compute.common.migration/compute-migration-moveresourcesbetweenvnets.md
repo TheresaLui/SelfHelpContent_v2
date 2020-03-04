@@ -10,11 +10,14 @@
 	supportTopicIds="32678707"
 	resourceTags="windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="f199d6aa-4778-404c-aa19-2f2ab1fda09b"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Migration and Move/Move resources between VNETs
+
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
 ## **Recommended Documents**
 

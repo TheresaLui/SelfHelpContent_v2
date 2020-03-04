@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="ae2fda04-195d-4bd5-8c93-96e3ca3c425b"
+	ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"
 />
 # Problem with AAD Domain services other questions 
 ---

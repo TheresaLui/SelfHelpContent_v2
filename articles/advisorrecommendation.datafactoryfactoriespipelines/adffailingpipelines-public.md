@@ -6,6 +6,7 @@
     articleId="f6e3ad9c-5d58-48ba-b06b-ebffba60dd18_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_DataFactory"
 />
 # Delete failing ADF pipelines
 ---

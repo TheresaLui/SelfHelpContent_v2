@@ -12,6 +12,7 @@
 	productPesIds="16668"
 	cloudEnvironments="public"
 	articleId="ffaf0234-a226-4d27-9d81-e384ebf2851d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # GitHub Notification Issues

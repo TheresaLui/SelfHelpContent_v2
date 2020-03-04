@@ -14,6 +14,7 @@
 	resourceTags="linux"
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Deployment Failure Errors

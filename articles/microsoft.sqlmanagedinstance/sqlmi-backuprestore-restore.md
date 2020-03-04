@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="b15059cf-640d-472e-887b-694eb3107c40"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # Restore a managed instance database from Blob Storage
 

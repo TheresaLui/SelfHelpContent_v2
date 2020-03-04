@@ -11,6 +11,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public"
 	articleId="349d34f0-e6b3-4132-aeee-5261602387dd"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # My storage service is slow

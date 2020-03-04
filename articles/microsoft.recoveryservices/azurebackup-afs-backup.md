@@ -11,6 +11,7 @@
                 productPesIds="15207"
                 cloudEnvironments="public"
 	articleId="47609c1a-b86e-45cb-92da-93c5a68b4d9a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 

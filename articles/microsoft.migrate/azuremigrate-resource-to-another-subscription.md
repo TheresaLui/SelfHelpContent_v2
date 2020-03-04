@@ -10,8 +10,9 @@
     supportTopicIds="32675751"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="0d28e894-64c9-495e-91de-540824dab021"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Resource move to another subscription

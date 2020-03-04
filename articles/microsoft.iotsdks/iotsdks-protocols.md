@@ -11,6 +11,7 @@
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="2a17efab-5abf-4a7c-b7e1-be3570bb5ed7"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Protocol issues

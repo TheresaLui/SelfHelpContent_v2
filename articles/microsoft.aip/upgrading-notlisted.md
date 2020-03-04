@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Upgrading_Not_Listed"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection  - Upgrading and Migration - My upgrade or migration scenario is not listed

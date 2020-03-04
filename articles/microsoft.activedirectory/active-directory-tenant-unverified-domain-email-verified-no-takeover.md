@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Domain is verified in an email-verified directory

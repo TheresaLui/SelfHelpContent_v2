@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="04de40cc-1d79-4388-b341-e6cf928aa716"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Analyze Allowed/Blocked Traffic in WAF

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="activedirectory-aadconnect-sync-aadconnectupgrade-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to upgrade Azure AD Connect to the latest version

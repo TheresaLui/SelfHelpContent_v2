@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="3ea46eec-8428-cf58-1d8d-1f73468ae517"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Get an Azure AD access token for your Power BI application

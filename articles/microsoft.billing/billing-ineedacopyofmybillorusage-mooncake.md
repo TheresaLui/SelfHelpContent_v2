@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="billing-ineedacopyofmybillorusage-mooncake"
+	ownershipId="ASMS_Billing"
 />
 
 # I need a copy of my bill or usage

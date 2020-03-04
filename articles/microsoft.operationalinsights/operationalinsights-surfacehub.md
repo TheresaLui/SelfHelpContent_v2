@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="25e0111f-f032-40be-b5eb-7f46139e5194"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # surfacehub

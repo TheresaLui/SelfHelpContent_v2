@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error ExtensionOperationFailed

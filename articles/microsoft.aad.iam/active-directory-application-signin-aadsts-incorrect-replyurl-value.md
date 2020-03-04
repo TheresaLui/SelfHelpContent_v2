@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Configuration issue preventing user sign-in

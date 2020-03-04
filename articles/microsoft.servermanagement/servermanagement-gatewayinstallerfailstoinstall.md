@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
 	articleId="27004d50-d9ff-4ad9-a2f0-9fdd52254b4f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Gateway installer fails to install

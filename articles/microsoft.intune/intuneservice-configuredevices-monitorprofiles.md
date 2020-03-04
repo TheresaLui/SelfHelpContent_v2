@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="57032631-714d-45e6-8eef-5ce571bcdce5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Monitor Profiles

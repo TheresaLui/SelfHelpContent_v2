@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-portalandclienttools-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Using portal and client tools

@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="95844536-f669-43e4-873c-5c1af6f4310d"
-    />
+    	ownershipId="ASEP_ContentService_Placeholder"
+/>
 # Problem with AAD B2C user management 
 ---
 {

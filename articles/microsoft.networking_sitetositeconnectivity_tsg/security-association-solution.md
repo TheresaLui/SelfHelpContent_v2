@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="90b1090f-9ce2-4d1d-8408-e818b8566eed"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Security Association Limitation

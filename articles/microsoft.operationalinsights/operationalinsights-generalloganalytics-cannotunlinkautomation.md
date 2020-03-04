@@ -14,6 +14,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="17ae1c05-dffc-435d-a9e3-5a0b987cd3a5"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Cannot unlink Automation account

@@ -10,8 +10,9 @@
     supportTopicIds="32640133"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="514bff68-73ca-4468-9de4-d04a8ec844d2"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Managing server parameters in Azure Database for MariaDB

@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="ccf5c838-b5b3-4d04-b811-a9f0b9ac19c8"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Bacpac import

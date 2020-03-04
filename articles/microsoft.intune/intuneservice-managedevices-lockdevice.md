@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="dc742867-e6bf-4961-a8ea-dc2ee32cfe12"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Lock Device

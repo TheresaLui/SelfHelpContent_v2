@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-mars-monitor-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 

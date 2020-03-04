@@ -10,8 +10,9 @@
 	supportTopicIds="32411875"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="55e5b484-ddbe-497f-bd1d-9adcb30216f8"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # Diagnose and resolve Linux Virtual Machine performance issues

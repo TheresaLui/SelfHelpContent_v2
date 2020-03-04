@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="0fa6792f-d858-4d5e-9c15-567746c21c40"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Intune - Add Groups

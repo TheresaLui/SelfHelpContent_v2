@@ -11,6 +11,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="40cf8bd8-e8e7-4632-a1b9-d8a238140f5b"
+	ownershipId="AzureData_AzureDatabricks"
 /> 
 
 # Azure Databricks DBFS and Database

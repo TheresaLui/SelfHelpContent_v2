@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Sign-In issues into Azure AD with AD FS due to improper IssuerID claim rule

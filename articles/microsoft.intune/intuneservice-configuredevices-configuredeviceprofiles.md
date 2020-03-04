@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="8513408e-896d-47f1-b4e3-6824e14fba59"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Configure device profiles

@@ -13,6 +13,7 @@
 	articleId="cosmosdb-optimizing-cost"
 	displayOrder="42"
 	category="General Advisory"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB - Optimizing costs

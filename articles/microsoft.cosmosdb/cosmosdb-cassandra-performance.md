@@ -13,6 +13,7 @@
 	articleId="cosmosdb-cassandra-performance"
 	displayOrder="145"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Cassandra API Performance

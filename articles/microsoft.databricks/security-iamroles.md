@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="1c73a71c-111f-4375-9bda-0937354a5055"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with IAM Roles

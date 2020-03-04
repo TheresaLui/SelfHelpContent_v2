@@ -11,7 +11,8 @@
     diagnosticScenario="OrcasMySQLPerfOutofMemory"
     selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Server is facing out of memory errors

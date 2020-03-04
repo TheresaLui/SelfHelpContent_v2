@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="6fc89d33-6f9c-4643-93eb-4fa27554df07"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # networkperformancemonitor-error

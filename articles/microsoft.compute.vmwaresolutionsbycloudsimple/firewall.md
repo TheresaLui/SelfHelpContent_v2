@@ -12,6 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="8e16284c-b286-49aa-9e37-28219d677f74"    
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting firewall table and rules 

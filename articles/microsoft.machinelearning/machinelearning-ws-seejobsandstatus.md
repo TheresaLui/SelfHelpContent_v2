@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
  	articleId="0e2a23c1-ec09-4d93-9366-abc3d3dfbd13"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # How do I see a list of running jobs against my web service and their status?

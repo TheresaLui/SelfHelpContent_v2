@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="ecb447e7-b08d-4b58-984a-5fbd814ac661"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Problems with Avere vFXT Networking
 ---

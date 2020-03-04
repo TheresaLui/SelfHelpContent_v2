@@ -12,6 +12,7 @@
 	productPesIds="16957"
 	cloudEnvironments="public"
 	articleId="cd4c5241-4b0b-4650-afa8-0bd6c03418d1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Dynamics 365 Business Central API issues

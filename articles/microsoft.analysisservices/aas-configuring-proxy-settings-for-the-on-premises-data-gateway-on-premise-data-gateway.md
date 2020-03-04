@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="66ebe09e-bcc9-50a9-f46f-c988954664a5"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Configuring proxy settings for the On-premises data gateway

@@ -15,6 +15,7 @@
 	resourceTags="mpn"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Purchase and renewal of MAPS and competencies
 

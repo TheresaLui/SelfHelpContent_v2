@@ -11,6 +11,7 @@
 	supportTopicIds="32565569"
 	cloudEnvironments="public, MoonCake"
 	articleId="1643aeac-0b65-40c4-a4e3-815a4fd90fcf"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage My Hub/How do I achieve disaster recovery

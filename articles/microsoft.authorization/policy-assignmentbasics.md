@@ -12,6 +12,7 @@
     productPesIds="16456"
     cloudEnvironments="public, MoonCake, fairfax"
     articleId="6a0680da-ed3f-412c-bb93-30e00cfd477c"
+	ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Policy assignment basics

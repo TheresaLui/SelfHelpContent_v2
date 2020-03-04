@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="1003281"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AnalysisServicesTransientStateInsight

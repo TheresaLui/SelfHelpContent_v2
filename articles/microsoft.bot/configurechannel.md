@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="E5DC946E-0FB9-40D6-B0EA-351D3C8AF16D"
+	ownershipId="Compute_BotService"
 />
 # Cannot configure a channel
 

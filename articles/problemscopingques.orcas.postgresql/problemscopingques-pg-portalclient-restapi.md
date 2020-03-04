@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640017"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-portalclient-restapi"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Portal, Client Tools and APIs - Rest API
 ---

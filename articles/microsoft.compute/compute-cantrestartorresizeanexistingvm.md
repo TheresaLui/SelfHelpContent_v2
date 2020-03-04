@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1cf1dd0b-8bde-4432-a753-6e800568aa29"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I can't restart or resize an existing VM

@@ -12,6 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     articleId="dddb7941-2575-427e-ade8-e64d57c91083"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Passwordless (Microsoft Authenticator)

@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="2a61b4a8-67fa-417e-afe5-096cfc047dac"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Custom Health Probes

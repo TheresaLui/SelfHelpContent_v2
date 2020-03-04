@@ -10,8 +10,9 @@
     supportTopicIds="32640123"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="81e2e675-78c6-4d02-a363-a6c8f215c0c3"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Connection issues to Azure Databases for MariaDB
