@@ -16,6 +16,8 @@ The customer is not able to connect from their on-premises resources to resource
 
 ## **Recommended Steps**
 
-1. Resolve the customer's site-to-site connectivity issue to the resources in the VNet that has the VPN site-to-site gateway using the [Site-to-site TSG](https://aka.ms/VpnS2sConnectivityTSG)
-2. Come back to this [Vnet Peering TSG](https://aka.ms/VNetPeeringTSG) when the site-to-site issue is resolved
+1. In the ASC Overview page, select the 'Edit and Run again' button
+2. Update the Support Area Path (Support Topic) with the appropriate VPN S2S Connectivity option
+3. Use the S2S TSG in ASC to resolve the customer's site-to-site connectivity issue.
+4. If the issue still persists, use 'Edit and Run again' to update the Support Area Path (Support Topic) back to VNet Peering and use this TSG again.
 
