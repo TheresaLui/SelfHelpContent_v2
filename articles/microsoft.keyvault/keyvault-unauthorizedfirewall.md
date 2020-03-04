@@ -20,7 +20,7 @@
 # You have Key Vault recommendations
 
 <!--issueDescription-->
-The key vault '<!--$Vault-->Vault<!--/$Vault-->' has denied access to a user or application in the time range you have entered since the user or application was not allowed through the Key Vault firewall 
+The key vault has denied access to a user or application in the time range you have entered since the user or application was not allowed through the Key Vault firewall 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
