@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "35b2c0e0-1fa1-e0a1-d37f-ee363cdb0585",
+      "longDescription": "",
+      "shortDescription": "You have a problem with AADConnect Health alerts for AAD Domain Services (DS)",
+      "searchTags": "AAD DS;AAD Domain Services;Connect Health alerts for DS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b940667a-fb5b-0326-e9e7-ffce2b932211",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for syncing from AAD",
