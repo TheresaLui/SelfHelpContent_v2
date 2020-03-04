@@ -51,6 +51,7 @@
                 "jTokenPath": "resourceTypes[?(@.resourceType == 'locations')]",
                 "textProperty": ".",
                 "valueProperty": ".",
+				"valuePropertyRegex": "^*$",
 				"defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
