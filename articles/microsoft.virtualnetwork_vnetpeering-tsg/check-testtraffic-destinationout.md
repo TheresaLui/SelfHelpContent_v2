@@ -9,7 +9,6 @@
 	cloudEnvironments="public"
 	articleId="448c12c5-1e26-45d4-b9b6-c707e4e7ecb5"
 />
-
 # Check Azure platform nsg & routing from *destination to source*
 
 Use the 'Test Traffic' utility to check for blocking Network Security Group Rules (NSGs) and Routing Rules **leaving the destination** out to the source VM. (You will leverage the same 'source' and 'destination' VMs as in the previous step. The VMs you labeled as 'source' and 'destination' will maintain that designation for this step)
