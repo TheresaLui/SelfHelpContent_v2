@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "425fc0e3-ffe8-dd81-62d8-3055adac7615",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring your server, metrics displayed in the Azure portal, or configuring metric alerts",
+      "searchTags": "monitoring server;monitoring metrics;configuring metrics",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
