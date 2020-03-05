@@ -16,7 +16,7 @@
 	"$schema": "SelfHelpContent",
 	"subscriptionRequired": true,
 	"resourceRequired": false,
-	"title": "Cosmos-DB-Quota",
+	"title": "MySql-Quota",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
@@ -51,7 +51,7 @@
                 "jTokenPath": "resourceTypes[?(@.resourceType == 'locations')]",
                 "textProperty": ".",
                 "valueProperty": ".",
-				"valuePropertyRegex": "^*$",
+				"valuePropertyRegex": ".*",
 				"defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
