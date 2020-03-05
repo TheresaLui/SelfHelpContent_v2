@@ -15,7 +15,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "97172837-e5ea-45b2-af3b-cadbf428a6d9",
   "dataSourceMetadata": {
-    "streamNamespace": "AzureStorage.Data.AzureStorageAdvisorUseLatestVersionSDK_AllRole_Fairfax",
+    "streamNamespace": "AzureStorage.Data.AzureStorageAdvisorUseLatestVersionSDK_AllRole_FairfaxV2",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
