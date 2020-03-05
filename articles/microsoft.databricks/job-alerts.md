@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="5ca6220e-e35c-4150-b8a3-7f9df4a2a626"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Job alerts

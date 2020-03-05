@@ -10,8 +10,9 @@
     supportTopicIds="32599936"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="5d1543dc-bc0e-4c3c-877a-6b9d51845425"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Unexpected Installation of Updates
@@ -22,7 +23,7 @@ This article will help you understand when and why updates are installed.
 
 ### **Machines update without an update deployment**
 
-* If machines are receiving updates without an update deployment, please see the note under ["Install Updates" of the Update Management overview document](https://docs.microsoft.com/azure/automation/automation-update-management#install-updates).
+* See the troubleshooting guide ["Scenario: Updates install without a deployment"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#updates-nodeployment)
 
 
 ## **Recommended Documents**

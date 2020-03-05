@@ -6,6 +6,7 @@
     articleId="58d6648d-32e8-4346-827c-4f288dd8ca24_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Upgrade the standard disks attached to your premium-capable VM to premium disks (Preview)
 ---
@@ -16,7 +17,7 @@
   "recommendationTypeId": "58d6648d-32e8-4346-827c-4f288dd8ca24",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "azurestorage.data.storageadvisorstandardtopremiummigrationrandomsamplepubliccloud",
+    "streamNamespace": "azurestorage.data.storageadvisorstandardtopremiummigrationpublic",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },

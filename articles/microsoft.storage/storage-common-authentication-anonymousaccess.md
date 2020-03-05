@@ -12,6 +12,7 @@
 	productPesIds="15629,16459,16461,16462,16598"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="ae4c4f50-668d-4d89-8a44-214c9bd77db6"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot and resolve Azure Storage access issues with Anonymous Access

@@ -11,6 +11,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="9d52d88a-4e1a-47b1-a716-15a27b54a059"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Azure Databricks Account Management

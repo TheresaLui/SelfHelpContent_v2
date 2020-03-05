@@ -12,7 +12,7 @@
     productPesIds="16094"
     cloudEnvironments="public, fairfax, blackforest, mooncake"
     articleId="vpngw-configpointtositeclient"
-    OwnershipId="CloudNet_AzureVPNGateway"
+	  ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure a Point-to-Site client
 

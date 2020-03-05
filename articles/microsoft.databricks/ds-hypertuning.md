@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="1b809419-7420-4c8d-8894-dc51f0bfa104"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Data Science Hypertuning Articles

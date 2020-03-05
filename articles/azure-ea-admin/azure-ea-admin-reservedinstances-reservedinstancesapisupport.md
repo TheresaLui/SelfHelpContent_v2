@@ -2,18 +2,19 @@
 	pageTitle="Reserved instances API support"
 	description="Providing information about using Azure APIs to get information about Azure service"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="32cc87d0-c935-47d1-8c96-02b922b84592"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615282"
+	supportTopicIds="32688691"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Reserved instances API support

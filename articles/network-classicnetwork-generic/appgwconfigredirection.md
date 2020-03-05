@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="configure-redirection"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Redirection

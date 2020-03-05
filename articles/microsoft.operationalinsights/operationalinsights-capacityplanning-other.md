@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="fcf2d71f-924e-4993-b87e-d1547e1bd088"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # capacityplanning-other

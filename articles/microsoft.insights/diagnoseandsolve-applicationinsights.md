@@ -9,7 +9,8 @@ displayOrder=""
 articleId="8eab3943-d5a7-4823-aeb0-faf5420d7184"
 selfHelpType="diagnoseandsolve"
 productPesIds="15693"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # Top common problems for Application Insights?
@@ -88,6 +89,24 @@ cloudEnvironments="public"
 			"searchTags": "java, tomcat, jboss, jvm",			
 			"supportTopicId": "32402632",
 			"commonSolutionArticleId": "insights_javasdk"
+		}, 
+		{				    
+			"id": "I_need_help_configuring_the_OpenCensus_Python_SDK.",
+      "title": "I need help configuring the OpenCensus Python SDK.",
+			"description": "I want to configure my OpenCensus Python SDK to add or remove additional monitoring.",
+			"category": "Configuration",
+			"searchTags": "python, flask, django",			
+			"supportTopicId": "32681426",
+			"commonSolutionArticleId": "insights_python_configure"
+		},
+		{
+      		"id": "Where_is_my_data_for_OpenCensus_Python_SDK",
+			"title": "Where is my data for OpenCensus Python SDK?",
+			"description": "I am not able to see any data in the Azure Portal or the Analytics Portal",
+			"category": "Data Collection",
+			"searchTags": "missing data, no data, empty, blank, python",
+			"supportTopicId": "32681426",
+			"commonSolutionArticleId": "insights_python_data"
 		}
 	],
 	"troubleshootingTools": []

@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="776f796e-a9af-4f00-a017-5a59b8d641a6"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Devops

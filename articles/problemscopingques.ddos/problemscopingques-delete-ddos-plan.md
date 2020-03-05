@@ -9,6 +9,7 @@
 	productPesIds="16355"
 	cloudEnvironments="public,mooncake,fairfax"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # Delete DDoS Plan
 ---

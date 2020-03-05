@@ -6,12 +6,13 @@
 	authors="mrcarter8"
 	ms.author="mcarter"
 	selfHelpType="resource"
-	displayOrder="5"
+	displayOrder="18"
 	supportTopicIds="32681387"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="search-sslorothersecurityerrors"	
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # SSL or other security errors
@@ -20,10 +21,10 @@
 
 The security related status codes from the Azure Search REST API are listed below:
 
-* 403 "Forbidden": Confirm that you are passing a valid API key or the API is not allowed to perform the current operation. For example, you may be passing a query key while attempting to update the index definition.
+* 403 "Forbidden": Confirm that you are passing a valid API key and that the API is allowed to perform the current operation. For example, you may be passing a query key while attempting to update the index definition.
 * 502 "Bad Gateway": Ensure the search service endpoint URL in your request is using HTTPS and not HTTP
 
-If you receive a 400 "Bad Request" status codes, it may be related to Azure Search encryption using customer-managed keys.  These errors may be returned when you are either creating or updating an index with custom encryption keys enabled and there are issues with the current configuration.  You may also see these error messages when you later execute a request to the Azure Search API and the customer managed encryption key configuration has changed.
+If you receive a 400 "Bad Request" status code, it may be related to Azure Search encryption using customer-managed keys.  These errors may be returned when you are either creating or updating an index with custom encryption keys enabled and there are issues with the current configuration.  You may also see these error messages when you later execute a request to the Azure Search API and the customer-managed encryption key configuration has changed.
 
 * "Access to the required key vault permissions was denied": The credentials provided are not allowed to access Azure Key Vault or permissions were revoked
 * "Could not resolve the key vault uri": The provided Azure Key Vault URI is invalid or the Key Vault does not exist or was deleted

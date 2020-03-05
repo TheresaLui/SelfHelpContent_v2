@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue
@@ -29,3 +30,7 @@ You will have to create a support request by following these steps:
 2. Select the subscription that needs a quota increase
 3. Select HDInsight as the Quota type
 4. Proceed normally to create the support request
+
+## **Recommended Documents**
+
+* [HDInsight Capacity Planning](https://docs.microsoft.com/azure/hdinsight/hdinsight-capacity-planning#quotas)

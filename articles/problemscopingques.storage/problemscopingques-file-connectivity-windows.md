@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="12748255-68F2-470D-919A-C860E861380B"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File connectivity issues - Windows
 ---
@@ -29,8 +30,8 @@
             "controlType": "textbox",
             "displayLabel": "File Share or File path",
             "watermarkText": "'FileShare' or 'FileShare/FileName'",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false,
+            "diagnosticInputRequiredClients": "ASC"
         },
         {
             "id": "os_version",
@@ -64,7 +65,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
@@ -91,7 +92,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false,
+            "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
@@ -151,8 +152,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": true
         },
         {
             "id": "problem_description",

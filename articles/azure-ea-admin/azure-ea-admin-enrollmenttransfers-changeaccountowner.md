@@ -2,18 +2,19 @@
 	pageTitle="Change account owner"
 	description="Providing users with information about changing the account owner"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="70c94ee4-9fe0-4f84-8d44-9c15f814a7ef"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615306"
+	supportTopicIds="32688679"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Change account owner
@@ -24,7 +25,7 @@ Enterprise administrators can use the Azure EA portal to transfer subscription a
 
 - Transfers from a Work or School account to another Work or School account are supported
 - Transfers from a Microsoft account to a Work or School account are supported
-- Transfers from a Work or School account to a Microsoft account are **not** supported
+- Transfers from a Work or School account to a Microsoft account are not supported
 - Transfers from a Microsoft account to another Microsoft account are supported. The target account must be a valid Azure Commerce account to be a valid target for transfers.  For new accounts, you are asked to create an Azure Commerce account when signing in to the Azure EA portal. For existing accounts, you must first create a new Azure subscription before the account is eligible.
 - When you complete a subscription transfer, Microsoft updates the account owner
 
@@ -61,4 +62,3 @@ Enterprise administrators can use the Azure EA portal to transfer subscription a
 - [Subscription transfer effects](https://docs.microsoft.com/azure/billing/billing-ea-portal-administration#subscription-transfer-effects)
 - [Transfer enterprise enrollment to a new one](https://docs.microsoft.com/azure/billing/billing-ea-portal-administration#transfer-enterprise-enrollment-to-a-new-one)
 - [Overage offset by customers](https://docs.microsoft.com/azure/billing/billing-ea-portal-enrollment-invoices#overage-offset-by-customers)
-- [Transfer pay as you go subscription to EA subscription](https://docs.microsoft.com/azure/billing/billing-ea-portal-get-started#transfer-pay-as-you-go-subscription-to-ea-subscription)

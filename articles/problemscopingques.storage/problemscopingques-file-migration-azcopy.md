@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="8f19bac0-2ee7-4d75-9ba6-51913ba46fc4"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Files migration with AzCopy
@@ -44,19 +45,50 @@
             "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
+	{
+            "id": "storage_account_from_other",
+            "order": 2,
+            "visibility": "storage_account_from == dont_know_answer",
+            "controlType": "textbox",
+            "displayLabel": "Source storage account",
+            "watermarkText": "Source storage account",
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
 	 {
             "id": "storage_account_to",
             "visibility": "true",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Destination storage account",
             "watermarkText": "Enter storage account name",
+	     "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "From a different subscription, external source or not applicable"
+                }
+            },
             "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
-          },
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+	{
+            "id": "storage_account_to_other",
+            "order": 4,
+            "visibility": "storage_account_to == dont_know_answer",
+            "controlType": "textbox",
+            "displayLabel": "Destination storage account",
+            "watermarkText": "Destination storage account",
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
+        },
 	   {
             "id": "azcopy_version",
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Version of AzCopy you are using",
             "watermarkText": "Choose an option",
@@ -83,7 +115,7 @@
         },
 	{
             "id": "azcopy_command_needhelp",
-            "order": 4,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Do you have questions on AzCopy command",
             "watermarkText": "Choose an option",
@@ -106,7 +138,7 @@
         },
         {
             "id": "azcopy_performance",
-            "order": 5,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Are you experiencing any performance issue with the copy operations",
             "watermarkText": "Choose an option",
@@ -129,7 +161,7 @@
         },
         {
             "id": "error_code",
-            "order": 6,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Did you receive any error code? ",
             "watermarkText": "Choose an option",
@@ -168,14 +200,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

@@ -10,8 +10,9 @@
     supportTopicIds="32599903"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="e7641147-7a28-4ba4-ba37-49ee74bc9637"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Enabling Update Management
@@ -21,6 +22,11 @@ This article will help with several kinds of issues relating to enabling the Azu
 ## **Recommended Steps**
 
 First, try running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues. 
+
+### **Permissions needed to enable and use Update Management**
+
+* You may receive the message "... does not have permission to perform action Microsoft.Compute/virtualMachines/write" if you do not have permissions on the VMs you wish to deploy updates on
+* Review ["Role-Based Access Control"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management)
 
 ### **Desired automation account, region, or Log Analytics workspace is greyed out**
 
@@ -45,6 +51,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
+* If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 * Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 ### **"You have requested to create an update configuration on a machine that is not registered for Update Management"**

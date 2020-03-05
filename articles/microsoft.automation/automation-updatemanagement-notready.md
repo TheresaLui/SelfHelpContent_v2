@@ -10,8 +10,9 @@
     supportTopicIds="32615229"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="011a511c-8c9b-4df3-8d11-47d2b477f92e"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Agent Not Ready
@@ -30,11 +31,8 @@ This article will help with the built-in Update Management Troubleshooting
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
-* Check for a [Log Analytics heartbeat](https://docs.microsoft.com/azure/automation/automation-update-management#confirm-that-non-azure-machines-are-onboarded)
-* If there is no heartbeat, check the [Solution Scoping](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) is correct
-* If there is a heartbeat, follow the steps in the [Data not Showing in Log Analytics section of the Update Management troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
-* If there is an error code listed, see the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
-
+* Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* If you see an error code like "Exception from HRESULT 0x...", see the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 
 ## **Recommended Documents**
 

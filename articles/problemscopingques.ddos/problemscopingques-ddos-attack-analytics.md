@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640595"
 	productPesIds="16355"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # Configure Attack Analytics
 ---

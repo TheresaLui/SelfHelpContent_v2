@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problemscopingques-sqlmi-createdropresources-armtemplate"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # ARM Template Issues or Questions
@@ -20,7 +21,6 @@
 	"fileAttachmentHint": "Please attach a copy of the ARM template being used.",
 	"subscriptionRequired": false,
 	"formElements": [
-
 		{
 			"id": "problem_start_time",
 			"order": 1,

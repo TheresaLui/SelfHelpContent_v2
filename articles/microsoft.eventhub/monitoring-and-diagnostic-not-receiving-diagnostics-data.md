@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="59a978be-5233-4cbe-9cde-ff36e0fc8d0e"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Not receiving diagnostics or Log data

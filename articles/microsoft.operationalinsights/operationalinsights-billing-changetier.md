@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="59a40f09-f081-41e3-8348-0fca254476f0"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # billing-changetier

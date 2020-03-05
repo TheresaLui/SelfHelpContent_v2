@@ -10,24 +10,25 @@
     supportTopicIds="32628001"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="2d29a6eb-da07-4c39-a026-5ad589bb53fb"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - State Configuration (DSC) - Problem Compiling a Configuration
 
 ## **Recommended Steps**
 
-* First, [compile the configuration locally ](https://docs.microsoft.com/powershell/dsc/configurations/configurations#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation
+* First, [compile the configuration locally ](https://docs.microsoft.com/powershell/scripting/dsc/configurations/configurations?view=powershell-5.1#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation
 * Second, [collect diagnostic logs](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#steps-to-troubleshoot-desired-state-configuration-dsc)
 
 ### Import-DSC Resource needs to be on new line
 
-* If importing multiple DSC resources, [list each Import-DscResource statement on a new line](https://docs.microsoft.com/powershell/dsc/configurations/import-dscresource)
+* If importing multiple DSC resources, [list each Import-DscResource statement on a new line](https://docs.microsoft.com/powershell/scripting/dsc/configurations/import-dscresource?view=powershell-5.1)
 
 ### Using composite resources
 
-* Composite resources have specific syntax. Review [the overview documentation for Composite Resources ](https://docs.microsoft.com/powershell/dsc/resources/authoringresourcecomposite).
+* Composite resources have specific syntax. Review [the overview documentation for Composite Resources ](https://docs.microsoft.com/powershell/scripting/dsc/resources/authoringresourcecomposite?view=powershell-5.1).
 * The [CompositeResource package on PowerShell Gallery](https://www.powershellgallery.com/packages/compositeresource/) can help create new composite resources
 
 ### Using custom resources in State Configuration

@@ -10,8 +10,9 @@
 	supportTopicIds="32633517"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 	articleId="49c977b3-b0cc-4d10-933c-9152a9a2fc43"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # alwayson hadr/sql server failover clustered instance

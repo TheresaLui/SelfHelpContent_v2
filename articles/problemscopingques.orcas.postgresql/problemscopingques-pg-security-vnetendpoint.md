@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640029"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-security-vnetendpoint"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Security - VNET service endpoints
 ---

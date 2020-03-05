@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="5690b217-6af3-48b4-bf1c-047f6c2734ff"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # tools
@@ -19,7 +20,7 @@
 [Reset password](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset.id.$resourceId)<br>
 Reset the password of the built-in administrator account<br>
 
-[Serial Console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId)<br>
+[Serial Console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId)<br>
 Log on to Virtual Machines serial console<br>
 
 [View boot diagnostics](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId)<br>

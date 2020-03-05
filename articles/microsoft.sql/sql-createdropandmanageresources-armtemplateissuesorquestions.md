@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630406"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="820cb442-f2b2-41df-af4f-86beefabd56f"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # create drop and manage resources/ARM template issues or questions

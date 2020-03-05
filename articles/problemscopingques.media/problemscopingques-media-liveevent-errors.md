@@ -9,6 +9,7 @@
     articleId="problemscopingques-liveevent-errors"
     cloudEnvironments="public"
     schemaVersion="1"
+	ownershipId="StorageMediaEdge_Media"
 />
 # Media Services Live Event or Channel connectivity or encoding errors
 ---

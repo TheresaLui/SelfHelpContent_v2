@@ -2,18 +2,19 @@
 	pageTitle="Understanding your bill"
 	description="Providing users with information about understanding bill"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="4ee0ec91-4c5b-4028-8f4a-d3f06c33d3b8"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615277"
+	supportTopicIds="32688697"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Understanding your bill
@@ -22,11 +23,9 @@ Azure customers with an Enterprise Agreement receive an invoice when they exceed
 
 Your organization's credit includes your monetary commitment. The monetary commitment is the amount your organization paid upfront for usage of Azure services. You can add monetary commitment funds to your Enterprise Agreement by contacting your Microsoft account manager or reseller.
 
-### Credits and adjustments
+### Credits and Adjustments
 
-All credits or adjustments that are applied to your enrollment are visible at [https://www.ea.azure.com](https://www.ea.azure.com/) All credits or adjustments that are applied to your enrollment are visible at [https://www.ea.azure.com](https://www.ea.azure.com/)
-
-To view the credits follow the next steps:
+All credits or adjustments that are applied to your enrollment are visible at [https://www.ea.azure.com](https://www.ea.azure.com/):
 
 1. View the reports section
 1. Click on usage summary

@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="B9B6C85F-0394-472A-B5F5-AAAF09C80C66"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # ARM Template Issues or Questions

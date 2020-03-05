@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="3263918912"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 # Data Box issues
 ---

@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="d57b0cb3-558b-4448-a05e-ad09318d72b4"
+	ownershipId="AzureIdentity_B2B"
 /> 
 # Problem with AAD Connect install/upgrade 
 ---

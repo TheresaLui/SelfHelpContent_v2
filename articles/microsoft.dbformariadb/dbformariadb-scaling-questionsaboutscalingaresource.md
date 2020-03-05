@@ -10,9 +10,10 @@
     supportTopicIds="32640148"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="634e9e51-3804-4776-911d-d90d1cd5a6bc"
-    />
+    	ownershipId="AzureData_AzureDatabaseforMariaDB"
+/>
 
 # Scaling Azure Database for MariaDB servers
 
@@ -33,6 +34,10 @@ Most users are able to resolve their issue using the steps below.
 * Cannot scale up the master server when a replica exists, or cannot scale down a replica:
 
     * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
+
+* Scaling fails with error "Service is temporarily busy and the operation cannot be performed. Please try again later":
+
+    * Try to scale the server again after a few minutes have passed
 
 * The Azure Monitor auto-scale feature is not supported in Azure Database for MariaDB
 

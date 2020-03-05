@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="assistancewithbillorusage-requestacopyofmybillandusage"
+	ownershipId="ASMS_Billing"
 />
 
 # Request a copy of my bill and usage

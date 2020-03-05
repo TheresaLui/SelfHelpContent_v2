@@ -6,12 +6,13 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder="27"
-	selfHelpType="resource"
-	supportTopicIds=""
-	productPesIds=""
+	selfHelpType="generic"
+	supportTopicIds="32630454"
+	productPesIds="13491"
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-performanceandqueryexecution-specificerrorsorexceptions-mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # performance and query execution/specific errors or exceptions

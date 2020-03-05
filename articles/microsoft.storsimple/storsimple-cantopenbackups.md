@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="350d6ef1-9b72-4a38-9b74-fbdaae4fbcfa"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I can’t open the backups in .backups folder.

@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32641414"
 	productPesIds="16757"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureBastion"
 />
 # Configure auditing
 ---

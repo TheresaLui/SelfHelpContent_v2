@@ -11,6 +11,7 @@ selfHelpType=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments=""
+ownershipId=""
 />
 # Diagnose and solve v2 sample article 
 ---

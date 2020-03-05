@@ -10,8 +10,9 @@
     supportTopicIds="32599933"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="5e74794f-d5fc-4e2f-aaaa-e622b9dd8f4e"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Automation Account - Unlink Workspace

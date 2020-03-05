@@ -11,6 +11,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="df0ec51a-b04b-402f-a6a0-7ea055368495"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Issues with configuring IP filters

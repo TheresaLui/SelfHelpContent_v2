@@ -6,12 +6,13 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder="1"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32630429"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax"
     resourceTags="servers, databases"
 	articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Diagnose and resolve issues connecting to Azure SQL Database
@@ -24,11 +25,11 @@
 
 ### Error 18456: Login failed for user X
 
-* Troubleshoot this error using the [Azure SQL Database troubleshooter](https://support.microsoft.com/help/10085/troubleshooting-connectivity-issues-with-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32630429/) <br>
+* Troubleshoot this error using the [Azure SQL Database Connectivity troubleshooter](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database#unable-to-log-in-to-the-server-errors-18456-40531?WT.mc_id=pid:13491:sid:32630429/) <br>
 
 ### Error 40613: Database X on server Y is not currently available
 
-* This common, transient error occurs when you database is undergoing a reconfiguration, and normally lasts less than 60 seconds. [Read more](https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues?WT.mc_id=pid:13491:sid:32630429/) about how to handle this. <br>
+* This common, transient error occurs when you database is undergoing a reconfiguration, and normally lasts less than 60 seconds. [Read more](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database#transient-fault-error-messages-40197-40613-and-others?WT.mc_id=pid:13491:sid:32630429/) about how to handle this. <br>
 
 ### Error 40615: Cannot open server X requested by the login
 
@@ -40,6 +41,5 @@
 
 ### Other error not listed
 
-* [Troubleshoot connectivity issues](https://support.microsoft.com/help/10085/troubleshooting-connectivity-issues-with-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32630429/)<br>
+* [Troubleshoot connectivity issues](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32630429/)<br>
 * [SQL Database error codes and corrective actions](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages?WT.mc_id=pid:13491:sid:32630429/)<br>
-* [Steps to fix common connection issues](https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues#try-the-troubleshooter-for-azure-sql-database-connectivity-issues?WT.mc_id=pid:13491:sid:32630429/)

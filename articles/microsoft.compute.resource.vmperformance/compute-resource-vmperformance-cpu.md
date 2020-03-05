@@ -10,8 +10,9 @@
 	supportTopicIds="32628261"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="5bf61dab-01b5-40f4-adeb-b60c21f73e83"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Diagnose and resolve Virtual Machine CPU performance issues

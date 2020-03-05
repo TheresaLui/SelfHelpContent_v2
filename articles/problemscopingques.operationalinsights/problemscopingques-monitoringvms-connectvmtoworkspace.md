@@ -10,6 +10,7 @@ supportTopicIds="32633004"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Connect VM to workspace or no VM data in workspace

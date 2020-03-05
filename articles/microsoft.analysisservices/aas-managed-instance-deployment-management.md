@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="f7bcb589-a540-cbf5-29ef-3700ef189f2c"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Azure Analysis Services integration with VNets via On-Premises Data Gateway

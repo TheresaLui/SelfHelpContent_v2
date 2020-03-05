@@ -9,6 +9,7 @@
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Pipelines Issues Build
 ---
@@ -46,22 +47,22 @@
       "id": "org_name",
       "order": 2,
       "controlType": "textbox",
-      "displayLabel": "Please provide your Azure DevOps Organization name (like XYZ.visualstudio.com or dev.azure.com/XYZ)",
-      "watermarkText": "Choose an option",
+      "displayLabel": "Please provide your Azure DevOps Organization URL (like XYZ.visualstudio.com or dev.azure.com/XYZ)",
+      "watermarkText": "Organization URL",
       "required": false
     },
     {
       "id": "definition_name",
       "order": 3,
       "controlType": "textbox",
-      "displayLabel": "Name of definition affected",
+      "displayLabel": "Name of pipeline affected",
       "required": false
     },
     {
       "id": "project_name",
       "order": 4,
       "controlType": "textbox",
-      "displayLabel": "Name of Team Project with definition affected",
+      "displayLabel": "Name of Team Project with pipeline affected",
       "required": false
     },
     {

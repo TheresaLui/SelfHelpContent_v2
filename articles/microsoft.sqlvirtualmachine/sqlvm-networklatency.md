@@ -10,8 +10,9 @@
 	supportTopicIds="32633512"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 	articleId="8e5755bc-7235-449f-8d78-4eecb24d2392"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # performance/network latency

@@ -11,8 +11,9 @@
 	supportTopicIds="32680648"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-error-submitting-a-job"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Error submitting a ADLA job
@@ -21,7 +22,7 @@
 ## **Recommended Steps**
 
 1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
-2. Understand the error that caused the job to error out while submission by using the Job Browser in Visual Studio or the Azure Portal<br>
+2. Understand the error that caused the job submission to fail by using the Job Browser in Visual Studio or the Azure Portal<br>
 
 ## **Recommended Documents**
 

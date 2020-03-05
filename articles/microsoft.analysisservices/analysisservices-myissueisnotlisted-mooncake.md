@@ -13,6 +13,7 @@
     cloudEnvironments="MoonCake"
     issueNotListed="true"
     articleId="c5f5bdff-4047-44f5-978b-4b33074dc81f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # My issue is not listed

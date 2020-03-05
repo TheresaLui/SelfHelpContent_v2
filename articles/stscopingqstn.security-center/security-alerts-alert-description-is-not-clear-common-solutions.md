@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="255da1d8-c2be-4d0c-ba5c-826d48e92675"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Security Alerts - Alert Description is Not Clear Common Solutions

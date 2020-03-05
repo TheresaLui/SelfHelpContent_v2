@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # **Clientside Latency RCA**

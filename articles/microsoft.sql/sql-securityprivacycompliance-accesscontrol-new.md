@@ -10,8 +10,9 @@
 	supportTopicIds="32630403"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="106ae851-713c-45b6-9ab9-f36ecfc976e2"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Access Control

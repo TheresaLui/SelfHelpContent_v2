@@ -1,14 +1,15 @@
 <properties
-	pageTitle="Security issue on blob"
-	description="Security issue on blob scoping question"
+	pageTitle="Authentication issue"
+	description="Authentication issue for storage blob,datalake,tables and queues scoping question"
 	authors="AngshumanNayakMSFT"
 	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_all_authentication"
-	supportTopicIds="32678713,32678714,32678715,32678716,32678717,32678718,32679283,32679284,32679285,32679286,32679287,32679288,32679297,32679298,32679299,32679300,32679301,32679302,32679290,32679291,32679292,32679293,32679294,32679295"
+	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32679298,32679299,32679297,32680501"
 	productPesIds="15629,16459,16462,16461,16598"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Authentication Issue
 ---
@@ -17,13 +18,19 @@
     "resourceRequired": true,
     "title": "Authentication issue on account management,blob,table,queues,adlsgen2 scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Authentication Issues Troubleshooter",
+        "description": "If you are reporting about an issue please help us with a few inputs and give us couple of minutes to run automated diagnostics. We can help diagnose your problem without the need of opening a support ticket.",
+        "insightNotAvailableText": "Our automated troubleshooter did not detect any issues with your resource. You can help us by providing the right inputs below and ensuring that the format is as suggested in the watermark."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Local start time of the latest occurrence",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "error_code_dropdown",
@@ -93,11 +100,12 @@
                     "text": "HTTP 503"
                 },
                 {
-                    "value": "other",
-                    "text": "Not listed above  "
+                    "value": "dont_know_answer",
+                    "text": "Not listed above"
                 }
             ],
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "request_id",
@@ -106,7 +114,8 @@
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
             "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",

@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="c865a277-c9b3-4ac5-8c4f-117aa03fe83f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # JIT Connect (from VM blade)

@@ -4,13 +4,14 @@
     service="microsoft.insights"
     resource="components"
     authors="lzchen"
-    ms.author="lechin"
-    articleId="insights_python"
+    ms.author="lechen"
+    articleId="insights_python_configure"
     displayOrder="1125"
     selfHelpType="resource"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
-    supportTopicIds=""
+    supportTopicIds="32681426"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # Configuring OpenCensus Python
 

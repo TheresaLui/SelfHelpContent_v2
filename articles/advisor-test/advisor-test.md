@@ -6,6 +6,7 @@
     articleId="c6ac1f03-bd58-4421-9522-23cffb64d8e1_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="CloudES_AzureResourceHealth"
 />
 # Create an Azure service health alert 
 ---
@@ -18,7 +19,7 @@
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
-  "recommendationCategory": "HighAvailability",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "ServiceHealthAlert",
@@ -35,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/aa_servicehealthalert_action",
   "description": "Create an Azure service health alert",
   "longDescription": "Service health alerts help you stay notified when Azure service issues affect you. Create a service health alert for the regions and services that you care about.",

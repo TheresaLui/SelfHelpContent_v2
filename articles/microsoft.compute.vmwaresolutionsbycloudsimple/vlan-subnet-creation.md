@@ -11,6 +11,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="a645871b-56f2-49c1-ba7f-f9ad4324c360"    
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting VLAN/Subnet creation 

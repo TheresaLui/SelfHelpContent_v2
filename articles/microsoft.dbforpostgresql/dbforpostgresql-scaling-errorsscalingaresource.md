@@ -10,9 +10,10 @@
     supportTopicIds="32639978"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="7a89af74-874f-4cc1-a34b-77fdb5a0be0d"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Error while scaling a resource in Azure Database for PostgreSQL
 
@@ -32,7 +33,11 @@ Most users are able to resolve their issue using the steps below.
 
     * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
 
-* The Azure Monitor auto-scale feature is not supported in Azure Database for PostgreSQL. However, you can configure auto-scaling using Azure runbook and python. Please refer to [How to auto-scale an Azure Database for MySQL/PostgreSQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177)
+* Scaling fails with error "Service is temporarily busy and the operation cannot be performed. Please try again later":
+
+    * Try to scale the server again after a few minutes have passed
+
+* The Azure Monitor auto-scale feature is not supported in Azure Database for PostgreSQL. However, you can configure auto-scaling using Azure runbook and python. Please refer to [How to auto-scale an Azure Database for PostgreSQL/MySQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177)
 
 ## **Recommended Documents**
 

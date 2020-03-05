@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="37161294-732f-4530-a903-26b7dbb93823"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Configure mobile apps with Microsoft Intune

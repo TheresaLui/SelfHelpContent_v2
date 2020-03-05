@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     articleId="b256c701-58a4-42b5-b18c-2ed31cbeae2a"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem with Password Hash Synchronization
@@ -24,7 +25,7 @@ Some common issues customers encounter when Password Hash Synchronization does n
 
 * The Active Directory account used by Azure AD Connect to communicate with on-premises Active Directory is not granted **Replicate Directory Changes** and **Replicate Directory Changes All** permissions, which are required for password synchronization. You need to fix this by granting these permissions to the Active Directory account.
 * Password hash synchronization is disabled after an administrator changed the User Sign-In method from **Password Synchronization** to another option such as **Federation with AD FS** in the Azure AD Connect wizard. You can fix this by re-enabling the password hash synchronization feature in the Azure AD Connect wizard.
-* There is a **connectivity issue** with on-premises Active Directory. For example, some domain controllers are not accessible by Azure AD Connect or [ports required](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports#table-1---azure-ad-connect-and-on-premises-ad) are blocked by Firewall. To fix mitigate the problem you need to make sure the connectivity between the Azure AD Connect server and the on premise Active Directory works correctly.
+* There is a **connectivity issue** with on-premises Active Directory. For example, some domain controllers are not accessible by Azure AD Connect or [ports required](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports#table-1---azure-ad-connect-and-on-premises-ad) are blocked by Firewall. To fix or mitigate the problem you need to make sure the connectivity between the Azure AD Connect server and the on premise Active Directory works correctly.
 * The Azure AD Connect server is **currently in staging mode**. If the Azure AD Connect server is in staging mode it will not synchronize the password hashes.
 
 To troubleshoot the issue, follow the steps described in section [Troubleshoot password synchronization with Azure AD Connect sync - No passwords are synchronized](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-password-hash-synchronization#no-passwords-are-synchronized-troubleshoot-by-using-the-troubleshooting-task).

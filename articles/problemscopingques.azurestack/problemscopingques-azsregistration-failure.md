@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32663934,32629253"
     productPesIds="16226"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-9623-4f2d-5238-36a830ea0098"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack registration failure questions
 ---
@@ -72,10 +73,14 @@
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
                 {
+                    "value": "1910",
+                    "text": "1910"
+                },
+                {
                     "value": "1908",
                     "text": "1908"
                 },
-		{
+		        {
                     "value": "1907",
                     "text": "1907"
                 },

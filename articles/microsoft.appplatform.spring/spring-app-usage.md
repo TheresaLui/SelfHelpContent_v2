@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # My application experiences high CPU usage or high memory usage
@@ -23,25 +24,23 @@ If your application experiences high CPU/memory usage, it is basically in either
 1. All the app instances experience high CPU/memory usage, and
 2. Some of the app instances experience high CPU/memory usage
 
-To confirm which situation it is:
+To determine which situation is true for your application:
 
 1. Go to _Metrics_, select either `Service CPU Usage Percentage` or `Service Memory Used`,
-2. Add an `App=` filter to specify which application you want to monitor, and
+2. Add an `App=` filter to specify the application you want to monitor, and
 3. Split the metrics by `Instance`
 
-If the situation happens to be that all instances are experiencing high CPU/memory, you need to either scale out the application or scale up the CPU/Memory. For more details, please visit `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/how-to.md#scale-out-an-application-to-multiple-instances`
+If all instances are experiencing high CPU/memory usage, either scale out the application or scale up the CPU/Memory.
 
-If the situation happens to be that some of the instances are experiencing high CPU/memory, please check the instance status and its discovery status.
+If only some instances are experiencing high CPU/memory usage, check the instance status and its discovery status.
 
-If all instances are up and running, please go to _Azure Log Analytics_ to query your application logs and review your code logics to see if any of them might impact scale partitioning. For more details, please visit `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/diagnostic-settings-guide.md`.
+If all instances are up and running, please go to _Azure Log Analytics_ to query your application logs and review your code to see if any of them might impact scale partitioning. For more information about Azure Spring Cloud diagnostics, please read [Tutorial: Enable Diagnostic Services on your Java Spring app](https://docs.microsoft.com/azure/spring-cloud/diagnostic-services).
 
 You need to enable [Log Analytics in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-portal). You will need to query the logs by using [Kusto Query Language](https://docs.microsoft.com/azure/kusto/query/).
 
 ## **Recommended Documents**
 
-* Azure Spring Cloud Getting Started Guide: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/README.md`
-* Azure Spring Cloud Troubleshooting Guide: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/troubleshooting.md`
-* Azure Spring Cloud How-Tos: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/how-to.md`
-* Azure Spring Cloud Diagnostic Settings: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/diagnostic-settings-guide.md`
-* Azure Spring Cloud Metrics: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/metrics.md`
-* Azure Spring Cloud FAQ: `https://github.com/Azure/azure-spring-cloud-docs-pr/blob/master/docs/faq.md`
+* [Quickstart: Launch a Java Spring app on Azure using the Azure portal](https://docs.microsoft.com/azure/spring-cloud/spring-cloud-quickstart-launch-app-portal)
+* [Troubleshooting guidance](https://docs.microsoft.com/azure/spring-cloud/spring-cloud-troubleshoot)
+* [Tutorial: Enable Diagnostic Services on your Java Spring app](https://docs.microsoft.com/azure/spring-cloud/diagnostic-services)
+* [FAQ for Azure Spring Cloud](https://docs.microsoft.com/azure/spring-cloud/spring-cloud-faq)

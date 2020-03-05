@@ -10,10 +10,11 @@
     diagnosticScenario="ApplicationInsightsJavaSDK"
     displayOrder="6"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32402632, 32632984"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # I am having problems with my Java SDK data
 
 ## **Recommended Steps**

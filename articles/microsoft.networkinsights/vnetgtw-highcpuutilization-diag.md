@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # The virtual network gateway has high CPU utilization
 <!--issueDescription-->

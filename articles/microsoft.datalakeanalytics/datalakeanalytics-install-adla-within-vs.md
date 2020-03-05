@@ -11,12 +11,14 @@
 	supportTopicIds="32680649"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-install-ADLAwithinVS"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Installing Azure Data Lake Studio within Visual Studio
 
+The most productive way to develop U-SQL scripts is by using the Data Lake Tools for Visual Studio.
 
 ## **Recommended Documents**
 

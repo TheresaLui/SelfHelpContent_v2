@@ -12,7 +12,8 @@ diagnosticScenario="Lifecycle Management couldn't transition blobs due to unsupp
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Lifecycle Management couldn't transition blobs due to unsupported account or blob type

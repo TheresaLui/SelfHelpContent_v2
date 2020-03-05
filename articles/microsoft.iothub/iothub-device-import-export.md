@@ -11,6 +11,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="f31bf705-fe99-43fa-8a71-77a815a454ec"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Bulk export or import device identities

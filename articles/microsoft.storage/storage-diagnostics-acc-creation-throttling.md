@@ -12,7 +12,8 @@ diagnosticScenario="Unable to create storage account due to SRP throttling"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unable to create storage account due to throttling

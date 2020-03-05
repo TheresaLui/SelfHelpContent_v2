@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-aadconnect-sync-objectsync-singleobjectissue-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Synchronization issue with specific user, group or contact object

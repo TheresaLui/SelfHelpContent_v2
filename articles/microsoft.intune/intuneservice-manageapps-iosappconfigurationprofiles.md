@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="b6697a24-7b1c-4a64-bd23-b4dd70e58f54"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - iOS app configuration profiles

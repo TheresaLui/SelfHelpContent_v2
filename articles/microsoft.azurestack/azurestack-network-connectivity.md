@@ -10,13 +10,14 @@
     supportTopicIds="32629202"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-connectivity"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Resolve issues with connectivity to Azure Stack VMs
 
-Connectivity to Azure Stack VMs can be affected by networking issues in the Azure Stack environment, on the customer datacenter network, or due to an issue with the VM itself.
+Connectivity to an Azure Stack VM can be affected by networking issues in the Azure Stack environment, on the customer datacenter network, or due to an issue with the VM itself.
 
 ## **Recommended Steps**
 
@@ -33,6 +34,7 @@ Connectivity to Azure Stack VMs can be affected by networking issues in the Azur
 
 ## **Recommended Documents**
 
-* [Azure Stack Networking Considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+* [Azure Stack networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+* [Manage Azure Stack network resources](https://docs.microsoft.com/azure-stack/operator/azure-stack-viewing-public-ip-address-consumption)
 * Tutorial: [Load balance internet traffic to VMs](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-standard-manage-portal)
 * Tutorial: [Load balance internal traffic to VMs](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-basic-internal-portal)

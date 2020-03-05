@@ -2,18 +2,19 @@
 	pageTitle="Manage users"
 	description="Providing users with information enterprise user roles and the permissions of each role"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="035e20b1-5ef0-428f-a509-b054233f86d6"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32599495"
+	supportTopicIds="32688685"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage users

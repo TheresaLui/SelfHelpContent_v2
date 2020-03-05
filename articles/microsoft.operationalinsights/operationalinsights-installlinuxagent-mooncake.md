@@ -13,6 +13,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="operationalinsights-installlinuxagent-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Installation of Linux Agent

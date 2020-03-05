@@ -15,12 +15,20 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Product Feature and deployment questions
 
-Resources for questions about product features and deployment.
+CSP partner support is not the best place to ask these questions, instead utilize your MPN Benefits to ask questions using your MPN technical presales and deployment services benefits.
+
+## **Recommended Steps**
+
+* If your MPN has been migrated to partner center you can log your question [here](https://partner.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)
+* If your MPN has not been migrated to partner center, use your technical presales and deployment service benefits to get phone or chat via the regional service center who will create an Advisory ticket. Instructions about this are [here](https://support.microsoft.com/help/3121537/using-technical-presales-and-deployment-services).  
 
 ## **Recommended Documents**
 
-* [Partner licensing questions – quick reference guide](https://support.microsoft.com/help/4076425/partner-licensing-questions-quick-reference-guide)
+* [Partner Membership Center to Partner Dashboard Transition Guide](https://assetsprod.microsoft.com/mpn/membership-account-set-up-guide.pdf)
+* Migration from Partner Membership Center (PMC) to Partner Center (PC): a [step-by-step guide](https://support.microsoft.com/help/4503591/migration-from-partner-membership-center-pmc-to-partner-center-pc-a-st)
+* [Transition your partner membership account from Partner Membership Center to Partner Center](https://docs.microsoft.com/partner-center/pmc-to-partner-center)

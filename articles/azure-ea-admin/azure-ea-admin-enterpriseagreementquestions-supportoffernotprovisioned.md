@@ -2,18 +2,19 @@
 	pageTitle="Support offer not provisioned"
 	description="Providing users with information about reasons why support offer may not be provisioned"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="634176bb-ef5d-461c-bba8-01ff4eda040b"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615284"
+	supportTopicIds="32688694"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Support offer not provisioned

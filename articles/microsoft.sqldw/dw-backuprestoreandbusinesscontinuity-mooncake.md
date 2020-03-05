@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-backuprestoreandbusinesscontinuity-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # How to recover from a backup and data protection
 

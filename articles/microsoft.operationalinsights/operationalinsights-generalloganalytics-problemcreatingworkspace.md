@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Problems While Creating Workspace

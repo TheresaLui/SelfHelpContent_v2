@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="9182b0e1-cf2a-48a6-9b3d-9a4ae08bcf86"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions System State restore performance
 ---

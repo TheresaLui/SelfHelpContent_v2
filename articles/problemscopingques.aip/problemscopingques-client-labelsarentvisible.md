@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584353"
     productPesIds="14997"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
     articleId="scoping_labels_arent_visible"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---
@@ -27,8 +28,8 @@
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Azure Information Protection Classic Client",
-                            "text": "Azure Information Protection Classic Client"
+                            "value": "Azure Information Protection client (classic)",
+                            "text": "Azure Information Protection client (classic)"
                         },
                         {
                             "value": "Azure Information Protection Unified Labeling Client",
@@ -43,13 +44,23 @@
                 },{
                 "id": "version_number",
                 "order": 3,
+				"visibility": "client_type == Azure Information Protection client (classic)",
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? You can get the latest version at http://aka.ms/getaip",
+                "displayLabel": "What version are you using? For details, use the link in the help balloon",
+				"infoBalloonText": "Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-version-release-history'>supported version</a>",
+                "required": true
+                },{
+                "id": "version_number_ul",
+                "order": 4,
+				"visibility": "client_type == Azure Information Protection Unified Labeling Client",
+                "controlType": "textbox",
+                "displayLabel": "What version are you using? For details, use the link in the help balloon",
+				"infoBalloonText": "Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history'>supported version</a>",
                 "required": true
                 },{
                     "id": "sccmigrate",
                     "order": 5,
-                    "visibility": "client_type == Azure Information Protection Classic Client",
+                    "visibility": "client_type == Azure Information Protection client (classic)",
                     "controlType": "dropdown",
                     "displayLabel": "Did you activate Unified Labeling in your tenant?",
                     "watermarkText": "Choose an option",

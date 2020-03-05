@@ -9,6 +9,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
  	articleId="667f077c-c52d-4b67-a755-cf00bb506369"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Problem reading user profile data in Azure AD

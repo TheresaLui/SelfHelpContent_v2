@@ -6,12 +6,13 @@
 	authors="emlisa"
   ms.author="emlisa"
 	displayOrder="2"
-	selfHelpType="resource"
-	supportTopicIds=""
-	productPesIds=""
+	selfHelpType="generic"
+	supportTopicIds="32630438"
+	productPesIds="13491"
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-availabilityandconnectivity-mydatabasewasreportedasunavailableresourcehealth-mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # SQL Database Resource Health Issues: Unavailability

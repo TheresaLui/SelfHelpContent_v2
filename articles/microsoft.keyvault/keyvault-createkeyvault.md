@@ -12,13 +12,14 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="6e122525-b660-4331-a071-2f0e0db865c5"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to Create and Manage a Key Vault
 ## **Recommended Steps**
 
-* Azure Portal Key Vault quick start: [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
-* CLI Key Vault quick start: [Create a Key Vault with CLI](https://docs.microsoft.com/azure/key-vault/quick-create-cli)
+* [Create a Key Vault with CLI](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2#create-a-key-vault)
+* [Create a Key Vault with Azure Portal](https://docs.microsoft.com/azure/key-vault/quick-create-portal#create-a-vault)
 
 ### **Troubleshooting**
 
@@ -32,6 +33,5 @@
 
 ## **Recommended Documents**
 
-* [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
-* [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
+* [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/quick-create-powershell#create-a-key-vault)<br>
 * [Azure CLI Developer Guide](https://docs.microsoft.com/cli/azure/keyvault?view=azure-cli-latest)

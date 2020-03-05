@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="db31ba4e-15fc-abfb-fe7e-ca7aa55b2ad7"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Administering Power BI in the admin portal

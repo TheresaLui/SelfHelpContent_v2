@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="d433e690-46fd-4792-98f7-628a6938e222"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Email notification on succeeded backup jobs

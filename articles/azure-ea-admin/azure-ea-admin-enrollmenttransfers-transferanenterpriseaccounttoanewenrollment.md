@@ -2,18 +2,19 @@
 	pageTitle="Transfer an enterprise account to a new enrollment"
 	description="Provides user with information about transferring enterprise account to new enrollment"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="df7a5f8b-aded-4305-92d1-4bc19ef0eb40"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615287"
+	supportTopicIds="32688695"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Transfer an enterprise account to a new enrollment
@@ -50,10 +51,11 @@ Other points to keep in mind before an account transfer:
 - Approval from an EA Administrator is required for the target and source enrollment
   - In some cases, Microsoft might request additional approval from an EA administrator of the source enrollment
 - If an account transfer doesn't meet your requirements, consider an enrollment transfer
-- The account transfer transfers all services, subscriptions, accounts, departments, and the entire enrollment structure, including all EA department administrators
-- The account transfer sets the source enrollment status to _Transferred_. The transferred account is available for historic usage reporting purposes only.
-- You can't add roles or subscriptions to an enrollment with transferred status. The status prevents additional usage against the enrollment.
-- Any remaining monetary commitment balance in the source agreement is lost, including future terms
+- The account transfer transfers all services and subscriptions related to specific accounts
+- After the transfer is complete, the transferred account appears inactive under the source enrollment
+- An account transfer can be backdated to any date within the target enrollment start date
+- The account shows the end date corresponding to the effective transfer date on the source enrollment and as a start date on the target enrollment
+- Any usage occurred for the account prior to the effective transfer date remains under the source enrollment  
 
 ## **Recommended Documents**
 
@@ -62,4 +64,3 @@ Other points to keep in mind before an account transfer:
 - [Subscription transfer effects](https://docs.microsoft.com/azure/billing/billing-ea-portal-administration#subscription-transfer-effects)
 - [Overage offset by customers](https://docs.microsoft.com/azure/billing/billing-ea-portal-enrollment-invoices#overage-offset-by-customers)
 - [Enrollment status](https://docs.microsoft.com/azure/billing/billing-ea-portal-agreements#enrollment-status)
-- [Transfer pay as you go subscription to EA subscription](https://docs.microsoft.com/azure/billing/billing-ea-portal-get-started#transfer-pay-as-you-go-subscription-to-ea-subscription)

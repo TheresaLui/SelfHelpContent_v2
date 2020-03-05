@@ -10,6 +10,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # SQL Database Managed Instance
 ---
@@ -51,6 +52,13 @@
                     "value": "dont_know_answer"
                 }
             ],
+            "required": false
+        },
+        {
+            "id": "error_message",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What error message (if any) are you getting?",
             "required": false
         },
         {

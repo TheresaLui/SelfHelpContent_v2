@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
 	articleId="0e853618-3fec-4f05-a8dc-3a934fdf9fdc"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # How do I update the gateway service?

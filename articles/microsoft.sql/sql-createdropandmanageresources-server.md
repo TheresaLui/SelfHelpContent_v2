@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630453"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="88708ffa-27c8-477a-a193-e2616160b6e1"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # create drop and manage resources/server

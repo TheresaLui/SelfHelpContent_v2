@@ -11,8 +11,9 @@
 	supportTopicIds="32680652"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-job-started-to-run-slow"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # U-SQL jobs started to run slow
@@ -24,6 +25,11 @@ U-SQL jobs can run slowly for a number of reasons.  Common reasons include:
 * Changing data-distribution across partitions may cause errors or un-optimized execution of jobs
 * Incorrect Azure Data Lake Analytics compute resources (AUs assigned to the job, AU quota assigned to the ADLA account, or queued jobs)
 * Improvements to the U-SQL compiler and optimizer may cause existing optimizer hints to become outdated 
+
+## **Recommended Steps**
+
+1. Check if there are outages in the region where this job is running on [Azure status page](https://status.azure.com/status)<br>
+2. Understand the error that caused the job to fail by using the either the Job Browser in Visual Studio or the Job management tab for the ADLA account in the Azure Portal<br>
 
 ## **Recommended Documents**
 

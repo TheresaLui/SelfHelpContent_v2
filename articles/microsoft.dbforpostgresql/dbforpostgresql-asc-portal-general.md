@@ -13,7 +13,8 @@
 	supportTopicIds="32639971"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Having trouble with Azure Portal
@@ -32,4 +33,4 @@ Most users are able to resolve their portal issues using the steps below.
 
 * [Azure CLI for PostgreSQL](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest)
 * [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
-* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
+* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-us/home?forum=AzureDatabaseforPostgreSQL)

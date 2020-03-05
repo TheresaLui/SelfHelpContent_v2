@@ -10,8 +10,9 @@
 	supportTopicIds="32680693"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="reservedinstance-bladeissues"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # reserved instance-blade issues
@@ -38,7 +39,7 @@ To perform an exchange or refund, the user must have access to the reservation o
 
 ### Troubleshoot Browser issues (Browser hangs, keeps spinning, does not load, etc.)
 
-Note: You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
+Note: You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://status.azure.com/status/history/)
 
 ### Page hangs in the loading status
 If your internet browser page hangs, try each of the following steps until you can get to the Azure portal:

@@ -10,6 +10,7 @@ supportTopicIds="32612498"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # OMS agent: Running high CPU

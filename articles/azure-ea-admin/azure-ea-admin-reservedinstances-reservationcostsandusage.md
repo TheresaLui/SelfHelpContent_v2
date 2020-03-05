@@ -2,18 +2,19 @@
 	pageTitle="Reservation costs and usage"
 	description="Provides users with information about viewing cost and usage data in Azure portal"
 	infoBubbleText=""
-	service="microsoft.azure"
-	resource="azure.allservices"
+	service="microsoft.enterpriseagreement"
+	resource="enrollmentmanagement"
   authors="irinakolontaev1"
 	ms.author="baolcsva"
 	displayOrder=""
 	articleId="db782e0d-9ad8-4103-9deb-2ab7998420cf"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32615281"
+	supportTopicIds="32688690"
 	resourceTags=""
-	productPesIds="16666"
+	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Reservation costs and usage

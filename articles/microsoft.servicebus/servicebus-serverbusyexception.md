@@ -11,6 +11,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="1317608c-6bcf-421a-b2a4-48f6738ad1e0"
+	ownershipId="AzureMessaging_Common"
 />
 
 # errors and exceptions/server busy exception

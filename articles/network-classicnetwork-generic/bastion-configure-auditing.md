@@ -10,8 +10,9 @@
     supportTopicIds="32641414"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="bastion-configure-auditing"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Configure auditing

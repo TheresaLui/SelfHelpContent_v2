@@ -11,6 +11,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="cf8ea7d2-4da0-4b29-8cf2-3978cabfda54"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Connectors for Azure Databricks

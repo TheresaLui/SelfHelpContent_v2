@@ -6,10 +6,11 @@
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637296,32637257,32637254,32637306,32637313"
+	supportTopicIds="32637313"
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # SQL Database Managed Instance
 ---

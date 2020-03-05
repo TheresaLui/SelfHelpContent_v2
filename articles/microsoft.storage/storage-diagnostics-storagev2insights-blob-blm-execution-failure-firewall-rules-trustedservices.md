@@ -12,7 +12,8 @@ diagnosticScenario="Storage issues with Storage Firewalls enabled"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Lifecycle Management doesn't execute when Storage Firewall is enabled without "Trusted Services" selected

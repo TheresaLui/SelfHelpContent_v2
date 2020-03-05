@@ -13,6 +13,7 @@
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # I can't activate my device
