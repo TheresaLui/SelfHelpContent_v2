@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Logging capabilities in Azure Database for MySQL"
-    description="Logging capabilities in Azure Database for MySQL"
+    pageTitle="Slow query and audit logging capabilities in Azure Database for MySQL"
+    description="Slow query and audit logging capabilities in Azure Database for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
     authors="ajlam"
@@ -15,7 +15,7 @@
     ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Logging capabilities in Azure Database for MySQL
+# Slow query and audit logging capabilities in Azure Database for MySQL
 
 Azure Database for MySQL has slow query and audit logs available. Slow query logs can be used to identify slow running queries and audit logs can be used to audit database events.
 
@@ -42,5 +42,5 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Documents**
 
 * [Access slow query logs - Portal](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal)<br>
-* [Access slow query logs - CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)
+* [Access slow query logs - CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)<br>
 * [Audit logs - Portal](https://docs.microsoft.com/azure/mysql/howto-configure-audit-logs-portal)
