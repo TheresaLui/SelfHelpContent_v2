@@ -19,7 +19,7 @@ ownershipId="CloudNet_VirtualNetwork"
 # Resources and underlying platform show healthy
 <!--issueDescription-->
 
-We've checked the resource health and the platform health at the time of the reported issue. The resources involved and the underlying platform are showing healthy at the reported time. Due to our inability to reproduce the issue and all VM and platform health checks ok at the time reported we are unable to determine what may have caused the reported symptoms. It is possible it could have been an issue with the application on the VM or another anomaly. We are sorry for any inconvenience this may have caused! We've provided some tooling below that may help if you experience an issue like this in the future.
+We've checked the resource health and the platform health at the time of the reported issue. The resources involved and the underlying platform are showing healthy at the reported time. Due to our inability to reproduce the issue and all VM and platform health checks are ok at the time reported, we are unable to determine what may have caused the reported symptoms. It is possible it could have been caused by an issue with the application on the VM or another anomaly. We are sorry for any inconvenience this may have caused! We've provided some tooling below that may help if you experience an issue like this in the future.
 
 <!--/issueDescription-->
 
