@@ -20,8 +20,7 @@ Point-to-Site connections are useful when you want to connect to your virtual ne
 
 ## **Recommended Steps**
 
-1. Please note that Azure VPN Gateway no longer uses self-signed certificates for P2S connections. You may need to download the VPN profile and redeploy to clients. See [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-point-to-site-gateway-public-ca) for additional details.<br>  
-2. If you are having problems connecting to your VPN from Windows 7 and Windows 8.1, you may need to enable support for TLS 1.2. Please see [Point-to-Site FAQ](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) for additional details. 
+If you are having problems connecting to your VPN from Windows 7 and Windows 8.1, you may need to enable support for TLS 1.2. Please see [Point-to-Site FAQ](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) for additional details. 
 
 ## **Recommended Documents**
 
