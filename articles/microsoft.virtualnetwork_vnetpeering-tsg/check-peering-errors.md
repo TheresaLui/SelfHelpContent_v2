@@ -17,7 +17,7 @@ Check for errors related to the customer's VNet peerings
 ## **Recommended Steps**
 
 1. Check the customer verbatim for a reported error related to the **VNet Peering Status**
-2. In ASC Resource Explorer, go to the VNets involved in the peering and check the 'Peering State' below the properties for each
+2. In ASC Resource Explorer, go to the VNets involved in the peering and check each of the 'Peering State' below properties.
 3. Based on your findings, choose an option below 
 
 
