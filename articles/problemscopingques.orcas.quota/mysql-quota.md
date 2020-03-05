@@ -1,16 +1,16 @@
 <properties
-                pageTitle="MySql-Quota-Enable-Region"
-                description="MySql-Quota-Enable-Region"
+                pageTitle="MySql-Quota"
+                description="MySql-Quota"
                 authors="ambrahma"
                 ms.author="ambrahma"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32684016"
                 productPesIds="15621"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="AzureData_AzureDatabaseforMySQL"
 />
-# Test ambrahma - MySql Quota Enable Region
+# MySql Quota Questions
 ---
 {
 	"$schema": "SelfHelpContent",
@@ -28,7 +28,7 @@
 			"required": "true",
             "dropdownOptions": [
                 {
-                    "text": "Enable region",
+                    "text": "MySql Region Enable",
                     "value": "enableregion"
                 },
                 {
@@ -42,10 +42,9 @@
 			"visibility": "quotaSubType != null && quotaSubType == enableregion",
 			"order": 2,
 			"controlType": "dropdown",
-            "displayLabel":"REQUIRED: Please choose the region in which you want to have MySql Server",
+            "displayLabel":"Please choose the region in which you want to have MySql Server",
             "watermarkText":"Choose a region",
 			"required": true,
-			"infoBalloonText": "Please select the region in your Azure subscription for which you want to submit quota request to enable the same.",
 			"dynamicDropdownOptions": {
 				"dependsOn": "quotaSubType",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
@@ -60,9 +59,28 @@
             }
 		},
         {
+            "id": "business_justification",
+			"visibility": "quotaSubType != null && quotaSubType == enableregion",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide reason for your request (business justification)",
+            "required": false,
+            "useAsAdditionalDetails": true
+        },
+        {
+            "id": "capacity_requested",
+			"visibility": "quotaSubType != null && quotaSubType == enableregion",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide specific capacity for your request",
+            "watermarkText": "For example, 30 General purpose vCores",
+            "required": false,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "problem_description",
 			"visibility": "quotaSubType == dont_know_answer",
-            "order": 8,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "required": false,
