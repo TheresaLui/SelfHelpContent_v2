@@ -75,7 +75,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide business justification for your request",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_description",
