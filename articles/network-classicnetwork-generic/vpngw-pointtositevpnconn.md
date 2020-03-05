@@ -12,6 +12,7 @@
 	productPesIds="16094"
 	cloudEnvironments="public"
 	articleId="741dca88-bfab-43ba-8d4b-c8f04a65f4a3"
+	OwnershipId="CloudNet_AzureVPNGateway"
 />
 
 # Point to site VPN connectivity issues
