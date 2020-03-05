@@ -75,7 +75,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide additional information about your issue",
-            "required":  "quotaSubType != null && quotaSubType === dont_know_answer",
+            "required": "quotaSubType != null && quotaSubType === dont_know_answer",
             "useAsAdditionalDetails": true
         }
     ]
