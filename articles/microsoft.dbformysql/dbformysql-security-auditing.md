@@ -23,7 +23,7 @@ The Azure Activity Log provides information about subscription-level events. You
 
 Database activity auditing is available using the auditing logging capabilities. Audit logging is currently in preview.
 
-* [Audit logging](https://docs.microsoft.com/en-us/azure/mysql/concepts-audit-logs) is enabled by changing the server parameter **audit_log_enabled** to ON. 
+* [Audit logging](https://docs.microsoft.com/azure/mysql/concepts-audit-logs) is enabled by changing the server parameter **audit_log_enabled** to ON. 
 * You can select which server events to log (ex. connection, DML, DDL, etc.). To view the list of events can be logged, review the [Configuring Audit logging on Azure Portal](https://docs.microsoft.com/azure/mysql/howto-configure-audit-logs-portal) how-to document
 
 Audit logs are integrated with Azure Monitor Diagnostic Logs. Once you've enabled audit logs on your MySQL server, you can emit them to Azure Monitor logs, Event Hubs, or Azure Storage.
