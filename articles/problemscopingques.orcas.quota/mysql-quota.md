@@ -14,11 +14,10 @@
 # MySql Quota Questions
 ---
 {
-	"$schema": "SelfHelpContent",
 	"subscriptionRequired": true,
 	"resourceRequired": false,
 	"title": "MySql-Quota",
-	"fileAttachmentHint": "Please upload",
+	"fileAttachmentHint": "Please upload your files",
 	"formElements": [
 		{
 			"id": "quotaSubType",
@@ -84,9 +83,18 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide additional information about your issue",
-            "required": false,
-            "useAsAdditionalDetails": true
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Issue description that includes device names, error message(s) and scenario(s) that are failing."
+                },
+                {
+                    "text": "Using file upload on the left, attach a screenshot of the error message(s) or any logs/documentation gathered."
+                }
+            ]
         }
-	]
+	],
+    "$schema": "SelfHelpContent"
 }
 ---
