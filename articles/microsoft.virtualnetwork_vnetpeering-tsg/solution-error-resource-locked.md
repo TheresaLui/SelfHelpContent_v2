@@ -25,7 +25,7 @@ You can run into this issue when enabling VNet peering on a Vnet that has Databr
 
 ## **Recommended Steps**
 
-1. Follow the linke below in setting up the vNET peering from within the Databricks service blade and specifying the target peer via resource ID and connectivity fix the peering on the  target vNET
+1. Follow the link below in setting up the vNET peering from within the Databricks service blade and specifying the target peer via resource ID and connectivity fix the peering on the  target vNET
 
 ## **Recommended Documents**
 
