@@ -19,7 +19,7 @@ ownershipId="CloudNet_VirtualNetwork"
 # Step by step for connecting virtual networks same subscription different region  
 <!--issueDescription-->
 
-From our interaction, it appears the your are looking for steps on how to setup VNet peering between VNets that are in the same subscription and in different region.
+From our interaction, it appears that you are looking for steps on how to setup VNet peering between VNets that are in the same subscription and in different region.
 
 <!--/issueDescription-->
 
