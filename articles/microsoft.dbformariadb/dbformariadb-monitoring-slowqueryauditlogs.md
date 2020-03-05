@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds="32731922"
     resourceTags="servers, databases"
-    productPesIds="16221"
+    productPesIds="16617"
     cloudEnvironments="public, Fairfax"
     articleId="1086df0a-65e8-428f-8e7d-dfd76741b8987"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
