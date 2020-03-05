@@ -17,7 +17,7 @@
 	"subscriptionRequired": true,
 	"resourceRequired": false,
 	"title": "MySql-Quota",
-	"fileAttachmentHint": "",
+	"fileAttachmentHint": "Please upload",
 	"formElements": [
 		{
 			"id": "quotaSubType",
@@ -63,9 +63,9 @@
 			"visibility": "quotaSubType != null && quotaSubType == enableregion",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide reason for your request (business justification)",
-            "required": false,
-            "useAsAdditionalDetails": true
+            "displayLabel": "Please provide reason for your request",
+            "watermarkText": "Provide business justification",
+            "required": false
         },
         {
             "id": "capacity_requested",
@@ -74,8 +74,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide specific capacity for your request",
             "watermarkText": "For example, 30 General purpose vCores",
-            "required": false,
-            "useAsAdditionalDetails": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -83,6 +82,7 @@
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
+            "watermarkText": "Provide additional information about your issue",
             "required": false,
             "useAsAdditionalDetails": true
         }
