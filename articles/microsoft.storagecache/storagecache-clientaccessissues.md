@@ -11,7 +11,8 @@
     supportTopicIds="32674483"
     resourceTags=""
     productPesIds="16790"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    ownershipId="AZHC"
 />
 
 # Azure HPC Cache Client Access Issues
@@ -33,4 +34,4 @@ Most client connectivity issues will be resolved by completing the following ste
 ## **Recommended Documents**
 
 * [Troubleshooting connectivity problems between Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-connectivity-problem-between-vms)
-* [Mount the Azure HPC Cache](https://docs.microsoft.com/en-us/azure/hpc-cache/hpc-cache-mount)
+* [Mount the Azure HPC Cache](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-mount)
