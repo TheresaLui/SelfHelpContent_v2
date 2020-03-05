@@ -12,7 +12,7 @@
 
 # Check VM amd Platform Health
 
-The product group has informed us that we do not have a way to go back in time to check why a VNet peering may have been down. It is very unlikely the peering when down then back up which is why we recommend the check of the VM health during the incident as well as the host and other platform components.
+The product group has informed us that we do not have a way to go back in time to check why a VNet peering may have been down. It is very unlikely the peering went down then back up which is why we recommend the check of the VM health during the incident as well as the host and other platform components.
 
 ## **Recommended Steps**
 
