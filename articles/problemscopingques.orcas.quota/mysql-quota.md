@@ -33,7 +33,7 @@
                     "value": "enableregion"
                 },
                 {
-                    "text": "Others",
+                    "text": "Other",
                     "value": "dont_know_answer"
                 }
             ]
@@ -54,8 +54,8 @@
                 "ValueProperty":"displayName",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Other, don't know or not applicable"
+                    "value": "dont_know_answer",
+                    "text": "Other"
                 }
             }
         },
@@ -69,13 +69,22 @@
             "required": false
         },
         {
-            "id": "problem_description",
-            "visibility": true,
+            "id": "business_justification",
+            "visibility": "quotaSubType != null && quotaSubType == enableregion",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Provide business justification for your request",
             "required": false,
+        },
+        {
+            "id": "problem_description",
+            "visibility": "quotaSubType != null && quotaSubType == dont_know_answer",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe your quota request",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]
