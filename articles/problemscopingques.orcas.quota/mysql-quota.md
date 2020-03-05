@@ -9,6 +9,7 @@
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-orcas-quota-mysql"
+    ownershipId="AzureData_Azure_Quota-Ibiza"
 />
 # MySql Quota Questions
 ---
