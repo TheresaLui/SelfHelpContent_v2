@@ -59,38 +59,29 @@
             }
 		},
         {
-            "id": "business_justification",
-			"visibility": "quotaSubType != null && quotaSubType == enableregion",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide reason for your request",
-            "watermarkText": "Provide business justification",
-            "required": false
-        },
-        {
             "id": "capacity_requested",
 			"visibility": "quotaSubType != null && quotaSubType == enableregion",
-            "order": 4,
-            "controlType": "multilinetextbox",
+            "order": 3,
+            "controlType": "textbox",
             "displayLabel": "Please provide specific capacity for your request",
             "watermarkText": "For example, 30 General purpose vCores",
             "required": false
         },
         {
             "id": "problem_description",
-			"visibility": "quotaSubType == dont_know_answer",
-            "order": 5,
+			"visibility": true,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required":  "quotaSubType == dont_know_answer",
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Issue description that includes device names, error message(s) and scenario(s) that are failing."
+                    "text": "Additional information that includes business justification or additional details on your request describing the issue."
                 },
                 {
-                    "text": "Using file upload on the left, attach a screenshot of the error message(s) or any logs/documentation gathered."
+                    "text": "Using file upload below, attach a screenshot of the error message(s) or any logs/documentation gathered."
                 }
             ]
         }
