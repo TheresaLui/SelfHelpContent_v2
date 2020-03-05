@@ -1,15 +1,15 @@
 <properties
-                pageTitle="MySql-Quota"
-                description="MySql-Quota"
-                authors="ambrahma"
-                ms.author="ambrahma"
-                selfHelpType="problemScopingQuestions"
-                supportTopicIds="32684016"
-                productPesIds="15621"
-                cloudEnvironments="Public, Fairfax"
-                schemaVersion="1"
-                articleId="problemscopingques-orcas-quota-mysql"
-                ownershipId="AzureData_AzureDatabaseforMySQL"
+    pageTitle="MySql-Quota"
+    description="MySql-Quota"
+    authors="ambrahma"
+    ms.author="ambrahma"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32684016"
+    productPesIds="15621"
+    cloudEnvironments="Public, Fairfax"
+    schemaVersion="1"
+    articleId="problemscopingques-orcas-quota-mysql"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # MySql Quota Questions
 ---
@@ -29,11 +29,11 @@
 			"required": "true",
             "dropdownOptions": [
                 {
-                    "text": "MySql Region Enable",
+                    "text": "MySQL region enable",
                     "value": "enableregion"
                 },
                 {
-                    "text": "Other, don't know or not applicable",
+                    "text": "Others",
                     "value": "dont_know_answer"
                 }
             ]
@@ -43,7 +43,7 @@
 			"visibility": "quotaSubType != null && quotaSubType == enableregion",
 			"order": 2,
 			"controlType": "dropdown",
-            "displayLabel":"Please choose the region in which you want to have MySql Server",
+            "displayLabel":"Please choose the region in which you want to have MySQL Server",
             "watermarkText":"Choose a region",
 			"required": true,
 			"dynamicDropdownOptions": {
