@@ -1,14 +1,14 @@
 <properties
-pageTitle="Bypassing UDR Solution"
-description="Bypassing UDR Solution"
-infoBubbleText="Bypassing UDR Solution"
+pageTitle="Solution for error '<TENANT ID>' is not authorized to access linked subscription '<SUBID>'"
+description="Solution for error '<TENANT ID>' is not authorized to access linked subscription '<SUBID>'"
+infoBubbleText="Solution for error '<TENANT ID>' is not authorized to access linked subscription '<SUBID>'"
 service="microsoft.network"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
 displayOrder=""
-articleId="VnetPeeringBypassingUdrSolution"
-diagnosticScenario="VnetPeeringBypassingUdrSolution"
+articleId="SolutionForErrorTenantNotAuthorized"
+diagnosticScenario="SolutionForErrorTenantNotAuthorized"
 selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
@@ -16,20 +16,31 @@ productPesIds="15526"
 cloudEnvironments="Public"
 ownershipId="CloudNet_VirtualNetwork"
 />
-# User-Defined Route Blocking Traffic to Resource
+# Solution for cross subscription virtual network peering
 <!--issueDescription-->
 
-This issue was caused by user-defined route (UDR) **'<!--$UDR-->[UDRName]<!--/$UDR-->'** that was blocking traffic from reaching the destination. By default, VMs in the same virtual network and peered virtual network can communicate with one another due to a system routing rule allowing intra Virtual Network connectivity. More information is available in online docs Virtual network traffic routing referenced below. I realize any UDRs blocking intra Vnet connectivity are typically intentional and for security compliance reasons. I've included some diagnostic tools available to you to help identify this type of issue in the future.
+The user setting up peering across subscriptions must have **'Network Contributor'** permissions on both subscriptions. There are also some additional considerations outlined below.
 
 <!--/issueDescription-->
 
 
 ## **Recommended Steps**
 
-* Remove the UDR that was blocking or
-* Create a routing rule with a higher (more specific) CIDR reference, such as, /32
+1. Please visit this [link](https://docs.microsoft.com/azure/virtual-network/create-peering-different-subscriptions) to resolve this issue when **both VNets are ARM**
+2. Please visit this [link](https://docs.microsoft.com/azure/virtual-network/create-peering-different-deployment-models-subscriptions) to resolve this issue when **Vnets are in different deployment models**
+3. If the virtual networks are in different subscriptions, and the subscriptions are associated with different Azure Active Directory tenants, complete the following steps before continuing with the Docs documentation:
+      1. Add the user from each Active Directory tenant as a guest user in the opposite Azure Active Directory tenant.
+      2. Each user must accept the guest user invitation from the opposite Azure Active Directory tenant.
+      3. Then run the following PowerShell command: 
+
+~~~PowerShell
+$vnetA=Get-AzVirtualNetwork -Name "VNET" -ResourceGroupName "RSGRP"
+Add-AzVirtualNetworkPeering -Name "PEERNAME" -VirtualNetwork $vnetA -RemoteVirtualNetworkId
+/subscriptions/SubscriptionID/resourceGroups/Default Networking/providers/Microsoft.ClassicNetwork/virtualNetworks/name
+~~~
 
 ## **Recommended Documents**
 
-* [Diagnose VM Network Traffic Filter Problem](https://docs.microsoft.com/azure/network-watcher/diagnose-vm-network-traffic-filtering-problem)
-* [Diagnose VM routing problems](https://docs.microsoft.com/azure/network-watcher/network-watcher-next-hop-overview)
+* [Create Peering from different subscriptions](https://docs.microsoft.com/azure/virtual-network/create-peering-different-subscriptions)
+* [Create Peering from different deployment models and in different subscriptions](https://docs.microsoft.com/azure/virtual-network/create-peering-different-deployment-models-subscriptions)
+* [Manage permissions for Peering setup](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#permissions)
