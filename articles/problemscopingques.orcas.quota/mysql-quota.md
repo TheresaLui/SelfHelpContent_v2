@@ -9,7 +9,7 @@
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-orcas-quota-mysql"
-ownershipId="AzureData_AzureDatabaseforMySQL"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # MySql Quota Questions
 ---
@@ -18,7 +18,7 @@ ownershipId="AzureData_AzureDatabaseforMySQL"
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "MySql-Quota",
-    "fileAttachmentHint": "Please upload your files",
+    "fileAttachmentHint": "Please upload your file to support your request",
     "formElements": [
         {
             "id": "quotaSubType",
@@ -75,7 +75,7 @@ ownershipId="AzureData_AzureDatabaseforMySQL"
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide additional information about your issue",
-            "required":  true,
+            "required":  "quotaSubType != null && quotaSubType === dont_know_answer",
             "useAsAdditionalDetails": true
         }
     ]
