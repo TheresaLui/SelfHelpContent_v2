@@ -14,7 +14,6 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="Public"
-    ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # New configuration failed on instance

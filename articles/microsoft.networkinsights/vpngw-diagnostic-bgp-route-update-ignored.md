@@ -14,7 +14,6 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="Public"
-    ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # BGP route update is ignored because of overlapping or missing subnets
