@@ -20,7 +20,7 @@
 # A crash was detected on Analysis Services instance
 
 <!--issueDescription-->
-We have identified there was a problem with your Analyses Services instance. A crash was detected during this time **<!--$IssueTime-->IssueTime<!--/$IssueTime-->** for this Analysis Services instance **<!--$InstanceName-->InstanceName<!--/$InstanceName-->**
+We have identified there was a problem with your Analysis Services instance. A crash was detected during this time **<!--$IssueTime-->IssueTime<!--/$IssueTime-->** for this Analysis Services instance **<!--$InstanceName-->InstanceName<!--/$InstanceName-->**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
