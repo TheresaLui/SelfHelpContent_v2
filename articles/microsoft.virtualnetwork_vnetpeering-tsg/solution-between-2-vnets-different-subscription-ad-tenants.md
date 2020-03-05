@@ -19,7 +19,7 @@ ownershipId="CloudNet_VirtualNetwork"
 # Check cross subscription virtual network peering
 <!--issueDescription-->
 
-From our interaction, it appears the your are looking for steps on how to setup VNet peering between VNets that are in different subscriptions or Active Directory Tenants
+From our interaction, it appears that you are looking for steps on how to setup VNet peering between VNets that are in different subscriptions or Active Directory Tenants
 
 <!--/issueDescription-->
 
