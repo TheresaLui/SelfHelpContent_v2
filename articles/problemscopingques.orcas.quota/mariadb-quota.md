@@ -1,23 +1,23 @@
 <properties
-    pageTitle="MySQL-Quota"
-    description="MySQL-Quota"
+    pageTitle="MariaDB-Quota"
+    description="MariaDB-Quota"
     authors="ambrahma"
     ms.author="ambrahma"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32684016"
+    supportTopicIds="32684015"
     productPesIds="15621"
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
-    articleId="problemscopingques-orcas-quota-mysql"
-    ownershipId="AzureData_AzureDatabaseforMySQL"
+    articleId="problemscopingques-orcas-quota-mariadb"
+    ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
-# MySQL Quota Questions
+# MariaDB Quota Questions
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "MySQL-Quota",
+    "title": "MariaDB-Quota",
     "fileAttachmentHint": "Please upload your file to support your request",
     "formElements": [
         {
@@ -29,7 +29,7 @@
             "required": "true",
             "dropdownOptions": [
                 {
-                    "text": "MySQL region enable",
+                    "text": "MariaDB region enable",
                     "value": "enableregion"
                 },
                 {
@@ -43,7 +43,7 @@
             "visibility": "quotaSubType != null && quotaSubType == enableregion",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel":"Please choose the region in which you want to have MySQL Server",
+            "displayLabel":"Please choose the region in which you want to have MariaDB Server",
             "watermarkText":"Choose a region",
             "required": true,
             "dynamicDropdownOptions": {
