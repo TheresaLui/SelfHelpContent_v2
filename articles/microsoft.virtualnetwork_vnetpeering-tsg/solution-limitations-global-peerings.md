@@ -3,6 +3,7 @@ pageTitle="Solution for Global Virtual Network Peering Constraints"
 description="Solution for Global Virtual Network Peering Constraints"
 infoBubbleText="Solution for Global Virtual Network Peering Constraints"
 service="microsoft.network"
+ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +15,6 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
 />
 # Solution for Global Virtual Network Peering Constraints
 <!--issueDescription-->
