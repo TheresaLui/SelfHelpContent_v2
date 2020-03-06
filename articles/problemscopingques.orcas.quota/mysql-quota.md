@@ -44,7 +44,7 @@
             "order": 2,
             "controlType": "numerictextbox",
             "displayLabel": "Capacity requesed (in VCores)",
-            "infoBalloonText": "<a href='https://aka.ms/mysqlpricing'>Learn more</a>.",
+            "infoBalloonText": "<a href='https://docs.microsoft.com/en-us/azure/mysql/concepts-pricing-tiers'>Learn more</a>.",
             "required": true
         },
         {
