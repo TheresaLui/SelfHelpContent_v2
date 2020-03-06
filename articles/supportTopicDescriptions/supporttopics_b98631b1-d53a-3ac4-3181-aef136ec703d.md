@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1ee404fa-ef5e-b82a-4bea-c754ddb40087",
+      "longDescription": "",
+      "shortDescription": "You have a problem with the configuration of AADConnect Health",
+      "searchTags": "AAD Connect Health;Configuring Connect Health;Connect Health Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "20271253-713d-85ee-3080-7922915fb867",
       "longDescription": "",
       "shortDescription": "You have a problem with the on-prem agent of AADConnect Health",
