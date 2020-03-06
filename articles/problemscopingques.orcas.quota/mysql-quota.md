@@ -70,7 +70,7 @@
             "required": true
         },
         {
-            "id": "business_justification",
+            "id": "problem_description",
             "visibility": "quotaSubType != null && quotaSubType == enableregion",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -84,7 +84,7 @@
             ]
         },
         {
-            "id": "problem_description",
+            "id": "other_problem_description",
             "visibility": "quotaSubType != null && quotaSubType == dont_know_answer",
             "order": 6,
             "controlType": "multilinetextbox",
