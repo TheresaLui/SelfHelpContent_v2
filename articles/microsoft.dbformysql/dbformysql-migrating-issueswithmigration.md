@@ -48,4 +48,5 @@ If you are using dump and restore:
 * [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql)<br>
 * [Azure Database Migration Guide](https://datamigration.microsoft.com/)<br>
 * [Data Migration Service](https://azure.microsoft.com/services/database-migration/)<br>
-* [Migrate MySQL using dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore/)
+* [Migrate MySQL using dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore/)<br>
+* [Migrate using MySQL Workbench Database Migration Wizard](https://dev.mysql.com/doc/workbench/en/wb-migration.html)
