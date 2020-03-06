@@ -3,6 +3,7 @@ pageTitle="Solution for how to setup peering between 2 Vnets in the same subscri
 description="Solution for how to setup peering between 2 Vnets in the same subscription and same region"
 infoBubbleText="Solution for how to setup peering between 2 Vnets in the same subscription and same region"
 service="microsoft.network"
+ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +15,6 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
 />
 # Step by step for connecting virtual networks same region, same subscription
 <!--issueDescription-->
