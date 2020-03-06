@@ -3,6 +3,7 @@ pageTitle="Get network traces and engage resources"
 description="Get network traces and engage resources"
 infoBubbleText="Get network traces and engage resources"
 service="microsoft.network"
+ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +15,6 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public, Fairfax"
-	ownershipId="CloudNet_VirtualNetwork"
 />
 # Get network traces and engage resources
 
