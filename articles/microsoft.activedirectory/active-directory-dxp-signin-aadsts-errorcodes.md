@@ -1,10 +1,10 @@
 <properties
     pageTitle="SignIn Issues"
-    description="Common sign in issues"
+    description="Common signin issues"
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
-    authors="vrjai"
+    authors="vritiJain"
     ms.author="vrjai"
     displayOrder="1"
     articleId="active-directory-dxp-signin-aadsts-errorcodes"
@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+    ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
 # Configuration Issue Preventing User Sign-In
