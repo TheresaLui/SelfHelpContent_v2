@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6bd5c8d1-aba5-2619-e27c-3510c87937da",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for activating, managing, or enabling passwordless authentication solutions ",
+      "searchTags": "passwordless;Paswordless Auth;Passwordless Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2640df7-d535-11de-c288-8e1c7b286c01",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating, managing, or client use of FIDO Security Keys. Assistance deploying or troubleshooting FIDO key use",
