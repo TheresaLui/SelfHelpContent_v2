@@ -7,6 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
     cloudEnvironments="Public"
+    ownershipId="CloudNet_TrafficManager"
 />
 # Add or move one endpoint to another Azure region
 ---

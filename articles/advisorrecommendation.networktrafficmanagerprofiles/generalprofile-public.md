@@ -7,6 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
     cloudEnvironments="Public"
+    ownershipId="CloudNet_TrafficManager"
 />
 # Add at least one more endpoint to the profile, preferably in another Azure region
 ---
