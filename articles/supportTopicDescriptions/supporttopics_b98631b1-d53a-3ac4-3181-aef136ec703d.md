@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "452f11c9-845e-da2b-a531-d39f6518c5b3",
+      "longDescription": "",
+      "shortDescription": "You have a problem with Azure AD Sign-in logs",
+      "searchTags": "AAD Sign in Logs;Sign in Logs",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6221fab0-c4f1-37c5-84f7-fc2af0de1d0a",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for ADFS",
