@@ -35,6 +35,7 @@ Most migration problems can be solved by working through the recommended steps.
 
 * If you are migrating yourself (e.g. using dump and restore) and encounter problems, consider using the [Data Migration Service](https://azure.microsoft.com/services/database-migration/)
 * If you are using the Data Migration Service and experience problems, work through the [step-by-step tutorials for Azure Database for MySQL](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online)
+* If you are migrating using the MySQL Workbench Database Migration Wizard, refer to the [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/wb-migration.html) documentation
 
 If you are using dump and restore:
 
