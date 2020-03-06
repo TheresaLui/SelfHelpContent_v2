@@ -42,7 +42,7 @@ By default, the Data Explorer returns query results in pages, with up to 100 res
 **Solution: ** You can have up to one Free Tier account in an Azure subscription. If the option does not appear, this means another account in the subscription is already enabled with Free Tier.
 
 ### Data Explorer does not load or show data  
-**Solution:** There is possibly a browser cache issue. Try to clear your browser cache or try from an incognito tab.
+**Solution:** Possibly there is a browser cache issue. Try cleaning your browser cache or try opening Data Explorer from an incognito tab.
 
 
 ### Unable to view data, stored procedures, UDFs, or triggers in Data Explorer
@@ -56,10 +56,6 @@ If you are accessing the Portal from outside the VNET and want to view data, you
 If you have followed these steps and receive a 403 "Unable to proceed with the request. Please check the authorization claims to ensure the required permissions to process the request" error, please contact us for support and provide the ActivityId of the message. The ActivityId can be found in the yellow notification bar at the bottom of the Data Explorer screen. 
 
 **Note** If you do not have permission to view or change VNET/Firewall settings for your account, contact your Cosmos account owner to enable the above.  
-
-
-
-
 
 ## **Recommended Documents**  
 
