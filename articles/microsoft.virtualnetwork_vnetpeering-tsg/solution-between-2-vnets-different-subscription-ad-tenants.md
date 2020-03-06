@@ -3,6 +3,7 @@ pageTitle="SolutionBetween2VnetsDifferentSubscriptionAdTenants"
 description="SolutionBetween2VnetsDifferentSubscriptionAdTenants"
 infoBubbleText="SolutionBetween2VnetsDifferentSubscriptionAdTenants"
 service="microsoft.network"
+ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +15,6 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
 />
 # Check cross subscription virtual network peering
 <!--issueDescription-->
