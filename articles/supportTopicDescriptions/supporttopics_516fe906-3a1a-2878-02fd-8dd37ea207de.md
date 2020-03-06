@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0fc93581-1a62-3006-bbe1-6aeff78e5862",
+      "longDescription": "",
+      "shortDescription": "One or more of my users received at least one unexpected Multi-Factor Authentication request I need assistance understanding why",
+      "searchTags": "MFA;MFA Auth;Multi user MFA issue",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
