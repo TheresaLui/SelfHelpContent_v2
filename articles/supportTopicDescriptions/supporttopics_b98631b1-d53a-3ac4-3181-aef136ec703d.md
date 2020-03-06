@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "325e4844-9068-66b7-2330-b90f31c2cb7f",
+      "longDescription": "",
+      "shortDescription": "You are using Azure AD sign-in logs and have an issue downloading the logs either using MS Graph API or Azure Portal",
+      "searchTags": "AAD Sign-in Logs;MS Graph API;Logs on Azure Portal;Download AAD Logs",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "35b2c0e0-1fa1-e0a1-d37f-ee363cdb0585",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for AAD Domain Services (DS)",
