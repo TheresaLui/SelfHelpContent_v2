@@ -27,6 +27,7 @@
             "displayLabel": "Quota Sub-type",
             "watermarkText": null,
             "required": "true",
+            "filter": false,
             "dropdownOptions": [
                 {
                     "text": "MySQL region enable",
