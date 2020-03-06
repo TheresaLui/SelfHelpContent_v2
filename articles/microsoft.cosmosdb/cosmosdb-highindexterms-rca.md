@@ -10,7 +10,7 @@
 	selfHelpType="rca"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	ownershipId="AzureData_AzureCosmosDB"
 />
 

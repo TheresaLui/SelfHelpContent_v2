@@ -38,6 +38,14 @@ If you plan to use a firewall, and access the cluster from outside on certai
 
 Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
 
+**Error: Unable to connect to cluster**
+
+Possible Solution: If you are using user-defined routes (UDRs), you should specify a route and allow outbound traffic from the VNET to the above IPs with the next hop set to "Internet".
+
+Please review the following links for more information:
+* [HDInsight Controlling network traffic](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#networktraffic)
+* [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)
+
 ## **Recommended Documents**
 
 * [Connectivity and Virtual Networks FAQ](https://docs.microsoft.com/en-au/azure/hdinsight/hdinsight-faq#connectivity-and-virtual-networks)

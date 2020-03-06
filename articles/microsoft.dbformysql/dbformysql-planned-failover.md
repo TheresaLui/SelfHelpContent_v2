@@ -11,8 +11,8 @@
 	diagnosticScenario="OrcasMySQLPlannedFailOver"
 	selfHelpType="rca"
 	resourceTags="servers, databases"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Can't connect MySQL database server
 

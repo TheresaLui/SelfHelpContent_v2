@@ -20,4 +20,4 @@
 ## **Recommended steps**
 
 The available extensions in Azure Database for PostgreSQL can be found in [this list](https://docs.microsoft.com/azure/postgresql/concepts-extensions).
-If you don't see an extension that you'd like to use, let us know: vote for existing requests or create new feedback requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql).
+If you don't see an extension that you'd like to use, let us know by upvoting existing requests or creating new feedback requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql).

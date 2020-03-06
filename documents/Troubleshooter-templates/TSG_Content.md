@@ -8,6 +8,7 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="<cloud environments>"
 	articleId="<Unique GUID identifying the Content step>"
+	ownershipId=""
 />
 
 # <Title for the step. This text is presented at the top of the card>

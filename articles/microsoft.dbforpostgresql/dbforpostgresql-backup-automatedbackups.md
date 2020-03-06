@@ -17,13 +17,16 @@
 
 # Automated backups
 
-Azure Database for PostgreSQL automatically takes backups of your server. The backups are used to support the point-in-time and geo restore features. Users do not have direct access to the backups and cannot change the timing of when backups are taken.Generally, full backups occur weekly and differential backups occur twice a day for servers with a max supported storage of 4 TB. Snapshot backups happen at least once a day for servers that support up to 16 TB of storage. Transaction log backups in both cases occur every five minutes. The default retention period for backups is 7 days and can be increased to 35 days.
+Azure Database for PostgreSQL automatically takes backups of your server. The backups are used to support the point-in-time and geo restore features. Users do not have direct access to the backups and cannot change the timing of when backups are taken. Generally, full backups occur weekly and differential backups occur twice a day for servers with a max supported storage of 4 TB. Snapshot backups happen at least once a day for servers that support up to 16 TB of storage. Transaction log backups in both cases occur every five minutes. The default retention period for backups is 7 days and can be increased to 35 days.
+
+Azure Database for PostgreSQL provides up to 100% of your provisioned server storage size as backup storage at no additional cost. Typically, this corresponds to a backup retention of 7 days. You can track this storage with the metric Backup Storage Used.
 
 You can choose to take a dump of a database on your server using [pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore).
 
 ## **Recommended Steps**
 
-* If you want to export the PostgreSQL database, review the [How-to export PostgreSQL database using pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-export-and-import)
+* Servers that can scale up to 16 TB do not yet have a backup storage metric available. Backups are being taken for these servers, as described above. Work is in progress to provide a backup storage metric.
+* These backup files cannot be exported and can only be used for restores in-service. If you want to export the PostgreSQL database, review the [How-to export PostgreSQL database using pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-export-and-import)
 
 ## **Recommended Documents**
 

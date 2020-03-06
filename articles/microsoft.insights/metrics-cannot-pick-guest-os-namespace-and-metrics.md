@@ -12,7 +12,7 @@
     supportTopicIds="32677615,32684744"
     resourceTags=""
     productPesIds="16250"
-    cloudEnvironments="public,fairfax"
+    cloudEnvironments="public,fairfax,mooncake,blackforest"
 	ownershipId="AzureMonitoring_Essentials"
 />
 

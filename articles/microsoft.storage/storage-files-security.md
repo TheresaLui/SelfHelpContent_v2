@@ -7,7 +7,7 @@
 	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602750,32602757,32629551"
+	supportTopicIds="32602750"
 	resourceTags="files,security"
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"

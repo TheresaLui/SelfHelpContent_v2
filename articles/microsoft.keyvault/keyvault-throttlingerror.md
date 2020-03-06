@@ -20,7 +20,7 @@
 # You have Key Vault recommendations
 
 <!--issueDescription-->
-The key vault '<!--$Vault-->Vault<!--/$Vault-->' was throttled. This occurs when too many requests are sent to the key vault at one time.
+The key vault was throttled. This occurs when too many requests are sent to the key vault at one time.
 <!--/issueDescription-->
 
 ## **Recommended Documents**

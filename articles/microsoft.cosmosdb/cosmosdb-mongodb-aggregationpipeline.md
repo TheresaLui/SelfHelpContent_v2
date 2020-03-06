@@ -9,7 +9,7 @@
 	supportTopicIds="32636766"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-mongodb-aggregationpipeline"
 	displayOrder="220"
 	category="MongoDB"

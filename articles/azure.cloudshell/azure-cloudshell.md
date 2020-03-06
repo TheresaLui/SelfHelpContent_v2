@@ -17,16 +17,13 @@
 
 # Azure Cloud Shell Issues
 
-Before continuing to create a case, ask yourself:
-
-* Is the Problem with Cloud Shell or the underlying Service? For example, if Cloud Shell is throwing an error or doesn't work with a particular browser, then continue to open a case. 
-* If the problem is not specific to Cloud Shell, please open a case with the respective technology
+Before continuing creating a case, please check if the problem is related to Cloud Shell or the underlying Service? For example, if Cloud Shell is throwing an error or doesn't work with a particular browser, then continue to open a case. If the problem is not specific to Cloud Shell, please open a case with the respective technology
 
 ## **Recommended Documents**
 
 * [Troubleshooting & Limitations of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/troubleshooting)<br>
 * [Overview of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview)<br>
 * [Get started with Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)<br>
-* [Troubleshoot Azure Files problems in Linux](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)<br>
+* [TroubleShoot Azure Files problems in Linux](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)<br>
 * [PowerShell in Azure Cloud Shell for Windows users](https://docs.microsoft.com/azure/cloud-shell/cloud-shell-windows-users)<br>
 * [Guide for users who are not familiar with Linux systems](https://docs.microsoft.com/powershell/azure/get-started-azureps)

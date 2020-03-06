@@ -11,8 +11,8 @@
     diagnosticScenario="OrcasMariaDBSlowLogin"
     selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Server is facing slow login issues
