@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "a2640df7-d535-11de-c288-8e1c7b286c01",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for activating, managing, or client use of FIDO Security Keys. Assistance deploying or troubleshooting FIDO key use",
+      "searchTags": "FIDO;Security Keys;Activating FIDO",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d7c569fd-538f-9ceb-f49c-39afd557d22a",
       "longDescription": "",
       "shortDescription": "Assistance needed for deploying or configuring Multi-Factor Authentication",
