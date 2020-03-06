@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0a42e576-a2fe-f4c1-014f-f5ae3d9a40e1",
+      "longDescription": "",
+      "shortDescription": "Assistance needed or issue found for mitigation of risk events I already investigated",
+      "searchTags": "Identity Protection;Identity Risk Events;Investigating Risk Events",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
