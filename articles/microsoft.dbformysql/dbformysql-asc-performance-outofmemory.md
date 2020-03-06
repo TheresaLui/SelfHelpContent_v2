@@ -18,7 +18,7 @@
 # Server is facing out of memory errors
 
 <!--issueDescription-->
-During our investigation we found that your server <!--$ServerName-->ServerName<!--/$ServerName--> is facing Out of Memory errors from <!--$StartTime-->StartTime<!--/$StartTime--> to <!--$EndTime-->EndTime<!--/$EndTime-->.
+During our investigation we found that your server <!--$ServerName-->ServerName<!--/$ServerName--> is facing Out of Memory errors from <!--$StartTime-->StartTime<!--/$StartTime--> to <!--$EndTime-->EndTime<!--/$EndTime--> (UTC).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
