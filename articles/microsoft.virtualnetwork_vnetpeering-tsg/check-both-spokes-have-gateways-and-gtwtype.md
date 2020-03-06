@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: Check if both spoke and hub vnets have VPN gateway"
 	description="TSG Content Step: Check if both spoke and hub vnets have VPN gateway"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
