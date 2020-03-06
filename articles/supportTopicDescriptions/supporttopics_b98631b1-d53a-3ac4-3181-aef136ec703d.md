@@ -21,10 +21,34 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "05cd9b77-514b-a50b-1f0a-6c329a16535a",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the Entitlement Management feature in Azure AD",
+      "searchTags": "ELM;Entitlement Management;AAD Entitlement Management",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "325e4844-9068-66b7-2330-b90f31c2cb7f",
+      "longDescription": "",
+      "shortDescription": "You are using Azure AD sign-in logs and have an issue downloading the logs either using MS Graph API or Azure Portal",
+      "searchTags": "AAD Sign-in Logs;MS Graph API;Logs on Azure Portal;Download AAD Logs",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "35b2c0e0-1fa1-e0a1-d37f-ee363cdb0585",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for AAD Domain Services (DS)",
       "searchTags": "AAD DS;AAD Domain Services;Connect Health alerts for DS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "452f11c9-845e-da2b-a531-d39f6518c5b3",
+      "longDescription": "",
+      "shortDescription": "You have a problem with Azure AD Sign-in logs",
+      "searchTags": "AAD Sign in Logs;Sign in Logs",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -45,10 +69,26 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b7bc5482-ee36-5ea9-36fd-0e4eb4c870af",
+      "longDescription": "",
+      "shortDescription": "You have a problem with AADConnect Health metrics and reports",
+      "searchTags": "AAD Connect Health;Connect Health metrics;Connect Health reports",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b940667a-fb5b-0326-e9e7-ffce2b932211",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for syncing from AAD",
       "searchTags": "AAD and Connect Health Sync;AAD Connect Health Alerts",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ca56fc16-ac42-a68e-6ac8-d4f77d83ab96",
+      "longDescription": "",
+      "shortDescription": "You are expecting to see data for a longer period of time (based on your license) and you are not seeing them",
+      "searchTags": "Missing logs data;Log data retention",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     }
