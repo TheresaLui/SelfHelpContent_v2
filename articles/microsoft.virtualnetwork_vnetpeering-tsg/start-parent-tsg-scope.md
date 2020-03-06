@@ -2,13 +2,13 @@
 	pageTitle="VNet Peering TSG"
 	description="VNet Peering Scope Check"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualNetwork"
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
 	cloudEnvironments="Public"
 	articleId="0d77621b-c095-46ca-96c9-e39dadd908f6"
-	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Check if this TSG applies to the customer scenario
