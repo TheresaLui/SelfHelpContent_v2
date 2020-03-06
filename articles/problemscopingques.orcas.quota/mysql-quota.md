@@ -28,7 +28,6 @@
             "watermarkText":"Choose a region",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quotaType",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
@@ -45,7 +44,7 @@
             "order": 2,
             "controlType": "numerictextbox",
             "displayLabel": "Capacity requesed (in VCores)",
-            "infoBalloonText": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a>.",
+            "infoBalloonText": "<a href='https://aka.ms/mysqlpricing'>Learn more</a>.",
             "required": true
         },
         {
