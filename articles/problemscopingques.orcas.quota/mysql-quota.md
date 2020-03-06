@@ -66,25 +66,20 @@
             "order": 3,
             "controlType": "numerictextbox",
             "displayLabel": "Please provide specific capacity for your request",
-            "infoBalloonText": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a> about vCore capacity.",
+            "infoBalloonText": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a> about vCores.",
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "business_justification",
             "visibility": "quotaSubType != null && quotaSubType == enableregion",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide business justification for your request",
-            "required": false,
-            "hints": [
-                {
-                    "text": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a> about vCore capacity."
-                }
-            ]
+            "required": false
         },
         {
-            "id": "other_problem_description",
+            "id": "problem_description",
             "visibility": "quotaSubType != null && quotaSubType == dont_know_answer",
             "order": 6,
             "controlType": "multilinetextbox",
