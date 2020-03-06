@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: check if p2s client can reach resources in Vnet with gateway"
 	description="TSG Content Step: check if p2s client can reach resources in Vnet with gateway"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
