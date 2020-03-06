@@ -18,16 +18,37 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "MySQL-Quota",
-    "fileAttachmentHint": "Please upload file to support your request",
+    "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "region_requested",
+            "id": "quotaType",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Quota type",
+            "watermarkText": null,
+            "required": "true",
+            "filter": false,
+            "dropdownOptions": [
+                {
+                    "text": "Region access",
+                    "value": "enableregion"
+                }
+            ],
+            "defaultDropdownOptions": {
+                "text": "Region access",
+                "value": "enableregion"
+            }
+        },
+        {
+            "id": "region_requested",
+            "visibility": "quotaType != null && quotaType == enableregion",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel":"Region requested",
             "watermarkText":"Choose a region",
             "required": true,
             "dynamicDropdownOptions": {
+                "dependsOn": "quotaType",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
@@ -41,19 +62,30 @@
         },
         {
             "id": "capacity_requested",
+            "visibility": "quotaType != null && quotaType == enableregion",
             "order": 2,
             "controlType": "numerictextbox",
             "displayLabel": "Capacity requesed (in VCores)",
-            "infoBalloonText": "<a href='https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers'>Learn more</a>.",
+            "infoBalloonText": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a>.",
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "business_justification",
+            "visibility": "quotaType != null && quotaType == enableregion",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
-            "required": false,
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "visibility": "quotaType != null && quotaType != enableregion",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe your quota request",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]
