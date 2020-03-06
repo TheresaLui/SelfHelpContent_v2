@@ -7,6 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
     cloudEnvironments="Fairfax"
+    ownershipId="CloudNet_TrafficManager"
 />
 # Add an endpoint configured to "All (World)"
 ---
