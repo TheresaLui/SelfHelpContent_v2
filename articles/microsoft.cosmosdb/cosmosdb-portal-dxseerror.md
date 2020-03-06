@@ -24,7 +24,7 @@
 * Load the Data Explorer in Incognito or private browsing mode. If the issue does not occur there, then clearing your cache in your original browsing session and reloading will resolve the issue. If the issue continues to occur in Incognito mode, please contact us for support. 
 
 
-**CosmosDB Data Explorer not loading and timeout error is thrown after a few minutes**
+**Cosmos DB Data Explorer not loading and timeout error is thrown after a few minutes**
 <br>Please try connecting to explorer using the [Sunset link](https://cosmos.azure.com/sunset/).  
 
 
@@ -39,7 +39,7 @@ By default, the Data Explorer returns query results in pages, with up to 100 res
 
 
 ### The option to enable Free Tier when creating a new account in the Azure Portal isn’t appearing. Where is the option?
-**Solution: ** You can have up to one Free Tier account in an Azure subscription. If the option doesn not appear, this means another account in the subscription is already enabled with Free Tier.
+**Solution: ** You can have up to one Free Tier account in an Azure subscription. If the option does not appear, this means another account in the subscription is already enabled with Free Tier.
 
 ### Data Explorer does not load or show data  
 **Solution:** There is possibly a browser cache issue. Try to clear your browser cache or try from an incognito tab.
