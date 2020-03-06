@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2dd46276-b8b3-2f89-431b-7a79260c25ec",
+      "longDescription": "",
+      "shortDescription": "You have a problem with installing AADConnect Health",
+      "searchTags": "Installing AAD Connect Health;Installing Connect Health",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "325e4844-9068-66b7-2330-b90f31c2cb7f",
       "longDescription": "",
       "shortDescription": "You are using Azure AD sign-in logs and have an issue downloading the logs either using MS Graph API or Azure Portal",
