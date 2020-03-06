@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "17cdafdb-427d-fb6a-c698-2228fc96678a",
+      "longDescription": "",
+      "shortDescription": "Questions about scaling operations or pricing model",
+      "searchTags": "scaling operations;pricing model",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
       "longDescription": "",
       "shortDescription": "You received the unknown MySQL server host error",
