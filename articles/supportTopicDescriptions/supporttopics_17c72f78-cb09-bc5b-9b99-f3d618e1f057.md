@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0f466c3a-c77a-24cc-a098-165b4f96c397",
+      "longDescription": "",
+      "shortDescription": "You have questions about the service automated backup capabilities",
+      "searchTags": "backup;automated backup",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1066e10f-de7d-fb47-8114-ea398f1a5688",
       "longDescription": "",
       "shortDescription": "You have questions about pricing tiers or purchasing model (vCores, storage, etc.)",
