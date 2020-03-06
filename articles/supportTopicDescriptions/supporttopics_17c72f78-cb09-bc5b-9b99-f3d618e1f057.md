@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80afd4f1-7c89-2f4d-e472-c76bbe12bc67",
+      "longDescription": "",
+      "shortDescription": "Your server resource consumption (CPU, Memory, IO) changed unexpectedly.",
+      "searchTags": "resource consumption;CPU;Memory;IO;Azure Monitor",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
