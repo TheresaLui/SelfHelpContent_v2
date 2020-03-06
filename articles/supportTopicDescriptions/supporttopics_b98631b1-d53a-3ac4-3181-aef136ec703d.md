@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b7bc5482-ee36-5ea9-36fd-0e4eb4c870af",
+      "longDescription": "",
+      "shortDescription": "You have a problem with AADConnect Health metrics and reports",
+      "searchTags": "AAD Connect Health;Connect Health metrics;Connect Health reports",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b940667a-fb5b-0326-e9e7-ffce2b932211",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for syncing from AAD",
