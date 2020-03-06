@@ -32,6 +32,10 @@
                 {
                     "text": "Region access",
                     "value": "enableregion"
+                },
+                {
+                    "text": "Other",
+                    "value": "dont_know_answer"
                 }
             ]
         },
@@ -66,13 +70,22 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "business_justification",
             "visibility": "quotaType != null && quotaType == enableregion",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
-            "required": false,
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "visibility": "quotaType != null && quotaType == dont_know_answer",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe your quota request",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]
