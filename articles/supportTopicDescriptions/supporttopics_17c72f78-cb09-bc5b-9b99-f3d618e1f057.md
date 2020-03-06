@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "788e907d-ec0e-3dc0-77d1-879fa4ecc6ce",
+      "longDescription": "",
+      "shortDescription": "You accidentially deleted a server and need assistance recovering it.",
+      "searchTags": "deleted server",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80afd4f1-7c89-2f4d-e472-c76bbe12bc67",
       "longDescription": "",
       "shortDescription": "Your server resource consumption (CPU, Memory, IO) changed unexpectedly.",
