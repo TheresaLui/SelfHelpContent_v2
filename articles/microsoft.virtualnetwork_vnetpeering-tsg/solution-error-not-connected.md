@@ -3,6 +3,7 @@ pageTitle="Solution For Not Connected Error"
 description="Solution For Not Connected Error"
 infoBubbleText="Solution For Not Connected Error"
 service="microsoft.network"
+ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +15,6 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Solution For Not Connected Error
