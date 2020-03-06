@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "97c6ffff-47d7-e19f-fb3e-6323e7209624",
+      "longDescription": "",
+      "shortDescription": "You have a problem with Azure AD Connect Health",
+      "searchTags": "AAD Connect Health;Connect Health;Configuring Connect Health",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b7bc5482-ee36-5ea9-36fd-0e4eb4c870af",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health metrics and reports",
