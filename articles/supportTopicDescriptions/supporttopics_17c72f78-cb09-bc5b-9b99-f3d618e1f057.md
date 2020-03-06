@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "079471d2-82a4-2c9b-6db3-b2e38710381a",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing overall slowness or a specific query is very slow",
+      "searchTags": "slow query;overall slowness;slowness;query is slow",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
       "longDescription": "",
       "shortDescription": "You received the unknown MySQL server host error",
