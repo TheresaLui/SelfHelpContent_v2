@@ -10,7 +10,7 @@
     selfHelpType="generic"
     supportTopicIds="32684756"
     productPesIds="16250"
-    cloudEnvironments="public,fairfax,mooncake"
+    cloudEnvironments="public,fairfax,mooncake,blackforest"
 	ownershipId="AzureMonitoring_Essentials"
 />
 

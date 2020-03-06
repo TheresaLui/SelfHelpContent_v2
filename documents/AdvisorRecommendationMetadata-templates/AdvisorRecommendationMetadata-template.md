@@ -6,6 +6,7 @@
     articleId=""
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments=""
+    ownershipId=""
 />
 # Sample title
 ---

@@ -16,16 +16,16 @@
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
-# Can't connect PostgreSQL database server because of VNET
+# Failed connections to PostgreSQL server due to firewall restriction
 
 <!--issueDescription-->
-There are <!--$Count-->Count<!--/$Count--> connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> failed during the period of <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of firewall rules. Firewall rules need to be configured to enable access to your Azure Database for PostgreSQL server.
+There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because the originating IP addresses are not allowed to access this server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* You can either specify a single IP address or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/postgresql/howto-manage-firewall-using-portal), the [Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-manage-firewall-using-cli), and our [REST API](https://docs.microsoft.com/rest/api/postgresql/).
-* If the server's IP appears to be public and you can ping or connect using telnet, connections to the Azure Database for PostgreSQL server are routed through a publicly accessible Azure gateway. However, the actual server IP is protected by the firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/postgresql/concepts-connectivity-architecture).
+* You can either specify a single IP address or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/postgresql/howto-manage-firewall-using-portal), the [Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-manage-firewall-using-cli), and our [REST API](https://docs.microsoft.com/rest/api/postgresql/). Alternatively, you can use [virtual network rules](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-vnet).
+* The server's IP may appear to be public because you can ping or connect using telnet. However, connections to an Azure Database for PostgreSQL server are first routed through a publicly accessible Azure gateway. The actual server is protected by a firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/postgresql/concepts-connectivity-architecture).
 
 ## **Recommended Documents**
 
