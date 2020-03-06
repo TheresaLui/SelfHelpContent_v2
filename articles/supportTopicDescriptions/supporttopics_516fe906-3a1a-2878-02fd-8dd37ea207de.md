@@ -59,6 +59,14 @@
       "searchTags": "Conditional Access;Configuring CA Policy;Conditional Access Policy",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fc160541-3775-bd33-3a5f-7230baae1238",
+      "longDescription": "",
+      "shortDescription": "I need assistance or found an issue when configuring Azure AD Identity Protection settings",
+      "searchTags": "Identity Protection;Configuring Identity Protection;Identity Protection settings",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
