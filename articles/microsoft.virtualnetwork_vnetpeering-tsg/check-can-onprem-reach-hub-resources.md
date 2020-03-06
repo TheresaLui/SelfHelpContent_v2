@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: Check if on prem resources can reach resources in VNet with Gateway"
 	description="TSG Content Step: Check if on prem resources can reach resources in VNet with Gateway"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
