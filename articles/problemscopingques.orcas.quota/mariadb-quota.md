@@ -17,7 +17,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "MariaDB-Quota"
+    "title": "MariaDB-Quota",
     "fileAttachmentHint": "",
     "formElements": [
         {

@@ -17,7 +17,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "PostgreSQL-Quota"
+    "title": "PostgreSQL-Quota",
     "fileAttachmentHint": "",
     "formElements": [
         {
