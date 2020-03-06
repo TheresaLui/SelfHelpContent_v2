@@ -66,7 +66,8 @@
             "order": 3,
             "controlType": "numerictextbox",
             "displayLabel": "Please provide specific capacity for your request",
-            "infoBalloonText": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a> about vCore capacity.""required": true
+            "infoBalloonText": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a> about vCore capacity.",
+            "required": true
         },
         {
             "id": "business_justification",
