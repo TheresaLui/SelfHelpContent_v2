@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dc7e31cc-9bef-5fad-4aed-fd1bfdb56949",
+      "longDescription": "",
+      "shortDescription": "Assistance needed or issue found while investigating risk events ",
+      "searchTags": "Risk Events;Identity Risk Events;Investigating Risk Events",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ed228605-ddb7-d2c3-626d-dae69939a1a6",
       "longDescription": "",
       "shortDescription": "I need help configuring a new or existing Conditional Access policy that fits my company needs",
