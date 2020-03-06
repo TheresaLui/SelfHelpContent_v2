@@ -38,7 +38,7 @@
 By default, the Data Explorer returns query results in pages, with up to 100 results per page. To view additional pages of results, select the **"Load more"** button under the results tab. You can adjust the maximum number of results per page in the Data Explorer **Settings** tab.  
 
 
-### The option to enable Free Tier when creating a new account in the Azure Portal isn’t appearing. Where is the option?
+### Enable Free Tier when creating a new account in the Azure Portal is not appearing. Where is the option?
 **Solution: ** You can have up to one Free Tier account in an Azure subscription. If the option does not appear, this means another account in the subscription is already enabled with Free Tier.
 
 ### Data Explorer does not load or show data  
