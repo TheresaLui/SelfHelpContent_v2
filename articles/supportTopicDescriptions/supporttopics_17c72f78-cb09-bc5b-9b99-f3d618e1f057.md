@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "98845e8f-7948-dd41-acfb-fc3ba7c27fc2",
+      "longDescription": "",
+      "shortDescription": "You are not able to create, update, or delete servers",
+      "searchTags": "create server;update server;delete server",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a04b8f02-df72-e33a-52ba-c7f209765ca5",
       "longDescription": "",
       "shortDescription": "Your server is experiencing high network latency while retrieving data from the server",
