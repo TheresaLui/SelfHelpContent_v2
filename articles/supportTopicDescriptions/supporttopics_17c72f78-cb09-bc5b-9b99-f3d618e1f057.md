@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5ed02c5b-b621-2957-4a44-41676d462998",
+      "longDescription": "",
+      "shortDescription": "Questions about creating, updating, or deleting servers or server configurations",
+      "searchTags": "creating;updating;deleting",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6a81d888-2538-d2cb-10ee-bd7757c1e971",
       "longDescription": "",
       "shortDescription": "You are experiencing unexpected behavior, errors or exceptions when executing a query.",
