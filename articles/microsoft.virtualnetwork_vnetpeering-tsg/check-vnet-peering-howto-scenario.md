@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: Check VNet Peering How To Scenario"
 	description="TSG Content Step: Check VNet Peering How To Scenario"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
