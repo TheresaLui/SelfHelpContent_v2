@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cbcd4bbb-bc9d-403f-967b-9cb4755a8985",
+      "longDescription": "",
+      "shortDescription": "You have questions about long term retention of backups",
+      "searchTags": "long term retention;long term backup",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "debfe99f-1099-3e2e-a93c-5aefef1465b5",
       "longDescription": "",
       "shortDescription": "You have questions about geo-redundant backups or are experiencing issues with performing a geo-restore operation",
