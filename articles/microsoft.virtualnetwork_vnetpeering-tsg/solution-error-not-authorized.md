@@ -1,7 +1,7 @@
 <properties
-pageTitle="Solution for error '<TENANT ID>' is not authorized to access linked subscription '<SUBID>'"
-description="Solution for error '<TENANT ID>' is not authorized to access linked subscription '<SUBID>'"
-infoBubbleText="Solution for error '<TENANT ID>' is not authorized to access linked subscription '<SUBID>'"
+pageTitle="Solution for error 'TENANT ID' is not authorized to access linked subscription 'SUBID'"
+description="Solution for error 'TENANT ID' is not authorized to access linked subscription 'SUBID'"
+infoBubbleText="Solution for error 'TENANT ID' is not authorized to access linked subscription 'SUBID'"
 service="microsoft.network"
 ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
