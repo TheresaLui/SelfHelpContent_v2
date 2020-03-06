@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
+      "searchTags": "Passwordless Authentication;Enable Passwordless Auth;Disable Passwordless Auth",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2640df7-d535-11de-c288-8e1c7b286c01",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating, managing, or client use of FIDO Security Keys. Assistance deploying or troubleshooting FIDO key use",
