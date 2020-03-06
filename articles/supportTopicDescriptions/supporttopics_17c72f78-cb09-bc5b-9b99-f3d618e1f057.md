@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6a81d888-2538-d2cb-10ee-bd7757c1e971",
+      "longDescription": "",
+      "shortDescription": "You are experiencing unexpected behavior, errors or exceptions when executing a query.",
+      "searchTags": "unexpected behavior;errors;exceptions;error while executing a query",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80afd4f1-7c89-2f4d-e472-c76bbe12bc67",
       "longDescription": "",
       "shortDescription": "Your server resource consumption (CPU, Memory, IO) changed unexpectedly.",
