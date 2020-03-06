@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8d5e5480-8edd-98b6-d69c-b441589a5dea",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues while scaling your server vCores, storage, or scaling between pricing tiers",
+      "searchTags": "scaling vCores;scaling  storage;scaling between pricing tier",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a04b8f02-df72-e33a-52ba-c7f209765ca5",
       "longDescription": "",
       "shortDescription": "Your server is experiencing high network latency while retrieving data from the server",
