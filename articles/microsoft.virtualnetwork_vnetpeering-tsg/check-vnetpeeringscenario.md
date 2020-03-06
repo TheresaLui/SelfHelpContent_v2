@@ -2,6 +2,7 @@
 	pageTitle="VNet Peering TSG"
 	description="VNet Peering Issue Scope Check"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
