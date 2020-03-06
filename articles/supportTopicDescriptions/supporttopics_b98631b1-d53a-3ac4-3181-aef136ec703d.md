@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20271253-713d-85ee-3080-7922915fb867",
+      "longDescription": "",
+      "shortDescription": "You have a problem with the on-prem agent of AADConnect Health",
+      "searchTags": "Configuring On-Prem Agent;AAD Connect Health ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "325e4844-9068-66b7-2330-b90f31c2cb7f",
       "longDescription": "",
       "shortDescription": "You are using Azure AD sign-in logs and have an issue downloading the logs either using MS Graph API or Azure Portal",
