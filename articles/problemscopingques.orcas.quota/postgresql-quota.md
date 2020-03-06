@@ -30,8 +30,8 @@
             "filter": false,
             "dropdownOptions": [
                 {
-                    "text": "Region access",
-                    "value": "enableregion"
+                    "text": "Location access",
+                    "value": "enablelocation"
                 },
                 {
                     "text": "Other",
@@ -40,12 +40,12 @@
             ]
         },
         {
-            "id": "region_requested",
-            "visibility": "quotaType != null && quotaType == enableregion",
+            "id": "location_requested",
+            "visibility": "quotaType != null && quotaType == enablelocation",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel":"Region requested",
-            "watermarkText":"Choose a region",
+            "displayLabel":"Location requested",
+            "watermarkText":"Choose a location",
             "required": true,
             "dynamicDropdownOptions": {
                 "dependsOn": "quotaType",
@@ -62,7 +62,7 @@
         },
         {
             "id": "capacity_requested",
-            "visibility": "quotaType != null && quotaType == enableregion",
+            "visibility": "quotaType != null && quotaType == enablelocation",
             "order": 3,
             "controlType": "numerictextbox",
             "displayLabel": "Capacity requesed (in VCores)",
@@ -71,7 +71,7 @@
         },
         {
             "id": "business_justification",
-            "visibility": "quotaType != null && quotaType == enableregion",
+            "visibility": "quotaType != null && quotaType == enablelocation",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
