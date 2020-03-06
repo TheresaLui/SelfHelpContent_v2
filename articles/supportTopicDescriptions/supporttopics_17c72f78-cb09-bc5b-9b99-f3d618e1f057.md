@@ -211,6 +211,14 @@
       "searchTags": "too many connections;error message ;number of connection;connection error;connection limit",
       "category": "Performance and Query Execution",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e4510a28-7375-4af4-e9d6-4b7ed39cb3aa",
+      "longDescription": "",
+      "shortDescription": "Your ARM template is not deploying successfully",
+      "searchTags": "ARM templates;azure resource manager",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
