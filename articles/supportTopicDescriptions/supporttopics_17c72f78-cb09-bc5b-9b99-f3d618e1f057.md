@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39fe0604-31ce-5b86-9ba5-14cd06e94f5d",
+      "longDescription": "",
+      "shortDescription": "Questions about backup, restore, and business continuity features.",
+      "searchTags": "backup;restore;business continuity",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3a67bd4f-0f8f-c1c3-b576-cc3881d16093",
       "longDescription": "",
       "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation",
