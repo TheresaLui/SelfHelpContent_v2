@@ -9,7 +9,6 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="Public"
 	articleId="653afd29-8caa-4216-bd50-cd9e4ea0af62"
-	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Check customer VNet Peering scenario
