@@ -12,6 +12,7 @@
 	productPesIds="16666"
 	articleId="3472d233-5761-4e03-9dc5-c987a5015bea"
 	cloudEnvironments="Public"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Problems with attribute mappings while provisioning users to an application

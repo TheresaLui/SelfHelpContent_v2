@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-viewing-alerts-questions-about-threat-hunting-feature"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # What is threat hunting and how does it work?

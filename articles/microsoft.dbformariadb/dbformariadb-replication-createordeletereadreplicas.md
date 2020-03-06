@@ -10,8 +10,9 @@
     supportTopicIds="32688608"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="fa0d8532-80d8-4dc8-98d8-d7dfdf0ef921"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Create and delete read replicas

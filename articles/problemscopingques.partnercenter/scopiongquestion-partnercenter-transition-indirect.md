@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_transition_indirect"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Transitioning to Indirect Reseller
 ---

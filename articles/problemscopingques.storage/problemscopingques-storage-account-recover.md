@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="2165ec52-93b8-4bad-bf52-2b24b8f186cf"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Recover deleted Storage Account
 ---

@@ -15,6 +15,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="operationalinsights-generalloganalytics-cannotunlinkautomation-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Cannot unlink Automation account

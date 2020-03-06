@@ -10,8 +10,9 @@
     supportTopicIds="32629254"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="abdc2tg3-706d-401c-b984-f993c12f1e9f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Replicate Azure Stack VMs to Azure using Azure Site Recovery

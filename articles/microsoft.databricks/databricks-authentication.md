@@ -11,6 +11,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="06e9edbc-48e1-4039-abd1-86b85944518e"
+	ownershipId="AzureData_AzureDatabricks"
 /> 
 
 # Azure Databricks User Authentication and Management

@@ -10,8 +10,9 @@
     supportTopicIds="32629200"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-tools-apis"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack APIs

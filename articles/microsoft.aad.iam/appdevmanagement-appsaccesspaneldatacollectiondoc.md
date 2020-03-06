@@ -8,7 +8,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleID="59f008b6-1525-48d0-aded-235559b387b3"
-    />
+    	ownershipId="AzureIdentity_EnterpriseApps"
+/>
 
 # Active Directory application access panel issue
 

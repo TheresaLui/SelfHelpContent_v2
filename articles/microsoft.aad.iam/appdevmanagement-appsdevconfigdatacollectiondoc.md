@@ -8,7 +8,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="2f4fd762-6cfe-4aef-9a03-4d8acce3f857"
-    />
+    	ownershipId="AzureIdentity_EnterpriseApps"
+/>
 
 # Active Directory application dev config issue
 

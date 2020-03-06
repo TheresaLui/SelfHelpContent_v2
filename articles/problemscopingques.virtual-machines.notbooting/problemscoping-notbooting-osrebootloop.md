@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32675601"
                 productPesIds="14749"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="f5adb39f-ffbc-4ea1-8c92-07c2473737be"
+	ownershipId="Compute_ComputePlatform"
 />
 # My VM is not booting
 ---

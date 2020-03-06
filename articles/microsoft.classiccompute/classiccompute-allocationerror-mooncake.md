@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="d943ee85-334a-43b8-9477-a177c2c5e1f8"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My deployment fails with allocation errors

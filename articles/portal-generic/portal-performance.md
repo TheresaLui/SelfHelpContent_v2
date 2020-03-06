@@ -10,8 +10,9 @@
 	supportTopicIds="32628243"
 	resourceTags=""
 	productPesIds="15739"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="ff5c1849-e669-4897-8db6-4c45b3c77a14"
+	ownershipId="Compute_AzurePortal"
 />
 
 # Azure Portal

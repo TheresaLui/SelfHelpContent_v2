@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-networking-unable-to-connect"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Unable to connect to the cluster
 ---

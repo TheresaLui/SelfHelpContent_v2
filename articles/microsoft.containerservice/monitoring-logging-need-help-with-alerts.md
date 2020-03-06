@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="monitoring-logging-need-help-with-alerts"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

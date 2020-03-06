@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="e753d062-0586-4b67-8796-19579a2c3c00"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Installation of Linux Agent

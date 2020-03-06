@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1498532c-9d01-4728-8531-6b38db50915b"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I can't connect to services offered through Azure Public peering

@@ -13,6 +13,7 @@
 	articleId="cosmosdb-billing-pricing"
 	displayOrder="100"
 	category="Billing and Pricing"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Pricing in Azure Cosmos DB  

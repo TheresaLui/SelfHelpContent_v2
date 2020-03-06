@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="8d97b345-1e49-4f57-ab5a-5815c12afd93"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # IoT Hub - IoT Overview

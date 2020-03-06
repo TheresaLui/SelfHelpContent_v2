@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="6cef8288-f233-47a6-9f87-55ce9ea360d7"
+	ownershipId="AzureIdentity_User"
 />
 
 # I don’t have permissions to access Identity Protection

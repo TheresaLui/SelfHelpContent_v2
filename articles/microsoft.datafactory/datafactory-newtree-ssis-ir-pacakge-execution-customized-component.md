@@ -11,7 +11,8 @@
 	supportTopicIds="32680897"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Execute SSIS Package - Customized Components Issues

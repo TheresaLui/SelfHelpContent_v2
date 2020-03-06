@@ -13,6 +13,7 @@
     resourceTags=""
     productPesIds="16986"
     cloudEnvironments="public"
+	ownershipId="AzureIdentity_Authorization"
 />
 
 # Azure Active Directory: Issues with service admins or co-admins

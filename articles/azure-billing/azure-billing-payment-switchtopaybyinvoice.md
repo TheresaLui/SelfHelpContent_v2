@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="payment-switchtopaybyinvoice"
+	ownershipId="ASMS_Billing"
 />
 
 # switch to pay by invoice

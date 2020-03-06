@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32583168"
 resourceTags=""
 productPesIds="16263"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="eg-portal"
 schemaVersion="1"
+	ownershipId="AzureEventGrid_Topics"
 />
 # Portal issues
 ---

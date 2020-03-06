@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-backuprestore-long-term-backup-and-retention-db"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Error while long-term-backup-and-retention
 ---

@@ -12,6 +12,7 @@
 	displayOrder="7"
 	cloudEnvironments="public"
 	articleID="azuremaps.imgettingincorrectmapdata"
+	ownershipId="AzureIot_AzureMaps"
 />
 
 # I'm getting incorrect map data

@@ -11,6 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="fd998feb-8d34-4497-bb9b-a9098cd909d7"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Enabling Seamless SSO authentication

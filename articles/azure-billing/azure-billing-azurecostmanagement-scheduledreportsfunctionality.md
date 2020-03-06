@@ -1,24 +1,25 @@
 <properties
-	pageTitle="scheduled reports functionality"
-	description="scheduled reports functionality"
+	pageTitle="Cost Management - export errors"
+	description="Cost Management - export errors"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
 	ms.author="prdasneo"
 	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32615298,32615297"
+	supportTopicIds="32615297"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Blackforest, Fairfax, Mooncake"
 	articleId="9af7896e-f094-4405-8449-c79778dcf15b"
+	ownershipId="ASMS_Billing"
 />
 
-# Scheduled reports functionality
+# Cost Management - export errors
 
 Daily recurring tasks can be created that automatically exports the Cost Management data to Azure storage. Exported data is in CSV format and contains all information collected by Cost Management. This exported data can then be combined with other data and integrated into external systems like a dashboard or other financial systems.
 
-Please note that export is available to all [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) customers.
+Please note Data export is available for a variety of Azure account types, including [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) and [Microsoft Customer Agreement customers](https://docs.microsoft.com/azure/cost-management-billing/costs/get-started-partners). To view the full list of supported account types, see [Understand Cost Management data](https://docs.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data).<br>
 
 ### Prerequisites
 
@@ -27,6 +28,8 @@ Add all users who will be setting up recurrent export tasks to one of the follow
 * Subscription Owner – Can create, modify, or delete scheduled exports for a subscription.
 * Subscription Contributor – Can create, modify, or delete their own scheduled exports. Can modify the name of scheduled exports created by others.
 * Subscription Reader – Can schedule exports that they have permission to.
+
+Learn more: [Prerequisites](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-export-acm-data#prerequisites)
 
 ### Create a daily report
 
@@ -47,8 +50,8 @@ Add all users who will be setting up recurrent export tasks to one of the follow
 ## **Recommended Documents**
 
 * [Create and Manage exported data](https://docs.microsoft.com/azure/cost-management/tutorial-export-acm-data)<br>
+* [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
 * [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
 * [Analyze your costs and spending](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
-* [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
 * [Explore and analyze costs with Cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
 * [Azure Cost Management: Pricing](https://azure.microsoft.com/pricing/details/cost-management/)<br>

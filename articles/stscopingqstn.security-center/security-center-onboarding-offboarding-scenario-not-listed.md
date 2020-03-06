@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="95e64bc2-e61c-4a48-bc65-7d2cd3a1e13f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center – Onboarding or Offboarding Agent – My Scenario is Not Listed

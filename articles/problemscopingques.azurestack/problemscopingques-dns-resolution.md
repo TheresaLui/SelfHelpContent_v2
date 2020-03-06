@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629210"
     productPesIds="16226"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-8526-36a830ea0098"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack DNS resolution questions
 ---

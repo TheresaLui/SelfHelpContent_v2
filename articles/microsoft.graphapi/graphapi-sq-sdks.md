@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="115e4513-d6db-436f-9820-8b5f4436b715"
-    />
+    	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Problem using the Microsoft Graph SDK or libraries
 

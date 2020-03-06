@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-identity-rbac-aad"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # RBAC and AAD related
 ---

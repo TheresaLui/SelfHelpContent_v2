@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16462"
 	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageTables"
 />
 
 # Development with Azure Table

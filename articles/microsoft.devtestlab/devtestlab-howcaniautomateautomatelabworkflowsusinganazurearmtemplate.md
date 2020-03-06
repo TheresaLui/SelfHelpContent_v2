@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public"
     articleId="b472c895-4fe2-4276-9bff-9b0e6578357e"
+	ownershipId="AzureLabServices_DevTestLab"
 />
 
 # How can I automate workflows in DevTest Labs using Azure Resource Manager template?

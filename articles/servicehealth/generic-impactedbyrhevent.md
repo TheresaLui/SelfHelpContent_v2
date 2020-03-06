@@ -9,7 +9,7 @@
 	articleId="Service-healthevent-genericrhevent"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleTags="healthannotation_genericrhevent"
 />
 

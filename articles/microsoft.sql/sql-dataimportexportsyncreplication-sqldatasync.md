@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="8953a223-c606-42bd-ae86-964c0db4e34c"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # data import, export, sync, replication/SQL data sync

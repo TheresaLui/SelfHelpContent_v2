@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="4eba55b5-707e-479b-ad28-cdf514a26a82"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot and resolve connectivity (throttling) issues

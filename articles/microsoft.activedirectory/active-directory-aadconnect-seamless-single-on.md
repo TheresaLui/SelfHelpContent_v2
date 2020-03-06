@@ -12,6 +12,7 @@
   productPesIds="16579,16666"
   cloudEnvironments="public"
   articleId="c300cc33-1cc1-4136-a957-b36423c13730"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Problems configuring and signing in with Azure AD Seamless Single Sign-on

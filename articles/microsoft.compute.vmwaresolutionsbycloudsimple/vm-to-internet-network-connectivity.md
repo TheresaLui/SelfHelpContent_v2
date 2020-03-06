@@ -12,6 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="b181aaef-75f4-4810-b37e-b03a74bc48b6"    
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Troubleshooting internet connectivity from a VM 

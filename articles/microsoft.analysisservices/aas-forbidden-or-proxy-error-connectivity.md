@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="f9edd860-e767-1d4c-9221-5116896d16e1"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Azure SQL Database gateway IP addresses

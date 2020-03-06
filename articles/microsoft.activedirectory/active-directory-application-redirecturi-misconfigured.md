@@ -13,6 +13,7 @@
 	productPesIds="16575"
 	CloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="active-directory-application-redirecturi-misconfigured"
+	ownershipId="AzureIdentity_EnterpriseApps"
 />
 # I received an error related to the reply url
 
@@ -20,7 +21,7 @@ Redirect URI/reply URLs (both expressions are interchangeable) are the URL used 
 
 ## **Recommended Steps**
 
-### **I don't know how to register the right redirect URI / reply URL for my app**
+### I don't know how to register the right redirect URI / reply URL for my app
 
 When you sign in with the application you are developing, if the sign-in dialog displays `AADSTS50011: The reply url specified in the request does not match the reply urls configured for the application <your app ID>`, you'll need to add to your application registration, the redirect URI that your code used in the token request to the Microsoft identity platform.
 
@@ -42,11 +43,11 @@ The Azure portal app registration will help you. For details see [Platform confi
 
 **NOTE**: Web APIs, and some of the silent ways of acquiring tokens (Windows Integrated Authentication and username password) don't require a redirect URI.
 
-### **I've deployed my web application and when I test the deployed app, I get a reply url mismatch message**
+### I've deployed my web application and when I test the deployed app, I get a reply url mismatch message
 
 When you deploy your web application, you need to add redirect URIs for all the locations where you deploy it. See [Register a web app app using Azure portal](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-sign-user-app-registration?tabs=aspnetcore#register-an-app-using-azure-portal).
 
-### **I can't register enough reply URLs**
+### I can't register enough reply URLs
 
 You're an ISV and have one or several redirect URIs per your customers. You want to migrate from ADAL/Azure AD v1.0 to MSAL/the Microsoft identity platform and you hit the [maximum number of redirect URIs](https://docs.microsoft.com/azure/active-directory/develop/reply-url#maximum-number-of-redirect-uris). To resolve this, [add redirect URIs to service principals](https://docs.microsoft.com/azure/active-directory/develop/reply-url#add-redirect-uris-to-service-principals) corresponding to each of your customers.
 

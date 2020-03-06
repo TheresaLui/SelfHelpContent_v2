@@ -12,6 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="7cb47fe5-af77-49ea-b7f7-6f7c56756cb2"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Deployment and Setup

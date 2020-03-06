@@ -13,6 +13,7 @@
 	articleId="cosmosdb-function-triggers"
 	displayOrder="123"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Functions trigger for Cosmos DB

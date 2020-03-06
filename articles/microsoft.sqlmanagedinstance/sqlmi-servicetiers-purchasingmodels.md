@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
     articleId="9372d04b-2250-4ff5-8587-00b9afa9ff1d"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Purchasing models

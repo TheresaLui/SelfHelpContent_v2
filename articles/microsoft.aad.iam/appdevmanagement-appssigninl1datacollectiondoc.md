@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="f394c94f-4550-4d6c-87ec-84a57305bfcd"
-    />
+    	ownershipId="AzureIdentity_EnterpriseApps"
+/>
 
 # Active Directory application sign in L1 issue
 

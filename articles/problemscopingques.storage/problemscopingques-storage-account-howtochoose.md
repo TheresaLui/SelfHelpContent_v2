@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="FECE3A7B-B31A-4E14-81C4-BCE468175A11"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Help with choosing an account type
 ---

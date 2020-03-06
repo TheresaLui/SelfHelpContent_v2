@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="647b4ea7-5291-408c-956c-a89fdc578927"
-    />
+    	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Problem with querying or provisioning resources
 

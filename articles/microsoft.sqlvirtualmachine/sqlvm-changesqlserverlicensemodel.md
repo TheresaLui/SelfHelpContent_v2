@@ -12,6 +12,7 @@
 	resourceTags="WindowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # licensing/changing sql licensing model

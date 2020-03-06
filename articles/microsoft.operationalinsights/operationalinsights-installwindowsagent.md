@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="3ed5318e-9351-4113-9be2-8ac667f1ed53"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Installation of Windows Agent

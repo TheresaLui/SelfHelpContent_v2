@@ -13,6 +13,7 @@
 	articleId="cosmosdb-portal-metrics"
 	displayOrder="262"
 	category="Monitoring"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 

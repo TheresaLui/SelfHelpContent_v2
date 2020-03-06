@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="c2b5715b-82a9-461d-8e14-bc4a399b08cf"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # portal and client tools/my issue is not listed

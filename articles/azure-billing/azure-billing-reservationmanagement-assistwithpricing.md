@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="reserved instance- assist with pricing"
+	ownershipId="ASMS_Billing"
 />
 
 # Reserved Instance- How am I billed for Windows and SQL when reservation discounts is applied?

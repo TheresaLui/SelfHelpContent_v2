@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="51f6b586-c2a9-4744-b7d3-8f01cef66201"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob and ADLS performance issue
 ---

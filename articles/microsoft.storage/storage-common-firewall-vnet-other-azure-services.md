@@ -13,6 +13,7 @@
 	resourceTags=""
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="2e1253fe-1a0a-4e87-98fb-757e7b33df75"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot and resolve Azure Storage Firewall & Virtual Network issues 

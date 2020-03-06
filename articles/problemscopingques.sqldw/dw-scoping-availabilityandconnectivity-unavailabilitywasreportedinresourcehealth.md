@@ -7,8 +7,9 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635223"
     productPesIds="15818"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Availability and Connectivity - Unavailability was reported in Resource Health

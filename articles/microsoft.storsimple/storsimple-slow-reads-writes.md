@@ -14,6 +14,7 @@
 	resourceTags="8000Series"
 	productPesIds="15438"	
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Read or write to volume/share is slow

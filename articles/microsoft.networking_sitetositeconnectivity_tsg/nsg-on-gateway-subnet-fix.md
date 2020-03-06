@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="50f999b7-9c52-406e-85a5-e306291fd10d"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Update NSG on Gateway subnet

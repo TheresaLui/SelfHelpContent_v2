@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="68662AF6-4C88-4D74-89FC-4EAE9239A246"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File connectivity issues - Linux
 ---

@@ -11,7 +11,8 @@
     diagnosticScenario="OrcasMariaDBConnectionPool"
     selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # High percentage of short-lived connections

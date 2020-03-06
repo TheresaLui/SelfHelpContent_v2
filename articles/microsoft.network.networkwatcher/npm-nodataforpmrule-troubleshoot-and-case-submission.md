@@ -12,6 +12,7 @@
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 	articleId="npm-nodataforpmrule-troubleshoot-and-case-submission"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # NPM for Performance Monitor

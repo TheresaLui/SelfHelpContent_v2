@@ -12,6 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     articleId="484b506b-cd37-45aa-b0eb-ea11c390a70b"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Troubleshooting conditional access policies in Azure Active Directory

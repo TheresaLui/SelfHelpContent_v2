@@ -13,6 +13,7 @@ pageTitle="Azure AD Connect Sync Service is not running"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure AD Connect Sync Service is not running

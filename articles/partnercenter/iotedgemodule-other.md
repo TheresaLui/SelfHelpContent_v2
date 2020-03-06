@@ -14,6 +14,7 @@
 	resourceTags="isv"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Frequently asked questions related to IoT Edge modules

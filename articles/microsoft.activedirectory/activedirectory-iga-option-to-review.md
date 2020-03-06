@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="0e37d7ec-0ca8-4795-a24b-0a89667f6b95"
+	ownershipId="AzureIdentity_User"
 />
 
 # I do not see an option to review directory or Azure resource roles

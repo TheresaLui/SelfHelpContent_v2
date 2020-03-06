@@ -12,6 +12,7 @@
 	productPesIds="16160"
     articleId="npm-agenticmponly-troubleshoot-and-case-submission"
 	cloudEnvironments="public,fairfax"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Node shows supported protocol as ICMP only in the Nodes page

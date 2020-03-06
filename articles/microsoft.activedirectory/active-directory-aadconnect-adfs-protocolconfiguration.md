@@ -12,6 +12,7 @@
 	productPesIds="16579"
     cloudEnvironments="public"
     	articleId="8fe71a43-0175-436a-b351-29bcf585f596"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Help configuring an application with OAuth, OIDC, WS-FED, or SAML

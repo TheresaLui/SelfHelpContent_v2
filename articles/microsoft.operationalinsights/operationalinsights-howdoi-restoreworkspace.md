@@ -15,6 +15,7 @@ supportTopicIds="32612520"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Restore deleted workspace

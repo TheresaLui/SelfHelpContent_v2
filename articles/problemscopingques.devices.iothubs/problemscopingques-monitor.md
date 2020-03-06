@@ -9,6 +9,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="ef89b825-e087-47a9-9e2a-d69bd438025b"
+	ownershipId="AzureIot_IotHub"
 />
 # Metrics, logs, or alerts
 ---

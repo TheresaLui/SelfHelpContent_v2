@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="4c64e0b4-fe08-45af-a99b-11ea0d087abe"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE Payload is Invalid

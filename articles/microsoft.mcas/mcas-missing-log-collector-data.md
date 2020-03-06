@@ -10,10 +10,11 @@
 	articleId="mcas-cloud-discovery-data"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32574680, 32574681, 32574656, 32574665, 32574659, 32574661, 32574667"
+	supportTopicIds="32728969, 32728972"
 	resourceTags=""
 	productPesIds="16031"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I'm having a problem with setting up or getting data from my log collector

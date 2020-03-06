@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="7c988a1e-e496-4db8-8b69-c459e711a975"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 #  SAP common questions about backing up Azure VMs with the Azure Backup service

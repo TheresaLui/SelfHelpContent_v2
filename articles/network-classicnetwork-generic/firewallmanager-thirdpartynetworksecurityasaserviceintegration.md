@@ -12,6 +12,7 @@
     productPesIds="16922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="third-party-network-security-as-a-service-integration"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Third Party Network Security as a Service Integration
 

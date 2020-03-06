@@ -10,8 +10,9 @@
     supportTopicIds="32629282"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-vpn"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack VPN for User Environment

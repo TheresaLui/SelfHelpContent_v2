@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="ebb6b8c3-d6f6-4a25-8547-b63fdbf1e9bb"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE Timeout

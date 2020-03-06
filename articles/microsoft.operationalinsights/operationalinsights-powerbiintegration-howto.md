@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="3be234ad-0989-45bf-95d4-cf886e3d1466"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # powerbiintegration-howto

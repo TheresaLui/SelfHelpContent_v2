@@ -12,6 +12,7 @@
 	productPesIds="16953,16954,16955,16956,16575"
 	cloudEnvironments="public"
 	articleId="e51e8e70-4e92-43fa-a581-724108a9d574"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Microsoft Graph SDK and client libray issues

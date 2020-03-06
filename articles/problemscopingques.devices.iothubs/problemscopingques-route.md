@@ -9,6 +9,7 @@
   cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
   schemaVersion="1"
   articleId="53fe32ef-1e90-4ff9-943d-8b55e8abb4bc"
+	ownershipId="AzureIot_IotHub"
 />
 # Routing issues
 ---

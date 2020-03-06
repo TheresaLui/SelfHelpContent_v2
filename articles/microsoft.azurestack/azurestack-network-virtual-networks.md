@@ -10,8 +10,9 @@
     supportTopicIds="32629277,32629281"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-virtual-networks"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Virtual Networks

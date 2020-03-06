@@ -8,7 +8,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="7d573624-e0cc-47f2-8da7-3e175d927dc5"
-    />
+    	ownershipId="AzureIdentity_B2B"
+/>
 
 # Problem with passowrd write back
 

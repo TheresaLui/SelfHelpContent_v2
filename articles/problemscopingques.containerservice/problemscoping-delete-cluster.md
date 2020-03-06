@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="1867706f-05f0-428c-9abe-6169fe1efe8c"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Cluster deletion
 ---

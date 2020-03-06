@@ -10,6 +10,7 @@ supportTopicIds="32612514"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Query produces error, times out or too slow 

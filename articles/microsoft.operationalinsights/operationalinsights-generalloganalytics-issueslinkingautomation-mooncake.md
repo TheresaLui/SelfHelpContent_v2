@@ -15,6 +15,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="operationalinsights-generalloganalytics-issueslinkingautomation-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues linking Automation account

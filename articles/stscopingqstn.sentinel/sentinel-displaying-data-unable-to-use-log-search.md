@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-displaying-data-unable-to-use-log-search"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Unable to use log search

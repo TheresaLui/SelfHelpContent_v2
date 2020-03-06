@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="3acf22fa-846f-4d1c-8142-83d58d2caa82"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Asymmetric Routing with VPN Gateway
