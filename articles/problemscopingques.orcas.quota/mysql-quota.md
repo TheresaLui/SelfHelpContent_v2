@@ -66,15 +66,15 @@
             "order": 3,
             "controlType": "numerictextbox",
             "displayLabel": "Please provide specific capacity for your request",
-            "watermarkText": "For example, 30 General purpose vCores",
             "required": true
-        }, {
-			"id": "learn_more_text",
+        },
+        {
+            "id": "learn_more_text",
             "visibility": "quotaSubType != null && quotaSubType == enableregion",
-			"order": 4,
-			"controlType": "infoblock",
-			"content": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a> about vCore capacity."
-		},
+            "order": 4,
+            "controlType": "infoblock",
+            "content": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a> about vCore capacity."
+        },
         {
             "id": "business_justification",
             "visibility": "quotaSubType != null && quotaSubType == enableregion",
