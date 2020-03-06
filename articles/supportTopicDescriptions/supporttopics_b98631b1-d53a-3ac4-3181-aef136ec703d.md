@@ -67,6 +67,14 @@
       "searchTags": "AAD and Connect Health Sync;AAD Connect Health Alerts",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ca56fc16-ac42-a68e-6ac8-d4f77d83ab96",
+      "longDescription": "",
+      "shortDescription": "You are expecting to see data for a longer period of time (based on your license) and you are not seeing them",
+      "searchTags": "Missing logs data;Log data retention",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
