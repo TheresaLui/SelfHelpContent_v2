@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: check gateway transit requirements for vnet peering"
 	description="TSG Content Step: check gateway transit requirements for vnet peering"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
