@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: Check on prem device config for remote range"
 	description="TSG Content Step: Check on prem device config for remote range"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
