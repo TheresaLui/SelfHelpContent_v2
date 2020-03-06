@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a04b8f02-df72-e33a-52ba-c7f209765ca5",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing high network latency while retrieving data from the server",
+      "searchTags": "high network latency;network latency;select latency;latency issue",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a1f3e0ec-c33b-9950-8221-81fd2e25ed37",
       "longDescription": "",
       "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
