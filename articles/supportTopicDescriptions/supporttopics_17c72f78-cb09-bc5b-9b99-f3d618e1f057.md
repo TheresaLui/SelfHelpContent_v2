@@ -6,8 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" 	ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
@@ -21,6 +20,14 @@
   "productLink3": null,
   "productLinkName3": null,
   "supportTopics": [
+    {
+      "id": "079471d2-82a4-2c9b-6db3-b2e38710381a",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing overall slowness or a specific query is very slow",
+      "searchTags": "slow query;overall slowness;slowness;query is slow",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
       "longDescription": "",
@@ -38,11 +45,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "48654864-f63d-d25d-20db-e9826bf497ef",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing high network latency while attempting to connect",
+      "searchTags": "login latency;network latency;bandwidth",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
       "longDescription": "",
-      "shortDescription": "You received the (unknown MySQL server host) error",
-      "searchTags": "unknown mysql server host;Database is currently unavailable;unavailable",
+      "shortDescription": "You received the (too many connections) error message.",
+      "searchTags": "too many connections;connection limit;connections;maximum connection limit",
       "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a04b8f02-df72-e33a-52ba-c7f209765ca5",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing high network latency while retrieving data from the server",
+      "searchTags": "high network latency;network latency;select latency;latency issue",
+      "category": "Performance and Query Execution",
       "useInDiagnoseAndSolve": "true"
     },
     {

@@ -27,6 +27,14 @@
       "searchTags": "FIDO;Security Keys;Activating FIDO",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d7c569fd-538f-9ceb-f49c-39afd557d22a",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for deploying or configuring Multi-Factor Authentication",
+      "searchTags": "Multi-Factor Authentication;Deploying MFA;Configuring MFA",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
