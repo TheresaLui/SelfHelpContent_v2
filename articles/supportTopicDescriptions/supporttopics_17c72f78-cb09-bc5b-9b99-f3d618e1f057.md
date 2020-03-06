@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "debfe99f-1099-3e2e-a93c-5aefef1465b5",
+      "longDescription": "",
+      "shortDescription": "You have questions about geo-redundant backups or are experiencing issues with performing a geo-restore operation",
+      "searchTags": "geo-redundant backup",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e33905a1-7fc1-cd80-b21a-3c5dab250e8b",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
