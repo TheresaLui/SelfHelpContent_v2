@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: Check p2s Tsg"
 	description="TSG Content Step: Check p2s Tsg"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
