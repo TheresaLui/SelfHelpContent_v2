@@ -21,10 +21,26 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "079471d2-82a4-2c9b-6db3-b2e38710381a",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing overall slowness or a specific query is very slow",
+      "searchTags": "slow query;overall slowness;slowness;query is slow",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1066e10f-de7d-fb47-8114-ea398f1a5688",
       "longDescription": "",
       "shortDescription": "You have questions about pricing tiers or purchasing model (vCores, storage, etc.)",
       "searchTags": "pricing tiers;purchasing model;vCores;storage",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "17cdafdb-427d-fb6a-c698-2228fc96678a",
+      "longDescription": "",
+      "shortDescription": "Questions about scaling operations or pricing model",
+      "searchTags": "scaling operations;pricing model",
       "category": "Scaling a resource",
       "useInDiagnoseAndSolve": "true"
     },
@@ -45,11 +61,51 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "48654864-f63d-d25d-20db-e9826bf497ef",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing high network latency while attempting to connect",
+      "searchTags": "login latency;network latency;bandwidth",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6a81d888-2538-d2cb-10ee-bd7757c1e971",
+      "longDescription": "",
+      "shortDescription": "You are experiencing unexpected behavior, errors or exceptions when executing a query.",
+      "searchTags": "unexpected behavior;errors;exceptions;error while executing a query",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "80afd4f1-7c89-2f4d-e472-c76bbe12bc67",
+      "longDescription": "",
+      "shortDescription": "Your server resource consumption (CPU, Memory, IO) changed unexpectedly.",
+      "searchTags": "resource consumption;CPU;Memory;IO;Azure Monitor",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "831acffb-4b91-59f3-157b-70a3f6de859f",
       "longDescription": "",
-      "shortDescription": "You received the (unknown MySQL server host) error",
-      "searchTags": "unknown mysql server host;Database is currently unavailable;unavailable",
+      "shortDescription": "You received the (too many connections) error message.",
+      "searchTags": "too many connections;connection limit;connections;maximum connection limit",
       "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8d5e5480-8edd-98b6-d69c-b441589a5dea",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues while scaling your server vCores, storage, or scaling between pricing tiers",
+      "searchTags": "scaling vCores;scaling  storage;scaling between pricing tier",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a04b8f02-df72-e33a-52ba-c7f209765ca5",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing high network latency while retrieving data from the server",
+      "searchTags": "high network latency;network latency;select latency;latency issue",
+      "category": "Performance and Query Execution",
       "useInDiagnoseAndSolve": "true"
     },
     {
