@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="appinsights-failures-operations-missing"
     productPesIds="15693"
-    supportTopicIds="32684688"
+    supportTopicIds="32729628"
     cloudEnvironments="public, Fairfax"
      ownershipId="AzureMonitoring_AzureMetrics"
 />
