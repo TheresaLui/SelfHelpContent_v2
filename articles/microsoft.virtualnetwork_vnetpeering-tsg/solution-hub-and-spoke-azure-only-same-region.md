@@ -3,6 +3,7 @@ pageTitle="SolutionHubAndSpokeAzureOnlySameRegion"
 description="SolutionHubAndSpokeAzureOnlySameRegion"
 infoBubbleText="SolutionHubAndSpokeAzureOnlySameRegion"
 service="microsoft.network"
+ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +15,6 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
 />
 # Check for service chaining requirements in a hub and spoke topology
 <!--issueDescription-->
