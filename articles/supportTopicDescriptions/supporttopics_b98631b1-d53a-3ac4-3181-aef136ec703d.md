@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7e022ccb-36da-542f-de01-304524f68ca0",
+      "longDescription": "",
+      "shortDescription": "You are receiving a notification that your AADConnect Health data is not up to date",
+      "searchTags": "Outdated AAD Connect Health;Update AAD Connect Health ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8dd06064-5521-af7d-5ebb-2f2ea231a23c",
       "longDescription": "",
       "shortDescription": "You are using Azure Monitor for Azure AD logs integration and have an issue with it or can not see the logs as expected",
