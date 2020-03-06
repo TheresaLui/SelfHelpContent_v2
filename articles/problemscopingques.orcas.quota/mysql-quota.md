@@ -33,11 +33,7 @@
                     "text": "Region access",
                     "value": "enableregion"
                 }
-            ],
-            "defaultDropdownOptions": {
-                "text": "Region access",
-                "value": "enableregion"
-            }
+            ]
         },
         {
             "id": "region_requested",
@@ -63,29 +59,20 @@
         {
             "id": "capacity_requested",
             "visibility": "quotaType != null && quotaType == enableregion",
-            "order": 2,
+            "order": 3,
             "controlType": "numerictextbox",
             "displayLabel": "Capacity requesed (in VCores)",
             "infoBalloonText": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a>.",
             "required": true
         },
         {
-            "id": "business_justification",
+            "id": "problem_description",
             "visibility": "quotaType != null && quotaType == enableregion",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
-            "required": false
-        },
-        {
-            "id": "problem_description",
-            "visibility": "quotaType != null && quotaType != enableregion",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Describe your quota request",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true
         }
     ]
