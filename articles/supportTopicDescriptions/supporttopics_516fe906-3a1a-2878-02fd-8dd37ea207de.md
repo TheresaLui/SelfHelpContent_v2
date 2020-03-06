@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "af69e073-7ebb-6bc5-8427-eb5ccc8caf28",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
+      "searchTags": "AAD Identity Protection;Identity Protection;Identity Risk event;Configure Identity Protection",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d7c569fd-538f-9ceb-f49c-39afd557d22a",
       "longDescription": "",
       "shortDescription": "Assistance needed for deploying or configuring Multi-Factor Authentication",
