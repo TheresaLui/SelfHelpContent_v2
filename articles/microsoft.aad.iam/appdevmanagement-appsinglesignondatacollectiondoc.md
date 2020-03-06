@@ -199,7 +199,8 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
-            "numberOfLines": 3
+            "numberOfLines": 3,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
