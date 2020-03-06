@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1066e10f-de7d-fb47-8114-ea398f1a5688",
+      "longDescription": "",
+      "shortDescription": "You have questions about pricing tiers or purchasing model (vCores, storage, etc.)",
+      "searchTags": "pricing tiers;purchasing model;vCores;storage",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "17cdafdb-427d-fb6a-c698-2228fc96678a",
       "longDescription": "",
       "shortDescription": "Questions about scaling operations or pricing model",
