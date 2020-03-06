@@ -21,14 +21,16 @@ Most users are able to resolve their Throughput Autopilot issue using the steps 
 
 ## **Recommended Steps**  
 
-### **Cannot find option to enable Autopilot?**  
+### Cannot find option to enable Autopilot?  
 Autopilot has been registered for all users. Autopilot can only be enabled while creating new databases and containers from the Azure Portal.
 - Support for CLI and SDK is not yet available
 - Support to enable autopilot mode on existing containers and databases is not yet available
 
-### **I am trying to create the tables programmatically using ARM templates and cannot find the context for autopilot setting**
+### I am trying to create the tables programmatically using ARM templates and cannot find the context for autopilot setting
 - Support for CLI and SDK is not yet available
 
+### Can I apply the Free Tier discount to autopilot databases and containers?
+**Answer:** Yes. With autopilot, you are billed for the highest RUs the database or container scales to in the hour. When the free tier discount is applied, 400 RUs will be subtracted from that value. See our documentation for examples and details.  
 
 ### **FAQ**
 **Is Autopilot supported on shared throughput databases?**
