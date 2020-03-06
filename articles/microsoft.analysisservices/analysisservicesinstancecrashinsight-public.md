@@ -25,4 +25,4 @@ We have identified there was a problem with your Analysis Services instance. A c
 
 ## **Recommended Steps**
 
-If this problem persists, please collect all errors messages with Activity IDs and timestamps then contact support for further assistance
+If this problem persists, please collect all error messages with Activity IDs and timestamps then contact support for further assistance
