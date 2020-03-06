@@ -22,6 +22,7 @@
 ### **Configuration and Setup**
 
 * If you are using Service principal and oauth for authenticating storage, please add AAD service endpoint to both subnets
+* Expiration of secret key can cause issues connecting to storage resources. To recreate secret please follow steps [here](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret)
 * [How to Assign a Single Public IP for VNet-Injected Workspaces Using Azure Firewall](https://docs.microsoft.com/azure/databricks/kb/cloud/azure-vnet-single-ip#how-to-assign-a-single-public-ip-for-vnet-injected-workspaces-using-azure-firewall)
 * [Azure Data Lake Storage Gen2](https://docs.databricks.com/data/data-sources/azure/azure-datalake-gen2.html)
 * [FAQ-Azure Data Lake Storage Gen2](https://docs.databricks.com/data/data-sources/azure/azure-datalake-gen2.html#frequently-asked-questions-faq)
