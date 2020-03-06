@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: Check the VPN connection type"
 	description="TSG Content Step: Check the VPN connection type"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
