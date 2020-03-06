@@ -2,6 +2,7 @@
 	pageTitle="TSG Content Step: Check if re-installing the p2s client package resolves"
 	description="TSG Content Step: Check if re-installing the p2s client package resolves"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
