@@ -2,13 +2,13 @@
 	pageTitle="Customer Scenario Out of Scope for TSG"
 	description="Customer Scenario Out of Scope for TSG"
 	service="microsoft.network"
+	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualNetwork"
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
 	cloudEnvironments="Public"
 	articleId="384f2845-536d-4ed6-90d9-d197c8a34e29"
-	ownershipId="CloudNet_AzureVirtualNetwork"
 />
 
 # Customer Scenario Out of Scope for TSG
