@@ -17,7 +17,7 @@
 # Unresponsive or sluggish node in a cluster
 In some cases, sluggishness can occur because of low disk space on the cluster. To check for this issue, follow these steps:
 
-1. Ssh into each of the nodes, and check disk usage on the node by running a command such as the following:
+1. SSH into each of the nodes, and check disk usage on the node by running a command such as the following:
  
    > -df -h
 
@@ -32,7 +32,7 @@ In some cases, sluggishness can occur because of low disk space on the cluster. 
     > -yarn application -kill application_`<appid>`
 
     If no specific jobs are indicated, go to the next step.
-1.	After the command in step 4 completes, and If no specific jobs are indicated, delete the files that you found in step 2 by running a command that resembles the following:
+1.	After the command in step 4 completes, and if no specific jobs are indicated, delete the files that you found in step 2 by running a command that resembles the following:
 
     >-rm -rf filecache usercache
 
