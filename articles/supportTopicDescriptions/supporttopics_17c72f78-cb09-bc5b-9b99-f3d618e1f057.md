@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6cd55633-0356-3b4a-adbb-1597edbd067a",
+      "longDescription": "",
+      "shortDescription": "You have questions about scaling operations.",
+      "searchTags": "scaling operations",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80afd4f1-7c89-2f4d-e472-c76bbe12bc67",
       "longDescription": "",
       "shortDescription": "Your server resource consumption (CPU, Memory, IO) changed unexpectedly.",
