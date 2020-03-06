@@ -116,10 +116,6 @@
 					"text": "Checked the Machine has Internet connectivity"
 				},
 				{
-					"value": "Checked the SAP HANA system has required permission for backup",
-					"text": "Checked the SAP HANA system has required permission for backup"
-				},
-				{
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
 				}
