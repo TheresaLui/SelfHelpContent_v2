@@ -25,7 +25,7 @@
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Quota Sub-type",
-            "watermarkText": "Choose an option",
+            "watermarkText": null,
             "required": "true",
             "dropdownOptions": [
                 {
@@ -63,15 +63,21 @@
             "id": "capacity_requested",
             "visibility": "quotaSubType != null && quotaSubType == enableregion",
             "order": 3,
-            "controlType": "textbox",
+            "controlType": "numerictextbox",
             "displayLabel": "Please provide specific capacity for your request",
             "watermarkText": "For example, 30 General purpose vCores",
-            "required": false
-        },
+            "required": true
+        }, {
+			"id": "learn_more_text",
+            "visibility": "quotaSubType != null && quotaSubType == enableregion",
+			"order": 4,
+			"controlType": "infoblock",
+			"content": "<a href='https://go.microsoft.com/fwlink/?linkid=867609'>Learn more</a> about vCore capacity."
+		},
         {
             "id": "business_justification",
             "visibility": "quotaSubType != null && quotaSubType == enableregion",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide business justification for your request",
@@ -80,7 +86,7 @@
         {
             "id": "problem_description",
             "visibility": "quotaSubType != null && quotaSubType == dont_know_answer",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
             "watermarkText": "Provide additional information about your issue",
