@@ -7,6 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
     cloudEnvironments="Public"
+    ownershipId="CloudNet_TrafficManager"
 />
 # Configure DNS Time to Live to 60 seconds
 ---

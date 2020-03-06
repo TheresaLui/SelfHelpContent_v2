@@ -7,6 +7,7 @@
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
     cloudEnvironments="Fairfax"
+    ownershipId="CloudNet_TrafficManager"
 />
 # Configure DNS Time to Live to 20 seconds
 ---
