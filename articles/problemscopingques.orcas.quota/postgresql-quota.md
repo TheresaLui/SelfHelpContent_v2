@@ -18,36 +18,16 @@
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "PostgreSQL-Quota",
-    "fileAttachmentHint": "Please upload your file to support your request",
+    "fileAttachmentHint": "Please upload file to support your request",
     "formElements": [
         {
-            "id": "quotaSubType",
+            "id": "region_requested",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Quota Sub-type",
-            "watermarkText": "Choose an option",
-            "required": "true",
-            "dropdownOptions": [
-                {
-                    "text": "PostgreSQL region enable",
-                    "value": "enableregion"
-                },
-                {
-                    "text": "Other",
-                    "value": "dont_know_answer"
-                }
-            ]
-        },
-        {
-            "id": "location",
-            "visibility": "quotaSubType != null && quotaSubType == enableregion",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel":"Please choose the region in which you want to have PostgreSQL Server",
+            "displayLabel":"Region requested",
             "watermarkText":"Choose a region",
             "required": true,
             "dynamicDropdownOptions": {
-                "dependsOn": "quotaSubType",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
@@ -61,30 +41,19 @@
         },
         {
             "id": "capacity_requested",
-            "visibility": "quotaSubType != null && quotaSubType == enableregion",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Please provide specific capacity for your request",
-            "watermarkText": "For example, 30 General purpose vCores",
-            "required": false
-        },
-        {
-            "id": "business_justification",
-            "visibility": "quotaSubType != null && quotaSubType == enableregion",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Describe your quota request",
-            "watermarkText": "Provide business justification for your request",
-            "required": false
+            "order": 2,
+            "controlType": "numerictextbox",
+            "displayLabel": "Capacity requesed (in VCores)",
+            "infoBalloonText": "<a href='https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers'>Learn more</a>.",
+            "required": true
         },
         {
             "id": "problem_description",
-            "visibility": "quotaSubType != null && quotaSubType == dont_know_answer",
-            "order": 5,
+            "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe your quota request",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "displayLabel": "Describe the business requirement",
+            "watermarkText": "Provide business justification for your request",
+            "required": false,
             "useAsAdditionalDetails": true
         }
     ]
