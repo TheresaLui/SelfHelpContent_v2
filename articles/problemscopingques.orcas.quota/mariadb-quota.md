@@ -17,17 +17,38 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "MariaDB-Quota",
-    "fileAttachmentHint": "Please upload file to support your request",
+    "title": "MariaDB-Quota"
+    "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "region_requested",
+            "id": "quotaType",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Quota type",
+            "watermarkText": null,
+            "required": "true",
+            "filter": false,
+            "dropdownOptions": [
+                {
+                    "text": "Region access",
+                    "value": "enableregion"
+                },
+                {
+                    "text": "Other",
+                    "value": "dont_know_answer"
+                }
+            ]
+        },
+        {
+            "id": "region_requested",
+            "visibility": "quotaType != null && quotaType == enableregion",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel":"Region requested",
             "watermarkText":"Choose a region",
             "required": true,
             "dynamicDropdownOptions": {
+                "dependsOn": "quotaType",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
@@ -41,19 +62,30 @@
         },
         {
             "id": "capacity_requested",
-            "order": 2,
+            "visibility": "quotaType != null && quotaType == enableregion",
+            "order": 3,
             "controlType": "numerictextbox",
             "displayLabel": "Capacity requesed (in VCores)",
             "infoBalloonText": "<a href='https://docs.microsoft.com/azure/mariadb/concepts-pricing-tiers'>Learn more</a>.",
             "required": true
         },
         {
-            "id": "problem_description",
-            "order": 3,
+            "id": "business_justification",
+            "visibility": "quotaType != null && quotaType == enableregion",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
             "watermarkText": "Provide business justification for your request",
-            "required": false,
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "visibility": "quotaType != null && quotaType == dont_know_answer",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe your quota request",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]
