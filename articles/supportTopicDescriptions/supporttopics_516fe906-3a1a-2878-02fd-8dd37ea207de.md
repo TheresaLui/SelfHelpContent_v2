@@ -51,6 +51,14 @@
       "searchTags": "Multi-Factor Authentication;Deploying MFA;Configuring MFA",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ed228605-ddb7-d2c3-626d-dae69939a1a6",
+      "longDescription": "",
+      "shortDescription": "I need help configuring a new or existing Conditional Access policy that fits my company needs",
+      "searchTags": "Conditional Access;Configuring CA Policy;Conditional Access Policy",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
