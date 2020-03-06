@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "05cd9b77-514b-a50b-1f0a-6c329a16535a",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the Entitlement Management feature in Azure AD",
+      "searchTags": "ELM;Entitlement Management;AAD Entitlement Management",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "35b2c0e0-1fa1-e0a1-d37f-ee363cdb0585",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for AAD Domain Services (DS)",
