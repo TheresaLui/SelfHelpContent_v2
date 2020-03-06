@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "425fc0e3-ffe8-dd81-62d8-3055adac7615",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring your server, metrics displayed in the Azure portal, or configuring metric alerts",
+      "searchTags": "monitoring server;monitoring metrics;configuring metrics",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "48654864-f63d-d25d-20db-e9826bf497ef",
       "longDescription": "",
       "shortDescription": "Your server is experiencing high network latency while attempting to connect",
