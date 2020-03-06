@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "866af4c0-2f66-10f4-3238-5f75346bb3fa",
+      "longDescription": "",
+      "shortDescription": "I need assistance understanding the Identity Score in Azure AD Identity Protection",
+      "searchTags": "Identity Score;Identity Protection",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2640df7-d535-11de-c288-8e1c7b286c01",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating, managing, or client use of FIDO Security Keys. Assistance deploying or troubleshooting FIDO key use",
