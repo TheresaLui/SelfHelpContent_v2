@@ -3,6 +3,7 @@ pageTitle="Solution: No platform issues found"
 description="Solution: No platform issues found"
 infoBubbleText="Solution: No platform issues found"
 service="microsoft.network"
+ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +15,6 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
 />
 # Resources and underlying platform show healthy
 <!--issueDescription-->
