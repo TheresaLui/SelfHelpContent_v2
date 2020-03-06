@@ -3,6 +3,7 @@ pageTitle="SolutionHubAndSpokeOnpremVpnS2s"
 description="SolutionHubAndSpokeOnpremVpnS2s"
 infoBubbleText="SolutionHubAndSpokeOnpremVpnS2s"
 service="microsoft.network"
+ownershipid="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +15,6 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
 />
 # Step by step for connecting VNet Peering spokes to on-premises over site-to-site VPN connection
 <!--issueDescription-->
