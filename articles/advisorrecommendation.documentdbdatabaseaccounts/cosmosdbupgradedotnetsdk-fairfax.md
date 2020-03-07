@@ -6,6 +6,7 @@
     articleId="7632ec99-ea15-4a40-be58-81168381b665_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget
 ---
