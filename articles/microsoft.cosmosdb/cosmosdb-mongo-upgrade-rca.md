@@ -6,7 +6,7 @@
     resource="databaseAccounts"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="cosmosdb-mongoupgrade-rca"
+    articleId="cosmosdb-mongo-upgrade-rca"
     diagnosticScenario="CosmosDBMongoUpgradeInsight"
     selfHelpType="rca"
     supportTopicIds="32636757"

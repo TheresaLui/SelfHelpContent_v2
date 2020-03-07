@@ -30,5 +30,5 @@ It appears that your account has an IP access control policy which is restrictin
 
 ## **Recommended Documents**
 
-* [Configure virtual network access](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
-* [Configure private endpoint access](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-private-endpoints)
+* [Configure virtual network access](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-vnet-service-endpoint)
+* [Configure private endpoint access](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-private-endpoints)
