@@ -30,7 +30,7 @@
             "filter": false,
             "dropdownOptions": [
                 {
-                    "text": "Location access",
+                    "text": "Region access",
                     "value": "enablelocation"
                 },
                 {
