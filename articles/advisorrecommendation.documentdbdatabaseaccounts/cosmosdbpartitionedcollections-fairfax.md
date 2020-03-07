@@ -14,7 +14,7 @@
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "5b5349fb-b298-41e3-b281-982b7986db67",
+  "recommendationTypeId": "acac062f-9b64-4634-9406-04de711c4d5d",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').FixedCollection",
     "dataSource": "Kusto",
