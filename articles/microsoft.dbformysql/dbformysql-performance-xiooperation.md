@@ -18,7 +18,7 @@
 # Server is facing high IO Throttle
 
 <!--issueDescription-->
-During our investigation regarding connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName--> we found that your IO throttle is above 100 for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). This means there are storage issues.
+During our investigation regarding performance issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName--> we found that your IO throttle is above 100 for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). This means there are storage issues.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
