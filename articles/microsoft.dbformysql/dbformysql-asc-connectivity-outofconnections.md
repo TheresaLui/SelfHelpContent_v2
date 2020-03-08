@@ -17,7 +17,7 @@
 # Can't connect MySQL database server because of running out of connections
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that <!--$Count-->Count<!--/$Count--> connection attempts to fail due to connections to your database server have been running out between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->.
+During our investigation regarding connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName--> we found that <!--$Count-->Count<!--/$Count--> connection attempts to fail due to connections to your database server have been running out between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

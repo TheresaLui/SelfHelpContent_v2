@@ -19,7 +19,7 @@
 # Can't connect to MySQL database server
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we determined that the server was restarted between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC), causing <!--$Count-->Count<!--/$Count--> connection attempts to fail. The server restarted because <!--$FailureCause-->FailureCause<!--/$FailureCause-->.
+During our investigation regarding connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName--> we determined that the server was restarted between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC), causing <!--$Count-->Count<!--/$Count--> connection attempts to fail. The server restarted because <!--$FailureCause-->FailureCause<!--/$FailureCause-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
