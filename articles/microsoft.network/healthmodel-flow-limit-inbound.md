@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,Fairfax,Mooncake,Blackforest"
+ownershipId="CloudNet_Datapath"
 />
 
 # We found an issue with the network interface on this VM
@@ -31,7 +32,7 @@ If you are NOT running a vulnerability scanning tool, or disabling it does not r
 * Login to the VM and display the source IP addresses of active connections (use command 'netstat -an' (Windows) or 'netstat -l' (Linux)).
 * If there are a large number of connections, examine the source IP (Foreign Address) to determine if they are legitimate or not.
 * If the connections are legitimate, change your application to reduce the number of connections on this network interface, or add additional network interfaces to the VM.
-* If the connections are not legitimate, consider enabling Azure DDOS Protection Standard or placing the VM behind Azure Load Balancer.
+* If the connections are not legitimate, consider enabling Azure DDOS Protection Standard or placing the VM behind Azure Load Balancer.<br><br>
 
 If you do NOT see a large number of connections within the VM with 'netstat' command, then the connections are possibly being blocked by Network Security Group rule, but still contributing to the 500K flow limit.  Try enabling flow logging for network security groups and determine from the flow logs whether the connections are legitimate or not.  
 
