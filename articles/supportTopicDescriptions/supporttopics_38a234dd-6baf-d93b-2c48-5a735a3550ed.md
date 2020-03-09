@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0610c7f2-38a0-4514-ee0a-adc146934bf2",
+      "longDescription": "",
+      "shortDescription": "You are trying to configure ADFS using AADConnect and run into problems",
+      "searchTags": "issue with configuring ADFS using AADC",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "518d2523-8a7b-e012-ea70-e4f9b6745e04",
       "longDescription": "",
       "shortDescription": "You have configured Passthrough Authentication (PTA) and are seeing issues",
