@@ -12,7 +12,8 @@
 	ownershipId="Compute_VirtualMachines"
 />
 # Management
----
+
+```
 {
 
                 "subscriptionRequired": true,
@@ -106,4 +107,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
----
+```
