@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "59579b83-00a5-022a-d6ee-1b1f826a6c6a",
+      "longDescription": "",
+      "shortDescription": "You are trying to install or uninstall AADConnect and run into a problem",
+      "searchTags": "issue to install or uninstall AADConnect",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5acbc1c4-3b34-9459-4afd-f8ee89b2291a",
       "longDescription": "",
       "shortDescription": "You have deployed AADConnect but see no synchronization activity",
