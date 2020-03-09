@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aaa70274-b164-9b3f-8161-c5eac103a3ac",
+      "longDescription": "",
+      "shortDescription": "You see an error message saying that the Provisioning service is in a quarantained state",
+      "searchTags": "Sync cycle in quarantined state",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
       "longDescription": "",
       "shortDescription": "You have configured Password Writeback and are seeing issues",
