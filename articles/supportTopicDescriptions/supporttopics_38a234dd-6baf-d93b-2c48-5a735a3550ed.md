@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "51f5b1da-a214-2ba1-51df-a8437548c382",
+      "longDescription": "",
+      "shortDescription": "You are having a problem where the provisioning service from a cloud HR app to AD or AAD does not work at all",
+      "searchTags": "provisioning service does not work ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "59579b83-00a5-022a-d6ee-1b1f826a6c6a",
       "longDescription": "",
       "shortDescription": "You are trying to install or uninstall AADConnect and run into a problem",
