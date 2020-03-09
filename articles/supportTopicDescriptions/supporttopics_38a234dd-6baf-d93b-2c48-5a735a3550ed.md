@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4dbd854c-0f9c-fd8a-8d3e-e7c93e13c237",
+      "longDescription": "",
+      "shortDescription": "You have a problem with the configuration of AADConnect",
+      "searchTags": "issue with AADConnet configuration ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "518d2523-8a7b-e012-ea70-e4f9b6745e04",
       "longDescription": "",
       "shortDescription": "You have configured Passthrough Authentication (PTA) and are seeing issues",
