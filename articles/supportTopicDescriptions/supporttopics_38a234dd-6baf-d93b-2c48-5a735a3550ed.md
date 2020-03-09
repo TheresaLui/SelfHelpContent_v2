@@ -21,10 +21,130 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0610c7f2-38a0-4514-ee0a-adc146934bf2",
+      "longDescription": "",
+      "shortDescription": "You are trying to configure ADFS using AADConnect and run into problems",
+      "searchTags": "issue with configuring ADFS using AADC",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4a92d5f5-02cc-d436-a449-c4d43282d470",
       "longDescription": "",
       "shortDescription": "You are having a problem configuring the provisioning service from a Cloud HR app to Azure AD or AD",
       "searchTags": "issue configuring provisioning service ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4dbd854c-0f9c-fd8a-8d3e-e7c93e13c237",
+      "longDescription": "",
+      "shortDescription": "You have a problem with the configuration of AADConnect",
+      "searchTags": "issue with AADConnet configuration ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "518d2523-8a7b-e012-ea70-e4f9b6745e04",
+      "longDescription": "",
+      "shortDescription": "You have configured Passthrough Authentication (PTA) and are seeing issues",
+      "searchTags": "Passthrough Authenticaton issues",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "51f5b1da-a214-2ba1-51df-a8437548c382",
+      "longDescription": "",
+      "shortDescription": "You are having a problem where the provisioning service from a cloud HR app to AD or AAD does not work at all",
+      "searchTags": "provisioning service does not work ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "59579b83-00a5-022a-d6ee-1b1f826a6c6a",
+      "longDescription": "",
+      "shortDescription": "You are trying to install or uninstall AADConnect and run into a problem",
+      "searchTags": "issue to install or uninstall AADConnect",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5a57de7d-fec5-06c0-8031-6fad9d7b27de",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the scoping filters or attribute mapping for provisioning form a cloud HR app to AD or AAD",
+      "searchTags": "problem with scoping filters, mapping",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5acbc1c4-3b34-9459-4afd-f8ee89b2291a",
+      "longDescription": "",
+      "shortDescription": "You have deployed AADConnect but see no synchronization activity",
+      "searchTags": "issue with siynchronization ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5da3591c-eba3-3a2b-e760-a0763a16f061",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with one or a few particular users",
+      "searchTags": "problem with one user or more",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "716e3152-bfe2-0433-ee75-a20101b4a426",
+      "longDescription": "",
+      "shortDescription": "You have configured Password Hash Sync (PHS) and are seeing issues",
+      "searchTags": "issues with PHS sync",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8fab9a08-7574-79ef-6f71-c453de1e1cf8",
+      "longDescription": "",
+      "shortDescription": "Problems related to configuring or managing user sign in with Azure AD Connect",
+      "searchTags": "issues with user sign in, password",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "98b288b4-2a60-7eac-6882-cfc64b9bbd89",
+      "longDescription": "",
+      "shortDescription": "You have deployed AADConnect but you are seeing some incorrect or unexpected results",
+      "searchTags": "Sync delivers incorrect results",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
+      "longDescription": "",
+      "shortDescription": "You have configured Password Writeback and are seeing issues",
+      "searchTags": "Password Writeback issues",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "dd1cfbde-5501-0625-53ce-2bd702006c70",
+      "longDescription": "",
+      "shortDescription": "Problems related to Azure AD Connect or the new preview agent based AD to AAD feature",
+      "searchTags": "issue syncing from AD to AAD",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eed84b7f-6511-297a-334c-22d0a0335153",
+      "longDescription": "",
+      "shortDescription": "You have configured Seamless SSO (SSSO) and are seeing issues",
+      "searchTags": "SSSO issues ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb9b16be-bb35-aebe-0235-ce81f9725920",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the new preview of the agent based provisioning from AD to AAD",
+      "searchTags": "issue with the agent preview prov",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     }
