@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "518d2523-8a7b-e012-ea70-e4f9b6745e04",
+      "longDescription": "",
+      "shortDescription": "You have configured Passthrough Authentication (PTA) and are seeing issues",
+      "searchTags": "Passthrough Authenticaton issues",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "716e3152-bfe2-0433-ee75-a20101b4a426",
       "longDescription": "",
       "shortDescription": "You have configured Password Hash Sync (PHS) and are seeing issues",
