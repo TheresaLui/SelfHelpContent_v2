@@ -21,10 +21,50 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0610c7f2-38a0-4514-ee0a-adc146934bf2",
+      "longDescription": "",
+      "shortDescription": "You are trying to configure ADFS using AADConnect and run into problems",
+      "searchTags": "issue with configuring ADFS using AADC",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "518d2523-8a7b-e012-ea70-e4f9b6745e04",
+      "longDescription": "",
+      "shortDescription": "You have configured Passthrough Authentication (PTA) and are seeing issues",
+      "searchTags": "Passthrough Authenticaton issues",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "716e3152-bfe2-0433-ee75-a20101b4a426",
+      "longDescription": "",
+      "shortDescription": "You have configured Password Hash Sync (PHS) and are seeing issues",
+      "searchTags": "issues with PHS sync",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8fab9a08-7574-79ef-6f71-c453de1e1cf8",
       "longDescription": "",
       "shortDescription": "Problems related to configuring or managing user sign in with Azure AD Connect",
       "searchTags": "issues with user sign in, password",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
+      "longDescription": "",
+      "shortDescription": "You have configured Password Writeback and are seeing issues",
+      "searchTags": "Password Writeback issues",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eed84b7f-6511-297a-334c-22d0a0335153",
+      "longDescription": "",
+      "shortDescription": "You have configured Seamless SSO (SSSO) and are seeing issues",
+      "searchTags": "SSSO issues ",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     }
