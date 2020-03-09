@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4a92d5f5-02cc-d436-a449-c4d43282d470",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the provisioning service from a Cloud HR app to Azure AD or AD",
+      "searchTags": "issue configuring provisioning service ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4dbd854c-0f9c-fd8a-8d3e-e7c93e13c237",
       "longDescription": "",
       "shortDescription": "You have a problem with the configuration of AADConnect",
