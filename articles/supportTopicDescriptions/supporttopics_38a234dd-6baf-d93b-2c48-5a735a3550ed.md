@@ -27,6 +27,22 @@
       "searchTags": "issues with PHS sync",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
+      "longDescription": "",
+      "shortDescription": "You have configured Password Writeback and are seeing issues",
+      "searchTags": "Password Writeback issues",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eed84b7f-6511-297a-334c-22d0a0335153",
+      "longDescription": "",
+      "shortDescription": "You have configured Seamless SSO (SSSO) and are seeing issues",
+      "searchTags": "SSSO issues ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
