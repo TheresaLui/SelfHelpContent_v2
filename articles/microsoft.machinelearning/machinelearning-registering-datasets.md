@@ -11,6 +11,7 @@
     productPesIds="16644"
     cloudEnvironments="Public"
  	articleId="machinelearning-registering-datasets"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # You can learn how to create or register an Azure Machine Learning dataset via documents below.

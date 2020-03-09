@@ -7,6 +7,7 @@
 	 cloudEnvironments="public"
 	 schemaVersion="1"
     articleId="df0fa993-a2cf-4789-a48e-a0edf876b2fe"
+	ownershipId="AzureIdentity_B2B"
 /> 
 # Problem with AAD Domain services configuration management 
 ---

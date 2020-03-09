@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="73aea3ab-ad16-4f10-9834-a81cbfa49a25"
+	ownershipId="Compute_APIManagement"
 />
 
 # Save and configure your API Management service configuration using Git

@@ -14,16 +14,17 @@
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
-# Can't connect PostgreSQL database server because of VNET
+# Can't connect to PostgreSQL server because of VNET
 
 <!--issueDescription-->
-There are <!--$Count-->Count<!--/$Count--> connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> failed during the period of <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of VNET. Client connections to Basic tier servers through Virtual Network Service Endpoints are not supported. Virtual Network Service Endpoints are supported for General Purpose and Memory Optimized severs.
+PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> is a Basic tier server and does not support virtual network service endpoints. There are <!--$Count-->Count<!--/$Count--> failed connections to this server between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) as a result.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* Ensure that your Azure Database for PostgreSQL is deployed in General Purpose and Memory Optimized servers. The Basic tier does not support VNet service endpoints.
+* Use the General Purpose and Memory Optimized tiers in Azure Database for PostgreSQL, since they support virtual network rules.
 
 ## **Recommended Documents**
 

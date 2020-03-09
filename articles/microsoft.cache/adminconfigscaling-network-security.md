@@ -12,6 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="66a69427-71cc-461c-b8fb-73f096ce40f3"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Network security with Azure Cache for Redis

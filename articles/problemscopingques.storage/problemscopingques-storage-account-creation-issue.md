@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="08df64c4-7e4e-4ebc-9012-31a0dd43a37e"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Issues creating Storage Account
 ---

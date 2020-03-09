@@ -12,7 +12,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
+/>
 
 # How to customize a synchronization rule
 

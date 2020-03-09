@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
    schemaVersion="1"
    articleId="10ced282-0269-4229-86c4-5cdb943f83dd"
+	ownershipId="ASMS_Billing"
 />
 
 # Pay by Invoice

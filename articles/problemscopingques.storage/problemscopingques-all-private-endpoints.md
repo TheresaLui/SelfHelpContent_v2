@@ -9,6 +9,7 @@
 	productPesIds="15629,16459,16460,16598,16461,16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Azure Private Endpoint Connectivity Issues
 ---

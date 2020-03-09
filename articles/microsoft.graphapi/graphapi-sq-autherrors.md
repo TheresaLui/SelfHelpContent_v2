@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="1c56e5a9-eb1d-4ca8-874d-52b297d35199"
-    />
+    	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Problem with access denied (authorization)
 

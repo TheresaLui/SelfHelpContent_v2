@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="assistancewithbillorusage-questionsonspendinglimits"
+	ownershipId="ASMS_Billing"
 />
 
 # I have questions about my spending limits

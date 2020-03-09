@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppResourceMgmtResizeCapacityPoolOrVolume"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Resize capacity pool or volume for NetApp Files 

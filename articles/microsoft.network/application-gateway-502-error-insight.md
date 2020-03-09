@@ -12,7 +12,8 @@
     supportTopicIds="32573483,32680993"
 	productPesIds="15922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Bad Gateway Error (502)
 

@@ -9,6 +9,7 @@
 	productPesIds="14785,16576"
 	cloudEnvironments="public"
 	articleId="dda96259-331c-41f2-b8c9-138a0d48cdda"
+	ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"
 />
 
 # User sign-in/domain join issues

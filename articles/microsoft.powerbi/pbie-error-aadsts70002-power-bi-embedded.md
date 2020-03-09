@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="f00dda62-5281-c7af-b191-b736427842c7"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Authentication failed with AADSTS70002 or AADSTS50053

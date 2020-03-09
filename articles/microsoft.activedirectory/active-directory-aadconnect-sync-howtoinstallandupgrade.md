@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     	articleId="8ff8d9f2-9094-47f2-b305-a53350eb2d1f"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Azure AD Connect install and upgrade

@@ -12,6 +12,7 @@
 	productPesIds="16450"
 	cloudEnvironments="public"
 	articleId="0a1e0dbb-64e6-45e0-a97d-a9e9ff46eb08"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Diagnose and resolve Kubernetes service issues

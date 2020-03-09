@@ -14,11 +14,12 @@
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
-# Can't connect PostgreSQL database server: planned failover
+# Can't connect to PostgreSQL server: planned failover
 
 <!--issueDescription-->
-Your server <!--$ServerName-->ServerName<!--/$ServerName--> was down at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to planned failover with due to <!--$RCA-->RCA<!--/$RCA-->.
+Your server <!--$ServerName-->ServerName<!--/$ServerName--> was unavailable starting at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to a planned failover: <!--$RCA-->RCA<!--/$RCA-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

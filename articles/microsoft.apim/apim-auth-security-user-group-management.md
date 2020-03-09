@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="d54a5337-1fad-4d32-be6b-8364bcfbdabb"
+	ownershipId="Compute_APIManagement"
 />
 
 # Manage user or group in Azure API Management

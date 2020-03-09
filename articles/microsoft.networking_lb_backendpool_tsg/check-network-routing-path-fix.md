@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e2792f08-10b8-47eb-9b66-4a8f29ace9ed"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Add UDR for the BE pool subnet

@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="6f641910-1012-4135-b8d1-85ab25fa1503"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Windows VM stop or restart issues

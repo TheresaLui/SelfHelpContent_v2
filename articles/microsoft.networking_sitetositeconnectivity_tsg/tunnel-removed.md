@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="4db9d269-749b-4b3c-91fa-c0b5d13daba0"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Tunnel Removed

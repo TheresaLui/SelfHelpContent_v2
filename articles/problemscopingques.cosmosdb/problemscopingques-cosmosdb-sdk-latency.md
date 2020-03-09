@@ -9,6 +9,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 	articleId="e00c06b2-121f-4f8b-84a1-0a8c0eae18e5"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB SDK Latency Issues
 ---

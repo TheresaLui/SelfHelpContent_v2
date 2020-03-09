@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454, 15725, 15693"
 	cloudEnvironments="public, fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My log search alert fires with a delay

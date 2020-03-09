@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-poqs-plans"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage Plans in Azure Stack

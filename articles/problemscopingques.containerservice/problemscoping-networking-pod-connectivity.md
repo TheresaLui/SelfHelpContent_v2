@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-networking-pod-connectivity"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # POD Connectivity Issues
 ---

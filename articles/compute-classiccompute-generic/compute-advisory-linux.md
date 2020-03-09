@@ -12,6 +12,7 @@
 	productPesIds="15571,16454,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="b3312246-5a00-41e6-819b-4f0cd3531630"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Support for Linux Azure Advisory Services

@@ -12,6 +12,7 @@
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public, Fairfax"
 	articleId="64effc32-a85d-4b6f-987b-99681a5b41ba"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Management/Unable to delete a virtual machine

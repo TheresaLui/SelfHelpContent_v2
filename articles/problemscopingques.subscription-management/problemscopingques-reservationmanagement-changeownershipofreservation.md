@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="reservationmanagement"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Reservation Management
 ---

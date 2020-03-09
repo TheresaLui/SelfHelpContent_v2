@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="fe41ad8e-58bc-427f-8948-83e254775d08"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - performance issues

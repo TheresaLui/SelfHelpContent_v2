@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="networking-connectivity-application-gateway-ingress-controller"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

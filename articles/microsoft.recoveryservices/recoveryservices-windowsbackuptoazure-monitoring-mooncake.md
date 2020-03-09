@@ -11,6 +11,7 @@
 	productPesIds="15207"
 	cloudEnvironments="MoonCake"
 	articleId="6ef91801-fa39-4a37-8873-9fd1b419a557"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 

@@ -12,6 +12,7 @@
     productPesIds="16611"
     cloudEnvironments="public, Fairfax"
 	articleId="d5772567-8d86-4519-9c31-f3070c4bbccf"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Priority Based Load Balancing

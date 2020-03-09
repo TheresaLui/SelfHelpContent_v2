@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
     articleId="f97563fd-0f5c-4f44-81ef-bc9bb5f48ba6"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - State Configuration (DSC) - Node Configuration Fails

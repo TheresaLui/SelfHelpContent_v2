@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="2cca467c-ba08-41e2-a736-bad2fab878e9"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Backup Files & Folders using Azure Backup agent
 

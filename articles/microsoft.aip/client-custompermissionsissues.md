@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="94836c99-75be-4351-82c2-82c211ce11b3"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - custom permissions issues

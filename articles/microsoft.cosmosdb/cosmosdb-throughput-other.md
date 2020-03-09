@@ -13,6 +13,7 @@
 	articleId="cosmosdb-other"
 	displayOrder="244"
 	category="Throughput and Scaling"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Throughput and Scaling Other Topics

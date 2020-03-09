@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="issueswithpurchasesignuporupgrade-browserissues"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Purchase,sign up or upgrade - browser issues

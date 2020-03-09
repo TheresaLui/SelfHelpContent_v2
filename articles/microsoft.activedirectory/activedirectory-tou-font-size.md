@@ -11,6 +11,7 @@
 	productPesIds="16577"
 	cloudEnvironments="public"
 	articleId="751899d0-99c0-43d2-b03b-78996e99d80e"
+	ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
 # End users can't read terms of use documents at sign-in

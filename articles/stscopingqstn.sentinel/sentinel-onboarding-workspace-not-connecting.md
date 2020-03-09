@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-onboarding-workspace-not-connecting"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Workspace not connecting

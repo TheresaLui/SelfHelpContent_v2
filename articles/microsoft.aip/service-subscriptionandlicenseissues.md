@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="bd2d7935-c916-4819-95c1-c9c2ec1a51f1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - subscription and license issues

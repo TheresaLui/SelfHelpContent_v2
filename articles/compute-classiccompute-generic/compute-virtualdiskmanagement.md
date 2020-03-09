@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="836ed3ad-2dbf-4c5e-857e-a8659cea73b4"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Virtual Disk Management

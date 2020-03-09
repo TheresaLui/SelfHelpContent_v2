@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="9d9657b4-4a8a-4dae-b285-5263120ffc10"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # On-premises data gateway is not working

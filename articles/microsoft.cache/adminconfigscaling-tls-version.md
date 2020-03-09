@@ -12,6 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="5810cbac-7244-424c-a634-99a3147cbc68"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # TLS version with Azure Cache for Redis

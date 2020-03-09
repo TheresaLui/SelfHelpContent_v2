@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="04b7f460-a968-475a-a930-78674566267f"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Use of traffic selectors

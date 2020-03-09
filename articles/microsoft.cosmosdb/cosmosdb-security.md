@@ -13,6 +13,7 @@
 	articleId="cosmosdb-security"
 	displayOrder="161"
 	category="Security"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Compliance in Azure Cosmos DB

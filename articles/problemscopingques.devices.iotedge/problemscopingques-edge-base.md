@@ -9,6 +9,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="04c1f45a-af94-4bba-b814-7106107ffae4"
+	ownershipId="AzureIot_IotEdge"
 />
 # Issues with IoT Edge
 ---

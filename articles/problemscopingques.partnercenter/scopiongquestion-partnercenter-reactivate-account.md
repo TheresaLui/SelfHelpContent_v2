@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_reactivate_account"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Reactivate Account
 ---

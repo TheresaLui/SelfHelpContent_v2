@@ -11,6 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="6fd8bb4d-4c77-49f3-bc03-db7aebd0040a"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/connectivity/unable to connect using RDP

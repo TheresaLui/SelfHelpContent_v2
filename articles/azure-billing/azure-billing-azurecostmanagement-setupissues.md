@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Fairfax, Blackforest, Mooncake"
 	articleId="dded9c4c-4ba6-4a15-a000-af6e9017e48b"
+	ownershipId="ASMS_Billing"
 />
 
 # Azure Cost Management - Cost data is inconsistent or lagging

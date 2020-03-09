@@ -13,6 +13,7 @@ supportTopicIds="32591144,32591145,32591158"
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Microsoft Azure has detected an internal platform issue with your VPN gateway
 <!--issueDescription-->

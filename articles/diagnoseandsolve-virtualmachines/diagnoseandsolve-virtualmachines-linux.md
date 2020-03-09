@@ -11,6 +11,7 @@ selfHelpType="diagnoseandsolve"
 resourceTags="linux, ubuntu, redhat, suse"
 productPesIds="15571"
 cloudEnvironments="public"
+	ownershipId="Compute_VirtualMachines"
 />
 # Diagnose and solve v2 test article for linux
 ---

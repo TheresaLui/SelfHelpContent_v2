@@ -10,8 +10,9 @@
 	supportTopicIds="32570114"
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="e166829a-cf2f-45f0-887b-202ed6040d31"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Migration and Move/ Move resources between regions

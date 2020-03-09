@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.pipelines.createeditversionedendpoint"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Creating or Editing an Azure ML Versioned Pipeline Endpoint

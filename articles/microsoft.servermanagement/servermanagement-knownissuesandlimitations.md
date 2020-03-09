@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
 	articleId="4021be37-96f2-4dbe-83e9-a312b38fd298"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Known issues and limitations

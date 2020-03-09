@@ -11,6 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="72dc1bdd-f304-489e-bc58-f6f604899378"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/Deployment/VIP Swap

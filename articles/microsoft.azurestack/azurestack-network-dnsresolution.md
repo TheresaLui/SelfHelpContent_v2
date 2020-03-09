@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-dnsresolution"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Resolve issues with Azure Stack VM DNS resolution

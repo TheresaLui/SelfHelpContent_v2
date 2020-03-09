@@ -6,6 +6,7 @@
     articleId="02cfb5ef-z9b0-3522-8743-142gceb10057_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Sample title
 ---

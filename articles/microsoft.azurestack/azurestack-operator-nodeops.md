@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-operator-nodeops"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Node Node Management issues

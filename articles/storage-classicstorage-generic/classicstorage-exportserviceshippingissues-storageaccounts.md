@@ -11,6 +11,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public"
 	articleId="e9648778-52b2-40d3-941c-76d049ff1e22"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # configuration and setup/import/export service: shipping issues

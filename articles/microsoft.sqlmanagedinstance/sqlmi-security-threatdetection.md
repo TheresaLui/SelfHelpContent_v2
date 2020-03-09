@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="23ba8395-b55c-4698-8e5d-c51bc8056792"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Threat detection

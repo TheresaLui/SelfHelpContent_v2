@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="4640a2ab-ec5e-4a0a-8946-fe6524807455"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Geo replication (Preview)

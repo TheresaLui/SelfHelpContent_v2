@@ -12,6 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="3b9c5dfb-2a76-453e-a9c7-c2f048634b46"
+	ownershipId="Compute_ComputePlatform"
 />
 # Azure Disk Encryption (ADE)
 

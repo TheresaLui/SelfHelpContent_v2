@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-automatedbackupspoint-pointintimerestore-db"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Error with automatedbackupspoint- pointintimerestore-db
 ---

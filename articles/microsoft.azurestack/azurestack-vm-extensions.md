@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-extensions"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack virtual machine (VM) extensions

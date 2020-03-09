@@ -90,10 +90,10 @@
     {
       "id": "141e378a-1466-bbca-cbf0-43c82f7982d7",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue taking backup of Azure Files shares. For MARS agent issues choose Files and Folder problem type.",
+      "searchTags": "Backup;Files;share",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "1621a0b2-d93a-9327-b149-de9c05ce34f5",
@@ -210,10 +210,10 @@
     {
       "id": "412bbd3b-d2a8-cd79-b614-5dec72dab528",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure files",
+      "searchTags": "Backup;Restore",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "442e8b71-0da4-f68c-9943-68da5a2d36b7",

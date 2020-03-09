@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-deploycertvm"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Securely deploy certificate to VM

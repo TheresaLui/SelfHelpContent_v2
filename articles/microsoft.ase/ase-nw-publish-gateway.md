@@ -11,6 +11,7 @@
 	productPesIds="16533"
 	cloudEnvironments="public, Fairfax"
 	articleId="8dbb0fdf-8e0e-489c-bc3d-14501ca04bc1"
+	ownershipId="Compute_AppService"
 />
 
 # Networking\Publishing a Web App on ASE through Web Application Firewall (WAF) on Azure Application Gateway

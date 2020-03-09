@@ -11,20 +11,36 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Azure Active Directory Domain Services provides managed domain services such as domain join, group policy, LDAP, Kerberos, NTLM authentication etc. ",
+  "longDescription": "",
+  "productLink1": "https://docs.microsoft.com/azure/active-directory-domain-services/index",
+  "productLinkName1": "Azure AD Domain Services documentation",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "6de8b3ec-c22b-fc31-dba0-45ab1e98485b",
+      "longDescription": "",
+      "shortDescription": "Networking setup and configuration with Azure AD Domain Services",
+      "searchTags": "VNet error in Azure AD DS ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "77244271-26e9-0450-57fc-108692da5797",
       "longDescription": "",
       "shortDescription": "Service that hosts domain controllers in Azure and manages a domain to lift apps to the cloud.",
       "searchTags": "Azure AD DS;Domain join;Configure LDAP",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "86d57c6c-df7d-9808-dfcb-9dd1bfe44cff",
+      "longDescription": "",
+      "shortDescription": "Issues while configuring administrative or management features for Azure AD Domain Services ",
+      "searchTags": "Domain Join",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     }

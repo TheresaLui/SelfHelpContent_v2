@@ -11,6 +11,7 @@
     resourceTags=""
     cloudEnvironments="public"
 	articleId="d4f15496-7352-4786-9197-289e3832e34f"
+	ownershipId="Compute_Automation"
 />
 
 # Problems enabling or using Update Management

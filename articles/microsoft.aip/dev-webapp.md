@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Microsoft Information Protection - Development - Web app MIP SDK

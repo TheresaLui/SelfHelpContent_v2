@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="ccc6b548-ea22-4b67-b9fa-6198ad4badad"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Autoscale seems to be successful but scaling is not happening

@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="changescopeofreservation"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Change Scope of Reservation

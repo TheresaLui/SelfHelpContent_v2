@@ -12,6 +12,7 @@
 	productPesIds="16975"
 	cloudEnvironments="public, Fairfax"
 	articleId="1cfc3deb-59e5-48aa-87e3-42db54fdee4c"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # availability and performance/other

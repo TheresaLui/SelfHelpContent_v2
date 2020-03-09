@@ -12,6 +12,7 @@
 	productPesIds="16454,14749,15797,15571,16208,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="03335231-d072-45c0-bebf-1ba0831046e0"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Ephemeral OS Disk Issue

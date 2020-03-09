@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="5bc59191-b7ed-495c-977c-8964c98751a3"
+	ownershipId="Compute_APIManagement"
 />
 
 # Diagnostic logs

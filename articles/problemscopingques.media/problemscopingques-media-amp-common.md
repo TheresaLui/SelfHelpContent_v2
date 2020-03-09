@@ -9,6 +9,7 @@
     articleId="problemscopingques-amp-common"
     cloudEnvironments="public"
     schemaVersion="1"
+	ownershipId="StorageMediaEdge_Media"
 />
 # Azure Media Player common questions for support
 ---

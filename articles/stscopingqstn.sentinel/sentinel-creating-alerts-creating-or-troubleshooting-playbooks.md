@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-creating-alerts-creating-or-troubleshooting-playbooks"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Create or troubleshoot playbooks

@@ -10,6 +10,7 @@
 	supportTopicIds="32609543,32609546,32609548,32609549,32609550 "
 	productPesIds="16530"
 	cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Management group troubleshooting Role Based Access Control (RBAC) Permissions

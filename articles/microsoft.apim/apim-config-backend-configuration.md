@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="cb75ca9d8-92f8-49ea-85b8-e33cf39acb06"
+	ownershipId="Compute_APIManagement"
 />
 
 # Backend configuration problem

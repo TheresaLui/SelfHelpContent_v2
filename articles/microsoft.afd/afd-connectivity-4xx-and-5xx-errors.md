@@ -12,6 +12,7 @@
     productPesIds="16611"
     cloudEnvironments="public, Fairfax"
 	articleId="71a46147-c14b-4ccc-947c-7b5b016ac521"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # 4xx and 5xx errors

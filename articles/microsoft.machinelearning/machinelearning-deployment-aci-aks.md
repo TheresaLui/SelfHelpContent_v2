@@ -12,6 +12,7 @@
     productPesIds="16644"
     cloudEnvironments="public"
     articleid="75132e34-95c5-43dc-8f8a-e5abb49462bc"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # How do I deploy to ACI or AKS?

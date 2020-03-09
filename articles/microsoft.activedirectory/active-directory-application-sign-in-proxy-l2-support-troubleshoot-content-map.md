@@ -10,6 +10,7 @@
     productPesIds="16575"
     cloudEnvironments="public"
     	articleId="fe213024-d500-4e56-aff1-bae56d08ff3b"
+	ownershipId="AzureIdentity_EnterpriseApps"
 />
 
 # Issues that are related to signing in to proxy applications

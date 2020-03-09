@@ -11,6 +11,7 @@
 	productPesIds="15540"
 	cloudEnvironments="public"
 	articleId="6c17c100-f2fe-4a7f-8305-9a7d8ebc5068"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # infrastructure setup/configuring remoteapp to use azure active directory

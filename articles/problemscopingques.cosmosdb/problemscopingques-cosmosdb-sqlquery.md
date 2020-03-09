@@ -9,6 +9,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 	articleId="36cd8097-a487-4e2f-87b7-69277fb29f4d"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB SQL Query Issue
 ---

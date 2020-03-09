@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="98407fcd-0076-4c72-80a1-0aa58be664a7"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve install issue through Rest API

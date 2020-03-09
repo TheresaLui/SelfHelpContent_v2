@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="50b8bf6a-0489-43cc-a86e-b65b61046b48"
+	ownershipId="Compute_APIManagement"
 />
 
 # Importing API (OpenAPI, WSDL, WADL)

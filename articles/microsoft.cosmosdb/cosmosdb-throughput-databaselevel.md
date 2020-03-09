@@ -13,6 +13,7 @@
 	articleId="cosmosdb-Databaselevel"
 	displayOrder="243"
 	category="Throughput and Scaling"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Database level throughput

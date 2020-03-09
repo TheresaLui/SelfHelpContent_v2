@@ -11,6 +11,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="8de8b649-6401-4190-959b-e6f14dd43414"
+	ownershipId="ASMS_Billing"
 />
 
 # Help with Category Manager

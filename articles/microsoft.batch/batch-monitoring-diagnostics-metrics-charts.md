@@ -12,6 +12,7 @@
     resourceTags=""
     productPesIds="15614"
     cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Monitoring and Diagnostics - Metrics data and charts

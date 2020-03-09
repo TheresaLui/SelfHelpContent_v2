@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
     articleId="01e5e79d-abe0-4560-b8b2-9ec9cbbd582a"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Start/Stop with Custom Runbook

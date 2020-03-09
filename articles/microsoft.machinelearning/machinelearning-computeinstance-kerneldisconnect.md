@@ -12,6 +12,7 @@
     productPesIds="16644"
     cloudEnvironments="public"
     articleId="microsoft.machinelearning.computeinstance.kerneldisconnect"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Kernel Disconnect Error in Integrated Notebooks

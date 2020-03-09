@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16031"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I'm having a problem with setting up or getting data from my log collector

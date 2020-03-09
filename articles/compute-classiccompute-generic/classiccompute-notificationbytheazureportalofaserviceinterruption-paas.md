@@ -11,6 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="9ba61dc0-6889-410c-8f18-627c7cb13358"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/application and service availability/notification by the azure portal of a service interruption

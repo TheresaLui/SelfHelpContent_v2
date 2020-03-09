@@ -8,6 +8,7 @@
 	 cloudEnvironments="public,fairfax"
 	 schemaVersion="1"
 	 articleId="0b40b41d-43b2-4f26-8f8a-2c325cbe004b"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # Storage Latency
 ---

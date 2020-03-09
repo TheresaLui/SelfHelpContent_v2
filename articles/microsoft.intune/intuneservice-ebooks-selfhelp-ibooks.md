@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="f5f0cdda-f7d6-430b-a848-4b149df6faca"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # A user in my organization doesn't have the Apple iBooks app to view e-books.  Can I use Intune to install it?

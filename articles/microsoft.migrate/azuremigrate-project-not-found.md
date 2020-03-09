@@ -10,8 +10,9 @@
     supportTopicIds="32678719"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azure-migrate-existing-projects"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Cannot find my existing projects

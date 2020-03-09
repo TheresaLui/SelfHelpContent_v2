@@ -11,6 +11,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public, Fairfax"
 	articleId="c0ca52f9-6015-44ec-bed4-9d1606233011"
+	ownershipId="Compute_BotService"
 />
 
 # Bot App Development Issues

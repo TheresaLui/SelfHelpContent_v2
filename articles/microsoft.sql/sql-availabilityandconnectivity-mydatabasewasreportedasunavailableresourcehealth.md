@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax"
 	articleId="ec03f2ee-fbd5-4879-9f4f-73b76f7f22d4"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # SQL Database Resource Health Issues: Unavailability

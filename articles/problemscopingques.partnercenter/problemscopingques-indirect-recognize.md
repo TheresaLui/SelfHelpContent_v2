@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_indirect_recognize"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Indirect Reseller Recognition
 ---

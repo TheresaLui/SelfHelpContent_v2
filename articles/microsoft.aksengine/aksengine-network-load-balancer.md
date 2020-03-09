@@ -12,6 +12,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="76842b51-p019-4acb-9ef4-f78c5e87ec25"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Load balancer

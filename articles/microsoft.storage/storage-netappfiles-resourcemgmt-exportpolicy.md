@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppResourceMgmtExportPolicyForNFSVolume"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Troubleshoot and resolve export policy for NFS Volume 

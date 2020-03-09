@@ -13,6 +13,7 @@
     productPesIds="16456"
     cloudEnvironments="public, Fairfax"
     articleId="21fcaa7d-e41b-4d47-8a5a-843ea71bdda0"
+	ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - One or more errors detected during creation of an Azure Policy Definition

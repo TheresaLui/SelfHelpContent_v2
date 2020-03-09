@@ -6,6 +6,7 @@
     articleId="13215084-d37f-41b3-889a-be66f24fd805_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Sample title
 ---

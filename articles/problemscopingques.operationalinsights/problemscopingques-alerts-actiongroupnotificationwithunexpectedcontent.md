@@ -10,6 +10,7 @@ supportTopicIds="32633013"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Alerts/Action Group notification with unexpected content 

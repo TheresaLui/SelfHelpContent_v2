@@ -13,6 +13,7 @@
 	articleId="cosmosdb-sql-query"
 	displayOrder="65"
 	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # SQL queries for Azure Cosmos DB

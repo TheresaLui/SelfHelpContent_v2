@@ -13,6 +13,7 @@ pageTitle="AAD Connect server(s) are running low in memory"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AAD Connect server(s) are running low in memory

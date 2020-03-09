@@ -12,6 +12,7 @@
   productPesIds="13185"
  	cloudEnvironments="public,Fairfax"
  	articleId="fd74c362-2ece-47cf-ba85-11e207ff2ada"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/configuration and management/monitoring and logging

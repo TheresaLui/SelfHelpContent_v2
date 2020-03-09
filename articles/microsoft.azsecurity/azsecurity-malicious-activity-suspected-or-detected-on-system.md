@@ -11,6 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="6531473e-56f6-4833-83dc-f62c37db2e10"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Suspected Malware, Safety Bulletins, and Security Bulletins/Malicious activity suspected or detected on system

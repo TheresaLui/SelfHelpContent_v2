@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="e5b6f454-2832-4b5b-8c27-ac07f930a6e6"
+	ownershipId="Compute_APIManagement"
 />
 
 # Importing API (Logic, API or Function Apps)

@@ -11,6 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="53fea640-0cb9-48b1-9090-ced04711d19f"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/Planned Maintenance(Azure Platform)

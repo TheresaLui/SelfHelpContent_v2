@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="dda56ba0-b9a1-6be3-e05b-2b0918711e18"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # High availability clusters for On-premises data gateway

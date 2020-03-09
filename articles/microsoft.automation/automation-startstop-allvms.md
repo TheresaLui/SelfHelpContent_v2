@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
     articleId="8924af8e-96f5-4373-b030-6da407049d44"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - All VMs fail to start or stop

@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="e1d8b708-9bb6-4e08-9cc2-0661f7912711"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # service tiers or scaling resources/my database or elastic pool isn't visible in the portal

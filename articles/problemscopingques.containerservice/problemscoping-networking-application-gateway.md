@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-networking-application-gateway"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Application Gateway
 ---

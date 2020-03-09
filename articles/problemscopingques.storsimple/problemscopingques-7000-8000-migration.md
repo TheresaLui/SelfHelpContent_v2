@@ -9,6 +9,7 @@
 	productPesIds="15438"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 # Scoping for 7000-8000 Migration
 ---

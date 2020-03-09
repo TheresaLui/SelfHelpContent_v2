@@ -6,6 +6,7 @@
     articleId="9d701f42-13e2-4876-9c2c-64c79dbf3651_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB containers with a partition key
 ---

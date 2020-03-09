@@ -11,6 +11,7 @@
     resourceTags=""
     cloudEnvironments="public"
 	articleId="c6e1cc06-8886-4bf5-afd5-f8e03df81d3e"
+	ownershipId="CloudNet_DNS"
 />
 
 # I can't resolve my DNS record

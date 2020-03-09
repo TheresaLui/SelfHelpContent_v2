@@ -12,6 +12,7 @@
     productPesIds="16611"
     cloudEnvironments="public, Fairfax"
     articleId="5d7a3915-402f-4b74-a589-070a68aa49f4"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Web Application Firewall (WAF)

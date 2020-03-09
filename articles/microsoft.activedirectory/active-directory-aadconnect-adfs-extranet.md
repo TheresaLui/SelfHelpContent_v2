@@ -12,6 +12,7 @@
 	productPesIds="16579"
     cloudEnvironments="public"
     	articleId="c0bae8c1-80c1-42ba-af0b-b4a5fffb8b9b"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Problem with authentication ONLY from the extranet

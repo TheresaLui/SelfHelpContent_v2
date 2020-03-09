@@ -12,6 +12,7 @@
     productPesIds="16556"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="customer-configured-private-address-ranges-for-no-source-nat"
+	ownershipId="CloudNet_AzureFirewall"
 />
 # Customer configured Private Address Ranges for No Source NAT
 

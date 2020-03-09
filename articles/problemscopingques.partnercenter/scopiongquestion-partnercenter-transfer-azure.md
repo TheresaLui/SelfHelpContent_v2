@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_transfer_azure"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Transfer Azure Subscription
 ---

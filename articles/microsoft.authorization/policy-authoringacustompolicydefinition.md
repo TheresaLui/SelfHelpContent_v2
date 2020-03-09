@@ -12,6 +12,7 @@
     productPesIds="16456"
     cloudEnvironments="public, Fairfax"
     articleId="30af8025-9c12-4eca-8f53-d39bc87368c2"
+	ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Authoring a custom policy definition

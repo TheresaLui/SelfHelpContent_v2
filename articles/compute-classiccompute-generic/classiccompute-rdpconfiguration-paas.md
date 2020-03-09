@@ -11,6 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="ec19c0f0-c8e0-41d8-9b2a-bec8318fbc66"
+	ownershipId="Compute_CloudServices"
 />
 
 # worker role (paas)/configuration and management/rdp configuration

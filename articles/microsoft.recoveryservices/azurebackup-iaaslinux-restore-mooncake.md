@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-iaaslinux-restore-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure Linux VM Restore Limitations

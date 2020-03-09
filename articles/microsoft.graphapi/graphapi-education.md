@@ -12,6 +12,7 @@
 	productPesIds="16957"
 	cloudEnvironments="public"
 	articleId="47f933d6-23eb-4dfb-a1d4-dbca76317491"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Microsoft Graph Education API issues

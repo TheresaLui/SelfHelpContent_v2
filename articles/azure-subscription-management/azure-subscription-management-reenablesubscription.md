@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	articleId="reenablesubscriptions"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Re enable Subscription

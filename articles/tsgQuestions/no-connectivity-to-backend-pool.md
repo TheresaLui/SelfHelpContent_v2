@@ -5,9 +5,10 @@
          ms.author="seanj"
          selfHelpType="TSG_Questions"
          productPesIds="15922"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="B3041256-92F9-4DF4-A3C8-F30B804BB1C3"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # TSG Workflow Questions
 ---

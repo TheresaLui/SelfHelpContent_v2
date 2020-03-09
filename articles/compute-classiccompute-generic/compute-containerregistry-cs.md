@@ -12,6 +12,7 @@
 	productPesIds="16213"
 	cloudEnvironments="public, Fairfax"
 	articleId="2993a30b-2f16-478a-a633-8ac227df8b40"
+	ownershipId="ContainerRegistry_Runtime"
 />
 
 # Resolve issues with Azure Container Registry

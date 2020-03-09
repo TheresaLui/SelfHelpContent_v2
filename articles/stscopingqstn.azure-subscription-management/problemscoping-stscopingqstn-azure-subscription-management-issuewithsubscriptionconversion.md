@@ -9,6 +9,7 @@
 	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
    articleId="problemscopingquestion-issuewith-azure-subscription-conversion"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Issue with Azure Subscription conversion
 ---

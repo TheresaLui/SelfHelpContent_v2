@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-security-aad"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Azure Active Directory

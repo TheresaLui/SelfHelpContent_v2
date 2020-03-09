@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-operator-pep"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Using the Azure Stack Privileged Endpoint (PEP)

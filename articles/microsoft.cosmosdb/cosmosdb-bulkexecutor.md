@@ -13,6 +13,7 @@
 	articleId="cosmosdb-bulkexecutor"
 	displayOrder="120"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB bulk executor library
@@ -36,4 +37,4 @@ The bulk executor library helps you leverage this massive throughput and storage
 <br>This tutorial provides instructions on using the bulk executor .NET library to import and update documents to an Azure Cosmos container.   
 
 [Use bulk executor Java library to perform bulk operations on Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/bulk-executor-java)
-<br>This tutorial provides instructions on using the Azure Cosmos DB’s bulk executor Java library to import, and update Azure Cosmos DB documents. 
+<br>This tutorial provides instructions on using the Azure Cosmos DBs bulk executor Java library to import, and update Azure Cosmos DB documents. 

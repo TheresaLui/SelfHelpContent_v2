@@ -12,6 +12,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="aks-install-addingaksbaseimagetomarketplace"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues adding AKS Base image to Azure Stack Marketplace

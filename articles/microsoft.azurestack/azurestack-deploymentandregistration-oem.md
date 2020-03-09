@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-deployment-OEM"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack OEM extension package

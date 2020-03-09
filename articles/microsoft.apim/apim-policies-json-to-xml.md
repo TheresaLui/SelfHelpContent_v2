@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="78c72cfb-cbe6-4cd4-8650-0667ba6ab238"
+	ownershipId="Compute_APIManagement"
 />
 
 # JSON to XML policies

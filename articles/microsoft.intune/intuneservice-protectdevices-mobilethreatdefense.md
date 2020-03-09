@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="ad048ddc-9504-40ff-9134-178ab7f217af"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Protect Devices - Mobile Threat Defense

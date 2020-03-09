@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-security-rbac"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Account management (add, remove, rotate passwords)

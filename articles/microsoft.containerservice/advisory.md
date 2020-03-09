@@ -12,6 +12,7 @@
 	productPesIds="16450"
 	cloudEnvironments="public"
 	articleId="containerservice.advisory"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Diagnose and resolve Kubernetes service advisory issues

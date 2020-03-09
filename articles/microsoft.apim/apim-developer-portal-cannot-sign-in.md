@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="2e6fc318-30dd-471e-b418-4b39f189a9ad"
+	ownershipId="Compute_APIManagement"
 />
 
 # Cannot sign in to Developer portal

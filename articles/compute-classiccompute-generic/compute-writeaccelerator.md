@@ -11,6 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="4722c0c6-5946-41ca-aa43-6052aa2867c5"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Performance/Write Accelerator

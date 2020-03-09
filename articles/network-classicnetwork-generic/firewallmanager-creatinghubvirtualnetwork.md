@@ -12,6 +12,7 @@
     productPesIds="16922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="creating-a-hub-virtual-network"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Creating a hub virtual network
 

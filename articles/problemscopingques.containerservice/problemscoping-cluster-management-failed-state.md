@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-failed-state"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Cluster failed state
 ---

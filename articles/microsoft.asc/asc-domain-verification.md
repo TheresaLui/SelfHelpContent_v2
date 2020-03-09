@@ -12,6 +12,7 @@
 	productPesIds="16512"
 	cloudEnvironments="public, Fairfax"
 	articleId="eeb97967-9e08-47fc-8fd2-a9052fa10290"
+	ownershipId="Compute_AppService"
 />
 
 # ASC/Domain Verification taking too long or not completing

@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_azure_consumption_dispute"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Azure Consumption Dispute
 ---

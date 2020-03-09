@@ -12,6 +12,7 @@
     productPesIds="16611"
     cloudEnvironments="public, Fairfax"
 	articleId="8afd345c-8a37-4139-b7bd-ee919945a6c8"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Session Affinity

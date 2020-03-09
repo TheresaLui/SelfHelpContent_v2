@@ -12,6 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="36ea4adc-47fc-4e18-b37c-61af8f4ba470"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Enabling Password Hash Sync Authentication

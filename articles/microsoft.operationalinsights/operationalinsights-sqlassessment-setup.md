@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="c6f336a0-d779-440c-9df0-051c995bece2"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # sqlassessment-setup

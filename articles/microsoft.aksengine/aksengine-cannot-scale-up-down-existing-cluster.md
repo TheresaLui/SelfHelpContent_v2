@@ -11,6 +11,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="b08fc474-a30d-44c4-b437-8aa8baa27abe"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I cannot scale my existing cluster up or down

@@ -13,7 +13,8 @@
     supportTopicIds="32615525"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # The DHCP request failed causing the VM to lose connectivity

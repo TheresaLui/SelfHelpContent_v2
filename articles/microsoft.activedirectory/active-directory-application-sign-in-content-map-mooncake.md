@@ -10,6 +10,7 @@
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp,directory_overview"
   displayOrder="44"
  	articleId="active-directory-application-sign-in-content-map-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems when signing in to applications

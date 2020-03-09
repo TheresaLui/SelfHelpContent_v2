@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="4b421b27-8eb4-4615-b1ce-1e6149881de6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Supported certificate authorities

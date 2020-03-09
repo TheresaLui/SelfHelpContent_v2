@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-poqs-quotas"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Manage Quotas on Azure Stack
 

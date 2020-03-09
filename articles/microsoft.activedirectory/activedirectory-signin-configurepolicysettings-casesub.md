@@ -12,6 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     articleId="b797ec2d-c7fb-40ae-8baf-0b6ddcfe0a69"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Configuring new or existing policy settings for Azure Active Directory Services

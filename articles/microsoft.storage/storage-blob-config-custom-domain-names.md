@@ -12,6 +12,7 @@
     resourceTags=""
     productPesIds="16459"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to configure a custom domain name

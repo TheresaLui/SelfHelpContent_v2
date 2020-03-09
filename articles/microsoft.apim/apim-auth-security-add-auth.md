@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="aeccc803-3898-45ae-8785-06e3600970a3"
+	ownershipId="Compute_APIManagement"
 />
 
 # Configure Azure API Management with Azure Active Directory Authentication

@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # DNS Verification was not successful for the domain

@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="67bd1e53-4081-4093-b690-35c88b66c493"
+	ownershipId="Compute_APIManagement"
 />
 
 # Scale Azure API Management instance

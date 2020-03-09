@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, Fairfax"
 	articleId="4eeffdf8-2526-468a-8ba9-757b021fffa7"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - Azure portal issues

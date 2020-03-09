@@ -6,6 +6,7 @@
     articleId="2b5eac39-9f50-4d8d-bc9b-1e1e07c5c37e_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 />
 # Repair your log alert rule
 ---

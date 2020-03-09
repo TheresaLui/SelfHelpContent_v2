@@ -8,7 +8,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="1081c592-989c-4a7f-bf06-7438278335e7"
-    />
+    	ownershipId="AzureIdentity_B2B"
+/>
 
 # AAD Connect synchronization not working
 

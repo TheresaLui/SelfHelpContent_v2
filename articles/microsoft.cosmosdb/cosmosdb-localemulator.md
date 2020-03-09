@@ -13,6 +13,7 @@
 	articleId="cosmosdb-localemulator"
 	displayOrder="127"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Emulator

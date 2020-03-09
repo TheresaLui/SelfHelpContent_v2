@@ -12,6 +12,7 @@
 	productPesIds="16666"
 	articleId="4f779b64-8c57-4471-bd22-3f3312f46702"
 	cloudEnvironments="Public"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Problem configuring the provisioning service

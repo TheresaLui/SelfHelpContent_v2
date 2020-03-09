@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Error CBPBackupOrRestoreInProgress

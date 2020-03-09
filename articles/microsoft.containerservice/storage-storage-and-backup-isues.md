@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="3b79ed39-c6d1-4775-8ed0-90443acf968c"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

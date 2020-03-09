@@ -9,6 +9,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 	articleId="3aab4fb2-c4f9-4828-a570-9a1f410a74e6"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB SDK General Questions
 ---

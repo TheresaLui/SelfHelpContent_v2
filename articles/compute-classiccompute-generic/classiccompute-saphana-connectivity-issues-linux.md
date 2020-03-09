@@ -11,6 +11,7 @@
 	productPesIds="15571,15797"
 	cloudEnvironments="public, Fairfax"
 	articleId="7b415780-965d-44aa-aace-f6007ff22b2d"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Connectivity/Connectivity issues that are related to SAP HANA large instances

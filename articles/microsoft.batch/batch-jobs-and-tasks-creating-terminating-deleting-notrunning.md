@@ -12,6 +12,7 @@
     productPesIds="15614"
     cloudEnvironments="public, Fairfax"
     articleId="batch-jobs-and-tasks-creating-terminating-deleting-notrunning"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Jobs and tasks - Job Schedules

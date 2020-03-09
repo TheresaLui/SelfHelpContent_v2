@@ -12,6 +12,7 @@
 	productPesIds="16512"
 	cloudEnvironments="public, Fairfax"
 	articleId="fdccae2e-f103-4a82-be97-33f6cc3a7658"
+	ownershipId="Compute_AppService"
 />
 
 # ASC/Pending Verification due to Fraud Protection

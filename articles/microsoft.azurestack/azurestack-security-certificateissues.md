@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="decac0d0-8da0-422f-a2b2-d3ad2f9ce05c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Certificates Issues

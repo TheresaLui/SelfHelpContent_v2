@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="7223b7a3-e982-43de-a303-6b747ccd9af0"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE SA Deleted Error

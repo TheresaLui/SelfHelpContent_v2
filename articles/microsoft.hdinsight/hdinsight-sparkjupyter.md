@@ -10,8 +10,9 @@
     supportTopicIds="32636484"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-sparkjupyter"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight: Working with Jupyter notebook on Apache Spark clusters in Azure HDInsight

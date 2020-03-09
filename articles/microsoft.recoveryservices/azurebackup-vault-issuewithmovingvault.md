@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="77a4ff97-36eb-4d69-91b0-03d5e48989df"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Issue with moving vault

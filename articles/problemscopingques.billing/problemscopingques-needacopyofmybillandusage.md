@@ -9,6 +9,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Request a Copy of My Bill and Usage

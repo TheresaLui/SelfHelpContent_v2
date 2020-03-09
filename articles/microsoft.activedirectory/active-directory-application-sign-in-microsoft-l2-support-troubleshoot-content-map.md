@@ -10,6 +10,7 @@
     productPesIds="16575"
     cloudEnvironments="public"
     	articleId="2d5dc8e4-41b1-4d0b-bee8-e9989512f4d9"
+	ownershipId="AzureIdentity_EnterpriseApps"
 />
 
 # Issues that are related to signing in to Microsoft applications

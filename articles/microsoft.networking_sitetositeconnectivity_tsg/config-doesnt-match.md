@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1c3bbfeb-6fee-4f0b-a2da-b372edcd23e0"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Config Does Not Match

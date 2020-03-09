@@ -11,6 +11,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="e284c87e-b625-4201-89be-eaa6ff7b22a2"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I am unable to delete a Cluster or Resource Group

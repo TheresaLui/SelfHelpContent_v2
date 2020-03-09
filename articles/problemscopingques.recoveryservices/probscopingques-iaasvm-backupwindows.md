@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="8a6de52d-409f-4240-ba1c-1bd98e7cc819"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM backup failure for windows
 ---

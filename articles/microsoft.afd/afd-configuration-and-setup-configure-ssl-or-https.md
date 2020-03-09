@@ -12,6 +12,7 @@
     productPesIds="16611"
     cloudEnvironments="public, Fairfax"
 	articleId="91f1e0e5-5317-4900-ae44-654ab268acfe"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Configure SSL or HTTPS 

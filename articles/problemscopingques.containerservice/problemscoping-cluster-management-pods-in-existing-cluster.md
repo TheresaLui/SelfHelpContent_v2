@@ -9,6 +9,7 @@
                 cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-pods-in-existing-cluster"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Problem with Pods in existing cluster
 ---

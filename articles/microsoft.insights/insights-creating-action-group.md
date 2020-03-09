@@ -12,6 +12,7 @@
 	supportTopicIds="32629621"
 	productPesIds="15454"
 	cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # Troubleshooting information for creating an Action Group

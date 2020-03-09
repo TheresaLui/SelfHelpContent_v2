@@ -12,6 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-linux"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Resolve Issues with Linux-based virtual machines for Azure Stack

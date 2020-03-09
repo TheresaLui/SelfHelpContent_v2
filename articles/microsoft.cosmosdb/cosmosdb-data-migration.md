@@ -13,6 +13,7 @@
 	articleId="cosmosdb-data-migration"
 	displayOrder="3"
 	category="CosmosDB Backup and Restore"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Migrating data to Azure Cosmos DB

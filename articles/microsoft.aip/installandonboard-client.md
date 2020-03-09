@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Onboard_Client_Install"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - Installing, Onboarding, or Decommissioning - AIP Client Installation

@@ -9,6 +9,7 @@
                 cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-scaling"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Cluster scaling
 ---

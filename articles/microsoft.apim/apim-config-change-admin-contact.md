@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="eb1559a0-b5e1-44d0-ac6f-a5be1711683f"
+	ownershipId="Compute_APIManagement"
 />
 
 # Change Administrator contact details

@@ -12,6 +12,7 @@
 	productPesIds="15629,16459,16461,16462,16598"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="0ffe93a2-8388-4727-9601-fbc18fb6ab0c"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot and resolve Azure Storage access issues with Azure AD Authentication

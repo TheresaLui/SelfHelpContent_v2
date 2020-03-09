@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="93f73d7d-a086-456b-8187-53a1ecb94b8c"
+	ownershipId="Compute_APIManagement"
 />
 
 # API Inspector Traces

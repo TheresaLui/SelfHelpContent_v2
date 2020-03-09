@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32641072,32641074,32641075,32641076"
                 productPesIds="16080"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0106"
+	ownershipId="Compute_VirtualMachineScaleSets"
 />
 # Config and Setup
 ---

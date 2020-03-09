@@ -12,6 +12,7 @@
   productPesIds=""
   cloudEnvironments="MoonCake"
   ArticleId="hdinsight-hive-authorizationfailure-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Authorization failure

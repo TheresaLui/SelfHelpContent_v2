@@ -11,6 +11,7 @@
     productPesIds="15551"
     cloudEnvironments="public, Fairfax"
     articleId="e615a601-3398-43a5-840e-adbbcdbed649"
+	ownershipId="Compute_APIManagement"
 />
 
 # API Management APIs returns Other Errors (400, 500, 503, etc.)

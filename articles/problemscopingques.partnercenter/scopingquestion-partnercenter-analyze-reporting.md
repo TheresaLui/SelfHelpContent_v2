@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="problemscopingques_partnercenter_reporting"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # CSP analyze and reporting
 ---

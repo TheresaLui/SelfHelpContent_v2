@@ -10,8 +10,9 @@
     supportTopicIds="32683731"  
     resourceTags=""  
     productPesIds="16348"  
-    cloudEnvironments="public"  
+    cloudEnvironments="public, Fairfax"  
     articleId="523af262-4b6b-4499-8234-74d8e16929ad"  
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Deleting an Azure Migrate Project and associated artifacts

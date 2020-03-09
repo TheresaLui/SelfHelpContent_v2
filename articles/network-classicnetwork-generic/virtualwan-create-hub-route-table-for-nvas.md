@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16572"
 	cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="CloudNet_VirtualWAN"
 />
 
 # Create a Virtual WAN hub route table for NVAs 

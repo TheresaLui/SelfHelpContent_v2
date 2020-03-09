@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="8af58add-c2ed-44dd-95b6-ecc241f7b3ac"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Configure iOS education shared devices

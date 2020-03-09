@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="62f7b52e-e335-ba01-75e9-f424dbd3e426"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Distribute Power BI content to external guest users with Azure AD B2B

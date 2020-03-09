@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="f951a9e3-02de-4747-8f14-e7c8fc1537ae"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve job failures

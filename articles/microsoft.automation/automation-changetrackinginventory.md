@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
 	articleId="aad511bc-804b-4d75-8748-121f7ae222fe"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Change Tracking and Inventory Isn't Working

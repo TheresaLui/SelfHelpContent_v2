@@ -9,6 +9,7 @@
 	cloudEnvironments="public, MoonCake"
     schemaVersion="1"
    articleId="3c613a21-eb24-4e91-bf21-d530a8f88c2e"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Change ownership of my subscription
 ---

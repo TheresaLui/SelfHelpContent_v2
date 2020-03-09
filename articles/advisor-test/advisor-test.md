@@ -6,6 +6,7 @@
     articleId="c6ac1f03-bd58-4421-9522-23cffb64d8e1_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="CloudES_AzureResourceHealth"
 />
 # Create an Azure service health alert 
 ---

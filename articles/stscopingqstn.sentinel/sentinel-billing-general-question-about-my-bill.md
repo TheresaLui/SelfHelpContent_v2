@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-billing-general-question-about-my-bill"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Understand your bill

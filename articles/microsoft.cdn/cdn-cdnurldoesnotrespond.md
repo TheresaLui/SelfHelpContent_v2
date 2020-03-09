@@ -12,6 +12,7 @@
 	productPesIds="16975"
 	cloudEnvironments="public, Fairfax"
 	articleId="99657402-5d57-425b-acca-d5451129faa5"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # availability and performance/cdn url does not respond

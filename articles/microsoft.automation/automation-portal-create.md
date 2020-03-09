@@ -12,6 +12,7 @@
     productPesIds="15607"
     cloudEnvironments="public, Fairfax"
 	articleId="628c7a60-1534-4fe0-9f5a-5a125a45772a"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Creating Automation Account

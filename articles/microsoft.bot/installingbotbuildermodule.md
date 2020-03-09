@@ -11,6 +11,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public, Fairfax"
 	articleId="ebb956f7-8c4a-4246-9203-248be258f5fd"
+	ownershipId="Compute_BotService"
 />
 
 # Installing Bot Builder Module

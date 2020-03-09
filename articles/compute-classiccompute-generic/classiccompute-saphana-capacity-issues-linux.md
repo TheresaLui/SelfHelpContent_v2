@@ -11,6 +11,7 @@
 	productPesIds="15571,16454"
 	cloudEnvironments="public, Fairfax"
 	articleId="d5791b9e-0827-46fb-a771-0133edc79e14"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Management/Capacity issues that are related to SAP HANA large instances

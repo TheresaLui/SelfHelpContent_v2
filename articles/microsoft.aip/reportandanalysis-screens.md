@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - Reporting and Analysis - AIP Analytics screens

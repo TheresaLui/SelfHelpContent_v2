@@ -9,6 +9,7 @@
                 cloudEnvironments="Public,Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-performance-high-cpu-memory"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Performance high CPU or high Memory
 ---
