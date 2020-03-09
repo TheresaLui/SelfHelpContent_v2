@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd1cfbde-5501-0625-53ce-2bd702006c70",
+      "longDescription": "",
+      "shortDescription": "Problems related to Azure AD Connect or the new preview agent based AD to AAD feature",
+      "searchTags": "issue syncing from AD to AAD",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "eed84b7f-6511-297a-334c-22d0a0335153",
       "longDescription": "",
       "shortDescription": "You have configured Seamless SSO (SSSO) and are seeing issues",
