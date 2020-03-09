@@ -83,6 +83,14 @@
       "searchTags": "SSSO issues ",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb9b16be-bb35-aebe-0235-ce81f9725920",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the new preview of the agent based provisioning from AD to AAD",
+      "searchTags": "issue with the agent preview prov",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
