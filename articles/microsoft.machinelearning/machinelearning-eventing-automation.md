@@ -12,6 +12,7 @@
     productPesIds="16644"
     cloudEnvironments="public"
     articleid="machinelearning-eventing-automation"
+    ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # How do I set up eventing on my ML workspace?
