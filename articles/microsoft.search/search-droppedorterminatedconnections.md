@@ -6,7 +6,7 @@
 	authors="mrcarter8"
 	ms.author="mcarter"
 	selfHelpType="generic"
-	displayOrder="5"
+	displayOrder="27"
 	supportTopicIds="32681346"
 	resourceTags=""
 	productPesIds="15568"
@@ -17,15 +17,18 @@
 
 # Dropped or terminated connections
 
+An established connection to an Azure Cognitive Search service can be terminated for multiple reasons, including client connection timeouts, changes to the server configuration, network failures, service updates, and so on. Please work through the step below for a first level of troubleshooting for your connection issue.
+
 ## **Recommended Steps**
 
-These are some considerations when you encounter dropped or terminated connections to your Azure Search service:
-
-* Network connectivity issue between application client and the Azure Search service endpoint. 
-*
+* Try to reconnect to your search service URL directly using the SearchIf you are not able to reconnect, please switch to the problem subtype *Database is currently unavailable* to troubleshoot intermittent connection problems.
+* Ensure that your service endpoint is not private.  [Configure a private endpoints](https://aka.ms/acsprivatelink) for a secure connection to you Azure Cognitive Search service.
+* If you have IP whitelisting enabled, [set up additional firewall rules](https://docs.microsoft.com/en-us/rest/api/searchmanagement/2019-10-01-preview/createorupdate-service#iprule) to allow your client's IP address
+* All client-to-service Azure Cognitive Search interactions require [SSL/TLS 1.2 or higher](https://docs.microsoft.com/en-us/security/solving-tls1-problem). To ensure your client applications remain secure, we recommend the [TLS version should not be hardcoded](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls).
+>If you see an exception from your client with a message similar to:
+System.Net.Http.HttpRequestException: An error occurred while sending the request. System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. 
 
 ## **Recommended Documents**
 
 * [Security and data privacy in Azure Search](https://docs.microsoft.com/azure/search/search-security-overview#encrypted-transmission-and-storage)<br>
 * [HTTP status codes (Azure Search)](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)<br>
-* [Azure Search encryption using customer-managed keys in Azure Key Vault](https://docs.microsoft.com/azure/search/search-security-manage-encryption-keys)
