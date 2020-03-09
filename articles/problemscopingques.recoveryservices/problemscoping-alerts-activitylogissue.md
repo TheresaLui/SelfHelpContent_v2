@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 		 articleId="035e14d8-7eda-433a-8bb4-14d77e56def9"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Issue with Activity Log alerts
 ---

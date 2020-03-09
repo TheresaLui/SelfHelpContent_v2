@@ -10,8 +10,9 @@
     supportTopicIds="32636050"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="617fa773-33d8-4073-a8a4-1e9a3c83dcae"
+	ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Policy behavior not as expected

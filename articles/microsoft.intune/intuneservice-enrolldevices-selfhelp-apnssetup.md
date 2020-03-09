@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="88153378-cfec-4be1-a36f-e201b97fccca"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I tried to enroll an iOS or MacOS device but the Company Portal says, "This service is not supported. No enrollment policy."

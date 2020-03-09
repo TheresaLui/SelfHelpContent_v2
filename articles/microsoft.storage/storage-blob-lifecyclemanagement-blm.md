@@ -12,6 +12,7 @@ resourceTags=""
 productPesIds="16459,15629"
 cloudEnvironments="public, blackForest, fairfax, mooncake"
 articleId="Troubleshoot_and_resolve_Blob_Lifecycle_Management_issues"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Troubleshoot and resolve lob Lifecycle Management issues

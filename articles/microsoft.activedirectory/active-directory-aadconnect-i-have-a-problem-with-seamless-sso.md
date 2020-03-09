@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     articleId="91d1a265-98a3-4752-be84-aee2ffc68d11"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem with Seamless SSO

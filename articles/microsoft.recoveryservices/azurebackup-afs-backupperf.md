@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="ce04f3c9-2929-4bd1-9b9c-4c52cf165f3b"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Files Backup Performance Issue

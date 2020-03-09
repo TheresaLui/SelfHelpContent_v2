@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="4567f996-a284-405e-905b-e1e060ec94e0"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # TSG Scope

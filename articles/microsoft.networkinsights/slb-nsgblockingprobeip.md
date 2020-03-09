@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Your Load Balancer probes are blocked by a Network Security Group

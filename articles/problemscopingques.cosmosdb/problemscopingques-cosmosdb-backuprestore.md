@@ -9,6 +9,7 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 	articleId="a7dc710a-d040-4c21-9ab6-53c85567d58e"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB Backup and restore Info
 ---

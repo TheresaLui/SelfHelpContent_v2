@@ -10,6 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
 	articleId="6f27d5f5-74bd-4d3d-9584-5aab8f632043"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Custom Alerts Common Solutions

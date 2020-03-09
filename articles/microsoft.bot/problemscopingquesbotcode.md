@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="56A4E277-C3C7-40FF-A52A-6458223B74E3"
+	ownershipId="Compute_BotService"
 />
 # Bot code is returning an exception or an error
 ---

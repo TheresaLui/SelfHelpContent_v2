@@ -9,6 +9,7 @@
     productPesIds="14947,16579"
     cloudEnvironments="public"
     	articleId="6b261f05-a624-4416-870e-4701bede999a"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # User MFA methods issues

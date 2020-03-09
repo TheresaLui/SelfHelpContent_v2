@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-monitoring-logging-kubelogs"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Monitoring and Logging
 ---

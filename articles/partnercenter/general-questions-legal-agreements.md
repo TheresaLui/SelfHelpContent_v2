@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960,17000"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Legal agreements and compliance

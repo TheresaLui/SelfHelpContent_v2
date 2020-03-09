@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="731a2873-4bc6-4a46-acb8-1bd69ecfcd90"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Conditional Access - Monitor Conditional Access Compliance

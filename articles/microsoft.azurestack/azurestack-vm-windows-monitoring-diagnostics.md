@@ -10,8 +10,9 @@
     supportTopicIds="32663912"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="6f641910-1006-4135-b8d1-85ab25fa1503"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Windows VM monitoring and diagnostics issues

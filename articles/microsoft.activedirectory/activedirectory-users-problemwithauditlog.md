@@ -9,6 +9,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
  	articleId="81d12751-6f85-401b-af5c-5d3e867f41d6"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Problem reading Azure AD audit logs for a user

@@ -10,6 +10,7 @@
     supportTopicIds="32690842"
     productPesIds="16644"
     cloudEnvironments="public, fairfax, mooncake"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # When clusters or instances don't scale up

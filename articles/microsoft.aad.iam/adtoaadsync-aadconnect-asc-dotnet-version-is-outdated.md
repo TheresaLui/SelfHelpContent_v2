@@ -13,6 +13,7 @@ pageTitle="Detected AADConnect server(s) running .net version less than 4.7.2"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Detected AADConnect server(s) running .net version < 4.7.2

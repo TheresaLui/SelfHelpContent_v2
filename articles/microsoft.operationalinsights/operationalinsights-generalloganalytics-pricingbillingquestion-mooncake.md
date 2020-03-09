@@ -15,6 +15,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="operationalinsights-generalloganalytics-pricingbillingquestion-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Pricing or Billing Questions

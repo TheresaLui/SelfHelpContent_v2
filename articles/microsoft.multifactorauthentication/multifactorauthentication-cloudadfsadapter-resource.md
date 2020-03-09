@@ -11,6 +11,7 @@
   productPesIds=""
   cloudEnvironments="public"
 	articleId="d5c27f34-a973-4aa6-a0d4-619262c0c058"
+	ownershipId="AzureIdentity_User"
 />
 
 # Questions about the AD FS adapter for Azure MFA in the cloud

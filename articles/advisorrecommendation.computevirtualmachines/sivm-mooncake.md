@@ -6,6 +6,7 @@
     articleId="02c15f98-aedb-481b-884b-af5847b2bf3d_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Use availability sets for improved fault tolerance
 ---

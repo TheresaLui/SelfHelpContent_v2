@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="E675A3B2-AE69-4ECE-9628-8B3E123D7DF3"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Upgrade to premium storage 
 ---

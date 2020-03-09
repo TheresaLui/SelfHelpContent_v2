@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="d61f3158-322f-4a06-b323-c256a638607a"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check for DIP availability issues

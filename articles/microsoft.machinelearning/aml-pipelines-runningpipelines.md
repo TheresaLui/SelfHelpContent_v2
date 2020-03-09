@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.pipelines.runningpipelines"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Submitting and running pipelines

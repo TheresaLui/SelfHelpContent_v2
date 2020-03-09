@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
 	articleId="d2605ce8-d36b-411b-a43b-26d84ac109d8"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box order creation

@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.securityandmonitoring.ssl"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # SSL setup for ACI or AKS

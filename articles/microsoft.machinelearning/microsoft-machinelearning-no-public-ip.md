@@ -10,6 +10,7 @@
     supportTopicIds="32690893"
     productPesIds="16644"
     cloudEnvironments="public, fairfax, mooncake"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # When you want to remove the Public IP on the compute cluster or instance

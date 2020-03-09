@@ -13,6 +13,7 @@
 	articleId="cosmosdb-mongodbunsupported"
 	displayOrder="225"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # MongoDB API Support  

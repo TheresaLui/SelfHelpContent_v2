@@ -13,6 +13,7 @@ pageTitle="AADConnect server(s) running Windows Server 2008/2008R2"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AADConnect server(s) running Windows Server 2008/2008R2

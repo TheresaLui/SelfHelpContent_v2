@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Export deletion threshold has been reached

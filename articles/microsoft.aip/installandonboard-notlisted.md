@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Onboard_Install_notlisted"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection  - Installing, Onboarding, or Decommissioning - My scenario is not listed

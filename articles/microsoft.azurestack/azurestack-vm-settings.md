@@ -10,8 +10,9 @@
     supportTopicIds="32663898,32663899"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-settings"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Modifying Azure Stack Virtual Machine Settings

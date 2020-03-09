@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Storage account cannot failover due to sync not finished

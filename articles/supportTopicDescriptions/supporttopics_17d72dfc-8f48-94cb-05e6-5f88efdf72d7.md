@@ -2,7 +2,7 @@
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku, srinathv"
+  ms.author="akankshajsh, v-kraku"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"

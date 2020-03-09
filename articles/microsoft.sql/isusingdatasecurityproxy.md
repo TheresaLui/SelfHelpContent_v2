@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Database connectivity issue due to auditing enabled secured connections
 

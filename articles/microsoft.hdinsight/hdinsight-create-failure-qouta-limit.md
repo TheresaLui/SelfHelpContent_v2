@@ -10,8 +10,9 @@
     supportTopicIds="32681543"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="0a3f2d71-7001-4cf0-8591-a95d9b0ce136"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Create failure due to quota limit

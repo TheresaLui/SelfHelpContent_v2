@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Access tiers are not supported on this blob type

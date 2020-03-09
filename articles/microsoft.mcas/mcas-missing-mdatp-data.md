@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16031"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I can't see my Microsoft Defender Advanced Threat Protection discovery data

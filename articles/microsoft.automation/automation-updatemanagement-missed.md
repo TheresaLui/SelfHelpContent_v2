@@ -10,8 +10,9 @@
     supportTopicIds="32599937"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="7784e652-9ef4-42a9-ac42-e13c9d604aba"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Update Deployment Didn't Install

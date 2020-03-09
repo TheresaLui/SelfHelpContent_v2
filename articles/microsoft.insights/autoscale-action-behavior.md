@@ -11,6 +11,7 @@
     supportTopicIds="32683737,32683738"
     productPesIds="15527"
     cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- autoscale-action-behavior -->

@@ -11,6 +11,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
     	articleId="304620c6-e279-475c-9656-bb2f0aeff0bd"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Problem identifying global administrator

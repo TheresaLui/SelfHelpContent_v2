@@ -13,6 +13,7 @@
 	productPesIds="16575"
 	CloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="active-directory-application-redirecturi-misconfigured"
+	ownershipId="AzureIdentity_EnterpriseApps"
 />
 # I received an error related to the reply url
 

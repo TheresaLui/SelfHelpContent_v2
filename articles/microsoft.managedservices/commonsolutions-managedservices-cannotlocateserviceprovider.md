@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16761"
 	cloudEnvironments="public, fairfax"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Cannot locate service provider IDs

@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32640592"
                 productPesIds="15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="c7ba78fb-a44c-4cec-b332-7fb4cc5d583f"
+	ownershipId="Compute_VirtualMachines"
 />
 # Virtual Disk Management
 ---

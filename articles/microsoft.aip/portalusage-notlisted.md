@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="portalusage_notlisted"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - Portal usage - My scenario is not listed

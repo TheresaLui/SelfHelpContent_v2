@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="493a4d5a-add2-4831-abc4-7352a51b60d2"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Backup of Linux Azure Virtual Machine fails

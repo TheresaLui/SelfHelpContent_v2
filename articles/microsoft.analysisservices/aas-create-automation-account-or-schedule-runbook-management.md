@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="a7ba2ac8-6c62-e4f3-6fc7-2aa4e092ab31"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # How to Automate Processing your Azure Analysis Services Models

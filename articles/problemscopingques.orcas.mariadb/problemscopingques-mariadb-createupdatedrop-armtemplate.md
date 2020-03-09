@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640111"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-createupdatedrop-arm_template"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Create Update and Drop Resources - ARM template issues
 ---

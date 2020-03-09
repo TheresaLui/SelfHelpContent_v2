@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="e6a04dcf-b2fe-4121-9df4-41a716d48c2f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I can’t connect to a gateway

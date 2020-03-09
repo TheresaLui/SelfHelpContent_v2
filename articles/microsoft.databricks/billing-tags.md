@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="50078350-c098-4986-bd32-ec5c3f9e5618"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Databricks Tags

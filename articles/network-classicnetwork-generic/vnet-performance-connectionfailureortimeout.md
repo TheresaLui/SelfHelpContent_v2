@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="ab45b514-042c-46a6-8c33-2e92b4fb28c1"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Common solutions for Virtual Network connection failures

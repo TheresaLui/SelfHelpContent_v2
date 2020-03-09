@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.securityandmonitoring.notlisted"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # My issue is not listed here

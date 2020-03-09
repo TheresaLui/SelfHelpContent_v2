@@ -9,6 +9,7 @@
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp,directory_overview"
   displayOrder="507"
  	articleId="7453063a-eccd-48c5-ab67-93e5ae89111f"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems when signing in to applications

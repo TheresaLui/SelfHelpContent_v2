@@ -13,6 +13,7 @@
     productPesIds=""
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="f032d0fa-1e51-4441-ba1d-8c8bcb0f2125"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Moving Log Analytics Workspace

@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="licensing-questionsaboutazureadfeatures"
-    />
+    	ownershipId="AzureIdentity_B2B"
+/>
 
 # Problem assigning licenses to a group
 

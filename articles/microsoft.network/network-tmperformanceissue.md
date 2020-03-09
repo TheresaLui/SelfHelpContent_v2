@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
 	articleId="f5f90671-ebc6-4ede-b399-736c64382616"
+	ownershipId="CloudNet_TrafficManager"
 />
 
 # The response on endpoints is slow or varies a lot

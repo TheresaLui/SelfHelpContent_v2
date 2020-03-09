@@ -12,6 +12,7 @@
         cloudEnvironments="public"
         issueNotListed="true"
  	articleId="c9079e20-ab01-4c27-a504-8f83365cf880"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Processing of partition is sequential

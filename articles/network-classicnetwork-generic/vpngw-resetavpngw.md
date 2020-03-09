@@ -12,6 +12,7 @@
 	productPesIds="16094"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="47b0504a-bbb3-4483-8bb6-172bab2fe564"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Reset a VPN Gateway

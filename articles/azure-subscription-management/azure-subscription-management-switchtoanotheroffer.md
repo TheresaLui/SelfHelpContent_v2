@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="3f6e0e7b-fe81-4889-b784-405931d8f772"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # How do I change my Azure subscription type?

@@ -11,6 +11,7 @@
     productPesIds="14785,16579"
     cloudEnvironments="public"
 	articleId="7183c039-47a0-432a-95ef-272beead8260"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Password synchronization does not work – No passwords are synchronized

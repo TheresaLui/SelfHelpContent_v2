@@ -11,6 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="c14723cd-7604-4148-9c21-a94d66fb2240"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Multi-Factor Authentication (MFA)

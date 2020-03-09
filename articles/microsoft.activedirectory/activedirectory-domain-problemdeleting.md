@@ -11,6 +11,7 @@
     productPesIds="14785,16578"
     cloudEnvironments="public"
     	articleId="e4bba8f2-9a44-42aa-af12-572d84062eb6"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Problem deleting a domain name

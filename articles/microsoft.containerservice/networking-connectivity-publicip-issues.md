@@ -12,6 +12,7 @@
     productPesIds="16450"
     cloudEnvironments="public"
     articleId="networking-connectivity-publicip-issues"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

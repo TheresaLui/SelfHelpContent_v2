@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="37b18738-5961-46d2-b02e-ccbef09d471f"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Increase in resource consumption

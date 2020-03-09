@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="StorageScoping_Blob_Lifecycle_Management"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Lifecycle Management
 ---

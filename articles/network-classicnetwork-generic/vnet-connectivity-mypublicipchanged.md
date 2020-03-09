@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="123"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # connectivity/mypublicipchanged

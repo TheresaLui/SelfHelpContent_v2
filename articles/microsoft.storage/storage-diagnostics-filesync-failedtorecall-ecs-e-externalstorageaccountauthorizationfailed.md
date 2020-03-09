@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Azure File Sync failed to recall file(s) due to error **ECS_E_AZURE_FILE_SHARE_NOT_FOUND**

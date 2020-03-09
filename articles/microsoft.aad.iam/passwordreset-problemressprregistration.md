@@ -8,6 +8,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 	 articleId="fae4f8fc-ccc5-40a6-80f0-dfee2c026c5a"
+	ownershipId="AzureIdentity_SignIn"
 /> 
 # Problem with user-initiated password reset 
 ---

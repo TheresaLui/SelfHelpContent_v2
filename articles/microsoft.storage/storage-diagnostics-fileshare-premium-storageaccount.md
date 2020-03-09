@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # File Share per share metrics for Premium storage accounts

@@ -13,6 +13,7 @@ pageTitle="Autocreated AD DS Connector Account is not being used"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Autocreated AD DS Connector Account is not being used

@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="configpolicy_automatic"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - Creating and configuring Labels and Policies - Automatic classification not behaving as expected"

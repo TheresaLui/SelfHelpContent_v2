@@ -10,6 +10,7 @@
 	supportTopicIds="32609538"
 	productPesIds="16530"
 	cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Management group delete troubleshooting

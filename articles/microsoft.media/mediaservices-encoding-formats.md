@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public"
  	articleId="38289a66-10ef-4a00-8bc2-af5c365479c9"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # What media file formats are supported by the recommended encoder?

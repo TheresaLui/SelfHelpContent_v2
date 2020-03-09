@@ -11,7 +11,8 @@
 	diagnosticScenario="OrcasMySQLAccessDenied"
 	selfHelpType="rca"
 	resourceTags="servers, databases"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Can't connect MySQL database server because Access Denied
 

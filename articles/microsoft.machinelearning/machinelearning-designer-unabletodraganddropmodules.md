@@ -11,6 +11,7 @@
 	supportTopicIds="32690888"
 	productPesIds="16644"
 	cloudEnvironments="public"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Unable to drag and drop modules

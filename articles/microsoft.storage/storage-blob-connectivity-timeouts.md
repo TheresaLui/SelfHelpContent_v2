@@ -12,6 +12,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="3fdc9ce8-4da4-465d-ab2f-06de0ee0e7f6"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to troubleshoot blob timeout error

@@ -13,6 +13,7 @@
 	articleId="cosmosdb-admin-backuprestore"
 	displayOrder="1"
 	category="CosmosDB Backup and Restore"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Backup and restore

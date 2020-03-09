@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="b0d6610b-0a52-4891-a974-0fdd2f4ce176"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with connectivity to Workspace

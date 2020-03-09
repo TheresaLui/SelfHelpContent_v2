@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.workspace.python"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Python SDK issues

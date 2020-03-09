@@ -9,6 +9,7 @@
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
     articleId="scoping_Upgrading_Scanner_Classic"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---

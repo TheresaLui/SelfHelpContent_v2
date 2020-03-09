@@ -11,6 +11,7 @@
 	supportTopicIds="32690871"
 	productPesIds="16644"
 	cloudEnvironments="public"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # My issue is not listed here

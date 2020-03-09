@@ -10,8 +10,9 @@
     supportTopicIds="32640161,32640162"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="compute-manage-powershell-cli-sdk"
+	ownershipId="Compute_ComputePlatform"
 />
 
 # Resolve issues using Azure CLI, PowerShell, or SDK

@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Self-service password reset not enabled

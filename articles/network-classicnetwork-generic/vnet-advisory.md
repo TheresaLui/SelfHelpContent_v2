@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="c7ec5a22-a34f-4ceb-b806-f479858d19f9"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Diagnose and troubleshoot Network Virtual Appliance (NVA) issues

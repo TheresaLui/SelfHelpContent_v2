@@ -12,6 +12,7 @@
 	productPesIds="16098"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="059159e6-1519-4831-8948-6e12a5e009fa"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Add or remove load balanced resources

@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="3c28b040-4e7f-4593-8a03-02bbceb1f829"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center – Managing Alerts – Investigating and acting upon an alert

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="322f351f-83ee-4f54-b06a-a6c4197abc62"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Lifetime change QM Notify

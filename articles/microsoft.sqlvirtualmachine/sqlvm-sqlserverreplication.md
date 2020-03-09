@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="629C8C01-EDA3-47EA-A6E8-3BBBE37B568F"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # alwayson hadr/sql server replication

@@ -12,6 +12,7 @@
     productPesIds="16456"
     cloudEnvironments="public, MoonCake, fairfax"
     articleId="02605244-09e4-4555-903e-b1a3fef6ead7"
+	ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - What resources are covered by Policy

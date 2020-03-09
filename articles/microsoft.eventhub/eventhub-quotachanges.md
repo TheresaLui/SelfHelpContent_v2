@@ -11,6 +11,7 @@
 	productPesIds="16125"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="12463152-0b71-4217-abed-d41997634588"
+	ownershipId="AzureMessaging_Common"
 />
 
 # quota changes, namespace management, and billing

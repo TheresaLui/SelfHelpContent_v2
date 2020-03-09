@@ -12,6 +12,7 @@
     productPesIds="16456"
     cloudEnvironments="public, MoonCake, fairfax"
     articleId="5a12fb4f-fc19-4cb6-834b-6cc5851a8172"
+	ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Permission error message from Policy

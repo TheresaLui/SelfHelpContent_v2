@@ -11,7 +11,8 @@
     supportTopicIds="32635084"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Batch account  - quotas

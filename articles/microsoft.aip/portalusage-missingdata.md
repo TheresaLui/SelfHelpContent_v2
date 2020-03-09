@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="portalusage_missingdata"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - Portal usage - Missing data on portal

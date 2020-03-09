@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="a0c2491d-b029-4a60-9be6-62da57229b00"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure automation error when processing AS server

@@ -9,6 +9,7 @@
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
     articleId="scoping_portalusage_datanotasexpected"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---

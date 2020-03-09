@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="benefitsoffersactivationorextensionrequest"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # activation or extension request

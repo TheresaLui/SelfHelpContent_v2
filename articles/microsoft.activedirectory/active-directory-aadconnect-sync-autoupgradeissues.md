@@ -12,6 +12,7 @@
     productPesIds="16666"
     cloudEnvironments="public"
     	articleId="dbe9d686-5d8b-4828-b90f-9b0a6ae7acc2"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Azure AD Connect auto upgrade issues

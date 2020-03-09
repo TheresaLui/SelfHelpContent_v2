@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Fairfax, Blackforest, Mooncake"
 	articleId="9e4e7b88-954c-4e1b-b883-1d9ba287acf51"
+	ownershipId="ASMS_Billing"
 />
 
 # Azure Cost Managment - AWS connector issue

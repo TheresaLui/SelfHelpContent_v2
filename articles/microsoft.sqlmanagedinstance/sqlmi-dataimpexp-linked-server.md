@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="c3892e31-23ea-4afa-827c-b6c4dbd34ce3"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Linked server

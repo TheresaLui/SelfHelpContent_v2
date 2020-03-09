@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="80a196b4-acbc-4f9f-b281-8e778219746b"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Issues with Power BI report

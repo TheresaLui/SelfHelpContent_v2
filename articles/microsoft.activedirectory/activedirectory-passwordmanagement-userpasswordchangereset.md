@@ -11,6 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     	articleId="1c77ea81-98dd-49dc-85be-76cbd96633a6"
+	ownershipId="AzureIdentity_SignIn"
 />
 # My user is having a problem changing or resetting their password
 

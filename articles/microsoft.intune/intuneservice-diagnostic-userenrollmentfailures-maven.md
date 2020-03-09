@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # We ran diagnostics on your Microsoft Intune subscription and found an issue.

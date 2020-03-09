@@ -12,6 +12,7 @@
     productPesIds="16644"
     cloudEnvironments="Public"
     articleId=" machinelearning-cannot-access-data-in-datastore"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Why I can’t access data or connect to a datastore?

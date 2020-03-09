@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="unexpectedcharges-understandacharge"
+	ownershipId="ASMS_Billing"
 />
 
 # Unexpected Charges-understand a charge

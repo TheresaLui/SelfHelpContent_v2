@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="reserved instance -reservation underutilized or not applying to my resource"
+	ownershipId="ASMS_Billing"
 />
 
 # Reserved Instance -reservation underutilized or not applying to my resource

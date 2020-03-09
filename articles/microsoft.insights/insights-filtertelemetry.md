@@ -10,10 +10,11 @@
     diagnosticScenario="ApplicationInsightsFilterTelemetry"
     displayOrder="1123"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32632989"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # How do I filter telemetry or add additional properties to my telemetry?
 
 ### **Filtering telemetry**

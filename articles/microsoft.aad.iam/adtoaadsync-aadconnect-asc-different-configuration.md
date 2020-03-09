@@ -13,6 +13,7 @@ pageTitle="AAD Connect servers have different configuration"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AAD Connect servers have different configuration

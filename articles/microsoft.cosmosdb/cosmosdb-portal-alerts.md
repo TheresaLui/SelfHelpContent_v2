@@ -13,6 +13,7 @@
 	articleId="cosmosdb-portal-alerts"
 	displayOrder="260"
 	category="Monitoring"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Monitor Cosmos DB with alerts  

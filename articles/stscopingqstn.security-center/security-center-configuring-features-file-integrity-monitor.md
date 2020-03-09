@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="1bd7162d-03e0-40a5-accb-7afcb30ccb4e"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center – Configuring Features – File Integrity Monitor

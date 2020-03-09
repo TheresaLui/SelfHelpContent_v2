@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	articleId="410e4d3d-ad20-49ce-8ab3-3d236b520742"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Switch to Pay by Invoice

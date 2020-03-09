@@ -6,6 +6,7 @@
     articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Increase the MariaDB server vCores
 ---
@@ -15,8 +16,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a5f888e3-8cf4-4491-b2ba-b120e14eb7ce",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDBCpuRecommendations",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",

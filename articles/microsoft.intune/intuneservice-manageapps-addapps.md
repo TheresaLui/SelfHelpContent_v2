@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="00edd8be-e34c-4a89-95da-b23e4b1284e1"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Add Apps

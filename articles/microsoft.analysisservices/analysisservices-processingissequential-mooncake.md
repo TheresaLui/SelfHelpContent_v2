@@ -13,6 +13,7 @@
     cloudEnvironments="MoonCake"
     issueNotListed="true"
  	articleId="5d4f65e0-6668-4aa0-ac3d-68374e88c122"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Processing of partition is sequential

@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629194,32629205"
     productPesIds="16226"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-5238-36a830e63098"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack deployment failure questions
 ---
