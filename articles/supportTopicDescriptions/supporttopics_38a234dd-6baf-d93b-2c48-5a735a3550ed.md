@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5acbc1c4-3b34-9459-4afd-f8ee89b2291a",
+      "longDescription": "",
+      "shortDescription": "You have deployed AADConnect but see no synchronization activity",
+      "searchTags": "issue with siynchronization ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "716e3152-bfe2-0433-ee75-a20101b4a426",
       "longDescription": "",
       "shortDescription": "You have configured Password Hash Sync (PHS) and are seeing issues",
