@@ -14,7 +14,6 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="Public"
-    ownershipId=""
 />
 
 # Incoming IKE connection was ignored because no matching tunnel was found

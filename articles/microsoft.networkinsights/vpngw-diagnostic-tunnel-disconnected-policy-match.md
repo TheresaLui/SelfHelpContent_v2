@@ -14,7 +14,6 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="Public"
-    ownershipId=""
 />
 
 # Tunnel disconnected because of policy match error
