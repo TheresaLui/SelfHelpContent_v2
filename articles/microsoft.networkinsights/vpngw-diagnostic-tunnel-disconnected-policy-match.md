@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="Public"
+       ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Tunnel disconnected because of policy match error
