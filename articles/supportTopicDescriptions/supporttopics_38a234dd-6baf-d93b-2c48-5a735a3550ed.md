@@ -27,6 +27,14 @@
       "searchTags": "Password Writeback issues",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eed84b7f-6511-297a-334c-22d0a0335153",
+      "longDescription": "",
+      "shortDescription": "You have configured Seamless SSO (SSSO) and are seeing issues",
+      "searchTags": "SSSO issues ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
