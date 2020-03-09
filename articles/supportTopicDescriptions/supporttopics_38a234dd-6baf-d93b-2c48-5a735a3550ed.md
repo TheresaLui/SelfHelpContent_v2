@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a57de7d-fec5-06c0-8031-6fad9d7b27de",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the scoping filters or attribute mapping for provisioning form a cloud HR app to AD or AAD",
+      "searchTags": "problem with scoping filters, mapping",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5acbc1c4-3b34-9459-4afd-f8ee89b2291a",
       "longDescription": "",
       "shortDescription": "You have deployed AADConnect but see no synchronization activity",
