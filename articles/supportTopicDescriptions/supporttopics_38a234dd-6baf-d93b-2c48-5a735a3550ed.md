@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "98b288b4-2a60-7eac-6882-cfc64b9bbd89",
+      "longDescription": "",
+      "shortDescription": "You have deployed AADConnect but you are seeing some incorrect or unexpected results",
+      "searchTags": "Sync delivers incorrect results",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
       "longDescription": "",
       "shortDescription": "You have configured Password Writeback and are seeing issues",
