@@ -12,7 +12,7 @@
     productPesIds="16577"
     cloudEnvironments="public"
     	articleId="0f9c8c7c-56c4-46b7-9f6e-a23f54f076eb"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Problem downloading sign-in activities

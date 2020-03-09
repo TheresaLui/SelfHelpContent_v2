@@ -11,7 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="a1cf1a45-524b-4716-80e5-86f857b46e73"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Biometric enrollment

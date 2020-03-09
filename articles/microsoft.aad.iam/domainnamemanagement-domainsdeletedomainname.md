@@ -8,7 +8,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="a8f4e38a-eaf1-43c4-b846-bd216f8631f0"
-    	ownershipId="AzureIdentity_B2B"
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problem with Domains Name domains delete

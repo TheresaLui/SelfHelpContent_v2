@@ -13,7 +13,7 @@
     resourceTags=""
     productPesIds="16986"
     cloudEnvironments="public"
-	ownershipId="AzureIdentity_Authorization"
+	ownershipId="AzureIdentity_RBAC"
 />
 
 # Azure Active Directory: Recover RBAC when subscriptions are moved across tenants

@@ -7,7 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="095dbb8e-e043-4913-b187-7b83597ad012"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 /> 
 # AAD Connect Synchronization - Other questions 
 ---

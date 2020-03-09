@@ -9,7 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="mfa-insight1-datacollection"
-    	ownershipId="AzureIdentity_SignIn"
+    	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Azure Active Directory Sign-In and Multi-Factor Authentication

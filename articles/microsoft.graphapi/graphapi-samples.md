@@ -12,7 +12,7 @@
 	productPesIds="16953,16954,16955,16956,16575"
 	cloudEnvironments="public"
 	articleId="7d2a2423-446d-4317-aba0-aaf38638ddff"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_GraphUsersAndGroupsAPIs"
 />
 
 # Microsoft Graph quick start, tutorials, samples and Graph Explorer issues

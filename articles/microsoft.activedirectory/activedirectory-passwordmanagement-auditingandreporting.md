@@ -11,7 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     	articleId="0b7fc380-4fe8-409b-86f9-69a898328ca2"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # I'm having a problem with password reset auditing and reporting

@@ -12,7 +12,7 @@
     productPesIds="16579,16666"
     cloudEnvironments="public"
     articleId="87cc194f-57ea-49bc-a135-941b17ad4c4b"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # I'm having a problem with password writeback

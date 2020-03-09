@@ -11,7 +11,7 @@
     productPesIds="16577"
     cloudEnvironments="public"
  	articleId="4bf19a30-b18b-4c5b-9151-6d8c1f7bf6d2"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Security Reports (Users Flagged at Risk, Risky Sign-In)

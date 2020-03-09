@@ -9,7 +9,7 @@
     cloudEnvironments="public" 
     schemaVersion="1"
     articleId="problemscopingques-aadb2binvitationissue"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 # Problem with inviting an external user
 ---

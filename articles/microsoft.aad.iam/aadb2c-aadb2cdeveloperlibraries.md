@@ -8,7 +8,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
    articleId="74bb6c16-6466-495c-a460-bc8fa2effaf8"
-    	ownershipId="ASEP_ContentService_Placeholder"
+    	ownershipId="AzureIdentity_B2C"
 /> 
 
 # Problem with AAD B2C developer libraries 

@@ -12,7 +12,7 @@
 	productPesIds="16957"
 	cloudEnvironments="public"
 	articleId="3ba7d49f-581d-4519-8b1e-e751d8bf79d3"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Planner API issues

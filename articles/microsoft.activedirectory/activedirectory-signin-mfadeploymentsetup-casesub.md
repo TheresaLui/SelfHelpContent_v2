@@ -11,7 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="afa87247-7f8e-42a1-9be4-5bf61e3ec553"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Deployment and Setup

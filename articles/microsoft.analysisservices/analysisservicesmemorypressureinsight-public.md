@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds="1003281"
     cloudEnvironments="Public, Fairfax, MoonCake"
-    ownershipId="AzureData_AnalysisServices"
+    ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # There is memory pressure on the server

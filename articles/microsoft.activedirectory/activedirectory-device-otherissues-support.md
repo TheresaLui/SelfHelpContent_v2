@@ -11,7 +11,7 @@
     productPesIds="14785,16578"
     cloudEnvironments="public"
 	articleId="b0aedf00-9a6b-4170-9f34-d46fa62e0dd3"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problems with other issues with devices in Azure AD

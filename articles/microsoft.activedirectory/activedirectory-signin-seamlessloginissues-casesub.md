@@ -12,7 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="c519ed2e-4220-4daa-8570-f6a2b7d034dd"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Resolve issues with Seamless Single Sign-on login for Azure

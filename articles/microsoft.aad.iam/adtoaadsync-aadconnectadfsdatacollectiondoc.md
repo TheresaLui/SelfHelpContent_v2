@@ -7,7 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="22605ab0-3d0b-454c-ac3a-e44d1c57086b"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 /> 
 # Problem with AAD Connect ADFS 
 ---

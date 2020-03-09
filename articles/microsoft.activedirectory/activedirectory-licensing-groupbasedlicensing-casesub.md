@@ -12,7 +12,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
  	articleId="531923ab-135b-47e4-a02f-2ef2a0f05a24"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Group-based licensing

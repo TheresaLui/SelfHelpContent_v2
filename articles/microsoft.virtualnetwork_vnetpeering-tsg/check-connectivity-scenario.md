@@ -2,7 +2,7 @@
 	pageTitle="TSG Content Step: Customer Scenario out of TSG scope"
 	description="TSG Content Step: Customer Scenario out of TSG scope"
 	service="microsoft.network"
-	ownershipid="Centennial_Cloudnet_VirtualNetwork"
+	ownershipId="ASEP_ContentService_Placeholder"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"

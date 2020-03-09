@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 	ms.author="billmath"
 	articleId="a6c99971-423b-4cb0-8818-1324a26728c6"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Farm Deployment Issues

@@ -8,7 +8,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleID="9f90a783-6756-40a9-8231-b754e048c31f"
-    	ownershipId="AzureIdentity_EnterpriseApps"
+    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Problem with grpah API authentication

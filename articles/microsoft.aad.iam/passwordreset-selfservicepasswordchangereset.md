@@ -8,7 +8,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="63487143-7efc-435c-8f63-5368a8162be5"
-    	ownershipId="AzureIdentity_B2B"
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problem with Self service passowrd change reset

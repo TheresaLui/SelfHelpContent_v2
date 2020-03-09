@@ -12,7 +12,7 @@
   productPesIds="16579,16666"
   cloudEnvironments="public"
   articleId="5e0305b5-a7a4-43d7-bd00-aa3bf679ca91"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Problems configuring and signing in with Azure AD Pass-through Authentication

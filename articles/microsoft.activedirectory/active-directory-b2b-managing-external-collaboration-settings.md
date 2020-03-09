@@ -11,7 +11,7 @@
     productPesIds="16580"
     cloudEnvironments="public"
     	articleId="c79c3519-fb7b-4635-9739-f3b9a23776ab"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # Problem managing external collaboration settings

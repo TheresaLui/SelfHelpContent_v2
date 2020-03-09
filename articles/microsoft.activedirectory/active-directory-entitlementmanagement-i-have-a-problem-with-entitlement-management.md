@@ -12,7 +12,7 @@
     productPesIds="16577"
     cloudEnvironments="public"
     articleId="ed6816a5-dfd0-454c-a8b1-4b4aec1015a0"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 # I have a problem with Entitlement Management
 

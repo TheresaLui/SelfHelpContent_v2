@@ -9,7 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="a6dcd774-657f-4260-84ab-392c9c06c157"
-    	ownershipId="ASEP_ContentService_Placeholder"
+    	ownershipId="AzureIdentity_MSGraph"
 />
 
 # Problem with getting an access token (authentication)

@@ -11,7 +11,7 @@
     productPesIds="14785,16579"
     cloudEnvironments="public"
     	articleId="a066de9d-2688-40a7-9fd4-b11652a22f38"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # I'm having other problems with password reset

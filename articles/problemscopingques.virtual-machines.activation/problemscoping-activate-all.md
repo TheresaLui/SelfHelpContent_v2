@@ -9,7 +9,7 @@
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="c2f18aa8-257d-41d5-9f86-87b5bf3c4d26"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Cannot activate my Windows VM
 ---

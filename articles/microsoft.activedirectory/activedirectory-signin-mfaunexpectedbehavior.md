@@ -12,7 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     articleId="730b6810-ae30-48c3-ac4b-1ef0f16cde1f"
-     	ownershipId="AzureIdentity_SignIn"
+     	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 

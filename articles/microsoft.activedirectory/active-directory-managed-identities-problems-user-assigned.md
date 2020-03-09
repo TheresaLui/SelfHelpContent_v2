@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="16985"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_Managed Identities"
 />
 
 # Problem with user-assigned managed identity

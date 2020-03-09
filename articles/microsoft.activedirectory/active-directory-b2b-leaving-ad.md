@@ -11,7 +11,7 @@
     productPesIds="16580"
     cloudEnvironments="public"
     	articleId="5b18d6b5-0e62-47a0-9807-a5d43234773c"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # Problem leaving a directory

@@ -8,6 +8,7 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="public"
 	articleId="448c12c5-1e26-45d4-b9b6-c707e4e7ecb5"
+ownershipId="ASEP_ContentService_Placeholder"
 />
 # Check Azure platform nsg & routing from destination to source
 

@@ -12,7 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="89761828-9ca7-4774-827c-cfbf81dc83c2"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Configuring Conditional Access for MFA

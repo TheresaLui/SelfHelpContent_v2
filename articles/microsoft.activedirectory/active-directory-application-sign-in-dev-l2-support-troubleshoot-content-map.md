@@ -10,7 +10,7 @@
     productPesIds="16575"
     cloudEnvironments="public"
     	articleId="ed6290d1-1d98-4b89-a084-0fad626e1dcc"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Issues that are related to signing in to applications developed by my company

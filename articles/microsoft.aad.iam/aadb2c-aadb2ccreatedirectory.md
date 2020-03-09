@@ -8,7 +8,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
    articleId="fa43dca5-4fec-4ee1-903a-9c56604f0798"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_B2C"
 /> 
 # Problem with AAD B2C create directory 
 ---

@@ -7,7 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="1387d93d-ec85-45fa-9463-efaf4c3a8855"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 /> 
 # Problem with Activity logs in Azure AD 
 ---

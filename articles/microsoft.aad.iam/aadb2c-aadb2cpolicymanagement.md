@@ -9,7 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="bbc964b0-abd5-454c-a3d6-166efb09c09a"
-    	ownershipId="ASEP_ContentService_Placeholder"
+    	ownershipId="AzureIdentity_B2C"
 />
 # Problem with AAD B2C policy management 
 ---
