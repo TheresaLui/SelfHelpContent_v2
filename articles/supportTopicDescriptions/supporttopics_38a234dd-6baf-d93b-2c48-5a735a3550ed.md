@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8dde49e1-0398-a1f0-ba15-b3561e5c1c3d",
+      "longDescription": "",
+      "shortDescription": "Problems related to provisioning users from a cloud HR app into Active Directory or Azure Active Directory",
+      "searchTags": "problems prov from Cloud HR to AAD",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8fab9a08-7574-79ef-6f71-c453de1e1cf8",
       "longDescription": "",
       "shortDescription": "Problems related to configuring or managing user sign in with Azure AD Connect",
