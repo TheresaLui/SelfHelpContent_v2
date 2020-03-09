@@ -7,7 +7,7 @@
     authors="rnagpal"
     ms.author="rnagpal"
     articleId="cosmosdb-ipfilter-rca"
-    diagnosticScenario="CosmosDBIpFilterInsight"
+    diagnosticScenario="CosmosDBIPFilterInsight"
     selfHelpType="rca"
     supportTopicIds="32636792"
     resourceTags=""
