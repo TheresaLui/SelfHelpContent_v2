@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "241143b4-599d-c38d-bcc2-356a62b39477",
+      "longDescription": "",
+      "shortDescription": "You see an error message saying that the Provisioning service is in a quarantained state, or the provisioning service is progressing slowly",
+      "searchTags": "provisioning service is slow ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4a92d5f5-02cc-d436-a449-c4d43282d470",
       "longDescription": "",
       "shortDescription": "You are having a problem configuring the provisioning service from a Cloud HR app to Azure AD or AD",
