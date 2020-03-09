@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8fab9a08-7574-79ef-6f71-c453de1e1cf8",
+      "longDescription": "",
+      "shortDescription": "Problems related to configuring or managing user sign in with Azure AD Connect",
+      "searchTags": "issues with user sign in, password",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
       "longDescription": "",
       "shortDescription": "You have configured Password Writeback and are seeing issues",
