@@ -12,6 +12,7 @@
     productPesIds="16644"
     cloudEnvironments="public"
     articleid="machinelearning-mlops-registration"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # How do I register models in the workspace?
