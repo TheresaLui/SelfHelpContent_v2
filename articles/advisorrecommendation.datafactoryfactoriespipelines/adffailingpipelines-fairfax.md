@@ -17,7 +17,7 @@
   "recommendationTypeId": "f6e3ad9c-5d58-48ba-b06b-ebffba60dd18",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://adfcus.kusto.windows.net').database('AzureDataFactory').AdvisorRepeatedlyFailingPipelines",
+    "streamNamespace": "cluster('https://adfusgovtexas.kusto.usgovcloudapi.net/').database('azuredatafactorygov').AdvisorRepeatedlyFailingPipelines",
     "dataSource": "Kusto",
     "refreshInterval": "08:00:00"
   },
