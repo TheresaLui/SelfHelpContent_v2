@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1a376aec-e5e8-f778-d798-cdf675b9d624",
+      "longDescription": "",
+      "shortDescription": "Problems related to the AADConnect Health service, which monitors your AADConnect sync service and provides notifications when issues are detected",
+      "searchTags": "issue with AADConnect Health service ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "241143b4-599d-c38d-bcc2-356a62b39477",
       "longDescription": "",
       "shortDescription": "You see an error message saying that the Provisioning service is in a quarantained state, or the provisioning service is progressing slowly",
