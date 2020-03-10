@@ -6,6 +6,7 @@
     articleId="00774183-7be9-476d-93f6-98dedad70171"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+    ownershipId="AzureData_HDInsight"
 />
 # Use Accelerated Writes to Improve Write Performance
 ---
@@ -21,7 +22,7 @@
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Low",
-  "recommendationResourceType": "HDInsight",
+  "recommendationResourceType": "Microsoft.HDInsight/clusters",
   "recommendationFriendlyName": "AccWriteCandidate",
   "recommendationMetadataState": "Active",
   "owner": {
@@ -35,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-accelerated-writes",
+  "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes",
   "description": "Accelerated Writes uses Azure premium SSD managed disks to improve performance of your HBase cluster.",
   "longDescription": "The Accelerated Writes feature solves the problem of higher write-latencies caused by using Write Ahead Logs that are in cloud storage. The Accelerated Writes feature for HDInsight Apache HBase clusters, attaches premium SSD-managed disks to every RegionServer (worker node). Write Ahead Logs are then written to the Hadoop File System (HDFS) mounted on these premium managed-disks instead of cloud storage. Premium managed-disks use Solid-State Disks (SSDs) and offer excellent I/O performance with fault tolerance. Unlike unmanaged disks, if one storage unit goes down, it won't affect other storage units in the same availability set. As a result, managed-disks provide low write-latency and better resiliency for your applications.",
   "potentialBenefits": "Lower write-latency and better resiliency for your applications.",
@@ -44,7 +45,7 @@
       "actionId": "ee9d7ab4-ba29-47f6-bf78-eee5a2eb9cb7",
       "description": "Upgrade to Accelerated Writes to improve performance of your HBase cluster",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-hbase-accelerated-writes#how-to-enable-accelerated-writes-for-hbase-in-hdinsight"
+      "documentLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes#how-to-enable-accelerated-writes-for-hbase-in-hdinsight"
     }
   ],
   "resourceMetadata": {
