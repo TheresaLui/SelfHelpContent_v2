@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "94d95c37-8d14-0291-702e-3df4befa01f3",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Seamless Single Sign-on for Azure Active Directory",
+      "searchTags": "issue with Seamless Single Sign-on",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
       "shortDescription": "Issues found when authenticating using Seamless Single Sign-on for AAD",
