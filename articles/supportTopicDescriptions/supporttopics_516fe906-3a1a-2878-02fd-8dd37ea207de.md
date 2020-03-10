@@ -6,9 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de" 
-ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
 ---
 {
@@ -36,6 +34,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "shortDescription": "One or more of my users received at least one unexpected Multi-Factor Authentication request I need assistance understanding why",
       "searchTags": "MFA;MFA Auth;Multi user MFA issue",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2b627192-808e-8f44-ff80-75c8831c8f7d",
+      "longDescription": "",
+      "shortDescription": "Intermittent or total authentication failure from extranet WAP while intranet corpnet users do not experience an interruption",
+      "searchTags": "authentication issue with extranet WAP ",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
