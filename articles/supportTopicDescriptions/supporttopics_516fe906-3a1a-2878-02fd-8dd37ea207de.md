@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a7f81e5c-aa33-5e9a-9d5d-2171f20a78c8",
+      "longDescription": "",
+      "shortDescription": "Assistance in setting up an OAuth or OIDC app, service, or passive SAML or WS-FED application ",
+      "searchTags": "Setting up OAuth, OIDC, SAML, WS-FED",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af69e073-7ebb-6bc5-8427-eb5ccc8caf28",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
