@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "778d1beb-2942-8e08-b723-be5b3dc463e0",
+      "longDescription": "",
+      "shortDescription": "Admin unable to reset a users password or user unable to login with new credentials",
+      "searchTags": "issue with resetting a users password;issue with new password credentials",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "866af4c0-2f66-10f4-3238-5f75346bb3fa",
       "longDescription": "",
       "shortDescription": "I need assistance understanding the Identity Score in Azure AD Identity Protection",
