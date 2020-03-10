@@ -131,6 +131,14 @@
       "searchTags": "Identity Protection;Configuring Identity Protection;Identity Protection settings",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe50cc52-70c6-39db-888d-3b18dfb329fe",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting WAP deployment or communication problems to or from the WAP",
+      "searchTags": "issue with WAP deployment ;communication problems with WAP",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
