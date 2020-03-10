@@ -13,7 +13,7 @@
 	supportTopicIds="Azure AD Domain Services"
 	resourceTags=""
 	productPesIds="14785,16577"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 

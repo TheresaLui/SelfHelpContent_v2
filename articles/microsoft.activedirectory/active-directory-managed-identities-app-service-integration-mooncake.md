@@ -13,7 +13,7 @@
 	supportTopicIds="32632154"
 	resourceTags=""
 	productPesIds="16575"
-	cloudEnvironments="MoonCake"
+	cloudEnvironments="MoonCake, Fairfax"
 	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 

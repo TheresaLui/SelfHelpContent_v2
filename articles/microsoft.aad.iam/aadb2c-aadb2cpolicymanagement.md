@@ -6,7 +6,7 @@
     productPesIds="16580"
     authors="parakhj"
     ms.author="parja"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="bbc964b0-abd5-454c-a3d6-166efb09c09a"
     	ownershipId="AzureIdentity_B2C"

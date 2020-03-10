@@ -10,7 +10,7 @@
 	supportTopicIds="32462545"
 	resourceTags="privilegedidentitymanagement_overview"
 	productPesIds="16577"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="b64b291b-35e2-4cfa-8925-4dbe26427262"
 	ownershipId="AzureIdentity_ComplianceAndReporting"
 />

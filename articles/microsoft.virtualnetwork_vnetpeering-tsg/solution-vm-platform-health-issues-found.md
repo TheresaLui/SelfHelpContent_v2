@@ -14,7 +14,7 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax"
 />
 # Resources and underlying platform show un-healthy
 <!--issueDescription-->

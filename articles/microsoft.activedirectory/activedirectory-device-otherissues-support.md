@@ -9,7 +9,7 @@
     supportTopicIds="32596857"
     resourceTags=""
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="b0aedf00-9a6b-4170-9f34-d46fa62e0dd3"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />

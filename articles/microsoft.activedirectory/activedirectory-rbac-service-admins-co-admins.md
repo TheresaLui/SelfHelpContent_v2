@@ -12,7 +12,7 @@
     supportTopicIds="32690725"
     resourceTags=""
     productPesIds="16986"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	ownershipId="AzureIdentity_RBAC"
 />
 

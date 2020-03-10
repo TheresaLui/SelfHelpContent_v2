@@ -12,7 +12,7 @@
     supportTopicIds="32447987"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
