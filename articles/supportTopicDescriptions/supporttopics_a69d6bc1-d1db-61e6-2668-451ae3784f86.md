@@ -6,7 +6,9 @@
   selfhelptype="SupportTopicDescription"
   productpesids="a69d6bc1-d1db-61e6-2668-451ae3784f86"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_a69d6bc1-d1db-61e6-2668-451ae3784f86" />
+  articleid="supporttopics_a69d6bc1-d1db-61e6-2668-451ae3784f86" 
+ownershipId="ASEP_ContentService_Placeholder"
+/>
 # Support Topic Descriptions for a69d6bc1-d1db-61e6-2668-451ae3784f86
 ---
 {
@@ -25,6 +27,14 @@
       "longDescription": "",
       "shortDescription": "Networking setup and configuration with Azure AD Domain Services",
       "searchTags": "VNet error in Azure AD DS ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "77244271-26e9-0450-57fc-108692da5797",
+      "longDescription": "",
+      "shortDescription": "Service that hosts domain controllers in Azure and manages a domain to lift apps to the cloud.",
+      "searchTags": "Azure AD DS;Domain join;Configure LDAP",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

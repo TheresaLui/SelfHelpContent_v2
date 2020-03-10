@@ -12,7 +12,7 @@
 	productPesIds="14749,16215,14745"
 	cloudEnvironments="public, Fairfax"
 	articleId="1ea553ec-582e-4439-904e-e8a4fad52432"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Management/Instance Metadata Service

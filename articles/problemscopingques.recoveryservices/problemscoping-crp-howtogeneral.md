@@ -9,7 +9,7 @@
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	 articleId="decf02f8-2db8-4b8f-a24d-00bdd0ca9195"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Questions for IAAS VM howto and general quest
 ---

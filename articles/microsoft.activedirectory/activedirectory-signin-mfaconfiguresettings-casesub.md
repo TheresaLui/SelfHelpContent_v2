@@ -10,9 +10,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  	articleId="41a3b2d0-7861-4711-8477-9dfed1bae0e4"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Resolve issues configuring Azure Multi-Factor Authentication settings for Active Directory

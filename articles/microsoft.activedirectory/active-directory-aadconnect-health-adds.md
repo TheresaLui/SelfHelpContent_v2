@@ -9,9 +9,9 @@
     supportTopicIds="32574684"
     resourceTags=""
     productPesIds="14785,16577"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     	articleId="9ad3d4ec-acde-408a-85e8-400a5c632d82"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Connect Health for AD DS

@@ -9,9 +9,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  	articleId="63cdd1e7-cefa-4f67-b331-88f6af759eca"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # NPS Extension / RADIUS Setup and Configuration

@@ -14,7 +14,7 @@
     resourceTags="windows,linux"
     productPesIds="14749,15571,15797,16454,16470"
     cloudEnvironments="public,fairfax"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Migrate your IaaS resources to Azure Resource Manager by 3/1/2023

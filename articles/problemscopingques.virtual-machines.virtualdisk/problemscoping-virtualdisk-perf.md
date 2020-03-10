@@ -9,7 +9,7 @@
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="e01786ed-f6e2-4846-8594-f51f4719c5f9"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Virtual Disk Management
 ---
