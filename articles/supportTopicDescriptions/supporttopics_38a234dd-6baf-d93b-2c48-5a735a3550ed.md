@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ba96d43a-fc76-7b75-fdc0-38e8152ff48c",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the scoping filters for provisioning to a SaaS app",
+      "searchTags": "issue configuring the scope filters",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
       "longDescription": "",
       "shortDescription": "You have configured Password Writeback and are seeing issues",
