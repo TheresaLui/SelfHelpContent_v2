@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "74c81dd5-2a27-fe42-941e-660e5f16582d",
+      "longDescription": "",
+      "shortDescription": "Problems related to provisioning users from Azure AD into connected applications, typically using the SCIM standard. ",
+      "searchTags": "problem to provide user with SaaS app",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8dde49e1-0398-a1f0-ba15-b3561e5c1c3d",
       "longDescription": "",
       "shortDescription": "Problems related to provisioning users from a cloud HR app into Active Directory or Azure Active Directory",
