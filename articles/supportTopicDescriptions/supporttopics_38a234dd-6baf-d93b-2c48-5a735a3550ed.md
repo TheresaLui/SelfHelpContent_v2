@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bfb4ef13-3815-6480-a158-302b76ac5fad",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with one or a few particular users",
+      "searchTags": "problem with a particular user ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
       "longDescription": "",
       "shortDescription": "You have configured Password Writeback and are seeing issues",
