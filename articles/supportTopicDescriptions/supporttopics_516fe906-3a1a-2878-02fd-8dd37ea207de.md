@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "10b30988-925a-95e0-f54f-8e5dbfc38a2d",
+      "longDescription": "",
+      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for AAD",
+      "searchTags": "issues with Seamless Single-Sign-on ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b627192-808e-8f44-ff80-75c8831c8f7d",
       "longDescription": "",
       "shortDescription": "Intermittent or total authentication failure from extranet WAP while intranet corpnet users do not experience an interruption",
