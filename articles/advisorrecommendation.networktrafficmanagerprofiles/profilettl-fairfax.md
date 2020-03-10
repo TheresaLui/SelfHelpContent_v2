@@ -1,13 +1,13 @@
 <properties
     pageTitle="Configure DNS Time to Live to 60 seconds"
     description="Configure DNS Time to Live to 60 seconds"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="d374a732-e69b-41dc-bbc2-a7234e2270be_Public"
+    authors="mattmccreesh"
+    ms.author="mamccree"
+    articleId="d374a732-e69b-41dc-bbc2-a7234e2270be_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Public"
-	  ownershipId="CloudNet_TrafficManager"
+    cloudEnvironments="Fairfax"
+    ownershipId="CloudNet_TrafficManager"
 />
 # Configure DNS Time to Live to 60 seconds
 ---
@@ -18,7 +18,7 @@
   "recommendationTypeId": "d374a732-e69b-41dc-bbc2-a7234e2270be",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Public.Production.Watm.Advisor.ProfileTTL",
+    "streamNamespace": "Fairfax.Production.Watm.Advisor.ProfileTTL",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },

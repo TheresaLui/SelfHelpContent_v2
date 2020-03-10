@@ -1,31 +1,31 @@
 <properties
-    pageTitle="Add or move one endpoint to another Azure region"
-    description="Add or move one endpoint to another Azure region"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="0db76759-6d22-4262-93f0-2f989ba2b58e_Public"
+    pageTitle="Add at least one more endpoint to the profile, preferably in another Azure region"
+    description="Add at least one more endpoint to the profile, preferably in another Azure region"
+    authors="mattmccreesh"
+    ms.author="mamccree"
+    articleId="6cd70072-c45c-4716-bf7b-b35c18e46e72_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
     ownershipId="CloudNet_TrafficManager"
 />
-# Add or move one endpoint to another Azure region
+# Add at least one more endpoint to the profile, preferably in another Azure region
 ---
 {
   "recommendationOfferingId": "9264a786-286a-41e2-b8aa-4210461010a4",
   "recommendationOfferingName": "Traffic Manager",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "0db76759-6d22-4262-93f0-2f989ba2b58e",
+  "recommendationTypeId": "6cd70072-c45c-4716-bf7b-b35c18e46e72",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Public.Production.Watm.Advisor.PrEndpoints",
+    "streamNamespace": "Fairfax.Production.Watm.Advisor.GeneralEndpoints",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/trafficmanagerprofiles",
-  "recommendationFriendlyName": "ProximityProfile",
+  "recommendationFriendlyName": "GeneralProfile",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -40,14 +40,14 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/Ldkkdb",
-  "description": "Add or move one endpoint to another Azure region",
-  "longDescription": "All endpoints associated to this proximity profile are in the same region. Users from other regions may experience long latency when attempting to connect. Adding or moving an endpoint to another region will improve overall performance for proximity routing and provide better availability if all endpoints in one region fail.",
-  "potentialBenefits": "Improve resiliency by allowing failover to another region",
+  "learnMoreLink": "https://aka.ms/AA1o0x4",
+  "description": "Add at least one more endpoint to the profile, preferably in another Azure region",
+  "longDescription": "Profiles should have more than one endpoint to ensure availability if one of the endpoints fails. It is also recommended that endpoints be in different regions.",
+  "potentialBenefits": "Improve resiliency by allowing failover",
   "actions": [
     {
-      "actionId": "cd463052-0764-40c2-9f1b-99118d34825c",
-      "description": "Add or move one endpoint to another Azure region",
+      "actionId": "c05c5214-5e3b-45eb-b811-4cd98157b9d4",
+      "description": "Add another endpoint for failover",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -59,7 +59,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "36168ba0-c0bc-4f9e-998e-9322ea48cc3a",
+      "actionId": "1f5147e8-3437-4537-975b-3d32aae47ae2",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Network",
       "bladeName": "TrafficManagerBlade",
@@ -68,7 +68,7 @@
       }
     }
   },
-  "displayLabel": "Add or Move Endpoint",
+  "displayLabel": "Add Endpoint",
   "additionalColumns": []
 }
 ---

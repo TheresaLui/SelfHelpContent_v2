@@ -1,12 +1,12 @@
 <properties
     pageTitle="Add or move one endpoint to another Azure region"
     description="Add or move one endpoint to another Azure region"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="0db76759-6d22-4262-93f0-2f989ba2b58e_Public"
+    authors="mattmccreesh"
+    ms.author="mamccree"
+    articleId="0db76759-6d22-4262-93f0-2f989ba2b58e_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
     ownershipId="CloudNet_TrafficManager"
 />
 # Add or move one endpoint to another Azure region
@@ -18,7 +18,7 @@
   "recommendationTypeId": "0db76759-6d22-4262-93f0-2f989ba2b58e",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Public.Production.Watm.Advisor.PrEndpoints",
+    "streamNamespace": "Fairfax.Production.Watm.Advisor.PrEndpoints",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },

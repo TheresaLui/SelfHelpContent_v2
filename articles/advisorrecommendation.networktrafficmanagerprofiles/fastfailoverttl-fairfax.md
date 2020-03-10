@@ -1,31 +1,31 @@
 <properties
-    pageTitle="Configure DNS Time to Live to 60 seconds"
-    description="Configure DNS Time to Live to 60 seconds"
-    authors="aadevteam"
-    ms.author="aadevteam"
-    articleId="d374a732-e69b-41dc-bbc2-a7234e2270be_Public"
+    pageTitle="Configure DNS Time to Live to 20 seconds"
+    description="Configure DNS Time to Live to 20 seconds"
+    authors="mattmccreesh"
+    ms.author="mamccree"
+    articleId="b020ff96-37bf-4a64-8bd5-2bfb3fdf3f87_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Public"
-	  ownershipId="CloudNet_TrafficManager"
+    cloudEnvironments="Fairfax"
+    ownershipId="CloudNet_TrafficManager"
 />
-# Configure DNS Time to Live to 60 seconds
+# Configure DNS Time to Live to 20 seconds
 ---
 {
   "recommendationOfferingId": "9264a786-286a-41e2-b8aa-4210461010a4",
   "recommendationOfferingName": "Traffic Manager",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "d374a732-e69b-41dc-bbc2-a7234e2270be",
+  "recommendationTypeId": "b020ff96-37bf-4a64-8bd5-2bfb3fdf3f87",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Public.Production.Watm.Advisor.ProfileTTL",
+    "streamNamespace": "Fairfax.Production.Watm.Advisor.FastFailoverTTL",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "Medium",
+  "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Network/trafficmanagerprofiles",
-  "recommendationFriendlyName": "ProfileTTL",
+  "recommendationFriendlyName": "FastFailOverTTL",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -40,14 +40,14 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/Um3xr5",
-  "description": "Configure DNS Time to Live to 60 seconds",
-  "longDescription": "Time to Live (TTL) affects how recent of a response a client will get when it makes a request to Azure Traffic Manager. Reducing the TTL value means that the client will be routed to a functioning endpoint faster in the case of a failover. Configure your TTL to 60 seconds to route traffic to a health endpoint as quickly as possible.",
-  "potentialBenefits": "Improve availability by failing over to healthy endpoints faster",
+  "learnMoreLink": "https://aka.ms/Ngfw4r",
+  "description": "Configure DNS Time to Live to 20 seconds",
+  "longDescription": "Time to Live (TTL) affects how recent of a response a client will get when it makes a request to Azure Traffic Manager. Reducing the TTL value means that the client will be routed to a functioning endpoint faster in the case of a failover. Configure your TTL to 20 seconds to route traffic to a health endpoint as quickly as possible.",
+  "potentialBenefits": "Improve availability by failing over to healthy endpoints",
   "actions": [
     {
-      "actionId": "151f3e91-ccff-44b9-8e5c-6f8c4f796319",
-      "description": "Configure your profile TTL to 60 seconds",
+      "actionId": "5752f97c-1607-45ee-807b-4b003af71452",
+      "description": "Configure your fast failover profile TTL to 20 seconds",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -59,7 +59,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "75b83538-dfc6-4da9-94c1-9fc79fd3ebdb",
+      "actionId": "5e6564b8-fb81-44e3-a0e2-abddf5a89923",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Network",
       "bladeName": "TrafficManagerBlade",
