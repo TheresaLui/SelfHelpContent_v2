@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a341cb35-6259-14bf-5b0a-eee3f0a3f2e5",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting apps that have previously been fully functional but now are marginal or offline",
+      "searchTags": "problems with marginal or offline apps",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a7f81e5c-aa33-5e9a-9d5d-2171f20a78c8",
       "longDescription": "",
       "shortDescription": "Assistance in setting up an OAuth or OIDC app, service, or passive SAML or WS-FED application ",
