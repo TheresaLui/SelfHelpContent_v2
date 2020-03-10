@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2d74d361-5669-9a69-89e3-5c04da5190cf",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the provisioning service for a SaaS app",
+      "searchTags": "issue configuring provisioning service ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4a92d5f5-02cc-d436-a449-c4d43282d470",
       "longDescription": "",
       "shortDescription": "You are having a problem configuring the provisioning service from a Cloud HR app to Azure AD or AD",
