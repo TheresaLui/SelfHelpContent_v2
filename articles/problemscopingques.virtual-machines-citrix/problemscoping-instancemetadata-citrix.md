@@ -13,9 +13,8 @@
 />
 # Management
 
-```
+---
 {
-
                 "subscriptionRequired": true,
                 "resourceRequired": false,
                 "title": "Instance Metadata Service",
@@ -107,4 +106,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-```
+---
