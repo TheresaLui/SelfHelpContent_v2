@@ -9,13 +9,14 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Billing and Payment Issues
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Azure Cost Management",
     "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
     "formElements": [

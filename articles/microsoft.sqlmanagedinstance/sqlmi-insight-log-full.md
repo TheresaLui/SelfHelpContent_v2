@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="sqlmanagedinstance-perf-log-size-misconfiguration"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Managed Instance - Log size misconfiguration

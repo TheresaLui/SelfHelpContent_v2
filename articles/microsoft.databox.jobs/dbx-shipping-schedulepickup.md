@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
     articleId="32639187"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Can't schedule a pick-up

@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="e4a83562-79fe-4bb4-b5a1-56a2a24966fb"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I have questions on Configuring Qradar, Splunk or SIEM

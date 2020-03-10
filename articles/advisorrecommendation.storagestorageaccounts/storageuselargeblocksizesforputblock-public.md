@@ -6,6 +6,7 @@
     articleId="70065997-d4d4-4671-baeb-39a2ac66e8ec_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Use larger block sizes for large block blob uploads
 ---
@@ -24,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StorageUseLargeBlockSizesForPutBlock",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
@@ -38,7 +39,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "http://aka.ms/understandblockblobs",
+  "learnMoreLink": "https://aka.ms/understandblockblobs",
   "description": "Use larger block sizes for large block blob uploads",
   "longDescription": "When writing a block blob that is larger than 256 MB, using larger block sizes reduces the number of write operations required to upload the blob when calling \"Put Block\". Block blobs support up to 100 MB blocks for the REST API versions 2016-05-31 and later, and 4 MB for older versions. We suggest using at least 4 MB blocks when uploading large objects with the \"Put Block\" operation. Based on your aggregated metrics, we believe your storage account's write operations can be optimized.",
   "potentialBenefits": "Increase performance and reduce operation costs",
@@ -47,7 +48,7 @@
       "actionId": "aef31774-ec65-4882-9d31-4a369e4db565",
       "description": "Use Larger Block Sizes for \"Put Block\"",
       "actionType": "Document",
-      "documentLink": "http://aka.ms/putblock"
+      "documentLink": "https://aka.ms/putblock"
     }
   ],
   "resourceMetadata": {

@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="configure-appservice"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Application Gateway with App Service

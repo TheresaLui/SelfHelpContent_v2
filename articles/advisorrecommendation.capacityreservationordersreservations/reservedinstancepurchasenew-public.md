@@ -1,13 +1,14 @@
 <properties
-    pageTitle="Purchase a new Reserved instance for your expiring Reserved instances"
-    description="Purchase a new Reserved instance for your expiring Reserved instances"
+    pageTitle="Configure automatic renewal for your expiring reservations"
+    description="Configure automatic renewal for your expiring reservations"
     authors="aadevteam"
     ms.author="aadevteam"
     articleId="abb1f687-2d58-4197-8f5b-8882f05c04b8_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
-# Purchase a new Reserved instance for your expiring Reserved instances
+# Configure auto-renewal for your expiring reservation(s)
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
@@ -39,27 +40,20 @@
   "recommendationTimeToLive": 86400,
   "version": 2.0,
   "learnMoreLink": "https://aka.ms/reservedinstances",
-  "description": "Purchase a new Reserved instance for your expiring Reserved instances",
-  "longDescription": "Reserved instances listed below are expiring soon or recently expired. Your resources will continue to operate normally, however, you will be billed at the pay-as-you-go rates going forward. To optimize your costs, purchase a replacement for the expiring RIs.",
+  "description": "Configure automatic renewal for your expiring reservation",
+  "longDescription": "Reserved instances listed below are expiring soon or recently expired. Your resources will continue to operate normally, however, you will be billed at the on-demand rates going forward. To optimize your costs, configure automatic renewal for these reservations or purchase a replacement manually.",
   "potentialBenefits": "Continue to receive discounted rates for your resources",
   "actions": [
     {
       "actionId": "f04de9c9-5b7d-46c6-8642-5636cae7cb66",
       "description": "Renew",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Reservations",
-      "bladeName": "CreateBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "filters": {
-          "reservedResourceType": "{ResourceTypeNew}",
-          "subId": "{subscriptionId}",
-          "scope": "{AppliedScopeType}",
-          "region": "{Region}",
-          "sku": "{SKU}",
-          "term": "{Term}",
-          "quantity": "{Quantity}"
-        },
-        "referrer": "AzureAdvisorRiRenewal"
+        "id": "{ReservationId}",
+        "menuid": "renewal",
+        "referrerInfo": "AdvisorRenewal"
       }
     }
   ],
@@ -91,7 +85,8 @@
       "title": "Quantity"
     }
   ],
-  "tip": "Purchase a new Reserved VM Instance for your expiring RI to continue receiving discounted rates.",
+  "tip": "Configure auto-renawal for your expiring reservations to continue receiving discounted rates.",
+  "testData": "a89bd2aa-ccb0-42a7-bf35-5345e0dbd684,/subscriptions/a89bd2aa-ccb0-42a7-bf35-5345e0dbd684,\"{\"\"ReservationName\"\":\"\"Test Reservation\"\", \"\"ReservationId\"\": \"\"/providers/microsoft.capacity/reservationOrders/12c9a47d-3153-46f5-a301-70e2a3ece67c/reservations/aed75d99-e764-4cd0-bd92-0635e475de2f\"\",\"\"ExpiryDate\"\":\"\"8/12/2019 12:48:17 AM\"\",\"\"Product\"\":\"\"Test product\"\",\"\"Quantity\"\":\"\"5\"\"}\"",
   "costSavingInfo": "*You can save up to the stated amount if you purchase single subscription reservations for 3 years and your future usage follows the same pattern as the last 30 days. Your actual savings may vary."
 }
 ---

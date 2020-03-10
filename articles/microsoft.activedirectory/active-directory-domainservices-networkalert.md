@@ -13,7 +13,8 @@
 	supportTopicIds="Azure AD Domain Services"
 	resourceTags=""
 	productPesIds="14785,16576"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"
 />
 
 # Network Health Alert for Azure AD Domain Services

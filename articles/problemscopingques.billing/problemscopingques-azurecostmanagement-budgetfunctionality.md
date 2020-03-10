@@ -9,13 +9,14 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Azure Cost Management
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Azure Cost Management",
     "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
     "formElements": [

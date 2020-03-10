@@ -1,17 +1,18 @@
 <properties
-	pageTitle="Resolve issues with an unexpected VM restart"
-	description="Resolve issues with an unexpected VM restart"
-	service="microsoft.compute"
-	resource="virtualmachines"
-	authors="ScottAzure"
-	ms.author="scotro"
-	displayOrder="65"
-	selfHelpType="resource"
-	supportTopicIds="32628269,32628280,32628287,32633528"
-	resourceTags="windows, windowsSQL"
-	productPesIds="14749,14745"
-	cloudEnvironments="public"
+    pageTitle="Resolve issues with an unexpected VM restart"
+    description="Resolve issues with an unexpected VM restart"
+    service="microsoft.compute"
+    resource="virtualmachines"
+    authors="ScottAzure"
+    ms.author="scotro"
+    displayOrder="65"
+    selfHelpType="resource"
+    supportTopicIds="32628269,32628280,32628287,32633528"
+    resourceTags="windows, windowsSQL"
+    productPesIds="14749,14745"
+    cloudEnvironments="public, Fairfax"
 	articleId="64c0a2f3-0fe4-4eed-a2d2-3218f58cde19"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve issues with an unexpected VM restart
@@ -60,4 +61,4 @@ To understand what Azure planned maintenance is and how it can affect the availa
 
 * [Understanding more about VM crashes](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#vm-crashes)<br>
 * [Understand Windows Update and Azure Security update installation](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#azure-security-center-and-windows-update)<br>
-* [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)
+* [Diagnose & recover from boot failures after a restart](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics)

@@ -10,24 +10,23 @@
 	supportTopicIds="32591320,32589415"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="34c058c7-41ad-4a51-90da-d31ce8fe0ecf"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve issues with Azure planned maintenance
 
-### I don't see any indication of planned maintenance in the portal, Powershell, or CLI<br>
+**I don't see any indication of planned maintenance in the portal, Powershell, or CLI<br>**
 
 Information related to planned maintenance is available during a planned maintenance wave only for the VMs which are going to be impacted by it. In other words, if you see no data, it could be that the maintenance wave has already completed (or not started) or that your virtual machine is already hosted in an updated server.<br>
 
-### What are the different possible values for my virtual machine during planned maintenance?
+**What are the different possible values for my virtual machine during planned maintenance?**
 
-**Value**	| **Description**
---- | ---
-***Start now*** | The VM is in the self-service maintenance window which lets you initiate the maintenance yourself.
-***Scheduled*** | The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM.
-***Empty or Completed*** |  Your VM does not require any maintenance and no maintenance reboot will occur.
-***Skipped***	| You have selected to initiate maintenance with no success. You will not be able to utilize the Customer Initiated Maintenance option. Your VM will be rebooted by Azure during the scheduled maintenance phase.
+* **Start now**: The VM is in the self-service maintenance window which lets you initiate the maintenance yourself
+* **Scheduled**: The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM.<br>
+* **Empty or Completed**: Your VM does not require any maintenance and no maintenance reboot will occur
+* **Skipped**: You have selected to initiate maintenance with no success. You will not be able to utilize the Customer Initiated Maintenance option. Your VM will be rebooted by Azure during the scheduled maintenance phase.<br>
 
 ## **Recommended Documents**
 

@@ -11,8 +11,9 @@
     resourceTags=""
 	productPesIds="15922"
 	supportTopicIds="32639114"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Connectivity Issue: Connection Timed out
 

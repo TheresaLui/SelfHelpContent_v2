@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
 	articleId="53d1a82b-dbaa-42e0-a16a-a7f063701cac"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Installing the gateway service on Server Core

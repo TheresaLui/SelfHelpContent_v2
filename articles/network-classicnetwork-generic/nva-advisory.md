@@ -12,6 +12,7 @@
 	productPesIds="16679"
 	cloudEnvironments="public,mooncake,fairfax,blackforest"
 	articleId="nva-advisory.md"
+	ownershipId="CloudNet_NVA"
 />
 
 # networkvirtualappliance/advisory

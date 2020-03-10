@@ -12,6 +12,7 @@
 	productPesIds="15725"
 	articleId= "npm-loganalytics-troubleshoot-and-case-submission-opin"
 	cloudEnvironments="public,fairfax"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Network monitoring (NPM)

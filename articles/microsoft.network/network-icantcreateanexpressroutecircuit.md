@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="4d4faeb9-3c75-40e2-a6ae-117704dee0ea"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I can't create an ExpressRoute circuit

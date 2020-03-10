@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="switchtoanotheroffer"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 
@@ -16,7 +17,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Switch to Another Subscription Offer",
     "fileAttachmentHint": "",
     "formElements": [

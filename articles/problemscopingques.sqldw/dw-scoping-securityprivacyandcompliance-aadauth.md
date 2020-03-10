@@ -7,15 +7,15 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635186,32635187"
     productPesIds="15818"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Security, Privacy and Compliance - Azure Active Directory Authentication
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Security, Privacy and Compliance - Azure Active Directory Authentication",

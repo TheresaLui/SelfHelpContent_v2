@@ -10,8 +10,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
-    subscriptionRequired="true"
-    resourceRequired="false"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # SQL Database Managed Instance
 ---

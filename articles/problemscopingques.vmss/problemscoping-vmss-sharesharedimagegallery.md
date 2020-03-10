@@ -6,13 +6,15 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615274"
                 productPesIds="16080"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0110"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 # Management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Unable to share Shared Image Gallery, Image Definition or Image Version",
     "fileAttachmentHint": "",

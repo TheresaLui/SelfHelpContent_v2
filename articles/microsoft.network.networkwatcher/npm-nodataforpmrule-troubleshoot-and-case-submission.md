@@ -6,12 +6,13 @@
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="5"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32606442"
 	resourceTags="optional"
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 	articleId="npm-nodataforpmrule-troubleshoot-and-case-submission"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # NPM for Performance Monitor

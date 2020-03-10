@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="b84eddd1-10b9-ba39-bf09-dc13983510ac"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Backup and restore

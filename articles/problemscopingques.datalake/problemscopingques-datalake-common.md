@@ -9,6 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="27f3c71b-3fbc-43fd-8acf-6e9bf44b2a2b"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
 # ADLS Gen1 Scoping Questions Common
 ---

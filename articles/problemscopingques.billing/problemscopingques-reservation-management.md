@@ -9,12 +9,13 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 # Reservation Management
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [

@@ -11,8 +11,9 @@
 	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32582825"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # End-to-end SSL issues with Application Gateway
 

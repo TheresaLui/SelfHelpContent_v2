@@ -10,8 +10,9 @@
     supportTopicIds="32615228, 32642187"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="754ca972-a640-407c-8f78-a0836b393a9d"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Scanning for and Deploying Updates
@@ -20,39 +21,43 @@ This article will help with assessing available updates and installing updates u
 
 ## **Recommended Steps**
 
+* Try running the Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues) or [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) which addresses many common issues
+
 ### **I know updates are available, but they don't show as needed on my machines**
 
+
 * This often happens if machines are configured to get updates from WSUS/SCCM, but WSUS/SCCM have not approved the updates
-* You can check if machines are configured for WSUS/SCCM by [cross-referencing the "UseWUServer" registry key to the registry keys in the "Configuring Automatic Updates by Editing the Registry" section of this document](https://support.microsoft.com/help/328010/how-to-configure-automatic-updates-by-using-group-policy-or-registry-s)
+* [Check if machines are configured for WSUS/SCCM](https://support.microsoft.com/help/328010/how-to-configure-automatic-updates-by-using-group-policy-or-registry-s)
+* If machines are configured for WSUS then [run the Client Diagnostics tool](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/manage/wsus-tools) 
 
-### **Updates show as installed, but I can't find them on my machine**
 
-* Updates are often superseded by other updates. For more information, see ["Update is superseded" in the Windows Update Troubleshooting guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer).
+### **I can't find or install a specific update**
+
+* Updates are often [superseded by other updates](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer). The superseded update will no longer appear in Update Management, even if the [Inclusion feature](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management#schedule-an-update-deployment) is used to specify the KB number. 
 
 
 ### **Machine shows as "not assessed"**
 
-Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
+* Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 
-* Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+
+### **Update run returns status "Failed"**
+
+* Follow the troubleshooting guide for ["Update run returns status 'Failed'"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#scenario-update-run-returns-status-failed)
 
 
-### **Machines don't install updates**
-
-* Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
-* If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
-
-### **KB2267602 is consistently  missing**
+### **KB2267602 is consistently shown as missing**
 
 * KB2267602 is the [Windows Defender definition update](https://www.microsoft.com/wdsi/definitions). It is updated daily.
 
-### Installing updates by classification on Linux
+### **Installing updates by classification on Linux**
 
 * Deploying updates to Linux by classification ("Critical and security updates") has important caveats, especially for CentOS. These [limitations are documented on the Update Management overview page](https://docs.microsoft.com/azure/automation/automation-update-management#linux-2)
 
 ### **Machines update without an update deployment**
 
-* If machines are receiving updates without an update deployment, please see the note under ["Install Updates" of the Update Management overview document](https://docs.microsoft.com/azure/automation/automation-update-management#install-updates)
+* See the troubleshooting guide ["Scenario: Updates install without a deployment"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#updates-nodeployment)
 
 ### **Updating machines across different tenants**
 
@@ -60,9 +65,11 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ### **Update Agent Readiness doesn't show "ready"**
 
-* For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report
-* For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
-* Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
+* Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+
+### **Update Management dashboard shows incorrect data**
+
+* This can occur if you have exceeded your Log Analytics pricing tier. See the [Log Analytics pricing documentation](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#changing-pricing-tier) for assistance in diagnosing and resolving this problem.. 
 
 
 ## **Recommended Documents**

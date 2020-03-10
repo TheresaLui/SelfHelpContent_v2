@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="b1841820-85f3-4875-9778-0ef5798f8ea9"
+	ownershipId="AzureIdentity_User"
 />
 
 # I have configured Azure AD logs to be routed to my storage account and don’t see all the logs

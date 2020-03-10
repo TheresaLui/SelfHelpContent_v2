@@ -10,8 +10,9 @@
 	supportTopicIds="32584334"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="a2e21818-3554-4ea5-bde3-5a02a3241ada"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - can't apply this label error
@@ -45,7 +46,8 @@
 4. Verify that you are trying to apply label for a supported file type and that the file is not password protected: [File types supported by the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-file-types#files-that-cannot-be-protected-by-default)
 5. If you are installing on Office 2010, make sure you have defined ServiceLocation parameter [as shown here](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#to-install-the-azure-information-protection-client-by-using-the-executable-installer)
 6. Azure Information Protection does not support having multiple version of Office installed and multiple users signed in to Office. Try to logout all users logged into Office and try again [More information](https://docs.microsoft.com/azure/information-protection/requirements#applications)
-7. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+7. The Azure Information Protection clients do not support multiple versions of Office on the same computer. These clients also do not support switching user accounts in Office
+8. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 

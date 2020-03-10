@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="2cf4fd14-0538-4239-9668-a73685354668"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # alerts-webhooks

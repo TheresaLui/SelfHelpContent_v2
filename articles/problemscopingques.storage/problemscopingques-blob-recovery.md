@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32608638,32612607"
 	productPesIds="16459,16598"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="2ba85226-8c6e-4ecf-bcd1-f3f199c5c6f0"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Recover deleted Blob
 ---
@@ -19,21 +20,13 @@
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Is it possible to recover my accidently deleted blob?",
-        "description": "Our blob recovery troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter could not find your deleted blob. You can enable <a href='https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete'>soft delete for Azure Storage blobs</a> to ensure that accidentally deleted blobs will be recoverable in the future. ."
+        "description": "Our blob recovery troubleshooter can help identify if it might be possible to recover your deleted blob.",
+        "insightNotAvailableText": "Our troubleshooter could not find deletion history on the blob path your provided. Please ensure that it is in the format shown in the watermark."
     },
     "formElements": [
         {
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate local time Blob was deleted",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal,ASC"
-        },
-        {
             "id": "blob_path",
-            "order": 2,
+            "order": 1,
             "controlType": "textbox",
             "displayLabel": "Blob path",
             "watermarkText": "'ContainerName/.../BlobName'",
@@ -41,8 +34,24 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "problem_description",
+            "id": "justification",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Impact of deleted data for your business",
+            "watermarkText": "Recovery of deleted data is a manual and time-consuming process. Please help us understand the business impact of the deleted data.",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
             "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate local time blob was deleted",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

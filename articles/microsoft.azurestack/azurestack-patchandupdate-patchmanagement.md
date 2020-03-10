@@ -10,8 +10,9 @@
     supportTopicIds="32663933"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="662f64b1-781e-4263-80c2-a6b8ff6e3fe7"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Patch and Update Management
@@ -36,4 +37,5 @@ For detailed information on recent releases, release notes on updates and cadenc
 ## **Recommended Documents**
 
 * [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates)<br>
-* [Monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update)
+* [Monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update)<br>
+* [Integrate external monitoring solution with Azure Stack - Integrate with Operations Manager](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-monitor?view=azs-1908#integrate-with-operations-manager)

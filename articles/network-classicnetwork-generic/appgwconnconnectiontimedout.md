@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="connectivity-connection-timedout"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Connectivity Connection Timed out

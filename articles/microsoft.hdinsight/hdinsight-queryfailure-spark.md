@@ -10,8 +10,9 @@
     supportTopicIds="32636496"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax"
     articleId="302b8254-83e6-4005-9d2e-891f19ebc0f3"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsights Query Failure - Spark
@@ -20,22 +21,18 @@
 
 ### **Configuration**
 
-* [How do I configure an Apache Spark application by using Apache Ambari on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-apache-ambari-on-clusters)
-* [How do I configure an Apache Spark application by using a Jupyter notebook on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-a-jupyter-notebook-on-clusters)
-* [How do I configure an Apache Spark application by using Apache Livy on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-apache-livy-on-clusters)
-* [How do I configure an Apache Spark application by using spark-submit on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-spark-submit-on-clusters)
+* [Troubleshoot Apache Spark by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-spark-submit-on-clusters)
 * [Use Apache Spark REST API to submit remote jobs to an HDInsight Spark cluster](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-livy-rest-interface)
 * [Using Spark-Submit to create Apache Spark jobs](https://hdinsight.github.io/spark/spark-submit-chronicles.html)
 
 ### **Troubleshooting**
 
-* [Troubleshoot a slow or failing job on a HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
-* [Streaming Application Fails Without Error](https://hdinsight.github.io/spark/spark-stream-session-configuration.html)
 * [Debug Apache Spark jobs running on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-job-debugging)
+* [Streaming Application Fails Without Error](https://hdinsight.github.io/spark/spark-stream-session-configuration.html)
 * [Use extended Apache Spark History Server to debug and diagnose Apache Spark applications](https://docs.microsoft.com/azure/hdinsight/spark/apache-azure-spark-history-server)
 * [Debug Apache Spark applications locally or remotely on an HDInsight cluster with Azure Toolkit for IntelliJ through SSH](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-intellij-tool-debug-remotely-through-ssh)
-* [Troubleshoot Apache Hadoop YARN by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-yarn)
 * [Apache Spark jobs run slowly when the Azure storage container contains many files](https://hdinsight.github.io/spark/spark-job-slowness-when-destination-folder-has-too-many-files)
+* [Known timeout issue with Anaconda version 4.7.11 and 4.7.12](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-python-package-installation#known-issue)
 
 ### **Solutions to common errors encountered**
 
@@ -48,6 +45,7 @@
 
 ### **Steps to check for resource allocation issues:**
 
+
 * Make sure that the cluster to be used has enough resources by verifying the applications currently running in spark cluster, using Yarn UI. Another source of information about the resources being used by the Spark Executors is the Spark Application UI. In the Spark UI, select the Executors tab to display Summary and Detail views of the configuration and resources consumed by the executors. These views can help you determine whether to change default values for Spark executors for the entire cluster, or a particular set of job executions.
 * Depending on your Spark workload, you may determine that a non-default Spark configuration provides more optimized Spark job executions. You should perform benchmark testing with sample workloads to validate any non-default cluster configurations. Some of the common parameters that you may consider adjusting are:
 
@@ -59,6 +57,7 @@
 
 ## **Recommended Documents**
 
-* [Access YARN application logs on Linux-based HDInsight](https://docs.azure.cn/hdinsight/hdinsight-hadoop-access-yarn-app-logs-linux)
+* [Access YARN application logs on Linux-based HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-access-yarn-app-logs-linux)
 * [How do I download Yarn logs from HDInsight cluster?](https://hdinsight.github.io/yarn/yarn-download-logs.html)
 * [Spark Application Failed with OutOfMemoryError](https://hdinsight.github.io/spark/spark-application-failure-with-outofmemoryerror.html)
+* [Refresh the HDInsight certificate for Data Lake Storage Gen1 access](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-store?toc=/azure/hdinsight/hadoop/TOC.json&bc=/azure/bread/toc.json#refresh-the-hdinsight-certificate-for-data-lake-storage-gen1-access)

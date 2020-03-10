@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="72b143e2-7346-a431-cfdb-31a223217e14"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Publish from Power BI Desktop

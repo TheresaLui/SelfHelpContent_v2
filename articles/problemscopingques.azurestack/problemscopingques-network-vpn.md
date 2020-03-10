@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629282"
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="8ccb2fde-7000-4e97-b711-4b07ac45db50"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack Network for User Environment - VPN
 ---
@@ -72,6 +73,14 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
+                {
+                    "value": "1910",
+                    "text": "1910"
+                },
+                {
+                    "value": "1908",
+                    "text": "1908"
+                },
                 {
                     "value": "1907",
                     "text": "1907"

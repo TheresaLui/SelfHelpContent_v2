@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 	articleId="e485ed69-c238-43c6-b316-4501279f828f"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Problem assigning licenses to a user 
 ---

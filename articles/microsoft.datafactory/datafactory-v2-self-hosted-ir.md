@@ -7,11 +7,12 @@
 	ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629431,32629461,32629540"
+    supportTopicIds="32629461,32629540"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="2c1079e1-2446-4df4-p901-6dc90fb0cbfe"
+	ownershipId="AzureData_DataFactory"
 />
 
 #  V2 - Copy Activity and Self-Hosted IR

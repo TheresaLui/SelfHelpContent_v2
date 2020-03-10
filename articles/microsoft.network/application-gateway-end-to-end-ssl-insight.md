@@ -11,8 +11,9 @@
     diagnosticScenario="ApplicationGatewayEndToEndSSLIssues"
     supportTopicIds="32582825"
 	productPesIds="15922"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # End-to-end SSL issues with Application Gateway
 

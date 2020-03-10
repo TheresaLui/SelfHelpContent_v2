@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="aab8c95b-2e36-4987-8c67-db03b7744763"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot performance issue - low throughput

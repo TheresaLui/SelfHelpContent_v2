@@ -7,11 +7,12 @@
 	ms.author="annayak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602698,32602724"
+	supportTopicIds="32691406,32691407,32691408,32691409,32691401,32691402,32691403,32691404,32691082,32691083,32691084,32691085,32691411,32691412,32691413,32691414"
 	resourceTags=""
-	productPesIds="15629,16459"
-	cloudEnvironments="public"
+	productPesIds="15629,16459,16598,16460"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="5b6180d9-a7de-4dd4-9368-3857c71f1c9a"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # How to troubleshoot encryption issue

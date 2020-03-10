@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure backup - Restore is failing for my VM"
-	description="Azure backup - Restore is failing for my VM"
+	pageTitle="Azure Backup - Restore is failing for my VM"
+	description="Azure Backup - Restore is failing for my VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="srinathv"
@@ -8,13 +8,14 @@
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32637326"
-	resourceTags="windows"
+	resourceTags="linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="89c1ecd8-5025-41d6-b79c-685f163af217"
+	ownershipId="Compute_VirtualMachines"
 />
 
-# Azure backup - Restore is failing for my VM
+# Azure Backup - Restore is failing for my VM
 
 ## **Recommended Steps**
 
@@ -28,7 +29,7 @@
 	- [Replace disks of existing backed-up VM](https://aka.ms/VMRestore-ReplaceExisting-disks)<br>
 	- [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://aka.ms/AB-AA4e56j)
 	- [Restore as a new VM](https://aka.ms/AzureBackup-Restore-NewVM)
-	
+
 **Frequently Asked Questions**
 
 - [Restore specific files or folders from Azure Virtual Machine backup](https://aka.ms/AB-AA4e56a)<br>
@@ -39,7 +40,7 @@
 - [Restore a Domain Controller VM](https://aka.ms/AB-AA4e56v)<br>
 - [Restore VM with special configurations](https://aka.ms/AB-AA4e56v)<br>
 - Attach an existing NIC to the restored VM:
-	
+
 	- Step 1: [Remove from original VM](https://aka.ms/AB-AA4ecr0)<br>
 	- Step 2: [Attach to restored VM](https://aka.ms/AB-AA4e56s)<br>
 

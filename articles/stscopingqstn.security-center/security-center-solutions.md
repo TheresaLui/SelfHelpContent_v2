@@ -5,11 +5,12 @@
 	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32636854,32636868,32636871,32636886,32636887,32636910,32636917,32636918,32636919,32636920"
+	supportTopicIds="32693248"
 	resourceTags=""
 	productPesIds="15947"
 	cloudEnvironments="public"
 	articleId="cacbe45c-e3f0-47aa-b826-edb72592902d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Security Solutions Common Solutions
@@ -19,16 +20,11 @@
 - [Integrate security solutions in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-partner-integration)
 - [Strengthen your security posture with Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-monitoring)
 
-**Common Firewall recommendations**
-
-- [Finalize application protection](https://docs.microsoft.com/azure/security-center/security-center-add-web-application-firewall#finalize-application-protection)
-- [How to add a Next Generation Firewall](https://docs.microsoft.com/azure/security-center/security-center-add-next-generation-firewall)
 
 **Common Networking Recommendations**
 
 - [Enable Network Security Groups ](https://docs.microsoft.com/azure/security-center/security-center-enable-network-security-groups)
-- [Restrict access through Internet-facing endpoints](https://docs.microsoft.com/azure/security-center/security-center-restrict-access-through-internet-facing-endpoints)
-- [Route traffic through NGFW only](https://docs.microsoft.com/azure/security-center/security-center-add-next-generation-firewall#route-traffic-through-ngfw-only)
+
 
 **Troubleshooting**
 

@@ -15,13 +15,13 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
-# MPN - competencies and MAPS requirements
+# MPN - Performance data in Partner Center
 
-How to start using your Microsoft Partner Network (MPN) membership benefits in the Partner Center.
+How to find performance data in Partner Center.
 
 ## **Recommended Documents**
 
-* [Microsoft competency requirements for Gold and Silver membership](https://docs.microsoft.com/partner-center/learn-about-competencies)
-* [Manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits)
+* [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)

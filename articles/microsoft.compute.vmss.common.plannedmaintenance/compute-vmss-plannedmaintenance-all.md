@@ -10,8 +10,9 @@
 	supportTopicIds="32641081"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="49955c3a-0bc9-41a9-8520-8c6fbe81b4cb"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Planned Maintenance in virtual machine scale sets
@@ -50,6 +51,6 @@ For more information, see [Planned maintenance notifications for virtual machine
 * [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal)<br>
 * [Working with large virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-placement-groups)<br>
 * [Azure Metadata Service: Scheduled Events for Linux VMs](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events)<br>
-* [Regions and availability for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/regions-and-availability)<br>
+* [Regions and availability for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/regions)<br>
 * [Choosing the right number of fault domains for virtual machine scale set](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-manage-fault-domains)<br>
 * [Azure virtual machine scale sets FAQs](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)

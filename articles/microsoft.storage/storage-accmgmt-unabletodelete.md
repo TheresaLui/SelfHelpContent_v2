@@ -11,8 +11,9 @@
 	supportTopicIds="32602694,32639219"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="24a774b4-3aaf-46b5-aa55-64247af90249"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Unable to delete Storage Account

@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="7269f03d-db8a-470e-8e8f-4a2514aa045f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I can’t connect to a gateway

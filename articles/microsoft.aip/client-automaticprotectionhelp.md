@@ -10,8 +10,9 @@
 	supportTopicIds="32584330"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="e814fd5d-9e33-43dc-871b-7cb3c3c952a8"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - automatic protection
@@ -22,6 +23,7 @@
 2. Verify that the label is appropriately configured for **Automatic** or **Recommended**
 3. Note that **Automatic** labeling is available for all Office apps, whereas **Recommended** is available for all Office apps except for Outlook
 4. If automatic labeling isn't working for Outlook when attaching a labeled document, verify that DRMEncryptProperty isn't defined as described here: [IRM registry settings for security](https://docs.microsoft.com/deployoffice/security/protect-sensitive-messages-and-documents-by-using-irm-in-office#office-2016-irm-registry-key-options)
+5. You cannot use automatic classification for documents and emails that were previously manually labeled, or previously automatically labeled with a higher classification. More information can be found here: [How automatic or recommended labels are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-classification#how-automatic-or-recommended-labels-are-applied)
 
 If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
@@ -34,6 +36,7 @@ If you are still experiencing the issue, collect Azure Information Protection cl
 
 ## **Recommended Documents**
 
+* [How to configure conditions for automatic and recommended classification for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-classification)<br>
 * [How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>

@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="pricing-azuresubscriptionsandservices"
+	ownershipId="ASMS_Billing"
 />
 
 # azure subscriptions and services
@@ -25,6 +26,15 @@
 * Learn more about service or specific pricing model: [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
 * Speak with someone from sales about pricing: [Contact Azure Sales](https://azure.microsoft.com/overview/sales-number/)
 * Azure Subscriptions: [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/)
+* Learn more on these models and Azure Marketplace: [Marketplace FAQs](https://azure.microsoft.com/marketplace/faq/)
+* Learn more on Billing for Marketplace service charges: [Understand Marketplace service charges](https://azuremarketplace.microsoft.com/marketplace/apps?search=charges)
+
+Note: except for monthly fees, Azure usage charges are applicable to all pricing models unless otherwise stated.
+
+For **SendGrid** issues contact support [here](https://support.sendgrid.com/hc/)
+
+### **Pricing for Azure Marketplace subscriptions**
+Pricing varies based on product types and publisher specifications. Pricing models include: **BYOL Model, Free, Free Software Trial, Usage-Based, Monthly Fee**
 
 ### **Pricing for Azure Services**
 

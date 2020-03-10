@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="60104acd-2ba8-4bc1-9380-d48c3eeab3ba"
+	ownershipId="ASMS_Billing"
 />
 
 # How do I retrieve a copy of my Azure Subscription bill or review usage?

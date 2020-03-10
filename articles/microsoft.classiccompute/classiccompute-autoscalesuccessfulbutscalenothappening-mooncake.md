@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="3925a02a-081b-4f4d-91bc-519fcb549c25"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Autoscale seems to be successful but scaling is not happening

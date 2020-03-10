@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32604337"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0092"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Management
 ---
@@ -35,7 +36,7 @@
             "id": "vm_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "VM name whether the Object ID of the MSI Service principal is added",
+            "displayLabel": "VM Name where the Object ID of the MSI Service principal is added",
             "required": false
         },
         {

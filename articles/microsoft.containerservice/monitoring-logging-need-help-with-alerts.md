@@ -10,8 +10,9 @@
     supportTopicIds="32674476"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="monitoring-logging-need-help-with-alerts"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

@@ -8,10 +8,11 @@
     supportTopicIds="32635220"
     productPesIds="15818"
     displayOrder="65"
-    selfHelpType="resource"
+    selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-portalandclienttools-ssms.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Using portal and client tools - SQL Server Management Studio

@@ -12,7 +12,8 @@ diagnosticScenario="Migrate to ZRS within a region"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Migrate to ZRS within a region
@@ -23,7 +24,7 @@ Changing redundancy type to zone redundant storage (ZRS) involves moving the phy
 
 ## **Recommended Steps**
 
-1. Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is not in a qualified region. We were able to successfully migrate Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. Please check [Qualified Region](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs#support-coverage-and-regional-availability) for more information.
+1. Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is in [RegionName], which is not in a qualified region. We were unable to successfully migrate Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. Please check [Qualified Region](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs#support-coverage-and-regional-availability) for more information.
 
 2. Unable to migrate Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** to ZRS due to account type is premium
 

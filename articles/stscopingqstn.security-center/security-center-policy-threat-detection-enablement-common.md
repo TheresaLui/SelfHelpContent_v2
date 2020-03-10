@@ -7,11 +7,12 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636898"
+    supportTopicIds="32680784"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="i15f057d-8ce6-4b77-a98a-dfaf3843dc2f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Threat Detection Enable Common Solutions

@@ -11,17 +11,26 @@
 	supportTopicIds="32608638"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="7e882f40-1c40-4872-ba02-8f59390d44fd"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Recover deleted Blob
 
 ## **Recommended Steps**
+Blob recovery is only possible under the following conditions.  Please check if:
 
-We apologize, but we are unable to recover a deleted blob without [soft delete](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) enabled.<br>
+1.	This is a critical production data
+2.	A new blob with the same name has not been re-created 
+3.	Blob was deleted in the last:<br>
+	a) 7 days for standard storage<br>
+	b) 3 days for premium storage<br>
 
-As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This blob and all its content were cleaned up after deletion and is no longer recoverable by Azure.
+**Note:** As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. Recovery is a best-effort process, this blob may not be recoverable even when all conditions above are true.<br>
 
-Azure Storage now offers soft delete for blob objects so that you can more easily recover your data when it is erroneously deleted by an application or other storage account user. Enable [soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) to ensure that accidentally deleted blobs will be recoverable in the future. 
+Enable [soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) to protect your data against accidental deletion.
 
+## **Recommended Documents**
+
+* [Soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete)

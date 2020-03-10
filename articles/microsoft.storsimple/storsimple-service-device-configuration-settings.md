@@ -12,6 +12,7 @@
 	productPesIds="15438"
 	cloudEnvironments="public"
 	articleId="faea774a-362c-46de-af1c-1f02587c27ad"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Device configuration and settings

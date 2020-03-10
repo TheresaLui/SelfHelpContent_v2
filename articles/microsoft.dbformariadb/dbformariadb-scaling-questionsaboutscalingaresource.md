@@ -10,9 +10,10 @@
     supportTopicIds="32640148"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="634e9e51-3804-4776-911d-d90d1cd5a6bc"
-    />
+    	ownershipId="AzureData_AzureDatabaseforMariaDB"
+/>
 
 # Scaling Azure Database for MariaDB servers
 
@@ -24,24 +25,21 @@ Most users are able to resolve their issue using the steps below.
 
 * Not able to scale from Basic to General Purpose/Memory Optimized service tiers and vice-versa:
 
-    * Scaling only supported from General Purpose to Memory Optimized service tiers and vice-versa. Azure Database for MariaDB does not allow any scaling to/from the Basic service tier.
-    * In case you want to migrate from Basic to General purpose/Memory Optimized and vice-versa, you can take a database dump of your Basic tier MariaDB database, recreate the server in General Purpose/Memory Optimized and then load the database dump and vice-versa.
+    * If you want to switch from Basic to General purpose or Memory Optimized and vice-versa, please follow the steps in [Upgrade from Basic to General Purpose or Memory Optimized tiers in Azure Database for MariaDB](https://techcommunity.microsoft.com/t5/Azure-Database-for-MariaDB/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/841986) blog
 
-* Can't change the backup storage type after a server is created:
+* Connections are dropped and no new connections can be established while vCores are scaled:
 
-    * You can independently change the vCores, the pricing tier (except to and from Basic), the amount of storage, and the backup retention period. You cannot change the backup storage type after a server is created.
+    * vCore scaling requires a server restart. The window when new connections cannot be established varies, but in most cases, is less than a minute. We recommend you implement retry logic so your application can seamlessly reconnect to the MariaDB server once the scale operation is completed. Storage scaling does not cause a restart.
 
-* No new connections can be established when the system scales:
+* Cannot scale up the master server when a replica exists, or cannot scale down a replica:
 
-    * When you change the number of vCores or the pricing tier, a copy of the original server is created with the new compute allocation. After the new server is up and running, connections are switched over to the new server. During the moment when the system switches over to the new server, no new connections can be established, and all uncommitted transactions are rolled back. This window varies, but in most cases, is less than a minute.
+    * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
 
-* Cannot scale up the master server when a replica exists:
+* Scaling fails with error "Service is temporarily busy and the operation cannot be performed. Please try again later":
 
-    * The replica must be scaled before master server
+    * Try to scale the server again after a few minutes have passed
 
-* Cannot scale down the replica of a master server:
-
-    * The master server must scaled before replica server
+* The Azure Monitor auto-scale feature is not supported in Azure Database for MariaDB
 
 ## **Recommended Documents**
 

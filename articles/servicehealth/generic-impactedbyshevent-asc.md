@@ -11,11 +11,16 @@
 	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
 	articleTags="healthannotation_impactedbyoutage"
+ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # An Azure service issue impacted resources in your subscription
 
-At <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime--> UTC, an Azure service issue impacted resources in your subscription. Please view the latest information about the service issue in Azure service health: [Tracking ID <!--$TrackingId-->TrackingId<!--/$TrackingId-->](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory). You may also download a PDF summary document and root cause for the service issue in Azure Service Health.
+At <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime--> UTC, an Azure service issue impacted resources in your subscription. 
+
+<!--$Description-->Description<!--/$Description-->
+
+Please view the latest information about the service issue in Azure service health: [Tracking ID <!--$TrackingId-->TrackingId<!--/$TrackingId-->](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory). You may also download a PDF summary document and root cause for the service issue in Azure Service Health.
 
 ## **Recommended Steps**
 

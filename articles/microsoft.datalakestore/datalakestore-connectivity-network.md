@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="fb1b42d3-6dd8-43fa-a8e0-2167ce3a5b12"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot and resolve networking errors

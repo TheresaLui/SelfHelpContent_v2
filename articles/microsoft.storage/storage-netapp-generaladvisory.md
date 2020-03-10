@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="16469"
 	cloudEnvironments="public"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Move data to and from Azure Storage

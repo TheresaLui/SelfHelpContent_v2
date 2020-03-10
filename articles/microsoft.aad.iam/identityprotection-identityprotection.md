@@ -6,10 +6,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32542231,32596865,32596866,32596869,32615307"
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="291a8c40-bc18-4a9d-9a1e-1f4473e0be79"
-    />
+    	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Azure Active Directory Sign-In and Identity Protection
 

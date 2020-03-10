@@ -13,7 +13,8 @@
 	supportTopicIds="32612600"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # Azure Data Lake Gen2 Security Data Encryption

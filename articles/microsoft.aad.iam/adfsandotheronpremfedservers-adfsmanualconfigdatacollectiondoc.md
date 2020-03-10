@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 	articleId="5dc61c39-e0d2-4fdb-a6c4-80af03fc3b57"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Problem with ADFS manual configeration 
 ---

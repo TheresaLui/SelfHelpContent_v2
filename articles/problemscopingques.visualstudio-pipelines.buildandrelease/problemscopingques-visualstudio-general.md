@@ -9,6 +9,7 @@ supportTopicIds="32542242,32572375,32612983,32612984,32260182,32260185,32260188,
 	productPesIds="15543"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # General DevOps Issues 
 ---
@@ -49,15 +50,15 @@ supportTopicIds="32542242,32572375,32612983,32612984,32260182,32260185,32260188,
       "id": "org_name",
       "order": 2,
       "controlType": "textbox",
-      "displayLabel": "Please provide your Azure DevOps Organization name (like XYZ.visualstudio.com or dev.azure.com/XYZ)",
-      "watermarkText": "Choose an option",
+      "displayLabel": "Please provide your Azure DevOps Organization URL (like XYZ.visualstudio.com or dev.azure.com/XYZ)",
+      "watermarkText": "Organization URL",
       "required": false
     },
     {
       "id": "project_name",
       "order": 4,
       "controlType": "textbox",
-      "displayLabel": "Name of Team Project with affected",
+      "displayLabel": "Name of Team Project affected",
       "required": false
     },
     {

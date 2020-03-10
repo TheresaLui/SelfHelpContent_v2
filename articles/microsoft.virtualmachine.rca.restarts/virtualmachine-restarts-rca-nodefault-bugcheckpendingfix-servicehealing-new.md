@@ -13,7 +13,8 @@
 	supportTopicIds="32411816"
 	resourceTags="windows, linux"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
@@ -23,7 +24,13 @@ We identified that your VM became unavailable at **<!--$StartTime--> StartTime <
 
 The auto-recovery action was triggered by our Azure monitoring systems that detected a failure condition caused by a recently discovered platform bug with the physical node where the virtual machine was hosted. As a result, your VM was automatically moved to a different and healthy physical node to avoid further impact. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
-Our core platform engineers and are working on a fix for the platform bug that will be deployed to all affected nodes. We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>
+Our core platform engineers and are working on a fix for the platform bug that will be deployed to all affected nodes. To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
+
+We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>
+
+
+
+To check if SLA was violated, please refer to [this article](https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_8).
 
 ## **Recommended Documents**
 

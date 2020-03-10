@@ -10,8 +10,9 @@
     supportTopicIds="32640050"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="b78c03f1-15b7-44e1-b96c-e8211b4ddb8c"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Create and delete read replicas
@@ -44,6 +45,10 @@ Replica servers can be deleted from the [Azure portal](https://docs.microsoft.co
 Master servers can be deleted from the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal#delete-a-master-server) or [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli#delete-a-master-server).
 
 Deleting a master server stops replication to all replica servers and deletes the master server itself. Replica servers become standalone servers that now support both read and writes.
+
+### **Server parameters**
+
+To prevent data from becoming out of sync and to avoid potential data loss or corruption, some server parameters are locked from being updated when using read replicas. Refer to [documentation](https://docs.microsoft.com/azure/mysql/concepts-read-replicas#server-parameters) for the list of parameters that are locked.
 
 ## **Recommended Documents**
 

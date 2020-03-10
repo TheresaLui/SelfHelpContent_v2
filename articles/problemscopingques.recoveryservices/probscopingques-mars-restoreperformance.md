@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="9434ba9d-5881-4eea-8c68-6b3cde03323e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS restore performance
 ---
@@ -89,7 +90,7 @@
             "id": "learn_more_text",
             "order": 5,
             "controlType": "infoblock",
-            "content": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+            "content": "Please upload all CBEngine log files located at C:\\Program Files\\Microsoft Azure Recovery Services Agent\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
         },
         {
             "id": "problem_description",

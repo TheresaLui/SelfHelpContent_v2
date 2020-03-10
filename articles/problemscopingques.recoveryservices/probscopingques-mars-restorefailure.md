@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="171f4f9b-3e04-4b40-8c57-b30b5063c752"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS restore failure
 ---
@@ -52,7 +53,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -61,7 +62,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },

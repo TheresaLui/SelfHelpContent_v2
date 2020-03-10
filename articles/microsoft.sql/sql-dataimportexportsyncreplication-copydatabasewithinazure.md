@@ -6,12 +6,13 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder="7"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32630415"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax"
     resourceTags="servers, databases"
 	articleId="514fdf6b-b8b0-4887-a734-2236d1907bff"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # data import, export, sync, replication/copy database within Azure

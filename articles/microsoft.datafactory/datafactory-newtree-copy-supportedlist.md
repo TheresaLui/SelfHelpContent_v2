@@ -10,10 +10,11 @@
 	articleId="76fb1062-d878-4507-a0d9-8e5f959c6e1b"
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds="32629470, 32629466"
+	supportTopicIds="32629470"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Supported Data Store and File Format in Copy Activity

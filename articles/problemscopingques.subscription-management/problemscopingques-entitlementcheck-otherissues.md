@@ -9,12 +9,13 @@
 	cloudEnvironments="public, MoonCake"
     schemaVersion="1"
    articleId="EntitlementCheckandOtherIssue-problemscopingquestion"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 #  Entitlement Check and Other Issues
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Entitlement Check and Other Issues",
     "fileAttachmentHint": "",
     "formElements": [

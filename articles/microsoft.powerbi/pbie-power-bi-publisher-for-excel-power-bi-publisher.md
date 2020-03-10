@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="a354888d-5284-fc4a-6e89-200fd4e6e442"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Power BI publisher for Excel

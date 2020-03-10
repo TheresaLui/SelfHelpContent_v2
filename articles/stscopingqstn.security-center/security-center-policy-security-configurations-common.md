@@ -7,11 +7,12 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636897"
+    supportTopicIds="32680782"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a15f058d-8uj6-4b77-a98a-dfaf3843dc2f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Operating System Security Configurations Common Solutions

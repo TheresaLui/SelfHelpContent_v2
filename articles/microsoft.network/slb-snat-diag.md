@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Source NAT (SNAT) Diagnostic Result
 

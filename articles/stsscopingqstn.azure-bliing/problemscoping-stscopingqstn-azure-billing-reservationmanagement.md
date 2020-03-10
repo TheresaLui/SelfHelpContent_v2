@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
    schemaVersion="1"
    articleId="2c14140e-abca-4ef8-8c67-f5ebd7974567"
+	ownershipId="ASMS_Billing"
 />
 # Reservation Management
 ---

@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="waf-exclusions-global-parameters"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # WAF Exclusions and Global Parameters

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="how-to-edit-your-profile"
+	ownershipId="ASMS_Billing"
 />
 
 # How to edit your profile

@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="e34faaf6-619e-467c-93bb-bd5dc5402002"
+	ownershipId="ASMS_Billing"
 />
 
 # General questions about your Azure invoice

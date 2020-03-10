@@ -7,11 +7,12 @@
     ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32608950"
+	supportTopicIds="32690980"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="29f37635-647b-435c-b7c5-727d480b9414"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # application/errorandexceptions

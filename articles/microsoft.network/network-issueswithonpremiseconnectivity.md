@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="13a85c0c-2328-4655-9cb5-109f1dffe9d9"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Issues with on-premise connectivity

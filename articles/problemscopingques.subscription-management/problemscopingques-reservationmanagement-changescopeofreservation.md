@@ -9,13 +9,14 @@
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="changescopeofreservation"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Change Scope of Reservation
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -115,7 +116,7 @@
         {
             "id": "reservationorderid_details",
             "order": 5,
-            "visibility": "Reservationid == Other",
+            "visibility": "Reservationid == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",

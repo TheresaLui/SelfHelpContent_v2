@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32663889,32663907,32663909,32663891,32663893,32663895,32663898,32663915,32663917,32663919,32663911,32663912,32663890,32663908,32663910,32663892,32663894,32663896,32663899,32663914,32663916,32663918,32663920,32663897,32663900,32663901"
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="8ccb2fde-3000-4e97-b711-4b07ac45db50"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack virtual machine
 ---
@@ -72,6 +73,14 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
+                {
+                    "value": "1910",
+                    "text": "1910"
+                },
+                {
+                    "value": "1908",
+                    "text": "1908"
+                },
                 {
                     "value": "1907",
                     "text": "1907"

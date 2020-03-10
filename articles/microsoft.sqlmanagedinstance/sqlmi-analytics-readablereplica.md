@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
     articleId="fb72aa6e-19a3-4163-a1d9-30a217dfa064"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Readable replica

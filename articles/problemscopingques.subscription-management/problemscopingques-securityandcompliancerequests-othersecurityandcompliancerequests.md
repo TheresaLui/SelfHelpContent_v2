@@ -4,11 +4,12 @@
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32607560,32607561"
+	supportTopicIds="32607560"
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="othersecurityandcompliancerequests"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 
@@ -16,35 +17,36 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Other Security and Compliance Requests",
     "fileAttachmentHint": "",
     "formElements": [
-        {
+       {
             "id": "problem_start_time",
-            "visibility": null,
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "problem_description",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date",
+            "required": true
+        },
+	{
+            "id": "Subscription_id",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "",
+	    "required": true
+        },
+	{
+            "id": "problem_description",
+            "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the following:",
+            "displayLabel": "Additional details",
+	    "watermarkText": "Please provide brief description of the issue",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Brief description of the issue"
+                    "text": "Learn more on Azure Compliance <a href='https://azure.microsoft.com/overview/trusted-cloud/compliance/'>here</a>"
                 }
             ]
         }

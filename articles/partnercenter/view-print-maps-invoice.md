@@ -15,9 +15,14 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
-# View or print your MAPs invoice
+# Refund / Cancellation of enrollment
+
 
 ## **Recommended Documents**
 
 * [View or print your MAPs invoice](https://docs.microsoft.com/partner-center/mpn-view-print-maps-invoice)
+* [Refund policy](https://go.microsoft.com/fwlink/?linkid=842232)
+* [Refund eligibility](https://support.microsoft.com/help/4017804/requesting-a-refund)
+

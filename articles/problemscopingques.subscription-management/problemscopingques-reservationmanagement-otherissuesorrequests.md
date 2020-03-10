@@ -9,13 +9,14 @@
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4369"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Other Issues or Requests
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -115,15 +116,31 @@
         {
             "id": "reservationorderid_details",
             "order": 5,
-            "visibility": "Reservationid == Other",
+            "visibility": "Reservationid == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",
             "required": false
         },
+	{
+            "id": "currentowner_details",
+            "order":6,
+            "controlType": "textbox",
+            "displayLabel": "Current Owner",
+            "watermarkText": "",
+            "required": false
+        },
+	{
+            "id": "newowner_details",
+            "order":7,
+            "controlType": "textbox",
+            "displayLabel": "New Owner",
+            "watermarkText": "",
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

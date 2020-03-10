@@ -10,8 +10,9 @@
 	supportTopicIds="32589415"
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="249cdea5-5761-4150-8572-8978204e0991"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Planned Maintenance/general questions or issues
@@ -22,12 +23,10 @@ Information related to planned maintenance is available during a planned mainten
 
 **What are the different possible values for my virtual machine during planned maintenance?**<br>
 
-**Value**	| **Description**
---- | ---
-***Start now*** | The VM is in the self-service maintenance window which lets you initiate the maintenance yourself.
-***Scheduled*** | The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM.
-***Empty or Completed*** |  Your VM does not require any maintenance and no maintenance reboot will occur.
-***Skipped***	| You have selected to initiate maintenance with no success. You will not be able to utilize the Customer Initiated Maintenance option. Your VM will be rebooted by Azure during the scheduled maintenance phase.
+* **Start now**: The VM is in the self-service maintenance window which lets you initiate the maintenance yourself
+* **Scheduled**: The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM.<br>
+* **Empty or Completed**: Your VM does not require any maintenance and no maintenance reboot will occur
+* **Skipped**: You have selected to initiate maintenance with no success. You will not be able to utilize the Customer Initiated Maintenance option. Your VM will be rebooted by Azure during the scheduled maintenance phase.<br>
 
 ## **Recommended Documents**
 
