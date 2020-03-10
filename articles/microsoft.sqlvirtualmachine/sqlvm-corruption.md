@@ -21,5 +21,5 @@ Most users are able to resolve their SQL Server data corruption issues using the
 
 ## **Recommended Documents**
 
-* [Troubleshoot database consistency errors reported by DBCC CHECKB](https://support.microsoft.com/help/2015748/how-to-troubleshoot-database-consistency-errors-reported-by-dbcc-check)
+* [Troubleshoot database consistency errors reported by DBCC CHECKDB](https://support.microsoft.com/help/2015748/how-to-troubleshoot-database-consistency-errors-reported-by-dbcc-check)
 * [Troubleshoot database corruption errors](https://techcommunity.microsoft.com/t5/sql-server-support/how-to-troubleshoot-database-corruption-errors-and-system-center/ba-p/316043)
