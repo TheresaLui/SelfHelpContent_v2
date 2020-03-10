@@ -17,7 +17,7 @@
 
 # Outbound network connections from my app are failing
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)<br>
 * [SNAT with App Service](https://4lowtherabbit.github.io/blogs/2019/10/SNAT/)<br>
