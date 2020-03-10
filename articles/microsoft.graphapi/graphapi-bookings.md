@@ -12,7 +12,7 @@
 	productPesIds="16957"
 	cloudEnvironments="public"
 	articleId="976b8099-d1d5-420c-adae-25e96d3897f5"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Bookings API issues

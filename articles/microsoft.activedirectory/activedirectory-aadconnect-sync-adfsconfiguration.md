@@ -12,7 +12,7 @@
 	productPesIds="16578,16666"
 	cloudEnvironments="public"
 	articleId="2646c216-624d-41f2-896c-1b3741b691f8"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # I have trouble configuring / managing federation with AD FS

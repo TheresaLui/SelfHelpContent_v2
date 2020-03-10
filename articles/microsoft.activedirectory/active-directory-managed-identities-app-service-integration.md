@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # <-- I can't add a user-assigned managed identity to a App Service/Function -->

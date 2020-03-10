@@ -9,7 +9,7 @@
 	cloudEnvironments="Public"
 	schemaVersion="1"
 	articleId="21c79041-b9ae-4f4f-b431-5a3648c97e20"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 # AD FS Scoping question
 ---

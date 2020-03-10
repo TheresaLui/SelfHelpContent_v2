@@ -10,6 +10,7 @@
 	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
 	articleTags="healthannotation_impactedbyoutage"
+ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Your virtual machine was impacted by an Azure service issue

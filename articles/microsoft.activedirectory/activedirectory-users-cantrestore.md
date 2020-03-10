@@ -10,7 +10,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
  	articleId="aa375ab2-1977-40e8-b772-097008394a91"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # I can't restore a deleted user in my Azure AD

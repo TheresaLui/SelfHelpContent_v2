@@ -12,7 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="583d8602-23bb-4671-8de0-6651b2fc34e1"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I am unable to resize my VM

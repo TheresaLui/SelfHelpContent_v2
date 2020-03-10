@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="17000"
 	cloudEnvironments="public"
+ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Microsoft Customer Agreement

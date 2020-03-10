@@ -9,7 +9,7 @@
   productPesIds="14785,16575"
   cloudEnvironments="public"
  	articleId="ed9b0fba-366a-4990-8d64-8843f362a2bf"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Problems managing application access and permissions

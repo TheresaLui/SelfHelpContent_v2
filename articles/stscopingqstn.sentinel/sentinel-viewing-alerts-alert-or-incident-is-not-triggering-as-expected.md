@@ -12,7 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-viewing-alerts-alert-or-incident-is-not-triggering-as-expected"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Sentinel"
 />
 
 # Alert or incident is not triggering the expected results

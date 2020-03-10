@@ -12,7 +12,7 @@
 	productPesIds="16957,16575"
 	cloudEnvironments="public"
 	articleId="26f76108-bbf6-4735-b19a-0dd1aabc6e72"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Security API issues

@@ -9,7 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="appsinglesignondatacollectiondoc"
-    	ownershipId="AzureIdentity_EnterpriseApps"
+    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Active Directory application single sign on issue

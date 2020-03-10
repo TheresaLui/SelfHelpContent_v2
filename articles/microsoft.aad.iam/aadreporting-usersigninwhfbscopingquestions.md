@@ -7,7 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="7262a9ca-3a86-4f67-9acf-b702dd50f0e9"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 /> 
 #  Problem with User sign-in WHFB
 ---

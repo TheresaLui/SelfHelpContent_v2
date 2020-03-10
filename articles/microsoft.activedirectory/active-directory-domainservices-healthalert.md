@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="14785,16577"
 	cloudEnvironments="public"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Health Alert for Azure AD Domain Services

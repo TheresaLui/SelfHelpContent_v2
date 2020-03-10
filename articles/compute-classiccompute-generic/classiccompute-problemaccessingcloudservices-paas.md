@@ -11,7 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="64f179d0-f955-4481-9ff2-28cf79992bcb"
-	ownershipId="Compute_CloudServices"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/Connectivity/Problem accessing Cloud Services

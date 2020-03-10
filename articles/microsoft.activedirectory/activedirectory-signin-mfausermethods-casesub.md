@@ -12,7 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="a227223a-6b33-4c77-be5a-07ba742a9bd6"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Configure User Multi-Factor Authentication Methods (Authenticator App, Phone, SMS, Token) for Azure Active Directory

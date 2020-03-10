@@ -6,7 +6,9 @@
   selfhelptype="SupportTopicDescription"
   productpesids="3a36c1ba-f910-91c3-9f17-075d63c9488a"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a" />
+  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a" 
+ownershipId="ASEP_ContentService_Placeholder"
+/>
 # Support Topic Descriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a
 ---
 {

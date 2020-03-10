@@ -12,7 +12,7 @@
 	productPesIds="16957"
 	cloudEnvironments="public"
 	articleId="b90a6d30-7338-4d36-a58c-3b854842da2a"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Reports API issues

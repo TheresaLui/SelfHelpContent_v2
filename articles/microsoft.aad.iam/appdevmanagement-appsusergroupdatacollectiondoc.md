@@ -7,7 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="8c3526fd-c247-4c2e-937e-c925ba5b797d"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 /> 
 # Active Directory application user group issue 
 ---

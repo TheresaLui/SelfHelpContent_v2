@@ -11,7 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="33300767-34ad-454a-9b29-35c358bd9528"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # NPS Extension / RADIUS Setup and Configuration

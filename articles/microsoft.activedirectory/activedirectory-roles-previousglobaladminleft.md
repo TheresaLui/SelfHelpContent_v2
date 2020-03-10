@@ -11,7 +11,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
     	articleId="69fe4baa-19d6-49aa-bd24-8a1283353c72"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Previous global administrator left the organization

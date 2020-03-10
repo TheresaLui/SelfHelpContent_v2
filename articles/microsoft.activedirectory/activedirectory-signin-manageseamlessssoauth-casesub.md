@@ -11,7 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="0587579d-308f-47b9-9eda-69cfa6163044"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Managing Seamless SSO authentication (post-enablement)

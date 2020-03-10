@@ -2,7 +2,7 @@
 	pageTitle="TSG Content Step: Check VNet peering errors"
 	description="TSG Content Step: Check VNet peering errors"
 	service="microsoft.network"
-	ownershipid="Centennial_Cloudnet_VirtualNetwork"
+	ownershipId="ASEP_ContentService_Placeholder"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"

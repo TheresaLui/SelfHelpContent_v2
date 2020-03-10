@@ -12,7 +12,7 @@
 	productPesIds="16957"
 	cloudEnvironments="public"
 	articleId="b6e58700-3ad9-4742-934f-665659198190"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Intune API issues

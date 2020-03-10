@@ -12,7 +12,7 @@
 	productPesIds="16957"
 	cloudEnvironments="public"
 	articleId="a4f3326c-c240-4428-9435-85ceaf7a30de"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph People API or Insights API issues

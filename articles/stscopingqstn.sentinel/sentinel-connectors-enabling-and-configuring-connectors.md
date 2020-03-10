@@ -12,7 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-connectors-enabling-and-configuring-connectors"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Sentinel"
 />
 
 # Enable and configure connectors

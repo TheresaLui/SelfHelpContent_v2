@@ -8,6 +8,7 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="public"
 	articleId="3767257a-9a49-42fb-8856-8e0c3bee0668"
+ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Check connectivity again after bypassing the blocking NSG

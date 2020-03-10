@@ -8,7 +8,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 	 articleId="c0816905-886c-41cc-acab-516a43988111"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 /> 
 # Problem with user-initiated password reset 
 ---

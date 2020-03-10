@@ -12,7 +12,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
     	articleId="dd4bebf8-60fe-4958-9148-2ce1689957c9"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Resolve issues with Azure Active Directory domain name verification

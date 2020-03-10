@@ -11,7 +11,7 @@
 	selfHelpType="resource"
 	cloudEnvironments="public"
 	articleId="1c687109-a9f5-46b8-9de6-fc133a6e73f3"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 # Azure AD Connect Health self help for Agent Registration Failures
 

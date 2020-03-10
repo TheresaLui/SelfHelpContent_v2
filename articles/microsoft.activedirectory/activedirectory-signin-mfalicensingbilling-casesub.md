@@ -11,7 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
  	articleId="3aef791d-f239-4554-a81a-48687815da04"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Licensing and Billing

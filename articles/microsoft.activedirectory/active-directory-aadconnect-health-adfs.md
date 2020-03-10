@@ -12,7 +12,7 @@
 	productPesIds="16579,16577"
 	cloudEnvironments="public"
 	articleId="f50978b3-d063-4265-aac5-ed839f44856b"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Connect Health for AD FS

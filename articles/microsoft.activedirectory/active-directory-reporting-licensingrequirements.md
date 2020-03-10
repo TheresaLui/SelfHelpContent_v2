@@ -11,7 +11,7 @@
     productPesIds="16577"
     cloudEnvironments="public"
     	articleId="3f4d15d1-6a71-4efd-a14f-ee433f70aa60"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Azure AD audit Logs

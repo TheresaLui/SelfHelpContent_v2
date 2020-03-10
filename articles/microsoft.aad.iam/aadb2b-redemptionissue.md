@@ -9,7 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="problemscopingques-aadb2bredemptionissue"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 # Problem with redeeming an invitation
 ---

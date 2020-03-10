@@ -9,7 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="F1C560CB-2433-4863-84BF-31362BB95E0C"
-    	ownershipId="AzureIdentity_B2B"
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Deleting a group

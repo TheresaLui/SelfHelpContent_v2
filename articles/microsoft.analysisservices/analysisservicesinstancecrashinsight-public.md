@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds="1003281"
     cloudEnvironments="Public, Fairfax, MoonCake"
-    ownershipId="AzureData_AnalysisServices"
+    ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # A crash was detected on Analysis Services instance

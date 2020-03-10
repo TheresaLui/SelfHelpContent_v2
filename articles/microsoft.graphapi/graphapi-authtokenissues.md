@@ -12,7 +12,7 @@
 	productPesIds="16952,16575"
 	cloudEnvironments="public"
 	articleId="2e5a474e-839f-432d-8bf3-7ed39d7635c3"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_MSGraph"
 />
 
 # Microsoft Graph authentication token issues

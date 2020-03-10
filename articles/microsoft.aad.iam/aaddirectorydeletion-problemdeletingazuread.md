@@ -7,7 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="a1fcf8f5-2de0-4b84-8280-3e56722dd303"
-    	ownershipId="AzureIdentity_B2B"
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
 /> 
 # Problem with Deleting Azure AD 
 ---

@@ -11,6 +11,7 @@
 	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
 	articleTags="healthannotation_impactedbyoutage"
+ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # An Azure service issue impacted resources in your subscription

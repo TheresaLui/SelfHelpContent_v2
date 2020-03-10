@@ -9,7 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="9907CFC4-FA80-474B-9A05-CB1C9056EF46"
-    	ownershipId="AzureIdentity_B2B"
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Group expiration

@@ -12,7 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-viewing-alerts-using-the-investigation-feature"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Sentinel"
 />
 
 # Investigating threats in Azure Sentinel

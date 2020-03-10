@@ -8,7 +8,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="3ef55133-23fb-428a-93c3-a29aa9a53154"
-    	ownershipId="AzureIdentity_B2B"
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problem with administrator initiated password reset

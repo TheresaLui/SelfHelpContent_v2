@@ -9,7 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="problemscopingques-aadb2bleavingissue"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 # Problem with leaving an organization
 ---

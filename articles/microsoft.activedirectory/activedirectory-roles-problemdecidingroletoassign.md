@@ -11,7 +11,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
     	articleId="cad8aaca-5511-4d85-bfbe-ce5aaa78ebaf"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problem deciding which Azure AD role to assign

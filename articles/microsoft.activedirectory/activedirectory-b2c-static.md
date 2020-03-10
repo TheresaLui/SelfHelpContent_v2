@@ -11,7 +11,7 @@
 	productPesIds="16580"
 	cloudEnvironments="public"
 	articleId="0acebf67-f42a-44f3-8dff-463418a08e65"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # Business to Consumer (B2C)

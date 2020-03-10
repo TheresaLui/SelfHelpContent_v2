@@ -12,7 +12,7 @@
 	productPesIds="16953,16575"
 	cloudEnvironments="public"
 	articleId="757bafde-f257-47fe-9114-2b24c5bf4ac9"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_GraphUsersAndGroupsAPIs"
 />
 
 # Microsoft Graph querying or provisioning issues

@@ -12,7 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="dca78635-76cd-4f77-8359-1e0bf391a9b2"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Monitoring agent (MMA) extension issue

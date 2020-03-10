@@ -9,7 +9,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
 	articleId="e273e5a1-8e0f-419d-823e-8cfb4d004764"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Self-service group management

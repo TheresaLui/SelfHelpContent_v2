@@ -10,7 +10,7 @@
   productPesIds="16575"
   cloudEnvironments="public"
  	articleId="1444aaef-701c-4aca-849b-76c78b814522"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Problems registering my application

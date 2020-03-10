@@ -12,7 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="950a7bc9-306f-47b1-840f-8a1287f5ec3b"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM Snapshot (Azure Backup) extension issue
