@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bf9ebb9f-3b4e-9d70-0cd0-c11b33fe9936",
+      "longDescription": "",
+      "shortDescription": "You cannot download the sync error report",
+      "searchTags": "issue to downloan the sync error report",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bfb4ef13-3815-6480-a158-302b76ac5fad",
       "longDescription": "",
       "shortDescription": "You are seeing a problem with one or a few particular users",
