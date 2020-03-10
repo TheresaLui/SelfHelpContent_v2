@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Unable to delete storage account"
-	description="Issue deleting storage account"
+	pageTitle="Storage account failover"
+	description="Issue with storage account failover"
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602694"
+	supportTopicIds="32631233,32631234,32631236,32631237,32631238"
 	productPesIds="15629"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
-	articleId="B01011DA-7565-4574-BD0C-35E9C749D8D1"
+	articleId="9BD48974-4A51-4A44-A68C-9BB5E9D8F148"
 />
-# Issue deleting storage account
+# Storage account failover
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Issue deleting storage account",
+    "title": "Issue with storage account failover",
     "fileAttachmentHint": "",
     "formElements": [
         {
