@@ -46,18 +46,6 @@
                     "text": "Blob"
                 },
                 {
-                    "value": "file_share",
-                    "text": "File share"
-                },
-                {
-                    "value": "file",
-                    "text": "File"
-                },
-                {
-                    "value": "table",
-                    "text": "Table"
-                },
-                {
                     "value": "dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
