@@ -16,7 +16,6 @@
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Security, Privacy and Compliance - Azure Active Directory Authentication",
