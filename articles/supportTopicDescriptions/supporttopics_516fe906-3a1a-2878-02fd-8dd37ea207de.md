@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f1be11a2-d1dd-71b0-842b-f725c56f9d73",
+      "longDescription": "",
+      "shortDescription": "Assistance setting up Smart Lockout or troubleshooting unexpected results",
+      "searchTags": "Setting up Smart Lockout ",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc160541-3775-bd33-3a5f-7230baae1238",
       "longDescription": "",
       "shortDescription": "I need assistance or found an issue when configuring Azure AD Identity Protection settings",
