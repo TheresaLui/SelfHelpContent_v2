@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "69bcedd3-a11a-3b77-bca0-fafc38e1587a",
+      "longDescription": "",
+      "shortDescription": "Assistance or troubleshooting the deployment of a new ADFS Farm or the upgrade of an existing ADFS farm",
+      "searchTags": "Assistance in deployment of ADFS farm",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6bd5c8d1-aba5-2619-e27c-3510c87937da",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating, managing, or enabling passwordless authentication solutions ",
