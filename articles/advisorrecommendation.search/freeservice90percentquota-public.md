@@ -28,7 +28,7 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "csi-ux@microsoft.com",
+    "email": "azuresearch_contact@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",
