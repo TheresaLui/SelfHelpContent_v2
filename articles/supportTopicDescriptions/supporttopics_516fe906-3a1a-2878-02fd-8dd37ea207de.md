@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9fdde265-d795-2419-31f3-63c345393b8e",
+      "longDescription": "",
+      "shortDescription": "Issues found when authenticating using Seamless Single Sign-on for AAD",
+      "searchTags": "issues with Seamless SSO login ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2640df7-d535-11de-c288-8e1c7b286c01",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating, managing, or client use of FIDO Security Keys. Assistance deploying or troubleshooting FIDO key use",
