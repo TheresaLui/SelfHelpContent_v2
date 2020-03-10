@@ -6,9 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_38a234dd-6baf-d93b-2c48-5a735a3550ed" 
-ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_38a234dd-6baf-d93b-2c48-5a735a3550ed" />
 # Support Topic Descriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed
 ---
 {
@@ -132,6 +130,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "shortDescription": "You have deployed AADConnect but you are seeing some incorrect or unexpected results",
       "searchTags": "Sync delivers incorrect results",
       "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9fa9244c-77b2-d36f-6f72-e7d478866d41",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the attribute mappings for provisioning to a SaaS app",
+      "searchTags": "issue configuring mappings ",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
