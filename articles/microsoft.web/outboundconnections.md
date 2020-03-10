@@ -46,16 +46,14 @@ HTTP Connection Pooling
 * [Apache Connection Management](https://hc.apache.org/httpcomponents-client-ga/tutorial/html/connmgmt.html)  
 * [Class PoolingHttpClientConnectionManager](http://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/org/apache/http/impl/conn/PoolingHttpClientConnectionManager.html)
 
-
 **PHP**<br>
-Although PHP does not support connection pooling, you can try using persistent database connections to your backend server. <br><br>
+Although PHP does not support connection pooling, you can try using persistent database connections to your backend server. 
 
 * MySQL server
     - [MySQLi connections](https://www.php.net/manual/en/mysqli.quickstart.connections.php) for newer versions
     - [mysql_pconnect](https://www.php.net/manual/en/function.mysql-pconnect.php) for older versions of PHP<br>
 * Other data Sources
     - [PHP Connection Management](https://www.php.net/manual/en/pdo.connections.php)
-
 
 **Python** <br>
 Below are some examples for connection pooling with Python. 
