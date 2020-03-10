@@ -14,9 +14,8 @@
 
 # Create, Scale, Pause, Resume, Delete - Create, Scale, Pause, Resume or Delete database taking too long
 
-```
+---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Region unavailable for Data Warehouse creation",
@@ -83,4 +82,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-```
+---
