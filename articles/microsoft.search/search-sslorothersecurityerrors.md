@@ -33,7 +33,7 @@ If you receive a 400 "Bad Request" status code, it may be related to Azure Searc
 * "The provided application id is invalid": The index is configured to use an Azure Active Directory id to authenticate to Azure Key Vault, but it is invalid or no longer exists
 * "The provided application secret is invalid": The index is configured to use an Azure Active Directory secret to authenticate to Azure Key Vault, but it is invalid or was changed
 
-All client-to-service Azure Cognitive Search interactions require [SSL/TLS 1.2 or higher](https://docs.microsoft.com/en-us/security/solving-tls1-problem). To ensure your client applications remain secure, we recommend the TLS version should not be hardcoded.  If your client uses a version of TLS prior to 1.2, you may see the following exception: "The underlying connection was closed: An unexpected error occurred on a send." [Learn more](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls)
+All client-to-service Azure Cognitive Search interactions require [SSL/TLS 1.2 or higher](https://docs.microsoft.com/security/solving-tls1-problem). To ensure your client applications remain secure, we recommend the TLS version should not be hardcoded.  If your client uses a version of TLS prior to 1.2, you may see the following exception: "The underlying connection was closed: An unexpected error occurred on a send." [Learn more](https://docs.microsoft.com/dotnet/framework/network-programming/tls)
 
 ## **Recommended Documents**
 

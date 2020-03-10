@@ -5,7 +5,7 @@
 	resource="searchservices"
 	authors="mrcarter8"
 	ms.author="mcarter"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	displayOrder="27"
 	supportTopicIds="32681346"
 	resourceTags=""
@@ -21,10 +21,10 @@ An established connection to an Azure Cognitive Search service can be terminated
 
 ## **Recommended Steps**
 
-* Try to reconnect to your search service URL directly using the SearchIf you are not able to reconnect, please switch to the problem subtype *Database is currently unavailable* to troubleshoot intermittent connection problems.
-* Ensure that your service endpoint is not private.  [Configure a private endpoints](https://aka.ms/acsprivatelink) for a secure connection to you Azure Cognitive Search service.
-* If you have IP whitelisting enabled, [set up additional firewall rules](https://docs.microsoft.com/en-us/rest/api/searchmanagement/2019-10-01-preview/createorupdate-service#iprule) to allow your client's IP address
-* All client-to-service Azure Cognitive Search interactions require [SSL/TLS 1.2 or higher](https://docs.microsoft.com/en-us/security/solving-tls1-problem). To ensure your client applications remain secure, we recommend the TLS version should not be hardcoded.  [Learn more](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls)
+* If you are having connection issues from your client application, try sending a request to your search service directly using the Search Explorer in the Azure portal or a REST API client such as Postman.  If the search service does not respond, please open a support case.  [Learn more](https://docs.microsoft.com/azure/search/search-get-started-postman)
+* Ensure that your service endpoint is not private.  [Configure a private endpoints](https://docs.microsoft.com/azure/search/service-create-private-endpoint) for a secure connection to your Azure Cognitive Search service.
+* If you have IP whitelisting enabled, [set up additional firewall rules](https://docs.microsoft.com/rest/api/searchmanagement/2019-10-01-preview/createorupdate-service#iprule) to allow your client's IP address
+* All client-to-service Azure Cognitive Search interactions require [SSL/TLS 1.2 or higher](https://docs.microsoft.com/security/solving-tls1-problem). To ensure your client applications remain secure, we recommend the TLS version should not be hardcoded.  [Learn more](https://docs.microsoft.com/dotnet/framework/network-programming/tls)
 
 ## **Recommended Documents**
 
