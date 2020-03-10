@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c7d5bd4c-b548-4262-bf4f-6c8026d8a096",
+      "longDescription": "",
+      "shortDescription": "You are receiving notifications regarding the freshness of the AADConnect Health data",
+      "searchTags": "issue with health data freshness ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
       "longDescription": "",
       "shortDescription": "You have configured Password Writeback and are seeing issues",
