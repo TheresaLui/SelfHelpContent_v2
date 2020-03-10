@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7225d915-5179-8b15-0b16-a8f8379883cc",
+      "longDescription": "",
+      "shortDescription": "Questions regarding  report viewing and manipulation or content within reports",
+      "searchTags": "report viewing and content manipulation ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "866af4c0-2f66-10f4-3238-5f75346bb3fa",
       "longDescription": "",
       "shortDescription": "I need assistance understanding the Identity Score in Azure AD Identity Protection",
