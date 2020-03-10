@@ -14,7 +14,7 @@
 />
 # PC Sample
 
-```
+---
 {
    "$schema": "SelfHelpContent",
    "resourceRequired": true,
@@ -138,4 +138,4 @@
        }
    ]
 }
-```
+---
