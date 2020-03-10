@@ -213,6 +213,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f0da3043-b729-32b6-f604-9000d9be6d2f",
+      "longDescription": "",
+      "shortDescription": "You are not receiving any AADConnect Health notification emails",
+      "searchTags": "issue with receiving alert emails",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb9b16be-bb35-aebe-0235-ce81f9725920",
       "longDescription": "",
       "shortDescription": "You are seeing a problem with the new preview of the agent based provisioning from AD to AAD",
