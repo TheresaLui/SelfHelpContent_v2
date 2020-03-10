@@ -6,7 +6,7 @@
 	authors="mrcarter8"
 	ms.author="mcarter"
 	selfHelpType="generic"
-	displayOrder="5"
+	displayOrder="20"
 	supportTopicIds="32681345"
 	resourceTags=""
 	productPesIds="15568"
@@ -17,15 +17,14 @@
 
 # Connection timeouts
 
+These are some conditions where you may experience a timeout and how to adress the issue.
+
 ## **Recommended Steps**
 
-These are some considerations when you encounter dropped or terminated connections to your Azure Search service:
-
-* Network connectivity issue between application client and the Azure Search service endpoint. 
-*
+* Your search service service may be under significant load, both indexing and query, and some requests may also be throttled.  If you experience this behavior consistently, we recommend you add one or more replicas to handle the volume of requests your applications are sending to the service.  [Learn more](https://docs.microsoft.com/azure/search/search-performance-optimization)
+* An indexer may timeout when retrieving data from an Azure SQL database.  If you encounter timeout errors, you can use the queryTimeout indexer configuration setting to set the queryTimeout parameter to a value higher than the default 5-minute timeout.  [Learn more](https://docs.microsoft.com/rest/api/searchservice/create-indexer#other-configuration-parameters)
 
 ## **Recommended Documents**
 
-* [Security and data privacy in Azure Search](https://docs.microsoft.com/azure/search/search-security-overview#encrypted-transmission-and-storage)<br>
-* [HTTP status codes (Azure Search)](https://docs.microsoft.com/rest/api/searchservice/http-status-codes)<br>
-* [Azure Search encryption using customer-managed keys in Azure Key Vault](https://docs.microsoft.com/azure/search/search-security-manage-encryption-keys)
+* [Scale for performance on Azure Cognitive Search](https://docs.microsoft.com/azure/search/search-performance-optimization)<br>
+* [Indexer timeout for Azure SQL databases](https://docs.microsoft.com/rest/api/searchservice/create-indexer#other-configuration-parameters)<br>

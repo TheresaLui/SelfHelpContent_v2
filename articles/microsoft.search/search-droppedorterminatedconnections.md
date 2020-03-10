@@ -24,11 +24,7 @@ An established connection to an Azure Cognitive Search service can be terminated
 * Try to reconnect to your search service URL directly using the SearchIf you are not able to reconnect, please switch to the problem subtype *Database is currently unavailable* to troubleshoot intermittent connection problems.
 * Ensure that your service endpoint is not private.  [Configure a private endpoints](https://aka.ms/acsprivatelink) for a secure connection to you Azure Cognitive Search service.
 * If you have IP whitelisting enabled, [set up additional firewall rules](https://docs.microsoft.com/en-us/rest/api/searchmanagement/2019-10-01-preview/createorupdate-service#iprule) to allow your client's IP address
-* All client-to-service Azure Cognitive Search interactions require [SSL/TLS 1.2 or higher](https://docs.microsoft.com/en-us/security/solving-tls1-problem). To ensure your client applications remain secure, we recommend the [TLS version should not be hardcoded](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls).
-
-**Please note:** You may notice an exception from your client with a message similar to:
-System.Net.Http.HttpRequestException: An error occurred while sending the request. System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
-In this case, you are most likely trying to use an unsupported version of TLS to connect to the server.  [Learn more](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls)
+* All client-to-service Azure Cognitive Search interactions require [SSL/TLS 1.2 or higher](https://docs.microsoft.com/en-us/security/solving-tls1-problem). To ensure your client applications remain secure, we recommend the TLS version should not be hardcoded.  [Learn more](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls)
 
 ## **Recommended Documents**
 
