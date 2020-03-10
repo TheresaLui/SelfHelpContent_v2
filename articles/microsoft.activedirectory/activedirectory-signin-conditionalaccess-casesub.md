@@ -9,7 +9,7 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  	articleId="e16f904f-e6ed-49a1-ad30-b8e6e5622f58"
 	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />

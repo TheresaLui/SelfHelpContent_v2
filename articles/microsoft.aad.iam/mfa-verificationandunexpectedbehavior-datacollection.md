@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615519,32630265"
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="mfa-verificationandunexpectedbehavior-datacollection"
     	ownershipId="AzureIdentity_MultiFactorAuthentication"

@@ -10,7 +10,7 @@
     supportTopicIds="32674474"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="have-problem-with-preview-features"
 	ownershipId="Compute_AzureKubernetesService"
 />

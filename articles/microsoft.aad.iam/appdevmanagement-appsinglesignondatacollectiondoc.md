@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570259"
     productPesIds="16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="appsinglesignondatacollectiondoc"
     	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"

@@ -10,7 +10,7 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  	articleId="27a27e60-5ea0-43fb-bd8d-9260c7cdca50"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />

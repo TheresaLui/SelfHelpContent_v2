@@ -8,7 +8,7 @@
   selfHelpType="generic"
   supportTopicIds="32570259"
   productPesIds="16575"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax"
   articleId="b158b5f2-616c-4aaa-9f72-e3d76845665f"
 	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
