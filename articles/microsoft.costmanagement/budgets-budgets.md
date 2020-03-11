@@ -34,7 +34,7 @@ Management Group, Subscription, Resource Group Scopes<br>
 
 ## **Recommended Documents**
 
-* Video tutorial: [Create a budget in the Azure portal](https://www.youtube.com/watch?v=ExIVG_Gr45A&t=4s)<br>
+* Video tutorial:[Create a budget in the Azure portal](https://www.youtube.com/watch?v=ExIVG_Gr45A&t=4s)<br>
 * [Prerequisites for viewing and customizing budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#prerequisites)<br>
 * [Create and manage budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#create-a-budget-in-the-azure-portal)<br>
 * [Configure automation with Azure Action Groups and Budgets API](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#trigger-an-action-group)<br>
