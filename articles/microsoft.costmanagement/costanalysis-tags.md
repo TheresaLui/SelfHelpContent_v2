@@ -2,7 +2,7 @@
 	articleId="costanalysis-tags"
 	articleTags="costanalysis,tags"
 	pageTitle="Tags I have set on resources are missing from Cost Management, can you explain why?"
-	description=""
+	description="Tags on resource"
 	displayOrder="7"
 	authors="prdasneo"
 	ms.author="prdasneo"
