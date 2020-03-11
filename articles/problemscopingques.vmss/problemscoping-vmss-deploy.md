@@ -18,18 +18,14 @@
     "resourceRequired": true,
     "title": "Cannot create, update, or scale scale set",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine scale set diagnostics",
+            "description": "These diagnostics will check for details about your selected VM instance within your VMSS.",
+            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
-            "id": "deploy_error",
-            "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the error you are getting?",
-            "useAsAdditionalDetails": false,
-            "required": false
-        },
-        {
             "id": "vmss_instance",
-            "order": 2,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "If your issue is related to a specific instance, select the instance name",
             "dynamicDropdownOptions": {
@@ -49,6 +45,15 @@
                     "text": "Unable to retrieve list of instances."
                 }
             ],
+            "useAsAdditionalDetails": false,
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "deploy_error",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error you are getting?",
             "useAsAdditionalDetails": false,
             "required": false
         },
