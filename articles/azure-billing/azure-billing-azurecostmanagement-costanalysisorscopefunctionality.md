@@ -21,7 +21,7 @@
 'Not applicable' is used when a value is empty. Here are a few reasons you might see 'not applicable':<br>
 Tenant resources, which aren’t deployed within a subscription, will not have a resource group. This is expected. To validate this, download the data and review the ResourceId column.<br>
 Classic resources are not tracked with resource group. If you see a non-classic resource without a resource group, please contact support.<br>
-Purchases do not have a subscription, resource group, or resource assigned. All of these values will show 'not applicable'. To validate that this a mount is from a purchase, group by charge type.<br>
+Purchases do not have a subscription, resource group, or resource assigned. All of these values will show 'not applicable'. To validate that this amount is from a purchase, group by charge type.<br>
  
 You may see an 'unassigned' location for services which are not configured with a specific location. They may be global services, as an example.<br>
  
