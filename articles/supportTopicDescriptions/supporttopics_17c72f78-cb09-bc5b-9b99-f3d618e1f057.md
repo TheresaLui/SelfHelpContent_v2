@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8ba0ff94-83f1-975e-a263-77c6dd0b8a21",
+      "longDescription": "",
+      "shortDescription": "You have issues connecting with a specific client driver",
+      "searchTags": "drivers issue",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8d5e5480-8edd-98b6-d69c-b441589a5dea",
       "longDescription": "",
       "shortDescription": "You are experiencing issues while scaling your server vCores, storage, or scaling between pricing tiers",
