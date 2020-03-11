@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4b9d5cd6-2e8a-a387-5f2e-95b4330269d4",
+      "longDescription": "",
+      "shortDescription": "You have issues with monitoring replication or configuring replication lag alerts",
+      "searchTags": "Metrics and alerts",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "55e76da2-90a4-f4a4-52fd-912260dcead4",
       "longDescription": "",
       "shortDescription": "You have questions about super user access (privileges)",
