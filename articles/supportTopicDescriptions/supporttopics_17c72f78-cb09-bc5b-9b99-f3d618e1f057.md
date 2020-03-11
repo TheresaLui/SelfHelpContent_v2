@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "498e3873-7508-0cff-bfd3-62a831807e37",
+      "longDescription": "",
+      "shortDescription": "Questions specific to issues with server parameters",
+      "searchTags": "Server Parameters",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "55e76da2-90a4-f4a4-52fd-912260dcead4",
       "longDescription": "",
       "shortDescription": "You have questions about super user access (privileges)",
