@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a7807a1d-f68a-7ed6-672c-10c2f90b7c48",
+      "longDescription": "",
+      "shortDescription": "You are not able to change a server parameter value",
+      "searchTags": "modify server parameter",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ab5bc630-d56d-ee3e-8dd8-73d70358c4b9",
       "longDescription": "",
       "shortDescription": "Your server is experiencing a performance or query execution issue.",
