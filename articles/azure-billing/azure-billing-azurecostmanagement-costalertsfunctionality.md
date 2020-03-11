@@ -53,6 +53,24 @@ REST APIs
 * [Dimensions](https://docs.microsoft.com/rest/api/cost-management/dimensions): Provides operations to get supported dimensions for your usage under a variety of scopes. Using the Dimensions API, you can retrieve a list of dimensions that can be used as inputs for generating queries with the Query API.
 * [Query](https://docs.microsoft.com/rest/api/cost-management/query): Provides operations to get aggregated cost and usage data based on the query you supply. Using the Query API, you can specify your desired filtering, sorting and grouping on all available dimensions (which are accessed from the Dimensions API). 
 
+**Forecasted Costs**<br>
+
+**Why don’t I see forecasts for my costs in Cost Analysis?**<br>
+There are multiple reasons why the forecast projection might be missing for you in Cost Analysis, some of them are as follows:
+1. If your cost data is less than 10 days old, the forecast chart will not load. The model requires at least 10 days of recent cost data for accurate projections<br>
+2. If you have selected historic dates, then the forecast chart will not be visible. Please select a date range with future dates for the forecast chart to be displayed<br>
+3. If your account has multiple currencies, the forecast chart will only project costs for 'All costs in USD'<br> 
+
+**Why doesn’t the forecast change when I make changes to my resources?**<br>
+The forecast model requires a couple of days to account for changes in the account and does not make immediate projections based on change in resources<br>
+For larger steps of increase or decrease in resources, the model will take slightly longer to adjust to these changes to account for anomalies<br>
+
+**Why does my forecast increase after I make a reservation or Marketplace purchase?**<br>
+The forecast model considers your 'Actual Cost' and does not account for usage and purchase separately.For a one-time purchase, the model will decrease the projections after 10 days to account for the sudden increase in costs<br>
+
+**I want to see forecasts for a single dimension (eg. Meter)**<br>
+Forecast currently supports total cost projections and not for individual meters. Hence, when 'Grouped by' a dimension, the projections will be for total of all items in the dimension<br>
+
 ## **Recommended Documents**
 
 * [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
@@ -60,6 +78,7 @@ REST APIs
 * [Analyze your costs and spending](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
 * [Explore and analyze costs with Cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
 * [Azure Cost Management: Pricing](https://azure.microsoft.com/services/cost-management/#pricing)<br>
+* [Review costs in cost analysis](https://docs.microsoft.com/azure/cost-management-billing/costs/quick-acm-cost-analysis#review-costs-in-cost-analysis)<br>
 
 
 * [Video tutorial: Create a budget in the Azure portal](https://www.youtube.com/watch?v=ExIVG_Gr45A&t=4s)<br>
