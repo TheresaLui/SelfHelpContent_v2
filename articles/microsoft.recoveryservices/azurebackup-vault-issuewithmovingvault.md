@@ -18,8 +18,10 @@
 # Issue with moving vault
 
 ## **Recommended Steps**
+- Certain configuration can prevent moving VM(s) across subscriptions. Review this [article](https://docs.microsoft.com/azure/azure-resource-manager/management/move-limitations/virtual-machines-move-limitations#virtual-machines-with-azure-backup) to verify if your scenario is unsupported Review and the workaround steps to move the VMs. 
+- You must meet the prerequisites listed in this [article](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#prerequisites-for-moving-recovery-services-vault) before moving resources across subscription/resource group. 
+- Move is allowed for vaults that only contain backup items (if it has ASR items that move is not supported) 
 
-- Recovery Services vaults configured to use with Azure Site Recovery cannot be moved<br>
 
 ## **Recommended Documents**
 
