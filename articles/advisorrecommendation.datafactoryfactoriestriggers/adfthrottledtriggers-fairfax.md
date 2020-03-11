@@ -3,9 +3,9 @@
     description="Review your throttled Data Factory Triggers"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="eb4f67d2-2440-4d58-bec7-6de73cc5ba75_Public"
+    articleId="eb4f67d2-2440-4d58-bec7-6de73cc5ba75_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 	ownershipId="AzureData_DataFactory"
 />
 # Review your throttled Data Factory Triggers
@@ -28,11 +28,11 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "adfengineering@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://ADFV2_PROD_SEV3",
+      "service": "Azure Data Factory",
+      "team": "ADF V2 Orchestration"
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },

@@ -3,9 +3,9 @@
     description="Delete failing ADF pipelines"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="f6e3ad9c-5d58-48ba-b06b-ebffba60dd18_Public"
+    articleId="f6e3ad9c-5d58-48ba-b06b-ebffba60dd18_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 	ownershipId="AzureData_DataFactory"
 />
 # Delete failing ADF pipelines
@@ -28,11 +28,11 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "adfengineering@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://ADFV2_PROD_SEV3",
+      "service": "Azure Data Factory",
+      "team": "ADF V2 Orchestration"
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },
