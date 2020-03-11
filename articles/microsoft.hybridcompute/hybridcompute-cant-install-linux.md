@@ -12,6 +12,7 @@
     productPesIds="16872"
     cloudEnvironments="public"
     articleId="ac3a1409-1fec-41f8-bcb1-443a43f9afde"
+    ownershipId="Compute_HybridResourceProvider"
 />
 
 # Installing the Azure Arc for Servers Agent
