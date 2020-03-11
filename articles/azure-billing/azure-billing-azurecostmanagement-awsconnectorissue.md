@@ -15,7 +15,7 @@
 	ownershipId="ASMS_Billing"
 />
 
-# Azure Cost Managment - AWS connector issue
+# Azure Cost Management - AWS connector issue
 
 ## **Recommended Steps**
 
