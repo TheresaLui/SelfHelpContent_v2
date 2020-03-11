@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4def4477-455a-e284-e463-dc65043d70a0",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "Pass-through Authentication ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
