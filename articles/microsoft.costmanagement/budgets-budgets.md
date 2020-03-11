@@ -8,10 +8,10 @@
 	ms.author="prdasneo"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
-	resource="budgets"
+	resource="costanalysis"
 	resourceTags=""
 	productPesIds="15659"
-	supportTopicIds="32615285"
+	supportTopicIds=""
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	ownershipId="ASMS_Billing"
 />
