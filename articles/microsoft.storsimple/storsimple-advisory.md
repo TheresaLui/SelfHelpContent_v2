@@ -29,5 +29,5 @@
 7. [List of supported hardware for the 10 GbE network interfaces on StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-supported-hardware-for-10-gbe-network-interfaces)<br>
 8. [How to modify DNS Settings](https://docs.microsoft.com/azure/storsimple/storsimple-8000-modify-device-config#modify-dns-settings)<br>
 9. [How to change device administrator password](https://docs.microsoft.com/azure/storsimple/storsimple-8000-change-passwords)<br>
-10. [Connect remotely to StorSimple using HTTP/HTTPs](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-8000-windows-powershell-administration#connect-remotely-to-storsimple-using-windows-powershell-for-storsimple)<br>
-11. [Encountered StorSimple Alerts?](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-8000-manage-alerts#alerts-quick-reference)
+10. [Connect remotely to StorSimple using HTTP/HTTPs](https://docs.microsoft.com/azure/storsimple/storsimple-8000-windows-powershell-administration#connect-remotely-to-storsimple-using-windows-powershell-for-storsimple)<br>
+11. [Encountered StorSimple Alerts?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-alerts#alerts-quick-reference)
