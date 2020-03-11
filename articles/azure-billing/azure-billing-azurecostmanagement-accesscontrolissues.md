@@ -9,10 +9,10 @@
 	selfHelpType="generic"
 	supportTopicIds="32615278"
 	resourceTags=""
-	OwnershipId: "ASMS_Billing"
 	productPesIds="15659"
 	cloudEnvironments="public, Fairfax, Mooncake, Blackforest"
 	articleId="9832c7a3-a77c-4a30-8c2c-4e5557b57d6c"
+	ownershipId="ASMS_Billing"
 />
 
 # Access Control Issues
