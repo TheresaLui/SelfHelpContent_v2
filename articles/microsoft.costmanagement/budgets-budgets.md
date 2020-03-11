@@ -2,7 +2,7 @@
 	articleId="Budgets-budgets"
 	articleTags="costmanagement,budgets"
 	pageTitle="Why is the +Add budget button disabled for me?"
-	description="Budgets- add budgets"
+	description="Budgets-add budgets"
 	displayOrder="5"
 	authors="prdasneo"
 	ms.author="prdasneo"
@@ -12,7 +12,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	supportTopicIds="32615285"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	ownershipId="ASMS_Billing"
 />
 
