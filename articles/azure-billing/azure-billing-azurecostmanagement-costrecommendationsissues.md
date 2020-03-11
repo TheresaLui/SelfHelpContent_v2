@@ -21,22 +21,20 @@
 
 Cost recommendations are available through Azure Advisor. They can be accessed in several ways and will provide recommendations relevant to the scope you are accessing Advisor from:
 
-1. From the Azure Advisor main blade. Navigate there within the [Azure Portal](https://portal.azure.com) and select the 'Costs' tab from the main dashboard<br>
-2. From the **Cost Management + Billing** blade, click on the 'Cost Management' menu item, and then click on the **'Advisor recommendations'** menu item from the Cost Management blade<br>
-3. From the **Subscription Overview** or **Resource Group Overview** blade, click **'Advisor recommendations'** in the blade menu<br> 
+1. From the Azure Advisor main blade. Navigate there within the [Azure Portal](https://portal.azure.com) and select the 'Costs' tab from the main dashboard.
+2. From the **Cost Management + Billing** blade, click on the 'Cost Management' menu item, and then click on the **'Advisor recommendations'** menu item from the Cost Management blade
+3. From the **Subscription Overview** or **Resource Group Overview** blade, click **'Advisor recommendations'** in the blade menu
 
-## Prerequisites:
+## Prerequisites
 Recommendations are available to all [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement) customers. You must have active virtual machines with at least 14 days of activity along with at least read access to one or more of the following scopes to view cost data.
 
 * Subscription
 * Resource group
 
-Learn how to [Act on recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#act-on-a-recommendation)<br>
-
+Learn how to [Act on recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#act-on-a-recommendation)
 Learn how to [Verify the action](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#verify-the-action)<br>
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [View supported Advisor cost recommendations](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations)<br>
 * [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
