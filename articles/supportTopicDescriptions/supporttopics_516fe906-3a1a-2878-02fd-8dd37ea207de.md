@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f61f03f5-b93d-bfdd-5a7a-6b2acc30f507",
+      "longDescription": "",
+      "shortDescription": "Issues found when authenticating using Password Hash Sync for AAD",
+      "searchTags": "issue with password hash sync ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc160541-3775-bd33-3a5f-7230baae1238",
       "longDescription": "",
       "shortDescription": "I need assistance or found an issue when configuring Azure AD Identity Protection settings",
