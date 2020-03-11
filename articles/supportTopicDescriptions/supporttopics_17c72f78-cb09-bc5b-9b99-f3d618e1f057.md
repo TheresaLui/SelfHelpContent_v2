@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "00f8009e-7dd0-5260-7475-124d3bfecbb8",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring Advanced Threat Protection",
+      "searchTags": "Advanced Threat Protection",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "079471d2-82a4-2c9b-6db3-b2e38710381a",
       "longDescription": "",
       "shortDescription": "Your server is experiencing overall slowness or a specific query is very slow",
