@@ -9,7 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="E6801E5C-EFBD-472A-ADC5-F21DC1C5B133"
-	ownershipId="StorageMediaEdge_AccountManagement"
+    ownershipId="StorageMediaEdge_XStore"
 />
 # Issues accessing a new storage account
 ---
@@ -45,18 +45,6 @@
                 {
                     "value": "blob",
                     "text": "Blob"
-                },
-                {
-                    "value": "file_share",
-                    "text": "File share"
-                },
-                {
-                    "value": "file",
-                    "text": "File"
-                },
-                {
-                    "value": "table",
-                    "text": "Table"
                 },
                 {
                     "value": "dont_know_answer",
