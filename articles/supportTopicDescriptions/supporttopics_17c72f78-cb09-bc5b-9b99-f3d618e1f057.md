@@ -6,9 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" 
-ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
@@ -52,6 +50,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "shortDescription": "Questions about scaling operations or pricing model",
       "searchTags": "scaling operations;pricing model",
       "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1ff02206-1bc1-90fc-db7d-2a30fd620e9d",
+      "longDescription": "",
+      "shortDescription": "You have issues using PowerShell",
+      "searchTags": "powershell",
+      "category": "Portal, Client Tools and APIs",
       "useInDiagnoseAndSolve": "true"
     },
     {
