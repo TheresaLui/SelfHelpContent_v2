@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55e76da2-90a4-f4a4-52fd-912260dcead4",
+      "longDescription": "",
+      "shortDescription": "You have questions about super user access (privileges)",
+      "searchTags": "super user",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ed02c5b-b621-2957-4a44-41676d462998",
       "longDescription": "",
       "shortDescription": "Questions about creating, updating, or deleting servers or server configurations",
