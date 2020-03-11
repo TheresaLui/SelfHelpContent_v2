@@ -12,8 +12,9 @@
 	productPesIds="15659"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="9c58cce1-dcf8-4f7e-a478-a47041597f06"
+	ownershipId="ASMS_Billing"
 />
-azure-billing-azurecostmanagement-costalertsfunctionality.md
+
 # Assistance with Alerts, budgets or forecasted cost functionality
 
 **Why is the Add budget button disabled for me?**<br>
@@ -41,6 +42,9 @@ Budgets are aligned to the current calendar month or current billing period (in 
 
 **Why do I not see a graph of my costs in the budget creation experience?**<br>
 We need a minimum of 2 months of cost data before we can render a graph to assist you with budget creation.<br>
+
+**Why cant I set a budget against a subscription I just created?**<br>
+After the creation of a susbcription, the data takes 24-48 hours to process before setting a budget against it.<br>
 
 **Budget API Resources**<br>
 REST APIs
