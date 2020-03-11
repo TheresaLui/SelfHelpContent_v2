@@ -213,6 +213,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b3b6f7ad-06cb-488e-ece1-b7523675248a",
+      "longDescription": "",
+      "shortDescription": "Questions about security",
+      "searchTags": "Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b512de2e-1892-6bc5-6e4e-cafb2bc2b192",
       "longDescription": "",
       "shortDescription": "You have questions about managing server firewall rules",
