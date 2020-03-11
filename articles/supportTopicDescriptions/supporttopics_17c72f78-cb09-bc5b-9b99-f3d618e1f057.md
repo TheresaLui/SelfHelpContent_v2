@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "59f57416-49a7-0bf1-04d9-18b80f57d652",
+      "longDescription": "",
+      "shortDescription": "You are not able to create or delete read replicas",
+      "searchTags": "create read replica;delete read replica",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ed02c5b-b621-2957-4a44-41676d462998",
       "longDescription": "",
       "shortDescription": "Questions about creating, updating, or deleting servers or server configurations",
