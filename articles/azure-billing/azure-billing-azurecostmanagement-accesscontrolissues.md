@@ -24,8 +24,9 @@ EA billing account admins can review and update cost visibility by going to Cost
 MCA billing account owners can toggle cost visibility ('View charges') from Cost Management + Billing > Billing profiles > (select profile) > Policies. Billing profile owners will open their billing profile directly from Cost Management + Billing. Within MCA, cost visibility can be granularly enabled or disable per billing profile.<br>
 
 Whether you are using an EA or MCA account, all cost visibility settings are recommended to be enabled to ensure everyone within the organization is aware of the fiscal impact they’re making with their cloud architecture choices and has an opportunity to optimize them.<br>
+
  
-CSPs and Indirect EAs have their reseller enable Markup for them to be able to view costs in Azure Cost Management.<br>
+CSPs and Indirect EAs have their reseller enable Markup for them to be able to view costs in Azure Cost Management. For instructions on enabling markup, see the [Indirect Customer Onboarding Guide](https://ea.azure.com/api/v3Help/v2IndirectCustomerOnboardingGuide)<br>
 
 You can grant access for Azure billing information to members of your team by assigning one of the following user roles to your subscription: Account Administrator, Service Administrator, Co-administrator, Owner, Contributor, Reader, and Billing Reader. They would have access to billing information in the [Azure portal](https://portal.azure.com), and they can use the Billing APIs to programmatically get invoices (once opted-in) and usage details.
 
