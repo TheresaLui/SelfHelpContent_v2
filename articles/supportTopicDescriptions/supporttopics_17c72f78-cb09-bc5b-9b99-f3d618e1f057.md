@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b512de2e-1892-6bc5-6e4e-cafb2bc2b192",
+      "longDescription": "",
+      "shortDescription": "You have questions about managing server firewall rules",
+      "searchTags": "firewall rules",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb9c4681-a691-f485-f019-dcf0cdc2fc65",
       "longDescription": "",
       "shortDescription": "Your existing connections to the server have been dropped unexpectedly",
