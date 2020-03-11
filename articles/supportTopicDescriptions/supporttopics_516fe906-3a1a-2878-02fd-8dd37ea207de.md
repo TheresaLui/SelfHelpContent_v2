@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8bf447c9-08be-fe22-eee5-b7c83d0e7f36",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "Pass-through authentication issues",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "93d6955d-5c3d-53a0-6168-c70655d19b9c",
       "longDescription": "",
       "shortDescription": "Enabling Password Hash sync authentication",
