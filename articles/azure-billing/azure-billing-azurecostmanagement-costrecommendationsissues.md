@@ -31,8 +31,8 @@ Recommendations are available to all [Enterprise Agreement (EA)](https://azure.
 * Subscription
 * Resource group
 
-Learn how to [Act on recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#act-on-a-recommendation)
-Learn how to [Verify the action](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#verify-the-action)<br>
+* [Act on recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#act-on-a-recommendation)
+* [Verify the action](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#verify-the-action)<br>
 
 ## **Recommended Documents**
 
