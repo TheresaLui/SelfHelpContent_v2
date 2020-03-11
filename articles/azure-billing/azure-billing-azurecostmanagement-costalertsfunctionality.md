@@ -43,8 +43,8 @@ Budgets are aligned to the current calendar month or current billing period (in 
 **Why do I not see a graph of my costs in the budget creation experience?**<br>
 We need a minimum of 2 months of cost data before we can render a graph to assist you with budget creation.<br>
 
-**Why cant I set a budget against a subscription I just created?**<br>
-After the creation of a susbcription, the data takes 24-48 hours to process before setting a budget against it.<br>
+**Why can't I set a budget against a subscription I just created?**<br>
+After the creation of a subscription, the data takes 24-48 hours to process before setting a budget against it.<br>
 
 **Budget API Resources**<br>
 REST APIs
