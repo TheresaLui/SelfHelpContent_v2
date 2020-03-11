@@ -17,7 +17,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified an issue with your Load Balancer
 <!--issueDescription-->
-We have identified that your Virtual Machine, **'<!--$VMName-->[VMName]<!--/$VMName-->'**'s firewall or application is blocking ports **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'** in VNET **'<!--$VnetName-->[VnetName]<!--/$VnetName-->'** has
+We have identified that your Load Balancer's backend pool members, **'<!--$VMArray-->[VMArray]<!--/$VMArray-->'** have firewall or application issues blocking ports **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'** in VNET **'<!--$VnetName-->[VnetName]<!--/$VnetName-->'** has
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -31,7 +31,7 @@ This issue was caused by the VM configuration <application/firewall> that was no
 1. Determine if the application on the VM is listening. Use the command netstat -ano | findstr LISTENING | findstr [portNumber] where [portNumber] is the port number you expect the computer to be listening on. If you do not see any result, the application is not listening on that port and you should troubleshoot the application. If you see output like the following, you know the application is listening:
 
 ~~~powershell
-C:\Users\dgoddard>netstat -ano | findstr LISTENING | findstr [portNumber]
+C:\Users\dgoddard>netstat -ano | findstr LISTENING | findstr 3389
   TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       1540
   TCP    [::]:3389              [::]:0                 LISTENING       1540
 ~~~
