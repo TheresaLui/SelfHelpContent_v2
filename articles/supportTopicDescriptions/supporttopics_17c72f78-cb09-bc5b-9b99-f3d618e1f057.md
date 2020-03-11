@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ad51aee-c80b-df3e-5e34-6db57c5fe709",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues with tools used to migrate to Azure Database for MySQL",
+      "searchTags": "migration tools;workbench;data migration",
+      "category": "Migrating to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a04b8f02-df72-e33a-52ba-c7f209765ca5",
       "longDescription": "",
       "shortDescription": "Your server is experiencing high network latency while retrieving data from the server",
