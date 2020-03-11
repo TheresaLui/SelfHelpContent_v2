@@ -3,9 +3,9 @@ pageTitle = "Implement multiple ExpressRoute circuits in your Virtual Network fo
 description = "Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency"
 authors = "aadevteam"
 ms.author = "aadevteam"
-articleId = "4a031d69-19fd-495f-9d25-93afbf7f1e89_Public"
+articleId = "4a031d69-19fd-495f-9d25-93afbf7f1e89_Mooncake"
 selfHelpType = "advisorRecommendationMetadata"
-cloudEnvironments = "Public" 
+cloudEnvironments = "Mooncake" 
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency
