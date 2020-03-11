@@ -24,8 +24,8 @@
 * **I’m unable to create a connector using my AWS credentials**<br>
 This may happen due to the following reasons:
 
-  1. Invalid AWS credentials. Please check your AWS credentials and whether they are active<br>
-  2. Only 1 connector can be created for a consolidated account. Hence, if someone has already created a connector for the same consolidated account, we suggest you reach out to them to grant you access to the connector<br>
+  1. Invalid AWS credentials. Please check your AWS credentials and whether they are active.
+  2. Only 1 connector can be created for a consolidated account. Hence, if someone has already created a connector for the same consolidated account, we suggest you reach out to them to grant you access to the connector.
   
  * **I want to view my Azure and AWS costs together**<br>
  In order to view Azure and AWS costs together, we take the help of Management Group scopes in Azure and follow the steps:
