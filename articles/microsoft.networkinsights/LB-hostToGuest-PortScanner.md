@@ -17,7 +17,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified an issue with your Load Balancer
 <!--issueDescription-->
-We have identified that your Virtual Machine, **'<!--$VMName-->[VMName]<!--/$VMName-->'**'s firewall or application is blocking ports **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'**in VNET **'<!--$VnetName-->[VnetName]<!--/$VnetName-->'** has
+We have identified that your Virtual Machine, **'<!--$VMName-->[VMName]<!--/$VMName-->'**'s firewall or application is blocking ports **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'** in VNET **'<!--$VnetName-->[VnetName]<!--/$VnetName-->'** has
 <!--/issueDescription-->
 
 ## **Recommended Steps**
