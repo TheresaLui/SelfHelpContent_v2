@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0a57fca1-790a-ef04-2041-e1211cf483f4",
+      "longDescription": "",
+      "shortDescription": "Questions specific to replication between servers",
+      "searchTags": "replication",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f466c3a-c77a-24cc-a098-165b4f96c397",
       "longDescription": "",
       "shortDescription": "You have questions about the service automated backup capabilities",
