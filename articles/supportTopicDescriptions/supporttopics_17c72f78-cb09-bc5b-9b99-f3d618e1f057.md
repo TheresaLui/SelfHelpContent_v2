@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bc38e975-b036-4d6a-cd5a-d55bca604a9f",
+      "longDescription": "",
+      "shortDescription": "You have issues with an Azure CLI command",
+      "searchTags": "az;azure cli",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c7f8958f-a998-bc26-c19e-5bbe50f2ffbe",
       "longDescription": "",
       "shortDescription": "You are experiencing persistent or intermittent connection issues",
