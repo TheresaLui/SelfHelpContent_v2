@@ -11,7 +11,7 @@
 	resource="costanalysis"
 	resourceTags=""
 	productPesIds="15659"
-	supportTopicIds=""
+	supportTopicIds="32615285"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	ownershipId="ASMS_Billing"
 />
