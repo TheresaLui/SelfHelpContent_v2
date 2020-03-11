@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2da3e32d-7f19-0acc-5174-f680ac441863",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Password Hash Sync Authentication method for Azure Active Directory",
+      "searchTags": "issue with hash sync authentication ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "30b346c8-ba52-fbdc-2714-d0d2dbeaeb89",
       "longDescription": "",
       "shortDescription": "I have successfully implemented Seamless SSO but now need assistance managing it.",
