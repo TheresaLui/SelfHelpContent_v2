@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "93d6955d-5c3d-53a0-6168-c70655d19b9c",
+      "longDescription": "",
+      "shortDescription": "Enabling Password Hash sync authentication",
+      "searchTags": "Issue with hash sync authentication ;Password issue with authentication ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94d95c37-8d14-0291-702e-3df4befa01f3",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for implementing or managing Seamless Single Sign-on for Azure Active Directory",
