@@ -253,6 +253,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b36fce25-69ca-95fe-f243-461833b70b79",
+      "longDescription": "",
+      "shortDescription": "You are experiencing migration issues to Azure Database for MySQL",
+      "searchTags": "migration issues",
+      "category": "Migrating to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b3b6f7ad-06cb-488e-ece1-b7523675248a",
       "longDescription": "",
       "shortDescription": "Questions about security",
