@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="f9ded5d7-a69b-4268-a394-9d3372bdf746"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # SQL Server Management Studio and tools

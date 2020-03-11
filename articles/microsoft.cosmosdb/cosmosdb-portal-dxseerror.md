@@ -13,6 +13,7 @@
 	articleId="cosmosdb-portal-dxseerror"
 	displayOrder="80"
 	category="Portal"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # I am getting an error using Azure Cosmos DB Data Explorer, Metrics, or Notebooks

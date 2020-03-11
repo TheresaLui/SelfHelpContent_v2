@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="privatedns-cantresolverecord"
+	ownershipId="CloudNet_DNS"
 />
 
 # I can't resolve DNS records from a private DNS zone

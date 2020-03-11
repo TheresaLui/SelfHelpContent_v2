@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="f90f1e79-0c38-4ccc-8b68-d9790ad2bac1"
+	ownershipId="AzureIdentity_User"
 />
 
 # Users are unable to sign in with Terms of Use

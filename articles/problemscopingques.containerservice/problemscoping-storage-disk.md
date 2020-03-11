@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-storage-disk"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Storage/DiskFile Issues
 ---

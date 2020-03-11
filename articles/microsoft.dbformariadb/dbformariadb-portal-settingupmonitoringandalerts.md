@@ -10,8 +10,9 @@
     supportTopicIds="32640155"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="388594d4-b25f-40a9-81a2-26674705d2c1"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Monitoring Azure Database for MariaDB servers

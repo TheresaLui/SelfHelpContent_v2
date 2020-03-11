@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-importfrombacpactocreatesqldb-db"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Import from BACPAC to create SQL DB
 ---

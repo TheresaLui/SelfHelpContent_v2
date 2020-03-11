@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Azure Storage account management General Advisory

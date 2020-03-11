@@ -1,8 +1,8 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, v-kraku"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
@@ -72,6 +72,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0fa367fe-2f1d-157c-a27f-46db83437cd2",
+      "longDescription": "",
+      "shortDescription": "Issue with restore of SAP HANA database",
+      "searchTags": "PIT;Failing;Restore",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "11859079-51bb-684c-5cd5-574000986ffc",
       "longDescription": null,
       "shortDescription": "Solve issues causing dropped or terminated connections to data lake storage",
@@ -112,6 +120,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1a72b00f-016c-493d-1caa-a70aa40f24b7",
+      "longDescription": "",
+      "shortDescription": "Issue with associating or modifying policy associated with a SAP HANA database",
+      "searchTags": "Edit policy;Change policy",
+      "category": "Configure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "22f343c7-9fae-5a39-5d4b-7a143a93beb6",
       "longDescription": null,
       "shortDescription": "Issues using Anonymous access to data lake storage resulting in access denied or connectivity failures ",
@@ -144,12 +160,20 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "290d4e28-c993-9f20-bdcb-8a91c163d14e",
+      "longDescription": "",
+      "shortDescription": "For queries only related to product functionality and supported or unsupported. For failures use other available support topics. ",
+      "searchTags": "Price;How-to-configure;Pre-registration script;Discovery",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue undeleting items in soft deleted state",
+      "searchTags": "Soft delete;undelete",
+      "category": "Vault",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "345e1c89-9409-88f9-528e-594576216ed5",
@@ -176,12 +200,20 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3f1a599a-e8be-1ef7-5d38-7016f8093c31",
+      "longDescription": "",
+      "shortDescription": "Issue with discovering the SAP HANA instance",
+      "searchTags": "Pre-registration script;System key;Discovery",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "412bbd3b-d2a8-cd79-b614-5dec72dab528",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure files",
+      "searchTags": "Backup;Restore",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "442e8b71-0da4-f68c-9943-68da5a2d36b7",
@@ -198,6 +230,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4a0ef628-bece-80ac-d542-220b1f5940f0",
+      "longDescription": "",
+      "shortDescription": "Issue while taking backup of SAP HANA database in Azure VM",
+      "searchTags": "SAP HANA ;backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
@@ -272,11 +312,19 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5d74c65b-b117-5f87-b31b-44ad19f8a533",
+      "longDescription": "",
+      "shortDescription": "Issue with the streaming full, incremental, differential or log backup",
+      "searchTags": "backint request not received;Timeout",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
       "longDescription": null,
-      "shortDescription": "Issues with VM agent which is resposible for functional aspects of deploying and managing Azure VMs",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues with VM agent which is responsible for functional aspects of deploying and managing Azure VMs",
+      "searchTags": "backup;failed;agent",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -398,6 +446,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "95c36c0c-9fad-f13d-d32e-301ee4b0434a",
+      "longDescription": "",
+      "shortDescription": "Issue with discovering the SAP HANA database",
+      "searchTags": "Discovery;Pre-registration issue",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "968e3686-112a-b861-716c-ca441c1ca1de",
@@ -664,12 +720,28 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f5413101-ad2e-7e9f-5603-0367389bcf7f",
+      "longDescription": "",
+      "shortDescription": "SAP HANA database backup",
+      "searchTags": "SAP HANA",
+      "category": "SAP",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f6bf4d86-7e89-48f3-0b43-da0d067d7fef",
       "longDescription": null,
       "shortDescription": "Issue while restoring System State backup from Azure using MARS Agent",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb9be940-28b3-2199-e166-29a94f3da25f",
+      "longDescription": "",
+      "shortDescription": "HANA database restore operation is stuck in progress or took too long to complete",
+      "searchTags": "PIT;Logs;Time taking;Stuck;Failing",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fcfbccab-ae1d-eede-1342-ea7c9020e469",

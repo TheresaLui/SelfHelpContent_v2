@@ -9,6 +9,7 @@
     productPesIds="16578"
     cloudEnvironments="public"
 	articleId="5c5bd949-6748-430c-87b8-c539012b6ed1"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Synchronizing a group between on-premises and the cloud

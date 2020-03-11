@@ -10,10 +10,11 @@
 	articleId="mcas-missing-activities"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32574672"
+	supportTopicIds="32728980"
 	resourceTags=""
 	productPesIds="16031"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I can't see my activities in the activity log

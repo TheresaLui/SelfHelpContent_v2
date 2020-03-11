@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
  	articleId="fa343893-fe0c-43e4-8822-53a7803392f3"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # Why am I unable to deploy my web service?

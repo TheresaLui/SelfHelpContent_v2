@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="assistancewithbillorusage-update other billing details"
+	ownershipId="ASMS_Billing"
 />
 
 # update other billing details

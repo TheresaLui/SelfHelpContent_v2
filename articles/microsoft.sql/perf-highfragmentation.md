@@ -13,7 +13,8 @@
     supportTopicIds="31980401,32511226"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="public"
+    cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue
 

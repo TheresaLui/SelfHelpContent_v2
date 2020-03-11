@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
 	articleId="8c8710db-d86c-4191-82e4-a201e84a2c44"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues with the gateway certificate

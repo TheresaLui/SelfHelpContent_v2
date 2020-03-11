@@ -1,7 +1,7 @@
 <properties
-    pageTitle="query execution/high IO usage"
-    description="query execution/high IO usage"
-    infoBubbleText="Found high IO usage issues with DB. See details on the right."
+    pageTitle="query execution/high IO or high log rate usage"
+    description="query execution/high IO or high log rate usage"
+    infoBubbleText="Found high IO or high log rate usage issues with DB. See details on the right."
     service="microsoft.sql"
     resource="servers"
     authors="pxding"
@@ -14,12 +14,13 @@
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
-# We ran diagnostics on your resource and found high IO usage
+# We ran diagnostics on your resource and found high IO or high log rate usage
 
 <!--issueDescription-->
-Our internal service telemetry detected high IO usage greater than 90% for more than 5 consecutive minutes on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**.
+Our internal service telemetry detected high IO or high log rate usage greater than 90% for more than 5 consecutive minutes on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

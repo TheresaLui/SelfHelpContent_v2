@@ -6,6 +6,7 @@
     articleId="0bbe0a49-3c63-49d3-ab4a-aa24198f03f7_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="CloudNet_TrafficManager"
 />
 # Add an endpoint configured to "All (World)"
 ---

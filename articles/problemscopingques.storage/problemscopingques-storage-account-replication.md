@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="90634BE9-6A50-44C1-85EF-DF95F5C14CA4"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Issue with changing storage account replication type
 ---

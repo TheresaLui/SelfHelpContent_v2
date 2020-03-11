@@ -10,8 +10,9 @@
 	supportTopicIds="32591156"
 	resourceTags=""
 	productPesIds="16094"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="741dca88-bfab-43ba-8d4b-c8f04a65f4a3"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Point to site VPN connectivity issues

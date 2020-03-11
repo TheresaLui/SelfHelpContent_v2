@@ -10,9 +10,10 @@
     supportTopicIds="32640014"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="09be710f-a2b7-4d3c-a6be-a6f466140475"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Scaling Azure Database for PostgreSQL servers
 

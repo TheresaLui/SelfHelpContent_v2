@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-networking-ingress-egress"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Ingress-Egress related
 ---

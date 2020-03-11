@@ -12,6 +12,7 @@
 	productPesIds="16952,16575"
 	cloudEnvironments="public"
 	articleId="2e5a474e-839f-432d-8bf3-7ed39d7635c3"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Microsoft Graph authentication token issues
@@ -42,3 +43,6 @@ For service or daemon apps, your application should implement the OAuth 2.0 Clie
 
 For more information, see [Authentication and authorization error codes](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes).
 
+## **Recommended Documents**
+
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)

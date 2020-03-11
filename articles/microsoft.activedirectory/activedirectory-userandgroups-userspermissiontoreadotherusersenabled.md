@@ -13,6 +13,7 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Configuration Issue Causing Failure To Add Internal/External Members In Microsoft Teams

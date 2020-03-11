@@ -2,16 +2,17 @@
 	pageTitle="Diagnostic logs with Azure Cache for Redis"
 	description="Diagnostic logs with Azure Cache for Redis"
 	service="microsoft.cache"
-	resource=""
-	authors="johnnygetHub"
-	ms.author="johnnyc"
-	displayOrder=""
-	selfHelpType="generic"
+	resource="redis"
+	authors="asasine"
+	ms.author="adsasine"
+	displayOrder="42"
+	selfHelpType="resource"
 	supportTopicIds="32690910"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="820d10c4-4455-4341-91be-c1d4a49d08b7"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Diagnostic logs with Azure Cache for Redis

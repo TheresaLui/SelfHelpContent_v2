@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="f83877ee-08c5-4c00-bb48-67eb77055a2b"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # performance/sql server slow
@@ -29,3 +30,5 @@ While running SQL Server in Azure Virtual Machines, we recommend that you contin
 * [Performance best practices for SQL VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance/)<br>
 * [Storage configuration guidelines for SQL VM](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2018/09/25/storage-configuration-guidelines-for-sql-server-on-azure-vm/)
 * [OS best practice configurations for SQL Server](https://blogs.msdn.microsoft.com/docast/2018/02/01/operating-system-best-practice-configurations-for-sql-server/)
+* [Azure VM Storage performance and throttling demystified](https://blogs.technet.microsoft.com/xiangwu/2017/05/14/azure-vm-storage-performance-and-throttling-demystify/)
+* [Designing for high performance](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage-performance)

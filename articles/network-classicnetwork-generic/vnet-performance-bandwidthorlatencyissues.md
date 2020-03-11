@@ -12,6 +12,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="184e5a75-bd4d-4b75-8f7e-c2ab3cf60c8a"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Common Solutions for bandwidth or latency issues under Virtual Network

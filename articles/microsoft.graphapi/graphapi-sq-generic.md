@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="29f3d1a7-da74-4612-9c5c-62bdfd8aee96"
-    />
+    	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Problem calling Microsoft Graph APIs
 

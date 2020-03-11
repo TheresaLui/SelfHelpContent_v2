@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="sqlvm-performance"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # Diagnose and resolve Virtual Machine performance issues

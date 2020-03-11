@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="b5c0aa9e-6e18-4c89-8fdd-eb02e4dc7645"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # linuxperformancecounters-other

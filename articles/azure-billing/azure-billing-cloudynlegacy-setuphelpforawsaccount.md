@@ -11,6 +11,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="df972ccb-83c3-4c9c-a7a8-7c9dc8a04184"
+	ownershipId="ASMS_Billing"
 />
 
 # Setup help for AWS Account

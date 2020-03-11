@@ -10,8 +10,9 @@
 	supportTopicIds="32641079"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="edac4a30-96cb-45df-bdbd-a56680015b74"
+	ownershipId="Compute_VirtualMachineScaleSets"
 />
 
 # My instance was restarted or stopped unexpectedly

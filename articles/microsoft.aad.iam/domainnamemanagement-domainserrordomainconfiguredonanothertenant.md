@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 	articleId="44688b68-9c7a-48f6-80e8-684c5237f1b0"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Problem with Domains Name configured on another tenant 
 ---

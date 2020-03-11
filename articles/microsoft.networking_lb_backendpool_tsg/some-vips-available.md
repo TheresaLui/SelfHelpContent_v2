@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="8864e99c-7c25-4800-95ed-a59fd44af298"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Some VIPs available

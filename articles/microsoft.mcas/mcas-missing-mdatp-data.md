@@ -10,10 +10,11 @@
 	articleId="mcas-mdatp-data"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32574669,32574671"
+	supportTopicIds="32728990"
 	resourceTags=""
 	productPesIds="16031"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I can't see my Microsoft Defender Advanced Threat Protection discovery data

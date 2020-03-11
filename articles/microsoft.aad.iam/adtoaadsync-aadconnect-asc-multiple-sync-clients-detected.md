@@ -13,6 +13,7 @@ pageTitle="Multiple sync clients detected"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Multiple sync clients detected

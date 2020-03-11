@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="benefitsoffersentitlementcheck"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # entitlement check

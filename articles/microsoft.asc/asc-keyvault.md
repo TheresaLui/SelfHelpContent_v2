@@ -10,8 +10,9 @@
 	supportTopicIds="32604392"
 	resourceTags=""
 	productPesIds="16512"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="9628bbb6-fedd-4f5f-ab9a-c97c64099a59"
+	ownershipId="Compute_AppService"
 />
 
 # ASC/Certificate Key Vault Binding/Link

@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_credit_limits"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Credit Limits
 ---

@@ -12,6 +12,7 @@
     productPesIds="16355"
     cloudEnvironments="public,mooncake,fairfax"
     articleId="ddos-under-attack-has-resource"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # General guidance or advisory
 

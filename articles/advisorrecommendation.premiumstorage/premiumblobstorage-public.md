@@ -6,6 +6,7 @@
     articleId="7393910d-8cca-4b4b-957c-f53d79a5cd70_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Premium Blobs for block blob storage
 ---

@@ -13,6 +13,7 @@ pageTitle="AAD Connect is configured using an unexpected source anchor"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AAD Connect is configured using an unexpected source anchor

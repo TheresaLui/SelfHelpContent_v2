@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="E7F354E1-8263-43BD-9D01-2AAAF1C6316F"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Recover deleted Resource Group
 ---

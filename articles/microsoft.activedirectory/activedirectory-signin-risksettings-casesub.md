@@ -12,6 +12,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     articleId="5c32585b-9646-4a7b-8689-de94e814c926"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Risk-based policies, notifications, and named locations

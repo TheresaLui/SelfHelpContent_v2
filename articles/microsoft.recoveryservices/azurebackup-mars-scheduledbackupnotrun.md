@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="a3d6a689-4cb3-44c8-a820-58543ab4141b"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Files and Folder Scheduled backup not run automatically

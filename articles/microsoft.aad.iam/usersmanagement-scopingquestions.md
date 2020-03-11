@@ -9,6 +9,7 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="94b91e4f-caac-4673-9481-3034272e0fa7"
+	ownershipId="AzureIdentity_B2B"
 />
 # User Management questions
 ---

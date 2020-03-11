@@ -12,6 +12,7 @@
 	productPesIds="15629,16459,16460,16598,16462,16461"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="deb34d55-39cf-4209-aef5-ad569c3b8291"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Help me understand metrics - Capacity, Availability, Bandwidth, Latency, Transactions

@@ -12,6 +12,7 @@
 	productPesIds="16580"
 	cloudEnvironments="public"
 	articleId="6582ee27-0f27-4cee-a3c4-313e69648137"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Business to Consumer (B2C)
@@ -25,6 +26,7 @@
 
 ## **Recommended Documents**
 
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
 * [Samples on Github](https://github.com/Azure-Samples?q=b2c)
 * [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)

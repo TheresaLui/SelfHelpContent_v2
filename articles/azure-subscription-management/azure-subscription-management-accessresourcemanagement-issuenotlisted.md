@@ -10,8 +10,9 @@
 	supportTopicIds="32680689"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="accessresources-issue not listed"
+	ownershipId="ASMS_SubscriptionManagement"
 />
  
 # Access resources-issue not listed
@@ -20,7 +21,7 @@
 
 **Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)**
 
-i. You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
+i. You might be affected by an outage. Please check to see if there is an on-going outage: [Azure Health Status](https://status.azure.com/status/history/)
 ii. Please log out of all the active azure sessions. Follow the below steps [here](http://www.thewindowsclub.com/launch-start-private-browsing) for in- Private session of the internet explorer, if using google chrome please use the incognito mode of the browsing.
 iii. You could also try to Refresh browser, use another browser, delete cache cookies if above doesn't work<br>
 Learn more: [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="87dfe0de-862f-46ad-833b-661ed44faaae"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check if customer is exceeding the maximum number of Security Associations

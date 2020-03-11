@@ -12,6 +12,7 @@
     productPesIds="16922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="securing-an-existing-virtual-wide-area-network-hub"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Securing an Existing Virtual WAN Hub
 

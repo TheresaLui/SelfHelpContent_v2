@@ -2,16 +2,17 @@
 	pageTitle="High server load or CPU usage with Azure Cache For Redis"
 	description="High server load or CPU usage with Azure Cache For Redis"
 	service="microsoft.cache"
-	resource=""
-	authors="johnnygetHub"
-	ms.author="johnnyc"
-	displayOrder=""
-	selfHelpType="generic"
+	resource="redis"
+	authors="asasine"
+	ms.author="adsasine"
+	displayOrder="32"
+	selfHelpType="resource"
 	supportTopicIds="32690913"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="9566adb5-02cf-4f1e-84f8-35981ddf10f6"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # High server load or CPU usage with Azure Cache For Redis

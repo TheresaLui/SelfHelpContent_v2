@@ -11,6 +11,7 @@
 	productPesIds="14947"
 	cloudEnvironments="public"
 	articleId="c112c29d-12e3-4f2a-a3f2-ef874cfa41d3"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Installing or configuring AD FS adapter

@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="payment-supportedpaymentinstrumentsandcurrencies"
+	ownershipId="ASMS_Billing"
 />
 
 # supported payment instruments and currencies

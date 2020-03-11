@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="46b0c74d-36e6-4a7f-9b62-f3bd8ee6962a"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Scaling an instance

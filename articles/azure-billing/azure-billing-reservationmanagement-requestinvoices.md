@@ -10,8 +10,9 @@
 	supportTopicIds="32593229"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="d6753434-706e-45f3-a11d-fbbfe7107dd2"
+	ownershipId="ASMS_Billing"
 />
 
 # Reservation billing and invoice
@@ -56,7 +57,6 @@ Some possible reasons you might not see an invoice:
 
 ## **Recommended Documents**
 
-* [Manage Azure Reserved VM Instances billing](https://docs.microsoft.com/partner-center/azure-reservations-billing/)
 * [Billing basics](https://docs.microsoft.com/partner-center/billing-basics/)
 * [Understand how the Reserved Instance discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges/)
 * [Download or view your Azure billing invoice and daily usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)

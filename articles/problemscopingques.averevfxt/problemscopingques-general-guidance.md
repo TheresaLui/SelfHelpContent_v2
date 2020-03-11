@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="ee8abaf6-85e2-416e-b05e-62b1f5d65319"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # General Guidance or Advisory
 ---

@@ -12,6 +12,7 @@
 	productPesIds="16125"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="3fb18e9b-390f-403d-b125-d8977065c99b"
+	ownershipId="AzureMessaging_Common"
 />
 
 # ACS to SAS migration

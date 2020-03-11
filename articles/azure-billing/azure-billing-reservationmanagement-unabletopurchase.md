@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake"
 	articleId="reserved instance- unable to purchase"
+	ownershipId="ASMS_Billing"
 />
 
 # Reserved Instance- Unable to purchase or questions before purchase

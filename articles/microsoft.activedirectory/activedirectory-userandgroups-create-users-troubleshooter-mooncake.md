@@ -10,6 +10,7 @@
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="MoonCake"
  	articleId="activedirectory-userandgroups-create-users-troubleshooter-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 # I can’t create a new user in my Azure AD
 

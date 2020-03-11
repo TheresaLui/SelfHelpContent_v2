@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="aa30bc56-b86f-4165-b863-68ef5c106ad4"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # tools

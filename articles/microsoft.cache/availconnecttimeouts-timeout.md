@@ -2,16 +2,17 @@
 	pageTitle="Timeouts with Azure Cache For Redis"
 	description="Timeouts with Azure Cache For Redis"
 	service="microsoft.cache"
-	resource=""
-	authors="johnnygetHub"
-	ms.author="johnnyc"
-	displayOrder=""
-	selfHelpType="generic"
+	resource="redis"
+	authors="asasine"
+	ms.author="adsasine"
+	displayOrder="23"
+	selfHelpType="resource"
 	supportTopicIds="32690919"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="85b165a6-cfe3-404f-89ab-82197ac17e6b"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Timeouts with Azure Cache For Redis

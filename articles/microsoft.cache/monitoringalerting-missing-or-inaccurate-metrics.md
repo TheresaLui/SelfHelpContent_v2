@@ -2,16 +2,17 @@
 	pageTitle="Missing or inaccurate metrics with Azure Cache for Redis"
 	description="Missing or inaccurate metrics with Azure Cache for Redis"
 	service="microsoft.cache"
-	resource=""
-	authors="johnnygetHub"
-	ms.author="johnnyc"
-	displayOrder=""
-	selfHelpType="generic"
+	resource="redis"
+	authors="asasine"
+	ms.author="adsasine"
+	displayOrder="43"
+	selfHelpType="resource"
 	supportTopicIds="32690914"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="b7b5f6ac-3701-4b11-b64b-a26bec857a0d"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Missing or inaccurate metrics with Azure Cache for Redis

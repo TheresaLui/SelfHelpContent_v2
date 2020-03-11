@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="1813121f-9a01-4698-8b29-b2eb4e79a6df"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Self service group management

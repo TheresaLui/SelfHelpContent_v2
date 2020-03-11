@@ -14,6 +14,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="operationalinsights-generalloganalytics-unexpectedamountofdata-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Unexpected amount of data ingested

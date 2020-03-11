@@ -13,6 +13,7 @@ pageTitle="Device Writeback is enabled but required attributes are excluded from
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Device Writeback is enabled but required attributes are excluded from syncing

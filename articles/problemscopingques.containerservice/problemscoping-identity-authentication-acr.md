@@ -9,6 +9,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="problemscoping-identity-authentication-acr"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Authentication with ACR related
 ---

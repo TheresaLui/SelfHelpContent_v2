@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="01f3daeb-839b-4302-b37e-e8dc32ef447e"
+	ownershipId="StorageMediaEdge_StorageTables"
 />
 
 # Monitoring - Advisory questions
@@ -76,11 +77,11 @@
                 },
 		{
                     "value": "latency",
-                    "text": ":Latency"
+                    "text": "Latency"
                 },
 		{
                     "value": "transactions",
-                    "text": ":Transactions"
+                    "text": "Transactions"
                 },
 		{
                     "value": "dont_know_answer",

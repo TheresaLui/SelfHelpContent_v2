@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="privacybladeandGDPRRequests-problemscopingquestions"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 

@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="bbefd82d-a16a-4b1f-b71e-eda86a206021"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve install issue through init script

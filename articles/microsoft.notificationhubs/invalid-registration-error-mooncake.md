@@ -12,6 +12,7 @@
     supportToicIds =""
     cloudEnvironments="MoonCake"
 	articleId="172b1664-3c32-400e-a654-c612d9f094bb"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am getting an 'Invalid registration' error

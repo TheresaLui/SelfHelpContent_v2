@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="0ce49c0d-bf98-4286-8788-44f77d9cdeab"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions unable to configure or disable DB backup
 ---

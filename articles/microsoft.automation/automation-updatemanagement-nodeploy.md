@@ -10,8 +10,9 @@
     supportTopicIds="32599936"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="5d1543dc-bc0e-4c3c-877a-6b9d51845425"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Unexpected Installation of Updates

@@ -7,11 +7,12 @@
     ms.author="deeptivu"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636466,32636472,32636480,32636497"
+    supportTopicIds="32636466,32636472,32636480"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax"
     articleId="f10eed21-c120-4722-bfad-1b46217cae9d"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight: Service Unhealthy

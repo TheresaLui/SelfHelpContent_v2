@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="5b0fd4a5-6959-4934-9682-642c9a2c9e72"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Resolve Azure security and compliance request issues

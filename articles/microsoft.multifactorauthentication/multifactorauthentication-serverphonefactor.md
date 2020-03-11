@@ -11,6 +11,7 @@
 	productPesIds="14947"
 	cloudEnvironments="public"
 	articleId="4208b421-5ea1-4963-9d31-5023a1a07d71"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # server (phonefactor)

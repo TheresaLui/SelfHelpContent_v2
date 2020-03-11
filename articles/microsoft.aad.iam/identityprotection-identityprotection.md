@@ -9,7 +9,8 @@
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="291a8c40-bc18-4a9d-9a1e-1f4473e0be79"
-    />
+    	ownershipId="AzureIdentity_SignIn"
+/>
 
 # Azure Active Directory Sign-In and Identity Protection
 

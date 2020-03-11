@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="2c537456-ed05-4843-8290-6a71eddc1825"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/Installation fails 

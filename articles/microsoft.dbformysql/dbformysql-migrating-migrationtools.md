@@ -10,8 +10,9 @@
     supportTopicIds="32640069"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="4acf8133-6c71-4ef1-a9dc-bc8310c40650"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Migration tools for Azure Database for MySQL

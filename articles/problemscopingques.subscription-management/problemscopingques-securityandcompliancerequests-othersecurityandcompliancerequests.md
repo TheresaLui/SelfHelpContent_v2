@@ -9,6 +9,7 @@
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="othersecurityandcompliancerequests"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 

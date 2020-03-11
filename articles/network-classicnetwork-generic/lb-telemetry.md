@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Configure a Load Balancer Telemetry"
-	description="Configure a Load Balancer Telemetry"
+	pageTitle="Configure Load Balancer metrics"
+	description="Configure Load Balancer metrics"
 	service="microsoft.network"
 	resource="loadbalancers"
 	authors="spacest"
@@ -12,14 +12,18 @@
 	productPesIds="16098"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="lb-Telemetry"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
-# Configure a Load Balancer Telemetry
+# Configure Load Balancer metrics
 
-Did you know: 8 of 10 "Configure a Load Balancer Telemetry" issues were resolved using the resources listed below.   
+Did you know: 8 of 10 "Configure Load Balancer metrics" issues were resolved using the resources listed below.   
 
 ## **Recommended Documents**
 
-* [Metrics and health diagnostics for Standard Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics)
+* [Azure Monitor metrics and health diagnostics for Standard Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics)
 * [Azure Monitor logs for public Basic Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log)
-* [Get Load Balancer utilization metrics using the REST API](https://docs.microsoft.com/azure/load-balancer/load-balancer-query-metrics-rest-api)
+* [How to create an Azure Monitor alert rule](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview#create-an-alert-rule)
+* [Create, view and manage metric alerts through Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric)
+* [Load Balancer supported metrics](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported#microsoftnetworkloadbalancers)
+* [Exportable metrics via Diagnostics settings](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported-export-diagnostic-settings)

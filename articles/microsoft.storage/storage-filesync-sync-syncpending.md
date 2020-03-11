@@ -12,6 +12,7 @@
                 productPesIds="16460"
                 cloudEnvironments="public,MoonCake,FairFax,BlackForest"
                 articleId="4424338e-6846-4508-ad04-b72d336b7fa7"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File Sync - Server endpoint has a health status of pending in the portal

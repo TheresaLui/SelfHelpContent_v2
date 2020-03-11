@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, mooncake, blackforest, fairfax"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue

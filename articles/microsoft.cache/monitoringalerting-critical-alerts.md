@@ -2,16 +2,17 @@
 	pageTitle="Critical alerts with Azure Cache for Redis"
 	description="Critical alerts with Azure Cache for Redis"
 	service="microsoft.cache"
-	resource=""
-	authors="johnnygetHub"
-	ms.author="johnnyc"
-	displayOrder=""
-	selfHelpType="generic"
+	resource="redis"
+	authors="asasine"
+	ms.author="adsasine"
+	displayOrder="41"
+	selfHelpType="resource"
 	supportTopicIds="32690907"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="aa50e14e-2b03-47bc-8a31-8d578829b030"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Critical alerts with Azure Cache for Redis

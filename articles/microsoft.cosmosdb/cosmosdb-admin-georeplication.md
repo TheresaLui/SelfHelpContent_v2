@@ -13,6 +13,7 @@
 	articleId="cosmosdb-admin-georeplication"
 	displayOrder="22"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Testing business continuity during regional failures

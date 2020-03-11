@@ -1,20 +1,21 @@
 <properties
-	pageTitle="Diagnostic logs with Azure Cache for Redis"
-	description="Diagnostic logs with Azure Cache for Redis"
+	pageTitle="Azure Advisor recommendation"
+	description="Azure Advisor recommendation"
 	service="microsoft.cache"
-	resource=""
-	authors="johnnygetHub"
-	ms.author="johnnyc"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32690910"
+	resource="redis"
+	authors="asasine"
+	ms.author="adsasine"
+	displayOrder="11"
+	selfHelpType="resource"
+	supportTopicIds="32690904"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public"
-	articleId="820d10c4-4455-4341-91be-c1d4a49d08b7"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	articleId="dddd3e3e-0c0f-4dad-8c35-d989be56d96f"
+	ownershipId="RedisCache_RedisCache"
 />
 
-# Diagnostic logs with Azure Cache for Redis
+# Azure Advisor recommendation
 
 4 out of 5 customers resolved their Azure Cache for Redis issue using the below documents.<br>
 

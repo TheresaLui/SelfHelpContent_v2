@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="75b25de5-3e57-44a7-bf88-0e6a4a569208"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for unable to discover VM
 ---

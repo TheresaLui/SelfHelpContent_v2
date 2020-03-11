@@ -11,6 +11,7 @@
     productPesIds="16579"
     cloudEnvironments="public"
     	articleId="715b499a-5aed-4d72-91b3-b90b11019297"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Password hash synchronization

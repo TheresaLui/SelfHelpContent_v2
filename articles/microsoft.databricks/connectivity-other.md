@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="aad9b1de-3413-4700-97ac-ba5b84675678"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve connectivity issues

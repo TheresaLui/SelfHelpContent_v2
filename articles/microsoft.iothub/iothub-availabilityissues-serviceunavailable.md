@@ -12,6 +12,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="5b98dc45-7683-4608-8213-61669651e6ef"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Is IoT Hub having service issues?

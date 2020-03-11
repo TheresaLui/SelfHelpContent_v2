@@ -11,6 +11,7 @@
     productPesIds="14785,16578" 
     cloudEnvironments="public"
  	articleId="72fb9b5a-7925-4358-8f2e-2f62b53755d3"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # I have Microsoft Online Services blocking deletion of my Azure AD

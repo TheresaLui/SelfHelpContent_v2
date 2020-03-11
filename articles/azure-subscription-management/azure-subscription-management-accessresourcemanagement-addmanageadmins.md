@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	articleId="accessandresourcemanagementhowtoaddandmanageadmins"
+	ownershipId="ASMS_SubscriptionManagement"
 />
  
 # How do I add or manage administrators for my Azure Subscription?

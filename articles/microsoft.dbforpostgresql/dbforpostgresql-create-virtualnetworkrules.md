@@ -9,8 +9,9 @@
     selfHelpType="generic"
     supportTopicIds="32640028"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="dd2fe58d-ee46-42c8-a58a-b9775d8f84fb"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Managing VNet service endpoints in Azure Database for PostgreSQL
