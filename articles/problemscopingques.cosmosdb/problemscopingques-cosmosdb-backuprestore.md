@@ -52,7 +52,7 @@
             "id": "sourceaccount_name",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Name of the database account to restore?",
+			"displayLabel": "Name of the database account to restore",
 			"required": true
         },
 		{
