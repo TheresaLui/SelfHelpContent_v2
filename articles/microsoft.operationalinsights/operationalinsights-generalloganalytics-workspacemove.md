@@ -23,9 +23,9 @@ You can move a Log Analytics workspace to a different resource group or subscrip
 
 [Workspace move considerations](https://docs.microsoft.com/azure/azure-monitor/platform/move-workspace#workspace-move-considerations):
 * Review [Move a Log Analytics workspace to different subscription or resource group article](https://docs.microsoft.com/azure/azure-monitor/platform/move-workspace)
-* Subscriptions (source and destination) have to be within the same Azure Active Directory tenant and region.
-* Managed solutions that are installed in the workspace will be moved with the Log Analytics workspace. 
-* Connected agents will remain connected and keep sending data to the workspace after the move.
+* Subscriptions (source and destination) have to be within the same Azure Active Directory tenant and region
+* Managed solutions that are installed in the workspace will be moved with the Log Analytics workspace
+* Connected agents will remain connected and keep sending data to the workspace after the move
 * Linked resources must be [removed](https://docs.microsoft.com/azure/azure-monitor/platform/move-workspace#delete-in-azure-portal) from the workspace along with solutions relying on automation account:<br>
   * Update Management
   * Change Tracking
