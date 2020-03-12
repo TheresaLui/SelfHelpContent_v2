@@ -39,7 +39,7 @@ cloudEnvironments = "Mooncake"
     "ingestionClientIdentities": [],
     "recommendationTimeToLive": 86400,
     "version": 1.0,
-    "learnMoreLink": "https://docs.microsoft.com/azure/expressroute/designing-for-high-availability-with-expressroute",
+    "learnMoreLink": "https://docs.azure.cn/expressroute/designing-for-high-availability-with-expressroute",
     "description": "Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency",
     "longDescription": "We have detected that your ExpressRoute gateway only has 1 ExpressRoute circuit associated to it. Connect 1 or more additional circuits to your gateway to ensure peering location redundancy and resiliency",
     "potentialBenefits": "Improve resiliency in case of ExpressRoute peering location failure",
@@ -47,7 +47,7 @@ cloudEnvironments = "Mooncake"
         "actionId": "3ab0dcc6-8a46-4665-9349-13ef82ad8867",
         "description": "Link additional circuits to your ExpressRoute Gateway",
         "actionType": "Document",
-        "documentLink": "https://docs.microsoft.com/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager"
+        "documentLink": "https://docs.azure.cn/expressroute/expressroute-howto-linkvnet-portal-resource-manager"
     }],
     "resourceMetadata": {
         "action": {
