@@ -16,7 +16,6 @@
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Security, Privacy and Compliance",
@@ -48,5 +47,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

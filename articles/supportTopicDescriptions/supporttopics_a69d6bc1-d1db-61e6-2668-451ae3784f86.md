@@ -6,9 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="a69d6bc1-d1db-61e6-2668-451ae3784f86"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_a69d6bc1-d1db-61e6-2668-451ae3784f86" 
-ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_a69d6bc1-d1db-61e6-2668-451ae3784f86" />
 # Support Topic Descriptions for a69d6bc1-d1db-61e6-2668-451ae3784f86
 ---
 {
@@ -44,6 +42,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "shortDescription": "Issues while configuring administrative or management features for Azure AD Domain Services ",
       "searchTags": "Domain Join",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e01a4157-a967-70d1-e1a3-e237c5752106",
+      "longDescription": "",
+      "shortDescription": "How to create or delete Azure AD Domain Services or issues concerning it",
+      "searchTags": "New Azure AD Domain Service;Remove Azure AD Domain Service",
+      "category": "Enablement and Removal ",
       "useInDiagnoseAndSolve": "true"
     }
   ]

@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1a376aec-e5e8-f778-d798-cdf675b9d624",
+      "longDescription": "",
+      "shortDescription": "Problems related to the AADConnect Health service, which monitors your AADConnect sync service and provides notifications when issues are detected",
+      "searchTags": "issue with AADConnect Health service ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "241143b4-599d-c38d-bcc2-356a62b39477",
       "longDescription": "",
       "shortDescription": "You see an error message saying that the Provisioning service is in a quarantained state, or the provisioning service is progressing slowly",
@@ -173,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bf9ebb9f-3b4e-9d70-0cd0-c11b33fe9936",
+      "longDescription": "",
+      "shortDescription": "You cannot download the sync error report",
+      "searchTags": "issue to downloan the sync error report",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bfb4ef13-3815-6480-a158-302b76ac5fad",
       "longDescription": "",
       "shortDescription": "You are seeing a problem with one or a few particular users",
@@ -209,6 +225,14 @@
       "longDescription": "",
       "shortDescription": "You have configured Seamless SSO (SSSO) and are seeing issues",
       "searchTags": "SSSO issues ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0da3043-b729-32b6-f604-9000d9be6d2f",
+      "longDescription": "",
+      "shortDescription": "You are not receiving any AADConnect Health notification emails",
+      "searchTags": "issue with receiving alert emails",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
