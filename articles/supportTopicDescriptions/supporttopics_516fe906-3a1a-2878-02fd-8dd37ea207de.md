@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "911f9754-b5c4-068f-94ab-550df367157e",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing AD FS (Active Directory Federation Services) for Azure Active Directory",
+      "searchTags": "AD FS;Active Directory Federation Services;ADFS Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "93d6955d-5c3d-53a0-6168-c70655d19b9c",
       "longDescription": "",
       "shortDescription": "Enabling Password Hash sync authentication",
