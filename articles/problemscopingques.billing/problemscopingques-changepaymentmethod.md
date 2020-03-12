@@ -16,6 +16,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Change Payment Method",
     "fileAttachmentHint": "",
     "formElements": [
@@ -76,8 +77,8 @@
                     "text": "Mozilla Firefox"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
