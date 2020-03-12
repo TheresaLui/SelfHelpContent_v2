@@ -16,6 +16,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false
     "title": "Help Me Understand My Bill and Usage",
     "fileAttachmentHint": "",
     "formElements": [
