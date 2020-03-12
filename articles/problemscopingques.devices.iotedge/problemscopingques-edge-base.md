@@ -17,7 +17,7 @@
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-  "title": "Issues with IoT Edge",
+  "title": "Issue with IoT Edge",
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "formElements": [
     {
