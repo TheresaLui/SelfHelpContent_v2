@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "19da896a-c82e-00de-e342-5d0b6e1e4017",
+      "longDescription": "",
+      "shortDescription": "Assistance needed or issues found related to ADFS certificates",
+      "searchTags": "ADFS Certificates;ADFS SSL;ADFS Token signing",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b627192-808e-8f44-ff80-75c8831c8f7d",
       "longDescription": "",
       "shortDescription": "Intermittent or total authentication failure from extranet WAP while intranet corpnet users do not experience an interruption",
