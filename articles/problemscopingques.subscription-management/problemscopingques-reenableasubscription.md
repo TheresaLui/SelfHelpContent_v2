@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454933"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	schemaVersion="1"
 	ownershipId="ASMS_SubscriptionManagement"
 />
@@ -16,6 +16,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Azure Subscriptions",
     "fileAttachmentHint": "",
     "formElements": [
