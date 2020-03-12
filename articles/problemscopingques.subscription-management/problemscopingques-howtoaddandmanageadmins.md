@@ -16,7 +16,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false, 
+    "subscriptionRequired": false,
     "title": "How to Add and Manage Admins",
     "fileAttachmentHint": "",
     "formElements": [
