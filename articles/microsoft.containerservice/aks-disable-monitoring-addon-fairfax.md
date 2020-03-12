@@ -3,9 +3,10 @@
     description="Monitoring addon workspace is deleted"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="cd23e33b-530c-4759-89af-f17e9ebd264b"
+    articleId="2edde431-0bff-427f-812a-dc4498753be6"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
+    ownershipId="Compute_AzureKubernetesService"
 />
 
 # Monitoring addon workspace is deleted
@@ -14,9 +15,9 @@
   "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "eedc2853-3369-4ede-8a75-68caf73e24df",
+  "recommendationTypeId": "4a675efc-039f-4953-917c-7580ea7aa955",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('aks.kusto.windows.net').database('AKSprod').OmsWorkspaceDeleted",
+    "streamNamespace": "cluster('aksff.kusto.usgovcloudapi.net').database('AKSprod').OmsWorkspaceDeleted",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -42,7 +43,7 @@
   "longDescription": "Monitoring addon workspace is deleted. Correct issues to setup monitoring addon.",
   "actions": [
     {
-      "actionId": "6b4b4e3c-c81b-4c31-88f6-5c241583009f",
+      "actionId": "663e60fd-0ffd-45f4-92b6-c38597bf7c98",
       "description": "Monitoring addon workspace is deleted",
       "actionType": "Document",
       "documentLink": "https://aka.ms/aks-disable-monitoring-addon"
@@ -50,7 +51,7 @@
   ],
   "resourceMetadata": {
     "action": {
-    "actionId": "194fe03a-1f8f-43b3-bd02-6dcc5724921e",
+    "actionId": "ee852201-45b5-485d-bb32-dc6bb165a838",
     "actionType": "Blade",
     "bladeName": "ResourceMenuBlade",
     "extensionName": "HubsExtension",
