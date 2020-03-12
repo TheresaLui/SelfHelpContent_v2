@@ -3,7 +3,6 @@
 pageTitle="Create or delete workspace"
 description="Create or delete workspace"
 service="microsoft.operationalinsights"
-articleTags="tag"
 resource="workspaces"
 ownershipId="AzureMonitoring_LogAnalytics"
 symptomID=""
@@ -19,7 +18,7 @@ cloudEnvironments="Public, Fairfax, Mooncake"
 	articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
 />
 
-## Create or delete workspace
+# Create or delete workspace
 
 ### **Delete Log Analytics workspace**
 
