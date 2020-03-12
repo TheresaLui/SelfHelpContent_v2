@@ -1,7 +1,7 @@
 
 <properties
-pageTitle="Create or delete workspace"
-description="Create or delete workspace"
+pageTitle=""
+description=""
 service="microsoft.operationalinsights"
 resource="workspaces"
 ownershipId="AzureMonitoring_LogAnalytics"
