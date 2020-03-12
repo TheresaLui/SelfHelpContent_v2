@@ -3,6 +3,7 @@
 pageTitle="Create or delete workspace"
 description="Create or delete workspace"
 service="microsoft.operationalinsights"
+articleTags="tag"
 resource="workspaces"
 ownershipId="AzureMonitoring_LogAnalytics"
 symptomID=""
