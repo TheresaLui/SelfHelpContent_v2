@@ -14,7 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
+ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
 # Step by step for connecting VNet Peering spokes to on-premises resources over ExpressRoute
 <!--issueDescription-->
