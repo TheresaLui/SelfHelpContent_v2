@@ -16,6 +16,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Request a Copy of My Bill and Usage",
     "fileAttachmentHint": "",
     "formElements": [
