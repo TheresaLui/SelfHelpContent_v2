@@ -15,7 +15,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false, 
+    "subscriptionRequired": false,
     "title": "Guidance for Security Advisories or Vulnerabilities",
     "fileAttachmentHint": "",
     "formElements": [
