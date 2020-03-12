@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8a7ddd2a-c89b-183c-e65f-82d72c639d69",
+      "longDescription": "",
+      "shortDescription": "Assistance need or issues found with Connect Health to AD FS",
+      "searchTags": "ADFS;Connect Health",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8bf447c9-08be-fe22-eee5-b7c83d0e7f36",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
