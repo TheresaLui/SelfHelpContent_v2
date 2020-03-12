@@ -22,8 +22,9 @@
 
 ## **Recommended Steps**
 For information on how to fix [verification](https://docs.microsoft.com/partner-center/verification-responses) failures:
-- Verify and update company’s registered legal business name. [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
-- Verify and update email using official email address. [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
+
+- Verify and update company’s registered legal business name: [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
+- Verify and update email using official email address: [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
  
 ## **Recommended Documents**
 
