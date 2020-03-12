@@ -1,30 +1,30 @@
 <properties
-    pageTitle="You are close to exceeding storage quota of 2GB. Move to a Standard search service if you need more storage."
+    pageTitle="You are close to exceeding storage quota of 50MB. Move to a Basic/Standard search service if you need more storage."
     description="After exceeding storage quota, indexing operations will stop working."
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="97b38421-f88c-4db0-b397-b2d81eff6630_Public"
+    articleId="8d31f25f-31a9-4267-b817-20ee44f88069_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 	ownershipId="AzureSearch_AzureSearch"
 />
-# You are close to exceeding storage quota of 2GB
+# You are close to exceeding storage quota of 50MB
 ---
 {
   "recommendationOfferingId": "2be23fe8-3b59-46d2-bcb6-cdf01ede0583",
   "recommendationOfferingName": "Azure Search",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "97b38421-f88c-4db0-b397-b2d81eff6630",
+  "recommendationTypeId": "8d31f25f-31a9-4267-b817-20ee44f88069",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://azsearch.kusto.windows.net').database('AzureSearch').GetBasicServicesOver90PercentSizeQuota",
+    "streamNamespace": "cluster('https://azsearchfairfax.kusto.usgovcloudapi.net').database('AzureSearch').GetFreeServicesOver90PercentSizeQuota",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Search/searchServices",
-  "recommendationFriendlyName": "BasicServiceStorageQuota90percent",
+  "recommendationFriendlyName": "FreeServiceStorageQuota90percent",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -40,8 +40,8 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/azs/search-limits-quotas-capacity",
-  "description": "You are close to exceeding storage quota of 2GB. Create a Standard search service.",
-  "longDescription": "You are close to exceeding storage quota of 2GB. Create a Standard search service. After exceeding storage quota, indexing operations will stop working.",
+  "description": "You are close to exceeding storage quota of 50MB. Create a Basic or Standard search service.",
+  "longDescription": "You are close to exceeding storage quota of 50MB. Create a Basic or Standard search service. After exceeding storage quota, indexing operations will stop working.",
   "potentialBenefits": "capability to handle more data",
   "actions": [
     {
@@ -62,7 +62,7 @@
       }
     }
   },
-  "displayLabel": "You are close to exceeding storage quota of 2GB. Create a Standard search service for larger quota.",
+  "displayLabel": "You are close to exceeding storage quota of 50MB. Create a Basic or Standard search service for larger quota.",
   "additionalColumns": []
 }
 ---

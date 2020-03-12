@@ -3,10 +3,10 @@
     description="After exceeding storage quota, indexing operations will stop working."
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="97b38421-f88c-4db0-b397-b2d81eff6630_Public"
+    articleId="97b38421-f88c-4db0-b397-b2d81eff6630_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="AzureSearch_AzureSearch"
+    cloudEnvironments="Fairfax"
+    ownershipId="AzureSearch_AzureSearch"
 />
 # You are close to exceeding storage quota of 2GB
 ---
@@ -17,7 +17,7 @@
   "recommendationTypeId": "97b38421-f88c-4db0-b397-b2d81eff6630",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://azsearch.kusto.windows.net').database('AzureSearch').GetBasicServicesOver90PercentSizeQuota",
+    "streamNamespace": "cluster('https://azsearchfairfax.kusto.usgovcloudapi.net').database('AzureSearch').GetBasicServicesOver90PercentSizeQuota",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
