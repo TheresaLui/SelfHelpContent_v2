@@ -193,6 +193,7 @@
             "id": "justification_details",
             "order": 14,
             "controlType": "multilinetextbox",
+	    "useAsAdditionalDetails=true": true,
             "displayLabel": "Provide justification on why you prefer Invoice option over credit card",
             "required": false
         }
