@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "431e0f26-4eec-99ae-12c0-2ab1c3261c1a",
+      "longDescription": "",
+      "shortDescription": "I have question related to Multi-Factor Authentication that do not fit in the other option here presented",
+      "searchTags": "Multi-Factor Authentication;MFA;General questions",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4def4477-455a-e284-e463-dc65043d70a0",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
