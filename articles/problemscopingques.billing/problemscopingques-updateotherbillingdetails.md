@@ -15,6 +15,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Update Other Billing Details",
     "fileAttachmentHint": "",
     "formElements": [
