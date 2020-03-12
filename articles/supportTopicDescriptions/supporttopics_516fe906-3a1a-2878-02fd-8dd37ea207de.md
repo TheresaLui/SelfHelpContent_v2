@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6b64f092-01d1-441d-1563-396f81bcf127",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for deploying or configuring Network Policy Server (NPS) or RADIUS Server to work with Multi-Factor Authentication",
+      "searchTags": "Configuring NPS;Configuring Network Policy Server;Configuring RADIUS;Deploying RADIUS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6bd5c8d1-aba5-2619-e27c-3510c87937da",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating, managing, or enabling passwordless authentication solutions ",
