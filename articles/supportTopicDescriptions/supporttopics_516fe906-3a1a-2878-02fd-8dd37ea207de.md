@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "58fdc5d8-0f86-edea-0d2c-935b176c18db",
+      "longDescription": "",
+      "shortDescription": "Initial configuration of SSO between AD FS and Azure AD",
+      "searchTags": "Single Sign on and ADFS;Configuring ADFS and SSO",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
