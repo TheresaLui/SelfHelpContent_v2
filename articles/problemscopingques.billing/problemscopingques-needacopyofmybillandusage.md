@@ -5,9 +5,9 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454862,32632939"
+	supportTopicIds="32632939"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake, Fairfax"
 	schemaVersion="1"
 	ownershipId="ASMS_Billing"
 />
