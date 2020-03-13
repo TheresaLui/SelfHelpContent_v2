@@ -52,7 +52,7 @@ You can delegate management of a reservation by adding people to roles on the re
 Learn more: [Manage Reservations](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance) <br>
 
 The Enterprise Administrator can transfer ownership of subscriptions within an enrollment.<br>
-To learn more see [Transfer Account Ownership](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription) in the EA portal.<br>
+To learn more see [Transfer Account Ownership](https://docs.azure.cn/billing/billing-subscription-transfer) in the EA portal.<br>
 
 ## **Recommended Documents**
 
