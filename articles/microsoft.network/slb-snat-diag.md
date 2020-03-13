@@ -13,8 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+cloudEnvironments="Public,Fairfax"
+ownershipId="CloudNet_LoadBalancer"
 />
 # Source NAT (SNAT) Diagnostic Result
 
