@@ -5,6 +5,7 @@ infoBubbleText="Microsoft Azure has information regarding your Load Balancer. Pl
 service="microsoft.network"
 resource="loadbalancer"
 authors="rdhillon"
+ms.author="rdhillon"
 displayOrder=""
 articleId="LoadBalancerHasNoBackendAddressPoolsWIthIpConfigsDefined"
 diagnosticScenario="LoadBalancerHasNoBackendAddressPoolsWIthIpConfigsDefined"
@@ -12,12 +13,12 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+cloudEnvironments="Public, Fairfax, Mooncake"
+ownershipId="CloudNet_LoadBalancer"
 />
 # Your Load Balancer has no backend pools with IP Configs defined
 <!--issueDescription-->
-We have found that your load balancer **'<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->'** has no backend pool resources with valid IP configuration. Load Balancer resource will be marked unhealthy.
+We have found that your load balancer '<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->' has no backend pool resources with valid IP configuration. Load Balancer resource will be marked unhealthy.
 <!--/issueDescription-->
 
 ## **Recommended steps**
