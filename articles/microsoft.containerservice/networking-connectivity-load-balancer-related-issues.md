@@ -27,4 +27,4 @@
 * [Limitations of Standard load balacer](https://docs.microsoft.com/azure/aks/load-balancer-standard#limitations)<br>
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
 * [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)<br>
-* [How to specify a different subnet for Internal load balancer](https://docs.microsoft.com/en-us/azure/aks/internal-lb#specify-a-different-subnet)<br>
+* [How to specify a different subnet for Internal load balancer](https://docs.microsoft.com/azure/aks/internal-lb#specify-a-different-subnet)<br>
