@@ -5,6 +5,7 @@ infoBubbleText="Issues with your Application Gateway were detected. See details 
 service="microsoft.network"
 resource="Application Gateway"
 authors="chadmath"
+ms.authors="karenha"
 displayOrder="1"
 articleId="AppGwChecklistNoSSLCertificateFound"
 diagnosticScenario="AppGwChecklistNoSSLCertificateFound"
