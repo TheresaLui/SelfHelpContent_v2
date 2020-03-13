@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_CloudServices"
+	ownershipId="Compute_CloudServices_Content"
 />
 # Cloud service role is continually recycling
 <!--issueDescription-->

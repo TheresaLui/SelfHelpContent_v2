@@ -7,9 +7,9 @@
   selfHelpType="generic"
   supportTopicIds="32596835"
   productPesIds="14785,16575"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax"
  	articleId="db030fe2-d0c4-46cd-a074-636a421a6062"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Problems acquiring tokens to access a resource

@@ -12,13 +12,13 @@
     selfHelpType="rca"
     resourceTags="servers, databases"
 	cloudEnvironments="public, Fairfax"
-	ownershipId="AzureData_AzureDatabaseforMySQL"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Server is facing slow login issues
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your performance issues with your MySQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that 70% of login setup time is above 1 second between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. Slow login issues can have many different root causes.
+During our investigation regarding performance issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName--> we found that 70% of login setup time is above 1 second between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). Slow login issues can have many different root causes.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

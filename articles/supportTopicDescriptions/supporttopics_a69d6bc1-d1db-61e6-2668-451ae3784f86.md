@@ -29,11 +29,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "77244271-26e9-0450-57fc-108692da5797",
+      "longDescription": "",
+      "shortDescription": "Service that hosts domain controllers in Azure and manages a domain to lift apps to the cloud.",
+      "searchTags": "Azure AD DS;Domain join;Configure LDAP",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "86d57c6c-df7d-9808-dfcb-9dd1bfe44cff",
       "longDescription": "",
       "shortDescription": "Issues while configuring administrative or management features for Azure AD Domain Services ",
       "searchTags": "Domain Join",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e01a4157-a967-70d1-e1a3-e237c5752106",
+      "longDescription": "",
+      "shortDescription": "How to create or delete Azure AD Domain Services or issues concerning it",
+      "searchTags": "New Azure AD Domain Service;Remove Azure AD Domain Service",
+      "category": "Enablement and Removal ",
       "useInDiagnoseAndSolve": "true"
     }
   ]

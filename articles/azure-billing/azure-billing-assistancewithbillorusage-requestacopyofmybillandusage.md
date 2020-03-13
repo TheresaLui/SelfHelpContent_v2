@@ -10,7 +10,7 @@
 	supportTopicIds="32632939"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="assistancewithbillorusage-requestacopyofmybillandusage"
 	ownershipId="ASMS_Billing"
 />
@@ -20,7 +20,7 @@
 ## **Recommended Steps**
 
 * Only certain roles like the account admin or EA admin can download the invoice or have it sent in email. Learn more on the roles: [Azure profile, roles, tasks](https://docs.microsoft.com/azure/billing/billing-manage-access)<br>
-* **EA customer/ Microsoft Customer Agreement**: Can download usage from [EA portal](https://ea.azure.com)/[Azure portal](https://portal.azure.com/) as an EA Admin, Account Owner, or Department Admin with the view charges policy enabled<br>
+* **EA customer/ Microsoft Customer Agreement**: Can download usage from EA portal/[Azure portal](https://portal.azure.com/) as an EA Admin, Account Owner, or Department Admin with the view charges policy enabled<br>
 * **Other Subscriptions**: Download usage from [Azure Account Center](https://account.azure.com/Subscriptions)
 
 ### **Download your invoice from Azure portal (.pdf)**

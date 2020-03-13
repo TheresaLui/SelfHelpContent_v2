@@ -8,6 +8,7 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="public"
 	articleId="cedce745-1dcb-4878-95e6-a15d33633607"
+        ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
 
 # Check bypassing the blocking routing rules

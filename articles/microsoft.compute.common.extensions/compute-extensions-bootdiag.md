@@ -12,7 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="f0b4963f-5a47-420c-84de-c15b35d4dc50"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM Diagnostic (boot diagnostics) extension issue

@@ -12,12 +12,12 @@
 	selfHelpType="rca"
 	resourceTags="servers, databases"
 	cloudEnvironments="public, Fairfax"
-	ownershipId="AzureData_AzureDatabaseforMariaDB"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Can't connect MariaDB database server
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we determined that the server was restarted at <!--$StartTime-->StartTime<!--/$StartTime--> causing connection attempts to fail. The server restarted because unplanned failover due to <!--$RCA-->RCA<!--/$RCA-->.
+During our investigation regarding connection issues to your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName--> we determined that the server was restarted at <!--$StartTime-->StartTime<!--/$StartTime--> (UTC) causing connection attempts to fail. The server restarted because unplanned failover due to <!--$RCA-->RCA<!--/$RCA-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

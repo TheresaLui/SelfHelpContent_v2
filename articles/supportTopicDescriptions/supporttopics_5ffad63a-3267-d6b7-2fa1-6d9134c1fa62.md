@@ -9,7 +9,9 @@
   productpesids="5ffad63a-3267-d6b7-2fa1-6d9134c1fa62"
   selfhelptype="supportTopicDescription"
   articleid="hdinsight-supporttopicdescription"
-  cloudenvironments="public, blackforest, fairfax, mooncake" />
+  cloudenvironments="public, blackforest, fairfax, mooncake" 
+ownershipId="ASEP_ContentService_Placeholder"
+/>
 # Support topic descriptions for Azure HDInsight
 ---
 {

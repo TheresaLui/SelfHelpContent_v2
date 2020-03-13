@@ -12,13 +12,13 @@
     selfHelpType="rca"
     resourceTags="servers, databases"
 	cloudEnvironments="public, Fairfax"
-	ownershipId="AzureData_AzureDatabaseforMariaDB"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Server is facing high IOPS consumption
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your performance issues with your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your IOPS consumption was above <!--$IOPercentageThreshold-->IOPercentageThreshold<!--/$IOPercentageThreshold-->% in <!--$Count-->Count<!--/$Count--> instance(s). The longest durations of high io utilization were at: <!--$Periods-->Periods<!--/$Periods-->.
+During our investigation regarding performance issues to your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName--> we found that your IOPS consumption was above <!--$IOPercentageThreshold-->IOPercentageThreshold<!--/$IOPercentageThreshold-->% in <!--$Count-->Count<!--/$Count--> instance(s). The longest durations (UTC) of high io utilization were at: <!--$Periods-->Periods<!--/$Periods-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
