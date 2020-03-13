@@ -1,6 +1,6 @@
 <properties
-	pageTitle="azure subscriptions and services"
-	description="azure subscriptions and services"
+	pageTitle="Pricing- Assist me with pricing model"
+	description="Pricing- Assist me with pricing model"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
