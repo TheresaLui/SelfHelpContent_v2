@@ -5,6 +5,7 @@ infoBubbleText="Microsoft Azure has information regarding your Load Balancer. Pl
 service="microsoft.network"
 resource="loadbalancer"
 authors="rdhillon"
+ms.author="rdhillon"
 displayOrder=""
 articleId="LoadBalancerConnectionsFailing"
 diagnosticScenario="LoadBalancerConnectionsFailing"
@@ -12,12 +13,12 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+cloudEnvironments="Public,Fairfax,Mooncake"
+ownershipId="CloudNet_LoadBalancer"
 />
 # You are exhausting the SNAT ports available to your instances
 <!--issueDescription-->
-We have found that some instances in the backend pool **'<!--$AddressPoolName-->[AddressPoolName]<!--/$AddressPoolName-->'** of your load balancer **'<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->'** have exhausted the allocated SNAT ports for initiating outbound connections and might be experiencing outbound connection failures as a result.
+We have found that some instances in the backend pool '<!--$AddressPoolName-->[AddressPoolName]<!--/$AddressPoolName-->' of your load balancer '<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->* have exhausted the allocated SNAT ports for initiating outbound connections and might be experiencing outbound connection failures as a result.
 <!--/issueDescription-->
 
 ## **Recommended steps**
