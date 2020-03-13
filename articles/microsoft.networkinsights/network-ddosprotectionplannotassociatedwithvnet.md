@@ -5,6 +5,7 @@ infoBubbleText="Microsoft Azure has information regarding your DDOS Protection P
 service="microsoft.network"
 resource="virtualnetwork"
 authors="chadmath"
+ms.author="karenha"
 displayOrder=""
 articleId="DDoSProtectionPlanNotAssociatedWithVNet"
 diagnosticScenario="DDoSProtectionPlanNotAssociatedWithVNet"
@@ -12,8 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+cloudEnvironments="Public, Fairfax, Mooncake"
+ownershipId="CloudNet_AzureDDOSProtection"
 />
 # Your DDoS Protection Standard Plan is not associated with a virtual network
 <!--issueDescription-->
