@@ -38,7 +38,7 @@ Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure
 Learn more: [Change reservation scope](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance#change-the-reservation-scope)<br>
 
 The Enterprise Administrator can transfer ownership of subscriptions within an enrollment.<br>
-To learn more see [Transfer Account Ownership](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription) in the EA portal. 
+To learn more see [Transfer Account Ownership](https://docs.azure.cn/billing/billing-subscription-transfer) in the EA portal. 
 
 ### Reserved Instance Exchange
 
