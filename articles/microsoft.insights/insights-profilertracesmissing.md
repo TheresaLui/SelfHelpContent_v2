@@ -20,16 +20,14 @@ There are two main reasons why you might not have any profile traces available t
 ## **Recommended Steps**
 
 1. Verify that the profiler is properly configured by following the steps in the article for your app type:
+    * [Configure profiler for Azure Web Apps](https://go.microsoft.com/fwlink/?linkid=867935)
+    * [Configure profiler for Azure VMs](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-vm?toc=/azure/azure-monitor/toc.json)
+    * [Configure profiler for Service Fabric](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-servicefabric?toc=/azure/azure-monitor/toc.json)
+    * [Configure profiler for Cloud Services](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-cloudservice?toc=/azure/azure-monitor/toc.json)
 
-* [Configure profiler for Azure Web Apps](https://go.microsoft.com/fwlink/?linkid=867935)
-* [Configure profiler for Azure VMs](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-vm?toc=/azure/azure-monitor/toc.json)
-* [Configure profiler for Service Fabric](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-servicefabric?toc=/azure/azure-monitor/toc.json)
-* [Configure profiler for Cloud Services](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-cloudservice?toc=/azure/azure-monitor/toc.json)
-  
 1. The profiler doesn't collect traces 100% of the time due to resource and performance considerations. The profiler can be [configured to run manually](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-settings?toc=/azure/azure-monitor/toc.json#profileondemand), which will collect traces for one fixed period of time.
 
-Verify the profiler traces can be [viewed](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-overview?toc=/azure/azure-monitor/toc.json#view-profiler-data) from the performance blade.<br>
-
+## **Further Troubleshooting**
 If there are still issues with profiler after trying the steps above, run through [the troubleshooting steps listed here](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-troubleshooting?toc=/azure/azure-monitor/toc.json).<br>
 
 
