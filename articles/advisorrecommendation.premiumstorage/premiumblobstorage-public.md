@@ -24,7 +24,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "PremiumBlobStorageAccount",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disable",
   "portalFeatures": [],
   "owner": {
     "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com",

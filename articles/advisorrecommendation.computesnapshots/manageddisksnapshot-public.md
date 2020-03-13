@@ -25,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Compute/snapshots",
   "recommendationFriendlyName": "ManagedDiskSnapshot",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disable",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
