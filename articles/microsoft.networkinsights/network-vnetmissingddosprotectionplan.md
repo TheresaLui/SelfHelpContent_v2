@@ -5,6 +5,7 @@ infoBubbleText="Microsoft Azure has information regarding your DDOS Protection P
 service="microsoft.network"
 resource="virtualnetwork"
 authors="chadmath"
+ms.author="karenha"
 displayOrder=""
 articleId="VNetMissingDDoSProtectionPlan"
 diagnosticScenario="VNetMissingDDoSProtectionPlan"
