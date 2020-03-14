@@ -15,7 +15,7 @@
 />
 # I am not getting profiler traces
 
-There are two main reasons why you might not have any profile traces available to view from the Performance or End to End transaction page. First, profiler must be enabled for your application. Second, there has to be traffic to your application while the profiler is running.
+There are two main reasons why you might not have any profile traces available to view from the Performance or End to End transaction page. First, profiler must be enabled for your application. Second, there has to be traffic to your application while the profiler is running. If that doesn't solve your problem, checkout our troubleshooting guide.
 
 ## **Recommended Steps**
 
@@ -27,10 +27,7 @@ There are two main reasons why you might not have any profile traces available t
 
 1. The profiler doesn't collect traces 100% of the time due to resource and performance considerations. The profiler can be [run on demand](https://docs.microsoft.com/en-us/azure/azure-monitor/app/profiler-settings?toc=%2Fazure%2Fazure-monitor%2Ftoc.json#profile-now), which will collect traces for one fixed period of time. When running on demand, be sure you are generating traffic or requests to your application.
 
-## **Further Troubleshooting**
-If there are still issues with profiler after trying the steps above, run through [the troubleshooting steps listed here](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-troubleshooting?toc=/azure/azure-monitor/toc.json).<br>
-
-
+1. [Use our troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-troubleshooting?toc=/azure/azure-monitor/toc.json) if there are still issues with the profiler after trying the steps above.
 
 ## **Recommended Documents**
 
