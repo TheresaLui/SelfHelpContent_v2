@@ -15,7 +15,7 @@
 />
 # I am not getting profiler traces
 
-There are two main reasons why you might not have any profile traces available to view from the Performance or End to End transaction page. First, profiler must be enabled for your application. Second, there has to be traffic to your application while the profiler is running. If that doesn't solve your problem, checkout our troubleshooting guide.
+There are two main reasons things to check when you don't have profile traces available from the Performance or End to End transaction page. First, profiler must be enabled for your application. Second, there has to be traffic to your application while the profiler is running. If that doesn't solve your problem, checkout our troubleshooting guide.
 
 ## **Recommended Steps**
 
