@@ -7,12 +7,12 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32688709"
+    supportTopicIds="32730238"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public, MoonCake, fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="7fbc954e-e95a-42dc-9e26-cd7d852bf570"
-	ownershipId="Compute_AzurePolicy"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Policy definition basics

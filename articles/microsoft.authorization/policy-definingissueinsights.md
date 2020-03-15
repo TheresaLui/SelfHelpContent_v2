@@ -9,11 +9,11 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="diagnostics"
-    supportTopicIds="32636045,32636046,32636050"
+    supportTopicIds=""
     productPesIds="16456"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="21fcaa7d-e41b-4d47-8a5a-843ea71bdda0"
-	ownershipId="Compute_AzurePolicy"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - One or more errors detected during creation of an Azure Policy Definition

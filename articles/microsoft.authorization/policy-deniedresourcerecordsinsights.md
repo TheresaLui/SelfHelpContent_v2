@@ -9,11 +9,11 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="diagnostics"
-    supportTopicIds="32636045,32636046,32636050"
+    supportTopicIds=""
     productPesIds="16456"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="e9802b12-2126-4064-be9c-edf32897515c"
-	ownershipId="Compute_AzurePolicy"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - One or more Azure Policy evaluation records (deny action) detected

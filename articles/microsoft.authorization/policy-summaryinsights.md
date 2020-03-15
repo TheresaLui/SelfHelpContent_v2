@@ -9,11 +9,11 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="diagnostics"
-    supportTopicIds="32636045,32636046,32636050"
+    supportTopicIds="32730217,32730218,32730219,32730220,32730223"
     productPesIds="16456"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="d6693265-5e4d-4eae-8bc9-e432a4336077"
-	ownershipId="Compute_AzurePolicy"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Recent policy changes on the user's subscription

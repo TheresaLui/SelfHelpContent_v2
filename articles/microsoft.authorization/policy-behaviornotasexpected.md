@@ -7,12 +7,12 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636050"
+    supportTopicIds="32730236"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="617fa773-33d8-4073-a8a4-1e9a3c83dcae"
-	ownershipId="Compute_AzurePolicy"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Policy behavior not as expected
