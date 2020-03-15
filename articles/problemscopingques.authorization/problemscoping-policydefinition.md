@@ -7,13 +7,13 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32636045"
+    supportTopicIds="32730237,32730238,32730239"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public, Fairfax"
     articleId="d7371e4f-39e0-477f-a401-9af1173bc0a0"
     schemaVersion="1"
-	ownershipId="Compute_AzurePolicy"
+    ownershipId="Compute_AzurePolicy"
 />
 #Authoring a custom policy definition
 ---
