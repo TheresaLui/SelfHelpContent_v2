@@ -6,7 +6,7 @@
     articleId="b5a98691-da25-4fc3-a4f4-f9f0d35a42c6_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
-    ownershipId="AzureSearch_AzureSearch"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # You are close to exceeding storage quota
 ---
@@ -14,7 +14,7 @@
   "recommendationOfferingId": "2be23fe8-3b59-46d2-bcb6-cdf01ede0583",
   "recommendationOfferingName": "Azure Search",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "97b38421-f88c-4db0-b397-b2d81eff6630",
+  "recommendationTypeId": "b3efb46f-6d30-4201-98de-6492c1f8f10d",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://azsearch.kusto.windows.net').database('AzureSearch').GetStandardServicesOver90PercentSizeQuota",
