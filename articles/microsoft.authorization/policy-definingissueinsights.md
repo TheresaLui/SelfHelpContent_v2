@@ -18,7 +18,7 @@
 
 # Azure Policy - One or more errors detected during creation of an Azure Policy Definition
 
-<!--/issueDescription-->
+<!--issueDescription-->
 We found the following policy definition syntax errors:
 
 <!--$ErrorMessages-->[ErrorMessages]<!--/$ErrorMessages-->
@@ -32,7 +32,7 @@ We found the following policy definition syntax errors:
 
 **Is this a built-in policy or initiative?**
 
-* [Understanding â€˜Enable Monitoring using Azure Security Centerâ€™ initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
+* [Understanding ‘Enable Monitoring using Azure Security Center’ initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
 
 **Is this a custom policy?**

@@ -18,7 +18,7 @@
 
 # Azure Policy - One or more Azure Policy evaluation records (deny action) detected
 
-<!--/issueDescription-->
+<!--issueDescription-->
 Creating an ARM resource or ARM deployment may result in a policy violation.
 
 Here is a list of the policy violations:

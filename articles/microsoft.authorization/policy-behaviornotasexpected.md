@@ -29,7 +29,7 @@
 
 **Is this a built-in policy or initiative?**
 
-* [Understanding ‘Enable Monitoring using Azure Security Center’ initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
+* [Understanding 'Enable Monitoring using Azure Security Center' initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
 
 **Is this a custom policy?**

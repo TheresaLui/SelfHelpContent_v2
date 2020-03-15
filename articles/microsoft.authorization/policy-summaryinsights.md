@@ -18,7 +18,7 @@
 
 # Azure Policy - Recent policy changes on the user's subscription
 
-<!--/issueDescription-->
+<!--issueDescription-->
 The recent policy definition and assignment changes on the user's subscription:
 
 <!--$Summary-->[Summary]<!--/$Summary-->
@@ -32,7 +32,7 @@ The recent policy definition and assignment changes on the user's subscription:
 
 **Is this a built-in policy or initiative?**
 
-* [Understanding â€˜Enable Monitoring using Azure Security Centerâ€™ initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
+* [Understanding ‘Enable Monitoring using Azure Security Center’ initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
 
 **Is this a custom policy?**
