@@ -4,7 +4,6 @@ pageTitle="Create or delete workspace"
 description="Create or delete workspace"
 service="microsoft.operationalinsights"
 resource="workspaces"
-ownershipId="AzureMonitoring_LogAnalytics"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
@@ -15,8 +14,8 @@ supportTopicIds="32612513"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, Mooncake"
-	articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
-	ownershipId="AzureMonitoring_LogAnalytics"
+articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Create or delete workspace
