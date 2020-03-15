@@ -7,7 +7,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32730217,32730238"
+    supportTopicIds="32730238"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
