@@ -25,7 +25,7 @@ There are two main reasons things to check when you don't have profile traces av
     * [Configure profiler for Service Fabric](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-servicefabric?toc=/azure/azure-monitor/toc.json)
     * [Configure profiler for Cloud Services](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-cloudservice?toc=/azure/azure-monitor/toc.json)
 
-1. The profiler doesn't collect traces 100% of the time due to resource and performance considerations. The profiler can be [run on demand](https://docs.microsoft.com/en-us/azure/azure-monitor/app/profiler-settings?toc=%2Fazure%2Fazure-monitor%2Ftoc.json#profile-now), which will collect traces for one fixed period of time. When running on demand, be sure you are generating traffic or requests to your application.
+1. The profiler doesn't collect traces 100% of the time due to resource and performance considerations. The profiler can be [run on demand](https://docs.microsoft.com/azure/azure-monitor/app/profiler-settings?toc=%2Fazure%2Fazure-monitor%2Ftoc.json#profile-now), which will collect traces for one fixed period of time. When running on demand, be sure you are generating traffic or requests to your application.
 
 1. [Use our troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-troubleshooting?toc=/azure/azure-monitor/toc.json) if there are still issues with the profiler after trying the steps above.
 
