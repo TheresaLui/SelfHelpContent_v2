@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "19da896a-c82e-00de-e342-5d0b6e1e4017",
+      "longDescription": "",
+      "shortDescription": "Assistance needed or issues found related to ADFS certificates",
+      "searchTags": "ADFS Certificates;ADFS SSL;ADFS Token signing",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b627192-808e-8f44-ff80-75c8831c8f7d",
       "longDescription": "",
       "shortDescription": "Intermittent or total authentication failure from extranet WAP while intranet corpnet users do not experience an interruption",
@@ -69,11 +77,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "431e0f26-4eec-99ae-12c0-2ab1c3261c1a",
+      "longDescription": "",
+      "shortDescription": "I have question related to Multi-Factor Authentication that do not fit in the other option here presented",
+      "searchTags": "Multi-Factor Authentication;MFA;General questions",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4def4477-455a-e284-e463-dc65043d70a0",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
       "searchTags": "Pass-through Authentication ",
       "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "58fdc5d8-0f86-edea-0d2c-935b176c18db",
+      "longDescription": "",
+      "shortDescription": "Initial configuration of SSO between AD FS and Azure AD",
+      "searchTags": "Single Sign on and ADFS;Configuring ADFS and SSO",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -90,6 +114,14 @@
       "shortDescription": "Assistance or troubleshooting the deployment of a new ADFS Farm or the upgrade of an existing ADFS farm",
       "searchTags": "Assistance in deployment of ADFS farm",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6b64f092-01d1-441d-1563-396f81bcf127",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for deploying or configuring Network Policy Server (NPS) or RADIUS Server to work with Multi-Factor Authentication",
+      "searchTags": "Configuring NPS;Configuring Network Policy Server;Configuring RADIUS;Deploying RADIUS",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -133,11 +165,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8a7ddd2a-c89b-183c-e65f-82d72c639d69",
+      "longDescription": "",
+      "shortDescription": "Assistance need or issues found with Connect Health to AD FS",
+      "searchTags": "ADFS;Connect Health",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8bf447c9-08be-fe22-eee5-b7c83d0e7f36",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
       "searchTags": "Pass-through authentication issues",
       "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "911f9754-b5c4-068f-94ab-550df367157e",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing AD FS (Active Directory Federation Services) for Azure Active Directory",
+      "searchTags": "AD FS;Active Directory Federation Services;ADFS Configuration",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -193,6 +241,14 @@
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
       "searchTags": "AAD Identity Protection;Identity Protection;Identity Risk event;Configure Identity Protection",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c6e12c58-0cec-db3c-f5ce-4f1fd88c2b6c",
+      "longDescription": "",
+      "shortDescription": "Assistance needed with ADFS extranet lockouts or ADFS lockout policies, i.e. protection against Password Spray attacks or Brute force attacks",
+      "searchTags": "ADFS Extranet;ADFS Extranet Lockout;Lockout Policies;Brute Force Attacks;Password Spray Attacks",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

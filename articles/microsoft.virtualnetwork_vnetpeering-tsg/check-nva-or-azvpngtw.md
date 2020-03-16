@@ -8,7 +8,7 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="public"
 	articleId="dff2e75b-5858-4c95-9120-f3f70f76a0c3"
-ownershipId="ASEP_ContentService_Placeholder"
+        ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
 
 # Check if customer is using NVA as VPN or Azure VPN gateway

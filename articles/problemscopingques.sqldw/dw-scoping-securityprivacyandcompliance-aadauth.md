@@ -47,5 +47,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

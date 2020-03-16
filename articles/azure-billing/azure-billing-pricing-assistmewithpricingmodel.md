@@ -1,6 +1,6 @@
 <properties
-	pageTitle="azure subscriptions and services"
-	description="azure subscriptions and services"
+	pageTitle="Pricing- Assist me with pricing model"
+	description="Pricing- Assist me with pricing model"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -10,7 +10,7 @@
 	supportTopicIds="32632933"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="pricing-azuresubscriptionsandservices"
 	ownershipId="ASMS_Billing"
 />

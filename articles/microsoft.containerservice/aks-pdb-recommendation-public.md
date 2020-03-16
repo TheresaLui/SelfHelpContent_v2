@@ -1,32 +1,33 @@
 <properties
-    pageTitle="Monitoring addon workspace is deleted"
-    description="Monitoring addon workspace is deleted"
+    pageTitle="Pod Disruption Budgets Recommended"
+    description="Pod Disruption Budgets Recommended"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="cd23e33b-530c-4759-89af-f17e9ebd264b"
+    articleId="9738c5a0-a330-4465-a7f4-9132e004bd30"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+    ownershipId="Compute_AzureKubernetesService"
 />
 
-# Monitoring addon workspace is deleted
+# Pod Disruption Budgets Recommended
 ---
 {
   "recommendationOfferingId": "f1d1800e-d38e-41f2-b63c-72d59ecaf9c0",
   "recommendationOfferingName": "Azure Kubernetes Service",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "eedc2853-3369-4ede-8a75-68caf73e24df",
+  "recommendationTypeId": "cbd1b299-b933-45bb-83a5-4061e515e826",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('aks.kusto.windows.net').database('AKSprod').OmsWorkspaceDeleted",
+    "streamNamespace": "cluster('aks.kusto.windows.net').database('AKSprod').PDBRecommendation",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
-  "recommendationCategory": "OperationalExcellence",
-  "recommendationImpact": "High",
+  "recommendationCategory": "HighAvailability",
+  "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.ContainerService/managedClusters",
-  "recommendationFriendlyName": "MonitoringAddonWorkspaceIsDeleted",
+  "recommendationFriendlyName": "PodDisruptionBudgetsRecommended",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
-  "potentialBenefits": "Correct issues to setup monitoring addon",
+  "potentialBenefits": "Improve service high availability",
   "owner": {
     "email": "aksoverlay@microsoft.com",
     "icm": {
@@ -38,19 +39,19 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "description": "Monitoring addon workspace is deleted",
-  "longDescription": "Monitoring addon workspace is deleted. Correct issues to setup monitoring addon.",
+  "description": "Pod Disruption Budgets Recommended",
+  "longDescription": "Pod Disruption Budgets Recommended. Improve service high availability.",
   "actions": [
     {
-      "actionId": "6b4b4e3c-c81b-4c31-88f6-5c241583009f",
-      "description": "Monitoring addon workspace is deleted",
+      "actionId": "278b8231-fb4a-4661-a6cd-b113288e0dd6",
+      "description": "Pod Disruption Budgets Recommended",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/aks-disable-monitoring-addon"
+      "documentLink": "https://aka.ms/aks-pdb"
     }
   ],
   "resourceMetadata": {
     "action": {
-    "actionId": "194fe03a-1f8f-43b3-bd02-6dcc5724921e",
+    "actionId": "6fb5ee41-3423-4549-a31e-fc07076994e6",
     "actionType": "Blade",
     "bladeName": "ResourceMenuBlade",
     "extensionName": "HubsExtension",
@@ -59,8 +60,8 @@
       }
     }
   },
-  "displayLabel": "Monitoring addon workspace is deleted",
+  "displayLabel": "Pod Disruption Budgets Recommended",
   "additionalColumns": [],
-  "learnMoreLink": "https://aka.ms/aks-disable-monitoring-addon"
+  "learnMoreLink": "https://aka.ms/aks-pdb"
 }
 ---

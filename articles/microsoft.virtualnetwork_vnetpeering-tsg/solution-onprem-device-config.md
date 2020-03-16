@@ -14,7 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public, Fairfax"
-ownershipId="CloudNet_VirtualNetwork"
+ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
 # On-premises device configuration missing remote VNet IPs
 <!--issueDescription-->

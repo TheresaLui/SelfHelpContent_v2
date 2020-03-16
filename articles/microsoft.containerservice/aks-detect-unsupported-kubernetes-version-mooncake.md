@@ -3,9 +3,10 @@
     description="Unsupported Kubernetes version is detected"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="d6d466dd-1989-4c1b-b77e-f2d11c3e453c"
+    articleId="962df50c-6b77-41bd-a432-f7f3611d1a29"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Mooncake"
+    ownershipId="Compute_AzureKubernetesService"
 />
 
 # Unsupported Kubernetes version is detected
@@ -16,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "462b5f77-4a65-4287-885b-01a0f471743f",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('aks.kusto.windows.net').database('AKSprod').UnsupportedKubernetesVersions",
+    "streamNamespace": "cluster('akscn.kusto.chinacloudapi.cn').database('AKSprod').UnsupportedKubernetesVersions",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -42,7 +43,7 @@
   "longDescription": "Unsupported Kubernetes version is detected. Ensure Kubernetes cluster runs with a supported version.",
   "actions": [
     {
-      "actionId": "c45debff-a78e-4b4f-9ee9-f310fc4fbc4d",
+      "actionId": "9fcf30db-e1e0-4fe6-b933-cd65b2feab7c",
       "description": "Unsupported Kubernetes version is detected",
       "actionType": "Document",
       "documentLink": "https://aka.ms/aks-supported-versions"
@@ -50,7 +51,7 @@
   ],
   "resourceMetadata": {
     "action": {
-    "actionId": "aa264a9f-c171-49e4-addf-3006cd7d0bea",
+    "actionId": "0c9c9ab7-c0aa-4224-988d-b6bb05714d53",
     "actionType": "Blade",
     "bladeName": "ResourceMenuBlade",
     "extensionName": "HubsExtension",

@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ba15b13e-5174-0b04-0c0f-3da5b3c4d99f",
+      "longDescription": "",
+      "shortDescription": "Setting up and maintaining LDAPs with Azure AD Domain Services",
+      "searchTags": "LDAP;LDAP error",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e01a4157-a967-70d1-e1a3-e237c5752106",
       "longDescription": "",
       "shortDescription": "How to create or delete Azure AD Domain Services or issues concerning it",

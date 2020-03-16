@@ -8,7 +8,7 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="public"
 	articleId="39659e63-a65c-46b5-8f87-7d1d43da1739"
-ownershipId="ASEP_ContentService_Placeholder"
+        ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
 # Check Azure platform nsg & routing from source to destination
 
