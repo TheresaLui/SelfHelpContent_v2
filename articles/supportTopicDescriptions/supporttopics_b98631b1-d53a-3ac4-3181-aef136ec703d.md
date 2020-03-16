@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for b98631b1-d53a-3ac4-3181-aef136ec703d"
   description="SupportTopicDescriptions for b98631b1-d53a-3ac4-3181-aef136ec703d"
   authors="elixirsys2"
-  ms.author="marwa"
+  ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="b98631b1-d53a-3ac4-3181-aef136ec703d"
   cloudenvironments="public, fairfax, blackforest, mooncake"
@@ -66,6 +66,14 @@
       "shortDescription": "You have a problem with AADConnect Health alerts for AAD Domain Services (DS)",
       "searchTags": "AAD DS;AAD Domain Services;Connect Health alerts for DS",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "35f6627d-8c2c-d446-0a24-c6123893aa4b",
+      "longDescription": "",
+      "shortDescription": "Sign-In Activity Reports-provides information about the usage of managed applications and user sign-in activities",
+      "searchTags": "Sign-in Activity reports",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
