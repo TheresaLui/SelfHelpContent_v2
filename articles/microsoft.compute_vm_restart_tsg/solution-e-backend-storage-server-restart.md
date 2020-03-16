@@ -36,6 +36,6 @@ We apologize for any inconvenience this may have caused you. We are continuously
 
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)  
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)  
-* [Managed Disks Overview](https://docs.microsoft.com/en-us/azure/storage/storage-managed-disks-overview)
+* [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
 *[Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 * [Stream Layer of  Azure Storage](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf)

@@ -37,7 +37,7 @@ We apologize for any inconvenience this may have caused you. We are continuously
 
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)  
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)  
-* [Managed Disks Overview](https://docs.microsoft.com/en-us/azure/storage/storage-managed-disks-overview)
+* [Managed Disks Overview](https://docs.microsoft.com/eazure/storage/storage-managed-disks-overview)
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 * [Microsoft Azure Storage architecture overview](https://blogs.msdn.microsoft.com/windowsazurestorage/2010/12/30/windows-azure-storage-architecture-overview/)
-* [associated section in the Storage Performance and Scalability checklist ](https://docs.microsoft.com/en-us/azure/storage/storage-performance-checklist#subheading47)
+* [associated section in the Storage Performance and Scalability checklist ](https://docs.microsoft.com/azure/storage/storage-performance-checklist#subheading47)
