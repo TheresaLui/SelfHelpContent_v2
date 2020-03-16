@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "290db722-7106-7012-abb1-b4a9060f2cc7",
+      "longDescription": "",
+      "shortDescription": "Problems or requests for implementing or managing or inability to sign in or provision WHfB credentials",
+      "searchTags": "Windows Hello for Business;WHfB;WHfB configuration;WHfB provision",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b627192-808e-8f44-ff80-75c8831c8f7d",
       "longDescription": "",
       "shortDescription": "Intermittent or total authentication failure from extranet WAP while intranet corpnet users do not experience an interruption",
