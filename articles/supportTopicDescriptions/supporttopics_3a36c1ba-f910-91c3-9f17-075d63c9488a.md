@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20e398de-3b94-b633-2156-06d68258d3b1",
+      "longDescription": "",
+      "shortDescription": "Assistance with regaining access to Azure AD administration where there is no Global Administrator available with access",
+      "searchTags": "Global Administrator in not available ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "254d8068-689a-d630-1c7e-d32280cec93d",
       "longDescription": "",
       "shortDescription": "Problems related to Azure AD custom domain names",
