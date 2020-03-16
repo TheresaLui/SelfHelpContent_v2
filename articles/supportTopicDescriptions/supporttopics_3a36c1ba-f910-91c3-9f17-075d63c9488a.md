@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc084aa5-57bb-1def-943a-ca12f47db4d3",
+      "longDescription": "",
+      "shortDescription": "Problems using Azure AD portal, PowerShell or B2B API to invite external user identities.",
+      "searchTags": "problem to invite an external user",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "de02e621-d0d8-b6f8-af2e-2c74cef02e78",
       "longDescription": "",
       "shortDescription": "Problems recovering lost Azure resource role assignments after subscription is moved to another Azure AD tenant",
