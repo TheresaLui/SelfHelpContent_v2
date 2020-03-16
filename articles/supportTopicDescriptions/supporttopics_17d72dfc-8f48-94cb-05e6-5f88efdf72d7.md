@@ -762,10 +762,10 @@
     {
       "id": "ff4b14ac-e42e-ad91-cd8c-54e3ede63c12",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported ; Not supported;Price ;How to configure",
+      "category": "MARS agent Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "ff5501f4-1e65-d045-7390-96ad9bd87bab",
