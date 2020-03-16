@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7c36395c-6f01-6765-c617-6d27cc902044",
+      "longDescription": "",
+      "shortDescription": "Issues with devices failing to complete Hybrid Join or displaying incorrect status",
+      "searchTags": "issue with Hybrid join ",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7ce5662e-cdbe-42ba-45b4-44c9b223351c",
       "longDescription": "",
       "shortDescription": "Configuring new device deployments or Troubleshooting devices existing deployment ",
