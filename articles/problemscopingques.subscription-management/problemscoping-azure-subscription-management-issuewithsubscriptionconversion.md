@@ -1,23 +1,22 @@
 <properties
-	pageTitle="Scoping questions for Issue with Azure payment issues"
-	description="Scoping questions for Subscription Management/Issue with Azure payment"
+	pageTitle="Scoping questions for Issue with Azure Subscription conversion"
+	description="Scoping questions for Subscription Management/Issue with Azure Subscription conversion"
 	authors="prdasneo"
 	ms.author="prdasneo"
-  selfHelpType="problemScopingQuestions"
-  supportTopicIds="32680691"
+   selfHelpType="problemScopingQuestions"
+   supportTopicIds="32632955,32680690"
 	productPesIds="15660"
-	cloudEnvironments="public, MoonCake"
-  schemaVersion="1"
-  articleId="problemscopingquestion-paymentissues"
+	cloudEnvironments="public, MoonCake, Fairfax, Blackforest"
+   schemaVersion="1"
+   articleId="problemscopingquestion-issuewith-azure-subscription-conversion"
 	ownershipId="ASMS_SubscriptionManagement"
 />
-
-# Issue with Azure payment
+# Issue with Azure Subscription conversion
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Payment Issues - Azure Subscriptions",
+    "title": "Subscription conversion Issues - Azure Subscriptions",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -27,7 +26,7 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
-        {
+	{
             "id": "subscription_details",
             "order": 2,
             "controlType": "textbox",
@@ -36,28 +35,6 @@
             "required": true
         },
         {
-            "id": "payment_method",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Choose the type of Payment Method",
-            "watermarkText": "Choose the type of Payment Method",
-            "dropdownOptions": [
-                {
-                    "value": "Invoice",
-                    "text": "Invoice"
-                },
-                {
-                    "value": "Credit Card",
-                    "text": "Credit Card"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": true
-        },
-	{
             "id": "error_details",
             "order": 5,
             "controlType": "multilinetextbox",
