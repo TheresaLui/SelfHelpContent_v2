@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "43b6d495-7c03-1126-3a60-73412eba87bc",
+      "longDescription": "",
+      "shortDescription": "Assistance determining who has global administrator permissions on your Azure AD tenant.",
+      "searchTags": "issue identifying global administrator ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "773c57a1-085a-b5a8-b43f-ffc3c7bcffb3",
       "longDescription": "",
       "shortDescription": "Problems creating or managing Azure resource role based access control assignments",
