@@ -219,6 +219,14 @@
       "searchTags": "Create new user in AAD",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fc897a1c-c7d3-11d8-f69c-0ab4f1dc69ca",
+      "longDescription": "",
+      "shortDescription": "Advisory on Device Administration or unexpected device object operation ",
+      "searchTags": "unexpected device object operation ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
