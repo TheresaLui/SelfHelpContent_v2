@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3bfc5e03-e3ed-0bd1-b9d4-b891eca183a6",
+      "longDescription": "",
+      "shortDescription": "Issues with devices failing to complete Azure AD Join or displaying incorrect status",
+      "searchTags": "issue with Azure AD join ",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4210b857-6df8-5b15-1067-3d9d434b8102",
       "longDescription": "",
       "shortDescription": "Assistance determining the best built in Azure AD role needed to perform a particular task ",
