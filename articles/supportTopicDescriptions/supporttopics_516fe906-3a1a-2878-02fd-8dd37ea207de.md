@@ -269,6 +269,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ddac735b-f798-4302-b470-2d62c74f4342",
+      "longDescription": "",
+      "shortDescription": "I created a Conditional Access rule but the result is different from what I expected",
+      "searchTags": "Conditional Access;Conditional Access Rule;Create CA Rule",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ed228605-ddb7-d2c3-626d-dae69939a1a6",
       "longDescription": "",
       "shortDescription": "I need help configuring a new or existing Conditional Access policy that fits my company needs",
