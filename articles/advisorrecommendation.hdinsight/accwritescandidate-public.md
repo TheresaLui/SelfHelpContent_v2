@@ -21,7 +21,7 @@
     "refreshInterval": "08:00:00"
   },
   "recommendationCategory": "Performance",
-  "recommendationImpact": "Low",
+  "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.HDInsight/clusters",
   "recommendationFriendlyName": "AccWriteCandidate",
   "recommendationMetadataState": "Active",
