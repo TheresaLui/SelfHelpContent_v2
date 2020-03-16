@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c10b51f6-f850-0c86-05fa-c2b1ae36c358",
+      "longDescription": "",
+      "shortDescription": "Configuring new device deployments or Troubleshooting devices existing deployments",
+      "searchTags": "configuring new device deployment",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cc084aa5-57bb-1def-943a-ca12f47db4d3",
       "longDescription": "",
       "shortDescription": "Problems using Azure AD portal, PowerShell or B2B API to invite external user identities.",
