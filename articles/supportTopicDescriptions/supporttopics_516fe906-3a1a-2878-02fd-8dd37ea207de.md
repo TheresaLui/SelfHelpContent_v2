@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1f09ca79-318d-0e16-6977-20b087d7a41b",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for configuring Conditional Access rule that required Multi-Factor Authentication as a Access Control",
+      "searchTags": "Configuring Conditional Access;MFA Access Control",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b627192-808e-8f44-ff80-75c8831c8f7d",
       "longDescription": "",
       "shortDescription": "Intermittent or total authentication failure from extranet WAP while intranet corpnet users do not experience an interruption",
