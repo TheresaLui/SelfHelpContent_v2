@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7e473adf-17e6-3d40-8950-84108dfbf1b6",
+      "longDescription": "",
+      "shortDescription": "Problems verifying a new Azure AD custom domain name using Azure AD portal or PowerShell or Azure CLI",
+      "searchTags": "problem to verify a domain  name",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8ab73704-5653-586f-b652-39fd4da7a18d",
       "longDescription": "",
       "shortDescription": "Problems with delegated Azure AD and Office group management features allowing end user group creation and membership management",
