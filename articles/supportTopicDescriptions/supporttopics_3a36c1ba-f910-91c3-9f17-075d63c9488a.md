@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "03ec3d5b-eebb-1fe1-1e3a-55640e7738b9",
+      "longDescription": "",
+      "shortDescription": "Problems removing your guest or external access to another organizations Azure AD tenant",
+      "searchTags": "issue leaving directory",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0a16dfec-35c9-9738-73a6-86748bb0a25f",
       "longDescription": "",
       "shortDescription": "Problems preventing the deletion of an Azure Active Directory .onmicrosoft.com tenant.",
