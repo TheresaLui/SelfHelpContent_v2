@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63b67ac9-9671-a54d-7241-32deb27b60ce",
+      "longDescription": "",
+      "shortDescription": "Problems or advisory needs for creating or configuring Conditional Access rules to protect your infrastructure",
+      "searchTags": "Conditional Access;Configuring Conditional Access",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
