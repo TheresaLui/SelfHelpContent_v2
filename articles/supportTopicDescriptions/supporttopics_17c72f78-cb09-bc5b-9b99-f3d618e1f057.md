@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2ea627cb-8fd5-fdc8-c78f-e8f188ad7590",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring slow query or audit logs",
+      "searchTags": "slow query;audit logs",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
       "longDescription": "",
       "shortDescription": "You received the unknown MySQL server host error",
