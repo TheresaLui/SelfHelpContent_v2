@@ -3,12 +3,12 @@
 	description="Scoping questions for Subscription Management/Issue with Azure purchase"
 	authors="prdasneo"
 	ms.author="prdasneo"
-   selfHelpType="problemScopingQuestions"
-   supportTopicIds="32632948"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32632948"
 	productPesIds="15660"
 	cloudEnvironments="public, MoonCake, Blackforest, Fairfax"
-   schemaVersion="1"
-   articleId="8297852a-5e4f-41d8-ae24-9e37aaa5714a"
+	schemaVersion="1"
+	articleId="8297852a-5e4f-41d8-ae24-9e37aaa5714a"
 	ownershipId="ASMS_SubscriptionManagement"
 />
 # Issue with Azure purchase
