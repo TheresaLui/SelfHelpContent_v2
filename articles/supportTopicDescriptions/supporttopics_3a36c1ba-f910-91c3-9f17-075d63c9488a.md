@@ -2,13 +2,11 @@
   pagetitle="SupportTopicDescriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a"
   description="SupportTopicDescriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a"
   authors="elixirsys2"
-  ms.author="marwa"
+  ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="3a36c1ba-f910-91c3-9f17-075d63c9488a"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a" 
-ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a" />
 # Support Topic Descriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a
 ---
 {
@@ -28,6 +26,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "shortDescription": "Problems preventing the deletion of an Azure Active Directory .onmicrosoft.com tenant.",
       "searchTags": "Deletion of tenant in AAD",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "135b64e0-2224-b942-e3d5-b1120726f5c4",
+      "longDescription": "",
+      "shortDescription": "Problems related to managing Azure AD Administration roles and permissions",
+      "searchTags": "Azure AD roles and administrators ",
+      "category": "configuration category ",
       "useInDiagnoseAndSolve": "true"
     },
     {
