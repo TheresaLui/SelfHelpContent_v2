@@ -229,6 +229,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e9273e8f-0ead-5355-4987-d0ea3d48c450",
+      "longDescription": "",
+      "shortDescription": "Problems related to Azure AD and Office 365 group management",
+      "searchTags": "problems related to groupls",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ee309b2d-70dd-974b-2653-36ded8e3a6eb",
       "longDescription": "",
       "shortDescription": "Problems related to creating user objects in Azure AD",
