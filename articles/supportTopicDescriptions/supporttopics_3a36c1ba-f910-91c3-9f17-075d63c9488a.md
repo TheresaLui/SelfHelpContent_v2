@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f08a935d-2747-e63b-c4c8-600ca5d21208",
+      "longDescription": "",
+      "shortDescription": "Problems creating a new Azure AD group or Office 365 group via Azure AD portal or PowerShell ",
+      "searchTags": "problems creating a group in AAD",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc897a1c-c7d3-11d8-f69c-0ab4f1dc69ca",
       "longDescription": "",
       "shortDescription": "Advisory on Device Administration or unexpected device object operation ",
