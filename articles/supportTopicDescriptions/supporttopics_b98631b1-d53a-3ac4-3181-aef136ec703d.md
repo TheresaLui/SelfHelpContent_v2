@@ -6,9 +6,7 @@
   selfhelptype="SupportTopicDescription"
   productpesids="b98631b1-d53a-3ac4-3181-aef136ec703d"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_b98631b1-d53a-3ac4-3181-aef136ec703d" 
-ownershipId="ASEP_ContentService_Placeholder"
-/>
+  articleid="supporttopics_b98631b1-d53a-3ac4-3181-aef136ec703d" />
 # Support Topic Descriptions for b98631b1-d53a-3ac4-3181-aef136ec703d
 ---
 {
@@ -75,6 +73,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "longDescription": "",
       "shortDescription": "You have a problem with Azure AD Sign-in logs",
       "searchTags": "AAD Sign in Logs;Sign in Logs",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5915703f-55dc-709b-1572-25ba641f0545",
+      "longDescription": "",
+      "shortDescription": "Problems or issues you are encountering with the Access Review feature in Azure AD",
+      "searchTags": "Access Review;Access Review Configuration;Access Review in AAD",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
