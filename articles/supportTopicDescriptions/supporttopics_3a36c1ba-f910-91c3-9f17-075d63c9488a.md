@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7ce5662e-cdbe-42ba-45b4-44c9b223351c",
+      "longDescription": "",
+      "shortDescription": "Configuring new device deployments or Troubleshooting devices existing deployment ",
+      "searchTags": "configuring new device deployment ",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d97452f-6b8d-0c11-a7d8-d6c6e8d5057f",
       "longDescription": "",
       "shortDescription": "Problems with the classic Azure subscription roles Service Administrator, Account Administrator",
