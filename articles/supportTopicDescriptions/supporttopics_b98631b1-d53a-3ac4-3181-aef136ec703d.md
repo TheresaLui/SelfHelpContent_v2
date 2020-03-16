@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "758e5ad4-4994-5aad-d525-95690bb2c954",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the Terms of Use feature in Azure AD",
+      "searchTags": "AAD Terms of Use",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7e022ccb-36da-542f-de01-304524f68ca0",
       "longDescription": "",
       "shortDescription": "You are receiving a notification that your AADConnect Health data is not up to date",
