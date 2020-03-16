@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4210b857-6df8-5b15-1067-3d9d434b8102",
+      "longDescription": "",
+      "shortDescription": "Assistance determining the best built in Azure AD role needed to perform a particular task ",
+      "searchTags": "problem which Azure AD role to assign ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "773c57a1-085a-b5a8-b43f-ffc3c7bcffb3",
       "longDescription": "",
       "shortDescription": "Problems creating or managing Azure resource role based access control assignments",
