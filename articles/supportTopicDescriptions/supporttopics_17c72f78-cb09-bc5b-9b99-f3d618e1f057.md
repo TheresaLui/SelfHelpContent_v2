@@ -333,6 +333,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c8282d7c-cfa9-97fa-5955-d2a00b411942",
+      "longDescription": "",
+      "shortDescription": "Questions specific to migrating to Azure Database for MySQL",
+      "searchTags": "migration to mysql;migration",
+      "category": "Migrating to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c9147e5e-659c-3f67-2385-e01b75365167",
       "longDescription": "",
       "shortDescription": "You need troubleshooting assistance for metrics displayed in the Azure portal",
