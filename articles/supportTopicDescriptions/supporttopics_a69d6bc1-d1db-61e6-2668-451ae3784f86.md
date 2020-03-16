@@ -21,6 +21,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "48bcd955-932e-1581-811f-c8fbcbaf724e",
+      "longDescription": "",
+      "shortDescription": "Azure AD Domain Services user login issues or issues while joining a VM to Azure AD Domain Services ",
+      "searchTags": "Domain Join;Login error",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6de8b3ec-c22b-fc31-dba0-45ab1e98485b",
       "longDescription": "",
       "shortDescription": "Networking setup and configuration with Azure AD Domain Services",
