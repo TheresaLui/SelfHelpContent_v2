@@ -213,6 +213,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c5e48ef4-fb35-c254-7ef3-d0e1ac34992c",
+      "longDescription": "",
+      "shortDescription": "Problems with Azure AD dynamic group memberships, or Azure AD dynamic group rules.",
+      "searchTags": "problems with AAD dynamic groups",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cc084aa5-57bb-1def-943a-ca12f47db4d3",
       "longDescription": "",
       "shortDescription": "Problems using Azure AD portal, PowerShell or B2B API to invite external user identities.",
