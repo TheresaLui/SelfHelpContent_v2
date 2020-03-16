@@ -325,6 +325,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c9147e5e-659c-3f67-2385-e01b75365167",
+      "longDescription": "",
+      "shortDescription": "You need troubleshooting assistance for metrics displayed in the Azure portal",
+      "searchTags": "metrics;portal metrics",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cbcd4bbb-bc9d-403f-967b-9cb4755a8985",
       "longDescription": "",
       "shortDescription": "You have questions about long term retention of backups",
