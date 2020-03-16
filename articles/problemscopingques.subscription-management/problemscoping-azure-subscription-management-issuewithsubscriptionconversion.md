@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Scoping questions for Issue with Azure sign-up"
-	description="Scoping questions for Subscription Management/Issue with Azure sign-up"
+	pageTitle="Scoping questions for Issue with Azure Subscription conversion"
+	description="Scoping questions for Subscription Management/Issue with Azure Subscription conversion"
 	authors="prdasneo"
 	ms.author="prdasneo"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32632950"
+   supportTopicIds="32632955,32680690"
 	productPesIds="15660"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, Blackforest"
    schemaVersion="1"
-   articleId="problemscopingquestion-azure-sign-up"
+   articleId="problemscopingquestion-issuewith-azure-subscription-conversion"
 	ownershipId="ASMS_SubscriptionManagement"
 />
-# Issue with Azure purchase
+# Issue with Azure Subscription conversion
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Signup Issues - Azure Subscriptions",
+    "title": "Subscription conversion Issues - Azure Subscriptions",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -26,23 +26,15 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
+	{
+            "id": "subscription_details",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "",
+            "required": true
+        },
         {
-            "id": "phonenumber_details",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Phone number used during sign-up",
-            "watermarkText": "Provide the Phone number used during sign-up",
-            "required": false
-        },
-	{
-            "id": "emailid_details",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Email address used during sign-up",
-            "watermarkText": "Provide the Email address used during sign-up",
-            "required": false
-        },
-	{
             "id": "error_details",
             "order": 5,
             "controlType": "multilinetextbox",
