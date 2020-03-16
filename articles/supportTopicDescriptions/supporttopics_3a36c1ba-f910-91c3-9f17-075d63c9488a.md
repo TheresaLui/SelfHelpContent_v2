@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ada639af-564c-4caf-c009-c08132b35074",
+      "longDescription": "",
+      "shortDescription": "Problems when trying to redeem a Azure AD B2B invitation you have been sent from another organization Azure AD tenant",
+      "searchTags": "problem to redeem an invitation ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b193abda-3c53-d80b-590c-1874cfe4c9f3",
       "longDescription": "",
       "shortDescription": "Unable to delete Azure AD application registrations or service principals",
