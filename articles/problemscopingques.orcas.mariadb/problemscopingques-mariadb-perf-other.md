@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640140"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-perf-other"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Database Performance - Other
 ---
@@ -53,7 +54,7 @@
             "id": "select_1",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the measured time when running 'SELECT 1' from your Postgres client?",
+            "displayLabel": "What is the measured time when running 'SELECT 1' from your MariaDB client?",
             "required": false
         },
         {

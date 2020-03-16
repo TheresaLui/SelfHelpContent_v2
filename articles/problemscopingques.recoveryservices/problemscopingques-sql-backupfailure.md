@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="d73dbe86-4f8e-414d-8963-7d22d012b671"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SQL database backup failure
 ---

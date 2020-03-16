@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="21aee1ac-3d85-3469-0df6-40a0613731df"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Monitoring Azure Analysis Services with Log Analytics and Power BI

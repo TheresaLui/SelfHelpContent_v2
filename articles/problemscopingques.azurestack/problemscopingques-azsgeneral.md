@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629190,32629191,32629227,32629228,32629258,32629259,32629192,32663928,32663927,32663926,32629196,32629217,32629218,32629252,32629254,32629188,32629242,32629245,32629247,32629249,32630576,32629269,32629234,32629263,32629233,32629177,32629189,32629204,32629209,32629212,32629195,32630577,32629271,32629272,32663929,32663930,32629187,32629193,32663921,32663913,32663902,32663903,32663904,32663906,32663905,32629200,32629278"
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="8ccb2fde-6f9f-4e97-b700-4b07ac45db50"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack Environment Details
 ---
@@ -72,6 +73,10 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
+               {
+                    "value": "1910",
+                    "text": "1910"
+                },
                 {
                     "value": "1908",
                     "text": "1908"

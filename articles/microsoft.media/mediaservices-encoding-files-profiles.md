@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Media Services: Profiles or custom profiles 

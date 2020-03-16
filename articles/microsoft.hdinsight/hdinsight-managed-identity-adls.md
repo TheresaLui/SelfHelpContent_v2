@@ -10,8 +10,9 @@
     supportTopicIds="32636439"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="70e00cfb-358b-4f9d-9da9-c37d48c5a038"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Managed Identity
@@ -50,3 +51,4 @@ If you are creating a cluster with ADLS Gen2 through Azure CLI, use our [sample 
 ## **Recommended Documents**
 
 * [Use Azure Data Lake Storage Gen2 with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#use-the-azure-portal)
+* [HDInsight storage FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#storage)

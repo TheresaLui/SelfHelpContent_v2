@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="793e7450-a177-4100-42bb-0420672266ea"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Process Tabular Model Partitions

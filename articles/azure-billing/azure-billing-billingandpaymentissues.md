@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="2eaf62a7-72ad-4c89-8271-f70449ebe709"
+	ownershipId="ASMS_Billing"
 />
 
 # Resolve common Azure billing and payment issues

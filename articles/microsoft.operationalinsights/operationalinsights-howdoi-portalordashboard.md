@@ -15,6 +15,7 @@ supportTopicIds="32612433"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, Blackforest"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Portal or dashboard not loading or throwing error

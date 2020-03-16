@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
    schemaVersion="1"
    articleId="8fe29cdc-4d5b-4b33-9dd4-1b3a3c0f1c7d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 #Azure Security Center
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32599864"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="26220297-1137-4a58-b966-f1572984c85b"
+	ownershipId="Compute_Automation"
 />
 
 # I enabled Update Management but it says "this can take a few minutes"
@@ -35,17 +36,14 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 ### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already enrolled into Update Management
-* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine.
+* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
 
 ### **Machine shows as "not assessed"**
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
-* Check for a [Log Analytics heartbeat](https://docs.microsoft.com/azure/automation/automation-update-management#confirm-that-non-azure-machines-are-onboarded)
-* If there is no heartbeat, check the [Solution Scoping](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) is correct
-* If there is a heartbeat, follow the steps in the [Data not Showing in Log Analytics section of the Update Management troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
-* If there is an error code listed, see the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
-
+* Follow the troubleshooting guide for ["Machines don't show up in the portal"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 
 ## **Recommended Documents**
 

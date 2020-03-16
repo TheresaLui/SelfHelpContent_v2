@@ -5,16 +5,18 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454860, 32632935"
+	supportTopicIds="32632935"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 #  Help Me Understand My Bill and Usage
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Help Me Understand My Bill and Usage",
     "fileAttachmentHint": "",
     "formElements": [

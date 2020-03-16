@@ -4,13 +4,14 @@
 	authors="passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602719,32602732,32602720,32608636,32639221"
-	productPesIds="16459"
-	cloudEnvironments="public"
+	supportTopicIds="32602719,32602732,32602720,32691059,32691060,32691061"
+	productPesIds="16459,16598"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="4B46FE3E-420A-4916-B059-A6C939025930"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
-# Storage block blob tiers
+# Storage Access Tiers
 ---
 {
     "subscriptionRequired": true,

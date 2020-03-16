@@ -15,19 +15,13 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
-# MPN - competencies and MAPS requirements
+# MPN - Performance data in Partner Center
 
-How to start using your Microsoft Partner Network (MPN) membership benefits in the Partner Center.
+How to find performance data in Partner Center.
 
 ## **Recommended Documents**
 
-* [Microsoft competency requirements for Gold and Silver membership](https://docs.microsoft.com/partner-center/learn-about-competencies)
-* [Manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits)
-*  [MCPs - Link or unlink an MCP ID to or from a partner organization](https://support.microsoft.com/help/2966380/link-or-unlink-an-mcp-id-to-or-from-a-partner-organization)
-*  [Requirements:Steps on how to see your missing requirements in Partner Dashboard](https://support.microsoft.com/help/4089772/steps-on-how-to-see-your-missing-requirements-in-partner-dashboard?tpqid=100-000082)
-*  [Microsoft competency requirements for Gold and Silver membership](https://docs.microsoft.com/partner-center/learn-about-competencies?tpqid=300-000102)
-*  [Partner University - Learning Plans FAQs](https://support.microsoft.com/help/2964426/partner-university-learning-plans?tpqid=100-000102)
-*  [How to enroll into Learning option](https://internal.support.services.microsoft.com/help/2717776/enrollment-into-the-learning-option-at-action-pack-silver-or-gold-leve)
-*  [Learning Partner Enrollment Guide](https://partner.microsoft.com/marketing/learning-resources#/?campaigns=learning-option-enrollment)
+* [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)

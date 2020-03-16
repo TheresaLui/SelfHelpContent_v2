@@ -6,9 +6,10 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32608947, 32608949, 32608961, 32608962"
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-application-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # Application
 ---

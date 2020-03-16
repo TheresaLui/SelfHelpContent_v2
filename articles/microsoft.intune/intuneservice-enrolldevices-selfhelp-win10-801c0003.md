@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="a48fb80c-f74e-4b62-b463-568a06320322"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Enrolling a Windows 10 PC via mobile device management fails with a "0x801c0003" error code.

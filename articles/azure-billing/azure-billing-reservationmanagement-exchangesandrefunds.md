@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Exchanges and refunds for an Azure Reserved Instance"
-	description="Exchanges and refunds for an Azure Reserved Instance"
+	pageTitle="Cancel or change an existing reservation"
+	description="Cancel or change an existing reservation"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -10,44 +10,52 @@
 	supportTopicIds="32593227"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="0f67df6b-5123-49f6-9ab8-ff5755ec54f4"
+	ownershipId="ASMS_Billing"
 />
 
-# Exchanges and refunds for an Azure Reserved Instance
+# Cancel or change an existing reservation
 
-### **Purchase a Reserved Instance**
+You can cancel or exchange a reserved instance yourself using [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservation and click on refund or exchange. Please note following:
 
-To buy a reservation, you must have a subscription owner role in an Enterprise (MS-AZR-0017P or MS-AZR-0148P) or Pay-As-You-Go subscription (MS-AZR-003P or MS-AZR-0023P). Cloud solution providers can use the Azure portal or [Partner Center](https://docs.microsoft.com/partner-center/azure-reservations) to purchase Azure Reservations.<br>
-Learn more, see [Azure Reservations](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
+* You must have owner access on the Reservation Order to exchange or refund. Access to only the Reservation will not let you proceed with refund or exchange. Ask the Reservation Order owner to give you owner access to the Reservation Order
+* You can exchange a reservation for another reservation of the same type – there are no penalties on reservation exchange
+* You can also refund reservations, up to a total of $50,000 USD in a 12-month rolling window
+* Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. Other US Government subscription types including Pay-As-You-Go and CSP are supported
+
+ Learn more : [How return and exchange transactions are processed](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#how-return-and-exchange-transactions-are-processed)<br>
+ 
+ Learn more : [Exchange and Refund policies](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#exchange-policies)
+
+Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
 
 ### **Exchange an existing reserved instance (Self-service)**
 
-You can exchange a reservation for another reservation of the same type. You can also refund a reservation, up to $50,000 USD per year, if you no longer need it. Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. Other US Government subscription types including Pay-As-You-Go and CSP are supported. You must have owner access on the Reservation Order to exchange or refund an existing reservation
+You can exchange a reservation for another reservation of the same type. You can also refund a reservation, up to $50,000 USD per year, if you no longer need it. Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. Other US Government subscription types including Pay-As-You-Go and CSP are supported. You must have owner access on the Reservation Order to exchange or refund an existing reservation.<br>
 
-  1. Log in to your [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservations that you want to refund and click **Exchange**
-  2. Select the VM product that you want to purchase and type a quantity. Make sure that the new purchase total is more than the return total. [Determine the right size before you purchase](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#determine-the-right-vm-size-before-you-buy)
-  3.Review and complete the transaction.
+The following steps will guide on the procedure to complete the transaction
+
+1. Log in to your [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservations that you want to refund and click **Exchange**<br>
+2. Select the VM product that you want to purchase and type a quantity. Make sure that the new purchase total is more than the return total [Determine the right size before you purchase](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#determine-the-right-vm-size-before-you-buy).<br>
+3. Review and complete the transaction
 
 ### **Refund for a reserved instance**
-To refund a reservation, go to **Reservation Details** and click **Refund**<br>
 
-Learn more : [How return and exchange transactions are processed](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#how-return-and-exchange-transactions-are-processed)<br>
-Learn more : [Exchange and Refund policies](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#exchange-policies)<br>
+To refund a reservation, go to **Reservation Details** and click **Refund**
 
-### **Discounted subscription and offer types**
-Reservation discounts apply to the following eligible subscriptions and offer types. Resources that run in a subscription with other offer types don't receive the reservation discount.
+### **Pro-rated refund:**
 
-  1. Enterprise agreement (offer numbers: MS-AZR-0017P or MS-AZR-0148P)
-  2. Individual plans with pay-as-you-go rates (offer numbers: MS-AZR-0003P or MS-AZR-0023P)
-  3. CSP subscriptions<br>
+When you cancel an RI, the prorated amount is calculated based on the lower of the current price of the RI or the purchase price of the RI and by the months remaining. The months remaining will be rounded up to the next month. The termination fee will be applied on the amount to be returned to the customer.
+Here’s an example:
 
-Learn more on how discount is applied:
+* The customer purchases a one-year term RI for $120 in January 1, 2018
+* The customer cancels their RI on April 7, 2018, during the fourth month of their one-year term
+* The prorated amount returned to the customer will be calculated this way:
 
-  * [Reserved VM Instance](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
-  * [Cosmos DB](https://docs.microsoft.com/azure/billing/billing-understand-cosmosdb-reservation-charges)<br>
-  * [SQL Database](https://docs.microsoft.com/azure/billing/billing-understand-reservation-charges)<br>
-  * [SUSE Linux](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges)<br>
+    $120 (the price of the term OR the current market price of that RI, whichever is lower) * (12 – 4)/12 = $80<br>
+    12% (termination fee) * $80 (prorated amount) = $9.60<br>
+    $80 (prorated amount) - $9.60 (fee) = $70.40 (returned to the customer)<br>
 
 ## **Recommended Documents**
 

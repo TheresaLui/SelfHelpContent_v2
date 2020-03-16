@@ -11,7 +11,8 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-restoringfrombackup.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Restoring from backup
@@ -28,7 +29,7 @@
 * If you are moving or restoring your data warehouse across subscriptions:
 
   * Go through the [checklist](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#checklist-before-moving-resources) before moving your data warehouse across subscriptions
-  * If you need to 'restore' with a new data warehouse across subscriptions, follow the instructions on restoring and using the Move functionality [here](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore#restoring-from-restore-points)
+  * If you need to 'restore' with a new data warehouse across subscriptions, follow the instructions [here](https://techcommunity.microsoft.com/t5/Azure-Data-Warehouse-Support/How-To-Move-your-Azure-Data-Warehouse-to-a-new-region-and-or/ba-p/682907)
 
 * If you are restoring the data warehouse to a different server, follow this [checklist](https://docs.microsoft.com/azure/sql-database/sql-database-disaster-recovery#configure-your-database-after-recovery) to ensure recovered data warehouse has appropriate security configuration.
 

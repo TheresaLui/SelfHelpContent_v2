@@ -12,7 +12,8 @@
     supportTopicIds="32582828"
 	productPesIds="15922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # SSL termination issues with Application Gateway
 

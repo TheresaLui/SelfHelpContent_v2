@@ -1,6 +1,6 @@
 <properties
-	pageTitle="reserved instance- assist with pricing"
-	description="reserved instance- assist with pricing"
+	pageTitle="reserved instance- How am I billed for Windows and SQL when reservation discounts is applied?"
+	description="reserved instance- How am I billed for Windows and SQL when reservation discounts is applied?"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -10,33 +10,19 @@
 	supportTopicIds="32680684"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="reserved instance- assist with pricing"
+	ownershipId="ASMS_Billing"
 />
 
-# reserved instance- assist with pricing
+# Reserved Instance- How am I billed for Windows and SQL when reservation discounts is applied?
 
-### **Purchase a Reserved Instance**
+* Reserved VM instance and SQL reserved capacity applies only to the compute usage and not to the Windows or SQL IP usage
+* If you use Windows VM and don't have an Azure Hybrid Benefit on your reserved virtual machine instances, then you are charged for the software meters listed in the following section
+* For SQL PaaS or IaaS deployments, the IP cost will continue to be charged using separate meter if Azure Hybrid Benefit is not selected
+* Read this document to learn more: [Software costs not included with Azure Reserved VM Instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs)
 
-To buy a reservation, you must have a subscription owner role in an Enterprise (MS-AZR-0017P or MS-AZR-0148P) or Pay-As-You-Go subscription (MS-AZR-003P or MS-AZR-0023P). Cloud solution providers can use the Azure portal or [Partner Center](https://docs.microsoft.com/partner-center/azure-reservations) to purchase Azure Reservations.
-
-* Learn more: [Reserved Instance Pricing](https://azure.microsoft.com/pricing/reserved-vm-instances/)<br>
-* Learn more: [Azure Reservations](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)<br>
-* Learn about Azure service pricing and purchase options: [Azure Pricing](https://azure.microsoft.com/pricing/)<br>
-
-### **Discounted subscription and offer types**
-Reservation discounts apply to the following eligible subscriptions and offer types. Resources that run in a subscription with other offer types don't receive the reservation discount.
-
-  1. Enterprise agreement (offer numbers: MS-AZR-0017P or MS-AZR-0148P)
-  2. Individual plans with pay-as-you-go rates (offer numbers: MS-AZR-0003P or MS-AZR-0023P)
-  3. CSP subscriptions
-
-Learn more on how discount is applied:
-
-  * [Reserved VM Instance](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)
-  * [Cosmos DB](https://docs.microsoft.com/azure/billing/billing-understand-cosmosdb-reservation-charges)
-  * [SQL Database](https://docs.microsoft.com/azure/billing/billing-understand-reservation-charges)
-  * [SUSE Linux](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges)
+Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
 
 ### **Understand Billing model**
 
@@ -45,17 +31,6 @@ Learn more on how discount is applied:
 * Learn more about service or specific pricing model [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
 * Speak with someone from sales about pricing: [Contact Azure Sales](https://azure.microsoft.com/overview/sales-number/)
 * Azure Subscriptions: [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/)
-
-**Buy a service plan**
-
-  * [Prepay for Cosmos DB reserved capacity](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity)
-  * [Prepay for SQL Database compute resources with Azure SQL Database reserved capacity](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity)
-  * [Prepay for Virtual Machines with Azure Reserved VM Instances](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)<br>
-  
-**Buy a software plan**
-
-  * [Prepay for Red Hat software plans from Azure Reservations](https://docs.microsoft.com/azure/virtual-machines/linux/prepay-rhel-software-charges)
-  * [Prepay for SUSE software plans from Azure Reservations](https://docs.microsoft.com/azure/virtual-machines/linux/prepay-suse-software-charges)
 
 ## **Recommended Documents**
 

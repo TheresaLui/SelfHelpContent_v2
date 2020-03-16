@@ -7,6 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 	articleId="d334929b-7f97-45c5-8c6f-924eb938b8fd"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Other related problem with Domain Names 
 ---

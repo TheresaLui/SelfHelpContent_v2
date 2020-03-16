@@ -13,7 +13,8 @@
 	supportTopicIds="32613316"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,Mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Azure Blob Storage General Advisory

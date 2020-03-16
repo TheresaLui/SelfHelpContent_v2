@@ -6,12 +6,13 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder="4"
-	selfHelpType="resource"
-	supportTopicIds=""
-	productPesIds=""
+	selfHelpType="generic"
+	supportTopicIds="32630432"
+	productPesIds="13491"
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-backuprestore-longtermbackupretention-mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # backup/restore/long-term backup retention

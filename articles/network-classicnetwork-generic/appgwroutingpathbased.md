@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="path-based-routing"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Path Based Routing

@@ -15,8 +15,13 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Co-sell referral sharing
+
+## **Recommended Steps**
+
+- For more information on the Co-sell program and becoming Co-sell ready, contact Cosell@microsoft.com
 
 ## **Recommended Documents**
 

@@ -10,8 +10,9 @@
     supportTopicIds="32639965"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="27d648a0-f2cc-4d25-8cf0-cc646ddd82dd"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Security in Azure Database for PostgreSQL

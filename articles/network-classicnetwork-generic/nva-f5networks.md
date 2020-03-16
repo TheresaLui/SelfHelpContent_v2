@@ -12,6 +12,7 @@
 	productPesIds="16679"
 	cloudEnvironments="public,mooncake,fairfax,blackforest"
 	articleId="nva-f5networks.md"
+	ownershipId="CloudNet_NVA"
 />
 
 # networkvirtualappliance/f5networks

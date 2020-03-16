@@ -6,12 +6,13 @@
 	authors="luiscabrer"
 	ms.author="luisca"
 	selfHelpType="resource"
-	displayOrder="5"
+	displayOrder="1"
 	supportTopicIds="32681353"
 	resourceTags=""
 	productPesIds="15568"
 	articleId="skillset-attach-cs"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue attaching cognitive services resource

@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="32149b9d-e51c-45cd-8efb-642687f5b75d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM Restore failure for Linux 
 ---

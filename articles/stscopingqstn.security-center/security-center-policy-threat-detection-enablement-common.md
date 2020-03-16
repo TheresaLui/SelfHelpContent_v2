@@ -12,6 +12,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="i15f057d-8ce6-4b77-a98a-dfaf3843dc2f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Threat Detection Enable Common Solutions

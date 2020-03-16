@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
 	articleId="b9edf650-fe6f-4789-9839-96883647a236"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box data copy to device

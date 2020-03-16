@@ -6,12 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32632797"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="9263cbc0-bc33-4bac-a64e-d36d2f4e3420"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Files and Folder Backup issue with vault credential download

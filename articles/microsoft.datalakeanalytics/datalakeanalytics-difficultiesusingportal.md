@@ -11,8 +11,9 @@
 	supportTopicIds="32680645"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="datalakeanalytics-difficulties-using-portal"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Difficulties using Azure Data Lake Portal
@@ -28,3 +29,4 @@ You will also need appropriate rights to the Azure Data Lake Storage Gen1 to sub
 
 * [Getting started with Azure Data Lake Analytics using the Azure portal](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-get-started-portal)<br>
 * [Manage Azure Data Lake Analytics using the Azure portal](https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-manage-use-portal)<br>
+* [Changing your Azure Data Lake Analytics pricing tier from pay-as-you-go to commitment tiers](https://azure.microsoft.com/pricing/details/data-lake-analytics/)<br>

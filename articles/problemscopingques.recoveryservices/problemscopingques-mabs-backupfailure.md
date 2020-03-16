@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
   	 articleId="5784ce89-9b9c-4881-9caa-2a462fcbdc24"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure backup server - Online backup is failing
 ---

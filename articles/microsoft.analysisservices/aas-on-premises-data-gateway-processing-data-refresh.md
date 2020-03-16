@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="c8e78b9b-41b9-d72a-2651-d996889f0675"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Troubleshooting the On-premises data gateway

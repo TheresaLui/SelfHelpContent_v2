@@ -8,10 +8,11 @@
     articleId="insights_appservice"
     displayOrder="99"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32602209"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # How do I enable Application Insights for an App Service?
 

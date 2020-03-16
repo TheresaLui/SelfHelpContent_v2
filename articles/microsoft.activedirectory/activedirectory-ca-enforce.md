@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="14fe722d-a90d-40f1-86d7-da02e95348ce"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems with policy not being enforced

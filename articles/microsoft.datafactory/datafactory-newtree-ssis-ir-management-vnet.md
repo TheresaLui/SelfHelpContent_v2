@@ -6,15 +6,16 @@
 	authors="chinadragon0515"
 	ms.author="dashe"
 	articleId="datafactory-newtree-ssis-ir-management-vnet.md"
-	displayOrder="8"
+	displayOrder="11"
 	selfHelpType="resource"
 	supportTopicIds="32680896"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
-# Troubleshooting Azure-SSIS IR Management - IR join vNet Issues
+# Azure-SSIS IR join vNet Issues
 
 The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
 

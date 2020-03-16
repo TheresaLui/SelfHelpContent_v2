@@ -10,8 +10,9 @@
     supportTopicIds="32629271"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-patchandupdate-oemupdate"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack OEM Update Management
@@ -21,9 +22,11 @@ In addition to monthly Azure Stack updates and hotfixes, your Azure Stack hardwa
 ## **Recommended Steps**
 
 1. Check with your original equipment manufacturer (OEM) about their specific notification process to ensure update notifications reach your organization
-2. To apply OEM updates, follow process to [Apply updates in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-apply-updates)
+2. To apply OEM updates, follow the process outlined in [Apply Azure Stack OEM updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem?view=azs-1908)
+3. If you encounter an issue while applying an OEM Update on Azure Stack, refer to your OEM’s [reference material or support contact information](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem#oem-contact-information)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Manage updates in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates)
-* [Apply updates in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-apply-updates)
+* [Apply Azure Stack original equipment manufacturer (OEM) updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem)
+* [OEM Update reference material and support contact information](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem#oem-contact-information)

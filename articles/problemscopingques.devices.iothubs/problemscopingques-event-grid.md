@@ -9,6 +9,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="3db7fbec-e670-4c45-a632-d54a39722ad1"
+	ownershipId="AzureIot_IotHub"
 />
 # Event Grid issues
 ---

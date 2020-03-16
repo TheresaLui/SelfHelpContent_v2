@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="ce8d2ef3-dcaa-4fe9-82a4-a3c8efd1df05"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve ODBC or JDBC issues with reporting integration

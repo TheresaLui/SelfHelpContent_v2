@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	articleId="accessandresourcemanagementmoveservicestoanothersubscription"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # how to RDFE move services to another subscription

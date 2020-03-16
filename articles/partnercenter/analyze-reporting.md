@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # CSP - analyze and reporting
@@ -26,4 +27,3 @@ Planning ways to develop your CSP business includes understanding how your custo
 * [Get data and analyze your business](https://docs.microsoft.com/partner-center/data-analysis-lp)
 * [Partner Center Analytics app for Power BI (direct partners in CSP)](https://docs.microsoft.com/partner-center/power-bi-app-for-direct-partners)
 * [Install and preview the Partner Center Analytics app for Microsoft Power BI](https://docs.microsoft.com/partner-center/power-bi-app-for-direct-partners-install)
-	 

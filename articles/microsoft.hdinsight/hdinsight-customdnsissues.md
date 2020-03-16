@@ -10,8 +10,9 @@
     supportTopicIds="32636488"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax"
     articleId="6a60e737-a15c-44df-8320-273b54797713"
+	ownershipId="AzureData_HDInsight"
 />
 # Common Customization Issues
 
@@ -20,6 +21,8 @@
 **Custom Script Actions**
 
 Microsoft support teams can only address issues that occur when loading the script. Any errors during the execution of custom scripts is outside the scope of a support ticket. Please use our forums or other channels for troubleshooting errors which occur during the execution of custom scripts.
+
+[Custom Script Actions Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting)
 
 **Adding an additional service to an existing cluster**
 
@@ -48,3 +51,6 @@ You must create and configure the DNS server before installing HDInsight in the 
 **Additional Information**
 
 If you are having technical issues with cluster creation, select **Create** instead of **Other Customization**. Also, if you are running into issues while trying to scale a cluster, please select **Scale** instead of **Other Customization**. Both **Create** and **Scale** will provide better solutions and applicable diagnostics.
+## **Recommended Documents**
+* [Azure HDInsight: Frequently asked questions](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq)
+

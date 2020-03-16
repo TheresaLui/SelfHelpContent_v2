@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # VPN Tunnel Connection Timed Out
 <!--issueDescription-->

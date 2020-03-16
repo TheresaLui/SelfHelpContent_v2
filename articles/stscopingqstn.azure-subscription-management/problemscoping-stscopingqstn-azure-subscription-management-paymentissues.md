@@ -9,6 +9,7 @@
 	cloudEnvironments="public, MoonCake"
   schemaVersion="1"
   articleId="problemscopingquestion-paymentissues"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Issue with Azure payment

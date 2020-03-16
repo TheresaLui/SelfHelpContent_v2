@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="384cea3e-e6bd-42ee-938e-9400cc9ed1c1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Resource governance

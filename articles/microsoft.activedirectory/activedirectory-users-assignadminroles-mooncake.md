@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-users-assignadminroles-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I want to assign an administrator role to a user

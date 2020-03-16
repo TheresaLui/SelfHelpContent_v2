@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640077"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-perf-other"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Performance - Other
 ---
@@ -53,7 +54,7 @@
             "id": "select_1",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the measured time when running 'SELECT 1' from your Postgres client?",
+            "displayLabel": "What is the measured time when running 'SELECT 1' from your MySQL client?",
             "required": false
         },
         {

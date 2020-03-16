@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # User is enabled for converged MFA/SSPR registration

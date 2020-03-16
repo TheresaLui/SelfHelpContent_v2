@@ -9,6 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  	articleId="780ea717-ab4d-4718-bafc-d6afc473dec7"
+	ownershipId="AzureIdentity_User"
 />
 # I need to generate a report on who is registering or resetting passwords
 

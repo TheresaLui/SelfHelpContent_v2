@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="Mooncake"
 	articleId="iothub-availabilityissues-serviceunavailable-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Is IoT Hub having service issues?

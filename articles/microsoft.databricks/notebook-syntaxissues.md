@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="b3bafff7-7cd9-4a23-8105-8af273576feb"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve syntax and semantic issues with Notebook

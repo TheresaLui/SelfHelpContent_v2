@@ -5,14 +5,15 @@
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
 	ms.author="bharathb"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32636771"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-mongodbauthentication"
 	displayOrder="221"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # MongoDB - Authentication
 

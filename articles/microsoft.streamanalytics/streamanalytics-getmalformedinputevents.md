@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="dca9db9e-38af-4c4b-8bb3-7687f892a949"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 

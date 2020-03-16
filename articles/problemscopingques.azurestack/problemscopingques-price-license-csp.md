@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629236,32629239"
     productPesIds="16226"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-558e-4f2d-4872-36a830ea0098"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack pricing and licensing or partner center usage (for CSPs) questions
 
@@ -72,6 +73,10 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [
+                {
+                    "value": "1910",
+                    "text": "1910"
+                },
                 {
                     "value": "1908",
                     "text": "1908"

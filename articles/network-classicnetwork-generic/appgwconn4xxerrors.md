@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="connectivity-4xx-errors"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Connectivity 4xx Errors

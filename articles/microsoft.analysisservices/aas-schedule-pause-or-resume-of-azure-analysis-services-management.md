@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="972ee660-d223-61d1-a28f-dcf958ad71af"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Azure Analysis Services - Scale and Pause or Resume using scheduled autoscaling

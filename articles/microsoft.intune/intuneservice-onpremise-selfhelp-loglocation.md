@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="9c6c38ec-e293-4ef5-9377-7a26834151a2"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Where are the logs for the Exchange Connector for Intune?

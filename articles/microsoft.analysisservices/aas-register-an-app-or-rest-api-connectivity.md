@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="80913bc0-08ec-d169-2070-11b13f86c04b"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Register an application

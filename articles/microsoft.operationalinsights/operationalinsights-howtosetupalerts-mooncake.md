@@ -13,6 +13,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="operationalinsights-howtosetupalerts-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Setting up Alerts

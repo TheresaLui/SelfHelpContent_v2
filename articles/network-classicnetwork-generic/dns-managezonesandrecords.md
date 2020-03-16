@@ -11,6 +11,7 @@
 	productPesIds="15804"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="4b9893dc-a4ed-42a7-a497-35f0cc219934"
+	ownershipId="CloudNet_DNS"
 />
 
 # manage dns zones and records

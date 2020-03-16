@@ -12,6 +12,7 @@
 	productPesIds="15438"
 	cloudEnvironments="public"
 	articleId="9a1c6a21-9936-4d35-8b96-7b6bc8315d93"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Power control module

@@ -9,6 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
     	articleId="37a166b9-2609-4eda-9849-2e777826e9f0"
+	ownershipId="AzureIdentity_User"
 />
 
 # Browse password reset documentation to find answers

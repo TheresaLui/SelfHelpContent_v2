@@ -12,6 +12,7 @@
   productPesIds=""
   cloudEnvironments="MoonCake"
   ArticleId="hdinsight-hive-crudoperations-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # CRUD Operations

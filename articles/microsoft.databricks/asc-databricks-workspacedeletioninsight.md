@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16432"
     cloudEnvironments="public"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # We ran diagnostics on your resource and found the following issue
@@ -24,11 +25,8 @@ Unable to delete databricks workspace <!--$Resourcename-->[Resourcename]<!--/$Re
 ## **Recommended Steps**
 
 1. Login to portal and navigate to databricks workspace <!--$Resourcename-->[Resourcename]<!--/$Resourcename--> 
-2. Click on Managed Resource Group
-3. Click on 'Locks' and check if there are any locks
-4. If there are no locks, delete Managed Resource Group
+2. Click on "Managed Resource Group"
+3. Click on "Locks" to check if there are any locks on the Managed Resource Group
+4. If there are no locks, delete the Managed Resource Group
 5. Try deleting workspace by clicking "Delete" button
-6. The locks on the above Managed Resource Group needs to be removed before the delete can succeed. Please notify Engineering Team to enable 'Bypass Management Locks'.
-7. Once enabled, notify customer to delete Managed Resource Group and delete workspace
-
 

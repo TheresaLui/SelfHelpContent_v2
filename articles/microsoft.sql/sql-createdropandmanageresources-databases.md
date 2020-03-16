@@ -9,23 +9,24 @@
 	selfHelpType="generic"
 	supportTopicIds="32630418"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="29427fe7-6a8b-46fc-aa6d-8d3fd5176098"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # How-To: Azure SQL Database Management
 
+### Databases created in Gen5 tier rather than S0 when tier isn't specified
+
+The default SLO for new databases has switched from S0 to GP_Gen5_2. Using T-SQL, Entity Framework, PowerShell, or AzureCLI to create a database without specifying a service tier will now result in provisioning a GP_Gen5_2 database. Any automated means of creating new databases that do not specify the service tier will now behave differently in terms of the performance and pricing of the newly created databases. For more information, see the [update announcement](https://azure.microsoft.com/updates/azure-sql-database-default-configuration-changing-soon/).
+
 ### Shrink database by clearing up unused space
 
-To free up space and shrink log files, use [these console commands](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-shrinkdatabase-transact-sql).
+* To free up space and shrink log files, use [these console commands](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-shrinkdatabase-transact-sql)
 
 ### Trouble dropping a database through Azure Portal
 
-Often, when dropping a database using Azure Portal fails, dropping the database using SQL Server Management Studio will work more reliably. To do this, run "DROP [database name](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-ssms)" from SSMS. 
-
-### Database not visible in Azure Portal, name still in use, database cannot be deleted
-
-If you cannot recreate a database because the intended name is apparently in use on an existing database but that database is not visible in Azure Portal and cannot be deleted, this usually means that the database does exist but isn't visible in Azure Portal because of the Azure Resource Manager cache becoming desynchronized. When you file your ticket, request an ARM cache resync. We're currently working on detecting and resolving cache synchronization issues automatically so that this won't continue to be an issue.
+Often, when dropping a database using Azure Portal fails, dropping the database using SQL Server Management Studio will work more reliably. To do this, run "DROP [database name](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-ssms)" from SSMS.
 
 ### Trouble creating a database in Central Australia
 

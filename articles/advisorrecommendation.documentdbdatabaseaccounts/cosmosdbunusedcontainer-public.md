@@ -6,6 +6,7 @@
     articleId="893a1342-e1f6-49ec-97dc-c5c4471438c2_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Optimize Unused Containers and Geo-replications in Azure Cosmos DB
 ---
@@ -15,15 +16,17 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "893a1342-e1f6-49ec-97dc-c5c4471438c2",
   "dataSourceMetadata": {
-    "streamNamespace": "Microsoft.Cloud.AzureAdvisorAcdbRecoUnused",
-    "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "schemaVersion": 2.0,
+    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').GetAzureAdvisorUnusedContainersRecommendations",
+    "dataSource": "Kusto",
+    "refreshInterval": "0.08:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Low",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBOptimizeUnusedContainer",
   "recommendationMetadataState": "Active",
+  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "aoaft@microsoft.com",
@@ -34,6 +37,12 @@
     },
     "serviceTreeId": "a3db6cf3-640c-4340-8381-108d31853b7f"
   },
+  "ingestionClientIdentities": [
+    "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
+    "db97364d-48bf-4567-af34-e0843d0ee0af",
+    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe",
+    "9c14bff5-1bda-4de6-a74f-4c3caa370570"
+  ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/cosmosdb/usage-cost",
@@ -53,7 +62,6 @@
       "actionType": "Document",
       "documentLink": "https://aka.ms/cosmosdb/geo-replication"
     }
-
   ],
   "resourceMetadata": {
     "action": {

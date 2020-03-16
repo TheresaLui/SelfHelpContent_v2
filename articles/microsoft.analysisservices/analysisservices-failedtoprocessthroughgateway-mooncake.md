@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="cc4f16bb-7b0c-49cc-8041-6c37e9f1b2ce"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Failed to process model with data source through gateway

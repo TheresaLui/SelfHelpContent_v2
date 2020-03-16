@@ -10,8 +10,9 @@
     supportTopicIds="32639992"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="eda18367-7c0b-450c-a021-c35fe2b121d7"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Issues with replication
@@ -42,6 +43,10 @@ PostgreSQL requires the value of the max_prepared_transactions parameter on the 
 You can choose to stop replication to a replica. Stopping replication disconnects the replica from the master server and makes the replica server a standalone read/write server.
 
 Replicas do not automatically failover. You have to choose to stop replication and redirect your application to point to the (former) replica's connection string. The replica will always have a unique connection string from the master server.
+
+**Issue** Can't scale down replica's compute and storage
+
+The replica's compute and storage tiers should be equal or greater than the master server to ensure the replica is able to keep up with the master server.
 
 ## **Recommended Documents**
 

@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Getting started and troubleshooting Secure App Model
@@ -25,7 +26,7 @@ Resource materials related to implementing partner security requirements immedia
 
 * [Partner security requirements portal](https://partner.microsoft.com/resources/collection/partner-security-requirements)
 * [Partner Security Requirements](https://docs.microsoft.com/partner-center/partner-security-requirements)
-* [Partner Security Requirements FAQ](https://assetsprod.microsoft.com/security-requirements-faq.pdf)
+* [Partner Security Requirements FAQ](https://docs.microsoft.com/partner-center/partner-security-requirements-faq)
 
 
 
