@@ -253,6 +253,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a78aa04a-df27-e458-bf1e-8b359760dae3",
+      "longDescription": "",
+      "shortDescription": "Questions specific to monitoring your server with metrics or alerts",
+      "searchTags": "monitoring server;monitoring metrics;monitoring alerts",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ab5bc630-d56d-ee3e-8dd8-73d70358c4b9",
       "longDescription": "",
       "shortDescription": "Your server is experiencing a performance or query execution issue.",
