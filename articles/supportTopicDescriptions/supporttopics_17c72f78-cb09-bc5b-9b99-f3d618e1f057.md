@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "67cb0592-bea7-9739-9aba-5963924935e5",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring performance through the Azure portal, metrics, or configuring alerts",
+      "searchTags": "monitoring performance",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6a81d888-2538-d2cb-10ee-bd7757c1e971",
       "longDescription": "",
       "shortDescription": "You are experiencing unexpected behavior, errors or exceptions when executing a query.",
