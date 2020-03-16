@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b437f1a6-38fe-550d-9b87-85c69d33faa7",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD Domain Services",
+      "searchTags": "Azure AD DS;How to setup Azure AD DS ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ba15b13e-5174-0b04-0c0f-3da5b3c4d99f",
       "longDescription": "",
       "shortDescription": "Setting up and maintaining LDAPs with Azure AD Domain Services",
