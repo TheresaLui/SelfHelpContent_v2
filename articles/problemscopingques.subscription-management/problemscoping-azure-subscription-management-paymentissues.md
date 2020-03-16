@@ -3,12 +3,12 @@
 	description="Scoping questions for Subscription Management/Issue with Azure payment"
 	authors="prdasneo"
 	ms.author="prdasneo"
-  selfHelpType="problemScopingQuestions"
-  supportTopicIds="32680691"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32680691"
 	productPesIds="15660"
-	cloudEnvironments="public, MoonCake, Blackforest, Fairfax
-  schemaVersion="1"
-  articleId="problemscopingquestion-paymentissues"
+	cloudEnvironments="public, MoonCake, Blackforest, Fairfax"
+	schemaVersion="1"
+	articleId="problemscopingquestion-paymentissues"
 	ownershipId="ASMS_SubscriptionManagement"
 />
 
