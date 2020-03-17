@@ -71,6 +71,7 @@
         "id": "{resourceId}",
 		"menuid": "scale_out"
       }
+	}
   ],
   "resourceMetadata": {
     "action": {
