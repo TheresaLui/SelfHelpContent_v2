@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3ab23946-2f8d-6142-bee5-60e12a6d00f9",
+      "longDescription": "",
+      "shortDescription": "Problems managing user based licensing from the Azure AD portal.",
+      "searchTags": "problems with user based licensing ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3bfc5e03-e3ed-0bd1-b9d4-b891eca183a6",
       "longDescription": "",
       "shortDescription": "Issues with devices failing to complete Azure AD Join or displaying incorrect status",
