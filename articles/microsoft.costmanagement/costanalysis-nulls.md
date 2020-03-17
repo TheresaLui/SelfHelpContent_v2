@@ -1,5 +1,5 @@
 <properties
-	articleId="costanalysis-nulls"
+	articleId="060a112c-3a7d-4ad6-9ea2-408bc88dca64"
 	articleTags="costanalysis,data"
 	pageTitle="Why am I seeing not applicable, unassigned, $system, or others?"
 	description="Not applicable and nulls"
