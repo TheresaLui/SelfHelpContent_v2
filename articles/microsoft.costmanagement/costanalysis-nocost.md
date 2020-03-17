@@ -1,5 +1,5 @@
 <properties
-	articleId="costanalysis-nocost"
+	articleId="1adacf9a-7dfd-452b-bd14-52b9ffe40f04"
 	articleTags="data"
 	pageTitle="Why am I seeing no cost (e.g. $0)?"
 	description="No cost"
