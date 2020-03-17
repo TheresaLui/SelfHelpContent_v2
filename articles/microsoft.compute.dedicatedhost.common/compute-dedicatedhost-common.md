@@ -17,7 +17,9 @@
 
 # Resolving issues with Azure Dedicated Host
 
-4 out of 5 customers resolved their Azure Dedicated Host issue using the steps below.<br>
+4 out of 5 customers resolved their **Azure Dedicated Host** issue using the steps below.<br>
+
+**Azure Dedicated Host** is a service that provides physical servers - able to host one or more virtual machines - dedicated to one Azure subscription. **Dedicated hosts** are the same physical servers used in our data centers, provided as a resource. You can provision **dedicated hosts** within a region, availability zone, and fault domain. Then, you can place VMs directly into your **provisioned hosts**, in whatever configuration best meets your needs.
 
 ## **Recommended Documents**
 
