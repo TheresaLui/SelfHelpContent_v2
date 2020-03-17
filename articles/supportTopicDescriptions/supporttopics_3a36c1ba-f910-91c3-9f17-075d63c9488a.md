@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a57f8fec-3e5c-5b5f-370d-df3fe45b482c",
+      "longDescription": "",
+      "shortDescription": "Problems with Azure AD or Office 365 group membership",
+      "searchTags": "problems with other group membership",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ada639af-564c-4caf-c009-c08132b35074",
       "longDescription": "",
       "shortDescription": "Problems when trying to redeem a Azure AD B2B invitation you have been sent from another organization Azure AD tenant",
