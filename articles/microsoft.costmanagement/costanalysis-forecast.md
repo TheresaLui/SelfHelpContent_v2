@@ -1,5 +1,5 @@
 <properties
-	articleId="costanalysis-forecast"
+	articleId="ba822ffc-8d11-4f64-9b62-71a499861d30"
 	articleTags="costanalysis,forecast"
 	pageTitle="Why don’t I see forecasts for my costs in Cost Analysis?"
 	description="Cost by forecast"
