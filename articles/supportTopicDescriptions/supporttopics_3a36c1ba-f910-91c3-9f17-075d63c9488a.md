@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "345ed23d-a616-9375-cedd-b3ed6fa1ac48",
+      "longDescription": "",
+      "shortDescription": "Problems with Office 365 group expiration and group auto-renewal policies",
+      "searchTags": "problems with group expiration ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3805c1db-1838-344b-df74-9ed8b1341771",
       "longDescription": "",
       "shortDescription": "Unable to delete or move a subscription that is currently tied to your Azure AD tenant.",
