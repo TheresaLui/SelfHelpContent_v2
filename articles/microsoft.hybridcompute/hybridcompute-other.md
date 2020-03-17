@@ -33,7 +33,7 @@ This article will help with regarding Azure Arc for Servers Agent on Windows.
 
 ## **Recommended Steps**
 
-Please add '--verbose' to the onboarding command being executed and then collect the log files under '%programdata%\AzureConnectedMachineAgent\Log'.
+Please add '--verbose' to the onboarding command being executed and then collect the log files under '%programdata%\AzureConnectedMachineAgent\Log' for Windows or '/var/opt/azcmagent/log' for Linux.
 
 ### **Prerequsites for Azure Arc for Servers**
 
