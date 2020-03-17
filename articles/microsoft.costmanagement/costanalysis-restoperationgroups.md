@@ -1,5 +1,5 @@
 <properties
-	articleId="costanalysis-restoperationgroups"
+	articleId="45b79a28-db62-40e2-992d-3c3b6c8165fa"
 	articleTags="costanalysis,rest"
 	pageTitle="What REST Operation Groups are available?"
 	description="REST operation groups"
