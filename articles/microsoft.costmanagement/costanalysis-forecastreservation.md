@@ -1,5 +1,5 @@
 <properties
-	articleId="costanalysis-forecastreservation"
+	articleId="ece213f3-53c5-48d2-9cba-39e39ec1dbe1"
 	articleTags="costanalysis,forecast, reservation, marketplace"
 	pageTitle="Why does my forecast increase after I make a reservation or Marketplace purchase?"
 	description="Cost by forecast reservation"
