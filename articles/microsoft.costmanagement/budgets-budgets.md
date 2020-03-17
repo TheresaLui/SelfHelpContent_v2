@@ -1,5 +1,5 @@
 <properties
-	articleId="Budgets-budgets"
+	articleId="5d27454f-bdf4-4a28-b398-b9fb58dd73a5"
 	articleTags="costmanagement,budgets"
 	pageTitle="Why is the +Add budget button disabled for me?"
 	description="Budgets-add budgets"
