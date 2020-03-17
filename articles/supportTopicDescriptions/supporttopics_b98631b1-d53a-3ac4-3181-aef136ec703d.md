@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1041540a-71ef-2209-92d5-97e2cbe84c3b",
+      "longDescription": "",
+      "shortDescription": "You are using an Azure AD P1 license and still cant access the sign-in logs in Azure AD ",
+      "searchTags": "issue with licensing requirements",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1ee404fa-ef5e-b82a-4bea-c754ddb40087",
       "longDescription": "",
       "shortDescription": "You have a problem with the configuration of AADConnect Health",
