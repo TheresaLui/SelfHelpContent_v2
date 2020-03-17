@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d614d539-bec7-cf97-ae36-4957cf229652",
+      "longDescription": "",
+      "shortDescription": "You are not seeing an authentication log you expected to see either through Graph API endpoint or when using the portal",
+      "searchTags": "issue with a specific sign-in log entry",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fa30f710-2a37-b2ab-0462-dbc653e3b429",
       "longDescription": "",
       "shortDescription": "You are using Azure AD sign-in logs and have an issue downloading the logs either using MS Graph API or Azure Portal",
