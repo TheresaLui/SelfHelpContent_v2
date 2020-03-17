@@ -12,7 +12,7 @@ pageTitle="Multiple sync clients detected"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

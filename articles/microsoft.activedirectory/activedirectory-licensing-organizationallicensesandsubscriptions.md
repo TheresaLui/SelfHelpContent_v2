@@ -9,7 +9,7 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="14785"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
  	articleId="7559ea52-bf96-48ce-93d6-2e0285b1dc3d"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
