@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7ec4b54c-39fd-81ab-854c-a9a8ceb1192e",
+      "longDescription": "",
+      "shortDescription": "Problems deleting a Azure AD or Office 365 group",
+      "searchTags": "problem to delete a group",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8315793d-17ec-6244-38e8-50e5359c7f7d",
       "longDescription": "",
       "shortDescription": "Problems synching groups or group membership from on-premises AD to Azure AD",
