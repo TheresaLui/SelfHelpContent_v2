@@ -14,7 +14,8 @@
 # VM Migration
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Migrate virtual machines to Azure using Azure Site Recovery",
     "fileAttachmentHint": "",
     "formElements": [
