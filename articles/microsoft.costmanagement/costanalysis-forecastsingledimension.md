@@ -1,5 +1,5 @@
 <properties
-	articleId="costanalysis-forecastsingledimension"
+	articleId="733bba36-5278-455d-a45e-1339d49590a2"
 	articleTags="costanalysis,forecast, singledimention"
 	pageTitle="I want to see forecasts for a single dimension (eg. Meter)?"
 	description="Cost by forecast single dimension"
