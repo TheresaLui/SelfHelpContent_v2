@@ -155,6 +155,14 @@
       "searchTags": "Missing logs data;Log data retention",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa30f710-2a37-b2ab-0462-dbc653e3b429",
+      "longDescription": "",
+      "shortDescription": "You are using Azure AD sign-in logs and have an issue downloading the logs either using MS Graph API or Azure Portal",
+      "searchTags": "issue downloading data with MS Graph API",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
