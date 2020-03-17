@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8315793d-17ec-6244-38e8-50e5359c7f7d",
+      "longDescription": "",
+      "shortDescription": "Problems synching groups or group membership from on-premises AD to Azure AD",
+      "searchTags": "problems synching groups",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "89561a5b-e1d6-f4d1-f93d-d288b77d0515",
       "longDescription": "",
       "shortDescription": "Problems verifying a new Azure AD custom domain name using Azure AD portal or PowerShell or Azure CLI",
