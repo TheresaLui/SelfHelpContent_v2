@@ -23,10 +23,10 @@ This article will help with issues installing the Azure Arc for Servers Agent on
 
 Please add '--verbose' to the onboarding command being executed and then collect the log files under '/var/opt/azcmagent/log'.
 
-### **Prerequsites for Azure Arc for Servers**
+### **Prerequisites for Azure Arc for Servers**
 
 * Most issues are caused by network configuration. Check the [Networking Configuration](https://docs.microsoft.com/azure/azure-arc/servers/overview#networking-configuration) document.
 
 ### **The subscription is not registered to use namespace Microsoft.HybridCompute**
 
-* If you recieve this message, follow the steps at [Register Azure Service Providers](https://docs.microsoft.com/azure/azure-arc/servers/overview#register-azure-resource-providers)
+* If you receive this message, follow the steps at [Register Azure Service Providers](https://docs.microsoft.com/azure/azure-arc/servers/overview#register-azure-resource-providers)
