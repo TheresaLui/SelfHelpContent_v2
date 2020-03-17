@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "002bc89c-5d6e-3773-9c48-e5401844476e",
+      "longDescription": "",
+      "shortDescription": "This topic should go to Azure Office commerce teams",
+      "searchTags": "licensing acquisition ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "03ec3d5b-eebb-1fe1-1e3a-55640e7738b9",
       "longDescription": "",
       "shortDescription": "Problems removing your guest or external access to another organizations Azure AD tenant",
