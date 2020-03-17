@@ -52,7 +52,7 @@
   "actions": [
     {
       "actionId": "9bdcbfa6-0dbf-4c48-9291-587251102c63",
-      "description": "Change your SKU to scale up",
+      "description": "Change your SKU to scale down",
       "actionType": "Blade",
 	  "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -60,7 +60,17 @@
         "id": "{resourceId}",
 		"menuid": "scale_up"
       }
-    }
+    },
+	{
+      "actionId": "10c9bd8e-e88e-4e42-b1cd-069fa043857e",
+      "description": "Change your instance count to scale in",
+      "actionType": "Blade",
+	  "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}",
+		"menuid": "scale_out"
+      }
   ],
   "resourceMetadata": {
     "action": {
@@ -95,6 +105,7 @@
       "name": "observationEndTime",
       "title": "Observation End Time"
     }
-  ]
+  ],
+  "costSavingInfo": "*You can save up to the stated amount if you choose to scale down your SKU or scale in your instances. Your actual savings may vary."
 }
 ---
