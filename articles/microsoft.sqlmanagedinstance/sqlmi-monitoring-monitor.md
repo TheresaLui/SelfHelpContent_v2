@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="cd4cc9ef-4cdb-4e1d-9a81-4f4034395a56"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Monitoring - Monitor

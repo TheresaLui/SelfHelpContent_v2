@@ -12,6 +12,7 @@
 		productPesIds="15207"
 		cloudEnvironments="public"
 		articleId="296bcd6b-c2a2-42e2-8dd9-bf0c76bfa996"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup SQL Backup failures

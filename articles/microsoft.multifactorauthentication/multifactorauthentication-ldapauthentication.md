@@ -9,6 +9,7 @@
     productPesIds="14947" 
     cloudEnvironments="public" 
     	articleId="d0645755-ffa3-460e-b5af-8570062721d1"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # LDAP authentication 
 

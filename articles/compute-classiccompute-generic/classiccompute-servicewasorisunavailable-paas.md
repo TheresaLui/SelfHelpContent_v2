@@ -9,8 +9,9 @@
 	supportTopicIds="32591241"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="dcecb8b3-aa26-4eea-8da7-5c1b2e4b3c88"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/application and service availability/service was or is unavailable

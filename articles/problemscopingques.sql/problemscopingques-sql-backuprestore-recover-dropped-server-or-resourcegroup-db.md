@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-backuprestore-recover-dropped-server-or-resourcegroup-db"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Scoping questions to recover-dropped-server-or-resourcegroup
 ---

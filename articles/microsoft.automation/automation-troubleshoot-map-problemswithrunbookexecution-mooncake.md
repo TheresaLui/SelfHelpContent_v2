@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="MoonCake"
 	articleId="automation-troubleshoot-map-problemswithrunbookexecution-mooncake"
+	ownershipId="Compute_Automation"
 />
 
 # Problems with runbook jobs that fail or suspend

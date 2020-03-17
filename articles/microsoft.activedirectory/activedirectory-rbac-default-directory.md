@@ -9,6 +9,7 @@
     resourceTags="Azure_RBAC"
     cloudEnvironments="public"
     	articleId="84e98da4-755a-4e4b-9e70-bad0d3acaf02"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to change the default directory of a subscription

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="012a20bb-3533-40cd-9e94-56c55f885576"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE Cookies Are Invalid

@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="BD530EDF-4297-4D04-80C7-F164F0F358AB"
+	ownershipId="Compute_BotService"
 />
 # Cannot configure a channel
 ---
@@ -54,6 +55,10 @@
                 {
                     "value": "channel_2",
                     "text": "Web Chat"
+                },
+		{
+                    "value": "channel_14",
+                    "text": "Direct Line Speech"
                 },
                 {
                     "value": "channel_3",

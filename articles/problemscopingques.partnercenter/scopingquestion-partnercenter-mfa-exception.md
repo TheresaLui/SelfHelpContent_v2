@@ -10,6 +10,7 @@
        schemaVersion="1"
        articleId="problemscopingques-partnercentermfaexception"
        clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # PC Sample
 ---

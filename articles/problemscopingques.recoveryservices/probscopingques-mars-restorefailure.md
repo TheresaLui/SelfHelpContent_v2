@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="171f4f9b-3e04-4b40-8c57-b30b5063c752"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS restore failure
 ---

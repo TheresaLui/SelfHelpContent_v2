@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="8d26da87-06fa-4bc4-b171-f3b4795520f6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Report not displaying properly

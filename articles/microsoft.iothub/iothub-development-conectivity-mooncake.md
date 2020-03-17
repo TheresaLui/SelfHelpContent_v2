@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="iothub-development-conectivity-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # How do I keep track of device connection state reliably and quickly?

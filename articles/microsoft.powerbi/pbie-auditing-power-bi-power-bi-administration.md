@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="34d87411-be3d-5b36-ed94-798b70cc8349"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Use auditing within your organization

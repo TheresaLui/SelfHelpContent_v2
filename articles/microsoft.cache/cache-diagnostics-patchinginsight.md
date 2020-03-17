@@ -14,6 +14,7 @@
   resourceTags=""
   productPesIds="14783"
   cloudEnvironments="public"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # We ran diagnostics on your resource and found we patched your Cache

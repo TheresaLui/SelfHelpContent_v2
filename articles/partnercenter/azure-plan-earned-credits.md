@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Partner earned credit for services managed (Azure)"
-	description="Partner earned credit for services managed (Azure)"
+	pageTitle="Partner earned credit for managed services in Azure"
+	description="Partner earned credit for managed services in Azure"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -15,9 +15,10 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
-# Partner earned credit for services managed (Azure)
+# Partner earned credit for managed services in Azure
 
 Resources and information about partner earned credit for managed services in Azure.
 
@@ -25,8 +26,4 @@ Resources and information about partner earned credit for managed services in Az
 
 * [Partner earned credit overview](https://docs.microsoft.com/partner-center/partner-earned-credit)
 * [Details about how the partner earned credit is determined](https://docs.microsoft.com/partner-center/partner-earned-credit-explanation)
-
- 
-
-
 

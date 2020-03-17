@@ -12,6 +12,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="45aed310-9910-4c8b-b13a-f898c074a21c"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Move data to and from Azure Storage

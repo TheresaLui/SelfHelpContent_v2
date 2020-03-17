@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="hdinsight-debugyarnapps-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I'm having an issues with my YARN application

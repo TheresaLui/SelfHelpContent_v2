@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="6db0350a-e1a1-67b2-7359-356aed61f06f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Relationship View in Power BI Desktop

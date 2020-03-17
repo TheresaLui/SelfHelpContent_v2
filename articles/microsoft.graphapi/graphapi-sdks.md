@@ -7,11 +7,12 @@
 	ms.author="davidmu"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32689195"
+	supportTopicIds="32689195,32134056"
 	resourceTags=""
-	productPesIds="16953,16954,16955,16956"
-	cloudEnvironments="public"
+	productPesIds="16953,16954,16955,16956,16575"
+	cloudEnvironments="public, Fairfax"
 	articleId="e51e8e70-4e92-43fa-a581-724108a9d574"
+	ownershipId="AzureIdentity_GraphUsersAndGroupsAPIs"
 />
 
 # Microsoft Graph SDK and client libray issues

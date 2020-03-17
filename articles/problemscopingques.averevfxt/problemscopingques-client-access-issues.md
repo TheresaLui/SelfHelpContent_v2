@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="b57b5e5d-94b5-498e-93e1-a5fa74e8cdee"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Problems with client access to Avere vFXT cluster.
 ---

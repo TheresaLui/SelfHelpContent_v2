@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="0adf678d-7c39-4a49-b5b3-8d3634c15038"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # I need help with Import/Export

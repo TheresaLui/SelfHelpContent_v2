@@ -9,6 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
 	articleId="7bedaf87-db7e-482b-8d50-cd4ffa87c410"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems testing password reset policy

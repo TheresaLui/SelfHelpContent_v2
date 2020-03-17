@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public, Fairfax, Mooncake"
     articleId="d530b6fe-3096-40c1-9ef0-2bc37364bee5"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I could not enable Update Management

@@ -12,6 +12,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="55836a6c-04b9-4a21-9967-9c756a31932c"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to develop with CLI

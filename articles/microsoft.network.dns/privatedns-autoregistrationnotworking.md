@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="privatedns-autoregistrationnotworking"
+	ownershipId="CloudNet_DNS"
 />
 
 # Auto-registration of VM records is not working

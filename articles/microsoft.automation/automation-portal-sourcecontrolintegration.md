@@ -9,8 +9,9 @@
     supportTopicIds="32599928"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="087adda2-fcbc-4cff-ba4d-823f611ffff1"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Source Control Integration

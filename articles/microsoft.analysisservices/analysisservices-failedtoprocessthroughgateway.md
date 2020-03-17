@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="7e7572f7-a28b-491a-a6e9-34f0b63ece36"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Failed to process model with data source through gateway

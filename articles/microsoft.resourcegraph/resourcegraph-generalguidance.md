@@ -10,13 +10,16 @@
     supportTopicIds="32636054,32636052,32636053,32636055"
     resourceTags=""
     productPesIds="16716"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="e51ab471-de8f-4c71-b19b-298b7a40d48f"
+	ownershipId="compute_azureresourcegraph"
 />
 
 # Azure Resource Graph - Generic Guidance
 
 *If you're hitting issues regarding Microsoft Graph API, please create your support request under "Azure Active Directory App Integration and Development" service, and choose Graph API as your problem type.*
+
+*If you're hitting issues with [Azure Resource Explorer](https://resources.azure.com), please submit a GitHub issue [here](https://github.com/projectkudu/AzureResourceExplorer/issues).*
 
 This support request will be created for "Azure Resource Graph" (ARG) service. Azure Resource Graph is exposed in the following ways:
 

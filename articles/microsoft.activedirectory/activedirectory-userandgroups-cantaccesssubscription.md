@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public"
     	articleId="6b8e9f0b-f73a-4726-8e55-332c114b5223"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can’t access an Azure subscription

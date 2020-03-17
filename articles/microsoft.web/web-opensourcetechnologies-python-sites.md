@@ -10,8 +10,9 @@
 	supportTopicIds="32444084"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax"
 	articleId="25c3877c-0482-4695-8640-d26dbddac347"
+	ownershipId="Compute_AppService"
 />
 
 # open source technologies/python
@@ -28,10 +29,12 @@
 	
 **Deployment**
 
+* [Configure and Publish Python apps in Azure App Services (Windows)](https://docs.microsoft.com/visualstudio/python/publish-to-app-service-windows?view=vs-2019)
 * [Install Python Modules on Azure App Services](https://prashanthmadi.github.io/2016/12/09/install-python-modules-on-azure-app-services-new.html)
 	
 **Development**
 
+* [Getting started with Python apps in Azure App Services (Windows) using Visual Studio](https://docs.microsoft.com/visualstudio/ide/quickstart-python?view=vs-2019)
 * [Running Django App with HttpPlatformHandler in Azure App Services (Windows)](https://prashanthmadi.github.io/2016/11/15/django-app-with-httpplatformhandler-in-azure-app-services-windows-new.html)
 * [Running Flask App with HttpPlatformHandler in Azure App Services(Windows)](https://prashanthmadi.github.io/2017/02/12/running-flask-app-with-httpplatformhandler-in-azure-app-services-new.html)
 * [Running Flask App in Azure App Services(Linux)](https://prashanthmadi.github.io/2017/02/12/running-flask-app-with-httpplatformhandler-in-azure-app-services-new.html)

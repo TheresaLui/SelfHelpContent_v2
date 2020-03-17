@@ -11,6 +11,7 @@
     productPesIds=""
     supportTopicIds=""
     cloudEnvironments="MoonCake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
  
 # Data latency

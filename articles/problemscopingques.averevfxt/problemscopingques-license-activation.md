@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="6717d922-bce8-47e3-9c14-bd88912dcbde"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # License Activation Request
 ---

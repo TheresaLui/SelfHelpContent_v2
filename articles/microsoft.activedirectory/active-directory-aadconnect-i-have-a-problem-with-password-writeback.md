@@ -10,8 +10,9 @@
     supportTopicIds="32684517"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="3b956452-6faf-4b11-babc-c2bb0669d9fa"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem with Password Writeback

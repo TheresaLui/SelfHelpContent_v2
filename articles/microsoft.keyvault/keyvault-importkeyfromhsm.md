@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="a326f60c-684b-4df2-8b83-15e5dd4068c0"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to Generate and Transfer HSM-protected Keys for Azure Key Vault

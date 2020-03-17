@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="97a71036-3cec-45bc-9297-bfbb9dba88ab"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # customlogs-unexpectedresults

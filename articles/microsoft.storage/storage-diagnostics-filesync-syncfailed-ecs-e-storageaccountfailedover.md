@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Azure File Sync failed error - ECS_E_STORAGE_ACCOUNT_FAILED_OVER

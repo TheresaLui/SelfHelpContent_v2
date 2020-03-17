@@ -12,6 +12,7 @@
 	productPesIds="15629,16459,16461,16462,16598"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="8f25d274-c9e8-48ef-a590-3dad80217745"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot and resolve Azure Storage access issues with Shared Access Signature (SAS) Token

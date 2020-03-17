@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="6B24CFBF-A6D2-4B0B-9A66-020664EF9408"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Scoping questions for My database was reported as unavailable (Resource Health)
 ---

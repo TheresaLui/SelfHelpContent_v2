@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="72372ddb-82ce-4172-af6f-4d616a3844ff"
+	ownershipId="Compute_BotService"
 />
 
 # I have a problem with a channel

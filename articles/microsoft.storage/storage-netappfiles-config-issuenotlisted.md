@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppConfigIssueNotListed"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Common NetApp Config Issues 

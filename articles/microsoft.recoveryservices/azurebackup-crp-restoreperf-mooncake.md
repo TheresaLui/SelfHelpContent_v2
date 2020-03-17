@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-crp-restoreperf-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure backup - Restore is taking longer than expected 

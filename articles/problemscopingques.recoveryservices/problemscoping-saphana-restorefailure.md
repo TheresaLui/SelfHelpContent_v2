@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="cc2bea57-b728-43a9-a8e1-317dfd55ab07"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SAP HANA restore failure
 ---
@@ -123,6 +124,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Example: UserErrorHanaUnsupportedOperation",
+            "infoBalloonText": "Info: Please provide the error code that you are seeing in <a href='https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts'>Backup alerts</a>.",
             "required": false
         },
         {
@@ -151,10 +153,6 @@
                 {
                     "value": "Checked the Machine has Internet connectivity",
                     "text": "Checked the Machine has Internet connectivity"
-                },
-                {
-                    "value": "Checked the SAP HANA system has required permission for backup",
-                    "text": "Checked the SAP HANA system has required permission for backup"
                 },
                 {
                     "value": "dont_know_answer",

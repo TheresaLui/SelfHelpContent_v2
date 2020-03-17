@@ -14,6 +14,7 @@
 	resourceTags="windows"
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Operation not allowed on generalized Virtual Machine

@@ -12,6 +12,7 @@
     productPesIds="16572"
     cloudEnvironments="public,mooncake,fairfax"
 	articleId="virtualwan-connection-site-hub"
+	ownershipId="CloudNet_VirtualWAN"
 />
 
 # Create or associate connections from site to hub

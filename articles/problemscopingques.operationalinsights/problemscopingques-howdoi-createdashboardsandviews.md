@@ -10,6 +10,7 @@ supportTopicIds="32633016"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Create dashboards and views

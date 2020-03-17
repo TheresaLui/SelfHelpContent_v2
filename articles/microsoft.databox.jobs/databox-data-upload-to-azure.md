@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
 	articleId="Data Box - verifying data uploaded to Azure"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box upload to Azure

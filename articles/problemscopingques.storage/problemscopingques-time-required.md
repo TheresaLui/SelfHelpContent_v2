@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="bb8a93ca-13a4-4972-8714-eaafe179a6a9"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Storage issue with date time, migrate from external 
 ---

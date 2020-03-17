@@ -12,6 +12,7 @@
 	productPesIds="15629,16459,16461,16462,16598"
 	cloudEnvironments="public"
 	articleId="c68b1edf-b42d-41fe-8572-84cc7f61d666"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot and resolve Azure Storage access issues

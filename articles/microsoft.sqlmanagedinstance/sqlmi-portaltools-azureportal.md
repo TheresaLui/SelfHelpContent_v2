@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="c5130ae3-e734-44d2-9f04-d56a911e68d7"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Portal and Client tools

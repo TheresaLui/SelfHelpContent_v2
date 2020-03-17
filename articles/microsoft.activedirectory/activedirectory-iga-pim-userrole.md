@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="2004e382-2684-4e6c-9546-af4948c51907"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to manage role in a Microsoft Online Services portal after being assigned or activated

@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="privatedns-cantcreatezone"
+	ownershipId="CloudNet_DNS"
 />
 
 # I can't create a new private DNS zone

@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="fb486471-0ba5-4453-b474-7287048b5396"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Issue with Log Analytics Alerts
 ---

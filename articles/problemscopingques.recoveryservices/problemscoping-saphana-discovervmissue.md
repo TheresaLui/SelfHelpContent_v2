@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="75b25de5-3e57-44a7-bf88-0e6a4a569208"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for unable to discover VM
 ---
@@ -64,6 +65,7 @@
       "controlType": "textbox",
       "displayLabel": "Provide the error message if you are seeing:",
       "watermarkText": "Copy and paste the error message details",
+      "infoBalloonText": "Info: Please provide the error code that you are seeing in <a href='https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts'>Backup alerts</a>.",
       "required": false
     },
     {
@@ -84,10 +86,6 @@
         {
           "value": "Checked the Machine has Internet connectivity",
           "text": "Checked the Machine has Internet connectivity"
-        },
-        {
-          "value": "Checked the SAP HANA system has required permission for backup",
-          "text": "Checked the SAP HANA system has required permission for backup"
         },
         {
           "value": "dont_know_answer",

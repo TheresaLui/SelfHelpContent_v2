@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="ffd3d204-607f-4a47-aee4-8a61f4a03056"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with job performance

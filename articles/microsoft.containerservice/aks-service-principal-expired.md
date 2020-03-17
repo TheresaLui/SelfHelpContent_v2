@@ -6,6 +6,7 @@
     articleId="aks-update-service-principal"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Update AKS Service Principal 
@@ -20,7 +21,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.ContainerService/managedClusters",
   "recommendationFriendlyName": "UpdateServicePrincipal",

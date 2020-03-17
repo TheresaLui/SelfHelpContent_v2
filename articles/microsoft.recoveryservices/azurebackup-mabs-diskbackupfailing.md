@@ -12,6 +12,7 @@
             productPesIds="15207"
             cloudEnvironments="public"
             articleId="14f3337d-6413-48b5-b9b1-60d5f225944f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure backup server disk backup is failing

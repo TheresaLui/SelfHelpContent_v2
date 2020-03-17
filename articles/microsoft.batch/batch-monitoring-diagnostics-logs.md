@@ -11,7 +11,8 @@
     supportTopicIds="32636040"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Monitoring and Diagnostics - Log events

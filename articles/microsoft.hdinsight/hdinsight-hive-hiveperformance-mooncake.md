@@ -11,7 +11,8 @@
   resourceTags=""
   productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="hdinsight-hive-hiveperformance-mooncake"/>
+  ArticleId="hdinsight-hive-hiveperformance-mooncake"	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Hive Performance
 

@@ -10,8 +10,9 @@
 	supportTopicIds="32680685"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="reserved instance- unable to purchase"
+	ownershipId="ASMS_Billing"
 />
 
 # Reserved Instance- Unable to purchase or questions before purchase

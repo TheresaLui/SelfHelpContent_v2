@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="bed76785-4898-4eb3-bbec-05e03ab78c68"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Azure Data Studio

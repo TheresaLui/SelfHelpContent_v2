@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="classiccompute-autoscalemetricsnotdefined-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # When using Autoscale, I get an email stating 'metrics data not available'

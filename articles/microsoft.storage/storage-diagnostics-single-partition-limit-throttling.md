@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="storage"
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled due to single partition limit being exceeded

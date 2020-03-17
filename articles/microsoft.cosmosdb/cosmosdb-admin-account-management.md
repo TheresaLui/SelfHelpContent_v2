@@ -13,6 +13,7 @@
 	articleId="cosmosdb-admin-account-management"
 	displayOrder="20"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Manage an Azure Cosmos account
@@ -37,9 +38,11 @@ If after attempting to delete an account, you observe that nothing seems to happ
 If you are not able to delete a resource group, please consider the following solutions:  
 * Verify if there is a *lock* on an account located in the resource group that is preventing it from being deleted. You can verify this by navigating to the *Account* blade, selecting the account, and then view *Locks*.
 * Verify if you have a *delete lock* enabled on your resource group. You can verify this by navigating to the *Resource Group* blade, select the resource where the account is located, and then view *Locks*.
-* You also may have a lock on an additional items located within the resource group.  It is recommended to review the items for any enabled *Delete Locks*. 
+* You also may have a lock on an additional items located within the resource group.  It is recommended to review the items for any enabled *Delete Locks*.  
 
-
+### **Unable to update Consistency as well as disable multi-region writes**
+With VNET enabled accounts, the selected user making changes to the account must have permissions on the VNET.
+* Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency 
 
 ## **Recommended Documents**  
 

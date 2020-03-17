@@ -15,6 +15,7 @@ supportTopicIds="32612544"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Workspace ARM template deployment issues

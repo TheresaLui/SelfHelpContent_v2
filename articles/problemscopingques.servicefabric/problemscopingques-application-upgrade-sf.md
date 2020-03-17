@@ -6,9 +6,10 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32608939"
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-application-upgrade-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # Application Upgrade
 ---

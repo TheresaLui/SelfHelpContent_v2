@@ -6,6 +6,7 @@
     articleId="e4fc6ecb-b3e8-4494-800f-547da6a57f28_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Convert Standard HDD to Premium SSD for Performance
 ---
@@ -23,7 +24,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "MDHDDtoPremiumForPerformance",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "lisson@microsoft.com",
     "icm": {

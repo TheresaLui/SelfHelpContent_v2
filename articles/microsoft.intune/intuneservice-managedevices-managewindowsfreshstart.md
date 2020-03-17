@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="55d44059-fffb-47e8-ae6e-2134a9d76166"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Manage Windows Fresh Start
