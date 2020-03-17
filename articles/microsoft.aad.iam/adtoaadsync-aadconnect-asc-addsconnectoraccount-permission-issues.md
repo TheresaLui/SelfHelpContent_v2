@@ -12,7 +12,7 @@ pageTitle="Permission issues on AD DS Connector Account"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Permission issues on AD DS Connector Account

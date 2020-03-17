@@ -7,7 +7,7 @@
   selfHelpType="generic"
   supportTopicIds="32570264"
   productPesIds="14785"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax"
  	articleId="6b5eed8d-dba6-47ff-a9cf-9de9badeaf22"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
