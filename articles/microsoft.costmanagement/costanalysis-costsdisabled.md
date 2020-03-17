@@ -1,5 +1,5 @@
 <properties
-	articleId="costanalysis-costsdisabled"
+	articleId="d879828a-a065-44f2-b919-8973d650319f"
 	articleTags="access"
 	pageTitle="What does costs are disabled for your organization mean?"
 	description="Cost disabled"
