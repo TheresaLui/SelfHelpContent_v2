@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "209aa00a-5ea8-2d0f-5a04-44314d9f5738",
+      "longDescription": "",
+      "shortDescription": "You are expecting to see data for a longer period of time (based on your license) and is not seeing them",
+      "searchTags": "issue with a data retention period",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dd46276-b8b3-2f89-431b-7a79260c25ec",
       "longDescription": "",
       "shortDescription": "You have a problem with installing AADConnect Health",
