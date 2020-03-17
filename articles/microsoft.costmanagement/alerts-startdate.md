@@ -1,37 +1,24 @@
 <properties
-	articleTags="costmanagement,budgets"
-	pageTitle="Why is the +Add budget button disabled for me?"
-	description="Budgets-add budgets"
+	articleId="66d6a3fe-2042-4587-ba7e-346cd10466e3"
+	articleTags="costmanagement,budgets,alerts"
+	pageTitle="Why is the Start date button disabled when I select a Month or Billing month reset period?"
+	description="Budgets-alerts-startdate"
 	displayOrder="5"
-	authors="prdasneo"
-	ms.author="prdasneo"
+	authors="shasulin"
+	ms.author="shasulin"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
-	articleId="5d27454f-bdf4-4a28-b398-b9fb58dd73a5"
 	resource="budgets"
 	resourceTags=""
 	productPesIds="15659"
-	supportTopicIds="32615285"
+	supportTopicIds=""
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	ownershipId="ASMS_Billing"
 />
 
-# Why is the '+ Add' budget button disabled for me? 
+# Why is the Start date button disabled when I select a Month or Billing month reset period?
 
-In order to create a budget, you need one of the following permissions: 
-
-* Management Group
-* Subscription
-* Resource Group Scopes
-* Cost Management Contributor
-* Owner
-* Contributor
-* Enterprise Customer Only: Enrollment, Department, Account Scopes
-* Enrollment Admin (set budget at Enrollment scope)
-* Department Admin (set budget at Department scope)
-* Account Owner (set budget at Account scope)
-* Modern Customer Agreement Only: Billing Account, Billing Profile, Invoice Section Scopes
-* Azure subscription creator 
+Budgets are aligned to the current calendar month or current billing period (in the case where "Billing Month" is selected), so we pre-populate this value for you.
 
 ## **Recommended Documents**
 

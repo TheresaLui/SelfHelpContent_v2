@@ -1,37 +1,24 @@
 <properties
-	articleTags="costmanagement,budgets"
-	pageTitle="Why is the +Add budget button disabled for me?"
-	description="Budgets-add budgets"
+	articleId="ca13fcf0-375d-47fc-848f-a97e6a3f0a22"
+	articleTags="costmanagement,budgets,alerts"
+	pageTitle="Why cant I set a budget against a subscription I just created?"
+	description="Budgets-for-new-subs"
 	displayOrder="5"
-	authors="prdasneo"
-	ms.author="prdasneo"
+	authors="shasulin"
+	ms.author="shasulin"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
-	articleId="5d27454f-bdf4-4a28-b398-b9fb58dd73a5"
 	resource="budgets"
 	resourceTags=""
 	productPesIds="15659"
-	supportTopicIds="32615285"
+	supportTopicIds=""
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	ownershipId="ASMS_Billing"
 />
 
-# Why is the '+ Add' budget button disabled for me? 
+# Why can't I set a budget against a subscription I just created?
 
-In order to create a budget, you need one of the following permissions: 
-
-* Management Group
-* Subscription
-* Resource Group Scopes
-* Cost Management Contributor
-* Owner
-* Contributor
-* Enterprise Customer Only: Enrollment, Department, Account Scopes
-* Enrollment Admin (set budget at Enrollment scope)
-* Department Admin (set budget at Department scope)
-* Account Owner (set budget at Account scope)
-* Modern Customer Agreement Only: Billing Account, Billing Profile, Invoice Section Scopes
-* Azure subscription creator 
+After the creation of a subscription, the data takes 24-48 hours to process before setting a budget against it.<br>
 
 ## **Recommended Documents**
 

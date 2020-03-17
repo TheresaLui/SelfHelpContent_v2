@@ -1,37 +1,26 @@
 <properties
+	articleId="aacad55b-036b-4577-bff4-f14c4006b0e4"
 	articleTags="costmanagement,budgets"
-	pageTitle="Why is the +Add budget button disabled for me?"
-	description="Budgets-add budgets"
+	pageTitle="I created a budget when my cost for the current month was already over-budget. Why did I not receive an alert?"
+	description="Budgets-alert over budget threshold"
 	displayOrder="5"
-	authors="prdasneo"
-	ms.author="prdasneo"
+	authors="shasulin"
+	ms.author="shasulin"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
-	articleId="5d27454f-bdf4-4a28-b398-b9fb58dd73a5"
 	resource="budgets"
 	resourceTags=""
 	productPesIds="15659"
-	supportTopicIds="32615285"
+	supportTopicIds=""
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	ownershipId="ASMS_Billing"
 />
 
-# Why is the '+ Add' budget button disabled for me? 
+# I created a budget when my cost for the current month was already over-budget. Why did I not receive an alert?
 
-In order to create a budget, you need one of the following permissions: 
+If you have already exceeded a given cost threshold when you create a budget that alert will not fire.<br>
+Once a new cycle begins, if you breach the threshold then the alert will fire.
 
-* Management Group
-* Subscription
-* Resource Group Scopes
-* Cost Management Contributor
-* Owner
-* Contributor
-* Enterprise Customer Only: Enrollment, Department, Account Scopes
-* Enrollment Admin (set budget at Enrollment scope)
-* Department Admin (set budget at Department scope)
-* Account Owner (set budget at Account scope)
-* Modern Customer Agreement Only: Billing Account, Billing Profile, Invoice Section Scopes
-* Azure subscription creator 
 
 ## **Recommended Documents**
 

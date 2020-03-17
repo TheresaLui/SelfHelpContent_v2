@@ -1,41 +1,28 @@
 <properties
-	articleTags="costmanagement,budgets"
-	pageTitle="Why is the +Add budget button disabled for me?"
-	description="Budgets-add budgets"
+	articleId="d8ccf0a9-4af1-4dd4-b6bd-bad96cd4fa93"
+	articleTags="costmanagement,budgets,alerts"
+	pageTitle="Why do I not see a graph of my costs in the budget creation experience?"
+	description="Budgets-config-graph"
 	displayOrder="5"
-	authors="prdasneo"
-	ms.author="prdasneo"
+	authors="shasulin"
+	ms.author="shasulin"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
-	articleId="5d27454f-bdf4-4a28-b398-b9fb58dd73a5"
 	resource="budgets"
 	resourceTags=""
 	productPesIds="15659"
-	supportTopicIds="32615285"
+	supportTopicIds=""
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	ownershipId="ASMS_Billing"
 />
 
-# Why is the '+ Add' budget button disabled for me? 
+# Why do I not see a graph of my costs in the budget creation experience?
 
-In order to create a budget, you need one of the following permissions: 
-
-* Management Group
-* Subscription
-* Resource Group Scopes
-* Cost Management Contributor
-* Owner
-* Contributor
-* Enterprise Customer Only: Enrollment, Department, Account Scopes
-* Enrollment Admin (set budget at Enrollment scope)
-* Department Admin (set budget at Department scope)
-* Account Owner (set budget at Account scope)
-* Modern Customer Agreement Only: Billing Account, Billing Profile, Invoice Section Scopes
-* Azure subscription creator 
+We need a minimum of 2 months of cost data before we can render a graph to assist you with budget creation. <br> 
 
 ## **Recommended Documents**
 
-* Video tutorial: [Create a budget in the Azure portal](https://www.youtube.com/watch?v=ExIVG_Gr45A&t=4s)<br>
+* Video tutorial:[Create a budget in the Azure portal](https://www.youtube.com/watch?v=ExIVG_Gr45A&t=4s)<br>
 * [Prerequisites for viewing and customizing budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#prerequisites)<br>
 * [Create and manage budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#create-a-budget-in-the-azure-portal)<br>
 * [Configure automation with Azure Action Groups and Budgets API](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#trigger-an-action-group)<br>

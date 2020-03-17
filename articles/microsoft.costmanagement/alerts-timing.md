@@ -1,37 +1,24 @@
 <properties
-	articleTags="costmanagement,budgets"
-	pageTitle="Why is the +Add budget button disabled for me?"
-	description="Budgets-add budgets"
+	articleId="9160aece-2b96-48f2-bd0d-16ee831b81c6"
+	articleTags="costmanagement,budgets,alerts"
+	pageTitle="When should I expect to receive an alert after I exceed one of my defined budget alert thresholds?"
+	description="Budgets-alerts-timing"
 	displayOrder="5"
-	authors="prdasneo"
-	ms.author="prdasneo"
+	authors="shasulin"
+	ms.author="shasulin"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
-	articleId="5d27454f-bdf4-4a28-b398-b9fb58dd73a5"
 	resource="budgets"
 	resourceTags=""
 	productPesIds="15659"
-	supportTopicIds="32615285"
+	supportTopicIds=""
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	ownershipId="ASMS_Billing"
 />
 
-# Why is the '+ Add' budget button disabled for me? 
+# When should I expect to receive an alert after I exceed one of my defined budget alert thresholds?
 
-In order to create a budget, you need one of the following permissions: 
-
-* Management Group
-* Subscription
-* Resource Group Scopes
-* Cost Management Contributor
-* Owner
-* Contributor
-* Enterprise Customer Only: Enrollment, Department, Account Scopes
-* Enrollment Admin (set budget at Enrollment scope)
-* Department Admin (set budget at Department scope)
-* Account Owner (set budget at Account scope)
-* Modern Customer Agreement Only: Billing Account, Billing Profile, Invoice Section Scopes
-* Azure subscription creator 
+Budgets are evaluated every 4 hours. It takes a minimum of 8 hours for usage data to reach the budgets system. Given this, alerts may take as long as 12 hours to fire after you exceed a threshold. 
 
 ## **Recommended Documents**
 
