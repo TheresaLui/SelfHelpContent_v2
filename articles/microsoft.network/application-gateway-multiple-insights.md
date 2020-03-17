@@ -11,7 +11,8 @@
     diagnosticScenario="AppGwCertificateIssuesAzurePortalInsight,AppGwConnectionTimedOutAzurePortalInsight,AppGwUnknownBackendHealthAzurePortalInsight"
     supportTopicIds=""
     cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Issues with Application Gateway
 

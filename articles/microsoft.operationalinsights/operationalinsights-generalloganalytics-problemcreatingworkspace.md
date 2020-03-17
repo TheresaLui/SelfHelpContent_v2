@@ -1,7 +1,7 @@
 
 <properties
-pageTitle="Problems creating workspace"
-description="Problems creating workspace"
+pageTitle="Create or delete workspace"
+description="Create or delete workspace"
 service="microsoft.operationalinsights"
 resource="workspaces"
 symptomID=""
@@ -13,32 +13,29 @@ selfHelpType="resource"
 supportTopicIds="32612513"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
-	articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
+cloudEnvironments="Public, Fairfax, Mooncake"
+articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Problems While Creating Workspace
-Review common problems and solutions related to workspace creation:
+# Create or delete workspace
 
-* **Error message: *Pricing tier doesn't match the subscription's billing model*.**<br>
+### **Delete Log Analytics workspace**
 
-This error can occur in these cases:<br>
+When you delete a Log Analytics workspace, a soft-delete operation is performed to allow the recovery of the workspace including its data and connected agents within 14 days. Then, the workspace and its data are permanently purged and are non-recoverable - The workspace name is 'released' and you can use it to create a new workspace. 
 
-   * Create a workspace with *'pergb2018'* pricing plan (introduced in April 2018), while the subscription is not in *'pergb2018'* pricing plan.
-   * Create a *'Free'* workspace in subscription in *'pergb2018'* pricing plan.<br>
+* You can delete a workspace using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.operationalinsights/remove-azurermoperationalinsightsworkspace?view=azurermps-6.13.0), [REST API](https://docs.microsoft.com/rest/api/loganalytics/workspaces/delete), or in the [Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#azure-portal)
+* Installed solutions and linked services such as Azure Automation account are permanently removed from the workspace and can’t be recovered
+* You can **override the soft-delete behavior** and [delete your workspace permanently](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete)
 
-  Workspaces in subscriptions that were created, or [changed](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#moving-to-the-new-pricing-model) to *'pergb2018'* can only be in the *'pergb2018'* pricing plan. When creating a workspace with *'PerNode'* or *'Standalone'* pricing plan in *'pergb2018'* pricing plan subscription, the workspace pricing plan is set to *'pergb2018'* instead.
+### **Creating Log Analytics workspace**
 
-* **[Can’t create workspaces in West Central US region](https://docs.microsoft.com/azure/log-analytics/log-analytics-faq#q-why-i-cant-create-workspaces-in-west-central-us-region)<br>**
-
-This region is at temporary capacity limit. The limit is planned to be addressed in the first half of 2019.
-
-* **Insufficient Permissions<br>**
-
-You must have *'Log Analytics Contributor'* permissions for workspace creation.<br>
-
+* You must have *'Log Analytics Contributor'* permissions to create Log Analytics workspace
+* You can create Log Analytics workspace in any of the supported [regions](https://azure.microsoft.com/global-infrastructure/services/?products=monitor&regions=all)
+ 
 ## **Recommended Documents**
 
-* [New pricing model and Operations Management Suite subscription entitlements](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#new-pricing-model-and-operations-management-suite-subscription-entitlements)
-* [Moving to the new pricing model](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#moving-to-the-new-pricing-model)
-* [Managing access to Log Analytics using Azure permissions](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-access?toc=/azure/azure-monitor/toc.json#managing-access-to-log-analytics-using-azure-permissions)
+* [Permanent workspace delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete)
+* [Recover a workspace](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#recover-workspace)
+* [Manage access to log data and workspaces in Azure Monitor](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-access?toc=/azure/azure-monitor/toc.json#managing-access-to-log-analytics-using-azure-permissions)
+* [Log Analytics supported regions](https://azure.microsoft.com/global-infrastructure/services/?products=monitor&regions=all)<br>

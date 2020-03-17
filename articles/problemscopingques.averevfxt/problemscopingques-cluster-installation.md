@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="55d7aac8-78d9-4461-93a3-90a95df32bf6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Problems installing and configuring Avere vFXT
 ---

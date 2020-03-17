@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="sqlmanagedinstance-perf-plan-cache-defect"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Managed Instance - Plan cache defect
@@ -40,5 +41,3 @@ This can be achieved through scheduled SQL Agent job and using the following DBC
 - dbcc freesystemcache('SQL Plans', internal) 
 
 Negative impact of these commands to the user workload is negligible compared to the performance degradation caused by the defect.
-
-__If you apply this mitigation please contact <clperfdevs@service.microsoft.com> so we could let you know when the fix is deployed and SQL Agent job can be turned off.__

@@ -10,8 +10,9 @@
 	supportTopicIds="32632952"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="accessandresourcemanagementhowtoaddandmanageadmins"
+	ownershipId="ASMS_SubscriptionManagement"
 />
  
 # How do I add or manage administrators for my Azure Subscription?

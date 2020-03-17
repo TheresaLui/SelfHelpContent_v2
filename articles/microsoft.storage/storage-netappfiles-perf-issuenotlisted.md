@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppPerfIssueNotListed"
+	ownershipId="AzureNetAppFiles"
 />
 
 # NetApp Files Perf Issue not listed above 

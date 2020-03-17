@@ -5,15 +5,17 @@
 	authors="radwiv"
         ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32591158"
-	productPesIds="16094"
+	supportTopicIds="32591158,32584882"
+	productPesIds="16094,15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Site-to-Site VPN connectivity issues information
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Site-to-site connectivity issues",
     "fileAttachmentHint": "Upload your VPN configuration file. Make sure you edit or remove any pre-shared keys or secrets from the file",
     "formElements": [
@@ -120,8 +122,8 @@
                     "text": "WatchGuard"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -154,8 +156,8 @@
                     "text": "Latency"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

@@ -10,8 +10,9 @@
 	supportTopicIds="32690986"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="servicefabric-clusternodesstuckindisablingstate"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Nodes are stuck in disabling state

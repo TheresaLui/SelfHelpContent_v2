@@ -3,15 +3,16 @@
 	description="Information about querying or provisioning issues using Microsoft Graph APIs."
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
-	authors="dkershaw10"
-	ms.author="dkershaw"
+	authors="davidmu1"
+	ms.author="davidmu"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32689193"
 	resourceTags=""
-	productPesIds="16954,16955,16956"
-	cloudEnvironments="public"
-	articleId="757bafde-f257-47fe-9114-2b24c5bf4ac9"
+	productPesIds="16954,16955,16956,16575"
+	cloudEnvironments="public, Fairfax"
+	articleId="1ab76fd2-7673-4011-b9fe-8ac1335f260c"
+	ownershipId="AzureIdentity_GraphMessagesAndContactsAPIs"
 />
 
 # Microsoft Graph querying or provisioning issues

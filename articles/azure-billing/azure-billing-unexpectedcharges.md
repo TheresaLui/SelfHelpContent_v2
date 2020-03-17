@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="unexpected charges"
+	ownershipId="ASMS_Billing"
 />
 
 # Prevent unexpected charges in Azure

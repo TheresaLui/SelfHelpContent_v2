@@ -13,6 +13,7 @@
 	articleId="cosmosdb-notebooks"
 	displayOrder="91"
 	category="Azure Cosmos DB - Notebooks"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Jupyter Notebooks
@@ -23,9 +24,14 @@ Unable to create account with notebooks, or enable notebooks on an existing acco
 
 ## **Recommended Steps**
 
-Built-in notebooks for Azure Cosmos DB are currently available in the following Azure regions: Australia East, East US, East US 2, North Europe, South Central US, Southeast Asia, UK South, West Europe and West US 2.
+Built-in notebooks for Azure Cosmos DB are currently available in the following Azure regions: Australia East, East US, East US 2, North Europe, South Central US, Southeast Asia, UK South, West Europe and West US 2.  
+To use notebooks, create a new account with notebooks or enable notebooks on an existing account in one of these regions.  
 
-To use notebooks, create a new account with notebooks or enable notebooks on an existing account in one of these regions.
+
+### **500 Errors While Loading Notebooks**  
+If you are receiving 500 errors while loading your notebooks, typically this is caused by exceeding memory in your workspace. Resetting your workspace should correct the problem. 
+- Please click on *Reset Workspace* option on data explorer page and allow some time for the operation to complete. Once completed you should be able to recover your notebooks.
+
 
 ### **Recommended Documents**  
 

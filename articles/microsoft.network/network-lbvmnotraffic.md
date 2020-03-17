@@ -14,6 +14,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="8ae1e668-23e1-42d7-8e23-5fb74f1962e7"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # My load balanced VMs are not receiving traffic

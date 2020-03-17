@@ -13,7 +13,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Password writeback is not enabled

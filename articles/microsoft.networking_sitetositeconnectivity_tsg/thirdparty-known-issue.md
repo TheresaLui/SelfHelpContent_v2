@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="026019a6-54e1-46f9-b97a-04a5971b3ecb"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Known Issue with 3rd Party Device

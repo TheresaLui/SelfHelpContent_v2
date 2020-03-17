@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # <-- I'm having issues managing a user-assigned managed identity -->

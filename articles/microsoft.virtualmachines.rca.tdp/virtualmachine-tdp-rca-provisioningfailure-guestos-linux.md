@@ -14,6 +14,7 @@
 	resourceTags="linux"
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Operating System Provisioning Timeout Failure

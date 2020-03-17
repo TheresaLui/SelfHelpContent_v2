@@ -9,6 +9,7 @@
   productPesIds="14785"
   cloudEnvironments="public"
  	articleId="e005a535-ad31-4c6a-a95e-0a683131e1f1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues developing apps against PowerBI

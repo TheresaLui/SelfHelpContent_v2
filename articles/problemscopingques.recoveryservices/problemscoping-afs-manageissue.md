@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	       articleId="04e81c26-e724-4026-b744-0edbf9ae5eeb"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Azure File Share backup management issue
 ---

@@ -9,6 +9,7 @@
   productPesIds="14947"
   cloudEnvironments="public"
 	articleId="00d58d9c-fcb3-47e8-9693-64e23ed468b0"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Installing or configuring cloud-based MFA AD FS adapter

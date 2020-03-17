@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="4b926241-7932-4f07-8f7b-1b2b46bda2ed"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Monitoring VMs: Windows Events Issues

@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32565599"
     productPesIds="14785,16578,16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="4077bf1c-7ac9-4eb2-8a44-152c9f92d9c5"
-    />
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # Other problems with password reset
 

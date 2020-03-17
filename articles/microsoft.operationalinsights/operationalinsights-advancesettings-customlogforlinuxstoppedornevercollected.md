@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="53eec47a-0c66-4961-8edd-599a4a29bb10"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Custom Logs for Linux - Added but stopped or never collected

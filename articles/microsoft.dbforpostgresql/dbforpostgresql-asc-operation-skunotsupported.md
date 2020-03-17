@@ -13,7 +13,8 @@
 	supportTopicIds="32639966, 32639980, 32639988, 32639998, 32640024, 32640028"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Given edition or sku is not supported in this region

@@ -12,6 +12,7 @@
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="53b04342-1802-47dd-84e1-0d4988baaa01"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Cloud-to-device messages failing or timing out

@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="379ee528-035d-46ef-9db5-db77176467c4"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Long-term back up retention in managed instance

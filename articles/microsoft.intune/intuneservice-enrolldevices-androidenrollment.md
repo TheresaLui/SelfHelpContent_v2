@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="65656556-e586-4025-b0c0-dbb2af65c481"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Enroll Devices - Android enrollment

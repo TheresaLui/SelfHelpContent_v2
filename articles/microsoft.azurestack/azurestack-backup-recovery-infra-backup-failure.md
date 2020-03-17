@@ -10,8 +10,9 @@
     supportTopicIds="32629217, 32629218"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="abdc2tg3-706d-401c-b984-f433892f1e9f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack infrastructure Backup failure

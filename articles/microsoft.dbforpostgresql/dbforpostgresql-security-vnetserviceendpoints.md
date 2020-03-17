@@ -10,8 +10,9 @@
     supportTopicIds="32640029"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="650bfaca-c013-49b7-a158-eba8cf126181"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Managing VNet service endpoints for your Azure Database for PostgreSQL servers

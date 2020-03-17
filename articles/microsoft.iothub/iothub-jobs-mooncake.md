@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="iothub-jobs-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # IoT Hub job issues

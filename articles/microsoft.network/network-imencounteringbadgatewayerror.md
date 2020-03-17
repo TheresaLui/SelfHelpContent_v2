@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="98299c6f-5e7f-403c-b12a-1b94e1cebe67"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # I'm encountering Bad Gateway Error (502)

@@ -10,8 +10,9 @@
     supportTopicIds="32636419"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-ambari-ui"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Ambari UI is not loading Troubleshooting
 

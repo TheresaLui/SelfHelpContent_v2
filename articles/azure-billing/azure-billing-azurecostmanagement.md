@@ -11,6 +11,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="3b3bee48-b173-41b4-9328-54220f16b94d"
+	ownershipId="ASMS_Billing"
 />
 
 # Azure Cost Management

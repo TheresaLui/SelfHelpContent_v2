@@ -12,6 +12,7 @@
 	ms.author="anandh"
 	cloudEnvironments="MoonCake"
 	articleId="storage-myvmdiskisslow-mooncake"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # My VM/Disk is slow

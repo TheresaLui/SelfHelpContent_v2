@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639989"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-security-superuseraccess"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Security - I need superuser access
 ---

@@ -10,8 +10,9 @@
 	supportTopicIds="32680688"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="cancelswitchorreenablesubscriptions-issue not listed"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Cancel Subscription-issue not listed

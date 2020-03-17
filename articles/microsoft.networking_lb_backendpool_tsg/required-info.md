@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="304ab667-c4ca-4f70-9bb7-e4723237eb4c"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check scope and required information

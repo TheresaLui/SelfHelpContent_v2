@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="b61692e8-5407-4199-888c-0ea3eff0402a"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # The iotedged service is in a failed state

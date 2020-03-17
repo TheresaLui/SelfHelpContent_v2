@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="6B3F74A4-C6F9-4626-BE17-7553DAAC6620"
+	ownershipId="Compute_BotService"
 />
 # Activity not working on a specific Channel
 ---
@@ -133,6 +134,10 @@
                 {
                     "value": "channel_2",
                     "text": "Web Chat"
+                },
+		{
+                    "value": "channel_14",
+                    "text": "Direct Line Speech"
                 },
                 {
                     "value": "channel_3",

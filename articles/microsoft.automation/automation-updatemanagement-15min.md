@@ -10,8 +10,9 @@
     supportTopicIds="32599864"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="26220297-1137-4a58-b966-f1572984c85b"
+	ownershipId="Compute_Automation"
 />
 
 # I enabled Update Management but it says "this can take a few minutes"
@@ -42,6 +43,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
 * Follow the troubleshooting guide for ["Machines don't show up in the portal"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
 
 ## **Recommended Documents**
 

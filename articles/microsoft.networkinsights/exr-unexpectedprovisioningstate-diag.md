@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # ExpressRoute Virtual Network Gateway Not Provisioned
 <!--issueDescription-->

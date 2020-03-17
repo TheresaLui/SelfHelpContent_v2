@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="3fdd9bbd-a79b-dc62-89c9-29430b5ff156"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Organizing subscriptions and resource groups within the Enterprise

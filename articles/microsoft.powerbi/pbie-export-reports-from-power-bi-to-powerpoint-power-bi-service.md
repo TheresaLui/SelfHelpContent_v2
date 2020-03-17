@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="f5ac28d5-d83b-ddc1-7fa9-ce64e6dba4ba"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Export reports from Power BI to PowerPoint

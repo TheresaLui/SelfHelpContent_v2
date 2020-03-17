@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="MoonCake"
 	  articleId="automation-troubleshoot-map-problemswithdesiredstateconfiguration-mooncake"
+	ownershipId="Compute_Automation"
 />
 
 # Problems enabling or using Desired State Configuration (DSC)

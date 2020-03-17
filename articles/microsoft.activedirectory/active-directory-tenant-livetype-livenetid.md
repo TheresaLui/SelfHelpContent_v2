@@ -12,7 +12,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Domain Inconsistency

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630426"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="c5bbcb9b-61f7-438a-8cb8-0f66bb01a54b"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # backup/restore/how to questions or planning a recovery strategy

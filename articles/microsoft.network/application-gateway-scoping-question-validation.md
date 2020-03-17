@@ -11,7 +11,8 @@
     diagnosticScenario="ApplicationGatewayScopingQuestionValidationMessage"
     supportTopicIds=""
     cloudEnvironments="public,mooncake,fairfax,blackforest"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # URL entered is not in the correct format
 

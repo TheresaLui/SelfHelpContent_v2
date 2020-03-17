@@ -12,6 +12,7 @@
 	productPesIds="16668"
 	cloudEnvironments="public"
 	articleId="0c47f09f-53d1-4336-bb4b-e5f36c8fb434"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # GitHub Getting Started Issues

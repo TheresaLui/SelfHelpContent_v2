@@ -12,6 +12,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="d5909ca2-2a4a-4d6b-af19-b81178cdd466"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # What is Premium Block Blob Storage

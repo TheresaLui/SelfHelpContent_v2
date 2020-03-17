@@ -6,6 +6,7 @@
     articleId="893a1342-e1f6-49ec-97dc-c5c4471438c2_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Optimize Unused Containers and Geo-replications in Azure Cosmos DB
 ---

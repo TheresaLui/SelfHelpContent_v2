@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="a530ae85-23cb-4f3c-b86a-5d9bf4ecd660"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # WAF Configuration and Setup

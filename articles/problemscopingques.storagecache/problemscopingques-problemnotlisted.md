@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="a0f174a7-bf33-426e-bf76-f8333fce8130"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # My Problem is not Listed
 ---

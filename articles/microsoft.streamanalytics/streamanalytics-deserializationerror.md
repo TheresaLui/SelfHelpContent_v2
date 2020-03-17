@@ -11,8 +11,9 @@
 	supportTopicIds="32628778"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Malformed Input Event Causes Deserialization Errors

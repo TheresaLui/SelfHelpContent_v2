@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="a8104f96-97c6-e58e-5487-32d3e916f207"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Enroll your US Government organization in the Power BI service

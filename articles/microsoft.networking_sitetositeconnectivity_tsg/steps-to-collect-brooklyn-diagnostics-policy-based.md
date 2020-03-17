@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="2b96812f-70a5-4de7-856f-e5ec13e8a4ec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to collect Brooklyn Diagnostics for Policy Based VPN

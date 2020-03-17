@@ -9,6 +9,7 @@
 	cloudEnvironments="public,MoonCake,FairFax"
 	schemaVersion="1"
 	articleId="c8985398-388f-4572-9ae6-dc8d002affb5"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # How to choose data migration solution

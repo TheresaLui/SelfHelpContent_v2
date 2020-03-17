@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax, mooncake"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My activity log alert didn't fire when it should have
