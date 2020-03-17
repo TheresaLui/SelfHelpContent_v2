@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8c31b005-81a6-93d1-b2a6-1a1934f5e9e8",
+      "longDescription": "",
+      "shortDescription": " Azure AD license usage questions should be handled by previous topic and other license usage problems should go to respective license technical team",
+      "searchTags": "license usage questions",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8f5aa2d5-f30e-a00e-6cb2-e8ee2f9d23f2",
       "longDescription": "",
       "shortDescription": "Problems creating a new user in Azure AD, including user profiles and properties issues",
