@@ -22,4 +22,4 @@ Most users are able to resolve their Windows Failover Cluster Service issues usi
 ## **Recommended Documents**
 
 * [How to Troubleshoot Create Cluster Failures](https://techcommunity.microsoft.com/t5/failover-clustering/how-to-troubleshoot-create-cluster-failures/ba-p/371780)
-* [SQL Failover Cluster Troubleshooting](https://docs.microsoft.com/en-us/sql/sql-server/failover-clusters/windows/failover-cluster-troubleshooting?view=sql-server-ver15)
+* [SQL Failover Cluster Troubleshooting](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/failover-cluster-troubleshooting?view=sql-server-ver15)
