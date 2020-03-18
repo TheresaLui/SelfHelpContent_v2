@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="activitylog-integrate-3rd-party"
     productPesIds="16251"
-    supportTopicIds="32684711"
+    supportTopicIds="32688872"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
     ownershipId="AzureMonitoring_AzureMetrics"
 />
