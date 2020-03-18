@@ -1,8 +1,8 @@
 <properties
 	pageTitle="How to choose data migration solution"
 	description="How to choose data migration solution"
-	authors="Passaree"
-    ms.author="passap"
+	authors="Sijia"
+    	ms.author="siz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32631235,32632044"
 	productPesIds="15629,16459"
@@ -152,7 +152,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": false
         },
          {
             "id": "network_bandwidth",
@@ -202,7 +202,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "transfer_frequency",
@@ -224,7 +224,7 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
