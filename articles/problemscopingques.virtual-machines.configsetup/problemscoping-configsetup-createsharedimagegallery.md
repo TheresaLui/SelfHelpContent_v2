@@ -14,7 +14,8 @@
 # Config and Setup
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Unable to Create Shared Gallery, Image Definition or Image Version",
     "fileAttachmentHint": "",
     "formElements": [
