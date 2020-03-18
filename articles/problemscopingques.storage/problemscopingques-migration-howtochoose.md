@@ -105,47 +105,43 @@
             "required": true
         },
         {
-            "id": "data_size",
+            "id": "data_size_tb",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Estimated data size to migrate",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "under50GB",
-                    "text": "Under 50 GB"
+                    "value": "0.05",
+                    "text": "50 GB"
                 },
                 {
-                    "value": "50GB_100GB",
-                    "text": "50 GB - 100 GB"
+                    "value": "0.1",
+                    "text": "100 GB"
                 },
                 {
-                    "value": "100GB_1TB",
-                    "text": "100 GB - 1 TB"
+                    "value": "1",
+                    "text": "1 TB"
                 },
                 {
-                    "value": "1TB_50TB",
-                    "text": "1 TB - 50 TB"
+                    "value": "50",
+                    "text": "50 TB"
                 },
                 {
-                    "value": "50TB_100TB",
-                    "text": "50 TB - 100 TB"
+                    "value": "100",
+                    "text": "100 TB"
                 },
                 {
-                    "value": "100TB_500TB",
-                    "text": "100 TB - 500 TB"
+                    "value": "500",
+                    "text": "500 TB"
                 },
                 {
-                    "value": "500TB_1PB",
-                    "text": "500 TB - 1 PB"
+                    "value": "1000",
+                    "text": "1 PB"
                 },
                 {
-                    "value": "1PB_5PB",
-                    "text": "1 PB - 5 PB"
-                },
-                {
-                    "value": "over5PB",
-                    "text": "Greater than 5 PB"
+                    "value": "5000",
+                    "text": "5 PB"
                 },
                 {
                     "value": "dont_know_answer",
