@@ -10,7 +10,7 @@
 	articleId="insights-alert-quota"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629678,32629682,32629683,32630730"
+	supportTopicIds="32629678,32629682,32629683"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
