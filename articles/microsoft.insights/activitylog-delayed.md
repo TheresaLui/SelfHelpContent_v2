@@ -16,12 +16,12 @@
 <-- activitylog-delayed -->
 Most Activity Log entries are expected to show up in the Azure Portal within 15 minutes after the event has occurred. The **Service Health**, **Resource Health**, and **Security** events may take extra time, as they often require automated analysis or manual intervention before being submitted to the log. In any case, the *eventTimestamp* property of the event is backdated to the time when the incident has happened, while the *submissionTimestamp* property tracks the time when the Activity Log received the log entry.
 
-# **Recommended Steps**
+## **Recommended Steps**
 
     * Check again in 15 minutes to see if the Activity Log starts showing the expected events. You may need to wait longer if you are looking for the Service Health, Resource Health, or Security events
     * Use the *eventTimestamp* property to identify when the incident has occurred
 
-# **Recommended Documents**
+## **Recommended Documents**
 
 * [Overview of Azure activity log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview)
 * [Collect Azure activity log with diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings-subscription)
