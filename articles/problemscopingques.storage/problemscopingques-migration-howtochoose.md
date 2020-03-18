@@ -20,9 +20,93 @@
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
     "formElements": [
+            {
+            "id": "source_resource",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Source resource",
+            "watermarkText": "Select source resource to migrate from",
+            "dropdownOptions": [
+                {
+                    "value": "storage_accout",
+                    "text": "Azure Storage Account"
+                },
+                {
+                    "value": "blob",
+                    "text": "Azure Blob"
+                },
+                {
+                    "value": "files",
+                    "text": "Azure Files"
+                },
+                {
+                    "value": "adlsgen2",
+                    "text": "Azure Data Lake Storage Gen2"
+                },
+                {
+                    "value": "managed_disks",
+                    "text": "Azure Disks (managed)"
+                },
+                {
+                    "value": "local/on_premise",
+                    "text": "Local/On-Premise"
+                },
+                {
+                    "value": "external_clouds",
+                    "text": "External Clouds (Amazon S3, GCP, etc)"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "destination_resource",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Destination resource",
+            "watermarkText": "Select destination resource to migrate to",
+            "dropdownOptions": [
+                {
+                    "value": "storage_accout",
+                    "text": "Azure Storage Account"
+                },
+                {
+                    "value": "blob",
+                    "text": "Azure Blob"
+                },
+                {
+                    "value": "files",
+                    "text": "Azure Files"
+                },
+                {
+                    "value": "adlsgen2",
+                    "text": "Azure Data Lake Storage Gen2"
+                },
+                {
+                    "value": "managed_disks",
+                    "text": "Azure Disks (managed)"
+                },
+                {
+                    "value": "local/on_premise",
+                    "text": "Local/On-Premise"
+                },
+                {
+                    "value": "external_clouds",
+                    "text": "External Clouds (Amazon S3, GCP, etc)"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
         {
             "id": "data_size",
-            "order": 1,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Estimated data size to migrate",
             "watermarkText": "Choose an option",
@@ -72,7 +156,7 @@
         },
          {
             "id": "network_bandwidth",
-            "order": 2,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Approximate available network bandwidth",
             "watermarkText": "Choose an option",
@@ -121,8 +205,8 @@
             "required": true
         },
         {
-            "id": "error_code",
-            "order": 3,
+            "id": "transfer_frequency",
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Transfer frequency",
             "watermarkText": "Choose an option",
@@ -144,14 +228,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
