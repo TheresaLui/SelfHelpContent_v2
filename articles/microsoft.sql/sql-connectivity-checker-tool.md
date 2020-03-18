@@ -7,7 +7,7 @@
     ms.author="vitomaz"
     authors="vitomaz-msft"
     displayOrder=""
-    articleId="sql_connectivity_checker_tool"
+    articleId="sql-connectivity-checker-tool"
     diagnosticScenario="SqlConnectivityCheckerTool"
     selfHelpType="diagnostics"
     supportTopicIds="32630429"
