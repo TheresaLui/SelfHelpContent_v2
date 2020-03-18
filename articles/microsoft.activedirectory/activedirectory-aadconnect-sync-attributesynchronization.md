@@ -9,7 +9,7 @@
 	supportTopicIds="32565590"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	articleId="2cff3f83-d268-40df-bb66-d3fe95625836"
 	ownershipId="ASEP_ContentService_Placeholder"
 />

@@ -8,7 +8,7 @@
 	displayOrder="200"
 	selfHelpType="resource"
 	supportTopicIds="32629813,32629814"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	articleId="c1c9b1fb-3fbb-461f-9949-23fa9ce31e04"
 	ownershipId="Identity_AuthReach_HybridAuth_ADFS"
 />
