@@ -19,8 +19,8 @@ Most Activity Log entries are expected to show up in the Azure Portal within 15 
 
 ## **Recommended Steps**
 
-    * Check again in 15 minutes to see if the Activity Log starts showing the expected events. You may need to wait longer if you are looking for the Service Health, Resource Health, or Security events
-    * Use the *eventTimestamp* property to identify when the incident has occurred
+* Check again in 15 minutes to see if the Activity Log starts showing the expected events. You may need to wait longer if you are looking for the Service Health, Resource Health, or Security events
+* Use the *eventTimestamp* property to identify when the incident has occurred
 
 ## **Recommended Documents**
 
