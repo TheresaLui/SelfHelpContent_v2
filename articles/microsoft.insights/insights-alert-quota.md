@@ -27,4 +27,5 @@ Provide the following information in the problem details to ensure faster resolu
 
     * Subscription Ids for which the quota limits should be increased. If there are multiple subscriptions, provide the full list.
     * Resource type for the quota increase: **Metric Alerts**, **Metric Alerts (Classic)** or **Action groups**
-    * The requested number of alert rules the quota should be increased to.
+    * The requested number of alert rules the quota should be increased
+    
