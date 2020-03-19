@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="appinsights-app-map-missing-data"
     displayOrder="99"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, mooncake"
     productPesIds="15693"
     supportTopicIds="32729568"
     ownershipId="AzureMonitoring_ApplicationInsights"
