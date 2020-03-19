@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "60b9506e-1f2b-8951-282b-89058e71afb9",
+      "longDescription": "",
+      "shortDescription": "You have questions about VNET service endpoints or VNET rules",
+      "searchTags": "vnet;service endpoint",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "67cb0592-bea7-9739-9aba-5963924935e5",
       "longDescription": "",
       "shortDescription": "You have questions about monitoring performance through the Azure portal, metrics, or configuring alerts",
