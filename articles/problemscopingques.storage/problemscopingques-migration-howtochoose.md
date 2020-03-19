@@ -158,40 +158,40 @@
             "watermarkText": "Choose a network bandwidth",
             "dropdownOptions": [
                 {
-                    "value": "none",
-                    "text": "0"
+                    "value": "0",
+                    "text": "none"
                 },
                 {
-                    "value": "45 Mbps",
-                    "text": "45"
+                    "value": "45",
+                    "text": "45 Mbps"
                 },
                 {
-                    "value": "100 Mbps",
-                    "text": "100"
+                    "value": "100",
+                    "text": "100 Mbps"
                 },
                 {
-                    "value": "500 Mbps",
-                    "text": "500"
+                    "value": "500",
+                    "text": "500 Mbps"
                 },
                 {
-                    "value": "1 Gbps",
-                    "text": "1000"
+                    "value": "1000",
+                    "text": "1 Gbps"
                 },
                 {
-                    "value": "5 Gbps",
-                    "text": "5000"
+                    "value": "5000",
+                    "text": "5 Gbps"
                 },
                 {
-                    "value": "10 Gbps",
-                    "text": "10000"
+                    "value": "10000",
+                    "text": "10 Gbps"
                 },
                 {
-                    "value": "40 Gbps",
-                    "text": "40000"
+                    "value": "40000",
+                    "text": "40 Gbps"
                 },
                 {
-                    "value": "100 Gbps",
-                    "text": "100000"
+                    "value": "100000",
+                    "text": "100 Gbps"
                 },
                 {
                     "value": "dont_know_answer",
