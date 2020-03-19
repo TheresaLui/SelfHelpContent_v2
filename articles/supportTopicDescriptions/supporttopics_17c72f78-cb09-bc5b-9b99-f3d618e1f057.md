@@ -405,6 +405,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ceca858f-ee40-afe3-9af7-7f3a6888dc65",
+      "longDescription": "",
+      "shortDescription": "You want to change a server parameter that is not listed in the Azure portal",
+      "searchTags": "change server parameter;azure portal",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "debfe99f-1099-3e2e-a93c-5aefef1465b5",
       "longDescription": "",
       "shortDescription": "You have questions about geo-redundant backups or are experiencing issues with performing a geo-restore operation",
