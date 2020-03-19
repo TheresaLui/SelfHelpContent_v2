@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "218c9912-b35c-b04d-2551-57baacbc19d8",
+      "longDescription": "",
+      "shortDescription": "You are not seeing an authentication log you expected to see either through Graph API endpoint or when using the portal",
+      "searchTags": "Missing AAD Auth Log;AAD Audit Log",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dd46276-b8b3-2f89-431b-7a79260c25ec",
       "longDescription": "",
       "shortDescription": "You have a problem with installing AADConnect Health",
