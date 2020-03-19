@@ -349,6 +349,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f0708928-20a7-3fcf-23f4-18af6cd938ea",
+      "longDescription": "",
+      "shortDescription": "Technical questions around Azure AD premium features",
+      "searchTags": "AAD Premium Features",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f08a935d-2747-e63b-c4c8-600ca5d21208",
       "longDescription": "",
       "shortDescription": "Problems creating a new Azure AD group or Office 365 group via Azure AD portal or PowerShell ",
