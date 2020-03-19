@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6b153b2c-9b64-83b7-7118-ebfd840f671d",
+      "longDescription": "",
+      "shortDescription": "Problems with Pass-through authentication connectors",
+      "searchTags": "Configuring Pass-Through Authentication ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6b64f092-01d1-441d-1563-396f81bcf127",
       "longDescription": "",
       "shortDescription": "Assistance needed for deploying or configuring Network Policy Server (NPS) or RADIUS Server to work with Multi-Factor Authentication",
