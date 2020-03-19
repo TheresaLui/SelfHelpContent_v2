@@ -31,5 +31,5 @@ CSP partner support is not the best place to ask these questions, instead utiliz
 
 * [Partner Membership Center to Partner Dashboard Transition Guide](https://assetsprod.microsoft.com/mpn/membership-account-set-up-guide.pdf)
 * Migration from Partner Membership Center (PMC) to Partner Center (PC): a [step-by-step guide](https://support.microsoft.com/help/4503591/migration-from-partner-membership-center-pmc-to-partner-center-pc-a-st)
-* [Transition your partner membership account from Partner Membership Center to Partner Center](https://docs.microsoft.com/partner-center/pmc-to-partner-center)
+* [Guide to migrating from PMC to Partner Center](https://docs.microsoft.com/partner-center/guide-to-migration)
 * [Cloud Solution Provider program regional markets and currencies](https://docs.microsoft.com/partner-center/regional-authorization-overview)
