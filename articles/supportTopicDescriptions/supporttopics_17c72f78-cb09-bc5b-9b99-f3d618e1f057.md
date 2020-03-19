@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "931ff656-f001-7082-a7c8-001c1a7c861b",
+      "longDescription": "",
+      "shortDescription": "Questions specific to managing your server with the Azure portal, Azure CLI, or other client tools",
+      "searchTags": "managing your server",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "98845e8f-7948-dd41-acfb-fc3ba7c27fc2",
       "longDescription": "",
       "shortDescription": "You are not able to create, update, or delete servers",
