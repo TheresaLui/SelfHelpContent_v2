@@ -341,6 +341,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c45b9d63-3fb7-fc61-8982-fefaa362be31",
+      "longDescription": "",
+      "shortDescription": "You have issues using the Azure portal",
+      "searchTags": "azure portal issues",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c7f8958f-a998-bc26-c19e-5bbe50f2ffbe",
       "longDescription": "",
       "shortDescription": "You are experiencing persistent or intermittent connection issues",
