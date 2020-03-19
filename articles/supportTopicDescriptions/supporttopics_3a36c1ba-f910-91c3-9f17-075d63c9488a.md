@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "31cd627c-3467-7ec3-cedd-b8eae55b0b38",
+      "longDescription": "",
+      "shortDescription": "Problems with role based access control for Azure resources",
+      "searchTags": "problems with RBAC",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "345ed23d-a616-9375-cedd-b3ed6fa1ac48",
       "longDescription": "",
       "shortDescription": "Problems with Office 365 group expiration and group auto-renewal policies",
