@@ -26,11 +26,11 @@ The interaction between users and bots is often free-form, and bots need to unde
 
 ## **Recommended Documents**
 
-- [Language Understanding](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-luis?view=azure-bot-service-4.0)
-- [Add natural language understanding to your bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp)
-- [Cognitive Services (Warning: v3!)](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-concept-intelligence?view=azure-bot-service-3.0)
-- [What is Language Understanding (LUIS)](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis)
-- [Language Understanding Frequently Asked Questions (FAQ)](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/troubleshooting)
+- [Language Understanding](https://docs.microsoft.com/azure/bot-service/bot-builder-concept-luis?view=azure-bot-service-4.0)
+- [Add natural language understanding to your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp)
+- [Cognitive Services (Warning: v3!)](https://docs.microsoft.com/azure/bot-service/bot-service-concept-intelligence?view=azure-bot-service-3.0)
+- [What is Language Understanding (LUIS)](https://docs.microsoft.com/azure/cognitive-services/luis/what-is-luis)
+- [Language Understanding Frequently Asked Questions (FAQ)](https://docs.microsoft.com/azure/cognitive-services/LUIS/troubleshooting)
 - [LUIS quick start with list entities blog post](https://blog.botframework.com/2018/01/16/luis-quick-start-list-entities/)
 - [Locally develop and manage LUIS applications with new BotBuilder tools blog post](https://blog.botframework.com/2018/06/26/locally-develop-and-manage-luis-applications-with-new-botbuilder-tools/)
 - [Microsoft LUIS with Botkit Studio blog post](https://blog.botframework.com/2017/05/11/Luis-Botkit-Studio/)
