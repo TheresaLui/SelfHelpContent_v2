@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Planned Maintenance (Azure Platform)",
     "fileAttachmentHint": "",
     "formElements": [
