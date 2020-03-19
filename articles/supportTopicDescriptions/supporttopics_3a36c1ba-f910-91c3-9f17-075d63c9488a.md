@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "816e0613-b54b-e699-236a-2baf77abde98",
+      "longDescription": "",
+      "shortDescription": "Problems configuring Azure AD B2B collaboration settings to grant or limit the ability to send invitations from your Azure AD tenant.",
+      "searchTags": "managing external collaboration settings",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8315793d-17ec-6244-38e8-50e5359c7f7d",
       "longDescription": "",
       "shortDescription": "Problems synching groups or group membership from on-premises AD to Azure AD",
