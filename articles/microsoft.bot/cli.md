@@ -21,14 +21,15 @@ The Bot Framework uses a handful of different CLI tools that are used to create,
 
 ## **Recommended Steps**
 
-- **AZ bot**: Azure CLI tool for creating and deploying Bot resources in Azure.
- -  **BF**: Newer tool to replace and consolidate the following tools.
- - **Chatdown**: A tool to prototype mock conversations in markdown and convert the markdown to transcripts you can load and view in the new V4 Bot Framework Emulator
- - **MSBot**: Create and manage connected services in your bot configuration file. Bot files (`*.bot`) are depreciated and this tool is used only for legacy support and management. Will not be included in BF CLI.
- - **LuDown**: Build LUIS language understanding models using markdown files
- - **LUIS**: Create and manage your [LUIS.ai](http://luis.ai/) applications
- - **QnAMaker**: Create and manage [QnAMaker.ai](http://qnamaker.ai/) Knowledge Bases.
- - **Dispatch**: Build language models allowing you to dispatch between disparate components (such as QnA, LUIS and custom code)
+- **AZ bot**: Azure CLI tool for creating and deploying Bot resources in Azure
+-  **BF**: Newer tool to replace and consolidate the following tools:
+
+	- **Chatdown**: A tool to prototype mock conversations in markdown and convert the markdown to transcripts you can load and view in the new V4 Bot Framework Emulator
+ 	- **MSBot**: Create and manage connected services in your bot configuration file. Bot files (`*.bot`) are depreciated and this tool is used only for legacy support and management. Will not be included in BF CLI.
+ 	- **LuDown**: Build LUIS language understanding models using markdown files
+ 	- **LUIS**: Create and manage your [LUIS.ai](http://luis.ai/) applications
+ 	- **QnAMaker**: Create and manage [QnAMaker.ai](http://qnamaker.ai/) Knowledge Bases
+ 	- **Dispatch**: Build language models allowing you to dispatch between disparate components (such as QnA, LUIS and custom code)
 
 ## **Recommended Documents**
 
