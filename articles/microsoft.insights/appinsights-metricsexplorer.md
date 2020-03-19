@@ -13,7 +13,7 @@
     cloudEnvironments="public, Fairfax, usnat, ussec"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
-
+ 
 # Metrics Explorer
 
 ## **Recommended Steps**
