@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7d111d5f-205d-0bd6-3499-4d2e145b2be9",
+      "longDescription": "",
+      "shortDescription": "This topic is redundant and should be removed",
+      "searchTags": "other problems with deleting a directory",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d97452f-6b8d-0c11-a7d8-d6c6e8d5057f",
       "longDescription": "",
       "shortDescription": "Problems with the classic Azure subscription roles Service Administrator, Account Administrator",
