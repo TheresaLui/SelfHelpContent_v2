@@ -1,15 +1,15 @@
 <properties
     pageTitle="Azure Stack deployment failure"
     description="Azure Stack deployment failure"
-    authors="TobyTu"
-    ms.author="prchint"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629194,32629205"
     productPesIds="16226"
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-5238-36a830e63098"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Azure Stack deployment failure questions
 ---
@@ -80,7 +80,7 @@
                     "value": "1908",
                     "text": "1908"
                 },
-		 {
+         {
                     "value": "1907",
                     "text": "1907"
                 },
@@ -168,7 +168,7 @@
             "displayLabel": "What is the entered command line used to run the readiness checker?",
             "watermarkText": "Enter the command line",
             "required": false
-		},{
+        },{
             "id": "error_message",
             "order": 7,
             "visibility": "null",
@@ -176,23 +176,23 @@
             "displayLabel": "What is the error output message?",
             "watermarkText": "Enter the error message",
             "required": false
-		},{
-			"id": "problem_start_time",
-			"order": 8,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 9,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": []
-		}
-	],
+        },{
+            "id": "problem_start_time",
+            "order": 8,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        }, {
+            "id": "problem_description",
+            "order": 9,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": []
+        }
+    ],
   "$schema": "SelfHelpContent"
 }
 ---
