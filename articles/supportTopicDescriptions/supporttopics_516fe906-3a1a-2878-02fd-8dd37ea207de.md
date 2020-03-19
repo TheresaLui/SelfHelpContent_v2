@@ -309,6 +309,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c526e8c2-4ce8-b375-7632-67265634d2da",
+      "longDescription": "",
+      "shortDescription": "Problems or advisory needs for configuring or working with Multi-factor Authentication",
+      "searchTags": "Multi-factor Authentication;MFA;Configuring MFA",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c6e12c58-0cec-db3c-f5ce-4f1fd88c2b6c",
       "longDescription": "",
       "shortDescription": "Assistance needed with ADFS extranet lockouts or ADFS lockout policies, i.e. protection against Password Spray attacks or Brute force attacks",
