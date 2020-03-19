@@ -16,7 +16,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Failure to connect to the VM using Azure Bastion",
     "fileAttachmentHint": "",
     "formElements": [
