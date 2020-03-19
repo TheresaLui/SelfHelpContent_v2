@@ -30,4 +30,4 @@ To learn more about Azure Resource Health, please refer to the Understand and us
 ## **Recommended Documents**
   
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
-* [Use Azure redeploy functionality to transfer virtual machines to a new host ](https://azure.microsoft.com/en-us/updates/use-azure-redeploy-functionality-to-transfer-virtual-machines-to-a-new-host/)
+* [Use Azure redeploy functionality to transfer virtual machines to a new host ](https://azure.microsoft.com/updates/use-azure-redeploy-functionality-to-transfer-virtual-machines-to-a-new-host/)

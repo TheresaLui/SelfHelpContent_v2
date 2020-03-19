@@ -36,4 +36,4 @@ We apologize for any inconvenience this may have caused you. We are continuously
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)  
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)  
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
-* [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-planned-maintenance/)
+* [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/)
