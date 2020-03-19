@@ -333,6 +333,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd59f296-a698-8453-2cb9-f391473079ad",
+      "longDescription": "",
+      "shortDescription": "You have issues using REST API commands",
+      "searchTags": "rest api",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c7f8958f-a998-bc26-c19e-5bbe50f2ffbe",
       "longDescription": "",
       "shortDescription": "You are experiencing persistent or intermittent connection issues",
