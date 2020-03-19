@@ -27,7 +27,7 @@
             "controlType": "textbox",
             "displayLabel": "Please provide the customer name this issue is about",
             "watermarkText": "Provide the customer name",
-            "required": true
+            "required": false
              },
              {
             "id": "pc_tenant_id",
@@ -42,7 +42,7 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please include the address for your customer",
-            "required": true
+            "required": false
              },
              {
             "id": "pc_website_url",
