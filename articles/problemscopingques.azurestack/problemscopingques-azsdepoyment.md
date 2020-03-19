@@ -1,15 +1,15 @@
 <properties
     pageTitle="Azure Stack deployment failure"
     description="Azure Stack deployment failure"
-    authors="TobyTu"
-    ms.author="prchint"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629194,32629205"
     productPesIds="16226"
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-5238-36a830e63098"
-       ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Azure Stack deployment failure questions
 ---
@@ -170,7 +170,7 @@
             "displayLabel": "What is the entered command line used to run the readiness checker?",
             "watermarkText": "Enter the command line",
             "required": false
-              },{
+        },{
             "id": "error_message",
             "order": 9,
             "visibility": "null",

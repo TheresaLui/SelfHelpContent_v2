@@ -1,15 +1,15 @@
 <properties
     pageTitle="Azure Stack DNS resolution for user environment"
     description="Azure Stack DNS resolution for user environment"
-    authors="TobyTu"
-    ms.author="prchint"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629210"
     productPesIds="16226"
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-8526-36a830ea0098"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Azure Stack DNS resolution questions
 ---
@@ -187,7 +187,7 @@
             "displayLabel": "What is the IP address(es) defined?",
             "watermarkText": "Example: 10.1.0.1",
             "required": false
-		},{
+        },{
             "id": "dns_owner",
             "order": 10,
             "controlType": "dropdown",
@@ -212,7 +212,7 @@
             "displayLabel": "Where are these DNS server(s) hosted?",
             "watermarkText": "Enter the location",
             "required": false
-		},{
+        },{
             "id": "dns_setting",
             "order": 12,
             "visibility": "null",
@@ -220,7 +220,7 @@
             "displayLabel": "Is the DNS setting configured for individual Network Interface Card or for the subnet?",
             "watermarkText": "Enter your answer",
             "required": false
-		},{
+        },{
             "id": "resource_access",
             "order": 13,
             "visibility": "null",
@@ -228,23 +228,23 @@
             "displayLabel": "Are you able to access the resource using IP address directly?",
             "watermarkText": "Enter your answer",
             "required": false
-		},{
-			"id": "problem_start_time",
-			"order": 14,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 15,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": []
-		}
-	],
+        },{
+            "id": "problem_start_time",
+            "order": 14,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        }, {
+            "id": "problem_description",
+            "order": 15,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": []
+        }
+    ],
   "$schema": "SelfHelpContent"
 }
 ---

@@ -1,15 +1,15 @@
 <properties
     pageTitle="Azure Stack Network for User Environment"
     description="Azure Stack Network for User Environment"
-    authors="genlin"
-    ms.author="prchint"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629211,32629213,32629223,32629230,32629231,32629277,32629281"
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="8ccb2fde-2000-4e97-b711-4b07ac45db50"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Azure Stack Network for User Environment
 ---

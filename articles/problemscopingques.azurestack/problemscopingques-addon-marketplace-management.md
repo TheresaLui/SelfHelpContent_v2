@@ -1,15 +1,15 @@
 <properties
     pageTitle="Azure Stack Marketplace Management - Download issues"
     description="Azure Stack Marketplace Management - Download issues"
-    authors="genlin"
-    ms.author="genli"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32663924,32663923,32663922,32629265"
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="8ccb2fde-6f9f-4e97-b711-4b07ac45db50"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Azure Stack Marketplace Management - Download issues
 ---
