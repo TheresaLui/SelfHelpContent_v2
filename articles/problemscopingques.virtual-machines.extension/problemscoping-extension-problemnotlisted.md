@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": false,
+    "resourceRequired": true,
     "title": "My issue or extension isn’t listed above",
     "fileAttachmentHint": "",
     "formElements": [
