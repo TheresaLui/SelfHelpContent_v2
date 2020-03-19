@@ -443,6 +443,14 @@
       "searchTags": "troubleshooting replica",
       "category": "Replication",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0539fb8-a0c4-20dc-0088-33c93089cc4b",
+      "longDescription": "",
+      "shortDescription": "You are not able to set up or are experiencing issues with replication from an external server into an Azure Database for MySQL server",
+      "searchTags": "data in replication",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
