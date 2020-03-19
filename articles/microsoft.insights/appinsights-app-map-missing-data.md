@@ -23,7 +23,7 @@ Application Map shows the dependency relationships between your application comp
 
 In the diagram below, X, Y and Z are 3 components with dependency relationships between them. <b>If your Application Map for X does not show Y or Z</b>, follow the steps below to diagnose. 
 
-<!--![Dependencies](location in the file here: https://microsoft.sharepoint.com/:w:/r/teams/Application_Insights/Metrics/SupportTopicsAssets/Self-help-drafts/AppInsights/Application%20map%20doesnt%20show%20data%20from%20related%20Appinsights%20resources.docx?d=w3b27856e2a2a4ade8400c2f6b35ea8dc&csf=1&e=QPh01C)-->
+![Dependencies](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/app-map.png)
 
 ## **Recommended Steps**
 
@@ -41,10 +41,8 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
     * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions) 
 1. If you don't see Z (async across a queue): 
 This is not supported currently. If X and Z are in the same resource group, as a workaround you can use the map in the [resource group insights experience](https://docs.microsoft.com/azure/azure-monitor/insights/resource-group-insights#diagnose-issues-in-your-resource-group). 
-
-<!-- >NOTE: The following 2 points will apply POST November mid timeframe, the following will apply – confirm with sdash@ 
-If this is Azure Event Hub or Service Bus: Please ensure you are using the latest Azure client SDK to call the queue. 
-If this is Azure storage queue: Please instrument your calls as described [here](https://docs.microsoft.com/azure/azure-monitor/app/custom-operations-tracking#azure-storage-queue). <-->
+1. If this is Azure Event Hub or Service Bus: Please ensure you are using the latest Azure client SDK to call the queue. 
+1. If this is Azure storage queue: Please instrument your calls as described [here](https://docs.microsoft.com/azure/azure-monitor/app/custom-operations-tracking#azure-storage-queue). 
 
 ## **Recommended Documents**
 
