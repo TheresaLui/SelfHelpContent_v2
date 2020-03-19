@@ -4,9 +4,9 @@
     service="microsoft.insights"
     resource="components"
     authors="MS-jgol"
-    ms.author="Soubhagya Dash"
+    ms.author="jgol"
     selfHelpType="generic"
-    articleId="appinsights-app-map-missing-data"
+    articleId="app-map-missing-data"
     displayOrder="99"
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax"
@@ -15,8 +15,8 @@
     ownershipId="AzureMonitoring_ApplicationInsights"
  />
 
-# <-- appinsights-app-map-missing-data --> \
-# **Dependencies are missing from the application map**
+# <-- appinsights-app-map-missing-data -->
+**Dependencies are missing from the application map**
 
 
 ## Common issues 
