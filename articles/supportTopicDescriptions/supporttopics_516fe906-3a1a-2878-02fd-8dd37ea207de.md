@@ -229,6 +229,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9f156991-7738-0aa5-8eb6-2a8b808df34b",
+      "longDescription": "",
+      "shortDescription": "Assistance with configuration of a specific ADFS feature (e.g. Trusts, Claims, Protection)",
+      "searchTags": "configuring other ADFS features",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
       "shortDescription": "Issues found when authenticating using Seamless Single Sign-on for AAD",
