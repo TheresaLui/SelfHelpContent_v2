@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "10822ce8-dc39-9471-a1ef-33b51744dd5a",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with one or a few particular users",
+      "searchTags": "issue affecting a single user",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1a376aec-e5e8-f778-d798-cdf675b9d624",
       "longDescription": "",
       "shortDescription": "Problems related to the AADConnect Health service, which monitors your AADConnect sync service and provides notifications when issues are detected",
