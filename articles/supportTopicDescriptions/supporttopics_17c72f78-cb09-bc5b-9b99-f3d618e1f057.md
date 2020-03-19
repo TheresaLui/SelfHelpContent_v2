@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6e57df85-b37a-58dd-9845-92f3c5eb2b9d",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring your server or configuring metric alerts",
+      "searchTags": "monitoring server",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "788e907d-ec0e-3dc0-77d1-879fa4ecc6ce",
       "longDescription": "",
       "shortDescription": "You accidentially deleted a server and need assistance recovering it.",
