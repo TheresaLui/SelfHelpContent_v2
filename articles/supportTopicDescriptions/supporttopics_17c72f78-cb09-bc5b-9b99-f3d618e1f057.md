@@ -317,6 +317,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aee096ca-9820-1a70-3557-a64ae4f40c58",
+      "longDescription": "",
+      "shortDescription": "You are not able to manage server firewall rules to allow connections",
+      "searchTags": "firewall rules",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b36fce25-69ca-95fe-f243-461833b70b79",
       "longDescription": "",
       "shortDescription": "You are experiencing migration issues to Azure Database for MySQL",
