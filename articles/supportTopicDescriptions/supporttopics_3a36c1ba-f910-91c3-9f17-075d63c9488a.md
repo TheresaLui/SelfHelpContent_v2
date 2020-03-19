@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7d82a910-ad89-7a00-017c-edc5086cd739",
+      "longDescription": "",
+      "shortDescription": "Problems related to inviting and managing Azure AD B2B external identities.",
+      "searchTags": "problems with B2B external identities",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d97452f-6b8d-0c11-a7d8-d6c6e8d5057f",
       "longDescription": "",
       "shortDescription": "Problems with the classic Azure subscription roles Service Administrator, Account Administrator",
