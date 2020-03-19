@@ -27,7 +27,7 @@
   "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
-    "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com, sischleg@microsoft.com",
+    "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",
