@@ -1,42 +1,48 @@
-<properties 
-    pageTitle="How do I enable Application Insights for an App Service?"
-    description="Explain the current state of App Services integration"
+<properties
+    pageTitle="Can't enable Application Insights for applications running on Azure App Service"
+    description="Enabling troubleshooting of Application Insights monitoring apps hosted on Azure App Services"
     service="microsoft.insights"
     resource="components"
-    authors="debugthings"
-    ms.author="jamdavi"
-    articleId="insights_appservice"
+    authors="MS-jgol"
+    ms.author="jgol"
+    articleId="appinsights-enable-platform-appservice"
     displayOrder="99"
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32602209"
- 	ownershipId="AzureMonitoring_ApplicationInsights"
+    ownershipId="AzureMonitoring_ApplicationInsights"
 />
- 
-# How do I enable Application Insights for an App Service?
 
-If you're using an App Service with Application Insights there has been a recent change in how the services are integrated. It is recommended (but not required) to remove the existing extension and use the new experience to enable Application Insights. Using the built-in experience will ensure all of the latest settings and versions are applied. Please follow the steps in the Recommended Documents section below.<br>
+# <-- appinsights-enable-platform-appservice -->
+<--# **Cannot enable Application Insights for my app running on Azure App Service**-->
 
-If you plan to do this, please do so during an appropriate window as it will require a few application recycles and will take your application offline during this process.<br>
+
+## Common issues 
+
+1. The Application Insights option is grayed out and not clickable
+![Application Insights Menu Item](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/AI-disabled.png)
+2. The Application Insights option is clickable, but it is not possible to advance beyond the options screen
 
 ## **Recommended Steps**
 
-**To remove the existing extension**<br>
+### **If the Application Insights option is grayed out**
+1. The specified language/tech stack may not be supported. Here is what you need to know: 
+    * Currently you can enable codeless integration with Application Insights for .Net, .NetCore, Java and Node.js (public preview on Linux and private preview on Windows)
+    * For Python you would need to add SDK to your code
 
-1. Navigate to the App Service
-2. Select **Extensions** from the menu
-3. Select the **Application Insights** extension
-4. Click **Delete**
-5. Restart the App Service
+### **If the Application Insights option is clickable, but you can't advance beyond the first screen**
+1. You are using a free subscription AND happen to have Application Insights enabled for other resources. 
+![Application Insights Plan](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/AI-plan.png)
 
-**To enable Application Insights**<br>
-
-1. Navigate to the App Service
-2. Select Application Insights in the Azure control panel for your app service
-3. Specify which resource to use
-4. Enable specific features for your platform
+Try this:
+* [**Easiest**] Change the subscription level
+* [**Cheapest**] Disable Application Insights for the other resource first
+2. The OS and runtime combination you selected is not supported. 
 
 ## **Recommended Documents**
-[Enabling Application Insights in an App Service](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps)<br>
-[Delete Site Extension API](https://docs.microsoft.com/rest/api/appservice/webapps/deletesiteextension)
+
+* [Email Azure Monitor Product Group](appinsightspm@microsoft.com)  Interested in codeless monitoring for Java or Node.js on Windows? We want to hear from you!
+* [Monitoring an App Service resource](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps)
+
+<!-- To do: add a link to supported languages/frameworks/features when the doc is fixed!! --> 
