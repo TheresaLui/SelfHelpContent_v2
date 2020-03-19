@@ -21,7 +21,7 @@ Adaptive dialogs provide a new way to easily and dynamically define the flow of 
 
 ## **Recommended Steps**
 
-Adaptive dialogs can be defined using a [declarative syntax](https://github.com/microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative) that can then be consumed by your bot, so you can write your dialogs without using actual C# code. These "declarative dialogs" can be easily created using the UI-based [Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer) (also in preview).. 
+Adaptive dialogs can be defined using a [declarative syntax](https://github.com/microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative) that can then be consumed by your bot, so you can write your dialogs without using actual C# code. These "declarative dialogs" can be easily created using the UI-based [Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer) (also in preview).
 
 ## **Recommended Documents**
 
