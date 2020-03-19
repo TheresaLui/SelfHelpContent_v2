@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2810f269-823e-2e78-2447-a5ed63786990",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring audit logging",
+      "searchTags": "audit logging",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ea627cb-8fd5-fdc8-c78f-e8f188ad7590",
       "longDescription": "",
       "shortDescription": "You have questions about monitoring slow query or audit logs",
