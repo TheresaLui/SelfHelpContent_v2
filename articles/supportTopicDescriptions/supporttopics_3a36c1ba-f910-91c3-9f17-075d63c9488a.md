@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "44c65d86-503c-2592-4a01-d8a04e7fe812",
+      "longDescription": "",
+      "shortDescription": "Problems related to deleting Azure AD custom domain names using Azure AD portal or PowerShell or Azure CLI.",
+      "searchTags": "problem with deleting a domain name",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "773c57a1-085a-b5a8-b43f-ffc3c7bcffb3",
       "longDescription": "",
       "shortDescription": "Problems creating or managing Azure resource role based access control assignments",
