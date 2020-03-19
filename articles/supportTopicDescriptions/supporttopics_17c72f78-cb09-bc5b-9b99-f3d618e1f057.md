@@ -373,6 +373,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd4b6560-0dab-47cf-a80f-a19abfcc9f73",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues with performing a point-in-time restore operation",
+      "searchTags": "point in time restore;pitr;point-in-time restore",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd59f296-a698-8453-2cb9-f391473079ad",
       "longDescription": "",
       "shortDescription": "You have issues using REST API commands",
