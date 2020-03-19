@@ -9,7 +9,7 @@
     cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-5238-36a830e63098"
-	ownershipId="ASEP_ContentService_Placeholder"
+       ownershipId="ASEP_ContentService_Placeholder"
 />
 # Azure Stack deployment failure questions
 ---
@@ -170,7 +170,7 @@
             "displayLabel": "What is the entered command line used to run the readiness checker?",
             "watermarkText": "Enter the command line",
             "required": false
-		},{
+              },{
             "id": "error_message",
             "order": 9,
             "visibility": "null",
@@ -178,23 +178,23 @@
             "displayLabel": "What is the error output message?",
             "watermarkText": "Enter the error message",
             "required": false
-		},{
-			"id": "problem_start_time",
-			"order": 10,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 11,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": []
-		}
-	],
+              },{
+                     "id": "problem_start_time",
+                     "order": 10,
+                     "controlType": "datetimepicker",
+                     "displayLabel": "When did the problem begin?",
+                     "required": true
+              }, {
+                     "id": "problem_description",
+                     "order": 11,
+                     "controlType": "multilinetextbox",
+                     "displayLabel": "Details",
+                     "watermarkText": "Provide additional information about your issue",
+                     "required": true,
+                     "useAsAdditionalDetails": true,
+                     "hints": []
+              }
+       ],
   "$schema": "SelfHelpContent"
 }
 ---
