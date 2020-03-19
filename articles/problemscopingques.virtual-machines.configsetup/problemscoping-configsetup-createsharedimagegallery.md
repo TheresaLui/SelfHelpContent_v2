@@ -2,7 +2,7 @@
                 pageTitle="Configuration and Setup"
                 description="Configuration and Setup"
                 authors="summertgu"
-                ms.author="tiag, sischleg"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615272"
                 productPesIds="14749,15571,15797,16454,16470"
