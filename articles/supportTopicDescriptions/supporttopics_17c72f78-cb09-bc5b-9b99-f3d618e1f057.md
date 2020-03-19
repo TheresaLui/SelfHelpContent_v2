@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4811926b-37c7-45f1-a4c2-31daa74b3c71",
+      "longDescription": "",
+      "shortDescription": "You are not able to create, update, or delete databases",
+      "searchTags": "create database;update database;delete database",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "48654864-f63d-d25d-20db-e9826bf497ef",
       "longDescription": "",
       "shortDescription": "Your server is experiencing high network latency while attempting to connect",
