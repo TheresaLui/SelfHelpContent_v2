@@ -437,6 +437,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eb698c95-ef94-bae3-9f80-fd8619b807be",
+      "longDescription": "",
+      "shortDescription": "You are not able to create, update, or delete VNET rules",
+      "searchTags": "create vnet;update vnet;delete vnet",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "edb63e0e-6d90-e018-cf64-3ad1abd62ffd",
       "longDescription": "",
       "shortDescription": "You have questions or issues about creating, managing or troubleshooting read replicas",
