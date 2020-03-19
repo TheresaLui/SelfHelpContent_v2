@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b3cbaf0b-5e23-3aca-081c-0edec4b32274",
+      "longDescription": "",
+      "shortDescription": "You have a problem registering the AADConnect Health agent",
+      "searchTags": "problem with agent registration ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ba96d43a-fc76-7b75-fdc0-38e8152ff48c",
       "longDescription": "",
       "shortDescription": "You are having a problem configuring the scoping filters for provisioning to a SaaS app",
