@@ -12,7 +12,7 @@ pageTitle="Legacy MSODS flag(s) have their value not set to 'true'"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

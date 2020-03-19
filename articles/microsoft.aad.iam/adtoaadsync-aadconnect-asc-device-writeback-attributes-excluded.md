@@ -12,7 +12,7 @@ pageTitle="Device Writeback is enabled but required attributes are excluded from
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

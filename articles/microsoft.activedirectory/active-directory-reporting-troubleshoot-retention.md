@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="07b6b188-8986-4d01-87c0-625e6527d083"
 	ownershipId="AzureIdentity_User"
 />

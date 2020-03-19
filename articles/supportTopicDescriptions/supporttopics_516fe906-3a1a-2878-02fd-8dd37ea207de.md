@@ -53,6 +53,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1f09ca79-318d-0e16-6977-20b087d7a41b",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for configuring Conditional Access rule that required Multi-Factor Authentication as a Access Control",
+      "searchTags": "Configuring Conditional Access;MFA Access Control",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "290db722-7106-7012-abb1-b4a9060f2cc7",
+      "longDescription": "",
+      "shortDescription": "Problems or requests for implementing or managing or inability to sign in or provision WHfB credentials",
+      "searchTags": "Windows Hello for Business;WHfB;WHfB configuration;WHfB provision",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b627192-808e-8f44-ff80-75c8831c8f7d",
       "longDescription": "",
       "shortDescription": "Intermittent or total authentication failure from extranet WAP while intranet corpnet users do not experience an interruption",
@@ -97,6 +113,14 @@
       "longDescription": "",
       "shortDescription": "Initial configuration of SSO between AD FS and Azure AD",
       "searchTags": "Single Sign on and ADFS;Configuring ADFS and SSO",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "63b67ac9-9671-a54d-7241-32deb27b60ce",
+      "longDescription": "",
+      "shortDescription": "Problems or advisory needs for creating or configuring Conditional Access rules to protect your infrastructure",
+      "searchTags": "Conditional Access;Configuring Conditional Access",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -269,6 +293,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ddac735b-f798-4302-b470-2d62c74f4342",
+      "longDescription": "",
+      "shortDescription": "I created a Conditional Access rule but the result is different from what I expected",
+      "searchTags": "Conditional Access;Conditional Access Rule;Create CA Rule",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ed228605-ddb7-d2c3-626d-dae69939a1a6",
       "longDescription": "",
       "shortDescription": "I need help configuring a new or existing Conditional Access policy that fits my company needs",
@@ -306,6 +338,14 @@
       "shortDescription": "Troubleshooting WAP deployment or communication problems to or from the WAP",
       "searchTags": "issue with WAP deployment ;communication problems with WAP",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fed213ea-5608-4331-7ac8-ea3f0a8c59a9",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for configuring Azure Multi-Factor Authentication options within the security blade in the Azure Active Directory ",
+      "searchTags": "Configuring MFA;AAD security blade ",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     }
   ]

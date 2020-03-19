@@ -9,9 +9,7 @@
   articleid="azure-backup-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 
-ownershipId="Compute_AppService"
-/>
+  feedbackemail="email" />
 # Support Topic Descriptions for 17d72dfc-8f48-94cb-05e6-5f88efdf72d7
 ---
 {
@@ -308,10 +306,10 @@ ownershipId="Compute_AppService"
     {
       "id": "5ba09503-e741-e9b0-1b72-1dcffa49b99a",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configuration",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported;Not supported;Price;How to configure",
+      "category": "IaaS VM Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "5d74c65b-b117-5f87-b31b-44ad19f8a533",
@@ -764,10 +762,10 @@ ownershipId="Compute_AppService"
     {
       "id": "ff4b14ac-e42e-ad91-cd8c-54e3ede63c12",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported ; Not supported;Price ;How to configure",
+      "category": "MARS agent Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "ff5501f4-1e65-d045-7390-96ad9bd87bab",

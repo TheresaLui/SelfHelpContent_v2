@@ -14,7 +14,8 @@
 # Config and Setup
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Create a failover cluster",
     "fileAttachmentHint": "",
     "formElements": [

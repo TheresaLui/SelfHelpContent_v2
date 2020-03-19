@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32589415,32589417,32641081"
+                supportTopicIds="32589415,32641081"
                 productPesIds="14749,15571,15797,16454,16470,16080"
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Planned Maintenance (Azure Platform)",
     "fileAttachmentHint": "",
     "formElements": [

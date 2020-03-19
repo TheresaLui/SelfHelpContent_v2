@@ -14,7 +14,8 @@
 # VM Migration
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "fileAttachmentHint": "",
     "formElements": [
         {

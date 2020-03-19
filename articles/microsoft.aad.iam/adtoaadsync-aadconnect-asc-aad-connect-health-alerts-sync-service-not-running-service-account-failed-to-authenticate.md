@@ -12,7 +12,7 @@ pageTitle="Azure AD Connect sync service is not running. The Service account fai
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

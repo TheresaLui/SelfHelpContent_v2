@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2ea627cb-8fd5-fdc8-c78f-e8f188ad7590",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring slow query or audit logs",
+      "searchTags": "slow query;audit logs",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3209eb3d-eda7-869b-9638-fe0cff30d999",
       "longDescription": "",
       "shortDescription": "You received the unknown MySQL server host error",
@@ -154,6 +162,14 @@
       "shortDescription": "Questions about creating, updating, or deleting servers or server configurations",
       "searchTags": "creating;updating;deleting",
       "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "67cb0592-bea7-9739-9aba-5963924935e5",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring performance through the Azure portal, metrics, or configuring alerts",
+      "searchTags": "monitoring performance",
+      "category": "Monitoring and Alerting",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -253,6 +269,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a78aa04a-df27-e458-bf1e-8b359760dae3",
+      "longDescription": "",
+      "shortDescription": "Questions specific to monitoring your server with metrics or alerts",
+      "searchTags": "monitoring server;monitoring metrics;monitoring alerts",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ab5bc630-d56d-ee3e-8dd8-73d70358c4b9",
       "longDescription": "",
       "shortDescription": "Your server is experiencing a performance or query execution issue.",
@@ -306,6 +330,22 @@
       "shortDescription": "You are experiencing persistent or intermittent connection issues",
       "searchTags": "Error while connecting to the server;Error;connecting to server",
       "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c8282d7c-cfa9-97fa-5955-d2a00b411942",
+      "longDescription": "",
+      "shortDescription": "Questions specific to migrating to Azure Database for MySQL",
+      "searchTags": "migration to mysql;migration",
+      "category": "Migrating to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c9147e5e-659c-3f67-2385-e01b75365167",
+      "longDescription": "",
+      "shortDescription": "You need troubleshooting assistance for metrics displayed in the Azure portal",
+      "searchTags": "metrics;portal metrics",
+      "category": "Monitoring and Alerting",
       "useInDiagnoseAndSolve": "true"
     },
     {
