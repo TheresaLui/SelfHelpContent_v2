@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "81259da7-71bb-3dca-e224-3eea611edd78",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "Problems with authentication connectors",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "866af4c0-2f66-10f4-3238-5f75346bb3fa",
       "longDescription": "",
       "shortDescription": "I need assistance understanding the Identity Score in Azure AD Identity Protection",
