@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Log Analytics (OMS) extension issue",
     "fileAttachmentHint": "",
     "formElements": [

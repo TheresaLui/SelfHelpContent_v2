@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Azure Custom Script (CSE) extension issue",
     "fileAttachmentHint": "",
     "formElements": [

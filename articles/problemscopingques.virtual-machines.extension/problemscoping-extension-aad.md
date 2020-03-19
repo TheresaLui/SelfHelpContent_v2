@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Azure Active Directory Login for Linux extension issue",
     "fileAttachmentHint": "",
     "formElements": [

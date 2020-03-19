@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "VM Diagnostic (boot diagnostics) extension issue",
     "fileAttachmentHint": "",
     "formElements": [

@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "My extension is not running correctly",
     "fileAttachmentHint": "",
     "formElements": [

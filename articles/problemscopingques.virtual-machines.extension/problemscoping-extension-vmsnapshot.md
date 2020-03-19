@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "VM Snapshot (Azure Backup) extension issue",
     "fileAttachmentHint": "",
     "formElements": [

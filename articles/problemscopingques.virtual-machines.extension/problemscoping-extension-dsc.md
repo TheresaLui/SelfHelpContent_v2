@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Azure Desired State Configuration (DSC) extension issue",
     "fileAttachmentHint": "",
     "formElements": [

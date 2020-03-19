@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Azure Disk Encryption (ADE) extension issue",
     "fileAttachmentHint": "",
     "formElements": [
