@@ -15,7 +15,7 @@
  />
 
 # <-- appinsights-monitoring-non-web-apps --> \
-# **Monitoring Non-Web (Non-HTTP/Background) Applications**
+**Monitoring Non-Web (Non-HTTP/Background) Applications**
 
 
 ## Common issues 
