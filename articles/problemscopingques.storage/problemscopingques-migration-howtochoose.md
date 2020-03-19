@@ -28,7 +28,7 @@
             "watermarkText": "Select source resource to migrate from",
             "dropdownOptions": [
                 {
-                    "value": "storage_accout",
+                    "value": "storage_account",
                     "text": "Azure Storage Account"
                 },
                 {
@@ -48,7 +48,7 @@
                     "text": "Azure Disks (managed)"
                 },
                 {
-                    "value": "local/on_premise",
+                    "value": "local_onpremise",
                     "text": "Local/On-Premise"
                 },
                 {
@@ -70,7 +70,7 @@
             "watermarkText": "Select destination resource to migrate to",
             "dropdownOptions": [
                 {
-                    "value": "storage_accout",
+                    "value": "storage_account",
                     "text": "Azure Storage Account"
                 },
                 {
@@ -90,7 +90,7 @@
                     "text": "Azure Disks (managed)"
                 },
                 {
-                    "value": "local/on_premise",
+                    "value": "local_onpremise",
                     "text": "Local/On-Premise"
                 },
                 {
@@ -109,7 +109,7 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Estimated data size to migrate",
-            "watermarkText": "Choose an option",
+            "watermarkText": "Choose a data size",
             "dropdownOptions": [
                 {
                     "value": "0.05",
@@ -151,47 +151,47 @@
             "required": false
         },
          {
-            "id": "network_bandwidth",
+            "id": "network_bandwidth_mbps",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Approximate available network bandwidth",
-            "watermarkText": "Choose an option",
+            "watermarkText": "Choose a network bandwidth",
             "dropdownOptions": [
                 {
-                    "value": "under45Mbps",
-                    "text": "Under 45 Mbps"
+                    "value": "none",
+                    "text": "0"
                 },
                 {
-                    "value": "45Mbps_100Mbps",
-                    "text": "45 Mbps - 100 Mbps"
+                    "value": "45 Mbps",
+                    "text": "45"
                 },
                 {
-                    "value": "100Mbps_500Mbps",
-                    "text": "100 Mbps - 500 Mbps"
+                    "value": "100 Mbps",
+                    "text": "100"
                 },
                 {
-                    "value": "500Mbps_1Gbps",
-                    "text": "500 Mbps - 1 Gbps"
+                    "value": "500 Mbps",
+                    "text": "500"
                 },
                 {
-                    "value": "1Gbps_5Gbps",
-                    "text": "1 Gbps - 5 Gbps"
+                    "value": "1 Gbps",
+                    "text": "1000"
                 },
                 {
-                    "value": "5Gbps_10Gbps",
-                    "text": "5 Gbps - 10 Gbps"
+                    "value": "5 Gbps",
+                    "text": "5000"
                 },
                 {
-                    "value": "10Gbps_40Gbps",
-                    "text": "10 Gbps - 40 Gbps"
+                    "value": "10 Gbps",
+                    "text": "10000"
                 },
                 {
-                    "value": "40Gbps_100Gbps",
-                    "text": "40 Gbps - 100 Gbps"
+                    "value": "40 Gbps",
+                    "text": "40000"
                 },
                 {
-                    "value": "over100Gbps",
-                    "text": "Greater than 100 Gbps"
+                    "value": "100 Gbps",
+                    "text": "100000"
                 },
                 {
                     "value": "dont_know_answer",
@@ -212,7 +212,7 @@
                     "text": "Once"
                 },
                 {
-                    "value": "many",
+                    "value": "repeatedly",
                     "text": "Repeatedly"
                 },
                 {
