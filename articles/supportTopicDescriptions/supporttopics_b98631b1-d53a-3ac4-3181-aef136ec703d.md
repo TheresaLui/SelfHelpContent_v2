@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b3efa415-971c-d1af-f926-daa7be464196",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the Privileged Identity Management (PIM) feature in Azure AD",
+      "searchTags": "AAD PIM;Privileged Identity Management ;Configuring PIM",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b7bc5482-ee36-5ea9-36fd-0e4eb4c870af",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health metrics and reports",
