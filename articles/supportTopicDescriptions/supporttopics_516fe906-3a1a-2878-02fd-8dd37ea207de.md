@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "67c9c2fc-2ed1-efc5-dc4c-73074b8c16ff",
+      "longDescription": "",
+      "shortDescription": "Initial deployment or unexpected results when apply password protection in on-prem AD",
+      "searchTags": "initial results of password protection ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
