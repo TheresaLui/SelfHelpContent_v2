@@ -5,7 +5,7 @@
     resource="components"
     authors="MS-jgol"
     ms.author="jgol"
-    articleId="appinsights-enable-platform-appservice"
+    articleId="insights_appservice"
     displayOrder="99"
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
