@@ -12,7 +12,7 @@ pageTitle="Export to Azure Active Directory failed"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Export to Azure Active Directory failed

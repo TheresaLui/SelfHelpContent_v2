@@ -12,7 +12,7 @@ pageTitle="Detected AADConnect server(s) running .net version less than 4.7.2"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 
