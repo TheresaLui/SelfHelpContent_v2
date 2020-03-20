@@ -12,7 +12,7 @@
 	productPesIds="14749,15571,15797,16454,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="9c0b9ec9-a07a-40e3-a6a2-f4d49f5f4ccb"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I received an allocation failure

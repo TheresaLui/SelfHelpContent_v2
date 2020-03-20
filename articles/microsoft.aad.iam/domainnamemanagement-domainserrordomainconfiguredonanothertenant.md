@@ -4,7 +4,7 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570974" 
 	 productPesIds="14785" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
 	articleId="44688b68-9c7a-48f6-80e8-684c5237f1b0"
 	ownershipId="ASEP_ContentService_Placeholder"

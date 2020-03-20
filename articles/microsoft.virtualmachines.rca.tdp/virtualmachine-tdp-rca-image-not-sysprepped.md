@@ -13,7 +13,7 @@
 	resourceTags="windows"
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 

@@ -1,7 +1,7 @@
 
 <properties
-pageTitle="Problems creating workspace"
-description="Problems creating workspace"
+pageTitle="Create or delete workspace"
+description="Create or delete workspace"
 service="microsoft.operationalinsights"
 resource="workspaces"
 symptomID=""
@@ -13,33 +13,40 @@ selfHelpType="resource"
 supportTopicIds="32612513"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
-	articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
-	ownershipId="AzureMonitoring_LogAnalytics"
+cloudEnvironments="Public, Fairfax, Mooncake"
+articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Problems While Creating Workspace
-Review common problems and solutions related to workspace creation:
+# Create or delete workspace
 
-* **Error message: *Pricing tier doesn't match the subscription's billing model*.**<br>
+### **Delete Log Analytics workspace**
 
-This error can occur in these cases:<br>
+When you delete a Log Analytics workspace, a soft-delete operation is performed by default to allow the recovery of the workspace including its data and connected agents within 14 days. After the soft-delete period, the workspace and its data are permanently purged and are non-recoverable, the workspace name is 'released' and you can use it to create a new workspace. 
 
-   * Create a workspace with *'pergb2018'* pricing plan (introduced in April 2018), while the subscription is not in *'pergb2018'* pricing plan.
-   * Create a *'Free'* workspace in subscription in *'pergb2018'* pricing plan.<br>
+* You must have *'Log Analytics Contributor'* permissions to delete a Log Analytics workspace
+* You can delete a workspace using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.operationalinsights/remove-azurermoperationalinsightsworkspace?view=azurermps-6.13.0#examples), [REST API](https://docs.microsoft.com/rest/api/loganalytics/workspaces/delete), or in the [Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#azure-portal)
+* Installed solutions and linked services such as Azure Automation account are permanently removed from the workspace and can’t be recovered
+* If your workspace was deleted during the last 14 days, hence in soft-delete state and you want to create a new workspace with the same name - you need to:<br>
+  1. [Recover](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#recover-workspace) your workspace
+  2. Permanently delete the workspace by [overriding the soft-delete behavior](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete) using this REST API
+		```rst
+		DELETE https://management.azure.com/subscriptions/<subscription-id>/resourcegroups/<resource-group-name>/providers/Microsoft.OperationalInsights/workspaces/<workspace-name>?api-version=2015-11-01-preview&force=true
+		```
+	3. Create a new workspace using the deleted workspace name<br>
 
-  Workspaces in subscriptions that were created, or [changed](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#moving-to-the-new-pricing-model) to *'pergb2018'* can only be in the *'pergb2018'* pricing plan. When creating a workspace with *'PerNode'* or *'Standalone'* pricing plan in *'pergb2018'* pricing plan subscription, the workspace pricing plan is set to *'pergb2018'* instead.
+### **Creating Log Analytics workspace**
 
-* **[Can’t create workspaces in West Central US region](https://docs.microsoft.com/azure/log-analytics/log-analytics-faq#q-why-i-cant-create-workspaces-in-west-central-us-region)<br>**
+* You must have *'Log Analytics Contributor'* permissions to create Log Analytics workspace
+* You can create Log Analytics workspace in any of the supported [regions](https://azure.microsoft.com/global-infrastructure/services/?products=monitor&regions=all) 
+* If you get an error message '*This workspace name is already in use*' when creating a workspace, it could be due to:<br>
+	* Workspace name isn't available and being used
+	* Workspace was deleted during the last 14 days and its name is reserved for the soft-delete period - In this case follow steps 1 to 3 above<br>
 
-This region is at temporary capacity limit. The limit is planned to be addressed in the first half of 2019.
-
-* **Insufficient Permissions<br>**
-
-You must have *'Log Analytics Contributor'* permissions for workspace creation.<br>
-
+ 
 ## **Recommended Documents**
 
-* [New pricing model and Operations Management Suite subscription entitlements](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#new-pricing-model-and-operations-management-suite-subscription-entitlements)
-* [Moving to the new pricing model](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#moving-to-the-new-pricing-model)
-* [Managing access to Log Analytics using Azure permissions](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-access?toc=/azure/azure-monitor/toc.json#managing-access-to-log-analytics-using-azure-permissions)
+* [Permanent workspace delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete)
+* [Recover a workspace](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#recover-workspace)
+* [Manage access to log data and workspaces in Azure Monitor](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-access?toc=/azure/azure-monitor/toc.json#managing-access-to-log-analytics-using-azure-permissions)
+* [Log Analytics supported regions](https://azure.microsoft.com/global-infrastructure/services/?products=monitor&regions=all)<br>

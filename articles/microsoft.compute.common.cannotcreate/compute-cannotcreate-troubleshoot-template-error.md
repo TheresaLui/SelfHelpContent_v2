@@ -12,7 +12,7 @@
 	productPesIds="14749,15571,15797,16454,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="91c00640-5896-42ec-9b42-652a3143fd0d"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshoot my ARM template error

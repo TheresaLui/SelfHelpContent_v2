@@ -12,7 +12,7 @@ pageTitle="DirectorySynchronization is disabled for tenant"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

@@ -12,7 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax"
     articleId="fbb1ecda-19a5-40a0-89e0-145c5076c8c0"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve connection issue with your Windows VM

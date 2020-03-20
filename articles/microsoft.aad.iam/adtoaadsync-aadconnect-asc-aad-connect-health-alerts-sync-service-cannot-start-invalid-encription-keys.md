@@ -12,7 +12,7 @@ pageTitle="Microsoft Azure AD Sync Windows service cannot start due to invalid e
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

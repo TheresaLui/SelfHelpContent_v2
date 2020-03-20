@@ -9,13 +9,13 @@
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="c2f18aa8-257d-41d5-9f86-87b5bf3c4d26"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Cannot activate my Windows VM
 ---
 {
-    "resourceRequired": true,
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Issues that are related to activating a Windows license in Azure",
     "fileAttachmentHint": "",
     "formElements": [

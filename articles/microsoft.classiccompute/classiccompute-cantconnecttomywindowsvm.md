@@ -12,7 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax"
 	articleId="76f3e549-7706-4cc4-870e-b74887a840f7"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve Windows Virtual Machine Connection issues

@@ -12,9 +12,9 @@
 	ownershipId="Compute_VirtualMachines"
 />
 # Management
+
 ---
 {
-
                 "subscriptionRequired": true,
                 "resourceRequired": false,
                 "title": "Instance Metadata Service",
