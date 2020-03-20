@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="756bcac5-6341-4b44-962e-c59eaf1bf093"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Configuration and Setup/Configure SQL Server on an IaaS VM

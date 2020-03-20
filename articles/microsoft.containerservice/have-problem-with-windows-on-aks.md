@@ -10,7 +10,7 @@
     supportTopicIds="32640213"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="I have problem with Windows on AKS"
 	ownershipId="Compute_AzureKubernetesService"
 />

@@ -12,7 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="70aa7b91-9f9e-4fc6-9a7b-e083bfa28e84"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve configuration and setup/create issues with Remote Desktop Services in Azure

@@ -30,6 +30,12 @@ The above issue is listed when the Azure Migrate appliance cannot collect perfor
 
 There is a known gap in Server Assessment where it is unable to detect the minor version of the Linux OS installed on the on-premises VMs (for example, for RHEL 6.10, currently Server Assessment only detects RHEL 6 as the OS version). Since Azure endorses only specific versions of Linux, the Linux VMs are currently marked as conditionally ready in Server Assessment. We are working on this issue and this gap will be fixed in future. Meanwhile, you can manually ensure if the Linux OS running on the on-premises VM is endorsed in Azure by reviewing the [Azure Linux support documentation](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros). Once you have verified the endorsed distro, you can ignore this warning.
 
+### **The VM SKU recommended by Server Assessment in an import-based assessment has less memory than what I have provided in my CSV. Why is that so?** 
+
+This may happen due to the following reasons:
+- You have provided the memory size in GB. The CSV expects the memory size to be in MB. 
+- You have chosen a performance-based assessment and provided a memory utilization value that is lower than 100%.
+
 ### **The VM SKU recommended by Server Assessment has more number of cores and a larger memory size than what is allocated on-premises. Why is that so?**
 
 The VM SKU recommendation in Server Assessment depends on the assessment properties. You can create two kinds of assessments in Server Assessment, 'performance-based' and 'as on-premises' assessments. For performance-based assessments, Server Assessment considers the utilization data of the on-premises VMs (CPU, memory, disk and network utilization) to determine the right target VM SKU for your on-premises VMs. Additionally, for performance-based sizing, the comfort factor is taken into account to identify the effective utilization. For as on-premises sizing, performance data is not considered and a target SKU is recommended based on what is allocated on-premises.

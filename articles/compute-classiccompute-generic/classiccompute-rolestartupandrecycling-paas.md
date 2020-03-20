@@ -11,7 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="c887b1f7-c005-422d-bf7f-7a14a718c8b2"
-	ownershipId="Compute_CloudServices"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/application and service availability/role startup and recycling

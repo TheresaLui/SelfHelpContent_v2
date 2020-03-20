@@ -12,6 +12,7 @@
 	productPesIds="16601"
 	cloudEnvironments="public"
 	articleId="282912e1-02f7-4bcc-bc9b-adc21e9f7c6d"
+ownershipId="Compute_Automation"
 />
 
 # Azure Blockchain Service

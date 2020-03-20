@@ -12,7 +12,7 @@
 	productPesIds="14749,14745"
 	cloudEnvironments="public, Fairfax"
 	articleId="d67fb475-a831-4f4b-a6ce-7fbacb0bf9df"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # connectivity/cannot connect to virtual machine using rdp or ssh

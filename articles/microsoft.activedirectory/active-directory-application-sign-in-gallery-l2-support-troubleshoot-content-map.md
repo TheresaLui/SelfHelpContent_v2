@@ -8,9 +8,9 @@
     selfHelpType="generic"
     supportTopicIds="32596848"
     productPesIds="16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
     	articleId="178a0efc-4ef9-4905-b034-3f25484e7772"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Issues that are related to signing in to gallery or non gallery applications

@@ -34,8 +34,16 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "parameter_scenario",
             "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What scenario the parameter(s) is used for",
+            "watermarkText": "Provide your scenario",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",

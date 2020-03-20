@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="d731f802-172a-40c1-bfb6-e6d58d85ef85"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I have a general question about SQL VM

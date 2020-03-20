@@ -8,9 +8,9 @@
   selfHelpType="generic"
   supportTopicIds="32570261"
   productPesIds="16575"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake"
  	articleId="5c2cb674-d2dd-4874-87ac-a18593340dbe"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Problems developing my application

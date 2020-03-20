@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="ProductId"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
+    ownershipId=""
 />
 
 # We ran diagnostics on your resource and found high request limit

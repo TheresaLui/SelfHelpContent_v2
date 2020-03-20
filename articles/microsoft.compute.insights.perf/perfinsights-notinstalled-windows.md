@@ -14,7 +14,7 @@
     resourceTags="windows"
     productPesIds="14749"
     cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Perfinsights tool could help you diagnose key performance issues on this VM

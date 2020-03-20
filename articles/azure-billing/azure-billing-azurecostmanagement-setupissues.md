@@ -19,6 +19,7 @@
 
 ## **Recommended Documents**
 
+* [Data refresh schedules](https://docs.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data#rated-usage-data-refresh-schedule)<br>
 * [Costs included in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#costs-included-in-cost-management)<br>
 * [Historical data in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#historical-data-might-not-match-invoice)<br>
 * [Usage data update frequency](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#usage-data-update-frequency-varies)<br>

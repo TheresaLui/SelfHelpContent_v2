@@ -11,7 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="8030e193-2490-4bd6-9cbd-8b4eee5ac614"
-	ownershipId="Compute_CloudServices"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/Deployment/Role recycles or stuck during deployment
