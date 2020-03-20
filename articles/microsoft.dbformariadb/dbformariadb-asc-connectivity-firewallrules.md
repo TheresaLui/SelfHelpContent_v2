@@ -24,7 +24,7 @@ There are <!--$Count-->Count<!--/$Count--> failed connections to MariaDB server 
 
 ## **Recommended Steps**
 
-* You can either specify a single IP address or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-using-portal), the [Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-using-cli), and our [REST API](https://docs.microsoft.com/rest/api/mariadb/). Alternatively, you can use [virtual network rules](https://docs.microsoft.com/azure/mariadb/concepts-data-access-and-security-vnet).
+* You can either specify a single IP address or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-portal), the [Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-manage-firewall-cli), and our [REST API](https://docs.microsoft.com/rest/api/mariadb/). Alternatively, you can use [virtual network rules](https://docs.microsoft.com/azure/mariadb/concepts-data-access-security-vnet).
 * The server's IP may appear to be public because you can ping or connect using telnet. However, connections to an Azure Database for MariaDB server are first routed through a publicly accessible Azure gateway. The actual server is protected by a firewall. For more information, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture).
 
 ## **Recommended Documents**
