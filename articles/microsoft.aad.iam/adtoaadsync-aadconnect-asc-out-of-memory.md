@@ -12,7 +12,7 @@ pageTitle="AAD Connect server(s) are running low in memory"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

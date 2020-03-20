@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake"
 	articleId="b1841820-85f3-4875-9778-0ef5798f8ea9"
 	ownershipId="AzureIdentity_User"
 />

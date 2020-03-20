@@ -10,7 +10,7 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16578"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake"
     	articleId="7f7ae579-3adf-49b1-8c83-64ad1a296d30"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />

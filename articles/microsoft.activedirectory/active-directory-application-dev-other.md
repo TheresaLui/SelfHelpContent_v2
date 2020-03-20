@@ -7,7 +7,7 @@
   selfHelpType="generic"
   supportTopicIds="32596861"
   productPesIds="14785"
-  cloudEnvironments="public, Fairfax"
+  cloudEnvironments="public, Fairfax, Mooncake"
  	articleId="4c760fa3-e749-499b-a1d9-c3d816660030"
 	ownershipId="ASEP_ContentService_Placeholder"
 />

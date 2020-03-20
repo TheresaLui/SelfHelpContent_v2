@@ -12,7 +12,7 @@ pageTitle="This company has exceeded the number of objects that can be synchroni
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

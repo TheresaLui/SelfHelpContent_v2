@@ -7,7 +7,7 @@
     displayOrder="600"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake"
  	articleId="da73114e-feeb-4a44-9d7d-2bbaac131c50"
 	ownershipId="AzureIdentity_User"
 />
