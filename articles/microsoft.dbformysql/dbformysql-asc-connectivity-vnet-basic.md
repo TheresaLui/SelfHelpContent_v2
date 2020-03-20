@@ -28,7 +28,7 @@ MySQL server <!--$ServerName-->ServerName<!--/$ServerName--> is a Basic tier ser
 
 ## **Recommended Documents**
 
-* [Pricing tiers in Azure Database for MySQL - Single Server](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers)
+* [Pricing tiers in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers)
 * [Azure Database for MySQL Virtual network service endpoints](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-vnet)
 * [Setting Virtual network service endpoints - Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal)
 * [Setting Virtual network service endpoints - CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli)
