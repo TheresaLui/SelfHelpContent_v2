@@ -41,7 +41,7 @@
             "id": "ad_vm",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Is the virtual machine you used to mount Azure Files using AD credentials domain joined to AD also referred as AD DS?",
+            "displayLabel": "Is the virtual machine you used to mount Azure Files using AD credentials domain joined to AD (also referred as AD DS)?",
             "watermarkText": "Choose an option",
             "visibility": "ran_through_prereq == yes",
             "dropdownOptions": [
