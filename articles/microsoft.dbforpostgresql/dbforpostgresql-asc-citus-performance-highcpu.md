@@ -1,6 +1,6 @@
 <properties
-    pageTitle="PostgreSQL server is facing high CPU usage"
-    description="PostgreSQL server is facing high CPU usage"
+    pageTitle="Hyperscale (Citus) server is facing high CPU usage"
+    description="Hyperscale (Citus) server is facing high CPU usage"
 	infoBubbleText="Server is facing high CPU usage. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"
@@ -20,7 +20,7 @@
 # Server is facing high CPU usage
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your performance issues with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your CPU percent is above 90% for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. High CPU percent could be due to multiple causes.
+Thank you for contacting Microsoft support about your performance issues with your Hyperscale (Citus) server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your CPU percent is above 90% for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. High CPU percent could be due to multiple causes.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
