@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VNET Is Not Supported on Basic Tier"
-	description="RCA - VNET Is Not Supported on Basic Tier RCA"
+	description="RCA - VNET Is Not Supported on Basic Tier"
 	infoBubbleText="Found recent connection failure. See details on the right"
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"

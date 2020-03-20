@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Connect to Server Failed Because of VNET"
-	description="RCA - Connect to Server Failed Because of VNET RCA"
+	description="RCA - Connect to Server Failed Because of VNET"
 	infoBubbleText="Found recent connection failure. See details on the right"
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"

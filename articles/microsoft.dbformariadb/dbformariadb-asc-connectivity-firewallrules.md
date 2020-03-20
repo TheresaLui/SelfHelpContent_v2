@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Connect to Server Failed Because of Firewall"
-	description="RCA - Connect to Server Failed Because of Firewall RCA"
+	description="RCA - Connect to Server Failed Because of Firewall"
 	infoBubbleText="Found recent connection failure. See details on the right"
 	service="microsoft.dbformariadb"
 	resource="dbformariadb"
