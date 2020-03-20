@@ -31,6 +31,6 @@ There are <!--$Count-->Count<!--/$Count--> failed connections to MySQL server <!
 
 * [Firewall rule concepts in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules)
 * [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)
-* [Tutorial: Creating and connecting to Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-azure-portal/)
+* [Tutorial: Creating and connecting to Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal)
 * [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
 * [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMySQL)

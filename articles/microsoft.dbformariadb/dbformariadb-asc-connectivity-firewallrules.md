@@ -31,6 +31,6 @@ There are <!--$Count-->Count<!--/$Count--> failed connections to MariaDB server 
 
 * [Firewall rule concepts in Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/concepts-firewall-rules)
 * [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-troubleshoot-common-connection-issues)
-* [Tutorial: Creating and connecting to Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/tutorial-design-database-using-azure-portal/)
+* [Tutorial: Creating and connecting to Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/tutorial-design-database-using-portal)
 * [Azure Database for MariaDB](https://azure.microsoft.com/services/mariadb/)
 * [MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMariaDB)
