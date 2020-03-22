@@ -3,7 +3,7 @@
 	description="How to develop with REST APIs"
 	service="microsoft.storage"
 	resource="storage"
-	authors="kashah"
+	authors="kartikshah9"
 	ms.author="kashah"
 	displayOrder=""
 	selfHelpType="generic"

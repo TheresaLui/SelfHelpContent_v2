@@ -22,7 +22,8 @@
 
 Most customers resolve their Azure Command Line Interface related queries with Azure Data Lake Storage Gen2 on their own, using the links below. 
 
-* [Azure Data Lake Gen2 Storage CLI Commands](https://docs.microsoft.com/cli/azure/ext/storage-preview/storage/blob?view=azure-cli-latest)<br>
+* [Access Control Lists Code Samples](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-cli)<br>
+* [Additional Code Samples](https://docs.microsoft.com/cli/azure/ext/storage-preview/storage/blob?view=azure-cli-latest)<br>
 
 
 

@@ -3,8 +3,8 @@
 	description="How to develop with PowerShell"
 	service="microsoft.storage"
 	resource="storage"
-	authors="passaree"
-	ms.author="passap"
+	authors="kartikshah9"
+	ms.author="kashah"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602729"
@@ -20,6 +20,7 @@
 
 Most customers resolve their Powershell related issues with Blob Storage on their own, using the links below.
 
+- [Blob Storage PowerShell Code Samples](https://docs.microsoft.com/azure/storage/blobs/storage-samples-blobs-powershell)<br>
 - [Azure Storage PowerShell Cmdlets](https://docs.microsoft.com/powershell/module/azurerm.storage/?view=azurermps-6.11.0#storage)<br>
 - [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps?view=azurermps-6.11.0)<br>
 
