@@ -32,7 +32,7 @@ Please bear in mind the followings:
 * You can delete a workspace using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.operationalinsights/remove-azurermoperationalinsightsworkspace?view=azurermps-6.13.0#examples), [REST API](https://docs.microsoft.com/rest/api/loganalytics/workspaces/delete), or in the [Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#azure-portal).
 * When you delete a workspace, installed solutions and linked services such as Azure Automation account are permanently removed and can’t be recovered.
 * You can permanently delete a workspace:<br>
-  1. [overriding the soft-delete behavior](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete) using this REST API with 'force' tag:<br>
+  1. [Overriding the soft-delete behavior](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete) using this REST API with 'force' tag:<br>
 		```rst
 		DELETE https://management.azure.com/subscriptions/<subscription-id>/resourcegroups/<resource-group-name>/providers/Microsoft.OperationalInsights/workspaces/<workspace-name>?api-version=2015-11-01-preview&force=true
 		```
