@@ -20,7 +20,7 @@
 # Server is facing high CPU usage
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your performance issues with your Hyperscale (Citus) server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your CPU percent is above 90% for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. High CPU percent could be due to multiple causes.
+Your CPU percentage of your Hyperscale (Citus) server <!--$ServerName-->ServerName<!--/$ServerName--> is above 90% for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. High CPU percent could be due to multiple causes.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
