@@ -20,24 +20,35 @@
 
 ## **Recommended Steps**
 
+Is your disk attached to the VM?
+* **Attach an existing disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-an-existing-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#attach-an-existing-data-disk-to-a-vm)000
+* **Attach a new disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-a-new-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#add-an-empty-data-disk-to-a-virtual-machine)
+
+Check to see if the disk is online in the guest.
+
+
+If this is a newly created VHD, have you initialized and formatted the disk yet?
 * [Initialize a new data disk in a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/attach-managed-disk-portal#initialize-a-new-data-disk)
 * [Initialize a new disk](https://docs.microsoft.com/windows-server/storage/disk-management/initialize-new-disks)
-* [Change a drive letter](https://docs.microsoft.com/windows-server/storage/disk-management/change-a-drive-letter)
-* [Extend a basic volume](https://docs.microsoft.com/windows-server/storage/disk-management/extend-a-basic-volume)
-* [Troubleshooting issues with disks in Disk Management](https://docs.microsoft.com/windows-server/storage/disk-management/troubleshooting-disk-management)
-* []()
-* []()
-* []()
+
+Need help with a Storage Pool?
 * [Storage Spaces FAQ](https://social.technet.microsoft.com/wiki/contents/articles/11382.storage-spaces-frequently-asked-questions-faq.aspx)
 * [Storage Spaces](https://docs.microsoft.com/windows-server/storage/storage-spaces/overview)
 * [Deploy Storage Spaces on a stand-alone server](https://docs.microsoft.com/windows-server/storage/storage-spaces/deploy-standalone-storage-spaces)
+
+Common Windows disk management tasks
+* [Change a drive letter](https://docs.microsoft.com/windows-server/storage/disk-management/change-a-drive-letter)
+* [Extend a basic volume](https://docs.microsoft.com/windows-server/storage/disk-management/extend-a-basic-volume)
+
+Troubleshooting Windows disk issues:
+* [Troubleshooting issues with disks in Disk Management](https://docs.microsoft.com/windows-server/storage/disk-management/troubleshooting-disk-management)
+
+Azure VM Temporary disk
 * [Understanding the temporary disk on a VM](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview#temporary-disk)
 * [Change the drive letter of the temporary disk](https://docs.microsoft.com/azure/virtual-machines/windows/change-drive-letter)
 
-* **Attach a new disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-a-new-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#add-an-empty-data-disk-to-a-virtual-machine)
-* **Attach an existing disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-an-existing-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#attach-an-existing-data-disk-to-a-vm)
+
 * **Detach a data disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/detach-disk#detach-a-data-disk-using-the-portall) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/detach-disk#detach-a-data-disk-using-powershell)
-* [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/find-unattached-disks)
 
 **NOTE**: When detaching a disk, remember to connect to the VM and **unmount the disk first**.
 
@@ -48,3 +59,4 @@
 * [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#supported-vms)
 * [FAQ for Premium disks: Managed and unmanaged](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks#premium-disks-managed-and-unmanaged)
 * [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks)
+* [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/find-unattached-disks)
