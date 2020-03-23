@@ -33,14 +33,9 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Description",
       "infoBalloonText": "To get iotedged logs, edge-agent logs, and edge-hub logs, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps'>IoT Edge diagnostic steps</a>",
-      "watermarkText": "Please provide the description of the issue and expected behavior vs. what you're observing.",
+      "watermarkText": "Please provide the description of the issue and expected behavior vs. what you're observing.<br><br> Note: IoT Edge release 1.0.9 is available now with several improvements. If you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible. <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/12371001'> Learn more about the improvements</a>",
       "required": true,
       "useAsAdditionalDetails": true,
-      "hints": [
-        {
-          "text": "Note: IoT Edge release 1.0.9 is available now with several improvements. If you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible. <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/12371001'> Learn more about the improvements</a>"
-        }
-      ]
     },
     {
       "id": "edge_device_id",
