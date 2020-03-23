@@ -35,6 +35,27 @@
 
     },
     {
+      "id": "problem_description",
+      "order": 11,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Description",
+      "infoBalloonText": "To get iotedged logs, edge-agent logs, and edge-hub logs, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps'>IoT Edge diagnostic steps</a>",
+      "watermarkText": "Please provide any additional information that may be helpful in understanding the issue. ",
+      "required": true,
+      "useAsAdditionalDetails": true,
+      "hints": [
+        {
+          "text": "Description of the issue and steps to reproduce"
+        },
+        {
+          "text": "Expected behavior and current behavior"
+        },
+        {
+          "text": "Note: IoT Edge release 1.0.9 is available now with several improvements. If you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible. <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/12371001'> Learn more about the improvements </a>"
+        }
+      ]
+    },
+    {
       "id": "edge_device_id",
       "order": 2,
       "controlType": "textbox",
@@ -80,7 +101,7 @@
     },
     {
       "id": "iotedge_check_108",
-      "visibility": "edge_version == 108OrHigher",
+      "visibility": "edge_version == 108",
       "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "Output of 'sudo iotedge check --output json'",
