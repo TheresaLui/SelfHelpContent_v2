@@ -18,7 +18,7 @@
   "subscriptionRequired": false,
   "resourceRequired": false,
   "title": "Issue with IoT Edge",
-  "fileAttachmentHint": "On releases 1.0.9 and later, please attach the output of 'sudo iotedge support-bundle --since 24h',
+  "fileAttachmentHint": "On releases 1.0.9 and later, please attach the output of 'sudo iotedge support-bundle --since 24h'",
   "formElements": [
     {
       "id": "problem_start_time",
