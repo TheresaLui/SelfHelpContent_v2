@@ -30,11 +30,11 @@
                 {
                     "value": "storage_account",
                     "text": "Azure Storage Account"
-                },
+		},
                 {
                     "value": "blob",
                     "text": "Azure Blob"
-                },
+		},
                 {
                     "value": "files",
                     "text": "Azure Files"
