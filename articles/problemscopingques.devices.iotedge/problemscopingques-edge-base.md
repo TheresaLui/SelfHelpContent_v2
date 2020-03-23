@@ -87,10 +87,7 @@
       "order": 13,
       "controlType": "textblock",
       "displayLabel": "Latest version advisory",
-      "dynamicTextBlockOptions":
-      {
-        "defaultTextBlockText": "IoT Edge release 1.0.9 is available now with several improvements. If you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible. <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/12371001'> Learn more about the improvements</a>"
-      }
+      "defaultTextBlockText": "IoT Edge release 1.0.9 is available now with several improvements. If you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible. <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/12371001'> Learn more about the improvements</a>"
     },
     {
       "id": "iotedge_check_108",
