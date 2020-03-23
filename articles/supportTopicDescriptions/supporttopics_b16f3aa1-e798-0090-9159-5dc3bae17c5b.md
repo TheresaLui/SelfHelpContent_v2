@@ -115,6 +115,14 @@
       "searchTags": "Question re B2C tokens and sessions ",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb9cd7ad-f2c8-3a71-6739-67bedf288bf9",
+      "longDescription": "",
+      "shortDescription": "General questions around the identity experience framework. e.g. determining if custom user flow policies are necessary or not for your requirements",
+      "searchTags": "General issues with IEF",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
