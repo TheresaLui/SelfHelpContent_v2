@@ -17,5 +17,5 @@
 
 # Solution Found
 <!--issueDescription-->
-We have researched your case and have identified problemtic operations per below. Please review these issues and proceed as recommended.
+We have researched your case and have identified the problematic operations below. Please review these issues and proceed as recommended.
 <!--/issueDescription-->
