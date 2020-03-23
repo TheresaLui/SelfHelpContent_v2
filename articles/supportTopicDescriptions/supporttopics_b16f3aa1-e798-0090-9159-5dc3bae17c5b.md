@@ -91,6 +91,14 @@
       "searchTags": "Issues re b2c extensions app",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0bb83f4-88a9-d93c-1e9e-ddedb2a73c36",
+      "longDescription": "",
+      "shortDescription": "Questions regarding AAD B2C session token lifetime, timeout, and single sign on setting configurations",
+      "searchTags": "Question re B2C tokens and sessions ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
