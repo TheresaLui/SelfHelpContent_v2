@@ -17,9 +17,9 @@
 	ownershipId="SignalRService_Triage"
 />
 
-# Access key and connection string issue
+# Access key and connection string issue 
 
-## **Recommended Documents**
+## **Recommended Documents** 
 
 * [How to use and configure connection string](https://github.com/Azure/azure-signalr/blob/dev/docs/use-signalr-service.md)
 * [How to rotate access key for Azure SignalR Service](https://docs.microsoft.com/azure/azure-signalr/signalr-howto-key-rotation)
