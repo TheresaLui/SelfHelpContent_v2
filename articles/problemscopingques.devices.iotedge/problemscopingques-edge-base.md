@@ -51,8 +51,12 @@
       "watermarkText": "Choose an option",
       "dropdownOptions": [
         {
-          "value": "108OrHigher",
-          "text": "1.0.8 or higher"
+          "value": "109+",
+          "text": "1.0.9 or higher"
+        },
+        {
+          "value": "108",
+          "text": "1.0.8"
         },
         {
           "value": "107",
