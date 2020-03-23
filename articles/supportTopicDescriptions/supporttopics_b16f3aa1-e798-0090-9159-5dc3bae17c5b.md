@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "db033092-1023-0b41-0517-41ffb61c7a56",
+      "longDescription": "",
+      "shortDescription": "Questions regarding identity experience framework user flow issues which are not listed.",
+      "searchTags": "issues with IEF user flows ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f0bb83f4-88a9-d93c-1e9e-ddedb2a73c36",
       "longDescription": "",
       "shortDescription": "Questions regarding AAD B2C session token lifetime, timeout, and single sign on setting configurations",
