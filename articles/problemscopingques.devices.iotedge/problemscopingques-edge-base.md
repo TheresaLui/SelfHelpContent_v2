@@ -85,9 +85,9 @@
       "id": "update_to_109",
       "visibility": "edge_version == 107 || edge_version == dont_know_answer || edge_version == 108",
       "order": 13,
-      "controlType": "textblock",
+      "controlType": "multilinetextbox",
       "displayLabel": "Latest version advisory",
-      "defaultTextBlockText": "IoT Edge release 1.0.9 is available now with several improvements. If you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible. <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/12371001'> Learn more about the improvements</a>"
+      "watermarkText": "IoT Edge release 1.0.9 is available now with several improvements. If you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible. \n\n To learn more, visit: https://aka.ms/iotedge109"
     },
     {
       "id": "iotedge_check_108",
