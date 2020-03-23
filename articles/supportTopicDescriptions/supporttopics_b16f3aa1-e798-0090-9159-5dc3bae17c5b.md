@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6d191da7-d704-8f8a-388e-ead85479eacb",
+      "longDescription": "",
+      "shortDescription": "Questions regarding managing AAD B2C encryption keys used for signing and validating tokens.",
+      "searchTags": "Key mngmt re Identity Exp Framework",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80a047a0-fe4c-9df8-33af-6aa2ed06551a",
       "longDescription": "",
       "shortDescription": "Questions regarding the privacy and consent compliance options for Azure AD B2C directories",
