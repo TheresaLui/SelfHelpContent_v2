@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
-	ownershipId="AzureIdentity_IAM"
+	ownershipId="AzureIdentity_User"
 />
 
 # My Staff is not enabled for the user ID entered during support case creation
