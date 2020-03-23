@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "147a5c79-3885-5468-f8ec-33856a9dffb0",
+      "longDescription": "",
+      "shortDescription": "Questions regarding managing AAD B2C external identity providers in your identity experience framework user flows",
+      "searchTags": "questions re managing B2C id providers",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "18312fe0-040a-f313-c9cf-2186a0f0c28b",
       "longDescription": "",
       "shortDescription": "Questions regarding the creation or deletion of Azure AD B2C user accounts.",
