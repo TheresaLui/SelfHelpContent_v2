@@ -21,7 +21,7 @@
   "fileAttachmentHint": "Upload screenshots of errors if available",
   "diagnosticCard": {
     "title": "IoT Edge release 1.0.9 now available",
-    "description": "It is highly recommended that you upgrade to the IoT Edge 1.0.9 release. It has a number of stability improvements and new troubleshooting tools. Learn more at https://aka.ms/iotedge109.",
+    "description": "It is highly recommended that you upgrade to the IoT Edge 1.0.9 release. It has a number of stability improvements and new troubleshooting tools. Learn more at https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/1237100.",
     "insightNotAvailableText": "We didn't find any problems"
   },
   "formElements": [
